@@ -7,7 +7,7 @@
       "build_source_folder": "winrt-related-src",
       "build_output_subfolder": "winrt-related",
       "locale": "en-us",
-      "version": 0,
+      "monikers": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -15,7 +15,8 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes"
+      "template_folder": "_themes",
+      "version": 0
     }
   ],
   "notification_subscribers": [],
