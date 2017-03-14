@@ -1,1 +1,0 @@
-# Microsoft Store Services SDK
