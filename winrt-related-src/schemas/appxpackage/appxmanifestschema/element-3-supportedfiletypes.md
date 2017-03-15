@@ -1,0 +1,169 @@
+---
+Description: 'SupportedFileTypes (type: CT\_CharmsSupportedFileTypes)'
+MS-HAID: AppxManifestSchema.element\_3\_SupportedFileTypes
+MSHAttr:
+- PreferredSiteName:MSDN
+- PreferredLib:/library/windows/apps
+Search.Product: eADQiWindows 10XVcnh
+title: 'SupportedFileTypes (type: CT\_CharmsSupportedFileTypes)'
+ms.assetid: fd3072eb-572d-4855-8a9c-3de1599b5a00
+author: laurenhughes
+ms.author: lahugh
+keywords: windows 10
+---
+
+# SupportedFileTypes (type: CT\_CharmsSupportedFileTypes)
+
+
+Defines the file types that the app can share.
+
+## Element hierarchy
+
+<dl>
+<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-1-extension.md">&lt;Extension&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-sharetarget.md">&lt;ShareTarget&gt;</a></dt>
+<dd><b>&lt;SupportedFileTypes&gt;</b></dd>
+</dl>
+<dl>
+<dt><a href="element-fileopenpicker.md">&lt;FileOpenPicker&gt;</a></dt>
+<dd><b>&lt;SupportedFileTypes&gt;</b></dd>
+</dl>
+<dl>
+<dt><a href="element-filesavepicker.md">&lt;FileSavePicker&gt;</a></dt>
+<dd><b>&lt;SupportedFileTypes&gt;</b></dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+
+## Syntax
+
+``` syntax
+<SupportedFileTypes>
+
+  <!-- Child elements -->
+  ( FileType{1,10000}
+  | SupportsAnyFileType
+  )
+
+</SupportedFileTypes>
+```
+
+### Key
+
+`{}`   specific range of occurrences
+
+## Attributes and Elements
+
+
+### Attributes
+
+None.
+
+### Child Elements
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Child Element</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>[FileType (type: ST_FileType)](element-3-filetype.md)</td>
+<td><p>A file type specified as its file type extension. It is unique per application in the package and is case sensitive.</p></td>
+</tr>
+<tr class="even">
+<td>[SupportsAnyFileType](element-2-supportsanyfiletype.md)</td>
+<td><p>Indicates whether all file types are supported for sharing.</p></td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+### Parent Elements
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parent Element</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>[FileOpenPicker](element-fileopenpicker.md)</td>
+<td><p>Declares an app extensibility point of type <strong>windows.fileOpenPicker</strong>. The app lets the user choose and open the specified types of files.</p></td>
+</tr>
+<tr class="even">
+<td>[FileSavePicker](element-filesavepicker.md)</td>
+<td><p>Declares an app extensibility point of type <strong>windows.fileSavePicker</strong>. The app lets the user choose the file name, extension, and storage location for the specified types of files.</p></td>
+</tr>
+<tr class="odd">
+<td>[ShareTarget](element-sharetarget.md)</td>
+<td><p>Declares an app extension point of type <strong>windows.shareTarget</strong>. The app can share the specified types of files.</p></td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+## Related elements
+
+
+The following elements have the same name as this one, but different content or attributes:
+
+-   **[SupportedFileTypes (type: CT\_FTASupportedFileTypes)](element-supportedfiletypes.md)**
+
+## Requirements
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p>Namespace</p></td>
+<td><p>http://schemas.microsoft.com/appx/2010/manifest</p></td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+ 
+
+
+

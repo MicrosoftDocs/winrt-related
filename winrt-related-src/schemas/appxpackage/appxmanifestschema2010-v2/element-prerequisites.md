@@ -1,0 +1,138 @@
+---
+Description: Prerequisites
+MS-HAID: AppxManifestSchema2010\_v2.element\_Prerequisites
+MSHAttr:
+- PreferredSiteName:MSDN
+- PreferredLib:/library/windows/apps
+Search.Product: eADQiWindows 10XVcnh
+title: Prerequisites
+ms.assetid: 93b13906-9c63-46d0-8659-0f382ce8f477
+author: laurenhughes
+ms.author: lahugh
+keywords: windows 10
+---
+
+# Prerequisites
+
+
+
+
+Declares the minimum operating system and software requirements that must exist for the package to be applicable to the system.
+
+## Element hierarchy
+
+<dl>
+<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
+<dd><b>&lt;Prerequisites&gt;</b></dd>
+</dl>
+
+## Syntax
+
+``` syntax
+<Prerequisites>
+
+  <!-- Child elements -->
+  ( OSMinVersion
+  & OSMaxVersionTested
+  )
+
+</Prerequisites>
+```
+
+### Key
+
+`&`   interleave connector (may occur in any order)
+
+## Attributes and Elements
+
+
+### Attributes
+
+None.
+
+### Child Elements
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Child Element</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>[OSMaxVersionTested](element-osmaxversiontested.md)</td>
+<td><p>This should be filled in by the developer with the highest version of Windows that the package was tested on. This field is required. Windows will not block installation of the package on versions of the OS higher than the value provided in this field. When an app is executed, Windows will compare this field to the actual OS version. If the value provided in this field is less than the current OS version, Windows may provide behavior compatible with the highest tested OS version for some or all APIs. If the value provided in this field is greater than or equal to the current OS version, Windows will not apply any compatibility changes to APIs.</p></td>
+</tr>
+<tr class="even">
+<td>[OSMinVersion](element-osminversion.md)</td>
+<td><p>The minimum version of the operating system that the package requires.</p></td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+### Parent Elements
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parent Element</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>[Package](element-package.md)</td>
+<td><p>Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system.</p></td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+## Remarks
+
+The OSMaxVersionTested value must be greater than or equal to the OSMinVersion value, otherwise manifest validation fails.
+
+## Examples
+
+The following example is taken from the package manifest of one of the SDK samples.
+
+```XML
+<Prerequisites>
+  <OSMinVersion>6.3.0</OSMinVersion>
+  <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+</Prerequisites>
+```
+
+## Requirements
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p>Namespace</p></td>
+<td><p>http://schemas.microsoft.com/appx/2010/manifest</p></td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+ 
+
+
+

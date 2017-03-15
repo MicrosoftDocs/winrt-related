@@ -1,0 +1,155 @@
+---
+Description: commands
+MS-HAID: toast.element\_commands
+MSHAttr:
+- PreferredSiteName:MSDN
+- PreferredLib:/library/windows/apps
+Search.Product: eADQiWindows 10XVcnh
+title: commands
+ms.assetid: 34e5b696-bc5c-40d1-abe0-42b10a0a6611
+author: mcleblanc
+ms.author: markl
+keywords: windows 10
+---
+
+# commands
+
+
+
+
+Specifies that the toast notification is being used to indicate an incoming call or an alarm, with appropriate commands associated with each scenario.
+
+## Element hierarchy
+
+<dl>
+<dt><a href="element-toast.md">&lt;toast&gt;</a></dt>
+<dd><b>&lt;commands&gt;</b></dd>
+</dl>
+
+## Syntax
+
+``` syntax
+<commands scenario? = "alarm" | "incomingCall" >
+
+  <!-- Child elements -->
+  command*
+
+</commands>
+```
+
+### Key
+
+`?`   optional (zero or one)
+`*`   optional (zero or more)
+
+## Attributes and Elements
+
+
+### Attributes
+
+<table>
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Attribute</th>
+<th>Description</th>
+<th>Data type</th>
+<th>Required</th>
+<th>Default value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>scenario</strong></td>
+<td><p>The intended use of the notification.</p></td>
+<td><p>This attribute can have one of the following values:</p>
+<ul>
+<li>alarm</li>
+<li>incomingCall</li>
+</ul></td>
+<td>No</td>
+<td>None</td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+### Child Elements
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Child Element</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>[command](element-command.md)</td>
+<td><p>Specifies a scenario-associated button shown in a toast. The scenario is specified in the parent [<strong>commands</strong>](element-commands.md) element.</p></td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+### Parent Elements
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parent Element</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>[toast](element-toast.md)</td>
+<td><p>Base toast element, which contains at least a single [<strong>visual</strong>](element-visual.md) element.</p></td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+## See also
+
+
+[Alarm notifications sample](http://go.microsoft.com/fwlink/p/?linkid=310148)
+
+## Requirements
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p>Namespace</p></td>
+<td><p>http://schemas.microsoft.com/notifications/2012/toast.xsd</p></td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+ 
+
+
+

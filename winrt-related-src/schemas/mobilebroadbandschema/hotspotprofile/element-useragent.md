@@ -1,0 +1,91 @@
+---
+Description: UserAgent
+MS-HAID: HotSpotProfile.element\_UserAgent
+MSHAttr:
+- PreferredSiteName:MSDN
+- PreferredLib:/library/windows/apps
+Search.Product: eADQiWindows 10XVcnh
+title: UserAgent
+ms.assetid: cbc35545-b55e-4d2d-82ba-d9fd97cf9d95
+author: mcleblanc
+ms.author: markl
+keywords: windows 10
+---
+
+# UserAgent
+
+
+Customized HTTP user agent string to support operator-specific user agent filtering. This element is optional.
+
+## Element hierarchy
+
+<dl>
+<dt><a href="element-hotspotprofile.md">&lt;HotspotProfile&gt;</a></dt>
+<dd><b>&lt;UserAgent&gt;</b></dd>
+</dl>
+
+## Syntax
+
+``` syntax
+<UserAgent>
+
+  token
+
+</UserAgent>
+```
+
+## Attributes and Elements
+
+
+### Attributes
+
+None.
+
+### Child Elements
+
+None.
+
+### Parent Elements
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parent Element</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>[HotspotProfile](element-hotspotprofile.md)</td>
+<td><p>Defines the properties and login credentials for a Wi-Fi hotspot. [<strong>HotspotProfile</strong>](element-hotspotprofile.md) is the unique root element of a Wi-Fi hotspot profile that uses the Wireless Internet Service Provider roaming (WISPr) protocol.</p></td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+## Requirements
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p>Namespace</p></td>
+<td><p>http://www.microsoft.com/networking/WLAN/HotspotProfile/v1</p></td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+ 
+
+
+

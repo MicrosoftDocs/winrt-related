@@ -1,0 +1,121 @@
+---
+Description: uap:Url (Windows 10)
+MS-HAID: UapManifestSchema.element\_uap\_Url
+MSHAttr:
+- PreferredSiteName:MSDN
+- PreferredLib:/library/windows/apps
+Search.Product: eADQiWindows 10XVcnh
+title: uap:Url (Windows 10)
+ms.assetid: d552c065-2697-49d0-936e-f93dca38caad
+author: laurenhughes
+ms.author: lahugh
+keywords: windows 10
+---
+
+# uap:Url (Windows 10)
+
+
+Specifies a URL to which a plugin may send cookies. Need only be a valid URI; not necessarily a URL.
+
+## Element hierarchy
+
+<dl>
+<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-uap-extension.md">&lt;uap:Extension&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-uap-webaccountprovider.md">&lt;uap:WebAccountProvider&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-uap-managedurls.md">&lt;uap:ManagedUrls&gt;</a></dt>
+<dd><b>&lt;uap:Url&gt;</b></dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+
+## Syntax
+
+``` syntax
+<Url>
+
+  A string between 1 and 32767 characters in length in the form of a valid web url.
+
+</uap:Url>
+```
+
+## Attributes and Elements
+
+
+### Attributes
+
+None.
+
+### Child Elements
+
+None.
+
+### Parent Elements
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parent Element</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>[uap:ManagedUrls](element-uap-managedurls.md)</td>
+<td><p>Provides support for multiple URLs. Allows plugins to specify multiple URLs to which they may send cookies.</p></td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+## Requirements
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p>Namespace</p></td>
+<td><p>http://schemas.microsoft.com/appx/manifest/uap/windows10</p></td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+ 
+
+
+

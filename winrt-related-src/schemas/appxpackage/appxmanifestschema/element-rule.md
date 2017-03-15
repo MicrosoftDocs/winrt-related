@@ -1,0 +1,146 @@
+---
+Description: Rule
+MS-HAID: AppxManifestSchema.element\_Rule
+MSHAttr:
+- PreferredSiteName:MSDN
+- PreferredLib:/library/windows/apps
+Search.Product: eADQiWindows 10XVcnh
+title: Rule
+ms.assetid: c78c8c62-df95-4202-b3f0-75ddbb7e0e46
+author: laurenhughes
+ms.author: lahugh
+keywords: windows 10
+---
+
+# Rule
+
+
+Specifies which pages in the web context have access to the system's geolocation devices (if the app has permission to access this capability) and access to the clipboard.
+
+## Element hierarchy
+
+<dl>
+<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-applicationcontenturirules.md">&lt;ApplicationContentUriRules&gt;</a></dt>
+<dd><b>&lt;Rule&gt;</b></dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+
+## Syntax
+
+``` syntax
+<Rule Type  = "include" | "exclude"
+      Match = A string between 1 and 2084 characters in length. />
+```
+
+## Attributes and Elements
+
+
+### Attributes
+
+<table>
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Attribute</th>
+<th>Description</th>
+<th>Data type</th>
+<th>Required</th>
+<th>Default value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Match</strong></td>
+<td><p>The IRI to use in the rule. See RFC 3987 - Internationalized Resource Identifiers (IRIs) for details. It is unique per application in the package and is case sensitive.</p></td>
+<td>A string between 1 and 2084 characters in length.</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Type</strong></td>
+<td><p>A string that specifies whether the rule is an inclusion or exclusion rule.</p></td>
+<td><p>This attribute can have one of the following values:</p>
+<ul>
+<li>include</li>
+<li>exclude</li>
+</ul></td>
+<td>Yes</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+### Child Elements
+
+None.
+
+### Parent Elements
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parent Element</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>[ApplicationContentUriRules](element-applicationcontenturirules.md)</td>
+<td><p>Specifies which pages in the web context have access to the system's geolocation devices (if the app has permission to access this capability) and access to the clipboard.</p></td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+## Remarks
+
+If more than one rule is defined, then the order of the rules is important.
+
+## Requirements
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p>Namespace</p></td>
+<td><p>http://schemas.microsoft.com/appx/2010/manifest</p></td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+ 
+
+
+

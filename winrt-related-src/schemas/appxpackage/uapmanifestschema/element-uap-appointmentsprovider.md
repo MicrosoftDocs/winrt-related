@@ -1,0 +1,139 @@
+---
+Description: uap:AppointmentsProvider (Windows 10)
+MS-HAID: UapManifestSchema.element\_uap\_AppointmentsProvider
+MSHAttr:
+- PreferredSiteName:MSDN
+- PreferredLib:/library/windows/apps
+Search.Product: eADQiWindows 10XVcnh
+title: uap:AppointmentsProvider (Windows 10)
+ms.assetid: 017359a9-e1c5-4b47-8598-bc8c49a67e4a
+author: laurenhughes
+ms.author: lahugh
+keywords: windows 10
+---
+
+# uap:AppointmentsProvider (Windows 10)
+
+
+Declares an app extensibility point of type **windows.appointmentsProvider**.
+
+## Element hierarchy
+
+<dl>
+<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-uap-extension.md">&lt;uap:Extension&gt;</a></dt>
+<dd><b>&lt;uap:AppointmentsProvider&gt;</b></dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+
+## Syntax
+
+``` syntax
+<AppointmentsProvider>
+
+  <!-- Child elements -->
+  uap:AppointmentsProviderLaunchActions?
+
+</uap:AppointmentsProvider>
+```
+
+### Key
+
+`?`   optional (zero or one)
+
+## Attributes and Elements
+
+
+### Attributes
+
+None.
+
+### Child Elements
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Child Element</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>[uap:AppointmentsProviderLaunchActions](element-uap-appointmentsproviderlaunchactions.md)</td>
+<td><p>Declares actions to take when a appointment is launched.</p></td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+### Parent Elements
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parent Element</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>[uap:Extension](element-uap-extension.md)</td>
+<td><p>Declares an extensibility point for the app.</p></td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+## Remarks
+
+For info about appointments and the appointments provider, see [**Windows.ApplicationModel.Appointments**](https://msdn.microsoft.com/library/windows/apps/dn263359) and [**Windows.ApplicationModel.Appointments.AppointmentsProvider**](https://msdn.microsoft.com/library/windows/apps/dn297284).
+
+## Requirements
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p>Namespace</p></td>
+<td><p>http://schemas.microsoft.com/appx/manifest/uap/windows10</p></td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+ 
+
+
+
