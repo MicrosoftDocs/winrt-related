@@ -1,37 +1,25 @@
 {
   "build": {
-    "content": [
-      {
-        "files": [
-          "**/*.md"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "winrt-related/**",
-          "**/includes/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE"
-        ]
-      }
-    ],
+    "content":
+      [
+        {
+          "files": ["**/**.md", "**/**.yml"],
+          "exclude": ["**/obj/**", "winrt-related/**", "**/includes/**", "README.md", "LICENSE", "LICENSE-CODE"]
+        }
+      ],
     "resource": [
-      {
-        "files": [
-          "**/*.png",
-          "**/*.jpg"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "winrt-related/**",
-          "**/includes/**"
-        ]
-      }
+        {
+          "files": ["**/images/**", "**/*.png","**/*.jpg"],
+          "exclude": ["**/obj/**", "winrt-related/**", "**/includes/**"]
+        }
     ],
-    "overwrite": [],
-    "externalReference": [],
-    "globalMetadata": {},
-    "fileMetadata": {},
+    "globalMetadata": {
+        "titleSuffix": "UWP app developer",
+        "breadcrumb_path":  "/uwp/breadcrumbs/toc.json",
+        "extendBreadcrumb": true
+    },
+    "externalReference": [
+    ],
     "template": [],
     "dest": "winrt-related"
   }
