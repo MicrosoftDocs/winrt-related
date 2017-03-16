@@ -9,7 +9,7 @@ title: namePrefix
 ms.assetid: 2a07f749-bfd0-45af-9bb9-e1e779320e66
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # namePrefix

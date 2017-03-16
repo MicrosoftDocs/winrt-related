@@ -9,7 +9,7 @@ title: serverpreview:Extension
 ms.assetid: c2f0aabe-bc7e-4c33-8f24-2cc848910666
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # serverpreview:Extension

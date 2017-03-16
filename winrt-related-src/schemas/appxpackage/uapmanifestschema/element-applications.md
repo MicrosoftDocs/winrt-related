@@ -9,7 +9,7 @@ title: Applications (Windows 10)
 ms.assetid: ad9e07fc-ba58-4465-b3fa-b330ba149f92
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Applications (Windows 10)

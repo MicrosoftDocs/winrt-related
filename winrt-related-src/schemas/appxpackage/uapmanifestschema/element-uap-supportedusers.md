@@ -9,7 +9,7 @@ title: uap:SupportedUsers (Windows 10)
 ms.assetid: 5be5aec1-f253-4e1f-b386-8e9ae815a4e9
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:SupportedUsers (Windows 10)

@@ -9,7 +9,7 @@ title: LaunchAction (in AppointmentsProviderLaunchActions)
 ms.assetid: 074c2f73-dcdd-4660-9d70-5bcee7b63199
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # LaunchAction (in AppointmentsProviderLaunchActions)

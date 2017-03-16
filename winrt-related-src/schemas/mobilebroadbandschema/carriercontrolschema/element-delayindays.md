@@ -9,7 +9,7 @@ title: DelayInDays
 ms.assetid: e72b05f8-62c0-4d86-9112-35616e9f78ef
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # DelayInDays

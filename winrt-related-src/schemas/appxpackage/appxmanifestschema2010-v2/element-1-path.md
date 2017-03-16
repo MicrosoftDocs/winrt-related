@@ -9,7 +9,7 @@ title: 'Path (type: ST\_Executable)'
 ms.assetid: f3fe9184-f270-4050-b444-ec37a596b993
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Path (type: ST\_Executable)

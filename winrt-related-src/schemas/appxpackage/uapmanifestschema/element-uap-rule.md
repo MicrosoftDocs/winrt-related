@@ -9,7 +9,7 @@ title: uap:Rule (Windows 10)
 ms.assetid: 99bea1bd-db33-4dc9-bdf5-299f413d5c00
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:Rule (Windows 10)

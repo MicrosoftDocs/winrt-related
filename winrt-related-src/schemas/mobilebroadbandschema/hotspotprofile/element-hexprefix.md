@@ -9,7 +9,7 @@ title: hexPrefix
 ms.assetid: 9ea0533f-7e1a-4e08-ae1a-37e024b37278
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # hexPrefix

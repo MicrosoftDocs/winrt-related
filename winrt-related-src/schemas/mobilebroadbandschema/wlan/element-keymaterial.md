@@ -9,7 +9,7 @@ title: keyMaterial
 ms.assetid: 9079ea77-b72a-43fc-afca-871d9533186b
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # keyMaterial

@@ -9,7 +9,7 @@ title: Prerequisites
 ms.assetid: 93b13906-9c63-46d0-8659-0f382ce8f477
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Prerequisites

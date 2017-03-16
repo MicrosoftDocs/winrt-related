@@ -9,7 +9,7 @@ title: uap:LaunchAction (in uap:AutoPlayDevice) (Windows 10)
 ms.assetid: 9b7d9e7a-4f85-4525-9a6b-683b3b78c23d
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:LaunchAction (in uap:AutoPlayDevice) (Windows 10)

@@ -9,7 +9,7 @@ title: Dependencies
 ms.assetid: a1e745c9-a804-42cf-a107-7fb860cc8289
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Dependencies

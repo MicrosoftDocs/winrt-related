@@ -9,7 +9,7 @@ title: PMKCacheTTL
 ms.assetid: 0c8bfb08-dda7-482f-b442-d2aaff667d00
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # PMKCacheTTL

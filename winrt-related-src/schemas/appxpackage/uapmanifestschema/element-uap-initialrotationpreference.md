@@ -9,7 +9,7 @@ title: uap:InitialRotationPreference (Windows 10)
 ms.assetid: 95275108-1b23-414d-98df-3b269c4dfc92
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:InitialRotationPreference (Windows 10)

@@ -9,7 +9,7 @@ title: Instancing
 ms.assetid: 26533f27-2470-4083-91a0-4e4b03f8479a
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Instancing

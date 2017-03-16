@@ -9,7 +9,7 @@ title: ONEXEVDO\_REVA
 ms.assetid: 5d39edde-8904-4e9e-a4d5-7c84ddc5b789
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # ONEXEVDO\_REVA

@@ -9,7 +9,7 @@ title: FileSavePicker
 ms.assetid: c2d3002e-69e1-479c-a0ec-9facf5bc7142
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # FileSavePicker

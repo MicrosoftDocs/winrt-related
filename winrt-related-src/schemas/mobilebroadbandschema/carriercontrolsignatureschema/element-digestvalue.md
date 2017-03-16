@@ -9,7 +9,7 @@ title: DigestValue
 ms.assetid: 2145779c-b719-46f3-aeea-02bc36638962
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # DigestValue

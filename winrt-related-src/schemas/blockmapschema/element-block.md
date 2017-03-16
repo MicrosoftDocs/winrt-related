@@ -9,7 +9,7 @@ title: Block
 ms.assetid: 7b4a9f58-a370-41f1-9234-004fc8ba425b
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Block

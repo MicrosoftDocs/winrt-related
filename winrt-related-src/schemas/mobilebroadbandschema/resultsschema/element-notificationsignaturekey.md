@@ -9,7 +9,7 @@ title: NotificationSignatureKey
 ms.assetid: 3beb4301-113d-4826-85b0-14a3ad4bda4b
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # NotificationSignatureKey

@@ -9,7 +9,7 @@ title: Description
 ms.assetid: e113111a-1d9b-4d04-bd86-86beece204dd
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Description

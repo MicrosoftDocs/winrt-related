@@ -9,11 +9,10 @@ title: Value
 ms.assetid: f5186723-7c23-4904-82df-35b1a2369f5b
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema
 ---
 
 # Value
-
 
 The value that will be indexed for the property.
 

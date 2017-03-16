@@ -9,7 +9,7 @@ title: Resource
 ms.assetid: 445e7de7-e778-4666-b099-3d7f6f0125c7
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Resource

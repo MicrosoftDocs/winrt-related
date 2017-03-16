@@ -9,7 +9,7 @@ title: uap3:Properties
 ms.assetid: fbc52f03-8a01-4abe-b8d1-6aa8b02eb958
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap3:Properties

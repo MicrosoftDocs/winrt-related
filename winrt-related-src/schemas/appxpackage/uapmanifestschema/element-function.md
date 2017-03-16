@@ -9,7 +9,7 @@ title: Function (Windows 10)
 ms.assetid: d53133f1-6017-4c20-bbff-f2370c5fc39d
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Function (Windows 10)

@@ -9,7 +9,7 @@ title: AccessString
 ms.assetid: 86cd5d68-ef31-4a85-b3e2-3132c39f6bc4
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # AccessString

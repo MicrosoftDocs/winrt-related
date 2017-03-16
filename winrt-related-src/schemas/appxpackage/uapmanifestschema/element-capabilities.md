@@ -9,7 +9,7 @@ title: Capabilities (Windows 10)
 ms.assetid: 508b9a46-3dd4-4bce-875b-fb7cadadceb1
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Capabilities (Windows 10)

@@ -9,7 +9,7 @@ title: MobileBroadbandProfiles
 ms.assetid: 4d95a695-e120-4de3-acac-b5d44d16da1a
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # MobileBroadbandProfiles

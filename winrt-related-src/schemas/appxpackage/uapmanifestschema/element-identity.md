@@ -9,7 +9,7 @@ title: Identity (Windows 10)
 ms.assetid: 45524773-3b61-44ac-a417-cfaac92af0a0
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Identity (Windows 10)

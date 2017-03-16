@@ -9,7 +9,7 @@ title: Reference
 ms.assetid: 4a15880c-f401-4056-943c-33e6729b13cd
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # Reference

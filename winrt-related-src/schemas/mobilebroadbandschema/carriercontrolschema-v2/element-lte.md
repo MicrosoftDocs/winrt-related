@@ -9,7 +9,7 @@ title: LTE
 ms.assetid: 3e1b2fec-0630-4e20-8bd5-8e1af6d5ee17
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # LTE

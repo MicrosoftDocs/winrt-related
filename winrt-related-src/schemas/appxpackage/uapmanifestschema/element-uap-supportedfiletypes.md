@@ -9,7 +9,7 @@ title: uap:SupportedFileTypes (in uap:FileTypeAssociation) (Windows 10)
 ms.assetid: 119850cc-e313-468a-8d10-bee5af813290
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:SupportedFileTypes (in uap:FileTypeAssociation) (Windows 10)

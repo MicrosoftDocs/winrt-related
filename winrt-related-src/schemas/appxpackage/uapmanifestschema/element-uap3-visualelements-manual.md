@@ -9,7 +9,7 @@ title: uap3:VisualElements (Windows 10)
 ms.assetid: f98fc3ac-5d51-4dfb-b7a0-1985b4e568af
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap3:VisualElements (Windows 10)

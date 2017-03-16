@@ -9,7 +9,7 @@ title: OutboundBandwidthInKbps
 ms.assetid: 28dc6113-16f2-413d-9c69-8330395f03ee
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # OutboundBandwidthInKbps

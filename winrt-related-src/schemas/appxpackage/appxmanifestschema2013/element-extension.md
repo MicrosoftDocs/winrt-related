@@ -9,7 +9,7 @@ title: Extension
 ms.assetid: 72f0d1ae-15a4-4eba-a3ca-990f4de2b697
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Extension

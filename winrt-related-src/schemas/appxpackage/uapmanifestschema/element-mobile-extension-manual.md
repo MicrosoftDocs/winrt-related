@@ -9,7 +9,7 @@ title: mobile:Extension (Windows 10)
 ms.assetid: 0f9f4bee-3a63-4383-86db-a555ca4ccad6
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # mobile:Extension (Windows 10)

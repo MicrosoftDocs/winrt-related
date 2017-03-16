@@ -9,7 +9,7 @@ title: ONEXEVDO
 ms.assetid: e29913ca-e464-40e1-a1e1-2a5f86402b49
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # ONEXEVDO

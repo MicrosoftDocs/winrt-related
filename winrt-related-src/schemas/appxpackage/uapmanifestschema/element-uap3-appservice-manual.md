@@ -9,7 +9,7 @@ title: uap3:AppService
 ms.assetid: 1a5170ca-cd60-4102-a451-b4d9ad81a6e7
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap3:AppService

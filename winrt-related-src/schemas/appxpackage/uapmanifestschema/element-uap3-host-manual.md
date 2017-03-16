@@ -9,7 +9,7 @@ title: uap3:Host
 ms.assetid: 7635ea1b-a5f8-4347-a553-8cabb62d7102
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap3:Host

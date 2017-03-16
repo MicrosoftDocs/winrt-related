@@ -9,7 +9,7 @@ title: SSIDPrefix
 ms.assetid: 04783397-4119-4fcf-955f-5110cbb47d90
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # SSIDPrefix

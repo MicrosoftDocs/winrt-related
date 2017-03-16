@@ -9,7 +9,7 @@ title: ExperienceId
 ms.assetid: fb3585cf-8f9c-4ae6-8430-685ccc132a98
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+windows 10, uwp, schema, storemanifest
 ---
 
 # ExperienceId

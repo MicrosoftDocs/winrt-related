@@ -9,7 +9,7 @@ title: Password
 ms.assetid: b42762fe-7cc5-485c-8b91-ebe7bc1d6104
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # Password

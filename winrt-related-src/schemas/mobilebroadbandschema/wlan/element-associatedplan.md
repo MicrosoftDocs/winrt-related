@@ -9,7 +9,7 @@ title: AssociatedPlan
 ms.assetid: fdfc0657-a653-4fed-b0ae-b60e94af03ee
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # AssociatedPlan

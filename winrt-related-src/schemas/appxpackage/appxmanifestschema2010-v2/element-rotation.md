@@ -9,7 +9,7 @@ title: Rotation
 ms.assetid: 0e351d87-2ff0-4e9e-b3ea-6a6254d4c1c4
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Rotation

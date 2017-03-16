@@ -9,7 +9,7 @@ title: TileUpdate
 ms.assetid: 2f97e602-d999-455b-907e-83558991c614
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # TileUpdate

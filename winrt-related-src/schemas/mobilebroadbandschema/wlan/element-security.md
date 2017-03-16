@@ -9,7 +9,7 @@ title: security
 ms.assetid: 4e3338c2-345b-45a5-b3cf-c23b71531a1c
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # security

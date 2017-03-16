@@ -9,7 +9,7 @@ title: TrustFlags
 ms.assetid: 44ea0d79-4774-4152-8f69-c5d9ff9287aa
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # TrustFlags

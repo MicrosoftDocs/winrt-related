@@ -9,7 +9,7 @@ title: PMKCacheSize
 ms.assetid: b8b7c9b7-af01-484a-aeef-ff7ef2a3f728
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # PMKCacheSize

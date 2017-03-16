@@ -9,7 +9,7 @@ title: How to specify device capabilities for Bluetooth (Windows Runtime apps)
 ms.assetid: 366676d5-187e-4e3d-bafa-33ee468efa64
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # How to specify device capabilities for Bluetooth (Windows Runtime apps)

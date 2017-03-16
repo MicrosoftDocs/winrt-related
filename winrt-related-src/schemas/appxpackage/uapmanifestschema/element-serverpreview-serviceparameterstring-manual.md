@@ -9,7 +9,7 @@ title: serverpreview:ServiceParameterString
 ms.assetid: 4ef62655-93fd-40b7-9920-a4674a305040
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # serverpreview:ServiceParameterString

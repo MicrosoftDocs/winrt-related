@@ -9,7 +9,7 @@ title: TaskChoice
 ms.assetid: 349bb88f-fe2c-4d5e-9082-c708a24a0c9b
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # TaskChoice

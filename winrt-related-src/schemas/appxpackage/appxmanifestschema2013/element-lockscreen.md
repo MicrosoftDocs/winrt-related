@@ -9,7 +9,7 @@ title: LockScreen
 ms.assetid: 4b73231f-9cf8-4dc6-ad82-70dc2bdb7745
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # LockScreen

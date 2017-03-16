@@ -9,7 +9,7 @@ title: How to specify device capabilities for HID (Windows Runtime apps)
 ms.assetid: 4c5c4ab6-e1d1-4631-ab8e-f0c33af8b464
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # How to specify device capabilities for HID (Windows Runtime apps)

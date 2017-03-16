@@ -9,7 +9,7 @@ title: TargetDeviceFamily (Windows 10)
 ms.assetid: 457745aa-bc12-427b-b1f1-74c1618753c0
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # TargetDeviceFamily (Windows 10)

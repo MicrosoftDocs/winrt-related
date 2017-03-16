@@ -9,7 +9,7 @@ title: Bundle manifest
 ms.assetid: 42fb6c69-b278-4c67-8677-d19da91f3831
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Bundle manifest

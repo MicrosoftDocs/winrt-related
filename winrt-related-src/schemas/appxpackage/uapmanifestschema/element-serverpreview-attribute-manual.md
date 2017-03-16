@@ -9,7 +9,7 @@ title: serverpreview:Attribute
 ms.assetid: 8d3d3c80-6411-4912-9bf9-eaa8f9670661
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # serverpreview:Attribute

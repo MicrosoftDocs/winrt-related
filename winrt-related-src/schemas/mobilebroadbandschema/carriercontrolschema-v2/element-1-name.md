@@ -9,7 +9,7 @@ title: Name
 ms.assetid: 9eab41c7-29ff-42aa-9647-f18ff72b3faf
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # Name

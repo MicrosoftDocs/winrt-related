@@ -9,7 +9,7 @@ title: uap:ShareTarget (Windows 10)
 ms.assetid: 92622f42-dfef-4fd2-a42d-73d4ac47357c
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:ShareTarget (Windows 10)

@@ -9,7 +9,7 @@ title: Certificates
 ms.assetid: 378edcd3-b9ef-46db-9a56-94470451829e
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Certificates

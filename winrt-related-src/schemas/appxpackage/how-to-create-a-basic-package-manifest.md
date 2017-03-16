@@ -9,7 +9,7 @@ title: How to create a basic package manifest for Windows 8
 ms.assetid: f91fe2f6-4c9c-4965-8c35-8c02b0c66bd0
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, badges
 ---
 
 # How to create a basic package manifest for Windows 8

@@ -9,7 +9,7 @@ title: FileTypeAssociation
 ms.assetid: 864e99f6-8685-4010-ae55-a4d09f53159f
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # FileTypeAssociation

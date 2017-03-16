@@ -9,7 +9,7 @@ title: DeviceCapability (Windows 10)
 ms.assetid: 4353c4fd-f038-4986-81ed-d2ec0c6235ef
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # DeviceCapability (Windows 10)

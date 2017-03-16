@@ -9,7 +9,7 @@ title: Folder (Windows 10)
 ms.assetid: b412b98e-130a-4152-a264-49a42ef2d97c
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Folder (Windows 10)

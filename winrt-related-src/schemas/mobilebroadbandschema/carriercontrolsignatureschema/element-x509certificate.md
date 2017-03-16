@@ -9,7 +9,7 @@ title: X509Certificate
 ms.assetid: f2cbba0b-d8dc-4aec-a6f4-ea53b03d7bdd
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # X509Certificate

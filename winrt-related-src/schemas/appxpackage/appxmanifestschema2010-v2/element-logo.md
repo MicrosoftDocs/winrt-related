@@ -9,7 +9,7 @@ title: Logo
 ms.assetid: 612973f1-2251-46e7-9923-adec93f0683e
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Logo

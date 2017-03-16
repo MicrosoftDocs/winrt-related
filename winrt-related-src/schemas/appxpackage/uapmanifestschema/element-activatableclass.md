@@ -9,7 +9,7 @@ title: ActivatableClass (in InProcessServer) (Windows 10)
 ms.assetid: c75a7a4d-1864-4bff-95e6-67cd007ee192
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # ActivatableClass (in InProcessServer) (Windows 10)

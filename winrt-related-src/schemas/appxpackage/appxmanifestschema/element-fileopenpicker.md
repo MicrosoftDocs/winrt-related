@@ -9,7 +9,7 @@ title: FileOpenPicker
 ms.assetid: 25af7399-25ca-4a8b-a892-396f6b4d170c
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # FileOpenPicker

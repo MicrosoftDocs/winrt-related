@@ -9,7 +9,7 @@ title: 'Extensions (type: CT\_ApplicationExtensions)'
 ms.assetid: 267051e3-b09c-467c-b5bd-4575cc31cb36
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Extensions (type: CT\_ApplicationExtensions)

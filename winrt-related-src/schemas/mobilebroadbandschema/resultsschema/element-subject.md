@@ -9,7 +9,7 @@ title: Subject
 ms.assetid: b570cbcd-b017-43f4-83d1-7023701622c7
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # Subject

@@ -9,7 +9,7 @@ title: Activation
 ms.assetid: d01c586b-a738-4506-a18e-a8c6475d77cd
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # Activation

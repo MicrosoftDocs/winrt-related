@@ -1,5 +1,5 @@
 ---
-Description: Here are all the items in the manifest that you can localize. For info about how to localize the package manifest, see Localizing the package manifest.
+Description: Contains a list of all the items in the manifest that you can localize. 
 MS-HAID: AppxManifestSchema.localizable\_manifest\_items
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -9,7 +9,7 @@ title: Localizable manifest items
 ms.assetid: 5953e142-709a-4340-854b-bedfb79b8443
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Localizable manifest items

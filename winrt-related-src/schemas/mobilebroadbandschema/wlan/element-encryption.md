@@ -9,7 +9,7 @@ title: encryption
 ms.assetid: 9d00087e-32e9-49ae-8bf6-b4c62819e800
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # encryption

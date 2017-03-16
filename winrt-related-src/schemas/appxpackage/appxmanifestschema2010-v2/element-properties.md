@@ -9,7 +9,7 @@ title: Properties
 ms.assetid: accc712c-c7b9-45e1-ba02-836abacbd9b5
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Properties

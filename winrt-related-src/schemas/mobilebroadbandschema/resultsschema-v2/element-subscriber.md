@@ -9,7 +9,7 @@ title: Subscriber
 ms.assetid: 042c6321-1f60-4097-8f31-5e442954603b
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # Subscriber

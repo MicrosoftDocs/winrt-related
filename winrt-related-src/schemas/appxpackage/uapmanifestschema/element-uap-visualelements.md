@@ -9,7 +9,7 @@ title: uap:VisualElements (Windows 10)
 ms.assetid: da587049-bbc3-4e42-b6b9-743be20fc9e2
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:VisualElements (Windows 10)

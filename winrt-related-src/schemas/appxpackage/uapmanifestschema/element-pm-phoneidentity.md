@@ -9,7 +9,7 @@ title: pm:PhoneIdentity (Windows 10)
 ms.assetid: 817d5865-3838-4554-b751-2af09d84c8ad
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # pm:PhoneIdentity (Windows 10)

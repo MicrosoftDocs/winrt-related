@@ -9,7 +9,7 @@ title: DeviceId
 ms.assetid: b7140563-a2c9-499a-aec3-464b2c4e5518
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # DeviceId

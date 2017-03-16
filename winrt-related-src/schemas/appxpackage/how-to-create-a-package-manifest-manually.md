@@ -9,7 +9,7 @@ title: How to create a package manifest manually
 ms.assetid: 84bf35f5-c32d-4909-9f04-780b54c7cc16
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # How to create a package manifest manually

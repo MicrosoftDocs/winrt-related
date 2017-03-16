@@ -9,7 +9,7 @@ title: serverpreview:CollectionElement
 ms.assetid: a6c0f641-661a-407e-9471-2bf1084faa4d
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # serverpreview:CollectionElement

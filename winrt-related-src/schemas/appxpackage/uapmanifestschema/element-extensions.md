@@ -9,7 +9,7 @@ title: Extensions (in Package) (Windows 10)
 ms.assetid: 837ae066-b590-4f58-b552-2e9d608f0fac
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Extensions (in Package) (Windows 10)

@@ -9,7 +9,7 @@ title: WLANProfile
 ms.assetid: adafca95-23be-417f-8c3f-7c340222ecfd
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # WLANProfile

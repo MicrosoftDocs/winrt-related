@@ -9,7 +9,7 @@ title: DeviceCapabilityChoice
 ms.assetid: 44d764bb-041e-455d-862e-23fb95eec9e9
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # DeviceCapabilityChoice

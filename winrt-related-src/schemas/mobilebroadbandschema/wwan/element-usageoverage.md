@@ -9,7 +9,7 @@ title: UsageOverage
 ms.assetid: 63e85f2a-213c-4977-948c-54a10e4b18fa
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # UsageOverage

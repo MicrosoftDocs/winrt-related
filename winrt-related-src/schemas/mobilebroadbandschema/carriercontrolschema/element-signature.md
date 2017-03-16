@@ -9,7 +9,7 @@ title: Signature
 ms.assetid: 58a2b918-192d-41ee-879c-b739b498bff0
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # Signature

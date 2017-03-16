@@ -9,7 +9,7 @@ title: uap3:MainPackageDependency (Windows 10)
 ms.assetid: 8de4b12b-0f0d-48d0-b3ff-28aae81fb13c
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap3:MainPackageDependency (Windows 10)

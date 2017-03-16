@@ -9,7 +9,7 @@ title: 'FileType (in type: CT\_FTASupportedFileTypes)'
 ms.assetid: ee9a5cc3-18aa-458e-88aa-b1000c35abd3
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # FileType (in type: CT\_FTASupportedFileTypes)

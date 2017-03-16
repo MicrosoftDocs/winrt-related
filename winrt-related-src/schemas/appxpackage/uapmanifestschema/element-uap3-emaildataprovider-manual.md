@@ -9,7 +9,7 @@ title: uap3:EmailDataProvider (Windows 10)
 ms.assetid: 113e2e55-a05b-4bb7-9091-5d8f92272103
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap3:EmailDataProvider (Windows 10)

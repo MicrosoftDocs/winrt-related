@@ -9,7 +9,7 @@ title: IPv6LinkMTU
 ms.assetid: 9d7ca5ab-9be7-466f-bef9-48a84b0e7e7b
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # IPv6LinkMTU

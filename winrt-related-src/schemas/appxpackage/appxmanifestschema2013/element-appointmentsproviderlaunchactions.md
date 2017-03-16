@@ -9,7 +9,7 @@ title: AppointmentsProviderLaunchActions
 ms.assetid: 5e9b44b6-94b5-4cab-91ff-df8ae15c0978
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # AppointmentsProviderLaunchActions

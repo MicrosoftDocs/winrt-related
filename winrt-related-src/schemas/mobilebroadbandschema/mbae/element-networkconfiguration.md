@@ -9,7 +9,7 @@ title: NetworkConfiguration
 ms.assetid: 528097af-092d-4aaf-abcc-cef110f1018e
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # NetworkConfiguration

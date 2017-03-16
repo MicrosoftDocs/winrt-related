@@ -9,7 +9,7 @@ title: Path (in ProxyStub) (Windows 10)
 ms.assetid: 4522dd59-287a-4c40-8054-168d06f61a08
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Path (in ProxyStub) (Windows 10)

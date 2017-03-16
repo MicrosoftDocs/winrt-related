@@ -9,7 +9,7 @@ title: tile
 ms.assetid: 82ca95f2-5bb4-475f-a052-e82d003b1ab5
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, tiles
 ---
 
 # tile

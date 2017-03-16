@@ -9,7 +9,7 @@ title: BlockMap
 ms.assetid: 75eed334-6c80-4eb3-8776-fc34d7aa5357
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # BlockMap

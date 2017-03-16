@@ -9,7 +9,7 @@ title: Y
 ms.assetid: 1536662a-c461-45f5-ac7f-75dede4b69e1
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # Y

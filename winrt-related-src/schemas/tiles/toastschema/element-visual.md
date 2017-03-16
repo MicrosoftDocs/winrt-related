@@ -9,7 +9,7 @@ title: visual
 ms.assetid: f8de9ed6-53d4-4ba5-a4e5-df540c93bd89
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, toast notifications
 ---
 
 # visual

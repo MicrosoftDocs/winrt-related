@@ -9,7 +9,7 @@ title: uap:Task (Windows 10)
 ms.assetid: 2e4fce9f-4db8-48e7-ab0e-03cf08f6342f
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:Task (Windows 10)

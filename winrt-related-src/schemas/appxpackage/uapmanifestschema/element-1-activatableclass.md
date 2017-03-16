@@ -9,7 +9,7 @@ title: ActivatableClass (in OutOfProcessServer) (Windows 10)
 ms.assetid: b2994883-87f9-4aa5-aff8-9c846606c462
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # ActivatableClass (in OutOfProcessServer) (Windows 10)

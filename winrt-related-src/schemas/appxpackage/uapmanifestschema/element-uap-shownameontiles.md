@@ -9,7 +9,7 @@ title: uap:ShowNameOnTiles (Windows 10)
 ms.assetid: 883c601d-00b2-4903-996d-6cbab8801acd
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:ShowNameOnTiles (Windows 10)

@@ -9,7 +9,7 @@ title: uap:EditFlags (Windows 10)
 ms.assetid: 5a16f6d9-bdfb-4618-b7dc-7f9aa5807a13
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:EditFlags (Windows 10)

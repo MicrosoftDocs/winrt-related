@@ -9,7 +9,7 @@ title: HotspotProfile
 ms.assetid: 7106b831-ef8c-4660-9b8b-4b13a8379ffd
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # HotspotProfile

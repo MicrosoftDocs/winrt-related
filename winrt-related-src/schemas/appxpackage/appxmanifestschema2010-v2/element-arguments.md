@@ -9,7 +9,7 @@ title: Arguments
 ms.assetid: d4cb3513-8c57-4449-9c3b-469047d2a4c4
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Arguments

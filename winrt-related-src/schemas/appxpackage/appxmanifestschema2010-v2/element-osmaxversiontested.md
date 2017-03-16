@@ -9,7 +9,7 @@ title: OSMaxVersionTested
 ms.assetid: 2f820978-5080-427d-b364-08951afae9ee
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # OSMaxVersionTested

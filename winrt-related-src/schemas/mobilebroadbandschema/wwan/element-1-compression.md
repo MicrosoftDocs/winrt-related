@@ -9,7 +9,7 @@ title: Compression
 ms.assetid: 10360bdf-d86a-4a6b-9d92-46cf29c3b07d
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # Compression

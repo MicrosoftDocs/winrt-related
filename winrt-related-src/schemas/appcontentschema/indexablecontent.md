@@ -1,6 +1,6 @@
 ---
 title: IndexableContent
-description: Indicates that the element's text should be indexed for search, but is not associated with a property. Note that properties can be retrieved later based on the property key, but text content cannot.
+description: Indicates that the element's text should be indexed for search, but is not associated with a property. 
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/apps

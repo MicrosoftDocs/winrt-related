@@ -9,7 +9,7 @@ title: DisplayName
 ms.assetid: e5d9a0b1-73cf-4c17-90c8-1a0cb57779dd
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # DisplayName

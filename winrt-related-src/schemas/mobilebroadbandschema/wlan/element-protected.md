@@ -9,7 +9,7 @@ title: protected
 ms.assetid: 8e29ca58-a982-4c06-885f-a3cca19ffb9e
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # protected

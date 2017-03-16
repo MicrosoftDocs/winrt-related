@@ -9,7 +9,7 @@ title: uap:LaunchAction (in uap:AutoPlayContent) (Windows 10)
 ms.assetid: 5d2c732f-08dd-4e7e-93b1-6bb122e2179f
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:LaunchAction (in uap:AutoPlayContent) (Windows 10)

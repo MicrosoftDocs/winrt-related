@@ -9,7 +9,7 @@ title: mobile:Capability (Windows 10)
 ms.assetid: c3074580-c334-4578-93e1-e7eb2c58c8ea
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # mobile:Capability (Windows 10)

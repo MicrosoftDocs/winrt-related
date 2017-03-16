@@ -9,7 +9,7 @@ title: Units
 ms.assetid: 4e4be814-8934-48ae-902a-dd5f5a2dd4cb
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # Units

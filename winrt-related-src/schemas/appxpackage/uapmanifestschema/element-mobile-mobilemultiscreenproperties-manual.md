@@ -9,7 +9,7 @@ title: mobile:MobileMultiScreenProperties (Windows 10)
 ms.assetid: 86ea3e53-23e4-4c7a-9490-2944dbcca460
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # mobile:MobileMultiScreenProperties (Windows 10)

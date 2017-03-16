@@ -9,7 +9,7 @@ title: ApplicationView
 ms.assetid: 762bb23d-e4ea-4e21-b512-298cd0e9ab9d
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # ApplicationView

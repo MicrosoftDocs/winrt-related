@@ -1,8 +1,14 @@
 ---
+title: What's different in Windows 10
+description: Changes to the package manifest schema reference for Windows 10, including elements that have been added, removed, and changed.
 ms.assetid: 2afadf58-6dcc-4959-b97b-47d2075af692
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+ms.topic: article
+ms.prod: windows
+ms.technology: uwp
+
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # What's different in Windows 10

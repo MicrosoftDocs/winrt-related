@@ -9,7 +9,7 @@ title: uap:Extension (Windows 10)
 ms.assetid: b0c2ee51-897b-40be-aa38-372e2f94897f
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:Extension (Windows 10)

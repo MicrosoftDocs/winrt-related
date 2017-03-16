@@ -9,7 +9,7 @@ title: Rule
 ms.assetid: c78c8c62-df95-4202-b3f0-75ddbb7e0e46
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Rule

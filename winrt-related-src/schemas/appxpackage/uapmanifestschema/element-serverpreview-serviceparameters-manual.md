@@ -9,7 +9,7 @@ title: serverpreview:ServiceParameters
 ms.assetid: 321cca00-b107-4109-9187-c712f2621aae
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # serverpreview:ServiceParameters

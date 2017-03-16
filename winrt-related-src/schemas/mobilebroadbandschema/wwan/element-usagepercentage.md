@@ -9,7 +9,7 @@ title: UsagePercentage
 ms.assetid: 7e71669a-4297-4321-936b-ec5d808f9045
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # UsagePercentage

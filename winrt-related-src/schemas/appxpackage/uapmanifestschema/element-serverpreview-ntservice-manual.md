@@ -9,7 +9,7 @@ title: serverpreview:NTService
 ms.assetid: 4ce23453-fffb-47a0-aa32-8d2b900de356
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # serverpreview:NTService

@@ -9,7 +9,7 @@ title: MaxTransferSizeInMegabytes
 ms.assetid: 950cd05a-2dd2-43b9-9568-fcf0e5b675c5
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # MaxTransferSizeInMegabytes

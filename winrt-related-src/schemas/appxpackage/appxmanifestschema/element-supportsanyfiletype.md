@@ -9,7 +9,7 @@ title: SupportsAnyFileType
 ms.assetid: be446c1e-2be7-47eb-8ac9-9dd32733465a
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # SupportsAnyFileType

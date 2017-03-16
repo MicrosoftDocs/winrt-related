@@ -9,7 +9,7 @@ title: uap:ShowOn (Windows 10)
 ms.assetid: ef9ad3df-5179-4dee-bf54-4f5de545b1ed
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:ShowOn (Windows 10)

@@ -9,7 +9,7 @@ title: 'Path (type: ST\_FileName)'
 ms.assetid: 337dd035-774d-40fb-8da1-7af11dbb4a35
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Path (type: ST\_FileName)

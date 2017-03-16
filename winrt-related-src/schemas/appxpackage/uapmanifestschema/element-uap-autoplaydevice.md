@@ -9,7 +9,7 @@ title: uap:AutoPlayDevice (Windows 10)
 ms.assetid: ae471158-7ec0-4f6c-b681-76323317ac0d
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:AutoPlayDevice (Windows 10)

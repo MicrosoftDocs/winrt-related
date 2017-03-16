@@ -9,7 +9,7 @@ title: Locale
 ms.assetid: 3b1c9b15-3eb2-4d7e-a0bf-7bd64f94e8f4
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # Locale

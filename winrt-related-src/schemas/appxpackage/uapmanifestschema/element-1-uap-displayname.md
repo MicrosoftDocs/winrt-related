@@ -9,7 +9,7 @@ title: uap:DisplayName (Windows 10)
 ms.assetid: c435a2d1-6f05-44b8-9dc2-34b661793314
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:DisplayName (Windows 10)

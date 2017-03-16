@@ -9,7 +9,7 @@ title: serverpreview:EventProviders
 ms.assetid: cfc8b89e-1eef-4fee-adeb-70039588c5a9
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # serverpreview:EventProviders

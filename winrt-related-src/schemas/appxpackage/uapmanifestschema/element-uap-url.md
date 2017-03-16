@@ -9,7 +9,7 @@ title: uap:Url (Windows 10)
 ms.assetid: d552c065-2697-49d0-936e-f93dca38caad
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:Url (Windows 10)

@@ -9,7 +9,7 @@ title: UserSMSEnabled
 ms.assetid: 898c68cd-8d04-45f2-b5a8-d1e8923396bf
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # UserSMSEnabled

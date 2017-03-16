@@ -9,7 +9,7 @@ title: File
 ms.assetid: ea222abe-8c05-4f31-b494-be5459bd7620
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # File

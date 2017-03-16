@@ -9,7 +9,7 @@ title: serverpreview:IisModule
 ms.assetid: 57d7aaf7-95b7-409d-8cad-cba17ca0a903
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # serverpreview:IisModule

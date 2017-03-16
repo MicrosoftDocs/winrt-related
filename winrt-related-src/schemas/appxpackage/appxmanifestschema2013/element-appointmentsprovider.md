@@ -9,7 +9,7 @@ title: AppointmentsProvider
 ms.assetid: 12e4d422-dbbc-41c0-8511-b87eb343b2cf
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # AppointmentsProvider

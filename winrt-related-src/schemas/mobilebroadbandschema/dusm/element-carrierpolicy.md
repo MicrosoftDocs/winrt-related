@@ -9,7 +9,7 @@ title: CarrierPolicy
 ms.assetid: 36db68fb-6961-47c2-bc36-84aa5ec4a5c5
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # CarrierPolicy

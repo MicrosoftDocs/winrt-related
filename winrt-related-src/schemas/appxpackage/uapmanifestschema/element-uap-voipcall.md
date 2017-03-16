@@ -9,7 +9,7 @@ title: uap:VoipCall
 ms.assetid: 44b66d5c-feb6-4112-9816-1dbdc804577e
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:VoipCall

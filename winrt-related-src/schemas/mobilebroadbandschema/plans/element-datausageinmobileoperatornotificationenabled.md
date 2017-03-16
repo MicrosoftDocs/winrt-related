@@ -9,7 +9,7 @@ title: DataUsageInMobileOperatorNotificationEnabled
 ms.assetid: 232adaba-ec76-49a3-956c-438389548e60
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # DataUsageInMobileOperatorNotificationEnabled

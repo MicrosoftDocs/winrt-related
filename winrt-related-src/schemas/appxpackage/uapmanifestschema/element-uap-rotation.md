@@ -9,7 +9,7 @@ title: uap:Rotation (Windows 10)
 ms.assetid: c3e6abb0-05ac-4b38-a23e-3e0f7e610b4c
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:Rotation (Windows 10)

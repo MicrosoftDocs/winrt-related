@@ -9,7 +9,7 @@ title: ProductFeatures
 ms.assetid: 95f2ec1b-e3d1-490d-a5dc-367e385f7fc5
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+windows 10, uwp, schema, storemanifest
 ---
 
 # ProductFeatures

@@ -9,7 +9,7 @@ title: BasicAuth
 ms.assetid: bd926228-8384-42ee-9a4d-2d8c6fc8ff5a
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # BasicAuth

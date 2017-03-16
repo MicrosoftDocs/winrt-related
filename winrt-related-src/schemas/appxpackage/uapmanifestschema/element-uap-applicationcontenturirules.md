@@ -9,7 +9,7 @@ title: uap:ApplicationContentUriRules (Windows 10)
 ms.assetid: ae619bfa-0087-46ac-90e3-934a7bae85ba
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:ApplicationContentUriRules (Windows 10)

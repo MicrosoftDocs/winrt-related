@@ -9,7 +9,7 @@ title: uap:AutoPlayContent (Windows 10)
 ms.assetid: 15514696-9195-4dd1-91af-2b97383992cc
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:AutoPlayContent (Windows 10)

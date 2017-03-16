@@ -9,7 +9,7 @@ title: uap:VoipCallUpgrade
 ms.assetid: e2566775-a4fa-476b-af65-ab252dec514d
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:VoipCallUpgrade

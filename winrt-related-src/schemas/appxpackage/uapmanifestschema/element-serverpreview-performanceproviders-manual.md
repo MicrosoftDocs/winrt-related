@@ -9,7 +9,7 @@ title: serverpreview:PerformanceProviders
 ms.assetid: 63366b04-0493-4bea-918b-7bab027d5e29
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # serverpreview:PerformanceProviders

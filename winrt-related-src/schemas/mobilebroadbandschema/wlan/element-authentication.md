@@ -9,7 +9,7 @@ title: authentication
 ms.assetid: 34e5552a-98b3-4b2c-8dde-dce34578bc9a
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # authentication

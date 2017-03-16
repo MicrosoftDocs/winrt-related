@@ -8,7 +8,7 @@ Search.Product: eADQiWindows 10XVcnh
 ms.assetid: 53A9090A-8C47-40AE-9FEC-978586676030
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema
 ---
 
 # Attributes for app-specific elements

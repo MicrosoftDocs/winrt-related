@@ -9,7 +9,7 @@ title: serverpreview:Mof
 ms.assetid: 891a395f-d1b8-4d18-a05d-73701e5ed4dd
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # serverpreview:Mof

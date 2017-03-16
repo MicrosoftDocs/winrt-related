@@ -9,7 +9,7 @@ title: ShowNameOnTiles
 ms.assetid: 2d46af6c-742f-42e5-9db2-b706fd690bb1
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # ShowNameOnTiles

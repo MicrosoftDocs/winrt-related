@@ -9,7 +9,7 @@ title: uap:AppService (Windows 10)
 ms.assetid: 53420864-d8b4-4f30-bb74-5148d89be5f1
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:AppService (Windows 10)

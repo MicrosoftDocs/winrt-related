@@ -9,7 +9,7 @@ title: RefreshProvisioning
 ms.assetid: 4705d612-974c-46d9-965d-c88a47c7d891
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # RefreshProvisioning

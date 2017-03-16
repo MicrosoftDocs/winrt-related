@@ -9,7 +9,7 @@ title: useOneX
 ms.assetid: c50a8dd5-460f-4f4e-bb00-392c2b39fd0e
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # useOneX

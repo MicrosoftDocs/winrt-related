@@ -9,7 +9,7 @@ title: ReregisterToNetwork
 ms.assetid: 623c7f6a-64d7-4634-990f-ff0f0ccc4994
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # ReregisterToNetwork

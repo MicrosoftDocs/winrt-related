@@ -9,7 +9,7 @@ title: serverpreview:SectionDefinition
 ms.assetid: 7fa268e0-a5aa-49d4-a37d-6be0a9ec6dda
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # serverpreview:SectionDefinition

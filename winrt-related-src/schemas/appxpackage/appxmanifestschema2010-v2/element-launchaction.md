@@ -9,7 +9,7 @@ title: 'LaunchAction (in type: CT\_AutoPlayContent)'
 ms.assetid: 3561ba0c-690c-4c09-b383-b2c1e95f26d6
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # LaunchAction (in type: CT\_AutoPlayContent)

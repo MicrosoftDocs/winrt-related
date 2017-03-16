@@ -9,7 +9,7 @@ title: uap:Protocol (Windows 10)
 ms.assetid: b92c542e-d4a4-4d6d-8a1b-257c4a43aecc
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:Protocol (Windows 10)

@@ -9,7 +9,7 @@ title: HomeProviderName
 ms.assetid: 8c80386f-a778-49ec-9439-990220d17d13
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # HomeProviderName

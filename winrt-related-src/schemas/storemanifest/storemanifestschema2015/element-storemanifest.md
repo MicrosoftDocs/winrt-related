@@ -9,7 +9,7 @@ title: StoreManifest
 ms.assetid: 01d2ebcb-9da0-4bcc-9eb4-c284810f894b
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+windows 10, uwp, schema, storemanifest
 ---
 
 # StoreManifest

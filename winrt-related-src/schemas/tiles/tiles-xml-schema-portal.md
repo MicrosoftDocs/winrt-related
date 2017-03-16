@@ -51,7 +51,7 @@ These XML schemas enable app developers to update tiles and badges, and specify 
 
  
 
-## <a href="" id="developer-audience-heading"></a>Developer audience
+## Developer audience
 
 
 These XML schemas are designed for use by all app developers.

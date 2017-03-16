@@ -9,7 +9,7 @@ title: TetheringSettings
 ms.assetid: 0bf2129c-0589-437a-8cfa-834b16ce42a2
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # TetheringSettings

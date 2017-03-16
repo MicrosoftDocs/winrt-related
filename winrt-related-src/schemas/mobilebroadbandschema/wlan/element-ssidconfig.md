@@ -9,7 +9,7 @@ title: SSIDConfig
 ms.assetid: a58e4178-4a15-46c0-951d-93aef9fec5e6
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # SSIDConfig

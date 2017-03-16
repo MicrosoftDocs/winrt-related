@@ -9,7 +9,7 @@ title: uap:AppointmentsProvider (Windows 10)
 ms.assetid: 017359a9-e1c5-4b47-8598-bc8c49a67e4a
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:AppointmentsProvider (Windows 10)

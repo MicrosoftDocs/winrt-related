@@ -9,7 +9,7 @@ title: keyIndex
 ms.assetid: 0d8686f8-8dfa-4677-9a6d-c59e18d8ef59
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # keyIndex

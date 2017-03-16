@@ -9,7 +9,7 @@ title: Element Hierarchy
 ms.assetid: 5dfced88-48fd-4bf6-963c-7ab090b3e26e
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+windows 10, uwp, schema, storemanifest
 ---
 
 # Element Hierarchy

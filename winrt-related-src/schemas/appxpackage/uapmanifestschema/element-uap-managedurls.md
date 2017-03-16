@@ -9,7 +9,7 @@ title: uap:ManagedUrls (Windows 10)
 ms.assetid: 9b4709ea-cce3-472c-a799-96039241fd0b
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:ManagedUrls (Windows 10)

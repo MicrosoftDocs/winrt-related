@@ -9,7 +9,7 @@ title: uap:InfoTip (Windows 10)
 ms.assetid: 98a13282-74da-46e9-9790-54c557f8026c
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:InfoTip (Windows 10)

@@ -9,7 +9,7 @@ title: BackgroundTasks
 ms.assetid: 0e9cbbc5-3852-4158-87e7-12ea87be62e7
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # BackgroundTasks

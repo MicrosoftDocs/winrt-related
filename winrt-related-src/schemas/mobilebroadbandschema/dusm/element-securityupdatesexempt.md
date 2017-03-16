@@ -9,7 +9,7 @@ title: SecurityUpdatesExempt
 ms.assetid: a59108e9-4bf0-41e9-92ce-99256d578928
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # SecurityUpdatesExempt

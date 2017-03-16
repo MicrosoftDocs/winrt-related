@@ -9,7 +9,7 @@ title: uap3:Extension (Windows 10)
 ms.assetid: ed8f9296-0771-48ab-aecf-cca642e830c1
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap3:Extension (Windows 10)

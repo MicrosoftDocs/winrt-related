@@ -9,7 +9,7 @@ title: CarrierId
 ms.assetid: 60cee169-cd12-41c1-9f2f-70236dced515
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # CarrierId

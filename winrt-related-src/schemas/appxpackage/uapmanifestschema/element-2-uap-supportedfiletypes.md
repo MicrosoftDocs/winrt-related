@@ -9,7 +9,7 @@ title: uap:SupportedFileTypes (in uap:FileSavePicker) (Windows 10)
 ms.assetid: 12a1b621-e6e4-4c4e-a2a6-7ffb394644f0
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:SupportedFileTypes (in uap:FileSavePicker) (Windows 10)

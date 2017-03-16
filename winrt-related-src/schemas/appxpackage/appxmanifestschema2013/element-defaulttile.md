@@ -9,7 +9,7 @@ title: DefaultTile
 ms.assetid: 262b48ae-ca25-4fed-adad-df1bb8924c9d
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # DefaultTile

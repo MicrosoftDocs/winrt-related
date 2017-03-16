@@ -9,7 +9,7 @@ title: preAuthMode
 ms.assetid: 4ec7ff00-a0b8-453b-9b7b-80782a116900
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # preAuthMode

@@ -9,7 +9,7 @@ title: Seed
 ms.assetid: b9277170-5139-4447-880d-568933ff1921
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # Seed

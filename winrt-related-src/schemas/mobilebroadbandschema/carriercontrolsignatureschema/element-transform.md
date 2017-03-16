@@ -9,7 +9,7 @@ title: Transform
 ms.assetid: 21cc5a17-8420-4794-978e-97cfec3f3ac9
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # Transform

@@ -9,7 +9,7 @@ title: OSMinVersion
 ms.assetid: 18c045dd-7e8c-431c-b3d8-bc3056575632
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # OSMinVersion

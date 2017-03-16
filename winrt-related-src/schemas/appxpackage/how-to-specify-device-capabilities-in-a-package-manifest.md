@@ -9,7 +9,7 @@ title: How to specify device capabilities in a package manifest (Windows Runtime
 ms.assetid: 4e83e2b2-d80f-41e2-aa1f-436ffa389ccc
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # How to specify device capabilities in a package manifest (Windows Runtime apps)

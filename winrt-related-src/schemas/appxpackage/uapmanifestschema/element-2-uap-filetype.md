@@ -9,7 +9,7 @@ title: uap:FileType (in uap:FileOpenPicker/uap:SupportedFileTypes) (Windows 10)
 ms.assetid: bc6e06c8-552b-4113-b92f-3f9e7228ebf2
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:FileType (in uap:FileOpenPicker/uap:SupportedFileTypes) (Windows 10)

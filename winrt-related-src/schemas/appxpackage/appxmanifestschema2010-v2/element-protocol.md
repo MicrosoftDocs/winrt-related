@@ -9,7 +9,7 @@ title: Protocol
 ms.assetid: ac911c85-02eb-408c-8c4b-24a4e172df8b
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Protocol

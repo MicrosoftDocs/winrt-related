@@ -8,7 +8,7 @@ Search.Product: eADQiWindows 10XVcnh
 ms.assetid: b9f29690-466f-4b5f-bd4e-d4bf07260ca1
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # Schema for Mobile Broadband
@@ -95,7 +95,7 @@ The Mobile Broadband Schema strictly enforces the order of the nodes. Nodes used
 
  
 
-## <a href="" id="developer-audience-heading"></a>Developer audience
+## Developer audience
 
 
 The Mobile Broadband Schema are designed for use by Javascript/C++/C#/Visual Basic developers interested in enabling the use of Mobile Broadband for network communications in their Windows Store app.

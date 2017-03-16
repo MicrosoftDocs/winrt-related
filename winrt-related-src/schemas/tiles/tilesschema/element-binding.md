@@ -9,7 +9,7 @@ title: binding
 ms.assetid: c88c9e7a-d929-4d1b-95e4-65df88cf9844
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, tiles
 ---
 
 # binding

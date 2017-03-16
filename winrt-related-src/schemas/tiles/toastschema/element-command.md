@@ -9,7 +9,7 @@ title: command
 ms.assetid: dc3cf502-fdf8-42ab-96b6-f0fb4e84e08c
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, toast notifications
 ---
 
 # command

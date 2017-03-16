@@ -9,7 +9,7 @@ title: Comment
 ms.assetid: e368afe3-e9cf-48db-9994-607b666fe80b
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema
 ---
 
 # Comment

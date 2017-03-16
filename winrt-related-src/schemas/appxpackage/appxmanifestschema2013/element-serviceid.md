@@ -9,7 +9,7 @@ title: ServiceId
 ms.assetid: 1ddf4438-cfe4-4be1-9ca3-f734d7729d92
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # ServiceId

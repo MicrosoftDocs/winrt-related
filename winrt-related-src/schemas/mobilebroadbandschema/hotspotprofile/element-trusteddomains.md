@@ -9,7 +9,7 @@ title: TrustedDomains
 ms.assetid: 5da7e270-ed7b-4441-ae73-274ce5323f4b
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # TrustedDomains

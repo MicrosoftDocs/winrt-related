@@ -9,7 +9,7 @@ title: MBNProfiles
 ms.assetid: 10f5eab7-7e8c-4162-95e5-f1b5b793e0d8
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # MBNProfiles

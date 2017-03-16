@@ -1,14 +1,19 @@
 ---
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
+title: Application content schema
+description: The Application content schema for UWP apps enables developers to enhance in-app search by providing extra information about your app's content to the Windows Search Index.
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+ms.topic: article
+ms.prod: windows
+ms.technology: uwp
+keywords: windows 10, uwp, schema
 ---
 
 # Application content schema
 
 
-The Application content, or appcontent-ms, schema for Windows Store apps enables developers to enhance in-app search by providing extra information about your app's content to the Windows Search Index.
+The Application content, or appcontent-ms, schema for Windows apps enables developers to enhance in-app search by providing extra information about your app's content to the Windows Search Index.
 
 ## How it works
 

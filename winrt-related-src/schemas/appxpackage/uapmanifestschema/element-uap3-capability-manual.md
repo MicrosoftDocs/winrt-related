@@ -9,7 +9,7 @@ title: uap3:Capability (Windows 10)
 ms.assetid: 1a5d687b-4e1f-479a-a24e-eeda24afc560
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap3:Capability (Windows 10)

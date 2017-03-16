@@ -9,7 +9,7 @@ title: EditFlags
 ms.assetid: 0f77fddc-bb6d-4d5e-9d15-577a2e5fcfff
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # EditFlags

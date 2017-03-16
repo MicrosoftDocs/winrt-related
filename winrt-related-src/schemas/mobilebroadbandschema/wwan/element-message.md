@@ -9,7 +9,7 @@ title: Message
 ms.assetid: b4f7969d-5251-4536-b782-ded76f385550
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # Message

@@ -9,7 +9,7 @@ title: audio
 ms.assetid: 13e5fe05-383b-4615-81ce-20d8b020350f
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, toast notifications
 ---
 
 # audio

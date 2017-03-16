@@ -9,7 +9,7 @@ title: uap3:AppExtension
 ms.assetid: 88e4b56d-e2c2-4782-bedd-eae33d069c2c
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap3:AppExtension

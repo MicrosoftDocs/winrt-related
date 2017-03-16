@@ -9,7 +9,7 @@ title: uap:SplashScreen (Windows 10)
 ms.assetid: 1a55627f-7014-4c8c-8ec8-957ac99457db
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:SplashScreen (Windows 10)

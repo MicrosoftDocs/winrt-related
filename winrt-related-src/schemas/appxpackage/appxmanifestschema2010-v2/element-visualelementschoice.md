@@ -9,7 +9,7 @@ title: VisualElementsChoice
 ms.assetid: 96a1b427-844d-4523-9e5a-5f67f80b059c
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # VisualElementsChoice

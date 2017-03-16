@@ -9,7 +9,7 @@ title: InProcessServer
 ms.assetid: 47e3c888-76eb-4d12-977c-ebd947a2b63c
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # InProcessServer

@@ -9,7 +9,7 @@ title: HSUPA
 ms.assetid: 0d4e73a6-7fac-459a-bcee-49ab29c027f4
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # HSUPA

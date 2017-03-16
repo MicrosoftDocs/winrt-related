@@ -9,7 +9,7 @@ title: 'FileType (type: ST\_FileType)'
 ms.assetid: a3792047-9fbf-42d5-b629-0025717d0323
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # FileType (type: ST\_FileType)

@@ -9,7 +9,7 @@ title: GPRS
 ms.assetid: ce4b6201-2290-4bc9-b360-ebac7e74beff
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # GPRS

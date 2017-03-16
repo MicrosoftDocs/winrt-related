@@ -9,7 +9,7 @@ title: DNSRetryCount
 ms.assetid: 3fa80714-0ad9-4b7a-9c4a-3dd9fa96bf9a
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # DNSRetryCount

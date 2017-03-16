@@ -9,7 +9,7 @@ title: SplashScreen
 ms.assetid: eecce5dd-09c3-4f47-b271-0a04fcd64d44
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # SplashScreen

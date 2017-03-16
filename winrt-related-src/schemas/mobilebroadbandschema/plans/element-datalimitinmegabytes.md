@@ -9,7 +9,7 @@ title: DataLimitInMegabytes
 ms.assetid: f780b511-6b64-40f4-83a5-c9f116f65351
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # DataLimitInMegabytes

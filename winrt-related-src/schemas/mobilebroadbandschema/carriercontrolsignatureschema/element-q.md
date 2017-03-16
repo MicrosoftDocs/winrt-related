@@ -9,7 +9,7 @@ title: Q
 ms.assetid: 08b57f31-76f6-4a4e-8fac-8bd1711e2498
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # Q

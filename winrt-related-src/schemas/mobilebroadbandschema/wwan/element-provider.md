@@ -9,7 +9,7 @@ title: Provider
 ms.assetid: a701c4dd-967f-4f03-ada4-d34059f5a1e4
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # Provider

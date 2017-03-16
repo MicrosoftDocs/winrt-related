@@ -9,7 +9,7 @@ title: uap:TileUpdate (Windows 10)
 ms.assetid: cf529081-b711-4c35-b50c-da0f95ebf3c1
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:TileUpdate (Windows 10)

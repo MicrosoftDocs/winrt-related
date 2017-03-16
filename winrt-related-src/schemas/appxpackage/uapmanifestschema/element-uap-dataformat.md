@@ -9,7 +9,7 @@ title: uap:DataFormat (Windows 10)
 ms.assetid: 348b61e7-ecbd-42ea-8a82-81ef85e728cb
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:DataFormat (Windows 10)

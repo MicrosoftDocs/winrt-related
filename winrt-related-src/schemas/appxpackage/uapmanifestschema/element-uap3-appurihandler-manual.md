@@ -9,7 +9,7 @@ title: uap3:AppUriHandler
 ms.assetid: 3ec18f36-df44-46c1-ae8f-721c77e715d5
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap3:AppUriHandler

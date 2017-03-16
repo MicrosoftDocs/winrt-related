@@ -9,7 +9,7 @@ title: serverpreview:WmiProvider
 ms.assetid: 9268ed23-e619-4316-8a13-a13462e27479
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # serverpreview:WmiProvider

@@ -9,7 +9,7 @@ title: Usage
 ms.assetid: 82d451f6-18be-4455-b62a-61296a8f8ad0
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # Usage

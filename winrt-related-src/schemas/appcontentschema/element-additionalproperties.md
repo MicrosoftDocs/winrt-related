@@ -9,7 +9,7 @@ title: AdditionalProperties
 ms.assetid: f252c2d5-eaf6-40b0-804a-8e473a764fdd
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema
 ---
 
 # AdditionalProperties

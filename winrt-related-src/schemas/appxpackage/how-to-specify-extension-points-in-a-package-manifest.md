@@ -9,7 +9,7 @@ title: How to specify extensions in a package manifest
 ms.assetid: 0c781926-91a9-4daf-b59b-ad9bd4ea71c8
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # How to specify extensions in a package manifest

@@ -9,7 +9,7 @@ title: uap:DefaultTile (Windows 10)
 ms.assetid: 0ee61279-efa8-4bd9-b713-1f5f9ec526f7
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:DefaultTile (Windows 10)

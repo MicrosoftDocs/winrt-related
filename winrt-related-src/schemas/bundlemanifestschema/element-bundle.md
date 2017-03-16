@@ -9,7 +9,7 @@ title: Bundle
 ms.assetid: 34dfa061-f42f-40f2-bf36-ee9c21ecd096
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Bundle

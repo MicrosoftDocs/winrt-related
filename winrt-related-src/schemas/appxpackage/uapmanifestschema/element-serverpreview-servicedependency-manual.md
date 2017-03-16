@@ -9,7 +9,7 @@ title: serverpreview:ServiceDependency
 ms.assetid: e0874f7b-4e67-4da6-9f43-2e176f595675
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # serverpreview:ServiceDependency

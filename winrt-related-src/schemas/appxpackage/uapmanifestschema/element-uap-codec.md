@@ -9,7 +9,7 @@ title: uap:Codec (Windows 10)
 ms.assetid: 7b42abe0-154d-4377-ba94-4edda3d0586c
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:Codec (Windows 10)

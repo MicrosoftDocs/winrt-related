@@ -9,7 +9,7 @@ title: PackageDependency (Windows 10)
 ms.assetid: 7f0800a1-f1dd-48c2-aba0-3701dd27d383
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # PackageDependency (Windows 10)

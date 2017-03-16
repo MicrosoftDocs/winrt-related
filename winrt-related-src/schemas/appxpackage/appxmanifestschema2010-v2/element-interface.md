@@ -9,7 +9,7 @@ title: Interface
 ms.assetid: 5b5c6b0c-a9d1-4e0c-a71c-40744a12c4e7
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Interface

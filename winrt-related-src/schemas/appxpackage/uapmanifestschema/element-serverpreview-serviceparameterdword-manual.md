@@ -9,7 +9,7 @@ title: serverpreview:ServiceParameterDword
 ms.assetid: 96e0ef7e-d90d-4d55-893d-cb3ed146e403
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # serverpreview:ServiceParameterDword

@@ -9,7 +9,7 @@ title: 'Name (type: NameType)'
 ms.assetid: 4cd85e0d-4b37-4d64-86fd-406ec368a532
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # Name (type: NameType)

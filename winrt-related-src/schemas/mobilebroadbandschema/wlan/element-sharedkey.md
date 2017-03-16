@@ -9,7 +9,7 @@ title: sharedKey
 ms.assetid: e4a05934-b2a1-4237-93ab-2b1b5831906f
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # sharedKey

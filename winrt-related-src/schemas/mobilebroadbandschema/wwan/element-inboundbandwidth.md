@@ -9,7 +9,7 @@ title: InboundBandwidth
 ms.assetid: a754547a-eeb5-4397-b3a9-7640886394d4
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # InboundBandwidth

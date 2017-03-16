@@ -9,7 +9,7 @@ title: uap:SupportsAnyFileType (Windows 10)
 ms.assetid: 8af8db9e-dc59-4aba-9af9-54ca8051f323
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:SupportsAnyFileType (Windows 10)

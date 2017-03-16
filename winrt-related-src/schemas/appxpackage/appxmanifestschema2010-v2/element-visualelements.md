@@ -9,7 +9,7 @@ title: VisualElements
 ms.assetid: f0db5141-8aba-4ac4-939f-4fe3debcc761
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # VisualElements

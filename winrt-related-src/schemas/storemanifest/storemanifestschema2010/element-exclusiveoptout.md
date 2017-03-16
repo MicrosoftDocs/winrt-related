@@ -9,7 +9,7 @@ title: ExclusiveOptOut
 ms.assetid: f711637b-dbe2-4e90-8fdf-c7ea3ee4e986
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+windows 10, uwp, schema, storemanifest
 ---
 
 # ExclusiveOptOut

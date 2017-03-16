@@ -9,7 +9,7 @@ title: Exponent
 ms.assetid: d07608d5-959b-43e7-8d31-98b6b584e94d
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # Exponent

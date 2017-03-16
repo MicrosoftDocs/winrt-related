@@ -9,7 +9,7 @@ title: AuthProtocol
 ms.assetid: 24272c9d-966a-4f02-a64b-6e7116131ba7
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # AuthProtocol

@@ -9,7 +9,7 @@ title: UMTS
 ms.assetid: c75cb01e-6a51-4f51-b292-53793c6b9aaf
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # UMTS

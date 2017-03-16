@@ -9,7 +9,7 @@ title: uap:AppointmentsProviderLaunchActions (Windows 10)
 ms.assetid: cc9178da-2a91-4c00-8af1-6c86a54cc7e3
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:AppointmentsProviderLaunchActions (Windows 10)

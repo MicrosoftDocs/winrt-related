@@ -9,7 +9,7 @@ title: ApplicationContentUriRules
 ms.assetid: 8bb7c378-6461-4c01-b02f-b7f17c32daaa
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # ApplicationContentUriRules

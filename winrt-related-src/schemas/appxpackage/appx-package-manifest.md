@@ -1,5 +1,5 @@
 ---
-Description: .
+Description: The package manifest is an XML document that contains the info the system needs to deploy, display, or update a Windows app. 
 MS-HAID: appxpkg.appx\_package\_manifest
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -9,7 +9,7 @@ title: App package manifest
 ms.assetid: e3b9d324-c3cd-46e4-b160-37a45e1c349b
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # App package manifest
@@ -19,8 +19,6 @@ keywords: windows 10
 
 
 **Note**  For Windows 10, see [What's different in Windows 10.](uapmanifestschema/what-s-changed-in-windows-10.md)
-
- 
 
 The package manifest is an XML document that contains the info the system needs to deploy, display, or update a Windows app. This info includes package identity, package dependencies, required capabilities, visual elements, and extensibility points. Every app package must include one package manifest.
 

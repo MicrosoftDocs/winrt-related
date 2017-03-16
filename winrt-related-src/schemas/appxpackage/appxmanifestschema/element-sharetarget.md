@@ -9,7 +9,7 @@ title: ShareTarget
 ms.assetid: 42f77354-83be-4f41-bf89-95566d026687
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # ShareTarget

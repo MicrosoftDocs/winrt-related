@@ -9,7 +9,7 @@ title: ActivatableClassAttribute
 ms.assetid: 6070f277-74ae-4cf8-9467-9109c4983f9d
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # ActivatableClassAttribute

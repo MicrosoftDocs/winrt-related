@@ -9,7 +9,7 @@ title: ResourcePackage (Windows 10)
 ms.assetid: 51cabad7-a2eb-4fa3-ab52-59298555aefb
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # ResourcePackage (Windows 10)

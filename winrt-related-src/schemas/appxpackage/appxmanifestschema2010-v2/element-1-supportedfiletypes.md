@@ -9,7 +9,7 @@ title: 'SupportedFileTypes (type: CT\_CharmsSupportedFileTypes)'
 ms.assetid: f5706357-708f-4d3e-bbca-15272e6b77dc
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # SupportedFileTypes (type: CT\_CharmsSupportedFileTypes)

@@ -9,7 +9,7 @@ title: DataClassFriendlyNames
 ms.assetid: 14e6fa1b-991e-4420-a675-52f4c120f5e4
 author: mcleblanc
 ms.author: markl
-keywords: windows 10
+keywords: windows 10, uwp, schema, mobile broadband schema
 ---
 
 # DataClassFriendlyNames

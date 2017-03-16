@@ -9,7 +9,7 @@ title: uap:FileOpenPicker (Windows 10)
 ms.assetid: bb3c01d7-e83a-475f-bd5b-d338098b1f29
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap:FileOpenPicker (Windows 10)

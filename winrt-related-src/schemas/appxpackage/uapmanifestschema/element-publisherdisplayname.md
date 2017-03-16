@@ -9,7 +9,7 @@ title: PublisherDisplayName (Windows 10)
 ms.assetid: 8df2d218-e62d-4b2e-8db5-3436c67aa04c
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # PublisherDisplayName (Windows 10)

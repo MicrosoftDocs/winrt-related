@@ -9,7 +9,7 @@ title: How to specify capabilities in a package manifest
 ms.assetid: 7ca1d523-bc49-4009-a2ef-238c713cd907
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # How to specify capabilities in a package manifest

@@ -9,7 +9,7 @@ title: rescap2:Extension (Windows 10)
 ms.assetid: 067b6b25-2d89-42b1-845c-605ac00963b7
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # rescap2:Extension (Windows 10)

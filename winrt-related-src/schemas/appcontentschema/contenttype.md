@@ -1,6 +1,6 @@
 ---
 title: ContentType
-description: Setting this property on an element indicates that the element’s content is treated as a base64 encoding of the specified MIME type / content type and is indexed using the handler for that content type.
+description: Setting the ContentType property on an element indicates that the element’s content is treated as a base64 encoding of the specified MIME type / content type and is indexed using the handler for that content type.
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/apps

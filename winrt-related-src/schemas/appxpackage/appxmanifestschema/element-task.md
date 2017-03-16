@@ -9,7 +9,7 @@ title: Task
 ms.assetid: 4662ec1d-c245-4c60-b966-e27d5ce0699d
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Task
