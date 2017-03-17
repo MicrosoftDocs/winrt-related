@@ -21,7 +21,7 @@ This reference topic enumerates all of the extension SDKs and their versions, wi
 |-----------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | [Universal extension SDK](windows-universal-sdk.md)       | Lists the API contracts within the Windows Universal Platform SDK |
 | [Desktop extension SDK](windows-desktop-extension-sdk.md) | Lists the API contracts within the Windows Desktop Extension SDK |
-| [Mobile extension SDK](windows-mobile-extensions-sdk.md)  | Lists the API contracts within the Windows Mobile Extension SDK |
+| [Mobile extension SDK](windows-mobile-extension-sdk.md)  | Lists the API contracts within the Windows Mobile Extension SDK |
 | [IoT extension SDK](windows-iot-extension-sdk.md)         | Lists the API contracts within the Windows Internet of Things Extension SDK |
 | [Xbox Live extension SDK](xbox-live-extensions.md)        | Lists the API contracts within the Xbox Live extension SDK |
 | [Universal Windows Platform features not yet supported on Xbox](universal-device-family-feature-area-limitations-on-xbox.md) | Lists some of the feature areas that your UWP app might use that don’t currently function as fully on Xbox |

@@ -3,7 +3,7 @@
 ## [Extension SDKs](extension_sdks/index.md)
 ### [Universal extension SDK](extension_sdks/windows-universal-sdk.md)
 ### [Desktop extension SDK](extension_sdks/windows-desktop-extension-sdk.md)
-### [Mobile extension SDK](extension_sdks/windows-mobile-extensions-sdk.md)
+### [Mobile extension SDK](extension_sdks/windows-mobile-extension-sdk.md)
 ### [IoT extension SDK](extension_sdks/windows-iot-extension-sdk.md)
 ### [Xbox Live extension SDK](extension_sdks/xbox-live-extensions.md)
 ### [Universal Windows Platform features not yet supported on Xbox](extension_sdks/universal-device-family-feature-area-limitations-on-xbox.md)
