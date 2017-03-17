@@ -535,7 +535,7 @@
 ###### [InboundBandwidthInKbps](schemas/mobilebroadbandschema/plans/element-inboundbandwidthinkbps.md)
 ###### [OutboundBandwidthInKbps](schemas/mobilebroadbandschema/plans/element-outboundbandwidthinkbps.md)
 ###### [MaxTransferSizeInMegabytes](schemas/mobilebroadbandschema/plans/element-maxtransfersizeinmegabytes.md)
-###### [SecurityUpdatesExempt](schemas/mobilebroadbandschema/plans/element-plan.md)
+###### [SecurityUpdatesExempt](schemas/mobilebroadbandschema/plans/element-securityupdatesexempt.md)
 ###### [DataUsageInMobileOperatorNotificationEnabled](schemas/mobilebroadbandschema/plans/element-datausageinmobileoperatornotificationenabled.md)
 ###### [UserSMSEnabled](schemas/mobilebroadbandschema/plans/element-usersmsenabled.md)
 ###### [Usage](schemas/mobilebroadbandschema/plans/element-usage.md)
