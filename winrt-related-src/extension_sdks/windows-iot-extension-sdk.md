@@ -13,7 +13,7 @@ keywords: windows 10, uwp, IoT extension sdk contracts
 
 Lists all of the API contracts in the Windows IoT Extension SDK for the UWP.
 
-## Version <TBD>
+## Version TBD when we get final build.
 
 Windows.System.SystemManagementContract, version=3.0
 
@@ -23,7 +23,7 @@ Windows.System.SystemManagementContract, version 2.0
 
 ## Version 10.0.10586.0
 
-Windows.Devices.DevicesLowLevelContract, version 2.0
+Windows.Devices.DevicesLowLevelContract, version 2.0  
 Windows.System.SystemManagementContract, version 2.0
 
 ## Version 10.0.10240.0
