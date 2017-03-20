@@ -1,6 +1,6 @@
 ---
-title: Windows Universal Platform SDK contracts
-description: Lists all of the API contracts within the Windows Universal Platform SDK.
+title: Windows Universal Platform SDK API contracts for the Universal Windows Platform (UWP)
+description: Lists all of the API contracts in the Windows Universal Platform SDK.
 ms.assetid: 98FDBBB3-79DA-46F8-895D-1219D6C0858E
 ms.author: twhitney
 ms.date: 03/29/2017
@@ -9,11 +9,11 @@ ms.prod: windows
 ms.technology: uwp
 keywords: windows 10, uwp, universal sdk contracts
 ---
-# Windows Universal Platform SDK
+# Windows Universal Platform SDK API contracts for the Universal Windows Platform (UWP)
 
 Lists all of the API contracts in the Windows Universal Platform SDK.
 
-## All API contracts in Windows 10 Creators Update Universal SDK, version TBD when we get final build.
+## All API contracts in Windows 10 Creators Update Universal SDK, version 10.0.15063.0
 
 Windows.ApplicationModel.Calls.CallsVoipContract, version=1.0  
 Windows.ApplicationModel.SocialInfo.SocialInfoContract, version=2.0  

@@ -1,5 +1,5 @@
 ---
-title: Windows Mobile Extension SDK contracts for the Universal Windows Platform (UWP)
+title: Windows Mobile Extension SDK API contracts for the UWP
 description: Lists all of the API contracts within the Windows Mobile Extension SDK for the Universal Windows Platform.
 ms.assetid: 3ADFCD07-CFD3-4C4D-90CA-32796771DEF7
 ms.author: twhitney
@@ -9,11 +9,11 @@ ms.prod: windows
 ms.technology: uwp
 keywords: windows 10, uwp, mobile extension sdk contracts
 ---
-# Windows Mobile Extension SDK for the UWP
+# Windows Mobile Extension SDK API contracts for the Universal Windows Platform (UWP)
 
 Lists all of the API contracts within the Windows Mobile Extension SDK for the UWP.
 
-## Version TBD when we get final build.
+## Version 10.0.15063.0
 
 Windows.ApplicationModel.Activation.WebUISearchActivatedEventsContract, version=1.0  
 Windows.ApplicationModel.Calls.Background.CallsBackgroundContract, version=1.0  
