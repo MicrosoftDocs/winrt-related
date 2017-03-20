@@ -6,7 +6,7 @@
 ### [Mobile extension SDK](extension-sdks/windows-mobile-extension-sdk.md)
 ### [IoT extension SDK](extension-sdks/windows-iot-extension-sdk.md)
 ### [Xbox Live extension SDK](extension-sdks/xbox-live-extensions.md)
-### [Universal Windows Platform features not yet supported on Xbox](extension-sdks/uwp-limitations-on-xbox.md)
+### [UWP features not yet supported on Xbox](extension-sdks/uwp-limitations-on-xbox.md)
 ## [Schemas](schemas/index.md)
 ### [App package block map](schemas/blockmapschema/app-package-block-map.md)
 #### [Package block map schema reference](schemas/blockmapschema/schema-root.md)
