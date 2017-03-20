@@ -28,7 +28,7 @@ Use the source content group map to:
 
 ## In this section
 
--   [Source content group map schema reference](../SourceContentGroupMap/schema-root.md)
+-   [Source content group map schema reference](../SourceContentGroupMapSchema/schema-root.md)
 
 ## Related topics
 

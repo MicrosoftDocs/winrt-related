@@ -26,4 +26,4 @@ The following table lists all of the elements in this schema.
 | [File](element-source-automatic-file.md) | The files specified in the automatic content group. |
 | [Required](element-source-required.md) | The required content group. |
 | [ContentGroup](element-source-required-contentgroup.md) | Specifies the required content group. |
-| [File](element-source-requried-file.md) | The files specified in the required content group. |
+| [File](element-source-required-file.md) | The files specified in the required content group. |
