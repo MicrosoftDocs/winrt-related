@@ -1,16 +1,16 @@
 ---
-title: Windows Team Extension SDK contracts for the Universal Windows Platform (UWP)
+title: Windows Team Extension SDK contracts for UWP
 description: Lists all of the API contracts within the Windows Team Extension SDK contracts for the Universal Windows Platform.
 ms.author: twhitney
 ms.date: 03/29/2017
 ms.topic: article
 ms.prod: windows
 ms.technology: uwp
-keywords: windows 10, uwp, team extension sdk contracts, surface hub
+keywords: windows 10, uwp, team extension sdk, api contract, surface hub
 ---
-# Windows Team Extension SDK API contracts for the Universal Windows Platform (UWP)
+# Windows Team Extension SDK API contracts for UWP
 
-Lists all of the API contracts in the Windows Team Extension SDK extension SDK for the UWP
+Lists all of the API contracts in the Windows Team Extension SDK extension SDK for the Universal Windows Platform (UWP)
 
 ## Version 10.0.15063.0
 
