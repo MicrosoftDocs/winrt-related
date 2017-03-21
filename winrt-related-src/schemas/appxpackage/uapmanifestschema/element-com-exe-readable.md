@@ -13,10 +13,10 @@ keywords: windows 10, uwp, schema, manifest, com
 
 # com:Readable (in ExeServer/Class)
 
-## -description
+## Description
 Specifies that an application can only read files.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -64,7 +64,7 @@ Specifies that an application can only read files.
 
 
 
-## -syntax
+## Syntax
 ```syntax
 <com:Readable> 
   <!-- Child elements -->
@@ -72,19 +72,19 @@ Specifies that an application can only read files.
 </com:Readable>
 ```
 
-## -key
+## Key
 
-## -child-elements
+## Child Elements
 
 | Child Element | Description |
 |---------------|-------------|
 | [Format](element-com-exe-rformat.md) | Specifies the file format an application can read (convert from). |
 
-## -remarks
+## Remarks
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

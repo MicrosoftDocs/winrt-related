@@ -13,10 +13,10 @@ keywords: windows 10, uwp, schema, manifest, com
 
 # com:ImplementedCategories (in SurrogateServer/Class)
 
-## -description
+## Description
 Specifies categories implemented by the class.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -58,7 +58,7 @@ Specifies categories implemented by the class.
 </dl>
 
 
-## -syntax
+## Syntax
 ```syntax
 <com:ImplementedCategories>  
   <!-- Child elements -->
@@ -66,20 +66,20 @@ Specifies categories implemented by the class.
 </com:ImplementedCategories>
 ```
 
-## -key
+## Key
 `{}`   specific range of occurrences 
 
-## -child-elements
+## Child Elements
 
 | Child Element | Description |
 |---------------|-------------|
 | [ImplementedCategory](element-com-surrogate-implementedcategory.md) | Indicates that the class has implemented the specified category. |
 
-## -remarks
+## Remarks
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

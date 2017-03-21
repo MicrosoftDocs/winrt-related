@@ -14,10 +14,10 @@ keywords: windows 10, uwp, schema, manifest, com
 
 # com:ReadWritable (in SurrogateServer/Class)
 
-## -description
+## Description
 Specifies that an application can read and write files.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -63,7 +63,7 @@ Specifies that an application can read and write files.
 </dd>
 </dl>
 
-## -syntax
+## Syntax
 ```syntax
 <com:ReadWritable> 
   <!-- Child elements -->
@@ -71,19 +71,19 @@ Specifies that an application can read and write files.
 </com:ReadWritable>
 ```
 
-## -key
+## Key
 
-## -child-elements
+## Child Elements
 
 | Child Element | Description |
 |---------------|-------------|
 | [Format](element-com-surrogate-rwformat.md) | Specifies the file format an application can read and write (activate as). |
 
-## -remarks
+## Remarks
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

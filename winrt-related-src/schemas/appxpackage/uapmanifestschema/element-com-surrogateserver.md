@@ -14,10 +14,10 @@ keywords: windows 10, uwp, schema, manifest, com
 
 # com:SurrogateServer
 
-## -description
+## Description
 Registers a SurrogateServer with one or many class registrations.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -48,7 +48,7 @@ Registers a SurrogateServer with one or many class registrations.
 </dd>
 </dl>
 
-## -syntax
+## Syntax
 ```syntax
 <com:SurrogateServer  
     CustomSurrogateExecutable? = A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *.
@@ -62,10 +62,10 @@ Registers a SurrogateServer with one or many class registrations.
 </com:SurrogateServer>
 ```
 
-## -key
+## Key
 `{}`   specific range of occurrences
 
-## -attributes
+## Attributes
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
@@ -75,22 +75,22 @@ Registers a SurrogateServer with one or many class registrations.
 | AppId | The AppId that references the associated AppId key. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |
 | SystemSurrogate | A value that corresponds to well-known values from the DllSurrogate value of the AppId key. This is mututally exclusive with CustomSurrogateExecutable. | A string type | No |
 
-## -child-elements
+## Child Elements
 
 | Child Element | Description |
 |---------------|-------------|
 | [Class](element-com-surrogateserver-class.md) | Defines a SurrogateServer class registration. |
 
-## -remarks
+## Remarks
 If there is no value for the DllSurrogate in the [AppId key](https://msdn.microsoft.com/library/windows/desktop/ms682359.aspx), do not use the CustomSurrogateExecutable attribute.
 
 **LaunchAndActivationPermission** is an [SDDL string](https://aka.ms/sddl-string-format) that corresponds to the LaunchPermission value of the [AppID key](https://msdn.microsoft.com/library/windows/desktop/ms682359.aspx).
 
 The **SystemSurrogate** corresponds to the values of the DllSurrogate value of the AppId key. For example, if the DllSurrogate value is `%System32%\prevhost.exe` or `%SysWow64%\prevhost.exe`, then **SystemSurrogate** should be set to `PreviewHost` and the **CustomSurrogateExecutable** should not be set. 
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

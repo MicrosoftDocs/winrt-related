@@ -13,10 +13,10 @@ keywords: windows 10, uwp, schema, manifest, com
 
 # com:ComInterface
 
-## -description
+## Description
 Declares a package extension point of type **windows.comInterface**. The comInterface extension may include three types of registrations: **Interface**, **ProxyStub**, or **TypeLib**.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -43,7 +43,7 @@ Declares a package extension point of type **windows.comInterface**. The comInte
 </dl>
 
 
-## -syntax
+## Syntax
 ```syntax
 <ComInterface>
   <!-- Child elements -->
@@ -54,10 +54,10 @@ Declares a package extension point of type **windows.comInterface**. The comInte
 </ComInterface>
 ```
 
-## -key
+## Key
 `{}`   specific range of occurrences
 
-## -child-elements
+## Child Elements
 
 | Child Element | Description |
 |---------------|-------------|
@@ -65,7 +65,7 @@ Declares a package extension point of type **windows.comInterface**. The comInte
 | [Interface](element-com-interface.md) | Registers new COM Interfaces. |
 | [TypeLib](element-com-typelib.md) | Registers a type library. |
 
-## -remarks
+## Remarks
 The **comInterface** extension can be under the Application/Extensions/Extension manifest element, or under the Package/Extensions/Extension manifest element. There is no functional difference between these two options, but both placements have different advantages.
 
 If the extension is under Application/Extensions/Extension, you can improve the readability of the manifest by keeping interface registrations near the class registrations that implement them. However, if you place the extension under Package/Extensions/Extension, you won't need to determine which Application to use for each interface. It's possible to use multiple **comInterface** extensions in either Application/Extensions/Extension or Package/Extensions/Extension, but this is neither recommended nor necessary.
@@ -73,9 +73,9 @@ If the extension is under Application/Extensions/Extension, you can improve the 
 > [!NOTE]
 > Any registrations in **comInterface** that depend on another registration (e.g. an **Interface** references a **ProxyStub** and/or a **TypeLib**) must be in the same **comInterface** extension. 
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 
 <table>
 <colgroup>

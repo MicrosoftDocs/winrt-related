@@ -14,10 +14,10 @@ keywords: windows 10, uwp, schema, manifest, com
 
 # com:DataFormat (in SurrogateServer/Class)
 
-## -description
+## Description
 The data format supported by an application.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -64,7 +64,7 @@ The data format supported by an application.
 </dl>
 
 
-## -syntax
+## Syntax
 ```syntax
 <com:DataFormat
   AspectFlag = A string as one of the enumeration values: Content, Thumbnail, Icon, or DocPrint.
@@ -75,10 +75,10 @@ The data format supported by an application.
 </com:DataFormat>
 ```
 
-## -key
+## Key
 `?`    optional (zero or one) 
 
-## -attributes
+## Attributes
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
@@ -88,12 +88,12 @@ The data format supported by an application.
 | FormatName | The name of the data format. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
 | StandardFormat | The integer value of the data format. | A string in hexadecimal format containing numbers or the letters a, b, c, d, e, f (capital or lower case). | No |
 
-## -remarks
+## Remarks
 Note that **FormatName** and **StandardFormat** are mutually exclusive attributes and are [Standard Clipboard Formats](https://msdn.microsoft.com/library/windows/desktop/ff729168.aspx).
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

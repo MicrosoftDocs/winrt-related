@@ -13,10 +13,10 @@ keywords: windows 10, uwp, schema, manifest, com
 
 # com:TreatAsClass
 
-## -description
+## Description
 A registration that corresponds to a CLSID registration with the TreatAs subkey.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -47,7 +47,7 @@ A registration that corresponds to a CLSID registration with the TreatAs subkey.
 </dd>
 </dl>
 
-## -syntax
+## Syntax
 ```syntax
 <com:TreatAsClass 
     Id = A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.
@@ -56,10 +56,10 @@ A registration that corresponds to a CLSID registration with the TreatAs subkey.
 </com:TreatAsClass>
 ```
 
-## -key
+## Key
 `?`   optional (zero or more)
 
-## -attributes
+## Attributes
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
@@ -67,11 +67,11 @@ A registration that corresponds to a CLSID registration with the TreatAs subkey.
 | DisplayName | An optional string representing the default value of the CLSID key. | A string between 1 and 256 characters in length. This string is localizable. | No |
 | TreatAs | Specifies the CLSID of a class that can emulate the current class. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |
 
-## -remarks
+## Remarks
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

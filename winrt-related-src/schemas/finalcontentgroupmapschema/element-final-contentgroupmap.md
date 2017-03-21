@@ -13,13 +13,13 @@ keywords: windows 10, uwp, streaming install, content group, map, final content 
 
 # ContentGroupMap
 
-## -description
+## Description
 Specifies the layout of the final content group map, AppxContentGroupMap.xml.
 
-## -element-hierarchy
+## Element Hierarchy
 <b>&lt;ContentGroupMap&gt;</b>
 
-## -syntax
+## Syntax
 ```syntax
 <ContentGroupMap IgnorableNamespaces? = String type. >
   <!-- Child elements -->
@@ -27,26 +27,26 @@ Specifies the layout of the final content group map, AppxContentGroupMap.xml.
 </ContentGroupMap>
 ```
 
-## -key
+## Key
 
-## -attributes
+## Attributes
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | IgnorableNamespaces | Declares namespaces used in the manifest that should be ignored. Ignored namespace elements are not validated and should be considered untrusted. Multiple namespaces are specified with a space between each namespace. | String type. | No |
 
-## -child-elements
+## Child Elements
 
 | Child Element | Description |
 |---------------|-------------|
 | [Automatic](element-final-automatic.md) | The automatic content group. |
 
-## -remarks
+## Remarks
 It's recommended to start with authoring the source content group map (SourceAppxContentGroupMap.xml) and converting that into the final content group map (AppxContentGroupMap.xml) via Visual Studio or MakeAppx.exe. For more information, see TODO.
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

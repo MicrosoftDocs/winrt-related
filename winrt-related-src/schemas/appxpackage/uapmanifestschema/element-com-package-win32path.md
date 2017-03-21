@@ -14,10 +14,10 @@ keywords: windows 10, uwp, schema, manifest, com
 
 # com:Win32Path (in Package/Extensions)
 
-## -description
+## Description
 A path to the 32-bit type library. 
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -50,7 +50,7 @@ A path to the 32-bit type library.
 
 
 
-## -syntax
+## Syntax
 ```syntax
 <Win32Path
     Path = A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, %, ", |, ?, or *.
@@ -58,23 +58,23 @@ A path to the 32-bit type library.
 </Win32Path>
 ```
 
-## -key
+## Key
 `?`    optional (zero or one) 
 
-## -attributes
+## Attributes
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | Path | A path to the 32-bit TypeLib relative to the package root. Path must reference a file in the package. | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, %, ", &#124;, ?, or *. | Yes |
 | ResourceId | The integer at the end of the default value of the Win32Path, separated from the path by a backslash, e.g., C:\Foo\Bar\Baz.exe\5. | An integer type. | No |
 
-## -remarks
+## Remarks
 > [!NOTE]  
 > You must specify both a Win32Path and a Win64Path in the [Version](element-com-package-version.md).
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

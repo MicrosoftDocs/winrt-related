@@ -14,10 +14,10 @@ keywords: windows 10, uwp, schema, manifest, com
 
 # com:Format (in SurrogateServer/Class)
 
-## -description
+## Description
 Specifies the file format an application can read and write (activate as).
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -68,7 +68,7 @@ Specifies the file format an application can read and write (activate as).
 </dd>
 </dl>
 
-## -syntax
+## Syntax
 ```syntax
 <com:Format
     FormatName? = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
@@ -76,23 +76,23 @@ Specifies the file format an application can read and write (activate as).
 </com:Format>
 ```
 
-## -key
+## Key
 `?`   optional (zero or more)
 
-## -attributes
+## Attributes
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | FormatName | The string file format name. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
 | StandardFormat | The hexadecimal file format name. | A string in hexadecimal format containing numbers or the letters a, b, c, d, e, f (capital or lower case). | No |
 
-## -remarks
+## Remarks
 > [!NOTE]
 > **FormatName** and **StandardFormat** are mutually exclusive.
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />
