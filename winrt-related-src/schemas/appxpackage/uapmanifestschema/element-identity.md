@@ -63,7 +63,7 @@ Defines a globally unique identifier for a package. A package identity is repres
 <tbody>
 <tr class="odd">
 <td><strong>Name</strong></td>
-<td><p>Describes the contents of the package. The <strong>Name</strong> attribute is case-sensitive.</p>
+<td><p>Describes the contents of the package. The <strong>Name</strong> attribute is case-insensitive.</p>
 <p>Use the [<strong>DisplayName</strong>](https://msdn.microsoft.com/library/windows/apps/br211432) attribute to display a package name to users.</p>
 <p>This string cannot end with a period and cannot be one of these strings: &quot;CON&quot;, &quot;PRN&quot;, &quot;AUX&quot;, &quot;NUL&quot;, &quot;COM1&quot;, &quot;COM2&quot;, &quot;COM3&quot;, &quot;COM4&quot;, &quot;COM5&quot;, &quot;COM6&quot;, &quot;COM7&quot;, &quot;COM8&quot;, &quot;COM9&quot;, &quot;LPT1&quot;, &quot;LPT2&quot;, &quot;LPT3&quot;, &quot;LPT4&quot;, &quot;LPT5&quot;, &quot;LPT6&quot;, &quot;LPT7&quot;, &quot;LPT8&quot;, and &quot;LPT9&quot;.</p></td>
 <td>A string between 3 and 50 characters in length that consists of alpha-numeric, period, and dash characters.</td>

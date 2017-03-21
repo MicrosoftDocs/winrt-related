@@ -64,7 +64,7 @@ Defines a globally unique identifier for a package. A package identity is repres
 <tbody>
 <tr class="odd">
 <td><strong>Name</strong></td>
-<td><p>Describes the contents of the package. The <strong>Name</strong> attribute is case-sensitive.</p>
+<td><p>Describes the contents of the package. The <strong>Name</strong> attribute is case-insensitive.</p>
 <p>Use the [<strong>DisplayName</strong>](element-displayname.md) attribute to display a package name to users.</p></td>
 <td>A string between 3 and 50 characters in length that consists of alpha-numeric, period, and dash characters.</td>
 <td>Yes</td>
