@@ -1,0 +1,107 @@
+---
+author: laurenhughes
+ms.assetid: 1fbace83-45dc-4c29-a84d-5c0d0c2f9589
+title: com:DataFormat (in ExeServer/Class)
+description: The data format supported by an application.
+ms.author: lahugh
+ms.date: 03/29/2017
+ms.topic: article
+ms.prod: windows
+ms.technology: uwp
+keywords: windows 10, uwp, schema, manifest, com
+---
+
+# com:DataFormat (in ExeServer/Class)
+
+## -description
+The data format supported by an application.
+
+## -element-hierarchy
+<dl>
+<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-com-extension.md">&lt;com:Extension&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-com-comserver.md">&lt;com:ComServer&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-com-exeserver.md">&lt;com:ExeServer&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-com-exeserver-class.md">&lt;com:Class&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-com-exe-dataformats.md">&lt;com:DataFormats&gt;</a></dt>
+<dd><b>&lt;DataFormat&gt;</b></dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+
+
+## -syntax
+```syntax
+<com:DataFormat
+  AspectFlag = A string as one of the enumeration values: Content, Thumbnail, Icon, or DocPrint.
+  MediumFlag = An integer value in the range of 0-127.
+  Direction = A string as one of the enumeration values: Get, Set, or GetAndSet.
+  FormatName? = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
+  StandardFormat? = A string in hexadecimal format containing numbers or the letters a, b, c, d, e, f (capital or lower case). >
+</com:DataFormat>
+```
+
+## -key
+`?`    optional (zero or one) 
+
+## -attributes
+
+| Attribute | Description | Data type | Required |
+|-----------|-------------|-----------|----------|
+| AspectFlag | Represents a [DVASPECT](https://msdn.microsoft.com/library/windows/desktop/ms690318.aspx) enumeration value for the desired data or view aspect. | A string as one of the enumeration values: Content, Thumbnail, Icon, or DocPrint. | Yes |
+| MediumFlag | The type of storage medium used for data transfer. This corresponds to the [TYMED](https://msdn.microsoft.com/library/windows/desktop/ms691227.aspx) enumeration. | An integer value in the range of 0-127. | Yes |
+| Direction | This represents the [DATADIR](https://msdn.microsoft.com/library/windows/desktop/ms680661.aspx) enumeration which corresponds to the direction of the data flow. | A string as one of the enumeration values: Get, Set, or GetAndSet. | Yes |
+| FormatName | The name of the data format. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
+| StandardFormat | The integer value of the data format. | A string in hexadecimal format containing numbers or the letters a, b, c, d, e, f (capital or lower case). | No |
+
+## -remarks
+Note that **FormatName** and **StandardFormat** are mutually exclusive attributes and are [Standard Clipboard Formats](https://msdn.microsoft.com/library/windows/desktop/ff729168.aspx).
+
+## -examples
+
+## -requirements
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p>Namespace</p></td>
+<td><p>http://schemas.microsoft.com/appx/manifest/com/windows10</p></td>
+</tr>
+</tbody>
+</table>
