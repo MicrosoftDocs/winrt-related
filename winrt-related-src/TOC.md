@@ -1,7 +1,7 @@
 ﻿# [Index](index.md)
 ## [Windows Runtime (WinRT) namespaces](http://docs.microsoft.com/uwp/api/)
 ## [Extension SDKs](extension-sdks/index.md)
-### [Universal extension SDK](extension-sdks/windows-universal-sdk.md)
+### [Universal SDK](extension-sdks/windows-universal-sdk.md)
 ### [Desktop extension SDK](extension-sdks/windows-desktop-extension-sdk.md)
 ### [Mobile extension SDK](extension-sdks/windows-mobile-extension-sdk.md)
 ### [IoT extension SDK](extension-sdks/windows-iot-extension-sdk.md)
