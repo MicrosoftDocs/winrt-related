@@ -1,9 +1,5 @@
 ---
-Description: Logo
-MS-HAID: AppxManifestSchema2010\_v2.element\_1\_Logo
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: A path to a file that contains an image.
 Search.Product: eADQiWindows 10XVcnh
 title: Logo
 ms.assetid: 0612bd93-1f47-463b-96db-927e8334d098

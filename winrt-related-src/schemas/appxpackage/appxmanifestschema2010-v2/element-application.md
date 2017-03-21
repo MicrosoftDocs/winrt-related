@@ -1,9 +1,5 @@
 ---
-Description: Application
-MS-HAID: AppxManifestSchema2010\_v2.element\_Application
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Represents an app that comprises part of or all of the functionality delivered in the package.
 Search.Product: eADQiWindows 10XVcnh
 title: Application
 ms.assetid: 39221d13-bb46-42ac-be51-117357cade81

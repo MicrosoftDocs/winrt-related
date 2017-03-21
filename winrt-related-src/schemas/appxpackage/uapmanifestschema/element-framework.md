@@ -1,9 +1,5 @@
 ---
 Description: Framework (Windows 10)
-MS-HAID: UapManifestSchema.element\_Framework
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Framework (Windows 10)
 ms.assetid: 2a8e1c58-b079-4ef1-ae62-c27bb3f5a469

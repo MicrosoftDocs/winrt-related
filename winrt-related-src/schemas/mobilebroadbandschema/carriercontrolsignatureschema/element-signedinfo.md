@@ -1,9 +1,5 @@
 ---
-Description: SignedInfo
-MS-HAID: CarrierControlSignatureSchema.element\_SignedInfo
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines all signed content within the signature.
 Search.Product: eADQiWindows 10XVcnh
 title: SignedInfo
 ms.assetid: 85648eb7-6cb7-4c55-aa7c-3744068c5273

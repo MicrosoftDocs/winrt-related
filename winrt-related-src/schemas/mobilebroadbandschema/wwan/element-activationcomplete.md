@@ -1,9 +1,5 @@
 ---
-Description: ActivationComplete
-MS-HAID: WWAN.element\_ActivationComplete
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines if the subscription has been activated, and the machine should immediately attempt to connect.
 Search.Product: eADQiWindows 10XVcnh
 title: ActivationComplete
 ms.assetid: dab1e552-a1d6-4ca2-b41e-6bcf2b3c05a5

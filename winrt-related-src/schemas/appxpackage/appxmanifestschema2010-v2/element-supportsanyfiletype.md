@@ -1,9 +1,5 @@
 ---
-Description: SupportsAnyFileType
-MS-HAID: AppxManifestSchema2010\_v2.element\_SupportsAnyFileType
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Indicates whether all file types are supported for sharing.
 Search.Product: eADQiWindows 10XVcnh
 title: SupportsAnyFileType
 ms.assetid: be446c1e-2be7-47eb-8ac9-9dd32733465a

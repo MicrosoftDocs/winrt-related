@@ -1,9 +1,5 @@
 ---
 Description: The Mobile Broadband Account Experience (MBAE) schema defines elements that are used by mobile network operators and retail partners to deliver valued added services to customers.
-MS-HAID: MBAE.Schema\_Root
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: MBAE schema
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c

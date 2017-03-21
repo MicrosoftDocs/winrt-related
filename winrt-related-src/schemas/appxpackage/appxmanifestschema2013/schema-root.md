@@ -1,9 +1,5 @@
 ---
-Description: Package manifest schema with feature extensions reference
-MS-HAID: AppxManifestSchema2013.Schema\_Root
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Provides details for each element, attribute, and data type of each feature extension that defines the schema for the app package manifest for Windows 8.1 Windows Store apps.
 Search.Product: eADQiWindows 10XVcnh
 title: Package manifest schema with feature extensions reference
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c

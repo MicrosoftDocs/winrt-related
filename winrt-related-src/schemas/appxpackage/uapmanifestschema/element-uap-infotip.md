@@ -1,9 +1,5 @@
 ---
 Description: uap:InfoTip (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_InfoTip
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:InfoTip (Windows 10)
 ms.assetid: 98a13282-74da-46e9-9790-54c557f8026c

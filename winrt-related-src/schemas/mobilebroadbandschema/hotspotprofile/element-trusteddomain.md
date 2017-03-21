@@ -1,9 +1,5 @@
 ---
-Description: TrustedDomain
-MS-HAID: HotSpotProfile.element\_TrustedDomain
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: A host name that is trusted for providing credentials over HTTPS. 
 Search.Product: eADQiWindows 10XVcnh
 title: TrustedDomain
 ms.assetid: e2dc8d60-cddd-4fd7-8092-ee34815a2cc5

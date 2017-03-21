@@ -1,15 +1,11 @@
 ---
-Description: DirectXDependency
-MS-HAID: StoreManifestSchema2015.element\_DirectXDependency
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Identifies the minimum DirectX level that a device must support in order for your package to run properly.
 Search.Product: eADQiWindows 10XVcnh
 title: DirectXDependency
 ms.assetid: 6034e4ef-8a4d-4cdd-8e18-df026a35f4e7
 author: laurenhughes
 ms.author: lahugh
-windows 10, uwp, schema, storemanifest
+keywords: windows 10, uwp, schema, storemanifest
 ---
 
 # DirectXDependency

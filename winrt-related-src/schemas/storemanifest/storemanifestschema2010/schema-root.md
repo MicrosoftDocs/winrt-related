@@ -1,15 +1,11 @@
 ---
 Description: StoreManifest schema (Windows 8.1 and earlier)
-MS-HAID: StoreManifest.Schema\_Root
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: StoreManifest schema (Windows 8.1 and earlier)
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
 author: mcleblanc
 ms.author: markl
-windows 10, uwp, schema, storemanifest
+keywords: windows 10, uwp, schema, storemanifest
 ---
 
 # StoreManifest schema (Windows 8.1 and earlier)

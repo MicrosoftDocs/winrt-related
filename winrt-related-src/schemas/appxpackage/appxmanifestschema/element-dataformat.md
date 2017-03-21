@@ -1,9 +1,5 @@
 ---
 Description: DataFormat
-MS-HAID: AppxManifestSchema.element\_DataFormat
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: DataFormat
 ms.assetid: a9aa181e-236d-4d33-adcd-54ec8e656891

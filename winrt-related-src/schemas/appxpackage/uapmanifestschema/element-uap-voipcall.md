@@ -1,9 +1,5 @@
 ---
 Description: uap:VoipCall
-MS-HAID: UapManifestSchema.element\_uap\_VoipCall
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:VoipCall
 ms.assetid: 44b66d5c-feb6-4112-9816-1dbdc804577e

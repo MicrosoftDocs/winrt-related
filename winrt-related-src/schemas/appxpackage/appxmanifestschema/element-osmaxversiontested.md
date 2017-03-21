@@ -1,9 +1,5 @@
 ---
 Description: OSMaxVersionTested
-MS-HAID: AppxManifestSchema.element\_OSMaxVersionTested
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: OSMaxVersionTested
 ms.assetid: 2f820978-5080-427d-b364-08951afae9ee

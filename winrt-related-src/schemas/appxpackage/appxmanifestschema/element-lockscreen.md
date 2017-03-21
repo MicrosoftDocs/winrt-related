@@ -1,9 +1,5 @@
 ---
 Description: LockScreen
-MS-HAID: AppxManifestSchema.element\_LockScreen
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: LockScreen
 ms.assetid: 4b73231f-9cf8-4dc6-ad82-70dc2bdb7745

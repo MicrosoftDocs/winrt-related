@@ -1,23 +1,19 @@
 ---
 Description: Package manifest schema with Windows 8.1 minor extensions reference
-MS-HAID: AppxManifestSchema2010\_v2.Schema\_Root
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
-title: Package manifest schema with Windows 8.1 minor extensions reference
+title: Package manifest schema Windows 8.1 minor extensions
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
 author: mcleblanc
 ms.author: markl
 keywords: windows 10, uwp, schema, package manifest
 ---
 
-# Package manifest schema with Windows 8.1 minor extensions reference
+# Package manifest schema Windows 8.1 minor extensions
 
 
-This reference provides details for each element, attribute, and data type that defines the schema for the app package manifest for Windows 8.1 apps. The schema definition file is AppxManifestSchema2010\_v2.xsd.
+This reference provides details for each element, attribute, and data type that defines the schema for the app package manifest for Windows 8.1 apps. The schema definition file is AppxManifestSchema2010_v2.xsd.
 
-AppxManifestSchema2010\_v2.xsd is the schema that defines the overall manifest schema for Windows 8.1 apps. AppxManifestSchema2010\_v2.xsd is a copy of the Windows 8 manifest schema, AppxManifestSchema.xsd, but adds new elements and attributes in the Windows 8.1 namespace. This schema is only used to validate manifests that define OSMinVersion as 6.3.\*. These Windows 8.1 namespace types are imported into this schema from the AppxManifestSchema2013.xsd file.
+AppxManifestSchema2010_v2.xsd is the schema that defines the overall manifest schema for Windows 8.1 apps. AppxManifestSchema2010_v2.xsd is a copy of the Windows 8 manifest schema, AppxManifestSchema.xsd, but adds new elements and attributes in the Windows 8.1 namespace. This schema is only used to validate manifests that define OSMinVersion as 6.3.\*. These Windows 8.1 namespace types are imported into this schema from the AppxManifestSchema2013.xsd file.
 
 The following table lists all of the elements in this schema, sorted alphabetically by name.
 

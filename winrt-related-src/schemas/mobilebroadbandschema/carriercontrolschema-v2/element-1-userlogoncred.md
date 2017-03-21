@@ -1,9 +1,5 @@
 ---
-Description: UserLogonCred
-MS-HAID: CarrierControlSchema\_v2.element\_1\_UserLogonCred
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the user login credentials for a context in the Packet Data Protocol (PDP) context policy.
 Search.Product: eADQiWindows 10XVcnh
 title: UserLogonCred
 ms.assetid: 518b3496-f7c3-4af5-a17b-778293d74d4a

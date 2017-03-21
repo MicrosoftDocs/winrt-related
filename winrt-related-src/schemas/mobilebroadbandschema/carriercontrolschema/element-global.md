@@ -1,9 +1,5 @@
 ---
-Description: Global
-MS-HAID: CarrierControlSchema.element\_Global
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines identifying information for this provisioning attempt on a Mobile Network Operator's (MNO) network.
 Search.Product: eADQiWindows 10XVcnh
 title: Global
 ms.assetid: e6dd93a0-2535-4df3-8f3e-32186e7ce122

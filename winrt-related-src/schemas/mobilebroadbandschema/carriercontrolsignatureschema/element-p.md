@@ -1,9 +1,5 @@
 ---
-Description: P
-MS-HAID: CarrierControlSignatureSchema.element\_P
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines a prime modulus meeting the DSAwithSHA1 requirements as specified in XML DSIG.
 Search.Product: eADQiWindows 10XVcnh
 title: P
 ms.assetid: d2720356-bd59-40bb-bb0f-9113f5d47010

@@ -1,9 +1,5 @@
 ---
-Description: Usage
-MS-HAID: WWAN.element\_Usage
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the number of bytes the subscriber has consumed against their data limit.
 Search.Product: eADQiWindows 10XVcnh
 title: Usage
 ms.assetid: 82d451f6-18be-4455-b62a-61296a8f8ad0

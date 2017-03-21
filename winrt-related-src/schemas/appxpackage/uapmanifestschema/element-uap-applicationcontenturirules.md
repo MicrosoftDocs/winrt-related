@@ -1,9 +1,5 @@
 ---
 Description: uap:ApplicationContentUriRules (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_ApplicationContentUriRules
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:ApplicationContentUriRules (Windows 10)
 ms.assetid: ae619bfa-0087-46ac-90e3-934a7bae85ba

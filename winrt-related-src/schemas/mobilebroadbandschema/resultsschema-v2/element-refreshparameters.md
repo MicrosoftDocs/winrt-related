@@ -1,9 +1,5 @@
 ---
-Description: RefreshParameters
-MS-HAID: ResultsSchema\_v2.element\_RefreshParameters
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains any errors from processing the RefreshParameters element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: RefreshParameters
 ms.assetid: 138e7caf-6eeb-4f3d-8e53-13a3ecfacfeb

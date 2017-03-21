@@ -1,15 +1,11 @@
 ---
-Description: MemoryDependency
-MS-HAID: StoreManifestSchema2015.element\_MemoryDependency
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Identifies the minimum memory that a device must have in order for your package to run properly.
 Search.Product: eADQiWindows 10XVcnh
 title: MemoryDependency
 ms.assetid: f575ea28-e218-4061-b3b8-6cc0cd4d9230
 author: laurenhughes
 ms.author: lahugh
-windows 10, uwp, schema, storemanifest
+keywords: windows 10, uwp, schema, storemanifest
 ---
 
 # MemoryDependency

@@ -1,9 +1,5 @@
 ---
 Description: Declares an app extensibility point of type windows.performanceProviders.
-MS-HAID: UapManifestSchema.element\_serverpreview\_performanceproviders\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:PerformanceProviders
 ms.assetid: 63366b04-0493-4bea-918b-7bab027d5e29

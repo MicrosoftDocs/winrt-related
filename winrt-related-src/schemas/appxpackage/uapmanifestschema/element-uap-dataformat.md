@@ -1,9 +1,5 @@
 ---
 Description: uap:DataFormat (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_DataFormat
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:DataFormat (Windows 10)
 ms.assetid: 348b61e7-ecbd-42ea-8a82-81ef85e728cb

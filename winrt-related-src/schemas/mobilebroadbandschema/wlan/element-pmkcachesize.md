@@ -1,9 +1,5 @@
 ---
-Description: PMKCacheSize
-MS-HAID: WLAN.element\_PMKCacheSize
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the number of entries in the Pairwise Master Key (PMK) cache on the client.
 Search.Product: eADQiWindows 10XVcnh
 title: PMKCacheSize
 ms.assetid: b8b7c9b7-af01-484a-aeef-ff7ef2a3f728

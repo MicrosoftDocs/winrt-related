@@ -1,9 +1,5 @@
 ---
-Description: HSDPA
-MS-HAID: CarrierControlSchema\_v2.element\_HSDPA
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the High-Speed Downlink Packet Access (HSDPA) protocol used for mobile network data.
 Search.Product: eADQiWindows 10XVcnh
 title: HSDPA
 ms.assetid: abcb6fa4-920a-4ae4-b19e-8530c5d8dae3

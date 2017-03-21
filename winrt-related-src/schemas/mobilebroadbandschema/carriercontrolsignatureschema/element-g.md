@@ -1,9 +1,5 @@
 ---
-Description: G
-MS-HAID: CarrierControlSignatureSchema.element\_G
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines an integer with certain properties with respect to P and Q.
 Search.Product: eADQiWindows 10XVcnh
 title: G
 ms.assetid: 15f0fa15-c95d-4ef4-8272-daa1e19dcf50

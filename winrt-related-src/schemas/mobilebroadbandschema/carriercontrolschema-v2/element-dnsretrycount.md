@@ -1,9 +1,5 @@
 ---
-Description: DNSRetryCount
-MS-HAID: CarrierControlSchema\_v2.element\_DNSRetryCount
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the DNS retry count.
 Search.Product: eADQiWindows 10XVcnh
 title: DNSRetryCount
 ms.assetid: 3fa80714-0ad9-4b7a-9c4a-3dd9fa96bf9a

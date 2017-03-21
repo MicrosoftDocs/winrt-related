@@ -1,9 +1,5 @@
 ---
-Description: NetworkConfiguration
-MS-HAID: MBAE.element\_NetworkConfiguration
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the network configuration for the mobile broadband Purchase and Internet profiles to be used for mobile network.
 Search.Product: eADQiWindows 10XVcnh
 title: NetworkConfiguration
 ms.assetid: 528097af-092d-4aaf-abcc-cef110f1018e

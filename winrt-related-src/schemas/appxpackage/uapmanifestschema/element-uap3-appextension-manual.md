@@ -1,9 +1,5 @@
 ---
 Description: Declares an app extensibility point of type windows.appExtension.
-MS-HAID: UapManifestSchema.element\_uap3\_appextension\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:AppExtension
 ms.assetid: 88e4b56d-e2c2-4782-bedd-eae33d069c2c

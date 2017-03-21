@@ -1,9 +1,5 @@
 ---
 Description: Resource
-MS-HAID: AppxManifestSchema.element\_Resource
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Resource
 ms.assetid: 445e7de7-e778-4666-b099-3d7f6f0125c7

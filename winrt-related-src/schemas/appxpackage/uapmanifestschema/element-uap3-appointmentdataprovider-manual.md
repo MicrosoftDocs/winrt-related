@@ -1,9 +1,5 @@
 ---
 Description: Declares an app extensibility point of type windows.appointmentDataProvider.
-MS-HAID: UapManifestSchema.element\_uap3\_appointmentdataprovider\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:AppointmentDataProvider (Windows 10)
 ms.assetid: 4d8f6db7-f0a9-4dd7-b1b9-3067d0118da2

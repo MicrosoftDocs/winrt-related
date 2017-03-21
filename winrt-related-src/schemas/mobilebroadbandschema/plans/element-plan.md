@@ -1,9 +1,5 @@
 ---
-Description: Plan
-MS-HAID: Plans.element\_Plan
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines a set of plan information that specifies the data usage options and state of a subscriber's connection to a Mobile Network Operator (MNO).
 Search.Product: eADQiWindows 10XVcnh
 title: Plan
 ms.assetid: 880ae12d-cd46-4b3b-9b24-3b1f92a64fd0

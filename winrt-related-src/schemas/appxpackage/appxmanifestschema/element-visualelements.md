@@ -1,9 +1,5 @@
 ---
 Description: VisualElements
-MS-HAID: AppxManifestSchema.element\_VisualElements
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: VisualElements
 ms.assetid: f0db5141-8aba-4ac4-939f-4fe3debcc761

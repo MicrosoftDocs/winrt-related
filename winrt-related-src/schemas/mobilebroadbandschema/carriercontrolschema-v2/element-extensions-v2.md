@@ -1,9 +1,5 @@
 ---
-Description: Extensions\_v2
-MS-HAID: CarrierControlSchema\_v2.element\_Extensions\_v2
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines additional properties and settings in a subscriber's carrier provisioning file. 
 Search.Product: eADQiWindows 10XVcnh
 title: Extensions\_v2
 ms.assetid: 698df4b4-94ce-4516-bcbc-92cae505c405

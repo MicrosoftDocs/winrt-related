@@ -1,9 +1,5 @@
 ---
-Description: Toast schema
-MS-HAID: toast.Schema\_Root
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Toast schema are used to define a toast notification, and specify the template, images, audio, and text that compose the toast content, branding specifics, and language information.
 Search.Product: eADQiWindows 10XVcnh
 title: Toast schema
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
@@ -15,7 +11,7 @@ keywords: windows 10, uwp, schema, toast notifications
 # Toast schema
 
 
-These elements are used to define a toast notification, and specify the template, images, audio, and text that compose the toast content, branding specifics, and language information.
+These elements 
 
 These elements and their attributes are manipulated through Document Object Model (DOM) manipulation functions to customize the toast content.
 

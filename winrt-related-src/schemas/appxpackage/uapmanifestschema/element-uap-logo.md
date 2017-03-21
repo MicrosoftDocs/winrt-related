@@ -1,9 +1,5 @@
 ---
 Description: uap:Logo (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_Logo
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:Logo (Windows 10)
 ms.assetid: e82d1f5f-e1c8-469c-8568-0736c2a96554

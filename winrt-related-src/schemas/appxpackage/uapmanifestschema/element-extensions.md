@@ -1,9 +1,5 @@
 ---
 Description: Extensions (in Package) (Windows 10)
-MS-HAID: UapManifestSchema.element\_Extensions
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Extensions (in Package) (Windows 10)
 ms.assetid: 837ae066-b590-4f58-b552-2e9d608f0fac
@@ -96,7 +92,7 @@ None.
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[Extensions (type: CT\_ApplicationExtensions)](element-1-extensions.md)**
+-   **[Extensions (type: CT_ApplicationExtensions)](element-1-extensions.md)**
 
 ## Remarks
 

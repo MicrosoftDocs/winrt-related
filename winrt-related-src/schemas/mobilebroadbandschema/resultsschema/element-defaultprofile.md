@@ -1,9 +1,5 @@
 ---
-Description: DefaultProfile
-MS-HAID: ResultsSchema.element\_DefaultProfile
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains any errors from processing the DefaultProfile element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: DefaultProfile
 ms.assetid: 3f88faaf-9d1a-4561-9527-8cc6067cb8ec

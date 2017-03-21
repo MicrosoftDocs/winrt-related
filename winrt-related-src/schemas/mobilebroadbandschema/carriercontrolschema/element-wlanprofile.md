@@ -1,9 +1,5 @@
 ---
-Description: WLANProfile
-MS-HAID: CarrierControlSchema.element\_WLANProfile
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines an instance of the WLANProfile element from the WLAN schema.
 Search.Product: eADQiWindows 10XVcnh
 title: WLANProfile
 ms.assetid: adafca95-23be-417f-8c3f-7c340222ecfd

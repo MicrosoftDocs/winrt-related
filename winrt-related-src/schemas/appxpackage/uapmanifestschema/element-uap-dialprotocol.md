@@ -1,9 +1,5 @@
 ---
 Description: uap:DialProtocol (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_DialProtocol
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:DialProtocol (Windows 10)
 ms.assetid: d0d0d409-f25c-4a55-b392-726ad9225a76

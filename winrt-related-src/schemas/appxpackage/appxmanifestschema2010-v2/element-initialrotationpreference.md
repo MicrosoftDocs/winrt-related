@@ -1,9 +1,5 @@
 ---
-Description: InitialRotationPreference
-MS-HAID: AppxManifestSchema2010\_v2.element\_InitialRotationPreference
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Describes the orientations in which the app would prefer to be shown for the best user experience. 
 Search.Product: eADQiWindows 10XVcnh
 title: InitialRotationPreference
 ms.assetid: 0f03085b-0bbc-4e1c-adda-565bb6287b15

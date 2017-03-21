@@ -1,9 +1,5 @@
 ---
 Description: Identifies section data that will be embedded into applicationHost.config file of an IIS installation.
-MS-HAID: UapManifestSchema.element\_serverpreview\_sectiondata\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:SectionData
 ms.assetid: 1182ba2d-ad98-4584-ba9b-935ee18aa5f4

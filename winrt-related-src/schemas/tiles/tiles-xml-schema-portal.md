@@ -1,9 +1,6 @@
 ---
 title: Tile, toast, and badge schemas
-description: These XML schemas enable app developers to update tiles and badges, and specify the content of toast notifications.In this sectionTopicDescriptionTile schemaThese elements are used to define a tile update, and specify the template, images, and text that are used to customize the tile, branding specifics, and language information.Toast schemaThese elements are used to define a toast notification, and specify the template, images, audio, and text that compose the toast content, branding specifics, and language information.Badge schemaAn element used to specify the value of a badge.�
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+description: The tile, badge, and toast XML schemas enable app developers to update tiles and badges, and specify the content of toast notifications.
 Search.Product: eADQiWindows 10XVcnh
 ms.assetid: 997887c9-9a62-4a03-8f2f-e7919392d637
 author: mcleblanc

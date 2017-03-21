@@ -1,9 +1,5 @@
 ---
-Description: protected
-MS-HAID: WLAN.element\_protected
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Specifies if shared key is encrypted.
 Search.Product: eADQiWindows 10XVcnh
 title: protected
 ms.assetid: 8e29ca58-a982-4c06-885f-a3cca19ffb9e

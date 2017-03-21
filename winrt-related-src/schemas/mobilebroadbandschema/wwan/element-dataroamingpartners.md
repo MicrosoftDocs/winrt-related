@@ -1,9 +1,5 @@
 ---
-Description: DataRoamingPartners
-MS-HAID: WWAN.element\_DataRoamingPartners
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the list of preferred network providers for roaming.
 Search.Product: eADQiWindows 10XVcnh
 title: DataRoamingPartners
 ms.assetid: c29edf9c-4e70-4b8f-8c71-0ec8a9fad60d

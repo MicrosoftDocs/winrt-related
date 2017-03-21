@@ -1,9 +1,5 @@
 ---
-Description: image
-MS-HAID: toast.element\_image
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Specifies an image used in the toast template.
 Search.Product: eADQiWindows 10XVcnh
 title: image
 ms.assetid: 29c4061d-bfe4-4f24-b484-2df25a48e98e
@@ -13,9 +9,6 @@ keywords: windows 10, uwp, schema, toast notifications
 ---
 
 # image
-
-
-
 
 Specifies an image used in the toast template.
 

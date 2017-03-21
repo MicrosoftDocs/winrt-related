@@ -1,9 +1,5 @@
 ---
-Description: Subscriber
-MS-HAID: ResultsSchema.element\_Subscriber
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains any errors from processing the SubscriberId element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: Subscriber
 ms.assetid: 042c6321-1f60-4097-8f31-5e442954603b

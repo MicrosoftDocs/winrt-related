@@ -1,11 +1,7 @@
 ---
-Description: Exponent
-MS-HAID: CarrierControlSignatureSchema.element\_Exponent
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the RSA public key exponent.
 Search.Product: eADQiWindows 10XVcnh
-title: Exponent
+title: Defines the RSA public key exponent.
 ms.assetid: d07608d5-959b-43e7-8d31-98b6b584e94d
 author: mcleblanc
 ms.author: markl

@@ -1,9 +1,5 @@
 ---
 Description: Certificates (Windows 10)
-MS-HAID: UapManifestSchema.element\_Certificates
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Certificates (Windows 10)
 ms.assetid: 378edcd3-b9ef-46db-9a56-94470451829e

@@ -1,9 +1,5 @@
 ---
-Description: visual
-MS-HAID: toast.element\_visual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains a single binding element that defines a toast.
 Search.Product: eADQiWindows 10XVcnh
 title: visual
 ms.assetid: f8de9ed6-53d4-4ba5-a4e5-df540c93bd89

@@ -1,9 +1,5 @@
 ---
-Description: Certificate
-MS-HAID: AppxManifestSchema2010\_v2.element\_Certificate
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: A certificate for use with the package and placed in the system certificate stores.
 Search.Product: eADQiWindows 10XVcnh
 title: Certificate
 ms.assetid: d3682c0f-fb91-466a-a612-a60c1e6025c9

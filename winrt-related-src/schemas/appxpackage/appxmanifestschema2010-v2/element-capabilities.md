@@ -1,9 +1,5 @@
 ---
-Description: Capabilities
-MS-HAID: AppxManifestSchema2010\_v2.element\_Capabilities
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Declares the access to protected user resources that the package requires.
 Search.Product: eADQiWindows 10XVcnh
 title: Capabilities
 ms.assetid: 508b9a46-3dd4-4bce-875b-fb7cadadceb1

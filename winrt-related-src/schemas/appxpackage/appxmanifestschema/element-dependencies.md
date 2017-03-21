@@ -1,9 +1,5 @@
 ---
 Description: Dependencies
-MS-HAID: AppxManifestSchema.element\_Dependencies
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Dependencies
 ms.assetid: a1e745c9-a804-42cf-a107-7fb860cc8289

@@ -1,9 +1,5 @@
 ---
 Description: DefaultTile
-MS-HAID: AppxManifestSchema.element\_DefaultTile
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: DefaultTile
 ms.assetid: 262b48ae-ca25-4fed-adad-df1bb8924c9d

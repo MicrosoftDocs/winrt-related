@@ -1,9 +1,5 @@
 ---
-Description: DelayInDays
-MS-HAID: CarrierControlSchema.element\_DelayInDays
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the number of days until the next refresh.
 Search.Product: eADQiWindows 10XVcnh
 title: DelayInDays
 ms.assetid: e72b05f8-62c0-4d86-9112-35616e9f78ef

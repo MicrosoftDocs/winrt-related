@@ -1,9 +1,5 @@
 ---
-Description: useOneX
-MS-HAID: WLAN.element\_useOneX
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Define if 802.1X authentication is to be used by this profile to connect to the WLAN. 
 Search.Product: eADQiWindows 10XVcnh
 title: useOneX
 ms.assetid: c50a8dd5-460f-4f4e-bb00-392c2b39fd0e

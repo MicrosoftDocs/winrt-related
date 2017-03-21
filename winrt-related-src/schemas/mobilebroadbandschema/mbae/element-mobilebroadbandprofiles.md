@@ -1,9 +1,5 @@
 ---
-Description: MobileBroadbandProfiles
-MS-HAID: MBAE.element\_MobileBroadbandProfiles
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the mobile broadband Purchase and Internet profiles to be used for the mobile network.
 Search.Product: eADQiWindows 10XVcnh
 title: MobileBroadbandProfiles
 ms.assetid: 4d95a695-e120-4de3-acac-b5d44d16da1a
@@ -14,10 +10,7 @@ keywords: windows 10, uwp, schema, mobile broadband schema
 
 # MobileBroadbandProfiles
 
-
 **Note**  The **MobileBroadbandProfiles** element is deprecated. Starting with Windows 8 and Windows Server 2012, the mobile operator should use Access Point Name (APN) Database to provide Internet and Purchase APN information.
-
- 
 
 Defines the mobile broadband Purchase and Internet profiles to be used for the mobile network.
 

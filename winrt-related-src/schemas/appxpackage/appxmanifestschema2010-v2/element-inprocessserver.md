@@ -1,9 +1,5 @@
 ---
-Description: InProcessServer
-MS-HAID: AppxManifestSchema2010\_v2.element\_InProcessServer
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Declares a package extensibility point of type windows.activatableClass.inProcessServer.
 Search.Product: eADQiWindows 10XVcnh
 title: InProcessServer
 ms.assetid: 47e3c888-76eb-4d12-977c-ebd947a2b63c

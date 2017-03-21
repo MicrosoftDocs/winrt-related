@@ -1,18 +1,14 @@
 ---
-Description: 'Extension (in type: CT\_PackageExtensions)'
-MS-HAID: AppxManifestSchema2010\_v2.element\_1\_Extension
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: 'Extension (in type: CT_PackageExtensions)'
 Search.Product: eADQiWindows 10XVcnh
-title: 'Extension (in type: CT\_PackageExtensions)'
+title: 'Extension (in type: CT_PackageExtensions)'
 ms.assetid: e25d664a-67e8-4a22-a666-1b11286b58f3
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
 ---
 
-# Extension (in type: CT\_PackageExtensions)
+# Extension (in type: CT_PackageExtensions)
 
 
 
@@ -150,7 +146,7 @@ Declares an extensibility point for the package.
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[Extension (type: CT\_ApplicationExtension)](element-extension.md)**
+-   **[Extension (type: CT_ApplicationExtension)](element-extension.md)**
 
 ## Remarks
 

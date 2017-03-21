@@ -1,9 +1,5 @@
 ---
-Description: KeyInfo
-MS-HAID: CarrierControlSignatureSchema.element\_KeyInfo
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines all key information used to validate the signature.
 Search.Product: eADQiWindows 10XVcnh
 title: KeyInfo
 ms.assetid: f593f831-e9e6-40f8-861e-3405e7ae8f3d

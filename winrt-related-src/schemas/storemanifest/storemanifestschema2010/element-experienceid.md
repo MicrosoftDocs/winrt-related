@@ -1,15 +1,11 @@
 ---
-Description: ExperienceId
-MS-HAID: StoreManifest.element\_ExperienceId
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: The ExperienceId element specifies a GUID that links the device metadata to a device app that can be automatically acquired when the device is first connected.
 Search.Product: eADQiWindows 10XVcnh
 title: ExperienceId
 ms.assetid: fb3585cf-8f9c-4ae6-8430-685ccc132a98
 author: laurenhughes
 ms.author: lahugh
-windows 10, uwp, schema, storemanifest
+keywords: windows 10, uwp, schema, storemanifest
 ---
 
 # ExperienceId

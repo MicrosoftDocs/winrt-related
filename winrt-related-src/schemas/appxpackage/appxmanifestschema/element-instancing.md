@@ -1,9 +1,5 @@
 ---
 Description: Instancing
-MS-HAID: AppxManifestSchema.element\_Instancing
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Instancing
 ms.assetid: 26533f27-2470-4083-91a0-4e4b03f8479a

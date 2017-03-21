@@ -1,9 +1,5 @@
 ---
-Description: Congested
-MS-HAID: WWAN.element\_Congested
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines if the subscriber's connection is in a state of congestion. 
 Search.Product: eADQiWindows 10XVcnh
 title: Congested
 ms.assetid: 4807217f-0145-4a7d-9d5f-a8fdd2017b85

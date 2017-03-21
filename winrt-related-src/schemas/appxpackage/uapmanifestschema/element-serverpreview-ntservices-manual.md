@@ -1,9 +1,5 @@
 ---
 Description: Declares an app extensibility point of type windows.ntServices.
-MS-HAID: UapManifestSchema.element\_serverpreview\_ntservices\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:NTServices
 ms.assetid: d405e0f2-5dd2-4dd7-bfc6-0cf85842ce74

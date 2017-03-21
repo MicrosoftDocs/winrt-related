@@ -1,9 +1,5 @@
 ---
-Description: Prerequisites
-MS-HAID: AppxManifestSchema2010\_v2.element\_Prerequisites
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Declares the minimum operating system and software requirements that must exist for the package to be applicable to the system.
 Search.Product: eADQiWindows 10XVcnh
 title: Prerequisites
 ms.assetid: 93b13906-9c63-46d0-8659-0f382ce8f477

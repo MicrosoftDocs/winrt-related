@@ -1,9 +1,5 @@
 ---
 Description: ApplicationContentUriRules
-MS-HAID: AppxManifestSchema.element\_ApplicationContentUriRules
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: ApplicationContentUriRules
 ms.assetid: 8bb7c378-6461-4c01-b02f-b7f17c32daaa

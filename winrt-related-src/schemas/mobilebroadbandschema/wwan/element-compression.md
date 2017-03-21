@@ -1,9 +1,5 @@
 ---
-Description: Compression
-MS-HAID: WWAN.element\_Compression
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines if the packet header and data transferred over the connection is compressed.
 Search.Product: eADQiWindows 10XVcnh
 title: Compression
 ms.assetid: 7ef80c21-07a1-46d7-b6fe-e276fde61e39

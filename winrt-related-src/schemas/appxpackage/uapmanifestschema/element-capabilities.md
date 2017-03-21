@@ -1,9 +1,5 @@
 ---
 Description: Capabilities (Windows 10)
-MS-HAID: UapManifestSchema.element\_Capabilities
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Capabilities (Windows 10)
 ms.assetid: 508b9a46-3dd4-4bce-875b-fb7cadadceb1

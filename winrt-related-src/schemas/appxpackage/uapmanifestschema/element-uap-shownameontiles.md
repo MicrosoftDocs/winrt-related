@@ -1,9 +1,5 @@
 ---
 Description: uap:ShowNameOnTiles (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_ShowNameOnTiles
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:ShowNameOnTiles (Windows 10)
 ms.assetid: 883c601d-00b2-4903-996d-6cbab8801acd

@@ -1,9 +1,5 @@
 ---
-Description: UsageInMegabytes
-MS-HAID: DUSM.element\_UsageInMegabytes
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines a value representing the data used to-date within the current billing cycle in MB. 
 Search.Product: eADQiWindows 10XVcnh
 title: UsageInMegabytes
 ms.assetid: 761f569a-22cb-499d-9174-c871ace98031

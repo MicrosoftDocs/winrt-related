@@ -1,9 +1,5 @@
 ---
 Description: Rotation
-MS-HAID: AppxManifestSchema.element\_Rotation
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Rotation
 ms.assetid: 0e351d87-2ff0-4e9e-b3ea-6a6254d4c1c4

@@ -1,9 +1,5 @@
 ---
-Description: AdditionalPDPContexts
-MS-HAID: CarrierControlSchema\_v2.element\_AdditionalPDPContexts
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines additional Packet Data Protocol (PDP) contexts in a subscriber's carrier provisioning file.
 Search.Product: eADQiWindows 10XVcnh
 title: AdditionalPDPContexts
 ms.assetid: 4f4a4b43-e475-4d21-b847-0de7282c4f08

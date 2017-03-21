@@ -1,9 +1,5 @@
 ---
-Description: ONEXEVDO\_REVA
-MS-HAID: CarrierControlSchema\_v2.element\_ONEXEVDO\_REVA
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the Enhanced Voice-Data Optimized (EVDO) Revision A (Rev. A) standard used for mobile network data.
 Search.Product: eADQiWindows 10XVcnh
 title: ONEXEVDO\_REVA
 ms.assetid: 5d39edde-8904-4e9e-a4d5-7c84ddc5b789

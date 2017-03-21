@@ -1,9 +1,5 @@
 ---
-Description: X509Certificate
-MS-HAID: CarrierControlSignatureSchema.element\_X509Certificate
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines an X.509 compliant signature.
 Search.Product: eADQiWindows 10XVcnh
 title: X509Certificate
 ms.assetid: f2cbba0b-d8dc-4aec-a6f4-ea53b03d7bdd

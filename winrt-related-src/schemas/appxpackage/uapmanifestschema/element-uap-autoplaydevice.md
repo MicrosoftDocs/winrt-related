@@ -1,9 +1,5 @@
 ---
 Description: uap:AutoPlayDevice (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_AutoPlayDevice
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:AutoPlayDevice (Windows 10)
 ms.assetid: ae471158-7ec0-4f6c-b681-76323317ac0d

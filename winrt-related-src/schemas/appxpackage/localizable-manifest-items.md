@@ -1,9 +1,5 @@
 ---
 Description: Contains a list of all the items in the manifest that you can localize. 
-MS-HAID: AppxManifestSchema.localizable\_manifest\_items
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Localizable manifest items
 ms.assetid: 5953e142-709a-4340-854b-bedfb79b8443

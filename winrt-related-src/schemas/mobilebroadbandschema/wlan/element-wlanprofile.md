@@ -1,9 +1,5 @@
 ---
-Description: WLANProfile
-MS-HAID: WLAN.element\_WLANProfile
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the properties and security settings of a subscriber's WLAN connection profile.
 Search.Product: eADQiWindows 10XVcnh
 title: WLANProfile
 ms.assetid: adafca95-23be-417f-8c3f-7c340222ecfd

@@ -1,9 +1,5 @@
 ---
-Description: Packages
-MS-HAID: BundleManifestSchema.element\_Packages
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the app packages and resource packages that are contained in the bundle.
 Search.Product: eADQiWindows 10XVcnh
 title: Packages
 ms.assetid: 2e6638ac-df50-43a8-be6a-7190c8e4486f

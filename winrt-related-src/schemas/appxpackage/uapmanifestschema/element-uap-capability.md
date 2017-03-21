@@ -1,9 +1,5 @@
 ---
 Description: uap:Capability (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_Capability
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:Capability (Windows 10)
 ms.assetid: 4c8cea15-094d-4d4e-a1c1-5db78cb78612

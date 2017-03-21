@@ -1,9 +1,5 @@
 ---
-Description: Locale
-MS-HAID: WWAN.element\_Locale
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the message country code in the form "en-us" using ISO-3166.
 Search.Product: eADQiWindows 10XVcnh
 title: Locale
 ms.assetid: 3b1c9b15-3eb2-4d7e-a0bf-7bd64f94e8f4

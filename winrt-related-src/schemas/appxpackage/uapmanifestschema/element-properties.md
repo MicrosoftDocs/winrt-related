@@ -1,9 +1,5 @@
 ---
 Description: Properties (Windows 10)
-MS-HAID: UapManifestSchema.element\_Properties
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Properties (Windows 10)
 ms.assetid: accc712c-c7b9-45e1-ba02-836abacbd9b5

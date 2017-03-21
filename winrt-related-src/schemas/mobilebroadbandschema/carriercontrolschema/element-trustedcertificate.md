@@ -1,9 +1,5 @@
 ---
-Description: TrustedCertificate
-MS-HAID: CarrierControlSchema.element\_TrustedCertificate
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines a unique subscriber account identifier to which this provisioning attempt applies.
 Search.Product: eADQiWindows 10XVcnh
 title: TrustedCertificate
 ms.assetid: 97eae84a-4357-462b-b516-3099916839c6

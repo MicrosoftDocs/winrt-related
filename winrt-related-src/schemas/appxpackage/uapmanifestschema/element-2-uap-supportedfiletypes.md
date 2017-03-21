@@ -1,18 +1,14 @@
 ---
 Description: uap:SupportedFileTypes (in uap:FileSavePicker) (Windows 10)
-MS-HAID: UapManifestSchema.element\_2\_uap\_SupportedFileTypes
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
-title: uap:SupportedFileTypes (in uap:FileSavePicker) (Windows 10)
+title: uap:SupportedFileTypes (in uap:FileSavePicker)
 ms.assetid: 12a1b621-e6e4-4c4e-a2a6-7ffb394644f0
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
 ---
 
-# uap:SupportedFileTypes (in uap:FileSavePicker) (Windows 10)
+# uap:SupportedFileTypes (in uap:FileSavePicker)
 
 
 Defines the file types that the app can share.
@@ -143,7 +139,7 @@ None.
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[uap:SupportedFileTypes (type: CT\_FTASupportedFileTypes)](element-uap-supportedfiletypes.md)**
+-   **[uap:SupportedFileTypes (type: CT_FTASupportedFileTypes)](element-uap-supportedfiletypes.md)**
 
 ## Requirements
 

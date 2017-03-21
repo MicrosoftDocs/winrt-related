@@ -1,9 +1,5 @@
 ---
-Description: InfoTip
-MS-HAID: AppxManifestSchema2010\_v2.element\_InfoTip
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines a string that provides additional info to the user about the file type.
 Search.Product: eADQiWindows 10XVcnh
 title: InfoTip
 ms.assetid: 62db4269-58c1-4327-9115-103c6ce7774d

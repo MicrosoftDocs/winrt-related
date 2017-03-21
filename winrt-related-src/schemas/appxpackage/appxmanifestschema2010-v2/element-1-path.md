@@ -1,18 +1,14 @@
 ---
-Description: 'Path (type: ST\_Executable)'
-MS-HAID: AppxManifestSchema2010\_v2.element\_1\_Path
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: The path to the executable.
 Search.Product: eADQiWindows 10XVcnh
-title: 'Path (type: ST\_Executable)'
+title: 'Path (type: ST_Executable)'
 ms.assetid: f3fe9184-f270-4050-b444-ec37a596b993
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
 ---
 
-# Path (type: ST\_Executable)
+# Path (type: ST_Executable)
 
 
 
@@ -90,7 +86,7 @@ None.
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[Path (type: ST\_FileName)](element-path.md)**
+-   **[Path (type: ST_FileName)](element-path.md)**
 
 ## Requirements
 

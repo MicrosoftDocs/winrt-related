@@ -1,9 +1,5 @@
 ---
-Description: MSM
-MS-HAID: WLAN.element\_MSM
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines various media-specific module (MSM) settings for this profile on a WLAN.
 Search.Product: eADQiWindows 10XVcnh
 title: MSM
 ms.assetid: 2ba7013a-b9fd-4b38-bd62-c6c3db8f5362

@@ -1,9 +1,5 @@
 ---
-Description: ProxyStub
-MS-HAID: AppxManifestSchema2010\_v2.element\_ProxyStub
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Declares a package extensibility point of type windows.activatableClass.proxyStub.
 Search.Product: eADQiWindows 10XVcnh
 title: ProxyStub
 ms.assetid: d902d2b6-4694-4158-9c1f-4b3511150ee5

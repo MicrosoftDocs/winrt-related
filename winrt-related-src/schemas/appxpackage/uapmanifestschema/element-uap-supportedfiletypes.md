@@ -1,18 +1,14 @@
 ---
 Description: uap:SupportedFileTypes (in uap:FileTypeAssociation) (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_SupportedFileTypes
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
-title: uap:SupportedFileTypes (in uap:FileTypeAssociation) (Windows 10)
+title: uap:SupportedFileTypes (in uap:FileTypeAssociation)
 ms.assetid: 119850cc-e313-468a-8d10-bee5af813290
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
 ---
 
-# uap:SupportedFileTypes (in uap:FileTypeAssociation) (Windows 10)
+# uap:SupportedFileTypes (in uap:FileTypeAssociation)
 
 
 Defines the file types associated with the app. They are unique per package and are case sensitive.
@@ -121,7 +117,7 @@ None.
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[uap:SupportedFileTypes (type: CT\_CharmsSupportedFileTypes)](element-1-uap-supportedfiletypes.md)**
+-   **[uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes)](element-1-uap-supportedfiletypes.md)**
 
 ## Requirements
 

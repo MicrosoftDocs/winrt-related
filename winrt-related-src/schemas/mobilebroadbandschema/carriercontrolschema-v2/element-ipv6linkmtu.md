@@ -1,9 +1,5 @@
 ---
-Description: IPv6LinkMTU
-MS-HAID: CarrierControlSchema\_v2.element\_IPv6LinkMTU
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the maximum transmission unit (MTU) for an IPv6 link.
 Search.Product: eADQiWindows 10XVcnh
 title: IPv6LinkMTU
 ms.assetid: 9d7ca5ab-9be7-466f-bef9-48a84b0e7e7b

@@ -1,9 +1,5 @@
 ---
 Description: uap:Extension (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_Extension
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:Extension (Windows 10)
 ms.assetid: b0c2ee51-897b-40be-aa38-372e2f94897f

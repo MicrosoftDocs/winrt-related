@@ -1,9 +1,5 @@
 ---
-Description: Signature
-MS-HAID: CarrierControlSignatureSchema.element\_Signature
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the root element of an XML DSIG compliant signature.
 Search.Product: eADQiWindows 10XVcnh
 title: Signature
 ms.assetid: 58a2b918-192d-41ee-879c-b739b498bff0

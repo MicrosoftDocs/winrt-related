@@ -1,9 +1,5 @@
 ---
-Description: audio
-MS-HAID: toast.element\_audio
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Specifies a sound to play when a toast notification is displayed.
 Search.Product: eADQiWindows 10XVcnh
 title: audio
 ms.assetid: 13e5fe05-383b-4615-81ce-20d8b020350f

@@ -1,9 +1,5 @@
 ---
 Description: Path (in OutOfProcessServer) (Windows 10)
-MS-HAID: UapManifestSchema.element\_1\_Path
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Path (in OutOfProcessServer) (Windows 10)
 ms.assetid: f3fe9184-f270-4050-b444-ec37a596b993
@@ -88,7 +84,7 @@ None.
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[Path (type: ST\_FileName)](element-path.md)**
+-   **[Path (type: ST_FileName)](element-path.md)**
 
 ## Requirements
 

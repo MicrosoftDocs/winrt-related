@@ -1,9 +1,5 @@
 ---
-Description: Context
-MS-HAID: CarrierControlSchema\_v2.element\_1\_Context
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the context of a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file.
 Search.Product: eADQiWindows 10XVcnh
 title: Context
 ms.assetid: bb7c7c66-bd2c-40ca-87e4-c984f8c3911a

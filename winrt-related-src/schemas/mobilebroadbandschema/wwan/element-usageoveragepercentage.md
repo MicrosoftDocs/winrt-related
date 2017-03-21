@@ -1,9 +1,5 @@
 ---
-Description: UsageOveragePercentage
-MS-HAID: WWAN.element\_UsageOveragePercentage
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the percentage over the data limit a subscriber has consumed.
 Search.Product: eADQiWindows 10XVcnh
 title: UsageOveragePercentage
 ms.assetid: d4cd6983-33f8-4646-ae2a-fb98b9203e98

@@ -1,9 +1,5 @@
 ---
 Description: PackageDependency
-MS-HAID: AppxManifestSchema.element\_PackageDependency
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: PackageDependency
 ms.assetid: 7f0800a1-f1dd-48c2-aba0-3701dd27d383

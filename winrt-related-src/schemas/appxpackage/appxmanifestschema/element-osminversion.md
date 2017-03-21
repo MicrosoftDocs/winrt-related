@@ -1,9 +1,5 @@
 ---
 Description: OSMinVersion
-MS-HAID: AppxManifestSchema.element\_OSMinVersion
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: OSMinVersion
 ms.assetid: 18c045dd-7e8c-431c-b3d8-bc3056575632

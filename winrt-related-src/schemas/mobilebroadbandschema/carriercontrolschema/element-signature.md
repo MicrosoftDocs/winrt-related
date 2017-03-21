@@ -1,9 +1,5 @@
 ---
-Description: Signature
-MS-HAID: CarrierControlSchema.element\_Signature
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines an instance of the Signature element from the CarrierControlSignatureSchema.
 Search.Product: eADQiWindows 10XVcnh
 title: Signature
 ms.assetid: 58a2b918-192d-41ee-879c-b739b498bff0

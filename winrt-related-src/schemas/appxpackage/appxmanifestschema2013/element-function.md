@@ -1,9 +1,5 @@
 ---
-Description: Function
-MS-HAID: AppxManifestSchema2013.element\_Function
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Declares the function for the device.
 Search.Product: eADQiWindows 10XVcnh
 title: Function
 ms.assetid: d53133f1-6017-4c20-bbff-f2370c5fc39d

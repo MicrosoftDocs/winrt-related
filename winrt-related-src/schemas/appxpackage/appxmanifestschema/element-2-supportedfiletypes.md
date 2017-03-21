@@ -1,18 +1,14 @@
 ---
-Description: 'SupportedFileTypes (type: CT\_CharmsSupportedFileTypes)'
-MS-HAID: AppxManifestSchema.element\_2\_SupportedFileTypes
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: 'SupportedFileTypes (type: CT_CharmsSupportedFileTypes)'
 Search.Product: eADQiWindows 10XVcnh
-title: 'SupportedFileTypes (type: CT\_CharmsSupportedFileTypes)'
+title: 'SupportedFileTypes (type: CT_CharmsSupportedFileTypes)'
 ms.assetid: b91c6daf-a941-41ce-b8e1-42d42b1a7617
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
 ---
 
-# SupportedFileTypes (type: CT\_CharmsSupportedFileTypes)
+# SupportedFileTypes (type: CT_CharmsSupportedFileTypes)
 
 
 Defines the file types that the app can share.
@@ -144,7 +140,7 @@ None.
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[SupportedFileTypes (type: CT\_FTASupportedFileTypes)](element-supportedfiletypes.md)**
+-   **[SupportedFileTypes (type: CT_FTASupportedFileTypes)](element-supportedfiletypes.md)**
 
 ## Requirements
 

@@ -1,9 +1,5 @@
 ---
 Description: uap:AppointmentsProvider (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_AppointmentsProvider
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:AppointmentsProvider (Windows 10)
 ms.assetid: 017359a9-e1c5-4b47-8598-bc8c49a67e4a

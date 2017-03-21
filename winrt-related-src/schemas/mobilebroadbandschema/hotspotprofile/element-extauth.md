@@ -1,9 +1,5 @@
 ---
-Description: ExtAuth
-MS-HAID: HotSpotProfile.element\_ExtAuth
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains the parameters for handling WISPr authentication through an app.
 Search.Product: eADQiWindows 10XVcnh
 title: ExtAuth
 ms.assetid: b8189ab7-f090-4175-8d5b-d311e7e040fe

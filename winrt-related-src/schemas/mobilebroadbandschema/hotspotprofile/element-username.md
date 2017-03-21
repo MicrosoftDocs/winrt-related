@@ -1,9 +1,5 @@
 ---
-Description: UserName
-MS-HAID: HotSpotProfile.element\_UserName
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: User name to be used for WISPr authentication.
 Search.Product: eADQiWindows 10XVcnh
 title: UserName
 ms.assetid: 5c377a0a-ca24-4a24-85c0-79d5bc6af8ef

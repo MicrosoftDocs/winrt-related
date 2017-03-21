@@ -1,9 +1,5 @@
 ---
-Description: Subject
-MS-HAID: ResultsSchema.element\_Subject
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains the X.509 certificate subject field of the Signature element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: Subject
 ms.assetid: b570cbcd-b017-43f4-83d1-7023701622c7

@@ -1,9 +1,5 @@
 ---
-Description: WLANProfile
-MS-HAID: ResultsSchema.element\_WLANProfile
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains any errors from processing a WLANProfile element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: WLANProfile
 ms.assetid: adafca95-23be-417f-8c3f-7c340222ecfd

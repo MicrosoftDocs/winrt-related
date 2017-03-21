@@ -1,9 +1,5 @@
 ---
 Description: uap:WebAccountProvider (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_WebAccountProvider
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:WebAccountProvider (Windows 10)
 ms.assetid: 9e38d699-4a07-46ac-88d4-70109fbaa892

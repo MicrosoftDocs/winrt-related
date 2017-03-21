@@ -1,9 +1,5 @@
 ---
 Description: uap:Task (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_Task
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:Task (Windows 10)
 ms.assetid: 2e4fce9f-4db8-48e7-ab0e-03cf08f6342f

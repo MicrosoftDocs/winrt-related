@@ -1,9 +1,5 @@
 ---
 Description: SupportsAnyFileType
-MS-HAID: AppxManifestSchema.element\_2\_SupportsAnyFileType
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: SupportsAnyFileType
 ms.assetid: c7c9ef91-f164-4ce0-bbeb-d5bd7e8a098d

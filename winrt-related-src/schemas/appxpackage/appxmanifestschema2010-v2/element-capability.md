@@ -1,9 +1,5 @@
 ---
-Description: Capability
-MS-HAID: AppxManifestSchema2010\_v2.element\_Capability
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Declares a capability required by a package.
 Search.Product: eADQiWindows 10XVcnh
 title: Capability
 ms.assetid: ee6bf220-f139-4ad9-a7a7-e621c189b907

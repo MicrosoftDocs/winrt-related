@@ -1,9 +1,5 @@
 ---
-Description: CanonicalizationMethod
-MS-HAID: CarrierControlSignatureSchema.element\_CanonicalizationMethod
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the canonicalization method applied to SignedInfo
 Search.Product: eADQiWindows 10XVcnh
 title: CanonicalizationMethod
 ms.assetid: d27bd016-acb9-4ae0-ae19-95d19acb79e7

@@ -1,9 +1,5 @@
 ---
 Description: uap:DefaultTile (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_DefaultTile
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:DefaultTile (Windows 10)
 ms.assetid: 0ee61279-efa8-4bd9-b713-1f5f9ec526f7

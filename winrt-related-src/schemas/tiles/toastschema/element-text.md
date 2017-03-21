@@ -1,9 +1,5 @@
 ---
-Description: text
-MS-HAID: toast.element\_text
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Specifies text used in the toast template.
 Search.Product: eADQiWindows 10XVcnh
 title: text
 ms.assetid: dac874d1-0a30-4d85-a63d-0ddfa88783d1

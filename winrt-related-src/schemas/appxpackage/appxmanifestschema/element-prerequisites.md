@@ -1,9 +1,5 @@
 ---
 Description: Prerequisites
-MS-HAID: AppxManifestSchema.element\_Prerequisites
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Prerequisites
 ms.assetid: 93b13906-9c63-46d0-8659-0f382ce8f477

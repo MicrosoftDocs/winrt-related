@@ -1,9 +1,5 @@
 ---
 Description: ActivatableClass (in OutOfProcessServer) (Windows 10)
-MS-HAID: UapManifestSchema.element\_1\_ActivatableClass
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: ActivatableClass (in OutOfProcessServer) (Windows 10)
 ms.assetid: b2994883-87f9-4aa5-aff8-9c846606c462
@@ -139,7 +135,7 @@ Declares a runtime class associated with the extensibility point.
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[ActivatableClass (type: CT\_InProcessActivatableClass)](element-activatableclass.md)**
+-   **[ActivatableClass (type: CT_InProcessActivatableClass)](element-activatableclass.md)**
 
 ## Requirements
 

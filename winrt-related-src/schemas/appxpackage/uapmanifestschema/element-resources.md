@@ -1,9 +1,5 @@
 ---
 Description: Resources (Windows 10)
-MS-HAID: UapManifestSchema.element\_Resources
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Resources (Windows 10)
 ms.assetid: 45ce3dac-3888-452b-bc10-8775b158637a

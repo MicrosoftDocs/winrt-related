@@ -1,9 +1,5 @@
 ---
-Description: AccessString
-MS-HAID: CarrierControlSchema\_v2.element\_AccessString
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the access string for a context in the Packet Data Protocol (PDP) context policy.
 Search.Product: eADQiWindows 10XVcnh
 title: AccessString
 ms.assetid: 10801ce9-abca-4eb4-95ae-0865961e3d2b

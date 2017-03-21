@@ -1,9 +1,5 @@
 ---
 Description: SelectionCriteria (Windows 10)
-MS-HAID: UapManifestSchema.element\_SelectionCriteria
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: SelectionCriteria (Windows 10)
 ms.assetid: 5f3d9db3-5b2d-44ec-9607-dcc15f0854b5

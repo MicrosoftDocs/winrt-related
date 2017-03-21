@@ -1,9 +1,5 @@
 ---
 Description: uap:Rule (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_Rule
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:Rule (Windows 10)
 ms.assetid: 99bea1bd-db33-4dc9-bdf5-299f413d5c00

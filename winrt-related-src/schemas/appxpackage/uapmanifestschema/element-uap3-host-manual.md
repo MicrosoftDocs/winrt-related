@@ -1,9 +1,5 @@
 ---
 Description: Represents a valid HTTP or HTTPS host name that the app wants to register as able to handle.
-MS-HAID: UapManifestSchema.element\_uap3\_host\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:Host
 ms.assetid: 7635ea1b-a5f8-4347-a553-8cabb62d7102

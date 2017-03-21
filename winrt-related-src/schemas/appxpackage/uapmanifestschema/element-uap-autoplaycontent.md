@@ -1,9 +1,5 @@
 ---
 Description: uap:AutoPlayContent (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_AutoPlayContent
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:AutoPlayContent (Windows 10)
 ms.assetid: 15514696-9195-4dd1-91af-2b97383992cc

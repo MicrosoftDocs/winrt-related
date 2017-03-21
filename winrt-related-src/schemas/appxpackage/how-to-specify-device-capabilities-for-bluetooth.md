@@ -1,18 +1,14 @@
 ---
 Description: The package manifest is an XML document that contains the info the system needs to deploy, display, or update a Windows Runtime apps app.
-MS-HAID: AppxManifestSchema.how\_to\_specify\_device\_capabilities\_for\_bluetooth
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
-title: How to specify device capabilities for Bluetooth (Windows Runtime apps)
+title: How to specify device capabilities for Bluetooth 
 ms.assetid: 366676d5-187e-4e3d-bafa-33ee468efa64
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
 ---
 
-# How to specify device capabilities for Bluetooth (Windows Runtime apps)
+# How to specify device capabilities for Bluetooth
 
 
 **Note**  For Windows 10, see [What's different in Windows 10.](uapmanifestschema/what-s-changed-in-windows-10.md)

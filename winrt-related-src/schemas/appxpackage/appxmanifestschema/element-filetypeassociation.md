@@ -1,9 +1,5 @@
 ---
 Description: FileTypeAssociation
-MS-HAID: AppxManifestSchema.element\_FileTypeAssociation
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: FileTypeAssociation
 ms.assetid: 864e99f6-8685-4010-ae55-a4d09f53159f

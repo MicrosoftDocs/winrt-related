@@ -1,9 +1,5 @@
 ---
 Description: BackgroundTasks (Windows 10)
-MS-HAID: UapManifestSchema.element\_BackgroundTasks
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: BackgroundTasks (Windows 10)
 ms.assetid: 0e9cbbc5-3852-4158-87e7-12ea87be62e7

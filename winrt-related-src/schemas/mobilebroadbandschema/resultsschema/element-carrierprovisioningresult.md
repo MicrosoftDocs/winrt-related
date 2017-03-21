@@ -1,9 +1,5 @@
 ---
-Description: CarrierProvisioningResult
-MS-HAID: ResultsSchema.element\_CarrierProvisioningResult
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains any errors from processing the CarrierProvisioning element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: CarrierProvisioningResult
 ms.assetid: cee41310-6d39-431c-8548-aaec3249ce50

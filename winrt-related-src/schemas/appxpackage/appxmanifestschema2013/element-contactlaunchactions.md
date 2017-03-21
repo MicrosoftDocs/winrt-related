@@ -1,9 +1,5 @@
 ---
-Description: ContactLaunchActions
-MS-HAID: AppxManifestSchema2013.element\_ContactLaunchActions
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Declares actions to take when a contact is launched.
 Search.Product: eADQiWindows 10XVcnh
 title: ContactLaunchActions
 ms.assetid: da094c1d-bd52-492f-81a6-23676802c15f

@@ -1,9 +1,5 @@
 ---
-Description: Q
-MS-HAID: CarrierControlSignatureSchema.element\_Q
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines an integer
 Search.Product: eADQiWindows 10XVcnh
 title: Q
 ms.assetid: 08b57f31-76f6-4a4e-8fac-8bd1711e2498

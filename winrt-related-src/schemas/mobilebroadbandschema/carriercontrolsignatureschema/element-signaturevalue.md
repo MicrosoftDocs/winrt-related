@@ -1,9 +1,5 @@
 ---
-Description: SignatureValue
-MS-HAID: CarrierControlSignatureSchema.element\_SignatureValue
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the signature thumbprint.
 Search.Product: eADQiWindows 10XVcnh
 title: SignatureValue
 ms.assetid: 52ffacf0-920a-4bde-9b2e-9589161a57ff

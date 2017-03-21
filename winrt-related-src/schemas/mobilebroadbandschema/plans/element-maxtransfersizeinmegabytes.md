@@ -1,9 +1,5 @@
 ---
-Description: MaxTransferSizeInMegabytes
-MS-HAID: Plans.element\_MaxTransferSizeInMegabytes
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the size of an individual download in MB which a compliant application should permit over a metered connection without explicit user approval of the connection being used.
 Search.Product: eADQiWindows 10XVcnh
 title: MaxTransferSizeInMegabytes
 ms.assetid: 950cd05a-2dd2-43b9-9568-fcf0e5b675c5

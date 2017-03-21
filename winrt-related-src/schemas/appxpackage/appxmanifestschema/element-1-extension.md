@@ -1,18 +1,14 @@
 ---
-Description: 'Extension (in type: CT\_ApplicationExtensions)'
-MS-HAID: AppxManifestSchema.element\_1\_Extension
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: 'Extension (in type: CT_ApplicationExtensions)'
 Search.Product: eADQiWindows 10XVcnh
-title: 'Extension (in type: CT\_ApplicationExtensions)'
+title: 'Extension (in type: CT_ApplicationExtensions)'
 ms.assetid: e25d664a-67e8-4a22-a666-1b11286b58f3
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
 ---
 
-# Extension (in type: CT\_ApplicationExtensions)
+# Extension (in type: CT_ApplicationExtensions)
 
 
 Declares an extensibility point for the app.
@@ -226,7 +222,7 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[Extension (in type: CT\_PackageExtensions)](element-extension.md)**
+-   **[Extension (in type: CT_PackageExtensions)](element-extension.md)**
 
 ## Remarks
 

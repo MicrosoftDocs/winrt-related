@@ -1,15 +1,11 @@
 ---
 Description: ExclusiveOptOut
-MS-HAID: StoreManifest.element\_ExclusiveOptOut
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: ExclusiveOptOut
 ms.assetid: f711637b-dbe2-4e90-8fdf-c7ea3ee4e986
 author: laurenhughes
 ms.author: lahugh
-windows 10, uwp, schema, storemanifest
+keywords: windows 10, uwp, schema, storemanifest
 ---
 
 # ExclusiveOptOut

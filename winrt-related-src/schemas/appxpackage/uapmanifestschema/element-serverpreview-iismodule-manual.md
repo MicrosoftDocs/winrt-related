@@ -1,9 +1,5 @@
 ---
 Description: Identifies an Internet Information Service (IIS) module to install, update, or uninstall out-of-band on Nano Server.
-MS-HAID: UapManifestSchema.element\_serverpreview\_iismodule\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:IisModule
 ms.assetid: 57d7aaf7-95b7-409d-8cad-cba17ca0a903

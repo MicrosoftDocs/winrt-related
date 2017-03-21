@@ -1,9 +1,5 @@
 ---
-Description: hex (in SSIDPrefix)
-MS-HAID: WLAN\_v2.element\_1\_hex
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the SSIDPrefix of a wireless LAN in hexadecimal format.
 Search.Product: eADQiWindows 10XVcnh
 title: hex (in SSIDPrefix)
 ms.assetid: 97085e65-1238-4a96-b091-d69ff717c4d5

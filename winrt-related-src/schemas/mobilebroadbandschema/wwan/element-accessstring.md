@@ -1,9 +1,5 @@
 ---
-Description: AccessString
-MS-HAID: WWAN.element\_AccessString
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the Access Point Name (APN) or dial string to be used to establish a data connection. 
 Search.Product: eADQiWindows 10XVcnh
 title: AccessString
 ms.assetid: 10801ce9-abca-4eb4-95ae-0865961e3d2b

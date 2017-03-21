@@ -1,9 +1,5 @@
 ---
 Description: Description
-MS-HAID: AppxManifestSchema.element\_Description
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Description
 ms.assetid: e113111a-1d9b-4d04-bd86-86beece204dd

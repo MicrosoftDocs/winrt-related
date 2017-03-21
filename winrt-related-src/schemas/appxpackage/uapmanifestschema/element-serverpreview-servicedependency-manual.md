@@ -1,9 +1,5 @@
 ---
 Description: Specifies an additional service on which the service that corresponds to the grandparent serverpreview:NTService element depends.
-MS-HAID: UapManifestSchema.element\_serverpreview\_servicedependency\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:ServiceDependency
 ms.assetid: e0874f7b-4e67-4da6-9f43-2e176f595675

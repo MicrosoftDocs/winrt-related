@@ -1,9 +1,5 @@
 ---
-Description: BillingCycle
-MS-HAID: DUSM.element\_BillingCycle
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the plan's starting date and time, its duration, and what happens at the end of the billing cycle.
 Search.Product: eADQiWindows 10XVcnh
 title: BillingCycle
 ms.assetid: 8be4cdc8-4b17-47c6-a810-7ab6c55a89e0

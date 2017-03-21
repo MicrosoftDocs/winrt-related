@@ -1,9 +1,5 @@
 ---
-Description: PurchaseProfile
-MS-HAID: CarrierControlSchema.element\_PurchaseProfile
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines an instance of the PurchaseProfileelement from the WWAN schema.
 Search.Product: eADQiWindows 10XVcnh
 title: PurchaseProfile
 ms.assetid: 66b0d844-5469-4e94-b364-72638ac4212a

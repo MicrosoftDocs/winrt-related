@@ -1,9 +1,5 @@
 ---
 Description: Task (Windows 10)
-MS-HAID: UapManifestSchema.element\_Task
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Task (Windows 10)
 ms.assetid: 4662ec1d-c245-4c60-b966-e27d5ce0699d

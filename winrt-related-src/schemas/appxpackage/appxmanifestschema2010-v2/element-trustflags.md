@@ -1,9 +1,5 @@
 ---
-Description: TrustFlags
-MS-HAID: AppxManifestSchema2010\_v2.element\_TrustFlags
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Indicates whether the certificates for the package are exclusive to the package.
 Search.Product: eADQiWindows 10XVcnh
 title: TrustFlags
 ms.assetid: 44ea0d79-4774-4152-8f69-c5d9ff9287aa

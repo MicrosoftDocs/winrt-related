@@ -1,9 +1,5 @@
 ---
-Description: AdditionalProperties
-MS-HAID: appcontentms.element\_AdditionalProperties
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains additional properties that describe the item.
 Search.Product: eADQiWindows 10XVcnh
 title: AdditionalProperties
 ms.assetid: f252c2d5-eaf6-40b0-804a-8e473a764fdd

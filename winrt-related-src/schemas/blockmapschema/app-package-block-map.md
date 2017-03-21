@@ -1,9 +1,5 @@
 ---
 Description: The package block map file is an XML document that contains a list of the app’s files along with indexes and cryptographic hashes for each block of data that is stored in the package.
-MS-HAID: appxpkg.app\_package\_block\_map
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: App package block map
 ms.assetid: 8be602d7-b7f7-4797-899a-c0a7852725d2

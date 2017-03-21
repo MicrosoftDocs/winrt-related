@@ -1,9 +1,5 @@
 ---
 Description: SplashScreen
-MS-HAID: AppxManifestSchema.element\_SplashScreen
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: SplashScreen
 ms.assetid: eecce5dd-09c3-4f47-b271-0a04fcd64d44

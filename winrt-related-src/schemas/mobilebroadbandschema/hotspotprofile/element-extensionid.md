@@ -1,9 +1,5 @@
 ---
-Description: ExtensionId
-MS-HAID: HotSpotProfile.element\_ExtensionId
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: The package family name of the app that will be invoked to handle the WISPr authentication.
 Search.Product: eADQiWindows 10XVcnh
 title: ExtensionId
 ms.assetid: 2b5d31a8-4896-4890-82f7-6caa3ac92318

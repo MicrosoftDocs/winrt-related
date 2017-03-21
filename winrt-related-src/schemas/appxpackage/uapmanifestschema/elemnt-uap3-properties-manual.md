@@ -1,9 +1,5 @@
 ---
 Description: Contains opaque XML that represents custom, extension-specific information that is simply stored and not read by the operating system. The information is only read by the host app.
-MS-HAID: UapManifestSchema.elemnt\_uap3\_properties\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:Properties
 ms.assetid: fbc52f03-8a01-4abe-b8d1-6aa8b02eb958

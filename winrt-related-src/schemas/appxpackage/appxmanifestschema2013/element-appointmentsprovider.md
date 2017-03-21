@@ -1,9 +1,5 @@
 ---
-Description: AppointmentsProvider
-MS-HAID: AppxManifestSchema2013.element\_AppointmentsProvider
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Declares an app extensibility point of type windows.appointmentsProvider.
 Search.Product: eADQiWindows 10XVcnh
 title: AppointmentsProvider
 ms.assetid: 12e4d422-dbbc-41c0-8511-b87eb343b2cf

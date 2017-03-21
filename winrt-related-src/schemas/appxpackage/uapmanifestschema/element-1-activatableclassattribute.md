@@ -1,9 +1,5 @@
 ---
 Description: ActivatableClassAttribute (Windows 10)
-MS-HAID: UapManifestSchema.element\_1\_ActivatableClassAttribute
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: ActivatableClassAttribute (Windows 10)
 ms.assetid: 74ca4fd4-1a67-4e1f-b933-89b2ffa2fa17

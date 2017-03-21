@@ -1,9 +1,5 @@
 ---
-Description: BackgroundTasks
-MS-HAID: AppxManifestSchema2010\_v2.element\_BackgroundTasks
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines an app extensibility point of type windows.backgroundTasks.
 Search.Product: eADQiWindows 10XVcnh
 title: BackgroundTasks
 ms.assetid: 0e9cbbc5-3852-4158-87e7-12ea87be62e7

@@ -1,9 +1,5 @@
 ---
-Description: SSIDConfig
-MS-HAID: HotSpotProfile.element\_SSIDConfig
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains a set of additional SSIDs that are handled by this profile to reduce the number of SSIDs in the WLAN profile store.
 Search.Product: eADQiWindows 10XVcnh
 title: SSIDConfig
 ms.assetid: a58e4178-4a15-46c0-951d-93aef9fec5e6

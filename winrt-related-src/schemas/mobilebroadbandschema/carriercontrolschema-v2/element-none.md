@@ -1,9 +1,5 @@
 ---
-Description: NONE
-MS-HAID: CarrierControlSchema\_v2.element\_NONE
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: No mobile broadband network Data Class is available.
 Search.Product: eADQiWindows 10XVcnh
 title: NONE
 ms.assetid: 35642e88-20b9-4a36-af4a-d7d136a94580

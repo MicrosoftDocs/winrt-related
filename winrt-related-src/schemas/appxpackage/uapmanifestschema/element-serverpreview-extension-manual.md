@@ -1,9 +1,5 @@
 ---
 Description: Declares an extensibility point for the app.
-MS-HAID: UapManifestSchema.element\_serverpreview\_extension\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:Extension
 ms.assetid: c2f0aabe-bc7e-4c33-8f24-2cc848910666
@@ -123,7 +119,7 @@ Declares an extensibility point for the app.
 
 | Parent Element                                                               | Description                                           |
 |------------------------------------------------------------------------------|-------------------------------------------------------|
-| [**Extensions (type: CT\_ApplicationExtensions)**](element-1-extensions.md) | Defines one or more extensibility points for the app. |
+| [**Extensions (type: CT_ApplicationExtensions)**](element-1-extensions.md) | Defines one or more extensibility points for the app. |
 
  
 

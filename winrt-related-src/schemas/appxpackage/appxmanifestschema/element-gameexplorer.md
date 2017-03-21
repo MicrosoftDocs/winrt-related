@@ -1,9 +1,5 @@
 ---
 Description: GameExplorer
-MS-HAID: AppxManifestSchema.element\_GameExplorer
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: GameExplorer
 ms.assetid: a5c4d94a-de5d-4f41-8d32-9233d9e4e7fa

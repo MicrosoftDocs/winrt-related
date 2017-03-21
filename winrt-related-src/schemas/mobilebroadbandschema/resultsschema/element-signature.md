@@ -1,9 +1,5 @@
 ---
-Description: Signature
-MS-HAID: ResultsSchema.element\_Signature
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains any errors from processing the Signature element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: Signature
 ms.assetid: 58a2b918-192d-41ee-879c-b739b498bff0

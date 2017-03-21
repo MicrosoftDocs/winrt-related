@@ -1,9 +1,5 @@
 ---
 Description: uap:FileSavePicker (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_FileSavePicker
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:FileSavePicker (Windows 10)
 ms.assetid: 9b6f7fef-57c0-46ba-9b17-417e907d4084

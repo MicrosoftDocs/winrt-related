@@ -1,9 +1,5 @@
 ---
-Description: AutoPlayDevice
-MS-HAID: AppxManifestSchema2010\_v2.element\_AutoPlayDevice
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Declares an app extensibility point of type windows.autoPlayDevice.
 Search.Product: eADQiWindows 10XVcnh
 title: AutoPlayDevice
 ms.assetid: f01934d7-ad54-455d-bfb9-ef2560bb02ad

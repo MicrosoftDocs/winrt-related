@@ -1,9 +1,5 @@
 ---
-Description: PublisherDisplayName
-MS-HAID: AppxManifestSchema2010\_v2.element\_PublisherDisplayName
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: A friendly name for the publisher that can be displayed to users.
 Search.Product: eADQiWindows 10XVcnh
 title: PublisherDisplayName
 ms.assetid: 8df2d218-e62d-4b2e-8db5-3436c67aa04c

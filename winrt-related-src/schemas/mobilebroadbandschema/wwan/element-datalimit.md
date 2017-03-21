@@ -1,9 +1,5 @@
 ---
-Description: DataLimit
-MS-HAID: WWAN.element\_DataLimit
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines a value representing the data limit in MB for a capped plan. 
 Search.Product: eADQiWindows 10XVcnh
 title: DataLimit
 ms.assetid: c4c00384-b3aa-42ea-b226-7d5cc3fe4b19

@@ -1,9 +1,5 @@
 ---
-Description: namePrefix
-MS-HAID: HotSpotProfile.element\_namePrefix
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines a class of wireless LANs whose SSIDs begin with the characters provided.
 Search.Product: eADQiWindows 10XVcnh
 title: namePrefix
 ms.assetid: 2a07f749-bfd0-45af-9bb9-e1e779320e66

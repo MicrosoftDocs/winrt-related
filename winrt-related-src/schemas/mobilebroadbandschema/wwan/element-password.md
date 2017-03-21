@@ -1,9 +1,5 @@
 ---
-Description: Password
-MS-HAID: WWAN.element\_Password
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the password used to authenticate a user.
 Search.Product: eADQiWindows 10XVcnh
 title: Password
 ms.assetid: a7a63a7c-31d7-42bb-8e04-557306980baf

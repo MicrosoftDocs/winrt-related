@@ -1,9 +1,5 @@
 ---
 Description: uap:MediaPlayback (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_MediaPlayback
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:MediaPlayback (Windows 10)
 ms.assetid: 8c9e4e21-4efe-4032-a15c-a513542d844b

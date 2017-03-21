@@ -1,9 +1,5 @@
 ---
 Description: PublisherCacheFolders (Windows 10)
-MS-HAID: UapManifestSchema.element\_PublisherCacheFolders
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: PublisherCacheFolders (Windows 10)
 ms.assetid: 71425cb8-5f6b-415a-9791-28c7407869dc

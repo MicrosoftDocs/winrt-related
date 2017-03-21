@@ -1,9 +1,5 @@
 ---
-Description: ONEXRTT
-MS-HAID: CarrierControlSchema\_v2.element\_ONEXRTT
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the 1x Radio Transmission Technology (1xRTT) standards used for mobile network data.
 Search.Product: eADQiWindows 10XVcnh
 title: ONEXRTT
 ms.assetid: 687b2fa9-7507-4d4c-a477-ad61c4b48faf

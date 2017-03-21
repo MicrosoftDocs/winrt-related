@@ -1,9 +1,5 @@
 ---
-Description: Resource
-MS-HAID: BundleManifestSchema.element\_Resource
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Declares language, resolution scale, and DirectX feature level for a resource in the package.
 Search.Product: eADQiWindows 10XVcnh
 title: Resource
 ms.assetid: 445e7de7-e778-4666-b099-3d7f6f0125c7

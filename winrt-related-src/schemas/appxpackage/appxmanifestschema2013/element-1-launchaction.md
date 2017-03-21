@@ -1,9 +1,5 @@
 ---
-Description: LaunchAction (in AppointmentsProviderLaunchActions)
-MS-HAID: AppxManifestSchema2013.element\_1\_LaunchAction
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Describes an AppointmentsProviderLaunchActions content action.
 Search.Product: eADQiWindows 10XVcnh
 title: LaunchAction (in AppointmentsProviderLaunchActions)
 ms.assetid: 074c2f73-dcdd-4660-9d70-5bcee7b63199

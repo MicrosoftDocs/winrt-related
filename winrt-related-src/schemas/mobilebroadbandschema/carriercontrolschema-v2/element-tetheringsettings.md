@@ -1,9 +1,5 @@
 ---
-Description: TetheringSettings
-MS-HAID: CarrierControlSchema\_v2.element\_TetheringSettings
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the tethering settings in a subscriber's carrier provisioning file.
 Search.Product: eADQiWindows 10XVcnh
 title: TetheringSettings
 ms.assetid: 0bf2129c-0589-437a-8cfa-834b16ce42a2

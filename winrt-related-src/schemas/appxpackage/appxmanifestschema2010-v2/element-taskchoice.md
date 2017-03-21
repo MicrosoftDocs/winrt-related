@@ -1,9 +1,5 @@
 ---
-Description: TaskChoice
-MS-HAID: AppxManifestSchema2010\_v2.element\_TaskChoice
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: The abstract task choice element for the XSD substitution group.
 Search.Product: eADQiWindows 10XVcnh
 title: TaskChoice
 ms.assetid: 349bb88f-fe2c-4d5e-9082-c708a24a0c9b

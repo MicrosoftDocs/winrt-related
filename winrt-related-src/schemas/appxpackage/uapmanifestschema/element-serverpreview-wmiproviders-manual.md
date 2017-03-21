@@ -1,9 +1,5 @@
 ---
 Description: Declares an app extensibility point of type windows.wmiProviders.
-MS-HAID: UapManifestSchema.element\_serverpreview\_wmiproviders\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:WmiProviders
 ms.assetid: d24842b2-5c15-4dbb-bd57-85348819c21a

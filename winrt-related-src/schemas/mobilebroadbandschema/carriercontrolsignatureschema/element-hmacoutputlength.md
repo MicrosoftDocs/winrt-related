@@ -1,9 +1,5 @@
 ---
-Description: HMACOutputLength
-MS-HAID: CarrierControlSignatureSchema.element\_HMACOutputLength
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the length, in bits, of the SignatureValue element.
 Search.Product: eADQiWindows 10XVcnh
 title: HMACOutputLength
 ms.assetid: 062c1b2e-8cf2-4503-abb2-8083cac63fa2

@@ -1,9 +1,5 @@
 ---
 Description: uap:AppService (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_AppService
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:AppService (Windows 10)
 ms.assetid: 53420864-d8b4-4f30-bb74-5148d89be5f1

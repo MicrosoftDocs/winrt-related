@@ -1,9 +1,5 @@
 ---
 Description: Logo (Windows 10)
-MS-HAID: UapManifestSchema.element\_Logo
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Logo (Windows 10)
 ms.assetid: 612973f1-2251-46e7-9923-adec93f0683e

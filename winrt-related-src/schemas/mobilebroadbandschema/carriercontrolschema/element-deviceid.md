@@ -1,9 +1,5 @@
 ---
-Description: DeviceId
-MS-HAID: CarrierControlSchema.element\_DeviceId
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines a unique device identifier to which this provisioning attempt applies.
 Search.Product: eADQiWindows 10XVcnh
 title: DeviceId
 ms.assetid: b7140563-a2c9-499a-aec3-464b2c4e5518

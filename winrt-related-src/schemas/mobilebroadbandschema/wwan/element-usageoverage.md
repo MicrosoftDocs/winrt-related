@@ -1,9 +1,5 @@
 ---
-Description: UsageOverage
-MS-HAID: WWAN.element\_UsageOverage
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the number of bytes the subscriber has consumed over their data limit.
 Search.Product: eADQiWindows 10XVcnh
 title: UsageOverage
 ms.assetid: 63e85f2a-213c-4977-948c-54a10e4b18fa

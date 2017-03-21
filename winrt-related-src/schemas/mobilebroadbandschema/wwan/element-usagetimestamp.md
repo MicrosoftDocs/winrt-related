@@ -1,9 +1,5 @@
 ---
-Description: UsageTimestamp
-MS-HAID: WWAN.element\_UsageTimestamp
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines a validity date and time of the usage information
 Search.Product: eADQiWindows 10XVcnh
 title: UsageTimestamp
 ms.assetid: 413a560b-8635-4fec-b0f8-e479cf421eef

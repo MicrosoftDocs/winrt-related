@@ -1,9 +1,5 @@
 ---
-Description: SelectionCriteria
-MS-HAID: AppxManifestSchema2010\_v2.element\_SelectionCriteria
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines selection criteria for the certificates defined for the package.
 Search.Product: eADQiWindows 10XVcnh
 title: SelectionCriteria
 ms.assetid: 5f3d9db3-5b2d-44ec-9607-dcc15f0854b5

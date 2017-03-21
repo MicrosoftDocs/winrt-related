@@ -1,9 +1,5 @@
 ---
-Description: MBNProfiles
-MS-HAID: CarrierControlSchema.element\_MBNProfiles
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines information for a subscriber's WWAN profiles on a Mobile Network Operator's (MNO) network.
 Search.Product: eADQiWindows 10XVcnh
 title: MBNProfiles
 ms.assetid: 10f5eab7-7e8c-4162-95e5-f1b5b793e0d8

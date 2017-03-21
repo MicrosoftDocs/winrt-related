@@ -1,9 +1,5 @@
 ---
-Description: ResourcePackage
-MS-HAID: AppxManifestSchema2013.element\_ResourcePackage
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Indicates whether the package is a resource package.
 Search.Product: eADQiWindows 10XVcnh
 title: ResourcePackage
 ms.assetid: 51cabad7-a2eb-4fa3-ab52-59298555aefb

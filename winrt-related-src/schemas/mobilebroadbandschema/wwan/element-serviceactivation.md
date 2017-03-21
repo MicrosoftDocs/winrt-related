@@ -1,9 +1,5 @@
 ---
-Description: ServiceActivation
-MS-HAID: WWAN.element\_ServiceActivation
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines carrier specific information required to activate the subscriber's account on the Mobile Broadband Network (MNO).
 Search.Product: eADQiWindows 10XVcnh
 title: ServiceActivation
 ms.assetid: 59793a10-a1f1-4a71-b883-fa2f4a58c84f

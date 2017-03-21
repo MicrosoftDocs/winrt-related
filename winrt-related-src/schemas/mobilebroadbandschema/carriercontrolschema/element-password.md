@@ -1,9 +1,5 @@
 ---
-Description: Password
-MS-HAID: CarrierControlSchema.element\_Password
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines optional password credentials to be presented using HTTP-Auth to log on to the Mobile Network Operator's network when retrieving the provisioning file.
 Search.Product: eADQiWindows 10XVcnh
 title: Password
 ms.assetid: a7a63a7c-31d7-42bb-8e04-557306980baf

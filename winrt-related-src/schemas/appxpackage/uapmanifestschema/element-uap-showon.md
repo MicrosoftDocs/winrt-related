@@ -1,9 +1,5 @@
 ---
 Description: uap:ShowOn (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_ShowOn
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:ShowOn (Windows 10)
 ms.assetid: ef9ad3df-5179-4dee-bf54-4f5de545b1ed

@@ -1,9 +1,6 @@
 ---
-Description: Plan
-MS-HAID: ResultsSchema\_v2.element\_Plan
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains any errors from processing a Plan element from the last provisioning attempt.
+
 Search.Product: eADQiWindows 10XVcnh
 title: Plan
 ms.assetid: 880ae12d-cd46-4b3b-9b24-3b1f92a64fd0

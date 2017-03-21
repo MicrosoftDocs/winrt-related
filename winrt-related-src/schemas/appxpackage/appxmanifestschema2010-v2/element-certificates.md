@@ -1,9 +1,5 @@
 ---
-Description: Certificates
-MS-HAID: AppxManifestSchema2010\_v2.element\_Certificates
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Declares a package extensibility point of type windows.certificates. 
 Search.Product: eADQiWindows 10XVcnh
 title: Certificates
 ms.assetid: 378edcd3-b9ef-46db-9a56-94470451829e

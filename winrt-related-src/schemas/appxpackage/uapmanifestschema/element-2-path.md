@@ -1,9 +1,5 @@
 ---
 Description: Path (in ProxyStub) (Windows 10)
-MS-HAID: UapManifestSchema.element\_2\_Path
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Path (in ProxyStub) (Windows 10)
 ms.assetid: 4522dd59-287a-4c40-8054-168d06f61a08
@@ -96,7 +92,7 @@ None.
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[Path (type: ST\_Executable)](element-1-path.md)**
+-   **[Path (type: ST_Executable)](element-1-path.md)**
 
 ## Requirements
 

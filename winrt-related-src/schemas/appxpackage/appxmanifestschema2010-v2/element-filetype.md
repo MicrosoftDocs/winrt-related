@@ -1,18 +1,14 @@
 ---
-Description: 'FileType (in type: CT\_FTASupportedFileTypes)'
-MS-HAID: AppxManifestSchema2010\_v2.element\_FileType
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: A supported file type specified as its file type extension.
 Search.Product: eADQiWindows 10XVcnh
-title: 'FileType (in type: CT\_FTASupportedFileTypes)'
+title: 'FileType (in type: CT_FTASupportedFileTypes)'
 ms.assetid: ee9a5cc3-18aa-458e-88aa-b1000c35abd3
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
 ---
 
-# FileType (in type: CT\_FTASupportedFileTypes)
+# FileType (in type: CT_FTASupportedFileTypes)
 
 
 
@@ -117,7 +113,7 @@ None.
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[FileType (type: ST\_FileType)](element-1-filetype.md)**
+-   **[FileType (type: ST_FileType)](element-1-filetype.md)**
 
 ## Requirements
 
