@@ -1,9 +1,5 @@
 ---
 Description: uap:EditFlags (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_EditFlags
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:EditFlags (Windows 10)
 ms.assetid: 5a16f6d9-bdfb-4618-b7dc-7f9aa5807a13

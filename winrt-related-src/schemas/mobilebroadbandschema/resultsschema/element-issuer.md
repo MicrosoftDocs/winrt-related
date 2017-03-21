@@ -1,9 +1,5 @@
 ---
-Description: Issuer
-MS-HAID: ResultsSchema.element\_Issuer
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains any errors from processing the CarrierId element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: Issuer
 ms.assetid: b0a623d9-4e4a-4dae-9050-61b90c963893

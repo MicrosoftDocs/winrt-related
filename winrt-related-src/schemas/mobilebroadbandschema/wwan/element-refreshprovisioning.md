@@ -1,9 +1,5 @@
 ---
-Description: RefreshProvisioning
-MS-HAID: WWAN.element\_RefreshProvisioning
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines if the network configuration has been updated, and the machine should attempt to retrieve a new provisioning file during the next available maintenance window.
 Search.Product: eADQiWindows 10XVcnh
 title: RefreshProvisioning
 ms.assetid: 4705d612-974c-46d9-965d-c88a47c7d891

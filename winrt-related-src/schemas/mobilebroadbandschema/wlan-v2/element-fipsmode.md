@@ -1,9 +1,5 @@
 ---
-Description: FIPSMode
-MS-HAID: WLAN\_v2.element\_FIPSMode
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines whether Federal Information Processing Standards (FIPS) mode is enabled.
 Search.Product: eADQiWindows 10XVcnh
 title: FIPSMode
 ms.assetid: 0544cc73-0636-494c-a205-9831e43bd16f

@@ -1,9 +1,5 @@
 ---
-Description: tile
-MS-HAID: tile.element\_tile
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: The base tile element, which contains a single visual element.
 Search.Product: eADQiWindows 10XVcnh
 title: tile
 ms.assetid: 82ca95f2-5bb4-475f-a052-e82d003b1ab5
@@ -17,7 +13,7 @@ keywords: windows 10, uwp, schema, tiles
 
 
 
-Base tile element, which contains a single [**visual**](https://msdn.microsoft.com/library/windows/apps/br230847) element.
+
 
 ## Element hierarchy
 

@@ -1,9 +1,5 @@
 ---
-Description: PMKCacheMode
-MS-HAID: WLAN.element\_PMKCacheMode
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines whether Pairwise Master Key (PMK) caching is to be used by this profile to connect to a WLAN.
 Search.Product: eADQiWindows 10XVcnh
 title: PMKCacheMode
 ms.assetid: 3bfb39c1-8bc1-4eec-b954-7b6ba7a95d24

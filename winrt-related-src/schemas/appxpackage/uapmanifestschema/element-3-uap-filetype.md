@@ -1,18 +1,14 @@
 ---
-Description: uap:FileType (in uap:FileSavePicker/uap:SupportedFileTypes) (Windows 10)
-MS-HAID: UapManifestSchema.element\_3\_uap\_FileType
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: uap:FileType (in uap:FileSavePicker/uap:SupportedFileTypes) 
 Search.Product: eADQiWindows 10XVcnh
-title: uap:FileType (in uap:FileSavePicker/uap:SupportedFileTypes) (Windows 10)
+title: uap:FileType (in uap:FileSavePicker/uap:SupportedFileTypes) 
 ms.assetid: 05c2d6ae-0368-4258-ad1e-bafe76b6f455
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
 ---
 
-# uap:FileType (in uap:FileSavePicker/uap:SupportedFileTypes) (Windows 10)
+# uap:FileType (in uap:FileSavePicker/uap:SupportedFileTypes)
 
 
 A file type specified as its file type extension. It is unique per application in the package and is case sensitive.
@@ -121,7 +117,7 @@ None.
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[uap:FileType (in type: CT\_FTASupportedFileTypes)](element-uap-filetype.md)**
+-   **[uap:FileType (in type: CT_FTASupportedFileTypes)](element-uap-filetype.md)**
 
 ## Requirements
 

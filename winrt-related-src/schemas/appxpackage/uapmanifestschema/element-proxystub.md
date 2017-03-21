@@ -1,9 +1,5 @@
 ---
 Description: ProxyStub (Windows 10)
-MS-HAID: UapManifestSchema.element\_ProxyStub
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: ProxyStub (Windows 10)
 ms.assetid: d902d2b6-4694-4158-9c1f-4b3511150ee5

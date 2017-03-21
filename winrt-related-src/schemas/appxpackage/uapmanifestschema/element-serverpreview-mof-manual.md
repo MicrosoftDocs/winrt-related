@@ -1,9 +1,5 @@
 ---
 Description: Specifies the Managed Object Format (MOF) files to use to install or uninstall the Windows Management Instrumentation (WMI) provider.
-MS-HAID: UapManifestSchema.element\_serverpreview\_mof\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:Mof
 ms.assetid: 891a395f-d1b8-4d18-a05d-73701e5ed4dd

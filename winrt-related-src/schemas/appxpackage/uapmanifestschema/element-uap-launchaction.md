@@ -1,9 +1,5 @@
 ---
 Description: uap:LaunchAction (in uap:AutoPlayContent) (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_LaunchAction
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:LaunchAction (in uap:AutoPlayContent) (Windows 10)
 ms.assetid: 5d2c732f-08dd-4e7e-93b1-6bb122e2179f
@@ -139,7 +135,7 @@ None.
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[uap:LaunchAction (in type: CT\_AutoPlayDevice)](element-1-uap-launchaction.md)**
+-   **[uap:LaunchAction (in type: CT_AutoPlayDevice)](element-1-uap-launchaction.md)**
 -   **[uap:LaunchAction (global)](element-2-uap-launchaction.md)**
 
 ## Remarks

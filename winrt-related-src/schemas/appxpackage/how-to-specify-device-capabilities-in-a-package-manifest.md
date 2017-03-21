@@ -1,18 +1,14 @@
 ---
 Description: To declare each device capability required by your Windows Runtime app, add a DeviceCapability element and applicable child elements to the package manifest.
-MS-HAID: AppxManifestSchema.how\_to\_specify\_device\_capabilities\_in\_a\_package\_manifest
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
-title: How to specify device capabilities in a package manifest (Windows Runtime apps)
+title: How to specify device capabilities in a package manifest
 ms.assetid: 4e83e2b2-d80f-41e2-aa1f-436ffa389ccc
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
 ---
 
-# How to specify device capabilities in a package manifest (Windows Runtime apps)
+# How to specify device capabilities in a package manifest
 
 
 **Note**  For Windows 10, see [What's different in Windows 10.](uapmanifestschema/what-s-changed-in-windows-10.md)

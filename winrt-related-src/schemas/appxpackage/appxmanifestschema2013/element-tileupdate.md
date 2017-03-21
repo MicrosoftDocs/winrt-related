@@ -1,9 +1,5 @@
 ---
-Description: TileUpdate
-MS-HAID: AppxManifestSchema2013.element\_TileUpdate
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Describes how the app tile receives update notifications.
 Search.Product: eADQiWindows 10XVcnh
 title: TileUpdate
 ms.assetid: 2f97e602-d999-455b-907e-83558991c614
@@ -13,9 +9,6 @@ keywords: windows 10, uwp, schema, package manifest
 ---
 
 # TileUpdate
-
-
-
 
 Describes how the app tile receives update notifications.
 

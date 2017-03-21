@@ -1,9 +1,5 @@
 ---
-Description: visual
-MS-HAID: tile.element\_visual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains multiple binding child elements, each of which defines a tile.
 Search.Product: eADQiWindows 10XVcnh
 title: visual
 ms.assetid: f8de9ed6-53d4-4ba5-a4e5-df540c93bd89

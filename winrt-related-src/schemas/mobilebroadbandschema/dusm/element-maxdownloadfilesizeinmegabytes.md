@@ -1,9 +1,5 @@
 ---
-Description: MaxDownloadFileSizeInMegabytes
-MS-HAID: DUSM.element\_MaxDownloadFileSizeInMegabytes
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines a value representing the maximum suggested download size in MB of the subscriber's connection.
 Search.Product: eADQiWindows 10XVcnh
 title: MaxDownloadFileSizeInMegabytes
 ms.assetid: 6574bdc7-2d0a-472c-aac3-e0001c4b9073

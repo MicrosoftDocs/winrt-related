@@ -1,9 +1,5 @@
 ---
 Description: uap:SplashScreen (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_SplashScreen
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:SplashScreen (Windows 10)
 ms.assetid: 1a55627f-7014-4c8c-8ec8-957ac99457db

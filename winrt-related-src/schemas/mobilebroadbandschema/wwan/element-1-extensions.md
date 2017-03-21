@@ -1,9 +1,5 @@
 ---
-Description: Extensions
-MS-HAID: WWAN.element\_1\_Extensions
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines a schema extension point container for future additions.
 Search.Product: eADQiWindows 10XVcnh
 title: Extensions
 ms.assetid: 267051e3-b09c-467c-b5bd-4575cc31cb36

@@ -1,9 +1,5 @@
 ---
-Description: HSUPA
-MS-HAID: CarrierControlSchema\_v2.element\_HSUPA
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the High-Speed Uplink Packet Access (HSUPA) protocol used for mobile network data.
 Search.Product: eADQiWindows 10XVcnh
 title: HSUPA
 ms.assetid: 0d4e73a6-7fac-459a-bcee-49ab29c027f4

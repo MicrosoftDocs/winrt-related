@@ -1,9 +1,5 @@
 ---
-Description: security
-MS-HAID: WLAN.element\_security
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines various security settings for this profile on a WLAN.
 Search.Product: eADQiWindows 10XVcnh
 title: security
 ms.assetid: 4e3338c2-345b-45a5-b3cf-c23b71531a1c

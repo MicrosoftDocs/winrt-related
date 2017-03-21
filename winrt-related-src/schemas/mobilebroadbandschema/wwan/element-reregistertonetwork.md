@@ -1,9 +1,5 @@
 ---
-Description: ReregisterToNetwork
-MS-HAID: WWAN.element\_ReregisterToNetwork
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines timing information used to activate the subscriber's account on the Mobile Broadband Network (MNO) for a reregister activation type.
 Search.Product: eADQiWindows 10XVcnh
 title: ReregisterToNetwork
 ms.assetid: 623c7f6a-64d7-4634-990f-ff0f0ccc4994

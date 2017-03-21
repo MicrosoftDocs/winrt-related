@@ -1,9 +1,5 @@
 ---
-Description: 'Name (type: NameType)'
-MS-HAID: WWAN.element\_1\_Name
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the profile name.
 Search.Product: eADQiWindows 10XVcnh
 title: 'Name (type: NameType)'
 ms.assetid: 9eab41c7-29ff-42aa-9647-f18ff72b3faf

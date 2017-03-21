@@ -1,9 +1,5 @@
 ---
 Description: Arguments (Windows 10)
-MS-HAID: UapManifestSchema.element\_Arguments
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Arguments (Windows 10)
 ms.assetid: d4cb3513-8c57-4449-9c3b-469047d2a4c4

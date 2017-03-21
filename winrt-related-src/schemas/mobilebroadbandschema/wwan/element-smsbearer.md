@@ -1,9 +1,5 @@
 ---
-Description: SMSBearer
-MS-HAID: WWAN.element\_SMSBearer
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines bearer types allowed for SMS messages.
 Search.Product: eADQiWindows 10XVcnh
 title: SMSBearer
 ms.assetid: 33e79977-cca7-400a-8d01-c3dc72670b3f

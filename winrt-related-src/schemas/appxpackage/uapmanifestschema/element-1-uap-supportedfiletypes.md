@@ -1,9 +1,5 @@
 ---
 Description: uap:SupportedFileTypes (in uap:ShareTarget) (Windows 10)
-MS-HAID: UapManifestSchema.element\_1\_uap\_SupportedFileTypes
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:SupportedFileTypes (in uap:ShareTarget) (Windows 10)
 ms.assetid: 2161f39d-f31f-4ab5-81cc-da46126808a5
@@ -143,7 +139,7 @@ None.
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[uap:SupportedFileTypes (type: CT\_FTASupportedFileTypes)](element-uap-supportedfiletypes.md)**
+-   **[uap:SupportedFileTypes (type: CT_FTASupportedFileTypes)](element-uap-supportedfiletypes.md)**
 
 ## Examples
 

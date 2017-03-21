@@ -1,9 +1,5 @@
 ---
-Description: Description
-MS-HAID: AppxManifestSchema2010\_v2.element\_Description
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: A friendly description that can be displayed to users.
 Search.Product: eADQiWindows 10XVcnh
 title: Description
 ms.assetid: e113111a-1d9b-4d04-bd86-86beece204dd

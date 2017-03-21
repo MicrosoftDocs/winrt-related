@@ -1,9 +1,5 @@
 ---
-Description: Package
-MS-HAID: AppxManifestSchema2010\_v2.element\_Package
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the root element of an app package manifest.
 Search.Product: eADQiWindows 10XVcnh
 title: Package
 ms.assetid: ea0f5af0-8191-4ce0-9594-c647f800bd53

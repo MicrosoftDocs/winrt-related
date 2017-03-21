@@ -1,9 +1,5 @@
 ---
-Description: Dependencies
-MS-HAID: AppxManifestSchema2010\_v2.element\_Dependencies
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Declares other packages that a package depends on to complete its software.
 Search.Product: eADQiWindows 10XVcnh
 title: Dependencies
 ms.assetid: a1e745c9-a804-42cf-a107-7fb860cc8289

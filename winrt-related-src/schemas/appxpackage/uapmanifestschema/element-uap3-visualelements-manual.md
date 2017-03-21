@@ -1,9 +1,5 @@
 ---
 Description: 'Describes the visual aspects of the app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance.'
-MS-HAID: UapManifestSchema.element\_uap3\_visualelements\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:VisualElements (Windows 10)
 ms.assetid: f98fc3ac-5d51-4dfb-b7a0-1985b4e568af

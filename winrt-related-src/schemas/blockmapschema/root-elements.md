@@ -1,9 +1,5 @@
 ---
-Description: Element Hierarchy
-MS-HAID: BlockMapSchema.root\_elements
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Summarizes the allowed hierarchies for the package block map  schema.
 Search.Product: eADQiWindows 10XVcnh
 title: Element Hierarchy
 ms.assetid: 5dfced88-48fd-4bf6-963c-7ab090b3e26e

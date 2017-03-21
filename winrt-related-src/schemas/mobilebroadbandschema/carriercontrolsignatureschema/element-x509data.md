@@ -1,9 +1,5 @@
 ---
-Description: X509Data
-MS-HAID: CarrierControlSignatureSchema.element\_X509Data
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines one or more X.509 compliant signatures.
 Search.Product: eADQiWindows 10XVcnh
 title: X509Data
 ms.assetid: 1e3356cf-1c4d-45da-bb08-11329c586529

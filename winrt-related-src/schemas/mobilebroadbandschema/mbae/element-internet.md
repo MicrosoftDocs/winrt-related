@@ -1,9 +1,5 @@
 ---
-Description: Internet
-MS-HAID: MBAE.element\_Internet
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the mobile broadband Internet profile to be used for the mobile network.
 Search.Product: eADQiWindows 10XVcnh
 title: Internet
 ms.assetid: ddcce350-4ec2-485d-9b78-e159e4161dbf
@@ -14,10 +10,7 @@ keywords: windows 10, uwp, schema, mobile broadband schema
 
 # Internet
 
-
 **Note**  The **Internet** element is deprecated. Starting with Windows 8 and Windows Server 2012, the mobile operator should use Access Point Name (APN) Database to provide Internet APN information.
-
- 
 
 Defines the mobile broadband Internet profile to be used for the mobile network.
 

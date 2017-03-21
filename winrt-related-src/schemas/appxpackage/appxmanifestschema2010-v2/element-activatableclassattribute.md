@@ -1,9 +1,5 @@
 ---
-Description: ActivatableClassAttribute
-MS-HAID: AppxManifestSchema2010\_v2.element\_ActivatableClassAttribute
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines an attribute of the class that is stored in the Windows Runtime property store.
 Search.Product: eADQiWindows 10XVcnh
 title: ActivatableClassAttribute
 ms.assetid: 6070f277-74ae-4cf8-9467-9109c4983f9d

@@ -1,9 +1,5 @@
 ---
 Description: uap:ShareTarget (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_ShareTarget
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:ShareTarget (Windows 10)
 ms.assetid: 92622f42-dfef-4fd2-a42d-73d4ac47357c

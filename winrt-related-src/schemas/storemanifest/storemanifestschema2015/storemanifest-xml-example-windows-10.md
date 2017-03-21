@@ -1,14 +1,11 @@
 ---
 title: StoreManifest XML example (Windows 10)
-description: Here's an example of a StoreManifest XML file for a UWP package.
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+description: XML example of a StoreManifest XML file for a UWP package.
 Search.Product: eADQiWindows 10XVcnh
 ms.assetid: 7B824C5B-86F8-4310-9B0D-E88BF2BF95BF
 author: laurenhughes
 ms.author: lahugh
-windows 10, uwp, schema, storemanifest
+keywords: windows 10, uwp, schema, storemanifest
 ---
 
 # StoreManifest XML example (Windows 10)

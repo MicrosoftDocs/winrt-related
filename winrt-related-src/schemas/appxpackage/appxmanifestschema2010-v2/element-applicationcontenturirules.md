@@ -1,9 +1,5 @@
 ---
-Description: ApplicationContentUriRules
-MS-HAID: AppxManifestSchema2010\_v2.element\_ApplicationContentUriRules
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Specifies which pages in the web context have access to the system's geolocation devices and access to the clipboard.
 Search.Product: eADQiWindows 10XVcnh
 title: ApplicationContentUriRules
 ms.assetid: 8bb7c378-6461-4c01-b02f-b7f17c32daaa

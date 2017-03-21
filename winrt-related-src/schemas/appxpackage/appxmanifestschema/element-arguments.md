@@ -1,9 +1,5 @@
 ---
 Description: Arguments
-MS-HAID: AppxManifestSchema.element\_Arguments
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Arguments
 ms.assetid: d4cb3513-8c57-4449-9c3b-469047d2a4c4

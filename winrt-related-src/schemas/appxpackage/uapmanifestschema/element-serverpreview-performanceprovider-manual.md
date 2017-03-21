@@ -1,9 +1,5 @@
 ---
 Description: Identifies a performance counter to add to the server-specific app extensions.
-MS-HAID: UapManifestSchema.element\_serverpreview\_performanceprovider\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:PerformanceProvider
 ms.assetid: 6601d242-568d-4260-8aae-1d0b2965aaae

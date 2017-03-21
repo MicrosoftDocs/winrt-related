@@ -1,9 +1,5 @@
 ---
 Description: OutOfProcessServer
-MS-HAID: AppxManifestSchema.element\_OutOfProcessServer
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: OutOfProcessServer
 ms.assetid: 575ad44f-e0e3-4682-a082-8d8184bd8dd4

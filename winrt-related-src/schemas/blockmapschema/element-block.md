@@ -1,9 +1,5 @@
 ---
-Description: Block
-MS-HAID: BlockMapSchema.element\_Block
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Represents a block of binary data contained in a file.
 Search.Product: eADQiWindows 10XVcnh
 title: Block
 ms.assetid: 7b4a9f58-a370-41f1-9234-004fc8ba425b
@@ -13,9 +9,6 @@ keywords: windows 10, uwp, schema, package manifest
 ---
 
 # Block
-
-
-
 
 Represents a block of binary data contained in a file.
 

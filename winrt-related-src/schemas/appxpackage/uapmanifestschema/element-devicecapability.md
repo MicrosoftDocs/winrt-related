@@ -1,9 +1,5 @@
 ---
 Description: DeviceCapability (Windows 10)
-MS-HAID: UapManifestSchema.element\_DeviceCapability
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: DeviceCapability (Windows 10)
 ms.assetid: 4353c4fd-f038-4986-81ed-d2ec0c6235ef

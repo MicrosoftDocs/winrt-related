@@ -1,9 +1,5 @@
 ---
 Description: Declares an app extensibility point of type windows.aowApp.
-MS-HAID: UapManifestSchema.element\_mobile\_aowapp\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: mobile:AowApp (Windows 10)
 ms.assetid: 5a716d59-0796-4584-890f-98f26b0654ce

@@ -1,9 +1,5 @@
 ---
-Description: SplashScreen
-MS-HAID: AppxManifestSchema2010\_v2.element\_SplashScreen
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the appearance of the splash screen, which is displayed by the app during launch.
 Search.Product: eADQiWindows 10XVcnh
 title: SplashScreen
 ms.assetid: eecce5dd-09c3-4f47-b271-0a04fcd64d44

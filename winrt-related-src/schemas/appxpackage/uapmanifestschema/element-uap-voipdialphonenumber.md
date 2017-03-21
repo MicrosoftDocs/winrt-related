@@ -1,9 +1,5 @@
 ---
 Description: uap:VoipDialPhoneNumber
-MS-HAID: UapManifestSchema.element\_uap\_VoipDialPhoneNumber
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:VoipDialPhoneNumber
 ms.assetid: 89161194-e351-4dee-a5b8-07aa4a429d0b

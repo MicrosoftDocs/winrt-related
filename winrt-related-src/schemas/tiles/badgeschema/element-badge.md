@@ -1,9 +1,5 @@
 ---
-Description: badge
-MS-HAID: badge.element\_badge
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Specifies a badge's value or glyph.
 Search.Product: eADQiWindows 10XVcnh
 title: badge
 ms.assetid: b16170df-5c92-4b03-8f4d-6d155d114725
@@ -13,9 +9,6 @@ keywords: windows 10, uwp, schema, badges
 ---
 
 # badge
-
-
-
 
 Specifies a badge's value or glyph.
 

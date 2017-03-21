@@ -1,9 +1,5 @@
 ---
 Description: Identity
-MS-HAID: AppxManifestSchema.element\_Identity
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Identity
 ms.assetid: 45524773-3b61-44ac-a417-cfaac92af0a0

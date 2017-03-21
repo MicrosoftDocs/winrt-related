@@ -1,9 +1,5 @@
 ---
 Description: Learn how to create a package manifest XML file that conforms to the package manifest schema, using an XML editor.
-MS-HAID: appxpkg.how\_to\_create\_a\_package\_manifest\_manually
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: How to create a package manifest manually
 ms.assetid: 84bf35f5-c32d-4909-9f04-780b54c7cc16

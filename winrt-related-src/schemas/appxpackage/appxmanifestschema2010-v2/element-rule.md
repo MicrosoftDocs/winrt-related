@@ -1,9 +1,5 @@
 ---
-Description: Rule
-MS-HAID: AppxManifestSchema2010\_v2.element\_Rule
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Specifies which pages in the web context have access to the system's geolocation devices and access to the clipboard.
 Search.Product: eADQiWindows 10XVcnh
 title: Rule
 ms.assetid: c78c8c62-df95-4202-b3f0-75ddbb7e0e46

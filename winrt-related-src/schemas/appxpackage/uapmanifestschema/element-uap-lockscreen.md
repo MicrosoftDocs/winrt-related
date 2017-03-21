@@ -1,9 +1,5 @@
 ---
 Description: uap:LockScreen (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_LockScreen
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:LockScreen (Windows 10)
 ms.assetid: 65e0cc4e-af42-4852-a9ca-ee09a5fee5f2

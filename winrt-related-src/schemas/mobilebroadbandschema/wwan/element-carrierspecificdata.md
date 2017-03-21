@@ -1,9 +1,5 @@
 ---
-Description: CarrierSpecificData
-MS-HAID: WWAN.element\_CarrierSpecificData
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines carrier specific data not specified by Windows.
 Search.Product: eADQiWindows 10XVcnh
 title: CarrierSpecificData
 ms.assetid: c664b4ec-7e79-4836-85e4-971b42e10976

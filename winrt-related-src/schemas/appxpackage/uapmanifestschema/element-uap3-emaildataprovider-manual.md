@@ -1,9 +1,5 @@
 ---
 Description: Declares an app extensibility point of type windows.emailDataProvider.
-MS-HAID: UapManifestSchema.element\_uap3\_emaildataprovider\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:EmailDataProvider (Windows 10)
 ms.assetid: 113e2e55-a05b-4bb7-9091-5d8f92272103

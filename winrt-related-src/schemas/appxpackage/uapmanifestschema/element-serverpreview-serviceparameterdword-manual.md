@@ -1,9 +1,5 @@
 ---
 Description: Specifies the value of a parameter for the service that has a data type of REG\_DWORD.
-MS-HAID: UapManifestSchema.element\_serverpreview\_serviceparameterdword\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:ServiceParameterDword
 ms.assetid: 96e0ef7e-d90d-4d55-893d-cb3ed146e403

@@ -1,9 +1,5 @@
 ---
 Description: uap:DisplayName (Windows 10)
-MS-HAID: UapManifestSchema.element\_1\_uap\_DisplayName
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:DisplayName (Windows 10)
 ms.assetid: c435a2d1-6f05-44b8-9dc2-34b661793314

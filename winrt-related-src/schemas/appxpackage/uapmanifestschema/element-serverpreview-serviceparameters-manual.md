@@ -1,9 +1,5 @@
 ---
 Description: Specifies a set of parameters to configure for the service. These parameters correspond to registry values that are created under the HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\ServiceName\\Parameters key.
-MS-HAID: UapManifestSchema.element\_serverpreview\_serviceparameters\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:ServiceParameters
 ms.assetid: 321cca00-b107-4109-9187-c712f2621aae

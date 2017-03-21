@@ -1,9 +1,5 @@
 ---
-Description: ONEXEVDO
-MS-HAID: CarrierControlSchema\_v2.element\_ONEXEVDO
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the Enhanced Voice-Data Optimized (EVDO) standard used for mobile network data.
 Search.Product: eADQiWindows 10XVcnh
 title: ONEXEVDO
 ms.assetid: e29913ca-e464-40e1-a1e1-2a5f86402b49

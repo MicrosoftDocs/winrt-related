@@ -1,9 +1,6 @@
 ---
-Description: CarrierNetworkMetadata
-MS-HAID: ResultsSchema\_v2.element\_CarrierNetworkMetadata
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains any errors from processing the CarrierNetworkMetadata element from the last provisioning attempt.
+
 Search.Product: eADQiWindows 10XVcnh
 title: CarrierNetworkMetadata
 ms.assetid: 6b8fa3df-5138-475d-ac95-305c273730fe

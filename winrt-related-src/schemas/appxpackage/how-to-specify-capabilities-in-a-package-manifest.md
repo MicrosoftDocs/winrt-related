@@ -1,9 +1,5 @@
 ---
 Description: To declare each capability required by your app, add a Capability element to the package manifest.
-MS-HAID: appxpkg.how\_to\_specify\_capabilities\_in\_a\_package\_manifest
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: How to specify capabilities in a package manifest
 ms.assetid: 7ca1d523-bc49-4009-a2ef-238c713cd907

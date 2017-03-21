@@ -1,9 +1,5 @@
 ---
-Description: authEncryption
-MS-HAID: WLAN.element\_authEncryption
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the authentication and encryption pair to be used for this profile on a WLAN.
 Search.Product: eADQiWindows 10XVcnh
 title: authEncryption
 ms.assetid: f88296a8-9de1-43ec-a610-54562f8be53e

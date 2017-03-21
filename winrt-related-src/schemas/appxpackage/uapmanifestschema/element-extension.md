@@ -1,9 +1,5 @@
 ---
 Description: Extension (in Package/Extensions) (Windows 10)
-MS-HAID: UapManifestSchema.element\_Extension
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Extension (in Package/Extensions) (Windows 10)
 ms.assetid: 72f0d1ae-15a4-4eba-a3ca-990f4de2b697

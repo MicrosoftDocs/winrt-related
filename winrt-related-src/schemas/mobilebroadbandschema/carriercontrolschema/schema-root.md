@@ -1,4 +1,6 @@
 ---
+title: CarrierControlSchema schema
+description: The CarrierControlSchema schema defines elements that are used to create the provisioning file in a call to ProvisionFromXmlDocumentAsync and describe all of the settings required to authenticate and provision a subscriber's account on a Mobile Network Operator's (MNO) network.
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
 author: mcleblanc
 ms.author: markl

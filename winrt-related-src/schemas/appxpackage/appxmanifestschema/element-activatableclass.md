@@ -1,18 +1,14 @@
 ---
-Description: 'ActivatableClass (type: CT\_InProcessActivatableClass)'
-MS-HAID: AppxManifestSchema.element\_ActivatableClass
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: 'ActivatableClass (type: CT_InProcessActivatableClass)'
 Search.Product: eADQiWindows 10XVcnh
-title: 'ActivatableClass (type: CT\_InProcessActivatableClass)'
+title: 'ActivatableClass (type: CT_InProcessActivatableClass)'
 ms.assetid: c75a7a4d-1864-4bff-95e6-67cd007ee192
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
 ---
 
-# ActivatableClass (type: CT\_InProcessActivatableClass)
+# ActivatableClass (type: CT_InProcessActivatableClass)
 
 
 Declares a runtime class associated with the extensibility point.
@@ -153,7 +149,7 @@ Declares a runtime class associated with the extensibility point.
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[ActivatableClass (type: CT\_OutOfProcessActivatableClass)](element-1-activatableclass.md)**
+-   **[ActivatableClass (type: CT_OutOfProcessActivatableClass)](element-1-activatableclass.md)**
 
 ## Requirements
 

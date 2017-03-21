@@ -1,9 +1,5 @@
 ---
 Description: Declares an extensibility point for the app.
-MS-HAID: UapManifestSchema.element\_uap3\_extension\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:Extension (Windows 10)
 ms.assetid: ed8f9296-0771-48ab-aecf-cca642e830c1
@@ -177,7 +173,7 @@ Declares an extensibility point for the app.
 
 | Parent Element                                                               | Description                                           |
 |------------------------------------------------------------------------------|-------------------------------------------------------|
-| [**Extensions (type: CT\_ApplicationExtensions)**](element-1-extensions.md) | Defines one or more extensibility points for the app. |
+| [**Extensions (type: CT_ApplicationExtensions)**](element-1-extensions.md) | Defines one or more extensibility points for the app. |
 
  
 

@@ -1,9 +1,5 @@
 ---
-Description: GPRS
-MS-HAID: CarrierControlSchema\_v2.element\_GPRS
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the general packet radio service (GPRS) protocol used for mobile network data.
 Search.Product: eADQiWindows 10XVcnh
 title: GPRS
 ms.assetid: ce4b6201-2290-4bc9-b360-ebac7e74beff

@@ -1,9 +1,5 @@
 ---
 Description: To package your app, you must create a package manifest that contains the elements that are required by that the package manifest schema.
-MS-HAID: appxpkg.how\_to\_create\_a\_basic\_package\_manifest
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: How to create a basic package manifest for Windows 8
 ms.assetid: f91fe2f6-4c9c-4965-8c35-8c02b0c66bd0

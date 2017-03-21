@@ -1,9 +1,5 @@
 ---
 Description: Package manifest schema reference for Windows 10
-MS-HAID: UapManifestSchema.Schema\_Root
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Package manifest schema reference for Windows 10
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c

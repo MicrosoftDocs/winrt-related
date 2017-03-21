@@ -1,9 +1,6 @@
 ---
-title: IndexableContent
+title: Indicates that the element's text should be indexed for search, but is not associated with a property.
 description: Indicates that the element's text should be indexed for search, but is not associated with a property. 
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 ms.assetid: 05953531-49EE-4209-9B9D-9A6D465E9772
 keywords:

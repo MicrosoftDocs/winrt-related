@@ -1,9 +1,5 @@
 ---
-Description: IssuerName
-MS-HAID: MBAE.element\_IssuerName
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the issuer name of the trusted certificate.
 Search.Product: eADQiWindows 10XVcnh
 title: IssuerName
 ms.assetid: 2ce1c938-0f02-4b4a-9bf7-6541981d2eed

@@ -1,9 +1,5 @@
 ---
-Description: Messages
-MS-HAID: WWAN.element\_Messages
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains a set of MNO messages that are parsed by Windows 8 and may be signaled to the user.
 Search.Product: eADQiWindows 10XVcnh
 title: Messages
 ms.assetid: 08283c2b-d44e-4d03-8a0f-f213397cb93d

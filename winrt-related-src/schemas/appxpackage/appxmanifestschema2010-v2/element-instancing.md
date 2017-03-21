@@ -1,9 +1,5 @@
 ---
-Description: Instancing
-MS-HAID: AppxManifestSchema2010\_v2.element\_Instancing
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Specifies whether the executable runs as a single instance or can run as multiple instances.
 Search.Product: eADQiWindows 10XVcnh
 title: Instancing
 ms.assetid: 26533f27-2470-4083-91a0-4e4b03f8479a

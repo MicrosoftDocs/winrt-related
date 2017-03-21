@@ -1,18 +1,14 @@
 ---
 Description: The package manifest is an XML document that contains the info the system needs to deploy, display, or update a Windows Runtime app.
-MS-HAID: AppxManifestSchema.how\_to\_specify\_device\_capabilities\_for\_hid
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
-title: How to specify device capabilities for HID (Windows Runtime apps)
+title: How to specify device capabilities for HID
 ms.assetid: 4c5c4ab6-e1d1-4631-ab8e-f0c33af8b464
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
 ---
 
-# How to specify device capabilities for HID (Windows Runtime apps)
+# How to specify device capabilities for HID
 
 
 **Note**  For Windows 10, see [What's different in Windows 10.](uapmanifestschema/what-s-changed-in-windows-10.md)

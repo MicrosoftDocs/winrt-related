@@ -1,9 +1,5 @@
 ---
-Description: DisplayName
-MS-HAID: AppxManifestSchema2010\_v2.element\_DisplayName
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: A friendly name that can be displayed to users.
 Search.Product: eADQiWindows 10XVcnh
 title: DisplayName
 ms.assetid: e5d9a0b1-73cf-4c17-90c8-1a0cb57779dd

@@ -1,9 +1,5 @@
 ---
-Description: VisualElements
-MS-HAID: AppxManifestSchema2010\_v2.element\_VisualElements
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Describes the visual aspects of the Windows Store app.
 Search.Product: eADQiWindows 10XVcnh
 title: VisualElements
 ms.assetid: f0db5141-8aba-4ac4-939f-4fe3debcc761

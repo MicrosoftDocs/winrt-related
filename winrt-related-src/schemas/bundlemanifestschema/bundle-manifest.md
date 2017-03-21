@@ -1,9 +1,5 @@
 ---
-Description: .
-MS-HAID: AppxManifestSchema.bundle\_manifest
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: The bundle manifest file is an XML document that contains a list of app packages and resource packages in the bundle.
 Search.Product: eADQiWindows 10XVcnh
 title: Bundle manifest
 ms.assetid: 42fb6c69-b278-4c67-8677-d19da91f3831

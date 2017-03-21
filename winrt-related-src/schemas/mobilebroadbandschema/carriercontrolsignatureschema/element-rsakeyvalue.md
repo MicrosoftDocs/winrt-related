@@ -1,9 +1,5 @@
 ---
-Description: RSAKeyValue
-MS-HAID: CarrierControlSignatureSchema.element\_RSAKeyValue
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines a RSA public key.
 Search.Product: eADQiWindows 10XVcnh
 title: RSAKeyValue
 ms.assetid: e44e3743-024d-4edb-8612-1fdc6bcc4289

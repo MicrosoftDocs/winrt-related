@@ -1,9 +1,5 @@
 ---
 Description: Declares an app extensibility point of type windows.appService.
-MS-HAID: UapManifestSchema.element\_uap3\_appservice\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:AppService
 ms.assetid: 1a5170ca-cd60-4102-a451-b4d9ad81a6e7

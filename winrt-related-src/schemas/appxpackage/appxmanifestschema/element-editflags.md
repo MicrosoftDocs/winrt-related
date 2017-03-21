@@ -1,9 +1,5 @@
 ---
 Description: EditFlags
-MS-HAID: AppxManifestSchema.element\_EditFlags
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: EditFlags
 ms.assetid: 0f77fddc-bb6d-4d5e-9d15-577a2e5fcfff

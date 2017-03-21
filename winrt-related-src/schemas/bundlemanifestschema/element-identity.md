@@ -1,9 +1,5 @@
 ---
-Description: Identity
-MS-HAID: BundleManifestSchema.element\_Identity
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines a globally unique identifier for a bundle.
 Search.Product: eADQiWindows 10XVcnh
 title: Identity
 ms.assetid: 45524773-3b61-44ac-a417-cfaac92af0a0

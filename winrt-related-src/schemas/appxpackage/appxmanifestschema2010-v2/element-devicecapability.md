@@ -1,9 +1,5 @@
 ---
-Description: DeviceCapability
-MS-HAID: AppxManifestSchema2010\_v2.element\_DeviceCapability
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Declares a device capability required by a package.
 Search.Product: eADQiWindows 10XVcnh
 title: DeviceCapability
 ms.assetid: 4353c4fd-f038-4986-81ed-d2ec0c6235ef

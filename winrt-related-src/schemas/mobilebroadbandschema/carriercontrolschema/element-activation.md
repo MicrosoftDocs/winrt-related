@@ -1,9 +1,5 @@
 ---
-Description: Activation
-MS-HAID: CarrierControlSchema.element\_Activation
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines information for a subscriber's activation method on a Mobile Network Operator's (MNO) network.
 Search.Product: eADQiWindows 10XVcnh
 title: Activation
 ms.assetid: d01c586b-a738-4506-a18e-a8c6475d77cd

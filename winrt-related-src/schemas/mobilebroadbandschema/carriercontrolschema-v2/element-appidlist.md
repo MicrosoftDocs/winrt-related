@@ -1,9 +1,5 @@
 ---
-Description: AppIDList
-MS-HAID: CarrierControlSchema\_v2.element\_AppIDList
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the list of applications that are part of the Packet Data Protocol (PDP) context allowed list.
 Search.Product: eADQiWindows 10XVcnh
 title: AppIDList
 ms.assetid: eec97678-f467-4df7-ae45-efd17c090a13

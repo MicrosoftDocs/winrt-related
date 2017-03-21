@@ -1,9 +1,5 @@
 ---
-Description: MobileBroadbandInfo
-MS-HAID: MBAE.element\_MobileBroadbandInfo
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines mobile broadband information required for provisioning on the mobile network.
 Search.Product: eADQiWindows 10XVcnh
 title: MobileBroadbandInfo
 ms.assetid: 4ebe0295-8b90-46ba-bc07-bfbae287c9b9

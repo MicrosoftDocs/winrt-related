@@ -1,9 +1,5 @@
 ---
-Description: Bundle manifest schema reference
-MS-HAID: BundleManifestSchema.Schema\_Root
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Provides details for each element, attribute, and data type that defines the schema for the bundle manifest for Windows Store apps.
 Search.Product: eADQiWindows 10XVcnh
 title: Bundle manifest schema reference
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c

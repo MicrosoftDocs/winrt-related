@@ -1,9 +1,5 @@
 ---
 Description: uap:SupportsAnyFileType (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_SupportsAnyFileType
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:SupportsAnyFileType (Windows 10)
 ms.assetid: 3dbbeaac-2578-472b-80d2-f0bd0b9ead7e

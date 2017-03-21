@@ -1,9 +1,5 @@
 ---
-Description: VisualElementsChoice
-MS-HAID: AppxManifestSchema2010\_v2.element\_VisualElementsChoice
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: The abstract visual elements choice element for the XSD substitution group.
 Search.Product: eADQiWindows 10XVcnh
 title: VisualElementsChoice
 ms.assetid: 96a1b427-844d-4523-9e5a-5f67f80b059c

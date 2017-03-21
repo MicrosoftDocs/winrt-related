@@ -1,9 +1,5 @@
 ---
-Description: SSID
-MS-HAID: WLAN.element\_SSID
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains the SSID for a WLAN.
 Search.Product: eADQiWindows 10XVcnh
 title: SSID
 ms.assetid: 0773526f-0046-4e2c-8972-53872dd76a83

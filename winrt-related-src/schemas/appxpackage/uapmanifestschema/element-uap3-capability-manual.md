@@ -1,9 +1,5 @@
 ---
 Description: Declares a capability required by a package.
-MS-HAID: UapManifestSchema.element\_uap3\_capability\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:Capability (Windows 10)
 ms.assetid: 1a5d687b-4e1f-479a-a24e-eeda24afc560

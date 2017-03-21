@@ -1,9 +1,5 @@
 ---
 Description: ResourcePackage (Windows 10)
-MS-HAID: UapManifestSchema.element\_ResourcePackage
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: ResourcePackage (Windows 10)
 ms.assetid: 51cabad7-a2eb-4fa3-ab52-59298555aefb
@@ -83,7 +79,7 @@ None.
 
 If **ResourcePackage** is set to **true**, the manifest performs these semantic checks, which aren't enforced in the schema. A manifest that violates these semantic checks will just fail to validate via the [Packaging APIs](https://msdn.microsoft.com/library/windows/desktop/hh446766).
 
--   A resource package can't define the [**Dependencies**](element-dependencies.md), [**Capabilities**](element-capabilities.md), [**Applications**](element-applications.md), [**Extensions (type: CT\_PackageExtensions)**](element-extensions.md), and [**Framework**](element-framework.md) elements.
+-   A resource package can't define the [**Dependencies**](element-dependencies.md), [**Capabilities**](element-capabilities.md), [**Applications**](element-applications.md), [**Extensions (type: CT_PackageExtensions)**](element-extensions.md), and [**Framework**](element-framework.md) elements.
 -   A resource package can't define [**Package\\Identity\\@ProcessorArchitecture**](element-identity.md), so it always defaults to **neutral**.
 -   [**Resources\\Resource**](element-resource.md) elements for a resource package can only define one type of attribute, for example, only **Language** or **Scale**.
 

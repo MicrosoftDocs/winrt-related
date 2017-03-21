@@ -1,18 +1,14 @@
 ---
-Description: 'Extension (type: CT\_ApplicationExtension)'
-MS-HAID: AppxManifestSchema2010\_v2.element\_Extension
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Declares an extensibility point for the app.
 Search.Product: eADQiWindows 10XVcnh
-title: 'Extension (type: CT\_ApplicationExtension)'
+title: 'Extension (type: CT_ApplicationExtension)'
 ms.assetid: 72f0d1ae-15a4-4eba-a3ca-990f4de2b697
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
 ---
 
-# Extension (type: CT\_ApplicationExtension)
+# Extension (type: CT_ApplicationExtension)
 
 
 Declares an extensibility point for the app.
@@ -189,7 +185,7 @@ This outermost (document) element may not be contained by any other elements.
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[Extension (in type: CT\_PackageExtensions)](element-1-extension.md)**
+-   **[Extension (in type: CT_PackageExtensions)](element-1-extension.md)**
 
 ## Remarks
 

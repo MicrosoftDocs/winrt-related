@@ -1,9 +1,5 @@
 ---
 Description: pm:PhoneIdentity (Windows 10)
-MS-HAID: UapManifestSchema.element\_pm\_PhoneIdentity
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: pm:PhoneIdentity (Windows 10)
 ms.assetid: 817d5865-3838-4554-b751-2af09d84c8ad

@@ -1,9 +1,5 @@
 ---
 Description: Extension (in Application/Extensions) (Windows 10)
-MS-HAID: UapManifestSchema.element\_1\_Extension
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Extension (in Application/Extensions) (Windows 10)
 ms.assetid: e25d664a-67e8-4a22-a666-1b11286b58f3
@@ -188,7 +184,7 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[Extension (in type: CT\_PackageExtensions)](element-extension.md)**
+-   **[Extension (in type: CT_PackageExtensions)](element-extension.md)**
 
 ## Remarks
 

@@ -1,9 +1,5 @@
 ---
 Description: Function (Windows 10)
-MS-HAID: UapManifestSchema.element\_Function
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Function (Windows 10)
 ms.assetid: d53133f1-6017-4c20-bbff-f2370c5fc39d

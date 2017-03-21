@@ -1,9 +1,5 @@
 ---
-Description: Resources
-MS-HAID: AppxManifestSchema2010\_v2.element\_Resources
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Declares languages for the resources that the package contains.
 Search.Product: eADQiWindows 10XVcnh
 title: Resources
 ms.assetid: 45ce3dac-3888-452b-bc10-8775b158637a

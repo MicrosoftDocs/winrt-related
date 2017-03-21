@@ -1,9 +1,5 @@
 ---
-Description: Description
-MS-HAID: WWAN.element\_1\_Description
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines a brief description of the profile.
 Search.Product: eADQiWindows 10XVcnh
 title: Description
 ms.assetid: aeed21e9-1fdd-458b-9e2d-46cbc545669e

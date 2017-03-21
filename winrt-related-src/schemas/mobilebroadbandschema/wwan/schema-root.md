@@ -1,4 +1,6 @@
 ---
+title: WWAN Schema
+description: The WWAN schema defines elements that are used to describe a subscriber's connection to a Wireless Wide Area Network (WWAN).
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
 author: mcleblanc
 ms.author: markl

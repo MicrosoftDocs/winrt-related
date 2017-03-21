@@ -1,9 +1,5 @@
 ---
 Description: Description (Windows 10)
-MS-HAID: UapManifestSchema.element\_Description
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Description (Windows 10)
 ms.assetid: e113111a-1d9b-4d04-bd86-86beece204dd

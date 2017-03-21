@@ -1,9 +1,5 @@
 ---
 Description: Task
-MS-HAID: AppxManifestSchema.element\_Task
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Task
 ms.assetid: 4662ec1d-c245-4c60-b966-e27d5ce0699d

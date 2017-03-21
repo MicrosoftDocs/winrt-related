@@ -1,15 +1,11 @@
 ---
 Description: PreinstallOptOut
-MS-HAID: StoreManifest.element\_PreinstallOptOut
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: PreinstallOptOut
 ms.assetid: c8cd557c-89a3-4a48-b671-f997501ceb59
 author: laurenhughes
 ms.author: lahugh
-windows 10, uwp, schema, storemanifest
+keywords: windows 10, uwp, schema, storemanifest
 ---
 
 # PreinstallOptOut

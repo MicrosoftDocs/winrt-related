@@ -1,9 +1,5 @@
 ---
-Description: Seed
-MS-HAID: CarrierControlSignatureSchema.element\_Seed
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines a Digital Signature Algorithm (DSA) prime generation seed.
 Search.Product: eADQiWindows 10XVcnh
 title: Seed
 ms.assetid: b9277170-5139-4447-880d-568933ff1921

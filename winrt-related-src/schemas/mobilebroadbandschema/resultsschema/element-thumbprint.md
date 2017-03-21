@@ -1,9 +1,5 @@
 ---
-Description: Thumbprint
-MS-HAID: ResultsSchema.element\_Thumbprint
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains the SignatureValue element of the Signature from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: Thumbprint
 ms.assetid: 846b806e-25e7-4db8-85c9-895f729474e0

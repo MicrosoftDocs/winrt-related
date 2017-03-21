@@ -1,9 +1,5 @@
 ---
 Description: InProcessServer (Windows 10)
-MS-HAID: UapManifestSchema.element\_InProcessServer
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: InProcessServer (Windows 10)
 ms.assetid: 47e3c888-76eb-4d12-977c-ebd947a2b63c

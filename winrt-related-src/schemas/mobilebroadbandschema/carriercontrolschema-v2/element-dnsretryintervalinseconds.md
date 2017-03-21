@@ -1,9 +1,5 @@
 ---
-Description: DNSRetryIntervalInSeconds
-MS-HAID: CarrierControlSchema\_v2.element\_DNSRetryIntervalInSeconds
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the DNS retry interval in seconds. 
 Search.Product: eADQiWindows 10XVcnh
 title: DNSRetryIntervalInSeconds
 ms.assetid: 0240b016-78a5-4512-8c26-9bc3713a2e59

@@ -1,9 +1,5 @@
 ---
 Description: Declares an app extensibility point of type windows.contactDataProvider.
-MS-HAID: UapManifestSchema.element\_uap3\_contactdataprovider\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:ContactDataProvider
 ms.assetid: 8ae46d6c-d198-4472-9533-e99999cfe5ca

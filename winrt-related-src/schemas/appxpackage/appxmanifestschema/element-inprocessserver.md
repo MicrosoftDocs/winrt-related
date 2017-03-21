@@ -1,9 +1,5 @@
 ---
 Description: InProcessServer
-MS-HAID: AppxManifestSchema.element\_InProcessServer
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: InProcessServer
 ms.assetid: 47e3c888-76eb-4d12-977c-ebd947a2b63c

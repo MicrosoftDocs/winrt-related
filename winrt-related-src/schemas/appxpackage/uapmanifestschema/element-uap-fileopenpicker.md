@@ -1,9 +1,5 @@
 ---
 Description: uap:FileOpenPicker (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_FileOpenPicker
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:FileOpenPicker (Windows 10)
 ms.assetid: bb3c01d7-e83a-475f-bd5b-d338098b1f29

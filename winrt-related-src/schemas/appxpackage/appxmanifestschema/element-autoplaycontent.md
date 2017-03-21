@@ -1,9 +1,5 @@
 ---
 Description: AutoPlayContent
-MS-HAID: AppxManifestSchema.element\_AutoPlayContent
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: AutoPlayContent
 ms.assetid: 35cf3998-2a45-4ecc-91a5-13d328b0b649

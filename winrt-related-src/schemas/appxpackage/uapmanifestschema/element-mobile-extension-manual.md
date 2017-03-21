@@ -1,9 +1,5 @@
 ---
 Description: Declares an extensibility point for the app.
-MS-HAID: UapManifestSchema.element\_mobile\_extension\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: mobile:Extension (Windows 10)
 ms.assetid: 0f9f4bee-3a63-4383-86db-a555ca4ccad6
@@ -153,7 +149,7 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 
 | Parent Element                                                               | Description                                           |
 |------------------------------------------------------------------------------|-------------------------------------------------------|
-| [**Extensions (type: CT\_ApplicationExtensions)**](element-1-extensions.md) | Defines one or more extensibility points for the app. |
+| [**Extensions (type: CT_ApplicationExtensions)**](element-1-extensions.md) | Defines one or more extensibility points for the app. |
 
  
 

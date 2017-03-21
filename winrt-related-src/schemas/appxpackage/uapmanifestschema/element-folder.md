@@ -1,9 +1,5 @@
 ---
 Description: Folder (Windows 10)
-MS-HAID: UapManifestSchema.element\_Folder
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Folder (Windows 10)
 ms.assetid: b412b98e-130a-4152-a264-49a42ef2d97c

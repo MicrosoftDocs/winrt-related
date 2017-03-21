@@ -1,9 +1,5 @@
 ---
 Description: Package (Windows 10)
-MS-HAID: UapManifestSchema.element\_Package
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Package (Windows 10)
 ms.assetid: ea0f5af0-8191-4ce0-9594-c647f800bd53

@@ -1,18 +1,14 @@
 ---
-Description: uap:FileType (in uap:FileTypeAssociation/uap:SupportedFileTypes) (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_FileType
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: uap:FileType (in uap:FileTypeAssociation/uap:SupportedFileTypes)
 Search.Product: eADQiWindows 10XVcnh
-title: uap:FileType (in uap:FileTypeAssociation/uap:SupportedFileTypes) (Windows 10)
+title: uap:FileType (in uap:FileTypeAssociation/uap:SupportedFileTypes)
 ms.assetid: 9a872ee1-03fa-48f0-bc13-e35c7a22820e
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
 ---
 
-# uap:FileType (in uap:FileTypeAssociation/uap:SupportedFileTypes) (Windows 10)
+# uap:FileType (in uap:FileTypeAssociation/uap:SupportedFileTypes) 
 
 
 A supported file type specified as its file type extension.
@@ -135,7 +131,7 @@ None.
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[uap:FileType (type: ST\_FileType)](element-1-uap-filetype.md)**
+-   **[uap:FileType (type: ST_FileType)](element-1-uap-filetype.md)**
 
 ## Requirements
 

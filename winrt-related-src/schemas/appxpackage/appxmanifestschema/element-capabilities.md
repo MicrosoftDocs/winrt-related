@@ -1,9 +1,5 @@
 ---
 Description: Capabilities
-MS-HAID: AppxManifestSchema.element\_Capabilities
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Capabilities
 ms.assetid: 508b9a46-3dd4-4bce-875b-fb7cadadceb1

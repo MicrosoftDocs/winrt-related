@@ -1,9 +1,5 @@
 ---
-Description: Password
-MS-HAID: CarrierControlSchema\_v2.element\_1\_Password
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the password used for the Packet Data Protocol (PDP) context activation.
 Search.Product: eADQiWindows 10XVcnh
 title: Password
 ms.assetid: b42762fe-7cc5-485c-8b91-ebe7bc1d6104

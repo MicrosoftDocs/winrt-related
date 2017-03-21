@@ -1,4 +1,6 @@
 ---
+title: DUSM schema
+description: The Data Usage Subscription Management (DUSM) schema defines elements that are used to describe cost information for a subscriber's connection to a metered network.
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
 author: mcleblanc
 ms.author: markl

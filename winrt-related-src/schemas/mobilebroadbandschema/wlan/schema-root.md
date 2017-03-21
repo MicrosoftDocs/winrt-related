@@ -1,4 +1,6 @@
 ---
+title: WLAN schema
+description: The WLAN schema defines elements that are used to describe a subscriber's connection to a Wireless Local Area Network (WLAN).
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
 author: mcleblanc
 ms.author: markl

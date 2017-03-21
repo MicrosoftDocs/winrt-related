@@ -1,9 +1,5 @@
 ---
-Description: CUSTOM
-MS-HAID: CarrierControlSchema\_v2.element\_CUSTOM
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines a custom protocol used for mobile network data.
 Search.Product: eADQiWindows 10XVcnh
 title: CUSTOM
 ms.assetid: ad0d78aa-4b2d-429f-baae-f72e9c921bba

@@ -1,9 +1,5 @@
 ---
 Description: PublisherDisplayName (Windows 10)
-MS-HAID: UapManifestSchema.element\_PublisherDisplayName
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: PublisherDisplayName (Windows 10)
 ms.assetid: 8df2d218-e62d-4b2e-8db5-3436c67aa04c

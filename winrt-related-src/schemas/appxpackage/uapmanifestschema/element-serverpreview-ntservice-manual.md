@@ -1,9 +1,5 @@
 ---
 Description: Identifies an NT Service to install, update, or uninstall on Nano Server.
-MS-HAID: UapManifestSchema.element\_serverpreview\_ntservice\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:NTService
 ms.assetid: 4ce23453-fffb-47a0-aa32-8d2b900de356

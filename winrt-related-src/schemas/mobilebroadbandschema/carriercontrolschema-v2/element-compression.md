@@ -1,9 +1,5 @@
 ---
-Description: Compression
-MS-HAID: CarrierControlSchema\_v2.element\_Compression
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines whether compression is enabled for a context in the Packet Data Protocol (PDP) context policy.
 Search.Product: eADQiWindows 10XVcnh
 title: Compression
 ms.assetid: 7ef80c21-07a1-46d7-b6fe-e276fde61e39

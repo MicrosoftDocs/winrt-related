@@ -1,9 +1,5 @@
 ---
-Description: SSIDPrefix
-MS-HAID: WLAN\_v2.element\_SSIDPrefix
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains the SSIDPrefix for a WLAN.
 Search.Product: eADQiWindows 10XVcnh
 title: SSIDPrefix
 ms.assetid: 04783397-4119-4fcf-955f-5110cbb47d90

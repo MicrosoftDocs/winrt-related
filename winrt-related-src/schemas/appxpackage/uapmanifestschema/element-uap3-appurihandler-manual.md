@@ -1,9 +1,5 @@
 ---
 Description: Declares an app extensibility point of type windows.appUriHandler.
-MS-HAID: UapManifestSchema.element\_uap3\_appurihandler\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:AppUriHandler
 ms.assetid: 3ec18f36-df44-46c1-ae8f-721c77e715d5

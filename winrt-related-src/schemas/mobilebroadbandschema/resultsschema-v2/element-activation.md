@@ -1,9 +1,6 @@
 ---
-Description: Activation
-MS-HAID: ResultsSchema\_v2.element\_Activation
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains any errors from processing the Activation element from the last provisioning attempt.
+
 Search.Product: eADQiWindows 10XVcnh
 title: Activation
 ms.assetid: d01c586b-a738-4506-a18e-a8c6475d77cd

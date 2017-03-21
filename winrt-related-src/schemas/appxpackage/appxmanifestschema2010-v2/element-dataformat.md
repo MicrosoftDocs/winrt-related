@@ -1,9 +1,5 @@
 ---
-Description: DataFormat
-MS-HAID: AppxManifestSchema2010\_v2.element\_DataFormat
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Specifies a data package format such as text or HTML format that the app can share. 
 Search.Product: eADQiWindows 10XVcnh
 title: DataFormat
 ms.assetid: a9aa181e-236d-4d33-adcd-54ec8e656891

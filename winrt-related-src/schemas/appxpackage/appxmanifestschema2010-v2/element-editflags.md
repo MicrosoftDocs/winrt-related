@@ -1,9 +1,5 @@
 ---
-Description: EditFlags
-MS-HAID: AppxManifestSchema2010\_v2.element\_EditFlags
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Specifies the type of info the user sees when opening a file associated to the extensibility point.
 Search.Product: eADQiWindows 10XVcnh
 title: EditFlags
 ms.assetid: 0f77fddc-bb6d-4d5e-9d15-577a2e5fcfff

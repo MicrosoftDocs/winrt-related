@@ -1,9 +1,5 @@
 ---
 Description: Identifies an event tracing extension to add to the server-specific app extensions.
-MS-HAID: UapManifestSchema.element\_serverpreview\_eventprovider\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:EventProvider
 ms.assetid: 7992570a-0250-49e8-9f9a-5196028e262e

@@ -1,9 +1,5 @@
 ---
 Description: InitialRotationPreference
-MS-HAID: AppxManifestSchema.element\_InitialRotationPreference
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: InitialRotationPreference
 ms.assetid: 0f03085b-0bbc-4e1c-adda-565bb6287b15

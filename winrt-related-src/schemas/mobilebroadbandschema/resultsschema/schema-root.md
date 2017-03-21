@@ -1,9 +1,5 @@
 ---
 Description: The ResultsSchema schema defines elements that are returned from a call to ProvisionResultsXml and describe the results of the last provisioning attempt.
-MS-HAID: ResultsSchema.Schema\_Root
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: ResultsSchema schema
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c

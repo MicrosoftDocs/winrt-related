@@ -1,9 +1,5 @@
 ---
 Description: FileSavePicker
-MS-HAID: AppxManifestSchema.element\_FileSavePicker
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: FileSavePicker
 ms.assetid: c2d3002e-69e1-479c-a0ec-9facf5bc7142

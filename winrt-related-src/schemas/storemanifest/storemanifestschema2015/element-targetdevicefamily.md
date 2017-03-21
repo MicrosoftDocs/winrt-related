@@ -1,15 +1,11 @@
 ---
-Description: TargetDeviceFamily
-MS-HAID: StoreManifestSchema2015.element\_TargetDeviceFamily
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Identifies the device family that your package targets.
 Search.Product: eADQiWindows 10XVcnh
 title: TargetDeviceFamily
 ms.assetid: 457745aa-bc12-427b-b1f1-74c1618753c0
 author: laurenhughes
 ms.author: lahugh
-windows 10, uwp, schema, storemanifest
+keywords: windows 10, uwp, schema, storemanifest
 ---
 
 # TargetDeviceFamily

@@ -1,9 +1,5 @@
 ---
 Description: Protocol
-MS-HAID: AppxManifestSchema.element\_Protocol
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Protocol
 ms.assetid: ac911c85-02eb-408c-8c4b-24a4e172df8b

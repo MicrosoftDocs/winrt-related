@@ -1,9 +1,5 @@
 ---
-Description: Context
-MS-HAID: WWAN.element\_1\_Context
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the parameters required to setup a data connection.
 Search.Product: eADQiWindows 10XVcnh
 title: Context
 ms.assetid: bb7c7c66-bd2c-40ca-87e4-c984f8c3911a

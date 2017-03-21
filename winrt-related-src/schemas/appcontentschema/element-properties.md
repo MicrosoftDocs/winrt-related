@@ -1,9 +1,5 @@
 ---
-Description: Properties
-MS-HAID: appcontentms.element\_Properties
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains properties that describe the item to the Windows Search Index.
 Search.Product: eADQiWindows 10XVcnh
 title: Properties
 ms.assetid: accc712c-c7b9-45e1-ba02-836abacbd9b5

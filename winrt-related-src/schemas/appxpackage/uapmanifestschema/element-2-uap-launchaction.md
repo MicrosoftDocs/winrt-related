@@ -1,18 +1,14 @@
 ---
-Description: uap:LaunchAction (in AppointmentsProviderLaunchActions) (Windows 10)
-MS-HAID: UapManifestSchema.element\_2\_uap\_LaunchAction
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Describes an uap:AppointmentsProviderLaunchActions content action.
 Search.Product: eADQiWindows 10XVcnh
-title: uap:LaunchAction (in AppointmentsProviderLaunchActions) (Windows 10)
+title: uap:LaunchAction (in AppointmentsProviderLaunchActions)
 ms.assetid: 1058a98d-10a0-4ce2-8b10-84d5c8fb9da6
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
 ---
 
-# uap:LaunchAction (in AppointmentsProviderLaunchActions) (Windows 10)
+# uap:LaunchAction (in AppointmentsProviderLaunchActions)
 
 
 Describes an [**uap:AppointmentsProviderLaunchActions**](element-uap-appointmentsproviderlaunchactions.md) content action.
@@ -195,8 +191,8 @@ None.
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[uap:LaunchAction (in type: CT\_AutoPlayContent)](element-uap-launchaction.md)**
--   **[uap:LaunchAction (in type: CT\_AutoPlayDevice)](element-1-uap-launchaction.md)**
+-   **[uap:LaunchAction (in type: CT_AutoPlayContent)](element-uap-launchaction.md)**
+-   **[uap:LaunchAction (in type: CT_AutoPlayDevice)](element-1-uap-launchaction.md)**
 
 ## Remarks
 

@@ -1,9 +1,5 @@
 ---
-Description: NetworkSettings
-MS-HAID: CarrierControlSchema\_v2.element\_NetworkSettings
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the network settings in a subscriber's carrier provisioning file.
 Search.Product: eADQiWindows 10XVcnh
 title: NetworkSettings
 ms.assetid: 82e8282b-5405-4fcf-b835-83fe6ec9a460

@@ -1,9 +1,5 @@
 ---
-Description: DataClassFriendlyNames
-MS-HAID: ResultsSchema\_v2.element\_DataClassFriendlyNames
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains any errors from processing the DataClassFriendlyNames element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: DataClassFriendlyNames
 ms.assetid: 14e6fa1b-991e-4420-a675-52f4c120f5e4

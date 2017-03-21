@@ -1,9 +1,5 @@
 ---
-Description: Provider
-MS-HAID: WWAN.element\_Provider
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the name and provider ID of a cellular network.
 Search.Product: eADQiWindows 10XVcnh
 title: Provider
 ms.assetid: a701c4dd-967f-4f03-ada4-d34059f5a1e4

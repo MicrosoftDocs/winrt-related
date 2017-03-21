@@ -1,9 +1,5 @@
 ---
 Description: Rule
-MS-HAID: AppxManifestSchema.element\_Rule
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Rule
 ms.assetid: c78c8c62-df95-4202-b3f0-75ddbb7e0e46

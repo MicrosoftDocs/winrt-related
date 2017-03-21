@@ -1,9 +1,5 @@
 ---
 Description: uap:Url (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_Url
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:Url (Windows 10)
 ms.assetid: d552c065-2697-49d0-936e-f93dca38caad

@@ -1,9 +1,5 @@
 ---
 Description: Declares an extensibility point for the app.
-MS-HAID: UapManifestSchema.element\_rescap2\_extension\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: rescap2:Extension (Windows 10)
 ms.assetid: 067b6b25-2d89-42b1-845c-605ac00963b7
@@ -158,7 +154,7 @@ None.
 
 | Parent Element                                                               | Description                                           |
 |------------------------------------------------------------------------------|-------------------------------------------------------|
-| [**Extensions (type: CT\_ApplicationExtensions)**](element-1-extensions.md) | Defines one or more extensibility points for the app. |
+| [**Extensions (type: CT_ApplicationExtensions)**](element-1-extensions.md) | Defines one or more extensibility points for the app. |
 
  
 

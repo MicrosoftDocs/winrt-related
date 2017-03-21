@@ -1,9 +1,5 @@
 ---
-Description: BlockMap
-MS-HAID: BlockMapSchema.element\_BlockMap
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the root element of the app package block map.
 Search.Product: eADQiWindows 10XVcnh
 title: BlockMap
 ms.assetid: 75eed334-6c80-4eb3-8776-fc34d7aa5357

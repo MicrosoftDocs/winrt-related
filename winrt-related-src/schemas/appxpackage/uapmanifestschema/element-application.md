@@ -1,9 +1,5 @@
 ---
 Description: Application (Windows 10)
-MS-HAID: UapManifestSchema.element\_Application
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Application (Windows 10)
 ms.assetid: 39221d13-bb46-42ac-be51-117357cade81

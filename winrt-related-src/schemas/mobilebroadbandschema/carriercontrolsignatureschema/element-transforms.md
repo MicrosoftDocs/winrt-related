@@ -1,9 +1,5 @@
 ---
-Description: Transforms
-MS-HAID: CarrierControlSignatureSchema.element\_Transforms
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines a an ordered list of transforms applied to the digested data object.
 Search.Product: eADQiWindows 10XVcnh
 title: Transforms
 ms.assetid: c2c86501-4b16-4941-af8d-94b2c00c45ae

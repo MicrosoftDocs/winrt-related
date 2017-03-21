@@ -1,9 +1,5 @@
 ---
 Description: uap:Protocol (Windows 10)
-MS-HAID: UapManifestSchema.element\_uap\_Protocol
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: uap:Protocol (Windows 10)
 ms.assetid: b92c542e-d4a4-4d6d-8a1b-257c4a43aecc

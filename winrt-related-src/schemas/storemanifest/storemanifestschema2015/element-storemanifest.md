@@ -1,15 +1,11 @@
 ---
-Description: StoreManifest
-MS-HAID: StoreManifestSchema2015.element\_StoreManifest
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: StoreManifest schema for Windows 10
 Search.Product: eADQiWindows 10XVcnh
 title: StoreManifest
 ms.assetid: 01d2ebcb-9da0-4bcc-9eb4-c284810f894b
 author: laurenhughes
 ms.author: lahugh
-windows 10, uwp, schema, storemanifest
+keywords: windows 10, uwp, schema, storemanifest
 ---
 
 # StoreManifest

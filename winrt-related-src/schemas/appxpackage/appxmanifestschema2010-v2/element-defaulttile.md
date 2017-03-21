@@ -1,9 +1,5 @@
 ---
-Description: DefaultTile
-MS-HAID: AppxManifestSchema2010\_v2.element\_DefaultTile
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: The default tile that represents the app on the Start screen. 
 Search.Product: eADQiWindows 10XVcnh
 title: DefaultTile
 ms.assetid: 262b48ae-ca25-4fed-adad-df1bb8924c9d

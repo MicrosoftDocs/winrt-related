@@ -1,9 +1,5 @@
 ---
 Description: Identifies a Windows Management Instrumentation (WMI) provider to install, update, or uninstall out-of-band on Nano Server.
-MS-HAID: UapManifestSchema.element\_serverpreview\_wmiprovider\_manual
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:WmiProvider
 ms.assetid: 9268ed23-e619-4316-8a13-a13462e27479

@@ -1,9 +1,5 @@
 ---
-Description: Properties
-MS-HAID: AppxManifestSchema2010\_v2.element\_Properties
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines additional metadata about the package including attributes that describe how the package appears to users.
 Search.Product: eADQiWindows 10XVcnh
 title: Properties
 ms.assetid: accc712c-c7b9-45e1-ba02-836abacbd9b5

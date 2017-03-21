@@ -1,9 +1,5 @@
 ---
-Description: AssociatedPlan
-MS-HAID: WWAN.element\_AssociatedPlan
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains the name of the subscriber's data plan.
 Search.Product: eADQiWindows 10XVcnh
 title: AssociatedPlan
 ms.assetid: fdfc0657-a653-4fed-b0ae-b60e94af03ee

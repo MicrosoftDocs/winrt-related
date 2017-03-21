@@ -1,9 +1,5 @@
 ---
 Description: Path (in InProcessServer) (Windows 10)
-MS-HAID: UapManifestSchema.element\_Path
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
 Search.Product: eADQiWindows 10XVcnh
 title: Path (in InProcessServer) (Windows 10)
 ms.assetid: 337dd035-774d-40fb-8da1-7af11dbb4a35
@@ -96,7 +92,7 @@ None.
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[Path (type: ST\_Executable)](element-1-path.md)**
+-   **[Path (type: ST_Executable)](element-1-path.md)**
 
 ## Examples
 

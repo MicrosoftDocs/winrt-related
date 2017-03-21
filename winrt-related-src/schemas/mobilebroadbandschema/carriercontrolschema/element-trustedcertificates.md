@@ -1,9 +1,5 @@
 ---
-Description: TrustedCertificates
-MS-HAID: CarrierControlSchema.element\_TrustedCertificates
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines a list of X.509 certificates whose signatures should be trusted on future provisioning files.
 Search.Product: eADQiWindows 10XVcnh
 title: TrustedCertificates
 ms.assetid: 26d8eb7c-6059-4e7a-9d07-8ad5054385e3

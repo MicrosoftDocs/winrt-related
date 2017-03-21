@@ -1,9 +1,5 @@
 ---
-Description: TetheringProfile
-MS-HAID: ResultsSchema\_v2.element\_TetheringProfile
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Contains any errors from processing a TetheringProfile element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: TetheringProfile
 ms.assetid: fa2708f2-2200-46ac-b6cd-97d1a51cc867

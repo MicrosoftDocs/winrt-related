@@ -1,18 +1,14 @@
 ---
-Description: 'LaunchAction (in type: CT\_AutoPlayDevice)'
-MS-HAID: AppxManifestSchema.element\_1\_LaunchAction
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: 'LaunchAction (in type: CT_AutoPlayDevice)'
 Search.Product: eADQiWindows 10XVcnh
-title: 'LaunchAction (in type: CT\_AutoPlayDevice)'
+title: 'LaunchAction (in type: CT_AutoPlayDevice)'
 ms.assetid: 074c2f73-dcdd-4660-9d70-5bcee7b63199
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
 ---
 
-# LaunchAction (in type: CT\_AutoPlayDevice)
+# LaunchAction (in type: CT_AutoPlayDevice)
 
 
 Describes an AutoPlay device action.
@@ -139,7 +135,7 @@ None.
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[LaunchAction (in type: CT\_AutoPlayContent)](element-launchaction.md)**
+-   **[LaunchAction (in type: CT_AutoPlayContent)](element-launchaction.md)**
 
 ## Remarks
 

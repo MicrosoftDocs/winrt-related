@@ -1,9 +1,5 @@
 ---
-Description: name (in SSIDPrefix)
-MS-HAID: WLAN\_v2.element\_1\_name
-MSHAttr:
-- PreferredSiteName:MSDN
-- PreferredLib:/library/windows/apps
+Description: Defines the SSIDPrefix of a wireless LAN in alphanumeric format.
 Search.Product: eADQiWindows 10XVcnh
 title: name (in SSIDPrefix)
 ms.assetid: 9eab41c7-29ff-42aa-9647-f18ff72b3faf
