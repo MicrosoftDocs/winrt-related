@@ -3,10 +3,10 @@ title: Windows Universal Platform SDK API contracts
 description: Lists all of the API contracts in the Windows Universal Platform SDK.
 ms.assetid: 98FDBBB3-79DA-46F8-895D-1219D6C0858E
 ms.author: twhitney
-ms.date: 03/29/2017
-ms.topic: article
 ms.prod: windows
-ms.technology: uwp
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 keywords: windows 10, uwp, universal sdk, extension contract
 ---
 # Windows Universal Platform SDK API contracts

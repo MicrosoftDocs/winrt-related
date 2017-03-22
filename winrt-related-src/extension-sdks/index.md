@@ -3,10 +3,10 @@ title: Extension SDKs and API contracts
 description: Lists the extension SDKs and their versions, with links to topics that list the API contracts associated with each extension SDK.
 ms.assetid: 9C4F57CB-6E45-4B42-9852-67B0EFB63450
 ms.author: twhitney
-ms.date: 03/20/2017
-ms.topic: article
 ms.prod: windows
-ms.technology: uwp
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 keywords: windows 10, uwp, extension sdk
 ---
 

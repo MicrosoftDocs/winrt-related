@@ -3,10 +3,10 @@ title: Windows IoT Extension SDK API contracts for UWP
 description: Lists all of the API contracts within the Windows Internet of Things Extension SDK for the Universal Windows Platform.
 ms.assetid: 4d70dc2e-060a-4105-bce5-ec5c27171fce
 ms.author: twhitney
-ms.date: 03/29/2017
-ms.topic: article
 ms.prod: windows
-ms.technology: uwp
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 keywords: windows 10, uwp, iot extension sdk, api contract
 ---
 # Windows IoT Extension SDK API contracts for UWP
