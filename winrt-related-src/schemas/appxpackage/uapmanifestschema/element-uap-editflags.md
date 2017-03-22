@@ -1,11 +1,15 @@
 ---
-Description: uap:EditFlags (Windows 10)
+Description: Specifies the type of info the user sees when opening a file associated to the extensibility point.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:EditFlags (Windows 10)
 ms.assetid: 5a16f6d9-bdfb-4618-b7dc-7f9aa5807a13
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # uap:EditFlags (Windows 10)

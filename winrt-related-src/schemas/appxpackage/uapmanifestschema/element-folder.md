@@ -1,11 +1,15 @@
 ---
-Description: Folder (Windows 10)
+Description: Specifies a folder that the package shares with other packages from the same publisher.
 Search.Product: eADQiWindows 10XVcnh
 title: Folder (Windows 10)
 ms.assetid: b412b98e-130a-4152-a264-49a42ef2d97c
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # Folder (Windows 10)

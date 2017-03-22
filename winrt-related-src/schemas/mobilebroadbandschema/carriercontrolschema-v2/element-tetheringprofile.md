@@ -6,6 +6,10 @@ ms.assetid: fa2708f2-2200-46ac-b6cd-97d1a51cc867
 author: mcleblanc
 ms.author: markl
 keywords: windows 10, uwp, schema, mobile broadband schema
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # TetheringProfile

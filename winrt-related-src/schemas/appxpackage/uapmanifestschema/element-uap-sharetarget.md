@@ -1,11 +1,15 @@
 ---
-Description: uap:ShareTarget (Windows 10)
+Description: Declares an app extension point of type windows.shareTarget.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:ShareTarget (Windows 10)
 ms.assetid: 92622f42-dfef-4fd2-a42d-73d4ac47357c
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # uap:ShareTarget (Windows 10)

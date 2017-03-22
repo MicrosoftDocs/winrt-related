@@ -1,14 +1,18 @@
 ---
-Description: 'Extension (in type: CT_PackageExtensions)'
+Description: Declares an extensibility point for the package.
 Search.Product: eADQiWindows 10XVcnh
-title: 'Extension (in type: CT_PackageExtensions)'
+title: 'Extension (in type: CT\_PackageExtensions)'
 ms.assetid: e25d664a-67e8-4a22-a666-1b11286b58f3
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
-# Extension (in type: CT_PackageExtensions)
+# Extension (in type: CT\_PackageExtensions)
 
 
 
@@ -146,7 +150,7 @@ Declares an extensibility point for the package.
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[Extension (type: CT_ApplicationExtension)](element-extension.md)**
+-   **[Extension (type: CT\_ApplicationExtension)](element-extension.md)**
 
 ## Remarks
 

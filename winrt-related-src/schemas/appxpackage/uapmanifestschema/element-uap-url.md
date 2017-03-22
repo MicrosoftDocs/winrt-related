@@ -1,11 +1,15 @@
 ---
-Description: uap:Url (Windows 10)
+Description: Specifies a URL to which a plugin may send cookies. 
 Search.Product: eADQiWindows 10XVcnh
 title: uap:Url (Windows 10)
 ms.assetid: d552c065-2697-49d0-936e-f93dca38caad
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # uap:Url (Windows 10)

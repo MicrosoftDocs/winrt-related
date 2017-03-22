@@ -1,11 +1,15 @@
 ---
-Description: TargetDeviceFamily (Windows 10)
+Description: Identifies the device family that your package targets. 
 Search.Product: eADQiWindows 10XVcnh
 title: TargetDeviceFamily (Windows 10)
 ms.assetid: 457745aa-bc12-427b-b1f1-74c1618753c0
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # TargetDeviceFamily (Windows 10)

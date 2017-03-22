@@ -1,11 +1,15 @@
 ---
-Description: Specifies a set of parameters to configure for the service. These parameters correspond to registry values that are created under the HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\ServiceName\\Parameters key.
+Description: Specifies a set of parameters to configure for the service.
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:ServiceParameters
 ms.assetid: 321cca00-b107-4109-9187-c712f2621aae
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # serverpreview:ServiceParameters

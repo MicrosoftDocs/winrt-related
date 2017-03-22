@@ -6,6 +6,10 @@ ms.assetid: c8cd557c-89a3-4a48-b671-f997501ceb59
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, storemanifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # PreinstallOptOut

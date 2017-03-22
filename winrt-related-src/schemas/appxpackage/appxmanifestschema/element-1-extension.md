@@ -6,6 +6,10 @@ ms.assetid: e25d664a-67e8-4a22-a666-1b11286b58f3
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # Extension (in type: CT_ApplicationExtensions)

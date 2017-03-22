@@ -1,11 +1,15 @@
 ---
-Description: uap:LockScreen (Windows 10)
+Description: Defines the badge and notifications that represent the app on the lock screen, which is shown when the system is locked.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:LockScreen (Windows 10)
 ms.assetid: 65e0cc4e-af42-4852-a9ca-ee09a5fee5f2
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # uap:LockScreen (Windows 10)

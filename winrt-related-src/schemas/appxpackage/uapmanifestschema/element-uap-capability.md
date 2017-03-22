@@ -1,11 +1,15 @@
 ---
-Description: uap:Capability (Windows 10)
+Description: Declares a capability required by a package.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:Capability (Windows 10)
 ms.assetid: 4c8cea15-094d-4d4e-a1c1-5db78cb78612
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # uap:Capability (Windows 10)

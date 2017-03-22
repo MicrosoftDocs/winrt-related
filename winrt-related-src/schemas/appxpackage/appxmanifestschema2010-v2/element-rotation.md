@@ -6,6 +6,10 @@ ms.assetid: 0e351d87-2ff0-4e9e-b3ea-6a6254d4c1c4
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # Rotation

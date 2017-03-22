@@ -1,11 +1,15 @@
 ---
-Description: TrustFlags (Windows 10)
+Description: Indicates whether the certificates for the package are exclusive to the package.
 Search.Product: eADQiWindows 10XVcnh
 title: TrustFlags (Windows 10)
 ms.assetid: 44ea0d79-4774-4152-8f69-c5d9ff9287aa
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # TrustFlags (Windows 10)

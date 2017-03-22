@@ -3,16 +3,13 @@ title: Indicates that the element's text should be indexed for search, but is no
 description: Indicates that the element's text should be indexed for search, but is not associated with a property. 
 Search.Product: eADQiWindows 10XVcnh
 ms.assetid: 05953531-49EE-4209-9B9D-9A6D465E9772
-keywords:
-- IndexableContent
-topic_type:
-- apiref
-api_name:
-- IndexableContent
-api_type:
-- NA
 author: mcleblanc
 ms.author: markl
+keywords: windows 10, uwp, schema
+nms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # IndexableContent

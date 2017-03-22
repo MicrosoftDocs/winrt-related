@@ -1,11 +1,15 @@
 ---
-Description: uap:MediaPlayback (Windows 10)
+Description: Declares an app extensibility point of type mediaPlayback.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:MediaPlayback (Windows 10)
 ms.assetid: 8c9e4e21-4efe-4032-a15c-a513542d844b
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # uap:MediaPlayback (Windows 10)

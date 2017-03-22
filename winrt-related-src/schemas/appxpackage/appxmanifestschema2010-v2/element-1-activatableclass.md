@@ -6,6 +6,10 @@ ms.assetid: b2994883-87f9-4aa5-aff8-9c846606c462
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # ActivatableClass (type: CT_OutOfProcessActivatableClass)

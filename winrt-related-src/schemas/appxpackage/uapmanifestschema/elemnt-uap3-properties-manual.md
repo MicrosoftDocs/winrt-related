@@ -1,11 +1,15 @@
 ---
-Description: Contains opaque XML that represents custom, extension-specific information that is simply stored and not read by the operating system. The information is only read by the host app.
+Description: Contains opaque XML that represents custom, extension-specific information that is simply stored and not read by the operating system.
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:Properties
 ms.assetid: fbc52f03-8a01-4abe-b8d1-6aa8b02eb958
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # uap3:Properties

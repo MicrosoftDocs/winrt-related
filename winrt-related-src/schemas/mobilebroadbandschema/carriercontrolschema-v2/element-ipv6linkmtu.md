@@ -6,6 +6,10 @@ ms.assetid: 9d7ca5ab-9be7-466f-bef9-48a84b0e7e7b
 author: mcleblanc
 ms.author: markl
 keywords: windows 10, uwp, schema, mobile broadband schema
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # IPv6LinkMTU

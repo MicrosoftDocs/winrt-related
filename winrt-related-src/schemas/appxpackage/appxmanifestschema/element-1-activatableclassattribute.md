@@ -6,6 +6,10 @@ ms.assetid: 74ca4fd4-1a67-4e1f-b933-89b2ffa2fa17
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # ActivatableClassAttribute

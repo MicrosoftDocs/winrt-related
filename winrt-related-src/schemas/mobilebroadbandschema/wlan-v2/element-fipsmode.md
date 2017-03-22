@@ -6,6 +6,10 @@ ms.assetid: 0544cc73-0636-494c-a205-9831e43bd16f
 author: mcleblanc
 ms.author: markl
 keywords: windows 10, uwp, schema, mobile broadband schema
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # FIPSMode

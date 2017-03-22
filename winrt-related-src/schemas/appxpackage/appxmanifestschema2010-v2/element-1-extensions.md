@@ -1,14 +1,18 @@
 ---
-Description: 'Extensions (type: CT_ApplicationExtensions)'
+Description: Defines one or more extensibility points for the app.
 Search.Product: eADQiWindows 10XVcnh
-title: 'Extensions (type: CT_ApplicationExtensions)'
+title: 'Extensions (type: CT\_ApplicationExtensions)'
 ms.assetid: 267051e3-b09c-467c-b5bd-4575cc31cb36
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
-# Extensions (type: CT_ApplicationExtensions)
+# Extensions (type: CT\_ApplicationExtensions)
 
 
 
@@ -100,7 +104,7 @@ None.
 
 The following elements have the same name as this one, but different content or attributes:
 
--   **[Extensions (type: CT_PackageExtensions)](element-extensions.md)**
+-   **[Extensions (type: CT\_PackageExtensions)](element-extensions.md)**
 
 ## Remarks
 

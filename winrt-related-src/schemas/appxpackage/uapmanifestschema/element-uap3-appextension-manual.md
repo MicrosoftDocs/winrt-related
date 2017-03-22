@@ -6,6 +6,10 @@ ms.assetid: 88e4b56d-e2c2-4782-bedd-eae33d069c2c
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # uap3:AppExtension

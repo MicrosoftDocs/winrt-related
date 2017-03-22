@@ -3,16 +3,13 @@ title: ContentType
 description: Setting the ContentType property on an element indicates that the element’s content is treated as a base64 encoding of the specified MIME type / content type and is indexed using the handler for that content type.
 Search.Product: eADQiWindows 10XVcnh
 ms.assetid: 74B75E30-8BF9-4443-941A-CA1E44A419CB
-keywords:
-- ContentType
-topic_type:
-- apiref
-api_name:
-- ContentType
-api_type:
-- NA
 author: mcleblanc
 ms.author: markl
+keywords: windows 10, uwp, schema
+nms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # ContentType

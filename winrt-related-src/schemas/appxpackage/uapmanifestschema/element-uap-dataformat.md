@@ -1,11 +1,15 @@
 ---
-Description: uap:DataFormat (Windows 10)
+Description: Specifies a data package format such as text or HTML format that the app can share. 
 Search.Product: eADQiWindows 10XVcnh
 title: uap:DataFormat (Windows 10)
 ms.assetid: 348b61e7-ecbd-42ea-8a82-81ef85e728cb
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # uap:DataFormat (Windows 10)

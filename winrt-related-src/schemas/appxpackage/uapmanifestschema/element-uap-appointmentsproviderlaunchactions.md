@@ -1,11 +1,15 @@
 ---
-Description: uap:AppointmentsProviderLaunchActions (Windows 10)
+Description: Declares actions to take when a appointment is launched.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:AppointmentsProviderLaunchActions (Windows 10)
 ms.assetid: cc9178da-2a91-4c00-8af1-6c86a54cc7e3
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # uap:AppointmentsProviderLaunchActions (Windows 10)

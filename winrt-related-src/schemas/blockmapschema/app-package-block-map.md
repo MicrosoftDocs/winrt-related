@@ -5,9 +5,11 @@ title: App package block map
 ms.assetid: 8be602d7-b7f7-4797-899a-c0a7852725d2
 author: laurenhughes
 ms.author: lahugh
-ms.topic: article
-ms.prod: windows
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/17
 ---
 
 # App package block map
