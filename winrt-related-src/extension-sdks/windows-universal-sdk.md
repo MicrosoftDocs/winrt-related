@@ -1,6 +1,6 @@
 ---
 title: Windows Universal Platform SDK API contracts
-description: Lists all of the API contracts in the Windows Universal Platform SDK.
+description: See a list of all API contracts in the Windows Universal Platform SDK.
 ms.assetid: 98FDBBB3-79DA-46F8-895D-1219D6C0858E
 ms.author: twhitney
 ms.prod: windows

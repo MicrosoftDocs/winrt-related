@@ -11,7 +11,7 @@ keywords: windows 10, uwp, desktop extension sdk, api contract
 ---
 # Windows Desktop Extension SDK API contracts for UWP
 
-Lists all of the API contracts in the Windows desktop extension SDK for the Universal Windows Platform (UWP).
+See a list of all the API contracts in the Windows desktop extension SDK for the Universal Windows Platform (UWP).
 
 ## Version 10.0.15063.0
 
