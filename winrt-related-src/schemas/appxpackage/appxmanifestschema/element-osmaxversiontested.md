@@ -1,5 +1,5 @@
 ---
-Description: OSMaxVersionTested
+Description: Indicates the highest version of Windows that the package was tested on.
 Search.Product: eADQiWindows 10XVcnh
 title: OSMaxVersionTested
 ms.assetid: 2f820978-5080-427d-b364-08951afae9ee

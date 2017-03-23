@@ -1,5 +1,5 @@
 ---
-Description: 'Path (type: ST_FileName)'
+Description: The path to the DLL.
 Search.Product: eADQiWindows 10XVcnh
 title: 'Path (type: ST_FileName)'
 ms.assetid: 337dd035-774d-40fb-8da1-7af11dbb4a35

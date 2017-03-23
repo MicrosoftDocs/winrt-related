@@ -1,5 +1,5 @@
 ---
-Description: 'LaunchAction (in type: CT_AutoPlayContent)'
+Description: Describes an AutoPlay content action.
 Search.Product: eADQiWindows 10XVcnh
 title: 'LaunchAction (in type: CT_AutoPlayContent)'
 ms.assetid: 3561ba0c-690c-4c09-b383-b2c1e95f26d6
