@@ -1,5 +1,5 @@
 ---
-title: Extension SDKs and API contracts
+title: Device Family Extension SDKs and API contracts
 description: Lists the extension SDKs and their versions, with links to topics that list the API contracts associated with each extension SDK.
 ms.assetid: 9C4F57CB-6E45-4B42-9852-67B0EFB63450
 ms.author: twhitney
@@ -10,7 +10,7 @@ ms.date: 04/05/2017
 keywords: windows 10, uwp, extension sdk
 ---
 
-# Extension SDKs and API contracts
+# Device Family Extension SDKs and API contracts
 
 The way of thinking about app-targeting changes with Windows 10. The new conceptual model is that UWP apps target the Universal Windows Platform by default, which provides a common API surface across devices. But you can also target the capabilities of specific devices by using an extension SDK. For more info on what a extension SDK is, and how to decide which one to target, see [Guide to Universal Windows Platform (UWP) apps[(https://docs.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide)].
 This reference topic enumerates all of the extension SDKs with links to topics that list the contracts available in each extension.
