@@ -14,10 +14,10 @@ keywords: windows 10, uwp, schema, manifest, com
 
 # com:Extension (Windows 10)
 
-## -description
+## Description
 Provides functionality to expose COM registrations to clients outside of the app package.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -39,7 +39,7 @@ Provides functionality to expose COM registrations to clients outside of the app
 </dl>
 
 
-## -syntax
+## Syntax
 ```syntax
 <com:Extension Category = "windows.comServer" | "windows.comInterface" >
 
@@ -49,33 +49,33 @@ Provides functionality to expose COM registrations to clients outside of the app
 </com:Extension>
 ```
 
-## -key
+## Key
 
-## -attributes
+## Attributes
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | **Category** | The type of app extensibility point. | This attribute can have one of the following values: <ul><li>windows.comServer</li><li>windows.comExtension</li></ul>| Yes |
 
 
-## -child-elements
+## Child Elements
 
 | Child Element         | Description |
 |-----------------------|-------------|
 | [com:ComServer](element-com-cominterface.md) | Declares a package extension point of type **windows.comServer**. |
 | [com:ComInterface](element-com-comserver.md) | Declares a package extension point of type **windows.comInterface**. |
 
-## -parent-elements
+## Parent Elements
 
 | Parent Element | Description |
 |----------------|-------------|
 | [Extensions (type: CT_ApplicationExtensions)](element-1-extensions.md) | Defines one or more extensibility points for the app. |
 
-## -remarks
+## Remarks
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 
 <table>
 <colgroup>

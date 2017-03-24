@@ -14,10 +14,10 @@ keywords: windows 10, uwp, schema, manifest, com
 
 # com:Version
 
-## -description
+## Description
 Version number and additional information about the type library.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -53,7 +53,7 @@ Version number and additional information about the type library.
 </dd>
 </dl>
 
-## -syntax
+## Syntax
 ```syntax
 <com:Version
     VersionNumber = One to three alphanumeric characters separated by a period followed by one to three more alphanumeric characters, e.g., 1.5a
@@ -67,10 +67,10 @@ Version number and additional information about the type library.
 </com:Version>
 ```
 
-## -key
+## Key
 `?`    optional (zero or one) 
 
-## -attributes
+## Attributes
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
@@ -79,20 +79,20 @@ Version number and additional information about the type library.
 | LibraryFlag | An integer value from the [LIBFLAGS](https://msdn.microsoft.com/library/windows/desktop/ms221149.aspx) enumeration. | An integer value in the range of 0 to 15. | No |
 | HelpDirectory | The HELPDIR subkey. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
 
-## -child-elements
+## Child Elements
  
 | Child Element | Description |
 |---------------|-------------|
 | [Win32Path](element-com-win32path.md) | A path to the 32-bit type library. |
 | [Win64Path](element-com-win64path.md) | A path to the 64-bit type library. |
 
-## -remarks
+## Remarks
 > [!NOTE]  
 > You must specify both a Win32Path and a Win64Path.
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

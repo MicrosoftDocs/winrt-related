@@ -13,16 +13,16 @@ keywords: windows 10, uwp, streaming install, content group, map, final content 
 
 # Automatic
 
-## -description
+## Description
 The automatic content group.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-final-contentgroupmap.md">&lt;ContentGroupMap&gt;</a></dt>
 <dd><b>&lt;Automatic&gt;</b></dd>
 </dl>
 
-## -syntax
+## Syntax
 ```syntax
 <Automatic>
   <!-- Child elements -->
@@ -30,20 +30,20 @@ The automatic content group.
 </Automatic>
 ```
 
-## -key
+## Key
 `{}`   specific range of occurrences
 
-## -child-elements
+## Child Elements
 
 | Child Element | Description |
 |---------------|-------------|
 | [ContentGroup](element-final-automatic-contentgroup.md) | Specifies the automatic content group. |
 
-## -remarks
+## Remarks
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

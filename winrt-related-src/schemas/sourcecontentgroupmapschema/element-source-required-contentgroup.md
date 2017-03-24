@@ -13,10 +13,10 @@ keywords: windows 10, uwp, streaming install, content group, map, final content 
 
 # ContentGroup (Required\ContentGroup)
 
-## -description
+## Description
 Specifies the required content group.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-source-contentgroupmap.md">&lt;ContentGroupMap&gt;</a></dt>
 <dd>
@@ -27,7 +27,7 @@ Specifies the required content group.
 </dd>
 </dl>
 
-## -syntax
+## Syntax
 ```syntax
 <ContentGroup Name = String type. >
 
@@ -36,31 +36,31 @@ Specifies the required content group.
 </ContentGroup>
 ```
 
-## -key
+## Key
 `{}`   specific range of occurrences
 
-## -attributes
+## Attributes
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | Name | Friendly name of the Content Group. This name must be set to: Required. | String type. | Yes |
 
 
-## -child-elements
+## Child Elements
 
 | Child Element | Description |
 |---------------|-------------|
 | [File](element-source-required-file.md) | The files specified in the required content group. |
 
-## -remarks
+## Remarks
 The **Name** of the required content group must be set to: Required, note that this value is case sensitive.
 
 > [!NOTE]
 > Automatic content groups cannot be named "Required."
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

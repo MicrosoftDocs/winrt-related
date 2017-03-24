@@ -29,6 +29,7 @@ Defines the root element of a bundle manifest. The manifest describes the struct
   <!-- Child elements -->
   ( Identity
   & Packages
+  & OptionalBundle{0,10000}
   )
 
 </Bundle>
@@ -38,6 +39,7 @@ Defines the root element of a bundle manifest. The manifest describes the struct
 
 `?`   optional (zero or one)
 `&`   interleave connector (may occur in any order)
+`{}`  specific range of occurrences
 
 ## Attributes and Elements
 
@@ -84,10 +86,6 @@ Defines the root element of a bundle manifest. The manifest describes the struct
 ### Child Elements
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Child Element</th>
@@ -103,10 +101,12 @@ Defines the root element of a bundle manifest. The manifest describes the struct
 <td>[Packages](element-packages.md)</td>
 <td><p>Defines the app packages and resource packages that are contained in the bundle.</p></td>
 </tr>
+<tr class="odd">
+<td>[OptionalBundle](element-optionalbundle.md)</td>
+<td><p>Defines optional bundles relative to the main bundle.</p></td>
+</tr>
 </tbody>
 </table>
-
- 
 
 ### Parent Elements
 

@@ -13,16 +13,16 @@ keywords: windows 10, uwp, streaming install, content group, map, final content 
 
 # Required
 
-## -description
+## Description
 The required content group.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-source-contentgroupmap.md">&lt;ContentGroupMap&gt;</a></dt>
 <dd><b>&lt;Required&gt;</b></dd>
 </dl>
 
-## -syntax
+## Syntax
 ```syntax
 <Required>
   <!-- Child elements -->
@@ -30,19 +30,19 @@ The required content group.
 </Required>
 ```
 
-## -key
+## Key
 
-## -child-elements
+## Child Elements
 
 | Child Element | Description |
 |---------------|-------------|
 | [ContentGroup](element-source-required-contentgroup.md) | Specifies the required content group. |
 
-## -remarks
+## Remarks
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

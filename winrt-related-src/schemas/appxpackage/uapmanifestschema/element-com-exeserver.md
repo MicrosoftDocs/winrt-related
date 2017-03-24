@@ -13,10 +13,10 @@ keywords: windows 10, uwp, schema, manifest, com
 
 # com:ExeServer
 
-## -description
+## Description
 Registers an ExeServer with one or many class registrations.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -47,7 +47,7 @@ Registers an ExeServer with one or many class registrations.
 </dd>
 </dl>
 
-## -syntax
+## Syntax
 ```syntax
 <com:ExeServer
     Executable = A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *.
@@ -60,11 +60,11 @@ Registers an ExeServer with one or many class registrations.
 </com:ExeServer>
 ```
 
-## -key
+## Key
 `?`    optional (zero or one)  
 `{}`   specific range of occurrences
 
-## -attributes
+## Attributes
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
@@ -73,23 +73,23 @@ Registers an ExeServer with one or many class registrations.
 | DisplayName | DisplayName is a localizable string corresponding to the default AppID key value. | A string between 1 and 256 characters in length. | No |
 | LaunchAndActivationPermission | An [SDDL string](https://aka.ms/sddl-string-format) that corresponds to the LaunchPermission value of the AppID key. | [SDDL string](https://aka.ms/sddl-string-format). | No |
 
-## -child-elements
+## Child Elements
 
 | Child Element | Description |
 |---------------|-------------|
 | [Class](element-com-exeserver-class.md) | Defines an ExeServer class registration. |
 
 
-## -remarks
+## Remarks
 An **ExeServer** can have one or more class registrations. Multiple class registrations should share an **ExeServer** if their [LocalServer32 keys](https://msdn.microsoft.com/library/windows/desktop/ms683844.aspx) match and they have the same [AppID](https://msdn.microsoft.com/library/windows/desktop/ms688754.aspx) (or if they don't have an AppID), unless they need to be registered under different Applications/Application manifest elements.
 
 **ExeServer** registrations correspond to [LocalServer32 keys](https://msdn.microsoft.com/library/windows/desktop/ms683844.aspx) and their associated [AppID key](https://msdn.microsoft.com/library/windows/desktop/ms682359.aspx).
 
 The **Executable** and **Arguments** attributes correspond to the default value of the [LocalServer32](https://msdn.microsoft.com/library/windows/desktop/ms683844.aspx) key.
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

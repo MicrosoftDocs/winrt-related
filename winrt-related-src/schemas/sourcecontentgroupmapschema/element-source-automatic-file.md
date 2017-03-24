@@ -13,10 +13,10 @@ keywords: windows 10, uwp, streaming install, content group, map, final content 
 
 # File (Automatic\ContentGroup)
 
-## -description
+## Description
 The files specified in the automatic content group.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-source-contentgroupmap.md">&lt;ContentGroupMap&gt;</a></dt>
 <dd>
@@ -32,28 +32,28 @@ The files specified in the automatic content group.
 </dd>
 </dl>
 
-## -syntax
+## Syntax
 ```syntax
 <File Name = String type. >
 
 </File>
 ```
 
-## -key
+## Key
 
-## -attributes
+## Attributes
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | Name | File name. | String type. | Yes |
 
 
-## -remarks
+## Remarks
 File names in the source content group map can use wildcards in names. For guidance on wildcard usage, see TODO.
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

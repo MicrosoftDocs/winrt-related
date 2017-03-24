@@ -14,10 +14,10 @@ keywords: windows 10, uwp, schema, manifest, com
 
 # com:Conversion (in SurrogateServer/Class)
 
-## -description
+## Description
 Specifies the formats an application can read and write.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -59,7 +59,7 @@ Specifies the formats an application can read and write.
 </dl>
 
 
-## -syntax
+## Syntax
 ```syntax
 <com:Conversion> 
   <!-- Child elements -->
@@ -68,21 +68,21 @@ Specifies the formats an application can read and write.
 </com:Conversion>
 ```
 
-## -key
+## Key
 `?`    optional (zero or one) 
 
-## -child-elements
+## Child Elements
 
 | Child Element | Description |
 |---------------|-------------|
 | [Readable](element-com-surrogate-readable.md) | Specifies that the application can only read files. |
 | [ReadWritable](element-com-surrogate-readwritable.md) | Specifies that the application can read and write files. |
 
-## -remarks
+## Remarks
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

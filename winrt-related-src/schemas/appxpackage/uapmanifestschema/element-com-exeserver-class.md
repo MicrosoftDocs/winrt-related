@@ -14,10 +14,10 @@ keywords: windows 10, uwp, schema, manifest, com
 
 # com:Class (in ExeServer)
 
-## -description
+## Description
 Defines an ExeServer class registration.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -55,7 +55,7 @@ Defines an ExeServer class registration.
 
 
 
-## -syntax
+## Syntax
 ```syntax
 <com:Class
     Id = A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.
@@ -79,10 +79,10 @@ Defines an ExeServer class registration.
 </com:Class>
 ```
 
-## -key
+## Key
 `?`    optional (zero or one) 
 
-## -attributes
+## Attributes
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
@@ -95,7 +95,7 @@ Defines an ExeServer class registration.
 | InsertableObject | Indicates that this class is insertable. | Boolean. | No |
 | ShortDisplayName | A short version of the class display name. | A string between 1 and 40 characters in length. | No |
 
-## -child-elements
+## Child Elements
 
 | Child Element         | Description |
 |-----------------------|-------------|
@@ -107,12 +107,12 @@ Defines an ExeServer class registration.
 | [DefaultIcon](element-com-exe-defaulticon.md) | Provides default icon information for iconic presentations of objects. |
 | [ToolboxBitmap32](element-com-exe-toolboxbitmap32.md) | Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button. |
 
-## -remarks
+## Remarks
 Each **Class** registered under an **ExeServer** must have an **Id** attribute corresponding to the [CLSID](https://msdn.microsoft.com/library/windows/desktop/ms691424.aspx). 
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

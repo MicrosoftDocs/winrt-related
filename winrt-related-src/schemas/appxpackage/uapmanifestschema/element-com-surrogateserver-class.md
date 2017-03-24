@@ -14,10 +14,10 @@ keywords: windows 10, uwp, schema, manifest, com
 
 # com:Class (in SurrogateServer/Class)
 
-## -description
+## Description
 Defines a SurrogateServer class registration.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -55,7 +55,7 @@ Defines a SurrogateServer class registration.
 
 
 
-## -syntax
+## Syntax
 ```syntax
 <com:Class
     Id = A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.
@@ -81,10 +81,10 @@ Defines a SurrogateServer class registration.
 </com:Class>
 ```
 
-## -key
+## Key
 `?`    optional (zero or one)
 
-## -attributes
+## Attributes
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
@@ -99,7 +99,7 @@ Defines a SurrogateServer class registration.
 | InsertableObject | Indicates that this class is insertable. | Boolean. | No |
 | ShortDisplayName | A short version of the class display name. | A string between 1 and 40 characters in length. | No |
 
-## -child-elements
+## Child Elements
 
 | Child Element         | Description |
 |-----------------------|-------------|
@@ -111,14 +111,14 @@ Defines a SurrogateServer class registration.
 | [DefaultIcon](element-com-surrogate-defaulticon.md) | Provides default icon information for iconic presentations of objects. |
 | [ToolboxBitmap32](element-com-surrogate-toolboxbitmap32.md) | Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button. |
 
-## -remarks
+## Remarks
 Class registrations with the same AppId should share a **SurrogateServer**, unless they need to be registered under different Applications/Application manifest elements. 
 
 The **ThreadingModel** corresponds to the [InprocServer32](https://msdn.microsoft.com/library/windows/desktop/ms682390.aspx) threading model. **SurrogateServer** class registrations should have an InprocServer32 registration in the package's private hive.
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

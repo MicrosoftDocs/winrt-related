@@ -13,10 +13,10 @@ keywords: windows 10, uwp, schema, manifest, com
 
 # com:Aspect (in SurrogateServer/Class)
 
-## -description
+## Description
 Specifies the desired data or view aspect of the object when drawing or getting data.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -63,7 +63,7 @@ Specifies the desired data or view aspect of the object when drawing or getting 
 </dl>
 
 
-## -syntax
+## Syntax
 ```syntax
 <com:Aspect  
     Type = A string as one of the enumeration values: Content, Thumbnail, Icon, or DocPrint.
@@ -71,20 +71,20 @@ Specifies the desired data or view aspect of the object when drawing or getting 
 </com:Aspect>
 ```
 
-## -key
+## Key
 
-## -attributes
+## Attributes
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | Type      | The string value for the view aspect of the object. | A string as one of the enumeration values: Content, Thumbnail, Icon, or DocPrint. | Yes |
 | OleMiscFlag | The integer value for the view aspect of the object. | An integer value in the range of 0-4194303. | Yes |
 
-## -remarks
+## Remarks
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

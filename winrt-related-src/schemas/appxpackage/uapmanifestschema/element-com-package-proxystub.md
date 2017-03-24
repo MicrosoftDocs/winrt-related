@@ -14,10 +14,10 @@ keywords: windows 10, uwp, schema, manifest, com
 
 # com:ProxyStub (in Package/Extensions)
 
-## -description
+## Description
 Registers a proxy stub.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -40,7 +40,7 @@ Registers a proxy stub.
 
 
 
-## -syntax
+## Syntax
 ```syntax
 <ProxyStub
     Id = A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.
@@ -49,10 +49,10 @@ Registers a proxy stub.
 </ProxyStub>
 ```
 
-## -key
+## Key
 `?`    optional (zero or one)  
 
-## -attributes
+## Attributes
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
@@ -60,12 +60,12 @@ Registers a proxy stub.
 | DisplayName | A localizable string corresponding to the default value of the proxy stub's CLSID key. | A string between 1 and 256 characters in length. This string is localizable. | No |
 | Path | The path relative to the package root. Path must reference a file in the package. | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *. | Yes |
 
-## -remarks
+## Remarks
 Proxy stub registrations correspond to [InprocServer32](https://msdn.microsoft.com/library/windows/desktop/ms682390.aspx) keys referenced by [ProxyStubClsid32](https://msdn.microsoft.com/library/windows/desktop/ms688573.aspx) keys.
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

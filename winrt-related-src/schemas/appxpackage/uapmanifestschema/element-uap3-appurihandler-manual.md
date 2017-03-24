@@ -49,7 +49,7 @@ Declares an app extensibility point of type **windows.appUriHandler**.
 
 
 ```
-<uap3:AppUriHandler>
+<uap3:AppUriHandler desktop2:Parameters? = String format of parameters, e.g. "/L %1" >
   <!-- Child elements -->
   uap3:Host{0,1000}
 </uap3:AppUriHandler>
@@ -64,7 +64,9 @@ Declares an app extensibility point of type **windows.appUriHandler**.
 
 **Attributes**
 
-None.
+| Attribute | Description | Data type | Required |
+|-----------|-------------|-----------|----------|
+| desktop2:Paramters | Specifies how to pass the URI handler into the app. %1 is a token that specifies the full path. | String format of parameters, e.g. "/L %1" | No |
 
 **Child Elements**
 
