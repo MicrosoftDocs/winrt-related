@@ -5,7 +5,11 @@ title: Resources
 ms.assetid: 45ce3dac-3888-452b-bc10-8775b158637a
 author: laurenhughes
 ms.author: lahugh
-keywords: windows 10, uwp, schema, package manifest
+keywords: windows 10, uwp, schema, bundle manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # Resources

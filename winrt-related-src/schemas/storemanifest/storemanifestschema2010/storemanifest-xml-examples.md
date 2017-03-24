@@ -5,6 +5,10 @@ ms.assetid: 7d6eaaf8-b0f0-4d8a-b2a6-c9a8f90704c9
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, storemanifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # StoreManifest XML example (Windows 8.1 and earlier)

@@ -1,11 +1,15 @@
 ---
-Description: 'Extensions (type: CT_PackageExtensions)'
+Description: Defines one or more extensibility points for the package.
 Search.Product: eADQiWindows 10XVcnh
 title: 'Extensions (type: CT_PackageExtensions)'
 ms.assetid: 837ae066-b590-4f58-b552-2e9d608f0fac
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # Extensions (type: CT_PackageExtensions)

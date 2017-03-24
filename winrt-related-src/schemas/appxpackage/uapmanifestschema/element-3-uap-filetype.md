@@ -1,11 +1,15 @@
 ---
-Description: uap:FileType (in uap:FileSavePicker/uap:SupportedFileTypes) 
+Description: A file type specified as its file type extension. 
 Search.Product: eADQiWindows 10XVcnh
 title: uap:FileType (in uap:FileSavePicker/uap:SupportedFileTypes) 
 ms.assetid: 05c2d6ae-0368-4258-ad1e-bafe76b6f455
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # uap:FileType (in uap:FileSavePicker/uap:SupportedFileTypes)

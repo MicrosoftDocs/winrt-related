@@ -1,11 +1,15 @@
 ---
-Description: uap:LaunchAction (in uap:AutoPlayDevice) (Windows 10)
+Description: Describes an AutoPlay device action.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:LaunchAction (in uap:AutoPlayDevice) (Windows 10)
 ms.assetid: 9b7d9e7a-4f85-4525-9a6b-683b3b78c23d
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # uap:LaunchAction (in uap:AutoPlayDevice) (Windows 10)

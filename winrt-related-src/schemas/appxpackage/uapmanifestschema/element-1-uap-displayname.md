@@ -1,11 +1,15 @@
 ---
-Description: uap:DisplayName (Windows 10)
+Description: A friendly name that can be displayed to users.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:DisplayName (Windows 10)
 ms.assetid: c435a2d1-6f05-44b8-9dc2-34b661793314
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # uap:DisplayName (Windows 10)

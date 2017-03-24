@@ -6,6 +6,10 @@ ms.assetid: 4c5c4ab6-e1d1-4631-ab8e-f0c33af8b464
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # How to specify device capabilities for HID

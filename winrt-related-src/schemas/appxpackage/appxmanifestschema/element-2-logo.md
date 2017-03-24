@@ -1,11 +1,15 @@
 ---
-Description: Logo
+Description: A path to a file that contains an image.
 Search.Product: eADQiWindows 10XVcnh
 title: Logo
 ms.assetid: ffbb17ac-d3c5-42ea-9a39-167a8dc4d2ba
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # Logo

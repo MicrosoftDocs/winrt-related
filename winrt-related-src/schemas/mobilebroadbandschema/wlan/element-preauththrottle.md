@@ -6,6 +6,10 @@ ms.assetid: f0836b86-12da-4329-a190-5c8d5132e145
 author: mcleblanc
 ms.author: markl
 keywords: windows 10, uwp, schema, mobile broadband schema
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # preAuthThrottle

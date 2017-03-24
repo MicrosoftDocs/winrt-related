@@ -1,11 +1,15 @@
 ---
-Description: DataFormat
+Description: Specifies a data package format such as text or HTML format that the app can share.
 Search.Product: eADQiWindows 10XVcnh
 title: DataFormat
 ms.assetid: a9aa181e-236d-4d33-adcd-54ec8e656891
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # DataFormat

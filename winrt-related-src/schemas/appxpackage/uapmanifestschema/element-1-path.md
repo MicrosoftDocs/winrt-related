@@ -1,11 +1,15 @@
 ---
-Description: Path (in OutOfProcessServer) (Windows 10)
+Description: The path to the executable.
 Search.Product: eADQiWindows 10XVcnh
 title: Path (in OutOfProcessServer) (Windows 10)
 ms.assetid: f3fe9184-f270-4050-b444-ec37a596b993
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # Path (in OutOfProcessServer) (Windows 10)

@@ -1,11 +1,15 @@
 ---
-Description: LockScreen
+Description: Defines the badge and notifications that represent the app on the lock screen, which is shown when the system is locked.
 Search.Product: eADQiWindows 10XVcnh
 title: LockScreen
 ms.assetid: 4b73231f-9cf8-4dc6-ad82-70dc2bdb7745
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # LockScreen

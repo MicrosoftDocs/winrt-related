@@ -1,11 +1,15 @@
 ---
-Description: uap:AppointmentsProvider (Windows 10)
+Description: Declares an app extensibility point of type windows.appointmentsProvider.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:AppointmentsProvider (Windows 10)
 ms.assetid: 017359a9-e1c5-4b47-8598-bc8c49a67e4a
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # uap:AppointmentsProvider (Windows 10)

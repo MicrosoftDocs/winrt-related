@@ -6,6 +6,10 @@ ms.assetid: 68a5d75a-bbd5-45cb-8bee-ccb3b0cc0a39
 author: mcleblanc
 ms.author: markl
 keywords: windows 10, uwp, schema, mobile broadband schema
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # DataRoamingPartners

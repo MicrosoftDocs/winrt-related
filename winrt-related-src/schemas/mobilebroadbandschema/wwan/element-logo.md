@@ -6,6 +6,10 @@ ms.assetid: 612973f1-2251-46e7-9923-adec93f0683e
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, mobile broadband schema
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # Logo

@@ -1,11 +1,15 @@
 ---
-Description: Specifies a parameter for the service. This parameter corresponds to a registry subkey that is created under the HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\ServiceName\\Parameters key.
+Description: Specifies a parameter for the service. 
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:ServiceParameterKey
 ms.assetid: 0a9cf40b-d5da-415c-8c4b-3b879bb6e969
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # serverpreview:ServiceParameterKey

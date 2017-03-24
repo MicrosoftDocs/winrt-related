@@ -7,6 +7,10 @@ ms.assetid: adafca95-23be-417f-8c3f-7c340222ecfd
 author: mcleblanc
 ms.author: markl
 keywords: windows 10, uwp, schema, mobile broadband schema
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # WLANProfile

@@ -1,11 +1,15 @@
 ---
-Description: ShareTarget
+Description: Declares an app extension point of type windows.shareTarget.
 Search.Product: eADQiWindows 10XVcnh
 title: ShareTarget
 ms.assetid: 42f77354-83be-4f41-bf89-95566d026687
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # ShareTarget

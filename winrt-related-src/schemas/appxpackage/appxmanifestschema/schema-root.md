@@ -1,11 +1,15 @@
 ---
-Description: Package manifest schema reference
+Description: provides details for each element, attribute, and data type that defines the schema for the app package manifest for Windows Store apps.
 Search.Product: eADQiWindows 10XVcnh
 title: Package manifest schema reference
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
 author: mcleblanc
 ms.author: markl
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # Package manifest schema reference

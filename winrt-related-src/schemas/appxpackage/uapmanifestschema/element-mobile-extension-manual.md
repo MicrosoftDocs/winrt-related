@@ -6,6 +6,10 @@ ms.assetid: 0f9f4bee-3a63-4383-86db-a555ca4ccad6
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # mobile:Extension (Windows 10)

@@ -1,11 +1,15 @@
 ---
-Description: Rule
+Description: Specifies which pages in the web context have access to the system's geolocation devices and access to the clipboard.
 Search.Product: eADQiWindows 10XVcnh
 title: Rule
 ms.assetid: c78c8c62-df95-4202-b3f0-75ddbb7e0e46
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # Rule

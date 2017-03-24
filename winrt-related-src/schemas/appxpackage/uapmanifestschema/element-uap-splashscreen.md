@@ -1,11 +1,15 @@
 ---
-Description: uap:SplashScreen (Windows 10)
+Description: Defines the appearance of the splash screen, which is displayed by the app during launch.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:SplashScreen (Windows 10)
 ms.assetid: 1a55627f-7014-4c8c-8ec8-957ac99457db
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # uap:SplashScreen (Windows 10)

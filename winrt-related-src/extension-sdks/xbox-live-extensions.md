@@ -1,12 +1,12 @@
 ---
 title: Xbox Live Extension API contracts for UWP
-description: Lists all of the API contracts in the Xbox Live Extensions SDK for the Universal Windows Platform (UWP)
+description: See a list of all API contracts in the Xbox Live Extensions SDK for the Universal Windows Platform (UWP)
 ms.assetid: 96854160-5b2e-4027-90a3-0477d612bef5
 ms.author: twhitney
-ms.date: 03/29/2017
-ms.topic: article
 ms.prod: windows
-ms.technology: uwp
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 keywords: windows 10, uwp, xbox live extensions sdk, api contract
 ---
 # Xbox Live Extension SDK API contracts for UWP

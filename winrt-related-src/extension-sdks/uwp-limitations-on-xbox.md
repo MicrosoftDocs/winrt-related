@@ -3,10 +3,10 @@ title: UWP features not yet supported on Xbox
 description: Xbox runs Windows 10, which means that it shares the same core operating system as other devices in the Windows 10 family desktop, mobile, and HoloLens.
 ms.assetid: BAFF8085-8DDB-4DBA-AB3D-70DC92CD27AE
 ms.author: twhitney
-ms.date: 03/13/2017
-ms.topic: article
-ms.prod: xbox
-ms.technology: uwp
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 keywords: windows 10, uwp, xbox
 ---
 

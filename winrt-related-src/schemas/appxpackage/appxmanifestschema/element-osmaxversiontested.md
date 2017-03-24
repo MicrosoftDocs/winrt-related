@@ -1,11 +1,15 @@
 ---
-Description: OSMaxVersionTested
+Description: Indicates the highest version of Windows that the package was tested on.
 Search.Product: eADQiWindows 10XVcnh
 title: OSMaxVersionTested
 ms.assetid: 2f820978-5080-427d-b364-08951afae9ee
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # OSMaxVersionTested

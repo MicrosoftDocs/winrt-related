@@ -1,11 +1,15 @@
 ---
-Description: Capability (Windows 10)
+Description: Declares a capability required by a package.
 Search.Product: eADQiWindows 10XVcnh
 title: Capability (Windows 10)
 ms.assetid: ee6bf220-f139-4ad9-a7a7-e621c189b907
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # Capability (Windows 10)

@@ -1,11 +1,15 @@
 ---
-Description: Prerequisites
+Description: Declares the minimum operating system and software requirements that must exist for the package to be applicable to the system.
 Search.Product: eADQiWindows 10XVcnh
 title: Prerequisites
 ms.assetid: 93b13906-9c63-46d0-8659-0f382ce8f477
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # Prerequisites

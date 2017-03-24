@@ -1,11 +1,15 @@
 ---
-Description: FileOpenPicker
+Description: Declares an app extensibility point of type windows.fileOpenPicker.
 Search.Product: eADQiWindows 10XVcnh
 title: FileOpenPicker
 ms.assetid: 25af7399-25ca-4a8b-a892-396f6b4d170c
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # FileOpenPicker

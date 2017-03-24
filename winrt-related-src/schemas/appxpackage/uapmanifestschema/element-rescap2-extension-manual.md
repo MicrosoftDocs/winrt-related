@@ -6,6 +6,10 @@ ms.assetid: 067b6b25-2d89-42b1-845c-605ac00963b7
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # rescap2:Extension (Windows 10)

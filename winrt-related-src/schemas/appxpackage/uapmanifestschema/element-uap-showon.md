@@ -1,11 +1,15 @@
 ---
-Description: uap:ShowOn (Windows 10)
+Description: Describes whether Windows overlays the app’s name on top of the tile image that is shown on the Start screen.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:ShowOn (Windows 10)
 ms.assetid: ef9ad3df-5179-4dee-bf54-4f5de545b1ed
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # uap:ShowOn (Windows 10)

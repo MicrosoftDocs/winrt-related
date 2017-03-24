@@ -1,11 +1,15 @@
 ---
-Description: uap:Logo (Windows 10)
+Description: A path to a file that contains an image.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:Logo (Windows 10)
 ms.assetid: e82d1f5f-e1c8-469c-8568-0736c2a96554
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # uap:Logo (Windows 10)

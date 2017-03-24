@@ -1,11 +1,15 @@
 ---
-Description: 'FileType (in type: CT_FTASupportedFileTypes)'
+Description: A supported file type specified as its file type extension.
 Search.Product: eADQiWindows 10XVcnh
 title: 'FileType (in type: CT_FTASupportedFileTypes)'
 ms.assetid: ee9a5cc3-18aa-458e-88aa-b1000c35abd3
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # FileType (in type: CT_FTASupportedFileTypes)

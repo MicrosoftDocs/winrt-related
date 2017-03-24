@@ -1,11 +1,15 @@
 ---
-Description: Application (Windows 10)
+Description: Represents an app that comprises part of or all of the functionality delivered in the package.
 Search.Product: eADQiWindows 10XVcnh
 title: Application (Windows 10)
 ms.assetid: 39221d13-bb46-42ac-be51-117357cade81
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # Application (Windows 10)

@@ -1,11 +1,15 @@
 ---
-Description: EditFlags
+Description: Specifies the type of info the user sees when opening a file associated to the extensibility point.
 Search.Product: eADQiWindows 10XVcnh
 title: EditFlags
 ms.assetid: 0f77fddc-bb6d-4d5e-9d15-577a2e5fcfff
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # EditFlags

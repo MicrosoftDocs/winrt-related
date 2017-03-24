@@ -1,11 +1,15 @@
 ---
-Description: uap:Rule (Windows 10)
+Description: Specifies which pages in the web context have access to the system's geolocation devices and access to the clipboard.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:Rule (Windows 10)
 ms.assetid: 99bea1bd-db33-4dc9-bdf5-299f413d5c00
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # uap:Rule (Windows 10)

@@ -6,6 +6,10 @@ ms.assetid: 95f2ec1b-e3d1-490d-a5dc-367e385f7fc5
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, storemanifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # ProductFeatures

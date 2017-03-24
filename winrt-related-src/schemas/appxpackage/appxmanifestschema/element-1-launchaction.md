@@ -1,11 +1,15 @@
 ---
-Description: 'LaunchAction (in type: CT_AutoPlayDevice)'
+Description: Describes an AutoPlay device action.
 Search.Product: eADQiWindows 10XVcnh
 title: 'LaunchAction (in type: CT_AutoPlayDevice)'
 ms.assetid: 074c2f73-dcdd-4660-9d70-5bcee7b63199
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # LaunchAction (in type: CT_AutoPlayDevice)
