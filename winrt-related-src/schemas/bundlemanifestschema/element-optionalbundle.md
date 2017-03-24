@@ -58,21 +58,25 @@ Defines optional bundles relative to the main bundle. Optional bundles contain a
 </tr>
 </thead>
 <tbody>
+<tr class="odd">
 <td>Name</td>
 <td><p>Describes the contents of the bundle. The <strong>Name</strong> attribute is case-sensitive.</p></td>
 <td>A string between 3 and 50 characters in length that consists of alpha-numeric, period, and dash characters.</td>
 <td>Yes</td>
 </tr>
+<tr class="even">
 <td>Publisher</td>
 <td><p>Describes info about the publisher of the bundle.</p></td>
 <td>A string between 1 and 8192 characters in length that fits the regular expression of a distinguished name : &quot;(CN|L|O|OU|E|C|S|STREET|T|G|I|SN|DC|SERIALNUMBER|Description|PostalCode|POBox|Phone|X21Address|dnQualifier|(OID\.(0|[1-9][0-9]*)(\.(0|[1-9][0-9]*))+))=(([^,+=&quot;&lt;&gt;#;])+|&quot;.*&quot;)(, ((CN|L|O|OU|E|C|S|STREET|T|G|I|SN|DC|SERIALNUMBER|Description|PostalCode|POBox|Phone|X21Address|dnQualifier|(OID\.(0|[1-9][0-9]*)(\.(0|[1-9][0-9]*))+))=(([^,+=&quot;&lt;&gt;#;])+|&quot;.*&quot;)))*&quot;. Further, semantic validation ensures that the string is compliant with CertNameToStr Windows API implementation of X.500 rules.</td>
 <td>Yes</td>
 </tr>
+<tr class="odd">
 <td>Version</td>
 <td><p>The version number of the bundle.</p></td>
 <td>A version string in quad notation, &quot;Major.Minor.Build.Revision&quot;.</td>
 <td>No</td>
 </tr>
+<tr class="even">
 <td>FileName</td>
 <td><p>The file name of the bundle.</p></td>
 <td>A version string in quad notation, &quot;Major.Minor.Build.Revision&quot;.</td>
