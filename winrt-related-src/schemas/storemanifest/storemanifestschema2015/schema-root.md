@@ -1,6 +1,6 @@
 ---
-title: StoreManifest schema (Windows 10)
-Description: StoreManifest schema (Windows 10)
+title: StoreManifest schema 
+Description: StoreManifest schema 
 Search.Product: eADQiWindows 10XVcnh
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
 author: mcleblanc
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# StoreManifest schema (Windows 10)
+# StoreManifest schema 
 
 
 StoreManifest.xml is an optional configuration file that may be included in a UWP package. Its purpose is to enable features, such as declaring your app as a Windows Store device app, that the AppxManifest.xml file does not cover. StoreManifest.xml is submitted with the application package and must be in the root folder of your app's main project.
@@ -25,7 +25,7 @@ To validate your StoreManifest.xml, create a new xml document in Microsoft Visua
 
 `http://schemas.microsoft.com/appx/2015/StoreManifest namespace`
 
-See the samples instance document in [StoreManifest XML example (Windows 10)](storemanifest-xml-example-windows-10.md).
+See the samples instance document in [StoreManifest XML example](storemanifest-xml-example-windows-10.md).
 
 The following table lists all of the elements in this schema, sorted alphabetically by name.
 
