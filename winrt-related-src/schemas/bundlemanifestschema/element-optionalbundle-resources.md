@@ -4,10 +4,10 @@ ms.assetid: e257f16b-91a1-4ce1-95c5-d2d80e13ad3c
 title: Resources
 description: Declares languages, resolution scales, and DirectX feature levels for the resources that the package contains.
 ms.author: lahugh
-ms.date: 03/29/2017
-ms.topic: article
+ms.date: 04/05/2017
+ms.topic: reference
 ms.prod: windows
-ms.technology: uwp
+ms.technology: winrt-reference
 keywords: windows 10, uwp, schema, manifest, optional bundle 
 ---
 

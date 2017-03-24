@@ -4,10 +4,10 @@ ms.assetid: 33e5b0ce-9b38-4524-a11d-3909c6b85826
 title: OptionalBundle
 description:
 ms.author: lahugh
-ms.date: 03/29/2017
-ms.topic: article
+ms.date: 04/05/2017
+ms.topic: reference
 ms.prod: windows
-ms.technology: uwp
+ms.technology: winrt-reference
 keywords: windows 10, uwp, schema, manifest, optional bundle 
 ---
 
