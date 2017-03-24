@@ -43,7 +43,8 @@ Defines an app extensibility point of type **windows.backgroundTasks**. Backgrou
 ## Syntax
 
 ``` syntax
-<BackgroundTasks ServerName? = An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. >
+<BackgroundTasks ServerName? = An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. 
+                 uap4:SupportsMultipleInstances = Boolean. >
 
   <!-- Child elements -->
   Task{1,17},
@@ -83,6 +84,13 @@ Defines an app extensibility point of type **windows.backgroundTasks**. Backgrou
 <td><strong>ServerName</strong></td>
 <td><p>The server name. Ensures that only one instance of the server exists at runtime.</p></td>
 <td>An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.</td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>uap4:SupportsMultipleInstances</strong></td>
+<td><p>Supports multiple, separate instances of background tasks.</p></td>
+<td>Boolean.</td>
 <td>No</td>
 <td></td>
 </tr>

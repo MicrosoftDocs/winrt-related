@@ -53,7 +53,9 @@ A supported file type specified as its file type extension.
 ## Syntax
 
 ``` syntax
-<FileType ContentType? = A string that contains two components between 1 and 127 characters in length, separated by a forward slash ("/"). It follows the RFC 4288 naming requirements.  >
+<uap:FileType ContentType? = A string that contains two components between 1 and 127 characters in length, separated by a forward slash ("/"). It follows the RFC 4288 naming requirements. 
+              uap4:ShellNewFileName? = A string between 1 and 256 characters in length that cannot contain these characters: &lt;, &gt;, :, ", |, ?, or *.
+              uap4:ShellNewDisplayName? = A string between 1 and 256 characters in length. This string is localizable. >
 
   This element has no child elements.
 
@@ -91,6 +93,20 @@ A supported file type specified as its file type extension.
 <td><strong>ContentType</strong></td>
 <td><p>The content type.</p></td>
 <td>A string that contains two components between 1 and 127 characters in length, separated by a forward slash (&quot;/&quot;). It follows the RFC 4288 naming requirements.</td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>uap4:ShellNewFileName</strong></td>
+<td><p>The file from the package to be copied to the location where the user initiated the Shell New command.</p></td>
+<td>A string between 1 and 256 characters in length that cannot contain these characters: &lt;, &gt;, :, ", |, ?, or *.</td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>uap4:ShellNewDisplayName</strong></td>
+<td><p>The display name of the file type that shows when a user hovers over the "New" submenu in the Windows explorer.</p></td>
+<td>A string between 1 and 256 characters in length. This string is localizable.</td>
 <td>No</td>
 <td></td>
 </tr>

@@ -44,7 +44,8 @@ Declares an app extensibility point of type **windows.appService**. Application 
 
 ``` syntax
 <AppService Name        = A string between 2 and 39 characters in length that consists of alphanumeric, period (except for the first character), and dash characters only.
-                ServerName? = An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. />
+            ServerName? = An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. 
+            uap4:SupportsMultipleInstances = Boolean. />
 ```
 
 ### Key
@@ -85,6 +86,13 @@ Declares an app extensibility point of type **windows.appService**. Application 
 <td><strong>ServerName</strong></td>
 <td><p>The COM server to be instantiated to satisfy the contract activation (ensures that only one instance of the server exists at runtime). This is an optional attribute that is only used for PPLE host processes.</p></td>
 <td>An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.</td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>uap4:SupportsMultipleInstances</strong></td>
+<td><p>Supports multiple, separate instances of an app service.</p></td>
+<td>Boolean.</td>
 <td>No</td>
 <td></td>
 </tr>
