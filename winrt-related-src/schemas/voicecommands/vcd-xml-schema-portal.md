@@ -5,7 +5,7 @@ Search.Product: eADQiWindows 10XVcnh
 ms.assetid: 6b945294-6e25-4ddf-bf46-63003ece1d5a
 author: Karl-Bridge-Microsoft
 ms.author: kbridge
-keywords: windows 10, uwp, schema, voice commands, VCD
+keywords: windows 10, uwp, schema, cortana, voice commands, vcd
 ms.prod: windows
 ms.technology: winrt-reference
 ms.topic: reference
