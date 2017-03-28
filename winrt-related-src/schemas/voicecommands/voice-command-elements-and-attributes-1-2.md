@@ -1,21 +1,15 @@
 ---
 title: Voice Command Definition (VCD) elements and attributes v1.2
 description: Reference documentation for the XML markup elements and attributes used in Voice Command Definition (VCD) files to specify recognition constraints.
-MS-HAID:
-- 'w\_media\_speechrec.voice\_command\_elements\_and\_attributes\_1\_2'
-- 'w\_appmod\_vcomm.voice\_command\_elements\_and\_attributes\_1\_2'
-MSHAttr:
-- 'PreferredSiteName:MSDN'
-- 'PreferredLib:/library/windows/apps'
 Search.Product: eADQiWindows 10XVcnh
 ms.assetid: 697e3cef-ff82-4d9c-ab2f-d8ea4a4edfae
-keywords: ["Voice Command Definition (VCD) elements and attributes v1.2"]
-topic_type:
-- apiref
-api_name:
-- Voice Command Definition (VCD) elements and attributes v1.2
-api_type:
-- NA
+author: karl-bridge-microsoft
+ms.author: kbridge
+keywords: windows 10, uwp, schema, cortana, voice commands, vcd
+ms.prod: windows
+ms.technology: winrt-reference
+ms.topic: reference
+ms.date: 04/05/2017
 ---
 
 # Voice Command Definition (VCD) elements and attributes v1.2
