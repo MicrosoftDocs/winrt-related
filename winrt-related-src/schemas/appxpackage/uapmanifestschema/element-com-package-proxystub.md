@@ -61,7 +61,7 @@ Registers a proxy stub.
 | Path | The path relative to the package root. Path must reference a file in the package. | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *. | Yes |
 
 ## Remarks
-Proxy stub registrations correspond to [InprocServer32](https://msdn.microsoft.com/library/windows/desktop/ms682390.aspx) keys referenced by [ProxyStubClsid32](https://msdn.microsoft.com/library/windows/desktop/ms688573.aspx) keys.
+Proxy stub registrations correspond to the CLSID registration for the Interface's [ProxyStubClsid32](https://msdn.microsoft.com/library/windows/desktop/ms688573.aspx) keys.
 
 ## Examples
 
