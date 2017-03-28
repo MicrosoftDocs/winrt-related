@@ -844,3 +844,6 @@
 #### [Badge schema](schemas/tiles/badgeschema/schema-root.md)
 ##### [Element Hierarchy](schemas/tiles/badgeschema/root-elements.md)
 ###### [badge](schemas/tiles/badgeschema/element-badge.md)
+### [Voice command (VCD) schemas](schemas/vcd/vcd-xml-schema-portal.md)
+#### [Voice Command Definition (VCD) elements and attributes v1.1](schemas/voicecommands/voice-command-elements-and-attributes-1-1.md)
+#### [Voice Command Definition (VCD) elements and attributes v1.2](schemas/voicecommands/voice-command-elements-and-attributes-1-2.md)
