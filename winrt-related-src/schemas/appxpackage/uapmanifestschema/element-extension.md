@@ -32,7 +32,7 @@ Declares an extensibility point for the package.
 ## Syntax
 
 ``` syntax
-<Extension Category = "windows.activatableClass.inProcessServer" | "windows.activatableClass.outOfProcessServer" | "windows.activatableClass.proxyStub" | "windows.certificates" | "windows.publisherCacheFolders" >
+<Extension Category = "windows.activatableClass.inProcessServer" | "windows.activatableClass.outOfProcessServer" | "windows.activatableClass.proxyStub" | "windows.certificates" | "windows.publisherCacheFolders" | "windows.comInterface">
 
   <!-- Child elements -->
   ( InProcessServer
@@ -40,6 +40,7 @@ Declares an extensibility point for the package.
   | ProxyStub
   | Certificates
   | PublisherCacheFolders
+  | com:ComInterface
   )
 
 </Extension>
@@ -78,6 +79,7 @@ Declares an extensibility point for the package.
 <li>windows.activatableClass.proxyStub</li>
 <li>windows.certificates</li>
 <li>windows.publisherCacheFolders</li>
+<li>windows.comInterface</li>
 </ul></td>
 <td>Yes</td>
 <td></td>
@@ -120,6 +122,10 @@ Declares an extensibility point for the package.
 <tr class="odd">
 <td>[PublisherCacheFolders](element-publishercachefolders.md)</td>
 <td><p>Declares a package extensibility point of type <strong>windows.publisherCacheFolders</strong>. This specifies one or more folders that the package shares with other packages from the same publisher.</p></td>
+</tr>
+<tr class="even">
+<td>[com:ComInterface](element-com-package-interface.md)</td>
+<td><p>Declares a package extension point of type <strong>windows.comInterface.</strong></p></td>
 </tr>
 </tbody>
 </table>

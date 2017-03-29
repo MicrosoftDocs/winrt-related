@@ -50,17 +50,17 @@ Declares an extensibility point for the app.
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | Category | The category of the extension. | One of the following: windows.firewallRules, windows.desktopEventLogging | Yes |
-| Executable | The default launch executable. | A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | No |
+| Executable | The default launch executable. | A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", &#124;, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | No |
 | EntryPoint | The activatable class ID. | A string between 1 and 256 characters in length, representing the task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |
-| RuntimeType | The runtime provider. This attribute is used typically when there are mixed frameworks in an app. | A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *. | No |
-| StartPage | The web page that handles the extensibility point. | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *. | No |
+| RuntimeType | The runtime provider. This attribute is used typically when there are mixed frameworks in an app. | A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, &#124;, ?, or *. | No |
+| StartPage | The web page that handles the extensibility point. | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *. | No |
 
 
 ## Child Elements
 
 | Child Element | Description |
 |---------------|-------------|
-| [FirewallRules](element-desktop2-appprinter.md) |  |  
+| [FirewallRules](element-desktop2-appprinter.md) | Specifies firewall exception rules used by Windows Desktop Bridge apps. |  
 | [DesktopEventLogging](element-desktop2-searchfilterhandler.md) | Enables Windows Desktop Bridge apps to register for Windows event logging. | 
 
 

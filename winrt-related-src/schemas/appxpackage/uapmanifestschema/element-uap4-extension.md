@@ -64,7 +64,7 @@ Declares an extensibility point for the app.
 ## Attributes
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
-| Category | The category of the extension. | One of the following:<ul><li>windows.sharedFonts</li><li>windows.userDataTaskDataProvider</li><li>windows.mediaCodec</li><li>windows.contactPanel</li><li>windows.loopbackAccessRules</li><li>windows.devicePortalProvider</li><li>windows.printWorkflowBackgroundTask</li></ul> windows.appPrinter, windows.searchFilterHandler, windows.searchPropertyHandler, windows.mailProvider | Yes |
+| Category | The category of the extension. | One of the following:<ul><li>windows.sharedFonts</li><li>windows.userDataTaskDataProvider</li><li>windows.mediaCodec</li><li>windows.contactPanel</li><li>windows.loopbackAccessRules</li><li>windows.devicePortalProvider</li><li>windows.printWorkflowBackgroundTask</li></ul> | Yes |
 | Executable | The default launch executable. | A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", &#124;, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | No |
 | EntryPoint | The activatable class ID. | A string between 1 and 256 characters in length, representing the task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |
 | RuntimeType | The runtime provider. This attribute is used typically when there are mixed frameworks in an app. | A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, &#124;, ?, or *. | No |
@@ -77,10 +77,10 @@ Declares an extensibility point for the app.
 |---------------|-------------|
 | [SharedFonts](element-uap4-sharedFonts.md) | Contains the locations of shared fonts to be used with the app. |  
 | [UserDataTaskDataProvider](element-uap4-userDataTaskDataProvider.md) | Enables an app to become a DataProvider for a task. | 
-| [MediaCodec](element-uap4-mediacodec.md) |  |
-| [ContactPanel](element-uap4-contactpanel.md) |  |
-| [LoopbackAccessRules](element-uap4-loopbackAccessRules.md) |  |
-| [DevicePortalProvider](element-uap4-devicePortalProvider.md) |  |
+| [MediaCodec](element-uap4-mediacodec.md) | Defines an extension that enables an app to install media codecs from the Windows Store. |
+| [ContactPanel](element-uap4-contactpanel.md) | Enables the contacts panel in a Windows app. |
+| [LoopbackAccessRules](element-uap4-loopbackAccessRules.md) | Contains rules for a loopback filter that enables communication between an app and a service. |
+| [DevicePortalProvider](element-uap4-devicePortalProvider.md) | Defines a Device Portal provider for deployment. |
 
 ## Remarks
 **windows.printWorkflowBackgroundTask** is an empty extension declaration that provides support for print scenarios. The background task entry point will initially be called by the print system to start handling print data, and the foreground task will be activated when requesting more information from the user.

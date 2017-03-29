@@ -49,7 +49,7 @@ The files specified in the automatic content group.
 
 
 ## Remarks
-File names in the final content group map cannot use wildcards. Note that wildcards can be used in the source content group map, which can be converted into a final content group map. For more information, see TODO. 
+File names in the final content group map cannot use wildcards. Note that wildcards can be used in the source content group map, which can be converted into a final content group map. For more information, see [Create and convert a source content group map](https://docs.microsoft.com/windows/uwp/packaging/create-cgm). 
 
 ## Examples
 
