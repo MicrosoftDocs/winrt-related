@@ -59,8 +59,8 @@ Contains opaque XML that represents custom, extension-specific information that 
 </uap3:Properties>
 
 ```
-**Key**  
-    \* optional (zero or more)
+### Key  
+`*` optional (zero or more)
 
 ## Attributes and Elements
 

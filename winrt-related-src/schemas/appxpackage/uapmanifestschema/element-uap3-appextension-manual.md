@@ -48,26 +48,25 @@ Declares an app extensibility point of type **windows.appExtension**. This eleme
 
 
 ```
-<uap3:AppExtension Name         = A string between 2 and 39 characters in length that 
-                                  consists of alphanumeric, period (except for the first 
+<uap3:AppExtension Name         = A string between 2 and 39 characters in length that
+                                  consists of alphanumeric, period (except for the first
                                   character), and dash characters only.
-                   Id           = A string between 2 and 39 characters in length that 
-                                  consists of alphanumeric, period (except for the first 
+                   Id           = A string between 2 and 39 characters in length that
+                                  consists of alphanumeric, period (except for the first
                                   character), and dash characters only.
-                   PublicFolder = A string between 1 and 256 characters in length that 
+                   PublicFolder = A string between 1 and 256 characters in length that
                                   cannot contain these characters: <, >, :, ", |, ?, or *.
                    DisplayName  = A string between 1 and 256 characters in length.
-                   Description? = A string between 1 and 2048 characters in length that 
-                                  cannot include characters such as tabs, carriage returns, 
+                   Description? = A string between 1 and 2048 characters in length that
+                                  cannot include characters such as tabs, carriage returns,
                                   and line feeds. >
   <!-- Child elements -->
   uap3:Properties?
 </uap3:AppExtension>
 ```
 
-**Key**
-
-          ? optional (zero or one)
+### Key
+`?` optional (zero or one)
 
 ## Attributes and Elements
 
@@ -128,9 +127,9 @@ The following example indicates that the app hosts or consumes the low-performan
         <Application>
             <Extensions>
                 <uap3:Extension Category="windows.appExtension">  
-                    <uap3:AppExtension Name="com.microsoft.browser.ext" 
-                                       Id="Extension.Low.Performance" 
-                                       PublicFolder="public\lowperf" 
+                    <uap3:AppExtension Name="com.microsoft.browser.ext"
+                                       Id="Extension.Low.Performance"
+                                       PublicFolder="public\lowperf"
                                        DisplayName="Low Performance Extension"/>  
                 </uap3:Extension>  
               </Extensions>
@@ -151,6 +150,3 @@ The following example indicates that the app hosts or consumes the low-performan
  
 
  
-
-
-
