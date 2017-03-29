@@ -50,9 +50,6 @@ Enables Windows Desktop Bridge apps to install property handlers on your system.
                                 ProcessorArchitecture = One of the following: x86, x64, arm, arm64, neutral. >
 ```
 
-### Key
-`{}` specific range of occurrences
-
 ## Attributes
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|

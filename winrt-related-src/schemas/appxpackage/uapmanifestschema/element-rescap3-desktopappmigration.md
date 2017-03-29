@@ -53,7 +53,7 @@ Specifies where to redirect user tiles and pins to a Windows Desktop Bridge app.
 ```
 
 ### Key
-`{}` specific range of occurrences
+`{}` specific range of occurrences  
 `?` optional (zero or one)
 
 ## Attributes

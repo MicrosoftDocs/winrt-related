@@ -350,7 +350,7 @@
 ###### [desktop2:FilterExtension](schemas/appxpackage/uapmanifestschema/element-desktop2-filterextension.md)
 ###### [desktop2:SearchPropertyHandler](schemas/appxpackage/uapmanifestschema/element-desktop2-searchpropertyhandler.md)
 ###### [rescap2:Extension](schemas/appxpackage/uapmanifestschema/element-rescap2-extension-manual.md)
-###### [rescap3:Extension**](schemas/appxpackage/uapmanifestschema/element-rescap3-extension.md)
+###### [rescap3:Extension](schemas/appxpackage/uapmanifestschema/element-rescap3-extension.md)
 ###### [rescap3:DesktopAppMigration](schemas/appxpackage/uapmanifestschema/element-rescap3-desktopappmigration.md)
 ###### [rescap3:DesktopApp](schemas/appxpackage/uapmanifestschema/element-rescap3-desktopapp.md)
 ###### [serverpreview:Extension](schemas/appxpackage/uapmanifestschema/element-serverpreview-extension-manual.md)

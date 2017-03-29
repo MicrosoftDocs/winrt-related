@@ -62,9 +62,6 @@ The media codec input type.
 <uap4:InputType SubType = Either a 4 character code or a GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. >                 
 ```
 
-### Key
-`{}` specific range of occurrences
-
 
 ## Attributes
 | Attribute | Description | Data type | Required |

@@ -49,7 +49,7 @@ The files specified in the required content group.
 
 
 ## Remarks
-File names in the source content group map can use wildcards in names. For guidance on wildcard usage, see TODO.
+File names in the source content group map can use wildcards in names. For more information, see [Create and convert a source content group map](https://docs.microsoft.com/windows/uwp/packaging/create-cgm).
 
 ## Examples
 

@@ -56,6 +56,7 @@ Enables Windows Desktop Bridge apps to register IFilters to extract file propert
 
 ### Key
 `{}` specific range of occurrences
+`?` optional (zero or one)
 
 ## Attributes
 | Attribute | Description | Data type | Required |
