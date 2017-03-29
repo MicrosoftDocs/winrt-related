@@ -1,4 +1,4 @@
-﻿# [Index](index.md)
+﻿# [API reference for UWP apps](index.md)
 ## [Windows Runtime (WinRT) namespaces](http://docs.microsoft.com/uwp/api/)
 ## [Extension SDKs](extension-sdks/index.md)
 ### [Universal SDK](extension-sdks/windows-universal-sdk.md)
