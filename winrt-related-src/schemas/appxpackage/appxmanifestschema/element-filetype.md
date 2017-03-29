@@ -1,5 +1,5 @@
 ---
-Description: 'FileType (in type: CT_FTASupportedFileTypes)'
+Description: A supported file type specified as its file type extension.
 Search.Product: eADQiWindows 10XVcnh
 title: 'FileType (in type: CT_FTASupportedFileTypes)'
 ms.assetid: ee9a5cc3-18aa-458e-88aa-b1000c35abd3

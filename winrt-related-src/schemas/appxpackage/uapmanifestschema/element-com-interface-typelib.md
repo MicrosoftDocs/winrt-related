@@ -5,19 +5,19 @@ title: com:TypeLib (in ComInterface/Interface)
 description: A type library for an interface.
 ms.author: lahugh
 ms.date: 03/29/2017
-ms.topic: article
+ms.topic: reference
 ms.prod: windows
-ms.technology: uwp
+ms.technology: winrt-reference
 keywords: windows 10, uwp, schema, manifest, com
 ---
 
 
 # com:TypeLib (in ComInterface/Interface)
 
-## -description
+## Description
 A type library for an interface.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -55,7 +55,7 @@ A type library for an interface.
 
 
 
-## -syntax
+## Syntax
 ```syntax
 <com:TypeLib
     Id = A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. 
@@ -63,21 +63,21 @@ A type library for an interface.
 </com:TypeLib>
 ```
 
-## -key
+## Key
 `?`    optional (zero or one) 
 
-## -attributes
+## Attributes
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | Id      | The type library ID. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |
 | VersionNumber | The version of the type library. | One to three alphanumeric characters separated by a period followed by one to three more alphanumeric characters, e.g., 1.5a | No |
 
-## -remarks
+## Remarks
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

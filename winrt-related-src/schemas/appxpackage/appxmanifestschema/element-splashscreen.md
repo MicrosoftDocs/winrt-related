@@ -1,5 +1,5 @@
 ---
-Description: SplashScreen
+Description: Defines the appearance of the splash screen, which is displayed by the app during launch.
 Search.Product: eADQiWindows 10XVcnh
 title: SplashScreen
 ms.assetid: eecce5dd-09c3-4f47-b271-0a04fcd64d44

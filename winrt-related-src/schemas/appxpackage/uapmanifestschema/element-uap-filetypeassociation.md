@@ -47,8 +47,10 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 ## Syntax
 
 ``` syntax
-<FileTypeAssociation Name         = A string between 1 and 100 characters in length.
-                         DesiredView? = "default" | "useLess" | "useHalf" | "useMore" | "useMinimum" >
+<FileTypeAssociation  Name         = A string between 1 and 100 characters in length.
+                      DesiredView? = "default" | "useLess" | "useHalf" | "useMore" | "useMinimum" 
+                      desktop2:UseUrl? = boolean.
+                      desktop2:AllowSilentDefaultTakeOver? = boolean >
 
   <!-- Child elements -->
   ( uap:DisplayName?
@@ -56,6 +58,13 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
   & uap:InfoTip?
   & uap:EditFlags?
   & uap:SupportedFileTypes
+  & uap2:SupportedVerbs
+  & uap4:KindMap
+  & rescap3:MigrationProgIds
+  & desktop2:ThumbnailHandler
+  & desktop2:OleClass
+  & desktop2:DesktopPreviewHandler
+  & desktop2:DesktopPropertyHandler
   )
 
 </uap:FileTypeAssociation>
@@ -110,6 +119,20 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 <td>Yes</td>
 <td></td>
 </tr>
+<tr class="odd">
+<td><strong>desktop2:AllowSilentDefaultTakeOver</strong></td>
+<td><p>If set to **true**, the app will appear in an "Open With" list, but it won't be the default app for the file type.</p></td>
+<td>Boolean.</td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>desktop2:UseUrl</strong></td>
+<td><p>If set to true, the file will be opened with the URL path directly.</p></td>
+<td>Boolean.</td>
+<td>No</td>
+<td></td>
+</tr>
 </tbody>
 </table>
 
@@ -149,10 +172,38 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 <td>[uap:SupportedFileTypes (type: CT_FTASupportedFileTypes)](element-uap-supportedfiletypes.md)</td>
 <td><p>Defines the file types associated with the app. They are unique per package and are case sensitive.</p></td>
 </tr>
+<tr class="even">
+<td>[uap2:SupportedVerbs](element-uap2-supportedverbs.md)</td>
+<td><p>Contains verbs for a file context menu.</p></td>
+</tr>
+<tr class="even">
+<td>[uap4:KindMap](element-uap4-kindmap.md)</td>
+<td><p>Specifies what Kind is and how it's used.</p></td>
+</tr>
+<tr class="odd">
+<td>[rescap3:MigrationProgIds](element-rescap3-migrationprogids.md)</td>
+<td><p>TODO</p></td>
+</tr>
+<tr class="even">
+<td>[desktop2:ThumbnailHandler](element-desktop2-ThumbnailHandler.md)</td>
+<td><p>Enables a ThumbnailProvider for a file type association.</p></td>
+</tr>
+<tr class="odd">
+<td>[desktop2:OleClass](element-desktop2-oleclass.md)</td>
+<td><p>Enables OLE to get the OLE class registered for a given file extension.</p></td>
+</tr>
+<tr class="even">
+<td>[desktop2:DesktopPreviewHandler](element-desktop2-DesktopPreviewHandler.md)</td>
+<td><p>Enables declaration of a preview handler for a file type association.
+</p></td>
+</tr>
+<tr class="odd">
+<td>[desktop2:DesktopPropertyHandler](element-desktop2-DesktopPropertyHandler.md)</td>
+<td><p>Enables declaration of a property handler for a file type association.
+</p></td>
+</tr>
 </tbody>
 </table>
-
- 
 
 ### Parent Elements
 

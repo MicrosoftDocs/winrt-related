@@ -1,5 +1,5 @@
 ---
-Description: Protocol
+Description: Declares an app extensibility point of type windows.protocol.
 Search.Product: eADQiWindows 10XVcnh
 title: Protocol
 ms.assetid: ac911c85-02eb-408c-8c4b-24a4e172df8b

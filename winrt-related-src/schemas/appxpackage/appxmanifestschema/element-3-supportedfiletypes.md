@@ -1,5 +1,5 @@
 ---
-Description: 'SupportedFileTypes (type: CT_CharmsSupportedFileTypes)'
+Description: Defines the file types that the app can share.
 Search.Product: eADQiWindows 10XVcnh
 title: 'SupportedFileTypes (type: CT_CharmsSupportedFileTypes)'
 ms.assetid: fd3072eb-572d-4855-8a9c-3de1599b5a00

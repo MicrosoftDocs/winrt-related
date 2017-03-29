@@ -4,9 +4,9 @@ description: This topic lists changes to the package manifest schema reference f
 ms.assetid: 2afadf58-6dcc-4959-b97b-47d2075af692
 author: laurenhughes
 ms.author: lahugh
-ms.topic: article
+ms.topic: reference
 ms.prod: windows
-ms.technology: uwp
+ms.technology: winrt-reference
 
 keywords: windows 10, uwp, schema, package manifest
 ms.prod: windows

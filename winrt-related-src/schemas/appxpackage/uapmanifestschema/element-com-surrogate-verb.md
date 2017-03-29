@@ -5,19 +5,19 @@ title: com:Verb
 description: The verb to be registered for an application.
 ms.author: lahugh
 ms.date: 03/29/2017
-ms.topic: article
+ms.topic: reference
 ms.prod: windows
-ms.technology: uwp
+ms.technology: winrt-reference
 keywords: windows 10, uwp, schema, manifest, com
 ---
 
 
 # com:Verb
 
-## -description
+## Description
 The verb to be registered for an application.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -64,7 +64,7 @@ The verb to be registered for an application.
 </dl>
 
 
-## -syntax
+## Syntax
 ```syntax
 <com:Verb
     Id = An integer value in the range of -6 to 1000.
@@ -74,9 +74,9 @@ The verb to be registered for an application.
 </com:Verb>
 ```
 
-## -key
+## Key
 
-## -attributes 
+## Attributes 
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
@@ -85,11 +85,11 @@ The verb to be registered for an application.
 | AppendMenuFlag | Indicates how the verb should appear in the menu. | An integer value in the range of 0 to 2431. | Yes |
 | OleVerbFlag | Describes the attributes of a verb. Use either 0 or a value from the [OLEVERBATTRIB](https://msdn.microsoft.com/library/windows/desktop/ms686659.aspx) enumeration. | An integer value in the range of 0 to 3. | Yes |
 
-## -remarks
+## Remarks
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

@@ -5,19 +5,19 @@ title: com:ImplementedCategory (in SurrogateServer/Class)
 description: Indicates that the class has implemented the specified category.
 ms.author: lahugh
 ms.date: 03/29/2017
-ms.topic: article
+ms.topic: reference
 ms.prod: windows
-ms.technology: uwp
+ms.technology: winrt-reference
 keywords: windows 10, uwp, schema, manifest, com
 ---
 
 
 # com:ImplementedCategory (in SurrogateServer/Class)
 
-## -description
+## Description
 Indicates that the class has implemented the specified category.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -65,26 +65,26 @@ Indicates that the class has implemented the specified category.
 
 
 
-## -syntax
+## Syntax
 ```syntax
 <com:ImplementedCategory
     Id = A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. >
 </com:ImplementedCategory>
 ```
 
-## -key
+## Key
 
-## -attributes 
+## Attributes 
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | Id | The ID of the COM category that is implemented. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |
 
-## -remarks
+## Remarks
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

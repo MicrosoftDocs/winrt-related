@@ -5,18 +5,18 @@ title: com:MiscStatus (in ExeServer/Class)
 description: Specifies how to create and display an object.
 ms.author: lahugh
 ms.date: 03/29/2017
-ms.topic: article
+ms.topic: reference
 ms.prod: windows
-ms.technology: uwp
+ms.technology: winrt-reference
 keywords: windows 10, uwp, schema, manifest, com
 ---
 
 # com:MiscStatus (in ExeServer/Class)
 
-## -description
+## Description
 Specifies how to create and display an object.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -58,7 +58,7 @@ Specifies how to create and display an object.
 </dl>
 
 
-## -syntax
+## Syntax
 ```syntax
 <com:MiscStatus>  
   <!-- Child elements -->
@@ -66,19 +66,19 @@ Specifies how to create and display an object.
 </com:MiscStatus>
 ```
 
-## -key
+## Key
 
-## -child-elements
+## Child Elements
 
 | Child Element | Description |
 |---------------|-------------|
 | [Aspect](element-com-exe-aspect.md) | Specifies the desired data or view aspect of the object when drawing or getting data. |
 
-## -remarks
+## Remarks
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

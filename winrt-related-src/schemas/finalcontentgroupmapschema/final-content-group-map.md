@@ -15,7 +15,7 @@ keywords: windows 10, uwp, streaming install, content group, map, final content 
 
 ## Purpose
 
-The final content group map file is an XML document (AppxContentGroupMap.xml) that contains required and automatic content groups for UWP app streaming install.
+The final content group map file is an XML document (AppxContentGroupMap.xml) that contains automatic content groups for UWP app streaming install.
 
 ## Developer audience
 

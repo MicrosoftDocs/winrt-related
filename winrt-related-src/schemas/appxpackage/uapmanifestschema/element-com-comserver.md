@@ -5,18 +5,18 @@ title: com:ComServer
 description: Declares a package extension point of type windows.comServer.
 ms.author: lahugh
 ms.date: 03/29/2017
-ms.topic: article
+ms.topic: reference
 ms.prod: windows
-ms.technology: uwp
+ms.technology: winrt-reference
 keywords: windows 10, uwp, schema, manifest, com
 ---
 
 # com:ComServer
 
-## -description
+## Description
 Declares a package extension point of type **windows.comServer**. The **comServer** extension may include four types of registrations: **ExeServer**, **SurrogateServer**, **ProgId**, or **TreatAsClass**.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -43,7 +43,7 @@ Declares a package extension point of type **windows.comServer**. The **comServe
 </dl>
 
 
-## -syntax
+## Syntax
 ```syntax
 <ComServer>
   <!-- Child elements -->
@@ -55,10 +55,10 @@ Declares a package extension point of type **windows.comServer**. The **comServe
 </ComServer>
 ```
 
-## -key
+## Key
 `{}`   specific range of occurrences
 
-## -child-elements
+## Child Elements
 
 | Child Element | Description |
 |---------------|-------------|
@@ -68,7 +68,7 @@ Declares a package extension point of type **windows.comServer**. The **comServe
 | [TreatAsClass](element-com-treatasclass.md) | A registration that corresponds to a CLSID registration with the TreatAs subkey. | 
 
 
-## -remarks
+## Remarks
 In multi-application packages, it's important to place the COM server registration under the correct Applications/Application manifest element, because COM server processes will run with the identity of the ancestor Applications/Application element.
 
 For multi-application packages:
@@ -86,9 +86,9 @@ Based on the behaviors described above, adding an [AppId](https://msdn.microsoft
 
 It is possible to have multiple **comServer** extensions under the Applications/Application element, but that is neither necessary nor recommended.
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 
 <table>
 <colgroup>

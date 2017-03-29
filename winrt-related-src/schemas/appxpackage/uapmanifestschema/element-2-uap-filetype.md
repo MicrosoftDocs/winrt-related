@@ -1,7 +1,7 @@
 ---
 Description: A file type specified as its file type extension.
 Search.Product: eADQiWindows 10XVcnh
-title: uap:FileType (in uap:FileOpenPicker/uap:SupportedFileTypes)
+title: uap:FileType (uap:FileOpenPicker/uap:SupportedFileTypes)
 ms.assetid: bc6e06c8-552b-4113-b92f-3f9e7228ebf2
 author: laurenhughes
 ms.author: lahugh

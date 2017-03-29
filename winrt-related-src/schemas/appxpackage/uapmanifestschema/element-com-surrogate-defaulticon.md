@@ -5,19 +5,19 @@ title: com:DefaultIcon (in SurrogateServer/Class)
 description: Provides default icon information for iconic presentations of objects.
 ms.author: lahugh
 ms.date: 03/29/2017
-ms.topic: article
+ms.topic: reference
 ms.prod: windows
-ms.technology: uwp
+ms.technology: winrt-reference
 keywords: windows 10, uwp, schema, manifest, com
 ---
 
 
 # com:DefaultIcon (in SurrogateServer/Class)
 
-## -description
+## Description
 Provides default icon information for iconic presentations of objects.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -59,7 +59,7 @@ Provides default icon information for iconic presentations of objects.
 </dl>
 
 
-## -syntax
+## Syntax
 ```syntax
 <com:DefaultIcon
   Path = A string between 1 and 256 characters in length that cannot contain these characters: <, >;, :, ", |, ?, or *.
@@ -67,21 +67,21 @@ Provides default icon information for iconic presentations of objects.
 </com:DefaultIcon>
 ```
 
-## -key
+## Key
 `?`    optional (zero or one)
 
-## -attributes
+## Attributes
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | Path | The full path to the executable name of the server application. | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *. | Yes |
 | ResourceIndex | The integer at the end of the path, separated from the path by a comma, e.g., C:\Foo\Bar\Baz.exe,5. See the nIconIndex parameter in [ExtractIcon](https://msdn.microsoft.com/library/windows/desktop/ms648068.aspx) for more details. | An integer type. | No |
 
-## -remarks
+## Remarks
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

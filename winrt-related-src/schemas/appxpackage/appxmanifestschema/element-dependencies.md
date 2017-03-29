@@ -1,5 +1,5 @@
 ---
-Description: Dependencies
+Description: Declares other packages that a package depends on to complete its software.
 Search.Product: eADQiWindows 10XVcnh
 title: Dependencies
 ms.assetid: a1e745c9-a804-42cf-a107-7fb860cc8289

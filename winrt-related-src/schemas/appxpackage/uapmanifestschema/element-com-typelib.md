@@ -5,19 +5,19 @@ title: com:TypeLib
 description: Registers a type library.
 ms.author: lahugh
 ms.date: 03/29/2017
-ms.topic: article
+ms.topic: reference
 ms.prod: windows
-ms.technology: uwp
+ms.technology: winrt-reference
 keywords: windows 10, uwp, schema, manifest, com
 ---
 
 
 # com:TypeLib 
 
-## -description
+## Description
 Registers a type library.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -48,7 +48,7 @@ Registers a type library.
 </dd>
 </dl>
 
-## -syntax
+## Syntax
 ```syntax
 <com:TypeLib
     Id = A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. >
@@ -58,27 +58,27 @@ Registers a type library.
 </com:TypeLib>
 ```
 
-## -key
+## Key
 `{}`   specific range of occurrences 
 
-## -attributes
+## Attributes
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | Id      | The type library ID. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |
 
-## -child-elements
+## Child Elements
  
 | Child Element | Description |
 |---------------|-------------|
 | [Version](element-com-version.md) | Version number and additional information about the type library. |
 
 
-## -remarks
+## Remarks
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

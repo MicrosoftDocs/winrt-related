@@ -1,5 +1,5 @@
 ---
-Description: 'FileType (type: ST_FileType)'
+Description: A file type specified as its file type extension.
 Search.Product: eADQiWindows 10XVcnh
 title: 'FileType (type: ST_FileType)'
 ms.assetid: a3792047-9fbf-42d5-b629-0025717d0323

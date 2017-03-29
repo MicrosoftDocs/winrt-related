@@ -100,9 +100,6 @@ This outermost (document) element may not be contained by any other elements.
 
 This table shows the available status glyphs.
 
--   [Windows glyphs](#win-badge)
--   [Windows Phone glyphs](#phone-badge)
-
 ### Windows glyphs
 
 The available glyphs for use with Windows are shown here, together with their XML equivalent in the badge template.

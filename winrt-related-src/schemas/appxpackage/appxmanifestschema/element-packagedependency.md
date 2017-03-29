@@ -1,5 +1,5 @@
 ---
-Description: PackageDependency
+Description: Declares a dependency on another package that is marked as a framework package.
 Search.Product: eADQiWindows 10XVcnh
 title: PackageDependency
 ms.assetid: 7f0800a1-f1dd-48c2-aba0-3701dd27d383

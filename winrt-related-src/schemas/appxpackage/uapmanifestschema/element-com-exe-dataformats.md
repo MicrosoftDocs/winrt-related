@@ -5,18 +5,18 @@ title: com:DataFormats (in ExeServer/Class)
 description: Specifies the default and main data formats supported by an application.
 ms.author: lahugh
 ms.date: 03/29/2017
-ms.topic: article
+ms.topic: reference
 ms.prod: windows
-ms.technology: uwp
+ms.technology: winrt-reference
 keywords: windows 10, uwp, schema, manifest, com
 ---
 
 # com:DataFormats (in ExeServer/Class)
 
-## -description
+## Description
 Specifies the default and main data formats supported by an application.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -57,7 +57,7 @@ Specifies the default and main data formats supported by an application.
 </dd>
 </dl>
 
-## -syntax
+## Syntax
 ```syntax
 <com:DataFormats
   DefaultFormatName = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
@@ -68,30 +68,30 @@ Specifies the default and main data formats supported by an application.
 </com:DataFormats>
 ```
 
-## -key
+## Key
 `{}`   specific range of occurrences 
 
-## -attributes
+## Attributes
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | DefaultFormatName | The string value of the format name. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |
 | DefaultStandardFormat | The hexadecimal value of the format name. | A string in hexadecimal format containing numbers or the letters a, b, c, d, e, f (capital or lower case). | Yes |
 
-## -child-elements
+## Child Elements
 
 | Child Element | Description |
 |---------------|-------------|
 | [DataFormat](element-com-exe-dataformat.md) | The data format supported by an application. |
 
-## -remarks
+## Remarks
 **DefaultFormatName** is the string value, and **DefaultStandardFormat** is the integer value of the supported data formats. These values are mutually exclusive.
 
 This element corresponds to the [DataFormats](https://msdn.microsoft.com/library/windows/desktop/ms678525.aspx) subkey.
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />

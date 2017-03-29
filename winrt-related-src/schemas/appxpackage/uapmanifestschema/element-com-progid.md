@@ -5,19 +5,19 @@ title: com:ProgId
 description: A programmatic identifier (ProgID) that can be associated with a CLSID.
 ms.author: lahugh
 ms.date: 03/29/2017
-ms.topic: article
+ms.topic: reference
 ms.prod: windows
-ms.technology: uwp
+ms.technology: winrt-reference
 keywords: windows 10, uwp, schema, manifest, com
 ---
 
 
 # com:ProgId
 
-## -description
+## Description
 A programmatic identifier (ProgID) that can be associated with a CLSID. The ProgID identifies a class but with less precision than a CLSID because it is not guaranteed to be globally unique.
 
-## -element-hierarchy
+## Element Hierarchy
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -48,7 +48,7 @@ A programmatic identifier (ProgID) that can be associated with a CLSID. The Prog
 </dd>
 </dl>
 
-## -syntax
+## Syntax
 ```syntax
 <com:ProgId 
     Id = An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1
@@ -57,10 +57,10 @@ A programmatic identifier (ProgID) that can be associated with a CLSID. The Prog
 </com:ProgId>
 ```
 
-## -key
+## Key
 `?`   optional (zero or more)
 
-## -attributes
+## Attributes
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
@@ -68,7 +68,7 @@ A programmatic identifier (ProgID) that can be associated with a CLSID. The Prog
 | Clsid | Associates a ProgID with a CLSID. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |
 | CurrentVersion | The version of the ProgID. | An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1 | No |
 
-## -remarks
+## Remarks
 The **Clsid** attribute must reference the **Id** attribute of an ExeServer class, SurrogateServer class, or TreatAsClass registration within the same [ComServer](element-com-comserver.md) extension.
 
 For more information on the ProgID, see [&lt;ProgID&gt; Key](https://msdn.microsoft.com/library/windows/desktop/dd542719.aspx).
@@ -76,9 +76,9 @@ For more information on the ProgID, see [&lt;ProgID&gt; Key](https://msdn.micros
 > [!NOTE]
 > Clsid and CurrentVersion are mutually exclusive, but at least one must be provided.
 
-## -examples
+## Examples
 
-## -requirements
+## Requirements
 <table>
 <colgroup>
 <col width="50%" />
