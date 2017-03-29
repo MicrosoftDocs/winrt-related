@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: windows
 ms.technology: uwp
 keywords: windows 10, uwp, schema
+ms.date: 04/05/2017
 ---
 
 # File and XML schema specifications for UWP apps

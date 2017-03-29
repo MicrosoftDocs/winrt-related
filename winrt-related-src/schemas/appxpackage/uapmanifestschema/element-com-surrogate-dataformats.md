@@ -5,9 +5,9 @@ title: com:DataFormats (in SurrogateServer/Class)
 description: Specifies the default and main data formats supported by an application.
 ms.author: lahugh
 ms.date: 03/29/2017
-ms.topic: article
+ms.topic: reference
 ms.prod: windows
-ms.technology: uwp
+ms.technology: winrt-reference
 keywords: windows 10, uwp, schema, manifest, com
 ---
 
