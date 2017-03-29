@@ -54,9 +54,8 @@ Declares an app extensibility point of type **windows.appExtensionHost**. This e
 </uap3:AppExtensionHost>
 ```
 
-**Key**
-
-          + one or more
+**Key**  
+    \+ one or more
 
 ## Attributes and Elements
 
@@ -95,7 +94,7 @@ The following example indicates that the app can host the Office spell check and
             <Extensions>
                 <uap3:Extension Category="windows.appExtensionHost">  
                     <uap3:AppExtensionHost>  
-                        <uap3:Name>com.microsoft.office.spellcheck.ext</uap3:Name> 
+                        <uap3:Name>com.microsoft.office.spellcheck.ext</uap3:Name>
                         <uap3:Name>com.microsoft.office.browser.ext</uap3:Name>  
                     </uap3:AppExtensionHost>  
                 </uap3:Extension>
@@ -117,6 +116,3 @@ The following example indicates that the app can host the Office spell check and
  
 
  
-
-
-

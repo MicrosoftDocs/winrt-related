@@ -49,20 +49,6 @@ Contains opaque XML that represents custom, extension-specific information that 
 </dd>
 </dl>
 
-[**&lt;Package&gt;**](element-package.md)
-
-          [**&lt;Applications&gt;**](element-applications.md)
-
-                    [**&lt;Application&gt;**](element-application.md)
-
-                              [**&lt;Extensions&gt;**](element-1-extensions.md)
-
-                                        [**&lt;uap3:Extension&gt;**](element-uap3-extension-manual.md)
-
-                                                  [**&lt;uap3:AppExtension&gt;**](element-uap3-appextension-manual.md)
-
-                                                            **&lt;uap3:Properties&gt;**
-
 ## Syntax
 
 
