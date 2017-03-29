@@ -33,9 +33,10 @@ As with any XML file, a VCD file should begin with an XML declaration that speci
 
 <table>
 <tr>
-<th colspan="2" scope="col">Element</th>
-<th scope="col">Description</th>
+<th colspan="2">Element</th>
+<th>Description</th>
 </tr>
+
 <tr>
 <td colspan="2">VoiceCommands</td>
 <td>Required. The root element of a VCD file. The value of its <strong>xmlns</strong> attribute must be <strong>http://schemas.microsoft.com/voicecommands/1.2</strong> (no uppercase characters). Contains between 1 and 15 <strong>CommandSet</strong> elements, each of which represents the voice commands for a single language.</td>
@@ -46,7 +47,7 @@ As with any XML file, a VCD file should begin with an XML declaration that speci
 </td>
 </tr>
 <tr>
-<th rowspan="2" scope="row">Mutually exclusive</th>
+<td rowspan="2">Mutually exclusive</td>
 <td>CommandPrefix</td>
 <td><p>Optional child element of the <strong>CommandSet</strong> element. If present, must be the first child element of the <strong>CommandSet</strong> element.</p>
 <p>Specifies a user-friendly name for an app that a user can speak when giving a voice command. This is useful for apps with names that are long or are difficult to pronounce.</p>
@@ -93,8 +94,9 @@ As with any XML file, a VCD file should begin with an XML declaration that speci
 <tr>
 <td colspan="2">Feedback</td>
 <td>Required child element of the <strong>Command</strong> element. Specifies the text that will be displayed and read back to the user when the command is recognized. If the <strong>Feedback</strong> element includes a reference to a <strong>Label</strong> attribute of a <strong>PhraseList</strong> (or <strong>PhraseTopic</strong>) element, then every <strong>ListenFor</strong> element in the containing <strong>Command</strong> element must also reference the same <strong>Label</strong> attribute of the <strong>PhraseList</strong> (or <strong>PhraseTopic</strong>) element.</td></tr>
-<tr><th rowspan="2" scope="row">Mutually exclusive
-</th><td>Navigate</td><td>Required child element of the <strong>Command</strong> element, unless the <strong>Command</strong> element has a <strong>VoiceCommandService</strong> child element. The <strong>Target</strong> attribute is optional and is typically used to specify the page that the app should navigate to when it launches. You can obtain the value of the <strong>Target</strong> attribute (or the empty string if you omit the <strong>Target</strong> attribute) from the <a href="https://msdn.microsoft.com/en-us/library/windows/apps/windows.media.speechrecognition.speechrecognitionsemanticinterpretation.properties"><strong>SpeechRecognitionSemanticInterpretation.Properties</strong></a> dictionary using the "NavigationTarget" key.</td>
+<tr>
+<td rowspan="2">Mutually exclusive</td>
+<td>Navigate</td><td>Required child element of the <strong>Command</strong> element, unless the <strong>Command</strong> element has a <strong>VoiceCommandService</strong> child element. The <strong>Target</strong> attribute is optional and is typically used to specify the page that the app should navigate to when it launches. You can obtain the value of the <strong>Target</strong> attribute (or the empty string if you omit the <strong>Target</strong> attribute) from the <a href="https://msdn.microsoft.com/en-us/library/windows/apps/windows.media.speechrecognition.speechrecognitionsemanticinterpretation.properties"><strong>SpeechRecognitionSemanticInterpretation.Properties</strong></a> dictionary using the "NavigationTarget" key.</td>
 </tr>
 <tr>
 <td>VoiceCommandService</td>
@@ -125,8 +127,8 @@ As with any XML file, a VCD file should begin with an XML declaration that speci
 
 <table>
 <tr>
-<th scope="col">Special character</th>
-<th scope="col">Description</th>
+<th>Special character</th>
+<th>Description</th>
 </tr>
 <tr>
 <td>{}</td>

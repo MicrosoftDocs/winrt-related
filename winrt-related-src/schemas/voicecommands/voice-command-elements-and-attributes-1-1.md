@@ -36,7 +36,7 @@ As with any XML file, a VCD file should begin with an XML declaration that speci
 
 <table>
 <tr>
-<th colspan="2" scope="col">Element</th><th scope="col">Description</th>
+<th colspan="2">Element</th><th>Description</th>
 </tr>
 <tr><td colspan="2">VoiceCommands</td>
 <td>Required. The root element of a VCD file. The value of its <strong>xmlns</strong> attribute must be <strong>http://schemas.microsoft.com/voicecommands/1.1</strong> (no uppercase characters). Contains between 1 and 15 <strong>CommandSet</strong> elements, each of which represents the voice commands for a single language.</td>
@@ -100,8 +100,8 @@ Navigate</td><td>Required child element of the <strong>Command</strong> element.
 
 <table>
 <tr>
-<th scope="col">Special character</th>
-<th scope="col">Description</th>
+<th>Special character</th>
+<th>Description</th>
 </tr>
 <tr>
 <td>{}</td>
