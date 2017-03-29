@@ -23,7 +23,7 @@ StoreManifest.xml is an optional configuration file that may be included in pack
 ## In this section
 
 
--   [StoreManifest schema (Windows 10)](storemanifestschema2015/schema-root.md)
+-   [StoreManifest schema](storemanifestschema2015/schema-root.md)
 -   [StoreManifest schema (Windows 8.1 and earlier)](storemanifestschema2010/schema-root.md)
 
  

@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# mobile:Capability (Windows 10)
+# mobile:Capability 
 
 
 Declares a capability required by a package.
