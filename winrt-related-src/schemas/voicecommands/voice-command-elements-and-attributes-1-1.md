@@ -114,9 +114,9 @@ Navigate</td><td>Required child element of the <strong>Command</strong> element.
 
 ## See also
 
-[**Windows.ApplicationModel.VoiceCommands**](windows-applicationmodel-voicecommands.md)
+[Windows.ApplicationModel.VoiceCommands](windows-applicationmodel-voicecommands.md)
 
-[**VCD elements and attributes v1.2**](voice-command-elements-and-attributes-1-2.md)
+[VCD elements and attributes v1.2](voice-command-elements-and-attributes-1-2.md)
 
 [Cortana interactions](https://dev.microsoft.com/cortana)
 
