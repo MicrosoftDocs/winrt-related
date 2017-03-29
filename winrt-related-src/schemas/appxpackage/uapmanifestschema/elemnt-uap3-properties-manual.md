@@ -69,9 +69,12 @@ Contains opaque XML that represents custom, extension-specific information that 
 ```
 <uap3:Properties>
   <!-- Child elements -->
-  xsd:any
+  xsd:any*
 </uap3:Properties>
+
 ```
+**Key**  
+    \* optional (zero or more)
 
 ## Attributes and Elements
 
@@ -109,9 +112,9 @@ The following example indicates that the app hosts or consumes the low-performan
         <Application>
             <Extensions>
                 <uap3:Extension Category="windows.appExtension">  
-                    <uap3:AppExtension Name="com.microsoft.browser.ext" 
-                                       Id="Extension.High.Performance" 
-                                       PublicFolder="public\highperf" 
+                    <uap3:AppExtension Name="com.microsoft.browser.ext"
+                                       Id="Extension.High.Performance"
+                                       PublicFolder="public\highperf"
                                        DisplayName="High Performance Extension">  
                         <uap3:Properties>  
                             <!-- The content of this element is custom. -->
@@ -140,6 +143,3 @@ The following example indicates that the app hosts or consumes the low-performan
  
 
  
-
-
-
