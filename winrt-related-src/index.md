@@ -134,6 +134,7 @@ The Universal Windows Platform (UWP) introduces a common API that you can use to
                 <div class="card">
                     <div class="cardText">
                         <h3>Languages</h3>
+                        <p><a href="https://msdn.microsoft.com/library/618ayhy6.aspx">C# reference</a></p>
                         <p><a href="https://msdn.microsoft.com/library/windows/apps/hh699871.aspx">Visual C++ language reference (C++/CX)</a></p>
                         <p><a href="https://msdn.microsoft.com/library/windows/apps/jj613794.aspx">JavaScript reference</a></p>
                     </div>
