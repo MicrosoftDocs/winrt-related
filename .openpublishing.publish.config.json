@@ -1,8 +1,8 @@
 {
   "need_generate_pdf": false,
   "need_generate_intellisense": false,
-  "git_repository_url_open_to_public_contributors": "https://cpubwin.visualstudio.com/windows-uwp/_git/winrt-related",
-"git_repository_branch_open_to_public_contributors": "master",
+  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/winrt-related",
+"git_repository_branch_open_to_public_contributors": "docs",
   "docsets_to_publish": [
     {
       "docset_name": "winrt-related",
@@ -10,11 +10,7 @@
       "build_output_subfolder": "winrt-related",
       "locale": "en-us",
       "monikers": [],
-<<<<<<< HEAD
-      "open_to_public_contributors": false,
-=======
       "open_to_public_contributors": true,
->>>>>>> master
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
