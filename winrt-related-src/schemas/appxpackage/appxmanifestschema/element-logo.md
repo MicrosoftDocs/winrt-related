@@ -122,25 +122,7 @@ None.
 
 The logo image can be given as either a direct path to an image file or as a resource. By using a resource reference, you can supply images of different scales so that Windows can choose the best size for the device and screen resolution. You can also supply high contrast images for accessibility and localized images to match different UI languages. For more info, see the [Globalization](https://msdn.microsoft.com/library/windows/apps/hh831183) topic.
 
-Size requirements of logo images provided through this element for various parent elements are shown here:
-
-Image
-Scale
-Image size in pixels
-Package\\Properties\\Logo
-100
-50x50
-140
-70x70
-180
-90x90
-Applications\\Application\\Extensions\\Extension\\FileTypeAssociation\\Logo
-Does not use scale
-N/A
-Applications\\Application\\Extensions\\Extension\\Protocol\\Logo
-Does not use scale
-N/A
- 
+For more information on size requirements of the logo, see [Asset size tables](https://docs.microsoft.com/windows/uwp/controls-and-patterns/tiles-and-notifications-app-assets#asset-size-tables). 
 
 ## Requirements
 
