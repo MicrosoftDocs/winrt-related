@@ -38,6 +38,7 @@ The following list summarizes the allowed hierarchies for this schema, starting 
         -   [**Capability**](element-capability.md)
         -   [**uap:Capability**](element-uap-capability.md)
         -   [**uap3:Capability**](element-uap3-capability-manual.md)
+        -   [**uap4:CustomCapability**](element-uap4-customcapability.md)
         -   [**DeviceCapability**](element-devicecapability.md)
             -   [**Device**](element-device.md)
                 -   [**Function**](element-function.md)

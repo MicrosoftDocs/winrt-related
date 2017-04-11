@@ -238,6 +238,7 @@
 ###### [Capability](schemas/appxpackage/uapmanifestschema/element-capability.md)
 ###### [uap:Capability](schemas/appxpackage/uapmanifestschema/element-uap-capability.md)
 ###### [uap3:Capability](schemas/appxpackage/uapmanifestschema/element-uap3-capability-manual.md)
+###### [uap4:CustomCapability](schemas/appxpackage/uapmanifestschema/element-uap4-customcapability.md)
 ###### [mobile:Capability](schemas/appxpackage/uapmanifestschema/element-mobile-capability-manual.md)
 ###### [DeviceCapability](schemas/appxpackage/uapmanifestschema/element-devicecapability.md)
 ###### [Device](schemas/appxpackage/uapmanifestschema/element-device.md)
