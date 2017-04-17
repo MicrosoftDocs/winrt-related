@@ -71,15 +71,7 @@ Declares a package extension point of type **windows.comServer**. The **comServe
 ## Remarks
 In multi-application packages, it's important to place the COM server registration under the correct Applications/Application manifest element, because COM server processes will run with the identity of the ancestor Applications/Application element.
 
-For multi-application packages:
-- If an [AppID](https://msdn.microsoft.com/library/windows/desktop/ms682359.aspx) key contains an [AppId](https://msdn.microsoft.com/library/windows/desktop/ms688754.aspx) value, place all COM server registrations associated with the AppID key under the Applications/Application manifest element with the **Id** attribute that matches the **ApplicationId** value.
-- If the [AppId](https://msdn.microsoft.com/library/windows/desktop/ms688754.aspx) is not specified in the package's private registry hive, you must group COM servers manually by application. 
-
-COM servers have two main behaviors:
-- Activate As Package (AAP) behavior is the default behavior of packaged COM registrations in the manifest. The COM server runs with the default session token with package and application claims added.
-- Activate As Activator (AAA) is the default behavior when COM servers do not specify the [AppId](https://msdn.microsoft.com/library/windows/desktop/ms688754.aspx). AAA means that COM launches one instance of the COM server process for each distinct client token. For example, if Word and Excel both activate a PowerPoint COM server registered in the package's private registry hive as AAA, they would get separate instances of PowerPoint (one with Word's identity and one with Excel's identity).
-
-Based on the behaviors described above, adding an [AppId](https://msdn.microsoft.com/library/windows/desktop/ms688754.aspx) to the package for the first time may change the instancing behavior of COM servers.
+COM servers registered in the manifest always get Activate As Package (AAP) behavior, which means the COM server runs with the user session default token with package and application claims added. This is different from the default activation behavior of classically registered COM servers, in which the COM server runs with the client's token. For most applications, this difference will not be noticeable because clients typically run with the user session default token. Other activation behaviors, such as [RunAs]( https://msdn.microsoft.com/library/windows/desktop/ms680046.aspx), are not supported.
 
 > [!NOTE]
 > Any registrations in **comServer** that depend on another registration (e.g. a **ProgId** references a **Class**) must be in the same **comServer** extension. 
