@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # DefaultTile
 
 
-The default tile that represents the app on the Start screen. This tile is displayed when the app is first installed, before it has received any update notifications. When a tile has no notifications to show, the tile reverts to this default.
+The default tile that represents your app on the Start screen. The icons specified here are displayed when your app is not showing tile notifications. To dynamically change the appearance of your tile and display relevant live content, see [Send a local tile notification](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/tiles-and-notifications-sending-a-local-tile-notification).
 
 ## Element hierarchy
 
@@ -78,7 +78,6 @@ The default tile that represents the app on the Start screen. This tile is displ
 <td><strong>ShortName</strong></td>
 <td><p>A short name for the app that is displayed directly on the tile. This string is localizable; see Remarks for details.</p>
 <div class="alert">
-<strong>Note</strong>  As of Windows 8.1, this property is ignored and the display name declared in the manifest is used in its place.
 </div>
 <div>
  
