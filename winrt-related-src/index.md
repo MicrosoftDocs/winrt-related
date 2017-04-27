@@ -43,7 +43,7 @@ The Universal Windows Platform (UWP) introduces a common API that you can use to
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Microsoft Store Services SDK</h3>
+                        <h3>Microsoft Advertising SDK and Microsoft Store Services SDK</h3>
                     </div>
                 </div>
             </div>
