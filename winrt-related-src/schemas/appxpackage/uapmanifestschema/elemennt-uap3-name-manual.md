@@ -18,21 +18,35 @@ ms.date: 04/05/2017
 Specifies a category of extensions that the app can host.
 
 ## Element hierarchy
-
-
-[**&lt;Package&gt;**](element-package.md)
-
-          [**&lt;Applications&gt;**](element-applications.md)
-
-                    [**&lt;Application&gt;**](element-application.md)
-
-                              [**&lt;Extensions&gt;**](element-1-extensions.md)
-
-                                        [**&lt;uap3:Extension&gt;**](element-uap3-extension-manual.md)
-
-                                                  [**&lt;uap3:AppExtensionHost&gt;**](element-uap3-appextensionhost-manual.md)
-
-                                                            **&lt;uap3:Name&gt;**
+<dl>
+<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-uap3-extension-manual.md">&lt;uap3:Extension&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-uap3-appextensionhost-manual.md">&lt;uap3:AppExtensionHost&gt;</a></dt>
+<dd><b>&lt;uap3:Name&gt;</b></dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
 
 ## Syntax
 

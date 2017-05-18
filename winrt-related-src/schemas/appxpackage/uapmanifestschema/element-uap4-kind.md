@@ -1,7 +1,7 @@
 ---
 author: laurenhughes
 ms.assetid: 1f37ad76-f29e-433f-83b5-6af02d723b59
-title: uap4:KindMap
+title: uap4:Kind
 description: Specifies the Kind value.
 ms.author: lahugh
 ms.date: 04/05/2017
@@ -11,7 +11,7 @@ ms.technology: winrt-reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 
-# uap4:KindMap
+# uap4:Kind
 
 ## Description
 Specifies the Kind value. 

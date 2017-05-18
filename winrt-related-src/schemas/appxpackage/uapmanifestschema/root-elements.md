@@ -157,7 +157,6 @@ The following list summarizes the allowed hierarchies for this schema, starting 
                     -   [**serverpreview:IisModules**](element-serverpreview-iismodules-manual.md)
                         -   [**serverpreview:IisModule**](element-serverpreview-iismodule-manual.md)
                             -   [**serverpreview:SectionGroupDefinition**](element-serverpreview-sectiongroupdefinition-manual.md)
-                                -   [**serverpreview:SectionGroupDefinition**](element-serverpreview-sectiongroupdefinition-manual.md)
                                 -   [**serverpreview:SectionDefinition**](element-serverpreview-sectiondefinition-manual.md)
                             -   [**serverpreview:SectionDefinition**](element-serverpreview-sectiondefinition-manual.md)
                             -   [**serverpreview:SectionData**](element-serverpreview-sectiondata-manual.md)
