@@ -848,3 +848,7 @@
 ### [Cortana Voice command (VCD) schemas](schemas/voicecommands/vcd-xml-schema-portal.md)
 #### [Voice Command Definition (VCD) elements and attributes v1.1](schemas/voicecommands/voice-command-elements-and-attributes-1-1.md)
 #### [Voice Command Definition (VCD) elements and attributes v1.2](schemas/voicecommands/voice-command-elements-and-attributes-1-2.md)
+## [Win32 and COM APIs for UWP apps](win32-and-com/win32-and-com-for-uwp-apps.md)
+### [APIs present on all Windows 10 devices](win32-and-com/win32-apis.md)
+### [Extension APIs for Windows 10 devices](win32-and-com/win32-extension-apis.md)
+### [Alternatives to Win32 and COM API](win32-and-com/alternatives-to-windows-apis-uwp.md)
