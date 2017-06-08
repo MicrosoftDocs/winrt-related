@@ -155,6 +155,14 @@ If your app is created specifically for HoloLens and is not supported on other p
 </Dependencies>
 ```
 
+If you want to target Surface Hub, set the Name attribute to "Windows.Team".
+
+```XML
+<Dependencies>
+    <TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.x.0" MaxVersionTested="10.0.y.0"/>
+</Dependencies>
+```
+
 If you want to target the IoT Core platform, set the Name attribute to "Windows.IoT". For a headless IoT app, use "Windows.IoTHeadless".
 
 ```XML
