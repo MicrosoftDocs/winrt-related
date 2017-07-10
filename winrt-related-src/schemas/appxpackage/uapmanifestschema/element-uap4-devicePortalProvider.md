@@ -14,7 +14,7 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 # uap4:DevicePortalProvider
 
 ## Description
-Defines a Device Portal provider for deployment.  See (Write a custom plugin for Device Portal)[https://docs.microsoft.com/en-us/windows/uwp/debug-test-perf/device-portal-plugin] for more details on implementation. 
+Defines a Device Portal provider for deployment.  See [Write a custom plugin for Device Portal](https://docs.microsoft.com/en-us/windows/uwp/debug-test-perf/device-portal-plugin]) for more details on implementation. 
 
 ## Element Hierarchy
 <dl>
