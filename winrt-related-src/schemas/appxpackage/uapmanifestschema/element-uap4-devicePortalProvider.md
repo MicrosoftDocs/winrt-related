@@ -14,7 +14,7 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 # uap4:DevicePortalProvider
 
 ## Description
-Defines a Device Portal provider for deployment.
+Defines a Device Portal provider for deployment.  See [Write a custom plugin for Device Portal](https://docs.microsoft.com/windows/uwp/debug-test-perf/device-portal-plugin) for more details on implementation. 
 
 ## Element Hierarchy
 <dl>
@@ -62,7 +62,7 @@ Defines a Device Portal provider for deployment.
 | HandlerRoute | The API namespace requested by the provider, e.g., /foo/bar. Any successful HTTP requests will be sent to the provider for handling. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  
 
 ## Remarks
-This extension requires the **devicePortalProvider** and **internetClient** capability. Note that the ContentRoute and HandlerRoute must be provided together.
+This extension requires the **devicePortalProvider** restricted capability and either the **privateNetworkClientServer** or **internetClientServer** capability. Note that the ContentRoute and HandlerRoute do not need to be provided together.
 
 ## Requirements
 
