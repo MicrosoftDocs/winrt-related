@@ -7,7 +7,7 @@ ms.topic: article
 ms.prod: windows
 ms.technology: uwp
 keywords: windows 10, uwp, win32, COM
-ms.date: 04/05/2017
+ms.date: 07/25/2017
 ms.assetid: 9763fa67-0f32-4128-b901-013b1d7ea73c
 ---
 
