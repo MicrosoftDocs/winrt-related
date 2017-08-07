@@ -14,7 +14,6 @@ ms.date: 08/07/2017
 
 This is a collection of the app package manifest schemas for previous versions of Windows. For Windows 10 schema reference, see [App package manifest schema](uapmanifestschema/schema-root.md).  
 
-
 **[Windows 8 app package manifest schema](appxmanifestschema/schema-root.md)**  
 This reference provides details for each element, attribute, and data type that defines the schema for the app package manifest for Windows 8 apps.
 
@@ -23,3 +22,6 @@ This reference provides details for each element, attribute, and data type that 
  
 **[Windows 8.1 feature extensions manifest schema](appxmanifestschema2013/schema-root.md)**  
 This reference provides details for each element, attribute, and data type of each feature extension that defines the schema for the app package manifest for Windows 8.1 apps.
+
+**[Localizable manifest items](localizable-manifest-items.md)**
+A complete list of localizable Windows 8 manifest elements. 
