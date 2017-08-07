@@ -2649,7 +2649,7 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | utrans_getSourceSet | Introduced into icuin.dll in 10.0.15063. |
 
 
-COM interfaces
+## COM interfaces
 
 | API | Requirements |
 | -----| --------------|
@@ -3684,7 +3684,7 @@ COM interfaces
 | [ISpatialAudioClient](https://msdn.microsoft.com/en-us/library/Mt779259.aspx) | Introduced in 10.0.15063. |
 
 
-COM coclasses
+## COM coclasses
 
 | API | Requirements |
 | -----| --------------|
