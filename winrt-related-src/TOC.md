@@ -267,7 +267,7 @@
 ###### [How to specify device capabilities for HID](schemas/appxpackage/how-to-specify-device-capabilities-for-hid.md)
 ##### [How to specify extensions in a package manifest](schemas/appxpackage/how-to-specify-extension-points-in-a-package-manifest.md)
 #### [Localizable manifest items](schemas/appxpackage/localizable-manifest-items.md)
-#### [Previous app package manifest schemas](previous-schemas-root.md)
+#### [Previous app package manifest schemas](schemas/appxpackage/previous-schemas-root.md)
 ##### [Windows 8 app package manifest schema](schemas/appxpackage/appxmanifestschema/schema-root.md)
 ###### [Element Hierarchy](schemas/appxpackage/appxmanifestschema/root-elements.md)
 ####### [Package](schemas/appxpackage/appxmanifestschema/element-package.md)
