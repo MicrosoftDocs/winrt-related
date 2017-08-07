@@ -23,5 +23,5 @@ This reference provides details for each element, attribute, and data type that 
 **[Windows 8.1 feature extensions manifest schema](appxmanifestschema2013/schema-root.md)**  
 This reference provides details for each element, attribute, and data type of each feature extension that defines the schema for the app package manifest for Windows 8.1 apps.
 
-**[Localizable manifest items](localizable-manifest-items.md)**
+**[Localizable manifest items](localizable-manifest-items.md)**  
 A complete list of localizable Windows 8 manifest elements. 
