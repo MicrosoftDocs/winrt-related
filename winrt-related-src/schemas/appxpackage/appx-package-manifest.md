@@ -32,7 +32,6 @@ Visual Studio automatically creates a package manifest. You can also create a pa
 
 -   [Package manifest schema reference](uapmanifestschema/schema-root.md)
 -   [How to create a package manifest manually](how-to-create-a-package-manifest-manually.md)
--   [Localizable manifest items](localizable-manifest-items.md)
 -   [Previous app package manifest schemas](previous-schemas-root.md)
 
 ## Related topics
