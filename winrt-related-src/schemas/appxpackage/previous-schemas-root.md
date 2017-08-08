@@ -1,6 +1,6 @@
 ---
 Description: The package manifest is an XML document that contains the info the system needs to deploy, display, or update a Windows app. 
-title: Previous app package manifest schemas
+title: Previous app package manifest schema versions
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest, windows 8, win8, windows 8.1
@@ -10,7 +10,7 @@ ms.topic: reference
 ms.date: 08/07/2017
 ---
 
-# Previous app package manifest schemas
+# Previous app package manifest schema versions
 
 This is a collection of the app package manifest schemas for previous versions of Windows. For Windows 10 schema reference, see [App package manifest schema](uapmanifestschema/schema-root.md).  
 

@@ -266,7 +266,7 @@
 ###### [How to specify device capabilities for Bluetooth](schemas/appxpackage/how-to-specify-device-capabilities-for-bluetooth.md)
 ###### [How to specify device capabilities for HID](schemas/appxpackage/how-to-specify-device-capabilities-for-hid.md)
 ##### [How to specify extensions in a package manifest](schemas/appxpackage/how-to-specify-extension-points-in-a-package-manifest.md)
-#### [Previous app package manifest schemas](schemas/appxpackage/previous-schemas-root.md)
+#### [Previous app package manifest schema versions](schemas/appxpackage/previous-schemas-root.md)
 ##### [Windows 8 app package manifest schema](schemas/appxpackage/appxmanifestschema/schema-root.md)
 ###### [Element Hierarchy](schemas/appxpackage/appxmanifestschema/root-elements.md)
 ####### [Package](schemas/appxpackage/appxmanifestschema/element-package.md)
