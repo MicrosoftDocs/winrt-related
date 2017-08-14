@@ -58,7 +58,7 @@ You can localize these images in the manifest:
 -   **[uap:VisualElements/uap:DefaultTile/@Square71x71Logo](element-uap-defaulttile.md)**
 -   **[uap:VisualElements/uap:DefaultTile/@Wide310x150Logo](element-uap-defaulttile.md)**
 -   **[uap:VisualElements/uap:DefaultTile/@Square310x310Logo](element-uap-defaulttile.md)**
--   **[uap:VisualElements/uap:LockScreen/@BadgeLogo**](element-uap-lockscreen.md)**
+-   **[uap:VisualElements/uap:LockScreen/@BadgeLogo](element-uap-lockscreen.md)**
 -   **[uap:VisualElements/uap:SplashScreen/@Image](element-uap-splashscreen.md)**
 
 
