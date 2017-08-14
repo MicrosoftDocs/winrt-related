@@ -51,12 +51,12 @@ A friendly name that can be displayed to users.
 </dd>
 </dl>
 </dd>
-</dl>**
+</dl>
 
 ## Syntax
 
 ``` syntax
-<DisplayName>
+<uap:DisplayName>
 
   A string between 1 and 256 characters in length. This string is localizable. 
 

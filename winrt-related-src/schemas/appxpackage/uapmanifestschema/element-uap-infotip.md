@@ -52,7 +52,7 @@ Defines a string that provides additional info to the user about the file type.
 ## Syntax
 
 ``` syntax
-<InfoTip>
+<uap:InfoTip>
 
   A string between 1 and 1024 characters in length.
 

@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # Localizable manifest items
 
 
-**Note**  For Windows 10, see [What's different in Windows 10.](uapmanifestschema/what-s-changed-in-windows-10.md)
+**Note**  For Windows 10, see [Localizable manifest items in Windows 10](uapmanifestschema/localizable-manifest-items-win10.md).
 
  
 
