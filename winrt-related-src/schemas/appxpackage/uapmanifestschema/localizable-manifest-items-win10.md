@@ -1,5 +1,5 @@
 ---
-title: Localizable manifest items in Windows 10
+title: Localizable manifest items
 description: Contains a list of all the localizable items in the app package manifest. 
 author: laurenhughes
 ms.author: lahugh
@@ -13,9 +13,12 @@ ms.topic: reference
 ms.date: 08/14/2017
 ---
 
+# Localizable manifest items
+
 Here are all the items in the Windows 10 app package manifest that you can localize. 
 
 You can localize these strings in the manifest:
+
 -   **[Application/uap3:VisualElements/@DisplayName](element-uap3-visualelements-manual.md)**
 -   **[Application/uap3:VisualElements/@Description](element-uap3-visualelements-manual.md)**
 -   **[com:ComInterface/com:ProxyStub/@DisplayName](element-com-package-proxystub.md)**
