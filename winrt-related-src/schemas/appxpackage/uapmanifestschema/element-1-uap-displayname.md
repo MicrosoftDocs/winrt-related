@@ -56,7 +56,7 @@ A friendly name that can be displayed to users.
 ## Syntax
 
 ``` syntax
-<DisplayName>
+<uap:DisplayName>
 
   A string between 1 and 256 characters in length. This string is localizable. 
 

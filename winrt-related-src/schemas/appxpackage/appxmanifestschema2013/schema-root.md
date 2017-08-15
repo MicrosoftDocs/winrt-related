@@ -1,7 +1,7 @@
 ---
 Description: Provides details for each element, attribute, and data type of each feature extension that defines the schema for the app package manifest for Windows 8.1 Windows Store apps.
 Search.Product: eADQiWindows 10XVcnh
-title: Package manifest schema with feature extensions reference
+title: Windows 8.1 feature extensions manifest schema
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
 author: mcleblanc
 ms.author: markl
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Package manifest schema with feature extensions reference
+# Windows 8.1 feature extensions manifest schema
 
 
 This reference provides details for each element, attribute, and data type of each feature extension that defines the schema for the app package manifest for Windows 8.1 Windows Store apps. The schema definition file is AppxManifestSchema2013.xsd. The AppxManifestSchema2013.xsd file imports the AppxManifestSchema2010\_v2.xsd file. The Windows 8 schema is AppxManifestSchema.xsd.

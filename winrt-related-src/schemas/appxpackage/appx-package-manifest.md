@@ -9,7 +9,7 @@ keywords: windows 10, uwp, schema, package manifest
 ms.prod: windows
 ms.technology: winrt-reference
 ms.topic: reference
-ms.date: 04/05/2017
+ms.date: 08/07/2017
 ---
 
 # App package manifest
@@ -26,17 +26,13 @@ The package manifest is digitally signed as part of signing the app package. Aft
 
 ## Developer audience
 
-
 Visual Studio automatically creates a package manifest. You can also create a package manifest using a text editor.
 
 ## In this section
 
-
+-   [Package manifest schema reference](uapmanifestschema/schema-root.md)
 -   [How to create a package manifest manually](how-to-create-a-package-manifest-manually.md)
--   [Localizable manifest items](https://msdn.microsoft.com/library/windows/apps/dn439795)
--   [Package manifest schema reference](https://msdn.microsoft.com/library/windows/apps/br211473)
--   [Package manifest schema with Windows 8.1 minor extensions reference](https://msdn.microsoft.com/library/windows/apps/dn423313)
--   [Package manifest schema with Windows 8.1 feature extensions reference](https://msdn.microsoft.com/library/windows/apps/dn391692)
+-   [Previous app package manifest schemas](previous-schemas-root.md)
 
 ## Related topics
 

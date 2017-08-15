@@ -1,7 +1,7 @@
 ---
 Description: Package manifest schema with Windows 8.1 minor extensions reference
 Search.Product: eADQiWindows 10XVcnh
-title: Package manifest schema Windows 8.1 minor extensions
+title: Windows 8.1 extensions manifest schema
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
 author: mcleblanc
 ms.author: markl
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Package manifest schema Windows 8.1 minor extensions
+# Windows 8.1 extensions manifest schema
 
 
 This reference provides details for each element, attribute, and data type that defines the schema for the app package manifest for Windows 8.1 apps. The schema definition file is AppxManifestSchema2010_v2.xsd.
