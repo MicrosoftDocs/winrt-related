@@ -95,7 +95,7 @@ Declares an extensibility point for the app.
 <tbody>
 <tr class="odd">
 <td><p>Namespace</p></td>
-<td><p>http://schemas.microsoft.com/appx/manifest/desktop/windows10/2</p></td>
+<td><p>http://schemas.microsoft.com/appx/manifest/uap/windows10/4</p></td>
 </tr>
 </tbody>
 </table>
