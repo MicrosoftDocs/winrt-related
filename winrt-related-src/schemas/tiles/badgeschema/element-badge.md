@@ -100,9 +100,6 @@ This outermost (document) element may not be contained by any other elements.
 
 This table shows the available status glyphs.
 
-### Windows glyphs
-
-The available glyphs for use with Windows are shown here, together with their XML equivalent in the badge template.
 
 | Status      | Glyph                                                                   | XML                            |
 |-------------|-------------------------------------------------------------------------|--------------------------------|
@@ -119,18 +116,6 @@ The available glyphs for use with Windows are shown here, together with their XM
 | paused      | ![the paused badge](images/badge-7.png)                                 | `<badge value="paused"/>`      |
 | playing     | ![the playing badge](images/badge-6.png)                                | `<badge value="playing"/>`     |
 | unavailable | ![the unavailable badge; a gray dot](images/badge-14.png)               | `<badge value="unavailable"/>` |
-
- 
-
-### Windows Phone glyphs
-
-As of Windows Phone 8.1, the available glyphs for use with Windows Phone are shown here, together with their XML equivalent in the badge template.
-
-| Status    | Glyph                                                                   | XML                          |
-|-----------|-------------------------------------------------------------------------|------------------------------|
-| none      | No badge shown                                                          | `<badge value="none"/>`      |
-| alert     | ![the alert badge](images/badge-10.png)                                 | `<badge value="alert"/>`     |
-| attention | ![the attention badge; an exclamation point](images/attentionbadge.png) | `<badge value="attention"/>` |
 
  
 
