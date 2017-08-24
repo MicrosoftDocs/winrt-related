@@ -53,6 +53,8 @@ Specifies the details of a driver paired with a UWP app.
 None
 
 ## Examples
+See [Pairing a driver with a Universal Windows Platform (UWP) app](/windows-hardware/drivers/install/pairing-app-and-driver-versions) for more information.
+
 This example shows multiple `DriverDependency` and `DriverConstraint` elements paired with a UWP app.
 
 ```xml

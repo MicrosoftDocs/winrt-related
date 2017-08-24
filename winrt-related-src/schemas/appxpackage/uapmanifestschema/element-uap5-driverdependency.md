@@ -49,7 +49,7 @@ None
 ## Remarks
 If you are pairing a driver with a UWP app, at least one `DriverDependency` must be met for the app to load. For a `DriverDependency` to be met, all its [`DriverConstraint`](element-uap5-DriverConstraint.md) elements must be met. 
 
-See [Pairing a driver with a Universal Windows Platform (UWP) app](/windows-hardware/drivers/install/pairing-app-and-driver-versions)
+See [Pairing a driver with a Universal Windows Platform (UWP) app](/windows-hardware/drivers/install/pairing-app-and-driver-versions) for more information.
 
 ## Examples
 See [uap5:DriverConstraint](element-uap5-DriverConstraint.md) for an example. 
