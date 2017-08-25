@@ -35,6 +35,8 @@
 ###### [TargetDeviceFamily](schemas/appxpackage/uapmanifestschema/element-targetdevicefamily.md)
 ###### [PackageDependency](schemas/appxpackage/uapmanifestschema/element-packagedependency.md)
 ###### [uap3:MainPackageDependency](schemas/appxpackage/uapmanifestschema/element-uap3-mainpackagedependency-manual.md)
+###### [uap5:DriverDependency](schemas/appxpackage/uapmanifestschema/element-uap5-driverdependency.md)
+###### [uap5:DriverConstraint](schemas/appxpackage/uapmanifestschema/element-uap5-driverconstraint.md)
 ###### [Capabilities](schemas/appxpackage/uapmanifestschema/element-capabilities.md)
 ###### [Capability](schemas/appxpackage/uapmanifestschema/element-capability.md)
 ###### [uap:Capability](schemas/appxpackage/uapmanifestschema/element-uap-capability.md)
