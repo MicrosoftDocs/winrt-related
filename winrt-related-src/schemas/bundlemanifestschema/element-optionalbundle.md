@@ -79,7 +79,7 @@ Defines optional bundles relative to the main bundle. Optional bundles contain a
 <tr class="even">
 <td>FileName</td>
 <td><p>The file name of the bundle.</p></td>
-<td>A version string in quad notation, &quot;Major.Minor.Build.Revision&quot;.</td>
+<td>A string between 1 and 256 characters in length that cannot contain these characters: &lt;, &gt;, :, &quot;, |, ?, or *.</td>
 <td>No</td>
 </tr>
 </tbody>
