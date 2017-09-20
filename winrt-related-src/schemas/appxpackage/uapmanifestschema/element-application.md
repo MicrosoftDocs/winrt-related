@@ -32,7 +32,7 @@ Represents an app that comprises part of or all of the functionality delivered i
 ## Syntax
 
 ``` syntax
-<Application Id             = An ASCII string between 1 and 64 characters in length.
+<Application Id             = An ASCII string between 1 and 64 characters in length. See the Attributes table for more information on character restrictions.
              Executable?    = A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used.
              EntryPoint?    = A string between 1 and 256 characters in length, representing the  task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type.
 If EntryPoint is not specified, the EntryPoint defined for the app is used instead.
