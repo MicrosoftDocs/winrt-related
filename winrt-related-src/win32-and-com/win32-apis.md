@@ -3558,7 +3558,7 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| IsProcessInIsolatedContainer | Introduced into api-ms-win-security-isolatedcontainer-l1-1-0.dll in 10.0.15063. |
+| [IsProcessInIsolatedContainer](https://msdn.microsoft.com/library/mt842676.aspx) | Introduced into api-ms-win-security-isolatedcontainer-l1-1-0.dll in 10.0.15063. |
 
 
 ## APIs from api-ms-win-core-featurestaging-l1-1-1.dll
@@ -3666,5 +3666,3 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | -----| --------------|
 | ShowGameInviteUIWithContext | Introduced into api-ms-win-gaming-tcui-l1-1-3.dll in 10.0.15063. |
 | ShowGameInviteUIWithContextForUser | Introduced into api-ms-win-gaming-tcui-l1-1-3.dll in 10.0.15063. |
-
-
