@@ -42,8 +42,9 @@ Defines the appearance of the splash screen, which is displayed by the app durin
 ## Syntax
 
 ``` syntax
-<SplashScreen BackgroundColor? = A three-byte hexadecimal number preceded by "#" or a named color. See Remarks for a list of named colors.
-                  Image            = A string between 1 and 256 characters in length that ends with ".jpg", ".png", or ".jpeg" that can't contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters can't be the first or last characters. Also, the string can contain / or \ but not both. />
+<SplashScreen BackgroundColor?      = A three-byte hexadecimal number preceded by "#" or a named color. See Remarks for a list of named colors.
+              Image                 = A string between 1 and 256 characters in length that ends with ".jpg", ".png", or ".jpeg" that can't contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters can't be the first or last characters. Also, the string can contain / or \ but not both. 
+              uap5:Optional?        = Boolean.  />
 ```
 
 ### Key
@@ -85,6 +86,13 @@ Defines the appearance of the splash screen, which is displayed by the app durin
 <td><p>The path to the splash screen image. See the Remarks section for size requirements.</p></td>
 <td>A string between 1 and 256 characters in length that ends with &quot;.jpg&quot;, &quot;.png&quot;, or &quot;.jpeg&quot; that can't contain these characters: &lt;, &gt;, :, &quot;, |, ?, or *. In this string, the / and \ characters can't be the first or last characters. Also, the string can contain / or \ but not both.</td>
 <td>Yes</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>uap5:Optional</strong></td>
+<td><p>Specifies whether an app should be launched without a splash screen. If true, the splash screen will not be shown if the app can launch fast enough. If there is a delay in the app launch time, the splash screen will be shown. If false, the splash screen will always be shown.</p></td>
+<td>Boolean</td>
+<td>No</td>
 <td></td>
 </tr>
 </tbody>
@@ -184,6 +192,9 @@ The following are supported background color names:
 <tr class="odd">
 <td><p>Namespace</p></td>
 <td><p>http://schemas.microsoft.com/appx/manifest/uap/windows10</p></td>
+</tr><tr class="even">
+<td><p>Namespace (to use the Optional attribute)</p></td>
+<td><p>http://schemas.microsoft.com/appx/manifest/uap/windows10/5</p></td>
 </tr>
 </tbody>
 </table>

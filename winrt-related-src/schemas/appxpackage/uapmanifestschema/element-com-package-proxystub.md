@@ -46,6 +46,10 @@ Registers a proxy stub.
     Id = A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.
     DisplayName? = A string between 1 and 256 characters in length. This string is localizable.
     Path = A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *. >
+
+    <!-- Child elements -->
+    com2:ProxyStubDll
+
 </ProxyStub>
 ```
 
@@ -60,8 +64,16 @@ Registers a proxy stub.
 | DisplayName | A localizable string corresponding to the default value of the proxy stub's CLSID key. | A string between 1 and 256 characters in length. This string is localizable. | No |
 | Path | The path relative to the package root. Path must reference a file in the package. | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *. | Yes |
 
+## Child Elements
+
+| Child Element | Description |
+|---------------|-------------|
+| [com2:ProxyStubDll](element-com2-package-proxystubdll.md) | Specifies the path and processor architecture of a ProxyStub DLL. |
+
 ## Remarks
 Proxy stub registrations correspond to the CLSID registration for the Interface's [ProxyStubClsid32](https://msdn.microsoft.com/library/windows/desktop/ms688573.aspx) keys.
+
+A proxy stub element must have either a Path attribute or one or more ProxyStubDll child elements, but not both.
 
 ## Examples
 

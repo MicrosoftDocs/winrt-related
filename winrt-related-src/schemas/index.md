@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: windows
 ms.technology: uwp
 keywords: windows 10, uwp, schema
-ms.date: 04/05/2017
+ms.date: 10/10/2017
 ---
 
 # File and XML schema specifications for UWP apps
@@ -17,6 +17,7 @@ This section provides information about file and XML schema specifications for U
 
 | Topic | Description |
 |-------|-------------|
+| [App Installer file ](appinstallerschema/app-installer-file.md) | An App Installer file is an XML document (*.appinstaller) that contains app package and bundle information for defining the packages that are part of a related set. |
 | [App package block map](blockmapschema/app-package-block-map.md) | The package block map file is an XML document that contains a list of the app’s files along with indexes and cryptographic hashes for each block of data that is stored in the package. |
 | [App package manifest](appxpackage/appx-package-manifest.md) | Includes reference topics that describe the schema used for packaging Windows apps. |
 | [Application content schema](appcontentschema/schema-root.md) | The Application content, or appcontent-ms, schema for Windows apps enables developers to enhance in-app search by providing extra information about your app's content to the Windows Search Index.  |

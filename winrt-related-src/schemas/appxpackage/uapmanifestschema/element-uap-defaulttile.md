@@ -50,6 +50,7 @@ The default tile that represents your app on the Start screen. The icons specifi
   <!-- Child elements -->
   ( uap:TileUpdate?
   & uap:ShowNameOnTiles?
+  & uap5:MixedRealityModel?
   )
 
 </uap:DefaultTile>
@@ -140,6 +141,10 @@ The default tile that represents your app on the Start screen. The icons specifi
 <tr class="even">
 <td>[uap:TileUpdate](element-uap-tileupdate.md)</td>
 <td><p>Describes how the app tile receives update notifications.</p></td>
+</tr>
+<tr class="odd">
+<td>[uap5:MixedRealityModel](element-uap5-MixedRealityModel.md)</td>
+<td><p>An element used to define a 3D model as the default representation of an app. When launched from a virtual or mixed reality device, this model will represent the app in the virtual setting.</p></td>
 </tr>
 </tbody>
 </table>

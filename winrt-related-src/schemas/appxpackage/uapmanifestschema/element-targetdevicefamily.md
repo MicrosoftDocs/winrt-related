@@ -76,7 +76,7 @@ Identifies the device family that your package targets. For more info about devi
 </tr>
 <tr class="odd">
 <td><strong>Name</strong></td>
-<td><p>The name of the device family that your app is targeting.</p></td>
+<td><p>The name of the device family that your app is targeting. See the Remarks section for more information.</p></td>
 <td>An alphanumeric string. May contain period and dash characters.</td>
 <td>Yes</td>
 <td></td>
@@ -152,6 +152,14 @@ If your app is created specifically for HoloLens and is not supported on other p
 ```XML
 <Dependencies>
     <TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.x.0" MaxVersionTested="10.0.y.0"/>
+</Dependencies>
+```
+
+If your app targets the Windows 10 Team Edition exclusively, set the Name attribute to "Windows.Team". This is commonly used for Microsoft Surface Hub devices.
+
+```XML
+<Dependencies>
+    <TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.x.0" MaxVersionTested="10.0.y.0"/>
 </Dependencies>
 ```
 

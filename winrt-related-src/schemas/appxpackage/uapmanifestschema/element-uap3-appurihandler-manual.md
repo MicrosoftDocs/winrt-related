@@ -51,7 +51,8 @@ Declares an app extensibility point of type **windows.appUriHandler**.
 ```
 <uap3:AppUriHandler desktop2:Parameters? = String format of parameters, e.g. "/L %1" >
   <!-- Child elements -->
-  uap3:Host{0,1000}
+  ( uap3:Host{0,1000},
+    uap5:Host{0,1000} )
 </uap3:AppUriHandler>
 ```
 
@@ -73,6 +74,8 @@ Declares an app extensibility point of type **windows.appUriHandler**.
 | Child Element                                 | Description                                                                                  |
 |-----------------------------------------------|----------------------------------------------------------------------------------------------|
 | [**uap3:Host**](element-uap3-host-manual.md) | Represents a valid HTTP or HTTPS host name that the app wants to register as able to handle. |
+| [**uap5:Host**](element-uap5-host.md)  | Represents a valid HTTP or HTTPS host name with a wildcard that the app wants to register as able to handle.
+ |
 
  
 
