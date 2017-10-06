@@ -7,7 +7,7 @@ ms.topic: article
 ms.prod: windows
 ms.technology: uwp
 keywords: windows 10, uwp, win32, COM
-ms.date: 07/25/2017
+ms.date: 10/4/2017
 ms.assetid: e8d54f37-9969-4f33-8b1b-fcb3d659c507
 ---
 
@@ -82,8 +82,8 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 
 | API | Requirements |
 | -----| --------------|
-| GetDefaultAudioCaptureId | Introduced into PhoneAudioSes.lib in 10.0.10240. Moved into PhoneAudioSes.dll in 10.0.14393. |
-| GetDefaultAudioRenderId | Introduced into PhoneAudioSes.lib in 10.0.10240. Moved into PhoneAudioSes.dll in 10.0.14393. |
+| [GetDefaultAudioCaptureId](https://msdn.microsoft.com/en-us/library/BR226818.aspx) | Introduced into PhoneAudioSes.lib in 10.0.10240. Moved into PhoneAudioSes.dll in 10.0.14393. |
+| [GetDefaultAudioRenderId](https://msdn.microsoft.com/en-us/library/BR226819.aspx) | Introduced into PhoneAudioSes.lib in 10.0.10240. Moved into PhoneAudioSes.dll in 10.0.14393. |
 
 
 ## APIs from wpglobutil.dll
@@ -103,13 +103,21 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | [InterlockedExchange](https://msdn.microsoft.com/en-us/library/windows/desktop/ff471411.aspx) | Introduced into kernel32.dll in 10.0.10240. |
 | [InterlockedExchangeAdd](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683597.aspx) | Introduced into kernel32.dll in 10.0.10240. |
 | [InterlockedIncrement](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683614.aspx) | Introduced into kernel32.dll in 10.0.10240. |
+| [[GetModuleBaseName](https://msdn.microsoft.com/en-us/library/ms683196.aspx)A](https://msdn.microsoft.com/en-us/library/ms683196.aspx) | Introduced into kernel32.dll in 10.0.16299. |
+| [GetModuleBaseNameW](https://msdn.microsoft.com/en-us/library/ms683196.aspx) | Introduced into kernel32.dll in 10.0.16299. |
+| [[[GetModuleFileName](https://msdn.microsoft.com/en-us/library/ms885629.aspx)Ex](https://msdn.microsoft.com/en-us/library/ms683198.aspx)A](https://msdn.microsoft.com/en-us/library/ms683198.aspx) | Introduced into kernel32.dll in 10.0.16299. |
+| [GetModuleFileNameExW](https://msdn.microsoft.com/en-us/library/ms683198.aspx) | Introduced into kernel32.dll in 10.0.16299. |
+| [GetModuleInformation](https://msdn.microsoft.com/en-us/library/ms885631.aspx) | Introduced into kernel32.dll in 10.0.16299. |
+| [SetEnvironmentVariable](https://msdn.microsoft.com/en-us/library/ms686206.aspx) | Introduced into kernel32.dll in 10.0.16299. |
+| GetModuleFileNameEx | Introduced into kernel32.dll in 10.0.16299. |
+| [VerLanguageName](https://msdn.microsoft.com/en-us/library/ms647463.aspx) | Introduced into kernel32.dll in 10.0.16299. |
 
 
 ## APIs from kernelbase.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetProcessMemoryInfo](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683219.aspx) | Introduced into kernelbase.dll in 10.0.10240. Removed in 10.0.14393. |
+| [GetProcessMemoryInfo](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683219.aspx) | Introduced into kernelbase.dll in 10.0.10240. Removed in 10.0.14393. Moved into kernel32.dll in 10.0.16299. |
 
 
 ## APIs from elscore.dll
@@ -128,6 +136,21 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | -----| --------------|
 | [NdrAsyncClientCall2](https://msdn.microsoft.com/en-us/library/windows/desktop/mt297483.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | [NdrClientCall4](https://msdn.microsoft.com/en-us/library/windows/desktop/mt297484.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [DceErrorInqText](https://msdn.microsoft.com/en-us/library/Aa373623.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingCreate](https://msdn.microsoft.com/en-us/library/Aa375587.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingFromStringBinding](https://msdn.microsoft.com/en-us/library/Aa375590.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingInqAuthInfo](https://msdn.microsoft.com/en-us/library/Aa375593.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingInqAuthInfoEx](https://msdn.microsoft.com/en-us/library/Aa375595.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingSetAuthInfo](https://msdn.microsoft.com/en-us/library/Aa375606.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingSetAuthInfoEx](https://msdn.microsoft.com/en-us/library/Aa375608.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingToStringBinding](https://msdn.microsoft.com/en-us/library/Aa375612.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcMgmtInqServerPrincName](https://msdn.microsoft.com/en-us/library/Aa375756.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcNetworkIsProtseqValid](https://msdn.microsoft.com/en-us/library/Aa375804.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcStringBindingCompose](https://msdn.microsoft.com/en-us/library/Aa378481.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcStringBindingParse](https://msdn.microsoft.com/en-us/library/Aa378482.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcStringFree](https://msdn.microsoft.com/en-us/library/Aa378483.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [UuidFromString](https://msdn.microsoft.com/en-us/library/Aa379336.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [UuidToString](https://msdn.microsoft.com/en-us/library/Aa379352.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
 
 
 ## APIs from windows.data.pdf.dll
@@ -1296,8 +1319,8 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | [_localtime64_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/localtime-s-localtime32-s-localtime64-s) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
 | [_mkgmtime32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mkgmtime-mkgmtime32-mkgmtime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
 | [_mkgmtime64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mkgmtime-mkgmtime32-mkgmtime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_mktime64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mktime-mktime32-mktime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
 | [_mktime32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mktime-mktime32-mktime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| [_mktime64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mktime-mktime32-mktime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
 | [_strdate](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strdate-wstrdate) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
 | [_strdate_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strdate-s-wstrdate-s) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
 | [_Strftime](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
@@ -1610,6 +1633,7 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | [sqlite3_value_subtype](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.14393. |
 | [sqlite3_expanded_sql](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.15063. |
 | [sqlite3_trace_v2](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.15063. |
+| sqlite3_set_last_insert_rowid | Introduced into winsqlite3.dll in 10.0.16299. |
 
 
 ## APIs from user32.dll
@@ -1625,6 +1649,7 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | [MapVirtualKeyExW](https://msdn.microsoft.com/en-us/library/ms646307.aspx) | Introduced into user32.dll in 10.0.14393. |
 | [ClipCursor](https://msdn.microsoft.com/en-us/library/ms648383.aspx) | Introduced into user32.dll in 10.0.15063. |
 | [GetLastInputInfo](https://msdn.microsoft.com/en-us/library/ms646302.aspx) | Introduced into user32.dll in 10.0.15063. |
+| [GetKeyState](https://msdn.microsoft.com/en-us/library/ms929437.aspx) | Introduced into user32.dll in 10.0.16299. |
 
 
 ## APIs from ResetPhoneForArm32.dll
@@ -1661,41 +1686,47 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | [WerStoreGetFirstReportKey](https://msdn.microsoft.com/en-us/library/Mt492588.aspx) | Introduced into wer.dll in 10.0.15063. |
 | [WerStoreGetNextReportKey](https://msdn.microsoft.com/en-us/library/Mt492589.aspx) | Introduced into wer.dll in 10.0.15063. |
 | [WerStoreQueryReportMetadataV2](https://msdn.microsoft.com/en-us/library/Mt492591.aspx) | Introduced into wer.dll in 10.0.15063. |
+| [WerReportCreate](https://msdn.microsoft.com/en-us/library/Bb513625.aspx) | Introduced into wer.dll in 10.0.16299. |
+| [WerReportSetParameter](https://msdn.microsoft.com/en-us/library/Bb513626.aspx) | Introduced into wer.dll in 10.0.16299. |
+| [WerReportAddFile](https://msdn.microsoft.com/en-us/library/Bb513623.aspx) | Introduced into wer.dll in 10.0.16299. |
+| [WerReportSubmit](https://msdn.microsoft.com/en-us/library/Bb513628.aspx) | Introduced into wer.dll in 10.0.16299. |
+| [WerReportAddDump](https://msdn.microsoft.com/en-us/library/Bb513622.aspx) | Introduced into wer.dll in 10.0.16299. |
+| [WerReportCloseHandle](https://msdn.microsoft.com/en-us/library/Bb513624.aspx) | Introduced into wer.dll in 10.0.16299. |
 
 
 ## APIs from atiadlxx.dll
 
 | API | Requirements |
 | -----| --------------|
-| ADL2_Main_Control_GetProcAddress | Introduced into atiadlxx.dll in 10.0.15063. Moved into atiadlxy.dll in 10.0.15063. |
+| ADL2_Main_Control_GetProcAddress | Introduced into atiadlxx.dll in 10.0.15063. Moved into atiadlxy.dll in 10.0.16299. |
 
 
 ## APIs from aticfx32.dll
 
 | API | Requirements |
 | -----| --------------|
-| AmdGetCfxModuleHandle | Introduced into aticfx32.dll in 10.0.15063. Moved into aticfx64.dll in 10.0.15063. |
+| AmdGetCfxModuleHandle | Introduced into aticfx32.dll in 10.0.15063. Moved into aticfx64.dll in 10.0.16299. |
 
 
 ## APIs from amdxc32.dll
 
 | API | Requirements |
 | -----| --------------|
-| AmdGetDxcModuleHandle | Introduced into amdxc32.dll in 10.0.15063. Moved into amdxc64.dll in 10.0.15063. |
+| AmdGetDxcModuleHandle | Introduced into amdxc32.dll in 10.0.15063. Moved into amdxc64.dll in 10.0.16299. |
 
 
 ## APIs from atidxx32.dll
 
 | API | Requirements |
 | -----| --------------|
-| AmdGetDxxModuleHandle | Introduced into atidxx32.dll in 10.0.15063. Moved into atidxx64.dll in 10.0.15063. |
+| AmdGetDxxModuleHandle | Introduced into atidxx32.dll in 10.0.15063. Moved into atidxx64.dll in 10.0.16299. |
 
 
 ## APIs from nvapi.dll
 
 | API | Requirements |
 | -----| --------------|
-| nvapi_QueryInterface | Introduced into nvapi.dll in 10.0.15063. Moved into nvapi64.dll in 10.0.15063. |
+| nvapi_QueryInterface | Introduced into nvapi.dll in 10.0.15063. Moved into nvapi64.dll in 10.0.16299. |
 
 
 ## APIs from icuuc.dll
@@ -2647,9 +2678,454 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | utrans_transIncrementalUChars | Introduced into icuin.dll in 10.0.15063. |
 | utrans_toRules | Introduced into icuin.dll in 10.0.15063. |
 | utrans_getSourceSet | Introduced into icuin.dll in 10.0.15063. |
+| ureldatefmt_open | Introduced into icuin.dll in 10.0.16299. |
+| ureldatefmt_close | Introduced into icuin.dll in 10.0.16299. |
+| ureldatefmt_formatNumeric | Introduced into icuin.dll in 10.0.16299. |
+| ureldatefmt_format | Introduced into icuin.dll in 10.0.16299. |
+| ureldatefmt_combineDateAndTime | Introduced into icuin.dll in 10.0.16299. |
 
 
-## COM interfaces
+## APIs from advapi32.dll
+
+| API | Requirements |
+| -----| --------------|
+
+
+## APIs from Credui.dll
+
+| API | Requirements |
+| -----| --------------|
+| [[CredUIParseUserName](https://msdn.microsoft.com/en-us/library/Aa375175.aspx)W](https://msdn.microsoft.com/en-us/library/Aa375175.aspx) | Introduced into Credui.dll in 10.0.16299. |
+
+
+## APIs from ntdll.dll
+
+| API | Requirements |
+| -----| --------------|
+| [NtQueryDirectoryFile](https://msdn.microsoft.com/en-us/library/Ff556633.aspx) | Introduced into ntdll.dll in 10.0.16299. |
+| [RtlEthernetAddressToString](https://msdn.microsoft.com/en-us/library/Dn550721.aspx) | Introduced into ntdll.dll in 10.0.16299. |
+| [RtlEthernetStringToAddress](https://msdn.microsoft.com/en-us/library/Dn550722.aspx) | Introduced into ntdll.dll in 10.0.16299. |
+| [RtlIpv4AddressToString](https://msdn.microsoft.com/en-us/library/Aa814456.aspx) | Introduced into ntdll.dll in 10.0.16299. |
+| [RtlIpv4AddressToStringEx](https://msdn.microsoft.com/en-us/library/Aa814457.aspx) | Introduced into ntdll.dll in 10.0.16299. |
+| [RtlIpv4StringToAddress](https://msdn.microsoft.com/en-us/library/Aa814458.aspx) | Introduced into ntdll.dll in 10.0.16299. |
+| [RtlIpv4StringToAddressEx](https://msdn.microsoft.com/en-us/library/Aa814459.aspx) | Introduced into ntdll.dll in 10.0.16299. |
+| [RtlIpv6AddressToString](https://msdn.microsoft.com/en-us/library/Aa814460.aspx) | Introduced into ntdll.dll in 10.0.16299. |
+| [RtlIpv6AddressToStringEx](https://msdn.microsoft.com/en-us/library/Aa814461.aspx) | Introduced into ntdll.dll in 10.0.16299. |
+| [RtlIpv6StringToAddress](https://msdn.microsoft.com/en-us/library/Aa814462.aspx) | Introduced into ntdll.dll in 10.0.16299. |
+| [RtlIpv6StringToAddressEx](https://msdn.microsoft.com/en-us/library/Aa814463.aspx) | Introduced into ntdll.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-namedpipe-ansi-l1-1-1.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CallNamedPipe](https://msdn.microsoft.com/en-us/library/Aa365144.aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-1.dll in 10.0.16299. |
+
+
+## APIs from crypt32.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CertGetNameString](https://msdn.microsoft.com/en-us/library/ms883865.aspx) | Introduced into crypt32.dll in 10.0.16299. |
+| [CertNameToStr](https://msdn.microsoft.com/en-us/library/ms883889.aspx) | Introduced into crypt32.dll in 10.0.16299. |
+| [CertRDNValueToStr](https://msdn.microsoft.com/en-us/library/ms883906.aspx) | Introduced into crypt32.dll in 10.0.16299. |
+| [CertStrToName](https://msdn.microsoft.com/en-us/library/ms883934.aspx) | Introduced into crypt32.dll in 10.0.16299. |
+| [CryptBinaryToString](https://msdn.microsoft.com/en-us/library/Aa379887.aspx) | Introduced into crypt32.dll in 10.0.16299. |
+| [CryptStringToBinary](https://msdn.microsoft.com/en-us/library/Aa380285.aspx) | Introduced into crypt32.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-downlevel-advapi32-l2-1-1.dll
+
+| API | Requirements |
+| -----| --------------|
+| [ControlTrace](https://msdn.microsoft.com/en-us/library/Aa363696.aspx) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. |
+| [ConvertSecurityDescriptorToStringSecurityDescriptor](https://msdn.microsoft.com/en-us/library/Aa376397.aspx) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. |
+| [OpenTrace](https://msdn.microsoft.com/en-us/library/Aa364089.aspx) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. |
+| [StartTrace](https://msdn.microsoft.com/en-us/library/Aa364117.aspx) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. |
+| [StopTrace](https://msdn.microsoft.com/en-us/library/Aa364119.aspx) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-security-sddl-ansi-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [ConvertSidToStringSid](https://msdn.microsoft.com/en-us/library/Aa376399.aspx) | Introduced into api-ms-win-security-sddl-ansi-l1-1-0.dll in 10.0.16299. |
+| [ConvertStringSidToSid](https://msdn.microsoft.com/en-us/library/Aa376402.aspx) | Introduced into api-ms-win-security-sddl-ansi-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-kernel32-legacy-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CopyFile](https://msdn.microsoft.com/en-us/library/ms891449.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
+| [CreateNamedPipe](https://msdn.microsoft.com/en-us/library/Aa365150.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
+| [GetComputerName](https://msdn.microsoft.com/en-us/library/Aa251590.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
+| [[GetStringType](https://msdn.microsoft.com/en-us/library/ms905272.aspx)Ex](https://msdn.microsoft.com/en-us/library/ms905283.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
+| [MoveFileEx](https://msdn.microsoft.com/en-us/library/Aa365240.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-file-ansi-l2-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CopyFileEx](https://msdn.microsoft.com/en-us/library/Aa363852.aspx) | Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.16299. |
+| [ReplaceFile](https://msdn.microsoft.com/en-us/library/Aa365512.aspx) | Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-namespace-ansi-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CreateBoundaryDescriptor](https://msdn.microsoft.com/en-us/library/ms682121.aspx) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. |
+| [CreatePrivateNamespace](https://msdn.microsoft.com/en-us/library/ms682419.aspx) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. |
+| [OpenPrivateNamespace](https://msdn.microsoft.com/en-us/library/ms684318.aspx) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-file-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CreateDirectory](https://msdn.microsoft.com/en-us/library/ms832420.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [DeleteFile](https://msdn.microsoft.com/en-us/library/ms830205.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [FindNextFile](https://msdn.microsoft.com/en-us/library/ms889873.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [FindFirstFile](https://msdn.microsoft.com/en-us/library/s929k22b.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [FindFirstFileEx](https://msdn.microsoft.com/en-us/library/ms889683.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetDiskFreeSpace](https://msdn.microsoft.com/en-us/library/Aa364935.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetDriveType](https://msdn.microsoft.com/en-us/library/Aa364939.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetFileAttributes](https://msdn.microsoft.com/en-us/library/ms890895.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetFullPathName](https://msdn.microsoft.com/en-us/library/Aa364963.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetDiskFreeSpaceEx](https://msdn.microsoft.com/en-us/library/ms890887.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetFileAttributesEx](https://msdn.microsoft.com/en-us/library/ms890909.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetFinalPathNameByHandle](https://msdn.microsoft.com/en-us/library/Aa364962.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetLongPathName](https://msdn.microsoft.com/en-us/library/Aa364980.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [RemoveDirectory](https://msdn.microsoft.com/en-us/library/ms891470.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [SetFileAttributes](https://msdn.microsoft.com/en-us/library/ms891925.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-synch-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CreateEvent](https://msdn.microsoft.com/en-us/library/ms813489.aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [CreateEventEx](https://msdn.microsoft.com/en-us/library/ms682400.aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [CreateMutex](https://msdn.microsoft.com/en-us/library/ms885181.aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [CreateMutexEx](https://msdn.microsoft.com/en-us/library/ms682418.aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [OpenEvent](https://msdn.microsoft.com/en-us/library/ms879661.aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [OpenSemaphore](https://msdn.microsoft.com/en-us/library/ms684326.aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-security-cpwl-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CreateProcess](https://msdn.microsoft.com/en-us/library/60katz9k.aspx)WithLogon | Introduced into api-ms-win-security-cpwl-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-processthreads-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| CreateProcess | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-kernel32-legacy-l1-1-2.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CreateSemaphore](https://msdn.microsoft.com/en-us/library/ms885184.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. |
+| [OpenMutex](https://msdn.microsoft.com/en-us/library/ms684315.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-synch-ansi-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CreateSemaphoreEx](https://msdn.microsoft.com/en-us/library/ms682446.aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. |
+| [CreateWaitableTimer](https://msdn.microsoft.com/en-us/library/ms682492.aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. |
+| [CreateWaitableTimerEx](https://msdn.microsoft.com/en-us/library/ms682494.aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. |
+| [OpenWaitableTimer](https://msdn.microsoft.com/en-us/library/ms684337.aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from ext-ms-win-security-credui-l1-1-1.dll
+
+| API | Requirements |
+| -----| --------------|
+| CredUIParseUserName | Introduced into ext-ms-win-security-credui-l1-1-1.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-security-cryptoapi-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CryptAcquireContext](https://msdn.microsoft.com/en-us/library/ms884430.aspx) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.16299. |
+| [CryptGetDefaultProvider](https://msdn.microsoft.com/en-us/library/ms884455.aspx) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.16299. |
+| [CryptSignHash](https://msdn.microsoft.com/en-us/library/ms884633.aspx) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.16299. |
+| [CryptVerifySignature](https://msdn.microsoft.com/en-us/library/ms884635.aspx) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-file-ansi-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [DeleteVolumeMountPoint](https://msdn.microsoft.com/en-us/library/Aa363927.aspx) | Introduced into api-ms-win-core-file-ansi-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-localization-l2-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [EnumSystemCodePages](https://msdn.microsoft.com/en-us/library/ms905062.aspx) | Introduced into api-ms-win-core-localization-l2-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-localization-ansi-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [EnumUILanguages](https://msdn.microsoft.com/en-us/library/ms905092.aspx) | Introduced into api-ms-win-core-localization-ansi-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-processenvironment-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [ExpandEnvironmentStrings](https://msdn.microsoft.com/en-us/library/Aa372337.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [FreeEnvironmentStrings](https://msdn.microsoft.com/en-us/library/ms683151.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [GetCommandLine](https://msdn.microsoft.com/en-us/library/ms885605.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [GetCurrentDirectory](https://msdn.microsoft.com/en-us/library/ms909389.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [GetEnvironmentVariable](https://msdn.microsoft.com/en-us/library/ms392609.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [SetCurrentDirectory](https://msdn.microsoft.com/en-us/library/ms832428.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-console-l2-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [FillConsoleOutputCharacter](https://msdn.microsoft.com/en-us/library/ms682663.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [GetConsoleTitle](https://msdn.microsoft.com/en-us/library/ms683174.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [PeekConsoleInput](https://msdn.microsoft.com/en-us/library/ms684344.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [[ReadConsole](https://msdn.microsoft.com/en-us/library/ms684958.aspx)Output](https://msdn.microsoft.com/en-us/library/ms684965.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [SetConsoleTitle](https://msdn.microsoft.com/en-us/library/ms686050.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [[WriteConsole](https://msdn.microsoft.com/en-us/library/ms687401.aspx)Output](https://msdn.microsoft.com/en-us/library/ms687404.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-eventing-legacy-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [FlushTrace](https://msdn.microsoft.com/en-us/library/Aa363891.aspx) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.16299. |
+| [QueryTrace](https://msdn.microsoft.com/en-us/library/Aa364103.aspx) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-localization-l1-2-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [FormatMessage](https://msdn.microsoft.com/en-us/library/ms859905.aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [GetGeoInfo](https://msdn.microsoft.com/en-us/library/Dd318099.aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [GetLocaleInfo](https://msdn.microsoft.com/en-us/library/ms905243.aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+
+
+## APIs from ws2_32.dll
+
+| API | Requirements |
+| -----| --------------|
+| [FreeAddrInfo](https://msdn.microsoft.com/en-us/library/ms910262.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
+| [[GetAddrInfo](https://msdn.microsoft.com/en-us/library/ms910263.aspx)Ex](https://msdn.microsoft.com/en-us/library/ms738518.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
+| GetAddrInfo | Introduced into ws2_32.dll in 10.0.16299. |
+| [GetHostName](https://msdn.microsoft.com/en-us/library/ms908431.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
+| [GetNameInfo](https://msdn.microsoft.com/en-us/library/ms910264.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
+| InetNtop | Introduced into ws2_32.dll in 10.0.16299. |
+| InetPton | Introduced into ws2_32.dll in 10.0.16299. |
+| [SetAddrInfoEx](https://msdn.microsoft.com/en-us/library/ms740473.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
+| [WSAAddressToString](https://msdn.microsoft.com/en-us/library/ms898728.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
+| WSAConnectByName | Introduced into ws2_32.dll in 10.0.16299. |
+| WSADuplicateSocket | Introduced into ws2_32.dll in 10.0.16299. |
+| [WSAEnumNameSpaceProviders](https://msdn.microsoft.com/en-us/library/ms898737.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
+| [WSAEnumNameSpaceProvidersEx](https://msdn.microsoft.com/en-us/library/ms741568.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
+| [WSAEnumProtocols](https://msdn.microsoft.com/en-us/library/ms898739.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
+| WSAGetServiceClassInfo | Introduced into ws2_32.dll in 10.0.16299. |
+| WSAGetServiceClassNameByClassId | Introduced into ws2_32.dll in 10.0.16299. |
+| [WSALookupServiceBegin](https://msdn.microsoft.com/en-us/library/ms863410.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
+| [WSALookupServiceNext](https://msdn.microsoft.com/en-us/library/ms863412.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
+| [WSASetService](https://msdn.microsoft.com/en-us/library/Aa362921.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
+| [WSASocket](https://msdn.microsoft.com/en-us/library/ms898773.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
+| [WSAStringToAddress](https://msdn.microsoft.com/en-us/library/ms898775.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-namedpipe-ansi-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [GetNamedPipeClientComputerName](https://msdn.microsoft.com/en-us/library/Aa365437.aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. |
+| [GetNamedPipeHandleState](https://msdn.microsoft.com/en-us/library/Aa365443.aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. |
+| [WaitNamedPipe](https://msdn.microsoft.com/en-us/library/Aa365800.aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-url-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [GetAcceptLanguages](https://msdn.microsoft.com/en-us/library/ms538578.aspx) | Introduced into api-ms-win-core-url-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-localization-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [GetCPInfoEx](https://msdn.microsoft.com/en-us/library/Cc422080.aspx) | Introduced into api-ms-win-core-localization-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-security-provider-ansi-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [GetExplicitEntriesFromAcl](https://msdn.microsoft.com/en-us/library/Aa446638.aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. |
+| [GetNamedSecurityInfo](https://msdn.microsoft.com/en-us/library/Aa446645.aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. |
+| [SetEntriesInAcl](https://msdn.microsoft.com/en-us/library/Aa379576.aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. |
+| [SetNamedSecurityInfo](https://msdn.microsoft.com/en-us/library/Aa379579.aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from version.dll
+
+| API | Requirements |
+| -----| --------------|
+| [GetFileVersionInfoEx](https://msdn.microsoft.com/en-us/library/Aa969434.aspx) | Introduced into version.dll in 10.0.16299. |
+| [GetFileVersionInfoSizeEx](https://msdn.microsoft.com/en-us/library/Aa969435.aspx) | Introduced into version.dll in 10.0.16299. |
+| [VerQueryValue](https://msdn.microsoft.com/en-us/library/ms915509.aspx) | Introduced into version.dll in 10.0.16299. |
+
+
+## APIs from ext-ms-win-ntuser-keyboard-l1-2-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [GetKeyNameText](https://msdn.microsoft.com/en-us/library/ms646300.aspx) | Introduced into ext-ms-win-ntuser-keyboard-l1-2-0.dll in 10.0.16299. |
+
+
+## APIs from ext-ms-win-base-psapi-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| GetModuleBaseName | Introduced into ext-ms-win-base-psapi-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-libraryloader-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| GetModuleFileName | Introduced into api-ms-win-core-libraryloader-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-string-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| GetStringType | Introduced into api-ms-win-core-string-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-sysinfo-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [GetSystemDirectory](https://msdn.microsoft.com/en-us/library/ms724373.aspx) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+| [GetVersionEx](https://msdn.microsoft.com/en-us/library/ms885648.aspx) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-file-l1-2-2.dll
+
+| API | Requirements |
+| -----| --------------|
+| [GetTempFileName](https://msdn.microsoft.com/en-us/library/ms891186.aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. |
+| [GetTempPath](https://msdn.microsoft.com/en-us/library/ms891189.aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. |
+| [GetVolumeInformation](https://msdn.microsoft.com/en-us/library/Aa364993.aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-kernel32-legacy-ansi-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [SetVolumeLabel](https://msdn.microsoft.com/en-us/library/Aa365560.aspx) | Introduced into api-ms-win-core-kernel32-legacy-ansi-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from esent.dll
+
+| API | Requirements |
+| -----| --------------|
+| JetCreateIndex4 | Introduced into esent.dll in 10.0.16299. |
+| JetCreateTableColumnIndex4 | Introduced into esent.dll in 10.0.16299. |
+| JetGetErrorInfo | Introduced into esent.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-psapi-ansi-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| K32GetModuleBaseName | Introduced into api-ms-win-core-psapi-ansi-l1-1-0.dll in 10.0.16299. |
+| K32GetModuleFileNameEx | Introduced into api-ms-win-core-psapi-ansi-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-security-lsalookup-ansi-l2-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [LookupAccountName](https://msdn.microsoft.com/en-us/library/Aa379159.aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
+| [LookupAccountSid](https://msdn.microsoft.com/en-us/library/Aa379166.aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
+| [LookupPrivilegeDisplayName](https://msdn.microsoft.com/en-us/library/Aa379168.aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
+| [LookupPrivilegeName](https://msdn.microsoft.com/en-us/library/Aa379176.aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
+| [LookupPrivilegeValue](https://msdn.microsoft.com/en-us/library/Aa379180.aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
+
+
+## APIs from ext-ms-win-ntuser-keyboard-l1-3-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [MapVirtualKey](https://msdn.microsoft.com/en-us/library/ms902140.aspx) | Introduced into ext-ms-win-ntuser-keyboard-l1-3-0.dll in 10.0.16299. |
+
+
+## APIs from ext-ms-win-ntuser-keyboard-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [MapVirtualKeyEx](https://msdn.microsoft.com/en-us/library/ms646307.aspx) | Introduced into ext-ms-win-ntuser-keyboard-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-debug-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [OutputDebugString](https://msdn.microsoft.com/en-us/library/ms886769.aspx) | Introduced into api-ms-win-core-debug-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-console-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [ReadConsoleInput](https://msdn.microsoft.com/en-us/library/ms684961.aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
+| ReadConsole | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
+| WriteConsole | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-file-l2-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| ReadDirectoryChanges | Introduced into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-downlevel-advapi32-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [RegisterTraceGuids](https://msdn.microsoft.com/en-us/library/Aa364105.aspx) | Introduced into api-ms-win-downlevel-advapi32-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-synch-l1-2-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| SleepConditionVariableSR | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. |
+
+
+COM interfaces
 
 | API | Requirements |
 | -----| --------------|
@@ -3675,16 +4151,19 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | [ID2D1SvgPathData](https://msdn.microsoft.com/en-us/library/Mt797902.aspx) | Introduced in 10.0.15063. |
 | [ID2D1SvgPointCollection](https://msdn.microsoft.com/en-us/library/Mt797912.aspx) | Introduced in 10.0.15063. |
 | [ID2D1SvgStrokeDashArray](https://msdn.microsoft.com/en-us/library/Mt797917.aspx) | Introduced in 10.0.15063. |
-| IDXGIAdapter4 | Introduced in 10.0.15063. |
+| [IDXGIAdapter4](https://msdn.microsoft.com/en-us/library/Mt825229.aspx) | Introduced in 10.0.15063. |
 | [IMFSpatialAudioObjectBuffer](https://msdn.microsoft.com/en-us/library/Mt797969.aspx) | Introduced in 10.0.15063. |
 | [IMFSpatialAudioSample](https://msdn.microsoft.com/en-us/library/Mt797975.aspx) | Introduced in 10.0.15063. |
 | [ISpatialAudioObject](https://msdn.microsoft.com/en-us/library/Mt779268.aspx) | Introduced in 10.0.15063. |
 | [ISpatialAudioObjectRenderStream](https://msdn.microsoft.com/en-us/library/Mt779280.aspx) | Introduced in 10.0.15063. |
 | [ISpatialAudioObjectRenderStreamNotify](https://msdn.microsoft.com/en-us/library/Mt779281.aspx) | Introduced in 10.0.15063. |
 | [ISpatialAudioClient](https://msdn.microsoft.com/en-us/library/Mt779259.aspx) | Introduced in 10.0.15063. |
+| [IOplockBreakingHandler](https://msdn.microsoft.com/en-us/library/Mt743185.aspx) | Introduced in 10.0.16299. |
+| IStorageItemHandleAccess | Introduced in 10.0.16299. |
+| [IStorageFolderHandleAccess](https://msdn.microsoft.com/en-us/library/Mt765061.aspx) | Introduced in 10.0.16299. |
 
 
-## COM coclasses
+COM coclasses
 
 | API | Requirements |
 | -----| --------------|
@@ -3692,7 +4171,7 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | AudioVolumeMeter | Introduced in 10.0.10240. |
 | AoWAppActivatedRuntime | Introduced in 10.0.10240. Removed in 10.0.15063. |
 | AoWBackgroundTaskRuntime | Introduced in 10.0.10240. Removed in 10.0.15063. |
-| CameraUIControl | Introduced in 10.0.10240. |
+| [CameraUIControl](https://msdn.microsoft.com/en-us/library/Hh802717.aspx) | Introduced in 10.0.10240. |
 | CLSID_AudioFrameNativeFactory | Introduced in 10.0.10240. |
 | CLSID_CMultiLanguage | Introduced in 10.0.10240. |
 | CLSID_CUIAutomationRegistrar | Introduced in 10.0.10240. |
@@ -3739,28 +4218,28 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | CLSID_WICImagingFactory1 | Introduced in 10.0.10240. |
 | CLSID_WICImagingFactory2 | Introduced in 10.0.10240. |
 | CLSID_XpsOMObjectFactory | Introduced in 10.0.10240. |
-| FXEcho | Introduced in 10.0.10240. |
+| [FXEcho](https://msdn.microsoft.com/en-us/library/ms806754.aspx) | Introduced in 10.0.10240. |
 | FXEQ | Introduced in 10.0.10240. |
 | FXMasteringLimiter | Introduced in 10.0.10240. |
 | FXReverb | Introduced in 10.0.10240. |
 | [RDPSession](https://msdn.microsoft.com/en-us/library/Mt446078.aspx) | Introduced in 10.0.10240. |
-| RDPSRAPIApplication | Introduced in 10.0.10240. |
-| RDPSRAPIApplicationFilter | Introduced in 10.0.10240. |
-| RDPSRAPIApplicationList | Introduced in 10.0.10240. |
-| RDPSRAPIAttendee | Introduced in 10.0.10240. |
-| RDPSRAPIAttendeeDisconnectInfo | Introduced in 10.0.10240. |
-| RDPSRAPIAttendeeManager | Introduced in 10.0.10240. |
-| RDPSRAPIInvitation | Introduced in 10.0.10240. |
-| RDPSRAPIInvitationManager | Introduced in 10.0.10240. |
-| RDPSRAPISessionProperties | Introduced in 10.0.10240. |
-| RDPSRAPITcpConnectionInfo | Introduced in 10.0.10240. |
-| RDPSRAPIWindow | Introduced in 10.0.10240. |
-| RDPSRAPIWindowList | Introduced in 10.0.10240. |
+| [RDPSRAPIApplication](https://msdn.microsoft.com/en-us/library/Aa373266.aspx) | Introduced in 10.0.10240. |
+| [RDPSRAPIApplicationFilter](https://msdn.microsoft.com/en-us/library/Aa373267.aspx) | Introduced in 10.0.10240. |
+| [RDPSRAPIApplicationList](https://msdn.microsoft.com/en-us/library/Aa373271.aspx) | Introduced in 10.0.10240. |
+| [RDPSRAPIAttendee](https://msdn.microsoft.com/en-us/library/Aa373279.aspx) | Introduced in 10.0.10240. |
+| [RDPSRAPIAttendeeDisconnectInfo](https://msdn.microsoft.com/en-us/library/Aa373280.aspx) | Introduced in 10.0.10240. |
+| [RDPSRAPIAttendeeManager](https://msdn.microsoft.com/en-us/library/Aa373284.aspx) | Introduced in 10.0.10240. |
+| [RDPSRAPIInvitation](https://msdn.microsoft.com/en-us/library/Aa373294.aspx) | Introduced in 10.0.10240. |
+| [RDPSRAPIInvitationManager](https://msdn.microsoft.com/en-us/library/Aa373295.aspx) | Introduced in 10.0.10240. |
+| [RDPSRAPISessionProperties](https://msdn.microsoft.com/en-us/library/Aa373305.aspx) | Introduced in 10.0.10240. |
+| [RDPSRAPITcpConnectionInfo](https://msdn.microsoft.com/en-us/library/Aa373321.aspx) | Introduced in 10.0.10240. |
+| [RDPSRAPIWindow](https://msdn.microsoft.com/en-us/library/Aa373371.aspx) | Introduced in 10.0.10240. |
+| [RDPSRAPIWindowList](https://msdn.microsoft.com/en-us/library/Aa373372.aspx) | Introduced in 10.0.10240. |
 | RDPViewer | Introduced in 10.0.10240. |
-| SignalableNotifier | Introduced in 10.0.10240. |
-| SpellCheckerFactory | Introduced in 10.0.10240. |
+| [SignalableNotifier](https://msdn.microsoft.com/en-us/library/Dn298319.aspx) | Introduced in 10.0.10240. |
+| [SpellCheckerFactory](https://msdn.microsoft.com/en-us/library/Hh869770.aspx) | Introduced in 10.0.10240. |
 | [WorkspaceBrokerAx](https://msdn.microsoft.com/en-us/library/Hh974747.aspx) | Introduced in 10.0.10240. |
-| AppxFactory | Introduced in 10.0.14393. |
+| [AppxFactory](https://msdn.microsoft.com/en-us/library/Hh446671.aspx) | Introduced in 10.0.14393. |
 | CLSID_AudioResamplerMediaObject | Introduced in 10.0.14393. |
 | CLSID_MSAACDecMFT | Introduced in 10.0.14393. |
 | CLSID_MSDDPlusDecMFT | Introduced in 10.0.14393. |
@@ -3775,6 +4254,6 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | CLSID_VideoProcessorMFT | Introduced in 10.0.14393. |
 | CLSID_WMADecMediaObject | Introduced in 10.0.14393. |
 | CLSID_WMVDecoderMFT | Introduced in 10.0.14393. |
-| XblIdpAuthManager | Introduced in 10.0.14393. |
+| [XblIdpAuthManager](https://msdn.microsoft.com/en-us/library/Mt709230.aspx) | Introduced in 10.0.14393. |
 
 
