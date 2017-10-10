@@ -31,7 +31,9 @@ Declares other packages that a package depends on to complete its software.
 
   <!-- Child elements -->
   TargetDeviceFamily{1,128},
-  PackageDependency{0,128}
+  PackageDependency{0,128},
+  uap3:MainPackageDependency{0,1},
+  uap5:DriverDependency{0,1000}
 
 </Dependencies>
 ```
@@ -68,8 +70,19 @@ None.
 <td>[TargetDeviceFamily](element-targetdevicefamily.md)</td>
 <td><p>Identifies the device family that your package targets. For more info about device families, see [Guide to UWP apps](https://msdn.microsoft.com/library/windows/apps/dn894631).</p></td>
 </tr>
+<tr class="odd">
+<td>[uap3:MainPackageDependency](element-uap3-mainpackagedependency-manual.md)</td>
+<td><p>Specifies the main app package to which this supplemental package applies.
+</p></td>
+</tr>
+<tr class="even">
+<td>[uap5:DriverDependency](element-uap5-driverdependency.md)</td>
+<td><p>Contains the driver constraint information for a UWP app. If DriverDependency is used, the specified driver must be present for the app to load.
+</p></td>
+</tr>
 </tbody>
 </table>
+
 
  
 

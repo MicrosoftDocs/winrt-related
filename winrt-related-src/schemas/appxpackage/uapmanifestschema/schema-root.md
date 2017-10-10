@@ -87,6 +87,8 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [com:Win32Path (in Package/Extensions)](element-com-package-win32path.md) | A path to the 32-bit type library. |
 | [com:Win64Path (in ComInterface/TypeLib)](element-com-win64path.md) | A path to the 64-bit type library. |
 | [com:Win64Path (in Package/Extensions)](element-com-package-win64path.md) | A path to the 64-bit type library. |
+| [com2:ProxyStubDll](element-com2-proxystubdll.md) | Specifies the path and processor architecture of a ProxyStub DLL. |
+| [com2:ProxyStubDll (in Package/Extensions)](element-com2-package-proxystubdll.md) | Specifies the path and processor architecture of a ProxyStub DLL. |
 | [Dependencies](element-dependencies.md) | Declares other packages that a package depends on to complete its software. |
 | [Description](element-description.md) | A friendly description that can be displayed to users. |
 | [desktop2:AppPrinter](element-desktop2-appprinter.md) | Enables the ability to install software file printers in Windows Desktop Bridge apps. |
@@ -106,6 +108,19 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [desktop2:ThumbnailHandler](element-desktop2-ThumbnailHandler.md) | Enables a ThumbnailProvider for a file type association. |
 | [desktop2:TypesSupported](element-desktop2-TypesSupported.md) | Contains the event log types that are supported. |
 | [desktop2:TypeSupported](element-desktop2-TypeSupported.md) | Specifies the types of events that are supported. |
+| [desktop3:AutoPlayHandler](element-desktop3-AutoPlayHandler.md) | Handler for AutoPlay, which can present your app as an option when a user connects a device to their PC. |
+| [desktop3:BannersHandler](element-desktop3-BannersHandler.md) | Registration of a Windows Shell BannersHandler for cloud based placeholder files. |
+| [desktop3:CloudFiles](element-desktop3-CloudFiles.md) | Registration for the handlers implemented in an application and context menu options for cloud based placeholder files. |
+| [desktop3:CloudFilesContextMenus](element-desktop3-CloudFilesContextMenus.md) | Registration of a context menu for a cloud based placeholder file. |
+| [desktop3:Content](element-desktop3-content.md) | Defines the content information of an AutoPlayHandler. |
+| [desktop3:CustomStateHandler](element-desktop3-CustomStateHandler.md) | Registration of a Windows Shell CustomStateHandler for cloud based placeholder files. |
+| [desktop3:Device](element-desktop3-Device.md) | Defines the device information of an AutoPlayHandler. |
+| [desktop3:ExtendedPropertyHandler](element-desktop3-ExtendedPropertyHandler.md) | Registration of a Windows Shell ExtendedPropertyHandler for cloud based placeholder files. |
+| [desktop3:InvokeAction](element-desktop3-InvokeAction.md) | Contains content and device information for invoking an AutoPlay action. |
+| [desktop3:PropertyList](element-desktop3-PropertyList.md) | Contains the properties that are under the Properties tab of a file. |
+| [desktop3:PropertyLists](element-desktop3-PropertyLists.md) | Contains a list of properties to show under the properties tab of a file. |
+| [desktop3:ThumbnailProviderHandler](element-desktop3-ThumbnailProviderHandler.md) | Registration of a Windows Shell ThumbnailProviderHandler for cloud based placeholder files. |
+| [desktop3:Verb](element-desktop3-Verb.md) | Specifies the names of items in the File Explorer context menu for cloud based placeholder files. |
 | [Device](element-device.md) | Declares a function for a device that is associated with the [**DeviceCapability**](element-devicecapability.md). On Windows 10.0.10240.0, a **DeviceCapability** can contain up to 100 **Device** elements. On Windows 10.0.10586.0, it can contain up to 1000 (for more details, see **DeviceCapability**). |
 | [DeviceCapability](element-devicecapability.md) | Declares a device capability required by a package. On Windows 10.0.10240.0, can contain up to 100 [**Device**](element-device.md) elements. On Windows 10.0.10586.0, can contain up to 1000 (for syntax and examples, see Examples). |
 | [DisplayName](element-displayname.md) | A friendly name that can be displayed to users. |
@@ -250,4 +265,29 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap4:OutputTypes](element-uap4-outputtypes.md) | Contains the media codec output types. |
 | [uap4:Rule](element-uap4-rule.md) | Defines rules for inbound and outbound loopback connections. |
 | [uap4:SharedFonts](element-uap4-sharedfonts.md) | Contains the locations of shared fonts to be used with the app. |
-| [uap4:UserDataTaskDataProvider](element-uap4-userdatataskdataprovider.md) | Enables an app to become a DataProvider for a task. |
+| [uap5:ActivatableClass](element-uap5-ActivatableClass.md) | Declares a runtime class associated with the extensibility point. |
+| [uap5:ActivatableClassAttribute](element-uap5-ActivatableClassAttribute.md) | Defines an attribute of the class that is stored in the Windows Runtime property store. |
+| [uap5:AppExecutionAlias](element-uap5-AppExecutionAlias.md) | Specifies the application's execution alias to determine the executable of the app to be activated. |
+| [uap5:Arguments](element-uap5-Arguments.md) | Specifies the list of comma-separated arguments to pass to the executable. |
+| [uap5:ContentType](element-uap5-ContentType.md) | Specifies the media/content type supported by the media source. |
+| [uap5:DriverConstraint](element-uap5-DriverConstraint.md) | Specifies the details of a driver paired with a UWP app. |
+| [uap5:DriverDependency](element-uap5-DriverDependency.md) | Contains the driver constraint information for a UWP app. If `DriverDependency` is used, the specified driver must be present for the app to load. |
+| [uap5:ExecutionAlias](element-uap5-ExecutionAlias.md) | The executable of a UWP app to be activated from a command promt. |
+| [uap5:Extension](element-uap5-Extension.md) | Declares an extensibility point for the app. |
+| [uap5:FileType](element-uap5-FileType.md) | Specifies the file type supported by the media source. |
+| [uap5:Host](element-uap5-Host.md) | Represents a valid HTTP or HTTPS host name with a wildcard that the app wants to register as able to handle. |
+| [uap5:InputType](element-uap5-InputType.md) | Specifies media input sub-types. |
+| [uap5:InputTypes](element-uap5-InputTypes.md) | Contains a list of media input sub-types. |
+| [uap5:Instancing](element-uap5-Instancing.md) | Specifies whether the executable runs as a single instance or can run as multiple instances. |
+| [uap5:MediaSource](element-uap5-MediaSource.md) | Specifies the media source and the app service that it exposes. |
+| [uap5:MixedRealityModel](element-uap5-MixedRealityModel.md) | An element used to define a 3D model as the default representation of an app. When launched from a virtual or mixed reality device, this model will represent the app in the virtual setting. |
+| [uap5:OutOfProcessServer](element-uap5-OutOfProcessServer.md) | Declares a package extension point of type **windows.activatableClass.outOfProcessServer**. This enables 3rd party WinRT classes defined in the app package to be called from a Win32 process. |
+| [uap5:Path](element-uap5-Path.md) | The path to the executable. |
+| [uap5:StartupTask](element-uap5-StartupTask.md) | Specifies a startup task for your application. |
+| [uap5:SupportedContentTypes](element-uap5-SupportedContentTypes.md) | Contains the media/content types supported by the media source. |
+| [uap5:SupportedFileTypes](element-uap5-SupportedFileTypes.md) | Contains the file types supported by the media source. |
+| [uap5:UserActivity](element-uap5-UserActivity.md) | Allows an app to opt out of engagement data tracking. |
+| [uap5:VideoRendererEffect](element-uap5-VideoRendererEffect.md) | Enables activation of video renderer effects in apps. |
+| [uap5:VideoRendererExtensionProfile](element-uap5-VideoRendererExtensionProfile.md) | Specifies a video renderer profile. |
+| [uap5:VideoRendererExtensionProfiles](element-uap5-VideoRendererExtensionProfiles.md) | Contains a list of video renderer profiles. |
+

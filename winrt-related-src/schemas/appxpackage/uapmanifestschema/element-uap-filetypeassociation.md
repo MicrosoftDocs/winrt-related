@@ -57,14 +57,15 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
   & uap:Logo?
   & uap:InfoTip?
   & uap:EditFlags?
-  & uap:SupportedFileTypes
-  & uap2:SupportedVerbs
-  & uap4:KindMap
-  & rescap3:MigrationProgIds
-  & desktop2:ThumbnailHandler
-  & desktop2:OleClass
-  & desktop2:DesktopPreviewHandler
-  & desktop2:DesktopPropertyHandler
+  & uap:SupportedFileTypes?
+  & uap2:SupportedVerbs?
+  & uap4:KindMap?
+  & rescap3:MigrationProgIds?
+  & desktop2:ThumbnailHandler?
+  & desktop2:OleClass?
+  & desktop2:DesktopPreviewHandler?
+  & desktop2:DesktopPropertyHandler?
+  & desktop3:PropertyLists?
   )
 
 </uap:FileTypeAssociation>
@@ -200,6 +201,11 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 <tr class="odd">
 <td>[desktop2:DesktopPropertyHandler](element-desktop2-DesktopPropertyHandler.md)</td>
 <td><p>Enables declaration of a property handler for a file type association.
+</p></td>
+</tr>
+<tr class="even">
+<td>[desktop3:PropertyLists](element-desktop3-propertylists.md)</td>
+<td><p>Contains a list of properties to show under the properties tab of a file.
 </p></td>
 </tr>
 </tbody>

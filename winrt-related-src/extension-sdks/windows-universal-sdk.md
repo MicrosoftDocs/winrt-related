@@ -7,12 +7,33 @@ author: TylerMSFT
 ms.prod: windows
 ms.technology: winrt-reference
 ms.topic: reference
-ms.date: 04/05/2017
+ms.date: 10/10/2017
 keywords: windows 10, uwp, universal sdk, extension contract
 ---
 # Windows Universal Platform SDK API contracts
 
 Lists all of the API contracts in the Windows Universal Platform (UWP) SDK.
+
+## All API contracts in Windows 10 Fall Creators Update Universal SDK, Version 10.0.16299.0
+
+Windows.ApplicationModel.Calls.CallsVoipContract, version=2.0
+Windows.ApplicationModel.SocialInfo.SocialInfoContract, version=2.0
+Windows.ApplicationModel.StartupTaskContract, version=2.0
+Windows.Devices.Custom.CustomDeviceContract, version=1.0
+Windows.Devices.DevicesLowLevelContract, version=3.0
+Windows.Devices.Printers.PrintersContract, version=1.0
+Windows.Devices.SmartCards.SmartCardBackgroundTriggerContract, version=3.0
+Windows.Devices.SmartCards.SmartCardEmulatorContract, version=5.0
+Windows.Foundation.FoundationContract, version=3.0
+Windows.Foundation.UniversalApiContract, version=5.0
+Windows.Gaming.XboxLive.StorageApiContract, version=1.0
+Windows.Graphics.Printing3D.Printing3DContract, version=4.0
+Windows.Networking.Connectivity.WwanContract, version=1.0
+Windows.Services.Store.StoreContract, version=2.0
+Windows.Services.TargetedContent.TargetedContentContract, version=1.0
+Windows.System.Profile.ProfileHardwareTokenContract, version=1.0
+Windows.System.Profile.ProfileSharedModeContract, version=2.0
+Windows.UI.ViewManagement.ViewManagementViewScalingContract, version=1.0
 
 ## All API contracts in Windows 10 Creators Update Universal SDK, version 10.0.15063.0
 

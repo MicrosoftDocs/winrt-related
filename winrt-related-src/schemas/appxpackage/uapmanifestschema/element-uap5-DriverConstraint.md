@@ -1,4 +1,4 @@
----
+﻿---
 Description: Specifies the details of a driver paired with a UWP app.
 title: uap5:DriverConstraint
 author: laurenhughes
@@ -7,14 +7,11 @@ keywords: windows 10, uwp, schema, package manifest
 ms.prod: windows
 ms.technology: winrt-reference
 ms.topic: reference
-ms.date: 8/25/17
+ms.date: 10/10/17
 ---
 
 # uap5:DriverConstraint
 Specifies the details of a driver paired with a UWP app.
-
-> [!NOTE] 
-> This is available in current [Windows 10 Insider Preview](https://insider.windows.com/) builds only.
 
 ## Element hierarchy
 
@@ -75,8 +72,6 @@ This example shows multiple `DriverDependency` and `DriverConstraint` elements p
 ```
 
 ## Requirements
-> [!NOTE] 
-> This is available in current [Windows 10 Insider Preview](https://insider.windows.com/) builds only.
 
 <table>
 <colgroup>

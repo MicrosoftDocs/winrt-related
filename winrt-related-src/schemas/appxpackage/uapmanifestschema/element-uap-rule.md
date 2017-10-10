@@ -43,8 +43,9 @@ Specifies which pages in the web context have access to the system's geolocation
 
 ``` syntax
 <Rule Type                  = "include" | "exclude"
-          Match                 = A string between 1 and 2084 characters in length.
-          WindowsRuntimeAccess? = "allowForWebOnly" | "all" | "none" />
+      Match                 = A string between 1 and 2084 characters in length.
+      WindowsRuntimeAccess? = "allowForWebOnly" | "all" | "none" 
+      uap5:ServiceWorker?   = Boolean />
 ```
 
 ### Key
@@ -105,6 +106,13 @@ Specifies which pages in the web context have access to the system's geolocation
 <li>all</li>
 <li>none</li>
 </ul></td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>uap5:ServiceWorker</strong></td>
+<td><p>This represents the registration of a service worker from a web page (a Progressive Web App) to run as a UWP app. If true, it will be determined whether a URL the app navigates to has the permission required to register the app as a service worker.</p></td>
+<td><p>Boolean</p></td>
 <td>No</td>
 <td></td>
 </tr>

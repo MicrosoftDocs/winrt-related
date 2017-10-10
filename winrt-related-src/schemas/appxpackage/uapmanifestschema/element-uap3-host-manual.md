@@ -53,7 +53,7 @@ Represents a valid HTTP or HTTPS host name that the app wants to register as abl
 
 
 ```
-<uap3:Host Name = >
+<uap3:Host Name = A string between 1 and 255 characters in length. >
 </uap3:Host>
 ```
 
@@ -68,7 +68,7 @@ Represents a valid HTTP or HTTPS host name that the app wants to register as abl
 
 | Attribute | Description                                                              | Data type                                       | Required | Default value |
 |-----------|--------------------------------------------------------------------------|-------------------------------------------------|----------|---------------|
-| **Name**  | The fully-qualified domain name of the web site associated with the app. | A string between 1 and 255 characters in length | Yes      |               |
+| **Name**  | The fully-qualified domain name of the web site associated with the app. | A string between 1 and 255 characters in length. | Yes      |               |
 
  
 

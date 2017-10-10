@@ -1,4 +1,4 @@
----
+﻿---
 Description: Contains the driver constraint information for a UWP app.
 title: uap5:DriverDependency
 author: laurenhughes
@@ -7,14 +7,11 @@ keywords: windows 10, uwp, schema, package manifest, driver dependency
 ms.prod: windows
 ms.technology: winrt-reference
 ms.topic: reference
-ms.date: 8/25/17
+ms.date: 10/10/17
 ---
 
 # uap5:DriverDependency
 Contains the driver constraint information for a UWP app. If `DriverDependency` is used, the specified driver must be present for the app to load.
-
-> [!NOTE] 
-> This is available in current [Windows 10 Insider Preview](https://insider.windows.com/) builds only.
 
 ## Element hierarchy
 
@@ -55,8 +52,6 @@ See [Pairing a driver with a Universal Windows Platform (UWP) app](/windows-hard
 See [uap5:DriverConstraint](element-uap5-DriverConstraint.md) for an example. 
 
 ## Requirements
-> [!NOTE] 
-> This is available in current [Windows 10 Insider Preview](https://insider.windows.com/) builds only.
 
 <table>
 <colgroup>
@@ -70,10 +65,3 @@ See [uap5:DriverConstraint](element-uap5-DriverConstraint.md) for an example.
 </tr>
 </tbody>
 </table>
-
- 
-
- 
-
-
-

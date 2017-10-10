@@ -37,7 +37,9 @@ Declares a package extension point of type **windows.activatableClass.outOfProce
 ## Syntax
 
 ``` syntax
-<OutOfProcessServer ServerName = An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. >
+<OutOfProcessServer ServerName    = An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. 
+                    RunFullTrust? = Boolean.
+                    IdentityType? = A string value that can be one of the following: activateAsPackage, activateAsActivator. >
 
   <!-- Child elements -->
   Path,
@@ -49,11 +51,10 @@ Declares a package extension point of type **windows.activatableClass.outOfProce
 ```
 
 ### Key
-
 `?`   optional (zero or one)
 `{}`   specific range of occurrences
-## Attributes and Elements
 
+## Attributes and Elements
 
 ### Attributes
 
@@ -81,6 +82,20 @@ Declares a package extension point of type **windows.activatableClass.outOfProce
 <td>An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.</td>
 <td>Yes</td>
 <td></td>
+</tr>
+<tr class="even">
+<td><strong>RunFullTrust</strong></td>
+<td><p>If true, the server will be launched with a Windows Desktop Bridge token, as opposed to a UWP token.</p></td>
+<td>Boolean</td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>IdentityType</strong></td>
+<td><p>The activation type of the server.</p></td>
+<td>A string value that can be one of the following: activateAsPackage, activateAsActivator.</td>
+<td>No</td>
+<td>activateAsActivator</td>
 </tr>
 </tbody>
 </table>
@@ -143,7 +158,8 @@ Declares a package extension point of type **windows.activatableClass.outOfProce
 </tbody>
 </table>
 
- 
+## Remarks
+If the `IdentityType` is set to `activateAsPackage`, the server will be launched with a token that doesn't vary based on the activating process's token. 
 
 ## Examples
 
