@@ -3788,13 +3788,10 @@ COM interfaces
 | [IRDPSRAPITransportStream](https://msdn.microsoft.com/en-us/library/windows/desktop/ee620975.aspx) | Introduced in 10.0.10240. |
 | [IRDPSRAPITransportStreamBuffer](https://msdn.microsoft.com/en-us/library/windows/desktop/ee620976.aspx) | Introduced in 10.0.10240. |
 | [IRDPSRAPITransportStreamEvents](https://msdn.microsoft.com/en-us/library/windows/desktop/ee620984.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPIViewer](https://msdn.microsoft.com/en-us/library/windows/desktop/aa373327.aspx) | Introduced in 10.0.10240. |
 | [IRDPSRAPIVirtualChannel](https://msdn.microsoft.com/en-us/library/windows/desktop/aa373361.aspx) | Introduced in 10.0.10240. |
 | [IRDPSRAPIVirtualChannelManager](https://msdn.microsoft.com/en-us/library/windows/desktop/aa373362.aspx) | Introduced in 10.0.10240. |
 | [IRDPSRAPIWindow](https://msdn.microsoft.com/en-us/library/windows/desktop/aa373371.aspx) | Introduced in 10.0.10240. |
 | [IRDPSRAPIWindowList](https://msdn.microsoft.com/en-us/library/windows/desktop/aa373372.aspx) | Introduced in 10.0.10240. |
-| [IRDPViewerInputSink](https://msdn.microsoft.com/en-us/library/windows/desktop/dn408595.aspx) | Introduced in 10.0.10240. |
-| [IRDPViewerRenderingSurface](https://msdn.microsoft.com/en-us/library/windows/desktop/hh802746.aspx) | Introduced in 10.0.10240. |
 | [IReferenceTracker](https://msdn.microsoft.com/en-us/library/windows/desktop/jj542495.aspx) | Introduced in 10.0.10240. |
 | [IReferenceTrackerHost](https://msdn.microsoft.com/en-us/library/windows/desktop/jj542496.aspx) | Introduced in 10.0.10240. |
 | [IReferenceTrackerManager](https://msdn.microsoft.com/en-us/library/windows/desktop/jj542503.aspx) | Introduced in 10.0.10240. |
@@ -4235,7 +4232,6 @@ COM coclasses
 | [RDPSRAPITcpConnectionInfo](https://msdn.microsoft.com/en-us/library/Aa373321.aspx) | Introduced in 10.0.10240. |
 | [RDPSRAPIWindow](https://msdn.microsoft.com/en-us/library/Aa373371.aspx) | Introduced in 10.0.10240. |
 | [RDPSRAPIWindowList](https://msdn.microsoft.com/en-us/library/Aa373372.aspx) | Introduced in 10.0.10240. |
-| RDPViewer | Introduced in 10.0.10240. |
 | [SignalableNotifier](https://msdn.microsoft.com/en-us/library/Dn298319.aspx) | Introduced in 10.0.10240. |
 | [SpellCheckerFactory](https://msdn.microsoft.com/en-us/library/Hh869770.aspx) | Introduced in 10.0.10240. |
 | [WorkspaceBrokerAx](https://msdn.microsoft.com/en-us/library/Hh974747.aspx) | Introduced in 10.0.10240. |
