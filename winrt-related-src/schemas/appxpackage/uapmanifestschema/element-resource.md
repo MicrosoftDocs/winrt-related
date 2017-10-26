@@ -1,7 +1,7 @@
 ---
-Description: Declares a language for the resource contained in the package.
+Description: Declares a language, display scale, or DirectX feature level for resources that the package contains. The scale and DirectX feature level attributes are common for all resources in the package.
 Search.Product: eADQiWindows 10XVcnh
-title: Resource (Windows 10)
+title: Resource
 ms.assetid: 445e7de7-e778-4666-b099-3d7f6f0125c7
 author: laurenhughes
 ms.author: lahugh
@@ -9,13 +9,13 @@ keywords: windows 10, uwp, schema, package manifest
 ms.prod: windows
 ms.technology: winrt-reference
 ms.topic: reference
-ms.date: 04/05/2017
+ms.date: 10/26/2017
 ---
+<link rel="stylesheet" href="https://az835927.vo.msecnd.net/sites/uwp/Resources/css/custom.css">
 
-# Resource (Windows 10)
+# Resource
 
-
-Declares a language for the resource contained in the package. The scale and DirectX feature level attributes are common for all resources in the package.
+Declares a language, display scale, or DirectX feature level for resources that the package contains. The scale and DirectX feature level attributes are common for all resources in the package.
 
 ## Element hierarchy
 
@@ -31,18 +31,19 @@ Declares a language for the resource contained in the package. The scale and Dir
 
 ## Syntax
 
-``` syntax
-<Resource Language?           = language
-          uap:Scale?          = "100" | "120" | "125" | "140" | "150" | "160" | "180" | "200" | "225" | "250" | "300" | "400"
-          uap:DXFeatureLevel? = "dx9" | "dx10" | "dx11" />
 ```
+<Resource Language?           = a valid BCP-47 language tag (such as "en", or "en-us")
+          uap:Scale?          = "80" | "100" | "120" | "125" | "140" | "150" | "160" | "175" | "180" | "200" | "225" | "250" | "300" | "350" | "400" | "450"
+          uap:DXFeatureLevel? = "dx9" | "dx10" | "dx11" | "dx12" />
+```
+
+See [BCP-47 language tag](http://go.microsoft.com/fwlink/p/?linkid=227302).
 
 ### Key
 
 `?`   optional (zero or one)
 
 ## Attributes and Elements
-
 
 ### Attributes
 
@@ -93,8 +94,6 @@ Declares a language for the resource contained in the package. The scale and Dir
 </tbody>
 </table>
 
- 
-
 ### Child Elements
 
 None.
@@ -120,7 +119,27 @@ None.
 </tbody>
 </table>
 
- 
+## Remarks
+
+If you have string/image/file resources in your Visual Studio project that have language qualifiers in their names (see [How to name resources by using qualifiers](/windows/uwp/app-resources/how-to-name-resources-by-using-qualifiers?branch=live)), then you can put the following in your source manifest file (`Package.appxmanifest`).
+
+```xml
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+```
+
+When Visual Studio builds your package manifest file (`AppxManifest.xml`), it expands that single `Resource` element into a union of all the language qualifiers that it finds in your project. For example, if you have string, image, and/or file resources whose folder or file names include "en-US", "ja-JP", and "fr-FR", then your built `AppxManifest.xml` file will contain the following.
+
+```xml
+  <Resources>
+    <Resource Language="EN-US" />
+    <Resource Language="JA-JP" />
+    <Resource Language="FR-FR" />
+  </Resources>
+```
+
+The first entry in the list is the default language for the app, which you can set in Visual Studio. With your solution open in Visual Studio, open `Package.appxmanifest` and, on the Application tab, set **Default language**.
 
 ## Requirements
 
@@ -136,10 +155,3 @@ None.
 </tr>
 </tbody>
 </table>
-
- 
-
- 
-
-
-
