@@ -1,5 +1,5 @@
 ---
-Description: Provides details for each element, attribute, and data type of each feature extension that defines the schema for the app package manifest for Windows 8.1 Windows Store apps.
+Description: Provides details for each element, attribute, and data type of each feature extension that defines the schema for the app package manifest for Windows 8.1 apps.
 Search.Product: eADQiWindows 10XVcnh
 title: Windows 8.1 feature extensions manifest schema
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # Windows 8.1 feature extensions manifest schema
 
 
-This reference provides details for each element, attribute, and data type of each feature extension that defines the schema for the app package manifest for Windows 8.1 Windows Store apps. The schema definition file is AppxManifestSchema2013.xsd. The AppxManifestSchema2013.xsd file imports the AppxManifestSchema2010\_v2.xsd file. The Windows 8 schema is AppxManifestSchema.xsd.
+This reference provides details for each element, attribute, and data type of each feature extension that defines the schema for the app package manifest for Windows 8.1 apps. The schema definition file is AppxManifestSchema2013.xsd. The AppxManifestSchema2013.xsd file imports the AppxManifestSchema2010\_v2.xsd file. The Windows 8 schema is AppxManifestSchema.xsd.
 
 The following table lists all of the elements in this schema, sorted alphabetically by name.
 
@@ -123,7 +123,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </tr>
 <tr class="odd">
 <td>[VisualElements](element-visualelements.md)</td>
-<td><p>Describes the visual aspects of the Windows Store app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance.</p></td>
+<td><p>Describes the visual aspects of the UWP app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance.</p></td>
 </tr>
 </tbody>
 </table>

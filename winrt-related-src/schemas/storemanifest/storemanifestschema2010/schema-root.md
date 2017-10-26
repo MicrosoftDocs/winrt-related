@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # StoreManifest schema (Windows 8.1 and earlier)
 
 
-StoreManifest.xml is an optional configuration file that may be included in the package of Windows Store app packages. Its purpose is to enable features, such as declaring your app as a Windows Store device app, that the AppxManifest.xml file does not cover. StoreManifest.xml is submitted with the application package and must be in the root folder of your app's main project.
+StoreManifest.xml is an optional configuration file that may be included in the package of UWP app packages. Its purpose is to enable features, such as declaring your app as a Microsoft Store device app, that the AppxManifest.xml file does not cover. StoreManifest.xml is submitted with the application package and must be in the root folder of your app's main project.
 
 **Note**  This section describes StoreManifest.xml for packages targeting Windows 8.1 and earlier. For Windows 10, see [StoreManifest schema](https://msdn.microsoft.com/library/windows/apps/mt617335).
 
@@ -43,11 +43,11 @@ The following table lists all of the elements in this schema, sorted alphabetica
 <tbody>
 <tr class="odd">
 <td>[DeviceCompanionApplication](element-devicecompanionapplication.md)</td>
-<td><p>The DeviceCompanionApplication element contains all the configuration required to declare your app as a Windows Store device app.</p></td>
+<td><p>The DeviceCompanionApplication element contains all the configuration required to declare your app as a Microsoft Store device app.</p></td>
 </tr>
 <tr class="even">
 <td>[ExclusiveOptOut](element-exclusiveoptout.md)</td>
-<td><p>Do not use. The ExclusiveOptOut element is no longer read by the Windows Store.</p></td>
+<td><p>Do not use. The ExclusiveOptOut element is no longer read by the Microsoft Store.</p></td>
 </tr>
 <tr class="odd">
 <td>[ExperienceId](element-experienceid.md)</td>
@@ -59,7 +59,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </tr>
 <tr class="odd">
 <td>[PreinstallOptOut](element-preinstalloptout.md)</td>
-<td><p>Do not use. The PreinstallOptOut element is no longer read by the Windows Store.</p></td>
+<td><p>Do not use. The PreinstallOptOut element is no longer read by the Microsoft Store.</p></td>
 </tr>
 <tr class="even">
 <td>[ProductFeatures](element-productfeatures.md)</td>

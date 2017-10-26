@@ -103,7 +103,7 @@ None.
 
 If the *Name* attribute is specified as a GUID, then it is validated as GUID.
 
-By default, Windows Store apps have access to print, scanner, and sensor devices. To access other types of devices, you must specify them using a **DeviceCapability** element. Some device capabilities must be added to the package manifest manually. For more info, see [How to specify device capabilities in a package manifest](https://msdn.microsoft.com/library/windows/apps/dn263092).
+By default, UWP apps have access to print, scanner, and sensor devices. To access other types of devices, you must specify them using a **DeviceCapability** element. Some device capabilities must be added to the package manifest manually. For more info, see [How to specify device capabilities in a package manifest](https://msdn.microsoft.com/library/windows/apps/dn263092).
 
 For more info about capability declarations, see [App capability declarations](https://msdn.microsoft.com/library/windows/apps/hh464936).
 

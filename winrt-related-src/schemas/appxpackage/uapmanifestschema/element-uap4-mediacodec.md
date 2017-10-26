@@ -2,7 +2,7 @@
 author: laurenhughes
 ms.assetid: 1fe032ac-19b2-49a5-9f8f-093ab9102e66
 title: uap4:MediaCodec
-description: Defines an extension that enables an app to install media codecs from the Windows Store.
+description: Defines an extension that enables an app to install media codecs from the Microsoft Store.
 ms.author: lahugh
 ms.date: 04/05/2017
 ms.topic: reference
@@ -14,7 +14,7 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 # uap4:MediaCodec
 
 ## Description
-Defines an extension that enables an app to install media codecs from the Windows Store.
+Defines an extension that enables an app to install media codecs from the Microsoft Store.
 
 ## Element Hierarchy
 <dl>

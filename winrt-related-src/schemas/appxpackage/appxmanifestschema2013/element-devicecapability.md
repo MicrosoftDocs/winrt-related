@@ -101,7 +101,7 @@ This outermost (document) element may not be contained by any other elements.
 
 ## Remarks
 
-This table lists device capabilities by name that are supported starting with the app package manifest for Windows 8.1 Windows Store apps.
+This table lists device capabilities by name that are supported starting with the app package manifest for Windows 8.1 apps.
 
 | Device capability | Description                                                                          |
 |-------------------|--------------------------------------------------------------------------------------|
@@ -110,7 +110,7 @@ This table lists device capabilities by name that are supported starting with th
 
  
 
-For info about device capabilities that are supported starting with the app package manifest for Windows 8 Windows Store apps, see [**DeviceCapability**](https://msdn.microsoft.com/library/windows/apps/dn423266).
+For info about device capabilities that are supported starting with the app package manifest for Windows 8 UWP apps, see [**DeviceCapability**](https://msdn.microsoft.com/library/windows/apps/dn423266).
 
 For more info about capability declarations, see [App capability declarations](https://msdn.microsoft.com/library/windows/apps/hh464936).
 

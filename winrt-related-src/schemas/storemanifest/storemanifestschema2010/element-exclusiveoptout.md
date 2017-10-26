@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # ExclusiveOptOut
 
 
-Do not use. The ExclusiveOptOut element is no longer read by the Windows Store.
+Do not use. The ExclusiveOptOut element is no longer read by the Microsoft Store.
 
 ## Element hierarchy
 

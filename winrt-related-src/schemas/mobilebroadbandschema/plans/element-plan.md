@@ -95,7 +95,7 @@ Defines a set of plan information that specifies the data usage options and stat
 </tr>
 <tr class="even">
 <td>[Usage](element-usage.md)</td>
-<td><p>Defines the state of a subscriber's data usage on a connection to a Mobile Network Operator (MNO). Windows Store apps can retrieve this information using the [<strong>DataPlanStatus</strong>](https://msdn.microsoft.com/library/windows/apps/br207256) class.</p></td>
+<td><p>Defines the state of a subscriber's data usage on a connection to a Mobile Network Operator (MNO). UWP apps can retrieve this information using the [<strong>DataPlanStatus</strong>](https://msdn.microsoft.com/library/windows/apps/br207256) class.</p></td>
 </tr>
 </tbody>
 </table>

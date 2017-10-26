@@ -259,7 +259,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap4:Kind](element-uap4-kind.md) | Specifies the Kind value. |
 | [uap4:KindMap](element-uap4-kindmap.md) | Specifies what Kind is and how it's used. |
 | [uap4:LoopbackAccessRules](element-uap4-loopbackaccessrules.md) | Contains rules for a loopback filter that enables communication between an app and a service. |
-| [uap4:MediaCodec](element-uap4-mediacodec.md) | Defines an extension that enables an app to install media codecs from the Windows Store. |
+| [uap4:MediaCodec](element-uap4-mediacodec.md) | Defines an extension that enables an app to install media codecs from the Microsoft Store. |
 | [uap4:MediaEncodingProperties](element-uap4-mediaencodingproperties.md) | Contains the media coded input and output types. |
 | [uap4:OutputType](element-uap4-outputtype.md) | The media codec output type. |
 | [uap4:OutputTypes](element-uap4-outputtypes.md) | Contains the media codec output types. |

@@ -213,7 +213,7 @@ If /Application/@StartPage specified, it is a Windows app using JavaScript and t
 -   Can specify just the StartPage
 -   Can specify both Executable and EntryPoint (optional RuntimeType allowed), unless it is a BackgroundTask extension, in which case it can omit the Executable and default to the BackgroundTaskHost.exe executable.
 
-If /Application/@StartPage is not specified, it is a Windows Store app using C# or VB and XAML and the App Extension :
+If /Application/@StartPage is not specified, it is a UWP app using C# or VB and XAML and the App Extension :
 
 -   Can be empty
 -   Can specify just the StartPage

@@ -17,7 +17,7 @@ ms.date: 04/05/2017
 
 Here's an example of a StoreManifest XML file for a UWP package.
 
-This XML declares the app as a Windows Store device app that is tied to a single device experience. It also declares the minimum memory and DirectX level necessary to install the app on a device.
+This XML declares the app as a Microsoft Store device app that is tied to a single device experience. It also declares the minimum memory and DirectX level necessary to install the app on a device.
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

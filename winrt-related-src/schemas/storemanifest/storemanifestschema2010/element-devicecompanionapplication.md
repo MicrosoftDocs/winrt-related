@@ -1,5 +1,5 @@
 ---
-Description: DThe DeviceCompanionApplication element contains all the configuration required to declare your app as a Windows Store device app.
+Description: DThe DeviceCompanionApplication element contains all the configuration required to declare your app as a Microsoft Store device app.
 Search.Product: eADQiWindows 10XVcnh
 title: DeviceCompanionApplication
 ms.assetid: 302f6805-4684-4061-bb60-c0fcff710758
@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # DeviceCompanionApplication
 
 
-The DeviceCompanionApplication element contains all the configuration required to declare your app as a Windows Store device app.
+The DeviceCompanionApplication element contains all the configuration required to declare your app as a Microsoft Store device app.
 
 ## Element hierarchy
 
@@ -99,7 +99,7 @@ The term ‘Device Companion App’ has been deprecated. The DeviceCompanionAppl
 
 When present, the DeviceCompanionApplication element must contain an ExperienceIds element, which is described below.
 
-**Important**  Using the DeviceCompanionApplication element in StoreManifest.xml and submitting it with your app will declare your app as a device app in the Windows Store. This action cannot be undone in the same product release. If you wish to release this app without the features and constraints that are applied to device apps, you will need to create and submit a new release with an updated StoreManifest.xml file.
+**Important**  Using the DeviceCompanionApplication element in StoreManifest.xml and submitting it with your app will declare your app as a device app in the Microsoft Store. This action cannot be undone in the same product release. If you wish to release this app without the features and constraints that are applied to device apps, you will need to create and submit a new release with an updated StoreManifest.xml file.
 
  
 

@@ -167,7 +167,7 @@ The default tile that represents the app on the Start screen. This tile is displ
 <tbody>
 <tr class="odd">
 <td>[VisualElements](element-visualelements.md)</td>
-<td><p>Describes the visual aspects of the Windows Store app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance.</p></td>
+<td><p>Describes the visual aspects of the UWP app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance.</p></td>
 </tr>
 </tbody>
 </table>

@@ -71,7 +71,7 @@ Declares an extensibility point for the app.
 | [DesktopAppMigration](element-rescap3-desktopappmigration.md) | Specifies where to redirect user tiles and pins to a Windows Desktop Bridge app. |   
 
 ## Remarks
-**windows.lockScreenComponent** is an empty extension declaration that supports hosting Windows Store apps inside the welcome screen.
+**windows.lockScreenComponent** is an empty extension declaration that supports hosting UWP apps inside the welcome screen.
 
 ## Requirements
 

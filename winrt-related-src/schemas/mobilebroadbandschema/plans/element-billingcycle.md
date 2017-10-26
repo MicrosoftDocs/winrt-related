@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # BillingCycle
 
 
-Defines the plan's starting date and time, its duration, and what happens at the end of the billing cycle. Windows Store apps can retrieve this information using the [**DataPlanStatus**](https://msdn.microsoft.com/library/windows/apps/br207256) class.
+Defines the plan's starting date and time, its duration, and what happens at the end of the billing cycle. UWP apps can retrieve this information using the [**DataPlanStatus**](https://msdn.microsoft.com/library/windows/apps/br207256) class.
 
 ## Element hierarchy
 
