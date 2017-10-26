@@ -1,5 +1,5 @@
 ---
-Description: Describes the visual aspects of the Windows Store app. 
+Description: Describes the visual aspects of the UWP app. 
 Search.Product: eADQiWindows 10XVcnh
 title: VisualElements
 ms.assetid: f0db5141-8aba-4ac4-939f-4fe3debcc761
@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 
 # VisualElements
 
-Describes the visual aspects of the Windows Store app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance.
+Describes the visual aspects of the UWP app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance.
 
 ## Element hierarchy
 

@@ -1,5 +1,5 @@
 ---
-Description: Provides details for each element, attribute, and data type that defines the schema for the bundle manifest for Windows Store apps.
+Description: Provides details for each element, attribute, and data type that defines the schema for the bundle manifest for UWP apps.
 Search.Product: eADQiWindows 10XVcnh
 title: Bundle manifest schema reference
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # Bundle manifest schema reference
 
 
-This reference provides details for each element, attribute, and data type that defines the schema for the bundle manifest for Windows Store apps. The schema definition file is BundleManifestSchema.xsd.
+This reference provides details for each element, attribute, and data type that defines the schema for the bundle manifest for UWP apps. The schema definition file is BundleManifestSchema.xsd.
 
 The following table lists all of the elements in this schema, sorted alphabetically by name.
 

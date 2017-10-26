@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # Usage
 
 
-Defines the state of a subscriber's data usage on a connection to a Mobile Network Operator (MNO). Windows Store apps can retrieve this information using the [**DataPlanStatus**](https://msdn.microsoft.com/library/windows/apps/br207256) class.
+Defines the state of a subscriber's data usage on a connection to a Mobile Network Operator (MNO). UWP apps can retrieve this information using the [**DataPlanStatus**](https://msdn.microsoft.com/library/windows/apps/br207256) class.
 
 ## Element hierarchy
 

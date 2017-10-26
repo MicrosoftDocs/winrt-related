@@ -77,10 +77,10 @@ In the following joystick and game pad data there is no **Vendor Id** and **Prod
 </DeviceCapability>
 ```
 
-## Requirements for Windows Phone Store apps
+## Requirements for Windows 8.x Phone apps
 
 
-Windows Phone Store apps can access the **Windows.Devices.HumanInterfaceDevice** API if the manufacturer supported the HID protocol for specific devices and provided corresponding device-data to app developers. Refer to your manufacturer’s documentation for a list of supported HID devices as well as the data that you’ll need to implement device discovery.
+Windows 8.x Phone apps can access the **Windows.Devices.HumanInterfaceDevice** API if the manufacturer supported the HID protocol for specific devices and provided corresponding device-data to app developers. Refer to your manufacturer’s documentation for a list of supported HID devices as well as the data that you’ll need to implement device discovery.
 
 ## Related topics
 

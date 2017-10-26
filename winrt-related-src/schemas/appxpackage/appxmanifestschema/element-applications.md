@@ -94,7 +94,7 @@ None.
 
 ## Remarks
 
-You can use the **Applications** element to specify one or more apps for the package. Note that although each package can contain one or more apps, packages that contain multiple apps won't pass the Windows Store certification process.
+You can use the **Applications** element to specify one or more apps for the package. Note that although each package can contain one or more apps, packages that contain multiple apps won't pass the Microsoft Store certification process.
 
 ## Examples
 

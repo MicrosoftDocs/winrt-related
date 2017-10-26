@@ -1,6 +1,6 @@
 ---
 title: Schema for Mobile Broadband
-description: The Mobile Broadband Schema are used by the Windows.Networking.NetworkOperators namespace provided in the Windows Runtime environment to enable a Windows Store app to provision a mobile broadband enabled device on a mobile broadband network, query subscriber data usage information, or query the results of the last provisioning attempt.
+description: The Mobile Broadband Schema are used by the Windows.Networking.NetworkOperators namespace provided in the Windows Runtime environment to enable a UWP app to provision a mobile broadband enabled device on a mobile broadband network, query subscriber data usage information, or query the results of the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 ms.assetid: b9f29690-466f-4b5f-bd4e-d4bf07260ca1
 author: mcleblanc
@@ -18,7 +18,7 @@ ms.date: 04/05/2017
 ## Purpose
 
 
-The Mobile Broadband Schema are used by the [**Windows.Networking.NetworkOperators**](https://msdn.microsoft.com/library/windows/apps/br241148) namespace provided in the Windows Runtime environment to enable a Windows Store app to provision a mobile broadband enabled device on a mobile broadband network, query subscriber data usage information, or query the results of the last provisioning attempt.
+The Mobile Broadband Schema are used by the [**Windows.Networking.NetworkOperators**](https://msdn.microsoft.com/library/windows/apps/br241148) namespace provided in the Windows Runtime environment to enable a UWP app to provision a mobile broadband enabled device on a mobile broadband network, query subscriber data usage information, or query the results of the last provisioning attempt.
 
 The Mobile Broadband Schema define subscriber and network configuration parameters. They contain the subscriber preferences for a connection as well as subscriber data usage information.
 
@@ -99,7 +99,7 @@ The Mobile Broadband Schema strictly enforces the order of the nodes. Nodes used
 ## Developer audience
 
 
-The Mobile Broadband Schema are designed for use by Javascript/C++/C#/Visual Basic developers interested in enabling the use of Mobile Broadband for network communications in their Windows Store app.
+The Mobile Broadband Schema are designed for use by Javascript/C++/C#/Visual Basic developers interested in enabling the use of Mobile Broadband for network communications in their UWP app.
 
 ## Related topics
 

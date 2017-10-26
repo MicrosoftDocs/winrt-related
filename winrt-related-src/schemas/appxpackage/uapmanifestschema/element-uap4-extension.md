@@ -77,7 +77,7 @@ Declares an extensibility point for the app.
 |---------------|-------------|
 | [SharedFonts](element-uap4-sharedFonts.md) | Contains the locations of shared fonts to be used with the app. |  
 | [UserDataTaskDataProvider](element-uap4-userDataTaskDataProvider.md) | Enables an app to become a DataProvider for a task. | 
-| [MediaCodec](element-uap4-mediacodec.md) | Defines an extension that enables an app to install media codecs from the Windows Store. |
+| [MediaCodec](element-uap4-mediacodec.md) | Defines an extension that enables an app to install media codecs from the Microsoft Store. |
 | [ContactPanel](element-uap4-contactpanel.md) | Enables the contacts panel in a Windows app. |
 | [LoopbackAccessRules](element-uap4-loopbackAccessRules.md) | Contains rules for a loopback filter that enables communication between an app and a service. |
 | [DevicePortalProvider](element-uap4-devicePortalProvider.md) | Defines a Device Portal provider for deployment. |

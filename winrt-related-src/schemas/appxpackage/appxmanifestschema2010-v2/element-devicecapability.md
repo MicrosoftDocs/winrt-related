@@ -76,7 +76,7 @@ This outermost (document) element may not be contained by any other elements.
 
 If the *Name* attribute is specified as a GUID, then it is validated as GUID.
 
-Apps are granted access to some devices by default. For Windows Store apps, this includes access to print and scanner devices. To access other types of devices, you must specify them using a **DeviceCapability** element. Some device capabilities must be added to the package manifest manually. For more info, see [How to specify device capabilities in a package manifest](https://msdn.microsoft.com/library/windows/apps/dn263092).
+Apps are granted access to some devices by default. For UWP apps, this includes access to print and scanner devices. To access other types of devices, you must specify them using a **DeviceCapability** element. Some device capabilities must be added to the package manifest manually. For more info, see [How to specify device capabilities in a package manifest](https://msdn.microsoft.com/library/windows/apps/dn263092).
 
 For more info about capability declarations, see [App capability declarations](https://msdn.microsoft.com/library/windows/apps/hh464936).
 

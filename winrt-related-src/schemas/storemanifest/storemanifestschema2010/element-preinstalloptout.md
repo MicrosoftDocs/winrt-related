@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # PreinstallOptOut
 
 
-Do not use. The PreinstallOptOut element is no longer read by the Windows Store.
+Do not use. The PreinstallOptOut element is no longer read by the Microsoft Store.
 
 ## Element hierarchy
 

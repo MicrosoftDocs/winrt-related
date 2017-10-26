@@ -35,7 +35,7 @@ Open the Package.appxmanifest file. In Microsoft Visual Studio, open the file wi
 
 Add one DeviceCapability element per device capability. You can have multiple DeviceCapability and Capability elements in the Capabilities element. Note that some device capabilities require multiple child elements. For more info, see [**DeviceCapability**](https://msdn.microsoft.com/library/windows/apps/br211430).
 
-**Note**  Not all APIs are available for both Windows Store apps and Windows Phone Store apps. See the API reference documentation for more details about which devices are supported by each API.
+**Note**  Not all APIs are available for both UWP apps and Windows 8.x Phone apps. See the API reference documentation for more details about which devices are supported by each API.
 
  
 

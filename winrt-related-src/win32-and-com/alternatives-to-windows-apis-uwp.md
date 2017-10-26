@@ -98,9 +98,9 @@ Here's some alternatives to networking APIs that cannot be used in a UWP app.
 | Winsock     | [Windows.Networking.Sockets](https://docs.microsoft.com/en-us/uwp/api/Windows.Networking.Sockets)                                                                                    |
 
 ## Printing and documents
-A subset of the printing and documents APIs is supported in a Windows Store app.
+A subset of the printing and documents APIs is supported in a UWP app.
 
-When designing a Windows Store app, you'll want to provide the best printing experience:
+When designing a UWP app, you'll want to provide the best printing experience:
 
 -   [Printing](https://docs.microsoft.com/en-us/windows/uwp/devices-sensors/printing-and-scanning)
 

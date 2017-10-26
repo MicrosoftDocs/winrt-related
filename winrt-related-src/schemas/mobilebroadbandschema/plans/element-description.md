@@ -105,11 +105,11 @@ Defines plan information that specifies the subscriber's Mobile Network Operator
 <tbody>
 <tr class="odd">
 <td>[BillingCycle](element-billingcycle.md)</td>
-<td><p>Defines the plan's starting date and time, its duration, and what happens at the end of the billing cycle. Windows Store apps can retrieve this information using the [<strong>DataPlanStatus</strong>](https://msdn.microsoft.com/library/windows/apps/br207256) class.</p></td>
+<td><p>Defines the plan's starting date and time, its duration, and what happens at the end of the billing cycle. UWP apps can retrieve this information using the [<strong>DataPlanStatus</strong>](https://msdn.microsoft.com/library/windows/apps/br207256) class.</p></td>
 </tr>
 <tr class="even">
 <td>[DataLimitInMegabytes](element-datalimitinmegabytes.md)</td>
-<td><p>Defines a value representing the data limit in MB for a capped plan. Must be a value from 0 to 2<sup>32nd</sup>. Windows Store apps can retrieve this information using the [<strong>DataPlanStatus</strong>](https://msdn.microsoft.com/library/windows/apps/br207256) class.</p></td>
+<td><p>Defines a value representing the data limit in MB for a capped plan. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the [<strong>DataPlanStatus</strong>](https://msdn.microsoft.com/library/windows/apps/br207256) class.</p></td>
 </tr>
 <tr class="odd">
 <td>[DataUsageInMobileOperatorNotificationEnabled](element-datausageinmobileoperatornotificationenabled.md)</td>
@@ -117,15 +117,15 @@ Defines plan information that specifies the subscriber's Mobile Network Operator
 </tr>
 <tr class="even">
 <td>[InboundBandwidthInKbps](element-inboundbandwidthinkbps.md)</td>
-<td><p>Defines a value representing the effective link speed of the subscriber’s inbound connection specified in Kbps. Must be a value from 0 to 2<sup>32nd</sup>. Windows Store apps can retrieve this information using the [<strong>DataPlanStatus</strong>](https://msdn.microsoft.com/library/windows/apps/br207256) class.</p></td>
+<td><p>Defines a value representing the effective link speed of the subscriber’s inbound connection specified in Kbps. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the [<strong>DataPlanStatus</strong>](https://msdn.microsoft.com/library/windows/apps/br207256) class.</p></td>
 </tr>
 <tr class="odd">
 <td>[MaxTransferSizeInMegabytes](element-maxtransfersizeinmegabytes.md)</td>
-<td><p>Defines the size of an individual download in MB which a compliant application should permit over a metered connection without explicit user approval of the connection being used. Must be a value from 0 to 2<sup>32nd</sup>. Windows Store apps can retrieve this information using the [<strong>DataPlanStatus</strong>](https://msdn.microsoft.com/library/windows/apps/br207256) class.</p></td>
+<td><p>Defines the size of an individual download in MB which a compliant application should permit over a metered connection without explicit user approval of the connection being used. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the [<strong>DataPlanStatus</strong>](https://msdn.microsoft.com/library/windows/apps/br207256) class.</p></td>
 </tr>
 <tr class="even">
 <td>[OutboundBandwidthInKbps](element-outboundbandwidthinkbps.md)</td>
-<td><p>Defines a value representing the effective link speed of the subscriber’s outbound connection specified in Kbps. Must be a value from 0 to 2<sup>32nd</sup>. Windows Store apps can retrieve this information using the [<strong>DataPlanStatus</strong>](https://msdn.microsoft.com/library/windows/apps/br207256) class.</p></td>
+<td><p>Defines a value representing the effective link speed of the subscriber’s outbound connection specified in Kbps. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the [<strong>DataPlanStatus</strong>](https://msdn.microsoft.com/library/windows/apps/br207256) class.</p></td>
 </tr>
 <tr class="odd">
 <td>[SecurityUpdatesExempt](element-plan.md)</td>

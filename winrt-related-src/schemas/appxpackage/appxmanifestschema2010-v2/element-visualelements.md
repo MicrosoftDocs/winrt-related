@@ -1,5 +1,5 @@
 ---
-Description: Describes the visual aspects of the Windows Store app.
+Description: Describes the visual aspects of the UWP app.
 Search.Product: eADQiWindows 10XVcnh
 title: VisualElements
 ms.assetid: f0db5141-8aba-4ac4-939f-4fe3debcc761
@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 
 # VisualElements
 
-Describes the visual aspects of the Windows Store app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance.
+Describes the visual aspects of the UWP app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance.
 
 ## Element hierarchy
 
@@ -75,7 +75,7 @@ Describes the visual aspects of the Windows Store app: its default tile, logo im
 <td><p>Specifies the background color of the app tile. See the Remarks section for color names. Note that the background color specified here also applies to these items:</p>
 <ul>
 <li>The button color in any app-owned dialog boxes</li>
-<li>The App Description page in the Windows Store</li>
+<li>The App Description page in the Microsoft Store</li>
 </ul>
 <p><strong>Applies to Windows Phone:</strong> Choosing &quot;transparent&quot; causes the system accent color to be used.</p>
 </td>
@@ -93,7 +93,7 @@ Describes the visual aspects of the Windows Store app: its default tile, logo im
 <tr class="odd">
 <td><strong>DisplayName</strong></td>
 <td><p>A friendly name for the app that can be displayed to users. This string is localizable; see Remarks for details.</p>
-<p>There are two explicitly reserved words that may not be used as the DisplayName for apps uploaded to the Windows Store: &quot;NoUIEntryPoints&quot; and &quot;NoUIEntryPoints-DesignMode&quot;. These identifiers are reserved for use by development tools and test suites.</p></td>
+<p>There are two explicitly reserved words that may not be used as the DisplayName for apps uploaded to the Microsoft Store: &quot;NoUIEntryPoints&quot; and &quot;NoUIEntryPoints-DesignMode&quot;. These identifiers are reserved for use by development tools and test suites.</p></td>
 <td>A string between 1 and 256 characters in length. This string is localizable.</td>
 <td>Yes</td>
 <td></td>

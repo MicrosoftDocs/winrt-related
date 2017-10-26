@@ -66,15 +66,15 @@ None.
 <tbody>
 <tr class="odd">
 <td>[DeviceCompanionApplication](element-devicecompanionapplication.md)</td>
-<td><p>The DeviceCompanionApplication element contains all the configuration required to declare your app as a Windows Store device app.</p></td>
+<td><p>The DeviceCompanionApplication element contains all the configuration required to declare your app as a Microsoft Store device app.</p></td>
 </tr>
 <tr class="even">
 <td>[ExclusiveOptOut](element-exclusiveoptout.md)</td>
-<td><p>Do not use. The ExclusiveOptOut element is no longer read by the Windows Store.</p></td>
+<td><p>Do not use. The ExclusiveOptOut element is no longer read by the Microsoft Store.</p></td>
 </tr>
 <tr class="odd">
 <td>[PreinstallOptOut](element-preinstalloptout.md)</td>
-<td><p>Do not use. The PreinstallOptOut element is no longer read by the Windows Store.</p></td>
+<td><p>Do not use. The PreinstallOptOut element is no longer read by the Microsoft Store.</p></td>
 </tr>
 </tbody>
 </table>

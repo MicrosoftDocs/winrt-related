@@ -110,7 +110,7 @@ Here is an example [**Resources**](appxmanifestschema/element-resources.md) node
 
 ### Step 7: Add the optional info
 
-You can use the [**Applications**](appxmanifestschema/element-applications.md) element to specify one or more apps for the package. Note that although each package can contain one or more apps, packages that contain multiple apps won't pass the Windows Store certification process.
+You can use the [**Applications**](appxmanifestschema/element-applications.md) element to specify one or more apps for the package. Note that although each package can contain one or more apps, packages that contain multiple apps won't pass the Microsoft Store certification process.
 
 The entry for an app must specify certain attributes of the [**VisualElements**](appxmanifestschema/element-visualelements.md) element and a [**SplashScreen**](appxmanifestschema/element-splashscreen.md) element. This entry can also specify a [**DefaultTile**](appxmanifestschema/element-defaulttile.md) element. Here is an example [**Applications**](appxmanifestschema/element-applications.md) node with placeholder text.
 

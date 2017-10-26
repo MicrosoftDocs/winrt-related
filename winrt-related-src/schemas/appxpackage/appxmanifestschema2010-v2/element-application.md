@@ -100,7 +100,7 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 <p>The ID is unique within the package but not globally. There may be another package on the system that uses the same ID. The same ID cannot be used more than once in the same package.</p>
 <p>This string contains alpha-numeric fields separated by periods. Each field must begin with an ASCII alphabetic character. You cannot use these as field values: &quot;CON&quot;, &quot;PRN&quot;, &quot;AUX&quot;, &quot;NUL&quot;, &quot;COM1&quot;, &quot;COM2&quot;, &quot;COM3&quot;, &quot;COM4&quot;, &quot;COM5&quot;, &quot;COM6&quot;, &quot;COM7&quot;, &quot;COM8&quot;, &quot;COM9&quot;, &quot;LPT1&quot;, &quot;LPT2&quot;, &quot;LPT3&quot;, &quot;LPT4&quot;, &quot;LPT5&quot;, &quot;LPT6&quot;, &quot;LPT7&quot;, &quot;LPT8&quot;, and &quot;LPT9&quot;.</p>
 <p>When using a Visual Studio template, the default value of this attribute is &quot;App&quot;. Developers should manually change this in the manifest.</p>
-<p>The app's identifier should not be changed after the app has been published to the Windows Store; doing so will disrupt the tile's position on the Start screen.</p></td>
+<p>The app's identifier should not be changed after the app has been published to the Microsoft Store; doing so will disrupt the tile's position on the Start screen.</p></td>
 <td>An ASCII string between 1 and 64 characters in length.</td>
 <td>Yes</td>
 <td></td>
@@ -176,7 +176,7 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 
 The **Application** element contains attributes that are common to the extensibility points that pertain to the app. This information is used by other extensibility points to get information about the app. Also, **Application** attributes are used in the start and management of an instance of the app.
 
-If the **StartPage** attribute is specified, it is a Windows app using JavaScript. If **StartPage** is not specified, then both the **Executable** and **EntryPoint** attributes must be specified, and it is a Windows Store app using C# or VB and XAML.
+If the **StartPage** attribute is specified, it is a Windows app using JavaScript. If **StartPage** is not specified, then both the **Executable** and **EntryPoint** attributes must be specified, and it is a UWP app using C# or VB and XAML.
 
 ## Requirements
 

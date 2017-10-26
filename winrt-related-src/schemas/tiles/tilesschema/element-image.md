@@ -107,7 +107,7 @@ Specifies an image used in the tile template. The supplied image should match th
 <li><p>ms-appdata:///local/</p>
 <p>An image saved to local storage.</p></li>
 <li><p>file:///</p>
-<p>A local image. (Supported only for desktop apps. This protocol cannot be used by Windows Store apps.)</p></li>
+<p>A local image. (Supported only for desktop apps. This protocol cannot be used by UWP apps.)</p></li>
 </ul></td>
 <td>string</td>
 <td>Yes</td>

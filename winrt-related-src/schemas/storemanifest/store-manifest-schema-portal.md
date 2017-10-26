@@ -1,6 +1,6 @@
 ---
 title: StoreManifest schema
-description: StoreManifest.xml is an optional configuration file that may be included in packages submitted to the Windows Store.
+description: StoreManifest.xml is an optional configuration file that may be included in packages submitted to the Microsoft Store.
 Search.Product: eADQiWindows 10XVcnh
 ms.assetid: 68de28bf-27c9-4330-bf70-7d6aa95a33fb
 author: laurenhughes
@@ -18,7 +18,7 @@ ms.date: 04/05/2017
 ## Purpose
 
 
-StoreManifest.xml is an optional configuration file that may be included in packages submitted to the Windows Store. Its purpose is to enable features, such as declaring your app as a Windows Store device app, that the AppxManifest.xml file does not cover. StoreManifest.xml is submitted with the app package and must be in the root folder of your app's main project.
+StoreManifest.xml is an optional configuration file that may be included in packages submitted to the Microsoft Store. Its purpose is to enable features, such as declaring your app as a Microsoft Store device app, that the AppxManifest.xml file does not cover. StoreManifest.xml is submitted with the app package and must be in the root folder of your app's main project.
 
 ## In this section
 
