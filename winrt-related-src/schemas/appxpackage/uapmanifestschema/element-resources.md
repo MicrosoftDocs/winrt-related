@@ -1,7 +1,7 @@
 ---
-Description: Declares languages for the resources that the package contains. 
+Description: Declares the union of languages, display scales, and DirectX feature levels for the resources that the package contains.
 Search.Product: eADQiWindows 10XVcnh
-title: Resources (Windows 10)
+title: Resources
 ms.assetid: 45ce3dac-3888-452b-bc10-8775b158637a
 author: laurenhughes
 ms.author: lahugh
@@ -9,13 +9,12 @@ keywords: windows 10, uwp, schema, package manifest
 ms.prod: windows
 ms.technology: winrt-reference
 ms.topic: reference
-ms.date: 04/05/2017
+ms.date: 10/26/2017
 ---
 
-# Resources (Windows 10)
+# Resources
 
-
-Declares languages for the resources that the package contains. Every package must declare at least one language for resources. The scale and DirectX feature level attributes are common for all resources in the package.
+Declares the union of languages, display scales, and DirectX feature levels for the resources that the package contains. For details and examples, see [Resource](element-resource.md).
 
 ## Element hierarchy
 
@@ -40,7 +39,6 @@ Declares languages for the resources that the package contains. Every package mu
 `{}`   specific range of occurrences
 ## Attributes and Elements
 
-
 ### Attributes
 
 None.
@@ -61,14 +59,12 @@ None.
 <tbody>
 <tr class="odd">
 <td>[Resource](element-resource.md)</td>
-<td><p>Declares a language for the resource contained in the package. The scale and DirectX feature level attributes are common for all resources in the package.</p></td>
+<td><p>Declares a language, display scale, or DirectX feature level for resources that the package contains. The scale and DirectX feature level attributes are common for all resources in the package.</p></td>
 </tr>
 </tbody>
 </table>
 
- 
-
-### Parent Elements
+### Parent elements
 
 <table>
 <colgroup>
@@ -89,8 +85,6 @@ None.
 </tbody>
 </table>
 
- 
-
 ## Requirements
 
 <table>
@@ -105,10 +99,3 @@ None.
 </tr>
 </tbody>
 </table>
-
- 
-
- 
-
-
-
