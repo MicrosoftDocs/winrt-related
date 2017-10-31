@@ -72,7 +72,7 @@ The [**Identity**](appxmanifestschema/element-identity.md) element has 3 require
 ```XML
 <Identity Name="MyCompany.MySuite.MyApp" 
           Version="1.0.0.0" 
-          Publisher="CN=MyCompany, O=MyCompany, L=MyCity, S=MyState, C=MyCountry">
+          Publisher="CN=MyCompany, O=MyCompany, L=MyCity, S=MyState, C=MyCountry"/>
 ```
 
 ### Step 4: Add the package properties
