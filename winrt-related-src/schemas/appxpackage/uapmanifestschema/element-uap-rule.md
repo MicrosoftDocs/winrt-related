@@ -9,7 +9,7 @@ keywords: windows 10, uwp, schema, package manifest
 ms.prod: windows
 ms.technology: winrt-reference
 ms.topic: reference
-ms.date: 04/05/2017
+ms.date: 11/01/2017
 ---
 
 # uap:Rule (Windows 10)
@@ -77,7 +77,7 @@ Specifies which pages in the web context have access to the system's geolocation
 <tbody>
 <tr class="odd">
 <td><strong>Match</strong></td>
-<td><p>The IRI to use in the rule. See RFC 3987 - Internationalized Resource Identifiers (IRIs) for details. It is unique per application in the package and is case sensitive.</p></td>
+<td><p>The IRI to use in the rule. See RFC 3987 - Internationalized Resource Identifiers (IRIs) for details. It is unique per application in the package and is case sensitive. For example, values of Match can be: https://www.microsoft.com/, or *.pdf</p></td>
 <td>A string between 1 and 2084 characters in length.</td>
 <td>Yes</td>
 <td></td>
