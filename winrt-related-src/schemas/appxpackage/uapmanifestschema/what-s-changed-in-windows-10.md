@@ -69,7 +69,7 @@ The following sections list the namespaces and XML prefixes added to the package
 
 ## Elements and attributes that have been added
 
--   [**uap:Capability**](element-uap-capability.md) element (and its child elements). Valid values for the uap:Capability@Name attribute are "documentsLibrary", "picturesLibrary", "videosLibrary", "musicLibrary", "enterpriseAuthentication", "sharedUserCertificates", "userAccountInformation", "removableStorage", "appointments", "contacts", "phoneCall", and "blockedChatMessages". See [App capability declarations](https://msdn.microsoft.com/library/windows/apps/hh464936).
+-   [**uap:Capability**](element-uap-capability.md) element (and its child elements). Valid values for the uap:Capability@Name attribute are "documentsLibrary", "picturesLibrary", "videosLibrary", "musicLibrary", "enterpriseAuthentication", "sharedUserCertificates", "userAccountInformation", "removableStorage", "appointments", "contacts", "phoneCall", and "blockedChatMessages". See [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations).
 -   [**uap:Extension**](element-uap-extension.md) element. Valid values for the uap:Extension@Category attribute are "windows.webAccountProvider", "windows.dialProtocol", "windows.appService", "windows.mediaPlayback", and "windows.print3DWorkflow".
 -   [**PublisherCacheFolders**](element-publishercachefolders.md) element.
 -   [**uap:SupportedUsers**](element-uap-supportedusers.md) element.

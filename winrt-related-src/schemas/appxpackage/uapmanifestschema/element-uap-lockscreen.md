@@ -149,6 +149,8 @@ Applications\\Application\\VisualElements\\LockScreen\\@BadgeLogo
 
 [Lock screen apps sample](http://go.microsoft.com/fwlink/p/?linkid=239970)
 
+[Windows.ApplicationModel.LockScreen namespace](https://docs.microsoft.com/uwp/api/windows.applicationmodel.lockscreen)
+
 ## Requirements
 
 <table>
