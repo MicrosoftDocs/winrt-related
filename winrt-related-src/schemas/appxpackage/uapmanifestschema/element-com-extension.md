@@ -62,8 +62,8 @@ Provides functionality to expose COM registrations to clients outside of the app
 
 | Child Element         | Description |
 |-----------------------|-------------|
-| [com:ComServer](element-com-cominterface.md) | Declares a package extension point of type **windows.comServer**. |
-| [com:ComInterface](element-com-comserver.md) | Declares a package extension point of type **windows.comInterface**. |
+| [com:ComServer](element-com-comserver.md) | Declares a package extension point of type **windows.comServer**. |
+| [com:ComInterface](element-com-cominterface.md) | Declares a package extension point of type **windows.comInterface**. |
 
 ## Parent Elements
 
