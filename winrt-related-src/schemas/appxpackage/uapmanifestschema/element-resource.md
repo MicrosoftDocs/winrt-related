@@ -121,7 +121,7 @@ None.
 
 ## Remarks
 
-If you have string/image/file resources in your Visual Studio project that have language qualifiers in their names (see [How to name resources by using qualifiers](/windows/uwp/app-resources/how-to-name-resources-by-using-qualifiers?branch=live)), then you can put the following in your source manifest file (`Package.appxmanifest`).
+If you have string/image/file resources in your Visual Studio project that have language qualifiers in their names (see [Tailor your resources for language, scale, high contrast, and other qualifiers](/windows/uwp/app-resources/tailor-resources-lang-scale-contrast?branch=live)), then you can put the following in your app package manifest source file (`Package.appxmanifest`).
 
 ```xml
   <Resources>
