@@ -37,7 +37,7 @@ Represents an app that comprises part of or all of the functionality delivered i
              EntryPoint?    = A string between 1 and 256 characters in length, representing the  task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type.
 If EntryPoint is not specified, the EntryPoint defined for the app is used instead.
 
-             StartPage?     = Any valid URI or IRI (the non-ASCII version of a URI).
+             StartPage?     = Any valid URI or IRI (the non-ASCII version of a URI). See below for more details. 
              ResourceGroup? = An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. >
 
   <!-- Child elements -->
@@ -113,7 +113,7 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 </tr>
 <tr class="odd">
 <td><strong>StartPage</strong></td>
-<td><p>The default launch HTML page for the app. This can be a relative Windows file path referencing a document in the app's package, or it can be an absolute URL (so that a web site can publish as an app in the Store). This is the entry point document that will be loaded by WWAHost when starting a WWA for that app.</p>
+<td><p>The default launch HTML page for the app. This can be a relative Windows file path referencing a document in the app's package, or it can be an absolute URL (so that a web site can publish as an app in the Store). The URL can only be starting with http://, https:// or ms-appx-web://. This is the entry point document that will be loaded by WWAHost when starting a WWA for that app. </p>
 <p>Technically, the value may be a URL or an IRI—the non-ASCII version of a URI. An IRI must support up to 2084 characters and must be allowed to contain the %, and reserved and unreserved characters as described in [RFC 3986 Appendix A](http://tools.ietf.org/html/rfc3986#appendix-a).</p>
 <p>If you specify this attribute, you cannot specify either the <strong>EntryPoint</strong> attribute or the <strong>Executable</strong> attribute.</p></td>
 <td>Any valid URI or IRI (the non-ASCII version of a URI).</td>
