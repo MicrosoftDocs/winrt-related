@@ -103,13 +103,13 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | [InterlockedExchange](https://msdn.microsoft.com/en-us/library/windows/desktop/ff471411.aspx) | Introduced into kernel32.dll in 10.0.10240. |
 | [InterlockedExchangeAdd](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683597.aspx) | Introduced into kernel32.dll in 10.0.10240. |
 | [InterlockedIncrement](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683614.aspx) | Introduced into kernel32.dll in 10.0.10240. |
-| [[GetModuleBaseName](https://msdn.microsoft.com/en-us/library/ms683196.aspx)A](https://msdn.microsoft.com/en-us/library/ms683196.aspx) | Introduced into kernel32.dll in 10.0.16299. |
+| [GetModuleBaseName](https://msdn.microsoft.com/en-us/library/ms683196.aspx) | Introduced into kernel32.dll in 10.0.16299. |
 | [GetModuleBaseNameW](https://msdn.microsoft.com/en-us/library/ms683196.aspx) | Introduced into kernel32.dll in 10.0.16299. |
-| [[[GetModuleFileName](https://msdn.microsoft.com/en-us/library/ms885629.aspx)Ex](https://msdn.microsoft.com/en-us/library/ms683198.aspx)A](https://msdn.microsoft.com/en-us/library/ms683198.aspx) | Introduced into kernel32.dll in 10.0.16299. |
+| [GetModuleFileName](https://msdn.microsoft.com/en-us/library/ms683198.aspx) | Introduced into kernel32.dll in 10.0.16299. |
 | [GetModuleFileNameExW](https://msdn.microsoft.com/en-us/library/ms683198.aspx) | Introduced into kernel32.dll in 10.0.16299. |
 | [GetModuleInformation](https://msdn.microsoft.com/en-us/library/ms885631.aspx) | Introduced into kernel32.dll in 10.0.16299. |
 | [SetEnvironmentVariable](https://msdn.microsoft.com/en-us/library/ms686206.aspx) | Introduced into kernel32.dll in 10.0.16299. |
-| GetModuleFileNameEx | Introduced into kernel32.dll in 10.0.16299. |
+| [GetModuleFileNameEx](https://msdn.microsoft.com/en-us/library/ms683198.aspx) | Introduced into kernel32.dll in 10.0.16299. |
 | [VerLanguageName](https://msdn.microsoft.com/en-us/library/ms647463.aspx) | Introduced into kernel32.dll in 10.0.16299. |
 
 

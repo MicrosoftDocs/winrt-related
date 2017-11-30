@@ -312,6 +312,7 @@
 ###### [mobile:AowApp](schemas/appxpackage/uapmanifestschema/element-mobile-aowapp-manual.md)
 ###### [mobile:MobileMultiScreenProperties](schemas/appxpackage/uapmanifestschema/element-mobile-mobilemultiscreenproperties-manual.md)
 ##### [Localizable manifest items](schemas/appxpackage/uapmanifestschema/localizable-manifest-items-win10.md)
+#### [How Visual Studio generates an app package manifest](schemas/appxpackage/uapmanifestschema/generate-package-manifest.md)
 #### [How to create a package manifest manually](schemas/appxpackage/how-to-create-a-package-manifest-manually.md)
 ##### [How to create a basic package manifest](schemas/appxpackage/how-to-create-a-basic-package-manifest.md)
 ##### [How to specify capabilities in a package manifest](schemas/appxpackage/how-to-specify-capabilities-in-a-package-manifest.md)
