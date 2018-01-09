@@ -37,7 +37,11 @@ An optional element of the appinstaller file. UpdateSettings signifies whether o
 ## Attributes and Elements
 
 ### Attributes
-None
+
+| Attribute | Description | Data type | Required |
+|-----------|-------------|-----------|----------|
+|  HoursBetweenUpdateChecks  | HoursBetweenUpdateChecks speficies the frequency with which the the deployment service will check for an update to the appinstaller file. The default value of HoursBetweenUpdateChecks is 24. In other words, the deployments service will check for updates if the app launch happens at least 24 hours after the previous update check. Setting HoursBetweenUpdateChecks to a different value changes that interval. |  String with numeric values between 0 and 255 inclusive.      |  No        |
+
 
 ### Child Elements
 
