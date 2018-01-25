@@ -91,7 +91,7 @@ Describes the visual aspects of the app: its default tile, logo images, text and
 <li>none</li>
 </ul></td>
 <td>No</td>
-<td></td>
+<td>default</td>
 </tr>
 <tr class="even">
 <td><strong>BackgroundColor</strong></td>
