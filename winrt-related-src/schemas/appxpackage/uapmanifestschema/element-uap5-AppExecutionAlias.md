@@ -59,7 +59,7 @@ None
 ### Child Elements
 | Child Element | Description |
 |---------------|-------------|
-| [ExecutionAlias](element-uap5-ExecutionAlias.md) | The executable of a UWP app to be activated from a command promt. |
+| [ExecutionAlias](element-uap5-ExecutionAlias.md) | The executable of a UWP app to be activated from a command prompt. |
 
 
 ## Requirements
