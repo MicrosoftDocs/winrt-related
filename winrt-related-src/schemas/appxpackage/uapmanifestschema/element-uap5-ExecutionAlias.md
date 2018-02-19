@@ -1,7 +1,7 @@
 ---
 author: laurenhughes
 title: uap5:ExecutionAlias
-description: The executable of a UWP app to be activated from a command promt.
+description: The executable of a UWP app to be activated from a command prompt.
 ms.author: lahugh
 ms.date: 10/10/2017
 ms.topic: reference
@@ -11,7 +11,7 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 ---
 
 # uap5:ExecutionAlias
-The executable of a UWP app to be activated from a command promt.
+The executable of a UWP app to be activated from a command prompt.
 
 ## Element Hierarchy
 <dl>
