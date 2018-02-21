@@ -39,7 +39,7 @@ As with any XML file, a VCD file should begin with an XML declaration that speci
 
 <tr>
 <td colspan="2">VoiceCommands</td>
-<td>Required. The root element of a VCD file. The value of its <strong>xmlns</strong> attribute must be <strong>http://schemas.microsoft.com/voicecommands/1.2</strong> (no uppercase characters). Contains between 1 and 15 <strong>CommandSet</strong> elements, each of which represents the voice commands for a single language.</td>
+<td>Required. The root element of a VCD file. The value of its <strong>xmlns</strong> attribute must be <pre>http://schemas.microsoft.com/voicecommands/1.2</pre> (no uppercase characters). Contains between 1 and 15 <strong>CommandSet</strong> elements, each of which represents the voice commands for a single language.</td>
 </tr>
 <tr><td colspan="2">CommandSet</td>
 <td>Required child element of the <strong>VoiceCommands</strong> element. A container for all the voice commands that an app will accept in the language specified by the required <strong>xml:lang</strong> attribute. <p>The value of the <strong>xml:lang</strong> attribute must be unique in the <strong>VoiceCommand</strong> document, and it is a single, specific language, specified in language name form, that corresponds to a language that is available in the <strong>Speech</strong> control panel. </p><p><strong>Note</strong>  Languages specified in the VCD file, but  not supported on the system, are ignored.</p>
@@ -143,7 +143,7 @@ As with any XML file, a VCD file should begin with an XML declaration that speci
 [Cortana interactions](https://dev.microsoft.com/cortana)
 
 **Designers**  
-[Cortana design guidelines](https://msdn.microsoft.com/library/windows/apps/dn974233)
+[Cortana design guidelines](https://docs.microsoft.com/en-us/cortana/voice-commands/voicecommand-design-guidelines)
 
 **Samples**  
 [Cortana voice command sample](http://go.microsoft.com/fwlink/p/?LinkID=619899)
