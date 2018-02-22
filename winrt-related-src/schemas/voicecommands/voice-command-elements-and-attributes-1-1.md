@@ -39,7 +39,7 @@ As with any XML file, a VCD file should begin with an XML declaration that speci
 <th colspan="2">Element</th><th>Description</th>
 </tr>
 <tr><td colspan="2">VoiceCommands</td>
-<td>Required. The root element of a VCD file. The value of its <strong>xmlns</strong> attribute must be <strong>http://schemas.microsoft.com/voicecommands/1.1</strong> (no uppercase characters). Contains between 1 and 15 <strong>CommandSet</strong> elements, each of which represents the voice commands for a single language.</td>
+<td>Required. The root element of a VCD file. The value of its <strong>xmlns</strong> attribute must be <pre>http://schemas.microsoft.com/voicecommands/1.1</pre> (no uppercase characters). Contains between 1 and 15 <strong>CommandSet</strong> elements, each of which represents the voice commands for a single language.</td>
 </tr>
 <tr>
 <td colspan="2">CommandSet</td>
@@ -121,7 +121,7 @@ Navigate</td><td>Required child element of the <strong>Command</strong> element.
 [Cortana interactions](https://dev.microsoft.com/cortana)
 
 **Designers**  
-[Cortana design guidelines](https://msdn.microsoft.com/library/windows/apps/dn974233)
+[Cortana design guidelines](https://docs.microsoft.com/en-us/cortana/voice-commands/voicecommand-design-guidelines)
 
 **Samples**  
 [Cortana voice command sample](http://go.microsoft.com/fwlink/p/?LinkID=619899)
