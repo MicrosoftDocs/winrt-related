@@ -26,10 +26,10 @@ Declares the union of languages, display scales, and DirectX feature levels for 
 ## Syntax
 
 ``` syntax
-<Resources>
+<Resources Default = Boolean>
 
   <!-- Child elements -->
-  Resource{1,200}
+  Resource{0,200}
 
 </Resources>
 ```
@@ -40,8 +40,9 @@ Declares the union of languages, display scales, and DirectX feature levels for 
 ## Attributes and Elements
 
 ### Attributes
-
-None.
+| Attribute | Description | Data type | Required |
+|-----------|-------------|-----------|----------|
+| Default | The name of the capability. | Boolean | No |
 
 ### Child Elements
 
@@ -59,7 +60,7 @@ None.
 <tbody>
 <tr class="odd">
 <td>[Resource](element-resource.md)</td>
-<td><p>Declares a language, display scale, or DirectX feature level for resources that the package contains. The scale and DirectX feature level attributes are common for all resources in the package.</p></td>
+<td><p>Declares a language, display scale, or DirectX feature level for resources that the package contains. The scale and DirectX feature level attributes are common for all resources in the package.</p><p>Note: Beginning in Windows 10, version 1803, the Resource element can be omitted. </p></td>
 </tr>
 </tbody>
 </table>
@@ -84,6 +85,9 @@ None.
 </tr>
 </tbody>
 </table>
+
+## Remarks
+The **Default** attribute is not 
 
 ## Requirements
 
