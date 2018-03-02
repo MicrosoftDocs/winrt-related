@@ -43,7 +43,7 @@ Specifies the application's execution alias to determine the executable of the a
 
 ## Syntax
 ```syntax
-<uap5:AppExecutionAlias>   
+<uap5:AppExecutionAlias desktop4:Subsystem? = String value. Can be one of the following: "console", "windows" >   
     uap5:ExecutionAlias{0,1000}
 </uap5:AppExecutionAlias>
 ```
@@ -54,7 +54,10 @@ Specifies the application's execution alias to determine the executable of the a
 
 ## Attributes and Elements
 ### Attributes
-None
+## Attributes
+| Attribute | Description | Data type | Required |
+|-----------|-------------|-----------|----------|
+| desktop4:Subsystem | Indicates whether the app is a standard UWP app or a UWP console app. | String value. Can be one of the following: "console", "windows" | No |
 
 ### Child Elements
 | Child Element | Description |

@@ -1,5 +1,5 @@
 ---
-Description: 
+Description: Indicates whether the contents of the package will be allowed to execute.
 title: uap6:AllowExecution
 author: laurenhughes
 ms.author: lahugh
@@ -11,7 +11,7 @@ ms.date: 03/07/2018
 ---
 
 # uap6:AllowExecution
-
+Indicates whether the contents of the package will be allowed to execute.
 
 ## Element hierarchy
 
@@ -45,38 +45,7 @@ None.
 ### Child Elements
 
 None.
-
-### Parent Elements
-
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>[Properties](element-properties.md)</td>
-<td><p>Defines additional metadata about the package including attributes that describe how the package appears to users.</p>
-<div class="alert">
-<strong>Note</strong>  You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely “|” and “all”, due to which Windows fails to create the AppContainer profile for the package . Use this reference for [troubleshooting](https://msdn.microsoft.com/library/windows/desktop/hh973484) if you get an error.
-</div>
-<div>
  
-</div></td>
-</tr>
-</tbody>
-</table>
-
- 
-
-## Remarks
-
 
 ## Requirements
 

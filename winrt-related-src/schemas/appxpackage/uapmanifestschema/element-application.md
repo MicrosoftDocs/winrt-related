@@ -37,7 +37,7 @@ Represents an app that comprises part of or all of the functionality delivered i
              EntryPoint?         = A string between 1 and 256 characters in length, representing the  task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead.
              StartPage?          = Any valid URI or IRI (the non-ASCII version of a URI). See below for more details. 
              ResourceGroup?      = An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.
-             desktop4:Subsystem? =  
+             desktop4:Subsystem? = String value. Can be one of the following: "console", "windows"
              desktop4:SupportsMultipleInstances? = Boolean. >
 
   <!-- Child elements -->
@@ -122,14 +122,14 @@ Represents an app that comprises part of or all of the functionality delivered i
 </tr>
 <tr class="even">
 <td><strong>uap4:Subsystem</strong></td>
-<td><p></p></td>
-<td></td>
+<td><p>Indicates whether the app is a standard UWP app or a UWP console app.</p></td>
+<td>String value. Can be one of the following: "console", "windows". </td>
 <td>No</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><strong>uap4:SupportsMultipleInstances</strong></td>
-<td><p>Supports multiple, separate instances of UWP apps.</p></td>
+<td><p>Indicates support of multiple, separate instances of UWP apps.</p></td>
 <td>Boolean value.</td>
 <td>No</td>
 <td></td>

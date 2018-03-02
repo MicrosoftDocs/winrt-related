@@ -11,7 +11,7 @@ keywords: windows 10, uwp, schema, package manifest
 ms.prod: windows
 ms.technology: winrt-reference
 ms.topic: reference
-ms.date: 08/10/2017
+ms.date: 03/07/2017
 ---
 
 # What's different in Windows 10
