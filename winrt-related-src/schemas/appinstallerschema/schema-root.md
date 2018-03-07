@@ -3,7 +3,7 @@ author: laurenhughes
 title: App Installer file (.appinstaller) reference
 description: This reference provides details for each element, attribute, and data type that defines the schema for appinstaller file that defines the packages that are part of a related set. 
 ms.author: lahugh
-ms.date: 10/10/2017
+ms.date: 1/4/2018
 ms.topic: reference
 ms.prod: windows
 ms.technology: winrt-reference
@@ -28,4 +28,4 @@ The following table lists all of the elements in this schema.
 | [OptionalPackages](element-optional-packages.md) | Specifies the optional pacakges. |
 | [Package](element-package.md)| Element that includes information about the  package. This elements requires an exact match of the name, publisher and version from the identity element in the app package manifest. ProcessorArchitecture is an optional element.  |
 | [RelatedPackages](element-related-packages.md) | Specifies the related packages. These packages won't be installed. |
-| [UpdateSettings](element-update-settings.md) | Use the updatesettings element to toggle auto update of installed packages. |
+| [UpdateSettings](element-update-settings.md) | Use the UpdateSettings element to toggle auto update of installed packages and set an interval for update checks. |
