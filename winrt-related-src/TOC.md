@@ -909,6 +909,7 @@
 ### [array_view struct template](cpp-ref-for-winrt/array-view.md)
 ### [com_array struct template](cpp-ref-for-winrt/com-array.md)
 ### [hstring struct](cpp-ref-for-winrt/hstring.md)
+### [make function template](cpp-ref-for-winrt/make.md)
 ## [Win32 and COM APIs for UWP apps](win32-and-com/win32-and-com-for-uwp-apps.md)
 ### [APIs present on all Windows 10 devices](win32-and-com/win32-apis.md)
 ### [Extension APIs for Windows 10 devices](win32-and-com/win32-extension-apis.md)
