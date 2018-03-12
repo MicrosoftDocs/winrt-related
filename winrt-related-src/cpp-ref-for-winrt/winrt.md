@@ -28,6 +28,7 @@ The **winrt** namespace provides custom data types belonging to C++/WinRT&mdash;
 | [array_view struct template](array-view.md) | A view, or span, of a contiguous series of values. |
 | [com_array struct template](com-array.md) | A view, or span, of a contiguous series of values for passing to and from WinRT APIs. |
 | [hstring struct](hstring.md) | A sequential collection of UTF-16 Unicode characters representing a text string. |
+| [make function template](make.md) | A factory method that returns an instance of the projected type for a runtime class when parameterized with the corresponding implementation type. |
 
 ## See also 
 [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index?branch=live)
