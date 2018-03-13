@@ -5,6 +5,7 @@
 ### [Desktop extension SDK](extension-sdks/windows-desktop-extension-sdk.md)
 ### [Mobile extension SDK](extension-sdks/windows-mobile-extension-sdk.md)
 ### [IoT extension SDK](extension-sdks/windows-iot-extension-sdk.md)
+### [Windows Team Extension SDK](extension-sdks/windows-team-extension-sdk.md)
 ### [Xbox Live extension SDK](extension-sdks/xbox-live-extensions.md)
 ### [UWP features not yet supported on Xbox](extension-sdks/uwp-limitations-on-xbox.md)
 ## [Schemas](schemas/index.md)
