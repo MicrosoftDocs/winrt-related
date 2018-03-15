@@ -89,13 +89,13 @@ Another **com_array** that initializes the **com_array** object.
 Values with which to initialize the **com_array** object.
 
 `arrayValue`
-A `std::array` value that initializes the **com_array** object.
+A **std::array** value that initializes the **com_array** object.
 
 `initializerListValue`
 An initializer list value that initializes the **com_array** object.
 
 `vectorValue`
-A `std::vector` value that initializes the **com_array** object.
+A **std::vector** value that initializes the **com_array** object.
 
 `rawArrayValue`
 A raw array value that initializes the **com_array** object.

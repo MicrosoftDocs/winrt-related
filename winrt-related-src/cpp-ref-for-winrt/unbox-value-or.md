@@ -41,7 +41,7 @@ A fallback value to use should coercing the reference class object to the specif
 A reference class object containing a boxed value.
 
 ### Return value 
-The scalar value contained inside the reference class object, or `default_value` if unboxing to the specified value type is not possible.
+The scalar value contained inside the reference class object, or *default_value* if unboxing to the specified value type is not possible.
 
 ## Requirements
 **Minimum supported SDK:** Windows SDK for Windows 10, version 1803
