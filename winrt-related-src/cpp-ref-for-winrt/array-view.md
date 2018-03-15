@@ -77,7 +77,7 @@ The type of the values (elements) that the **array_view** views, or spans.
 |[operator>= (greater-than-or-equal-to operator)](#operator-greater-than-or-equal-to-operator)|Returns a value indicating whether the first parameter is greater than or equal to the second parameter.|
 
 ## Iterators
-An **array_view** is a range, and that range is defined by the [array_view::begin](#arrayviewbegin-function) and [array_view::end](#arrayviewend-function) member functions, each of which returns an iterator (also see [array_view::cbegin](#arrayviewcbegin-function) and [array_view::cend](#arrayviewcend-function)). Because of this, you can enumerate the characters in an **array_view** object with either a range-based `for` statement, or with the `std::for_each` template function.
+An **array_view** is a range, and that range is defined by the [array_view::begin](#arrayviewbegin-function) and [array_view::end](#arrayviewend-function) member functions, each of which returns an iterator (also see [array_view::cbegin](#arrayviewcbegin-function) and [array_view::cend](#arrayviewcend-function)). Because of this, you can enumerate the characters in an **array_view** object with either a range-based `for` statement, or with the **std::for_each** template function.
 
 ```cppwinrt
 #include <iostream>
@@ -122,13 +122,13 @@ The number of values (elements) in the input data.
 A raw array value that initializes the **array_view** object.
 
 `arrayValue`
-A `std::array` value that initializes the **array_view** object.
+A **std::array** value that initializes the **array_view** object.
 
 `initializerListValue`
 An initializer list value that initializes the **array_view** object.
 
 `vectorValue`
-A `std::vector` value that initializes the **array_view** object.
+A **std::vector** value that initializes the **array_view** object.
 
 `first` `last`
 Pointers to values with which to initialize the **array_view** object. If `first` equals `last`, then the **array_view** object is empty.

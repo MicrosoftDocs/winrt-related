@@ -21,14 +21,19 @@ ms.workload: ["cplusplus"]
 
 The **winrt** namespace provides custom data types belonging to C++/WinRT&mdash;the [standard C++ language projection for Windows Runtime (WinRT) APIs](/windows/uwp/cpp-and-winrt-apis/index?branch=live). These custom types provide appropriate conversions to and from standard types so that, much of the time, you can continue to use the standard C++ language features that you're accustomed to using, and the source code that you already have.
 
+Also provided in the **winrt** namespace are functions for creating runtime class instances, boxing and unboxing, and other facilities.
+
 ## Types
 
 | Type | Description |
 | - | - |
 | [array_view struct template](array-view.md) | A view, or span, of a contiguous series of values. |
+| [box_value function template](box-value.md) | A function template that wraps (or *boxes*) a scalar value inside a reference class object so that it can be passed to a function that expects **IInspectable**. |
 | [com_array struct template](com-array.md) | A view, or span, of a contiguous series of values for passing to and from WinRT APIs. |
 | [hstring struct](hstring.md) | A sequential collection of UTF-16 Unicode characters representing a text string. |
 | [make function template](make.md) | A factory method that returns an instance of the projected type for a runtime class when parameterized with the corresponding implementation type. |
+| [unbox_value function template](unbox-value.md) | A function template that unwraps (or *unboxes*) a scalar value from inside a reference class object so that it can be processed in a function that expects **IInspectable**. |
+| [unbox_value_or function template](unbox-value-or.md) | A function template that unwraps (or *unboxes*) a scalar value from inside a reference class object, with a fallback value, so that it can be processed in a function that expects **IInspectable**. |
 
 ## See also 
 [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index?branch=live)

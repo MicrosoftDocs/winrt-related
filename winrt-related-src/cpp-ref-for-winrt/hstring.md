@@ -19,7 +19,7 @@ ms.workload: ["cplusplus"]
 > [!NOTE]
 > **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
 
-A sequential collection of UTF-16 Unicode characters representing a text string. For more examples and info about **winrt::hstring**, see [String handling in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/strings?branch=live). The **winrt::hstring** type encapsulates [HSTRING](https://msdn.microsoft.com/library/windows/desktop/br205775) behind an interface similar to that of `std::wstring`.
+A sequential collection of UTF-16 Unicode characters representing a text string. For more examples and info about **winrt::hstring**, see [String handling in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/strings?branch=live). The **winrt::hstring** type encapsulates [HSTRING](https://msdn.microsoft.com/library/windows/desktop/br205775) behind an interface similar to that of **std::wstring**.
 
 ## Syntax
 ```cppwinrt
@@ -60,7 +60,7 @@ struct hstring
 ## Member operators
 |Operator|Description| 
 |------------|-----------------|
-|[hstring::operator std::wstring_view](#hstringoperator-stdwstringview)|Converts the **hstring** object to a `std::wstring_view`.|
+|[hstring::operator std::wstring_view](#hstringoperator-stdwstringview)|Converts the **hstring** object to a **std::wstring_view**.|
 |[hstring::operator[] &lpar;subscript operator)](#hstringoperator-subscript-operator))|Returns a reference to the character at the specified position within the **hstring** object.|
 |[hstring::operator= (assignment operator)](#hstringoperator-assignment-operator)|Assigns a value to the **hstring** object.|
 
@@ -81,7 +81,7 @@ struct hstring
 |[operator>= (greater-than-or-equal-to operator)](#operator-greater-than-or-equal-to-operator)|Returns a value indicating whether the first parameter is greater than or equal to the second parameter.|
 
 ## Iterators
-An **hstring** is a range, and that range is defined by the [hstring::begin](#hstringbegin-function) and [hstring::end](#hstringend-function) member functions, each of which returns a const iterator (as do [hstring::cbegin](#hstringcbegin-function) and [hstring::cend](#hstringcend-function)). Because of this, you can enumerate the characters in an **hstring** object with either a range-based `for` statement, or with the `std::for_each` template function.
+An **hstring** is a range, and that range is defined by the [hstring::begin](#hstringbegin-function) and [hstring::end](#hstringend-function) member functions, each of which returns a const iterator (as do [hstring::cbegin](#hstringcbegin-function) and [hstring::cend](#hstringcend-function)). Because of this, you can enumerate the characters in an **hstring** object with either a range-based `for` statement, or with the **std::for_each** template function.
 
 ```cppwinrt
 #include <iostream>
@@ -115,10 +115,10 @@ hstring(wchar_t const* c, uint32_t s)
 An **hstring** value that initializes the **hstring** object.
 
 `v`
-A `std::wstring_view` value that initializes the **hstring** object.
+A **std::wstring_view** value that initializes the **hstring** object.
 
 `c`
-A pointer to an array of constant `wchar_t` that initializes the **hstring** object.
+A pointer to an array of constant **wchar_t** that initializes the **hstring** object.
 
 `s`
 A number that specifies a fixed size for the **hstring** object.
@@ -306,7 +306,7 @@ wchar_t const& front() const noexcept
 A reference to the first character in the **hstring** object.
 
 ## hstring::operator std::wstring_view
-Converts the **hstring** object to a `std::wstring_view`.
+Converts the **hstring** object to a **std::wstring_view**.
 
 ### Syntax
 ```cppwinrt
@@ -314,7 +314,7 @@ hstring::operator std::wstring_view() const noexcept
 ```
 
 ### Return value
-The **hstring** object converted to a `std::wstring_view`.
+The **hstring** object converted to a **std::wstring_view**.
 
 ### Example
 ```cppwinrt
@@ -357,7 +357,7 @@ hstring& operator=(std::wstring_view const& v)
 An **hstring** value to assign to the **hstring** object.
 
 `v`
-A `std::wstring_view` value to assign to the **hstring** object.
+A **std::wstring_view** value to assign to the **hstring** object.
 
 ### Return value
 A reference to the **hstring** object.
@@ -393,7 +393,7 @@ uint32_t size() const noexcept
 ```
 
 ### Return value
-A `uint32_t` containing the number of characters in the **hstring** object.
+A **uint32_t** containing the number of characters in the **hstring** object.
 
 ## operator!= (inequality operator)
 Returns a value indicating whether the two parameters are unequal to one another.
@@ -415,7 +415,7 @@ An **hstring** value to compare with the other parameter.
 A `std::wstring` value to compare with the other parameter.
 
 `cLeft` `cRight`
-A pointer to an array of constant `wchar_t` to compare with the other parameter.
+A pointer to an array of constant **wchar_t** to compare with the other parameter.
 
 ### Return value
 `true` if the two parameters are unequal to one another, otherwise `false`.
@@ -444,13 +444,13 @@ An **hstring** value to concatenate with the other parameter.
 A `std::wstring` value to concatenate with the other parameter.
 
 `vLeft` `vRight`
-A `std::wstring_view` value to concatenate with the other parameter.
+A **std::wstring_view** value to concatenate with the other parameter.
 
 `cLeft` `cRight`
-A pointer to an array of constant `wchar_t` to concatenate with the other parameter.
+A pointer to an array of constant **wchar_t** to concatenate with the other parameter.
 
 `scLeft` `scRight`
-A `wchar_t` to concatenate with the other parameter.
+A **wchar_t** to concatenate with the other parameter.
 
 ### Return value
 A new **hstring** object resulting from concatenating the two parameters together.
@@ -475,7 +475,7 @@ An **hstring** value to compare with the other parameter.
 A `std::wstring` value to compare with the other parameter.
 
 `cLeft` `cRight`
-A pointer to an array of constant `wchar_t` to compare with the other parameter.
+A pointer to an array of constant **wchar_t** to compare with the other parameter.
 
 ### Return value
 `true` if the first parameter is less than the second parameter, otherwise `false`.
@@ -500,7 +500,7 @@ An **hstring** value to compare with the other parameter.
 A `std::wstring` value to compare with the other parameter.
 
 `cLeft` `cRight`
-A pointer to an array of constant `wchar_t` to compare with the other parameter.
+A pointer to an array of constant **wchar_t** to compare with the other parameter.
 
 ### Return value
 `true` if the first parameter is less than or equal to the second parameter, otherwise `false`.
@@ -525,7 +525,7 @@ An **hstring** value to compare with the other parameter.
 A `std::wstring` value to compare with the other parameter.
 
 `cLeft` `cRight`
-A pointer to an array of constant `wchar_t` to compare with the other parameter.
+A pointer to an array of constant **wchar_t** to compare with the other parameter.
 
 ### Return value
 `true` if the two parameters are equal to one another, otherwise `false`.
@@ -550,7 +550,7 @@ An **hstring** value to compare with the other parameter.
 A `std::wstring` value to compare with the other parameter.
 
 `cLeft` `cRight`
-A pointer to an array of constant `wchar_t` to compare with the other parameter.
+A pointer to an array of constant **wchar_t** to compare with the other parameter.
 
 ### Return value
 `true` if the first parameter is greater than the second parameter, otherwise `false`.
@@ -575,7 +575,7 @@ An **hstring** value to compare with the other parameter.
 A `std::wstring` value to compare with the other parameter.
 
 `cLeft` `cRight`
-A pointer to an array of constant `wchar_t` to compare with the other parameter.
+A pointer to an array of constant **wchar_t** to compare with the other parameter.
 
 ### Return value
 `true` if the first parameter is greater than or equal to the second parameter, otherwise `false`.
@@ -610,7 +610,7 @@ The value to convert into a new **hstring** object.
 A new **hstring** object resulting from converting the parameter.
 
 ### Remarks
-For the function template, specializations are generated only for types convertible from `std::string_view`.
+For the function template, specializations are generated only for types convertible from **std::basic_string_view**.
 
 ## See also 
 * [winrt namespace (C++/WinRT)](winrt.md)
