@@ -42,7 +42,7 @@ Specifies the details of a driver paired with a UWP app.
 ### Attributes
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
-| Name | The name of the driver in the form: &lt;Provider&gt;_&lt;Filename&gt;.INF. Use Family ID from `InfVerif.exe /info`. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |
+| Name | The name of the driver in the form: &lt;Provider&gt;-&lt;Filename&gt;.INF. Use Family ID from `InfVerif.exe /info`. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |
 | MinVersion | The version of the driver package. | A version string in quad notation, "Major.Minor.Build.Revision". | No |
 | MinDate | The date of the driver package. | The date in the form: YYYY-MM-DD | No |
 
@@ -60,12 +60,12 @@ This example shows multiple `DriverDependency` and `DriverConstraint` elements p
     <PackageDependency Name="Microsoft.VCLibs" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" MinVersion="1.0.0.0" MaxMajorVersionTested="5"/>
         
         <DriverDependency>
-            <DriverConstraint Name="Microsoft_HoloLens.INF" MinVersion="1.0.0.0" MinDate="2017-05-20"/>
-            <DriverConstraint Name="Microsoft_HoloLensCamera.INF" MinVersion="1.0.0.0" MinDate="2017-05-10"/>
+            <DriverConstraint Name="Microsoft-HoloLens.INF" MinVersion="1.0.0.0" MinDate="2017-05-20"/>
+            <DriverConstraint Name="Microsoft-HoloLensCamera.INF" MinVersion="1.0.0.0" MinDate="2017-05-10"/>
         </DriverDependency>
         
         <DriverDependency>
-            <DriverConstraint Name="Acer_HMDDevice.INF" MinDate="2017-05-10"/>
+            <DriverConstraint Name="Acer-HMDDevice.INF" MinDate="2017-05-10"/>
         <DriverDependency>
 </Dependencies>
 
