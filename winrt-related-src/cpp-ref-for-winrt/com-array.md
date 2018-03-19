@@ -24,7 +24,7 @@ A view, or span, of a contiguous series of values for passing to and from WinRT 
 ## Syntax
 ```cppwinrt
 template <typename T>
-    struct com_array : array_view<T>
+struct com_array : array_view<T>
 ```
 
 ### Template parameters
@@ -51,7 +51,7 @@ The type of the values (elements) that the **com_array** views, or spans.
 ## Member operators
 |Operator|Description| 
 |------------|-----------------|
-|[com_array::operator= (assignment operator)](#com_arrayoperator-assignment-operator)|Assigns a value to the **com_array** object.|
+|[com_array::operator= (assignment operator)](#comarrayoperator-assignment-operator)|Assigns a value to the **com_array** object.|
 
 ## Free functions
 |Function|Description|

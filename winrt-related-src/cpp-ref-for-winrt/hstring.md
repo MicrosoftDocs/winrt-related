@@ -310,7 +310,7 @@ Converts the **hstring** object to a **std::wstring_view**.
 
 ### Syntax
 ```cppwinrt
-hstring::operator std::wstring_view() const noexcept
+operator std::wstring_view() const noexcept
 ```
 
 ### Return value

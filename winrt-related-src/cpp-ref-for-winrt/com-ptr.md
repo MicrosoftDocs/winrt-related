@@ -1,0 +1,381 @@
+---
+author: stevewhims
+description: A reference-counted COM smart pointer template.
+title: winrt::com_ptr struct template (C++/WinRT)
+dev_langs: ["C++"]
+ms.author: stwhi
+manager: "markl"
+ms.date: 03/15/2018
+ms.technology: "cpp-windows"
+ms.topic: "language-reference"
+ms.prod: windows
+ms.technology: uwp
+keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, array, view, com_array, span
+ms.localizationpriority: medium
+ms.workload: ["cplusplus"]
+---
+
+# winrt::com_ptr struct template (C++/WinRT)
+> [!NOTE]
+> **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+
+A reference-counted COM smart pointer template. **com_ptr** represents a pointer to the interface or runtime class implementation type specified by the template parameter. It automatically manages the reference count for its target through a private raw pointer.
+
+## Syntax
+```cppwinrt
+template <typename T>
+struct com_ptr
+```
+
+### Template parameters
+`typename T`
+The interface, or runtime class implementation type, a pointer to which is represented by the **com_ptr**. This is the type of the smart pointer's target.
+
+## Requirements
+**Minimum supported SDK:** Windows SDK for Windows 10, version 1803
+
+**Namespace:** winrt
+
+**Header** %ProgramFiles(x86)%\Windows Kits\10\Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+
+## Constructors
+|Constructor|Description|
+|------------|-----------------|
+|[com_ptr::com_ptr constructor](#comarraycomarray-constructor)|TBD|
+
+## Member functions
+|Function|Description|
+|------------|-----------------|
+|[com_ptr::as function](#comarrayas-function)|TBD|
+|[com_ptr::attach function](#comarrayattach-function)|TBD|
+|[com_ptr::copy_from function](#comarraycopyfrom-function)|TBD|
+|[com_ptr::copy_to function](#comarraycopyto-function)|TBD|
+|[com_ptr::detach function](#comarraydetach-function)|TBD|
+|[com_ptr::get function](#comarrayget-function)|TBD|
+|[com_ptr::put function](#comarrayput-function)|TBD|
+|[com_ptr::put_void function](#comarrayputvoid-function)|TBD|
+|[com_ptr::try_as function](#comarraytryas-function)|TBD|
+
+## Member operators
+|Operator|Description|
+|------------|-----------------|
+|[com_ptr::operator bool](#comptroperator-bool)|TBD|
+|[com_ptr::operator* (indirection operator)](#comptroperator-indirection-operator)|TBD|
+|[com_ptr::operator= (assignment operator)](#comptroperator-assignment-operator)|TBD|
+|[com_ptr::operator-> (arrow operator)](#comptroperator-arrow-operator)|TBD|
+
+## Free functions
+|Function|Description|
+|------------|-----------------|
+|[swap function](#swap-function)|TBD|
+
+## Free operators
+|Function|Description|
+|------------|-----------------|
+|[operator!= (inequality operator)](#operator-inequality-operator)|TBD|
+|[operator< (less-than operator)](#operator-less-than-operator)|TBD|
+|[operator<= (less-than-or-equal-to operator)](#operator-less-than-or-equal-to-operator)|TBD|
+|[operator== (equality operator)](#operator-equality-operator)|TBD|
+|[operator> (greater-than operator)](#operator-greater-than-operator)|TBD|
+|[operator>= (greater-than-or-equal-to operator)](#operator-greater-than-or-equal-to-operator)|TBD|
+
+## com_ptr::com_ptr constructor
+Initializes a new instance of the **com_ptr** struct, optionally with a copy or move of the input data.
+
+### Syntax
+```cppwinrt
+com_ptr(com_ptr const& other) noexcept
+com_ptr(std::nullptr_t = nullptr) noexcept
+template <typename U> com_ptr(com_ptr<U> const& other) noexcept
+template <typename U> com_ptr(com_ptr<U>&& other) noexcept
+```
+
+### Template parameters
+`typename U`
+The target type pointed to by the input smart pointer.
+
+### Parameters
+`other`
+Another **com_ptr** that initializes the **com_ptr** object. The parameter's **T** must be convertible to the the **com_ptr** object's **T**.
+
+## com_ptr::as function
+Returns the requested interface, if it is supported. Throws if it is not. This function is useful if you want to query for an interface that you don't need to pass back to your caller.
+
+### Syntax
+```cppwinrt
+template <typename To> auto as() const
+template <typename To> void as(To& to) const
+```
+
+### Template parameters
+`typename To`
+The type of the requested interface.
+
+### Parameters
+`to`
+A reference to a value to receive the requested interface.
+
+### Return value 
+A **com_ptr** referencing the requested interface, or a strongly-typed smart pointer for the requested interface (either declared by C++/WinRT or by a third party).
+
+## com_ptr::attach function
+Attaches to a raw pointer that owns a reference to its target; an additional reference is not added. If needed, you can use this function to coalesce references.
+
+### Syntax
+```cppwinrt
+void attach(T* value) noexcept
+```
+
+### Parameters
+`value`
+A raw pointer that owns a reference to its target.
+
+## com_ptr::copy_from function
+Copies from another pointer. Decrements the reference count on any currently referenced interface or object, copies the raw pointer parameter, and begins managing the lifetime of the interface or object pointed to by it.
+
+### Syntax
+```cppwinrt
+void copy_from(T* other) noexcept
+```
+
+### Parameters
+`other`
+A raw pointer to a target whose lifetime should be managed by the **com_ptr** object.
+
+## com_ptr::copy_to function
+Copies to another pointer. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter. This function lets you hand out a reference to the same interface without calling [QueryInterface](https://msdn.microsoft.com/library/windows/desktop/ms682521).
+
+### Syntax
+```cppwinrt
+void copy_to(T** other) const noexcept
+```
+
+### Parameters
+`other`
+A raw pointer's address; into which to copy the pointer to the **com_ptr** object's target.
+
+## com_ptr::detach function
+Detaches from the referenced interface or object without decrementing the reference count, perhaps to return it to a caller.
+
+### Syntax
+```cppwinrt
+T* detach() noexcept
+```
+
+### Return value
+A pointer to the interface or object referenced by the **com_ptr** object.
+
+## com_ptr::get function
+Returns the underlying raw pointer should you need to pass it to a function. You may call [AddRef](https://msdn.microsoft.com/library/windows/desktop/ms691379), [Release](https://msdn.microsoft.com/library/windows/desktop/ms682317), or [QueryInterface](https://msdn.microsoft.com/library/windows/desktop/ms682521) on the returned pointer.
+
+### Syntax
+```cppwinrt
+T* get() const noexcept
+```
+
+### Return value 
+A pointer to the interface or object referenced by the **com_ptr** object.
+
+## com_ptr::put function
+Returns the address of the underlying raw pointer; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer.
+
+### Syntax
+```cppwinrt
+T** put() noexcept
+```
+
+### Return value 
+The address of the underlying raw pointer.
+
+## com_ptr::put_void function
+Returns the address of the underlying raw pointer as a pointer to a pointer to **void**; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer to **void**.
+
+### Syntax
+```cppwinrt
+void** put_void() noexcept
+```
+
+### Return value 
+The address of the underlying raw pointer as a pointer to a pointer to **void**.
+
+## com_ptr::try_as function
+Returns the requested interface, if it is supported. Returns `null`, or `false`, if it is not. This function is useful if you want to query for an interface that you don't need to pass back to your caller.
+
+### Syntax
+```cppwinrt
+template <typename To> auto try_as() const noexcept
+template <typename To> bool try_as(To& to) const noexcept
+```
+
+### Template parameters
+`typename To`
+The type of the requested interface.
+
+### Parameters
+`to`
+A reference to a value to receive the requested interface.
+
+### Return value 
+A **com_ptr** referencing the requested interface, or a strongly-typed smart pointer for the requested interface (either declared by C++/WinRT or by a third party), if the requested interface is supported, otherwise `null` or `false`.
+
+## com_ptr::operator bool
+Checks whether or not the smart pointer is referencing an interface or object. If the smart pointer is not referencing an interface or object, then it is logically null; otherwise it is logically not null.
+
+### Syntax
+```cppwinrt
+explicit operator bool() const noexcept
+```
+
+### Return value
+`true` if the smart pointer is referencing an interface or object (logically not null), otherwise `false` (logically null).
+
+## com_ptr::operator* (indirection operator)
+Returns a reference to the **com_ptr**'s target so that you can pass it to a function that expects a reference to the target type **T**.
+
+### Syntax
+```cppwinrt
+T& operator*() const noexcept
+```
+
+### Return value
+A reference to the **com_ptr**'s target.
+
+## com_ptr::operator= (assignment operator)
+Assigns a value to the **com_ptr** object.
+
+### Syntax
+```cppwinrt
+com_ptr& operator=(com_ptr const& other) noexcept
+template <typename U> com_ptr& operator=(com_ptr<U> const& other) noexcept
+template <typename U> com_ptr& operator=(com_ptr<U>&& other) noexcept
+```
+
+### Template parameters
+`typename U`
+The type pointed to by the value being assigned.
+
+### Parameters
+`other`
+A **com_ptr** value to assign to the **com_ptr** object. The parameter's **T** must be convertible to the the **com_ptr** object's **T**.
+
+### Return value
+A reference to the **com_ptr** object.
+
+## com_ptr::operator-> (arrow operator)
+To afford access to the referenced interface or object's methods, returns the underlying raw pointer. You may not call [AddRef](https://msdn.microsoft.com/library/windows/desktop/ms691379) nor [Release](https://msdn.microsoft.com/library/windows/desktop/ms682317) on the returned pointer, but you may call [QueryInterface](https://msdn.microsoft.com/library/windows/desktop/ms682521).
+
+### Syntax
+```cppwinrt
+auto operator->() const noexcept
+```
+
+### Return value
+A pointer to the interface or object referenced by the **com_ptr** object.
+
+## operator!= (inequality operator)
+Returns a value indicating whether the two parameters refer to different targets.
+
+### Syntax
+```cppwinrt
+template <typename T> bool operator!=(com_ptr<T> const& left, com_ptr<T> const& right) noexcept
+template <typename T> bool operator!=(com_ptr<T> const& left, std::nullptr_t) noexcept
+template <typename T> bool operator!=(std::nullptr_t, com_ptr<T> const& right) noexcept
+```
+
+### Parameters
+`left` `right`
+A **com_ptr** value whose target's memory address to compare with that of the other parameter.
+
+### Return value
+`true` if the two parameters point to different targets, otherwise `false`.
+
+## operator< (less-than operator)
+Returns a value indicating whether the first parameter's target occurs earlier in memory than that of the second parameter.
+
+### Syntax
+```cppwinrt
+template <typename T> bool operator<(com_ptr<T> const& left, com_ptr<T> const& right) noexcept
+```
+
+### Parameters
+`left` `right`
+A **com_ptr** value whose target's memory address to compare with that of the other parameter.
+
+### Return value
+`true` if the first parameter's target's memory address is less than that of the second parameter, otherwise `false`.
+
+## operator<= (less-than-or-equal-to operator)
+Returns a value indicating whether the first parameter's target occurs earlier in memory than, or at the same location as, that of the second parameter.
+
+### Syntax
+```cppwinrt
+template <typename T> bool operator<=(com_ptr<T> const& left, com_ptr<T> const& right) noexcept
+```
+
+### Parameters
+`left` `right`
+A **com_ptr** value whose target's memory address to compare with that of the other parameter.
+
+### Return value
+`true` if the first parameter's target's memory address is less than or equal to that of the second parameter, otherwise `false`.
+
+## operator== (equality operator)
+Returns a value indicating whether the two parameters refer to the same interface and/or object.
+
+### Syntax
+```cppwinrt
+template <typename T> bool operator==(com_ptr<T> const& left, std::nullptr_t) noexcept
+template <typename T> bool operator==(std::nullptr_t, com_ptr<T> const& right) noexcept
+```
+
+### Parameters
+`left` `right`
+A **com_ptr** value whose target's memory address to compare with that of the other parameter.
+
+### Return value
+`true` if the two parameters point to the same target, otherwise `false`.
+
+## operator> (greater-than operator)
+Returns a value indicating whether the first parameter's target occurs later in memory than that of the second parameter.
+
+### Syntax
+```cppwinrt
+template <typename T> bool operator>(com_ptr<T> const& left, com_ptr<T> const& right) noexcept
+```
+
+### Parameters
+`left` `right`
+A **com_ptr** value whose target's memory address to compare with that of the other parameter.
+
+### Return value
+`true` if the first parameter's target's memory address is greater than that of the second parameter, otherwise `false`.
+
+## operator>= (greater-than-or-equal-to operator)
+Returns a value indicating whether the first parameter's target occurs later in memory than, or at the same location as, that of the second parameter.
+
+### Syntax
+```cppwinrt
+template <typename T> bool operator>=(com_ptr<T> const& left, com_ptr<T> const& right) noexcept
+```
+
+### Parameters
+`left` `right`
+A **com_ptr** value whose target's memory address to compare with that of the other parameter.
+
+### Return value
+`true` if the first parameter's target's memory address is greater than or equal to that of the second parameter, otherwise `false`.
+
+## swap function
+Swaps the contents of the two **com_ptr** parameters so that they point at one another's target.
+
+### Syntax
+```cppwinrt
+void swap(com_ptr& left, com_ptr& right) noexcept
+```
+
+### Parameters
+`left` `right`
+A **com_ptr** value whose pointers to mutually swap with that of the other parameter.
+
+## See also 
+[winrt namespace (C++/WinRT)](winrt.md)
