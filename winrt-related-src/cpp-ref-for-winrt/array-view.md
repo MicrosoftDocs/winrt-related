@@ -24,7 +24,7 @@ A view, or span, of a contiguous series of values. For more examples and info ab
 ## Syntax
 ```cppwinrt
 template <typename T>
-	struct array_view
+struct array_view
 ```
 
 ### Template parameters
@@ -64,7 +64,7 @@ The type of the values (elements) that the **array_view** views, or spans.
 ## Member operators
 |Operator|Description| 
 |------------|-----------------|
-|[array_view::operator[] &lpar;subscript operator)](#array_viewoperator-subscript-operator)|Returns a reference to the element at the specified position within the **array_view** object.|
+|[array_view::operator[] &lpar;subscript operator)](#arrayviewoperator-subscript-operator)|Returns a reference to the element at the specified position within the **array_view** object.|
 
 ## Free operators
 |Operator|Description| 
@@ -242,7 +242,7 @@ Returns a const reverse iterator to one beyond the end of (one beyond the last e
 
 ### Syntax
 ```cppwinrt
-std::reverse_iterator<stdext::checked_array_iterator<T const>> array_view::crbegin() const noexcept
+std::reverse_iterator<stdext::checked_array_iterator<T const>> crbegin() const noexcept
 ```
 
 ### Return value
@@ -288,7 +288,7 @@ Returns an iterator to one beyond the end of (one beyond the last element in) th
 ### Syntax
 ```cppwinrt
 stdext::checked_array_iterator<T const> end() const noexcept
-stdext::checked_array_iterator<T> array_view::end() noexcept
+stdext::checked_array_iterator<T> end() noexcept
 ```
 
 ### Return value
@@ -299,8 +299,8 @@ Returns a reference to the first element in the **array_view** object.
 
 ### Syntax
 ```cppwinrt
-T const& array_view::front() const noexcept
-T& array_view::front() noexcept
+T const& front() const noexcept
+T& front() noexcept
 ```
 
 ### Return value
@@ -327,8 +327,8 @@ Returns a reverse iterator to one beyond the end of (one beyond the last element
 
 ### Syntax
 ```cppwinrt
-std::reverse_iterator<stdext::checked_array_iterator<T const>> array_view::rbegin() const noexcept
-std::reverse_iterator<stdext::checked_array_iterator<T>> array_view::rbegin() noexcept
+std::reverse_iterator<stdext::checked_array_iterator<T const>> rbegin() const noexcept
+std::reverse_iterator<stdext::checked_array_iterator<T>> rbegin() noexcept
 ```
 
 ### Return value
@@ -339,8 +339,8 @@ Returns a reverse iterator to the first element in the **array_view** object.
 
 ### Syntax
 ```cppwinrt
-std::reverse_iterator<stdext::checked_array_iterator<T const>> array_view::rend() const noexcept
-std::reverse_iterator<stdext::checked_array_iterator<T>> array_view::rend() noexcept
+std::reverse_iterator<stdext::checked_array_iterator<T const>> rend() const noexcept
+std::reverse_iterator<stdext::checked_array_iterator<T>> rend() noexcept
 ```
 
 ### Return value
@@ -351,7 +351,7 @@ Returns the number of elements in the **array_view** object.
 
 ### Syntax
 ```cppwinrt
-uint32_t array_view:: size() const noexcept
+uint32_t size() const noexcept
 ```
 
 ### Return value
