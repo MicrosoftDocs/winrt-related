@@ -1,9 +1,9 @@
 ---
 author: laurenhughes
 title: uap6:BarcodeScannerProvider
-description: Specifies the media source and the app service that it exposes.
+description: Used for enabling the support of a barcode scanner.
 ms.author: lahugh
-ms.date: 03/07/2018
+ms.date: 04/10/2018
 ms.topic: reference
 ms.prod: windows
 ms.technology: winrt-reference
@@ -43,7 +43,7 @@ Used for enabling the support of a barcode scanner.
 
 ## Syntax
 ```syntax
-<uap6:BarcodeScannerProvider DisplayName = A string between 1 and 256 characters in length.
+<uap6:BarcodeScannerProvider DisplayName? = A string between 1 and 256 characters in length.
                              SupportsVideoPreview? = Boolean >
 ```
 
@@ -59,13 +59,7 @@ Used for enabling the support of a barcode scanner.
 | SupportsVideoPreview | A brief description of the media source. | Boolean | No |
 
 ### Child Elements
-
-| Child Element | Description |
-|---------------|-------------|
-| [SupportedFileTypes](element-uap5-SupportedFileTypes.md) | Contains the file types supported by the media source. |
-| [SupportedContentTypes](element-uap5-SupportedContentTypes.md) | Contains the media/content types supported by the media source. |
-
-
+None
 
 ## Requirements
 
