@@ -9,7 +9,7 @@ keywords: windows 10, uwp, schema, package manifest
 ms.prod: windows
 ms.technology: winrt-reference
 ms.topic: reference
-ms.date: 04/05/2017
+ms.date: 03/09/2017
 ---
 
 # Identity (Windows 10)
@@ -136,6 +136,14 @@ None.
 </tbody>
 </table>
 
+### Example
+This example is from the app manifest file of the [App package information](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Package) sample on GitHub.
+
+```xml
+  <Identity Name="Microsoft.SDKSamples.PackageSample.CS" 
+            Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" 
+            Version="1.0.1.0" />
+```
  
 
 ## Requirements

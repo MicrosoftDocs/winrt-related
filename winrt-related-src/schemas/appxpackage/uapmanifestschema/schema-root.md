@@ -272,7 +272,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap5:ContentType](element-uap5-ContentType.md) | Specifies the media/content type supported by the media source. |
 | [uap5:DriverConstraint](element-uap5-DriverConstraint.md) | Specifies the details of a driver paired with a UWP app. |
 | [uap5:DriverDependency](element-uap5-DriverDependency.md) | Contains the driver constraint information for a UWP app. If `DriverDependency` is used, the specified driver must be present for the app to load. |
-| [uap5:ExecutionAlias](element-uap5-ExecutionAlias.md) | The executable of a UWP app to be activated from a command promt. |
+| [uap5:ExecutionAlias](element-uap5-ExecutionAlias.md) | The executable of a UWP app to be activated from a command prompt. |
 | [uap5:Extension](element-uap5-Extension.md) | Declares an extensibility point for the app. |
 | [uap5:FileType](element-uap5-FileType.md) | Specifies the file type supported by the media source. |
 | [uap5:Host](element-uap5-Host.md) | Represents a valid HTTP or HTTPS host name with a wildcard that the app wants to register as able to handle. |
