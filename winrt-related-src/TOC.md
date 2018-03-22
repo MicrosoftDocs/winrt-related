@@ -911,6 +911,7 @@
 ### [box_value function template](cpp-ref-for-winrt/box-value.md)
 ### [com_array struct template](cpp-ref-for-winrt/com-array.md)
 ### [com_ptr struct template](cpp-ref-for-winrt/com-ptr.md)
+### [get_abi function template](cpp-ref-for-winrt/get-abi.md)
 ### [hstring struct](cpp-ref-for-winrt/hstring.md)
 ### [make function template](cpp-ref-for-winrt/make.md)
 ### [make_self function template](cpp-ref-for-winrt/make-self.md)

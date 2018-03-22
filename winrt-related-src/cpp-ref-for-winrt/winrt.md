@@ -30,6 +30,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [box_value function template](box-value.md) | A function template that wraps (or *boxes*) a scalar value inside a reference class object so that it can be passed to a function that expects **IInspectable**. |
 | [com_array struct template](com-array.md) | A view, or span, of a contiguous series of values for passing to and from WinRT APIs. |
 | [com_ptr struct template](com-ptr.md) | A reference-counted COM smart pointer template. |
+| [get_abi function template](get-abi.md) | A helper function that retrieves a pointer to a C++/WinRT object's underlying [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) pointer. |
 | [hstring struct](hstring.md) | A sequential collection of UTF-16 Unicode characters representing a text string. |
 | [make function template](make.md) | A factory method that returns an instance of the projected type for a runtime class when parameterized with the corresponding implementation type. |
 | [make_self function template](make-self.md) | A factory method that returns a [com_ptr](com-ptr.md) to an instance of the implementation type for a runtime class. |

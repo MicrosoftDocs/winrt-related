@@ -10,7 +10,7 @@ ms.technology: "cpp-windows"
 ms.topic: "language-reference"
 ms.prod: windows
 ms.technology: uwp
-keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, array, view, com_array, span
+keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, array, view, com, smart, pointer
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
@@ -41,43 +41,43 @@ The interface, or runtime class implementation type, a pointer to which is repre
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[com_ptr::com_ptr constructor](#comarraycomarray-constructor)|TBD|
+|[com_ptr::com_ptr constructor](#comarraycomarray-constructor)|Initializes a new instance of the **com_ptr** struct, optionally with a copy or move of the input data.|
 
 ## Member functions
 |Function|Description|
 |------------|-----------------|
-|[com_ptr::as function](#comarrayas-function)|TBD|
-|[com_ptr::attach function](#comarrayattach-function)|TBD|
-|[com_ptr::copy_from function](#comarraycopyfrom-function)|TBD|
-|[com_ptr::copy_to function](#comarraycopyto-function)|TBD|
-|[com_ptr::detach function](#comarraydetach-function)|TBD|
-|[com_ptr::get function](#comarrayget-function)|TBD|
-|[com_ptr::put function](#comarrayput-function)|TBD|
-|[com_ptr::put_void function](#comarrayputvoid-function)|TBD|
-|[com_ptr::try_as function](#comarraytryas-function)|TBD|
+|[com_ptr::as function](#comarrayas-function)|Returns the requested interface, if it is supported. Throws if it is not.|
+|[com_ptr::attach function](#comarrayattach-function)|Attaches to a raw pointer that owns a reference to its target; an additional reference is not added.|
+|[com_ptr::copy_from function](#comarraycopyfrom-function)|Copies from another pointer. Decrements the reference count on any currently referenced interface or object, copies the raw pointer parameter, and begins managing the lifetime of the interface or object pointed to by it.|
+|[com_ptr::copy_to function](#comarraycopyto-function)|Copies to another pointer. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter.|
+|[com_ptr::detach function](#comarraydetach-function)|Detaches from the referenced interface or object without decrementing the reference count, perhaps to return it to a caller.|
+|[com_ptr::get function](#comarrayget-function)|Returns the underlying raw pointer should you need to pass it to a function.|
+|[com_ptr::put function](#comarrayput-function)|Returns the address of the underlying raw pointer; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer.|
+|[com_ptr::put_void function](#comarrayputvoid-function)|Returns the address of the underlying raw pointer as a pointer to a pointer to **void**; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer to **void**.|
+|[com_ptr::try_as function](#comarraytryas-function)|Returns the requested interface, if it is supported. Returns `null`, or `false`, if it is not.|
 
 ## Member operators
 |Operator|Description|
 |------------|-----------------|
-|[com_ptr::operator bool](#comptroperator-bool)|TBD|
-|[com_ptr::operator* (indirection operator)](#comptroperator-indirection-operator)|TBD|
-|[com_ptr::operator= (assignment operator)](#comptroperator-assignment-operator)|TBD|
-|[com_ptr::operator-> (arrow operator)](#comptroperator-arrow-operator)|TBD|
+|[com_ptr::operator bool](#comptroperator-bool)|Checks whether or not the smart pointer is referencing an interface or object.|
+|[com_ptr::operator* (indirection operator)](#comptroperator-indirection-operator)|Returns a reference to the **com_ptr**'s target so that you can pass it to a function that expects a reference to the target type **T**.|
+|[com_ptr::operator= (assignment operator)](#comptroperator-assignment-operator)|Assigns a value to the **com_ptr** object.|
+|[com_ptr::operator-> (arrow operator)](#comptroperator-arrow-operator)|To afford access to the referenced interface or object's methods, returns the underlying raw pointer.|
 
 ## Free functions
 |Function|Description|
 |------------|-----------------|
-|[swap function](#swap-function)|TBD|
+|[swap function](#swap-function)|Swaps the contents of the two **com_ptr** parameters so that they point at one another's target.|
 
 ## Free operators
 |Function|Description|
 |------------|-----------------|
-|[operator!= (inequality operator)](#operator-inequality-operator)|TBD|
-|[operator< (less-than operator)](#operator-less-than-operator)|TBD|
-|[operator<= (less-than-or-equal-to operator)](#operator-less-than-or-equal-to-operator)|TBD|
-|[operator== (equality operator)](#operator-equality-operator)|TBD|
-|[operator> (greater-than operator)](#operator-greater-than-operator)|TBD|
-|[operator>= (greater-than-or-equal-to operator)](#operator-greater-than-or-equal-to-operator)|TBD|
+|[operator!= (inequality operator)](#operator-inequality-operator)|Returns a value indicating whether the two parameters refer to different targets.|
+|[operator< (less-than operator)](#operator-less-than-operator)|Returns a value indicating whether the first parameter's target occurs earlier in memory than that of the second parameter.|
+|[operator<= (less-than-or-equal-to operator)](#operator-less-than-or-equal-to-operator)|Returns a value indicating whether the first parameter's target occurs earlier in memory than, or at the same location as, that of the second parameter.|
+|[operator== (equality operator)](#operator-equality-operator)|Returns a value indicating whether the two parameters refer to the same interface and/or object.|
+|[operator> (greater-than operator)](#operator-greater-than-operator)|Returns a value indicating whether the first parameter's target occurs later in memory than that of the second parameter.|
+|[operator>= (greater-than-or-equal-to operator)](#operator-greater-than-or-equal-to-operator)|Returns a value indicating whether the first parameter's target occurs later in memory than, or at the same location as, that of the second parameter.|
 
 ## com_ptr::com_ptr constructor
 Initializes a new instance of the **com_ptr** struct, optionally with a copy or move of the input data.
