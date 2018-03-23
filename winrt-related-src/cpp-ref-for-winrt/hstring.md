@@ -19,7 +19,7 @@ ms.workload: ["cplusplus"]
 > [!NOTE]
 > **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
 
-A sequential collection of UTF-16 Unicode characters representing a text string. For more examples and info about **winrt::hstring**, see [String handling in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/strings?branch=live). The **winrt::hstring** type encapsulates [HSTRING](https://msdn.microsoft.com/library/windows/desktop/br205775) behind an interface similar to that of **std::wstring**.
+A sequential collection of UTF-16 Unicode characters representing a text string. For more examples and info about **winrt::hstring**, see [String handling in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/strings). The **winrt::hstring** type encapsulates [HSTRING](https://msdn.microsoft.com/library/windows/desktop/br205775) behind an interface similar to that of **std::wstring**.
 
 ## Syntax
 ```cppwinrt
@@ -614,4 +614,4 @@ For the function template, specializations are generated only for types converti
 
 ## See also 
 * [winrt namespace (C++/WinRT)](winrt.md)
-* [String handling in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/strings?branch=live)
+* [String handling in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/strings)

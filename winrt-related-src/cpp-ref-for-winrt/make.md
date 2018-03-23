@@ -19,7 +19,7 @@ ms.workload: ["cplusplus"]
 > [!NOTE]
 > **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
 
-A factory method that returns an instance of the projected type for a runtime class when parameterized with the corresponding implementation type. For an explanation of the implementation type and projected type concepts, see [Implementation and projected types for a C++/WinRT runtime class](/windows/uwp/cpp-and-winrt-apis/ctors-runtimeclass-activation?branch=live). For more details, code, and a walkthrough of calling **make** in practice, see [XAML; binding a control to C++/WinRT properties and collections](/windows/uwp/cpp-and-winrt-apis/binding-prop-collection?branch=live#add-a-property-of-type-booksku-to-mainpage). Also see [make_self](make-self.md).
+A factory method that returns an instance of the projected type for a runtime class when parameterized with the corresponding implementation type. For an explanation of the implementation type and projected type concepts, see [Implementation and projected types for a C++/WinRT runtime class](/windows/uwp/cpp-and-winrt-apis/ctors-runtimeclass-activation). For more details, code, and a walkthrough of calling **make** in practice, see [XAML; binding a control to C++/WinRT properties and collections](/windows/uwp/cpp-and-winrt-apis/binding-prop-collection#add-a-property-of-type-booksku-to-mainpage). Also see [make_self](make-self.md).
 
 ## Syntax
 ```cppwinrt
@@ -48,5 +48,5 @@ A newly-created instance of the projected type for the runtime class.
 ## See also 
 * [winrt namespace (C++/WinRT)](winrt.md)
 * [make_self](make-self.md)
-* [Implementation and projected types for a C++/WinRT runtime class](/windows/uwp/cpp-and-winrt-apis/ctors-runtimeclass-activation?branch=live)
-* [XAML; binding a control to C++/WinRT properties and collections](/windows/uwp/cpp-and-winrt-apis/binding-prop-collection?branch=live#add-a-property-of-type-booksku-to-mainpage)
+* [Implementation and projected types for a C++/WinRT runtime class](/windows/uwp/cpp-and-winrt-apis/ctors-runtimeclass-activation)
+* [XAML; binding a control to C++/WinRT properties and collections](/windows/uwp/cpp-and-winrt-apis/binding-prop-collection#add-a-property-of-type-booksku-to-mainpage)
