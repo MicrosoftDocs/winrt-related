@@ -13,7 +13,7 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 # uap5:UserActivity
 
 ## Description
-Allows an app to opt out of engagement data tracking. 
+Allows an app to specify the web site associated with this application for cross platform UserActivity publishing.
 
 ## Element Hierarchy
 <dl>
