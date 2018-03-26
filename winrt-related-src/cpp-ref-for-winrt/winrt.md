@@ -19,7 +19,7 @@ ms.workload: ["cplusplus"]
 > [!NOTE]
 > **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
 
-The **winrt** namespace provides custom data types belonging to C++/WinRT&mdash;the [standard C++ language projection for Windows Runtime (WinRT) APIs](/windows/uwp/cpp-and-winrt-apis/index?branch=live). These custom types provide appropriate conversions to and from standard types so that, much of the time, you can continue to use the standard C++ language features that you're accustomed to using, and the source code that you already have.
+The **winrt** namespace provides custom data types belonging to [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index)&mdash;the standard, modern C++17 language projection for Windows Runtime (WinRT) APIs. These custom types provide appropriate conversions to and from standard types so that, much of the time, you can continue to use the standard C++ language features that you're accustomed to using, and the source code that you already have.
 
 Also provided in the **winrt** namespace are functions (for creating runtime class instances, boxing and unboxing, etc.), smart pointers, and other facilities.
 
@@ -36,6 +36,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [make_self function template](make-self.md) | A factory method that returns a [com_ptr](com-ptr.md) to an instance of the implementation type for a runtime class. |
 | [unbox_value function template](unbox-value.md) | A function template that unwraps (or *unboxes*) a scalar value from inside a reference class object so that it can be processed in a function that expects **IInspectable**. |
 | [unbox_value_or function template](unbox-value-or.md) | A function template that unwraps (or *unboxes*) a scalar value from inside a reference class object, with a fallback value, so that it can be processed in a function that expects **IInspectable**. |
+| [xaml_typename function template](xaml-typename.md) | A helper function that returns the type name of a Windows Runtime type in a [Windows::UI::Xaml::Interop::TypeName](/uwp/api/windows.ui.xaml.interop.typename) object. |
 
 ## See also 
-[C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index?branch=live)
+[C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index)
