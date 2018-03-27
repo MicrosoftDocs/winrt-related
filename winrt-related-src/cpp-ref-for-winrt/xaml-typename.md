@@ -1,6 +1,6 @@
 ---
 author: stevewhims
-description: A helper function that returns the type name of a Windows Runtime type in a Windows::UI::Xaml::Interop::TypeName object.
+description: A helper function that returns the type name of a Windows Runtime type, in the form of a Windows::UI::Xaml::Interop::TypeName object.
 title: winrt::xaml_typename function template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
@@ -19,7 +19,7 @@ ms.workload: ["cplusplus"]
 > [!NOTE]
 > **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
 
-A helper function that returns the type name of a Windows Runtime type in a [Windows::UI::Xaml::Interop::TypeName](/uwp/api/windows.ui.xaml.interop.typename) object.
+A helper function that returns the type name of a Windows Runtime type, in the form of a [Windows::UI::Xaml::Interop::TypeName](/uwp/api/windows.ui.xaml.interop.typename) object.
 
 ## Syntax
 ```cppwinrt
