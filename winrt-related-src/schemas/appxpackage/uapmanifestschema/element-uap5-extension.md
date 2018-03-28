@@ -74,7 +74,7 @@ Declares an extensibility point for the app.
 
 | Child Element | Description |
 |---------------|-------------|
-| [UserActivity](element-uap5-UserActivity.md) | Allows an app to opt out of engagement data tracking. |  
+| [UserActivity](element-uap5-UserActivity.md) | Allows an app to specify the web site associated with this application for cross platform UserActivity publishing. |
 | [MediaSource](element-uap5-MediaSource.md) | Specifies the media source and the app service that it exposes. | 
 | [VideoRendererEffect](element-uap5-VideoRendererEffect.md) | Enables activation of video renderer effects in apps. |
 | [ActivatableClass.OutOfProcessServer](element-uap5-OutOfProcessServer.md) | Declares a package extension point of type **windows.activatableClass.outOfProcessServer**. This enables 3rd party WinRT classes defined in the app package to be called from a Win32 process. |
