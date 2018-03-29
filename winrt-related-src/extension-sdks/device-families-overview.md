@@ -115,3 +115,7 @@ The set of APIs within a device family is further broken down into subdivisions 
         Windows.Foundation.Metadata.ApiInformation.IsApiContractPresent
             ("Windows.Devices.Scanners.ScannerDeviceContract", 1, 0);
 ```
+
+## See also
+
+[Version adaptive code](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code)

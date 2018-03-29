@@ -11,11 +11,9 @@ ms.technology: winrt-reference
 ms.topic: reference
 ms.date: 04/05/2017
 ---
-
 # TargetDeviceFamily (Windows 10)
 
-
-Identifies the device family that your package targets. For more info about device families, see [Guide to UWP apps](https://msdn.microsoft.com/library/windows/apps/dn894631).
+Identifies the device family that your package targets. For more info about device families, see [Device families overview](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-targetdevicefamily).
 
 ## Element hierarchy
 
@@ -38,7 +36,6 @@ Identifies the device family that your package targets. For more info about devi
 ```
 
 ## Attributes and Elements
-
 
 ### Attributes
 
@@ -84,8 +81,6 @@ Identifies the device family that your package targets. For more info about devi
 </tbody>
 </table>
 
- 
-
 ### Child Elements
 
 None.
@@ -110,8 +105,6 @@ None.
 </tr>
 </tbody>
 </table>
-
- 
 
 ## Examples
 
