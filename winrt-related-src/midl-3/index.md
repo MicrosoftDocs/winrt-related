@@ -33,7 +33,7 @@ namespace Bookstore
 As of Windows 10, version 1803, the Windows SDK includes command-line support for MIDL 3.0 (`midl.exe` version 8.01.0622 or later, which internally calls `midlrt.exe` version 10.00.0215 or later).
 
 ## Use cases for MIDL 3.0
-The original [MIDL 1.0](https://msdn.microsoft.com/library/windows/desktop/aa367091) was designed for declaring COM interfaces and coclasses. An updated 2.0 syntax was used internally to declare Windows Runtime APIs for the Windows platform. MIDL 3.0 is a much simpler and more modern way of declaring Windows Runtime APIs, and you can use it in your projects, particularly to declare [C++/WinRT]([C++/WinRT](../cpp-and-winrt-apis/index)) runtime classes.
+The original [MIDL 1.0](https://msdn.microsoft.com/library/windows/desktop/aa367091) was designed for declaring COM interfaces and coclasses. An updated 2.0 syntax was used internally to declare Windows Runtime APIs for the Windows platform. MIDL 3.0 is a much simpler and more modern way of declaring Windows Runtime APIs, and you can use it in your projects, particularly to declare [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) runtime classes.
 
 | Topic | Description |
 | - | - |
