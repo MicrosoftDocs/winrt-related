@@ -1,6 +1,6 @@
 ---
 author: stevewhims
-description: A helper function that retrieves a pointer to a C++/WinRT object's underlying IUnknown interface pointer.
+description: A helper function that retrieves a pointer to a C++/WinRT object's underlying IUnknown interface.
 title: winrt::get_abi function template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
@@ -19,7 +19,7 @@ ms.workload: ["cplusplus"]
 > [!NOTE]
 > **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
 
-A helper function that retrieves a pointer to a C++/WinRT object's underlying [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) pointer.
+A helper function that retrieves a pointer to a C++/WinRT object's underlying [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509).
 
 ## Syntax
 ```cppwinrt
