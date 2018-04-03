@@ -25,6 +25,8 @@
 ###### [Dependencies](schemas/appinstallerschema/element-dependencies.md)
 ###### [Bundle](schemas/appinstallerschema/element-bundle.md)
 ###### [Package](schemas/appinstallerschema/element-package.md)
+###### [UpdateSettings](schemas/appinstallerschema/element-update-settings.md)
+###### [OnLaunch](schemas/appinstallerschema/element-onlaunch.md)
 ### [App package block map](schemas/blockmapschema/app-package-block-map.md)
 #### [Package block map schema reference](schemas/blockmapschema/schema-root.md)
 ##### [Element Hierarchy](schemas/blockmapschema/root-elements.md)

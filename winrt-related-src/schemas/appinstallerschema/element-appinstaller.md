@@ -4,7 +4,7 @@ ms.author: lahugh
 title: AppInstaller
 description: Defines the root element of an appinstaller file.
 ms.topic: reference
-ms.date: 10/10/2017
+ms.date: 04/03/2017
 ms.prod: windows
 ms.technology: winrt-reference
 keywords: windows 10, uwp, app installer, AppInstaller, sideload, related set, optional packages
@@ -12,7 +12,7 @@ keywords: windows 10, uwp, app installer, AppInstaller, sideload, related set, o
 
 # AppInstaller
 
-Defines the root element of an appinstaller file. The file describes the structure and defines the packages that will be installed as part of the deployment operation. 
+This element defines the root element of an appinstaller file. The appinstaller file describes the structure and defines the packages that will be installed as part of the deployment operation. 
 
 ## Element hierarchy
 
@@ -20,8 +20,11 @@ Defines the root element of an appinstaller file. The file describes the structu
 
 ## Syntax
 ```syntax
+
+<?xml version="1.0" encoding="UTF-8"?>
+
 <AppInstaller 
-    xmlns="http://schemas.microsoft.com/appx/appinstaller/2017"
+    xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2"
     Version= A version string in quad notation, "Major.Minor.Build.Revision".
     Uri= Web Uri to the redirected appinstaller file >
 
@@ -47,12 +50,14 @@ Defines the root element of an appinstaller file. The file describes the structu
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
-| xmlns | The namespace definition of the appinstaller schema | URI as a string between 1 and 2084 characters in length. |  Yes |
+| xmlns | The namespace definition of the appinstaller schema. To take advantage of the latest features the schema has to offer, use http://schemas.microsoft.com/appx/appinstaller/2017/2 on devices using Windows 10, version 1803 or later. On devices that are on Build number greater than Windows 10, version 1709 but less than Windows 10, version 1803, use: http://schemas.microsoft.com/appx/appinstaller/2017 | URI as a string between 1 and 2084 characters in length. |  Yes |
 | Version | The version of appinstaller file |   A version string in quad notation, "Major.Minor.Build.Revision". | Yes |
 | Uri | Web URI to the redirected appinstaller file. When the Uri specified in the field differs from the current file, the deployment operation will redirect to the Uri instead of the current file. The appinstaller file can only be redirected a max of three times. | Web URI as a string between 1 and 2084 characters in length.| Yes |
 
 
 ### Child Elements
+
+Child elements must appear in the specified order
 
 | Child Elements | Description |
 |----------------|-------------|
@@ -69,13 +74,20 @@ This outermost element may not be contained by any other elements.
 
 ## Remarks
 `<AppInstaller>` can have either a `<MainPackage>` or `<MainBundle>` element. The deployment operation will fail if more than one of either are included.
+Only `encoding="UTF-8"` with no escape characters, and no non-ascii characters is accepted.
 
 ## Requirements
 <table>
     <tbody>
         <tr>
             <td>Namespace</td>
-            <td> http://schemas.microsoft.com/appx/appinstaller/2017 </td>
+            <td>Build to use with Windows 10, version 1803 and later</td>
+            <td>http://schemas.microsoft.com/appx/appinstaller/2017/2 </td>
+        </tr>
+        <tr>
+            <td>Namespace</td>
+            <td>Build to use with Windows 10, version 1709</td>
+            <td>http://schemas.microsoft.com/appx/appinstaller/2017 </td>
         </tr>
     </tbody>
 </table>
