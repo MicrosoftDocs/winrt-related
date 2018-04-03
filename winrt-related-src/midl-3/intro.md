@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 > [!NOTE]
 > **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
 
-Microsoft Interface Definition Language (MIDL) 3.0 is a simplified, modern syntax for declaring Windows Runtime types inside Interface Definition Language (`.idl`) files. This new syntax will feel familiar to anyone experienced with C, C++, C#, and/or Java. MIDL 3.0 is a particularly convenient way to declare [C++/WinRT]([C++/WinRT](../cpp-and-winrt-apis/index)) runtime classes. Here's how it looks.
+Microsoft Interface Definition Language (MIDL) 3.0 is a simplified, modern syntax for declaring Windows Runtime types inside Interface Definition Language (`.idl`) files. This new syntax will feel familiar to anyone experienced with C, C++, C#, and/or Java. MIDL 3.0 is a particularly convenient way to declare [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) runtime classes. Here's how it looks.
 
 ```idl
 // booksku.idl
@@ -394,24 +394,33 @@ interfaces implemented by the class. The header is followed by the class
 body, which consists of a list of member declarations written between
 the delimiters { and }.
 
-Here's a declaration of a simple class named **Square**.
+Here's a declaration of a simple class named **Area**.
 
 ```idl
-unsealed runtimeclass Square
+unsealed runtimeclass Area
 {
-	Square (Int32 height, Int32 width);
+	Area(Int32 width, Int32 height);
+
 	Int32 Height;
 	Int32 Width;
-	static Int32 NumberOfSquares { get; };
+	
+  static Int32 NumberOfAreas { get; };
 }
 ```
 
-This declares a new unsealed Windows Runtime class named **Square**,
+This declares a new unsealed Windows Runtime class named **Area**,
 which has a constructor that take two **Int32** parameters, two **Int32**
 read-write properties named **Height** and **Width**, and a static read-only
-property named **NumberOfSquares**.
+property named **NumberOfAreas**.
 
 An *unsealed* class is a class that you can use as a base class. In other words, a subsequent class can derive from an unsealed class. By default, a runtimeclass is sealed and derivation from it is disallowed.
+
+> [!NOTE]
+> For an application to pass [Windows App Certification Kit](/windows/uwp/debug-test-perf/windows-app-certification-kit) tests, and to be successfully ingested into the Microsoft Store, the ultimate base class of each runtime class *declared in the application* must be a type originating in a Windows.* namespace.
+
+In order to bind XAML to a view model, the view model runtime class needs to be declared in MIDL. In a case like that, derive each view model from [**Windows.UI.Xaml.DependencyObject**](/uwp/api/windows.ui.xaml.dependencyobject). Alternatively, declare a bindable base class derived from **DependencyObject**, and derive your view models from that.
+
+You can declare your data models as C++ structs; they don't need to be declared in MIDL (as long as you're consuming them only from your view models and not binding XAML directly to them; in which case they'd arguably be view models by definition, anyway).
 
 ### Accessibility
 As MIDL 3.0 is a declaration language for describing the public surface
@@ -425,9 +434,9 @@ the runtime class declaration with the `static` keyword. Adding a
 non-static member to the class then causes a compilation error.
 
 ```idl
-static runtimeclass Square
+static runtimeclass Area
 {
-	static Int32 NumberOfSquares { get; };
+	static Int32 NumberOfAreas { get; };
 }
 ```
 
@@ -446,14 +455,14 @@ In the next example, the base class of **Volume** is **Area**, and the (implicit
 ```idl
 unsealed runtimeclass Area
 {
-	Area(Int32 x, Int32 y);
+	Area(Int32 width, Int32 height);
 	Int32 Height;
 	Int32 Width;
 }
 
 runtimeclass Volume : Area
 {
-	Volume(Int32 x, Int32 y, Int32 z);
+	Volume(Int32 width, Int32 height, Int32 depth);
 	Int32 Depth;
 }
 ```
@@ -483,19 +492,19 @@ In the example below, the **Area** class implements the [**IStringable**](/uwp/a
 ```idl
 unsealed runtimeclass Area : Windows.Foundation.IStringable
 {
-	Area(Int32 x, Int32 y);
+	Area(Int32 width, Int32 height);
 	Int32 Height;
 	Int32 Width;
 }
 
-runtimeclass Volume : Area, IEquatable
+runtimeclass Volume : Area, Windows.Foundation.IStringable, IEquatable
 {
-	Volume(Int32 x, Int32 y, Int32 z);
+	Volume(Int32 width, Int32 height, Int32 depth);
 	Int32 Depth;
 }
 ```
 
-In the MIDL, you don't declare the interface members on the class. You do, of course, have to declare and define them on the actual implementation.
+In the MIDL, you don't declare the interface's members on the class. You do, of course, have to declare and define them on the actual implementation.
 
 ### Members
 The members of a class are either *static members* or *instance
@@ -678,98 +687,101 @@ runtimeclass Test
 > All methods with the same name must have differing *arity*. The Windows Runtime doesn't support overloading by the same arity but with differing parameter types.
 
 ##### Parameters
-Parameters are used to pass values or variable references to methods.
-The parameters of a method get their actual values from the
+*Parameters* are used to pass values, or variable references, to a method. A *parameter* describes a range of allowable values, and a name. An *argument* is an actual value passed in practice where a parameter is expected.
+
+So, parameters of a method get their actual values from the specific
 *arguments* that are specified when the method is invoked. There are
 four kinds of parameters: value parameters, const reference parameters,
 output parameters, and array parameters.
 
-A *value parameter* is used for input parameter passing. A value
+A *value parameter* is used to pass an input parameter. A value
 parameter gets its initial value from the argument that was passed for
 the parameter. Modifications to a value parameter do not affect the
-argument that was passed for the parameter. Therfore, a value parameter
-is effective a const input parameter.
+argument that was passed for the parameter. So, a value parameter
+is effective a `const` input parameter.
 
 A *const reference parameter* is used for efficient input parameter
 passing of large value types. Methods receive such parameters as a
 reference to the actual value, rather than receiving a copy of the
-actual value. For large value types, it’s more efficient to pass a
-pointer-sized reference to a function than to pass a copy of the actual
-value.
+actual value. For large value types, it's more efficient to pass (to a function) a
+pointer-sized reference to a value than to pass a copy of the actual
+value itself.
 
-A const reference parameter is declared with the const ref modifier. The
-following example shows the use of const ref parameters.
+A const reference parameter is declared with the `const ref` modifier. This example shows the use of `const ref` parameters; a practical choice when accepting a value as large as a [**Matrix4X4**](/uwp/api/windows.foundation.numerics.matrix4x4).
 
-runtimeclass Test\
-{\
-	static void Swap(const ref Matrix4X4 x, const ref Matrix4X4 y);\
+```idl
+runtimeclass Test
+{
+	static void Swap(const ref Matrix4X4 x, const ref Matrix4X4 y);
 }
+```
 
 An *output parameter* is used for output parameter passing. For an
 output parameter, the callee receives a pointer to the location in which
-the value will be returned. An output parameter is declared with the out
-modifier. The following example shows the use of out parameters.
+the value is returned. An output parameter is declared with the `out`
+modifier. The following example shows the use of `out` parameters.
 
-runtimeclass Test\
-{\
-	static void Divide(Int32 x, Int32 y, out Int32 result,\
-out Int32 remainder);
+```idl
+runtimeclass Test
+{
+	static void Divide(Int32 x, Int32 y, out Int32 result, out Int32 remainder);
 }
+```
 
-Note that JavaScript projects a method with multiple out parameters
-differently than most languages. JavaScript will project the preceding
-method as returning a single object, but that object will have two
-properties. The properties will have the names of the out parameters. In
+Note that JavaScript projects a method with multiple `out` parameters
+differently than most languages do. JavaScript projects the preceding
+method as returning a single object; and the returned object has two
+properties. The properties have the names of the `out` parameters. In
 the preceding example, the JavaScript object returned by the method call
-has a property named *result* and another property named
+has a property named *result*, and another property named
 *remainder*.
 
-An *array* is a data structure that contains a number of variables
-that are accessed through computed indices. The variables contained in
-an array, also called the *elements* of the array, are all of the
+An *array* is a data structure that contains a number of variables that are accessed through computed indices. The variables contained in
+an array&mdash;also called the *elements* of the array&mdash;are all of the
 same type, and this type is called the *element type* of the array.
 
-An *array parameter* is a reference type and the declaration
+An *array parameter* is a reference type, and the declaration
 allocates space for a reference to an array instance.
 
-runtimeclass Test\
-{\
-	void PassArray (Int32\[\] values);
-	void FillArray (ref Int32\[\] values);
-	void ReceiveArray (out Int32\[\] values);
+```idl
+runtimeclass Test
+{
+	void PassArray (Int32[] values);
+	void FillArray (ref Int32[] values);
+	void ReceiveArray (out Int32[] values);
 }
+```
 
 MIDL 3.0 supports declarations of a *single-dimensional array*.
 
 ##### Static and instance methods
-A method declared with a static modifier is a *static method*. A
-static method has no access to a specific instance and therefore can
+A method declared with a `static` modifier is a *static method*. A
+static method has no access to a specific instance, and therefore can
 only directly access other static members of the class.
 
-A method declared without a static modifier is an *instance method*.
-An instance method has access to a specific instance and can access both
-static and instance members of the class
+A method declared without a `static` modifier is an *instance method*.
+An instance method has access to a specific instance, and can access both
+static and instance members of the class.
 
-The following Entity class has both static and instance members.
+The following **Entity** class has both static and instance members.
 
-runtimeclass Entity\
-{\
-	Entity();
+```idl
+runtimeclass Entity
+{
 	Int32 SerialNo { get; };
 	static Int32 GetNextSerialNo();
-	static void SetNextSerialNo(Int32 value);\
+	static void SetNextSerialNo(Int32 value);
 }
+```
 
-Each Entity instance contains its own serial number (and presumably some
-other information that is not shown here). The Entity constructor (which
-is like an instance method) initializes the new instance with the next
+Each **Entity** instance contains its own serial number (and presumably some
+other information that is not shown here). Internally, the **Entity** constructor (which is like an instance method) initializes the new instance with the next
 available serial number.
 
-The SerialNo property provide access to the serial number for the
-instance on which you invoke the property get method.
+The **SerialNo** property provides access to the serial number for the
+instance on which you invoke the *property get* method.
 
-The GetNextSerialNo and SetNextSerialNo static methods can access the
-next available serial number static member of the Entity class.
+The **GetNextSerialNo** and **SetNextSerialNo** static methods can access the internal *next available serial number* static member of the **Entity** class.
 
 ##### Protected and override methods
 All methods in a Windows Runtime type are effectively virtual. When a
@@ -778,51 +790,55 @@ which that invocation takes place determines the actual method
 implementation to invoke.
 
 A method can be *overridden* in a derived class. When an instance
-method declaration includes an override modifier, the method overrides
+method declaration includes an `override` modifier, the method overrides
 an inherited virtual method with the same signature. Whereas a method
-declaration *introduces* a new method, an override method declaration
+declaration ordinarily *introduces* a new method, an `override` method declaration
 *specializes* an existing inherited virtual method by providing a new
 implementation of that method.
 
-When an instance method declaration includes a protected modifier, the
-method is only visibile to derived classes.
+When an instance method declaration includes a `protected` modifier, the
+method is only visible to derived classes.
 
 #### Events
 An *event* declaration is a member that specifies that a class is an
-event source that provides notifications to a recipient that implements
-a specific method signature.
+event source. Such an event source provides notifications to any recipient that implements a delegate (a method with a specific signature).
 
-You declare an event using event keyword, followed by the delegate type
-name that describes the required method signature, followed by the name
-of the event.
+You declare an event using the `event` keyword, followed by the delegate type
+name (which describes the required method signature), followed by the name
+of the event. Here's an example event that uses an existing delegate type from the platform.
 
-runtimeclass Square\
+```idl
+runtimeclass Area
 {
-. . .\
-	event SizeChangedHandler Changed;
-. . .
+	...
+	event Windows.UI.Xaml.WindowSizeChangedEventHandler SizeChanged;
+	...
 }
+```
 
-Every event declaration implicitly adds two methods to the class: an add
-method that a client calls to add an event handler to the source, and a
-remove method that a client calls to remove a previously added event
+An event declaration implicitly adds two methods to the class: an *add*
+method, which a client calls to add an event handler to the source, and a
+*remove* method, which a client calls to remove a previously added event
 handler.
 
 ### Delegates
-A *delegate type* represents references to methods with a particular
-parameter list and return type. Delegates make it possible to treat
+A *delegate type* specifies a method with a particular parameter list and return type. A single instance of an event can contain any number of references to instances of its delegate type.
+
+A delegate makes it possible to treat
 methods as entities that can be assigned to variables and passed as
 parameters. Delegates are similar to the concept of function pointers
-found in some other languages, but unlike function pointers, delegates
+found in some other languages. But, unlike function pointers, delegates
 are object-oriented and type-safe.
 
-The following example declares a delegate type named Function.
+If we don't want to use the [**WindowSizeChangedEventHandler**](/uwp/api/windows.ui.xaml.windowsizechangedeventhandler) delegate type from the platform, then we can declare our own delegate type.
 
-delegate void SizeChangedHandler (Object sender, SizeChangedArgs args);
+```idl
+delegate void SizeChangedHandler(Object sender, Windows.UI.Core.WindowSizeChangedEventArgs args);
+```
 
-An instance of the SizeChangedHandler delegate type can reference any
-method that takes two arguments, an Object and a SizeChangedArgs, and
-returns void.
+An instance of our **SizeChangedHandler** delegate type can reference any
+method that takes two arguments (an **Object**, and a [**WindowSizeChangedEventArgs**](/uwp/api/windows.ui.core.windowsizechangedeventargs)), and
+returns void. After we've discussed *structs*, you'll also be able to replace the **WindowSizeChangedEventArgs** parameter with an *event args* type of your own.
 
 An interesting and useful property of a delegate is that it doesn't
 know or care about the class of the method it references; all that
@@ -830,41 +846,42 @@ matters is that the referenced method has the same parameters and return
 type as the delegate.
 
 ### Structs
-*Structs* are data structures that can contain data members, but
-unlike classes, structs are value types
+*Structs* are data structures that can contain data members. But,
+unlike a class, a struct is a value type.
 
 Structs are particularly useful for small data structures that have
-value semantics. Complex numbers, points in a coordinate system, or
+value semantics. Complex numbers, event args, points in a coordinate system, or
 key-value pairs in a dictionary are all good examples of structs. The
 use of structs rather than classes for small data structures can make a
-large difference in the number of memory allocations an application
+large difference in the number of memory allocations that an application
 performs.
 
-Given this declaration of Point as a class
+Let's use an example to contrast classes and structs. Here's a version of **Point** first as a *class*.
 
-runtimeclass Point\
-{\
+```idl
+runtimeclass Point
+{
 	Point(Int32 x, Int32 y);
 	Int32 x;
 	Int32 y;
 }
+```
 
-the following C\# program creates and initializes an array of 100
-points. With Point implemented as a class, 101 separate objects are
-instantiated—one for the array and one each for the 100 elements.
+This C# program creates and initializes an array of 100 instances of **Point**. With **Point** implemented as a class, 101 separate objects are
+instantiated: one for the array object itself; and one for each of the 100 **Point** elements.
 
-```idl
+```csharp
 class Test
 {
-	static void ()
-	{\
-		Point\[\] points = new Point\[100\];\
-		for (Int32 i = 0; i &lt; 100; i++) points\[i\] = new Point(i, i);\
-	}\
+	static Test()
+	{
+		Point[] points = new Point[100];
+		for (Int32 i = 0; i < 100; ++i) points[i] = new Point(i, i);
+	}
 }
 ```
 
-A more performant alternative is to make Point a struct.
+A more performant alternative is to make **Point** a struct, instead of a class.
 
 ```idl
 struct Point
@@ -874,23 +891,22 @@ struct Point
 }
 ```
 
-Now, only one object is instantiated—the one for the array—and the Point
-instances are stored in-line in the array.
+Now, only one object is instantiated&mdash;the array object itself. The **Point** elements are stored in line inside the array; a memory arrangement that processor caches are able to use to powerful effect.
 
 ### Interfaces
 An *interface* defines a contract that can be implemented by
-classes. An interface can contain methods, properties, and events – just
-like classes,
+classes. An interface can contain methods, properties, and events&mdash;just
+like classes.
 
 Unlike a class, an interface doesn't provide implementations of the
-members it defines—it merely specifies the members that must be supplied
-by a class that implements the interface.
+members it defines. It merely specifies the members that must be supplied
+by any class that implements the interface.
 
 Interfaces may *require* a class that implements the interface to
 also implement other interfaces. In the following example, the interface
-IComboBox requires that any class implementing IComboBox, also implement
-both ITextBox and IListBox. Additionally, a class implementing IComboBox
-must also implement IControl and both ITextBox and IListBox require it.
+**IComboBox** requires that any class implementing **IComboBox**, also implement
+both **ITextBox** and **IListBox**. Additionally, a class implementing **IComboBox**
+must also implement **IControl**. That's because both **ITextBox** and **IListBox** require *it*.
 
 ```idl
 interface IControl
@@ -910,123 +926,133 @@ interface IListBox requires IControl
 
 interface IComboBox requires ITextBox, IListBox
 {
+	...
 }
 ```
 
-Classes can implement zero or more interfaces. In the following example,
-the class EditBox implements both IControl and IDataBound.
+A class can implement zero or more interfaces. In the next example,
+the class **EditBox** implements both **IControl** and **IDataBound**.
 
-interface IDataBound\
-{\
-	void Bind(Binder b);\
+```idl
+interface IDataBound
+{
+	void Bind(Binder b);
 }
 
-runtimeclass EditBox : IControl, IDataBound\
-{\
-	void Paint();
-	void Bind(Binder b);\
+runtimeclass EditBox : IControl, IDataBound
+{
 }
+```
 
 ### Enums
 An *enum type* is a distinct value type with a set of named
 constants. The following example declares and uses an enum type named
-Color with three constant values, Red, Green, and Blue.
+**Color** with three constant values: **Red**, **Green**, and **Blue**.
 
+```idl
 enum Color
 {
 	Red,
 	Green,
 	Blue
 }
+```
 
 Each enum type has a corresponding integral type called the
 *underlying type* of the enum type. The underlying type of an enum
-is either Int32 and UInt32.
+is either **Int32** or **UInt32**.
 
-When an enum is a Flags enum, that is, has the \[Flags\] attribute
-applied, the underlying type of the enum is UInt32. When the Flags
-attribute is not present, the underlying type of the enum is Int32.
+When an enum is a *Flags* enum (that is, it has the `[Flags]` attribute
+applied), the underlying type of the enum is **UInt32**. When the `[Flags]` attribute is not present, the underlying type of the enum is **Int32**.
 
-An enum type’s storage format and range of possible values are
+An enum type's storage format and range of possible values are
 determined by its underlying type. The set of values that an enum type
 can take on is not limited by its declared enum members.
 
-The following example declares an enum type named Alignment with an
-underlying type of Int32.
+The following example declares an enum type named **Alignment**, with an
+underlying type of **Int32**.
 
-enum Alignment\
-{\
-	Left = -1,\
-	Center = 0,\
-	Right = 1\
+```idl
+enum Alignment
+{
+	Left = -1,
+	Center = 0,
+	Right = 1
 }
+```
 
 An enum member declaration can include a constant expression that
 specifies the value of the member. The constant value for each enum
 member must be in the range of the underlying type of the enum. When an
 enum member declaration doesn't explicitly specify a value, the member
-is given the value zero (if it is the first member in the enum type) or
+is given the value zero (if it is the first member in the enum type), or
 the value of the textually preceding enum member plus one.
 
-The following example declares an enum type named Permissions with an
-underlying type of UInt32.
+The following example declares an enum type named **Permissions**, with an
+underlying type of **UInt32**.
 
-\[Flags\]\
-enum Permissions\
-{\
-	None = 0x0000,\
-	Camera = 0x0001,\
-	Microphone = 0x0002,\
+```idl
+[Flags]
+enum Permissions
+{
+	None = 0x0000,
+	Camera = 0x0001,
+	Microphone = 0x0002
 }
+```
 
 ### Attributes
 Types, members, and other entities in MIDL 3.0 source code support
 modifiers that control certain aspects of their behavior. For example,
-the accessibility of a method is controlled using the protected
+the accessibility of a method is controlled using the `protected`
 modifier. MIDL 3.0 generalizes this capability such that user-defined
-types of declarative information can be attached to program entities and
+types of declarative information can be attached to program entities, and
 retrieved at run-time from the metadata.
 
 Programs specify this additional declarative information by defining and
 using *attributes*.
 
-The following example declares a HelpAttribute attribute that can be
+The next example declares a **HelpAttribute** attribute, which can be
 placed on program entities to provide links to their associated
 documentation.
 
-attribute HelpAttribute\
-{\
-	HelpAttribute(String url);
-	String Url { get; };
-	String Topic { get; set; };\
-}
-
-Attributes can be applied by giving their name, along with any
-arguments, inside square brackets just before the associated
-declaration. If an attribute’s name ends in Attribute, that part of the
-name can be omitted when the attribute is referenced. For example, the
-HelpAttribute attribute can be used as follows.
-
-\[Help("http://msdn.microsoft.com/.../MyClass.htm")\]\
-runtimeclass Widget\
+```idl
+attribute HelpAttribute
 {
-	[Help("http://msdn.microsoft.com/.../MyClass.htm", Topic = "Display")\]\
-	void Display(String text) {}\
+	HelpAttribute(String classUri);
+	String ClassUri { get; };
+	String MemberTopic { get; set; };
 }
+```
 
-Additionally, you may want to apply the same attribute to multiple
-declarations. You can do that using a scope block following the
-attribute (i.e. an attribute immediately followed by braces surrounding
-the declarations to which the attribute applies).
+An attributes can be applied by giving its name, along with any
+arguments, inside square brackets just before the associated
+declaration. If an attribute's name ends in Attribute, then that part of the
+name can be omitted when the attribute is referenced. For example, the
+**HelpAttribute** attribute can be used like this.
+
+```idl
+[Help("https://docs.contoso.com/.../Widget")]
+runtimeclass Widget
+{
+	[Help("https://docs.contoso.com/.../Widget", MemberTopic="Display")]
+	void Display(String text);
+}
+```
+
+You can apply the same attribute to multiple
+declaration by using a scope block following the
+attribute. That is, an attribute immediately followed by braces surrounding
+the declarations to which the attribute applies.
 
 ```idl
 runtimeclass Widget
 {
-    [CustomAttr()]
-    {
+	[Custom()]
+	{
 		void Display(String text);
-		void Print ();
-		void Rate { get; set; };
+		void Print();
+		Single Rate;
 	}
 }
 ```
