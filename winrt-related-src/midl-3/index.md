@@ -39,3 +39,4 @@ The original [MIDL 1.0](https://msdn.microsoft.com/library/windows/desktop/aa367
 | - | - |
 | [Troubleshooting MIDL 3.0 issues](troubleshooting.md) | A table of troubleshooting symptoms and remedies. |
 | [Introduction to MIDL 3.0](intro.md) | An introduction to Microsoft Interface Definition Language 3.0. |
+| [Synthesizing interfaces (MIDL 3.0)](synth-ifaces.md) | This topic describes how the the MIDL 3.0 compiler synthesizes and adds interfaces, as necessary. |

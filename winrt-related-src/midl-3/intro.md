@@ -394,24 +394,33 @@ interfaces implemented by the class. The header is followed by the class
 body, which consists of a list of member declarations written between
 the delimiters { and }.
 
-Here's a declaration of a simple class named **Square**.
+Here's a declaration of a simple class named **Area**.
 
 ```idl
-unsealed runtimeclass Square
+unsealed runtimeclass Area
 {
-	Square (Int32 height, Int32 width);
+	Area(Int32 width, Int32 height);
+
 	Int32 Height;
 	Int32 Width;
-	static Int32 NumberOfSquares { get; };
+	
+  static Int32 NumberOfAreas { get; };
 }
 ```
 
-This declares a new unsealed Windows Runtime class named **Square**,
+This declares a new unsealed Windows Runtime class named **Area**,
 which has a constructor that take two **Int32** parameters, two **Int32**
 read-write properties named **Height** and **Width**, and a static read-only
-property named **NumberOfSquares**.
+property named **NumberOfAreas**.
 
 An *unsealed* class is a class that you can use as a base class. In other words, a subsequent class can derive from an unsealed class. By default, a runtimeclass is sealed and derivation from it is disallowed.
+
+> [!NOTE]
+> For an application to pass [Windows App Certification Kit](/windows/uwp/debug-test-perf/windows-app-certification-kit) tests, and to be successfully ingested into the Microsoft Store, the ultimate base class of each runtime class *declared in the application* must be a type originating in a Windows.* namespace.
+
+In order to bind XAML to a view model, the view model runtime class needs to be declared in MIDL. In a case like that, derive each view model from [**Windows.UI.Xaml.DependencyObject**](/uwp/api/windows.ui.xaml.dependencyobject). Alternatively, declare a bindable base class derived from **DependencyObject**, and derive your view models from that.
+
+You can declare your data models as C++ structs; they don't need to be declared in MIDL (as long as you're consuming them only from your view models and not binding XAML directly to them; in which case they'd arguably be view models by definition, anyway).
 
 ### Accessibility
 As MIDL 3.0 is a declaration language for describing the public surface
@@ -425,9 +434,9 @@ the runtime class declaration with the `static` keyword. Adding a
 non-static member to the class then causes a compilation error.
 
 ```idl
-static runtimeclass Square
+static runtimeclass Area
 {
-	static Int32 NumberOfSquares { get; };
+	static Int32 NumberOfAreas { get; };
 }
 ```
 
@@ -446,14 +455,14 @@ In the next example, the base class of **Volume** is **Area**, and the (implicit
 ```idl
 unsealed runtimeclass Area
 {
-	Area(Int32 x, Int32 y);
+	Area(Int32 width, Int32 height);
 	Int32 Height;
 	Int32 Width;
 }
 
 runtimeclass Volume : Area
 {
-	Volume(Int32 x, Int32 y, Int32 z);
+	Volume(Int32 width, Int32 height, Int32 depth);
 	Int32 Depth;
 }
 ```
@@ -483,14 +492,14 @@ In the example below, the **Area** class implements the [**IStringable**](/uwp/a
 ```idl
 unsealed runtimeclass Area : Windows.Foundation.IStringable
 {
-	Area(Int32 x, Int32 y);
+	Area(Int32 width, Int32 height);
 	Int32 Height;
 	Int32 Width;
 }
 
 runtimeclass Volume : Area, Windows.Foundation.IStringable, IEquatable
 {
-	Volume(Int32 x, Int32 y, Int32 z);
+	Volume(Int32 width, Int32 height, Int32 depth);
 	Int32 Depth;
 }
 ```

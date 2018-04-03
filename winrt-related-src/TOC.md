@@ -923,6 +923,7 @@
 ## [Microsoft Interface Definition Language 3.0](midl-3/index.md)
 ### [Troubleshooting MIDL 3.0 issues](midl-3/troubleshooting.md)
 ### [Introduction to MIDL 3.0](midl-3/intro.md)
+### [Synthesizing interfaces (MIDL 3.0)](midl-3/synth-ifaces.md)
 ## [Win32 and COM APIs for UWP apps](win32-and-com/win32-and-com-for-uwp-apps.md)
 ### [APIs present on all Windows 10 devices](win32-and-com/win32-apis.md)
 ### [Extension APIs for Windows 10 devices](win32-and-com/win32-extension-apis.md)
