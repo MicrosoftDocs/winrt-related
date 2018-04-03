@@ -29,5 +29,4 @@ The following list summarizes the allowed hierarchies for the App Installer file
         -   [Bundle](element-bundle.md)  
         -   [Package](element-package.md)
     -   [UpdateSettings](element-update-settings.md) 
-        -   [OnLaunch](element-update-settings.md)
-        -   [HoursBetweenUpdateChecks](element-update-settings.md)
+        -   [OnLaunch](element-onlaunch.md)
