@@ -13,7 +13,7 @@ ms.date: 04/05/2017
 ---
 # TargetDeviceFamily (Windows 10)
 
-Identifies the device family that your package targets. For more info about device families, see [Device families overview](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-targetdevicefamily).
+Identifies the device family that your package targets. For more info about device families, see [Device families overview](https://docs.microsoft.com/uwp/extension-sdks/device-families-overview).
 
 ## Element hierarchy
 
@@ -118,8 +118,6 @@ To target the set of APIs known as the "universal device family" (which means yo
 
 **Note**  If you target "Windows.Universal" with both "MinVersion" and "MaxVersionTested" set to version 10.0.0.0, your app will use the versions specified in the Target Min Version and Target Version of the project file, respectively. If you are using "Windows.Universal" with "MinVersion" and "MaxVersionTested" set to a value other than 10.0.0.0, the app will target the specified "MinVersion" and "MaxVersionTested" instead of the values specified in the project file.
 
- 
-
 All child device families "derive" from (that is, they include) the "universal device family" set of APIs. So, a child device family implies "universal plus other child-device-family-specific APIs". When you target a child device family, you don't need to mention universal. In this next example, the app is targeting the set of APIs known as the "mobile device family", and consequently it will run only on devices that implement the mobile device family set of APIs (mobile devices). Replace "Mobile" with "Desktop", "Xbox", "Holographic", "IoT", or "IoTHeadless" for example, if you want to target another device family.
 
 ```XML
@@ -129,8 +127,6 @@ All child device families "derive" from (that is, they include) the "universal d
 ```
 
 **Note**  If the app is targeting a device family other than "Windows.Universal", the "MinVersion" and "MaxVersionTested" must be properly specified for the device family that is targeted.
-
- 
 
 To target the Xbox device family, set the Name attribute to "Windows.Xbox". Note that to target the Xbox device family, the MinVersion must be set to at least 10.0.14393.0.
 
@@ -166,8 +162,6 @@ If you want to target the IoT Core platform, set the Name attribute to "Windows.
 
 **Note**  Currently, apps targeting IoT or IoTHeadless are not valid in the app store and should be used for development purposes only.
 
- 
-
 In this example, the app targets the mobile and desktop device families. Consequently the app can run on mobile devices or on desktop devices, but no others. Note that the app must use adaptive code to call any API that is not in the universal device family set of APIs (unless the API happens to be shared by both device families).
 
 ```XML
@@ -200,10 +194,3 @@ In this last example, the app targets the universal device family (so, by defaul
 </tr>
 </tbody>
 </table>
-
- 
-
- 
-
-
-

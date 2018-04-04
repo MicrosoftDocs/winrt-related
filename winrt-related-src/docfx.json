@@ -16,6 +16,9 @@
     "globalMetadata": {
         "titleSuffix": "UWP app developer",
         "breadcrumb_path":  "/uwp/breadcrumbs/toc.json",
+        "feedback_system": "GitHub",
+        "feedback_github_repo": "MicrosoftDocs/winrt-related",
+        "feedback_product_url": "https://wpdev.uservoice.com/",
         "uhfHeaderId": "MSDocsHeader-WinRT",
         "extendBreadcrumb": true,
 		"searchScope": ["UWP"]
