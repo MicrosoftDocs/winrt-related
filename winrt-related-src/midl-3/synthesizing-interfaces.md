@@ -1,6 +1,6 @@
 ---
 author: stevewhims
-description: This topic describes how the the MIDL 3.0 compiler synthesizes and adds interfaces, as necessary.
+description: This topic describes how the MIDL 3.0 compiler synthesizes and adds interfaces, as necessary.
 title: Synthesizing interfaces (MIDL 3.0)
 ms.author: stwhi
 manager: "markl"
