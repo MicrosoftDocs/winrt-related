@@ -38,24 +38,21 @@ ms.date: 04/10/2018
 ## Syntax
 
 ``` syntax
-<uap6:LoaderSearchPathEntry FolderPath? = A path relative to the package root. Paths cannot contain a leading or trailing slash or backslash. />
+<uap6:LoaderSearchPathEntry FolderPath = A path relative to the package root. Paths cannot contain a leading or trailing slash or backslash. This value can also be an empty string. />
 ```
-
-### Key
-`{}`   specific range of occurrences
 
 ## Attributes and Elements
 
 ### Attributes
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
-| FolderPath | A relative path used specify where to load content from an app package. | A path relative to the package root. Paths cannot contain a leading or trailing slash or backslash. | No |
+| FolderPath | A relative path used specify where to load content from an app package. | A path relative to the package root. Paths cannot contain a leading or trailing slash or backslash. This value can also be an empty string. | Yes |
 
 ### Child Elements
 None.
 
 ## Remarks 
-Note that a **LoaderSearchPathEntry** can contain an empty **FolderPath**, which has a different behavior than omitting the **FolderPath**. If the **FolderPath** is omitted, the default path is the app package root path. Duplicate paths are not permitted.
+Note that a **LoaderSearchPathEntry** can contain an empty **FolderPath**, which has a different behavior than omitting the **LoaderSearchPathEntry**. If the **LoaderSearchPathEntry** is omitted, the default path is the app package root path. Duplicate paths are not permitted.
 
 Main app packages, related set package, optional packages, and framework packages can all declare a **LoaderSearchPathEntry**.
 

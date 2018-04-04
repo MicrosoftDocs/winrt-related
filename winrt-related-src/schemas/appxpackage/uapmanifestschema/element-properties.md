@@ -103,7 +103,7 @@ None.
 </tr>
 <tr class="even">
 <td>[uap6:AllowExecution](element-uap6-allowexecution.md)</td>
-<td><p></p></td>
+<td><p>A boolean value that specifies whether packages with executable are allowed to execute. By default, this value is true.</p></td>
 </tr>
 </tbody>
 </table>

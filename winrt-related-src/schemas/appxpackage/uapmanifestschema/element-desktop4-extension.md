@@ -3,7 +3,7 @@ author: laurenhughes
 title: desktop4:Extension
 description: Declares an extensibility point for the app.
 ms.author: lahugh
-ms.date: 10/10/2017
+ms.date: 04/10/2018
 ms.topic: reference
 ms.prod: windows
 ms.technology: winrt-reference
@@ -52,7 +52,7 @@ Declares an extensibility point for the app.
 ```
 
 ### Key
-`?` optional (zero or one)
+`?` optional (zero or one) 
 
 ## Attributes
 | Attribute | Description | Data type | Required |

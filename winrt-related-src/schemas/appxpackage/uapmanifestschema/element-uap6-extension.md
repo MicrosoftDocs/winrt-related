@@ -3,7 +3,7 @@ author: laurenhughes
 title: uap6:Extension
 description: Declares an extensibility point for the app.
 ms.author: lahugh
-ms.date: 03/07/2017
+ms.date: 04/10/2018
 ms.topic: reference
 ms.prod: windows
 ms.technology: winrt-reference
@@ -48,7 +48,7 @@ Declares an extensibility point for the app.
 
   <!-- Child elements -->
   ( uap6:BarcodeScannerProvider
-  | uap6: )?
+  | uap6:LocalExperiencePack )?
 
 </uap6:Extension>
 ```
@@ -59,7 +59,7 @@ Declares an extensibility point for the app.
 ## Attributes
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
-| Category | The category of the extension. | One of the following:<ul><li>windows.barcodeScannerPreviewProvider</li><li>windows.barcodeScannerProvider</li><li>windows.localExperiencePack</li></ul> | Yes |
+| Category | The category of the extension. | One of the following:<ul><li>windows.barcodeScannerProvider</li><li>windows.localExperiencePack</li></ul> | Yes |
 | Executable | The default launch executable. | A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", &#124;, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | No |
 | EntryPoint | The activatable class ID. | A string between 1 and 256 characters in length, representing the task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |
 | RuntimeType | The runtime provider. This attribute is used typically when there are mixed frameworks in an app. | A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, &#124;, ?, or *. | No |
@@ -70,9 +70,8 @@ Declares an extensibility point for the app.
 
 | Child Element | Description |
 |---------------|-------------|
-| [BarcodeScannerPreviewProvider](element-uap6-barcodescannerpreviewprovider.md) |  |
 | [BarcodeScannerProvider](element-uap6-barcodescannerprovider.md) | Used for enabling the support of a barcode scanner. |  
-| [LocalExperiencePack](element-uap6-localexperiencepack.md) | Specifies the media source and the app service that it exposes. | 
+| [LocalExperiencePack](element-uap6-localexperiencepack.md) | This extension provides a means to deliver translated app resources. | 
 
 
 ## Requirements

@@ -36,7 +36,7 @@ An extension that allows an app developer to declare a path in the app package, 
 <uap6:LoaderSearchPathOverride>
 
   <!-- Child elements -->
-  LoaderSearchPathEntry{1,65535}
+  LoaderSearchPathEntry{0,5}
 
 </uap6:LoaderSearchPathOverride>
 ```

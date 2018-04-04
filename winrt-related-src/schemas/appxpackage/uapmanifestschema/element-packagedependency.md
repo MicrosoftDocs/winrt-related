@@ -88,7 +88,7 @@ Declares a dependency on another package that is marked as a framework package.
 <td></td>
 </tr>
 <tr class="even">
-<td><strong>Optional</strong></td>
+<td><strong>uap6:Optional</strong></td>
 <td><p>Indicates that a framework package dependency is optional for the app, meaning the app can be installed even if the optional framework dependencies are not installed.</p></td>
 <td>Boolean</td>
 <td>No</td>
