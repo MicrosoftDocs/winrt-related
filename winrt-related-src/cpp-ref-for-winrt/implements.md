@@ -5,7 +5,7 @@ title: winrt::implements struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 manager: "markl"
-ms.date: 03/26/2018
+ms.date: 04/10/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"
 ms.prod: windows
@@ -16,9 +16,6 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::implements struct template (C++/WinRT)
-> [!NOTE]
-> **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
 A base struct template that implements one or more Windows Runtime interfaces on behalf of a derived type. For more info about deriving from this type, and examples, see [Interfaces; how to implement them in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/implement-an-interface).
 
 ## Syntax

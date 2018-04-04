@@ -5,7 +5,7 @@ title: winrt::make_self function template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 manager: "markl"
-ms.date: 03/15/2018
+ms.date: 04/10/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"
 ms.prod: windows
@@ -16,9 +16,6 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::make_self function template (C++/WinRT)
-> [!NOTE]
-> **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
 A factory method that returns a [com_ptr](com-ptr.md) to an instance of the implementation type for a runtime class. For an explanation of the implementation type and projected type concepts, see [Implementation and projected types for a C++/WinRT runtime class](/windows/uwp/cpp-and-winrt-apis/ctors-runtimeclass-activation). Also see [make](make.md).
 
 If you're authoring a runtime class then, from within the same compilation unit, you can use **make_self** to construct an instance of the implementation type for the runtime class. Assign the return value from **make_self** to a [com_ptr](com-ptr.md) of your implementation type so that you manage the lifetime of the object appropriately.

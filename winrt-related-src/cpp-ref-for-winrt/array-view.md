@@ -5,7 +5,7 @@ title: winrt::array_view struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 manager: "markl"
-ms.date: 03/01/2018
+ms.date: 04/10/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"
 ms.prod: windows
@@ -16,9 +16,6 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::array_view struct template (C++/WinRT)
-> [!NOTE]
-> **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
 A view, or span, of a contiguous series of values. For more examples and info about **winrt::array_view**, see [Standard C++ data types and C++/WinRT](/windows/uwp/cpp-and-winrt-apis/std-cpp-data-types).
 
 ## Syntax

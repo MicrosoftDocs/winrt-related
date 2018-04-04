@@ -4,7 +4,7 @@ description: A function template that unwraps (or *unboxes*) a scalar value from
 dev_langs: ["C++"]
 ms.author: stwhi
 manager: "markl"
-ms.date: 03/13/2018
+ms.date: 04/10/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"
 ms.prod: windows
@@ -15,9 +15,6 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::unbox_value_or function template (C++/WinRT)
-> [!NOTE]
-> **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
 A function template that unwraps (or *unboxes*) a scalar value from inside a reference class object, with a fallback value, so that it can be processed in a function that expects **IInspectable**. An overload of the function also exists for [**winrt::hstring**](hstring.md). For more details, and code examples, see [Boxing and unboxing scalar values to IInspectable with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/boxing).
 
 ## Syntax

@@ -5,7 +5,7 @@ title: winrt::com_ptr struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 manager: "markl"
-ms.date: 03/15/2018
+ms.date: 04/10/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"
 ms.prod: windows
@@ -16,9 +16,6 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::com_ptr struct template (C++/WinRT)
-> [!NOTE]
-> **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
 A reference-counted COM smart pointer template. **com_ptr** represents a pointer to the interface or runtime class implementation type specified by the template parameter. It automatically manages the reference count for its target through a private raw pointer.
 
 ## Syntax

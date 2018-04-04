@@ -5,7 +5,7 @@ title: winrt::make function template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 manager: "markl"
-ms.date: 03/01/2018
+ms.date: 04/10/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"
 ms.prod: windows
@@ -16,9 +16,6 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::make function template (C++/WinRT)
-> [!NOTE]
-> **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
 A factory method that returns an instance of the projected type for a runtime class when parameterized with the corresponding implementation type. For an explanation of the implementation type and projected type concepts, see [Implementation and projected types for a C++/WinRT runtime class](/windows/uwp/cpp-and-winrt-apis/ctors-runtimeclass-activation). For more details, code, and a walkthrough of calling **make** in practice, see [XAML; binding a control to C++/WinRT properties and collections](/windows/uwp/cpp-and-winrt-apis/binding-prop-collection#add-a-property-of-type-booksku-to-mainpage). Also see [make_self](make-self.md).
 
 ## Syntax

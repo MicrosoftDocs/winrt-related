@@ -5,7 +5,7 @@ title: winrt::com_array struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 manager: "markl"
-ms.date: 03/01/2018
+ms.date: 04/10/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"
 ms.prod: windows
@@ -16,9 +16,6 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::com_array struct template (C++/WinRT)
-> [!NOTE]
-> **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
 A view, or span, of a contiguous series of values for passing to and from WinRT APIs. **winrt::com_array** *is a* **winrt::array_view**, so it's important to see the [winrt::array_view struct template](array-view.md) topic to learn about the members and free operators that are also available to **winrt::com_array**.
 
 ## Syntax
