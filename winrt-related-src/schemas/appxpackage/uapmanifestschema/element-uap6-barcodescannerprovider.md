@@ -56,7 +56,7 @@ Used for enabling the support of a barcode scanner.
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | DisplayName | The barcode scanner provider display name. | A string between 1 and 256 characters in length. | No |
-| SupportsVideoPreview | A brief description of the media source. | Boolean | No |
+| SupportsVideoPreview | Specify true or false to indicate whether video preview is supported. | Boolean | No |
 
 ### Child Elements
 None

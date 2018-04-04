@@ -9,7 +9,7 @@ keywords: windows 10, uwp, schema, package manifest
 ms.prod: windows
 ms.technology: winrt-reference
 ms.topic: reference
-ms.date: 04/05/2017
+ms.date: 04/10/2018
 ---
 
 # PackageDependency (Windows 10)
@@ -35,7 +35,8 @@ Declares a dependency on another package that is marked as a framework package.
 <PackageDependency Name                   = A string between 3 and 50 characters in length that consists of alpha-numeric, period, and dash characters.
                    Publisher              = A string between 1 and 8192 characters in length that fits the regular expression  of a distinguished name : "(CN | L | O | OU | E | C | S | STREET | T | G | I | SN | DC | SERIALNUMBER | Description | PostalCode | POBox | Phone | X21Address | dnQualifier | (OID\.(0 | [1-9][0-9]*)(\.(0 | [1-9][0-9]*))+))=(([^,+="<>#;])+ | ".*")(, ((CN | L | O | OU | E | C | S | STREET | T | G | I | SN | DC | SERIALNUMBER | Description | PostalCode | POBox | Phone | X21Address | dnQualifier | (OID\.(0 | [1-9][0-9]*)(\.(0 | [1-9][0-9]*))+))=(([^,+="<>#;])+ | ".*")))*". Further, semantic validation ensures that the string is compliant with CertNameToStr Windows API implementation of X.500 rules.
                    MinVersion             = A version string in quad notation, "Major.Minor.Build.Revision".
-                   MaxMajorVersionTested? = unsignedShort />
+                   MaxMajorVersionTested? = unsignedShort
+                   uap6:Optional? = Boolean />
 ```
 
 ### Key
@@ -87,6 +88,13 @@ Declares a dependency on another package that is marked as a framework package.
 <td></td>
 </tr>
 <tr class="even">
+<td><strong>Optional</strong></td>
+<td><p>Indicates that a framework package dependency is optional for the app, meaning the app can be installed even if the optional framework dependencies are not installed.</p></td>
+<td>Boolean</td>
+<td>No</td>
+<td>False</td>
+</tr>
+<tr class="odd">
 <td><strong>Publisher</strong></td>
 <td><p>The publisher as it appears in the <strong>Publisher</strong> attribute of the [<strong>Identity</strong>](element-identity.md) element of the dependency package.</p></td>
 <td>A string between 1 and 8192 characters in length that fits the regular expression of a distinguished name : &quot;(CN | L | O | OU | E | C | S | STREET | T | G | I | SN | DC | SERIALNUMBER | Description | PostalCode | POBox | Phone | X21Address | dnQualifier | (OID\.(0 | [1-9][0-9]*)(\.(0 | [1-9][0-9]*))+))=(([^,+=&quot;&lt;&gt;#;])+ | &quot;.*&quot;)(, ((CN | L | O | OU | E | C | S | STREET | T | G | I | SN | DC | SERIALNUMBER | Description | PostalCode | POBox | Phone | X21Address | dnQualifier | (OID\.(0 | [1-9][0-9]*)(\.(0 | [1-9][0-9]*))+))=(([^,+=&quot;&lt;&gt;#;])+ | &quot;.*&quot;)))*&quot;. Further, semantic validation ensures that the string is compliant with CertNameToStr Windows API implementation of X.500 rules.</td>

@@ -59,7 +59,8 @@ The media codec input type.
 
 ## Syntax
 ```syntax
-<uap4:InputType SubType = Either a 4 character code or a GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. >                 
+<uap4:InputType SubType            = Either a 4 character code or a GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. 
+                uap6:CodecMimeType = />                 
 ```
 
 
@@ -67,6 +68,7 @@ The media codec input type.
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | SubType | Either a GUID or a format type of the codec. | Either a 4 character code or a GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |
+| uap6:CodecMimeType |  |  |  |
 
 
 ## Requirements

@@ -65,7 +65,7 @@ uap6:SpatialBoundingBox?
 ### Child Elements
 | Child Element | Description |
 |---------------|-------------|
-| [SpatialBoundingBox](element-uap6-spatialboundingbox.md) |  |
+| [SpatialBoundingBox](element-uap6-spatialboundingbox.md) | Used to define the center point and the extents for a bounding volume. |
 
 
 ## Requirements
