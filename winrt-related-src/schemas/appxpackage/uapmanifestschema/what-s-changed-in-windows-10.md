@@ -20,7 +20,7 @@ This topic lists changes to the package manifest schema reference for each versi
 
 The following sections list the namespaces and XML prefixes added to the package manifest schema in each update of Windows 10. To get the latest version of Windows 10, see [Download Windows 10](https://www.microsoft.com/software-download/windows10).
 
-## Windows 10, the next major update - Build XXXXX.XX, Version 1803
+## Windows 10, Build 17133, Version 1803
 ### Added namespaces and XML prefixes
 | Prefix   | Namespace | 
 |----------|-----------|

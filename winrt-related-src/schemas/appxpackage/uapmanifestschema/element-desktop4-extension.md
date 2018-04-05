@@ -68,7 +68,7 @@ Declares an extensibility point for the app.
 
 | Child Element | Description |
 |---------------|-------------|
-| [desktop4:FileExplorerContextMenus](element-desktop4-fileexplorercontextmenus.md) |  |  
+| [desktop4:FileExplorerContextMenus](element-desktop4-fileexplorercontextmenus.md) | Registers items for the context menu of File Explorer. |  
 
 ## Requirements
 

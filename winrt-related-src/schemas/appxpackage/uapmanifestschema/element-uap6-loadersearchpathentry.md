@@ -11,7 +11,7 @@ ms.date: 04/10/2018
 ---
 
 # uap6:LoaderSearchPathEntry
-
+A path in the app package, relative to the app package root path, to be included in the loader search path for the app's processes.
 
 ## Element hierarchy
 

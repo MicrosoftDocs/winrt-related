@@ -10,7 +10,7 @@ ms.technology: winrt-reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 
-# desktop4:ItemType
+# desktop4:Verb
 
 ## Description
 Names and class IDs of the commands registered in the Shell for a file explorer context menu.
