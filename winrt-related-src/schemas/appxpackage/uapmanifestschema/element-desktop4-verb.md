@@ -65,6 +65,9 @@ Names and class IDs of the commands registered in the Shell for a file explorer 
 ## Child Elements
 None.
 
+## See Also
+[Creating a Shell Extension Handler](https://msdn.microsoft.com/library/windows/desktop/cc144067.aspx)
+
 ## Requirements
 
 <table>

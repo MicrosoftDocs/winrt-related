@@ -29,15 +29,14 @@ Declares an extensibility point for the app.
 
 ## Syntax
 ```syntax
-<rescap4:Extension Category       = "windows.classicAppCompatKeys" | "windows.primaryInteropAssemblies" 
+<rescap4:Extension Category       = "windows.classicAppCompatKeys"
                    Executable?    = A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used.
                    EntryPoint?    = A string between 1 and 256 characters in length, representing the  task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead.
                    RuntimeType?   = A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *.
                    StartPage?     = A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *. >
 
   <!-- Child elements -->
-  ( rescap4:ClassicAppCompatKeys |
-    rescap4:PrimaryInteropAssemblies)? 
+  rescap4:ClassicAppCompatKeys? 
 
 </rescap4:Extension>
 ```
@@ -59,11 +58,7 @@ Declares an extensibility point for the app.
 
 | Child Element | Description |
 |---------------|-------------|
-| [ClassicAppCompatKeys](element-rescap4-ClassicAppCompatKeys.md) |  |
-| [PrimaryInteropAssemblies](element-rescap4-primaryInteropAssemblies.md) |  |   
-
-## Remarks
-
+| [ClassicAppCompatKeys](element-rescap4-ClassicAppCompatKeys.md) | Contains registry keys for discovering classic app installations and launching executables. |
 
 ## Requirements
 

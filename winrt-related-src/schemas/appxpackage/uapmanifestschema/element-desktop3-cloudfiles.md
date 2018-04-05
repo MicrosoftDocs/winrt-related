@@ -51,7 +51,8 @@ Registration for the handlers implemented in an application and context menu opt
     desktop3:ThumbnailProviderHandler, 
     desktop3:ExtendedPropertyHandler,
     desktop3:BannersHandler,
-    desktop3:CloudFilesContextMenus )
+    desktop3:CloudFilesContextMenus,
+    desktop4:ContentUriSource )
     
 </desktop3:CloudFiles>
 ```
@@ -69,7 +70,8 @@ Registration for the handlers implemented in an application and context menu opt
 | [desktop3:ThumbnailProviderHandler](element-desktop3-ThumbnailProviderHandler.md) | Registration of a Windows Shell ThumbnailProviderHandler for cloud based placeholder files. |  
 | [desktop3:ExtendedPropertyHandler](element-desktop3-ExtendedPropertyHandler.md) | Registration of a Windows Shell ExtendedPropertyHandler for cloud based placeholder files. |  
 | [desktop3:BannersHandler](element-desktop3-BannersHandler.md) | Registration of a Windows Shell BannersHandler for cloud based placeholder files. |  
-| [desktop3:CloudFilesContextMenus](element-desktop3-CloudFilesContextMenus.md) | Registration of a context menu for a cloud based placeholder file. |  
+| [desktop3:CloudFilesContextMenus](element-desktop3-CloudFilesContextMenus.md) | Registration of a context menu for a cloud based placeholder file. |
+| [desktop4:ContentUriSource](element-desktop4-contenturisource.md) | Registration of a Windows Shell ContentUriSource enabling cloud storage providers to provide a file ID for a given local path. |  
 
 ## See also
 [Creating Shell Extension Handlers](https://msdn.microsoft.com/library/windows/desktop/cc144067(v=vs.85).aspx)
