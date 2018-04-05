@@ -41,6 +41,7 @@ Defines additional metadata about the package including attributes that describe
   & Logo
   & ResourcePackage?
   & uap:SupportedUsers?
+  & uap6:AllowExecution?
   )
 
 </Properties>
@@ -99,6 +100,10 @@ None.
 <tr class="odd">
 <td>[uap:SupportedUsers](element-uap-supportedusers.md)</td>
 <td><p>Indicates whether or not the package is multi-user aware. This setting is used at install time to determine whether the package can be installed on the system.</p></td>
+</tr>
+<tr class="even">
+<td>[uap6:AllowExecution](element-uap6-allowexecution.md)</td>
+<td><p>A boolean value that specifies whether packages with executable are allowed to execute. By default, this value is true.</p></td>
 </tr>
 </tbody>
 </table>

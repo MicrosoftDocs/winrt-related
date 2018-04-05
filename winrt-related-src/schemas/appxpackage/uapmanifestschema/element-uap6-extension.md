@@ -1,17 +1,16 @@
 ---
 author: laurenhughes
-ms.assetid: d90b7275-21bd-46c7-89a7-c832a95186c6
-title: rescap3:Extension
+title: uap6:Extension
 description: Declares an extensibility point for the app.
 ms.author: lahugh
 ms.date: 04/10/2018
 ms.topic: reference
 ms.prod: windows
 ms.technology: winrt-reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, extension 
 ---
 
-# rescap3:Extension
+# uap6:Extension
 
 ## Description
 Declares an extensibility point for the app.
@@ -28,7 +27,7 @@ Declares an extensibility point for the app.
 <dd>
 <dl>
 <dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd><b>&lt;rescap3:Extension&gt;</b></dd>
+<dd><b>&lt;uap6:Extension&gt;</b></dd>
 </dl>
 </dd>
 </dl>
@@ -40,16 +39,18 @@ Declares an extensibility point for the app.
 
 ## Syntax
 ```syntax
-<rescap3:Extension Category       = "windows.desktopAppMigration" | "windows.lockScreenComponent" 
+<uap6:Extension Category       = "windows.barcodeScannerProvider" | "windows.localExperiencePack"
                    Executable?    = A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used.
                    EntryPoint?    = A string between 1 and 256 characters in length, representing the  task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead.
                    RuntimeType?   = A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *.
-                   StartPage?     = A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *. >
+                   StartPage?     = A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *. 
+                   ResourceGroup? = An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. >
 
   <!-- Child elements -->
-  ( rescap3:DesktopAppMigration | 
-    rescap3:LockScreenComponent )?
-</rescap3:Extension>
+  ( uap6:BarcodeScannerProvider
+  | uap6:LocalExperiencePack )?
+
+</uap6:Extension>
 ```
 
 ### Key
@@ -58,7 +59,7 @@ Declares an extensibility point for the app.
 ## Attributes
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
-| Category | The category of the extension. | One of the following: windows.desktopAppMigration, windows.lockScreenComponent | Yes |
+| Category | The category of the extension. | One of the following:<ul><li>windows.barcodeScannerProvider</li><li>windows.localExperiencePack</li></ul> | Yes |
 | Executable | The default launch executable. | A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", &#124;, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | No |
 | EntryPoint | The activatable class ID. | A string between 1 and 256 characters in length, representing the task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |
 | RuntimeType | The runtime provider. This attribute is used typically when there are mixed frameworks in an app. | A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, &#124;, ?, or *. | No |
@@ -69,10 +70,9 @@ Declares an extensibility point for the app.
 
 | Child Element | Description |
 |---------------|-------------|
-| [DesktopAppMigration](element-rescap3-desktopappmigration.md) | Specifies where to redirect user tiles and pins to a Windows Desktop Bridge app. |   
+| [BarcodeScannerProvider](element-uap6-barcodescannerprovider.md) | Used for enabling the support of a barcode scanner. |  
+| [LocalExperiencePack](element-uap6-localexperiencepack.md) | This extension provides a means to deliver translated app resources. | 
 
-## Remarks
-**windows.lockScreenComponent** is an empty extension declaration that supports hosting UWP apps inside the welcome screen.
 
 ## Requirements
 
@@ -84,7 +84,7 @@ Declares an extensibility point for the app.
 <tbody>
 <tr class="odd">
 <td><p>Namespace</p></td>
-<td><p>http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/3</p></td>
+<td><p>http://schemas.microsoft.com/appx/manifest/uap/windows10/6</p></td>
 </tr>
 </tbody>
 </table>

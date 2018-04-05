@@ -9,7 +9,7 @@ keywords: windows 10, uwp, schema, package manifest
 ms.prod: windows
 ms.technology: winrt-reference
 ms.topic: reference
-ms.date: 04/05/2017
+ms.date: 04/10/2018
 ---
 
 # Element Hierarchy
@@ -28,6 +28,7 @@ The following list summarizes the allowed hierarchies for this schema, starting 
         -   [**Logo**](element-logo.md)
         -   [**ResourcePackage**](element-resourcepackage.md)
         -   [**uap:SupportedUsers**](element-uap-supportedusers.md)
+        -   [**uap6:AllowExecution**](element-uap6-allowexecution.md)
     -   [**Resources**](element-resources.md)
         -   [**Resource**](element-resource.md)
     -   [**Dependencies**](element-dependencies.md)
@@ -40,6 +41,7 @@ The following list summarizes the allowed hierarchies for this schema, starting 
         -   [**uap:Capability**](element-uap-capability.md)
         -   [**uap3:Capability**](element-uap3-capability-manual.md)
         -   [**uap4:CustomCapability**](element-uap4-customcapability.md)
+        -   [**uap6:Capability**](element-uap6-capability.md)
         -   [**DeviceCapability**](element-devicecapability.md)
             -   [**Device**](element-device.md)
                 -   [**Function**](element-function.md)
@@ -81,6 +83,8 @@ The following list summarizes the allowed hierarchies for this schema, starting 
                 -   [**SelectionCriteria**](element-selectioncriteria.md)
             -   [**PublisherCacheFolders**](element-publishercachefolders.md)
                 -   [**Folder**](element-folder.md)
+            -   [**uap6:LoaderSearchPathOverride**](element-uap6-LoaderSearchPathOverride.md)
+                -   [**uap6:LoaderSearchPathEntry**](element-uap6-LoaderSearchPathEntry.md)
     -   [**Applications**](element-applications.md)
         -   [**Application**](element-application.md)
             -   [**uap:VisualElements**](element-uap-visualelements.md)
@@ -89,6 +93,7 @@ The following list summarizes the allowed hierarchies for this schema, starting 
                     -   [**uap:ShowNameOnTiles**](element-uap-shownameontiles.md)
                         -   [**uap:ShowOn**](element-uap-showon.md)
                     -   [**uap5:MixedRealityModel**](element-uap5-mixedrealitymodel.md)
+                        -   [**uap6:SpatialBoundingBox**](element-uap6-SpatialBoundingBox.md)
                 -   [**uap:LockScreen**](element-uap-lockscreen.md)
                 -   [**uap:SplashScreen**](element-uap-splashscreen.md)
                 -   [**uap:InitialRotationPreference**](element-uap-initialrotationpreference.md)
@@ -165,10 +170,20 @@ The following list summarizes the allowed hierarchies for this schema, starting 
                         -   [**desktop3:BannersHandler**](element-desktop3-BannersHandler.md)
                         -   [**desktop3:CloudFilesContextMenus**](element-desktop3-CloudFilesContextMenus.md)
                             -   [**desktop3:Verb**](element-desktop3-verb.md)
+                        -   [**desktop4:ContentUriSource**](element-desktop4-ContentUriSource.md)
+                        -   [**desktop4:DesktopIconOverlayHandlers**](element-desktop4-DesktopIconOverlayHandlers.md)
+                            -   [**desktop4:DesktopIconOverlayHandler**](element-desktop4-DesktopIconOverlayHandler.md)
+                -   [**desktop4:Extension**](element-desktop4-extension.md)
+                    -   [**desktop4:FileExplorerContextMenus**](element-desktop4-fileexplorercontextmenus.md)
+                        -   [**desktop4:ItemType**](element-desktop4-itemtype.md)
+                            -   [**desktop4:Verb**](element-desktop4-verb.md)
                 -   [**rescap2:Extension**](element-rescap2-extension-manual.md)
                 -   [**rescap3:Extension**](element-rescap3-extension.md)
                     -   [**rescap3:DesktopAppMigration**](element-rescap3-desktopappmigration.md)
                         -   [**rescap3:DesktopApp**](element-rescap3-desktopapp.md)
+                -   [**rescap4:Extension**](element-rescap4-extension.md)
+                    -   [**rescap4:ClassicAppCompatKeys**](element-rescap4-ClassicAppCompatKeys.md)
+                        -   [**rescap4:ClassicAppCompatKey**](element-rescap4-ClassicAppCompatKey.md)
                 -   [**serverpreview:Extension**](element-serverpreview-extension-manual.md)
                     -   [**serverpreview:IisModules**](element-serverpreview-iismodules-manual.md)
                         -   [**serverpreview:IisModule**](element-serverpreview-iismodule-manual.md)
@@ -291,6 +306,9 @@ The following list summarizes the allowed hierarchies for this schema, starting 
                     -   [**uap5:StartupTask**](element-uap5-StartupTask.md)
                     -   [**uap5:AppExecutionAlias**](element-uap5-AppExecutionAlias.md)
                         -   [**uap5:ExecutionAlias**](element-uap5-executionalias.md)
+                -   [**uap6:Extension**](element-uap6-extension.md)
+                    - [**uap6:BarcodeScannerProvider**](element-uap6-barcodescannerprovider.md)
+                    - [**uap6:LocalExperiencePack**](element-uap6-localexperiencepack.md)
  
 
  

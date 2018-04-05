@@ -11,7 +11,7 @@ keywords: windows 10, uwp, schema, package manifest
 ms.prod: windows
 ms.technology: winrt-reference
 ms.topic: reference
-ms.date: 08/10/2017
+ms.date: 03/07/2017
 ---
 
 # What's different in Windows 10
@@ -20,39 +20,48 @@ This topic lists changes to the package manifest schema reference for each versi
 
 The following sections list the namespaces and XML prefixes added to the package manifest schema in each update of Windows 10. To get the latest version of Windows 10, see [Download Windows 10](https://www.microsoft.com/software-download/windows10).
 
+## Windows 10, Build 17133, Version 1803
+### Added namespaces and XML prefixes
+| Prefix   | Namespace | 
+|----------|-----------|
+| uap6     | http://schemas.microsoft.com/appx/manifest/uap/windows10/6 | 
+| desktop4 | http://schemas.microsoft.com/appx/manifest/desktop/windows10/4 |
+| rescap4  | http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/4 | 
+
+
 ## Windows 10, Fall Creators Update - Build 16299.15, Version 1709
 ### Added namespaces and XML prefixes 
 | Prefix   | Namespace | 
 |----------|-----------|
-| uap5     | http://schemas.microsoft.com/appx/manifest/uap/windows10/5 |
 | com2     | http://schemas.microsoft.com/appx/manifest/com/windows10/2 |
 | desktop3 | http://schemas.microsoft.com/appx/manifest/desktop/windows10/3 |
-
+| uap5     | http://schemas.microsoft.com/appx/manifest/uap/windows10/5 |
 
 ## Windows 10, Creators Update - Build 15063, Version 1703
 ### Added namespaces and XML prefixes 
 | Prefix   | Namespace | 
 |----------|-----------|
-| uap4     | http://schemas.microsoft.com/appx/manifest/uap/windows10/4 |
 | com      | http://schemas.microsoft.com/appx/manifest/com/windows10 |
 | desktop2 | http://schemas.microsoft.com/appx/manifest/desktop/windows10/2 |
 | rescap3  | http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/3 |
+| uap4     | http://schemas.microsoft.com/appx/manifest/uap/windows10/4 |
 
 
 ## Windows 10, Anniversary Update - Build 14393, Version 1607
 ### Added namespaces and XML prefixes 
 | Prefix  | Namespace | 
 |---------|-----------|
-| uap3    | http://schemas.microsoft.com/appx/manifest/uap/windows10/3 |
 | desktop | http://schemas.microsoft.com/appx/manifest/desktop/windows10 |
 | rescap2 | http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/2 |
+| uap3    | http://schemas.microsoft.com/appx/manifest/uap/windows10/3 |
+
 
 ## Windows 10, November Update - Build 10586, Version 1511
 ### Added namespaces and XML prefixes 
 | Prefix   | Namespace | 
 |----------|-----------|
-| uap2     | http://schemas.microsoft.com/appx/manifest/uap/windows10/2 |
 | f2       | http://schemas.microsoft.com/appx/manifest/foundation/windows10/2 |
+| uap2     | http://schemas.microsoft.com/appx/manifest/uap/windows10/2 |
 
 
 ## Windows 10 - Build 10240, Version 1507

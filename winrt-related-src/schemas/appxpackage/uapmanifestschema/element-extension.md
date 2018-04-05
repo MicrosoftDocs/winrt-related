@@ -9,7 +9,7 @@ keywords: windows 10, uwp, schema, package manifest
 ms.prod: windows
 ms.technology: winrt-reference
 ms.topic: reference
-ms.date: 04/05/2017
+ms.date: 04/10/2018
 ---
 
 # Extension (in Package/Extensions) (Windows 10)
@@ -32,7 +32,7 @@ Declares an extensibility point for the package.
 ## Syntax
 
 ``` syntax
-<Extension Category = "windows.activatableClass.inProcessServer" | "windows.activatableClass.outOfProcessServer" | "windows.activatableClass.proxyStub" | "windows.certificates" | "windows.publisherCacheFolders" | "windows.comInterface">
+<Extension Category = "windows.activatableClass.inProcessServer" | "windows.activatableClass.outOfProcessServer" | "windows.activatableClass.proxyStub" | "windows.certificates" | "windows.publisherCacheFolders" | "windows.comInterface" | "windows.loaderSearchPathOverride">
 
   <!-- Child elements -->
   ( InProcessServer
@@ -41,6 +41,7 @@ Declares an extensibility point for the package.
   | Certificates
   | PublisherCacheFolders
   | com:ComInterface
+  | uap6:LoaderSearchPathOverride
   )
 
 </Extension>
@@ -80,6 +81,7 @@ Declares an extensibility point for the package.
 <li>windows.certificates</li>
 <li>windows.publisherCacheFolders</li>
 <li>windows.comInterface</li>
+<li>windows.loaderSearchPathOverride</li>
 </ul></td>
 <td>Yes</td>
 <td></td>
@@ -126,6 +128,10 @@ Declares an extensibility point for the package.
 <tr class="even">
 <td>[com:ComInterface](element-com-package-interface.md)</td>
 <td><p>Declares a package extension point of type <strong>windows.comInterface.</strong></p></td>
+</tr>
+<tr class="odd">
+<td>[uap6:LoaderSearchPathOverride](element-uap6-LoaderSearchPathOverride.md)</td>
+<td><p>Declares a package extension point of type <strong>windows.loaderSearchPathOverride.</strong></p></td>
 </tr>
 </tbody>
 </table>
