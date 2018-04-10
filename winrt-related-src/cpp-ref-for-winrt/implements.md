@@ -21,7 +21,7 @@ A base struct template that implements one or more Windows Runtime interfaces on
 ## Syntax
 ```cppwinrt
 template <typename D, typename... I>
-struct implements : impl::producer<D, impl::uncloak_t<I>>..., impl::base_implements<D, I...>::type
+struct implements : impl::producer<D, impl::uncloak_t<I>>...,impl::base_implements<D, I...>::type
 ```
 
 ### Template parameters
@@ -46,11 +46,11 @@ struct App : implements<App, IFrameworkViewSource>
 ```
 
 ## Requirements
-**Minimum supported SDK:** Windows SDK for Windows 10, version 1803
+**Minimum supported SDK:** Windows SDK version 10.0.17133.0 (Windows 10, version 1803)
 
 **Namespace:** winrt
 
-**Header** %ProgramFiles(x86)%\Windows Kits\10\Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## Member functions
 |Function|Description|
@@ -60,6 +60,13 @@ struct App : implements<App, IFrameworkViewSource>
 |[implements::get_local_iids function](#implementsgetlocaliids-function)|Retrieves a two-element tuple containing the identifiers of the interfaces that are implemented by the **implements** object.|
 |[implements::QueryInterface function](#implementsqueryinterface-function)|Retrieves the pointer to the interface implemented by the **implements** object, identified by the specified identifier; calls **AddRef**.|
 |[implements::Release function](#implementsrelease-function)|Decrements the reference count for the default interface of the **implements** object.|
+
+## Protected member functions
+|Function|Description|
+|------------|-----------------|
+|[implements::get_strong function](#implementsgetstrong-function)|Retrieves a strong reference to the **implements** object's *this* pointer.|
+|[implements::get_weak function](#implementsgetweak-function)|Retrieves a weak reference to the **implements** object's *this* pointer.|
+|[implements::static_lifetime function](#implementsstaticlifetime-function)|Configures the **implements** object to have static lifetime.|
 
 ## Member operators
 |Operator|Description| 
@@ -99,6 +106,30 @@ std::pair<uint32_t, const GUID*> get_local_iids() const noexcept override
 ### Return value 
 A two-element tuple containing the identifiers of the interfaces that are implemented by the **implements** object
 
+## implements::get_strong function
+Retrieves a strong reference to the **implements** object's *this* pointer.
+
+### Syntax
+```cppwinrt
+protected:
+	com_ptr<D> get_strong() noexcept
+```
+
+### Return value 
+A strong reference to the **implements** object's *this* pointer.
+
+## implements::get_weak function
+Retrieves a weak reference to the **implements** object's *this* pointer. See [Weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references).
+
+### Syntax
+```cppwinrt
+protected:
+	weak_ref<D> get_weak() noexcept
+```
+
+### Return value 
+A [**weak_ref**](weak-ref.md) object representing a weak reference to the **implements** object's *this* pointer.
+
 ## implements::QueryInterface function
 Retrieves the pointer to the interface implemented by the **implements** object, identified by the specified identifier. Calls **AddRef** on the pointer that it returns.
 
@@ -121,6 +152,15 @@ unsigned long __stdcall Release() noexcept
 ### Return value 
 The new reference count. This value is intended to be used only for test purposes.
 
+## implements::static_lifetime function
+Configures the **implements** object to have static lifetime.
+
+### Syntax
+```cppwinrt
+protected:
+	void static_lifetime()
+```
+
 ## implements::operator Windows::Foundation::IInspectable
 Converts the **implements** object to a **Windows::Foundation::IInspectable**. This operators allows you to pass the **implements** object to a function that expects an **IInspectable**.
 
@@ -133,4 +173,7 @@ operator Windows::Foundation::IInspectable() const noexcept
 The **implements** object converted to a **Windows::Foundation::IInspectable**.
 
 ## See also 
-[winrt namespace (C++/WinRT)](winrt.md)
+* [winrt namespace (C++/WinRT)](winrt.md)
+* [winrt::weak_ref struct template](weak-ref.md)
+* [Interfaces; how to implement them in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/implement-an-interface)
+* [Weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references)

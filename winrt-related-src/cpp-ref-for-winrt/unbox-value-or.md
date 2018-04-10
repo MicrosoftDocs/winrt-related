@@ -41,12 +41,14 @@ A reference class object containing a boxed value.
 The scalar value contained inside the reference class object, or *default_value* if unboxing to the specified value type is not possible.
 
 ## Requirements
-**Minimum supported SDK:** Windows SDK for Windows 10, version 1803
+**Minimum supported SDK:** Windows SDK version 10.0.17133.0 (Windows 10, version 1803)
 
 **Namespace:** winrt
 
-**Header** %ProgramFiles(x86)%\Windows Kits\10\Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## See also 
 * [winrt namespace (C++/WinRT)](winrt.md)
+* [winrt::box_value function template](box-value.md)
+* [winrt::unbox_value function template](unbox-value.md)
 * [Boxing and unboxing scalar values to IInspectable with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/boxing)

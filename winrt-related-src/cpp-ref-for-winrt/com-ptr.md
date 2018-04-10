@@ -29,29 +29,29 @@ struct com_ptr
 The interface, or runtime class implementation type, a pointer to which is represented by the **com_ptr**. This is the type of the smart pointer's target.
 
 ## Requirements
-**Minimum supported SDK:** Windows SDK for Windows 10, version 1803
+**Minimum supported SDK:** Windows SDK version 10.0.17133.0 (Windows 10, version 1803)
 
 **Namespace:** winrt
 
-**Header** %ProgramFiles(x86)%\Windows Kits\10\Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[com_ptr::com_ptr constructor](#comarraycomarray-constructor)|Initializes a new instance of the **com_ptr** struct, optionally with a copy or move of the input data.|
+|[com_ptr::com_ptr constructor](#comptrcomptr-constructor)|Initializes a new instance of the **com_ptr** struct, optionally with a copy or move of the input data.|
 
 ## Member functions
 |Function|Description|
 |------------|-----------------|
-|[com_ptr::as function](#comarrayas-function)|Returns the requested interface, if it is supported. Throws if it is not.|
-|[com_ptr::attach function](#comarrayattach-function)|Attaches to a raw pointer that owns a reference to its target; an additional reference is not added.|
-|[com_ptr::copy_from function](#comarraycopyfrom-function)|Copies from another pointer. Decrements the reference count on any currently referenced interface or object, copies the raw pointer parameter, and begins managing the lifetime of the interface or object pointed to by it.|
-|[com_ptr::copy_to function](#comarraycopyto-function)|Copies to another pointer. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter.|
-|[com_ptr::detach function](#comarraydetach-function)|Detaches from the referenced interface or object without decrementing the reference count, perhaps to return it to a caller.|
-|[com_ptr::get function](#comarrayget-function)|Returns the underlying raw pointer should you need to pass it to a function.|
-|[com_ptr::put function](#comarrayput-function)|Returns the address of the underlying raw pointer; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer.|
-|[com_ptr::put_void function](#comarrayputvoid-function)|Returns the address of the underlying raw pointer as a pointer to a pointer to **void**; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer to **void**.|
-|[com_ptr::try_as function](#comarraytryas-function)|Returns the requested interface, if it is supported. Returns `null`, or `false`, if it is not.|
+|[com_ptr::as function](#comptras-function)|Returns the requested interface, if it is supported. Throws if it is not.|
+|[com_ptr::attach function](#comptrattach-function)|Attaches to a raw pointer that owns a reference to its target; an additional reference is not added.|
+|[com_ptr::copy_from function](#comptrcopyfrom-function)|Copies from another pointer. Decrements the reference count on any currently referenced interface or object, copies the raw pointer parameter, and begins managing the lifetime of the interface or object pointed to by it.|
+|[com_ptr::copy_to function](#comptrcopyto-function)|Copies to another pointer. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter.|
+|[com_ptr::detach function](#comptrdetach-function)|Detaches from the referenced interface or object without decrementing the reference count, perhaps to return it to a caller.|
+|[com_ptr::get function](#comptrget-function)|Returns the underlying raw pointer should you need to pass it to a function.|
+|[com_ptr::put function](#comptrput-function)|Returns the address of the underlying raw pointer; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer.|
+|[com_ptr::put_void function](#comptrputvoid-function)|Returns the address of the underlying raw pointer as a pointer to a pointer to **void**; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer to **void**.|
+|[com_ptr::try_as function](#comptrtryas-function)|Returns the requested interface, if it is supported. Returns `null`, or `false`, if it is not.|
 
 ## Member operators
 |Operator|Description|

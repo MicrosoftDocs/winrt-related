@@ -24,6 +24,38 @@ template <typename T, typename = std::enable_if_t<!std::is_base_of_v<Windows::Fo
 auto get_abi(T const& object) noexcept
 
 inline void* get_abi(Windows::Foundation::IUnknown const& object) noexcept
+
+inline HSTRING get_abi(hstring const& object) noexcept
+
+template <typename T>
+static auto get_abi(array_view<T> object) noexcept
+
+template <typename T>
+auto get_abi(async_iterable<T> const& object) noexcept
+
+template <typename K, typename V>
+auto get_abi(async_map_view<K, V> const& object) noexcept
+
+template <typename T>
+auto get_abi(async_vector_view<T> const& object) noexcept
+
+template <typename T>
+auto get_abi(com_ptr<T> const& object) noexcept
+
+template <typename T>
+auto get_abi(iterable<T> const& object) noexcept
+
+template <typename K, typename V>
+auto get_abi(map<K, V> const& object) noexcept
+
+template <typename K, typename V>
+auto get_abi(map_view<K, V> const& object) noexcept
+
+template <typename T>
+auto get_abi(vector<T> const& object) noexcept
+
+template <typename T>
+auto get_abi(vector_view<T> const& object) noexcept
 ```
 
 ### Parameters
@@ -31,14 +63,15 @@ inline void* get_abi(Windows::Foundation::IUnknown const& object) noexcept
 The C++/WinRT object whose **IUnknown** interface pointer to retrieve.
 
 ### Return value 
-A pointer to **IUnknown**.
+A pointer to the **IUnknown** interface of the C++/WinRT object.
 
 ## Requirements
-**Minimum supported SDK:** Windows SDK for Windows 10, version 1803
+**Minimum supported SDK:** Windows SDK version 10.0.17133.0 (Windows 10, version 1803)
 
 **Namespace:** winrt
 
-**Header** %ProgramFiles(x86)%\Windows Kits\10\Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## See also 
 * [winrt namespace (C++/WinRT)](winrt.md)
+* [winrt::put_abi function template](put-abi.md)

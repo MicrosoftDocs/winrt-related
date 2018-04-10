@@ -38,14 +38,14 @@ Any constructor arguments for the constructor being invoked.
 A [com_ptr](com-ptr.md) to a newly-created instance of the implementation type for the runtime class.
 
 ## Requirements
-**Minimum supported SDK:** Windows SDK for Windows 10, version 1803
+**Minimum supported SDK:** Windows SDK version 10.0.17133.0 (Windows 10, version 1803)
 
 **Namespace:** winrt
 
-**Header** %ProgramFiles(x86)%\Windows Kits\10\Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## See also 
 * [winrt namespace (C++/WinRT)](winrt.md)
-* [com_ptr](com-ptr.md)
-* [make](make.md)
+* [winrt::com_ptr struct template](com-ptr.md)
+* [winrt::make function template](make.md)
 * [Implementation and projected types for a C++/WinRT runtime class](/windows/uwp/cpp-and-winrt-apis/ctors-runtimeclass-activation)
