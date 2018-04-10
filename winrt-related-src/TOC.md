@@ -941,7 +941,7 @@
 ### [put_abi function template](cpp-ref-for-winrt/put-abi.md)
 ### [unbox_value function template](cpp-ref-for-winrt/unbox-value.md)
 ### [unbox_value_or function template](cpp-ref-for-winrt/unbox-value-or.md)
-### [weak_ref struct template](cpp-ref-for-winrt/weak_ref.md)
+### [weak_ref struct template](cpp-ref-for-winrt/weak-ref.md)
 ### [xaml_typename function template](cpp-ref-for-winrt/xaml-typename.md)
 ## [Microsoft Interface Definition Language 3.0](midl-3/index.md)
 ### [Troubleshooting MIDL 3.0 issues](midl-3/troubleshooting.md)
