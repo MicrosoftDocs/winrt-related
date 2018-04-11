@@ -10,7 +10,7 @@ ms.technology: "cpp-windows"
 ms.topic: "language-reference"
 ms.prod: windows
 ms.technology: uwp
-keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, array, view, com, smart, pointer
+keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, com, smart, pointer
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
@@ -196,7 +196,7 @@ void** put_void() noexcept
 The address of the underlying raw pointer as a pointer to a pointer to **void**.
 
 ## com_ptr::try_as function
-Returns the requested interface, if it is supported. Returns `null`, or `false`, if it is not. This function is useful if you want to query for an interface that you don't need to pass back to your caller.
+Returns the requested interface, if it is supported. Returns `null` (the `auto`-returning overload), or `false` (the `bool`-returning overload), if it is not. This function is useful if you want to query for an interface that you don't need to pass back to your caller.
 
 ### Syntax
 ```cppwinrt
@@ -213,7 +213,7 @@ The type of the requested interface.
 A reference to a value to receive the requested interface.
 
 ### Return value 
-A **com_ptr** referencing the requested interface, or a strongly-typed smart pointer for the requested interface (either declared by C++/WinRT or by a third party), if the requested interface is supported, otherwise `null` or `false`.
+A **com_ptr** referencing the requested interface, or a strongly-typed smart pointer for the requested interface (either declared by C++/WinRT or by a third party), if the requested interface is supported, otherwise `null` (the `auto`-returning overload), or `false` (the `bool`-returning overload).
 
 ## com_ptr::operator bool
 Checks whether or not the smart pointer is referencing an interface or object. If the smart pointer is not referencing an interface or object, then it is logically null; otherwise it is logically not null.
