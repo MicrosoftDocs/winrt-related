@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::com_ptr struct template (C++/WinRT)
+# winrt::com_ptr struct template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
 A reference-counted COM smart pointer template. **com_ptr** represents a pointer to the interface or runtime class implementation type specified by the template parameter. It automatically manages the reference count for its target through a private raw pointer.
 
 ## Syntax
@@ -46,7 +46,7 @@ The interface, or runtime class implementation type, a pointer to which is repre
 |[com_ptr::as function](#comptras-function)|Returns the requested interface, if it is supported. Throws if it is not.|
 |[com_ptr::attach function](#comptrattach-function)|Attaches to a raw pointer that owns a reference to its target; an additional reference is not added.|
 |[com_ptr::copy_from function](#comptrcopyfrom-function)|Copies from another pointer. Decrements the reference count on any currently referenced interface or object, copies the raw pointer parameter, and begins managing the lifetime of the interface or object pointed to by it.|
-|[com_ptr::copy_to function](#comptrcopyto-function)|Copies to another pointer. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter.|
+|[com_ptr::copy_to function](#comptrcopyto-function)|Copies to another pointer from the **com_ptr** object. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter.|
 |[com_ptr::detach function](#comptrdetach-function)|Detaches from the referenced interface or object without decrementing the reference count, perhaps to return it to a caller.|
 |[com_ptr::get function](#comptrget-function)|Returns the underlying raw pointer should you need to pass it to a function.|
 |[com_ptr::put function](#comptrput-function)|Returns the address of the underlying raw pointer; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer.|
@@ -142,7 +142,7 @@ void copy_from(T* other) noexcept
 A raw pointer to a target whose lifetime should be managed by the **com_ptr** object.
 
 ## com_ptr::copy_to function
-Copies to another pointer. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter. This function lets you hand out a reference to the same interface without calling [QueryInterface](https://msdn.microsoft.com/library/windows/desktop/ms682521).
+Copies to another pointer from the **com_ptr** object. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter. This function lets you hand out a reference to the same interface without calling [QueryInterface](https://msdn.microsoft.com/library/windows/desktop/ms682521).
 
 ### Syntax
 ```cppwinrt

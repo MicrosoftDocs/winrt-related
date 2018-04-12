@@ -1,6 +1,6 @@
 ---
 author: stevewhims
-description: A helper function that detaches from the handle, or from the referenced interface.
+description: A helper function that detaches a C++/WinRT object from its referenced handle, or from its referenced interface.
 title: winrt::detach_abi function (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
@@ -15,8 +15,8 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::detach_abi function (C++/WinRT)
-A helper function that detaches from the handle, or from the referenced interface. Detaching from an interface is done without decrementing the reference count, perhaps to return it to a caller.
+# winrt::detach_abi function ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+A helper function that detaches a C++/WinRT object from its referenced handle, or from its referenced interface. Detaching from an interface is done without decrementing the reference count, perhaps to return it to a caller.
 
 ## Syntax
 ```cppwinrt

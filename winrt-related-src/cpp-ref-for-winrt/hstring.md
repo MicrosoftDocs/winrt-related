@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::hstring struct (C++/WinRT)
+# winrt::hstring struct ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
 A sequential collection of UTF-16 Unicode characters representing a text string. For more examples and info about **winrt::hstring**, see [String handling in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/strings). The **winrt::hstring** type encapsulates [HSTRING](https://msdn.microsoft.com/library/windows/desktop/br205775) behind an interface similar to that of **std::wstring**. A **HSTRING** is a handle to a Windows Runtime string.
 
 ## Syntax
@@ -66,7 +66,7 @@ struct hstring
 |------------|-----------------|
 |[attach_abi function](#attachabi-function)|Attaches a **hstring** object to a handle to a Windows Runtime string.|
 |[copy_from_abi function](#copyfromabi-function)|Copies to a **hstring** object from a handle to a Windows Runtime string. Clears the **hstring**, copies the parameter, and begins managing the handle.|
-|[copy_to_abi function](#copytoabi-function)|Copies from a **hstring** object to a handle to a Windows Runtime string.|
+|[copy_to_abi function](#copytoabi-function)|Copies to a handle to a Windows Runtime string from a **hstring** object.|
 |[detach_abi function](#detachabi-function)|Detaches a **hstring** object from its handle, perhaps to return it to a caller.|
 |[to_hstring function](#tohstring-function)|Conversion function. Returns a new **hstring** object resulting from converting the parameter.| 
 
@@ -427,7 +427,7 @@ A **hstring** object to operate on.
 A handle to a Windows Runtime string.
 
 ## copy_to_abi function
-Copies from a **hstring** object to a handle to a Windows Runtime string.
+Copies to a handle to a Windows Runtime string from a **hstring** object.
 
 ### Syntax
 ```cppwinrt

@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::weak_ref struct template (C++/WinRT)
+# winrt::weak_ref struct template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
 A type representing a weak reference to a C++/WinRT object or interface. For more info, and code examples, see [Weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references).
 
 ## Syntax

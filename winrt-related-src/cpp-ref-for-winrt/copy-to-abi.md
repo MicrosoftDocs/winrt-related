@@ -1,6 +1,6 @@
 ---
 author: stevewhims
-description: A helper function that copies from a C++/WinRT object to a handle, or to a pointer.
+description: A helper function that copies to a handle, or to a pointer, from a C++/WinRT object.
 title: winrt::copy_to_abi function (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
@@ -15,8 +15,8 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::copy_to_abi function (C++/WinRT)
-A helper function that copies from a C++/WinRT object to a handle, or to a pointer. Increments the reference count on any currently referenced interface, and copies that interface's memory address into the parameter. This function lets you hand out a reference to the same interface without calling [QueryInterface](https://msdn.microsoft.com/library/windows/desktop/ms682521).
+# winrt::copy_to_abi function ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+A helper function that copies to a handle, or to a pointer, from a C++/WinRT object. Increments the reference count on any currently referenced interface, and copies that interface's memory address into the parameter. This function lets you hand out a reference to the same interface without calling [QueryInterface](https://msdn.microsoft.com/library/windows/desktop/ms682521).
 
 ## Syntax
 ```cppwinrt
