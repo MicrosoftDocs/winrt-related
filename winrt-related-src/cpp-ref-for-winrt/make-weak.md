@@ -43,8 +43,6 @@ A [weak_ref](weak-ref.md) representing a weak reference to the C++/WinRT object.
 **Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## See also 
-* [winrt namespace (C++/WinRT)](winrt.md)
+* [winrt namespace](winrt.md)
 * [winrt::weak_ref struct template](weak-ref.md)
 * [Weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references)
-
-

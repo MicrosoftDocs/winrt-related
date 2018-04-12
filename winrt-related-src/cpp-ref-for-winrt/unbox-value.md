@@ -20,7 +20,7 @@ A function template that unwraps (or *unboxes*) a scalar value from inside a ref
 ## Syntax
 ```cppwinrt
 template <typename T>
-T unbox_value(Windows::Foundation::IInspectable const& value)
+T unbox_value(winrt::Windows::Foundation::IInspectable const& value)
 ```
 
 ### Template parameters
@@ -42,7 +42,7 @@ The scalar value contained inside the reference class object.
 **Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## See also 
-* [winrt namespace (C++/WinRT)](winrt.md)
+* [winrt namespace](winrt.md)
 * [winrt::box_value function template](box-value.md)
 * [winrt::unbox_value_or function template](unbox-value-or.md)
 * [Boxing and unboxing scalar values to IInspectable with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/boxing)

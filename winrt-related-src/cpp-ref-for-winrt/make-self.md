@@ -45,7 +45,7 @@ A [com_ptr](com-ptr.md) to a newly-created instance of the implementation type f
 **Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## See also 
-* [winrt namespace (C++/WinRT)](winrt.md)
+* [winrt namespace](winrt.md)
 * [winrt::com_ptr struct template](com-ptr.md)
 * [winrt::make function template](make.md)
 * [Implementation and projected types for a C++/WinRT runtime class](/windows/uwp/cpp-and-winrt-apis/ctors-runtimeclass-activation)

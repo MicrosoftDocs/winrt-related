@@ -86,5 +86,5 @@ explicit operator bool() const noexcept
 `true` if the **weak_ref** object is targeting a C++/WinRT object that hasn't yet been destroyed, otherwise `false`.
 
 ## See also 
-* [winrt namespace (C++/WinRT)](winrt.md)
+* [winrt namespace](winrt.md)
 * [Weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references)

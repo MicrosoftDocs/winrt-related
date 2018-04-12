@@ -359,7 +359,7 @@ Returns a value indicating whether the two parameters are unequal to one another
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator!=(array_view<T> const& left, array_view<T> const& right) noexcept
+template <typename T> bool operator!=(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept
 ```
 
 ### Parameters
@@ -374,7 +374,7 @@ Returns a value indicating whether the first parameter is less than the second p
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator<(array_view<T> const& left, array_view<T> const& right) noexcept
+template <typename T> bool operator<(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept
 ```
 
 ### Parameters
@@ -389,7 +389,7 @@ Returns a value indicating whether the first parameter is less than or equal to 
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator<=(array_view<T> const& left, array_view<T> const& right) noexcept
+template <typename T> bool operator<=(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept
 ```
 
 ### Parameters
@@ -404,7 +404,7 @@ Returns a value indicating whether the two parameters are equal to one another.
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator==(array_view<T> const& left, array_view<T> const& right) noexcept
+template <typename T> bool operator==(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept
 ```
 
 ### Parameters
@@ -419,7 +419,7 @@ Returns a value indicating whether the first parameter is greater than the secon
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator>(array_view<T> const& left, array_view<T> const& right) noexcept
+template <typename T> bool operator>(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept
 ```
 
 ### Parameters
@@ -434,7 +434,7 @@ Returns a value indicating whether the first parameter is greater than or equal 
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator>=(array_view<T> const& left, array_view<T> const& right) noexcept
+template <typename T> bool operator>=(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept
 ```
 
 ### Parameters
@@ -445,4 +445,4 @@ An **array_view** value to compare with the other parameter.
 `true` if the first parameter is greater than or equal to the second parameter, otherwise `false`.
 
 ## See also 
-[winrt namespace (C++/WinRT)](winrt.md)
+* [winrt namespace](winrt.md)

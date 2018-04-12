@@ -1,7 +1,7 @@
 ---
 author: stevewhims
 description: A helper function that retrieves the address of a C++/WinRT object's underlying IUnknown interface pointer so that it can be set to another value.
-title: winrt::put_abi function template (C++/WinRT)
+title: winrt::put_abi function (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 manager: "markl"
@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::put_abi function template (C++/WinRT)
+# winrt::put_abi function (C++/WinRT)
 A helper function that retrieves the address of a C++/WinRT object's underlying [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) pointer so that it can be set to another value.
 
 ## Syntax
@@ -52,7 +52,5 @@ The address of the **IUnknown** interface pointer of the C++/WinRT object.
 **Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## See also 
-* [winrt namespace (C++/WinRT)](winrt.md)
-* [winrt::get_abi function template](get-abi.md)
-
-
+* [winrt namespace](winrt.md)
+* [winrt::get_abi function](get-abi.md)

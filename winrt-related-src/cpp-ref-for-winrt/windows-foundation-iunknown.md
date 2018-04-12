@@ -76,8 +76,8 @@ Initializes a new instance of the **IUnknown** struct, optionally with a copy or
 ```cppwinrt
 IUnknown() noexcept
 IUnknown(std::nullptr_t) noexcept
-IUnknown(IUnknown const& other) noexcept
-IUnknown(IUnknown&& other) noexcept
+IUnknown(winrt::Windows::Foundation::IUnknown const& other) noexcept
+IUnknown(winrt::Windows::Foundation::IUnknown&& other) noexcept
 ```
 
 ### Parameters
@@ -140,9 +140,9 @@ Assigns a value to the **IUnknown** object.
 
 ### Syntax
 ```cppwinrt
-IUnknown& operator=(IUnknown const& other) noexcept
-IUnknown& operator=(IUnknown&& other) noexcept
-IUnknown& operator=(std::nullptr_t) noexcept
+winrt::Windows::Foundation::IUnknown& operator=(winrt::Windows::Foundation::IUnknown const& other) noexcept
+winrt::Windows::Foundation::IUnknown& operator=(winrt::Windows::Foundation::IUnknown&& other) noexcept
+winrt::Windows::Foundation::IUnknown& operator=(std::nullptr_t) noexcept
 ```
 
 ### Parameters
@@ -157,7 +157,7 @@ Attaches an **IUnknown** object to a raw pointer that owns a reference to its ta
 
 ### Syntax
 ```cppwinrt
-void attach_abi(Windows::Foundation::IUnknown& object, void* value) noexcept
+void attach_abi(winrt::Windows::Foundation::IUnknown& object, void* value) noexcept
 ```
 
 ### Parameters
@@ -172,14 +172,14 @@ Copies to an **IUnknown** object from another pointer. Decrements the reference 
 
 ### Syntax
 ```cppwinrt
-void copy_from_abi(Windows::Foundation::IUnknown& object, void* value) noexcept
+void copy_from_abi(winrt::Windows::Foundation::IUnknown& object, void* value) noexcept
 ```
 
 ### Parameters
 `object`
 An **IUnknown** value to operate on.
 
-`other`
+`value`
 A raw pointer to a target whose lifetime should be managed by the **IUnknown** object.
 
 ## copy_to_abi function
@@ -187,23 +187,23 @@ Copies from an **IUnknown** object to another pointer. Increments the reference 
 
 ### Syntax
 ```cppwinrt
-void copy_to_abi(Windows::Foundation::IUnknown const& object, void*& other) noexcept
+void copy_to_abi(winrt::Windows::Foundation::IUnknown const& object, void*& value) noexcept
 ```
 
 ### Parameters
 `object`
 An **IUnknown** value to operate on.
 
-`other`
+`value`
 A raw pointer reference; via which to copy the pointer to the **IUnknown** object's target.
 
 ## detach_abi function
-Detaches from the raw [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) without decrementing the reference count, perhaps to return it to a caller.
+Detaches an **IUnknown** object from its raw [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) without decrementing the reference count, perhaps to return it to a caller.
 
 ### Syntax
 ```cppwinrt
-void* detach_abi(Windows::Foundation::IUnknown& object) noexcept
-void* detach_abi(Windows::Foundation::IUnknown&& object) noexcept
+void* detach_abi(winrt::Windows::Foundation::IUnknown& object) noexcept
+void* detach_abi(winrt::Windows::Foundation::IUnknown&& object) noexcept
 ```
 
 ### Parameters
@@ -218,7 +218,7 @@ Returns the underlying raw [IUnknown interface](https://msdn.microsoft.com/libra
 
 ### Syntax
 ```cppwinrt
-void* get_abi(Windows::Foundation::IUnknown const& object) noexcept
+void* get_abi(winrt::Windows::Foundation::IUnknown const& object) noexcept
 ```
 
 ### Parameters
@@ -233,7 +233,7 @@ Returns the address of the underlying raw [IUnknown interface](https://msdn.micr
 
 ### Syntax
 ```cppwinrt
-::IUnknown* get_unknown(Windows::Foundation::IUnknown const& object) noexcept
+::IUnknown* get_unknown(winrt::Windows::Foundation::IUnknown const& object) noexcept
 ```
 
 ### Parameters
@@ -248,7 +248,7 @@ Returns a value indicating whether the two parameters refer to different targets
 
 ### Syntax
 ```cppwinrt
-bool operator!=(IUnknown const& left, IUnknown const& right) noexcept
+bool operator!=(winrt::Windows::Foundation::IUnknown const& left, winrt::Windows::Foundation::IUnknown const& right) noexcept
 ```
 
 ### Parameters
@@ -263,7 +263,7 @@ Returns a value indicating whether the first parameter's target occurs earlier i
 
 ### Syntax
 ```cppwinrt
-bool operator<(IUnknown const& left, IUnknown const& right) noexcept
+bool operator<(winrt::Windows::Foundation::IUnknown const& left, winrt::Windows::Foundation::IUnknown const& right) noexcept
 ```
 
 ### Parameters
@@ -278,7 +278,7 @@ Returns a value indicating whether the first parameter's target occurs earlier i
 
 ### Syntax
 ```cppwinrt
-bool operator<=(IUnknown const& left, IUnknown const& right) noexcept
+bool operator<=(winrt::Windows::Foundation::IUnknown const& left, winrt::Windows::Foundation::IUnknown const& right) noexcept
 ```
 
 ### Parameters
@@ -293,7 +293,7 @@ Returns a value indicating whether the two parameters refer to the same interfac
 
 ### Syntax
 ```cppwinrt
-bool operator==(IUnknown const& left, IUnknown const& right) noexcept
+bool operator==(winrt::Windows::Foundation::IUnknown const& left, winrt::Windows::Foundation::IUnknown const& right) noexcept
 ```
 
 ### Parameters
@@ -308,7 +308,7 @@ Returns a value indicating whether the first parameter's target occurs later in 
 
 ### Syntax
 ```cppwinrt
-bool operator>(IUnknown const& left, IUnknown const& right) noexcept
+bool operator>(winrt::Windows::Foundation::IUnknown const& left, winrt::Windows::Foundation::IUnknown const& right) noexcept
 ```
 
 ### Parameters
@@ -323,7 +323,7 @@ Returns a value indicating whether the first parameter's target occurs later in 
 
 ### Syntax
 ```cppwinrt
-bool operator>=(IUnknown const& left, IUnknown const& right) noexcept
+bool operator>=(winrt::Windows::Foundation::IUnknown const& left, winrt::Windows::Foundation::IUnknown const& right) noexcept
 ```
 
 ### Parameters
@@ -338,7 +338,7 @@ Returns the address of the underlying raw [IUnknown interface](https://msdn.micr
 
 ### Syntax
 ```cppwinrt
-void** put_abi(Windows::Foundation::IUnknown& object) noexcept
+void** put_abi(winrt::Windows::Foundation::IUnknown& object) noexcept
 ```
 
 ### Parameters
@@ -353,7 +353,7 @@ Swaps the contents of the two **IUnknown** parameters so that they point at one 
 
 ### Syntax
 ```cppwinrt
-void swap(IUnknown& left, IUnknown& right) noexcept
+void swap(winrt::Windows::Foundation::IUnknown& left, winrt::Windows::Foundation::IUnknown& right) noexcept
 ```
 
 ### Parameters
@@ -361,4 +361,4 @@ void swap(IUnknown& left, IUnknown& right) noexcept
 An **IUnknown** value whose pointers to mutually swap with that of the other parameter.
 
 ## See also 
-[winrt namespace (C++/WinRT)](winrt.md)
+* [winrt namespace](winrt.md)

@@ -20,10 +20,10 @@ A function template that unwraps (or *unboxes*) a scalar value from inside a ref
 ## Syntax
 ```cppwinrt
 template <typename T>
-hstring unbox_value_or(Windows::Foundation::IInspectable const& value, param::hstring const& default_value)
+hstring unbox_value_or(winrt::Windows::Foundation::IInspectable const& value, winrt::param::hstring const& default_value)
 
-template <typename T, typename = std::enable_if_t<!std::is_same_v<T, hstring>>>
-T unbox_value_or(Windows::Foundation::IInspectable const& value, T const& default_value)
+template <typename T, typename = std::enable_if_t<!std::is_same_v<T, winrt::hstring>>>
+T unbox_value_or(winrt::Windows::Foundation::IInspectable const& value, T const& default_value)
 ```
 
 ### Template parameters
@@ -48,7 +48,7 @@ The scalar value contained inside the reference class object, or *default_value*
 **Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## See also 
-* [winrt namespace (C++/WinRT)](winrt.md)
+* [winrt namespace](winrt.md)
 * [winrt::box_value function template](box-value.md)
 * [winrt::unbox_value function template](unbox-value.md)
 * [Boxing and unboxing scalar values to IInspectable with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/boxing)

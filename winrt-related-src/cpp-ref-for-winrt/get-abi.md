@@ -1,7 +1,7 @@
 ---
 author: stevewhims
 description: A helper function that retrieves a pointer to a C++/WinRT object's underlying IUnknown interface.
-title: winrt::get_abi function template (C++/WinRT)
+title: winrt::get_abi function (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 manager: "markl"
@@ -15,47 +15,47 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::get_abi function template (C++/WinRT)
+# winrt::get_abi function (C++/WinRT)
 A helper function that retrieves a pointer to a C++/WinRT object's underlying [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509).
 
 ## Syntax
 ```cppwinrt
-template <typename T, typename = std::enable_if_t<!std::is_base_of_v<Windows::Foundation::IUnknown, T>>>
+template <typename T, typename = std::enable_if_t<!std::is_base_of_v<winrt::Windows::Foundation::IUnknown, T>>>
 auto get_abi(T const& object) noexcept
 
-inline void* get_abi(Windows::Foundation::IUnknown const& object) noexcept
+inline void* get_abi(winrt::Windows::Foundation::IUnknown const& object) noexcept
 
-inline HSTRING get_abi(hstring const& object) noexcept
-
-template <typename T>
-static auto get_abi(array_view<T> object) noexcept
+inline HSTRING get_abi(winrt::hstring const& object) noexcept
 
 template <typename T>
-auto get_abi(async_iterable<T> const& object) noexcept
+static auto get_abi(winrt::array_view<T> object) noexcept
+
+template <typename T>
+auto get_abi(winrt::param::async_iterable<T> const& object) noexcept
 
 template <typename K, typename V>
-auto get_abi(async_map_view<K, V> const& object) noexcept
+auto get_abi(winrt::param::async_map_view<K, V> const& object) noexcept
 
 template <typename T>
-auto get_abi(async_vector_view<T> const& object) noexcept
+auto get_abi(winrt::param::async_vector_view<T> const& object) noexcept
 
 template <typename T>
-auto get_abi(com_ptr<T> const& object) noexcept
+auto get_abi(winrt::com_ptr<T> const& object) noexcept
 
 template <typename T>
-auto get_abi(iterable<T> const& object) noexcept
+auto get_abi(winrt::param::iterable<T> const& object) noexcept
 
 template <typename K, typename V>
-auto get_abi(map<K, V> const& object) noexcept
+auto get_abi(winrt::param::map<K, V> const& object) noexcept
 
 template <typename K, typename V>
-auto get_abi(map_view<K, V> const& object) noexcept
+auto get_abi(winrt::param::map_view<K, V> const& object) noexcept
 
 template <typename T>
-auto get_abi(vector<T> const& object) noexcept
+auto get_abi(winrt::param::vector<T> const& object) noexcept
 
 template <typename T>
-auto get_abi(vector_view<T> const& object) noexcept
+auto get_abi(winrt::param::vector_view<T> const& object) noexcept
 ```
 
 ### Parameters
@@ -73,5 +73,5 @@ A pointer to the **IUnknown** interface of the C++/WinRT object.
 **Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## See also 
-* [winrt namespace (C++/WinRT)](winrt.md)
-* [winrt::put_abi function template](put-abi.md)
+* [winrt namespace](winrt.md)
+* [winrt::put_abi function](put-abi.md)

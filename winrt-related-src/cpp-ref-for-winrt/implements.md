@@ -104,7 +104,7 @@ std::pair<uint32_t, const GUID*> get_local_iids() const noexcept override
 ```
 
 ### Return value 
-A two-element tuple containing the identifiers of the interfaces that are implemented by the **implements** object
+A two-element tuple containing the identifiers of the interfaces that are implemented by the **implements** object.
 
 ## implements::get_strong function
 Retrieves a strong reference to the **implements** object's *this* pointer.
@@ -112,7 +112,7 @@ Retrieves a strong reference to the **implements** object's *this* pointer.
 ### Syntax
 ```cppwinrt
 protected:
-	com_ptr<D> get_strong() noexcept
+	winrt::com_ptr<D> get_strong() noexcept
 ```
 
 ### Return value 
@@ -124,7 +124,7 @@ Retrieves a weak reference to the **implements** object's *this* pointer. See [W
 ### Syntax
 ```cppwinrt
 protected:
-	weak_ref<D> get_weak() noexcept
+	winrt::weak_ref<D> get_weak() noexcept
 ```
 
 ### Return value 
@@ -166,14 +166,14 @@ Converts the **implements** object to a **Windows::Foundation::IInspectable**. T
 
 ### Syntax
 ```cppwinrt
-operator Windows::Foundation::IInspectable() const noexcept
+operator winrt::Windows::Foundation::IInspectable() const noexcept
 ```
 
 ### Return value
 The **implements** object converted to a **Windows::Foundation::IInspectable**.
 
 ## See also 
-* [winrt namespace (C++/WinRT)](winrt.md)
+* [winrt namespace](winrt.md)
 * [winrt::weak_ref struct template](weak-ref.md)
 * [Interfaces; how to implement them in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/implement-an-interface)
 * [Weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references)
