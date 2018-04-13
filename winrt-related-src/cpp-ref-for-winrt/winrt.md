@@ -37,6 +37,8 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [make function template](make.md) | A factory method that returns an instance of the projected type for a runtime class when parameterized with the corresponding implementation type. |
 | [make_self function template](make-self.md) | A factory method that returns a [com_ptr](com-ptr.md) to an instance of the implementation type for a runtime class. |
 | [make_weak function template](make-weak.md) | A helper function that returns a [weak_ref](weak-ref.md) object, representing a weak reference to a C++/WinRT object. |
+| [no_weak_ref marker struct](no-weak-ref.md) | A marker type used to opt out of weak reference support. |
+| [non_agile marker struct](non-agile.md) | A marker type used to indicate that your type is not agile, and consequently does not implement the [IAgileObject interface](https://msdn.microsoft.com/en-us/library/windows/desktop/hh802476). |
 | [put_abi function](put-abi.md) | A helper function that retrieves the address of a C++/WinRT object's underlying IUnknown interface pointer so that it can be set to another value. |
 | [swap function](swap.md) | A helper function that swaps the contents of two values. |
 | [unbox_value function template](unbox-value.md) | A function template that unwraps (or *unboxes*) a scalar value from inside a reference class object so that it can be processed in a function that expects **IInspectable**. |

@@ -942,6 +942,8 @@
 ### [make function template](cpp-ref-for-winrt/make.md)
 ### [make_self function template](cpp-ref-for-winrt/make-self.md)
 ### [make_weak function template](cpp-ref-for-winrt/make-weak.md)
+### [no_weak_ref marker struct](cpp-ref-for-winrt/no-weak-ref.md)
+### [non_agile marker struct](cpp-ref-for-winrt/non-agile.md)
 ### [put_abi function template](cpp-ref-for-winrt/put-abi.md)
 ### [swap function](cpp-ref-for-winrt/swap.md)
 ### [unbox_value function template](cpp-ref-for-winrt/unbox-value.md)
