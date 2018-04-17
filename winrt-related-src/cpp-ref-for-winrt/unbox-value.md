@@ -39,7 +39,7 @@ The scalar value contained inside the reference class object.
 
 **Namespace:** winrt
 
-**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\Windows.Foundation.h
 
 ## See also 
 * [winrt namespace](winrt.md)
