@@ -936,6 +936,7 @@
 ### [copy_from_abi function](cpp-ref-for-winrt/copy-from-abi.md)
 ### [copy_to_abi function](cpp-ref-for-winrt/copy-to-abi.md)
 ### [detach_abi function](cpp-ref-for-winrt/detach-abi.md)
+### [from_abi function template](cpp-ref-for-winrt/from-abi.md)
 ### [get_abi function template](cpp-ref-for-winrt/get-abi.md)
 ### [hstring struct](cpp-ref-for-winrt/hstring.md)
 ### [implements struct template](cpp-ref-for-winrt/implements.md)

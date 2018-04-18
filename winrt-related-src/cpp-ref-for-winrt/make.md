@@ -5,7 +5,7 @@ title: winrt::make function template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 manager: "markl"
-ms.date: 04/13/2018
+ms.date: 04/17/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"
 ms.prod: windows
@@ -18,8 +18,8 @@ ms.workload: ["cplusplus"]
 # winrt::make function template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
 A factory method that, when a C++/WinRT implementation type is provided as a type parameter, returns one of the following.
 
-- If a corresponding projected type exists for the implementation type, then the implementation is a Windows Runtime class (runtime class) implementation. This is the case when consuming a type implemented in a component, or consuming a type from XAML UI. An instance of the projected type is returned in this case.
-- If there is no projected type, then the implementation is being consumed locally. In this case, the default (projected) interface of the implementation type is returned.
+- If you're authoring a component to be consumed from an app, then call **make** to return the default (projected) interface of the implementation type. In this case, your project doesn't contain a projected type.
+- If you're both implementing and consuming a runtime class within the same compilation unit&mdash;for example, authoring a type to be consumed from XAML UI&mdash;then call **make** to return an instance of the projected type.
 
 For an explanation of the implementation type and projected type concepts, see [Implementation and projected types for a C++/WinRT runtime class](/windows/uwp/cpp-and-winrt-apis/ctors-runtimeclass-activation). For more details, code, and a walkthrough of calling **make** in practice, see [XAML; binding a control to C++/WinRT properties and collections](/windows/uwp/cpp-and-winrt-apis/binding-prop-collection#add-a-property-of-type-booksku-to-mainpage). Also see [make_self](make-self.md).
 
@@ -44,7 +44,7 @@ An implementation type.
 Any constructor arguments for the constructor being invoked.
 
 ### Return value 
-An instance of the projected type if the implementation is a runtime class implementation, otherwise the default interface of the implementation type.
+The default interface of the implementation type if no projected type exists, otherwise an instance of the projected type.
 
 ## Requirements
 **Minimum supported SDK:** Windows SDK version 10.0.17133.0 (Windows 10, version 1803)

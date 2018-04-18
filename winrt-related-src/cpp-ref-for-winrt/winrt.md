@@ -31,6 +31,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [copy_from_abi function](copy-from-abi.md) | A helper function that copies to a C++/WinRT object from a handle, or from a raw pointer. |
 | [copy_to_abi function](copy-to-abi.md) | A helper function that copies to a handle, or to a pointer from a C++/WinRT object. |
 | [detach_abi function](detach-abi.md) | A helper function that detaches a C++/WinRT object from its referenced handle, or from its referenced interface. |
+| [from_abi function template](from-abi.md) | A helper function that, given a projected interface object, retrieves a pointer to the implementation. |
 | [get_abi function](get-abi.md) | A helper function that retrieves a pointer to a C++/WinRT object's underlying [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509). |
 | [hstring struct](hstring.md) | A sequential collection of UTF-16 Unicode characters representing a text string. |
 | [implements struct template](implements.md) | A base struct template that implements one or more Windows Runtime interfaces on behalf of a derived type. |

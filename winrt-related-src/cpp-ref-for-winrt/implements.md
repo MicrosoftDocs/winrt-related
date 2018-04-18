@@ -5,7 +5,7 @@ title: winrt::implements struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 manager: "markl"
-ms.date: 04/10/2018
+ms.date: 04/17/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"
 ms.prod: windows
@@ -16,10 +16,14 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::implements struct template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
-A base struct template that implements one or more Windows Runtime interfaces on behalf of a derived type. For more info about deriving from this type, and examples, see [Interfaces; how to implement them in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/implement-an-interface).
+This is the base from which your own C++/WinRT implementations directly or indirectly derive. It implements one or more Windows Runtime interfaces (which you specify to it as type parameters), and it also provides efficient implementations of [IUnknown](https://msdn.microsoft.com/library/windows/desktop/ms680509), [IInspectable](https://msdn.microsoft.com/library/br205821), [IAgileObject](https://msdn.microsoft.com/library/windows/desktop/hh802476), [IWeakReferenceSource](https://msdn.microsoft.com/library/br224609), and others.
+
+For more info about deriving from this type, and examples, see [Interfaces; how to implement them in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/implement-an-interface).
 
 ## Marker types
-**implements** supports the [non_agile](non-agile.md) and [no_weak_ref](no-weak-ref.md) marker types, which override default behavior. They should be rarely used, because the defaults are sufficient for almost all cases. A marker type can appear anywhere in the interface list, which is the variadic parameter pack. For example, if you derive directly from **implements**.
+The **implements** struct template supports the [non_agile](non-agile.md) and [no_weak_ref](no-weak-ref.md) marker types, which override default behavior. They should be rarely used, because the defaults are sufficient for almost all cases. A marker type can appear anywhere in the interface list, which is the variadic parameter pack.
+
+This first example applies when you derive directly from **implements**.
 
 ```cppwinrt
 struct MyImplementation: implements<MyImplementation, IFrameworkViewSource, no_weak_ref>
@@ -28,7 +32,7 @@ struct MyImplementation: implements<MyImplementation, IFrameworkViewSource, no_w
 }
 ```
 
-If you're authoring a runtime class.
+This next example is for when you're authoring a runtime class.
 
 ```cppwinrt
 struct BookSku : BookSkuT<BookSku, no_weak_ref>
