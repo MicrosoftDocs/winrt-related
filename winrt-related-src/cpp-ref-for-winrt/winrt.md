@@ -23,6 +23,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 ## Types
 | Type | Description |
 | - | - |
+| [agile_ref struct template](agile-ref.md) | A type representing an agile reference to a C++/WinRT object or interface. |
 | [array_view struct template](array-view.md) | A view, or span, of a contiguous series of values. |
 | [attach_abi function](attach-abi.md) | A helper function that attaches a C++/WinRT object to a handle, or to a raw pointer that owns a reference to its target. |
 | [box_value function template](box-value.md) | A function template that wraps (or *boxes*) a scalar value inside a reference class object so that it can be passed to a function that expects **IInspectable**. |
@@ -36,8 +37,9 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [hstring struct](hstring.md) | A sequential collection of UTF-16 Unicode characters representing a text string. |
 | [implements struct template](implements.md) | A base struct template that implements one or more Windows Runtime interfaces on behalf of a derived type. |
 | [make function template](make.md) | A factory method that returns an instance of a projected type or interface when parameterized with the corresponding implementation type. |
+| [make_agile function template](make-agile.md) | A helper function that returns an [agile_ref](agile-ref.md) object, representing an agile reference to a C++/WinRT object or interface. |
 | [make_self function template](make-self.md) | A factory method that returns a [com_ptr](com-ptr.md) to an instance of the implementation type for a runtime class. |
-| [make_weak function template](make-weak.md) | A helper function that returns a [weak_ref](weak-ref.md) object, representing a weak reference to a C++/WinRT object. |
+| [make_weak function template](make-weak.md) | A helper function that returns a [weak_ref](weak-ref.md) object, representing a weak reference to a C++/WinRT object or interface. |
 | [no_weak_ref marker struct](no-weak-ref.md) | A marker type used to opt out of weak reference support. |
 | [non_agile marker struct](non-agile.md) | A marker type used to indicate that your type is not agile, and consequently does not implement the [IAgileObject interface](https://msdn.microsoft.com/library/windows/desktop/hh802476). |
 | [put_abi function](put-abi.md) | A helper function that retrieves the address of a C++/WinRT object's underlying IUnknown interface pointer so that it can be set to another value. |

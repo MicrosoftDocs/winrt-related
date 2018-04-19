@@ -10,7 +10,7 @@ ms.technology: "cpp-windows"
 ms.topic: "language-reference"
 ms.prod: windows
 ms.technology: uwp
-keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, weak, reference
+keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, weak
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
