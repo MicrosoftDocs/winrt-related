@@ -16,7 +16,7 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::from_abi function template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
-A helper function that, given a projected interface object, retrieves a pointer to the implementation. For more details, and code examples, see [Instantiating and passing implementation types and interfaces](/windows/uwp/cpp-and-winrt-apis/implement-an-interface).
+A helper function that, given a projected interface object, retrieves a pointer to the implementation. For more details, and code examples, see [Instantiating and returning implementation types and interfaces](/windows/uwp/cpp-and-winrt-apis/author-apis#instantiating-and-returning-implementation-types-and-interfaces).
 
 ## Syntax
 ```cppwinrt

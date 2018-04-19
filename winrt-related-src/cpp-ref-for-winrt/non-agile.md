@@ -16,7 +16,7 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::non_agile marker struct (C++/WinRT)
-A marker type used to indicate to the [**implements**](implements.md) base struct that your type is not agile. As a result, **implements** does not implement the [IAgileObject interface](https://msdn.microsoft.com/en-us/library/windows/desktop/hh802476). For a usage example, see [Marker types](implements.md#marker-types).
+A marker type used to indicate to the [**implements**](implements.md) base struct that your type is not agile. As a result, **implements** does not implement the [IAgileObject interface](https://msdn.microsoft.com/library/windows/desktop/hh802476). For a usage example, see [Marker types](implements.md#marker-types).
 
 ## Syntax
 ```cppwinrt
