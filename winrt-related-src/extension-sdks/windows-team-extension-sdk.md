@@ -13,7 +13,7 @@ keywords: windows 10, uwp, team extension sdk, api contract, surface hub
 
 Lists all of the API contracts in the Windows Team Extension SDK extension SDK for the Universal Windows Platform (UWP)
 
-## Version 10.0.17133.1
+## Version 10.0.17134.0
 
 Windows.Services.Maps.GuidanceContract, version=3.0
 Windows.Services.Maps.LocalSearchContract, version=4.0

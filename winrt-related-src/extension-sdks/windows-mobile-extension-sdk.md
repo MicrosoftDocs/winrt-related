@@ -14,7 +14,7 @@ keywords: windows 10, uwp, mobile extension sdk, api contract
 
 Lists all of the API contracts within the Windows Mobile Extension SDK for the Universal Windows Platform (UWP).
 
-## Version 10.0.17133.1
+## Version 10.0.17134.0
 
 Windows.ApplicationModel.Activation.WebUISearchActivatedEventsContract, version=1.0
 Windows.ApplicationModel.Calls.Background.CallsBackgroundContract, version=1.0

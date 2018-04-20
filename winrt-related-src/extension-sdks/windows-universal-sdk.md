@@ -14,7 +14,7 @@ keywords: windows 10, uwp, universal sdk, extension contract
 
 Lists all of the API contracts in the Windows Universal Platform (UWP) SDK.
 
-## Version 10.0.17133.1
+## Version 10.0.17134.0
 
 Windows.AI.MachineLearning.Preview.MachineLearningPreviewContract, version=1.0
 Windows.ApplicationModel.Calls.CallsVoipContract, version=3.0
