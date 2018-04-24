@@ -30,7 +30,7 @@ namespace Bookstore
 }
 ```
 
-As of Windows 10, version 1803, the Windows SDK includes command-line support for MIDL 3.0 (`midl.exe` version 8.01.0622 or later, used with the `/winrt` switch).
+As of version 10.0.17134.0 (Windows 10, version 1803), the Windows SDK includes command-line support for MIDL 3.0 (`midl.exe` version 8.01.0622 or later, used with the `/winrt` switch).
 
 ## Use cases for MIDL 3.0
 Interface Definition Language (IDL) began with the Distributed Computing Environment/Remote Procedure Calls (DCE/RPC) system. The original [MIDL 1.0](https://msdn.microsoft.com/library/windows/desktop/aa367091) is DCE/RPC IDL with enhancements for declaring COM interfaces and coclasses. An updated 2.0 syntax was then developed within Microsoft to declare Windows Runtime APIs for the Windows platform. MIDL 3.0 is a much simpler and more modern way of declaring Windows Runtime APIs, and you can use it in your projects, particularly to declare [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) runtime classes.

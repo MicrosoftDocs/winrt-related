@@ -30,7 +30,7 @@ namespace Bookstore
 }
 ```
 
-Note that the syntax of MIDL 3.0 is specifically and solely designed for *declaring* types. You'll use a different programming language to *implement* those types. To use MIDL 3.0, you'll need the Windows SDK for Windows 10, version 1803 (`midl.exe` version 8.01.0622 or later, used with the `/winrt` switch).
+Note that the syntax of MIDL 3.0 is specifically and solely designed for *declaring* types. You'll use a different programming language to *implement* those types. To use MIDL 3.0, you'll need Windows SDK version 10.0.17134.0 (Windows 10, version 1803) (`midl.exe` version 8.01.0622 or later, used with the `/winrt` switch).
 
 ## Declaration structure
 The key organizational concepts in a MIDL 3.0 declaration are namespaces, types, and members. A MIDL 3.0 source file (an `.idl` file) contains at least one namespace, inside which are types and/or subordinate namespaces. Each type contains zero or more members.
@@ -46,7 +46,7 @@ import "Windows.UI.Xaml.Data.idl";
 import "Windows.UI.Xaml.Media.idl";
 namespace Bookstore
 {
-	runtimeclass BookSku : Windows.UI.Xaml.Data.INotifyPropertyChanged
+	runtimeclass BookSku : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Data.INotifyPropertyChanged
 	{
 		BookSku();
 		BookSku(Single price, String authorName, String coverImagePath, String title);
@@ -411,7 +411,7 @@ property named **NumberOfAreas**.
 
 An *unsealed* class is a class that you can use as a base class. In other words, a subsequent class can derive from an unsealed class. By default, a runtimeclass is sealed and derivation from it is disallowed.
 
-> [!NOTE]
+> [!IMPORTANT]
 > For an application to pass [Windows App Certification Kit](/windows/uwp/debug-test-perf/windows-app-certification-kit) tests, and to be successfully ingested into the Microsoft Store, the ultimate base class of each runtime class *declared in the application* must be a type originating in a Windows.* namespace.
 
 In order to bind XAML to a view model, the view model runtime class needs to be declared in MIDL. In a case like that, derive each view model from [**Windows.UI.Xaml.DependencyObject**](/uwp/api/windows.ui.xaml.dependencyobject). Alternatively, declare a bindable base class derived from **DependencyObject**, and derive your view models from that.
@@ -446,6 +446,9 @@ and type parameters with a colon and the name of the base class.
 Omitting a base class specification is the same as deriving from type
 **Object** (in other words, from [**IInspectable**](https://msdn.microsoft.com/en-us/library/br205821)).
 
+> [!IMPORTANT]
+> For an application to pass [Windows App Certification Kit](/windows/uwp/debug-test-perf/windows-app-certification-kit) tests, and to be successfully ingested into the Microsoft Store, the ultimate base class of each runtime class *declared in the application* must be a type originating in a Windows.* namespace; for example, [**Windows.UI.Xaml.DependencyObject**](/uwp/api/windows.ui.xaml.dependencyobject). For more info, see [XAML controls; binding to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property#create-a-blank-app-bookstore).
+
 In the next example, the base class of **Volume** is **Area**, and the (implicit) base class of **Area** is **Object**.
 
 ```idl
@@ -464,7 +467,7 @@ runtimeclass Volume : Area
 ```
 
 > [!NOTE]
-> Here, **Area** and **Volume** are declared in the same source file, but we recommend that you declare each runtime class in its own Interface Definition Language (IDL) (.idl) file.
+> Here, **Area** and **Volume** are declared in the same source file, but we recommend that you declare each runtime class in its own Interface Definition Language (IDL) (.idl) file, in order to optimize build performance when you edit an IDL file, and for logical correspondence of an IDL file to its generated source code files.
 
 A class inherits the members of its base class. Inheritance means that a
 class implicitly contains all members of its base class, except for the
@@ -540,8 +543,7 @@ Instance properties, methods, and events are inherited. Instance constructors ar
 actually declared in the class. If no instance constructor is supplied
 for a class, then you cannot directly instantiate the class. For such a class, you'd typically have a factory method elsewhere that returns an instance of the class.
 
-The exception is unsealed classes. An unsealed class can have one
-or more protected constructors.
+The exception is unsealed classes. An unsealed class can have one or more protected constructors.
 
 #### Properties
 *Properties* are conceptually similar to fields. Both are a member with a name and an associated type. However, unlike fields, properties do not
@@ -657,8 +659,7 @@ the method, the types of its parameters, and/or the number of its
 parameters. The signature of a method doesn't include the return type.
 
 #### Method visibility modifiers
-A *method* may have one of two optional visibility modifiers when
-the method is present in a derived class.
+A *method* may have one of two optional visibility modifiers when the method is present in a derived class.
 
 The *overridable* modifier states that this method overrides a
 method with the same name and signature in a base class.
