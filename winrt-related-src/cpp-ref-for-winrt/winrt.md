@@ -26,6 +26,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [agile_ref struct template](agile-ref.md) | A type representing an agile reference to a C++/WinRT object or interface. |
 | [array_view struct template](array-view.md) | A view, or span, of a contiguous series of values. |
 | [attach_abi function](attach-abi.md) | A helper function that attaches a C++/WinRT object to a handle, or to a raw pointer that owns a reference to its target. |
+| [auto_revoke_t marker struct](auto-revoke-t.md) | A marker type used to request an event revoker when registering a delegate to handle an event. |
 | [box_value function template](box-value.md) | A function template that wraps (or *boxes*) a scalar value inside a reference class object so that it can be passed to a function that expects **IInspectable**. |
 | [com_array struct template](com-array.md) | A view, or span, of a contiguous series of values for passing to and from Windows Runtime APIs. |
 | [com_ptr struct template](com-ptr.md) | A reference-counted COM smart pointer template. |

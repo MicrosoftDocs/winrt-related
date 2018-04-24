@@ -931,6 +931,7 @@
 ### [agile_ref struct template](cpp-ref-for-winrt/agile-ref.md)
 ### [array_view struct template](cpp-ref-for-winrt/array-view.md)
 ### [attach_abi function](cpp-ref-for-winrt/attach-abi.md)
+### [auto_revoke_t marker struct](cpp-ref-for-winrt/auto-revoke-t.md)
 ### [box_value function template](cpp-ref-for-winrt/box-value.md)
 ### [com_array struct template](cpp-ref-for-winrt/com-array.md)
 ### [com_ptr struct template](cpp-ref-for-winrt/com-ptr.md)
