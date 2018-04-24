@@ -4,7 +4,7 @@ description: There are a number of pre-defined custom attributes that allow you 
 title: Predefined attributes (MIDL 3.0)
 ms.author: stwhi
 manager: "markl"
-ms.date: 04/03/2018
+ms.date: 04/23/2018
 ms.topic: "language-reference"
 ms.prod: windows
 ms.technology: uwp
@@ -60,12 +60,36 @@ don't have a name, or don't have a unique name.
 In these cases, the MIDL 3.0 compiler synthesizes a unique
 member name, as necessary.
 
-By default, the compiler assigns constructor methods the names &lt;*className*&gt;, &lt;*className*&gt;1, &lt;*className*&gt;2, and so on for the equivalent methods in the ABI interface.
+By default, the compiler assigns constructor methods the names &lt;*className*&gt;, &lt;*className*&gt;2, &lt;*className*&gt;3, and so on for the equivalent methods in the ABI interface. In other words, the smallest unused integer numeral suffix (increasing from 2) is added to make the constructor method name unique.
 
-Similarly, for overloaded methods, for the first overloaded method (in
-lexical order), the compiler uses the original method name for the
-equivalent ABI interface method. Subsequent overloads receive the
-original name plus a unique integer numeral suffix (increasing from 2).
+Similarly, for overloaded methods, for the first method in a series of overloads (in lexical order), the compiler uses the original method name for the equivalent ABI interface method. Subsequent overloads are made unique by adding to the original name the smallest unused integer numeral suffix (increasing from 2).
+
+For example, the following IDL declares three overloads of **DoWork**, and two overloads of a different method named **DoWork3**.
+
+```idl
+void DoWork(Int32 x);
+void DoWork3(Int32 x);
+void DoWork(Int32 x, Int32 y);
+void DoWork(Int32 x, Int32 y, Int32 z);
+void DoWork3(Int32 x, Int32 y);
+```
+
+By default (since the name **DoWork3** is already taken), the compiler gives to the three overloads of **DoWork** the names
+- **DoWork**
+- **DoWork2**
+- **DoWork4**.
+
+**DoWork3** is *not* a **DoWork** overload. By default, the compiler gives to the two overloads of **DoWork3** the names
+- **DoWork3**
+- **DoWork32**.
+
+In vtable order, then, the functions will appear as
+
+- **DoWork**
+- **DoWork3**
+- **DoWork2**
+- **DoWork4**
+- **DoWork32**
 
 You can override the compiler's default name assignment using the
 `method_name` attribute.
@@ -116,7 +140,7 @@ unsealed runtimeclass Block : Windows.UI.Xaml.Documents.TextElement
 
 ## The `[interface_name]` attribute
 The `interface_name` attribute specifies the name and IID of the
-interface that contains the instance members if the class.
+interface that contains the instance members of the class. By default, the compiler assigns interface names using the same unique numbering algorithm that it uses for [methods](#the-methodname-attribute).
 
 In the example below, the `interface_name` attribute applied to the
 runtimeclass specifies the name and IID of the interface that contains
@@ -169,58 +193,3 @@ unsealed runtimeclass StateTriggerBase
 As a result, when your class description doesn't otherwise reference an
 interface, but when one is needed to implement the class, the MIDL 3.0
 compiler synthesizes and adds interfaces, as necessary.
-
-## The `[contract]` attribute
-You use the `contract` attribute to specify the name and version of the [API contract](/uwp/extension-sdks/device-families-overview) in which you first introduced the attributed type and/or member.
-
-In this next example, we apply the `contract` attribute to the runtime class to indicate that we introduced the **Block** class in version 1 of the **Windows.Foundation.UniversalApiContract** API contract.
-
-```idl
-[contract(Windows.Foundation.UniversalApiContract, 1)]
-unsealed runtimeclass Block : Windows.UI.Xaml.Documents.TextElement
-{
-	...
-}
-```
-
-All members of that class (unless we say otherwise) are considered to be introduced in that same API contract name and version. But, consider this next example.
-
-```idl
-[contract(Windows.Foundation.UniversalApiContract, 1)]
-unsealed runtimeclass Block : Windows.UI.Xaml.Documents.TextElement
-{
-	[method_name("CreateInstance")] protected Block();
-
-	[contract(Windows.Foundation.UniversalApiContract, 5)]
-	[interface_name("Windows.UI.Xaml.Documents.IBlock2", 5ec7bdf3-1333-4a92-8318-6caedc12ef89)]
-	{
-		Windows.UI.Xaml.TextAlignment HorizontalTextAlignment;
-	}
-
-	[contract(Windows.Foundation.UniversalApiContract, 5)]
-	[static_name("Windows.UI.Xaml.Documents.IBlockStatics2", af01a4d6-03e3-4cee-9b02-2bfc308b27a9)]
-	{
-		static Windows.UI.Xaml.DependencyProperty HorizontalTextAlignmentProperty{ get; };
-	}
-
-	Double LineHeight;
-	static Windows.UI.Xaml.DependencyProperty LineHeightProperty{ get; };
-	Windows.UI.Xaml.LineStackingStrategy LineStackingStrategy;
-	static Windows.UI.Xaml.DependencyProperty LineStackingStrategyProperty{ get; };
-	Windows.UI.Xaml.Thickness Margin;
-	static Windows.UI.Xaml.DependencyProperty MarginProperty{ get; };
-	Windows.UI.Xaml.TextAlignment TextAlignment;
-	static Windows.UI.Xaml.DependencyProperty TextAlignmentProperty{ get; };
-}
-```
-
-From the MIDL above, we can infer that during version 1 of the **UniversalApiContract** API contract the **Block** class contained only these members.
-
-- the **Block** constructor,
-- the static **LineHeightProperty**, **LineStackingStrategyProperty**, **MarginProperty**, and **TextAlignmentProperty** dependency properties,
-- the instance **LineHeight**, **LineStackingStrategy**, **Margin**, and **TextAlignment** properties.
-
-But you can add members to the class in later versions. To specify when they were introduced, you apply a higher version `contract` attribute to just those members. So, the **Block** class in the example above added the following members during version 5 of the **UniversalApiContract**.
-
-- the static **HorizontalTextAlignmentProperty** dependency property, and
-- the instance **HorizontalTestAlignment** property.

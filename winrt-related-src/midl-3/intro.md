@@ -4,7 +4,7 @@ description: An introduction to Microsoft Interface Definition Language 3.0.
 title: Introduction to Microsoft Interface Definition Language 3.0
 ms.author: stwhi
 manager: "markl"
-ms.date: 03/29/2018
+ms.date: 04/23/2018
 ms.topic: "language-reference"
 ms.prod: windows
 ms.technology: uwp
@@ -30,10 +30,10 @@ namespace Bookstore
 }
 ```
 
-The syntax of MIDL 3.0 is specifically and solely designed for *declaring* types. You'll use a different programming language to *implement* those types. To use MIDL 3.0, you'll need the Windows SDK for Windows 10, version 1803 (`midl.exe` version 8.01.0622 or later, which internally calls `midlrt.exe` version 10.00.0215 or later).
+Note that the syntax of MIDL 3.0 is specifically and solely designed for *declaring* types. You'll use a different programming language to *implement* those types. To use MIDL 3.0, you'll need the Windows SDK for Windows 10, version 1803 (`midl.exe` version 8.01.0622 or later, used with the `/winrt` switch).
 
 ## Declaration structure
-The key organizational concepts in a MIDL 3.0 declaration are namespaces, types, and members. A MIDL 3.0 source file (an `.idl` file) contains namespaces and/or types. Each namespace may contain subordinate namespaces and/or types, and each type contains zero or more members.
+The key organizational concepts in a MIDL 3.0 declaration are namespaces, types, and members. A MIDL 3.0 source file (an `.idl` file) contains at least one namespace, inside which are types and/or subordinate namespaces. Each type contains zero or more members.
 
 - Classes, interfaces, structures, and enumerations are types.
 - Fields, methods, properties, and events are examples of members.
@@ -64,9 +64,9 @@ namespace Bookstore
 }
 ```
 
-The example above declares a class named **BookSku** in a namespace named **Bookstore**. The fully qualified name of this class is **Bookstore.BookSku**.
+Since the namespace of a Windows Runtime type becomes part of the type name, the example above declares a runtime class named **Bookstore.BookSku**. There's no language-independent way of expressing **BookSku** without also expressing the namespace.
 
-This **BookSku** class implements the **Windows.UI.Xaml.Data.INotifyPropertyChanged** interface. And the class contains several members: two constructors, a read-write property (**Price**), some read-only properties (**AuthorName** through **Title**), and two methods, named **Equals** and **ApplyDiscount**. Note the use of the type **Single** rather than **float**. And that **String** has an upper-case "S".
+This class implements the **Windows.UI.Xaml.Data.INotifyPropertyChanged** interface. And the class contains several members: two constructors, a read-write property (**Price**), some read-only properties (**AuthorName** through **Title**), and two methods, named **Equals** and **ApplyDiscount**. Note the use of the type **Single** rather than **float**. And that **String** has an upper-case "S".
 
 If the source code for this example is stored in `booksku.idl`, then you can issue this command (adjust the SDK version number for your case, if necessary).
 
@@ -115,7 +115,7 @@ It's possible for two reference type variables to reference the same object. Thu
 
 MIDL 3.0's value types are further divided into simple types, enum types, struct types, and nullable types.
 
-MIDL 3.0's reference types are further divided into class types, interface types, array types, and delegate types.
+MIDL 3.0's reference types are further divided into class types, interface types, and delegate types.
 
 Here's an overview of MIDL 3.0's type system.
 
@@ -161,7 +161,7 @@ Here's an overview of MIDL 3.0's type system.
     <td>Extensions of all other value types with a <b>null</b> value</td>
   </tr>
   <tr>
-    <td rowspan="5">Reference types</td>
+    <td rowspan="4">Reference types</td>
     <td rowspan="2">Class types</td>
     <td>Ultimate base class of all other types: <b>Object</b></td>
   </tr>
@@ -171,10 +171,6 @@ Here's an overview of MIDL 3.0's type system.
   <tr>
     <td>Interface types</td>
     <td>User-defined types of the form <b>interface I {...}</b></td>
-  </tr>
-  <tr>
-    <td>Array types</td>
-    <td>Single-dimensional, for example, <b>Int32[]</b></td>
   </tr>
   <tr>
     <td>Delegate types</td>
@@ -281,18 +277,18 @@ MIDL 3.0 supports three additional type categories.
 
 You don't need to declare a single-dimensional array before you can use it. Instead, array types are constructed by following a type name with square brackets. For example, **Int32[]** is a single-dimensional array of **Int32**.
 
-Similarly, *nullable* value types also do not have to be declared before they can be used. For each non-nullable value type **T** there's a corresponding nullable type **T?**, which can hold the additional value `null`. For instance, **Int32?** is a type that can hold any 32-bit integer, or the value `null`. While MIDL 3.0 source code represents a nullable value types as type **T?**, the actual underlying Windows Runtime type is [**IReference&lt;T&gt;**](/uwp/api/windows.foundation.ireference_t_) where **T** can be anything but **String**.
+Similarly, *nullable* value types also do not have to be declared before they can be used. For each non-nullable value type **T** (except **String**), there's a corresponding nullable type **Windows.Foundation.IReference&lt;T&gt;**, which can hold the additional value `null`. For instance, **Windows.Foundation.IReference&lt;Int32&gt;** is a type that can hold any 32-bit integer, or the value `null`. Also see [**IReference&lt;T&gt;**](/uwp/api/windows.foundation.ireference_t_).
 
-Finally, MIDL 3.0 supports the **Object** type, which maps to the Windows Runtime [**IInspectable**](https://msdn.microsoft.com/en-us/library/br205821) interface. Conceptually, the reference types&mdash;*interface* and *runtimeclass*&mdash;derive from the **Object** type.
+Finally, MIDL 3.0 supports the **Object** type, which maps to the Windows Runtime [**IInspectable**](https://msdn.microsoft.com/en-us/library/br205821) interface. The *interface* and *runtimeclass* reference types conceptually derive from the **Object** type; *delegate* does not.
 
-## Expressions
-An *expression* is constructed from *operands* and *operators*. The operators in an expression indicate which operations to apply to the operands. Examples of operators include +, -, *, /, and `new`. Examples of operands include literals, fields, local variables, and expressions.
+### Expressions in an enumerated value
+With MIDL 3.0, you can only use an *expression* in the declaration of the value of an enumerated type's named constants; in other words, in an enumeration initializer.
+
+An expression is constructed from *operands* and *operators*. The operators in an expression indicate which operations to apply to the operands. Examples of operators include +, -, *, /, and `new`. Examples of operands include literals, fields, local variables, and expressions.
 
 When an expression contains multiple operators, the *precedence* of the operators controls the order in which the individual operators are evaluated. For example, the expression x + y * z is evaluated as x + (y * z) because the * operator has higher precedence than the + operator.
 
-MIDL 3.0 only allows expressions to be used in the declaration of the value of an enumerated type's named constants.
-
-The following table summarizes MIDL 3.0's operators, listing the operator categories in order of precedence from highest to lowest. Operators in the same category have equal precedence. Note that operators only apply to enumeration initializers.
+The following table summarizes MIDL 3.0's operators, listing the operator categories in order of precedence from highest to lowest. Operators in the same category have equal precedence.
 
 <div class="mx-responsive-img">
 <table class="uwpd-top-aligned-table">
@@ -422,7 +418,7 @@ In order to bind XAML to a view model, the view model runtime class needs to be 
 
 You can declare your data models as C++ structs; they don't need to be declared in MIDL (as long as you're consuming them only from your view models and not binding XAML directly to them; in which case they'd arguably be view models by definition, anyway).
 
-### Accessibility
+### Member access modifiers
 As MIDL 3.0 is a declaration language for describing the public surface
 of Windows Runtime types, there's no need for explicit syntax to
 declare the public accessibility of a member. All members are implicitly
@@ -440,7 +436,7 @@ static runtimeclass Area
 }
 ```
 
-|Accessibility|Meaning|
+|Access modifier|Meaning|
 |-|-|
 |static|Class contains only static members|
 
@@ -1005,7 +1001,7 @@ enum Permissions
 Types, members, and other entities in MIDL 3.0 source code support
 modifiers that control certain aspects of their behavior. For example,
 the accessibility of a method is controlled using the `protected`
-modifier. MIDL 3.0 generalizes this capability such that user-defined
+access modifier. MIDL 3.0 generalizes this capability such that user-defined
 types of declarative information can be attached to program entities, and
 retrieved at run-time from the metadata.
 
