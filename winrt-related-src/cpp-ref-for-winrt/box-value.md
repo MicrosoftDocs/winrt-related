@@ -37,7 +37,7 @@ A scalar value to box.
 A reference class object containing the boxed value.
 
 ## Requirements
-**Minimum supported SDK:** Windows SDK version 10.0.17133.0 (Windows 10, version 1803)
+**Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
 
 **Namespace:** winrt
 

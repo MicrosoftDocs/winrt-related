@@ -36,7 +36,7 @@ A C++/WinRT object to operate on.
 A handle reference, or a raw pointer reference; via which to copy the pointer to the C++/WinRT object's handle or target.
 
 ## Requirements
-**Minimum supported SDK:** Windows SDK version 10.0.17133.0 (Windows 10, version 1803)
+**Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
 
 **Namespace:** winrt
 

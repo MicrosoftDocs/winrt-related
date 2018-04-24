@@ -47,7 +47,7 @@ Any constructor arguments for the constructor being invoked.
 The default interface of the implementation type if no projected type exists, otherwise an instance of the projected type.
 
 ## Requirements
-**Minimum supported SDK:** Windows SDK version 10.0.17133.0 (Windows 10, version 1803)
+**Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
 
 **Namespace:** winrt
 

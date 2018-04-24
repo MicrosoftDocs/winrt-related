@@ -29,7 +29,7 @@ struct array_view
 The type of the values (elements) that the **array_view** views, or spans.
 
 ## Requirements
-**Minimum supported SDK:** Windows SDK version 10.0.17133.0 (Windows 10, version 1803)
+**Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
 
 **Namespace:** winrt
 

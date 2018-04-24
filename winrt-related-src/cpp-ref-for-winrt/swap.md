@@ -32,7 +32,7 @@ void swap(winrt::Windows::Foundation::IUnknown& left, winrt::Windows::Foundation
 A value to mutually swap with that of the other parameter. For example, if the values represent pointers, then their contents are swapped so that they point at one another's target.
 
 ## Requirements
-**Minimum supported SDK:** Windows SDK version 10.0.17133.0 (Windows 10, version 1803)
+**Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
 
 **Namespace:** winrt
 

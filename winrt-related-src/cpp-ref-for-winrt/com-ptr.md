@@ -29,7 +29,7 @@ struct com_ptr
 The interface, or runtime class implementation type, a pointer to which is represented by the **com_ptr**. This is the type of the smart pointer's target.
 
 ## Requirements
-**Minimum supported SDK:** Windows SDK version 10.0.17133.0 (Windows 10, version 1803)
+**Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
 
 **Namespace:** winrt
 

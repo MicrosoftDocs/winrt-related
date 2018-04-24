@@ -36,7 +36,7 @@ The C++/WinRT object or interface to make a weak reference to.
 A [weak_ref](weak-ref.md) representing a weak reference to the C++/WinRT object or interface.
 
 ## Requirements
-**Minimum supported SDK:** Windows SDK version 10.0.17133.0 (Windows 10, version 1803)
+**Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
 
 **Namespace:** winrt
 
