@@ -939,6 +939,8 @@
 ### [copy_to_abi function](cpp-ref-for-winrt/copy-to-abi.md)
 ### [delegate struct template](cpp-ref-for-winrt/delegate.md)
 ### [detach_abi function](cpp-ref-for-winrt/detach-abi.md)
+### [event struct template](cpp-ref-for-winrt/event.md)
+### [event_token struct](cpp-ref-for-winrt/event-token.md)
 ### [from_abi function template](cpp-ref-for-winrt/from-abi.md)
 ### [get_abi function template](cpp-ref-for-winrt/get-abi.md)
 ### [hstring struct](cpp-ref-for-winrt/hstring.md)

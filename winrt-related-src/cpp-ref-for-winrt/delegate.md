@@ -16,7 +16,7 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::delegate struct template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
-A type that you can use to declare a custom delegate type for your own events in cases where you need to support passing non-C++/WinRT types as delegate parameters. For more info about handling events using delegate, and code examples, see [Handle events by using delegates in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/handle-events).
+A type that you can use to declare a custom delegate type for your own events in cases where you need to support passing non-C++/WinRT types as delegate parameters. For more info about handling events, and code examples, see [Handle events by using delegates in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/handle-events).
 
 ## Syntax
 ```cppwinrt
@@ -26,7 +26,7 @@ struct delegate : Windows::Foundation::IUnknown
 
 ### Template parameters
 `typename... T`
-A variadic template parameter pack containing the parameters that the delegate is passed when it's called.
+A variadic template parameter pack containing the types of the parameters that the delegate is passed when it's called.
 
 ## Requirements
 **Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
@@ -99,3 +99,4 @@ void operator()(T const&... args) const
 ## See also
 * [winrt namespace](winrt.md)
 * [Handle events by using delegates in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/handle-events)
+* [winrt::event struct template](event.md)
