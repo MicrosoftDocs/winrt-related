@@ -21,7 +21,7 @@ A helper function that detaches a C++/WinRT object from its referenced handle, o
 ## Syntax
 ```cppwinrt
 template <typename T, typename = std::enable_if_t<!std::is_base_of_v<winrt::Windows::Foundation::IUnknown, std::decay_t<T>> && !std::is_convertible_v<T, std::wstring_view>>>
-auto detach_abi(T&& object)
+auto detach_abi(T&& object);
 
 void* detach_abi(winrt::Windows::Foundation::IUnknown& object) noexcept
 

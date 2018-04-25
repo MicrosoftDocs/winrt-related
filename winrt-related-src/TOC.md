@@ -937,6 +937,7 @@
 ### [com_ptr struct template](cpp-ref-for-winrt/com-ptr.md)
 ### [copy_from_abi function](cpp-ref-for-winrt/copy-from-abi.md)
 ### [copy_to_abi function](cpp-ref-for-winrt/copy-to-abi.md)
+### [delegate struct template](cpp-ref-for-winrt/delegate.md)
 ### [detach_abi function](cpp-ref-for-winrt/detach-abi.md)
 ### [from_abi function template](cpp-ref-for-winrt/from-abi.md)
 ### [get_abi function template](cpp-ref-for-winrt/get-abi.md)

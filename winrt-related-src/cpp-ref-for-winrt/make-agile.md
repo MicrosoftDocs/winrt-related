@@ -21,7 +21,7 @@ A helper function that returns an [agile_ref](agile-ref.md) object, representing
 ## Syntax
 ```cppwinrt
 template <typename T>
-agile_ref<T> make_agile(T const& object)
+agile_ref<T> make_agile(T const& object);
 ```
 
 ### Template parameters

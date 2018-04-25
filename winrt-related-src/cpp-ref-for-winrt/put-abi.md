@@ -21,20 +21,20 @@ A helper function that retrieves the address of a C++/WinRT object's underlying 
 ## Syntax
 ```cppwinrt
 template <typename T, typename = std::enable_if_t<!std::is_base_of_v<winrt::Windows::Foundation::IUnknown, T>>>
-auto put_abi(T& object) noexcept
+auto put_abi(T& object) noexcept;
 
-inline void** put_abi(winrt::Windows::Foundation::IUnknown& object) noexcept
+inline void** put_abi(winrt::Windows::Foundation::IUnknown& object) noexcept;
 
-inline HSTRING* put_abi(winrt::hstring& object) noexcept
+inline HSTRING* put_abi(winrt::hstring& object) noexcept;
 
 template<typename T>
-auto put_abi(winrt::com_array<T>& object) noexcept
+auto put_abi(winrt::com_array<T>& object) noexcept;
 
 template <typename T>
-auto put_abi(winrt::com_ptr<T>& object) noexcept
+auto put_abi(winrt::com_ptr<T>& object) noexcept;
 
 template <typename T>
-auto put_abi(winrt::weak_ref<T>& object) noexcept
+auto put_abi(winrt::weak_ref<T>& object) noexcept;
 ```
 
 ### Parameters

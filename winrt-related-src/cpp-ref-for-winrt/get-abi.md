@@ -21,41 +21,41 @@ A helper function that retrieves a pointer to a C++/WinRT object's underlying [I
 ## Syntax
 ```cppwinrt
 template <typename T, typename = std::enable_if_t<!std::is_base_of_v<winrt::Windows::Foundation::IUnknown, T>>>
-auto get_abi(T const& object) noexcept
+auto get_abi(T const& object) noexcept;
 
-inline void* get_abi(winrt::Windows::Foundation::IUnknown const& object) noexcept
+inline void* get_abi(winrt::Windows::Foundation::IUnknown const& object) noexcept;
 
-inline HSTRING get_abi(winrt::hstring const& object) noexcept
-
-template <typename T>
-static auto get_abi(winrt::array_view<T> object) noexcept
+inline HSTRING get_abi(winrt::hstring const& object) noexcept;
 
 template <typename T>
-auto get_abi(winrt::param::async_iterable<T> const& object) noexcept
+static auto get_abi(winrt::array_view<T> object) noexcept;
+
+template <typename T>
+auto get_abi(winrt::param::async_iterable<T> const& object) noexcept;
 
 template <typename K, typename V>
-auto get_abi(winrt::param::async_map_view<K, V> const& object) noexcept
+auto get_abi(winrt::param::async_map_view<K, V> const& object) noexcept;
 
 template <typename T>
-auto get_abi(winrt::param::async_vector_view<T> const& object) noexcept
+auto get_abi(winrt::param::async_vector_view<T> const& object) noexcept;
 
 template <typename T>
-auto get_abi(winrt::com_ptr<T> const& object) noexcept
+auto get_abi(winrt::com_ptr<T> const& object) noexcept;
 
 template <typename T>
-auto get_abi(winrt::param::iterable<T> const& object) noexcept
+auto get_abi(winrt::param::iterable<T> const& object) noexcept;
 
 template <typename K, typename V>
-auto get_abi(winrt::param::map<K, V> const& object) noexcept
+auto get_abi(winrt::param::map<K, V> const& object) noexcept;
 
 template <typename K, typename V>
-auto get_abi(winrt::param::map_view<K, V> const& object) noexcept
+auto get_abi(winrt::param::map_view<K, V> const& object) noexcept;
 
 template <typename T>
-auto get_abi(winrt::param::vector<T> const& object) noexcept
+auto get_abi(winrt::param::vector<T> const& object) noexcept;
 
 template <typename T>
-auto get_abi(winrt::param::vector_view<T> const& object) noexcept
+auto get_abi(winrt::param::vector_view<T> const& object) noexcept;
 ```
 
 ### Parameters

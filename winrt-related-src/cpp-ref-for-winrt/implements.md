@@ -102,7 +102,7 @@ Increments the reference count for the default interface of the **implements** o
 
 ### Syntax
 ```cppwinrt
-unsigned long __stdcall AddRef() noexcept
+unsigned long __stdcall AddRef() noexcept;
 ```
 
 ### Return value 
@@ -113,7 +113,7 @@ Retrieves the pointer to the interface implemented by the **implements** object,
 
 ### Syntax
 ```cppwinrt
-void* find_interface(GUID const& id) const noexcept override
+void* find_interface(GUID const& id) const noexcept override;
 ```
 
 ### Return value 
@@ -124,7 +124,7 @@ Retrieves a two-element tuple containing the identifiers of the interfaces that 
 
 ### Syntax
 ```cppwinrt
-std::pair<uint32_t, const GUID*> get_local_iids() const noexcept override
+std::pair<uint32_t, const GUID*> get_local_iids() const noexcept override;
 ```
 
 ### Return value 
@@ -136,7 +136,7 @@ Retrieves a strong reference to the **implements** object's *this* pointer.
 ### Syntax
 ```cppwinrt
 protected:
-	winrt::com_ptr<D> get_strong() noexcept
+	winrt::com_ptr<D> get_strong() noexcept;
 ```
 
 ### Return value 
@@ -148,7 +148,7 @@ Retrieves a weak reference to the **implements** object's *this* pointer. See [W
 ### Syntax
 ```cppwinrt
 protected:
-	winrt::weak_ref<D> get_weak() noexcept
+	winrt::weak_ref<D> get_weak() noexcept;
 ```
 
 ### Return value 
@@ -159,7 +159,7 @@ Retrieves the pointer to the interface implemented by the **implements** object,
 
 ### Syntax
 ```cppwinrt
-HRESULT __stdcall QueryInterface(GUID const& id, void** object) noexcept
+HRESULT __stdcall QueryInterface(GUID const& id, void** object) noexcept;
 ```
 
 ### Return value 
@@ -170,7 +170,7 @@ Decrements the reference count for the default interface of the **implements** o
 
 ### Syntax
 ```cppwinrt
-unsigned long __stdcall Release() noexcept
+unsigned long __stdcall Release() noexcept;
 ```
 
 ### Return value 
@@ -182,7 +182,7 @@ Configures the **implements** object to have static lifetime.
 ### Syntax
 ```cppwinrt
 protected:
-	void static_lifetime()
+	void static_lifetime();
 ```
 
 ## implements::operator Windows::Foundation::IInspectable
@@ -190,7 +190,7 @@ Converts the **implements** object to a **Windows::Foundation::IInspectable**. T
 
 ### Syntax
 ```cppwinrt
-operator winrt::Windows::Foundation::IInspectable() const noexcept
+operator winrt::Windows::Foundation::IInspectable() const noexcept;
 ```
 
 ### Return value

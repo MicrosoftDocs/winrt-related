@@ -21,11 +21,11 @@ A helper function that copies to a C++/WinRT object from a handle, or from a raw
 ## Syntax
 ```cppwinrt
 template <typename T, typename V, typename = std::enable_if_t<!std::is_base_of_v<winrt::Windows::Foundation::IUnknown, T>>>
-void copy_from_abi(T& object, V&& value)
+void copy_from_abi(T& object, V&& value);
 
-void copy_from_abi(winrt::hstring& object, HSTRING value)
+void copy_from_abi(winrt::hstring& object, HSTRING value);
 
-void copy_from_abi(winrt::Windows::Foundation::IUnknown& object, void* value) noexcept
+void copy_from_abi(winrt::Windows::Foundation::IUnknown& object, void* value) noexcept;
 ```
 
 ### Parameters

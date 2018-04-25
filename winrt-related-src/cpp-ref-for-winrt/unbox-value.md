@@ -20,7 +20,7 @@ A function template that unwraps (or *unboxes*) a scalar value from inside a ref
 ## Syntax
 ```cppwinrt
 template <typename T>
-T unbox_value(winrt::Windows::Foundation::IInspectable const& value)
+T unbox_value(winrt::Windows::Foundation::IInspectable const& value);
 ```
 
 ### Template parameters

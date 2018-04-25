@@ -32,6 +32,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [com_ptr struct template](com-ptr.md) | A reference-counted COM smart pointer template. |
 | [copy_from_abi function](copy-from-abi.md) | A helper function that copies to a C++/WinRT object from a handle, or from a raw pointer. |
 | [copy_to_abi function](copy-to-abi.md) | A helper function that copies to a handle, or to a pointer from a C++/WinRT object. |
+| [delegate struct template](delegate.md) | A type that you can use to declare a custom delegate type for your own events. |
 | [detach_abi function](detach-abi.md) | A helper function that detaches a C++/WinRT object from its referenced handle, or from its referenced interface. |
 | [from_abi function template](from-abi.md) | A helper function that, given a projected interface object, retrieves a pointer to the implementation. |
 | [get_abi function](get-abi.md) | A helper function that retrieves a pointer to a C++/WinRT object's underlying [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509). |

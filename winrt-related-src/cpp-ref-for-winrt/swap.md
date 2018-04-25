@@ -20,11 +20,11 @@ A helper function that swaps the contents of two values.
 
 ## Syntax
 ```cppwinrt
-void swap(winrt::com_array& left, winrt::com_array& right) noexcept
-void swap(winrt::com_ptr& left, winrt::com_ptr& right) noexcept
-void swap(winrt::handle_type& left, winrt::handle_type& right) noexcept
-void swap(winrt::hstring& left, winrt::hstring& right) noexcept
-void swap(winrt::Windows::Foundation::IUnknown& left, winrt::Windows::Foundation::IUnknown& right) noexcept
+void swap(winrt::com_array& left, winrt::com_array& right) noexcept;
+void swap(winrt::com_ptr& left, winrt::com_ptr& right) noexcept;
+void swap(winrt::handle_type& left, winrt::handle_type& right) noexcept;
+void swap(winrt::hstring& left, winrt::hstring& right) noexcept;
+void swap(winrt::Windows::Foundation::IUnknown& left, winrt::Windows::Foundation::IUnknown& right) noexcept;
 ```
 
 ### Parameters

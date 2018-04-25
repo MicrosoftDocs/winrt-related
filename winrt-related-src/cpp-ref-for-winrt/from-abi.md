@@ -21,7 +21,7 @@ A helper function that, given a projected interface object, retrieves a pointer 
 ## Syntax
 ```cppwinrt
 template <typename D, typename I>
-D* from_abi(I const& from) noexcept
+D* from_abi(I const& from) noexcept;
 ```
 
 ### Template parameters

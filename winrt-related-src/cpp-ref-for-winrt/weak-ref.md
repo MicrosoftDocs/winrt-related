@@ -55,8 +55,8 @@ Initializes a new instance of the **weak_ref** struct, optionally with a copy of
 
 ### Syntax
 ```cppwinrt
-weak_ref(std::nullptr_t = nullptr) noexcept
-weak_ref(impl::com_ref<T> const& object)
+weak_ref(std::nullptr_t = nullptr) noexcept;
+weak_ref(impl::com_ref<T> const& object);
 ```
 
 ### Parameters
@@ -68,7 +68,7 @@ Increments the reference count and retrieves the C++/WinRT object or interface w
 
 ### Syntax
 ```cppwinrt
-impl::com_ref<T> get() const noexcept
+impl::com_ref<T> get() const noexcept;
 ```
 
 ### Return value 
@@ -79,7 +79,7 @@ Checks whether the **weak_ref** object is targeting a C++/WinRT object that hasn
 
 ### Syntax
 ```cppwinrt
-explicit operator bool() const noexcept
+explicit operator bool() const noexcept;
 ```
 
 ### Return value

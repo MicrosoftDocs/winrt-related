@@ -23,7 +23,7 @@ If you're authoring a runtime class then, from within the same compilation unit,
 ## Syntax
 ```cppwinrt
 template <typename D, typename... Args>
-auto make_self(Args&&... args)
+auto make_self(Args&&... args);
 ```
 
 ### Template parameters

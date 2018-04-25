@@ -19,10 +19,10 @@ A function template that wraps (or *boxes*) a scalar value inside a reference cl
 
 ## Syntax
 ```cppwinrt
-winrt::Windows::Foundation::IInspectable box_value(winrt::param::hstring const& value)
+winrt::Windows::Foundation::IInspectable box_value(winrt::param::hstring const& value);
 
 template <typename T, typename = std::enable_if_t<!std::is_convertible_v<T, winrt::param::hstring>>>
-winrt::Windows::Foundation::IInspectable box_value(T const& value)
+winrt::Windows::Foundation::IInspectable box_value(T const& value);
 ```
 
 ### Template parameters

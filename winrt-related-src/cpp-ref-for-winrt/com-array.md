@@ -61,15 +61,15 @@ Initializes a new instance of the **com_array** struct with a copy of the input 
 
 ### Syntax
 ```cppwinrt
-com_array() noexcept
-com_array(winrt::com_array&& comArrayValue) noexcept
-template <typename InIt> com_array(InIt first, InIt last)
-template <uint32_t N> com_array(std::array<T, N> const& arrayValue)
-com_array(std::initializer_list<T> initializerListValue)
-com_array(std::vector<T> const& vectorValue)
-template <uint32_t N> com_array(T const(&rawArrayValue)[N])
-com_array(uint32_t const count)
-com_array(uint32_t const count, T const& value)
+com_array() noexcept;
+com_array(winrt::com_array&& comArrayValue) noexcept;
+template <typename InIt> com_array(InIt first, InIt last);
+template <uint32_t N> com_array(std::array<T, N> const& arrayValue);
+com_array(std::initializer_list<T> initializerListValue);
+com_array(std::vector<T> const& vectorValue);
+template <uint32_t N> com_array(T const(&rawArrayValue)[N]);
+com_array(uint32_t const count);
+com_array(uint32_t const count, T const& value);
 ```
 
 ### Template parameters
@@ -109,7 +109,7 @@ Makes the **com_array** object empty.
 
 ### Syntax
 ```cppwinrt
-void clear() noexcept
+void clear() noexcept;
 ```
 
 ## detach_abi function
@@ -117,8 +117,8 @@ Detaches a **com_array** object from its raw values without decrementing their r
 
 ### Syntax
 ```cppwinrt
-auto detach_abi(winrt::com_array<T>& object) noexcept
-auto detach_abi(winrt::com_array<T>&& object) noexcept
+auto detach_abi(winrt::com_array<T>& object) noexcept;
+auto detach_abi(winrt::com_array<T>&& object) noexcept;
 ```
 
 ### Parameters
@@ -133,7 +133,7 @@ Assigns a value to the **com_array** object.
 
 ### Syntax
 ```cppwinrt
-com_array& operator=(winrt::com_array&& comArrayValue) noexcept
+com_array& operator=(winrt::com_array&& comArrayValue) noexcept;
 ```
 
 ### Parameters
@@ -148,7 +148,7 @@ Swaps the contents of the two **com_array** parameters.
 
 ### Syntax
 ```cppwinrt
-void swap(winrt::com_array& left, winrt::com_array& right) noexcept
+void swap(winrt::com_array& left, winrt::com_array& right) noexcept;
 ```
 
 ### Parameters

@@ -20,7 +20,7 @@ A marker type used to request an event revoker when registering a delegate to ha
 
 ## Syntax
 ```cppwinrt
-struct auto_revoke_t {};
+struct auto_revoke_t
 constexpr auto_revoke_t auto_revoke{};
 ```
 

@@ -55,8 +55,8 @@ Initializes a new instance of the **agile_ref** struct, optionally with a copy o
 
 ### Syntax
 ```cppwinrt
-agile_ref(std::nullptr_t = nullptr) noexcept
-agile_ref(T const& object)
+agile_ref(std::nullptr_t = nullptr) noexcept;
+agile_ref(T const& object);
 ```
 
 ### Parameters
@@ -68,7 +68,7 @@ Retrieves a proxy to the target of the **agile_ref** object, which may safely be
 
 ### Syntax
 ```cppwinrt
-T get() const
+T get() const;
 ```
 
 ### Return value 
@@ -79,7 +79,7 @@ Checks whether the **agile_ref** object is targeting a valid C++/WinRT object or
 
 ### Syntax
 ```cppwinrt
-explicit operator bool() const noexcept
+explicit operator bool() const noexcept;
 ```
 
 ### Return value

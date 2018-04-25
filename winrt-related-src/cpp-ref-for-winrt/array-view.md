@@ -97,14 +97,14 @@ Initializes a new instance of the **array_view** struct with a copy of the input
 
 ### Syntax
 ```cppwinrt
-array_view() noexcept
-template <typename C, uint32_t N> array_view(C(&rawArrayValue)[N]) noexcept
-template <typename C, uint32_t N> array_view(std::array<C, N> const& arrayValue) noexcept
-template <typename C, uint32_t N> array_view(std::array<C, N>& arrayValue) noexcept
-array_view(std::initializer_list<T> initializerListValue) noexcept
-template <typename C> array_view(std::vector<C> const& vectorValue) noexcept
-template <typename C> array_view(std::vector<C>& vectorValue) noexcept
-array_view(T* first, T* last) noexcept
+array_view() noexcept;
+template <typename C, uint32_t N> array_view(C(&rawArrayValue)[N]) noexcept;
+template <typename C, uint32_t N> array_view(std::array<C, N> const& arrayValue) noexcept;
+template <typename C, uint32_t N> array_view(std::array<C, N>& arrayValue) noexcept;
+array_view(std::initializer_list<T> initializerListValue) noexcept;
+template <typename C> array_view(std::vector<C> const& vectorValue) noexcept;
+template <typename C> array_view(std::vector<C>& vectorValue) noexcept;
+array_view(T* first, T* last) noexcept;
 ```
 
 ### Template parameters
@@ -177,8 +177,8 @@ Returns a reference to the element at the specified position within the **array_
 
 ### Syntax
 ```cppwinrt
-T& at(uint32_t const pos)
-T const& at(uint32_t const pos) const
+T& at(uint32_t const pos);
+T const& at(uint32_t const pos) const;
 ```
 
 ### Parameters
@@ -193,8 +193,8 @@ Returns a reference to the last element in the **array_view** object.
 
 ### Syntax
 ```cppwinrt
-T const& back() const noexcept
-T& back() noexcept
+T const& back() const noexcept;
+T& back() noexcept;
 ```
 
 ### Return value
@@ -205,8 +205,8 @@ Returns an iterator to the first element in the **array_view** object. See [Iter
 
 ### Syntax
 ```cppwinrt
-stdext::checked_array_iterator<T const> begin() const noexcept
-stdext::checked_array_iterator<T> begin() noexcept
+stdext::checked_array_iterator<T const> begin() const noexcept;
+stdext::checked_array_iterator<T> begin() noexcept;
 ```
 
 ### Return value
@@ -217,7 +217,7 @@ Returns a const iterator to the first element in the **array_view** object. See 
 
 ### Syntax
 ```cppwinrt
-stdext::checked_array_iterator<T const> cbegin() const noexcept
+stdext::checked_array_iterator<T const> cbegin() const noexcept;
 ```
 
 ### Return value
@@ -228,7 +228,7 @@ Returns a const iterator to one beyond the end of (one beyond the last element i
 
 ### Syntax
 ```cppwinrt
-stdext::checked_array_iterator<T const> cend() const noexcept
+stdext::checked_array_iterator<T const> cend() const noexcept;
 ```
 
 ### Return value
@@ -239,7 +239,7 @@ Returns a const reverse iterator to one beyond the end of (one beyond the last e
 
 ### Syntax
 ```cppwinrt
-std::reverse_iterator<stdext::checked_array_iterator<T const>> crbegin() const noexcept
+std::reverse_iterator<stdext::checked_array_iterator<T const>> crbegin() const noexcept;
 ```
 
 ### Return value
@@ -250,7 +250,7 @@ Returns a const reverse iterator to the first element in the **array_view** obje
 
 ### Syntax
 ```cppwinrt
-std::reverse_iterator<stdext::checked_array_iterator<T const>> crend() const noexcept
+std::reverse_iterator<stdext::checked_array_iterator<T const>> crend() const noexcept;
 ```
 
 ### Return value
@@ -261,8 +261,8 @@ Returns a pointer to the underlying data being viewed by the **array_view** obje
 
 ### Syntax
 ```cppwinrt
-T const* data() const noexcept
-T* data() noexcept
+T const* data() const noexcept;
+T* data() noexcept;
 ```
 
 ### Return value
@@ -273,7 +273,7 @@ Returns a value indicating whether the **array_view** object is empty (is a view
 
 ### Syntax
 ```cppwinrt
-bool empty() const noexcept
+bool empty() const noexcept;
 ```
 
 ### Return value
@@ -284,8 +284,8 @@ Returns an iterator to one beyond the end of (one beyond the last element in) th
 
 ### Syntax
 ```cppwinrt
-stdext::checked_array_iterator<T const> end() const noexcept
-stdext::checked_array_iterator<T> end() noexcept
+stdext::checked_array_iterator<T const> end() const noexcept;
+stdext::checked_array_iterator<T> end() noexcept;
 ```
 
 ### Return value
@@ -296,8 +296,8 @@ Returns a reference to the first element in the **array_view** object.
 
 ### Syntax
 ```cppwinrt
-T const& front() const noexcept
-T& front() noexcept
+T const& front() const noexcept;
+T& front() noexcept;
 ```
 
 ### Return value
@@ -308,8 +308,8 @@ Returns a reference to the element at the specified position within the **array_
 
 ### Syntax
 ```cppwinrt
-T const& operator[](uint32_t const pos) const noexcept
-T& operator[](uint32_t const pos) noexcept
+T const& operator[](uint32_t const pos) const noexcept;
+T& operator[](uint32_t const pos) noexcept;
 ```
 
 ### Parameters
@@ -324,8 +324,8 @@ Returns a reverse iterator to one beyond the end of (one beyond the last element
 
 ### Syntax
 ```cppwinrt
-std::reverse_iterator<stdext::checked_array_iterator<T const>> rbegin() const noexcept
-std::reverse_iterator<stdext::checked_array_iterator<T>> rbegin() noexcept
+std::reverse_iterator<stdext::checked_array_iterator<T const>> rbegin() const noexcept;
+std::reverse_iterator<stdext::checked_array_iterator<T>> rbegin() noexcept;
 ```
 
 ### Return value
@@ -336,8 +336,8 @@ Returns a reverse iterator to the first element in the **array_view** object.
 
 ### Syntax
 ```cppwinrt
-std::reverse_iterator<stdext::checked_array_iterator<T const>> rend() const noexcept
-std::reverse_iterator<stdext::checked_array_iterator<T>> rend() noexcept
+std::reverse_iterator<stdext::checked_array_iterator<T const>> rend() const noexcept;
+std::reverse_iterator<stdext::checked_array_iterator<T>> rend() noexcept;
 ```
 
 ### Return value
@@ -348,7 +348,7 @@ Returns the number of elements in the **array_view** object.
 
 ### Syntax
 ```cppwinrt
-uint32_t size() const noexcept
+uint32_t size() const noexcept;
 ```
 
 ### Return value
@@ -359,7 +359,7 @@ Returns a value indicating whether the two parameters are unequal to one another
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator!=(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept
+template <typename T> bool operator!=(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept;
 ```
 
 ### Parameters
@@ -374,7 +374,7 @@ Returns a value indicating whether the first parameter is less than the second p
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator<(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept
+template <typename T> bool operator<(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept;
 ```
 
 ### Parameters
@@ -389,7 +389,7 @@ Returns a value indicating whether the first parameter is less than or equal to 
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator<=(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept
+template <typename T> bool operator<=(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept;
 ```
 
 ### Parameters
@@ -404,7 +404,7 @@ Returns a value indicating whether the two parameters are equal to one another.
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator==(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept
+template <typename T> bool operator==(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept;
 ```
 
 ### Parameters
@@ -419,7 +419,7 @@ Returns a value indicating whether the first parameter is greater than the secon
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator>(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept
+template <typename T> bool operator>(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept;
 ```
 
 ### Parameters
@@ -434,7 +434,7 @@ Returns a value indicating whether the first parameter is greater than or equal 
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator>=(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept
+template <typename T> bool operator>=(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept;
 ```
 
 ### Parameters

@@ -21,7 +21,7 @@ A helper function that returns a [weak_ref](weak-ref.md) object, representing a 
 ## Syntax
 ```cppwinrt
 template <typename T>
-weak_ref<impl::wrapped_type_t<T>> make_weak(T const& object)
+weak_ref<impl::wrapped_type_t<T>> make_weak(T const& object);
 ```
 
 ### Template parameters

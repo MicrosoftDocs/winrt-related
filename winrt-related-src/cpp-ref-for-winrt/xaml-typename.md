@@ -21,7 +21,7 @@ A helper function that returns the type name of a Windows Runtime type, in the f
 ## Syntax
 ```cppwinrt
 template <typename T>
-inline winrt::Windows::UI::Xaml::Interop::TypeName xaml_typename()
+inline winrt::Windows::UI::Xaml::Interop::TypeName xaml_typename();
 ```
 
 ### Template parameters
