@@ -61,6 +61,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [non_agile marker struct](non-agile.md) | A marker type used to indicate that your type is not agile, and consequently does not implement the [IAgileObject interface](https://msdn.microsoft.com/library/windows/desktop/hh802476). |
 | [put_abi function](put-abi.md) | A helper function that retrieves the address of a C++/WinRT object's underlying IUnknown interface pointer so that it can be set to another value. |
 | [swap function](swap.md) | A helper function that swaps the contents of two values. |
+| [throw_hresult function](error-handling/throw-hresult.md) | A helper function that takes a HRESULT error code, and throws an exception using a C++/WinRT object that represents that error code. |
 | [unbox_value function template](unbox-value.md) | A function template that unwraps (or *unboxes*) a scalar value from inside a reference class object so that it can be processed in a function that expects **IInspectable**. |
 | [unbox_value_or function template](unbox-value-or.md) | A function template that unwraps (or *unboxes*) a scalar value from inside a reference class object, with a fallback value, so that it can be processed in a function that expects **IInspectable**. |
 | [weak_ref struct template](weak-ref.md) | A type representing a weak reference to a C++/WinRT object or interface. |

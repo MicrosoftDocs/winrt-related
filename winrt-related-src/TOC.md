@@ -953,6 +953,7 @@
 #### [hresult_not_implemented struct](cpp-ref-for-winrt/error-handling/hresult-not-implemented.md)
 #### [hresult_out_of_bounds struct](cpp-ref-for-winrt/error-handling/hresult-out-of-bounds.md)
 #### [hresult_wrong_thread struct](cpp-ref-for-winrt/error-handling/hresult-wrong-thread.md)
+#### [throw_hresult function](cpp-ref-for-winrt/error-handling/throw-hresult.md)
 ### [event struct template](cpp-ref-for-winrt/event.md)
 ### [event_token struct](cpp-ref-for-winrt/event-token.md)
 ### [from_abi function template](cpp-ref-for-winrt/from-abi.md)

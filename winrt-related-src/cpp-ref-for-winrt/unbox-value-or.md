@@ -20,7 +20,7 @@ A function template that unwraps (or *unboxes*) a scalar value from inside a ref
 ## Syntax
 ```cppwinrt
 template <typename T>
-hstring unbox_value_or(winrt::Windows::Foundation::IInspectable const& value, winrt::param::hstring const& default_value);
+hstring unbox_value_or(winrt::Windows::Foundation::IInspectable const& value, winrt::hstring const& default_value);
 
 template <typename T, typename = std::enable_if_t<!std::is_same_v<T, winrt::hstring>>>
 T unbox_value_or(winrt::Windows::Foundation::IInspectable const& value, T const& default_value);
