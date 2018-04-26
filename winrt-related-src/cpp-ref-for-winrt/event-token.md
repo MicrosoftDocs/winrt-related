@@ -30,10 +30,10 @@ struct event_token
 
 **Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
-## Member fields
+## Data members
 |Function|Description|
 |------------|-----------------|
-|[event_token::value field](#event_tokenvalue-field)|An opaque numeric value uniquely representing the registration of a delegate with an event.|
+|[event_token::value data member](#event_tokenvalue-data-member)|An opaque numeric value uniquely representing the registration of a delegate with an event.|
 
 ## Member operators
 |Operator|Description|
@@ -45,14 +45,6 @@ struct event_token
 |------------|-----------------|
 |[operator== (equality operator)](#operator-equality-operator)|Returns a value indicating whether the two parameters are equal to one another.|
 
-## event_token value field
-An opaque numeric value uniquely representing the registration of a delegate with an event.
-
-### Syntax
-```cppwinrt
-int64_t value{};
-```
-
 ## event_token::operator bool
 Checks whether or not the **event_token** object is valid and initialized.
 
@@ -63,6 +55,14 @@ explicit operator bool() const noexcept;
 
 ### Return value
 `true` if the **event_token** object is valid and initialized (the value of its `value` field is not zero), otherwise `false`.
+
+## event_token::value data member
+An opaque numeric value uniquely representing the registration of a delegate with an event.
+
+### Syntax
+```cppwinrt
+int64_t value{};
+```
 
 ## operator== (equality operator)
 Returns a value indicating whether the two parameters are equal to one another.

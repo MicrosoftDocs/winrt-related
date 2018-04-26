@@ -39,6 +39,19 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [from_abi function template](from-abi.md) | A helper function that, given a projected interface object, retrieves a pointer to the implementation. |
 | [get_abi function](get-abi.md) | A helper function that retrieves a pointer to a C++/WinRT object's underlying [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509). |
 | [hstring struct](hstring.md) | A sequential collection of UTF-16 Unicode characters representing a text string. |
+| [hresult_access_denied struct](error-handling/hresult-access-denied.md) | A type derived from [winrt::hresult_error](error-handling/hresult-error.md), representing an E_ACCESSDENIED HRESULT error code. |
+| [hresult_canceled struct](error-handling/hresult-canceled.md) | A type derived from [winrt::hresult_error](error-handling/hresult-error.md), representing an ERROR_CANCELLED HRESULT error code. |
+| [hresult_changed_state struct](error-handling/hresult-changed-state.md) | A type derived from [winrt::hresult_error](error-handling/hresult-error.md), representing an E_CHANGED_STATE HRESULT error code. |
+| [hresult_class_not_available struct](error-handling/hresult-class-not-available.md) | A type derived from [winrt::hresult_error](error-handling/hresult-error.md), representing an CLASS_E_CLASSNOTAVAILABLE HRESULT error code. |
+| [hresult_error struct](error-handling/hresult-error.md) | A type representing an HRESULT error code. |
+| [hresult_illegal_delegate_assignment struct](error-handling/hresult-illegal-delegate-assignment.md) | A type derived from [winrt::hresult_error](error-handling/hresult-error.md), representing an E_ILLEGAL_DELEGATE_ASSIGNMENT HRESULT error code. |
+| [hresult_illegal_method_call struct](error-handling/hresult-illegal-method-call.md) | A type derived from [winrt::hresult_error](error-handling/hresult-error.md), representing an E_ILLEGAL_METHOD_CALL HRESULT error code. |
+| [hresult_illegal_state_change struct](error-handling/hresult-illegal-state-change.md) | A type derived from [winrt::hresult_error](error-handling/hresult-error.md), representing an E_ILLEGAL_STATE_CHANGE HRESULT error code. |
+| [hresult_invalid_argument struct](error-handling/hresult-invalid-argument.md) | A type derived from [winrt::hresult_error](error-handling/hresult-error.md), representing an E_INVALIDARG HRESULT error code. |
+| [hresult_no_interface struct](error-handling/hresult-no-interface.md) | A type derived from [winrt::hresult_error](error-handling/hresult-error.md), representing an E_NOINTERFACE HRESULT error code. |
+| [hresult_not_implemented struct](error-handling/hresult-not-implemented.md) | A type derived from [winrt::hresult_error](error-handling/hresult-error.md), representing an E_NOTIMPL HRESULT error code. |
+| [hresult_out_of_bounds struct](error-handling/hresult-out-of-bounds.md) | A type derived from [winrt::hresult_error](error-handling/hresult-error.md), representing an E_BOUNDS HRESULT error code. |
+| [hresult_wrong_thread struct](error-handling/hresult-wrong-thread.md) | A type derived from [winrt::hresult_error](error-handling/hresult-error.md), representing an RPC_E_WRONG_THREAD HRESULT error code. |
 | [implements struct template](implements.md) | A base struct template that implements one or more Windows Runtime interfaces on behalf of a derived type. |
 | [make function template](make.md) | A factory method that returns an instance of a projected type or interface when parameterized with the corresponding implementation type. |
 | [make_agile function template](make-agile.md) | A helper function that returns an [agile_ref](agile-ref.md) object, representing an agile reference to a C++/WinRT object or interface. |
