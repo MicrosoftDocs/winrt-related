@@ -7,14 +7,14 @@ author: TylerMSFT
 ms.prod: windows
 ms.technology: winrt-reference
 ms.topic: reference
-ms.date: 3/28/2018
+ms.date: 5/2/2018
 keywords: windows 10, uwp, desktop extension sdk, api contract
 ---
 # Windows Desktop Extension SDK API contracts for UWP
 
 See a list of all the API contracts in the Windows desktop extension SDK for the Universal Windows Platform (UWP).
 
-## Version 10.0.17134.0
+## Version 10.0.17134.1
 
 Windows.ApplicationModel.Activation.ActivatedEventsContract, version=1.0
 Windows.ApplicationModel.Activation.ActivationCameraSettingsContract, version=1.0
