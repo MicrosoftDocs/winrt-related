@@ -5,7 +5,7 @@ title: winrt::array_view struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 manager: "markl"
-ms.date: 03/01/2018
+ms.date: 04/10/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"
 ms.prod: windows
@@ -15,10 +15,7 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::array_view struct template (C++/WinRT)
-> [!NOTE]
-> **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
+# winrt::array_view struct template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
 A view, or span, of a contiguous series of values. For more examples and info about **winrt::array_view**, see [Standard C++ data types and C++/WinRT](/windows/uwp/cpp-and-winrt-apis/std-cpp-data-types).
 
 ## Syntax
@@ -32,11 +29,11 @@ struct array_view
 The type of the values (elements) that the **array_view** views, or spans.
 
 ## Requirements
-**Minimum supported SDK:** Windows SDK for Windows 10, version 1803
+**Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
 
 **Namespace:** winrt
 
-**Header** %ProgramFiles(x86)%\Windows Kits\10\Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## Constructors
 |Constructor|Description|
@@ -100,14 +97,14 @@ Initializes a new instance of the **array_view** struct with a copy of the input
 
 ### Syntax
 ```cppwinrt
-array_view() noexcept
-template <typename C, uint32_t N> array_view(C(&rawArrayValue)[N]) noexcept
-template <typename C, uint32_t N> array_view(std::array<C, N> const& arrayValue) noexcept
-template <typename C, uint32_t N> array_view(std::array<C, N>& arrayValue) noexcept
-array_view(std::initializer_list<T> initializerListValue) noexcept
-template <typename C> array_view(std::vector<C> const& vectorValue) noexcept
-template <typename C> array_view(std::vector<C>& vectorValue) noexcept
-array_view(T* first, T* last) noexcept
+array_view() noexcept;
+template <typename C, uint32_t N> array_view(C(&rawArrayValue)[N]) noexcept;
+template <typename C, uint32_t N> array_view(std::array<C, N> const& arrayValue) noexcept;
+template <typename C, uint32_t N> array_view(std::array<C, N>& arrayValue) noexcept;
+array_view(std::initializer_list<T> initializerListValue) noexcept;
+template <typename C> array_view(std::vector<C> const& vectorValue) noexcept;
+template <typename C> array_view(std::vector<C>& vectorValue) noexcept;
+array_view(T* first, T* last) noexcept;
 ```
 
 ### Template parameters
@@ -180,8 +177,8 @@ Returns a reference to the element at the specified position within the **array_
 
 ### Syntax
 ```cppwinrt
-T& at(uint32_t const pos)
-T const& at(uint32_t const pos) const
+T& at(uint32_t const pos);
+T const& at(uint32_t const pos) const;
 ```
 
 ### Parameters
@@ -196,8 +193,8 @@ Returns a reference to the last element in the **array_view** object.
 
 ### Syntax
 ```cppwinrt
-T const& back() const noexcept
-T& back() noexcept
+T const& back() const noexcept;
+T& back() noexcept;
 ```
 
 ### Return value
@@ -208,8 +205,8 @@ Returns an iterator to the first element in the **array_view** object. See [Iter
 
 ### Syntax
 ```cppwinrt
-stdext::checked_array_iterator<T const> begin() const noexcept
-stdext::checked_array_iterator<T> begin() noexcept
+stdext::checked_array_iterator<T const> begin() const noexcept;
+stdext::checked_array_iterator<T> begin() noexcept;
 ```
 
 ### Return value
@@ -220,7 +217,7 @@ Returns a const iterator to the first element in the **array_view** object. See 
 
 ### Syntax
 ```cppwinrt
-stdext::checked_array_iterator<T const> cbegin() const noexcept
+stdext::checked_array_iterator<T const> cbegin() const noexcept;
 ```
 
 ### Return value
@@ -231,7 +228,7 @@ Returns a const iterator to one beyond the end of (one beyond the last element i
 
 ### Syntax
 ```cppwinrt
-stdext::checked_array_iterator<T const> cend() const noexcept
+stdext::checked_array_iterator<T const> cend() const noexcept;
 ```
 
 ### Return value
@@ -242,7 +239,7 @@ Returns a const reverse iterator to one beyond the end of (one beyond the last e
 
 ### Syntax
 ```cppwinrt
-std::reverse_iterator<stdext::checked_array_iterator<T const>> crbegin() const noexcept
+std::reverse_iterator<stdext::checked_array_iterator<T const>> crbegin() const noexcept;
 ```
 
 ### Return value
@@ -253,7 +250,7 @@ Returns a const reverse iterator to the first element in the **array_view** obje
 
 ### Syntax
 ```cppwinrt
-std::reverse_iterator<stdext::checked_array_iterator<T const>> crend() const noexcept
+std::reverse_iterator<stdext::checked_array_iterator<T const>> crend() const noexcept;
 ```
 
 ### Return value
@@ -264,8 +261,8 @@ Returns a pointer to the underlying data being viewed by the **array_view** obje
 
 ### Syntax
 ```cppwinrt
-T const* data() const noexcept
-T* data() noexcept
+T const* data() const noexcept;
+T* data() noexcept;
 ```
 
 ### Return value
@@ -276,7 +273,7 @@ Returns a value indicating whether the **array_view** object is empty (is a view
 
 ### Syntax
 ```cppwinrt
-bool empty() const noexcept
+bool empty() const noexcept;
 ```
 
 ### Return value
@@ -287,8 +284,8 @@ Returns an iterator to one beyond the end of (one beyond the last element in) th
 
 ### Syntax
 ```cppwinrt
-stdext::checked_array_iterator<T const> end() const noexcept
-stdext::checked_array_iterator<T> end() noexcept
+stdext::checked_array_iterator<T const> end() const noexcept;
+stdext::checked_array_iterator<T> end() noexcept;
 ```
 
 ### Return value
@@ -299,8 +296,8 @@ Returns a reference to the first element in the **array_view** object.
 
 ### Syntax
 ```cppwinrt
-T const& front() const noexcept
-T& front() noexcept
+T const& front() const noexcept;
+T& front() noexcept;
 ```
 
 ### Return value
@@ -311,8 +308,8 @@ Returns a reference to the element at the specified position within the **array_
 
 ### Syntax
 ```cppwinrt
-T const& operator[](uint32_t const pos) const noexcept
-T& operator[](uint32_t const pos) noexcept
+T const& operator[](uint32_t const pos) const noexcept;
+T& operator[](uint32_t const pos) noexcept;
 ```
 
 ### Parameters
@@ -327,8 +324,8 @@ Returns a reverse iterator to one beyond the end of (one beyond the last element
 
 ### Syntax
 ```cppwinrt
-std::reverse_iterator<stdext::checked_array_iterator<T const>> rbegin() const noexcept
-std::reverse_iterator<stdext::checked_array_iterator<T>> rbegin() noexcept
+std::reverse_iterator<stdext::checked_array_iterator<T const>> rbegin() const noexcept;
+std::reverse_iterator<stdext::checked_array_iterator<T>> rbegin() noexcept;
 ```
 
 ### Return value
@@ -339,8 +336,8 @@ Returns a reverse iterator to the first element in the **array_view** object.
 
 ### Syntax
 ```cppwinrt
-std::reverse_iterator<stdext::checked_array_iterator<T const>> rend() const noexcept
-std::reverse_iterator<stdext::checked_array_iterator<T>> rend() noexcept
+std::reverse_iterator<stdext::checked_array_iterator<T const>> rend() const noexcept;
+std::reverse_iterator<stdext::checked_array_iterator<T>> rend() noexcept;
 ```
 
 ### Return value
@@ -351,7 +348,7 @@ Returns the number of elements in the **array_view** object.
 
 ### Syntax
 ```cppwinrt
-uint32_t size() const noexcept
+uint32_t size() const noexcept;
 ```
 
 ### Return value
@@ -362,7 +359,7 @@ Returns a value indicating whether the two parameters are unequal to one another
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator!=(array_view<T> const& left, array_view<T> const& right) noexcept
+template <typename T> bool operator!=(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept;
 ```
 
 ### Parameters
@@ -377,7 +374,7 @@ Returns a value indicating whether the first parameter is less than the second p
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator<(array_view<T> const& left, array_view<T> const& right) noexcept
+template <typename T> bool operator<(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept;
 ```
 
 ### Parameters
@@ -392,7 +389,7 @@ Returns a value indicating whether the first parameter is less than or equal to 
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator<=(array_view<T> const& left, array_view<T> const& right) noexcept
+template <typename T> bool operator<=(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept;
 ```
 
 ### Parameters
@@ -407,7 +404,7 @@ Returns a value indicating whether the two parameters are equal to one another.
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator==(array_view<T> const& left, array_view<T> const& right) noexcept
+template <typename T> bool operator==(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept;
 ```
 
 ### Parameters
@@ -422,7 +419,7 @@ Returns a value indicating whether the first parameter is greater than the secon
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator>(array_view<T> const& left, array_view<T> const& right) noexcept
+template <typename T> bool operator>(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept;
 ```
 
 ### Parameters
@@ -437,7 +434,7 @@ Returns a value indicating whether the first parameter is greater than or equal 
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator>=(array_view<T> const& left, array_view<T> const& right) noexcept
+template <typename T> bool operator>=(winrt::array_view<T> const& left, winrt::array_view<T> const& right) noexcept;
 ```
 
 ### Parameters
@@ -448,4 +445,4 @@ An **array_view** value to compare with the other parameter.
 `true` if the first parameter is greater than or equal to the second parameter, otherwise `false`.
 
 ## See also 
-[winrt namespace (C++/WinRT)](winrt.md)
+* [winrt namespace](winrt.md)

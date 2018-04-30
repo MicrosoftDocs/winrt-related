@@ -5,7 +5,7 @@ title: winrt::xaml_typename function template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 manager: "markl"
-ms.date: 03/23/2018
+ms.date: 04/10/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"
 ms.prod: windows
@@ -15,16 +15,13 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::xaml_typename function template (C++/WinRT)
-> [!NOTE]
-> **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
+# winrt::xaml_typename function template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
 A helper function that returns the type name of a Windows Runtime type, in the form of a [Windows::UI::Xaml::Interop::TypeName](/uwp/api/windows.ui.xaml.interop.typename) object.
 
 ## Syntax
 ```cppwinrt
 template <typename T>
-inline Windows::UI::Xaml::Interop::TypeName xaml_typename()
+inline winrt::Windows::UI::Xaml::Interop::TypeName xaml_typename();
 ```
 
 ### Template parameters
@@ -49,11 +46,11 @@ void App::OnLaunched(LaunchActivatedEventArgs const& e)
 ```
 
 ## Requirements
-**Minimum supported SDK:** Windows SDK for Windows 10, version 1803
+**Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
 
 **Namespace:** winrt
 
-**Header** %ProgramFiles(x86)%\Windows Kits\10\Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## See also 
-* [winrt namespace (C++/WinRT)](winrt.md)
+* [winrt namespace](winrt.md)

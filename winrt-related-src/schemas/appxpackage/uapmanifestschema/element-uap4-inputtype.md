@@ -4,7 +4,7 @@ ms.assetid: 5734c798-95d1-4028-a72a-33a0754aaba5
 title: uap4:InputType
 description: The media codec input type.
 ms.author: lahugh
-ms.date: 04/05/2017
+ms.date: 04/10/2018
 ms.topic: reference
 ms.prod: windows
 ms.technology: winrt-reference
@@ -59,7 +59,8 @@ The media codec input type.
 
 ## Syntax
 ```syntax
-<uap4:InputType SubType = Either a 4 character code or a GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. >                 
+<uap4:InputType SubType            = Either a 4 character code or a GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. 
+                uap6:CodecMimeType = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. />                 
 ```
 
 
@@ -67,6 +68,7 @@ The media codec input type.
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | SubType | Either a GUID or a format type of the codec. | Either a 4 character code or a GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |
+| uap6:CodecMimeType | The value of the "codecs" field within a MIME type. E.g., the value "hvc1" within "video/mp4;codecs='hvc1'" | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
 
 
 ## Requirements

@@ -9,7 +9,7 @@ keywords: windows 10, uwp, schema, package manifest
 ms.prod: windows
 ms.technology: winrt-reference
 ms.topic: reference
-ms.date: 04/05/2017
+ms.date: 04/10/2018
 ---
 
 # Application (Windows 10)
@@ -32,13 +32,13 @@ Represents an app that comprises part of or all of the functionality delivered i
 ## Syntax
 
 ``` syntax
-<Application Id             = An ASCII string between 1 and 64 characters in length. See the Attributes table for more information on character restrictions.
-             Executable?    = A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used.
-             EntryPoint?    = A string between 1 and 256 characters in length, representing the  task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type.
-If EntryPoint is not specified, the EntryPoint defined for the app is used instead.
-
-             StartPage?     = Any valid URI or IRI (the non-ASCII version of a URI). See below for more details. 
-             ResourceGroup? = An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. >
+<Application Id                  = An ASCII string between 1 and 64 characters in length. See the Attributes table for more information on character restrictions.
+             Executable?         = A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used.
+             EntryPoint?         = A string between 1 and 256 characters in length, representing the  task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead.
+             StartPage?          = Any valid URI or IRI (the non-ASCII version of a URI). See below for more details. 
+             ResourceGroup?      = An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.
+             desktop4:Subsystem? = String value. Can be one of the following: "console", "windows"
+             desktop4:SupportsMultipleInstances? = Boolean. >
 
   <!-- Child elements -->
   ( uap:VisualElements
@@ -120,6 +120,20 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 <td>No</td>
 <td></td>
 </tr>
+<tr class="even">
+<td><strong>uap4:Subsystem</strong></td>
+<td><p>Indicates whether the app is a standard UWP app or a UWP console app.</p></td>
+<td>String value. Can be one of the following: "console", "windows". </td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>uap4:SupportsMultipleInstances</strong></td>
+<td><p>Indicates support of multiple, separate instances of UWP apps.</p></td>
+<td>Boolean value.</td>
+<td>No</td>
+<td></td>
+</tr>
 </tbody>
 </table>
 
@@ -184,6 +198,13 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 The **Application** element contains attributes that are common to the extensibility points that pertain to the app. This information is used by other extensibility points to get information about the app. Also, **Application** attributes are used in the start and management of an instance of the app.
 
 The **StartPage** applies only to a JavaScript app. If **StartPage** is not specified, then both the **Executable** and **EntryPoint** attributes must be specified, and this applies only to a C#, C++, or VB app.
+
+Important notes about multi-instancing apps:
+- If an app declares **SupportsMultipleInstances** within the **Application** element, then all foreground extensions will also be multi-instanced. 
+- The app should only declare **SupportsMultipleInstances** on background tasks, background audio, or app services. 
+- If the app declares **SupportsMultipleInstances** at the `Application` node, then it does not need to be declared at the [Extensions](element-1-extensions.md) level.
+- Console apps will always be multi-instanced and must explicitly declare **SupportsMultipleInstances**.
+- Apps can use the **ResourceGroup** declaration in the manifest to group multiple background tasks into the same host. This conflicts with multi-instancing, where each activation goes into a separate host. Therefore, an app cannot declare both **SupportsMultipleInstances** and **ResourceGroup** in the manifest. 
 
 ## Requirements
 

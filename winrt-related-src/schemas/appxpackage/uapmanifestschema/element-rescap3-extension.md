@@ -4,7 +4,7 @@ ms.assetid: d90b7275-21bd-46c7-89a7-c832a95186c6
 title: rescap3:Extension
 description: Declares an extensibility point for the app.
 ms.author: lahugh
-ms.date: 04/05/2017
+ms.date: 04/10/2018
 ms.topic: reference
 ms.prod: windows
 ms.technology: winrt-reference
@@ -47,7 +47,8 @@ Declares an extensibility point for the app.
                    StartPage?     = A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *. >
 
   <!-- Child elements -->
-  rescap3:DesktopAppMigration
+  ( rescap3:DesktopAppMigration | 
+    rescap3:LockScreenComponent )?
 </rescap3:Extension>
 ```
 
@@ -57,7 +58,7 @@ Declares an extensibility point for the app.
 ## Attributes
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
-| Category | The category of the extension. | One of the following: windows.appPrinter, windows.searchFilterHandler, windows.searchPropertyHandler, windows.mailProvider | Yes |
+| Category | The category of the extension. | One of the following: windows.desktopAppMigration, windows.lockScreenComponent | Yes |
 | Executable | The default launch executable. | A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", &#124;, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | No |
 | EntryPoint | The activatable class ID. | A string between 1 and 256 characters in length, representing the task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |
 | RuntimeType | The runtime provider. This attribute is used typically when there are mixed frameworks in an app. | A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, &#124;, ?, or *. | No |

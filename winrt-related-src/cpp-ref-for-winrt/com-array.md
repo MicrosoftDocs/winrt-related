@@ -1,11 +1,11 @@
 ---
 author: stevewhims
-description: A view, or span, of a contiguous series of values for passing to and from WinRT APIs.
+description: A view, or span, of a contiguous series of values for passing to and from Windows Runtime APIs.
 title: winrt::com_array struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 manager: "markl"
-ms.date: 03/01/2018
+ms.date: 04/10/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"
 ms.prod: windows
@@ -15,16 +15,13 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::com_array struct template (C++/WinRT)
-> [!NOTE]
-> **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
-A view, or span, of a contiguous series of values for passing to and from WinRT APIs. **winrt::com_array** *is a* **winrt::array_view**, so it's important to see the [winrt::array_view struct template](array-view.md) topic to learn about the members and free operators that are also available to **winrt::com_array**.
+# winrt::com_array struct template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+A view, or span, of a contiguous series of values for passing to and from Windows Runtime APIs. **winrt::com_array** *is a* **winrt::array_view**, so it's important to see the [winrt::array_view struct template](array-view.md) topic to learn about the members and free operators that are also available to **winrt::com_array**.
 
 ## Syntax
 ```cppwinrt
 template <typename T>
-struct com_array : array_view<T>
+struct com_array : winrt::array_view<T>
 ```
 
 ### Template parameters
@@ -32,11 +29,11 @@ struct com_array : array_view<T>
 The type of the values (elements) that the **com_array** views, or spans.
 
 ## Requirements
-**Minimum supported SDK:** Windows SDK for Windows 10, version 1803
+**Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
 
 **Namespace:** winrt
 
-**Header** %ProgramFiles(x86)%\Windows Kits\10\Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## Constructors
 |Constructor|Description|
@@ -49,29 +46,30 @@ The type of the values (elements) that the **com_array** views, or spans.
 |[com_array::clear function](#comarrayclear-function)|Makes the **com_array** object empty.|
 
 ## Member operators
-|Operator|Description| 
+|Operator|Description|
 |------------|-----------------|
 |[com_array::operator= (assignment operator)](#comarrayoperator-assignment-operator)|Assigns a value to the **com_array** object.|
 
 ## Free functions
 |Function|Description|
 |------------|-----------------| 
-|[swap function](#swap-function)|Swaps the contents of the two **com_array** parameters.| 
+|[detach_abi function](#detachabi-function)|Detaches a **com_array** object from its raw values without decrementing their reference counts, perhaps to return them to a caller. The **com_array** is cleared.|
+|[swap function](#swap-function)|Swaps the contents of the two **com_array** parameters.|
 
 ## com_array::com_array constructor
 Initializes a new instance of the **com_array** struct with a copy of the input data.
 
 ### Syntax
 ```cppwinrt
-com_array() noexcept
-com_array(com_array&& comArrayValue) noexcept
-template <typename InIt> com_array(InIt first, InIt last)
-template <uint32_t N> com_array(std::array<T, N> const& arrayValue)
-com_array(std::initializer_list<T> initializerListValue)
-com_array(std::vector<T> const& vectorValue)
-template <uint32_t N> com_array(T const(&rawArrayValue)[N])
-com_array(uint32_t const count)
-com_array(uint32_t const count, T const& value)
+com_array() noexcept;
+com_array(winrt::com_array&& comArrayValue) noexcept;
+template <typename InIt> com_array(InIt first, InIt last);
+template <uint32_t N> com_array(std::array<T, N> const& arrayValue);
+com_array(std::initializer_list<T> initializerListValue);
+com_array(std::vector<T> const& vectorValue);
+template <uint32_t N> com_array(T const(&rawArrayValue)[N]);
+com_array(uint32_t const count);
+com_array(uint32_t const count, T const& value);
 ```
 
 ### Template parameters
@@ -111,15 +109,31 @@ Makes the **com_array** object empty.
 
 ### Syntax
 ```cppwinrt
-void clear() noexcept
+void clear() noexcept;
 ```
+
+## detach_abi function
+Detaches a **com_array** object from its raw values without decrementing their reference counts, perhaps to return them to a caller. The **com_array** is cleared.
+
+### Syntax
+```cppwinrt
+auto detach_abi(winrt::com_array<T>& object) noexcept;
+auto detach_abi(winrt::com_array<T>&& object) noexcept;
+```
+
+### Parameters
+`object`
+A **com_array** object to operate on.
+
+### Return value
+A two-element tuple containing an element count, and the contiguous series of values that the **com_array** spanned.
 
 ## com_array::operator= (assignment operator)
 Assigns a value to the **com_array** object.
 
 ### Syntax
 ```cppwinrt
-com_array& operator=(com_array&& comArrayValue) noexcept
+com_array& operator=(winrt::com_array&& comArrayValue) noexcept;
 ```
 
 ### Parameters
@@ -134,7 +148,7 @@ Swaps the contents of the two **com_array** parameters.
 
 ### Syntax
 ```cppwinrt
-void swap(com_array& left, com_array& right) noexcept
+void swap(winrt::com_array& left, winrt::com_array& right) noexcept;
 ```
 
 ### Parameters
@@ -151,4 +165,4 @@ using namespace winrt;
 ```
 
 ## See also 
-[winrt namespace (C++/WinRT)](winrt.md)
+* [winrt namespace](winrt.md)

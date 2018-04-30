@@ -1,0 +1,46 @@
+---
+author: stevewhims
+description: A helper function that attaches a C++/WinRT object to a handle, or to a raw pointer that owns a reference to its target.
+title: winrt::attach_abi function (C++/WinRT)
+dev_langs: ["C++"]
+ms.author: stwhi
+manager: "markl"
+ms.date: 04/11/2018
+ms.technology: "cpp-windows"
+ms.topic: "language-reference"
+ms.prod: windows
+ms.technology: uwp
+keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, attach_abi
+ms.localizationpriority: medium
+ms.workload: ["cplusplus"]
+---
+
+# winrt::attach_abi function ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+A helper function that attaches a C++/WinRT object to a handle, or to a raw pointer that owns a reference to its target. In the case of pointers, an additional reference is not added. If needed, you can use this function to coalesce references.
+
+## Syntax
+```cppwinrt
+void attach_abi(winrt::com_ptr<T>& object, impl::abi_t<T>* value) noexcept;
+void attach_abi(winrt::hstring& object, HSTRING value) noexcept;
+void attach_abi(winrt::Windows::Foundation::IUnknown& object, void* value) noexcept;
+```
+
+### Parameters
+`object`
+A C++/WinRT object to operate on.
+
+`value`
+A handle, or a raw pointer that owns a reference to its target.
+
+## Requirements
+**Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
+
+**Namespace:** winrt
+
+**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+
+## See also 
+* [winrt namespace](winrt.md)
+* [winrt::com_ptr struct template](com-ptr.md)
+* [winrt::hstring struct](hstring.md)
+* [winrt::Windows::Foundation::IUnknown struct](windows-foundation-iunknown.md)

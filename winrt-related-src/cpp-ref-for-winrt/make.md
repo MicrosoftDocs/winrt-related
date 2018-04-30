@@ -1,11 +1,11 @@
 ---
 author: stevewhims
-description: A factory method that returns an instance of the projected type for a runtime class when parameterized with the corresponding implementation type.
+description: A factory method that returns an instance of a projected type or interface when parameterized with the corresponding implementation type.
 title: winrt::make function template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 manager: "markl"
-ms.date: 03/01/2018
+ms.date: 04/17/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"
 ms.prod: windows
@@ -15,38 +15,47 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::make function template (C++/WinRT)
-> [!NOTE]
-> **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+# winrt::make function template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+A factory method that, when a C++/WinRT implementation type is provided as a type parameter, returns one of the following.
 
-A factory method that returns an instance of the projected type for a runtime class when parameterized with the corresponding implementation type. For an explanation of the implementation type and projected type concepts, see [Implementation and projected types for a C++/WinRT runtime class](/windows/uwp/cpp-and-winrt-apis/ctors-runtimeclass-activation). For more details, code, and a walkthrough of calling **make** in practice, see [XAML; binding a control to C++/WinRT properties and collections](/windows/uwp/cpp-and-winrt-apis/binding-prop-collection#add-a-property-of-type-booksku-to-mainpage). Also see [make_self](make-self.md).
+- If you're authoring a component to be consumed from an app, then call **make** to return the default (projected) interface of the implementation type. In this case, your project doesn't contain a projected type.
+- If you're both implementing and consuming a runtime class within the same compilation unit&mdash;for example, authoring a type to be consumed from XAML UI&mdash;then call **make** to return an instance of the projected type.
+
+For an explanation of the implementation type and projected type concepts, see [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis.md) and [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis.md). For more details, code, and a walkthrough of calling **make** in practice, see [XAML; binding a control to C++/WinRT properties and collections](/windows/uwp/cpp-and-winrt-apis/binding-prop-collection#add-a-property-of-type-booksku-to-mainpage). Also see [make_self](make-self.md).
 
 ## Syntax
 ```cppwinrt
+template <typename D, typename... Args, std::enable_if_t<!impl::has_composable<D>::value && !impl::has_class_type<D>::value>* = nullptr>
+auto make(Args&&... args);
+
 template <typename D, typename... Args, std::enable_if_t<!impl::has_composable<D>::value && impl::has_class_type<D>::value>* = nullptr>
-auto make(Args&&... args)
+auto make(Args&&... args);
+
+template <typename D, typename... Args, std::enable_if_t<impl::has_composable<D>::value>* = nullptr>
+auto make(Args&&... args);
 ```
 
 ### Template parameters
 `typename D`
-The implementation type for a runtime class.
+An implementation type.
 
 ### Parameters
 `args`
 Any constructor arguments for the constructor being invoked.
 
 ### Return value 
-A newly-created instance of the projected type for the runtime class.
+The default interface of the implementation type if no projected type exists, otherwise an instance of the projected type.
 
 ## Requirements
-**Minimum supported SDK:** Windows SDK for Windows 10, version 1803
+**Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
 
 **Namespace:** winrt
 
-**Header** %ProgramFiles(x86)%\Windows Kits\10\Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## See also 
-* [winrt namespace (C++/WinRT)](winrt.md)
-* [make_self](make-self.md)
-* [Implementation and projected types for a C++/WinRT runtime class](/windows/uwp/cpp-and-winrt-apis/ctors-runtimeclass-activation)
+* [winrt namespace](winrt.md)
+* [winrt::make_self function template](make-self.md)
+* [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis.md)
+* [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis.md)
 * [XAML; binding a control to C++/WinRT properties and collections](/windows/uwp/cpp-and-winrt-apis/binding-prop-collection#add-a-property-of-type-booksku-to-mainpage)

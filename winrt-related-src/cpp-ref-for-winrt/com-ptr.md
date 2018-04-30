@@ -5,20 +5,17 @@ title: winrt::com_ptr struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 manager: "markl"
-ms.date: 03/15/2018
+ms.date: 04/10/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"
 ms.prod: windows
 ms.technology: uwp
-keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, array, view, com, smart, pointer
+keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, com, smart, pointer
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::com_ptr struct template (C++/WinRT)
-> [!NOTE]
-> **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
+# winrt::com_ptr struct template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
 A reference-counted COM smart pointer template. **com_ptr** represents a pointer to the interface or runtime class implementation type specified by the template parameter. It automatically manages the reference count for its target through a private raw pointer.
 
 ## Syntax
@@ -32,29 +29,29 @@ struct com_ptr
 The interface, or runtime class implementation type, a pointer to which is represented by the **com_ptr**. This is the type of the smart pointer's target.
 
 ## Requirements
-**Minimum supported SDK:** Windows SDK for Windows 10, version 1803
+**Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
 
 **Namespace:** winrt
 
-**Header** %ProgramFiles(x86)%\Windows Kits\10\Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[com_ptr::com_ptr constructor](#comarraycomarray-constructor)|Initializes a new instance of the **com_ptr** struct, optionally with a copy or move of the input data.|
+|[com_ptr::com_ptr constructor](#comptrcomptr-constructor)|Initializes a new instance of the **com_ptr** struct, optionally with a copy or move of the input data.|
 
 ## Member functions
 |Function|Description|
 |------------|-----------------|
-|[com_ptr::as function](#comarrayas-function)|Returns the requested interface, if it is supported. Throws if it is not.|
-|[com_ptr::attach function](#comarrayattach-function)|Attaches to a raw pointer that owns a reference to its target; an additional reference is not added.|
-|[com_ptr::copy_from function](#comarraycopyfrom-function)|Copies from another pointer. Decrements the reference count on any currently referenced interface or object, copies the raw pointer parameter, and begins managing the lifetime of the interface or object pointed to by it.|
-|[com_ptr::copy_to function](#comarraycopyto-function)|Copies to another pointer. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter.|
-|[com_ptr::detach function](#comarraydetach-function)|Detaches from the referenced interface or object without decrementing the reference count, perhaps to return it to a caller.|
-|[com_ptr::get function](#comarrayget-function)|Returns the underlying raw pointer should you need to pass it to a function.|
-|[com_ptr::put function](#comarrayput-function)|Returns the address of the underlying raw pointer; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer.|
-|[com_ptr::put_void function](#comarrayputvoid-function)|Returns the address of the underlying raw pointer as a pointer to a pointer to **void**; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer to **void**.|
-|[com_ptr::try_as function](#comarraytryas-function)|Returns the requested interface, if it is supported. Returns `null`, or `false`, if it is not.|
+|[com_ptr::as function](#comptras-function)|Returns the requested interface, if it is supported. Throws if it is not.|
+|[com_ptr::attach function](#comptrattach-function)|Attaches to a raw pointer that owns a reference to its target; an additional reference is not added.|
+|[com_ptr::copy_from function](#comptrcopyfrom-function)|Copies from another pointer. Decrements the reference count on any currently referenced interface or object, copies the raw pointer parameter, and begins managing the lifetime of the interface or object pointed to by it.|
+|[com_ptr::copy_to function](#comptrcopyto-function)|Copies to another pointer from the **com_ptr** object. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter.|
+|[com_ptr::detach function](#comptrdetach-function)|Detaches from the referenced interface or object without decrementing the reference count, perhaps to return it to a caller.|
+|[com_ptr::get function](#comptrget-function)|Returns the underlying raw pointer should you need to pass it to a function.|
+|[com_ptr::put function](#comptrput-function)|Returns the address of the underlying raw pointer; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer.|
+|[com_ptr::put_void function](#comptrputvoid-function)|Returns the address of the underlying raw pointer as a pointer to a pointer to **void**; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer to **void**.|
+|[com_ptr::try_as function](#comptrtryas-function)|Returns the requested interface, if it is supported. Returns `null`, or `false`, if it is not.|
 
 ## Member operators
 |Operator|Description|
@@ -67,6 +64,8 @@ The interface, or runtime class implementation type, a pointer to which is repre
 ## Free functions
 |Function|Description|
 |------------|-----------------|
+|[attach_abi function](#attachabi-function)|Attaches a **com_ptr** object to a raw pointer that owns a reference to its target; an additional reference is not added.|
+|[detach_abi function](#detachabi-function)|Detaches a **com_ptr** object from its raw interface without decrementing the reference count, perhaps to return it to a caller.|
 |[swap function](#swap-function)|Swaps the contents of the two **com_ptr** parameters so that they point at one another's target.|
 
 ## Free operators
@@ -84,10 +83,10 @@ Initializes a new instance of the **com_ptr** struct, optionally with a copy or 
 
 ### Syntax
 ```cppwinrt
-com_ptr(com_ptr const& other) noexcept
-com_ptr(std::nullptr_t = nullptr) noexcept
-template <typename U> com_ptr(com_ptr<U> const& other) noexcept
-template <typename U> com_ptr(com_ptr<U>&& other) noexcept
+com_ptr(winrt::com_ptr const& other) noexcept;
+com_ptr(std::nullptr_t = nullptr) noexcept;
+template <typename U> com_ptr(winrt::com_ptr<U> const& other) noexcept;
+template <typename U> com_ptr(winrt::com_ptr<U>&& other) noexcept;
 ```
 
 ### Template parameters
@@ -103,8 +102,8 @@ Returns the requested interface, if it is supported. Throws if it is not. This f
 
 ### Syntax
 ```cppwinrt
-template <typename To> auto as() const
-template <typename To> void as(To& to) const
+template <typename To> auto as() const;
+template <typename To> void as(To& to) const;
 ```
 
 ### Template parameters
@@ -123,7 +122,7 @@ Attaches to a raw pointer that owns a reference to its target; an additional ref
 
 ### Syntax
 ```cppwinrt
-void attach(T* value) noexcept
+void attach(T* value) noexcept;
 ```
 
 ### Parameters
@@ -135,7 +134,7 @@ Copies from another pointer. Decrements the reference count on any currently ref
 
 ### Syntax
 ```cppwinrt
-void copy_from(T* other) noexcept
+void copy_from(T* other) noexcept;
 ```
 
 ### Parameters
@@ -143,11 +142,11 @@ void copy_from(T* other) noexcept
 A raw pointer to a target whose lifetime should be managed by the **com_ptr** object.
 
 ## com_ptr::copy_to function
-Copies to another pointer. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter. This function lets you hand out a reference to the same interface without calling [QueryInterface](https://msdn.microsoft.com/library/windows/desktop/ms682521).
+Copies to another pointer from the **com_ptr** object. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter. This function lets you hand out a reference to the same interface without calling [QueryInterface](https://msdn.microsoft.com/library/windows/desktop/ms682521).
 
 ### Syntax
 ```cppwinrt
-void copy_to(T** other) const noexcept
+void copy_to(T** other) const noexcept;
 ```
 
 ### Parameters
@@ -159,7 +158,7 @@ Detaches from the referenced interface or object without decrementing the refere
 
 ### Syntax
 ```cppwinrt
-T* detach() noexcept
+T* detach() noexcept;
 ```
 
 ### Return value
@@ -170,7 +169,7 @@ Returns the underlying raw pointer should you need to pass it to a function. You
 
 ### Syntax
 ```cppwinrt
-T* get() const noexcept
+T* get() const noexcept;
 ```
 
 ### Return value 
@@ -181,7 +180,7 @@ Returns the address of the underlying raw pointer; this function helps you call 
 
 ### Syntax
 ```cppwinrt
-T** put() noexcept
+T** put() noexcept;
 ```
 
 ### Return value 
@@ -192,19 +191,19 @@ Returns the address of the underlying raw pointer as a pointer to a pointer to *
 
 ### Syntax
 ```cppwinrt
-void** put_void() noexcept
+void** put_void() noexcept;
 ```
 
 ### Return value 
 The address of the underlying raw pointer as a pointer to a pointer to **void**.
 
 ## com_ptr::try_as function
-Returns the requested interface, if it is supported. Returns `null`, or `false`, if it is not. This function is useful if you want to query for an interface that you don't need to pass back to your caller.
+Returns the requested interface, if it is supported. Returns `null` (the `auto`-returning overload), or `false` (the `bool`-returning overload), if it is not. This function is useful if you want to query for an interface that you don't need to pass back to your caller.
 
 ### Syntax
 ```cppwinrt
-template <typename To> auto try_as() const noexcept
-template <typename To> bool try_as(To& to) const noexcept
+template <typename To> auto try_as() const noexcept;
+template <typename To> bool try_as(To& to) const noexcept;
 ```
 
 ### Template parameters
@@ -216,14 +215,14 @@ The type of the requested interface.
 A reference to a value to receive the requested interface.
 
 ### Return value 
-A **com_ptr** referencing the requested interface, or a strongly-typed smart pointer for the requested interface (either declared by C++/WinRT or by a third party), if the requested interface is supported, otherwise `null` or `false`.
+A **com_ptr** referencing the requested interface, or a strongly-typed smart pointer for the requested interface (either declared by C++/WinRT or by a third party), if the requested interface is supported, otherwise `null` (the `auto`-returning overload), or `false` (the `bool`-returning overload).
 
 ## com_ptr::operator bool
 Checks whether or not the smart pointer is referencing an interface or object. If the smart pointer is not referencing an interface or object, then it is logically null; otherwise it is logically not null.
 
 ### Syntax
 ```cppwinrt
-explicit operator bool() const noexcept
+explicit operator bool() const noexcept;
 ```
 
 ### Return value
@@ -234,7 +233,7 @@ Returns a reference to the **com_ptr**'s target so that you can pass it to a fun
 
 ### Syntax
 ```cppwinrt
-T& operator*() const noexcept
+T& operator*() const noexcept;
 ```
 
 ### Return value
@@ -245,9 +244,9 @@ Assigns a value to the **com_ptr** object.
 
 ### Syntax
 ```cppwinrt
-com_ptr& operator=(com_ptr const& other) noexcept
-template <typename U> com_ptr& operator=(com_ptr<U> const& other) noexcept
-template <typename U> com_ptr& operator=(com_ptr<U>&& other) noexcept
+winrt::com_ptr& operator=(winrt::com_ptr const& other) noexcept;
+template <typename U> winrt::com_ptr& operator=(winrt::com_ptr<U> const& other) noexcept;
+template <typename U> winrt::com_ptr& operator=(winrt::com_ptr<U>&& other) noexcept;
 ```
 
 ### Template parameters
@@ -266,20 +265,50 @@ To afford access to the referenced interface or object's methods, returns the un
 
 ### Syntax
 ```cppwinrt
-auto operator->() const noexcept
+auto operator->() const noexcept;
 ```
 
 ### Return value
 A pointer to the interface or object referenced by the **com_ptr** object.
+
+## attach_abi function
+Attaches a **com_ptr** object to a raw pointer that owns a reference to its target; an additional reference is not added. If needed, you can use this function to coalesce references.
+
+### Syntax
+```cppwinrt
+void attach_abi(winrt::com_ptr<T>& object, impl::abi_t<T>* value) noexcept;
+```
+
+### Parameters
+`object`
+A **com_ptr** object to operate on.
+
+`value`
+A raw pointer that owns a reference to its target.
+
+## detach_abi function
+Detaches a **com_ptr** object from its raw interface without decrementing the reference count, perhaps to return it to a caller.
+
+### Syntax
+```cppwinrt
+auto detach_abi(winrt::com_ptr<T>& object) noexcept;
+```
+
+### Parameters
+`object`
+A **com_ptr** object to operate on.
+
+### Return value
+A pointer to the raw interface referenced by the **com_ptr** object.
 
 ## operator!= (inequality operator)
 Returns a value indicating whether the two parameters refer to different targets.
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator!=(com_ptr<T> const& left, com_ptr<T> const& right) noexcept
-template <typename T> bool operator!=(com_ptr<T> const& left, std::nullptr_t) noexcept
-template <typename T> bool operator!=(std::nullptr_t, com_ptr<T> const& right) noexcept
+template <typename T> bool operator!=(winrt::com_ptr<T> const& left, winrt::com_ptr<T> const& right) noexcept;
+template <typename T> bool operator!=(winrt::com_ptr<T> const& left, std::nullptr_t) noexcept;
+template <typename T> bool operator!=(std::nullptr_t, winrt::com_ptr<T> const& right) noexcept;
 ```
 
 ### Parameters
@@ -294,7 +323,7 @@ Returns a value indicating whether the first parameter's target occurs earlier i
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator<(com_ptr<T> const& left, com_ptr<T> const& right) noexcept
+template <typename T> bool operator<(winrt::com_ptr<T> const& left, winrt::com_ptr<T> const& right) noexcept;
 ```
 
 ### Parameters
@@ -309,7 +338,7 @@ Returns a value indicating whether the first parameter's target occurs earlier i
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator<=(com_ptr<T> const& left, com_ptr<T> const& right) noexcept
+template <typename T> bool operator<=(winrt::com_ptr<T> const& left, winrt::com_ptr<T> const& right) noexcept;
 ```
 
 ### Parameters
@@ -324,8 +353,8 @@ Returns a value indicating whether the two parameters refer to the same interfac
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator==(com_ptr<T> const& left, std::nullptr_t) noexcept
-template <typename T> bool operator==(std::nullptr_t, com_ptr<T> const& right) noexcept
+template <typename T> bool operator==(winrt::com_ptr<T> const& left, std::nullptr_t) noexcept;
+template <typename T> bool operator==(std::nullptr_t, winrt::com_ptr<T> const& right) noexcept;
 ```
 
 ### Parameters
@@ -340,7 +369,7 @@ Returns a value indicating whether the first parameter's target occurs later in 
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator>(com_ptr<T> const& left, com_ptr<T> const& right) noexcept
+template <typename T> bool operator>(winrt::com_ptr<T> const& left, winrt::com_ptr<T> const& right) noexcept;
 ```
 
 ### Parameters
@@ -355,7 +384,7 @@ Returns a value indicating whether the first parameter's target occurs later in 
 
 ### Syntax
 ```cppwinrt
-template <typename T> bool operator>=(com_ptr<T> const& left, com_ptr<T> const& right) noexcept
+template <typename T> bool operator>=(winrt::com_ptr<T> const& left, winrt::com_ptr<T> const& right) noexcept;
 ```
 
 ### Parameters
@@ -370,7 +399,7 @@ Swaps the contents of the two **com_ptr** parameters so that they point at one a
 
 ### Syntax
 ```cppwinrt
-void swap(com_ptr& left, com_ptr& right) noexcept
+void swap(winrt::com_ptr& left, winrt::com_ptr& right) noexcept;
 ```
 
 ### Parameters
@@ -378,4 +407,4 @@ void swap(com_ptr& left, com_ptr& right) noexcept
 A **com_ptr** value whose pointers to mutually swap with that of the other parameter.
 
 ## See also 
-[winrt namespace (C++/WinRT)](winrt.md)
+* [winrt namespace](winrt.md)
