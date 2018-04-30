@@ -1,0 +1,51 @@
+---
+author: stevewhims
+description: A helper function that retrieves the activation factory for a specified Windows Runtime class type.
+title: winrt::get_activation_factory function template (C++/WinRT)
+dev_langs: ["C++"]
+ms.author: stwhi
+manager: "jillfra"
+ms.date: 04/30/2018
+ms.technology: "cpp-windows"
+ms.topic: "language-reference"
+ms.prod: windows
+ms.technology: uwp
+keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, get, activation, factory
+ms.localizationpriority: medium
+ms.workload: ["cplusplus"]
+---
+
+# winrt::get_activation_factory function template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+A helper function that retrieves the activation factory for a specified Windows Runtime class type.
+
+## Syntax
+```cppwinrt
+template <typename Class, typename Interface = winrt::Windows::Foundation::IActivationFactory>
+winrt::impl::com_ref<Interface> get_activation_factory();
+```
+
+### Template parameters
+`typename Class`
+A Windows Runtime class type whose activation factory to retrieve.
+
+`typename Interface`
+An interface implemented by the activation factory.
+
+### Return value 
+A reference to the specified interface of the activation factory for the specified Windows Runtime class type.
+
+### Example
+```cppwinrt
+auto factory = winrt::get_activation_factory<BankAccountWRC::BankAccount>();
+BankAccountWRC::BankAccount account = factory.ActivateInstance<BankAccountWRC::BankAccount>();
+```
+
+## Requirements
+**Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
+
+**Namespace:** winrt
+
+**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+
+## See also 
+* [winrt namespace](winrt.md)

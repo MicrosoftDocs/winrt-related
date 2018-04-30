@@ -4,7 +4,7 @@ description: Every C++/WinRT runtime class (whether a Windows or a third party r
 title: winrt::Windows::Foundation::IUnknown struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "markl"
+manager: "jillfra"
 ms.date: 04/10/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

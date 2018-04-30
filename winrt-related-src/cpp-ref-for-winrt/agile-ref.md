@@ -4,7 +4,7 @@ description: A type representing an agile reference to a C++/WinRT object or int
 title: winrt::agile_ref struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "markl"
+manager: "jillfra"
 ms.date: 04/19/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

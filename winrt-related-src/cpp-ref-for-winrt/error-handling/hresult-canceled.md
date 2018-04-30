@@ -4,7 +4,7 @@ description: A type derived from winrt::hresult_error, representing an ERROR_CAN
 title: winrt::hresult_canceled struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "markl"
+manager: "jillfra"
 ms.date: 04/25/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

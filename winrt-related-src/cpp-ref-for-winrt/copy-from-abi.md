@@ -4,7 +4,7 @@ description: A helper function that copies to a C++/WinRT object from a handle, 
 title: winrt::copy_from_abi function (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "markl"
+manager: "jillfra"
 ms.date: 04/11/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

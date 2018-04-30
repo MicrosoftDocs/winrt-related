@@ -3,7 +3,7 @@ author: stevewhims
 description: This topic describes how the MIDL 3.0 compiler synthesizes and adds interfaces, as necessary.
 title: Synthesizing interfaces (MIDL 3.0)
 ms.author: stwhi
-manager: "markl"
+manager: "jillfra"
 ms.date: 04/02/2018
 ms.topic: "language-reference"
 ms.prod: windows

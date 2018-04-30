@@ -3,7 +3,7 @@ author: stevewhims
 description: An introduction to Microsoft Interface Definition Language 3.0.
 title: Introduction to Microsoft Interface Definition Language 3.0
 ms.author: stwhi
-manager: "markl"
+manager: "jillfra"
 ms.date: 04/23/2018
 ms.topic: "language-reference"
 ms.prod: windows

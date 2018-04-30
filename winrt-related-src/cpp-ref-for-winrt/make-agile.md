@@ -4,7 +4,7 @@ description: A helper function that returns an [agile_ref](agile-ref.md) object,
 title: winrt::make_agile function template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "markl"
+manager: "jillfra"
 ms.date: 04/19/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

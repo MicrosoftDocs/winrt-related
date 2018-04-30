@@ -4,7 +4,7 @@ description: A marker type used to indicate that your type is not agile, and con
 title: winrt::non_agile marker struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "markl"
+manager: "jillfra"
 ms.date: 04/13/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

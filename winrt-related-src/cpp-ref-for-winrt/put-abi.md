@@ -4,7 +4,7 @@ description: A helper function that retrieves the address of a C++/WinRT object'
 title: winrt::put_abi function (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "markl"
+manager: "jillfra"
 ms.date: 04/10/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"
