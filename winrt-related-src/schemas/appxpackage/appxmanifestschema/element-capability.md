@@ -132,7 +132,7 @@ The following table describes the capability values.
 
 ## Examples
 
-Here's an example of a[**Capabilities**](element-capabilities.md) node.
+Here's an example of a [**Capabilities**](element-capabilities.md) node.
 
 ```XML
 <Capabilities>
