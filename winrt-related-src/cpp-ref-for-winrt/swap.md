@@ -4,7 +4,6 @@ description: A helper function that swaps the contents of two values.
 title: winrt::swap function (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "markl"
 ms.date: 04/11/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

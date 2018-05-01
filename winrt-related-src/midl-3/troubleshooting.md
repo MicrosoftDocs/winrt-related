@@ -3,7 +3,6 @@ author: stevewhims
 description: A table of troubleshooting symptoms and remedies.
 title: Troubleshooting Microsoft Interface Definition Language 3.0 issues
 ms.author: stwhi
-manager: "markl"
 ms.date: 03/31/2018
 ms.topic: "language-reference"
 ms.prod: windows

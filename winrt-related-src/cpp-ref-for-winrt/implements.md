@@ -4,7 +4,6 @@ description: A base struct template that implements one or more Windows Runtime 
 title: winrt::implements struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "markl"
 ms.date: 04/17/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

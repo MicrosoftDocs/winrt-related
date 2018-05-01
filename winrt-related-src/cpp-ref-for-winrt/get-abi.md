@@ -4,7 +4,6 @@ description: A helper function that retrieves a pointer to a C++/WinRT object's 
 title: winrt::get_abi function (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "markl"
 ms.date: 04/10/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

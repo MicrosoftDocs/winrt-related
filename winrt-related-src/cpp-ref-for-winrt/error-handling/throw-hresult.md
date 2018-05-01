@@ -4,7 +4,6 @@ description: A helper function that takes a HRESULT error code, and throws an ex
 title: winrt::throw_hresult function (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "markl"
 ms.date: 04/26/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

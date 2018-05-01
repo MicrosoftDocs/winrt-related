@@ -4,7 +4,6 @@ description: A sequential collection of UTF-16 Unicode characters representing a
 title: winrt::hstring struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "markl"
 ms.date: 04/10/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

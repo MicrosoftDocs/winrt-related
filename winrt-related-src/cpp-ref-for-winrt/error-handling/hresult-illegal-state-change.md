@@ -4,7 +4,6 @@ description: A type derived from winrt::hresult_error, representing an E_ILLEGAL
 title: winrt::hresult_illegal_state_change struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "markl"
 ms.date: 04/25/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

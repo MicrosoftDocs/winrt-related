@@ -4,7 +4,6 @@ description: A type that you can use to declare and implement an event of a spec
 title: winrt::event struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "markl"
 ms.date: 04/25/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

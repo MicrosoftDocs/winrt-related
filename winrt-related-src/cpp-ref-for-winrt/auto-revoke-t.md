@@ -4,7 +4,6 @@ description: A marker type used to request an event revoker when registering a d
 title: winrt::auto_revoke_t marker struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "markl"
 ms.date: 04/24/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

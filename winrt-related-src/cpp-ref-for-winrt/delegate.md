@@ -4,7 +4,6 @@ description: A type that you can use to declare a custom delegate type for your 
 title: winrt::delegate struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "markl"
 ms.date: 04/24/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

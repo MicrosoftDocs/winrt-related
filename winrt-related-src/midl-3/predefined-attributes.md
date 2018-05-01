@@ -3,7 +3,6 @@ author: stevewhims
 description: There are a number of pre-defined custom attributes that allow you to control the name and IID for compiler-synthesized interfaces.
 title: Predefined attributes (MIDL 3.0)
 ms.author: stwhi
-manager: "markl"
 ms.date: 04/23/2018
 ms.topic: "language-reference"
 ms.prod: windows

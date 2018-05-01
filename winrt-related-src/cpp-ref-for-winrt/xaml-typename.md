@@ -4,7 +4,6 @@ description: A helper function that returns the type name of a Windows Runtime t
 title: winrt::xaml_typename function template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "markl"
 ms.date: 04/10/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"
@@ -16,7 +15,7 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::xaml_typename function template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
-A helper function that returns the type name of a Windows Runtime type, in the form of a [Windows::UI::Xaml::Interop::TypeName](/uwp/api/windows.ui.xaml.interop.typename) object.
+A helper function that returns the type name of a Windows Runtime type, in the form of a [Windows::UI::Xaml::Interop::TypeName](/uwp/api/windows.ui.xaml.interop.typename) object. Also see the [GetRuntimeClassName](getruntimeclassname.md) function.
 
 ## Syntax
 ```cppwinrt
@@ -54,3 +53,4 @@ void App::OnLaunched(LaunchActivatedEventArgs const& e)
 
 ## See also 
 * [winrt namespace](winrt.md)
+* [GetRuntimeClassName function](getruntimeclassname.md)

@@ -4,7 +4,6 @@ description: A factory method that returns an instance of a projected type or in
 title: winrt::make function template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "markl"
 ms.date: 04/17/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

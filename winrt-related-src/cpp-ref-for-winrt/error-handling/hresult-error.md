@@ -4,7 +4,6 @@ description: A type representing an HRESULT error code.
 title: winrt::hresult_error struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "markl"
 ms.date: 04/25/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"
