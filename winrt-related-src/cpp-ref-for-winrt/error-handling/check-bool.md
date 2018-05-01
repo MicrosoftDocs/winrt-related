@@ -4,7 +4,6 @@ description: A helper function that checks whether a value is false and, if so, 
 title: winrt::check_bool function template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "jillfra"
 ms.date: 04/30/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

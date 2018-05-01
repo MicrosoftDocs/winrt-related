@@ -4,7 +4,6 @@ description: API reference content for the winrt namespace from C++/WinRT.
 title: winrt namespace (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "jillfra"
 ms.date: 04/10/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

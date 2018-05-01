@@ -4,7 +4,6 @@ description: A helper function that checks whether an HRESULT code represents an
 title: winrt::check_hresult function (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "jillfra"
 ms.date: 04/30/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

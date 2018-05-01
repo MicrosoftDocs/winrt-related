@@ -3,7 +3,6 @@ author: stevewhims
 description: A function template that wraps (or *boxes*) a scalar value inside a reference class object so that it can be passed to a function that expects **IInspectable**.
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "jillfra"
 ms.date: 04/10/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

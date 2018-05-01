@@ -4,7 +4,6 @@ description: A helper function that retrieves a string containing the fully-qual
 title: winrt::get_class_name function (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "jillfra"
 ms.date: 04/30/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

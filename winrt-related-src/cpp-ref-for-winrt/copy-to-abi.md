@@ -4,7 +4,6 @@ description: A helper function that copies to a handle, or to a pointer, from a 
 title: winrt::copy_to_abi function (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "jillfra"
 ms.date: 04/11/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

@@ -3,7 +3,6 @@ author: stevewhims
 description: Microsoft Interface Definition Language 3.0 reference content.
 title: Microsoft Interface Definition Language 3.0 reference
 ms.author: stwhi
-manager: "jillfra"
 ms.date: 04/23/2018
 ms.topic: "language-reference"
 ms.prod: windows

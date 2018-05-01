@@ -4,7 +4,6 @@ description: A helper function that checks whether a pointer is null and, if so,
 title: winrt::check_pointer function template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "jillfra"
 ms.date: 04/30/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

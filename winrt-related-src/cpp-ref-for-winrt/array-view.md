@@ -4,7 +4,6 @@ description: A view, or span, of a contiguous series of values.
 title: winrt::array_view struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "jillfra"
 ms.date: 04/10/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

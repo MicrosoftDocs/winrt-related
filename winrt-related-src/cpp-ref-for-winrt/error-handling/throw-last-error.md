@@ -4,7 +4,6 @@ description: A helper function that retrieves the calling thread's last-error co
 title: winrt::throw_last_error function (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "jillfra"
 ms.date: 04/30/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"

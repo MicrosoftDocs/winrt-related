@@ -4,7 +4,6 @@ description: A member function (of a generated implementation type) that returns
 title: GetRuntimeClassName function (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-manager: "jillfra"
 ms.date: 04/30/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"
