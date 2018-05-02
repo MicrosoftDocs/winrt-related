@@ -22,10 +22,10 @@ Microsoft Interface Definition Language (MIDL) 3.0 is a simplified, modern, fami
 import "Windows.Foundation.idl";
 namespace Bookstore
 {
-	runtimeclass BookSku
-	{
-		String Title;
-	}
+    runtimeclass BookSku
+    {
+        String Title;
+    }
 }
 ```
 

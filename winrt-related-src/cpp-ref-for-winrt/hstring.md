@@ -89,12 +89,12 @@ using namespace winrt;
 ...
 void Iterators(hstring const& theHstring)
 {
-	for (auto const& element : theHstring)
-	{
-		std::wcout << element;
-	}
+    for (auto const& element : theHstring)
+    {
+        std::wcout << element;
+    }
 
-	std::for_each(theHstring.cbegin(), theHstring.cend(), [](T const& element) { std::wcout << element; });
+    std::for_each(theHstring.cbegin(), theHstring.cend(), [](T const& element) { std::wcout << element; });
 }
 ```
 
@@ -128,27 +128,27 @@ A number that specifies a fixed size for the **hstring** object.
 using namespace winrt;
 ...
 void Constructors(
-	hstring const& theHstring,
-	std::wstring_view const& theWstringView,
-	wchar_t const* wideLiteral,
-	std::wstring const& wideString)
+    hstring const& theHstring,
+    std::wstring_view const& theWstringView,
+    wchar_t const* wideLiteral,
+    std::wstring const& wideString)
 {
-	// hstring() noexcept
-	hstring fromDefault{};
+    // hstring() noexcept
+    hstring fromDefault{};
 
-	// hstring(hstring const& h)
-	hstring fromHstring{ theHstring };
+    // hstring(hstring const& h)
+    hstring fromHstring{ theHstring };
 
-	// explicit hstring(std::wstring_view const& value)
-	hstring fromWstringView{ theWstringView };
+    // explicit hstring(std::wstring_view const& value)
+    hstring fromWstringView{ theWstringView };
 
-	// hstring(wchar_t const* value)
-	hstring fromWideLiteral{ wideLiteral };
-	hstring fromWideString{ wideString.c_str() };
+    // hstring(wchar_t const* value)
+    hstring fromWideLiteral{ wideLiteral };
+    hstring fromWideString{ wideString.c_str() };
 
-	// hstring(wchar_t const* value, uint32_t size)
-	hstring fromWideLiteralWithSize{ wideLiteral, 256 };
-	hstring fromWideStringWithSize{ wideString.c_str(), 256 };
+    // hstring(wchar_t const* value, uint32_t size)
+    hstring fromWideLiteralWithSize{ wideLiteral, 256 };
+    hstring fromWideStringWithSize{ wideString.c_str(), 256 };
 }
 ```
 
@@ -192,8 +192,8 @@ using namespace winrt;
 ...
 void PrintHstring(hstring const& theHstring)
 {
-	// You can get a standard wide string from an hstring.
-	std::wcout << theHstring.c_str() << std::endl;
+    // You can get a standard wide string from an hstring.
+    std::wcout << theHstring.c_str() << std::endl;
 }
 ```
 
@@ -264,8 +264,8 @@ using namespace winrt;
 ...
 void PrintHstring(hstring const& theHstring)
 {
-	// You can get a standard wide string from an hstring.
-	std::wcout << theHstring.data() << std::endl;
+    // You can get a standard wide string from an hstring.
+    std::wcout << theHstring.data() << std::endl;
 }
 ```
 
@@ -320,12 +320,12 @@ The **hstring** object converted to a **std::wstring_view**.
 ```cppwinrt
 using namespace winrt;
 ...
-	Uri contosoUri{ L"http://www.contoso.com" };
-	Uri awUri{ L"http://www.adventure-works.com" };
+    Uri contosoUri{ L"http://www.contoso.com" };
+    Uri awUri{ L"http://www.adventure-works.com" };
 
-	// Uri::Domain() is of type hstring. But we can use hstring's conversion operator to std::wstring_view.
-	std::wstring domainWstring{ contosoUri.Domain() }; // L"contoso.com"
-	domainWstring = awUri.Domain(); // L"http://www.adventure-works.com"
+    // Uri::Domain() is of type hstring. But we can use hstring's conversion operator to std::wstring_view.
+    std::wstring domainWstring{ contosoUri.Domain() }; // L"contoso.com"
+    domainWstring = awUri.Domain(); // L"http://www.adventure-works.com"
 ```
 
 ## hstring::operator[] &lpar;subscript operator)

@@ -22,10 +22,10 @@ Microsoft Interface Definition Language (MIDL) 3.0 is a simplified, modern synta
 import "Windows.Foundation.idl";
 namespace Bookstore
 {
-	runtimeclass BookSku
-	{
-		String Title;
-	}
+    runtimeclass BookSku
+    {
+        String Title;
+    }
 }
 ```
 
@@ -45,21 +45,21 @@ import "Windows.UI.Xaml.Data.idl";
 import "Windows.UI.Xaml.Media.idl";
 namespace Bookstore
 {
-	runtimeclass BookSku : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Data.INotifyPropertyChanged
-	{
-		BookSku();
-		BookSku(Single price, String authorName, String coverImagePath, String title);
+    runtimeclass BookSku : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Data.INotifyPropertyChanged
+    {
+        BookSku();
+        BookSku(Single price, String authorName, String coverImagePath, String title);
 
-		Single Price;
+        Single Price;
 
-		String AuthorName{ get; };
-		Windows.UI.Xaml.Media.ImageSource CoverImage{ get; };
-		String CoverImagePath{ get; };
-		String Title{ get; };
+        String AuthorName{ get; };
+        Windows.UI.Xaml.Media.ImageSource CoverImage{ get; };
+        String CoverImagePath{ get; };
+        String Title{ get; };
 
-		Boolean Equals(BookSku other);
-		void ApplyDiscount(Single percentOff);
-	}
+        Boolean Equals(BookSku other);
+        void ApplyDiscount(Single percentOff);
+    }
 }
 ```
 
@@ -87,23 +87,23 @@ The examples below are two ways of declaring the same **Windows.Foundation.Uri**
 ```idl
 namespace Windows.Foundation
 {
-	runtimeclass Uri : IStringable
-	{
-		...
-	}
+    runtimeclass Uri : IStringable
+    {
+        ...
+    }
 }
 ```
 
 ```idl
 namespace Windows
 {
-	namespace Foundation
-	{
-		runtimeclass Uri : IStringable
-		{
-			...
-		}
-	}
+    namespace Foundation
+    {
+        runtimeclass Uri : IStringable
+        {
+            ...
+        }
+    }
 }
 ```
 
@@ -373,7 +373,7 @@ The following table summarizes MIDL 3.0's operators, listing the operator catego
   </tr>
   <tr>
     <td>Logical OR</td>
-    <td>x | y	</td>
+    <td>x | y</td>
     <td>Integer bitwise OR, boolean logical OR</td>
   </tr>
 </table>
@@ -394,11 +394,11 @@ Here's a declaration of a simple class named **Area**.
 ```idl
 unsealed runtimeclass Area
 {
-	Area(Int32 width, Int32 height);
+    Area(Int32 width, Int32 height);
 
-	Int32 Height;
-	Int32 Width;
-	
+    Int32 Height;
+    Int32 Width;
+    
   static Int32 NumberOfAreas { get; };
 }
 ```
@@ -431,7 +431,7 @@ non-static member to the class then causes a compilation error.
 ```idl
 static runtimeclass Area
 {
-	static Int32 NumberOfAreas { get; };
+    static Int32 NumberOfAreas { get; };
 }
 ```
 
@@ -453,15 +453,15 @@ In the next example, the base class of **Volume** is **Area**, and the (implicit
 ```idl
 unsealed runtimeclass Area
 {
-	Area(Int32 width, Int32 height);
-	Int32 Height;
-	Int32 Width;
+    Area(Int32 width, Int32 height);
+    Int32 Height;
+    Int32 Width;
 }
 
 runtimeclass Volume : Area
 {
-	Volume(Int32 width, Int32 height, Int32 depth);
-	Int32 Depth;
+    Volume(Int32 width, Int32 height, Int32 depth);
+    Int32 Depth;
 }
 ```
 
@@ -490,15 +490,15 @@ In the example below, the **Area** class implements the [**IStringable**](/uwp/a
 ```idl
 unsealed runtimeclass Area : Windows.Foundation.IStringable
 {
-	Area(Int32 width, Int32 height);
-	Int32 Height;
-	Int32 Width;
+    Area(Int32 width, Int32 height);
+    Int32 Height;
+    Int32 Width;
 }
 
 runtimeclass Volume : Area, Windows.Foundation.IStringable, IEquatable
 {
-	Volume(Int32 width, Int32 height, Int32 depth);
-	Int32 Depth;
+    Volume(Int32 width, Int32 height, Int32 depth);
+    Int32 Depth;
 }
 ```
 
@@ -532,9 +532,9 @@ takes an **Int32** parameter, and one that takes two **Double** parameters.
 ```idl
 runtimeclass Test
 {
-	Test();
-	Test(Int32 x);
-	Test(Double x, Double y);
+    Test();
+    Test(Int32 x);
+    Test(Double x, Double y);
 }
 ```
 
@@ -563,8 +563,8 @@ For example, the class **Area**, seen previously, contains two read-write proper
 ```idl
 unsealed runtimeclass Area
 {
-	Int32 Height { get; set; };
-	Int32 Width; // get and set are implied if both are omitted.
+    Int32 Height { get; set; };
+    Int32 Width; // get and set are implied if both are omitted.
 }
 ```
 
@@ -581,8 +581,8 @@ The Windows Runtime doesn't support write-only properties. But you can specify o
 ```idl
 unsealed runtimeclass Area
 {
-	...
-	Color SurfaceColor { get; };
+    ...
+    Color SurfaceColor { get; };
 }
 ```
 
@@ -593,8 +593,8 @@ recompile each time), then you can simply add the `set` keyword to the existing
 ```idl
 unsealed runtimeclass Area
 {
-	...
-	Color SurfaceColor { get; set; };
+    ...
+    Color SurfaceColor { get; set; };
 }
 ```
 
@@ -606,10 +606,10 @@ definition of the property at the end of the class like this.
 ```idl
 unsealed runtimeclass Area
 {
-	...
-	Color SurfaceColor { get; };
     ...
-	Color SurfaceColor { set; };
+    Color SurfaceColor { get; };
+    ...
+    Color SurfaceColor { set; };
 }
 ```
 
@@ -673,9 +673,9 @@ have the same name as long as their parameters differ in number (in other words 
 ```idl
 runtimeclass Test
 {
-	static void F();
-	static void F(Double x);
-	static void F(Double x, Double y);
+    static void F();
+    static void F(Double x);
+    static void F(Double x, Double y);
 }
 ```
 
@@ -708,7 +708,7 @@ A const reference parameter is declared with the `const ref` modifier. This exam
 ```idl
 runtimeclass Test
 {
-	static void Swap(const ref Matrix4X4 x, const ref Matrix4X4 y);
+    static void Swap(const ref Matrix4X4 x, const ref Matrix4X4 y);
 }
 ```
 
@@ -720,7 +720,7 @@ modifier. The following example shows the use of `out` parameters.
 ```idl
 runtimeclass Test
 {
-	static void Divide(Int32 x, Int32 y, out Int32 result, out Int32 remainder);
+    static void Divide(Int32 x, Int32 y, out Int32 result, out Int32 remainder);
 }
 ```
 
@@ -742,9 +742,9 @@ allocates space for a reference to an array instance.
 ```idl
 runtimeclass Test
 {
-	void PassArray (Int32[] values);
-	void FillArray (ref Int32[] values);
-	void ReceiveArray (out Int32[] values);
+    void PassArray (Int32[] values);
+    void FillArray (ref Int32[] values);
+    void ReceiveArray (out Int32[] values);
 }
 ```
 
@@ -764,9 +764,9 @@ The following **Entity** class has both static and instance members.
 ```idl
 runtimeclass Entity
 {
-	Int32 SerialNo { get; };
-	static Int32 GetNextSerialNo();
-	static void SetNextSerialNo(Int32 value);
+    Int32 SerialNo { get; };
+    static Int32 GetNextSerialNo();
+    static void SetNextSerialNo(Int32 value);
 }
 ```
 
@@ -806,9 +806,9 @@ of the event. Here's an example event that uses an existing delegate type from t
 ```idl
 runtimeclass Area
 {
-	...
-	event Windows.UI.Xaml.WindowSizeChangedEventHandler SizeChanged;
-	...
+    ...
+    event Windows.UI.Xaml.WindowSizeChangedEventHandler SizeChanged;
+    ...
 }
 ```
 
@@ -857,9 +857,9 @@ Let's use an example to contrast classes and structs. Here's a version of **Poin
 ```idl
 runtimeclass Point
 {
-	Point(Int32 x, Int32 y);
-	Int32 x;
-	Int32 y;
+    Point(Int32 x, Int32 y);
+    Int32 x;
+    Int32 y;
 }
 ```
 
@@ -869,11 +869,11 @@ instantiated: one for the array object itself; and one for each of the 100 **Poi
 ```csharp
 class Test
 {
-	static Test()
-	{
-		Point[] points = new Point[100];
-		for (Int32 i = 0; i < 100; ++i) points[i] = new Point(i, i);
-	}
+    static Test()
+    {
+        Point[] points = new Point[100];
+        for (Int32 i = 0; i < 100; ++i) points[i] = new Point(i, i);
+    }
 }
 ```
 
@@ -882,8 +882,8 @@ A more performant alternative is to make **Point** a struct, instead of a class.
 ```idl
 struct Point
 {
-	Int32 x;
-	Int32 y;
+    Int32 x;
+    Int32 y;
 }
 ```
 
@@ -907,22 +907,22 @@ must also implement **IControl**. That's because both **ITextBox** and **IListBo
 ```idl
 interface IControl
 {
-	void Paint();
+    void Paint();
 }
 
 interface ITextBox requires IControl
 {
-	void SetText(String text);
+    void SetText(String text);
 }
 
 interface IListBox requires IControl
 {
-	void SetItems(String[] items);
+    void SetItems(String[] items);
 }
 
 interface IComboBox requires ITextBox, IListBox
 {
-	...
+    ...
 }
 ```
 
@@ -932,7 +932,7 @@ the class **EditBox** implements both **IControl** and **IDataBound**.
 ```idl
 interface IDataBound
 {
-	void Bind(Binder b);
+    void Bind(Binder b);
 }
 
 runtimeclass EditBox : IControl, IDataBound
@@ -948,9 +948,9 @@ constants. The following example declares and uses an enum type named
 ```idl
 enum Color
 {
-	Red,
-	Green,
-	Blue
+    Red,
+    Green,
+    Blue
 }
 ```
 
@@ -971,9 +971,9 @@ underlying type of **Int32**.
 ```idl
 enum Alignment
 {
-	Left = -1,
-	Center = 0,
-	Right = 1
+    Left = -1,
+    Center = 0,
+    Right = 1
 }
 ```
 
@@ -991,9 +991,9 @@ underlying type of **UInt32**.
 [Flags]
 enum Permissions
 {
-	None = 0x0000,
-	Camera = 0x0001,
-	Microphone = 0x0002
+    None = 0x0000,
+    Camera = 0x0001,
+    Microphone = 0x0002
 }
 ```
 
@@ -1015,9 +1015,9 @@ documentation.
 ```idl
 attribute HelpAttribute
 {
-	HelpAttribute(String classUri);
-	String ClassUri { get; };
-	String MemberTopic { get; set; };
+    HelpAttribute(String classUri);
+    String ClassUri { get; };
+    String MemberTopic { get; set; };
 }
 ```
 
@@ -1031,8 +1031,8 @@ name can be omitted when the attribute is referenced. For example, the
 [Help("https://docs.contoso.com/.../Widget")]
 runtimeclass Widget
 {
-	[Help("https://docs.contoso.com/.../Widget", MemberTopic="Display")]
-	void Display(String text);
+    [Help("https://docs.contoso.com/.../Widget", MemberTopic="Display")]
+    void Display(String text);
 }
 ```
 
@@ -1044,11 +1044,11 @@ the declarations to which the attribute applies.
 ```idl
 runtimeclass Widget
 {
-	[Custom()]
-	{
-		void Display(String text);
-		void Print();
-		Single Rate;
-	}
+    [Custom()]
+    {
+        void Display(String text);
+        void Print();
+        Single Rate;
+    }
 }
 ```

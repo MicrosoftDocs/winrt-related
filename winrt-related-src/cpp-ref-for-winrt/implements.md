@@ -27,7 +27,7 @@ This first example applies when you derive directly from **implements**.
 ```cppwinrt
 struct MyImplementation: implements<MyImplementation, IFrameworkViewSource, no_weak_ref>
 {
-	...
+    ...
 }
 ```
 
@@ -36,7 +36,7 @@ This next example is for when you're authoring a runtime class.
 ```cppwinrt
 struct BookSku : BookSkuT<BookSku, no_weak_ref>
 {
-	...
+    ...
 }
 ```
 
@@ -60,10 +60,10 @@ Any number of interfaces to implement.
 ...
 struct App : implements<App, IFrameworkViewSource>
 {
-	IFrameworkView CreateView()
-	{
-		return ...
-	}
+    IFrameworkView CreateView()
+    {
+        return ...
+    }
 }
 ...
 ```
@@ -135,7 +135,7 @@ Retrieves a strong reference to the **implements** object's *this* pointer.
 ### Syntax
 ```cppwinrt
 protected:
-	winrt::com_ptr<D> get_strong() noexcept;
+    winrt::com_ptr<D> get_strong() noexcept;
 ```
 
 ### Return value 
@@ -147,7 +147,7 @@ Retrieves a weak reference to the **implements** object's *this* pointer. See [W
 ### Syntax
 ```cppwinrt
 protected:
-	winrt::weak_ref<D> get_weak() noexcept;
+    winrt::weak_ref<D> get_weak() noexcept;
 ```
 
 ### Return value 
@@ -181,7 +181,7 @@ Configures the **implements** object to have static lifetime.
 ### Syntax
 ```cppwinrt
 protected:
-	void static_lifetime();
+    void static_lifetime();
 ```
 
 ## implements::operator Windows::Foundation::IInspectable

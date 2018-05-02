@@ -34,8 +34,8 @@ A [winrt::hstring](hstring.md) containing the fully-qualified type name of the W
 // MainPage.cpp
 void winrt::MyProject::implementation::MainPage::f()
 {
-	winrt::hstring name = GetRuntimeClassName();
-	assert(name == L"MyProject.MainPage");
+    winrt::hstring name = GetRuntimeClassName();
+    assert(name == L"MyProject.MainPage");
 }
 ```
 
@@ -44,7 +44,7 @@ You can implement [ICustomPropertyProvider::Type](/uwp/api/windows.ui.xaml.data.
 ```cppwinrt
 Windows::UI::Xaml::Interop::TypeName Type()
 {
-	return Windows::UI::Xaml::Interop::TypeName{ GetRuntimeClassName() };
+    return Windows::UI::Xaml::Interop::TypeName{ GetRuntimeClassName() };
 };
 ```
 
