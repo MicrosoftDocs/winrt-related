@@ -967,6 +967,8 @@
 ### [get_abi function template](cpp-ref-for-winrt/get-abi.md)
 ### [get_activation_factory function template](cpp-ref-for-winrt/get-activation-factory.md)
 ### [get_class_name function](cpp-ref-for-winrt/get-class-name.md)
+### [get_interfaces function](cpp-ref-for-winrt/get-interfaces.md)
+### [get_trust_level function](cpp-ref-for-winrt/get-trust-level.md)
 ### [GetRuntimeClassName function](cpp-ref-for-winrt/getruntimeclassname.md)
 ### [hstring struct](cpp-ref-for-winrt/hstring.md)
 ### [implements struct template](cpp-ref-for-winrt/implements.md)
