@@ -32,8 +32,8 @@ runtimeclass implements the [**IActivationFactory**](https://msdn.microsoft.com/
 ```idl
 runtimeclass Area
 {
-	Area();
-	...
+    Area();
+    ...
 }
 ```
 
@@ -53,8 +53,8 @@ the class factory for the runtimeclass implements that interface. If this interf
 ```idl
 runtimeclass Area
 {
-	Area(Int32 width, Int32 height);
-	...
+    Area(Int32 width, Int32 height);
+    ...
 }
 ```
 
@@ -70,13 +70,13 @@ So, the MIDL above can be interpreted like this.
 [exclusiveto(Area)]
 interface IAreaFactory
 {
-	Area(Int32 width, Int32 height);
+    Area(Int32 width, Int32 height);
 }
 
 [activatable(IAreaFactory)]
 runtimeclass Area
 {
-	...
+    ...
 }
 ```
 
@@ -86,9 +86,9 @@ non-default constructors.
 ```idl
 runtimeclass Area
 {
-	Area();
-	Area(Int32 width, Int32 height);
-	...
+    Area();
+    Area(Int32 width, Int32 height);
+    ...
 }
 ```
 
@@ -98,14 +98,14 @@ In that case, the MIDL can be interpreted like this; with both forms of the `act
 [exclusiveto(Area)]
 interface IAreaFactory
 {
-	Area(Int32 width, Int32 height);
+    Area(Int32 width, Int32 height);
 }
 
 [activatable()]
 [activatable(IAreaFactory)]
 runtimeclass Area
 {
-	...
+    ...
 }
 ```
 
@@ -115,8 +115,8 @@ In the example below, **Area** has members **Height** and **Width**.
 ```idl
 runtimeclass Area : Windows.Foundation.Windows.Foundation.IStringable
 {
-	Int32 Height;
-	Int32 Width;
+    Int32 Height;
+    Int32 Width;
 }
 ```
 
@@ -135,8 +135,8 @@ So, the MIDL above can be interpreted like this.
 [exclusiveto(Area)]
 interface IArea
 {
-	Int32 Height;
-	Int32 Width;
+    Int32 Height;
+    Int32 Width;
 }
 
 runtimeclass Area : IArea, Windows.Foundation.IStringable
@@ -150,7 +150,7 @@ In the example below, **Area** has the static member **NumberOfAreas**.
 ```idl
 runtimeclass Area : Windows.Foundation.IStringable
 {
-	static Int32 NumberOfAreas { get; };
+    static Int32 NumberOfAreas { get; };
 }
 ```
 
@@ -168,7 +168,7 @@ So, the MIDL above can be interpreted like this.
 [exclusiveto(Area)]
 interface IAreaStatics
 {
-	Int32 NumberOfAreas { get; };
+    Int32 NumberOfAreas { get; };
 }
 
 [static(IAreaStatics)]
@@ -183,7 +183,7 @@ In the example below, **Area** has the protected member **DoProtectedWork**.
 ```idl
 runtimeclass Area : Windows.Foundation.IStringable
 {
-	protected void DoProtectedWork();
+    protected void DoProtectedWork();
 }
 ```
 
@@ -201,7 +201,7 @@ So, the MIDL above can be interpreted like this.
 [exclusiveto(Area)]
 interface IAreaProtected
 {
-	void DoProtectedWork();
+    void DoProtectedWork();
 }
 
 [protected(IAreaProtected)]
@@ -216,7 +216,7 @@ In the example below, **Volume** (which derives from **Area**) has the overridea
 ```idl
 runtimeclass Volume : Area
 {
-	overrides void DoOverrideableWork();
+    overrides void DoOverrideableWork();
 }
 ```
 
@@ -234,7 +234,7 @@ So, the MIDL above can be interpreted like this.
 [exclusiveto(Area)]
 interface IAreaOverrides
 {
-	void DoOverrideableWork();
+    void DoOverrideableWork();
 }
 
 [overrideable(IAreaOverrides)]

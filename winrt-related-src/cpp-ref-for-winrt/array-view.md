@@ -82,12 +82,12 @@ using namespace winrt;
 template <typename T>
 void Iterators(array_view<T> const& theArrayView)
 {
-	for (T& element : theArrayView)
-	{
-		std::wcout << element << " ";
-	}
+    for (T& element : theArrayView)
+    {
+        std::wcout << element << " ";
+    }
 
-	std::for_each(theArrayView.cbegin(), theArrayView.cend(), [](T const& element) { std::wcout << element << " "; });
+    std::for_each(theArrayView.cbegin(), theArrayView.cend(), [](T const& element) { std::wcout << element << " "; });
 }
 ```
 
@@ -135,39 +135,39 @@ using namespace winrt;
 ...
 void Constructors()
 {
-	// array_view() noexcept
-	array_view<byte const> fromDefault{};
+    // array_view() noexcept
+    array_view<byte const> fromDefault{};
 
-	byte theRawArray[]{ 99, 98, 97 };
+    byte theRawArray[]{ 99, 98, 97 };
 
-	// template <typename C, uint32_t N> array_view(C(&value)[N]) noexcept
-	array_view<byte const> fromRawArray{ theRawArray };
+    // template <typename C, uint32_t N> array_view(C(&value)[N]) noexcept
+    array_view<byte const> fromRawArray{ theRawArray };
 
-	const std::array<byte, 3> theConstArray{ 99, 98, 97 };
+    const std::array<byte, 3> theConstArray{ 99, 98, 97 };
 
-	// template <typename C, uint32_t N> array_view(std::array<C, N>& value) noexcept
-	array_view<byte const> fromConstArray{ theConstArray };
+    // template <typename C, uint32_t N> array_view(std::array<C, N>& value) noexcept
+    array_view<byte const> fromConstArray{ theConstArray };
 
-	std::array<byte, 3> theArray{ 99, 98, 97 };
+    std::array<byte, 3> theArray{ 99, 98, 97 };
 
-	// template <typename C, uint32_t N> array_view(std::array<C, N> const& value) noexcept
-	array_view<byte const> fromArray{ theArray };
+    // template <typename C, uint32_t N> array_view(std::array<C, N> const& value) noexcept
+    array_view<byte const> fromArray{ theArray };
 
-	// array_view(std::initializer_list<T> value) noexcept
-	array_view<byte const> fromInitializerList{ 99, 98, 97 };
+    // array_view(std::initializer_list<T> value) noexcept
+    array_view<byte const> fromInitializerList{ 99, 98, 97 };
 
-	const std::vector<byte> theConstVector{ 99, 98, 97 };
+    const std::vector<byte> theConstVector{ 99, 98, 97 };
 
-	// template <typename C> array_view(std::vector<C> const& value) noexcept
-	array_view<byte const> fromConstVector{ theConstVector };
+    // template <typename C> array_view(std::vector<C> const& value) noexcept
+    array_view<byte const> fromConstVector{ theConstVector };
 
-	std::vector<byte> theVector{ 99, 98, 97 };
+    std::vector<byte> theVector{ 99, 98, 97 };
 
-	// template <typename C> array_view(std::vector<C>& value) noexcept
-	array_view<byte const> fromVector{ theVector };
+    // template <typename C> array_view(std::vector<C>& value) noexcept
+    array_view<byte const> fromVector{ theVector };
 
-	// array_view(T* first, T* last) noexcept
-	array_view<byte const> fromRange{ theArray.data(), theArray.data() + 2 }; // just the first two elements.
+    // array_view(T* first, T* last) noexcept
+    array_view<byte const> fromRange{ theArray.data(), theArray.data() + 2 }; // just the first two elements.
 }
 ```
 

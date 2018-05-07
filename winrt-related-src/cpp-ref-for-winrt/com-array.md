@@ -158,9 +158,9 @@ A **com_array** value whose contents to mutually swap with those of the other pa
 ```cppwinrt
 using namespace winrt;
 ...
-	com_array<byte> left{ 1,2,3 };
-	com_array<byte> right{ 4,5,6 };
-	swap(left, right);
+    com_array<byte> left{ 1,2,3 };
+    com_array<byte> right{ 4,5,6 };
+    swap(left, right);
 ```
 
 ## See also 

@@ -37,9 +37,9 @@ In the example below, the protected **Block** constructor is placed in the
 ...
 unsealed runtimeclass Block : Windows.UI.Xaml.Documents.TextElement
 {
-	...
-	protected Block();
-	...
+    ...
+    protected Block();
+    ...
 }
 ```
 
@@ -99,9 +99,9 @@ In this next example, we instruct the compiler to use the name
 ```idl
 unsealed runtimeclass Block : Windows.UI.Xaml.Documents.TextElement
 {
-	...
-	[method_name("CreateInstance")] protected Block();
-	...
+    ...
+    [method_name("CreateInstance")] protected Block();
+    ...
 }
 ```
 
@@ -123,17 +123,17 @@ encompassing that member.
 ...
 unsealed runtimeclass Block : Windows.UI.Xaml.Documents.TextElement
 {
-	...
-	static Windows.UI.Xaml.DependencyProperty LineHeightProperty{ get; };
-	static Windows.UI.Xaml.DependencyProperty LineStackingStrategyProperty{ get; };
-	static Windows.UI.Xaml.DependencyProperty MarginProperty{ get; };
-	static Windows.UI.Xaml.DependencyProperty TextAlignmentProperty{ get; };
+    ...
+    static Windows.UI.Xaml.DependencyProperty LineHeightProperty{ get; };
+    static Windows.UI.Xaml.DependencyProperty LineStackingStrategyProperty{ get; };
+    static Windows.UI.Xaml.DependencyProperty MarginProperty{ get; };
+    static Windows.UI.Xaml.DependencyProperty TextAlignmentProperty{ get; };
 
-	[static_name("Windows.UI.Xaml.Documents.IBlockStatics2", af01a4d6-03e3-4cee-9b02-2bfc308b27a9)]
-	{
-		static Windows.UI.Xaml.DependencyProperty HorizontalTextAlignmentProperty{ get; };
-	}
-	...
+    [static_name("Windows.UI.Xaml.Documents.IBlockStatics2", af01a4d6-03e3-4cee-9b02-2bfc308b27a9)]
+    {
+        static Windows.UI.Xaml.DependencyProperty HorizontalTextAlignmentProperty{ get; };
+    }
+    ...
 }
 ```
 
@@ -154,17 +154,17 @@ because of the `interface_name` attribute encompassing that member.
 ...
 unsealed runtimeclass Block : Windows.UI.Xaml.Documents.TextElement
 {
-	...
-	Double LineHeight;
-	Windows.UI.Xaml.LineStackingStrategy LineStackingStrategy;
-	Windows.UI.Xaml.Thickness Margin;
-	Windows.UI.Xaml.TextAlignment TextAlignment;
+    ...
+    Double LineHeight;
+    Windows.UI.Xaml.LineStackingStrategy LineStackingStrategy;
+    Windows.UI.Xaml.Thickness Margin;
+    Windows.UI.Xaml.TextAlignment TextAlignment;
 
-	[interface_name("Windows.UI.Xaml.Documents.IBlock2", 5ec7bdf3-1333-4a92-8318-6caedc12ef89)]
-	{
-		Windows.UI.Xaml.TextAlignment HorizontalTextAlignment;
-	}
-	...
+    [interface_name("Windows.UI.Xaml.Documents.IBlock2", 5ec7bdf3-1333-4a92-8318-6caedc12ef89)]
+    {
+        Windows.UI.Xaml.TextAlignment HorizontalTextAlignment;
+    }
+    ...
 }
 ```
 
@@ -174,7 +174,7 @@ You can also use the `interface_name` attribute to force the generation of an in
 [interface_name("Windows.UI.Xaml.IStateTriggerBase", 48b20698-af06-466c-8052-93666dde0e49)]
 unsealed runtimeclass StateTriggerBase
 {
-	protected void SetActive(Boolean IsActive);
+    protected void SetActive(Boolean IsActive);
 };
 ```
 
@@ -185,7 +185,7 @@ The `default_interface` attribute is used to force the generation of a default i
 [default_interface]
 unsealed runtimeclass StateTriggerBase
 {
-	protected void SetActive(Boolean IsActive);
+    protected void SetActive(Boolean IsActive);
 };
 ```
 
