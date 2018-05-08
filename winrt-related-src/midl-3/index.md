@@ -19,7 +19,6 @@ Microsoft Interface Definition Language (MIDL) 3.0 is a simplified, modern, fami
 
 ```idl
 // booksku.idl
-import "Windows.Foundation.idl";
 namespace Bookstore
 {
     runtimeclass BookSku

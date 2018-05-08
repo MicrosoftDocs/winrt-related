@@ -15,16 +15,25 @@ ms.localizationpriority: medium
 > [!NOTE]
 > **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
 
-Microsoft Interface Definition Language (MIDL) 3.0 is a simplified, modern syntax for declaring Windows Runtime types inside Interface Definition Language (`.idl`) files. This new syntax will feel familiar to anyone experienced with C, C++, C#, and/or Java. MIDL 3.0 is a particularly convenient way to declare [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) runtime classes. Here's how it looks.
+Microsoft Interface Definition Language (MIDL) 3.0 is a simplified, modern syntax for declaring Windows Runtime types inside Interface Definition Language (`.idl`) files. This new syntax will feel familiar to anyone experienced with C, C++, C#, and/or Java. MIDL 3.0 is a particularly convenient way to declare [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) runtime classes. Here's how it looks; this example demonstrates most of the language syntax.
 
 ```idl
-// booksku.idl
-import "Windows.Foundation.idl";
-namespace Bookstore
+// photo.idl
+namespace PhotoEditor
 {
-    runtimeclass BookSku
+    delegate void RecognitionHandler(Boolean arg); // delegate type, for an event.
+
+    runtimeclass Photo : Windows.UI.Xaml.Data.INotifyPropertyChanged // interface.
     {
-        String Title;
+        Photo(); // constructors.
+        Photo(Windows.Storage.StorageFile imageFile);
+
+        String ImageName{ get; }; // read-only property.
+        Single SepiaIntensity; // read-write property.
+
+        Windows.Foundation.IAsyncAction StartRecognitionAsync(); // (asynchronous) method.
+
+        event RecognitionHandler ImageRecognized; // event.
     }
 }
 ```
