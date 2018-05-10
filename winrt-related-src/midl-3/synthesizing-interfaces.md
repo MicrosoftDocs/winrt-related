@@ -12,9 +12,6 @@ ms.localizationpriority: medium
 ---
 
 # Synthesizing interfaces (MIDL 3.0)
-> [!NOTE]
-> **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
 ## Assigning members to interfaces
 A Windows Runtime class operates in terms of interfaces. Interfaces were barely mentioned in most of the preceding examples, though, because they're typically an implementation detail that you don't need to control in most cases.
 

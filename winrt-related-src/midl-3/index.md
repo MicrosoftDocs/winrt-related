@@ -12,13 +12,10 @@ ms.localizationpriority: medium
 ---
 
 # Microsoft Interface Definition Language 3.0 reference
-> [!NOTE]
-> **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
 Microsoft Interface Definition Language (MIDL) 3.0 is a simplified, modern, familiar syntax for declaring Windows Runtime types inside Interface Definition Language (`.idl`) files.
 
 ```idl
-// booksku.idl
+// BookSku.idl
 namespace Bookstore
 {
     runtimeclass BookSku
@@ -35,7 +32,7 @@ Interface Definition Language (IDL) began with the Distributed Computing Environ
 
 | Topic | Description |
 | - | - |
-| [Troubleshooting MIDL 3.0 issues](troubleshooting.md) | A table of troubleshooting symptoms and remedies. |
 | [Introduction to MIDL 3.0](intro.md) | An introduction to Microsoft Interface Definition Language 3.0. |
 | [Synthesizing interfaces (MIDL 3.0)](synthesizing-interfaces.md) | This topic describes how the MIDL 3.0 compiler synthesizes and adds interfaces, as necessary. |
 | [Predefined attributes (MIDL 3.0)](predefined-attributes.md) | There are a number of pre-defined custom attributes that allow you to control the name and IID for compiler-synthesized interfaces. |
+| [Troubleshooting MIDL 3.0 issues](troubleshooting.md) | A table of troubleshooting symptoms and remedies. |
