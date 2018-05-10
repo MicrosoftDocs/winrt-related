@@ -12,9 +12,6 @@ ms.localizationpriority: medium
 ---
 
 # Predefined attributes (MIDL 3.0)
-> [!NOTE]
-> **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
 There are a number of pre-defined custom attributes that allow you to control the name and interface identifier (IID) for compiler-synthesized interfaces. These attributes allow you to control the versioning and binary API of your
 class at a fine-grained level.
 

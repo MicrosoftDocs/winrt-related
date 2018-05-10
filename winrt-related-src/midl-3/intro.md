@@ -12,13 +12,10 @@ ms.localizationpriority: medium
 ---
 
 # Introduction to Microsoft Interface Definition Language 3.0
-> [!NOTE]
-> **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
-Microsoft Interface Definition Language (MIDL) 3.0 is a simplified, modern syntax for declaring Windows Runtime types inside Interface Definition Language (`.idl`) files. This new syntax will feel familiar to anyone experienced with C, C++, C#, and/or Java. MIDL 3.0 is a particularly convenient way to declare [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) runtime classes. Here's how it looks; this example demonstrates most of the language syntax.
+Microsoft Interface Definition Language (MIDL) 3.0 is a simplified, modern syntax for declaring Windows Runtime types inside Interface Definition Language (IDL) files (`.idl` files). This new syntax will feel familiar to anyone experienced with C, C++, C#, and/or Java. MIDL 3.0 is a particularly convenient way to declare [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) runtime classes. Here's how it looks; this example demonstrates most of the language syntax.
 
 ```idl
-// photo.idl
+// Photo.idl
 namespace PhotoEditor
 {
     delegate void RecognitionHandler(Boolean arg); // delegate type, for an event.
@@ -40,18 +37,16 @@ namespace PhotoEditor
 
 Note that the syntax of MIDL 3.0 is specifically and solely designed for *declaring* types. You'll use a different programming language to *implement* those types. To use MIDL 3.0, you'll need Windows SDK version 10.0.17134.0 (Windows 10, version 1803) (`midl.exe` version 8.01.0622 or later, used with the `/winrt` switch).
 
-## Declaration structure
+## Declaration structure, and calling midl.exe from the command line
 The key organizational concepts in a MIDL 3.0 declaration are namespaces, types, and members. A MIDL 3.0 source file (an `.idl` file) contains at least one namespace, inside which are types and/or subordinate namespaces. Each type contains zero or more members.
 
 - Classes, interfaces, structures, and enumerations are types.
 - Fields, methods, properties, and events are examples of members.
 
-When you compile a MIDL 3.0 source file, the compiler (`midl.exe`) emits a Windows Runtime metadata file (typically a `.winmd` file), and a header for use by C and C++ applications.
+When you compile a MIDL 3.0 source file, the compiler (`midl.exe`) emits a Windows Runtime metadata file (typically a `.winmd` file).
 
 ```idl
-// booksku.idl
-import "Windows.UI.Xaml.Data.idl";
-import "Windows.UI.Xaml.Media.idl";
+// Bookstore.idl
 namespace Bookstore
 {
     runtimeclass BookSku : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Data.INotifyPropertyChanged
@@ -76,16 +71,46 @@ Since the namespace of a Windows Runtime type becomes part of the type name, the
 
 This class implements the **Windows.UI.Xaml.Data.INotifyPropertyChanged** interface. And the class contains several members: two constructors, a read-write property (**Price**), some read-only properties (**AuthorName** through **Title**), and two methods, named **Equals** and **ApplyDiscount**. Note the use of the type **Single** rather than **float**. And that **String** has an upper-case "S".
 
-If the source code for this example is stored in `booksku.idl`, then you can issue this command (adjust the SDK version number for your case, if necessary).
+> [!TIP]
+> Visual Studio provides the best experience for compiling MIDL 3.0, by means of the C++/WinRT Visual Studio Extension (VSIX). See [Visual Studio support for C++/WinRT, and the VSIX](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt#visual-studio-support-for-cwinrt-and-the-vsix).
+
+But you can also compile MIDL 3.0 from the command line. If the source code for this example is stored in a file named `Bookstore.idl`, then you can issue the command below. If necessary for your case, you can update the SDK version number used in the command (which is 10.0.17134.0).
 
 ```
-midl /winrt /metadata_dir "%WindowsSdkDir%References\10.0.17133.0\windows.foundation.foundationcontract\3.0.0.0" /nomidl booksku.idl
+midl /winrt /metadata_dir "%WindowsSdkDir%References\10.0.17134.0\windows.foundation.foundationcontract\3.0.0.0" /h "nul" /nomidl /reference "%WindowsSdkDir%References\10.0.17134.0\Windows.Foundation.FoundationContract\3.0.0.0\Windows.Foundation.FoundationContract.winmd" /reference "%WindowsSdkDir%References\10.0.17134.0\Windows.Foundation.UniversalApiContract\6.0.0.0\Windows.Foundation.UniversalApiContract.winmd" /reference "%WindowsSdkDir%\References\10.0.17134.0\Windows.Networking.Connectivity.WwanContract\2.0.0.0\Windows.Networking.Connectivity.WwanContract.winmd" Bookstore.idl
 ```
 
-The `midl.exe` tool compiles the example and produces a metadata file named `booksku.winmd`, and a header named `booksku.h`. Incidentally, you can use the `where` command to find out where `midl.exe` is installed.
+The `midl.exe` tool compiles the example and produces a metadata file named `Bookstore.winmd` (by default, the name of the `.idl` file is used). 
+
+> [!TIP]
+> We recommend that you declare each runtime class in its own Interface Definition Language (IDL) (.idl) file, in order to optimize build performance when you edit an IDL file, and for logical correspondence of an IDL file to its generated source code files. Then, merge all of the resulting `.winmd` files into a single file with the same name as the root namespace. That final `.winmd` file will be the one that the consumers of your APIs will reference.
+
+In this case, **BookSku** is the only runtime class in the **Bookstore** namespace, so we saved a step and just named the `.idl` file for the namespace.
+
+Incidentally, you can use the `where` command to find out where `midl.exe` is installed.
 
 ```
 where midl
+```
+
+If you want to use the types declared in one `.idl` file from a different `.idl` file, then you use the `import` directive. For more details, and a code example, see [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property). Of course, if you're consuming a first- or third-party component, then you won't have access to the `.idl` file. For example, you might want to consume the [Win2D](https://www.nuget.org/packages/Win2D.uwp) Windows Runtime API for immediate-mode 2D graphics rendering. The command above used the `/reference` switch to reference a Windows Runtime metadata (`.winmd`) file. In this next example, we'll use that switch again, imagining the scenario where we have `Bookstore.winmd`, but not `Bookstore.idl`.
+
+```idl
+// MVVMApp.idl
+namespace MVVMApp
+{
+    runtimeclass ViewModel : Windows.UI.Xaml.DependencyObject
+    {
+        ViewModel();
+        Bookstore.BookSku BookSku{ get; };
+    }
+}
+```
+
+If the source code for the example above is stored in a file named `MVVMApp.idl`, then you can issue the command below to reference `Bookstore.winmd`.
+
+```
+midl /winrt /metadata_dir "%WindowsSdkDir%References\10.0.17134.0\windows.foundation.foundationcontract\3.0.0.0" /h "nul" /nomidl /reference "%WindowsSdkDir%References\10.0.17134.0\Windows.Foundation.FoundationContract\3.0.0.0\Windows.Foundation.FoundationContract.winmd" /reference "%WindowsSdkDir%References\10.0.17134.0\Windows.Foundation.UniversalApiContract\6.0.0.0\Windows.Foundation.UniversalApiContract.winmd" /reference "%WindowsSdkDir%\References\10.0.17134.0\Windows.Networking.Connectivity.WwanContract\2.0.0.0\Windows.Networking.Connectivity.WwanContract.winmd" /reference Bookstore.winmd MVVMApp.idl
 ```
 
 ## Namespaces
