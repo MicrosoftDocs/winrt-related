@@ -4,7 +4,7 @@ ms.assetid: 7ec485fd-ecd8-49f3-82cd-fbf1e0656222
 title: uap4:Rule
 description: Defines rules for inbound and outbound loopback connections.
 ms.author: lahugh
-ms.date: 04/05/2017
+ms.date: 05/10/2018
 ms.topic: reference
 ms.prod: windows
 ms.technology: winrt-reference
@@ -59,6 +59,9 @@ Defines rules for inbound and outbound loopback connections.
 |-----------|-------------|-----------|----------|
 | Direction | Specifies whether the connection will be inbound or outbound over loopback. | String value. This can either be "in" or "out". | Yes |
 | PackageFamilyName | The package family name of the app to connect to. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |
+
+## Remarks
+Loopback connections are supported only for TCP connections. Note that the UDP protocol is not supported.
 
 ## Requirements
 
