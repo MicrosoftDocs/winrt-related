@@ -42,3 +42,4 @@ A code, which may be a success code or an error code. An exception is thrown onl
 * [winrt namespace](../winrt.md)
 * [winrt::hresult_error struct](hresult-error.md)
 * [winrt::throw_hresult function](throw-hresult.md)
+* [Error handling with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/error-handling)

@@ -357,7 +357,7 @@ void swap(winrt::Windows::Foundation::IUnknown& left, winrt::Windows::Foundation
 
 ### Parameters
 `left` `right`
-An **IUnknown** value whose pointers to mutually swap with that of the other parameter.
+An **IUnknown** value whose pointer to mutually swap with that of the other parameter.
 
 ## See also 
 * [winrt namespace](winrt.md)

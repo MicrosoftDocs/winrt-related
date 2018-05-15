@@ -37,3 +37,4 @@ The HRESULT error code represented by the last exception thrown.
 ## See also 
 * [winrt namespace](../winrt.md)
 * [winrt::hresult_error struct](hresult-error.md)
+* [Error handling with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/error-handling)

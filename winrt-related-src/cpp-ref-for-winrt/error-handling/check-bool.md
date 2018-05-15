@@ -42,3 +42,4 @@ A value that's convertible to `false` (an error condition), or `true` (a success
 * [winrt namespace](../winrt.md)
 * [winrt::throw_hresult function](throw-hresult.md)
 * [winrt::throw_last_error struct](throw-last-error.md)
+* [Error handling with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/error-handling)
