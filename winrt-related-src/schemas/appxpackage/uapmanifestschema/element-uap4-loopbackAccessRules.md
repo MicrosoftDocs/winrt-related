@@ -4,7 +4,7 @@ ms.assetid: 6532bd08-d33b-49c1-9f8a-477d32b83464
 title: uap4:LoopbackAccessRules
 description: Contains rules for a loopback filter that enables communication between an app and a service.
 ms.author: lahugh
-ms.date: 04/05/2017
+ms.date: 05/10/2018
 ms.topic: reference
 ms.prod: windows
 ms.technology: winrt-reference
@@ -59,6 +59,8 @@ Contains rules for a loopback filter that enables communication between an app a
 |---------------|-------------|
 | [Rule](element-uap4-rule.md) | Defines rules for inbound and outbound loopback connections. |
 
+## Remarks
+Loopback connections are supported only for TCP connections. Note that the UDP protocol is not supported.
 
 ## Requirements
 
