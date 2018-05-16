@@ -94,7 +94,7 @@ The target type pointed to by the input smart pointer.
 
 ### Parameters
 `other`
-Another **com_ptr** that initializes the **com_ptr** object. The parameter's **T** must be convertible to the the **com_ptr** object's **T**.
+Another **com_ptr** that initializes the **com_ptr** object. The parameter's **T** must be convertible to the **com_ptr** object's **T**.
 
 ## com_ptr::as function
 Returns the requested interface, if it is supported. Throws if it is not. This function is useful if you want to query for an interface that you don't need to pass back to your caller.
@@ -254,7 +254,7 @@ The type pointed to by the value being assigned.
 
 ### Parameters
 `other`
-A **com_ptr** value to assign to the **com_ptr** object. The parameter's **T** must be convertible to the the **com_ptr** object's **T**.
+A **com_ptr** value to assign to the **com_ptr** object. The parameter's **T** must be convertible to the **com_ptr** object's **T**.
 
 ### Return value
 A reference to the **com_ptr** object.
@@ -403,7 +403,7 @@ void swap(winrt::com_ptr& left, winrt::com_ptr& right) noexcept;
 
 ### Parameters
 `left` `right`
-A **com_ptr** value whose pointers to mutually swap with that of the other parameter.
+A **com_ptr** value whose pointer to mutually swap with that of the other parameter.
 
 ## See also 
 * [winrt namespace](winrt.md)

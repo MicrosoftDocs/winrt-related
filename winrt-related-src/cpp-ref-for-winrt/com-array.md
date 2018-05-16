@@ -15,7 +15,7 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::com_array struct template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
-A view, or span, of a contiguous series of values for passing to and from Windows Runtime APIs. **winrt::com_array** *is a* **winrt::array_view**, so it's important to see the [winrt::array_view struct template](array-view.md) topic to learn about the members and free operators that are also available to **winrt::com_array**.
+A view, or span, of a contiguous series of values for passing to and from Windows Runtime APIs. **winrt::com_array** *is a* **winrt::array_view**, so it's important to see the [**winrt::array_view**](array-view.md) struct template topic to learn about the members and free operators that are also available to **winrt::com_array**.
 
 ## Syntax
 ```cppwinrt

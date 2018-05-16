@@ -257,6 +257,9 @@ Returns a null-terminated C-style string version of the characters in the **hstr
 std::wchar_t const* data() const noexcept;
 ```
 
+### Return value 
+A null-terminated C-style string version of the characters in the **hstring** object.
+
 ### Example
 ```cppwinrt
 #include <iostream>
@@ -268,9 +271,6 @@ void PrintHstring(hstring const& theHstring)
     std::wcout << theHstring.data() << std::endl;
 }
 ```
-
-### Return value 
-A null-terminated C-style string version of the characters in the **hstring** object.
 
 ## hstring::empty function
 Returns a value indicating whether the **hstring** object is empty.

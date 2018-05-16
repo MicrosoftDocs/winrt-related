@@ -164,3 +164,4 @@ An HRESULT error code.
 * [ILanguageExceptionStackBackTrace interface](https://msdn.microsoft.com/library/mt809558)
 * [ILanguageExceptionTransform interface](https://msdn.microsoft.com/library/mt809560)
 * [RoOriginateLanguageException function](https://msdn.microsoft.com/library/dn302172)
+* [Error handling with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/error-handling)

@@ -33,3 +33,4 @@ A helper function that calls [GetLastError](https://msdn.microsoft.com/library/w
 * [winrt namespace](../winrt.md)
 * [winrt::hresult_error struct](hresult-error.md)
 * [winrt::throw_hresult function](throw-hresult.md)
+* [Error handling with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/error-handling)

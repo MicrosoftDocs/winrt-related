@@ -45,3 +45,4 @@ A valid pointer; a value is returned only if an exception is not thrown, therefo
 * [winrt namespace](../winrt.md)
 * [winrt::throw_hresult function](throw-hresult.md)
 * [winrt::throw_last_error struct](throw-last-error.md)
+* [Error handling with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/error-handling)

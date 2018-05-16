@@ -30,6 +30,9 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [delegate struct template](delegate.md) | A type that you can use to declare a custom delegate type for your own events. |
 | [event struct template](event.md) | A type that you can use to declare and implement an event of a specified delegate type. |
 | [event_token struct](event-token.md) | A token returned when registering an event-handling delegate with an event; can be used to revoke the registration of the same delegate. |
+| [file_handle struct](file-handle.md) | Represents a Windows file handle object. |
+| [handle struct](handle.md) | Represents a Windows handle object. |
+| [handle_type struct template](handle-type.md) | The template for the [**winrt::handle**](handle.md) and [**winrt::file_handle**](file-handle.md) structs. |
 | [hstring struct](hstring.md) | A sequential collection of UTF-16 Unicode characters representing a text string. |
 | [hresult_access_denied struct](error-handling/hresult-access-denied.md) | A type derived from [winrt::hresult_error](error-handling/hresult-error.md), representing an E_ACCESSDENIED HRESULT error code. |
 | [hresult_canceled struct](error-handling/hresult-canceled.md) | A type derived from [winrt::hresult_error](error-handling/hresult-error.md), representing an ERROR_CANCELLED HRESULT error code. |

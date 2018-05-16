@@ -40,7 +40,6 @@ struct BookSku : BookSkuT<BookSku, no_weak_ref>
 }
 ```
 
-
 ## Syntax
 ```cppwinrt
 template <typename D, typename... I>
