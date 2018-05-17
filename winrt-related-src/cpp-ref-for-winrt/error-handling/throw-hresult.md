@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::put_abi function ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+# winrt::throw_hresult function ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
 A helper function that takes a HRESULT error code, and throws an exception using a C++/WinRT object (or a standard object) that represents that error code.
 
 If the error code is E_OUTOFMEMORY, then **std::bad_alloc** is thrown. If the error code is a common HRESULT error code, then one of the specialized types derived from [winrt::hresult_error](hresult-error.md) is thrown. For example, E_INVALIDARG causes a [winrt::hresult_invalid_argument](hresult-invalid-argument.md) to be thrown. Otherwise, **winrt::hresult_error** is thrown.
