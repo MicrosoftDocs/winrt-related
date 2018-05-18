@@ -997,3 +997,5 @@
 ### [APIs present on all Windows 10 devices](win32-and-com/win32-apis.md)
 ### [Extension APIs for Windows 10 devices](win32-and-com/win32-extension-apis.md)
 ### [Alternatives to Win32 and COM API](win32-and-com/alternatives-to-windows-apis-uwp.md)
+## [Specifications](specifications/specifications.md)
+### [Ink Serialized Format (ISF) Specification](specifications/ink-serialized-format.md)
