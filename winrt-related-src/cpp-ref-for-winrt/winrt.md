@@ -23,12 +23,14 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | Type | Description |
 | - | - |
 | [agile_ref struct template](agile-ref.md) | A type representing an agile reference to a C++/WinRT object or interface. |
+| [apartment_context struct](apartment-context.md) | Captures the thread context within a coroutine so that it can be restored later. |
 | [array_view struct template](array-view.md) | A view, or span, of a contiguous series of values. |
 | [auto_revoke_t marker struct](auto-revoke-t.md) | A marker type used to request an event revoker when registering a delegate to handle an event. |
 | [com_array struct template](com-array.md) | A view, or span, of a contiguous series of values for passing to and from Windows Runtime APIs. |
 | [com_ptr struct template](com-ptr.md) | A reference-counted COM smart pointer template. |
 | [delegate struct template](delegate.md) | A type that you can use to declare a custom delegate type for your own events. |
 | [event struct template](event.md) | A type that you can use to declare and implement an event of a specified delegate type. |
+| [event_revoker struct](event-revoker.md) | When you register a delegate, you can request an event revoker, which you can use to automatically or manually revoke your delegate. |
 | [event_token struct](event-token.md) | A token returned when registering an event-handling delegate with an event; can be used to revoke the registration of the same delegate. |
 | [file_handle struct](file-handle.md) | Represents a Windows file handle object. |
 | [handle struct](handle.md) | Represents a Windows handle object. |
@@ -50,6 +52,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [implements struct template](implements.md) | A base struct template that implements one or more Windows Runtime interfaces on behalf of a derived type. |
 | [no_weak_ref marker struct](no-weak-ref.md) | A marker type used to opt out of weak reference support. |
 | [non_agile marker struct](non-agile.md) | A marker type used to indicate that your type is not agile, and consequently does not implement the [IAgileObject interface](https://msdn.microsoft.com/library/windows/desktop/hh802476). |
+| [resume_foreground struct](resume-foreground.md) | TBD |
 | [weak_ref struct template](weak-ref.md) | A type representing a weak reference to a C++/WinRT object or interface. |
 | [Windows::Foundation::IUnknown struct](windows-foundation-iunknown.md) | Every C++/WinRT runtime class (whether a Windows or a third party runtime class) derives from winrt::Windows::Foundation::IUnknown. |
 
@@ -77,6 +80,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [make_self function template](make-self.md) | A factory method that returns a [com_ptr](com-ptr.md) to an instance of the implementation type for a runtime class. |
 | [make_weak function template](make-weak.md) | A helper function that returns a [weak_ref](weak-ref.md) object, representing a weak reference to a C++/WinRT object or interface. |
 | [put_abi function](put-abi.md) | A helper function that retrieves the address of a C++/WinRT object's underlying IUnknown interface pointer so that it can be set to another value. |
+| [resume_background function](resume-background.md) | A helper function that returns control to the caller, and resumes execution on a thread pool thread. |
 | [swap function](swap.md) | A helper function that swaps the contents of two values. |
 | [throw_hresult function](error-handling/throw-hresult.md) | A helper function that takes a HRESULT error code, and throws an exception using a C++/WinRT object that represents that error code. |
 | [throw_last_error function](error-handling/throw-last-error.md) | A helper function that retrieves the calling thread's last-error code value, and throws an exception using a C++/WinRT object that represents that error code. |
