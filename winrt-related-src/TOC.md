@@ -987,6 +987,8 @@
 ### [resume_background function](cpp-ref-for-winrt/resume-background.md)
 ### [resume_foreground struct](cpp-ref-for-winrt/resume-foreground.md)
 ### [swap function](cpp-ref-for-winrt/swap.md)
+### [to_hstring function](cpp-ref-for-winrt/to-hstring.md)
+### [to_string function](cpp-ref-for-winrt/to-string.md)
 ### [unbox_value function template](cpp-ref-for-winrt/unbox-value.md)
 ### [unbox_value_or function template](cpp-ref-for-winrt/unbox-value-or.md)
 ### [weak_ref struct template](cpp-ref-for-winrt/weak-ref.md)
