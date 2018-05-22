@@ -67,7 +67,7 @@ struct hstring
 |[copy_from_abi function](#copyfromabi-function)|Copies to a **hstring** object from a handle to a Windows Runtime string. Clears the **hstring**, copies the parameter, and begins managing the handle.|
 |[copy_to_abi function](#copytoabi-function)|Copies to a handle to a Windows Runtime string from a **hstring** object.|
 |[detach_abi function](#detachabi-function)|Detaches a **hstring** object from its handle, perhaps to return it to a caller.|
-|[to_hstring function](#tohstring-function)|Conversion function. Returns a new **hstring** object resulting from converting the parameter.| 
+|[to_hstring function](to-hstring.md)|Converts an input value to a **winrt::hstring** containing the value's string representation.| 
 
 ## Free operators
 |Operator|Description|
@@ -640,38 +640,6 @@ A pointer to an array of constant **wchar_t** to compare with the other paramete
 
 ### Return value
 `true` if the first parameter is greater than or equal to the second parameter, otherwise `false`.
-
-## to_hstring function
-Conversion function. Returns a new **hstring** object resulting from converting the parameter.
-
-### Syntax
-```cppwinrt
-inline winrt::hstring to_hstring(bool value);
-inline winrt::hstring to_hstring(char16_t value);
-inline winrt::hstring to_hstring(double value);
-inline winrt::hstring to_hstring(float value);
-inline winrt::hstring to_hstring(GUID const& value);
-inline winrt::hstring to_hstring(winrt::hstring const& value) noexcept;
-inline winrt::hstring to_hstring(int16_t value);
-inline winrt::hstring to_hstring(int32_t value);
-inline winrt::hstring to_hstring(int64_t value);
-inline winrt::hstring to_hstring(int8_t value);
-template <typename T> winrt::hstring to_hstring(T const& value);
-inline winrt::hstring to_hstring(uint16_t value);
-inline winrt::hstring to_hstring(uint32_t value);
-inline winrt::hstring to_hstring(uint64_t value);
-inline winrt::hstring to_hstring(uint8_t value);
-```
-
-### Parameters
-`value`
-The value to convert into a new **hstring** object.
-
-### Return value
-A new **hstring** object resulting from converting the parameter.
-
-### Remarks
-For the function template, specializations are generated only for types convertible from **std::basic_string_view**.
 
 ## See also 
 * [winrt namespace](winrt.md)

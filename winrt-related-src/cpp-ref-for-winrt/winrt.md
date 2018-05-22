@@ -85,6 +85,8 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [throw_hresult function](error-handling/throw-hresult.md) | A helper function that takes a HRESULT error code, and throws an exception using a C++/WinRT object that represents that error code. |
 | [throw_last_error function](error-handling/throw-last-error.md) | A helper function that retrieves the calling thread's last-error code value, and throws an exception using a C++/WinRT object that represents that error code. |
 | [to_hresult function](error-handling/to-hresult.md) | A helper function, for use in a catch block, that turns the last exception thrown into a HRESULT error code. |
+| [to_hstring function](to-hstring.md) | A helper function that converts an input value to a **winrt::hstring** containing the value's string representation. |
+| [to_string function](to-string.md) | A helper function that converts an input wide string to a **std::string** containing a UTF-8 narrow string. |
 | [unbox_value function template](unbox-value.md) | A function template that unwraps (or *unboxes*) a scalar value from inside a reference class object so that it can be processed in a function that expects **IInspectable**. |
 | [unbox_value_or function template](unbox-value-or.md) | A function template that unwraps (or *unboxes*) a scalar value from inside a reference class object, with a fallback value, so that it can be processed in a function that expects **IInspectable**. |
 | [xaml_typename function template](xaml-typename.md) | A helper function that returns the type name of a Windows Runtime type, in the form of a [Windows::UI::Xaml::Interop::TypeName](/uwp/api/windows.ui.xaml.interop.typename) object. |
