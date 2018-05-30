@@ -33,6 +33,7 @@ struct resume_foreground
 ```cppwinrt
 inline auto resume_foreground();
 ```
+
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
