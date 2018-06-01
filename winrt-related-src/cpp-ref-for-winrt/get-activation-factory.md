@@ -39,6 +39,20 @@ auto factory = winrt::get_activation_factory<BankAccountWRC::BankAccount>();
 BankAccountWRC::BankAccount account = factory.ActivateInstance<BankAccountWRC::BankAccount>();
 ```
 
+```cppwinrt
+using namespace winrt::Windows::Foundation;
+...
+auto factory = winrt::get_activation_factory<Uri, IUriRuntimeClassFactory>();
+Uri account = factory.CreateUri(L"http://www.contoso.com");
+```
+
+```cppwinrt
+using namespace winrt::Windows::Globalization::NumberFormatting;
+...
+auto factory = winrt::get_activation_factory<CurrencyFormatter, ICurrencyFormatterFactory>();
+CurrencyFormatter currency = factory.CreateCurrencyFormatterCode(L"USD");
+```
+
 ## Requirements
 **Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
 
