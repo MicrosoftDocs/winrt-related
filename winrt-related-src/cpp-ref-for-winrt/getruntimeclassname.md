@@ -17,7 +17,7 @@ ms.workload: ["cplusplus"]
 # GetRuntimeClassName function ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
 A member function (of a generated implementation type) that returns a string containing the fully-qualified type name of the Windows Runtime class being implemented.
 
-For an explanation of the implementation type and projected type concepts, see [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis.md) and [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis.md).
+For an explanation of the implementation type and projected type concepts, see [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis) and [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis).
 
 Also see [IInspectable::GetRuntimeClassName](https://msdn.microsoft.com/en-us/library/br205823).
 
@@ -57,5 +57,5 @@ Or you can use the [winrt::xaml_typename](xaml-typename.md) function template.
 
 ## See also 
 * [winrt::xaml_typename function template](xaml-typename.md)
-* [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis.md)
-* [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis.md)
+* [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis)
+* [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis)

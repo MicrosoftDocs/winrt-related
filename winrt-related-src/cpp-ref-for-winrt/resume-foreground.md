@@ -15,7 +15,7 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::resume_foreground struct ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
-A struct&mdash;for use within a coroutine&mdash;that you can `co-await` to switch execution to a specific foreground thread. For more info, and a code example, see [Programming with thread affinity in mind](/windows/uwp/cpp-and-winrt-apis/concurrency.md#programming-with-thread-affinity-in-mind).
+A struct&mdash;for use within a coroutine&mdash;that you can `co-await` to switch execution to a specific foreground thread. For more info, and a code example, see [Programming with thread affinity in mind](/windows/uwp/cpp-and-winrt-apis/concurrency#programming-with-thread-affinity-in-mind).
 
 ## Syntax
 ```cppwinrt
@@ -60,4 +60,4 @@ Specifies the priority for event dispatch.
 * [winrt namespace](winrt.md)
 * [winrt::apartment_context function](apartment-context.md)
 * [winrt::resume_background function](resume-background.md)
-* [Concurrency and asynchronous operations with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/concurrency.md)
+* [Concurrency and asynchronous operations with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/concurrency)
