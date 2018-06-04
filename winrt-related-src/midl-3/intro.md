@@ -992,8 +992,8 @@ Each enum type has a corresponding integral type called the
 *underlying type* of the enum type. The underlying type of an enum
 is either **Int32** or **UInt32**.
 
-When an enum is a *Flags* enum (that is, it has the `[Flags]` attribute
-applied), the underlying type of the enum is **UInt32**. When the `[Flags]` attribute is not present, the underlying type of the enum is **Int32**.
+When an enum is a *Flags* enum (that is, it has the `[flags]` attribute
+applied), the underlying type of the enum is **UInt32**. When the `[flags]` attribute is not present, the underlying type of the enum is **Int32**.
 
 An enum type's storage format and range of possible values are
 determined by its underlying type. The set of values that an enum type
@@ -1008,7 +1008,7 @@ enum Alignment
     Left = -1,
     Center = 0,
     Right = 1
-}
+};
 ```
 
 An enum member declaration can include a constant expression that
@@ -1022,13 +1022,13 @@ The following example declares an enum type named **Permissions**, with an
 underlying type of **UInt32**.
 
 ```idl
-[Flags]
+[flags]
 enum Permissions
 {
     None = 0x0000,
     Camera = 0x0001,
     Microphone = 0x0002
-}
+};
 ```
 
 ### Attributes
