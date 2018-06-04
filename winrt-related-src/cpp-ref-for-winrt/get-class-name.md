@@ -17,7 +17,7 @@ ms.workload: ["cplusplus"]
 # winrt::get_class_name function ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
 A helper function that retrieves a string containing the fully-qualified type name of the Windows Runtime class represented by an object of a given projected type.
 
-For an explanation of the implementation type and projected type concepts, see [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis.md) and [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis.md).
+For an explanation of the implementation type and projected type concepts, see [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis) and [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis).
 
 ## Syntax
 ```cppwinrt
@@ -47,5 +47,5 @@ assert(name == L"Windows.Foundation.Uri");
 
 ## See also 
 * [winrt namespace](winrt.md)
-* [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis.md)
-* [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis.md)
+* [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis)
+* [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis)

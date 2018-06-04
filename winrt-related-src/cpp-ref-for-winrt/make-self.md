@@ -15,7 +15,7 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::make_self function template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
-A factory method that returns a [com_ptr](com-ptr.md) to an instance of the implementation type for a runtime class. For an explanation of the implementation type and projected type concepts, see [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis.md) and [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis.md). Also see [make](make.md).
+A factory method that returns a [com_ptr](com-ptr.md) to an instance of the implementation type for a runtime class. For an explanation of the implementation type and projected type concepts, see [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis) and [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis). Also see [make](make.md).
 
 If you're authoring a runtime class then, from within the same compilation unit, you can use **make_self** to construct an instance of the implementation type for the runtime class. Assign the return value from **make_self** to a [com_ptr](com-ptr.md) of your implementation type so that you manage the lifetime of the object appropriately.
 
@@ -47,5 +47,5 @@ A [com_ptr](com-ptr.md) to a newly-created instance of the implementation type f
 * [winrt namespace](winrt.md)
 * [winrt::com_ptr struct template](com-ptr.md)
 * [winrt::make function template](make.md)
-* [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis.md)
-* [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis.md)
+* [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis)
+* [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis)

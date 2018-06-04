@@ -15,7 +15,7 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::resume_background function ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
-A helper function&mdash;for use within a coroutine&mdash;that returns control to the caller, and then immediately resumes execution on a thread pool thread. For more info, and a code example, see [Offloading work onto the Windows thread pool](/windows/uwp/cpp-and-winrt-apis/concurrency.md#offloading-work-onto-the-windows-thread-pool).
+A helper function&mdash;for use within a coroutine&mdash;that returns control to the caller, and then immediately resumes execution on a thread pool thread. For more info, and a code example, see [Offloading work onto the Windows thread pool](/windows/uwp/cpp-and-winrt-apis/concurrency#offloading-work-onto-the-windows-thread-pool).
 
 ## Syntax
 ```cppwinrt
@@ -36,4 +36,4 @@ An object that you can `co-await`.
 * [winrt namespace](winrt.md)
 * [winrt::apartment_context function](apartment-context.md)
 * [winrt::resume_foreground function](resume-foreground.md)
-* [Concurrency and asynchronous operations with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/concurrency.md)
+* [Concurrency and asynchronous operations with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/concurrency)
