@@ -23,16 +23,11 @@ struct resume_foreground
 ```
 
 ## Requirements
-**Minimum supported SDK:** Windows SDK Insider Preview version 10.0.17134.0 (Windows 10, version 1803)
+**Minimum supported SDK:** Windows SDK Insider Preview version 10.0.17661.0 (Windows 10, version 1803)
 
 **Namespace:** winrt
 
 **Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\Windows.UI.Core.h (not included by default)
-
-## Syntax
-```cppwinrt
-inline auto resume_foreground();
-```
 
 ## Constructors
 |Constructor|Description|
