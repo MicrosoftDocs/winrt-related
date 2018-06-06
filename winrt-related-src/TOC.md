@@ -934,6 +934,7 @@
 ### [attach_abi function](cpp-ref-for-winrt/attach-abi.md)
 ### [auto_revoke_t marker struct](cpp-ref-for-winrt/auto-revoke-t.md)
 ### [box_value function template](cpp-ref-for-winrt/box-value.md)
+### [clock struct](cpp-ref-for-winrt/clock.md)
 ### [com_array struct template](cpp-ref-for-winrt/com-array.md)
 ### [com_ptr struct template](cpp-ref-for-winrt/com-ptr.md)
 ### [copy_from_abi function](cpp-ref-for-winrt/copy-from-abi.md)
