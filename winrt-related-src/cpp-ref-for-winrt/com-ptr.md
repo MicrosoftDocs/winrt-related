@@ -37,7 +37,7 @@ The interface, or runtime class implementation type, a pointer to which is repre
 ## Member type aliases
 |Alias name|Type|
 |------------|-----------------|
-|com_ptr::type|A synonym for **winrt::impl::abi_t\<T\>**, where **T** is the `typename T` template parameter.|
+|com_ptr::type|A synonym for an implementation-defined representation of the `typename T` template parameter.|
 
 ## Constructors
 |Constructor|Description|
@@ -180,7 +180,7 @@ T* get() const noexcept;
 A pointer to the interface or object referenced by the **com_ptr** object.
 
 ## com_ptr::put function
-Returns the address of the underlying raw pointer; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer. If the **com_ptr** object already has a target, then set it to `nullptr` before calling this function, otherwise the function will assert.
+Returns the address of the underlying raw pointer; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer. If the **com_ptr** object already has a target, then assign `nullptr` to the **com_ptr** object before calling this function, otherwise the function will assert.
 
 ### Syntax
 ```cppwinrt
@@ -191,7 +191,7 @@ T** put() noexcept;
 The address of the underlying raw pointer.
 
 ## com_ptr::put_void function
-Returns the address of the underlying raw pointer as a pointer to a pointer to **void**; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer to **void**. If the **com_ptr** object already has a target, then set it to `nullptr` before calling this function, otherwise the function will assert.
+Returns the address of the underlying raw pointer as a pointer to a pointer to **void**; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer to **void**. If the **com_ptr** object already has a target, then assign `nullptr` to the **com_ptr** object before calling this function, otherwise the function will assert.
 
 ### Syntax
 ```cppwinrt
@@ -280,7 +280,7 @@ Attaches a **com_ptr** object to a raw pointer that owns a reference to its targ
 
 ### Syntax
 ```cppwinrt
-void attach_abi(winrt::com_ptr<T>& object, impl::abi_t<T>* value) noexcept;
+void attach_abi(winrt::com_ptr<T>& object, T* value) noexcept;
 ```
 
 ### Parameters

@@ -19,7 +19,7 @@ A marker type used to indicate to the [**implements**](implements.md) base struc
 
 ## Syntax
 ```cppwinrt
-struct winrt::non_agile : impl::marker
+struct winrt::non_agile
 ```
 
 ## Requirements
