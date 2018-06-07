@@ -34,6 +34,20 @@ The type of the values (elements) that the **array_view** views, or spans.
 
 **Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
+## Member type aliases
+|Alias name|Type|
+|------------|-----------------|
+|array_view::value_type|A synonym for the `typename T` template parameter.|
+|array_view::size_type|A synonym for **uint32_t**.|
+|array_view::reference|A synonym for **array_view::value_type&**.|
+|array_view::const_reference|A synonym for **array_view::value_type const&**.|
+|array_view::pointer|A synonym for **array_view::value_type\***.|
+|array_view::const_pointer|A synonym for **array_view::value_type const\***.|
+|array_view::iterator|A synonym for **winrt::impl::array_iterator\<array_view::value_type\>**.|
+|array_view::const_iterator|A synonym for **winrt::impl::array_iterator\<array_view::value_type const\>**.|
+|array_view::reverse_iterator|A synonym for **std::reverse_iterator<array_view::iterator>**.|
+|array_view::const_reverse_iterator|A synonym for **std::reverse_iterator<array_view::const_iterator>**.|
+
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|

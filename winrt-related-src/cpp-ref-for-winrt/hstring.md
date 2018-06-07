@@ -29,6 +29,16 @@ struct hstring
 
 **Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
+## Member type aliases
+|Alias name|Type|
+|------------|-----------------|
+|hstring::value_type|A synonym for **wchar_t**.|
+|hstring::size_type|A synonym for **uint32_t**.|
+|hstring::const_reference|A synonym for **hstring::value_type const&**.|
+|hstring::const_pointer|A synonym for **hstring::value_type const\***.|
+|hstring::const_iterator|A synonym for **hstring::const_pointer**.|
+|hstring::const_reverse_iterator|A synonym for **std::reverse_iterator\<hstring::const_iterator\>**.|
+
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|

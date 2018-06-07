@@ -34,6 +34,11 @@ A traits type that specifies the kind of handle being represented (either a hand
 
 **Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
+## Member type aliases
+|Alias name|Type|
+|------------|-----------------|
+|event::delegate_type|A synonym for **typename T::type**, where **T** is the `typename T` template parameter.|
+
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
