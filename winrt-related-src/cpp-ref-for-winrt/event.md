@@ -34,6 +34,11 @@ The type of delegate that can register to handle the event.
 
 **Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
+## Member type aliases
+|Alias name|Type|
+|------------|-----------------|
+|event::delegate_type|A synonym for the `typename Delegate` template parameter.|
+
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|

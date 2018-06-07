@@ -17,6 +17,8 @@ ms.workload: ["cplusplus"]
 # winrt::clock struct ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
 A type containing static helper functions for converting a [Windows::Foundation::DateTime](/uwp/api/windows.foundation.datetime) (that is, a [std::chrono::time_point](/cpp/standard-library/time-point-class)) to and from [FILETIME](https://msdn.microsoft.com/library/windows/desktop/ms724284), and to and from [time_t](/cpp/c-runtime-library/reference/time-time32-time64).
 
+**winrt::clock** is *defined* as using the same units as **Windows::Foundation::DateTime** (a signed 64-bit integer of 100-nanosecond intervals since Jan 1 1601). Other C++ standard clocks don't typically define their resolution, and don't use the epoch Jan 1 1601, which is a Windows Runtime/FILETIME epoch.
+
 ## Syntax
 ```cppwinrt
 struct clock
@@ -28,6 +30,14 @@ struct clock
 **Namespace:** winrt
 
 **Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+
+## Member type aliases
+|Alias name|Type|
+|------------|-----------------|
+|clock::rep|A synonym for **int64_t**.|
+|clock::period|A synonym for **winrt::impl::filetime_period**.|
+|clock::duration|A synonym for **Windows::Foundation::TimeSpan**.|
+|clock::time_point|A synonym for **Windows::Foundation::DateTime**.|
 
 ## Member functions
 |Function|Description|

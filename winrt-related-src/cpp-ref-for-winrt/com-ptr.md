@@ -34,6 +34,11 @@ The interface, or runtime class implementation type, a pointer to which is repre
 
 **Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
+## Member type aliases
+|Alias name|Type|
+|------------|-----------------|
+|com_ptr::type|A synonym for **winrt::impl::abi_t\<T\>**, where **T** is the `typename T` template parameter.|
+
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
