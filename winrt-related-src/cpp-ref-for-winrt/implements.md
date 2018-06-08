@@ -43,7 +43,7 @@ struct BookSku : BookSkuT<BookSku, no_weak_ref>
 ## Syntax
 ```cppwinrt
 template <typename D, typename... I>
-struct implements : impl::producer<D, impl::uncloak_t<I>>...,impl::base_implements<D, I...>::type
+struct implements
 ```
 
 ### Template parameters

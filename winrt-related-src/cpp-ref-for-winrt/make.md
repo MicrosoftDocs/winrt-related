@@ -24,13 +24,13 @@ For an explanation of the implementation type and projected type concepts, see [
 
 ## Syntax
 ```cppwinrt
-template <typename D, typename... Args, std::enable_if_t<!impl::has_composable<D>::value && !impl::has_class_type<D>::value>* = nullptr>
+template <typename D, typename... Args>
 auto make(Args&&... args);
 
-template <typename D, typename... Args, std::enable_if_t<!impl::has_composable<D>::value && impl::has_class_type<D>::value>* = nullptr>
+template <typename D, typename... Args>
 auto make(Args&&... args);
 
-template <typename D, typename... Args, std::enable_if_t<impl::has_composable<D>::value>* = nullptr>
+template <typename D, typename... Args>
 auto make(Args&&... args);
 ```
 

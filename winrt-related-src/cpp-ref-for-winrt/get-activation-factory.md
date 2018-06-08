@@ -20,7 +20,7 @@ A helper function that retrieves the activation factory for a specified Windows 
 ## Syntax
 ```cppwinrt
 template <typename Class, typename Interface = winrt::Windows::Foundation::IActivationFactory>
-winrt::impl::com_ref<Interface> get_activation_factory();
+auto get_activation_factory();
 ```
 
 ### Template parameters

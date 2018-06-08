@@ -35,7 +35,7 @@ struct clock
 |Alias name|Type|
 |------------|-----------------|
 |clock::rep|A synonym for **int64_t**.|
-|clock::period|A synonym for **winrt::impl::filetime_period**.|
+|clock::period|A synonym for **Windows::Foundation::TimeSpan::period**.|
 |clock::duration|A synonym for **Windows::Foundation::TimeSpan**.|
 |clock::time_point|A synonym for **Windows::Foundation::DateTime**.|
 

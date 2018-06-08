@@ -19,7 +19,7 @@ A marker type passed to the [**implements**](implements.md) base struct to opt o
 
 ## Syntax
 ```cppwinrt
-struct winrt::no_weak_ref : impl::marker
+struct winrt::no_weak_ref
 ```
 
 ## Requirements

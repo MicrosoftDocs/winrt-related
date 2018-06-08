@@ -43,8 +43,8 @@ The type of the values (elements) that the **array_view** views, or spans.
 |array_view::const_reference|A synonym for **array_view::value_type const&**.|
 |array_view::pointer|A synonym for **array_view::value_type\***.|
 |array_view::const_pointer|A synonym for **array_view::value_type const\***.|
-|array_view::iterator|A synonym for **winrt::impl::array_iterator\<array_view::value_type\>**.|
-|array_view::const_iterator|A synonym for **winrt::impl::array_iterator\<array_view::value_type const\>**.|
+|array_view::iterator|A synonym for an implementation-defined array iterator of **array_view::value_type**.|
+|array_view::const_iterator|A synonym for an implementation-defined array iterator of **array_view::value_type const**.|
 |array_view::reverse_iterator|A synonym for **std::reverse_iterator<array_view::iterator>**.|
 |array_view::const_reverse_iterator|A synonym for **std::reverse_iterator<array_view::const_iterator>**.|
 

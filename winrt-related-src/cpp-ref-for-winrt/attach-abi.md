@@ -20,7 +20,7 @@ A helper function that attaches a C++/WinRT object to a handle, or to a raw poin
 
 ## Syntax
 ```cppwinrt
-void attach_abi(winrt::com_ptr<T>& object, impl::abi_t<T>* value) noexcept;
+void attach_abi(winrt::com_ptr<T>& object, T* value) noexcept;
 void attach_abi(winrt::hstring& object, HSTRING value) noexcept;
 void attach_abi(winrt::Windows::Foundation::IUnknown& object, void* value) noexcept;
 ```

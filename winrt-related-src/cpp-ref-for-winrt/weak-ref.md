@@ -55,19 +55,20 @@ Initializes a new instance of the **weak_ref** struct, optionally with a copy of
 ### Syntax
 ```cppwinrt
 weak_ref(std::nullptr_t = nullptr) noexcept;
-weak_ref(impl::com_ref<T> const& object);
+weak_ref(T const& object);
+weak_ref(com_ptr<T> const& object);
 ```
 
 ### Parameters
 `object`
-A C++/WinRT object or interface that initializes the **weak_ref** object.
+A C++/WinRT object or interface or smart pointer that initializes the **weak_ref** object.
 
 ## weak_ref::get function
 Increments the reference count and retrieves the C++/WinRT object or interface weakly referenced by the **weak_ref** object.
 
 ### Syntax
 ```cppwinrt
-impl::com_ref<T> get() const noexcept;
+auto get() const noexcept;
 ```
 
 ### Return value 
