@@ -68,9 +68,9 @@ Describes the visual aspects of the app: its default tile, logo images, text and
 
   <!-- Child elements -->
   ( uap:DefaultTile?
-  &amp; uap:LockScreen?
-  &amp; uap:SplashScreen?
-  &amp; uap:InitialRotationPreference?
+  & uap:LockScreen?
+  & uap:SplashScreen?
+  & uap:InitialRotationPreference?
   )
 
 </uap3:VisualElements>
