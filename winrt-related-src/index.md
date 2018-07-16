@@ -33,24 +33,6 @@ The Universal Windows Platform (UWP) introduces a common API that you can use to
         </a>
     </li>
     <li>
-        <a href="https://msdn.microsoft.com/library/windows/apps/mt691886.aspx">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="/media/common/i_api-reference.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Microsoft Advertising SDK and Microsoft Store Services SDK</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
         <a href="https://msdn.microsoft.com/library/windows/apps/mt185501.aspx">
         <div class="cardSize">
             <div class="cardPadding">
@@ -80,6 +62,42 @@ The Universal Windows Platform (UWP) introduces a common API that you can use to
                     </div>
                     <div class="cardText">
                         <h3>Extension SDKs and API contracts</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/uwp/api/overview/advertising">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/common/i_billing.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Advertising SDK namespaces</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/uwp/api/overview/engagement">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/common/i_extend.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Store Services SDK namespaces</h3>
                     </div>
                 </div>
             </div>

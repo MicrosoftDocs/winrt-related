@@ -9,6 +9,8 @@
 ### [Windows Team Extension SDK](extension-sdks/windows-team-extension-sdk.md)
 ### [Xbox Live extension SDK](extension-sdks/xbox-live-extensions.md)
 ### [UWP features not yet supported on Xbox](extension-sdks/uwp-limitations-on-xbox.md)
+## [Advertising SDK namespaces](https://docs.microsoft.com/uwp/api/overview/advertising)
+## [Store Services SDK namespaces](https://docs.microsoft.com/uwp/api/overview/engagement)
 ## [Schemas](schemas/index.md)
 ### [App installer file](schemas/appinstallerschema/app-installer-file.md)
 #### [App installer file schema reference](schemas/appinstallerschema/schema-root.md)
