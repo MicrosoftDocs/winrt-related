@@ -105,6 +105,24 @@ The Universal Windows Platform (UWP) introduces a common API that you can use to
         </a>
     </li>
     <li>
+        <a href="toolkits/index.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/common/i_extend.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Libraries and toolkits</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>    
+    <li>
         <a href="/uwp/schemas">
         <div class="cardSize">
             <div class="cardPadding">

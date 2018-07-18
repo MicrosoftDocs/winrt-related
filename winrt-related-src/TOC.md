@@ -11,6 +11,11 @@
 ### [UWP features not yet supported on Xbox](extension-sdks/uwp-limitations-on-xbox.md)
 ## [Advertising SDK namespaces](https://docs.microsoft.com/uwp/api/overview/advertising)
 ## [Store Services SDK namespaces](https://docs.microsoft.com/uwp/api/overview/engagement)
+## [Libraries and toolkits](toolkits/index.md)
+### [Windows UI Library](toolkits/winui/index.md)
+#### Setup
+##### [Get started](toolkits/winui/getting-started.md)
+##### [NuGet package list](toolkits/winui/nuget-packages.md)
 ## [Schemas](schemas/index.md)
 ### [App installer file](schemas/appinstallerschema/app-installer-file.md)
 #### [App installer file schema reference](schemas/appinstallerschema/schema-root.md)
