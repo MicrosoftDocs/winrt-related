@@ -65,7 +65,7 @@ The toolkit is available as NuGet packages that can be added to any existing or 
     * In your XAML page, add a reference at the top of your page
 
         ```xaml
-        xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+        xmlns:controls="using:Microsoft.UI.Xaml.Controls"
         ```
 
     * In your code, add the toolkit's namespace: 
