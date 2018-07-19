@@ -25,7 +25,7 @@ NuGet is a standard package manager for .Net applications that is built into Vis
 
 Searching in Visual Studio package manager you should see a list similar to this one (version numbers may be different, but names should be the same).
 
-![](images/NugetPackages.)
+![](images/NugetPackages.png)
 
 ## Update Nuget Packages
 
