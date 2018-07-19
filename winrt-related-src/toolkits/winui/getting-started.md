@@ -24,9 +24,12 @@ The toolkit is available as NuGet packages that can be added to any existing or 
 2. Open an existing project, or create a new project using the Blank App template under Visual C# -> Windows -> Universal.  
     > **Important**:  To use the Windows UI Library, your project’s Min version must be 14393 or higher and the Target version must be 17134 or higher.   
 
-3. In Solution Explorer panel, right click on your project name and select **Manage NuGet Packages**. Search for **Microsoft.UI.Xaml**, and choose your desired [NuGet Packages](nuget-packages.md) from the list.
+3. In Solution Explorer panel, right click on your project name and select **Manage NuGet Packages**. Make sure **Include Prerelease** is checked and search for **Microsoft.UI.Xaml**, then choose which [Windows UI Library NuGet Packages](nuget-packages.md) you want to use.
 
-    ![NuGet Packages](images/ManageNugetPackages.png "Manage NuGet Packages Image")
+    ![NuGet packages](images/ManageNugetPackages.png "Manage NuGet Packages Image")
+
+    ![NuGet packages](images/NugetPackages.png)
+
 
 4. Add the WinUI Theme Resources to your App.xaml resources. There are two ways to do this, depending on whether you have additional application resources. 
 
