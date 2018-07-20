@@ -29,7 +29,7 @@ The Windows UI Library is a set of NuGet packages that provide controls and othe
 
 * XamlDirect 
 
-    XamlDirect enables you to use [XamlDirect APIs](/uwp/api/windows.ui.xaml.core.direct.xamldirect) on earlier versions of Windows 10 without needing to write special code to handle multiple target Windows 10 versions.
+    XamlDirect enables you to use [XamlDirect APIs](/uwp/api/microsoft.ui.xaml.core.direct) on earlier versions of Windows 10 without needing to write special code to handle multiple target Windows 10 versions. 
 
     The Xaml Direct APIs, designed for middleware developers, gives you access to a lower-level Xaml features which provide better CPU and working set performance. 
 
