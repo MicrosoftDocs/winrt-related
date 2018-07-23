@@ -10,7 +10,7 @@ ms.date: 07/09/2018
 keywords: windows 10, uwp, toolkit sdk
 ---
 
-# Windows UI Library (Preview edition)
+# Windows UI Library (Preview version)
 
 The Windows UI Library is a set of NuGet packages that provide controls and other user interface elements for UWP apps. It also enables down-level compatibility with earlier versions of Windows 10, so your app works even if users don't have the latest OS. 
 
@@ -32,10 +32,6 @@ The Windows UI Library is a set of NuGet packages that provide controls and othe
     XamlDirect enables you to use [XamlDirect APIs](/uwp/api/microsoft.ui.xaml.core.direct) on earlier versions of Windows 10 without needing to write special code to handle multiple target Windows 10 versions. 
 
     The Xaml Direct APIs, designed for middleware developers, gives you access to a lower-level Xaml features which provide better CPU and working set performance. 
-
-## Approved for the Microsoft Store
-
-The controls and features in the Windows UI Library are approved for the Microsoft Store, so go ahead and add them to your app! 
 
 ## Examples
 
