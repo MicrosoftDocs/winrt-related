@@ -31,7 +31,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [com_ptr struct template](com-ptr.md) | A reference-counted COM smart pointer template. |
 | [delegate struct template](delegate.md) | A type that you can use to declare a custom delegate type for your own events. |
 | [event struct template](event.md) | A type that you can use to declare and implement an event of a specified delegate type. |
-| [event_revoker struct](event-revoker.md) | When you register a delegate, you can request an event revoker, which you can use to automatically or manually revoke your delegate. |
+| [event_revoker struct template](event-revoker.md) | When you register a delegate, you can request an event revoker, which you can use to automatically or manually revoke your delegate. |
 | [event_token struct](event-token.md) | A token returned when registering an event-handling delegate with an event; can be used to revoke the registration of the same delegate. |
 | [file_handle struct](file-handle.md) | Represents a Windows file handle object. |
 | [handle struct](handle.md) | Represents a Windows handle object. |
