@@ -971,7 +971,7 @@
 #### [throw_last_error function](cpp-ref-for-winrt/error-handling/throw-last-error.md)
 #### [to_hresult function](cpp-ref-for-winrt/error-handling/to-hresult.md)
 ### [event struct template](cpp-ref-for-winrt/event.md)
-### [event_revoker struct](cpp-ref-for-winrt/event-revoker.md)
+### [event_revoker struct template](cpp-ref-for-winrt/event-revoker.md)
 ### [event_token struct](cpp-ref-for-winrt/event-token.md)
 ### [file_handle struct](cpp-ref-for-winrt/file-handle.md)
 ### [from_abi function template](cpp-ref-for-winrt/from-abi.md)
