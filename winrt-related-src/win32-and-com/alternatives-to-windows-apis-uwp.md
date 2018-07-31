@@ -196,7 +196,7 @@ User: mouse input | [Windows.Devices.Input](https://docs.microsoft.com/en-us/uwp
 User: multimon | single monitor |
 User: SystemParametersInfo | [Windows.Devices.Input](https://docs.microsoft.com/en-us/uwp/api/Windows.Devices.Input) |
 User: strings | strsafe functions |
-User: timers | none |
+User: timers | [Windows.System.DispatcherQueueTimer](https://docs.microsoft.com/en-us/uwp/api/Windows.System.DispatcherQueueTimer) |
 User: shutdown | none |
 User: windowing | [Windows.UI.Core.CoreWindow](https://docs.microsoft.com/en-us/uwp/api/Windows.UI.Core.CoreWindow)<br />[Windows.UI.Core.CoreWindowDialog](https://docs.microsoft.com/en-us/uwp/api/Windows.UI.Core.CoreWindowDialog)<br />[Windows.UI.Core.CoreWindowFlyout](https://docs.microsoft.com/en-us/uwp/api/Windows.UI.Core.CoreWindowFlyout) |
 Windows Animation Manager | [Windows.UI.Core.AnimationMetrics](https://docs.microsoft.com/en-us/uwp/api/Windows.UI.Core.AnimationMetrics) |
