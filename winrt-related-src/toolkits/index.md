@@ -12,7 +12,9 @@ keywords: windows 10, uwp, toolkit sdk
 
 # UWP toolkits and libraries
 
-These toolkits provide controls, helper functions, and services that make it easier to build powerful apps. 
+![](images/toolkits-banner.png)
+
+These toolkits, available as NuGet packages, provide controls, helper functions, and services that make it easier to build powerful apps. 
 
 ## Windows UI Library
 New controls and UI features for UWP apps from the Windows platform team.
