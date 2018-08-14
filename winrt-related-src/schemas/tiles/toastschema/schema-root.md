@@ -15,8 +15,6 @@ ms.date: 04/05/2017
 # Toast schema
 
 
-These elements 
-
 These elements and their attributes are manipulated through Document Object Model (DOM) manipulation functions to customize the toast content.
 
 To define the content for a toast, you can use [**ToastNotificationManager.getTemplateContent**](https://msdn.microsoft.com/library/windows/apps/br208646) to get a toast template that can be modified.
