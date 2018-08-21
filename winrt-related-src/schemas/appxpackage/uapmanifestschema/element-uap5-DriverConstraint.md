@@ -59,14 +59,14 @@ This example shows multiple `DriverDependency` and `DriverConstraint` elements p
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.10586.0"/>
     <PackageDependency Name="Microsoft.VCLibs" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" MinVersion="1.0.0.0" MaxMajorVersionTested="5"/>
         
-        <DriverDependency>
-            <DriverConstraint Name="Microsoft-HoloLens.INF" MinVersion="1.0.0.0" MinDate="2017-05-20"/>
-            <DriverConstraint Name="Microsoft-HoloLensCamera.INF" MinVersion="1.0.0.0" MinDate="2017-05-10"/>
-        </DriverDependency>
+    <uap5:DriverDependency>
+        <uap5:DriverConstraint Name="Microsoft-HoloLens.INF" MinVersion="1.0.0.0" MinDate="2017-05-20"/>
+        <uap5:DriverConstraint Name="Microsoft-HoloLensCamera.INF" MinVersion="1.0.0.0" MinDate="2017-05-10"/>
+    </uap5:DriverDependency>
         
-        <DriverDependency>
-            <DriverConstraint Name="Acer-HMDDevice.INF" MinDate="2017-05-10"/>
-        <DriverDependency>
+    <uap5:DriverDependency>
+        <uap5:DriverConstraint Name="Acer-HMDDevice.INF" MinDate="2017-05-10"/>
+    </uap5:DriverDependency>
 </Dependencies>
 
 ```
