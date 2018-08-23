@@ -49,7 +49,7 @@ When you compile a MIDL 3.0 source file, the compiler (`midl.exe`) emits a Windo
 // Bookstore.idl
 namespace Bookstore
 {
-    runtimeclass BookSku : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Data.INotifyPropertyChanged
+    runtimeclass BookSku : Windows.UI.Xaml.Data.INotifyPropertyChanged
     {
         BookSku();
         BookSku(Single price, String authorName, String coverImagePath, String title);
@@ -99,7 +99,7 @@ If you want to use the types declared in one `.idl` file from a different `.idl`
 // MVVMApp.idl
 namespace MVVMApp
 {
-    runtimeclass ViewModel : Windows.UI.Xaml.DependencyObject
+    runtimeclass ViewModel
     {
         ViewModel();
         Bookstore.BookSku BookSku{ get; };
@@ -426,7 +426,7 @@ the delimiters { and }.
 Here's a declaration of a simple class named **Area**.
 
 ```idl
-unsealed runtimeclass Area
+runtimeclass Area
 {
     Area(Int32 width, Int32 height);
 
@@ -437,19 +437,14 @@ unsealed runtimeclass Area
 }
 ```
 
-This declares a new unsealed Windows Runtime class named **Area**,
+This declares a new Windows Runtime class named **Area**,
 which has a constructor that take two **Int32** parameters, two **Int32**
 read-write properties named **Height** and **Width**, and a static read-only
 property named **NumberOfAreas**.
 
-An *unsealed* class is a class that you can use as a base class. In other words, a subsequent class can derive from an unsealed class. By default, a runtimeclass is sealed and derivation from it is disallowed.
+By default, a runtimeclass is sealed, and derivation from it is disallowed. See [Base classes](#base-classes).
 
-> [!IMPORTANT]
-> For an application to pass [Windows App Certification Kit](/windows/uwp/debug-test-perf/windows-app-certification-kit) tests, and to be successfully ingested into the Microsoft Store, the ultimate base class of each runtime class *declared in the application* must be a type originating in a Windows.* namespace.
-
-In order to bind XAML to a view model, the view model runtime class needs to be declared in MIDL. In a case like that, derive each view model from [**Windows.UI.Xaml.DependencyObject**](/uwp/api/windows.ui.xaml.dependencyobject). Alternatively, declare a bindable base class derived from **DependencyObject**, and derive your view models from that.
-
-You can declare your data models as C++ structs; they don't need to be declared in MIDL (as long as you're consuming them only from your view models and not binding XAML directly to them; in which case they'd arguably be view models by definition, anyway).
+In order to bind XAML to a view model, the view model runtime class needs to be declared in MIDL. See [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property) for more details.
 
 ### Member access modifiers
 As MIDL 3.0 is a declaration language for describing the public surface
@@ -479,13 +474,17 @@ and type parameters with a colon and the name of the base class.
 Omitting a base class specification is the same as deriving from type
 **Object** (in other words, from [**IInspectable**](https://msdn.microsoft.com/en-us/library/br205821)).
 
-> [!IMPORTANT]
-> For an application to pass [Windows App Certification Kit](/windows/uwp/debug-test-perf/windows-app-certification-kit) tests, and to be successfully ingested into the Microsoft Store, the ultimate base class of each runtime class *declared in the application* must be a type originating in a Windows.* namespace; for example, [**Windows.UI.Xaml.DependencyObject**](/uwp/api/windows.ui.xaml.dependencyobject). For more info, see [XAML controls; binding to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property#create-a-blank-app-bookstore).
+> [!NOTE]
+> Your view model classes&mdash;in fact, any runtime class that you declare in your application&mdash;need not derive from a base class.
+>
+> Any runtime class that you declare in the application that *does* derive from a base class is known as a *composable* class. And there are constraints around composable classes. For an application to pass the [Windows App Certification Kit](../debug-test-perf/windows-app-certification-kit.md) tests used by Visual Studio and by the Microsoft Store to validate submissions (and therefore for the application to be successfully ingested into the Microsoft Store), a composable class must ultimately derive from a Windows base class. Meaning that the class at the very root of the inheritance hierarchy must be a type originating in a Windows.* namespace.
+>
+> See [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property) for more details.
 
-In the next example, the base class of **Volume** is **Area**, and the (implicit) base class of **Area** is **Object**.
+In the next example, the base class of **Volume** is **Area**, and the base class of **Area** is **Windows.UI.Xaml.DependencyObject**.
 
 ```idl
-unsealed runtimeclass Area
+unsealed runtimeclass Area : Windows.UI.Xaml.DependencyObject
 {
     Area(Int32 width, Int32 height);
     Int32 Height;
