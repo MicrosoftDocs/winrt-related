@@ -51,9 +51,15 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [hresult_out_of_bounds struct](error-handling/hresult-out-of-bounds.md) | A type derived from [winrt::hresult_error](error-handling/hresult-error.md), representing an E_BOUNDS HRESULT error code. |
 | [hresult_wrong_thread struct](error-handling/hresult-wrong-thread.md) | A type derived from [winrt::hresult_error](error-handling/hresult-error.md), representing an RPC_E_WRONG_THREAD HRESULT error code. |
 | [implements struct template](implements.md) | A base struct template that implements one or more Windows Runtime interfaces on behalf of a derived type. |
+| [map_base struct template](map-base.md) | A base class, for you to derive from, that represents a non-observable associative collection. |
+| [map_view_base struct template](map-view-base.md) | A base class, for you to derive from, that represents a view of a contiguous sequence of elements in an associative collection. |
 | [no_weak_ref marker struct](no-weak-ref.md) | A marker type used to opt out of weak reference support. |
 | [non_agile marker struct](non-agile.md) | A marker type used to indicate that your type is not agile, and consequently does not implement the [IAgileObject interface](https://msdn.microsoft.com/library/windows/desktop/hh802476). |
-| [resume_foreground struct](resume-foreground.md) | TBD |
+| [observable_map_base struct template](observable-map-base.md) | A base class, for you to derive from, that represents an observable associative collection. |
+| [observable_vector_base struct template](observable-vector-base.md) | A base class, for you to derive from, that represents an observable vector. |
+| [resume_foreground struct](resume-foreground.md) | A struct&mdash;for use within a coroutine&mdash;that you can `co-await` to switch execution to a specific foreground thread. |
+| [vector_base struct template](vector-base.md) | A base class, for you to derive from, that represents a non-observable general-purpose collection known as a vector. |
+| [vector_view_base struct template](vector-view-base.md) | A base class from which you can derive to implement your own custom view, or span, of a contiguous sequence of elements in a general-purpose collection. |
 | [weak_ref struct template](weak-ref.md) | A type representing a weak reference to a C++/WinRT object or interface. |
 | [Windows::Foundation::IUnknown struct](windows-foundation-iunknown.md) | Every C++/WinRT runtime class (whether a Windows or a third party runtime class) derives from winrt::Windows::Foundation::IUnknown. |
 
@@ -82,6 +88,10 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [make_weak function template](make-weak.md) | A helper function that returns a [weak_ref](weak-ref.md) object, representing a weak reference to a C++/WinRT object or interface. |
 | [put_abi function](put-abi.md) | A helper function that retrieves the address of a C++/WinRT object's underlying IUnknown interface pointer so that it can be set to another value. |
 | [resume_background function](resume-background.md) | A helper function that returns control to the caller, and resumes execution on a thread pool thread. |
+| [single_threaded_map function template](single-threaded-map.md) | A function template that creates and returns an object of a type that implements a non-observable associative collection (map). The object is returned as an [**IMap**](/uwp/api/windows.foundation.collections.imap_k_v_). |
+| [single_threaded_observable_map function template](single-threaded-observable-map.md) | A function template that creates and returns an object of a type that implements an observable associative collection (map). The object is returned as an [**IObservableMap**](/uwp/api/windows.foundation.collections.iobservablemap_k_v_). |
+| [single_threaded_observable_vector function template](single-threaded-observable-vector.md) | A function template that creates and returns an object of a type that implements an observable collection. The object is returned as an [**IObservableVector**](/uwp/api/windows.foundation.collections.iobservablevector_t_). |
+| [single_threaded_vector function template](single-threaded-vector.md) | A function template that creates and returns an object of a type that implements a general-purpose collection. The object is returned as an [**IVector**](/uwp/api/windows.foundation.collections.ivector_t_). |
 | [swap function](swap.md) | A helper function that swaps the contents of two values. |
 | [throw_hresult function](error-handling/throw-hresult.md) | A helper function that takes a HRESULT error code, and throws an exception using a C++/WinRT object that represents that error code. |
 | [throw_last_error function](error-handling/throw-last-error.md) | A helper function that retrieves the calling thread's last-error code value, and throws an exception using a C++/WinRT object that represents that error code. |
