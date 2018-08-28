@@ -32,7 +32,7 @@ struct vector_base : vector_view_base<D, T, impl::collection_version>
 Your derived type name.
 
 `typename T`
-The type of the elements that the **vector_base** views, or spans.
+The type of the elements in the **vector_base**.
 
 ## Requirements
 **Minimum supported SDK:** Windows 10 SDK Preview Build 17661
@@ -46,22 +46,22 @@ The type of the elements that the **vector_base** views, or spans.
 |-|-|
 |[vector_base::Append function](#vectorbaseappend-function)|Appends an element to the end of the **vector_base** object.|
 |[vector_base::Clear function](#vectorbaseclear-function)|Removes all elements from the **vector_base** object.|
-|[vector_base::First function](#vectorbasefirst-function)|Retrieves an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) representing the first element viewed by the **vector_base** object.|
-|[vector_base::GetAt function](#vectorbasegetat-function)|Retrieves the element at the specified index viewed by the **vector_base** object.|
-|[vector_base::GetMany function](#vectorbasegetmany-function)|Retrieves a collection of elements viewed by the **vector_base** object beginning at the given index.|
+|[vector_base::First function](#vectorbasefirst-function)|Retrieves an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) representing the first element in the **vector_base** object.|
+|[vector_base::GetAt function](#vectorbasegetat-function)|Retrieves the element at the specified index in the **vector_base** object.|
+|[vector_base::GetMany function](#vectorbasegetmany-function)|Retrieves a collection of elements in the **vector_base** object beginning at the given index.|
 |[vector_base::GetView function](#vectorbasegetview-function)|Retrieves an immutable view of the **vector_base** object.|
-|[vector_base::IndexOf function](#vectorbaseindexof-function)|Retrieves the index of a specified element viewed by the **vector_base** object.|
+|[vector_base::IndexOf function](#vectorbaseindexof-function)|Retrieves the index of a specified element in the **vector_base** object.|
 |[vector_base::InsertAt function](#vectorbaseinsertat-function)|Inserts an element at the specified index in the **vector_base** object.|
 |[vector_base::RemoveAt function](#vectorbaseremoveat-function)|Removes the element at the specified index in the **vector_base** object.|
 |[vector_base::RemoveAtEnd function](#vectorbaseremoveatend-function)|Removes the last element from the **vector_base** object.|
 |[vector_base::ReplaceAll function](#vectorbasereplaceall-function)|Replaces all the elements in the **vector_base** object with the specified elements.|
 |[vector_base::SetAt function](#vectorbasesetat-function)|Sets the value of the element at the specified index in the **vector_base** object.|
-|[vector_base::Size function](#vectorbasesize-function)|Retrieves the number of elements viewed by the **vector_base** object.|
+|[vector_base::Size function](#vectorbasesize-function)|Retrieves the number of elements in the **vector_base** object.|
 
 ## Iterators
-A **vector_base** is a range, and that range is defined by internal free functions (each of which retrieves an iterator) that are compatible with standard language features. Because of this, you can enumerate the elements viewed by a **vector_base** object with a range-based `for` statement.
+A **vector_base** is a range, and that range is defined by internal free functions (each of which retrieves an iterator) that are compatible with standard language features. Because of this, you can enumerate the elements in a **vector_base** object with a range-based `for` statement.
 
-You can also retrieve an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) from the [vector_base::First](#vectorbasefirst-function) function, and use that to iterate through the elements viewed by a **vector_base** object.
+You can also retrieve an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) from the [vector_base::First](#vectorbasefirst-function) function, and use that to iterate through the elements in a **vector_base** object.
 
 ```cppwinrt
 ...
@@ -69,18 +69,32 @@ You can also retrieve an [**IIterator**](/uwp/api/windows.foundation.collections
 using namespace winrt;
 using namespace Windows::Foundation::Collections;
 ...
-struct MyVectorView :
-    implements<MyVectorView, IVectorView<float>, IIterable<float>>,
-    winrt::vector_base<MyVectorView, float>{ ... };
-...
-IVectorView<float> view{ winrt::make<MyVectorView>() };
+struct MyVector :
+    implements<MyVector, IVector<float>, IVectorView<float>, IIterable<float>>,
+    winrt::vector_base<MyVector, float>
+{
+    auto& get_container() const noexcept
+    {
+        return m_values;
+    }
 
-for (float el : view)
+    auto& get_container() noexcept
+    {
+        return m_values;
+    }
+
+private:
+    std::vector<float> m_values{ 0.1f, 0.2f, 0.3f };
+};
+...
+IVector<float> coll{ winrt::make<MyVector>() };
+
+for (auto const& el : coll)
 {
     std::wcout << el << std::endl;
 }
 
-IIterator<float> it{ view.First() };
+IIterator<float> it{ coll.First() };
 while (it.HasCurrent())
 {
     std::wcout << it.Current() << std::endl;
@@ -109,7 +123,7 @@ void Clear() noexcept;
 ```
 
 ## vector_base::First function
-Retrieves an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) representing the first element viewed by the **vector_base** object.
+Retrieves an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) representing the first element in the **vector_base** object.
 
 ### Syntax
 ```cppwinrt
@@ -117,10 +131,10 @@ auto First();
 ```
 
 ### Return value
-An [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) representing the first element viewed by the **vector_base** object.
+An [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) representing the first element in the **vector_base** object.
 
 ## vector_base::GetAt function
-Retrieves the element at the specified index viewed by the **vector_base** object.
+Retrieves the element at the specified index in the **vector_base** object.
 
 ### Syntax
 ```cppwinrt
@@ -132,10 +146,10 @@ T GetAt(uint32_t const index) const;
 A zero-based element index.
 
 ### Return value
-The element at the specified index viewed by the **vector_base** object.
+The element at the specified index in the **vector_base** object.
 
 ## vector_base::GetMany function
-Retrieves a collection of elements viewed by the **vector_base** object beginning at the given index.
+Retrieves a collection of elements in the **vector_base** object beginning at the given index.
 
 ### Syntax
 ```cppwinrt
@@ -164,7 +178,7 @@ winrt::Windows::Foundation::Collections::IVectorView<T> GetView() const noexcept
 An [**IVectorView**](/uwp/api/windows.foundation.collections.ivectorview_t_) containing an immutable view of the **vector_base**.
 
 ## vector_base::IndexOf function
-Retrieves the index of a specified element viewed by the **vector_base** object.
+Retrieves the index of a specified element in the **vector_base** object.
 
 ### Syntax
 ```cppwinrt
@@ -173,10 +187,10 @@ bool IndexOf(T const& value, uint32_t& index) const noexcept;
 
 ### Parameters
 `value`
-The element, viewed by the **vector_base** object, to look for.
+The element, in the **vector_base** object, to look for.
 
 `index`
-The zero-based index of the element if the element is found, otherwise the number of elements viewed by the **vector_base** object.
+The zero-based index of the element if the element is found, otherwise the number of elements in the **vector_base** object.
 
 ### Return value
 `true` if the element is found, otherwise `false`.
@@ -244,7 +258,7 @@ The zero-based index of the element whose value to set.
 The element value to set.
 
 ## vector_base::Size function
-Retrieves the number of elements viewed by the **vector_base** object.
+Retrieves the number of elements in the **vector_base** object.
 
 ### Syntax
 ```cppwinrt
@@ -252,7 +266,7 @@ uint32_t Size() const noexcept;
 ```
 
 ### Return value
-A value representing the number of elements viewed by the **vector_base** object.
+A value representing the number of elements in the **vector_base** object.
 
 ## See also 
 * [winrt namespace](winrt.md)

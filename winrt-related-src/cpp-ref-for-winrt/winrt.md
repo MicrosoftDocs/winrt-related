@@ -51,12 +51,12 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [hresult_out_of_bounds struct](error-handling/hresult-out-of-bounds.md) | A type derived from [winrt::hresult_error](error-handling/hresult-error.md), representing an E_BOUNDS HRESULT error code. |
 | [hresult_wrong_thread struct](error-handling/hresult-wrong-thread.md) | A type derived from [winrt::hresult_error](error-handling/hresult-error.md), representing an RPC_E_WRONG_THREAD HRESULT error code. |
 | [implements struct template](implements.md) | A base struct template that implements one or more Windows Runtime interfaces on behalf of a derived type. |
-| [map_base struct template](map-base.md) | TBD |
+| [map_base struct template](map-base.md) | A base class, for you to derive from, that represents a non-observable associative collection. |
 | [map_view_base struct template](map-view-base.md) | A base class, for you to derive from, that represents a view of a contiguous sequence of elements in an associative collection. |
 | [no_weak_ref marker struct](no-weak-ref.md) | A marker type used to opt out of weak reference support. |
 | [non_agile marker struct](non-agile.md) | A marker type used to indicate that your type is not agile, and consequently does not implement the [IAgileObject interface](https://msdn.microsoft.com/library/windows/desktop/hh802476). |
-| [observable_map_base struct template](observable-map-base.md) | TBD |
-| [observable_vector_base struct template](observable-vector-base.md) | TBD |
+| [observable_map_base struct template](observable-map-base.md) | A base class, for you to derive from, that represents an observable associative collection. |
+| [observable_vector_base struct template](observable-vector-base.md) | A base class, for you to derive from, that represents an observable vector. |
 | [resume_foreground struct](resume-foreground.md) | A struct&mdash;for use within a coroutine&mdash;that you can `co-await` to switch execution to a specific foreground thread. |
 | [vector_base struct template](vector-base.md) | A base class, for you to derive from, that represents a non-observable general-purpose collection known as a vector. |
 | [vector_view_base struct template](vector-view-base.md) | A base class from which you can derive to implement your own custom view, or span, of a contiguous sequence of elements in a general-purpose collection. |

@@ -66,7 +66,16 @@ using namespace Windows::Foundation::Collections;
 ...
 struct MyVectorView :
     implements<MyVectorView, IVectorView<float>, IIterable<float>>,
-    winrt::vector_view_base<MyVectorView, float>{ ... };
+    winrt::vector_view_base<MyVectorView, float>
+{
+    auto& get_container() const noexcept
+    {
+        return m_values;
+    }
+
+private:
+    std::vector<float> m_values{ 0.1f, 0.2f, 0.3f };
+};
 ...
 IVectorView<float> view{ winrt::make<MyVectorView>() };
 

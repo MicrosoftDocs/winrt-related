@@ -32,13 +32,10 @@ struct map_view_base : iterable_base<D, winrt::Windows::Foundation::Collections:
 Your derived type name.
 
 `typename K`
-The type of the keys in the collection.
+The type of the keys in the collection that the **map_view_base** views, or spans.
 
 `typename V`
-The type of the values in the collection.
-
-`typename T`
-The type of the elements that the **map_view_base** views, or spans.
+The type of the values in the collection that the **map_view_base** views, or spans.
 
 `typename Version`
 A type that provides versioning policy and services to the collection.
@@ -54,10 +51,10 @@ A type that provides versioning policy and services to the collection.
 |Function|Description|
 |------------|-----------------|
 |[map_view_base::First function](#mapviewbasefirst-function)|Retrieves an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) representing the first element viewed by the **map_view_base** object.|
-|[map_view_base::HasKey function](#mapviewbasegetat-function)|Determines whether the specified key belongs to an element viewed by the **map_view_base** object.|
-|[map_view_base::Lookup function](#mapviewbasegetmany-function)|Looks up the element identified by the specified key, and retrieves the corresponding value.|
+|[map_view_base::HasKey function](#mapviewbasehaskey-function)|Determines whether the specified key belongs to an element viewed by the **map_view_base** object.|
+|[map_view_base::Lookup function](#mapviewbaselookup-function)|Looks up the element identified by the specified key, and retrieves the corresponding value.|
 |[map_view_base::Size function](#mapviewbasesize-function)|Retrieves the number of elements viewed by the **map_view_base** object.|
-|[map_view_base::Split function](#mapviewbaseindexof-function)|Splits the map view into two views.|
+|[map_view_base::Split function](#mapviewbasesplit-function)|Splits the map view into two views.|
 
 ## Iterators
 A **map_view_base** is a range, and that range is defined by internal free functions (each of which retrieves an iterator) that are compatible with standard language features. Because of this, you can enumerate the elements viewed by a **map_view_base** object with a range-based `for` statement.
@@ -139,7 +136,7 @@ V Lookup(K const& key) const;
 The key to look up.
 
 ### Return value
-The value corresponding to the key being looked up if found, otherwise a [winrt::hresult_out_of_bounds](hresult-out-of-bounds.md) exception is thrown.
+The value corresponding to the key being looked up if found, otherwise a [winrt::hresult_out_of_bounds](error-handling/hresult-out-of-bounds.md) exception is thrown.
 
 ## map_view_base::Size function
 Retrieves the number of elements viewed by the **map_view_base** object.
