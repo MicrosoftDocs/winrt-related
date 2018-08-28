@@ -270,3 +270,5 @@ A value representing the number of elements in the **vector_base** object.
 
 ## See also 
 * [winrt namespace](winrt.md)
+* [winrt::single_threaded_vector function template](single-threaded-vector.md)
+* [Collections with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/collections)

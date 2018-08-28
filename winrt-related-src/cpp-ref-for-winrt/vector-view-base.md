@@ -167,3 +167,5 @@ A value representing the number of elements viewed by the **vector_view_base** o
 
 ## See also 
 * [winrt namespace](winrt.md)
+* [winrt::single_threaded_vector function template](single-threaded-vector.md)
+* [Collections with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/collections)

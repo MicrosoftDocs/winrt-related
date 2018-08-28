@@ -166,3 +166,5 @@ The second half of the original map.
 
 ## See also 
 * [winrt namespace](winrt.md)
+* [winrt::single_threaded_map function template](single-threaded-map.md)
+* [Collections with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/collections)

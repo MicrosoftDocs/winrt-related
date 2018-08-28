@@ -65,4 +65,6 @@ An [**IMap**](/uwp/api/windows.foundation.collections.imap_k_v_) representing a 
 **Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## See also 
+* [winrt namespace](winrt.md)
+* [winrt::map_base struct template](map-base.md)
 * [Collections with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/collections)

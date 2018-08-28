@@ -19,7 +19,7 @@ A helper function that checks whether an HRESULT code represents an error and, i
 
 ## Syntax
 ```cppwinrt
-__forceinline void check_hresult(HRESULT const result);
+void check_hresult(HRESULT const result);
 ```
 
 ### Parameters

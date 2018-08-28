@@ -64,5 +64,7 @@ An [**IObservableMap**](/uwp/api/windows.foundation.collections.iobservablemap_k
 
 **Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
-## See also 
+## See also
+* [winrt namespace](winrt.md)
+* [winrt::observable_map_base struct template](observable-map-base.md)
 * [Collections with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/collections)

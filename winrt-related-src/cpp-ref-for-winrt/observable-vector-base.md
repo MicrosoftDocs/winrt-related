@@ -300,3 +300,5 @@ m_event_revoker = coll.VectorChanged(winrt::auto_revoke, [this](IObservableVecto
 
 ## See also 
 * [winrt namespace](winrt.md)
+* [winrt::single_threaded_observable_vector function template](single-threaded-observable-vector.md)
+* [Collections with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/collections)

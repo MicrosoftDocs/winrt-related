@@ -205,3 +205,5 @@ A value representing the number of elements in the **map_base** object.
 
 ## See also 
 * [winrt namespace](winrt.md)
+* [winrt::single_threaded_map function template](single-threaded-map.md)
+* [Collections with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/collections)

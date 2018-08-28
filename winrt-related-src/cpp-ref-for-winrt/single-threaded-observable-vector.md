@@ -53,4 +53,6 @@ An [**IObservableVector**](/uwp/api/windows.foundation.collections.iobservableve
 **Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## See also 
+* [winrt namespace](winrt.md)
+* [winrt::observable_vector_base struct template](observable-vector-base.md)
 * [Collections with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/collections)

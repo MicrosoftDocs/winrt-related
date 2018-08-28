@@ -53,4 +53,6 @@ An [**IVector**](/uwp/api/windows.foundation.collections.ivector_t_) representin
 **Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## See also 
+* [winrt namespace](winrt.md)
+* [winrt::vector_base struct template](vector-base.md)
 * [Collections with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/collections)
