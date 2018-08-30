@@ -1,27 +1,30 @@
 ---
 author: stevewhims
 description: A helper function which, given an object of a projected type, retrieves a pointer to the implementation.
-title: winrt::from_abi function template (C++/WinRT)
+title: winrt::get_self function template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-ms.date: 04/17/2018
+ms.date: 08/29/2018
 ms.technology: "cpp-windows"
 ms.topic: "language-reference"
 ms.prod: windows
 ms.technology: uwp
-keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference
+keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, projected, implementation, type
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::from_abi function template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+# winrt::get_self function template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+
+> [!NOTE]
+> **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
 
 A helper function which, given an object of a projected type, retrieves a pointer to the implementation. For more details, and code examples, see [Instantiating and returning implementation types and interfaces](/windows/uwp/cpp-and-winrt-apis/author-apis#instantiating-and-returning-implementation-types-and-interfaces).
 
 ## Syntax
 ```cppwinrt
 template <typename D, typename I>
-D* from_abi(I const& from) noexcept;
+D* get_self(I const& from) noexcept
 ```
 
 ### Template parameters
@@ -29,7 +32,7 @@ D* from_abi(I const& from) noexcept;
 An implementation type.
 
 `typename I`
-A projected type.
+A projected interface type.
 
 ### Parameters
 `from`
@@ -39,7 +42,7 @@ An object of a projected type, a pointer to whose implementation to retrieve.
 A pointer to the implementation object that implements the interface object.
 
 ## Requirements
-**Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
+**Minimum supported SDK:** Windows 10 SDK Preview Build 17661
 
 **Namespace:** winrt
 
