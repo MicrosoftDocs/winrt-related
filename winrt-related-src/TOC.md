@@ -979,6 +979,7 @@
 ### [get_activation_factory function template](cpp-ref-for-winrt/get-activation-factory.md)
 ### [get_class_name function](cpp-ref-for-winrt/get-class-name.md)
 ### [get_interfaces function](cpp-ref-for-winrt/get-interfaces.md)
+### [get_self function template](cpp-ref-for-winrt/get-self.md)
 ### [get_trust_level function](cpp-ref-for-winrt/get-trust-level.md)
 ### [GetRuntimeClassName function](cpp-ref-for-winrt/getruntimeclassname.md)
 ### [handle struct](cpp-ref-for-winrt/handle.md)
