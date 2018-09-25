@@ -40,7 +40,10 @@ An optional element of the appinstaller file. UpdateSettings signifies whether o
 ## Attributes and Elements
 
 ### Attributes
-None.
+| Attribute | Description | Data type | Required |
+|-----------|-------------|-----------|----------|
+| HoursBetweenUpdateChecks          |   Number of hours between update checks. Update check is performed if the app is launched after the specified number of hours. Specify '0' if update checks needs to be performed instantly after launch.  | Any integer from 0 to 24     |  No        |
+
 
 ### Child Elements
 
