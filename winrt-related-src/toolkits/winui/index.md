@@ -6,7 +6,7 @@ author: mijacobs
 ms.prod: windows
 ms.technology: winrt-reference
 ms.topic: reference
-ms.date: 07/09/2018
+ms.date: 10/02/2018
 keywords: windows 10, uwp, toolkit sdk
 ---
 
