@@ -14,7 +14,8 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::hstring struct ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+# winrt::hstring struct (C++/WinRT)
+
 A sequential collection of UTF-16 Unicode characters representing a text string. For more examples and info about **winrt::hstring**, see [String handling in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/strings). The **winrt::hstring** type encapsulates [HSTRING](https://msdn.microsoft.com/library/windows/desktop/br205775) behind an interface similar to that of **std::wstring**. A **HSTRING** is a handle to a Windows Runtime string.
 
 ## Syntax

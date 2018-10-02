@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::event_token struct ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+# winrt::event_token struct (C++/WinRT)
 A token returned when registering an event-handling delegate with an event; can be used to revoke the registration of the same delegate. For more info about handling events, and code examples, see [Handle events by using delegates in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/handle-events).
 
 ## Syntax

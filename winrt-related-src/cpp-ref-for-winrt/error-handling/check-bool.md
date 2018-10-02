@@ -14,8 +14,8 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::check_bool function template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
-A helper function that checks whether a value is false and, if so, calls the [winrt::throw_last_error](throw-last-error.md) function to retrieve the calling thread's last-error code value, and throw an exception using a C++/WinRT object that represents that error code. Also see [winrt::hresult_error](hresult-error.md).
+# winrt::check_bool function template (C++/WinRT)
+A helper function that checks whether a value is false and, if so, calls the [winrt::throw_last_error](throw-last-error.md) function to retrieve the calling thread's last-error code value, and throw an exception using a [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) object that represents that error code. Also see [winrt::hresult_error](hresult-error.md).
 
 ## Syntax
 ```cppwinrt

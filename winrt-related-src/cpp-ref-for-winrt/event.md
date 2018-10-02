@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::event struct template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+# winrt::event struct template (C++/WinRT)
 A type that you can use to declare and implement an event of a specified delegate type. Subscribers pass their event-handling delegates to an event; the event registers those delegates in a collection; then, when it is raised, the event invokes its registered delegates in turn so that subscribers can handle the event. For more info about authoring events, and code examples, see [Author events in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-events).
 
 ## Syntax

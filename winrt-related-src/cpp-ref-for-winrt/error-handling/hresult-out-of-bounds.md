@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::hresult_out_of_bounds struct ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+# winrt::hresult_out_of_bounds struct (C++/WinRT)
 A type derived from **winrt::hresult_error**, representing an E_BOUNDS HRESULT error code. Also see the [winrt::hresult_error](hresult-error.md) topic to learn about the members that are also available to **winrt::hresult_out_of_bounds**.
 
 ## Syntax

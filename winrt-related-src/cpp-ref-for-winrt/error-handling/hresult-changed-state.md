@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::hresult_changed_state struct ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+# winrt::hresult_changed_state struct (C++/WinRT)
 A type derived from **winrt::hresult_error**, representing an E_CHANGED_STATE HRESULT error code. Also see the [winrt::hresult_error](hresult-error.md) topic to learn about the members that are also available to **winrt::hresult_changed_state**.
 
 ## Syntax

@@ -14,8 +14,9 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::weak_ref struct template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
-A type representing a weak reference to a C++/WinRT object or interface. For more info, and code examples, see [Weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references).
+# winrt::weak_ref struct template (C++/WinRT)
+
+A type representing a weak reference to a [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) object or interface. For more info, and code examples, see [Strong and weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references).
 
 ## Syntax
 ```cppwinrt
@@ -87,4 +88,4 @@ explicit operator bool() const noexcept;
 
 ## See also 
 * [winrt namespace](winrt.md)
-* [Weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references)
+* [Strong and weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references)

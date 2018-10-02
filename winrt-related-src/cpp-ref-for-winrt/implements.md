@@ -14,8 +14,9 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::implements struct template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
-This is the base from which your own C++/WinRT implementations directly or indirectly derive. It implements one or more Windows Runtime interfaces (which you specify to it as type parameters), and it also provides efficient implementations of [IUnknown](https://msdn.microsoft.com/library/windows/desktop/ms680509), [IInspectable](https://msdn.microsoft.com/library/br205821), [IAgileObject](https://msdn.microsoft.com/library/windows/desktop/hh802476), [IWeakReferenceSource](https://msdn.microsoft.com/library/br224609), and others.
+# winrt::implements struct template (C++/WinRT)
+
+This is the base from which your own [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) implementations directly or indirectly derive. It implements one or more Windows Runtime interfaces (which you specify to it as type parameters), and it also provides efficient implementations of [IUnknown](https://msdn.microsoft.com/library/windows/desktop/ms680509), [IInspectable](/windows/desktop/api/inspectable/nn-inspectable-iinspectable), [IAgileObject](https://msdn.microsoft.com/library/windows/desktop/hh802476), [IWeakReferenceSource](/windows/desktop/api/weakreference/nn-weakreference-iweakreferencesource), and others.
 
 For more info about deriving from this type, and examples, see [Interfaces; how to implement them in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis).
 
@@ -141,7 +142,7 @@ protected:
 A strong reference to the **implements** object's *this* pointer.
 
 ## implements::get_weak function
-Retrieves a weak reference to the **implements** object's *this* pointer. See [Weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references).
+Retrieves a weak reference to the **implements** object's *this* pointer. See [Strong and weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references).
 
 ### Syntax
 ```cppwinrt
@@ -198,4 +199,4 @@ The **implements** object converted to a **Windows::Foundation::IInspectable**.
 * [winrt namespace](winrt.md)
 * [winrt::weak_ref struct template](weak-ref.md)
 * [Interfaces; how to implement them in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/implement-an-interface)
-* [Weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references)
+* [Strong and weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references)

@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::check_nt function template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+# winrt::check_nt function template (C++/WinRT)
 A helper function that checks whether a code represents an error and, if so, maps the NT status value of the error code to an HRESULT value and calls the [winrt::throw_hresult](throw-hresult.md) function to throw an exception that represents the error code. Also see [winrt::hresult_error](hresult-error.md).
 
 ## Syntax

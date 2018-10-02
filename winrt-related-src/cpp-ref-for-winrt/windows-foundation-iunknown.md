@@ -14,7 +14,8 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::Windows::Foundation::IUnknown struct ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+# winrt::Windows::Foundation::IUnknown struct (C++/WinRT)
+
 Every C++/WinRT runtime class (whether a Windows or a third party runtime class) derives from **winrt::Windows::Foundation::IUnknown**. It represents the COM [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface, and it provides facilities such as querying for a different interface, abi functions, and comparison operators.
 
 ## Syntax

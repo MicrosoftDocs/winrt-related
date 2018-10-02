@@ -14,8 +14,8 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::attach_abi function ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
-A helper function that attaches a C++/WinRT object to a handle, or to a raw pointer that owns a reference to its target. In the case of pointers, an additional reference is not added. If needed, you can use this function to coalesce references. For more info, and code examples, see [Interop between C++/WinRT and the ABI](/windows/uwp/cpp-and-winrt-apis/interop-winrt-abi).
+# winrt::attach_abi function (C++/WinRT)
+A helper function that attaches a [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) object to a handle, or to a raw pointer that owns a reference to its target. In the case of pointers, an additional reference is not added. If needed, you can use this function to coalesce references. For more info, and code examples, see [Interop between C++/WinRT and the ABI](/windows/uwp/cpp-and-winrt-apis/interop-winrt-abi).
 
 
 ## Syntax

@@ -14,7 +14,8 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::handle_type struct template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+# winrt::handle_type struct template (C++/WinRT)
+
 The template for the [**winrt::handle**](handle.md) and [**winrt::file_handle**](file-handle.md) structs.
 
 ## Syntax

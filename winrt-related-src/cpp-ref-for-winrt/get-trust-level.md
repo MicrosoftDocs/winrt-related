@@ -15,7 +15,7 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::get_trust_level function (C++/WinRT)
-A helper function that retrieves the trust level of a C++/WinRT object. This is the same value returned from a call to [**IInspectable::GetTrustLevel**](https://msdn.microsoft.com/library/br205824).
+A helper function that retrieves the trust level of a [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) object. This is the same value returned from a call to [**IInspectable::GetTrustLevel**](https://msdn.microsoft.com/library/br205824).
 
 ## Syntax
 ```cppwinrt

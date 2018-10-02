@@ -14,7 +14,8 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::to_string function ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+# winrt::to_string function (C++/WinRT)
+
 A helper function that converts an input wide string to a **std::string** containing a UTF-8 narrow string by calling [**WideCharToMultiByte**](https://msdn.microsoft.com/library/windows/desktop/dd374130). For more info, and a code example, see [winrt::hstring functions and operators](/windows/uwp/cpp-and-winrt-apis/strings#winrthstring-functions-and-operators).
 
 ## Syntax

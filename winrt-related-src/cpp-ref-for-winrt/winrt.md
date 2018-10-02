@@ -14,8 +14,9 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt namespace ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
-The **winrt** namespace provides custom data types belonging to [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index)&mdash;the standard, modern C++17 language projection for Windows Runtime (WinRT) APIs. These custom types provide appropriate conversions to and from standard types so that, much of the time, you can continue to use the standard C++ language features that you're accustomed to using, and the source code that you already have.
+# winrt namespace (C++/WinRT)
+
+The **winrt** namespace provides custom data types belonging to [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt)&mdash;the standard, modern C++17 language projection for Windows Runtime (WinRT) APIs. These custom types provide appropriate conversions to and from standard types so that, much of the time, you can continue to use the standard C++ language features that you're accustomed to using, and the source code that you already have.
 
 Also provided in the **winrt** namespace are functions (for creating runtime class instances, boxing and unboxing, etc.), smart pointers, and other facilities.
 
@@ -34,6 +35,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [event_revoker struct template](event-revoker.md) | When you register a delegate, you can request an event revoker, which you can use to automatically or manually revoke your delegate. |
 | [event_token struct](event-token.md) | A token returned when registering an event-handling delegate with an event; can be used to revoke the registration of the same delegate. |
 | [file_handle struct](file-handle.md) | Represents a Windows file handle object. |
+| [fire_and_forget struct](fire-and-forget.md) | Use this return type to make your coroutine a fire-and-forget one. |
 | [handle struct](handle.md) | Represents a Windows handle object. |
 | [handle_type struct template](handle-type.md) | The template for the [**winrt::handle**](handle.md) and [**winrt::file_handle**](file-handle.md) structs. |
 | [hstring struct](hstring.md) | A sequential collection of UTF-16 Unicode characters representing a text string. |
@@ -79,8 +81,10 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [from_abi function template](from-abi.md) | A helper function which, given an object of a projected type, retrieves a pointer to the implementation. |
 | [get_abi function](get-abi.md) | A helper function that retrieves a pointer to a C++/WinRT object's underlying [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509). |
 | [get_activation_factory function template](get-activation-factory.md) | A helper function that retrieves the activation factory for a specified Windows Runtime class type. |
+| [get_cancellation_token function](get-cancellation-token.md) | In a coroutine, use the object returned by **winrt::get_cancellation_token** to poll for, or to respond to, cancellation. |
 | [get_class_name function](get-class-name.md) | A helper function that retrieves a string containing the fully-qualified type name of a specified Windows Runtime class. |
 | [get_interfaces function](get-interfaces.md) | A helper function that retrieves an array containing the identifiers of the interfaces that are implemented by a C++/WinRT object. |
+| [get_progress_token function](get-progress-token.md) | In a coroutine, use the object returned by **winrt::get_progress_token** to report progress back to a progress handler. |
 | [get_self function template](get-self.md) | A helper function which, given an object of a projected type, retrieves a pointer to the implementation. |
 | [get_trust_level function](get-trust-level.md) | A helper function that retrieves the trust level of a C++/WinRT object. |
 | [make function template](make.md) | A factory method that returns an instance of a projected type or interface when parameterized with the corresponding implementation type. |
