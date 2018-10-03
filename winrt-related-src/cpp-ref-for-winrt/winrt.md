@@ -27,7 +27,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [apartment_context struct](apartment-context.md) | Captures the thread context within a coroutine so that it can be restored later. |
 | [array_view struct template](array-view.md) | A view, or span, of a contiguous series of values. |
 | [auto_revoke_t marker struct](auto-revoke-t.md) | A marker type used to request an event revoker when registering a delegate to handle an event. |
-| [clock struct](clock.md) | A type containing static helper functions for converting a [Windows::Foundation::DateTime](/uwp/api/windows.foundation.datetime) (that is, a [std::chrono::time_point](/cpp/standard-library/time-point-class)) to and from [FILETIME](https://msdn.microsoft.com/library/windows/desktop/ms724284), and to and from [time_t](/cpp/c-runtime-library/reference/time-time32-time64). |
+| [clock struct](clock.md) | A type containing static helper functions for converting a [Windows::Foundation::DateTime](/uwp/api/windows.foundation.datetime) (that is, a [std::chrono::time_point](/cpp/standard-library/time-point-class)) to and from **winrt::file_time**, and to and from [time_t](/cpp/c-runtime-library/reference/time-time32-time64). |
 | [com_array struct template](com-array.md) | A view, or span, of a contiguous series of values for passing to and from Windows Runtime APIs. |
 | [com_ptr struct template](com-ptr.md) | A reference-counted COM smart pointer template. |
 | [delegate struct template](delegate.md) | A type that you can use to declare a custom delegate type for your own events. |

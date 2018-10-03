@@ -1,6 +1,6 @@
 ---
 author: stevewhims
-description: A type containing static helper functions for converting a Windows::Foundation::DateTime (that is, a std::chrono::time_point) to and from FILETIME, and to and from time_t.
+description: A type containing static helper functions for converting a Windows::Foundation::DateTime (that is, a std::chrono::time_point) to and from winrt::file_time, and to and from time_t.
 title: winrt::clock struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
@@ -15,7 +15,7 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::clock struct (C++/WinRT)
-A type containing static helper functions for converting a [Windows::Foundation::DateTime](/uwp/api/windows.foundation.datetime) (that is, a [std::chrono::time_point](/cpp/standard-library/time-point-class)) to and from [FILETIME](https://msdn.microsoft.com/library/windows/desktop/ms724284), and to and from [time_t](/cpp/c-runtime-library/reference/time-time32-time64).
+A type containing static helper functions for converting a [Windows::Foundation::DateTime](/uwp/api/windows.foundation.datetime) (that is, a [std::chrono::time_point](/cpp/standard-library/time-point-class)) to and from **winrt::file_time**, and to and from [time_t](/cpp/c-runtime-library/reference/time-time32-time64).
 
 **winrt::clock** is *defined* as using the same units as **Windows::Foundation::DateTime** (a signed 64-bit integer of 100-nanosecond intervals since Jan 1 1601). Other C++ standard clocks don't typically define their resolution, and don't use the epoch Jan 1 1601, which is a Windows Runtime/FILETIME epoch.
 
