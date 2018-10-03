@@ -14,7 +14,8 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::get_abi function ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+# winrt::get_abi function (C++/WinRT)
+
 A helper function that retrieves a pointer to a C++/WinRT object's underlying [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509). For more info, and code examples, see [Interop between C++/WinRT and the ABI](/windows/uwp/cpp-and-winrt-apis/interop-winrt-abi).
 
 ## Syntax
@@ -24,7 +25,7 @@ auto get_abi(T const& object) noexcept;
 
 inline void* get_abi(winrt::Windows::Foundation::IUnknown const& object) noexcept;
 
-inline HSTRING get_abi(winrt::hstring const& object) noexcept;
+inline void* get_abi(winrt::hstring const& object) noexcept;
 
 template <typename T>
 static auto get_abi(winrt::array_view<T> object) noexcept;

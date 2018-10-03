@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::apartment_context struct ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+# winrt::apartment_context struct (C++/WinRT)
 Captures the thread context within a coroutine so that it can be restored later. You instantiate a **winrt::apartment_context** value, and then later you `co_await` it. For more info, and a code example, see [Programming with thread affinity in mind](/windows/uwp/cpp-and-winrt-apis/concurrency#programming-with-thread-affinity-in-mind).
 
 ## Syntax

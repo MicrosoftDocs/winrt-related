@@ -14,7 +14,8 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::get_activation_factory function template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+# winrt::get_activation_factory function template (C++/WinRT)
+
 A helper function that retrieves the activation factory for a specified Windows Runtime class type.
 
 ## Syntax

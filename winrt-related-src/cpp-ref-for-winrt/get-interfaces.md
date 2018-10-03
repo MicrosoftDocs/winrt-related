@@ -15,7 +15,7 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::get_interfaces function (C++/WinRT)
-A helper function that retrieves an array containing the identifiers of the interfaces that are implemented by a C++/WinRT object. These are the same identifiers that are returned from a call to [**IInspectable::GetIids**](https://msdn.microsoft.com/library/br205822).
+A helper function that retrieves an array containing the identifiers of the interfaces that are implemented by a [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) object. These are the same identifiers that are returned from a call to [**IInspectable::GetIids**](https://msdn.microsoft.com/library/br205822).
 
 Also see the [implements::find_interface](implements.md#implementsfindinterface-function) and [implements::get_local_iids](implements.md#implementsgetlocaliids-function) functions.
 

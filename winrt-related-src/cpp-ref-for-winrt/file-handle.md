@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::file_handle struct ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+# winrt::file_handle struct (C++/WinRT)
 Represents a Windows file handle object. **winrt::file_handle** is a type alias for **winrt::handle_type&lt;winrt::file_handle_traits&gt;**, so see the [**winrt::handle_type**](handle-type.md) struct template topic to learn about the functions and operators that are available to **winrt::file_handle**.
 
 ## Syntax

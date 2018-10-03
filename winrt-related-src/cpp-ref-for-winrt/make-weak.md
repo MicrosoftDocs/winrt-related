@@ -14,8 +14,9 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::make_weak function template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
-A helper function that returns a [weak_ref](weak-ref.md) object, representing a weak reference to a C++/WinRT object or interface. For more info, and code examples, see [Weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references).
+# winrt::make_weak function template (C++/WinRT)
+
+A helper function that returns a [weak_ref](weak-ref.md) object, representing a weak reference to a [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) object or interface. For more info, and code examples, see [Strong and weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references).
 
 ## Syntax
 ```cppwinrt
@@ -44,4 +45,4 @@ A [weak_ref](weak-ref.md) representing a weak reference to the C++/WinRT object 
 ## See also 
 * [winrt namespace](winrt.md)
 * [winrt::weak_ref struct template](weak-ref.md)
-* [Weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references)
+* [Strong and weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references)

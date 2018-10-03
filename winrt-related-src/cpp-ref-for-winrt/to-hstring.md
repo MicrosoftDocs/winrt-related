@@ -14,7 +14,8 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::to_hstring function ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+# winrt::to_hstring function (C++/WinRT)
+
 A helper function that converts an input value to a **winrt::hstring** containing the value's string representation. For more info, and a code example, see [winrt::hstring functions and operators](/windows/uwp/cpp-and-winrt-apis/strings#winrthstring-functions-and-operators).
 
 ## Syntax

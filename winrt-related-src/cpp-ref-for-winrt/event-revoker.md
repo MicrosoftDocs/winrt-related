@@ -14,7 +14,8 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::event_revoker struct template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+# winrt::event_revoker struct template (C++/WinRT)
+
 When you register a delegate, you can request an event revoker object (also known as an auto revoker). You can manually revoke your delegate by calling the **event_revoker::revoke** member function on that object, or you can just allow it to go out of scope. For more info, and a code example, see [Revoke a registered delegate](/windows/uwp/cpp-and-winrt-apis/handle-events#revoke-a-registered-delegate).
 
 ## Syntax
@@ -28,7 +29,7 @@ struct event_revoker
 The type of the event source (the object that raises the event).
 
 ## Requirements
-**Minimum supported SDK:** Windows SDK Insider Preview version 10.0.17134.0 (Windows 10, version 1803)
+**Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
 
 **Namespace:** winrt
 

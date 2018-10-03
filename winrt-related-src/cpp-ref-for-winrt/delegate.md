@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::delegate struct template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+# winrt::delegate struct template (C++/WinRT)
 A type that you can use to declare a custom delegate type for your own events in cases where you need to support passing non-Windows Runtime types as delegate parameters. The **delegate** type has no ABI (it has no interface for use across application binaries), so its use case is when you're both authoring and consuming an event within the same project. For more info about handling events, and code examples, see [Handle events by using delegates in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/handle-events).
 
 ## Syntax

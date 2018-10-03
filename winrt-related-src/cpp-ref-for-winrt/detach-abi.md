@@ -14,8 +14,8 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::detach_abi function ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
-A helper function that detaches a C++/WinRT object from its referenced handle, or from its referenced interface. Detaching from an interface is done without decrementing the reference count, perhaps to return it to a caller. For more info, and code examples, see [Interop between C++/WinRT and the ABI](/windows/uwp/cpp-and-winrt-apis/interop-winrt-abi).
+# winrt::detach_abi function (C++/WinRT)
+A helper function that detaches a [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) object from its referenced handle, or from its referenced interface. Detaching from an interface is done without decrementing the reference count, perhaps to return it to a caller. For more info, and code examples, see [Interop between C++/WinRT and the ABI](/windows/uwp/cpp-and-winrt-apis/interop-winrt-abi).
 
 ## Syntax
 ```cppwinrt

@@ -14,8 +14,9 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::make function template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
-A factory method that, when a C++/WinRT implementation type is provided as a type parameter, returns one of the following.
+# winrt::make function template (C++/WinRT)
+
+A factory method that, when a [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) implementation type is provided as a type parameter, returns one of the following.
 
 - If you're authoring a component to be consumed from an app, then call **make** to return the default (projected) interface of the implementation type. In this case, your project doesn't contain a projected type.
 - If you're both implementing and consuming a runtime class within the same compilation unit&mdash;for example, authoring a type to be consumed from XAML UI&mdash;then call **make** to return an instance of the projected type.

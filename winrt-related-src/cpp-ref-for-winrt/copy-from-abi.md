@@ -14,8 +14,8 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::copy_from_abi function ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
-A helper function that copies to a C++/WinRT object from a handle, or from a raw pointer. Clears the C++/WinRT object, or decrements the reference count on any currently referenced interface, copies the parameter, and begins managing the handle or interface pointed to by it. For more info, and code examples, see [Interop between C++/WinRT and the ABI](/windows/uwp/cpp-and-winrt-apis/interop-winrt-abi).
+# winrt::copy_from_abi function (C++/WinRT)
+A helper function that copies to a [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) object from a handle, or from a raw pointer. Clears the C++/WinRT object, or decrements the reference count on any currently referenced interface, copies the parameter, and begins managing the handle or interface pointed to by it. For more info, and code examples, see [Interop between C++/WinRT and the ABI](/windows/uwp/cpp-and-winrt-apis/interop-winrt-abi).
 
 ## Syntax
 ```cppwinrt

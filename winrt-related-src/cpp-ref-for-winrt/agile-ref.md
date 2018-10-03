@@ -14,8 +14,8 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::agile_ref struct template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
-A type representing an agile reference to a C++/WinRT object or interface. For more info, and code examples, see [Agile objects in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/agile-objects).
+# winrt::agile_ref struct template (C++/WinRT)
+A type representing an agile reference to a [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) object or interface. For more info, and code examples, see [Agile objects in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/agile-objects).
 
 ## Syntax
 ```cppwinrt

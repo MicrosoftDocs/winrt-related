@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::throw_last_error function ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+# winrt::throw_last_error function (C++/WinRT)
 A helper function that calls [GetLastError](https://msdn.microsoft.com/library/windows/desktop/ms679360) to retrieve the calling thread's last-error code value, then calls the [winrt::throw_hresult](throw-hresult.md) function to throw an exception that represents that error code. Also see [winrt::hresult_error](hresult-error.md).
 
 ## Syntax

@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::clock struct ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+# winrt::clock struct (C++/WinRT)
 A type containing static helper functions for converting a [Windows::Foundation::DateTime](/uwp/api/windows.foundation.datetime) (that is, a [std::chrono::time_point](/cpp/standard-library/time-point-class)) to and from [FILETIME](https://msdn.microsoft.com/library/windows/desktop/ms724284), and to and from [time_t](/cpp/c-runtime-library/reference/time-time32-time64).
 
 **winrt::clock** is *defined* as using the same units as **Windows::Foundation::DateTime** (a signed 64-bit integer of 100-nanosecond intervals since Jan 1 1601). Other C++ standard clocks don't typically define their resolution, and don't use the epoch Jan 1 1601, which is a Windows Runtime/FILETIME epoch.
@@ -43,9 +43,9 @@ struct clock
 |Function|Description|
 |------------|-----------------|
 |[clock::now function](#clocknow-function)|Retrieves the current time as a **Windows::Foundation::DateTime**.|
-|[clock::from_FILETIME function](#clockfromfiletime-function)|Converts a **FILETIME** value to a **Windows::Foundation::DateTime**.|
+|[clock::from_file_time function](#clockfromfiletime-function)|Converts a **winrt::file_time** value to a **Windows::Foundation::DateTime**.|
 |[clock::from_time_t function](#clockfromtimet-function)|Converts a **time_t** value to a **Windows::Foundation::DateTime**.|
-|[clock::to_FILETIME function](#clocktofiletime-function)|Converts a **Windows::Foundation::DateTime** value to a **FILETIME**.|
+|[clock::to_file_time function](#clocktofiletime-function)|Converts a **Windows::Foundation::DateTime** value to a **winrt::file_time**.|
 |[clock::to_time_t function](#clocktotimet-function)|Converts a **Windows::Foundation::DateTime** value to a **time_t**.|
 
 ## clock::now function
@@ -59,20 +59,20 @@ static Windows::Foundation::DateTime now() noexcept;
 ### Return value 
 The current time as a **Windows::Foundation::DateTime**.
 
-## clock::from_FILETIME function
-Converts a **FILETIME** value to a **Windows::Foundation::DateTime**.
+## clock::from_file_time function
+Converts a **winrt::file_time** value to a **Windows::Foundation::DateTime**.
 
 ### Syntax
 ```cppwinrt
-static Windows::Foundation::DateTime from_FILETIME(FILETIME const& time) noexcept;
+static Windows::Foundation::DateTime from_file_time(winrt::file_time const& time) noexcept;
 ```
 
 ### Parameters
 `time`
-A **FILETIME** value to convert to a **Windows::Foundation::DateTime**.
+A **winrt::file_time** value to convert to a **Windows::Foundation::DateTime**.
 
 ### Return value 
-The **FILETIME** value converted into a **Windows::Foundation::DateTime**.
+The **winrt::file_time** value converted into a **Windows::Foundation::DateTime**.
 
 ## clock::from_time_t function
 Converts a **time_t** value to a **Windows::Foundation::DateTime**.
@@ -89,20 +89,20 @@ A **time_t** value to convert to a **Windows::Foundation::DateTime**.
 ### Return value 
 The **time_t** value converted into a **Windows::Foundation::DateTime**.
 
-## clock::to_FILETIME function
-Converts a **Windows::Foundation::DateTime** value to a **FILETIME**.
+## clock::to_file_time function
+Converts a **Windows::Foundation::DateTime** value to a **winrt::file_time**.
 
 ### Syntax
 ```cppwinrt
-static FILETIME to_FILETIME(Windows::Foundation::DateTime const& time) noexcept;
+static file_time to_file_time(Windows::Foundation::DateTime const& time) noexcept;
 ```
 
 ### Parameters
 `time`
-A **Windows::Foundation::DateTime** value to convert to a **FILETIME**.
+A **Windows::Foundation::DateTime** value to convert to a **winrt::file_time**.
 
 ### Return value 
-The **Windows::Foundation::DateTime** value converted into a **FILETIME**.
+The **Windows::Foundation::DateTime** value converted into a **winrt::file_time**.
 
 ## clock::to_time_t function
 Converts a **Windows::Foundation::DateTime** value to a **time_t**.

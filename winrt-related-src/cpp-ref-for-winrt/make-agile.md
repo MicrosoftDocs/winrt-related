@@ -14,8 +14,9 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::make_agile function template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
-A helper function that returns an [agile_ref](agile-ref.md) object, representing an agile reference to a C++/WinRT object or interface. For more info, and code examples, see [Agile objects in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/agile-objects).
+# winrt::make_agile function template (C++/WinRT)
+
+A helper function that returns an [agile_ref](agile-ref.md) object, representing an agile reference to a [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) object or interface. For more info, and code examples, see [Agile objects in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/agile-objects).
 
 ## Syntax
 ```cppwinrt

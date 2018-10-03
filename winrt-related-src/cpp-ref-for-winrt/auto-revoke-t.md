@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::auto_revoke_t marker struct ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
+# winrt::auto_revoke_t marker struct (C++/WinRT)
 A marker type used to request an event revoker when registering a delegate to handle an event. For more details, and code examples, see [Revoke a registered delegate](/windows/uwp/cpp-and-winrt-apis/handle-events#revoke-a-registered-delegate).
 
 ## Syntax

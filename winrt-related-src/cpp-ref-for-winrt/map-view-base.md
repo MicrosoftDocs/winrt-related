@@ -14,10 +14,7 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::map_view_base struct template ([C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt))
-
-> [!NOTE]
-> **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+# winrt::map_view_base struct template (C++/WinRT)
 
 A base class from which you can derive to implement your own custom view, or span, of a contiguous sequence of elements in an associative collection. For more info, and code examples, see [Collections with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/collections).
 
@@ -41,7 +38,7 @@ The type of the values in the collection that the **map_view_base** views, or sp
 A type that provides versioning policy and services to the collection.
 
 ## Requirements
-**Minimum supported SDK:** Windows 10 SDK Preview Build 17661
+**Minimum supported SDK:** Windows SDK version 10.0.17763.0 (Windows 10, version 1809)
 
 **Namespace:** winrt
 
