@@ -47,6 +47,7 @@ A [com_ptr](com-ptr.md) to a newly-created instance of the implementation type f
 ## See also 
 * [winrt namespace](winrt.md)
 * [winrt::com_ptr struct template](com-ptr.md)
+* [winrt::get_self function template](get-self.md)
 * [winrt::make function template](make.md)
 * [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis)
 * [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis)

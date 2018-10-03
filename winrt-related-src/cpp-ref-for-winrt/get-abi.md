@@ -25,7 +25,7 @@ auto get_abi(T const& object) noexcept;
 
 inline void* get_abi(winrt::Windows::Foundation::IUnknown const& object) noexcept;
 
-inline HSTRING get_abi(winrt::hstring const& object) noexcept;
+inline void* get_abi(winrt::hstring const& object) noexcept;
 
 template <typename T>
 static auto get_abi(winrt::array_view<T> object) noexcept;

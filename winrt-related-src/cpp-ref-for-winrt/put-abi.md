@@ -25,7 +25,7 @@ auto put_abi(T& object) noexcept;
 
 inline void** put_abi(winrt::Windows::Foundation::IUnknown& object) noexcept;
 
-inline HSTRING* put_abi(winrt::hstring& object) noexcept;
+inline void** put_abi(winrt::hstring& object) noexcept;
 
 template<typename T>
 auto put_abi(winrt::com_array<T>& object) noexcept;

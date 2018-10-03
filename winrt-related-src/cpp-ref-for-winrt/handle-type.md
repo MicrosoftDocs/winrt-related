@@ -16,7 +16,7 @@ ms.workload: ["cplusplus"]
 
 # winrt::handle_type struct template (C++/WinRT)
 
-The template for the [**winrt::handle**](handle.md) and [**winrt::file_handle**](file-handle.md) structs.
+The template for the [**winrt::handle**](handle.md) and [**winrt::file_handle**](file-handle.md) structs, among others.
 
 ## Syntax
 ```cppwinrt
@@ -26,7 +26,7 @@ struct handle_type
 
 ### Template parameters
 `typename T`
-A traits type that specifies the kind of handle being represented (either a handle or a file handle).
+A traits type that specifies the kind of handle being represented (a handle, a file handle, or some other type).
 
 ## Requirements
 **Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
@@ -38,7 +38,7 @@ A traits type that specifies the kind of handle being represented (either a hand
 ## Member type aliases
 |Alias name|Type|
 |------------|-----------------|
-|event::delegate_type|A synonym for **typename T::type**, where **T** is the `typename T` template parameter.|
+|handle_type::type|A synonym for **typename T::type**, where **T** is the `typename T` template parameter.|
 
 ## Constructors
 |Constructor|Description|
@@ -48,24 +48,24 @@ A traits type that specifies the kind of handle being represented (either a hand
 ## Member functions
 |Function|Description|
 |------------|-----------------|
-|[handle_type::attach function](#handletypeattach-function)|Attaches to a HANDLE value, and takes ownership of it.|
-|[handle_type::close function](#handletypeclose-function)|Closes the underlying HANDLE.|
-|[handle_type::detach function](#handletypedetach-function)|Detaches from the underlying HANDLE.|
-|[handle_type::get function](#handletypeget-function)|Returns the underlying HANDLE should you need to pass it to a function.|
+|[handle_type::attach function](#handletypeattach-function)|Attaches to a handle value, and takes ownership of it.|
+|[handle_type::close function](#handletypeclose-function)|Closes the underlying handle.|
+|[handle_type::detach function](#handletypedetach-function)|Detaches from the underlying handle.|
+|[handle_type::get function](#handletypeget-function)|Returns the underlying handle should you need to pass it to a function.|
 |[handle_type::put function](#handletypeput-function)|
-Returns the address of the underlying HANDLE; this function helps you call methods that return references as out parameters via a pointer to a HANDLE.
+Returns the address of the underlying handle; this function helps you call methods that return references as out parameters via a pointer to a handle.
 |
 
 ## Member operators
 |Operator|Description|
 |------------|-----------------|
-|[handle_type::operator bool](#handletypeoperator-bool)|Checks whether or not the **handle_type** object currently represents a valid HANDLE.|
+|[handle_type::operator bool](#handletypeoperator-bool)|Checks whether or not the **handle_type** object currently represents a valid handle.|
 |[handle_type::operator= (assignment operator)](#handletypeoperator-assignment-operator)|Assigns a value to the **handle_type** object.|
 
 ## Free functions
 |Function|Description|
 |------------|-----------------|
-|[swap function](#swap-function)|Swaps the contents of the two **handle_type** parameters so that they contain one another's HANDLE.|
+|[swap function](#swap-function)|Swaps the contents of the two **handle_type** parameters so that they contain one another's handle.|
 
 ## handle_type::handle_type constructor
 Initializes a new instance of the **handle_type** struct, optionally with a copy or move of the input data.
@@ -73,31 +73,31 @@ Initializes a new instance of the **handle_type** struct, optionally with a copy
 ### Syntax
 ```cppwinrt
 handle_type() noexcept;
-handle_type(HANDLE value) noexcept;
+explicit handle_type(handle_type::type value) noexcept;
 handle_type(handle_type&& other) noexcept;
 ```
 
 ### Parameters
 `value`
-A HANDLE value that initializes the **handle_type** object.
+A value that initializes the **handle_type** object.
 
 `other`
 Another **handle_type** that initializes the **handle_type** object.
 
 ## handle_type::attach function
-Attaches to a HANDLE value, and takes ownership of it.
+Attaches to a handle value, and takes ownership of it.
 
 ### Syntax
 ```cppwinrt
-void attach(HANDLE value) noexcept;
+void attach(handle_type::type value) noexcept;
 ```
 
 ### Parameters
 `value`
-A HANDLE value to attach to.
+A handle value to attach to.
 
 ## handle_type::close function
-Closes the underlying HANDLE.
+Closes the underlying handle.
 
 ### Syntax
 ```cppwinrt
@@ -105,40 +105,40 @@ void close() noexcept;
 ```
 
 ## handle_type::detach function
-Detaches from the underlying HANDLE.
+Detaches from the underlying handle.
 
 ### Syntax
 ```cppwinrt
-HANDLE detach() noexcept;
+handle_type::type detach() noexcept;
 ```
 
 ### Return value
-The underlying HANDLE formerly represented by the **handle_type** object.
+The underlying handle formerly represented by the **handle_type** object.
 
 ## handle_type::get function
-Returns the underlying HANDLE should you need to pass it to a function.
+Returns the underlying handle, should you need to pass it to a function.
 
 ### Syntax
 ```cppwinrt
-HANDLE get() const noexcept;
+handle_type::type get() const noexcept;
 ```
 
 ### Return value 
-The underlying HANDLE represented by the **handle_type** object.
+The underlying handle represented by the **handle_type** object.
 
 ## handle_type::put function
-Returns the address of the underlying HANDLE; this function helps you call methods that return references as out parameters via a pointer to a HANDLE.
+Returns the address of the underlying handle; this function helps you call methods that return references as out parameters via a pointer to a handle.
 
 ### Syntax
 ```cppwinrt
-HANDLE* put() noexcept;
+handle_type::type* put() noexcept;
 ```
 
 ### Return value 
-The address of the underlying HANDLE represented by the **handle_type** object.
+The address of the underlying handle represented by the **handle_type** object.
 
 ## handle_type::operator bool
-Checks whether or not the **handle_type** object currently represents a valid HANDLE.
+Checks whether or not the **handle_type** object currently represents a valid handle.
 
 ### Syntax
 ```cppwinrt
@@ -146,7 +146,7 @@ explicit operator bool() const noexcept;
 ```
 
 ### Return value
-`true` if the **handle_type** object currently represents a valid HANDLE, otherwise `false`.
+`true` if the **handle_type** object currently represents a valid handle, otherwise `false`.
 
 ## handle_type::operator= (assignment operator)
 Assigns a value to the **handle_type** object.
@@ -164,7 +164,7 @@ A **handle_type** value to assign to the **handle_type** object.
 A reference to the **handle_type** object.
 
 ## swap function
-Swaps the contents of the two **handle_type** parameters so that they contain one another's HANDLE.
+Swaps the contents of the two **handle_type** parameters so that they contain one another's handle.
 
 ### Syntax
 ```cppwinrt
@@ -173,7 +173,7 @@ void swap(winrt::handle_type& left, winrt::handle_type& right) noexcept;
 
 ### Parameters
 `left` `right`
-A **handle_type** value whose HANDLE to mutually swap with that of the other parameter.
+A **handle_type** value whose handle to mutually swap with that of the other parameter.
 
 ## See also 
 * [winrt namespace](winrt.md)

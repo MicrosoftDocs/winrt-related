@@ -47,3 +47,4 @@ A pointer to the implementation object that implements the interface object.
 
 ## See also 
 * [winrt namespace](winrt.md)
+* [winrt::make_self function template](make-self.md)
