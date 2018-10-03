@@ -16,9 +16,6 @@ ms.workload: ["cplusplus"]
 
 # winrt::observable_vector_base struct template (C++/WinRT)
 
-> [!NOTE]
-> **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
 A base class from which you can derive to implement your own custom observable vector. For more info, and code examples, see [Collections with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/collections).
 
 ## Syntax
@@ -35,7 +32,7 @@ Your derived type name.
 The type of the elements in the **observable_vector_base**.
 
 ## Requirements
-**Minimum supported SDK:** Windows 10 SDK Preview Build 17661
+**Minimum supported SDK:** Windows SDK version 10.0.17763.0 (Windows 10, version 1809)
 
 **Namespace:** winrt
 

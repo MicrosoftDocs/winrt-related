@@ -16,9 +16,6 @@ ms.workload: ["cplusplus"]
 
 # winrt::single_threaded_vector function template (C++/WinRT)
 
-> [!NOTE]
-> **Some information relates to pre-released product which may be substantially modified before it’s commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
 A function template that creates and returns an object of a type that implements a general-purpose (but not observable) collection. The object is returned as an [**IVector**](/uwp/api/windows.foundation.collections.ivector_t_), and that's the interface via which you call the returned object's functions and properties.
 
 You can optionally pass an existing **std::vector** *rvalue* into the function&mdash;either pass a temporary object, or call **std::move** on an *lvalue*.
@@ -46,7 +43,7 @@ An optional reference to an *rvalue* of type **std::vector** from which to initi
 An [**IVector**](/uwp/api/windows.foundation.collections.ivector_t_) representing a new collection object.
 
 ## Requirements
-**Minimum supported SDK:** Windows 10 SDK Preview Build 17661
+**Minimum supported SDK:** Windows SDK version 10.0.17763.0 (Windows 10, version 1809)
 
 **Namespace:** winrt
 

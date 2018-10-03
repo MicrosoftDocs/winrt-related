@@ -24,7 +24,7 @@ struct resume_foreground
 ```
 
 ## Requirements
-**Minimum supported SDK:** Windows SDK Insider Preview version 10.0.17661.0 (Windows 10, version 1803)
+**Minimum supported SDK:** Windows SDK version 10.0.17763.0 (Windows 10, version 1809)
 
 **Namespace:** winrt
 

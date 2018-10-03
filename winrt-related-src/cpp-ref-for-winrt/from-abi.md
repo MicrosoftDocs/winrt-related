@@ -16,6 +16,9 @@ ms.workload: ["cplusplus"]
 
 # winrt::from_abi function template (C++/WinRT)
 
+> [!IMPORTANT]
+> As of version 10.0.17763.0 (Windows 10, version 1809) of the Windows SDK, **winrt::from_abi** is obsolete. Use [**winrt::get_self**](get-self.md) instead.
+
 A helper function which, given an object of a projected type, retrieves a pointer to the implementation. For more details, and code examples, see [Instantiating and returning implementation types and interfaces](/windows/uwp/cpp-and-winrt-apis/author-apis#instantiating-and-returning-implementation-types-and-interfaces).
 
 ## Syntax
