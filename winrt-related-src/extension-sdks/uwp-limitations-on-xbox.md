@@ -13,8 +13,6 @@ keywords: windows 10, uwp, xbox
 
 # UWP features not yet supported on Xbox
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
-
 Xbox runs Windows 10, which means that it shares the same core operating system as other devices in the Windows 10 family: desktop, mobile, IoT, and HoloLens. But, because this is the first release of the Universal Windows Platform (UWP) on Xbox, there are some feature areas that haven’t reached the same level of support on Xbox as they have on other devices.
 
 This topic lists some of the feature areas that your UWP app might use that don’t currently function as fully on Xbox. All APIs are callable and will fail gracefully if they’re unsupported. As we service Windows, we will continue implementing, testing, and bugfixing until all of the Universal device family API surface is fully operational on Xbox.
