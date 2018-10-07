@@ -305,6 +305,8 @@ The event arguments indicate both that an element was inserted, and also what it
 This is how you'd create an instance of the type defined above. Instead of calling the **winrt::single_threaded_observable_vector** factory function template, you create the collection object by calling [**winrt::make**](https://docs.microsoft.com/en-us/uwp/cpp-ref-for-winrt/make).
 
 ```cppwinrt
+#include "single_threaded_observable_vector.h"
+...
 winrt::Windows::Foundation::Collections::IVector<winrt::Windows::Foundation::IInspectable> m_bookSkus;
 ...
 m_bookSkus = winrt::make<winrt::Bookstore::implementation::single_threaded_observable_vector<winrt::Windows::Foundation::IInspectable>>();
