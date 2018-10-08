@@ -128,6 +128,8 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [desktop4:FileExplorerContextMenus](element-desktop4-FileExplorerContextMenus.md) | Registers items for the context menu of File Explorer. |
 | [desktop4:ItemType](element-desktop4-ItemType.md) | Contains the type of command to be registered in the context menu. |
 | [desktop4:Verb](element-desktop4-verb.md) | Names and class IDs of the commands registered in the Shell for a file explorer context menu. |
+| [desktop5:ItemType](element-desktop5-itemtype.md) | Contains the type of command to be registered in the context menu. |
+| [desktop5:Verb](element-desktop5-verb.md) | Names and class IDs of the commands registered in the Shell for a file explorer context menu. |
 | [Device](element-device.md) | Declares a function for a device that is associated with the [**DeviceCapability**](element-devicecapability.md). On Windows 10.0.10240.0, a **DeviceCapability** can contain up to 100 **Device** elements. On Windows 10.0.10586.0, it can contain up to 1000 (for more details, see **DeviceCapability**). |
 | [DeviceCapability](element-devicecapability.md) | Declares a device capability required by a package. On Windows 10.0.10240.0, can contain up to 100 [**Device**](element-device.md) elements. On Windows 10.0.10586.0, can contain up to 1000 (for syntax and examples, see Examples). |
 | [DisplayName](element-displayname.md) | A friendly name that can be displayed to users. |
@@ -308,3 +310,11 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap6:LoaderSearchPathOverride](element-uap6-LoaderSearchPathOverride.md) | An extension that allows an app developer to declare a path in the app package, relative to the app package root path, to be included in the loader search path for the app's processes. |
 | [uap6:LocalExperiencePack](element-uap6-LocalExperiencePack.md) | This extension provides a means to deliver translated app resources. |
 | [uap6:SpatialBoundingBox](element-uap6-SpatialBoundingBox.md) | Used to define the center point and the extents for a bounding volume. |
+
+| [uap7:Capability](element-uap7-capability.md) | Declares a capability required by a package. |
+| [uap7:EnterpriseDataProtection](element-uap7-enterprisedataprotection.md) | Declares that the app is safe for auto-encryption and allows it to be managed without device enrollment via Windows Information Protection policy. |
+| [uap7:Extension](element-uap7-extension.md) | Declares an extensibility point for the app. |
+| [uap7:ImportRedirectionTable](element-uap7-ImportRedirectionTable.md) | Allows for a packaged app to declare API redirections. |
+| [uap7:OSPackageDependency](element-uap7-ospackagedependency.md) | Defines a package dependency for a UWP app. |
+| [uap7:Properties](element-uap7-properties.md) | Properties of an application. |
+| [uap7:SharedFonts](element-uap7-sharedfonts.md) | Contains the locations of shared fonts to be used with the app. |

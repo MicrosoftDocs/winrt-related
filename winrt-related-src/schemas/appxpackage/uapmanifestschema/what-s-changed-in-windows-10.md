@@ -11,7 +11,7 @@ keywords: windows 10, uwp, schema, package manifest
 ms.prod: windows
 ms.technology: winrt-reference
 ms.topic: reference
-ms.date: 03/07/2017
+ms.date: 10/03/2018
 ---
 
 # What's different in Windows 10
@@ -20,7 +20,15 @@ This topic lists changes to the package manifest schema reference for each versi
 
 The following sections list the namespaces and XML prefixes added to the package manifest schema in each update of Windows 10. To get the latest version of Windows 10, see [Download Windows 10](https://www.microsoft.com/software-download/windows10).
 
-## Windows 10, Build 17133, Version 1803
+## Windows 10, Build 17763, Version 1809
+### Added namespaces and XML prefixes
+| Prefix   | Namespace | 
+|----------|-----------|
+| uap7     | http://schemas.microsoft.com/appx/manifest/uap/windows10/7 | 
+| desktop5 | http://schemas.microsoft.com/appx/manifest/desktop/windows10/5 |
+| rescap5  | http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/5 |
+
+## Windows 10, Build 17134, Version 1803
 ### Added namespaces and XML prefixes
 | Prefix   | Namespace | 
 |----------|-----------|
