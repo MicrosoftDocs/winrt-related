@@ -52,6 +52,8 @@ An optional element of the appinstaller file. UpdateSettings signifies whether o
 | Child Elements | Description |
 |----------------|-------------|
 | [OnLaunch](element-onlaunch.md) |  OnLaunch signifies that the deployment service will check for an update to the appinstaller file on the app launch. |
+| [AutomaticBackgroundTask](element-onlaunch.md) |Checks for updates in the background. A check is made every 8 hours independently of whether the user launched the app. This type of update cannot show UI. Available in Windows 10, version 1803 and later. |
+| [ForceUpdateFromAnyVersion](element-onlaunch.md) |A boolean that allows the app's version to be incremented or decremented. Without this element, the app can only move to a higher version. Available starting in Windows 10, version 1803 and later. |
 
 ### Parent Elements
 
@@ -63,11 +65,27 @@ An optional element of the appinstaller file. UpdateSettings signifies whether o
 **UpdateSettings** is an optional element. 
 
 ## Examples
-``` xml    
+``` xml  With these settings, deployment will check for updates only at launch time and only if 12 or more hours have passed since the last time deployment checked for updates.  
     <UpdateSettings>
         <OnLaunch HoursBetweenUpdateChecks="12"/>
     </UpdateSettings>
-```
+`
+
+``` xml With these settings, deployment will check for updates in the background, every 8 hours, even if the user doesn't launch the app. 
+    <UpdateSettings>
+    <AutomaticBackgroundTask/>
+    </UpdateSettings>
+`
+
+``` xml  With these settings, deployment will check for updates at launch time and in the background. In addition, the app version can be incremented or decremented.
+    <UpdateSettings>
+        <OnLaunch HoursBetweenUpdateChecks="12"/>
+        <AutomaticBackgroundTask/>
+        <ForceUpdateFromAnyVersion>true</ForceUpdateFromAnyVersion>
+    </UpdateSettings>
+`
+
+
 ## Requirements
 <table>
     <tbody>
