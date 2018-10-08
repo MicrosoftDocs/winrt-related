@@ -60,7 +60,8 @@ Defines the verbs associated with a file context menu and enables Windows Deskto
            rescap3:DdeExecCommand? = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
            rescap3:DdeExecApplication? = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
            rescap3:DdeExecTopic? = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
-           rescap3:DdeExecIfExec? = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. >
+           rescap3:DdeExecIfExec? = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
+           uap7:Default? = boolean value >
 ```    
 
 ### Key
@@ -75,6 +76,7 @@ Defines the verbs associated with a file context menu and enables Windows Deskto
 | rescap3:DdeExecApplication | An application name used to establish the DDE conversion. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
 | rescap3:DdeExecTopic | The topic name of the DDE conversion. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
 | rescap3:DdeExecIfExec | The DDE command used if DDE conversion cannot be executed. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
+| uap7:Default | Specifies whether the verb is the default verb. | A boolean value. | No |
 
 ## Requirements
 

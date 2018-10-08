@@ -31,6 +31,8 @@ This element signifies that the deployment service will check for an update to t
 <OnLaunch HoursBetweenUpdateChecks? = String with numeric values between 0 and 255 inclusive. />
 ```
 
+
+
 ### Key
 `?` optional (zero or one)
 
@@ -41,6 +43,16 @@ This element signifies that the deployment service will check for an update to t
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | HoursBetweenUpdateChecks | HoursBetweenUpdateChecks speficies the frequency with which the the deployment service will check for an update to the appinstaller file. When HoursBetweenUpdateChecks is set to 0, the deployment service will check for updates every time the application is launched. If HoursBetweenUpdateChecks is set to 12, the deployments service will check for updates every 12 hours. The default value of HouyrsBetweenUpdateChecks is 24, meaning the deployments service will check for updates every 24 hours unless otherwise specified. | String with numeric values between 0 and 255 inclusive. | No |
+| ShowPrompt | Indicates if deployment will show a prompt, informing the user about the update. Available in Windows 10, version 1809 and later. |Boolean | No |
+| UpdateBlocksActivation| Should only be used if ShowPrompt="true". Indicates if deployment will stop the user from launching the application until the update has been applied. “UpdateBlocksActivation” = true means the UI the user will see allows the user to take the update or close the app. “UpdateBlocksActivation” = false means the UI the user will see allows the user to take the update or start the app without updating. In the latter case, the update will be applied silently at an opportune time.  Available in Windows 10, version 1809 and later. | Boolean | No |
+
+## Examples
+``` xml  With these settings, deployment will check for updates every time the app is launched. If updates are found, deployment will show a prompt telling the user they must take the update before launching the app. Also the app version can be incremented or decremented.
+    <UpdateSettings> 
+    <OnLaunch HoursBetweenUpdateChecks="0" ShowPrompt="true" UpdateBlocksActivation="true"/>
+        <ForceUpdateFromAnyVersion>true</ForceUpdateFromAnyVersion>
+    </UpdateSettings>
+`
 
 ### Parent Elements
 
@@ -48,12 +60,25 @@ This element signifies that the deployment service will check for an update to t
 |----------------|-------------|
 | [UpdateSettings](element-update-settings.md) | An optional element of the appinstaller file. UpdateSettings signifies whether or not to check for an update during the app's launch. |
 
-## Requirements
+## Remarks
+ShowPrompt="true" currently shows a prompt for UWP applications, and not for Centenniall applications. For Centennial applications, this functionality provides a silent update - the same default functionality provided by the OnLaunch element.
+
+## Requirements for HoursBetweenUpdateChecks
 <table>
     <tbody>
         <tr>
             <td>Namespace</td>
             <td> http://schemas.microsoft.com/appx/appinstaller/2017/2 </td>
+        </tr>
+    </tbody>
+</table>
+
+## Requirements for ShowPrompt & UpdateBlocksActivation
+<table>
+    <tbody>
+        <tr>
+            <td>Namespace</td>
+            <td> http://schemas.microsoft.com/appx/appinstaller/2018 </td>
         </tr>
     </tbody>
 </table>

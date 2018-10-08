@@ -34,6 +34,7 @@ Declares other packages that a package depends on to complete its software.
   PackageDependency{0,128},
   uap3:MainPackageDependency{0,1},
   uap5:DriverDependency{0,1000}
+  uap7:OSPackageDependency{0,1000}
 
 </Dependencies>
 ```

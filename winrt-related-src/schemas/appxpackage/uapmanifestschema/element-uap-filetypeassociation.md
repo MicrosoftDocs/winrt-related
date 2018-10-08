@@ -50,7 +50,8 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 <FileTypeAssociation  Name         = A string between 1 and 100 characters in length.
                       DesiredView? = "default" | "useLess" | "useHalf" | "useMore" | "useMinimum" 
                       desktop2:UseUrl? = boolean.
-                      desktop2:AllowSilentDefaultTakeOver? = boolean >
+                      desktop2:AllowSilentDefaultTakeOver? = boolean 
+                      desktop5:ThumbnailTypeOverlay = A string between 1 and 256 characters in length that ends with ".jpg", ".png", or ".jpeg" that can't contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters can't be the first or last characters. Also, the string can contain / or \ but not both. >
 
   <!-- Child elements -->
   ( uap:DisplayName?
@@ -131,6 +132,13 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 <td><strong>desktop2:UseUrl</strong></td>
 <td><p>If set to true, the file will be opened with the URL path directly.</p></td>
 <td>Boolean.</td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>desktop5:ThumbnailTypeOverlay</strong></td>
+<td><p>An image resource for a thumbnail overlay.</p></td>
+<td>A string between 1 and 256 characters in length that ends with ".jpg", ".png", or ".jpeg" that can't contain these characters: &lt;, &gt;, :, ", &#124;, ?, or *. In this string, the / and \ characters can't be the first or last characters. Also, the string can contain / or \ but not both.</td>
 <td>No</td>
 <td></td>
 </tr>
