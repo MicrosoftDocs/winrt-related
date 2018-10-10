@@ -7,7 +7,7 @@ ms.topic: article
 ms.prod: windows
 ms.technology: uwp
 keywords: windows 10, uwp, win32, COM
-ms.date: 10/4/2017
+ms.date: 10/10/2018
 ms.assetid: 9763fa67-0f32-4128-b901-013b1d7ea73c
 ---
 
@@ -106,6 +106,66 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [CStdStubBuffer2_CountRefs](https://msdn.microsoft.com/en-us/library/windows/desktop/mt243881.aspx) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
 | [CStdStubBuffer2_Disconnect](https://msdn.microsoft.com/en-us/library/windows/desktop/mt243882.aspx) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
 | [CStdStubBuffer2_QueryInterface](https://msdn.microsoft.com/en-us/library/windows/desktop/mt243883.aspx) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction10 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction11 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction12 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction13 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction14 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction15 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction16 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction17 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction18 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction19 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction20 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction21 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction22 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction23 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction24 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction25 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction26 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction27 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction28 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction29 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction3 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction30 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction31 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction32 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction4 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction5 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction6 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction7 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction8 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| NdrProxyForwardingFunction9 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient10 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient11 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient12 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient13 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient14 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient15 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient16 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient17 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient18 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient19 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient20 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient21 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient22 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient23 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient24 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient25 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient26 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient27 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient28 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient29 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient3 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient30 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient31 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient32 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient4 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient5 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient6 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient7 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient8 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| ObjectStublessClient9 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-datetime-l1-1-1.dll
@@ -156,8 +216,8 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | -----| --------------|
 | [RaiseFailFastException](https://msdn.microsoft.com/en-us/library/windows/desktop/dd941688.aspx) | Introduced into api-ms-win-core-errorhandling-l1-1-3.dll in 10.0.10240. Moved into api-ms-win-core-errorhandling-l1-1-2.dll in 10.0.16299. |
 | [SetUnhandledExceptionFilter](https://msdn.microsoft.com/en-us/library/windows/desktop/ms680634.aspx) | Introduced into api-ms-win-core-errorhandling-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-errorhandling-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-errorhandling-l1-1-0.dll in 10.0.16299. |
-| [GetThreadErrorMode](https://msdn.microsoft.com/en-us/library/Dd553629.aspx) | Introduced into api-ms-win-core-errorhandling-l1-1-3.dll in 10.0.16299. |
-| [SetThreadErrorMode](https://msdn.microsoft.com/en-us/library/Dd553630.aspx) | Introduced into api-ms-win-core-errorhandling-l1-1-3.dll in 10.0.16299. |
+| [GetThreadErrorMode](https://msdn.microsoft.com/en-us/library/Dd553629(v=VS.85).aspx) | Introduced into api-ms-win-core-errorhandling-l1-1-3.dll in 10.0.16299. |
+| [SetThreadErrorMode](https://msdn.microsoft.com/en-us/library/Dd553630(v=VS.85).aspx) | Introduced into api-ms-win-core-errorhandling-l1-1-3.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-fibers-l1-1-1.dll
@@ -188,7 +248,7 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | API | Requirements |
 | -----| --------------|
 | [ReplaceFileA](https://msdn.microsoft.com/en-us/library/windows/desktop/aa365512.aspx) | Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.10240. |
-| [CopyFileExA](https://msdn.microsoft.com/en-us/library/Aa363852.aspx) | Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.16299. |
+| [CopyFileExA](https://msdn.microsoft.com/en-us/library/Aa363852(v=VS.85).aspx) | Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-file-l1-2-1.dll
@@ -309,7 +369,6 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | API | Requirements |
 | -----| --------------|
 | [MoveFileExA](https://msdn.microsoft.com/en-us/library/windows/desktop/aa365240.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.10586. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
-| [GetSystemPowerStatus](https://msdn.microsoft.com/en-us/library/windows/desktop/aa372693(v=vs.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-largeinteger-l1-1-0.dll
@@ -344,7 +403,7 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | API | Requirements |
 | -----| --------------|
 | [GetStringTypeExA](https://msdn.microsoft.com/en-us/library/windows/desktop/dd318118.aspx) | Introduced into api-ms-win-core-localization-ansi-l1-1-0.dll in 10.0.10240. |
-| [EnumUILanguagesA](https://msdn.microsoft.com/en-us/library/Dd317834.aspx) | Introduced into api-ms-win-core-localization-ansi-l1-1-0.dll in 10.0.15063. |
+| [EnumUILanguagesA](https://msdn.microsoft.com/en-us/library/Dd317834(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-ansi-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-localization-l1-2-1.dll
@@ -372,12 +431,6 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [LCMapStringEx](https://msdn.microsoft.com/en-us/library/windows/desktop/dd318702.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
 | [LocaleNameToLCID](https://msdn.microsoft.com/en-us/library/windows/desktop/dd318711.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
 | [ResolveLocaleName](https://msdn.microsoft.com/en-us/library/windows/desktop/dd319112.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [GetLocaleInfoW](https://msdn.microsoft.com/en-us/library/Dd318101.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.15063. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [GetLocaleInfoA](https://msdn.microsoft.com/en-us/library/Dd318101.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.15063. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [GetACP](https://msdn.microsoft.com/en-us/library/Dd318070.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.15063. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [GetUserDefaultLangID](https://msdn.microsoft.com/en-us/library/Dd318134.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.15063. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [IsDBCSLeadByteEx](https://msdn.microsoft.com/en-us/library/Dd318667.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.15063. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [IsDBCSLeadByte](https://msdn.microsoft.com/en-us/library/Dd318664.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.15063. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-localization-l1-2-2.dll
@@ -422,9 +475,10 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [OpenFileMappingFromApp](https://msdn.microsoft.com/en-us/library/windows/desktop/mt169844.aspx) | Introduced into api-ms-win-core-memory-l1-1-3.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-4.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-5.dll in 10.0.15063. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.16299. |
-| [VirtualAllocFromApp](https://msdn.microsoft.com/en-us/library/windows/desktop/mt169845.aspx) | Introduced into api-ms-win-core-memory-l1-1-3.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-4.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-5.dll in 10.0.15063. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.16299. |
-| [VirtualProtectFromApp](https://msdn.microsoft.com/en-us/library/windows/desktop/mt169846.aspx) | Introduced into api-ms-win-core-memory-l1-1-3.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-4.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-5.dll in 10.0.15063. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.16299. |
+| [OpenFileMappingFromApp](https://msdn.microsoft.com/en-us/library/windows/desktop/mt169844.aspx) | Introduced into api-ms-win-core-memory-l1-1-3.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-4.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.16299. |
+| [VirtualAllocFromApp](https://msdn.microsoft.com/en-us/library/windows/desktop/mt169845.aspx) | Introduced into api-ms-win-core-memory-l1-1-3.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-4.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.16299. |
+| [VirtualProtectFromApp](https://msdn.microsoft.com/en-us/library/windows/desktop/mt169846.aspx) | Introduced into api-ms-win-core-memory-l1-1-3.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-4.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.16299. |
+| [SetProcessValidCallTargets](https://msdn.microsoft.com/en-us/library/Dn934202(v=VS.85).aspx) | Introduced into api-ms-win-core-memory-l1-1-3.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-normalization-l1-1-0.dll
@@ -476,18 +530,10 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [TlsFree](https://msdn.microsoft.com/en-us/library/windows/desktop/ms686804.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
 | [TlsGetValue](https://msdn.microsoft.com/en-us/library/windows/desktop/ms686812.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
 | [TlsSetValue](https://msdn.microsoft.com/en-us/library/windows/desktop/ms686818.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [OpenProcessToken](https://msdn.microsoft.com/en-us/library/Aa379295.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [GetProcessId](https://msdn.microsoft.com/en-us/library/ms683215.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [GetProcessMitigationPolicy](https://msdn.microsoft.com/en-us/library/Hh769085.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
-| [GetExitCodeProcess](https://msdn.microsoft.com/en-us/library/ms683189.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [OpenThread](https://msdn.microsoft.com/en-us/library/ms684335.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [GetProcessTimes](https://msdn.microsoft.com/en-us/library/ms683223.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [GetThreadTimes](https://msdn.microsoft.com/en-us/library/ms683237.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
-| [GetCurrentProcessorNumber](https://msdn.microsoft.com/en-us/library/ms683181.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
-| [GetThreadIdealProcessorEx](https://msdn.microsoft.com/en-us/library/Dd405499.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
-| [GetCurrentProcessorNumberEx](https://msdn.microsoft.com/en-us/library/Dd405487.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.15063. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
-| [GetProcessPriorityBoost](https://msdn.microsoft.com/en-us/library/ms683220.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.16299. |
-| [SetProcessPriorityBoost](https://msdn.microsoft.com/en-us/library/ms686225.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.16299. |
+| [GetProcessPriorityBoost](https://msdn.microsoft.com/en-us/library/ms683220(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.16299. |
+| [SetProcessPriorityBoost](https://msdn.microsoft.com/en-us/library/ms686225(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.16299. |
+| [SetThreadInformation](https://msdn.microsoft.com/en-us/library/Hh448390(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.17134. |
+| [GetSystemTimes](https://msdn.microsoft.com/en-us/library/ms724400(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.17763. |
 
 
 ## APIs from api-ms-win-core-processthreads-l1-1-3.dll
@@ -502,8 +548,8 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [SetProcessInformation](https://msdn.microsoft.com/en-us/library/windows/desktop/hh448389.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10240. |
 | [SetThreadIdealProcessor](https://msdn.microsoft.com/en-us/library/windows/desktop/ms686253.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10240. |
 | [SetThreadSelectedCpuSets](https://msdn.microsoft.com/en-us/library/windows/desktop/mt186428.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10240. |
-| [GetThreadDescription](https://msdn.microsoft.com/en-us/library/Mt774972.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.15063. |
-| [SetThreadDescription](https://msdn.microsoft.com/en-us/library/Mt774976.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.15063. |
+| [GetThreadDescription](https://msdn.microsoft.com/en-us/library/Mt774972(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.16299. |
+| [SetThreadDescription](https://msdn.microsoft.com/en-us/library/Mt774976(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-profile-l1-1-0.dll
@@ -525,9 +571,9 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [QueryInterruptTime](https://msdn.microsoft.com/en-us/library/windows/desktop/dn903659.aspx) | Introduced into api-ms-win-core-realtime-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-realtime-l1-1-2.dll in 10.0.15063. Moved into api-ms-win-core-realtime-l1-1-1.dll in 10.0.16299. |
-| [QueryInterruptTimePrecise](https://msdn.microsoft.com/en-us/library/windows/desktop/dn903660.aspx) | Introduced into api-ms-win-core-realtime-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-realtime-l1-1-2.dll in 10.0.15063. Moved into api-ms-win-core-realtime-l1-1-1.dll in 10.0.16299. |
-| [QueryUnbiasedInterruptTimePrecise](https://msdn.microsoft.com/en-us/library/windows/desktop/dn891448.aspx) | Introduced into api-ms-win-core-realtime-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-realtime-l1-1-2.dll in 10.0.15063. Moved into api-ms-win-core-realtime-l1-1-1.dll in 10.0.16299. |
+| [QueryInterruptTime](https://msdn.microsoft.com/en-us/library/windows/desktop/dn903659.aspx) | Introduced into api-ms-win-core-realtime-l1-1-1.dll in 10.0.10240. |
+| [QueryInterruptTimePrecise](https://msdn.microsoft.com/en-us/library/windows/desktop/dn903660.aspx) | Introduced into api-ms-win-core-realtime-l1-1-1.dll in 10.0.10240. |
+| [QueryUnbiasedInterruptTimePrecise](https://msdn.microsoft.com/en-us/library/windows/desktop/dn891448.aspx) | Introduced into api-ms-win-core-realtime-l1-1-1.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-rtlsupport-l1-2-0.dll
@@ -535,10 +581,10 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | API | Requirements |
 | -----| --------------|
 | [RtlCaptureStackBackTrace](https://msdn.microsoft.com/en-us/library/windows/desktop/aa813366.aspx) | Introduced into api-ms-win-core-rtlsupport-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-rtlsupport-l1-1-0.dll in 10.0.16299. |
-| [RtlLookupFunctionEntry](https://msdn.microsoft.com/en-us/library/windows/desktop/ms680597.aspx) | Introduced into api-ms-win-core-rtlsupport-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-rtlsupport-l1-1-0.dll in 10.0.16299. |
-| [RtlPcToFileHeader](https://msdn.microsoft.com/en-us/library/windows/desktop/ms680603.aspx) | Introduced into api-ms-win-core-rtlsupport-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-rtlsupport-l1-1-0.dll in 10.0.16299. |
+| [RtlLookupFunctionEntry](https://msdn.microsoft.com/en-us/library/windows/desktop/ms680597.aspx) | Introduced into api-ms-win-core-rtlsupport-l1-2-0.dll in 10.0.10240. Removed in 10.0.16299. |
+| [RtlPcToFileHeader](https://msdn.microsoft.com/en-us/library/windows/desktop/ms680603.aspx) | Introduced into api-ms-win-core-rtlsupport-l1-2-0.dll in 10.0.10240. |
 | [RtlUnwind](https://msdn.microsoft.com/en-us/library/windows/desktop/ms680609.aspx) | Introduced into api-ms-win-core-rtlsupport-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-rtlsupport-l1-1-0.dll in 10.0.16299. |
-| [RtlUnwindEx](https://msdn.microsoft.com/en-us/library/windows/desktop/ms680615.aspx) | Introduced into api-ms-win-core-rtlsupport-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-rtlsupport-l1-1-0.dll in 10.0.16299. |
+| [RtlUnwindEx](https://msdn.microsoft.com/en-us/library/windows/desktop/ms680615.aspx) | Introduced into api-ms-win-core-rtlsupport-l1-2-0.dll in 10.0.10240. Removed in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-string-l1-1-0.dll
@@ -560,9 +606,9 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [CreateSemaphoreA](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682438.aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.10240. |
 | [CreateSemaphoreExA](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682446.aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.10240. |
 | [OpenMutexA](https://msdn.microsoft.com/en-us/library/windows/desktop/ms684315.aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.10240. |
-| [CreateWaitableTimerA](https://msdn.microsoft.com/en-us/library/ms682492.aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.15063. |
-| [CreateWaitableTimerExA](https://msdn.microsoft.com/en-us/library/ms682494.aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.15063. |
-| [OpenWaitableTimerA](https://msdn.microsoft.com/en-us/library/ms684337.aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.15063. |
+| [CreateWaitableTimerA](https://msdn.microsoft.com/en-us/library/ms682492(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. |
+| [CreateWaitableTimerExA](https://msdn.microsoft.com/en-us/library/ms682494(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. |
+| [OpenWaitableTimerA](https://msdn.microsoft.com/en-us/library/ms684337(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-synch-l1-2-0.dll
@@ -618,12 +664,7 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [WakeByAddressAll](https://msdn.microsoft.com/en-us/library/windows/desktop/hh706899.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
 | [WakeByAddressSingle](https://msdn.microsoft.com/en-us/library/windows/desktop/hh706900.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
 | [WakeConditionVariable](https://msdn.microsoft.com/en-us/library/windows/desktop/ms687080.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
-| [SetWaitableTimer](https://msdn.microsoft.com/en-us/library/ms686289.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [CancelWaitableTimer](https://msdn.microsoft.com/en-us/library/ms681985.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [CreateWaitableTimerExW](https://msdn.microsoft.com/en-us/library/ms682494.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [SetWaitableTimerEx](https://msdn.microsoft.com/en-us/library/Dd405521.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [SignalObjectAndWait](https://msdn.microsoft.com/en-us/library/ms686293.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.15063. |
-| [OpenWaitableTimerW](https://msdn.microsoft.com/en-us/library/ms684337.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [SignalObjectAndWait](https://msdn.microsoft.com/en-us/library/ms686293(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-synch-l1-2-1.dll
@@ -632,7 +673,7 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | -----| --------------|
 | [CreateSemaphoreW](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682438.aspx) | Introduced into api-ms-win-core-synch-l1-2-1.dll in 10.0.10240. |
 | [WaitForMultipleObjects](https://msdn.microsoft.com/en-us/library/windows/desktop/ms687025.aspx) | Introduced into api-ms-win-core-synch-l1-2-1.dll in 10.0.10240. |
-| [CreateWaitableTimerW](https://msdn.microsoft.com/en-us/library/ms682492.aspx) | Introduced into api-ms-win-core-synch-l1-2-1.dll in 10.0.15063. |
+| [CreateWaitableTimerW](https://msdn.microsoft.com/en-us/library/ms682492(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-sysinfo-l1-2-1.dll
@@ -649,7 +690,6 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [GetLogicalProcessorInformation](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683194.aspx) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
 | [GetLogicalProcessorInformationEx](https://msdn.microsoft.com/en-us/library/windows/desktop/dd405488.aspx) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
 | [GlobalMemoryStatusEx](https://msdn.microsoft.com/en-us/library/windows/desktop/aa366589.aspx) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
-| [GetTickCount](https://msdn.microsoft.com/en-us/library/ms724408.aspx) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.15063. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-sysinfo-l1-2-3.dll
@@ -725,7 +765,7 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | -----| --------------|
 | [DecodePointer](https://msdn.microsoft.com/en-us/library/windows/desktop/bb432242.aspx) | Introduced into api-ms-win-core-util-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-util-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-util-l1-1-0.dll in 10.0.14393. |
 | [EncodePointer](https://msdn.microsoft.com/en-us/library/windows/desktop/bb432254.aspx) | Introduced into api-ms-win-core-util-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-util-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-util-l1-1-0.dll in 10.0.14393. |
-| [Beep](https://msdn.microsoft.com/en-us/library/ms930581.aspx) | Introduced into api-ms-win-core-util-l1-1-0.dll in 10.0.16299. |
+| [Beep](https://msdn.microsoft.com/en-us/library/ms679277(v=VS.85).aspx) | Introduced into api-ms-win-core-util-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-windowsceip-l1-1-0.dll
@@ -807,13 +847,13 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | API | Requirements |
 | -----| --------------|
 | [HSTRING_UserFree](https://msdn.microsoft.com/en-us/library/windows/desktop/hh846259.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [HSTRING_UserFree64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh846260.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.16299. |
+| [HSTRING_UserFree64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh846260.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. Removed in 10.0.16299. |
 | [HSTRING_UserMarshal](https://msdn.microsoft.com/en-us/library/windows/desktop/hh846261.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [HSTRING_UserMarshal64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh846262.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.16299. |
+| [HSTRING_UserMarshal64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh846262.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. Removed in 10.0.16299. |
 | [HSTRING_UserSize](https://msdn.microsoft.com/en-us/library/windows/desktop/hh846263.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [HSTRING_UserSize64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh846264.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.16299. |
+| [HSTRING_UserSize64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh846264.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. Removed in 10.0.16299. |
 | [HSTRING_UserUnmarshal](https://msdn.microsoft.com/en-us/library/windows/desktop/hh846265.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [HSTRING_UserUnmarshal64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh846266.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.16299. |
+| [HSTRING_UserUnmarshal64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh846266.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. Removed in 10.0.16299. |
 | [WindowsCompareStringOrdinal](https://msdn.microsoft.com/en-us/library/windows/desktop/br224628.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
 | [WindowsConcatString](https://msdn.microsoft.com/en-us/library/windows/desktop/br224629.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
 | [WindowsCreateString](https://msdn.microsoft.com/en-us/library/windows/desktop/br224630.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
@@ -873,7 +913,7 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [EnableTraceEx2](https://msdn.microsoft.com/en-us/library/windows/desktop/dd392305.aspx) | Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.10240. |
 | [StartTraceW](https://msdn.microsoft.com/en-us/library/windows/desktop/aa364117.aspx) | Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.10240. |
 | [StopTraceW](https://msdn.microsoft.com/en-us/library/windows/desktop/aa364119.aspx) | Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.10240. |
-| [EnumerateTraceGuidsEx](https://msdn.microsoft.com/en-us/library/Aa363714.aspx) | Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.16299. |
+| [EnumerateTraceGuidsEx](https://msdn.microsoft.com/en-us/library/Aa363714(v=VS.85).aspx) | Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-eventing-legacy-l1-1-0.dll
@@ -898,19 +938,21 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [EventWriteEx](https://msdn.microsoft.com/en-us/library/windows/desktop/dd392307.aspx) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.10240. |
 | [EventWriteString](https://msdn.microsoft.com/en-us/library/windows/desktop/aa363750.aspx) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.10240. |
 | [EventWriteTransfer](https://msdn.microsoft.com/en-us/library/windows/desktop/aa363751.aspx) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.10240. |
+| [EventEnabled](https://msdn.microsoft.com/en-us/library/Aa363741(v=VS.85).aspx) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.17763. |
+| [EventProviderEnabled](https://msdn.microsoft.com/en-us/library/Aa363742(v=VS.85).aspx) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.17763. |
 
 
 ## APIs from api-ms-win-gaming-tcui-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [ProcessPendingGameUI](https://msdn.microsoft.com/en-us/library/Mt421171.aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-3.dll in 10.0.15063. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
-| [ShowChangeFriendRelationshipUI](https://msdn.microsoft.com/en-us/library/Mt421172.aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-3.dll in 10.0.15063. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
-| [ShowGameInviteUI](https://msdn.microsoft.com/en-us/library/Mt421173.aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-3.dll in 10.0.15063. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
-| [ShowPlayerPickerUI](https://msdn.microsoft.com/en-us/library/Mt421174.aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-3.dll in 10.0.15063. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
-| [ShowProfileCardUI](https://msdn.microsoft.com/en-us/library/Mt421175.aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-3.dll in 10.0.15063. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
-| [ShowTitleAchievementsUI](https://msdn.microsoft.com/en-us/library/Mt421176.aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-3.dll in 10.0.15063. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
-| [TryCancelPendingGameUI](https://msdn.microsoft.com/en-us/library/Mt421178.aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-3.dll in 10.0.15063. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
+| [ProcessPendingGameUI](https://msdn.microsoft.com/en-us/library/Mt421171(v=VS.85).aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
+| [ShowChangeFriendRelationshipUI](https://msdn.microsoft.com/en-us/library/Mt421172(v=VS.85).aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
+| [ShowGameInviteUI](https://msdn.microsoft.com/en-us/library/Mt421173(v=VS.85).aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
+| [ShowPlayerPickerUI](https://msdn.microsoft.com/en-us/library/Mt421174(v=VS.85).aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
+| [ShowProfileCardUI](https://msdn.microsoft.com/en-us/library/Mt421175(v=VS.85).aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
+| [ShowTitleAchievementsUI](https://msdn.microsoft.com/en-us/library/Mt421176(v=VS.85).aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
+| [TryCancelPendingGameUI](https://msdn.microsoft.com/en-us/library/Mt421178(v=VS.85).aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-ro-typeresolution-l1-1-0.dll
@@ -964,117 +1006,117 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [JsAddRef](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsAddRef-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsBooleanToBool](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsBooleanToBool-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsBoolToBoolean](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsBoolToBoolean-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsCallFunction](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsCallFunction-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsCollectGarbage](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsCollectGarbage-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsConstructObject](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsConstructObject-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsConvertValueToBoolean](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsConvertValueToBoolean-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsConvertValueToNumber](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsConvertValueToNumber-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsConvertValueToObject](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsConvertValueToObject-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsConvertValueToString](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsConvertValueToString-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsCreateArray](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsCreateArray-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsCreateArrayBuffer](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsCreateArrayBuffer-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsCreateContext](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsCreateContext-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsCreateDataView](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsCreateDataView-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsCreateError](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsCreateError-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsCreateExternalObject](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsCreateExternalObject-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsCreateFunction](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsCreateFunction-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsCreateNamedFunction](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsCreateNamedFunction-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsCreateObject](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsCreateObject-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsCreateRangeError](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsCreateRangeError-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsCreateReferenceError](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsCreateReferenceError-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsCreateRuntime](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsCreateRuntime-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsCreateSymbol](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsCreateSymbol-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsCreateSyntaxError](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsCreateSyntaxError-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsCreateTypedArray](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsCreateTypedArray-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsCreateTypeError](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsCreateTypeError-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsCreateURIError](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsCreateURIError-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsDefineProperty](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsDefineProperty-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsDeleteIndexedProperty](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsDeleteIndexedProperty-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsDeleteProperty](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsDeleteProperty-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsDisableRuntimeExecution](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsDisableRuntimeExecution-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsDisposeRuntime](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsDisposeRuntime-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsDoubleToNumber](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsDoubleToNumber-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsEnableRuntimeExecution](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsEnableRuntimeExecution-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsEquals](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsEquals-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetAndClearException](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetAndClearException-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetArrayBufferStorage](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetArrayBufferStorage-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetCurrentContext](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetCurrentContext-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetDataViewStorage](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetDataViewStorage-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetExtensionAllowed](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetExtensionAllowed-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetExternalData](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetExternalData-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetFalseValue](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetFalseValue-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetGlobalObject](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetGlobalObject-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetIndexedPropertiesExternalData](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetIndexedPropertiesExternalData-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetIndexedProperty](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetIndexedProperty-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetNullValue](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetNullValue-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetOwnPropertyDescriptor](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetOwnPropertyDescriptor-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetOwnPropertyNames](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetOwnPropertyNames-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetOwnPropertySymbols](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetOwnPropertySymbols-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetProperty](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetProperty-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetPropertyIdFromName](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetPropertyIdFromName-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetPropertyIdFromSymbol](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetPropertyIdFromSymbol-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetPropertyIdType](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetPropertyIdType-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetPropertyNameFromId](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetPropertyNameFromId-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetPrototype](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetPrototype-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetRuntime](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetRuntime-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetRuntimeMemoryLimit](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetRuntimeMemoryLimit-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetRuntimeMemoryUsage](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetRuntimeMemoryUsage-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetStringLength](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetStringLength-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetSymbolFromPropertyId](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetSymbolFromPropertyId-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetTrueValue](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetTrueValue-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetTypedArrayStorage](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetTypedArrayStorage-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetUndefinedValue](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetUndefinedValue-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetValueType](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetValueType-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsHasException](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsHasException-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsHasExternalData](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsHasExternalData-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsHasIndexedPropertiesExternalData](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsHasIndexedPropertiesExternalData-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsHasIndexedProperty](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsHasIndexedProperty-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsHasProperty](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsHasProperty-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsIdle](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsIdle-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsInspectableToObject](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsInspectableToObject-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsIntToNumber](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsIntToNumber-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsIsRuntimeExecutionDisabled](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsIsRuntimeExecutionDisabled-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsNumberToDouble](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsNumberToDouble-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsNumberToInt](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsNumberToInt-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsObjectToInspectable](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsObjectToInspectable-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsParseScript](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsParseScript-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsParseSerializedScript](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsParseSerializedScript-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsPointerToString](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsPointerToString-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsPreventExtension](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsPreventExtension-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsProjectWinRTNamespace](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsProjectWinRTNamespace-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsRelease](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsRelease-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsRunScript](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsRunScript-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsRunSerializedScript](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsRunSerializedScript-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsSerializeScript](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsSerializeScript-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsSetCurrentContext](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsSetCurrentContext-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsSetException](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsSetException-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsSetExternalData](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsSetExternalData-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsSetIndexedPropertiesToExternalData](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsSetIndexedPropertiesToExternalData-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsSetIndexedProperty](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsSetIndexedProperty-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsSetObjectBeforeCollectCallback](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsSetObjectBeforeCollectCallback-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsSetProjectionEnqueueCallback](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsSetProjectionEnqueueCallback-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsSetPromiseContinuationCallback](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsSetPromiseContinuationCallback-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsSetProperty](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsSetProperty-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsSetPrototype](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsSetPrototype-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsSetRuntimeBeforeCollectCallback](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsSetRuntimeBeforeCollectCallback-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsSetRuntimeMemoryAllocationCallback](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsSetRuntimeMemoryAllocationCallback-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsSetRuntimeMemoryLimit](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsSetRuntimeMemoryLimit-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsStartDebugging](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsStartDebugging-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsStrictEquals](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsStrictEquals-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsStringToPointer](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsStringToPointer-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsValueToVariant](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsValueToVariant-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsVariantToValue](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsVariantToValue-function) | Introduced into chakra.dll in 10.0.10240. |
-| [JsGetContextData](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetContextData-function) | Introduced into chakra.dll in 10.0.10586. |
-| [JsGetContextOfObject](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetContextOfObject-function) | Introduced into chakra.dll in 10.0.10586. |
-| [JsGetTypedArrayInfo](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsGetTypedArrayInfo-function) | Introduced into chakra.dll in 10.0.10586. |
-| [JsInstanceOf](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsInstanceOf-function) | Introduced into chakra.dll in 10.0.10586. |
-| [JsParseSerializedScriptWithCallback](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsParseSerializedScriptWithCallback-function) | Introduced into chakra.dll in 10.0.10586. |
-| [JsRunSerializedScriptWithCallback](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsRunSerializedScriptWithCallback-function) | Introduced into chakra.dll in 10.0.10586. |
-| [JsSetContextData](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsSetContextData-function) | Introduced into chakra.dll in 10.0.10586. |
-| [JsCreateExternalArrayBuffer](https://docs.microsoft.com/en-us/scripting/chakra-hosting/JsCreateExternalArrayBuffer-function) | Introduced into chakra.dll in 10.0.14393. |
+| JsAddRef | Introduced into chakra.dll in 10.0.10240. |
+| JsBooleanToBool | Introduced into chakra.dll in 10.0.10240. |
+| JsBoolToBoolean | Introduced into chakra.dll in 10.0.10240. |
+| JsCallFunction | Introduced into chakra.dll in 10.0.10240. |
+| JsCollectGarbage | Introduced into chakra.dll in 10.0.10240. |
+| JsConstructObject | Introduced into chakra.dll in 10.0.10240. |
+| JsConvertValueToBoolean | Introduced into chakra.dll in 10.0.10240. |
+| JsConvertValueToNumber | Introduced into chakra.dll in 10.0.10240. |
+| JsConvertValueToObject | Introduced into chakra.dll in 10.0.10240. |
+| JsConvertValueToString | Introduced into chakra.dll in 10.0.10240. |
+| JsCreateArray | Introduced into chakra.dll in 10.0.10240. |
+| JsCreateArrayBuffer | Introduced into chakra.dll in 10.0.10240. |
+| JsCreateContext | Introduced into chakra.dll in 10.0.10240. |
+| JsCreateDataView | Introduced into chakra.dll in 10.0.10240. |
+| JsCreateError | Introduced into chakra.dll in 10.0.10240. |
+| JsCreateExternalObject | Introduced into chakra.dll in 10.0.10240. |
+| JsCreateFunction | Introduced into chakra.dll in 10.0.10240. |
+| JsCreateNamedFunction | Introduced into chakra.dll in 10.0.10240. |
+| JsCreateObject | Introduced into chakra.dll in 10.0.10240. |
+| JsCreateRangeError | Introduced into chakra.dll in 10.0.10240. |
+| JsCreateReferenceError | Introduced into chakra.dll in 10.0.10240. |
+| JsCreateRuntime | Introduced into chakra.dll in 10.0.10240. |
+| JsCreateSymbol | Introduced into chakra.dll in 10.0.10240. |
+| JsCreateSyntaxError | Introduced into chakra.dll in 10.0.10240. |
+| JsCreateTypedArray | Introduced into chakra.dll in 10.0.10240. |
+| JsCreateTypeError | Introduced into chakra.dll in 10.0.10240. |
+| JsCreateURIError | Introduced into chakra.dll in 10.0.10240. |
+| JsDefineProperty | Introduced into chakra.dll in 10.0.10240. |
+| JsDeleteIndexedProperty | Introduced into chakra.dll in 10.0.10240. |
+| JsDeleteProperty | Introduced into chakra.dll in 10.0.10240. |
+| JsDisableRuntimeExecution | Introduced into chakra.dll in 10.0.10240. |
+| JsDisposeRuntime | Introduced into chakra.dll in 10.0.10240. |
+| JsDoubleToNumber | Introduced into chakra.dll in 10.0.10240. |
+| JsEnableRuntimeExecution | Introduced into chakra.dll in 10.0.10240. |
+| JsEquals | Introduced into chakra.dll in 10.0.10240. |
+| JsGetAndClearException | Introduced into chakra.dll in 10.0.10240. |
+| JsGetArrayBufferStorage | Introduced into chakra.dll in 10.0.10240. |
+| JsGetCurrentContext | Introduced into chakra.dll in 10.0.10240. |
+| JsGetDataViewStorage | Introduced into chakra.dll in 10.0.10240. |
+| JsGetExtensionAllowed | Introduced into chakra.dll in 10.0.10240. |
+| JsGetExternalData | Introduced into chakra.dll in 10.0.10240. |
+| JsGetFalseValue | Introduced into chakra.dll in 10.0.10240. |
+| JsGetGlobalObject | Introduced into chakra.dll in 10.0.10240. |
+| JsGetIndexedPropertiesExternalData | Introduced into chakra.dll in 10.0.10240. |
+| JsGetIndexedProperty | Introduced into chakra.dll in 10.0.10240. |
+| JsGetNullValue | Introduced into chakra.dll in 10.0.10240. |
+| JsGetOwnPropertyDescriptor | Introduced into chakra.dll in 10.0.10240. |
+| JsGetOwnPropertyNames | Introduced into chakra.dll in 10.0.10240. |
+| JsGetOwnPropertySymbols | Introduced into chakra.dll in 10.0.10240. |
+| JsGetProperty | Introduced into chakra.dll in 10.0.10240. |
+| JsGetPropertyIdFromName | Introduced into chakra.dll in 10.0.10240. |
+| JsGetPropertyIdFromSymbol | Introduced into chakra.dll in 10.0.10240. |
+| JsGetPropertyIdType | Introduced into chakra.dll in 10.0.10240. |
+| JsGetPropertyNameFromId | Introduced into chakra.dll in 10.0.10240. |
+| JsGetPrototype | Introduced into chakra.dll in 10.0.10240. |
+| JsGetRuntime | Introduced into chakra.dll in 10.0.10240. |
+| JsGetRuntimeMemoryLimit | Introduced into chakra.dll in 10.0.10240. |
+| JsGetRuntimeMemoryUsage | Introduced into chakra.dll in 10.0.10240. |
+| JsGetStringLength | Introduced into chakra.dll in 10.0.10240. |
+| JsGetSymbolFromPropertyId | Introduced into chakra.dll in 10.0.10240. |
+| JsGetTrueValue | Introduced into chakra.dll in 10.0.10240. |
+| JsGetTypedArrayStorage | Introduced into chakra.dll in 10.0.10240. |
+| JsGetUndefinedValue | Introduced into chakra.dll in 10.0.10240. |
+| JsGetValueType | Introduced into chakra.dll in 10.0.10240. |
+| JsHasException | Introduced into chakra.dll in 10.0.10240. |
+| JsHasExternalData | Introduced into chakra.dll in 10.0.10240. |
+| JsHasIndexedPropertiesExternalData | Introduced into chakra.dll in 10.0.10240. |
+| JsHasIndexedProperty | Introduced into chakra.dll in 10.0.10240. |
+| JsHasProperty | Introduced into chakra.dll in 10.0.10240. |
+| JsIdle | Introduced into chakra.dll in 10.0.10240. |
+| JsInspectableToObject | Introduced into chakra.dll in 10.0.10240. |
+| JsIntToNumber | Introduced into chakra.dll in 10.0.10240. |
+| JsIsRuntimeExecutionDisabled | Introduced into chakra.dll in 10.0.10240. |
+| JsNumberToDouble | Introduced into chakra.dll in 10.0.10240. |
+| JsNumberToInt | Introduced into chakra.dll in 10.0.10240. |
+| JsObjectToInspectable | Introduced into chakra.dll in 10.0.10240. |
+| JsParseScript | Introduced into chakra.dll in 10.0.10240. |
+| JsParseSerializedScript | Introduced into chakra.dll in 10.0.10240. |
+| JsPointerToString | Introduced into chakra.dll in 10.0.10240. |
+| JsPreventExtension | Introduced into chakra.dll in 10.0.10240. |
+| JsProjectWinRTNamespace | Introduced into chakra.dll in 10.0.10240. |
+| JsRelease | Introduced into chakra.dll in 10.0.10240. |
+| JsRunScript | Introduced into chakra.dll in 10.0.10240. |
+| JsRunSerializedScript | Introduced into chakra.dll in 10.0.10240. |
+| JsSerializeScript | Introduced into chakra.dll in 10.0.10240. |
+| JsSetCurrentContext | Introduced into chakra.dll in 10.0.10240. |
+| JsSetException | Introduced into chakra.dll in 10.0.10240. |
+| JsSetExternalData | Introduced into chakra.dll in 10.0.10240. |
+| JsSetIndexedPropertiesToExternalData | Introduced into chakra.dll in 10.0.10240. |
+| JsSetIndexedProperty | Introduced into chakra.dll in 10.0.10240. |
+| JsSetObjectBeforeCollectCallback | Introduced into chakra.dll in 10.0.10240. |
+| JsSetProjectionEnqueueCallback | Introduced into chakra.dll in 10.0.10240. |
+| JsSetPromiseContinuationCallback | Introduced into chakra.dll in 10.0.10240. |
+| JsSetProperty | Introduced into chakra.dll in 10.0.10240. |
+| JsSetPrototype | Introduced into chakra.dll in 10.0.10240. |
+| JsSetRuntimeBeforeCollectCallback | Introduced into chakra.dll in 10.0.10240. |
+| JsSetRuntimeMemoryAllocationCallback | Introduced into chakra.dll in 10.0.10240. |
+| JsSetRuntimeMemoryLimit | Introduced into chakra.dll in 10.0.10240. |
+| JsStartDebugging | Introduced into chakra.dll in 10.0.10240. |
+| JsStrictEquals | Introduced into chakra.dll in 10.0.10240. |
+| JsStringToPointer | Introduced into chakra.dll in 10.0.10240. |
+| JsValueToVariant | Introduced into chakra.dll in 10.0.10240. |
+| JsVariantToValue | Introduced into chakra.dll in 10.0.10240. |
+| JsGetContextData | Introduced into chakra.dll in 10.0.10586. |
+| JsGetContextOfObject | Introduced into chakra.dll in 10.0.10586. |
+| JsGetTypedArrayInfo | Introduced into chakra.dll in 10.0.10586. |
+| JsInstanceOf | Introduced into chakra.dll in 10.0.10586. |
+| JsParseSerializedScriptWithCallback | Introduced into chakra.dll in 10.0.10586. |
+| JsRunSerializedScriptWithCallback | Introduced into chakra.dll in 10.0.10586. |
+| JsSetContextData | Introduced into chakra.dll in 10.0.10586. |
+| JsCreateExternalArrayBuffer | Introduced into chakra.dll in 10.0.14393. |
 
 
 ## APIs from crypt32.dll
@@ -1165,8 +1207,8 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [CertSetCRLContextProperty](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376574.aspx) | Introduced into crypt32.dll in 10.0.10240. |
 | [CertSetCTLContextProperty](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376575.aspx) | Introduced into crypt32.dll in 10.0.10240. |
 | [CertSetStoreProperty](https://msdn.microsoft.com/en-us/library/windows/desktop/aa376577.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertStrToNameA](https://msdn.microsoft.com/en-us/library/Aa377160.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertStrToNameW](https://msdn.microsoft.com/en-us/library/Aa377160.aspx) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertStrToNameA](https://msdn.microsoft.com/en-us/library/Aa377160(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertStrToNameW](https://msdn.microsoft.com/en-us/library/Aa377160(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.10240. |
 | [CertVerifyCertificateChainPolicy](https://msdn.microsoft.com/en-us/library/windows/desktop/aa377163.aspx) | Introduced into crypt32.dll in 10.0.10240. |
 | [CertVerifySubjectCertificateContext](https://msdn.microsoft.com/en-us/library/windows/desktop/aa377168.aspx) | Introduced into crypt32.dll in 10.0.10240. |
 | [CertVerifyTimeValidity](https://msdn.microsoft.com/en-us/library/windows/desktop/aa377169.aspx) | Introduced into crypt32.dll in 10.0.10240. |
@@ -1211,12 +1253,12 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [PFXImportCertStore](https://msdn.microsoft.com/en-us/library/windows/desktop/aa387314.aspx) | Introduced into crypt32.dll in 10.0.10240. |
 | [PFXIsPFXBlob](https://msdn.microsoft.com/en-us/library/windows/desktop/aa387316.aspx) | Introduced into crypt32.dll in 10.0.10240. |
 | [PFXVerifyPassword](https://msdn.microsoft.com/en-us/library/windows/desktop/aa387319.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptImportPublicKeyInfoEx2](https://msdn.microsoft.com/en-us/library/Aa380211.aspx) | Introduced into crypt32.dll in 10.0.15063. |
-| [CryptBinaryToStringW](https://msdn.microsoft.com/en-us/library/Aa379887.aspx) | Introduced into crypt32.dll in 10.0.15063. |
-| [CryptProtectMemory](https://msdn.microsoft.com/en-us/library/Aa380262.aspx) | Introduced into crypt32.dll in 10.0.15063. |
-| [CryptUnprotectMemory](https://msdn.microsoft.com/en-us/library/Aa380890.aspx) | Introduced into crypt32.dll in 10.0.15063. |
-| [CryptHashCertificate2](https://msdn.microsoft.com/en-us/library/Aa380201.aspx) | Introduced into crypt32.dll in 10.0.15063. |
-| [CryptStringToBinaryA](https://msdn.microsoft.com/en-us/library/Aa380285.aspx) | Introduced into crypt32.dll in 10.0.15063. |
+| [CryptBinaryToStringW](https://msdn.microsoft.com/en-us/library/Aa379887(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. |
+| [CryptHashCertificate2](https://msdn.microsoft.com/en-us/library/Aa380201(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. |
+| [CryptImportPublicKeyInfoEx2](https://msdn.microsoft.com/en-us/library/Aa380211(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. |
+| [CryptProtectMemory](https://msdn.microsoft.com/en-us/library/Aa380262(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. |
+| [CryptStringToBinaryA](https://msdn.microsoft.com/en-us/library/Aa380285(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. |
+| [CryptUnprotectMemory](https://msdn.microsoft.com/en-us/library/Aa380890(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. |
 
 
 ## APIs from d2d1.dll
@@ -1227,7 +1269,7 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [D2D1ConvertColorSpace](https://msdn.microsoft.com/en-us/library/windows/desktop/hh847939.aspx) | Introduced into d2d1.dll in 10.0.10240. |
 | [D2D1CreateDevice](https://msdn.microsoft.com/en-us/library/windows/desktop/hh404272.aspx) | Introduced into d2d1.dll in 10.0.10240. |
 | [D2D1CreateDeviceContext](https://msdn.microsoft.com/en-us/library/windows/desktop/hh404273.aspx) | Introduced into d2d1.dll in 10.0.10240. |
-| [D2D1CreateFactory](https://msdn.microsoft.com/en-us/library/Dd368034.aspx) | Introduced into d2d1.dll in 10.0.10240. |
+| [D2D1CreateFactory](https://msdn.microsoft.com/en-us/library/Dd368034(v=VS.85).aspx) | Introduced into d2d1.dll in 10.0.10240. |
 | [D2D1GetGradientMeshInteriorPointsFromCoonsPatch](https://msdn.microsoft.com/en-us/library/windows/desktop/mt149083.aspx) | Introduced into d2d1.dll in 10.0.10240. |
 | [D2D1InvertMatrix](https://msdn.microsoft.com/en-us/library/windows/desktop/dd368044.aspx) | Introduced into d2d1.dll in 10.0.10240. |
 | [D2D1IsMatrixInvertible](https://msdn.microsoft.com/en-us/library/windows/desktop/dd368045.aspx) | Introduced into d2d1.dll in 10.0.10240. |
@@ -1242,22 +1284,22 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [CreateDirect3D11DeviceFromDXGIDevice](https://msdn.microsoft.com/en-us/library/Dn895087.aspx) | Introduced into d3d11.dll in 10.0.10240. |
-| [CreateDirect3D11SurfaceFromDXGISurface](https://msdn.microsoft.com/en-us/library/Dn895088.aspx) | Introduced into d3d11.dll in 10.0.10240. |
+| CreateDirect3D11DeviceFromDXGIDevice | Introduced into d3d11.dll in 10.0.10240. |
+| CreateDirect3D11SurfaceFromDXGISurface | Introduced into d3d11.dll in 10.0.10240. |
 | [D3D11CreateDevice](https://msdn.microsoft.com/en-us/library/windows/desktop/ff476082.aspx) | Introduced into d3d11.dll in 10.0.10240. |
-| [D3D11On12CreateDevice](https://msdn.microsoft.com/en-us/library/Dn933209.aspx) | Introduced into d3d11.dll in 10.0.10240. |
+| [D3D11On12CreateDevice](https://msdn.microsoft.com/en-us/library/Dn933209(v=VS.85).aspx) | Introduced into d3d11.dll in 10.0.10240. |
 
 
 ## APIs from d3d12.dll
 
 | API | Requirements |
 | -----| --------------|
-| [D3D12CreateDevice](https://msdn.microsoft.com/en-us/library/Dn770336.aspx) | Introduced into d3d12.dll in 10.0.10240. |
-| [D3D12CreateRootSignatureDeserializer](https://msdn.microsoft.com/en-us/library/Dn859362.aspx) | Introduced into d3d12.dll in 10.0.10240. |
-| [D3D12SerializeRootSignature](https://msdn.microsoft.com/en-us/library/Dn859363.aspx) | Introduced into d3d12.dll in 10.0.10240. |
-| [D3D12CreateVersionedRootSignatureDeserializer](https://msdn.microsoft.com/en-us/library/Mt709109.aspx) | Introduced into d3d12.dll in 10.0.16299. |
-| [D3D12SerializeVersionedRootSignature](https://msdn.microsoft.com/en-us/library/Mt709110.aspx) | Introduced into d3d12.dll in 10.0.16299. |
-| [D3D12EnableExperimentalFeatures](https://msdn.microsoft.com/en-us/library/Mt492553.aspx) | Introduced into d3d12.dll in 10.0.16299. |
+| [D3D12CreateDevice](https://msdn.microsoft.com/en-us/library/Dn770336(v=VS.85).aspx) | Introduced into d3d12.dll in 10.0.10240. |
+| [D3D12CreateRootSignatureDeserializer](https://msdn.microsoft.com/en-us/library/Dn859362(v=VS.85).aspx) | Introduced into d3d12.dll in 10.0.10240. |
+| [D3D12SerializeRootSignature](https://msdn.microsoft.com/en-us/library/Dn859363(v=VS.85).aspx) | Introduced into d3d12.dll in 10.0.10240. |
+| [D3D12CreateVersionedRootSignatureDeserializer](https://msdn.microsoft.com/en-us/library/Mt709109(v=VS.85).aspx) | Introduced into d3d12.dll in 10.0.16299. |
+| [D3D12EnableExperimentalFeatures](https://msdn.microsoft.com/en-us/library/Mt492553(v=VS.85).aspx) | Introduced into d3d12.dll in 10.0.16299. |
+| [D3D12SerializeVersionedRootSignature](https://msdn.microsoft.com/en-us/library/Mt709110(v=VS.85).aspx) | Introduced into d3d12.dll in 10.0.16299. |
 
 
 ## APIs from d3dcompiler_47.dll
@@ -1414,35 +1456,35 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [JetTerm2](https://msdn.microsoft.com/en-us/library/windows/desktop/gg269223.aspx) | Introduced into esent.dll in 10.0.10240. |
 | [JetUnregisterCallback](https://msdn.microsoft.com/en-us/library/windows/desktop/gg294116.aspx) | Introduced into esent.dll in 10.0.10240. |
 | [JetUpdate2](https://msdn.microsoft.com/en-us/library/windows/desktop/gg269190.aspx) | Introduced into esent.dll in 10.0.10240. |
-| JetAddColumn | Introduced into esent.dll in 10.0.16299. |
-| [JetAttachDatabase2](https://msdn.microsoft.com/en-us/library/ms683088.aspx) | Introduced into esent.dll in 10.0.16299. |
-| [JetBackupInstance](https://msdn.microsoft.com/en-us/library/ms683090.aspx) | Introduced into esent.dll in 10.0.16299. |
-| JetBeginSession | Introduced into esent.dll in 10.0.16299. |
-| [JetCreateDatabase2](https://msdn.microsoft.com/en-us/library/ms683116.aspx) | Introduced into esent.dll in 10.0.16299. |
-| [JetCreateInstance2](https://msdn.microsoft.com/en-us/library/ms683123.aspx) | Introduced into esent.dll in 10.0.16299. |
-| [JetDefragment2](https://msdn.microsoft.com/en-us/library/ms683257.aspx) | Introduced into esent.dll in 10.0.16299. |
-| [JetDeleteColumn2](https://msdn.microsoft.com/en-us/library/ms683378.aspx) | Introduced into esent.dll in 10.0.16299. |
-| JetDeleteIndex | Introduced into esent.dll in 10.0.16299. |
-| JetDeleteTable | Introduced into esent.dll in 10.0.16299. |
-| [JetDetachDatabase2](https://msdn.microsoft.com/en-us/library/ms683392.aspx) | Introduced into esent.dll in 10.0.16299. |
-| [JetGetColumnInfo](https://msdn.microsoft.com/en-us/library/ms683450.aspx) | Introduced into esent.dll in 10.0.16299. |
-| JetGetCurrentIndex | Introduced into esent.dll in 10.0.16299. |
-| [JetGetDatabaseFileInfo](https://msdn.microsoft.com/en-us/library/ms683466.aspx) | Introduced into esent.dll in 10.0.16299. |
-| [JetGetDatabaseInfo](https://msdn.microsoft.com/en-us/library/ms683471.aspx) | Introduced into esent.dll in 10.0.16299. |
-| [JetGetIndexInfo](https://msdn.microsoft.com/en-us/library/ms683480.aspx) | Introduced into esent.dll in 10.0.16299. |
-| JetGetObjectInfo | Introduced into esent.dll in 10.0.16299. |
-| JetGetSystemParameter | Introduced into esent.dll in 10.0.16299. |
-| [JetGetTableColumnInfo](https://msdn.microsoft.com/en-us/library/ms683538.aspx) | Introduced into esent.dll in 10.0.16299. |
-| [JetGetTableIndexInfo](https://msdn.microsoft.com/en-us/library/ms683540.aspx) | Introduced into esent.dll in 10.0.16299. |
-| JetGetTableInfo | Introduced into esent.dll in 10.0.16299. |
-| JetInit3 | Introduced into esent.dll in 10.0.16299. |
-| JetOpenDatabase | Introduced into esent.dll in 10.0.16299. |
-| JetOpenTable | Introduced into esent.dll in 10.0.16299. |
-| JetRenameColumn | Introduced into esent.dll in 10.0.16299. |
-| JetRenameTable | Introduced into esent.dll in 10.0.16299. |
-| [JetRestoreInstance](https://msdn.microsoft.com/en-us/library/ms684052.aspx) | Introduced into esent.dll in 10.0.16299. |
-| [JetSetCurrentIndex4](https://msdn.microsoft.com/en-us/library/ms684069.aspx) | Introduced into esent.dll in 10.0.16299. |
-| JetSetSystemParameter | Introduced into esent.dll in 10.0.16299. |
+| JetAddColumn | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetAttachDatabase2 | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetBackupInstance | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetBeginSession | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetCreateDatabase2 | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetCreateInstance2 | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetDefragment2 | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetDeleteColumn2 | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetDeleteIndex | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetDeleteTable | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetDetachDatabase2 | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetGetColumnInfo | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetGetCurrentIndex | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetGetDatabaseFileInfo | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetGetDatabaseInfo | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetGetIndexInfo | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetGetObjectInfo | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetGetSystemParameter | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetGetTableColumnInfo | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetGetTableIndexInfo | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetGetTableInfo | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetInit3 | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetOpenDatabase | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetOpenTable | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetRenameColumn | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetRenameTable | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetRestoreInstance | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetSetCurrentIndex4 | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetSetSystemParameter | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from hrtfapo.dll
@@ -1462,15 +1504,15 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [MFGetService](https://msdn.microsoft.com/en-us/library/windows/desktop/ms694284.aspx) | Introduced into mf.dll in 10.0.10240. |
 | [MFGetSystemId](https://msdn.microsoft.com/en-us/library/windows/desktop/hh162767.aspx) | Introduced into mf.dll in 10.0.10240. |
 | [MFLoadSignedLibrary](https://msdn.microsoft.com/en-us/library/windows/desktop/hh162769.aspx) | Introduced into mf.dll in 10.0.10240. |
-| [MFCreatePresentationClock](https://msdn.microsoft.com/en-us/library/ms702174.aspx) | Introduced into mf.dll in 10.0.15063. |
-| [MFCreateAudioRendererActivate](https://msdn.microsoft.com/en-us/library/ms702998.aspxh) | Introduced into mf.dll in 10.0.15063. |
-| [MFCreatePMPMediaSession](https://msdn.microsoft.com/en-us/library/ms703144.aspx) | Introduced into mf.dll in 10.0.15063. |
-| [MFCreateTopology](https://msdn.microsoft.com/en-us/library/ms701584.aspx) | Introduced into mf.dll in 10.0.15063. |
-| [MFCreateTopologyNode](https://msdn.microsoft.com/en-us/library/ms697574.aspx) | Introduced into mf.dll in 10.0.15063. |
-| [MFCreateASFContentInfo](https://msdn.microsoft.com/en-us/library/Bb970315.aspx) | Introduced into mf.dll in 10.0.16299. |
-| [MFCreateASFIndexer](https://msdn.microsoft.com/en-us/library/ms704561.aspx) | Introduced into mf.dll in 10.0.16299. |
-| [MFCreateASFIndexerByteStream](https://msdn.microsoft.com/en-us/library/Bb970563.aspx) | Introduced into mf.dll in 10.0.16299. |
-| [MFCreateASFSplitter](https://msdn.microsoft.com/en-us/library/Bb970321.aspx) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreateASFContentInfo](https://msdn.microsoft.com/de-de/library/Bb970315(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreateASFIndexer](https://msdn.microsoft.com/de-de/library/ms704561(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreateASFIndexerByteStream](https://msdn.microsoft.com/de-de/library/Bb970563(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreateASFSplitter](https://msdn.microsoft.com/de-de/library/Bb970321(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreateAudioRendererActivate](https://msdn.microsoft.com/de-de/library/ms702998(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreatePMPMediaSession](https://msdn.microsoft.com/de-de/library/ms703144(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreatePresentationClock](https://msdn.microsoft.com/de-de/library/ms702174(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreateTopology](https://msdn.microsoft.com/de-de/library/ms701584(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreateTopologyNode](https://msdn.microsoft.com/de-de/library/ms697574(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
 
 
 ## APIs from mfplat.dll
@@ -1531,9 +1573,9 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [MFUnlockWorkQueue](https://msdn.microsoft.com/en-us/library/windows/desktop/aa372543.aspx) | Introduced into mfplat.dll in 10.0.10240. |
 | [MFUnwrapMediaType](https://msdn.microsoft.com/en-us/library/windows/desktop/ms696190.aspx) | Introduced into mfplat.dll in 10.0.10240. |
 | [MFWrapMediaType](https://msdn.microsoft.com/en-us/library/windows/desktop/ms701782.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFTEnumEx](https://msdn.microsoft.com/en-us/library/Dd388652.aspx) | Introduced into mfplat.dll in 10.0.15063. |
-| [MFCreateSystemTimeSource](https://msdn.microsoft.com/en-us/library/ms705610.aspx) | Introduced into mfplat.dll in 10.0.15063. |
-| [MFScheduleWorkItemEx](https://msdn.microsoft.com/en-us/library/ms702259.aspx) | Introduced into mfplat.dll in 10.0.15063. |
+| [MFCreateSystemTimeSource](https://msdn.microsoft.com/de-de/library/ms705610(v=VS.85).aspx) | Introduced into mfplat.dll in 10.0.16299. |
+| [MFScheduleWorkItemEx](https://msdn.microsoft.com/de-de/library/ms702259(v=VS.85).aspx) | Introduced into mfplat.dll in 10.0.16299. |
+| [MFTEnumEx](https://msdn.microsoft.com/de-de/library/Dd388652(v=VS.85).aspx) | Introduced into mfplat.dll in 10.0.16299. |
 
 
 ## APIs from mfreadwrite.dll
@@ -1558,463 +1600,463 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [alljoyn_aboutdata_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_create_empty](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_create_full](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_createfrommsgarg](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_getaboutdata](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_getajsoftwareversion](https://docs.microsoft.com/en-us/scripting/chakra-hosting/jsoftwareversion-function) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_getannouncedaboutdata](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_getappid](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_getappname](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_getdateofmanufacture](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_getdefaultlanguage](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_getdescription](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_getdeviceid](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_getdevicename](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_getfield](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_getfields](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_getfieldsignature](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_gethardwareversion](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_getmanufacturer](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_getmodelnumber](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_getsoftwareversion](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_getsupportedlanguages](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_getsupporturl](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_isfieldannounced](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_isfieldlocalized](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_isfieldrequired](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_isvalid](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_setappid](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_setappid_fromstring](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_setappname](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_setdateofmanufacture](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_setdefaultlanguage](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_setdescription](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_setdeviceid](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_setdevicename](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_setfield](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_sethardwareversion](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_setmanufacturer](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_setmodelnumber](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_setsoftwareversion](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_setsupportedlanguage](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdata_setsupporturl](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdatalistener_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutdatalistener_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_abouticon_clear](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_abouticon_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_abouticon_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_abouticon_setcontent](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_abouticon_setcontent_frommsgarg](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_abouticon_seturl](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_abouticonobj_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_abouticonobj_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_abouticonproxy_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_abouticonproxy_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_abouticonproxy_geticon](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_abouticonproxy_getversion](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutlistener_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutlistener_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutobj_announce](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutobj_announce_using_datalistener](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutobj_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutobj_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutobj_unannounce](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutobjectdescription_clear](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutobjectdescription_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutobjectdescription_create_full](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutobjectdescription_createfrommsgarg](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutobjectdescription_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutobjectdescription_getinterfacepaths](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutobjectdescription_getinterfaces](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutobjectdescription_getmsgarg](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutobjectdescription_getpaths](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutobjectdescription_hasinterface](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutobjectdescription_hasinterfaceatpath](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutobjectdescription_haspath](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutproxy_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutproxy_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutproxy_getaboutdata](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutproxy_getobjectdescription](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_aboutproxy_getversion](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_authlistener_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_authlistener_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_authlistener_requestcredentialsresponse](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_authlistener_verifycredentialsresponse](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_authlistenerasync_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_authlistenerasync_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_addlogonentry](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_addmatch](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_advertisename](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_bindsessionport](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_canceladvertisename](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_cancelfindadvertisedname](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_cancelfindadvertisednamebytransport](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_cancelwhoimplements_interface](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_cancelwhoimplements_interfaces](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_clearkeys](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_clearkeystore](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_connect](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_create_concurrency](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_createinterface](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_createinterface_secure](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_createinterfacesfromxml](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_deleteinterface](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_disconnect](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_enableconcurrentcallbacks](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_enablepeersecurity](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_findadvertisedname](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_findadvertisednamebytransport](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_getalljoyndebugobj](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_getalljoynproxyobj](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_getconcurrency](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_getconnectspec](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_getdbusproxyobj](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_getglobalguidstring](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_getinterface](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_getinterfaces](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_getkeyexpiration](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_getpeerguid](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_gettimestamp](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_getuniquename](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_isconnected](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_ispeersecurityenabled](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_isstarted](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_isstopping](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_join](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_joinsession](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_joinsessionasync](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_leavesession](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_namehasowner](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_ping](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_registeraboutlistener](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_registerbuslistener](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_registerbusobject](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_registerbusobject_secure](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_registerkeystorelistener](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_registersignalhandler](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_registersignalhandlerwithrule](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_releasename](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_reloadkeystore](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_removematch](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_removesessionmember](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_requestname](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_setdaemondebug](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_setkeyexpiration](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_setlinktimeout](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_setlinktimeoutasync](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_setsessionlistener](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_start](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_stop](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_unbindsessionport](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_unregisteraboutlistener](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_unregisterallaboutlisteners](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_unregisterallhandlers](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_unregisterbuslistener](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_unregisterbusobject](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_unregistersignalhandler](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_unregistersignalhandlerwithrule](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_whoimplements_interface](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_whoimplements_interfaces](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_buslistener_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_buslistener_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busobject_addinterface](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busobject_addinterface_announced](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busobject_addmethodhandler](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busobject_addmethodhandlers](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busobject_cancelsessionlessmessage](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busobject_cancelsessionlessmessage_serial](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busobject_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busobject_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busobject_emitpropertieschanged](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busobject_emitpropertychanged](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busobject_getannouncedinterfacenames](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busobject_getbusattachment](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busobject_getname](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busobject_getpath](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busobject_issecure](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busobject_methodreply_args](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busobject_methodreply_err](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busobject_methodreply_status](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busobject_setannounceflag](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busobject_signal](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_credentials_clear](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_credentials_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_credentials_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_credentials_getcertchain](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_credentials_getexpiration](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_credentials_getlogonentry](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_credentials_getpassword](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_credentials_getprivateKey](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_credentials_getusername](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_credentials_isset](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_credentials_setcertchain](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_credentials_setexpiration](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_credentials_setlogonentry](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_credentials_setpassword](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_credentials_setprivatekey](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_credentials_setusername](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_getbuildinfo](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_getnumericversion](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_getversion](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_init](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_activate](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_addannotation](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_addmember](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_addmemberannotation](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_addmethod](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_addproperty](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_addpropertyannotation](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_addsignal](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_eql](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_getannotation](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_getannotationatindex](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_getannotationscount](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_getmember](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_getmemberannotation](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_getmembers](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_getmethod](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_getname](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_getproperties](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_getproperty](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_getpropertyannotation](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_getsecuritypolicy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_getsignal](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_hasmember](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_hasproperties](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_hasproperty](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_introspect](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_issecure](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_member_eql](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_member_getannotation](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_member_getannotationatindex](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_member_getannotationscount](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_property_eql](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_property_getannotation](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_property_getannotationatindex](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_property_getannotationscount](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_keystorelistener_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_keystorelistener_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_keystorelistener_getkeys](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_keystorelistener_putkeys](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_description](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_eql](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_getarg](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_getargs](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_getauthmechanism](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_getcallserial](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_getcompressiontoken](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_getdestination](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_geterrorname](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_getflags](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_getinterface](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_getmembername](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_getobjectpath](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_getreceiveendpointname](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_getreplyserial](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_getsender](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_getsessionid](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_getsignature](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_gettimestamp](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_gettype](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_isbroadcastsignal](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_isencrypted](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_isexpired](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_isglobalbroadcast](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_issessionless](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_isunreliable](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_parseargs](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_setendianess](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_message_tostring](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_array_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_array_element](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_array_get](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_array_set](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_array_set_offset](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_array_signature](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_array_tostring](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_clear](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_clone](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_copy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_create_and_set](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_equal](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_array_element](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_array_elementsignature](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_array_numberofelements](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_bool](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_bool_array](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_double](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_double_array](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_int16](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_int16_array](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_int32](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_int32_array](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_int64](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_int64_array](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_objectpath](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_signature](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_string](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_uint16](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_uint16_array](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_uint32](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_uint32_array](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_uint64](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_uint64_array](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_uint8](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_uint8_array](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_variant](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_get_variant_array](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_getdictelement](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_getkey](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_getmember](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_getnummembers](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_gettype](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_getvalue](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_hassignature](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_and_stabilize](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_bool](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_bool_array](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_double](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_double_array](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_int16](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_int16_array](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_int32](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_int32_array](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_int64](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_int64_array](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_objectpath](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_objectpath_array](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_signature](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_signature_array](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_string](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_string_array](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_uint16](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_uint16_array](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_uint32](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_uint32_array](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_uint64](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_uint64_array](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_uint8](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_set_uint8_array](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_setdictentry](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_setstruct](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_signature](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_stabilize](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_msgarg_tostring](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_observer_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_observer_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_observer_get](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_observer_getfirst](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_observer_getnext](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_observer_registerlistener](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_observer_unregisteralllisteners](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_observer_unregisterlistener](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_observerlistener_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_observerlistener_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_passwordmanager_setcredentials](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_addchild](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_addinterface](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_addinterface_by_name](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_copy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_create_secure](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_enablepropertycaching](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_getallproperties](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_getallpropertiesasync](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_getchild](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_getchildren](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_getinterface](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_getinterfaces](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_getpath](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_getproperty](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_getpropertyasync](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_getservicename](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_getsessionid](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_getuniquename](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_implementsinterface](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_introspectremoteobject](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_introspectremoteobjectasync](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_issecure](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_isvalid](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_methodcall](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_methodcall_member](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_methodcall_member_noreply](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_methodcall_noreply](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_methodcallasync](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_methodcallasync_member](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_parsexml](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_ref_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_ref_decref](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_ref_get](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_ref_incref](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_registerpropertieschangedlistener](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_removechild](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_secureconnection](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_secureconnectionasync](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_setproperty](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_setpropertyasync](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_proxybusobject_unregisterpropertieschangedlistener](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_sessionlistener_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_sessionlistener_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_sessionopts_cmp](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_sessionopts_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_sessionopts_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_sessionopts_get_multipoint](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_sessionopts_get_proximity](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_sessionopts_get_traffic](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_sessionopts_get_transports](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_sessionopts_iscompatible](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_sessionopts_set_multipoint](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_sessionopts_set_proximity](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_sessionopts_set_traffic](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_sessionopts_set_transports](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_sessionportlistener_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_sessionportlistener_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_shutdown](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_unity_deferred_callbacks_process](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_unity_set_deferred_callback_mainthread_only](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [AllJoynCloseBusHandle](https://msdn.microsoft.com/en-us/library/Mt270088.aspx) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [AllJoynConnectToBus](https://msdn.microsoft.com/en-us/library/Mt270089.aspx) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [AllJoynEnumEvents](https://msdn.microsoft.com/en-us/library/Mt270090.aspx) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [AllJoynEventSelect](https://msdn.microsoft.com/en-us/library/Mt270091.aspx) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [AllJoynReceiveFromBus](https://msdn.microsoft.com/en-us/library/Mt270092.aspx) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [AllJoynSendToBus](https://msdn.microsoft.com/en-us/library/Mt270093.aspx) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [QCC_StatusText](https://msdn.microsoft.com/en-us/library/Mt186561.aspx) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_autopinger_adddestination](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_autopinger_addpinggroup](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_autopinger_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_autopinger_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_autopinger_pause](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_autopinger_removedestination](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_autopinger_removepinggroup](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_autopinger_resume](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_autopinger_setpinginterval](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_enablepeersecuritywithpermissionconfigurationlistener](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_secureconnection](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_secureconnectionasync](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_permissionconfigurationlistener_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_permissionconfigurationlistener_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_pinglistener_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
-| [alljoyn_pinglistener_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_create_empty | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_create_full | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_createfrommsgarg | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_getaboutdata | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_getajsoftwareversion | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_getannouncedaboutdata | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_getappid | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_getappname | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_getdateofmanufacture | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_getdefaultlanguage | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_getdescription | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_getdeviceid | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_getdevicename | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_getfield | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_getfields | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_getfieldsignature | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_gethardwareversion | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_getmanufacturer | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_getmodelnumber | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_getsoftwareversion | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_getsupportedlanguages | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_getsupporturl | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_isfieldannounced | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_isfieldlocalized | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_isfieldrequired | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_isvalid | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_setappid | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_setappid_fromstring | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_setappname | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_setdateofmanufacture | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_setdefaultlanguage | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_setdescription | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_setdeviceid | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_setdevicename | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_setfield | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_sethardwareversion | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_setmanufacturer | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_setmodelnumber | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_setsoftwareversion | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_setsupportedlanguage | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdata_setsupporturl | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdatalistener_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutdatalistener_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_abouticon_clear | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_abouticon_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_abouticon_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_abouticon_setcontent | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_abouticon_setcontent_frommsgarg | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_abouticon_seturl | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_abouticonobj_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_abouticonobj_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_abouticonproxy_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_abouticonproxy_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_abouticonproxy_geticon | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_abouticonproxy_getversion | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutlistener_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutlistener_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutobj_announce | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutobj_announce_using_datalistener | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutobj_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutobj_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutobj_unannounce | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutobjectdescription_clear | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutobjectdescription_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutobjectdescription_create_full | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutobjectdescription_createfrommsgarg | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutobjectdescription_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutobjectdescription_getinterfacepaths | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutobjectdescription_getinterfaces | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutobjectdescription_getmsgarg | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutobjectdescription_getpaths | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutobjectdescription_hasinterface | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutobjectdescription_hasinterfaceatpath | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutobjectdescription_haspath | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutproxy_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutproxy_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutproxy_getaboutdata | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutproxy_getobjectdescription | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_aboutproxy_getversion | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_authlistener_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_authlistener_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_authlistener_requestcredentialsresponse | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_authlistener_verifycredentialsresponse | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_authlistenerasync_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_authlistenerasync_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_addlogonentry | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_addmatch | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_advertisename | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_bindsessionport | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_canceladvertisename | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_cancelfindadvertisedname | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_cancelfindadvertisednamebytransport | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_cancelwhoimplements_interface | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_cancelwhoimplements_interfaces | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_clearkeys | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_clearkeystore | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_connect | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_create_concurrency | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_createinterface | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_createinterface_secure | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_createinterfacesfromxml | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_deleteinterface | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_disconnect | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_enableconcurrentcallbacks | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_enablepeersecurity | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_findadvertisedname | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_findadvertisednamebytransport | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_getalljoyndebugobj | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_getalljoynproxyobj | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_getconcurrency | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_getconnectspec | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_getdbusproxyobj | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_getglobalguidstring | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_getinterface | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_getinterfaces | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_getkeyexpiration | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_getpeerguid | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_gettimestamp | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_getuniquename | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_isconnected | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_ispeersecurityenabled | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_isstarted | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_isstopping | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_join | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_joinsession | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_joinsessionasync | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_leavesession | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_namehasowner | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_ping | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_registeraboutlistener | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_registerbuslistener | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_registerbusobject | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_registerbusobject_secure | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_registerkeystorelistener | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_registersignalhandler | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_registersignalhandlerwithrule | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_releasename | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_reloadkeystore | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_removematch | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_removesessionmember | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_requestname | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_setdaemondebug | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_setkeyexpiration | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_setlinktimeout | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_setlinktimeoutasync | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_setsessionlistener | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_start | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_stop | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_unbindsessionport | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_unregisteraboutlistener | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_unregisterallaboutlisteners | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_unregisterallhandlers | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_unregisterbuslistener | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_unregisterbusobject | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_unregistersignalhandler | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_unregistersignalhandlerwithrule | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_whoimplements_interface | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_whoimplements_interfaces | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_buslistener_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_buslistener_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busobject_addinterface | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busobject_addinterface_announced | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busobject_addmethodhandler | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busobject_addmethodhandlers | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busobject_cancelsessionlessmessage | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busobject_cancelsessionlessmessage_serial | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busobject_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busobject_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busobject_emitpropertieschanged | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busobject_emitpropertychanged | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busobject_getannouncedinterfacenames | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busobject_getbusattachment | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busobject_getname | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busobject_getpath | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busobject_issecure | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busobject_methodreply_args | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busobject_methodreply_err | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busobject_methodreply_status | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busobject_setannounceflag | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busobject_signal | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_credentials_clear | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_credentials_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_credentials_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_credentials_getcertchain | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_credentials_getexpiration | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_credentials_getlogonentry | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_credentials_getpassword | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_credentials_getprivateKey | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_credentials_getusername | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_credentials_isset | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_credentials_setcertchain | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_credentials_setexpiration | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_credentials_setlogonentry | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_credentials_setpassword | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_credentials_setprivatekey | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_credentials_setusername | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_getbuildinfo | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_getnumericversion | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_getversion | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_init | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_activate | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_addannotation | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_addmember | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_addmemberannotation | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_addmethod | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_addproperty | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_addpropertyannotation | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_addsignal | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_eql | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_getannotation | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_getannotationatindex | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_getannotationscount | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_getmember | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_getmemberannotation | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_getmembers | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_getmethod | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_getname | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_getproperties | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_getproperty | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_getpropertyannotation | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_getsecuritypolicy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_getsignal | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_hasmember | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_hasproperties | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_hasproperty | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_introspect | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_issecure | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_member_eql | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_member_getannotation | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_member_getannotationatindex | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_member_getannotationscount | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_property_eql | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_property_getannotation | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_property_getannotationatindex | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_property_getannotationscount | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_keystorelistener_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_keystorelistener_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_keystorelistener_getkeys | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_keystorelistener_putkeys | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_description | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_eql | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_getarg | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_getargs | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_getauthmechanism | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_getcallserial | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_getcompressiontoken | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_getdestination | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_geterrorname | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_getflags | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_getinterface | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_getmembername | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_getobjectpath | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_getreceiveendpointname | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_getreplyserial | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_getsender | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_getsessionid | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_getsignature | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_gettimestamp | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_gettype | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_isbroadcastsignal | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_isencrypted | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_isexpired | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_isglobalbroadcast | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_issessionless | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_isunreliable | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_parseargs | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_setendianess | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_message_tostring | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_array_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_array_element | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_array_get | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_array_set | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_array_set_offset | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_array_signature | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_array_tostring | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_clear | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_clone | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_copy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_create_and_set | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_equal | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_array_element | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_array_elementsignature | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_array_numberofelements | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_bool | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_bool_array | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_double | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_double_array | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_int16 | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_int16_array | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_int32 | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_int32_array | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_int64 | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_int64_array | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_objectpath | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_signature | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_string | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_uint16 | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_uint16_array | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_uint32 | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_uint32_array | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_uint64 | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_uint64_array | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_uint8 | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_uint8_array | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_variant | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_get_variant_array | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_getdictelement | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_getkey | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_getmember | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_getnummembers | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_gettype | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_getvalue | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_hassignature | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_and_stabilize | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_bool | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_bool_array | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_double | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_double_array | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_int16 | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_int16_array | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_int32 | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_int32_array | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_int64 | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_int64_array | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_objectpath | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_objectpath_array | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_signature | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_signature_array | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_string | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_string_array | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_uint16 | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_uint16_array | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_uint32 | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_uint32_array | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_uint64 | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_uint64_array | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_uint8 | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_set_uint8_array | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_setdictentry | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_setstruct | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_signature | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_stabilize | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_msgarg_tostring | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_observer_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_observer_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_observer_get | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_observer_getfirst | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_observer_getnext | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_observer_registerlistener | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_observer_unregisteralllisteners | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_observer_unregisterlistener | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_observerlistener_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_observerlistener_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_passwordmanager_setcredentials | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_addchild | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_addinterface | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_addinterface_by_name | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_copy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_create_secure | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_enablepropertycaching | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_getallproperties | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_getallpropertiesasync | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_getchild | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_getchildren | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_getinterface | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_getinterfaces | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_getpath | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_getproperty | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_getpropertyasync | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_getservicename | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_getsessionid | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_getuniquename | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_implementsinterface | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_introspectremoteobject | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_introspectremoteobjectasync | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_issecure | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_isvalid | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_methodcall | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_methodcall_member | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_methodcall_member_noreply | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_methodcall_noreply | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_methodcallasync | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_methodcallasync_member | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_parsexml | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_ref_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_ref_decref | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_ref_get | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_ref_incref | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_registerpropertieschangedlistener | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_removechild | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_secureconnection | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_secureconnectionasync | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_setproperty | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_setpropertyasync | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_proxybusobject_unregisterpropertieschangedlistener | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_sessionlistener_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_sessionlistener_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_sessionopts_cmp | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_sessionopts_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_sessionopts_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_sessionopts_get_multipoint | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_sessionopts_get_proximity | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_sessionopts_get_traffic | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_sessionopts_get_transports | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_sessionopts_iscompatible | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_sessionopts_set_multipoint | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_sessionopts_set_proximity | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_sessionopts_set_traffic | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_sessionopts_set_transports | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_sessionportlistener_create | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_sessionportlistener_destroy | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_shutdown | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_unity_deferred_callbacks_process | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_unity_set_deferred_callback_mainthread_only | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| [AllJoynCloseBusHandle](https://msdn.microsoft.com/en-us/library/Mt270088(v=VS.85).aspx) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| [AllJoynConnectToBus](https://msdn.microsoft.com/en-us/library/Mt270089(v=VS.85).aspx) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| [AllJoynEnumEvents](https://msdn.microsoft.com/en-us/library/Mt270090(v=VS.85).aspx) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| [AllJoynEventSelect](https://msdn.microsoft.com/en-us/library/Mt270091(v=VS.85).aspx) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| [AllJoynReceiveFromBus](https://msdn.microsoft.com/en-us/library/Mt270092(v=VS.85).aspx) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| [AllJoynSendToBus](https://msdn.microsoft.com/en-us/library/Mt270093(v=VS.85).aspx) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| [QCC_StatusText](https://msdn.microsoft.com/en-us/library/Mt186561(v=VS.85).aspx) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_autopinger_adddestination | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_autopinger_addpinggroup | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_autopinger_create | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_autopinger_destroy | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_autopinger_pause | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_autopinger_removedestination | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_autopinger_removepinggroup | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_autopinger_resume | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_autopinger_setpinginterval | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_enablepeersecuritywithpermissionconfigurationlistener | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_secureconnection | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_secureconnectionasync | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_permissionconfigurationlistener_create | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_permissionconfigurationlistener_destroy | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_pinglistener_create | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
+| alljoyn_pinglistener_destroy | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
 
 
 ## APIs from mscoree.dll
 
 | API | Requirements |
 | -----| --------------|
-| _CorDllMain | Introduced into mscoree.dll in 10.0.10240. Removed in 10.0.15063. |
-| _CorExeMain | Introduced into mscoree.dll in 10.0.10240. Removed in 10.0.15063. |
+| [_CorDllMain](https://msdn.microsoft.com/de-de/library/9yk0t8cf(v=VS.85).aspx) | Introduced into mscoree.dll in 10.0.10240. Removed in 10.0.16299. |
+| [_CorExeMain](https://msdn.microsoft.com/de-de/library/xh0859k0(v=VS.85).aspx) | Introduced into mscoree.dll in 10.0.10240. Removed in 10.0.16299. |
 | [MetaDataGetDispenser](https://msdn.microsoft.com/en-us/library/windows/desktop/br229853.aspx) | Introduced into mscoree.dll in 10.0.10240. Moved into rometadata.dll in 10.0.10586. |
 
 
@@ -2119,25 +2161,25 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | API | Requirements |
 | -----| --------------|
 | [BSTR_UserFree](https://msdn.microsoft.com/en-us/library/windows/desktop/ms644523.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [BSTR_UserFree64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh309490.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
+| [BSTR_UserFree64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh309490.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
 | [BSTR_UserMarshal](https://msdn.microsoft.com/en-us/library/windows/desktop/ms644509.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [BSTR_UserMarshal64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh309491.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
+| [BSTR_UserMarshal64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh309491.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
 | [BSTR_UserSize](https://msdn.microsoft.com/en-us/library/windows/desktop/ms644365.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [BSTR_UserSize64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh309492.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
+| [BSTR_UserSize64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh309492.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
 | [BSTR_UserUnmarshal](https://msdn.microsoft.com/en-us/library/windows/desktop/ms644522.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [BSTR_UserUnmarshal64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh309493.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
+| [BSTR_UserUnmarshal64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh309493.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
 | [DispInvoke](https://msdn.microsoft.com/en-us/library/windows/desktop/ms221366.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
 | [LPSAFEARRAY_Marshal](https://msdn.microsoft.com/en-us/library/windows/desktop/ms644537.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
 | [LPSAFEARRAY_Size](https://msdn.microsoft.com/en-us/library/windows/desktop/ms644517.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
 | [LPSAFEARRAY_Unmarshal](https://msdn.microsoft.com/en-us/library/windows/desktop/ms644390.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
 | [LPSAFEARRAY_UserFree](https://msdn.microsoft.com/en-us/library/windows/desktop/ms644504.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [LPSAFEARRAY_UserFree64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh768285.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
+| [LPSAFEARRAY_UserFree64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh768285.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
 | [LPSAFEARRAY_UserMarshal](https://msdn.microsoft.com/en-us/library/windows/desktop/ms644398.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [LPSAFEARRAY_UserMarshal64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh768286.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
+| [LPSAFEARRAY_UserMarshal64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh768286.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
 | [LPSAFEARRAY_UserSize](https://msdn.microsoft.com/en-us/library/windows/desktop/ms644399.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [LPSAFEARRAY_UserSize64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh768287.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
+| [LPSAFEARRAY_UserSize64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh768287.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
 | [LPSAFEARRAY_UserUnmarshal](https://msdn.microsoft.com/en-us/library/windows/desktop/ms644503.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [LPSAFEARRAY_UserUnmarshal64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh768288.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
+| [LPSAFEARRAY_UserUnmarshal64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh768288.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
 | [SafeArrayAccessData](https://msdn.microsoft.com/en-us/library/windows/desktop/ms221620.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
 | [SafeArrayAllocData](https://msdn.microsoft.com/en-us/library/windows/desktop/ms221468.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
 | [SafeArrayAllocDescriptor](https://msdn.microsoft.com/en-us/library/windows/desktop/ms221407.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
@@ -2352,13 +2394,13 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [VarI8FromUI4](https://msdn.microsoft.com/en-us/library/windows/desktop/ms644513.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
 | [VarI8FromUI8](https://msdn.microsoft.com/en-us/library/windows/desktop/ms644524.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
 | [VARIANT_UserFree](https://msdn.microsoft.com/en-us/library/windows/desktop/ms644359.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VARIANT_UserFree64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh309497.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VARIANT_UserFree64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh309497.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
 | [VARIANT_UserMarshal](https://msdn.microsoft.com/en-us/library/windows/desktop/ms644368.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VARIANT_UserMarshal64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh309498.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VARIANT_UserMarshal64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh309498.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
 | [VARIANT_UserSize](https://msdn.microsoft.com/en-us/library/windows/desktop/ms644387.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VARIANT_UserSize64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh309499.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VARIANT_UserSize64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh309499.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
 | [VARIANT_UserUnmarshal](https://msdn.microsoft.com/en-us/library/windows/desktop/ms644534.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VARIANT_UserUnmarshal64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh309500.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VARIANT_UserUnmarshal64](https://msdn.microsoft.com/en-us/library/windows/desktop/hh309500.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
 | [VariantChangeType](https://msdn.microsoft.com/en-us/library/windows/desktop/ms221258.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
 | [VariantChangeTypeEx](https://msdn.microsoft.com/en-us/library/windows/desktop/ms221634.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
 | [VariantClear](https://msdn.microsoft.com/en-us/library/windows/desktop/ms221165.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
@@ -2485,21 +2527,21 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [PropVariantCompareEx](https://msdn.microsoft.com/en-us/library/windows/desktop/bb776517.aspx) | Introduced into propsys.dll in 10.0.10240. |
 | [PropVariantToWinRTPropertyValue](https://msdn.microsoft.com/en-us/library/windows/desktop/dn313197.aspx) | Introduced into propsys.dll in 10.0.10240. |
 | [WinRTPropertyValueToPropVariant](https://msdn.microsoft.com/en-us/library/windows/desktop/dn313198.aspx) | Introduced into propsys.dll in 10.0.10240. |
-| [PSCreateMemoryPropertyStore](https://msdn.microsoft.com/en-us/library/ms647446.aspx) | Introduced into propsys.dll in 10.0.15063. |
-| [PropVariantChangeType](https://msdn.microsoft.com/en-us/library/ms648136.aspx) | Introduced into propsys.dll in 10.0.15063. |
-| [PropVariantToStringAlloc](https://msdn.microsoft.com/en-us/library/Aa969050.aspx) | Introduced into propsys.dll in 10.0.15063. |
-| [PropVariantToStringWithDefault](https://msdn.microsoft.com/en-us/library/Aa969152.aspx) | Introduced into propsys.dll in 10.0.15063. |
-| [PropVariantToBoolean](https://msdn.microsoft.com/en-us/library/ms648171.aspx) | Introduced into propsys.dll in 10.0.15063. |
-| [PropVariantToGUID](https://msdn.microsoft.com/en-us/library/ms648203.aspx) | Introduced into propsys.dll in 10.0.15063. |
-| [PropVariantToVariant](https://msdn.microsoft.com/en-us/library/Bb529975.aspx) | Introduced into propsys.dll in 10.0.15063. |
-| [VariantToPropVariant](https://msdn.microsoft.com/en-us/library/Bb529976.aspx) | Introduced into propsys.dll in 10.0.15063. |
-| [InitVariantFromBuffer](https://msdn.microsoft.com/en-us/library/ms648093.aspx) | Introduced into propsys.dll in 10.0.15063. |
-| [PropVariantToBSTR](https://msdn.microsoft.com/en-us/library/ms648179.aspx) | Introduced into propsys.dll in 10.0.15063. |
-| [PSCreateAdapterFromPropertyStore](https://msdn.microsoft.com/en-us/library/ms647443.aspx) | Introduced into propsys.dll in 10.0.15063. |
-| [PSCreatePropertyStoreFromObject](https://msdn.microsoft.com/en-us/library/ms647449.aspx) | Introduced into propsys.dll in 10.0.15063. |
-| [InitPropVariantFromCLSID](https://msdn.microsoft.com/en-us/library/ms647963.aspx) | Introduced into propsys.dll in 10.0.15063. |
-| [InitPropVariantFromFileTime](https://msdn.microsoft.com/en-us/library/ms647966.aspx) | Introduced into propsys.dll in 10.0.15063. |
-| [VariantToGUID](https://msdn.microsoft.com/en-us/library/ms648318.aspx) | Introduced into propsys.dll in 10.0.15063. |
+| [InitPropVariantFromCLSID](https://msdn.microsoft.com/en-us/library/Bb762290(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
+| [InitPropVariantFromFileTime](https://msdn.microsoft.com/en-us/library/Bb762293(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
+| [InitVariantFromBuffer](https://msdn.microsoft.com/en-us/library/Bb762318(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
+| [PropVariantChangeType](https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
+| [PropVariantToBoolean](https://msdn.microsoft.com/en-us/library/Bb776531(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
+| [PropVariantToBSTR](https://msdn.microsoft.com/en-us/library/Bb776535(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
+| [PropVariantToGUID](https://msdn.microsoft.com/en-us/library/Bb776545(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
+| [PropVariantToStringAlloc](https://msdn.microsoft.com/en-us/library/Bb776560(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
+| [PropVariantToStringWithDefault](https://msdn.microsoft.com/en-us/library/Bb776563(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
+| [PropVariantToVariant](https://msdn.microsoft.com/en-us/library/Bb776577(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
+| [PSCreateAdapterFromPropertyStore](https://msdn.microsoft.com/en-us/library/Bb776487(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
+| [PSCreateMemoryPropertyStore](https://msdn.microsoft.com/en-us/library/Bb776489(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
+| [PSCreatePropertyStoreFromObject](https://msdn.microsoft.com/en-us/library/Bb776492(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
+| [VariantToGUID](https://msdn.microsoft.com/en-us/library/Bb776603(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
+| [VariantToPropVariant](https://msdn.microsoft.com/en-us/library/Bb776616(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
 
 
 ## APIs from rpcrt4.dll
@@ -2520,9 +2562,9 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [IUnknown_AddRef_Proxy](https://msdn.microsoft.com/en-us/library/windows/desktop/aa373957.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | [IUnknown_QueryInterface_Proxy](https://msdn.microsoft.com/en-us/library/windows/desktop/aa373958.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | [IUnknown_Release_Proxy](https://msdn.microsoft.com/en-us/library/windows/desktop/aa373959.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [Ndr64AsyncClientCall](https://msdn.microsoft.com/en-us/library/windows/desktop/mt728979.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| Ndr64AsyncServerCall64 | Introduced into rpcrt4.dll in 10.0.10240. |
-| [Ndr64AsyncServerCallAll](https://msdn.microsoft.com/en-us/library/windows/desktop/mt728980.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [Ndr64AsyncClientCall](https://msdn.microsoft.com/en-us/library/windows/desktop/mt728979.aspx) | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
+| Ndr64AsyncServerCall64 | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
+| [Ndr64AsyncServerCallAll](https://msdn.microsoft.com/en-us/library/windows/desktop/mt728980.aspx) | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
 | NdrAllocate | Introduced into rpcrt4.dll in 10.0.10240. |
 | [NdrAsyncClientCall](https://msdn.microsoft.com/en-us/library/windows/desktop/aa374207.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | [NdrAsyncServerCall](https://msdn.microsoft.com/en-us/library/windows/desktop/mt728981.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
@@ -2533,28 +2575,28 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | NDRCContextBinding | Introduced into rpcrt4.dll in 10.0.10240. |
 | NDRCContextMarshall | Introduced into rpcrt4.dll in 10.0.10240. |
 | NDRCContextUnmarshall | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrClearOutParameters](https://msdn.microsoft.com/en-us/library/Aa374209.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrClearOutParameters](https://msdn.microsoft.com/en-us/library/Aa374209(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | [NdrClientCall2](https://msdn.microsoft.com/en-us/library/windows/desktop/aa374215.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrClientCall3](https://msdn.microsoft.com/en-us/library/windows/desktop/mt712330.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrClientCall3](https://msdn.microsoft.com/en-us/library/windows/desktop/mt712330.aspx) | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
 | NdrClientContextMarshall | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrClientContextUnmarshall | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrClientInitialize | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrClientInitializeNew | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrComplexArrayBufferSize](https://msdn.microsoft.com/en-us/library/Bb432364.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrComplexArrayBufferSize](https://msdn.microsoft.com/en-us/library/Bb432364(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrComplexArrayFree | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrComplexArrayMarshall](https://msdn.microsoft.com/en-us/library/Bb432365.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrComplexArrayMarshall](https://msdn.microsoft.com/en-us/library/Bb432365(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrComplexArrayMemorySize | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrComplexArrayUnmarshall](https://msdn.microsoft.com/en-us/library/Bb432366.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrComplexStructBufferSize](https://msdn.microsoft.com/en-us/library/Bb432367.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrComplexArrayUnmarshall](https://msdn.microsoft.com/en-us/library/Bb432366(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrComplexStructBufferSize](https://msdn.microsoft.com/en-us/library/Bb432367(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrComplexStructFree | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrComplexStructMarshall](https://msdn.microsoft.com/en-us/library/Bb432368.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrComplexStructMarshall](https://msdn.microsoft.com/en-us/library/Bb432368(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrComplexStructMemorySize | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrComplexStructUnmarshall](https://msdn.microsoft.com/en-us/library/Bb432369.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| NdrConformantArrayBufferSize | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrComplexStructUnmarshall](https://msdn.microsoft.com/en-us/library/Bb432369(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrConformantArrayBufferSize](https://msdn.microsoft.com/en-us/library/Bb432362(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrConformantArrayFree | Introduced into rpcrt4.dll in 10.0.10240. |
-| NdrConformantArrayMarshall | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrConformantArrayMarshall](https://msdn.microsoft.com/en-us/library/Bb432363(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrConformantArrayMemorySize | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrConformantArrayUnmarshall](https://msdn.microsoft.com/en-us/library/Aa374216.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrConformantArrayUnmarshall](https://msdn.microsoft.com/en-us/library/Aa374216(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | [NdrConformantStringBufferSize](https://msdn.microsoft.com/en-us/library/windows/desktop/aa374220.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | [NdrConformantStringMarshall](https://msdn.microsoft.com/en-us/library/windows/desktop/aa374223.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrConformantStringMemorySize | Introduced into rpcrt4.dll in 10.0.10240. |
@@ -2576,7 +2618,7 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | NdrConformantVaryingStructUnmarshall | Introduced into rpcrt4.dll in 10.0.10240. |
 | [NdrContextHandleInitialize](https://msdn.microsoft.com/en-us/library/windows/desktop/aa374229.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | [NdrContextHandleSize](https://msdn.microsoft.com/en-us/library/windows/desktop/aa374236.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrConvert](https://msdn.microsoft.com/en-us/library/Aa374239.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrConvert](https://msdn.microsoft.com/en-us/library/Aa374239(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrConvert2 | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrCorrelationFree | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrCorrelationInitialize | Introduced into rpcrt4.dll in 10.0.10240. |
@@ -2649,8 +2691,8 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | NDRSContextUnmarshallEx | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrSendReceive | Introduced into rpcrt4.dll in 10.0.10240. |
 | [NdrServerCall2](https://msdn.microsoft.com/en-us/library/windows/desktop/mt728982.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrServerCallAll](https://msdn.microsoft.com/en-us/library/windows/desktop/mt728983.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| NdrServerCallNdr64 | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrServerCallAll](https://msdn.microsoft.com/en-us/library/windows/desktop/mt728983.aspx) | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
+| NdrServerCallNdr64 | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
 | NdrServerContextMarshall | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrServerContextNewMarshall | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrServerContextNewUnmarshall | Introduced into rpcrt4.dll in 10.0.10240. |
@@ -2660,22 +2702,22 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | NdrServerInitializeNew | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrServerInitializePartial | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrServerInitializeUnmarshall | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrSimpleStructBufferSize](https://msdn.microsoft.com/en-us/library/Bb432370.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrSimpleStructBufferSize](https://msdn.microsoft.com/en-us/library/Bb432370(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrSimpleStructFree | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrSimpleStructMarshall](https://msdn.microsoft.com/en-us/library/Bb432371.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrSimpleStructMarshall](https://msdn.microsoft.com/en-us/library/Bb432371(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrSimpleStructMemorySize | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrSimpleStructUnmarshall](https://msdn.microsoft.com/en-us/library/Bb432372.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrSimpleStructUnmarshall](https://msdn.microsoft.com/en-us/library/Bb432372(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | [NdrSimpleTypeMarshall](https://msdn.microsoft.com/en-us/library/windows/desktop/aa374313.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | [NdrSimpleTypeUnmarshall](https://msdn.microsoft.com/en-us/library/windows/desktop/aa374315.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | [NdrStubCall2](https://msdn.microsoft.com/en-us/library/windows/desktop/aa374317.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrStubCall3](https://msdn.microsoft.com/en-us/library/windows/desktop/mt728984.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrStubCall3](https://msdn.microsoft.com/en-us/library/windows/desktop/mt728984.aspx) | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
 | [NdrStubForwardingFunction](https://msdn.microsoft.com/en-us/library/windows/desktop/aa374320.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | [NdrUserMarshalBufferSize](https://msdn.microsoft.com/en-us/library/windows/desktop/aa374329.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | [NdrUserMarshalFree](https://msdn.microsoft.com/en-us/library/windows/desktop/aa374332.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | [NdrUserMarshalMarshall](https://msdn.microsoft.com/en-us/library/windows/desktop/aa374334.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrUserMarshalMemorySize | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrUserMarshalSimpleTypeConvert | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrUserMarshalUnmarshall](https://msdn.microsoft.com/en-us/library/Bb432373.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrUserMarshalUnmarshall](https://msdn.microsoft.com/en-us/library/Bb432373(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrVaryingArrayBufferSize | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrVaryingArrayFree | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrVaryingArrayMarshall | Introduced into rpcrt4.dll in 10.0.10240. |
@@ -2706,105 +2748,107 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [RpcSsSetThreadHandle](https://msdn.microsoft.com/en-us/library/windows/desktop/aa378478.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | [RpcSsSwapClientAllocFree](https://msdn.microsoft.com/en-us/library/windows/desktop/aa378479.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
 | [RpcUserFree](https://msdn.microsoft.com/en-us/library/windows/desktop/mt297501.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [UuidCreate](https://msdn.microsoft.com/en-us/library/Aa379205.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcAsyncAbortCall](https://msdn.microsoft.com/en-us/library/Aa375565.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcAsyncCompleteCall](https://msdn.microsoft.com/en-us/library/Aa375572.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcAsyncInitializeHandle](https://msdn.microsoft.com/en-us/library/Aa375578.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingFree](https://msdn.microsoft.com/en-us/library/Aa375588.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingSetOption](https://msdn.microsoft.com/en-us/library/Aa375611.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingToStringBindingW](https://msdn.microsoft.com/en-us/library/Aa375612.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcRaiseException](https://msdn.microsoft.com/en-us/library/Aa378429.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcStringBindingParseW](https://msdn.microsoft.com/en-us/library/Aa378482.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcStringFreeW](https://msdn.microsoft.com/en-us/library/Aa378483.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingFromStringBindingW](https://msdn.microsoft.com/en-us/library/Aa375590.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingSetAuthInfoExW](https://msdn.microsoft.com/en-us/library/Aa375608.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcEpResolveBinding](https://msdn.microsoft.com/en-us/library/Aa375645.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcMgmtInqStats](https://msdn.microsoft.com/en-us/library/Aa375759.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcStringBindingComposeW](https://msdn.microsoft.com/en-us/library/Aa378481.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcExceptionFilter](https://msdn.microsoft.com/en-us/library/JJ203733.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcAsyncCancelCall](https://msdn.microsoft.com/en-us/library/Aa375570.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [UuidFromStringW](https://msdn.microsoft.com/en-us/library/Aa379336.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [UuidToStringW](https://msdn.microsoft.com/en-us/library/Aa379352.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingBind](https://msdn.microsoft.com/en-us/library/Aa375583.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingCreateW](https://msdn.microsoft.com/en-us/library/Aa375587.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingSetAuthInfoA](https://msdn.microsoft.com/en-us/library/Aa375606.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingSetAuthInfoW](https://msdn.microsoft.com/en-us/library/Aa375606.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcStringFreeA](https://msdn.microsoft.com/en-us/library/Aa378483.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [UuidToStringA](https://msdn.microsoft.com/en-us/library/Aa379352.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [UuidCompare](https://msdn.microsoft.com/en-us/library/Aa379201.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcMgmtIsServerListening](https://msdn.microsoft.com/en-us/library/Aa375763.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcMgmtSetCancelTimeout](https://msdn.microsoft.com/en-us/library/Aa375771.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingUnbind](https://msdn.microsoft.com/en-us/library/Aa375613.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [UuidEqual](https://msdn.microsoft.com/en-us/library/Aa379329.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingInqObject](https://msdn.microsoft.com/en-us/library/Aa375598.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [UuidIsNil](https://msdn.microsoft.com/en-us/library/Aa379347.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingReset](https://msdn.microsoft.com/en-us/library/Aa375603.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcMgmtSetComTimeout](https://msdn.microsoft.com/en-us/library/Aa375779.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [UuidFromStringA](https://msdn.microsoft.com/en-us/library/Aa379336.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcMgmtInqServerPrincNameW](https://msdn.microsoft.com/en-us/library/Aa375756.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcNetworkIsProtseqValidW](https://msdn.microsoft.com/en-us/library/Aa375804.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcNetworkIsProtseqValidA](https://msdn.microsoft.com/en-us/library/Aa375804.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcAsyncGetCallStatus](https://msdn.microsoft.com/en-us/library/Aa375576.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingCopy](https://msdn.microsoft.com/en-us/library/Aa375585.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingInqAuthInfoExW](https://msdn.microsoft.com/en-us/library/Aa375595.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcErrorAddRecord](https://msdn.microsoft.com/en-us/library/Aa375658.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcErrorEndEnumeration](https://msdn.microsoft.com/en-us/library/Aa375664.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcErrorGetNextRecord](https://msdn.microsoft.com/en-us/library/Aa375668.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcErrorStartEnumeration](https://msdn.microsoft.com/en-us/library/Aa375686.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [UuidCreateSequential](https://msdn.microsoft.com/en-us/library/Aa379322.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [UuidHash](https://msdn.microsoft.com/en-us/library/Aa379343.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingFromStringBindingA](https://msdn.microsoft.com/en-us/library/Aa375590.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcStringBindingComposeA](https://msdn.microsoft.com/en-us/library/Aa378481.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingSetAuthInfoExA](https://msdn.microsoft.com/en-us/library/Aa375608.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [UuidCreateNil](https://msdn.microsoft.com/en-us/library/Aa379262.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingToStringBindingA](https://msdn.microsoft.com/en-us/library/Aa375612.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcTestCancel](https://msdn.microsoft.com/en-us/library/Aa378484.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingInqAuthInfoW](https://msdn.microsoft.com/en-us/library/Aa375593.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingSetObject](https://msdn.microsoft.com/en-us/library/Aa375609.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcErrorGetNumberOfRecords](https://msdn.microsoft.com/en-us/library/Aa375671.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcStringBindingParseA](https://msdn.microsoft.com/en-us/library/Aa378482.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingInqAuthInfoA](https://msdn.microsoft.com/en-us/library/Aa375593.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcErrorClearInformation](https://msdn.microsoft.com/en-us/library/Aa375661.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcErrorLoadErrorInfo](https://msdn.microsoft.com/en-us/library/Aa375677.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcErrorResetEnumeration](https://msdn.microsoft.com/en-us/library/Aa375679.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcErrorSaveErrorInfo](https://msdn.microsoft.com/en-us/library/Aa375684.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [DceErrorInqTextA](https://msdn.microsoft.com/en-us/library/Aa373623.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [DceErrorInqTextW](https://msdn.microsoft.com/en-us/library/Aa373623.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingCreateA](https://msdn.microsoft.com/en-us/library/Aa375587.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingInqAuthInfoExA](https://msdn.microsoft.com/en-us/library/Aa375595.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcBindingInqOption](https://msdn.microsoft.com/en-us/library/Aa375600.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
-| [RpcMgmtInqServerPrincNameA](https://msdn.microsoft.com/en-us/library/Aa375756.aspx) | Introduced into rpcrt4.dll in 10.0.15063. |
+| [UuidToStringW](https://msdn.microsoft.com/en-us/library/Aa379352(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [UuidToStringA](https://msdn.microsoft.com/en-us/library/Aa379352(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [UuidIsNil](https://msdn.microsoft.com/en-us/library/Aa379347(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [UuidHash](https://msdn.microsoft.com/en-us/library/Aa379343(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [UuidFromStringW](https://msdn.microsoft.com/en-us/library/Aa379336(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [UuidFromStringA](https://msdn.microsoft.com/en-us/library/Aa379336(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [UuidEqual](https://msdn.microsoft.com/en-us/library/Aa379329(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [UuidCreateSequential](https://msdn.microsoft.com/en-us/library/Aa379322(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [UuidCreateNil](https://msdn.microsoft.com/en-us/library/Aa379262(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [UuidCreate](https://msdn.microsoft.com/en-us/library/Aa379205(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [UuidCompare](https://msdn.microsoft.com/en-us/library/Aa379201(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcTestCancel](https://msdn.microsoft.com/en-us/library/Aa378484(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcStringFreeW](https://msdn.microsoft.com/en-us/library/Aa378483(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcStringFreeA](https://msdn.microsoft.com/en-us/library/Aa378483(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcStringBindingParseW](https://msdn.microsoft.com/en-us/library/Aa378482(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcStringBindingParseA](https://msdn.microsoft.com/en-us/library/Aa378482(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcStringBindingComposeW](https://msdn.microsoft.com/en-us/library/Aa378481(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcStringBindingComposeA](https://msdn.microsoft.com/en-us/library/Aa378481(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcRaiseException](https://msdn.microsoft.com/en-us/library/Aa378429(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcNetworkIsProtseqValidW](https://msdn.microsoft.com/en-us/library/Aa375804(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcNetworkIsProtseqValidA](https://msdn.microsoft.com/en-us/library/Aa375804(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcMgmtSetComTimeout](https://msdn.microsoft.com/en-us/library/Aa375779(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcMgmtSetCancelTimeout](https://msdn.microsoft.com/en-us/library/Aa375771(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcMgmtIsServerListening](https://msdn.microsoft.com/en-us/library/Aa375763(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcMgmtInqStats](https://msdn.microsoft.com/en-us/library/Aa375759(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcMgmtInqServerPrincNameW](https://msdn.microsoft.com/en-us/library/Aa375756(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcMgmtInqServerPrincNameA](https://msdn.microsoft.com/en-us/library/Aa375756(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcExceptionFilter](https://msdn.microsoft.com/en-us/library/JJ203733(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcErrorStartEnumeration](https://msdn.microsoft.com/en-us/library/Aa375686(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcErrorSaveErrorInfo](https://msdn.microsoft.com/en-us/library/Aa375684(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcErrorResetEnumeration](https://msdn.microsoft.com/en-us/library/Aa375679(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcErrorLoadErrorInfo](https://msdn.microsoft.com/en-us/library/Aa375677(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcErrorGetNumberOfRecords](https://msdn.microsoft.com/en-us/library/Aa375671(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcErrorGetNextRecord](https://msdn.microsoft.com/en-us/library/Aa375668(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcErrorEndEnumeration](https://msdn.microsoft.com/en-us/library/Aa375664(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcErrorClearInformation](https://msdn.microsoft.com/en-us/library/Aa375661(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcErrorAddRecord](https://msdn.microsoft.com/en-us/library/Aa375658(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcEpResolveBinding](https://msdn.microsoft.com/en-us/library/Aa375645(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingUnbind](https://msdn.microsoft.com/en-us/library/Aa375613(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingToStringBindingW](https://msdn.microsoft.com/en-us/library/Aa375612(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingToStringBindingA](https://msdn.microsoft.com/en-us/library/Aa375612(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingSetOption](https://msdn.microsoft.com/en-us/library/Aa375611(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingSetObject](https://msdn.microsoft.com/en-us/library/Aa375609(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingSetAuthInfoW](https://msdn.microsoft.com/en-us/library/Aa375606(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingSetAuthInfoExW](https://msdn.microsoft.com/en-us/library/Aa375608(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingSetAuthInfoExA](https://msdn.microsoft.com/en-us/library/Aa375608(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingSetAuthInfoA](https://msdn.microsoft.com/en-us/library/Aa375606(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingReset](https://msdn.microsoft.com/en-us/library/Aa375603(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingInqOption](https://msdn.microsoft.com/en-us/library/Aa375600(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingInqObject](https://msdn.microsoft.com/en-us/library/Aa375598(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingInqAuthInfoW](https://msdn.microsoft.com/en-us/library/Aa375593(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingInqAuthInfoExW](https://msdn.microsoft.com/en-us/library/Aa375595(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingInqAuthInfoExA](https://msdn.microsoft.com/en-us/library/Aa375595(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingInqAuthInfoA](https://msdn.microsoft.com/en-us/library/Aa375593(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingFromStringBindingW](https://msdn.microsoft.com/en-us/library/Aa375590(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingFromStringBindingA](https://msdn.microsoft.com/en-us/library/Aa375590(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingFree](https://msdn.microsoft.com/en-us/library/Aa375588(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingCreateW](https://msdn.microsoft.com/en-us/library/Aa375587(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingCreateA](https://msdn.microsoft.com/en-us/library/Aa375587(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingCopy](https://msdn.microsoft.com/en-us/library/Aa375585(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingBind](https://msdn.microsoft.com/en-us/library/Aa375583(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcAsyncInitializeHandle](https://msdn.microsoft.com/en-us/library/Aa375578(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcAsyncGetCallStatus](https://msdn.microsoft.com/en-us/library/Aa375576(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcAsyncCompleteCall](https://msdn.microsoft.com/en-us/library/Aa375572(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcAsyncCancelCall](https://msdn.microsoft.com/en-us/library/Aa375570(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcAsyncAbortCall](https://msdn.microsoft.com/en-us/library/Aa375565(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [NdrClientCall4](https://msdn.microsoft.com/en-us/library/windows/desktop/mt297484.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [NdrAsyncClientCall2](https://msdn.microsoft.com/en-us/library/windows/desktop/mt297483.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [DceErrorInqTextW](https://msdn.microsoft.com/en-us/library/Aa373623(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [DceErrorInqTextA](https://msdn.microsoft.com/en-us/library/Aa373623(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
 
 
 ## APIs from uiautomationcore.dll
 
 | API | Requirements |
 | -----| --------------|
-| [UiaClientsAreListening](https://msdn.microsoft.com/en-us/library/windows/desktop/ee671704.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-3.dll in 10.0.15063. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
-| [UiaDisconnectAllProviders](https://msdn.microsoft.com/en-us/library/windows/desktop/hh437311.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-3.dll in 10.0.15063. Moved into ext-ms-win-uiacore-l1-1-2.dll in 10.0.16299. |
-| [UiaDisconnectProvider](https://msdn.microsoft.com/en-us/library/windows/desktop/hh437312.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-3.dll in 10.0.15063. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
-| [UiaGetReservedMixedAttributeValue](https://msdn.microsoft.com/en-us/library/windows/desktop/ee684038.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-3.dll in 10.0.15063. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
-| [UiaGetReservedNotSupportedValue](https://msdn.microsoft.com/en-us/library/windows/desktop/ee684039.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-3.dll in 10.0.15063. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
-| [UiaHostProviderFromHwnd](https://msdn.microsoft.com/en-us/library/windows/desktop/ee684044.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-0.dll in 10.0.15063. |
+| [UiaClientsAreListening](https://msdn.microsoft.com/en-us/library/windows/desktop/ee671704.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
+| [UiaDisconnectAllProviders](https://msdn.microsoft.com/en-us/library/windows/desktop/hh437311.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-2.dll in 10.0.16299. |
+| [UiaDisconnectProvider](https://msdn.microsoft.com/en-us/library/windows/desktop/hh437312.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
+| [UiaGetReservedMixedAttributeValue](https://msdn.microsoft.com/en-us/library/windows/desktop/ee684038.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
+| [UiaGetReservedNotSupportedValue](https://msdn.microsoft.com/en-us/library/windows/desktop/ee684039.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
+| [UiaHostProviderFromHwnd](https://msdn.microsoft.com/en-us/library/windows/desktop/ee684044.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-0.dll in 10.0.16299. |
 | [UiaProviderForNonClient](https://msdn.microsoft.com/en-us/library/windows/desktop/hh437314.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. |
 | [UiaProviderFromIAccessible](https://msdn.microsoft.com/en-us/library/windows/desktop/hh437315.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. |
 | [UiaRaiseAsyncContentLoadedEvent](https://msdn.microsoft.com/en-us/library/windows/desktop/ee684061.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. |
-| [UiaRaiseAutomationEvent](https://msdn.microsoft.com/en-us/library/windows/desktop/ee684062.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-3.dll in 10.0.15063. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
-| [UiaRaiseAutomationPropertyChangedEvent](https://msdn.microsoft.com/en-us/library/windows/desktop/ee671601.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-3.dll in 10.0.15063. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
-| [UiaRaiseStructureChangedEvent](https://msdn.microsoft.com/en-us/library/windows/desktop/ee684063.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-3.dll in 10.0.15063. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
-| [UiaRaiseTextEditTextChangedEvent](https://msdn.microsoft.com/en-us/library/windows/desktop/dn302213.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-3.dll in 10.0.15063. Moved into ext-ms-win-uiacore-l1-1-2.dll in 10.0.16299. |
-| [UiaReturnRawElementProvider](https://msdn.microsoft.com/en-us/library/windows/desktop/ee684069.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-0.dll in 10.0.15063. |
-| [UiaRaiseChangesEvent](https://msdn.microsoft.com/en-us/library/windows/desktop/mt733044.aspx) | Introduced into uiautomationcore.dll in 10.0.14393. Moved into ext-ms-win-uiacore-l1-1-3.dll in 10.0.15063. |
+| [UiaRaiseAutomationEvent](https://msdn.microsoft.com/en-us/library/windows/desktop/ee684062.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
+| [UiaRaiseAutomationPropertyChangedEvent](https://msdn.microsoft.com/en-us/library/windows/desktop/ee671601.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
+| [UiaRaiseStructureChangedEvent](https://msdn.microsoft.com/en-us/library/windows/desktop/ee684063.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
+| [UiaRaiseTextEditTextChangedEvent](https://msdn.microsoft.com/en-us/library/windows/desktop/dn302213.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-2.dll in 10.0.16299. |
+| [UiaReturnRawElementProvider](https://msdn.microsoft.com/en-us/library/windows/desktop/ee684069.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-0.dll in 10.0.16299. |
+| [UiaRaiseChangesEvent](https://msdn.microsoft.com/en-us/library/windows/desktop/mt733044.aspx) | Introduced into uiautomationcore.dll in 10.0.14393. Moved into ext-ms-win-uiacore-l1-1-3.dll in 10.0.16299. |
 
 
 ## APIs from urlmon.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateUri](https://msdn.microsoft.com/en-us/library/windows/desktop/ms775098.aspx) | Introduced into urlmon.dll in 10.0.10240. Moved into ext-ms-win-core-iuri-l1-1-0.dll in 10.0.15063. |
-| [CreateUriWithFragment](https://msdn.microsoft.com/en-us/library/windows/desktop/ms775100.aspx) | Introduced into urlmon.dll in 10.0.10240. Moved into ext-ms-win-core-iuri-l1-1-0.dll in 10.0.15063. |
-| [UrlMkGetSessionOption](https://msdn.microsoft.com/en-us/library/ms879521.aspx) | Introduced into urlmon.dll in 10.0.15063. |
-| [UrlMkSetSessionOption](https://msdn.microsoft.com/en-us/library/ms879522.aspx) | Introduced into urlmon.dll in 10.0.15063. |
+| [CreateUri](https://msdn.microsoft.com/en-us/library/windows/desktop/ms775098.aspx) | Introduced into urlmon.dll in 10.0.10240. Moved into ext-ms-win-core-iuri-l1-1-0.dll in 10.0.16299. |
+| [CreateUriWithFragment](https://msdn.microsoft.com/en-us/library/windows/desktop/ms775100.aspx) | Introduced into urlmon.dll in 10.0.10240. Moved into ext-ms-win-core-iuri-l1-1-0.dll in 10.0.16299. |
+| [UrlMkGetSessionOption](https://msdn.microsoft.com/en-us/library/ms775124(v=VS.85).aspx) | Introduced into urlmon.dll in 10.0.16299. |
+| [UrlMkSetSessionOption](https://msdn.microsoft.com/en-us/library/ms775125(v=VS.85).aspx) | Introduced into urlmon.dll in 10.0.16299. |
 
 
 ## APIs from webservices.dll
@@ -2842,7 +2886,7 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [WsCreateXmlBuffer](https://msdn.microsoft.com/en-us/library/windows/desktop/dd430510.aspx) | Introduced into webservices.dll in 10.0.10240. |
 | [WsCreateXmlSecurityToken](https://msdn.microsoft.com/en-us/library/windows/desktop/dd430511.aspx) | Introduced into webservices.dll in 10.0.10240. |
 | [WsDateTimeToFileTime](https://msdn.microsoft.com/en-us/library/windows/desktop/dd430512.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsDecodeUrl](https://msdn.microsoft.com/en-us/library/Dd430513.aspx) | Introduced into webservices.dll in 10.0.10240. |
+| [WsDecodeUrl](https://msdn.microsoft.com/en-us/library/Dd430513(v=VS.85).aspx) | Introduced into webservices.dll in 10.0.10240. |
 | [WsEncodeUrl](https://msdn.microsoft.com/en-us/library/windows/desktop/dd430516.aspx) | Introduced into webservices.dll in 10.0.10240. |
 | [WsEndReaderCanonicalization](https://msdn.microsoft.com/en-us/library/windows/desktop/dd430517.aspx) | Introduced into webservices.dll in 10.0.10240. |
 | [WsEndWriterCanonicalization](https://msdn.microsoft.com/en-us/library/windows/desktop/dd430518.aspx) | Introduced into webservices.dll in 10.0.10240. |
@@ -3049,8 +3093,8 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [htons](https://msdn.microsoft.com/en-us/library/windows/desktop/ms738557.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
 | [inet_addr](https://msdn.microsoft.com/en-us/library/windows/desktop/ms738563.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
 | [inet_ntoa](https://msdn.microsoft.com/en-us/library/windows/desktop/ms738564.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [inet_ntop](https://msdn.microsoft.com/en-us/library/Cc805843.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [inet_pton](https://msdn.microsoft.com/en-us/library/Cc805844.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
+| inet_ntop | Introduced into ws2_32.dll in 10.0.10240. |
+| [inet_pton](https://msdn.microsoft.com/de-de/library/Cc805844(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.10240. |
 | [InetNtopW](https://msdn.microsoft.com/en-us/library/windows/desktop/cc805843.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
 | [InetPtonW](https://msdn.microsoft.com/en-us/library/windows/desktop/cc805844.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
 | [ioctlsocket](https://msdn.microsoft.com/en-us/library/windows/desktop/ms738573.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
@@ -3120,7 +3164,7 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [WSAStringToAddressA](https://msdn.microsoft.com/en-us/library/windows/desktop/ms742214.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
 | [WSAStringToAddressW](https://msdn.microsoft.com/en-us/library/windows/desktop/ms742214.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
 | [WSAWaitForMultipleEvents](https://msdn.microsoft.com/en-us/library/windows/desktop/ms742219.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [FreeAddrInfoEx](https://msdn.microsoft.com/en-us/library/ms737906.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
+| [FreeAddrInfoEx](https://msdn.microsoft.com/de-de/library/ms737906(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from xaudio2_9.dll
@@ -3139,13 +3183,13 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [XInputEnable](https://msdn.microsoft.com/en-us/library/windows/desktop/microsoft.directx_sdk.reference.xinputenable.aspx) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.15063. |
-| [XInputGetAudioDeviceIds](https://msdn.microsoft.com/en-us/library/windows/desktop/microsoft.directx_sdk.reference.xinputgetaudiodeviceids.aspx) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.15063. |
-| [XInputGetBatteryInformation](https://msdn.microsoft.com/en-us/library/windows/desktop/microsoft.directx_sdk.reference.xinputgetbatteryinformation.aspx) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.15063. |
-| [XInputGetCapabilities](https://msdn.microsoft.com/en-us/library/windows/desktop/microsoft.directx_sdk.reference.xinputgetcapabilities.aspx) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.15063. |
-| [XInputGetKeystroke](https://msdn.microsoft.com/en-us/library/windows/desktop/microsoft.directx_sdk.reference.xinputgetkeystroke.aspx) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.15063. |
-| [XInputGetState](https://msdn.microsoft.com/en-us/library/windows/desktop/microsoft.directx_sdk.reference.xinputgetstate.aspx) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.15063. |
-| [XInputSetState](https://msdn.microsoft.com/en-us/library/windows/desktop/microsoft.directx_sdk.reference.xinputsetstate.aspx) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.15063. |
+| [XInputEnable](https://msdn.microsoft.com/en-us/library/windows/desktop/microsoft.directx_sdk.reference.xinputenable.aspx) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.16299. Moved into xinputuap.dll in 10.0.17134. |
+| [XInputGetAudioDeviceIds](https://msdn.microsoft.com/en-us/library/windows/desktop/microsoft.directx_sdk.reference.xinputgetaudiodeviceids.aspx) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.16299. Moved into xinputuap.dll in 10.0.17134. |
+| [XInputGetBatteryInformation](https://msdn.microsoft.com/en-us/library/windows/desktop/microsoft.directx_sdk.reference.xinputgetbatteryinformation.aspx) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.16299. Moved into xinputuap.dll in 10.0.17134. |
+| [XInputGetCapabilities](https://msdn.microsoft.com/en-us/library/windows/desktop/microsoft.directx_sdk.reference.xinputgetcapabilities.aspx) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.16299. Moved into xinputuap.dll in 10.0.17134. |
+| [XInputGetKeystroke](https://msdn.microsoft.com/en-us/library/windows/desktop/microsoft.directx_sdk.reference.xinputgetkeystroke.aspx) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.16299. Moved into xinputuap.dll in 10.0.17134. |
+| [XInputGetState](https://msdn.microsoft.com/en-us/library/windows/desktop/microsoft.directx_sdk.reference.xinputgetstate.aspx) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.16299. Moved into xinputuap.dll in 10.0.17134. |
+| [XInputSetState](https://msdn.microsoft.com/en-us/library/windows/desktop/microsoft.directx_sdk.reference.xinputsetstate.aspx) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.16299. Moved into xinputuap.dll in 10.0.17134. |
 
 
 ## APIs from xmllite.dll
@@ -3165,9 +3209,9 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | API | Requirements |
 | -----| --------------|
 | [CompareFileTime](https://msdn.microsoft.com/en-us/library/windows/desktop/ms724214.aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetTempFileNameA](https://msdn.microsoft.com/en-us/library/ms891186.aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. |
-| [GetTempPathA](https://msdn.microsoft.com/en-us/library/ms891189.aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. |
-| [GetVolumeInformationA](https://msdn.microsoft.com/en-us/library/Aa364993.aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. |
+| [GetTempFileNameA](https://msdn.microsoft.com/en-us/library/Aa364991(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. |
+| [GetTempPathA](https://msdn.microsoft.com/en-us/library/Aa364992(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. |
+| [GetVolumeInformationA](https://msdn.microsoft.com/en-us/library/Aa364993(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-libraryloader-l1-2-1.dll
@@ -3181,19 +3225,19 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| BCryptCreateMultiHash | Introduced into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| BCryptProcessMultiOperations | Introduced into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptCreateMultiHash](https://msdn.microsoft.com/en-us/library/Mt845763(v=VS.85).aspx) | Introduced into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptProcessMultiOperations](https://msdn.microsoft.com/en-us/library/Mt845764(v=VS.85).aspx) | Introduced into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
 
 
 ## APIs from api-ms-win-core-featurestaging-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| GetFeatureEnabledState | Introduced into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.14393. Moved into api-ms-win-core-featurestaging-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.16299. |
-| RecordFeatureError | Introduced into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.14393. Moved into api-ms-win-core-featurestaging-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.16299. |
-| RecordFeatureUsage | Introduced into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.14393. Moved into api-ms-win-core-featurestaging-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.16299. |
-| SubscribeFeatureStateChangeNotification | Introduced into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.14393. Moved into api-ms-win-core-featurestaging-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.16299. |
-| UnsubscribeFeatureStateChangeNotification | Introduced into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.14393. Moved into api-ms-win-core-featurestaging-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.16299. |
+| [GetFeatureEnabledState](https://msdn.microsoft.com/en-us/library/Mt846395(v=VS.85).aspx) | Introduced into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.14393. |
+| [RecordFeatureError](https://msdn.microsoft.com/en-us/library/Mt846397(v=VS.85).aspx) | Introduced into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.14393. |
+| [RecordFeatureUsage](https://msdn.microsoft.com/en-us/library/Mt846398(v=VS.85).aspx) | Introduced into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.14393. |
+| [SubscribeFeatureStateChangeNotification](https://msdn.microsoft.com/en-us/library/Mt846399(v=VS.85).aspx) | Introduced into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.14393. |
+| [UnsubscribeFeatureStateChangeNotification](https://msdn.microsoft.com/en-us/library/Mt846400(v=VS.85).aspx) | Introduced into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.14393. |
 
 
 ## APIs from api-ms-win-core-heap-l2-1-0.dll
@@ -3212,20 +3256,20 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | API | Requirements |
 | -----| --------------|
 | [GlobalReAlloc](https://msdn.microsoft.com/en-us/library/windows/desktop/aa366590.aspx) | Introduced into api-ms-win-core-heap-obsolete-l1-1-0.dll in 10.0.14393. |
-| [GlobalLock](https://msdn.microsoft.com/en-us/library/Aa366584.aspx) | Introduced into api-ms-win-core-heap-obsolete-l1-1-0.dll in 10.0.15063. |
-| [GlobalUnlock](https://msdn.microsoft.com/en-us/library/Aa366595.aspx) | Introduced into api-ms-win-core-heap-obsolete-l1-1-0.dll in 10.0.15063. |
-| [GlobalSize](https://msdn.microsoft.com/en-us/library/Aa366593.aspx) | Introduced into api-ms-win-core-heap-obsolete-l1-1-0.dll in 10.0.15063. |
+| [GlobalLock](https://msdn.microsoft.com/en-us/library/Aa366584(v=VS.85).aspx) | Introduced into api-ms-win-core-heap-obsolete-l1-1-0.dll in 10.0.16299. |
+| [GlobalSize](https://msdn.microsoft.com/en-us/library/Aa366593(v=VS.85).aspx) | Introduced into api-ms-win-core-heap-obsolete-l1-1-0.dll in 10.0.16299. |
+| [GlobalUnlock](https://msdn.microsoft.com/en-us/library/Aa366595(v=VS.85).aspx) | Introduced into api-ms-win-core-heap-obsolete-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-psapi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| K32GetModuleInformation | Introduced into api-ms-win-core-psapi-l1-1-0.dll in 10.0.14393. |
-| K32GetProcessMemoryInfo | Introduced into api-ms-win-core-psapi-l1-1-0.dll in 10.0.14393. |
-| K32GetModuleFileNameExW | Introduced into api-ms-win-core-psapi-l1-1-0.dll in 10.0.15063. |
-| K32GetModuleBaseNameW | Introduced into api-ms-win-core-psapi-l1-1-0.dll in 10.0.15063. |
-| K32EnumProcesses | Introduced into api-ms-win-core-psapi-l1-1-0.dll in 10.0.16299. |
+| [K32GetModuleInformation](https://msdn.microsoft.com/en-us/library/ms683201(v=VS.85).aspx) | Introduced into api-ms-win-core-psapi-l1-1-0.dll in 10.0.14393. |
+| [K32GetProcessMemoryInfo](https://msdn.microsoft.com/en-us/library/ms683219(v=VS.85).aspx) | Introduced into api-ms-win-core-psapi-l1-1-0.dll in 10.0.14393. |
+| [K32EnumProcesses](https://msdn.microsoft.com/en-us/library/ms682629(v=VS.85).aspx) | Introduced into api-ms-win-core-psapi-l1-1-0.dll in 10.0.16299. |
+| [K32GetModuleBaseNameW](https://msdn.microsoft.com/en-us/library/ms683196(v=VS.85).aspx) | Introduced into api-ms-win-core-psapi-l1-1-0.dll in 10.0.16299. |
+| [K32GetModuleFileNameExW](https://msdn.microsoft.com/en-us/library/ms683198(v=VS.85).aspx) | Introduced into api-ms-win-core-psapi-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-slapi-l1-1-0.dll
@@ -3240,55 +3284,55 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [CheckGamingPrivilegeSilently](https://msdn.microsoft.com/en-us/library/Mt736759.aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-3.dll in 10.0.15063. Moved into api-ms-win-gaming-tcui-l1-1-1.dll in 10.0.16299. |
-| CheckGamingPrivilegeSilentlyForUser | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-3.dll in 10.0.15063. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.16299. |
-| [CheckGamingPrivilegeWithUI](https://msdn.microsoft.com/en-us/library/Mt736760.aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-3.dll in 10.0.15063. Moved into api-ms-win-gaming-tcui-l1-1-1.dll in 10.0.16299. |
-| CheckGamingPrivilegeWithUIForUser | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-3.dll in 10.0.15063. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.16299. |
-| ShowChangeFriendRelationshipUIForUser | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-3.dll in 10.0.15063. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.16299. |
-| ShowGameInviteUIForUser | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-3.dll in 10.0.15063. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.16299. |
-| ShowPlayerPickerUIForUser | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-3.dll in 10.0.15063. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.16299. |
-| ShowProfileCardUIForUser | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-3.dll in 10.0.15063. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.16299. |
-| ShowTitleAchievementsUIForUser | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-3.dll in 10.0.15063. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.16299. |
+| CheckGamingPrivilegeSilently | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-1.dll in 10.0.16299. |
+| CheckGamingPrivilegeSilentlyForUser | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. |
+| [CheckGamingPrivilegeWithUI](https://msdn.microsoft.com/en-us/library/Mt736760(v=VS.85).aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-1.dll in 10.0.16299. |
+| CheckGamingPrivilegeWithUIForUser | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. |
+| ShowChangeFriendRelationshipUIForUser | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. |
+| ShowGameInviteUIForUser | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. |
+| ShowPlayerPickerUIForUser | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. |
+| ShowProfileCardUIForUser | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. |
+| ShowTitleAchievementsUIForUser | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. |
 
 
 ## APIs from api-ms-win-security-base-l1-2-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CveEventWrite](https://msdn.microsoft.com/en-us/library/windows/desktop/mt759300.aspx) | Introduced into api-ms-win-security-base-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-security-base-l1-2-2.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-2-1.dll in 10.0.16299. |
+| [CveEventWrite](https://msdn.microsoft.com/en-us/library/windows/desktop/mt759300.aspx) | Introduced into api-ms-win-security-base-l1-2-1.dll in 10.0.14393. |
 
 
 ## APIs from inkobjcore.dll
 
 | API | Requirements |
 | -----| --------------|
-| [AddStroke](https://msdn.microsoft.com/en-us/library/ms695546.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [AddWordsToWordList](https://msdn.microsoft.com/en-us/library/ms700667.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [AdviseInkChange](https://msdn.microsoft.com/en-us/library/ms696411.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [CreateContext](https://msdn.microsoft.com/en-us/library/ms698176.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [CreateRecognizer](https://msdn.microsoft.com/en-us/library/ms702413.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [DestroyContext](https://msdn.microsoft.com/en-us/library/ms702394.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [DestroyRecognizer](https://msdn.microsoft.com/en-us/library/ms705335.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [DestroyWordList](https://msdn.microsoft.com/en-us/library/ms697342.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [EndInkInput](https://msdn.microsoft.com/en-us/library/ms704432.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [GetAllRecognizers](https://msdn.microsoft.com/en-us/library/Mt752491.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [GetBestResultString](https://msdn.microsoft.com/en-us/library/ms701193.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [GetLatticePtr](https://msdn.microsoft.com/en-us/library/ms698571.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [GetLeftSeparator](https://msdn.microsoft.com/en-us/library/Mt218779.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [GetRecoAttributes](https://msdn.microsoft.com/en-us/library/ms698123.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [GetResultPropertyList](https://msdn.microsoft.com/en-us/library/ms704360.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [GetRightSeparator](https://msdn.microsoft.com/en-us/library/Mt218780.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [GetUnicodeRanges](https://msdn.microsoft.com/en-us/library/ms698151.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [IsStringSupported](https://msdn.microsoft.com/en-us/library/ms702420.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [LoadCachedAttributes](https://msdn.microsoft.com/en-us/library/Mt752492.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [MakeWordList](https://msdn.microsoft.com/en-us/library/ms702408.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [Process](https://msdn.microsoft.com/en-us/library/ms698535(v=vs.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [SetEnabledUnicodeRanges](https://msdn.microsoft.com/en-us/library/ms699520.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [SetFactoid](https://msdn.microsoft.com/en-us/library/ms704885.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [SetFlags](https://msdn.microsoft.com/en-us/library/ms698610(v=vs.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [SetGuide](https://msdn.microsoft.com/en-us/library/ms697487.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [SetTextContext](https://msdn.microsoft.com/en-us/library/ms704873.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [SetWordList](https://msdn.microsoft.com/en-us/library/ms701660.aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [AddStroke](https://msdn.microsoft.com/en-us/library/ms695546(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [AddWordsToWordList](https://msdn.microsoft.com/en-us/library/ms700667(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [AdviseInkChange](https://msdn.microsoft.com/en-us/library/ms696411(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [CreateContext](https://msdn.microsoft.com/en-us/library/ms698176(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [CreateRecognizer](https://msdn.microsoft.com/en-us/library/ms702413(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [DestroyContext](https://msdn.microsoft.com/en-us/library/ms702394(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [DestroyRecognizer](https://msdn.microsoft.com/en-us/library/ms705335(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [DestroyWordList](https://msdn.microsoft.com/en-us/library/ms697342(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [EndInkInput](https://msdn.microsoft.com/en-us/library/ms704432(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [GetAllRecognizers](https://msdn.microsoft.com/en-us/library/Mt752491(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [GetBestResultString](https://msdn.microsoft.com/en-us/library/ms701193(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [GetLatticePtr](https://msdn.microsoft.com/en-us/library/ms698571(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [GetLeftSeparator](https://msdn.microsoft.com/en-us/library/Mt218779(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [GetRecoAttributes](https://msdn.microsoft.com/en-us/library/ms698123(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [GetResultPropertyList](https://msdn.microsoft.com/en-us/library/ms704360(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [GetRightSeparator](https://msdn.microsoft.com/en-us/library/Mt218780(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [GetUnicodeRanges](https://msdn.microsoft.com/en-us/library/ms698151(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [IsStringSupported](https://msdn.microsoft.com/en-us/library/ms702420(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [LoadCachedAttributes](https://msdn.microsoft.com/en-us/library/Mt752492(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [MakeWordList](https://msdn.microsoft.com/en-us/library/ms702408(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [Process](https://msdn.microsoft.com/en-us/library/Aa364092(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [SetEnabledUnicodeRanges](https://msdn.microsoft.com/en-us/library/ms699520(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [SetFactoid](https://msdn.microsoft.com/en-us/library/ms704885(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [SetFlags](https://msdn.microsoft.com/en-us/library/Dd378283(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [SetGuide](https://msdn.microsoft.com/en-us/library/ms697487(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [SetTextContext](https://msdn.microsoft.com/en-us/library/ms704873(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [SetWordList](https://msdn.microsoft.com/en-us/library/ms701660(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
 
 
 ## APIs from iphlpapi.dll
@@ -3299,731 +3343,767 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [GetAdaptersAddresses](https://msdn.microsoft.com/en-us/library/windows/desktop/aa365915.aspx) | Introduced into iphlpapi.dll in 10.0.14393. |
 | [GetBestRoute2](https://msdn.microsoft.com/en-us/library/windows/desktop/aa814411.aspx) | Introduced into iphlpapi.dll in 10.0.14393. |
 | [GetUnicastIpAddressTable](https://msdn.microsoft.com/en-us/library/windows/desktop/aa814428.aspx) | Introduced into iphlpapi.dll in 10.0.14393. |
-| [GetIfEntry2](https://msdn.microsoft.com/en-us/library/windows/desktop/aa365941(v=vs.85).aspx) | Introduced into iphlpapi.dll in 10.0.15063. |
-| [GetPerAdapterInfo](https://msdn.microsoft.com/en-us/library/Aa366012.aspx) | Introduced into iphlpapi.dll in 10.0.15063. |
-| [GetIcmpStatisticsEx](https://msdn.microsoft.com/en-us/library/Aa365936.aspx) | Introduced into iphlpapi.dll in 10.0.15063. |
-| [GetIpStatisticsEx](https://msdn.microsoft.com/en-us/library/Aa365963.aspx) | Introduced into iphlpapi.dll in 10.0.15063. |
-| [GetTcpStatisticsEx](https://msdn.microsoft.com/en-us/library/Aa366023.aspx) | Introduced into iphlpapi.dll in 10.0.15063. |
-| [GetUdpStatisticsEx](https://msdn.microsoft.com/en-us/library/Aa366031.aspx) | Introduced into iphlpapi.dll in 10.0.15063. |
-| [CancelMibChangeNotify2](https://msdn.microsoft.com/en-us/library/windows/desktop/aa814397(v=vs.85).aspx) | Introduced into iphlpapi.dll in 10.0.15063. |
-| [Icmp6CreateFile](https://msdn.microsoft.com/en-us/library/Aa366037.aspx) | Introduced into iphlpapi.dll in 10.0.15063. |
-| [Icmp6SendEcho2](https://msdn.microsoft.com/en-us/library/Aa366041.aspx) | Introduced into iphlpapi.dll in 10.0.15063. |
-| [IcmpCloseHandle](https://msdn.microsoft.com/en-us/library/Aa366043.aspx) | Introduced into iphlpapi.dll in 10.0.15063. |
-| [IcmpCreateFile](https://msdn.microsoft.com/en-us/library/Aa366045.aspx) | Introduced into iphlpapi.dll in 10.0.15063. |
-| [NotifyUnicastIpAddressChange](https://msdn.microsoft.com/en-us/library/windows/desktop/aa814454(v=vs.85).aspx) | Introduced into iphlpapi.dll in 10.0.15063. |
-| [IcmpSendEcho2](https://msdn.microsoft.com/en-us/library/Aa366051.aspx) | Introduced into iphlpapi.dll in 10.0.15063. |
-| [GetNetworkParams](https://msdn.microsoft.com/en-us/library/Aa365968.aspx) | Introduced into iphlpapi.dll in 10.0.15063. |
-| [GetBestInterfaceEx](https://msdn.microsoft.com/en-us/library/Aa365922.aspx) | Introduced into iphlpapi.dll in 10.0.15063. |
-| [NotifyStableUnicastIpAddressTable](https://msdn.microsoft.com/en-us/library/Aa814452.aspx) | Introduced into iphlpapi.dll in 10.0.15063. |
-| [GetIcmpStatistics](https://msdn.microsoft.com/en-us/library/Aa365934.aspx) | Introduced into iphlpapi.dll in 10.0.15063. |
-| [GetTcpTable](https://msdn.microsoft.com/en-us/library/Aa366026.aspx) | Introduced into iphlpapi.dll in 10.0.15063. |
-| [GetUdpTable](https://msdn.microsoft.com/en-us/library/Aa366033.aspx) | Introduced into iphlpapi.dll in 10.0.15063. |
-| [GetExtendedTcpTable](https://msdn.microsoft.com/en-us/library/Aa365928.aspx) | Introduced into iphlpapi.dll in 10.0.15063. |
-| [GetExtendedUdpTable](https://msdn.microsoft.com/en-us/library/Aa365930.aspx) | Introduced into iphlpapi.dll in 10.0.15063. |
+| [CancelMibChangeNotify2](https://msdn.microsoft.com/en-us/library/Aa814397(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetBestInterfaceEx](https://msdn.microsoft.com/en-us/library/Aa365922(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetExtendedTcpTable](https://msdn.microsoft.com/en-us/library/Aa365928(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetExtendedUdpTable](https://msdn.microsoft.com/en-us/library/Aa365930(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetIcmpStatistics](https://msdn.microsoft.com/en-us/library/Aa365934(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetIcmpStatisticsEx](https://msdn.microsoft.com/en-us/library/Aa365936(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetIfEntry2](https://msdn.microsoft.com/en-us/library/Aa365941(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetIpStatisticsEx](https://msdn.microsoft.com/en-us/library/Aa365963(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetNetworkParams](https://msdn.microsoft.com/en-us/library/Aa365968(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetPerAdapterInfo](https://msdn.microsoft.com/en-us/library/Aa366012(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetTcpStatisticsEx](https://msdn.microsoft.com/en-us/library/Aa366023(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetTcpTable](https://msdn.microsoft.com/en-us/library/Aa366026(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetUdpStatisticsEx](https://msdn.microsoft.com/en-us/library/Aa366031(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetUdpTable](https://msdn.microsoft.com/en-us/library/Aa366033(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [Icmp6CreateFile](https://msdn.microsoft.com/en-us/library/Aa366037(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [Icmp6SendEcho2](https://msdn.microsoft.com/en-us/library/Aa366041(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [IcmpCloseHandle](https://msdn.microsoft.com/en-us/library/Aa366043(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [IcmpCreateFile](https://msdn.microsoft.com/en-us/library/Aa366045(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [IcmpSendEcho2](https://msdn.microsoft.com/en-us/library/Aa366051(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [NotifyStableUnicastIpAddressTable](https://msdn.microsoft.com/en-us/library/Aa814452(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [NotifyUnicastIpAddressChange](https://msdn.microsoft.com/en-us/library/Aa814454(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
 
 
 ## APIs from msajapi.dll
 
 | API | Requirements |
 | -----| --------------|
-| [alljoyn_aboutdata_createfromxml](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_abouticon_getcontent](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_abouticon_geturl](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_applicationstatelistener_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_applicationstatelistener_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_getpermissionconfigurator](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_registerapplicationstatelistener](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_busattachment_unregisterapplicationstatelistener](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_addargannotation](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_getdescriptionlanguages](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_getdescriptiontranslationcallback](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_getmemberargannotation](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_hasdescription](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_member_getargannotation](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_member_getargannotationatindex](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_member_getargannotationscount](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_setargdescription](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_setdescription](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_setdescriptionlanguage](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_setdescriptiontranslationcallback](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_setmemberdescription](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_interfacedescription_setpropertydescription](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_permissionconfigurator_getapplicationstate](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_permissionconfigurator_getclaimcapabilities](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_permissionconfigurator_getclaimcapabilitiesadditionalinfo](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_permissionconfigurator_reset](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_permissionconfigurator_setapplicationstate](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_permissionconfigurator_setclaimcapabilities](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_permissionconfigurator_setclaimcapabilitiesadditionalinfo](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_permissionconfigurator_setmanifestfromxml](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_securityapplicationproxy_claim](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_securityapplicationproxy_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_securityapplicationproxy_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_securityapplicationproxy_eccpublickey_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_securityapplicationproxy_endmanagement](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_securityapplicationproxy_getapplicationstate](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_securityapplicationproxy_getclaimcapabilities](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_securityapplicationproxy_getclaimcapabilitiesadditionalinfo](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_securityapplicationproxy_geteccpublickey](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_securityapplicationproxy_getmanifesttemplate](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_securityapplicationproxy_installmembership](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_securityapplicationproxy_manifest_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_securityapplicationproxy_manifesttemplate_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_securityapplicationproxy_reset](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_securityapplicationproxy_resetpolicy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_securityapplicationproxy_signmanifest](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_securityapplicationproxy_startmanagement](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_securityapplicationproxy_updateidentity](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_securityapplicationproxy_updatepolicy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.14393. |
-| [alljoyn_authlistener_setsharedsecret](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_busattachment_deletedefaultkeystore](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_interfacedescription_getargdescriptionforlanguage](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_interfacedescription_getdescriptionforlanguage](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_interfacedescription_getdescriptionlanguages2](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_interfacedescription_getmemberdescriptionforlanguage](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_interfacedescription_getpropertydescriptionforlanguage](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_interfacedescription_setargdescriptionforlanguage](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_interfacedescription_setdescriptionforlanguage](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_interfacedescription_setmemberdescriptionforlanguage](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_interfacedescription_setpropertydescriptionforlanguage](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_keystorelistener_with_synchronization_create](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_routerinit](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_routerinitwithconfig](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_routershutdown](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_certificatechain_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_certificateid_cleanup](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_certificateidarray_cleanup](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_claim](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_endmanagement](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_getdefaultclaimcapabilities](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_getdefaultpolicy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_getidentity](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_getidentitycertificateid](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_getmanifests](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_getmanifesttemplate](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_getmembershipsummaries](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_getpolicy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_getpublickey](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_installmanifests](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_installmembership](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_manifestarray_cleanup](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_manifesttemplate_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_policy_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_publickey_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_removemembership](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_resetpolicy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_setmanifesttemplatefromxml](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_startmanagement](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_updateidentity](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_permissionconfigurator_updatepolicy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_securityapplicationproxy_computemanifestdigest](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_securityapplicationproxy_digest_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_securityapplicationproxy_getdefaultpolicy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_securityapplicationproxy_getpermissionmanagementsessionport](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_securityapplicationproxy_getpolicy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_securityapplicationproxy_policy_destroy](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-| [alljoyn_securityapplicationproxy_setmanifestsignature](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into msajapi.dll in 10.0.15063. |
-
-
-## APIs from api-ms-win-security-base-l1-2-0.dll
-
-| API | Requirements |
-| -----| --------------|
-| [CopySid](https://msdn.microsoft.com/en-us/library/Aa376404.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetLengthSid](https://msdn.microsoft.com/en-us/library/Aa446642.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetTokenInformation](https://msdn.microsoft.com/en-us/library/Aa446671.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [FreeSid](https://msdn.microsoft.com/en-us/library/Aa446631.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [AllocateAndInitializeSid](https://msdn.microsoft.com/en-us/library/Aa375213.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [CreateWellKnownSid](https://msdn.microsoft.com/en-us/library/Aa446585.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [IsValidSid](https://msdn.microsoft.com/en-us/library/Aa379151.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [CheckTokenMembership](https://msdn.microsoft.com/en-us/library/Aa376389.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [AdjustTokenPrivileges](https://msdn.microsoft.com/en-us/library/Aa375202.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetAce](https://msdn.microsoft.com/en-us/library/Aa446634.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetAclInformation](https://msdn.microsoft.com/en-us/library/Aa446635.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetSecurityDescriptorDacl](https://msdn.microsoft.com/en-us/library/Aa446648.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [CheckTokenMembershipEx](https://msdn.microsoft.com/en-us/library/Hh448479.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. |
-| [DuplicateTokenEx](https://msdn.microsoft.com/en-us/library/Aa446617.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [AddAce](https://msdn.microsoft.com/en-us/library/Aa374970.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetSecurityDescriptorControl](https://msdn.microsoft.com/en-us/library/Aa446647.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetSecurityDescriptorGroup](https://msdn.microsoft.com/en-us/library/Aa446649.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetSecurityDescriptorLength](https://msdn.microsoft.com/en-us/library/Aa446650.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetSecurityDescriptorOwner](https://msdn.microsoft.com/en-us/library/Aa446651.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetSecurityDescriptorSacl](https://msdn.microsoft.com/en-us/library/Aa446653.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetSidIdentifierAuthority](https://msdn.microsoft.com/en-us/library/Aa446655.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [InitializeAcl](https://msdn.microsoft.com/en-us/library/Aa378853.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [InitializeSecurityDescriptor](https://msdn.microsoft.com/en-us/library/Aa378863.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [MakeSelfRelativeSD](https://msdn.microsoft.com/en-us/library/Aa379265.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [SetSecurityDescriptorDacl](https://msdn.microsoft.com/en-us/library/Aa379583.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [SetSecurityDescriptorGroup](https://msdn.microsoft.com/en-us/library/Aa379584.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [SetSecurityDescriptorOwner](https://msdn.microsoft.com/en-us/library/Aa379585.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [SetSecurityDescriptorSacl](https://msdn.microsoft.com/en-us/library/Aa379587.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [AddAccessAllowedAce](https://msdn.microsoft.com/en-us/library/Aa374947.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetSidLengthRequired](https://msdn.microsoft.com/en-us/library/Aa446656.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetSidSubAuthority](https://msdn.microsoft.com/en-us/library/Aa446657.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetSidSubAuthorityCount](https://msdn.microsoft.com/en-us/library/Aa446658.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [AddAccessAllowedAceEx](https://msdn.microsoft.com/en-us/library/Aa374951.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [AdjustTokenGroups](https://msdn.microsoft.com/en-us/library/Aa375199.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [AllocateLocallyUniqueId](https://msdn.microsoft.com/en-us/library/Aa375260.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [DeleteAce](https://msdn.microsoft.com/en-us/library/Aa446612.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [DuplicateToken](https://msdn.microsoft.com/en-us/library/Aa446616.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [EqualDomainSid](https://msdn.microsoft.com/en-us/library/Aa446620.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetKernelObjectSecurity](https://msdn.microsoft.com/en-us/library/Aa446641.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetSecurityDescriptorRMControl](https://msdn.microsoft.com/en-us/library/Aa446652.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetWindowsAccountDomainSid](https://msdn.microsoft.com/en-us/library/Aa446676.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [InitializeSid](https://msdn.microsoft.com/en-us/library/Aa378875.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [IsValidAcl](https://msdn.microsoft.com/en-us/library/Aa379142.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [IsValidSecurityDescriptor](https://msdn.microsoft.com/en-us/library/Aa379147.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [IsWellKnownSid](https://msdn.microsoft.com/en-us/library/Aa379154.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [MakeAbsoluteSD](https://msdn.microsoft.com/en-us/library/Aa379264.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [SetKernelObjectSecurity](https://msdn.microsoft.com/en-us/library/Aa379578.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [SetSecurityDescriptorControl](https://msdn.microsoft.com/en-us/library/Aa379582.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [SetSecurityDescriptorRMControl](https://msdn.microsoft.com/en-us/library/Aa379586.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [SetTokenInformation](https://msdn.microsoft.com/en-us/library/Aa379591.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [AddMandatoryAce](https://msdn.microsoft.com/en-us/library/Aa965464.aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.15063. Moved into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-
-
-## APIs from api-ms-win-security-sddl-l1-1-0.dll
-
-| API | Requirements |
-| -----| --------------|
-| [ConvertSidToStringSidW](https://msdn.microsoft.com/en-us/library/Aa376399.aspx) | Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.15063. |
-| [ConvertStringSecurityDescriptorToSecurityDescriptorW](https://msdn.microsoft.com/en-us/library/Aa376401.aspx) | Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.15063. |
-| [ConvertStringSidToSidW](https://msdn.microsoft.com/en-us/library/Aa376402.aspx) | Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.15063. |
-| [ConvertSecurityDescriptorToStringSecurityDescriptorW](https://msdn.microsoft.com/en-us/library/Aa376397.aspx) | Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.15063. |
-
-
-## APIs from api-ms-win-security-lsalookup-l2-1-1.dll
-
-| API | Requirements |
-| -----| --------------|
-| [LookupAccountSidW](https://msdn.microsoft.com/en-us/library/Aa379166.aspx) | Introduced into api-ms-win-security-lsalookup-l2-1-1.dll in 10.0.15063. Moved into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. |
-| [LookupAccountNameW](https://msdn.microsoft.com/en-us/library/Aa379159.aspx) | Introduced into api-ms-win-security-lsalookup-l2-1-1.dll in 10.0.15063. Moved into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. |
-| [LookupPrivilegeValueW](https://msdn.microsoft.com/en-us/library/Aa379180.aspx) | Introduced into api-ms-win-security-lsalookup-l2-1-1.dll in 10.0.15063. Moved into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. |
-| [LookupPrivilegeDisplayNameW](https://msdn.microsoft.com/en-us/library/Aa379168.aspx) | Introduced into api-ms-win-security-lsalookup-l2-1-1.dll in 10.0.15063. Moved into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. |
-| [LookupPrivilegeNameW](https://msdn.microsoft.com/en-us/library/Aa379176.aspx) | Introduced into api-ms-win-security-lsalookup-l2-1-1.dll in 10.0.15063. Moved into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. |
-
-
-## APIs from api-ms-win-security-provider-l1-1-0.dll
-
-| API | Requirements |
-| -----| --------------|
-| [SetEntriesInAclW](https://msdn.microsoft.com/en-us/library/Aa379576.aspx) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.15063. |
-| [SetNamedSecurityInfoW](https://msdn.microsoft.com/en-us/library/Aa379579.aspx) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.15063. |
-| [GetExplicitEntriesFromAclW](https://msdn.microsoft.com/en-us/library/Aa446638.aspx) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.15063. |
-| [GetNamedSecurityInfoW](https://msdn.microsoft.com/en-us/library/Aa446645.aspx) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.15063. |
-| [GetSecurityInfo](https://msdn.microsoft.com/en-us/library/Aa446654.aspx) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.15063. |
-| [SetSecurityInfo](https://msdn.microsoft.com/en-us/library/Aa379588.aspx) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.15063. |
-
-
-## APIs from api-ms-win-appmodel-runtime-l1-1-1.dll
-
-| API | Requirements |
-| -----| --------------|
-| [PackageFamilyNameFromFullName](https://msdn.microsoft.com/en-us/library/Hh446769.aspx) | Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-appmodel-runtime-l1-1-0.dll in 10.0.16299. |
-| [ParseApplicationUserModelId](https://msdn.microsoft.com/en-us/library/Dn313168.aspx) | Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.15063. |
-| [PackageFamilyNameFromId](https://msdn.microsoft.com/en-us/library/Hh446770.aspx) | Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-appmodel-runtime-l1-1-0.dll in 10.0.16299. |
-| [PackageNameAndPublisherIdFromFamilyName](https://msdn.microsoft.com/en-us/library/Hh446773.aspx) | Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-appmodel-runtime-l1-1-0.dll in 10.0.16299. |
-| [FormatApplicationUserModelId](https://msdn.microsoft.com/en-us/library/Dn270602.aspx) | Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.15063. |
-| [PackageIdFromFullName](https://msdn.microsoft.com/en-us/library/Hh446772.aspx) | Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-appmodel-runtime-l1-1-0.dll in 10.0.16299. |
-| [PackageFullNameFromId](https://msdn.microsoft.com/en-us/library/Hh446771.aspx) | Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.15063. Moved into api-ms-win-appmodel-runtime-l1-1-0.dll in 10.0.16299. |
-
-
-## APIs from bcrypt.dll
-
-| API | Requirements |
-| -----| --------------|
-| [BCryptGetFipsAlgorithmMode](https://msdn.microsoft.com/en-us/library/Aa375460.aspx) | Introduced into bcrypt.dll in 10.0.15063. |
-
-
-## APIs from api-ms-win-core-path-l1-1-0.dll
-
-| API | Requirements |
-| -----| --------------|
-| [PathCchCombine](https://msdn.microsoft.com/en-us/library/Hh707085.aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.15063. |
-| [PathCchRemoveFileSpec](https://msdn.microsoft.com/en-us/library/Hh707092.aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.15063. |
-| [PathCchAddBackslash](https://msdn.microsoft.com/en-us/library/Hh707078.aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.15063. |
-| [PathCchAppend](https://msdn.microsoft.com/en-us/library/Hh707081.aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.15063. |
-| [PathCchFindExtension](https://msdn.microsoft.com/en-us/library/Hh707087.aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.15063. |
-| [PathCchRemoveBackslash](https://msdn.microsoft.com/en-us/library/Hh707089.aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.15063. |
-| [PathAllocCombine](https://msdn.microsoft.com/en-us/library/Hh707077.aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.15063. |
-| [PathCchSkipRoot](https://msdn.microsoft.com/en-us/library/Hh707094.aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.15063. |
-| [PathAllocCanonicalize](https://msdn.microsoft.com/en-us/library/Hh707076.aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.15063. |
-| [PathCchAddExtension](https://msdn.microsoft.com/en-us/library/Hh707080.aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.15063. |
-| [PathCchRemoveExtension](https://msdn.microsoft.com/en-us/library/Hh707091.aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.15063. |
-| [PathCchCanonicalize](https://msdn.microsoft.com/en-us/library/Hh707083.aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.15063. |
-| [PathCchCanonicalizeEx](https://msdn.microsoft.com/en-us/library/Hh707084.aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.15063. |
-| [PathCchCombineEx](https://msdn.microsoft.com/en-us/library/Hh707086.aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.15063. |
-| [PathCchRenameExtension](https://msdn.microsoft.com/en-us/library/Hh707093.aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.15063. |
-| [PathCchIsRoot](https://msdn.microsoft.com/en-us/library/Hh707088.aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.15063. |
-| [PathCchStripToRoot](https://msdn.microsoft.com/en-us/library/Hh707096.aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.15063. |
-| [PathIsUNCEx](https://msdn.microsoft.com/en-us/library/Hh707097.aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.15063. |
-| [PathCchStripPrefix](https://msdn.microsoft.com/en-us/library/Hh707095.aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.15063. |
-| [PathCchAppendEx](https://msdn.microsoft.com/en-us/library/Hh707082.aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.15063. |
-| [PathCchAddBackslashEx](https://msdn.microsoft.com/en-us/library/Hh707079.aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.15063. |
-| [PathCchRemoveBackslashEx](https://msdn.microsoft.com/en-us/library/Hh707090.aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.15063. |
-
-
-## APIs from api-ms-win-core-localization-obsolete-l1-3-0.dll
-
-| API | Requirements |
-| -----| --------------|
-| [GetUserDefaultUILanguage](https://msdn.microsoft.com/en-us/library/Dd318137.aspx) | Introduced into api-ms-win-core-localization-obsolete-l1-3-0.dll in 10.0.15063. Moved into api-ms-win-core-localization-obsolete-l1-2-0.dll in 10.0.16299. |
-| [EnumUILanguagesW](https://msdn.microsoft.com/en-us/library/Dd317834.aspx) | Introduced into api-ms-win-core-localization-obsolete-l1-3-0.dll in 10.0.15063. Moved into api-ms-win-core-localization-obsolete-l1-2-0.dll in 10.0.16299. |
-
-
-## APIs from api-ms-win-core-namespace-l1-1-0.dll
-
-| API | Requirements |
-| -----| --------------|
-| [AddSIDToBoundaryDescriptor](https://msdn.microsoft.com/en-us/library/ms681937.aspx) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.15063. |
-| [ClosePrivateNamespace](https://msdn.microsoft.com/en-us/library/ms682026.aspx) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.15063. |
-| [CreateBoundaryDescriptorW](https://msdn.microsoft.com/en-us/library/ms682121.aspx) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.15063. |
-| [CreatePrivateNamespaceW](https://msdn.microsoft.com/en-us/library/ms682419.aspx) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.15063. |
-| [DeleteBoundaryDescriptor](https://msdn.microsoft.com/en-us/library/ms682549.aspx) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.15063. |
-| [OpenPrivateNamespaceW](https://msdn.microsoft.com/en-us/library/ms684318.aspx) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.15063. |
-
-
-## APIs from api-ms-win-appmodel-runtime-l1-1-2.dll
-
-| API | Requirements |
-| -----| --------------|
-| VerifyPackageFullName | Introduced into api-ms-win-appmodel-runtime-l1-1-2.dll in 10.0.15063. Moved into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.16299. |
-| VerifyApplicationUserModelId | Introduced into api-ms-win-appmodel-runtime-l1-1-2.dll in 10.0.15063. Moved into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.16299. |
-| VerifyPackageFamilyName | Introduced into api-ms-win-appmodel-runtime-l1-1-2.dll in 10.0.15063. Moved into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.16299. |
-| VerifyPackageId | Introduced into api-ms-win-appmodel-runtime-l1-1-2.dll in 10.0.15063. Moved into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.16299. |
-| VerifyPackageRelativeApplicationId | Introduced into api-ms-win-appmodel-runtime-l1-1-2.dll in 10.0.15063. Moved into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.16299. |
-
-
-## APIs from api-ms-win-core-url-l1-1-0.dll
-
-| API | Requirements |
-| -----| --------------|
-| [GetAcceptLanguagesW](https://msdn.microsoft.com/en-us/library/ms538578.aspx) | Introduced into api-ms-win-core-url-l1-1-0.dll in 10.0.15063. |
-| [GetAcceptLanguagesA](https://msdn.microsoft.com/en-us/library/ms538578.aspx) | Introduced into api-ms-win-core-url-l1-1-0.dll in 10.0.15063. |
-
-
-## APIs from api-ms-win-security-isolatedcontainer-l1-1-0.dll
-
-| API | Requirements |
-| -----| --------------|
-| [IsProcessInIsolatedContainer](https://msdn.microsoft.com/library/mt842676.aspx) | Introduced into api-ms-win-security-isolatedcontainer-l1-1-0.dll in 10.0.15063. |
-
-
-## APIs from api-ms-win-core-featurestaging-l1-1-1.dll
-
-| API | Requirements |
-| -----| --------------|
-| GetFeatureVariant | Introduced into api-ms-win-core-featurestaging-l1-1-1.dll in 10.0.15063. |
-
-
-## APIs from api-ms-win-core-memory-l1-1-5.dll
-
-| API | Requirements |
-| -----| --------------|
-| [SetProcessValidCallTargets](https://msdn.microsoft.com/en-us/library/Dn934202.aspx) | Introduced into api-ms-win-core-memory-l1-1-5.dll in 10.0.15063. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.16299. |
-
-
-## APIs from api-ms-win-security-lsalookup-ansi-l2-1-0.dll
-
-| API | Requirements |
-| -----| --------------|
-| [LookupPrivilegeValueA](https://msdn.microsoft.com/en-us/library/Aa379180.aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.15063. |
-| [LookupAccountNameA](https://msdn.microsoft.com/en-us/library/Aa379159.aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.15063. |
-| [LookupAccountSidA](https://msdn.microsoft.com/en-us/library/Aa379166.aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.15063. |
-| [LookupPrivilegeDisplayNameA](https://msdn.microsoft.com/en-us/library/Aa379168.aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.15063. |
-| [LookupPrivilegeNameA](https://msdn.microsoft.com/en-us/library/Aa379176.aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.15063. |
-
-
-## APIs from api-ms-win-core-psapi-ansi-l1-1-0.dll
-
-| API | Requirements |
-| -----| --------------|
-| K32GetModuleBaseNameA | Introduced into api-ms-win-core-psapi-ansi-l1-1-0.dll in 10.0.15063. |
-| K32GetModuleFileNameExA | Introduced into api-ms-win-core-psapi-ansi-l1-1-0.dll in 10.0.15063. |
-
-
-## APIs from api-ms-win-core-windowserrorreporting-l1-1-1.dll
-
-| API | Requirements |
-| -----| --------------|
-| [WerRegisterAdditionalProcess](https://msdn.microsoft.com/en-us/library/Mt492585.aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.15063. |
-| [WerRegisterCustomMetadata](https://msdn.microsoft.com/en-us/library/Mt492586.aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.15063. |
-| [WerRegisterExcludedMemoryBlock](https://msdn.microsoft.com/en-us/library/Mt492587.aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.15063. |
-| [WerUnregisterAdditionalProcess](https://msdn.microsoft.com/en-us/library/Mt492592.aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.15063. |
-| [WerUnregisterCustomMetadata](https://msdn.microsoft.com/en-us/library/Mt492593.aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.15063. |
-| [WerUnregisterExcludedMemoryBlock](https://msdn.microsoft.com/en-us/library/Mt492594.aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.15063. |
-
-
-## APIs from api-ms-win-security-provider-ansi-l1-1-0.dll
-
-| API | Requirements |
-| -----| --------------|
-| [SetEntriesInAclA](https://msdn.microsoft.com/en-us/library/Aa379576.aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.15063. |
-| [GetExplicitEntriesFromAclA](https://msdn.microsoft.com/en-us/library/Aa446638.aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.15063. |
-| [GetNamedSecurityInfoA](https://msdn.microsoft.com/en-us/library/Aa446645.aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.15063. |
-| [SetNamedSecurityInfoA](https://msdn.microsoft.com/en-us/library/Aa379579.aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.15063. |
-
-
-## APIs from api-ms-win-security-sddl-ansi-l1-1-0.dll
-
-| API | Requirements |
-| -----| --------------|
-| [ConvertSidToStringSidA](https://msdn.microsoft.com/en-us/library/Aa376399.aspx) | Introduced into api-ms-win-security-sddl-ansi-l1-1-0.dll in 10.0.15063. |
-| [ConvertStringSidToSidA](https://msdn.microsoft.com/en-us/library/Aa376402.aspx) | Introduced into api-ms-win-security-sddl-ansi-l1-1-0.dll in 10.0.15063. |
-
-
-## APIs from api-ms-win-core-namespace-ansi-l1-1-0.dll
-
-| API | Requirements |
-| -----| --------------|
-| [CreateBoundaryDescriptorA](https://msdn.microsoft.com/en-us/library/ms682121.aspx) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.15063. |
-| [CreatePrivateNamespaceA](https://msdn.microsoft.com/en-us/library/ms682419.aspx) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.15063. |
-| [OpenPrivateNamespaceA](https://msdn.microsoft.com/en-us/library/ms684318.aspx) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.15063. |
-
-
-## APIs from api-ms-win-gaming-expandedresources-l1-1-0.dll
-
-| API | Requirements |
-| -----| --------------|
-| [GetExpandedResourceExclusiveCpuCount](https://msdn.microsoft.com/en-us/library/Mt808809.aspx) | Introduced into api-ms-win-gaming-expandedresources-l1-1-0.dll in 10.0.15063. |
-| [HasExpandedResources](https://msdn.microsoft.com/en-us/library/Mt808810.aspx) | Introduced into api-ms-win-gaming-expandedresources-l1-1-0.dll in 10.0.15063. |
-| [ReleaseExclusiveCpuSets](https://msdn.microsoft.com/en-us/library/Mt808811.aspx) | Introduced into api-ms-win-gaming-expandedresources-l1-1-0.dll in 10.0.15063. |
-
-
-## APIs from api-ms-win-core-realtime-l1-1-2.dll
-
-| API | Requirements |
-| -----| --------------|
-| [ConvertAuxiliaryCounterToPerformanceCounter](https://msdn.microsoft.com/en-us/library/Mt781214.aspx) | Introduced into api-ms-win-core-realtime-l1-1-2.dll in 10.0.15063. |
-| [ConvertPerformanceCounterToAuxiliaryCounter](https://msdn.microsoft.com/en-us/library/Mt781215.aspx) | Introduced into api-ms-win-core-realtime-l1-1-2.dll in 10.0.15063. |
-| [QueryAuxiliaryCounterFrequency](https://msdn.microsoft.com/en-us/library/Mt781218.aspx) | Introduced into api-ms-win-core-realtime-l1-1-2.dll in 10.0.15063. |
-
-
-## APIs from api-ms-win-gaming-gamemonitor-l1-1-0.dll
-
-| API | Requirements |
-| -----| --------------|
-| [EnableActiveGameMonitoring](https://msdn.microsoft.com/en-us/library/Mt808782.aspx) | Introduced into api-ms-win-gaming-gamemonitor-l1-1-0.dll in 10.0.15063. |
-| [ReportGameActivity](https://msdn.microsoft.com/en-us/library/Mt808783.aspx) | Introduced into api-ms-win-gaming-gamemonitor-l1-1-0.dll in 10.0.15063. |
-| [SetGameActivityCorrelationId](https://msdn.microsoft.com/en-us/library/Mt808784.aspx) | Introduced into api-ms-win-gaming-gamemonitor-l1-1-0.dll in 10.0.15063. |
-
-
-## APIs from api-ms-win-gaming-tcui-l1-1-3.dll
-
-| API | Requirements |
-| -----| --------------|
-| ShowGameInviteUIWithContext | Introduced into api-ms-win-gaming-tcui-l1-1-3.dll in 10.0.15063. |
-| ShowGameInviteUIWithContextForUser | Introduced into api-ms-win-gaming-tcui-l1-1-3.dll in 10.0.15063. |
-
-
-## APIs from sspicli.dll
-
-| API | Requirements |
-| -----| --------------|
-
-
-## APIs from coremessaging.dll
-
-| API | Requirements |
-| -----| --------------|
-| [CreateDispatcherQueueController](https://msdn.microsoft.com/en-us/library/Mt826210.aspx) | Introduced into coremessaging.dll in 10.0.16299. |
-
-
-## APIs from api-ms-win-core-enclave-l1-1-0.dll
-
-| API | Requirements |
-| -----| --------------|
-| [CreateEnclave](https://msdn.microsoft.com/en-us/library/Mt592866.aspx) | Introduced into api-ms-win-core-enclave-l1-1-0.dll in 10.0.16299. |
-| [InitializeEnclave](https://msdn.microsoft.com/en-us/library/Mt592869.aspx) | Introduced into api-ms-win-core-enclave-l1-1-0.dll in 10.0.16299. |
-| [IsEnclaveTypeSupported](https://msdn.microsoft.com/en-us/library/Mt592870.aspx) | Introduced into api-ms-win-core-enclave-l1-1-0.dll in 10.0.16299. |
-| [LoadEnclaveData](https://msdn.microsoft.com/en-us/library/Mt592871.aspx) | Introduced into api-ms-win-core-enclave-l1-1-0.dll in 10.0.16299. |
+| alljoyn_aboutdata_createfromxml | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_abouticon_getcontent | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_abouticon_geturl | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_applicationstatelistener_create | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_applicationstatelistener_destroy | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_getpermissionconfigurator | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_registerapplicationstatelistener | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_busattachment_unregisterapplicationstatelistener | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_addargannotation | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_getdescriptionlanguages | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_getdescriptiontranslationcallback | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_getmemberargannotation | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_hasdescription | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_member_getargannotation | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_member_getargannotationatindex | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_member_getargannotationscount | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_setargdescription | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_setdescription | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_setdescriptionlanguage | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_setdescriptiontranslationcallback | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_setmemberdescription | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_interfacedescription_setpropertydescription | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_permissionconfigurator_getapplicationstate | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_permissionconfigurator_getclaimcapabilities | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_permissionconfigurator_getclaimcapabilitiesadditionalinfo | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_permissionconfigurator_reset | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_permissionconfigurator_setapplicationstate | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_permissionconfigurator_setclaimcapabilities | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_permissionconfigurator_setclaimcapabilitiesadditionalinfo | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_permissionconfigurator_setmanifestfromxml | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_securityapplicationproxy_claim | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_securityapplicationproxy_create | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_securityapplicationproxy_destroy | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_securityapplicationproxy_eccpublickey_destroy | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_securityapplicationproxy_endmanagement | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_securityapplicationproxy_getapplicationstate | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_securityapplicationproxy_getclaimcapabilities | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_securityapplicationproxy_getclaimcapabilitiesadditionalinfo | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_securityapplicationproxy_geteccpublickey | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_securityapplicationproxy_getmanifesttemplate | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_securityapplicationproxy_installmembership | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_securityapplicationproxy_manifest_destroy | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_securityapplicationproxy_manifesttemplate_destroy | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_securityapplicationproxy_reset | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_securityapplicationproxy_resetpolicy | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_securityapplicationproxy_signmanifest | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_securityapplicationproxy_startmanagement | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_securityapplicationproxy_updateidentity | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_securityapplicationproxy_updatepolicy | Introduced into msajapi.dll in 10.0.14393. |
+| alljoyn_authlistener_setsharedsecret | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_busattachment_deletedefaultkeystore | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_interfacedescription_getargdescriptionforlanguage | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_interfacedescription_getdescriptionforlanguage | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_interfacedescription_getdescriptionlanguages2 | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_interfacedescription_getmemberdescriptionforlanguage | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_interfacedescription_getpropertydescriptionforlanguage | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_interfacedescription_setargdescriptionforlanguage | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_interfacedescription_setdescriptionforlanguage | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_interfacedescription_setmemberdescriptionforlanguage | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_interfacedescription_setpropertydescriptionforlanguage | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_keystorelistener_with_synchronization_create | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_certificatechain_destroy | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_certificateid_cleanup | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_certificateidarray_cleanup | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_claim | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_endmanagement | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_getdefaultclaimcapabilities | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_getdefaultpolicy | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_getidentity | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_getidentitycertificateid | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_getmanifests | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_getmanifesttemplate | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_getmembershipsummaries | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_getpolicy | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_getpublickey | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_installmanifests | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_installmembership | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_manifestarray_cleanup | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_manifesttemplate_destroy | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_policy_destroy | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_publickey_destroy | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_removemembership | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_resetpolicy | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_setmanifesttemplatefromxml | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_startmanagement | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_updateidentity | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_permissionconfigurator_updatepolicy | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_routerinit | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_routerinitwithconfig | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_routershutdown | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_securityapplicationproxy_computemanifestdigest | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_securityapplicationproxy_digest_destroy | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_securityapplicationproxy_getdefaultpolicy | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_securityapplicationproxy_getpermissionmanagementsessionport | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_securityapplicationproxy_getpolicy | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_securityapplicationproxy_policy_destroy | Introduced into msajapi.dll in 10.0.16299. |
+| alljoyn_securityapplicationproxy_setmanifestsignature | Introduced into msajapi.dll in 10.0.16299. |
 
 
 ## APIs from mfsensorgroup.dll
 
 | API | Requirements |
 | -----| --------------|
-| [MFCreateSensorGroup](https://msdn.microsoft.com/en-us/library/Mt797979.aspx) | Introduced into mfsensorgroup.dll in 10.0.16299. |
-| [MFCreateSensorStream](https://msdn.microsoft.com/en-us/library/Mt797980.aspx) | Introduced into mfsensorgroup.dll in 10.0.16299. |
-
-
-## APIs from api-ms-win-core-processenvironment-l1-1-0.dll
-
-| API | Requirements |
-| -----| --------------|
-| [GetEnvironmentStrings](https://msdn.microsoft.com/en-us/library/ms683187.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [ExpandEnvironmentStringsA](https://msdn.microsoft.com/en-us/library/Cc522631.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [ExpandEnvironmentStringsW](https://msdn.microsoft.com/en-us/library/Aa372337.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [FreeEnvironmentStringsA](https://msdn.microsoft.com/en-us/library/Cc429102.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [FreeEnvironmentStringsW](https://msdn.microsoft.com/en-us/library/ms683151.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [GetEnvironmentStringsW](https://msdn.microsoft.com/en-us/library/ms683187.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [GetEnvironmentVariableA](https://msdn.microsoft.com/en-us/library/572scyx7.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [GetEnvironmentVariableW](https://msdn.microsoft.com/en-us/library/ms392609.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [GetStdHandle](https://msdn.microsoft.com/en-us/library/ms683231.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [SetEnvironmentVariableA](https://msdn.microsoft.com/en-us/library/ms686206.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [SetEnvironmentVariableW](https://msdn.microsoft.com/en-us/library/ms686206.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [SetStdHandle](https://msdn.microsoft.com/en-us/library/ms686244.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| SetStdHandleEx | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [MFCreateSensorGroup](https://msdn.microsoft.com/en-us/library/Mt797979(v=VS.85).aspx) | Introduced into mfsensorgroup.dll in 10.0.16299. |
+| [MFCreateSensorStream](https://msdn.microsoft.com/en-us/library/Mt797980(v=VS.85).aspx) | Introduced into mfsensorgroup.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-kernel32-legacy-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [SetVolumeLabelA](https://msdn.microsoft.com/en-us/library/Cc429819.aspx) | Introduced into api-ms-win-core-kernel32-legacy-ansi-l1-1-0.dll in 10.0.16299. |
+| [SetVolumeLabelA](https://msdn.microsoft.com/en-us/library/Aa365560(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-ansi-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-kernel32-legacy-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CopyFileA](https://msdn.microsoft.com/en-us/library/Aa454537.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
-| [CreateNamedPipeA](https://msdn.microsoft.com/en-us/library/Cc429689.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
-| [GetComputerNameA](https://msdn.microsoft.com/en-us/library/ms724295.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
-| [GetComputerNameW](https://msdn.microsoft.com/en-us/library/Aa251590.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
-| SetFileCompletionNotificationModes | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
-| [SetVolumeLabelW](https://msdn.microsoft.com/en-us/library/Aa365560.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
+| [CopyFileA](https://msdn.microsoft.com/en-us/library/Aa363851(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
+| [CreateNamedPipeA](https://msdn.microsoft.com/en-us/library/Aa365150(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
+| [GetComputerNameA](https://msdn.microsoft.com/en-us/library/ms724295(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
+| [GetComputerNameW](https://msdn.microsoft.com/en-us/library/ms724295(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
+| [GetSystemPowerStatus](https://msdn.microsoft.com/en-us/library/Aa372693(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
+| [SetFileCompletionNotificationModes](https://msdn.microsoft.com/en-us/library/Aa365538(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
+| [SetVolumeLabelW](https://msdn.microsoft.com/en-us/library/Aa365560(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-namespace-ansi-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CreateBoundaryDescriptorA](https://msdn.microsoft.com/en-us/library/ms682121(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. |
+| [CreatePrivateNamespaceA](https://msdn.microsoft.com/en-us/library/ms682419(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. |
+| [OpenPrivateNamespaceA](https://msdn.microsoft.com/en-us/library/ms684318(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-processtopology-obsolete-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetProcessAffinityMask](https://msdn.microsoft.com/en-us/library/ms683213.aspx) | Introduced into api-ms-win-core-processtopology-obsolete-l1-1-0.dll in 10.0.16299. |
-| [SetProcessAffinityMask](https://msdn.microsoft.com/en-us/library/ms686223.aspx) | Introduced into api-ms-win-core-processtopology-obsolete-l1-1-0.dll in 10.0.16299. |
-| [SetThreadAffinityMask](https://msdn.microsoft.com/en-us/library/ms686247.aspx) | Introduced into api-ms-win-core-processtopology-obsolete-l1-1-0.dll in 10.0.16299. |
+| [GetProcessAffinityMask](https://msdn.microsoft.com/en-us/library/ms683213(v=VS.85).aspx) | Introduced into api-ms-win-core-processtopology-obsolete-l1-1-0.dll in 10.0.16299. |
+| [SetProcessAffinityMask](https://msdn.microsoft.com/en-us/library/ms686223(v=VS.85).aspx) | Introduced into api-ms-win-core-processtopology-obsolete-l1-1-0.dll in 10.0.16299. |
+| [SetThreadAffinityMask](https://msdn.microsoft.com/en-us/library/ms686247(v=VS.85).aspx) | Introduced into api-ms-win-core-processtopology-obsolete-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-psapi-ansi-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [K32GetModuleBaseNameA](https://msdn.microsoft.com/en-us/library/ms683196(v=VS.85).aspx) | Introduced into api-ms-win-core-psapi-ansi-l1-1-0.dll in 10.0.16299. |
+| [K32GetModuleFileNameExA](https://msdn.microsoft.com/en-us/library/ms683198(v=VS.85).aspx) | Introduced into api-ms-win-core-psapi-ansi-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-url-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [GetAcceptLanguagesA](https://msdn.microsoft.com/en-us/library/Bb759898(v=VS.85).aspx) | Introduced into api-ms-win-core-url-l1-1-0.dll in 10.0.16299. |
+| [GetAcceptLanguagesW](https://msdn.microsoft.com/en-us/library/Bb759898(v=VS.85).aspx) | Introduced into api-ms-win-core-url-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-versionansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetFileVersionInfoExA](https://msdn.microsoft.com/en-us/library/Gg784497.aspx) | Introduced into api-ms-win-core-versionansi-l1-1-0.dll in 10.0.16299. |
-| [GetFileVersionInfoSizeExA](https://msdn.microsoft.com/en-us/library/Aa969435.aspx) | Introduced into api-ms-win-core-versionansi-l1-1-0.dll in 10.0.16299. |
-| [VerQueryValueA](https://msdn.microsoft.com/en-us/library/Gg764659.aspx) | Introduced into api-ms-win-core-versionansi-l1-1-0.dll in 10.0.16299. |
+| [GetFileVersionInfoExA](https://msdn.microsoft.com/en-us/library/Aa969434(v=VS.85).aspx) | Introduced into api-ms-win-core-versionansi-l1-1-0.dll in 10.0.16299. |
+| [GetFileVersionInfoSizeExA](https://msdn.microsoft.com/en-us/library/Aa969435(v=VS.85).aspx) | Introduced into api-ms-win-core-versionansi-l1-1-0.dll in 10.0.16299. |
+| [VerQueryValueA](https://msdn.microsoft.com/en-us/library/ms647464(v=VS.85).aspx) | Introduced into api-ms-win-core-versionansi-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-windowserrorreporting-l1-1-1.dll
+
+| API | Requirements |
+| -----| --------------|
+| [WerRegisterAdditionalProcess](https://msdn.microsoft.com/en-us/library/Mt492585(v=VS.85).aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.16299. |
+| [WerRegisterCustomMetadata](https://msdn.microsoft.com/en-us/library/Mt492586(v=VS.85).aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.16299. |
+| [WerRegisterExcludedMemoryBlock](https://msdn.microsoft.com/en-us/library/Mt492587(v=VS.85).aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.16299. |
+| [WerUnregisterAdditionalProcess](https://msdn.microsoft.com/en-us/library/Mt492592(v=VS.85).aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.16299. |
+| [WerUnregisterCustomMetadata](https://msdn.microsoft.com/en-us/library/Mt492593(v=VS.85).aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.16299. |
+| [WerUnregisterExcludedMemoryBlock](https://msdn.microsoft.com/en-us/library/Mt492594(v=VS.85).aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-windowserrorreporting-l1-1-2.dll
 
 | API | Requirements |
 | -----| --------------|
-| [WerRegisterAppLocalDump](https://msdn.microsoft.com/en-us/library/Mt826208.aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-2.dll in 10.0.16299. |
-| [WerUnregisterAppLocalDump](https://msdn.microsoft.com/en-us/library/Mt826209.aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-2.dll in 10.0.16299. |
+| [WerRegisterAppLocalDump](https://msdn.microsoft.com/en-us/library/Mt826208(v=VS.85).aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-2.dll in 10.0.16299. |
+| [WerUnregisterAppLocalDump](https://msdn.microsoft.com/en-us/library/Mt826209(v=VS.85).aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-2.dll in 10.0.16299. |
 
 
-## APIs from api-ms-win-core-console-l2-1-0.dll
-
-| API | Requirements |
-| -----| --------------|
-| [FillConsoleOutputAttribute](https://msdn.microsoft.com/en-us/library/ms682662.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [FillConsoleOutputCharacterW](https://msdn.microsoft.com/en-us/library/ms682663.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [GetConsoleCursorInfo](https://msdn.microsoft.com/en-us/library/ms683163.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [GetConsoleScreenBufferInfo](https://msdn.microsoft.com/en-us/library/ms683171.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [GetConsoleTitleW](https://msdn.microsoft.com/en-us/library/ms683174.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [GetLargestConsoleWindowSize](https://msdn.microsoft.com/en-us/library/ms683193.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [PeekConsoleInputW](https://msdn.microsoft.com/en-us/library/ms684344.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [ReadConsoleOutputW](https://msdn.microsoft.com/en-us/library/ms684965.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [SetConsoleCP](https://msdn.microsoft.com/en-us/library/ms686013.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [SetConsoleCursorInfo](https://msdn.microsoft.com/en-us/library/ms686019.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [SetConsoleCursorPosition](https://msdn.microsoft.com/en-us/library/ms686025.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [SetConsoleOutputCP](https://msdn.microsoft.com/en-us/library/ms686036.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [SetConsoleScreenBufferSize](https://msdn.microsoft.com/en-us/library/ms686044.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [SetConsoleTextAttribute](https://msdn.microsoft.com/en-us/library/ms686047.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [SetConsoleTitleW](https://msdn.microsoft.com/en-us/library/ms686050.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [SetConsoleWindowInfo](https://msdn.microsoft.com/en-us/library/ms686125.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [WriteConsoleOutputW](https://msdn.microsoft.com/en-us/library/Cc429851.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-
-
-## APIs from api-ms-win-core-file-l2-1-0.dll
+## APIs from api-ms-win-security-lsalookup-ansi-l2-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CopyFileExW](https://msdn.microsoft.com/en-us/library/Aa363852.aspx) | Introduced into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. |
-| ReadDirectoryChangesW | Introduced into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. |
+| [LookupAccountNameA](https://msdn.microsoft.com/en-us/library/Aa379159(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
+| [LookupAccountSidA](https://msdn.microsoft.com/en-us/library/Aa379166(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
+| [LookupPrivilegeDisplayNameA](https://msdn.microsoft.com/en-us/library/Aa379168(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
+| [LookupPrivilegeNameA](https://msdn.microsoft.com/en-us/library/Aa379176(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
+| [LookupPrivilegeValueA](https://msdn.microsoft.com/en-us/library/Aa379180(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
 
 
-## APIs from api-ms-win-core-file-l2-1-2.dll
-
-| API | Requirements |
-| -----| --------------|
-| [CopyFileW](https://msdn.microsoft.com/en-us/library/ms891449.aspx) | Introduced into api-ms-win-core-file-l2-1-2.dll in 10.0.16299. |
-
-
-## APIs from api-ms-win-core-version-l1-1-0.dll
+## APIs from api-ms-win-security-lsalookup-l2-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetFileVersionInfoExW](https://msdn.microsoft.com/en-us/library/Aa969434.aspx) | Introduced into api-ms-win-core-version-l1-1-0.dll in 10.0.16299. |
-| [GetFileVersionInfoSizeExW](https://msdn.microsoft.com/en-us/library/Aa969435.aspx) | Introduced into api-ms-win-core-version-l1-1-0.dll in 10.0.16299. |
-| [VerQueryValueW](https://msdn.microsoft.com/en-us/library/ms915509.aspx) | Introduced into api-ms-win-core-version-l1-1-0.dll in 10.0.16299. |
+| [LookupAccountNameW](https://msdn.microsoft.com/en-us/library/Aa379159(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. |
+| [LookupAccountSidW](https://msdn.microsoft.com/en-us/library/Aa379166(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. |
+| [LookupPrivilegeDisplayNameW](https://msdn.microsoft.com/en-us/library/Aa379168(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. |
+| [LookupPrivilegeNameW](https://msdn.microsoft.com/en-us/library/Aa379176(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. |
+| [LookupPrivilegeValueW](https://msdn.microsoft.com/en-us/library/Aa379180(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. |
 
 
-## APIs from api-ms-win-core-file-ansi-l1-1-0.dll
+## APIs from api-ms-win-security-provider-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [DeleteVolumeMountPointA](https://msdn.microsoft.com/en-us/library/Aa363927.aspx) | Introduced into api-ms-win-core-file-ansi-l1-1-0.dll in 10.0.16299. |
+| [GetExplicitEntriesFromAclA](https://msdn.microsoft.com/en-us/library/Aa446638(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. |
+| [GetNamedSecurityInfoA](https://msdn.microsoft.com/en-us/library/Aa446645(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. |
+| [SetEntriesInAclA](https://msdn.microsoft.com/en-us/library/Aa379576(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. |
+| [SetNamedSecurityInfoA](https://msdn.microsoft.com/en-us/library/Aa379579(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-security-provider-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [GetExplicitEntriesFromAclW](https://msdn.microsoft.com/en-us/library/Aa446638(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. |
+| [GetNamedSecurityInfoW](https://msdn.microsoft.com/en-us/library/Aa446645(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. |
+| [GetSecurityInfo](https://msdn.microsoft.com/en-us/library/Aa446654(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. |
+| [SetEntriesInAclW](https://msdn.microsoft.com/en-us/library/Aa379576(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. |
+| [SetNamedSecurityInfoW](https://msdn.microsoft.com/en-us/library/Aa379579(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. |
+| [SetSecurityInfo](https://msdn.microsoft.com/en-us/library/Aa379588(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-security-sddl-ansi-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [ConvertSidToStringSidA](https://msdn.microsoft.com/en-us/library/Aa376399(v=VS.85).aspx) | Introduced into api-ms-win-security-sddl-ansi-l1-1-0.dll in 10.0.16299. |
+| [ConvertStringSidToSidA](https://msdn.microsoft.com/en-us/library/Aa376402(v=VS.85).aspx) | Introduced into api-ms-win-security-sddl-ansi-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from coremessaging.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CreateDispatcherQueueController](https://msdn.microsoft.com/en-us/library/Mt826210(v=VS.85).aspx) | Introduced into coremessaging.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-localization-obsolete-l1-2-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [EnumUILanguagesW](https://msdn.microsoft.com/en-us/library/Dd317834(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-obsolete-l1-2-0.dll in 10.0.16299. |
+| [GetUserDefaultUILanguage](https://msdn.microsoft.com/en-us/library/Dd318137(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-obsolete-l1-2-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-namedpipe-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetNamedPipeClientComputerNameA](https://msdn.microsoft.com/en-us/library/Aa365437.aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. |
-| [GetNamedPipeHandleStateA](https://msdn.microsoft.com/en-us/library/Aa365443.aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. |
-| [WaitNamedPipeA](https://msdn.microsoft.com/en-us/library/Aa365800.aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. |
+| [GetNamedPipeClientComputerNameA](https://msdn.microsoft.com/en-us/library/Aa365437(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. |
+| [GetNamedPipeHandleStateA](https://msdn.microsoft.com/en-us/library/Aa365443(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. |
+| [WaitNamedPipeA](https://msdn.microsoft.com/en-us/library/Aa365800(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-namedpipe-ansi-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CallNamedPipeA](https://msdn.microsoft.com/en-us/library/Aa365144.aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-1.dll in 10.0.16299. |
+| [CallNamedPipeA](https://msdn.microsoft.com/en-us/library/Aa365144(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-1.dll in 10.0.16299. |
 
 
-## APIs from api-ms-win-core-comm-l1-1-0.dll
-
-| API | Requirements |
-| -----| --------------|
-| [ClearCommBreak](https://msdn.microsoft.com/en-us/library/ms885166.aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [ClearCommError](https://msdn.microsoft.com/en-us/library/ms885167.aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [EscapeCommFunction](https://msdn.microsoft.com/en-us/library/ms885213.aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [GetCommConfig](https://msdn.microsoft.com/en-us/library/Aa363256.aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [GetCommMask](https://msdn.microsoft.com/en-us/library/ms885606.aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [GetCommModemStatus](https://msdn.microsoft.com/en-us/library/ms885607.aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [GetCommProperties](https://msdn.microsoft.com/en-us/library/ms885608.aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [GetCommState](https://msdn.microsoft.com/en-us/library/ms885609.aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [GetCommTimeouts](https://msdn.microsoft.com/en-us/library/ms885610.aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [PurgeComm](https://msdn.microsoft.com/en-us/library/ms886785.aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [SetCommBreak](https://msdn.microsoft.com/en-us/library/ms886804.aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [SetCommConfig](https://msdn.microsoft.com/en-us/library/Aa363434.aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [SetCommMask](https://msdn.microsoft.com/en-us/library/ms886805.aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [SetCommState](https://msdn.microsoft.com/en-us/library/ms886806.aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [SetCommTimeouts](https://msdn.microsoft.com/en-us/library/ms886807.aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [SetupComm](https://msdn.microsoft.com/en-us/library/ms913064.aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [TransmitCommChar](https://msdn.microsoft.com/en-us/library/ms913354.aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [WaitCommEvent](https://msdn.microsoft.com/en-us/library/ms913508.aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-
-
-## APIs from api-ms-win-core-console-l1-1-0.dll
+## APIs from api-ms-win-core-console-l2-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetConsoleCP](https://msdn.microsoft.com/en-us/library/ms683162.aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
-| [GetConsoleMode](https://msdn.microsoft.com/en-us/library/ms683167.aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
-| [GetConsoleOutputCP](https://msdn.microsoft.com/en-us/library/ms683169.aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
-| [ReadConsoleInputW](https://msdn.microsoft.com/en-us/library/ms684961.aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
-| [ReadConsoleW](https://msdn.microsoft.com/en-us/library/ms684958.aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
-| [SetConsoleCtrlHandler](https://msdn.microsoft.com/en-us/library/ms686016.aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
-| [SetConsoleMode](https://msdn.microsoft.com/en-us/library/ms686033.aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
-| [WriteConsoleW](https://msdn.microsoft.com/en-us/library/ms687401.aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
+| [FillConsoleOutputAttribute](https://msdn.microsoft.com/en-us/library/ms682662(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [FillConsoleOutputCharacterW](https://msdn.microsoft.com/en-us/library/ms682663(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [GetConsoleCursorInfo](https://msdn.microsoft.com/en-us/library/ms683163(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [GetConsoleScreenBufferInfo](https://msdn.microsoft.com/en-us/library/ms683171(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [GetConsoleTitleW](https://msdn.microsoft.com/en-us/library/ms683174(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-console-l2-2-0.dll in 10.0.17134. |
+| [GetLargestConsoleWindowSize](https://msdn.microsoft.com/en-us/library/ms683193(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [PeekConsoleInputW](https://msdn.microsoft.com/en-us/library/ms684344(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-console-l1-2-0.dll in 10.0.17134. |
+| [ReadConsoleOutputW](https://msdn.microsoft.com/en-us/library/ms684965(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [SetConsoleCP](https://msdn.microsoft.com/en-us/library/ms686013(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [SetConsoleCursorInfo](https://msdn.microsoft.com/en-us/library/ms686019(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [SetConsoleCursorPosition](https://msdn.microsoft.com/en-us/library/ms686025(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [SetConsoleOutputCP](https://msdn.microsoft.com/en-us/library/ms686036(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [SetConsoleScreenBufferSize](https://msdn.microsoft.com/en-us/library/ms686044(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [SetConsoleTextAttribute](https://msdn.microsoft.com/en-us/library/ms686047(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [SetConsoleTitleW](https://msdn.microsoft.com/en-us/library/ms686050(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-console-l2-2-0.dll in 10.0.17134. |
+| [SetConsoleWindowInfo](https://msdn.microsoft.com/en-us/library/ms686125(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [WriteConsoleOutputW](https://msdn.microsoft.com/en-us/library/ms687404(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [CreateConsoleScreenBuffer](https://msdn.microsoft.com/en-us/library/ms682122(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [FillConsoleOutputCharacterA](https://msdn.microsoft.com/en-us/library/ms682663(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [FlushConsoleInputBuffer](https://msdn.microsoft.com/en-us/library/ms683147(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [GenerateConsoleCtrlEvent](https://msdn.microsoft.com/en-us/library/ms683155(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [GetConsoleScreenBufferInfoEx](https://msdn.microsoft.com/en-us/library/ms683172(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [ReadConsoleOutputA](https://msdn.microsoft.com/en-us/library/ms684965(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [ReadConsoleOutputAttribute](https://msdn.microsoft.com/en-us/library/ms684968(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [ReadConsoleOutputCharacterA](https://msdn.microsoft.com/en-us/library/ms684969(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [ReadConsoleOutputCharacterW](https://msdn.microsoft.com/en-us/library/ms684969(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [ScrollConsoleScreenBufferA](https://msdn.microsoft.com/en-us/library/ms685107(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [ScrollConsoleScreenBufferW](https://msdn.microsoft.com/en-us/library/ms685107(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [SetConsoleActiveScreenBuffer](https://msdn.microsoft.com/en-us/library/ms686010(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [SetConsoleScreenBufferInfoEx](https://msdn.microsoft.com/en-us/library/ms686039(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [WriteConsoleInputA](https://msdn.microsoft.com/en-us/library/ms687403(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [WriteConsoleInputW](https://msdn.microsoft.com/en-us/library/ms687403(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [WriteConsoleOutputA](https://msdn.microsoft.com/en-us/library/ms687404(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [WriteConsoleOutputAttribute](https://msdn.microsoft.com/en-us/library/ms687407(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [WriteConsoleOutputCharacterA](https://msdn.microsoft.com/en-us/library/ms687410(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [WriteConsoleOutputCharacterW](https://msdn.microsoft.com/en-us/library/ms687410(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+
+
+## APIs from api-ms-win-core-file-l2-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CopyFileExW](https://msdn.microsoft.com/en-us/library/Aa363852(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. |
+| [ReadDirectoryChangesW](https://msdn.microsoft.com/en-us/library/Aa365465(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-file-l2-1-2.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CopyFileW](https://msdn.microsoft.com/en-us/library/Aa363851(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l2-1-2.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-version-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [GetFileVersionInfoExW](https://msdn.microsoft.com/en-us/library/Aa969434(v=VS.85).aspx) | Introduced into api-ms-win-core-version-l1-1-0.dll in 10.0.16299. |
+| [GetFileVersionInfoSizeExW](https://msdn.microsoft.com/en-us/library/Aa969435(v=VS.85).aspx) | Introduced into api-ms-win-core-version-l1-1-0.dll in 10.0.16299. |
+| [VerQueryValueW](https://msdn.microsoft.com/en-us/library/ms647464(v=VS.85).aspx) | Introduced into api-ms-win-core-version-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-file-ansi-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [DeleteVolumeMountPointA](https://msdn.microsoft.com/en-us/library/Aa363927(v=VS.85).aspx) | Introduced into api-ms-win-core-file-ansi-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-errorhandling-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [SetErrorMode](https://msdn.microsoft.com/en-us/library/ms680621.aspx) | Introduced into api-ms-win-core-errorhandling-l1-1-0.dll in 10.0.16299. |
+| [SetErrorMode](https://msdn.microsoft.com/en-us/library/ms680621(v=VS.85).aspx) | Introduced into api-ms-win-core-errorhandling-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-file-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [DeleteVolumeMountPointW](https://msdn.microsoft.com/en-us/library/Aa363927.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetDriveTypeA](https://msdn.microsoft.com/en-us/library/Aa364939.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetDriveTypeW](https://msdn.microsoft.com/en-us/library/Aa364939.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetFullPathNameA](https://msdn.microsoft.com/en-us/library/Aa364963.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetLogicalDrives](https://msdn.microsoft.com/en-us/library/Aa268528.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetVolumeInformationW](https://msdn.microsoft.com/en-us/library/Aa364993.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [LockFile](https://msdn.microsoft.com/en-us/library/ms891385.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [UnlockFile](https://msdn.microsoft.com/en-us/library/ms892364.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [DeleteVolumeMountPointW](https://msdn.microsoft.com/en-us/library/Aa363927(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetDriveTypeA](https://msdn.microsoft.com/en-us/library/Aa364939(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetDriveTypeW](https://msdn.microsoft.com/en-us/library/Aa364939(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetFullPathNameA](https://msdn.microsoft.com/en-us/library/Aa364963(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetLogicalDrives](https://msdn.microsoft.com/en-us/library/Aa364972(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetVolumeInformationW](https://msdn.microsoft.com/en-us/library/Aa364993(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [LockFile](https://msdn.microsoft.com/en-us/library/Aa365202(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [UnlockFile](https://msdn.microsoft.com/en-us/library/Aa365715(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-interlocked-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [InterlockedCompareExchange](https://msdn.microsoft.com/en-us/library/windows/desktop/ff471409.aspx) | Introduced into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
+| [InterlockedCompareExchange64](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683562.aspx) | Introduced into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
+| [InterlockedDecrement](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683580.aspx) | Introduced into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
+| [InterlockedExchange](https://msdn.microsoft.com/en-us/library/windows/desktop/ff471411.aspx) | Introduced into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
+| [InterlockedExchangeAdd](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683597.aspx) | Introduced into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
+| [InterlockedIncrement](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683614.aspx) | Introduced into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-localization-l1-2-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [IsNLSDefinedString](https://msdn.microsoft.com/en-us/library/Dd318669.aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [VerLanguageNameA](https://msdn.microsoft.com/en-us/library/ms647463.aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [VerLanguageNameW](https://msdn.microsoft.com/en-us/library/ms647463.aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-
-
-## APIs from api-ms-win-core-memory-l1-1-1.dll
-
-| API | Requirements |
-| -----| --------------|
-| [GetLargePageMinimum](https://msdn.microsoft.com/en-us/library/Aa366568.aspx) | Introduced into api-ms-win-core-memory-l1-1-1.dll in 10.0.16299. |
-| [GetProcessWorkingSetSizeEx](https://msdn.microsoft.com/en-us/library/ms683227.aspx) | Introduced into api-ms-win-core-memory-l1-1-1.dll in 10.0.16299. |
-| [SetProcessWorkingSetSizeEx](https://msdn.microsoft.com/en-us/library/ms686237.aspx) | Introduced into api-ms-win-core-memory-l1-1-1.dll in 10.0.16299. |
-
-
-## APIs from api-ms-win-core-namedpipe-l1-1-0.dll
-
-| API | Requirements |
-| -----| --------------|
-| [ConnectNamedPipe](https://msdn.microsoft.com/en-us/library/Aa365146.aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
-| [CreateNamedPipeW](https://msdn.microsoft.com/en-us/library/Aa365150.aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
-| [CreatePipe](https://msdn.microsoft.com/en-us/library/Aa365152.aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
-| [DisconnectNamedPipe](https://msdn.microsoft.com/en-us/library/Aa365166.aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
-| [GetNamedPipeClientComputerNameW](https://msdn.microsoft.com/en-us/library/Aa365437.aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
-| [PeekNamedPipe](https://msdn.microsoft.com/en-us/library/Aa365779.aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
-| [SetNamedPipeHandleState](https://msdn.microsoft.com/en-us/library/Aa365787.aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
-| [TransactNamedPipe](https://msdn.microsoft.com/en-us/library/Aa365790.aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
-| [WaitNamedPipeW](https://msdn.microsoft.com/en-us/library/Aa365800.aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
-
-
-## APIs from api-ms-win-core-namedpipe-l1-2-1.dll
-
-| API | Requirements |
-| -----| --------------|
-| [GetNamedPipeHandleStateW](https://msdn.microsoft.com/en-us/library/Aa365443.aspx) | Introduced into api-ms-win-core-namedpipe-l1-2-1.dll in 10.0.16299. |
-| [GetNamedPipeInfo](https://msdn.microsoft.com/en-us/library/Aa365445.aspx) | Introduced into api-ms-win-core-namedpipe-l1-2-1.dll in 10.0.16299. |
-
-
-## APIs from api-ms-win-core-processthreads-l1-1-0.dll
-
-| API | Requirements |
-| -----| --------------|
-| [CreateProcessA](https://msdn.microsoft.com/en-us/library/60katz9k.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [CreateProcessW](https://msdn.microsoft.com/en-us/library/60katz9k.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [GetPriorityClass](https://msdn.microsoft.com/en-us/library/ms683211.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [GetThreadPriorityBoost](https://msdn.microsoft.com/en-us/library/ms683236.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [OpenThreadToken](https://msdn.microsoft.com/en-us/library/ms383723.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [SetPriorityClass](https://msdn.microsoft.com/en-us/library/ms686219.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [SetThreadPriorityBoost](https://msdn.microsoft.com/en-us/library/ms686280.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [SetThreadToken](https://msdn.microsoft.com/en-us/library/Aa379590.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-
-
-## APIs from api-ms-win-core-processthreads-l1-1-1.dll
-
-| API | Requirements |
-| -----| --------------|
-| [FlushInstructionCache](https://msdn.microsoft.com/en-us/library/ms885595.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
-| [GetCurrentThreadStackLimits](https://msdn.microsoft.com/en-us/library/Hh706789.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
-
-
-## APIs from api-ms-win-core-sysinfo-l1-1-0.dll
-
-| API | Requirements |
-| -----| --------------|
-| [GetSystemDirectoryA](https://msdn.microsoft.com/en-us/library/ms724373.aspx) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
-| [GetSystemDirectoryW](https://msdn.microsoft.com/en-us/library/ms724373.aspx) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
-| [GetVersionExA](https://msdn.microsoft.com/en-us/library/ms894256.aspx) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
-| [GetVersionExW](https://msdn.microsoft.com/en-us/library/ms885648.aspx) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+| [GetACP](https://msdn.microsoft.com/en-us/library/Dd318070(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [GetLocaleInfoA](https://msdn.microsoft.com/en-us/library/Dd318101(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [GetLocaleInfoW](https://msdn.microsoft.com/en-us/library/Dd318101(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [GetUserDefaultLangID](https://msdn.microsoft.com/en-us/library/Dd318134(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [IsDBCSLeadByte](https://msdn.microsoft.com/en-us/library/Dd318664(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [IsDBCSLeadByteEx](https://msdn.microsoft.com/en-us/library/Dd318667(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [IsNLSDefinedString](https://msdn.microsoft.com/en-us/library/Dd318669(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [VerLanguageNameA](https://msdn.microsoft.com/en-us/library/ms647463(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [VerLanguageNameW](https://msdn.microsoft.com/en-us/library/ms647463(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-wow64-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [IsWow64Process](https://msdn.microsoft.com/en-us/library/ms684139.aspx) | Introduced into api-ms-win-core-wow64-l1-1-0.dll in 10.0.16299. |
+| [IsWow64Process](https://msdn.microsoft.com/en-us/library/ms684139(v=VS.85).aspx) | Introduced into api-ms-win-core-wow64-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-memory-l1-1-1.dll
+
+| API | Requirements |
+| -----| --------------|
+| [GetLargePageMinimum](https://msdn.microsoft.com/en-us/library/Aa366568(v=VS.85).aspx) | Introduced into api-ms-win-core-memory-l1-1-1.dll in 10.0.16299. |
+| [GetProcessWorkingSetSizeEx](https://msdn.microsoft.com/en-us/library/ms683227(v=VS.85).aspx) | Introduced into api-ms-win-core-memory-l1-1-1.dll in 10.0.16299. |
+| [SetProcessWorkingSetSizeEx](https://msdn.microsoft.com/en-us/library/ms686237(v=VS.85).aspx) | Introduced into api-ms-win-core-memory-l1-1-1.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-namedpipe-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [ConnectNamedPipe](https://msdn.microsoft.com/en-us/library/Aa365146(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
+| [CreateNamedPipeW](https://msdn.microsoft.com/en-us/library/Aa365150(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
+| [CreatePipe](https://msdn.microsoft.com/en-us/library/Aa365152(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
+| [DisconnectNamedPipe](https://msdn.microsoft.com/en-us/library/Aa365166(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
+| [GetNamedPipeClientComputerNameW](https://msdn.microsoft.com/en-us/library/Aa365437(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
+| [PeekNamedPipe](https://msdn.microsoft.com/en-us/library/Aa365779(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
+| [SetNamedPipeHandleState](https://msdn.microsoft.com/en-us/library/Aa365787(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
+| [TransactNamedPipe](https://msdn.microsoft.com/en-us/library/Aa365790(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
+| [WaitNamedPipeW](https://msdn.microsoft.com/en-us/library/Aa365800(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-namedpipe-l1-2-1.dll
+
+| API | Requirements |
+| -----| --------------|
+| [GetNamedPipeHandleStateW](https://msdn.microsoft.com/en-us/library/Aa365443(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-2-1.dll in 10.0.16299. |
+| [GetNamedPipeInfo](https://msdn.microsoft.com/en-us/library/Aa365445(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-2-1.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-processenvironment-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [ExpandEnvironmentStringsA](https://msdn.microsoft.com/en-us/library/ms724265(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [ExpandEnvironmentStringsW](https://msdn.microsoft.com/en-us/library/ms724265(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [FreeEnvironmentStringsA](https://msdn.microsoft.com/en-us/library/ms683151(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [FreeEnvironmentStringsW](https://msdn.microsoft.com/en-us/library/ms683151(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [GetEnvironmentStrings](https://msdn.microsoft.com/en-us/library/ms683187(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [GetEnvironmentStringsW](https://msdn.microsoft.com/en-us/library/ms683187(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [GetEnvironmentVariableA](https://msdn.microsoft.com/en-us/library/ms683188(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [GetEnvironmentVariableW](https://msdn.microsoft.com/en-us/library/ms683188(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [GetStdHandle](https://msdn.microsoft.com/en-us/library/ms683231(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [SetEnvironmentVariableA](https://msdn.microsoft.com/en-us/library/ms686206(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [SetEnvironmentVariableW](https://msdn.microsoft.com/en-us/library/ms686206(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [SetStdHandle](https://msdn.microsoft.com/en-us/library/ms686244(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| SetStdHandleEx | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-processthreads-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CreateProcessA](https://msdn.microsoft.com/en-us/library/ms682425(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [CreateProcessW](https://msdn.microsoft.com/en-us/library/ms682425(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [GetExitCodeProcess](https://msdn.microsoft.com/en-us/library/ms683189(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [GetPriorityClass](https://msdn.microsoft.com/en-us/library/ms683211(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [GetProcessId](https://msdn.microsoft.com/en-us/library/ms683215(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [GetProcessTimes](https://msdn.microsoft.com/en-us/library/ms683223(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [GetThreadPriorityBoost](https://msdn.microsoft.com/en-us/library/ms683236(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [OpenProcessToken](https://msdn.microsoft.com/en-us/library/Aa379295(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [OpenThread](https://msdn.microsoft.com/en-us/library/ms684335(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [OpenThreadToken](https://msdn.microsoft.com/en-us/library/Aa379296(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [SetPriorityClass](https://msdn.microsoft.com/en-us/library/ms686219(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [SetThreadPriorityBoost](https://msdn.microsoft.com/en-us/library/ms686280(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [SetThreadToken](https://msdn.microsoft.com/en-us/library/Aa379590(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [ExitProcess](https://msdn.microsoft.com/en-us/library/ms682658(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.17763. |
+
+
+## APIs from api-ms-win-core-processthreads-l1-1-1.dll
+
+| API | Requirements |
+| -----| --------------|
+| [FlushInstructionCache](https://msdn.microsoft.com/en-us/library/ms679350(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
+| [GetCurrentProcessorNumber](https://msdn.microsoft.com/en-us/library/ms683181(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
+| [GetCurrentProcessorNumberEx](https://msdn.microsoft.com/en-us/library/Dd405487(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
+| [GetCurrentThreadStackLimits](https://msdn.microsoft.com/en-us/library/Hh706789(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
+| [GetProcessMitigationPolicy](https://msdn.microsoft.com/en-us/library/Hh769085(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
+| [GetThreadIdealProcessorEx](https://msdn.microsoft.com/en-us/library/Dd405499(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
+| [GetThreadTimes](https://msdn.microsoft.com/en-us/library/ms683237(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-security-base-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
+| [AddAccessAllowedAce](https://msdn.microsoft.com/en-us/library/Aa374947(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [AddAccessAllowedAceEx](https://msdn.microsoft.com/en-us/library/Aa374951(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [AddAce](https://msdn.microsoft.com/en-us/library/Aa374970(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [AddMandatoryAce](https://msdn.microsoft.com/en-us/library/Aa965464(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [AdjustTokenGroups](https://msdn.microsoft.com/en-us/library/Aa375199(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [AdjustTokenPrivileges](https://msdn.microsoft.com/en-us/library/Aa375202(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [AllocateAndInitializeSid](https://msdn.microsoft.com/en-us/library/Aa375213(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [AllocateLocallyUniqueId](https://msdn.microsoft.com/en-us/library/Aa375260(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [CheckTokenMembership](https://msdn.microsoft.com/en-us/library/Aa376389(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [CopySid](https://msdn.microsoft.com/en-us/library/Aa376404(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [CreateWellKnownSid](https://msdn.microsoft.com/en-us/library/Aa446585(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [DeleteAce](https://msdn.microsoft.com/en-us/library/Aa446612(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [DuplicateToken](https://msdn.microsoft.com/en-us/library/Aa446616(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [DuplicateTokenEx](https://msdn.microsoft.com/en-us/library/Aa446617(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [EqualDomainSid](https://msdn.microsoft.com/en-us/library/Aa446620(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [FreeSid](https://msdn.microsoft.com/en-us/library/Aa446631(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetAce](https://msdn.microsoft.com/en-us/library/Aa446634(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetAclInformation](https://msdn.microsoft.com/en-us/library/Aa446635(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetKernelObjectSecurity](https://msdn.microsoft.com/en-us/library/Aa446641(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetLengthSid](https://msdn.microsoft.com/en-us/library/Aa446642(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetSecurityDescriptorControl](https://msdn.microsoft.com/en-us/library/Aa446647(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetSecurityDescriptorDacl](https://msdn.microsoft.com/en-us/library/Aa446648(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetSecurityDescriptorGroup](https://msdn.microsoft.com/en-us/library/Aa446649(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetSecurityDescriptorLength](https://msdn.microsoft.com/en-us/library/Aa446650(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetSecurityDescriptorOwner](https://msdn.microsoft.com/en-us/library/Aa446651(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetSecurityDescriptorRMControl](https://msdn.microsoft.com/en-us/library/Aa446652(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetSecurityDescriptorSacl](https://msdn.microsoft.com/en-us/library/Aa446653(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetSidIdentifierAuthority](https://msdn.microsoft.com/en-us/library/Aa446655(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetSidLengthRequired](https://msdn.microsoft.com/en-us/library/Aa446656(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetSidSubAuthority](https://msdn.microsoft.com/en-us/library/Aa446657(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetSidSubAuthorityCount](https://msdn.microsoft.com/en-us/library/Aa446658(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetTokenInformation](https://msdn.microsoft.com/en-us/library/Aa446671(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetWindowsAccountDomainSid](https://msdn.microsoft.com/en-us/library/Aa446676(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [InitializeAcl](https://msdn.microsoft.com/en-us/library/Aa378853(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [InitializeSecurityDescriptor](https://msdn.microsoft.com/en-us/library/Aa378863(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [InitializeSid](https://msdn.microsoft.com/en-us/library/Aa378875(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [IsValidAcl](https://msdn.microsoft.com/en-us/library/Aa379142(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [IsValidSecurityDescriptor](https://msdn.microsoft.com/en-us/library/Aa379147(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [IsValidSid](https://msdn.microsoft.com/en-us/library/Aa379151(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [IsWellKnownSid](https://msdn.microsoft.com/en-us/library/Aa379154(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [MakeAbsoluteSD](https://msdn.microsoft.com/en-us/library/Aa379264(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [MakeSelfRelativeSD](https://msdn.microsoft.com/en-us/library/Aa379265(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [SetKernelObjectSecurity](https://msdn.microsoft.com/en-us/library/Aa379578(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [SetSecurityDescriptorControl](https://msdn.microsoft.com/en-us/library/Aa379582(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [SetSecurityDescriptorDacl](https://msdn.microsoft.com/en-us/library/Aa379583(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [SetSecurityDescriptorGroup](https://msdn.microsoft.com/en-us/library/Aa379584(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [SetSecurityDescriptorOwner](https://msdn.microsoft.com/en-us/library/Aa379585(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [SetSecurityDescriptorRMControl](https://msdn.microsoft.com/en-us/library/Aa379586(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [SetSecurityDescriptorSacl](https://msdn.microsoft.com/en-us/library/Aa379587(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [SetTokenInformation](https://msdn.microsoft.com/en-us/library/Aa379591(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-security-sddl-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [ConvertSecurityDescriptorToStringSecurityDescriptorW](https://msdn.microsoft.com/en-us/library/Aa376397(v=VS.85).aspx) | Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.16299. |
+| [ConvertSidToStringSidW](https://msdn.microsoft.com/en-us/library/Aa376399(v=VS.85).aspx) | Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.16299. |
+| [ConvertStringSecurityDescriptorToSecurityDescriptorW](https://msdn.microsoft.com/en-us/library/Aa376401(v=VS.85).aspx) | Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.16299. |
+| [ConvertStringSidToSidW](https://msdn.microsoft.com/en-us/library/Aa376402(v=VS.85).aspx) | Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-synch-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CancelWaitableTimer](https://msdn.microsoft.com/en-us/library/ms681985(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [CreateWaitableTimerExW](https://msdn.microsoft.com/en-us/library/ms682494(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [OpenWaitableTimerW](https://msdn.microsoft.com/en-us/library/ms684337(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [SetWaitableTimer](https://msdn.microsoft.com/en-us/library/ms686289(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [SetWaitableTimerEx](https://msdn.microsoft.com/en-us/library/Dd405521(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-sysinfo-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [GetSystemDirectoryA](https://msdn.microsoft.com/en-us/library/ms724373(v=VS.85).aspx) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+| [GetSystemDirectoryW](https://msdn.microsoft.com/en-us/library/ms724373(v=VS.85).aspx) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+| [GetTickCount](https://msdn.microsoft.com/en-us/library/ms724408(v=VS.85).aspx) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+| [GetVersionExA](https://msdn.microsoft.com/en-us/library/ms724451(v=VS.85).aspx) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+| [GetVersionExW](https://msdn.microsoft.com/en-us/library/ms724451(v=VS.85).aspx) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-comm-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [ClearCommBreak](https://msdn.microsoft.com/en-us/library/Aa363179(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [ClearCommError](https://msdn.microsoft.com/en-us/library/Aa363180(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [EscapeCommFunction](https://msdn.microsoft.com/en-us/library/Aa363254(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [GetCommConfig](https://msdn.microsoft.com/en-us/library/Aa363256(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [GetCommMask](https://msdn.microsoft.com/en-us/library/Aa363257(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [GetCommModemStatus](https://msdn.microsoft.com/en-us/library/Aa363258(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [GetCommProperties](https://msdn.microsoft.com/en-us/library/Aa363259(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [GetCommState](https://msdn.microsoft.com/en-us/library/Aa363260(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [GetCommTimeouts](https://msdn.microsoft.com/en-us/library/Aa363261(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [PurgeComm](https://msdn.microsoft.com/en-us/library/Aa363428(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [SetCommBreak](https://msdn.microsoft.com/en-us/library/Aa363433(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [SetCommConfig](https://msdn.microsoft.com/en-us/library/Aa363434(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [SetCommMask](https://msdn.microsoft.com/en-us/library/Aa363435(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [SetCommState](https://msdn.microsoft.com/en-us/library/Aa363436(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [SetCommTimeouts](https://msdn.microsoft.com/en-us/library/Aa363437(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [SetupComm](https://msdn.microsoft.com/en-us/library/Aa363439(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [TransmitCommChar](https://msdn.microsoft.com/en-us/library/Aa363473(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [WaitCommEvent](https://msdn.microsoft.com/en-us/library/Aa363479(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-console-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [GetConsoleCP](https://msdn.microsoft.com/en-us/library/ms683162(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
+| [GetConsoleMode](https://msdn.microsoft.com/en-us/library/ms683167(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
+| [GetConsoleOutputCP](https://msdn.microsoft.com/en-us/library/ms683169(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
+| [ReadConsoleInputW](https://msdn.microsoft.com/en-us/library/ms684961(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
+| [ReadConsoleW](https://msdn.microsoft.com/en-us/library/ms684958(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
+| [SetConsoleCtrlHandler](https://msdn.microsoft.com/en-us/library/ms686016(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
+| [SetConsoleMode](https://msdn.microsoft.com/en-us/library/ms686033(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
+| [WriteConsoleW](https://msdn.microsoft.com/en-us/library/ms687401(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
+| [AllocConsole](https://msdn.microsoft.com/en-us/library/ms681944(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.17134. |
+| [GetNumberOfConsoleInputEvents](https://msdn.microsoft.com/en-us/library/ms683207(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.17134. |
+| [ReadConsoleA](https://msdn.microsoft.com/en-us/library/ms684958(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.17134. |
+| [ReadConsoleInputA](https://msdn.microsoft.com/en-us/library/ms684961(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.17134. |
+| [WriteConsoleA](https://msdn.microsoft.com/en-us/library/ms687401(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.17134. |
+
+
+## APIs from api-ms-win-appmodel-runtime-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [PackageFamilyNameFromFullName](https://msdn.microsoft.com/en-us/library/Hh446769(v=VS.85).aspx) | Introduced into api-ms-win-appmodel-runtime-l1-1-0.dll in 10.0.16299. |
+| [PackageFamilyNameFromId](https://msdn.microsoft.com/en-us/library/Hh446770(v=VS.85).aspx) | Introduced into api-ms-win-appmodel-runtime-l1-1-0.dll in 10.0.16299. |
+| [PackageFullNameFromId](https://msdn.microsoft.com/en-us/library/Hh446771(v=VS.85).aspx) | Introduced into api-ms-win-appmodel-runtime-l1-1-0.dll in 10.0.16299. |
+| [PackageIdFromFullName](https://msdn.microsoft.com/en-us/library/Hh446772(v=VS.85).aspx) | Introduced into api-ms-win-appmodel-runtime-l1-1-0.dll in 10.0.16299. |
+| [PackageNameAndPublisherIdFromFamilyName](https://msdn.microsoft.com/en-us/library/Hh446773(v=VS.85).aspx) | Introduced into api-ms-win-appmodel-runtime-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-appmodel-runtime-l1-1-1.dll
+
+| API | Requirements |
+| -----| --------------|
+| [FormatApplicationUserModelId](https://msdn.microsoft.com/en-us/library/Dn270602(v=VS.85).aspx) | Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.16299. |
+| [ParseApplicationUserModelId](https://msdn.microsoft.com/en-us/library/Dn313168(v=VS.85).aspx) | Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.16299. |
+| VerifyApplicationUserModelId | Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.16299. |
+| VerifyPackageFamilyName | Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.16299. |
+| VerifyPackageFullName | Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.16299. |
+| VerifyPackageId | Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.16299. |
+| VerifyPackageRelativeApplicationId | Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-comm-l1-1-1.dll
+
+| API | Requirements |
+| -----| --------------|
+| [OpenCommPort](https://msdn.microsoft.com/en-us/library/Mt829668(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-1.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-enclave-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CreateEnclave](https://msdn.microsoft.com/en-us/library/Mt592866(v=VS.85).aspx) | Introduced into api-ms-win-core-enclave-l1-1-0.dll in 10.0.16299. |
+| [InitializeEnclave](https://msdn.microsoft.com/en-us/library/Mt592869(v=VS.85).aspx) | Introduced into api-ms-win-core-enclave-l1-1-0.dll in 10.0.16299. |
+| [IsEnclaveTypeSupported](https://msdn.microsoft.com/en-us/library/Mt592870(v=VS.85).aspx) | Introduced into api-ms-win-core-enclave-l1-1-0.dll in 10.0.16299. |
+| [LoadEnclaveData](https://msdn.microsoft.com/en-us/library/Mt592871(v=VS.85).aspx) | Introduced into api-ms-win-core-enclave-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-featurestaging-l1-1-1.dll
+
+| API | Requirements |
+| -----| --------------|
+| [GetFeatureVariant](https://msdn.microsoft.com/en-us/library/Mt846396(v=VS.85).aspx) | Introduced into api-ms-win-core-featurestaging-l1-1-1.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-namedpipe-l1-2-2.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CallNamedPipeW](https://msdn.microsoft.com/en-us/library/Aa365144(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-namespace-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [AddSIDToBoundaryDescriptor](https://msdn.microsoft.com/en-us/library/ms681937(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. |
+| [ClosePrivateNamespace](https://msdn.microsoft.com/en-us/library/ms682026(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. |
+| [CreateBoundaryDescriptorW](https://msdn.microsoft.com/en-us/library/ms682121(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. |
+| [CreatePrivateNamespaceW](https://msdn.microsoft.com/en-us/library/ms682419(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. |
+| [DeleteBoundaryDescriptor](https://msdn.microsoft.com/en-us/library/ms682549(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. |
+| [OpenPrivateNamespaceW](https://msdn.microsoft.com/en-us/library/ms684318(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-path-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [PathAllocCanonicalize](https://msdn.microsoft.com/en-us/library/Hh707076(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathAllocCombine](https://msdn.microsoft.com/en-us/library/Hh707077(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchAddBackslash](https://msdn.microsoft.com/en-us/library/Hh707078(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchAddBackslashEx](https://msdn.microsoft.com/en-us/library/Hh707079(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchAddExtension](https://msdn.microsoft.com/en-us/library/Hh707080(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchAppend](https://msdn.microsoft.com/en-us/library/Hh707081(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchAppendEx](https://msdn.microsoft.com/en-us/library/Hh707082(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchCanonicalize](https://msdn.microsoft.com/en-us/library/Hh707083(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchCanonicalizeEx](https://msdn.microsoft.com/en-us/library/Hh707084(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchCombine](https://msdn.microsoft.com/en-us/library/Hh707085(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchCombineEx](https://msdn.microsoft.com/en-us/library/Hh707086(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchFindExtension](https://msdn.microsoft.com/en-us/library/Hh707087(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchIsRoot](https://msdn.microsoft.com/en-us/library/Hh707088(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchRemoveBackslash](https://msdn.microsoft.com/en-us/library/Hh707089(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchRemoveBackslashEx](https://msdn.microsoft.com/en-us/library/Hh707090(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchRemoveExtension](https://msdn.microsoft.com/en-us/library/Hh707091(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchRemoveFileSpec](https://msdn.microsoft.com/en-us/library/Hh707092(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchRenameExtension](https://msdn.microsoft.com/en-us/library/Hh707093(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchSkipRoot](https://msdn.microsoft.com/en-us/library/Hh707094(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchStripPrefix](https://msdn.microsoft.com/en-us/library/Hh707095(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchStripToRoot](https://msdn.microsoft.com/en-us/library/Hh707096(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathIsUNCEx](https://msdn.microsoft.com/en-us/library/Hh707097(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-psm-appnotify-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [RegisterAppStateChangeNotification](https://msdn.microsoft.com/en-us/library/Dn424996(v=VS.85).aspx) | Introduced into api-ms-win-core-psm-appnotify-l1-1-0.dll in 10.0.16299. |
+| [UnregisterAppStateChangeNotification](https://msdn.microsoft.com/en-us/library/Dn424997(v=VS.85).aspx) | Introduced into api-ms-win-core-psm-appnotify-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-realtime-l1-1-2.dll
+
+| API | Requirements |
+| -----| --------------|
+| [ConvertAuxiliaryCounterToPerformanceCounter](https://msdn.microsoft.com/en-us/library/Mt781214(v=VS.85).aspx) | Introduced into api-ms-win-core-realtime-l1-1-2.dll in 10.0.16299. |
+| [ConvertPerformanceCounterToAuxiliaryCounter](https://msdn.microsoft.com/en-us/library/Mt781215(v=VS.85).aspx) | Introduced into api-ms-win-core-realtime-l1-1-2.dll in 10.0.16299. |
+| [QueryAuxiliaryCounterFrequency](https://msdn.microsoft.com/en-us/library/Mt781218(v=VS.85).aspx) | Introduced into api-ms-win-core-realtime-l1-1-2.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-gaming-tcui-l1-1-3.dll
+
+| API | Requirements |
+| -----| --------------|
+| ShowGameInviteUIWithContext | Introduced into api-ms-win-gaming-tcui-l1-1-3.dll in 10.0.16299. |
+| ShowGameInviteUIWithContextForUser | Introduced into api-ms-win-gaming-tcui-l1-1-3.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-gaming-tcui-l1-1-4.dll
@@ -4040,39 +4120,290 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | ShowUserSettingsUIForUser | Introduced into api-ms-win-gaming-tcui-l1-1-4.dll in 10.0.16299. |
 
 
-## APIs from api-ms-win-core-comm-l1-1-1.dll
-
-| API | Requirements |
-| -----| --------------|
-| OpenCommPort | Introduced into api-ms-win-core-comm-l1-1-1.dll in 10.0.16299. |
-
-
-## APIs from api-ms-win-core-namedpipe-l1-2-2.dll
-
-| API | Requirements |
-| -----| --------------|
-| [CallNamedPipeW](https://msdn.microsoft.com/en-us/library/Aa365144.aspx) | Introduced into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.16299. |
-
-
 ## APIs from api-ms-win-gaming-deviceinformation-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetGamingDeviceModelInformation](https://msdn.microsoft.com/en-us/library/Mt825238.aspx) | Introduced into api-ms-win-gaming-deviceinformation-l1-1-0.dll in 10.0.16299. |
+| [GetGamingDeviceModelInformation](https://msdn.microsoft.com/en-us/library/Mt825238(v=VS.85).aspx) | Introduced into api-ms-win-gaming-deviceinformation-l1-1-0.dll in 10.0.16299. |
 
 
-## APIs from api-ms-win-core-psm-appnotify-l1-1-0.dll
+## APIs from api-ms-win-gaming-expandedresources-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [RegisterAppStateChangeNotification](https://msdn.microsoft.com/en-us/library/Dn424997.aspx) | Introduced into api-ms-win-core-psm-appnotify-l1-1-0.dll in 10.0.16299. |
-| [UnregisterAppStateChangeNotification](https://msdn.microsoft.com/en-us/library/Dn424997.aspx) | Introduced into api-ms-win-core-psm-appnotify-l1-1-0.dll in 10.0.16299. |
+| [GetExpandedResourceExclusiveCpuCount](https://msdn.microsoft.com/en-us/library/Mt808809(v=VS.85).aspx) | Introduced into api-ms-win-gaming-expandedresources-l1-1-0.dll in 10.0.16299. |
+| [HasExpandedResources](https://msdn.microsoft.com/en-us/library/Mt808810(v=VS.85).aspx) | Introduced into api-ms-win-gaming-expandedresources-l1-1-0.dll in 10.0.16299. |
+| [ReleaseExclusiveCpuSets](https://msdn.microsoft.com/en-us/library/Mt808811(v=VS.85).aspx) | Introduced into api-ms-win-gaming-expandedresources-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-gaming-gamemonitor-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [EnableActiveGameMonitoring](https://msdn.microsoft.com/en-us/library/Mt808782(v=VS.85).aspx) | Introduced into api-ms-win-gaming-gamemonitor-l1-1-0.dll in 10.0.16299. Removed in 10.0.17763. |
+| [ReportGameActivity](https://msdn.microsoft.com/en-us/library/Mt808783(v=VS.85).aspx) | Introduced into api-ms-win-gaming-gamemonitor-l1-1-0.dll in 10.0.16299. Removed in 10.0.17763. |
+| [SetGameActivityCorrelationId](https://msdn.microsoft.com/en-us/library/Mt808784(v=VS.85).aspx) | Introduced into api-ms-win-gaming-gamemonitor-l1-1-0.dll in 10.0.16299. Removed in 10.0.17763. |
 
 
 ## APIs from api-ms-win-gaming-gamemonitor-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetGameMonitoringPermissionState](https://msdn.microsoft.com/en-us/library/Mt823413.aspx) | Introduced into api-ms-win-gaming-gamemonitor-l1-1-1.dll in 10.0.16299. |
+| [GetGameMonitoringPermissionState](https://msdn.microsoft.com/en-us/library/Mt823413(v=VS.85).aspx) | Introduced into api-ms-win-gaming-gamemonitor-l1-1-1.dll in 10.0.16299. Removed in 10.0.17763. |
+
+
+## APIs from api-ms-win-security-base-l1-2-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CheckTokenMembershipEx](https://msdn.microsoft.com/en-us/library/Hh448479(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-security-isolatedcontainer-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| IsProcessInIsolatedContainer | Introduced into api-ms-win-security-isolatedcontainer-l1-1-0.dll in 10.0.16299. |
+
+
+## APIs from bcrypt.dll
+
+| API | Requirements |
+| -----| --------------|
+| [BCryptGetFipsAlgorithmMode](https://msdn.microsoft.com/en-us/library/Aa375460(v=VS.85).aspx) | Introduced into bcrypt.dll in 10.0.16299. |
+
+
+## APIs from api-ms-win-core-memory-l1-1-6.dll
+
+| API | Requirements |
+| -----| --------------|
+| MapViewOfFile3FromApp | Introduced into api-ms-win-core-memory-l1-1-6.dll in 10.0.17134. |
+| VirtualAlloc2FromApp | Introduced into api-ms-win-core-memory-l1-1-6.dll in 10.0.17134. |
+
+
+## APIs from api-ms-win-core-memory-l1-1-5.dll
+
+| API | Requirements |
+| -----| --------------|
+| [UnmapViewOfFile2](https://msdn.microsoft.com/en-us/library/Mt492559(v=VS.85).aspx) | Introduced into api-ms-win-core-memory-l1-1-5.dll in 10.0.17134. |
+| VirtualUnlockEx | Introduced into api-ms-win-core-memory-l1-1-5.dll in 10.0.17134. |
+
+
+## APIs from api-ms-win-core-console-l2-2-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [GetConsoleOriginalTitleA](https://msdn.microsoft.com/en-us/library/ms683168(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-2-0.dll in 10.0.17134. |
+| [GetConsoleOriginalTitleW](https://msdn.microsoft.com/en-us/library/ms683168(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-2-0.dll in 10.0.17134. |
+| [GetConsoleTitleA](https://msdn.microsoft.com/en-us/library/ms683174(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-2-0.dll in 10.0.17134. |
+| [SetConsoleTitleA](https://msdn.microsoft.com/en-us/library/ms686050(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-2-0.dll in 10.0.17134. |
+
+
+## APIs from api-ms-win-core-console-l3-2-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [AddConsoleAliasA](https://msdn.microsoft.com/en-us/library/ms681935(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [AddConsoleAliasW](https://msdn.microsoft.com/en-us/library/ms681935(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| ExpungeConsoleCommandHistoryA | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| ExpungeConsoleCommandHistoryW | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleAliasA](https://msdn.microsoft.com/en-us/library/ms683157(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleAliasExesA](https://msdn.microsoft.com/en-us/library/ms683160(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleAliasExesLengthA](https://msdn.microsoft.com/en-us/library/ms683161(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleAliasExesLengthW](https://msdn.microsoft.com/en-us/library/ms683161(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleAliasExesW](https://msdn.microsoft.com/en-us/library/ms683160(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleAliasW](https://msdn.microsoft.com/en-us/library/ms683157(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleAliasesA](https://msdn.microsoft.com/en-us/library/ms683158(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleAliasesLengthA](https://msdn.microsoft.com/en-us/library/ms683159(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleAliasesLengthW](https://msdn.microsoft.com/en-us/library/ms683159(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleAliasesW](https://msdn.microsoft.com/en-us/library/ms683158(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| GetConsoleCommandHistoryA | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| GetConsoleCommandHistoryLengthA | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| GetConsoleCommandHistoryLengthW | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| GetConsoleCommandHistoryW | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleDisplayMode](https://msdn.microsoft.com/en-us/library/ms683164(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleFontSize](https://msdn.microsoft.com/en-us/library/ms683165(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleHistoryInfo](https://msdn.microsoft.com/en-us/library/ms683166(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleProcessList](https://msdn.microsoft.com/en-us/library/ms683170(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleSelectionInfo](https://msdn.microsoft.com/en-us/library/ms683173(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleWindow](https://msdn.microsoft.com/en-us/library/ms683175(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetCurrentConsoleFont](https://msdn.microsoft.com/en-us/library/ms683176(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetCurrentConsoleFontEx](https://msdn.microsoft.com/en-us/library/ms683177(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetNumberOfConsoleMouseButtons](https://msdn.microsoft.com/en-us/library/ms683208(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [SetConsoleDisplayMode](https://msdn.microsoft.com/en-us/library/ms686028(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [SetConsoleHistoryInfo](https://msdn.microsoft.com/en-us/library/ms686031(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| SetConsoleNumberOfCommandsA | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| SetConsoleNumberOfCommandsW | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [SetCurrentConsoleFontEx](https://msdn.microsoft.com/en-us/library/ms686200(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+
+
+## APIs from api-ms-win-core-memory-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [VirtualFreeEx](https://msdn.microsoft.com/en-us/library/Aa366894(v=VS.85).aspx) | Introduced into api-ms-win-core-memory-l1-1-0.dll in 10.0.17134. |
+
+
+## APIs from api-ms-win-core-sysinfo-l1-2-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [EnumSystemFirmwareTables](https://msdn.microsoft.com/en-us/library/Hh802466(v=VS.85).aspx) | Introduced into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.17134. |
+| [GetSystemFirmwareTable](https://msdn.microsoft.com/en-us/library/ms724379(v=VS.85).aspx) | Introduced into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.17134. |
+| [GetProductInfo](https://msdn.microsoft.com/en-us/library/ms724358(v=VS.85).aspx) | Introduced into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.17763. |
+
+
+## APIs from api-ms-win-core-console-l1-2-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [AttachConsole](https://msdn.microsoft.com/en-us/library/ms681952(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-2-0.dll in 10.0.17134. |
+| [FreeConsole](https://msdn.microsoft.com/en-us/library/ms683150(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-2-0.dll in 10.0.17134. |
+| [PeekConsoleInputA](https://msdn.microsoft.com/en-us/library/ms684344(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-2-0.dll in 10.0.17134. |
+
+
+## APIs from api-ms-win-core-debug-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [DebugBreak](https://msdn.microsoft.com/en-us/library/ms679297(v=VS.85).aspx) | Introduced into api-ms-win-core-debug-l1-1-0.dll in 10.0.17134. |
+
+
+## APIs from api-ms-win-core-wow64-l1-1-1.dll
+
+| API | Requirements |
+| -----| --------------|
+| [IsWow64Process2](https://msdn.microsoft.com/en-us/library/Mt804318(v=VS.85).aspx) | Introduced into api-ms-win-core-wow64-l1-1-1.dll in 10.0.17134. |
+
+
+## APIs from api-ms-win-core-comm-l1-1-2.dll
+
+| API | Requirements |
+| -----| --------------|
+| [GetCommPorts](https://msdn.microsoft.com/en-us/library/Mt829680(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-2.dll in 10.0.17134. |
+
+
+## APIs from api-ms-win-core-file-fromapp-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CopyFileFromAppW](https://msdn.microsoft.com/en-us/library/Mt846582(v=VS.85).aspx) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
+| [CreateDirectoryFromAppW](https://msdn.microsoft.com/en-us/library/Mt846583(v=VS.85).aspx) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
+| [CreateFile2FromAppW](https://msdn.microsoft.com/en-us/library/Mt846584(v=VS.85).aspx) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
+| [CreateFileFromAppW](https://msdn.microsoft.com/en-us/library/Mt846585(v=VS.85).aspx) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
+| [DeleteFileFromAppW](https://msdn.microsoft.com/en-us/library/Mt846586(v=VS.85).aspx) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
+| [FindFirstFileExFromAppW](https://msdn.microsoft.com/en-us/library/Mt846625(v=VS.85).aspx) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
+| GetFileAttributesExFromAppW | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
+| [MoveFileFromAppW](https://msdn.microsoft.com/en-us/library/Mt846627(v=VS.85).aspx) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
+| [RemoveDirectoryFromAppW](https://msdn.microsoft.com/en-us/library/Mt846628(v=VS.85).aspx) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
+| [ReplaceFileFromAppW](https://msdn.microsoft.com/en-us/library/Mt846629(v=VS.85).aspx) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
+| [SetFileAttributesFromAppW](https://msdn.microsoft.com/en-us/library/Mt846630(v=VS.85).aspx) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
+
+
+## APIs from api-ms-win-core-firmware-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [GetFirmwareEnvironmentVariableA](https://msdn.microsoft.com/en-us/library/ms724325(v=VS.85).aspx) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
+| [GetFirmwareEnvironmentVariableExA](https://msdn.microsoft.com/en-us/library/JJ204593(v=VS.85).aspx) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
+| [GetFirmwareEnvironmentVariableExW](https://msdn.microsoft.com/en-us/library/JJ204593(v=VS.85).aspx) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
+| [GetFirmwareEnvironmentVariableW](https://msdn.microsoft.com/en-us/library/ms724325(v=VS.85).aspx) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
+| [SetFirmwareEnvironmentVariableA](https://msdn.microsoft.com/en-us/library/ms724934(v=VS.85).aspx) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
+| [SetFirmwareEnvironmentVariableExA](https://msdn.microsoft.com/en-us/library/JJ204594(v=VS.85).aspx) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
+| [SetFirmwareEnvironmentVariableExW](https://msdn.microsoft.com/en-us/library/JJ204594(v=VS.85).aspx) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
+| [SetFirmwareEnvironmentVariableW](https://msdn.microsoft.com/en-us/library/ms724934(v=VS.85).aspx) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
+
+
+## APIs from api-ms-win-shcore-obsolete-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CommandLineToArgvW](https://msdn.microsoft.com/en-us/library/Bb776391(v=VS.85).aspx) | Introduced into api-ms-win-shcore-obsolete-l1-1-0.dll in 10.0.17134. |
+
+
+## APIs from windows.ai.machinelearning.dll
+
+| API | Requirements |
+| -----| --------------|
+| MLCreateOperatorRegistry | Introduced into windows.ai.machinelearning.dll in 10.0.17763. |
+
+
+## APIs from api-ms-win-ro-typeresolution-l1-1-1.dll
+
+| API | Requirements |
+| -----| --------------|
+| RoIsApiContractPresent | Introduced into api-ms-win-ro-typeresolution-l1-1-1.dll in 10.0.17763. |
+| RoIsApiContractMajorVersionPresent | Introduced into api-ms-win-ro-typeresolution-l1-1-1.dll in 10.0.17763. |
+
+
+## APIs from api-ms-win-core-memory-l1-1-7.dll
+
+| API | Requirements |
+| -----| --------------|
+| SetProcessValidCallTargetsForMappedView | Introduced into api-ms-win-core-memory-l1-1-7.dll in 10.0.17763. |
+
+
+## APIs from mscms.dll
+
+| API | Requirements |
+| -----| --------------|
+| [InstallColorProfileA](https://msdn.microsoft.com/en-us/library/Dd372153(v=VS.85).aspx) | Introduced into mscms.dll in 10.0.17763. |
+| [InstallColorProfileW](https://msdn.microsoft.com/en-us/library/Dd372153(v=VS.85).aspx) | Introduced into mscms.dll in 10.0.17763. |
+| ColorAdapterGetSystemModifyWhitePointCaps | Introduced into mscms.dll in 10.0.17763. |
+| ColorAdapterGetDisplayCurrentStateID | Introduced into mscms.dll in 10.0.17763. |
+| ColorAdapterGetDisplayTransformData | Introduced into mscms.dll in 10.0.17763. |
+| ColorAdapterGetDisplayTargetWhitePoint | Introduced into mscms.dll in 10.0.17763. |
+| ColorAdapterGetDisplayProfile | Introduced into mscms.dll in 10.0.17763. |
+| ColorAdapterGetCurrentProfileCalibration | Introduced into mscms.dll in 10.0.17763. |
+| ColorAdapterRegisterOEMColorService | Introduced into mscms.dll in 10.0.17763. |
+| ColorAdapterUnregisterOEMColorService | Introduced into mscms.dll in 10.0.17763. |
+| ColorProfileAddDisplayAssociation | Introduced into mscms.dll in 10.0.17763. |
+| ColorProfileRemoveDisplayAssociation | Introduced into mscms.dll in 10.0.17763. |
+| ColorProfileSetDisplayDefaultAssociation | Introduced into mscms.dll in 10.0.17763. |
+| ColorProfileGetDisplayList | Introduced into mscms.dll in 10.0.17763. |
+| ColorProfileGetDisplayDefault | Introduced into mscms.dll in 10.0.17763. |
+| ColorProfileGetDisplayUserScope | Introduced into mscms.dll in 10.0.17763. |
+
+
+## APIs from api-ms-win-core-com-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CoDecrementMTAUsage](https://msdn.microsoft.com/en-us/library/JJ151606(v=VS.85).aspx) | Introduced into api-ms-win-core-com-l1-1-0.dll in 10.0.17763. |
+| [CoIncrementMTAUsage](https://msdn.microsoft.com/en-us/library/JJ151607(v=VS.85).aspx) | Introduced into api-ms-win-core-com-l1-1-0.dll in 10.0.17763. |
+
+
+## APIs from api-ms-win-devices-config-l1-1-1.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CM_Get_Device_Interface_ListW](https://msdn.microsoft.com/en-us/library/Aa363183(v=VS.85).aspx) | Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.17763. |
+| [CM_Get_Device_Interface_List_SizeW](https://msdn.microsoft.com/en-us/library/Aa363184(v=VS.85).aspx) | Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.17763. |
+| [CM_MapCrToWin32Err](https://msdn.microsoft.com/en-us/library/Dn313265(v=VS.85).aspx) | Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.17763. |
+| [CM_Register_Notification](https://msdn.microsoft.com/en-us/library/Hh780224(v=VS.85).aspx) | Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.17763. |
+| [CM_Unregister_Notification](https://msdn.microsoft.com/en-us/library/Hh780228(v=VS.85).aspx) | Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.17763. |
+
+
+## APIs from api-ms-win-devices-config-l1-1-2.dll
+
+| API | Requirements |
+| -----| --------------|
+| [CM_Get_Device_Interface_ListA](https://msdn.microsoft.com/en-us/library/Ff538463(v=VS.85).aspx) | Introduced into api-ms-win-devices-config-l1-1-2.dll in 10.0.17763. |
+| [CM_Get_Device_Interface_List_SizeA](https://msdn.microsoft.com/en-us/library/Ff538471(v=VS.85).aspx) | Introduced into api-ms-win-devices-config-l1-1-2.dll in 10.0.17763. |
+
+
+## APIs from api-ms-win-core-io-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [DeviceIoControl](https://msdn.microsoft.com/en-us/library/Aa363216(v=VS.85).aspx) | Introduced into api-ms-win-core-io-l1-1-0.dll in 10.0.17763. |
+
+
+## APIs from api-ms-win-core-timezone-l1-1-1.dll
+
+| API | Requirements |
+| -----| --------------|
+| LocalFileTimeToLocalSystemTime | Introduced into api-ms-win-core-timezone-l1-1-1.dll in 10.0.17763. |
+| LocalSystemTimeToLocalFileTime | Introduced into api-ms-win-core-timezone-l1-1-1.dll in 10.0.17763. |
 
 
