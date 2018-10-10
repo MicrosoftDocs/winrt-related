@@ -7,7 +7,7 @@ ms.topic: article
 ms.prod: windows
 ms.technology: uwp
 keywords: windows 10, uwp, win32, COM
-ms.date: 10/4/2017
+ms.date: 10/10/2018
 ms.assetid: e8d54f37-9969-4f33-8b1b-fcb3d659c507
 ---
 
@@ -27,17 +27,17 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 
 | API | Requirements |
 | -----| --------------|
-| [alljoyn_aboutdata_createfromxml](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Removed in 10.0.14393. |
-| [alljoyn_routerinit](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Removed in 10.0.14393. |
-| [alljoyn_routershutdown](https://github.com/allseenalliance/core-alljoyn/tree/master/alljoyn_c) | Introduced into MSAJApi.dll in 10.0.10240. Removed in 10.0.14393. |
+| alljoyn_aboutdata_createfromxml | Introduced into MSAJApi.dll in 10.0.10240. Removed in 10.0.14393. |
+| alljoyn_routerinit | Introduced into MSAJApi.dll in 10.0.10240. Removed in 10.0.14393. |
+| alljoyn_routershutdown | Introduced into MSAJApi.dll in 10.0.10240. Removed in 10.0.14393. |
 
 
 ## APIs from Bcrypt.dll
 
 | API | Requirements |
 | -----| --------------|
-| BCryptCreateMultiHash | Introduced into Bcrypt.dll in 10.0.10240. Removed in 10.0.10586. |
-| BCryptProcessMultiOperations | Introduced into Bcrypt.dll in 10.0.10240. Removed in 10.0.10586. |
+| [BCryptCreateMultiHash](https://msdn.microsoft.com/en-us/library/Mt845763(v=VS.85).aspx) | Introduced into Bcrypt.dll in 10.0.10240. Removed in 10.0.10586. |
+| [BCryptProcessMultiOperations](https://msdn.microsoft.com/en-us/library/Mt845764(v=VS.85).aspx) | Introduced into Bcrypt.dll in 10.0.10240. Removed in 10.0.10586. |
 
 
 ## APIs from ole32.dll
@@ -65,7 +65,7 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 
 | API | Requirements |
 | -----| --------------|
-| [DMProcessConfigXMLFiltered](https://msdn.microsoft.com/en-us/library/Mt591928.aspx) | Introduced into dmprocessxmlfiltered.dll in 10.0.10240. |
+| [DMProcessConfigXMLFiltered](https://msdn.microsoft.com/en-us/library/Mt591928(v=VS.85).aspx) | Introduced into dmprocessxmlfiltered.dll in 10.0.10240. |
 
 
 ## APIs from iphlpapi.dll
@@ -82,8 +82,8 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 
 | API | Requirements |
 | -----| --------------|
-| [GetDefaultAudioCaptureId](https://msdn.microsoft.com/en-us/library/BR226818.aspx) | Introduced into PhoneAudioSes.lib in 10.0.10240. Moved into PhoneAudioSes.dll in 10.0.14393. |
-| [GetDefaultAudioRenderId](https://msdn.microsoft.com/en-us/library/BR226819.aspx) | Introduced into PhoneAudioSes.lib in 10.0.10240. Moved into PhoneAudioSes.dll in 10.0.14393. |
+| GetDefaultAudioCaptureId | Introduced into PhoneAudioSes.lib in 10.0.10240. Moved into PhoneAudioSes.dll in 10.0.14393. |
+| GetDefaultAudioRenderId | Introduced into PhoneAudioSes.lib in 10.0.10240. Moved into PhoneAudioSes.dll in 10.0.14393. |
 
 
 ## APIs from wpglobutil.dll
@@ -97,20 +97,20 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 
 | API | Requirements |
 | -----| --------------|
-| [InterlockedCompareExchange](https://msdn.microsoft.com/en-us/library/windows/desktop/ff471409.aspx) | Introduced into kernel32.dll in 10.0.10240. |
-| [InterlockedCompareExchange64](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683562.aspx) | Introduced into kernel32.dll in 10.0.10240. |
-| [InterlockedDecrement](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683580.aspx) | Introduced into kernel32.dll in 10.0.10240. |
-| [InterlockedExchange](https://msdn.microsoft.com/en-us/library/windows/desktop/ff471411.aspx) | Introduced into kernel32.dll in 10.0.10240. |
-| [InterlockedExchangeAdd](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683597.aspx) | Introduced into kernel32.dll in 10.0.10240. |
-| [InterlockedIncrement](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683614.aspx) | Introduced into kernel32.dll in 10.0.10240. |
-| [GetModuleBaseName](https://msdn.microsoft.com/en-us/library/ms683196.aspx) | Introduced into kernel32.dll in 10.0.16299. |
-| [GetModuleBaseNameW](https://msdn.microsoft.com/en-us/library/ms683196.aspx) | Introduced into kernel32.dll in 10.0.16299. |
-| [GetModuleFileName](https://msdn.microsoft.com/en-us/library/ms683198.aspx) | Introduced into kernel32.dll in 10.0.16299. |
-| [GetModuleFileNameExW](https://msdn.microsoft.com/en-us/library/ms683198.aspx) | Introduced into kernel32.dll in 10.0.16299. |
-| [GetModuleInformation](https://msdn.microsoft.com/en-us/library/ms885631.aspx) | Introduced into kernel32.dll in 10.0.16299. |
-| [SetEnvironmentVariable](https://msdn.microsoft.com/en-us/library/ms686206.aspx) | Introduced into kernel32.dll in 10.0.16299. |
-| [GetModuleFileNameEx](https://msdn.microsoft.com/en-us/library/ms683198.aspx) | Introduced into kernel32.dll in 10.0.16299. |
-| [VerLanguageName](https://msdn.microsoft.com/en-us/library/ms647463.aspx) | Introduced into kernel32.dll in 10.0.16299. |
+| [InterlockedCompareExchange](https://msdn.microsoft.com/en-us/library/windows/desktop/ff471409.aspx) | Introduced into kernel32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [InterlockedCompareExchange64](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683562.aspx) | Introduced into kernel32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [InterlockedDecrement](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683580.aspx) | Introduced into kernel32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [InterlockedExchange](https://msdn.microsoft.com/en-us/library/windows/desktop/ff471411.aspx) | Introduced into kernel32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [InterlockedExchangeAdd](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683597.aspx) | Introduced into kernel32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [InterlockedIncrement](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683614.aspx) | Introduced into kernel32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [GetModuleBaseNameA](https://msdn.microsoft.com/en-us/library/ms683196(v=VS.85).aspx) | Introduced into kernel32.dll in 10.0.16299. |
+| [GetModuleBaseNameW](https://msdn.microsoft.com/en-us/library/ms683196(v=VS.85).aspx) | Introduced into kernel32.dll in 10.0.16299. |
+| [GetModuleFileNameExA](https://msdn.microsoft.com/en-us/library/ms683198(v=VS.85).aspx) | Introduced into kernel32.dll in 10.0.16299. |
+| [GetModuleFileNameExW](https://msdn.microsoft.com/en-us/library/ms683198(v=VS.85).aspx) | Introduced into kernel32.dll in 10.0.16299. |
+| [GetModuleInformation](https://msdn.microsoft.com/en-us/library/ms683201(v=VS.85).aspx) | Introduced into kernel32.dll in 10.0.16299. |
+| [SetEnvironmentVariable](https://msdn.microsoft.com/en-us/library/ms686206(v=VS.85).aspx) | Introduced into kernel32.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetModuleFileNameEx](https://msdn.microsoft.com/en-us/library/ms683198(v=VS.85).aspx) | Introduced into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [VerLanguageName](https://msdn.microsoft.com/en-us/library/ms647463(v=VS.85).aspx) | Introduced into kernel32.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from kernelbase.dll
@@ -134,23 +134,23 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 
 | API | Requirements |
 | -----| --------------|
-| [NdrAsyncClientCall2](https://msdn.microsoft.com/en-us/library/windows/desktop/mt297483.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrClientCall4](https://msdn.microsoft.com/en-us/library/windows/desktop/mt297484.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [DceErrorInqText](https://msdn.microsoft.com/en-us/library/Aa373623.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingCreate](https://msdn.microsoft.com/en-us/library/Aa375587.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingFromStringBinding](https://msdn.microsoft.com/en-us/library/Aa375590.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingInqAuthInfo](https://msdn.microsoft.com/en-us/library/Aa375593.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingInqAuthInfoEx](https://msdn.microsoft.com/en-us/library/Aa375595.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingSetAuthInfo](https://msdn.microsoft.com/en-us/library/Aa375606.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingSetAuthInfoEx](https://msdn.microsoft.com/en-us/library/Aa375608.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingToStringBinding](https://msdn.microsoft.com/en-us/library/Aa375612.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcMgmtInqServerPrincName](https://msdn.microsoft.com/en-us/library/Aa375756.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcNetworkIsProtseqValid](https://msdn.microsoft.com/en-us/library/Aa375804.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcStringBindingCompose](https://msdn.microsoft.com/en-us/library/Aa378481.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcStringBindingParse](https://msdn.microsoft.com/en-us/library/Aa378482.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcStringFree](https://msdn.microsoft.com/en-us/library/Aa378483.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [UuidFromString](https://msdn.microsoft.com/en-us/library/Aa379336.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [UuidToString](https://msdn.microsoft.com/en-us/library/Aa379352.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [NdrAsyncClientCall2](https://msdn.microsoft.com/en-us/library/windows/desktop/mt297483.aspx) | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
+| [NdrClientCall4](https://msdn.microsoft.com/en-us/library/windows/desktop/mt297484.aspx) | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
+| [DceErrorInqText](https://msdn.microsoft.com/en-us/library/Aa373623(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcBindingCreate](https://msdn.microsoft.com/en-us/library/Aa375587(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcBindingFromStringBinding](https://msdn.microsoft.com/en-us/library/Aa375590(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcBindingInqAuthInfo](https://msdn.microsoft.com/en-us/library/Aa375593(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcBindingInqAuthInfoEx](https://msdn.microsoft.com/en-us/library/Aa375595(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcBindingSetAuthInfo](https://msdn.microsoft.com/en-us/library/Aa375606(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcBindingSetAuthInfoEx](https://msdn.microsoft.com/en-us/library/Aa375608(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcBindingToStringBinding](https://msdn.microsoft.com/en-us/library/Aa375612(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcMgmtInqServerPrincName](https://msdn.microsoft.com/en-us/library/Aa375756(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcNetworkIsProtseqValid](https://msdn.microsoft.com/en-us/library/Aa375804(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcStringBindingCompose](https://msdn.microsoft.com/en-us/library/Aa378481(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcStringBindingParse](https://msdn.microsoft.com/en-us/library/Aa378482(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcStringFree](https://msdn.microsoft.com/en-us/library/Aa378483(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [UuidFromString](https://msdn.microsoft.com/en-us/library/Aa379336(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [UuidToString](https://msdn.microsoft.com/en-us/library/Aa379352(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from windows.data.pdf.dll
@@ -172,1468 +172,1497 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 
 | API | Requirements |
 | -----| --------------|
-| SrpDoesPolicyAllowAppExecution | Introduced into srpapi.dll in 10.0.10240. |
+| [SrpDoesPolicyAllowAppExecution](https://msdn.microsoft.com/en-us/library/Mt757271(v=VS.85).aspx) | Introduced into srpapi.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-crt-convert-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [__toascii](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/toascii-toascii) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_atodbl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atodbl-atodbl-l-atoldbl-atoldbl-l-atoflt-atoflt-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_atodbl_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atodbl-atodbl-l-atoldbl-atoldbl-l-atoflt-atoflt-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_atof_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atof-atof-l-wtof-wtof-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_atoflt](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atodbl-atodbl-l-atoldbl-atoldbl-l-atoflt-atoflt-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_atoflt_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atodbl-atodbl-l-atoldbl-atoldbl-l-atoflt-atoflt-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_atoi_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atoi-atoi-l-wtoi-wtoi-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_atoi64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atoi64-atoi64-l-wtoi64-wtoi64-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_atoi64_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atoi64-atoi64-l-wtoi64-wtoi64-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_atol_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atol-atol-l-wtol-wtol-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_atoldbl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atodbl-atodbl-l-atoldbl-atoldbl-l-atoflt-atoflt-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_atoldbl_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atodbl-atodbl-l-atoldbl-atoldbl-l-atoflt-atoflt-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_atoll_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atoll-atoll-l-wtoll-wtoll-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_ecvt](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ecvt) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_ecvt_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ecvt-s) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_fcvt](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fcvt) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_fcvt_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fcvt-s) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_gcvt](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/gcvt) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_gcvt_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/gcvt-s) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_i64toa](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/itoa-i64toa-ui64toa-itow-i64tow-ui64tow) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_i64toa_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/itoa-s-i64toa-s-ui64toa-s-itow-s-i64tow-s-ui64tow-s) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_i64tow](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/itoa-i64toa-ui64toa-itow-i64tow-ui64tow) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_i64tow_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/itoa-s-i64toa-s-ui64toa-s-itow-s-i64tow-s-ui64tow-s) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_itoa](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/itoa-i64toa-ui64toa-itow-i64tow-ui64tow) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_itoa_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/itoa-s-i64toa-s-ui64toa-s-itow-s-i64tow-s-ui64tow-s) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_itow](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/itoa-i64toa-ui64toa-itow-i64tow-ui64tow) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_itow_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/itoa-s-i64toa-s-ui64toa-s-itow-s-i64tow-s-ui64tow-s) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_ltoa](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ltoa-ltow) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_ltoa_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ltoa-s-ltow-s) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_ltow](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ltoa-ltow) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_ltow_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ltoa-s-ltow-s) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_strtod_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtod-strtod-l-wcstod-wcstod-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_strtof_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtof-strtof-l-wcstof-wcstof-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_strtoi64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoi64-wcstoi64-strtoi64-l-wcstoi64-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_strtoi64_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoi64-wcstoi64-strtoi64-l-wcstoi64-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_strtoimax_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoimax-strtoimax-l-wcstoimax-wcstoimax-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_strtol_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtol-wcstol-strtol-l-wcstol-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_strtold_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtold-strtold-l-wcstold-wcstold-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_strtoll_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoll-strtoll-l-wcstoll-wcstoll-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_strtoui64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoui64-wcstoui64-strtoui64-l-wcstoui64-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_strtoui64_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoui64-wcstoui64-strtoui64-l-wcstoui64-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_strtoul_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoul-strtoul-l-wcstoul-wcstoul-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_strtoull_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoull-strtoull-l-wcstoull-wcstoull-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_strtoumax_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoumax-strtoumax-l-wcstoumax-wcstoumax-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_ui64toa](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/itoa-i64toa-ui64toa-itow-i64tow-ui64tow) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_ui64toa_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/itoa-s-i64toa-s-ui64toa-s-itow-s-i64tow-s-ui64tow-s) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_ui64tow](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/itoa-i64toa-ui64toa-itow-i64tow-ui64tow) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_ui64tow_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/itoa-s-i64toa-s-ui64toa-s-itow-s-i64tow-s-ui64tow-s) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_ultoa](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ultoa-ultow) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_ultoa_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ultoa-s-ultow-s) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_ultow](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ultoa-ultow) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_ultow_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ultoa-s-ultow-s) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wcstod_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtod-strtod-l-wcstod-wcstod-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wcstof_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtof-strtof-l-wcstof-wcstof-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wcstoi64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoi64-wcstoi64-strtoi64-l-wcstoi64-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wcstoi64_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoi64-wcstoi64-strtoi64-l-wcstoi64-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wcstoimax_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoimax-strtoimax-l-wcstoimax-wcstoimax-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wcstol_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtol-wcstol-strtol-l-wcstol-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wcstold_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtold-strtold-l-wcstold-wcstold-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wcstoll_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoll-strtoll-l-wcstoll-wcstoll-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wcstombs_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/wcstombs-wcstombs-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wcstombs_s_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/wcstombs-s-wcstombs-s-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wcstoui64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoui64-wcstoui64-strtoui64-l-wcstoui64-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wcstoui64_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoui64-wcstoui64-strtoui64-l-wcstoui64-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wcstoul_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoul-strtoul-l-wcstoul-wcstoul-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wcstoull_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoull-strtoull-l-wcstoull-wcstoull-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wcstoumax_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoumax-strtoumax-l-wcstoumax-wcstoumax-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wctomb_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/wctomb-wctomb-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wctomb_s_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/wctomb-s-wctomb-s-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wtof](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atof-atof-l-wtof-wtof-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wtof_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atof-atof-l-wtof-wtof-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wtoi](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atoi-atoi-l-wtoi-wtoi-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wtoi_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atoi-atoi-l-wtoi-wtoi-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wtoi64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atoi64-atoi64-l-wtoi64-wtoi64-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wtoi64_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atoi64-atoi64-l-wtoi64-wtoi64-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wtol](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atol-atol-l-wtol-wtol-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wtol_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atol-atol-l-wtol-wtol-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wtoll](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atoll-atoll-l-wtoll-wtoll-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [_wtoll_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atoll-atoll-l-wtoll-wtoll-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [atof](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atof-atof-l-wtof-wtof-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [atoi](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atoi-atoi-l-wtoi-wtoi-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [atol](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atol-atol-l-wtol-wtol-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [atoll](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atoll-atoll-l-wtoll-wtoll-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [btowc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/btowc) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [c16rtomb](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/c16rtomb-c32rtomb1) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [c32rtomb](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/c16rtomb-c32rtomb1) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [mbrtoc16](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mbrtoc16-mbrtoc323) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [mbrtoc32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mbrtoc16-mbrtoc323) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [mbrtowc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mbrtowc) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [mbsrtowcs](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mbsrtowcs) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [mbsrtowcs_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mbsrtowcs-s) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [mbstowcs](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mbstowcs-mbstowcs-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [mbstowcs_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mbstowcs-s-mbstowcs-s-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [mbtowc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mbtowc-mbtowc-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [strtod](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtod-strtod-l-wcstod-wcstod-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [strtof](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtof-strtof-l-wcstof-wcstof-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [strtoimax](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoimax-strtoimax-l-wcstoimax-wcstoimax-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [strtol](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtol-wcstol-strtol-l-wcstol-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [strtold](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtold-strtold-l-wcstold-wcstold-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [strtoll](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoll-strtoll-l-wcstoll-wcstoll-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [strtoul](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoul-strtoul-l-wcstoul-wcstoul-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [strtoull](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoull-strtoull-l-wcstoull-wcstoull-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [strtoumax](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoumax-strtoumax-l-wcstoumax-wcstoumax-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [wcrtomb](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/wcrtomb) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [wcrtomb_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/wcrtomb-s) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [wcsrtombs](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/wcsrtombs) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [wcsrtombs_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/wcsrtombs-s) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [wcstod](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtod-strtod-l-wcstod-wcstod-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [wcstof](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtof-strtof-l-wcstof-wcstof-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [wcstoimax](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoimax-strtoimax-l-wcstoimax-wcstoimax-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [wcstol](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtol-wcstol-strtol-l-wcstol-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [wcstold](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtold-strtold-l-wcstold-wcstold-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [wcstoll](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoll-strtoll-l-wcstoll-wcstoll-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [wcstombs](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/wcstombs-wcstombs-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [wcstombs_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/wcstombs-s-wcstombs-s-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [wcstoul](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoul-strtoul-l-wcstoul-wcstoul-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [wcstoull](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoull-strtoull-l-wcstoull-wcstoull-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [wcstoumax](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtoumax-strtoumax-l-wcstoumax-wcstoumax-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [wctob](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/wctob) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [wctomb](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/wctomb-wctomb-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [wctomb_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/wctomb-s-wctomb-s-l) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
-| [wctrans](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/towctrans) | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| __toascii | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _atodbl | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _atodbl_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _atof_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _atoflt | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _atoflt_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _atoi_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _atoi64 | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _atoi64_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _atol_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _atoldbl | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _atoldbl_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _atoll_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _ecvt | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _ecvt_s | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _fcvt | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _fcvt_s | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _gcvt | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _gcvt_s | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _i64toa | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _i64toa_s | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _i64tow | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _i64tow_s | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _itoa | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _itoa_s | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _itow | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _itow_s | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _ltoa | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _ltoa_s | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _ltow | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _ltow_s | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _strtod_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _strtof_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _strtoi64 | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _strtoi64_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _strtoimax_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _strtol_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _strtold_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _strtoll_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _strtoui64 | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _strtoui64_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _strtoul_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _strtoull_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _strtoumax_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _ui64toa | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _ui64toa_s | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _ui64tow | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _ui64tow_s | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _ultoa | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _ultoa_s | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _ultow | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _ultow_s | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wcstod_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wcstof_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wcstoi64 | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wcstoi64_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wcstoimax_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wcstol_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wcstold_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wcstoll_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wcstombs_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wcstombs_s_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wcstoui64 | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wcstoui64_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wcstoul_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wcstoull_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wcstoumax_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wctomb_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wctomb_s_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wtof | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wtof_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wtoi | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wtoi_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wtoi64 | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wtoi64_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wtol | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wtol_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wtoll | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| _wtoll_l | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| atof | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| atoi | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| atol | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| atoll | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| btowc | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| c16rtomb | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| c32rtomb | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| mbrtoc16 | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| mbrtoc32 | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| mbrtowc | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| mbsrtowcs | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| mbsrtowcs_s | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| mbstowcs | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| mbstowcs_s | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| mbtowc | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| strtod | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| strtof | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| strtoimax | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| strtol | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| strtold | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| strtoll | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| strtoul | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| strtoull | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| strtoumax | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| wcrtomb | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| wcrtomb_s | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| wcsrtombs | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| wcsrtombs_s | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| wcstod | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| wcstof | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| wcstoimax | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| wcstol | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| wcstold | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| wcstoll | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| wcstombs | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| wcstombs_s | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| wcstoul | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| wcstoull | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| wcstoumax | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| wctob | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| wctomb | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| wctomb_s | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
+| wctrans | Introduced into api-ms-win-crt-convert-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-crt-environment-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [__p__environ](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-environment-l1-1-0.dll in 10.0.10240. |
-| [__p__wenviron](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-environment-l1-1-0.dll in 10.0.10240. |
+| __p__environ | Introduced into api-ms-win-crt-environment-l1-1-0.dll in 10.0.10240. |
+| __p__wenviron | Introduced into api-ms-win-crt-environment-l1-1-0.dll in 10.0.10240. |
+| _dupenv_s | Introduced into api-ms-win-crt-environment-l1-1-0.dll in 10.0.17134. |
+| getenv | Introduced into api-ms-win-crt-environment-l1-1-0.dll in 10.0.17134. |
+| getenv_s | Introduced into api-ms-win-crt-environment-l1-1-0.dll in 10.0.17134. |
+| _putenv | Introduced into api-ms-win-crt-environment-l1-1-0.dll in 10.0.17134. |
+| _putenv_s | Introduced into api-ms-win-crt-environment-l1-1-0.dll in 10.0.17134. |
+| _searchenv | Introduced into api-ms-win-crt-environment-l1-1-0.dll in 10.0.17134. |
+| _searchenv_s | Introduced into api-ms-win-crt-environment-l1-1-0.dll in 10.0.17134. |
+| _wdupenv_s | Introduced into api-ms-win-crt-environment-l1-1-0.dll in 10.0.17134. |
+| _wgetenv | Introduced into api-ms-win-crt-environment-l1-1-0.dll in 10.0.17134. |
+| _wgetenv_s | Introduced into api-ms-win-crt-environment-l1-1-0.dll in 10.0.17134. |
+| _wputenv | Introduced into api-ms-win-crt-environment-l1-1-0.dll in 10.0.17134. |
+| _wputenv_s | Introduced into api-ms-win-crt-environment-l1-1-0.dll in 10.0.17134. |
+| _wsearchenv_s | Introduced into api-ms-win-crt-environment-l1-1-0.dll in 10.0.17134. |
+| _wsearchenv | Introduced into api-ms-win-crt-environment-l1-1-0.dll in 10.0.17134. |
 
 
 ## APIs from api-ms-win-crt-filesystem-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [_access](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/access-waccess) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_access_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/access-s-waccess-s) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_chdir](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/chdir-wchdir) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_chmod](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/chmod-wchmod) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_findclose](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/findclose) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_findfirst32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/findfirst-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_findfirst32i64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/findfirst-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_findfirst64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/findfirst-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_findfirst64i32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/findfirst-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_findnext32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/findnext-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_findnext32i64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/findnext-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_findnext64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/findnext-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_findnext64i32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/findnext-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_fstat32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fstat-fstat32-fstat64-fstati64-fstat32i64-fstat64i32) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_fstat32i64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fstat-fstat32-fstat64-fstati64-fstat32i64-fstat64i32) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_fstat64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fstat-fstat32-fstat64-fstati64-fstat32i64-fstat64i32) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_fstat64i32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fstat-fstat32-fstat64-fstati64-fstat32i64-fstat64i32) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_fullpath](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fullpath-wfullpath) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_getcwd](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/getcwd-wgetcwd) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_getdcwd](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/getdcwd-wgetdcwd) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_lock_file](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lock-file) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_makepath](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/makepath-wmakepath) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_makepath_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/makepath-s-wmakepath-s) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_mkdir](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mkdir-wmkdir) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_rmdir](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/rmdir-wrmdir) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_splitpath](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/splitpath-wsplitpath) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_splitpath_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/splitpath-s-wsplitpath-s) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_stat32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/stat-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_stat32i64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/stat-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_stat64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/stat-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_stat64i32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/stat-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_umask](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/umask) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_umask_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/umask-s) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_unlink](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/unlink-wunlink) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_unlock_file](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/unlock-file) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_waccess](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/access-waccess) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_waccess_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/access-s-waccess-s) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wchdir](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/chdir-wchdir) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wchmod](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/chmod-wchmod) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wfindfirst32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/findfirst-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wfindfirst32i64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/findfirst-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wfindfirst64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/findfirst-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wfindfirst64i32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/findfirst-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wfindnext32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/findnext-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wfindnext32i64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/findnext-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wfindnext64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/findnext-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wfindnext64i32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/findnext-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wfullpath](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fullpath-wfullpath) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wgetcwd](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/getcwd-wgetcwd) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wgetdcwd](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/getdcwd-wgetdcwd) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wmakepath](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/makepath-wmakepath) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wmakepath_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/makepath-s-wmakepath-s) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wmkdir](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mkdir-wmkdir) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wremove](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/remove-wremove) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wrename](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/rename-wrename) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wrmdir](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/rmdir-wrmdir) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wsplitpath](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/splitpath-wsplitpath) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wsplitpath_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/splitpath-s-wsplitpath-s) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wstat32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/stat-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wstat32i64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/stat-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wstat64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/stat-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wstat64i32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/stat-functions) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [_wunlink](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/unlink-wunlink) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [remove](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/remove-wremove) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [rename](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/rename-wrename) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _access | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _access_s | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _chdir | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _chmod | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _findclose | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _findfirst32 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _findfirst32i64 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _findfirst64 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _findfirst64i32 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _findnext32 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _findnext32i64 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _findnext64 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _findnext64i32 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _fstat32 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _fstat32i64 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _fstat64 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _fstat64i32 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _fullpath | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _getcwd | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _getdcwd | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _lock_file | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _makepath | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _makepath_s | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _mkdir | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _rmdir | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _splitpath | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _splitpath_s | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _stat32 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _stat32i64 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _stat64 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _stat64i32 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _umask | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _umask_s | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _unlink | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _unlock_file | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _waccess | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _waccess_s | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wchdir | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wchmod | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wfindfirst32 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wfindfirst32i64 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wfindfirst64 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wfindfirst64i32 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wfindnext32 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wfindnext32i64 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wfindnext64 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wfindnext64i32 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wfullpath | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wgetcwd | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wgetdcwd | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wmakepath | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wmakepath_s | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wmkdir | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wremove | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wrename | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wrmdir | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wsplitpath | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wsplitpath_s | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wstat32 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wstat32i64 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wstat64 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wstat64i32 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| _wunlink | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| [remove](https://msdn.microsoft.com/en-us/library/Aa371194(v=VS.85).aspx) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| [rename](https://msdn.microsoft.com/en-us/library/Aa964881(v=VS.85).aspx) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-crt-heap-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [_aligned_free](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/aligned-free) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [_aligned_malloc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/aligned-malloc) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [_aligned_msize](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/aligned-msize) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [_aligned_offset_malloc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/aligned-offset-malloc) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [_aligned_offset_realloc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/aligned-offset-realloc) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [_aligned_offset_recalloc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/aligned-offset-recalloc) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [_aligned_realloc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/aligned-realloc) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [_aligned_recalloc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/aligned-recalloc) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [_callnewh](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/callnewh) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [_calloc_base](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [_expand](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/expand) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [_free_base](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [_get_heap_handle](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/get-heap-handle) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [_heapmin](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/heapmin) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [_malloc_base](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [_msize](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/aligned-msize) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [_query_new_handler](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/query-new-handler) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [_query_new_mode](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/query-new-mode) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [_realloc_base](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [_recalloc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/aligned-offset-recalloc) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [_set_new_mode](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/set-new-mode) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [calloc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/aligned-offset-recalloc) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [free](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/aligned-free) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [malloc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/aligned-malloc) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [realloc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/aligned-offset-realloc) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
-| [_resetstkoflw](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/resetstkoflw) | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.15063. |
+| _aligned_free | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| _aligned_malloc | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| _aligned_msize | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| _aligned_offset_malloc | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| _aligned_offset_realloc | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| _aligned_offset_recalloc | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| _aligned_realloc | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| _aligned_recalloc | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| _callnewh | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| _calloc_base | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| _expand | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| _free_base | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| _get_heap_handle | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| _heapmin | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| _malloc_base | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| _msize | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| _query_new_handler | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| _query_new_mode | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| _realloc_base | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| _recalloc | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| _set_new_mode | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| calloc | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| free | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| malloc | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| realloc | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.10240. |
+| _resetstkoflw | Introduced into api-ms-win-crt-heap-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-crt-locale-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [___lc_codepage_func](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
-| [___lc_collate_cp_func](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
-| [___lc_locale_name_func](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
-| [___mb_cur_max_func](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
-| [___mb_cur_max_l_func](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
+| ___lc_codepage_func | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
+| ___lc_collate_cp_func | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
+| ___lc_locale_name_func | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
+| ___mb_cur_max_func | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
+| ___mb_cur_max_l_func | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
 | __initialize_lconv_for_unsigned_char | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
-| [__pctype_func](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
-| [__pwctype_func](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
-| [_configthreadlocale](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/configthreadlocale) | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
-| [_create_locale](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/create-locale-wcreate-locale) | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
-| [_free_locale](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/free-locale) | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
-| [_get_current_locale](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/get-current-locale) | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
-| [_getmbcp](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/getmbcp) | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
-| [_lock_locales](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
-| [_setmbcp](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/setmbcp) | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
-| [_unlock_locales](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
-| [_wcreate_locale](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/create-locale-wcreate-locale) | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
-| [_wsetlocale](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/setlocale-wsetlocale) | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
-| [localeconv](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/localeconv) | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
-| [setlocale](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/setlocale-wsetlocale) | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
+| __pctype_func | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
+| __pwctype_func | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
+| _configthreadlocale | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
+| _create_locale | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
+| _free_locale | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
+| _get_current_locale | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
+| _getmbcp | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
+| _lock_locales | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
+| _setmbcp | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
+| _unlock_locales | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
+| _wcreate_locale | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
+| _wsetlocale | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
+| localeconv | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
+| [setlocale](https://msdn.microsoft.com/en-us/library/5xf99h19(v=VS.85).aspx) | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-crt-math-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [__libm_sse2_acos](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [__libm_sse2_acosf](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [__libm_sse2_asin](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [__libm_sse2_asinf](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [__libm_sse2_atan](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [__libm_sse2_atan2](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [__libm_sse2_atanf](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [__libm_sse2_cos](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [__libm_sse2_cosf](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [__libm_sse2_exp](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [__libm_sse2_expf](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [__libm_sse2_log](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [__libm_sse2_log10](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [__libm_sse2_log10f](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [__libm_sse2_logf](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [__libm_sse2_pow](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [__libm_sse2_powf](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [__libm_sse2_sin](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [__libm_sse2_sinf](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [__libm_sse2_tan](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [__libm_sse2_tanf](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [__setusermatherr](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_cabs](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cabs) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| __libm_sse2_acos | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| __libm_sse2_acosf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| __libm_sse2_asin | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| __libm_sse2_asinf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| __libm_sse2_atan | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| __libm_sse2_atan2 | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| __libm_sse2_atanf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| __libm_sse2_cos | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| __libm_sse2_cosf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| __libm_sse2_exp | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| __libm_sse2_expf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| __libm_sse2_log | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| __libm_sse2_log10 | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| __libm_sse2_log10f | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| __libm_sse2_logf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| __libm_sse2_pow | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| __libm_sse2_powf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| __libm_sse2_sin | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| __libm_sse2_sinf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| __libm_sse2_tan | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| __libm_sse2_tanf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| __setusermatherr | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _cabs | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _Cbuild | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_chgsign](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/chgsign-chgsignf-chgsignl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_chgsignf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/chgsign-chgsignf-chgsignl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_CIacos](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_CIasin](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_CIatan](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_CIatan2](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_CIcos](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_CIcosh](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_CIexp](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_CIfmod](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_CIlog](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_CIlog10](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_CIpow](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_CIsin](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_CIsinh](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_CIsqrt](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_CItan](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_CItanh](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _chgsign | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _chgsignf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _CIacos | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _CIasin | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _CIatan | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _CIatan2 | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _CIcos | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _CIcosh | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _CIexp | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _CIfmod | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _CIlog | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _CIlog10 | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _CIpow | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _CIsin | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _CIsinh | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _CIsqrt | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _CItan | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _CItanh | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _Cmulcc | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _Cmulcr | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_copysign](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/copysign-copysignf-copysignl-copysign-copysignf-copysignl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_copysignf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/copysign-copysignf-copysignl-copysign-copysignf-copysignl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _copysign | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _copysignf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _d_int | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_dclass](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _dclass | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _dexp | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _dlog | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _dnorm | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_dpcomp](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _dpcomp | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _dpoly | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _dscale | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_dsign](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _dsign | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _dsin | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_dtest](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _dtest | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _dunscale | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_except1](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _except1 | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _FCbuild | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _FCmulcc | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _FCmulcr | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _fd_int | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_fdclass](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _fdclass | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _fdexp | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _fdlog | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _fdnorm | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_fdopen](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fdopen-wfdopen) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_fdpcomp](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _fdopen | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _fdpcomp | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _fdpoly | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _fdscale | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_fdsign](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _fdsign | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _fdsin | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_fdtest](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _fdtest | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _fdunscale | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_finite](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/finite-finitef) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_finitef](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/finite-finitef) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_fpclass](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fpclass-fpclassf) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_fpclassf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fpclass-fpclassf) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_FPE_Raise](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_ftol](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _finite | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _finitef | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _fpclass | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _fpclassf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _FPE_Raise | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _ftol | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _get_FMA3_enable | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_hypot](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/hypot-hypotf-hypotl-hypot-hypotf-hypotl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_hypotf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/hypot-hypotf-hypotl-hypot-hypotf-hypotl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_isnan](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isnan-isnan-isnanf) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_isnanf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isnan-isnan-isnanf) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_j0](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/bessel-functions-j0-j1-jn-y0-y1-yn) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_j1](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/bessel-functions-j0-j1-jn-y0-y1-yn) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_jn](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/bessel-functions-j0-j1-jn-y0-y1-yn) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _hypot | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _hypotf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _isnan | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _isnanf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _j0 | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _j1 | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _jn | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _LCbuild | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _LCmulcc | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _LCmulcr | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _ld_int | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_ldclass](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _ldclass | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _ldexp | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _ldlog | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_ldpcomp](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _ldpcomp | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _ldpoly | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _ldscale | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_ldsign](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _ldsign | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _ldsin | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_ldtest](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _ldtest | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _ldunscale | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_libm_sse2_acos_precise](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_libm_sse2_asin_precise](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_libm_sse2_atan_precise](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_libm_sse2_cos_precise](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_libm_sse2_exp_precise](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_libm_sse2_log_precise](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_libm_sse2_log10_precise](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_libm_sse2_pow_precise](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_libm_sse2_sin_precise](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_libm_sse2_sqrt_precise](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_libm_sse2_tan_precise](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_logb](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/logb-logbf-logbl-logb-logbf) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_logbf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/logb-logbf-logbl-logb-logbf) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_nextafter](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/nextafter-functions) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_nextafterf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/nextafter-functions) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_scalb](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/scalb) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _libm_sse2_acos_precise | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _libm_sse2_asin_precise | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _libm_sse2_atan_precise | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _libm_sse2_cos_precise | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _libm_sse2_exp_precise | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _libm_sse2_log_precise | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _libm_sse2_log10_precise | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _libm_sse2_pow_precise | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _libm_sse2_sin_precise | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _libm_sse2_sqrt_precise | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _libm_sse2_tan_precise | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _logb | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _logbf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _nextafter | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _nextafterf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _scalb | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _scalbf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _set_FMA3_enable | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_set_SSE2_enable](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/set-sse2-enable) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_y0](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/bessel-functions-j0-j1-jn-y0-y1-yn) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_y1](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/bessel-functions-j0-j1-jn-y0-y1-yn) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [_yn](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/bessel-functions-j0-j1-jn-y0-y1-yn) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [acos](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/acos-acosf-acosl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [acosf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/acos-acosf-acosl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [acosh](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/acosh-acoshf-acoshl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [acoshf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/acosh-acoshf-acoshl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [acoshl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/acosh-acoshf-acoshl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [asin](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/asin-asinf-asinl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [asinf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/asin-asinf-asinl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [asinh](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/asinh-asinhf-asinhl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [asinhf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/asinh-asinhf-asinhl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [asinhl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/asinh-asinhf-asinhl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [atan](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atan-atanf-atanl-atan2-atan2f-atan2l) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [atan2](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atan-atanf-atanl-atan2-atan2f-atan2l) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [atan2f](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atan-atanf-atanl-atan2-atan2f-atan2l) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [atanf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atan-atanf-atanl-atan2-atan2f-atan2l) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [atanh](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atanh-atanhf-atanhl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [atanhf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atanh-atanhf-atanhl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [atanhl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atanh-atanhf-atanhl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cabs](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cabs) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cabsf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cabs-cabsf-cabsl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cabsl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cabs-cabsf-cabsl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cacos](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cacos-cacosf-cacosl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cacosf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cacos-cacosf-cacosl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cacosh](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cacosh-cacoshf-cacoshl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cacoshf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cacosh-cacoshf-cacoshl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cacoshl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cacosh-cacoshf-cacoshl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cacosl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cacos-cacosf-cacosl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [carg](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/carg-cargf-cargl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cargf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/carg-cargf-cargl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cargl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/carg-cargf-cargl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [casin](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/casin-casinf-casinl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [casinf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/casin-casinf-casinl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [casinh](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/casinh-casinhf-casinhl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [casinhf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/casinh-casinhf-casinhl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [casinhl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/casinh-casinhf-casinhl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [casinl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/casin-casinf-casinl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [catan](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/catan-catanf-catanl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [catanf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/catan-catanf-catanl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [catanh](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/catanh-catanhf-catanhl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [catanhf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/catanh-catanhf-catanhl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [catanhl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/catanh-catanhf-catanhl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [catanl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/catan-catanf-catanl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cbrt](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cbrt-cbrtf-cbrtl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cbrtf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cbrt-cbrtf-cbrtl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cbrtl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cbrt-cbrtf-cbrtl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [ccos](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ccos-ccosf-ccosl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [ccosf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ccos-ccosf-ccosl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [ccosh](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ccosh-ccoshf-ccoshl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [ccoshf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ccosh-ccoshf-ccoshl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [ccoshl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ccosh-ccoshf-ccoshl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [ccosl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ccos-ccosf-ccosl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [ceil](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ceil-ceilf-ceill) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [ceilf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ceil-ceilf-ceill) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cexp](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cexp-cexpf-cexpl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cexpf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cexp-cexpf-cexpl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cexpl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cexp-cexpf-cexpl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cimag](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cimag-cimagf-cimagl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cimagf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cimag-cimagf-cimagl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cimagl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cimag-cimagf-cimagl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [clog](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/clog-clogf-clogl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [clog10](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/clog10-clog10f-clog10l) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [clog10f](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/clog10-clog10f-clog10l) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [clog10l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/clog10-clog10f-clog10l) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [clogf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/clog-clogf-clogl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [clogl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/clog-clogf-clogl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [conj](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/conj-conjf-conjl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [conjf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/conj-conjf-conjl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [conjl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/conj-conjf-conjl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [copysign](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/copysign-copysignf-copysignl-copysign-copysignf-copysignl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [copysignf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/copysign-copysignf-copysignl-copysign-copysignf-copysignl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [copysignl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/copysign-copysignf-copysignl-copysign-copysignf-copysignl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cos](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/acos-acosf-acosl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cosf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/acos-acosf-acosl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cosh](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/acosh-acoshf-acoshl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [coshf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/acosh-acoshf-acoshl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cpow](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cpow-cpowf-cpowl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cpowf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cpow-cpowf-cpowl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cpowl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cpow-cpowf-cpowl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cproj](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cproj-cprojf-cprojl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cprojf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cproj-cprojf-cprojl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cprojl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cproj-cprojf-cprojl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [creal](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/creal-crealf-creall) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [crealf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/creal-crealf-creall) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [creall](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/creal-crealf-creall) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [csin](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/csin-csinf-csinl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [csinf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/csin-csinf-csinl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [csinh](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/csinh-csinhf-csinhl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [csinhf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/csinh-csinhf-csinhl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [csinhl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/csinh-csinhf-csinhl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [csinl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/csin-csinf-csinl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [csqrt](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/csqrt-csqrtf-csqrtl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [csqrtf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/csqrt-csqrtf-csqrtl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [csqrtl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/csqrt-csqrtf-csqrtl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [ctan](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ctan-ctanf-ctanl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [ctanf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ctan-ctanf-ctanl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [ctanh](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ctanh-ctanhf-ctanhl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [ctanhf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ctanh-ctanhf-ctanhl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [ctanhl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ctanh-ctanhf-ctanhl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [ctanl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ctan-ctanf-ctanl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [erf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/erf-erff-erfl-erfc-erfcf-erfcl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [erfc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/erf-erff-erfl-erfc-erfcf-erfcl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [erfcf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/erf-erff-erfl-erfc-erfcf-erfcl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [erfcl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/erf-erff-erfl-erfc-erfcf-erfcl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [erff](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/erf-erff-erfl-erfc-erfcf-erfcl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [erfl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/erf-erff-erfl-erfc-erfcf-erfcl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [exp](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cexp-cexpf-cexpl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [exp2](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/exp2-exp2f-exp2l) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [exp2f](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/exp2-exp2f-exp2l) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [exp2l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/exp2-exp2f-exp2l) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [expf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cexp-cexpf-cexpl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [expm1](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/expm1-expm1f-expm1l) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [expm1f](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/expm1-expm1f-expm1l) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [expm1l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/expm1-expm1f-expm1l) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [fabs](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fabs-fabsf-fabsl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [fabsf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fabs-fabsf-fabsl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [fdim](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fdim-fdimf-fdiml) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [fdimf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fdim-fdimf-fdiml) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [fdiml](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fdim-fdimf-fdiml) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [floor](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/floor-floorf-floorl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [floorf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/floor-floorf-floorl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [fma](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fma-fmaf-fmal) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [fmaf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fma-fmaf-fmal) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [fmal](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fma-fmaf-fmal) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [fmax](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fmax-fmaxf-fmaxl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [fmaxf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fmax-fmaxf-fmaxl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [fmaxl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fmax-fmaxf-fmaxl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [fmin](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fmin-fminf-fminl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [fminf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fmin-fminf-fminl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [fminl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fmin-fminf-fminl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [fmod](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fmod-fmodf) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [fmodf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fmod-fmodf) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [frexp](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/frexp) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [hypot](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/hypot-hypotf-hypotl-hypot-hypotf-hypotl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [ilogb](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ilogb-ilogbf-ilogbl2) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [ilogbf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ilogb-ilogbf-ilogbl2) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [ilogbl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ilogb-ilogbf-ilogbl2) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [ldexp](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ldexp) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [lgamma](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lgamma-lgammaf-lgammal) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [lgammaf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lgamma-lgammaf-lgammal) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [lgammal](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lgamma-lgammaf-lgammal) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [llrint](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lrint-lrintf-lrintl-llrint-llrintf-llrintl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [llrintf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lrint-lrintf-lrintl-llrint-llrintf-llrintl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [llrintl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lrint-lrintf-lrintl-llrint-llrintf-llrintl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [llround](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lround-lroundf-lroundl-llround-llroundf-llroundl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [llroundf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lround-lroundf-lroundl-llround-llroundf-llroundl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [llroundl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lround-lroundf-lroundl-llround-llroundf-llroundl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [log](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/clog-clogf-clogl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [log10](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/clog10-clog10f-clog10l) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [log10f](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/clog10-clog10f-clog10l) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [log1p](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/log1p-log1pf-log1pl2) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [log1pf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/log1p-log1pf-log1pl2) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [log1pl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/log1p-log1pf-log1pl2) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [log2](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/log2-log2f-log2l) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [log2f](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/log2-log2f-log2l) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [log2l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/log2-log2f-log2l) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [logb](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ilogb-ilogbf-ilogbl2) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [logbf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ilogb-ilogbf-ilogbl2) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [logbl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ilogb-ilogbf-ilogbl2) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [logf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/clog-clogf-clogl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [lrint](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lrint-lrintf-lrintl-llrint-llrintf-llrintl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [lrintf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lrint-lrintf-lrintl-llrint-llrintf-llrintl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [lrintl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lrint-lrintf-lrintl-llrint-llrintf-llrintl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [lround](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lround-lroundf-lroundl-llround-llroundf-llroundl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [lroundf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lround-lroundf-lroundl-llround-llroundf-llroundl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [lroundl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lround-lroundf-lroundl-llround-llroundf-llroundl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [modf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fmod-fmodf) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [modff](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/modf-modff-modfl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [nan](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isnan-isnan-isnanf) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [nanf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isnan-isnan-isnanf) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [nanl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/nan-nanf-nanl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [nearbyint](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/nearbyint-nearbyintf-nearbyintl1) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [nearbyintf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/nearbyint-nearbyintf-nearbyintl1) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [nearbyintl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/nearbyint-nearbyintf-nearbyintl1) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [nextafter](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/nextafter-functions) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [nextafterf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/nextafter-functions) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [nextafterl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/nextafter-functions) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [nexttoward](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/nextafter-functions) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [nexttowardf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/nextafter-functions) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [nexttowardl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/nextafter-functions) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [norm](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/norm-normf-norml1) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [normf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/norm-normf-norml1) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [norml](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/norm-normf-norml1) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [pow](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cpow-cpowf-cpowl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [powf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cpow-cpowf-cpowl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [remainder](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/remainder-remainderf-remainderl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [remainderf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/remainder-remainderf-remainderl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [remainderl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/remainder-remainderf-remainderl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [remquo](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/remquo-remquof-remquol) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [remquof](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/remquo-remquof-remquol) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [remquol](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/remquo-remquof-remquol) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [rint](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cprintf) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [rintf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cprintf) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [rintl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lrint-lrintf-lrintl-llrint-llrintf-llrintl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [round](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fegetround-fesetround2) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [roundf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lround-lroundf-lroundl-llround-llroundf-llroundl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [roundl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lround-lroundf-lroundl-llround-llroundf-llroundl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [scalbln](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/scalbn-scalbnf-scalbnl-scalbln-scalblnf-scalblnl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [scalblnf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/scalbn-scalbnf-scalbnl-scalbln-scalblnf-scalblnl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [scalblnl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/scalbn-scalbnf-scalbnl-scalbln-scalblnf-scalblnl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [scalbn](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/scalbn-scalbnf-scalbnl-scalbln-scalblnf-scalblnl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [scalbnf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/scalbn-scalbnf-scalbnl-scalbln-scalblnf-scalblnl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [scalbnl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/scalbn-scalbnf-scalbnl-scalbln-scalblnf-scalblnl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [sin](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/asin-asinf-asinl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [sinf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/asin-asinf-asinl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [sinh](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/asinh-asinhf-asinhl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [sinhf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/asinh-asinhf-asinhl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [sqrt](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/csqrt-csqrtf-csqrtl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [sqrtf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/csqrt-csqrtf-csqrtl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [tan](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atan-atanf-atanl-atan2-atan2f-atan2l) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [tanf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atan-atanf-atanl-atan2-atan2f-atan2l) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [tanh](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atanh-atanhf-atanhl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [tanhf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/atanh-atanhf-atanhl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [tgamma](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/tgamma-tgammaf-tgammal) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [tgammaf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/tgamma-tgammaf-tgammal) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [tgammal](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/tgamma-tgammaf-tgammal) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [trunc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/trunc-truncf-truncl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [truncf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/trunc-truncf-truncl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [truncl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/trunc-truncf-truncl) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _set_SSE2_enable | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _y0 | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _y1 | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| _yn | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [acos](https://msdn.microsoft.com/en-us/library/Bb509563(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| acosf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| acosh | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| acoshf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| acoshl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [asin](https://msdn.microsoft.com/en-us/library/Bb509571(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| asinf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| asinh | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| asinhf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| asinhl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [atan](https://msdn.microsoft.com/en-us/library/Bb509574(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [atan2](https://msdn.microsoft.com/en-us/library/Bb509575(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| atan2f | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| atanf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| atanh | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| atanhf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| atanhl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cabs | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cabsf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cabsl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cacos | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cacosf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cacosh | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cacoshf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cacoshl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cacosl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| carg | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cargf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cargl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| casin | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| casinf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| casinh | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| casinhf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| casinhl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| casinl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| catan | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| catanf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| catanh | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| catanhf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| catanhl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| catanl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cbrt | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cbrtf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cbrtl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| ccos | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| ccosf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| ccosh | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| ccoshf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| ccoshl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| ccosl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [ceil](https://msdn.microsoft.com/en-us/library/Bb509577(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| ceilf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cexp | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cexpf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cexpl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cimag | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cimagf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cimagl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| clog | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| clog10 | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| clog10f | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| clog10l | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| clogf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| clogl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| conj | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| conjf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| conjl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| copysign | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| copysignf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| copysignl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [cos](https://msdn.microsoft.com/en-us/library/66bkzah2(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cosf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [cosh](https://msdn.microsoft.com/en-us/library/Bb509584(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| coshf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cpow | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cpowf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cpowl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cproj | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cprojf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| cprojl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| creal | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| crealf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| creall | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| csin | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| csinf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| csinh | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| csinhf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| csinhl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| csinl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| csqrt | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| csqrtf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| csqrtl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| ctan | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| ctanf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| ctanh | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| ctanhf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| ctanhl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| ctanl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| erf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| erfc | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| erfcf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| erfcl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| erff | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| erfl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [exp](https://msdn.microsoft.com/en-us/library/aw8fzd30(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [exp2](https://msdn.microsoft.com/en-us/library/Bb509596(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| exp2f | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| exp2l | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| expf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| expm1 | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| expm1f | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| expm1l | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| fabs | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| fabsf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| fdim | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| fdimf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| fdiml | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [floor](https://msdn.microsoft.com/en-us/library/Bb509599(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| floorf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [fma](https://msdn.microsoft.com/en-us/library/Hh768893(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| fmaf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| fmal | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| fmax | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| fmaxf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| fmaxl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| fmin | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| fminf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| fminl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [fmod](https://msdn.microsoft.com/en-us/library/Bb509601(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| fmodf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [frexp](https://msdn.microsoft.com/en-us/library/Bb509604(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| hypot | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| ilogb | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| ilogbf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| ilogbl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [ldexp](https://msdn.microsoft.com/en-us/library/Bb509616(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| lgamma | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| lgammaf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| lgammal | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| llrint | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| llrintf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| llrintl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| llround | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| llroundf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| llroundl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [log](https://msdn.microsoft.com/en-us/library/5xkbf3yw(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [log10](https://msdn.microsoft.com/en-us/library/Bb509621(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| log10f | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| log1p | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| log1pf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| log1pl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [log2](https://msdn.microsoft.com/en-us/library/Bb509622(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| log2f | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| log2l | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| logb | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| logbf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| logbl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| logf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| lrint | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| lrintf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| lrintl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| lround | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| lroundf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| lroundl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [modf](https://msdn.microsoft.com/en-us/library/Bb509627(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| modff | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [nan](https://msdn.microsoft.com/de-de/library/Dd372582(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| nanf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| nanl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| nearbyint | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| nearbyintf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| nearbyintl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| nextafter | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| nextafterf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| nextafterl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| nexttoward | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| nexttowardf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| nexttowardl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| norm | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| normf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| norml | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [pow](https://msdn.microsoft.com/en-us/library/Bb509636(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| powf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| remainder | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| remainderf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| remainderl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| remquo | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| remquof | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| remquol | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| rint | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| rintf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| rintl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [round](https://msdn.microsoft.com/en-us/library/Bb509642(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| roundf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| roundl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| scalbln | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| scalblnf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| scalblnl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| scalbn | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| scalbnf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| scalbnl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [sin](https://msdn.microsoft.com/en-us/library/Bb509651(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| sinf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [sinh](https://msdn.microsoft.com/en-us/library/Bb509653(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| sinhf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [sqrt](https://msdn.microsoft.com/en-us/library/Bb509662(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| sqrtf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [tan](https://msdn.microsoft.com/en-us/library/Bb509670(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| tanf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [tanh](https://msdn.microsoft.com/en-us/library/Bb509671(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| tanhf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| tgamma | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| tgammaf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| tgammal | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [trunc](https://msdn.microsoft.com/en-us/library/Cc308065(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| truncf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| truncl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-crt-multibyte-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [__p__mbcasemap](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [__p__mbctype](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbbalnum](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbbalnum-ismbbalnum-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbbalnum_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbbalnum-ismbbalnum-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbbalpha](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbbalpha-ismbbalpha-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbbalpha_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbbalpha-ismbbalpha-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbbblank](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbbblank-ismbbblank-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbbblank_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbbblank-ismbbblank-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbbgraph](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbbgraph-ismbbgraph-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbbgraph_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbbgraph-ismbbgraph-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbbkalnum](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbbkalnum-ismbbkalnum-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbbkalnum_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbbkalnum-ismbbkalnum-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbbkana](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbbkana-ismbbkana-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbbkana_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbbkana-ismbbkana-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbbkprint](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbbkprint-ismbbkprint-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbbkprint_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbbkprint-ismbbkprint-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbbkpunct](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbbkpunct-ismbbkpunct-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbbkpunct_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbbkpunct-ismbbkpunct-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbblead](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbblead-ismbblead-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbblead_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbblead-ismbblead-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbbprint](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbbprint-ismbbprint-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbbprint_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbbprint-ismbbprint-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbbpunct](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbbpunct-ismbbpunct-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbbpunct_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbbpunct-ismbbpunct-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbbtrail](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbbtrail-ismbbtrail-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbbtrail_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbbtrail-ismbbtrail-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbslead](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbslead-ismbstrail-ismbslead-l-ismbstrail-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbslead_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbslead-ismbstrail-ismbslead-l-ismbstrail-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbstrail](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbslead-ismbstrail-ismbslead-l-ismbstrail-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_ismbstrail_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ismbslead-ismbstrail-ismbslead-l-ismbstrail-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| __p__mbcasemap | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| __p__mbctype | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbbalnum | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbbalnum_l | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbbalpha | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbbalpha_l | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbbblank | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbbblank_l | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbbgraph | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbbgraph_l | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbbkalnum | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbbkalnum_l | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbbkana | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbbkana_l | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbbkprint | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbbkprint_l | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbbkpunct | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbbkpunct_l | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbblead | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbblead_l | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbbprint | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbbprint_l | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbbpunct | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbbpunct_l | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbbtrail | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbbtrail_l | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbslead | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbslead_l | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbstrail | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _ismbstrail_l | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
 | _mbcasemap | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_mblen_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mbclen-mblen-mblen-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_mbsdup](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strdup-wcsdup-mbsdup) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_mbstowcs_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mbstowcs-mbstowcs-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_mbstowcs_s_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mbstowcs-s-mbstowcs-s-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_mbstrlen](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strlen-wcslen-mbslen-mbslen-l-mbstrlen-mbstrlen-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_mbstrlen_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strlen-wcslen-mbslen-mbslen-l-mbstrlen-mbstrlen-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_mbstrnlen](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strnlen-strnlen-s) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_mbstrnlen_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strnlen-strnlen-s) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
-| [_mbtowc_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mbtowc-mbtowc-l) | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _mblen_l | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _mbsdup | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _mbstowcs_l | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _mbstowcs_s_l | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _mbstrlen | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _mbstrlen_l | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _mbstrnlen | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _mbstrnlen_l | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
+| _mbtowc_l | Introduced into api-ms-win-crt-multibyte-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-crt-runtime-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [__control87_2](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/control87-controlfp-control87-2) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [__doserrno](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [__fpe_flt_rounds](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [__fpecode](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [__p___argc](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [__p___argv](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [__p___wargv](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [__p__acmdln](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [__p__pgmptr](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [__p__wcmdln](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [__p__wpgmptr](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [__pxcptinfoptrs](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [__sys_errlist](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [__sys_nerr](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [__threadhandle](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [__threadid](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [__wcserror](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strerror-strerror-wcserror-wcserror) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [__wcserror_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strerror-s-strerror-s-wcserror-s-wcserror-s) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_assert](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/assert-macro-assert-wassert) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_beginthread](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/beginthread-beginthreadex) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_beginthreadex](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/beginthread-beginthreadex) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_c_exit](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cexit-c-exit) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_cexit](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cexit-c-exit) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_clearfp](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/clear87-clearfp) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_configure_narrow_argv](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_configure_wide_argv](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_control87](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/control87-controlfp-control87-2) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_controlfp](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/control87-controlfp-control87-2) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_controlfp_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/controlfp-s) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_crt_at_quick_exit](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_crt_atexit](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| __control87_2 | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| __doserrno | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| __fpe_flt_rounds | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| __fpecode | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| __p___argc | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| __p___argv | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| __p___wargv | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| __p__acmdln | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| __p__pgmptr | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| __p__wcmdln | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| __p__wpgmptr | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| __pxcptinfoptrs | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| __sys_errlist | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| __sys_nerr | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| __threadhandle | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| __threadid | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| __wcserror | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| __wcserror_s | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _assert | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _beginthread | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _beginthreadex | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _c_exit | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _cexit | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _clearfp | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _configure_narrow_argv | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _configure_wide_argv | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _control87 | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _controlfp | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _controlfp_s | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _crt_at_quick_exit | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _crt_atexit | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
 | _crt_debugger_hook | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_endthread](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/endthread-endthreadex) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_endthreadex](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/endthread-endthreadex) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_errno](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/get-errno) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_execute_onexit_table](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_Exit](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/exit-exit-exit) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_exit](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/amsg-exit) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_fpieee_flt](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fpieee-flt) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_fpreset](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fpreset) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_get_doserrno](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/get-doserrno) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_get_errno](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/get-errno) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_get_initial_narrow_environment](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_get_initial_wide_environment](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_get_invalid_parameter_handler](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/get-invalid-parameter-handler-get-thread-local-invalid-parameter-handler) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_get_narrow_winmain_command_line](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_get_pgmptr](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/get-pgmptr) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_get_terminate](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/get-terminate) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_get_thread_local_invalid_parameter_handler](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/get-invalid-parameter-handler-get-thread-local-invalid-parameter-handler) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_get_wide_winmain_command_line](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_get_wpgmptr](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/get-wpgmptr) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_getpid](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/getpid) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_initialize_narrow_environment](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_initialize_onexit_table](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_initialize_wide_environment](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_initterm](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/initterm-initterm-e) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_initterm_e](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/initterm-initterm-e) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_invalid_parameter_noinfo](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/invalid-parameter-functions) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_invalid_parameter_noinfo_noreturn](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/invalid-parameter-functions) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_invoke_watson](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/invalid-parameter-functions) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _endthread | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _endthreadex | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _errno | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _execute_onexit_table | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _Exit | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _exit | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _fpieee_flt | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _fpreset | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _get_doserrno | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _get_errno | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _get_initial_narrow_environment | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _get_initial_wide_environment | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _get_invalid_parameter_handler | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _get_narrow_winmain_command_line | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _get_pgmptr | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _get_terminate | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _get_thread_local_invalid_parameter_handler | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _get_wide_winmain_command_line | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _get_wpgmptr | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _getpid | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _initialize_narrow_environment | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _initialize_onexit_table | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _initialize_wide_environment | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _initterm | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _initterm_e | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _invalid_parameter_noinfo | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _invalid_parameter_noinfo_noreturn | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _invoke_watson | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
 | _query_app_type | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_register_onexit_function](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_register_thread_local_exe_atexit_callback](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_seh_filter_dll](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/seh-filter-dll-seh-filter-exe) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_seh_filter_exe](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/seh-filter-dll-seh-filter-exe) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_set_abort_behavior](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/set-abort-behavior) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _register_onexit_function | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _register_thread_local_exe_atexit_callback | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _seh_filter_dll | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _seh_filter_exe | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _set_abort_behavior | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
 | _set_app_type | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_set_controlfp](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/set-controlfp) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_set_doserrno](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/set-doserrno) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_set_errno](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/set-errno) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_set_error_mode](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/set-error-mode) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_set_invalid_parameter_handler](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/set-invalid-parameter-handler-set-thread-local-invalid-parameter-handler) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_set_new_handler](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/set-new-handler) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_set_thread_local_invalid_parameter_handler](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/set-invalid-parameter-handler-set-thread-local-invalid-parameter-handler) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _set_controlfp | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _set_doserrno | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _set_errno | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _set_error_mode | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _set_invalid_parameter_handler | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _set_new_handler | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _set_thread_local_invalid_parameter_handler | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
 | _sleep | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_statusfp](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/status87-statusfp-statusfp2) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_statusfp2](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/status87-statusfp-statusfp2) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_strerror](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strerror-strerror-wcserror-wcserror) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_strerror_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strerror-s-strerror-s-wcserror-s-wcserror-s) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_wassert](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/assert-macro-assert-wassert) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_wcserror](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strerror-strerror-wcserror-wcserror) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_wcserror_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strerror-s-strerror-s-wcserror-s-wcserror-s) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [_wperror](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/perror-wperror) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [abort](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/abort) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [exit](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/amsg-exit) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [feclearexcept](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/feclearexcept1) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [fegetenv](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fegetenv1) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [fegetexceptflag](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fegetexceptflag2) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [fegetround](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fegetround-fesetround2) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [feholdexcept](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/feholdexcept2) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [fesetenv](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fesetenv1) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [fesetexceptflag](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fesetexceptflag2) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [fesetround](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fegetround-fesetround2) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [fetestexcept](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fetestexcept1) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [perror](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/perror-wperror) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [quick_exit](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/quick-exit1) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [raise](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/feraiseexcept) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [set_terminate](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/set-terminate-crt) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [signal](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/signal) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [strerror](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strerror-strerror-wcserror-wcserror) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [strerror_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strerror-s-strerror-s-wcserror-s-wcserror-s) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [terminate](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/get-terminate) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _statusfp | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _statusfp2 | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _strerror | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _strerror_s | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _wassert | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _wcserror | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _wcserror_s | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _wperror | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| [abort](https://msdn.microsoft.com/en-us/library/windows/desktop/ff728669.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| exit | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| feclearexcept | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| fegetenv | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| fegetexceptflag | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| fegetround | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| feholdexcept | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| fesetenv | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| fesetexceptflag | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| fesetround | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| fetestexcept | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| perror | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| quick_exit | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| [raise](https://msdn.microsoft.com/en-us/library/h1hea41c(v=VS.85).aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| set_terminate | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| [signal](https://msdn.microsoft.com/en-us/library/Dd798670(v=VS.85).aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| strerror | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| strerror_s | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| [terminate](https://msdn.microsoft.com/en-us/library/Aa372939(v=VS.85).aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| _seterrormode | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.17134. |
+| [system](https://msdn.microsoft.com/en-us/library/Aa385207(v=VS.85).aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.17134. |
+| _wsystem | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.17134. |
 
 
 ## APIs from api-ms-win-crt-stdio-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [__acrt_iob_func](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [__p__commode](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [__p__fmode](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [__stdio_common_vfprintf](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [__stdio_common_vfprintf_p](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [__stdio_common_vfprintf_s](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [__stdio_common_vfscanf](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [__stdio_common_vfwprintf](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [__stdio_common_vfwprintf_p](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [__stdio_common_vfwprintf_s](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [__stdio_common_vfwscanf](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [__stdio_common_vsnprintf_s](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [__stdio_common_vsnwprintf_s](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [__stdio_common_vsprintf](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [__stdio_common_vsprintf_p](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [__stdio_common_vsprintf_s](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [__stdio_common_vsscanf](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [__stdio_common_vswprintf](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [__stdio_common_vswprintf_p](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [__stdio_common_vswprintf_s](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [__stdio_common_vswscanf](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_chsize](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/chsize) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_chsize_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/chsize-s) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_close](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/close) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_commit](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/commit) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_creat](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/creat-wcreat) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_dup](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/dup-dup2) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_dup2](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/dup-dup2) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_eof](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/eof) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_fclose_nolock](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fclose-nolock) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_fcloseall](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fclose-fcloseall) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_fflush_nolock](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fflush-nolock) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_fgetc_nolock](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fgetc-nolock-fgetwc-nolock) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_fgetchar](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fgetchar-fgetwchar) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_fgetwc_nolock](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fgetc-nolock-fgetwc-nolock) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_fgetwchar](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fgetchar-fgetwchar) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_filelength](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/filelength-filelengthi64) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_filelengthi64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/filelength-filelengthi64) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_fileno](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fileno) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_flushall](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/flushall) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_fputc_nolock](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fputc-nolock-fputwc-nolock) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_fputchar](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fputchar-fputwchar) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_fputwc_nolock](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fputc-nolock-fputwc-nolock) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_fputwchar](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fputchar-fputwchar) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_fread_nolock](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fread-nolock) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_fread_nolock_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fread-nolock-s2) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_fseek_nolock](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fseek-nolock-fseeki64-nolock) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_fseeki64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fseek-fseeki64) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_fseeki64_nolock](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fseek-nolock-fseeki64-nolock) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_fsopen](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fsopen-wfsopen) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_ftell_nolock](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ftell-nolock-ftelli64-nolock) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_ftelli64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ftell-ftelli64) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_ftelli64_nolock](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ftell-nolock-ftelli64-nolock) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_fwrite_nolock](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fwrite-nolock) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_get_fmode](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/get-fmode) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_get_osfhandle](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/get-osfhandle) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_get_printf_count_output](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/get-printf-count-output) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_get_stream_buffer_pointers](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_getc_nolock](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/getc-nolock-getwc-nolock) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_getmaxstdio](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/getmaxstdio) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_getw](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/getw) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_getwc_nolock](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/getc-nolock-getwc-nolock) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_getws](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/gets-s-getws-s) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_getws_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/gets-s-getws-s) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_isatty](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isatty) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_locking](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/locking) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_lseek](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lseek-lseeki64) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_lseeki64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lseek-lseeki64) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_mktemp](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mktemp-wmktemp) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_mktemp_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mktemp-s-wmktemp-s) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_open](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/open-wopen) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_open_osfhandle](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/open-osfhandle) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_putc_nolock](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/putc-nolock-putwc-nolock) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_putw](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/putw) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_putwc_nolock](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/putc-nolock-putwc-nolock) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_putws](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/puts-putws) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_read](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/read) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_rmtmp](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/rmtmp) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_set_fmode](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/set-fmode) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_set_printf_count_output](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/set-printf-count-output) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_setmaxstdio](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/setmaxstdio) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_setmode](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/setmode) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_sopen](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/sopen-wsopen) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_sopen_dispatch](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_sopen_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/sopen-s-wsopen-s) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_tell](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/tell-telli64) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_telli64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/tell-telli64) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_tempnam](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/tempnam-wtempnam-tmpnam-wtmpnam) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_ungetc_nolock](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ungetc-nolock-ungetwc-nolock) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_ungetwc_nolock](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ungetc-nolock-ungetwc-nolock) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_wcreat](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/creat-wcreat) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_wfdopen](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fdopen-wfdopen) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_wfopen](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fopen-wfopen) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_wfopen_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fopen-s-wfopen-s) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_wfreopen](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/freopen-wfreopen) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_wfreopen_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/freopen-s-wfreopen-s) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_wfsopen](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fsopen-wfsopen) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_wmktemp](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mktemp-wmktemp) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_wmktemp_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mktemp-s-wmktemp-s) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_wopen](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/open-wopen) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_write](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/write) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_wsopen](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/sopen-wsopen) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_wsopen_dispatch](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_wsopen_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/sopen-s-wsopen-s) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_wtempnam](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/tempnam-wtempnam-tmpnam-wtmpnam) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_wtmpnam](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/tempnam-wtempnam-tmpnam-wtmpnam) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [_wtmpnam_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/tmpnam-s-wtmpnam-s) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [clearerr](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/clearerr) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [clearerr_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/clearerr-s) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [fclose](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fclose-fcloseall) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [feof](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/feof) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [ferror](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ferror) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [fflush](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fflush) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [fgetc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fgetc-fgetwc) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [fgetpos](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fgetpos) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [fgets](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fgets-fgetws) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [fgetwc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fgetc-fgetwc) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [fgetws](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fgets-fgetws) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [fopen](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fopen-wfopen) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [fopen_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fopen-s-wfopen-s) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [fputc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fputc-fputwc) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [fputs](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fputs-fputws) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [fputwc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fputc-fputwc) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [fputws](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fputs-fputws) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [fread](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fread) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [fread_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fread-s) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [freopen](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/freopen-wfreopen) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [freopen_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/freopen-s-wfreopen-s) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [fseek](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fseek-fseeki64) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [fsetpos](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fsetpos) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [ftell](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ftell-ftelli64) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [fwrite](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fwrite) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [getc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fgetc-fgetwc) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [getchar](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fgetchar) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [gets_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cgets-s-cgetws-s) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [getwc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fgetc-fgetwc) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [getwchar](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fgetchar-fgetwchar) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [putc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fputc-fputwc) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [putchar](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fputchar) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [puts](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/cputs) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [putwc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fputc-fputwc) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [putwchar](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/fputchar-fputwchar) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [rewind](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/rewind) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [setbuf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/setbuf) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [setvbuf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/setvbuf) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [tmpfile](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/tmpfile) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [tmpfile_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/tmpfile-s) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [tmpnam](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/tempnam-wtempnam-tmpnam-wtmpnam) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [tmpnam_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/tmpnam-s-wtmpnam-s) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [ungetc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ungetc-ungetwc) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
-| [ungetwc](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ungetc-ungetwc) | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| __acrt_iob_func | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| __p__commode | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| __p__fmode | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| __stdio_common_vfprintf | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| __stdio_common_vfprintf_p | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| __stdio_common_vfprintf_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| __stdio_common_vfscanf | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| __stdio_common_vfwprintf | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| __stdio_common_vfwprintf_p | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| __stdio_common_vfwprintf_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| __stdio_common_vfwscanf | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| __stdio_common_vsnprintf_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| __stdio_common_vsnwprintf_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| __stdio_common_vsprintf | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| __stdio_common_vsprintf_p | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| __stdio_common_vsprintf_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| __stdio_common_vsscanf | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| __stdio_common_vswprintf | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| __stdio_common_vswprintf_p | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| __stdio_common_vswprintf_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| __stdio_common_vswscanf | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _chsize | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _chsize_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _close | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _commit | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _creat | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _dup | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _dup2 | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _eof | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _fclose_nolock | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _fcloseall | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _fflush_nolock | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _fgetc_nolock | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _fgetchar | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _fgetwc_nolock | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _fgetwchar | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _filelength | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _filelengthi64 | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _fileno | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _flushall | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _fputc_nolock | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _fputchar | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _fputwc_nolock | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _fputwchar | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _fread_nolock | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _fread_nolock_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _fseek_nolock | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _fseeki64 | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _fseeki64_nolock | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _fsopen | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _ftell_nolock | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _ftelli64 | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _ftelli64_nolock | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _fwrite_nolock | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _get_fmode | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _get_osfhandle | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _get_printf_count_output | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _get_stream_buffer_pointers | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _getc_nolock | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _getmaxstdio | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _getw | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _getwc_nolock | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _getws | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _getws_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _isatty | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _locking | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _lseek | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _lseeki64 | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _mktemp | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _mktemp_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _open | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _open_osfhandle | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _putc_nolock | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _putw | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _putwc_nolock | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _putws | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _read | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _rmtmp | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _set_fmode | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _set_printf_count_output | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _setmaxstdio | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _setmode | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _sopen | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _sopen_dispatch | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _sopen_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _tell | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _telli64 | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _tempnam | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _ungetc_nolock | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _ungetwc_nolock | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _wcreat | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _wfdopen | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _wfopen | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _wfopen_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _wfreopen | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _wfreopen_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _wfsopen | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _wmktemp | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _wmktemp_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _wopen | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _write | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _wsopen | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _wsopen_dispatch | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _wsopen_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _wtempnam | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _wtmpnam | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| _wtmpnam_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| clearerr | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| clearerr_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| fclose | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| feof | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| ferror | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| fflush | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| fgetc | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| fgetpos | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| fgets | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| fgetwc | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| fgetws | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| fopen | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| fopen_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| fputc | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| fputs | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| fputwc | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| fputws | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| fread | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| fread_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| freopen | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| freopen_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| fseek | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| fsetpos | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| ftell | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| fwrite | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| getc | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| getchar | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| gets_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| getwc | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| getwchar | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| putc | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| putchar | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| puts | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| putwc | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| putwchar | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| rewind | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| setbuf | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| setvbuf | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| tmpfile | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| tmpfile_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| tmpnam | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| tmpnam_s | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| ungetc | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| ungetwc | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.10240. |
+| putenv | Introduced into api-ms-win-crt-stdio-l1-1-0.dll in 10.0.17134. |
 
 
 ## APIs from api-ms-win-crt-string-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [__isascii](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isascii-isascii-iswascii) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [__iscsym](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/iscsym-functions) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [__iscsymf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/iscsym-functions) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [__iswcsym](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/iscsym-functions) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [__iswcsymf](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/iscsym-functions) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [__strncnt](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [__wcsncnt](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_isalnum_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isalnum-iswalnum-isalnum-l-iswalnum-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_isalpha_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isalpha-iswalpha-isalpha-l-iswalpha-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_isblank_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isblank-iswblank-isblank-l-iswblank-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_iscntrl_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/iscntrl-iswcntrl-iscntrl-l-iswcntrl-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_isctype](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isctype-iswctype-isctype-l-iswctype-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_isctype_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isctype-iswctype-isctype-l-iswctype-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_isdigit_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isdigit-iswdigit-isdigit-l-iswdigit-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_isgraph_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isgraph-iswgraph-isgraph-l-iswgraph-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_isleadbyte_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isleadbyte-isleadbyte-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_islower_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/islower-iswlower-islower-l-iswlower-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_isprint_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isprint-iswprint-isprint-l-iswprint-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_ispunct_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ispunct-iswpunct-ispunct-l-iswpunct-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_isspace_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isspace-iswspace-isspace-l-iswspace-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_isupper_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isupper-isupper-l-iswupper-iswupper-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_iswalnum_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isalnum-iswalnum-isalnum-l-iswalnum-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_iswalpha_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isalpha-iswalpha-isalpha-l-iswalpha-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_iswblank_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isblank-iswblank-isblank-l-iswblank-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_iswcntrl_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/iscntrl-iswcntrl-iscntrl-l-iswcntrl-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_iswcsym_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/iscsym-functions) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_iswcsymf_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/iscsym-functions) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_iswctype_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isctype-iswctype-isctype-l-iswctype-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_iswdigit_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isdigit-iswdigit-isdigit-l-iswdigit-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_iswgraph_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isgraph-iswgraph-isgraph-l-iswgraph-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_iswlower_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/islower-iswlower-islower-l-iswlower-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_iswprint_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isprint-iswprint-isprint-l-iswprint-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_iswpunct_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ispunct-iswpunct-ispunct-l-iswpunct-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_iswspace_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isspace-iswspace-isspace-l-iswspace-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_iswupper_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isupper-isupper-l-iswupper-iswupper-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_iswxdigit_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isxdigit-iswxdigit-isxdigit-l-iswxdigit-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_isxdigit_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isxdigit-iswxdigit-isxdigit-l-iswxdigit-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_memccpy](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/memccpy) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_memicmp](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/memicmp-memicmp-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_memicmp_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/memicmp-memicmp-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_strcoll_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strcoll-wcscoll-mbscoll-strcoll-l-wcscoll-l-mbscoll-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_strdup](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strdup-wcsdup-mbsdup) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_stricmp](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/stricmp-wcsicmp-mbsicmp-stricmp-l-wcsicmp-l-mbsicmp-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_stricmp_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/stricmp-wcsicmp-mbsicmp-stricmp-l-wcsicmp-l-mbsicmp-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_stricoll](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/stricoll-wcsicoll-mbsicoll-stricoll-l-wcsicoll-l-mbsicoll-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_stricoll_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/stricoll-wcsicoll-mbsicoll-stricoll-l-wcsicoll-l-mbsicoll-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_strlwr](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strlwr-wcslwr-mbslwr-strlwr-l-wcslwr-l-mbslwr-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_strlwr_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strlwr-wcslwr-mbslwr-strlwr-l-wcslwr-l-mbslwr-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_strlwr_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strlwr-s-strlwr-s-l-mbslwr-s-mbslwr-s-l-wcslwr-s-wcslwr-s-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_strlwr_s_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strlwr-s-strlwr-s-l-mbslwr-s-mbslwr-s-l-wcslwr-s-wcslwr-s-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_strncoll](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strncoll-wcsncoll-mbsncoll-strncoll-l-wcsncoll-l-mbsncoll-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_strncoll_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strncoll-wcsncoll-mbsncoll-strncoll-l-wcsncoll-l-mbsncoll-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_strnicmp](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strnicmp-wcsnicmp-mbsnicmp-strnicmp-l-wcsnicmp-l-mbsnicmp-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_strnicmp_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strnicmp-wcsnicmp-mbsnicmp-strnicmp-l-wcsnicmp-l-mbsnicmp-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_strnicoll](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strnicoll-wcsnicoll-mbsnicoll-strnicoll-l-wcsnicoll-l-mbsnicoll-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_strnicoll_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strnicoll-wcsnicoll-mbsnicoll-strnicoll-l-wcsnicoll-l-mbsnicoll-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_strnset](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strnset-strnset-l-wcsnset-wcsnset-l-mbsnset-mbsnset-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_strnset_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strnset-s-strnset-s-l-wcsnset-s-wcsnset-s-l-mbsnset-s-mbsnset-s-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_strrev](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strrev-wcsrev-mbsrev-mbsrev-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_strset](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strset-strset-l-wcsset-wcsset-l-mbsset-mbsset-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_strset_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strset-s-strset-s-l-wcsset-s-wcsset-s-l-mbsset-s-mbsset-s-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_strupr](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strupr-strupr-l-mbsupr-mbsupr-l-wcsupr-l-wcsupr) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_strupr_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strupr-strupr-l-mbsupr-mbsupr-l-wcsupr-l-wcsupr) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_strupr_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strupr-s-strupr-s-l-mbsupr-s-mbsupr-s-l-wcsupr-s-wcsupr-s-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_strupr_s_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strupr-s-strupr-s-l-mbsupr-s-mbsupr-s-l-wcsupr-s-wcsupr-s-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_strxfrm_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strxfrm-wcsxfrm-strxfrm-l-wcsxfrm-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_tolower](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/tolower-tolower-towlower-tolower-l-towlower-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_tolower_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/tolower-tolower-towlower-tolower-l-towlower-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_toupper](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/toupper-toupper-towupper-toupper-l-towupper-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_toupper_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/toupper-toupper-towupper-toupper-l-towupper-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_towlower_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/tolower-tolower-towlower-tolower-l-towlower-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_towupper_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/toupper-toupper-towupper-toupper-l-towupper-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcscoll_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strcoll-wcscoll-mbscoll-strcoll-l-wcscoll-l-mbscoll-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcsdup](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strdup-wcsdup-mbsdup) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcsicmp](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/stricmp-wcsicmp-mbsicmp-stricmp-l-wcsicmp-l-mbsicmp-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcsicmp_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/stricmp-wcsicmp-mbsicmp-stricmp-l-wcsicmp-l-mbsicmp-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcsicoll](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/stricoll-wcsicoll-mbsicoll-stricoll-l-wcsicoll-l-mbsicoll-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcsicoll_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/stricoll-wcsicoll-mbsicoll-stricoll-l-wcsicoll-l-mbsicoll-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcslwr](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strlwr-wcslwr-mbslwr-strlwr-l-wcslwr-l-mbslwr-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcslwr_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strlwr-wcslwr-mbslwr-strlwr-l-wcslwr-l-mbslwr-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcslwr_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strlwr-s-strlwr-s-l-mbslwr-s-mbslwr-s-l-wcslwr-s-wcslwr-s-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcslwr_s_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strlwr-s-strlwr-s-l-mbslwr-s-mbslwr-s-l-wcslwr-s-wcslwr-s-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcsncoll](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strncoll-wcsncoll-mbsncoll-strncoll-l-wcsncoll-l-mbsncoll-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcsncoll_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strncoll-wcsncoll-mbsncoll-strncoll-l-wcsncoll-l-mbsncoll-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcsnicmp](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strnicmp-wcsnicmp-mbsnicmp-strnicmp-l-wcsnicmp-l-mbsnicmp-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcsnicmp_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strnicmp-wcsnicmp-mbsnicmp-strnicmp-l-wcsnicmp-l-mbsnicmp-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcsnicoll](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strnicoll-wcsnicoll-mbsnicoll-strnicoll-l-wcsnicoll-l-mbsnicoll-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcsnicoll_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strnicoll-wcsnicoll-mbsnicoll-strnicoll-l-wcsnicoll-l-mbsnicoll-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcsnset](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strnset-strnset-l-wcsnset-wcsnset-l-mbsnset-mbsnset-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcsnset_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strnset-s-strnset-s-l-wcsnset-s-wcsnset-s-l-mbsnset-s-mbsnset-s-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcsrev](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strrev-wcsrev-mbsrev-mbsrev-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcsset](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strset-strset-l-wcsset-wcsset-l-mbsset-mbsset-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcsset_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strset-s-strset-s-l-wcsset-s-wcsset-s-l-mbsset-s-mbsset-s-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcsupr](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strupr-strupr-l-mbsupr-mbsupr-l-wcsupr-l-wcsupr) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcsupr_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strupr-strupr-l-mbsupr-mbsupr-l-wcsupr-l-wcsupr) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcsupr_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strupr-s-strupr-s-l-mbsupr-s-mbsupr-s-l-wcsupr-s-wcsupr-s-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcsupr_s_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strupr-s-strupr-s-l-mbsupr-s-mbsupr-s-l-wcsupr-s-wcsupr-s-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wcsxfrm_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strxfrm-wcsxfrm-strxfrm-l-wcsxfrm-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [_wctype](https://docs.microsoft.com/en-us/cpp/c-runtime-library/pctype-pwctype-wctype-mbctype-mbcasemap) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [isalnum](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isalnum-iswalnum-isalnum-l-iswalnum-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [isalpha](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isalpha-iswalpha-isalpha-l-iswalpha-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [isblank](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isblank-iswblank-isblank-l-iswblank-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [iscntrl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/iscntrl-iswcntrl-iscntrl-l-iswcntrl-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [isdigit](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isdigit-iswdigit-isdigit-l-iswdigit-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [isgraph](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isgraph-iswgraph-isgraph-l-iswgraph-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [isleadbyte](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isleadbyte-isleadbyte-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [islower](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/islower-iswlower-islower-l-iswlower-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [isprint](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isprint-iswprint-isprint-l-iswprint-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [ispunct](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ispunct-iswpunct-ispunct-l-iswpunct-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [isspace](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isspace-iswspace-isspace-l-iswspace-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [isupper](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isupper-isupper-l-iswupper-iswupper-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [iswalnum](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isalnum-iswalnum-isalnum-l-iswalnum-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [iswalpha](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isalpha-iswalpha-isalpha-l-iswalpha-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [iswascii](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isascii-isascii-iswascii) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [iswblank](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isblank-iswblank-isblank-l-iswblank-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [iswcntrl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/iscntrl-iswcntrl-iscntrl-l-iswcntrl-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [iswctype](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isctype-iswctype-isctype-l-iswctype-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [iswdigit](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isdigit-iswdigit-isdigit-l-iswdigit-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [iswgraph](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isgraph-iswgraph-isgraph-l-iswgraph-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [iswlower](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/islower-iswlower-islower-l-iswlower-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [iswprint](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isprint-iswprint-isprint-l-iswprint-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [iswpunct](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ispunct-iswpunct-ispunct-l-iswpunct-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [iswspace](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isspace-iswspace-isspace-l-iswspace-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [iswupper](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isupper-isupper-l-iswupper-iswupper-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [iswxdigit](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isxdigit-iswxdigit-isxdigit-l-iswxdigit-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [isxdigit](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isxdigit-iswxdigit-isxdigit-l-iswxdigit-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [mblen](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mbclen-mblen-mblen-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [mbrlen](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mbrlen) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [memcpy_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/memcpy-s-wmemcpy-s) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [memset](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/memset-wmemset) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strcat](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strcat-wcscat-mbscat) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strcat_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strcat-s-wcscat-s-mbscat-s) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strcmp](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strcmp-wcscmp-mbscmp) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strcoll](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strcoll-wcscoll-mbscoll-strcoll-l-wcscoll-l-mbscoll-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strcpy](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strcpy-wcscpy-mbscpy) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strcpy_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strcpy-s-wcscpy-s-mbscpy-s) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strcspn](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strcspn-wcscspn-mbscspn-mbscspn-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strlen](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strlen-wcslen-mbslen-mbslen-l-mbstrlen-mbstrlen-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strncat](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strncat-strncat-l-wcsncat-wcsncat-l-mbsncat-mbsncat-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strncat_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strncat-s-strncat-s-l-wcsncat-s-wcsncat-s-l-mbsncat-s-mbsncat-s-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strncmp](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strncmp-wcsncmp-mbsncmp-mbsncmp-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strncpy](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strncpy-strncpy-l-wcsncpy-wcsncpy-l-mbsncpy-mbsncpy-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strncpy_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strncpy-s-strncpy-s-l-wcsncpy-s-wcsncpy-s-l-mbsncpy-s-mbsncpy-s-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strnlen](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strnlen-strnlen-s) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strpbrk](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strpbrk-wcspbrk-mbspbrk-mbspbrk-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strspn](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strspn-wcsspn-mbsspn-mbsspn-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strtok](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtok-strtok-l-wcstok-wcstok-l-mbstok-mbstok-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strtok_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtok-s-strtok-s-l-wcstok-s-wcstok-s-l-mbstok-s-mbstok-s-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strxfrm](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strxfrm-wcsxfrm-strxfrm-l-wcsxfrm-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [tolower](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mbctolower-mbctolower-l-mbctoupper-mbctoupper-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [toupper](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mbctolower-mbctolower-l-mbctoupper-mbctoupper-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [towctrans](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/towctrans) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [towlower](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/tolower-tolower-towlower-tolower-l-towlower-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [towupper](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/toupper-toupper-towupper-toupper-l-towupper-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [wcscat](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strcat-wcscat-mbscat) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [wcscat_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strcat-s-wcscat-s-mbscat-s) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [wcscmp](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strcmp-wcscmp-mbscmp) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [wcscoll](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strcoll-wcscoll-mbscoll-strcoll-l-wcscoll-l-mbscoll-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [wcscpy](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strcpy-wcscpy-mbscpy) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [wcscpy_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strcpy-s-wcscpy-s-mbscpy-s) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [wcscspn](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strcspn-wcscspn-mbscspn-mbscspn-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [wcslen](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strlen-wcslen-mbslen-mbslen-l-mbstrlen-mbstrlen-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [wcsncat](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strncat-strncat-l-wcsncat-wcsncat-l-mbsncat-mbsncat-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [wcsncat_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strncat-s-strncat-s-l-wcsncat-s-wcsncat-s-l-mbsncat-s-mbsncat-s-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [wcsncmp](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strncmp-wcsncmp-mbsncmp-mbsncmp-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [wcsncpy](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strncpy-strncpy-l-wcsncpy-wcsncpy-l-mbsncpy-mbsncpy-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [wcsncpy_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strncpy-s-strncpy-s-l-wcsncpy-s-wcsncpy-s-l-mbsncpy-s-mbsncpy-s-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [wcsnlen](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strnlen-strnlen-s) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [wcspbrk](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strpbrk-wcspbrk-mbspbrk-mbspbrk-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [wcsspn](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strspn-wcsspn-mbsspn-mbsspn-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [wcstok](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtok-strtok-l-wcstok-wcstok-l-mbstok-mbstok-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [wcstok_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtok-s-strtok-s-l-wcstok-s-wcstok-s-l-mbstok-s-mbstok-s-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [wcsxfrm](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strxfrm-wcsxfrm-strxfrm-l-wcsxfrm-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [wctype](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/isctype-iswctype-isctype-l-iswctype-l) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [wmemcpy_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/memcpy-s-wmemcpy-s) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [wmemmove_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/memmove-s-wmemmove-s) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [memmove_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/memmove-s-wmemmove-s) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.15063. |
+| __isascii | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| __iscsym | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| __iscsymf | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| __iswcsym | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| __iswcsymf | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| __strncnt | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| __wcsncnt | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _isalnum_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _isalpha_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _isblank_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _iscntrl_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _isctype | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _isctype_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _isdigit_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _isgraph_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _isleadbyte_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _islower_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _isprint_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _ispunct_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _isspace_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _isupper_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _iswalnum_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _iswalpha_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _iswblank_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _iswcntrl_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _iswcsym_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _iswcsymf_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _iswctype_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _iswdigit_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _iswgraph_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _iswlower_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _iswprint_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _iswpunct_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _iswspace_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _iswupper_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _iswxdigit_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _isxdigit_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _memccpy | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _memicmp | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _memicmp_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _strcoll_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _strdup | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _stricmp | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _stricmp_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _stricoll | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _stricoll_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _strlwr | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _strlwr_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _strlwr_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _strlwr_s_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _strncoll | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _strncoll_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _strnicmp | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _strnicmp_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _strnicoll | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _strnicoll_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _strnset | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _strnset_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _strrev | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _strset | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _strset_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _strupr | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _strupr_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _strupr_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _strupr_s_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _strxfrm_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _tolower | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _tolower_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _toupper | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _toupper_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _towlower_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _towupper_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcscoll_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcsdup | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcsicmp | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcsicmp_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcsicoll | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcsicoll_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcslwr | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcslwr_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcslwr_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcslwr_s_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcsncoll | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcsncoll_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcsnicmp | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcsnicmp_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcsnicoll | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcsnicoll_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcsnset | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcsnset_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcsrev | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcsset | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcsset_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcsupr | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcsupr_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcsupr_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcsupr_s_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wcsxfrm_l | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| _wctype | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| isalnum | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| isalpha | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| isblank | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| iscntrl | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| isdigit | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| isgraph | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| isleadbyte | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| islower | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| isprint | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| ispunct | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| isspace | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| isupper | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| iswalnum | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| iswalpha | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| iswascii | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| iswblank | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| iswcntrl | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| iswctype | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| iswdigit | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| iswgraph | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| iswlower | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| iswprint | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| iswpunct | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| iswspace | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| iswupper | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| iswxdigit | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| isxdigit | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| mblen | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| mbrlen | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| memcpy_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| memset | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| [strcat](https://msdn.microsoft.com/en-us/library/windows/desktop/bb759925.aspx) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| strcat_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| [strcmp](https://msdn.microsoft.com/en-us/library/windows/desktop/bb759938.aspx) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| strcoll | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| [strcpy](https://msdn.microsoft.com/en-us/library/windows/desktop/bb759960.aspx) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| strcpy_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| [strcspn](https://msdn.microsoft.com/en-us/library/windows/desktop/bb759964.aspx) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| strlen | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| [strncat](https://msdn.microsoft.com/en-us/library/windows/desktop/bb759987.aspx) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| strncat_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| strncmp | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| strncpy | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| strncpy_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| strnlen | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| [strpbrk](https://msdn.microsoft.com/en-us/library/windows/desktop/bb760010.aspx) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| [strspn](https://msdn.microsoft.com/en-us/library/windows/desktop/bb773435.aspx) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| strtok | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| strtok_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| strxfrm | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| tolower | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| toupper | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| towctrans | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| towlower | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| towupper | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| wcscat | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| wcscat_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| wcscmp | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| wcscoll | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| wcscpy | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| wcscpy_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| wcscspn | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| wcslen | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| wcsncat | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| wcsncat_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| wcsncmp | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| wcsncpy | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| wcsncpy_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| wcsnlen | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| wcspbrk | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| wcsspn | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| wcstok | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| wcstok_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| wcsxfrm | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| wctype | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| wmemcpy_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| wmemmove_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| memmove_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-crt-time-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [__daylight](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [__dstbias](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [__timezone](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [__tzname](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_ctime32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ctime-ctime32-ctime64-wctime-wctime32-wctime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_ctime32_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ctime-s-ctime32-s-ctime64-s-wctime-s-wctime32-s-wctime64-s) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_ctime64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ctime-ctime32-ctime64-wctime-wctime32-wctime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_ctime64_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ctime-s-ctime32-s-ctime64-s-wctime-s-wctime32-s-wctime64-s) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_difftime32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/difftime-difftime32-difftime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_difftime64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/difftime-difftime32-difftime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_ftime32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ftime-ftime32-ftime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_ftime32_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ftime-s-ftime32-s-ftime64-s) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_ftime64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ftime-ftime32-ftime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_ftime64_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ftime-s-ftime32-s-ftime64-s) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_futime32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/futime-futime32-futime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_futime64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/futime-futime32-futime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_get_daylight](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/get-daylight) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_get_dstbias](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/get-dstbias) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_get_timezone](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/get-timezone) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_get_tzname](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/get-tzname) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_Getdays](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_Getmonths](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_Gettnames](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_gmtime32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/gmtime-gmtime32-gmtime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_gmtime32_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/gmtime-s-gmtime32-s-gmtime64-s) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_gmtime64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/gmtime-gmtime32-gmtime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_gmtime64_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/gmtime-s-gmtime32-s-gmtime64-s) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_localtime32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/localtime-localtime32-localtime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_localtime32_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/localtime-s-localtime32-s-localtime64-s) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_localtime64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/localtime-localtime32-localtime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_localtime64_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/localtime-s-localtime32-s-localtime64-s) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_mkgmtime32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mkgmtime-mkgmtime32-mkgmtime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_mkgmtime64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mkgmtime-mkgmtime32-mkgmtime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_mktime32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mktime-mktime32-mktime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_mktime64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/mktime-mktime32-mktime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_strdate](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strdate-wstrdate) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_strdate_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strdate-s-wstrdate-s) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_Strftime](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_strftime_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strftime-wcsftime-strftime-l-wcsftime-l) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_strtime](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtime-wstrtime) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_strtime_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtime-s-wstrtime-s) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_time32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/time-time32-time64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_time64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/time-time32-time64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_timespec32_get](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/timespec-get-timespec32-get-timespec64-get1) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_timespec64_get](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/timespec-get-timespec32-get-timespec64-get1) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_tzset](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/tzset) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_utime32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/utime-utime32-utime64-wutime-wutime32-wutime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_utime64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/utime-utime32-utime64-wutime-wutime32-wutime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_W_Getdays](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_W_Getmonths](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| __daylight | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| __dstbias | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| __timezone | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| __tzname | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _ctime32 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _ctime32_s | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _ctime64 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _ctime64_s | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _difftime32 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _difftime64 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _ftime32 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _ftime32_s | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _ftime64 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _ftime64_s | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _futime32 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _futime64 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _get_daylight | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _get_dstbias | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _get_timezone | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _get_tzname | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _Getdays | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _Getmonths | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _Gettnames | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _gmtime32 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _gmtime32_s | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _gmtime64 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _gmtime64_s | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _localtime32 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _localtime32_s | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _localtime64 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _localtime64_s | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _mkgmtime32 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _mkgmtime64 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _mktime32 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _mktime64 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _strdate | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _strdate_s | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _Strftime | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _strftime_l | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _strtime | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _strtime_s | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _time32 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _time64 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _timespec32_get | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _timespec64_get | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _tzset | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _utime32 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _utime64 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _W_Getdays | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _W_Getmonths | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
 | _W_Gettnames | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_wasctime](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/asctime-wasctime) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_wasctime_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/asctime-s-wasctime-s) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_Wcsftime](https://msdn.microsoft.com/en-us/library/dn727675.aspx) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_wcsftime_l](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strftime-wcsftime-strftime-l-wcsftime-l) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_wctime32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ctime-ctime32-ctime64-wctime-wctime32-wctime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_wctime32_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ctime-s-ctime32-s-ctime64-s-wctime-s-wctime32-s-wctime64-s) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_wctime64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ctime-ctime32-ctime64-wctime-wctime32-wctime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_wctime64_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ctime-s-ctime32-s-ctime64-s-wctime-s-wctime32-s-wctime64-s) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_wstrdate](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strdate-wstrdate) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_wstrdate_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strdate-s-wstrdate-s) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_wstrtime](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtime-wstrtime) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_wstrtime_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strtime-s-wstrtime-s) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_wutime32](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/utime-utime32-utime64-wutime-wutime32-wutime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [_wutime64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/utime-utime32-utime64-wutime-wutime32-wutime64) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [asctime](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/asctime-wasctime) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [asctime_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/asctime-s-wasctime-s) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [clock](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/clock) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [strftime](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strftime-wcsftime-strftime-l-wcsftime-l) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
-| [wcsftime](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/strftime-wcsftime-strftime-l-wcsftime-l) | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _wasctime | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _wasctime_s | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _Wcsftime | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _wcsftime_l | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _wctime32 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _wctime32_s | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _wctime64 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _wctime64_s | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _wstrdate | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _wstrdate_s | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _wstrtime | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _wstrtime_s | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _wutime32 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| _wutime64 | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| asctime | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| asctime_s | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| clock | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| strftime | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
+| wcsftime | Introduced into api-ms-win-crt-time-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-crt-utility-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [_abs64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/abs-labs-llabs-abs64) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [_byteswap_uint64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/byteswap-uint64-byteswap-ulong-byteswap-ushort) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [_byteswap_ulong](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/byteswap-uint64-byteswap-ulong-byteswap-ushort) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [_byteswap_ushort](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/byteswap-uint64-byteswap-ulong-byteswap-ushort) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [_lfind](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lfind) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [_lfind_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lfind-s) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [_lrotl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lrotl-lrotr) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [_lrotr](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lrotl-lrotr) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [_lsearch](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lsearch) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [_lsearch_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/lsearch-s) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [_rotl](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/rotl-rotl64-rotr-rotr64) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [_rotl64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/rotl-rotl64-rotr-rotr64) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [_rotr](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/rotl-rotl64-rotr-rotr64) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [_rotr64](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/rotl-rotl64-rotr-rotr64) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [_swab](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/swab) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [abs](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/abs-labs-llabs-abs64) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [bsearch](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/bsearch) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [bsearch_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/bsearch-s) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [div](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/div) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [imaxabs](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/imaxabs) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [imaxdiv](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/imaxdiv) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [labs](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/abs-labs-llabs-abs64) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [ldiv](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ldiv-lldiv) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [llabs](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/abs-labs-llabs-abs64) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [lldiv](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/ldiv-lldiv) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [qsort](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/qsort) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [qsort_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/qsort-s) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [rand](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/rand) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [rand_s](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/rand-s) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [srand](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/srand) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| _abs64 | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| _byteswap_uint64 | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| _byteswap_ulong | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| _byteswap_ushort | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| _lfind | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| _lfind_s | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| _lrotl | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| _lrotr | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| _lsearch | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| _lsearch_s | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| _rotl | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| _rotl64 | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| _rotr | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| _rotr64 | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| _swab | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| [abs](https://msdn.microsoft.com/en-us/library/307330xe(v=VS.85).aspx) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| bsearch | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| bsearch_s | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| [div](https://msdn.microsoft.com/en-us/library/ms535240(v=VS.85).aspx) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| imaxabs | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| imaxdiv | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| labs | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| ldiv | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| llabs | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| lldiv | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| qsort | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| qsort_s | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| rand | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| rand_s | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| srand | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-gaming-tcui-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CheckGamingPrivilegeSilently](https://msdn.microsoft.com/en-us/library/Mt736759.aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10586. Removed in 10.0.14393. |
-| [CheckGamingPrivilegeWithUI](https://msdn.microsoft.com/en-us/library/Mt736760.aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10586. Removed in 10.0.14393. |
+| CheckGamingPrivilegeSilently | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10586. Removed in 10.0.14393. |
+| [CheckGamingPrivilegeWithUI](https://msdn.microsoft.com/en-us/library/Mt736760(v=VS.85).aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10586. Removed in 10.0.14393. |
 
 
 ## APIs from winsqlite3.dll
 
 | API | Requirements |
 | -----| --------------|
-| [sqlite3_aggregate_context](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_aggregate_count](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_auto_extension](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_backup_finish](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_backup_init](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_backup_pagecount](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_backup_remaining](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_backup_step](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_bind_blob](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_bind_blob64](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_bind_double](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_bind_int](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_bind_int64](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_bind_null](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_bind_parameter_count](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_bind_parameter_index](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_bind_parameter_name](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_bind_text](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_bind_text16](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_bind_text64](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_bind_value](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_bind_zeroblob](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_blob_bytes](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_blob_close](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_blob_open](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_blob_read](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_blob_reopen](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_blob_write](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_busy_handler](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_busy_timeout](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_cancel_auto_extension](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_changes](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_clear_bindings](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_close](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_close_v2](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_collation_needed](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_collation_needed16](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_column_blob](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_column_bytes](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_column_bytes16](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_column_count](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_column_database_name](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_column_database_name16](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_column_decltype](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_column_decltype16](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_column_double](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_column_int](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_column_int64](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_column_name](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_column_name16](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_column_origin_name](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_column_origin_name16](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_column_table_name](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_column_table_name16](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_column_text](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_column_text16](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_column_type](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_column_value](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_commit_hook](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_compileoption_get](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_compileoption_used](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_complete](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_complete16](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_config](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_context_db_handle](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_create_collation](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_create_collation16](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_create_collation_v2](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_create_function](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_create_function16](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_create_function_v2](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_create_module](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_create_module_v2](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_data_count](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_data_directory](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_db_config](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_db_filename](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_db_handle](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_db_mutex](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_db_readonly](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_db_release_memory](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_db_status](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_declare_vtab](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_enable_load_extension](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_enable_shared_cache](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_errcode](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_errmsg](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_errmsg16](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_errstr](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_exec](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_expired](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_extended_errcode](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_extended_result_codes](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_file_control](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_finalize](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_free](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_free_table](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_get_autocommit](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_get_auxdata](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_get_table](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_global_recover](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_initialize](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_interrupt](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_last_insert_rowid](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_libversion](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_libversion_number](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_limit](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_load_extension](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_log](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_malloc](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_malloc64](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_memory_alarm](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_memory_highwater](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_memory_used](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_mprintf](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_msize](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_mutex_alloc](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_mutex_enter](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_mutex_free](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_mutex_leave](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_mutex_try](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_next_stmt](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_open](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_open16](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_open_v2](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_os_end](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_os_init](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_overload_function](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_prepare](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_prepare16](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_prepare16_v2](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_prepare_v2](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_profile](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_progress_handler](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_randomness](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_realloc](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_realloc64](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_release_memory](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_reset](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_reset_auto_extension](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_result_blob](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_result_blob64](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_result_double](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_result_error](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_result_error16](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_result_error_code](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_result_error_nomem](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_result_error_toobig](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_result_int](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_result_int64](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_result_null](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_result_text](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_result_text16](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_result_text16be](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_result_text16le](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_result_text64](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_result_value](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_result_zeroblob](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_rollback_hook](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_rtree_geometry_callback](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_rtree_query_callback](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_set_authorizer](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_set_auxdata](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_shutdown](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_sleep](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_snprintf](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_soft_heap_limit](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_soft_heap_limit64](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_sourceid](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_sql](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_status](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_step](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_stmt_busy](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_stmt_readonly](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_stmt_status](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_strglob](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_stricmp](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_strnicmp](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_table_column_metadata](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_temp_directory](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_test_control](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_thread_cleanup](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_threadsafe](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_total_changes](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_trace](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_transfer_bindings](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_update_hook](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_uri_boolean](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_uri_int64](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_uri_parameter](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_user_data](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_value_blob](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_value_bytes](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_value_bytes16](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_value_double](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_value_int](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_value_int64](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_value_numeric_type](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_value_text](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_value_text16](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_value_text16be](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_value_text16le](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_value_type](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_version](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_vfs_find](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_vfs_register](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_vfs_unregister](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_vmprintf](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_vsnprintf](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_vtab_config](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_vtab_on_conflict](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_wal_autocheckpoint](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_wal_checkpoint](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_wal_checkpoint_v2](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_wal_hook](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.10586. |
-| [sqlite3_bind_zeroblob64](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.14393. |
-| [sqlite3_db_cacheflush](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.14393. |
-| [sqlite3_result_subtype](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.14393. |
-| [sqlite3_result_zeroblob64](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.14393. |
-| [sqlite3_status64](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.14393. |
-| [sqlite3_strlike](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.14393. |
-| [sqlite3_system_errno](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.14393. |
-| [sqlite3_value_dup](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.14393. |
-| [sqlite3_value_free](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.14393. |
-| [sqlite3_value_subtype](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.14393. |
-| [sqlite3_expanded_sql](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.15063. |
-| [sqlite3_trace_v2](https://sqlite.org/docs.html) | Introduced into winsqlite3.dll in 10.0.15063. |
+| sqlite3_aggregate_context | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_aggregate_count | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_auto_extension | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_backup_finish | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_backup_init | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_backup_pagecount | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_backup_remaining | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_backup_step | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_bind_blob | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_bind_blob64 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_bind_double | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_bind_int | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_bind_int64 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_bind_null | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_bind_parameter_count | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_bind_parameter_index | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_bind_parameter_name | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_bind_text | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_bind_text16 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_bind_text64 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_bind_value | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_bind_zeroblob | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_blob_bytes | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_blob_close | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_blob_open | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_blob_read | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_blob_reopen | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_blob_write | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_busy_handler | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_busy_timeout | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_cancel_auto_extension | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_changes | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_clear_bindings | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_close | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_close_v2 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_collation_needed | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_collation_needed16 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_column_blob | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_column_bytes | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_column_bytes16 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_column_count | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_column_database_name | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_column_database_name16 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_column_decltype | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_column_decltype16 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_column_double | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_column_int | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_column_int64 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_column_name | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_column_name16 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_column_origin_name | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_column_origin_name16 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_column_table_name | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_column_table_name16 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_column_text | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_column_text16 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_column_type | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_column_value | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_commit_hook | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_compileoption_get | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_compileoption_used | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_complete | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_complete16 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_config | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_context_db_handle | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_create_collation | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_create_collation16 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_create_collation_v2 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_create_function | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_create_function16 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_create_function_v2 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_create_module | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_create_module_v2 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_data_count | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_data_directory | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_db_config | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_db_filename | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_db_handle | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_db_mutex | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_db_readonly | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_db_release_memory | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_db_status | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_declare_vtab | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_enable_load_extension | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_enable_shared_cache | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_errcode | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_errmsg | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_errmsg16 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_errstr | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_exec | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_expired | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_extended_errcode | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_extended_result_codes | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_file_control | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_finalize | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_free | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_free_table | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_get_autocommit | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_get_auxdata | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_get_table | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_global_recover | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_initialize | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_interrupt | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_last_insert_rowid | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_libversion | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_libversion_number | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_limit | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_load_extension | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_log | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_malloc | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_malloc64 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_memory_alarm | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_memory_highwater | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_memory_used | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_mprintf | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_msize | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_mutex_alloc | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_mutex_enter | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_mutex_free | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_mutex_leave | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_mutex_try | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_next_stmt | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_open | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_open16 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_open_v2 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_os_end | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_os_init | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_overload_function | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_prepare | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_prepare16 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_prepare16_v2 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_prepare_v2 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_profile | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_progress_handler | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_randomness | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_realloc | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_realloc64 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_release_memory | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_reset | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_reset_auto_extension | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_result_blob | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_result_blob64 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_result_double | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_result_error | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_result_error16 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_result_error_code | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_result_error_nomem | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_result_error_toobig | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_result_int | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_result_int64 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_result_null | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_result_text | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_result_text16 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_result_text16be | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_result_text16le | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_result_text64 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_result_value | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_result_zeroblob | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_rollback_hook | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_rtree_geometry_callback | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_rtree_query_callback | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_set_authorizer | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_set_auxdata | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_shutdown | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_sleep | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_snprintf | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_soft_heap_limit | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_soft_heap_limit64 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_sourceid | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_sql | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_status | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_step | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_stmt_busy | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_stmt_readonly | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_stmt_status | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_strglob | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_stricmp | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_strnicmp | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_table_column_metadata | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_temp_directory | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_test_control | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_thread_cleanup | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_threadsafe | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_total_changes | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_trace | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_transfer_bindings | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_update_hook | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_uri_boolean | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_uri_int64 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_uri_parameter | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_user_data | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_value_blob | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_value_bytes | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_value_bytes16 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_value_double | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_value_int | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_value_int64 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_value_numeric_type | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_value_text | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_value_text16 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_value_text16be | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_value_text16le | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_value_type | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_version | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_vfs_find | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_vfs_register | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_vfs_unregister | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_vmprintf | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_vsnprintf | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_vtab_config | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_vtab_on_conflict | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_wal_autocheckpoint | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_wal_checkpoint | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_wal_checkpoint_v2 | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_wal_hook | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_bind_zeroblob64 | Introduced into winsqlite3.dll in 10.0.14393. |
+| sqlite3_db_cacheflush | Introduced into winsqlite3.dll in 10.0.14393. |
+| sqlite3_result_subtype | Introduced into winsqlite3.dll in 10.0.14393. |
+| sqlite3_result_zeroblob64 | Introduced into winsqlite3.dll in 10.0.14393. |
+| sqlite3_status64 | Introduced into winsqlite3.dll in 10.0.14393. |
+| sqlite3_strlike | Introduced into winsqlite3.dll in 10.0.14393. |
+| sqlite3_system_errno | Introduced into winsqlite3.dll in 10.0.14393. |
+| sqlite3_value_dup | Introduced into winsqlite3.dll in 10.0.14393. |
+| sqlite3_value_free | Introduced into winsqlite3.dll in 10.0.14393. |
+| sqlite3_value_subtype | Introduced into winsqlite3.dll in 10.0.14393. |
+| sqlite3_expanded_sql | Introduced into winsqlite3.dll in 10.0.16299. |
 | sqlite3_set_last_insert_rowid | Introduced into winsqlite3.dll in 10.0.16299. |
+| sqlite3_trace_v2 | Introduced into winsqlite3.dll in 10.0.16299. |
+| sqlite3_bind_pointer | Introduced into winsqlite3.dll in 10.0.17134. |
+| sqlite3_prepare16_v3 | Introduced into winsqlite3.dll in 10.0.17134. |
+| sqlite3_prepare_v3 | Introduced into winsqlite3.dll in 10.0.17134. |
+| sqlite3_result_pointer | Introduced into winsqlite3.dll in 10.0.17134. |
+| sqlite3_value_pointer | Introduced into winsqlite3.dll in 10.0.17134. |
+| sqlite3_value_nochange | Introduced into winsqlite3.dll in 10.0.17763. |
+| sqlite3_vtab_collation | Introduced into winsqlite3.dll in 10.0.17763. |
+| sqlite3_vtab_nochange | Introduced into winsqlite3.dll in 10.0.17763. |
+| sqlite3_win32_set_directory | Introduced into winsqlite3.dll in 10.0.17763. |
+| sqlite3_win32_set_directory16 | Introduced into winsqlite3.dll in 10.0.17763. |
+| sqlite3_win32_set_directory8 | Introduced into winsqlite3.dll in 10.0.17763. |
 
 
 ## APIs from user32.dll
@@ -1647,1482 +1676,1519 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | [MapVirtualKeyW](https://msdn.microsoft.com/en-us/library/ms646306.aspx) | Introduced into user32.dll in 10.0.14393. |
 | [MapVirtualKeyExA](https://msdn.microsoft.com/en-us/library/windows/desktop/ms646307.aspx) | Introduced into user32.dll in 10.0.14393. |
 | [MapVirtualKeyExW](https://msdn.microsoft.com/en-us/library/ms646307.aspx) | Introduced into user32.dll in 10.0.14393. |
-| [ClipCursor](https://msdn.microsoft.com/en-us/library/ms648383.aspx) | Introduced into user32.dll in 10.0.15063. |
-| [GetLastInputInfo](https://msdn.microsoft.com/en-us/library/ms646302.aspx) | Introduced into user32.dll in 10.0.15063. |
-| [GetKeyState](https://msdn.microsoft.com/en-us/library/ms929437.aspx) | Introduced into user32.dll in 10.0.16299. |
+| [ClipCursor](https://msdn.microsoft.com/en-us/library/ms648383(v=VS.85).aspx) | Introduced into user32.dll in 10.0.16299. |
+| [GetKeyState](https://msdn.microsoft.com/en-us/library/ms646301(v=VS.85).aspx) | Introduced into user32.dll in 10.0.16299. |
+| [GetLastInputInfo](https://msdn.microsoft.com/en-us/library/ms646302(v=VS.85).aspx) | Introduced into user32.dll in 10.0.16299. |
 
 
 ## APIs from ResetPhoneForArm32.dll
 
 | API | Requirements |
 | -----| --------------|
-| ResetPhoneForArm32 | Introduced into ResetPhoneForArm32.dll in 10.0.15063. |
-
-
-## APIs from OPMXbox.dll
-
-| API | Requirements |
-| -----| --------------|
-| OPMXboxEnableHDCP | Introduced into OPMXbox.dll in 10.0.15063. |
-| OPMXboxGetHDCPStatus | Introduced into OPMXbox.dll in 10.0.15063. |
-| OPMXboxGetHDCPStatusAndType | Introduced into OPMXbox.dll in 10.0.15063. |
-
-
-## APIs from efswrt.dll
-
-| API | Requirements |
-| -----| --------------|
-| [ProtectFileToEnterpriseIdentity](https://msdn.microsoft.com/en-us/library/Mt622168.aspx) | Introduced into efswrt.dll in 10.0.15063. |
-| UnprotectFile | Introduced into efswrt.dll in 10.0.15063. |
-
-
-## APIs from wer.dll
-
-| API | Requirements |
-| -----| --------------|
-| [WerStoreOpen](https://msdn.microsoft.com/en-us/library/Mt492590.aspx) | Introduced into wer.dll in 10.0.15063. |
-| [WerStoreClose](https://msdn.microsoft.com/en-us/library/Mt796907.aspx) | Introduced into wer.dll in 10.0.15063. |
-| [WerFreeString](https://msdn.microsoft.com/en-us/library/Mt492584.aspx) | Introduced into wer.dll in 10.0.15063. |
-| [WerStoreGetFirstReportKey](https://msdn.microsoft.com/en-us/library/Mt492588.aspx) | Introduced into wer.dll in 10.0.15063. |
-| [WerStoreGetNextReportKey](https://msdn.microsoft.com/en-us/library/Mt492589.aspx) | Introduced into wer.dll in 10.0.15063. |
-| [WerStoreQueryReportMetadataV2](https://msdn.microsoft.com/en-us/library/Mt492591.aspx) | Introduced into wer.dll in 10.0.15063. |
-| [WerReportCreate](https://msdn.microsoft.com/en-us/library/Bb513625.aspx) | Introduced into wer.dll in 10.0.16299. |
-| [WerReportSetParameter](https://msdn.microsoft.com/en-us/library/Bb513626.aspx) | Introduced into wer.dll in 10.0.16299. |
-| [WerReportAddFile](https://msdn.microsoft.com/en-us/library/Bb513623.aspx) | Introduced into wer.dll in 10.0.16299. |
-| [WerReportSubmit](https://msdn.microsoft.com/en-us/library/Bb513628.aspx) | Introduced into wer.dll in 10.0.16299. |
-| [WerReportAddDump](https://msdn.microsoft.com/en-us/library/Bb513622.aspx) | Introduced into wer.dll in 10.0.16299. |
-| [WerReportCloseHandle](https://msdn.microsoft.com/en-us/library/Bb513624.aspx) | Introduced into wer.dll in 10.0.16299. |
-
-
-## APIs from atiadlxx.dll
-
-| API | Requirements |
-| -----| --------------|
-| ADL2_Main_Control_GetProcAddress | Introduced into atiadlxx.dll in 10.0.15063. Moved into atiadlxy.dll in 10.0.16299. |
-
-
-## APIs from aticfx32.dll
-
-| API | Requirements |
-| -----| --------------|
-| AmdGetCfxModuleHandle | Introduced into aticfx32.dll in 10.0.15063. Moved into aticfx64.dll in 10.0.16299. |
-
-
-## APIs from amdxc32.dll
-
-| API | Requirements |
-| -----| --------------|
-| AmdGetDxcModuleHandle | Introduced into amdxc32.dll in 10.0.15063. Moved into amdxc64.dll in 10.0.16299. |
-
-
-## APIs from atidxx32.dll
-
-| API | Requirements |
-| -----| --------------|
-| AmdGetDxxModuleHandle | Introduced into atidxx32.dll in 10.0.15063. Moved into atidxx64.dll in 10.0.16299. |
-
-
-## APIs from nvapi.dll
-
-| API | Requirements |
-| -----| --------------|
-| nvapi_QueryInterface | Introduced into nvapi.dll in 10.0.15063. Moved into nvapi64.dll in 10.0.16299. |
-
-
-## APIs from icuuc.dll
-
-| API | Requirements |
-| -----| --------------|
-| utf8_nextCharSafeBody | Introduced into icuuc.dll in 10.0.15063. |
-| utf8_appendCharSafeBody | Introduced into icuuc.dll in 10.0.15063. |
-| utf8_prevCharSafeBody | Introduced into icuuc.dll in 10.0.15063. |
-| utf8_back1SafeBody | Introduced into icuuc.dll in 10.0.15063. |
-| u_versionFromString | Introduced into icuuc.dll in 10.0.15063. |
-| u_versionFromUString | Introduced into icuuc.dll in 10.0.15063. |
-| u_versionToString | Introduced into icuuc.dll in 10.0.15063. |
-| u_getVersion | Introduced into icuuc.dll in 10.0.15063. |
-| u_errorName | Introduced into icuuc.dll in 10.0.15063. |
-| utrace_setLevel | Introduced into icuuc.dll in 10.0.15063. |
-| utrace_getLevel | Introduced into icuuc.dll in 10.0.15063. |
-| utrace_setFunctions | Introduced into icuuc.dll in 10.0.15063. |
-| utrace_getFunctions | Introduced into icuuc.dll in 10.0.15063. |
-| utrace_vformat | Introduced into icuuc.dll in 10.0.15063. |
-| utrace_format | Introduced into icuuc.dll in 10.0.15063. |
-| utrace_functionName | Introduced into icuuc.dll in 10.0.15063. |
-| u_shapeArabic | Introduced into icuuc.dll in 10.0.15063. |
-| uscript_getCode | Introduced into icuuc.dll in 10.0.15063. |
-| uscript_getName | Introduced into icuuc.dll in 10.0.15063. |
-| uscript_getShortName | Introduced into icuuc.dll in 10.0.15063. |
-| uscript_getScript | Introduced into icuuc.dll in 10.0.15063. |
-| uscript_hasScript | Introduced into icuuc.dll in 10.0.15063. |
-| uscript_getScriptExtensions | Introduced into icuuc.dll in 10.0.15063. |
-| uscript_getSampleString | Introduced into icuuc.dll in 10.0.15063. |
-| uscript_getUsage | Introduced into icuuc.dll in 10.0.15063. |
-| uscript_isRightToLeft | Introduced into icuuc.dll in 10.0.15063. |
-| uscript_breaksBetweenLetters | Introduced into icuuc.dll in 10.0.15063. |
-| uscript_isCased | Introduced into icuuc.dll in 10.0.15063. |
-| ulistfmt_open | Introduced into icuuc.dll in 10.0.15063. |
-| ulistfmt_close | Introduced into icuuc.dll in 10.0.15063. |
-| ulistfmt_format | Introduced into icuuc.dll in 10.0.15063. |
-| uiter_current32 | Introduced into icuuc.dll in 10.0.15063. |
-| uiter_next32 | Introduced into icuuc.dll in 10.0.15063. |
-| uiter_previous32 | Introduced into icuuc.dll in 10.0.15063. |
-| uiter_getState | Introduced into icuuc.dll in 10.0.15063. |
-| uiter_setState | Introduced into icuuc.dll in 10.0.15063. |
-| uiter_setString | Introduced into icuuc.dll in 10.0.15063. |
-| uiter_setUTF16BE | Introduced into icuuc.dll in 10.0.15063. |
-| uiter_setUTF8 | Introduced into icuuc.dll in 10.0.15063. |
-| uenum_close | Introduced into icuuc.dll in 10.0.15063. |
-| uenum_count | Introduced into icuuc.dll in 10.0.15063. |
-| uenum_unext | Introduced into icuuc.dll in 10.0.15063. |
-| uenum_next | Introduced into icuuc.dll in 10.0.15063. |
-| uenum_reset | Introduced into icuuc.dll in 10.0.15063. |
-| uenum_openUCharStringsEnumeration | Introduced into icuuc.dll in 10.0.15063. |
-| uenum_openCharStringsEnumeration | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getDefault | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_setDefault | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getLanguage | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getScript | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getCountry | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getVariant | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getName | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_canonicalize | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getISO3Language | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getISO3Country | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getLCID | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getDisplayLanguage | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getDisplayScript | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getDisplayCountry | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getDisplayVariant | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getDisplayKeyword | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getDisplayKeywordValue | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getDisplayName | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getAvailable | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_countAvailable | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getISOLanguages | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getISOCountries | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getParent | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getBaseName | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_openKeywords | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getKeywordValue | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_setKeywordValue | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_isRightToLeft | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getCharacterOrientation | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getLineOrientation | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_acceptLanguageFromHTTP | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_acceptLanguage | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_getLocaleForLCID | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_addLikelySubtags | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_minimizeSubtags | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_forLanguageTag | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_toLanguageTag | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_toUnicodeLocaleKey | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_toUnicodeLocaleType | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_toLegacyKey | Introduced into icuuc.dll in 10.0.15063. |
-| uloc_toLegacyType | Introduced into icuuc.dll in 10.0.15063. |
-| ures_open | Introduced into icuuc.dll in 10.0.15063. |
-| ures_openDirect | Introduced into icuuc.dll in 10.0.15063. |
-| ures_openU | Introduced into icuuc.dll in 10.0.15063. |
-| ures_close | Introduced into icuuc.dll in 10.0.15063. |
-| ures_getVersion | Introduced into icuuc.dll in 10.0.15063. |
-| ures_getLocaleByType | Introduced into icuuc.dll in 10.0.15063. |
-| ures_getString | Introduced into icuuc.dll in 10.0.15063. |
-| ures_getUTF8String | Introduced into icuuc.dll in 10.0.15063. |
-| ures_getBinary | Introduced into icuuc.dll in 10.0.15063. |
-| ures_getIntVector | Introduced into icuuc.dll in 10.0.15063. |
-| ures_getUInt | Introduced into icuuc.dll in 10.0.15063. |
-| ures_getInt | Introduced into icuuc.dll in 10.0.15063. |
-| ures_getSize | Introduced into icuuc.dll in 10.0.15063. |
-| ures_getType | Introduced into icuuc.dll in 10.0.15063. |
-| ures_getKey | Introduced into icuuc.dll in 10.0.15063. |
-| ures_resetIterator | Introduced into icuuc.dll in 10.0.15063. |
-| ures_hasNext | Introduced into icuuc.dll in 10.0.15063. |
-| ures_getNextResource | Introduced into icuuc.dll in 10.0.15063. |
-| ures_getNextString | Introduced into icuuc.dll in 10.0.15063. |
-| ures_getByIndex | Introduced into icuuc.dll in 10.0.15063. |
-| ures_getStringByIndex | Introduced into icuuc.dll in 10.0.15063. |
-| ures_getUTF8StringByIndex | Introduced into icuuc.dll in 10.0.15063. |
-| ures_getByKey | Introduced into icuuc.dll in 10.0.15063. |
-| ures_getStringByKey | Introduced into icuuc.dll in 10.0.15063. |
-| ures_getUTF8StringByKey | Introduced into icuuc.dll in 10.0.15063. |
-| ures_openAvailableLocales | Introduced into icuuc.dll in 10.0.15063. |
-| uldn_open | Introduced into icuuc.dll in 10.0.15063. |
-| uldn_close | Introduced into icuuc.dll in 10.0.15063. |
-| uldn_getLocale | Introduced into icuuc.dll in 10.0.15063. |
-| uldn_getDialectHandling | Introduced into icuuc.dll in 10.0.15063. |
-| uldn_localeDisplayName | Introduced into icuuc.dll in 10.0.15063. |
-| uldn_languageDisplayName | Introduced into icuuc.dll in 10.0.15063. |
-| uldn_scriptDisplayName | Introduced into icuuc.dll in 10.0.15063. |
-| uldn_scriptCodeDisplayName | Introduced into icuuc.dll in 10.0.15063. |
-| uldn_regionDisplayName | Introduced into icuuc.dll in 10.0.15063. |
-| uldn_variantDisplayName | Introduced into icuuc.dll in 10.0.15063. |
-| uldn_keyDisplayName | Introduced into icuuc.dll in 10.0.15063. |
-| uldn_keyValueDisplayName | Introduced into icuuc.dll in 10.0.15063. |
-| uldn_openForContext | Introduced into icuuc.dll in 10.0.15063. |
-| uldn_getContext | Introduced into icuuc.dll in 10.0.15063. |
-| ucurr_forLocale | Introduced into icuuc.dll in 10.0.15063. |
-| ucurr_register | Introduced into icuuc.dll in 10.0.15063. |
-| ucurr_unregister | Introduced into icuuc.dll in 10.0.15063. |
-| ucurr_getName | Introduced into icuuc.dll in 10.0.15063. |
-| ucurr_getPluralName | Introduced into icuuc.dll in 10.0.15063. |
-| ucurr_getDefaultFractionDigits | Introduced into icuuc.dll in 10.0.15063. |
-| ucurr_getDefaultFractionDigitsForUsage | Introduced into icuuc.dll in 10.0.15063. |
-| ucurr_getRoundingIncrement | Introduced into icuuc.dll in 10.0.15063. |
-| ucurr_getRoundingIncrementForUsage | Introduced into icuuc.dll in 10.0.15063. |
-| ucurr_openISOCurrencies | Introduced into icuuc.dll in 10.0.15063. |
-| ucurr_isAvailable | Introduced into icuuc.dll in 10.0.15063. |
-| ucurr_countCurrencies | Introduced into icuuc.dll in 10.0.15063. |
-| ucurr_forLocaleAndDate | Introduced into icuuc.dll in 10.0.15063. |
-| ucurr_getKeywordValuesForLocale | Introduced into icuuc.dll in 10.0.15063. |
-| ucurr_getNumericCode | Introduced into icuuc.dll in 10.0.15063. |
-| UCNV_FROM_U_CALLBACK_STOP | Introduced into icuuc.dll in 10.0.15063. |
-| UCNV_TO_U_CALLBACK_STOP | Introduced into icuuc.dll in 10.0.15063. |
-| UCNV_FROM_U_CALLBACK_SKIP | Introduced into icuuc.dll in 10.0.15063. |
-| UCNV_FROM_U_CALLBACK_SUBSTITUTE | Introduced into icuuc.dll in 10.0.15063. |
-| UCNV_FROM_U_CALLBACK_ESCAPE | Introduced into icuuc.dll in 10.0.15063. |
-| UCNV_TO_U_CALLBACK_SKIP | Introduced into icuuc.dll in 10.0.15063. |
-| UCNV_TO_U_CALLBACK_SUBSTITUTE | Introduced into icuuc.dll in 10.0.15063. |
-| UCNV_TO_U_CALLBACK_ESCAPE | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_compareNames | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_open | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_openU | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_openCCSID | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_openPackage | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_safeClone | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_close | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_getSubstChars | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_setSubstChars | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_setSubstString | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_getInvalidChars | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_getInvalidUChars | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_reset | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_resetToUnicode | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_resetFromUnicode | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_getMaxCharSize | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_getMinCharSize | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_getDisplayName | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_getName | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_getCCSID | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_getPlatform | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_getType | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_getStarters | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_getUnicodeSet | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_getToUCallBack | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_getFromUCallBack | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_setToUCallBack | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_setFromUCallBack | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_fromUnicode | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_toUnicode | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_fromUChars | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_toUChars | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_getNextUChar | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_convertEx | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_convert | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_toAlgorithmic | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_fromAlgorithmic | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_flushCache | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_countAvailable | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_getAvailableName | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_openAllNames | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_countAliases | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_getAlias | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_getAliases | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_openStandardNames | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_countStandards | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_getStandard | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_getStandardName | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_getCanonicalName | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_getDefaultName | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_setDefaultName | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_fixFileSeparator | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_isAmbiguous | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_setFallback | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_usesFallback | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_detectUnicodeSignature | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_fromUCountPending | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_toUCountPending | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_isFixedWidth | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_cbFromUWriteBytes | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_cbFromUWriteSub | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_cbFromUWriteUChars | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_cbToUWriteUChars | Introduced into icuuc.dll in 10.0.15063. |
-| ucnv_cbToUWriteSub | Introduced into icuuc.dll in 10.0.15063. |
-| u_init | Introduced into icuuc.dll in 10.0.15063. |
-| u_cleanup | Introduced into icuuc.dll in 10.0.15063. |
-| u_setMemoryFunctions | Introduced into icuuc.dll in 10.0.15063. |
-| u_hasBinaryProperty | Introduced into icuuc.dll in 10.0.15063. |
-| u_isUAlphabetic | Introduced into icuuc.dll in 10.0.15063. |
-| u_isULowercase | Introduced into icuuc.dll in 10.0.15063. |
-| u_isUUppercase | Introduced into icuuc.dll in 10.0.15063. |
-| u_isUWhiteSpace | Introduced into icuuc.dll in 10.0.15063. |
-| u_getIntPropertyValue | Introduced into icuuc.dll in 10.0.15063. |
-| u_getIntPropertyMinValue | Introduced into icuuc.dll in 10.0.15063. |
-| u_getIntPropertyMaxValue | Introduced into icuuc.dll in 10.0.15063. |
-| u_getNumericValue | Introduced into icuuc.dll in 10.0.15063. |
-| u_islower | Introduced into icuuc.dll in 10.0.15063. |
-| u_isupper | Introduced into icuuc.dll in 10.0.15063. |
-| u_istitle | Introduced into icuuc.dll in 10.0.15063. |
-| u_isdigit | Introduced into icuuc.dll in 10.0.15063. |
-| u_isalpha | Introduced into icuuc.dll in 10.0.15063. |
-| u_isalnum | Introduced into icuuc.dll in 10.0.15063. |
-| u_isxdigit | Introduced into icuuc.dll in 10.0.15063. |
-| u_ispunct | Introduced into icuuc.dll in 10.0.15063. |
-| u_isgraph | Introduced into icuuc.dll in 10.0.15063. |
-| u_isblank | Introduced into icuuc.dll in 10.0.15063. |
-| u_isdefined | Introduced into icuuc.dll in 10.0.15063. |
-| u_isspace | Introduced into icuuc.dll in 10.0.15063. |
-| u_isJavaSpaceChar | Introduced into icuuc.dll in 10.0.15063. |
-| u_isWhitespace | Introduced into icuuc.dll in 10.0.15063. |
-| u_iscntrl | Introduced into icuuc.dll in 10.0.15063. |
-| u_isISOControl | Introduced into icuuc.dll in 10.0.15063. |
-| u_isprint | Introduced into icuuc.dll in 10.0.15063. |
-| u_isbase | Introduced into icuuc.dll in 10.0.15063. |
-| u_charDirection | Introduced into icuuc.dll in 10.0.15063. |
-| u_isMirrored | Introduced into icuuc.dll in 10.0.15063. |
-| u_charMirror | Introduced into icuuc.dll in 10.0.15063. |
-| u_getBidiPairedBracket | Introduced into icuuc.dll in 10.0.15063. |
-| u_charType | Introduced into icuuc.dll in 10.0.15063. |
-| u_enumCharTypes | Introduced into icuuc.dll in 10.0.15063. |
-| u_getCombiningClass | Introduced into icuuc.dll in 10.0.15063. |
-| u_charDigitValue | Introduced into icuuc.dll in 10.0.15063. |
-| ublock_getCode | Introduced into icuuc.dll in 10.0.15063. |
-| u_charName | Introduced into icuuc.dll in 10.0.15063. |
-| u_charFromName | Introduced into icuuc.dll in 10.0.15063. |
-| u_enumCharNames | Introduced into icuuc.dll in 10.0.15063. |
-| u_getPropertyName | Introduced into icuuc.dll in 10.0.15063. |
-| u_getPropertyEnum | Introduced into icuuc.dll in 10.0.15063. |
-| u_getPropertyValueName | Introduced into icuuc.dll in 10.0.15063. |
-| u_getPropertyValueEnum | Introduced into icuuc.dll in 10.0.15063. |
-| u_isIDStart | Introduced into icuuc.dll in 10.0.15063. |
-| u_isIDPart | Introduced into icuuc.dll in 10.0.15063. |
-| u_isIDIgnorable | Introduced into icuuc.dll in 10.0.15063. |
-| u_isJavaIDStart | Introduced into icuuc.dll in 10.0.15063. |
-| u_isJavaIDPart | Introduced into icuuc.dll in 10.0.15063. |
-| u_tolower | Introduced into icuuc.dll in 10.0.15063. |
-| u_toupper | Introduced into icuuc.dll in 10.0.15063. |
-| u_totitle | Introduced into icuuc.dll in 10.0.15063. |
-| u_foldCase | Introduced into icuuc.dll in 10.0.15063. |
-| u_digit | Introduced into icuuc.dll in 10.0.15063. |
-| u_forDigit | Introduced into icuuc.dll in 10.0.15063. |
-| u_charAge | Introduced into icuuc.dll in 10.0.15063. |
-| u_getUnicodeVersion | Introduced into icuuc.dll in 10.0.15063. |
-| u_getFC_NFKC_Closure | Introduced into icuuc.dll in 10.0.15063. |
-| utext_close | Introduced into icuuc.dll in 10.0.15063. |
-| utext_openUTF8 | Introduced into icuuc.dll in 10.0.15063. |
-| utext_openUChars | Introduced into icuuc.dll in 10.0.15063. |
-| utext_clone | Introduced into icuuc.dll in 10.0.15063. |
-| utext_equals | Introduced into icuuc.dll in 10.0.15063. |
-| utext_nativeLength | Introduced into icuuc.dll in 10.0.15063. |
-| utext_isLengthExpensive | Introduced into icuuc.dll in 10.0.15063. |
-| utext_char32At | Introduced into icuuc.dll in 10.0.15063. |
-| utext_current32 | Introduced into icuuc.dll in 10.0.15063. |
-| utext_next32 | Introduced into icuuc.dll in 10.0.15063. |
-| utext_previous32 | Introduced into icuuc.dll in 10.0.15063. |
-| utext_next32From | Introduced into icuuc.dll in 10.0.15063. |
-| utext_previous32From | Introduced into icuuc.dll in 10.0.15063. |
-| utext_getNativeIndex | Introduced into icuuc.dll in 10.0.15063. |
-| utext_setNativeIndex | Introduced into icuuc.dll in 10.0.15063. |
-| utext_moveIndex32 | Introduced into icuuc.dll in 10.0.15063. |
-| utext_getPreviousNativeIndex | Introduced into icuuc.dll in 10.0.15063. |
-| utext_extract | Introduced into icuuc.dll in 10.0.15063. |
-| utext_isWritable | Introduced into icuuc.dll in 10.0.15063. |
-| utext_hasMetaData | Introduced into icuuc.dll in 10.0.15063. |
-| utext_replace | Introduced into icuuc.dll in 10.0.15063. |
-| utext_copy | Introduced into icuuc.dll in 10.0.15063. |
-| utext_freeze | Introduced into icuuc.dll in 10.0.15063. |
-| utext_setup | Introduced into icuuc.dll in 10.0.15063. |
-| uset_openEmpty | Introduced into icuuc.dll in 10.0.15063. |
-| uset_open | Introduced into icuuc.dll in 10.0.15063. |
-| uset_openPattern | Introduced into icuuc.dll in 10.0.15063. |
-| uset_openPatternOptions | Introduced into icuuc.dll in 10.0.15063. |
-| uset_close | Introduced into icuuc.dll in 10.0.15063. |
-| uset_clone | Introduced into icuuc.dll in 10.0.15063. |
-| uset_isFrozen | Introduced into icuuc.dll in 10.0.15063. |
-| uset_freeze | Introduced into icuuc.dll in 10.0.15063. |
-| uset_cloneAsThawed | Introduced into icuuc.dll in 10.0.15063. |
-| uset_set | Introduced into icuuc.dll in 10.0.15063. |
-| uset_applyPattern | Introduced into icuuc.dll in 10.0.15063. |
-| uset_applyIntPropertyValue | Introduced into icuuc.dll in 10.0.15063. |
-| uset_applyPropertyAlias | Introduced into icuuc.dll in 10.0.15063. |
-| uset_resemblesPattern | Introduced into icuuc.dll in 10.0.15063. |
-| uset_toPattern | Introduced into icuuc.dll in 10.0.15063. |
-| uset_add | Introduced into icuuc.dll in 10.0.15063. |
-| uset_addAll | Introduced into icuuc.dll in 10.0.15063. |
-| uset_addRange | Introduced into icuuc.dll in 10.0.15063. |
-| uset_addString | Introduced into icuuc.dll in 10.0.15063. |
-| uset_addAllCodePoints | Introduced into icuuc.dll in 10.0.15063. |
-| uset_remove | Introduced into icuuc.dll in 10.0.15063. |
-| uset_removeRange | Introduced into icuuc.dll in 10.0.15063. |
-| uset_removeString | Introduced into icuuc.dll in 10.0.15063. |
-| uset_removeAll | Introduced into icuuc.dll in 10.0.15063. |
-| uset_retain | Introduced into icuuc.dll in 10.0.15063. |
-| uset_retainAll | Introduced into icuuc.dll in 10.0.15063. |
-| uset_compact | Introduced into icuuc.dll in 10.0.15063. |
-| uset_complement | Introduced into icuuc.dll in 10.0.15063. |
-| uset_complementAll | Introduced into icuuc.dll in 10.0.15063. |
-| uset_clear | Introduced into icuuc.dll in 10.0.15063. |
-| uset_closeOver | Introduced into icuuc.dll in 10.0.15063. |
-| uset_removeAllStrings | Introduced into icuuc.dll in 10.0.15063. |
-| uset_isEmpty | Introduced into icuuc.dll in 10.0.15063. |
-| uset_contains | Introduced into icuuc.dll in 10.0.15063. |
-| uset_containsRange | Introduced into icuuc.dll in 10.0.15063. |
-| uset_containsString | Introduced into icuuc.dll in 10.0.15063. |
-| uset_indexOf | Introduced into icuuc.dll in 10.0.15063. |
-| uset_charAt | Introduced into icuuc.dll in 10.0.15063. |
-| uset_size | Introduced into icuuc.dll in 10.0.15063. |
-| uset_getItemCount | Introduced into icuuc.dll in 10.0.15063. |
-| uset_getItem | Introduced into icuuc.dll in 10.0.15063. |
-| uset_containsAll | Introduced into icuuc.dll in 10.0.15063. |
-| uset_containsAllCodePoints | Introduced into icuuc.dll in 10.0.15063. |
-| uset_containsNone | Introduced into icuuc.dll in 10.0.15063. |
-| uset_containsSome | Introduced into icuuc.dll in 10.0.15063. |
-| uset_span | Introduced into icuuc.dll in 10.0.15063. |
-| uset_spanBack | Introduced into icuuc.dll in 10.0.15063. |
-| uset_spanUTF8 | Introduced into icuuc.dll in 10.0.15063. |
-| uset_spanBackUTF8 | Introduced into icuuc.dll in 10.0.15063. |
-| uset_equals | Introduced into icuuc.dll in 10.0.15063. |
-| uset_serialize | Introduced into icuuc.dll in 10.0.15063. |
-| uset_getSerializedSet | Introduced into icuuc.dll in 10.0.15063. |
-| uset_setSerializedToOne | Introduced into icuuc.dll in 10.0.15063. |
-| uset_serializedContains | Introduced into icuuc.dll in 10.0.15063. |
-| uset_getSerializedRangeCount | Introduced into icuuc.dll in 10.0.15063. |
-| uset_getSerializedRange | Introduced into icuuc.dll in 10.0.15063. |
-| unorm2_getNFCInstance | Introduced into icuuc.dll in 10.0.15063. |
-| unorm2_getNFDInstance | Introduced into icuuc.dll in 10.0.15063. |
-| unorm2_getNFKCInstance | Introduced into icuuc.dll in 10.0.15063. |
-| unorm2_getNFKDInstance | Introduced into icuuc.dll in 10.0.15063. |
-| unorm2_getNFKCCasefoldInstance | Introduced into icuuc.dll in 10.0.15063. |
-| unorm2_getInstance | Introduced into icuuc.dll in 10.0.15063. |
-| unorm2_openFiltered | Introduced into icuuc.dll in 10.0.15063. |
-| unorm2_close | Introduced into icuuc.dll in 10.0.15063. |
-| unorm2_normalize | Introduced into icuuc.dll in 10.0.15063. |
-| unorm2_normalizeSecondAndAppend | Introduced into icuuc.dll in 10.0.15063. |
-| unorm2_append | Introduced into icuuc.dll in 10.0.15063. |
-| unorm2_getDecomposition | Introduced into icuuc.dll in 10.0.15063. |
-| unorm2_getRawDecomposition | Introduced into icuuc.dll in 10.0.15063. |
-| unorm2_composePair | Introduced into icuuc.dll in 10.0.15063. |
-| unorm2_getCombiningClass | Introduced into icuuc.dll in 10.0.15063. |
-| unorm2_isNormalized | Introduced into icuuc.dll in 10.0.15063. |
-| unorm2_quickCheck | Introduced into icuuc.dll in 10.0.15063. |
-| unorm2_spanQuickCheckYes | Introduced into icuuc.dll in 10.0.15063. |
-| unorm2_hasBoundaryBefore | Introduced into icuuc.dll in 10.0.15063. |
-| unorm2_hasBoundaryAfter | Introduced into icuuc.dll in 10.0.15063. |
-| unorm2_isInert | Introduced into icuuc.dll in 10.0.15063. |
-| unorm_compare | Introduced into icuuc.dll in 10.0.15063. |
-| ucnvsel_open | Introduced into icuuc.dll in 10.0.15063. |
-| ucnvsel_close | Introduced into icuuc.dll in 10.0.15063. |
-| ucnvsel_openFromSerialized | Introduced into icuuc.dll in 10.0.15063. |
-| ucnvsel_serialize | Introduced into icuuc.dll in 10.0.15063. |
-| ucnvsel_selectForString | Introduced into icuuc.dll in 10.0.15063. |
-| ucnvsel_selectForUTF8 | Introduced into icuuc.dll in 10.0.15063. |
-| u_catopen | Introduced into icuuc.dll in 10.0.15063. |
-| u_catclose | Introduced into icuuc.dll in 10.0.15063. |
-| u_catgets | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_open | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_openSized | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_close | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_setInverse | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_isInverse | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_orderParagraphsLTR | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_isOrderParagraphsLTR | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_setReorderingMode | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_getReorderingMode | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_setReorderingOptions | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_getReorderingOptions | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_setContext | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_setPara | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_setLine | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_getDirection | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_getBaseDirection | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_getText | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_getLength | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_getParaLevel | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_countParagraphs | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_getParagraph | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_getParagraphByIndex | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_getLevelAt | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_getLevels | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_getLogicalRun | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_countRuns | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_getVisualRun | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_getVisualIndex | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_getLogicalIndex | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_getLogicalMap | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_getVisualMap | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_reorderLogical | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_reorderVisual | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_invertMap | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_getProcessedLength | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_getResultLength | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_getCustomizedClass | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_setClassCallback | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_getClassCallback | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_writeReordered | Introduced into icuuc.dll in 10.0.15063. |
-| ubidi_writeReverse | Introduced into icuuc.dll in 10.0.15063. |
-| u_charsToUChars | Introduced into icuuc.dll in 10.0.15063. |
-| u_UCharsToChars | Introduced into icuuc.dll in 10.0.15063. |
-| u_strlen | Introduced into icuuc.dll in 10.0.15063. |
-| u_countChar32 | Introduced into icuuc.dll in 10.0.15063. |
-| u_strHasMoreChar32Than | Introduced into icuuc.dll in 10.0.15063. |
-| u_strcat | Introduced into icuuc.dll in 10.0.15063. |
-| u_strncat | Introduced into icuuc.dll in 10.0.15063. |
-| u_strstr | Introduced into icuuc.dll in 10.0.15063. |
-| u_strFindFirst | Introduced into icuuc.dll in 10.0.15063. |
-| u_strchr | Introduced into icuuc.dll in 10.0.15063. |
-| u_strchr32 | Introduced into icuuc.dll in 10.0.15063. |
-| u_strrstr | Introduced into icuuc.dll in 10.0.15063. |
-| u_strFindLast | Introduced into icuuc.dll in 10.0.15063. |
-| u_strrchr | Introduced into icuuc.dll in 10.0.15063. |
-| u_strrchr32 | Introduced into icuuc.dll in 10.0.15063. |
-| u_strpbrk | Introduced into icuuc.dll in 10.0.15063. |
-| u_strcspn | Introduced into icuuc.dll in 10.0.15063. |
-| u_strspn | Introduced into icuuc.dll in 10.0.15063. |
-| u_strtok_r | Introduced into icuuc.dll in 10.0.15063. |
-| u_strcmp | Introduced into icuuc.dll in 10.0.15063. |
-| u_strcmpCodePointOrder | Introduced into icuuc.dll in 10.0.15063. |
-| u_strCompare | Introduced into icuuc.dll in 10.0.15063. |
-| u_strCompareIter | Introduced into icuuc.dll in 10.0.15063. |
-| u_strCaseCompare | Introduced into icuuc.dll in 10.0.15063. |
-| u_strncmp | Introduced into icuuc.dll in 10.0.15063. |
-| u_strncmpCodePointOrder | Introduced into icuuc.dll in 10.0.15063. |
-| u_strcasecmp | Introduced into icuuc.dll in 10.0.15063. |
-| u_strncasecmp | Introduced into icuuc.dll in 10.0.15063. |
-| u_memcasecmp | Introduced into icuuc.dll in 10.0.15063. |
-| u_strcpy | Introduced into icuuc.dll in 10.0.15063. |
-| u_strncpy | Introduced into icuuc.dll in 10.0.15063. |
-| u_uastrcpy | Introduced into icuuc.dll in 10.0.15063. |
-| u_uastrncpy | Introduced into icuuc.dll in 10.0.15063. |
-| u_austrcpy | Introduced into icuuc.dll in 10.0.15063. |
-| u_austrncpy | Introduced into icuuc.dll in 10.0.15063. |
-| u_memcpy | Introduced into icuuc.dll in 10.0.15063. |
-| u_memmove | Introduced into icuuc.dll in 10.0.15063. |
-| u_memset | Introduced into icuuc.dll in 10.0.15063. |
-| u_memcmp | Introduced into icuuc.dll in 10.0.15063. |
-| u_memcmpCodePointOrder | Introduced into icuuc.dll in 10.0.15063. |
-| u_memchr | Introduced into icuuc.dll in 10.0.15063. |
-| u_memchr32 | Introduced into icuuc.dll in 10.0.15063. |
-| u_memrchr | Introduced into icuuc.dll in 10.0.15063. |
-| u_memrchr32 | Introduced into icuuc.dll in 10.0.15063. |
-| u_unescape | Introduced into icuuc.dll in 10.0.15063. |
-| u_unescapeAt | Introduced into icuuc.dll in 10.0.15063. |
-| u_strToUpper | Introduced into icuuc.dll in 10.0.15063. |
-| u_strToLower | Introduced into icuuc.dll in 10.0.15063. |
-| u_strToTitle | Introduced into icuuc.dll in 10.0.15063. |
-| u_strFoldCase | Introduced into icuuc.dll in 10.0.15063. |
-| u_strToWCS | Introduced into icuuc.dll in 10.0.15063. |
-| u_strFromWCS | Introduced into icuuc.dll in 10.0.15063. |
-| u_strToUTF8 | Introduced into icuuc.dll in 10.0.15063. |
-| u_strFromUTF8 | Introduced into icuuc.dll in 10.0.15063. |
-| u_strToUTF8WithSub | Introduced into icuuc.dll in 10.0.15063. |
-| u_strFromUTF8WithSub | Introduced into icuuc.dll in 10.0.15063. |
-| u_strFromUTF8Lenient | Introduced into icuuc.dll in 10.0.15063. |
-| u_strToUTF32 | Introduced into icuuc.dll in 10.0.15063. |
-| u_strFromUTF32 | Introduced into icuuc.dll in 10.0.15063. |
-| u_strToUTF32WithSub | Introduced into icuuc.dll in 10.0.15063. |
-| u_strFromUTF32WithSub | Introduced into icuuc.dll in 10.0.15063. |
-| u_strToJavaModifiedUTF8 | Introduced into icuuc.dll in 10.0.15063. |
-| u_strFromJavaModifiedUTF8WithSub | Introduced into icuuc.dll in 10.0.15063. |
-| ucasemap_open | Introduced into icuuc.dll in 10.0.15063. |
-| ucasemap_close | Introduced into icuuc.dll in 10.0.15063. |
-| ucasemap_getLocale | Introduced into icuuc.dll in 10.0.15063. |
-| ucasemap_getOptions | Introduced into icuuc.dll in 10.0.15063. |
-| ucasemap_setLocale | Introduced into icuuc.dll in 10.0.15063. |
-| ucasemap_setOptions | Introduced into icuuc.dll in 10.0.15063. |
-| ucasemap_getBreakIterator | Introduced into icuuc.dll in 10.0.15063. |
-| ucasemap_setBreakIterator | Introduced into icuuc.dll in 10.0.15063. |
-| ucasemap_toTitle | Introduced into icuuc.dll in 10.0.15063. |
-| ucasemap_utf8ToLower | Introduced into icuuc.dll in 10.0.15063. |
-| ucasemap_utf8ToUpper | Introduced into icuuc.dll in 10.0.15063. |
-| ucasemap_utf8ToTitle | Introduced into icuuc.dll in 10.0.15063. |
-| ucasemap_utf8FoldCase | Introduced into icuuc.dll in 10.0.15063. |
-| usprep_open | Introduced into icuuc.dll in 10.0.15063. |
-| usprep_openByType | Introduced into icuuc.dll in 10.0.15063. |
-| usprep_close | Introduced into icuuc.dll in 10.0.15063. |
-| usprep_prepare | Introduced into icuuc.dll in 10.0.15063. |
-| uidna_openUTS46 | Introduced into icuuc.dll in 10.0.15063. |
-| uidna_close | Introduced into icuuc.dll in 10.0.15063. |
-| uidna_labelToASCII | Introduced into icuuc.dll in 10.0.15063. |
-| uidna_labelToUnicode | Introduced into icuuc.dll in 10.0.15063. |
-| uidna_nameToASCII | Introduced into icuuc.dll in 10.0.15063. |
-| uidna_nameToUnicode | Introduced into icuuc.dll in 10.0.15063. |
-| uidna_labelToASCII_UTF8 | Introduced into icuuc.dll in 10.0.15063. |
-| uidna_labelToUnicodeUTF8 | Introduced into icuuc.dll in 10.0.15063. |
-| uidna_nameToASCII_UTF8 | Introduced into icuuc.dll in 10.0.15063. |
-| uidna_nameToUnicodeUTF8 | Introduced into icuuc.dll in 10.0.15063. |
-| ubrk_open | Introduced into icuuc.dll in 10.0.15063. |
-| ubrk_openRules | Introduced into icuuc.dll in 10.0.15063. |
-| ubrk_safeClone | Introduced into icuuc.dll in 10.0.15063. |
-| ubrk_close | Introduced into icuuc.dll in 10.0.15063. |
-| ubrk_setText | Introduced into icuuc.dll in 10.0.15063. |
-| ubrk_setUText | Introduced into icuuc.dll in 10.0.15063. |
-| ubrk_current | Introduced into icuuc.dll in 10.0.15063. |
-| ubrk_next | Introduced into icuuc.dll in 10.0.15063. |
-| ubrk_previous | Introduced into icuuc.dll in 10.0.15063. |
-| ubrk_first | Introduced into icuuc.dll in 10.0.15063. |
-| ubrk_last | Introduced into icuuc.dll in 10.0.15063. |
-| ubrk_preceding | Introduced into icuuc.dll in 10.0.15063. |
-| ubrk_following | Introduced into icuuc.dll in 10.0.15063. |
-| ubrk_getAvailable | Introduced into icuuc.dll in 10.0.15063. |
-| ubrk_countAvailable | Introduced into icuuc.dll in 10.0.15063. |
-| ubrk_isBoundary | Introduced into icuuc.dll in 10.0.15063. |
-| ubrk_getRuleStatus | Introduced into icuuc.dll in 10.0.15063. |
-| ubrk_getRuleStatusVec | Introduced into icuuc.dll in 10.0.15063. |
-| ubrk_getLocaleByType | Introduced into icuuc.dll in 10.0.15063. |
-| ubrk_refreshUText | Introduced into icuuc.dll in 10.0.15063. |
-| u_getDataVersion | Introduced into icuuc.dll in 10.0.15063. |
-
-
-## APIs from icuin.dll
-
-| API | Requirements |
-| -----| --------------|
-| ucal_openTimeZoneIDEnumeration | Introduced into icuin.dll in 10.0.15063. |
-| ucal_openTimeZones | Introduced into icuin.dll in 10.0.15063. |
-| ucal_openCountryTimeZones | Introduced into icuin.dll in 10.0.15063. |
-| ucal_getDefaultTimeZone | Introduced into icuin.dll in 10.0.15063. |
-| ucal_setDefaultTimeZone | Introduced into icuin.dll in 10.0.15063. |
-| ucal_getDSTSavings | Introduced into icuin.dll in 10.0.15063. |
-| ucal_getNow | Introduced into icuin.dll in 10.0.15063. |
-| ucal_open | Introduced into icuin.dll in 10.0.15063. |
-| ucal_close | Introduced into icuin.dll in 10.0.15063. |
-| ucal_clone | Introduced into icuin.dll in 10.0.15063. |
-| ucal_setTimeZone | Introduced into icuin.dll in 10.0.15063. |
-| ucal_getTimeZoneID | Introduced into icuin.dll in 10.0.15063. |
-| ucal_getTimeZoneDisplayName | Introduced into icuin.dll in 10.0.15063. |
-| ucal_inDaylightTime | Introduced into icuin.dll in 10.0.15063. |
-| ucal_setGregorianChange | Introduced into icuin.dll in 10.0.15063. |
-| ucal_getGregorianChange | Introduced into icuin.dll in 10.0.15063. |
-| ucal_getAttribute | Introduced into icuin.dll in 10.0.15063. |
-| ucal_setAttribute | Introduced into icuin.dll in 10.0.15063. |
-| ucal_getAvailable | Introduced into icuin.dll in 10.0.15063. |
-| ucal_countAvailable | Introduced into icuin.dll in 10.0.15063. |
-| ucal_getMillis | Introduced into icuin.dll in 10.0.15063. |
-| ucal_setMillis | Introduced into icuin.dll in 10.0.15063. |
-| ucal_setDate | Introduced into icuin.dll in 10.0.15063. |
-| ucal_setDateTime | Introduced into icuin.dll in 10.0.15063. |
-| ucal_equivalentTo | Introduced into icuin.dll in 10.0.15063. |
-| ucal_add | Introduced into icuin.dll in 10.0.15063. |
-| ucal_roll | Introduced into icuin.dll in 10.0.15063. |
-| ucal_get | Introduced into icuin.dll in 10.0.15063. |
-| ucal_set | Introduced into icuin.dll in 10.0.15063. |
-| ucal_isSet | Introduced into icuin.dll in 10.0.15063. |
-| ucal_clearField | Introduced into icuin.dll in 10.0.15063. |
-| ucal_clear | Introduced into icuin.dll in 10.0.15063. |
-| ucal_getLimit | Introduced into icuin.dll in 10.0.15063. |
-| ucal_getLocaleByType | Introduced into icuin.dll in 10.0.15063. |
-| ucal_getTZDataVersion | Introduced into icuin.dll in 10.0.15063. |
-| ucal_getCanonicalTimeZoneID | Introduced into icuin.dll in 10.0.15063. |
-| ucal_getType | Introduced into icuin.dll in 10.0.15063. |
-| ucal_getKeywordValuesForLocale | Introduced into icuin.dll in 10.0.15063. |
-| ucal_getDayOfWeekType | Introduced into icuin.dll in 10.0.15063. |
-| ucal_getWeekendTransition | Introduced into icuin.dll in 10.0.15063. |
-| ucal_isWeekend | Introduced into icuin.dll in 10.0.15063. |
-| ucal_getFieldDifference | Introduced into icuin.dll in 10.0.15063. |
-| ucal_getTimeZoneTransitionDate | Introduced into icuin.dll in 10.0.15063. |
-| ucal_getWindowsTimeZoneID | Introduced into icuin.dll in 10.0.15063. |
-| ucal_getTimeZoneIDForWindowsID | Introduced into icuin.dll in 10.0.15063. |
-| ucol_open | Introduced into icuin.dll in 10.0.15063. |
-| ucol_openRules | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getContractionsAndExpansions | Introduced into icuin.dll in 10.0.15063. |
-| ucol_close | Introduced into icuin.dll in 10.0.15063. |
-| ucol_strcoll | Introduced into icuin.dll in 10.0.15063. |
-| ucol_strcollUTF8 | Introduced into icuin.dll in 10.0.15063. |
-| ucol_greater | Introduced into icuin.dll in 10.0.15063. |
-| ucol_greaterOrEqual | Introduced into icuin.dll in 10.0.15063. |
-| ucol_equal | Introduced into icuin.dll in 10.0.15063. |
-| ucol_strcollIter | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getStrength | Introduced into icuin.dll in 10.0.15063. |
-| ucol_setStrength | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getReorderCodes | Introduced into icuin.dll in 10.0.15063. |
-| ucol_setReorderCodes | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getEquivalentReorderCodes | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getDisplayName | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getAvailable | Introduced into icuin.dll in 10.0.15063. |
-| ucol_countAvailable | Introduced into icuin.dll in 10.0.15063. |
-| ucol_openAvailableLocales | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getKeywords | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getKeywordValues | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getKeywordValuesForLocale | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getFunctionalEquivalent | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getRules | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getSortKey | Introduced into icuin.dll in 10.0.15063. |
-| ucol_nextSortKeyPart | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getBound | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getVersion | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getUCAVersion | Introduced into icuin.dll in 10.0.15063. |
-| ucol_mergeSortkeys | Introduced into icuin.dll in 10.0.15063. |
-| ucol_setAttribute | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getAttribute | Introduced into icuin.dll in 10.0.15063. |
-| ucol_setMaxVariable | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getMaxVariable | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getVariableTop | Introduced into icuin.dll in 10.0.15063. |
-| ucol_safeClone | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getRulesEx | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getLocaleByType | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getTailoredSet | Introduced into icuin.dll in 10.0.15063. |
-| ucol_cloneBinary | Introduced into icuin.dll in 10.0.15063. |
-| ucol_openBinary | Introduced into icuin.dll in 10.0.15063. |
-| ucol_openElements | Introduced into icuin.dll in 10.0.15063. |
-| ucol_keyHashCode | Introduced into icuin.dll in 10.0.15063. |
-| ucol_closeElements | Introduced into icuin.dll in 10.0.15063. |
-| ucol_reset | Introduced into icuin.dll in 10.0.15063. |
-| ucol_next | Introduced into icuin.dll in 10.0.15063. |
-| ucol_previous | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getMaxExpansion | Introduced into icuin.dll in 10.0.15063. |
-| ucol_setText | Introduced into icuin.dll in 10.0.15063. |
-| ucol_getOffset | Introduced into icuin.dll in 10.0.15063. |
-| ucol_setOffset | Introduced into icuin.dll in 10.0.15063. |
-| ucol_primaryOrder | Introduced into icuin.dll in 10.0.15063. |
-| ucol_secondaryOrder | Introduced into icuin.dll in 10.0.15063. |
-| ucol_tertiaryOrder | Introduced into icuin.dll in 10.0.15063. |
-| ucsdet_open | Introduced into icuin.dll in 10.0.15063. |
-| ucsdet_close | Introduced into icuin.dll in 10.0.15063. |
-| ucsdet_setText | Introduced into icuin.dll in 10.0.15063. |
-| ucsdet_setDeclaredEncoding | Introduced into icuin.dll in 10.0.15063. |
-| ucsdet_detect | Introduced into icuin.dll in 10.0.15063. |
-| ucsdet_detectAll | Introduced into icuin.dll in 10.0.15063. |
-| ucsdet_getName | Introduced into icuin.dll in 10.0.15063. |
-| ucsdet_getConfidence | Introduced into icuin.dll in 10.0.15063. |
-| ucsdet_getLanguage | Introduced into icuin.dll in 10.0.15063. |
-| ucsdet_getUChars | Introduced into icuin.dll in 10.0.15063. |
-| ucsdet_getAllDetectableCharsets | Introduced into icuin.dll in 10.0.15063. |
-| ucsdet_isInputFilterEnabled | Introduced into icuin.dll in 10.0.15063. |
-| ucsdet_enableInputFilter | Introduced into icuin.dll in 10.0.15063. |
-| udtitvfmt_open | Introduced into icuin.dll in 10.0.15063. |
-| udtitvfmt_close | Introduced into icuin.dll in 10.0.15063. |
-| udtitvfmt_format | Introduced into icuin.dll in 10.0.15063. |
-| udatpg_open | Introduced into icuin.dll in 10.0.15063. |
-| udatpg_openEmpty | Introduced into icuin.dll in 10.0.15063. |
-| udatpg_close | Introduced into icuin.dll in 10.0.15063. |
-| udatpg_clone | Introduced into icuin.dll in 10.0.15063. |
-| udatpg_getBestPattern | Introduced into icuin.dll in 10.0.15063. |
-| udatpg_getBestPatternWithOptions | Introduced into icuin.dll in 10.0.15063. |
-| udatpg_getSkeleton | Introduced into icuin.dll in 10.0.15063. |
-| udatpg_getBaseSkeleton | Introduced into icuin.dll in 10.0.15063. |
-| udatpg_addPattern | Introduced into icuin.dll in 10.0.15063. |
-| udatpg_setAppendItemFormat | Introduced into icuin.dll in 10.0.15063. |
-| udatpg_getAppendItemFormat | Introduced into icuin.dll in 10.0.15063. |
-| udatpg_setAppendItemName | Introduced into icuin.dll in 10.0.15063. |
-| udatpg_getAppendItemName | Introduced into icuin.dll in 10.0.15063. |
-| udatpg_setDateTimeFormat | Introduced into icuin.dll in 10.0.15063. |
-| udatpg_getDateTimeFormat | Introduced into icuin.dll in 10.0.15063. |
-| udatpg_setDecimal | Introduced into icuin.dll in 10.0.15063. |
-| udatpg_getDecimal | Introduced into icuin.dll in 10.0.15063. |
-| udatpg_replaceFieldTypes | Introduced into icuin.dll in 10.0.15063. |
-| udatpg_replaceFieldTypesWithOptions | Introduced into icuin.dll in 10.0.15063. |
-| udatpg_openSkeletons | Introduced into icuin.dll in 10.0.15063. |
-| udatpg_openBaseSkeletons | Introduced into icuin.dll in 10.0.15063. |
-| udatpg_getPatternForSkeleton | Introduced into icuin.dll in 10.0.15063. |
-| ufieldpositer_open | Introduced into icuin.dll in 10.0.15063. |
-| ufieldpositer_close | Introduced into icuin.dll in 10.0.15063. |
-| ufieldpositer_next | Introduced into icuin.dll in 10.0.15063. |
-| ufmt_open | Introduced into icuin.dll in 10.0.15063. |
-| ufmt_close | Introduced into icuin.dll in 10.0.15063. |
-| ufmt_getType | Introduced into icuin.dll in 10.0.15063. |
-| ufmt_isNumeric | Introduced into icuin.dll in 10.0.15063. |
-| ufmt_getDate | Introduced into icuin.dll in 10.0.15063. |
-| ufmt_getDouble | Introduced into icuin.dll in 10.0.15063. |
-| ufmt_getLong | Introduced into icuin.dll in 10.0.15063. |
-| ufmt_getInt64 | Introduced into icuin.dll in 10.0.15063. |
-| ufmt_getObject | Introduced into icuin.dll in 10.0.15063. |
-| ufmt_getUChars | Introduced into icuin.dll in 10.0.15063. |
-| ufmt_getArrayLength | Introduced into icuin.dll in 10.0.15063. |
-| ufmt_getArrayItemByIndex | Introduced into icuin.dll in 10.0.15063. |
-| ufmt_getDecNumChars | Introduced into icuin.dll in 10.0.15063. |
-| ugender_getInstance | Introduced into icuin.dll in 10.0.15063. |
-| ugender_getListGender | Introduced into icuin.dll in 10.0.15063. |
-| ulocdata_open | Introduced into icuin.dll in 10.0.15063. |
-| ulocdata_close | Introduced into icuin.dll in 10.0.15063. |
-| ulocdata_setNoSubstitute | Introduced into icuin.dll in 10.0.15063. |
-| ulocdata_getNoSubstitute | Introduced into icuin.dll in 10.0.15063. |
-| ulocdata_getExemplarSet | Introduced into icuin.dll in 10.0.15063. |
-| ulocdata_getDelimiter | Introduced into icuin.dll in 10.0.15063. |
-| ulocdata_getMeasurementSystem | Introduced into icuin.dll in 10.0.15063. |
-| ulocdata_getPaperSize | Introduced into icuin.dll in 10.0.15063. |
-| ulocdata_getCLDRVersion | Introduced into icuin.dll in 10.0.15063. |
-| ulocdata_getLocaleDisplayPattern | Introduced into icuin.dll in 10.0.15063. |
-| ulocdata_getLocaleSeparator | Introduced into icuin.dll in 10.0.15063. |
-| u_formatMessage | Introduced into icuin.dll in 10.0.15063. |
-| u_vformatMessage | Introduced into icuin.dll in 10.0.15063. |
-| u_parseMessage | Introduced into icuin.dll in 10.0.15063. |
-| u_vparseMessage | Introduced into icuin.dll in 10.0.15063. |
-| u_formatMessageWithError | Introduced into icuin.dll in 10.0.15063. |
-| u_vformatMessageWithError | Introduced into icuin.dll in 10.0.15063. |
-| u_parseMessageWithError | Introduced into icuin.dll in 10.0.15063. |
-| u_vparseMessageWithError | Introduced into icuin.dll in 10.0.15063. |
-| umsg_open | Introduced into icuin.dll in 10.0.15063. |
-| umsg_close | Introduced into icuin.dll in 10.0.15063. |
-| umsg_clone | Introduced into icuin.dll in 10.0.15063. |
-| umsg_setLocale | Introduced into icuin.dll in 10.0.15063. |
-| umsg_getLocale | Introduced into icuin.dll in 10.0.15063. |
-| umsg_applyPattern | Introduced into icuin.dll in 10.0.15063. |
-| umsg_toPattern | Introduced into icuin.dll in 10.0.15063. |
-| umsg_format | Introduced into icuin.dll in 10.0.15063. |
-| umsg_vformat | Introduced into icuin.dll in 10.0.15063. |
-| umsg_parse | Introduced into icuin.dll in 10.0.15063. |
-| umsg_vparse | Introduced into icuin.dll in 10.0.15063. |
-| umsg_autoQuoteApostrophe | Introduced into icuin.dll in 10.0.15063. |
-| unum_open | Introduced into icuin.dll in 10.0.15063. |
-| unum_close | Introduced into icuin.dll in 10.0.15063. |
-| unum_clone | Introduced into icuin.dll in 10.0.15063. |
-| unum_format | Introduced into icuin.dll in 10.0.15063. |
-| unum_formatInt64 | Introduced into icuin.dll in 10.0.15063. |
-| unum_formatDouble | Introduced into icuin.dll in 10.0.15063. |
-| unum_formatDecimal | Introduced into icuin.dll in 10.0.15063. |
-| unum_formatDoubleCurrency | Introduced into icuin.dll in 10.0.15063. |
-| unum_formatUFormattable | Introduced into icuin.dll in 10.0.15063. |
-| unum_parse | Introduced into icuin.dll in 10.0.15063. |
-| unum_parseInt64 | Introduced into icuin.dll in 10.0.15063. |
-| unum_parseDouble | Introduced into icuin.dll in 10.0.15063. |
-| unum_parseDecimal | Introduced into icuin.dll in 10.0.15063. |
-| unum_parseDoubleCurrency | Introduced into icuin.dll in 10.0.15063. |
-| unum_parseToUFormattable | Introduced into icuin.dll in 10.0.15063. |
-| unum_applyPattern | Introduced into icuin.dll in 10.0.15063. |
-| unum_getAvailable | Introduced into icuin.dll in 10.0.15063. |
-| unum_countAvailable | Introduced into icuin.dll in 10.0.15063. |
-| unum_getAttribute | Introduced into icuin.dll in 10.0.15063. |
-| unum_setAttribute | Introduced into icuin.dll in 10.0.15063. |
-| unum_getDoubleAttribute | Introduced into icuin.dll in 10.0.15063. |
-| unum_setDoubleAttribute | Introduced into icuin.dll in 10.0.15063. |
-| unum_getTextAttribute | Introduced into icuin.dll in 10.0.15063. |
-| unum_setTextAttribute | Introduced into icuin.dll in 10.0.15063. |
-| unum_toPattern | Introduced into icuin.dll in 10.0.15063. |
-| unum_getSymbol | Introduced into icuin.dll in 10.0.15063. |
-| unum_setSymbol | Introduced into icuin.dll in 10.0.15063. |
-| unum_getLocaleByType | Introduced into icuin.dll in 10.0.15063. |
-| unum_setContext | Introduced into icuin.dll in 10.0.15063. |
-| unum_getContext | Introduced into icuin.dll in 10.0.15063. |
-| udat_toCalendarDateField | Introduced into icuin.dll in 10.0.15063. |
-| udat_open | Introduced into icuin.dll in 10.0.15063. |
-| udat_close | Introduced into icuin.dll in 10.0.15063. |
-| udat_getBooleanAttribute | Introduced into icuin.dll in 10.0.15063. |
-| udat_setBooleanAttribute | Introduced into icuin.dll in 10.0.15063. |
-| udat_clone | Introduced into icuin.dll in 10.0.15063. |
-| udat_format | Introduced into icuin.dll in 10.0.15063. |
-| udat_formatCalendar | Introduced into icuin.dll in 10.0.15063. |
-| udat_formatForFields | Introduced into icuin.dll in 10.0.15063. |
-| udat_formatCalendarForFields | Introduced into icuin.dll in 10.0.15063. |
-| udat_parse | Introduced into icuin.dll in 10.0.15063. |
-| udat_parseCalendar | Introduced into icuin.dll in 10.0.15063. |
-| udat_isLenient | Introduced into icuin.dll in 10.0.15063. |
-| udat_setLenient | Introduced into icuin.dll in 10.0.15063. |
-| udat_getCalendar | Introduced into icuin.dll in 10.0.15063. |
-| udat_setCalendar | Introduced into icuin.dll in 10.0.15063. |
-| udat_getNumberFormat | Introduced into icuin.dll in 10.0.15063. |
-| udat_getNumberFormatForField | Introduced into icuin.dll in 10.0.15063. |
-| udat_adoptNumberFormatForFields | Introduced into icuin.dll in 10.0.15063. |
-| udat_setNumberFormat | Introduced into icuin.dll in 10.0.15063. |
-| udat_adoptNumberFormat | Introduced into icuin.dll in 10.0.15063. |
-| udat_getAvailable | Introduced into icuin.dll in 10.0.15063. |
-| udat_countAvailable | Introduced into icuin.dll in 10.0.15063. |
-| udat_get2DigitYearStart | Introduced into icuin.dll in 10.0.15063. |
-| udat_set2DigitYearStart | Introduced into icuin.dll in 10.0.15063. |
-| udat_toPattern | Introduced into icuin.dll in 10.0.15063. |
-| udat_applyPattern | Introduced into icuin.dll in 10.0.15063. |
-| udat_getSymbols | Introduced into icuin.dll in 10.0.15063. |
-| udat_countSymbols | Introduced into icuin.dll in 10.0.15063. |
-| udat_setSymbols | Introduced into icuin.dll in 10.0.15063. |
-| udat_getLocaleByType | Introduced into icuin.dll in 10.0.15063. |
-| udat_setContext | Introduced into icuin.dll in 10.0.15063. |
-| udat_getContext | Introduced into icuin.dll in 10.0.15063. |
-| unumsys_open | Introduced into icuin.dll in 10.0.15063. |
-| unumsys_openByName | Introduced into icuin.dll in 10.0.15063. |
-| unumsys_close | Introduced into icuin.dll in 10.0.15063. |
-| unumsys_openAvailableNames | Introduced into icuin.dll in 10.0.15063. |
-| unumsys_getName | Introduced into icuin.dll in 10.0.15063. |
-| unumsys_isAlgorithmic | Introduced into icuin.dll in 10.0.15063. |
-| unumsys_getRadix | Introduced into icuin.dll in 10.0.15063. |
-| unumsys_getDescription | Introduced into icuin.dll in 10.0.15063. |
-| uplrules_open | Introduced into icuin.dll in 10.0.15063. |
-| uplrules_openForType | Introduced into icuin.dll in 10.0.15063. |
-| uplrules_close | Introduced into icuin.dll in 10.0.15063. |
-| uplrules_select | Introduced into icuin.dll in 10.0.15063. |
-| uregex_open | Introduced into icuin.dll in 10.0.15063. |
-| uregex_openUText | Introduced into icuin.dll in 10.0.15063. |
-| uregex_openC | Introduced into icuin.dll in 10.0.15063. |
-| uregex_close | Introduced into icuin.dll in 10.0.15063. |
-| uregex_clone | Introduced into icuin.dll in 10.0.15063. |
-| uregex_pattern | Introduced into icuin.dll in 10.0.15063. |
-| uregex_patternUText | Introduced into icuin.dll in 10.0.15063. |
-| uregex_flags | Introduced into icuin.dll in 10.0.15063. |
-| uregex_setText | Introduced into icuin.dll in 10.0.15063. |
-| uregex_setUText | Introduced into icuin.dll in 10.0.15063. |
-| uregex_getText | Introduced into icuin.dll in 10.0.15063. |
-| uregex_getUText | Introduced into icuin.dll in 10.0.15063. |
-| uregex_refreshUText | Introduced into icuin.dll in 10.0.15063. |
-| uregex_matches | Introduced into icuin.dll in 10.0.15063. |
-| uregex_matches64 | Introduced into icuin.dll in 10.0.15063. |
-| uregex_lookingAt | Introduced into icuin.dll in 10.0.15063. |
-| uregex_lookingAt64 | Introduced into icuin.dll in 10.0.15063. |
-| uregex_find | Introduced into icuin.dll in 10.0.15063. |
-| uregex_find64 | Introduced into icuin.dll in 10.0.15063. |
-| uregex_findNext | Introduced into icuin.dll in 10.0.15063. |
-| uregex_groupCount | Introduced into icuin.dll in 10.0.15063. |
-| uregex_groupNumberFromName | Introduced into icuin.dll in 10.0.15063. |
-| uregex_groupNumberFromCName | Introduced into icuin.dll in 10.0.15063. |
-| uregex_group | Introduced into icuin.dll in 10.0.15063. |
-| uregex_groupUText | Introduced into icuin.dll in 10.0.15063. |
-| uregex_start | Introduced into icuin.dll in 10.0.15063. |
-| uregex_start64 | Introduced into icuin.dll in 10.0.15063. |
-| uregex_end | Introduced into icuin.dll in 10.0.15063. |
-| uregex_end64 | Introduced into icuin.dll in 10.0.15063. |
-| uregex_reset | Introduced into icuin.dll in 10.0.15063. |
-| uregex_reset64 | Introduced into icuin.dll in 10.0.15063. |
-| uregex_setRegion | Introduced into icuin.dll in 10.0.15063. |
-| uregex_setRegion64 | Introduced into icuin.dll in 10.0.15063. |
-| uregex_setRegionAndStart | Introduced into icuin.dll in 10.0.15063. |
-| uregex_regionStart | Introduced into icuin.dll in 10.0.15063. |
-| uregex_regionStart64 | Introduced into icuin.dll in 10.0.15063. |
-| uregex_regionEnd | Introduced into icuin.dll in 10.0.15063. |
-| uregex_regionEnd64 | Introduced into icuin.dll in 10.0.15063. |
-| uregex_hasTransparentBounds | Introduced into icuin.dll in 10.0.15063. |
-| uregex_useTransparentBounds | Introduced into icuin.dll in 10.0.15063. |
-| uregex_hasAnchoringBounds | Introduced into icuin.dll in 10.0.15063. |
-| uregex_useAnchoringBounds | Introduced into icuin.dll in 10.0.15063. |
-| uregex_hitEnd | Introduced into icuin.dll in 10.0.15063. |
-| uregex_requireEnd | Introduced into icuin.dll in 10.0.15063. |
-| uregex_replaceAll | Introduced into icuin.dll in 10.0.15063. |
-| uregex_replaceAllUText | Introduced into icuin.dll in 10.0.15063. |
-| uregex_replaceFirst | Introduced into icuin.dll in 10.0.15063. |
-| uregex_replaceFirstUText | Introduced into icuin.dll in 10.0.15063. |
-| uregex_appendReplacement | Introduced into icuin.dll in 10.0.15063. |
-| uregex_appendReplacementUText | Introduced into icuin.dll in 10.0.15063. |
-| uregex_appendTail | Introduced into icuin.dll in 10.0.15063. |
-| uregex_appendTailUText | Introduced into icuin.dll in 10.0.15063. |
-| uregex_split | Introduced into icuin.dll in 10.0.15063. |
-| uregex_splitUText | Introduced into icuin.dll in 10.0.15063. |
-| uregex_setTimeLimit | Introduced into icuin.dll in 10.0.15063. |
-| uregex_getTimeLimit | Introduced into icuin.dll in 10.0.15063. |
-| uregex_setStackLimit | Introduced into icuin.dll in 10.0.15063. |
-| uregex_getStackLimit | Introduced into icuin.dll in 10.0.15063. |
-| uregex_setMatchCallback | Introduced into icuin.dll in 10.0.15063. |
-| uregex_getMatchCallback | Introduced into icuin.dll in 10.0.15063. |
-| uregex_setFindProgressCallback | Introduced into icuin.dll in 10.0.15063. |
-| uregex_getFindProgressCallback | Introduced into icuin.dll in 10.0.15063. |
-| uregion_getRegionFromCode | Introduced into icuin.dll in 10.0.15063. |
-| uregion_getRegionFromNumericCode | Introduced into icuin.dll in 10.0.15063. |
-| uregion_getAvailable | Introduced into icuin.dll in 10.0.15063. |
-| uregion_areEqual | Introduced into icuin.dll in 10.0.15063. |
-| uregion_getContainingRegion | Introduced into icuin.dll in 10.0.15063. |
-| uregion_getContainingRegionOfType | Introduced into icuin.dll in 10.0.15063. |
-| uregion_getContainedRegions | Introduced into icuin.dll in 10.0.15063. |
-| uregion_getContainedRegionsOfType | Introduced into icuin.dll in 10.0.15063. |
-| uregion_contains | Introduced into icuin.dll in 10.0.15063. |
-| uregion_getPreferredValues | Introduced into icuin.dll in 10.0.15063. |
-| uregion_getRegionCode | Introduced into icuin.dll in 10.0.15063. |
-| uregion_getNumericCode | Introduced into icuin.dll in 10.0.15063. |
-| uregion_getType | Introduced into icuin.dll in 10.0.15063. |
-| usearch_open | Introduced into icuin.dll in 10.0.15063. |
-| usearch_openFromCollator | Introduced into icuin.dll in 10.0.15063. |
-| usearch_close | Introduced into icuin.dll in 10.0.15063. |
-| usearch_setOffset | Introduced into icuin.dll in 10.0.15063. |
-| usearch_getOffset | Introduced into icuin.dll in 10.0.15063. |
-| usearch_setAttribute | Introduced into icuin.dll in 10.0.15063. |
-| usearch_getAttribute | Introduced into icuin.dll in 10.0.15063. |
-| usearch_getMatchedStart | Introduced into icuin.dll in 10.0.15063. |
-| usearch_getMatchedLength | Introduced into icuin.dll in 10.0.15063. |
-| usearch_getMatchedText | Introduced into icuin.dll in 10.0.15063. |
-| usearch_setBreakIterator | Introduced into icuin.dll in 10.0.15063. |
-| usearch_getBreakIterator | Introduced into icuin.dll in 10.0.15063. |
-| usearch_setText | Introduced into icuin.dll in 10.0.15063. |
-| usearch_getText | Introduced into icuin.dll in 10.0.15063. |
-| usearch_getCollator | Introduced into icuin.dll in 10.0.15063. |
-| usearch_setCollator | Introduced into icuin.dll in 10.0.15063. |
-| usearch_setPattern | Introduced into icuin.dll in 10.0.15063. |
-| usearch_getPattern | Introduced into icuin.dll in 10.0.15063. |
-| usearch_first | Introduced into icuin.dll in 10.0.15063. |
-| usearch_following | Introduced into icuin.dll in 10.0.15063. |
-| usearch_last | Introduced into icuin.dll in 10.0.15063. |
-| usearch_preceding | Introduced into icuin.dll in 10.0.15063. |
-| usearch_next | Introduced into icuin.dll in 10.0.15063. |
-| usearch_previous | Introduced into icuin.dll in 10.0.15063. |
-| usearch_reset | Introduced into icuin.dll in 10.0.15063. |
-| uspoof_open | Introduced into icuin.dll in 10.0.15063. |
-| uspoof_openFromSerialized | Introduced into icuin.dll in 10.0.15063. |
-| uspoof_openFromSource | Introduced into icuin.dll in 10.0.15063. |
-| uspoof_close | Introduced into icuin.dll in 10.0.15063. |
-| uspoof_clone | Introduced into icuin.dll in 10.0.15063. |
-| uspoof_setChecks | Introduced into icuin.dll in 10.0.15063. |
-| uspoof_getChecks | Introduced into icuin.dll in 10.0.15063. |
-| uspoof_setRestrictionLevel | Introduced into icuin.dll in 10.0.15063. |
-| uspoof_getRestrictionLevel | Introduced into icuin.dll in 10.0.15063. |
-| uspoof_setAllowedLocales | Introduced into icuin.dll in 10.0.15063. |
-| uspoof_getAllowedLocales | Introduced into icuin.dll in 10.0.15063. |
-| uspoof_setAllowedChars | Introduced into icuin.dll in 10.0.15063. |
-| uspoof_getAllowedChars | Introduced into icuin.dll in 10.0.15063. |
-| uspoof_check | Introduced into icuin.dll in 10.0.15063. |
-| uspoof_checkUTF8 | Introduced into icuin.dll in 10.0.15063. |
-| uspoof_areConfusable | Introduced into icuin.dll in 10.0.15063. |
-| uspoof_areConfusableUTF8 | Introduced into icuin.dll in 10.0.15063. |
-| uspoof_getSkeleton | Introduced into icuin.dll in 10.0.15063. |
-| uspoof_getSkeletonUTF8 | Introduced into icuin.dll in 10.0.15063. |
-| uspoof_getInclusionSet | Introduced into icuin.dll in 10.0.15063. |
-| uspoof_getRecommendedSet | Introduced into icuin.dll in 10.0.15063. |
-| uspoof_serialize | Introduced into icuin.dll in 10.0.15063. |
-| utmscale_getTimeScaleValue | Introduced into icuin.dll in 10.0.15063. |
-| utmscale_fromInt64 | Introduced into icuin.dll in 10.0.15063. |
-| utmscale_toInt64 | Introduced into icuin.dll in 10.0.15063. |
-| utrans_openU | Introduced into icuin.dll in 10.0.15063. |
-| utrans_openInverse | Introduced into icuin.dll in 10.0.15063. |
-| utrans_clone | Introduced into icuin.dll in 10.0.15063. |
-| utrans_close | Introduced into icuin.dll in 10.0.15063. |
-| utrans_getUnicodeID | Introduced into icuin.dll in 10.0.15063. |
-| utrans_register | Introduced into icuin.dll in 10.0.15063. |
-| utrans_unregisterID | Introduced into icuin.dll in 10.0.15063. |
-| utrans_setFilter | Introduced into icuin.dll in 10.0.15063. |
-| utrans_countAvailableIDs | Introduced into icuin.dll in 10.0.15063. |
-| utrans_openIDs | Introduced into icuin.dll in 10.0.15063. |
-| utrans_trans | Introduced into icuin.dll in 10.0.15063. |
-| utrans_transIncremental | Introduced into icuin.dll in 10.0.15063. |
-| utrans_transUChars | Introduced into icuin.dll in 10.0.15063. |
-| utrans_transIncrementalUChars | Introduced into icuin.dll in 10.0.15063. |
-| utrans_toRules | Introduced into icuin.dll in 10.0.15063. |
-| utrans_getSourceSet | Introduced into icuin.dll in 10.0.15063. |
-| ureldatefmt_open | Introduced into icuin.dll in 10.0.16299. |
-| ureldatefmt_close | Introduced into icuin.dll in 10.0.16299. |
-| ureldatefmt_formatNumeric | Introduced into icuin.dll in 10.0.16299. |
-| ureldatefmt_format | Introduced into icuin.dll in 10.0.16299. |
-| ureldatefmt_combineDateAndTime | Introduced into icuin.dll in 10.0.16299. |
-
-
-## APIs from advapi32.dll
-
-| API | Requirements |
-| -----| --------------|
+| ResetPhoneForArm32 | Introduced into ResetPhoneForArm32.dll in 10.0.16299. |
 
 
 ## APIs from Credui.dll
 
 | API | Requirements |
 | -----| --------------|
-| [[CredUIParseUserName](https://msdn.microsoft.com/en-us/library/Aa375175.aspx)W](https://msdn.microsoft.com/en-us/library/Aa375175.aspx) | Introduced into Credui.dll in 10.0.16299. |
+| [CredUIParseUserNameW](https://msdn.microsoft.com/en-us/library/Aa375175(v=VS.85).aspx) | Introduced into Credui.dll in 10.0.16299. |
 
 
 ## APIs from ntdll.dll
 
 | API | Requirements |
 | -----| --------------|
-| [NtQueryDirectoryFile](https://msdn.microsoft.com/en-us/library/Ff556633.aspx) | Introduced into ntdll.dll in 10.0.16299. |
-| [RtlEthernetAddressToString](https://msdn.microsoft.com/en-us/library/Dn550721.aspx) | Introduced into ntdll.dll in 10.0.16299. |
-| [RtlEthernetStringToAddress](https://msdn.microsoft.com/en-us/library/Dn550722.aspx) | Introduced into ntdll.dll in 10.0.16299. |
-| [RtlIpv4AddressToString](https://msdn.microsoft.com/en-us/library/Aa814456.aspx) | Introduced into ntdll.dll in 10.0.16299. |
-| [RtlIpv4AddressToStringEx](https://msdn.microsoft.com/en-us/library/Aa814457.aspx) | Introduced into ntdll.dll in 10.0.16299. |
-| [RtlIpv4StringToAddress](https://msdn.microsoft.com/en-us/library/Aa814458.aspx) | Introduced into ntdll.dll in 10.0.16299. |
-| [RtlIpv4StringToAddressEx](https://msdn.microsoft.com/en-us/library/Aa814459.aspx) | Introduced into ntdll.dll in 10.0.16299. |
-| [RtlIpv6AddressToString](https://msdn.microsoft.com/en-us/library/Aa814460.aspx) | Introduced into ntdll.dll in 10.0.16299. |
-| [RtlIpv6AddressToStringEx](https://msdn.microsoft.com/en-us/library/Aa814461.aspx) | Introduced into ntdll.dll in 10.0.16299. |
-| [RtlIpv6StringToAddress](https://msdn.microsoft.com/en-us/library/Aa814462.aspx) | Introduced into ntdll.dll in 10.0.16299. |
-| [RtlIpv6StringToAddressEx](https://msdn.microsoft.com/en-us/library/Aa814463.aspx) | Introduced into ntdll.dll in 10.0.16299. |
+| [NtQueryDirectoryFile](https://msdn.microsoft.com/en-us/library/Ff556633(v=VS.85).aspx) | Introduced into ntdll.dll in 10.0.16299. |
+| [RtlEthernetAddressToString](https://msdn.microsoft.com/en-us/library/Dn550721(v=VS.85).aspx) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RtlEthernetStringToAddress](https://msdn.microsoft.com/en-us/library/Dn550722(v=VS.85).aspx) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RtlIpv4AddressToString](https://msdn.microsoft.com/en-us/library/Aa814456(v=VS.85).aspx) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RtlIpv4AddressToStringEx](https://msdn.microsoft.com/en-us/library/windows/desktop/aa814457.aspx) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RtlIpv4StringToAddress](https://msdn.microsoft.com/en-us/library/Aa814458(v=VS.85).aspx) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RtlIpv4StringToAddressEx](https://msdn.microsoft.com/en-us/library/Aa814459(v=VS.85).aspx) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RtlIpv6AddressToString](https://msdn.microsoft.com/en-us/library/Aa814460(v=VS.85).aspx) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RtlIpv6AddressToStringEx](https://msdn.microsoft.com/en-us/library/Aa814461(v=VS.85).aspx) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RtlIpv6StringToAddress](https://msdn.microsoft.com/en-us/library/Aa814462(v=VS.85).aspx) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RtlIpv6StringToAddressEx](https://msdn.microsoft.com/en-us/library/Aa814463(v=VS.85).aspx) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
+
+
+## APIs from OPMXbox.dll
+
+| API | Requirements |
+| -----| --------------|
+| OPMXboxEnableHDCP | Introduced into OPMXbox.dll in 10.0.16299. |
+| OPMXboxGetHDCPStatus | Introduced into OPMXbox.dll in 10.0.16299. |
+| OPMXboxGetHDCPStatusAndType | Introduced into OPMXbox.dll in 10.0.16299. |
+
+
+## APIs from efswrt.dll
+
+| API | Requirements |
+| -----| --------------|
+| [ProtectFileToEnterpriseIdentity](https://msdn.microsoft.com/en-us/library/Mt622168(v=VS.85).aspx) | Introduced into efswrt.dll in 10.0.16299. |
+| UnprotectFile | Introduced into efswrt.dll in 10.0.16299. |
+
+
+## APIs from wer.dll
+
+| API | Requirements |
+| -----| --------------|
+| [WerStoreOpen](https://msdn.microsoft.com/en-us/library/Mt492590(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
+| [WerStoreClose](https://msdn.microsoft.com/en-us/library/Mt796907(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
+| [WerFreeString](https://msdn.microsoft.com/en-us/library/Mt492584(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
+| [WerStoreGetFirstReportKey](https://msdn.microsoft.com/en-us/library/Mt492588(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
+| [WerStoreGetNextReportKey](https://msdn.microsoft.com/en-us/library/Mt492589(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
+| [WerStoreQueryReportMetadataV2](https://msdn.microsoft.com/en-us/library/Mt492591(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
+| [WerReportCreate](https://msdn.microsoft.com/en-us/library/Bb513625(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
+| [WerReportSetParameter](https://msdn.microsoft.com/en-us/library/Bb513626(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
+| [WerReportAddFile](https://msdn.microsoft.com/en-us/library/Bb513623(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
+| [WerReportSubmit](https://msdn.microsoft.com/en-us/library/Bb513628(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
+| [WerReportAddDump](https://msdn.microsoft.com/en-us/library/Bb513622(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
+| [WerReportCloseHandle](https://msdn.microsoft.com/en-us/library/Bb513624(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
+
+
+## APIs from atiadlxx.dll
+
+| API | Requirements |
+| -----| --------------|
+| ADL2_Main_Control_GetProcAddress | Introduced into atiadlxx.dll in 10.0.16299. Moved into atiadlxy.dll in 10.0.16299. Moved into atiadlxx.dll in 10.0.17134. Moved into atiadlxy.dll in 10.0.17134. Moved into atiadlxx.dll in 10.0.17763. Moved into atiadlxy.dll in 10.0.17763. |
+
+
+## APIs from aticfx32.dll
+
+| API | Requirements |
+| -----| --------------|
+| AmdGetCfxModuleHandle | Introduced into aticfx32.dll in 10.0.16299. Moved into aticfx64.dll in 10.0.16299. Moved into aticfx32.dll in 10.0.17134. Moved into aticfx64.dll in 10.0.17134. Moved into aticfx32.dll in 10.0.17763. Moved into aticfx64.dll in 10.0.17763. |
+
+
+## APIs from amdxc32.dll
+
+| API | Requirements |
+| -----| --------------|
+| AmdGetDxcModuleHandle | Introduced into amdxc32.dll in 10.0.16299. Moved into amdxc64.dll in 10.0.16299. Moved into amdxc32.dll in 10.0.17134. Moved into amdxc64.dll in 10.0.17134. Moved into amdxc32.dll in 10.0.17763. Moved into amdxc64.dll in 10.0.17763. |
+
+
+## APIs from atidxx32.dll
+
+| API | Requirements |
+| -----| --------------|
+| AmdGetDxxModuleHandle | Introduced into atidxx32.dll in 10.0.16299. Moved into atidxx64.dll in 10.0.16299. Moved into atidxx32.dll in 10.0.17134. Moved into atidxx64.dll in 10.0.17134. Moved into atidxx32.dll in 10.0.17763. Moved into atidxx64.dll in 10.0.17763. |
+
+
+## APIs from nvapi.dll
+
+| API | Requirements |
+| -----| --------------|
+| nvapi_QueryInterface | Introduced into nvapi.dll in 10.0.16299. Moved into nvapi64.dll in 10.0.16299. Moved into nvapi.dll in 10.0.17134. Moved into nvapi64.dll in 10.0.17134. Moved into nvapi.dll in 10.0.17763. Moved into nvapi64.dll in 10.0.17763. |
+
+
+## APIs from icuuc.dll
+
+| API | Requirements |
+| -----| --------------|
+| utf8_nextCharSafeBody | Introduced into icuuc.dll in 10.0.16299. |
+| utf8_appendCharSafeBody | Introduced into icuuc.dll in 10.0.16299. |
+| utf8_prevCharSafeBody | Introduced into icuuc.dll in 10.0.16299. |
+| utf8_back1SafeBody | Introduced into icuuc.dll in 10.0.16299. |
+| u_versionFromString | Introduced into icuuc.dll in 10.0.16299. |
+| u_versionFromUString | Introduced into icuuc.dll in 10.0.16299. |
+| u_versionToString | Introduced into icuuc.dll in 10.0.16299. |
+| u_getVersion | Introduced into icuuc.dll in 10.0.16299. |
+| u_errorName | Introduced into icuuc.dll in 10.0.16299. |
+| utrace_setLevel | Introduced into icuuc.dll in 10.0.16299. |
+| utrace_getLevel | Introduced into icuuc.dll in 10.0.16299. |
+| utrace_setFunctions | Introduced into icuuc.dll in 10.0.16299. |
+| utrace_getFunctions | Introduced into icuuc.dll in 10.0.16299. |
+| utrace_vformat | Introduced into icuuc.dll in 10.0.16299. |
+| utrace_format | Introduced into icuuc.dll in 10.0.16299. |
+| utrace_functionName | Introduced into icuuc.dll in 10.0.16299. |
+| u_shapeArabic | Introduced into icuuc.dll in 10.0.16299. |
+| uscript_getCode | Introduced into icuuc.dll in 10.0.16299. |
+| uscript_getName | Introduced into icuuc.dll in 10.0.16299. |
+| uscript_getShortName | Introduced into icuuc.dll in 10.0.16299. |
+| uscript_getScript | Introduced into icuuc.dll in 10.0.16299. |
+| uscript_hasScript | Introduced into icuuc.dll in 10.0.16299. |
+| uscript_getScriptExtensions | Introduced into icuuc.dll in 10.0.16299. |
+| uscript_getSampleString | Introduced into icuuc.dll in 10.0.16299. |
+| uscript_getUsage | Introduced into icuuc.dll in 10.0.16299. |
+| uscript_isRightToLeft | Introduced into icuuc.dll in 10.0.16299. |
+| uscript_breaksBetweenLetters | Introduced into icuuc.dll in 10.0.16299. |
+| uscript_isCased | Introduced into icuuc.dll in 10.0.16299. |
+| ulistfmt_open | Introduced into icuuc.dll in 10.0.16299. |
+| ulistfmt_close | Introduced into icuuc.dll in 10.0.16299. |
+| ulistfmt_format | Introduced into icuuc.dll in 10.0.16299. |
+| uiter_current32 | Introduced into icuuc.dll in 10.0.16299. |
+| uiter_next32 | Introduced into icuuc.dll in 10.0.16299. |
+| uiter_previous32 | Introduced into icuuc.dll in 10.0.16299. |
+| uiter_getState | Introduced into icuuc.dll in 10.0.16299. |
+| uiter_setState | Introduced into icuuc.dll in 10.0.16299. |
+| uiter_setString | Introduced into icuuc.dll in 10.0.16299. |
+| uiter_setUTF16BE | Introduced into icuuc.dll in 10.0.16299. |
+| uiter_setUTF8 | Introduced into icuuc.dll in 10.0.16299. |
+| uenum_close | Introduced into icuuc.dll in 10.0.16299. |
+| uenum_count | Introduced into icuuc.dll in 10.0.16299. |
+| uenum_unext | Introduced into icuuc.dll in 10.0.16299. |
+| uenum_next | Introduced into icuuc.dll in 10.0.16299. |
+| uenum_reset | Introduced into icuuc.dll in 10.0.16299. |
+| uenum_openUCharStringsEnumeration | Introduced into icuuc.dll in 10.0.16299. |
+| uenum_openCharStringsEnumeration | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getDefault | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_setDefault | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getLanguage | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getScript | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getCountry | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getVariant | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getName | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_canonicalize | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getISO3Language | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getISO3Country | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getLCID | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getDisplayLanguage | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getDisplayScript | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getDisplayCountry | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getDisplayVariant | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getDisplayKeyword | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getDisplayKeywordValue | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getDisplayName | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getAvailable | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_countAvailable | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getISOLanguages | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getISOCountries | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getParent | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getBaseName | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_openKeywords | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getKeywordValue | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_setKeywordValue | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_isRightToLeft | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getCharacterOrientation | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getLineOrientation | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_acceptLanguageFromHTTP | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_acceptLanguage | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_getLocaleForLCID | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_addLikelySubtags | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_minimizeSubtags | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_forLanguageTag | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_toLanguageTag | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_toUnicodeLocaleKey | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_toUnicodeLocaleType | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_toLegacyKey | Introduced into icuuc.dll in 10.0.16299. |
+| uloc_toLegacyType | Introduced into icuuc.dll in 10.0.16299. |
+| ures_open | Introduced into icuuc.dll in 10.0.16299. |
+| ures_openDirect | Introduced into icuuc.dll in 10.0.16299. |
+| ures_openU | Introduced into icuuc.dll in 10.0.16299. |
+| ures_close | Introduced into icuuc.dll in 10.0.16299. |
+| ures_getVersion | Introduced into icuuc.dll in 10.0.16299. |
+| ures_getLocaleByType | Introduced into icuuc.dll in 10.0.16299. |
+| ures_getString | Introduced into icuuc.dll in 10.0.16299. |
+| ures_getUTF8String | Introduced into icuuc.dll in 10.0.16299. |
+| ures_getBinary | Introduced into icuuc.dll in 10.0.16299. |
+| ures_getIntVector | Introduced into icuuc.dll in 10.0.16299. |
+| ures_getUInt | Introduced into icuuc.dll in 10.0.16299. |
+| ures_getInt | Introduced into icuuc.dll in 10.0.16299. |
+| ures_getSize | Introduced into icuuc.dll in 10.0.16299. |
+| ures_getType | Introduced into icuuc.dll in 10.0.16299. |
+| ures_getKey | Introduced into icuuc.dll in 10.0.16299. |
+| ures_resetIterator | Introduced into icuuc.dll in 10.0.16299. |
+| ures_hasNext | Introduced into icuuc.dll in 10.0.16299. |
+| ures_getNextResource | Introduced into icuuc.dll in 10.0.16299. |
+| ures_getNextString | Introduced into icuuc.dll in 10.0.16299. |
+| ures_getByIndex | Introduced into icuuc.dll in 10.0.16299. |
+| ures_getStringByIndex | Introduced into icuuc.dll in 10.0.16299. |
+| ures_getUTF8StringByIndex | Introduced into icuuc.dll in 10.0.16299. |
+| ures_getByKey | Introduced into icuuc.dll in 10.0.16299. |
+| ures_getStringByKey | Introduced into icuuc.dll in 10.0.16299. |
+| ures_getUTF8StringByKey | Introduced into icuuc.dll in 10.0.16299. |
+| ures_openAvailableLocales | Introduced into icuuc.dll in 10.0.16299. |
+| uldn_open | Introduced into icuuc.dll in 10.0.16299. |
+| uldn_close | Introduced into icuuc.dll in 10.0.16299. |
+| uldn_getLocale | Introduced into icuuc.dll in 10.0.16299. |
+| uldn_getDialectHandling | Introduced into icuuc.dll in 10.0.16299. |
+| uldn_localeDisplayName | Introduced into icuuc.dll in 10.0.16299. |
+| uldn_languageDisplayName | Introduced into icuuc.dll in 10.0.16299. |
+| uldn_scriptDisplayName | Introduced into icuuc.dll in 10.0.16299. |
+| uldn_scriptCodeDisplayName | Introduced into icuuc.dll in 10.0.16299. |
+| uldn_regionDisplayName | Introduced into icuuc.dll in 10.0.16299. |
+| uldn_variantDisplayName | Introduced into icuuc.dll in 10.0.16299. |
+| uldn_keyDisplayName | Introduced into icuuc.dll in 10.0.16299. |
+| uldn_keyValueDisplayName | Introduced into icuuc.dll in 10.0.16299. |
+| uldn_openForContext | Introduced into icuuc.dll in 10.0.16299. |
+| uldn_getContext | Introduced into icuuc.dll in 10.0.16299. |
+| ucurr_forLocale | Introduced into icuuc.dll in 10.0.16299. |
+| ucurr_register | Introduced into icuuc.dll in 10.0.16299. |
+| ucurr_unregister | Introduced into icuuc.dll in 10.0.16299. |
+| ucurr_getName | Introduced into icuuc.dll in 10.0.16299. |
+| ucurr_getPluralName | Introduced into icuuc.dll in 10.0.16299. |
+| ucurr_getDefaultFractionDigits | Introduced into icuuc.dll in 10.0.16299. |
+| ucurr_getDefaultFractionDigitsForUsage | Introduced into icuuc.dll in 10.0.16299. |
+| ucurr_getRoundingIncrement | Introduced into icuuc.dll in 10.0.16299. |
+| ucurr_getRoundingIncrementForUsage | Introduced into icuuc.dll in 10.0.16299. |
+| ucurr_openISOCurrencies | Introduced into icuuc.dll in 10.0.16299. |
+| ucurr_isAvailable | Introduced into icuuc.dll in 10.0.16299. |
+| ucurr_countCurrencies | Introduced into icuuc.dll in 10.0.16299. |
+| ucurr_forLocaleAndDate | Introduced into icuuc.dll in 10.0.16299. |
+| ucurr_getKeywordValuesForLocale | Introduced into icuuc.dll in 10.0.16299. |
+| ucurr_getNumericCode | Introduced into icuuc.dll in 10.0.16299. |
+| UCNV_FROM_U_CALLBACK_STOP | Introduced into icuuc.dll in 10.0.16299. |
+| UCNV_TO_U_CALLBACK_STOP | Introduced into icuuc.dll in 10.0.16299. |
+| UCNV_FROM_U_CALLBACK_SKIP | Introduced into icuuc.dll in 10.0.16299. |
+| UCNV_FROM_U_CALLBACK_SUBSTITUTE | Introduced into icuuc.dll in 10.0.16299. |
+| UCNV_FROM_U_CALLBACK_ESCAPE | Introduced into icuuc.dll in 10.0.16299. |
+| UCNV_TO_U_CALLBACK_SKIP | Introduced into icuuc.dll in 10.0.16299. |
+| UCNV_TO_U_CALLBACK_SUBSTITUTE | Introduced into icuuc.dll in 10.0.16299. |
+| UCNV_TO_U_CALLBACK_ESCAPE | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_compareNames | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_open | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_openU | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_openCCSID | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_openPackage | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_safeClone | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_close | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_getSubstChars | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_setSubstChars | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_setSubstString | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_getInvalidChars | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_getInvalidUChars | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_reset | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_resetToUnicode | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_resetFromUnicode | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_getMaxCharSize | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_getMinCharSize | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_getDisplayName | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_getName | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_getCCSID | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_getPlatform | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_getType | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_getStarters | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_getUnicodeSet | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_getToUCallBack | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_getFromUCallBack | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_setToUCallBack | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_setFromUCallBack | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_fromUnicode | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_toUnicode | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_fromUChars | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_toUChars | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_getNextUChar | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_convertEx | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_convert | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_toAlgorithmic | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_fromAlgorithmic | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_flushCache | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_countAvailable | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_getAvailableName | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_openAllNames | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_countAliases | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_getAlias | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_getAliases | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_openStandardNames | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_countStandards | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_getStandard | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_getStandardName | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_getCanonicalName | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_getDefaultName | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_setDefaultName | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_fixFileSeparator | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_isAmbiguous | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_setFallback | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_usesFallback | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_detectUnicodeSignature | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_fromUCountPending | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_toUCountPending | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_isFixedWidth | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_cbFromUWriteBytes | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_cbFromUWriteSub | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_cbFromUWriteUChars | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_cbToUWriteUChars | Introduced into icuuc.dll in 10.0.16299. |
+| ucnv_cbToUWriteSub | Introduced into icuuc.dll in 10.0.16299. |
+| u_init | Introduced into icuuc.dll in 10.0.16299. |
+| u_cleanup | Introduced into icuuc.dll in 10.0.16299. |
+| u_setMemoryFunctions | Introduced into icuuc.dll in 10.0.16299. |
+| u_hasBinaryProperty | Introduced into icuuc.dll in 10.0.16299. |
+| u_isUAlphabetic | Introduced into icuuc.dll in 10.0.16299. |
+| u_isULowercase | Introduced into icuuc.dll in 10.0.16299. |
+| u_isUUppercase | Introduced into icuuc.dll in 10.0.16299. |
+| u_isUWhiteSpace | Introduced into icuuc.dll in 10.0.16299. |
+| u_getIntPropertyValue | Introduced into icuuc.dll in 10.0.16299. |
+| u_getIntPropertyMinValue | Introduced into icuuc.dll in 10.0.16299. |
+| u_getIntPropertyMaxValue | Introduced into icuuc.dll in 10.0.16299. |
+| u_getNumericValue | Introduced into icuuc.dll in 10.0.16299. |
+| u_islower | Introduced into icuuc.dll in 10.0.16299. |
+| u_isupper | Introduced into icuuc.dll in 10.0.16299. |
+| u_istitle | Introduced into icuuc.dll in 10.0.16299. |
+| u_isdigit | Introduced into icuuc.dll in 10.0.16299. |
+| u_isalpha | Introduced into icuuc.dll in 10.0.16299. |
+| u_isalnum | Introduced into icuuc.dll in 10.0.16299. |
+| u_isxdigit | Introduced into icuuc.dll in 10.0.16299. |
+| u_ispunct | Introduced into icuuc.dll in 10.0.16299. |
+| u_isgraph | Introduced into icuuc.dll in 10.0.16299. |
+| u_isblank | Introduced into icuuc.dll in 10.0.16299. |
+| u_isdefined | Introduced into icuuc.dll in 10.0.16299. |
+| u_isspace | Introduced into icuuc.dll in 10.0.16299. |
+| u_isJavaSpaceChar | Introduced into icuuc.dll in 10.0.16299. |
+| u_isWhitespace | Introduced into icuuc.dll in 10.0.16299. |
+| u_iscntrl | Introduced into icuuc.dll in 10.0.16299. |
+| u_isISOControl | Introduced into icuuc.dll in 10.0.16299. |
+| u_isprint | Introduced into icuuc.dll in 10.0.16299. |
+| u_isbase | Introduced into icuuc.dll in 10.0.16299. |
+| u_charDirection | Introduced into icuuc.dll in 10.0.16299. |
+| u_isMirrored | Introduced into icuuc.dll in 10.0.16299. |
+| u_charMirror | Introduced into icuuc.dll in 10.0.16299. |
+| u_getBidiPairedBracket | Introduced into icuuc.dll in 10.0.16299. |
+| u_charType | Introduced into icuuc.dll in 10.0.16299. |
+| u_enumCharTypes | Introduced into icuuc.dll in 10.0.16299. |
+| u_getCombiningClass | Introduced into icuuc.dll in 10.0.16299. |
+| u_charDigitValue | Introduced into icuuc.dll in 10.0.16299. |
+| ublock_getCode | Introduced into icuuc.dll in 10.0.16299. |
+| u_charName | Introduced into icuuc.dll in 10.0.16299. |
+| u_charFromName | Introduced into icuuc.dll in 10.0.16299. |
+| u_enumCharNames | Introduced into icuuc.dll in 10.0.16299. |
+| u_getPropertyName | Introduced into icuuc.dll in 10.0.16299. |
+| u_getPropertyEnum | Introduced into icuuc.dll in 10.0.16299. |
+| u_getPropertyValueName | Introduced into icuuc.dll in 10.0.16299. |
+| u_getPropertyValueEnum | Introduced into icuuc.dll in 10.0.16299. |
+| u_isIDStart | Introduced into icuuc.dll in 10.0.16299. |
+| u_isIDPart | Introduced into icuuc.dll in 10.0.16299. |
+| u_isIDIgnorable | Introduced into icuuc.dll in 10.0.16299. |
+| u_isJavaIDStart | Introduced into icuuc.dll in 10.0.16299. |
+| u_isJavaIDPart | Introduced into icuuc.dll in 10.0.16299. |
+| u_tolower | Introduced into icuuc.dll in 10.0.16299. |
+| u_toupper | Introduced into icuuc.dll in 10.0.16299. |
+| u_totitle | Introduced into icuuc.dll in 10.0.16299. |
+| u_foldCase | Introduced into icuuc.dll in 10.0.16299. |
+| u_digit | Introduced into icuuc.dll in 10.0.16299. |
+| u_forDigit | Introduced into icuuc.dll in 10.0.16299. |
+| u_charAge | Introduced into icuuc.dll in 10.0.16299. |
+| u_getUnicodeVersion | Introduced into icuuc.dll in 10.0.16299. |
+| u_getFC_NFKC_Closure | Introduced into icuuc.dll in 10.0.16299. |
+| utext_close | Introduced into icuuc.dll in 10.0.16299. |
+| utext_openUTF8 | Introduced into icuuc.dll in 10.0.16299. |
+| utext_openUChars | Introduced into icuuc.dll in 10.0.16299. |
+| utext_clone | Introduced into icuuc.dll in 10.0.16299. |
+| utext_equals | Introduced into icuuc.dll in 10.0.16299. |
+| utext_nativeLength | Introduced into icuuc.dll in 10.0.16299. |
+| utext_isLengthExpensive | Introduced into icuuc.dll in 10.0.16299. |
+| utext_char32At | Introduced into icuuc.dll in 10.0.16299. |
+| utext_current32 | Introduced into icuuc.dll in 10.0.16299. |
+| utext_next32 | Introduced into icuuc.dll in 10.0.16299. |
+| utext_previous32 | Introduced into icuuc.dll in 10.0.16299. |
+| utext_next32From | Introduced into icuuc.dll in 10.0.16299. |
+| utext_previous32From | Introduced into icuuc.dll in 10.0.16299. |
+| utext_getNativeIndex | Introduced into icuuc.dll in 10.0.16299. |
+| utext_setNativeIndex | Introduced into icuuc.dll in 10.0.16299. |
+| utext_moveIndex32 | Introduced into icuuc.dll in 10.0.16299. |
+| utext_getPreviousNativeIndex | Introduced into icuuc.dll in 10.0.16299. |
+| utext_extract | Introduced into icuuc.dll in 10.0.16299. |
+| utext_isWritable | Introduced into icuuc.dll in 10.0.16299. |
+| utext_hasMetaData | Introduced into icuuc.dll in 10.0.16299. |
+| utext_replace | Introduced into icuuc.dll in 10.0.16299. |
+| utext_copy | Introduced into icuuc.dll in 10.0.16299. |
+| utext_freeze | Introduced into icuuc.dll in 10.0.16299. |
+| utext_setup | Introduced into icuuc.dll in 10.0.16299. |
+| uset_openEmpty | Introduced into icuuc.dll in 10.0.16299. |
+| uset_open | Introduced into icuuc.dll in 10.0.16299. |
+| uset_openPattern | Introduced into icuuc.dll in 10.0.16299. |
+| uset_openPatternOptions | Introduced into icuuc.dll in 10.0.16299. |
+| uset_close | Introduced into icuuc.dll in 10.0.16299. |
+| uset_clone | Introduced into icuuc.dll in 10.0.16299. |
+| uset_isFrozen | Introduced into icuuc.dll in 10.0.16299. |
+| uset_freeze | Introduced into icuuc.dll in 10.0.16299. |
+| uset_cloneAsThawed | Introduced into icuuc.dll in 10.0.16299. |
+| uset_set | Introduced into icuuc.dll in 10.0.16299. |
+| uset_applyPattern | Introduced into icuuc.dll in 10.0.16299. |
+| uset_applyIntPropertyValue | Introduced into icuuc.dll in 10.0.16299. |
+| uset_applyPropertyAlias | Introduced into icuuc.dll in 10.0.16299. |
+| uset_resemblesPattern | Introduced into icuuc.dll in 10.0.16299. |
+| uset_toPattern | Introduced into icuuc.dll in 10.0.16299. |
+| uset_add | Introduced into icuuc.dll in 10.0.16299. |
+| uset_addAll | Introduced into icuuc.dll in 10.0.16299. |
+| uset_addRange | Introduced into icuuc.dll in 10.0.16299. |
+| uset_addString | Introduced into icuuc.dll in 10.0.16299. |
+| uset_addAllCodePoints | Introduced into icuuc.dll in 10.0.16299. |
+| uset_remove | Introduced into icuuc.dll in 10.0.16299. |
+| uset_removeRange | Introduced into icuuc.dll in 10.0.16299. |
+| uset_removeString | Introduced into icuuc.dll in 10.0.16299. |
+| uset_removeAll | Introduced into icuuc.dll in 10.0.16299. |
+| uset_retain | Introduced into icuuc.dll in 10.0.16299. |
+| uset_retainAll | Introduced into icuuc.dll in 10.0.16299. |
+| uset_compact | Introduced into icuuc.dll in 10.0.16299. |
+| uset_complement | Introduced into icuuc.dll in 10.0.16299. |
+| uset_complementAll | Introduced into icuuc.dll in 10.0.16299. |
+| uset_clear | Introduced into icuuc.dll in 10.0.16299. |
+| uset_closeOver | Introduced into icuuc.dll in 10.0.16299. |
+| uset_removeAllStrings | Introduced into icuuc.dll in 10.0.16299. |
+| uset_isEmpty | Introduced into icuuc.dll in 10.0.16299. |
+| uset_contains | Introduced into icuuc.dll in 10.0.16299. |
+| uset_containsRange | Introduced into icuuc.dll in 10.0.16299. |
+| uset_containsString | Introduced into icuuc.dll in 10.0.16299. |
+| uset_indexOf | Introduced into icuuc.dll in 10.0.16299. |
+| uset_charAt | Introduced into icuuc.dll in 10.0.16299. |
+| uset_size | Introduced into icuuc.dll in 10.0.16299. |
+| uset_getItemCount | Introduced into icuuc.dll in 10.0.16299. |
+| uset_getItem | Introduced into icuuc.dll in 10.0.16299. |
+| uset_containsAll | Introduced into icuuc.dll in 10.0.16299. |
+| uset_containsAllCodePoints | Introduced into icuuc.dll in 10.0.16299. |
+| uset_containsNone | Introduced into icuuc.dll in 10.0.16299. |
+| uset_containsSome | Introduced into icuuc.dll in 10.0.16299. |
+| uset_span | Introduced into icuuc.dll in 10.0.16299. |
+| uset_spanBack | Introduced into icuuc.dll in 10.0.16299. |
+| uset_spanUTF8 | Introduced into icuuc.dll in 10.0.16299. |
+| uset_spanBackUTF8 | Introduced into icuuc.dll in 10.0.16299. |
+| uset_equals | Introduced into icuuc.dll in 10.0.16299. |
+| uset_serialize | Introduced into icuuc.dll in 10.0.16299. |
+| uset_getSerializedSet | Introduced into icuuc.dll in 10.0.16299. |
+| uset_setSerializedToOne | Introduced into icuuc.dll in 10.0.16299. |
+| uset_serializedContains | Introduced into icuuc.dll in 10.0.16299. |
+| uset_getSerializedRangeCount | Introduced into icuuc.dll in 10.0.16299. |
+| uset_getSerializedRange | Introduced into icuuc.dll in 10.0.16299. |
+| unorm2_getNFCInstance | Introduced into icuuc.dll in 10.0.16299. |
+| unorm2_getNFDInstance | Introduced into icuuc.dll in 10.0.16299. |
+| unorm2_getNFKCInstance | Introduced into icuuc.dll in 10.0.16299. |
+| unorm2_getNFKDInstance | Introduced into icuuc.dll in 10.0.16299. |
+| unorm2_getNFKCCasefoldInstance | Introduced into icuuc.dll in 10.0.16299. |
+| unorm2_getInstance | Introduced into icuuc.dll in 10.0.16299. |
+| unorm2_openFiltered | Introduced into icuuc.dll in 10.0.16299. |
+| unorm2_close | Introduced into icuuc.dll in 10.0.16299. |
+| unorm2_normalize | Introduced into icuuc.dll in 10.0.16299. |
+| unorm2_normalizeSecondAndAppend | Introduced into icuuc.dll in 10.0.16299. |
+| unorm2_append | Introduced into icuuc.dll in 10.0.16299. |
+| unorm2_getDecomposition | Introduced into icuuc.dll in 10.0.16299. |
+| unorm2_getRawDecomposition | Introduced into icuuc.dll in 10.0.16299. |
+| unorm2_composePair | Introduced into icuuc.dll in 10.0.16299. |
+| unorm2_getCombiningClass | Introduced into icuuc.dll in 10.0.16299. |
+| unorm2_isNormalized | Introduced into icuuc.dll in 10.0.16299. |
+| unorm2_quickCheck | Introduced into icuuc.dll in 10.0.16299. |
+| unorm2_spanQuickCheckYes | Introduced into icuuc.dll in 10.0.16299. |
+| unorm2_hasBoundaryBefore | Introduced into icuuc.dll in 10.0.16299. |
+| unorm2_hasBoundaryAfter | Introduced into icuuc.dll in 10.0.16299. |
+| unorm2_isInert | Introduced into icuuc.dll in 10.0.16299. |
+| unorm_compare | Introduced into icuuc.dll in 10.0.16299. |
+| ucnvsel_open | Introduced into icuuc.dll in 10.0.16299. |
+| ucnvsel_close | Introduced into icuuc.dll in 10.0.16299. |
+| ucnvsel_openFromSerialized | Introduced into icuuc.dll in 10.0.16299. |
+| ucnvsel_serialize | Introduced into icuuc.dll in 10.0.16299. |
+| ucnvsel_selectForString | Introduced into icuuc.dll in 10.0.16299. |
+| ucnvsel_selectForUTF8 | Introduced into icuuc.dll in 10.0.16299. |
+| u_catopen | Introduced into icuuc.dll in 10.0.16299. |
+| u_catclose | Introduced into icuuc.dll in 10.0.16299. |
+| u_catgets | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_open | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_openSized | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_close | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_setInverse | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_isInverse | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_orderParagraphsLTR | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_isOrderParagraphsLTR | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_setReorderingMode | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_getReorderingMode | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_setReorderingOptions | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_getReorderingOptions | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_setContext | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_setPara | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_setLine | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_getDirection | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_getBaseDirection | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_getText | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_getLength | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_getParaLevel | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_countParagraphs | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_getParagraph | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_getParagraphByIndex | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_getLevelAt | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_getLevels | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_getLogicalRun | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_countRuns | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_getVisualRun | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_getVisualIndex | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_getLogicalIndex | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_getLogicalMap | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_getVisualMap | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_reorderLogical | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_reorderVisual | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_invertMap | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_getProcessedLength | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_getResultLength | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_getCustomizedClass | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_setClassCallback | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_getClassCallback | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_writeReordered | Introduced into icuuc.dll in 10.0.16299. |
+| ubidi_writeReverse | Introduced into icuuc.dll in 10.0.16299. |
+| u_charsToUChars | Introduced into icuuc.dll in 10.0.16299. |
+| u_UCharsToChars | Introduced into icuuc.dll in 10.0.16299. |
+| u_strlen | Introduced into icuuc.dll in 10.0.16299. |
+| u_countChar32 | Introduced into icuuc.dll in 10.0.16299. |
+| u_strHasMoreChar32Than | Introduced into icuuc.dll in 10.0.16299. |
+| u_strcat | Introduced into icuuc.dll in 10.0.16299. |
+| u_strncat | Introduced into icuuc.dll in 10.0.16299. |
+| u_strstr | Introduced into icuuc.dll in 10.0.16299. |
+| u_strFindFirst | Introduced into icuuc.dll in 10.0.16299. |
+| u_strchr | Introduced into icuuc.dll in 10.0.16299. |
+| u_strchr32 | Introduced into icuuc.dll in 10.0.16299. |
+| u_strrstr | Introduced into icuuc.dll in 10.0.16299. |
+| u_strFindLast | Introduced into icuuc.dll in 10.0.16299. |
+| u_strrchr | Introduced into icuuc.dll in 10.0.16299. |
+| u_strrchr32 | Introduced into icuuc.dll in 10.0.16299. |
+| u_strpbrk | Introduced into icuuc.dll in 10.0.16299. |
+| u_strcspn | Introduced into icuuc.dll in 10.0.16299. |
+| u_strspn | Introduced into icuuc.dll in 10.0.16299. |
+| u_strtok_r | Introduced into icuuc.dll in 10.0.16299. |
+| u_strcmp | Introduced into icuuc.dll in 10.0.16299. |
+| u_strcmpCodePointOrder | Introduced into icuuc.dll in 10.0.16299. |
+| u_strCompare | Introduced into icuuc.dll in 10.0.16299. |
+| u_strCompareIter | Introduced into icuuc.dll in 10.0.16299. |
+| u_strCaseCompare | Introduced into icuuc.dll in 10.0.16299. |
+| u_strncmp | Introduced into icuuc.dll in 10.0.16299. |
+| u_strncmpCodePointOrder | Introduced into icuuc.dll in 10.0.16299. |
+| u_strcasecmp | Introduced into icuuc.dll in 10.0.16299. |
+| u_strncasecmp | Introduced into icuuc.dll in 10.0.16299. |
+| u_memcasecmp | Introduced into icuuc.dll in 10.0.16299. |
+| u_strcpy | Introduced into icuuc.dll in 10.0.16299. |
+| u_strncpy | Introduced into icuuc.dll in 10.0.16299. |
+| u_uastrcpy | Introduced into icuuc.dll in 10.0.16299. |
+| u_uastrncpy | Introduced into icuuc.dll in 10.0.16299. |
+| u_austrcpy | Introduced into icuuc.dll in 10.0.16299. |
+| u_austrncpy | Introduced into icuuc.dll in 10.0.16299. |
+| u_memcpy | Introduced into icuuc.dll in 10.0.16299. |
+| u_memmove | Introduced into icuuc.dll in 10.0.16299. |
+| u_memset | Introduced into icuuc.dll in 10.0.16299. |
+| u_memcmp | Introduced into icuuc.dll in 10.0.16299. |
+| u_memcmpCodePointOrder | Introduced into icuuc.dll in 10.0.16299. |
+| u_memchr | Introduced into icuuc.dll in 10.0.16299. |
+| u_memchr32 | Introduced into icuuc.dll in 10.0.16299. |
+| u_memrchr | Introduced into icuuc.dll in 10.0.16299. |
+| u_memrchr32 | Introduced into icuuc.dll in 10.0.16299. |
+| u_unescape | Introduced into icuuc.dll in 10.0.16299. |
+| u_unescapeAt | Introduced into icuuc.dll in 10.0.16299. |
+| u_strToUpper | Introduced into icuuc.dll in 10.0.16299. |
+| u_strToLower | Introduced into icuuc.dll in 10.0.16299. |
+| u_strToTitle | Introduced into icuuc.dll in 10.0.16299. |
+| u_strFoldCase | Introduced into icuuc.dll in 10.0.16299. |
+| u_strToWCS | Introduced into icuuc.dll in 10.0.16299. |
+| u_strFromWCS | Introduced into icuuc.dll in 10.0.16299. |
+| u_strToUTF8 | Introduced into icuuc.dll in 10.0.16299. |
+| u_strFromUTF8 | Introduced into icuuc.dll in 10.0.16299. |
+| u_strToUTF8WithSub | Introduced into icuuc.dll in 10.0.16299. |
+| u_strFromUTF8WithSub | Introduced into icuuc.dll in 10.0.16299. |
+| u_strFromUTF8Lenient | Introduced into icuuc.dll in 10.0.16299. |
+| u_strToUTF32 | Introduced into icuuc.dll in 10.0.16299. |
+| u_strFromUTF32 | Introduced into icuuc.dll in 10.0.16299. |
+| u_strToUTF32WithSub | Introduced into icuuc.dll in 10.0.16299. |
+| u_strFromUTF32WithSub | Introduced into icuuc.dll in 10.0.16299. |
+| u_strToJavaModifiedUTF8 | Introduced into icuuc.dll in 10.0.16299. |
+| u_strFromJavaModifiedUTF8WithSub | Introduced into icuuc.dll in 10.0.16299. |
+| ucasemap_open | Introduced into icuuc.dll in 10.0.16299. |
+| ucasemap_close | Introduced into icuuc.dll in 10.0.16299. |
+| ucasemap_getLocale | Introduced into icuuc.dll in 10.0.16299. |
+| ucasemap_getOptions | Introduced into icuuc.dll in 10.0.16299. |
+| ucasemap_setLocale | Introduced into icuuc.dll in 10.0.16299. |
+| ucasemap_setOptions | Introduced into icuuc.dll in 10.0.16299. |
+| ucasemap_getBreakIterator | Introduced into icuuc.dll in 10.0.16299. |
+| ucasemap_setBreakIterator | Introduced into icuuc.dll in 10.0.16299. |
+| ucasemap_toTitle | Introduced into icuuc.dll in 10.0.16299. |
+| ucasemap_utf8ToLower | Introduced into icuuc.dll in 10.0.16299. |
+| ucasemap_utf8ToUpper | Introduced into icuuc.dll in 10.0.16299. |
+| ucasemap_utf8ToTitle | Introduced into icuuc.dll in 10.0.16299. |
+| ucasemap_utf8FoldCase | Introduced into icuuc.dll in 10.0.16299. |
+| usprep_open | Introduced into icuuc.dll in 10.0.16299. |
+| usprep_openByType | Introduced into icuuc.dll in 10.0.16299. |
+| usprep_close | Introduced into icuuc.dll in 10.0.16299. |
+| usprep_prepare | Introduced into icuuc.dll in 10.0.16299. |
+| uidna_openUTS46 | Introduced into icuuc.dll in 10.0.16299. |
+| uidna_close | Introduced into icuuc.dll in 10.0.16299. |
+| uidna_labelToASCII | Introduced into icuuc.dll in 10.0.16299. |
+| uidna_labelToUnicode | Introduced into icuuc.dll in 10.0.16299. |
+| uidna_nameToASCII | Introduced into icuuc.dll in 10.0.16299. |
+| uidna_nameToUnicode | Introduced into icuuc.dll in 10.0.16299. |
+| uidna_labelToASCII_UTF8 | Introduced into icuuc.dll in 10.0.16299. |
+| uidna_labelToUnicodeUTF8 | Introduced into icuuc.dll in 10.0.16299. |
+| uidna_nameToASCII_UTF8 | Introduced into icuuc.dll in 10.0.16299. |
+| uidna_nameToUnicodeUTF8 | Introduced into icuuc.dll in 10.0.16299. |
+| ubrk_open | Introduced into icuuc.dll in 10.0.16299. |
+| ubrk_openRules | Introduced into icuuc.dll in 10.0.16299. |
+| ubrk_safeClone | Introduced into icuuc.dll in 10.0.16299. |
+| ubrk_close | Introduced into icuuc.dll in 10.0.16299. |
+| ubrk_setText | Introduced into icuuc.dll in 10.0.16299. |
+| ubrk_setUText | Introduced into icuuc.dll in 10.0.16299. |
+| ubrk_current | Introduced into icuuc.dll in 10.0.16299. |
+| ubrk_next | Introduced into icuuc.dll in 10.0.16299. |
+| ubrk_previous | Introduced into icuuc.dll in 10.0.16299. |
+| ubrk_first | Introduced into icuuc.dll in 10.0.16299. |
+| ubrk_last | Introduced into icuuc.dll in 10.0.16299. |
+| ubrk_preceding | Introduced into icuuc.dll in 10.0.16299. |
+| ubrk_following | Introduced into icuuc.dll in 10.0.16299. |
+| ubrk_getAvailable | Introduced into icuuc.dll in 10.0.16299. |
+| ubrk_countAvailable | Introduced into icuuc.dll in 10.0.16299. |
+| ubrk_isBoundary | Introduced into icuuc.dll in 10.0.16299. |
+| ubrk_getRuleStatus | Introduced into icuuc.dll in 10.0.16299. |
+| ubrk_getRuleStatusVec | Introduced into icuuc.dll in 10.0.16299. |
+| ubrk_getLocaleByType | Introduced into icuuc.dll in 10.0.16299. |
+| ubrk_refreshUText | Introduced into icuuc.dll in 10.0.16299. |
+| u_getDataVersion | Introduced into icuuc.dll in 10.0.16299. |
+| ubiditransform_close | Introduced into icuuc.dll in 10.0.17763. |
+| ubiditransform_open | Introduced into icuuc.dll in 10.0.17763. |
+| ubiditransform_transform | Introduced into icuuc.dll in 10.0.17763. |
+| ubrk_openBinaryRules | Introduced into icuuc.dll in 10.0.17763. |
+| ubrk_getBinaryRules | Introduced into icuuc.dll in 10.0.17763. |
+
+
+## APIs from icuin.dll
+
+| API | Requirements |
+| -----| --------------|
+| ucal_openTimeZoneIDEnumeration | Introduced into icuin.dll in 10.0.16299. |
+| ucal_openTimeZones | Introduced into icuin.dll in 10.0.16299. |
+| ucal_openCountryTimeZones | Introduced into icuin.dll in 10.0.16299. |
+| ucal_getDefaultTimeZone | Introduced into icuin.dll in 10.0.16299. |
+| ucal_setDefaultTimeZone | Introduced into icuin.dll in 10.0.16299. |
+| ucal_getDSTSavings | Introduced into icuin.dll in 10.0.16299. |
+| ucal_getNow | Introduced into icuin.dll in 10.0.16299. |
+| ucal_open | Introduced into icuin.dll in 10.0.16299. |
+| ucal_close | Introduced into icuin.dll in 10.0.16299. |
+| ucal_clone | Introduced into icuin.dll in 10.0.16299. |
+| ucal_setTimeZone | Introduced into icuin.dll in 10.0.16299. |
+| ucal_getTimeZoneID | Introduced into icuin.dll in 10.0.16299. |
+| ucal_getTimeZoneDisplayName | Introduced into icuin.dll in 10.0.16299. |
+| ucal_inDaylightTime | Introduced into icuin.dll in 10.0.16299. |
+| ucal_setGregorianChange | Introduced into icuin.dll in 10.0.16299. |
+| ucal_getGregorianChange | Introduced into icuin.dll in 10.0.16299. |
+| ucal_getAttribute | Introduced into icuin.dll in 10.0.16299. |
+| ucal_setAttribute | Introduced into icuin.dll in 10.0.16299. |
+| ucal_getAvailable | Introduced into icuin.dll in 10.0.16299. |
+| ucal_countAvailable | Introduced into icuin.dll in 10.0.16299. |
+| ucal_getMillis | Introduced into icuin.dll in 10.0.16299. |
+| ucal_setMillis | Introduced into icuin.dll in 10.0.16299. |
+| ucal_setDate | Introduced into icuin.dll in 10.0.16299. |
+| ucal_setDateTime | Introduced into icuin.dll in 10.0.16299. |
+| ucal_equivalentTo | Introduced into icuin.dll in 10.0.16299. |
+| ucal_add | Introduced into icuin.dll in 10.0.16299. |
+| ucal_roll | Introduced into icuin.dll in 10.0.16299. |
+| ucal_get | Introduced into icuin.dll in 10.0.16299. |
+| ucal_set | Introduced into icuin.dll in 10.0.16299. |
+| ucal_isSet | Introduced into icuin.dll in 10.0.16299. |
+| ucal_clearField | Introduced into icuin.dll in 10.0.16299. |
+| ucal_clear | Introduced into icuin.dll in 10.0.16299. |
+| ucal_getLimit | Introduced into icuin.dll in 10.0.16299. |
+| ucal_getLocaleByType | Introduced into icuin.dll in 10.0.16299. |
+| ucal_getTZDataVersion | Introduced into icuin.dll in 10.0.16299. |
+| ucal_getCanonicalTimeZoneID | Introduced into icuin.dll in 10.0.16299. |
+| ucal_getType | Introduced into icuin.dll in 10.0.16299. |
+| ucal_getKeywordValuesForLocale | Introduced into icuin.dll in 10.0.16299. |
+| ucal_getDayOfWeekType | Introduced into icuin.dll in 10.0.16299. |
+| ucal_getWeekendTransition | Introduced into icuin.dll in 10.0.16299. |
+| ucal_isWeekend | Introduced into icuin.dll in 10.0.16299. |
+| ucal_getFieldDifference | Introduced into icuin.dll in 10.0.16299. |
+| ucal_getTimeZoneTransitionDate | Introduced into icuin.dll in 10.0.16299. |
+| ucal_getWindowsTimeZoneID | Introduced into icuin.dll in 10.0.16299. |
+| ucal_getTimeZoneIDForWindowsID | Introduced into icuin.dll in 10.0.16299. |
+| ucol_open | Introduced into icuin.dll in 10.0.16299. |
+| ucol_openRules | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getContractionsAndExpansions | Introduced into icuin.dll in 10.0.16299. |
+| ucol_close | Introduced into icuin.dll in 10.0.16299. |
+| ucol_strcoll | Introduced into icuin.dll in 10.0.16299. |
+| ucol_strcollUTF8 | Introduced into icuin.dll in 10.0.16299. |
+| ucol_greater | Introduced into icuin.dll in 10.0.16299. |
+| ucol_greaterOrEqual | Introduced into icuin.dll in 10.0.16299. |
+| ucol_equal | Introduced into icuin.dll in 10.0.16299. |
+| ucol_strcollIter | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getStrength | Introduced into icuin.dll in 10.0.16299. |
+| ucol_setStrength | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getReorderCodes | Introduced into icuin.dll in 10.0.16299. |
+| ucol_setReorderCodes | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getEquivalentReorderCodes | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getDisplayName | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getAvailable | Introduced into icuin.dll in 10.0.16299. |
+| ucol_countAvailable | Introduced into icuin.dll in 10.0.16299. |
+| ucol_openAvailableLocales | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getKeywords | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getKeywordValues | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getKeywordValuesForLocale | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getFunctionalEquivalent | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getRules | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getSortKey | Introduced into icuin.dll in 10.0.16299. |
+| ucol_nextSortKeyPart | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getBound | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getVersion | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getUCAVersion | Introduced into icuin.dll in 10.0.16299. |
+| ucol_mergeSortkeys | Introduced into icuin.dll in 10.0.16299. |
+| ucol_setAttribute | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getAttribute | Introduced into icuin.dll in 10.0.16299. |
+| ucol_setMaxVariable | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getMaxVariable | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getVariableTop | Introduced into icuin.dll in 10.0.16299. |
+| ucol_safeClone | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getRulesEx | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getLocaleByType | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getTailoredSet | Introduced into icuin.dll in 10.0.16299. |
+| ucol_cloneBinary | Introduced into icuin.dll in 10.0.16299. |
+| ucol_openBinary | Introduced into icuin.dll in 10.0.16299. |
+| ucol_openElements | Introduced into icuin.dll in 10.0.16299. |
+| ucol_keyHashCode | Introduced into icuin.dll in 10.0.16299. |
+| ucol_closeElements | Introduced into icuin.dll in 10.0.16299. |
+| ucol_reset | Introduced into icuin.dll in 10.0.16299. |
+| ucol_next | Introduced into icuin.dll in 10.0.16299. |
+| ucol_previous | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getMaxExpansion | Introduced into icuin.dll in 10.0.16299. |
+| ucol_setText | Introduced into icuin.dll in 10.0.16299. |
+| ucol_getOffset | Introduced into icuin.dll in 10.0.16299. |
+| ucol_setOffset | Introduced into icuin.dll in 10.0.16299. |
+| ucol_primaryOrder | Introduced into icuin.dll in 10.0.16299. |
+| ucol_secondaryOrder | Introduced into icuin.dll in 10.0.16299. |
+| ucol_tertiaryOrder | Introduced into icuin.dll in 10.0.16299. |
+| ucsdet_open | Introduced into icuin.dll in 10.0.16299. |
+| ucsdet_close | Introduced into icuin.dll in 10.0.16299. |
+| ucsdet_setText | Introduced into icuin.dll in 10.0.16299. |
+| ucsdet_setDeclaredEncoding | Introduced into icuin.dll in 10.0.16299. |
+| ucsdet_detect | Introduced into icuin.dll in 10.0.16299. |
+| ucsdet_detectAll | Introduced into icuin.dll in 10.0.16299. |
+| ucsdet_getName | Introduced into icuin.dll in 10.0.16299. |
+| ucsdet_getConfidence | Introduced into icuin.dll in 10.0.16299. |
+| ucsdet_getLanguage | Introduced into icuin.dll in 10.0.16299. |
+| ucsdet_getUChars | Introduced into icuin.dll in 10.0.16299. |
+| ucsdet_getAllDetectableCharsets | Introduced into icuin.dll in 10.0.16299. |
+| ucsdet_isInputFilterEnabled | Introduced into icuin.dll in 10.0.16299. |
+| ucsdet_enableInputFilter | Introduced into icuin.dll in 10.0.16299. |
+| udtitvfmt_open | Introduced into icuin.dll in 10.0.16299. |
+| udtitvfmt_close | Introduced into icuin.dll in 10.0.16299. |
+| udtitvfmt_format | Introduced into icuin.dll in 10.0.16299. |
+| udatpg_open | Introduced into icuin.dll in 10.0.16299. |
+| udatpg_openEmpty | Introduced into icuin.dll in 10.0.16299. |
+| udatpg_close | Introduced into icuin.dll in 10.0.16299. |
+| udatpg_clone | Introduced into icuin.dll in 10.0.16299. |
+| udatpg_getBestPattern | Introduced into icuin.dll in 10.0.16299. |
+| udatpg_getBestPatternWithOptions | Introduced into icuin.dll in 10.0.16299. |
+| udatpg_getSkeleton | Introduced into icuin.dll in 10.0.16299. |
+| udatpg_getBaseSkeleton | Introduced into icuin.dll in 10.0.16299. |
+| udatpg_addPattern | Introduced into icuin.dll in 10.0.16299. |
+| udatpg_setAppendItemFormat | Introduced into icuin.dll in 10.0.16299. |
+| udatpg_getAppendItemFormat | Introduced into icuin.dll in 10.0.16299. |
+| udatpg_setAppendItemName | Introduced into icuin.dll in 10.0.16299. |
+| udatpg_getAppendItemName | Introduced into icuin.dll in 10.0.16299. |
+| udatpg_setDateTimeFormat | Introduced into icuin.dll in 10.0.16299. |
+| udatpg_getDateTimeFormat | Introduced into icuin.dll in 10.0.16299. |
+| udatpg_setDecimal | Introduced into icuin.dll in 10.0.16299. |
+| udatpg_getDecimal | Introduced into icuin.dll in 10.0.16299. |
+| udatpg_replaceFieldTypes | Introduced into icuin.dll in 10.0.16299. |
+| udatpg_replaceFieldTypesWithOptions | Introduced into icuin.dll in 10.0.16299. |
+| udatpg_openSkeletons | Introduced into icuin.dll in 10.0.16299. |
+| udatpg_openBaseSkeletons | Introduced into icuin.dll in 10.0.16299. |
+| udatpg_getPatternForSkeleton | Introduced into icuin.dll in 10.0.16299. |
+| ufieldpositer_open | Introduced into icuin.dll in 10.0.16299. |
+| ufieldpositer_close | Introduced into icuin.dll in 10.0.16299. |
+| ufieldpositer_next | Introduced into icuin.dll in 10.0.16299. |
+| ufmt_open | Introduced into icuin.dll in 10.0.16299. |
+| ufmt_close | Introduced into icuin.dll in 10.0.16299. |
+| ufmt_getType | Introduced into icuin.dll in 10.0.16299. |
+| ufmt_isNumeric | Introduced into icuin.dll in 10.0.16299. |
+| ufmt_getDate | Introduced into icuin.dll in 10.0.16299. |
+| ufmt_getDouble | Introduced into icuin.dll in 10.0.16299. |
+| ufmt_getLong | Introduced into icuin.dll in 10.0.16299. |
+| ufmt_getInt64 | Introduced into icuin.dll in 10.0.16299. |
+| ufmt_getObject | Introduced into icuin.dll in 10.0.16299. |
+| ufmt_getUChars | Introduced into icuin.dll in 10.0.16299. |
+| ufmt_getArrayLength | Introduced into icuin.dll in 10.0.16299. |
+| ufmt_getArrayItemByIndex | Introduced into icuin.dll in 10.0.16299. |
+| ufmt_getDecNumChars | Introduced into icuin.dll in 10.0.16299. |
+| ugender_getInstance | Introduced into icuin.dll in 10.0.16299. |
+| ugender_getListGender | Introduced into icuin.dll in 10.0.16299. |
+| ulocdata_open | Introduced into icuin.dll in 10.0.16299. |
+| ulocdata_close | Introduced into icuin.dll in 10.0.16299. |
+| ulocdata_setNoSubstitute | Introduced into icuin.dll in 10.0.16299. |
+| ulocdata_getNoSubstitute | Introduced into icuin.dll in 10.0.16299. |
+| ulocdata_getExemplarSet | Introduced into icuin.dll in 10.0.16299. |
+| ulocdata_getDelimiter | Introduced into icuin.dll in 10.0.16299. |
+| ulocdata_getMeasurementSystem | Introduced into icuin.dll in 10.0.16299. |
+| ulocdata_getPaperSize | Introduced into icuin.dll in 10.0.16299. |
+| ulocdata_getCLDRVersion | Introduced into icuin.dll in 10.0.16299. |
+| ulocdata_getLocaleDisplayPattern | Introduced into icuin.dll in 10.0.16299. |
+| ulocdata_getLocaleSeparator | Introduced into icuin.dll in 10.0.16299. |
+| u_formatMessage | Introduced into icuin.dll in 10.0.16299. |
+| u_vformatMessage | Introduced into icuin.dll in 10.0.16299. |
+| u_parseMessage | Introduced into icuin.dll in 10.0.16299. |
+| u_vparseMessage | Introduced into icuin.dll in 10.0.16299. |
+| u_formatMessageWithError | Introduced into icuin.dll in 10.0.16299. |
+| u_vformatMessageWithError | Introduced into icuin.dll in 10.0.16299. |
+| u_parseMessageWithError | Introduced into icuin.dll in 10.0.16299. |
+| u_vparseMessageWithError | Introduced into icuin.dll in 10.0.16299. |
+| umsg_open | Introduced into icuin.dll in 10.0.16299. |
+| umsg_close | Introduced into icuin.dll in 10.0.16299. |
+| umsg_clone | Introduced into icuin.dll in 10.0.16299. |
+| umsg_setLocale | Introduced into icuin.dll in 10.0.16299. |
+| umsg_getLocale | Introduced into icuin.dll in 10.0.16299. |
+| umsg_applyPattern | Introduced into icuin.dll in 10.0.16299. |
+| umsg_toPattern | Introduced into icuin.dll in 10.0.16299. |
+| umsg_format | Introduced into icuin.dll in 10.0.16299. |
+| umsg_vformat | Introduced into icuin.dll in 10.0.16299. |
+| umsg_parse | Introduced into icuin.dll in 10.0.16299. |
+| umsg_vparse | Introduced into icuin.dll in 10.0.16299. |
+| umsg_autoQuoteApostrophe | Introduced into icuin.dll in 10.0.16299. |
+| unum_open | Introduced into icuin.dll in 10.0.16299. |
+| unum_close | Introduced into icuin.dll in 10.0.16299. |
+| unum_clone | Introduced into icuin.dll in 10.0.16299. |
+| unum_format | Introduced into icuin.dll in 10.0.16299. |
+| unum_formatInt64 | Introduced into icuin.dll in 10.0.16299. |
+| unum_formatDouble | Introduced into icuin.dll in 10.0.16299. |
+| unum_formatDecimal | Introduced into icuin.dll in 10.0.16299. |
+| unum_formatDoubleCurrency | Introduced into icuin.dll in 10.0.16299. |
+| unum_formatUFormattable | Introduced into icuin.dll in 10.0.16299. |
+| unum_parse | Introduced into icuin.dll in 10.0.16299. |
+| unum_parseInt64 | Introduced into icuin.dll in 10.0.16299. |
+| unum_parseDouble | Introduced into icuin.dll in 10.0.16299. |
+| unum_parseDecimal | Introduced into icuin.dll in 10.0.16299. |
+| unum_parseDoubleCurrency | Introduced into icuin.dll in 10.0.16299. |
+| unum_parseToUFormattable | Introduced into icuin.dll in 10.0.16299. |
+| unum_applyPattern | Introduced into icuin.dll in 10.0.16299. |
+| unum_getAvailable | Introduced into icuin.dll in 10.0.16299. |
+| unum_countAvailable | Introduced into icuin.dll in 10.0.16299. |
+| unum_getAttribute | Introduced into icuin.dll in 10.0.16299. |
+| unum_setAttribute | Introduced into icuin.dll in 10.0.16299. |
+| unum_getDoubleAttribute | Introduced into icuin.dll in 10.0.16299. |
+| unum_setDoubleAttribute | Introduced into icuin.dll in 10.0.16299. |
+| unum_getTextAttribute | Introduced into icuin.dll in 10.0.16299. |
+| unum_setTextAttribute | Introduced into icuin.dll in 10.0.16299. |
+| unum_toPattern | Introduced into icuin.dll in 10.0.16299. |
+| unum_getSymbol | Introduced into icuin.dll in 10.0.16299. |
+| unum_setSymbol | Introduced into icuin.dll in 10.0.16299. |
+| unum_getLocaleByType | Introduced into icuin.dll in 10.0.16299. |
+| unum_setContext | Introduced into icuin.dll in 10.0.16299. |
+| unum_getContext | Introduced into icuin.dll in 10.0.16299. |
+| udat_toCalendarDateField | Introduced into icuin.dll in 10.0.16299. |
+| udat_open | Introduced into icuin.dll in 10.0.16299. |
+| udat_close | Introduced into icuin.dll in 10.0.16299. |
+| udat_getBooleanAttribute | Introduced into icuin.dll in 10.0.16299. |
+| udat_setBooleanAttribute | Introduced into icuin.dll in 10.0.16299. |
+| udat_clone | Introduced into icuin.dll in 10.0.16299. |
+| udat_format | Introduced into icuin.dll in 10.0.16299. |
+| udat_formatCalendar | Introduced into icuin.dll in 10.0.16299. |
+| udat_formatForFields | Introduced into icuin.dll in 10.0.16299. |
+| udat_formatCalendarForFields | Introduced into icuin.dll in 10.0.16299. |
+| udat_parse | Introduced into icuin.dll in 10.0.16299. |
+| udat_parseCalendar | Introduced into icuin.dll in 10.0.16299. |
+| udat_isLenient | Introduced into icuin.dll in 10.0.16299. |
+| udat_setLenient | Introduced into icuin.dll in 10.0.16299. |
+| udat_getCalendar | Introduced into icuin.dll in 10.0.16299. |
+| udat_setCalendar | Introduced into icuin.dll in 10.0.16299. |
+| udat_getNumberFormat | Introduced into icuin.dll in 10.0.16299. |
+| udat_getNumberFormatForField | Introduced into icuin.dll in 10.0.16299. |
+| udat_adoptNumberFormatForFields | Introduced into icuin.dll in 10.0.16299. |
+| udat_setNumberFormat | Introduced into icuin.dll in 10.0.16299. |
+| udat_adoptNumberFormat | Introduced into icuin.dll in 10.0.16299. |
+| udat_getAvailable | Introduced into icuin.dll in 10.0.16299. |
+| udat_countAvailable | Introduced into icuin.dll in 10.0.16299. |
+| udat_get2DigitYearStart | Introduced into icuin.dll in 10.0.16299. |
+| udat_set2DigitYearStart | Introduced into icuin.dll in 10.0.16299. |
+| udat_toPattern | Introduced into icuin.dll in 10.0.16299. |
+| udat_applyPattern | Introduced into icuin.dll in 10.0.16299. |
+| udat_getSymbols | Introduced into icuin.dll in 10.0.16299. |
+| udat_countSymbols | Introduced into icuin.dll in 10.0.16299. |
+| udat_setSymbols | Introduced into icuin.dll in 10.0.16299. |
+| udat_getLocaleByType | Introduced into icuin.dll in 10.0.16299. |
+| udat_setContext | Introduced into icuin.dll in 10.0.16299. |
+| udat_getContext | Introduced into icuin.dll in 10.0.16299. |
+| unumsys_open | Introduced into icuin.dll in 10.0.16299. |
+| unumsys_openByName | Introduced into icuin.dll in 10.0.16299. |
+| unumsys_close | Introduced into icuin.dll in 10.0.16299. |
+| unumsys_openAvailableNames | Introduced into icuin.dll in 10.0.16299. |
+| unumsys_getName | Introduced into icuin.dll in 10.0.16299. |
+| unumsys_isAlgorithmic | Introduced into icuin.dll in 10.0.16299. |
+| unumsys_getRadix | Introduced into icuin.dll in 10.0.16299. |
+| unumsys_getDescription | Introduced into icuin.dll in 10.0.16299. |
+| uplrules_open | Introduced into icuin.dll in 10.0.16299. |
+| uplrules_openForType | Introduced into icuin.dll in 10.0.16299. |
+| uplrules_close | Introduced into icuin.dll in 10.0.16299. |
+| uplrules_select | Introduced into icuin.dll in 10.0.16299. |
+| ureldatefmt_open | Introduced into icuin.dll in 10.0.16299. |
+| ureldatefmt_close | Introduced into icuin.dll in 10.0.16299. |
+| ureldatefmt_formatNumeric | Introduced into icuin.dll in 10.0.16299. |
+| ureldatefmt_format | Introduced into icuin.dll in 10.0.16299. |
+| ureldatefmt_combineDateAndTime | Introduced into icuin.dll in 10.0.16299. |
+| uregex_open | Introduced into icuin.dll in 10.0.16299. |
+| uregex_openUText | Introduced into icuin.dll in 10.0.16299. |
+| uregex_openC | Introduced into icuin.dll in 10.0.16299. |
+| uregex_close | Introduced into icuin.dll in 10.0.16299. |
+| uregex_clone | Introduced into icuin.dll in 10.0.16299. |
+| uregex_pattern | Introduced into icuin.dll in 10.0.16299. |
+| uregex_patternUText | Introduced into icuin.dll in 10.0.16299. |
+| uregex_flags | Introduced into icuin.dll in 10.0.16299. |
+| uregex_setText | Introduced into icuin.dll in 10.0.16299. |
+| uregex_setUText | Introduced into icuin.dll in 10.0.16299. |
+| uregex_getText | Introduced into icuin.dll in 10.0.16299. |
+| uregex_getUText | Introduced into icuin.dll in 10.0.16299. |
+| uregex_refreshUText | Introduced into icuin.dll in 10.0.16299. |
+| uregex_matches | Introduced into icuin.dll in 10.0.16299. |
+| uregex_matches64 | Introduced into icuin.dll in 10.0.16299. |
+| uregex_lookingAt | Introduced into icuin.dll in 10.0.16299. |
+| uregex_lookingAt64 | Introduced into icuin.dll in 10.0.16299. |
+| uregex_find | Introduced into icuin.dll in 10.0.16299. |
+| uregex_find64 | Introduced into icuin.dll in 10.0.16299. |
+| uregex_findNext | Introduced into icuin.dll in 10.0.16299. |
+| uregex_groupCount | Introduced into icuin.dll in 10.0.16299. |
+| uregex_groupNumberFromName | Introduced into icuin.dll in 10.0.16299. |
+| uregex_groupNumberFromCName | Introduced into icuin.dll in 10.0.16299. |
+| uregex_group | Introduced into icuin.dll in 10.0.16299. |
+| uregex_groupUText | Introduced into icuin.dll in 10.0.16299. |
+| uregex_start | Introduced into icuin.dll in 10.0.16299. |
+| uregex_start64 | Introduced into icuin.dll in 10.0.16299. |
+| uregex_end | Introduced into icuin.dll in 10.0.16299. |
+| uregex_end64 | Introduced into icuin.dll in 10.0.16299. |
+| uregex_reset | Introduced into icuin.dll in 10.0.16299. |
+| uregex_reset64 | Introduced into icuin.dll in 10.0.16299. |
+| uregex_setRegion | Introduced into icuin.dll in 10.0.16299. |
+| uregex_setRegion64 | Introduced into icuin.dll in 10.0.16299. |
+| uregex_setRegionAndStart | Introduced into icuin.dll in 10.0.16299. |
+| uregex_regionStart | Introduced into icuin.dll in 10.0.16299. |
+| uregex_regionStart64 | Introduced into icuin.dll in 10.0.16299. |
+| uregex_regionEnd | Introduced into icuin.dll in 10.0.16299. |
+| uregex_regionEnd64 | Introduced into icuin.dll in 10.0.16299. |
+| uregex_hasTransparentBounds | Introduced into icuin.dll in 10.0.16299. |
+| uregex_useTransparentBounds | Introduced into icuin.dll in 10.0.16299. |
+| uregex_hasAnchoringBounds | Introduced into icuin.dll in 10.0.16299. |
+| uregex_useAnchoringBounds | Introduced into icuin.dll in 10.0.16299. |
+| uregex_hitEnd | Introduced into icuin.dll in 10.0.16299. |
+| uregex_requireEnd | Introduced into icuin.dll in 10.0.16299. |
+| uregex_replaceAll | Introduced into icuin.dll in 10.0.16299. |
+| uregex_replaceAllUText | Introduced into icuin.dll in 10.0.16299. |
+| uregex_replaceFirst | Introduced into icuin.dll in 10.0.16299. |
+| uregex_replaceFirstUText | Introduced into icuin.dll in 10.0.16299. |
+| uregex_appendReplacement | Introduced into icuin.dll in 10.0.16299. |
+| uregex_appendReplacementUText | Introduced into icuin.dll in 10.0.16299. |
+| uregex_appendTail | Introduced into icuin.dll in 10.0.16299. |
+| uregex_appendTailUText | Introduced into icuin.dll in 10.0.16299. |
+| uregex_split | Introduced into icuin.dll in 10.0.16299. |
+| uregex_splitUText | Introduced into icuin.dll in 10.0.16299. |
+| uregex_setTimeLimit | Introduced into icuin.dll in 10.0.16299. |
+| uregex_getTimeLimit | Introduced into icuin.dll in 10.0.16299. |
+| uregex_setStackLimit | Introduced into icuin.dll in 10.0.16299. |
+| uregex_getStackLimit | Introduced into icuin.dll in 10.0.16299. |
+| uregex_setMatchCallback | Introduced into icuin.dll in 10.0.16299. |
+| uregex_getMatchCallback | Introduced into icuin.dll in 10.0.16299. |
+| uregex_setFindProgressCallback | Introduced into icuin.dll in 10.0.16299. |
+| uregex_getFindProgressCallback | Introduced into icuin.dll in 10.0.16299. |
+| uregion_getRegionFromCode | Introduced into icuin.dll in 10.0.16299. |
+| uregion_getRegionFromNumericCode | Introduced into icuin.dll in 10.0.16299. |
+| uregion_getAvailable | Introduced into icuin.dll in 10.0.16299. |
+| uregion_areEqual | Introduced into icuin.dll in 10.0.16299. |
+| uregion_getContainingRegion | Introduced into icuin.dll in 10.0.16299. |
+| uregion_getContainingRegionOfType | Introduced into icuin.dll in 10.0.16299. |
+| uregion_getContainedRegions | Introduced into icuin.dll in 10.0.16299. |
+| uregion_getContainedRegionsOfType | Introduced into icuin.dll in 10.0.16299. |
+| uregion_contains | Introduced into icuin.dll in 10.0.16299. |
+| uregion_getPreferredValues | Introduced into icuin.dll in 10.0.16299. |
+| uregion_getRegionCode | Introduced into icuin.dll in 10.0.16299. |
+| uregion_getNumericCode | Introduced into icuin.dll in 10.0.16299. |
+| uregion_getType | Introduced into icuin.dll in 10.0.16299. |
+| usearch_open | Introduced into icuin.dll in 10.0.16299. |
+| usearch_openFromCollator | Introduced into icuin.dll in 10.0.16299. |
+| usearch_close | Introduced into icuin.dll in 10.0.16299. |
+| usearch_setOffset | Introduced into icuin.dll in 10.0.16299. |
+| usearch_getOffset | Introduced into icuin.dll in 10.0.16299. |
+| usearch_setAttribute | Introduced into icuin.dll in 10.0.16299. |
+| usearch_getAttribute | Introduced into icuin.dll in 10.0.16299. |
+| usearch_getMatchedStart | Introduced into icuin.dll in 10.0.16299. |
+| usearch_getMatchedLength | Introduced into icuin.dll in 10.0.16299. |
+| usearch_getMatchedText | Introduced into icuin.dll in 10.0.16299. |
+| usearch_setBreakIterator | Introduced into icuin.dll in 10.0.16299. |
+| usearch_getBreakIterator | Introduced into icuin.dll in 10.0.16299. |
+| usearch_setText | Introduced into icuin.dll in 10.0.16299. |
+| usearch_getText | Introduced into icuin.dll in 10.0.16299. |
+| usearch_getCollator | Introduced into icuin.dll in 10.0.16299. |
+| usearch_setCollator | Introduced into icuin.dll in 10.0.16299. |
+| usearch_setPattern | Introduced into icuin.dll in 10.0.16299. |
+| usearch_getPattern | Introduced into icuin.dll in 10.0.16299. |
+| usearch_first | Introduced into icuin.dll in 10.0.16299. |
+| usearch_following | Introduced into icuin.dll in 10.0.16299. |
+| usearch_last | Introduced into icuin.dll in 10.0.16299. |
+| usearch_preceding | Introduced into icuin.dll in 10.0.16299. |
+| usearch_next | Introduced into icuin.dll in 10.0.16299. |
+| usearch_previous | Introduced into icuin.dll in 10.0.16299. |
+| usearch_reset | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_open | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_openFromSerialized | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_openFromSource | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_close | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_clone | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_setChecks | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_getChecks | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_setRestrictionLevel | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_getRestrictionLevel | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_setAllowedLocales | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_getAllowedLocales | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_setAllowedChars | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_getAllowedChars | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_check | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_checkUTF8 | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_areConfusable | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_areConfusableUTF8 | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_getSkeleton | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_getSkeletonUTF8 | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_getInclusionSet | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_getRecommendedSet | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_serialize | Introduced into icuin.dll in 10.0.16299. |
+| utmscale_getTimeScaleValue | Introduced into icuin.dll in 10.0.16299. |
+| utmscale_fromInt64 | Introduced into icuin.dll in 10.0.16299. |
+| utmscale_toInt64 | Introduced into icuin.dll in 10.0.16299. |
+| utrans_openU | Introduced into icuin.dll in 10.0.16299. |
+| utrans_openInverse | Introduced into icuin.dll in 10.0.16299. |
+| utrans_clone | Introduced into icuin.dll in 10.0.16299. |
+| utrans_close | Introduced into icuin.dll in 10.0.16299. |
+| utrans_getUnicodeID | Introduced into icuin.dll in 10.0.16299. |
+| utrans_register | Introduced into icuin.dll in 10.0.16299. |
+| utrans_unregisterID | Introduced into icuin.dll in 10.0.16299. |
+| utrans_setFilter | Introduced into icuin.dll in 10.0.16299. |
+| utrans_countAvailableIDs | Introduced into icuin.dll in 10.0.16299. |
+| utrans_openIDs | Introduced into icuin.dll in 10.0.16299. |
+| utrans_trans | Introduced into icuin.dll in 10.0.16299. |
+| utrans_transIncremental | Introduced into icuin.dll in 10.0.16299. |
+| utrans_transUChars | Introduced into icuin.dll in 10.0.16299. |
+| utrans_transIncrementalUChars | Introduced into icuin.dll in 10.0.16299. |
+| utrans_toRules | Introduced into icuin.dll in 10.0.16299. |
+| utrans_getSourceSet | Introduced into icuin.dll in 10.0.16299. |
+| uspoof_check2 | Introduced into icuin.dll in 10.0.17763. |
+| uspoof_check2UTF8 | Introduced into icuin.dll in 10.0.17763. |
+| uspoof_closeCheckResult | Introduced into icuin.dll in 10.0.17763. |
+| uspoof_getCheckResultChecks | Introduced into icuin.dll in 10.0.17763. |
+| uspoof_getCheckResultNumerics | Introduced into icuin.dll in 10.0.17763. |
+| uspoof_getCheckResultRestrictionLevel | Introduced into icuin.dll in 10.0.17763. |
+| uspoof_openCheckResult | Introduced into icuin.dll in 10.0.17763. |
+| unum_formatDoubleForFields | Introduced into icuin.dll in 10.0.17763. |
+| uplrules_getKeywords | Introduced into icuin.dll in 10.0.17763. |
 
 
 ## APIs from api-ms-win-core-namedpipe-ansi-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CallNamedPipe](https://msdn.microsoft.com/en-us/library/Aa365144.aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-1.dll in 10.0.16299. |
+| [CallNamedPipe](https://msdn.microsoft.com/en-us/library/Aa365144(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from crypt32.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CertGetNameString](https://msdn.microsoft.com/en-us/library/ms883865.aspx) | Introduced into crypt32.dll in 10.0.16299. |
-| [CertNameToStr](https://msdn.microsoft.com/en-us/library/ms883889.aspx) | Introduced into crypt32.dll in 10.0.16299. |
-| [CertRDNValueToStr](https://msdn.microsoft.com/en-us/library/ms883906.aspx) | Introduced into crypt32.dll in 10.0.16299. |
-| [CertStrToName](https://msdn.microsoft.com/en-us/library/ms883934.aspx) | Introduced into crypt32.dll in 10.0.16299. |
-| [CryptBinaryToString](https://msdn.microsoft.com/en-us/library/Aa379887.aspx) | Introduced into crypt32.dll in 10.0.16299. |
-| [CryptStringToBinary](https://msdn.microsoft.com/en-us/library/Aa380285.aspx) | Introduced into crypt32.dll in 10.0.16299. |
+| [CertGetNameString](https://msdn.microsoft.com/en-us/library/Aa376086(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CertNameToStr](https://msdn.microsoft.com/en-us/library/Aa376556(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CertRDNValueToStr](https://msdn.microsoft.com/en-us/library/Aa376561(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CertStrToName](https://msdn.microsoft.com/en-us/library/Aa377160(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CryptBinaryToString](https://msdn.microsoft.com/en-us/library/Aa379887(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CryptStringToBinary](https://msdn.microsoft.com/en-us/library/Aa380285(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-downlevel-advapi32-l2-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [ControlTrace](https://msdn.microsoft.com/en-us/library/Aa363696.aspx) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. |
-| [ConvertSecurityDescriptorToStringSecurityDescriptor](https://msdn.microsoft.com/en-us/library/Aa376397.aspx) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. |
-| [OpenTrace](https://msdn.microsoft.com/en-us/library/Aa364089.aspx) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. |
-| [StartTrace](https://msdn.microsoft.com/en-us/library/Aa364117.aspx) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. |
-| [StopTrace](https://msdn.microsoft.com/en-us/library/Aa364119.aspx) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. |
+| [ControlTrace](https://msdn.microsoft.com/en-us/library/windows/desktop/aa363696.aspx) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [ConvertSecurityDescriptorToStringSecurityDescriptor](https://msdn.microsoft.com/en-us/library/Aa376397(v=VS.85).aspx) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-security-sddl-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [OpenTrace](https://msdn.microsoft.com/en-us/library/windows/desktop/aa364089.aspx) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-eventing-consumer-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-eventing-consumer-l1-1-1.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [StartTrace](https://msdn.microsoft.com/en-us/library/windows/desktop/aa364117.aspx) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [StopTrace](https://msdn.microsoft.com/en-us/library/windows/desktop/aa364119.aspx) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-security-sddl-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [ConvertSidToStringSid](https://msdn.microsoft.com/en-us/library/Aa376399.aspx) | Introduced into api-ms-win-security-sddl-ansi-l1-1-0.dll in 10.0.16299. |
-| [ConvertStringSidToSid](https://msdn.microsoft.com/en-us/library/Aa376402.aspx) | Introduced into api-ms-win-security-sddl-ansi-l1-1-0.dll in 10.0.16299. |
+| [ConvertSidToStringSid](https://msdn.microsoft.com/en-us/library/Aa376399(v=VS.85).aspx) | Introduced into api-ms-win-security-sddl-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-security-sddl-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [ConvertStringSidToSid](https://msdn.microsoft.com/en-us/library/Aa376402(v=VS.85).aspx) | Introduced into api-ms-win-security-sddl-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-security-sddl-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-kernel32-legacy-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CopyFile](https://msdn.microsoft.com/en-us/library/ms891449.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
-| [CreateNamedPipe](https://msdn.microsoft.com/en-us/library/Aa365150.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
-| [GetComputerName](https://msdn.microsoft.com/en-us/library/Aa251590.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
-| [[GetStringType](https://msdn.microsoft.com/en-us/library/ms905272.aspx)Ex](https://msdn.microsoft.com/en-us/library/ms905283.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
-| [MoveFileEx](https://msdn.microsoft.com/en-us/library/Aa365240.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
+| [CopyFile](https://msdn.microsoft.com/en-us/library/Aa363851(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-3.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CreateNamedPipe](https://msdn.microsoft.com/en-us/library/Aa365150(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetComputerName](https://msdn.microsoft.com/en-us/library/ms724295(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetStringTypeEx](https://msdn.microsoft.com/en-us/library/windows/desktop/dd318118.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-core-localization-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-deprecated-apis-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-deprecated-apis-legacy-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-string-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [MoveFileEx](https://msdn.microsoft.com/en-us/library/windows/desktop/aa365240.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-3.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-file-ansi-l2-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CopyFileEx](https://msdn.microsoft.com/en-us/library/Aa363852.aspx) | Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.16299. |
-| [ReplaceFile](https://msdn.microsoft.com/en-us/library/Aa365512.aspx) | Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.16299. |
+| [CopyFileEx](https://msdn.microsoft.com/en-us/library/Aa363852(v=VS.85).aspx) | Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-3.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [ReplaceFile](https://msdn.microsoft.com/en-us/library/Aa365512(v=VS.85).aspx) | Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-3.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-namespace-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateBoundaryDescriptor](https://msdn.microsoft.com/en-us/library/ms682121.aspx) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. |
-| [CreatePrivateNamespace](https://msdn.microsoft.com/en-us/library/ms682419.aspx) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. |
-| [OpenPrivateNamespace](https://msdn.microsoft.com/en-us/library/ms684318.aspx) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. |
+| [CreateBoundaryDescriptor](https://msdn.microsoft.com/en-us/library/ms682121(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CreatePrivateNamespace](https://msdn.microsoft.com/en-us/library/ms682419(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [OpenPrivateNamespace](https://msdn.microsoft.com/en-us/library/ms684318(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-file-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateDirectory](https://msdn.microsoft.com/en-us/library/ms832420.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [DeleteFile](https://msdn.microsoft.com/en-us/library/ms830205.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [FindNextFile](https://msdn.microsoft.com/en-us/library/ms889873.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [FindFirstFile](https://msdn.microsoft.com/en-us/library/s929k22b.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [FindFirstFileEx](https://msdn.microsoft.com/en-us/library/ms889683.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetDiskFreeSpace](https://msdn.microsoft.com/en-us/library/Aa364935.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetDriveType](https://msdn.microsoft.com/en-us/library/Aa364939.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetFileAttributes](https://msdn.microsoft.com/en-us/library/ms890895.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetFullPathName](https://msdn.microsoft.com/en-us/library/Aa364963.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetDiskFreeSpaceEx](https://msdn.microsoft.com/en-us/library/ms890887.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetFileAttributesEx](https://msdn.microsoft.com/en-us/library/ms890909.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetFinalPathNameByHandle](https://msdn.microsoft.com/en-us/library/Aa364962.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetLongPathName](https://msdn.microsoft.com/en-us/library/Aa364980.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [RemoveDirectory](https://msdn.microsoft.com/en-us/library/ms891470.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [SetFileAttributes](https://msdn.microsoft.com/en-us/library/ms891925.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [CreateDirectory](https://msdn.microsoft.com/en-us/library/windows/desktop/aa363855.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [DeleteFile](https://msdn.microsoft.com/en-us/library/windows/desktop/aa363915.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [FindNextFile](https://msdn.microsoft.com/en-us/library/windows/desktop/aa364428.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [FindFirstFile](https://msdn.microsoft.com/en-us/library/Aa364418(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [FindFirstFileEx](https://msdn.microsoft.com/en-us/library/windows/desktop/aa364419.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetDiskFreeSpace](https://msdn.microsoft.com/en-us/library/Aa364935(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetDriveType](https://msdn.microsoft.com/en-us/library/Aa364939(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetFileAttributes](https://msdn.microsoft.com/en-us/library/Aa364944(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetFullPathName](https://msdn.microsoft.com/en-us/library/Aa364963(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetDiskFreeSpaceEx](https://msdn.microsoft.com/en-us/library/windows/desktop/aa364937.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetFileAttributesEx](https://msdn.microsoft.com/en-us/library/windows/desktop/aa364946.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetFinalPathNameByHandle](https://msdn.microsoft.com/en-us/library/Aa364962(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetLongPathName](https://msdn.microsoft.com/en-us/library/Aa364980(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RemoveDirectory](https://msdn.microsoft.com/en-us/library/windows/desktop/aa365488.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [SetFileAttributes](https://msdn.microsoft.com/en-us/library/windows/desktop/aa365535.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-synch-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateEvent](https://msdn.microsoft.com/en-us/library/ms813489.aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [CreateEventEx](https://msdn.microsoft.com/en-us/library/ms682400.aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [CreateMutex](https://msdn.microsoft.com/en-us/library/ms885181.aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [CreateMutexEx](https://msdn.microsoft.com/en-us/library/ms682418.aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [OpenEvent](https://msdn.microsoft.com/en-us/library/ms879661.aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [OpenSemaphore](https://msdn.microsoft.com/en-us/library/ms684326.aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [CreateEvent](https://msdn.microsoft.com/en-us/library/Ff975304(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CreateEventEx](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682400.aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CreateMutex](https://msdn.microsoft.com/en-us/library/ms682411(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CreateMutexEx](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682418.aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [OpenEvent](https://msdn.microsoft.com/en-us/library/windows/desktop/ms684305.aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [OpenSemaphore](https://msdn.microsoft.com/en-us/library/windows/desktop/ms684326.aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-security-cpwl-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateProcess](https://msdn.microsoft.com/en-us/library/60katz9k.aspx)WithLogon | Introduced into api-ms-win-security-cpwl-l1-1-0.dll in 10.0.16299. |
+| CreateProcessWithLogon | Introduced into api-ms-win-security-cpwl-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-processthreads-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| CreateProcess | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [CreateProcess](https://msdn.microsoft.com/en-us/library/Hh437462(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-kernel32-legacy-l1-1-2.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateSemaphore](https://msdn.microsoft.com/en-us/library/ms885184.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. |
-| [OpenMutex](https://msdn.microsoft.com/en-us/library/ms684315.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. |
+| [CreateSemaphore](https://msdn.microsoft.com/en-us/library/ms682438(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [OpenMutex](https://msdn.microsoft.com/en-us/library/windows/desktop/ms684315.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-synch-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateSemaphoreEx](https://msdn.microsoft.com/en-us/library/ms682446.aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. |
-| [CreateWaitableTimer](https://msdn.microsoft.com/en-us/library/ms682492.aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. |
-| [CreateWaitableTimerEx](https://msdn.microsoft.com/en-us/library/ms682494.aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. |
-| [OpenWaitableTimer](https://msdn.microsoft.com/en-us/library/ms684337.aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. |
+| [CreateSemaphoreEx](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682446.aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CreateWaitableTimer](https://msdn.microsoft.com/en-us/library/ms682492(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CreateWaitableTimerEx](https://msdn.microsoft.com/en-us/library/ms682494(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [OpenWaitableTimer](https://msdn.microsoft.com/en-us/library/ms684337(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from ext-ms-win-security-credui-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| CredUIParseUserName | Introduced into ext-ms-win-security-credui-l1-1-1.dll in 10.0.16299. |
+| [CredUIParseUserName](https://msdn.microsoft.com/en-us/library/Aa375175(v=VS.85).aspx) | Introduced into ext-ms-win-security-credui-l1-1-1.dll in 10.0.16299. Moved into Credui.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-security-cryptoapi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CryptAcquireContext](https://msdn.microsoft.com/en-us/library/ms884430.aspx) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.16299. |
-| [CryptGetDefaultProvider](https://msdn.microsoft.com/en-us/library/ms884455.aspx) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.16299. |
-| [CryptSignHash](https://msdn.microsoft.com/en-us/library/ms884633.aspx) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.16299. |
-| [CryptVerifySignature](https://msdn.microsoft.com/en-us/library/ms884635.aspx) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.16299. |
+| [CryptAcquireContext](https://msdn.microsoft.com/en-us/library/Aa379886(v=VS.85).aspx) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CryptGetDefaultProvider](https://msdn.microsoft.com/en-us/library/Aa379945(v=VS.85).aspx) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CryptSignHash](https://msdn.microsoft.com/en-us/library/Aa380280(v=VS.85).aspx) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CryptVerifySignature](https://msdn.microsoft.com/en-us/library/Aa381097(v=VS.85).aspx) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-file-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [DeleteVolumeMountPoint](https://msdn.microsoft.com/en-us/library/Aa363927.aspx) | Introduced into api-ms-win-core-file-ansi-l1-1-0.dll in 10.0.16299. |
+| [DeleteVolumeMountPoint](https://msdn.microsoft.com/en-us/library/Aa363927(v=VS.85).aspx) | Introduced into api-ms-win-core-file-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-localization-l2-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [EnumSystemCodePages](https://msdn.microsoft.com/en-us/library/ms905062.aspx) | Introduced into api-ms-win-core-localization-l2-1-0.dll in 10.0.16299. |
+| [EnumSystemCodePages](https://msdn.microsoft.com/en-us/library/windows/desktop/dd317825.aspx) | Introduced into api-ms-win-core-localization-l2-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-localization-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [EnumUILanguages](https://msdn.microsoft.com/en-us/library/ms905092.aspx) | Introduced into api-ms-win-core-localization-ansi-l1-1-0.dll in 10.0.16299. |
+| [EnumUILanguages](https://msdn.microsoft.com/en-us/library/Dd317834(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-obsolete-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-obsolete-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-obsolete-l1-3-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-processenvironment-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [ExpandEnvironmentStrings](https://msdn.microsoft.com/en-us/library/Aa372337.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [FreeEnvironmentStrings](https://msdn.microsoft.com/en-us/library/ms683151.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [GetCommandLine](https://msdn.microsoft.com/en-us/library/ms885605.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [GetCurrentDirectory](https://msdn.microsoft.com/en-us/library/ms909389.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [GetEnvironmentVariable](https://msdn.microsoft.com/en-us/library/ms392609.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [SetCurrentDirectory](https://msdn.microsoft.com/en-us/library/ms832428.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [ExpandEnvironmentStrings](https://msdn.microsoft.com/en-us/library/ms724265(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [FreeEnvironmentStrings](https://msdn.microsoft.com/en-us/library/ms683151(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetCommandLine](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683156.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetCurrentDirectory](https://msdn.microsoft.com/en-us/library/Aa364934(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetEnvironmentVariable](https://msdn.microsoft.com/en-us/library/ms683188(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [SetCurrentDirectory](https://msdn.microsoft.com/en-us/library/Aa365530(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-console-l2-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [FillConsoleOutputCharacter](https://msdn.microsoft.com/en-us/library/ms682663.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [GetConsoleTitle](https://msdn.microsoft.com/en-us/library/ms683174.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [PeekConsoleInput](https://msdn.microsoft.com/en-us/library/ms684344.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [[ReadConsole](https://msdn.microsoft.com/en-us/library/ms684958.aspx)Output](https://msdn.microsoft.com/en-us/library/ms684965.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [SetConsoleTitle](https://msdn.microsoft.com/en-us/library/ms686050.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [[WriteConsole](https://msdn.microsoft.com/en-us/library/ms687401.aspx)Output](https://msdn.microsoft.com/en-us/library/ms687404.aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [FillConsoleOutputCharacter](https://msdn.microsoft.com/en-us/library/ms682663(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetConsoleTitle](https://msdn.microsoft.com/en-us/library/ms683174(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [PeekConsoleInput](https://msdn.microsoft.com/en-us/library/ms684344(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [ReadConsoleOutput](https://msdn.microsoft.com/en-us/library/ms684965(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [SetConsoleTitle](https://msdn.microsoft.com/en-us/library/ms686050(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WriteConsoleOutput](https://msdn.microsoft.com/en-us/library/ms687404(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-eventing-legacy-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [FlushTrace](https://msdn.microsoft.com/en-us/library/Aa363891.aspx) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.16299. |
-| [QueryTrace](https://msdn.microsoft.com/en-us/library/Aa364103.aspx) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.16299. |
+| [FlushTrace](https://msdn.microsoft.com/en-us/library/windows/desktop/aa363891.aspx) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [QueryTrace](https://msdn.microsoft.com/en-us/library/windows/desktop/aa364103.aspx) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-localization-l1-2-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [FormatMessage](https://msdn.microsoft.com/en-us/library/ms859905.aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [GetGeoInfo](https://msdn.microsoft.com/en-us/library/Dd318099.aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [GetLocaleInfo](https://msdn.microsoft.com/en-us/library/ms905243.aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [FormatMessage](https://msdn.microsoft.com/en-us/library/windows/desktop/ms679351.aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-core-misc-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetGeoInfo](https://msdn.microsoft.com/en-us/library/windows/desktop/dd318099.aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetLocaleInfo](https://msdn.microsoft.com/en-us/library/Dd318101(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from ws2_32.dll
 
 | API | Requirements |
 | -----| --------------|
-| [FreeAddrInfo](https://msdn.microsoft.com/en-us/library/ms910262.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
-| [[GetAddrInfo](https://msdn.microsoft.com/en-us/library/ms910263.aspx)Ex](https://msdn.microsoft.com/en-us/library/ms738518.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
-| GetAddrInfo | Introduced into ws2_32.dll in 10.0.16299. |
-| [GetHostName](https://msdn.microsoft.com/en-us/library/ms908431.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
-| [GetNameInfo](https://msdn.microsoft.com/en-us/library/ms910264.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
-| InetNtop | Introduced into ws2_32.dll in 10.0.16299. |
-| InetPton | Introduced into ws2_32.dll in 10.0.16299. |
-| [SetAddrInfoEx](https://msdn.microsoft.com/en-us/library/ms740473.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
-| [WSAAddressToString](https://msdn.microsoft.com/en-us/library/ms898728.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
-| WSAConnectByName | Introduced into ws2_32.dll in 10.0.16299. |
-| WSADuplicateSocket | Introduced into ws2_32.dll in 10.0.16299. |
-| [WSAEnumNameSpaceProviders](https://msdn.microsoft.com/en-us/library/ms898737.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
-| [WSAEnumNameSpaceProvidersEx](https://msdn.microsoft.com/en-us/library/ms741568.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
-| [WSAEnumProtocols](https://msdn.microsoft.com/en-us/library/ms898739.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
-| WSAGetServiceClassInfo | Introduced into ws2_32.dll in 10.0.16299. |
-| WSAGetServiceClassNameByClassId | Introduced into ws2_32.dll in 10.0.16299. |
-| [WSALookupServiceBegin](https://msdn.microsoft.com/en-us/library/ms863410.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
-| [WSALookupServiceNext](https://msdn.microsoft.com/en-us/library/ms863412.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
-| [WSASetService](https://msdn.microsoft.com/en-us/library/Aa362921.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
-| [WSASocket](https://msdn.microsoft.com/en-us/library/ms898773.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
-| [WSAStringToAddress](https://msdn.microsoft.com/en-us/library/ms898775.aspx) | Introduced into ws2_32.dll in 10.0.16299. |
+| [FreeAddrInfo](https://msdn.microsoft.com/de-de/library/ms737931(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetAddrInfoEx](https://msdn.microsoft.com/de-de/library/ms738518(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetAddrInfo](https://msdn.microsoft.com/de-de/library/ms738520(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetHostName](https://msdn.microsoft.com/de-de/library/ms738527(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetNameInfo](https://msdn.microsoft.com/de-de/library/ms738532(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [InetNtop](https://msdn.microsoft.com/de-de/library/Cc805843(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [InetPton](https://msdn.microsoft.com/en-us/library/Cc805844(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [SetAddrInfoEx](https://msdn.microsoft.com/en-us/library/windows/desktop/ms740473.aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAAddressToString](https://msdn.microsoft.com/de-de/library/ms741516(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAConnectByName](https://msdn.microsoft.com/de-de/library/ms741557(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSADuplicateSocket](https://msdn.microsoft.com/de-de/library/ms741565(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAEnumNameSpaceProviders](https://msdn.microsoft.com/de-de/library/ms741570(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAEnumNameSpaceProvidersEx](https://msdn.microsoft.com/de-de/library/ms741568(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAEnumProtocols](https://msdn.microsoft.com/de-de/library/ms741574(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAGetServiceClassInfo](https://msdn.microsoft.com/de-de/library/ms741592(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAGetServiceClassNameByClassId](https://msdn.microsoft.com/de-de/library/ms741598(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSALookupServiceBegin](https://msdn.microsoft.com/de-de/library/ms741633(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSALookupServiceNext](https://msdn.microsoft.com/de-de/library/ms741641(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSASetService](https://msdn.microsoft.com/de-de/library/ms742211(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSASocket](https://msdn.microsoft.com/de-de/library/ms742212(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAStringToAddress](https://msdn.microsoft.com/de-de/library/ms742214(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-namedpipe-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetNamedPipeClientComputerName](https://msdn.microsoft.com/en-us/library/Aa365437.aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. |
-| [GetNamedPipeHandleState](https://msdn.microsoft.com/en-us/library/Aa365443.aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. |
-| [WaitNamedPipe](https://msdn.microsoft.com/en-us/library/Aa365800.aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. |
+| [GetNamedPipeClientComputerName](https://msdn.microsoft.com/en-us/library/Aa365437(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-ansi-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetNamedPipeHandleState](https://msdn.microsoft.com/en-us/library/Aa365443(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-ansi-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WaitNamedPipe](https://msdn.microsoft.com/en-us/library/Aa365800(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-ansi-l1-1-1.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-url-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetAcceptLanguages](https://msdn.microsoft.com/en-us/library/ms538578.aspx) | Introduced into api-ms-win-core-url-l1-1-0.dll in 10.0.16299. |
+| [GetAcceptLanguages](https://msdn.microsoft.com/en-us/library/Bb759898(v=VS.85).aspx) | Introduced into api-ms-win-core-url-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-shlwapi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-shlwapi-l1-1-1.dll in 10.0.16299. Moved into shlwapi.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-localization-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetCPInfoEx](https://msdn.microsoft.com/en-us/library/Cc422080.aspx) | Introduced into api-ms-win-core-localization-l1-1-0.dll in 10.0.16299. |
+| [GetCPInfoEx](https://msdn.microsoft.com/en-us/library/windows/desktop/dd318081.aspx) | Introduced into api-ms-win-core-localization-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-security-provider-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetExplicitEntriesFromAcl](https://msdn.microsoft.com/en-us/library/Aa446638.aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. |
-| [GetNamedSecurityInfo](https://msdn.microsoft.com/en-us/library/Aa446645.aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. |
-| [SetEntriesInAcl](https://msdn.microsoft.com/en-us/library/Aa379576.aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. |
-| [SetNamedSecurityInfo](https://msdn.microsoft.com/en-us/library/Aa379579.aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. |
+| [GetExplicitEntriesFromAcl](https://msdn.microsoft.com/en-us/library/Aa446638(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l3-1-0.dll in 10.0.16299. Moved into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetNamedSecurityInfo](https://msdn.microsoft.com/en-us/library/Aa446645(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l3-1-0.dll in 10.0.16299. Moved into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [SetEntriesInAcl](https://msdn.microsoft.com/en-us/library/Aa379576(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l3-1-0.dll in 10.0.16299. Moved into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [SetNamedSecurityInfo](https://msdn.microsoft.com/en-us/library/Aa379579(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l3-1-0.dll in 10.0.16299. Moved into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from version.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetFileVersionInfoEx](https://msdn.microsoft.com/en-us/library/Aa969434.aspx) | Introduced into version.dll in 10.0.16299. |
-| [GetFileVersionInfoSizeEx](https://msdn.microsoft.com/en-us/library/Aa969435.aspx) | Introduced into version.dll in 10.0.16299. |
-| [VerQueryValue](https://msdn.microsoft.com/en-us/library/ms915509.aspx) | Introduced into version.dll in 10.0.16299. |
+| [GetFileVersionInfoEx](https://msdn.microsoft.com/en-us/library/Aa969434(v=VS.85).aspx) | Introduced into version.dll in 10.0.16299. Moved into api-ms-win-core-versionansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-versionansi-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-version-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-version-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-version-l1-1-0.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetFileVersionInfoSizeEx](https://msdn.microsoft.com/en-us/library/Aa969435(v=VS.85).aspx) | Introduced into version.dll in 10.0.16299. Moved into api-ms-win-core-versionansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-versionansi-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-version-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-version-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-version-l1-1-0.dll in 10.0.16299. Removed in 10.0.17134. |
+| [VerQueryValue](https://msdn.microsoft.com/en-us/library/ms647464(v=VS.85).aspx) | Introduced into version.dll in 10.0.16299. Moved into api-ms-win-core-versionansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-versionansi-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-version-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-version-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-version-l1-1-1.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from ext-ms-win-ntuser-keyboard-l1-2-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetKeyNameText](https://msdn.microsoft.com/en-us/library/ms646300.aspx) | Introduced into ext-ms-win-ntuser-keyboard-l1-2-0.dll in 10.0.16299. |
+| [GetKeyNameText](https://msdn.microsoft.com/en-us/library/ms646300(v=VS.85).aspx) | Introduced into ext-ms-win-ntuser-keyboard-l1-2-0.dll in 10.0.16299. Moved into ext-ms-win-ntuser-keyboard-l1-3-0.dll in 10.0.16299. Moved into user32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from ext-ms-win-base-psapi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| GetModuleBaseName | Introduced into ext-ms-win-base-psapi-l1-1-0.dll in 10.0.16299. |
+| [GetModuleBaseName](https://msdn.microsoft.com/en-us/library/ms683196(v=VS.85).aspx) | Introduced into ext-ms-win-base-psapi-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-libraryloader-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| GetModuleFileName | Introduced into api-ms-win-core-libraryloader-l1-1-0.dll in 10.0.16299. |
+| [GetModuleFileName](https://msdn.microsoft.com/en-us/library/ms683197(v=VS.85).aspx) | Introduced into api-ms-win-core-libraryloader-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-libraryloader-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-libraryloader-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-libraryloader-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-string-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| GetStringType | Introduced into api-ms-win-core-string-l1-1-0.dll in 10.0.16299. |
+| GetStringType | Introduced into api-ms-win-core-string-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-sysinfo-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetSystemDirectory](https://msdn.microsoft.com/en-us/library/ms724373.aspx) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
-| [GetVersionEx](https://msdn.microsoft.com/en-us/library/ms885648.aspx) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+| [GetSystemDirectory](https://msdn.microsoft.com/en-us/library/ms724373(v=VS.85).aspx) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetVersionEx](https://msdn.microsoft.com/en-us/library/ms724451(v=VS.85).aspx) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-file-l1-2-2.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetTempFileName](https://msdn.microsoft.com/en-us/library/ms891186.aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. |
-| [GetTempPath](https://msdn.microsoft.com/en-us/library/ms891189.aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. |
-| [GetVolumeInformation](https://msdn.microsoft.com/en-us/library/Aa364993.aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. |
+| [GetTempFileName](https://msdn.microsoft.com/en-us/library/Aa364991(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetTempPath](https://msdn.microsoft.com/en-us/library/Aa364992(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetVolumeInformation](https://msdn.microsoft.com/en-us/library/Aa364993(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-kernel32-legacy-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [SetVolumeLabel](https://msdn.microsoft.com/en-us/library/Aa365560.aspx) | Introduced into api-ms-win-core-kernel32-legacy-ansi-l1-1-0.dll in 10.0.16299. |
+| [SetVolumeLabel](https://msdn.microsoft.com/en-us/library/Aa365560(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from esent.dll
 
 | API | Requirements |
 | -----| --------------|
-| JetCreateIndex4 | Introduced into esent.dll in 10.0.16299. |
-| JetCreateTableColumnIndex4 | Introduced into esent.dll in 10.0.16299. |
-| JetGetErrorInfo | Introduced into esent.dll in 10.0.16299. |
+| JetCreateIndex4 | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetCreateTableColumnIndex4 | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
+| JetGetErrorInfo | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-psapi-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| K32GetModuleBaseName | Introduced into api-ms-win-core-psapi-ansi-l1-1-0.dll in 10.0.16299. |
-| K32GetModuleFileNameEx | Introduced into api-ms-win-core-psapi-ansi-l1-1-0.dll in 10.0.16299. |
+| [K32GetModuleBaseName](https://msdn.microsoft.com/en-us/library/ms683196(v=VS.85).aspx) | Introduced into api-ms-win-core-psapi-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-psapi-obsolete-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-psapi-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [K32GetModuleFileNameEx](https://msdn.microsoft.com/en-us/library/ms683198(v=VS.85).aspx) | Introduced into api-ms-win-core-psapi-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-psapi-obsolete-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-psapi-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-security-lsalookup-ansi-l2-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [LookupAccountName](https://msdn.microsoft.com/en-us/library/Aa379159.aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
-| [LookupAccountSid](https://msdn.microsoft.com/en-us/library/Aa379166.aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
-| [LookupPrivilegeDisplayName](https://msdn.microsoft.com/en-us/library/Aa379168.aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
-| [LookupPrivilegeName](https://msdn.microsoft.com/en-us/library/Aa379176.aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
-| [LookupPrivilegeValue](https://msdn.microsoft.com/en-us/library/Aa379180.aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
+| [LookupAccountName](https://msdn.microsoft.com/en-us/library/Aa379159(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l4-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-1.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [LookupAccountSid](https://msdn.microsoft.com/en-us/library/Aa379166(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l4-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-1.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [LookupPrivilegeDisplayName](https://msdn.microsoft.com/en-us/library/Aa379168(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l4-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-1.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [LookupPrivilegeName](https://msdn.microsoft.com/en-us/library/Aa379176(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l4-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-1.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [LookupPrivilegeValue](https://msdn.microsoft.com/en-us/library/Aa379180(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. Moved into ext-ms-win-advapi32-auth-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l4-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-1.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from ext-ms-win-ntuser-keyboard-l1-3-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [MapVirtualKey](https://msdn.microsoft.com/en-us/library/ms902140.aspx) | Introduced into ext-ms-win-ntuser-keyboard-l1-3-0.dll in 10.0.16299. |
+| [MapVirtualKey](https://msdn.microsoft.com/en-us/library/ms646306(v=VS.85).aspx) | Introduced into ext-ms-win-ntuser-keyboard-l1-3-0.dll in 10.0.16299. Moved into ext-ms-win-ntuser-keyboard-l1-1-0.dll in 10.0.16299. Moved into ext-ms-win-ntuser-keyboard-l1-1-1.dll in 10.0.16299. Moved into ext-ms-win-ntuser-keyboard-l1-2-0.dll in 10.0.16299. Moved into user32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from ext-ms-win-ntuser-keyboard-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [MapVirtualKeyEx](https://msdn.microsoft.com/en-us/library/ms646307.aspx) | Introduced into ext-ms-win-ntuser-keyboard-l1-1-0.dll in 10.0.16299. |
+| [MapVirtualKeyEx](https://msdn.microsoft.com/en-us/library/ms646307(v=VS.85).aspx) | Introduced into ext-ms-win-ntuser-keyboard-l1-1-0.dll in 10.0.16299. Moved into ext-ms-win-ntuser-keyboard-l1-1-1.dll in 10.0.16299. Moved into ext-ms-win-ntuser-keyboard-l1-2-0.dll in 10.0.16299. Moved into ext-ms-win-ntuser-keyboard-l1-3-0.dll in 10.0.16299. Moved into user32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-debug-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [OutputDebugString](https://msdn.microsoft.com/en-us/library/ms886769.aspx) | Introduced into api-ms-win-core-debug-l1-1-0.dll in 10.0.16299. |
+| [OutputDebugString](https://msdn.microsoft.com/en-us/library/windows/desktop/aa363362.aspx) | Introduced into api-ms-win-core-debug-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-debug-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-debug-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-console-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [ReadConsoleInput](https://msdn.microsoft.com/en-us/library/ms684961.aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
-| ReadConsole | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
-| WriteConsole | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
+| [ReadConsoleInput](https://msdn.microsoft.com/en-us/library/ms684961(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [ReadConsole](https://msdn.microsoft.com/en-us/library/ms684958(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WriteConsole](https://msdn.microsoft.com/en-us/library/ms687401(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-file-l2-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| ReadDirectoryChanges | Introduced into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. |
+| ReadDirectoryChanges | Introduced into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-3.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-downlevel-advapi32-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [RegisterTraceGuids](https://msdn.microsoft.com/en-us/library/Aa364105.aspx) | Introduced into api-ms-win-downlevel-advapi32-l1-1-0.dll in 10.0.16299. |
+| [RegisterTraceGuids](https://msdn.microsoft.com/en-us/library/windows/desktop/aa364105.aspx) | Introduced into api-ms-win-downlevel-advapi32-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-eventing-classicprovider-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-synch-l1-2-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| SleepConditionVariableSR | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. |
+| SleepConditionVariableSR | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+
+
+## APIs from api-ms-win-crt-process-l1-1-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| _beep | Introduced into api-ms-win-crt-process-l1-1-0.dll in 10.0.17134. |
+
+
+## APIs from tbs.dll
+
+| API | Requirements |
+| -----| --------------|
+| [Tbsi_Context_Create](https://msdn.microsoft.com/en-us/library/Aa446800(v=VS.85).aspx) | Introduced into tbs.dll in 10.0.17134. |
+| [Tbsi_GetDeviceInfo](https://msdn.microsoft.com/en-us/library/JJ553827(v=VS.85).aspx) | Introduced into tbs.dll in 10.0.17134. |
+| [Tbsi_Get_OwnerAuth](https://msdn.microsoft.com/en-us/library/JJ553828(v=VS.85).aspx) | Introduced into tbs.dll in 10.0.17134. |
+| [Tbsi_Get_TCG_Log](https://msdn.microsoft.com/en-us/library/Bb530712(v=VS.85).aspx) | Introduced into tbs.dll in 10.0.17134. |
+| [Tbsi_Physical_Presence_Command](https://msdn.microsoft.com/en-us/library/Aa446801(v=VS.85).aspx) | Introduced into tbs.dll in 10.0.17134. |
+| [Tbsi_Revoke_Attestation](https://msdn.microsoft.com/en-us/library/JJ553829(v=VS.85).aspx) | Introduced into tbs.dll in 10.0.17134. |
+| [Tbsip_Cancel_Commands](https://msdn.microsoft.com/en-us/library/Aa446797(v=VS.85).aspx) | Introduced into tbs.dll in 10.0.17134. |
+| [Tbsip_Context_Close](https://msdn.microsoft.com/en-us/library/Aa446798(v=VS.85).aspx) | Introduced into tbs.dll in 10.0.17134. |
+| [Tbsip_Submit_Command](https://msdn.microsoft.com/en-us/library/Aa446799(v=VS.85).aspx) | Introduced into tbs.dll in 10.0.17134. |
+
+
+## APIs from api-ms-win-core-rtlsupport-l1-2-0.dll
+
+| API | Requirements |
+| -----| --------------|
+| [RtlVirtualUnwind](https://msdn.microsoft.com/en-us/library/ms680617(v=VS.85).aspx) | Introduced into api-ms-win-core-rtlsupport-l1-2-0.dll in 10.0.17763. |
 
 
 COM interfaces
@@ -3142,8 +3208,8 @@ COM interfaces
 | [IAgileObject](https://msdn.microsoft.com/en-us/library/windows/desktop/hh802476.aspx) | Introduced in 10.0.10240. |
 | [IAgileReference](https://msdn.microsoft.com/en-us/library/windows/desktop/dn269837.aspx) | Introduced in 10.0.10240. |
 | [IAnnotationProvider](https://msdn.microsoft.com/en-us/library/windows/desktop/hh448757.aspx) | Introduced in 10.0.10240. |
-| IAoWAppActivatedRuntime | Introduced in 10.0.10240. Removed in 10.0.15063. |
-| IAoWBackgroundTaskRuntime | Introduced in 10.0.10240. Removed in 10.0.15063. |
+| IAoWAppActivatedRuntime | Introduced in 10.0.10240. Removed in 10.0.16299. |
+| IAoWBackgroundTaskRuntime | Introduced in 10.0.10240. Removed in 10.0.16299. |
 | [IApartmentShutdown](https://msdn.microsoft.com/en-us/library/windows/desktop/jj219263.aspx) | Introduced in 10.0.10240. |
 | [IAsyncInfo](https://msdn.microsoft.com/en-us/library/windows/desktop/br205795.aspx) | Introduced in 10.0.10240. |
 | [IAudioCaptureClient](https://msdn.microsoft.com/en-us/library/windows/desktop/dd370858.aspx) | Introduced in 10.0.10240. |
@@ -3174,7 +3240,7 @@ COM interfaces
 | [IConnectionPointContainer](https://msdn.microsoft.com/en-us/library/windows/desktop/ms683857.aspx) | Introduced in 10.0.10240. |
 | [IContextCallback](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682253.aspx) | Introduced in 10.0.10240. |
 | [ICreateDeviceAccessAsync](https://msdn.microsoft.com/en-us/library/windows/desktop/hh404248.aspx) | Introduced in 10.0.10240. |
-| [ICustomNavigationProvider](https://msdn.microsoft.com/en-us/library/Mt146441.aspx) | Introduced in 10.0.10240. |
+| ICustomNavigationProvider | Introduced in 10.0.10240. |
 | [ID2D1AnalysisTransform](https://msdn.microsoft.com/en-us/library/windows/desktop/hh404347.aspx) | Introduced in 10.0.10240. |
 | [ID2D1Bitmap](https://msdn.microsoft.com/en-us/library/windows/desktop/dd371109.aspx) | Introduced in 10.0.10240. |
 | [ID2D1Bitmap1](https://msdn.microsoft.com/en-us/library/windows/desktop/hh404349.aspx) | Introduced in 10.0.10240. |
@@ -3297,7 +3363,7 @@ COM interfaces
 | [ID3D11LinkingNode](https://msdn.microsoft.com/en-us/library/windows/desktop/dn280562.aspx) | Introduced in 10.0.10240. |
 | [ID3D11Module](https://msdn.microsoft.com/en-us/library/windows/desktop/dn280563.aspx) | Introduced in 10.0.10240. |
 | [ID3D11ModuleInstance](https://msdn.microsoft.com/en-us/library/windows/desktop/dn280564.aspx) | Introduced in 10.0.10240. |
-| [ID3D11On12Device](https://msdn.microsoft.com/en-us/library/Dn913197.aspx) | Introduced in 10.0.10240. |
+| [ID3D11On12Device](https://msdn.microsoft.com/en-us/library/Dn913197(v=VS.85).aspx) | Introduced in 10.0.10240. |
 | [ID3D11PixelShader](https://msdn.microsoft.com/en-us/library/windows/desktop/ff476576.aspx) | Introduced in 10.0.10240. |
 | [ID3D11Predicate](https://msdn.microsoft.com/en-us/library/windows/desktop/ff476577.aspx) | Introduced in 10.0.10240. |
 | [ID3D11Query](https://msdn.microsoft.com/en-us/library/windows/desktop/ff476578.aspx) | Introduced in 10.0.10240. |
@@ -3338,35 +3404,35 @@ COM interfaces
 | [ID3D11VideoProcessorInputView](https://msdn.microsoft.com/en-us/library/windows/desktop/hh447807.aspx) | Introduced in 10.0.10240. |
 | [ID3D11VideoProcessorOutputView](https://msdn.microsoft.com/en-us/library/windows/desktop/hh447809.aspx) | Introduced in 10.0.10240. |
 | [ID3D11View](https://msdn.microsoft.com/en-us/library/windows/desktop/ff476642.aspx) | Introduced in 10.0.10240. |
-| [ID3D12CommandAllocator](https://msdn.microsoft.com/en-us/library/Dn770463.aspx) | Introduced in 10.0.10240. |
-| [ID3D12CommandList](https://msdn.microsoft.com/en-us/library/Dn770465.aspx) | Introduced in 10.0.10240. |
-| [ID3D12CommandQueue](https://msdn.microsoft.com/en-us/library/Dn788627.aspx) | Introduced in 10.0.10240. |
-| [ID3D12CommandSignature](https://msdn.microsoft.com/en-us/library/Dn891446.aspx) | Introduced in 10.0.10240. |
-| [ID3D12Debug](https://msdn.microsoft.com/en-us/library/Dn950153.aspx) | Introduced in 10.0.10240. |
-| [ID3D12DebugCommandList](https://msdn.microsoft.com/en-us/library/Dn950154.aspx) | Introduced in 10.0.10240. |
-| [ID3D12DebugCommandQueue](https://msdn.microsoft.com/en-us/library/Dn950158.aspx) | Introduced in 10.0.10240. |
-| [ID3D12DebugDevice](https://msdn.microsoft.com/en-us/library/Dn986873.aspx) | Introduced in 10.0.10240. |
-| [ID3D12DescriptorHeap](https://msdn.microsoft.com/en-us/library/Dn788648.aspx) | Introduced in 10.0.10240. |
-| [ID3D12Device](https://msdn.microsoft.com/en-us/library/Dn788650.aspx) | Introduced in 10.0.10240. |
-| [ID3D12DeviceChild](https://msdn.microsoft.com/en-us/library/Dn788651.aspx) | Introduced in 10.0.10240. |
-| [ID3D12Fence](https://msdn.microsoft.com/en-us/library/Dn899188.aspx) | Introduced in 10.0.10240. |
-| [ID3D12GraphicsCommandList](https://msdn.microsoft.com/en-us/library/Dn903537.aspx) | Introduced in 10.0.10240. |
-| [ID3D12Heap](https://msdn.microsoft.com/en-us/library/Dn788687.aspx) | Introduced in 10.0.10240. |
-| [ID3D12InfoQueue](https://msdn.microsoft.com/en-us/library/Dn950163.aspx) | Introduced in 10.0.10240. |
-| [ID3D12LibraryReflection](https://msdn.microsoft.com/en-us/library/Dn933676.aspx) | Introduced in 10.0.10240. |
-| [ID3D12Object](https://msdn.microsoft.com/en-us/library/Dn788699.aspx) | Introduced in 10.0.10240. |
-| [ID3D12Pageable](https://msdn.microsoft.com/en-us/library/Dn788704.aspx) | Introduced in 10.0.10240. |
-| [ID3D12PipelineState](https://msdn.microsoft.com/en-us/library/Dn788705.aspx) | Introduced in 10.0.10240. |
-| [ID3D12QueryHeap](https://msdn.microsoft.com/en-us/library/Dn891447.aspx) | Introduced in 10.0.10240. |
-| [ID3D12Resource](https://msdn.microsoft.com/en-us/library/Dn788709.aspx) | Introduced in 10.0.10240. |
-| [ID3D12RootSignature](https://msdn.microsoft.com/en-us/library/Dn788714.aspx) | Introduced in 10.0.10240. |
-| [ID3D12RootSignatureDeserializer](https://msdn.microsoft.com/en-us/library/Dn899192.aspx) | Introduced in 10.0.10240. |
-| [ID3D12ShaderReflection](https://msdn.microsoft.com/en-us/library/Dn933679.aspx) | Introduced in 10.0.10240. |
+| [ID3D12CommandAllocator](https://msdn.microsoft.com/en-us/library/Dn770463(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12CommandList](https://msdn.microsoft.com/en-us/library/Dn770465(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12CommandQueue](https://msdn.microsoft.com/en-us/library/Dn788627(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12CommandSignature](https://msdn.microsoft.com/en-us/library/Dn891446(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12Debug](https://msdn.microsoft.com/en-us/library/Dn950153(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12DebugCommandList](https://msdn.microsoft.com/en-us/library/Dn950154(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12DebugCommandQueue](https://msdn.microsoft.com/en-us/library/Dn950158(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12DebugDevice](https://msdn.microsoft.com/en-us/library/Dn986873(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12DescriptorHeap](https://msdn.microsoft.com/en-us/library/Dn788648(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12Device](https://msdn.microsoft.com/en-us/library/Dn788650(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12DeviceChild](https://msdn.microsoft.com/en-us/library/Dn788651(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12Fence](https://msdn.microsoft.com/en-us/library/Dn899188(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12GraphicsCommandList](https://msdn.microsoft.com/en-us/library/Dn903537(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12Heap](https://msdn.microsoft.com/en-us/library/Dn788687(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12InfoQueue](https://msdn.microsoft.com/en-us/library/Dn950163(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12LibraryReflection](https://msdn.microsoft.com/en-us/library/Dn933676(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12Object](https://msdn.microsoft.com/en-us/library/Dn788699(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12Pageable](https://msdn.microsoft.com/en-us/library/Dn788704(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12PipelineState](https://msdn.microsoft.com/en-us/library/Dn788705(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12QueryHeap](https://msdn.microsoft.com/en-us/library/Dn891447(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12Resource](https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12RootSignature](https://msdn.microsoft.com/en-us/library/Dn788714(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12RootSignatureDeserializer](https://msdn.microsoft.com/en-us/library/Dn899192(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ID3D12ShaderReflection](https://msdn.microsoft.com/en-us/library/Dn933679(v=VS.85).aspx) | Introduced in 10.0.10240. |
 | [ID3DDeviceContextState](https://msdn.microsoft.com/en-us/library/windows/desktop/hh446878.aspx) | Introduced in 10.0.10240. |
 | [ID3DUserDefinedAnnotation](https://msdn.microsoft.com/en-us/library/windows/desktop/hh446881.aspx) | Introduced in 10.0.10240. |
 | [IDeviceIoControl](https://msdn.microsoft.com/en-us/library/windows/desktop/hh404258.aspx) | Introduced in 10.0.10240. |
 | [IDeviceRequestCompletionCallback](https://msdn.microsoft.com/en-us/library/windows/desktop/hh404262.aspx) | Introduced in 10.0.10240. |
-| [IDirect3DDxgiInterfaceAccess](https://msdn.microsoft.com/en-us/library/Dn895103.aspx) | Introduced in 10.0.10240. |
+| IDirect3DDxgiInterfaceAccess | Introduced in 10.0.10240. |
 | [IDirectWriterLock](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379158.aspx) | Introduced in 10.0.10240. |
 | [IDispatch](https://msdn.microsoft.com/en-us/library/windows/desktop/ms221608.aspx) | Introduced in 10.0.10240. |
 | [IDockProvider](https://msdn.microsoft.com/en-us/library/windows/desktop/ee671239.aspx) | Introduced in 10.0.10240. |
@@ -3470,7 +3536,7 @@ COM interfaces
 | [IDXGISwapChain1](https://msdn.microsoft.com/en-us/library/windows/desktop/hh404631.aspx) | Introduced in 10.0.10240. |
 | [IDXGISwapChain2](https://msdn.microsoft.com/en-us/library/windows/desktop/dn280420.aspx) | Introduced in 10.0.10240. |
 | [IDXGISwapChain3](https://msdn.microsoft.com/en-us/library/windows/desktop/dn903673.aspx) | Introduced in 10.0.10240. |
-| [IEditionUpgradeHelper](https://msdn.microsoft.com/en-us/library/Mt459283.aspx) | Introduced in 10.0.10240. |
+| [IEditionUpgradeHelper](https://msdn.microsoft.com/en-us/library/Mt459283(v=VS.85).aspx) | Introduced in 10.0.10240. |
 | [IEnumCodePage](https://msdn.microsoft.com/en-us/library/windows/desktop/aa741101.aspx) | Introduced in 10.0.10240. |
 | [IEnumConnectionPoints](https://msdn.microsoft.com/en-us/library/windows/desktop/ms688265.aspx) | Introduced in 10.0.10240. |
 | [IEnumConnections](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682237.aspx) | Introduced in 10.0.10240. |
@@ -3506,7 +3572,7 @@ COM interfaces
 | [IGlobalOptions](https://msdn.microsoft.com/en-us/library/windows/desktop/aa344211.aspx) | Introduced in 10.0.10240. |
 | [IGridItemProvider](https://msdn.microsoft.com/en-us/library/windows/desktop/ee671246.aspx) | Introduced in 10.0.10240. |
 | [IGridProvider](https://msdn.microsoft.com/en-us/library/windows/desktop/ee671252.aspx) | Introduced in 10.0.10240. |
-| [IInkD2DRenderer](https://msdn.microsoft.com/en-us/library/Mt147263.aspx) | Introduced in 10.0.10240. |
+| [IInkD2DRenderer](https://msdn.microsoft.com/en-us/library/Mt147263(v=VS.85).aspx) | Introduced in 10.0.10240. |
 | [IInspectable](https://msdn.microsoft.com/en-us/library/windows/desktop/br205821.aspx) | Introduced in 10.0.10240. |
 | [IInvokeProvider](https://msdn.microsoft.com/en-us/library/windows/desktop/ee671256.aspx) | Introduced in 10.0.10240. |
 | [IItemContainerProvider](https://msdn.microsoft.com/en-us/library/windows/desktop/ee671258.aspx) | Introduced in 10.0.10240. |
@@ -3738,7 +3804,7 @@ COM interfaces
 | [IPrintSchemaAsyncOperation](https://msdn.microsoft.com/en-us/library/windows/desktop/hh451224.aspx) | Introduced in 10.0.10240. |
 | [IPrintSchemaAsyncOperationEvent](https://msdn.microsoft.com/en-us/library/windows/desktop/hh451211.aspx) | Introduced in 10.0.10240. |
 | [IPrintSchemaCapabilities](https://msdn.microsoft.com/en-us/library/windows/desktop/hh451256.aspx) | Introduced in 10.0.10240. |
-| [IPrintSchemaCapabilities2](https://msdn.microsoft.com/en-us/library/Dn465887.aspx) | Introduced in 10.0.10240. |
+| [IPrintSchemaCapabilities2](https://msdn.microsoft.com/en-us/library/Dn465887(v=VS.85).aspx) | Introduced in 10.0.10240. |
 | [IPrintSchemaDisplayableElement](https://msdn.microsoft.com/en-us/library/windows/desktop/hh451262.aspx) | Introduced in 10.0.10240. |
 | [IPrintSchemaElement](https://msdn.microsoft.com/en-us/library/windows/desktop/hh451270.aspx) | Introduced in 10.0.10240. |
 | [IPrintSchemaFeature](https://msdn.microsoft.com/en-us/library/windows/desktop/hh451284.aspx) | Introduced in 10.0.10240. |
@@ -3747,11 +3813,11 @@ COM interfaces
 | [IPrintSchemaOptionCollection](https://msdn.microsoft.com/en-us/library/windows/desktop/hh846198.aspx) | Introduced in 10.0.10240. |
 | [IPrintSchemaPageImageableSize](https://msdn.microsoft.com/en-us/library/windows/desktop/hh451366.aspx) | Introduced in 10.0.10240. |
 | [IPrintSchemaPageMediaSizeOption](https://msdn.microsoft.com/en-us/library/windows/desktop/hh451378.aspx) | Introduced in 10.0.10240. |
-| [IPrintSchemaParameterDefinition](https://msdn.microsoft.com/en-us/library/Dn465890.aspx) | Introduced in 10.0.10240. |
-| [IPrintSchemaParameterInitializer](https://msdn.microsoft.com/en-us/library/Dn454557.aspx) | Introduced in 10.0.10240. |
+| [IPrintSchemaParameterDefinition](https://msdn.microsoft.com/en-us/library/Dn465890(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [IPrintSchemaParameterInitializer](https://msdn.microsoft.com/en-us/library/Dn454557(v=VS.85).aspx) | Introduced in 10.0.10240. |
 | [IPrintSchemaTicket](https://msdn.microsoft.com/en-us/library/windows/desktop/hh451398.aspx) | Introduced in 10.0.10240. |
-| [IPrintSchemaTicket2](https://msdn.microsoft.com/en-us/library/Dn454560.aspx) | Introduced in 10.0.10240. |
-| IPropertyBag2 | Introduced in 10.0.10240. |
+| [IPrintSchemaTicket2](https://msdn.microsoft.com/en-us/library/Dn454560(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [IPropertyBag2](https://msdn.microsoft.com/en-us/library/Aa768192(v=VS.85).aspx) | Introduced in 10.0.10240. |
 | [IPropertySetStorage](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379840.aspx) | Introduced in 10.0.10240. |
 | [IPropertyStorage](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379968.aspx) | Introduced in 10.0.10240. |
 | [IPropertyStore](https://msdn.microsoft.com/en-us/library/windows/desktop/bb761474.aspx) | Introduced in 10.0.10240. |
@@ -3788,10 +3854,13 @@ COM interfaces
 | [IRDPSRAPITransportStream](https://msdn.microsoft.com/en-us/library/windows/desktop/ee620975.aspx) | Introduced in 10.0.10240. |
 | [IRDPSRAPITransportStreamBuffer](https://msdn.microsoft.com/en-us/library/windows/desktop/ee620976.aspx) | Introduced in 10.0.10240. |
 | [IRDPSRAPITransportStreamEvents](https://msdn.microsoft.com/en-us/library/windows/desktop/ee620984.aspx) | Introduced in 10.0.10240. |
+| [IRDPSRAPIViewer](https://msdn.microsoft.com/en-us/library/windows/desktop/aa373327.aspx) | Introduced in 10.0.10240. |
 | [IRDPSRAPIVirtualChannel](https://msdn.microsoft.com/en-us/library/windows/desktop/aa373361.aspx) | Introduced in 10.0.10240. |
 | [IRDPSRAPIVirtualChannelManager](https://msdn.microsoft.com/en-us/library/windows/desktop/aa373362.aspx) | Introduced in 10.0.10240. |
 | [IRDPSRAPIWindow](https://msdn.microsoft.com/en-us/library/windows/desktop/aa373371.aspx) | Introduced in 10.0.10240. |
 | [IRDPSRAPIWindowList](https://msdn.microsoft.com/en-us/library/windows/desktop/aa373372.aspx) | Introduced in 10.0.10240. |
+| [IRDPViewerInputSink](https://msdn.microsoft.com/en-us/library/windows/desktop/dn408595.aspx) | Introduced in 10.0.10240. |
+| [IRDPViewerRenderingSurface](https://msdn.microsoft.com/en-us/library/windows/desktop/hh802746.aspx) | Introduced in 10.0.10240. |
 | [IReferenceTracker](https://msdn.microsoft.com/en-us/library/windows/desktop/jj542495.aspx) | Introduced in 10.0.10240. |
 | [IReferenceTrackerHost](https://msdn.microsoft.com/en-us/library/windows/desktop/jj542496.aspx) | Introduced in 10.0.10240. |
 | [IReferenceTrackerManager](https://msdn.microsoft.com/en-us/library/windows/desktop/jj542503.aspx) | Introduced in 10.0.10240. |
@@ -3809,7 +3878,7 @@ COM interfaces
 | [ISelectionItemProvider](https://msdn.microsoft.com/en-us/library/windows/desktop/ee671349.aspx) | Introduced in 10.0.10240. |
 | [ISelectionProvider](https://msdn.microsoft.com/en-us/library/windows/desktop/ee671355.aspx) | Introduced in 10.0.10240. |
 | [ISequentialStream](https://msdn.microsoft.com/en-us/library/windows/desktop/aa380010.aspx) | Introduced in 10.0.10240. |
-| [ISignalableNotifier](https://msdn.microsoft.com/en-us/library/Dn298319.aspx) | Introduced in 10.0.10240. |
+| ISignalableNotifier | Introduced in 10.0.10240. |
 | [ISimpleAudioVolume](https://msdn.microsoft.com/en-us/library/windows/desktop/dd316531.aspx) | Introduced in 10.0.10240. |
 | [ISoftwareBitmapNative](https://msdn.microsoft.com/en-us/library/windows/desktop/dn878036.aspx) | Introduced in 10.0.10240. |
 | [ISoftwareBitmapNativeFactory](https://msdn.microsoft.com/en-us/library/windows/desktop/dn878037.aspx) | Introduced in 10.0.10240. |
@@ -3998,8 +4067,8 @@ COM interfaces
 | [IWICJpegFrameDecode](https://msdn.microsoft.com/en-us/library/windows/desktop/dn903834.aspx) | Introduced in 10.0.10240. |
 | [IWICJpegFrameEncode](https://msdn.microsoft.com/en-us/library/windows/desktop/dn903864.aspx) | Introduced in 10.0.10240. |
 | [IWindowProvider](https://msdn.microsoft.com/en-us/library/windows/desktop/ee671571.aspx) | Introduced in 10.0.10240. |
-| [IWindowsDevicesAllJoynBusAttachmentFactoryInterop](https://msdn.microsoft.com/en-us/library/Mt573659.aspx) | Introduced in 10.0.10240. |
-| [IWindowsDevicesAllJoynBusAttachmentInterop](https://msdn.microsoft.com/en-us/library/Mt573661.aspx) | Introduced in 10.0.10240. |
+| [IWindowsDevicesAllJoynBusAttachmentFactoryInterop](https://msdn.microsoft.com/en-us/library/Mt573659(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [IWindowsDevicesAllJoynBusAttachmentInterop](https://msdn.microsoft.com/en-us/library/Mt573661(v=VS.85).aspx) | Introduced in 10.0.10240. |
 | IWorkspaceBrokerAx | Introduced in 10.0.10240. |
 | IWorkspaceBrokerAx2 | Introduced in 10.0.10240. |
 | [IXAPO](https://msdn.microsoft.com/en-us/library/windows/desktop/microsoft.directx_sdk.ixapo.ixapo.aspx) | Introduced in 10.0.10240. |
@@ -4020,7 +4089,7 @@ COM interfaces
 | [IXmlReaderInput](https://msdn.microsoft.com/en-us/library/windows/desktop/ms752817.aspx) | Introduced in 10.0.10240. |
 | [IXmlResolver](https://msdn.microsoft.com/en-us/library/windows/desktop/ms752841.aspx) | Introduced in 10.0.10240. |
 | [IXmlWriter](https://msdn.microsoft.com/en-us/library/windows/desktop/ms752860.aspx) | Introduced in 10.0.10240. |
-| IXmlWriterLite | Introduced in 10.0.10240. |
+| [IXmlWriterLite](https://msdn.microsoft.com/de-de/library/Mt143569(v=VS.85).aspx) | Introduced in 10.0.10240. |
 | [IXmlWriterOutput](https://msdn.microsoft.com/en-us/library/windows/desktop/ms752843.aspx) | Introduced in 10.0.10240. |
 | [IXpsDocumentPackageTarget](https://msdn.microsoft.com/en-us/library/windows/desktop/hh994456.aspx) | Introduced in 10.0.10240. |
 | [IXpsDocumentPackageTarget3D](https://msdn.microsoft.com/en-us/library/windows/desktop/dn280684.aspx) | Introduced in 10.0.10240. |
@@ -4117,47 +4186,53 @@ COM interfaces
 | [IAppxManifestProperties](https://msdn.microsoft.com/en-us/library/windows/desktop/hh446731.aspx) | Introduced in 10.0.14393. |
 | [IAppxManifestReader](https://msdn.microsoft.com/en-us/library/windows/desktop/hh446737.aspx) | Introduced in 10.0.14393. |
 | [IAppxManifestReader2](https://msdn.microsoft.com/en-us/library/windows/desktop/dn280312.aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestReader3](https://msdn.microsoft.com/en-us/library/Mt796945.aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestCapabilitiesEnumerator](https://msdn.microsoft.com/en-us/library/Mt796938.aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestTargetDeviceFamiliesEnumerator](https://msdn.microsoft.com/en-us/library/Mt796950.aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestTargetDeviceFamily](https://msdn.microsoft.com/en-us/library/Mt796954.aspx) | Introduced in 10.0.14393. |
-| IAppxManifestPackageDependency2 | Introduced in 10.0.14393. |
+| [IAppxManifestReader3](https://msdn.microsoft.com/en-us/library/Mt796945(v=VS.85).aspx) | Introduced in 10.0.14393. |
+| [IAppxManifestCapabilitiesEnumerator](https://msdn.microsoft.com/en-us/library/Mt796938(v=VS.85).aspx) | Introduced in 10.0.14393. |
+| [IAppxManifestTargetDeviceFamiliesEnumerator](https://msdn.microsoft.com/en-us/library/Mt796950(v=VS.85).aspx) | Introduced in 10.0.14393. |
+| [IAppxManifestTargetDeviceFamily](https://msdn.microsoft.com/en-us/library/Mt796954(v=VS.85).aspx) | Introduced in 10.0.14393. |
+| [IAppxManifestPackageDependency2](https://msdn.microsoft.com/en-us/library/Mt845795(v=VS.85).aspx) | Introduced in 10.0.14393. |
 | [IAppxManifestResourcesEnumerator](https://msdn.microsoft.com/en-us/library/windows/desktop/hh446752.aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestReader4](https://msdn.microsoft.com/en-us/library/Mt796948.aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestOptionalPackageInfo](https://msdn.microsoft.com/en-us/library/Mt796942.aspx) | Introduced in 10.0.14393. |
-| [IXblIdpAuthManager](https://msdn.microsoft.com/en-us/library/Mt709230.aspx) | Introduced in 10.0.14393. |
-| [IXblIdpAuthTokenResult](https://msdn.microsoft.com/en-us/library/Mt709237.aspx) | Introduced in 10.0.14393. |
-| [IAudioFormatEnumerator](https://msdn.microsoft.com/en-us/library/Mt779256.aspx) | Introduced in 10.0.15063. |
-| [ID2D1CommandSink3](https://msdn.microsoft.com/en-us/library/Mt619822.aspx) | Introduced in 10.0.15063. |
-| [ID2D1CommandSink4](https://msdn.microsoft.com/en-us/library/Mt797801.aspx) | Introduced in 10.0.15063. |
-| [ID2D1Device3](https://msdn.microsoft.com/en-us/library/Mt619824.aspx) | Introduced in 10.0.15063. |
-| [ID2D1Device4](https://msdn.microsoft.com/en-us/library/Mt736464.aspx) | Introduced in 10.0.15063. |
-| [ID2D1Device5](https://msdn.microsoft.com/en-us/library/Mt797803.aspx) | Introduced in 10.0.15063. |
-| [ID2D1DeviceContext3](https://msdn.microsoft.com/en-us/library/Mt619826.aspx) | Introduced in 10.0.15063. |
-| [ID2D1DeviceContext4](https://msdn.microsoft.com/en-us/library/Mt736468.aspx) | Introduced in 10.0.15063. |
-| [ID2D1DeviceContext5](https://msdn.microsoft.com/en-us/library/Mt797806.aspx) | Introduced in 10.0.15063. |
-| [ID2D1Factory4](https://msdn.microsoft.com/en-us/library/Mt619831.aspx) | Introduced in 10.0.15063. |
-| [ID2D1Factory5](https://msdn.microsoft.com/en-us/library/Mt750191.aspx) | Introduced in 10.0.15063. |
-| [ID2D1Factory6](https://msdn.microsoft.com/en-us/library/Mt797812.aspx) | Introduced in 10.0.15063. |
-| [ID2D1SpriteBatch](https://msdn.microsoft.com/en-us/library/Mt619833.aspx) | Introduced in 10.0.15063. |
-| [ID2D1SvgAttribute](https://msdn.microsoft.com/en-us/library/Mt797814.aspx) | Introduced in 10.0.15063. |
-| [ID2D1SvgDocument](https://msdn.microsoft.com/en-us/library/Mt797817.aspx) | Introduced in 10.0.15063. |
-| [ID2D1SvgElement](https://msdn.microsoft.com/en-us/library/Mt797830.aspx) | Introduced in 10.0.15063. |
-| [ID2D1SvgGlyphStyle](https://msdn.microsoft.com/en-us/library/Mt750193.aspx) | Introduced in 10.0.15063. |
-| [ID2D1SvgPaint](https://msdn.microsoft.com/en-us/library/Mt797893.aspx) | Introduced in 10.0.15063. |
-| [ID2D1SvgPathData](https://msdn.microsoft.com/en-us/library/Mt797902.aspx) | Introduced in 10.0.15063. |
-| [ID2D1SvgPointCollection](https://msdn.microsoft.com/en-us/library/Mt797912.aspx) | Introduced in 10.0.15063. |
-| [ID2D1SvgStrokeDashArray](https://msdn.microsoft.com/en-us/library/Mt797917.aspx) | Introduced in 10.0.15063. |
-| [IDXGIAdapter4](https://msdn.microsoft.com/en-us/library/Mt825229.aspx) | Introduced in 10.0.15063. |
-| [IMFSpatialAudioObjectBuffer](https://msdn.microsoft.com/en-us/library/Mt797969.aspx) | Introduced in 10.0.15063. |
-| [IMFSpatialAudioSample](https://msdn.microsoft.com/en-us/library/Mt797975.aspx) | Introduced in 10.0.15063. |
-| [ISpatialAudioObject](https://msdn.microsoft.com/en-us/library/Mt779268.aspx) | Introduced in 10.0.15063. |
-| [ISpatialAudioObjectRenderStream](https://msdn.microsoft.com/en-us/library/Mt779280.aspx) | Introduced in 10.0.15063. |
-| [ISpatialAudioObjectRenderStreamNotify](https://msdn.microsoft.com/en-us/library/Mt779281.aspx) | Introduced in 10.0.15063. |
-| [ISpatialAudioClient](https://msdn.microsoft.com/en-us/library/Mt779259.aspx) | Introduced in 10.0.15063. |
-| [IOplockBreakingHandler](https://msdn.microsoft.com/en-us/library/Mt743185.aspx) | Introduced in 10.0.16299. |
-| IStorageItemHandleAccess | Introduced in 10.0.16299. |
-| [IStorageFolderHandleAccess](https://msdn.microsoft.com/en-us/library/Mt765061.aspx) | Introduced in 10.0.16299. |
+| [IAppxManifestReader4](https://msdn.microsoft.com/en-us/library/Mt796948(v=VS.85).aspx) | Introduced in 10.0.14393. |
+| [IAppxManifestOptionalPackageInfo](https://msdn.microsoft.com/en-us/library/Mt796942(v=VS.85).aspx) | Introduced in 10.0.14393. |
+| [IXblIdpAuthManager](https://msdn.microsoft.com/en-us/library/Mt709230(v=VS.85).aspx) | Introduced in 10.0.14393. |
+| [IXblIdpAuthTokenResult](https://msdn.microsoft.com/en-us/library/Mt709237(v=VS.85).aspx) | Introduced in 10.0.14393. |
+| [IAudioFormatEnumerator](https://msdn.microsoft.com/en-us/library/Mt779256(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ID2D1CommandSink3](https://msdn.microsoft.com/en-us/library/Mt619822(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ID2D1CommandSink4](https://msdn.microsoft.com/en-us/library/Mt797801(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ID2D1Device3](https://msdn.microsoft.com/en-us/library/Mt619824(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ID2D1Device4](https://msdn.microsoft.com/en-us/library/Mt736464(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ID2D1Device5](https://msdn.microsoft.com/en-us/library/Mt797803(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ID2D1DeviceContext3](https://msdn.microsoft.com/en-us/library/Mt619826(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ID2D1DeviceContext4](https://msdn.microsoft.com/en-us/library/Mt736468(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ID2D1DeviceContext5](https://msdn.microsoft.com/en-us/library/Mt797806(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ID2D1Factory4](https://msdn.microsoft.com/en-us/library/Mt619831(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ID2D1Factory5](https://msdn.microsoft.com/en-us/library/Mt750191(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ID2D1Factory6](https://msdn.microsoft.com/en-us/library/Mt797812(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ID2D1SpriteBatch](https://msdn.microsoft.com/en-us/library/Mt619833(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ID2D1SvgAttribute](https://msdn.microsoft.com/en-us/library/Mt797814(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ID2D1SvgDocument](https://msdn.microsoft.com/en-us/library/Mt797817(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ID2D1SvgElement](https://msdn.microsoft.com/en-us/library/Mt797830(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ID2D1SvgGlyphStyle](https://msdn.microsoft.com/en-us/library/Mt750193(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ID2D1SvgPaint](https://msdn.microsoft.com/en-us/library/Mt797893(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ID2D1SvgPathData](https://msdn.microsoft.com/en-us/library/Mt797902(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ID2D1SvgPointCollection](https://msdn.microsoft.com/en-us/library/Mt797912(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ID2D1SvgStrokeDashArray](https://msdn.microsoft.com/en-us/library/Mt797917(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [IDXGIAdapter4](https://msdn.microsoft.com/en-us/library/Mt825229(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [IMFSpatialAudioObjectBuffer](https://msdn.microsoft.com/en-us/library/Mt797969(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [IMFSpatialAudioSample](https://msdn.microsoft.com/en-us/library/Mt797975(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [IOplockBreakingHandler](https://msdn.microsoft.com/en-us/library/Mt743185(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ISpatialAudioObject](https://msdn.microsoft.com/en-us/library/Mt779268(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ISpatialAudioObjectRenderStream](https://msdn.microsoft.com/en-us/library/Mt779280(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ISpatialAudioObjectRenderStreamNotify](https://msdn.microsoft.com/en-us/library/Mt779281(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ISpatialAudioClient](https://msdn.microsoft.com/en-us/library/Mt779259(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [IStorageItemHandleAccess](https://msdn.microsoft.com/en-us/library/Mt765063(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [IStorageFolderHandleAccess](https://msdn.microsoft.com/en-us/library/Mt765061(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| IRemoteSystemAdditionalInfoProvider | Introduced in 10.0.17134. |
+| IDesktopWindowXamlSourceNative | Introduced in 10.0.17763. |
+| ILearningModelDeviceFactoryNative | Introduced in 10.0.17763. |
+| ILearningModelOperatorProviderNative | Introduced in 10.0.17763. |
+| ITensorNative | Introduced in 10.0.17763. |
+| ITensorStaticsNative | Introduced in 10.0.17763. |
 
 
 COM coclasses
@@ -4166,9 +4241,9 @@ COM coclasses
 | -----| --------------|
 | AudioReverb | Introduced in 10.0.10240. |
 | AudioVolumeMeter | Introduced in 10.0.10240. |
-| AoWAppActivatedRuntime | Introduced in 10.0.10240. Removed in 10.0.15063. |
-| AoWBackgroundTaskRuntime | Introduced in 10.0.10240. Removed in 10.0.15063. |
-| [CameraUIControl](https://msdn.microsoft.com/en-us/library/Hh802717.aspx) | Introduced in 10.0.10240. |
+| AoWAppActivatedRuntime | Introduced in 10.0.10240. Removed in 10.0.16299. |
+| AoWBackgroundTaskRuntime | Introduced in 10.0.10240. Removed in 10.0.16299. |
+| CameraUIControl | Introduced in 10.0.10240. |
 | CLSID_AudioFrameNativeFactory | Introduced in 10.0.10240. |
 | CLSID_CMultiLanguage | Introduced in 10.0.10240. |
 | CLSID_CUIAutomationRegistrar | Introduced in 10.0.10240. |
@@ -4215,27 +4290,28 @@ COM coclasses
 | CLSID_WICImagingFactory1 | Introduced in 10.0.10240. |
 | CLSID_WICImagingFactory2 | Introduced in 10.0.10240. |
 | CLSID_XpsOMObjectFactory | Introduced in 10.0.10240. |
-| [FXEcho](https://msdn.microsoft.com/en-us/library/ms806754.aspx) | Introduced in 10.0.10240. |
+| FXEcho | Introduced in 10.0.10240. |
 | FXEQ | Introduced in 10.0.10240. |
 | FXMasteringLimiter | Introduced in 10.0.10240. |
 | FXReverb | Introduced in 10.0.10240. |
-| [RDPSession](https://msdn.microsoft.com/en-us/library/Mt446078.aspx) | Introduced in 10.0.10240. |
-| [RDPSRAPIApplication](https://msdn.microsoft.com/en-us/library/Aa373266.aspx) | Introduced in 10.0.10240. |
-| [RDPSRAPIApplicationFilter](https://msdn.microsoft.com/en-us/library/Aa373267.aspx) | Introduced in 10.0.10240. |
-| [RDPSRAPIApplicationList](https://msdn.microsoft.com/en-us/library/Aa373271.aspx) | Introduced in 10.0.10240. |
-| [RDPSRAPIAttendee](https://msdn.microsoft.com/en-us/library/Aa373279.aspx) | Introduced in 10.0.10240. |
-| [RDPSRAPIAttendeeDisconnectInfo](https://msdn.microsoft.com/en-us/library/Aa373280.aspx) | Introduced in 10.0.10240. |
-| [RDPSRAPIAttendeeManager](https://msdn.microsoft.com/en-us/library/Aa373284.aspx) | Introduced in 10.0.10240. |
-| [RDPSRAPIInvitation](https://msdn.microsoft.com/en-us/library/Aa373294.aspx) | Introduced in 10.0.10240. |
-| [RDPSRAPIInvitationManager](https://msdn.microsoft.com/en-us/library/Aa373295.aspx) | Introduced in 10.0.10240. |
-| [RDPSRAPISessionProperties](https://msdn.microsoft.com/en-us/library/Aa373305.aspx) | Introduced in 10.0.10240. |
-| [RDPSRAPITcpConnectionInfo](https://msdn.microsoft.com/en-us/library/Aa373321.aspx) | Introduced in 10.0.10240. |
-| [RDPSRAPIWindow](https://msdn.microsoft.com/en-us/library/Aa373371.aspx) | Introduced in 10.0.10240. |
-| [RDPSRAPIWindowList](https://msdn.microsoft.com/en-us/library/Aa373372.aspx) | Introduced in 10.0.10240. |
-| [SignalableNotifier](https://msdn.microsoft.com/en-us/library/Dn298319.aspx) | Introduced in 10.0.10240. |
-| [SpellCheckerFactory](https://msdn.microsoft.com/en-us/library/Hh869770.aspx) | Introduced in 10.0.10240. |
-| [WorkspaceBrokerAx](https://msdn.microsoft.com/en-us/library/Hh974747.aspx) | Introduced in 10.0.10240. |
-| [AppxFactory](https://msdn.microsoft.com/en-us/library/Hh446671.aspx) | Introduced in 10.0.14393. |
+| [RDPSession](https://msdn.microsoft.com/en-us/library/Mt446078(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| RDPSRAPIApplication | Introduced in 10.0.10240. |
+| RDPSRAPIApplicationFilter | Introduced in 10.0.10240. |
+| RDPSRAPIApplicationList | Introduced in 10.0.10240. |
+| RDPSRAPIAttendee | Introduced in 10.0.10240. |
+| RDPSRAPIAttendeeDisconnectInfo | Introduced in 10.0.10240. |
+| RDPSRAPIAttendeeManager | Introduced in 10.0.10240. |
+| RDPSRAPIInvitation | Introduced in 10.0.10240. |
+| RDPSRAPIInvitationManager | Introduced in 10.0.10240. |
+| RDPSRAPISessionProperties | Introduced in 10.0.10240. |
+| RDPSRAPITcpConnectionInfo | Introduced in 10.0.10240. |
+| RDPSRAPIWindow | Introduced in 10.0.10240. |
+| RDPSRAPIWindowList | Introduced in 10.0.10240. |
+| RDPViewer | Introduced in 10.0.10240. |
+| SignalableNotifier | Introduced in 10.0.10240. |
+| SpellCheckerFactory | Introduced in 10.0.10240. |
+| WorkspaceBrokerAx | Introduced in 10.0.10240. |
+| AppxFactory | Introduced in 10.0.14393. |
 | CLSID_AudioResamplerMediaObject | Introduced in 10.0.14393. |
 | CLSID_MSAACDecMFT | Introduced in 10.0.14393. |
 | CLSID_MSDDPlusDecMFT | Introduced in 10.0.14393. |
@@ -4250,6 +4326,6 @@ COM coclasses
 | CLSID_VideoProcessorMFT | Introduced in 10.0.14393. |
 | CLSID_WMADecMediaObject | Introduced in 10.0.14393. |
 | CLSID_WMVDecoderMFT | Introduced in 10.0.14393. |
-| [XblIdpAuthManager](https://msdn.microsoft.com/en-us/library/Mt709230.aspx) | Introduced in 10.0.14393. |
+| XblIdpAuthManager | Introduced in 10.0.14393. |
 
 
