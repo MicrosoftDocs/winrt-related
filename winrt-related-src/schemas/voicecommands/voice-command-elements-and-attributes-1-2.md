@@ -65,7 +65,7 @@ As with any XML file, a VCD file should begin with an XML declaration that speci
 <tr>
 <td colspan="2">Command</td>
 <td><p>Required child element of the <strong>CommandSet</strong> element.</p>
-<p>Takes the <strong>Name</strong> attribute. Defines an app action that users can initiate by speaking and what users can say to initiate the action. Each <strong>Command</strong> element can be associated with a specific page in your app. Contains the following required child elements: <strong>Example</strong> (exactly 1), <strong>ListenFor</strong> (1 to 10), <strong>Feedback</strong> (exactly 1), and <strong>Navigate</strong> (exactly 1). These child elements must occur in the order listed.</p></td>
+<p>Takes the <strong>Name</strong> attribute. Defines an app action that users can initiate by speaking and what users can say to initiate the action. Each <strong>Command</strong> element can be associated with a specific page in your app. Contains the following required child elements: <strong>Example</strong> (exactly 1), <strong>ListenFor</strong> (1 to 20), <strong>Feedback</strong> (exactly 1), and <strong>Navigate</strong> (exactly 1). These child elements must occur in the order listed.</p></td>
 </tr>
 <tr>
 <td colspan="2">Example</td>
