@@ -7,7 +7,7 @@ ms.date: 04/23/2018
 ms.topic: "language-reference"
 ms.prod: windows
 ms.technology: uwp
-keywords: windows 10, uwp, winrt, api, reference, idl, midl, 3.0
+keywords: windows 10, uwp, winrt, api, reference, idl, midl, 3.0, 3, midl3
 ms.localizationpriority: medium
 ---
 
