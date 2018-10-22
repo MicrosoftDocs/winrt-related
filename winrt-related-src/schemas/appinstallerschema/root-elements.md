@@ -14,8 +14,6 @@ keywords: windows 10, uwp, app installer, AppInstaller, sideload, related set, o
 
 The following list summarizes the allowed hierarchies for the App Installer file schema, starting with the outermost element at the top.
 
-<Organize schema elements in hierarchy, include links to schema element pages>
-
 -   [AppInstaller](element-appinstaller.md)
     -   [MainBundle](element-main-bundle.md)     
     -   [MainPackage](element-main-package.md)   
