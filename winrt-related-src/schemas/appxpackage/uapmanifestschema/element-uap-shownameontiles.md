@@ -111,15 +111,15 @@ None.
 
  
 
-## Remarks
+## Examples
 
-This example shows how to use [**ShowNameOnTiles**](https://msdn.microsoft.com/library/windows/apps/dn391685):
+This example shows how to use the [**ShowNameOnTiles**](element-uap-shownameontiles.md) and [**ShowOn**](element-uap-showon.md) elements:
 
-``` syntax
-          <uap:ShowNameOnTiles>
-            <uap:ShowOn Tile="square150x150Logo"/> // Show app name on 150x150 logo
-            <uap:ShowOn Tile="wide310x150Logo"/> // Show app name on 310x150 Logo
-          </uap:ShowNameOnTiles>
+``` XML
+<uap:ShowNameOnTiles>
+    <uap:ShowOn Tile="square150x150Logo"/> <!-- Show app name on the 150x150 tile -->
+    <uap:ShowOn Tile="wide310x150Logo"/> <!-- …and also on the 310x150 tile -->
+</uap:ShowNameOnTiles>
 ```
 
 ## Requirements
