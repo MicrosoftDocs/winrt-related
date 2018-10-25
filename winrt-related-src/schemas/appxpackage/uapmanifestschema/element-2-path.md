@@ -6,8 +6,8 @@ ms.assetid: 4522dd59-287a-4c40-8054-168d06f61a08
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 ms.topic: reference
 ms.date: 04/05/2017
 ---

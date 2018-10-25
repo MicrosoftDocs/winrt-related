@@ -4,8 +4,8 @@ description: See a list of all API contracts within the Windows Mobile Extension
 ms.assetid: 3ADFCD07-CFD3-4C4D-90CA-32796771DEF7
 ms.author: twhitney
 author: TylerMSFT
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 ms.topic: reference
 ms.date: 5/2/2018
 keywords: windows 10, uwp, mobile extension sdk, api contract

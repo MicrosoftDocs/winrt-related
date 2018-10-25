@@ -6,8 +6,8 @@ description: Contains the media codec input types.
 ms.author: lahugh
 ms.date: 04/05/2017
 ms.topic: reference
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 

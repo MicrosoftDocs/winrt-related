@@ -6,8 +6,8 @@ ms.assetid: 997887c9-9a62-4a03-8f2f-e7919392d637
 author: mcleblanc
 ms.author: markl
 keywords: windows 10, uwp, schema, tiles, toasts, badges
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 ms.topic: reference
 ms.date: 04/05/2017
 ---

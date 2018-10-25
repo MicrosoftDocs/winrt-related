@@ -4,8 +4,8 @@ description: Learn which features of the Windows API can be used in a Universal 
 title: Alternatives to Windows APIs in Universal Windows Platform (UWP) apps
 ms.author: misatran
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
+
+
 keywords: windows 10, uwp, win32, COM, alternatives
 ms.date: 05/24/2017
 ms.assetid: 5F130082-8F18-483A-8445-C829E9AFE26D

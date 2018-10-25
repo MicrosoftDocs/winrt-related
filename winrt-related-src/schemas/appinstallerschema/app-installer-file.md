@@ -5,8 +5,8 @@ title: App Installer file
 description: An App Installer file is an XML document (*.appinstaller) that contains app package and bundle information for defining the packages that are part of a related set.
 ms.topic: reference
 ms.date: 10/10/2017
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 keywords: windows 10, uwp, app installer, AppInstaller, sideload, related set, optional packages
 ---
 

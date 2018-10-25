@@ -5,8 +5,8 @@ title: AppInstaller
 description: Defines the root element of an appinstaller file.
 ms.topic: reference
 ms.date: 04/03/2017
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 keywords: windows 10, uwp, app installer, AppInstaller, sideload, related set, optional packages
 ---
 

@@ -4,8 +4,8 @@ description: Describes the Windows Ink Services Platform's (WISP) Ink Serialized
 title: Ink Serialized Format (ISF) Specification
 ms.author: kbridge
 ms.topic: reference
-ms.prod: windows
-ms.technology: uwp, win32, ink, office
+
+
 keywords: windows 10, uwp, ink, isf
 ms.date: 02/20/2018
 ---
@@ -41,7 +41,8 @@ In the simplest case, ink is simply a sequence of strokes, where each stroke is 
 
 ## General Description
 
-ISF has the following basic structure shown in the diagram below. Each ISF stream begins with a number that identifies the version of ISF used when writing the file. Following the ISF Version number is a number that indicates the size, in bytes, of all the Global Ink Properties and all the Strokes. Next comes a list of all the properties, both custom and predefined, that apply to the ink as a whole and last comes the list of strokes that make up the ink.
+ISF has the following basic structure shown in the diagram below. Each ISF stream begins with a number that identifies the version of ISF used when writing the file. Following the ISF Version number is a number that indicates the size, in bytes, of all the Global Ink Properties and all the Strokes. Next comes a list of all the properties, both custom and predefined, that apply to the ink as a whole and last comes the list of strokes that make up the ink.
+
 <table border="1">
 <tr>
 <td>ISF Version Number</td>

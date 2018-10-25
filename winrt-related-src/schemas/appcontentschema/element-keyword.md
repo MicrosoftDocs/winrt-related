@@ -6,8 +6,8 @@ ms.assetid: 16dd7165-e581-4b91-b938-6c0f63b5e977
 author: mcleblanc
 ms.author: markl
 keywords: windows 10, uwp, schema
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 ms.topic: reference
 ms.date: 04/05/2017
 ---

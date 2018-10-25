@@ -6,8 +6,8 @@ description: Enables OLE to get the OLE class registered for a given file extens
 ms.author: lahugh
 ms.date: 04/05/2017
 ms.topic: reference
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 

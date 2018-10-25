@@ -3,8 +3,8 @@ title: License for the Windows UI Library
 description: Lists toolkits for UWP app development. 
 ms.author: mijacobs
 author: mijacobs
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 ms.topic: reference
 ms.date: 07/13/2018
 keywords: windows 10, uwp, toolkit sdk

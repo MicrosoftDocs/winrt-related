@@ -5,8 +5,8 @@ description: When declared in an app, this ensures that all files it creates and
 ms.author: lahugh
 ms.date: 10/03/2018
 ms.topic: reference
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 

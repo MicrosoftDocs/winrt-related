@@ -4,8 +4,8 @@ description: See a list of all API contracts in the Xbox Live Extensions SDK for
 ms.assetid: 96854160-5b2e-4027-90a3-0477d612bef5
 ms.author: twhitney
 author: TylerMSFT
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 ms.topic: reference
 ms.date: 04/05/2017
 keywords: windows 10, uwp, xbox live extensions sdk, api contract

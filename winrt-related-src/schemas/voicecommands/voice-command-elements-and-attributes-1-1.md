@@ -6,8 +6,8 @@ ms.assetid: af84a2cc-067e-456b-801a-1c3bc14f3bfe
 author: karl-bridge-microsoft
 ms.author: kbridge
 keywords: windows 10, uwp, schema, cortana, voice commands, vcd
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 ms.topic: reference
 ms.date: 04/05/2017
 ---

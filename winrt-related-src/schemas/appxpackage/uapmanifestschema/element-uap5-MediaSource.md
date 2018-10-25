@@ -5,8 +5,8 @@ description: Specifies the media source and the app service that it exposes.
 ms.author: lahugh
 ms.date: 10/10/2017
 ms.topic: reference
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 

@@ -4,8 +4,8 @@ description: A Universal Windows Platform (UWP) app (or a Windows Runtime compon
 title: Win32 and COM APIs for UWP apps
 ms.author: misatran
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
+
+
 keywords: windows 10, uwp, win32, COM
 ms.date: 04/05/2017
 ms.assetid: BB6F6100-85F3-4B35-A2AB-FA677671AADA

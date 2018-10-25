@@ -6,8 +6,8 @@ ms.assetid: 78359fce-826c-4c1c-9afb-9651ac34cdfa
 author: mcleblanc
 ms.author: markl
 keywords: windows 10, uwp, schema, toast notifications
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 ms.topic: reference
 ms.date: 04/05/2017
 ---

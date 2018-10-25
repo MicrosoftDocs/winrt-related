@@ -5,8 +5,8 @@ description: Contains registry keys for discovering classic app installations an
 ms.author: lahugh
 ms.date: 04/10/2018
 ms.topic: reference
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 

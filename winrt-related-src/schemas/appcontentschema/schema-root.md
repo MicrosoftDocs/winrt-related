@@ -5,11 +5,11 @@ description: The Application content schema for UWP apps enables developers to e
 author: mcleblanc
 ms.author: markl
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
+
+
 keywords: windows 10, uwp, schema
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 ms.topic: reference
 ms.date: 04/05/2017
 ---

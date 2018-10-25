@@ -5,8 +5,8 @@ title: MainBundle
 description: The MainBundle element specifies the information about the bundle package which includes name, publisher, version and uri. 
 ms.topic: reference
 ms.date: 10/10/2017
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 keywords: windows 10, uwp, app installer, AppInstaller, sideload, related set, optional packages
 ---
 

@@ -4,8 +4,8 @@ description: Lists the extension SDKs and their versions, with links to topics t
 ms.assetid: 9C4F57CB-6E45-4B42-9852-67B0EFB63450
 ms.author: twhitney
 author: TylerMSFT
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 ms.topic: reference
 ms.date: 03/28/2018
 keywords: windows 10, uwp, extension sdk

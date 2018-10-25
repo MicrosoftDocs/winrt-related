@@ -4,8 +4,8 @@ description: Lists all of the API contracts within the Windows Desktop Extension
 ms.assetid: 9C4F57CB-6E45-4B42-9852-67B0EFB63450
 ms.author: twhitney
 author: TylerMSFT
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 ms.topic: reference
 ms.date: 5/2/2018
 keywords: windows 10, uwp, desktop extension sdk, api contract

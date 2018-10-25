@@ -5,8 +5,8 @@ title: OnLaunch
 description: This element signifies that the deployment service will check for an update to the appinstaller file on the app launch.
 ms.topic: reference
 ms.date: 04/03/2017
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 keywords: windows 10, uwp, app installer, AppInstaller, sideload
 ---
 

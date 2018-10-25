@@ -4,8 +4,8 @@ title: uap5:DriverDependency
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest, driver dependency
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 ms.topic: reference
 ms.date: 10/10/17
 ---

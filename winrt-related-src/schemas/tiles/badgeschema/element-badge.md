@@ -6,8 +6,8 @@ ms.assetid: b16170df-5c92-4b03-8f4d-6d155d114725
 author: mcleblanc
 ms.author: markl
 keywords: windows 10, uwp, schema, badges
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 ms.topic: reference
 ms.date: 04/05/2017
 ---

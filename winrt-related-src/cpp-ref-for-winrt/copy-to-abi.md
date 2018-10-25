@@ -5,10 +5,10 @@ title: winrt::copy_to_abi function (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/11/2018
-ms.technology: "cpp-windows"
+
 ms.topic: "language-reference"
-ms.prod: windows
-ms.technology: uwp
+
+
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, copy_to_abi
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
