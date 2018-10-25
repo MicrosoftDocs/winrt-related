@@ -5,8 +5,8 @@ title: Package
 description: The Package element specifies the information about the package which includes name, publisher, version and uri. ProcessorArchitecture is an optional attribute of the Package.
 ms.topic: reference
 ms.date: 10/10/2017
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 keywords: windows 10, uwp, app installer, AppInstaller, sideload, related set, optional packages
 ---
 

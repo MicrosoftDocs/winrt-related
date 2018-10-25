@@ -5,8 +5,8 @@ title: RelatedPackages
 description: An optional element that is used to specify the other optional packages that are specified in the main app package. These packages will not be installed as part of the deployment operation.
 ms.topic: reference
 ms.date: 10/10/2017
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 keywords: windows 10, uwp, app installer, AppInstaller, sideload, related set, optional packages
 ---
 

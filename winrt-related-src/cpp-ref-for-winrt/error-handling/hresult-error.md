@@ -5,10 +5,10 @@ title: winrt::hresult_error struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/25/2018
-ms.technology: "cpp-windows"
+
 ms.topic: "language-reference"
-ms.prod: windows
-ms.technology: uwp
+
+
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, hresult, error, code
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]

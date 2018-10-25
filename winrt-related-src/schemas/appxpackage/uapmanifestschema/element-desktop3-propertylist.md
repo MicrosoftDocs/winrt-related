@@ -5,8 +5,8 @@ description: Contains the properties that are under the Properties tab of a file
 ms.author: lahugh
 ms.date: 10/10/2017
 ms.topic: reference
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 

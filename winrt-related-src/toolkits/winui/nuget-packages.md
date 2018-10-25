@@ -3,8 +3,8 @@ title: NuGet package list for the Windows UI Library
 description: Lists the NuGet packages in the Windows UI Library 
 ms.author: mijacobs
 author: mijacobs
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 ms.topic: reference
 ms.date: 07/13/2018
 keywords: windows 10, uwp, toolkit sdk

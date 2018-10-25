@@ -5,8 +5,8 @@ description: Declares an extensibility point for the app.
 ms.author: lahugh
 ms.date: 10/03/2018
 ms.topic: reference
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 keywords: windows 10, uwp, schema, manifest, extension 
 ---
 

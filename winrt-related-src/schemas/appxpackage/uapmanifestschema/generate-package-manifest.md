@@ -5,8 +5,8 @@ description: When you build an app, Visual Studio generates an associated packag
 ms.author: lahugh
 ms.date: 11/29/2017
 ms.topic: article
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 keywords: windows 10, uwp, schema, package manifest, Visual Studio
 ---
 

@@ -6,8 +6,8 @@ ms.assetid: 82ca95f2-5bb4-475f-a052-e82d003b1ab5
 author: mcleblanc
 ms.author: markl
 keywords: windows 10, uwp, schema, tiles
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 ms.topic: reference
 ms.date: 04/05/2017
 ---

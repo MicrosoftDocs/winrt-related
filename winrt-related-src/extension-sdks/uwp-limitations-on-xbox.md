@@ -4,8 +4,8 @@ description: Xbox runs Windows 10, which means that it shares the same core ope
 ms.assetid: BAFF8085-8DDB-4DBA-AB3D-70DC92CD27AE
 ms.author: twhitney
 author: TylerMSFT
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 ms.topic: reference
 ms.date: 09/06/2017
 keywords: windows 10, uwp, xbox

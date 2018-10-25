@@ -4,11 +4,11 @@ description: Contains a list of all the localizable items in the app package man
 author: laurenhughes
 ms.author: lahugh
 ms.topic: reference
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 keywords: windows 10, uwp, schema, package manifest
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 ms.topic: reference
 ms.date: 08/14/2017
 ---

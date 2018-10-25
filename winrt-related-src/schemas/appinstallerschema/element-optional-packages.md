@@ -5,8 +5,8 @@ title: OptionalPackages
 description: Defines the optional packages that will be installed along with the main package.
 ms.topic: reference
 ms.date: 10/10/2017
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 keywords: windows 10, uwp, app installer, AppInstaller, sideload, related set, optional packages
 ---
 

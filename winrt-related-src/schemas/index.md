@@ -5,8 +5,8 @@ description: Provides information about file and XML schema specifications for U
 title: File and XML schema specifications for UWP apps
 ms.author: markl
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
+
+
 keywords: windows 10, uwp, schema
 ms.date: 10/10/2017
 ---

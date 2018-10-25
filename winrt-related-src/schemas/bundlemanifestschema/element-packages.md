@@ -6,8 +6,8 @@ ms.assetid: 2e6638ac-df50-43a8-be6a-7190c8e4486f
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, bundle manifest
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 ms.topic: reference
 ms.date: 04/05/2017
 ---

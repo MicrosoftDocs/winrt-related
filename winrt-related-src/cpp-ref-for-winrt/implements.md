@@ -5,10 +5,10 @@ title: winrt::implements struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/17/2018
-ms.technology: "cpp-windows"
+
 ms.topic: "language-reference"
-ms.prod: windows
-ms.technology: uwp
+
+
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, implement, interface
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]

@@ -4,8 +4,8 @@ description: This topic lists the Win32 APIs that are part of the Universal Wind
 title: APIs present on all Windows 10 devices (grouped by module)
 ms.author: misatran
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
+
+
 keywords: windows 10, uwp, win32, COM
 ms.date: 10/10/2018
 ms.assetid: 9763fa67-0f32-4128-b901-013b1d7ea73c

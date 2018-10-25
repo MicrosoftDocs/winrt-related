@@ -4,8 +4,8 @@ description: This topic lists the Win32 and COM APIs that are part of the Univer
 title: Extension APIs for Windows 10 devices (grouped by module)
 ms.author: misatran
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
+
+
 keywords: windows 10, uwp, win32, COM
 ms.date: 10/10/2018
 ms.assetid: e8d54f37-9969-4f33-8b1b-fcb3d659c507

@@ -4,8 +4,8 @@ title: Previous app package manifest schema versions
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest, windows 8, win8, windows 8.1
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 ms.topic: reference
 ms.date: 08/07/2017
 ---

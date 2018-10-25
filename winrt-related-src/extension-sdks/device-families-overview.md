@@ -3,8 +3,8 @@ title: Device families overview
 description: Describes what device families are and how to use them.
 ms.author: twhitney
 author: TylerMSFT
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 ms.topic: reference
 ms.date: 05/7/2018
 keywords: windows 10, uwp, device family, extension sdk

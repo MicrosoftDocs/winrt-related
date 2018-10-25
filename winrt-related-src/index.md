@@ -3,8 +3,8 @@ layout: LandingPage
 title: API reference for Universal Windows Platform (UWP) apps
 description: Learn about the APIs for developing UWP apps for Windows 10, or learn about the main programming languages from which you can call Windows APIs.
 ms.author: markl
-ms.prod: windows
-ms.technology: uwp
+
+
 ms.topic: landing-page
 ms.date: 04/05/2017
 ---

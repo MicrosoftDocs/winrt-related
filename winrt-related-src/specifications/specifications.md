@@ -4,8 +4,8 @@ description: Provides information about filetype specifications for Universal Wi
 title: Filetype specifications for UWP apps
 ms.author: kbridge
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp, win32, ink, office
+
+
 keywords: windows 10, uwp, win32, ink
 ms.date: 02/20/2018
 ---

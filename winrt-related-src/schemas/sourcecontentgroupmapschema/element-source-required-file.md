@@ -6,8 +6,8 @@ description: The files specified in the required content group.
 ms.author: lahugh
 ms.date: 03/29/2017
 ms.topic: article
-ms.prod: windows
-ms.technology: uwp
+
+
 keywords: windows 10, uwp, streaming install, content group, map, final content group, automatic content group
 ---
 

@@ -4,8 +4,8 @@ description: See a list of all API contracts within the Windows Internet of Thin
 ms.assetid: 4d70dc2e-060a-4105-bce5-ec5c27171fce
 ms.author: twhitney
 author: TylerMSFT
-ms.prod: windows
-ms.technology: winrt-reference
+
+
 ms.topic: reference
 ms.date: 5/2/2018
 keywords: windows 10, uwp, iot extension sdk, api contract
