@@ -24,7 +24,7 @@ inline auto resume_background();
 ```
 
 ### Return value
-An object that you can `co-await`.
+An object that you can `co_await`.
 
 ## Requirements
 **Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
