@@ -16,7 +16,7 @@ ms.workload: ["cplusplus"]
 
 # winrt::resume_foreground struct (C++/WinRT)
 
-A struct&mdash;for use within a coroutine&mdash;that you can `co-await` to switch execution to a specific foreground thread. For more info, and a code example, see [Programming with thread affinity in mind](/windows/uwp/cpp-and-winrt-apis/concurrency#programming-with-thread-affinity-in-mind).
+A struct&mdash;for use within a coroutine&mdash;that you can `co_await` to switch execution to a specific foreground thread. For more info, and a code example, see [Programming with thread affinity in mind](/windows/uwp/cpp-and-winrt-apis/concurrency#programming-with-thread-affinity-in-mind).
 
 ## Syntax
 ```cppwinrt
