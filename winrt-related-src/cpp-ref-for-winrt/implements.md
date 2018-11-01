@@ -18,7 +18,7 @@ ms.workload: ["cplusplus"]
 
 This is the base from which your own [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) implementations directly or indirectly derive. It implements one or more Windows Runtime interfaces (which you specify to it as type parameters), and it also provides efficient implementations of [IUnknown](https://msdn.microsoft.com/library/windows/desktop/ms680509), [IInspectable](/windows/desktop/api/inspectable/nn-inspectable-iinspectable), [IAgileObject](https://msdn.microsoft.com/library/windows/desktop/hh802476), [IWeakReferenceSource](/windows/desktop/api/weakreference/nn-weakreference-iweakreferencesource), and others.
 
-For more info about deriving from this type, and examples, see [Interfaces; how to implement them in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis).
+For more info about deriving from this type, and examples, see [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis).
 
 ## Marker types
 The **implements** struct template supports the [non_agile](non-agile.md) and [no_weak_ref](no-weak-ref.md) marker types, which override default behavior. They should be rarely used, because the defaults are sufficient for almost all cases. A marker type can appear anywhere in the interface list, which is the variadic parameter pack.
@@ -198,5 +198,5 @@ The **implements** object converted to a **Windows::Foundation::IInspectable**.
 ## See also 
 * [winrt namespace](winrt.md)
 * [winrt::weak_ref struct template](weak-ref.md)
-* [Interfaces; how to implement them in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/implement-an-interface)
+* [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis)
 * [Strong and weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references)
