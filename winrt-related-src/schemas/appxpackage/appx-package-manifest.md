@@ -6,10 +6,9 @@ ms.assetid: e3b9d324-c3cd-46e4-b160-37a45e1c349b
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 08/07/2017
+ms.custom: RS5
 ---
 
 # App package manifest

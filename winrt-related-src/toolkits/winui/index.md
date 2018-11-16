@@ -3,11 +3,10 @@ title: Windows UI library
 description: Lists toolkits for UWP app development. 
 ms.author: mijacobs
 author: mijacobs
-
-
 ms.topic: reference
 ms.date: 10/02/2018
 keywords: windows 10, uwp, toolkit sdk
+ms.custom: RS5
 ---
 
 # Windows UI Library 
