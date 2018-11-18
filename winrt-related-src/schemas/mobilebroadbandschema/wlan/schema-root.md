@@ -137,7 +137,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 
 The full WLAN schema is below:
 
-``` syntax
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <xs:schema targetNamespace="http://www.microsoft.com/networking/CarrierControl/WLAN/v1"  
     elementFormDefault="qualified"  
@@ -199,9 +199,9 @@ The full WLAN schema is below:
             </xs:element>  
 
       <!-- SSID and SSIDPrefix elements from v2 namespace can be set here.
-        <xs:element name="SSID" minOccurance="0" maxOccurance="10000"
+        <xs:element name="SSID" minOccurrence="0" maxOccurrence="10000"
           namespace="http://www.microsoft.com/networking/WLAN/profile/v2"/> 
-        <xs:element name="SSIDPrefix" minOccurance="0" maxOccurance="32"
+        <xs:element name="SSIDPrefix" minOccurrence="0" maxOccurrence="32"
           namespace="http://www.microsoft.com/networking/WLAN/profile/v2"/>
       -->      
 
