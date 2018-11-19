@@ -137,7 +137,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 
 The full WLAN schema is below:
 
-```syntax
+``` syntax
 <?xml version="1.0" encoding="utf-8"?>  
 <xs:schema targetNamespace="http://www.microsoft.com/networking/CarrierControl/WLAN/v1"  
     elementFormDefault="qualified"  
