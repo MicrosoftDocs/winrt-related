@@ -189,3 +189,23 @@ unsealed runtimeclass StateTriggerBase
 As a result, when your class description doesn't otherwise reference an
 interface, but when one is needed to implement the class, the MIDL 3.0
 compiler synthesizes and adds interfaces, as necessary.
+
+## The `[default]` attribute
+If you don't specify a default interface, then the MIDL 3.0 compiler chooses the first instance interface. To override this selection, insert The `default` attribute before the interface that you want to be the default interface.
+
+```idl
+// Declaring an external interface as the default
+runtimeclass C : [default]I { ... }
+
+// Declaring a specific exclusiveto interface as the default.
+// This is very unusual.
+runtimeclass C
+{
+    ...
+
+    [default][interface_name(...)]
+    {
+        ...
+    }
+}
+```
