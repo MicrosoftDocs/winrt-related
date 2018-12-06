@@ -14,6 +14,38 @@ keywords: windows 10, uwp, universal sdk, extension contract
 
 Lists all of the API contracts in the Windows Universal Platform (UWP) SDK.
 
+## Version 10.0.17763.0
+
+Windows.AI.MachineLearning.MachineLearningContract, version=1.0
+Windows.AI.MachineLearning.Preview.MachineLearningPreviewContract, version=2.0
+Windows.ApplicationModel.Calls.Background.CallsBackgroundContract, version=1.0
+Windows.ApplicationModel.Calls.CallsPhoneContract, version=4.0
+Windows.ApplicationModel.Calls.CallsVoipContract, version=4.0
+Windows.ApplicationModel.CommunicationBlocking.CommunicationBlockingContract, version=2.0
+Windows.ApplicationModel.SocialInfo.SocialInfoContract, version=2.0
+Windows.ApplicationModel.StartupTaskContract, version=3.0
+Windows.Devices.Custom.CustomDeviceContract, version=1.0
+Windows.Devices.DevicesLowLevelContract, version=3.0
+Windows.Devices.Printers.PrintersContract, version=1.0
+Windows.Devices.SmartCards.SmartCardBackgroundTriggerContract, version=3.0
+Windows.Devices.SmartCards.SmartCardEmulatorContract, version=6.0
+Windows.Foundation.FoundationContract, version=3.0
+Windows.Foundation.UniversalApiContract, version=7.0
+Windows.Gaming.XboxLive.StorageApiContract, version=1.0
+Windows.Graphics.Printing3D.Printing3DContract, version=4.0
+Windows.Networking.Connectivity.WwanContract, version=2.0
+Windows.Networking.Sockets.ControlChannelTriggerContract, version=3.0
+Windows.Services.Maps.GuidanceContract, version=3.0
+Windows.Services.Maps.LocalSearchContract, version=4.0
+Windows.Services.Store.StoreContract, version=4.0
+Windows.Services.TargetedContent.TargetedContentContract, version=1.0
+Windows.System.Profile.ProfileHardwareTokenContract, version=1.0
+Windows.System.Profile.ProfileSharedModeContract, version=2.0
+Windows.System.Profile.SystemManufacturers.SystemManufacturersContract, version=3.0
+Windows.System.SystemManagementContract, version=6.0
+Windows.UI.ViewManagement.ViewManagementViewScalingContract, version=1.0
+Windows.UI.Xaml.Core.Direct.XamlDirectContract, version=1.0
+
 ## Version 10.0.17134.1
 
 Windows.AI.MachineLearning.Preview.MachineLearningPreviewContract, version=1.0
