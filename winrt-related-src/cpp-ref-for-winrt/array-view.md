@@ -4,11 +4,8 @@ description: A view, or span, of a contiguous series of values.
 title: winrt::array_view struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-ms.date: 04/10/2018
-
+ms.date: 01/04/2019
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, array, view, array_view, span
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -51,7 +48,7 @@ The type of the values (elements) that the **array_view** views, or spans.
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[array_view::array_view constructor](#arrayviewarrayview-constructor)|Initializes a new instance of the **array_view** struct with a copy of the input data.|
+|[array_view::array_view constructor](#arrayviewarrayview-constructor)|Initializes a new instance of the **array_view** struct as a view over (and not a copy of) the input data.|
 
 ## Member functions
 |Function|Description|
@@ -106,7 +103,7 @@ void Iterators(array_view<T> const& theArrayView)
 ```
 
 ## array_view::array_view constructor
-Initializes a new instance of the **array_view** struct with a copy of the input data.
+Initializes a new instance of the **array_view** struct as a view over (and not a copy of) the input data.
 
 ### Syntax
 ```cppwinrt
