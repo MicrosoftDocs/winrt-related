@@ -60,8 +60,8 @@ Declares an extensibility point for the app.
 
 | Child Element | Description |
 |---------------|-------------|
-| [FirewallRules](element-desktop2-appprinter.md) | Specifies firewall exception rules used by Windows Desktop Bridge apps. |  
-| [DesktopEventLogging](element-desktop2-searchfilterhandler.md) | Enables Windows Desktop Bridge apps to register for Windows event logging. | 
+| [FirewallRules](element-desktop2-firewallrules.md) | Specifies firewall exception rules used by Windows Desktop Bridge apps. |  
+| [DesktopEventLogging](element-desktop2-desktopeventlogging.md) | Enables Windows Desktop Bridge apps to register for Windows event logging. | 
 
 
 ## Requirements
