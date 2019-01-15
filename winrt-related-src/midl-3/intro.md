@@ -5,8 +5,6 @@ title: Introduction to Microsoft Interface Definition Language 3.0
 ms.author: stwhi
 ms.date: 04/23/2018
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, winrt, api, reference, idl, midl, 3.0, 3, midl3
 ms.localizationpriority: medium
 ---
@@ -1084,4 +1082,18 @@ runtimeclass Widget
         Single Rate;
     }
 }
+```
+
+## Nested parameterized types, and whitespace
+
+The example below produces *error MIDL2025: [msg]syntax error [context]: expecting > or, near ">>"*.
+
+```idl
+Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector<String>> RetrieveCollectionAsync();
+```
+
+Instead, insert a space between the two `>` characters so that the pair of template-closing characters is not misinterpreted as a right-shift operator.
+
+```idl
+Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector<String> > RetrieveCollectionAsync();
 ```
