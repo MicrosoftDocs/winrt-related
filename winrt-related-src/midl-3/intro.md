@@ -1084,7 +1084,7 @@ runtimeclass Widget
 }
 ```
 
-## Nested parameterized types, and whitespace
+## Parameterized types
 
 The example below produces *error MIDL2025: [msg]syntax error [context]: expecting > or, near ">>"*.
 
@@ -1096,4 +1096,10 @@ Instead, insert a space between the two `>` characters so that the pair of templ
 
 ```idl
 Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector<String> > RetrieveCollectionAsync();
+```
+
+The example below produces *error MIDL2025: [msg]syntax error [context]: expecting > or, near "["*. This is because it's invalid to use an array as a parameter type argument to a parameterized interface. But also see [**IReferenceArray\<T\>**](/uwp/api/windows.foundation.ireferencearray_t_).
+
+```idl
+Windows.Foundation.IAsyncOperation<Int32[]> RetrieveArrayAsync();
 ```
