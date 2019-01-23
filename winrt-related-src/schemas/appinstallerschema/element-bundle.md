@@ -35,7 +35,7 @@ The Bundle element specifies the information about the bundle package.
 </dl>
 
 ## Syntax
-```syntax
+``` xml
 <Bundle 
     Name        = A string between 3 and 50 characters in length that consists of alpha-numeric, period, and dash characters.
     Publisher   = A string between 1 and 8192 characters in length that fits the regular expression of a distinguished name: "(CN|L|O|OU|E|C|S|STREET|T|G|I|SN|DC|SERIALNUMBER|(OID\.(0|[1-9][0-9]*)(\.(0|[1-9][0-9]*))+))=(([^,+="<>#;])+|".*")(, ((CN|L|O|OU|E|C|S|STREET|T|G|I|SN|DC|SERIALNUMBER|(OID\.(0|[1-9][0-9]*)(\.(0|[1-9][0-9]*))+))=(([^,+="<>#;])+|".*")))*". Further, semantic validation ensures that the string is compliant with CertNameToStr Windows API implementation of X.500 rules.

@@ -26,7 +26,7 @@ An optional element that is used to specify the other optional packages that are
 </dl>
 
 ## Syntax
-```syntax
+``` xml
 <RelatedPackages>
 
   <!-- Child elements -->

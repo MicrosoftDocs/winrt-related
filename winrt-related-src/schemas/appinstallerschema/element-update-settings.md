@@ -26,7 +26,7 @@ An optional element of the appinstaller file. UpdateSettings signifies whether o
 </dl>
 
 ## Syntax
-```syntax
+``` xml 
 <UpdateSettings>
     <!-- Child elements -->
     OnLaunch?
@@ -40,9 +40,8 @@ An optional element of the appinstaller file. UpdateSettings signifies whether o
 ## Attributes and Elements
 
 ### Attributes
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| HoursBetweenUpdateChecks          |   Number of hours between update checks. Update check is performed if the app is launched after the specified number of hours. Specify '0' if update checks needs to be performed instantly after launch.  | Any integer from 0 to 24     |  No        |
+
+None.
 
 
 ### Child Elements
@@ -65,27 +64,31 @@ An optional element of the appinstaller file. UpdateSettings signifies whether o
 **UpdateSettings** is an optional element. 
 
 ## Examples
-With the following settings, deployment will check for updates only at launch time and only if 12 or more hours have passed since the last time deployment checked for updates.
-``` xml 
-    <UpdateSettings>
-        <OnLaunch HoursBetweenUpdateChecks="12"/>
-    </UpdateSettings>
+
+In this example, deployment will check for updates only at launch time and only if 12 or more hours have passed since the last time deployment checked for updates.
+
+``` xml    
+<UpdateSettings>
+    <OnLaunch HoursBetweenUpdateChecks="12"/>
+</UpdateSettings>
 ```
 
-With the following settings, deployment will check for updates in the background, every 8 hours, even if the user doesn't launch the app. 
-``` xml 
-    <UpdateSettings>
-        <AutomaticBackgroundTask/>
-    </UpdateSettings>
-```
+In this example, deployment will check for updates in the background, every 8 hours, even if the user doesn't launch the app.
 
-With the following settings, deployment will check for updates at launch time and in the background. In addition, the app version can be incremented or decremented.
 ``` xml  
-    <UpdateSettings>
-        <OnLaunch HoursBetweenUpdateChecks="12"/>
-        <AutomaticBackgroundTask/>
-        <ForceUpdateFromAnyVersion>true</ForceUpdateFromAnyVersion>
-    </UpdateSettings>
+<UpdateSettings>
+    <AutomaticBackgroundTask/>
+</UpdateSettings>
+```
+
+In this example, deployment will check for updates at launch time and in the background. In addition, the app version can be incremented or decremented.
+
+``` xml  
+<UpdateSettings>
+    <OnLaunch HoursBetweenUpdateChecks="12"/>
+    <AutomaticBackgroundTask/>
+    <ForceUpdateFromAnyVersion>true</ForceUpdateFromAnyVersion>
+</UpdateSettings>
 ```
 
 

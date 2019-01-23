@@ -26,7 +26,7 @@ Defines the optional packages that will be installed along with the main package
 </dl>
 
 ## Syntax
-```syntax
+``` xml
 <OptionalPackages>
   <!-- Child elements -->
   ( Bundle{0,10000}
