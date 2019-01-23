@@ -65,25 +65,28 @@ An optional element of the appinstaller file. UpdateSettings signifies whether o
 **UpdateSettings** is an optional element. 
 
 ## Examples
-``` xml  With these settings, deployment will check for updates only at launch time and only if 12 or more hours have passed since the last time deployment checked for updates.  
+With the following settings, deployment will check for updates only at launch time and only if 12 or more hours have passed since the last time deployment checked for updates.
+``` xml 
     <UpdateSettings>
         <OnLaunch HoursBetweenUpdateChecks="12"/>
     </UpdateSettings>
-`
+```
 
-``` xml With these settings, deployment will check for updates in the background, every 8 hours, even if the user doesn't launch the app. 
+With the following settings, deployment will check for updates in the background, every 8 hours, even if the user doesn't launch the app. 
+``` xml 
     <UpdateSettings>
-    <AutomaticBackgroundTask/>
+        <AutomaticBackgroundTask/>
     </UpdateSettings>
-`
+```
 
-``` xml  With these settings, deployment will check for updates at launch time and in the background. In addition, the app version can be incremented or decremented.
+With the following settings, deployment will check for updates at launch time and in the background. In addition, the app version can be incremented or decremented.
+``` xml  
     <UpdateSettings>
         <OnLaunch HoursBetweenUpdateChecks="12"/>
         <AutomaticBackgroundTask/>
         <ForceUpdateFromAnyVersion>true</ForceUpdateFromAnyVersion>
     </UpdateSettings>
-`
+```
 
 
 ## Requirements
