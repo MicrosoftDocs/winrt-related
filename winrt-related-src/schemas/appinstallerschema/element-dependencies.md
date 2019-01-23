@@ -26,7 +26,7 @@ Defines the dependency packages that are required for successful deployment of t
 </dl>
 
 ## Syntax
-```syntax
+``` xml
 <Dependencies>
   <!-- Child elements -->
   ( Bundle{0,10000}

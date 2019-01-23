@@ -19,7 +19,7 @@ This element defines the root element of an appinstaller file. The appinstaller 
 <b>&lt;AppInstaller&gt;</b>
 
 ## Syntax
-```syntax
+``` xml
 
 <?xml version="1.0" encoding="UTF-8"?>
 
