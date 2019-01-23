@@ -1,0 +1,2140 @@
+- name: "API reference for UWP apps"
+  href: index.md
+  items: 
+  - name: "Windows Runtime (WinRT) namespaces"
+    href: http://docs.microsoft.com/uwp/api/
+  - name: "Extension SDKs"
+    href: extension-sdks/index.md
+    items: 
+    - name: "Device families overview"
+      href: extension-sdks/device-families-overview.md
+    - name: "Universal SDK"
+      href: extension-sdks/windows-universal-sdk.md
+    - name: "Desktop extension SDK"
+      href: extension-sdks/windows-desktop-extension-sdk.md
+    - name: "Mobile extension SDK"
+      href: extension-sdks/windows-mobile-extension-sdk.md
+    - name: "IoT extension SDK"
+      href: extension-sdks/windows-iot-extension-sdk.md
+    - name: "Windows Team Extension SDK"
+      href: extension-sdks/windows-team-extension-sdk.md
+    - name: "Xbox Live extension SDK"
+      href: extension-sdks/xbox-live-extensions.md
+    - name: "UWP features not yet supported on Xbox"
+      href: extension-sdks/uwp-limitations-on-xbox.md
+  - name: "Advertising SDK namespaces"
+    href: https://docs.microsoft.com/uwp/api/overview/advertising
+  - name: "Store Services SDK namespaces"
+    href: https://docs.microsoft.com/uwp/api/overview/engagement
+  - name: "Libraries and toolkits"
+    href: toolkits/index.md
+    items: 
+    - name: "Windows UI Library"
+      href: toolkits/winui/index.md
+      items: 
+      - name: "Setup"
+        href: 
+        items: 
+        - name: "Get started"
+          href: toolkits/winui/getting-started.md
+        - name: "NuGet package list"
+          href: toolkits/winui/nuget-packages.md
+  - name: "Schemas"
+    href: schemas/index.md
+    items: 
+    - name: "App installer file"
+      href: schemas/appinstallerschema/app-installer-file.md
+      items: 
+      - name: "App installer file schema reference"
+        href: schemas/appinstallerschema/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/appinstallerschema/root-elements.md
+          items: 
+          - name: "AppInstaller"
+            href: schemas/appinstallerschema/element-appinstaller.md
+          - name: "MainBundle"
+            href: schemas/appinstallerschema/element-main-bundle.md
+          - name: "MainPackage"
+            href: schemas/appinstallerschema/element-main-package.md
+          - name: "OptionalPackages"
+            href: schemas/appinstallerschema/element-optional-packages.md
+          - name: "Bundle"
+            href: schemas/appinstallerschema/element-bundle.md
+          - name: "Package"
+            href: schemas/appinstallerschema/element-package.md
+          - name: "RelatedPackages"
+            href: schemas/appinstallerschema/element-related-packages.md
+          - name: "Bundle"
+            href: schemas/appinstallerschema/element-bundle.md
+          - name: "Package"
+            href: schemas/appinstallerschema/element-package.md
+          - name: "Dependencies"
+            href: schemas/appinstallerschema/element-dependencies.md
+          - name: "Bundle"
+            href: schemas/appinstallerschema/element-bundle.md
+          - name: "Package"
+            href: schemas/appinstallerschema/element-package.md
+          - name: "UpdateSettings"
+            href: schemas/appinstallerschema/element-update-settings.md
+          - name: "OnLaunch"
+            href: schemas/appinstallerschema/element-onlaunch.md
+    - name: "App package block map"
+      href: schemas/blockmapschema/app-package-block-map.md
+      items: 
+      - name: "Package block map schema reference"
+        href: schemas/blockmapschema/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/blockmapschema/root-elements.md
+          items: 
+          - name: "BlockMap"
+            href: schemas/blockmapschema/element-blockmap.md
+          - name: "File"
+            href: schemas/blockmapschema/element-file.md
+          - name: "Block"
+            href: schemas/blockmapschema/element-block.md
+    - name: "App package manifest"
+      href: schemas/appxpackage/appx-package-manifest.md
+      items: 
+      - name: "Windows 10 package manifest schema reference"
+        href: schemas/appxpackage/uapmanifestschema/schema-root.md
+        items: 
+        - name: "What's different in Windows 10"
+          href: schemas/appxpackage/uapmanifestschema/what-s-changed-in-windows-10.md
+        - name: "Element Hierarchy"
+          href: schemas/appxpackage/uapmanifestschema/root-elements.md
+          items: 
+          - name: "Package"
+            href: schemas/appxpackage/uapmanifestschema/element-package.md
+          - name: "Identity"
+            href: schemas/appxpackage/uapmanifestschema/element-identity.md
+          - name: "pm:PhoneIdentity"
+            href: schemas/appxpackage/uapmanifestschema/element-pm-phoneidentity.md
+          - name: "Properties"
+            href: schemas/appxpackage/uapmanifestschema/element-properties.md
+          - name: "Framework"
+            href: schemas/appxpackage/uapmanifestschema/element-framework.md
+          - name: "DisplayName"
+            href: schemas/appxpackage/uapmanifestschema/element-displayname.md
+          - name: "PublisherDisplayName"
+            href: schemas/appxpackage/uapmanifestschema/element-publisherdisplayname.md
+          - name: "Description"
+            href: schemas/appxpackage/uapmanifestschema/element-description.md
+          - name: "Logo"
+            href: schemas/appxpackage/uapmanifestschema/element-logo.md
+          - name: "ResourcePackage"
+            href: schemas/appxpackage/uapmanifestschema/element-resourcepackage.md
+          - name: "uap:SupportedUsers"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-supportedusers.md
+          - name: "uap6:AllowExecution"
+            href: schemas/appxpackage/uapmanifestschema/element-uap6-allowexecution.md
+          - name: "Resources"
+            href: schemas/appxpackage/uapmanifestschema/element-resources.md
+          - name: "Resource"
+            href: schemas/appxpackage/uapmanifestschema/element-resource.md
+          - name: "Dependencies"
+            href: schemas/appxpackage/uapmanifestschema/element-dependencies.md
+          - name: "TargetDeviceFamily"
+            href: schemas/appxpackage/uapmanifestschema/element-targetdevicefamily.md
+          - name: "PackageDependency"
+            href: schemas/appxpackage/uapmanifestschema/element-packagedependency.md
+          - name: "uap3:MainPackageDependency"
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-mainpackagedependency-manual.md
+          - name: "uap5:DriverDependency"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-driverdependency.md
+          - name: "uap5:DriverConstraint"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-driverconstraint.md
+          - name: "Capabilities"
+            href: schemas/appxpackage/uapmanifestschema/element-capabilities.md
+          - name: "Capability"
+            href: schemas/appxpackage/uapmanifestschema/element-capability.md
+          - name: "uap:Capability"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-capability.md
+          - name: "uap3:Capability"
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-capability-manual.md
+          - name: "uap4:CustomCapability"
+            href: schemas/appxpackage/uapmanifestschema/element-uap4-customcapability.md
+          - name: "uap6:Capability"
+            href: schemas/appxpackage/uapmanifestschema/element-uap6-capability.md
+          - name: "mobile:Capability"
+            href: schemas/appxpackage/uapmanifestschema/element-mobile-capability-manual.md
+          - name: "DeviceCapability"
+            href: schemas/appxpackage/uapmanifestschema/element-devicecapability.md
+          - name: "Device"
+            href: schemas/appxpackage/uapmanifestschema/element-device.md
+          - name: "Function"
+            href: schemas/appxpackage/uapmanifestschema/element-function.md
+          - name: "Extensions"
+            href: schemas/appxpackage/uapmanifestschema/element-extensions.md
+          - name: "desktop2:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop2-package-extension.md
+          - name: "desktop2:FirewallRules"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop2-firewallrules.md
+          - name: "desktop2:Rule"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop2-rule.md
+          - name: "desktop2:DesktopEventLogging"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop2-desktopeventlogging.md
+          - name: "desktop2:EventMessageFiles"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop2-eventmessagefiles.md
+          - name: "desktop2:File"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop2-file.md
+          - name: "desktop2:TypesSupported"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop2-typessupported.md
+          - name: "desktop2:TypeSupported"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop2-typesupported.md
+          - name: "Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-extension.md
+          - name: "InProcessServer"
+            href: schemas/appxpackage/uapmanifestschema/element-inprocessserver.md
+          - name: "Path"
+            href: schemas/appxpackage/uapmanifestschema/element-path.md
+          - name: "ActivatableClass"
+            href: schemas/appxpackage/uapmanifestschema/element-activatableclass.md
+          - name: "ActivatableClassAttribute"
+            href: schemas/appxpackage/uapmanifestschema/element-activatableclassattribute.md
+          - name: "OutOfProcessServer"
+            href: schemas/appxpackage/uapmanifestschema/element-outofprocessserver.md
+          - name: "Path"
+            href: schemas/appxpackage/uapmanifestschema/element-1-path.md
+          - name: "Arguments"
+            href: schemas/appxpackage/uapmanifestschema/element-arguments.md
+          - name: "Instancing"
+            href: schemas/appxpackage/uapmanifestschema/element-instancing.md
+          - name: "ActivatableClass"
+            href: schemas/appxpackage/uapmanifestschema/element-1-activatableclass.md
+          - name: "ActivatableClassAttribute"
+            href: schemas/appxpackage/uapmanifestschema/element-1-activatableclassattribute.md
+          - name: "ProxyStub"
+            href: schemas/appxpackage/uapmanifestschema/element-proxystub.md
+          - name: "Path"
+            href: schemas/appxpackage/uapmanifestschema/element-2-path.md
+          - name: "Interface"
+            href: schemas/appxpackage/uapmanifestschema/element-interface.md
+          - name: "Certificates"
+            href: schemas/appxpackage/uapmanifestschema/element-certificates.md
+          - name: "Certificate"
+            href: schemas/appxpackage/uapmanifestschema/element-certificate.md
+          - name: "TrustFlags"
+            href: schemas/appxpackage/uapmanifestschema/element-trustflags.md
+          - name: "SelectionCriteria"
+            href: schemas/appxpackage/uapmanifestschema/element-selectioncriteria.md
+          - name: "PublisherCacheFolders"
+            href: schemas/appxpackage/uapmanifestschema/element-publishercachefolders.md
+          - name: "Folder"
+            href: schemas/appxpackage/uapmanifestschema/element-folder.md
+          - name: "uap6:LoaderSearchPathOverride"
+            href: schemas/appxpackage/uapmanifestschema/element-uap6-loadersearchpathoverride.md
+          - name: "uap6:LoaderSearchPathEntry"
+            href: schemas/appxpackage/uapmanifestschema/element-uap6-loadersearchpathentry.md
+          - name: "com:ComInterface"
+            href: schemas/appxpackage/uapmanifestschema/element-com-package-cominterface.md
+          - name: "com:ProxyStub"
+            href: schemas/appxpackage/uapmanifestschema/element-com-package-proxystub.md
+          - name: "com2:ProxyStubDll"
+            href: schemas/appxpackage/uapmanifestschema/element-com2-package-proxystubdll.md
+          - name: "com:Interface"
+            href: schemas/appxpackage/uapmanifestschema/element-com-package-interface.md
+          - name: "com:TypeLib"
+            href: schemas/appxpackage/uapmanifestschema/element-com-package-interface-typelib.md
+          - name: "com:TypeLib"
+            href: schemas/appxpackage/uapmanifestschema/element-com-package-typelib.md
+          - name: "com:Version"
+            href: schemas/appxpackage/uapmanifestschema/element-com-package-version.md
+          - name: "com:Win32Path"
+            href: schemas/appxpackage/uapmanifestschema/element-com-package-win32path.md
+          - name: "com:Win64Path"
+            href: schemas/appxpackage/uapmanifestschema/element-com-package-win64path.md
+          - name: "Applications"
+            href: schemas/appxpackage/uapmanifestschema/element-applications.md
+          - name: "Application"
+            href: schemas/appxpackage/uapmanifestschema/element-application.md
+          - name: "uap:VisualElements"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-visualelements.md
+          - name: "uap:DefaultTile"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-defaulttile.md
+          - name: "uap:TileUpdate"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-tileupdate.md
+          - name: "uap:ShowNameOnTiles"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-shownameontiles.md
+          - name: "uap5:MixedRealityModel"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-mixedrealitymodel.md
+          - name: "uap6:SpatialBoundingBox"
+            href: schemas/appxpackage/uapmanifestschema/element-uap6-spatialboundingbox.md
+          - name: "uap:ShowOn"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-showon.md
+          - name: "uap:LockScreen"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-lockscreen.md
+          - name: "uap:SplashScreen"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-splashscreen.md
+          - name: "uap:InitialRotationPreference"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-initialrotationpreference.md
+          - name: "uap:Rotation"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-rotation.md
+          - name: "uap3:VisualElements"
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-visualelements-manual.md
+          - name: "uap:ApplicationContentUriRules"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-applicationcontenturirules.md
+          - name: "uap:Rule"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-rule.md
+          - name: "Extensions"
+            href: schemas/appxpackage/uapmanifestschema/element-1-extensions.md
+          - name: "Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-1-extension.md
+          - name: "BackgroundTasks"
+            href: schemas/appxpackage/uapmanifestschema/element-backgroundtasks.md
+          - name: "Task"
+            href: schemas/appxpackage/uapmanifestschema/element-task.md
+          - name: "uap:Task"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-task.md
+          - name: "com:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-com-extension.md
+          - name: "com:ComInterface"
+            href: schemas/appxpackage/uapmanifestschema/element-com-cominterface.md
+          - name: "com:ProxyStub"
+            href: schemas/appxpackage/uapmanifestschema/element-com-proxystub.md
+          - name: "com2:ProxyStubDll"
+            href: schemas/appxpackage/uapmanifestschema/element-com2-proxystubdll.md
+          - name: "com:Interface"
+            href: schemas/appxpackage/uapmanifestschema/element-com-interface.md
+          - name: "com:TypeLib"
+            href: schemas/appxpackage/uapmanifestschema/element-com-interface-typelib.md
+          - name: "com:TypeLib"
+            href: schemas/appxpackage/uapmanifestschema/element-com-typelib.md
+          - name: "com:Version"
+            href: schemas/appxpackage/uapmanifestschema/element-com-version.md
+          - name: "com:Win32Path"
+            href: schemas/appxpackage/uapmanifestschema/element-com-win32path.md
+          - name: "com:Win64Path"
+            href: schemas/appxpackage/uapmanifestschema/element-com-win64path.md
+          - name: "com:ComServer"
+            href: schemas/appxpackage/uapmanifestschema/element-com-comserver.md
+          - name: "com:ExeServer"
+            href: schemas/appxpackage/uapmanifestschema/element-com-exeserver.md
+          - name: "com:Class"
+            href: schemas/appxpackage/uapmanifestschema/element-com-exeserver-class.md
+          - name: "com:ImplementedCategories"
+            href: schemas/appxpackage/uapmanifestschema/element-com-exe-ImplementedCategories.md
+          - name: "com:ImplementedCategory"
+            href: schemas/appxpackage/uapmanifestschema/element-com-exe-ImplementedCategory.md
+          - name: "com:Conversion"
+            href: schemas/appxpackage/uapmanifestschema/element-com-exe-conversion.md
+          - name: "com:Readable"
+            href: schemas/appxpackage/uapmanifestschema/element-com-exe-readable.md
+          - name: "com:Format"
+            href: schemas/appxpackage/uapmanifestschema/element-com-exe-rformat.md
+          - name: "com:ReadWritable"
+            href: schemas/appxpackage/uapmanifestschema/element-com-exe-readwritable.md
+          - name: "com:Format"
+            href: schemas/appxpackage/uapmanifestschema/element-com-exe-rwformat.md
+          - name: "com:DataFormats"
+            href: schemas/appxpackage/uapmanifestschema/element-com-exe-dataformats.md
+          - name: "com:DataFormat"
+            href: schemas/appxpackage/uapmanifestschema/element-com-exe-dataformat.md
+          - name: "com:MiscStatus"
+            href: schemas/appxpackage/uapmanifestschema/element-com-exe-miscstatus.md
+          - name: "com:Aspect"
+            href: schemas/appxpackage/uapmanifestschema/element-com-exe-aspect.md
+          - name: "com:Verbs"
+            href: schemas/appxpackage/uapmanifestschema/element-com-exe-verbs.md
+          - name: "com:Verb"
+            href: schemas/appxpackage/uapmanifestschema/element-com-exe-verb.md
+          - name: "com:DefaultIcon"
+            href: schemas/appxpackage/uapmanifestschema/element-com-exe-defaulticon.md
+          - name: "com:ToolboxBitmap32"
+            href: schemas/appxpackage/uapmanifestschema/element-com-exe-toolboxbitmap32.md
+          - name: "com:SurrogateServer"
+            href: schemas/appxpackage/uapmanifestschema/element-com-surrogateserver.md
+          - name: "com:Class"
+            href: schemas/appxpackage/uapmanifestschema/element-com-surrogateserver-class.md
+          - name: "com:ImplementedCategories"
+            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-ImplementedCategories.md
+          - name: "com:ImplementedCategory"
+            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-ImplementedCategory.md
+          - name: "com:Conversion"
+            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-conversion.md
+          - name: "com:Readable"
+            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-readable.md
+          - name: "com:Format"
+            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-rformat.md
+          - name: "com:ReadWritable"
+            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-readwritable.md
+          - name: "com:Format"
+            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-rwformat.md
+          - name: "com:DataFormats"
+            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-dataformats.md
+          - name: "com:DataFormat"
+            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-dataformat.md
+          - name: "com:MiscStatus"
+            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-miscstatus.md
+          - name: "com:Aspect"
+            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-aspect.md
+          - name: "com:Verbs"
+            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-verbs.md
+          - name: "com:Verb"
+            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-verb.md
+          - name: "com:DefaultIcon"
+            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-defaulticon.md
+          - name: "com:ToolboxBitmap32"
+            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-toolboxbitmap32.md
+          - name: "com:ProgId"
+            href: schemas/appxpackage/uapmanifestschema/element-com-progid.md
+          - name: "com:TreatAsClass"
+            href: schemas/appxpackage/uapmanifestschema/element-com-treatasclass.md
+          - name: "desktop2:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop2-extension.md
+          - name: "desktop2:AppPrinter"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop2-appprinter.md
+          - name: "desktop2:SearchFilterHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop2-searchfilterhandler.md
+          - name: "desktop2:FilterExtension"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop2-filterextension.md
+          - name: "desktop2:SearchPropertyHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop2-searchpropertyhandler.md
+          - name: "desktop3:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop3-extension.md
+          - name: "desktop3:AutoPlayHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop3-autoplayhandler.md
+          - name: "desktop3:InvokeAction"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop3-InvokeAction.md
+          - name: "desktop3:Content"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop3-Content.md
+          - name: "desktop3:Device"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop3-Device.md
+          - name: "desktop3:CloudFiles"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop3-cloudfiles.md
+          - name: "desktop3:CustomStateHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop3-CustomStateHandler.md
+          - name: "desktop3:ThumbnailProviderHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop3-ThumbnailProviderHandler.md
+          - name: "desktop3:ExtendedPropertyHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop3-ExtendedPropertyHandler.md
+          - name: "desktop3:BannersHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop3-BannersHandler.md
+          - name: "desktop3:CloudFilesContextMenus"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop3-CloudFilesContextMenus.md
+          - name: "desktop3:Verb"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop3-verb.md
+          - name: "desktop4:ContentUriSource"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop4-ContentUriSource.md
+          - name: "desktop4:DesktopIconOverlayHandlers"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop4-DesktopIconOverlayHandlers.md
+          - name: "desktop4:DesktopIconOverlayHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop4-DesktopIconOverlayHandler.md
+          - name: "desktop4:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop4-Extension.md
+          - name: "desktop4:FileExplorerContextMenus"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop4-FileExplorerContextMenus.md
+          - name: "desktop4:ItemType"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop4-ItemType.md
+          - name: "desktop4:Verb"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop4-Verb.md
+          - name: "rescap2:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-rescap2-extension-manual.md
+          - name: "rescap3:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-rescap3-extension.md
+          - name: "rescap3:DesktopAppMigration"
+            href: schemas/appxpackage/uapmanifestschema/element-rescap3-desktopappmigration.md
+          - name: "rescap3:DesktopApp"
+            href: schemas/appxpackage/uapmanifestschema/element-rescap3-desktopapp.md
+          - name: "rescap4:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-rescap4-Extension.md
+          - name: "rescap4:ClassicAppCompatKeys"
+            href: schemas/appxpackage/uapmanifestschema/element-rescap4-ClassicAppCompatKeys.md
+          - name: "rescap4:ClassicAppCompatKey"
+            href: schemas/appxpackage/uapmanifestschema/element-rescap4-ClassicAppCompatKey.md
+          - name: "serverpreview:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-extension-manual.md
+          - name: "serverpreview:IisModules"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-iismodules-manual.md
+          - name: "serverpreview:IisModule"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-iismodule-manual.md
+          - name: "serverpreview:SectionGroupDefinition"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-sectiongroupdefinition-manual.md
+          - name: "serverpreview:SectionDefinition"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-sectiondefinition-manual.md
+          - name: "serverpreview:SectionData"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-sectiondata-manual.md
+          - name: "serverpreview:CollectionElement"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-collectionelement-manual.md
+          - name: "serverpreview:Attribute"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-attribute-manual.md
+          - name: "serverpreview:NTServices"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-ntservices-manual.md
+          - name: "serverpreview:NTService"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-ntservice-manual.md
+          - name: "serverpreview:ServiceDependencies"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-servicedependencies-manual.md
+          - name: "serverpreview:ServiceDependency"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-servicedependency-manual.md
+          - name: "serverpreview:ServiceParameters"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-serviceparameters-manual.md
+          - name: "serverpreview:ServiceParameterDword"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-serviceparameterdword-manual.md
+          - name: "serverpreview:ServiceParameterString"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-serviceparameterstring-manual.md
+          - name: "serverpreview:ServiceParameterKey"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-serviceparameterkey-manual.md
+          - name: "serverpreview:WmiProviders"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-wmiproviders-manual.md
+          - name: "serverpreview:WmiProvider"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-wmiprovider-manual.md
+          - name: "serverpreview:Mof"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-mof-manual.md
+          - name: "serverpreview:PerformanceProviders"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-performanceproviders-manual.md
+          - name: "serverpreview:PerformanceProvider"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-performanceprovider-manual.md
+          - name: "serverpreview:EventProviders"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-eventproviders-manual.md
+          - name: "serverpreview:EventProvider"
+            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-eventprovider-manual.md
+          - name: "uap:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-extension.md
+          - name: "uap:FileTypeAssociation"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-filetypeassociation.md
+          - name: "desktop2:DesktopPreviewHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop2-DesktopPreviewHandler.md
+          - name: "desktop2:DesktopPropertyHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop2-desktoppropertyhandler.md
+          - name: "desktop2:OleClass"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop2-oleclass.md                                                   
+          - name: "desktop2:ThumbnailHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop2-thumbnailhandler.md
+          - name: "rescap3:MigrationProgIds"
+            href: schemas/appxpackage/uapmanifestschema/element-rescap3-migrationprogids.md
+          - name: "rescap3:MigrationProgId"
+            href: schemas/appxpackage/uapmanifestschema/element-rescap3-migrationprogid.md 
+          - name: "uap:DisplayName"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-displayname.md
+          - name: "uap:Logo"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-logo.md
+          - name: "uap:InfoTip"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-infotip.md
+          - name: "uap:EditFlags"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-editflags.md
+          - name: "uap:SupportedFileTypes"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-supportedfiletypes.md
+          - name: "uap:FileType"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-filetype.md
+          - name: "uap2:SupportedVerbs"
+            href: schemas/appxpackage/uapmanifestschema/element-uap2-supportedverbs.md
+          - name: "uap2:Verb"
+            href: schemas/appxpackage/uapmanifestschema/element-uap2-verb.md
+          - name: "uap4:KindMap"
+            href: schemas/appxpackage/uapmanifestschema/element-uap4-kindmap.md
+          - name: "uap4:Kind"
+            href: schemas/appxpackage/uapmanifestschema/element-uap4-kind.md
+          - name: "uap:Protocol"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-protocol.md
+          - name: "rescap3:MigrationProgIds"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-protocol-migrationprogids.md
+          - name: "rescap3:MigrationProgId"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-protocol-migrationprogid.md
+          - name: "uap:Logo"
+            href: schemas/appxpackage/uapmanifestschema/element-1-uap-logo.md
+          - name: "uap:DisplayName"
+            href: schemas/appxpackage/uapmanifestschema/element-1-uap-displayname.md
+          - name: "uap:AutoPlayContent"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-autoplaycontent.md
+          - name: "uap:LaunchAction"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-launchaction.md
+          - name: "uap:AutoPlayDevice"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-autoplaydevice.md
+          - name: "uap:LaunchAction"
+            href: schemas/appxpackage/uapmanifestschema/element-1-uap-launchaction.md
+          - name: "uap:ShareTarget"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-sharetarget.md
+          - name: "uap:SupportedFileTypes"
+            href: schemas/appxpackage/uapmanifestschema/element-1-uap-supportedfiletypes.md
+          - name: "uap:FileType"
+            href: schemas/appxpackage/uapmanifestschema/element-1-uap-filetype.md
+          - name: "uap:SupportsAnyFileType"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-supportsanyfiletype.md
+          - name: "uap:DataFormat"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-dataformat.md
+          - name: "uap:FileOpenPicker"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-fileopenpicker.md
+          - name: "uap:SupportedFileTypes"
+            href: schemas/appxpackage/uapmanifestschema/element-2-uap-supportedfiletypes.md
+          - name: "uap:FileType"
+            href: schemas/appxpackage/uapmanifestschema/element-2-uap-filetype.md
+          - name: "uap:SupportsAnyFileType"
+            href: schemas/appxpackage/uapmanifestschema/element-1-uap-supportsanyfiletype.md
+          - name: "uap:FileSavePicker"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-filesavepicker.md
+          - name: "uap:SupportedFileTypes"
+            href: schemas/appxpackage/uapmanifestschema/element-3-uap-supportedfiletypes.md
+          - name: "uap:FileType"
+            href: schemas/appxpackage/uapmanifestschema/element-3-uap-filetype.md
+          - name: "uap:SupportsAnyFileType"
+            href: schemas/appxpackage/uapmanifestschema/element-2-uap-supportsanyfiletype.md
+          - name: "uap:AppointmentsProvider"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-appointmentsprovider.md
+          - name: "uap:AppointmentsProviderLaunchActions"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-appointmentsproviderlaunchactions.md
+          - name: "uap:LaunchAction"
+            href: schemas/appxpackage/uapmanifestschema/element-2-uap-launchaction.md
+          - name: "uap:WebAccountProvider"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-webaccountprovider.md
+          - name: "uap:ManagedUrls"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-managedurls.md
+          - name: "uap:Url"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-url.md
+          - name: "uap:DialProtocol"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-dialprotocol.md
+          - name: "uap:AppService"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-appservice.md
+          - name: "uap:MediaPlayback"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-mediaplayback.md
+          - name: "uap:Codec"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-codec.md
+          - name: "uap:VoipCall"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-voipcall.md
+          - name: "uap:VoipCallUpgrade"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-voipcallupgrade.md
+          - name: "uap:VoipDialPhoneNumber"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-voipdialphonenumber.md
+          - name: "uap3:AppService"
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-appservice-manual.md
+          - name: "uap3:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-extension-manual.md
+          - name: "uap3:AppExtensionHost"
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-appextensionhost-manual.md
+          - name: "uap3:Name"
+            href: schemas/appxpackage/uapmanifestschema/elemennt-uap3-name-manual.md
+          - name: "uap3:AppExtension"
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-appextension-manual.md
+          - name: "uap3:Properties"
+            href: schemas/appxpackage/uapmanifestschema/elemnt-uap3-properties-manual.md
+          - name: "uap3:AppUriHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-appurihandler-manual.md
+          - name: "uap3:Host"
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-host-manual.md
+          - name: "uap3:AppointmentDataProvider"
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-appointmentdataprovider-manual.md
+          - name: "uap3:EmailDataProvider"
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-emaildataprovider-manual.md
+          - name: "uap3:ContactDataProvider"
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-contactdataprovider-manual.md
+          - name: "uap4:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-uap4-extension.md
+          - name: "uap4:ContactPanel"
+            href: schemas/appxpackage/uapmanifestschema/element-uap4-contactpanel.md
+          - name: "uap4:DevicePortalProvider"
+            href: schemas/appxpackage/uapmanifestschema/element-uap4-deviceportalprovider.md
+          - name: "uap4:LoopbackAccessRules"
+            href: schemas/appxpackage/uapmanifestschema/element-uap4-loopbackaccessrules.md
+          - name: "uap4:Rule"
+            href: schemas/appxpackage/uapmanifestschema/element-uap4-rule.md
+          - name: "uap4:MediaCodec"
+            href: schemas/appxpackage/uapmanifestschema/element-uap4-mediacodec.md
+          - name: "uap4:MediaEncodingProperties"
+            href: schemas/appxpackage/uapmanifestschema/element-uap4-mediaencodingproperties.md
+          - name: "uap4:InputTypes"
+            href: schemas/appxpackage/uapmanifestschema/element-uap4-inputtypes.md
+          - name: "uap4:InputType"
+            href: schemas/appxpackage/uapmanifestschema/element-uap4-inputtype.md
+          - name: "uap4:OutputTypes"
+            href: schemas/appxpackage/uapmanifestschema/element-uap4-outputtypes.md
+          - name: "uap4:OutputType"
+            href: schemas/appxpackage/uapmanifestschema/element-uap4-outputtype.md
+          - name: "uap4:SharedFonts"
+            href: schemas/appxpackage/uapmanifestschema/element-uap4-sharedfonts.md
+          - name: "uap4:Font"
+            href: schemas/appxpackage/uapmanifestschema/element-uap4-font.md
+          - name: "uap4:UserDataTaskDataProvider"
+            href: schemas/appxpackage/uapmanifestschema/element-uap4-userdatataskdataprovider.md
+          - name: "uap5:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-extension.md
+          - name: "uap5:UserActivity"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-UserActivity.md
+          - name: "uap5:MediaSource"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-MediaSource.md
+          - name: "uap5:SupportedContentTypes"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-SupportedContentTypes.md
+          - name: "uap5:ContentType"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-ContentType.md
+          - name: "uap5:SupportedFileTypes"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-SupportedFileTypes.md
+          - name: "uap5:FileType"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-FileType.md
+          - name: "uap5:VideoRendererEffect"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-VideoRendererEffect.md
+          - name: "uap5:VideoRendererExtensionProfiles"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-VideoRendererExtensionProfiles.md
+          - name: "uap5:VideoRendererExtensionProfile"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-VideoRendererExtensionProfile.md
+          - name: "uap5:InputTypes"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-InputTypes.md
+          - name: "uap5:InputType"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-InputType.md
+          - name: "uap5:ActivatableClass.OutOfProcessServer"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-OutOfProcessServer.md
+          - name: "uap5:Path"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-Path.md
+          - name: "uap5:Arguments"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-Arguments.md
+          - name: "uap5:Instancing"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-Instancing.md
+          - name: "uap5:ActivatableClass"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-ActivatableClass.md
+          - name: "uap5:StartupTask"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-StartupTask.md
+          - name: "uap5:AppExecutionAlias"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-AppExecutionAlias.md
+          - name: "uap5:ExecutionAlias"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-ExecutionAlias.md
+          - name: "uap6:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-uap6-extension.md
+          - name: "uap6:BarcodeScannerProvider"
+            href: schemas/appxpackage/uapmanifestschema/element-uap6-BarcodeScannerProvider.md
+          - name: "uap6:LocalExperiencePack"
+            href: schemas/appxpackage/uapmanifestschema/element-uap6-localexperiencepack.md
+          - name: "mobile:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-mobile-extension-manual.md
+          - name: "mobile:AowApp"
+            href: schemas/appxpackage/uapmanifestschema/element-mobile-aowapp-manual.md
+          - name: "mobile:MobileMultiScreenProperties"
+            href: schemas/appxpackage/uapmanifestschema/element-mobile-mobilemultiscreenproperties-manual.md
+        - name: "Localizable manifest items"
+          href: schemas/appxpackage/uapmanifestschema/localizable-manifest-items-win10.md
+      - name: "How Visual Studio generates an app package manifest"
+        href: schemas/appxpackage/uapmanifestschema/generate-package-manifest.md
+      - name: "How to create a package manifest manually"
+        href: schemas/appxpackage/how-to-create-a-package-manifest-manually.md
+        items: 
+        - name: "How to create a basic package manifest"
+          href: schemas/appxpackage/how-to-create-a-basic-package-manifest.md
+        - name: "How to specify capabilities in a package manifest"
+          href: schemas/appxpackage/how-to-specify-capabilities-in-a-package-manifest.md
+        - name: "How to specify device capabilities in a package manifest"
+          href: schemas/appxpackage/how-to-specify-device-capabilities-in-a-package-manifest.md
+          items: 
+          - name: "How to specify device capabilities for Bluetooth"
+            href: schemas/appxpackage/how-to-specify-device-capabilities-for-bluetooth.md
+          - name: "How to specify device capabilities for HID"
+            href: schemas/appxpackage/how-to-specify-device-capabilities-for-hid.md
+        - name: "How to specify extensions in a package manifest"
+          href: schemas/appxpackage/how-to-specify-extension-points-in-a-package-manifest.md
+      - name: "Previous app package manifest schema versions"
+        href: schemas/appxpackage/previous-schemas-root.md
+        items: 
+        - name: "Windows 8 app package manifest schema"
+          href: schemas/appxpackage/appxmanifestschema/schema-root.md
+          items: 
+          - name: "Element Hierarchy"
+            href: schemas/appxpackage/appxmanifestschema/root-elements.md
+            items: 
+            - name: "Package"
+              href: schemas/appxpackage/appxmanifestschema/element-package.md
+            - name: "Identity"
+              href: schemas/appxpackage/appxmanifestschema/element-identity.md
+            - name: "Properties"
+              href: schemas/appxpackage/appxmanifestschema/element-properties.md
+            - name: "Framework"
+              href: schemas/appxpackage/appxmanifestschema/element-framework.md
+            - name: "DisplayName"
+              href: schemas/appxpackage/appxmanifestschema/element-displayname.md
+            - name: "PublisherDisplayName"
+              href: schemas/appxpackage/appxmanifestschema/element-publisherdisplayname.md
+            - name: "Description"
+              href: schemas/appxpackage/appxmanifestschema/element-description.md
+            - name: "Logo"
+              href: schemas/appxpackage/appxmanifestschema/element-logo.md
+            - name: "Resources"
+              href: schemas/appxpackage/appxmanifestschema/element-resources.md
+            - name: "Resource"
+              href: schemas/appxpackage/appxmanifestschema/element-resource.md
+            - name: "Prerequisites"
+              href: schemas/appxpackage/appxmanifestschema/element-prerequisites.md
+            - name: "OSMinVersion"
+              href: schemas/appxpackage/appxmanifestschema/element-osminversion.md
+            - name: "OSMaxVersionTested"
+              href: schemas/appxpackage/appxmanifestschema/element-osmaxversiontested.md
+            - name: "Dependencies"
+              href: schemas/appxpackage/appxmanifestschema/element-dependencies.md
+          - name: "uap5:DriverDependency"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-driverdependency.md
+          - name: "uap5:DriverConstraint"
+            href: schemas/appxpackage/uapmanifestschema/element-uap5-driverconstraint.md
+            items: 
+            - name: "PackageDependency"
+              href: schemas/appxpackage/appxmanifestschema/element-packagedependency.md
+            - name: "Capabilities"
+              href: schemas/appxpackage/appxmanifestschema/element-capabilities.md
+            - name: "Capability"
+              href: schemas/appxpackage/appxmanifestschema/element-capability.md
+            - name: "DeviceCapability"
+              href: schemas/appxpackage/appxmanifestschema/element-devicecapability.md
+            - name: "Extensions"
+              href: schemas/appxpackage/appxmanifestschema/element-extensions.md
+            - name: "Extension"
+              href: schemas/appxpackage/appxmanifestschema/element-extension.md
+            - name: "InProcessServer"
+              href: schemas/appxpackage/appxmanifestschema/element-inprocessserver.md
+            - name: "Path"
+              href: schemas/appxpackage/appxmanifestschema/element-path.md
+            - name: "ActivatableClass"
+              href: schemas/appxpackage/appxmanifestschema/element-activatableclass.md
+            - name: "ActivatableClassAttribute"
+              href: schemas/appxpackage/appxmanifestschema/element-activatableclassattribute.md
+            - name: "OutOfProcessServer"
+              href: schemas/appxpackage/appxmanifestschema/element-outofprocessserver.md
+            - name: "Path"
+              href: schemas/appxpackage/appxmanifestschema/element-1-path.md
+            - name: "Arguments"
+              href: schemas/appxpackage/appxmanifestschema/element-arguments.md
+            - name: "Instancing"
+              href: schemas/appxpackage/appxmanifestschema/element-instancing.md
+            - name: "ActivatableClass"
+              href: schemas/appxpackage/appxmanifestschema/element-1-activatableclass.md
+            - name: "ActivatableClassAttribute"
+              href: schemas/appxpackage/appxmanifestschema/element-1-activatableclassattribute.md
+            - name: "ProxyStub"
+              href: schemas/appxpackage/appxmanifestschema/element-proxystub.md
+            - name: "Path"
+              href: schemas/appxpackage/appxmanifestschema/element-2-path.md
+            - name: "Interface"
+              href: schemas/appxpackage/appxmanifestschema/element-interface.md
+            - name: "GameExplorer"
+              href: schemas/appxpackage/appxmanifestschema/element-gameexplorer.md
+            - name: "Certificates"
+              href: schemas/appxpackage/appxmanifestschema/element-certificates.md
+            - name: "Certificate"
+              href: schemas/appxpackage/appxmanifestschema/element-certificate.md
+            - name: "TrustFlags"
+              href: schemas/appxpackage/appxmanifestschema/element-trustflags.md
+            - name: "SelectionCriteria"
+              href: schemas/appxpackage/appxmanifestschema/element-selectioncriteria.md
+            - name: "Applications"
+              href: schemas/appxpackage/appxmanifestschema/element-applications.md
+            - name: "Application"
+              href: schemas/appxpackage/appxmanifestschema/element-application.md
+            - name: "VisualElements"
+              href: schemas/appxpackage/appxmanifestschema/element-visualelements.md
+            - name: "DefaultTile"
+              href: schemas/appxpackage/appxmanifestschema/element-defaulttile.md
+            - name: "LockScreen"
+              href: schemas/appxpackage/appxmanifestschema/element-lockscreen.md
+            - name: "SplashScreen"
+              href: schemas/appxpackage/appxmanifestschema/element-splashscreen.md
+            - name: "InitialRotationPreference"
+              href: schemas/appxpackage/appxmanifestschema/element-initialrotationpreference.md
+            - name: "Rotation"
+              href: schemas/appxpackage/appxmanifestschema/element-rotation.md
+            - name: "ApplicationContentUriRules"
+              href: schemas/appxpackage/appxmanifestschema/element-applicationcontenturirules.md
+            - name: "Rule"
+              href: schemas/appxpackage/appxmanifestschema/element-rule.md
+            - name: "Extensions"
+              href: schemas/appxpackage/appxmanifestschema/element-1-extensions.md
+            - name: "Extension"
+              href: schemas/appxpackage/appxmanifestschema/element-1-extension.md
+            - name: "FileTypeAssociation"
+              href: schemas/appxpackage/appxmanifestschema/element-filetypeassociation.md
+            - name: "DisplayName"
+              href: schemas/appxpackage/appxmanifestschema/element-1-displayname.md
+            - name: "Logo"
+              href: schemas/appxpackage/appxmanifestschema/element-1-logo.md
+            - name: "InfoTip"
+              href: schemas/appxpackage/appxmanifestschema/element-infotip.md
+            - name: "EditFlags"
+              href: schemas/appxpackage/appxmanifestschema/element-editflags.md
+            - name: "SupportedFileTypes"
+              href: schemas/appxpackage/appxmanifestschema/element-supportedfiletypes.md
+            - name: "FileType"
+              href: schemas/appxpackage/appxmanifestschema/element-filetype.md
+            - name: "Protocol"
+              href: schemas/appxpackage/appxmanifestschema/element-protocol.md
+            - name: "Logo"
+              href: schemas/appxpackage/appxmanifestschema/element-2-logo.md
+            - name: "DisplayName"
+              href: schemas/appxpackage/appxmanifestschema/element-2-displayname.md
+            - name: "AutoPlayContent"
+              href: schemas/appxpackage/appxmanifestschema/element-autoplaycontent.md
+            - name: "LaunchAction"
+              href: schemas/appxpackage/appxmanifestschema/element-launchaction.md
+            - name: "AutoPlayDevice"
+              href: schemas/appxpackage/appxmanifestschema/element-autoplaydevice.md
+            - name: "LaunchAction"
+              href: schemas/appxpackage/appxmanifestschema/element-1-launchaction.md
+            - name: "ShareTarget"
+              href: schemas/appxpackage/appxmanifestschema/element-sharetarget.md
+            - name: "SupportedFileTypes"
+              href: schemas/appxpackage/appxmanifestschema/element-1-supportedfiletypes.md
+            - name: "FileType"
+              href: schemas/appxpackage/appxmanifestschema/element-1-filetype.md
+            - name: "SupportsAnyFileType"
+              href: schemas/appxpackage/appxmanifestschema/element-supportsanyfiletype.md
+            - name: "DataFormat"
+              href: schemas/appxpackage/appxmanifestschema/element-dataformat.md
+            - name: "FileOpenPicker"
+              href: schemas/appxpackage/appxmanifestschema/element-fileopenpicker.md
+            - name: "SupportedFileTypes"
+              href: schemas/appxpackage/appxmanifestschema/element-2-supportedfiletypes.md
+            - name: "FileType"
+              href: schemas/appxpackage/appxmanifestschema/element-2-filetype.md
+            - name: "SupportsAnyFileType"
+              href: schemas/appxpackage/appxmanifestschema/element-1-supportsanyfiletype.md
+            - name: "FileSavePicker"
+              href: schemas/appxpackage/appxmanifestschema/element-filesavepicker.md
+            - name: "SupportedFileTypes"
+              href: schemas/appxpackage/appxmanifestschema/element-3-supportedfiletypes.md
+            - name: "FileType"
+              href: schemas/appxpackage/appxmanifestschema/element-3-filetype.md
+            - name: "SupportsAnyFileType"
+              href: schemas/appxpackage/appxmanifestschema/element-2-supportsanyfiletype.md
+            - name: "BackgroundTasks"
+              href: schemas/appxpackage/appxmanifestschema/element-backgroundtasks.md
+            - name: "Task"
+              href: schemas/appxpackage/appxmanifestschema/element-task.md
+        - name: "Windows 8.1 extensions manifest schema"
+          href: schemas/appxpackage/appxmanifestschema2010-v2/schema-root.md
+          items: 
+          - name: "Element Hierarchy"
+            href: schemas/appxpackage/appxmanifestschema2010-v2/root-elements.md
+            items: 
+            - name: "DeviceCapability"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-devicecapability.md
+            - name: "Extension"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-extension.md
+            - name: "FileTypeAssociation"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-filetypeassociation.md
+            - name: "DisplayName"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-displayname.md
+            - name: "Logo"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-logo.md
+            - name: "InfoTip"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-infotip.md
+            - name: "EditFlags"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-editflags.md
+            - name: "SupportedFileTypes"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-supportedfiletypes.md
+            - name: "FileType"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-filetype.md
+            - name: "Protocol"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-protocol.md
+            - name: "Logo"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-1-logo.md
+            - name: "DisplayName"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-1-displayname.md
+            - name: "AutoPlayContent"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-autoplaycontent.md
+            - name: "LaunchAction"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-launchaction.md
+            - name: "AutoPlayDevice"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-autoplaydevice.md
+            - name: "LaunchAction"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-1-launchaction.md
+            - name: "ShareTarget"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-sharetarget.md
+            - name: "SupportedFileTypes"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-1-supportedfiletypes.md
+            - name: "FileType"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-1-filetype.md
+            - name: "SupportsAnyFileType"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-supportsanyfiletype.md
+            - name: "DataFormat"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-dataformat.md
+            - name: "FileOpenPicker"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-fileopenpicker.md
+            - name: "SupportedFileTypes"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-2-supportedfiletypes.md
+            - name: "FileType"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-2-filetype.md
+            - name: "SupportsAnyFileType"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-1-supportsanyfiletype.md
+            - name: "FileSavePicker"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-filesavepicker.md
+            - name: "SupportedFileTypes"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-3-supportedfiletypes.md
+            - name: "FileType"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-3-filetype.md
+            - name: "SupportsAnyFileType"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-2-supportsanyfiletype.md
+            - name: "BackgroundTasks"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-backgroundtasks.md
+            - name: "TaskChoice"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-taskchoice.md
+            - name: "Package"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-package.md
+            - name: "Identity"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-identity.md
+            - name: "Properties"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-properties.md
+            - name: "Framework"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-framework.md
+            - name: "DisplayName"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-2-displayname.md
+            - name: "PublisherDisplayName"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-publisherdisplayname.md
+            - name: "Description"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-description.md
+            - name: "Logo"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-2-logo.md
+            - name: "ResourcePackage"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-resourcepackage.md
+            - name: "Resources"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-resources.md
+            - name: "Resource"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-resource.md
+            - name: "Prerequisites"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-prerequisites.md
+            - name: "OSMinVersion"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-osminversion.md
+            - name: "OSMaxVersionTested"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-osmaxversiontested.md
+            - name: "Dependencies"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-dependencies.md
+            - name: "PackageDependency"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-packagedependency.md
+            - name: "Capabilities"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-capabilities.md
+            - name: "Capability"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-capability.md
+            - name: "DeviceCapabilityChoice"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-devicecapabilitychoice.md
+            - name: "Extensions"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-extensions.md
+            - name: "Extension"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-1-extension.md
+            - name: "InProcessServer"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-inprocessserver.md
+            - name: "Path"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-path.md
+            - name: "ActivatableClass"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-activatableclass.md
+            - name: "ActivatableClassAttribute"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-activatableclassattribute.md
+            - name: "OutOfProcessServer"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-outofprocessserver.md
+            - name: "Path"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-1-path.md
+            - name: "Arguments"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-arguments.md
+            - name: "Instancing"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-instancing.md
+            - name: "ActivatableClass"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-1-activatableclass.md
+            - name: "ActivatableClassAttribute"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-1-activatableclassattribute.md
+            - name: "ProxyStub"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-proxystub.md
+            - name: "Path"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-2-path.md
+            - name: "Interface"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-interface.md
+            - name: "Certificates"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-certificates.md
+            - name: "Certificate"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-certificate.md
+            - name: "TrustFlags"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-trustflags.md
+            - name: "SelectionCriteria"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-selectioncriteria.md
+            - name: "Applications"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-applications.md
+            - name: "Application"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-application.md
+            - name: "VisualElementsChoice"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-visualelementschoice.md
+            - name: "ApplicationContentUriRules"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-applicationcontenturirules.md
+            - name: "Rule"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-rule.md
+            - name: "Extensions"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-1-extensions.md
+            - name: "ApplicationExtensionChoice"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-applicationextensionchoice.md
+            - name: "Task"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-task.md
+            - name: "VisualElements"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-visualelements.md
+            - name: "DefaultTile"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-defaulttile.md
+            - name: "LockScreen"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-lockscreen.md
+            - name: "SplashScreen"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-splashscreen.md
+            - name: "InitialRotationPreference"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-initialrotationpreference.md
+            - name: "Rotation"
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-rotation.md
+        - name: "Windows 8.1 feature extensions manifest schema"
+          href: schemas/appxpackage/appxmanifestschema2013/schema-root.md
+          items: 
+          - name: "Element Hierarchy"
+            href: schemas/appxpackage/appxmanifestschema2013/root-elements.md
+            items: 
+            - name: "DeviceCapability"
+              href: schemas/appxpackage/appxmanifestschema2013/element-devicecapability.md
+            - name: "Device"
+              href: schemas/appxpackage/appxmanifestschema2013/element-device.md
+            - name: "Function"
+              href: schemas/appxpackage/appxmanifestschema2013/element-function.md
+            - name: "Extension"
+              href: schemas/appxpackage/appxmanifestschema2013/element-extension.md
+            - name: "Contact"
+              href: schemas/appxpackage/appxmanifestschema2013/element-contact.md
+            - name: "ContactLaunchActions"
+              href: schemas/appxpackage/appxmanifestschema2013/element-contactlaunchactions.md
+            - name: "LaunchAction"
+              href: schemas/appxpackage/appxmanifestschema2013/element-launchaction.md
+            - name: "ServiceId"
+              href: schemas/appxpackage/appxmanifestschema2013/element-serviceid.md
+            - name: "AppointmentsProvider"
+              href: schemas/appxpackage/appxmanifestschema2013/element-appointmentsprovider.md
+            - name: "AppointmentsProviderLaunchActions"
+              href: schemas/appxpackage/appxmanifestschema2013/element-appointmentsproviderlaunchactions.md
+            - name: "LaunchAction"
+              href: schemas/appxpackage/appxmanifestschema2013/element-1-launchaction.md
+            - name: "ResourcePackage"
+              href: schemas/appxpackage/appxmanifestschema2013/element-resourcepackage.md
+            - name: "Task"
+              href: schemas/appxpackage/appxmanifestschema2013/element-task.md
+            - name: "VisualElements"
+              href: schemas/appxpackage/appxmanifestschema2013/element-visualelements.md
+            - name: "DefaultTile"
+              href: schemas/appxpackage/appxmanifestschema2013/element-defaulttile.md
+            - name: "TileUpdate"
+              href: schemas/appxpackage/appxmanifestschema2013/element-tileupdate.md
+            - name: "ShowNameOnTiles"
+              href: schemas/appxpackage/appxmanifestschema2013/element-shownameontiles.md
+            - name: "ShowOn"
+              href: schemas/appxpackage/appxmanifestschema2013/element-showon.md
+            - name: "LockScreen"
+              href: schemas/appxpackage/appxmanifestschema2013/element-lockscreen.md
+            - name: "SplashScreen"
+              href: schemas/appxpackage/appxmanifestschema2013/element-splashscreen.md
+            - name: "InitialRotationPreference"
+              href: schemas/appxpackage/appxmanifestschema2013/element-initialrotationpreference.md
+            - name: "Rotation"
+              href: schemas/appxpackage/appxmanifestschema2013/element-rotation.md
+            - name: "ApplicationView"
+              href: schemas/appxpackage/appxmanifestschema2013/element-applicationview.md
+        - name: "Localizable manifest items in Windows 8"
+          href: schemas/appxpackage/localizable-manifest-items.md
+    - name: "Application content schema"
+      href: schemas/appcontentschema/schema-root.md
+      items: 
+      - name: "Element Hierarchy"
+        href: schemas/appcontentschema/root-elements.md
+        items: 
+        - name: "Properties"
+          href: schemas/appcontentschema/element-properties.md
+        - name: "Name"
+          href: schemas/appcontentschema/element-name.md
+        - name: "Keywords"
+          href: schemas/appcontentschema/element-keywords.md
+          items: 
+          - name: "Keyword"
+            href: schemas/appcontentschema/element-keyword.md
+          - name: "Comment"
+            href: schemas/appcontentschema/element-comment.md
+          - name: "AdditionalProperties"
+            href: schemas/appcontentschema/element-additionalproperties.md
+          - name: "Property"
+            href: schemas/appcontentschema/element-property.md
+          - name: "Value"
+            href: schemas/appcontentschema/element-value.md
+      - name: "Attributes for app-specific elements"
+        href: schemas/appcontentschema/attributes-for-app-specific-elements.md
+        items: 
+        - name: "ContentType"
+          href: schemas/appcontentschema/contenttype.md
+        - name: "IndexableContent"
+          href: schemas/appcontentschema/indexablecontent.md
+    - name: "Bundle manifest"
+      href: schemas/bundlemanifestschema/bundle-manifest.md
+      items: 
+      - name: "Bundle manifest schema reference"
+        href: schemas/bundlemanifestschema/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/bundlemanifestschema/root-elements.md
+          items: 
+          - name: "Bundle"
+            href: schemas/bundlemanifestschema/element-bundle.md
+          - name: "Identity"
+            href: schemas/bundlemanifestschema/element-identity.md
+          - name: "Packages"
+            href: schemas/bundlemanifestschema/element-packages.md
+          - name: "Package"
+            href: schemas/bundlemanifestschema/element-package.md
+          - name: "Resources"
+            href: schemas/bundlemanifestschema/element-resources.md
+          - name: "Resource"
+            href: schemas/bundlemanifestschema/element-resource.md
+          - name: "OptionalBundle"
+            href: schemas/bundlemanifestschema/element-optionalbundle.md
+          - name: "Package"
+            href: schemas/bundlemanifestschema/element-optionalbundle-package.md
+          - name: "Resources"
+            href: schemas/bundlemanifestschema/element-optionalbundle-resources.md
+          - name: "Resource"
+            href: schemas/bundlemanifestschema/element-optionalbundle-resource.md
+    - name: "Final content group map"
+      href: schemas/finalcontentgroupmapschema/final-content-group-map.md
+      items: 
+      - name: "Final content group map schema reference"
+        href: schemas/finalcontentgroupmapschema/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/finalcontentgroupmapschema/root-elements.md
+          items: 
+          - name: "ContentGroupMap"
+            href: schemas/finalcontentgroupmapschema/element-final-contentgroupmap.md
+          - name: "Automatic"
+            href: schemas/finalcontentgroupmapschema/element-final-automatic.md
+          - name: "ContentGroup"
+            href: schemas/finalcontentgroupmapschema/element-final-automatic-contentgroup.md
+          - name: "File"
+            href: schemas/finalcontentgroupmapschema/element-final-automatic-file.md
+    - name: "Schema for Mobile Broadband"
+      href: schemas/mobilebroadbandschema/schema-for-mobile-broadband-portal.md
+      items: 
+      - name: "Base schema"
+        href: schemas/mobilebroadbandschema/base/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/mobilebroadbandschema/base/root-elements.md
+      - name: "CarrierControlSchema schema"
+        href: schemas/mobilebroadbandschema/carriercontrolschema/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/mobilebroadbandschema/carriercontrolschema/root-elements.md
+          items: 
+          - name: "CarrierProvisioning"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-carrierprovisioning.md
+          - name: "Global"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-global.md
+          - name: "CarrierId"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-carrierid.md
+          - name: "SubscriberId"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-subscriberid.md
+          - name: "DeviceId"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-deviceid.md
+          - name: "Activation"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-activation.md
+          - name: "ActivationMethod"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-activationmethod.md
+          - name: "MBNProfiles"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-mbnprofiles.md
+          - name: "DefaultProfile"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-defaultprofile.md
+          - name: "PurchaseProfile"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-purchaseprofile.md
+          - name: "Messages"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-messages.md
+          - name: "Branding"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-branding.md
+          - name: "WLANProfiles"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-wlanprofiles.md
+          - name: "WLANProfile"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-wlanprofile.md
+          - name: "Plans"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-plans.md
+          - name: "Plan"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-plan.md
+          - name: "Provisioning"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-provisioning.md
+          - name: "TrustedCertificates"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-trustedcertificates.md
+          - name: "TrustedCertificate"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-trustedcertificate.md
+          - name: "RefreshParameters"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-refreshparameters.md
+          - name: "DelayInDays"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-delayindays.md
+          - name: "RefreshURL"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-refreshurl.md
+          - name: "UserName"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-username.md
+          - name: "Password"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-password.md
+          - name: "Extensions"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-extensions.md
+          - name: "Signature"
+            href: schemas/mobilebroadbandschema/carriercontrolschema/element-signature.md
+      - name: "CarrierControlSchema_v2 schema"
+        href: schemas/mobilebroadbandschema/carriercontrolschema-v2/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/mobilebroadbandschema/carriercontrolschema-v2/root-elements.md
+          items: 
+          - name: "Extensions_v2"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-extensions-v2.md
+          - name: "CarrierNetworkMetadata"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-carriernetworkmetadata.md
+          - name: "NetworkSettings"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-networksettings.md
+          - name: "IPv4LinkMTU"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-ipv4linkmtu.md
+          - name: "IPv6LinkMTU"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-ipv6linkmtu.md
+          - name: "DNSRetrySettings"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-dnsretrysettings.md
+          - name: "DNSRetryIntervalInSeconds"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-dnsretryintervalinseconds.md
+          - name: "DNSRetryCount"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-dnsretrycount.md
+          - name: "DataClassFriendlyNames"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-dataclassfriendlynames.md
+          - name: "NONE"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-none.md
+          - name: "GPRS"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-gprs.md
+          - name: "EDGE"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-edge.md
+          - name: "UMTS"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-umts.md
+          - name: "HSDPA"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-hsdpa.md
+          - name: "HSUPA"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-hsupa.md
+          - name: "LTE"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-lte.md
+          - name: "ONEXRTT"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-onexrtt.md
+          - name: "ONEXEVDO"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-onexevdo.md
+          - name: "ONEXEVDO_REVA"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-onexevdo-reva.md
+          - name: "ONEXEVDV"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-onexevdv.md
+          - name: "THREEXRTT"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-threexrtt.md
+          - name: "ONEXEVDO_REVB"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-onexevdo-revb.md
+          - name: "UMB"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-umb.md
+          - name: "CUSTOM"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-custom.md
+          - name: "CustomerSupportPhoneNumber"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-customersupportphonenumber.md
+          - name: "AdditionalPDPContexts"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-additionalpdpcontexts.md
+          - name: "MultiplePDPContextPolicies"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-multiplepdpcontextpolicies.md
+          - name: "PDPContextPolicy"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-pdpcontextpolicy.md
+          - name: "Name"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-name.md
+          - name: "Context"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-context.md
+          - name: "AccessString"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-accessstring.md
+          - name: "UserLogonCred"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-userlogoncred.md
+          - name: "UserName"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-username.md
+          - name: "Password"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-password.md
+          - name: "Compression"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-compression.md
+          - name: "AuthProtocol"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-authprotocol.md
+          - name: "AppIDList"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-appidlist.md
+          - name: "AppID"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-appid.md
+          - name: "TetheringSettings"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-tetheringsettings.md
+          - name: "TetheringProfile"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-tetheringprofile.md
+          - name: "Name"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-1-name.md
+          - name: "Context"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-1-context.md
+          - name: "AccessString"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-1-accessstring.md
+          - name: "UserLogonCred"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-1-userlogoncred.md
+          - name: "UserName"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-1-username.md
+          - name: "Password"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-1-password.md
+          - name: "Compression"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-1-compression.md
+          - name: "AuthProtocol"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-1-authprotocol.md
+          - name: "MaxNumberOfDevices"
+            href: schemas/mobilebroadbandschema/carriercontrolschema-v2/element-maxnumberofdevices.md
+      - name: "CarrierControlSignatureSchema schema"
+        href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/root-elements.md
+          items: 
+          - name: "Signature"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-signature.md
+          - name: "SignedInfo"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-signedinfo.md
+          - name: "CanonicalizationMethod"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-canonicalizationmethod.md
+          - name: "SignatureMethod"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-signaturemethod.md
+          - name: "HMACOutputLength"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-hmacoutputlength.md
+          - name: "Reference"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-reference.md
+          - name: "Transforms"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-transforms.md
+          - name: "Transform"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-transform.md
+          - name: "DigestMethod"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-digestmethod.md
+          - name: "DigestValue"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-digestvalue.md
+          - name: "SignatureValue"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-signaturevalue.md
+          - name: "KeyInfo"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-keyinfo.md
+          - name: "KeyValue"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-keyvalue.md
+          - name: "DSAKeyValue"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-dsakeyvalue.md
+          - name: "P"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-p.md
+          - name: "Q"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-q.md
+          - name: "G"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-g.md
+          - name: "Y"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-y.md
+          - name: "J"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-j.md
+          - name: "Seed"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-seed.md
+          - name: "PgenCounter"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-pgencounter.md
+          - name: "RSAKeyValue"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-rsakeyvalue.md
+          - name: "Modulus"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-modulus.md
+          - name: "Exponent"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-exponent.md
+          - name: "X509Data"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-x509data.md
+          - name: "X509Certificate"
+            href: schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-x509certificate.md
+      - name: "DUSM schema"
+        href: schemas/mobilebroadbandschema/dusm/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/mobilebroadbandschema/dusm/root-elements.md
+          items: 
+          - name: "Cost"
+            href: schemas/mobilebroadbandschema/dusm/element-cost.md
+          - name: "UsageInMegabytes"
+            href: schemas/mobilebroadbandschema/dusm/element-usageinmegabytes.md
+          - name: "DataLimitInMegabytes"
+            href: schemas/mobilebroadbandschema/dusm/element-datalimitinmegabytes.md
+          - name: "BillingCycle"
+            href: schemas/mobilebroadbandschema/dusm/element-billingcycle.md
+          - name: "BandwidthInKbps"
+            href: schemas/mobilebroadbandschema/dusm/element-bandwidthinkbps.md
+          - name: "MaxDownloadFileSizeInMegabytes"
+            href: schemas/mobilebroadbandschema/dusm/element-maxdownloadfilesizeinmegabytes.md
+          - name: "CarrierPolicy"
+            href: schemas/mobilebroadbandschema/dusm/element-carrierpolicy.md
+          - name: "SecurityUpdatesExempt"
+            href: schemas/mobilebroadbandschema/dusm/element-securityupdatesexempt.md
+          - name: "UserSMSEnabled"
+            href: schemas/mobilebroadbandschema/dusm/element-usersmsenabled.md
+      - name: "HotspotProfile schema"
+        href: schemas/mobilebroadbandschema/hotspotprofile/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/mobilebroadbandschema/hotspotprofile/root-elements.md
+          items: 
+          - name: "HotspotProfile"
+            href: schemas/mobilebroadbandschema/hotspotprofile/element-hotspotprofile.md
+          - name: "BasicAuth"
+            href: schemas/mobilebroadbandschema/hotspotprofile/element-basicauth.md
+          - name: "UserName"
+            href: schemas/mobilebroadbandschema/hotspotprofile/element-username.md
+          - name: "Password"
+            href: schemas/mobilebroadbandschema/hotspotprofile/element-password.md
+          - name: "TrustedDomains"
+            href: schemas/mobilebroadbandschema/hotspotprofile/element-trusteddomains.md
+          - name: "TrustedDomain"
+            href: schemas/mobilebroadbandschema/hotspotprofile/element-trusteddomain.md
+          - name: "ExtAuth"
+            href: schemas/mobilebroadbandschema/hotspotprofile/element-extauth.md
+          - name: "ExtensionId"
+            href: schemas/mobilebroadbandschema/hotspotprofile/element-extensionid.md
+          - name: "UserAgent"
+            href: schemas/mobilebroadbandschema/hotspotprofile/element-useragent.md
+          - name: "SSIDConfig"
+            href: schemas/mobilebroadbandschema/hotspotprofile/element-ssidconfig.md
+          - name: "SSID"
+            href: schemas/mobilebroadbandschema/hotspotprofile/element-ssid.md
+          - name: "hex"
+            href: schemas/mobilebroadbandschema/hotspotprofile/element-hex.md
+          - name: "hexPrefix"
+            href: schemas/mobilebroadbandschema/hotspotprofile/element-hexprefix.md
+          - name: "name"
+            href: schemas/mobilebroadbandschema/hotspotprofile/element-name.md
+          - name: "namePrefix"
+            href: schemas/mobilebroadbandschema/hotspotprofile/element-nameprefix.md
+      - name: "MBAE schema"
+        href: schemas/mobilebroadbandschema/mbae/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/mobilebroadbandschema/mbae/root-elements.md
+          items: 
+          - name: "MobileBroadbandInfo"
+            href: schemas/mobilebroadbandschema/mbae/element-mobilebroadbandinfo.md
+          - name: "NetworkConfiguration"
+            href: schemas/mobilebroadbandschema/mbae/element-networkconfiguration.md
+          - name: "MobileBroadbandProfiles"
+            href: schemas/mobilebroadbandschema/mbae/element-mobilebroadbandprofiles.md
+          - name: "Purchase"
+            href: schemas/mobilebroadbandschema/mbae/element-purchase.md
+          - name: "Internet"
+            href: schemas/mobilebroadbandschema/mbae/element-internet.md
+          - name: "ProvisioningEngine"
+            href: schemas/mobilebroadbandschema/mbae/element-provisioningengine.md
+          - name: "TrustedCertificates"
+            href: schemas/mobilebroadbandschema/mbae/element-trustedcertificates.md
+          - name: "TrustedCertificate"
+            href: schemas/mobilebroadbandschema/mbae/element-trustedcertificate.md
+          - name: "SubjectName"
+            href: schemas/mobilebroadbandschema/mbae/element-subjectname.md
+          - name: "IssuerName"
+            href: schemas/mobilebroadbandschema/mbae/element-issuername.md
+      - name: "Plans schema"
+        href: schemas/mobilebroadbandschema/plans/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/mobilebroadbandschema/plans/root-elements.md
+          items: 
+          - name: "Plan"
+            href: schemas/mobilebroadbandschema/plans/element-plan.md
+          - name: "Description"
+            href: schemas/mobilebroadbandschema/plans/element-description.md
+          - name: "BillingCycle"
+            href: schemas/mobilebroadbandschema/plans/element-billingcycle.md
+          - name: "DataLimitInMegabytes"
+            href: schemas/mobilebroadbandschema/plans/element-datalimitinmegabytes.md
+          - name: "InboundBandwidthInKbps"
+            href: schemas/mobilebroadbandschema/plans/element-inboundbandwidthinkbps.md
+          - name: "OutboundBandwidthInKbps"
+            href: schemas/mobilebroadbandschema/plans/element-outboundbandwidthinkbps.md
+          - name: "MaxTransferSizeInMegabytes"
+            href: schemas/mobilebroadbandschema/plans/element-maxtransfersizeinmegabytes.md
+          - name: "SecurityUpdatesExempt"
+            href: schemas/mobilebroadbandschema/plans/element-securityupdatesexempt.md
+          - name: "DataUsageInMobileOperatorNotificationEnabled"
+            href: schemas/mobilebroadbandschema/plans/element-datausageinmobileoperatornotificationenabled.md
+          - name: "UserSMSEnabled"
+            href: schemas/mobilebroadbandschema/plans/element-usersmsenabled.md
+          - name: "Usage"
+            href: schemas/mobilebroadbandschema/plans/element-usage.md
+      - name: "ResultsSchema schema"
+        href: schemas/mobilebroadbandschema/resultsschema/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/mobilebroadbandschema/resultsschema/root-elements.md
+          items: 
+          - name: "CarrierProvisioningResult"
+            href: schemas/mobilebroadbandschema/resultsschema/element-carrierprovisioningresult.md
+          - name: "Issuer"
+            href: schemas/mobilebroadbandschema/resultsschema/element-issuer.md
+          - name: "Subscriber"
+            href: schemas/mobilebroadbandschema/resultsschema/element-subscriber.md
+          - name: "Activation"
+            href: schemas/mobilebroadbandschema/resultsschema/element-activation.md
+          - name: "MBNProfiles"
+            href: schemas/mobilebroadbandschema/resultsschema/element-mbnprofiles.md
+          - name: "DefaultProfile"
+            href: schemas/mobilebroadbandschema/resultsschema/element-defaultprofile.md
+          - name: "PurchaseProfile"
+            href: schemas/mobilebroadbandschema/resultsschema/element-purchaseprofile.md
+          - name: "WLANProfiles"
+            href: schemas/mobilebroadbandschema/resultsschema/element-wlanprofiles.md
+          - name: "WLANProfile"
+            href: schemas/mobilebroadbandschema/resultsschema/element-wlanprofile.md
+          - name: "Provisioning"
+            href: schemas/mobilebroadbandschema/resultsschema/element-provisioning.md
+          - name: "RefreshParameters"
+            href: schemas/mobilebroadbandschema/resultsschema/element-refreshparameters.md
+          - name: "NotificationSignatureKey"
+            href: schemas/mobilebroadbandschema/resultsschema/element-notificationsignaturekey.md
+          - name: "TrustedCertificate"
+            href: schemas/mobilebroadbandschema/resultsschema/element-trustedcertificate.md
+          - name: "Policy"
+            href: schemas/mobilebroadbandschema/resultsschema/element-policy.md
+          - name: "Signature"
+            href: schemas/mobilebroadbandschema/resultsschema/element-signature.md
+          - name: "Subject"
+            href: schemas/mobilebroadbandschema/resultsschema/element-subject.md
+          - name: "Thumbprint"
+            href: schemas/mobilebroadbandschema/resultsschema/element-thumbprint.md
+      - name: "ResultsSchema_v2 schema"
+        href: schemas/mobilebroadbandschema/resultsschema-v2/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/mobilebroadbandschema/resultsschema-v2/root-elements.md
+          items: 
+          - name: "CarrierProvisioningResult"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-carrierprovisioningresult.md
+          - name: "Issuer"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-issuer.md
+          - name: "Subscriber"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-subscriber.md
+          - name: "Activation"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-activation.md
+          - name: "MBNProfiles"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-mbnprofiles.md
+          - name: "DefaultProfile"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-defaultprofile.md
+          - name: "PurchaseProfile"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-purchaseprofile.md
+          - name: "WLANProfiles"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-wlanprofiles.md
+          - name: "WLANProfile"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-wlanprofile.md
+          - name: "Provisioning"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-provisioning.md
+          - name: "RefreshParameters"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-refreshparameters.md
+          - name: "TrustedCertificate"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-trustedcertificate.md
+          - name: "Plans"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-plans.md
+          - name: "Plan"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-plan.md
+          - name: "CarrierNetworkMetadata"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-carriernetworkmetadata.md
+          - name: "NetworkSettings"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-networksettings.md
+          - name: "DataClassFriendlyNames"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-dataclassfriendlynames.md
+          - name: "CustomerSupportPhoneNumber"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-customersupportphonenumber.md
+          - name: "AdditionalPDPContexts"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-additionalpdpcontexts.md
+          - name: "MultiplePDPContextPolicies"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-multiplepdpcontextpolicies.md
+          - name: "PDPContextPolicy"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-pdpcontextpolicy.md
+          - name: "TetheringSettings"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-tetheringsettings.md
+          - name: "TetheringProfile"
+            href: schemas/mobilebroadbandschema/resultsschema-v2/element-tetheringprofile.md
+      - name: "WLAN schema"
+        href: schemas/mobilebroadbandschema/wlan/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/mobilebroadbandschema/wlan/root-elements.md
+          items: 
+          - name: "WLANProfile"
+            href: schemas/mobilebroadbandschema/wlan/element-wlanprofile.md
+          - name: "name"
+            href: schemas/mobilebroadbandschema/wlan/element-name.md
+          - name: "AssociatedPlan"
+            href: schemas/mobilebroadbandschema/wlan/element-associatedplan.md
+          - name: "SSIDConfig"
+            href: schemas/mobilebroadbandschema/wlan/element-ssidconfig.md
+          - name: "SSID"
+            href: schemas/mobilebroadbandschema/wlan/element-ssid.md
+          - name: "hex"
+            href: schemas/mobilebroadbandschema/wlan/element-hex.md
+          - name: "name"
+            href: schemas/mobilebroadbandschema/wlan/element-1-name.md
+          - name: "MSM"
+            href: schemas/mobilebroadbandschema/wlan/element-msm.md
+          - name: "security"
+            href: schemas/mobilebroadbandschema/wlan/element-security.md
+          - name: "authEncryption"
+            href: schemas/mobilebroadbandschema/wlan/element-authencryption.md
+          - name: "authentication"
+            href: schemas/mobilebroadbandschema/wlan/element-authentication.md
+          - name: "encryption"
+            href: schemas/mobilebroadbandschema/wlan/element-encryption.md
+          - name: "useOneX"
+            href: schemas/mobilebroadbandschema/wlan/element-useonex.md
+          - name: "sharedKey"
+            href: schemas/mobilebroadbandschema/wlan/element-sharedkey.md
+          - name: "keyType"
+            href: schemas/mobilebroadbandschema/wlan/element-keytype.md
+          - name: "protected"
+            href: schemas/mobilebroadbandschema/wlan/element-protected.md
+          - name: "keyMaterial"
+            href: schemas/mobilebroadbandschema/wlan/element-keymaterial.md
+          - name: "keyIndex"
+            href: schemas/mobilebroadbandschema/wlan/element-keyindex.md
+          - name: "PMKCacheMode"
+            href: schemas/mobilebroadbandschema/wlan/element-pmkcachemode.md
+          - name: "PMKCacheTTL"
+            href: schemas/mobilebroadbandschema/wlan/element-pmkcachettl.md
+          - name: "PMKCacheSize"
+            href: schemas/mobilebroadbandschema/wlan/element-pmkcachesize.md
+          - name: "preAuthMode"
+            href: schemas/mobilebroadbandschema/wlan/element-preauthmode.md
+          - name: "preAuthThrottle"
+            href: schemas/mobilebroadbandschema/wlan/element-preauththrottle.md
+      - name: "WLAN_v2 schema"
+        href: schemas/mobilebroadbandschema/wlan-v2/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/mobilebroadbandschema/wlan-v2/root-elements.md
+          items: 
+          - name: "FIPSMode"
+            href: schemas/mobilebroadbandschema/wlan-v2/element-fipsmode.md
+          - name: "SSID"
+            href: schemas/mobilebroadbandschema/wlan-v2/element-ssid.md
+          - name: "hex"
+            href: schemas/mobilebroadbandschema/wlan-v2/element-hex.md
+          - name: "name"
+            href: schemas/mobilebroadbandschema/wlan-v2/element-name.md
+          - name: "SSIDPrefix"
+            href: schemas/mobilebroadbandschema/wlan-v2/element-ssidprefix.md
+          - name: "hex"
+            href: schemas/mobilebroadbandschema/wlan-v2/element-1-hex.md
+          - name: "name"
+            href: schemas/mobilebroadbandschema/wlan-v2/element-1-name.md
+      - name: "WWAN Schema"
+        href: schemas/mobilebroadbandschema/wwan/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/mobilebroadbandschema/wwan/root-elements.md
+          items: 
+          - name: "ActivationMethod"
+            href: schemas/mobilebroadbandschema/wwan/element-activationmethod.md
+          - name: "Branding"
+            href: schemas/mobilebroadbandschema/wwan/element-branding.md
+          - name: "Logo"
+            href: schemas/mobilebroadbandschema/wwan/element-logo.md
+          - name: "Name"
+            href: schemas/mobilebroadbandschema/wwan/element-name.md
+          - name: "DefaultProfile"
+            href: schemas/mobilebroadbandschema/wwan/element-defaultprofile.md
+          - name: "Name"
+            href: schemas/mobilebroadbandschema/wwan/element-1-name.md
+          - name: "Description"
+            href: schemas/mobilebroadbandschema/wwan/element-description.md
+          - name: "AssociatedPlan"
+            href: schemas/mobilebroadbandschema/wwan/element-associatedplan.md
+          - name: "HomeProviderName"
+            href: schemas/mobilebroadbandschema/wwan/element-homeprovidername.md
+          - name: "Context"
+            href: schemas/mobilebroadbandschema/wwan/element-context.md
+          - name: "AccessString"
+            href: schemas/mobilebroadbandschema/wwan/element-accessstring.md
+          - name: "UserLogonCred"
+            href: schemas/mobilebroadbandschema/wwan/element-userlogoncred.md
+          - name: "UserName"
+            href: schemas/mobilebroadbandschema/wwan/element-username.md
+          - name: "Password"
+            href: schemas/mobilebroadbandschema/wwan/element-password.md
+          - name: "Compression"
+            href: schemas/mobilebroadbandschema/wwan/element-compression.md
+          - name: "AuthProtocol"
+            href: schemas/mobilebroadbandschema/wwan/element-authprotocol.md
+          - name: "DataRoamingPartners"
+            href: schemas/mobilebroadbandschema/wwan/element-dataroamingpartners.md
+          - name: "Provider"
+            href: schemas/mobilebroadbandschema/wwan/element-provider.md
+          - name: "Extensions"
+            href: schemas/mobilebroadbandschema/wwan/element-extensions.md
+          - name: "Messages"
+            href: schemas/mobilebroadbandschema/wwan/element-messages.md
+          - name: "Message"
+            href: schemas/mobilebroadbandschema/wwan/element-message.md
+          - name: "SMSBearer"
+            href: schemas/mobilebroadbandschema/wwan/element-smsbearer.md
+          - name: "USSDBearer"
+            href: schemas/mobilebroadbandschema/wwan/element-ussdbearer.md
+          - name: "Pattern"
+            href: schemas/mobilebroadbandschema/wwan/element-pattern.md
+          - name: "Locale"
+            href: schemas/mobilebroadbandschema/wwan/element-locale.md
+          - name: "Units"
+            href: schemas/mobilebroadbandschema/wwan/element-units.md
+          - name: "Fields"
+            href: schemas/mobilebroadbandschema/wwan/element-fields.md
+          - name: "Usage"
+            href: schemas/mobilebroadbandschema/wwan/element-usage.md
+          - name: "UsagePercentage"
+            href: schemas/mobilebroadbandschema/wwan/element-usagepercentage.md
+          - name: "UsageOverage"
+            href: schemas/mobilebroadbandschema/wwan/element-usageoverage.md
+          - name: "UsageOveragePercentage"
+            href: schemas/mobilebroadbandschema/wwan/element-usageoveragepercentage.md
+          - name: "UsageTimestamp"
+            href: schemas/mobilebroadbandschema/wwan/element-usagetimestamp.md
+          - name: "DataLimit"
+            href: schemas/mobilebroadbandschema/wwan/element-datalimit.md
+          - name: "OverDataLimit"
+            href: schemas/mobilebroadbandschema/wwan/element-overdatalimit.md
+          - name: "Congested"
+            href: schemas/mobilebroadbandschema/wwan/element-congested.md
+          - name: "InboundBandwidth"
+            href: schemas/mobilebroadbandschema/wwan/element-inboundbandwidth.md
+          - name: "OutboundBandwidth"
+            href: schemas/mobilebroadbandschema/wwan/element-outboundbandwidth.md
+          - name: "PlanType"
+            href: schemas/mobilebroadbandschema/wwan/element-plantype.md
+          - name: "RefreshProvisioning"
+            href: schemas/mobilebroadbandschema/wwan/element-refreshprovisioning.md
+          - name: "ActivationComplete"
+            href: schemas/mobilebroadbandschema/wwan/element-activationcomplete.md
+          - name: "PurchaseProfile"
+            href: schemas/mobilebroadbandschema/wwan/element-purchaseprofile.md
+          - name: "Name"
+            href: schemas/mobilebroadbandschema/wwan/element-2-name.md
+          - name: "Description"
+            href: schemas/mobilebroadbandschema/wwan/element-1-description.md
+          - name: "AssociatedPlan"
+            href: schemas/mobilebroadbandschema/wwan/element-1-associatedplan.md
+          - name: "HomeProviderName"
+            href: schemas/mobilebroadbandschema/wwan/element-1-homeprovidername.md
+          - name: "Context"
+            href: schemas/mobilebroadbandschema/wwan/element-1-context.md
+          - name: "AccessString"
+            href: schemas/mobilebroadbandschema/wwan/element-1-accessstring.md
+          - name: "UserLogonCred"
+            href: schemas/mobilebroadbandschema/wwan/element-1-userlogoncred.md
+          - name: "UserName"
+            href: schemas/mobilebroadbandschema/wwan/element-1-username.md
+          - name: "Password"
+            href: schemas/mobilebroadbandschema/wwan/element-1-password.md
+          - name: "Compression"
+            href: schemas/mobilebroadbandschema/wwan/element-1-compression.md
+          - name: "AuthProtocol"
+            href: schemas/mobilebroadbandschema/wwan/element-1-authprotocol.md
+          - name: "DataRoamingPartners"
+            href: schemas/mobilebroadbandschema/wwan/element-1-dataroamingpartners.md
+          - name: "Provider"
+            href: schemas/mobilebroadbandschema/wwan/element-1-provider.md
+          - name: "Extensions"
+            href: schemas/mobilebroadbandschema/wwan/element-1-extensions.md
+          - name: "ReconnectToNetwork"
+            href: schemas/mobilebroadbandschema/wwan/element-reconnecttonetwork.md
+          - name: "ReregisterToNetwork"
+            href: schemas/mobilebroadbandschema/wwan/element-reregistertonetwork.md
+          - name: "ServiceActivation"
+            href: schemas/mobilebroadbandschema/wwan/element-serviceactivation.md
+          - name: "CarrierSpecificData"
+            href: schemas/mobilebroadbandschema/wwan/element-carrierspecificdata.md
+    - name: "Source content group map"
+      href: schemas/sourcecontentgroupmapschema/source-content-group-map.md
+      items: 
+      - name: "Source content group map schema reference"
+        href: schemas/sourcecontentgroupmapschema/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/sourcecontentgroupmapschema/root-elements.md
+          items: 
+          - name: "ContentGroupMap"
+            href: schemas/sourcecontentgroupmapschema/element-source-contentgroupmap.md
+          - name: "Automatic"
+            href: schemas/sourcecontentgroupmapschema/element-source-automatic.md
+          - name: "ContentGroup"
+            href: schemas/sourcecontentgroupmapschema/element-source-automatic-contentgroup.md
+          - name: "File"
+            href: schemas/sourcecontentgroupmapschema/element-source-automatic-file.md
+          - name: "Required"
+            href: schemas/sourcecontentgroupmapschema/element-source-required.md
+          - name: "ContentGroup"
+            href: schemas/sourcecontentgroupmapschema/element-source-required-contentgroup.md
+          - name: "File"
+            href: schemas/sourcecontentgroupmapschema/element-source-required-file.md
+    - name: "Store manifest schema"
+      href: schemas/storemanifest/store-manifest-schema-portal.md
+      items: 
+      - name: "StoreManifest schema (Windows 10)"
+        href: schemas/storemanifest/storemanifestschema2015/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/storemanifest/storemanifestschema2015/root-elements.md
+          items: 
+          - name: "StoreManifest"
+            href: schemas/storemanifest/storemanifestschema2015/element-storemanifest.md
+          - name: "DeviceCompanionApplication"
+            href: schemas/storemanifest/storemanifestschema2015/element-devicecompanionapplication.md
+          - name: "ExperienceId"
+            href: schemas/storemanifest/storemanifestschema2015/element-experienceid.md
+          - name: "Dependencies"
+            href: schemas/storemanifest/storemanifestschema2015/element-dependencies.md
+          - name: "TargetDeviceFamily"
+            href: schemas/storemanifest/storemanifestschema2015/element-targetdevicefamily.md
+          - name: "MemoryDependency"
+            href: schemas/storemanifest/storemanifestschema2015/element-memorydependency.md
+          - name: "DirectXDependency"
+            href: schemas/storemanifest/storemanifestschema2015/element-directxdependency.md
+        - name: "StoreManifest XML example (Windows 10)"
+          href: schemas/storemanifest/storemanifestschema2015/storemanifest-xml-example-windows-10.md
+      - name: "StoreManifest schema (Windows 8.1 and earlier)"
+        href: schemas/storemanifest/storemanifestschema2010/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/storemanifest/storemanifestschema2010/root-elements.md
+          items: 
+          - name: "StoreManifest"
+            href: schemas/storemanifest/storemanifestschema2010/element-storemanifest.md
+          - name: "ProductFeatures"
+            href: schemas/storemanifest/storemanifestschema2010/element-productfeatures.md
+          - name: "DeviceCompanionApplication"
+            href: schemas/storemanifest/storemanifestschema2010/element-devicecompanionapplication.md
+          - name: "ExperienceIds"
+            href: schemas/storemanifest/storemanifestschema2010/element-experienceids.md
+          - name: "ExperienceId"
+            href: schemas/storemanifest/storemanifestschema2010/element-experienceid.md
+          - name: "ExclusiveOptOut"
+            href: schemas/storemanifest/storemanifestschema2010/element-exclusiveoptout.md
+          - name: "PreinstallOptOut"
+            href: schemas/storemanifest/storemanifestschema2010/element-preinstalloptout.md
+        - name: "StoreManifest XML example (Windows 8.1 and earlier)"
+          href: schemas/storemanifest/storemanifestschema2010/storemanifest-xml-examples.md
+    - name: "Tiles, toast, and badge schemas"
+      href: schemas/tiles/tiles-xml-schema-portal.md
+      items: 
+      - name: "Tile schema"
+        href: schemas/tiles/tilesschema/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/tiles/tilesschema/root-elements.md
+          items: 
+          - name: "tile"
+            href: schemas/tiles/tilesschema/element-tile.md
+          - name: "visual"
+            href: schemas/tiles/tilesschema/element-visual.md
+          - name: "binding"
+            href: schemas/tiles/tilesschema/element-binding.md
+          - name: "image"
+            href: schemas/tiles/tilesschema/element-image.md
+          - name: "text"
+            href: schemas/tiles/tilesschema/element-text.md
+      - name: "Toast schema"
+        href: schemas/tiles/toastschema/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/tiles/toastschema/root-elements.md
+          items: 
+          - name: "toast"
+            href: schemas/tiles/toastschema/element-toast.md
+          - name: "visual"
+            href: schemas/tiles/toastschema/element-visual.md
+          - name: "binding"
+            href: schemas/tiles/toastschema/element-binding.md
+          - name: "image"
+            href: schemas/tiles/toastschema/element-image.md
+          - name: "text"
+            href: schemas/tiles/toastschema/element-text.md
+          - name: "audio"
+            href: schemas/tiles/toastschema/element-audio.md
+          - name: "commands"
+            href: schemas/tiles/toastschema/element-commands.md
+          - name: "command"
+            href: schemas/tiles/toastschema/element-command.md
+      - name: "Badge schema"
+        href: schemas/tiles/badgeschema/schema-root.md
+        items: 
+        - name: "Element Hierarchy"
+          href: schemas/tiles/badgeschema/root-elements.md
+          items: 
+          - name: "badge"
+            href: schemas/tiles/badgeschema/element-badge.md
+    - name: "Cortana Voice command (VCD) schemas"
+      href: schemas/voicecommands/vcd-xml-schema-portal.md
+      items: 
+      - name: "Voice Command Definition (VCD) elements and attributes v1.1"
+        href: schemas/voicecommands/voice-command-elements-and-attributes-1-1.md
+      - name: "Voice Command Definition (VCD) elements and attributes v1.2"
+        href: schemas/voicecommands/voice-command-elements-and-attributes-1-2.md
+  - name: "winrt namespace (C++/WinRT)"
+    href: cpp-ref-for-winrt/winrt.md
+    items: 
+    - name: "agile_ref struct template"
+      href: cpp-ref-for-winrt/agile-ref.md
+    - name: "apartment_context struct"
+      href: cpp-ref-for-winrt/apartment-context.md
+    - name: "array_view struct template"
+      href: cpp-ref-for-winrt/array-view.md
+    - name: "attach_abi function"
+      href: cpp-ref-for-winrt/attach-abi.md
+    - name: "auto_revoke_t marker struct"
+      href: cpp-ref-for-winrt/auto-revoke-t.md
+    - name: "box_value function template"
+      href: cpp-ref-for-winrt/box-value.md
+    - name: "clock struct"
+      href: cpp-ref-for-winrt/clock.md
+    - name: "com_array struct template"
+      href: cpp-ref-for-winrt/com-array.md
+    - name: "com_ptr struct template"
+      href: cpp-ref-for-winrt/com-ptr.md
+    - name: "copy_from_abi function"
+      href: cpp-ref-for-winrt/copy-from-abi.md
+    - name: "copy_to_abi function"
+      href: cpp-ref-for-winrt/copy-to-abi.md
+    - name: "delegate struct template"
+      href: cpp-ref-for-winrt/delegate.md
+    - name: "detach_abi function"
+      href: cpp-ref-for-winrt/detach-abi.md
+    - name: "Error handling"
+      href: 
+      items: 
+      - name: "check_bool function template"
+        href: cpp-ref-for-winrt/error-handling/check-bool.md
+      - name: "check_hresult function"
+        href: cpp-ref-for-winrt/error-handling/check-hresult.md
+      - name: "check_nt function template"
+        href: cpp-ref-for-winrt/error-handling/check-nt.md
+      - name: "check_pointer function template"
+        href: cpp-ref-for-winrt/error-handling/check-pointer.md
+      - name: "check_win32 function template"
+        href: cpp-ref-for-winrt/error-handling/check-win32.md
+      - name: "hresult_access_denied struct"
+        href: cpp-ref-for-winrt/error-handling/hresult-access-denied.md
+      - name: "hresult_canceled struct"
+        href: cpp-ref-for-winrt/error-handling/hresult-canceled.md
+      - name: "hresult_changed_state struct"
+        href: cpp-ref-for-winrt/error-handling/hresult-changed-state.md
+      - name: "hresult_class_not_available struct"
+        href: cpp-ref-for-winrt/error-handling/hresult-class-not-available.md
+      - name: "hresult_error struct"
+        href: cpp-ref-for-winrt/error-handling/hresult-error.md
+      - name: "hresult_illegal_delegate_assignment struct"
+        href: cpp-ref-for-winrt/error-handling/hresult-illegal-delegate-assignment.md
+      - name: "hresult_illegal_method_call struct"
+        href: cpp-ref-for-winrt/error-handling/hresult-illegal-method-call.md
+      - name: "hresult_illegal_state_change struct"
+        href: cpp-ref-for-winrt/error-handling/hresult-illegal-state-change.md
+      - name: "hresult_invalid_argument struct"
+        href: cpp-ref-for-winrt/error-handling/hresult-invalid-argument.md
+      - name: "hresult_no_interface struct"
+        href: cpp-ref-for-winrt/error-handling/hresult-no-interface.md
+      - name: "hresult_not_implemented struct"
+        href: cpp-ref-for-winrt/error-handling/hresult-not-implemented.md
+      - name: "hresult_out_of_bounds struct"
+        href: cpp-ref-for-winrt/error-handling/hresult-out-of-bounds.md
+      - name: "hresult_wrong_thread struct"
+        href: cpp-ref-for-winrt/error-handling/hresult-wrong-thread.md
+      - name: "throw_hresult function"
+        href: cpp-ref-for-winrt/error-handling/throw-hresult.md
+      - name: "throw_last_error function"
+        href: cpp-ref-for-winrt/error-handling/throw-last-error.md
+      - name: "to_hresult function"
+        href: cpp-ref-for-winrt/error-handling/to-hresult.md
+    - name: "event struct template"
+      href: cpp-ref-for-winrt/event.md
+    - name: "event_revoker struct template"
+      href: cpp-ref-for-winrt/event-revoker.md
+    - name: "event_token struct"
+      href: cpp-ref-for-winrt/event-token.md
+    - name: "file_handle struct"
+      href: cpp-ref-for-winrt/file-handle.md
+    - name: "fire_and_forget struct"
+      href: cpp-ref-for-winrt/fire-and-forget.md
+    - name: "from_abi function template"
+      href: cpp-ref-for-winrt/from-abi.md
+    - name: "get_abi function template"
+      href: cpp-ref-for-winrt/get-abi.md
+    - name: "get_activation_factory function template"
+      href: cpp-ref-for-winrt/get-activation-factory.md
+    - name: "get_cancellation_token function"
+      href: cpp-ref-for-winrt/get-cancellation-token.md
+    - name: "get_class_name function"
+      href: cpp-ref-for-winrt/get-class-name.md
+    - name: "get_interfaces function"
+      href: cpp-ref-for-winrt/get-interfaces.md
+    - name: "get_progress_token function"
+      href: cpp-ref-for-winrt/get-progress-token.md
+    - name: "get_self function template"
+      href: cpp-ref-for-winrt/get-self.md
+    - name: "get_trust_level function"
+      href: cpp-ref-for-winrt/get-trust-level.md
+    - name: "GetRuntimeClassName function"
+      href: cpp-ref-for-winrt/getruntimeclassname.md
+    - name: "handle struct"
+      href: cpp-ref-for-winrt/handle.md
+    - name: "handle_type struct template"
+      href: cpp-ref-for-winrt/handle-type.md
+    - name: "hstring struct"
+      href: cpp-ref-for-winrt/hstring.md
+    - name: "implements struct template"
+      href: cpp-ref-for-winrt/implements.md
+    - name: "make function template"
+      href: cpp-ref-for-winrt/make.md
+    - name: "make_agile function template"
+      href: cpp-ref-for-winrt/make-agile.md
+    - name: "make_self function template"
+      href: cpp-ref-for-winrt/make-self.md
+    - name: "make_weak function template"
+      href: cpp-ref-for-winrt/make-weak.md
+    - name: "map_base struct template"
+      href: cpp-ref-for-winrt/map-base.md
+    - name: "map_view_base struct template"
+      href: cpp-ref-for-winrt/map-view-base.md
+    - name: "no_weak_ref marker struct"
+      href: cpp-ref-for-winrt/no-weak-ref.md
+    - name: "non_agile marker struct"
+      href: cpp-ref-for-winrt/non-agile.md
+    - name: "observable_map_base struct template"
+      href: cpp-ref-for-winrt/observable-map-base.md
+    - name: "observable_vector_base struct template"
+      href: cpp-ref-for-winrt/observable-vector-base.md
+    - name: "put_abi function template"
+      href: cpp-ref-for-winrt/put-abi.md
+    - name: "resume_background function"
+      href: cpp-ref-for-winrt/resume-background.md
+    - name: "resume_foreground struct"
+      href: cpp-ref-for-winrt/resume-foreground.md
+    - name: "single_threaded_map function template"
+      href: cpp-ref-for-winrt/single-threaded-map.md
+    - name: "single_threaded_observable_map function template"
+      href: cpp-ref-for-winrt/single-threaded-observable-map.md
+    - name: "single_threaded_observable_vector function template"
+      href: cpp-ref-for-winrt/single-threaded-observable-vector.md
+    - name: "single_threaded_vector function template"
+      href: cpp-ref-for-winrt/single-threaded-vector.md
+    - name: "swap function"
+      href: cpp-ref-for-winrt/swap.md
+    - name: "to_hstring function"
+      href: cpp-ref-for-winrt/to-hstring.md
+    - name: "to_string function"
+      href: cpp-ref-for-winrt/to-string.md
+    - name: "unbox_value function template"
+      href: cpp-ref-for-winrt/unbox-value.md
+    - name: "unbox_value_or function template"
+      href: cpp-ref-for-winrt/unbox-value-or.md
+    - name: "vector_base struct template"
+      href: cpp-ref-for-winrt/vector-base.md
+    - name: "vector_view_base struct template"
+      href: cpp-ref-for-winrt/vector-view-base.md
+    - name: "weak_ref struct template"
+      href: cpp-ref-for-winrt/weak-ref.md
+    - name: "Windows::Foundation::IUnknown struct"
+      href: cpp-ref-for-winrt/windows-foundation-iunknown.md
+    - name: "xaml_typename function template"
+      href: cpp-ref-for-winrt/xaml-typename.md
+  - name: "Microsoft Interface Definition Language 3.0"
+    href: midl-3/index.md
+    items: 
+    - name: "Introduction to MIDL 3.0"
+      href: midl-3/intro.md
+    - name: "Synthesizing interfaces (MIDL 3.0)"
+      href: midl-3/synthesizing-interfaces.md
+    - name: "Predefined attributes (MIDL 3.0)"
+      href: midl-3/predefined-attributes.md
+    - name: "Troubleshooting MIDL 3.0 issues"
+      href: midl-3/troubleshooting.md
+  - name: "Win32 and COM APIs for UWP apps"
+    href: win32-and-com/win32-and-com-for-uwp-apps.md
+    items: 
+    - name: "APIs present on all Windows 10 devices"
+      href: win32-and-com/win32-apis.md
+    - name: "Extension APIs for Windows 10 devices"
+      href: win32-and-com/win32-extension-apis.md
+    - name: "Alternatives to Win32 and COM API"
+      href: win32-and-com/alternatives-to-windows-apis-uwp.md
+  - name: "Specifications"
+    href: specifications/specifications.md
+    items: 
+    - name: "Ink Serialized Format (ISF) Specification"
+      href: specifications/ink-serialized-format.md
