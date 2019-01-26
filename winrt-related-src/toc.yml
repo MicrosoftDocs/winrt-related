@@ -2138,3 +2138,10 @@
     items: 
     - name: "Ink Serialized Format (ISF) Specification"
       href: specifications/ink-serialized-format.md
+  - name: "Windows Runtime consolidated reference"
+    href: 
+    items:
+    - name: "Windows Runtime (WinRT) type system"
+      href: winrt-cref/winrt-type-system.md
+    - name: "Windows Metadata (WinMD) files"
+      href: winrt-cref/winmd-files.md
