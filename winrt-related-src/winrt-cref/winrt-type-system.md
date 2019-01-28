@@ -137,8 +137,10 @@ The instantiation algorithm is as follows.
 
         dashed_hex is the format that uuidgen writes in when passed no arguments.
 
-            - dashed_hex => hex{8} "-" hex{4} "-" hex{4} "-" hex{4} "-" hex{12}			
-            - hex => [0-9a-f]
+            dashed_hex => hex{8} "-" hex{4} "-" hex{4} "-" hex{4} "-" hex{12}
+
+            hex => [0-9a-f]
+
     - according to UUID rfc 4122, compute the ver 5 sha-1 generated hash of signature_octets&mdash;this uses a single winrt pinterface/pintergroup guid as the namespace as described in rfc 4122/4.3, and the signature of the pinterface/pintergroup and the args it is instantiated with as the name string.
     - the pinterface instantiation is assigned this guid, and the signature from 4.
 6. When a p-type instantiation is passed as an argument to anther pinterface, the signature computed by step 3 is used as the type signature in  grammar element 'pinterface_instance_signature' or 'pdelegate_instance_signature', as appropriate.
@@ -184,7 +186,7 @@ Windows system enums and runtime classes are additively versionable. Enums may a
 ## Namespaces
 A namespace is a naming scope used to organize code, and to avoid naming collisions. All named types in the WinRT type system (enums, structs, delegates, interfaces, and runtime classes) live in a namespace. A namespace can contain other namespaces.
 
-## Fundamental Types
+## Fundamental types
 The WinRT Type system includes a core set of built-in primitive types.
 
 |WinRT type|Type description|

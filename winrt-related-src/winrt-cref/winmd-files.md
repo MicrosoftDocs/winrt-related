@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 # Windows Metadata (WinMD) files
 Windows Runtime (WinRT) APIs are described in machine-readable metadata files with the extension `.winmd` (also known as Windows Metadata). These metadata files are used by tools and language projections in order to enable language projection.
 
-## General Notes
+## General notes
 Windows includes metadata for all system-provided WinRT APIs. Windows provides APIs to aid language projections in the resolution of namespaces and types that need this metadata at runtime. The Windows SDK provides a copy of the system metadata in a single file for use by language projections that need this metadata at compile time.
 
 Third-parties may develop their own WinRT APIs that can participate in language projection like the system provided APIs do. Third-party WinRT APIs must provide metadata just like system APIs do. Windows APIs for namespace and type resolution work on third-party metadata like they do for system metadata.
@@ -231,7 +231,7 @@ The TypeSpec table (ECMA II.23.2.14) is used to define instances of parameterize
 
 ### Interface members
 
-#### Array Parameters
+#### Array parameters
 When encoding an Array parameter for any interface member type, the array length parameter that immediately precedes the array parameter is omitted from both the MethodDefSig blob as well from as the params table.
 
 The direction of the array parameter is directly encoded in metadata. The direction of the array length parameter may be inferred as follows.
@@ -327,7 +327,7 @@ Both MethodDef rows for the event will have an associated row in the MethodSeman
 - Method: Index into the MethodDef table containing the the add or remove listener method.
 - Association: Index into the Event table containing the event.
 
-### Runtime Classes
+### Runtime classes
 Runtime Classes are implemented as a row in the TypeDef table (ECMA II.22.37) with the columns set as follows.
 
 - Flags: all runtime classes must carry the public, auto layout, class, and tdWindowsRuntime flags. 
@@ -341,7 +341,7 @@ Runtime Classes are implemented as a row in the TypeDef table (ECMA II.22.37) wi
 
 For all system provided classes, the VersionAttribute must be added to the class's TypeDef row.
 
-#### Implemented Interfaces
+#### Implemented interfaces
 Interfaces implemented by runtime classes are represented by rows in the InterfaceImpl table (ECMA II.22.23) with the columns set as follows.
 
 - Class: an index into the TypeDef table for the row containing the type.
@@ -353,7 +353,7 @@ Runtime classes may specify the OverridableAttribute or ProtectedAttribute on an
 
 Optionally, the VersionAttribute may be added to any of the class's interfaceImpl rows. The version value from the VersionAttribute on any class's interfaceImpl rows must be greater than or equal to the value from the VersionAttribute on the class's TypeDef row.
 
-#### Static Interfaces
+#### Static interfaces
 Runtime classes have zero or more StaticAttribute custom attributes. It is legal to specify more than one StaticAttribute custom attributes, so long as each has different specified parameters. Any StaticAttribute will appear as a row in the CustomAttribute table with the following information.
 
 - Parent: The runtime class the StaticAttribute is associated with.
@@ -376,10 +376,10 @@ Runtime classes have zero or more ComposableAttribute custom attributes. It is l
 - Type: A reference to ComposableAttribute's .ctor.
 - Value: a custom attribute blob containing the System.Type composition factory interface interface parameter, a CompositionType enum value (Public or Protected) and the Uint32 version parameter.
 
-#### Class Methods
+#### Class methods
 A runtime class has a row in the MethodDef table for every method on every interface associated with the class. This includes member interfaces (normal, protected, and overridable), static interfaces, activation factory interfaces, and composable factory interfaces. Additionally, a class that supports direct activation will also have a row in the MethodDef table to indicate this.
 
-##### Member Interface Members
+##### Member interface members
 Each method from a member interface (including protected and overridable interfaces) is represented by a row in the class's MethodDef table. The class's methodDef table contains an exact copy of the MethodDef information from the original declaring interface, including Param table rows and custom attributes, with the following exceptions.
 
 - Runtime classes may specify alternative names for methods defined on member interfaces.
@@ -393,14 +393,14 @@ Each row in the MethodDef table of a class from a member interface is connected 
 - MethodBody – An index into the MethodDef table which references the class method.
 - MethodDeclaration – an index into the MethodDef or MemberRef table which references the originally declared interface method.
 
-##### Static Interface Members
+##### Static interface members
 Each method from a static interface is represented by a row in the class's MethodDef table. The class's methodDef table contains an exact copy of the MethodDef information from the original declaring interface, including Param table rows and custom attributes, with the following exceptions.
 
 - Static members do not get the Virtual, Abstract, NewSlot and Instance flags.
 - Static members do get the Static and Class flags.
 - Static Methods on runtime classes get the Runtime MethodImpl flag.
 
-##### Activation Members
+##### Activation members
 Classes that support direct, parameterless activation have a constructor row in the class's MethodDef table with the following column values.
 
 - RVA: 0x00 
@@ -419,7 +419,7 @@ Classes that support factory activation have a constructor row in the class's Me
 - Signature: an index into the blob heap containing a MethodDefSig blob (ECMA II.23.2.1) that contains the input parameters and returns null.
 - ParamList: pointer into the Params table with a row for every parameter, copied exactly from the params table for the originally declaring factory method.
 
-##### Composition Members
+##### Composition members
 Classes that support composition factory activation have a constructor row in the class's MethodDef table for every method in every implemented factory interface with the following column values.
 
 - RVA: 0x00 
@@ -429,7 +429,7 @@ Classes that support composition factory activation have a constructor row in th
 - Signature: an index into the blob heap containing a MethodDefSig blob (ECMA II.23.2.1) that contains the custom input parameters and returns null. The controlling IInspectable* [in] parameter and the non-delegating IInspectable** [out] parameter are not reflected in the method signature.
 - ParamList: pointer into the Params table with a row for every parameter except the controlling IInspectable* [in] parameter and the non-delegating IInspectable** [out] parameter, copied exactly from the params table for the originally declaring factory method.
 
-#### Custom Attributes
+#### Custom attributes
 Custom attributes have zero or more constructor methods, each with zero or more parameters where the parameter type is limited to the fundamental types, enums, and System.Type. Each constructor in the custom attribute appears as a row in the MethodDef with the following information.
 
 - RVA (aka Relative Virtual Address): null
