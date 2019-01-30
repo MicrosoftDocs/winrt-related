@@ -3,16 +3,16 @@ author: stevewhims
 description: This topic describes how the MIDL 3.0 compiler synthesizes and adds interfaces, as necessary.
 title: Synthesizing interfaces (MIDL 3.0)
 ms.author: stwhi
-ms.date: 04/02/2018
+ms.date: 01/30/2019
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, winrt, api, reference, idl, midl, 3.0, 3, midl3
 ms.localizationpriority: medium
 ---
 
 # Synthesizing interfaces (MIDL 3.0)
+
 ## Assigning members to interfaces
+
 A Windows Runtime class operates in terms of interfaces. Interfaces were barely mentioned in most of the preceding examples, though, because they're typically an implementation detail that you don't need to control in most cases.
 
 As a result, when your class description doesn't otherwise reference an
@@ -20,6 +20,7 @@ interface&mdash;but when one is needed to implement the class&mdash;the MIDL 3.0
 compiler synthesizes and adds them, as necessary.
 
 ### Default constructor
+
 When you declare a default constructor as a member of a class, the
 compiler produces a Windows Runtime class that's default activatable.
 At the implementation level, this means that the metadata describes
@@ -37,6 +38,7 @@ runtimeclass Area
 In this case, **Area** is compiled with the metadata `[Activatable]` with a **Type** of `null`.
 
 ### Non-default constructor(s)
+
 When you declare one or more non-default constructors as members of a
 class, the compiler produces a Windows Runtime class that's
 activatable, rather than default activatable. At the implementation
@@ -107,6 +109,7 @@ runtimeclass Area
 ```
 
 ### Instance members
+
 In the example below, **Area** has members **Height** and **Width**.
 
 ```idl
@@ -142,6 +145,7 @@ runtimeclass Area : IArea, Windows.Foundation.IStringable
 ```
 
 ### Static members
+
 In the example below, **Area** has the static member **NumberOfAreas**.
 
 ```idl
@@ -175,6 +179,7 @@ runtimeclass Area : Windows.Foundation.IStringable
 ```
 
 ### Protected members
+
 In the example below, **Area** has the protected member **DoProtectedWork**.
 
 ```idl
@@ -208,6 +213,7 @@ runtimeclass Area : Windows.Foundation.IStringable
 ```
 
 ### Overrideable members
+
 In the example below, **Volume** (which derives from **Area**) has the overrideable member **DoOverrideableWork**.
 
 ```idl

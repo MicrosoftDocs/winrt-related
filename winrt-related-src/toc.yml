@@ -2122,6 +2122,8 @@
       href: midl-3/synthesizing-interfaces.md
     - name: "Predefined attributes (MIDL 3.0)"
       href: midl-3/predefined-attributes.md
+    - name: "Reserved keywords (MIDL 3.0)"
+      href: midl-3/reserved-keywords.md
     - name: "Troubleshooting MIDL 3.0 issues"
       href: midl-3/troubleshooting.md
   - name: "Win32 and COM APIs for UWP apps"
