@@ -17,12 +17,13 @@ keywords: windows 10, uwp, toolkit sdk
 These toolkits, available as NuGet packages, provide controls, helper functions, and services that make it easier to build powerful apps. 
 
 ## Windows UI Library 
-New controls and UI features for UWP apps from the Windows platform team.
+New Fluent controls and UI features for UWP apps from the Windows platform team.
 
 * [Overview](winui/index.md)
 
-* [API docs](https://docs.microsoft.com/uwp/api/overview/winui/)  
+* [API docs](https://docs.microsoft.com/uwp/api/overview/winui/)
 
+* [Source code](https://aka.ms/winui)
 
 ## Windows Community Toolkit 
 A collection of helper functions, custom controls, and app services that simplify building UWP apps. 

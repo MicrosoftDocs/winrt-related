@@ -22,7 +22,9 @@ The toolkit is available as NuGet packages that can be added to any existing or 
 2. Open an existing project, or create a new project using the Blank App template under Visual C# -> Windows -> Universal, or the appropriate template for your language projection.  
     > **Important**:  To use the Windows UI Library, your project’s Min version must be 14393 or higher and the Target version must be 17134 or higher.   
 
-3. In Solution Explorer panel, right click on your project name and select **Manage NuGet Packages**. Make sure **Include Prerelease** is checked, select the **Browse** tab, and search for **Microsoft.UI.Xaml**. Then choose which [Windows UI Library NuGet Packages](nuget-packages.md) you want to use. If in doubt, install the **Microsoft.UI.Xaml** package.
+3. In the Solution Explorer panel, right click on your project name and select **Manage NuGet Packages**. Select the **Browse** tab, and search for **Microsoft.UI.Xaml**. Then choose which [Windows UI Library NuGet Packages](nuget-packages.md) you want to use.   
+The **Microsoft.UI.Xaml** package contains Fluent controls and features suitable for all apps.  
+You can optionally check "Include prerelease" to see the latest prerelease versions that include experimental new features.
 
     ![NuGet packages](images/ManageNugetPackages.png "Manage NuGet Packages Image")
 
@@ -81,6 +83,12 @@ When you add a NuGet package to a C++/WinRT project, the tooling generates a set
 #include "winrt/Microsoft.UI.Xaml.Media.h"
 #include "winrt/Microsoft.UI.Xaml.XamlTypeInfo.h"
 ```
+
+## Contributing to the Windows UI Library
+
+WinUI is an open source project hosted on GitHub.
+
+We welcome bug reports, feature requests and community code contributions in the [Windows UI Library repo](https://aka.ms/winui).
 
 ## Other Resources 
 
