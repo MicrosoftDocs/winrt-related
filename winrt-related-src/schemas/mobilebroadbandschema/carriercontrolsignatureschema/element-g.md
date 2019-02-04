@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # G
 
 
-Defines an integer with certain properties with respect to [**P**](element-p.md) and [**Q**](element-q.md) as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).
+Defines an integer with certain properties with respect to [**P**](element-p.md) and [**Q**](element-q.md) as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).
 
 ## Element hierarchy
 
@@ -76,7 +76,7 @@ None.
 <tbody>
 <tr class="odd">
 <td>[DSAKeyValue](element-dsakeyvalue.md)</td>
-<td><p>Defines a Digital Signature Algorithm (DSA) public key as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines a Digital Signature Algorithm (DSA) public key as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>

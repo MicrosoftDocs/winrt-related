@@ -79,7 +79,7 @@ Defines a validity date and time of the usage information.
 </tr>
 <tr class="even">
 <td><strong>Format</strong></td>
-<td><p>Defines a format string used to parse <strong>Group</strong>. It contains a subset of the [strftime](http://msdn.microsoft.com/library/fe06s4ak(VS.71).aspx) format codes:</p>
+<td><p>Defines a format string used to parse <strong>Group</strong>. It contains a subset of the [strftime](https://msdn.microsoft.com/library/fe06s4ak(VS.71).aspx) format codes:</p>
 %d Day of month as decimal number (01 – 31)
 %H Hour in 24-hour format (00 – 23)
 %I Hour in 12-hour format (01 – 12)

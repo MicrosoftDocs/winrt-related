@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # SignedInfo
 
 
-Defines all signed content within the signature as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).
+Defines all signed content within the signature as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).
 
 ## Element hierarchy
 
@@ -92,15 +92,15 @@ Defines all signed content within the signature as specified in [XML DSIG](http:
 <tbody>
 <tr class="odd">
 <td>[CanonicalizationMethod](element-canonicalizationmethod.md)</td>
-<td><p>Defines the canonicalization method applied to [<strong>SignedInfo</strong>](element-signedinfo.md) as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/). Must be of type Canonical XML.</p></td>
+<td><p>Defines the canonicalization method applied to [<strong>SignedInfo</strong>](element-signedinfo.md) as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/). Must be of type Canonical XML.</p></td>
 </tr>
 <tr class="even">
 <td>[Reference](element-reference.md)</td>
-<td><p>Defines a digest value, digest method, and transforms as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines a digest value, digest method, and transforms as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 <tr class="odd">
 <td>[SignatureMethod](element-signaturemethod.md)</td>
-<td><p>Defines the algorithm used to generate the signature thumbprint in [<strong>SignatureValue</strong>](element-signaturevalue.md) as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines the algorithm used to generate the signature thumbprint in [<strong>SignatureValue</strong>](element-signaturevalue.md) as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>
@@ -123,7 +123,7 @@ Defines all signed content within the signature as specified in [XML DSIG](http:
 <tbody>
 <tr class="odd">
 <td>[Signature](element-signature.md)</td>
-<td><p>Defines the root element of an [XML DSIG](http://www.w3.org/TR/xmldsig-core/) compliant signature. [<strong>Signature</strong>](element-signature.md) is the unique root element for a provisioning file signature.</p></td>
+<td><p>Defines the root element of an [XML DSIG](https://www.w3.org/TR/xmldsig-core/) compliant signature. [<strong>Signature</strong>](element-signature.md) is the unique root element for a provisioning file signature.</p></td>
 </tr>
 </tbody>
 </table>

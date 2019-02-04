@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # Reference
 
 
-Defines a digest value, digest method, and transforms as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).
+Defines a digest value, digest method, and transforms as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).
 
 ## Element hierarchy
 
@@ -105,15 +105,15 @@ Defines a digest value, digest method, and transforms as specified in [XML DSIG]
 <tbody>
 <tr class="odd">
 <td>[DigestMethod](element-digestmethod.md)</td>
-<td><p>Defines the algorithm used to generate [<strong>DigestValue</strong>](element-digestvalue.md) as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines the algorithm used to generate [<strong>DigestValue</strong>](element-digestvalue.md) as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 <tr class="even">
 <td>[DigestValue](element-digestvalue.md)</td>
-<td><p>Defines the digest value as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/). The algorithm used to generate [<strong>DigestValue</strong>](element-digestvalue.md) is defined in [<strong>DigestMethod</strong>](element-digestmethod.md).</p></td>
+<td><p>Defines the digest value as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/). The algorithm used to generate [<strong>DigestValue</strong>](element-digestvalue.md) is defined in [<strong>DigestMethod</strong>](element-digestmethod.md).</p></td>
 </tr>
 <tr class="odd">
 <td>[Transforms](element-transforms.md)</td>
-<td><p>Defines a an ordered list of transforms applied to the digested data object as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines a an ordered list of transforms applied to the digested data object as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>
@@ -136,7 +136,7 @@ Defines a digest value, digest method, and transforms as specified in [XML DSIG]
 <tbody>
 <tr class="odd">
 <td>[SignedInfo](element-signedinfo.md)</td>
-<td><p>Defines all signed content within the signature as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines all signed content within the signature as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>

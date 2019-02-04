@@ -124,7 +124,7 @@ This table shows the available status glyphs.
 
 [Badge overview](https://msdn.microsoft.com/library/windows/apps/hh779719)
 
-[App tiles and badges sample](http://go.microsoft.com/fwlink/p/?linkid=231469)
+[App tiles and badges sample](https://go.microsoft.com/fwlink/p/?linkid=231469)
 
 [How to send a glyph or numeric badge in a local notification](https://msdn.microsoft.com/library/windows/apps/hh700418)
 

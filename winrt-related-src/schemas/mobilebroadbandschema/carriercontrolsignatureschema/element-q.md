@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # Q
 
 
-Defines an integer in the range 2\*\*159 &lt; [**Q**](element-q.md) &lt; 2\*\*160 which is a prime divisor of [**P**](element-p.md)-1 as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).
+Defines an integer in the range 2\*\*159 &lt; [**Q**](element-q.md) &lt; 2\*\*160 which is a prime divisor of [**P**](element-p.md)-1 as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).
 
 ## Element hierarchy
 
@@ -76,7 +76,7 @@ None.
 <tbody>
 <tr class="odd">
 <td>[DSAKeyValue](element-dsakeyvalue.md)</td>
-<td><p>Defines a Digital Signature Algorithm (DSA) public key as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines a Digital Signature Algorithm (DSA) public key as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>

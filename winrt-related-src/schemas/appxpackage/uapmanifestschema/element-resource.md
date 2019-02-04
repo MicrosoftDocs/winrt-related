@@ -37,7 +37,7 @@ Declares a language, display scale, or DirectX feature level for resources that 
           uap:DXFeatureLevel? = "dx9" | "dx10" | "dx11" | "dx12" />
 ```
 
-See [BCP-47 language tag](http://go.microsoft.com/fwlink/p/?linkid=227302).
+See [BCP-47 language tag](https://go.microsoft.com/fwlink/p/?linkid=227302).
 
 ### Key
 
@@ -67,7 +67,7 @@ See [BCP-47 language tag](http://go.microsoft.com/fwlink/p/?linkid=227302).
 <tbody>
 <tr class="odd">
 <td><strong>Language</strong></td>
-<td><p>The language for the resource contained in the package. The syntax of this attribute is defined by the IETF's [BCP47: Tags for Identifying Languages](http://www.rfc-editor.org/rfc/bcp/bcp47.txt).</p></td>
+<td><p>The language for the resource contained in the package. The syntax of this attribute is defined by the IETF's [BCP47: Tags for Identifying Languages](https://www.rfc-editor.org/rfc/bcp/bcp47.txt).</p></td>
 <td>language</td>
 <td>No</td>
 <td></td>

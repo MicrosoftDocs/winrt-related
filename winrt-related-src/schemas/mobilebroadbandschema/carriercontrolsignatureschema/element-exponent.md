@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # Exponent
 
 
-Defines the RSA public key exponent as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).
+Defines the RSA public key exponent as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).
 
 ## Element hierarchy
 
@@ -76,7 +76,7 @@ None.
 <tbody>
 <tr class="odd">
 <td>[RSAKeyValue](element-rsakeyvalue.md)</td>
-<td><p>Defines a RSA public key as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines a RSA public key as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>

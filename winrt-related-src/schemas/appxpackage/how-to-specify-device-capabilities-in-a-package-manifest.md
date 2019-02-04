@@ -55,7 +55,7 @@ Here's an example of the **webcam** device capability. This device capability do
 
 ### USB example
 
-The **usb** device capability enables access to APIs in the [**Windows.Devices.Usb**](https://msdn.microsoft.com/library/windows/apps/dn278466) namespace. For more info, see [Updating the app manifest package for a USB device](http://go.microsoft.com/fwlink/p/?LinkId=302259).
+The **usb** device capability enables access to APIs in the [**Windows.Devices.Usb**](https://msdn.microsoft.com/library/windows/apps/dn278466) namespace. For more info, see [Updating the app manifest package for a USB device](https://go.microsoft.com/fwlink/p/?LinkId=302259).
 
 ```XML
 <DeviceCapability Name="usb">

@@ -134,7 +134,7 @@ None.
 ## See also
 
 
-[Alarm notifications sample](http://go.microsoft.com/fwlink/p/?linkid=310148)
+[Alarm notifications sample](https://go.microsoft.com/fwlink/p/?linkid=310148)
 
 ## Requirements
 

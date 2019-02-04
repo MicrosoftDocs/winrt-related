@@ -123,7 +123,7 @@ Specifies the tile template. Every notification should include one binding eleme
 </tr>
 <tr class="even">
 <td><strong>lang</strong></td>
-<td><p>The target locale of the XML payload, specified as a [BCP-47 language tags](http://go.microsoft.com/fwlink/p/?linkid=227302) such as &quot;en-US&quot; or &quot;fr-FR&quot;. The locale specified here overrides that in [<strong>visual</strong>](element-visual.md), but can be overriden by that in [<strong>text</strong>](element-text.md). If this value is a literal string, this attribute defaults to the user's UI language. If this value is a string reference, this attribute defaults to the locale chosen by Windows Runtime in resolving the string. See Remarks for when this value isn't specified.</p></td>
+<td><p>The target locale of the XML payload, specified as a [BCP-47 language tags](https://go.microsoft.com/fwlink/p/?linkid=227302) such as &quot;en-US&quot; or &quot;fr-FR&quot;. The locale specified here overrides that in [<strong>visual</strong>](element-visual.md), but can be overriden by that in [<strong>text</strong>](element-text.md). If this value is a literal string, this attribute defaults to the user's UI language. If this value is a string reference, this attribute defaults to the locale chosen by Windows Runtime in resolving the string. See Remarks for when this value isn't specified.</p></td>
 <td>string</td>
 <td>No</td>
 <td>None</td>

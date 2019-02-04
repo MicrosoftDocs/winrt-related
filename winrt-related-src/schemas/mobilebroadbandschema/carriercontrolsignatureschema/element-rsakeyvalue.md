@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # RSAKeyValue
 
 
-Defines a RSA public key as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).
+Defines a RSA public key as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).
 
 ## Element hierarchy
 
@@ -69,11 +69,11 @@ None.
 <tbody>
 <tr class="odd">
 <td>[Exponent](element-exponent.md)</td>
-<td><p>Defines the RSA public key exponent as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines the RSA public key exponent as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 <tr class="even">
 <td>[Modulus](element-modulus.md)</td>
-<td><p>Defines the RSA public key modulus as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines the RSA public key modulus as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>
@@ -96,7 +96,7 @@ None.
 <tbody>
 <tr class="odd">
 <td>[KeyValue](element-keyvalue.md)</td>
-<td><p>Defines a single public key as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines a single public key as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>

@@ -65,7 +65,7 @@ Represents a file contained in the package.
 <tbody>
 <tr class="odd">
 <td><strong>LfhSize</strong></td>
-<td><p>Size, in bytes, of the file's Local File Header (LFH) structure in the package. For more info about file headers, see [ZIP file format specification](http://www.pkware.com/documents/casestudies/APPNOTE.TXT).</p></td>
+<td><p>Size, in bytes, of the file's Local File Header (LFH) structure in the package. For more info about file headers, see [ZIP file format specification](https://www.pkware.com/documents/casestudies/APPNOTE.TXT).</p></td>
 <td>The size of the Local File Header for a file must be at least 30 bytes and no more than 64KB as required by the ZIP format.</td>
 <td>Yes</td>
 <td></td>

@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # X509Data
 
 
-Defines one or more X.509 compliant signatures as defined in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).
+Defines one or more X.509 compliant signatures as defined in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).
 
 ## Element hierarchy
 
@@ -67,7 +67,7 @@ None.
 <tbody>
 <tr class="odd">
 <td>[X509Certificate](element-x509certificate.md)</td>
-<td><p>Defines an X.509 compliant signature as defined in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines an X.509 compliant signature as defined in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>
@@ -90,7 +90,7 @@ None.
 <tbody>
 <tr class="odd">
 <td>[KeyInfo](element-keyinfo.md)</td>
-<td><p>Defines all key information used to validate the signature as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines all key information used to validate the signature as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>
@@ -99,7 +99,7 @@ None.
 
 ## Remarks
 
-**X509Data** contains only [**X509Certificate**](element-x509certificate.md) elements. All other child elements defined in [XML DSIG](http://www.w3.org/TR/xmldsig-core/) are disallowed.
+**X509Data** contains only [**X509Certificate**](element-x509certificate.md) elements. All other child elements defined in [XML DSIG](https://www.w3.org/TR/xmldsig-core/) are disallowed.
 
 [**KeyInfo**](element-keyinfo.md) may contain only one **X509Data** element.
 

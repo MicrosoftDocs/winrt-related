@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # SignatureValue
 
 
-Defines the signature thumbprint as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/). The algorithm used to generate [**SignatureValue**](element-signaturevalue.md) is defined in [**SignatureMethod**](element-signaturemethod.md).
+Defines the signature thumbprint as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/). The algorithm used to generate [**SignatureValue**](element-signaturevalue.md) is defined in [**SignatureMethod**](element-signaturemethod.md).
 
 ## Element hierarchy
 
@@ -93,7 +93,7 @@ None.
 <tbody>
 <tr class="odd">
 <td>[Signature](element-signature.md)</td>
-<td><p>Defines the root element of an [XML DSIG](http://www.w3.org/TR/xmldsig-core/) compliant signature. [<strong>Signature</strong>](element-signature.md) is the unique root element for a provisioning file signature.</p></td>
+<td><p>Defines the root element of an [XML DSIG](https://www.w3.org/TR/xmldsig-core/) compliant signature. [<strong>Signature</strong>](element-signature.md) is the unique root element for a provisioning file signature.</p></td>
 </tr>
 </tbody>
 </table>

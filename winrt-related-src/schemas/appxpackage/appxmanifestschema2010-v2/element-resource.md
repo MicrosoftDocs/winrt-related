@@ -68,7 +68,7 @@ Declares a language for the resource contained in the package. The scale and Dir
 <tbody>
 <tr class="odd">
 <td><strong>Language</strong></td>
-<td><p>The language for the resource contained in the package. The syntax of this attribute is defined by the IETF's [BCP47: Tags for Identifying Languages](http://www.rfc-editor.org/rfc/bcp/bcp47.txt).</p></td>
+<td><p>The language for the resource contained in the package. The syntax of this attribute is defined by the IETF's [BCP47: Tags for Identifying Languages](https://www.rfc-editor.org/rfc/bcp/bcp47.txt).</p></td>
 <td>language</td>
 <td>No</td>
 <td></td>

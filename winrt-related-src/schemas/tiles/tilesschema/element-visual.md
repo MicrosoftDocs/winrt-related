@@ -108,7 +108,7 @@ Contains multiple [**binding**](element-binding.md) child elements, each of whic
 </tr>
 <tr class="odd">
 <td><strong>lang</strong></td>
-<td><p>The target locale of the XML payload, specified as a [BCP-47 language tags](http://go.microsoft.com/fwlink/p/?linkid=227302) such as &quot;en-US&quot; or &quot;fr-FR&quot;. This locale is overridden by any locale specified in [<strong>binding</strong>](element-binding.md) or [<strong>text</strong>](element-text.md). If this value is a literal string, this attribute defaults to the user's UI language. If this value is a string reference, this attribute defaults to the locale chosen by Windows Runtime in resolving the string. See Remarks for when this value isn't specified.</p></td>
+<td><p>The target locale of the XML payload, specified as a [BCP-47 language tags](https://go.microsoft.com/fwlink/p/?linkid=227302) such as &quot;en-US&quot; or &quot;fr-FR&quot;. This locale is overridden by any locale specified in [<strong>binding</strong>](element-binding.md) or [<strong>text</strong>](element-text.md). If this value is a literal string, this attribute defaults to the user's UI language. If this value is a string reference, this attribute defaults to the locale chosen by Windows Runtime in resolving the string. See Remarks for when this value isn't specified.</p></td>
 <td>string</td>
 <td>No</td>
 <td>None</td>

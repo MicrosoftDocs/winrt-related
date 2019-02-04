@@ -80,7 +80,7 @@ None.
 ## See also
 
 
-[Indexer sample](http://go.microsoft.com/fwlink/p/?LinkID=311565)
+[Indexer sample](https://go.microsoft.com/fwlink/p/?LinkID=311565)
 
 [**Windows.Storage.Search**](https://msdn.microsoft.com/library/windows/apps/br208106)
 

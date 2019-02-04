@@ -58,7 +58,7 @@ Defines the abstract base element for [**ReconnectToNetwork**](element-reconnect
 <tbody>
 <tr class="odd">
 <td><strong>Delay</strong></td>
-<td><p>Defines the time until the next activation attempt. Duration time format is defined by [ISO 8601](http://www.iso.org/iso/catalogue_detail?csnumber=40874).</p></td>
+<td><p>Defines the time until the next activation attempt. Duration time format is defined by [ISO 8601](https://www.iso.org/iso/catalogue_detail?csnumber=40874).</p></td>
 <td>P[n]Y[n]M[n]DT[n]H[n]M[n]S duration</td>
 <td>No</td>
 <td>PT0S</td>
@@ -72,7 +72,7 @@ Defines the abstract base element for [**ReconnectToNetwork**](element-reconnect
 </tr>
 <tr class="odd">
 <td><strong>RetryInterval</strong></td>
-<td><p>Defines the time between activation attempts. Duration time format is defined by [ISO 8601](http://www.iso.org/iso/catalogue_detail?csnumber=40874).</p></td>
+<td><p>Defines the time between activation attempts. Duration time format is defined by [ISO 8601](https://www.iso.org/iso/catalogue_detail?csnumber=40874).</p></td>
 <td>P[n]Y[n]M[n]DT[n]H[n]M[n]S duration</td>
 <td>No</td>
 <td>PT1M</td>
