@@ -1851,4 +1851,4 @@ DEFINE_GUID(GUID_TEMPID, 0x2585b91, 0x49b, 0x4750, 0x96, 0x15, 0xdf, 0x89,
 
 ## See Also
 
-[Ink Serialized Format Specification (previous downloadable version)](http://download.microsoft.com/download/0/B/E/0BE8BDD7-E5E8-422A-ABFD-4342ED7AD886/InkSerializedFormat(ISF)Specification.pdf)
+[Ink Serialized Format Specification (previous downloadable version)](https://download.microsoft.com/download/0/B/E/0BE8BDD7-E5E8-422A-ABFD-4342ED7AD886/InkSerializedFormat(ISF)Specification.pdf)

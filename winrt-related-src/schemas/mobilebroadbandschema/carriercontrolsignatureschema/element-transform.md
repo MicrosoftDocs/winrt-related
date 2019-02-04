@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # Transform
 
 
-Defines a transform applied to the digested data object prior to [**DigestMethod**](element-digestmethod.md) as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).
+Defines a transform applied to the digested data object prior to [**DigestMethod**](element-digestmethod.md) as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).
 
 ## Element hierarchy
 
@@ -104,7 +104,7 @@ None.
 <tbody>
 <tr class="odd">
 <td>[Transforms](element-transforms.md)</td>
-<td><p>Defines a an ordered list of transforms applied to the digested data object as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines a an ordered list of transforms applied to the digested data object as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>

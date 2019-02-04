@@ -147,7 +147,7 @@ Applications\\Application\\VisualElements\\LockScreen\\@BadgeLogo
 
 [How to show notifications on the lock screen](https://msdn.microsoft.com/library/windows/apps/hh700416)
 
-[Lock screen apps sample](http://go.microsoft.com/fwlink/p/?linkid=239970)
+[Lock screen apps sample](https://go.microsoft.com/fwlink/p/?linkid=239970)
 
 [Windows.ApplicationModel.LockScreen namespace](https://docs.microsoft.com/uwp/api/windows.applicationmodel.lockscreen)
 

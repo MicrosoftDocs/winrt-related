@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # HMACOutputLength
 
 
-Defines the length, in bits, of the [**SignatureValue**](element-signaturevalue.md) element as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).
+Defines the length, in bits, of the [**SignatureValue**](element-signaturevalue.md) element as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).
 
 ## Element hierarchy
 
@@ -71,7 +71,7 @@ None.
 <tbody>
 <tr class="odd">
 <td>[SignatureMethod](element-signaturemethod.md)</td>
-<td><p>Defines the algorithm used to generate the signature thumbprint in [<strong>SignatureValue</strong>](element-signaturevalue.md) as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines the algorithm used to generate the signature thumbprint in [<strong>SignatureValue</strong>](element-signaturevalue.md) as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>

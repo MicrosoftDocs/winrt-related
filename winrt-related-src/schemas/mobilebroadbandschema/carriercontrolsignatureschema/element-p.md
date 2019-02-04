@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # P
 
 
-Defines a prime modulus meeting the [DSAwithSHA1](http://www.w3.org/2000/09/xmldsig#dsa-sha1 ) requirements as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).
+Defines a prime modulus meeting the [DSAwithSHA1](https://www.w3.org/2000/09/xmldsig#dsa-sha1 ) requirements as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).
 
 ## Element hierarchy
 
@@ -76,7 +76,7 @@ None.
 <tbody>
 <tr class="odd">
 <td>[DSAKeyValue](element-dsakeyvalue.md)</td>
-<td><p>Defines a Digital Signature Algorithm (DSA) public key as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines a Digital Signature Algorithm (DSA) public key as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>

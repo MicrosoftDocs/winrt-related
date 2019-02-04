@@ -53,7 +53,7 @@ The Mobile Broadband Schema strictly enforces the order of the nodes. Nodes used
 </tr>
 <tr class="even">
 <td><p>[CarrierControlSignatureSchema schema](carriercontrolsignatureschema/schema-root.md)</p></td>
-<td><p>The [CarrierControlSignatureSchema](carriercontrolsignatureschema/schema-root.md) schema defines elements that are used to describe the signature appended to the provisioning file. It is based on the [XML DSIG](http://www.w3.org/TR/xmldsig-core/) specification with only minor deviations that are explicitly described below. All of the elements are in the namespace http://www.w3.org/2000/09/xmldsig#. Not all elements are in every profile, as some elements are optional.</p></td>
+<td><p>The [CarrierControlSignatureSchema](carriercontrolsignatureschema/schema-root.md) schema defines elements that are used to describe the signature appended to the provisioning file. It is based on the [XML DSIG](https://www.w3.org/TR/xmldsig-core/) specification with only minor deviations that are explicitly described below. All of the elements are in the namespace http://www.w3.org/2000/09/xmldsig#. Not all elements are in every profile, as some elements are optional.</p></td>
 </tr>
 <tr class="odd">
 <td><p>[DUSM schema](dusm/schema-root.md)</p></td>

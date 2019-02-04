@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # Signature
 
 
-Defines the root element of an [XML DSIG](http://www.w3.org/TR/xmldsig-core/) compliant signature. [**Signature**](element-signature.md) is the unique root element for a provisioning file signature.
+Defines the root element of an [XML DSIG](https://www.w3.org/TR/xmldsig-core/) compliant signature. [**Signature**](element-signature.md) is the unique root element for a provisioning file signature.
 
 ## Element hierarchy
 
@@ -89,15 +89,15 @@ Defines the root element of an [XML DSIG](http://www.w3.org/TR/xmldsig-core/) co
 <tbody>
 <tr class="odd">
 <td>[KeyInfo](element-keyinfo.md)</td>
-<td><p>Defines all key information used to validate the signature as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines all key information used to validate the signature as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 <tr class="even">
 <td>[SignatureValue](element-signaturevalue.md)</td>
-<td><p>Defines the signature thumbprint as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/). The algorithm used to generate [<strong>SignatureValue</strong>](element-signaturevalue.md) is defined in [<strong>SignatureMethod</strong>](element-signaturemethod.md).</p></td>
+<td><p>Defines the signature thumbprint as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/). The algorithm used to generate [<strong>SignatureValue</strong>](element-signaturevalue.md) is defined in [<strong>SignatureMethod</strong>](element-signaturemethod.md).</p></td>
 </tr>
 <tr class="odd">
 <td>[SignedInfo](element-signedinfo.md)</td>
-<td><p>Defines all signed content within the signature as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines all signed content within the signature as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>

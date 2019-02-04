@@ -32,7 +32,7 @@ A collection of helper functions, custom controls, and app services that simplif
 
 * [API docs](https://docs.microsoft.com/en-us/dotnet/api/?view=uwp-toolkit-dotnet)  
 
-* [Source code](http://aka.ms/uwptoolkit)
+* [Source code](https://aka.ms/uwptoolkit)
 
 <!-- 
 * **Windows Community Toolkit**<br/>*NuGet package, Microsoft* 
@@ -43,7 +43,7 @@ A collection of helper functions, custom controls, and app services that simplif
 
     [API docs](https://docs.microsoft.com/en-us/dotnet/api/?view=uwp-toolkit-dotnet)   
 
-    [Source code](http://aka.ms/uwptoolkit)
+    [Source code](https://aka.ms/uwptoolkit)
 
 * **Windows UI library**<br/>*NuGet package, Microsoft*
 

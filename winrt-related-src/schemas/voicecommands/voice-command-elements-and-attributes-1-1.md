@@ -124,7 +124,7 @@ Navigate</td><td>Required child element of the <strong>Command</strong> element.
 [Cortana design guidelines](https://docs.microsoft.com/en-us/cortana/voice-commands/voicecommand-design-guidelines)
 
 **Samples**  
-[Cortana voice command sample](http://go.microsoft.com/fwlink/p/?LinkID=619899)
+[Cortana voice command sample](https://go.microsoft.com/fwlink/p/?LinkID=619899)
 
  
 

@@ -96,7 +96,7 @@ None.
 
 When the **encryption** element has a value of **WEP**, [**keyType**](element-keytype.md) must be set to **networkKey**.
 
-For more information about encryption methods, see the [WEP](http://ieeexplore.ieee.org/servlet/opac?punumber=5258), [TKIP](http://standards.ieee.org/getieee802/download/802.11i-2004.pdf), and [AES](http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf) specifications.
+For more information about encryption methods, see the [WEP](https://ieeexplore.ieee.org/servlet/opac?punumber=5258), [TKIP](https://standards.ieee.org/getieee802/download/802.11i-2004.pdf), and [AES](https://csrc.nist.gov/publications/fips/fips197/fips-197.pdf) specifications.
 
 ## Requirements
 

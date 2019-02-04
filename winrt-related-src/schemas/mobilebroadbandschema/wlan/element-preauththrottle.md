@@ -82,7 +82,7 @@ None.
 
 **preAuthThrottle** is valid only for WPA2-defined networks with [**PMKCacheMode**](element-pmkcachemode.md) set to **enabled**. If **preAuthThrottle** is **enabled**, and this element is absent, the number defaults to 3.
 
-PMK caching is defined in the [802.11i specification](http://standards.ieee.org/getieee802/download/802.11i-2004.pdf).
+PMK caching is defined in the [802.11i specification](https://standards.ieee.org/getieee802/download/802.11i-2004.pdf).
 
 ## Requirements
 

@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # KeyInfo
 
 
-Defines all key information used to validate the signature as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).
+Defines all key information used to validate the signature as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).
 
 ## Element hierarchy
 
@@ -96,11 +96,11 @@ Defines all key information used to validate the signature as specified in [XML 
 <tbody>
 <tr class="odd">
 <td>[KeyValue](element-keyvalue.md)</td>
-<td><p>Defines a single public key as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines a single public key as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 <tr class="even">
 <td>[X509Data](element-x509data.md)</td>
-<td><p>Defines one or more X.509 compliant signatures as defined in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines one or more X.509 compliant signatures as defined in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>
@@ -123,7 +123,7 @@ Defines all key information used to validate the signature as specified in [XML 
 <tbody>
 <tr class="odd">
 <td>[Signature](element-signature.md)</td>
-<td><p>Defines the root element of an [XML DSIG](http://www.w3.org/TR/xmldsig-core/) compliant signature. [<strong>Signature</strong>](element-signature.md) is the unique root element for a provisioning file signature.</p></td>
+<td><p>Defines the root element of an [XML DSIG](https://www.w3.org/TR/xmldsig-core/) compliant signature. [<strong>Signature</strong>](element-signature.md) is the unique root element for a provisioning file signature.</p></td>
 </tr>
 </tbody>
 </table>

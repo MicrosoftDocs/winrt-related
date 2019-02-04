@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # DigestMethod
 
 
-Defines the algorithm used to generate [**DigestValue**](element-digestvalue.md) as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).
+Defines the algorithm used to generate [**DigestValue**](element-digestvalue.md) as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).
 
 ## Element hierarchy
 
@@ -106,7 +106,7 @@ None.
 <tbody>
 <tr class="odd">
 <td>[Reference](element-reference.md)</td>
-<td><p>Defines a digest value, digest method, and transforms as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines a digest value, digest method, and transforms as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>

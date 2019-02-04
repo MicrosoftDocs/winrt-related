@@ -146,7 +146,7 @@ As with any XML file, a VCD file should begin with an XML declaration that speci
 [Cortana design guidelines](https://docs.microsoft.com/en-us/cortana/voice-commands/voicecommand-design-guidelines)
 
 **Samples**  
-[Cortana voice command sample](http://go.microsoft.com/fwlink/p/?LinkID=619899)
+[Cortana voice command sample](https://go.microsoft.com/fwlink/p/?LinkID=619899)
 
  
 

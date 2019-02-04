@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # KeyValue
 
 
-Defines a single public key as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).
+Defines a single public key as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).
 
 ## Element hierarchy
 
@@ -71,11 +71,11 @@ None.
 <tbody>
 <tr class="odd">
 <td>[DSAKeyValue](element-dsakeyvalue.md)</td>
-<td><p>Defines a Digital Signature Algorithm (DSA) public key as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines a Digital Signature Algorithm (DSA) public key as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 <tr class="even">
 <td>[RSAKeyValue](element-rsakeyvalue.md)</td>
-<td><p>Defines a RSA public key as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines a RSA public key as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>
@@ -98,7 +98,7 @@ None.
 <tbody>
 <tr class="odd">
 <td>[KeyInfo](element-keyinfo.md)</td>
-<td><p>Defines all key information used to validate the signature as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines all key information used to validate the signature as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>

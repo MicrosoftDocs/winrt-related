@@ -48,7 +48,7 @@ This outermost (document) element may not be contained by any other elements.
 
 ## Remarks
 
-When a wireless connection is operating in FIPS mode, the security level of the connection complies with the FIPS 140-2 standard. For more information about FIPS, see the [FIPS Home Page](http://go.microsoft.com/fwlink/p/?linkid=86229).
+When a wireless connection is operating in FIPS mode, the security level of the connection complies with the FIPS 140-2 standard. For more information about FIPS, see the [FIPS Home Page](https://go.microsoft.com/fwlink/p/?linkid=86229).
 
 This element is optional. If this element is not specified in a profile, then FIPS mode is not enabled.
 

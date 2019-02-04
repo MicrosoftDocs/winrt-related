@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # CanonicalizationMethod
 
 
-Defines the canonicalization method applied to [**SignedInfo**](element-signedinfo.md) as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/). Must be of type Canonical XML.
+Defines the canonicalization method applied to [**SignedInfo**](element-signedinfo.md) as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/). Must be of type Canonical XML.
 
 ## Element hierarchy
 
@@ -100,7 +100,7 @@ None.
 <tbody>
 <tr class="odd">
 <td>[SignedInfo](element-signedinfo.md)</td>
-<td><p>Defines all signed content within the signature as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines all signed content within the signature as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>

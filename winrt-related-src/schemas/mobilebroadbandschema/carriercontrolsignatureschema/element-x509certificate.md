@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # X509Certificate
 
 
-Defines an X.509 compliant signature as defined in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).
+Defines an X.509 compliant signature as defined in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).
 
 ## Element hierarchy
 
@@ -71,7 +71,7 @@ None.
 <tbody>
 <tr class="odd">
 <td>[X509Data](element-x509data.md)</td>
-<td><p>Defines one or more X.509 compliant signatures as defined in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines one or more X.509 compliant signatures as defined in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>

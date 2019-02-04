@@ -129,7 +129,7 @@ function _addAppContentFilesToIndexedFolder() {
 }
 ```
 
-For the complete code, see the [Indexer sample](http://go.microsoft.com/fwlink/p/?LinkID=311565).
+For the complete code, see the [Indexer sample](https://go.microsoft.com/fwlink/p/?LinkID=311565).
 
 ## Element reference
 
@@ -218,7 +218,7 @@ Use these attributes to index content in your own app-specific XML elements.
 ## Related topics
 
 
-[Indexer sample](http://go.microsoft.com/fwlink/p/?LinkID=311565)
+[Indexer sample](https://go.microsoft.com/fwlink/p/?LinkID=311565)
 
 [**Windows.Storage.Search**](https://msdn.microsoft.com/library/windows/apps/br208106)
 

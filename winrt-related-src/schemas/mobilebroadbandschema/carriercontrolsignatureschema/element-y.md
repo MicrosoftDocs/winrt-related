@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # Y
 
 
-Defines [**G**](element-g.md)\*\*X mod [**P**](element-p.md) (where X is part of the private key and not made public) as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).
+Defines [**G**](element-g.md)\*\*X mod [**P**](element-p.md) (where X is part of the private key and not made public) as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).
 
 ## Element hierarchy
 
@@ -76,7 +76,7 @@ None.
 <tbody>
 <tr class="odd">
 <td>[DSAKeyValue](element-dsakeyvalue.md)</td>
-<td><p>Defines a Digital Signature Algorithm (DSA) public key as specified in [XML DSIG](http://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines a Digital Signature Algorithm (DSA) public key as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>
