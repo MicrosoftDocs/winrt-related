@@ -30,6 +30,8 @@ An optional element of the appinstaller file. UpdateSettings signifies whether o
 <UpdateSettings>
     <!-- Child elements -->
     OnLaunch?
+    AutomaticBackgroundTask?
+    ForceUpdateFromAnyVersion?
 </UpdateSettings>
 ```
 
@@ -51,8 +53,8 @@ None.
 | Child Elements | Description |
 |----------------|-------------|
 | [OnLaunch](element-onlaunch.md) |  OnLaunch signifies that the deployment service will check for an update to the appinstaller file on the app launch. |
-| [AutomaticBackgroundTask](element-onlaunch.md) |Checks for updates in the background. A check is made every 8 hours independently of whether the user launched the app. This type of update cannot show UI. Available in Windows 10, version 1803 and later. |
-| [ForceUpdateFromAnyVersion](element-onlaunch.md) |A boolean that allows the app's version to be incremented or decremented. Without this element, the app can only move to a higher version. Available starting in Windows 10, version 1803 and later. |
+| [AutomaticBackgroundTask](element-automatic-background-task.md) |Checks for updates in the background. A check is made every 8 hours independently of whether the user launched the app. This type of update cannot show UI. Available in Windows 10, version 1803 and later. |
+| [ForceUpdateFromAnyVersion](element-force-update-from-any-version.md) |A boolean that allows the app's version to be incremented or decremented. Without this element, the app can only move to a higher version. Available starting in Windows 10, version 1809 and later. |
 
 ### Parent Elements
 

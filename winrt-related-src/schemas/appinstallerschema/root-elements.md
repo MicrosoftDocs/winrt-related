@@ -28,3 +28,5 @@ The following list summarizes the allowed hierarchies for the App Installer file
         -   [Package](element-package.md)
     -   [UpdateSettings](element-update-settings.md) 
         -   [OnLaunch](element-onlaunch.md)
+        -   [AutomaticBackgroundTask](element-automatic-background-task.md)
+        -   [ForceUpdateFromAnyVersion](element-force-update-from-any-version.md)
