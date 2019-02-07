@@ -79,6 +79,10 @@
             href: schemas/appinstallerschema/element-update-settings.md
           - name: "OnLaunch"
             href: schemas/appinstallerschema/element-onlaunch.md
+          - name: "AutomaticBackgroundTask"
+            href: schemas/appinstallerschema/element-automatic-background-task.md
+          - name: "ForceUpdateFromAnyVersion"
+            href: schemas/appinstallerschema/element-force-update-from-any-version.md
     - name: "App package block map"
       href: schemas/blockmapschema/app-package-block-map.md
       items: 
