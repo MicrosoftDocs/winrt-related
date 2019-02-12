@@ -14,6 +14,11 @@ ms.localizationpriority: medium
 # Troubleshooting Microsoft Interface Definition Language 3.0 issues
 The table of troubleshooting symptoms and remedies below may be helpful to you whether you're cutting new code or porting an existing app.
 
+> [!NOTE]
+> The purpose of Microsoft Interface Definition Language (MIDL) 3.0 is to declare Windows Runtime types inside Interface Definition Language (IDL) files (`.idl` files). MIDL 3.0 is a particularly convenient way to declare [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) runtime classes. For more info and background, see [Introduction to Microsoft Interface Definition Language 3.0](intro.md).
+>
+> IDL files have traditionally been used to declare COM types; so, MIDL 3.0 represents a new and different way of using IDL files, with an expanded syntax for them. For more info about using IDL files to declare non-Windows Runtime types (COM types), see [Microsoft Interface Definition Language](/windows/desktop/midl/midl-start-page).
+
 ## Symptoms and remedies
 | Symptom | Remedy |
 |---------|--------|
