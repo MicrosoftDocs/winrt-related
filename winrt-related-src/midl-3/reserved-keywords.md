@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 
 # Reserved keywords (MIDL 3.0)
 
-This topic lists the reserved keywords in MIDL 3.0. You may not use these keywords in the names of your runtime classes and members.
+This topic lists the reserved keywords in MIDL 3.0. You may not use these keywords in the names of your runtime classes and members. Many of these reserved keywords are documented in the [MIDL 1.0 language reference](/windows/desktop/midl/midl-language-reference).
 
 > [!NOTE]
 > MIDL 3.0 is a struct superset of MIDL 1.0, MIDL 2.0, and MIDL 3.0. So this list encompasses the union of the reserved keywords for MIDL 1.0, MIDL 2.0, and MIDL 3.0.
