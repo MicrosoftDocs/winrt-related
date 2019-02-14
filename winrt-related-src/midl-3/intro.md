@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 ---
 
 # Introduction to Microsoft Interface Definition Language 3.0
-Microsoft Interface Definition Language (MIDL) 3.0 is a simplified, modern syntax for declaring Windows Runtime types inside Interface Definition Language (IDL) files (`.idl` files). This new syntax will feel familiar to anyone experienced with C, C++, C#, and/or Java. MIDL 3.0 is a particularly convenient way to declare [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) runtime classes. Here's how it looks; this example demonstrates most of the language syntax.
+Microsoft Interface Definition Language (MIDL) 3.0 is a simplified, modern syntax for declaring Windows Runtime types inside Interface Definition Language (IDL) files (`.idl` files). This new syntax will feel familiar to anyone experienced with C, C++, C#, and/or Java. MIDL 3.0 is a particularly convenient way to declare [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) runtime classes. Here's how it looks; this example demonstrates most of the language syntax elements that you'll likely use.
 
 ```idl
 // Photo.idl
@@ -34,6 +34,9 @@ namespace PhotoEditor
 ```
 
 Note that the syntax of MIDL 3.0 is specifically and solely designed for *declaring* types. You'll use a different programming language to *implement* those types. To use MIDL 3.0, you'll need Windows SDK version 10.0.17134.0 (Windows 10, version 1803) (`midl.exe` version 8.01.0622 or later, used with the `/winrt` switch).
+
+## Use cases for MIDL 3.0
+Interface Definition Language (IDL) began with the Distributed Computing Environment/Remote Procedure Calls (DCE/RPC) system. The original [MIDL 1.0](https://msdn.microsoft.com/library/windows/desktop/aa367091) is DCE/RPC IDL with enhancements for declaring COM interfaces and coclasses. An updated 2.0 syntax was then developed within Microsoft to declare Windows Runtime APIs for the Windows platform. MIDL 3.0 is a much simpler and more modern syntax, whose purpose is to declare Windows Runtime APIs. And you can use it in your projects, particularly to declare [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) runtime classes.
 
 ## Declaration structure, and calling midl.exe from the command line
 The key organizational concepts in a MIDL 3.0 declaration are namespaces, types, and members. A MIDL 3.0 source file (an `.idl` file) contains at least one namespace, inside which are types and/or subordinate namespaces. Each type contains zero or more members.
