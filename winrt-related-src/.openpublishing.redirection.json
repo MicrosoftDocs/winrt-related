@@ -1,0 +1,9 @@
+{
+  "redirections": [
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmaifestsschema/element-pm-phoneidentity.md",
+      "redirect_url": "winrt-related-src/schemas/appxpackage/uapmaifestsschema/element-mp-phoneidentity.md",
+      "redirect_document_id": false
+    }
+  ]
+}
