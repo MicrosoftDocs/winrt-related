@@ -1,7 +1,7 @@
 ---
 Description: Provides information about an app previously made available on Windows Phone.
 Search.Product: eADQiWindows 10XVcnh
-title: pm:PhoneIdentity (Windows 10)
+title: mp:PhoneIdentity (Windows 10)
 ms.assetid: 817d5865-3838-4554-b751-2af09d84c8ad
 author: laurenhughes
 ms.author: lahugh
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# pm:PhoneIdentity (Windows 10)
+# mp:PhoneIdentity (Windows 10)
 
 
 If your app is an update to an app previously made available on Windows Phone, ensure that this element matches what is in the app manifest of your previous app. Use the same GUIDs that were assigned to the app by the Store. This ensures that users of your app who are upgrading to Windows 10 will receive your new app as an update, and not as a duplicate.
@@ -21,7 +21,7 @@ If your app is an update to an app previously made available on Windows Phone, e
 
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd><b>&lt;pm:PhoneIdentity&gt;</b></dd>
+<dd><b>&lt;mp:PhoneIdentity&gt;</b></dd>
 </dl>
 
 ## Syntax

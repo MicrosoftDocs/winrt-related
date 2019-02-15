@@ -113,8 +113,8 @@
             href: schemas/appxpackage/uapmanifestschema/element-package.md
           - name: "Identity"
             href: schemas/appxpackage/uapmanifestschema/element-identity.md
-          - name: "pm:PhoneIdentity"
-            href: schemas/appxpackage/uapmanifestschema/element-pm-phoneidentity.md
+          - name: "mp:PhoneIdentity"
+            href: schemas/appxpackage/uapmanifestschema/element-mp-phoneidentity.md
           - name: "Properties"
             href: schemas/appxpackage/uapmanifestschema/element-properties.md
           - name: "Framework"

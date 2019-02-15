@@ -19,7 +19,7 @@ The following list summarizes the allowed hierarchies for this schema, starting 
 
 -   [**Package**](element-package.md)
     -   [**Identity**](element-identity.md)
-    -   [**pm:PhoneIdentity**](element-pm-phoneidentity.md)
+    -   [**mp:PhoneIdentity**](element-mp-phoneidentity.md)
     -   [**Properties**](element-properties.md)
         -   [**Framework**](element-framework.md)
         -   [**DisplayName**](element-displayname.md)
