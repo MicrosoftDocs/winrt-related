@@ -44,7 +44,7 @@ BankAccountWRC::BankAccount account = factory.ActivateInstance<BankAccountWRC::B
 using namespace winrt::Windows::Foundation;
 ...
 auto factory = winrt::get_activation_factory<Uri, IUriRuntimeClassFactory>();
-Uri account = factory.CreateUri(L"http://www.contoso.com");
+Uri account = factory.CreateUri(L"https://www.contoso.com");
 ```
 
 ```cppwinrt
