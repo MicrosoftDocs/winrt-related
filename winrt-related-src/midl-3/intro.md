@@ -77,7 +77,7 @@ Since the namespace of a Windows Runtime type becomes part of the type name, the
 This class implements the **Windows.UI.Xaml.Data.INotifyPropertyChanged** interface. And the class contains several members: two constructors, a read-write property (**Price**), some read-only properties (**AuthorName** through **Title**), and two methods, named **Equals** and **ApplyDiscount**. Note the use of the type **Single** rather than **float**. And that **String** has an upper-case "S".
 
 > [!TIP]
-> Visual Studio provides the best experience for compiling MIDL 3.0, by means of the C++/WinRT Visual Studio Extension (VSIX). See [Visual Studio support for C++/WinRT, and the VSIX](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt#visual-studio-support-for-cwinrt-and-the-vsix).
+> Visual Studio provides the best experience for compiling MIDL 3.0, by means of the C++/WinRT Visual Studio Extension (VSIX). See [Visual Studio support for C++/WinRT, and the VSIX](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt#visual-studio-support-for-cwinrt-xaml-the-vsix-extension-and-the-nuget-package).
 
 But you can also compile MIDL 3.0 from the command line. If the source code for this example is stored in a file named `Bookstore.idl`, then you can issue the command below. If necessary for your case, you can update the SDK version number used in the command (which is 10.0.17134.0).
 

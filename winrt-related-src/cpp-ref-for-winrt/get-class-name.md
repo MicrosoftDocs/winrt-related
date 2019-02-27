@@ -34,7 +34,7 @@ A [winrt::hstring](hstring.md) containing the fully-qualified type name of the W
 
 ### Example
 ```cppwinrt
-winrt::Windows::Foundation::Uri contosoUri{ L"http://www.contoso.com" };
+winrt::Windows::Foundation::Uri contosoUri{ L"https://www.contoso.com" };
 winrt::hstring name = winrt::get_class_name(contosoUri);
 assert(name == L"Windows.Foundation.Uri");
 ```

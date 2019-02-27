@@ -68,7 +68,7 @@ struct hstring
 |Operator|Description|
 |------------|-----------------|
 |[hstring::operator std::wstring_view](#hstringoperator-stdwstringview)|Converts the **hstring** object to a **std::wstring_view**.|
-|[hstring::operator[] &lpar;subscript operator)](#hstringoperator-subscript-operator))|Returns a reference to the character at the specified position within the **hstring** object.|
+|[hstring::operator[] &lpar;subscript operator)](#hstringoperator-lparsubscript-operator))|Returns a reference to the character at the specified position within the **hstring** object.|
 |[hstring::operator= (assignment operator)](#hstringoperator-assignment-operator)|Assigns a value to the **hstring** object.|
 
 ## Free functions
@@ -331,12 +331,12 @@ The **hstring** object converted to a **std::wstring_view**.
 ```cppwinrt
 using namespace winrt;
 ...
-    Uri contosoUri{ L"http://www.contoso.com" };
-    Uri awUri{ L"http://www.adventure-works.com" };
+    Uri contosoUri{ L"https://www.contoso.com" };
+    Uri awUri{ L"https://www.adventure-works.com" };
 
     // Uri::Domain() is of type hstring. But we can use hstring's conversion operator to std::wstring_view.
     std::wstring domainWstring{ contosoUri.Domain() }; // L"contoso.com"
-    domainWstring = awUri.Domain(); // L"http://www.adventure-works.com"
+    domainWstring = awUri.Domain(); // L"https://www.adventure-works.com"
 ```
 
 ## hstring::operator[] &lpar;subscript operator)
