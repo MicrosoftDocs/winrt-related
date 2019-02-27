@@ -9,6 +9,8 @@ ms.topic: reference
 ms.date: 07/13/2018
 keywords: windows 10, uwp, toolkit sdk
 ---
+# License for the Windows UI Library 
+
 
 MICROSOFT SOFTWARE LICENSE TERMS
 
