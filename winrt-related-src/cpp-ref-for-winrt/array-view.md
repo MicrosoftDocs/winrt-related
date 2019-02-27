@@ -71,7 +71,7 @@ The type of the values (elements) that the **array_view** views, or spans.
 ## Member operators
 |Operator|Description| 
 |------------|-----------------|
-|[array_view::operator[] &lpar;subscript operator)](#arrayviewoperator-subscript-operator)|Returns a reference to the element at the specified position within the **array_view** object.|
+|[array_view::operator[] &lpar;subscript operator)](#arrayviewoperator-lparsubscript-operator)|Returns a reference to the element at the specified position within the **array_view** object.|
 
 ## Free operators
 |Operator|Description| 

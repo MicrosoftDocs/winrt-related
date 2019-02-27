@@ -63,7 +63,7 @@ The interface, or runtime class implementation type, a pointer to which is repre
 |[com_ptr::operator bool](#comptroperator-bool)|Checks whether or not the smart pointer is referencing an interface or object.|
 |[com_ptr::operator* (indirection operator)](#comptroperator-indirection-operator)|Returns a reference to the **com_ptr**'s target so that you can pass it to a function that expects a reference to the target type **T**.|
 |[com_ptr::operator= (assignment operator)](#comptroperator-assignment-operator)|Assigns a value to the **com_ptr** object.|
-|[com_ptr::operator-> (arrow operator)](#comptroperator-arrow-operator)|To afford access to the referenced interface or object's methods, returns the underlying raw pointer.|
+|[com_ptr::operator-> (arrow operator)](#comptroperator--arrow-operator)|To afford access to the referenced interface or object's methods, returns the underlying raw pointer.|
 
 ## Free functions
 |Function|Description|
