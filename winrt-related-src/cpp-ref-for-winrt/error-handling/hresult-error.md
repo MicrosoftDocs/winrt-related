@@ -37,12 +37,12 @@ struct hresult_error
 ## Types
 |Constructor|Description|
 |------------|-----------------|
-|[hresult_error::from_abi_t type](#hresulterror-fromabit-type)|The type of the [hresult_error::from_abi](#hresulterror-fromabi-data-member) static data member.|
+|[hresult_error::from_abi_t type](#hresulterrorfromabit-type)|The type of the [hresult_error::from_abi](#hresulterrorfromabit-type) static data member.|
 
 ## Static data members
 |Function|Description|
 |------------|-----------------|
-|[hresult_error::from_abi static data member](#hresulterror-fromabi-data-member)|An instance of type [hresult_error::from_abi_t](#hresulterror-fromabit-type), which can be passed to the constructor of **hresult_error** (or a derived type) to indicate that the constructor should try to retrieve restricted error info.|
+|[hresult_error::from_abi static data member](#hresulterrorfromabi-static-data-member)|An instance of type [hresult_error::from_abi_t](#hresulterrorfromabit-type), which can be passed to the constructor of **hresult_error** (or a derived type) to indicate that the constructor should try to retrieve restricted error info.|
 
 ## Member functions
 |Function|Description|
@@ -106,7 +106,7 @@ winrt::com_ptr<::IRestrictedErrorInfo> const& info() const noexcept;
 A [winrt::com_ptr](../com-ptr.md) of [IRestrictedErrorInfo](https://msdn.microsoft.com/library/br224587) containing the restricted error info.
 
 ## hresult_error::from_abi static data member
-An instance of type [hresult_error::from_abi_t](#hresulterror-fromabit-type), which can be passed to the constructor of **hresult_error** (or a derived type) to indicate that the constructor should try to retrieve restricted error info.
+An instance of type [hresult_error::from_abi_t](#hresulterrorfromabit-type), which can be passed to the constructor of **hresult_error** (or a derived type) to indicate that the constructor should try to retrieve restricted error info.
 
 ### Syntax
 ```cppwinrt
@@ -114,7 +114,7 @@ static constexpr winrt::hresult_error::from_abi_t from_abi{};
 ```
 
 ## hresult_error::from_abi_t type
-The type of the [hresult_error::from_abi](#hresulterror-fromabi-data-member) static data member.
+The type of the [hresult_error::from_abi](#hresulterrorfromabi-static-data-member) static data member.
 
 ### Syntax
 ```cppwinrt
