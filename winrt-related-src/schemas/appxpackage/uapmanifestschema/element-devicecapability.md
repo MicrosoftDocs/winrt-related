@@ -117,7 +117,7 @@ Declares a device capability required by a package. On Windows 10.0.10240.0, can
 <tbody>
 <tr class="odd">
 <td>[Capabilities](element-capabilities.md)</td>
-<td><p>Declares the access to protected user resources that the package requires.</p></td>
+<td><p>Declares the access to protected user resources that the package requires. You can have multiple <strong>DeviceCapability</strong> and <strong>Capability</strong> elements in the <strong>Capabilities</strong> element, but all <strong>DeviceCapability</strong> elements must come after the <strong>Capability</strong> elements.</p></td>
 </tr>
 </tbody>
 </table>

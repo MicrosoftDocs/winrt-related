@@ -15,13 +15,15 @@ ms.date: 04/05/2017
 # How to specify device capabilities in a package manifest
 
 
-**Note**  For Windows 10, see [What's different in Windows 10.](uapmanifestschema/what-s-changed-in-windows-10.md)
+> [!NOTE]
+> For Windows 10, see [What's different in Windows 10.](uapmanifestschema/what-s-changed-in-windows-10.md)
 
  
 
-To declare each device capability required by your Windows Runtime app, add a [**DeviceCapability**](https://msdn.microsoft.com/library/windows/apps/br211430) element and applicable child elements to the package manifest.
+To declare each device capability required by your Windows Runtime app, add a [**DeviceCapability**](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-devicecapability) element and applicable child elements to the package manifest.
 
-**Important**  Some device capabilities must be specified manually. For example, you must use the **XML (Text) Editor** to specify device capabilities for the USB, Human Interface Device (HID), Point of Service (POS), Bluetooth GATT, and Bluetooth RFCOMM APIs.
+> [!IMPORTANT]
+> Some device capabilities must be specified manually. For example, you must use the **XML (Text) Editor** to specify device capabilities for the USB, Human Interface Device (HID), Point of Service (POS), Bluetooth GATT, and Bluetooth RFCOMM APIs.
 
  
 
@@ -33,9 +35,10 @@ Open the Package.appxmanifest file. In Microsoft Visual Studio, open the file wi
 ## Step 2:
 
 
-Add one DeviceCapability element per device capability. You can have multiple DeviceCapability and Capability elements in the Capabilities element. Note that some device capabilities require multiple child elements. For more info, see [**DeviceCapability**](https://msdn.microsoft.com/library/windows/apps/br211430).
+Add one **DeviceCapability** element per device capability. You can have multiple **DeviceCapability** and **Capability** elements in the **Capabilities** element, but all **DeviceCapability** elements must come after the **Capability** elements. Note that some device capabilities require multiple child elements. For more info, see [**DeviceCapability**](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-devicecapability).
 
-**Note**  Not all APIs are available for both UWP apps and Windows 8.x Phone apps. See the API reference documentation for more details about which devices are supported by each API.
+> [!NOTE]
+> Not all APIs are available for both UWP apps and Windows 8.x Phone apps. See the API reference documentation for more details about which devices are supported by each API.
 
  
 
@@ -122,7 +125,7 @@ The **bluetooth.rfcomm** device capability enables access to APIs in the [**Wind
 
 [Devices, sensors, and power](https://msdn.microsoft.com/library/windows/apps/mt204543)
 
-[**DeviceCapability element reference**](https://msdn.microsoft.com/library/windows/apps/br211430)
+[**DeviceCapability element reference**](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-devicecapability)
 
 [App capability declarations](https://msdn.microsoft.com/windows/uwp/packaging/app-capability-declarations)
 
