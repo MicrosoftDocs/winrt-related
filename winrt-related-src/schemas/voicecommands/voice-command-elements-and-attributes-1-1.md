@@ -22,6 +22,9 @@ Use voice commands to launch an app and specify an action or command to execute.
 
 As with any XML file, a VCD file should begin with an XML declaration that specifies both the XML version and the character encoding.
 
+> [!NOTE]
+> Visual Studio includes this by default in new XML files.
+
 <!-- > [!NOTE] 
 > Visual Studio includes this by default in new XML files. -->
 
