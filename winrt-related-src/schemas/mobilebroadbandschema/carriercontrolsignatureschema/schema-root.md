@@ -33,7 +33,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 <tbody>
 <tr class="odd">
 <td><a href="element-canonicalizationmethod.md">CanonicalizationMethod</a> </td>
-<td><p>Defines the canonicalization method applied to <a href="element-signedinfo.md"><strong>SignedInfo</strong></a>  as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/). Must be of type Canonical XML.</p></td>
+<td><p>Defines the canonicalization method applied to <a href="element-signedinfo.md"><strong>SignedInfo</strong></a>  as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>. Must be of type Canonical XML.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-dsakeyvalue.md">DSAKeyValue</a> </td>
@@ -41,11 +41,11 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </tr>
 <tr class="odd">
 <td><a href="element-digestmethod.md">DigestMethod</a> </td>
-<td><p>Defines the algorithm used to generate <a href="element-digestvalue.md"><strong>DigestValue</strong></a>  as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines the algorithm used to generate <a href="element-digestvalue.md"><strong>DigestValue</strong></a>  as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-digestvalue.md">DigestValue</a> </td>
-<td><p>Defines the digest value as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> . The algorithm used to generate [<strong>DigestValue</strong>](element-digestvalue.md) is defined in [<strong>DigestMethod</strong>](element-digestmethod.md).</p></td>
+<td><p>Defines the digest value as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> . The algorithm used to generate <a href="element-digestvalue.md"><strong>DigestValue</strong></a> is defined in <a href="element-digestmethod.md"><strong>DigestMethod</strong></a>.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-exponent.md">Exponent</a> </td>
@@ -53,15 +53,15 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </tr>
 <tr class="even">
 <td><a href="element-g.md">G</a> </td>
-<td><p>Defines an integer with certain properties with respect to <a href="element-p.md"><strong>P</strong></a>  and [<strong>Q</strong>](element-q.md) as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines an integer with certain properties with respect to <a href="element-p.md"><strong>P</strong></a>  and <a href="element-q.md"><strong>Q</strong></a> as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-hmacoutputlength.md">HMACOutputLength</a> </td>
-<td><p>Defines the length, in bits, of the <a href="element-signaturevalue.md"><strong>SignatureValue</strong></a>  element as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines the length, in bits, of the <a href="element-signaturevalue.md"><strong>SignatureValue</strong></a>  element as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-j.md">J</a> </td>
-<td><p>Defines (<a href="element-p.md"><strong>P</strong></a>  - 1) / [<strong>Q</strong>](element-q.md) as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines (<a href="element-p.md"><strong>P</strong></a>  - 1) / <a href="element-q.md"><strong>Q</strong></a> as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-keyinfo.md">KeyInfo</a> </td>
@@ -77,7 +77,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </tr>
 <tr class="even">
 <td><a href="element-p.md">P</a> </td>
-<td><p>Defines a prime modulus meeting the <a href="https://www.w3.org/2000/09/xmldsig#dsa-sha1 ">DSAwithSHA1</a>  requirements as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines a prime modulus meeting the <a href="https://www.w3.org/2000/09/xmldsig#dsa-sha1 ">DSAwithSHA1</a>  requirements as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-pgencounter.md">PgenCounter</a> </td>
@@ -85,7 +85,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </tr>
 <tr class="even">
 <td><a href="element-q.md">Q</a> </td>
-<td><p>Defines an integer in the range 2**159 &lt; <a href="element-q.md"><strong>Q</strong></a>  &lt; 2**160 which is a prime divisor of [<strong>P</strong>](element-p.md)-1 as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines an integer in the range 2**159 &lt; <a href="element-q.md"><strong>Q</strong></a>  &lt; 2**160 which is a prime divisor of <a href="element-p.md"><strong>P</strong></a>-1 as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-rsakeyvalue.md">RSAKeyValue</a> </td>
@@ -101,15 +101,15 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </tr>
 <tr class="even">
 <td><a href="element-signature.md">Signature</a> </td>
-<td><p>Defines the root element of an <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>  compliant signature. [<strong>Signature</strong>](element-signature.md) is the unique root element for a provisioning file signature.</p></td>
+<td><p>Defines the root element of an <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>  compliant signature. <a href="element-signature.md"><strong>Signature</strong></a> is the unique root element for a provisioning file signature.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-signaturemethod.md">SignatureMethod</a> </td>
-<td><p>Defines the algorithm used to generate the signature thumbprint in <a href="element-signaturevalue.md"><strong>SignatureValue</strong></a>  as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines the algorithm used to generate the signature thumbprint in <a href="element-signaturevalue.md"><strong>SignatureValue</strong></a>  as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-signaturevalue.md">SignatureValue</a> </td>
-<td><p>Defines the signature thumbprint as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> . The algorithm used to generate [<strong>SignatureValue</strong>](element-signaturevalue.md) is defined in [<strong>SignatureMethod</strong>](element-signaturemethod.md).</p></td>
+<td><p>Defines the signature thumbprint as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> . The algorithm used to generate <a href="element-signaturevalue.md"><strong>SignatureValue</strong></a> is defined in <a href="element-signaturemethod.md"><strong>SignatureMethod</strong></a>.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-signedinfo.md">SignedInfo</a> </td>
@@ -117,7 +117,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </tr>
 <tr class="even">
 <td><a href="element-transform.md">Transform</a> </td>
-<td><p>Defines a transform applied to the digested data object prior to <a href="element-digestmethod.md"><strong>DigestMethod</strong></a>  as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines a transform applied to the digested data object prior to <a href="element-digestmethod.md"><strong>DigestMethod</strong></a>  as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-transforms.md">Transforms</a> </td>
@@ -133,7 +133,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </tr>
 <tr class="even">
 <td><a href="element-y.md">Y</a> </td>
-<td><p>Defines <a href="element-g.md"><strong>G</strong></a> **X mod [<strong>P</strong>](element-p.md) (where X is part of the private key and not made public) as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines <a href="element-g.md"><strong>G</strong></a> **X mod <a href="element-p.md"><strong>P</strong></a> (where X is part of the private key and not made public) as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 </tbody>
 </table>

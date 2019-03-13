@@ -123,14 +123,14 @@ Specifies the tile template. Every notification should include one binding eleme
 </tr>
 <tr class="even">
 <td><strong>lang</strong></td>
-<td><p>The target locale of the XML payload, specified as a <a href="https://go.microsoft.com/fwlink/p/?linkid=227302">BCP-47 language tags</a>  such as &quot;en-US&quot; or &quot;fr-FR&quot;. The locale specified here overrides that in [<strong>visual</strong>](element-visual.md), but can be overriden by that in [<strong>text</strong>](element-text.md). If this value is a literal string, this attribute defaults to the user's UI language. If this value is a string reference, this attribute defaults to the locale chosen by Windows Runtime in resolving the string. See Remarks for when this value isn't specified.</p></td>
+<td><p>The target locale of the XML payload, specified as a <a href="https://go.microsoft.com/fwlink/p/?linkid=227302">BCP-47 language tags</a>  such as &quot;en-US&quot; or &quot;fr-FR&quot;. The locale specified here overrides that in <a href="element-visual.md"><strong>visual</strong></a>, but can be overriden by that in <a href="element-text.md"><strong>text</strong></a>. If this value is a literal string, this attribute defaults to the user's UI language. If this value is a string reference, this attribute defaults to the locale chosen by Windows Runtime in resolving the string. See Remarks for when this value isn't specified.</p></td>
 <td>string</td>
 <td>No</td>
 <td>None</td>
 </tr>
 <tr class="odd">
 <td><strong>template</strong></td>
-<td><p>One of the provided templates on which to base the tile. Typically, a developer should supply both a square and a wide format, each as a separate <a href="element-binding.md"><strong>binding</strong></a>  element. Valid entries are members of the [<strong>tileTemplateType</strong>](https://msdn.microsoft.com/library/windows/apps/br208621) enumeration.</p></td>
+<td><p>One of the provided templates on which to base the tile. Typically, a developer should supply both a square and a wide format, each as a separate <a href="element-binding.md"><strong>binding</strong></a>  element. Valid entries are members of the <a href="https://msdn.microsoft.com/library/windows/apps/br208621"><strong>tileTemplateType</strong></a> enumeration.</p></td>
 <td>tileTemplateNameV2 (see Remarks)</td>
 <td>Yes</td>
 <td>None</td>

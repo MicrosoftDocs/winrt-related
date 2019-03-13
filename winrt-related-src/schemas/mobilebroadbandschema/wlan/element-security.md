@@ -92,7 +92,7 @@ None.
 </tr>
 <tr class="odd">
 <td><a href="element-keyindex.md">keyIndex</a> </td>
-<td><p>Defines which key index should be used to encrypt wireless traffic. <a href="element-keyindex.md"><strong>keyIndex</strong></a>  is only used when [<strong>keyType</strong>](element-keytype.md) is <strong>networkKey</strong>. The default value is 0 when [<strong>sharedKey</strong>](element-sharedkey.md) is present. Must be a value between 0 and 3 inclusive.</p></td>
+<td><p>Defines which key index should be used to encrypt wireless traffic. <a href="element-keyindex.md"><strong>keyIndex</strong></a>  is only used when <a href="element-keytype.md"><strong>keyType</strong></a> is <strong>networkKey</strong>. The default value is 0 when <a href="element-sharedkey.md"><strong>sharedKey</strong></a> is present. Must be a value between 0 and 3 inclusive.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-preauthmode.md">preAuthMode</a> </td>

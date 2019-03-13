@@ -100,7 +100,7 @@ Contains a single [**binding**](https://msdn.microsoft.com/library/windows/apps/
 </tr>
 <tr class="even">
 <td><strong>lang</strong></td>
-<td><p>The target locale of the XML payload, specified as <a href="https://go.microsoft.com/fwlink/p/?linkid=227302">BCP-47 language tags</a>  such as &quot;en-US&quot; or &quot;fr-FR&quot;. This locale is overridden by any locale specified in [<strong>binding</strong>](element-binding.md) or [<strong>text</strong>](element-text.md). If this value is a literal string, this attribute defaults to the user's UI language. If this value is a string reference, this attribute defaults to the locale chosen by Windows Runtime in resolving the string.</p></td>
+<td><p>The target locale of the XML payload, specified as <a href="https://go.microsoft.com/fwlink/p/?linkid=227302">BCP-47 language tags</a>  such as &quot;en-US&quot; or &quot;fr-FR&quot;. This locale is overridden by any locale specified in <a href="element-binding.md"><strong>binding</strong></a> or <a href="element-text.md"><strong>text</strong></a>. If this value is a literal string, this attribute defaults to the user's UI language. If this value is a string reference, this attribute defaults to the locale chosen by Windows Runtime in resolving the string.</p></td>
 <td>string</td>
 <td>No</td>
 <td>None</td>

@@ -95,7 +95,7 @@ None.
 <tbody>
 <tr class="odd">
 <td><a href="element-extensions-v2.md">Extensions_v2</a> </td>
-<td><p>Defines additional properties and settings in a subscriber's carrier provisioning file. <a href="element-extensions-v2.md"><strong>Extensions_v2</strong></a>  is the unique root element of the [CarrierControlSchema_v2](schema-root.md) provisioning file.</p></td>
+<td><p>Defines additional properties and settings in a subscriber's carrier provisioning file. <a href="element-extensions-v2.md"><strong>Extensions_v2</strong></a>  is the unique root element of the <a href="schema-root.md">CarrierControlSchema_v2</a> provisioning file.</p></td>
 </tr>
 </tbody>
 </table>

@@ -77,7 +77,7 @@ None.
 </tr>
 <tr class="even">
 <td><a href="element-name.md">Name</a> </td>
-<td><p>Specifies the <a href="https://msdn.microsoft.com/library/windows/desktop/bb760768">System.ItemName</a> \[System.ItemNameDisplay](https://msdn.microsoft.com/library/windows/desktop/bb760770) of the item.</p></td>
+<td><p>Specifies the <a href="https://msdn.microsoft.com/library/windows/desktop/bb760768">System.ItemName</a> \<a href="https://msdn.microsoft.com/library/windows/desktop/bb760770">System.ItemNameDisplay</a> of the item.</p></td>
 </tr>
 </tbody>
 </table>

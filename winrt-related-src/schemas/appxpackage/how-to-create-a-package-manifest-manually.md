@@ -52,7 +52,7 @@ Alternatively, you can package your app using Visual Studio. See [Packaging your
 </tr>
 <tr class="even">
 <td><p><a href="how-to-specify-extension-points-in-a-package-manifest.md">How to specify extensions in a package manifest</a> </p></td>
-<td><p>To declare an extensibility point for your app, use the <a href="appxmanifestschema/element-1-extension.md"><strong>Extension (CT_ApplicationExtensions)</strong></a>  element. To declare an extensibility point for the package, use the [<strong>Extension (CT_PackageExtensions)</strong>](appxmanifestschema/element-extension.md) element.</p></td>
+<td><p>To declare an extensibility point for your app, use the <a href="appxmanifestschema/element-1-extension.md"><strong>Extension (CT_ApplicationExtensions)</strong></a>  element. To declare an extensibility point for the package, use the <a href="appxmanifestschema/element-extension.md"><strong>Extension (CT_PackageExtensions)</strong></a> element.</p></td>
 </tr>
 </tbody>
 </table>

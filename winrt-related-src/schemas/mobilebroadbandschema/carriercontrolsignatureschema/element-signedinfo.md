@@ -92,7 +92,7 @@ Defines all signed content within the signature as specified in [XML DSIG](https
 <tbody>
 <tr class="odd">
 <td><a href="element-canonicalizationmethod.md">CanonicalizationMethod</a> </td>
-<td><p>Defines the canonicalization method applied to <a href="element-signedinfo.md"><strong>SignedInfo</strong></a>  as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/). Must be of type Canonical XML.</p></td>
+<td><p>Defines the canonicalization method applied to <a href="element-signedinfo.md"><strong>SignedInfo</strong></a>  as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>. Must be of type Canonical XML.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-reference.md">Reference</a> </td>
@@ -100,7 +100,7 @@ Defines all signed content within the signature as specified in [XML DSIG](https
 </tr>
 <tr class="odd">
 <td><a href="element-signaturemethod.md">SignatureMethod</a> </td>
-<td><p>Defines the algorithm used to generate the signature thumbprint in <a href="element-signaturevalue.md"><strong>SignatureValue</strong></a>  as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines the algorithm used to generate the signature thumbprint in <a href="element-signaturevalue.md"><strong>SignatureValue</strong></a>  as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -123,7 +123,7 @@ Defines all signed content within the signature as specified in [XML DSIG](https
 <tbody>
 <tr class="odd">
 <td><a href="element-signature.md">Signature</a> </td>
-<td><p>Defines the root element of an <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>  compliant signature. [<strong>Signature</strong>](element-signature.md) is the unique root element for a provisioning file signature.</p></td>
+<td><p>Defines the root element of an <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>  compliant signature. <a href="element-signature.md"><strong>Signature</strong></a> is the unique root element for a provisioning file signature.</p></td>
 </tr>
 </tbody>
 </table>

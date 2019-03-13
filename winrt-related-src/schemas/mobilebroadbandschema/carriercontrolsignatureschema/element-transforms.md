@@ -68,7 +68,7 @@ None.
 <tbody>
 <tr class="odd">
 <td><a href="element-transform.md">Transform</a> </td>
-<td><p>Defines a transform applied to the digested data object prior to <a href="element-digestmethod.md"><strong>DigestMethod</strong></a>  as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines a transform applied to the digested data object prior to <a href="element-digestmethod.md"><strong>DigestMethod</strong></a>  as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 </tbody>
 </table>

@@ -40,7 +40,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </tr>
 <tr class="odd">
 <td><a href="element-activationmethod.md">ActivationMethod</a> </td>
-<td><p>Defines the abstract base element for <a href="element-reconnecttonetwork.md"><strong>ReconnectToNetwork</strong></a> , [<strong>ReregisterToNetwork</strong>](element-reregistertonetwork.md), and [<strong>ServiceActivation</strong>](element-serviceactivation.md).</p></td>
+<td><p>Defines the abstract base element for <a href="element-reconnecttonetwork.md"><strong>ReconnectToNetwork</strong></a> , <a href="element-reregistertonetwork.md"><strong>ReregisterToNetwork</strong></a>, and <a href="element-serviceactivation.md"><strong>ServiceActivation</strong></a>.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-associatedplan.md">AssociatedPlan</a> </td>

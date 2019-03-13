@@ -115,7 +115,7 @@ Specifies the toast template. Note that only one binding element can be included
 </tr>
 <tr class="odd">
 <td><strong>lang</strong></td>
-<td><p>The target locale of the XML payload, specified as a <a href="https://go.microsoft.com/fwlink/p/?linkid=227302">BCP-47 language tags</a>  such as &quot;en-US&quot; or &quot;fr-FR&quot;. The locale specified here overrides that in [<strong>visual</strong>](element-visual.md), but can be overriden by that in [<strong>text</strong>](element-text.md). If this value is a literal string, this attribute defaults to the user's UI language. If this value is a string reference, this attribute defaults to the locale chosen by Windows Runtime in resolving the string.</p></td>
+<td><p>The target locale of the XML payload, specified as a <a href="https://go.microsoft.com/fwlink/p/?linkid=227302">BCP-47 language tags</a>  such as &quot;en-US&quot; or &quot;fr-FR&quot;. The locale specified here overrides that in <a href="element-visual.md"><strong>visual</strong></a>, but can be overriden by that in <a href="element-text.md"><strong>text</strong></a>. If this value is a literal string, this attribute defaults to the user's UI language. If this value is a string reference, this attribute defaults to the locale chosen by Windows Runtime in resolving the string.</p></td>
 <td>string</td>
 <td>No</td>
 <td>None</td>

@@ -105,11 +105,11 @@ Defines a digest value, digest method, and transforms as specified in [XML DSIG]
 <tbody>
 <tr class="odd">
 <td><a href="element-digestmethod.md">DigestMethod</a> </td>
-<td><p>Defines the algorithm used to generate <a href="element-digestvalue.md"><strong>DigestValue</strong></a>  as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines the algorithm used to generate <a href="element-digestvalue.md"><strong>DigestValue</strong></a>  as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-digestvalue.md">DigestValue</a> </td>
-<td><p>Defines the digest value as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> . The algorithm used to generate [<strong>DigestValue</strong>](element-digestvalue.md) is defined in [<strong>DigestMethod</strong>](element-digestmethod.md).</p></td>
+<td><p>Defines the digest value as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> . The algorithm used to generate <a href="element-digestvalue.md"><strong>DigestValue</strong></a> is defined in <a href="element-digestmethod.md"><strong>DigestMethod</strong></a>.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-transforms.md">Transforms</a> </td>

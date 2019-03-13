@@ -78,15 +78,15 @@ None.
 <tbody>
 <tr class="odd">
 <td><a href="element-g.md">G</a> </td>
-<td><p>Defines an integer with certain properties with respect to <a href="element-p.md"><strong>P</strong></a>  and [<strong>Q</strong>](element-q.md) as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines an integer with certain properties with respect to <a href="element-p.md"><strong>P</strong></a>  and <a href="element-q.md"><strong>Q</strong></a> as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-j.md">J</a> </td>
-<td><p>Defines (<a href="element-p.md"><strong>P</strong></a>  - 1) / [<strong>Q</strong>](element-q.md) as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines (<a href="element-p.md"><strong>P</strong></a>  - 1) / <a href="element-q.md"><strong>Q</strong></a> as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-p.md">P</a> </td>
-<td><p>Defines a prime modulus meeting the <a href="https://www.w3.org/2000/09/xmldsig#dsa-sha1 ">DSAwithSHA1</a>  requirements as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines a prime modulus meeting the <a href="https://www.w3.org/2000/09/xmldsig#dsa-sha1 ">DSAwithSHA1</a>  requirements as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-pgencounter.md">PgenCounter</a> </td>
@@ -94,7 +94,7 @@ None.
 </tr>
 <tr class="odd">
 <td><a href="element-q.md">Q</a> </td>
-<td><p>Defines an integer in the range 2**159 &lt; <a href="element-q.md"><strong>Q</strong></a>  &lt; 2**160 which is a prime divisor of [<strong>P</strong>](element-p.md)-1 as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines an integer in the range 2**159 &lt; <a href="element-q.md"><strong>Q</strong></a>  &lt; 2**160 which is a prime divisor of <a href="element-p.md"><strong>P</strong></a>-1 as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-seed.md">Seed</a> </td>
@@ -102,7 +102,7 @@ None.
 </tr>
 <tr class="odd">
 <td><a href="element-y.md">Y</a> </td>
-<td><p>Defines <a href="element-g.md"><strong>G</strong></a> **X mod [<strong>P</strong>](element-p.md) (where X is part of the private key and not made public) as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><p>Defines <a href="element-g.md"><strong>G</strong></a> **X mod <a href="element-p.md"><strong>P</strong></a> (where X is part of the private key and not made public) as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 </tbody>
 </table>

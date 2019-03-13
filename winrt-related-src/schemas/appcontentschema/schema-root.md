@@ -166,7 +166,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </tr>
 <tr class="odd">
 <td><a href="element-name.md">Name</a> </td>
-<td><p>Specifies the <a href="https://msdn.microsoft.com/library/windows/desktop/bb760768">System.ItemName</a> \[System.ItemNameDisplay](https://msdn.microsoft.com/library/windows/desktop/bb760770) of the item.</p></td>
+<td><p>Specifies the <a href="https://msdn.microsoft.com/library/windows/desktop/bb760768">System.ItemName</a> \<a href="https://msdn.microsoft.com/library/windows/desktop/bb760770">System.ItemNameDisplay</a> of the item.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-properties.md">Properties</a> </td>

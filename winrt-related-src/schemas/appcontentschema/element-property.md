@@ -76,7 +76,7 @@ A property that describes the item.
 <tbody>
 <tr class="odd">
 <td><strong>Key</strong></td>
-<td><p>The key that identifies the property. This must be a system property name (see <a href="https://msdn.microsoft.com/library/windows/desktop/dd561977">Windows Properties</a>  for a list) or the [<strong>PROPERTYKEY</strong>](https://msdn.microsoft.com/library/windows/desktop/bb773381) of a property. (You can use the <strong>PROPERTYKEY</strong> to support arbitrary properties that are not known to the system.)</p></td>
+<td><p>The key that identifies the property. This must be a system property name (see <a href="https://msdn.microsoft.com/library/windows/desktop/dd561977">Windows Properties</a>  for a list) or the <a href="https://msdn.microsoft.com/library/windows/desktop/bb773381"><strong>PROPERTYKEY</strong></a> of a property. (You can use the <strong>PROPERTYKEY</strong> to support arbitrary properties that are not known to the system.)</p></td>
 <td>string</td>
 <td>Yes</td>
 <td></td>

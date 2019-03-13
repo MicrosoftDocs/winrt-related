@@ -93,7 +93,7 @@ Defines the root element of an [XML DSIG](https://www.w3.org/TR/xmldsig-core/) c
 </tr>
 <tr class="even">
 <td><a href="element-signaturevalue.md">SignatureValue</a> </td>
-<td><p>Defines the signature thumbprint as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> . The algorithm used to generate [<strong>SignatureValue</strong>](element-signaturevalue.md) is defined in [<strong>SignatureMethod</strong>](element-signaturemethod.md).</p></td>
+<td><p>Defines the signature thumbprint as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> . The algorithm used to generate <a href="element-signaturevalue.md"><strong>SignatureValue</strong></a> is defined in <a href="element-signaturemethod.md"><strong>SignatureMethod</strong></a>.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-signedinfo.md">SignedInfo</a> </td>

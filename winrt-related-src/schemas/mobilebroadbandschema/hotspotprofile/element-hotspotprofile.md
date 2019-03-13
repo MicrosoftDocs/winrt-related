@@ -69,7 +69,7 @@ None.
 <tbody>
 <tr class="odd">
 <td><a href="element-basicauth.md">BasicAuth</a> </td>
-<td><p>Contains the user name and password required for WISPr authentication. Using <a href="element-basicauth.md"><strong>BasicAuth</strong></a>  allows a static set of credentials to be used; use [<strong>ExtAuth</strong>](element-extauth.md) to have an app generate credentials for WISPr authentication.</p></td>
+<td><p>Contains the user name and password required for WISPr authentication. Using <a href="element-basicauth.md"><strong>BasicAuth</strong></a>  allows a static set of credentials to be used; use <a href="element-extauth.md"><strong>ExtAuth</strong></a> to have an app generate credentials for WISPr authentication.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-extauth.md">ExtAuth</a> </td>

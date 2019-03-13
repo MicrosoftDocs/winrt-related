@@ -62,7 +62,7 @@ None.
 <tbody>
 <tr class="odd">
 <td><a href="element-wlanprofile.md">WLANProfile</a> </td>
-<td><p>Defines an instance of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868422"><strong>WLANProfile</strong></a>  element from the [<strong>WLAN</strong>](https://msdn.microsoft.com/library/windows/apps/hh868424) schema.</p></td>
+<td><p>Defines an instance of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868422"><strong>WLANProfile</strong></a>  element from the <a href="https://msdn.microsoft.com/library/windows/apps/hh868424"><strong>WLAN</strong></a> schema.</p></td>
 </tr>
 </tbody>
 </table>

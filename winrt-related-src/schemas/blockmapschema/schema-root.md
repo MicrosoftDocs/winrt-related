@@ -37,7 +37,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </tr>
 <tr class="even">
 <td><a href="element-blockmap.md">BlockMap</a> </td>
-<td><p>Defines the root element of the app package block map. The <a href="element-blockmap.md"><strong>BlockMap</strong></a>  element specifies the algorithm that is used to compute cryptographic hashes and contains a sequence of [<strong>File</strong>](element-file.md) child elements that are associated with each file that is stored in the package.</p></td>
+<td><p>Defines the root element of the app package block map. The <a href="element-blockmap.md"><strong>BlockMap</strong></a>  element specifies the algorithm that is used to compute cryptographic hashes and contains a sequence of <a href="element-file.md"><strong>File</strong></a> child elements that are associated with each file that is stored in the package.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-file.md">File</a> </td>

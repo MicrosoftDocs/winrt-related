@@ -58,7 +58,7 @@ None.
 <tbody>
 <tr class="odd">
 <td><a href="element-activationmethod.md">ActivationMethod</a> </td>
-<td><p>Defines an instance of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868442"><strong>ActivationMethod</strong></a>  element from the [<strong>WWAN</strong>](https://msdn.microsoft.com/library/windows/apps/hh868486) schema.</p></td>
+<td><p>Defines an instance of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868442"><strong>ActivationMethod</strong></a>  element from the <a href="https://msdn.microsoft.com/library/windows/apps/hh868486"><strong>WWAN</strong></a> schema.</p></td>
 </tr>
 </tbody>
 </table>

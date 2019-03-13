@@ -45,15 +45,15 @@ The Mobile Broadband Schema strictly enforces the order of the nodes. Nodes used
 </tr>
 <tr class="even">
 <td><p><a href="carriercontrolschema/schema-root.md">CarrierControlSchema schema</a> </p></td>
-<td><p>The <a href="carriercontrolschema/schema-root.md">CarrierControlSchema</a>  schema defines elements that are used to create the provisioning file in a call to [<strong>ProvisionFromXmlDocumentAsync</strong>](https://msdn.microsoft.com/library/windows/apps/br207400) and describe all of the settings required to authenticate and provision a subscriber's account on a Mobile Network Operator's (MNO) network. All of the elements are in the namespace http://www.microsoft.com/networking/CarrierControl/v1. Not all elements are in every profile, as some elements are optional.</p></td>
+<td><p>The <a href="carriercontrolschema/schema-root.md">CarrierControlSchema</a>  schema defines elements that are used to create the provisioning file in a call to <a href="https://msdn.microsoft.com/library/windows/apps/br207400"><strong>ProvisionFromXmlDocumentAsync</strong></a> and describe all of the settings required to authenticate and provision a subscriber's account on a Mobile Network Operator's (MNO) network. All of the elements are in the namespace http://www.microsoft.com/networking/CarrierControl/v1. Not all elements are in every profile, as some elements are optional.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="carriercontrolschema-v2/schema-root.md">CarrierControlSchema_v2 schema</a> </p></td>
-<td><p>The <a href="carriercontrolschema-v2/schema-root.md">CarrierControlSchema_v2</a>  schema defines additional elements that are used to create the provisioning file in a call to [<strong>ProvisionFromXmlDocumentAsync</strong>](https://msdn.microsoft.com/library/windows/apps/br207400) and describe additional settings required to authenticate and provision a subscriber's account on a Mobile Network Operator's (MNO) network. All of the elements are in the namespace http://www.microsoft.com/networking/CarrierControl/v2. Not all elements are in every profile, as some elements are optional.</p></td>
+<td><p>The <a href="carriercontrolschema-v2/schema-root.md">CarrierControlSchema_v2</a>  schema defines additional elements that are used to create the provisioning file in a call to <a href="https://msdn.microsoft.com/library/windows/apps/br207400"><strong>ProvisionFromXmlDocumentAsync</strong></a> and describe additional settings required to authenticate and provision a subscriber's account on a Mobile Network Operator's (MNO) network. All of the elements are in the namespace http://www.microsoft.com/networking/CarrierControl/v2. Not all elements are in every profile, as some elements are optional.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="carriercontrolsignatureschema/schema-root.md">CarrierControlSignatureSchema schema</a> </p></td>
-<td><p>The <a href="carriercontrolsignatureschema/schema-root.md">CarrierControlSignatureSchema</a>  schema defines elements that are used to describe the signature appended to the provisioning file. It is based on the [XML DSIG](https://www.w3.org/TR/xmldsig-core/) specification with only minor deviations that are explicitly described below. All of the elements are in the namespace http://www.w3.org/2000/09/xmldsig#. Not all elements are in every profile, as some elements are optional.</p></td>
+<td><p>The <a href="carriercontrolsignatureschema/schema-root.md">CarrierControlSignatureSchema</a>  schema defines elements that are used to describe the signature appended to the provisioning file. It is based on the <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> specification with only minor deviations that are explicitly described below. All of the elements are in the namespace http://www.w3.org/2000/09/xmldsig#. Not all elements are in every profile, as some elements are optional.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="dusm/schema-root.md">DUSM schema</a> </p></td>
@@ -73,11 +73,11 @@ The Mobile Broadband Schema strictly enforces the order of the nodes. Nodes used
 </tr>
 <tr class="odd">
 <td><p><a href="resultsschema/schema-root.md">ResultsSchema schema</a> </p></td>
-<td><p>The <a href="resultsschema/schema-root.md">ResultsSchema</a>  schema defines elements that are returned from a call to [<strong>ProvisionResultsXml</strong>](https://msdn.microsoft.com/library/windows/apps/br212048) and describe the results of the last provisioning attempt. All of the elements are in the namespace http://www.microsoft.com/networking/CarrierControlResults/v1. Not all elements are in every profile, as some elements are optional.</p></td>
+<td><p>The <a href="resultsschema/schema-root.md">ResultsSchema</a>  schema defines elements that are returned from a call to <a href="https://msdn.microsoft.com/library/windows/apps/br212048"><strong>ProvisionResultsXml</strong></a> and describe the results of the last provisioning attempt. All of the elements are in the namespace http://www.microsoft.com/networking/CarrierControlResults/v1. Not all elements are in every profile, as some elements are optional.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="resultsschema-v2/schema-root.md">ResultsSchema_v2 schema</a> </p></td>
-<td><p>The <a href="resultsschema-v2/schema-root.md">ResultsSchema_v2</a>  schema defines additional elements that are returned from a call to [<strong>ProvisionResultsXml</strong>](https://msdn.microsoft.com/library/windows/apps/br212048) and describe the results of the last provisioning attempt. All of the elements are in the namespace http://www.microsoft.com/networking/CarrierControlResults/v2. Not all elements are in every profile, as some elements are optional.</p></td>
+<td><p>The <a href="resultsschema-v2/schema-root.md">ResultsSchema_v2</a>  schema defines additional elements that are returned from a call to <a href="https://msdn.microsoft.com/library/windows/apps/br212048"><strong>ProvisionResultsXml</strong></a> and describe the results of the last provisioning attempt. All of the elements are in the namespace http://www.microsoft.com/networking/CarrierControlResults/v2. Not all elements are in every profile, as some elements are optional.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="wlan/schema-root.md">WLAN schema</a> </p></td>

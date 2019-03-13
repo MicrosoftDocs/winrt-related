@@ -90,7 +90,7 @@ None.
 </tr>
 <tr class="odd">
 <td><a href="element-signature.md">Signature</a> </td>
-<td><p>Defines an instance of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868330"><strong>Signature</strong></a>  element from the [<strong>CarrierControlSignatureSchema</strong>](https://msdn.microsoft.com/library/windows/apps/hh868341).</p></td>
+<td><p>Defines an instance of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868330"><strong>Signature</strong></a>  element from the <a href="https://msdn.microsoft.com/library/windows/apps/hh868341"><strong>CarrierControlSignatureSchema</strong></a>.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-wlanprofiles.md">WLANProfiles</a> </td>
