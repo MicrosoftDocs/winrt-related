@@ -115,14 +115,14 @@ Specifies the toast template. Note that only one binding element can be included
 </tr>
 <tr class="odd">
 <td><strong>lang</strong></td>
-<td><p>The target locale of the XML payload, specified as a [BCP-47 language tags](https://go.microsoft.com/fwlink/p/?linkid=227302) such as &quot;en-US&quot; or &quot;fr-FR&quot;. The locale specified here overrides that in [<strong>visual</strong>](element-visual.md), but can be overriden by that in [<strong>text</strong>](element-text.md). If this value is a literal string, this attribute defaults to the user's UI language. If this value is a string reference, this attribute defaults to the locale chosen by Windows Runtime in resolving the string.</p></td>
+<td><p>The target locale of the XML payload, specified as a <a href="https://go.microsoft.com/fwlink/p/?linkid=227302">BCP-47 language tags</a>  such as &quot;en-US&quot; or &quot;fr-FR&quot;. The locale specified here overrides that in [<strong>visual</strong>](element-visual.md), but can be overriden by that in [<strong>text</strong>](element-text.md). If this value is a literal string, this attribute defaults to the user's UI language. If this value is a string reference, this attribute defaults to the locale chosen by Windows Runtime in resolving the string.</p></td>
 <td>string</td>
 <td>No</td>
 <td>None</td>
 </tr>
 <tr class="even">
 <td><strong>template</strong></td>
-<td><p>One of the provided templates on which to base the toast. Values are given in the [<strong>toastTemplateType</strong>](https://msdn.microsoft.com/library/windows/apps/br208660) enumeration.</p></td>
+<td><p>One of the provided templates on which to base the toast. Values are given in the <a href="https://msdn.microsoft.com/library/windows/apps/br208660"><strong>toastTemplateType</strong></a>  enumeration.</p></td>
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li>ToastImageAndText01</li>
@@ -157,11 +157,11 @@ Specifies the toast template. Note that only one binding element can be included
 </thead>
 <tbody>
 <tr class="odd">
-<td>[image](element-image.md)</td>
+<td><a href="element-image.md">image</a> </td>
 <td><p>Specifies an image used in the toast template.</p></td>
 </tr>
 <tr class="even">
-<td>[text](element-text.md)</td>
+<td><a href="element-text.md">text</a> </td>
 <td><p>Specifies text used in the toast template.</p></td>
 </tr>
 </tbody>
@@ -184,8 +184,8 @@ Specifies the toast template. Note that only one binding element can be included
 </thead>
 <tbody>
 <tr class="odd">
-<td>[visual](element-visual.md)</td>
-<td><p>Contains a single [<strong>binding</strong>](https://msdn.microsoft.com/library/windows/apps/br212854) element that defines a toast.</p></td>
+<td><a href="element-visual.md">visual</a> </td>
+<td><p>Contains a single <a href="https://msdn.microsoft.com/library/windows/apps/br212854"><strong>binding</strong></a>  element that defines a toast.</p></td>
 </tr>
 </tbody>
 </table>

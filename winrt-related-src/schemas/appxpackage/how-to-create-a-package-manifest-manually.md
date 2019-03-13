@@ -39,20 +39,20 @@ Alternatively, you can package your app using Visual Studio. See [Packaging your
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>[How to create a basic package manifest](how-to-create-a-basic-package-manifest.md)</p></td>
+<td><p><a href="how-to-create-a-basic-package-manifest.md">How to create a basic package manifest</a> </p></td>
 <td><p>To package your app, you must create a package manifest that contains the elements that are required by that the package manifest schema.</p></td>
 </tr>
 <tr class="even">
-<td><p>[How to specify capabilities in a package manifest](how-to-specify-capabilities-in-a-package-manifest.md)</p></td>
-<td><p>To declare each capability required by your app, add a [<strong>Capability</strong>](appxmanifestschema/element-capability.md) element to the package manifest.</p></td>
+<td><p><a href="how-to-specify-capabilities-in-a-package-manifest.md">How to specify capabilities in a package manifest</a> </p></td>
+<td><p>To declare each capability required by your app, add a <a href="appxmanifestschema/element-capability.md"><strong>Capability</strong></a>  element to the package manifest.</p></td>
 </tr>
 <tr class="odd">
-<td><p>[How to specify device capabilities in a package manifest](how-to-specify-device-capabilities-in-a-package-manifest.md)</p></td>
-<td><p>To declare each device capability required by your Windows Runtime app, add a [<strong>DeviceCapability</strong>](appxmanifestschema/element-devicecapability.md) element and applicable child elements to the package manifest.</p></td>
+<td><p><a href="how-to-specify-device-capabilities-in-a-package-manifest.md">How to specify device capabilities in a package manifest</a> </p></td>
+<td><p>To declare each device capability required by your Windows Runtime app, add a <a href="appxmanifestschema/element-devicecapability.md"><strong>DeviceCapability</strong></a>  element and applicable child elements to the package manifest.</p></td>
 </tr>
 <tr class="even">
-<td><p>[How to specify extensions in a package manifest](how-to-specify-extension-points-in-a-package-manifest.md)</p></td>
-<td><p>To declare an extensibility point for your app, use the [<strong>Extension (CT_ApplicationExtensions)</strong>](appxmanifestschema/element-1-extension.md) element. To declare an extensibility point for the package, use the [<strong>Extension (CT_PackageExtensions)</strong>](appxmanifestschema/element-extension.md) element.</p></td>
+<td><p><a href="how-to-specify-extension-points-in-a-package-manifest.md">How to specify extensions in a package manifest</a> </p></td>
+<td><p>To declare an extensibility point for your app, use the <a href="appxmanifestschema/element-1-extension.md"><strong>Extension (CT_ApplicationExtensions)</strong></a>  element. To declare an extensibility point for the package, use the [<strong>Extension (CT_PackageExtensions)</strong>](appxmanifestschema/element-extension.md) element.</p></td>
 </tr>
 </tbody>
 </table>

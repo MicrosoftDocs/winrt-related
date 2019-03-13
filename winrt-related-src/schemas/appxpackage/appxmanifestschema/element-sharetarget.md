@@ -84,11 +84,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DataFormat](element-dataformat.md)</td>
+<td><a href="element-dataformat.md">DataFormat</a> </td>
 <td><p>Specifies a data package format such as text or HTML format that the app can share. It is unique per application in the package and is case sensitive.</p></td>
 </tr>
 <tr class="even">
-<td>[SupportedFileTypes (type: CT_CharmsSupportedFileTypes)](element-1-supportedfiletypes.md)</td>
+<td><a href="element-1-supportedfiletypes.md">SupportedFileTypes (type: CT_CharmsSupportedFileTypes)</a> </td>
 <td><p>Defines the file types that the app can share.</p></td>
 </tr>
 </tbody>
@@ -111,7 +111,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extension (in type: CT_ApplicationExtensions)](element-1-extension.md)</td>
+<td><a href="element-1-extension.md">Extension (in type: CT_ApplicationExtensions)</a> </td>
 <td><p>Declares an extensibility point for the app.</p></td>
 </tr>
 </tbody>

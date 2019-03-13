@@ -101,7 +101,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Certificates](element-certificates.md)</td>
+<td><a href="element-certificates.md">Certificates</a> </td>
 <td><p>Declares a package extensibility point of type <strong>windows.certificates</strong>. The app requires one or more certificates from the specified certificate stores.</p></td>
 </tr>
 </tbody>

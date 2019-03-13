@@ -60,7 +60,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[SSIDPrefix](element-ssidprefix.md)</td>
+<td><a href="element-ssidprefix.md">SSIDPrefix</a> </td>
 <td><p>Contains the SSIDPrefix for a WLAN.</p></td>
 </tr>
 </tbody>

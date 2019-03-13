@@ -103,8 +103,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Transforms](element-transforms.md)</td>
-<td><p>Defines a an ordered list of transforms applied to the digested data object as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-transforms.md">Transforms</a> </td>
+<td><p>Defines a an ordered list of transforms applied to the digested data object as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> .</p></td>
 </tr>
 </tbody>
 </table>

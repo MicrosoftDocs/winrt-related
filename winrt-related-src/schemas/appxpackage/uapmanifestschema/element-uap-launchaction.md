@@ -126,7 +126,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:AutoPlayContent](element-uap-autoplaycontent.md)</td>
+<td><a href="element-uap-autoplaycontent.md">uap:AutoPlayContent</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.autoPlayContent</strong>. The app provides the specified AutoPlay content actions.</p></td>
 </tr>
 </tbody>

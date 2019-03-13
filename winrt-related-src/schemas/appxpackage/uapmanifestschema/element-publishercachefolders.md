@@ -70,7 +70,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Folder](element-folder.md)</td>
+<td><a href="element-folder.md">Folder</a> </td>
 <td><p>Specifies a folder that the package shares with other packages from the same publisher.</p></td>
 </tr>
 </tbody>
@@ -93,7 +93,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extension (in type: CT_PackageExtensions)](element-extension.md)</td>
+<td><a href="element-extension.md">Extension (in type: CT_PackageExtensions)</a> </td>
 <td><p>Declares an extensibility point for the package.</p></td>
 </tr>
 </tbody>

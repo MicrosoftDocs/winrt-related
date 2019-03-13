@@ -63,7 +63,7 @@ Defines the root element of an [XML DSIG](https://www.w3.org/TR/xmldsig-core/) c
 <tbody>
 <tr class="odd">
 <td><strong>Id</strong></td>
-<td><p>A unique element identifier to be used as a reference to [<strong>Signature</strong>](element-signature.md).</p></td>
+<td><p>A unique element identifier to be used as a reference to <a href="element-signature.md"><strong>Signature</strong></a> .</p></td>
 <td>ID</td>
 <td>No</td>
 <td></td>
@@ -88,16 +88,16 @@ Defines the root element of an [XML DSIG](https://www.w3.org/TR/xmldsig-core/) c
 </thead>
 <tbody>
 <tr class="odd">
-<td>[KeyInfo](element-keyinfo.md)</td>
-<td><p>Defines all key information used to validate the signature as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-keyinfo.md">KeyInfo</a> </td>
+<td><p>Defines all key information used to validate the signature as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> .</p></td>
 </tr>
 <tr class="even">
-<td>[SignatureValue](element-signaturevalue.md)</td>
-<td><p>Defines the signature thumbprint as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/). The algorithm used to generate [<strong>SignatureValue</strong>](element-signaturevalue.md) is defined in [<strong>SignatureMethod</strong>](element-signaturemethod.md).</p></td>
+<td><a href="element-signaturevalue.md">SignatureValue</a> </td>
+<td><p>Defines the signature thumbprint as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> . The algorithm used to generate [<strong>SignatureValue</strong>](element-signaturevalue.md) is defined in [<strong>SignatureMethod</strong>](element-signaturemethod.md).</p></td>
 </tr>
 <tr class="odd">
-<td>[SignedInfo](element-signedinfo.md)</td>
-<td><p>Defines all signed content within the signature as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-signedinfo.md">SignedInfo</a> </td>
+<td><p>Defines all signed content within the signature as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> .</p></td>
 </tr>
 </tbody>
 </table>

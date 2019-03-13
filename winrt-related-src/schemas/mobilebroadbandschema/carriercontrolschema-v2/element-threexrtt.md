@@ -70,7 +70,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DataClassFriendlyNames](element-dataclassfriendlynames.md)</td>
+<td><a href="element-dataclassfriendlynames.md">DataClassFriendlyNames</a> </td>
 <td><p>Defines class friendly names for the standard or protocol used for mobile network data in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>

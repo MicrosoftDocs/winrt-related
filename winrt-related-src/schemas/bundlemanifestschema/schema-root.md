@@ -32,27 +32,27 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Bundle](element-bundle.md)</td>
+<td><a href="element-bundle.md">Bundle</a> </td>
 <td><p>Defines the root element of a bundle manifest. The manifest describes the structure and capabilities of the software to the system.</p></td>
 </tr>
 <tr class="even">
-<td>[Identity](element-identity.md)</td>
+<td><a href="element-identity.md">Identity</a> </td>
 <td><p>Defines a globally unique identifier for a bundle. A bundle identity is represented as a tuple of attributes of the bundle.</p></td>
 </tr>
 <tr class="odd">
-<td>[Package](element-package.md)</td>
+<td><a href="element-package.md">Package</a> </td>
 <td><p>Defines one of the app packages or resource packages in the bundle.</p></td>
 </tr>
 <tr class="even">
-<td>[Packages](element-packages.md)</td>
+<td><a href="element-packages.md">Packages</a> </td>
 <td><p>Defines the app packages and resource packages that are contained in the bundle.</p></td>
 </tr>
 <tr class="odd">
-<td>[Resource](element-resource.md)</td>
+<td><a href="element-resource.md">Resource</a> </td>
 <td><p>Declares language, resolution scale, and DirectX feature level for a resource in the package.</p></td>
 </tr>
 <tr class="even">
-<td>[Resources](element-resources.md)</td>
+<td><a href="element-resources.md">Resources</a> </td>
 <td><p>Declares languages, resolution scales, and DirectX feature levels for the resources that the package contains.</p></td>
 </tr>
 </tbody>

@@ -68,11 +68,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DNSRetryCount](element-dnsretrycount.md)</td>
+<td><a href="element-dnsretrycount.md">DNSRetryCount</a> </td>
 <td><p>Defines the DNS retry count. It must be a positive integer between 1 and 4.</p></td>
 </tr>
 <tr class="even">
-<td>[DNSRetryIntervalInSeconds](element-dnsretryintervalinseconds.md)</td>
+<td><a href="element-dnsretryintervalinseconds.md">DNSRetryIntervalInSeconds</a> </td>
 <td><p>Defines the DNS retry interval in seconds. It must be a positive integer between 1 and 4.</p></td>
 </tr>
 </tbody>
@@ -95,7 +95,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[NetworkSettings](element-networksettings.md)</td>
+<td><a href="element-networksettings.md">NetworkSettings</a> </td>
 <td><p>Defines the network settings in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>

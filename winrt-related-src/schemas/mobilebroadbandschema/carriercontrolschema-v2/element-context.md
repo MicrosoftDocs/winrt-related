@@ -88,19 +88,19 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AccessString](element-accessstring.md)</td>
+<td><a href="element-accessstring.md">AccessString</a> </td>
 <td><p>Defines the access string for a context in the Packet Data Protocol (PDP) context policy.</p></td>
 </tr>
 <tr class="even">
-<td>[AuthProtocol](element-authprotocol.md)</td>
+<td><a href="element-authprotocol.md">AuthProtocol</a> </td>
 <td><p>Defines the authentication protocol to use for a context in the Packet Data Protocol (PDP) context policy.</p></td>
 </tr>
 <tr class="odd">
-<td>[Compression](element-compression.md)</td>
+<td><a href="element-compression.md">Compression</a> </td>
 <td><p>Defines whether compression is enabled for a context in the Packet Data Protocol (PDP) context policy.</p></td>
 </tr>
 <tr class="even">
-<td>[UserLogonCred](element-userlogoncred.md)</td>
+<td><a href="element-userlogoncred.md">UserLogonCred</a> </td>
 <td><p>Defines the user login credentials for a context in the Packet Data Protocol (PDP) context policy.</p></td>
 </tr>
 </tbody>
@@ -123,11 +123,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[PDPContextPolicy](element-pdpcontextpolicy.md)</td>
+<td><a href="element-pdpcontextpolicy.md">PDPContextPolicy</a> </td>
 <td><p>Defines a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file.</p></td>
 </tr>
 <tr class="even">
-<td>[TetheringProfile](element-tetheringprofile.md)</td>
+<td><a href="element-tetheringprofile.md">TetheringProfile</a> </td>
 <td><p>Defines the tethering profile in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>

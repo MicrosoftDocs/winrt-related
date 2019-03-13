@@ -117,19 +117,19 @@ Declares a package extension point of type **windows.activatableClass.outOfProce
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ActivatableClass (type: CT_OutOfProcessActivatableClass)](element-1-activatableclass.md)</td>
+<td><a href="element-1-activatableclass.md">ActivatableClass (type: CT_OutOfProcessActivatableClass)</a> </td>
 <td><p>Declares a runtime class associated with the extensibility point.</p></td>
 </tr>
 <tr class="even">
-<td>[Arguments](element-arguments.md)</td>
+<td><a href="element-arguments.md">Arguments</a> </td>
 <td><p>Specifies the list of comma-separated arguments to pass to the executable.</p></td>
 </tr>
 <tr class="odd">
-<td>[Instancing](element-instancing.md)</td>
+<td><a href="element-instancing.md">Instancing</a> </td>
 <td><p>Specifies whether the executable runs as a single instance or can run as multiple instances.</p></td>
 </tr>
 <tr class="even">
-<td>[Path (type: ST_Executable)](element-1-path.md)</td>
+<td><a href="element-1-path.md">Path (type: ST_Executable)</a> </td>
 <td><p>The path to the executable.</p></td>
 </tr>
 </tbody>
@@ -152,7 +152,7 @@ Declares a package extension point of type **windows.activatableClass.outOfProce
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extension (in type: CT_PackageExtensions)](element-extension.md)</td>
+<td><a href="element-extension.md">Extension (in type: CT_PackageExtensions)</a> </td>
 <td><p>Declares an extensibility point for the package.</p></td>
 </tr>
 </tbody>

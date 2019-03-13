@@ -64,20 +64,20 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[PackageDependency](element-packagedependency.md)</td>
+<td><a href="element-packagedependency.md">PackageDependency</a> </td>
 <td><p>Declares a dependency on another package that is marked as a framework package.</p></td>
 </tr>
 <tr class="even">
-<td>[TargetDeviceFamily](element-targetdevicefamily.md)</td>
-<td><p>Identifies the device family that your package targets. For more info about device families, see [Guide to UWP apps](https://msdn.microsoft.com/library/windows/apps/dn894631).</p></td>
+<td><a href="element-targetdevicefamily.md">TargetDeviceFamily</a> </td>
+<td><p>Identifies the device family that your package targets. For more info about device families, see <a href="https://msdn.microsoft.com/library/windows/apps/dn894631">Guide to UWP apps</a> .</p></td>
 </tr>
 <tr class="odd">
-<td>[uap3:MainPackageDependency](element-uap3-mainpackagedependency-manual.md)</td>
+<td><a href="element-uap3-mainpackagedependency-manual.md">uap3:MainPackageDependency</a> </td>
 <td><p>Specifies the main app package to which this supplemental package applies.
 </p></td>
 </tr>
 <tr class="even">
-<td>[uap5:DriverDependency](element-uap5-driverdependency.md)</td>
+<td><a href="element-uap5-driverdependency.md">uap5:DriverDependency</a> </td>
 <td><p>Contains the driver constraint information for a UWP app. If DriverDependency is used, the specified driver must be present for the app to load.
 </p></td>
 </tr>
@@ -102,7 +102,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Package](element-package.md)</td>
+<td><a href="element-package.md">Package</a> </td>
 <td><p>Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system.</p></td>
 </tr>
 </tbody>

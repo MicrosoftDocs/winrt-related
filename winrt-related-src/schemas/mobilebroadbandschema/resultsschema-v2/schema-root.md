@@ -36,96 +36,96 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Activation](element-activation.md)</td>
-<td><p>Contains any errors from processing the [<strong>Activation</strong>](https://msdn.microsoft.com/library/windows/apps/hh868285) element from the last provisioning attempt.</p></td>
+<td><a href="element-activation.md">Activation</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868285"><strong>Activation</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
-<td>[AdditionalPDPContexts](element-additionalpdpcontexts.md)</td>
-<td><p>Contains any errors from processing the [<strong>AdditionalPDPContexts</strong>](https://msdn.microsoft.com/library/windows/apps/dn393994) element from the last provisioning attempt.</p></td>
+<td><a href="element-additionalpdpcontexts.md">AdditionalPDPContexts</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn393994"><strong>AdditionalPDPContexts</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
-<td>[CarrierNetworkMetadata](element-carriernetworkmetadata.md)</td>
-<td><p>Contains any errors from processing the [<strong>CarrierNetworkMetadata</strong>](https://msdn.microsoft.com/library/windows/apps/dn393998) element from the last provisioning attempt.</p></td>
+<td><a href="element-carriernetworkmetadata.md">CarrierNetworkMetadata</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn393998"><strong>CarrierNetworkMetadata</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
-<td>[CarrierProvisioningResult](element-carrierprovisioningresult.md)</td>
-<td><p>Contains any errors from processing the [<strong>CarrierProvisioning</strong>](https://msdn.microsoft.com/library/windows/apps/hh868289) element from the last provisioning attempt. [<strong>CarrierProvisioningResult</strong>](https://msdn.microsoft.com/library/windows/apps/hh868380) is the unique root element for the provisioning results.</p></td>
+<td><a href="element-carrierprovisioningresult.md">CarrierProvisioningResult</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868289"><strong>CarrierProvisioning</strong></a>  element from the last provisioning attempt. [<strong>CarrierProvisioningResult</strong>](https://msdn.microsoft.com/library/windows/apps/hh868380) is the unique root element for the provisioning results.</p></td>
 </tr>
 <tr class="odd">
-<td>[CustomerSupportPhoneNumber](element-customersupportphonenumber.md)</td>
-<td><p>Contains any errors from processing the [<strong>CustomerSupportPhoneNumber</strong>](https://msdn.microsoft.com/library/windows/apps/dn394004) element from the last provisioning attempt.</p></td>
+<td><a href="element-customersupportphonenumber.md">CustomerSupportPhoneNumber</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394004"><strong>CustomerSupportPhoneNumber</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
-<td>[DataClassFriendlyNames](element-dataclassfriendlynames.md)</td>
-<td><p>Contains any errors from processing the [<strong>DataClassFriendlyNames</strong>](https://msdn.microsoft.com/library/windows/apps/dn394005) element from the last provisioning attempt.</p></td>
+<td><a href="element-dataclassfriendlynames.md">DataClassFriendlyNames</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394005"><strong>DataClassFriendlyNames</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
-<td>[DefaultProfile](element-defaultprofile.md)</td>
-<td><p>Contains any errors from processing the [<strong>DefaultProfile</strong>](https://msdn.microsoft.com/library/windows/apps/hh868453) element from the last provisioning attempt.</p></td>
+<td><a href="element-defaultprofile.md">DefaultProfile</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868453"><strong>DefaultProfile</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
-<td>[Issuer](element-issuer.md)</td>
-<td><p>Contains any errors from processing the [<strong>CarrierId</strong>](https://msdn.microsoft.com/library/windows/apps/hh868288) element from the last provisioning attempt.</p></td>
+<td><a href="element-issuer.md">Issuer</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868288"><strong>CarrierId</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
-<td>[MBNProfiles](element-mbnprofiles.md)</td>
-<td><p>Contains any errors from processing the [<strong>MBNProfiles</strong>](https://msdn.microsoft.com/library/windows/apps/hh868295) element from the last provisioning attempt.</p></td>
+<td><a href="element-mbnprofiles.md">MBNProfiles</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868295"><strong>MBNProfiles</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
-<td>[MultiplePDPContextPolicies](element-multiplepdpcontextpolicies.md)</td>
-<td><p>Contains any errors from processing the [<strong>MultiplePDPContextPolicies</strong>](https://msdn.microsoft.com/library/windows/apps/dn394018) element from the last provisioning attempt.</p></td>
+<td><a href="element-multiplepdpcontextpolicies.md">MultiplePDPContextPolicies</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394018"><strong>MultiplePDPContextPolicies</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
-<td>[NetworkSettings](element-networksettings.md)</td>
-<td><p>Contains any errors from processing the [<strong>NetworkSettings</strong>](https://msdn.microsoft.com/library/windows/apps/dn394020) element from the last provisioning attempt.</p></td>
+<td><a href="element-networksettings.md">NetworkSettings</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394020"><strong>NetworkSettings</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
-<td>[PDPContextPolicy](element-pdpcontextpolicy.md)</td>
-<td><p>Contains any errors from processing a [<strong>PDPContextPolicy</strong>](https://msdn.microsoft.com/library/windows/apps/dn394028) element from the last provisioning attempt.</p></td>
+<td><a href="element-pdpcontextpolicy.md">PDPContextPolicy</a> </td>
+<td><p>Contains any errors from processing a <a href="https://msdn.microsoft.com/library/windows/apps/dn394028"><strong>PDPContextPolicy</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
-<td>[Plan](element-plan.md)</td>
-<td><p>Contains any errors from processing a [<strong>Plan</strong>](https://msdn.microsoft.com/library/windows/apps/hh868298) element from the last provisioning attempt.</p></td>
+<td><a href="element-plan.md">Plan</a> </td>
+<td><p>Contains any errors from processing a <a href="https://msdn.microsoft.com/library/windows/apps/hh868298"><strong>Plan</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
-<td>[Plans](element-plans.md)</td>
-<td><p>Contains any errors from processing the [<strong>Plans</strong>](https://msdn.microsoft.com/library/windows/apps/hh868299) element from the last provisioning attempt.</p></td>
+<td><a href="element-plans.md">Plans</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868299"><strong>Plans</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
-<td>[Provisioning](element-provisioning.md)</td>
-<td><p>Contains any errors from processing the [<strong>Provisioning</strong>](https://msdn.microsoft.com/library/windows/apps/hh868300) element from the last provisioning attempt.</p></td>
+<td><a href="element-provisioning.md">Provisioning</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868300"><strong>Provisioning</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
-<td>[PurchaseProfile](element-purchaseprofile.md)</td>
-<td><p>Contains any errors from processing the [<strong>PurchaseProfile</strong>](https://msdn.microsoft.com/library/windows/apps/hh868470) element from the last provisioning attempt.</p></td>
+<td><a href="element-purchaseprofile.md">PurchaseProfile</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868470"><strong>PurchaseProfile</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
-<td>[RefreshParameters](element-refreshparameters.md)</td>
-<td><p>Contains any errors from processing the [<strong>RefreshParameters</strong>](https://msdn.microsoft.com/library/windows/apps/hh868302) element from the last provisioning attempt.</p></td>
+<td><a href="element-refreshparameters.md">RefreshParameters</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868302"><strong>RefreshParameters</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
-<td>[Subscriber](element-subscriber.md)</td>
-<td><p>Contains any errors from processing the [<strong>SubscriberId</strong>](https://msdn.microsoft.com/library/windows/apps/hh868305) element from the last provisioning attempt.</p></td>
+<td><a href="element-subscriber.md">Subscriber</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868305"><strong>SubscriberId</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
-<td>[TetheringProfile](element-tetheringprofile.md)</td>
-<td><p>Contains any errors from processing a [<strong>TetheringProfile</strong>](https://msdn.microsoft.com/library/windows/apps/dn394029) element from the last provisioning attempt.</p></td>
+<td><a href="element-tetheringprofile.md">TetheringProfile</a> </td>
+<td><p>Contains any errors from processing a <a href="https://msdn.microsoft.com/library/windows/apps/dn394029"><strong>TetheringProfile</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
-<td>[TetheringSettings](element-tetheringsettings.md)</td>
-<td><p>Contains any errors from processing the [<strong>TetheringSettings</strong>](https://msdn.microsoft.com/library/windows/apps/dn394030) element from the last provisioning attempt.</p></td>
+<td><a href="element-tetheringsettings.md">TetheringSettings</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394030"><strong>TetheringSettings</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
-<td>[TrustedCertificate](element-trustedcertificate.md)</td>
-<td><p>Contains errors from processing any of the [<strong>TrustedCertificate</strong>](https://msdn.microsoft.com/library/windows/apps/hh868306) element from the last provisioning attempt.</p></td>
+<td><a href="element-trustedcertificate.md">TrustedCertificate</a> </td>
+<td><p>Contains errors from processing any of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868306"><strong>TrustedCertificate</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
-<td>[WLANProfile](element-wlanprofile.md)</td>
-<td><p>Contains any errors from processing a [<strong>WLANProfile</strong>](https://msdn.microsoft.com/library/windows/apps/hh868422) element from the last provisioning attempt.</p></td>
+<td><a href="element-wlanprofile.md">WLANProfile</a> </td>
+<td><p>Contains any errors from processing a <a href="https://msdn.microsoft.com/library/windows/apps/hh868422"><strong>WLANProfile</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
-<td>[WLANProfiles](element-wlanprofiles.md)</td>
-<td><p>Contains any errors from processing the [<strong>WLANProfile</strong>](https://msdn.microsoft.com/library/windows/apps/hh868422) elements from the last provisioning attempt.</p></td>
+<td><a href="element-wlanprofiles.md">WLANProfiles</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868422"><strong>WLANProfile</strong></a>  elements from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>

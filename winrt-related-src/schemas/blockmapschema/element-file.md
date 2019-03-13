@@ -65,7 +65,7 @@ Represents a file contained in the package.
 <tbody>
 <tr class="odd">
 <td><strong>LfhSize</strong></td>
-<td><p>Size, in bytes, of the file's Local File Header (LFH) structure in the package. For more info about file headers, see [ZIP file format specification](https://www.pkware.com/documents/casestudies/APPNOTE.TXT).</p></td>
+<td><p>Size, in bytes, of the file's Local File Header (LFH) structure in the package. For more info about file headers, see <a href="https://www.pkware.com/documents/casestudies/APPNOTE.TXT">ZIP file format specification</a> .</p></td>
 <td>The size of the Local File Header for a file must be at least 30 bytes and no more than 64KB as required by the ZIP format.</td>
 <td>Yes</td>
 <td></td>
@@ -104,7 +104,7 @@ Represents a file contained in the package.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Block](element-block.md)</td>
+<td><a href="element-block.md">Block</a> </td>
 <td><p>Represents a block of binary data contained in a file.</p></td>
 </tr>
 </tbody>
@@ -127,8 +127,8 @@ Represents a file contained in the package.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[BlockMap](element-blockmap.md)</td>
-<td><p>Defines the root element of the app package block map. The [<strong>BlockMap</strong>](element-blockmap.md) element specifies the algorithm that is used to compute cryptographic hashes and contains a sequence of [<strong>File</strong>](element-file.md) child elements that are associated with each file that is stored in the package.</p></td>
+<td><a href="element-blockmap.md">BlockMap</a> </td>
+<td><p>Defines the root element of the app package block map. The <a href="element-blockmap.md"><strong>BlockMap</strong></a>  element specifies the algorithm that is used to compute cryptographic hashes and contains a sequence of [<strong>File</strong>](element-file.md) child elements that are associated with each file that is stored in the package.</p></td>
 </tr>
 </tbody>
 </table>

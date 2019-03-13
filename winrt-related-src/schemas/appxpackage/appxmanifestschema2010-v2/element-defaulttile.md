@@ -89,7 +89,7 @@ The default tile that represents the app on the Start screen. This tile is displ
 </tr>
 <tr class="odd">
 <td><strong>WideLogo</strong></td>
-<td><p>A wide version of the logo image. This image is displayed when the tile is displayed in its wide format. If this image is not provided, the tile can only display in the square format and cannot accept notifications based on [wide template types](https://msdn.microsoft.com/library/windows/apps/hh761491). The user has the ultimate choice as to which format the tile uses, so it is a best practice to include a wide logo image. If a wide logo image is provided, the tile will be shown initially in its wide format. For more info about required logo dimensions, see [Tile sizes](https://msdn.microsoft.com/library/windows/apps/hh781198).</p>
+<td><p>A wide version of the logo image. This image is displayed when the tile is displayed in its wide format. If this image is not provided, the tile can only display in the square format and cannot accept notifications based on <a href="https://msdn.microsoft.com/library/windows/apps/hh761491">wide template types</a> . The user has the ultimate choice as to which format the tile uses, so it is a best practice to include a wide logo image. If a wide logo image is provided, the tile will be shown initially in its wide format. For more info about required logo dimensions, see [Tile sizes](https://msdn.microsoft.com/library/windows/apps/hh781198).</p>
 <p>For more info about how to specify the image in this attribute, see Remarks.</p></td>
 <td>A string between 1 and 256 characters in length that ends with &quot;.jpg&quot;, &quot;.png&quot;, or &quot;.jpeg&quot; that can't contain these characters: &lt;, &gt;, :, &quot;, |, ?, or *. In this string, the / and \ characters can't be the first or last characters. Also, the string can contain / or \ but not both.</td>
 <td>No</td>
@@ -119,7 +119,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[VisualElements](element-visualelements.md)</td>
+<td><a href="element-visualelements.md">VisualElements</a> </td>
 <td><p>Describes the visual aspects of the UWP app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance.</p></td>
 </tr>
 </tbody>

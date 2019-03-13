@@ -31,23 +31,23 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AccessString](element-accessstring.md)</td>
+<td><a href="element-accessstring.md">AccessString</a> </td>
 <td><p>Defines the Access Point Name (APN) or dial string to be used to establish a data connection. Must be less than 100 characters.</p></td>
 </tr>
 <tr class="even">
-<td>[ActivationComplete](element-activationcomplete.md)</td>
+<td><a href="element-activationcomplete.md">ActivationComplete</a> </td>
 <td><p>If <strong>true</strong>, the subscription has been activated, and the machine should immediately attempt to connect. Otherwise, <strong>false</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td>[ActivationMethod](element-activationmethod.md)</td>
-<td><p>Defines the abstract base element for [<strong>ReconnectToNetwork</strong>](element-reconnecttonetwork.md), [<strong>ReregisterToNetwork</strong>](element-reregistertonetwork.md), and [<strong>ServiceActivation</strong>](element-serviceactivation.md).</p></td>
+<td><a href="element-activationmethod.md">ActivationMethod</a> </td>
+<td><p>Defines the abstract base element for <a href="element-reconnecttonetwork.md"><strong>ReconnectToNetwork</strong></a> , [<strong>ReregisterToNetwork</strong>](element-reregistertonetwork.md), and [<strong>ServiceActivation</strong>](element-serviceactivation.md).</p></td>
 </tr>
 <tr class="even">
-<td>[AssociatedPlan](element-associatedplan.md)</td>
-<td><p>Contains the name of the subscriber's data plan. It must match the <strong>Name</strong> attribute of a [<strong>Plan</strong>](https://msdn.microsoft.com/library/windows/apps/hh868373) in the same XML document.</p></td>
+<td><a href="element-associatedplan.md">AssociatedPlan</a> </td>
+<td><p>Contains the name of the subscriber's data plan. It must match the <strong>Name</strong> attribute of a <a href="https://msdn.microsoft.com/library/windows/apps/hh868373"><strong>Plan</strong></a>  in the same XML document.</p></td>
 </tr>
 <tr class="odd">
-<td>[AuthProtocol](element-authprotocol.md)</td>
+<td><a href="element-authprotocol.md">AuthProtocol</a> </td>
 <td><p>Defines the authentication protocol to be used for activating a Packet Data Protocol (PDP) context:</p>
 <p></p>
 <ul>
@@ -58,139 +58,139 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </ul></td>
 </tr>
 <tr class="even">
-<td>[Branding](element-branding.md)</td>
+<td><a href="element-branding.md">Branding</a> </td>
 <td><p>Defines carrier specific branding information for a subscriber's connection to the Mobile Network Operator (MNO).</p></td>
 </tr>
 <tr class="odd">
-<td>[CarrierSpecificData](element-carrierspecificdata.md)</td>
+<td><a href="element-carrierspecificdata.md">CarrierSpecificData</a> </td>
 <td><p>Defines carrier specific data not specified by Windows.</p></td>
 </tr>
 <tr class="even">
-<td>[Compression](element-compression.md)</td>
+<td><a href="element-compression.md">Compression</a> </td>
 <td><p>If <strong>ENABLE</strong>, the packet header and data transferred over the connection is compressed. Otherwise, <strong>DISABLE</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td>[Congested](element-congested.md)</td>
+<td><a href="element-congested.md">Congested</a> </td>
 <td><p>If <strong>true</strong>, the subscriber's connection is in a state of congestion. Otherwise, it is either not supported by the MNO or <strong>false</strong>.</p></td>
 </tr>
 <tr class="even">
-<td>[Context](element-context.md)</td>
+<td><a href="element-context.md">Context</a> </td>
 <td><p>Defines the parameters required to setup a data connection.</p></td>
 </tr>
 <tr class="odd">
-<td>[DataLimit](element-datalimit.md)</td>
+<td><a href="element-datalimit.md">DataLimit</a> </td>
 <td><p>Defines a value representing the data limit in MB for a capped plan. Must be a value from 0 to 2<sup>32nd</sup>.</p></td>
 </tr>
 <tr class="even">
-<td>[DataRoamingPartners](element-dataroamingpartners.md)</td>
+<td><a href="element-dataroamingpartners.md">DataRoamingPartners</a> </td>
 <td><p>Defines the list of preferred network providers for roaming.</p></td>
 </tr>
 <tr class="odd">
-<td>[DefaultProfile](element-defaultprofile.md)</td>
+<td><a href="element-defaultprofile.md">DefaultProfile</a> </td>
 <td><p>Defines the default connection profile used by a subscriber to connect to a MNO. The Mobile Broadband service will use these connection settings without prompting the user for details.</p></td>
 </tr>
 <tr class="even">
-<td>[Description](element-description.md)</td>
+<td><a href="element-description.md">Description</a> </td>
 <td><p>Defines a brief description of the profile.</p></td>
 </tr>
 <tr class="odd">
-<td>[Extensions](element-extensions.md)</td>
+<td><a href="element-extensions.md">Extensions</a> </td>
 <td><p>Defines a schema extension point container for future additions.</p></td>
 </tr>
 <tr class="even">
-<td>[Fields](element-fields.md)</td>
+<td><a href="element-fields.md">Fields</a> </td>
 <td><p>Defines values that describe the subscriber's plan and data usage.</p></td>
 </tr>
 <tr class="odd">
-<td>[HomeProviderName](element-homeprovidername.md)</td>
+<td><a href="element-homeprovidername.md">HomeProviderName</a> </td>
 <td><p>Defines the name of the Home Provider for a given SIM/Device.</p></td>
 </tr>
 <tr class="even">
-<td>[InboundBandwidth](element-inboundbandwidth.md)</td>
+<td><a href="element-inboundbandwidth.md">InboundBandwidth</a> </td>
 <td><p>Defines a value representing the effective link speed of the subscriber’s inbound connection.</p></td>
 </tr>
 <tr class="odd">
-<td>[Locale](element-locale.md)</td>
+<td><a href="element-locale.md">Locale</a> </td>
 <td><p>Defines the message country code in the form &quot;en-us&quot; using ISO-3166.</p></td>
 </tr>
 <tr class="even">
-<td>[Logo](element-logo.md)</td>
+<td><a href="element-logo.md">Logo</a> </td>
 <td><p>Defines a 32x32 bitmap (.bmp) or portable network graphics (.png) type image of the MNO's logo.</p></td>
 </tr>
 <tr class="odd">
-<td>[Message](element-message.md)</td>
+<td><a href="element-message.md">Message</a> </td>
 <td><p>Defines a MNO formatted message that contains the parsing rules necessary for Windows 8 to parse the message.</p></td>
 </tr>
 <tr class="even">
-<td>[Messages](element-messages.md)</td>
+<td><a href="element-messages.md">Messages</a> </td>
 <td><p>Contains a set of MNO messages that are parsed by Windows 8 and may be signaled to the user.</p></td>
 </tr>
 <tr class="odd">
-<td>[Name (in type: Branding)](element-name.md)</td>
+<td><a href="element-name.md">Name (in type: Branding)</a> </td>
 <td><p>Defines a carrier specific branding name for the MNO. Maximum length is 20 characters.</p></td>
 </tr>
 <tr class="even">
-<td>[Name (type: NameType)](element-1-name.md)</td>
+<td><a href="element-1-name.md">Name (type: NameType)</a> </td>
 <td><p>Defines the profile name. Must be 64 characters or less.</p></td>
 </tr>
 <tr class="odd">
-<td>[OutboundBandwidth](element-outboundbandwidth.md)</td>
+<td><a href="element-outboundbandwidth.md">OutboundBandwidth</a> </td>
 <td><p>Defines a value representing the effective link speed of the subscriber’s outbound connection.</p></td>
 </tr>
 <tr class="even">
-<td>[OverDataLimit](element-overdatalimit.md)</td>
+<td><a href="element-overdatalimit.md">OverDataLimit</a> </td>
 <td><p>Defines whether a subscriber has consumed more bytes than the data limit for their plan.</p></td>
 </tr>
 <tr class="odd">
-<td>[Password](element-password.md)</td>
+<td><a href="element-password.md">Password</a> </td>
 <td><p>Defines the password used to authenticate a user. Must be less than 256 characters.</p></td>
 </tr>
 <tr class="even">
-<td>[Pattern](element-pattern.md)</td>
+<td><a href="element-pattern.md">Pattern</a> </td>
 <td><p>Defines a regular expression describing the contents of the decoded human-readable message.</p></td>
 </tr>
 <tr class="odd">
-<td>[PlanType](element-plantype.md)</td>
+<td><a href="element-plantype.md">PlanType</a> </td>
 <td><p>Defines the type of plan currently in use by the subscriber.</p></td>
 </tr>
 <tr class="even">
-<td>[Provider](element-provider.md)</td>
+<td><a href="element-provider.md">Provider</a> </td>
 <td><p>Defines the name and provider ID of a cellular network.</p></td>
 </tr>
 <tr class="odd">
-<td>[PurchaseProfile](element-purchaseprofile.md)</td>
+<td><a href="element-purchaseprofile.md">PurchaseProfile</a> </td>
 <td><p>Defines a purchase connection profile used by a subscriber to connect to a MNO.</p></td>
 </tr>
 <tr class="even">
-<td>[ReconnectToNetwork](element-reconnecttonetwork.md)</td>
+<td><a href="element-reconnecttonetwork.md">ReconnectToNetwork</a> </td>
 <td><p>Defines timing information used to activate the subscriber's account on the Mobile Broadband Network (MNO) for a reconnect activation type.</p></td>
 </tr>
 <tr class="odd">
-<td>[RefreshProvisioning](element-refreshprovisioning.md)</td>
+<td><a href="element-refreshprovisioning.md">RefreshProvisioning</a> </td>
 <td><p>If <strong>true</strong>, the network configuration has been updated, and the machine should attempt to retrieve a new provisioning file during the next available maintenance window. Otherwise, <strong>false</strong>.</p></td>
 </tr>
 <tr class="even">
-<td>[ReregisterToNetwork](element-reregistertonetwork.md)</td>
+<td><a href="element-reregistertonetwork.md">ReregisterToNetwork</a> </td>
 <td><p>Defines timing information used to activate the subscriber's account on the Mobile Broadband Network (MNO) for a reregister activation type.</p></td>
 </tr>
 <tr class="odd">
-<td>[SMSBearer](element-smsbearer.md)</td>
+<td><a href="element-smsbearer.md">SMSBearer</a> </td>
 <td><p>Defines bearer types allowed for SMS messages.</p></td>
 </tr>
 <tr class="even">
-<td>[ServiceActivation](element-serviceactivation.md)</td>
+<td><a href="element-serviceactivation.md">ServiceActivation</a> </td>
 <td><p>Defines carrier specific information required to activate the subscriber's account on the Mobile Broadband Network (MNO).</p></td>
 </tr>
 <tr class="odd">
-<td>[USSDBearer](element-ussdbearer.md)</td>
+<td><a href="element-ussdbearer.md">USSDBearer</a> </td>
 <td><p>Defines bearer types allowed for USSD messages.</p></td>
 </tr>
 <tr class="even">
-<td>[Units](element-units.md)</td>
+<td><a href="element-units.md">Units</a> </td>
 <td><p>Defines how to interpret the unit fields corresponding to each number field. Carriers may specify a whitespace-delimited list of tokens corresponding to each of the supported multipliers.</p></td>
 </tr>
 <tr class="odd">
-<td>[Usage](element-usage.md)</td>
+<td><a href="element-usage.md">Usage</a> </td>
 <td><p>Defines the number of bytes the subscriber has consumed against their data limit. If absent, it is inferred by:</p>
 <ul>
 <li><strong>UsagePercentage</strong> times <strong>DataLimit</strong></li>
@@ -202,27 +202,27 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </ul></td>
 </tr>
 <tr class="even">
-<td>[UsageOverage](element-usageoverage.md)</td>
+<td><a href="element-usageoverage.md">UsageOverage</a> </td>
 <td><p>Defines the number of bytes the subscriber has consumed over their data limit.</p></td>
 </tr>
 <tr class="odd">
-<td>[UsageOveragePercentage](element-usageoveragepercentage.md)</td>
+<td><a href="element-usageoveragepercentage.md">UsageOveragePercentage</a> </td>
 <td><p>Defines the percentage over the data limit a subscriber has consumed.</p></td>
 </tr>
 <tr class="even">
-<td>[UsagePercentage](element-usagepercentage.md)</td>
+<td><a href="element-usagepercentage.md">UsagePercentage</a> </td>
 <td><p>Defines the percentage of the data limit a subscriber has consumed.</p></td>
 </tr>
 <tr class="odd">
-<td>[UsageTimestamp](element-usagetimestamp.md)</td>
+<td><a href="element-usagetimestamp.md">UsageTimestamp</a> </td>
 <td><p>Defines a validity date and time of the usage information.</p></td>
 </tr>
 <tr class="even">
-<td>[UserLogonCred](element-userlogoncred.md)</td>
+<td><a href="element-userlogoncred.md">UserLogonCred</a> </td>
 <td><p>Defines logon credentials for a connection.</p></td>
 </tr>
 <tr class="odd">
-<td>[UserName](element-username.md)</td>
+<td><a href="element-username.md">UserName</a> </td>
 <td><p>Defines the user name for logon. Must be less than 256 characters.</p></td>
 </tr>
 </tbody>

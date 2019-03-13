@@ -86,12 +86,12 @@ Contains any errors from processing the [**AdditionalPDPContexts**](https://msdn
 </thead>
 <tbody>
 <tr class="odd">
-<td>[MultiplePDPContextPolicies](element-multiplepdpcontextpolicies.md)</td>
-<td><p>Contains any errors from processing the [<strong>MultiplePDPContextPolicies</strong>](https://msdn.microsoft.com/library/windows/apps/dn394018) element from the last provisioning attempt.</p></td>
+<td><a href="element-multiplepdpcontextpolicies.md">MultiplePDPContextPolicies</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394018"><strong>MultiplePDPContextPolicies</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
-<td>[TetheringSettings](element-tetheringsettings.md)</td>
-<td><p>Contains any errors from processing the [<strong>TetheringSettings</strong>](https://msdn.microsoft.com/library/windows/apps/dn394030) element from the last provisioning attempt.</p></td>
+<td><a href="element-tetheringsettings.md">TetheringSettings</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394030"><strong>TetheringSettings</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>
@@ -113,8 +113,8 @@ Contains any errors from processing the [**AdditionalPDPContexts**](https://msdn
 </thead>
 <tbody>
 <tr class="odd">
-<td>[CarrierProvisioningResult](element-carrierprovisioningresult.md)</td>
-<td><p>Contains any errors from processing the [<strong>CarrierProvisioning</strong>](https://msdn.microsoft.com/library/windows/apps/hh868289) element from the last provisioning attempt. [<strong>CarrierProvisioningResult</strong>](https://msdn.microsoft.com/library/windows/apps/hh868380) is the unique root element for the provisioning results.</p></td>
+<td><a href="element-carrierprovisioningresult.md">CarrierProvisioningResult</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868289"><strong>CarrierProvisioning</strong></a>  element from the last provisioning attempt. [<strong>CarrierProvisioningResult</strong>](https://msdn.microsoft.com/library/windows/apps/hh868380) is the unique root element for the provisioning results.</p></td>
 </tr>
 </tbody>
 </table>

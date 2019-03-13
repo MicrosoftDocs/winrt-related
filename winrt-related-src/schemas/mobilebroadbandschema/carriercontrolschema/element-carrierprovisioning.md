@@ -65,35 +65,35 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Activation](element-activation.md)</td>
+<td><a href="element-activation.md">Activation</a> </td>
 <td><p>Defines information for a subscriber's activation method on a Mobile Network Operator's (MNO) network.</p></td>
 </tr>
 <tr class="even">
-<td>[Extensions](element-extensions.md)</td>
+<td><a href="element-extensions.md">Extensions</a> </td>
 <td><p>Defines a schema extension point container for future additions.</p></td>
 </tr>
 <tr class="odd">
-<td>[Global](element-global.md)</td>
+<td><a href="element-global.md">Global</a> </td>
 <td><p>Defines identifying information for this provisioning attempt on a Mobile Network Operator's (MNO) network.</p></td>
 </tr>
 <tr class="even">
-<td>[MBNProfiles](element-mbnprofiles.md)</td>
+<td><a href="element-mbnprofiles.md">MBNProfiles</a> </td>
 <td><p>Defines information for a subscriber's WWAN profiles on a Mobile Network Operator's (MNO) network.</p></td>
 </tr>
 <tr class="odd">
-<td>[Plans](element-plans.md)</td>
+<td><a href="element-plans.md">Plans</a> </td>
 <td><p>Defines information for a subscriber's connection plans to a Mobile Network Operator's (MNO) network.</p></td>
 </tr>
 <tr class="even">
-<td>[Provisioning](element-provisioning.md)</td>
+<td><a href="element-provisioning.md">Provisioning</a> </td>
 <td><p>Defines parameters used to establish trust and refresh settings for future provisioning attempts.</p></td>
 </tr>
 <tr class="odd">
-<td>[Signature](element-signature.md)</td>
-<td><p>Defines an instance of the [<strong>Signature</strong>](https://msdn.microsoft.com/library/windows/apps/hh868330) element from the [<strong>CarrierControlSignatureSchema</strong>](https://msdn.microsoft.com/library/windows/apps/hh868341).</p></td>
+<td><a href="element-signature.md">Signature</a> </td>
+<td><p>Defines an instance of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868330"><strong>Signature</strong></a>  element from the [<strong>CarrierControlSignatureSchema</strong>](https://msdn.microsoft.com/library/windows/apps/hh868341).</p></td>
 </tr>
 <tr class="even">
-<td>[WLANProfiles](element-wlanprofiles.md)</td>
+<td><a href="element-wlanprofiles.md">WLANProfiles</a> </td>
 <td><p>Defines information for a subscriber's WLAN profiles on a Mobile Network Operator's (MNO) network.</p></td>
 </tr>
 </tbody>

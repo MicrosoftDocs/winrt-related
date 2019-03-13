@@ -126,7 +126,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AutoPlayContent](element-autoplaycontent.md)</td>
+<td><a href="element-autoplaycontent.md">AutoPlayContent</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.autoPlayContent</strong>. The app provides the specified AutoPlay content actions.</p></td>
 </tr>
 </tbody>

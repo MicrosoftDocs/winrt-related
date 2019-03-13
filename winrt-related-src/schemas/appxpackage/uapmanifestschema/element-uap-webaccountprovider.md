@@ -119,7 +119,7 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:ManagedUrls](element-uap-managedurls.md)</td>
+<td><a href="element-uap-managedurls.md">uap:ManagedUrls</a> </td>
 <td><p>Provides support for multiple URLs. Allows plugins to specify multiple URLs to which they may send cookies.</p></td>
 </tr>
 </tbody>
@@ -142,7 +142,7 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:Extension](element-uap-extension.md)</td>
+<td><a href="element-uap-extension.md">uap:Extension</a> </td>
 <td><p>Declares an extensibility point for the app.</p></td>
 </tr>
 </tbody>

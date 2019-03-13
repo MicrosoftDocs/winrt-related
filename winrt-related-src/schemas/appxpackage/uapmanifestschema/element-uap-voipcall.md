@@ -83,11 +83,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:VoipCallUpgrade](element-uap-voipcallupgrade.md)</td>
+<td><a href="element-uap-voipcallupgrade.md">uap:VoipCallUpgrade</a> </td>
 <td><p>Indicates that the app supports video upgrade. Video upgrade is a feature on some mobile devices such that, when a user is on a cellular call, the user can upgrade that call to a VoIP video call if there is an app installed that can service such a request. These upgrades can be non-seamless (we must drop the cellular call before starting the video call through the app) or seamless (the cellular call remains connected until the app tells us the video call is established).</p></td>
 </tr>
 <tr class="even">
-<td>[uap:VoipDialPhoneNumber](element-uap-voipdialphonenumber.md)</td>
+<td><a href="element-uap-voipdialphonenumber.md">uap:VoipDialPhoneNumber</a> </td>
 <td><p>Indicates that the app supports dialing phone numbers.</p></td>
 </tr>
 </tbody>
@@ -110,7 +110,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:Extension](element-uap-extension.md)</td>
+<td><a href="element-uap-extension.md">uap:Extension</a> </td>
 <td><p>Declares an extensibility point for the app.</p></td>
 </tr>
 </tbody>

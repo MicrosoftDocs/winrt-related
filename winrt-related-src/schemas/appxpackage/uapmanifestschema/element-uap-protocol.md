@@ -146,11 +146,11 @@ Declares an app extensibility point of type **windows.protocol**. A URI associat
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:DisplayName](element-1-uap-displayname.md)</td>
+<td><a href="element-1-uap-displayname.md">uap:DisplayName</a> </td>
 <td><p>A friendly name that can be displayed to users.</p></td>
 </tr>
 <tr class="even">
-<td>[uap:Logo](element-1-uap-logo.md)</td>
+<td><a href="element-1-uap-logo.md">uap:Logo</a> </td>
 <td><p>A path to a file that contains an image.</p></td>
 </tr>
 </tbody>
@@ -173,7 +173,7 @@ Declares an app extensibility point of type **windows.protocol**. A URI associat
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:Extension](element-uap-extension.md)</td>
+<td><a href="element-uap-extension.md">uap:Extension</a> </td>
 <td><p>Declares an extensibility point for the app.</p></td>
 </tr>
 </tbody>

@@ -61,7 +61,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[TrustedDomain](element-trusteddomain.md)</td>
+<td><a href="element-trusteddomain.md">TrustedDomain</a> </td>
 <td><p>A host name that is trusted for providing credentials over HTTPS. Can be either a fully qualified name (such as <em>hotspot.contoso.com</em>) or a wildcard to refer to all hosts under the given domain name (such as <em>.contoso.com</em>).</p></td>
 </tr>
 </tbody>
@@ -84,8 +84,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[HotspotProfile](element-hotspotprofile.md)</td>
-<td><p>Defines the properties and login credentials for a Wi-Fi hotspot. [<strong>HotspotProfile</strong>](element-hotspotprofile.md) is the unique root element of a Wi-Fi hotspot profile that uses the Wireless Internet Service Provider roaming (WISPr) protocol.</p></td>
+<td><a href="element-hotspotprofile.md">HotspotProfile</a> </td>
+<td><p>Defines the properties and login credentials for a Wi-Fi hotspot. <a href="element-hotspotprofile.md"><strong>HotspotProfile</strong></a>  is the unique root element of a Wi-Fi hotspot profile that uses the Wireless Internet Service Provider roaming (WISPr) protocol.</p></td>
 </tr>
 </tbody>
 </table>

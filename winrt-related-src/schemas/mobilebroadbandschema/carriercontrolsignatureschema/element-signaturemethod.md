@@ -98,8 +98,8 @@ Defines the algorithm used to generate the signature thumbprint in [**SignatureV
 </thead>
 <tbody>
 <tr class="odd">
-<td>[HMACOutputLength](element-hmacoutputlength.md)</td>
-<td><p>Defines the length, in bits, of the [<strong>SignatureValue</strong>](element-signaturevalue.md) element as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-hmacoutputlength.md">HMACOutputLength</a> </td>
+<td><p>Defines the length, in bits, of the <a href="element-signaturevalue.md"><strong>SignatureValue</strong></a>  element as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>
@@ -121,8 +121,8 @@ Defines the algorithm used to generate the signature thumbprint in [**SignatureV
 </thead>
 <tbody>
 <tr class="odd">
-<td>[SignedInfo](element-signedinfo.md)</td>
-<td><p>Defines all signed content within the signature as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-signedinfo.md">SignedInfo</a> </td>
+<td><p>Defines all signed content within the signature as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> .</p></td>
 </tr>
 </tbody>
 </table>

@@ -80,63 +80,63 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[CUSTOM](element-custom.md)</td>
+<td><a href="element-custom.md">CUSTOM</a> </td>
 <td><p>Defines a custom protocol used for mobile network data.</p></td>
 </tr>
 <tr class="even">
-<td>[EDGE](element-edge.md)</td>
+<td><a href="element-edge.md">EDGE</a> </td>
 <td><p>Defines the Enhanced Data rates for the GSM Evolution (EDGE) protocol used for mobile network data.</p></td>
 </tr>
 <tr class="odd">
-<td>[GPRS](element-gprs.md)</td>
+<td><a href="element-gprs.md">GPRS</a> </td>
 <td><p>Defines the general packet radio service (GPRS) protocol used for mobile network data.</p></td>
 </tr>
 <tr class="even">
-<td>[HSDPA](element-hsdpa.md)</td>
+<td><a href="element-hsdpa.md">HSDPA</a> </td>
 <td><p>Defines the High-Speed Downlink Packet Access (HSDPA) protocol used for mobile network data.</p></td>
 </tr>
 <tr class="odd">
-<td>[HSUPA](element-hsupa.md)</td>
+<td><a href="element-hsupa.md">HSUPA</a> </td>
 <td><p>Defines the High-Speed Uplink Packet Access (HSUPA) protocol used for mobile network data.</p></td>
 </tr>
 <tr class="even">
-<td>[LTE](element-lte.md)</td>
+<td><a href="element-lte.md">LTE</a> </td>
 <td><p>Defines the Long Term Evolution (LTE) standard used for mobile network data.</p></td>
 </tr>
 <tr class="odd">
-<td>[NONE](element-none.md)</td>
+<td><a href="element-none.md">NONE</a> </td>
 <td><p>No mobile broadband network Data Class is available.</p></td>
 </tr>
 <tr class="even">
-<td>[ONEXEVDO](element-onexevdo.md)</td>
+<td><a href="element-onexevdo.md">ONEXEVDO</a> </td>
 <td><p>Defines the Enhanced Voice-Data Optimized (EVDO) standard used for mobile network data.</p></td>
 </tr>
 <tr class="odd">
-<td>[ONEXEVDO_REVA](element-onexevdo-reva.md)</td>
+<td><a href="element-onexevdo-reva.md">ONEXEVDO_REVA</a> </td>
 <td><p>Defines the Enhanced Voice-Data Optimized (EVDO) Revision A (Rev. A) standard used for mobile network data.</p></td>
 </tr>
 <tr class="even">
-<td>[ONEXEVDO_REVB](element-onexevdo-revb.md)</td>
+<td><a href="element-onexevdo-revb.md">ONEXEVDO_REVB</a> </td>
 <td><p>Defines the Enhanced Voice-Data Optimized (EVDO) Revision B (Rev. B) standard used for mobile network data.</p></td>
 </tr>
 <tr class="odd">
-<td>[ONEXEVDV](element-onexevdv.md)</td>
+<td><a href="element-onexevdv.md">ONEXEVDV</a> </td>
 <td><p>Defines the 1x Evolution-Data and Voice (1xEV-DV) standards used for mobile network data.</p></td>
 </tr>
 <tr class="even">
-<td>[ONEXRTT](element-onexrtt.md)</td>
+<td><a href="element-onexrtt.md">ONEXRTT</a> </td>
 <td><p>Defines the 1x Radio Transmission Technology (1xRTT) standards used for mobile network data.</p></td>
 </tr>
 <tr class="odd">
-<td>[THREEXRTT](element-threexrtt.md)</td>
+<td><a href="element-threexrtt.md">THREEXRTT</a> </td>
 <td><p>Defines the 3X Radio Transmission Technology (3xRTT) standard used for mobile network data.</p></td>
 </tr>
 <tr class="even">
-<td>[UMB](element-umb.md)</td>
+<td><a href="element-umb.md">UMB</a> </td>
 <td><p>Defines the Ultra Mobile Broadband (UMB) system used for mobile network data.</p></td>
 </tr>
 <tr class="odd">
-<td>[UMTS](element-umts.md)</td>
+<td><a href="element-umts.md">UMTS</a> </td>
 <td><p>Defines the Universal Mobile Telecommunications System (UMTS) protocol used for mobile network data based on the GSM standard.</p></td>
 </tr>
 </tbody>
@@ -159,7 +159,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[CarrierNetworkMetadata](element-carriernetworkmetadata.md)</td>
+<td><a href="element-carriernetworkmetadata.md">CarrierNetworkMetadata</a> </td>
 <td><p>Defines the network properties and settings in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>

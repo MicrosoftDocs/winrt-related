@@ -106,7 +106,7 @@ Declares an app extensibility point of type **windows.appExtension**. This eleme
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>uap3:Extension</strong>](element-uap3-extension-manual.md)</td>
+<td><a href="element-uap3-extension-manual.md"><strong>uap3:Extension</strong></a> </td>
 <td><p>Declares an extensibility point for the app.</p></td>
 </tr>
 </tbody>

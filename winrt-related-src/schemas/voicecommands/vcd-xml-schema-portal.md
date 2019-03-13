@@ -35,11 +35,11 @@ Reference documentation for the XML markup elements and attributes used in Voice
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>[VCD elements and attributes v1.1](voice-command-elements-and-attributes-1-1.md)</p></td>
+<td><p><a href="voice-command-elements-and-attributes-1-1.md">VCD elements and attributes v1.1</a> </p></td>
 <td><p>Version 1.1 of the voice command schema used in VCD files to specify recognition constraints.</p></td>
 </tr>
 <tr class="even">
-<td><p>[VCD elements and attributes v1.2](voice-command-elements-and-attributes-1-2.md)</p></td>
+<td><p><a href="voice-command-elements-and-attributes-1-2.md">VCD elements and attributes v1.2</a> </p></td>
 <td><p>Version 1.2 of the voice command schema used in VCD files to specify recognition constraints.</p></td>
 </tr>
 </tbody>

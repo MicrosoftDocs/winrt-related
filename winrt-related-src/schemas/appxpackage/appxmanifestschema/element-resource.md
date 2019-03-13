@@ -60,7 +60,7 @@ Declares a language for resources contained in the package.
 <tbody>
 <tr class="odd">
 <td><strong>Language</strong></td>
-<td><p>The language for resources contained in the package. The syntax of this attribute is defined by the IETF's [BCP47: Tags for Identifying Languages](https://www.rfc-editor.org/rfc/bcp/bcp47.txt).</p></td>
+<td><p>The language for resources contained in the package. The syntax of this attribute is defined by the IETF's <a href="https://www.rfc-editor.org/rfc/bcp/bcp47.txt">BCP47: Tags for Identifying Languages</a> .</p></td>
 <td>language</td>
 <td>Yes</td>
 <td></td>
@@ -89,7 +89,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Resources](element-resources.md)</td>
+<td><a href="element-resources.md">Resources</a> </td>
 <td><p>Declares languages for the resources that the package contains. Every package must declare at least one language for resources.</p></td>
 </tr>
 </tbody>

@@ -75,8 +75,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[RSAKeyValue](element-rsakeyvalue.md)</td>
-<td><p>Defines a RSA public key as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-rsakeyvalue.md">RSAKeyValue</a> </td>
+<td><p>Defines a RSA public key as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> .</p></td>
 </tr>
 </tbody>
 </table>

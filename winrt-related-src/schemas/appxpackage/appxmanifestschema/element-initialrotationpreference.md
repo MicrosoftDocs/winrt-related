@@ -80,7 +80,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Rotation](element-rotation.md)</td>
+<td><a href="element-rotation.md">Rotation</a> </td>
 <td><p>Specifies a single rotational orientation in which an app will display.</p></td>
 </tr>
 </tbody>
@@ -103,7 +103,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[VisualElements](element-visualelements.md)</td>
+<td><a href="element-visualelements.md">VisualElements</a> </td>
 <td><p>Describes the visual aspects of the UWP app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance.</p></td>
 </tr>
 </tbody>

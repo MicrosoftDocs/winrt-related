@@ -32,15 +32,15 @@ Most of these APIs are implemented by all Windows 10 devices, and that set is l
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>[APIs present on all Windows 10 devices](win32-apis.md)</p></td>
+<td><p><a href="win32-apis.md">APIs present on all Windows 10 devices</a> </p></td>
 <td><p>This topic lists the Win32 APIs that are part of the UWP and that are implemented by all Windows 10 devices. For convenience, an umbrella library named WindowsApp.lib is provided in the Microsoft Windows Software Development Kit (SDK), which provides the exports for this set of Win32 APIs. Link your app with WindowsApp.lib (and no other libraries) to access these APIs.</p></td>
 </tr>
 <tr class="even">
-<td><p>[Extension APIs for Windows 10 devices](win32-extension-apis.md)</p></td>
-<td><p>This topic lists the Win32 and COM APIs that are part of the UWP and that are implemented by some Windows 10 devices, so your calls to these APIs must be guarded with conditions that first confirm the presence of the API on the device your app is running on. The union of [APIs present on all Windows 10 devices](win32-apis.md) and the APIs listed in this topic make up the entire Win32 and COM surface area of UWP.</p></td>
+<td><p><a href="win32-extension-apis.md">Extension APIs for Windows 10 devices</a> </p></td>
+<td><p>This topic lists the Win32 and COM APIs that are part of the UWP and that are implemented by some Windows 10 devices, so your calls to these APIs must be guarded with conditions that first confirm the presence of the API on the device your app is running on. The union of <a href="win32-apis.md">APIs present on all Windows 10 devices</a>  and the APIs listed in this topic make up the entire Win32 and COM surface area of UWP.</p></td>
 </tr>
 <tr class="odd">
-<td><p>[Alternatives to Windows APIs in Windows 10 UWP apps](alternatives-to-windows-apis-uwp.md)</p></td>
+<td><p><a href="alternatives-to-windows-apis-uwp.md">Alternatives to Windows APIs in Windows 10 UWP apps</a> </p></td>
 <td><p>Learn which features of the Windows API can be used in a UWP app and which APIs to use as alternatives for those that cannot.</p></td>
 </tr>
 </tbody>

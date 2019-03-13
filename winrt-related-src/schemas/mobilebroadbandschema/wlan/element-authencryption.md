@@ -75,15 +75,15 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[authentication](element-authentication.md)</td>
+<td><a href="element-authentication.md">authentication</a> </td>
 <td><p>Defines the authentication method to be used by this profile to connect to a WLAN.</p></td>
 </tr>
 <tr class="even">
-<td>[encryption](element-encryption.md)</td>
+<td><a href="element-encryption.md">encryption</a> </td>
 <td><p>Defines the type of data encryption to be used by this profile to connect to a WLAN.</p></td>
 </tr>
 <tr class="odd">
-<td>[useOneX](element-useonex.md)</td>
+<td><a href="element-useonex.md">useOneX</a> </td>
 <td><p>If <strong>true</strong>, 802.1X authentication is to be used by this profile to connect to the WLAN. Otherwise, <strong>false</strong>.</p></td>
 </tr>
 </tbody>
@@ -106,7 +106,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[security](element-security.md)</td>
+<td><a href="element-security.md">security</a> </td>
 <td><p>Defines various security settings for this profile on a WLAN.</p></td>
 </tr>
 </tbody>

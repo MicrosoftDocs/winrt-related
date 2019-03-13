@@ -73,11 +73,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[IssuerName](element-issuername.md)</td>
+<td><a href="element-issuername.md">IssuerName</a> </td>
 <td><p>Defines the issuer name of the trusted certificate.</p></td>
 </tr>
 <tr class="even">
-<td>[SubjectName](element-subjectname.md)</td>
+<td><a href="element-subjectname.md">SubjectName</a> </td>
 <td><p>Defines the subject name of the trusted certificate.</p></td>
 </tr>
 </tbody>
@@ -100,7 +100,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[TrustedCertificates](element-trustedcertificates.md)</td>
+<td><a href="element-trustedcertificates.md">TrustedCertificates</a> </td>
 <td><p>Defines the list of trusted security certificates required for provisioning on the mobile network.</p></td>
 </tr>
 </tbody>

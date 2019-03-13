@@ -99,7 +99,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[PublisherCacheFolders](element-publishercachefolders.md)</td>
+<td><a href="element-publishercachefolders.md">PublisherCacheFolders</a> </td>
 <td><p>Declares a package extensibility point of type <strong>windows.publisherCacheFolders</strong>. This specifies one or more folders that the package shares with other packages from the same publisher.</p></td>
 </tr>
 </tbody>

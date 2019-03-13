@@ -32,15 +32,15 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Block](element-block.md)</td>
+<td><a href="element-block.md">Block</a> </td>
 <td><p>Represents a block of binary data contained in a file.</p></td>
 </tr>
 <tr class="even">
-<td>[BlockMap](element-blockmap.md)</td>
-<td><p>Defines the root element of the app package block map. The [<strong>BlockMap</strong>](element-blockmap.md) element specifies the algorithm that is used to compute cryptographic hashes and contains a sequence of [<strong>File</strong>](element-file.md) child elements that are associated with each file that is stored in the package.</p></td>
+<td><a href="element-blockmap.md">BlockMap</a> </td>
+<td><p>Defines the root element of the app package block map. The <a href="element-blockmap.md"><strong>BlockMap</strong></a>  element specifies the algorithm that is used to compute cryptographic hashes and contains a sequence of [<strong>File</strong>](element-file.md) child elements that are associated with each file that is stored in the package.</p></td>
 </tr>
 <tr class="odd">
-<td>[File](element-file.md)</td>
+<td><a href="element-file.md">File</a> </td>
 <td><p>Represents a file contained in the package.</p></td>
 </tr>
 </tbody>

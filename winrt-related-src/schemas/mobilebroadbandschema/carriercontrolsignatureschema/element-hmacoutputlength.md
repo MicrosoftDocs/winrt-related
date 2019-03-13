@@ -70,8 +70,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[SignatureMethod](element-signaturemethod.md)</td>
-<td><p>Defines the algorithm used to generate the signature thumbprint in [<strong>SignatureValue</strong>](element-signaturevalue.md) as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-signaturemethod.md">SignatureMethod</a> </td>
+<td><p>Defines the algorithm used to generate the signature thumbprint in <a href="element-signaturevalue.md"><strong>SignatureValue</strong></a>  as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
 </tr>
 </tbody>
 </table>

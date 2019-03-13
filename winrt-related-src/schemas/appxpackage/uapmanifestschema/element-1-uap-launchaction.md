@@ -126,7 +126,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:AutoPlayDevice](element-uap-autoplaydevice.md)</td>
+<td><a href="element-uap-autoplaydevice.md">uap:AutoPlayDevice</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.autoPlayDevice</strong>. The app provides the specified AutoPlay device actions.</p></td>
 </tr>
 </tbody>

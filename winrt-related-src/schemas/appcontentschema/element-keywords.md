@@ -62,8 +62,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Keyword](element-keyword.md)</td>
-<td><p>A one of the [System.Keywords](https://msdn.microsoft.com/library/windows/desktop/bb787519) that describes the item.</p></td>
+<td><a href="element-keyword.md">Keyword</a> </td>
+<td><p>A one of the <a href="https://msdn.microsoft.com/library/windows/desktop/bb787519">System.Keywords</a>  that describes the item.</p></td>
 </tr>
 </tbody>
 </table>
@@ -85,7 +85,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Properties](element-properties.md)</td>
+<td><a href="element-properties.md">Properties</a> </td>
 <td><p>Contains properties that describe the item to the Windows Search Index.</p></td>
 </tr>
 </tbody>

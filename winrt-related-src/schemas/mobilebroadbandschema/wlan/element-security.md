@@ -75,35 +75,35 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[PMKCacheMode](element-pmkcachemode.md)</td>
+<td><a href="element-pmkcachemode.md">PMKCacheMode</a> </td>
 <td><p>Defines whether Pairwise Master Key (PMK) caching is to be used by this profile to connect to a WLAN.</p></td>
 </tr>
 <tr class="even">
-<td>[PMKCacheSize](element-pmkcachesize.md)</td>
+<td><a href="element-pmkcachesize.md">PMKCacheSize</a> </td>
 <td><p>Defines the number of entries in the Pairwise Master Key (PMK) cache on the client. Must be a value between 1 and 255 inclusive.</p></td>
 </tr>
 <tr class="odd">
-<td>[PMKCacheTTL](element-pmkcachettl.md)</td>
+<td><a href="element-pmkcachettl.md">PMKCacheTTL</a> </td>
 <td><p>Defines the length of time, in minutes, that a Pairwise Master Key (PMK) cache will be kept. Must be a value between 5 and 1440 inclusive.</p></td>
 </tr>
 <tr class="even">
-<td>[authEncryption](element-authencryption.md)</td>
+<td><a href="element-authencryption.md">authEncryption</a> </td>
 <td><p>Defines the authentication and encryption pair to be used for this profile on a WLAN.</p></td>
 </tr>
 <tr class="odd">
-<td>[keyIndex](element-keyindex.md)</td>
-<td><p>Defines which key index should be used to encrypt wireless traffic. [<strong>keyIndex</strong>](element-keyindex.md) is only used when [<strong>keyType</strong>](element-keytype.md) is <strong>networkKey</strong>. The default value is 0 when [<strong>sharedKey</strong>](element-sharedkey.md) is present. Must be a value between 0 and 3 inclusive.</p></td>
+<td><a href="element-keyindex.md">keyIndex</a> </td>
+<td><p>Defines which key index should be used to encrypt wireless traffic. <a href="element-keyindex.md"><strong>keyIndex</strong></a>  is only used when [<strong>keyType</strong>](element-keytype.md) is <strong>networkKey</strong>. The default value is 0 when [<strong>sharedKey</strong>](element-sharedkey.md) is present. Must be a value between 0 and 3 inclusive.</p></td>
 </tr>
 <tr class="even">
-<td>[preAuthMode](element-preauthmode.md)</td>
+<td><a href="element-preauthmode.md">preAuthMode</a> </td>
 <td><p>Defines whether pre-authentication will be used by the client.</p></td>
 </tr>
 <tr class="odd">
-<td>[preAuthThrottle](element-preauththrottle.md)</td>
+<td><a href="element-preauththrottle.md">preAuthThrottle</a> </td>
 <td><p>Defines the number of pre-authentication attempts to try on neighboring access points (AP). Must be a value between 1 and 16 inclusive.</p></td>
 </tr>
 <tr class="even">
-<td>[sharedKey](element-sharedkey.md)</td>
+<td><a href="element-sharedkey.md">sharedKey</a> </td>
 <td><p>Defines optional shared key information to be used by this profile to connect to a WLAN.</p></td>
 </tr>
 </tbody>
@@ -126,7 +126,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[MSM](element-msm.md)</td>
+<td><a href="element-msm.md">MSM</a> </td>
 <td><p>Defines various media-specific module (MSM) settings for this profile on a WLAN.</p></td>
 </tr>
 </tbody>

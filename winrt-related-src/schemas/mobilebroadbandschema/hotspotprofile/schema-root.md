@@ -150,63 +150,63 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </thead>
 <tbody>
 <tr class="odd">
-<td>[BasicAuth](element-basicauth.md)</td>
-<td><p>Contains the user name and password required for WISPr authentication. Using [<strong>BasicAuth</strong>](element-basicauth.md) allows a static set of credentials to be used; use [<strong>ExtAuth</strong>](element-extauth.md) to have an app generate credentials for WISPr authentication.</p></td>
+<td><a href="element-basicauth.md">BasicAuth</a> </td>
+<td><p>Contains the user name and password required for WISPr authentication. Using <a href="element-basicauth.md"><strong>BasicAuth</strong></a>  allows a static set of credentials to be used; use [<strong>ExtAuth</strong>](element-extauth.md) to have an app generate credentials for WISPr authentication.</p></td>
 </tr>
 <tr class="even">
-<td>[ExtAuth](element-extauth.md)</td>
-<td><p>Contains the parameters for handling WISPr authentication through an app (rather than specifying a static user name and password via [<strong>BasicAuth</strong>](element-basicauth.md)).</p></td>
+<td><a href="element-extauth.md">ExtAuth</a> </td>
+<td><p>Contains the parameters for handling WISPr authentication through an app (rather than specifying a static user name and password via <a href="element-basicauth.md"><strong>BasicAuth</strong></a> ).</p></td>
 </tr>
 <tr class="odd">
-<td>[ExtensionId](element-extensionid.md)</td>
+<td><a href="element-extensionid.md">ExtensionId</a> </td>
 <td><p>The package family name of the app that will be invoked to handle the WISPr authentication.</p></td>
 </tr>
 <tr class="even">
-<td>[HotspotProfile](element-hotspotprofile.md)</td>
-<td><p>Defines the properties and login credentials for a Wi-Fi hotspot. [<strong>HotspotProfile</strong>](element-hotspotprofile.md) is the unique root element of a Wi-Fi hotspot profile that uses the Wireless Internet Service Provider roaming (WISPr) protocol.</p></td>
+<td><a href="element-hotspotprofile.md">HotspotProfile</a> </td>
+<td><p>Defines the properties and login credentials for a Wi-Fi hotspot. <a href="element-hotspotprofile.md"><strong>HotspotProfile</strong></a>  is the unique root element of a Wi-Fi hotspot profile that uses the Wireless Internet Service Provider roaming (WISPr) protocol.</p></td>
 </tr>
 <tr class="odd">
-<td>[Password](element-password.md)</td>
+<td><a href="element-password.md">Password</a> </td>
 <td><p>Password to be used for WISPr authentication.</p></td>
 </tr>
 <tr class="even">
-<td>[SSID](element-ssid.md)</td>
+<td><a href="element-ssid.md">SSID</a> </td>
 <td><p>An additional SSID handled by this profile.</p></td>
 </tr>
 <tr class="odd">
-<td>[SSIDConfig](element-ssidconfig.md)</td>
+<td><a href="element-ssidconfig.md">SSIDConfig</a> </td>
 <td><p>Contains a set of additional SSIDs that are handled by this profile to reduce the number of SSIDs in the WLAN profile store. Windows will not connect to these SSIDs until a user manually connects once. The newly-created profile will inherit the HotspotAuth settings from this profile.</p></td>
 </tr>
 <tr class="even">
-<td>[TrustedDomain](element-trusteddomain.md)</td>
+<td><a href="element-trusteddomain.md">TrustedDomain</a> </td>
 <td><p>A host name that is trusted for providing credentials over HTTPS. Can be either a fully qualified name (such as <em>hotspot.contoso.com</em>) or a wildcard to refer to all hosts under the given domain name (such as <em>.contoso.com</em>).</p></td>
 </tr>
 <tr class="odd">
-<td>[TrustedDomains](element-trusteddomains.md)</td>
+<td><a href="element-trusteddomains.md">TrustedDomains</a> </td>
 <td><p>Contains a set of one or more host names that are trusted for providing credentials over HTTPS. Can be either a fully qualified name (such as <em>hotspot.contoso.com</em>) or a wildcard to refer to all hosts under the given domain name (such as <em>.contoso.com</em>).</p></td>
 </tr>
 <tr class="even">
-<td>[UserAgent](element-useragent.md)</td>
+<td><a href="element-useragent.md">UserAgent</a> </td>
 <td><p>Customized HTTP user agent string to support operator-specific user agent filtering. This element is optional.</p></td>
 </tr>
 <tr class="odd">
-<td>[UserName](element-username.md)</td>
+<td><a href="element-username.md">UserName</a> </td>
 <td><p>User name to be used for WISPr authentication.</p></td>
 </tr>
 <tr class="even">
-<td>[hex](element-hex.md)</td>
+<td><a href="element-hex.md">hex</a> </td>
 <td><p>Defines the SSID of a wireless LAN in hexadecimal format.</p></td>
 </tr>
 <tr class="odd">
-<td>[hexPrefix](element-hexprefix.md)</td>
+<td><a href="element-hexprefix.md">hexPrefix</a> </td>
 <td><p>Defines a class of wireless LANs whose SSIDs begin with the bytes provided.</p></td>
 </tr>
 <tr class="even">
-<td>[name](element-name.md)</td>
+<td><a href="element-name.md">name</a> </td>
 <td><p>Defines the SSID of a wireless LAN in alphanumeric format.</p></td>
 </tr>
 <tr class="odd">
-<td>[namePrefix](element-nameprefix.md)</td>
+<td><a href="element-nameprefix.md">namePrefix</a> </td>
 <td><p>Defines a class of wireless LANs whose SSIDs begin with the characters provided.</p></td>
 </tr>
 </tbody>

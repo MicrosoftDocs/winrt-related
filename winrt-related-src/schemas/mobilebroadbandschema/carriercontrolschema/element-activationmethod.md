@@ -65,7 +65,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Activation](element-activation.md)</td>
+<td><a href="element-activation.md">Activation</a> </td>
 <td><p>Defines information for a subscriber's activation method on a Mobile Network Operator's (MNO) network.</p></td>
 </tr>
 </tbody>

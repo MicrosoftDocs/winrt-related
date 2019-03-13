@@ -66,7 +66,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[TrustedCertificate](element-trustedcertificate.md)</td>
+<td><a href="element-trustedcertificate.md">TrustedCertificate</a> </td>
 <td><p>Defines the Subject and Issuer fields from a trustworthy X.509 certificate.</p></td>
 </tr>
 </tbody>
@@ -89,7 +89,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Provisioning](element-provisioning.md)</td>
+<td><a href="element-provisioning.md">Provisioning</a> </td>
 <td><p>Defines parameters used to establish trust and refresh settings for future provisioning attempts.</p></td>
 </tr>
 </tbody>

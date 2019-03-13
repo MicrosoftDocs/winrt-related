@@ -57,8 +57,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ActivationMethod](element-activationmethod.md)</td>
-<td><p>Defines an instance of the [<strong>ActivationMethod</strong>](https://msdn.microsoft.com/library/windows/apps/hh868442) element from the [<strong>WWAN</strong>](https://msdn.microsoft.com/library/windows/apps/hh868486) schema.</p></td>
+<td><a href="element-activationmethod.md">ActivationMethod</a> </td>
+<td><p>Defines an instance of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868442"><strong>ActivationMethod</strong></a>  element from the [<strong>WWAN</strong>](https://msdn.microsoft.com/library/windows/apps/hh868486) schema.</p></td>
 </tr>
 </tbody>
 </table>
@@ -80,8 +80,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[CarrierProvisioning](element-carrierprovisioning.md)</td>
-<td><p>Defines the properties and settings in a subscriber's carrier provisioning file. [<strong>CarrierProvisioning</strong>](element-carrierprovisioning.md) is the unique root element of the provisioning file.</p></td>
+<td><a href="element-carrierprovisioning.md">CarrierProvisioning</a> </td>
+<td><p>Defines the properties and settings in a subscriber's carrier provisioning file. <a href="element-carrierprovisioning.md"><strong>CarrierProvisioning</strong></a>  is the unique root element of the provisioning file.</p></td>
 </tr>
 </tbody>
 </table>

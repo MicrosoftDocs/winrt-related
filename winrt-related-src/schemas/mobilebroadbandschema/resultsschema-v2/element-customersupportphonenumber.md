@@ -89,8 +89,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[CarrierNetworkMetadata](element-carriernetworkmetadata.md)</td>
-<td><p>Contains any errors from processing the [<strong>CarrierNetworkMetadata</strong>](https://msdn.microsoft.com/library/windows/apps/dn393998) element from the last provisioning attempt.</p></td>
+<td><a href="element-carriernetworkmetadata.md">CarrierNetworkMetadata</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn393998"><strong>CarrierNetworkMetadata</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>

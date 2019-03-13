@@ -36,15 +36,15 @@ These XML schemas enable app developers to update tiles and badges, and specify 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>[Tile schema](tilesschema/schema-root.md)</p></td>
+<td><p><a href="tilesschema/schema-root.md">Tile schema</a> </p></td>
 <td><p>These elements are used to define a tile update, and specify the template, images, and text that are used to customize the tile, branding specifics, and language information.</p></td>
 </tr>
 <tr class="even">
-<td><p>[Toast schema](toastschema/schema-root.md)</p></td>
+<td><p><a href="toastschema/schema-root.md">Toast schema</a> </p></td>
 <td><p>These elements are used to define a toast notification, and specify the template, images, audio, and text that compose the toast content, branding specifics, and language information.</p></td>
 </tr>
 <tr class="odd">
-<td><p>[Badge schema](badgeschema/schema-root.md)</p></td>
+<td><p><a href="badgeschema/schema-root.md">Badge schema</a> </p></td>
 <td><p>An element used to specify the value of a badge.</p></td>
 </tr>
 </tbody>

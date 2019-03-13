@@ -104,7 +104,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[UserLogonCred](element-userlogoncred.md)</td>
+<td><a href="element-userlogoncred.md">UserLogonCred</a> </td>
 <td><p>Defines the user login credentials for a context in the Packet Data Protocol (PDP) context policy.</p></td>
 </tr>
 </tbody>
