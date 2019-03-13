@@ -75,7 +75,7 @@ Defines a MNO formatted message that contains the parsing rules necessary for Wi
 <tbody>
 <tr class="odd">
 <td><strong>RuleId</strong></td>
-<td><p>The MNO defined rule ID for this message that is passed back within a [<strong>NetworkOperatorNotificationEventDetails</strong>](https://msdn.microsoft.com/library/windows/apps/br207377) event for message identification.</p></td>
+<td><p>The MNO defined rule ID for this message that is passed back within a <a href="https://msdn.microsoft.com/library/windows/apps/br207377"><strong>NetworkOperatorNotificationEventDetails</strong></a>  event for message identification.</p></td>
 <td>token</td>
 <td>No</td>
 <td></td>
@@ -107,27 +107,27 @@ Defines a MNO formatted message that contains the parsing rules necessary for Wi
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Fields](element-fields.md)</td>
+<td><a href="element-fields.md">Fields</a> </td>
 <td><p>Defines values that describe the subscriber's plan and data usage.</p></td>
 </tr>
 <tr class="even">
-<td>[Locale](element-locale.md)</td>
+<td><a href="element-locale.md">Locale</a> </td>
 <td><p>Defines the message country code in the form &quot;en-us&quot; using ISO-3166.</p></td>
 </tr>
 <tr class="odd">
-<td>[Pattern](element-pattern.md)</td>
+<td><a href="element-pattern.md">Pattern</a> </td>
 <td><p>Defines a regular expression describing the contents of the decoded human-readable message.</p></td>
 </tr>
 <tr class="even">
-<td>[SMSBearer](element-smsbearer.md)</td>
+<td><a href="element-smsbearer.md">SMSBearer</a> </td>
 <td><p>Defines bearer types allowed for SMS messages.</p></td>
 </tr>
 <tr class="odd">
-<td>[USSDBearer](element-ussdbearer.md)</td>
+<td><a href="element-ussdbearer.md">USSDBearer</a> </td>
 <td><p>Defines bearer types allowed for USSD messages.</p></td>
 </tr>
 <tr class="even">
-<td>[Units](element-units.md)</td>
+<td><a href="element-units.md">Units</a> </td>
 <td><p>Defines how to interpret the unit fields corresponding to each number field. Carriers may specify a whitespace-delimited list of tokens corresponding to each of the supported multipliers.</p></td>
 </tr>
 </tbody>
@@ -150,7 +150,7 @@ Defines a MNO formatted message that contains the parsing rules necessary for Wi
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Messages](element-messages.md)</td>
+<td><a href="element-messages.md">Messages</a> </td>
 <td><p>Contains a set of MNO messages that are parsed by Windows 8 and may be signaled to the user.</p></td>
 </tr>
 </tbody>

@@ -66,19 +66,19 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[hex](element-hex.md)</td>
+<td><a href="element-hex.md">hex</a> </td>
 <td><p>Defines the SSID of a wireless LAN in hexadecimal format.</p></td>
 </tr>
 <tr class="even">
-<td>[hexPrefix](element-hexprefix.md)</td>
+<td><a href="element-hexprefix.md">hexPrefix</a> </td>
 <td><p>Defines a class of wireless LANs whose SSIDs begin with the bytes provided.</p></td>
 </tr>
 <tr class="odd">
-<td>[name](element-name.md)</td>
+<td><a href="element-name.md">name</a> </td>
 <td><p>Defines the SSID of a wireless LAN in alphanumeric format.</p></td>
 </tr>
 <tr class="even">
-<td>[namePrefix](element-nameprefix.md)</td>
+<td><a href="element-nameprefix.md">namePrefix</a> </td>
 <td><p>Defines a class of wireless LANs whose SSIDs begin with the characters provided.</p></td>
 </tr>
 </tbody>
@@ -101,7 +101,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[SSIDConfig](element-ssidconfig.md)</td>
+<td><a href="element-ssidconfig.md">SSIDConfig</a> </td>
 <td><p>Contains a set of additional SSIDs that are handled by this profile to reduce the number of SSIDs in the WLAN profile store. Windows will not connect to these SSIDs until a user manually connects once. The newly-created profile will inherit the HotspotAuth settings from this profile.</p></td>
 </tr>
 </tbody>

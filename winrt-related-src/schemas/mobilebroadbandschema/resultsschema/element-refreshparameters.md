@@ -94,8 +94,8 @@ Contains any errors from processing the [**RefreshParameters**](https://msdn.mic
 </thead>
 <tbody>
 <tr class="odd">
-<td>[NotificationSignatureKey](element-notificationsignaturekey.md)</td>
-<td><p>Contains any errors from processing the [<strong>KeyInfo</strong>](https://msdn.microsoft.com/library/windows/apps/hh868321) element from the last provisioning attempt.</p></td>
+<td><a href="element-notificationsignaturekey.md">NotificationSignatureKey</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868321"><strong>KeyInfo</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>
@@ -117,8 +117,8 @@ Contains any errors from processing the [**RefreshParameters**](https://msdn.mic
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Provisioning](element-provisioning.md)</td>
-<td><p>Contains any errors from processing the [<strong>Provisioning</strong>](https://msdn.microsoft.com/library/windows/apps/hh868300) element from the last provisioning attempt.</p></td>
+<td><a href="element-provisioning.md">Provisioning</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868300"><strong>Provisioning</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>

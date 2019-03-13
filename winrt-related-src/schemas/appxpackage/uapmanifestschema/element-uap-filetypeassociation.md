@@ -123,7 +123,7 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 </tr>
 <tr class="odd">
 <td><strong>desktop2:AllowSilentDefaultTakeOver</strong></td>
-<td><p>If set to **true**, the app will appear in an "Open With" list, but it won't be the default app for the file type.</p></td>
+<td><p>If set to <b>true</b>, the app will appear in an "Open With" list, but it won't be the default app for the file type.</p></td>
 <td>Boolean.</td>
 <td>No</td>
 <td></td>
@@ -162,57 +162,57 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:DisplayName](element-uap-displayname.md)</td>
+<td><a href="element-uap-displayname.md">uap:DisplayName</a> </td>
 <td><p>A friendly name that can be displayed to users.</p></td>
 </tr>
 <tr class="even">
-<td>[uap:EditFlags](element-uap-editflags.md)</td>
+<td><a href="element-uap-editflags.md">uap:EditFlags</a> </td>
 <td><p>Specifies the type of info the user sees when opening a file associated to the extensibility point.</p></td>
 </tr>
 <tr class="odd">
-<td>[uap:InfoTip](element-uap-infotip.md)</td>
+<td><a href="element-uap-infotip.md">uap:InfoTip</a> </td>
 <td><p>Defines a string that provides additional info to the user about the file type.</p></td>
 </tr>
 <tr class="even">
-<td>[uap:Logo](element-uap-logo.md)</td>
+<td><a href="element-uap-logo.md">uap:Logo</a> </td>
 <td><p>A path to a file that contains an image.</p></td>
 </tr>
 <tr class="odd">
-<td>[uap:SupportedFileTypes (type: CT_FTASupportedFileTypes)](element-uap-supportedfiletypes.md)</td>
+<td><a href="element-uap-supportedfiletypes.md">uap:SupportedFileTypes (type: CT_FTASupportedFileTypes)</a> </td>
 <td><p>Defines the file types associated with the app. They are unique per package and are case sensitive.</p></td>
 </tr>
 <tr class="even">
-<td>[uap2:SupportedVerbs](element-uap2-supportedverbs.md)</td>
+<td><a href="element-uap2-supportedverbs.md">uap2:SupportedVerbs</a> </td>
 <td><p>Contains verbs for a file context menu.</p></td>
 </tr>
 <tr class="even">
-<td>[uap4:KindMap](element-uap4-kindmap.md)</td>
+<td><a href="element-uap4-kindmap.md">uap4:KindMap</a> </td>
 <td><p>Specifies what Kind is and how it's used.</p></td>
 </tr>
 <tr class="odd">
-<td>[rescap3:MigrationProgIds](element-rescap3-migrationprogids.md)</td>
+<td><a href="element-rescap3-migrationprogids.md">rescap3:MigrationProgIds</a> </td>
 <td><p>TODO</p></td>
 </tr>
 <tr class="even">
-<td>[desktop2:ThumbnailHandler](element-desktop2-ThumbnailHandler.md)</td>
+<td><a href="element-desktop2-ThumbnailHandler.md">desktop2:ThumbnailHandler</a> </td>
 <td><p>Enables a ThumbnailProvider for a file type association.</p></td>
 </tr>
 <tr class="odd">
-<td>[desktop2:OleClass](element-desktop2-oleclass.md)</td>
+<td><a href="element-desktop2-oleclass.md">desktop2:OleClass</a> </td>
 <td><p>Enables OLE to get the OLE class registered for a given file extension.</p></td>
 </tr>
 <tr class="even">
-<td>[desktop2:DesktopPreviewHandler](element-desktop2-DesktopPreviewHandler.md)</td>
+<td><a href="element-desktop2-DesktopPreviewHandler.md">desktop2:DesktopPreviewHandler</a> </td>
 <td><p>Enables declaration of a preview handler for a file type association.
 </p></td>
 </tr>
 <tr class="odd">
-<td>[desktop2:DesktopPropertyHandler](element-desktop2-DesktopPropertyHandler.md)</td>
+<td><a href="element-desktop2-DesktopPropertyHandler.md">desktop2:DesktopPropertyHandler</a> </td>
 <td><p>Enables declaration of a property handler for a file type association.
 </p></td>
 </tr>
 <tr class="even">
-<td>[desktop3:PropertyLists](element-desktop3-propertylists.md)</td>
+<td><a href="element-desktop3-propertylists.md">desktop3:PropertyLists</a> </td>
 <td><p>Contains a list of properties to show under the properties tab of a file.
 </p></td>
 </tr>
@@ -234,7 +234,7 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:Extension](element-uap-extension.md)</td>
+<td><a href="element-uap-extension.md">uap:Extension</a> </td>
 <td><p>Declares an extensibility point for the app.</p></td>
 </tr>
 </tbody>

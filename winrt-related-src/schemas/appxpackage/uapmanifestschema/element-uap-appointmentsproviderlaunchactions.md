@@ -121,8 +121,8 @@ Declares actions to take when a appointment is launched.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:LaunchAction (global)](element-2-uap-launchaction.md)</td>
-<td><p>Describes an [<strong>uap:AppointmentsProviderLaunchActions</strong>](element-uap-appointmentsproviderlaunchactions.md) content action.</p></td>
+<td><a href="element-2-uap-launchaction.md">uap:LaunchAction (global)</a> </td>
+<td><p>Describes an <a href="element-uap-appointmentsproviderlaunchactions.md"><strong>uap:AppointmentsProviderLaunchActions</strong></a>  content action.</p></td>
 </tr>
 </tbody>
 </table>
@@ -144,7 +144,7 @@ Declares actions to take when a appointment is launched.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:AppointmentsProvider](element-uap-appointmentsprovider.md)</td>
+<td><a href="element-uap-appointmentsprovider.md">uap:AppointmentsProvider</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.appointmentsProvider</strong>.</p></td>
 </tr>
 </tbody>

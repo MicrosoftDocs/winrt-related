@@ -146,7 +146,7 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 </tr>
 <tr class="even">
 <td><strong>ResourceGroup</strong></td>
-<td><p>A tag that you can use to group extension activations together for resource management purposes (for example, CPU and memory). The value you can set ResourceGroup is free-form and flexible. See [<strong>Application@ResourceGroup</strong>](element-application.md) and Remarks.</p></td>
+<td><p>A tag that you can use to group extension activations together for resource management purposes (for example, CPU and memory). The value you can set ResourceGroup is free-form and flexible. See <a href="element-application.md"><strong>Application@ResourceGroup</strong></a>  and Remarks.</p></td>
 <td>An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.</td>
 <td>No</td>
 <td></td>
@@ -185,55 +185,55 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:AppService](element-uap-appservice.md)</td>
+<td><a href="element-uap-appservice.md">uap:AppService</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.appService</strong>. Application Contracts are a way for an app to invoke a background task belonging to another app; or for a background task invoked to service an app contract a way to communicate with its caller.</p></td>
 </tr>
 <tr class="even">
-<td>[uap:AppointmentsProvider](element-uap-appointmentsprovider.md)</td>
+<td><a href="element-uap-appointmentsprovider.md">uap:AppointmentsProvider</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.appointmentsProvider</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td>[uap:AutoPlayContent](element-uap-autoplaycontent.md)</td>
+<td><a href="element-uap-autoplaycontent.md">uap:AutoPlayContent</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.autoPlayContent</strong>. The app provides the specified AutoPlay content actions.</p></td>
 </tr>
 <tr class="even">
-<td>[uap:AutoPlayDevice](element-uap-autoplaydevice.md)</td>
+<td><a href="element-uap-autoplaydevice.md">uap:AutoPlayDevice</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.autoPlayDevice</strong>. The app provides the specified AutoPlay device actions.</p></td>
 </tr>
 <tr class="odd">
-<td>[uap:DialProtocol](element-uap-dialprotocol.md)</td>
+<td><a href="element-uap-dialprotocol.md">uap:DialProtocol</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.dialProtocol</strong>.</p></td>
 </tr>
 <tr class="even">
-<td>[uap:FileOpenPicker](element-uap-fileopenpicker.md)</td>
+<td><a href="element-uap-fileopenpicker.md">uap:FileOpenPicker</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.fileOpenPicker</strong>. The app lets the user choose and open the specified types of files.</p></td>
 </tr>
 <tr class="odd">
-<td>[uap:FileSavePicker](element-uap-filesavepicker.md)</td>
+<td><a href="element-uap-filesavepicker.md">uap:FileSavePicker</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.fileSavePicker</strong>. The app lets the user choose the file name, extension, and storage location for the specified types of files.</p></td>
 </tr>
 <tr class="even">
-<td>[uap:FileTypeAssociation](element-uap-filetypeassociation.md)</td>
+<td><a href="element-uap-filetypeassociation.md">uap:FileTypeAssociation</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.fileTypeAssociation</strong>. A file type association indicates that the app is registered to handle files of the specified types.</p></td>
 </tr>
 <tr class="odd">
-<td>[uap:MediaPlayback](element-uap-mediaplayback.md)</td>
+<td><a href="element-uap-mediaplayback.md">uap:MediaPlayback</a> </td>
 <td><p>Declares an app extensibility point of type <strong>mediaPlayback</strong> so that your app can declare that it performs video transcoding.</p></td>
 </tr>
 <tr class="even">
-<td>[uap:Protocol](element-uap-protocol.md)</td>
+<td><a href="element-uap-protocol.md">uap:Protocol</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.protocol</strong>. A URI association indicates that the app is registered to handle URIs with the specified scheme.</p></td>
 </tr>
 <tr class="odd">
-<td>[uap:ShareTarget](element-uap-sharetarget.md)</td>
+<td><a href="element-uap-sharetarget.md">uap:ShareTarget</a> </td>
 <td><p>Declares an app extension point of type <strong>windows.shareTarget</strong>. The app can share the specified types of files.</p></td>
 </tr>
 <tr class="even">
-<td>[uap:VoipCall](element-uap-voipcall.md)</td>
+<td><a href="element-uap-voipcall.md">uap:VoipCall</a> </td>
 <td><p>Declares an app extensibility point of type <strong>voipCall</strong> so that your app can declare that it can perform an upgrade from a cellular call to a VoIP video call, and/or whether it is a VoIP app that supports dialing phone numbers directly.</p></td>
 </tr>
 <tr class="odd">
-<td>[uap:WebAccountProvider](element-uap-webaccountprovider.md)</td>
+<td><a href="element-uap-webaccountprovider.md">uap:WebAccountProvider</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.webAccountProvider</strong>.</p></td>
 </tr>
 </tbody>
@@ -256,7 +256,7 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extensions (type: CT_ApplicationExtensions)](element-1-extensions.md)</td>
+<td><a href="element-1-extensions.md">Extensions (type: CT_ApplicationExtensions)</a> </td>
 <td><p>Defines one or more extensibility points for the app.</p></td>
 </tr>
 </tbody>

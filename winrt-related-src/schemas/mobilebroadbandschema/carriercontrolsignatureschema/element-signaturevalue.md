@@ -63,7 +63,7 @@ Defines the signature thumbprint as specified in [XML DSIG](https://www.w3.org/T
 <tbody>
 <tr class="odd">
 <td><strong>Id</strong></td>
-<td><p>A unique element identifier to be used as a reference to [<strong>SignatureValue</strong>](element-signaturevalue.md).</p></td>
+<td><p>A unique element identifier to be used as a reference to <a href="element-signaturevalue.md"><strong>SignatureValue</strong></a> .</p></td>
 <td>ID</td>
 <td>No</td>
 <td></td>
@@ -92,8 +92,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Signature](element-signature.md)</td>
-<td><p>Defines the root element of an [XML DSIG](https://www.w3.org/TR/xmldsig-core/) compliant signature. [<strong>Signature</strong>](element-signature.md) is the unique root element for a provisioning file signature.</p></td>
+<td><a href="element-signature.md">Signature</a> </td>
+<td><p>Defines the root element of an <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>  compliant signature. <a href="element-signature.md"><strong>Signature</strong></a> is the unique root element for a provisioning file signature.</p></td>
 </tr>
 </tbody>
 </table>

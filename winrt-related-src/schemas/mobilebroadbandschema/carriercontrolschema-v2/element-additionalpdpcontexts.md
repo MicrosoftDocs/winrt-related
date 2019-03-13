@@ -62,11 +62,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[MultiplePDPContextPolicies](element-multiplepdpcontextpolicies.md)</td>
+<td><a href="element-multiplepdpcontextpolicies.md">MultiplePDPContextPolicies</a> </td>
 <td><p>Defines multiple Packet Data Protocol (PDP) context policies in a subscriber's carrier provisioning file.</p></td>
 </tr>
 <tr class="even">
-<td>[TetheringSettings](element-tetheringsettings.md)</td>
+<td><a href="element-tetheringsettings.md">TetheringSettings</a> </td>
 <td><p>Defines the tethering settings in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>
@@ -89,8 +89,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extensions_v2](element-extensions-v2.md)</td>
-<td><p>Defines additional properties and settings in a subscriber's carrier provisioning file. [<strong>Extensions_v2</strong>](element-extensions-v2.md) is the unique root element of the [CarrierControlSchema_v2](schema-root.md) provisioning file.</p></td>
+<td><a href="element-extensions-v2.md">Extensions_v2</a> </td>
+<td><p>Defines additional properties and settings in a subscriber's carrier provisioning file. <a href="element-extensions-v2.md"><strong>Extensions_v2</strong></a>  is the unique root element of the <a href="schema-root.md">CarrierControlSchema_v2</a> provisioning file.</p></td>
 </tr>
 </tbody>
 </table>

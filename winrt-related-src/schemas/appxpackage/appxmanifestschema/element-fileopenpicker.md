@@ -77,7 +77,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[SupportedFileTypes (type: CT_CharmsSupportedFileTypes)](element-2-supportedfiletypes.md)</td>
+<td><a href="element-2-supportedfiletypes.md">SupportedFileTypes (type: CT_CharmsSupportedFileTypes)</a> </td>
 <td><p>Defines the file types that the app can share.</p></td>
 </tr>
 </tbody>
@@ -100,7 +100,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extension (in type: CT_ApplicationExtensions)](element-1-extension.md)</td>
+<td><a href="element-1-extension.md">Extension (in type: CT_ApplicationExtensions)</a> </td>
 <td><p>Declares an extensibility point for the app.</p></td>
 </tr>
 </tbody>

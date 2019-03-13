@@ -85,7 +85,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:FileType (in type: CT_FTASupportedFileTypes)](element-uap-filetype.md)</td>
+<td><a href="element-uap-filetype.md">uap:FileType (in type: CT_FTASupportedFileTypes)</a> </td>
 <td><p>A supported file type specified as its file type extension.</p></td>
 </tr>
 </tbody>
@@ -108,7 +108,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:FileTypeAssociation](element-uap-filetypeassociation.md)</td>
+<td><a href="element-uap-filetypeassociation.md">uap:FileTypeAssociation</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.fileTypeAssociation</strong>. A file type association indicates that the app is registered to handle files of the specified types.</p></td>
 </tr>
 </tbody>

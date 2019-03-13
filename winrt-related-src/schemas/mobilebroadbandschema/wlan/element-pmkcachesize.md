@@ -70,7 +70,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[security](element-security.md)</td>
+<td><a href="element-security.md">security</a> </td>
 <td><p>Defines various security settings for this profile on a WLAN.</p></td>
 </tr>
 </tbody>

@@ -77,7 +77,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes)](element-3-uap-supportedfiletypes.md)</td>
+<td><a href="element-3-uap-supportedfiletypes.md">uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes)</a> </td>
 <td><p>Defines the file types that the app can share.</p></td>
 </tr>
 </tbody>
@@ -100,7 +100,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:Extension](element-uap-extension.md)</td>
+<td><a href="element-uap-extension.md">uap:Extension</a> </td>
 <td><p>Declares an extensibility point for the app.</p></td>
 </tr>
 </tbody>

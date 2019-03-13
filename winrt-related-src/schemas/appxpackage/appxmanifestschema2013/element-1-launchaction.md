@@ -87,7 +87,7 @@ Describes an [**AppointmentsProviderLaunchActions**](element-appointmentsprovide
 </tr>
 <tr class="even">
 <td><strong>Verb</strong></td>
-<td><p>A unique identifier that is passed to the app when it is launched. The app can use this string to determine which [<strong>AppointmentsProviderLaunchActions</strong>](element-appointmentsproviderlaunchactions.md) handler triggered its launch. It is unique per application in the package and is case sensitive.</p></td>
+<td><p>A unique identifier that is passed to the app when it is launched. The app can use this string to determine which <a href="element-appointmentsproviderlaunchactions.md"><strong>AppointmentsProviderLaunchActions</strong></a>  handler triggered its launch. It is unique per application in the package and is case sensitive.</p></td>
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li>addAppointment</li>
@@ -122,7 +122,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AppointmentsProviderLaunchActions](element-appointmentsproviderlaunchactions.md)</td>
+<td><a href="element-appointmentsproviderlaunchactions.md">AppointmentsProviderLaunchActions</a> </td>
 <td><p>Declares actions to take when a appointment is launched.</p></td>
 </tr>
 </tbody>

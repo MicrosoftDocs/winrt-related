@@ -64,7 +64,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Prerequisites](element-prerequisites.md)</td>
+<td><a href="element-prerequisites.md">Prerequisites</a> </td>
 <td><p>Declares the minimum operating system and software requirements that must exist for the package to be applicable to the system.</p></td>
 </tr>
 </tbody>

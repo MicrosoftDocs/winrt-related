@@ -33,167 +33,167 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AccessString](element-accessstring.md)</td>
+<td><a href="element-accessstring.md">AccessString</a> </td>
 <td><p>Defines the access string for a context in the Packet Data Protocol (PDP) context policy.</p></td>
 </tr>
 <tr class="even">
-<td>[AdditionalPDPContexts](element-additionalpdpcontexts.md)</td>
+<td><a href="element-additionalpdpcontexts.md">AdditionalPDPContexts</a> </td>
 <td><p>Defines additional Packet Data Protocol (PDP) contexts in a subscriber's carrier provisioning file.</p></td>
 </tr>
 <tr class="odd">
-<td>[AppID](element-appid.md)</td>
+<td><a href="element-appid.md">AppID</a> </td>
 <td><p>Defines the application ID used for Packet Data Protocol (PDP) context allowed list.</p></td>
 </tr>
 <tr class="even">
-<td>[AppIDList](element-appidlist.md)</td>
+<td><a href="element-appidlist.md">AppIDList</a> </td>
 <td><p>Defines the list of applications that are part of the Packet Data Protocol (PDP) context allowed list.</p></td>
 </tr>
 <tr class="odd">
-<td>[AuthProtocol](element-authprotocol.md)</td>
+<td><a href="element-authprotocol.md">AuthProtocol</a> </td>
 <td><p>Defines the authentication protocol to use for a context in the Packet Data Protocol (PDP) context policy.</p></td>
 </tr>
 <tr class="even">
-<td>[CUSTOM](element-custom.md)</td>
+<td><a href="element-custom.md">CUSTOM</a> </td>
 <td><p>Defines a custom protocol used for mobile network data.</p></td>
 </tr>
 <tr class="odd">
-<td>[CarrierNetworkMetadata](element-carriernetworkmetadata.md)</td>
+<td><a href="element-carriernetworkmetadata.md">CarrierNetworkMetadata</a> </td>
 <td><p>Defines the network properties and settings in a subscriber's carrier provisioning file.</p></td>
 </tr>
 <tr class="even">
-<td>[Compression](element-compression.md)</td>
+<td><a href="element-compression.md">Compression</a> </td>
 <td><p>Defines whether compression is enabled for a context in the Packet Data Protocol (PDP) context policy.</p></td>
 </tr>
 <tr class="odd">
-<td>[Context](element-context.md)</td>
+<td><a href="element-context.md">Context</a> </td>
 <td><p>Defines the context of a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file.</p></td>
 </tr>
 <tr class="even">
-<td>[CustomerSupportPhoneNumber](element-customersupportphonenumber.md)</td>
+<td><a href="element-customersupportphonenumber.md">CustomerSupportPhoneNumber</a> </td>
 <td><p>Defines the phone number for customer support in a subscriber's carrier provisioning file.</p></td>
 </tr>
 <tr class="odd">
-<td>[DNSRetryCount](element-dnsretrycount.md)</td>
+<td><a href="element-dnsretrycount.md">DNSRetryCount</a> </td>
 <td><p>Defines the DNS retry count. It must be a positive integer between 1 and 4.</p></td>
 </tr>
 <tr class="even">
-<td>[DNSRetryIntervalInSeconds](element-dnsretryintervalinseconds.md)</td>
+<td><a href="element-dnsretryintervalinseconds.md">DNSRetryIntervalInSeconds</a> </td>
 <td><p>Defines the DNS retry interval in seconds. It must be a positive integer between 1 and 4.</p></td>
 </tr>
 <tr class="odd">
-<td>[DNSRetrySettings](element-dnsretrysettings.md)</td>
+<td><a href="element-dnsretrysettings.md">DNSRetrySettings</a> </td>
 <td><p>Defines the network settings for DNS retries in a subscriber's carrier provisioning file.</p></td>
 </tr>
 <tr class="even">
-<td>[DataClassFriendlyNames](element-dataclassfriendlynames.md)</td>
+<td><a href="element-dataclassfriendlynames.md">DataClassFriendlyNames</a> </td>
 <td><p>Defines class friendly names for the standard or protocol used for mobile network data in a subscriber's carrier provisioning file.</p></td>
 </tr>
 <tr class="odd">
-<td>[EDGE](element-edge.md)</td>
+<td><a href="element-edge.md">EDGE</a> </td>
 <td><p>Defines the Enhanced Data rates for the GSM Evolution (EDGE) protocol used for mobile network data.</p></td>
 </tr>
 <tr class="even">
-<td>[Extensions_v2](element-extensions-v2.md)</td>
-<td><p>Defines additional properties and settings in a subscriber's carrier provisioning file. [<strong>Extensions_v2</strong>](element-extensions-v2.md) is the unique root element of the [CarrierControlSchema_v2](schema-root.md) provisioning file.</p></td>
+<td><a href="element-extensions-v2.md">Extensions_v2</a> </td>
+<td><p>Defines additional properties and settings in a subscriber's carrier provisioning file. <a href="element-extensions-v2.md"><strong>Extensions_v2</strong></a>  is the unique root element of the <a href="schema-root.md">CarrierControlSchema_v2</a> provisioning file.</p></td>
 </tr>
 <tr class="odd">
-<td>[GPRS](element-gprs.md)</td>
+<td><a href="element-gprs.md">GPRS</a> </td>
 <td><p>Defines the general packet radio service (GPRS) protocol used for mobile network data.</p></td>
 </tr>
 <tr class="even">
-<td>[HSDPA](element-hsdpa.md)</td>
+<td><a href="element-hsdpa.md">HSDPA</a> </td>
 <td><p>Defines the High-Speed Downlink Packet Access (HSDPA) protocol used for mobile network data.</p></td>
 </tr>
 <tr class="odd">
-<td>[HSUPA](element-hsupa.md)</td>
+<td><a href="element-hsupa.md">HSUPA</a> </td>
 <td><p>Defines the High-Speed Uplink Packet Access (HSUPA) protocol used for mobile network data.</p></td>
 </tr>
 <tr class="even">
-<td>[IPv4LinkMTU](element-ipv4linkmtu.md)</td>
+<td><a href="element-ipv4linkmtu.md">IPv4LinkMTU</a> </td>
 <td><p>Defines the maximum transmission unit (MTU) for an IPv4 link. It must be a positive integer between 1280 and 1500.</p></td>
 </tr>
 <tr class="odd">
-<td>[IPv6LinkMTU](element-ipv6linkmtu.md)</td>
+<td><a href="element-ipv6linkmtu.md">IPv6LinkMTU</a> </td>
 <td><p>Defines the maximum transmission unit (MTU) for an IPv6 link. It must be a positive integer between 1280 and 1500.</p></td>
 </tr>
 <tr class="even">
-<td>[LTE](element-lte.md)</td>
+<td><a href="element-lte.md">LTE</a> </td>
 <td><p>Defines the Long Term Evolution (LTE) standard used for mobile network data.</p></td>
 </tr>
 <tr class="odd">
-<td>[MaxNumberOfDevices](element-maxnumberofdevices.md)</td>
+<td><a href="element-maxnumberofdevices.md">MaxNumberOfDevices</a> </td>
 <td><p>Defines the maximum number of tethered connections.</p></td>
 </tr>
 <tr class="even">
-<td>[MultiplePDPContextPolicies](element-multiplepdpcontextpolicies.md)</td>
+<td><a href="element-multiplepdpcontextpolicies.md">MultiplePDPContextPolicies</a> </td>
 <td><p>Defines multiple Packet Data Protocol (PDP) context policies in a subscriber's carrier provisioning file.</p></td>
 </tr>
 <tr class="odd">
-<td>[NONE](element-none.md)</td>
+<td><a href="element-none.md">NONE</a> </td>
 <td><p>No mobile broadband network Data Class is available.</p></td>
 </tr>
 <tr class="even">
-<td>[Name](element-name.md)</td>
+<td><a href="element-name.md">Name</a> </td>
 <td><p>Defines the name of a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file.</p></td>
 </tr>
 <tr class="odd">
-<td>[NetworkSettings](element-networksettings.md)</td>
+<td><a href="element-networksettings.md">NetworkSettings</a> </td>
 <td><p>Defines the network settings in a subscriber's carrier provisioning file.</p></td>
 </tr>
 <tr class="even">
-<td>[ONEXEVDO](element-onexevdo.md)</td>
+<td><a href="element-onexevdo.md">ONEXEVDO</a> </td>
 <td><p>Defines the Enhanced Voice-Data Optimized (EVDO) standard used for mobile network data.</p></td>
 </tr>
 <tr class="odd">
-<td>[ONEXEVDO_REVA](element-onexevdo-reva.md)</td>
+<td><a href="element-onexevdo-reva.md">ONEXEVDO_REVA</a> </td>
 <td><p>Defines the Enhanced Voice-Data Optimized (EVDO) Revision A (Rev. A) standard used for mobile network data.</p></td>
 </tr>
 <tr class="even">
-<td>[ONEXEVDO_REVB](element-onexevdo-revb.md)</td>
+<td><a href="element-onexevdo-revb.md">ONEXEVDO_REVB</a> </td>
 <td><p>Defines the Enhanced Voice-Data Optimized (EVDO) Revision B (Rev. B) standard used for mobile network data.</p></td>
 </tr>
 <tr class="odd">
-<td>[ONEXEVDV](element-onexevdv.md)</td>
+<td><a href="element-onexevdv.md">ONEXEVDV</a> </td>
 <td><p>Defines the 1x Evolution-Data and Voice (1xEV-DV) standards used for mobile network data.</p></td>
 </tr>
 <tr class="even">
-<td>[ONEXRTT](element-onexrtt.md)</td>
+<td><a href="element-onexrtt.md">ONEXRTT</a> </td>
 <td><p>Defines the 1x Radio Transmission Technology (1xRTT) standards used for mobile network data.</p></td>
 </tr>
 <tr class="odd">
-<td>[PDPContextPolicy](element-pdpcontextpolicy.md)</td>
+<td><a href="element-pdpcontextpolicy.md">PDPContextPolicy</a> </td>
 <td><p>Defines a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file.</p></td>
 </tr>
 <tr class="even">
-<td>[Password](element-password.md)</td>
+<td><a href="element-password.md">Password</a> </td>
 <td><p>Defines the password used for the Packet Data Protocol (PDP) context activation.</p></td>
 </tr>
 <tr class="odd">
-<td>[THREEXRTT](element-threexrtt.md)</td>
+<td><a href="element-threexrtt.md">THREEXRTT</a> </td>
 <td><p>Defines the 3X Radio Transmission Technology (3xRTT) standard used for mobile network data.</p></td>
 </tr>
 <tr class="even">
-<td>[TetheringProfile](element-tetheringprofile.md)</td>
+<td><a href="element-tetheringprofile.md">TetheringProfile</a> </td>
 <td><p>Defines the tethering profile in a subscriber's carrier provisioning file.</p></td>
 </tr>
 <tr class="odd">
-<td>[TetheringSettings](element-tetheringsettings.md)</td>
+<td><a href="element-tetheringsettings.md">TetheringSettings</a> </td>
 <td><p>Defines the tethering settings in a subscriber's carrier provisioning file.</p></td>
 </tr>
 <tr class="even">
-<td>[UMB](element-umb.md)</td>
+<td><a href="element-umb.md">UMB</a> </td>
 <td><p>Defines the Ultra Mobile Broadband (UMB) system used for mobile network data.</p></td>
 </tr>
 <tr class="odd">
-<td>[UMTS](element-umts.md)</td>
+<td><a href="element-umts.md">UMTS</a> </td>
 <td><p>Defines the Universal Mobile Telecommunications System (UMTS) protocol used for mobile network data based on the GSM standard.</p></td>
 </tr>
 <tr class="even">
-<td>[UserLogonCred](element-userlogoncred.md)</td>
+<td><a href="element-userlogoncred.md">UserLogonCred</a> </td>
 <td><p>Defines the user login credentials for a context in the Packet Data Protocol (PDP) context policy.</p></td>
 </tr>
 <tr class="odd">
-<td>[UserName](element-username.md)</td>
+<td><a href="element-username.md">UserName</a> </td>
 <td><p>Defines the username used for the Packet Data Protocol (PDP) context activation.</p></td>
 </tr>
 </tbody>

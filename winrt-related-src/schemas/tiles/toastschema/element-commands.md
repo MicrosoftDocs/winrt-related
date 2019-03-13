@@ -96,8 +96,8 @@ Specifies that the toast notification is being used to indicate an incoming call
 </thead>
 <tbody>
 <tr class="odd">
-<td>[command](element-command.md)</td>
-<td><p>Specifies a scenario-associated button shown in a toast. The scenario is specified in the parent [<strong>commands</strong>](element-commands.md) element.</p></td>
+<td><a href="element-command.md">command</a> </td>
+<td><p>Specifies a scenario-associated button shown in a toast. The scenario is specified in the parent <a href="element-commands.md"><strong>commands</strong></a>  element.</p></td>
 </tr>
 </tbody>
 </table>
@@ -119,8 +119,8 @@ Specifies that the toast notification is being used to indicate an incoming call
 </thead>
 <tbody>
 <tr class="odd">
-<td>[toast](element-toast.md)</td>
-<td><p>Base toast element, which contains at least a single [<strong>visual</strong>](element-visual.md) element.</p></td>
+<td><a href="element-toast.md">toast</a> </td>
+<td><p>Base toast element, which contains at least a single <a href="element-visual.md"><strong>visual</strong></a>  element.</p></td>
 </tr>
 </tbody>
 </table>

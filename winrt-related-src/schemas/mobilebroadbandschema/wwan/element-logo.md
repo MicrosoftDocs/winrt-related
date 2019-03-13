@@ -60,7 +60,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Branding](element-branding.md)</td>
+<td><a href="element-branding.md">Branding</a> </td>
 <td><p>Defines carrier specific branding information for a subscriber's connection to the Mobile Network Operator (MNO).</p></td>
 </tr>
 </tbody>

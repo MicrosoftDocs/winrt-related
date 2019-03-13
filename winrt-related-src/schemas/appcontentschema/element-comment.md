@@ -59,7 +59,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Properties](element-properties.md)</td>
+<td><a href="element-properties.md">Properties</a> </td>
 <td><p>Contains properties that describe the item to the Windows Search Index.</p></td>
 </tr>
 </tbody>

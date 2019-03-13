@@ -39,95 +39,95 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AssociatedPlan](element-associatedplan.md)</td>
-<td><p>Contains the name of the subscriber's data plan. It must match the <strong>Name</strong> attribute of a [<strong>Plan</strong>](https://msdn.microsoft.com/library/windows/apps/hh868373) in the same XML document.</p></td>
+<td><a href="element-associatedplan.md">AssociatedPlan</a> </td>
+<td><p>Contains the name of the subscriber's data plan. It must match the <strong>Name</strong> attribute of a <a href="https://msdn.microsoft.com/library/windows/apps/hh868373"><strong>Plan</strong></a>  in the same XML document.</p></td>
 </tr>
 <tr class="even">
-<td>[MSM](element-msm.md)</td>
+<td><a href="element-msm.md">MSM</a> </td>
 <td><p>Defines various media-specific module (MSM) settings for this profile on a WLAN.</p></td>
 </tr>
 <tr class="odd">
-<td>[PMKCacheMode](element-pmkcachemode.md)</td>
+<td><a href="element-pmkcachemode.md">PMKCacheMode</a> </td>
 <td><p>Defines whether Pairwise Master Key (PMK) caching is to be used by this profile to connect to a WLAN.</p></td>
 </tr>
 <tr class="even">
-<td>[PMKCacheSize](element-pmkcachesize.md)</td>
+<td><a href="element-pmkcachesize.md">PMKCacheSize</a> </td>
 <td><p>Defines the number of entries in the Pairwise Master Key (PMK) cache on the client. Must be a value between 1 and 255 inclusive.</p></td>
 </tr>
 <tr class="odd">
-<td>[PMKCacheTTL](element-pmkcachettl.md)</td>
+<td><a href="element-pmkcachettl.md">PMKCacheTTL</a> </td>
 <td><p>Defines the length of time, in minutes, that a Pairwise Master Key (PMK) cache will be kept. Must be a value between 5 and 1440 inclusive.</p></td>
 </tr>
 <tr class="even">
-<td>[SSID](element-ssid.md)</td>
+<td><a href="element-ssid.md">SSID</a> </td>
 <td><p>Contains the SSID for a WLAN.</p></td>
 </tr>
 <tr class="odd">
-<td>[SSIDConfig](element-ssidconfig.md)</td>
+<td><a href="element-ssidconfig.md">SSIDConfig</a> </td>
 <td><p>Defines one or more service set identifiers (SSID) for a wireless LAN.</p></td>
 </tr>
 <tr class="even">
-<td>[WLANProfile](element-wlanprofile.md)</td>
-<td><p>Defines the properties and security settings of a subscriber's WLAN connection profile. [<strong>WLANProfile</strong>](element-wlanprofile.md) is the unique root element of a wireless profile.</p></td>
+<td><a href="element-wlanprofile.md">WLANProfile</a> </td>
+<td><p>Defines the properties and security settings of a subscriber's WLAN connection profile. <a href="element-wlanprofile.md"><strong>WLANProfile</strong></a>  is the unique root element of a wireless profile.</p></td>
 </tr>
 <tr class="odd">
-<td>[authEncryption](element-authencryption.md)</td>
+<td><a href="element-authencryption.md">authEncryption</a> </td>
 <td><p>Defines the authentication and encryption pair to be used for this profile on a WLAN.</p></td>
 </tr>
 <tr class="even">
-<td>[authentication](element-authentication.md)</td>
+<td><a href="element-authentication.md">authentication</a> </td>
 <td><p>Defines the authentication method to be used by this profile to connect to a WLAN.</p></td>
 </tr>
 <tr class="odd">
-<td>[encryption](element-encryption.md)</td>
+<td><a href="element-encryption.md">encryption</a> </td>
 <td><p>Defines the type of data encryption to be used by this profile to connect to a WLAN.</p></td>
 </tr>
 <tr class="even">
-<td>[hex](element-hex.md)</td>
+<td><a href="element-hex.md">hex</a> </td>
 <td><p>Defines the SSID of a wireless LAN in hexadecimal format.</p></td>
 </tr>
 <tr class="odd">
-<td>[keyIndex](element-keyindex.md)</td>
-<td><p>Defines which key index should be used to encrypt wireless traffic. [<strong>keyIndex</strong>](element-keyindex.md) is only used when [<strong>keyType</strong>](element-keytype.md) is <strong>networkKey</strong>. The default value is 0 when [<strong>sharedKey</strong>](element-sharedkey.md) is present. Must be a value between 0 and 3 inclusive.</p></td>
+<td><a href="element-keyindex.md">keyIndex</a> </td>
+<td><p>Defines which key index should be used to encrypt wireless traffic. <a href="element-keyindex.md"><strong>keyIndex</strong></a>  is only used when <a href="element-keytype.md"><strong>keyType</strong></a> is <strong>networkKey</strong>. The default value is 0 when <a href="element-sharedkey.md"><strong>sharedKey</strong></a> is present. Must be a value between 0 and 3 inclusive.</p></td>
 </tr>
 <tr class="even">
-<td>[keyMaterial](element-keymaterial.md)</td>
-<td><p>Defines a network key or pass phrase. If [<strong>protected</strong>](element-protected.md) is <strong>true</strong>, then the key material is encrypted; otherwise, the key material is unencrypted. Encrypted key material is expressed in hexadecimal form.</p></td>
+<td><a href="element-keymaterial.md">keyMaterial</a> </td>
+<td><p>Defines a network key or pass phrase. If <a href="element-protected.md"><strong>protected</strong></a>  is <strong>true</strong>, then the key material is encrypted; otherwise, the key material is unencrypted. Encrypted key material is expressed in hexadecimal form.</p></td>
 </tr>
 <tr class="odd">
-<td>[keyType](element-keytype.md)</td>
+<td><a href="element-keytype.md">keyType</a> </td>
 <td><p>Defines whether the shared key will be a network key or a pass phrase.</p></td>
 </tr>
 <tr class="even">
-<td>[name (in SSID)](element-1-name.md)</td>
+<td><a href="element-1-name.md">name (in SSID)</a> </td>
 <td><p>Defines the SSID of a wireless LAN in alphanumeric format.</p></td>
 </tr>
 <tr class="odd">
-<td>[name (type: NameType)](element-name.md)</td>
+<td><a href="element-name.md">name (type: NameType)</a> </td>
 <td><p>Defines the case sensitive name of a wireless LAN profile.</p></td>
 </tr>
 <tr class="even">
-<td>[preAuthMode](element-preauthmode.md)</td>
+<td><a href="element-preauthmode.md">preAuthMode</a> </td>
 <td><p>Defines whether pre-authentication will be used by the client.</p></td>
 </tr>
 <tr class="odd">
-<td>[preAuthThrottle](element-preauththrottle.md)</td>
+<td><a href="element-preauththrottle.md">preAuthThrottle</a> </td>
 <td><p>Defines the number of pre-authentication attempts to try on neighboring access points (AP). Must be a value between 1 and 16 inclusive.</p></td>
 </tr>
 <tr class="even">
-<td>[protected](element-protected.md)</td>
+<td><a href="element-protected.md">protected</a> </td>
 <td><p>If <strong>true</strong>, the shared key is encrypted. Otherwise, <strong>false</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td>[security](element-security.md)</td>
+<td><a href="element-security.md">security</a> </td>
 <td><p>Defines various security settings for this profile on a WLAN.</p></td>
 </tr>
 <tr class="even">
-<td>[sharedKey](element-sharedkey.md)</td>
+<td><a href="element-sharedkey.md">sharedKey</a> </td>
 <td><p>Defines optional shared key information to be used by this profile to connect to a WLAN.</p></td>
 </tr>
 <tr class="odd">
-<td>[useOneX](element-useonex.md)</td>
+<td><a href="element-useonex.md">useOneX</a> </td>
 <td><p>If <strong>true</strong>, 802.1X authentication is to be used by this profile to connect to the WLAN. Otherwise, <strong>false</strong>.</p></td>
 </tr>
 </tbody>

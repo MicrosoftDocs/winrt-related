@@ -100,7 +100,7 @@ Contains a single [**binding**](https://msdn.microsoft.com/library/windows/apps/
 </tr>
 <tr class="even">
 <td><strong>lang</strong></td>
-<td><p>The target locale of the XML payload, specified as [BCP-47 language tags](https://go.microsoft.com/fwlink/p/?linkid=227302) such as &quot;en-US&quot; or &quot;fr-FR&quot;. This locale is overridden by any locale specified in [<strong>binding</strong>](element-binding.md) or [<strong>text</strong>](element-text.md). If this value is a literal string, this attribute defaults to the user's UI language. If this value is a string reference, this attribute defaults to the locale chosen by Windows Runtime in resolving the string.</p></td>
+<td><p>The target locale of the XML payload, specified as <a href="https://go.microsoft.com/fwlink/p/?linkid=227302">BCP-47 language tags</a>  such as &quot;en-US&quot; or &quot;fr-FR&quot;. This locale is overridden by any locale specified in <a href="element-binding.md"><strong>binding</strong></a> or <a href="element-text.md"><strong>text</strong></a>. If this value is a literal string, this attribute defaults to the user's UI language. If this value is a string reference, this attribute defaults to the locale chosen by Windows Runtime in resolving the string.</p></td>
 <td>string</td>
 <td>No</td>
 <td>None</td>
@@ -132,7 +132,7 @@ Contains a single [**binding**](https://msdn.microsoft.com/library/windows/apps/
 </thead>
 <tbody>
 <tr class="odd">
-<td>[binding](element-binding.md)</td>
+<td><a href="element-binding.md">binding</a> </td>
 <td><p>Specifies the toast template. Note that only one binding element can be included in a toast notification.</p></td>
 </tr>
 </tbody>
@@ -155,8 +155,8 @@ Contains a single [**binding**](https://msdn.microsoft.com/library/windows/apps/
 </thead>
 <tbody>
 <tr class="odd">
-<td>[toast](element-toast.md)</td>
-<td><p>Base toast element, which contains at least a single [<strong>visual</strong>](element-visual.md) element.</p></td>
+<td><a href="element-toast.md">toast</a> </td>
+<td><p>Base toast element, which contains at least a single <a href="element-visual.md"><strong>visual</strong></a>  element.</p></td>
 </tr>
 </tbody>
 </table>

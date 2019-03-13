@@ -68,7 +68,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ApplicationExtensionChoice](element-applicationextensionchoice.md)</td>
+<td><a href="element-applicationextensionchoice.md">ApplicationExtensionChoice</a> </td>
 <td><p>The abstract application extension choice element for the XSD substitution group. This can't be declared in the XML.</p></td>
 </tr>
 </tbody>
@@ -91,7 +91,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Application](element-application.md)</td>
+<td><a href="element-application.md">Application</a> </td>
 <td><p>Represents an app that comprises part of or all of the functionality delivered in the package.</p></td>
 </tr>
 </tbody>

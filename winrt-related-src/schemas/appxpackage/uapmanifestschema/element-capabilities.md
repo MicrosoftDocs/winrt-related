@@ -62,15 +62,15 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Capability](element-capability.md)</td>
+<td><a href="element-capability.md">Capability</a> </td>
 <td><p>Declares a capability required by a package.</p></td>
 </tr>
 <tr class="even">
-<td>[DeviceCapability](element-devicecapability.md)</td>
-<td><p>Declares a device capability required by a package. On Windows 10.0.10240.0, can contain up to 100 [<strong>Device</strong>](element-device.md) elements. On Windows 10.0.10586.0, can contain up to 1000 (for syntax and examples, see Examples).</p></td>
+<td><a href="element-devicecapability.md">DeviceCapability</a> </td>
+<td><p>Declares a device capability required by a package. On Windows 10.0.10240.0, can contain up to 100 <a href="element-device.md"><strong>Device</strong></a>  elements. On Windows 10.0.10586.0, can contain up to 1000 (for syntax and examples, see Examples).</p></td>
 </tr>
 <tr class="odd">
-<td>[uap:Capability](element-uap-capability.md)</td>
+<td><a href="element-uap-capability.md">uap:Capability</a> </td>
 <td><p>Declares a capability required by a package.</p></td>
 </tr>
 </tbody>
@@ -93,7 +93,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Package](element-package.md)</td>
+<td><a href="element-package.md">Package</a> </td>
 <td><p>Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system.</p></td>
 </tr>
 </tbody>

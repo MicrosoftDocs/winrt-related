@@ -108,7 +108,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AutoPlayDevice](element-autoplaydevice.md)</td>
+<td><a href="element-autoplaydevice.md">AutoPlayDevice</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.autoPlayDevice</strong>. The app provides the specified AutoPlay device actions.</p></td>
 </tr>
 </tbody>

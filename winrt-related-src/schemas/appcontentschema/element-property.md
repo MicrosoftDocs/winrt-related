@@ -76,7 +76,7 @@ A property that describes the item.
 <tbody>
 <tr class="odd">
 <td><strong>Key</strong></td>
-<td><p>The key that identifies the property. This must be a system property name (see [Windows Properties](https://msdn.microsoft.com/library/windows/desktop/dd561977) for a list) or the [<strong>PROPERTYKEY</strong>](https://msdn.microsoft.com/library/windows/desktop/bb773381) of a property. (You can use the <strong>PROPERTYKEY</strong> to support arbitrary properties that are not known to the system.)</p></td>
+<td><p>The key that identifies the property. This must be a system property name (see <a href="https://msdn.microsoft.com/library/windows/desktop/dd561977">Windows Properties</a>  for a list) or the <a href="https://msdn.microsoft.com/library/windows/desktop/bb773381"><strong>PROPERTYKEY</strong></a> of a property. (You can use the <strong>PROPERTYKEY</strong> to support arbitrary properties that are not known to the system.)</p></td>
 <td>string</td>
 <td>Yes</td>
 <td></td>
@@ -129,7 +129,7 @@ A property that describes the item.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Value](element-value.md)</td>
+<td><a href="element-value.md">Value</a> </td>
 <td><p>The value that will be indexed for the property.</p></td>
 </tr>
 </tbody>
@@ -152,7 +152,7 @@ A property that describes the item.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AdditionalProperties](element-additionalproperties.md)</td>
+<td><a href="element-additionalproperties.md">AdditionalProperties</a> </td>
 <td><p>Contains additional properties that describe the item.</p></td>
 </tr>
 </tbody>

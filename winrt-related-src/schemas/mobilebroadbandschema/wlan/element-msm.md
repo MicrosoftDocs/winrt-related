@@ -63,7 +63,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[security](element-security.md)</td>
+<td><a href="element-security.md">security</a> </td>
 <td><p>Defines various security settings for this profile on a WLAN.</p></td>
 </tr>
 </tbody>
@@ -86,8 +86,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[WLANProfile](element-wlanprofile.md)</td>
-<td><p>Defines the properties and security settings of a subscriber's WLAN connection profile. [<strong>WLANProfile</strong>](element-wlanprofile.md) is the unique root element of a wireless profile.</p></td>
+<td><a href="element-wlanprofile.md">WLANProfile</a> </td>
+<td><p>Defines the properties and security settings of a subscriber's WLAN connection profile. <a href="element-wlanprofile.md"><strong>WLANProfile</strong></a>  is the unique root element of a wireless profile.</p></td>
 </tr>
 </tbody>
 </table>

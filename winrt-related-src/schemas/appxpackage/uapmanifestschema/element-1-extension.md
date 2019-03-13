@@ -113,7 +113,7 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 </tr>
 <tr class="even">
 <td><strong>ResourceGroup</strong></td>
-<td><p>A tag that you can use to group extension activations together for resource management purposes (for example, CPU and memory). The value you can set ResourceGroup is free-form and flexible. See [<strong>Application@ResourceGroup</strong>](element-application.md) and Remarks.</p></td>
+<td><p>A tag that you can use to group extension activations together for resource management purposes (for example, CPU and memory). The value you can set ResourceGroup is free-form and flexible. See <a href="element-application.md"><strong>Application@ResourceGroup</strong></a>  and Remarks.</p></td>
 <td>An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.</td>
 <td>No</td>
 <td></td>
@@ -152,7 +152,7 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 </thead>
 <tbody>
 <tr class="odd">
-<td>[BackgroundTasks](element-backgroundtasks.md)</td>
+<td><a href="element-backgroundtasks.md">BackgroundTasks</a> </td>
 <td><p>Defines an app extensibility point of type <strong>windows.backgroundTasks</strong>. Background tasks run in a dedicated background host; that is, without a UI.</p></td>
 </tr>
 </tbody>
@@ -175,7 +175,7 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extensions (type: CT_ApplicationExtensions)](element-1-extensions.md)</td>
+<td><a href="element-1-extensions.md">Extensions (type: CT_ApplicationExtensions)</a> </td>
 <td><p>Defines one or more extensibility points for the app.</p></td>
 </tr>
 </tbody>

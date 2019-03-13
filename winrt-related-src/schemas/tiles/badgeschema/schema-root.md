@@ -36,7 +36,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </thead>
 <tbody>
 <tr class="odd">
-<td>[badge](element-badge.md)</td>
+<td><a href="element-badge.md">badge</a> </td>
 <td><p>Specifies a badge's value or glyph.</p></td>
 </tr>
 </tbody>

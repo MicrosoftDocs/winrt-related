@@ -110,11 +110,11 @@ Declares an app extensibility point of type **windows.protocol**. A URI associat
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DisplayName](element-1-displayname.md)</td>
+<td><a href="element-1-displayname.md">DisplayName</a> </td>
 <td><p>A friendly name that can be displayed to users. This string is localizable.</p></td>
 </tr>
 <tr class="even">
-<td>[Logo](element-1-logo.md)</td>
+<td><a href="element-1-logo.md">Logo</a> </td>
 <td><p>A path to a file that contains an image.</p></td>
 </tr>
 </tbody>
@@ -137,7 +137,7 @@ Declares an app extensibility point of type **windows.protocol**. A URI associat
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extension (type: CT_ApplicationExtension)](element-extension.md)</td>
+<td><a href="element-extension.md">Extension (type: CT_ApplicationExtension)</a> </td>
 <td><p>Declares an extensibility point for the app.</p></td>
 </tr>
 </tbody>

@@ -90,7 +90,7 @@ Declares a function for a device that is associated with the [**DeviceCapability
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Function](element-function.md)</td>
+<td><a href="element-function.md">Function</a> </td>
 <td><p>Declares the function for the device.</p></td>
 </tr>
 </tbody>
@@ -113,7 +113,7 @@ Declares a function for a device that is associated with the [**DeviceCapability
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DeviceCapability](element-devicecapability.md)</td>
+<td><a href="element-devicecapability.md">DeviceCapability</a> </td>
 <td><p>Declares a device capability required by a package.</p></td>
 </tr>
 </tbody>

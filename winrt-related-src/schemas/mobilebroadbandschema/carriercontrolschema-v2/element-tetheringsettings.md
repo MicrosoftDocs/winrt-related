@@ -67,11 +67,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[MaxNumberOfDevices](element-maxnumberofdevices.md)</td>
+<td><a href="element-maxnumberofdevices.md">MaxNumberOfDevices</a> </td>
 <td><p>Defines the maximum number of tethered connections.</p></td>
 </tr>
 <tr class="even">
-<td>[TetheringProfile](element-tetheringprofile.md)</td>
+<td><a href="element-tetheringprofile.md">TetheringProfile</a> </td>
 <td><p>Defines the tethering profile in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>
@@ -94,7 +94,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AdditionalPDPContexts](element-additionalpdpcontexts.md)</td>
+<td><a href="element-additionalpdpcontexts.md">AdditionalPDPContexts</a> </td>
 <td><p>Defines additional Packet Data Protocol (PDP) contexts in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>

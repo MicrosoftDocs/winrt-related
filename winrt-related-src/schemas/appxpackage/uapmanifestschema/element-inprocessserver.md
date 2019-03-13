@@ -71,11 +71,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ActivatableClass (type: CT_InProcessActivatableClass)](element-activatableclass.md)</td>
+<td><a href="element-activatableclass.md">ActivatableClass (type: CT_InProcessActivatableClass)</a> </td>
 <td><p>Declares a runtime class associated with the extensibility point.</p></td>
 </tr>
 <tr class="even">
-<td>[Path (type: ST_FileName)](element-path.md)</td>
+<td><a href="element-path.md">Path (type: ST_FileName)</a> </td>
 <td><p>The path to the DLL.</p></td>
 </tr>
 </tbody>
@@ -98,7 +98,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extension (in type: CT_PackageExtensions)](element-extension.md)</td>
+<td><a href="element-extension.md">Extension (in type: CT_PackageExtensions)</a> </td>
 <td><p>Declares an extensibility point for the package.</p></td>
 </tr>
 </tbody>

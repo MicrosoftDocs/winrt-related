@@ -63,7 +63,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Description](element-description.md)</td>
+<td><a href="element-description.md">Description</a> </td>
 <td><p>Defines plan information that specifies the subscriber's Mobile Network Operator (MNO) connection type.</p></td>
 </tr>
 </tbody>

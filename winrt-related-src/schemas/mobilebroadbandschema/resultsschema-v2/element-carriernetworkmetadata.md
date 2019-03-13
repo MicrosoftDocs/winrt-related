@@ -92,16 +92,16 @@ Contains any errors from processing the [**CarrierNetworkMetadata**](https://msd
 </thead>
 <tbody>
 <tr class="odd">
-<td>[CustomerSupportPhoneNumber](element-customersupportphonenumber.md)</td>
-<td><p>Contains any errors from processing the [<strong>CustomerSupportPhoneNumber</strong>](https://msdn.microsoft.com/library/windows/apps/dn394004) element from the last provisioning attempt.</p></td>
+<td><a href="element-customersupportphonenumber.md">CustomerSupportPhoneNumber</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394004"><strong>CustomerSupportPhoneNumber</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
-<td>[DataClassFriendlyNames](element-dataclassfriendlynames.md)</td>
-<td><p>Contains any errors from processing the [<strong>DataClassFriendlyNames</strong>](https://msdn.microsoft.com/library/windows/apps/dn394005) element from the last provisioning attempt.</p></td>
+<td><a href="element-dataclassfriendlynames.md">DataClassFriendlyNames</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394005"><strong>DataClassFriendlyNames</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
-<td>[NetworkSettings](element-networksettings.md)</td>
-<td><p>Contains any errors from processing the [<strong>NetworkSettings</strong>](https://msdn.microsoft.com/library/windows/apps/dn394020) element from the last provisioning attempt.</p></td>
+<td><a href="element-networksettings.md">NetworkSettings</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394020"><strong>NetworkSettings</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>
@@ -123,8 +123,8 @@ Contains any errors from processing the [**CarrierNetworkMetadata**](https://msd
 </thead>
 <tbody>
 <tr class="odd">
-<td>[CarrierProvisioningResult](element-carrierprovisioningresult.md)</td>
-<td><p>Contains any errors from processing the [<strong>CarrierProvisioning</strong>](https://msdn.microsoft.com/library/windows/apps/hh868289) element from the last provisioning attempt. [<strong>CarrierProvisioningResult</strong>](https://msdn.microsoft.com/library/windows/apps/hh868380) is the unique root element for the provisioning results.</p></td>
+<td><a href="element-carrierprovisioningresult.md">CarrierProvisioningResult</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868289"><strong>CarrierProvisioning</strong></a>  element from the last provisioning attempt. <a href="https://msdn.microsoft.com/library/windows/apps/hh868380"><strong>CarrierProvisioningResult</strong></a> is the unique root element for the provisioning results.</p></td>
 </tr>
 </tbody>
 </table>

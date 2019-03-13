@@ -75,7 +75,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[TrustedCertificate](element-trustedcertificate.md)</td>
+<td><a href="element-trustedcertificate.md">TrustedCertificate</a> </td>
 <td><p>Defines the subject name and issuer name of a trusted certificate required for provisioning on the mobile network.</p></td>
 </tr>
 </tbody>

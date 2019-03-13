@@ -67,8 +67,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Transform](element-transform.md)</td>
-<td><p>Defines a transform applied to the digested data object prior to [<strong>DigestMethod</strong>](element-digestmethod.md) as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-transform.md">Transform</a> </td>
+<td><p>Defines a transform applied to the digested data object prior to <a href="element-digestmethod.md"><strong>DigestMethod</strong></a>  as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -90,8 +90,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Reference](element-reference.md)</td>
-<td><p>Defines a digest value, digest method, and transforms as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-reference.md">Reference</a> </td>
+<td><p>Defines a digest value, digest method, and transforms as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> .</p></td>
 </tr>
 </tbody>
 </table>

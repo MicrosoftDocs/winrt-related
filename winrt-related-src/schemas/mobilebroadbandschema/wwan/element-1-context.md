@@ -68,11 +68,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AccessString](element-1-accessstring.md)</td>
+<td><a href="element-1-accessstring.md">AccessString</a> </td>
 <td><p>Defines the Access Point Name (APN) or dial string to be used to establish a data connection. Must be less than 100 characters.</p></td>
 </tr>
 <tr class="even">
-<td>[AuthProtocol](element-1-authprotocol.md)</td>
+<td><a href="element-1-authprotocol.md">AuthProtocol</a> </td>
 <td><p>Defines the authentication protocol to be used for activating a Packet Data Protocol (PDP) context:</p>
 <p></p>
 <ul>
@@ -83,11 +83,11 @@ None.
 </ul></td>
 </tr>
 <tr class="odd">
-<td>[Compression](element-1-compression.md)</td>
+<td><a href="element-1-compression.md">Compression</a> </td>
 <td><p>If <strong>ENABLE</strong>, the packet header and data transferred over the connection is compressed. Otherwise, <strong>DISABLE</strong>.</p></td>
 </tr>
 <tr class="even">
-<td>[UserLogonCred](element-1-userlogoncred.md)</td>
+<td><a href="element-1-userlogoncred.md">UserLogonCred</a> </td>
 <td><p>Defines logon credentials for a connection.</p></td>
 </tr>
 </tbody>
@@ -110,11 +110,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DefaultProfile](element-defaultprofile.md)</td>
+<td><a href="element-defaultprofile.md">DefaultProfile</a> </td>
 <td><p>Defines the default connection profile used by a subscriber to connect to a MNO. The Mobile Broadband service will use these connection settings without prompting the user for details.</p></td>
 </tr>
 <tr class="even">
-<td>[PurchaseProfile](element-purchaseprofile.md)</td>
+<td><a href="element-purchaseprofile.md">PurchaseProfile</a> </td>
 <td><p>Defines a purchase connection profile used by a subscriber to connect to a MNO.</p></td>
 </tr>
 </tbody>

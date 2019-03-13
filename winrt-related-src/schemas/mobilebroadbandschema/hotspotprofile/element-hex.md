@@ -70,7 +70,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[SSID](element-ssid.md)</td>
+<td><a href="element-ssid.md">SSID</a> </td>
 <td><p>An additional SSID handled by this profile.</p></td>
 </tr>
 </tbody>

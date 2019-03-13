@@ -70,7 +70,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[TrustedCertificates](element-trustedcertificates.md)</td>
+<td><a href="element-trustedcertificates.md">TrustedCertificates</a> </td>
 <td><p>Defines a list of X.509 certificates whose signatures should be trusted on future provisioning files.</p></td>
 </tr>
 </tbody>

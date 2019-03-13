@@ -95,27 +95,27 @@ Defines the root element of an app package manifest. The manifest describes the 
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Applications](element-applications.md)</td>
+<td><a href="element-applications.md">Applications</a> </td>
 <td><p>Represents one or more apps that comprise the package.</p></td>
 </tr>
 <tr class="even">
-<td>[Capabilities](element-capabilities.md)</td>
+<td><a href="element-capabilities.md">Capabilities</a> </td>
 <td><p>Declares the access to protected user resources that the package requires.</p></td>
 </tr>
 <tr class="odd">
-<td>[Dependencies](element-dependencies.md)</td>
+<td><a href="element-dependencies.md">Dependencies</a> </td>
 <td><p>Declares other packages that a package depends on to complete its software.</p></td>
 </tr>
 <tr class="even">
-<td>[Extensions (type: CT_PackageExtensions)](element-extensions.md)</td>
+<td><a href="element-extensions.md">Extensions (type: CT_PackageExtensions)</a> </td>
 <td><p>Defines one or more extensibility points for the package.</p></td>
 </tr>
 <tr class="odd">
-<td>[Identity](element-identity.md)</td>
+<td><a href="element-identity.md">Identity</a> </td>
 <td><p>Defines a globally unique identifier for a package. A package identity is represented as a tuple of attributes of the package.</p></td>
 </tr>
 <tr class="even">
-<td>[Properties](element-properties.md)</td>
+<td><a href="element-properties.md">Properties</a> </td>
 <td><p>Defines additional metadata about the package including attributes that describe how the package appears to users.</p>
 <div class="alert">
 <strong>Note</strong>  You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely “|” and “all”, due to which Windows fails to create the AppContainer profile for the package . Use this reference for [troubleshooting](https://msdn.microsoft.com/library/windows/desktop/hh973484) if you get an error.
@@ -125,11 +125,11 @@ Defines the root element of an app package manifest. The manifest describes the 
 </div></td>
 </tr>
 <tr class="odd">
-<td>[Resources](element-resources.md)</td>
+<td><a href="element-resources.md">Resources</a> </td>
 <td><p>Declares languages for the resources that the package contains. Every package must declare at least one language for resources. The scale and DirectX feature level attributes are common for all resources in the package.</p></td>
 </tr>
 <tr class="even">
-<td>[mp:PhoneIdentity](element-mp-phoneidentity.md)</td>
+<td><a href="element-mp-phoneidentity.md">mp:PhoneIdentity</a> </td>
 <td><p>If your app is an update to an app previously made available on Windows Phone, ensure that this element matches what is in the app manifest of your previous app. Use the same GUIDs that were assigned to the app by the Store. This ensures that users of your app who are upgrading to Windows 10 will receive your new app as an update, and not as a duplicate.</p></td>
 </tr>
 </tbody>

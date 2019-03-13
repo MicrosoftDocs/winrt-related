@@ -65,7 +65,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[CarrierNetworkMetadata](element-carriernetworkmetadata.md)</td>
+<td><a href="element-carriernetworkmetadata.md">CarrierNetworkMetadata</a> </td>
 <td><p>Defines the network properties and settings in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>

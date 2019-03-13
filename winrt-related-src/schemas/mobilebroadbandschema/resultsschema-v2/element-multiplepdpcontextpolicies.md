@@ -66,8 +66,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[PDPContextPolicy](element-pdpcontextpolicy.md)</td>
-<td><p>Contains any errors from processing a [<strong>PDPContextPolicy</strong>](https://msdn.microsoft.com/library/windows/apps/dn394028) element from the last provisioning attempt.</p></td>
+<td><a href="element-pdpcontextpolicy.md">PDPContextPolicy</a> </td>
+<td><p>Contains any errors from processing a <a href="https://msdn.microsoft.com/library/windows/apps/dn394028"><strong>PDPContextPolicy</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>
@@ -89,8 +89,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AdditionalPDPContexts](element-additionalpdpcontexts.md)</td>
-<td><p>Contains any errors from processing the [<strong>AdditionalPDPContexts</strong>](https://msdn.microsoft.com/library/windows/apps/dn393994) element from the last provisioning attempt.</p></td>
+<td><a href="element-additionalpdpcontexts.md">AdditionalPDPContexts</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn393994"><strong>AdditionalPDPContexts</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>

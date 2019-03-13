@@ -68,7 +68,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Message](element-message.md)</td>
+<td><a href="element-message.md">Message</a> </td>
 <td><p>Defines a MNO formatted message that contains the parsing rules necessary for Windows 8 to parse the message.</p></td>
 </tr>
 </tbody>

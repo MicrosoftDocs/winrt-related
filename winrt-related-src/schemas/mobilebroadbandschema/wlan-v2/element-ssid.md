@@ -56,11 +56,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[hex (in SSID)](element-hex.md)</td>
+<td><a href="element-hex.md">hex (in SSID)</a> </td>
 <td><p>Defines the SSID of a wireless LAN in hexadecimal format.</p></td>
 </tr>
 <tr class="even">
-<td>[name (in SSID)](element-name.md)</td>
+<td><a href="element-name.md">name (in SSID)</a> </td>
 <td><p>Defines the SSID of a wireless LAN in alphanumeric format.</p></td>
 </tr>
 </tbody>

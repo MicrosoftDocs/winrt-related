@@ -32,7 +32,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Internet](element-internet.md)</td>
+<td><a href="element-internet.md">Internet</a> </td>
 <td><div class="alert">
 <strong>Note</strong>  The <strong>Internet</strong> element is deprecated. Starting with Windows 8 and Windows Server 2012, the mobile operator should use Access Point Name (APN) Database to provide Internet APN information.
 </div>
@@ -42,15 +42,15 @@ The following table lists all of the elements in this schema, sorted alphabetica
 <p>Defines the mobile broadband Internet profile to be used for the mobile network.</p></td>
 </tr>
 <tr class="even">
-<td>[IssuerName](element-issuername.md)</td>
+<td><a href="element-issuername.md">IssuerName</a> </td>
 <td><p>Defines the issuer name of the trusted certificate.</p></td>
 </tr>
 <tr class="odd">
-<td>[MobileBroadbandInfo](element-mobilebroadbandinfo.md)</td>
+<td><a href="element-mobilebroadbandinfo.md">MobileBroadbandInfo</a> </td>
 <td><p>Defines mobile broadband information required for provisioning on the mobile network.</p></td>
 </tr>
 <tr class="even">
-<td>[MobileBroadbandProfiles](element-mobilebroadbandprofiles.md)</td>
+<td><a href="element-mobilebroadbandprofiles.md">MobileBroadbandProfiles</a> </td>
 <td><div class="alert">
 <strong>Note</strong>  The <strong>MobileBroadbandProfiles</strong> element is deprecated. Starting with Windows 8 and Windows Server 2012, the mobile operator should use Access Point Name (APN) Database to provide Internet and Purchase APN information.
 </div>
@@ -60,7 +60,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 <p>Defines the mobile broadband Purchase and Internet profiles to be used for the mobile network.</p></td>
 </tr>
 <tr class="odd">
-<td>[NetworkConfiguration](element-networkconfiguration.md)</td>
+<td><a href="element-networkconfiguration.md">NetworkConfiguration</a> </td>
 <td><div class="alert">
 <strong>Note</strong>  The <strong>NetworkConfiguration</strong> element is deprecated. Starting with Windows 8 and Windows Server 2012, the mobile operator should use Access Point Name (APN) Database to provide Purchase and Internet APN information.
 </div>
@@ -70,11 +70,11 @@ The following table lists all of the elements in this schema, sorted alphabetica
 <p>Defines the network configuration for the mobile broadband Purchase and Internet profiles to be used for mobile network.</p></td>
 </tr>
 <tr class="even">
-<td>[ProvisioningEngine](element-provisioningengine.md)</td>
+<td><a href="element-provisioningengine.md">ProvisioningEngine</a> </td>
 <td><p>Defines the trusted certificate values for Subject Name and Issuer Name required for provisioning on the mobile network.</p></td>
 </tr>
 <tr class="odd">
-<td>[Purchase](element-purchase.md)</td>
+<td><a href="element-purchase.md">Purchase</a> </td>
 <td><div class="alert">
 <strong>Note</strong>  The <strong>Purchase</strong> element is deprecated. Starting with Windows 8 and Windows Server 2012, the mobile operator should use Access Point Name (APN) Database to provide Purchase APN information.
 </div>
@@ -84,15 +84,15 @@ The following table lists all of the elements in this schema, sorted alphabetica
 <p>Defines the mobile broadband Purchase profile to be used for the mobile network.</p></td>
 </tr>
 <tr class="even">
-<td>[SubjectName](element-subjectname.md)</td>
+<td><a href="element-subjectname.md">SubjectName</a> </td>
 <td><p>Defines the subject name of the trusted certificate.</p></td>
 </tr>
 <tr class="odd">
-<td>[TrustedCertificate](element-trustedcertificate.md)</td>
+<td><a href="element-trustedcertificate.md">TrustedCertificate</a> </td>
 <td><p>Defines the subject name and issuer name of a trusted certificate required for provisioning on the mobile network.</p></td>
 </tr>
 <tr class="even">
-<td>[TrustedCertificates](element-trustedcertificates.md)</td>
+<td><a href="element-trustedcertificates.md">TrustedCertificates</a> </td>
 <td><p>Defines the list of trusted security certificates required for provisioning on the mobile network.</p></td>
 </tr>
 </tbody>

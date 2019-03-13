@@ -125,7 +125,7 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 </tr>
 <tr class="even">
 <td><strong>ResourceGroup</strong></td>
-<td><p>A tag that you can use to group extension activations together for resource management purposes (for example, CPU and memory). The value you can set ResourceGroup is free-form and flexible. See [<strong>Application@ResourceGroup</strong>](element-application.md) and Remarks.</p></td>
+<td><p>A tag that you can use to group extension activations together for resource management purposes (for example, CPU and memory). The value you can set ResourceGroup is free-form and flexible. See <a href="element-application.md"><strong>Application@ResourceGroup</strong></a>  and Remarks.</p></td>
 <td>An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.</td>
 <td>No</td>
 <td></td>
@@ -146,7 +146,7 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 </tr>
 <tr class="odd">
 <td><strong>Verb</strong></td>
-<td><p>A unique identifier that is passed to the app when it is launched. The app can use this string to determine which [<strong>uap:AppointmentsProviderLaunchActions</strong>](element-uap-appointmentsproviderlaunchactions.md) handler triggered its launch. It is unique per application in the package and is case sensitive.</p></td>
+<td><p>A unique identifier that is passed to the app when it is launched. The app can use this string to determine which <a href="element-uap-appointmentsproviderlaunchactions.md"><strong>uap:AppointmentsProviderLaunchActions</strong></a>  handler triggered its launch. It is unique per application in the package and is case sensitive.</p></td>
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li>addAppointment</li>
@@ -182,7 +182,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:AppointmentsProviderLaunchActions](element-uap-appointmentsproviderlaunchactions.md)</td>
+<td><a href="element-uap-appointmentsproviderlaunchactions.md">uap:AppointmentsProviderLaunchActions</a> </td>
 <td><p>Declares actions to take when a appointment is launched.</p></td>
 </tr>
 </tbody>

@@ -80,7 +80,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:LaunchAction (in type: CT_AutoPlayContent)](element-uap-launchaction.md)</td>
+<td><a href="element-uap-launchaction.md">uap:LaunchAction (in type: CT_AutoPlayContent)</a> </td>
 <td><p>Describes an AutoPlay content action.</p></td>
 </tr>
 </tbody>
@@ -103,7 +103,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:Extension](element-uap-extension.md)</td>
+<td><a href="element-uap-extension.md">uap:Extension</a> </td>
 <td><p>Declares an extensibility point for the app.</p></td>
 </tr>
 </tbody>

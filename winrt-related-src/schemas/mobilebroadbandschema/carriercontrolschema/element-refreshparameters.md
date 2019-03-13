@@ -69,19 +69,19 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DelayInDays](element-delayindays.md)</td>
+<td><a href="element-delayindays.md">DelayInDays</a> </td>
 <td><p>Defines the number of days until the next refresh. It must be a positive integer less than 732.</p></td>
 </tr>
 <tr class="even">
-<td>[Password](element-password.md)</td>
+<td><a href="element-password.md">Password</a> </td>
 <td><p>Defines optional password credentials to be presented using HTTP-Auth to log on to the Mobile Network Operator's network when retrieving the provisioning file.</p></td>
 </tr>
 <tr class="odd">
-<td>[RefreshURL](element-refreshurl.md)</td>
-<td><p>Defines the HTTPS URL where the client can find the updated copy of this provisioning file in the future. This URL will be accessed upon receipt of an SMS/USSD trigger or after the specified [<strong>DelayInDays</strong>](element-delayindays.md). It must be formatted as <strong>https://.+</strong></p></td>
+<td><a href="element-refreshurl.md">RefreshURL</a> </td>
+<td><p>Defines the HTTPS URL where the client can find the updated copy of this provisioning file in the future. This URL will be accessed upon receipt of an SMS/USSD trigger or after the specified <a href="element-delayindays.md"><strong>DelayInDays</strong></a> . It must be formatted as <strong>https://.+</strong></p></td>
 </tr>
 <tr class="even">
-<td>[UserName](element-username.md)</td>
+<td><a href="element-username.md">UserName</a> </td>
 <td><p>Defines optional user name credentials to be presented using HTTP-Auth to log on to the Mobile Network Operator's network when retrieving the provisioning file.</p></td>
 </tr>
 </tbody>
@@ -104,7 +104,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Provisioning](element-provisioning.md)</td>
+<td><a href="element-provisioning.md">Provisioning</a> </td>
 <td><p>Defines parameters used to establish trust and refresh settings for future provisioning attempts.</p></td>
 </tr>
 </tbody>

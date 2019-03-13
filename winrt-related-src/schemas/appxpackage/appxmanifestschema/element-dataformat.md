@@ -85,7 +85,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ShareTarget](element-sharetarget.md)</td>
+<td><a href="element-sharetarget.md">ShareTarget</a> </td>
 <td><p>Declares an app extension point of type <strong>windows.shareTarget</strong>. The app can share the specified types of files.</p></td>
 </tr>
 </tbody>

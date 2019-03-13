@@ -69,7 +69,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Application](element-application.md)</td>
+<td><a href="element-application.md">Application</a> </td>
 <td><p>Represents an app that comprises part of or all of the functionality delivered in the package.</p></td>
 </tr>
 </tbody>

@@ -61,11 +61,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Logo](element-logo.md)</td>
+<td><a href="element-logo.md">Logo</a> </td>
 <td><p>Defines a 32x32 bitmap (.bmp) or portable network graphics (.png) type image of the MNO's logo.</p></td>
 </tr>
 <tr class="even">
-<td>[Name (in type: Branding)](element-name.md)</td>
+<td><a href="element-name.md">Name (in type: Branding)</a> </td>
 <td><p>Defines a carrier specific branding name for the MNO. Maximum length is 20 characters.</p></td>
 </tr>
 </tbody>

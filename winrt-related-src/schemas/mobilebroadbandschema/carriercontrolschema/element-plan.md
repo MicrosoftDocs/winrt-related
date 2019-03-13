@@ -65,7 +65,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Plans](element-plans.md)</td>
+<td><a href="element-plans.md">Plans</a> </td>
 <td><p>Defines information for a subscriber's connection plans to a Mobile Network Operator's (MNO) network.</p></td>
 </tr>
 </tbody>

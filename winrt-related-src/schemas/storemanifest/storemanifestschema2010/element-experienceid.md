@@ -75,7 +75,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ExperienceIds](element-experienceids.md)</td>
+<td><a href="element-experienceids.md">ExperienceIds</a> </td>
 <td><p>The ExperienceIds element contains a list of one or more individual ExperienceId elements.</p></td>
 </tr>
 </tbody>

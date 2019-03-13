@@ -147,7 +147,7 @@ Defines one of the app packages or resource packages in the bundle.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Resources](element-resources.md)</td>
+<td><a href="element-resources.md">Resources</a> </td>
 <td><p>Declares languages, resolution scales, and DirectX feature levels for the resources that the package contains.</p></td>
 </tr>
 </tbody>
@@ -170,7 +170,7 @@ Defines one of the app packages or resource packages in the bundle.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Packages](element-packages.md)</td>
+<td><a href="element-packages.md">Packages</a> </td>
 <td><p>Defines the app packages and resource packages that are contained in the bundle.</p></td>
 </tr>
 </tbody>

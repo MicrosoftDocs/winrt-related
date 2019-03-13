@@ -90,12 +90,12 @@ Defines a set of plan information that specifies the data usage options and stat
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Description](element-description.md)</td>
+<td><a href="element-description.md">Description</a> </td>
 <td><p>Defines plan information that specifies the subscriber's Mobile Network Operator (MNO) connection type.</p></td>
 </tr>
 <tr class="even">
-<td>[Usage](element-usage.md)</td>
-<td><p>Defines the state of a subscriber's data usage on a connection to a Mobile Network Operator (MNO). UWP apps can retrieve this information using the [<strong>DataPlanStatus</strong>](https://msdn.microsoft.com/library/windows/apps/br207256) class.</p></td>
+<td><a href="element-usage.md">Usage</a> </td>
+<td><p>Defines the state of a subscriber's data usage on a connection to a Mobile Network Operator (MNO). UWP apps can retrieve this information using the <a href="https://msdn.microsoft.com/library/windows/apps/br207256"><strong>DataPlanStatus</strong></a>  class.</p></td>
 </tr>
 </tbody>
 </table>

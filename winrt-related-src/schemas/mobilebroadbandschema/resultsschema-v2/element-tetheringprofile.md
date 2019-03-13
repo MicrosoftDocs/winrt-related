@@ -102,8 +102,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[TetheringSettings](element-tetheringsettings.md)</td>
-<td><p>Contains any errors from processing the [<strong>TetheringSettings</strong>](https://msdn.microsoft.com/library/windows/apps/dn394030) element from the last provisioning attempt.</p></td>
+<td><a href="element-tetheringsettings.md">TetheringSettings</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394030"><strong>TetheringSettings</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>

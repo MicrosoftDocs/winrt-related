@@ -137,7 +137,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[binding](element-binding.md)</td>
+<td><a href="element-binding.md">binding</a> </td>
 <td><p>Specifies the tile template. Every notification should include one binding element for each supported tile size.</p></td>
 </tr>
 </tbody>

@@ -113,7 +113,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:VoipCall](element-uap-voipcall.md)</td>
+<td><a href="element-uap-voipcall.md">uap:VoipCall</a> </td>
 <td><p>Declares an app extensibility point of type <strong>voipCall</strong> so that your app can declare that it can perform an upgrade from a cellular call to a VoIP video call, and/or whether it is a VoIP app that supports dialing phone numbers directly.</p></td>
 </tr>
 </tbody>

@@ -115,23 +115,23 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DisplayName](element-displayname.md)</td>
+<td><a href="element-displayname.md">DisplayName</a> </td>
 <td><p>A friendly name that can be displayed to users. This string is localizable.</p></td>
 </tr>
 <tr class="even">
-<td>[EditFlags](element-editflags.md)</td>
+<td><a href="element-editflags.md">EditFlags</a> </td>
 <td><p>Specifies the type of info the user sees when opening a file associated to the extensibility point.</p></td>
 </tr>
 <tr class="odd">
-<td>[InfoTip](element-infotip.md)</td>
+<td><a href="element-infotip.md">InfoTip</a> </td>
 <td><p>Defines a string that provides additional info to the user about the file type.</p></td>
 </tr>
 <tr class="even">
-<td>[Logo](element-logo.md)</td>
+<td><a href="element-logo.md">Logo</a> </td>
 <td><p>A path to a file that contains an image.</p></td>
 </tr>
 <tr class="odd">
-<td>[SupportedFileTypes (type: CT_FTASupportedFileTypes)](element-supportedfiletypes.md)</td>
+<td><a href="element-supportedfiletypes.md">SupportedFileTypes (type: CT_FTASupportedFileTypes)</a> </td>
 <td><p>Defines the file types associated with the app. They are unique per package and are case sensitive.</p></td>
 </tr>
 </tbody>
@@ -154,7 +154,7 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extension (type: CT_ApplicationExtension)](element-extension.md)</td>
+<td><a href="element-extension.md">Extension (type: CT_ApplicationExtension)</a> </td>
 <td><p>Declares an extensibility point for the app.</p></td>
 </tr>
 </tbody>

@@ -89,11 +89,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:FileTypeAssociation](element-uap-filetypeassociation.md)</td>
+<td><a href="element-uap-filetypeassociation.md">uap:FileTypeAssociation</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.fileTypeAssociation</strong>. A file type association indicates that the app is registered to handle files of the specified types.</p></td>
 </tr>
 <tr class="even">
-<td>[uap:Protocol](element-uap-protocol.md)</td>
+<td><a href="element-uap-protocol.md">uap:Protocol</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.protocol</strong>. A URI association indicates that the app is registered to handle URIs with the specified scheme.</p></td>
 </tr>
 </tbody>

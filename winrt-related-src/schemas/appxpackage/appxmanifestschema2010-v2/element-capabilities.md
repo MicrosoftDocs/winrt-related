@@ -63,11 +63,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Capability](element-capability.md)</td>
+<td><a href="element-capability.md">Capability</a> </td>
 <td><p>Declares a capability required by a package.</p></td>
 </tr>
 <tr class="even">
-<td>[DeviceCapabilityChoice](element-devicecapabilitychoice.md)</td>
+<td><a href="element-devicecapabilitychoice.md">DeviceCapabilityChoice</a> </td>
 <td><p>The abstract device capability choice element for the XSD substitution group. This can't be declared in the XML.</p></td>
 </tr>
 </tbody>
@@ -90,7 +90,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Package](element-package.md)</td>
+<td><a href="element-package.md">Package</a> </td>
 <td><p>Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system.</p></td>
 </tr>
 </tbody>

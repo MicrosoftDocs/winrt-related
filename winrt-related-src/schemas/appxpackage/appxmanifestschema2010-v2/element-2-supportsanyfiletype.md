@@ -90,7 +90,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[SupportedFileTypes (type: CT_CharmsSupportedFileTypes)](element-3-supportedfiletypes.md)</td>
+<td><a href="element-3-supportedfiletypes.md">SupportedFileTypes (type: CT_CharmsSupportedFileTypes)</a> </td>
 <td><p>Defines the file types that the app can share.</p></td>
 </tr>
 </tbody>

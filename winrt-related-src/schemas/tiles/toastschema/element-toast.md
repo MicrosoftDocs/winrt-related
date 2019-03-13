@@ -102,16 +102,16 @@ Base toast element, which contains at least a single [**visual**](element-visual
 </thead>
 <tbody>
 <tr class="odd">
-<td>[audio](element-audio.md)</td>
+<td><a href="element-audio.md">audio</a> </td>
 <td><p>Specifies a sound to play when a toast notification is displayed. This element also allows you to mute any toast notification audio.</p></td>
 </tr>
 <tr class="even">
-<td>[commands](element-commands.md)</td>
+<td><a href="element-commands.md">commands</a> </td>
 <td><p>Specifies that the toast notification is being used to indicate an incoming call or an alarm, with appropriate commands associated with each scenario.</p></td>
 </tr>
 <tr class="odd">
-<td>[visual](element-visual.md)</td>
-<td><p>Contains a single [<strong>binding</strong>](https://msdn.microsoft.com/library/windows/apps/br212854) element that defines a toast.</p></td>
+<td><a href="element-visual.md">visual</a> </td>
+<td><p>Contains a single <a href="https://msdn.microsoft.com/library/windows/apps/br212854"><strong>binding</strong></a>  element that defines a toast.</p></td>
 </tr>
 </tbody>
 </table>
