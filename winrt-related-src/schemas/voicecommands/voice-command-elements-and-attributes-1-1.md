@@ -25,11 +25,6 @@ As with any XML file, a VCD file should begin with an XML declaration that speci
 > [!NOTE]
 > Visual Studio includes this by default in new XML files.
 
-<!-- > [!NOTE] 
-> Visual Studio includes this by default in new XML files. -->
-
- 
-
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 ```
