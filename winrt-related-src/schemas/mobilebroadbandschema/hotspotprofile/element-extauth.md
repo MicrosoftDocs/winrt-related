@@ -57,7 +57,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ExtensionId](element-extensionid.md)</td>
+<td><a href="element-extensionid.md">ExtensionId</a> </td>
 <td><p>The package family name of the app that will be invoked to handle the WISPr authentication.</p></td>
 </tr>
 </tbody>
@@ -80,8 +80,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[HotspotProfile](element-hotspotprofile.md)</td>
-<td><p>Defines the properties and login credentials for a Wi-Fi hotspot. [<strong>HotspotProfile</strong>](element-hotspotprofile.md) is the unique root element of a Wi-Fi hotspot profile that uses the Wireless Internet Service Provider roaming (WISPr) protocol.</p></td>
+<td><a href="element-hotspotprofile.md">HotspotProfile</a> </td>
+<td><p>Defines the properties and login credentials for a Wi-Fi hotspot. <a href="element-hotspotprofile.md"><strong>HotspotProfile</strong></a>  is the unique root element of a Wi-Fi hotspot profile that uses the Wireless Internet Service Provider roaming (WISPr) protocol.</p></td>
 </tr>
 </tbody>
 </table>

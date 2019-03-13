@@ -94,8 +94,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[RefreshParameters](element-refreshparameters.md)</td>
-<td><p>Contains any errors from processing the [<strong>RefreshParameters</strong>](https://msdn.microsoft.com/library/windows/apps/hh868302) element from the last provisioning attempt.</p></td>
+<td><a href="element-refreshparameters.md">RefreshParameters</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868302"><strong>RefreshParameters</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>

@@ -111,7 +111,7 @@ Defines an app extensibility point of type **windows.backgroundTasks**. Backgrou
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Task](element-task.md)</td>
+<td><a href="element-task.md">Task</a> </td>
 <td><p>The background task associated with the app extensibility point.</p></td>
 </tr>
 </tbody>
@@ -134,7 +134,7 @@ Defines an app extensibility point of type **windows.backgroundTasks**. Backgrou
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extension (in type: CT_ApplicationExtensions)](element-1-extension.md)</td>
+<td><a href="element-1-extension.md">Extension (in type: CT_ApplicationExtensions)</a> </td>
 <td><p>Declares an extensibility point for the app.</p></td>
 </tr>
 </tbody>

@@ -78,11 +78,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[FileType (type: ST_FileType)](element-3-filetype.md)</td>
+<td><a href="element-3-filetype.md">FileType (type: ST_FileType)</a> </td>
 <td><p>A file type specified as its file type extension. It is unique per application in the package and is case sensitive.</p></td>
 </tr>
 <tr class="even">
-<td>[SupportsAnyFileType](element-2-supportsanyfiletype.md)</td>
+<td><a href="element-2-supportsanyfiletype.md">SupportsAnyFileType</a> </td>
 <td><p>Indicates whether all file types are supported for sharing.</p></td>
 </tr>
 </tbody>
@@ -105,15 +105,15 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[FileOpenPicker](element-fileopenpicker.md)</td>
+<td><a href="element-fileopenpicker.md">FileOpenPicker</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.fileOpenPicker</strong>. The app lets the user choose and open the specified types of files.</p></td>
 </tr>
 <tr class="even">
-<td>[FileSavePicker](element-filesavepicker.md)</td>
+<td><a href="element-filesavepicker.md">FileSavePicker</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.fileSavePicker</strong>. The app lets the user choose the file name, extension, and storage location for the specified types of files.</p></td>
 </tr>
 <tr class="odd">
-<td>[ShareTarget](element-sharetarget.md)</td>
+<td><a href="element-sharetarget.md">ShareTarget</a> </td>
 <td><p>Declares an app extension point of type <strong>windows.shareTarget</strong>. The app can share the specified types of files.</p></td>
 </tr>
 </tbody>

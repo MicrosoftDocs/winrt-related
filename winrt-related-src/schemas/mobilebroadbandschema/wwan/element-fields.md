@@ -79,39 +79,39 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ActivationComplete](element-activationcomplete.md)</td>
+<td><a href="element-activationcomplete.md">ActivationComplete</a> </td>
 <td><p>If <strong>true</strong>, the subscription has been activated, and the machine should immediately attempt to connect. Otherwise, <strong>false</strong>.</p></td>
 </tr>
 <tr class="even">
-<td>[Congested](element-congested.md)</td>
+<td><a href="element-congested.md">Congested</a> </td>
 <td><p>If <strong>true</strong>, the subscriber's connection is in a state of congestion. Otherwise, it is either not supported by the MNO or <strong>false</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td>[DataLimit](element-datalimit.md)</td>
+<td><a href="element-datalimit.md">DataLimit</a> </td>
 <td><p>Defines a value representing the data limit in MB for a capped plan. Must be a value from 0 to 2<sup>32nd</sup>.</p></td>
 </tr>
 <tr class="even">
-<td>[InboundBandwidth](element-inboundbandwidth.md)</td>
+<td><a href="element-inboundbandwidth.md">InboundBandwidth</a> </td>
 <td><p>Defines a value representing the effective link speed of the subscriber’s inbound connection.</p></td>
 </tr>
 <tr class="odd">
-<td>[OutboundBandwidth](element-outboundbandwidth.md)</td>
+<td><a href="element-outboundbandwidth.md">OutboundBandwidth</a> </td>
 <td><p>Defines a value representing the effective link speed of the subscriber’s outbound connection.</p></td>
 </tr>
 <tr class="even">
-<td>[OverDataLimit](element-overdatalimit.md)</td>
+<td><a href="element-overdatalimit.md">OverDataLimit</a> </td>
 <td><p>Defines whether a subscriber has consumed more bytes than the data limit for their plan.</p></td>
 </tr>
 <tr class="odd">
-<td>[PlanType](element-plantype.md)</td>
+<td><a href="element-plantype.md">PlanType</a> </td>
 <td><p>Defines the type of plan currently in use by the subscriber.</p></td>
 </tr>
 <tr class="even">
-<td>[RefreshProvisioning](element-refreshprovisioning.md)</td>
+<td><a href="element-refreshprovisioning.md">RefreshProvisioning</a> </td>
 <td><p>If <strong>true</strong>, the network configuration has been updated, and the machine should attempt to retrieve a new provisioning file during the next available maintenance window. Otherwise, <strong>false</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td>[Usage](element-usage.md)</td>
+<td><a href="element-usage.md">Usage</a> </td>
 <td><p>Defines the number of bytes the subscriber has consumed against their data limit. If absent, it is inferred by:</p>
 <ul>
 <li><strong>UsagePercentage</strong> times <strong>DataLimit</strong></li>
@@ -123,19 +123,19 @@ None.
 </ul></td>
 </tr>
 <tr class="even">
-<td>[UsageOverage](element-usageoverage.md)</td>
+<td><a href="element-usageoverage.md">UsageOverage</a> </td>
 <td><p>Defines the number of bytes the subscriber has consumed over their data limit.</p></td>
 </tr>
 <tr class="odd">
-<td>[UsageOveragePercentage](element-usageoveragepercentage.md)</td>
+<td><a href="element-usageoveragepercentage.md">UsageOveragePercentage</a> </td>
 <td><p>Defines the percentage over the data limit a subscriber has consumed.</p></td>
 </tr>
 <tr class="even">
-<td>[UsagePercentage](element-usagepercentage.md)</td>
+<td><a href="element-usagepercentage.md">UsagePercentage</a> </td>
 <td><p>Defines the percentage of the data limit a subscriber has consumed.</p></td>
 </tr>
 <tr class="odd">
-<td>[UsageTimestamp](element-usagetimestamp.md)</td>
+<td><a href="element-usagetimestamp.md">UsageTimestamp</a> </td>
 <td><p>Defines a validity date and time of the usage information.</p></td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Message](element-message.md)</td>
+<td><a href="element-message.md">Message</a> </td>
 <td><p>Defines a MNO formatted message that contains the parsing rules necessary for Windows 8 to parse the message.</p></td>
 </tr>
 </tbody>

@@ -61,11 +61,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Dependencies](element-dependencies.md)</td>
+<td><a href="element-dependencies.md">Dependencies</a> </td>
 <td><p>Declares requirements that a package depends on to be applicable to a device.</p></td>
 </tr>
 <tr class="even">
-<td>[DeviceCompanionApplication](element-devicecompanionapplication.md)</td>
+<td><a href="element-devicecompanionapplication.md">DeviceCompanionApplication</a> </td>
 <td><p>The DeviceCompanionApplication element contains all the configuration required to declare your app as a Microsoft Store device app.</p></td>
 </tr>
 </tbody>

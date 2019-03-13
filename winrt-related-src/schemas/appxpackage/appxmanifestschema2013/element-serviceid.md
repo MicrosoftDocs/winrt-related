@@ -77,8 +77,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[LaunchAction (in ContactLaunchActions)](element-launchaction.md)</td>
-<td><p>Describes a [<strong>ContactLaunchActions</strong>](element-contactlaunchactions.md) content action.</p></td>
+<td><a href="element-launchaction.md">LaunchAction (in ContactLaunchActions)</a> </td>
+<td><p>Describes a <a href="element-contactlaunchactions.md"><strong>ContactLaunchActions</strong></a>  content action.</p></td>
 </tr>
 </tbody>
 </table>

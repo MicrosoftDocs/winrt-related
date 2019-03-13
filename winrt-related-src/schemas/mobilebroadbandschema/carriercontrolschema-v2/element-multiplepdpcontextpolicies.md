@@ -96,7 +96,7 @@ Defines multiple Packet Data Protocol (PDP) context policies in a subscriber's c
 </thead>
 <tbody>
 <tr class="odd">
-<td>[PDPContextPolicy](element-pdpcontextpolicy.md)</td>
+<td><a href="element-pdpcontextpolicy.md">PDPContextPolicy</a> </td>
 <td><p>Defines a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>
@@ -119,7 +119,7 @@ Defines multiple Packet Data Protocol (PDP) context policies in a subscriber's c
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AdditionalPDPContexts](element-additionalpdpcontexts.md)</td>
+<td><a href="element-additionalpdpcontexts.md">AdditionalPDPContexts</a> </td>
 <td><p>Defines additional Packet Data Protocol (PDP) contexts in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>

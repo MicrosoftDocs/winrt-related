@@ -138,7 +138,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:SupportedFileTypes (type: CT_FTASupportedFileTypes)](element-uap-supportedfiletypes.md)</td>
+<td><a href="element-uap-supportedfiletypes.md">uap:SupportedFileTypes (type: CT_FTASupportedFileTypes)</a> </td>
 <td><p>Defines the file types associated with the app. They are unique per package and are case sensitive.</p></td>
 </tr>
 </tbody>

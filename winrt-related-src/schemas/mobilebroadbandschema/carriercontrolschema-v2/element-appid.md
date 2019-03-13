@@ -80,7 +80,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AppIDList](element-appidlist.md)</td>
+<td><a href="element-appidlist.md">AppIDList</a> </td>
 <td><p>Defines the list of applications that are part of the Packet Data Protocol (PDP) context allowed list.</p></td>
 </tr>
 </tbody>

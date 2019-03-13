@@ -60,7 +60,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ExperienceId](element-experienceid.md)</td>
+<td><a href="element-experienceid.md">ExperienceId</a> </td>
 <td><p>The ExperienceId element specifies a GUID that links the device metadata to a device app that can be automatically acquired when the device is first connected. Each ExperienceId GUID corresponds to the ExperienceId element of a device metadata package.</p></td>
 </tr>
 </tbody>
@@ -83,7 +83,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[StoreManifest](element-storemanifest.md)</td>
+<td><a href="element-storemanifest.md">StoreManifest</a> </td>
 <td><p>Root node for the StoreManifest schema (for Windows 10).</p></td>
 </tr>
 </tbody>

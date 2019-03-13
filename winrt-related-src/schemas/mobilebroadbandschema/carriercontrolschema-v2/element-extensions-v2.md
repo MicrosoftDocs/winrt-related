@@ -59,11 +59,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AdditionalPDPContexts](element-additionalpdpcontexts.md)</td>
+<td><a href="element-additionalpdpcontexts.md">AdditionalPDPContexts</a> </td>
 <td><p>Defines additional Packet Data Protocol (PDP) contexts in a subscriber's carrier provisioning file.</p></td>
 </tr>
 <tr class="even">
-<td>[CarrierNetworkMetadata](element-carriernetworkmetadata.md)</td>
+<td><a href="element-carriernetworkmetadata.md">CarrierNetworkMetadata</a> </td>
 <td><p>Defines the network properties and settings in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>

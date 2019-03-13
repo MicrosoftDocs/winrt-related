@@ -171,21 +171,21 @@ Describes the visual aspects of the UWP app: its default tile, logo images, text
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DefaultTile](element-defaulttile.md)</td>
+<td><a href="element-defaulttile.md">DefaultTile</a> </td>
 <td><p>The default tile that represents the app on the Start screen. This tile is displayed when the app is first installed, before it has received any update notifications. When a tile has no notifications to show, the tile reverts to this default.</p></td>
 </tr>
 <tr class="even">
-<td>[InitialRotationPreference](element-initialrotationpreference.md)</td>
+<td><a href="element-initialrotationpreference.md">InitialRotationPreference</a> </td>
 <td><p>Describes the orientations in which the app would prefer to be shown for the best user experience. On a device that can be rotated, such as a tablet, the app will not be redrawn for orientations that are not specified here. For instance, if the app specifies only Landscape and LandscapeFlipped orientations, and the device is rotated to a Portrait orientation, the app will not rotate.</p>
 <p>Note that on devices that can't be rotated, an app might be shown in that device's default orientation and the app's preferred orientation will be ignored. However, on a device with a rotation lock activated, your app's preferred rotation will still be honored.</p>
 <p>These orientation preference choices apply to both the [<strong>splash screen</strong>](element-splashscreen.md) and the app UI when a new session is launched for your app. The preferences can be changed during run time through the [<strong>AutoRotationPreferences</strong>](https://msdn.microsoft.com/library/windows/apps/br226145) property.</p></td>
 </tr>
 <tr class="odd">
-<td>[LockScreen](element-lockscreen.md)</td>
+<td><a href="element-lockscreen.md">LockScreen</a> </td>
 <td><p>Defines the badge and notifications that represent the app on the lock screen, which is shown when the system is locked.</p></td>
 </tr>
 <tr class="even">
-<td>[SplashScreen](element-splashscreen.md)</td>
+<td><a href="element-splashscreen.md">SplashScreen</a> </td>
 <td><p>Defines the appearance of the splash screen, which is displayed by the app during launch.</p></td>
 </tr>
 </tbody>
@@ -208,7 +208,7 @@ Describes the visual aspects of the UWP app: its default tile, logo images, text
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Application](element-application.md)</td>
+<td><a href="element-application.md">Application</a> </td>
 <td><p>Represents an app that comprises part of or all of the functionality delivered in the package.</p></td>
 </tr>
 </tbody>

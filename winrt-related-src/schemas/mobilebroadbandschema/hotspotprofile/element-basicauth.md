@@ -58,11 +58,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Password](element-password.md)</td>
+<td><a href="element-password.md">Password</a> </td>
 <td><p>Password to be used for WISPr authentication.</p></td>
 </tr>
 <tr class="even">
-<td>[UserName](element-username.md)</td>
+<td><a href="element-username.md">UserName</a> </td>
 <td><p>User name to be used for WISPr authentication.</p></td>
 </tr>
 </tbody>
@@ -85,8 +85,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[HotspotProfile](element-hotspotprofile.md)</td>
-<td><p>Defines the properties and login credentials for a Wi-Fi hotspot. [<strong>HotspotProfile</strong>](element-hotspotprofile.md) is the unique root element of a Wi-Fi hotspot profile that uses the Wireless Internet Service Provider roaming (WISPr) protocol.</p></td>
+<td><a href="element-hotspotprofile.md">HotspotProfile</a> </td>
+<td><p>Defines the properties and login credentials for a Wi-Fi hotspot. <a href="element-hotspotprofile.md"><strong>HotspotProfile</strong></a>  is the unique root element of a Wi-Fi hotspot profile that uses the Wireless Internet Service Provider roaming (WISPr) protocol.</p></td>
 </tr>
 </tbody>
 </table>

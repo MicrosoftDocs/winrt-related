@@ -65,7 +65,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Properties](element-properties.md)</td>
+<td><a href="element-properties.md">Properties</a> </td>
 <td><p>Defines additional metadata about the package including attributes that describe how the package appears to users.</p>
 <div class="alert">
 <strong>Note</strong>  You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely “|” and “all”, due to which Windows fails to create the AppContainer profile for the package . Use this reference for [troubleshooting](https://msdn.microsoft.com/library/windows/desktop/hh973484) if you get an error.

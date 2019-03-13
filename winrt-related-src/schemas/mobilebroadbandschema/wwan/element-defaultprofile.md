@@ -92,31 +92,31 @@ Defines the default connection profile used by a subscriber to connect to a MNO.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AssociatedPlan](element-associatedplan.md)</td>
-<td><p>Contains the name of the subscriber's data plan. It must match the <strong>Name</strong> attribute of a [<strong>Plan</strong>](https://msdn.microsoft.com/library/windows/apps/hh868373) in the same XML document.</p></td>
+<td><a href="element-associatedplan.md">AssociatedPlan</a> </td>
+<td><p>Contains the name of the subscriber's data plan. It must match the <strong>Name</strong> attribute of a <a href="https://msdn.microsoft.com/library/windows/apps/hh868373"><strong>Plan</strong></a>  in the same XML document.</p></td>
 </tr>
 <tr class="even">
-<td>[Context](element-context.md)</td>
+<td><a href="element-context.md">Context</a> </td>
 <td><p>Defines the parameters required to setup a data connection.</p></td>
 </tr>
 <tr class="odd">
-<td>[DataRoamingPartners](element-dataroamingpartners.md)</td>
+<td><a href="element-dataroamingpartners.md">DataRoamingPartners</a> </td>
 <td><p>Defines the list of preferred network providers for roaming.</p></td>
 </tr>
 <tr class="even">
-<td>[Description](element-description.md)</td>
+<td><a href="element-description.md">Description</a> </td>
 <td><p>Defines a brief description of the profile.</p></td>
 </tr>
 <tr class="odd">
-<td>[Extensions](element-extensions.md)</td>
+<td><a href="element-extensions.md">Extensions</a> </td>
 <td><p>Defines a schema extension point container for future additions.</p></td>
 </tr>
 <tr class="even">
-<td>[HomeProviderName](element-homeprovidername.md)</td>
+<td><a href="element-homeprovidername.md">HomeProviderName</a> </td>
 <td><p>Defines the name of the Home Provider for a given SIM/Device.</p></td>
 </tr>
 <tr class="odd">
-<td>[Name (type: NameType)](element-1-name.md)</td>
+<td><a href="element-1-name.md">Name (type: NameType)</a> </td>
 <td><p>Defines the profile name. Must be 64 characters or less.</p></td>
 </tr>
 </tbody>

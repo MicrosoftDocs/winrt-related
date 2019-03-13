@@ -62,11 +62,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[SecurityUpdatesExempt](element-securityupdatesexempt.md)</td>
+<td><a href="element-securityupdatesexempt.md">SecurityUpdatesExempt</a> </td>
 <td><p>If <strong>true</strong>, the MNO advises Windows Update (WU) that security updates are exempt from being counted as data usage against the subscriber’s plan and WU will download all security patches when on a metered network. Otherwise, WU will only download zero-day patches and not all security updates when <strong>false</strong>.</p></td>
 </tr>
 <tr class="even">
-<td>[UserSMSEnabled](element-usersmsenabled.md)</td>
+<td><a href="element-usersmsenabled.md">UserSMSEnabled</a> </td>
 <td><p>Indicates whether the subscriber's service includes user-to-user SMS which must be delivered in near real-time. If <strong>true</strong>, Windows will employ less aggressive power management on the Mobile Broadband interface to allow SMS messages to arrive more quickly. If <strong>false</strong>, SMS messages will arrive when the PC is next active.</p></td>
 </tr>
 </tbody>
@@ -89,8 +89,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Cost](element-cost.md)</td>
-<td><p>Defines a set of meter cost information that specifies the metered state of a subscriber's connection to a Mobile Network Operator (MNO). [<strong>Cost</strong>](element-cost.md) is the unique root element for DUSM cost information.</p></td>
+<td><a href="element-cost.md">Cost</a> </td>
+<td><p>Defines a set of meter cost information that specifies the metered state of a subscriber's connection to a Mobile Network Operator (MNO). <a href="element-cost.md"><strong>Cost</strong></a>  is the unique root element for DUSM cost information.</p></td>
 </tr>
 </tbody>
 </table>

@@ -112,8 +112,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Plan](element-plan.md)</td>
-<td><p>Defines a set of plan information that specifies the data usage options and state of a subscriber's connection to a Mobile Network Operator (MNO). [<strong>Plan</strong>](element-plan.md) is the unique root element for plan information</p></td>
+<td><a href="element-plan.md">Plan</a> </td>
+<td><p>Defines a set of plan information that specifies the data usage options and state of a subscriber's connection to a Mobile Network Operator (MNO). <a href="element-plan.md"><strong>Plan</strong></a>  is the unique root element for plan information</p></td>
 </tr>
 </tbody>
 </table>

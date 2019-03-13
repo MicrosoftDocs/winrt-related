@@ -61,7 +61,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Resource](element-resource.md)</td>
+<td><a href="element-resource.md">Resource</a> </td>
 <td><p>Declares a language for resources contained in the package.</p></td>
 </tr>
 </tbody>
@@ -84,7 +84,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Package](element-package.md)</td>
+<td><a href="element-package.md">Package</a> </td>
 <td><p>Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system.</p></td>
 </tr>
 </tbody>

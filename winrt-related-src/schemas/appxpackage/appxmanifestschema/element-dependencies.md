@@ -61,7 +61,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[PackageDependency](element-packagedependency.md)</td>
+<td><a href="element-packagedependency.md">PackageDependency</a> </td>
 <td><p>Declares a dependency on another package that is marked as a framework package.</p></td>
 </tr>
 </tbody>
@@ -84,7 +84,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Package](element-package.md)</td>
+<td><a href="element-package.md">Package</a> </td>
 <td><p>Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system.</p></td>
 </tr>
 </tbody>

@@ -65,8 +65,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ExtAuth](element-extauth.md)</td>
-<td><p>Contains the parameters for handling WISPr authentication through an app (rather than specifying a static user name and password via [<strong>BasicAuth</strong>](element-basicauth.md)).</p></td>
+<td><a href="element-extauth.md">ExtAuth</a> </td>
+<td><p>Contains the parameters for handling WISPr authentication through an app (rather than specifying a static user name and password via <a href="element-basicauth.md"><strong>BasicAuth</strong></a> ).</p></td>
 </tr>
 </tbody>
 </table>

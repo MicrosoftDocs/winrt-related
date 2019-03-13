@@ -59,7 +59,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ContactLaunchActions](element-contactlaunchactions.md)</td>
+<td><a href="element-contactlaunchactions.md">ContactLaunchActions</a> </td>
 <td><p>Declares actions to take when a contact is launched.</p></td>
 </tr>
 </tbody>
@@ -82,7 +82,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extension](element-extension.md)</td>
+<td><a href="element-extension.md">Extension</a> </td>
 <td><p>Declares an extensibility point for the app.</p></td>
 </tr>
 </tbody>

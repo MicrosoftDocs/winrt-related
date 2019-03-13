@@ -74,7 +74,7 @@ Specifies a scenario-associated button shown in a toast. The scenario is specifi
 </tr>
 <tr class="even">
 <td><strong>id</strong></td>
-<td><p>Specifies one command from the system-defined command list. These values correspond to available actions that the user can take. Two scenarios are available through the [<strong>commands</strong>](element-commands.md) element. Only certain commands are used with a given scenario, as shown here:</p>
+<td><p>Specifies one command from the system-defined command list. These values correspond to available actions that the user can take. Two scenarios are available through the <a href="element-commands.md"><strong>commands</strong></a>  element. Only certain commands are used with a given scenario, as shown here:</p>
 <ul>
 <li><strong>alarm</strong>
 <ul>
@@ -123,7 +123,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[commands](element-commands.md)</td>
+<td><a href="element-commands.md">commands</a> </td>
 <td><p>Specifies that the toast notification is being used to indicate an incoming call or an alarm, with appropriate commands associated with each scenario.</p></td>
 </tr>
 </tbody>

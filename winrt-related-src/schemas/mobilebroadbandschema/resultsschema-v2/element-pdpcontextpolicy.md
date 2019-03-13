@@ -102,8 +102,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[MultiplePDPContextPolicies](element-multiplepdpcontextpolicies.md)</td>
-<td><p>Contains any errors from processing the [<strong>MultiplePDPContextPolicies</strong>](https://msdn.microsoft.com/library/windows/apps/dn394018) element from the last provisioning attempt.</p></td>
+<td><a href="element-multiplepdpcontextpolicies.md">MultiplePDPContextPolicies</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394018"><strong>MultiplePDPContextPolicies</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>

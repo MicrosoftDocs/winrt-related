@@ -98,7 +98,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ShowNameOnTiles](element-shownameontiles.md)</td>
+<td><a href="element-shownameontiles.md">ShowNameOnTiles</a> </td>
 <td><p>Describes whether Windows overlays the app’s name on top of the tile images that are shown on the Start screen.</p></td>
 </tr>
 </tbody>

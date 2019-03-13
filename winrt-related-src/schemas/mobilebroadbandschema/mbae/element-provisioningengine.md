@@ -63,7 +63,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[TrustedCertificates](element-trustedcertificates.md)</td>
+<td><a href="element-trustedcertificates.md">TrustedCertificates</a> </td>
 <td><p>Defines the list of trusted security certificates required for provisioning on the mobile network.</p></td>
 </tr>
 </tbody>
@@ -86,7 +86,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[MobileBroadbandInfo](element-mobilebroadbandinfo.md)</td>
+<td><a href="element-mobilebroadbandinfo.md">MobileBroadbandInfo</a> </td>
 <td><p>Defines mobile broadband information required for provisioning on the mobile network.</p></td>
 </tr>
 </tbody>

@@ -65,7 +65,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Provider](element-1-provider.md)</td>
+<td><a href="element-1-provider.md">Provider</a> </td>
 <td><p>Defines the name and provider ID of a cellular network.</p></td>
 </tr>
 </tbody>
@@ -88,11 +88,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DefaultProfile](element-defaultprofile.md)</td>
+<td><a href="element-defaultprofile.md">DefaultProfile</a> </td>
 <td><p>Defines the default connection profile used by a subscriber to connect to a MNO. The Mobile Broadband service will use these connection settings without prompting the user for details.</p></td>
 </tr>
 <tr class="even">
-<td>[PurchaseProfile](element-purchaseprofile.md)</td>
+<td><a href="element-purchaseprofile.md">PurchaseProfile</a> </td>
 <td><p>Defines a purchase connection profile used by a subscriber to connect to a MNO.</p></td>
 </tr>
 </tbody>

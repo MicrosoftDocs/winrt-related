@@ -69,15 +69,15 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AppIDList](element-appidlist.md)</td>
+<td><a href="element-appidlist.md">AppIDList</a> </td>
 <td><p>Defines the list of applications that are part of the Packet Data Protocol (PDP) context allowed list.</p></td>
 </tr>
 <tr class="even">
-<td>[Context](element-context.md)</td>
+<td><a href="element-context.md">Context</a> </td>
 <td><p>Defines the context of a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file.</p></td>
 </tr>
 <tr class="odd">
-<td>[Name](element-name.md)</td>
+<td><a href="element-name.md">Name</a> </td>
 <td><p>Defines the name of a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>
@@ -100,7 +100,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[MultiplePDPContextPolicies](element-multiplepdpcontextpolicies.md)</td>
+<td><a href="element-multiplepdpcontextpolicies.md">MultiplePDPContextPolicies</a> </td>
 <td><p>Defines multiple Packet Data Protocol (PDP) context policies in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>

@@ -68,11 +68,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Context](element-1-context.md)</td>
+<td><a href="element-1-context.md">Context</a> </td>
 <td><p>Defines the context of a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file.</p></td>
 </tr>
 <tr class="even">
-<td>[Name](element-1-name.md)</td>
+<td><a href="element-1-name.md">Name</a> </td>
 <td><p>Defines the name of a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>
@@ -95,7 +95,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[TetheringSettings](element-tetheringsettings.md)</td>
+<td><a href="element-tetheringsettings.md">TetheringSettings</a> </td>
 <td><p>Defines the tethering settings in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>

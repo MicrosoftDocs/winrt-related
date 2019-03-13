@@ -109,7 +109,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:MediaPlayback](element-uap-mediaplayback.md)</td>
+<td><a href="element-uap-mediaplayback.md">uap:MediaPlayback</a> </td>
 <td><p>Declares an app extensibility point of type <strong>mediaPlayback</strong> so that your app can declare that it performs video transcoding.</p></td>
 </tr>
 </tbody>

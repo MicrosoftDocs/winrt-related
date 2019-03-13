@@ -77,32 +77,32 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[G](element-g.md)</td>
-<td><p>Defines an integer with certain properties with respect to [<strong>P</strong>](element-p.md) and [<strong>Q</strong>](element-q.md) as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-g.md">G</a> </td>
+<td><p>Defines an integer with certain properties with respect to <a href="element-p.md"><strong>P</strong></a>  and <a href="element-q.md"><strong>Q</strong></a> as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 <tr class="even">
-<td>[J](element-j.md)</td>
-<td><p>Defines ([<strong>P</strong>](element-p.md) - 1) / [<strong>Q</strong>](element-q.md) as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-j.md">J</a> </td>
+<td><p>Defines (<a href="element-p.md"><strong>P</strong></a>  - 1) / <a href="element-q.md"><strong>Q</strong></a> as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 <tr class="odd">
-<td>[P](element-p.md)</td>
-<td><p>Defines a prime modulus meeting the [DSAwithSHA1](https://www.w3.org/2000/09/xmldsig#dsa-sha1 ) requirements as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-p.md">P</a> </td>
+<td><p>Defines a prime modulus meeting the <a href="https://www.w3.org/2000/09/xmldsig#dsa-sha1 ">DSAwithSHA1</a>  requirements as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 <tr class="even">
-<td>[PgenCounter](element-pgencounter.md)</td>
-<td><p>Defines a Digital Signature Algorithm (DSA) prime generation counter as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-pgencounter.md">PgenCounter</a> </td>
+<td><p>Defines a Digital Signature Algorithm (DSA) prime generation counter as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> .</p></td>
 </tr>
 <tr class="odd">
-<td>[Q](element-q.md)</td>
-<td><p>Defines an integer in the range 2**159 &lt; [<strong>Q</strong>](element-q.md) &lt; 2**160 which is a prime divisor of [<strong>P</strong>](element-p.md)-1 as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-q.md">Q</a> </td>
+<td><p>Defines an integer in the range 2**159 &lt; <a href="element-q.md"><strong>Q</strong></a>  &lt; 2**160 which is a prime divisor of <a href="element-p.md"><strong>P</strong></a>-1 as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 <tr class="even">
-<td>[Seed](element-seed.md)</td>
-<td><p>Defines a Digital Signature Algorithm (DSA) prime generation seed as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-seed.md">Seed</a> </td>
+<td><p>Defines a Digital Signature Algorithm (DSA) prime generation seed as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> .</p></td>
 </tr>
 <tr class="odd">
-<td>[Y](element-y.md)</td>
-<td><p>Defines [<strong>G</strong>](element-g.md)**X mod [<strong>P</strong>](element-p.md) (where X is part of the private key and not made public) as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-y.md">Y</a> </td>
+<td><p>Defines <a href="element-g.md"><strong>G</strong></a> **X mod <a href="element-p.md"><strong>P</strong></a> (where X is part of the private key and not made public) as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -124,8 +124,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[KeyValue](element-keyvalue.md)</td>
-<td><p>Defines a single public key as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-keyvalue.md">KeyValue</a> </td>
+<td><p>Defines a single public key as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> .</p></td>
 </tr>
 </tbody>
 </table>

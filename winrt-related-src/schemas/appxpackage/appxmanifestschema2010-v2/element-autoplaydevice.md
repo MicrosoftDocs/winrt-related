@@ -62,7 +62,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[LaunchAction (in type: CT_AutoPlayDevice)](element-1-launchaction.md)</td>
+<td><a href="element-1-launchaction.md">LaunchAction (in type: CT_AutoPlayDevice)</a> </td>
 <td><p>Describes an AutoPlay device action.</p></td>
 </tr>
 </tbody>
@@ -85,7 +85,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extension (type: CT_ApplicationExtension)](element-extension.md)</td>
+<td><a href="element-extension.md">Extension (type: CT_ApplicationExtension)</a> </td>
 <td><p>Declares an extensibility point for the app.</p></td>
 </tr>
 </tbody>

@@ -70,12 +70,12 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DSAKeyValue](element-dsakeyvalue.md)</td>
-<td><p>Defines a Digital Signature Algorithm (DSA) public key as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-dsakeyvalue.md">DSAKeyValue</a> </td>
+<td><p>Defines a Digital Signature Algorithm (DSA) public key as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> .</p></td>
 </tr>
 <tr class="even">
-<td>[RSAKeyValue](element-rsakeyvalue.md)</td>
-<td><p>Defines a RSA public key as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-rsakeyvalue.md">RSAKeyValue</a> </td>
+<td><p>Defines a RSA public key as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> .</p></td>
 </tr>
 </tbody>
 </table>
@@ -97,8 +97,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[KeyInfo](element-keyinfo.md)</td>
-<td><p>Defines all key information used to validate the signature as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-keyinfo.md">KeyInfo</a> </td>
+<td><p>Defines all key information used to validate the signature as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> .</p></td>
 </tr>
 </tbody>
 </table>

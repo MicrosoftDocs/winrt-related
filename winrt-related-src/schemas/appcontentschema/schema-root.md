@@ -149,35 +149,35 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AdditionalProperties](element-additionalproperties.md)</td>
+<td><a href="element-additionalproperties.md">AdditionalProperties</a> </td>
 <td><p>Contains additional properties that describe the item.</p></td>
 </tr>
 <tr class="even">
-<td>[Comment](element-comment.md)</td>
-<td><p>Contains a [System.Comment](https://msdn.microsoft.com/library/windows/desktop/bb760658) that describes the item.</p></td>
+<td><a href="element-comment.md">Comment</a> </td>
+<td><p>Contains a <a href="https://msdn.microsoft.com/library/windows/desktop/bb760658">System.Comment</a>  that describes the item.</p></td>
 </tr>
 <tr class="odd">
-<td>[Keyword](element-keyword.md)</td>
-<td><p>A one of the [System.Keywords](https://msdn.microsoft.com/library/windows/desktop/bb787519) that describes the item.</p></td>
+<td><a href="element-keyword.md">Keyword</a> </td>
+<td><p>A one of the <a href="https://msdn.microsoft.com/library/windows/desktop/bb787519">System.Keywords</a>  that describes the item.</p></td>
 </tr>
 <tr class="even">
-<td>[Keywords](element-keywords.md)</td>
-<td><p>Contains the [System.Keywords](https://msdn.microsoft.com/library/windows/desktop/bb787519) that describe the item.</p></td>
+<td><a href="element-keywords.md">Keywords</a> </td>
+<td><p>Contains the <a href="https://msdn.microsoft.com/library/windows/desktop/bb787519">System.Keywords</a>  that describe the item.</p></td>
 </tr>
 <tr class="odd">
-<td>[Name](element-name.md)</td>
-<td><p>Specifies the [System.ItemName](https://msdn.microsoft.com/library/windows/desktop/bb760768)\[System.ItemNameDisplay](https://msdn.microsoft.com/library/windows/desktop/bb760770) of the item.</p></td>
+<td><a href="element-name.md">Name</a> </td>
+<td><p>Specifies the <a href="https://msdn.microsoft.com/library/windows/desktop/bb760768">System.ItemName</a> \<a href="https://msdn.microsoft.com/library/windows/desktop/bb760770">System.ItemNameDisplay</a> of the item.</p></td>
 </tr>
 <tr class="even">
-<td>[Properties](element-properties.md)</td>
+<td><a href="element-properties.md">Properties</a> </td>
 <td><p>Contains properties that describe the item to the Windows Search Index.</p></td>
 </tr>
 <tr class="odd">
-<td>[Property](element-property.md)</td>
+<td><a href="element-property.md">Property</a> </td>
 <td><p>A property that describes the item.</p></td>
 </tr>
 <tr class="even">
-<td>[Value](element-value.md)</td>
+<td><a href="element-value.md">Value</a> </td>
 <td><p>The value that will be indexed for the property.</p></td>
 </tr>
 </tbody>
@@ -203,11 +203,11 @@ Use these attributes to index content in your own app-specific XML elements.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>[<strong>ContentType</strong>](contenttype.md)</p></td>
+<td><p><a href="contenttype.md"><strong>ContentType</strong></a> </p></td>
 <td><p>Setting this property on an element indicates that the element’s content is treated as a base64 encoding of the specified MIME type / content type and is indexed using the handler for that content type.</p></td>
 </tr>
 <tr class="even">
-<td><p>[<strong>IndexableContent</strong>](indexablecontent.md)</p></td>
+<td><p><a href="indexablecontent.md"><strong>IndexableContent</strong></a> </p></td>
 <td><p>Indicates that the element's text should be indexed for search, but is not associated with a property. Note that properties can be retrieved later based on the property key, but text content cannot.</p></td>
 </tr>
 </tbody>

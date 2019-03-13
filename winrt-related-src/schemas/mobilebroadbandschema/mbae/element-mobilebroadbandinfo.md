@@ -61,7 +61,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[NetworkConfiguration](element-networkconfiguration.md)</td>
+<td><a href="element-networkconfiguration.md">NetworkConfiguration</a> </td>
 <td><div class="alert">
 <strong>Note</strong>  The <strong>NetworkConfiguration</strong> element is deprecated. Starting with Windows 8 and Windows Server 2012, the mobile operator should use Access Point Name (APN) Database to provide Purchase and Internet APN information.
 </div>
@@ -71,7 +71,7 @@ None.
 <p>Defines the network configuration for the mobile broadband Purchase and Internet profiles to be used for mobile network.</p></td>
 </tr>
 <tr class="even">
-<td>[ProvisioningEngine](element-provisioningengine.md)</td>
+<td><a href="element-provisioningengine.md">ProvisioningEngine</a> </td>
 <td><p>Defines the trusted certificate values for Subject Name and Issuer Name required for provisioning on the mobile network.</p></td>
 </tr>
 </tbody>

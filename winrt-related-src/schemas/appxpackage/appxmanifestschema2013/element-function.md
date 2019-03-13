@@ -91,8 +91,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Device](element-device.md)</td>
-<td><p>Declares a function for a device that is associated with the [<strong>DeviceCapability</strong>](element-devicecapability.md).</p></td>
+<td><a href="element-device.md">Device</a> </td>
+<td><p>Declares a function for a device that is associated with the <a href="element-devicecapability.md"><strong>DeviceCapability</strong></a> .</p></td>
 </tr>
 </tbody>
 </table>

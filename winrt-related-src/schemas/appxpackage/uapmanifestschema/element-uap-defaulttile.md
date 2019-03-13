@@ -109,7 +109,7 @@ The default tile that represents your app on the Start screen. The icons specifi
 </tr>
 <tr class="even">
 <td><strong>Wide310x150Logo</strong></td>
-<td><p>The 310x150 wide version of the logo image. This image is displayed when the tile is displayed in its wide format. If this image is not provided, the tile can only display in the square format and can't accept notifications based on [wide template types](https://msdn.microsoft.com/library/windows/apps/hh761491). The user has the ultimate choice as to which format the tile uses, so it is a best practice to include a wide logo image. If a wide logo image is provided, the tile will be shown initially in its wide format. For more info about required logo dimensions, see [Tile sizes](https://msdn.microsoft.com/library/windows/apps/hh781198).</p>
+<td><p>The 310x150 wide version of the logo image. This image is displayed when the tile is displayed in its wide format. If this image is not provided, the tile can only display in the square format and can't accept notifications based on <a href="https://msdn.microsoft.com/library/windows/apps/hh761491">wide template types</a> . The user has the ultimate choice as to which format the tile uses, so it is a best practice to include a wide logo image. If a wide logo image is provided, the tile will be shown initially in its wide format. For more info about required logo dimensions, see <a href="https://msdn.microsoft.com/library/windows/apps/hh781198">Tile sizes</a>.</p>
 <p>For more info about how to specify the image in this attribute, see Remarks.</p></td>
 <td>A string between 1 and 256 characters in length that ends with &quot;.jpg&quot;, &quot;.png&quot;, or &quot;.jpeg&quot; that can't contain these characters: &lt;, &gt;, :, &quot;, |, ?, or *. In this string, the / and \ characters can't be the first or last characters. Also, the string can contain / or \ but not both.</td>
 <td>No</td>
@@ -135,15 +135,15 @@ The default tile that represents your app on the Start screen. The icons specifi
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:ShowNameOnTiles](element-uap-shownameontiles.md)</td>
+<td><a href="element-uap-shownameontiles.md">uap:ShowNameOnTiles</a> </td>
 <td><p>Describes whether Windows overlays the app’s name on top of the tile images that are shown on the Start screen.</p></td>
 </tr>
 <tr class="even">
-<td>[uap:TileUpdate](element-uap-tileupdate.md)</td>
+<td><a href="element-uap-tileupdate.md">uap:TileUpdate</a> </td>
 <td><p>Describes how the app tile receives update notifications.</p></td>
 </tr>
 <tr class="odd">
-<td>[uap5:MixedRealityModel](element-uap5-MixedRealityModel.md)</td>
+<td><a href="element-uap5-MixedRealityModel.md">uap5:MixedRealityModel</a> </td>
 <td><p>An element used to define a 3D model as the default representation of an app. When launched from a virtual or mixed reality device, this model will represent the app in the virtual setting.</p></td>
 </tr>
 </tbody>
@@ -166,7 +166,7 @@ The default tile that represents your app on the Start screen. The icons specifi
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:VisualElements](element-uap-visualelements.md)</td>
+<td><a href="element-uap-visualelements.md">uap:VisualElements</a> </td>
 <td><p>Describes the visual aspects of the app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance.</p></td>
 </tr>
 </tbody>

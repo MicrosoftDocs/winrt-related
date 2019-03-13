@@ -33,11 +33,11 @@ Use these attributes to index content in your own app-specific XML elements.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>[<strong>ContentType</strong>](contenttype.md)</p></td>
+<td><p><a href="contenttype.md"><strong>ContentType</strong></a> </p></td>
 <td><p>Setting this property on an element indicates that the element’s content is treated as a base64 encoding of the specified MIME type / content type and is indexed using the handler for that content type.</p></td>
 </tr>
 <tr class="even">
-<td><p>[<strong>IndexableContent</strong>](indexablecontent.md)</p></td>
+<td><p><a href="indexablecontent.md"><strong>IndexableContent</strong></a> </p></td>
 <td><p>Indicates that the element's text should be indexed for search, but is not associated with a property. Note that properties can be retrieved later based on the property key, but text content cannot.</p></td>
 </tr>
 </tbody>

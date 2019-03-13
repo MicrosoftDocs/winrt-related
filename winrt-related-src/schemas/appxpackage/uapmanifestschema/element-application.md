@@ -106,7 +106,7 @@ Represents an app that comprises part of or all of the functionality delivered i
 </tr>
 <tr class="even">
 <td><strong>ResourceGroup</strong></td>
-<td><p>ResourceGroup is a tag that you can use to group extension activations together for resource management purposes (for example, CPU and memory). See [<strong>Extension@ResourceGroup</strong>](element-uap-extension.md).</p></td>
+<td><p>ResourceGroup is a tag that you can use to group extension activations together for resource management purposes (for example, CPU and memory). See <a href="element-uap-extension.md"><strong>Extension@ResourceGroup</strong></a> .</p></td>
 <td>An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.</td>
 <td>No</td>
 <td></td>
@@ -154,15 +154,15 @@ Represents an app that comprises part of or all of the functionality delivered i
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extensions (type: CT_ApplicationExtensions)](element-1-extensions.md)</td>
+<td><a href="element-1-extensions.md">Extensions (type: CT_ApplicationExtensions)</a> </td>
 <td><p>Defines one or more extensibility points for the app.</p></td>
 </tr>
 <tr class="even">
-<td>[uap:ApplicationContentUriRules](element-uap-applicationcontenturirules.md)</td>
+<td><a href="element-uap-applicationcontenturirules.md">uap:ApplicationContentUriRules</a> </td>
 <td><p>Specifies which pages in the web context have access to the system's geolocation devices (if the app has permission to access this capability) and access to the clipboard.</p></td>
 </tr>
 <tr class="odd">
-<td>[uap:VisualElements](element-uap-visualelements.md)</td>
+<td><a href="element-uap-visualelements.md">uap:VisualElements</a> </td>
 <td><p>Describes the visual aspects of the app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance.</p></td>
 </tr>
 </tbody>
@@ -185,7 +185,7 @@ Represents an app that comprises part of or all of the functionality delivered i
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Applications](element-applications.md)</td>
+<td><a href="element-applications.md">Applications</a> </td>
 <td><p>Represents one or more apps that comprise the package.</p></td>
 </tr>
 </tbody>

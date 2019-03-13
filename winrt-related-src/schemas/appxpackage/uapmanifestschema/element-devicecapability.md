@@ -93,8 +93,8 @@ Declares a device capability required by a package. On Windows 10.0.10240.0, can
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Device](element-device.md)</td>
-<td><p>Declares a function for a device that is associated with the [<strong>DeviceCapability</strong>](element-devicecapability.md). On Windows 10.0.10240.0, a <strong>DeviceCapability</strong> can contain up to 100 <strong>Device</strong> elements. On Windows 10.0.10586.0, it can contain up to 1000 (for more details, see <strong>DeviceCapability</strong>).</p></td>
+<td><a href="element-device.md">Device</a> </td>
+<td><p>Declares a function for a device that is associated with the <a href="element-devicecapability.md"><strong>DeviceCapability</strong></a> . On Windows 10.0.10240.0, a <strong>DeviceCapability</strong> can contain up to 100 <strong>Device</strong> elements. On Windows 10.0.10586.0, it can contain up to 1000 (for more details, see <strong>DeviceCapability</strong>).</p></td>
 </tr>
 </tbody>
 </table>
@@ -116,7 +116,7 @@ Declares a device capability required by a package. On Windows 10.0.10240.0, can
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Capabilities](element-capabilities.md)</td>
+<td><a href="element-capabilities.md">Capabilities</a> </td>
 <td><p>Declares the access to protected user resources that the package requires. You can have multiple <strong>DeviceCapability</strong> and <strong>Capability</strong> elements in the <strong>Capabilities</strong> element, but all <strong>DeviceCapability</strong> elements must come after the <strong>Capability</strong> elements.</p></td>
 </tr>
 </tbody>

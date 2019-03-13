@@ -79,7 +79,7 @@ Specifies text used in the toast template.
 </tr>
 <tr class="even">
 <td><strong>lang</strong></td>
-<td><p>The target locale of the XML payload, specified as a [BCP-47 language tags](https://go.microsoft.com/fwlink/p/?linkid=227302) such as &quot;en-US&quot; or &quot;fr-FR&quot;. The locale specified here overrides any other specified locale in [<strong>binding</strong>](element-binding.md) or [<strong>visual</strong>](element-visual.md). If this value is a literal string, this attribute defaults to the user's UI language. If this value is a string reference, this attribute defaults to the locale chosen by Windows Runtime in resolving the string.</p></td>
+<td><p>The target locale of the XML payload, specified as a <a href="https://go.microsoft.com/fwlink/p/?linkid=227302">BCP-47 language tags</a>  such as &quot;en-US&quot; or &quot;fr-FR&quot;. The locale specified here overrides any other specified locale in <a href="element-binding.md"><strong>binding</strong></a> or <a href="element-visual.md"><strong>visual</strong></a>. If this value is a literal string, this attribute defaults to the user's UI language. If this value is a string reference, this attribute defaults to the locale chosen by Windows Runtime in resolving the string.</p></td>
 <td>string</td>
 <td>No</td>
 <td>None</td>
@@ -108,7 +108,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[binding](element-binding.md)</td>
+<td><a href="element-binding.md">binding</a> </td>
 <td><p>Specifies the toast template. Note that only one binding element can be included in a toast notification.</p></td>
 </tr>
 </tbody>

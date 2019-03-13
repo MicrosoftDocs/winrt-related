@@ -119,7 +119,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:VisualElements](element-uap-visualelements.md)</td>
+<td><a href="element-uap-visualelements.md">uap:VisualElements</a> </td>
 <td><p>Describes the visual aspects of the app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance.</p></td>
 </tr>
 </tbody>

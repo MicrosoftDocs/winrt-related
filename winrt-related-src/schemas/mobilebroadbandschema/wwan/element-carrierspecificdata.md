@@ -60,7 +60,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ServiceActivation](element-serviceactivation.md)</td>
+<td><a href="element-serviceactivation.md">ServiceActivation</a> </td>
 <td><p>Defines carrier specific information required to activate the subscriber's account on the Mobile Broadband Network (MNO).</p></td>
 </tr>
 </tbody>

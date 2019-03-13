@@ -64,20 +64,20 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AdditionalProperties](element-additionalproperties.md)</td>
+<td><a href="element-additionalproperties.md">AdditionalProperties</a> </td>
 <td><p>Contains additional properties that describe the item.</p></td>
 </tr>
 <tr class="even">
-<td>[Comment](element-comment.md)</td>
-<td><p>Contains a [System.Comment](https://msdn.microsoft.com/library/windows/desktop/bb760658) that describes the item.</p></td>
+<td><a href="element-comment.md">Comment</a> </td>
+<td><p>Contains a <a href="https://msdn.microsoft.com/library/windows/desktop/bb760658">System.Comment</a>  that describes the item.</p></td>
 </tr>
 <tr class="odd">
-<td>[Keywords](element-keywords.md)</td>
-<td><p>Contains the [System.Keywords](https://msdn.microsoft.com/library/windows/desktop/bb787519) that describe the item.</p></td>
+<td><a href="element-keywords.md">Keywords</a> </td>
+<td><p>Contains the <a href="https://msdn.microsoft.com/library/windows/desktop/bb787519">System.Keywords</a>  that describe the item.</p></td>
 </tr>
 <tr class="even">
-<td>[Name](element-name.md)</td>
-<td><p>Specifies the [System.ItemName](https://msdn.microsoft.com/library/windows/desktop/bb760768)\[System.ItemNameDisplay](https://msdn.microsoft.com/library/windows/desktop/bb760770) of the item.</p></td>
+<td><a href="element-name.md">Name</a> </td>
+<td><p>Specifies the <a href="https://msdn.microsoft.com/library/windows/desktop/bb760768">System.ItemName</a> \<a href="https://msdn.microsoft.com/library/windows/desktop/bb760770">System.ItemNameDisplay</a> of the item.</p></td>
 </tr>
 </tbody>
 </table>

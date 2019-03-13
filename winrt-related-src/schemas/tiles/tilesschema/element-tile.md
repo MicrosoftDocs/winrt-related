@@ -56,8 +56,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[visual](element-visual.md)</td>
-<td><p>Contains multiple [<strong>binding</strong>](element-binding.md) child elements, each of which defines a tile.</p></td>
+<td><a href="element-visual.md">visual</a> </td>
+<td><p>Contains multiple <a href="element-binding.md"><strong>binding</strong></a>  child elements, each of which defines a tile.</p></td>
 </tr>
 </tbody>
 </table>

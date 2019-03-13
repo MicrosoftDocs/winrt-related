@@ -133,11 +133,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ActivatableClass (type: CT_InProcessActivatableClass)](element-activatableclass.md)</td>
+<td><a href="element-activatableclass.md">ActivatableClass (type: CT_InProcessActivatableClass)</a> </td>
 <td><p>Declares a runtime class associated with the extensibility point.</p></td>
 </tr>
 <tr class="even">
-<td>[ActivatableClass (type: CT_OutOfProcessActivatableClass)](element-1-activatableclass.md)</td>
+<td><a href="element-1-activatableclass.md">ActivatableClass (type: CT_OutOfProcessActivatableClass)</a> </td>
 <td><p>Declares a runtime class associated with the extensibility point.</p></td>
 </tr>
 </tbody>

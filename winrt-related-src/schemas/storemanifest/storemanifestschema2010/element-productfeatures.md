@@ -65,15 +65,15 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DeviceCompanionApplication](element-devicecompanionapplication.md)</td>
+<td><a href="element-devicecompanionapplication.md">DeviceCompanionApplication</a> </td>
 <td><p>The DeviceCompanionApplication element contains all the configuration required to declare your app as a Microsoft Store device app.</p></td>
 </tr>
 <tr class="even">
-<td>[ExclusiveOptOut](element-exclusiveoptout.md)</td>
+<td><a href="element-exclusiveoptout.md">ExclusiveOptOut</a> </td>
 <td><p>Do not use. The ExclusiveOptOut element is no longer read by the Microsoft Store.</p></td>
 </tr>
 <tr class="odd">
-<td>[PreinstallOptOut](element-preinstalloptout.md)</td>
+<td><a href="element-preinstalloptout.md">PreinstallOptOut</a> </td>
 <td><p>Do not use. The PreinstallOptOut element is no longer read by the Microsoft Store.</p></td>
 </tr>
 </tbody>
@@ -96,7 +96,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[StoreManifest](element-storemanifest.md)</td>
+<td><a href="element-storemanifest.md">StoreManifest</a> </td>
 <td><p>Root node for the StoreManifest schema (for Windows 8.1 and earlier).</p></td>
 </tr>
 </tbody>

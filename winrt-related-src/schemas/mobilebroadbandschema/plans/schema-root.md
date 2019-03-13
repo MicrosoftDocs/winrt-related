@@ -31,47 +31,47 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </thead>
 <tbody>
 <tr class="odd">
-<td>[BillingCycle](element-billingcycle.md)</td>
-<td><p>Defines the plan's starting date and time, its duration, and what happens at the end of the billing cycle. UWP apps can retrieve this information using the [<strong>DataPlanStatus</strong>](https://msdn.microsoft.com/library/windows/apps/br207256) class.</p></td>
+<td><a href="element-billingcycle.md">BillingCycle</a> </td>
+<td><p>Defines the plan's starting date and time, its duration, and what happens at the end of the billing cycle. UWP apps can retrieve this information using the <a href="https://msdn.microsoft.com/library/windows/apps/br207256"><strong>DataPlanStatus</strong></a>  class.</p></td>
 </tr>
 <tr class="even">
-<td>[DataLimitInMegabytes](element-datalimitinmegabytes.md)</td>
-<td><p>Defines a value representing the data limit in MB for a capped plan. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the [<strong>DataPlanStatus</strong>](https://msdn.microsoft.com/library/windows/apps/br207256) class.</p></td>
+<td><a href="element-datalimitinmegabytes.md">DataLimitInMegabytes</a> </td>
+<td><p>Defines a value representing the data limit in MB for a capped plan. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the <a href="https://msdn.microsoft.com/library/windows/apps/br207256"><strong>DataPlanStatus</strong></a>  class.</p></td>
 </tr>
 <tr class="odd">
-<td>[DataUsageInMobileOperatorNotificationEnabled](element-datausageinmobileoperatornotificationenabled.md)</td>
-<td><p>Indicates whether the [<strong>NetworkOperatorNotificationTrigger</strong>](https://msdn.microsoft.com/library/windows/apps/br224831) should include data usage notifications. If <strong>true</strong>, Windows raises this trigger when the data usage threshold is met.</p></td>
+<td><a href="element-datausageinmobileoperatornotificationenabled.md">DataUsageInMobileOperatorNotificationEnabled</a> </td>
+<td><p>Indicates whether the <a href="https://msdn.microsoft.com/library/windows/apps/br224831"><strong>NetworkOperatorNotificationTrigger</strong></a>  should include data usage notifications. If <strong>true</strong>, Windows raises this trigger when the data usage threshold is met.</p></td>
 </tr>
 <tr class="even">
-<td>[Description](element-description.md)</td>
+<td><a href="element-description.md">Description</a> </td>
 <td><p>Defines plan information that specifies the subscriber's Mobile Network Operator (MNO) connection type.</p></td>
 </tr>
 <tr class="odd">
-<td>[InboundBandwidthInKbps](element-inboundbandwidthinkbps.md)</td>
-<td><p>Defines a value representing the effective link speed of the subscriber’s inbound connection specified in Kbps. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the [<strong>DataPlanStatus</strong>](https://msdn.microsoft.com/library/windows/apps/br207256) class.</p></td>
+<td><a href="element-inboundbandwidthinkbps.md">InboundBandwidthInKbps</a> </td>
+<td><p>Defines a value representing the effective link speed of the subscriber’s inbound connection specified in Kbps. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the <a href="https://msdn.microsoft.com/library/windows/apps/br207256"><strong>DataPlanStatus</strong></a>  class.</p></td>
 </tr>
 <tr class="even">
-<td>[MaxTransferSizeInMegabytes](element-maxtransfersizeinmegabytes.md)</td>
-<td><p>Defines the size of an individual download in MB which a compliant application should permit over a metered connection without explicit user approval of the connection being used. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the [<strong>DataPlanStatus</strong>](https://msdn.microsoft.com/library/windows/apps/br207256) class.</p></td>
+<td><a href="element-maxtransfersizeinmegabytes.md">MaxTransferSizeInMegabytes</a> </td>
+<td><p>Defines the size of an individual download in MB which a compliant application should permit over a metered connection without explicit user approval of the connection being used. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the <a href="https://msdn.microsoft.com/library/windows/apps/br207256"><strong>DataPlanStatus</strong></a>  class.</p></td>
 </tr>
 <tr class="odd">
-<td>[OutboundBandwidthInKbps](element-outboundbandwidthinkbps.md)</td>
-<td><p>Defines a value representing the effective link speed of the subscriber’s outbound connection specified in Kbps. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the [<strong>DataPlanStatus</strong>](https://msdn.microsoft.com/library/windows/apps/br207256) class.</p></td>
+<td><a href="element-outboundbandwidthinkbps.md">OutboundBandwidthInKbps</a> </td>
+<td><p>Defines a value representing the effective link speed of the subscriber’s outbound connection specified in Kbps. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the <a href="https://msdn.microsoft.com/library/windows/apps/br207256"><strong>DataPlanStatus</strong></a>  class.</p></td>
 </tr>
 <tr class="even">
-<td>[Plan](element-plan.md)</td>
-<td><p>Defines a set of plan information that specifies the data usage options and state of a subscriber's connection to a Mobile Network Operator (MNO). [<strong>Plan</strong>](element-plan.md) is the unique root element for plan information</p></td>
+<td><a href="element-plan.md">Plan</a> </td>
+<td><p>Defines a set of plan information that specifies the data usage options and state of a subscriber's connection to a Mobile Network Operator (MNO). <a href="element-plan.md"><strong>Plan</strong></a>  is the unique root element for plan information</p></td>
 </tr>
 <tr class="odd">
-<td>[SecurityUpdatesExempt](element-plan.md)</td>
+<td><a href="element-plan.md">SecurityUpdatesExempt</a> </td>
 <td><p>If <strong>true</strong>, the MNO advises Windows Update (WU) that security updates are exempt from being counted as data usage against the subscriber’s plan and WU will download all security patches when on a metered network. Otherwise, WU will only download zero-day patches and not all security updates when <strong>false</strong>.</p></td>
 </tr>
 <tr class="even">
-<td>[Usage](element-usage.md)</td>
-<td><p>Defines the state of a subscriber's data usage on a connection to a Mobile Network Operator (MNO). UWP apps can retrieve this information using the [<strong>DataPlanStatus</strong>](https://msdn.microsoft.com/library/windows/apps/br207256) class.</p></td>
+<td><a href="element-usage.md">Usage</a> </td>
+<td><p>Defines the state of a subscriber's data usage on a connection to a Mobile Network Operator (MNO). UWP apps can retrieve this information using the <a href="https://msdn.microsoft.com/library/windows/apps/br207256"><strong>DataPlanStatus</strong></a>  class.</p></td>
 </tr>
 <tr class="odd">
-<td>[UserSMSEnabled](element-usersmsenabled.md)</td>
+<td><a href="element-usersmsenabled.md">UserSMSEnabled</a> </td>
 <td><p>Indicates whether the subscriber's service includes user-to-user SMS which must be delivered in near real-time. If <strong>true</strong>, Windows will employ less aggressive power management on the Mobile Broadband interface to allow SMS messages to arrive more quickly. If <strong>false</strong>, the mobile broadband radio may be turned off during periods of inactivity. SMS messages will arrive when the PC is next active.</p></td>
 </tr>
 </tbody>

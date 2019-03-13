@@ -67,7 +67,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[FileTypeAssociation](element-filetypeassociation.md)</td>
+<td><a href="element-filetypeassociation.md">FileTypeAssociation</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.fileTypeAssociation</strong>. A file type association indicates that the app is registered to handle files of the specified types.</p></td>
 </tr>
 </tbody>

@@ -122,7 +122,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[BackgroundTasks](element-backgroundtasks.md)</td>
+<td><a href="element-backgroundtasks.md">BackgroundTasks</a> </td>
 <td><p>Defines an app extensibility point of type <strong>windows.backgroundTasks</strong>. Background tasks run in a dedicated background host; that is, without a UI.</p></td>
 </tr>
 </tbody>

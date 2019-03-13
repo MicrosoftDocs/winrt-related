@@ -90,8 +90,8 @@ Contains any errors from processing the [**WLANProfile**](https://msdn.microsoft
 </thead>
 <tbody>
 <tr class="odd">
-<td>[WLANProfile](element-wlanprofile.md)</td>
-<td><p>Contains any errors from processing a [<strong>WLANProfile</strong>](https://msdn.microsoft.com/library/windows/apps/hh868422) element from the last provisioning attempt.</p></td>
+<td><a href="element-wlanprofile.md">WLANProfile</a> </td>
+<td><p>Contains any errors from processing a <a href="https://msdn.microsoft.com/library/windows/apps/hh868422"><strong>WLANProfile</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>
@@ -113,8 +113,8 @@ Contains any errors from processing the [**WLANProfile**](https://msdn.microsoft
 </thead>
 <tbody>
 <tr class="odd">
-<td>[CarrierProvisioningResult](element-carrierprovisioningresult.md)</td>
-<td><p>Contains any errors from processing the [<strong>CarrierProvisioning</strong>](https://msdn.microsoft.com/library/windows/apps/hh868289) element from the last provisioning attempt. [<strong>CarrierProvisioningResult</strong>](https://msdn.microsoft.com/library/windows/apps/hh868380) is the unique root element for the provisioning results.</p></td>
+<td><a href="element-carrierprovisioningresult.md">CarrierProvisioningResult</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868289"><strong>CarrierProvisioning</strong></a>  element from the last provisioning attempt. <a href="https://msdn.microsoft.com/library/windows/apps/hh868380"><strong>CarrierProvisioningResult</strong></a> is the unique root element for the provisioning results.</p></td>
 </tr>
 </tbody>
 </table>

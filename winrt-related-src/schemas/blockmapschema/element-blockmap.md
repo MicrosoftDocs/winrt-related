@@ -88,7 +88,7 @@ Defines the root element of the app package block map. The [**BlockMap**](elemen
 </thead>
 <tbody>
 <tr class="odd">
-<td>[File](element-file.md)</td>
+<td><a href="element-file.md">File</a> </td>
 <td><p>Represents a file contained in the package.</p></td>
 </tr>
 </tbody>

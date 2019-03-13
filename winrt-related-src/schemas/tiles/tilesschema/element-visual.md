@@ -108,14 +108,14 @@ Contains multiple [**binding**](element-binding.md) child elements, each of whic
 </tr>
 <tr class="odd">
 <td><strong>lang</strong></td>
-<td><p>The target locale of the XML payload, specified as a [BCP-47 language tags](https://go.microsoft.com/fwlink/p/?linkid=227302) such as &quot;en-US&quot; or &quot;fr-FR&quot;. This locale is overridden by any locale specified in [<strong>binding</strong>](element-binding.md) or [<strong>text</strong>](element-text.md). If this value is a literal string, this attribute defaults to the user's UI language. If this value is a string reference, this attribute defaults to the locale chosen by Windows Runtime in resolving the string. See Remarks for when this value isn't specified.</p></td>
+<td><p>The target locale of the XML payload, specified as a <a href="https://go.microsoft.com/fwlink/p/?linkid=227302">BCP-47 language tags</a>  such as &quot;en-US&quot; or &quot;fr-FR&quot;. This locale is overridden by any locale specified in <a href="element-binding.md"><strong>binding</strong></a> or <a href="element-text.md"><strong>text</strong></a>. If this value is a literal string, this attribute defaults to the user's UI language. If this value is a string reference, this attribute defaults to the locale chosen by Windows Runtime in resolving the string. See Remarks for when this value isn't specified.</p></td>
 <td>string</td>
 <td>No</td>
 <td>None</td>
 </tr>
 <tr class="even">
 <td><strong>version</strong></td>
-<td><p>The version of the tile XML schema this particular payload was developed for. It can have two values, 1 or 2. Version 1 requires a valid payload under the Windows 8 schema. Version 2 recognizes the new large tile templates, the new Windows 8.1 template names for existing templates, and the <em>fallback</em> attribute of the [<strong>binding</strong>](element-binding.md) element.</p></td>
+<td><p>The version of the tile XML schema this particular payload was developed for. It can have two values, 1 or 2. Version 1 requires a valid payload under the Windows 8 schema. Version 2 recognizes the new large tile templates, the new Windows 8.1 template names for existing templates, and the <em>fallback</em> attribute of the <a href="element-binding.md"><strong>binding</strong></a>  element.</p></td>
 <td>integer</td>
 <td>No</td>
 <td>1</td>
@@ -140,7 +140,7 @@ Contains multiple [**binding**](element-binding.md) child elements, each of whic
 </thead>
 <tbody>
 <tr class="odd">
-<td>[binding](element-binding.md)</td>
+<td><a href="element-binding.md">binding</a> </td>
 <td><p>Specifies the tile template. Every notification should include one binding element for each supported tile size.</p></td>
 </tr>
 </tbody>
@@ -163,8 +163,8 @@ Contains multiple [**binding**](element-binding.md) child elements, each of whic
 </thead>
 <tbody>
 <tr class="odd">
-<td>[tile](element-tile.md)</td>
-<td><p>Base tile element, which contains a single [<strong>visual</strong>](https://msdn.microsoft.com/library/windows/apps/br230847) element.</p></td>
+<td><a href="element-tile.md">tile</a> </td>
+<td><p>Base tile element, which contains a single <a href="https://msdn.microsoft.com/library/windows/apps/br230847"><strong>visual</strong></a>  element.</p></td>
 </tr>
 </tbody>
 </table>

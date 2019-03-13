@@ -102,19 +102,19 @@ Declares an extensibility point for the package.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Certificates](element-certificates.md)</td>
+<td><a href="element-certificates.md">Certificates</a> </td>
 <td><p>Declares a package extensibility point of type <strong>windows.certificates</strong>. The app requires one or more certificates from the specified certificate stores.</p></td>
 </tr>
 <tr class="even">
-<td>[InProcessServer](element-inprocessserver.md)</td>
+<td><a href="element-inprocessserver.md">InProcessServer</a> </td>
 <td><p>Declares a package extensibility point of type <strong>windows.activatableClass.inProcessServer</strong>. The app uses a dynamic link library (DLL) that exposes one or more activatable classes.</p></td>
 </tr>
 <tr class="odd">
-<td>[OutOfProcessServer](element-outofprocessserver.md)</td>
+<td><a href="element-outofprocessserver.md">OutOfProcessServer</a> </td>
 <td><p>Declares a package extension point of type <strong>windows.activatableClass.outOfProcessServer</strong>. The app uses an executable (EXE) that exposes one or more activatable classes.</p></td>
 </tr>
 <tr class="even">
-<td>[ProxyStub](element-proxystub.md)</td>
+<td><a href="element-proxystub.md">ProxyStub</a> </td>
 <td><p>Declares a package extensibility point of type <strong>windows.activatableClass.proxyStub</strong>. A proxy can be composed of one or more interfaces.</p></td>
 </tr>
 </tbody>
@@ -137,7 +137,7 @@ Declares an extensibility point for the package.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extensions (type: CT_PackageExtensions)](element-extensions.md)</td>
+<td><a href="element-extensions.md">Extensions (type: CT_PackageExtensions)</a> </td>
 <td><p>Defines one or more extensibility points for the package.</p></td>
 </tr>
 </tbody>

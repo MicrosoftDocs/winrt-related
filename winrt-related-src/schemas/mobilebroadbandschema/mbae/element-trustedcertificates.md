@@ -67,7 +67,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[TrustedCertificate](element-trustedcertificate.md)</td>
+<td><a href="element-trustedcertificate.md">TrustedCertificate</a> </td>
 <td><p>Defines the subject name and issuer name of a trusted certificate required for provisioning on the mobile network.</p></td>
 </tr>
 </tbody>
@@ -90,7 +90,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ProvisioningEngine](element-provisioningengine.md)</td>
+<td><a href="element-provisioningengine.md">ProvisioningEngine</a> </td>
 <td><p>Defines the trusted certificate values for Subject Name and Issuer Name required for provisioning on the mobile network.</p></td>
 </tr>
 </tbody>

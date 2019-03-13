@@ -93,11 +93,11 @@ Declares an extensibility point for the app.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AppointmentsProvider](element-appointmentsprovider.md)</td>
+<td><a href="element-appointmentsprovider.md">AppointmentsProvider</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.appointmentsProvider</strong>.</p></td>
 </tr>
 <tr class="even">
-<td>[Contact](element-contact.md)</td>
+<td><a href="element-contact.md">Contact</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.contact</strong>.</p></td>
 </tr>
 </tbody>

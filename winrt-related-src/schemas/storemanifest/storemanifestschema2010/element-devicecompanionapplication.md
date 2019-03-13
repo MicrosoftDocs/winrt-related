@@ -62,7 +62,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ExperienceIds](element-experienceids.md)</td>
+<td><a href="element-experienceids.md">ExperienceIds</a> </td>
 <td><p>The ExperienceIds element contains a list of one or more individual ExperienceId elements.</p></td>
 </tr>
 </tbody>
@@ -85,7 +85,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ProductFeatures](element-productfeatures.md)</td>
+<td><a href="element-productfeatures.md">ProductFeatures</a> </td>
 <td><p>The ProductFeatures element is the container for all existing and future product features that will be configured through the StoreManifest XML file.</p></td>
 </tr>
 </tbody>
