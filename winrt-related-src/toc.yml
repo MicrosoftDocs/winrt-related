@@ -2062,6 +2062,8 @@
       href: cpp-ref-for-winrt/get-trust-level.md
     - name: "GetRuntimeClassName function"
       href: cpp-ref-for-winrt/getruntimeclassname.md
+    - name: "guid_of function template"
+      href: cpp-ref-for-winrt/guid-of.md
     - name: "handle struct"
       href: cpp-ref-for-winrt/handle.md
     - name: "handle_type struct template"
