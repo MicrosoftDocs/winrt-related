@@ -94,7 +94,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extension (in type: CT_PackageExtensions)](element-extension.md)</td>
+<td><a href="element-extension.md">Extension (in type: CT_PackageExtensions)</a> </td>
 <td><p>Declares an extensibility point for the package.</p></td>
 </tr>
 </tbody>

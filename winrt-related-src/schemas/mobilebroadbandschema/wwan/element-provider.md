@@ -74,7 +74,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DataRoamingPartners](element-dataroamingpartners.md)</td>
+<td><a href="element-dataroamingpartners.md">DataRoamingPartners</a> </td>
 <td><p>Defines the list of preferred network providers for roaming.</p></td>
 </tr>
 </tbody>

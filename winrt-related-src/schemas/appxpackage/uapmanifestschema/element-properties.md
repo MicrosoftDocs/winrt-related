@@ -74,35 +74,35 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Description](element-description.md)</td>
+<td><a href="element-description.md">Description</a> </td>
 <td><p>A friendly description that can be displayed to users.</p></td>
 </tr>
 <tr class="even">
-<td>[DisplayName](element-displayname.md)</td>
+<td><a href="element-displayname.md">DisplayName</a> </td>
 <td><p>A friendly name that can be displayed to users.</p></td>
 </tr>
 <tr class="odd">
-<td>[Framework](element-framework.md)</td>
+<td><a href="element-framework.md">Framework</a> </td>
 <td><p>Indicates whether the package is a framework package; that is, a package that can be used by other packages. Its value is <strong>false</strong> by default. You should not specify a value for it unless you are creating a framework.</p></td>
 </tr>
 <tr class="even">
-<td>[Logo](element-logo.md)</td>
+<td><a href="element-logo.md">Logo</a> </td>
 <td><p>A path to a file that contains an image.</p></td>
 </tr>
 <tr class="odd">
-<td>[PublisherDisplayName](element-publisherdisplayname.md)</td>
+<td><a href="element-publisherdisplayname.md">PublisherDisplayName</a> </td>
 <td><p>A friendly name for the publisher that can be displayed to users.</p></td>
 </tr>
 <tr class="even">
-<td>[ResourcePackage](element-resourcepackage.md)</td>
+<td><a href="element-resourcepackage.md">ResourcePackage</a> </td>
 <td><p>Indicates whether the package is a resource package. A resource package can be used by other packages. Its value is <strong>false</strong> by default. You should not specify a value for it unless you are creating a resource.</p></td>
 </tr>
 <tr class="odd">
-<td>[uap:SupportedUsers](element-uap-supportedusers.md)</td>
+<td><a href="element-uap-supportedusers.md">uap:SupportedUsers</a> </td>
 <td><p>Indicates whether or not the package is multi-user aware. This setting is used at install time to determine whether the package can be installed on the system.</p></td>
 </tr>
 <tr class="even">
-<td>[uap6:AllowExecution](element-uap6-allowexecution.md)</td>
+<td><a href="element-uap6-allowexecution.md">uap6:AllowExecution</a> </td>
 <td><p>A boolean value that specifies whether packages with executable are allowed to execute. By default, this value is true.</p></td>
 </tr>
 </tbody>
@@ -125,7 +125,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Package](element-package.md)</td>
+<td><a href="element-package.md">Package</a> </td>
 <td><p>Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system.</p></td>
 </tr>
 </tbody>

@@ -61,7 +61,7 @@ Specifies a sound to play when a toast notification is displayed. This element a
 <tbody>
 <tr class="odd">
 <td><strong>loop</strong></td>
-<td><p>Set to <strong>true</strong> if the sound should repeat as long as the toast is shown; <strong>false</strong> to play only once. If this attribute is set to <strong>true</strong>, the <em>duration</em> attribute in the [<strong>toast</strong>](element-toast.md) element must also be set. There are specific sounds provided to be used when looping. Note that UWP apps support neither looping audio nor long-duration toasts.</p></td>
+<td><p>Set to <strong>true</strong> if the sound should repeat as long as the toast is shown; <strong>false</strong> to play only once. If this attribute is set to <strong>true</strong>, the <em>duration</em> attribute in the <a href="element-toast.md"><strong>toast</strong></a>  element must also be set. There are specific sounds provided to be used when looping. Note that UWP apps support neither looping audio nor long-duration toasts.</p></td>
 <td>boolean</td>
 <td>No</td>
 <td>false</td>
@@ -136,8 +136,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[toast](element-toast.md)</td>
-<td><p>Base toast element, which contains at least a single [<strong>visual</strong>](element-visual.md) element.</p></td>
+<td><a href="element-toast.md">toast</a> </td>
+<td><p>Base toast element, which contains at least a single <a href="element-visual.md"><strong>visual</strong></a>  element.</p></td>
 </tr>
 </tbody>
 </table>

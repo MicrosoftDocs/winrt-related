@@ -61,8 +61,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[WLANProfile](element-wlanprofile.md)</td>
-<td><p>Defines an instance of the [<strong>WLANProfile</strong>](https://msdn.microsoft.com/library/windows/apps/hh868422) element from the [<strong>WLAN</strong>](https://msdn.microsoft.com/library/windows/apps/hh868424) schema.</p></td>
+<td><a href="element-wlanprofile.md">WLANProfile</a> </td>
+<td><p>Defines an instance of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868422"><strong>WLANProfile</strong></a>  element from the <a href="https://msdn.microsoft.com/library/windows/apps/hh868424"><strong>WLAN</strong></a> schema.</p></td>
 </tr>
 </tbody>
 </table>
@@ -84,8 +84,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[CarrierProvisioning](element-carrierprovisioning.md)</td>
-<td><p>Defines the properties and settings in a subscriber's carrier provisioning file. [<strong>CarrierProvisioning</strong>](element-carrierprovisioning.md) is the unique root element of the provisioning file.</p></td>
+<td><a href="element-carrierprovisioning.md">CarrierProvisioning</a> </td>
+<td><p>Defines the properties and settings in a subscriber's carrier provisioning file. <a href="element-carrierprovisioning.md"><strong>CarrierProvisioning</strong></a>  is the unique root element of the provisioning file.</p></td>
 </tr>
 </tbody>
 </table>

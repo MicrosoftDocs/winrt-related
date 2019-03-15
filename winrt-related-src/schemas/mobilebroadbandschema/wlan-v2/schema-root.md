@@ -41,31 +41,31 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </thead>
 <tbody>
 <tr class="odd">
-<td>[FIPSMode](element-fipsmode.md)</td>
+<td><a href="element-fipsmode.md">FIPSMode</a> </td>
 <td><p>Defines whether Federal Information Processing Standards (FIPS) mode is enabled.</p></td>
 </tr>
 <tr class="even">
-<td>[SSID](element-ssid.md)</td>
+<td><a href="element-ssid.md">SSID</a> </td>
 <td><p>Contains the SSID for a WLAN.</p></td>
 </tr>
 <tr class="odd">
-<td>[SSIDPrefix](element-ssidprefix.md)</td>
+<td><a href="element-ssidprefix.md">SSIDPrefix</a> </td>
 <td><p>Contains the SSIDPrefix for a WLAN.</p></td>
 </tr>
 <tr class="even">
-<td>[hex (in SSID)](element-hex.md)</td>
+<td><a href="element-hex.md">hex (in SSID)</a> </td>
 <td><p>Defines the SSID of a wireless LAN in hexadecimal format.</p></td>
 </tr>
 <tr class="odd">
-<td>[hex (in SSIDPrefix)](element-1-hex.md)</td>
+<td><a href="element-1-hex.md">hex (in SSIDPrefix)</a> </td>
 <td><p>Defines the SSIDPrefix of a wireless LAN in hexadecimal format.</p></td>
 </tr>
 <tr class="even">
-<td>[name (in SSID)](element-name.md)</td>
+<td><a href="element-name.md">name (in SSID)</a> </td>
 <td><p>Defines the SSID of a wireless LAN in alphanumeric format.</p></td>
 </tr>
 <tr class="odd">
-<td>[name (in SSIDPrefix)](element-1-name.md)</td>
+<td><a href="element-1-name.md">name (in SSIDPrefix)</a> </td>
 <td><p>Defines the SSIDPrefix of a wireless LAN in alphanumeric format.</p></td>
 </tr>
 </tbody>

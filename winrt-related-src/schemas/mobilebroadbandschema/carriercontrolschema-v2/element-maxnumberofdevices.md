@@ -70,7 +70,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[TetheringSettings](element-tetheringsettings.md)</td>
+<td><a href="element-tetheringsettings.md">TetheringSettings</a> </td>
 <td><p>Defines the tethering settings in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>

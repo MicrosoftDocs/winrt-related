@@ -34,72 +34,72 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Activation](element-activation.md)</td>
-<td><p>Contains any errors from processing the [<strong>Activation</strong>](https://msdn.microsoft.com/library/windows/apps/hh868285) element from the last provisioning attempt.</p></td>
+<td><a href="element-activation.md">Activation</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868285"><strong>Activation</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
-<td>[CarrierProvisioningResult](element-carrierprovisioningresult.md)</td>
-<td><p>Contains any errors from processing the [<strong>CarrierProvisioning</strong>](https://msdn.microsoft.com/library/windows/apps/hh868289) element from the last provisioning attempt. [<strong>CarrierProvisioningResult</strong>](element-carrierprovisioningresult.md) is the unique root element for the provisioning results.</p></td>
+<td><a href="element-carrierprovisioningresult.md">CarrierProvisioningResult</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868289"><strong>CarrierProvisioning</strong></a>  element from the last provisioning attempt. <a href="element-carrierprovisioningresult.md"><strong>CarrierProvisioningResult</strong></a> is the unique root element for the provisioning results.</p></td>
 </tr>
 <tr class="odd">
-<td>[DefaultProfile](element-defaultprofile.md)</td>
-<td><p>Contains any errors from processing the [<strong>DefaultProfile</strong>](https://msdn.microsoft.com/library/windows/apps/hh868453) element from the last provisioning attempt.</p></td>
+<td><a href="element-defaultprofile.md">DefaultProfile</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868453"><strong>DefaultProfile</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
-<td>[Issuer](element-issuer.md)</td>
-<td><p>Contains any errors from processing the [<strong>CarrierId</strong>](https://msdn.microsoft.com/library/windows/apps/hh868288) element from the last provisioning attempt.</p></td>
+<td><a href="element-issuer.md">Issuer</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868288"><strong>CarrierId</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
-<td>[MBNProfiles](element-mbnprofiles.md)</td>
-<td><p>Contains any errors from processing the [<strong>MBNProfiles</strong>](https://msdn.microsoft.com/library/windows/apps/hh868295) element from the last provisioning attempt.</p></td>
+<td><a href="element-mbnprofiles.md">MBNProfiles</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868295"><strong>MBNProfiles</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
-<td>[NotificationSignatureKey](element-notificationsignaturekey.md)</td>
-<td><p>Contains any errors from processing the [<strong>KeyInfo</strong>](https://msdn.microsoft.com/library/windows/apps/hh868321) element from the last provisioning attempt.</p></td>
+<td><a href="element-notificationsignaturekey.md">NotificationSignatureKey</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868321"><strong>KeyInfo</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
-<td>[Policy](element-policy.md)</td>
-<td><p>Contains any errors from processing the [<strong>CarrierPolicy</strong>](https://msdn.microsoft.com/library/windows/apps/hh868345) schema from the last provisioning attempt.</p></td>
+<td><a href="element-policy.md">Policy</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868345"><strong>CarrierPolicy</strong></a>  schema from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
-<td>[Provisioning](element-provisioning.md)</td>
-<td><p>Contains any errors from processing the [<strong>Provisioning</strong>](https://msdn.microsoft.com/library/windows/apps/hh868300) element from the last provisioning attempt.</p></td>
+<td><a href="element-provisioning.md">Provisioning</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868300"><strong>Provisioning</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
-<td>[PurchaseProfile](element-purchaseprofile.md)</td>
-<td><p>Contains any errors from processing the [<strong>PurchaseProfile</strong>](https://msdn.microsoft.com/library/windows/apps/hh868470) element from the last provisioning attempt.</p></td>
+<td><a href="element-purchaseprofile.md">PurchaseProfile</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868470"><strong>PurchaseProfile</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
-<td>[RefreshParameters](element-refreshparameters.md)</td>
-<td><p>Contains any errors from processing the [<strong>RefreshParameters</strong>](https://msdn.microsoft.com/library/windows/apps/hh868302) element from the last provisioning attempt.</p></td>
+<td><a href="element-refreshparameters.md">RefreshParameters</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868302"><strong>RefreshParameters</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
-<td>[Signature](element-signature.md)</td>
-<td><p>Contains any errors from processing the [<strong>Signature</strong>](https://msdn.microsoft.com/library/windows/apps/hh868330) element from the last provisioning attempt.</p></td>
+<td><a href="element-signature.md">Signature</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868330"><strong>Signature</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
-<td>[Subject](element-subject.md)</td>
-<td><p>Contains the X.509 certificate subject field of the [<strong>Signature</strong>](https://msdn.microsoft.com/library/windows/apps/hh868330) element from the last provisioning attempt.</p></td>
+<td><a href="element-subject.md">Subject</a> </td>
+<td><p>Contains the X.509 certificate subject field of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868330"><strong>Signature</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
-<td>[Subscriber](element-subscriber.md)</td>
-<td><p>Contains any errors from processing the [<strong>SubscriberId</strong>](https://msdn.microsoft.com/library/windows/apps/hh868305) element from the last provisioning attempt.</p></td>
+<td><a href="element-subscriber.md">Subscriber</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868305"><strong>SubscriberId</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
-<td>[Thumbprint](element-thumbprint.md)</td>
-<td><p>Contains the [<strong>SignatureValue</strong>](https://msdn.microsoft.com/library/windows/apps/hh868332) element of the [<strong>Signature</strong>](https://msdn.microsoft.com/library/windows/apps/hh868330) from the last provisioning attempt.</p></td>
+<td><a href="element-thumbprint.md">Thumbprint</a> </td>
+<td><p>Contains the <a href="https://msdn.microsoft.com/library/windows/apps/hh868332"><strong>SignatureValue</strong></a>  element of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868330"><strong>Signature</strong></a> from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
-<td>[TrustedCertificate](element-trustedcertificate.md)</td>
-<td><p>Contains errors from processing any of the [<strong>TrustedCertificate</strong>](https://msdn.microsoft.com/library/windows/apps/hh868306) element from the last provisioning attempt.</p></td>
+<td><a href="element-trustedcertificate.md">TrustedCertificate</a> </td>
+<td><p>Contains errors from processing any of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868306"><strong>TrustedCertificate</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
-<td>[WLANProfile](element-wlanprofile.md)</td>
-<td><p>Contains any errors from processing a [<strong>WLANProfile</strong>](https://msdn.microsoft.com/library/windows/apps/hh868422) element from the last provisioning attempt.</p></td>
+<td><a href="element-wlanprofile.md">WLANProfile</a> </td>
+<td><p>Contains any errors from processing a <a href="https://msdn.microsoft.com/library/windows/apps/hh868422"><strong>WLANProfile</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
-<td>[WLANProfiles](element-wlanprofiles.md)</td>
-<td><p>Contains any errors from processing the [<strong>WLANProfile</strong>](https://msdn.microsoft.com/library/windows/apps/hh868422) elements from the last provisioning attempt.</p></td>
+<td><a href="element-wlanprofiles.md">WLANProfiles</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868422"><strong>WLANProfile</strong></a>  elements from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>

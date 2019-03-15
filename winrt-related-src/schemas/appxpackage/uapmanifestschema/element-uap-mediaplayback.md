@@ -80,7 +80,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:Codec](element-uap-codec.md)</td>
+<td><a href="element-uap-codec.md">uap:Codec</a> </td>
 <td><p>Specifies the codec to use for transcoding.</p></td>
 </tr>
 </tbody>
@@ -103,7 +103,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:Extension](element-uap-extension.md)</td>
+<td><a href="element-uap-extension.md">uap:Extension</a> </td>
 <td><p>Declares an extensibility point for the app.</p></td>
 </tr>
 </tbody>

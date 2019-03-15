@@ -75,7 +75,7 @@ Declares language, resolution scale, and DirectX feature level for a resource in
 <tbody>
 <tr class="odd">
 <td><strong>DXFeatureLevel</strong></td>
-<td><p>The [DirectX feature level](https://msdn.microsoft.com/library/windows/desktop/ff476876#overview) for the resource.</p></td>
+<td><p>The <a href="https://msdn.microsoft.com/library/windows/desktop/ff476876#overview">DirectX feature level</a>  for the resource.</p></td>
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li>dx9</li>
@@ -87,7 +87,7 @@ Declares language, resolution scale, and DirectX feature level for a resource in
 </tr>
 <tr class="even">
 <td><strong>Language</strong></td>
-<td><p>The language for the resource. The syntax of this attribute is defined by the IETF's [BCP47: Tags for Identifying Languages](https://www.rfc-editor.org/rfc/bcp/bcp47.txt).</p></td>
+<td><p>The language for the resource. The syntax of this attribute is defined by the IETF's <a href="https://www.rfc-editor.org/rfc/bcp/bcp47.txt">BCP47: Tags for Identifying Languages</a> .</p></td>
 <td>language</td>
 <td>No</td>
 <td></td>
@@ -132,7 +132,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Resources](element-resources.md)</td>
+<td><a href="element-resources.md">Resources</a> </td>
 <td><p>Declares languages, resolution scales, and DirectX feature levels for the resources that the package contains.</p></td>
 </tr>
 </tbody>

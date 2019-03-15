@@ -96,11 +96,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Password](element-password.md)</td>
+<td><a href="element-password.md">Password</a> </td>
 <td><p>Defines the password used for the Packet Data Protocol (PDP) context activation.</p></td>
 </tr>
 <tr class="even">
-<td>[UserName](element-username.md)</td>
+<td><a href="element-username.md">UserName</a> </td>
 <td><p>Defines the username used for the Packet Data Protocol (PDP) context activation.</p></td>
 </tr>
 </tbody>
@@ -123,7 +123,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Context](element-context.md)</td>
+<td><a href="element-context.md">Context</a> </td>
 <td><p>Defines the context of a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>

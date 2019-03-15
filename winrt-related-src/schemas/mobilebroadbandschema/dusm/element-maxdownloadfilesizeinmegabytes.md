@@ -63,8 +63,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Cost](element-cost.md)</td>
-<td><p>Defines a set of meter cost information that specifies the metered state of a subscriber's connection to a Mobile Network Operator (MNO). [<strong>Cost</strong>](element-cost.md) is the unique root element for DUSM cost information.</p></td>
+<td><a href="element-cost.md">Cost</a> </td>
+<td><p>Defines a set of meter cost information that specifies the metered state of a subscriber's connection to a Mobile Network Operator (MNO). <a href="element-cost.md"><strong>Cost</strong></a>  is the unique root element for DUSM cost information.</p></td>
 </tr>
 </tbody>
 </table>

@@ -64,7 +64,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Global](element-global.md)</td>
+<td><a href="element-global.md">Global</a> </td>
 <td><p>Defines identifying information for this provisioning attempt on a Mobile Network Operator's (MNO) network.</p></td>
 </tr>
 </tbody>

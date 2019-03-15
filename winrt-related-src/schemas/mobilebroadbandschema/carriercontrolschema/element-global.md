@@ -65,15 +65,15 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[CarrierId](element-carrierid.md)</td>
+<td><a href="element-carrierid.md">CarrierId</a> </td>
 <td><p>Defines a unique GUID that identifies the Mobile Network Operator (MNO). If the MNO participates in MBAE, this should be their MBAE Carrier ID. Non-MBAE MNOs may generate a GUID as part of their initial configuration.</p></td>
 </tr>
 <tr class="even">
-<td>[DeviceId](element-deviceid.md)</td>
+<td><a href="element-deviceid.md">DeviceId</a> </td>
 <td><p>Defines a unique device identifier to which this provisioning attempt applies. It must be formatted as <strong>\d{15,16}</strong> or as <strong>([a-fA-F0-9]{2}:){5}[a-fA-F0-9]{2}</strong></p></td>
 </tr>
 <tr class="odd">
-<td>[SubscriberId](element-subscriberid.md)</td>
+<td><a href="element-subscriberid.md">SubscriberId</a> </td>
 <td><p>Defines a unique subscriber account identifier to which this provisioning attempt applies.</p></td>
 </tr>
 </tbody>
@@ -96,8 +96,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[CarrierProvisioning](element-carrierprovisioning.md)</td>
-<td><p>Defines the properties and settings in a subscriber's carrier provisioning file. [<strong>CarrierProvisioning</strong>](element-carrierprovisioning.md) is the unique root element of the provisioning file.</p></td>
+<td><a href="element-carrierprovisioning.md">CarrierProvisioning</a> </td>
+<td><p>Defines the properties and settings in a subscriber's carrier provisioning file. <a href="element-carrierprovisioning.md"><strong>CarrierProvisioning</strong></a>  is the unique root element of the provisioning file.</p></td>
 </tr>
 </tbody>
 </table>

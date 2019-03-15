@@ -110,11 +110,11 @@ Declares an app extension point of type **windows.shareTarget**. The app can sha
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:DataFormat](element-uap-dataformat.md)</td>
+<td><a href="element-uap-dataformat.md">uap:DataFormat</a> </td>
 <td><p>Specifies a data package format such as text or HTML format that the app can share. It is unique per application in the package and is case sensitive.</p></td>
 </tr>
 <tr class="even">
-<td>[uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes)](element-1-uap-supportedfiletypes.md)</td>
+<td><a href="element-1-uap-supportedfiletypes.md">uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes)</a> </td>
 <td><p>Defines the file types that the app can share.</p></td>
 </tr>
 </tbody>
@@ -137,7 +137,7 @@ Declares an app extension point of type **windows.shareTarget**. The app can sha
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:Extension](element-uap-extension.md)</td>
+<td><a href="element-uap-extension.md">uap:Extension</a> </td>
 <td><p>Declares an extensibility point for the app.</p></td>
 </tr>
 </tbody>

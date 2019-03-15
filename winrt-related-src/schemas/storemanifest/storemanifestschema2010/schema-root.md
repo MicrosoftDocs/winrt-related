@@ -42,31 +42,31 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DeviceCompanionApplication](element-devicecompanionapplication.md)</td>
+<td><a href="element-devicecompanionapplication.md">DeviceCompanionApplication</a> </td>
 <td><p>The DeviceCompanionApplication element contains all the configuration required to declare your app as a Microsoft Store device app.</p></td>
 </tr>
 <tr class="even">
-<td>[ExclusiveOptOut](element-exclusiveoptout.md)</td>
+<td><a href="element-exclusiveoptout.md">ExclusiveOptOut</a> </td>
 <td><p>Do not use. The ExclusiveOptOut element is no longer read by the Microsoft Store.</p></td>
 </tr>
 <tr class="odd">
-<td>[ExperienceId](element-experienceid.md)</td>
+<td><a href="element-experienceid.md">ExperienceId</a> </td>
 <td><p>The ExperienceId element specifies a GUID that links the device metadata to a device app that can be automatically acquired when the device is first connected. Each ExperienceId GUID corresponds to the ExperienceId element of a device metadata package.</p></td>
 </tr>
 <tr class="even">
-<td>[ExperienceIds](element-experienceids.md)</td>
+<td><a href="element-experienceids.md">ExperienceIds</a> </td>
 <td><p>The ExperienceIds element contains a list of one or more individual ExperienceId elements.</p></td>
 </tr>
 <tr class="odd">
-<td>[PreinstallOptOut](element-preinstalloptout.md)</td>
+<td><a href="element-preinstalloptout.md">PreinstallOptOut</a> </td>
 <td><p>Do not use. The PreinstallOptOut element is no longer read by the Microsoft Store.</p></td>
 </tr>
 <tr class="even">
-<td>[ProductFeatures](element-productfeatures.md)</td>
+<td><a href="element-productfeatures.md">ProductFeatures</a> </td>
 <td><p>The ProductFeatures element is the container for all existing and future product features that will be configured through the StoreManifest XML file.</p></td>
 </tr>
 <tr class="odd">
-<td>[StoreManifest](element-storemanifest.md)</td>
+<td><a href="element-storemanifest.md">StoreManifest</a> </td>
 <td><p>Root node for the StoreManifest schema (for Windows 8.1 and earlier).</p></td>
 </tr>
 </tbody>

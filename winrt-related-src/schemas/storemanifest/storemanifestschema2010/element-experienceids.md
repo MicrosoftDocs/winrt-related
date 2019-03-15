@@ -70,7 +70,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ExperienceId](element-experienceid.md)</td>
+<td><a href="element-experienceid.md">ExperienceId</a> </td>
 <td><p>The ExperienceId element specifies a GUID that links the device metadata to a device app that can be automatically acquired when the device is first connected. Each ExperienceId GUID corresponds to the ExperienceId element of a device metadata package.</p></td>
 </tr>
 </tbody>
@@ -93,7 +93,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DeviceCompanionApplication](element-devicecompanionapplication.md)</td>
+<td><a href="element-devicecompanionapplication.md">DeviceCompanionApplication</a> </td>
 <td><p>The DeviceCompanionApplication element contains all the configuration required to declare your app as a Microsoft Store device app.</p></td>
 </tr>
 </tbody>

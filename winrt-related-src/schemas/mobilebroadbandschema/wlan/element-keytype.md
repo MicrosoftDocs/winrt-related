@@ -75,7 +75,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[sharedKey](element-sharedkey.md)</td>
+<td><a href="element-sharedkey.md">sharedKey</a> </td>
 <td><p>Defines optional shared key information to be used by this profile to connect to a WLAN.</p></td>
 </tr>
 </tbody>

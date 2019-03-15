@@ -115,27 +115,27 @@ Defines a set of meter cost information that specifies the metered state of a su
 </thead>
 <tbody>
 <tr class="odd">
-<td>[BandwidthInKbps](element-bandwidthinkbps.md)</td>
+<td><a href="element-bandwidthinkbps.md">BandwidthInKbps</a> </td>
 <td><p>Defines a value representing the effective link speed of the subscriber’s connection specified in Kbps. Must be a value from 0 to 2<sup>32nd</sup>.</p></td>
 </tr>
 <tr class="even">
-<td>[BillingCycle](element-billingcycle.md)</td>
+<td><a href="element-billingcycle.md">BillingCycle</a> </td>
 <td><p>Defines the plan's starting date and time, its duration, and what happens at the end of the billing cycle.</p></td>
 </tr>
 <tr class="odd">
-<td>[CarrierPolicy](element-carrierpolicy.md)</td>
+<td><a href="element-carrierpolicy.md">CarrierPolicy</a> </td>
 <td><p>Defines optional setting for Windows on this connection.</p></td>
 </tr>
 <tr class="even">
-<td>[DataLimitInMegabytes](element-datalimitinmegabytes.md)</td>
+<td><a href="element-datalimitinmegabytes.md">DataLimitInMegabytes</a> </td>
 <td><p>Defines a value representing the data limit in MB for a capped plan. Must be a value from 0 to 2<sup>32nd</sup>.</p></td>
 </tr>
 <tr class="odd">
-<td>[MaxDownloadFileSizeInMegabytes](element-maxdownloadfilesizeinmegabytes.md)</td>
+<td><a href="element-maxdownloadfilesizeinmegabytes.md">MaxDownloadFileSizeInMegabytes</a> </td>
 <td><p>Defines a value representing the maximum suggested download size in MB of the subscriber's connection. Must be a value from 0 to 2<sup>32nd</sup>.</p></td>
 </tr>
 <tr class="even">
-<td>[UsageInMegabytes](element-usageinmegabytes.md)</td>
+<td><a href="element-usageinmegabytes.md">UsageInMegabytes</a> </td>
 <td><p>Defines a value representing the data used to-date within the current billing cycle in MB. Must be a value from 0 to 2<sup>32nd</sup>.</p></td>
 </tr>
 </tbody>

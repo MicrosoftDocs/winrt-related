@@ -65,7 +65,7 @@ Defines the percentage over the data limit a subscriber has consumed.
 <tbody>
 <tr class="odd">
 <td><strong>Group</strong></td>
-<td><p>Defines the group that contains the data limit. This must be a number formatted per the specified [<strong>Locale</strong>](https://msdn.microsoft.com/library/windows/apps/hh868459).</p></td>
+<td><p>Defines the group that contains the data limit. This must be a number formatted per the specified <a href="https://msdn.microsoft.com/library/windows/apps/hh868459"><strong>Locale</strong></a> .</p></td>
 <td>positiveInteger</td>
 <td>Yes</td>
 <td></td>
@@ -94,7 +94,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Fields](element-fields.md)</td>
+<td><a href="element-fields.md">Fields</a> </td>
 <td><p>Defines values that describe the subscriber's plan and data usage.</p></td>
 </tr>
 </tbody>

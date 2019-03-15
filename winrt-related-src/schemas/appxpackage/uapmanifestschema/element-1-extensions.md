@@ -71,11 +71,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extension (global)](element-1-extension.md)</td>
+<td><a href="element-1-extension.md">Extension (global)</a> </td>
 <td><p>Declares an extensibility point for the package.</p></td>
 </tr>
 <tr class="even">
-<td>[uap:Extension](element-uap-extension.md)</td>
+<td><a href="element-uap-extension.md">uap:Extension</a> </td>
 <td><p>Declares an extensibility point for the app.</p></td>
 </tr>
 </tbody>
@@ -98,7 +98,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Application](element-application.md)</td>
+<td><a href="element-application.md">Application</a> </td>
 <td><p>Represents an app that comprises part of or all of the functionality delivered in the package.</p></td>
 </tr>
 </tbody>

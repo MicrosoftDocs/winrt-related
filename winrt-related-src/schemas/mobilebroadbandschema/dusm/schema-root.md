@@ -31,39 +31,39 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </thead>
 <tbody>
 <tr class="odd">
-<td>[BandwidthInKbps](element-bandwidthinkbps.md)</td>
+<td><a href="element-bandwidthinkbps.md">BandwidthInKbps</a> </td>
 <td><p>Defines a value representing the effective link speed of the subscriber’s connection specified in Kbps. Must be a value from 0 to 2<sup>32nd</sup>.</p></td>
 </tr>
 <tr class="even">
-<td>[BillingCycle](element-billingcycle.md)</td>
+<td><a href="element-billingcycle.md">BillingCycle</a> </td>
 <td><p>Defines the plan's starting date and time, its duration, and what happens at the end of the billing cycle.</p></td>
 </tr>
 <tr class="odd">
-<td>[CarrierPolicy](element-carrierpolicy.md)</td>
+<td><a href="element-carrierpolicy.md">CarrierPolicy</a> </td>
 <td><p>Defines optional setting for Windows on this connection.</p></td>
 </tr>
 <tr class="even">
-<td>[Cost](element-cost.md)</td>
-<td><p>Defines a set of meter cost information that specifies the metered state of a subscriber's connection to a Mobile Network Operator (MNO). [<strong>Cost</strong>](element-cost.md) is the unique root element for DUSM cost information.</p></td>
+<td><a href="element-cost.md">Cost</a> </td>
+<td><p>Defines a set of meter cost information that specifies the metered state of a subscriber's connection to a Mobile Network Operator (MNO). <a href="element-cost.md"><strong>Cost</strong></a>  is the unique root element for DUSM cost information.</p></td>
 </tr>
 <tr class="odd">
-<td>[DataLimitInMegabytes](element-datalimitinmegabytes.md)</td>
+<td><a href="element-datalimitinmegabytes.md">DataLimitInMegabytes</a> </td>
 <td><p>Defines a value representing the data limit in MB for a capped plan. Must be a value from 0 to 2<sup>32nd</sup>.</p></td>
 </tr>
 <tr class="even">
-<td>[MaxDownloadFileSizeInMegabytes](element-maxdownloadfilesizeinmegabytes.md)</td>
+<td><a href="element-maxdownloadfilesizeinmegabytes.md">MaxDownloadFileSizeInMegabytes</a> </td>
 <td><p>Defines a value representing the maximum suggested download size in MB of the subscriber's connection. Must be a value from 0 to 2<sup>32nd</sup>.</p></td>
 </tr>
 <tr class="odd">
-<td>[SecurityUpdatesExempt](element-securityupdatesexempt.md)</td>
+<td><a href="element-securityupdatesexempt.md">SecurityUpdatesExempt</a> </td>
 <td><p>If <strong>true</strong>, the MNO advises Windows Update (WU) that security updates are exempt from being counted as data usage against the subscriber’s plan and WU will download all security patches when on a metered network. Otherwise, WU will only download zero-day patches and not all security updates when <strong>false</strong>.</p></td>
 </tr>
 <tr class="even">
-<td>[UsageInMegabytes](element-usageinmegabytes.md)</td>
+<td><a href="element-usageinmegabytes.md">UsageInMegabytes</a> </td>
 <td><p>Defines a value representing the data used to-date within the current billing cycle in MB. Must be a value from 0 to 2<sup>32nd</sup>.</p></td>
 </tr>
 <tr class="odd">
-<td>[UserSMSEnabled](element-usersmsenabled.md)</td>
+<td><a href="element-usersmsenabled.md">UserSMSEnabled</a> </td>
 <td><p>Indicates whether the subscriber's service includes user-to-user SMS which must be delivered in near real-time. If <strong>true</strong>, Windows will employ less aggressive power management on the Mobile Broadband interface to allow SMS messages to arrive more quickly. If <strong>false</strong>, SMS messages will arrive when the PC is next active.</p></td>
 </tr>
 </tbody>

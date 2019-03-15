@@ -72,15 +72,15 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Certificate](element-certificate.md)</td>
+<td><a href="element-certificate.md">Certificate</a> </td>
 <td><p>A certificate for use with the package and placed in the system certificate stores.</p></td>
 </tr>
 <tr class="even">
-<td>[SelectionCriteria](element-selectioncriteria.md)</td>
+<td><a href="element-selectioncriteria.md">SelectionCriteria</a> </td>
 <td><p>Defines selection criteria for the certificates defined for the package.</p></td>
 </tr>
 <tr class="odd">
-<td>[TrustFlags](element-trustflags.md)</td>
+<td><a href="element-trustflags.md">TrustFlags</a> </td>
 <td><p>Indicates whether the certificates for the package are exclusive to the package.</p></td>
 </tr>
 </tbody>
@@ -103,7 +103,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extension (in type: CT_PackageExtensions)](element-extension.md)</td>
+<td><a href="element-extension.md">Extension (in type: CT_PackageExtensions)</a> </td>
 <td><p>Declares an extensibility point for the package.</p></td>
 </tr>
 </tbody>

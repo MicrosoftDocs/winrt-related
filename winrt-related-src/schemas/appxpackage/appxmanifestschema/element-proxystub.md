@@ -100,11 +100,11 @@ Declares a package extensibility point of type **windows.activatableClass.proxyS
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Interface](element-interface.md)</td>
+<td><a href="element-interface.md">Interface</a> </td>
 <td><p>Declares an interface associated with the proxy.</p></td>
 </tr>
 <tr class="even">
-<td>[Path (type: ST_FileName)](element-2-path.md)</td>
+<td><a href="element-2-path.md">Path (type: ST_FileName)</a> </td>
 <td><p>The path to the DLL.</p></td>
 </tr>
 </tbody>
@@ -127,7 +127,7 @@ Declares a package extensibility point of type **windows.activatableClass.proxyS
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extension (in type: CT_PackageExtensions)](element-extension.md)</td>
+<td><a href="element-extension.md">Extension (in type: CT_PackageExtensions)</a> </td>
 <td><p>Declares an extensibility point for the package.</p></td>
 </tr>
 </tbody>

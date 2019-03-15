@@ -89,7 +89,7 @@ Describes a [**ContactLaunchActions**](element-contactlaunchactions.md) content 
 </tr>
 <tr class="even">
 <td><strong>Verb</strong></td>
-<td><p>A unique identifier that is passed to the app when it is launched. The app can use this string to determine which [<strong>ContactLaunchActions</strong>](element-contactlaunchactions.md) handler triggered its launch. It is unique per application in the package and is case sensitive.</p></td>
+<td><p>A unique identifier that is passed to the app when it is launched. The app can use this string to determine which <a href="element-contactlaunchactions.md"><strong>ContactLaunchActions</strong></a>  handler triggered its launch. It is unique per application in the package and is case sensitive.</p></td>
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li>call</li>
@@ -121,7 +121,7 @@ Describes a [**ContactLaunchActions**](element-contactlaunchactions.md) content 
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ServiceId](element-serviceid.md)</td>
+<td><a href="element-serviceid.md">ServiceId</a> </td>
 <td><p>Identifies the service for a contact action.</p></td>
 </tr>
 </tbody>
@@ -144,7 +144,7 @@ Describes a [**ContactLaunchActions**](element-contactlaunchactions.md) content 
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ContactLaunchActions](element-contactlaunchactions.md)</td>
+<td><a href="element-contactlaunchactions.md">ContactLaunchActions</a> </td>
 <td><p>Declares actions to take when a contact is launched.</p></td>
 </tr>
 </tbody>

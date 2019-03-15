@@ -74,15 +74,15 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[keyMaterial](element-keymaterial.md)</td>
-<td><p>Defines a network key or pass phrase. If [<strong>protected</strong>](element-protected.md) is <strong>true</strong>, then the key material is encrypted; otherwise, the key material is unencrypted. Encrypted key material is expressed in hexadecimal form.</p></td>
+<td><a href="element-keymaterial.md">keyMaterial</a> </td>
+<td><p>Defines a network key or pass phrase. If <a href="element-protected.md"><strong>protected</strong></a>  is <strong>true</strong>, then the key material is encrypted; otherwise, the key material is unencrypted. Encrypted key material is expressed in hexadecimal form.</p></td>
 </tr>
 <tr class="even">
-<td>[keyType](element-keytype.md)</td>
+<td><a href="element-keytype.md">keyType</a> </td>
 <td><p>Defines whether the shared key will be a network key or a pass phrase.</p></td>
 </tr>
 <tr class="odd">
-<td>[protected](element-protected.md)</td>
+<td><a href="element-protected.md">protected</a> </td>
 <td><p>If <strong>true</strong>, the shared key is encrypted. Otherwise, <strong>false</strong>.</p></td>
 </tr>
 </tbody>
@@ -105,7 +105,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[security](element-security.md)</td>
+<td><a href="element-security.md">security</a> </td>
 <td><p>Defines various security settings for this profile on a WLAN.</p></td>
 </tr>
 </tbody>

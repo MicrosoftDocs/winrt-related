@@ -98,7 +98,7 @@ Declares a function for a device that is associated with the [**DeviceCapability
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Function](element-function.md)</td>
+<td><a href="element-function.md">Function</a> </td>
 <td><p>Declares the function for the device.</p></td>
 </tr>
 </tbody>
@@ -121,8 +121,8 @@ Declares a function for a device that is associated with the [**DeviceCapability
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DeviceCapability](element-devicecapability.md)</td>
-<td><p>Declares a device capability required by a package. On Windows 10.0.10240.0, can contain up to 100 [<strong>Device</strong>](element-device.md) elements. On Windows 10.0.10586.0, can contain up to 1000 (for syntax and examples, see Examples).</p></td>
+<td><a href="element-devicecapability.md">DeviceCapability</a> </td>
+<td><p>Declares a device capability required by a package. On Windows 10.0.10240.0, can contain up to 100 <a href="element-device.md"><strong>Device</strong></a>  elements. On Windows 10.0.10586.0, can contain up to 1000 (for syntax and examples, see Examples).</p></td>
 </tr>
 </tbody>
 </table>

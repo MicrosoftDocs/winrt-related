@@ -65,7 +65,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[TrustedDomains](element-trusteddomains.md)</td>
+<td><a href="element-trusteddomains.md">TrustedDomains</a> </td>
 <td><p>Contains a set of one or more host names that are trusted for providing credentials over HTTPS. Can be either a fully qualified name (such as <em>hotspot.contoso.com</em>) or a wildcard to refer to all hosts under the given domain name (such as <em>.contoso.com</em>).</p></td>
 </tr>
 </tbody>

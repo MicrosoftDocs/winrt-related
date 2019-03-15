@@ -70,7 +70,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[NetworkSettings](element-networksettings.md)</td>
+<td><a href="element-networksettings.md">NetworkSettings</a> </td>
 <td><p>Defines the network settings in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>

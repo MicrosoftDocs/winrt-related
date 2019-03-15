@@ -66,8 +66,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[X509Certificate](element-x509certificate.md)</td>
-<td><p>Defines an X.509 compliant signature as defined in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-x509certificate.md">X509Certificate</a> </td>
+<td><p>Defines an X.509 compliant signature as defined in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> .</p></td>
 </tr>
 </tbody>
 </table>
@@ -89,8 +89,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[KeyInfo](element-keyinfo.md)</td>
-<td><p>Defines all key information used to validate the signature as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-keyinfo.md">KeyInfo</a> </td>
+<td><p>Defines all key information used to validate the signature as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> .</p></td>
 </tr>
 </tbody>
 </table>

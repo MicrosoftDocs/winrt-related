@@ -91,7 +91,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Capabilities](element-capabilities.md)</td>
+<td><a href="element-capabilities.md">Capabilities</a> </td>
 <td><p>Declares the access to protected user resources that the package requires.</p></td>
 </tr>
 </tbody>

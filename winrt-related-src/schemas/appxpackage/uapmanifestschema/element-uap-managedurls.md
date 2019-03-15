@@ -85,7 +85,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:Url](element-uap-url.md)</td>
+<td><a href="element-uap-url.md">uap:Url</a> </td>
 <td><p>Specifies a URL to which a plugin may send cookies. Need only be a valid URI; not necessarily a URL.</p></td>
 </tr>
 </tbody>
@@ -108,7 +108,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:WebAccountProvider](element-uap-webaccountprovider.md)</td>
+<td><a href="element-uap-webaccountprovider.md">uap:WebAccountProvider</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.webAccountProvider</strong>.</p></td>
 </tr>
 </tbody>

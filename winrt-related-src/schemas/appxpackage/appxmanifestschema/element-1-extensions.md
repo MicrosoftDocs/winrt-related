@@ -71,7 +71,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extension (in type: CT_ApplicationExtensions)](element-1-extension.md)</td>
+<td><a href="element-1-extension.md">Extension (in type: CT_ApplicationExtensions)</a> </td>
 <td><p>Declares an extensibility point for the app.</p></td>
 </tr>
 </tbody>
@@ -94,7 +94,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Application](element-application.md)</td>
+<td><a href="element-application.md">Application</a> </td>
 <td><p>Represents an app that comprises part of or all of the functionality delivered in the package.</p></td>
 </tr>
 </tbody>
