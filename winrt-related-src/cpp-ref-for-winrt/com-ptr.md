@@ -5,10 +5,7 @@ title: winrt::com_ptr struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/10/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, com, smart, pointer
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -42,28 +39,28 @@ The interface, or runtime class implementation type, a pointer to which is repre
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[com_ptr::com_ptr constructor](#comptrcomptr-constructor)|Initializes a new instance of the **com_ptr** struct, optionally with a copy or move of the input data.|
+|[com_ptr::com_ptr constructor](#com_ptrcom_ptr-constructor)|Initializes a new instance of the **com_ptr** struct, optionally with a copy or move of the input data.|
 
 ## Member functions
 |Function|Description|
 |------------|-----------------|
-|[com_ptr::as function](#comptras-function)|Returns the requested interface, if it is supported. Throws if it is not.|
-|[com_ptr::attach function](#comptrattach-function)|Attaches to a raw pointer that owns a reference to its target; an additional reference is not added.|
-|[com_ptr::copy_from function](#comptrcopyfrom-function)|Copies from another pointer. Decrements the reference count on any currently referenced interface or object, copies the raw pointer parameter, and begins managing the lifetime of the interface or object pointed to by it.|
-|[com_ptr::copy_to function](#comptrcopyto-function)|Copies to another pointer from the **com_ptr** object. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter.|
-|[com_ptr::detach function](#comptrdetach-function)|Detaches from the referenced interface or object without decrementing the reference count, perhaps to return it to a caller.|
-|[com_ptr::get function](#comptrget-function)|Returns the underlying raw pointer should you need to pass it to a function.|
-|[com_ptr::put function](#comptrput-function)|Returns the address of the underlying raw pointer; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer.|
-|[com_ptr::put_void function](#comptrputvoid-function)|Returns the address of the underlying raw pointer as a pointer to a pointer to **void**; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer to **void**.|
-|[com_ptr::try_as function](#comptrtryas-function)|Returns the requested interface, if it is supported. Returns `null`, or `false`, if it is not.|
+|[com_ptr::as function](#com_ptras-function)|Returns the requested interface, if it is supported. Throws if it is not.|
+|[com_ptr::attach function](#com_ptrattach-function)|Attaches to a raw pointer that owns a reference to its target; an additional reference is not added.|
+|[com_ptr::copy_from function](#com_ptrcopyfrom-function)|Copies from another pointer. Decrements the reference count on any currently referenced interface or object, copies the raw pointer parameter, and begins managing the lifetime of the interface or object pointed to by it.|
+|[com_ptr::copy_to function](#com_ptrcopyto-function)|Copies to another pointer from the **com_ptr** object. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter.|
+|[com_ptr::detach function](#com_ptrdetach-function)|Detaches from the referenced interface or object without decrementing the reference count, perhaps to return it to a caller.|
+|[com_ptr::get function](#com_ptrget-function)|Returns the underlying raw pointer should you need to pass it to a function.|
+|[com_ptr::put function](#com_ptrput-function)|Returns the address of the underlying raw pointer; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer.|
+|[com_ptr::put_void function](#com_ptrputvoid-function)|Returns the address of the underlying raw pointer as a pointer to a pointer to **void**; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer to **void**.|
+|[com_ptr::try_as function](#com_ptrtryas-function)|Returns the requested interface, if it is supported. Returns `null`, or `false`, if it is not.|
 
 ## Member operators
 |Operator|Description|
 |------------|-----------------|
-|[com_ptr::operator bool](#comptroperator-bool)|Checks whether or not the smart pointer is referencing an interface or object.|
-|[com_ptr::operator* (indirection operator)](#comptroperator-indirection-operator)|Returns a reference to the **com_ptr**'s target so that you can pass it to a function that expects a reference to the target type **T**.|
-|[com_ptr::operator= (assignment operator)](#comptroperator-assignment-operator)|Assigns a value to the **com_ptr** object.|
-|[com_ptr::operator-> (arrow operator)](#comptroperator--arrow-operator)|To afford access to the referenced interface or object's methods, returns the underlying raw pointer.|
+|[com_ptr::operator bool](#com_ptroperator-bool)|Checks whether or not the smart pointer is referencing an interface or object.|
+|[com_ptr::operator* (indirection operator)](#com_ptroperator-indirection-operator)|Returns a reference to the **com_ptr**'s target so that you can pass it to a function that expects a reference to the target type **T**.|
+|[com_ptr::operator= (assignment operator)](#com_ptroperator-assignment-operator)|Assigns a value to the **com_ptr** object.|
+|[com_ptr::operator-> (arrow operator)](#com_ptroperator--arrow-operator)|To afford access to the referenced interface or object's methods, returns the underlying raw pointer.|
 
 ## Free functions
 |Function|Description|

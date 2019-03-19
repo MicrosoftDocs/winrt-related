@@ -5,10 +5,7 @@ title: winrt::vector_base struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 08/26/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, vector, collection
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -41,24 +38,24 @@ The type of the elements in the **vector_base**.
 ## Member functions
 |Function|Description|
 |-|-|
-|[vector_base::Append function](#vectorbaseappend-function)|Appends an element to the end of the **vector_base** object.|
-|[vector_base::Clear function](#vectorbaseclear-function)|Removes all elements from the **vector_base** object.|
-|[vector_base::First function](#vectorbasefirst-function)|Retrieves an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) representing the first element in the **vector_base** object.|
-|[vector_base::GetAt function](#vectorbasegetat-function)|Retrieves the element at the specified index in the **vector_base** object.|
-|[vector_base::GetMany function](#vectorbasegetmany-function)|Retrieves a collection of elements in the **vector_base** object beginning at the given index.|
-|[vector_base::GetView function](#vectorbasegetview-function)|Retrieves an immutable view of the **vector_base** object.|
-|[vector_base::IndexOf function](#vectorbaseindexof-function)|Retrieves the index of a specified element in the **vector_base** object.|
-|[vector_base::InsertAt function](#vectorbaseinsertat-function)|Inserts an element at the specified index in the **vector_base** object.|
-|[vector_base::RemoveAt function](#vectorbaseremoveat-function)|Removes the element at the specified index in the **vector_base** object.|
-|[vector_base::RemoveAtEnd function](#vectorbaseremoveatend-function)|Removes the last element from the **vector_base** object.|
-|[vector_base::ReplaceAll function](#vectorbasereplaceall-function)|Replaces all the elements in the **vector_base** object with the specified elements.|
-|[vector_base::SetAt function](#vectorbasesetat-function)|Sets the value of the element at the specified index in the **vector_base** object.|
-|[vector_base::Size function](#vectorbasesize-function)|Retrieves the number of elements in the **vector_base** object.|
+|[vector_base::Append function](#vector_baseappend-function)|Appends an element to the end of the **vector_base** object.|
+|[vector_base::Clear function](#vector_baseclear-function)|Removes all elements from the **vector_base** object.|
+|[vector_base::First function](#vector_basefirst-function)|Retrieves an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) representing the first element in the **vector_base** object.|
+|[vector_base::GetAt function](#vector_basegetat-function)|Retrieves the element at the specified index in the **vector_base** object.|
+|[vector_base::GetMany function](#vector_basegetmany-function)|Retrieves a collection of elements in the **vector_base** object beginning at the given index.|
+|[vector_base::GetView function](#vector_basegetview-function)|Retrieves an immutable view of the **vector_base** object.|
+|[vector_base::IndexOf function](#vector_baseindexof-function)|Retrieves the index of a specified element in the **vector_base** object.|
+|[vector_base::InsertAt function](#vector_baseinsertat-function)|Inserts an element at the specified index in the **vector_base** object.|
+|[vector_base::RemoveAt function](#vector_baseremoveat-function)|Removes the element at the specified index in the **vector_base** object.|
+|[vector_base::RemoveAtEnd function](#vector_baseremoveatend-function)|Removes the last element from the **vector_base** object.|
+|[vector_base::ReplaceAll function](#vector_basereplaceall-function)|Replaces all the elements in the **vector_base** object with the specified elements.|
+|[vector_base::SetAt function](#vector_basesetat-function)|Sets the value of the element at the specified index in the **vector_base** object.|
+|[vector_base::Size function](#vector_basesize-function)|Retrieves the number of elements in the **vector_base** object.|
 
 ## Iterators
 A **vector_base** is a range, and that range is defined by internal free functions (each of which retrieves an iterator) that are compatible with standard language features. Because of this, you can enumerate the elements in a **vector_base** object with a range-based `for` statement.
 
-You can also retrieve an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) from the [vector_base::First](#vectorbasefirst-function) function, and use that to iterate through the elements in a **vector_base** object.
+You can also retrieve an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) from the [vector_base::First](#vector_basefirst-function) function, and use that to iterate through the elements in a **vector_base** object.
 
 ```cppwinrt
 ...

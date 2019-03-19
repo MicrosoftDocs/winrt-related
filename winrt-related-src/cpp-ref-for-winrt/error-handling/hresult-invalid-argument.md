@@ -5,10 +5,7 @@ title: winrt::hresult_invalid_argument struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/25/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, hresult, error, code, E_INVALIDARG
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -32,7 +29,7 @@ struct hresult_invalid_argument : winrt::hresult_error
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[hresult_invalid_argument::hresult_invalid_argument constructor](#hresultinvalidargumenthresultinvalidargument-constructor)|Initializes a new instance of the **hresult_invalid_argument** struct with a copy of the input data.|
+|[hresult_invalid_argument::hresult_invalid_argument constructor](#hresult_invalid_argumenthresult_invalid_argument-constructor)|Initializes a new instance of the **hresult_invalid_argument** struct with a copy of the input data.|
 
 ## hresult_invalid_argument::hresult_invalid_argument constructor
 Initializes a new instance of the **hresult_invalid_argument** struct with a copy of the input data.

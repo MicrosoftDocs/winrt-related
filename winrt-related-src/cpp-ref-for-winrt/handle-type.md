@@ -5,10 +5,7 @@ title: winrt::handle_type struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 05/14/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -43,24 +40,24 @@ A traits type that specifies the kind of handle being represented (a handle, a f
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[handle_type::handle_type constructor](#handletypehandletype-constructor)|Initializes a new instance of the **handle_type** struct, optionally with a copy or move of the input data.|
+|[handle_type::handle_type constructor](#handle_typehandle_type-constructor)|Initializes a new instance of the **handle_type** struct, optionally with a copy or move of the input data.|
 
 ## Member functions
 |Function|Description|
 |------------|-----------------|
-|[handle_type::attach function](#handletypeattach-function)|Attaches to a handle value, and takes ownership of it.|
-|[handle_type::close function](#handletypeclose-function)|Closes the underlying handle.|
-|[handle_type::detach function](#handletypedetach-function)|Detaches from the underlying handle.|
-|[handle_type::get function](#handletypeget-function)|Returns the underlying handle should you need to pass it to a function.|
-|[handle_type::put function](#handletypeput-function)|
+|[handle_type::attach function](#handle_typeattach-function)|Attaches to a handle value, and takes ownership of it.|
+|[handle_type::close function](#handle_typeclose-function)|Closes the underlying handle.|
+|[handle_type::detach function](#handle_typedetach-function)|Detaches from the underlying handle.|
+|[handle_type::get function](#handle_typeget-function)|Returns the underlying handle should you need to pass it to a function.|
+|[handle_type::put function](#handle_typeput-function)|
 Returns the address of the underlying handle; this function helps you call methods that return references as out parameters via a pointer to a handle.
 |
 
 ## Member operators
 |Operator|Description|
 |------------|-----------------|
-|[handle_type::operator bool](#handletypeoperator-bool)|Checks whether or not the **handle_type** object currently represents a valid handle.|
-|[handle_type::operator= (assignment operator)](#handletypeoperator-assignment-operator)|Assigns a value to the **handle_type** object.|
+|[handle_type::operator bool](#handle_typeoperator-bool)|Checks whether or not the **handle_type** object currently represents a valid handle.|
+|[handle_type::operator= (assignment operator)](#handle_typeoperator-assignment-operator)|Assigns a value to the **handle_type** object.|
 
 ## Free functions
 |Function|Description|
