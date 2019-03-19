@@ -2106,6 +2106,8 @@
       href: cpp-ref-for-winrt/single-threaded-observable-vector.md
     - name: "single_threaded_vector function template"
       href: cpp-ref-for-winrt/single-threaded-vector.md
+    - name: "static_lifetime marker struct"
+      href: cpp-ref-for-winrt/static-lifetime.md
     - name: "swap function"
       href: cpp-ref-for-winrt/swap.md
     - name: "to_hstring function"

@@ -5,10 +5,7 @@ title: winrt::implements struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/17/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, implement, interface
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -21,7 +18,7 @@ This is the base from which your own [C++/WinRT](/windows/uwp/cpp-and-winrt-apis
 For more info about deriving from this type, and examples, see [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis).
 
 ## Marker types
-The **implements** struct template supports the [non_agile](non-agile.md) and [no_weak_ref](no-weak-ref.md) marker types, which override default behavior. They should be rarely used, because the defaults are sufficient for almost all cases. A marker type can appear anywhere in the interface list, which is the variadic parameter pack.
+The **implements** struct template supports several marker types (such as [non_agile](non-agile.md), [no_weak_ref](no-weak-ref.md), and [static_lifetime](static-lifetime.md)). These marker types override default behavior. We expect that these will be only rarely used; the defaults are sufficient for almost all cases. A marker type can appear anywhere in the interface list, which is the variadic parameter pack.
 
 This first example applies when you derive directly from **implements**.
 
@@ -79,17 +76,13 @@ struct App : implements<App, IFrameworkViewSource>
 |Function|Description|
 |------------|-----------------|
 |[implements::AddRef function](#implementsaddref-function)|Increments the reference count for the default interface of the **implements** object.|
+|[implements::find_inspectable function](#implementsfindinspectable-function)|TBD|
 |[implements::find_interface function](#implementsfindinterface-function)|The pointer to the interface implemented by the **implements** object, identified by the specified identifier; doesn't call **AddRef**.|
 |[implements::get_local_iids function](#implementsgetlocaliids-function)|Retrieves a two-element tuple containing the identifiers of the interfaces that are implemented by the **implements** object.|
-|[implements::QueryInterface function](#implementsqueryinterface-function)|Retrieves the pointer to the interface implemented by the **implements** object, identified by the specified identifier; calls **AddRef**.|
-|[implements::Release function](#implementsrelease-function)|Decrements the reference count for the default interface of the **implements** object.|
-
-## Protected member functions
-|Function|Description|
-|------------|-----------------|
 |[implements::get_strong function](#implementsgetstrong-function)|Retrieves a strong reference to the **implements** object's *this* pointer.|
 |[implements::get_weak function](#implementsgetweak-function)|Retrieves a weak reference to the **implements** object's *this* pointer.|
-|[implements::static_lifetime function](#implementsstaticlifetime-function)|Configures the **implements** object to have static lifetime.|
+|[implements::QueryInterface function](#implementsqueryinterface-function)|Retrieves the pointer to the interface implemented by the **implements** object, identified by the specified identifier; calls **AddRef**.|
+|[implements::Release function](#implementsrelease-function)|Decrements the reference count for the default interface of the **implements** object.|
 
 ## Member operators
 |Operator|Description| 
@@ -104,18 +97,29 @@ Increments the reference count for the default interface of the **implements** o
 unsigned long __stdcall AddRef() noexcept;
 ```
 
-### Return value 
+### Return value
 The new reference count. This value is intended to be used only for test purposes.
+
+## implements::find_inspectable function
+Retrieves the pointer to the [IInspectable](/windows/desktop/api/inspectable/nn-inspectable-iinspectable) interface implemented by the **implements** object. Does not call **AddRef** on the pointer that it returns. This function allows you to pass the **implements** object to a function that expects an **IInspectable**.
+
+### Syntax
+```cppwinrt
+::IInspectable* find_inspectable() const noexcept override;
+```
+
+### Return value
+The pointer to the [IInspectable](/windows/desktop/api/inspectable/nn-inspectable-iinspectable) interface implemented by the **implements** object.
 
 ## implements::find_interface function
 Retrieves the pointer to the interface implemented by the **implements** object, identified by the specified identifier. Does not call **AddRef** on the pointer that it returns.
 
 ### Syntax
 ```cppwinrt
-void* find_interface(GUID const& id) const noexcept override;
+void* find_interface(winrt::guid const& id) const noexcept override;
 ```
 
-### Return value 
+### Return value
 The pointer to the interface implemented by the **implements** object, identified by the specified identifier.
 
 ## implements::get_local_iids function
@@ -123,10 +127,10 @@ Retrieves a two-element tuple containing the identifiers of the interfaces that 
 
 ### Syntax
 ```cppwinrt
-std::pair<uint32_t, const GUID*> get_local_iids() const noexcept override;
+std::pair<uint32_t, const winrt::guid*> get_local_iids() const noexcept override;
 ```
 
-### Return value 
+### Return value
 A two-element tuple containing the identifiers of the interfaces that are implemented by the **implements** object.
 
 ## implements::get_strong function
@@ -138,7 +142,7 @@ protected:
     winrt::com_ptr<D> get_strong() noexcept;
 ```
 
-### Return value 
+### Return value
 A strong reference to the **implements** object's *this* pointer.
 
 ## implements::get_weak function
@@ -150,7 +154,7 @@ protected:
     winrt::weak_ref<D> get_weak() noexcept;
 ```
 
-### Return value 
+### Return value
 A [**weak_ref**](weak-ref.md) object representing a weak reference to the **implements** object's *this* pointer.
 
 ## implements::QueryInterface function
@@ -158,10 +162,10 @@ Retrieves the pointer to the interface implemented by the **implements** object,
 
 ### Syntax
 ```cppwinrt
-HRESULT __stdcall QueryInterface(GUID const& id, void** object) noexcept;
+HRESULT __stdcall QueryInterface(winrt::guid const& id, void** object) noexcept;
 ```
 
-### Return value 
+### Return value
 The new reference count. This value is intended to be used only for test purposes.
 
 ## implements::Release function
@@ -172,20 +176,11 @@ Decrements the reference count for the default interface of the **implements** o
 unsigned long __stdcall Release() noexcept;
 ```
 
-### Return value 
+### Return value
 The new reference count. This value is intended to be used only for test purposes.
 
-## implements::static_lifetime function
-Configures the **implements** object to have static lifetime.
-
-### Syntax
-```cppwinrt
-protected:
-    void static_lifetime();
-```
-
 ## implements::operator Windows::Foundation::IInspectable
-Converts the **implements** object to a **Windows::Foundation::IInspectable**. This operators allows you to pass the **implements** object to a function that expects an **IInspectable**.
+Converts the **implements** object to a **Windows::Foundation::IInspectable**. This operator allows you to pass the **implements** object to a function that expects an **IInspectable**.
 
 ### Syntax
 ```cppwinrt
