@@ -5,10 +5,7 @@ title: winrt::observable_map_base struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 08/27/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, map, associative, collection
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -44,20 +41,20 @@ The type of the values in the collection.
 ## Member functions
 |Function|Description|
 |------------|-----------------|
-|[observable_map_base::Clear function](#observablemapbaseclear-function)|Removes all elements from the **observable_map_base** object.|
-|[observable_map_base::First function](#observablemapbasefirst-function)|Retrieves an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) representing the first element in the **observable_map_base** object.|
-|[observable_map_base::GetView function](#observablemapbasegetview-function)|Retrieves an immutable view of the **observable_map_base** object.|
-|[observable_map_base::HasKey function](#observablemapbasehaskey-function)|Determines whether the specified key belongs to an element in the **observable_map_base** object.|
-|[observable_map_base::Insert function](#observablemapbaseinsert-function)|Inserts or updates an element in the **observable_map_base** object.|
-|[observable_map_base::Lookup function](#observablemapbaselookup-function)|Looks up the element identified by the specified key, and retrieves the corresponding value.|
+|[observable_map_base::Clear function](#observable_map_baseclear-function)|Removes all elements from the **observable_map_base** object.|
+|[observable_map_base::First function](#observable_map_basefirst-function)|Retrieves an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) representing the first element in the **observable_map_base** object.|
+|[observable_map_base::GetView function](#observable_map_basegetview-function)|Retrieves an immutable view of the **observable_map_base** object.|
+|[observable_map_base::HasKey function](#observable_map_basehaskey-function)|Determines whether the specified key belongs to an element in the **observable_map_base** object.|
+|[observable_map_base::Insert function](#observable_map_baseinsert-function)|Inserts or updates an element in the **observable_map_base** object.|
+|[observable_map_base::Lookup function](#observable_map_baselookup-function)|Looks up the element identified by the specified key, and retrieves the corresponding value.|
 |[observable_map_base::MapChanged function](#observablevectorbasemapchanged-function)|Registers and revokes a delegate that handles the map-changed event of the **observable_map_base** object.|
-|[observable_map_base::Remove function](#observablemapbaseremove-function)|Removes an element from the **observable_map_base** object.|
-|[observable_map_base::Size function](#observablemapbasesize-function)|Retrieves the number of elements in the **observable_map_base** object.|
+|[observable_map_base::Remove function](#observable_map_baseremove-function)|Removes an element from the **observable_map_base** object.|
+|[observable_map_base::Size function](#observable_map_basesize-function)|Retrieves the number of elements in the **observable_map_base** object.|
 
 ## Iterators
 A **observable_map_base** is a range, and that range is defined by internal free functions (each of which retrieves an iterator) that are compatible with standard language features. Because of this, you can enumerate the elements in a **observable_map_base** object with a range-based `for` statement.
 
-You can also retrieve an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) from the [observable_map_base::First](#observablemapbasefirst-function) function, and use that to iterate through the elements in a **observable_map_base** object.
+You can also retrieve an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) from the [observable_map_base::First](#observable_map_basefirst-function) function, and use that to iterate through the elements in a **observable_map_base** object.
 
 ```cppwinrt
 ...

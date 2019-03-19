@@ -5,10 +5,7 @@ title: winrt::hresult_wrong_thread struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/25/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, hresult, error, code, RPC_E_WRONG_THREAD
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -32,7 +29,7 @@ struct hresult_wrong_thread : winrt::hresult_error
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[hresult_wrong_thread::hresult_wrong_thread constructor](#hresultwrongthreadhresultwrongthread-constructor)|Initializes a new instance of the **hresult_wrong_thread** struct with a copy of the input data.|
+|[hresult_wrong_thread::hresult_wrong_thread constructor](#hresult_wrong_threadhresult_wrong_thread-constructor)|Initializes a new instance of the **hresult_wrong_thread** struct with a copy of the input data.|
 
 ## hresult_wrong_thread::hresult_wrong_thread constructor
 Initializes a new instance of the **hresult_wrong_thread** struct with a copy of the input data.

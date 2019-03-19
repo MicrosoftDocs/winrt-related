@@ -5,10 +5,7 @@ title: winrt::map_base struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 08/27/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, map, associative, collection
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -44,19 +41,19 @@ The type of the values in the collection.
 ## Member functions
 |Function|Description|
 |------------|-----------------|
-|[map_base::Clear function](#mapbaseclear-function)|Removes all elements from the **map_base** object.|
-|[map_base::First function](#mapbasefirst-function)|Retrieves an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) representing the first element in the **map_base** object.|
-|[map_base::GetView function](#mapbasegetview-function)|Retrieves an immutable view of the **map_base** object.|
-|[map_base::HasKey function](#mapbasehaskey-function)|Determines whether the specified key belongs to an element in the **map_base** object.|
-|[map_base::Insert function](#mapbaseinsert-function)|Inserts or updates an element in the **map_base** object.|
-|[map_base::Lookup function](#mapbaselookup-function)|Looks up the element identified by the specified key, and retrieves the corresponding value.|
-|[map_base::Remove function](#mapbaseremove-function)|Removes an element from the **map_base** object.|
-|[map_base::Size function](#mapbasesize-function)|Retrieves the number of elements in the **map_base** object.|
+|[map_base::Clear function](#map_baseclear-function)|Removes all elements from the **map_base** object.|
+|[map_base::First function](#map_basefirst-function)|Retrieves an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) representing the first element in the **map_base** object.|
+|[map_base::GetView function](#map_basegetview-function)|Retrieves an immutable view of the **map_base** object.|
+|[map_base::HasKey function](#map_basehaskey-function)|Determines whether the specified key belongs to an element in the **map_base** object.|
+|[map_base::Insert function](#map_baseinsert-function)|Inserts or updates an element in the **map_base** object.|
+|[map_base::Lookup function](#map_baselookup-function)|Looks up the element identified by the specified key, and retrieves the corresponding value.|
+|[map_base::Remove function](#map_baseremove-function)|Removes an element from the **map_base** object.|
+|[map_base::Size function](#map_basesize-function)|Retrieves the number of elements in the **map_base** object.|
 
 ## Iterators
 A **map_base** is a range, and that range is defined by internal free functions (each of which retrieves an iterator) that are compatible with standard language features. Because of this, you can enumerate the elements in a **map_base** object with a range-based `for` statement.
 
-You can also retrieve an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) from the [map_base::First](#mapbasefirst-function) function, and use that to iterate through the elements in a **map_base** object.
+You can also retrieve an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) from the [map_base::First](#map_basefirst-function) function, and use that to iterate through the elements in a **map_base** object.
 
 ```cppwinrt
 ...

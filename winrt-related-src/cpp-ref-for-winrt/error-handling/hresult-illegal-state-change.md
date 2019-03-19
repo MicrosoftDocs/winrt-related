@@ -5,10 +5,7 @@ title: winrt::hresult_illegal_state_change struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/25/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, hresult, error, code, E_ILLEGAL_STATE_CHANGE
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -32,7 +29,7 @@ struct hresult_illegal_state_change : winrt::hresult_error
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[hresult_illegal_state_change::hresult_illegal_state_change constructor](#hresultillegalstatechangehresultillegalstatechange-constructor)|Initializes a new instance of the **hresult_illegal_state_change** struct with a copy of the input data.|
+|[hresult_illegal_state_change::hresult_illegal_state_change constructor](#hresult_illegal_state_changehresult_illegal_state_change-constructor)|Initializes a new instance of the **hresult_illegal_state_change** struct with a copy of the input data.|
 
 ## hresult_illegal_state_change::hresult_illegal_state_change constructor
 Initializes a new instance of the **hresult_illegal_state_change** struct with a copy of the input data.

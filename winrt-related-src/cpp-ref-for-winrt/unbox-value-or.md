@@ -4,10 +4,7 @@ description: A function template that unwraps (or *unboxes*) a scalar value from
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/10/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, box, boxing, unbox, unboxing
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]

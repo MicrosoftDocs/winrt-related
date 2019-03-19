@@ -5,10 +5,7 @@ title: winrt::hresult_no_interface struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/25/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, hresult, error, code, E_NOINTERFACE
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -32,7 +29,7 @@ struct hresult_no_interface : winrt::hresult_error
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[hresult_no_interface::hresult_no_interface constructor](#hresultnointerfacehresultnointerface-constructor)|Initializes a new instance of the **hresult_no_interface** struct with a copy of the input data.|
+|[hresult_no_interface::hresult_no_interface constructor](#hresult_no_interfacehresult_no_interface-constructor)|Initializes a new instance of the **hresult_no_interface** struct with a copy of the input data.|
 
 ## hresult_no_interface::hresult_no_interface constructor
 Initializes a new instance of the **hresult_no_interface** struct with a copy of the input data.

@@ -5,10 +5,7 @@ title: winrt::weak_ref struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/10/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, weak
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -38,17 +35,17 @@ The type of C++/WinRT object or interface a weak reference to which is represent
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[weak_ref::weak_ref constructor](#weakrefweakref-constructor)|Initializes a new instance of the **weak_ref** struct, optionally with a copy of the input data.|
+|[weak_ref::weak_ref constructor](#weak_refweak_ref-constructor)|Initializes a new instance of the **weak_ref** struct, optionally with a copy of the input data.|
 
 ## Member functions
 |Function|Description|
 |------------|-----------------|
-|[weak_ref::get function](#weakrefget-function)|Increments the reference count and retrieves the C++/WinRT object or interface weakly referenced by the **weak_ref** object.|
+|[weak_ref::get function](#weak_refget-function)|Increments the reference count and retrieves the C++/WinRT object or interface weakly referenced by the **weak_ref** object.|
 
 ## Member operators
 |Operator|Description|
 |------------|-----------------|
-|[weak_ref::operator bool](#weakrefoperator-bool)|Checks whether the **weak_ref** object is targeting a C++/WinRT object that hasn't yet been destroyed.|
+|[weak_ref::operator bool](#weak_refoperator-bool)|Checks whether the **weak_ref** object is targeting a C++/WinRT object that hasn't yet been destroyed.|
 
 ## weak_ref::weak_ref constructor
 Initializes a new instance of the **weak_ref** struct, optionally with a copy of the input data.

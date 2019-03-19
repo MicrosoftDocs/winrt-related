@@ -5,10 +5,7 @@ title: winrt::single_threaded_observable_vector function template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 10/03/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, observable, collection
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]

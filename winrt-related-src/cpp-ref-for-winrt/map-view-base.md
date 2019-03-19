@@ -5,10 +5,7 @@ title: winrt::map_view_base struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 08/25/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, map, view, associative, collection
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -47,16 +44,16 @@ A type that provides versioning policy and services to the collection.
 ## Member functions
 |Function|Description|
 |------------|-----------------|
-|[map_view_base::First function](#mapviewbasefirst-function)|Retrieves an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) representing the first element viewed by the **map_view_base** object.|
-|[map_view_base::HasKey function](#mapviewbasehaskey-function)|Determines whether the specified key belongs to an element viewed by the **map_view_base** object.|
-|[map_view_base::Lookup function](#mapviewbaselookup-function)|Looks up the element identified by the specified key, and retrieves the corresponding value.|
-|[map_view_base::Size function](#mapviewbasesize-function)|Retrieves the number of elements viewed by the **map_view_base** object.|
-|[map_view_base::Split function](#mapviewbasesplit-function)|Splits the map view into two views.|
+|[map_view_base::First function](#map_view_basefirst-function)|Retrieves an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) representing the first element viewed by the **map_view_base** object.|
+|[map_view_base::HasKey function](#map_view_basehaskey-function)|Determines whether the specified key belongs to an element viewed by the **map_view_base** object.|
+|[map_view_base::Lookup function](#map_view_baselookup-function)|Looks up the element identified by the specified key, and retrieves the corresponding value.|
+|[map_view_base::Size function](#map_view_basesize-function)|Retrieves the number of elements viewed by the **map_view_base** object.|
+|[map_view_base::Split function](#map_view_basesplit-function)|Splits the map view into two views.|
 
 ## Iterators
 A **map_view_base** is a range, and that range is defined by internal free functions (each of which retrieves an iterator) that are compatible with standard language features. Because of this, you can enumerate the elements viewed by a **map_view_base** object with a range-based `for` statement.
 
-You can also retrieve an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) from the [map_view_base::First](#mapviewbasefirst-function) function, and use that to iterate through the elements viewed by a **map_view_base** object.
+You can also retrieve an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) from the [map_view_base::First](#map_view_basefirst-function) function, and use that to iterate through the elements viewed by a **map_view_base** object.
 
 ```cppwinrt
 ...

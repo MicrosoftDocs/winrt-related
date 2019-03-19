@@ -5,10 +5,7 @@ title: winrt::hresult_illegal_method_call struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/25/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, hresult, error, code, E_ILLEGAL_METHOD_CALL
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -32,7 +29,7 @@ struct hresult_illegal_method_call : winrt::hresult_error
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[hresult_illegal_method_call::hresult_illegal_method_call constructor](#hresultillegalmethodcallhresultillegalmethodcall-constructor)|Initializes a new instance of the **hresult_illegal_method_call** struct with a copy of the input data.|
+|[hresult_illegal_method_call::hresult_illegal_method_call constructor](#hresult_illegal_method_callhresult_illegal_method_call-constructor)|Initializes a new instance of the **hresult_illegal_method_call** struct with a copy of the input data.|
 
 ## hresult_illegal_method_call::hresult_illegal_method_call constructor
 Initializes a new instance of the **hresult_illegal_method_call** struct with a copy of the input data.

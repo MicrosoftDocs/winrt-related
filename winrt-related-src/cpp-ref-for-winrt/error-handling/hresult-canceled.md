@@ -5,10 +5,7 @@ title: winrt::hresult_canceled struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/25/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, hresult, error, code, ERROR_CANCELLED
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -32,7 +29,7 @@ struct hresult_canceled : winrt::hresult_error
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[hresult_canceled::hresult_canceled constructor](#hresultcanceledhresultcanceled-constructor)|Initializes a new instance of the **hresult_canceled** struct with a copy of the input data.|
+|[hresult_canceled::hresult_canceled constructor](#hresult_canceledhresult_canceled-constructor)|Initializes a new instance of the **hresult_canceled** struct with a copy of the input data.|
 
 ## hresult_canceled::hresult_canceled constructor
 Initializes a new instance of the **hresult_canceled** struct with a copy of the input data.
