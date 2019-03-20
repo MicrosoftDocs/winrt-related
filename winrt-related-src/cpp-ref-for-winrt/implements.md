@@ -4,7 +4,7 @@ description: A base struct template that implements one or more Windows Runtime 
 title: winrt::implements struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-ms.date: 04/17/2018
+ms.date: 03/19/2019
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, implement, interface
 ms.localizationpriority: medium
@@ -13,12 +13,12 @@ ms.workload: ["cplusplus"]
 
 # winrt::implements struct template (C++/WinRT)
 
-This is the base from which your own [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) implementations directly or indirectly derive. It implements one or more Windows Runtime interfaces (which you specify to it as type parameters), and it also provides efficient implementations of [IUnknown](https://msdn.microsoft.com/library/windows/desktop/ms680509), [IInspectable](/windows/desktop/api/inspectable/nn-inspectable-iinspectable), [IAgileObject](https://msdn.microsoft.com/library/windows/desktop/hh802476), [IWeakReferenceSource](/windows/desktop/api/weakreference/nn-weakreference-iweakreferencesource), and others.
+This is the base from which your own [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) implementations (of runtime classes and activation factories) directly or indirectly derive. It implements one or more Windows Runtime interfaces (which you specify to it as type parameters), and it also provides efficient implementations of [IUnknown](https://msdn.microsoft.com/library/windows/desktop/ms680509), [IInspectable](/windows/desktop/api/inspectable/nn-inspectable-iinspectable), [IAgileObject](https://msdn.microsoft.com/library/windows/desktop/hh802476), [IWeakReferenceSource](/windows/desktop/api/weakreference/nn-weakreference-iweakreferencesource), and others.
 
 For more info about deriving from this type, and examples, see [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis).
 
 ## Marker types
-The **implements** struct template supports several marker types (such as [non_agile](non-agile.md), [no_weak_ref](no-weak-ref.md), and [static_lifetime](static-lifetime.md)). These marker types override default behavior. We expect that these will be only rarely used; the defaults are sufficient for almost all cases. A marker type can appear anywhere in the interface list, which is the variadic parameter pack.
+The **implements** struct template supports several marker types (such as [non_agile](non-agile.md), [no_weak_ref](no-weak-ref.md), and [static_lifetime](static-lifetime.md) for factories). These marker types override default behavior. We expect that these will be only rarely used; the defaults are sufficient for almost all cases. A marker type can appear anywhere in the interface list, which is the variadic parameter pack.
 
 This first example applies when you derive directly from **implements**.
 
