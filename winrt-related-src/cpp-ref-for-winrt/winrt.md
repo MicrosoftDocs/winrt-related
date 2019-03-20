@@ -60,7 +60,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [observable_map_base struct template](observable-map-base.md) | A base class, for you to derive from, that represents an observable associative collection. |
 | [observable_vector_base struct template](observable-vector-base.md) | A base class, for you to derive from, that represents an observable vector. |
 | [resume_foreground struct](resume-foreground.md) | A struct&mdash;for use within a coroutine&mdash;that you can `co_await` to switch execution to a specific foreground thread. |
-| [static_lifetime marker struct](static-lifetime.md) | A marker type used to opt in to static lifetime. |
+| [static_lifetime marker struct](static-lifetime.md) | A marker type used to opt an activation factory in to static lifetime. |
 | [vector_base struct template](vector-base.md) | A base class, for you to derive from, that represents a non-observable general-purpose collection known as a vector. |
 | [vector_view_base struct template](vector-view-base.md) | A base class from which you can derive to implement your own custom view, or span, of a contiguous sequence of elements in a general-purpose collection. |
 | [weak_ref struct template](weak-ref.md) | A type representing a weak reference to a C++/WinRT object or interface. |
