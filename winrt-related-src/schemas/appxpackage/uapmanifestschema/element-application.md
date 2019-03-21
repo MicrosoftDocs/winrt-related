@@ -6,10 +6,8 @@ ms.assetid: 39221d13-bb46-42ac-be51-117357cade81
 author: laurenhughes
 ms.author: lahugh
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
-ms.date: 04/10/2018
+ms.date: 03/21/2019
 ---
 
 # Application (Windows 10)
@@ -106,7 +104,7 @@ Represents an app that comprises part of or all of the functionality delivered i
 </tr>
 <tr class="even">
 <td><strong>ResourceGroup</strong></td>
-<td><p>ResourceGroup is a tag that you can use to group extension activations together for resource management purposes (for example, CPU and memory). See <a href="element-uap-extension.md"><strong>Extension@ResourceGroup</strong></a> .</p></td>
+<td><p>ResourceGroup is a tag that you can use to group extension activations together for resource management purposes (for example, CPU and memory). See <a href="element-uap-extension.md"><strong>Extension@ResourceGroup</strong></a>.</p></td>
 <td>An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.</td>
 <td>No</td>
 <td></td>
@@ -129,7 +127,7 @@ Represents an app that comprises part of or all of the functionality delivered i
 </tr>
 <tr class="odd">
 <td><strong>uap4:SupportsMultipleInstances</strong></td>
-<td><p>Indicates support of multiple, separate instances of UWP apps.</p></td>
+<td><p>Indicates support of multiple, separate instances of UWP apps. For more information, see the remarks section.</p></td>
 <td>Boolean value.</td>
 <td>No</td>
 <td></td>
@@ -200,11 +198,14 @@ The **Application** element contains attributes that are common to the extensibi
 The **StartPage** applies only to a JavaScript app. If **StartPage** is not specified, then both the **Executable** and **EntryPoint** attributes must be specified, and this applies only to a C#, C++, or VB app.
 
 Important notes about multi-instancing apps:
-- If an app declares **SupportsMultipleInstances** within the **Application** element, then all foreground extensions will also be multi-instanced. 
-- The app should only declare **SupportsMultipleInstances** on background tasks, background audio, or app services. 
-- If the app declares **SupportsMultipleInstances** at the `Application` node, then it does not need to be declared at the [Extensions](element-1-extensions.md) level.
+
+- If an app declares **SupportsMultipleInstances** within the **Application** element, then all foreground extensions will also be multi-instanced.
+- If the app declares **SupportsMultipleInstances** within the **Application** element, then it does not need to be declared at the [Extensions](element-1-extensions.md) level (for example, in a [BackgroundTasks](element-backgroundtasks.md) or [AppService](element-uap3-appservice-manual.md) element).
+- The app should only declare **SupportsMultipleInstances** on background tasks, background audio, or app services.
 - Console apps will always be multi-instanced and must explicitly declare **SupportsMultipleInstances**.
-- Apps can use the **ResourceGroup** declaration in the manifest to group multiple background tasks into the same host. This conflicts with multi-instancing, where each activation goes into a separate host. Therefore, an app cannot declare both **SupportsMultipleInstances** and **ResourceGroup** in the manifest. 
+- Apps can use the **ResourceGroup** declaration in the manifest to group multiple background tasks into the same host. This conflicts with multi-instancing, where each activation goes into a separate host. Therefore, an app cannot declare both **SupportsMultipleInstances** and **ResourceGroup** in the manifest.
+
+For more information about using the **SupportsMultipleInstances** attribute to support multiple, separate instances of UWP apps, see [Create a multi-instance Universal Windows App](https://docs.microsoft.com/windows/uwp/launch-resume/multi-instance-uwp).
 
 ## Requirements
 
