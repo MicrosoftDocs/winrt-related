@@ -56,7 +56,7 @@ Note that many of the constructs described here use C# syntax. This is simply be
 ### Namespace
 WinRT encodes a type's namespace and local name in a single period-delimited string. For example, the type defined in this snippet of code is "Windows.Foundation.ISimpleInterface".
 
-```
+```cpp
 namespace Windows {
     namespace Foundation {
         interface ISimpleInterface {
