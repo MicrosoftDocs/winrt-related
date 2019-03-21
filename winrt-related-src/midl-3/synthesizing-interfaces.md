@@ -219,7 +219,7 @@ In the example below, **Volume** (which derives from **Area**) has the overridea
 ```idl
 runtimeclass Volume : Area
 {
-    overrides void DoOverrideableWork();
+    overridable void DoOverrideableWork();
 }
 ```
 
