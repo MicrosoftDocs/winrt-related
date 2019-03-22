@@ -138,7 +138,7 @@ As with any XML file, a VCD file should begin with an XML declaration that speci
 
 ## See also
 
-[Windows.ApplicationModel.VoiceCommands](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.VoiceCommands.md)
+[Windows.ApplicationModel.VoiceCommands](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.VoiceCommands)
 
 [Cortana interactions](https://dev.microsoft.com/cortana)
 
