@@ -76,11 +76,11 @@ struct App : implements<App, IFrameworkViewSource>
 |Function|Description|
 |------------|-----------------|
 |[implements::AddRef function](#implementsaddref-function)|Increments the reference count for the default interface of the **implements** object.|
-|[implements::find_inspectable function](#implementsfindinspectable-function)|TBD|
-|[implements::find_interface function](#implementsfindinterface-function)|The pointer to the interface implemented by the **implements** object, identified by the specified identifier; doesn't call **AddRef**.|
-|[implements::get_local_iids function](#implementsgetlocaliids-function)|Retrieves a two-element tuple containing the identifiers of the interfaces that are implemented by the **implements** object.|
-|[implements::get_strong function](#implementsgetstrong-function)|Retrieves a strong reference to the **implements** object's *this* pointer.|
-|[implements::get_weak function](#implementsgetweak-function)|Retrieves a weak reference to the **implements** object's *this* pointer.|
+|[implements::find_inspectable function](#implementsfind_inspectable-function)|TBD|
+|[implements::find_interface function](#implementsfind_interface-function)|The pointer to the interface implemented by the **implements** object, identified by the specified identifier; doesn't call **AddRef**.|
+|[implements::get_local_iids function](#implementsget_local_iids-function)|Retrieves a two-element tuple containing the identifiers of the interfaces that are implemented by the **implements** object.|
+|[implements::get_strong function](#implementsget_strong-function)|Retrieves a strong reference to the **implements** object's *this* pointer.|
+|[implements::get_weak function](#implementsget_weak-function)|Retrieves a weak reference to the **implements** object's *this* pointer.|
 |[implements::QueryInterface function](#implementsqueryinterface-function)|Retrieves the pointer to the interface implemented by the **implements** object, identified by the specified identifier; calls **AddRef**.|
 |[implements::Release function](#implementsrelease-function)|Decrements the reference count for the default interface of the **implements** object.|
 

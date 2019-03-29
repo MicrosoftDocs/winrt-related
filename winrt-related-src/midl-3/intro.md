@@ -84,7 +84,7 @@ This class implements the **Windows.UI.Xaml.Data.INotifyPropertyChanged** interf
 
 But you can also compile MIDL 3.0 from the command line. If the source code for this example is stored in a file named `Bookstore.idl`, then you can issue the command below. If necessary for your case, you can update the SDK version number used in the command (which is 10.0.17134.0).
 
-```
+```console
 midl /winrt /metadata_dir "%WindowsSdkDir%References\10.0.17134.0\windows.foundation.foundationcontract\3.0.0.0" /h "nul" /nomidl /reference "%WindowsSdkDir%References\10.0.17134.0\Windows.Foundation.FoundationContract\3.0.0.0\Windows.Foundation.FoundationContract.winmd" /reference "%WindowsSdkDir%References\10.0.17134.0\Windows.Foundation.UniversalApiContract\6.0.0.0\Windows.Foundation.UniversalApiContract.winmd" /reference "%WindowsSdkDir%\References\10.0.17134.0\Windows.Networking.Connectivity.WwanContract\2.0.0.0\Windows.Networking.Connectivity.WwanContract.winmd" Bookstore.idl
 ```
 
@@ -97,7 +97,7 @@ In this case, **BookSku** is the only runtime class in the **Bookstore** namespa
 
 Incidentally, you can use the `where` command to find out where `midl.exe` is installed.
 
-```
+```console
 where midl
 ```
 
@@ -117,7 +117,7 @@ namespace MVVMApp
 
 If the source code for the example above is stored in a file named `MVVMApp.idl`, then you can issue the command below to reference `Bookstore.winmd`.
 
-```
+```console
 midl /winrt /metadata_dir "%WindowsSdkDir%References\10.0.17134.0\windows.foundation.foundationcontract\3.0.0.0" /h "nul" /nomidl /reference "%WindowsSdkDir%References\10.0.17134.0\Windows.Foundation.FoundationContract\3.0.0.0\Windows.Foundation.FoundationContract.winmd" /reference "%WindowsSdkDir%References\10.0.17134.0\Windows.Foundation.UniversalApiContract\6.0.0.0\Windows.Foundation.UniversalApiContract.winmd" /reference "%WindowsSdkDir%\References\10.0.17134.0\Windows.Networking.Connectivity.WwanContract\2.0.0.0\Windows.Networking.Connectivity.WwanContract.winmd" /reference Bookstore.winmd MVVMApp.idl
 ```
 

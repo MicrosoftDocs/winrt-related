@@ -43,10 +43,10 @@ struct clock
 |Function|Description|
 |------------|-----------------|
 |[clock::now function](#clocknow-function)|Retrieves the current time as a **Windows::Foundation::DateTime**.|
-|[clock::from_file_time function](#clockfromfiletime-function)|Converts a **winrt::file_time** value to a **Windows::Foundation::DateTime**.|
-|[clock::from_time_t function](#clockfromtimet-function)|Converts a **time_t** value to a **Windows::Foundation::DateTime**.|
-|[clock::to_file_time function](#clocktofiletime-function)|Converts a **Windows::Foundation::DateTime** value to a **winrt::file_time**.|
-|[clock::to_time_t function](#clocktotimet-function)|Converts a **Windows::Foundation::DateTime** value to a **time_t**.|
+|[clock::from_file_time function](#clockfrom_file_time-function)|Converts a **winrt::file_time** value to a **Windows::Foundation::DateTime**.|
+|[clock::from_time_t function](#clockfrom_time_t-function)|Converts a **time_t** value to a **Windows::Foundation::DateTime**.|
+|[clock::to_file_time function](#clockto_file_time-function)|Converts a **Windows::Foundation::DateTime** value to a **winrt::file_time**.|
+|[clock::to_time_t function](#clockto_time_t-function)|Converts a **Windows::Foundation::DateTime** value to a **time_t**.|
 
 ## clock::now function
 Retrieves the current time as a **Windows::Foundation::DateTime**.

@@ -29,7 +29,7 @@ struct hresult_class_not_available : winrt::hresult_error
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[hresult_class_not_available::hresult_class_not_available constructor](#hresult_class_notavailablehresult_class_notavailable-constructor)|Initializes a new instance of the **hresult_class_not_available** struct with a copy of the input data.|
+|[hresult_class_not_available::hresult_class_not_available constructor](#hresult_class_not_availablehresult_class_not_available-constructor)|Initializes a new instance of the **hresult_class_not_available** struct with a copy of the input data.|
 
 ## hresult_class_not_available::hresult_class_not_available constructor
 Initializes a new instance of the **hresult_class_not_available** struct with a copy of the input data.

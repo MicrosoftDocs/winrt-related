@@ -36,7 +36,7 @@ struct IUnknown
 |Function|Description|
 |------------|-----------------|
 |[IUnknown::as function](#iunknownas-function)|Returns the requested interface, if it is supported. Throws if it is not.|
-|[IUnknown::try_as function](#iunknowntryas-function)|Returns the requested interface, if it is supported. Returns `null`, or `false`, if it is not.|
+|[IUnknown::try_as function](#iunknowntry_as-function)|Returns the requested interface, if it is supported. Returns `null`, or `false`, if it is not.|
 
 ## Member operators
 |Operator|Description|
@@ -47,13 +47,13 @@ struct IUnknown
 ## Free functions
 |Function|Description|
 |------------|-----------------|
-|[attach_abi function](#attachabi-function)|Attaches an **IUnknown** object to a raw pointer that owns a reference to its target; an additional reference is not added.|
-|[copy_from_abi function](#copyfromabi-function)|Copies to an **IUnknown** object from another pointer. Decrements the reference count on any currently referenced interface or object, copies the raw pointer parameter, and begins managing the lifetime of the interface or object pointed to by it.|
-|[copy_to_abi function](#copytoabi-function)|Copies to another pointer from an **IUnknown** object. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter.|
-|[detach_abi function](#detachabi-function)|Detaches from the raw [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) without decrementing the reference count, perhaps to return it to a caller.|
-|[get_abi function](#getabi-function)|Returns the underlying raw [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) pointer should you need to pass it to a function.|
-|[get_unknown function](#getunknown-function)|Returns the address of the underlying raw [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) as a pointer to **IUnknown**; this function helps you call methods (such as COM methods) that expect a pointer to **IUnknown**.|
-|[put_abi function](#putabi-function)|Returns the address of the underlying raw [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) pointer as a pointer to a pointer to **void**; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer to **void**.|
+|[attach_abi function](#attach_abi-function)|Attaches an **IUnknown** object to a raw pointer that owns a reference to its target; an additional reference is not added.|
+|[copy_from_abi function](#copy_from_abi-function)|Copies to an **IUnknown** object from another pointer. Decrements the reference count on any currently referenced interface or object, copies the raw pointer parameter, and begins managing the lifetime of the interface or object pointed to by it.|
+|[copy_to_abi function](#copy_to_abi-function)|Copies to another pointer from an **IUnknown** object. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter.|
+|[detach_abi function](#detach_abi-function)|Detaches from the raw [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) without decrementing the reference count, perhaps to return it to a caller.|
+|[get_abi function](#get_abi-function)|Returns the underlying raw [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) pointer should you need to pass it to a function.|
+|[get_unknown function](#get_unknown-function)|Returns the address of the underlying raw [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) as a pointer to **IUnknown**; this function helps you call methods (such as COM methods) that expect a pointer to **IUnknown**.|
+|[put_abi function](#put_abi-function)|Returns the address of the underlying raw [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) pointer as a pointer to a pointer to **void**; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer to **void**.|
 |[swap function](#swap-function)|Swaps the contents of the two **IUnknown** parameters so that they point at one another's target.|
 
 ## Free operators
