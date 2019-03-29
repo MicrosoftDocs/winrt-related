@@ -35,7 +35,7 @@ The type of the event source (the object that raises the event).
 ## Member functions
 |Function|Description|
 |------------|-----------------|
-|[event_revoker::revoke function](#eventrevokerrevoke-function)|Revokes the delegate from whose registration the **event_revoker** object was returned.|
+|[event_revoker::revoke function](#event_revokerrevoke-function)|Revokes the delegate from whose registration the **event_revoker** object was returned.|
 
 ## event_revoker::revoke function
 Revokes the delegate from whose registration the **event_revoker** object was returned.

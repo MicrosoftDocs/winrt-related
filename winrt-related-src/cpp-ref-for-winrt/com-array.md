@@ -49,7 +49,7 @@ The type of the values (elements) that the **com_array** views, or spans.
 ## Free functions
 |Function|Description|
 |------------|-----------------| 
-|[detach_abi function](#detachabi-function)|Detaches a **com_array** object from its raw values without decrementing their reference counts, perhaps to return them to a caller. The **com_array** is cleared.|
+|[detach_abi function](#detach_abi-function)|Detaches a **com_array** object from its raw values without decrementing their reference counts, perhaps to return them to a caller. The **com_array** is cleared.|
 |[swap function](#swap-function)|Swaps the contents of the two **com_array** parameters.|
 
 ## com_array::com_array constructor

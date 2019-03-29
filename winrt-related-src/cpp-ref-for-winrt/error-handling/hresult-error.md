@@ -34,12 +34,12 @@ struct hresult_error
 ## Types
 |Constructor|Description|
 |------------|-----------------|
-|[hresult_error::from_abi_t type](#hresult_errorfromabit-type)|The type of the [hresult_error::from_abi](#hresult_errorfromabit-type) static data member.|
+|[hresult_error::from_abi_t type](#hresult_errorfrom_abi_t-type)|The type of the [hresult_error::from_abi](#hresult_errorfrom_abi_t-type) static data member.|
 
 ## Static data members
 |Function|Description|
 |------------|-----------------|
-|[hresult_error::from_abi static data member](#hresult_errorfromabi-static-data-member)|An instance of type [hresult_error::from_abi_t](#hresult_errorfromabit-type), which can be passed to the constructor of **hresult_error** (or a derived type) to indicate that the constructor should try to retrieve restricted error info.|
+|[hresult_error::from_abi static data member](#hresult_errorfrom_abi-static-data-member)|An instance of type [hresult_error::from_abi_t](#hresult_errorfrom_abi_t-type), which can be passed to the constructor of **hresult_error** (or a derived type) to indicate that the constructor should try to retrieve restricted error info.|
 
 ## Member functions
 |Function|Description|
@@ -47,7 +47,7 @@ struct hresult_error
 |[hresult_error::code function](#hresult_errorcode-function)|Retrieves the code for the error represented by the **hresult_error** object.|
 |[hresult_error::info function](#hresult_errorinfo-function)|Retrieves the restricted error info for the error represented by the **hresult_error** object.|
 |[hresult_error::message function](#hresult_errormessage-function)|Retrieves the message for the error represented by the **hresult_error** object.|
-|[hresult_error::to_abi function](#hresult_errortoabi-function)|Sets the restricted error information object for the current thread, and returns the code for the error represented by the **hresult_error** object.|
+|[hresult_error::to_abi function](#hresult_errorto_abi-function)|Sets the restricted error information object for the current thread, and returns the code for the error represented by the **hresult_error** object.|
 
 ## Member operators
 |Operator|Description|
@@ -103,7 +103,7 @@ winrt::com_ptr<::IRestrictedErrorInfo> const& info() const noexcept;
 A [winrt::com_ptr](../com-ptr.md) of [IRestrictedErrorInfo](https://msdn.microsoft.com/library/br224587) containing the restricted error info.
 
 ## hresult_error::from_abi static data member
-An instance of type [hresult_error::from_abi_t](#hresult_errorfromabit-type), which can be passed to the constructor of **hresult_error** (or a derived type) to indicate that the constructor should try to retrieve restricted error info.
+An instance of type [hresult_error::from_abi_t](#hresult_errorfrom_abi_t-type), which can be passed to the constructor of **hresult_error** (or a derived type) to indicate that the constructor should try to retrieve restricted error info.
 
 ### Syntax
 ```cppwinrt
@@ -111,7 +111,7 @@ static constexpr winrt::hresult_error::from_abi_t from_abi{};
 ```
 
 ## hresult_error::from_abi_t type
-The type of the [hresult_error::from_abi](#hresult_errorfromabi-static-data-member) static data member.
+The type of the [hresult_error::from_abi](#hresult_errorfrom_abi-static-data-member) static data member.
 
 ### Syntax
 ```cppwinrt

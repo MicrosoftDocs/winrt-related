@@ -50,7 +50,7 @@ struct hstring
 |------------|-----------------|
 |[hstring::back function](#hstringback-function)|Returns a reference to the last character in the **hstring** object.|
 |[hstring::begin function](#hstringbegin-function)|Returns a const iterator to the first character in the **hstring** object.|
-|[hstring::c_str function](#hstringcstr-function)|Returns a null-terminated C-style string version of the characters in the **hstring** object.|
+|[hstring::c_str function](#hstringc_str-function)|Returns a null-terminated C-style string version of the characters in the **hstring** object.|
 |[hstring::cbegin function](#hstringcbegin-function)|Returns a const iterator to the first character in the **hstring** object.|
 |[hstring::cend function](#hstringcend-function)|Returns a const iterator to one beyond the end of (one beyond the last character in) the **hstring** object.|
 |[hstring::clear function](#hstringclear-function)|Makes the **hstring** object empty.|
@@ -67,17 +67,17 @@ struct hstring
 ## Member operators
 |Operator|Description|
 |------------|-----------------|
-|[hstring::operator std::wstring_view](#hstringoperator-stdwstringview)|Converts the **hstring** object to a **std::wstring_view**.|
-|[hstring::operator[] &lpar;subscript operator)](#hstringoperator-lparsubscript-operator))|Returns a reference to the character at the specified position within the **hstring** object.|
+|[hstring::operator std::wstring_view](#hstringoperator-stdwstring_view)|Converts the **hstring** object to a **std::wstring_view**.|
+|[hstring::operator[] &lpar;subscript operator)](#hstringoperator-subscript-operator))|Returns a reference to the character at the specified position within the **hstring** object.|
 |[hstring::operator= (assignment operator)](#hstringoperator-assignment-operator)|Assigns a value to the **hstring** object.|
 
 ## Free functions
 |Function|Description|
 |------------|-----------------|
-|[attach_abi function](#attachabi-function)|Attaches a **hstring** object to a handle to a Windows Runtime string.|
-|[copy_from_abi function](#copyfromabi-function)|Copies to a **hstring** object from a handle to a Windows Runtime string. Clears the **hstring**, copies the parameter, and begins managing the handle.|
-|[copy_to_abi function](#copytoabi-function)|Copies to a handle to a Windows Runtime string from a **hstring** object.|
-|[detach_abi function](#detachabi-function)|Detaches a **hstring** object from its handle, perhaps to return it to a caller.|
+|[attach_abi function](#attach_abi-function)|Attaches a **hstring** object to a handle to a Windows Runtime string.|
+|[copy_from_abi function](#copy_from_abi-function)|Copies to a **hstring** object from a handle to a Windows Runtime string. Clears the **hstring**, copies the parameter, and begins managing the handle.|
+|[copy_to_abi function](#copy_to_abi-function)|Copies to a handle to a Windows Runtime string from a **hstring** object.|
+|[detach_abi function](#detach_abi-function)|Detaches a **hstring** object from its handle, perhaps to return it to a caller.|
 |[to_hstring function](to-hstring.md)|Converts an input value to a **winrt::hstring** containing the value's string representation.| 
 
 ## Free operators

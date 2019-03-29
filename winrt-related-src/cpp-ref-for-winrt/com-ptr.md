@@ -46,13 +46,13 @@ The interface, or runtime class implementation type, a pointer to which is repre
 |------------|-----------------|
 |[com_ptr::as function](#com_ptras-function)|Returns the requested interface, if it is supported. Throws if it is not.|
 |[com_ptr::attach function](#com_ptrattach-function)|Attaches to a raw pointer that owns a reference to its target; an additional reference is not added.|
-|[com_ptr::copy_from function](#com_ptrcopyfrom-function)|Copies from another pointer. Decrements the reference count on any currently referenced interface or object, copies the raw pointer parameter, and begins managing the lifetime of the interface or object pointed to by it.|
-|[com_ptr::copy_to function](#com_ptrcopyto-function)|Copies to another pointer from the **com_ptr** object. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter.|
+|[com_ptr::copy_from function](#com_ptrcopy_from-function)|Copies from another pointer. Decrements the reference count on any currently referenced interface or object, copies the raw pointer parameter, and begins managing the lifetime of the interface or object pointed to by it.|
+|[com_ptr::copy_to function](#com_ptrcopy_to-function)|Copies to another pointer from the **com_ptr** object. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter.|
 |[com_ptr::detach function](#com_ptrdetach-function)|Detaches from the referenced interface or object without decrementing the reference count, perhaps to return it to a caller.|
 |[com_ptr::get function](#com_ptrget-function)|Returns the underlying raw pointer should you need to pass it to a function.|
 |[com_ptr::put function](#com_ptrput-function)|Returns the address of the underlying raw pointer; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer.|
-|[com_ptr::put_void function](#com_ptrputvoid-function)|Returns the address of the underlying raw pointer as a pointer to a pointer to **void**; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer to **void**.|
-|[com_ptr::try_as function](#com_ptrtryas-function)|Returns the requested interface, if it is supported. Returns `null`, or `false`, if it is not.|
+|[com_ptr::put_void function](#com_ptrput_void-function)|Returns the address of the underlying raw pointer as a pointer to a pointer to **void**; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer to **void**.|
+|[com_ptr::try_as function](#com_ptrtry_as-function)|Returns the requested interface, if it is supported. Returns `null`, or `false`, if it is not.|
 
 ## Member operators
 |Operator|Description|
@@ -65,8 +65,8 @@ The interface, or runtime class implementation type, a pointer to which is repre
 ## Free functions
 |Function|Description|
 |------------|-----------------|
-|[attach_abi function](#attachabi-function)|Attaches a **com_ptr** object to a raw pointer that owns a reference to its target; an additional reference is not added.|
-|[detach_abi function](#detachabi-function)|Detaches a **com_ptr** object from its raw interface without decrementing the reference count, perhaps to return it to a caller.|
+|[attach_abi function](#attach_abi-function)|Attaches a **com_ptr** object to a raw pointer that owns a reference to its target; an additional reference is not added.|
+|[detach_abi function](#detach_abi-function)|Detaches a **com_ptr** object from its raw interface without decrementing the reference count, perhaps to return it to a caller.|
 |[swap function](#swap-function)|Swaps the contents of the two **com_ptr** parameters so that they point at one another's target.|
 
 ## Free operators

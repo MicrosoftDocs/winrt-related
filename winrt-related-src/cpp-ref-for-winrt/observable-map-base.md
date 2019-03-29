@@ -47,7 +47,7 @@ The type of the values in the collection.
 |[observable_map_base::HasKey function](#observable_map_basehaskey-function)|Determines whether the specified key belongs to an element in the **observable_map_base** object.|
 |[observable_map_base::Insert function](#observable_map_baseinsert-function)|Inserts or updates an element in the **observable_map_base** object.|
 |[observable_map_base::Lookup function](#observable_map_baselookup-function)|Looks up the element identified by the specified key, and retrieves the corresponding value.|
-|[observable_map_base::MapChanged function](#observablevectorbasemapchanged-function)|Registers and revokes a delegate that handles the map-changed event of the **observable_map_base** object.|
+|[observable_map_base::MapChanged function](#observable_vector_basemapchanged-function)|Registers and revokes a delegate that handles the map-changed event of the **observable_map_base** object.|
 |[observable_map_base::Remove function](#observable_map_baseremove-function)|Removes an element from the **observable_map_base** object.|
 |[observable_map_base::Size function](#observable_map_basesize-function)|Retrieves the number of elements in the **observable_map_base** object.|
 

@@ -137,7 +137,7 @@ unsealed runtimeclass Block : Windows.UI.Xaml.Documents.TextElement
 
 ## The `[interface_name]` attribute
 The `interface_name` attribute specifies the name and IID of the
-interface that contains the instance members of the class. By default, the compiler assigns interface names using the same unique numbering algorithm that it uses for [methods](#the-methodname-attribute).
+interface that contains the instance members of the class. By default, the compiler assigns interface names using the same unique numbering algorithm that it uses for [methods](#the-method_name-attribute).
 
 In the example below, the `interface_name` attribute applied to the
 runtimeclass specifies the name and IID of the interface that contains
