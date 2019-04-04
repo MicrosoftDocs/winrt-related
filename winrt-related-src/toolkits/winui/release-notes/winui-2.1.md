@@ -33,6 +33,8 @@ April 2019
 
 [NuGet package download](Insert Link)
 
+The table below is the list of new features included in the public release of WinUI2.1
+
 | Feature | Description |
 | --- | --- |
 |[ItemsRepeater](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/items-repeater) | Users continue to expect more rich and performant experiences.  ItemsRepeater enables developers to meet this need and deliver more engaging and differentiated experiences more quickly.|
