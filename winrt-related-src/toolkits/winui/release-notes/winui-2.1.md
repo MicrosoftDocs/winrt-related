@@ -29,7 +29,6 @@ WinUI is an open source project hosted on GitHub. We welcome bug reports, featur
 
 April 2019
 
-
 [GitHub release page](Insert Link)
 
 [NuGet package download](Insert Link)
@@ -38,7 +37,7 @@ The table below is the list of new features included in the public release of Wi
 
 | Feature | Description |
 | --- | --- |
-|[ItemsRepeater](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/items-repeater) ![Example](../images/ItemsRepeater%20-%20MSN%20News.gif) | Users continue to expect more rich and performant experiences.  ItemsRepeater enables developers to meet this need and deliver more engaging and differentiated experiences more quickly.
+|[ItemsRepeater](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/items-repeater) ![Example](../images/ItemsRepeater%20-%20MSN%20News.gif)| Users continue to expect more rich and performant experiences.  ItemsRepeater enables developers to meet this need and deliver more engaging and differentiated experiences more quickly.
 |[AnimatedVisualPlayer](https://docs.microsoft.com/en-us/windows/communitytoolkit/animations/lottie)![Example](../images/lottiedocs_playback.gif)| AnimatedVisualPlayer displays and controls playback of motion graphics, such as Lottie vector animations.|
 |[TeachingTip](https://review.docs.microsoft.com/windows/uwp/design/controls-and-patterns/dialogs-and-flyouts/teaching-tip?branch=release-winui)![Example](../images/TeachingTipGif.gif)| TeachingTip provides an engaging and Fluent way for applications to guide and inform users with non-invasive and content rich tips. TeachingTip can bring focus to new or important features, teach users how to perform tasks, and enhance workflow by providing contextually relevant information to your task at hand.|
 |[Shadows applied to new set of controls ](ENTER LINK INFO WHEN READY)![Example](../images/Shadows.jpg)| Shadow is a way for human to perceive elevation. When there is light above an elevated object, there is a shadow on the surface below. We are using this natural human perception to add focus to popup type UIs that require user's immediate and quick attention. We are calling attention to these UI by bringing them forward in z-depth (by way of adding shadows) for user to easily and seamlessly take a quick action. NavigationView and TeachingTip are the two controls to which default shadows have now been added in the this public release of WinUI2.1. To refer to the complete list of controls that get shadows by default with 19H1 SDK release, please look at the document here (add link)|
