@@ -34,6 +34,9 @@ April 2019
 [NuGet package download](Insert Link)
 
 
+Here is the list of new features included in the public release of WinUI2.1!
+
+
 [ItemsRepeater](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/items-repeater)
 
 
@@ -47,13 +50,12 @@ Users continue to expect more rich and performant experiences.ItemsRepeater enab
 
 [AnimatedVisualPlayer](https://docs.microsoft.com/en-us/windows/communitytoolkit/animations/lottie)
 
-
-
 ![Example](../images/lottiedocs_playback.gif)
 
 
 
 AnimatedVisualPlayer displays and controls playback of motion graphics, such as Lottie vector animations.
+
 
 
 
@@ -101,8 +103,6 @@ It is the ability to have 'Radio Button' style options in a MenuBar. This allows
 
 
 Compact mode enable developers to create comfortable experiences for any number of scenarios. Simply by adding a resource dictionary your application can fit on average ~33% more UI.|
-
-The table below is the list of new features included in the public release of WinUI2.1
 
 ### Microsoft.UI.Xaml 2.1.190218001-prerelease
 
