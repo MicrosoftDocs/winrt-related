@@ -28,7 +28,7 @@ WinUI is an open source project hosted on GitHub. We welcome bug reports, featur
 ### Microsoft.UI.Xaml 2.1 Public release
 
 April 2019
-(winui/images/CompactDensity.png)
+(images/CompactDensity.png)
 
 [GitHub release page](Insert Link)
 
