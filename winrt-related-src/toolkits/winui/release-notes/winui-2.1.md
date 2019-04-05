@@ -11,7 +11,7 @@ ms.topic: reference
 
 WinUI 2.1 is the second major release of the Windows UI Library. 
 
-WinUI is the easiest way to build great Fluent Design experiences for Windows.Most features available in it go down level to RS4 [what is the official name for this – anyone remember?] with a few exceptions. Samples are readily available for you try out each feature. Sample links are included in the documentation for each feature.
+WinUI is the easiest way to build great Fluent Design experiences for Windows, and is backward-compatible to Windows 10 Anniversary Update (14393). Samples are readily available for you try out each feature. Sample links are included in the documentation for each feature.
 
 The library includes two NuGet packages:
 
