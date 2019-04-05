@@ -54,7 +54,7 @@ Unlike ListView, ItemsRepeater does not provide a comprehensive end-user experie
 ![Example](../images/AnimatedVisualPlayer.gif)
 
 
-The AnimatedVisualPlayer hosts and controls playback of an animated Visual tree, integrating custom motion graphic content with XAML UI. For instance, the AnimatedVisualPlayer is used to display and control Lottie animations.
+The AnimatedVisualPlayer hosts and controls playback of animated visuals, enabling you to add high performance custom motion graphics to your app. For instance, the AnimatedVisualPlayer is used to display and control Lottie animations.
 
 
 
