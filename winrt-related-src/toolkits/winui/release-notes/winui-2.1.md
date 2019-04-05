@@ -50,8 +50,8 @@ Unlike ListView, ItemsRepeater does not provide a comprehensive end-user experie
 
 
 [AnimatedVisualPlayer](https://docs.microsoft.com/windows/communitytoolkit/animations/lottie)
-![Example](../images/lottiedocs_playback.gif)
 
+![Example](../images/lottiedocs_playback.gif)
 
 The AnimatedVisualPlayer hosts and controls playback of animated visuals, enabling you to add high performance custom motion graphics to your app. For instance, the AnimatedVisualPlayer is used to display and control Lottie animations.
 
@@ -84,9 +84,7 @@ The NavigationView and TeachingTip controls in WinUI now have default shadows in
 
 
 
-[RadioMenuFlyoutItem](
-https://docs.microsoft.com/en-us/uwp/api/microsoft.ui.xaml.controls.radiomenuflyoutitem
-)
+[RadioMenuFlyoutItem](https://docs.microsoft.com/en-us/uwp/api/microsoft.ui.xaml.controls.radiomenuflyoutitem)
 
 
 
