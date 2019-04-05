@@ -51,7 +51,7 @@ Unlike ListView, ItemsRepeater does not provide a comprehensive end-user experie
 
 [AnimatedVisualPlayer](https://docs.microsoft.com/en-us/windows/communitytoolkit/animations/lottie)
 
-![Example](../images/lottiedocs_playback.gif)
+![Example](../images/AnimatedVisualPlayer.gif)
 
 
 The AnimatedVisualPlayer hosts and controls playback of an animated Visual tree, integrating custom motion graphic content with XAML UI. For instance, the AnimatedVisualPlayer is used to display and control Lottie animations.
@@ -62,7 +62,7 @@ The AnimatedVisualPlayer hosts and controls playback of an animated Visual tree,
 [TeachingTip](https://review.docs.microsoft.com/windows/uwp/design/controls-and-patterns/dialogs-and-flyouts/teaching-tip?branch=release-winui)
 
 
-![Example](../images/TeachingTipGif.gif)
+![Example](../images/TeachingTip.gif)
 
 
 TeachingTip provides an engaging and Fluent way for applications to guide and inform users with non-invasive and content rich tips. TeachingTip can bring focus to new or important features, teach users how to perform tasks, and enhance workflow by providing contextually relevant information to your task at hand.
@@ -102,7 +102,7 @@ It is the ability to have 'Radio Button' style options in a MenuBar. This allows
 
 
 
-Compact mode enable developers to create comfortable experiences for any number of scenarios. Simply by adding a resource dictionary your application can fit on average ~33% more UI.|
+Compact mode enable developers to create comfortable experiences for any number of scenarios. Simply by adding a resource dictionary your application can fit on average ~33% more UI.
 
 ### Microsoft.UI.Xaml 2.1.190218001-prerelease
 
