@@ -59,7 +59,7 @@ The AnimatedVisualPlayer hosts and controls playback of animated visuals, enabli
 
 
 
-[TeachingTip](https://review.docs.microsoft.com/windows/uwp/design/controls-and-patterns/dialogs-and-flyouts/teaching-tip?branch=release-winui)
+[TeachingTip](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/dialogs-and-flyouts/teaching-tip)
 
 
 ![Example](../images/TeachingTip.gif)
