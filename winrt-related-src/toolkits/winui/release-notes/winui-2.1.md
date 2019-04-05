@@ -91,7 +91,7 @@ https://docs.microsoft.com/en-us/uwp/api/microsoft.ui.xaml.controls.radiomenufly
 
 
 
-![Example](../images/RadioMenuFlyout.png)
+![Example](../images/RadioMenuFlyoutItem1.png)
 
 
 
