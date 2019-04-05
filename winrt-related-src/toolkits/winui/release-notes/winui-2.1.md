@@ -37,7 +37,7 @@ April 2019
 Here is the list of new features included in the public release of WinUI2.1!
 
 
-[ItemsRepeater](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/items-repeater)
+[ItemsRepeater](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/items-repeater)
 
 
 ![Example](../images/ItemsRepeater%20-%20MSN%20News.gif)
