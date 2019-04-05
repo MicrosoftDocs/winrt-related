@@ -61,7 +61,7 @@ The AnimatedVisualPlayer hosts and controls playback of animated visuals, enabli
 [TeachingTip](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/dialogs-and-flyouts/teaching-tip)
 
 
-![Example](../images/TeachingTip.gif)
+![Example](../images/TeachingTipUpdated.gif)
 
 
 TeachingTip provides an engaging and Fluent way for applications to guide and inform users with non-invasive and content-rich tips. TeachingTip can bring focus to new or important features, teach users how to perform tasks, and enhance workflow by providing contextually relevant information to your task at hand.
