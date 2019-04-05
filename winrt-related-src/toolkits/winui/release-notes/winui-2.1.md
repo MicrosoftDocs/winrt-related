@@ -73,7 +73,7 @@ TeachingTip provides an engaging and Fluent way for applications to guide and in
 
 
 
-![Example](../images/Shadows.jpg)
+![Example](../images/shadow.gif)
 
 
 
