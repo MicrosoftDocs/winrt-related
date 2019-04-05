@@ -77,7 +77,11 @@ TeachingTip provides an engaging and Fluent way for applications to guide and in
 
 
 
-Shadow is a way for human to perceive elevation. When there is light above an elevated object, there is a shadow on the surface below. We are using this natural human perception to add focus to popup type UIs that require user's immediate and quick attention. We are calling attention to these UI by bringing them forward in z-depth (by way of adding shadows) for user to easily and seamlessly take a quick action. NavigationView and TeachingTip are the two controls to which default shadows have now been added in the this public release of WinUI2.1. To refer to the complete list of controls that get shadows by default with 19H1 SDK release, please look at the document here (add link)
+Shadow is one way a user perceives elevation. Light above an elevated object creates a shadow on the surface below. The higher the object, the larger and softer the shadow becomes. Elevated objects in your UI don’t need to have shadows, but they help create the appearance of elevation.  
+
+In the physical world, we tend to focus on objects that are closer to us. We can apply this spatial instinct to digital UI as well. For example, if you bring an element closer to the user, then the user will instinctively focus on the element. By moving UI elements closer in z-axis, you can establish visual hierarchy between objects, helping users complete tasks naturally and efficiently in your app.
+
+The NavigationView and TeachingTip controls in WinUI now have default shadows in WinUI 2.1. The full list of controls that have default shadows in the Windows 10 May 2019 Update is available [here]https://docs.microsoft.com/windows/uwp/design/layout/depth-shadow).
 
 
 
