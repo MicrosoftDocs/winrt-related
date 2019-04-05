@@ -1,7 +1,7 @@
 ---
 title: WinUI 2.1 Release Notes
 description: Release notes for WinUI 2.1 including new features and bugfixes.
-author: jesbis and predavid
+author: predavid
 ms.author: mijacobs
 ms.date: 02/01/2019
 ms.topic: reference
