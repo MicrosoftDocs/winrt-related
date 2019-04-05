@@ -11,9 +11,9 @@ ms.topic: reference
 
 WinUI 2.1 is the second major release of the Windows UI Library. 
 
-WinUI is the easiest way to build great Fluent Design experiences for Windows.
+WinUI is the easiest way to build great Fluent Design experiences for Windows.Most features available in it go down level to RS4 [what is the official name for this – anyone remember?] with a few exceptions. Samples are readily available for you try out each feature. Sample links are included in the documentation for each feature.
 
-It includes two NuGet packages:
+The library includes two NuGet packages:
 
 * [Microsoft.UI.Xaml](https://www.nuget.org/packages/Microsoft.UI.Xaml): Controls and Fluent Design for UWP apps. This is the main WinUI package.
 
@@ -44,7 +44,8 @@ Here is the list of new features included in the public release of WinUI2.1!
 
 
 
-Users continue to expect more rich and performant experiences.ItemsRepeater enables developers to meet this need and deliver more engaging and differentiated experiences more quickly.
+Use an ItemsRepeater to create custom collection experiences using a flexible layout system, custom views, and virtualization.
+Unlike ListView, ItemsRepeater does not provide a comprehensive end-user experience – it has no default UI and provides no policy around focus, selection, or user interaction. Instead, it’s a building block that you can use to create your own unique collection-based experiences and custom controls. It supports building of richer and more performant experiences.
 
 
 
@@ -53,8 +54,7 @@ Users continue to expect more rich and performant experiences.ItemsRepeater enab
 ![Example](../images/lottiedocs_playback.gif)
 
 
-
-AnimatedVisualPlayer displays and controls playback of motion graphics, such as Lottie vector animations.
+The AnimatedVisualPlayer hosts and controls playback of an animated Visual tree, integrating custom motion graphic content with XAML UI. For instance, the AnimatedVisualPlayer is used to display and control Lottie animations.
 
 
 
@@ -69,7 +69,7 @@ TeachingTip provides an engaging and Fluent way for applications to guide and in
 
 
 
-[Shadows applied to new set of controls ](ENTER LINK INFO WHEN READY)
+[Shadows applied to new set of controls ](https://review.docs.microsoft.com/en-us/windows/uwp/design/layout/depth-shadow?branch=release-19h1)
 
 
 
