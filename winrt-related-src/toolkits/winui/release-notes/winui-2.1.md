@@ -49,7 +49,7 @@ Unlike ListView, ItemsRepeater does not provide a comprehensive end-user experie
 
 
 
-[AnimatedVisualPlayer](https://docs.microsoft.com/en-us/windows/communitytoolkit/animations/lottie)
+[AnimatedVisualPlayer](https://docs.microsoft.com/windows/communitytoolkit/animations/lottie)
 
 ![Example](../images/AnimatedVisualPlayer.gif)
 
