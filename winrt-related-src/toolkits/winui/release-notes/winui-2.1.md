@@ -85,7 +85,9 @@ The NavigationView and TeachingTip controls in WinUI now have default shadows in
 
 
 
-[RadioMenuFlyout](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/menus?branch=release-winui#create-a-menu-flyout-or-a-context-menu)
+[RadioMenuFlyoutItem](
+https://docs.microsoft.com/en-us/uwp/api/microsoft.ui.xaml.controls.radiomenuflyoutitem
+)
 
 
 
