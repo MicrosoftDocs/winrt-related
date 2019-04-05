@@ -104,7 +104,7 @@ It is the ability to have 'Radio Button' style options in a MenuBar. This allows
 
 
 
-![Compact Density Example](../images/CompactDensity.png)
+![Compact Density Example](../images/CompactDensityNew.png)
 
 
 
