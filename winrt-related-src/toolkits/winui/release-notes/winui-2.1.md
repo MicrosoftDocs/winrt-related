@@ -81,7 +81,7 @@ Shadow is one way a user perceives elevation. Light above an elevated object cre
 
 In the physical world, we tend to focus on objects that are closer to us. We can apply this spatial instinct to digital UI as well. For example, if you bring an element closer to the user, then the user will instinctively focus on the element. By moving UI elements closer in z-axis, you can establish visual hierarchy between objects, helping users complete tasks naturally and efficiently in your app.
 
-The NavigationView and TeachingTip controls in WinUI now have default shadows in WinUI 2.1. The full list of controls that have default shadows in the Windows 10 May 2019 Update is available [here]https://docs.microsoft.com/windows/uwp/design/layout/depth-shadow).
+The NavigationView and TeachingTip controls in WinUI now have default shadows in WinUI 2.1. The full list of controls that have default shadows in the Windows 10 May 2019 Update is available [here](https://docs.microsoft.com/windows/uwp/design/layout/depth-shadow).
 
 
 
