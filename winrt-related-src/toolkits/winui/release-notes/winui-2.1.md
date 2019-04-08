@@ -13,7 +13,7 @@ April 2019 - we have released the latest official version of the WinUI 2.1 libra
 
 WinUI gives you many of the latest Windows UX platform features, including up-to-date Fluent controls and styles, available in a way you can use right away, backward-compatible to Windows 10 Anniversary Update (14393), with just a few features being exceptions. The [XAML Control Gallery](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/#xaml-controls-gallery) gives your samples to explore all the cool new fatures added to the librbary. .
 
-Download the latest [NuGet package]((https://www.nuget.org/packages/Microsoft.UI.Xaml/2.1.190405004)
+Download the latest [NuGet package](https://www.nuget.org/packages/Microsoft.UI.Xaml/2.1.190405004)
 
 Use can choose to use the WinUI packages in your app using the NuGet package manager: see [Getting Started with the Windows UI Library](https://docs.microsoft.com/en-us/uwp/toolkits/winui/getting-started) for more information.
 
