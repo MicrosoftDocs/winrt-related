@@ -19,7 +19,7 @@ Use can choose to use the WinUI packages in your app using the NuGet package man
 
 WinUI is an open source project hosted on GitHub. We welcome bug reports, feature requests and community code contributions in the [Windows UI Library repo](https://aka.ms/winui).
 
-## COOL NEW FEATURES
+## COOL NEW FEATURES!
 
 
 [ItemsRepeater](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/items-repeater)
