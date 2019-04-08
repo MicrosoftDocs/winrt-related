@@ -43,7 +43,7 @@ The AnimatedVisualPlayer hosts and controls playback of animated visuals, enabli
 
 
 
-[TeachingTip](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/dialogs-and-flyouts/teaching-tip)
+[TeachingTip](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/dialogs-and-flyouts/teaching-tip)
 
 
 ![Example](../images/TeachingTipUpdated.gif)
@@ -69,7 +69,7 @@ The NavigationView and TeachingTip controls in WinUI now have default shadows in
 
 
 
-[RadioMenuFlyoutItem](https://review.docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/menus?branch=release-winui#create-a-menu-flyout-or-a-context-menu)
+[RadioMenuFlyoutItem](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/menus )
 
 
 
@@ -82,7 +82,7 @@ It is the ability to have 'Radio Button' style options in a MenuBar. This allows
 
 
 
-[CompactDensity](https://docs.microsoft.com/en-us/windows/uwp/design/style/spacing)
+[CompactDensity](https://docs.microsoft.com/en-us/windows/uwp/design/style/spacing )
 
 
 
