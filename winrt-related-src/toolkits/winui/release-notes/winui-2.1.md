@@ -9,17 +9,17 @@ ms.topic: reference
 
 # Windows UI Library 2.1
 
-April 2019 - we have released the latest official version of WinUI 2.1 librabry. 
+April 2019 - we have released the latest official version of the WinUI 2.1 librabry. 
 
-WinUI gives you many of the latest Windows UX platform features, including up-to-date Fluent controls and styles, available in a way you can use right away, backward-compatible to Windows 10 Anniversary Update (14393), with a few exceptions. The [XAML Control Gallery](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/#xaml-controls-gallery) gives your samples to explore all the cool new fatures added to the librbary. .
+WinUI gives you many of the latest Windows UX platform features, including up-to-date Fluent controls and styles, available in a way you can use right away, backward-compatible to Windows 10 Anniversary Update (14393), with just a few features being exceptions. The [XAML Control Gallery](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/#xaml-controls-gallery) gives your samples to explore all the cool new fatures added to the librbary. .
 
 Download the latest [NuGet package]((https://www.nuget.org/packages/Microsoft.UI.Xaml/2.1.190405004)
 
-You can download and use WinUI packages in your app using the NuGet package manager: see [Getting Started with the Windows UI Library](https://docs.microsoft.com/en-us/uwp/toolkits/winui/getting-started) for more information.
+Use can choose to use the WinUI packages in your app using the NuGet package manager: see [Getting Started with the Windows UI Library](https://docs.microsoft.com/en-us/uwp/toolkits/winui/getting-started) for more information.
 
 WinUI is an open source project hosted on GitHub. We welcome bug reports, feature requests and community code contributions in the [Windows UI Library repo](https://aka.ms/winui).
 
-##COOL NEW FEATURES
+## COOL NEW FEATURES
 
 
 [ItemsRepeater](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/items-repeater)
@@ -86,7 +86,7 @@ It is the ability to have 'Radio Button' style options in a MenuBar. This allows
 
 
 
-![Compact Density Example](../images/CompactDensity.png)
+![Compact Density Example](../images/CompactDensityUpdated.png)
 
 
 
@@ -98,14 +98,15 @@ Compact mode enable developers to create comfortable experiences for any number 
 
 April 2019
 
-[GitHub release page](https://github.com/Microsoft/microsoft-ui-xaml/releases/tag/2.1.190405004)
+[GitHub release page](https://github.com/Microsoft/microsoft-ui-xaml/releases)
 
 [NuGet package download](https://www.nuget.org/packages/Microsoft.UI.Xaml/2.1.190405004)
 
-####New features (not included in earlier pre-releases)
-[Shadows applied to new set of controls ](https://review.docs.microsoft.com/en-us/windows/uwp/design/layout/depth-shadow?branch=release-19h1)Shadow is one way a user perceives elevation. Light above an elevated object creates a shadow on the surface below. The higher the object, the larger and softer the shadow becomes. Elevated objects in your UI don’t need to have shadows, but they help create the appearance of elevation. 
+#### New features (not included in earlier pre-releases)
 
-[CompactDensity](https://docs.microsoft.com/en-us/windows/uwp/design/style/spacing)
+* [Shadows applied to new set of controls ](https://review.docs.microsoft.com/en-us/windows/uwp/design/layout/depth-shadow?branch=release-19h1)Shadow is one way a user perceives elevation. Light above an elevated object creates a shadow on the surface below. The higher the object, the larger and softer the shadow becomes. Elevated objects in your UI don’t need to have shadows, but they help create the appearance of elevation. 
+
+* [CompactDensity](https://docs.microsoft.com/en-us/windows/uwp/design/style/spacing)
 Compact mode enable developers to create comfortable experiences for any number of scenarios. Simply by adding a resource dictionary your application can fit on average ~33% more UI.
 
 ### Microsoft.UI.Xaml 2.1.190218001-prerelease
