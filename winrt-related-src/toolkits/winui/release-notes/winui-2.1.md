@@ -11,7 +11,7 @@ ms.topic: reference
 
 The latest version of the Windows UI Library – WinUI 2.1 – was just released April 8, 2019 
 
-WinUI gives you many of the latest Windows UX platform features, including up-to-date Fluent controls and styles, available in a way you can use right away, backward-compatible to Windows 10 Anniversary Update (14393). The [XAML Controls Gallery](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/#xaml-controls-gallery) gives your samples to explore all the cool new features added to the library.
+WinUI gives you many of the latest Windows UX platform features, including up-to-date Fluent controls and styles, available in a way you can use right away, backward-compatible to Windows 10 Anniversary Update (14393). The [XAML Controls Gallery](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/#xaml-controls-gallery) gives you samples to explore all the cool new features added to the library.
 
 Download the [WinUI 2.1 NuGet package](https://www.nuget.org/packages/Microsoft.UI.Xaml/2.1.190405004)
 
