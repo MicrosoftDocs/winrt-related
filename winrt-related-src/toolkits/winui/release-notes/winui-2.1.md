@@ -53,19 +53,7 @@ TeachingTip provides an engaging and Fluent way for applications to guide and in
 
 
 
-[Shadows applied to new set of controls ](https://review.docs.microsoft.com/en-us/windows/uwp/design/layout/depth-shadow?branch=release-19h1)
 
-
-
-![Example](../images/shadow.gif)
-
-
-
-Shadow is one way a user perceives elevation. Light above an elevated object creates a shadow on the surface below. The higher the object, the larger and softer the shadow becomes. Elevated objects in your UI don’t need to have shadows, but they help create the appearance of elevation.  
-
-In the physical world, we tend to focus on objects that are closer to us. We can apply this spatial instinct to digital UI as well. For example, if you bring an element closer to the user, then the user will instinctively focus on the element. By moving UI elements closer in z-axis, you can establish visual hierarchy between objects, helping users complete tasks naturally and efficiently in your app.
-
-The NavigationView and TeachingTip controls in WinUI now have default shadows in WinUI 2.1. The full list of controls that have default shadows in the Windows 10 May 2019 Update is available [here](https://docs.microsoft.com/windows/uwp/design/layout/depth-shadow).
 
 
 
@@ -102,10 +90,7 @@ April 2019
 
 [NuGet package download](https://www.nuget.org/packages/Microsoft.UI.Xaml/2.1.190405004)
 
-#### New features (not included in earlier pre-releases)
-
-* [Shadows applied to new set of controls ](https://review.docs.microsoft.com/en-us/windows/uwp/design/layout/depth-shadow?branch=release-19h1):
-Shadow is one way a user perceives elevation. Light above an elevated object creates a shadow on the surface below. The higher the object, the larger and softer the shadow becomes. Elevated objects in your UI don’t need to have shadows, but they help create the appearance of elevation. 
+#### New feature (not included in earlier pre-releases)
 
 * [CompactDensity](https://docs.microsoft.com/en-us/windows/uwp/design/style/spacing) :
 Compact mode enable developers to create comfortable experiences for any number of scenarios. Simply by adding a resource dictionary your application can fit on average ~33% more UI.
