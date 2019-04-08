@@ -107,7 +107,7 @@ April 2019
 * [Shadows applied to new set of controls ](https://review.docs.microsoft.com/en-us/windows/uwp/design/layout/depth-shadow?branch=release-19h1):
 Shadow is one way a user perceives elevation. Light above an elevated object creates a shadow on the surface below. The higher the object, the larger and softer the shadow becomes. Elevated objects in your UI don’t need to have shadows, but they help create the appearance of elevation. 
 
-* [CompactDensity](https://docs.microsoft.com/en-us/windows/uwp/design/style/spacing):
+* [CompactDensity](https://docs.microsoft.com/en-us/windows/uwp/design/style/spacing) :
 Compact mode enable developers to create comfortable experiences for any number of scenarios. Simply by adding a resource dictionary your application can fit on average ~33% more UI.
 
 ### Microsoft.UI.Xaml 2.1.190218001-prerelease
