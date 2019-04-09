@@ -80,6 +80,18 @@ It is the ability to have 'Radio Button' style options in a MenuBar. This allows
 
 Compact mode enable developers to create comfortable experiences for any number of scenarios. Simply by adding a resource dictionary your application can fit on average ~33% more UI.
 
+#### Shadows applied to new set of controls
+
+
+
+![Example](../images/shadow.gif)
+
+
+
+Shadow is one way a user perceives elevation. Light above an elevated object creates a shadow on the surface below. The higher the object, the larger and softer the shadow becomes. Elevated objects in your UI don’t need to have shadows, but they help create the appearance of elevation.  
+
+In the physical world, we tend to focus on objects that are closer to us. We can apply this spatial instinct to digital UI as well. For example, if you bring an element closer to the user, then the user will instinctively focus on the element. By moving UI elements closer in z-axis, you can establish visual hierarchy between objects, helping users complete tasks naturally and efficiently in your app.
+
 ## Microsoft.UI.Xaml 2.1 Version History
 
 ### Microsoft.UI.Xaml 2.1 Official release
@@ -94,6 +106,9 @@ April 2019
 
 * [CompactDensity](https://docs.microsoft.com/en-us/windows/uwp/design/style/spacing) :
 Compact mode enable developers to create comfortable experiences for any number of scenarios. Simply by adding a resource dictionary your application can fit on average ~33% more UI.
+
+* Shadows applied to new set of controls :
+Shadow is one way a user perceives elevation. Light above an elevated object creates a shadow on the surface below. The higher the object, the larger and softer the shadow becomes. Elevated objects in your UI don’t need to have shadows, but they help create the appearance of elevation. 
 
 ### Microsoft.UI.Xaml 2.1.190218001-prerelease
 
