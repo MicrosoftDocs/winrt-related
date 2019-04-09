@@ -27,5 +27,5 @@ Version history for the main [Microsoft.UI.Xaml NuGet package](https://www.nuget
 
 | Microsoft.UI.Xaml NuGet Version | Type | Latest Update | Release notes | Highlights |
 | --- | --- | --- | --- | --- |
-| [2.1 (prerelease)](winui-2.1.md) | in preview | February 2019 | [Release Notes](winui-2.1.md) | First open source release from [GitHub](https://github.com/microsoft/microsoft-ui-xaml). <br /> New experimental features including ItemsRepeater, RadioButtons, RadioMenuFlyoutItem, TeachingTip. |
+| [2.1](winui-2.1.md) | stable | April 2019 | [Release Notes](winui-2.1.md) | First open source release from [GitHub](https://github.com/microsoft/microsoft-ui-xaml). <br /> Adds new features including AnimatedVisualPlayer, compact UI styles, ItemsRepeater, RadioMenuFlyoutItem, Shadows and TeachingTip. |
 | [2.0](winui-2.0.md) | stable | October 2018 | [Release Notes](winui-2.0.md) | Initial release  |
