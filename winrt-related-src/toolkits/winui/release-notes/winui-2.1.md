@@ -80,7 +80,7 @@ It is the ability to have 'Radio Button' style options in a MenuBar. This allows
 
 Compact mode enable developers to create comfortable experiences for any number of scenarios. Simply by adding a resource dictionary your application can fit on average ~33% more UI.
 
-#### Shadows applied to new set of controls
+#### Shadows 
 
 
 
@@ -107,7 +107,7 @@ April 2019
 * [CompactDensity](https://docs.microsoft.com/en-us/windows/uwp/design/style/spacing) :
 Compact mode enable developers to create comfortable experiences for any number of scenarios. Simply by adding a resource dictionary your application can fit on average ~33% more UI.
 
-* Shadows applied to new set of controls :
+* Shadows :
 Shadow is one way a user perceives elevation. Light above an elevated object creates a shadow on the surface below. The higher the object, the larger and softer the shadow becomes. Elevated objects in your UI don’t need to have shadows, but they help create the appearance of elevation. 
 
 ### Microsoft.UI.Xaml 2.1.190218001-prerelease
