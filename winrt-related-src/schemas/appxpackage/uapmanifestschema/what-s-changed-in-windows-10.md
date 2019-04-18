@@ -5,13 +5,10 @@ ms.assetid: 2afadf58-6dcc-4959-b97b-47d2075af692
 author: laurenhughes
 ms.author: lahugh
 ms.topic: reference
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
-ms.date: 10/03/2018
+ms.date: 03/01/2019
+ms.custom: 19H1
 ---
 
 # What's different in Windows 10
@@ -19,6 +16,14 @@ ms.date: 10/03/2018
 This topic lists changes to the package manifest schema reference for each version of Windows 10, including namespaces and features that have been added or changed. See the [Element Hierarchy](root-elements.md) for reference info on all elements, attributes, and types in the schema.
 
 The following sections list the namespaces and XML prefixes added to the package manifest schema in each update of Windows 10. To get the latest version of Windows 10, see [Download Windows 10](https://www.microsoft.com/software-download/windows10).
+
+## Windows 10, Version 1903
+### Added namespaces and XML prefixes
+| Prefix   | Namespace | 
+|----------|-----------|
+| uap8     | http://schemas.microsoft.com/appx/manifest/uap/windows10/8 | 
+| desktop6 | http://schemas.microsoft.com/appx/manifest/desktop/windows10/6 |
+| rescap6  | http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/6 |
 
 ## Windows 10, Build 17763, Version 1809
 ### Added namespaces and XML prefixes

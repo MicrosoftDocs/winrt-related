@@ -140,6 +140,12 @@
             href: schemas/appxpackage/uapmanifestschema/element-uap-supportedusers.md
           - name: "uap6:AllowExecution"
             href: schemas/appxpackage/uapmanifestschema/element-uap6-allowexecution.md
+          - name: "desktop6:FileSystemWriteVirtualization"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-filesystemwritevirtualization.md
+          - name: "desktop6:RegistryWriteVirtualization"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-registrywritevirtualization.md
+          - name: "rescap6:ModificationPackage"
+            href: schemas/appxpackage/uapmanifestschema/element-rescap6-modificationpackage.md
           - name: "Resources"
             href: schemas/appxpackage/uapmanifestschema/element-resources.md
           - name: "Resource"
@@ -194,6 +200,26 @@
             href: schemas/appxpackage/uapmanifestschema/element-desktop2-typessupported.md
           - name: "desktop2:TypeSupported"
             href: schemas/appxpackage/uapmanifestschema/element-desktop2-typesupported.md
+          - name: "desktop6:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-package-extension.md
+          - name: "desktop6:MutablePackageDirectories"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-mutablepackagedirectories.md
+          - name: "desktop6:MutablePackageDirectory"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-mutablepackagedirectory.md
+          - name: "desktop6:CustomInstall"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-custominstall.md
+          - name: "desktop6:InstallActions"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-installactions.md
+          - name: "desktop6:InstallAction"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-installaction.md
+          - name: "desktop6:RepairActions"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-repairactions.md
+          - name: "desktop6:RepairAction"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-repairaction.md
+          - name: "desktop6:UninstallActions"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-uninstallactions.md
+          - name: "desktop6:UninstallAction"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-uninstallaction.md
           - name: "Extension"
             href: schemas/appxpackage/uapmanifestschema/element-extension.md
           - name: "InProcessServer"
@@ -439,7 +465,31 @@
           - name: "desktop4:ItemType"
             href: schemas/appxpackage/uapmanifestschema/element-desktop4-ItemType.md
           - name: "desktop4:Verb"
-            href: schemas/appxpackage/uapmanifestschema/element-desktop4-Verb.md
+            href: schemas/appxpackage/uapmanifestschema/element-desktop4-Verb.md  
+          - name: "desktop6:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-extension.md
+          - name: "desktop6:Service"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-service.md
+          - name: "desktop6:Dependencies"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-dependencies.md
+          - name: "desktop6:DependentService"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-dependentservice.md
+          - name: "desktop6:TriggerEvents"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-triggerevents.md
+          - name: "desktop6:TriggerCustom"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-triggercustom.md
+          - name: "desktop6:StringData"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-stringdata.md
+          - name: "desktop6:DataItem"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-dataitem.md
+          - name: "desktop6:BinaryData"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-binarydata.md
+          - name: "desktop6:LevelData"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-leveldata.md
+          - name: "desktop6:KeywordAnyData"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-keywordanydata.md
+          - name: "desktop6:KeywordAllData"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop6-keywordalldata.md
           - name: "rescap2:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-rescap2-extension-manual.md
           - name: "rescap3:Extension"

@@ -10,6 +10,7 @@ keywords: windows 10, uwp, schema, package manifest
 
 ms.topic: reference
 ms.date: 04/10/2018
+ms.custom: 19H1
 ---
 
 # Element Hierarchy
@@ -29,6 +30,9 @@ The following list summarizes the allowed hierarchies for this schema, starting 
         -   [**ResourcePackage**](element-resourcepackage.md)
         -   [**uap:SupportedUsers**](element-uap-supportedusers.md)
         -   [**uap6:AllowExecution**](element-uap6-allowexecution.md)
+        -   [**desktop6:FileSystemWriteVirtualization**](element-desktop6-filesystemwritevirtualization.md)
+        -   [**desktop6:RegistryWriteVirtualization**](element-desktop6-registrywritevirtualization.md)
+        -   [**rescap6:ModificationPackage**](element-rescap6-modificationpackage.md)
     -   [**Resources**](element-resources.md)
         -   [**Resource**](element-resource.md)
     -   [**Dependencies**](element-dependencies.md)
@@ -56,6 +60,16 @@ The following list summarizes the allowed hierarchies for this schema, starting 
                     -   [**desktop2:File**](element-desktop2-file.md)
                 -   [**desktop2:TypesSupported**](element-desktop2-typessupported.md)
                     -   [**desktop2:TypeSupported**](element-desktop2-typesupported.md)
+        -   [**desktop6:Extension**](element-desktop6-package-extension.md)
+            -   [**desktop6:MutablePackageDirectories**](element-desktop6-mutablepackagedirectories.md)
+                -   [**desktop6:MutablePackageDirectory**](element-desktop6-mutablepackagedirectory.md)
+            -   [**desktop6:CustomInstall**](element-desktop6-custominstall.md)
+                -   [**desktop6:InstallActions**](element-desktop6-installactions.md)
+                    -   [**desktop6:InstallAction**](element-desktop6-installaction.md)
+                -   [**desktop6:RepairActions**](element-desktop6-repairactions.md)
+                    -   [**desktop6:RepairAction**](element-desktop6-repairaction.md)
+                -   [**desktop6:UninstallActions**](element-desktop6-uninstallactions.md)
+                    -   [**desktop6:UninstallAction**](element-desktop6-uninstallaction.md)
         -   [**Extension**](element-extension.md)
             -   [**com:ComInterface**](element-com-package-cominterface.md)
                 -   [**com:ProxyStub**](element-com-package-proxystub.md)
@@ -184,6 +198,18 @@ The following list summarizes the allowed hierarchies for this schema, starting 
                     -   [**desktop4:FileExplorerContextMenus**](element-desktop4-fileexplorercontextmenus.md)
                         -   [**desktop4:ItemType**](element-desktop4-itemtype.md)
                             -   [**desktop4:Verb**](element-desktop4-verb.md)
+                -   [**desktop6:Extension**](element-desktop6-extension.md)
+                    -   [**desktop6:Service**](element-desktop6-service.md)
+                        -   [**desktop6:Dependencies**](element-desktop6-dependencies.md)
+                            -   [**desktop6:DependentService**](element-desktop6-dependentservice.md)
+                        -   [**desktop6:TriggerEvents**](element-desktop6-triggerevents.md)
+                            -   [**desktop6:TriggerCustom**](element-desktop6-triggercustom.md)
+                                -   [**desktop6:StringData**](element-desktop6-stringdata.md)
+                                    -   [**desktop6:DataItem**](element-desktop6-dataitem.md)
+                                -   [**desktop6:BinaryData**](element-desktop6-binarydata.md)
+                                -   [**desktop6:LevelData**](element-desktop6-leveldata.md)
+                                -   [**desktop6:KeywordAnyData**](element-desktop6-keywordanydata.md)
+                                -   [**desktop6:KeywordAllData**](element-desktop6-keywordalldata.md)
                 -   [**rescap2:Extension**](element-rescap2-extension-manual.md)
                 -   [**rescap3:Extension**](element-rescap3-extension.md)
                     -   [**rescap3:DesktopAppMigration**](element-rescap3-desktopappmigration.md)
