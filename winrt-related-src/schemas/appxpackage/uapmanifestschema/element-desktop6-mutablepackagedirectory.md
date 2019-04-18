@@ -1,9 +1,9 @@
----
+﻿---
 author: mcleanbyron
 title: desktop6:MutablePackageDirectory
 description: Specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of your desktop application's install folder are projected so that users can modify the installation files (for example, to install mods).
 ms.author: mcleans
-ms.date: 03/05/2019
+ms.date: 04/19/2019
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ms.custom: 19H1

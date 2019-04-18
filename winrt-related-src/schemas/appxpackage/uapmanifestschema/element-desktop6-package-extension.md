@@ -1,9 +1,9 @@
----
+﻿---
 author: mcleanbyron
 title: desktop6:Extension
 description: Declares an extensibility point for the app.
 ms.author: mcleans
-ms.date: 03/05/2019
+ms.date: 04/19/2019
 ms.topic: reference
 
 
