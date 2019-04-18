@@ -1,4 +1,4 @@
----
+﻿---
 Description: Summarizes the allowed hierarchies for the app package manifest for Windows 10 apps schema.
 Search.Product: eADQiWindows 10XVcnh
 title: Element Hierarchy
@@ -9,7 +9,7 @@ keywords: windows 10, uwp, schema, package manifest
 
 
 ms.topic: reference
-ms.date: 04/10/2018
+ms.date: 04/19/2019
 ms.custom: 19H1
 ---
 

@@ -1,9 +1,9 @@
----
+﻿---
 author: mcleanbyron
 title: desktop6:RepairAction
 description: Specifies an installer file (.exe or .msi) that is run when the user selects the repair or reset options in the Settings page for your desktop application.
 ms.author: mcleans
-ms.date: 03/05/2019
+ms.date: 04/19/2019
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ms.custom: 19H1

@@ -1,9 +1,9 @@
----
+﻿---
 author: mcleanbyron
 title: desktop6:BinaryData
 description: Specifies binary data for a trigger event of a service.
 ms.author: mcleans
-ms.date: 03/12/2019
+ms.date: 04/19/2019
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ms.custom: 19H1

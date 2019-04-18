@@ -1,9 +1,9 @@
----
+﻿---
 author: mcleanbyron
 title: desktop6:InstallActions
 description: Specifies installer files (.exe or .msi) that are run before the first launch of your desktop application.
 ms.author: mcleans
-ms.date: 03/05/2019
+ms.date: 04/19/2019
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ms.custom: 19H1
