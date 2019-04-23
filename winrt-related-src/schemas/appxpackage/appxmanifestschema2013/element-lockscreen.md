@@ -66,7 +66,7 @@ Defines the badge and notifications that represent the app on the lock screen, w
 </tr>
 <tr class="even">
 <td><strong>Notification</strong></td>
-<td><p>The type of tile that can be shown for an app on the lock screen. This can either be simply a badge which displays either a number or a glyph to communicate status, or both a badge and text, which can display detailed status. If LockScreen Notification type 'badgeAndTileText' is selected, then the optional WideLogo must be specified, since only the WideLogo template provides the right information to display with tile text. If this image is not provided, the tile can only display in the square format and cannot accept notifications based on [wide template types](https://msdn.microsoft.com/library/windows/apps/hh761491). This rule is semantically enforced through the manifest API.</p></td>
+<td><p>The type of tile that can be shown for an app on the lock screen. This can either be simply a badge which displays either a number or a glyph to communicate status, or both a badge and text, which can display detailed status. If LockScreen Notification type 'badgeAndTileText' is selected, then the optional WideLogo must be specified, since only the WideLogo template provides the right information to display with tile text. If this image is not provided, the tile can only display in the square format and cannot accept notifications based on <a href="https://msdn.microsoft.com/library/windows/apps/hh761491">wide template types</a> . This rule is semantically enforced through the manifest API.</p></td>
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li>badge</li>
@@ -99,7 +99,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[VisualElements](element-visualelements.md)</td>
+<td><a href="element-visualelements.md">VisualElements</a> </td>
 <td><p>Describes the visual aspects of the UWP app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance.</p></td>
 </tr>
 </tbody>

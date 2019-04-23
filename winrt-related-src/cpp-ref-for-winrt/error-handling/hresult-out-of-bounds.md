@@ -5,10 +5,7 @@ title: winrt::hresult_out_of_bounds struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/25/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, hresult, error, code, E_BOUNDS
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -32,7 +29,7 @@ struct hresult_out_of_bounds : winrt::hresult_error
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[hresult_out_of_bounds::hresult_out_of_bounds constructor](#hresultoutofboundshresultoutofbounds-constructor)|Initializes a new instance of the **hresult_out_of_bounds** struct with a copy of the input data.|
+|[hresult_out_of_bounds::hresult_out_of_bounds constructor](#hresult_out_of_boundshresult_out_of_bounds-constructor)|Initializes a new instance of the **hresult_out_of_bounds** struct with a copy of the input data.|
 
 ## hresult_out_of_bounds::hresult_out_of_bounds constructor
 Initializes a new instance of the **hresult_out_of_bounds** struct with a copy of the input data.

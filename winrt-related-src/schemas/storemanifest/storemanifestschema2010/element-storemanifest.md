@@ -58,7 +58,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ProductFeatures](element-productfeatures.md)</td>
+<td><a href="element-productfeatures.md">ProductFeatures</a> </td>
 <td><p>The ProductFeatures element is the container for all existing and future product features that will be configured through the StoreManifest XML file.</p></td>
 </tr>
 </tbody>

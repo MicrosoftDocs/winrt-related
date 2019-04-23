@@ -5,10 +5,7 @@ title: winrt::observable_vector_base struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 08/27/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, vector, observable, collection
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -41,25 +38,25 @@ The type of the elements in the **observable_vector_base**.
 ## Member functions
 |Function|Description|
 |-|-|
-|[observable_vector_base::Append function](#observablevectorbaseappend-function)|Appends an element to the end of the **observable_vector_base** object.|
-|[observable_vector_base::Clear function](#observablevectorbaseclear-function)|Removes all elements from the **observable_vector_base** object.|
-|[observable_vector_base::First function](#observablevectorbasefirst-function)|Retrieves an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) representing the first element in the **observable_vector_base** object.|
-|[observable_vector_base::GetAt function](#observablevectorbasegetat-function)|Retrieves the element at the specified index in the **observable_vector_base** object.|
-|[observable_vector_base::GetMany function](#observablevectorbasegetmany-function)|Retrieves a collection of elements in the **observable_vector_base** object beginning at the given index.|
-|[observable_vector_base::GetView function](#observablevectorbasegetview-function)|Retrieves an immutable view of the **observable_vector_base** object.|
-|[observable_vector_base::IndexOf function](#observablevectorbaseindexof-function)|Retrieves the index of a specified element in the **observable_vector_base** object.|
-|[observable_vector_base::InsertAt function](#observablevectorbaseinsertat-function)|Inserts an element at the specified index in the **observable_vector_base** object.|
-|[observable_vector_base::RemoveAt function](#observablevectorbaseremoveat-function)|Removes the element at the specified index in the **observable_vector_base** object.|
-|[observable_vector_base::RemoveAtEnd function](#observablevectorbaseremoveatend-function)|Removes the last element from the **observable_vector_base** object.|
-|[observable_vector_base::ReplaceAll function](#observablevectorbasereplaceall-function)|Replaces all the elements in the **observable_vector_base** object with the specified elements.|
-|[observable_vector_base::SetAt function](#observablevectorbasesetat-function)|Sets the value of the element at the specified index in the **observable_vector_base** object.|
-|[observable_vector_base::Size function](#observablevectorbasesize-function)|Retrieves the number of elements in the **observable_vector_base** object.|
-|[observable_vector_base::VectorChanged function](#observablevectorbasevectorchanged-function)|Registers and revokes a delegate that handles the vector-changed event of the **observable_vector_base** object.|
+|[observable_vector_base::Append function](#observable_vector_baseappend-function)|Appends an element to the end of the **observable_vector_base** object.|
+|[observable_vector_base::Clear function](#observable_vector_baseclear-function)|Removes all elements from the **observable_vector_base** object.|
+|[observable_vector_base::First function](#observable_vector_basefirst-function)|Retrieves an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) representing the first element in the **observable_vector_base** object.|
+|[observable_vector_base::GetAt function](#observable_vector_basegetat-function)|Retrieves the element at the specified index in the **observable_vector_base** object.|
+|[observable_vector_base::GetMany function](#observable_vector_basegetmany-function)|Retrieves a collection of elements in the **observable_vector_base** object beginning at the given index.|
+|[observable_vector_base::GetView function](#observable_vector_basegetview-function)|Retrieves an immutable view of the **observable_vector_base** object.|
+|[observable_vector_base::IndexOf function](#observable_vector_baseindexof-function)|Retrieves the index of a specified element in the **observable_vector_base** object.|
+|[observable_vector_base::InsertAt function](#observable_vector_baseinsertat-function)|Inserts an element at the specified index in the **observable_vector_base** object.|
+|[observable_vector_base::RemoveAt function](#observable_vector_baseremoveat-function)|Removes the element at the specified index in the **observable_vector_base** object.|
+|[observable_vector_base::RemoveAtEnd function](#observable_vector_baseremoveatend-function)|Removes the last element from the **observable_vector_base** object.|
+|[observable_vector_base::ReplaceAll function](#observable_vector_basereplaceall-function)|Replaces all the elements in the **observable_vector_base** object with the specified elements.|
+|[observable_vector_base::SetAt function](#observable_vector_basesetat-function)|Sets the value of the element at the specified index in the **observable_vector_base** object.|
+|[observable_vector_base::Size function](#observable_vector_basesize-function)|Retrieves the number of elements in the **observable_vector_base** object.|
+|[observable_vector_base::VectorChanged function](#observable_vector_basevectorchanged-function)|Registers and revokes a delegate that handles the vector-changed event of the **observable_vector_base** object.|
 
 ## Iterators
 A **observable_vector_base** is a range, and that range is defined by internal free functions (each of which retrieves an iterator) that are compatible with standard language features. Because of this, you can enumerate the elements in a **observable_vector_base** object with a range-based `for` statement.
 
-You can also retrieve an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) from the [observable_vector_base::First](#observablevectorbasefirst-function) function, and use that to iterate through the elements in a **observable_vector_base** object.
+You can also retrieve an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) from the [observable_vector_base::First](#observable_vector_basefirst-function) function, and use that to iterate through the elements in a **observable_vector_base** object.
 
 ```cppwinrt
 ...

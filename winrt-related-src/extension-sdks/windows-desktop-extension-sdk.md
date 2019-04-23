@@ -2,8 +2,8 @@
 title: Windows Desktop Extension SDK API contracts for UWP
 description: Lists all of the API contracts within the Windows Desktop Extension SDK for the Universal Windows Platform.
 ms.assetid: 9C4F57CB-6E45-4B42-9852-67B0EFB63450
-ms.author: twhitney
-author: TylerMSFT
+ms.author: nichola
+author: knicholasa
 
 
 ms.topic: reference
@@ -13,6 +13,9 @@ keywords: windows 10, uwp, desktop extension sdk, api contract
 # Windows Desktop Extension SDK API contracts for UWP
 
 See a list of all the API contracts in the Windows desktop extension SDK for the Universal Windows Platform (UWP).
+
+> [!NOTE]
+> We're thinking of removing this page. Did you find it useful? Please use one of the feedback tools at the bottom of the page to tell us why.
 
 ## Version 10.0.17763.0
 

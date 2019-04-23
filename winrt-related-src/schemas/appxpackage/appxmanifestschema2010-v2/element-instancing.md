@@ -76,7 +76,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[OutOfProcessServer](element-outofprocessserver.md)</td>
+<td><a href="element-outofprocessserver.md">OutOfProcessServer</a> </td>
 <td><p>Declares a package extension point of type <strong>windows.activatableClass.outOfProcessServer</strong>. The app uses an executable (EXE) that exposes one or more activatable classes.</p></td>
 </tr>
 </tbody>

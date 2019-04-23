@@ -65,8 +65,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Signature](element-signature.md)</td>
-<td><p>Contains any errors from processing the [<strong>Signature</strong>](https://msdn.microsoft.com/library/windows/apps/hh868330) element from the last provisioning attempt.</p></td>
+<td><a href="element-signature.md">Signature</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868330"><strong>Signature</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>

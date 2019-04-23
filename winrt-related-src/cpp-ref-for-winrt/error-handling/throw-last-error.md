@@ -5,10 +5,7 @@ title: winrt::throw_last_error function (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/30/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, last-error, throw, exception, hresult_error, HRESULT, error, code
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]

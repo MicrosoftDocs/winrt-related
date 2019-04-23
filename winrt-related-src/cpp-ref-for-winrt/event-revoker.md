@@ -5,10 +5,7 @@ title: winrt::event_revoker struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 05/18/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -38,7 +35,7 @@ The type of the event source (the object that raises the event).
 ## Member functions
 |Function|Description|
 |------------|-----------------|
-|[event_revoker::revoke function](#eventrevokerrevoke-function)|Revokes the delegate from whose registration the **event_revoker** object was returned.|
+|[event_revoker::revoke function](#event_revokerrevoke-function)|Revokes the delegate from whose registration the **event_revoker** object was returned.|
 
 ## event_revoker::revoke function
 Revokes the delegate from whose registration the **event_revoker** object was returned.

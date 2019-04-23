@@ -5,10 +5,7 @@ title: winrt::hresult_class_not_available struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/25/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, hresult, error, code, CLASS_E_CLASSNOTAVAILABLE
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -32,7 +29,7 @@ struct hresult_class_not_available : winrt::hresult_error
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[hresult_class_not_available::hresult_class_not_available constructor](#hresultclassnotavailablehresultclassnotavailable-constructor)|Initializes a new instance of the **hresult_class_not_available** struct with a copy of the input data.|
+|[hresult_class_not_available::hresult_class_not_available constructor](#hresult_class_not_availablehresult_class_not_available-constructor)|Initializes a new instance of the **hresult_class_not_available** struct with a copy of the input data.|
 
 ## hresult_class_not_available::hresult_class_not_available constructor
 Initializes a new instance of the **hresult_class_not_available** struct with a copy of the input data.

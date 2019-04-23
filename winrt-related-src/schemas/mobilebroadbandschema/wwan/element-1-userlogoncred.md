@@ -76,11 +76,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Password](element-1-password.md)</td>
+<td><a href="element-1-password.md">Password</a> </td>
 <td><p>Defines the password used to authenticate a user. Must be less than 256 characters.</p></td>
 </tr>
 <tr class="even">
-<td>[UserName](element-1-username.md)</td>
+<td><a href="element-1-username.md">UserName</a> </td>
 <td><p>Defines the user name for logon. Must be less than 256 characters.</p></td>
 </tr>
 </tbody>
@@ -103,7 +103,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Context](element-1-context.md)</td>
+<td><a href="element-1-context.md">Context</a> </td>
 <td><p>Defines the parameters required to setup a data connection.</p></td>
 </tr>
 </tbody>

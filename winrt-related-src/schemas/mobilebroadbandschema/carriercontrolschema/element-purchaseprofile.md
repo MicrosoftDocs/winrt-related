@@ -65,7 +65,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[MBNProfiles](element-mbnprofiles.md)</td>
+<td><a href="element-mbnprofiles.md">MBNProfiles</a> </td>
 <td><p>Defines information for a subscriber's WWAN profiles on a Mobile Network Operator's (MNO) network.</p></td>
 </tr>
 </tbody>

@@ -67,14 +67,14 @@ See [BCP-47 language tag](https://go.microsoft.com/fwlink/p/?linkid=227302).
 <tbody>
 <tr class="odd">
 <td><strong>Language</strong></td>
-<td><p>The language for the resource contained in the package. The syntax of this attribute is defined by the IETF's [BCP47: Tags for Identifying Languages](https://www.rfc-editor.org/rfc/bcp/bcp47.txt).</p></td>
+<td><p>The language for the resource contained in the package. The syntax of this attribute is defined by the IETF's <a href="https://www.rfc-editor.org/rfc/bcp/bcp47.txt">BCP47: Tags for Identifying Languages</a> .</p></td>
 <td>language</td>
 <td>No</td>
 <td></td>
 </tr>
 <tr class="even">
 <td><strong>uap:DXFeatureLevel</strong></td>
-<td><p>The DirectX [feature level](https://msdn.microsoft.com/library/windows/desktop/ff476876#overview) of the resource from the manifest's Resources\Resource field.</p></td>
+<td><p>The DirectX <a href="https://msdn.microsoft.com/library/windows/desktop/ff476876#overview">feature level</a>  of the resource from the manifest's Resources\Resource field.</p></td>
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li>dx9</li>
@@ -86,7 +86,7 @@ See [BCP-47 language tag](https://go.microsoft.com/fwlink/p/?linkid=227302).
 </tr>
 <tr class="odd">
 <td><strong>uap:Scale</strong></td>
-<td><p>The [<strong>resolution scale</strong>](https://msdn.microsoft.com/library/windows/apps/br226165) of the resource.</p></td>
+<td><p>The <a href="https://msdn.microsoft.com/library/windows/apps/br226165"><strong>resolution scale</strong></a>  of the resource.</p></td>
 <td>&quot;100&quot; | &quot;120&quot; | &quot;125&quot; | &quot;140&quot; | &quot;150&quot; | &quot;160&quot; | &quot;180&quot; | &quot;200&quot; | &quot;225&quot; | &quot;250&quot; | &quot;300&quot; | &quot;400&quot;</td>
 <td>No</td>
 <td></td>
@@ -113,7 +113,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Resources](element-resources.md)</td>
+<td><a href="element-resources.md">Resources</a> </td>
 <td><p>Declares languages for the resources that the package contains. Every package must declare at least one language for resources. The scale and DirectX feature level attributes are common for all resources in the package.</p></td>
 </tr>
 </tbody>

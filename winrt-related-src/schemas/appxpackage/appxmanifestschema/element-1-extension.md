@@ -162,35 +162,35 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AutoPlayContent](element-autoplaycontent.md)</td>
+<td><a href="element-autoplaycontent.md">AutoPlayContent</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.autoPlayContent</strong>. The app provides the specified AutoPlay content actions.</p></td>
 </tr>
 <tr class="even">
-<td>[AutoPlayDevice](element-autoplaydevice.md)</td>
+<td><a href="element-autoplaydevice.md">AutoPlayDevice</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.autoPlayDevice</strong>. The app provides the specified AutoPlay device actions.</p></td>
 </tr>
 <tr class="odd">
-<td>[BackgroundTasks](element-backgroundtasks.md)</td>
+<td><a href="element-backgroundtasks.md">BackgroundTasks</a> </td>
 <td><p>Defines an app extensibility point of type <strong>windows.backgroundTasks</strong>. Background tasks run in a dedicated background host; that is, without a UI.</p></td>
 </tr>
 <tr class="even">
-<td>[FileOpenPicker](element-fileopenpicker.md)</td>
+<td><a href="element-fileopenpicker.md">FileOpenPicker</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.fileOpenPicker</strong>. The app lets the user choose and open the specified types of files.</p></td>
 </tr>
 <tr class="odd">
-<td>[FileSavePicker](element-filesavepicker.md)</td>
+<td><a href="element-filesavepicker.md">FileSavePicker</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.fileSavePicker</strong>. The app lets the user choose the file name, extension, and storage location for the specified types of files.</p></td>
 </tr>
 <tr class="even">
-<td>[FileTypeAssociation](element-filetypeassociation.md)</td>
+<td><a href="element-filetypeassociation.md">FileTypeAssociation</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.fileTypeAssociation</strong>. A file type association indicates that the app is registered to handle files of the specified types.</p></td>
 </tr>
 <tr class="odd">
-<td>[Protocol](element-protocol.md)</td>
+<td><a href="element-protocol.md">Protocol</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.protocol</strong>. A URI association indicates that the app is registered to handle URIs with the specified scheme.</p></td>
 </tr>
 <tr class="even">
-<td>[ShareTarget](element-sharetarget.md)</td>
+<td><a href="element-sharetarget.md">ShareTarget</a> </td>
 <td><p>Declares an app extension point of type <strong>windows.shareTarget</strong>. The app can share the specified types of files.</p></td>
 </tr>
 </tbody>
@@ -213,7 +213,7 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extensions (type: CT_ApplicationExtensions)](element-1-extensions.md)</td>
+<td><a href="element-1-extensions.md">Extensions (type: CT_ApplicationExtensions)</a> </td>
 <td><p>Defines one or more extensibility points for the app.</p></td>
 </tr>
 </tbody>

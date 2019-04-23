@@ -65,7 +65,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DeviceCompanionApplication](element-devicecompanionapplication.md)</td>
+<td><a href="element-devicecompanionapplication.md">DeviceCompanionApplication</a> </td>
 <td><p>The DeviceCompanionApplication element contains all the configuration required to declare your app as a Microsoft Store device app.</p></td>
 </tr>
 </tbody>

@@ -95,11 +95,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:FileType (type: ST_FileType)](element-2-uap-filetype.md)</td>
+<td><a href="element-2-uap-filetype.md">uap:FileType (type: ST_FileType)</a> </td>
 <td><p>A file type specified as its file type extension. It is unique per application in the package and is case sensitive.</p></td>
 </tr>
 <tr class="even">
-<td>[uap:SupportsAnyFileType](element-1-uap-supportsanyfiletype.md)</td>
+<td><a href="element-1-uap-supportsanyfiletype.md">uap:SupportsAnyFileType</a> </td>
 <td><p>Indicates whether all file types are supported for sharing.</p></td>
 </tr>
 </tbody>
@@ -122,15 +122,15 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:FileOpenPicker](element-uap-fileopenpicker.md)</td>
+<td><a href="element-uap-fileopenpicker.md">uap:FileOpenPicker</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.fileOpenPicker</strong>. The app lets the user choose and open the specified types of files.</p></td>
 </tr>
 <tr class="even">
-<td>[uap:FileSavePicker](element-uap-filesavepicker.md)</td>
+<td><a href="element-uap-filesavepicker.md">uap:FileSavePicker</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.fileSavePicker</strong>. The app lets the user choose the file name, extension, and storage location for the specified types of files.</p></td>
 </tr>
 <tr class="odd">
-<td>[uap:ShareTarget](element-uap-sharetarget.md)</td>
+<td><a href="element-uap-sharetarget.md">uap:ShareTarget</a> </td>
 <td><p>Declares an app extension point of type <strong>windows.shareTarget</strong>. The app can share the specified types of files.</p></td>
 </tr>
 </tbody>

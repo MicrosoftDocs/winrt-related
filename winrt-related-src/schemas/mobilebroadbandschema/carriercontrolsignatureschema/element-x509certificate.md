@@ -70,8 +70,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[X509Data](element-x509data.md)</td>
-<td><p>Defines one or more X.509 compliant signatures as defined in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-x509data.md">X509Data</a> </td>
+<td><p>Defines one or more X.509 compliant signatures as defined in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> .</p></td>
 </tr>
 </tbody>
 </table>

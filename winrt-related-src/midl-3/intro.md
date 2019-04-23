@@ -35,9 +35,12 @@ namespace PhotoEditor
 
 Note that the syntax of MIDL 3.0 is specifically and solely designed for *declaring* types. You'll use a different programming language to *implement* those types. To use MIDL 3.0, you'll need Windows SDK version 10.0.17134.0 (Windows 10, version 1803) (`midl.exe` version 8.01.0622 or later, used with the `/winrt` switch).
 
-## Use cases for MIDL 3.0
-Interface Definition Language (IDL) began with the Distributed Computing Environment/Remote Procedure Calls (DCE/RPC) system. The original [MIDL 1.0](https://msdn.microsoft.com/library/windows/desktop/aa367091) is DCE/RPC IDL with enhancements for declaring COM interfaces and coclasses. An updated 2.0 syntax was then developed within Microsoft to declare Windows Runtime APIs for the Windows platform. MIDL 3.0 is a much simpler and more modern syntax, whose purpose is to declare Windows Runtime APIs. And you can use it in your projects, particularly to declare [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) runtime classes.
+## MIDL 1.0, 2.0, and 3.0
+Interface Definition Language (IDL) began with the Distributed Computing Environment/Remote Procedure Calls (DCE/RPC) system. The original [MIDL 1.0](https://msdn.microsoft.com/library/windows/desktop/aa367091) is DCE/RPC IDL with enhancements for declaring COM interfaces and coclasses. An updated MIDL 2.0 syntax was then developed within Microsoft to declare Windows Runtime APIs for the Windows platform. If you look in the Windows SDK folder `%WindowsSdkDir%Include<WindowsTargetPlatformVersion>\winrt` then you'll see examples of `.idl` files that are written with the MIDL 2.0 syntax. These are first-party Windows Runtime APIs, declared in their application binary interface (ABI) form. These files exist primarily for tooling to use&mdash;you won't author nor consume these APIs in this form (unless you're writing very low-level code).
 
+MIDL 3.0 is a much simpler and more modern syntax, whose purpose is to declare Windows Runtime APIs. And you can use it in your projects, particularly to declare [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) runtime classes. The headers, for use from C++/WinRT, for the first-party Windows Runtime APIs are part of the SDK, inside the folder `%WindowsSdkDir%Include<WindowsTargetPlatformVersion>\cppwinrt\winrt`.
+
+## Use cases for MIDL 3.0
 In general, all Windows Runtime APIs are designed to be available to all Windows Runtime language projections. This is done, in part, by choosing to exclusively pass Windows Runtime types to and from Windows Runtime APIs. While it is a valid design decision to pass a raw COM interface to and from a Windows Runtime API, doing so limits the consumers of that particular Windows Runtime API to C++ applications. The technique can be seen in interoperation scenarios&mdash;for example, when interoperating between Direct3D and XAML. Since Direct3D is in the picture, the scenario is necessarily narrowed to C++ applications. So, an API that requires a COM interface doesn't impose any additional limitation over and above what's inherent. For example, a C++ application can obtain an [IDXGISwapChain](/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain) interface pointer, and then pass that to the [ISwapChainPanelNative::SetSwapChain method](/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-iswapchainpanelnative-setswapchain). A C# application, for example, wouldn't be able to obtain an **IDXGISwapChain** to begin with, so it wouldn't be able to use that method for that reason. These interop-related exceptions live in interop headers, such as `windows.ui.xaml.media.dxinterop.h`.
 
 If there *are* features or functionality of a COM component that you wish to expose to Windows Runtime language projections beyond C++, then you can create a C++ [Windows Runtime component](/windows/uwp/winrt-components/) (WRC) that directly creates and uses the COM component (such as DirectX, for example), and exposes a replication of some subset of its features and functionality in the form of a Windows Runtime API surface that takes and returns Windows Runtime types only. You could then consume that WRC from an application written in *any* Windows Runtime language projection.
@@ -81,7 +84,7 @@ This class implements the **Windows.UI.Xaml.Data.INotifyPropertyChanged** interf
 
 But you can also compile MIDL 3.0 from the command line. If the source code for this example is stored in a file named `Bookstore.idl`, then you can issue the command below. If necessary for your case, you can update the SDK version number used in the command (which is 10.0.17134.0).
 
-```
+```console
 midl /winrt /metadata_dir "%WindowsSdkDir%References\10.0.17134.0\windows.foundation.foundationcontract\3.0.0.0" /h "nul" /nomidl /reference "%WindowsSdkDir%References\10.0.17134.0\Windows.Foundation.FoundationContract\3.0.0.0\Windows.Foundation.FoundationContract.winmd" /reference "%WindowsSdkDir%References\10.0.17134.0\Windows.Foundation.UniversalApiContract\6.0.0.0\Windows.Foundation.UniversalApiContract.winmd" /reference "%WindowsSdkDir%\References\10.0.17134.0\Windows.Networking.Connectivity.WwanContract\2.0.0.0\Windows.Networking.Connectivity.WwanContract.winmd" Bookstore.idl
 ```
 
@@ -94,7 +97,7 @@ In this case, **BookSku** is the only runtime class in the **Bookstore** namespa
 
 Incidentally, you can use the `where` command to find out where `midl.exe` is installed.
 
-```
+```console
 where midl
 ```
 
@@ -114,7 +117,7 @@ namespace MVVMApp
 
 If the source code for the example above is stored in a file named `MVVMApp.idl`, then you can issue the command below to reference `Bookstore.winmd`.
 
-```
+```console
 midl /winrt /metadata_dir "%WindowsSdkDir%References\10.0.17134.0\windows.foundation.foundationcontract\3.0.0.0" /h "nul" /nomidl /reference "%WindowsSdkDir%References\10.0.17134.0\Windows.Foundation.FoundationContract\3.0.0.0\Windows.Foundation.FoundationContract.winmd" /reference "%WindowsSdkDir%References\10.0.17134.0\Windows.Foundation.UniversalApiContract\6.0.0.0\Windows.Foundation.UniversalApiContract.winmd" /reference "%WindowsSdkDir%\References\10.0.17134.0\Windows.Networking.Connectivity.WwanContract\2.0.0.0\Windows.Networking.Connectivity.WwanContract.winmd" /reference Bookstore.winmd MVVMApp.idl
 ```
 

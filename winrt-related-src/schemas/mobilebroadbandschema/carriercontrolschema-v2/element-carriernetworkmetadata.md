@@ -63,15 +63,15 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[CustomerSupportPhoneNumber](element-customersupportphonenumber.md)</td>
+<td><a href="element-customersupportphonenumber.md">CustomerSupportPhoneNumber</a> </td>
 <td><p>Defines the phone number for customer support in a subscriber's carrier provisioning file.</p></td>
 </tr>
 <tr class="even">
-<td>[DataClassFriendlyNames](element-dataclassfriendlynames.md)</td>
+<td><a href="element-dataclassfriendlynames.md">DataClassFriendlyNames</a> </td>
 <td><p>Defines class friendly names for the standard or protocol used for mobile network data in a subscriber's carrier provisioning file.</p></td>
 </tr>
 <tr class="odd">
-<td>[NetworkSettings](element-networksettings.md)</td>
+<td><a href="element-networksettings.md">NetworkSettings</a> </td>
 <td><p>Defines the network settings in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>
@@ -94,8 +94,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extensions_v2](element-extensions-v2.md)</td>
-<td><p>Defines additional properties and settings in a subscriber's carrier provisioning file. [<strong>Extensions_v2</strong>](element-extensions-v2.md) is the unique root element of the [CarrierControlSchema_v2](schema-root.md) provisioning file.</p></td>
+<td><a href="element-extensions-v2.md">Extensions_v2</a> </td>
+<td><p>Defines additional properties and settings in a subscriber's carrier provisioning file. <a href="element-extensions-v2.md"><strong>Extensions_v2</strong></a>  is the unique root element of the <a href="schema-root.md">CarrierControlSchema_v2</a> provisioning file.</p></td>
 </tr>
 </tbody>
 </table>

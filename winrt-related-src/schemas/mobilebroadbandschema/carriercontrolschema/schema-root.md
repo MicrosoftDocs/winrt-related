@@ -31,107 +31,107 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Activation](element-activation.md)</td>
+<td><a href="element-activation.md">Activation</a> </td>
 <td><p>Defines information for a subscriber's activation method on a Mobile Network Operator's (MNO) network.</p></td>
 </tr>
 <tr class="even">
-<td>[ActivationMethod](element-activationmethod.md)</td>
-<td><p>Defines an instance of the [<strong>ActivationMethod</strong>](https://msdn.microsoft.com/library/windows/apps/hh868442) element from the [<strong>WWAN</strong>](https://msdn.microsoft.com/library/windows/apps/hh868486) schema.</p></td>
+<td><a href="element-activationmethod.md">ActivationMethod</a> </td>
+<td><p>Defines an instance of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868442"><strong>ActivationMethod</strong></a>  element from the <a href="https://msdn.microsoft.com/library/windows/apps/hh868486"><strong>WWAN</strong></a> schema.</p></td>
 </tr>
 <tr class="odd">
-<td>[Branding](element-branding.md)</td>
-<td><p>Defines an instance of the [<strong>Branding</strong>](https://msdn.microsoft.com/library/windows/apps/hh868446) element from the [<strong>WWAN</strong>](https://msdn.microsoft.com/library/windows/apps/hh868486) schema.</p></td>
+<td><a href="element-branding.md">Branding</a> </td>
+<td><p>Defines an instance of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868446"><strong>Branding</strong></a>  element from the <a href="https://msdn.microsoft.com/library/windows/apps/hh868486"><strong>WWAN</strong></a> schema.</p></td>
 </tr>
 <tr class="even">
-<td>[CarrierId](element-carrierid.md)</td>
+<td><a href="element-carrierid.md">CarrierId</a> </td>
 <td><p>Defines a unique GUID that identifies the Mobile Network Operator (MNO). If the MNO participates in MBAE, this should be their MBAE Carrier ID. Non-MBAE MNOs may generate a GUID as part of their initial configuration.</p></td>
 </tr>
 <tr class="odd">
-<td>[CarrierProvisioning](element-carrierprovisioning.md)</td>
-<td><p>Defines the properties and settings in a subscriber's carrier provisioning file. [<strong>CarrierProvisioning</strong>](element-carrierprovisioning.md) is the unique root element of the provisioning file.</p></td>
+<td><a href="element-carrierprovisioning.md">CarrierProvisioning</a> </td>
+<td><p>Defines the properties and settings in a subscriber's carrier provisioning file. <a href="element-carrierprovisioning.md"><strong>CarrierProvisioning</strong></a>  is the unique root element of the provisioning file.</p></td>
 </tr>
 <tr class="even">
-<td>[DefaultProfile](element-defaultprofile.md)</td>
-<td><p>Defines an instance of the [<strong>DefaultProfile</strong>](https://msdn.microsoft.com/library/windows/apps/hh868453) element from the [<strong>WWAN</strong>](https://msdn.microsoft.com/library/windows/apps/hh868486) schema.</p></td>
+<td><a href="element-defaultprofile.md">DefaultProfile</a> </td>
+<td><p>Defines an instance of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868453"><strong>DefaultProfile</strong></a>  element from the <a href="https://msdn.microsoft.com/library/windows/apps/hh868486"><strong>WWAN</strong></a> schema.</p></td>
 </tr>
 <tr class="odd">
-<td>[DelayInDays](element-delayindays.md)</td>
+<td><a href="element-delayindays.md">DelayInDays</a> </td>
 <td><p>Defines the number of days until the next refresh. It must be a positive integer less than 732.</p></td>
 </tr>
 <tr class="even">
-<td>[DeviceId](element-deviceid.md)</td>
+<td><a href="element-deviceid.md">DeviceId</a> </td>
 <td><p>Defines a unique device identifier to which this provisioning attempt applies. It must be formatted as <strong>\d{15,16}</strong> or as <strong>([a-fA-F0-9]{2}:){5}[a-fA-F0-9]{2}</strong></p></td>
 </tr>
 <tr class="odd">
-<td>[Extensions](element-extensions.md)</td>
+<td><a href="element-extensions.md">Extensions</a> </td>
 <td><p>Defines a schema extension point container for future additions.</p></td>
 </tr>
 <tr class="even">
-<td>[Global](element-global.md)</td>
+<td><a href="element-global.md">Global</a> </td>
 <td><p>Defines identifying information for this provisioning attempt on a Mobile Network Operator's (MNO) network.</p></td>
 </tr>
 <tr class="odd">
-<td>[MBNProfiles](element-mbnprofiles.md)</td>
+<td><a href="element-mbnprofiles.md">MBNProfiles</a> </td>
 <td><p>Defines information for a subscriber's WWAN profiles on a Mobile Network Operator's (MNO) network.</p></td>
 </tr>
 <tr class="even">
-<td>[Messages](element-messages.md)</td>
-<td><p>Defines an instance of the [<strong>Messages</strong>](https://msdn.microsoft.com/library/windows/apps/hh868462) element from the [<strong>WWAN</strong>](https://msdn.microsoft.com/library/windows/apps/hh868486) schema.</p></td>
+<td><a href="element-messages.md">Messages</a> </td>
+<td><p>Defines an instance of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868462"><strong>Messages</strong></a>  element from the <a href="https://msdn.microsoft.com/library/windows/apps/hh868486"><strong>WWAN</strong></a> schema.</p></td>
 </tr>
 <tr class="odd">
-<td>[Password](element-password.md)</td>
+<td><a href="element-password.md">Password</a> </td>
 <td><p>Defines optional password credentials to be presented using HTTP-Auth to log on to the Mobile Network Operator's network when retrieving the provisioning file.</p></td>
 </tr>
 <tr class="even">
-<td>[Plan](element-plan.md)</td>
-<td><p>Defines an instance of the [<strong>Plan</strong>](https://msdn.microsoft.com/library/windows/apps/hh868373) element from the [<strong>Plans</strong>](https://msdn.microsoft.com/library/windows/apps/hh868378) schema.</p></td>
+<td><a href="element-plan.md">Plan</a> </td>
+<td><p>Defines an instance of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868373"><strong>Plan</strong></a>  element from the <a href="https://msdn.microsoft.com/library/windows/apps/hh868378"><strong>Plans</strong></a> schema.</p></td>
 </tr>
 <tr class="odd">
-<td>[Plans](element-plans.md)</td>
+<td><a href="element-plans.md">Plans</a> </td>
 <td><p>Defines information for a subscriber's connection plans to a Mobile Network Operator's (MNO) network.</p></td>
 </tr>
 <tr class="even">
-<td>[Provisioning](element-provisioning.md)</td>
+<td><a href="element-provisioning.md">Provisioning</a> </td>
 <td><p>Defines parameters used to establish trust and refresh settings for future provisioning attempts.</p></td>
 </tr>
 <tr class="odd">
-<td>[PurchaseProfile](element-purchaseprofile.md)</td>
-<td><p>Defines an instance of the [<strong>PurchaseProfile</strong>](https://msdn.microsoft.com/library/windows/apps/hh868470) element from the [<strong>WWAN</strong>](https://msdn.microsoft.com/library/windows/apps/hh868486) schema.</p></td>
+<td><a href="element-purchaseprofile.md">PurchaseProfile</a> </td>
+<td><p>Defines an instance of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868470"><strong>PurchaseProfile</strong></a>  element from the <a href="https://msdn.microsoft.com/library/windows/apps/hh868486"><strong>WWAN</strong></a> schema.</p></td>
 </tr>
 <tr class="even">
-<td>[RefreshParameters](element-refreshparameters.md)</td>
+<td><a href="element-refreshparameters.md">RefreshParameters</a> </td>
 <td><p>Defines parameters to be used when refreshing the provisioning file contents.</p></td>
 </tr>
 <tr class="odd">
-<td>[RefreshURL](element-refreshurl.md)</td>
-<td><p>Defines the HTTPS URL where the client can find the updated copy of this provisioning file in the future. This URL will be accessed upon receipt of an SMS/USSD trigger or after the specified [<strong>DelayInDays</strong>](element-delayindays.md). It must be formatted as <strong>https://.+</strong></p></td>
+<td><a href="element-refreshurl.md">RefreshURL</a> </td>
+<td><p>Defines the HTTPS URL where the client can find the updated copy of this provisioning file in the future. This URL will be accessed upon receipt of an SMS/USSD trigger or after the specified <a href="element-delayindays.md"><strong>DelayInDays</strong></a> . It must be formatted as <strong>https://.+</strong></p></td>
 </tr>
 <tr class="even">
-<td>[Signature](element-signature.md)</td>
-<td><p>Defines an instance of the [<strong>Signature</strong>](https://msdn.microsoft.com/library/windows/apps/hh868330) element from the [<strong>CarrierControlSignatureSchema</strong>](https://msdn.microsoft.com/library/windows/apps/hh868341).</p></td>
+<td><a href="element-signature.md">Signature</a> </td>
+<td><p>Defines an instance of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868330"><strong>Signature</strong></a>  element from the <a href="https://msdn.microsoft.com/library/windows/apps/hh868341"><strong>CarrierControlSignatureSchema</strong></a>.</p></td>
 </tr>
 <tr class="odd">
-<td>[SubscriberId](element-subscriberid.md)</td>
+<td><a href="element-subscriberid.md">SubscriberId</a> </td>
 <td><p>Defines a unique subscriber account identifier to which this provisioning attempt applies.</p></td>
 </tr>
 <tr class="even">
-<td>[TrustedCertificate](element-trustedcertificate.md)</td>
+<td><a href="element-trustedcertificate.md">TrustedCertificate</a> </td>
 <td><p>Defines the Subject and Issuer fields from a trustworthy X.509 certificate.</p></td>
 </tr>
 <tr class="odd">
-<td>[TrustedCertificates](element-trustedcertificates.md)</td>
+<td><a href="element-trustedcertificates.md">TrustedCertificates</a> </td>
 <td><p>Defines a list of X.509 certificates whose signatures should be trusted on future provisioning files.</p></td>
 </tr>
 <tr class="even">
-<td>[UserName](element-username.md)</td>
+<td><a href="element-username.md">UserName</a> </td>
 <td><p>Defines optional user name credentials to be presented using HTTP-Auth to log on to the Mobile Network Operator's network when retrieving the provisioning file.</p></td>
 </tr>
 <tr class="odd">
-<td>[WLANProfile](element-wlanprofile.md)</td>
-<td><p>Defines an instance of the [<strong>WLANProfile</strong>](https://msdn.microsoft.com/library/windows/apps/hh868422) element from the [<strong>WLAN</strong>](https://msdn.microsoft.com/library/windows/apps/hh868424) schema.</p></td>
+<td><a href="element-wlanprofile.md">WLANProfile</a> </td>
+<td><p>Defines an instance of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868422"><strong>WLANProfile</strong></a>  element from the <a href="https://msdn.microsoft.com/library/windows/apps/hh868424"><strong>WLAN</strong></a> schema.</p></td>
 </tr>
 <tr class="even">
-<td>[WLANProfiles](element-wlanprofiles.md)</td>
+<td><a href="element-wlanprofiles.md">WLANProfiles</a> </td>
 <td><p>Defines information for a subscriber's WLAN profiles on a Mobile Network Operator's (MNO) network.</p></td>
 </tr>
 </tbody>

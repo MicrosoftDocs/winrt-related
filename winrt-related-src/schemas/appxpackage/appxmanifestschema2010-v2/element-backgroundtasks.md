@@ -91,7 +91,7 @@ Defines an app extensibility point of type **windows.backgroundTasks**. Backgrou
 </thead>
 <tbody>
 <tr class="odd">
-<td>[TaskChoice](element-taskchoice.md)</td>
+<td><a href="element-taskchoice.md">TaskChoice</a> </td>
 <td><p>The abstract task choice element for the XSD substitution group. This can't be declared in the XML.</p></td>
 </tr>
 </tbody>
@@ -114,7 +114,7 @@ Defines an app extensibility point of type **windows.backgroundTasks**. Backgrou
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extension (type: CT_ApplicationExtension)](element-extension.md)</td>
+<td><a href="element-extension.md">Extension (type: CT_ApplicationExtension)</a> </td>
 <td><p>Declares an extensibility point for the app.</p></td>
 </tr>
 </tbody>

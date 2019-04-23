@@ -5,10 +5,7 @@ title: winrt::agile_ref struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/19/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, agile
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -37,17 +34,17 @@ The type of C++/WinRT object or interface an agile reference to which is represe
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[agile_ref::agile_ref constructor](#agilerefagileref-constructor)|Initializes a new instance of the **agile_ref** struct, optionally with a copy of the input data.|
+|[agile_ref::agile_ref constructor](#agile_refagile_ref-constructor)|Initializes a new instance of the **agile_ref** struct, optionally with a copy of the input data.|
 
 ## Member functions
 |Function|Description|
 |------------|-----------------|
-|[agile_ref::get function](#agilerefget-function)|Retrieves a proxy to the target of the **agile_ref** object that may safely be used within any thread context in which **get** is called.|
+|[agile_ref::get function](#agile_refget-function)|Retrieves a proxy to the target of the **agile_ref** object that may safely be used within any thread context in which **get** is called.|
 
 ## Member operators
 |Operator|Description|
 |------------|-----------------|
-|[agile_ref::operator bool](#agilerefoperator-bool)|Checks whether the **agile_ref** object is targeting a C++/WinRT object.|
+|[agile_ref::operator bool](#agile_refoperator-bool)|Checks whether the **agile_ref** object is targeting a C++/WinRT object.|
 
 ## agile_ref::agile_ref constructor
 Initializes a new instance of the **agile_ref** struct, optionally with a copy of the input data.

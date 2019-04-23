@@ -109,7 +109,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ProxyStub](element-proxystub.md)</td>
+<td><a href="element-proxystub.md">ProxyStub</a> </td>
 <td><p>Declares a package extensibility point of type <strong>windows.activatableClass.proxyStub</strong>. A proxy can be composed of one or more interfaces.</p></td>
 </tr>
 </tbody>

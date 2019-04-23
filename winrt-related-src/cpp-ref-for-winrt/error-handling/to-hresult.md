@@ -5,17 +5,14 @@ title: winrt::to_hresult function (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/30/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, check, throw, catch, exception, HRESULT, error, code
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
 # winrt::to_hresult function (C++/WinRT)
-A helper function, for use in a catch block, that turns the last exception thrown into a HRESULT error code. In a catch block that catches [winrt::hresult_error](hresult-error.md), you can get an HRESULT directly from that type by using the [hresult_error::to_abi](hresult-error.md#hresulterrortoabi-function) member function. In other catch blocks, you can call the **winrt::to_hresult** function to get a HRESULT, if the exception that was thrown is any of: **winrt::hresult_error**, **std::bad_alloc**, **std::out_of_range**, **std::invalid_argument**, or **std::exception**.
+A helper function, for use in a catch block, that turns the last exception thrown into a HRESULT error code. In a catch block that catches [winrt::hresult_error](hresult-error.md), you can get an HRESULT directly from that type by using the [hresult_error::to_abi](/uwp/cpp-ref-for-winrt/error-handling/hresult-error#hresult_errorto_abi-function) member function. In other catch blocks, you can call the **winrt::to_hresult** function to get a HRESULT, if the exception that was thrown is any of: **winrt::hresult_error**, **std::bad_alloc**, **std::out_of_range**, **std::invalid_argument**, or **std::exception**.
 
 **to_hresult** is a low-level function that you'll seldom need to use.
 

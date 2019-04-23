@@ -25,7 +25,6 @@ ms.date: 02/20/2018
 This document describes the Windows Ink Services Platform's (WISP) Ink Serialized Format (ISF). The intent of this document is:
 
 - To describe how WISP Ink data is serialized into a stream. This document does not intend to describe a file format. Applications will have their own file format and will store serialized Ink (WISPINK) as a separate stream within their own files. However a single WISPINK stream may be stored in a file for those applications that do not have a file format or need to store ink in individual files. The file extension in this case should be .WNK.
-
 - To explain to a developer reading this specification how to write an interoperable application that uses ISF.
 - To enable someone to examine a stream and using this specification determine if it is a valid ISF stream.
 
@@ -693,8 +692,8 @@ Multi-byte encoding works as follows:
 - This leaves the most significant bit in the byte clear.
 - Multi-byte encoding interprets the most significant bit being clear to mean this is the last byte in a number.
 - Numbers larger than 128 are broken up into 7 bit segments.
-- These 7 bit segments are then each stored in a byte.
-o And the most significant bit in each byte except the last is set.
+- These 7 bit segments are then each stored in a byte. 
+- The most significant bit in each byte except the last is set.
 
 This means that
 
@@ -799,7 +798,6 @@ In the identifier byte we want to store the algorithm type and algorithm specifi
 </tr>
 </table>
 
-
 D indicates data bits required by the algorithm.
 
 X indicates don't care bits. Compression module does not even look at these bits.
@@ -810,15 +808,11 @@ More detailed explanation follows.
 
 In this scheme, we do bit packing of 8 bit unsigned byte values. The last 5 bits contain the index into the cBits-cPads Lookup Table (in the appendix) that determine two numbers (cBits, cPads) that are needed to decompress the compressed array. The meaning of these two numbers is as follows.
 
-
 First we need to store how many bits are required to store the maximum absolute value found in the non-compressed data array. We call this number cBits. In case of BYTE array cBits can at most be 8 bits.
-
 
 In order to decompress the data the decompression routine must know not only the total size of the compressed data, but also the number of items in the original array. The number of items in the original array can be easily inferred if we know the size of the compressed array, the number of bits cBits needed to store one item, and the number of  items cPads that could be stored in the unused bits of the last byte of the compressed array.
 
-
 For example, let us say we have an array of 3 items, each requiring cBits = 2 bits. Non- compressed size is 3 bytes, where each byte contains 2 bits worth of information in the least significant two bits. Compressed size is one byte, where 6 bits contain the compressed information and 2 bits are unused remainder. One could use those two unused bits to store cPads = 1 entry. So by saying that in the two unused remainder bits one could store one entry, we are really saying that only 3 array entries are compressed in this byte.
-
 
 There are 24 possible different combinations of (cBits, cPads) pairs that apply for bit packing of the BYTE array. There additional 8 entries in the cBits-cPads Lookup Table apply to bit packing of the WORD array and 16 more entries apply to bit packing of LONG array. Please refer to the appendix for more detail.
 
@@ -869,9 +863,7 @@ When best compression is requested for property data for a given ink object, the
 
 In this scheme, we do bit packing of signed values. We need to store how many bits are required to store the maximum absolute value found. This can at most be 32, thus we need 5 bits to represent this value. The count of items in the compressed array is stored once per stroke in the serialized format and is passed as an input to the decompression routine. Therefore, this number is not necessary to store with each compressed packet stream.
 
-
 Note that storing 32 actually requires 6 bits, as its binary representation is 100000. However, bit packing a LONG array using 32 bits per entry really means no compression. Therefore we represent 32 by just storing 5 zeros in the data bits. That way, no compression can be treated as special case of PACKET_BIT_PACK algorithm, where the compression algorithm byte is set to zero.
-
 
 Least significant 5 bits will indicate the number of bits required to store the maximum value. If the 6th bit is set, (n-2) delta-delta's are compressed, otherwise, the raw data is compressed.
 
@@ -901,18 +893,15 @@ For those not totally familiar with BNF, the notation is of the form:
 </tr>
 </table>
 
-
 The `<A>` is a "Logical"- non-terminal item, which must be further interpreted. The above example should be read as:
 
-
-- `<A>` can be NULL / nonexistent – this is different from a null string. If `<A>` is NULL then there is no `<A>` - or the literal "a" - terminal - or the literal "a", followed by the terminal item 'NumericData', followed by still more `<A>`.
+> `<A>` can be NULL / nonexistent – this is different from a null string. If `<A>` is NULL then there is no `<A>` - or the literal "a" - terminal - or the literal "a", followed by the terminal item 'NumericData', followed by still more `<A>`.
 
 As can be seen these definitions are recursive and can be used when expressing list, order and relationships between items. The following quick examples demonstrate the above grammar:
 
-- aaaa – is valid since `<A>` is "a" followed by more `<A>` - a1a23a – is valid since `<A>` can be an "a" followed by a number, followed by another "a", followed by yet another number followed by "a"s - aba – is not valid since "b" is not valid in the grammar
+> aaaa – is valid since `<A>` is "a" followed by more `<A>` - a1a23a – is valid since `<A>` can be an "a" followed by a number, followed by another "a", followed by yet another number followed by "a"s - aba – is not valid since "b" is not valid in the grammar.
 
-> [!NOTE]
-> The following grammar is only meant to provide specific details. It is important to understand the entire document not just the BNF section.
+The following grammar is only meant to provide specific details. It is important to understand the entire document not just the BNF section.
 
 <table>
 <tr>
@@ -1851,4 +1840,4 @@ DEFINE_GUID(GUID_TEMPID, 0x2585b91, 0x49b, 0x4750, 0x96, 0x15, 0xdf, 0x89,
 
 ## See Also
 
-[Ink Serialized Format Specification (previous downloadable version)](https://download.microsoft.com/download/0/B/E/0BE8BDD7-E5E8-422A-ABFD-4342ED7AD886/InkSerializedFormat(ISF)Specification.pdf)
+[Ink Serialized Format Specification (original downloadable version)](https://download.microsoft.com/download/0/B/E/0BE8BDD7-E5E8-422A-ABFD-4342ED7AD886/InkSerializedFormat(ISF)Specification.pdf)

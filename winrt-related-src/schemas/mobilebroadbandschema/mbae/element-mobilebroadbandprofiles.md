@@ -70,7 +70,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Internet](element-internet.md)</td>
+<td><a href="element-internet.md">Internet</a> </td>
 <td><div class="alert">
 <strong>Note</strong>  The <strong>Internet</strong> element is deprecated. Starting with Windows 8 and Windows Server 2012, the mobile operator should use Access Point Name (APN) Database to provide Internet APN information.
 </div>
@@ -80,7 +80,7 @@ None.
 <p>Defines the mobile broadband Internet profile to be used for the mobile network.</p></td>
 </tr>
 <tr class="even">
-<td>[Purchase](element-purchase.md)</td>
+<td><a href="element-purchase.md">Purchase</a> </td>
 <td><div class="alert">
 <strong>Note</strong>  The <strong>Purchase</strong> element is deprecated. Starting with Windows 8 and Windows Server 2012, the mobile operator should use Access Point Name (APN) Database to provide Purchase APN information.
 </div>
@@ -109,7 +109,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[NetworkConfiguration](element-networkconfiguration.md)</td>
+<td><a href="element-networkconfiguration.md">NetworkConfiguration</a> </td>
 <td><div class="alert">
 <strong>Note</strong>  The <strong>NetworkConfiguration</strong> element is deprecated. Starting with Windows 8 and Windows Server 2012, the mobile operator should use Access Point Name (APN) Database to provide Purchase and Internet APN information.
 </div>

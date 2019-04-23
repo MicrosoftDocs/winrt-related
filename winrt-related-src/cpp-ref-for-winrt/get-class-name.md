@@ -5,10 +5,7 @@ title: winrt::get_class_name function (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/30/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, runtime, class, name, string
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]

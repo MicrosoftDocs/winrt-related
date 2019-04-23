@@ -86,12 +86,12 @@ Contains any errors from processing the [**Signature**](https://msdn.microsoft.c
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Subject](element-subject.md)</td>
-<td><p>Contains the X.509 certificate subject field of the [<strong>Signature</strong>](https://msdn.microsoft.com/library/windows/apps/hh868330) element from the last provisioning attempt.</p></td>
+<td><a href="element-subject.md">Subject</a> </td>
+<td><p>Contains the X.509 certificate subject field of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868330"><strong>Signature</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
-<td>[Thumbprint](element-thumbprint.md)</td>
-<td><p>Contains the [<strong>SignatureValue</strong>](https://msdn.microsoft.com/library/windows/apps/hh868332) element of the [<strong>Signature</strong>](https://msdn.microsoft.com/library/windows/apps/hh868330) from the last provisioning attempt.</p></td>
+<td><a href="element-thumbprint.md">Thumbprint</a> </td>
+<td><p>Contains the <a href="https://msdn.microsoft.com/library/windows/apps/hh868332"><strong>SignatureValue</strong></a>  element of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868330"><strong>Signature</strong></a> from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>
@@ -113,8 +113,8 @@ Contains any errors from processing the [**Signature**](https://msdn.microsoft.c
 </thead>
 <tbody>
 <tr class="odd">
-<td>[CarrierProvisioningResult](element-carrierprovisioningresult.md)</td>
-<td><p>Contains any errors from processing the [<strong>CarrierProvisioning</strong>](https://msdn.microsoft.com/library/windows/apps/hh868289) element from the last provisioning attempt. [<strong>CarrierProvisioningResult</strong>](element-carrierprovisioningresult.md) is the unique root element for the provisioning results.</p></td>
+<td><a href="element-carrierprovisioningresult.md">CarrierProvisioningResult</a> </td>
+<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868289"><strong>CarrierProvisioning</strong></a>  element from the last provisioning attempt. <a href="element-carrierprovisioningresult.md"><strong>CarrierProvisioningResult</strong></a> is the unique root element for the provisioning results.</p></td>
 </tr>
 </tbody>
 </table>

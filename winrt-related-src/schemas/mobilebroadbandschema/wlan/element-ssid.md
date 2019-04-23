@@ -64,11 +64,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[hex](element-hex.md)</td>
+<td><a href="element-hex.md">hex</a> </td>
 <td><p>Defines the SSID of a wireless LAN in hexadecimal format.</p></td>
 </tr>
 <tr class="even">
-<td>[name (in SSID)](element-1-name.md)</td>
+<td><a href="element-1-name.md">name (in SSID)</a> </td>
 <td><p>Defines the SSID of a wireless LAN in alphanumeric format.</p></td>
 </tr>
 </tbody>
@@ -91,7 +91,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[SSIDConfig](element-ssidconfig.md)</td>
+<td><a href="element-ssidconfig.md">SSIDConfig</a> </td>
 <td><p>Defines one or more service set identifiers (SSID) for a wireless LAN.</p></td>
 </tr>
 </tbody>

@@ -5,10 +5,7 @@ title: winrt::com_array struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/10/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, array, view, com_array, span
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -37,22 +34,22 @@ The type of the values (elements) that the **com_array** views, or spans.
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[com_array::com_array constructor](#comarraycomarray-constructor)|Initializes a new instance of the **com_array** struct with a copy of the input data.|
+|[com_array::com_array constructor](#com_arraycom_array-constructor)|Initializes a new instance of the **com_array** struct with a copy of the input data.|
 
 ## Member functions
 |Function|Description|
 |------------|-----------------|
-|[com_array::clear function](#comarrayclear-function)|Makes the **com_array** object empty.|
+|[com_array::clear function](#com_arrayclear-function)|Makes the **com_array** object empty.|
 
 ## Member operators
 |Operator|Description|
 |------------|-----------------|
-|[com_array::operator= (assignment operator)](#comarrayoperator-assignment-operator)|Assigns a value to the **com_array** object.|
+|[com_array::operator= (assignment operator)](#com_arrayoperator-assignment-operator)|Assigns a value to the **com_array** object.|
 
 ## Free functions
 |Function|Description|
 |------------|-----------------| 
-|[detach_abi function](#detachabi-function)|Detaches a **com_array** object from its raw values without decrementing their reference counts, perhaps to return them to a caller. The **com_array** is cleared.|
+|[detach_abi function](#detach_abi-function)|Detaches a **com_array** object from its raw values without decrementing their reference counts, perhaps to return them to a caller. The **com_array** is cleared.|
 |[swap function](#swap-function)|Swaps the contents of the two **com_array** parameters.|
 
 ## com_array::com_array constructor

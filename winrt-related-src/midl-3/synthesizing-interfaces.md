@@ -65,7 +65,7 @@ In this case, the compiler
 
 So, the MIDL above can be interpreted like this.
 
-```
+```idl
 [exclusiveto(Area)]
 interface IAreaFactory
 {
@@ -93,7 +93,7 @@ runtimeclass Area
 
 In that case, the MIDL can be interpreted like this; with both forms of the `activatable` attribute.
 
-```
+```idl
 [exclusiveto(Area)]
 interface IAreaFactory
 {
@@ -131,7 +131,7 @@ In the case of the MIDL above, the compiler
 
 So, the MIDL above can be interpreted like this.
 
-```
+```idl
 [exclusiveto(Area)]
 interface IArea
 {
@@ -165,7 +165,7 @@ In the case of the MIDL above, the compiler
 
 So, the MIDL above can be interpreted like this.
 
-```
+```idl
 [exclusiveto(Area)]
 interface IAreaStatics
 {
@@ -199,7 +199,7 @@ In the case of the MIDL above, the compiler
 
 So, the MIDL above can be interpreted like this.
 
-```
+```idl
 [exclusiveto(Area)]
 interface IAreaProtected
 {
@@ -219,7 +219,7 @@ In the example below, **Volume** (which derives from **Area**) has the overridea
 ```idl
 runtimeclass Volume : Area
 {
-    overrides void DoOverrideableWork();
+    overridable void DoOverrideableWork();
 }
 ```
 
@@ -233,7 +233,7 @@ In the case of the MIDL above, the compiler
 
 So, the MIDL above can be interpreted like this.
 
-```
+```idl
 [exclusiveto(Area)]
 interface IAreaOverrides
 {

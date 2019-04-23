@@ -5,10 +5,7 @@ title: winrt::to_string function (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 05/21/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -25,7 +22,7 @@ inline std::string to_string(std::wstring_view value);
 
 ### Parameters
 `value`
-A **std::wstring_view** value, or any value of a type convertible to **std::wstring_view**, to convert into a UTF-8 narrow string. This can be a [**winrt::hstring**](hstring.md), thanks to **hstring**'s [conversion operator to **std::wstring_view**](hstring.md#hstringoperator-stdwstringview).
+A **std::wstring_view** value, or any value of a type convertible to **std::wstring_view**, to convert into a UTF-8 narrow string. This can be a [**winrt::hstring**](hstring.md), thanks to **hstring**'s [conversion operator to **std::wstring_view**](/uwp/cpp-ref-for-winrt/hstring#hstringoperator-stdwstring_view).
 
 ### Return value
 A **std::string** containing a UTF-8 narrow string resulting from converting the parameter.

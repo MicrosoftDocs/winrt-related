@@ -60,6 +60,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [observable_map_base struct template](observable-map-base.md) | A base class, for you to derive from, that represents an observable associative collection. |
 | [observable_vector_base struct template](observable-vector-base.md) | A base class, for you to derive from, that represents an observable vector. |
 | [resume_foreground struct](resume-foreground.md) | A struct&mdash;for use within a coroutine&mdash;that you can `co_await` to switch execution to a specific foreground thread. |
+| [static_lifetime marker struct](static-lifetime.md) | A marker type used to opt an activation factory in to static lifetime. |
 | [vector_base struct template](vector-base.md) | A base class, for you to derive from, that represents a non-observable general-purpose collection known as a vector. |
 | [vector_view_base struct template](vector-view-base.md) | A base class from which you can derive to implement your own custom view, or span, of a contiguous sequence of elements in a general-purpose collection. |
 | [weak_ref struct template](weak-ref.md) | A type representing a weak reference to a C++/WinRT object or interface. |
@@ -87,6 +88,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [get_progress_token function](get-progress-token.md) | In a coroutine, use the object returned by **winrt::get_progress_token** to report progress back to a progress handler. |
 | [get_self function template](get-self.md) | A helper function which, given an object of a projected type, retrieves a pointer to the implementation. |
 | [get_trust_level function](get-trust-level.md) | A helper function that retrieves the trust level of a C++/WinRT object. |
+| [guid_of function template](guid-of.md) | A helper function template that retrieves the GUID of a runtime class, coclass, or interface. |
 | [make function template](make.md) | A factory method that returns an instance of a projected type or interface when parameterized with the corresponding implementation type. |
 | [make_agile function template](make-agile.md) | A helper function that returns an [agile_ref](agile-ref.md) object, representing an agile reference to a C++/WinRT object or interface. |
 | [make_self function template](make-self.md) | A factory method that returns a [com_ptr](com-ptr.md) to an instance of the implementation type for a runtime class. |

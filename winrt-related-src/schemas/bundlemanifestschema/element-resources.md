@@ -69,7 +69,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Resource](element-resource.md)</td>
+<td><a href="element-resource.md">Resource</a> </td>
 <td><p>Declares language, resolution scale, and DirectX feature level for a resource in the package.</p></td>
 </tr>
 </tbody>
@@ -92,7 +92,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Package](element-package.md)</td>
+<td><a href="element-package.md">Package</a> </td>
 <td><p>Defines one of the app packages or resource packages in the bundle.</p></td>
 </tr>
 </tbody>

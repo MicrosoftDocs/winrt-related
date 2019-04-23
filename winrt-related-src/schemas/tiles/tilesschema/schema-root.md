@@ -40,24 +40,24 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </thead>
 <tbody>
 <tr class="odd">
-<td>[binding](element-binding.md)</td>
+<td><a href="element-binding.md">binding</a> </td>
 <td><p>Specifies the tile template. Every notification should include one binding element for each supported tile size.</p></td>
 </tr>
 <tr class="even">
-<td>[image](element-image.md)</td>
+<td><a href="element-image.md">image</a> </td>
 <td><p>Specifies an image used in the tile template. The supplied image should match the size and shape requirements for the specific template or image within that template.</p></td>
 </tr>
 <tr class="odd">
-<td>[text](element-text.md)</td>
+<td><a href="element-text.md">text</a> </td>
 <td><p>Specifies text used in the tile template.</p></td>
 </tr>
 <tr class="even">
-<td>[tile](element-tile.md)</td>
-<td><p>Base tile element, which contains a single [<strong>visual</strong>](https://msdn.microsoft.com/library/windows/apps/br230847) element.</p></td>
+<td><a href="element-tile.md">tile</a> </td>
+<td><p>Base tile element, which contains a single <a href="https://msdn.microsoft.com/library/windows/apps/br230847"><strong>visual</strong></a>  element.</p></td>
 </tr>
 <tr class="odd">
-<td>[visual](element-visual.md)</td>
-<td><p>Contains multiple [<strong>binding</strong>](element-binding.md) child elements, each of which defines a tile.</p></td>
+<td><a href="element-visual.md">visual</a> </td>
+<td><p>Contains multiple <a href="element-binding.md"><strong>binding</strong></a>  child elements, each of which defines a tile.</p></td>
 </tr>
 </tbody>
 </table>

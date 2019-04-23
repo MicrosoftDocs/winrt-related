@@ -42,6 +42,9 @@ As a result, when your class description doesn't otherwise reference an
 interface, but when one is needed to implement the class, the MIDL 3.0
 compiler synthesizes and adds interfaces, as necessary.
 
+## The `[contract]` attribute
+You don't use the `contract` attribute in your own declarations. But you might see it in a first-party declaration specifying the name and version of the Windows 10 [API contract](/uwp/extension-sdks/device-families-overview) in which the attributed type and/or member was introduced.
+
 ## The `[method_name]` attribute
 Every Windows Runtime interface has an equivalent Application Binary
 Interface (ABI) interface. The ABI interface requires that all members
@@ -134,7 +137,7 @@ unsealed runtimeclass Block : Windows.UI.Xaml.Documents.TextElement
 
 ## The `[interface_name]` attribute
 The `interface_name` attribute specifies the name and IID of the
-interface that contains the instance members of the class. By default, the compiler assigns interface names using the same unique numbering algorithm that it uses for [methods](#the-methodname-attribute).
+interface that contains the instance members of the class. By default, the compiler assigns interface names using the same unique numbering algorithm that it uses for [methods](#the-method_name-attribute).
 
 In the example below, the `interface_name` attribute applied to the
 runtimeclass specifies the name and IID of the interface that contains

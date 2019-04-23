@@ -64,8 +64,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Keywords](element-keywords.md)</td>
-<td><p>Contains the [System.Keywords](https://msdn.microsoft.com/library/windows/desktop/bb787519) that describe the item.</p></td>
+<td><a href="element-keywords.md">Keywords</a> </td>
+<td><p>Contains the <a href="https://msdn.microsoft.com/library/windows/desktop/bb787519">System.Keywords</a>  that describe the item.</p></td>
 </tr>
 </tbody>
 </table>

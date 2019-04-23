@@ -65,7 +65,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[WLANProfiles](element-wlanprofiles.md)</td>
+<td><a href="element-wlanprofiles.md">WLANProfiles</a> </td>
 <td><p>Defines information for a subscriber's WLAN profiles on a Mobile Network Operator's (MNO) network.</p></td>
 </tr>
 </tbody>

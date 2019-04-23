@@ -71,7 +71,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Rule](element-rule.md)</td>
+<td><a href="element-rule.md">Rule</a> </td>
 <td><p>Specifies which pages in the web context have access to the system's geolocation devices (if the app has permission to access this capability) and access to the clipboard.</p></td>
 </tr>
 </tbody>
@@ -94,7 +94,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Application](element-application.md)</td>
+<td><a href="element-application.md">Application</a> </td>
 <td><p>Represents an app that comprises part of or all of the functionality delivered in the package.</p></td>
 </tr>
 </tbody>

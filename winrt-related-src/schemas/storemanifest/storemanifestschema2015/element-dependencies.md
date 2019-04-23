@@ -66,11 +66,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DirectXDependency](element-directxdependency.md)</td>
+<td><a href="element-directxdependency.md">DirectXDependency</a> </td>
 <td><p>Identifies the minimum DirectX level that a device must support in order for your package to run properly.</p></td>
 </tr>
 <tr class="even">
-<td>[MemoryDependency](element-memorydependency.md)</td>
+<td><a href="element-memorydependency.md">MemoryDependency</a> </td>
 <td><p>Identifies the minimum memory that a device must have in order for your package to run properly.</p>
 <p>For desktop devices, the value indicates the requirement for installed memory. Available memory is not considered.</p>
 <p>For mobile devices, the value indicates the requirements for available memory. The equivalent requirements for installed memory on mobile devices are as follows:</p>
@@ -83,7 +83,7 @@ None.
 <p>For example, if you specify that your UWP app requires 300 MB to run properly, it will only be able to be installed on mobile devices with &gt;1 GB of RAM or on desktop devices with &gt;300 MB of RAM.</p></td>
 </tr>
 <tr class="odd">
-<td>[TargetDeviceFamily](element-targetdevicefamily.md)</td>
+<td><a href="element-targetdevicefamily.md">TargetDeviceFamily</a> </td>
 <td><p>Identifies the device family that your package targets.</p>
 <div class="alert">
 <strong>Important</strong>  In most cases, you should simply specify your device families in the [<strong>TargetDeviceFamily</strong>](https://msdn.microsoft.com/library/windows/apps/dn986903) element of your AppxManifest. Values here should only be used if you need to override that info (using a subset of the values provided there).
@@ -112,7 +112,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[StoreManifest](element-storemanifest.md)</td>
+<td><a href="element-storemanifest.md">StoreManifest</a> </td>
 <td><p>Root node for the StoreManifest schema (for Windows 10).</p></td>
 </tr>
 </tbody>

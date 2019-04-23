@@ -96,7 +96,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Dependencies](element-dependencies.md)</td>
+<td><a href="element-dependencies.md">Dependencies</a> </td>
 <td><p>Declares requirements that a package depends on to be applicable to a device.</p></td>
 </tr>
 </tbody>

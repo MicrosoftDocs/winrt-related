@@ -5,10 +5,7 @@ title: winrt::hresult_access_denied struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/25/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, hresult, error, code, E_ACCESSDENIED
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -32,7 +29,7 @@ struct hresult_access_denied : winrt::hresult_error
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[hresult_access_denied::hresult_access_denied constructor](#hresultaccessdeniedhresultaccessdenied-constructor)|Initializes a new instance of the **hresult_access_denied** struct with a copy of the input data.|
+|[hresult_access_denied::hresult_access_denied constructor](#hresult_access_deniedhresult_access_denied-constructor)|Initializes a new instance of the **hresult_access_denied** struct with a copy of the input data.|
 
 ## hresult_access_denied::hresult_access_denied constructor
 Initializes a new instance of the **hresult_access_denied** struct with a copy of the input data.

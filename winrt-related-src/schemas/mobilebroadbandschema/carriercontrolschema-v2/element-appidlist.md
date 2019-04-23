@@ -76,7 +76,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AppID](element-appid.md)</td>
+<td><a href="element-appid.md">AppID</a> </td>
 <td><p>Defines the application ID used for Packet Data Protocol (PDP) context allowed list.</p></td>
 </tr>
 </tbody>
@@ -99,7 +99,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[PDPContextPolicy](element-pdpcontextpolicy.md)</td>
+<td><a href="element-pdpcontextpolicy.md">PDPContextPolicy</a> </td>
 <td><p>Defines a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>

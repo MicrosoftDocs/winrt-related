@@ -59,7 +59,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Package](element-package.md)</td>
+<td><a href="element-package.md">Package</a> </td>
 <td><p>Defines one of the app packages or resource packages in the bundle.</p></td>
 </tr>
 </tbody>
@@ -82,7 +82,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Bundle](element-bundle.md)</td>
+<td><a href="element-bundle.md">Bundle</a> </td>
 <td><p>Defines the root element of a bundle manifest. The manifest describes the structure and capabilities of the software to the system.</p></td>
 </tr>
 </tbody>

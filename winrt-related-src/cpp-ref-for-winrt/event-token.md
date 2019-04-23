@@ -5,10 +5,7 @@ title: winrt::event_token struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/25/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, delegate, handler
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -32,12 +29,12 @@ struct event_token
 ## Data members
 |Function|Description|
 |------------|-----------------|
-|[event_token::value data member](#eventtokenvalue-data-member)|An opaque numeric value uniquely representing the registration of a delegate with an event.|
+|[event_token::value data member](#event_tokenvalue-data-member)|An opaque numeric value uniquely representing the registration of a delegate with an event.|
 
 ## Member operators
 |Operator|Description|
 |------------|-----------------|
-|[event_token::operator bool](#eventtokenoperator-bool)|Checks whether or not the **event_token** object is valid and initialized.|
+|[event_token::operator bool](#event_tokenoperator-bool)|Checks whether or not the **event_token** object is valid and initialized.|
 
 ## Free operators
 |Operator|Description|

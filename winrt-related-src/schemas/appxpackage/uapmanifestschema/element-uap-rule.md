@@ -140,7 +140,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:ApplicationContentUriRules](element-uap-applicationcontenturirules.md)</td>
+<td><a href="element-uap-applicationcontenturirules.md">uap:ApplicationContentUriRules</a> </td>
 <td><p>Specifies which pages in the web context have access to the system's geolocation devices (if the app has permission to access this capability) and access to the clipboard.</p></td>
 </tr>
 </tbody>

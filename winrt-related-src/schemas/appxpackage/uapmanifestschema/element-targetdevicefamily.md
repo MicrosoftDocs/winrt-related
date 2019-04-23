@@ -100,7 +100,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Dependencies](element-dependencies.md)</td>
+<td><a href="element-dependencies.md">Dependencies</a> </td>
 <td><p>Declares other packages that a package depends on to complete its software.</p></td>
 </tr>
 </tbody>

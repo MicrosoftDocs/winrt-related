@@ -117,7 +117,7 @@ Declares a runtime class associated with the extensibility point.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ActivatableClassAttribute](element-activatableclassattribute.md)</td>
+<td><a href="element-activatableclassattribute.md">ActivatableClassAttribute</a> </td>
 <td><p>Defines an attribute of the class that is stored in the Windows Runtime property store.</p></td>
 </tr>
 </tbody>
@@ -140,7 +140,7 @@ Declares a runtime class associated with the extensibility point.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[InProcessServer](element-inprocessserver.md)</td>
+<td><a href="element-inprocessserver.md">InProcessServer</a> </td>
 <td><p>Declares a package extensibility point of type <strong>windows.activatableClass.inProcessServer</strong>. The app uses a dynamic link library (DLL) that exposes one or more activatable classes.</p></td>
 </tr>
 </tbody>

@@ -32,7 +32,7 @@ Reference documentation for various file types and data serialization methods su
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>[Ink Serialized Format (ISF) Specification](ink-serialized-format.md)</p></td>
+<td><p><a href="ink-serialized-format.md">Ink Serialized Format (ISF) Specification</a> </p></td>
 <td><p>The Ink Serialized Format (ISF) specification used for serializing ink data to a stream.</p></td>
 </tr>
 </tbody>

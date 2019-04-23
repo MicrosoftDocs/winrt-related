@@ -119,7 +119,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:DefaultTile](element-uap-defaulttile.md)</td>
+<td><a href="element-uap-defaulttile.md">uap:DefaultTile</a> </td>
 <td><p>The default tile that represents the app on the Start screen. This tile is displayed when the app is first installed, before it has received any update notifications. When a tile has no notifications to show, the tile reverts to this default.</p></td>
 </tr>
 </tbody>

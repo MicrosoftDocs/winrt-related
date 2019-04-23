@@ -5,10 +5,7 @@ title: winrt::hresult_changed_state struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/25/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, hresult, error, code, E_CHANGED_STATE
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -32,7 +29,7 @@ struct hresult_changed_state : winrt::hresult_error
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[hresult_changed_state::hresult_changed_state constructor](#hresultchangedstatehresultchangedstate-constructor)|Initializes a new instance of the **hresult_changed_state** struct with a copy of the input data.|
+|[hresult_changed_state::hresult_changed_state constructor](#hresult_changed_statehresult_changed_state-constructor)|Initializes a new instance of the **hresult_changed_state** struct with a copy of the input data.|
 
 ## hresult_changed_state::hresult_changed_state constructor
 Initializes a new instance of the **hresult_changed_state** struct with a copy of the input data.

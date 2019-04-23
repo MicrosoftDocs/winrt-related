@@ -70,7 +70,7 @@ Defines all key information used to validate the signature as specified in [XML 
 <tbody>
 <tr class="odd">
 <td><strong>Id</strong></td>
-<td><p>A unique element identifier to be used as a reference to [<strong>KeyInfo</strong>](element-keyinfo.md).</p></td>
+<td><p>A unique element identifier to be used as a reference to <a href="element-keyinfo.md"><strong>KeyInfo</strong></a> .</p></td>
 <td>ID</td>
 <td>No</td>
 <td></td>
@@ -95,12 +95,12 @@ Defines all key information used to validate the signature as specified in [XML 
 </thead>
 <tbody>
 <tr class="odd">
-<td>[KeyValue](element-keyvalue.md)</td>
-<td><p>Defines a single public key as specified in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-keyvalue.md">KeyValue</a> </td>
+<td><p>Defines a single public key as specified in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> .</p></td>
 </tr>
 <tr class="even">
-<td>[X509Data](element-x509data.md)</td>
-<td><p>Defines one or more X.509 compliant signatures as defined in [XML DSIG](https://www.w3.org/TR/xmldsig-core/).</p></td>
+<td><a href="element-x509data.md">X509Data</a> </td>
+<td><p>Defines one or more X.509 compliant signatures as defined in <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> .</p></td>
 </tr>
 </tbody>
 </table>
@@ -122,8 +122,8 @@ Defines all key information used to validate the signature as specified in [XML 
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Signature](element-signature.md)</td>
-<td><p>Defines the root element of an [XML DSIG](https://www.w3.org/TR/xmldsig-core/) compliant signature. [<strong>Signature</strong>](element-signature.md) is the unique root element for a provisioning file signature.</p></td>
+<td><a href="element-signature.md">Signature</a> </td>
+<td><p>Defines the root element of an <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a>  compliant signature. <a href="element-signature.md"><strong>Signature</strong></a> is the unique root element for a provisioning file signature.</p></td>
 </tr>
 </tbody>
 </table>

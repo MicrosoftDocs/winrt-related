@@ -5,10 +5,7 @@ title: winrt::hresult_not_implemented struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/25/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, hresult, error, code, E_NOTIMPL
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -32,7 +29,7 @@ struct hresult_not_implemented : winrt::hresult_error
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[hresult_not_implemented::hresult_not_implemented constructor](#hresultnotimplementedhresultnotimplemented-constructor)|Initializes a new instance of the **hresult_not_implemented** struct with a copy of the input data.|
+|[hresult_not_implemented::hresult_not_implemented constructor](#hresult_not_implementedhresult_not_implemented-constructor)|Initializes a new instance of the **hresult_not_implemented** struct with a copy of the input data.|
 
 ## hresult_not_implemented::hresult_not_implemented constructor
 Initializes a new instance of the **hresult_not_implemented** struct with a copy of the input data.

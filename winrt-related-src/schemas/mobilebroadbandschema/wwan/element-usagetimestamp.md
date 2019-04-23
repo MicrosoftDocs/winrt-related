@@ -79,7 +79,7 @@ Defines a validity date and time of the usage information.
 </tr>
 <tr class="even">
 <td><strong>Format</strong></td>
-<td><p>Defines a format string used to parse <strong>Group</strong>. It contains a subset of the [strftime](https://msdn.microsoft.com/library/fe06s4ak(VS.71).aspx) format codes:</p>
+<td><p>Defines a format string used to parse <strong>Group</strong>. It contains a subset of the <a href="https://msdn.microsoft.com/library/fe06s4ak(VS.71">strftime</a> .aspx) format codes:</p>
 %d Day of month as decimal number (01 – 31)
 %H Hour in 24-hour format (00 – 23)
 %I Hour in 12-hour format (01 – 12)
@@ -132,7 +132,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Fields](element-fields.md)</td>
+<td><a href="element-fields.md">Fields</a> </td>
 <td><p>Defines values that describe the subscriber's plan and data usage.</p></td>
 </tr>
 </tbody>

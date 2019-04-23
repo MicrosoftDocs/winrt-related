@@ -104,8 +104,8 @@ Declares actions to take when a appointment is launched.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[LaunchAction (in AppointmentsProviderLaunchActions)](element-1-launchaction.md)</td>
-<td><p>Describes an [<strong>AppointmentsProviderLaunchActions</strong>](element-appointmentsproviderlaunchactions.md) content action.</p></td>
+<td><a href="element-1-launchaction.md">LaunchAction (in AppointmentsProviderLaunchActions)</a> </td>
+<td><p>Describes an <a href="element-appointmentsproviderlaunchactions.md"><strong>AppointmentsProviderLaunchActions</strong></a>  content action.</p></td>
 </tr>
 </tbody>
 </table>
@@ -127,7 +127,7 @@ Declares actions to take when a appointment is launched.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AppointmentsProvider](element-appointmentsprovider.md)</td>
+<td><a href="element-appointmentsprovider.md">AppointmentsProvider</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.appointmentsProvider</strong>.</p></td>
 </tr>
 </tbody>

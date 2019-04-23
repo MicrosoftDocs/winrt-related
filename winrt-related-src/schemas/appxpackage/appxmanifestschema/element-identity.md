@@ -85,7 +85,7 @@ Defines a globally unique identifier for a package. A package identity is repres
 </tr>
 <tr class="odd">
 <td><strong>Publisher</strong></td>
-<td><p>Describes the publisher information. The <strong>Publisher</strong> attribute must match the publisher subject information of the certificate used to sign a package. For more information see [Packaging apps](https://docs.microsoft.com/en-us/windows/uwp/packaging/index)</p></td>
+<td><p>Describes the publisher information. The <strong>Publisher</strong> attribute must match the publisher subject information of the certificate used to sign a package. For more information see <a href="https://docs.microsoft.com/en-us/windows/uwp/packaging/index">Packaging apps</a> </p></td>
 <td>A string between 1 and 8192 characters in length that fits the regular expression of a distinguished name : &quot;(CN|L|O|OU|E|C|S|STREET|T|G|I|SN|DC|SERIALNUMBER|(OID\.(0|[1-9][0-9]*)(\.(0|[1-9][0-9]*))+))=(([^,+=&quot;&lt;&gt;#;])+|&quot;.*&quot;)(, ((CN|L|O|OU|E|C|S|STREET|T|G|I|SN|DC|SERIALNUMBER|(OID\.(0|[1-9][0-9]*)(\.(0|[1-9][0-9]*))+))=(([^,+=&quot;&lt;&gt;#;])+|&quot;.*&quot;)))*&quot;. Further, semantic validation ensures that the string is compliant with CertNameToStr Windows API implementation of X.500 rules.</td>
 <td>Yes</td>
 <td></td>
@@ -128,7 +128,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Package](element-package.md)</td>
+<td><a href="element-package.md">Package</a> </td>
 <td><p>Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system.</p></td>
 </tr>
 </tbody>

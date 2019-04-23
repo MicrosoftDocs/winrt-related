@@ -75,7 +75,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DNSRetrySettings](element-dnsretrysettings.md)</td>
+<td><a href="element-dnsretrysettings.md">DNSRetrySettings</a> </td>
 <td><p>Defines the network settings for DNS retries in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>

@@ -89,19 +89,19 @@ Defines the properties and security settings of a subscriber's WLAN connection p
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AssociatedPlan](element-associatedplan.md)</td>
-<td><p>Contains the name of the subscriber's data plan. It must match the <strong>Name</strong> attribute of a [<strong>Plan</strong>](https://msdn.microsoft.com/library/windows/apps/hh868373) in the same XML document.</p></td>
+<td><a href="element-associatedplan.md">AssociatedPlan</a> </td>
+<td><p>Contains the name of the subscriber's data plan. It must match the <strong>Name</strong> attribute of a <a href="https://msdn.microsoft.com/library/windows/apps/hh868373"><strong>Plan</strong></a>  in the same XML document.</p></td>
 </tr>
 <tr class="even">
-<td>[MSM](element-msm.md)</td>
+<td><a href="element-msm.md">MSM</a> </td>
 <td><p>Defines various media-specific module (MSM) settings for this profile on a WLAN.</p></td>
 </tr>
 <tr class="odd">
-<td>[SSIDConfig](element-ssidconfig.md)</td>
+<td><a href="element-ssidconfig.md">SSIDConfig</a> </td>
 <td><p>Defines one or more service set identifiers (SSID) for a wireless LAN.</p></td>
 </tr>
 <tr class="even">
-<td>[name (type: NameType)](element-name.md)</td>
+<td><a href="element-name.md">name (type: NameType)</a> </td>
 <td><p>Defines the case sensitive name of a wireless LAN profile.</p></td>
 </tr>
 </tbody>

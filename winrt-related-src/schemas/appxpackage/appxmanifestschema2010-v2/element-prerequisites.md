@@ -65,11 +65,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[OSMaxVersionTested](element-osmaxversiontested.md)</td>
+<td><a href="element-osmaxversiontested.md">OSMaxVersionTested</a> </td>
 <td><p>This should be filled in by the developer with the highest version of Windows that the package was tested on. This field is required. Windows will not block installation of the package on versions of the OS higher than the value provided in this field. When an app is executed, Windows will compare this field to the actual OS version. If the value provided in this field is less than the current OS version, Windows may provide behavior compatible with the highest tested OS version for some or all APIs. If the value provided in this field is greater than or equal to the current OS version, Windows will not apply any compatibility changes to APIs.</p></td>
 </tr>
 <tr class="even">
-<td>[OSMinVersion](element-osminversion.md)</td>
+<td><a href="element-osminversion.md">OSMinVersion</a> </td>
 <td><p>The minimum version of the operating system that the package requires.</p></td>
 </tr>
 </tbody>
@@ -92,7 +92,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Package](element-package.md)</td>
+<td><a href="element-package.md">Package</a> </td>
 <td><p>Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system.</p></td>
 </tr>
 </tbody>

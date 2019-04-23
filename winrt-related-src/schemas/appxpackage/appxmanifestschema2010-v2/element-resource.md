@@ -68,14 +68,14 @@ Declares a language for the resource contained in the package. The scale and Dir
 <tbody>
 <tr class="odd">
 <td><strong>Language</strong></td>
-<td><p>The language for the resource contained in the package. The syntax of this attribute is defined by the IETF's [BCP47: Tags for Identifying Languages](https://www.rfc-editor.org/rfc/bcp/bcp47.txt).</p></td>
+<td><p>The language for the resource contained in the package. The syntax of this attribute is defined by the IETF's <a href="https://www.rfc-editor.org/rfc/bcp/bcp47.txt">BCP47: Tags for Identifying Languages</a> .</p></td>
 <td>language</td>
 <td>No</td>
 <td></td>
 </tr>
 <tr class="even">
 <td><strong>m:DXFeatureLevel</strong></td>
-<td><p>The DirectX [feature level](https://msdn.microsoft.com/library/windows/desktop/ff476876#overview) of the resource from the manifest's Resources\Resource field.</p></td>
+<td><p>The DirectX <a href="https://msdn.microsoft.com/library/windows/desktop/ff476876#overview">feature level</a>  of the resource from the manifest's Resources\Resource field.</p></td>
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li>dx9</li>
@@ -87,7 +87,7 @@ Declares a language for the resource contained in the package. The scale and Dir
 </tr>
 <tr class="odd">
 <td><strong>m:Scale</strong></td>
-<td><p>The [<strong>resolution scale</strong>](https://msdn.microsoft.com/library/windows/apps/br226165) of the resource.</p></td>
+<td><p>The <a href="https://msdn.microsoft.com/library/windows/apps/br226165"><strong>resolution scale</strong></a>  of the resource.</p></td>
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li>100</li>
@@ -125,7 +125,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Resources](element-resources.md)</td>
+<td><a href="element-resources.md">Resources</a> </td>
 <td><p>Declares languages for the resources that the package contains. Every package must declare at least one language for resources. The scale and DirectX feature level attributes are common for all resources in the package.</p></td>
 </tr>
 </tbody>

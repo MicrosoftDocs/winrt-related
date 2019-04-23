@@ -84,11 +84,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[PDPContextPolicy](element-pdpcontextpolicy.md)</td>
+<td><a href="element-pdpcontextpolicy.md">PDPContextPolicy</a> </td>
 <td><p>Defines a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file.</p></td>
 </tr>
 <tr class="even">
-<td>[TetheringProfile](element-tetheringprofile.md)</td>
+<td><a href="element-tetheringprofile.md">TetheringProfile</a> </td>
 <td><p>Defines the tethering profile in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>

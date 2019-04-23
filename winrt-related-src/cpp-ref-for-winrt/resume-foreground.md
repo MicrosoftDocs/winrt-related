@@ -5,10 +5,7 @@ title: winrt::resume_foreground struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 05/17/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -33,7 +30,7 @@ struct resume_foreground
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[resume_foreground::resume_foreground constructor](#resumeforegroundresumeforeground-constructor)|Initializes a new instance of the **resume_foreground** struct.|
+|[resume_foreground::resume_foreground constructor](#resume_foregroundresume_foreground-constructor)|Initializes a new instance of the **resume_foreground** struct.|
 
 ## resume_foreground::resume_foreground constructor
 Initializes a new instance of the **resume_foreground** struct.

@@ -90,7 +90,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:ManagedUrls](element-uap-managedurls.md)</td>
+<td><a href="element-uap-managedurls.md">uap:ManagedUrls</a> </td>
 <td><p>Provides support for multiple URLs. Allows plugins to specify multiple URLs to which they may send cookies.</p></td>
 </tr>
 </tbody>

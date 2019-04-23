@@ -63,7 +63,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[AppointmentsProviderLaunchActions](element-appointmentsproviderlaunchactions.md)</td>
+<td><a href="element-appointmentsproviderlaunchactions.md">AppointmentsProviderLaunchActions</a> </td>
 <td><p>Declares actions to take when a appointment is launched.</p></td>
 </tr>
 </tbody>
@@ -86,7 +86,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extension](element-extension.md)</td>
+<td><a href="element-extension.md">Extension</a> </td>
 <td><p>Declares an extensibility point for the app.</p></td>
 </tr>
 </tbody>

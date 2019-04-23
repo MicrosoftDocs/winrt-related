@@ -133,7 +133,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Fields](element-fields.md)</td>
+<td><a href="element-fields.md">Fields</a> </td>
 <td><p>Defines values that describe the subscriber's plan and data usage.</p></td>
 </tr>
 </tbody>

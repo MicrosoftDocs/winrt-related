@@ -62,11 +62,11 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[RefreshParameters](element-refreshparameters.md)</td>
+<td><a href="element-refreshparameters.md">RefreshParameters</a> </td>
 <td><p>Defines parameters to be used when refreshing the provisioning file contents.</p></td>
 </tr>
 <tr class="even">
-<td>[TrustedCertificates](element-trustedcertificates.md)</td>
+<td><a href="element-trustedcertificates.md">TrustedCertificates</a> </td>
 <td><p>Defines a list of X.509 certificates whose signatures should be trusted on future provisioning files.</p></td>
 </tr>
 </tbody>
@@ -89,8 +89,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[CarrierProvisioning](element-carrierprovisioning.md)</td>
-<td><p>Defines the properties and settings in a subscriber's carrier provisioning file. [<strong>CarrierProvisioning</strong>](element-carrierprovisioning.md) is the unique root element of the provisioning file.</p></td>
+<td><a href="element-carrierprovisioning.md">CarrierProvisioning</a> </td>
+<td><p>Defines the properties and settings in a subscriber's carrier provisioning file. <a href="element-carrierprovisioning.md"><strong>CarrierProvisioning</strong></a>  is the unique root element of the provisioning file.</p></td>
 </tr>
 </tbody>
 </table>

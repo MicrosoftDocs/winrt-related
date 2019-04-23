@@ -63,7 +63,7 @@ Defines carrier specific information required to activate the subscriber's accou
 <tbody>
 <tr class="odd">
 <td><strong>Delay</strong></td>
-<td><p>Defines the time until the next activation attempt. Duration time format is defined by [ISO 8601](https://www.iso.org/iso/catalogue_detail?csnumber=40874).</p></td>
+<td><p>Defines the time until the next activation attempt. Duration time format is defined by <a href="https://www.iso.org/iso/catalogue_detail?csnumber=40874">ISO 8601</a> .</p></td>
 <td>P[n]Y[n]M[n]DT[n]H[n]M[n]S duration</td>
 <td>No</td>
 <td>PT0S</td>
@@ -77,7 +77,7 @@ Defines carrier specific information required to activate the subscriber's accou
 </tr>
 <tr class="odd">
 <td><strong>RetryInterval</strong></td>
-<td><p>Defines the time between activation attempts. Duration time format is defined by [ISO 8601](https://www.iso.org/iso/catalogue_detail?csnumber=40874).</p></td>
+<td><p>Defines the time between activation attempts. Duration time format is defined by <a href="https://www.iso.org/iso/catalogue_detail?csnumber=40874">ISO 8601</a> .</p></td>
 <td>P[n]Y[n]M[n]DT[n]H[n]M[n]S duration</td>
 <td>No</td>
 <td>PT1M</td>
@@ -102,7 +102,7 @@ Defines carrier specific information required to activate the subscriber's accou
 </thead>
 <tbody>
 <tr class="odd">
-<td>[CarrierSpecificData](element-carrierspecificdata.md)</td>
+<td><a href="element-carrierspecificdata.md">CarrierSpecificData</a> </td>
 <td><p>Defines carrier specific data not specified by Windows.</p></td>
 </tr>
 </tbody>

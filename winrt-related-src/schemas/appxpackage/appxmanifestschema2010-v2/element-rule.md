@@ -110,7 +110,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ApplicationContentUriRules](element-applicationcontenturirules.md)</td>
+<td><a href="element-applicationcontenturirules.md">ApplicationContentUriRules</a> </td>
 <td><p>Specifies which pages in the web context have access to the system's geolocation devices (if the app has permission to access this capability) and access to the clipboard.</p></td>
 </tr>
 </tbody>

@@ -68,15 +68,15 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[DNSRetrySettings](element-dnsretrysettings.md)</td>
+<td><a href="element-dnsretrysettings.md">DNSRetrySettings</a> </td>
 <td><p>Defines the network settings for DNS retries in a subscriber's carrier provisioning file.</p></td>
 </tr>
 <tr class="even">
-<td>[IPv4LinkMTU](element-ipv4linkmtu.md)</td>
+<td><a href="element-ipv4linkmtu.md">IPv4LinkMTU</a> </td>
 <td><p>Defines the maximum transmission unit (MTU) for an IPv4 link. It must be a positive integer between 1280 and 1500.</p></td>
 </tr>
 <tr class="odd">
-<td>[IPv6LinkMTU](element-ipv6linkmtu.md)</td>
+<td><a href="element-ipv6linkmtu.md">IPv6LinkMTU</a> </td>
 <td><p>Defines the maximum transmission unit (MTU) for an IPv6 link. It must be a positive integer between 1280 and 1500.</p></td>
 </tr>
 </tbody>
@@ -99,7 +99,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[CarrierNetworkMetadata](element-carriernetworkmetadata.md)</td>
+<td><a href="element-carriernetworkmetadata.md">CarrierNetworkMetadata</a> </td>
 <td><p>Defines the network properties and settings in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>

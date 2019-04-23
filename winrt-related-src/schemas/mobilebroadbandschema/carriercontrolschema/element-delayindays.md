@@ -70,7 +70,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[RefreshParameters](element-refreshparameters.md)</td>
+<td><a href="element-refreshparameters.md">RefreshParameters</a> </td>
 <td><p>Defines parameters to be used when refreshing the provisioning file contents.</p></td>
 </tr>
 </tbody>

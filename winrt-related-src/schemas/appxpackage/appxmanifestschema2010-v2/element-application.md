@@ -132,15 +132,15 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 </thead>
 <tbody>
 <tr class="odd">
-<td>[ApplicationContentUriRules](element-applicationcontenturirules.md)</td>
+<td><a href="element-applicationcontenturirules.md">ApplicationContentUriRules</a> </td>
 <td><p>Specifies which pages in the web context have access to the system's geolocation devices (if the app has permission to access this capability) and access to the clipboard.</p></td>
 </tr>
 <tr class="even">
-<td>[Extensions (type: CT_ApplicationExtensions)](element-1-extensions.md)</td>
+<td><a href="element-1-extensions.md">Extensions (type: CT_ApplicationExtensions)</a> </td>
 <td><p>Defines one or more extensibility points for the app.</p></td>
 </tr>
 <tr class="odd">
-<td>[VisualElementsChoice](element-visualelementschoice.md)</td>
+<td><a href="element-visualelementschoice.md">VisualElementsChoice</a> </td>
 <td><p>The abstract visual elements choice element for the XSD substitution group. This can't be declared in the XML.</p></td>
 </tr>
 </tbody>
@@ -163,7 +163,7 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Applications](element-applications.md)</td>
+<td><a href="element-applications.md">Applications</a> </td>
 <td><p>Represents one or more apps that comprise the package.</p></td>
 </tr>
 </tbody>

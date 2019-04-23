@@ -118,11 +118,11 @@ Defines an app extensibility point of type **windows.backgroundTasks**. Backgrou
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Task](element-task.md)</td>
+<td><a href="element-task.md">Task</a> </td>
 <td><p>The background task associated with the app extensibility point.</p></td>
 </tr>
 <tr class="even">
-<td>[uap:Task](element-uap-task.md)</td>
+<td><a href="element-uap-task.md">uap:Task</a> </td>
 <td><p>The background task associated with the app extensibility point.</p></td>
 </tr>
 </tbody>
@@ -145,7 +145,7 @@ Defines an app extensibility point of type **windows.backgroundTasks**. Backgrou
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Extension (global)](element-1-extension.md)</td>
+<td><a href="element-1-extension.md">Extension (global)</a> </td>
 <td><p>Declares an extensibility point for the package.</p></td>
 </tr>
 </tbody>
@@ -155,7 +155,7 @@ Defines an app extensibility point of type **windows.backgroundTasks**. Backgrou
 
 ## Remarks
 
-Extensions of type "windows.backgroundTask" must specify either a StartPage or EntryPoint attribute in the Extension element. For more info (and an example) see [**How to declare background tasks in the application manifest (C#/VB/C++ and XAML)**](https://msdn.microsoft.com/library/windows/apps/xaml/hh977049).
+Extensions of type "windows.backgroundTask" must specify either a StartPage or EntryPoint attribute in the Extension element. For more info (and an example) see [Declare background tasks in the application manifest](https://docs.microsoft.com/windows/uwp/launch-resume/declare-background-tasks-in-the-application-manifest).
 
 ## Requirements
 

@@ -69,7 +69,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Property](element-property.md)</td>
+<td><a href="element-property.md">Property</a> </td>
 <td><p>A property that describes the item.</p></td>
 </tr>
 </tbody>

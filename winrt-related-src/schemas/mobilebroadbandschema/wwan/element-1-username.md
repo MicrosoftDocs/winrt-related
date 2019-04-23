@@ -84,7 +84,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[UserLogonCred](element-1-userlogoncred.md)</td>
+<td><a href="element-1-userlogoncred.md">UserLogonCred</a> </td>
 <td><p>Defines logon credentials for a connection.</p></td>
 </tr>
 </tbody>

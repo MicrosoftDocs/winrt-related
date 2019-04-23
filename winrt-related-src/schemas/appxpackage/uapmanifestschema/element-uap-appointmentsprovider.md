@@ -81,7 +81,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:AppointmentsProviderLaunchActions](element-uap-appointmentsproviderlaunchactions.md)</td>
+<td><a href="element-uap-appointmentsproviderlaunchactions.md">uap:AppointmentsProviderLaunchActions</a> </td>
 <td><p>Declares actions to take when a appointment is launched.</p></td>
 </tr>
 </tbody>
@@ -104,7 +104,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[uap:Extension](element-uap-extension.md)</td>
+<td><a href="element-uap-extension.md">uap:Extension</a> </td>
 <td><p>Declares an extensibility point for the app.</p></td>
 </tr>
 </tbody>

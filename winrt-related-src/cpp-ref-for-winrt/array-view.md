@@ -48,30 +48,30 @@ The type of the values (elements) that the **array_view** views, or spans.
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[array_view::array_view constructor](#arrayviewarrayview-constructor)|Initializes a new instance of the **array_view** struct as a view over (and not a copy of) the input data.|
+|[array_view::array_view constructor](#array_viewarray_view-constructor)|Initializes a new instance of the **array_view** struct as a view over (and not a copy of) the input data.|
 
 ## Member functions
 |Function|Description|
 |------------|-----------------|
-|[array_view::at function](#arrayviewat-function)|Returns a reference to the element at the specified position within the **array_view** object.|
-|[array_view::back function](#arrayviewback-function)|Returns a reference to the last element in the **array_view** object.|
-|[array_view::begin function](#arrayviewbegin-function)|Returns an iterator to the first element in the **array_view** object.|
-|[array_view::cbegin function](#arrayviewcbegin-function)|Returns a const iterator to the first element in the **array_view** object.|
-|[array_view::cend function](#arrayviewcend-function)|Returns a const iterator to one beyond the end of (one beyond the last element in) the **array_view** object.|
-|[array_view::crbegin function](#arrayviewcrbegin-function)|Returns a const reverse iterator to one beyond the end of (one beyond the last element in) the **array_view** object.|
-|[array_view::crend function](#arrayviewcrend-function)|Returns a const reverse iterator to the first element in the **array_view** object.|
-|[array_view::data function](#arrayviewdata-function)|Returns a pointer to the underlying data being viewed by the **array_view** object.|
-|[array_view::empty function](#arrayviewempty-function)|Returns a value indicating whether the **array_view** object is empty (is a view on zero elements).|
-|[array_view::end function](#arrayviewend-function)|Returns an iterator to one beyond the end of (one beyond the last element in) the **array_view** object.|
-|[array_view::front function](#arrayviewfront-function)|Returns a reference to the first element in the **array_view** object.|
-|[array_view::rbegin function](#arrayviewrbegin-function)|Returns a reverse iterator to one beyond the end of (one beyond the last element in) the **array_view** object.|
-|[array_view::rend function](#arrayviewrend-function)|Returns a reverse iterator to the first element in the **array_view** object.|
-|[array_view::size function](#arrayviewsize-function)|Returns the number of elements in the **array_view** object.|
+|[array_view::at function](#array_viewat-function)|Returns a reference to the element at the specified position within the **array_view** object.|
+|[array_view::back function](#array_viewback-function)|Returns a reference to the last element in the **array_view** object.|
+|[array_view::begin function](#array_viewbegin-function)|Returns an iterator to the first element in the **array_view** object.|
+|[array_view::cbegin function](#array_viewcbegin-function)|Returns a const iterator to the first element in the **array_view** object.|
+|[array_view::cend function](#array_viewcend-function)|Returns a const iterator to one beyond the end of (one beyond the last element in) the **array_view** object.|
+|[array_view::crbegin function](#array_viewcrbegin-function)|Returns a const reverse iterator to one beyond the end of (one beyond the last element in) the **array_view** object.|
+|[array_view::crend function](#array_viewcrend-function)|Returns a const reverse iterator to the first element in the **array_view** object.|
+|[array_view::data function](#array_viewdata-function)|Returns a pointer to the underlying data being viewed by the **array_view** object.|
+|[array_view::empty function](#array_viewempty-function)|Returns a value indicating whether the **array_view** object is empty (is a view on zero elements).|
+|[array_view::end function](#array_viewend-function)|Returns an iterator to one beyond the end of (one beyond the last element in) the **array_view** object.|
+|[array_view::front function](#array_viewfront-function)|Returns a reference to the first element in the **array_view** object.|
+|[array_view::rbegin function](#array_viewrbegin-function)|Returns a reverse iterator to one beyond the end of (one beyond the last element in) the **array_view** object.|
+|[array_view::rend function](#array_viewrend-function)|Returns a reverse iterator to the first element in the **array_view** object.|
+|[array_view::size function](#array_viewsize-function)|Returns the number of elements in the **array_view** object.|
 
 ## Member operators
 |Operator|Description| 
 |------------|-----------------|
-|[array_view::operator[] &lpar;subscript operator)](#arrayviewoperator-lparsubscript-operator)|Returns a reference to the element at the specified position within the **array_view** object.|
+|[array_view::operator[] &lpar;subscript operator)](#array_viewoperator-subscript-operator)|Returns a reference to the element at the specified position within the **array_view** object.|
 
 ## Free operators
 |Operator|Description| 
@@ -84,7 +84,7 @@ The type of the values (elements) that the **array_view** views, or spans.
 |[operator>= (greater-than-or-equal-to operator)](#operator-greater-than-or-equal-to-operator)|Returns a value indicating whether the first parameter is greater than or equal to the second parameter.|
 
 ## Iterators
-An **array_view** is a range, and that range is defined by the [array_view::begin](#arrayviewbegin-function) and [array_view::end](#arrayviewend-function) member functions, each of which returns an iterator (also see [array_view::cbegin](#arrayviewcbegin-function) and [array_view::cend](#arrayviewcend-function)). Because of this, you can enumerate the characters in an **array_view** object with either a range-based `for` statement, or with the **std::for_each** template function.
+An **array_view** is a range, and that range is defined by the [array_view::begin](#array_viewbegin-function) and [array_view::end](#array_viewend-function) member functions, each of which returns an iterator (also see [array_view::cbegin](#array_viewcbegin-function) and [array_view::cend](#array_viewcend-function)). Because of this, you can enumerate the characters in an **array_view** object with either a range-based `for` statement, or with the **std::for_each** template function.
 
 ```cppwinrt
 #include <iostream>

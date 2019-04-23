@@ -75,7 +75,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[authEncryption](element-authencryption.md)</td>
+<td><a href="element-authencryption.md">authEncryption</a> </td>
 <td><p>Defines the authentication and encryption pair to be used for this profile on a WLAN.</p></td>
 </tr>
 </tbody>

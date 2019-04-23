@@ -5,10 +5,7 @@ title: winrt::hresult_error struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/25/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, hresult, error, code
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -32,30 +29,30 @@ struct hresult_error
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[hresult_error::hresult_error constructor](#hresulterrorhresulterror-constructor)|Initializes a new instance of the **hresult_error** struct with a copy of the input data.|
+|[hresult_error::hresult_error constructor](#hresult_errorhresult_error-constructor)|Initializes a new instance of the **hresult_error** struct with a copy of the input data.|
 
 ## Types
 |Constructor|Description|
 |------------|-----------------|
-|[hresult_error::from_abi_t type](#hresulterrorfromabit-type)|The type of the [hresult_error::from_abi](#hresulterrorfromabit-type) static data member.|
+|[hresult_error::from_abi_t type](#hresult_errorfrom_abi_t-type)|The type of the [hresult_error::from_abi](#hresult_errorfrom_abi_t-type) static data member.|
 
 ## Static data members
 |Function|Description|
 |------------|-----------------|
-|[hresult_error::from_abi static data member](#hresulterrorfromabi-static-data-member)|An instance of type [hresult_error::from_abi_t](#hresulterrorfromabit-type), which can be passed to the constructor of **hresult_error** (or a derived type) to indicate that the constructor should try to retrieve restricted error info.|
+|[hresult_error::from_abi static data member](#hresult_errorfrom_abi-static-data-member)|An instance of type [hresult_error::from_abi_t](#hresult_errorfrom_abi_t-type), which can be passed to the constructor of **hresult_error** (or a derived type) to indicate that the constructor should try to retrieve restricted error info.|
 
 ## Member functions
 |Function|Description|
 |------------|-----------------|
-|[hresult_error::code function](#hresulterrorcode-function)|Retrieves the code for the error represented by the **hresult_error** object.|
-|[hresult_error::info function](#hresulterrorinfo-function)|Retrieves the restricted error info for the error represented by the **hresult_error** object.|
-|[hresult_error::message function](#hresulterrormessage-function)|Retrieves the message for the error represented by the **hresult_error** object.|
-|[hresult_error::to_abi function](#hresulterrortoabi-function)|Sets the restricted error information object for the current thread, and returns the code for the error represented by the **hresult_error** object.|
+|[hresult_error::code function](#hresult_errorcode-function)|Retrieves the code for the error represented by the **hresult_error** object.|
+|[hresult_error::info function](#hresult_errorinfo-function)|Retrieves the restricted error info for the error represented by the **hresult_error** object.|
+|[hresult_error::message function](#hresult_errormessage-function)|Retrieves the message for the error represented by the **hresult_error** object.|
+|[hresult_error::to_abi function](#hresult_errorto_abi-function)|Sets the restricted error information object for the current thread, and returns the code for the error represented by the **hresult_error** object.|
 
 ## Member operators
 |Operator|Description|
 |------------|-----------------|
-|[hresult_error::operator= (assignment operator)](#hresulterroroperator-assignment-operator)|Assigns a value to the **hresult_error** object.|
+|[hresult_error::operator= (assignment operator)](#hresult_erroroperator-assignment-operator)|Assigns a value to the **hresult_error** object.|
 
 ## hresult_error::hresult_error constructor
 Initializes a new instance of the **hresult_error** struct with a copy of the input data.
@@ -106,7 +103,7 @@ winrt::com_ptr<::IRestrictedErrorInfo> const& info() const noexcept;
 A [winrt::com_ptr](../com-ptr.md) of [IRestrictedErrorInfo](https://msdn.microsoft.com/library/br224587) containing the restricted error info.
 
 ## hresult_error::from_abi static data member
-An instance of type [hresult_error::from_abi_t](#hresulterrorfromabit-type), which can be passed to the constructor of **hresult_error** (or a derived type) to indicate that the constructor should try to retrieve restricted error info.
+An instance of type [hresult_error::from_abi_t](#hresult_errorfrom_abi_t-type), which can be passed to the constructor of **hresult_error** (or a derived type) to indicate that the constructor should try to retrieve restricted error info.
 
 ### Syntax
 ```cppwinrt
@@ -114,7 +111,7 @@ static constexpr winrt::hresult_error::from_abi_t from_abi{};
 ```
 
 ## hresult_error::from_abi_t type
-The type of the [hresult_error::from_abi](#hresulterrorfromabi-static-data-member) static data member.
+The type of the [hresult_error::from_abi](#hresult_errorfrom_abi-static-data-member) static data member.
 
 ### Syntax
 ```cppwinrt

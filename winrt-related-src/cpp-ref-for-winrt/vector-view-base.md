@@ -5,10 +5,7 @@ title: winrt::vector_view_base struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 08/25/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, vector, view, collection
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -44,16 +41,16 @@ A type that provides versioning policy and services to the collection.
 ## Member functions
 |Function|Description|
 |------------|-----------------|
-|[vector_view_base::First function](#vectorviewbasefirst-function)|Retrieves an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) representing the first element viewed by the **vector_view_base** object.|
-|[vector_view_base::GetAt function](#vectorviewbasegetat-function)|Retrieves the element at the specified index viewed by the **vector_view_base** object.|
-|[vector_view_base::GetMany function](#vectorviewbasegetmany-function)|Retrieves a collection of elements viewed by the **vector_view_base** object beginning at the given index.|
-|[vector_view_base::IndexOf function](#vectorviewbaseindexof-function)|Retrieves the index of a specified element viewed by the **vector_view_base** object.|
-|[vector_view_base::Size function](#vectorviewbasesize-function)|Retrieves the number of elements viewed by the **vector_view_base** object.|
+|[vector_view_base::First function](#vector_view_basefirst-function)|Retrieves an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) representing the first element viewed by the **vector_view_base** object.|
+|[vector_view_base::GetAt function](#vector_view_basegetat-function)|Retrieves the element at the specified index viewed by the **vector_view_base** object.|
+|[vector_view_base::GetMany function](#vector_view_basegetmany-function)|Retrieves a collection of elements viewed by the **vector_view_base** object beginning at the given index.|
+|[vector_view_base::IndexOf function](#vector_view_baseindexof-function)|Retrieves the index of a specified element viewed by the **vector_view_base** object.|
+|[vector_view_base::Size function](#vector_view_basesize-function)|Retrieves the number of elements viewed by the **vector_view_base** object.|
 
 ## Iterators
 A **vector_view_base** is a range, and that range is defined by internal free functions (each of which retrieves an iterator) that are compatible with standard language features. Because of this, you can enumerate the elements viewed by a **vector_view_base** object with a range-based `for` statement.
 
-You can also retrieve an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) from the [vector_view_base::First](#vectorviewbasefirst-function) function, and use that to iterate through the elements viewed by a **vector_view_base** object.
+You can also retrieve an [**IIterator**](/uwp/api/windows.foundation.collections.iiterator_t_) from the [vector_view_base::First](#vector_view_basefirst-function) function, and use that to iterate through the elements viewed by a **vector_view_base** object.
 
 ```cppwinrt
 ...

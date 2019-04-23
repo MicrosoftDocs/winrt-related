@@ -68,7 +68,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[CarrierPolicy](element-carrierpolicy.md)</td>
+<td><a href="element-carrierpolicy.md">CarrierPolicy</a> </td>
 <td><p>Defines optional setting for Windows on this connection.</p></td>
 </tr>
 </tbody>

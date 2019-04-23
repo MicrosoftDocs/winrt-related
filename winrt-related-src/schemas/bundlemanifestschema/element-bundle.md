@@ -94,15 +94,15 @@ Defines the root element of a bundle manifest. The manifest describes the struct
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Identity](element-identity.md)</td>
+<td><a href="element-identity.md">Identity</a> </td>
 <td><p>Defines a globally unique identifier for a bundle. A bundle identity is represented as a tuple of attributes of the bundle.</p></td>
 </tr>
 <tr class="even">
-<td>[Packages](element-packages.md)</td>
+<td><a href="element-packages.md">Packages</a> </td>
 <td><p>Defines the app packages and resource packages that are contained in the bundle.</p></td>
 </tr>
 <tr class="odd">
-<td>[OptionalBundle](element-optionalbundle.md)</td>
+<td><a href="element-optionalbundle.md">OptionalBundle</a> </td>
 <td><p>Defines optional bundles relative to the main bundle.</p></td>
 </tr>
 </tbody>

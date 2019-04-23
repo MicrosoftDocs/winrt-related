@@ -134,7 +134,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[binding](element-binding.md)</td>
+<td><a href="element-binding.md">binding</a> </td>
 <td><p>Specifies the toast template. Note that only one binding element can be included in a toast notification.</p></td>
 </tr>
 </tbody>

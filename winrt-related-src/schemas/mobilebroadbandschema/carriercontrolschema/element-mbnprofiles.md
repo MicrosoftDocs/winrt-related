@@ -64,20 +64,20 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Branding](element-branding.md)</td>
-<td><p>Defines an instance of the [<strong>Branding</strong>](https://msdn.microsoft.com/library/windows/apps/hh868446) element from the [<strong>WWAN</strong>](https://msdn.microsoft.com/library/windows/apps/hh868486) schema.</p></td>
+<td><a href="element-branding.md">Branding</a> </td>
+<td><p>Defines an instance of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868446"><strong>Branding</strong></a>  element from the <a href="https://msdn.microsoft.com/library/windows/apps/hh868486"><strong>WWAN</strong></a> schema.</p></td>
 </tr>
 <tr class="even">
-<td>[DefaultProfile](element-defaultprofile.md)</td>
-<td><p>Defines an instance of the [<strong>DefaultProfile</strong>](https://msdn.microsoft.com/library/windows/apps/hh868453) element from the [<strong>WWAN</strong>](https://msdn.microsoft.com/library/windows/apps/hh868486) schema.</p></td>
+<td><a href="element-defaultprofile.md">DefaultProfile</a> </td>
+<td><p>Defines an instance of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868453"><strong>DefaultProfile</strong></a>  element from the <a href="https://msdn.microsoft.com/library/windows/apps/hh868486"><strong>WWAN</strong></a> schema.</p></td>
 </tr>
 <tr class="odd">
-<td>[Messages](element-messages.md)</td>
-<td><p>Defines an instance of the [<strong>Messages</strong>](https://msdn.microsoft.com/library/windows/apps/hh868462) element from the [<strong>WWAN</strong>](https://msdn.microsoft.com/library/windows/apps/hh868486) schema.</p></td>
+<td><a href="element-messages.md">Messages</a> </td>
+<td><p>Defines an instance of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868462"><strong>Messages</strong></a>  element from the <a href="https://msdn.microsoft.com/library/windows/apps/hh868486"><strong>WWAN</strong></a> schema.</p></td>
 </tr>
 <tr class="even">
-<td>[PurchaseProfile](element-purchaseprofile.md)</td>
-<td><p>Defines an instance of the [<strong>PurchaseProfile</strong>](https://msdn.microsoft.com/library/windows/apps/hh868470) element from the [<strong>WWAN</strong>](https://msdn.microsoft.com/library/windows/apps/hh868486) schema.</p></td>
+<td><a href="element-purchaseprofile.md">PurchaseProfile</a> </td>
+<td><p>Defines an instance of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868470"><strong>PurchaseProfile</strong></a>  element from the <a href="https://msdn.microsoft.com/library/windows/apps/hh868486"><strong>WWAN</strong></a> schema.</p></td>
 </tr>
 </tbody>
 </table>
@@ -99,8 +99,8 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[CarrierProvisioning](element-carrierprovisioning.md)</td>
-<td><p>Defines the properties and settings in a subscriber's carrier provisioning file. [<strong>CarrierProvisioning</strong>](element-carrierprovisioning.md) is the unique root element of the provisioning file.</p></td>
+<td><a href="element-carrierprovisioning.md">CarrierProvisioning</a> </td>
+<td><p>Defines the properties and settings in a subscriber's carrier provisioning file. <a href="element-carrierprovisioning.md"><strong>CarrierProvisioning</strong></a>  is the unique root element of the provisioning file.</p></td>
 </tr>
 </tbody>
 </table>
