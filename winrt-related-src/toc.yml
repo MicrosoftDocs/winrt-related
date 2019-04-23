@@ -42,6 +42,8 @@
       - name: "Release Notes"
         href:  toolkits/winui/release-notes/index.md
         items: 
+        - name: "WinUI 2.2 (prerelease)"
+          href: toolkits/winui/release-notes/winui-2.2.md
         - name: "WinUI 2.1"
           href: toolkits/winui/release-notes/winui-2.1.md
         - name: "WinUI 2.0"
