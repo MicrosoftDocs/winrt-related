@@ -45,9 +45,9 @@ struct hresult_error
 |Function|Description|
 |------------|-----------------|
 |[hresult_error::code function](#hresult_errorcode-function)|Retrieves the code for the error represented by the **hresult_error** object.|
-|[hresult_error::info function](#hresult_errorinfo-function)|Retrieves the restricted error info for the error represented by the **hresult_error** object.|
 |[hresult_error::message function](#hresult_errormessage-function)|Retrieves the message for the error represented by the **hresult_error** object.|
 |[hresult_error::to_abi function](#hresult_errorto_abi-function)|Sets the restricted error information object for the current thread, and returns the code for the error represented by the **hresult_error** object.|
+|[hresult_error::try_as function](#hresult_errortry_as-function)|Returns the requested interface, if it is supported. Returns `nullptr`, or `false`, if it is not.|
 
 ## Member operators
 |Operator|Description|
@@ -90,17 +90,6 @@ HRESULT code() const noexcept;
 
 ### Return value 
 An HRESULT error code.
-
-## hresult_error::info function
-Retrieves the restricted error info for the error represented by the **hresult_error** object.
-
-### Syntax
-```cppwinrt
-winrt::com_ptr<::IRestrictedErrorInfo> const& info() const noexcept;
-```
-
-### Return value
-A [winrt::com_ptr](../com-ptr.md) of [IRestrictedErrorInfo](https://msdn.microsoft.com/library/br224587) containing the restricted error info.
 
 ## hresult_error::from_abi static data member
 An instance of type [hresult_error::from_abi_t](#hresult_errorfrom_abi_t-type), which can be passed to the constructor of **hresult_error** (or a derived type) to indicate that the constructor should try to retrieve restricted error info.
@@ -156,8 +145,28 @@ HRESULT to_abi() const noexcept;
 ### Return value
 An HRESULT error code.
 
+## hresult_error::try_as function
+Returns the requested interface, if it is supported. Returns `nullptr` if it is not. This function is useful if you want to query for an interface that you don't need to pass back to your caller. For example, you can retrieve an [IRestrictedErrorInfo](https://msdn.microsoft.com/library/br224587) to access the restricted error info for the error represented by the **hresult_error** object.
+
+### Syntax
+```cppwinrt
+template <typename To> auto try_as() const noexcept;
+```
+
+### Template parameters
+`typename To`
+The type of the requested interface.
+
+### Parameters
+`to`
+A reference to a value to receive the requested interface.
+
+### Return value
+A [winrt::com_ptr](../com-ptr.md) referencing the requested interface, or a strongly-typed smart pointer for the requested interface (either declared by C++/WinRT or by a third party), if the requested interface is supported, otherwise `nullptr`.
+
 ## See also 
 * [winrt namespace](../winrt.md)
+* [[winrt::com_ptr struct template](../com-ptr.md)
 * [ILanguageExceptionStackBackTrace interface](https://msdn.microsoft.com/library/mt809558)
 * [ILanguageExceptionTransform interface](https://msdn.microsoft.com/library/mt809560)
 * [RoOriginateLanguageException function](https://msdn.microsoft.com/library/dn302172)
