@@ -166,7 +166,7 @@ A [winrt::com_ptr](../com-ptr.md) referencing the requested interface, or a stro
 
 ## See also 
 * [winrt namespace](../winrt.md)
-* [[winrt::com_ptr struct template](../com-ptr.md)
+* [winrt::com_ptr struct template](../com-ptr.md)
 * [ILanguageExceptionStackBackTrace interface](https://msdn.microsoft.com/library/mt809558)
 * [ILanguageExceptionTransform interface](https://msdn.microsoft.com/library/mt809560)
 * [RoOriginateLanguageException function](https://msdn.microsoft.com/library/dn302172)
