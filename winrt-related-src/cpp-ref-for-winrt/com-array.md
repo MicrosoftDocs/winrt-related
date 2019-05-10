@@ -12,7 +12,9 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::com_array struct template (C++/WinRT)
-A view, or span, of a contiguous series of values for passing to and from Windows Runtime APIs. **winrt::com_array** *is a* **winrt::array_view**, so it's important to see the [**winrt::array_view**](array-view.md) struct template topic to learn about the members and free operators that are also available to **winrt::com_array**.
+An array of reference-counted COM objects, used for passing parameters to and from Windows Runtime APIs.
+
+**winrt::com_array** *is a* **winrt::array_view**, so see the [**winrt::array_view**](array-view.md) struct template topic to learn about the members and free operators that are also available to **winrt::com_array**. However, be aware of the difference in semantics between the base type **winrt::array_view** (which is a non-owning view, or span, of a contiguous series of values), and **winrt::com_array** (which owns its elements).
 
 ## Syntax
 ```cppwinrt
@@ -22,7 +24,7 @@ struct com_array : winrt::array_view<T>
 
 ### Template parameters
 `typename T`
-The type of the values (elements) that the **com_array** views, or spans.
+The type of the values (elements) that the **com_array** contains.
 
 ## Requirements
 **Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
@@ -53,7 +55,7 @@ The type of the values (elements) that the **com_array** views, or spans.
 |[swap function](#swap-function)|Swaps the contents of the two **com_array** parameters.|
 
 ## com_array::com_array constructor
-Initializes a new instance of the **com_array** struct with a copy of the input data.
+Initializes a new instance of the **com_array** struct with a copy of the input data, or with default values of `T` if no data is provided.
 
 ### Syntax
 ```cppwinrt

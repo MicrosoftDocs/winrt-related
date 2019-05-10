@@ -52,7 +52,7 @@ The interface, or runtime class implementation type, a pointer to which is repre
 |[com_ptr::get function](#com_ptrget-function)|Returns the underlying raw pointer should you need to pass it to a function.|
 |[com_ptr::put function](#com_ptrput-function)|Returns the address of the underlying raw pointer; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer.|
 |[com_ptr::put_void function](#com_ptrput_void-function)|Returns the address of the underlying raw pointer as a pointer to a pointer to **void**; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer to **void**.|
-|[com_ptr::try_as function](#com_ptrtry_as-function)|Returns the requested interface, if it is supported. Returns `null`, or `false`, if it is not.|
+|[com_ptr::try_as function](#com_ptrtry_as-function)|Returns the requested interface, if it is supported. Returns `nullptr`, or `false`, if it is not.|
 
 ## Member operators
 |Operator|Description|
@@ -199,7 +199,7 @@ void** put_void() noexcept;
 The address of the underlying raw pointer as a pointer to a pointer to **void**.
 
 ## com_ptr::try_as function
-Returns the requested interface, if it is supported. Returns `null` (the `auto`-returning overload), or `false` (the `bool`-returning overload), if it is not. This function is useful if you want to query for an interface that you don't need to pass back to your caller.
+Returns the requested interface, if it is supported. Returns `nullptr` (the `auto`-returning overload), or `false` (the `bool`-returning overload), if it is not. This function is useful if you want to query for an interface that you don't need to pass back to your caller.
 
 ### Syntax
 ```cppwinrt
@@ -215,8 +215,8 @@ The type of the requested interface.
 `to`
 A reference to a value to receive the requested interface.
 
-### Return value 
-A **com_ptr** referencing the requested interface, or a strongly-typed smart pointer for the requested interface (either declared by C++/WinRT or by a third party), if the requested interface is supported, otherwise `null` (the `auto`-returning overload), or `false` (the `bool`-returning overload).
+### Return value
+A **com_ptr** referencing the requested interface, or a strongly-typed smart pointer for the requested interface (either declared by C++/WinRT or by a third party), if the requested interface is supported, otherwise `nullptr` (the `auto`-returning overload), or `false` (the `bool`-returning overload).
 
 ## com_ptr::operator bool
 Checks whether or not the smart pointer is referencing an interface or object. If the smart pointer is not referencing an interface or object, then it is logically null; otherwise it is logically not null.
