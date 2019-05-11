@@ -4,7 +4,7 @@ description: A view, or span, of a contiguous series of values for passing to an
 title: winrt::com_array struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
-ms.date: 04/10/2018
+ms.date: 05/10/2019
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, array, view, com_array, span
 ms.localizationpriority: medium
@@ -12,9 +12,9 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::com_array struct template (C++/WinRT)
-An array of reference-counted COM objects, used for passing parameters to and from Windows Runtime APIs.
+An array of objects; used for passing parameters to and from Windows Runtime APIs. **com_array** uses the COM allocator for memory allocation and freeing, hence the name.
 
-**winrt::com_array** *is a* **winrt::array_view**, so see the [**winrt::array_view**](array-view.md) struct template topic to learn about the members and free operators that are also available to **winrt::com_array**. However, be aware of the difference in semantics between the base type **winrt::array_view** (which is a non-owning view, or span, of a contiguous series of values), and **winrt::com_array** (which owns its elements).
+**winrt::com_array** derives from **winrt::array_view**. See the [**winrt::array_view**](array-view.md) struct template topic, which documents members and free operators that are also available to **winrt::com_array**. However, be aware of the difference in semantics between the base type **winrt::array_view** (which is a non-owning view, or span, of a contiguous series of values), and **winrt::com_array** (which allocates and frees its own elements).
 
 ## Syntax
 ```cppwinrt
@@ -36,7 +36,7 @@ The type of the values (elements) that the **com_array** contains.
 ## Constructors
 |Constructor|Description|
 |------------|-----------------|
-|[com_array::com_array constructor](#com_arraycom_array-constructor)|Initializes a new instance of the **com_array** struct with a copy of the input data.|
+|[com_array::com_array constructor](#com_arraycom_array-constructor)|Initializes a new instance of the **com_array** struct with a copy of the input data, or with default values of `T` if no data is provided.|
 
 ## Member functions
 |Function|Description|
@@ -50,8 +50,9 @@ The type of the values (elements) that the **com_array** contains.
 
 ## Free functions
 |Function|Description|
-|------------|-----------------| 
-|[detach_abi function](#detach_abi-function)|Detaches a **com_array** object from its raw values without decrementing their reference counts, perhaps to return them to a caller. The **com_array** is cleared.|
+|------------|-----------------|
+|[detach_abi function](#detach_abi-function)|Detaches the **com_array** object from its raw values, perhaps to return them to a caller. The **com_array** is cleared. Also see [winrt::detach_abi function](/uwp/cpp-ref-for-winrt/detach-abi).|
+|[put_abi function](#put_abi-function)|Retrieves the address of the **com_array** so that it can be set to another value. Also see [winrt::put_abi function](/uwp/cpp-ref-for-winrt/put-abi).|
 |[swap function](#swap-function)|Swaps the contents of the two **com_array** parameters.|
 
 ## com_array::com_array constructor
@@ -111,7 +112,7 @@ void clear() noexcept;
 ```
 
 ## detach_abi function
-Detaches a **com_array** object from its raw values without decrementing their reference counts, perhaps to return them to a caller. The **com_array** is cleared.
+Detaches the **com_array** object from its raw values, perhaps to return them to a caller. The **com_array** is cleared. Also see [winrt::detach_abi function](/uwp/cpp-ref-for-winrt/detach-abi).
 
 ### Syntax
 ```cppwinrt
@@ -141,12 +142,27 @@ A **com_array** value to assign to the **com_array** object.
 ### Return value
 A reference to the **com_array** object.
 
+## put_abi function
+Retrieves the address of the **com_array** so that it can be set to another value. Also see [winrt::put_abi function](/uwp/cpp-ref-for-winrt/put-abi).
+
+### Syntax
+```cppwinrt
+template<typename T> auto put_abi(winrt::com_array<T>& object) noexcept;
+```
+
+### Parameters
+`object`
+A **com_array** object to operate on.
+
+### Return value
+The address of the **com_array**, ready to be set to another value.
+
 ## swap function
 Swaps the contents of the two **com_array** parameters.
 
 ### Syntax
 ```cppwinrt
-void swap(winrt::com_array& left, winrt::com_array& right) noexcept;
+friend void swap(winrt::com_array& left, winrt::com_array& right) noexcept;
 ```
 
 ### Parameters
