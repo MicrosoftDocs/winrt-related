@@ -17,6 +17,9 @@ If you're a component developer and/or a library author, then you may wish to us
 
 If you're an application developer, then in general you won't need to use these attributes because you'll recompile your application after revisioning your types.
 
+## The `[allowforweb]` attribute
+For details on the use and purpose of the `allowforweb` attribute, see the [AllowForWebAttribute class](/uwp/api/windows.foundation.metadata.allowforwebattribute).
+
 ## The `[constructor_name]` attribute
 The `constructor_name` attribute specifies the name and IID of the
 factory interface that contains the constructor members. See [Synthesizing interfaces](synthesizing-interfaces.md) for more info about factory interfaces.
