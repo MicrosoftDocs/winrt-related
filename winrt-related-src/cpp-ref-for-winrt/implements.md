@@ -15,7 +15,8 @@ ms.workload: ["cplusplus"]
 
 This is the base from which your own [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) implementations (of runtime classes and activation factories) directly or indirectly derive. It implements one or more Windows Runtime interfaces (which you specify to it as type parameters), and it also provides efficient implementations of [IUnknown](https://msdn.microsoft.com/library/windows/desktop/ms680509), [IInspectable](/windows/desktop/api/inspectable/nn-inspectable-iinspectable), [IAgileObject](https://msdn.microsoft.com/library/windows/desktop/hh802476), [IWeakReferenceSource](/windows/desktop/api/weakreference/nn-weakreference-iweakreferencesource), and others.
 
-For more info about deriving from this type, and examples, see [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis).
+> [!NOTE]
+> For more info about deriving from this type, and examples, see [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis).
 
 ## Marker types
 The **implements** struct template supports several marker types (such as [non_agile](non-agile.md), [no_weak_ref](no-weak-ref.md), and [static_lifetime](static-lifetime.md) for factories). These marker types override default behavior. We expect that these will be only rarely used; the defaults are sufficient for almost all cases. A marker type can appear anywhere in the interface list, which is the variadic parameter pack.
@@ -134,7 +135,7 @@ std::pair<uint32_t, const winrt::guid*> get_local_iids() const noexcept override
 A two-element tuple containing the identifiers of the interfaces that are implemented by the **implements** object.
 
 ## implements::get_strong function
-Retrieves a strong reference to the **implements** object's *this* pointer.
+Retrieves a strong reference to the **winrt::implements** object's *this* pointer. See [Strong and weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references). Because **get_strong** is a member function of the **winrt::implements** struct template, you can call it only from an object that directly or indirectly derives from **winrt::implements**, such as a C++/WinRT object. For more info about deriving from **winrt::implements**, and examples, see [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis).
 
 ### Syntax
 ```cppwinrt
@@ -146,7 +147,7 @@ protected:
 A strong reference to the **implements** object's *this* pointer.
 
 ## implements::get_weak function
-Retrieves a weak reference to the **implements** object's *this* pointer. See [Strong and weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references).
+Retrieves a weak reference to the **winrt::implements** object's *this* pointer. See [Strong and weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references). Because **get_weak** is a member function of the **winrt::implements** struct template, you can call it only from an object that directly or indirectly derives from **winrt::implements**, such as a C++/WinRT object. For more info about deriving from **winrt::implements**, and examples, see [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis).
 
 ### Syntax
 ```cppwinrt
