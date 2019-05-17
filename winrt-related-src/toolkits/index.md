@@ -30,7 +30,7 @@ A collection of helper functions, custom controls, and app services that simplif
 
 * [How-to articles](https://docs.microsoft.com/windows/uwpcommunitytoolkit/)
 
-* [API docs](https://docs.microsoft.com/en-us/dotnet/api/?view=uwp-toolkit-dotnet)  
+* [API docs](https://docs.microsoft.com/dotnet/api/?term=microsoft.toolkit)  
 
 * [Source code](https://aka.ms/uwptoolkit)
 
