@@ -27,7 +27,7 @@ April 2019
 
 #### Experimental features
 
-* [FlowLayout](https://docs.microsoft.com/uwp/api/microsoft.ui.xaml.controls.layoutpanel)
+* [FlowLayout](https://docs.microsoft.com/uwp/api/microsoft.ui.xaml.controls.flowlayout)
 
 * [LayoutPanel](https://docs.microsoft.com/uwp/api/microsoft.ui.xaml.controls.layoutpanel)
 
