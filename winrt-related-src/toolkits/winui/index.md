@@ -18,6 +18,7 @@ The Windows UI Library provides official native Windows UI controls and other us
 It maintains down-level compatibility with earlier versions of Windows 10, so your app works even if users don't have the latest OS. 
 
 ## Features
+
 * **New controls**: The Windows UI Library contains new controls that aren't shipped as part of the default Windows platform.
 
 * **Updated versions of existing controls**: The library also contains updated versions of existing Windows platform controls that you can use with earlier versions of Windows 10.
@@ -42,15 +43,15 @@ How-to articles for Windows UI Library controls are located with the rest of our
 
 API reference docs are located here: [Windows UI Library APIs](/uwp/api/overview/winui/).
 
-## Install and use the Windows UI Library 
+## Install and use the Windows UI Library
 
 For instructions, see [Getting started with the Windows UI Library](getting-started.md).
 
-## Open Source
+## Open source and developer roadmap
 
-WinUI is an open source project hosted on GitHub.
+WinUI is an open source project hosted on GitHub. We welcome bug reports, feature requests and community code contributions in the [Windows UI Library repo](https://aka.ms/winui).
 
-We welcome bug reports, feature requests and community code contributions in the [Windows UI Library repo](https://aka.ms/winui).
+We are continuing to develop and evolve WinUI to support more developer scenarios. For the latest details about our plans for WinUI, see our [roadmap](https://github.com/microsoft/microsoft-ui-xaml/blob/master/docs/roadmap.md) on the Windows UI Library repo.
 
 ## NuGet package list
 
