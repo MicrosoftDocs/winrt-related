@@ -46,6 +46,7 @@ The interface, or runtime class implementation type, a pointer to which is repre
 |------------|-----------------|
 |[com_ptr::as function](#com_ptras-function)|Returns the requested interface, if it is supported. Throws if it is not.|
 |[com_ptr::attach function](#com_ptrattach-function)|Attaches to a raw pointer that owns a reference to its target; an additional reference is not added.|
+|[com_ptr::capture function](#com_ptrcapture-function)|Calls a specified function or method (automatically calling [winrt::check_hresult](check-hresult.md) on it), and captures the interface pointer that's output from the function or method as a `void**`.|
 |[com_ptr::copy_from function](#com_ptrcopy_from-function)|Copies from another pointer. Decrements the reference count on any currently referenced interface or object, copies the raw pointer parameter, and begins managing the lifetime of the interface or object pointed to by it.|
 |[com_ptr::copy_to function](#com_ptrcopy_to-function)|Copies to another pointer from the **com_ptr** object. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter.|
 |[com_ptr::detach function](#com_ptrdetach-function)|Detaches from the referenced interface or object without decrementing the reference count, perhaps to return it to a caller.|
@@ -129,6 +130,56 @@ void attach(T* value) noexcept;
 ### Parameters
 `value`
 A raw pointer that owns a reference to its target.
+
+## com_ptr::capture function
+Calls a specified function or method (automatically calling [winrt::check_hresult](check-hresult.md) on it), and captures the interface pointer that's output from the function or method as a `void**`.
+
+### Syntax
+```cppwinrt
+template <typename F, typename...Args>
+void capture(F function, Args&&...args);
+
+template <typename O, typename M, typename...Args>
+void capture(winrt::com_ptr<O> const& object, M method, Args&&...args);
+```
+
+### Template parameters
+`typename F`
+A free function type.
+
+`typename O`
+An interface type.
+
+`typename M`
+A method type.
+
+`typename Args`
+Zero or more argument types.
+
+### Parameters
+`function`
+A free function of type `F`.
+
+`object`
+A **winrt::com_ptr** of type `O`.
+
+`object`
+A method (implemented by `O`) of type `M`.
+
+`args`
+Zero or more arguments of type `Args`.
+
+### Example
+
+```cppwinrt
+winrt::com_ptr<IDXGIAdapter> adapter
+...
+winrt::com_ptr<IDXGIFactory2> factory;
+factory.capture(adapter, &IDXGIAdapter::GetParent);
+```
+
+### Return value
+A **com_ptr** referencing the requested interface, or a strongly-typed smart pointer for the requested interface (either declared by C++/WinRT or by a third party), if the requested interface is supported, otherwise `nullptr` (the `auto`-returning overload), or `false` (the `bool`-returning overload).
 
 ## com_ptr::copy_from function
 Copies from another pointer. Decrements the reference count on any currently referenced interface or object, copies the raw pointer parameter, and begins managing the lifetime of the interface or object pointed to by it.
