@@ -12,10 +12,7 @@ keywords: windows 10, uwp, universal sdk, extension contract
 ---
 # Windows Universal Platform SDK API contracts
 
-Lists all of the API contracts in the Windows Universal Platform (UWP) SDK.
-
-> [!NOTE]
-> We're thinking of removing this page. Did you find it useful? Please use one of the feedback tools at the bottom of the page to tell us why.
+This page contains a list of all of the API contracts in the Windows Universal Platform (UWP) SDK. By default, Microsoft Visual Studio specifies **Windows.Universal** as the target device family in the app package manifest file for UWP apps.
 
 ## Version 10.0.17763.0
 
