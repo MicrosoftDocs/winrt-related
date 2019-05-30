@@ -16,6 +16,59 @@ The Windows SDK includes extension SDKs that let you call specialized APIs for d
 
 This page contains a list of all the API contracts in the Windows desktop extension SDK for the Universal Windows Platform (UWP).
 
+## Version 10.0.18362.0
+
+Windows.ApplicationModel.Activation.ActivatedEventsContract, version=1.0
+Windows.ApplicationModel.Activation.ActivationCameraSettingsContract, version=1.0
+Windows.ApplicationModel.Activation.ContactActivatedEventsContract, version=1.0
+Windows.ApplicationModel.Activation.WebUISearchActivatedEventsContract, version=1.0
+Windows.ApplicationModel.Background.BackgroundAlarmApplicationContract, version=1.0
+Windows.ApplicationModel.Calls.LockScreenCallContract, version=1.0
+Windows.ApplicationModel.FullTrustAppContract, version=1.0
+Windows.ApplicationModel.Preview.InkWorkspace.PreviewInkWorkspaceContract, version=1.0
+Windows.ApplicationModel.Preview.Notes.PreviewNotesContract, version=2.0
+Windows.ApplicationModel.Resources.Management.ResourceIndexerContract, version=2.0
+Windows.ApplicationModel.Search.Core.SearchCoreContract, version=1.0
+Windows.ApplicationModel.Search.SearchContract, version=1.0
+Windows.ApplicationModel.Wallet.WalletContract, version=1.0
+Windows.Devices.Portable.PortableDeviceContract, version=1.0
+Windows.Devices.Printers.Extensions.ExtensionsContract, version=2.0
+Windows.Devices.Scanners.ScannerDeviceContract, version=1.0
+Windows.Devices.Sms.LegacySmsApiContract, version=1.0
+Windows.Gaming.Input.GamingInputPreviewContract, version=1.0
+Windows.Gaming.Preview.GamesEnumerationContract, version=2.0
+Windows.Gaming.UI.GameChatOverlayContract, version=1.0
+Windows.Gaming.UI.GamingUIProviderContract, version=1.0
+Windows.Globalization.GlobalizationJapanesePhoneticAnalyzerContract, version=1.0
+Windows.Management.Deployment.Preview.DeploymentPreviewContract, version=1.0
+Windows.Management.Workplace.WorkplaceSettingsContract, version=1.0
+Windows.Media.AppBroadcasting.AppBroadcastingContract, version=1.0
+Windows.Media.AppRecording.AppRecordingContract, version=1.0
+Windows.Media.Capture.AppBroadcastContract, version=2.0
+Windows.Media.Capture.AppCaptureContract, version=4.0
+Windows.Media.Capture.AppCaptureMetadataContract, version=1.0
+Windows.Media.Capture.CameraCaptureUIContract, version=1.0
+Windows.Media.Capture.GameBarContract, version=1.0
+Windows.Media.Devices.CallControlContract, version=1.0
+Windows.Media.MediaControlContract, version=1.0
+Windows.Media.Playlists.PlaylistsContract, version=1.0
+Windows.Media.Protection.ProtectionRenewalContract, version=1.0
+Windows.Networking.NetworkOperators.LegacyNetworkOperatorsContract, version=1.0
+Windows.Networking.XboxLive.XboxLiveSecureSocketsContract, version=1.0
+Windows.Perception.Automation.Core.PerceptionAutomationCoreContract, version=1.0
+Windows.Security.EnterpriseData.EnterpriseDataContract, version=5.0
+Windows.Security.ExchangeActiveSyncProvisioning.EasContract, version=1.0
+Windows.Storage.Provider.CloudFilesContract, version=3.0
+Windows.System.Profile.ProfileRetailInfoContract, version=1.0
+Windows.System.UserProfile.UserProfileContract, version=2.0
+Windows.System.UserProfile.UserProfileLockScreenContract, version=1.0
+Windows.UI.ApplicationSettings.ApplicationsSettingsContract, version=1.0
+Windows.UI.Core.AnimationMetrics.AnimationMetricsContract, version=1.0
+Windows.UI.Core.CoreWindowDialogsContract, version=1.0
+Windows.UI.Shell.SecurityAppManagerContract, version=1.0
+Windows.UI.Xaml.Hosting.HostingContract, version=4.0
+Windows.Web.Http.Diagnostics.HttpDiagnosticsContract, version=2.0
+
 ## Version 10.0.17763.0
 
 Windows.ApplicationModel.Activation.ActivatedEventsContract, version=1.0
