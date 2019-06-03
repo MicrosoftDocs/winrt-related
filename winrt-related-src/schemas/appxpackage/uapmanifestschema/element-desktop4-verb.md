@@ -48,6 +48,8 @@ Names and class IDs of the commands registered in the Shell for a file explorer 
 </dl>
 </dd>
 </dl>
+</dd>
+</dl>
 
 
 ## Syntax
@@ -65,8 +67,9 @@ Names and class IDs of the commands registered in the Shell for a file explorer 
 ## Child Elements
 None.
 
-## See Also
-[Creating a Shell Extension Handler](https://msdn.microsoft.com/library/windows/desktop/cc144067.aspx)
+## Remarks
+
+For more information about this element, see the remarks for [desktop4:FileExplorerContextMenus](element-desktop4-fileexplorercontextmenus.md).
 
 ## Requirements
 

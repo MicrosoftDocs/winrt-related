@@ -59,9 +59,11 @@ Registers items for the context menu of File Explorer.
 |---------------|-------------|
 | [desktop4:ItemType](element-desktop4-itemtype.md) | Contains the type of command to be registered in the context menu. |  
 
-## See Also
-[Creating a Shell Extension Handler](https://msdn.microsoft.com/library/windows/desktop/cc144067.aspx)
+## Remarks
 
+Use this element to register a [context menu handler](https://docs.microsoft.com/windows/desktop/shell/context-menu-handlers) that is implemented by your desktop application. For more information about how to use this element to register a context menu handler in a packaged desktop application, see [Specify a context menu handler for a file type](https://docs.microsoft.com/windows/apps/desktop/modernize/desktop-to-uwp-extensions#context-menu).
+
+For a code sample that demonstrates how to implement a context menu handler by implementing the [IExplorerCommand](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) and [IExplorerCommandState](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate) interfaces, see the [ExplorerCommandVerb](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appshellintegration/ExplorerCommandVerb) code sample.
 
 ## Requirements
 
