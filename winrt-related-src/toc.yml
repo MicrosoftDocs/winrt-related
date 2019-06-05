@@ -8,7 +8,7 @@
     items: 
     - name: "Device families overview"
       href: extension-sdks/device-families-overview.md
-    - name: "Universal SDK"
+    - name: "Universal device family"
       href: extension-sdks/windows-universal-sdk.md
     - name: "Desktop extension SDK"
       href: extension-sdks/windows-desktop-extension-sdk.md
