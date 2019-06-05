@@ -6,12 +6,12 @@ author: knicholasa
 
 
 ms.topic: reference
-ms.date: 5/2/2018
+ms.date: 6/4/2019
 keywords: windows 10, uwp, team extension sdk, api contract, surface hub
 ---
 # Windows Team Extension SDK API contracts for UWP
 
-The Windows SDK includes extension SDKs that let you call specialized APIs for different devices. To read more about this, check out the [Device families overview](device-families-overview.md) page.
+Extension SDKs let you call specialized APIs for specific devices. To read more about this, see [Device families overview](device-families-overview.md).
 
 This page contains a list of all of the API contracts in the Windows Team Extension SDK extension SDK for the Universal Windows Platform (UWP)
 

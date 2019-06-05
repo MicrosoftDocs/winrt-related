@@ -1,18 +1,18 @@
 ---
-title: Universal Windows Platform SDK API contracts
-description: See a list of all API contracts in the Universal Windows Platform SDK.
+title: Universal device family API contracts
+description: See a list of all API contracts in the Universal device family.
 ms.assetid: 98FDBBB3-79DA-46F8-895D-1219D6C0858E
 ms.author: nichola
 author: knicholasa
 
 
 ms.topic: reference
-ms.date: 5/2/2018
+ms.date: 6/4/2019
 keywords: windows 10, uwp, universal sdk, extension contract
 ---
-# Universal Windows Platform SDK API contracts
+# Universal device family API contracts
 
-This page contains a list of all of the API contracts that are part of the Universal Windows Platform (UWP) device family. These contracts are available to any UWP application. By default, Microsoft Visual Studio specifies **Windows.Universal** as the target device family in the app package manifest file for UWP apps. To read more about device families, check out the [Device families overview](device-families-overview.md) page.
+This page contains a list of all of the API contracts that are part of the Universal device family. These API contracts are implemented by all Windows 10 operating system editions. By default, Microsoft Visual Studio specifies **Windows.Universal** as the target device family in the app package manifest file for UWP apps. To read more about device families, check out the [Device families overview](device-families-overview.md) page.
 
 ## Version 10.0.18362.0
 

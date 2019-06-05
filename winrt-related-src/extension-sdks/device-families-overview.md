@@ -6,7 +6,7 @@ author: knicholasa
 
 
 ms.topic: reference
-ms.date: 05/7/2018
+ms.date: 6/4/2019
 keywords: windows 10, uwp, device family, extension sdk
 ---
 
@@ -56,7 +56,7 @@ By default, Microsoft Visual Studio specifies **Windows.Universal** as the targe
 
 The Windows SDK includes extension SDKs that let you call specialized APIs for different devices. Once you have decided on the device family that your app will target, add a reference to the Extension SDK(s) that implement the APIs for that device family.  If you are targeting the Universal device family, you don't need to reference an extension SDK. But if you are targeting a device family besides Universal, in Visual Studio you will add a reference to the extension SDK that matches the device family you have chosen.
 
-For example, if you are targeting the IoT device family, you would add a reference (Project > Add Reference) to the _Windows Mobile Extensions for the UWP_ in Visual Studio's Reference Manager:
+For example, if you are targeting the IoT device family, you would add a reference (Project > Add Reference) to the _Windows IoT Extensions for the UWP_ in Visual Studio's Reference Manager:
 
 ![Select the IoT extension SDK](images/SelectIoTExtensionSDK.png)
 
@@ -68,7 +68,7 @@ By default, you'll probably want to target the broadest possible device family. 
 
 ![visual studio 2015 device preview toolbar](images/vs2015-device-preview-toolbar.png)
 
-You don�t have to make a decision up front about every device type that you'll support. You can add an additional device size to your project later.
+You don't have to make a decision up front about every device type that you'll support. You can add an additional device size to your project later.
 
 ## Writing code
 
