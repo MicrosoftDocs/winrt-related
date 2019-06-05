@@ -22,7 +22,7 @@ This reference topic enumerates all of the extension SDKs with links to topics t
 |  Topic                                                                                | Description                                                       |
 |---------------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | [Device families overview](device-families-overview.md)                               | Overview of device families |
-| [Universal device family API contracts](windows-universal-sdk.md)              | Lists the API contracts within the Universal Windows Platform SDK |
+| [Universal device family API contracts](windows-universal-sdk.md)              | Lists the API contracts within the Universal device family |
 | [Windows Desktop Extension SDK API contracts for UWP](windows-desktop-extension-sdk.md)   | Lists the API contracts within the Windows Desktop Extension SDK |
 | [Windows Mobile Extension SDK API contracts for UWP](windows-mobile-extension-sdk.md) | Lists the API contracts within the Windows Mobile Extension SDK |
 | [Windows IoT Extension SDK API contracts for UWP](windows-iot-extension-sdk.md)       | Lists the API contracts within the Windows Internet of Things Extension SDK |
