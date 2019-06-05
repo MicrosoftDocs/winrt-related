@@ -7,15 +7,14 @@ author: knicholasa
 
 
 ms.topic: reference
-ms.date: 04/05/2017
+ms.date: 6/4/2019
 keywords: windows 10, uwp, xbox live extensions sdk, api contract
 ---
 # Xbox Live Extension SDK API contracts for UWP
 
-Lists all of the API contracts in the Xbox Live extension SDK for the Universal Windows Platform (UWP).
+Extension SDKs let you call specialized APIs for specific devices. To read more about this, see [Device families overview](device-families-overview.md).
 
-> [!NOTE]
-> We're thinking of removing this page. Did you find it useful? Please use one of the feedback tools at the bottom of the page to tell us why.
+This page contains a list of all of the API contracts in the Xbox Live extension SDK for the Universal Windows Platform (UWP).
 
 ## Version 10.0.17763.0
 

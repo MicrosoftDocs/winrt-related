@@ -7,13 +7,13 @@ author: knicholasa
 
 
 ms.topic: reference
-ms.date: 03/28/2018
+ms.date: 6/4/2019
 keywords: windows 10, uwp, extension sdk
 ---
 
 # Device Family Extension SDKs and API contracts
 
-The way of thinking about app-targeting changes with Windows 10. The new conceptual model is that UWP apps target the Universal Windows Platform by default, which provides a common API surface across devices. But you can also target the capabilities of specific devices by using an extension SDK. For more info on what a extension SDK is, and how to decide which one to target, see [Device families overview](device-families-overview.md).
+The way of thinking about app-targeting changes with Windows 10. The new conceptual model is that UWP apps target the Universal device family by default, which provides a common API surface that works across a variety of devices. But you can also target the capabilities of specific devices by using an extension SDK. For more info on what a extension SDK is, and how to decide which one to target, see [Device families overview](device-families-overview.md).
 
 This reference topic enumerates all of the extension SDKs with links to topics that list the contracts available in each extension.
 
@@ -22,7 +22,7 @@ This reference topic enumerates all of the extension SDKs with links to topics t
 |  Topic                                                                                | Description                                                       |
 |---------------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | [Device families overview](device-families-overview.md)                               | Overview of device families |
-| [Windows Universal Platform SDK API contracts](windows-universal-sdk.md)              | Lists the API contracts within the Windows Universal Platform SDK |
+| [Universal device family API contracts](windows-universal-sdk.md)              | Lists the API contracts within the Universal device family |
 | [Windows Desktop Extension SDK API contracts for UWP](windows-desktop-extension-sdk.md)   | Lists the API contracts within the Windows Desktop Extension SDK |
 | [Windows Mobile Extension SDK API contracts for UWP](windows-mobile-extension-sdk.md) | Lists the API contracts within the Windows Mobile Extension SDK |
 | [Windows IoT Extension SDK API contracts for UWP](windows-iot-extension-sdk.md)       | Lists the API contracts within the Windows Internet of Things Extension SDK |
