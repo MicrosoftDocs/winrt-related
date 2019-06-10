@@ -4,7 +4,7 @@ ms.author: lahugh
 title: UpdateSettings
 description: An optional element of the appinstaller file. UpdateSettings signifies whether or not to check for an update during the app's launch. 
 ms.topic: reference
-ms.date: 4/2/2018
+ms.date: 06/10/2019
 
 
 keywords: windows 10, uwp, app installer, AppInstaller, sideload, related set, optional packages
@@ -20,7 +20,7 @@ An optional element of the appinstaller file. UpdateSettings signifies whether o
 <dt><a href="element-appinstaller.md">&lt;AppInstaller&gt;</a></dt>
 <dd>
     <dl>
-        <dt>**UpdateSettings**</dt>
+        <dt><b>&lt;UpdateSettings&gt;</b></dt>
     </dl>
 </dd>
 </dl>
