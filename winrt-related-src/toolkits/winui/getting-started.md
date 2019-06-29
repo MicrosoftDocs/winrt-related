@@ -17,7 +17,7 @@ The toolkit is available as NuGet packages that can be added to any existing or 
 1. Download [Visual Studio 2017](https://developer.microsoft.com/windows/downloads) and ensure you choose the **Universal Windows Platform development** Workload in the Visual Studio installer.
 
     > [!NOTE]
-    Visual Studio 2015 doesn't support the Windows UI Library. 
+    > Visual Studio 2015 doesn't support the Windows UI Library. 
 
 2. Open an existing project, or create a new project using the Blank App template under Visual C# -> Windows -> Universal, or the appropriate template for your language projection.  
     > **Important**:  To use WinUI 2.1, your project’s Min version must be 14393 or higher and the Target version must be 17763 or higher.   
