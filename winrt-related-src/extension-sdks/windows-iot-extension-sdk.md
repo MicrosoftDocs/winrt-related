@@ -16,6 +16,9 @@ Extension SDKs let you call specialized APIs for specific devices. To read more 
 
 This page contains a list of the API contracts in the Windows Internet of Things (IoT) Extension SDK for the Universal Windows Platform (UWP).
 
+> [!IMPORTANT]
+> Applications that target version 10.0.17763.0 should delete references to the IoT Extension SDK to avoid build breaks.
+
 ## Version 10.0.17763.0
 
 In the October 2018 Update (version 10.0.17763.0) all IoT contracts were moved into the [Windows Universal SDK](windows-universal-sdk.md).
