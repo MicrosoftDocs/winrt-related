@@ -59,7 +59,6 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [non_agile marker struct](non-agile.md) | A marker type used to indicate that your type is not agile, and consequently does not implement the [IAgileObject interface](https://msdn.microsoft.com/library/windows/desktop/hh802476). |
 | [observable_map_base struct template](observable-map-base.md) | A base class, for you to derive from, that represents an observable associative collection. |
 | [observable_vector_base struct template](observable-vector-base.md) | A base class, for you to derive from, that represents an observable vector. |
-| [resume_foreground struct](resume-foreground.md) | A struct&mdash;for use within a coroutine&mdash;that you can `co_await` to switch execution to a specific foreground thread. |
 | [static_lifetime marker struct](static-lifetime.md) | A marker type used to opt an activation factory in to static lifetime. |
 | [vector_base struct template](vector-base.md) | A base class, for you to derive from, that represents a non-observable general-purpose collection known as a vector. |
 | [vector_view_base struct template](vector-view-base.md) | A base class from which you can derive to implement your own custom view, or span, of a contiguous sequence of elements in a general-purpose collection. |
@@ -95,6 +94,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [make_weak function template](make-weak.md) | A helper function that returns a [weak_ref](weak-ref.md) object, representing a weak reference to a C++/WinRT object or interface. |
 | [put_abi function](put-abi.md) | A helper function that retrieves the address of a C++/WinRT object's underlying IUnknown interface pointer so that it can be set to another value. |
 | [resume_background function](resume-background.md) | A helper function that returns control to the caller, and resumes execution on a thread pool thread. |
+| [resume_foreground function](resume-foreground.md) | A helper function&mdash;for use within a coroutine&mdash;that you can `co_await` to switch execution to a specific foreground thread. |
 | [single_threaded_map function template](single-threaded-map.md) | A function template that creates and returns an object of a type that implements a non-observable associative collection (map). The object is returned as an [**IMap**](/uwp/api/windows.foundation.collections.imap_k_v_). |
 | [single_threaded_observable_map function template](single-threaded-observable-map.md) | A function template that creates and returns an object of a type that implements an observable associative collection (map). The object is returned as an [**IObservableMap**](/uwp/api/windows.foundation.collections.iobservablemap_k_v_). |
 | [single_threaded_observable_vector function template](single-threaded-observable-vector.md) | A function template that creates and returns an object of a type that implements an observable collection. The object is returned as an [**IObservableVector**](/uwp/api/windows.foundation.collections.iobservablevector_t_). |

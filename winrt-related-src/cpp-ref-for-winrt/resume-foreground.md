@@ -1,7 +1,7 @@
 ---
 author: stevewhims
-description: TBD
-title: winrt::resume_foreground struct (C++/WinRT)
+description: A helper function&mdash;for use within a coroutine&mdash;that you can `co_await` to switch execution to a specific foreground thread.
+title: winrt::resume_foreground function (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 05/17/2018
@@ -11,35 +11,15 @@ ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
-# winrt::resume_foreground struct (C++/WinRT)
+# winrt::resume_foreground function (C++/WinRT)
 
-A struct&mdash;for use within a coroutine&mdash;that you can `co_await` to switch execution to a specific foreground thread. For more info, and a code example, see [Programming with thread affinity in mind](/windows/uwp/cpp-and-winrt-apis/concurrency#programming-with-thread-affinity-in-mind).
+A helper function&mdash;for use within a coroutine&mdash;that you can `co_await` to switch execution to a specific foreground thread. For more info, and a code example, see [Programming with thread affinity in mind](/windows/uwp/cpp-and-winrt-apis/concurrency#programming-with-thread-affinity-in-mind).
 
 ## Syntax
 ```cppwinrt
-struct resume_foreground
-```
-
-## Requirements
-**Minimum supported SDK:** Windows SDK version 10.0.17763.0 (Windows 10, version 1809)
-
-**Namespace:** winrt
-
-**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\Windows.UI.Core.h (not included by default)
-
-## Constructors
-|Constructor|Description|
-|------------|-----------------|
-|[resume_foreground::resume_foreground constructor](#resume_foregroundresume_foreground-constructor)|Initializes a new instance of the **resume_foreground** struct.|
-
-## resume_foreground::resume_foreground constructor
-Initializes a new instance of the **resume_foreground** struct.
-
-### Syntax
-```cppwinrt
-explicit resume_foreground(winrt::Windows::UI::Core::CoreDispatcher&& dispatcher, winrt::Windows::UI::Core::CoreDispatcherPriority const priority = winrt::Windows::UI::Core::CoreDispatcherPriority::Normal);
-
-explicit resume_foreground(winrt::Windows::UI::Core::CoreDispatcher const& dispatcher, winrt::Windows::UI::Core::CoreDispatcherPriority const priority = winrt::Windows::UI::Core::CoreDispatcherPriority::Normal);
+inline auto resume_foreground(
+    Windows::UI::Core::CoreDispatcher const& dispatcher,
+    Windows::UI::Core::CoreDispatcherPriority const priority = Windows::UI::Core::CoreDispatcherPriority::Normal) noexcept;
 ```
 
 ### Parameters
@@ -48,6 +28,16 @@ A **winrt::Windows::UI::Core::CoreDispatcher** whose foreground thread to switch
 
 `priority`
 Specifies the priority for event dispatch.
+
+### Return value
+An object that you can `co_await`.
+
+## Requirements
+**Minimum supported SDK:** Windows SDK version 10.0.17763.0 (Windows 10, version 1809)
+
+**Namespace:** winrt
+
+**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\Windows.UI.Core.h (not included by default)
 
 ## See also 
 * [winrt namespace](winrt.md)
