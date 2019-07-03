@@ -2148,7 +2148,7 @@
       href: cpp-ref-for-winrt/put-abi.md
     - name: "resume_background function"
       href: cpp-ref-for-winrt/resume-background.md
-    - name: "resume_foreground struct"
+    - name: "resume_foreground function"
       href: cpp-ref-for-winrt/resume-foreground.md
     - name: "single_threaded_map function template"
       href: cpp-ref-for-winrt/single-threaded-map.md
