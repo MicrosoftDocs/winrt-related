@@ -113,7 +113,7 @@ runtimeclass Area
 In the example below, **Area** has members **Height** and **Width**.
 
 ```idl
-runtimeclass Area : Windows.Foundation.Windows.Foundation.IStringable
+runtimeclass Area : Windows.Foundation.IStringable
 {
     Int32 Height;
     Int32 Width;
