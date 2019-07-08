@@ -17,9 +17,13 @@ WinUI is an open source project hosted on GitHub. We welcome bug reports, featur
 
 ## Microsoft.UI.Xaml 2.2 Version History
 
-### Microsoft.UI.Xaml 2.2.vNext-prerelease
+### Microsoft.UI.Xaml 2.2.190702001-prerelease
 
 July 2019
+
+[GitHub release page](https://github.com/microsoft/microsoft-ui-xaml/releases/tag/v2.2.190702001-prerelease)
+
+[NuGet package download](https://www.nuget.org/packages/Microsoft.UI.Xaml/2.2.190702001-prerelease)
 
 ### Experimental Feature
 
