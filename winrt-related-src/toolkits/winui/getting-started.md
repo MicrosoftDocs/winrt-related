@@ -77,7 +77,7 @@ For more information on resource loading see [ResourceDictionary and XAML resour
 
 ## Additional steps for a C++/WinRT project
 
-When you add a NuGet package to a C++/WinRT project, the tooling generates a set of projection headers in your project's `\Generated Files\winrt` folder. To bring those headers files into your project, so that references to those new types resolve, you can go into your `pch.h` file and include them. Below is an example that includes the generated header files for the **Microsoft.UI.Xaml** package.
+When you add a NuGet package to a C++/WinRT project, the tooling generates a set of projection headers in your project's `\Generated Files\winrt` folder. To bring those headers files into your project, so that references to those new types resolve, you can go into your precompiled header file (typically `pch.h`) and include them. Below is an example that includes the generated header files for the **Microsoft.UI.Xaml** package.
 
 ```cppwinrt
 // pch.h
@@ -86,7 +86,10 @@ When you add a NuGet package to a C++/WinRT project, the tooling generates a set
 #include "winrt/Microsoft.UI.Xaml.Controls.Primitives.h"
 #include "winrt/Microsoft.UI.Xaml.Media.h"
 #include "winrt/Microsoft.UI.Xaml.XamlTypeInfo.h"
+...
 ```
+
+For a full, step-by-step walkthrough of adding simple support for the Windows UI Library to a C++/WinRT project, see [A simple C++/WinRT Windows UI Library example](/windows/uwp/cpp-and-winrt-apis/simple-winui-example).
 
 ## Contributing to the Windows UI Library
 
