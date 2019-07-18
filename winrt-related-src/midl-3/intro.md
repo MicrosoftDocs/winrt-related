@@ -477,10 +477,7 @@ static runtimeclass Area
 |static|Class contains only static members|
 
 ### Base classes
-A class declaration may specify a base class by following the class name
-and type parameters with a colon and the name of the base class.
-Omitting a base class specification is the same as deriving from type
-**Object** (in other words, from [**IInspectable**](https://msdn.microsoft.com/en-us/library/br205821)).
+A class declaration may specify a base class by following the class name and type parameters with a colon and the name of the base class. Omitting a base class specification is the same as deriving from type **Object** (in other words, from [**IInspectable**](https://msdn.microsoft.com/en-us/library/br205821)).
 
 > [!NOTE]
 > Your view model classes&mdash;in fact, any runtime class that you declare in your application&mdash;need not derive from a base class.
@@ -507,7 +504,7 @@ runtimeclass Volume : Area
 ```
 
 > [!NOTE]
-> Here, **Area** and **Volume** are declared in the same source file, but we recommend that you declare each runtime class in its own Interface Definition Language (IDL) (.idl) file, in order to optimize build performance when you edit an IDL file, and for logical correspondence of an IDL file to its generated source code files.
+> Here, **Area** and **Volume** are declared in the same source file. For a discussion of the pros and cons, see [Factoring runtime classes into Midl files (.idl)](/windows/uwp/cpp-and-winrt-apis/author-apis#factoring-runtime-classes-into-midl-files-idl).
 
 A class inherits the members of its base class. Inheritance means that a
 class implicitly contains all members of its base class, except for the
