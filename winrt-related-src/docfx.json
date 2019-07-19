@@ -21,7 +21,7 @@
         "feedback_system": "GitHub",
         "feedback_github_repo": "MicrosoftDocs/winrt-related",
         "feedback_product_url": "https://wpdev.uservoice.com/",
-        "uhfHeaderId": "MSDocsHeader-WinRT",
+        "uhfHeaderId": "MSDocsHeader-WinDesktop",
         "extendBreadcrumb": true,
 	"searchScope": ["UWP"],
 	"_op_documentIdPathDepotMapping": {
