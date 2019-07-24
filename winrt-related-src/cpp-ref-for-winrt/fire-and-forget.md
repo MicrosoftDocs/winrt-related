@@ -13,7 +13,7 @@ ms.workload: ["cplusplus"]
 
 # winrt::fire_and_forget struct (C++/WinRT)
 
-To make your coroutine a fire-and-forget one, use **winrt::fire_and_forget** for its return type. For more info, and a code example, see [Fire and forget](/windows/uwp/cpp-and-winrt-apis/concurrency#fire-and-forget).
+To make your coroutine a fire-and-forget one, use **winrt::fire_and_forget** for its return type. For more info, and a code example, see [Fire and forget](/windows/uwp/cpp-and-winrt-apis/concurrency-2#fire-and-forget).
 
 ## Syntax
 ```cppwinrt

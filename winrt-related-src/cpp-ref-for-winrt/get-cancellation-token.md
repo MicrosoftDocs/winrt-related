@@ -13,7 +13,7 @@ ms.workload: ["cplusplus"]
 
 # winrt::get_cancellation_token function (C++/WinRT)
 
-In a coroutine, you can use the object returned by **winrt::get_cancellation_token** to poll for, or to respond to, cancellation. For more info, and code examples, see [Canceling an asychronous operation, and cancellation callbacks](/windows/uwp/cpp-and-winrt-apis/concurrency#canceling-an-asychronous-operation-and-cancellation-callbacks).
+In a coroutine, you can use the object returned by **winrt::get_cancellation_token** to poll for, or to respond to, cancellation. For more info, and code examples, see [Canceling an asychronous operation, and cancellation callbacks](/windows/uwp/cpp-and-winrt-apis/concurrency-2#canceling-an-asychronous-operation-and-cancellation-callbacks).
 
 ## Syntax
 ```cppwinrt
