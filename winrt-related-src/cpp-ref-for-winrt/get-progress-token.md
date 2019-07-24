@@ -13,7 +13,7 @@ ms.workload: ["cplusplus"]
 
 # winrt::get_progress_token function (C++/WinRT)
 
-In a coroutine, you can use the object returned by **winrt::get_progress_token** to report progress back to a progress handler. For more info, and a code example, see [Reporting progress](/windows/uwp/cpp-and-winrt-apis/concurrency#reporting-progress).
+In a coroutine, you can use the object returned by **winrt::get_progress_token** to report progress back to a progress handler. For more info, and a code example, see [Reporting progress](/windows/uwp/cpp-and-winrt-apis/concurrency-2#reporting-progress).
 
 ## Syntax
 ```cppwinrt
