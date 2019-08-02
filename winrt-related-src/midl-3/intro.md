@@ -10,7 +10,9 @@ ms.localizationpriority: medium
 ---
 
 # Introduction to Microsoft Interface Definition Language 3.0
-Microsoft Interface Definition Language (MIDL) 3.0 is a simplified, modern syntax for declaring Windows Runtime types inside Interface Definition Language (IDL) files (`.idl` files). This new syntax will feel familiar to anyone experienced with C, C++, C#, and/or Java. MIDL 3.0 is a particularly convenient way to declare [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) runtime classes. Here's how it looks; this example demonstrates most of the language syntax elements that you'll likely use.
+Microsoft Interface Definition Language (MIDL) 3.0 is a simplified, modern syntax for defining Windows Runtime types inside Interface Definition Language (IDL) files (`.idl` files). This new syntax will feel familiar to anyone experienced with C, C++, C#, and/or Java. MIDL 3.0 is a particularly convenient way to define [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) runtime classes, being dramatically more concise than previous versions of IDL (reducing designs by two thirds in length, and using reasonable defaults to reduce the need for decorating with attributes).
+
+Here's how MIDL 3.0 looks; this example demonstrates most of the language syntax elements that you'll likely use.
 
 ```idl
 // Photo.idl
@@ -33,20 +35,20 @@ namespace PhotoEditor
 }
 ```
 
-Note that the syntax of MIDL 3.0 is specifically and solely designed for *declaring* types. You'll use a different programming language to *implement* those types. To use MIDL 3.0, you'll need Windows SDK version 10.0.17134.0 (Windows 10, version 1803) (`midl.exe` version 8.01.0622 or later, used with the `/winrt` switch).
+Note that the syntax of MIDL 3.0 is specifically and solely designed for *defining* types. You'll use a different programming language to *implement* those types. To use MIDL 3.0, you'll need Windows SDK version 10.0.17134.0 (Windows 10, version 1803) (`midl.exe` version 8.01.0622 or later, used with the `/winrt` switch).
 
 ## MIDL 1.0, 2.0, and 3.0
-Interface Definition Language (IDL) began with the Distributed Computing Environment/Remote Procedure Calls (DCE/RPC) system. The original [MIDL 1.0](https://msdn.microsoft.com/library/windows/desktop/aa367091) is DCE/RPC IDL with enhancements for declaring COM interfaces and coclasses. An updated MIDL 2.0 syntax was then developed within Microsoft to declare Windows Runtime APIs for the Windows platform. If you look in the Windows SDK folder `%WindowsSdkDir%Include<WindowsTargetPlatformVersion>\winrt` then you'll see examples of `.idl` files that are written with the MIDL 2.0 syntax. These are first-party Windows Runtime APIs, declared in their application binary interface (ABI) form. These files exist primarily for tooling to use&mdash;you won't author nor consume these APIs in this form (unless you're writing very low-level code).
+Interface Definition Language (IDL) began with the Distributed Computing Environment/Remote Procedure Calls (DCE/RPC) system. The original [MIDL 1.0](https://msdn.microsoft.com/library/windows/desktop/aa367091) is DCE/RPC IDL with enhancements for defining COM interfaces and coclasses. An updated MIDL 2.0 syntax was then developed within Microsoft to declare Windows Runtime APIs for the Windows platform. If you look in the Windows SDK folder `%WindowsSdkDir%Include<WindowsTargetPlatformVersion>\winrt` then you'll see examples of `.idl` files that are written with the MIDL 2.0 syntax. These are first-party Windows Runtime APIs, declared in their application binary interface (ABI) form. These files exist primarily for tooling to use&mdash;you won't author nor consume these APIs in this form (unless you're writing very low-level code).
 
-MIDL 3.0 is a much simpler and more modern syntax, whose purpose is to declare Windows Runtime APIs. And you can use it in your projects, particularly to declare [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) runtime classes. The headers, for use from C++/WinRT, for the first-party Windows Runtime APIs are part of the SDK, inside the folder `%WindowsSdkDir%Include<WindowsTargetPlatformVersion>\cppwinrt\winrt`.
+MIDL 3.0 is a much simpler and more modern syntax, whose purpose is to declare Windows Runtime APIs. And you can use it in your projects, particularly to define [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) runtime classes. The headers, for use from C++/WinRT, for the first-party Windows Runtime APIs are part of the SDK, inside the folder `%WindowsSdkDir%Include<WindowsTargetPlatformVersion>\cppwinrt\winrt`.
 
 ## Use cases for MIDL 3.0
 In general, all Windows Runtime APIs are designed to be available to all Windows Runtime language projections. This is done, in part, by choosing to exclusively pass Windows Runtime types to and from Windows Runtime APIs. While it is a valid design decision to pass a raw COM interface to and from a Windows Runtime API, doing so limits the consumers of that particular Windows Runtime API to C++ applications. The technique can be seen in interoperation scenarios&mdash;for example, when interoperating between Direct3D and XAML. Since Direct3D is in the picture, the scenario is necessarily narrowed to C++ applications. So, an API that requires a COM interface doesn't impose any additional limitation over and above what's inherent. For example, a C++ application can obtain an [IDXGISwapChain](/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain) interface pointer, and then pass that to the [ISwapChainPanelNative::SetSwapChain method](/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-iswapchainpanelnative-setswapchain). A C# application, for example, wouldn't be able to obtain an **IDXGISwapChain** to begin with, so it wouldn't be able to use that method for that reason. These interop-related exceptions live in interop headers, such as `windows.ui.xaml.media.dxinterop.h`.
 
 If there *are* features or functionality of a COM component that you wish to expose to Windows Runtime language projections beyond C++, then you can create a C++ [Windows Runtime component](/windows/uwp/winrt-components/) (WRC) that directly creates and uses the COM component (such as DirectX, for example), and exposes a replication of some subset of its features and functionality in the form of a Windows Runtime API surface that takes and returns Windows Runtime types only. You could then consume that WRC from an application written in *any* Windows Runtime language projection.
 
-## Declaration structure, and calling midl.exe from the command line
-The key organizational concepts in a MIDL 3.0 declaration are namespaces, types, and members. A MIDL 3.0 source file (an `.idl` file) contains at least one namespace, inside which are types and/or subordinate namespaces. Each type contains zero or more members.
+## Definition structure, and calling midl.exe from the command line
+The key organizational concepts in a MIDL 3.0 definition are namespaces, types, and members. A MIDL 3.0 source file (an `.idl` file) contains at least one namespace, inside which are types and/or subordinate namespaces. Each type contains zero or more members.
 
 - Classes, interfaces, structures, and enumerations are types.
 - Fields, methods, properties, and events are examples of members.
@@ -75,7 +77,7 @@ namespace Bookstore
 }
 ```
 
-Since the namespace of a Windows Runtime type becomes part of the type name, the example above declares a runtime class named **Bookstore.BookSku**. There's no language-independent way of expressing **BookSku** without also expressing the namespace.
+Since the namespace of a Windows Runtime type becomes part of the type name, the example above defines a runtime class named **Bookstore.BookSku**. There's no language-independent way of expressing **BookSku** without also expressing the namespace.
 
 This class implements the **Windows.UI.Xaml.Data.INotifyPropertyChanged** interface. And the class contains several members: two constructors, a read-write property (**Price**), some read-only properties (**AuthorName** through **Title**), and two methods, named **Equals** and **ApplyDiscount**. Note the use of the type **Single** rather than **float**. And that **String** has an upper-case "S".
 
@@ -91,7 +93,7 @@ midl /winrt /metadata_dir "%WindowsSdkDir%References\10.0.17134.0\windows.founda
 The `midl.exe` tool compiles the example and produces a metadata file named `Bookstore.winmd` (by default, the name of the `.idl` file is used). 
 
 > [!TIP]
-> We recommend that you declare each runtime class in its own Interface Definition Language (IDL) (.idl) file, in order to optimize build performance when you edit an IDL file, and for logical correspondence of an IDL file to its generated source code files. Then, merge all of the resulting `.winmd` files into a single file with the same name as the root namespace. That final `.winmd` file will be the one that the consumers of your APIs will reference.
+> If you use more than one IDL file (for advice about that, see [Factoring runtime classes into Midl files (.idl)](/windows/uwp/cpp-and-winrt-apis/author-apis#factoring-runtime-classes-into-midl-files-idl)), then merge all of the resulting `.winmd` files into a single file with the same name as the root namespace. That final `.winmd` file will be the one that the consumers of your APIs will reference.
 
 In this case, **BookSku** is the only runtime class in the **Bookstore** namespace, so we saved a step and just named the `.idl` file for the namespace.
 
@@ -101,7 +103,7 @@ Incidentally, you can use the `where` command to find out where `midl.exe` is in
 where midl
 ```
 
-If you want to use the types declared in one `.idl` file from a different `.idl` file, then you use the `import` directive. For more details, and a code example, see [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property). Of course, if you're consuming a first- or third-party component, then you won't have access to the `.idl` file. For example, you might want to consume the [Win2D](https://www.nuget.org/packages/Win2D.uwp) Windows Runtime API for immediate-mode 2D graphics rendering. The command above used the `/reference` switch to reference a Windows Runtime metadata (`.winmd`) file. In this next example, we'll use that switch again, imagining the scenario where we have `Bookstore.winmd`, but not `Bookstore.idl`.
+If you want to use the types defined in one `.idl` file from a different `.idl` file, then you use the `import` directive. For more details, and a code example, see [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property). Of course, if you're consuming a first- or third-party component, then you won't have access to the `.idl` file. For example, you might want to consume the [Win2D](https://www.nuget.org/packages/Win2D.uwp) Windows Runtime API for immediate-mode 2D graphics rendering. The command above used the `/reference` switch to reference a Windows Runtime metadata (`.winmd`) file. In this next example, we'll use that switch again, imagining the scenario where we have `Bookstore.winmd`, but not `Bookstore.idl`.
 
 ```idl
 // MVVMApp.idl
@@ -122,9 +124,9 @@ midl /winrt /metadata_dir "%WindowsSdkDir%References\10.0.17134.0\windows.founda
 ```
 
 ## Namespaces
-A namespace is required. It prefixes the name of all types defined in the scope of the namespace block with the namespace name. A namespace can also contain subordinate namespace declarations. The name of types declared in a subordinate namespace scope have a prefix of all the containing namespace names.
+A namespace is required. It prefixes the name of all types defined in the scope of the namespace block with the namespace name. A namespace can also contain subordinate namespace declarations. The name of types defined in a subordinate namespace scope have a prefix of all the containing namespace names.
 
-The examples below are two ways of declaring the same **Windows.Foundation.Uri** class.
+The examples below are two ways of declaring the same **Windows.Foundation.Uri** class (as you can see, periods separate the levels of nested namespaces).
 
 ```idl
 namespace Windows.Foundation
@@ -149,6 +151,46 @@ namespace Windows
 }
 ```
 
+Here's another example showing that it's legal to declare namespaces and their types in a nested fashion.
+
+```idl
+namespace RootNs.SubNs1
+{
+    runtimeclass MySubNs1Class
+    {
+        void DoWork();
+    }
+
+    namespace SubNs2
+    {
+        runtimeclass MySubNs2Class
+        {
+            void DoWork();
+        }
+    }
+}
+```
+
+But it's more common practice to close the previous namespace, and open a new one, like this.
+
+```idl
+namespace RootNs.SubNs1
+{
+    runtimeclass MySubNs1Class
+    {
+        void DoWork();
+    }
+}
+
+namespace RootNs.SubNs1.SubNs2
+{
+    runtimeclass MySubNs2Class
+    {
+        void DoWork();
+    }
+}
+```
+
 ## Types
 There are two kinds of data types in MIDL 3.0: value types, and reference types. A variable of a value type directly contains its data. A variable of a reference type stores a reference to its data (such a variable is also known as an *object*).
 
@@ -158,7 +200,7 @@ MIDL 3.0's value types are further divided into simple types, enum types, struct
 
 MIDL 3.0's reference types are further divided into class types, interface types, and delegate types.
 
-Here's an overview of MIDL 3.0's type system.
+Here's an overview of MIDL 3.0's type system. Unlike previous versions of MIDL, you can't use aliases for these types.
 
 <div class="mx-responsive-img">
 <table class="uwpd-top-aligned-table">
@@ -175,7 +217,7 @@ Here's an overview of MIDL 3.0's type system.
     <td>Unsigned integral: <b>UInt8</b>, <b>UInt16</b>, <b>UInt32</b>, <b>UInt64</b></td>
   </tr>
   <tr>
-    <td>Unicode characters: <b>Char</b></td>
+    <td>Unicode characters: <b>Char</b> (represents a UTF-16LE; a 16-bit Unicode code unit)</td>
   </tr>
   <tr>
     <td>Unicode strings: <b>String</b></td>
@@ -289,7 +331,7 @@ The following table summarizes MIDL 3.0's numeric types.
 </table>
 </div>
 
-MIDL 3.0 source files use type declarations to create new types. A type declaration specifies the name and the members of the new type. These MIDL 3.0 type categories are user-definable.
+MIDL 3.0 source files use type definitions to create new types. A type definition specifies the name and the members of the new type. These MIDL 3.0 type categories are user-definable.
 
 - attribute types,
 - struct types,
@@ -298,15 +340,15 @@ MIDL 3.0 source files use type declarations to create new types. A type declarat
 - delegate types, and
 - enum types.
 
-An *attribute* type declares a Windows Runtime attribute that can be applied to other type declarations. An attribute provides metadata about the type to which the attribute is applied.
+An *attribute* type defines a Windows Runtime attribute that can be applied to other type definitions. An attribute provides metadata about the type to which the attribute is applied.
 
-A *struct* type declares a Windows Runtime structure that contains data members. Structs are value types, and they do not require heap allocation. A data member of a struct type must either be a value type or a nullable type. Struct types do not support inheritance.
+A *struct* type defines a Windows Runtime structure that contains data members. Structs are value types, and they do not require heap allocation. A data member of a struct type must either be a value type or a nullable type. Struct types do not support inheritance.
 
-An *interface* type declares a Windows Runtime interface, which is a named set of function members. An interface may specify that an implementation of the interface must also implement of one or more specified additional (required) interfaces. Every interface type directly derives from the Windows Runtime [**IInspectable**](https://msdn.microsoft.com/en-us/library/br205821) interface.
+An *interface* type defines a Windows Runtime interface, which is a named set of function members. An interface may specify that an implementation of the interface must also implement of one or more specified additional (required) interfaces. Every interface type directly derives from the Windows Runtime [**IInspectable**](https://msdn.microsoft.com/en-us/library/br205821) interface.
 
-A *runtimeclass* type declares a Windows Runtime class (runtime class). A runtime class contains members that can be properties, methods, and events.
+A *runtimeclass* type defines a Windows Runtime class (runtime class). A runtime class contains members that can be properties, methods, and events.
 
-A *delegate* type declares a Windows Runtime delegate, which represents a reference to a method with a particular parameter list and return type. Delegates make it possible to treat a method as an entity that can be passed as a parameter. A delegate is similar to the concept of a function pointer found in some other languages. Unlike function pointers, delegates are object-oriented, and type-safe.
+A *delegate* type defines a Windows Runtime delegate, which represents a reference to a method with a particular parameter list and return type. Delegates make it possible to treat a method as an entity that can be passed as a parameter. A delegate is similar to the concept of a function pointer found in some other languages. Unlike function pointers, delegates are object-oriented, and type-safe.
 
 An *enum* type is a distinct type with named constants. Every enum type has an implicit underlying type; either **Int32** or **UInt32**. The set of values of an enum type is the same as the set of values of the underlying type.
 
@@ -318,12 +360,12 @@ MIDL 3.0 supports three additional type categories.
 
 You don't need to declare a single-dimensional array before you can use it. Instead, array types are constructed by following a type name with square brackets. For example, **Int32[]** is a single-dimensional array of **Int32**.
 
-Similarly, *nullable* value types also do not have to be declared before they can be used. For each non-nullable value type **T** (except **String**), there's a corresponding nullable type **Windows.Foundation.IReference&lt;T&gt;**, which can hold the additional value `null`. For instance, **Windows.Foundation.IReference&lt;Int32&gt;** is a type that can hold any 32-bit integer, or the value `null`. Also see [**IReference&lt;T&gt;**](/uwp/api/windows.foundation.ireference_t_).
+Similarly, *nullable* value types also do not have to be defined before they can be used. For each non-nullable value type **T** (except **String**), there's a corresponding nullable type **Windows.Foundation.IReference&lt;T&gt;**, which can hold the additional value `null`. For instance, **Windows.Foundation.IReference&lt;Int32&gt;** is a type that can hold any 32-bit integer, or the value `null`. Also see [**IReference&lt;T&gt;**](/uwp/api/windows.foundation.ireference_t_).
 
 Finally, MIDL 3.0 supports the **Object** type, which maps to the Windows Runtime [**IInspectable**](https://msdn.microsoft.com/en-us/library/br205821) interface. The *interface* and *runtimeclass* reference types conceptually derive from the **Object** type; *delegate* does not.
 
 ### Expressions in an enumerated value
-With MIDL 3.0, you can only use an *expression* in the declaration of the value of an enumerated type's named constants; in other words, in an enumeration initializer.
+With MIDL 3.0, you can only use an *expression* in the definition of the value of an enumerated type's named constants; in other words, in an enumeration initializer.
 
 An expression is constructed from *operands* and *operators*. The operators in an expression indicate which operations to apply to the operands. Examples of operators include +, -, *, /, and `new`. Examples of operands include literals, fields, local variables, and expressions.
 
@@ -422,16 +464,16 @@ The following table summarizes MIDL 3.0's operators, listing the operator catego
 </div>
 
 ## Classes
-*Classes* are the most fundamental of MIDL 3.0's types. A class is a declaration of an aggregation of methods, properties, and events in a single unit. Classes support *inheritance* and *polymorphism*&mdash;mechanisms whereby *derived classes* can extend and specialize *base classes*.
+*Classes* are the most fundamental of MIDL 3.0's types. A class is a definition of an aggregation of methods, properties, and events in a single unit. Classes support *inheritance* and *polymorphism*&mdash;mechanisms whereby *derived classes* can extend and specialize *base classes*.
 
-You declare a new class type using a class declaration. A class
-declaration starts with a header that specifies the `runtimeclass`
+You define a new class type using a class definition. A class
+definition starts with a header that specifies the `runtimeclass`
 keyword, the name of the class, the base class (if given), and the
 interfaces implemented by the class. The header is followed by the class
 body, which consists of a list of member declarations written between
 the delimiters { and }.
 
-Here's a declaration of a simple class named **Area**.
+Here's a definition of a simple class named **Area**.
 
 ```idl
 runtimeclass Area
@@ -440,29 +482,29 @@ runtimeclass Area
 
     Int32 Height;
     Int32 Width;
-    
-  static Int32 NumberOfAreas { get; };
+
+    static Int32 NumberOfAreas { get; };
 }
 ```
 
-This declares a new Windows Runtime class named **Area**,
+This defines a new Windows Runtime class named **Area**,
 which has a constructor that take two **Int32** parameters, two **Int32**
 read-write properties named **Height** and **Width**, and a static read-only
 property named **NumberOfAreas**.
 
 By default, a runtimeclass is sealed, and derivation from it is disallowed. See [Base classes](#base-classes).
 
-In order to bind XAML to a view model, the view model runtime class needs to be declared in MIDL. See [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property) for more details.
+In order to bind XAML to a view model, the view model runtime class needs to be defined in MIDL. See [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property) for more details.
 
 ### Member access modifiers
-As MIDL 3.0 is a declaration language for describing the public surface
+As MIDL 3.0 is a definition language for describing the public surface
 of Windows Runtime types, there's no need for explicit syntax to
 declare the public accessibility of a member. All members are implicitly
 public. That's why MIDL 3.0 doesn't require nor allow the (effectively
 redundant) `public` keyword.
 
 You can declare that a class contains only static members by prefixing
-the runtime class declaration with the `static` keyword. Adding a
+the runtime class definition with the `static` keyword. Adding a
 non-static member to the class then causes a compilation error.
 
 ```idl
@@ -477,12 +519,12 @@ static runtimeclass Area
 |static|Class contains only static members|
 
 ### Base classes
-A class declaration may specify a base class by following the class name and type parameters with a colon and the name of the base class. Omitting a base class specification is the same as deriving from type **Object** (in other words, from [**IInspectable**](https://msdn.microsoft.com/en-us/library/br205821)).
+A class definition may specify a base class by following the class name and type parameters with a colon and the name of the base class. Omitting a base class specification is the same as deriving from type **Object** (in other words, from [**IInspectable**](https://msdn.microsoft.com/en-us/library/br205821)).
 
 > [!NOTE]
-> Your view model classes&mdash;in fact, any runtime class that you declare in your application&mdash;need not derive from a base class.
+> Your view model classes&mdash;in fact, any runtime class that you define in your application&mdash;need not derive from a base class.
 >
-> Any runtime class that you declare in the application that *does* derive from a base class is known as a *composable* class. And there are constraints around composable classes. For an application to pass the [Windows App Certification Kit](/windows/uwp/debug-test-perf/windows-app-certification-kit) tests used by Visual Studio and by the Microsoft Store to validate submissions (and therefore for the application to be successfully ingested into the Microsoft Store), a composable class must ultimately derive from a Windows base class. Meaning that the class at the very root of the inheritance hierarchy must be a type originating in a Windows.* namespace.
+> Any runtime class that you define in the application that *does* derive from a base class is known as a *composable* class. And there are constraints around composable classes. For an application to pass the [Windows App Certification Kit](/windows/uwp/debug-test-perf/windows-app-certification-kit) tests used by Visual Studio and by the Microsoft Store to validate submissions (and therefore for the application to be successfully ingested into the Microsoft Store), a composable class must ultimately derive from a Windows base class. Meaning that the class at the very root of the inheritance hierarchy must be a type originating in a Windows.* namespace.
 >
 > See [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property) for more details.
 
@@ -504,7 +546,7 @@ runtimeclass Volume : Area
 ```
 
 > [!NOTE]
-> Here, **Area** and **Volume** are declared in the same source file. For a discussion of the pros and cons, see [Factoring runtime classes into Midl files (.idl)](/windows/uwp/cpp-and-winrt-apis/author-apis#factoring-runtime-classes-into-midl-files-idl).
+> Here, **Area** and **Volume** are defined in the same source file. For a discussion of the pros and cons, see [Factoring runtime classes into Midl files (.idl)](/windows/uwp/cpp-and-winrt-apis/author-apis#factoring-runtime-classes-into-midl-files-idl).
 
 A class inherits the members of its base class. Inheritance means that a
 class implicitly contains all members of its base class, except for the
@@ -519,7 +561,7 @@ from **Area**. So, every **Volume** instance contains three properties:
 In general, type resolution rules require that a type name is fully qualified when referenced. An exception is when the type has been defined in the same namespace as the current type. The example above works as written if **Area** and **Volume** are both in the same namespace.
 
 ### Implemented interfaces
-A class declaration may also specify a list of interfaces that the class
+A class definition may also specify a list of interfaces that the class
 implements. You specify the interfaces as a comma-separated list of
 interfaces following the (optional) base class.
 
@@ -624,7 +666,7 @@ unsealed runtimeclass Area
 }
 ```
 
-If you want subsequently to make the **SurfaceColor** property read-write, and you don't need to maintain binary compatibility with prior declarations of **Area** (for example, the **Area** class is a type in an application that you
+If you want subsequently to make the **SurfaceColor** property read-write, and you don't need to maintain binary compatibility with prior definitions of **Area** (for example, the **Area** class is a type in an application that you
 recompile each time), then you can simply add the `set` keyword to the existing
 **SurfaceColor** declaration like this.
 
@@ -864,7 +906,7 @@ parameters. Delegates are similar to the concept of function pointers
 found in some other languages. But, unlike function pointers, delegates
 are object-oriented and type-safe.
 
-If we don't want to use the [**WindowSizeChangedEventHandler**](/uwp/api/windows.ui.xaml.windowsizechangedeventhandler) delegate type from the platform, then we can declare our own delegate type.
+If we don't want to use the [**WindowSizeChangedEventHandler**](/uwp/api/windows.ui.xaml.windowsizechangedeventhandler) delegate type from the platform, then we can define our own delegate type.
 
 ```idl
 delegate void SizeChangedHandler(Object sender, Windows.UI.Core.WindowSizeChangedEventArgs args);
@@ -980,7 +1022,7 @@ runtimeclass EditBox : IControl, IDataBound
 
 ### Enums
 An *enum type* is a distinct value type with a set of named
-constants. The following example declares and uses an enum type named
+constants. The following example defines and uses an enum type named
 **Color** with three constant values: **Red**, **Green**, and **Blue**.
 
 ```idl
@@ -1003,7 +1045,7 @@ An enum type's storage format and range of possible values are
 determined by its underlying type. The set of values that an enum type
 can take on is not limited by its declared enum members.
 
-The following example declares an enum type named **Alignment**, with an
+The following example defines an enum type named **Alignment**, with an
 underlying type of **Int32**.
 
 ```idl
@@ -1022,7 +1064,7 @@ enum member declaration doesn't explicitly specify a value, the member
 is given the value zero (if it is the first member in the enum type), or
 the value of the textually preceding enum member plus one.
 
-The following example declares an enum type named **Permissions**, with an
+The following example defines an enum type named **Permissions**, with an
 underlying type of **UInt32**.
 
 ```idl
@@ -1046,7 +1088,7 @@ retrieved at run-time from the metadata.
 Programs specify this additional declarative information by defining and
 using *attributes*.
 
-The next example declares a **HelpAttribute** attribute, which can be
+The next example defines a **HelpAttribute** attribute, which can be
 placed on program entities to provide links to their associated
 documentation.
 
@@ -1059,7 +1101,7 @@ attribute HelpAttribute
 }
 ```
 
-An attributes can be applied by giving its name, along with any
+An attribute can be applied by giving its name, along with any
 arguments, inside square brackets just before the associated
 declaration. If an attribute's name ends in Attribute, then that part of the
 name can be omitted when the attribute is referenced. For example, the
@@ -1075,7 +1117,7 @@ runtimeclass Widget
 ```
 
 You can apply the same attribute to multiple
-declaration by using a scope block following the
+declarations by using a scope block following the
 attribute. That is, an attribute immediately followed by braces surrounding
 the declarations to which the attribute applies.
 
