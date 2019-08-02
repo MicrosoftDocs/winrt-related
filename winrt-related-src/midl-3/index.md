@@ -10,7 +10,7 @@ ms.localizationpriority: medium
 ---
 
 # Microsoft Interface Definition Language 3.0 reference
-Microsoft Interface Definition Language (MIDL) 3.0 is a simplified, modern, familiar syntax for declaring Windows Runtime types inside Interface Definition Language (`.idl`) files.
+Microsoft Interface Definition Language (MIDL) 3.0 is a simplified, modern, familiar syntax for defining Windows Runtime types inside Interface Definition Language (`.idl`) files.
 
 ```idl
 // BookSku.idl
