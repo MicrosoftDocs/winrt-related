@@ -12,7 +12,7 @@ keywords: windows 10, uwp, app installer, AppInstaller, sideload
 
 # OnLaunch
 
-This element signifies that the deployment service will check for an update to the App Installer file on the app launch.
+This element signifies that the deployment service will check for an update to the App Installer file when the app launches.
 
 ## Element hierarchy
 
@@ -40,7 +40,7 @@ This element signifies that the deployment service will check for an update to t
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
-| HoursBetweenUpdateChecks | HoursBetweenUpdateChecks specifies the frequency with which the the deployment service will check for an update to the App Installer file. When HoursBetweenUpdateChecks is set to 0, the deployment service will check for updates every time the application is launched. If HoursBetweenUpdateChecks is set to 12, the deployments service will check for updates every 12 hours. The default value of HoursBetweenUpdateChecks is 24, meaning the deployments service will check for updates every 24 hours unless otherwise specified. | Numeric values between 0 and 255 inclusive. The default is 24. | No |
+| HoursBetweenUpdateChecks | HoursBetweenUpdateChecks specifies the frequency with which the the deployment service will check for an update to the App Installer file. When HoursBetweenUpdateChecks is set to 0, the deployment service will check for updates every time the application is launched. For other values, the deployment service will check for updates when the application is launched only if it hasn't previously checked within the last number of hours specified by HoursBetweenUpdateChecks. For example, if HoursBetweenUpdateChecks is set to 12, the deployments service will check for updates when the application is launched only if it hasn't already checked for updates in the previous 12 hours. | Numeric values between 0 and 255 inclusive. The default is 24. | No |
 | ShowPrompt | Indicates if deployment will show a prompt, informing the user about the update. Available in Windows 10, version 1903 and later. |Boolean | No |
 | UpdateBlocksActivation| Should only be used if ShowPrompt="true". Indicates if deployment will stop the user from launching the application until the update has been applied. “UpdateBlocksActivation” = true means the UI the user will see allows the user to take the update or close the app. “UpdateBlocksActivation” = false means the UI the user will see allows the user to take the update or start the app without updating. In the latter case, the update will be applied silently at an opportune time.  Available in Windows 10, version 1903 and later. | Boolean | No |
 
