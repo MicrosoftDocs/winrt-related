@@ -2189,6 +2189,10 @@
       href: midl-3/synthesizing-interfaces.md
     - name: "Predefined attributes (MIDL 3.0)"
       href: midl-3/predefined-attributes.md
+    - name: "Advanced topics (MIDL 3.0)"
+      href: midl-3/advanced.md
+    - name: "Transition from classic MIDLRT"
+      href: midl-3/from-midlrt.md
     - name: "Reserved keywords (MIDL 3.0)"
       href: midl-3/reserved-keywords.md
     - name: "Troubleshooting MIDL 3.0 issues"

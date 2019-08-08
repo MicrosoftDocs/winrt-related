@@ -4,7 +4,7 @@ description: An introduction to Microsoft Interface Definition Language 3.0.
 title: Introduction to Microsoft Interface Definition Language 3.0
 ms.author: stwhi
 ms.date: 04/23/2018
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, winrt, api, reference, idl, midl, 3.0, 3, midl3
 ms.localizationpriority: medium
 ---
@@ -38,7 +38,11 @@ namespace PhotoEditor
 Note that the syntax of MIDL 3.0 is specifically and solely designed for *defining* types. You'll use a different programming language to *implement* those types. To use MIDL 3.0, you'll need Windows SDK version 10.0.17134.0 (Windows 10, version 1803) (`midl.exe` version 8.01.0622 or later, used with the `/winrt` switch).
 
 ## MIDL 1.0, 2.0, and 3.0
-Interface Definition Language (IDL) began with the Distributed Computing Environment/Remote Procedure Calls (DCE/RPC) system. The original [MIDL 1.0](https://msdn.microsoft.com/library/windows/desktop/aa367091) is DCE/RPC IDL with enhancements for defining COM interfaces and coclasses. An updated MIDL 2.0 syntax was then developed within Microsoft to declare Windows Runtime APIs for the Windows platform. If you look in the Windows SDK folder `%WindowsSdkDir%Include<WindowsTargetPlatformVersion>\winrt` then you'll see examples of `.idl` files that are written with the MIDL 2.0 syntax. These are first-party Windows Runtime APIs, declared in their application binary interface (ABI) form. These files exist primarily for tooling to use&mdash;you won't author nor consume these APIs in this form (unless you're writing very low-level code).
+Interface Definition Language (IDL) began with the Distributed Computing Environment/Remote Procedure Calls (DCE/RPC) system. The original [MIDL 1.0](https://msdn.microsoft.com/library/windows/desktop/aa367091) is DCE/RPC IDL with enhancements for defining COM interfaces and coclasses.
+
+An updated MIDL 2.0 syntax (also known as MIDLRT) was then developed within Microsoft to declare Windows Runtime APIs for the Windows platform. If you look in the Windows SDK folder `%WindowsSdkDir%Include<WindowsTargetPlatformVersion>\winrt` then you'll see examples of `.idl` files that are written with the MIDL 2.0 syntax. These are first-party Windows Runtime APIs, declared in their application binary interface (ABI) form. These files exist primarily for tooling to use&mdash;you won't author nor consume these APIs in this form (unless you're writing very low-level code).
+
+Also see [Transition to MIDL 3.0 from classic MIDLRT](from-midlrt.md).
 
 MIDL 3.0 is a much simpler and more modern syntax, whose purpose is to declare Windows Runtime APIs. And you can use it in your projects, particularly to define [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) runtime classes. The headers, for use from C++/WinRT, for the first-party Windows Runtime APIs are part of the SDK, inside the folder `%WindowsSdkDir%Include<WindowsTargetPlatformVersion>\cppwinrt\winrt`.
 
@@ -464,7 +468,8 @@ The following table summarizes MIDL 3.0's operators, listing the operator catego
 </div>
 
 ## Classes
-*Classes* are the most fundamental of MIDL 3.0's types. A class is a definition of an aggregation of methods, properties, and events in a single unit. Classes support *inheritance* and *polymorphism*&mdash;mechanisms whereby *derived classes* can extend and specialize *base classes*.
+
+*Classes* (or runtime classes) are the most fundamental of MIDL 3.0's types. A class is a definition of an aggregation of methods, properties, and events in a single unit. Classes support *inheritance* and *polymorphism*&mdash;mechanisms whereby *derived classes* can extend and specialize *base classes*.
 
 You define a new class type using a class definition. A class
 definition starts with a header that specifies the `runtimeclass`
@@ -496,16 +501,7 @@ By default, a runtimeclass is sealed, and derivation from it is disallowed. See 
 
 In order to bind XAML to a view model, the view model runtime class needs to be defined in MIDL. See [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property) for more details.
 
-### Member access modifiers
-As MIDL 3.0 is a definition language for describing the public surface
-of Windows Runtime types, there's no need for explicit syntax to
-declare the public accessibility of a member. All members are implicitly
-public. That's why MIDL 3.0 doesn't require nor allow the (effectively
-redundant) `public` keyword.
-
-You can declare that a class contains only static members by prefixing
-the runtime class definition with the `static` keyword. Adding a
-non-static member to the class then causes a compilation error.
+You can declare that a class contains only static members, and supports no instances, by prefixing the runtime class definition with the `static` keyword. Adding a non-static member to the class then causes a compilation error.
 
 ```idl
 static runtimeclass Area
@@ -514,9 +510,23 @@ static runtimeclass Area
 }
 ```
 
-|Access modifier|Meaning|
+A static class is different from an empty class. Also see [Empty classes](advanced.md#empty-classes).
+
+You can indicate that a class definition is incomplete by prefixing the runtime class definition with the `partial` keyword. All of the partial class definitions encountered by the compiler are combined into a single runtime class. This feature is primarily for XAML authoring scenarios, where some of the partial classes are machine-generated.
+
+|Modifier|Meaning|
 |-|-|
 |static|Class contains only static members|
+|partial|Class definition is incomplete|
+
+See [Composition and activation](advanced.md#composition-and-activation) for advanced modifiers.
+
+### Member access modifiers
+As MIDL 3.0 is a definition language for describing the public surface
+of Windows Runtime types, there's no need for explicit syntax to
+declare the public accessibility of a member. All members are implicitly
+public. That's why MIDL 3.0 doesn't require nor allow the (effectively
+redundant) `public` keyword.
 
 ### Base classes
 A class definition may specify a base class by following the class name and type parameters with a colon and the name of the base class. Omitting a base class specification is the same as deriving from type **Object** (in other words, from [**IInspectable**](https://msdn.microsoft.com/en-us/library/br205821)).
@@ -601,13 +611,12 @@ This table shows the kinds of member that a class can contain.
 #### Constructors
 MIDL 3.0 supports the declaration of instance constructors. An *instance
 constructor* is a method that implements the actions required to
-initialize an instance of a class.
+initialize an instance of a class. Constructors may not be static.
 
 A constructor is declared like an instance method (but with no return
 type), and with the same name as the containing class.
 
-Instance constructors can be overloaded. For example, the **Test** class below declares three instance constructors; one with no parameters, one that
-takes an **Int32** parameter, and one that takes two **Double** parameters.
+Instance constructors can be overloaded. For example, the **Test** class below declares three instance constructors; one with no parameters (the *default* constructor), one that takes an **Int32** parameter, and one that takes two **Double** parameters (*parameterized* constructors).
 
 ```idl
 runtimeclass Test
@@ -617,6 +626,8 @@ runtimeclass Test
     Test(Double x, Double y);
 }
 ```
+
+For details on the syntax for parameter lists, see [Methods](#methods) below.
 
 Instance properties, methods, and events are inherited. Instance constructors are not inherited (with one exception), and a class has no instance constructors other than those
 actually declared in the class. If no instance constructor is supplied
@@ -655,6 +666,11 @@ providing the `get` and `set` keywords in that order&mdash;`get`, followed by `s
 
 Additionally, you can specify only the `get` keyword to indicate that the
 property is read-only.
+
+```idl
+// Read-only instance property returning mutable collection.
+Windows.Foundation.Collections.IVector<Windows.UI.Color> Colors { get; };
+```
 
 The Windows Runtime doesn't support write-only properties. But you can specify only the `set` keyword to revise an existing read-only property into a read-write property. Take this version of **Area** as an example.
 
@@ -718,10 +734,10 @@ Color SurfaceColor { get; set; };
 Color SurfaceColor { set; get; };
 ```
 
-##### Instance and static properties
+##### Static and instance properties
 Similar to fields and methods, MIDL 3.0 supports both instance
 properties and static properties. Static properties are declared with
-the `static` modifier, and instance properties are declared without it.
+the `static` modifier prefixed, and instance properties are declared without it.
 
 #### Methods
 A *method* is a member that implements a computation or action that
@@ -731,6 +747,35 @@ A method has a (possibly empty) list of *parameters*, which
 represent values or variable references passed to the method. A method also has a *return type*, which specifies the type of the value computed and
 returned by the method. A method's return type is `void` if it doesn't
 return a value.
+
+```idl
+// Instance method with no return value.
+void AddData(String data);
+
+// Instance method *with* a return value.
+Int32 GetDataSize();
+
+// Instance method accepting/returning a runtime class.
+// Notice that you don't say "&" nor "*" for reference types.
+BasicClass MergeWith(BasicClass other);
+
+// Asynchronous instance methods.
+Windows.Foundation.IAsyncAction UpdateAsync();
+Windows.Foundation.IAsyncOperation<Boolean> TrySaveAsync();
+
+// Instance method that returns a value through a parameter.
+Boolean TryParseInt16(String input, out Int16 value);
+
+// Instance method that receives a reference to a value type.
+Double CalculateArea(ref const Windows.Foundation.Rect value);
+
+// Instance method accepting or returning a conformant array.
+void SetBytes(UInt8[] bytes);
+UInt8[] GetBytes();
+
+// instance method that writes to a caller-provided conformant array
+void ReadBytes(ref UInt8[] bytes);
+```
 
 The *signature* of a method must be unique in the class in which the
 method is declared. The signature of a method consists of the name of
@@ -831,7 +876,7 @@ runtimeclass Test
 MIDL 3.0 supports declarations of a *single-dimensional array*.
 
 ##### Static and instance methods
-A method declared with a `static` modifier is a *static method*. A
+A method declared with a `static` modifier prefixed is a *static method*. A
 static method has no access to a specific instance, and therefore can
 only directly access other static members of the class.
 
@@ -895,16 +940,26 @@ runtimeclass Area
 An event declaration implicitly adds two methods to the class: an *add*
 method, which a client calls to add an event handler to the source, and a
 *remove* method, which a client calls to remove a previously added event
-handler.
+handler. Here are more example.
+
+```idl
+// Instance event with no payload.
+event Windows.Foundation.TypedEventHandler<BasicClass, Object> Changed;
+
+// Instance event with event parameters.
+event Windows.Foundation.TypedEventHandler<BasicClass, BasicClassSaveCompletedEventArgs> SaveCompleted;
+
+// Static event with no payload.
+static event Windows.Foundation.EventHandler<Object> ResetOccurred;
+
+// Static event with event parameters.
+static event Windows.Foundation.EventHandler<BasicClassDeviceAddedEventArgs> DeviceAdded;
+```
 
 ### Delegates
-A *delegate type* specifies a method with a particular parameter list and return type. A single instance of an event can contain any number of references to instances of its delegate type.
+A *delegate type* specifies a method with a particular parameter list and return type. A single instance of an event can contain any number of references to instances of its delegate type. The declaration is similar to that of a regular member method, except that it exists outside of a runtime class, and it's prefixed with the `delegate` keyword.
 
-A delegate makes it possible to treat
-methods as entities that can be assigned to variables and passed as
-parameters. Delegates are similar to the concept of function pointers
-found in some other languages. But, unlike function pointers, delegates
-are object-oriented and type-safe.
+A delegate makes it possible to treat methods as entities that can be assigned to variables and passed as parameters. Delegates are similar to the concept of function pointers found in some other languages. But, unlike function pointers, delegates are object-oriented and type-safe.
 
 If we don't want to use the [**WindowSizeChangedEventHandler**](/uwp/api/windows.ui.xaml.windowsizechangedeventhandler) delegate type from the platform, then we can define our own delegate type.
 
@@ -912,18 +967,17 @@ If we don't want to use the [**WindowSizeChangedEventHandler**](/uwp/api/windows
 delegate void SizeChangedHandler(Object sender, Windows.UI.Core.WindowSizeChangedEventArgs args);
 ```
 
-An instance of our **SizeChangedHandler** delegate type can reference any
-method that takes two arguments (an **Object**, and a [**WindowSizeChangedEventArgs**](/uwp/api/windows.ui.core.windowsizechangedeventargs)), and
-returns void. After we've discussed *structs*, you'll also be able to replace the **WindowSizeChangedEventArgs** parameter with an *event args* type of your own.
+An instance of our **SizeChangedHandler** delegate type can reference any method that takes two arguments (an **Object**, and a [**WindowSizeChangedEventArgs**](/uwp/api/windows.ui.core.windowsizechangedeventargs)), and returns void. After we've discussed *structs*, you'll also be able to replace the **WindowSizeChangedEventArgs** parameter with an *event args* type of your own.
 
-An interesting and useful property of a delegate is that it doesn't
-know or care about the class of the method it references; all that
-matters is that the referenced method has the same parameters and return
-type as the delegate.
+An interesting and useful property of a delegate is that it doesn't know or care about the class of the method it references; all that matters is that the referenced method has the same parameters and return type as the delegate.
+
+You can optionally attribute a delegate declaration with `[uuid(...)]`.
+
+Also see [Delegates returning HRESULT](advanced.md#delegates-returning-hresult).
 
 ### Structs
-*Structs* are data structures that can contain data members. But,
-unlike a class, a struct is a value type.
+
+A *struct* is a data structure that can contain data members. But, unlike a class, a struct is a value type.
 
 Structs are particularly useful for small data structures that have
 value semantics. Complex numbers, event args, points in a coordinate system, or
@@ -968,6 +1022,8 @@ struct Point
 ```
 
 Now, only one object is instantiated&mdash;the array object itself. The **Point** elements are stored in line inside the array; a memory arrangement that processor caches are able to use to powerful effect.
+
+Structs implemented as part of Windows itself are not altered once introduced.
 
 ### Interfaces
 An *interface* defines a contract that can be implemented by
@@ -1020,8 +1076,11 @@ runtimeclass EditBox : IControl, IDataBound
 }
 ```
 
+You should only define an interface if you expect developers who consume your types to implement it.
+
 ### Enums
-An *enum type* is a distinct value type with a set of named
+
+An *enum type* (or enumerated type, or enumeration) is a distinct value type with a set of named
 constants. The following example defines and uses an enum type named
 **Color** with three constant values: **Red**, **Green**, and **Blue**.
 
@@ -1030,20 +1089,28 @@ enum Color
 {
     Red,
     Green,
-    Blue
+    Blue, // Trailing comma is optional, but recommended to make future changes easier.
 }
 ```
 
-Each enum type has a corresponding integral type called the
-*underlying type* of the enum type. The underlying type of an enum
-is either **Int32** or **UInt32**.
+Each enum type has a corresponding integral type called the *underlying type* of the enum type. The underlying type of an enum is either **Int32** or **UInt32**.
 
-When an enum is a *Flags* enum (that is, it has the `[flags]` attribute
-applied), the underlying type of the enum is **UInt32**. When the `[flags]` attribute is not present, the underlying type of the enum is **Int32**.
+The Windows Runtime supports two kinds of enums: *normal* enums, and *flags* enums. An enum of the normal kind expresses a set of exclusive values; while one of the flags kind represents a set of Boolean values. To enable bitwise operators for a flags enum, the MIDL 3.0 compiler generates C++ operator overloads.
 
-An enum type's storage format and range of possible values are
-determined by its underlying type. The set of values that an enum type
-can take on is not limited by its declared enum members.
+A flags enum has the `[flags]` attribute applied. In that case, the underlying type of the enum is **UInt32**. When the `[flags]` attribute is not present (a normal enum), the underlying type of the enum is **Int32**. It's not possible to declare an enum as any other type.
+
+```idl
+[flags]
+enum SetOfBooleanValues
+{
+    None   = 0x00000000,
+    Value1 = 0x00000001,
+    Value2 = 0x00000002,
+    Value3 = 0x00000004,
+};
+```
+
+An enum type's storage format and range of possible values are determined by its underlying type. The set of values that an enum type can take on is not limited by its declared enum members.
 
 The following example defines an enum type named **Alignment**, with an
 underlying type of **Int32**.
@@ -1057,8 +1124,8 @@ enum Alignment
 };
 ```
 
-An enum member declaration can include a constant expression that
-specifies the value of the member. The constant value for each enum
+As is also true for C and C++, a MIDL 3.0 enum can include a constant expression that
+specifies the value of the member (as seen above). The constant value for each enum
 member must be in the range of the underlying type of the enum. When an
 enum member declaration doesn't explicitly specify a value, the member
 is given the value zero (if it is the first member in the enum type), or
@@ -1093,6 +1160,7 @@ placed on program entities to provide links to their associated
 documentation.
 
 ```idl
+[attributeusage(target_runtimeclass_member)]
 attribute HelpAttribute
 {
     HelpAttribute(String classUri);
@@ -1132,6 +1200,12 @@ runtimeclass Widget
     }
 }
 ```
+
+Attributes implemented as part of Windows itself are usually in the **Windows.Foundation** namespace.
+
+As shown in the first example, you use the `[attributeusage(<target>)]` attribute on your attribute definition. Valid target values are `target_all`, `target_delegate`, `target_enum`, `target_event`, `target_field`, `target_interface`, `target_method`, `target_parameter`, `target_property`, `target_runtimeclass`, `target_runtimeclass_member`, and `target_struct`. You can include multiple targets within the parentheses, separated by commas.
+
+Other attributes you can apply to an attribute are `[allowmultiple]` and `[attributename("<name>")]`.
 
 ## Parameterized types
 
