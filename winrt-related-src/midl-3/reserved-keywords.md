@@ -4,7 +4,7 @@ description: This topic lists the reserved keywords in MIDL 3.0. You may not use
 title: Reserved keywords (MIDL 3.0)
 ms.author: stwhi
 ms.date: 01/30/2019
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, winrt, api, reference, idl, midl, 3.0, 3, midl3
 ms.localizationpriority: medium
 ---

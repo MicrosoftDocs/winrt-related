@@ -4,7 +4,7 @@ description: There are a number of pre-defined custom attributes that allow you 
 title: Predefined attributes (MIDL 3.0)
 ms.author: stwhi
 ms.date: 04/23/2018
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, winrt, api, reference, idl, midl, 3.0, 3, midl3
 ms.localizationpriority: medium
 ---
