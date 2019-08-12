@@ -15,7 +15,7 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 
 
 ## Description
-Contains Migration Prog Ids for protocols and file type associations.
+Contains [programmatic identifier (ProgID)](https://docs.microsoft.com/windows/win32/shell/fa-progids) values that describes the application, component, and version of each desktop application from which you want to inherit file associations.
 
 
 ## Element Hierarchy
