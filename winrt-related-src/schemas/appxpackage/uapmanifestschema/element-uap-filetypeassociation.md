@@ -191,7 +191,7 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 </tr>
 <tr class="odd">
 <td><a href="element-rescap3-migrationprogids.md">rescap3:MigrationProgIds</a> </td>
-<td><p>Contains [programmatic identifier (ProgID)](https://docs.microsoft.com/windows/win32/shell/fa-progids) values that describes the application, component, and version of each desktop application from which you want to inherit file associations.</p></td>
+<td><p>Contains <a href="https://docs.microsoft.com/windows/win32/shell/fa-progids">programmatic identifier (ProgID)</a> values that describe the application, component, and version of each desktop application from which you want to inherit file associations.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-desktop2-ThumbnailHandler.md">desktop2:ThumbnailHandler</a> </td>
