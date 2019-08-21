@@ -1090,7 +1090,7 @@ enum Color
     Red,
     Green,
     Blue, // Trailing comma is optional, but recommended to make future changes easier.
-}
+};
 ```
 
 Each enum type has a corresponding integral type called the *underlying type* of the enum type. The underlying type of an enum is either **Int32** or **UInt32**.
