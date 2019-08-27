@@ -145,7 +145,7 @@ void capture(winrt::com_ptr<O> const& object, M method, Args&&...args);
 
 ### Template parameters
 `typename F`
-A free function type.
+A function object type, such as a free function, or **std::function**.
 
 `typename O`
 An interface type.
@@ -158,7 +158,7 @@ Zero or more argument types.
 
 ### Parameters
 `function`
-A free function of type `F`.
+A function object of type `F`.
 
 `object`
 A **winrt::com_ptr** of type `O`.
@@ -168,6 +168,13 @@ A method (implemented by `O`) of type `M`.
 
 `args`
 Zero or more arguments of type `Args`.
+
+### Remarks
+
+- The `capture(F function, Args&&...args)` overload invokes the function object.
+- The `capture(winrt::com_ptr<O> const& object, M method, Args&&...args)` overload invokes the method on the object.
+
+Both overloads pass through (to the invokee) any additional arguments that you provide. Both overloads also pass the two additional arguments that such invokees require&mdash;specifically, a **REFIID** (the ID of the target of the **winrt::com_ptr**), and a **void\*\*** (The address of a pointer to the target of the **winrt::com_ptr**).
 
 ### Example
 
