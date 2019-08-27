@@ -373,7 +373,7 @@ With MIDL 3.0, you can only use an *expression* in the definition of the value o
 
 An expression is constructed from *operands* and *operators*. The operators in an expression indicate which operations to apply to the operands. Examples of operators include +, -, *, /, and `new`. Examples of operands include literals, fields, local variables, and expressions.
 
-When an expression contains multiple operators, the *precedence* of the operators controls the order in which the individual operators are evaluated. For example, the expression x + y * z is evaluated as x + (y * z) because the * operator has higher precedence than the + operator.
+When an expression contains multiple operators, the *precedence* of the operators controls the order in which the individual operators are evaluated. For example, the expression x + y * z is evaluated as x + (y * z) because the * operator has higher precedence than the + operator. Logical operations are lower precedence than bitwise operations.
 
 The following table summarizes MIDL 3.0's operators, listing the operator categories in order of precedence from highest to lowest. Operators in the same category have equal precedence.
 
@@ -442,7 +442,7 @@ The following table summarizes MIDL 3.0's operators, listing the operator catego
   </tr>
   <tr>
     <td rowspan="2">Shift</td>
-    <td>x << y</td>
+    <td>x &lt;&lt; y</td>
     <td>Shift left</td>
   </tr>
   <tr>
@@ -450,19 +450,29 @@ The following table summarizes MIDL 3.0's operators, listing the operator catego
     <td>Shift right</td>
   </tr>
   <tr>
-    <td>Logical AND</td>
+    <td>Bitwise AND</td>
     <td>x & y</td>
-    <td>Integer bitwise AND, boolean logical AND</td>
+    <td>Integer bitwise AND</td>
   </tr>
   <tr>
-    <td>Logical XOR</td>
+    <td>Bitwise XOR</td>
     <td>x ^ y</td>
-    <td>Integer bitwise XOR, boolean logical XOR</td>
+    <td>Integer bitwise XOR</td>
+  </tr>
+  <tr>
+    <td>Bitwise OR</td>
+    <td>x | y</td>
+    <td>Integer bitwise OR</td>
+  </tr>
+  <tr>
+    <td>Logical AND</td>
+    <td>x && y</td>
+    <td>Boolean logical AND</td>
   </tr>
   <tr>
     <td>Logical OR</td>
-    <td>x | y</td>
-    <td>Integer bitwise OR, boolean logical OR</td>
+    <td>x || y</td>
+    <td>Boolean logical OR</td>
   </tr>
 </table>
 </div>
@@ -805,7 +815,7 @@ runtimeclass Test
 ```
 
 > [!NOTE]
-> All methods with the same name must have differing *arity*. The Windows Runtime doesn't support overloading by the same arity but with differing parameter types.
+> All methods with the same name should have differing *arity*. That's because weakly-typed programming languages don't support overloading by type.
 
 ##### Parameters
 *Parameters* are used to pass values, or variable references, to a method. A *parameter* describes a range of allowable values, and a name. An *argument* is an actual value passed in practice where a parameter is expected.
@@ -943,18 +953,20 @@ method, which a client calls to add an event handler to the source, and a
 handler. Here are more example.
 
 ```idl
-// Instance event with no payload.
+// Instance event with no meaningful payload.
 event Windows.Foundation.TypedEventHandler<BasicClass, Object> Changed;
 
 // Instance event with event parameters.
 event Windows.Foundation.TypedEventHandler<BasicClass, BasicClassSaveCompletedEventArgs> SaveCompleted;
 
-// Static event with no payload.
+// Static event with no meaningful payload.
 static event Windows.Foundation.EventHandler<Object> ResetOccurred;
 
 // Static event with event parameters.
 static event Windows.Foundation.EventHandler<BasicClassDeviceAddedEventArgs> DeviceAdded;
 ```
+
+By convention, if you have no meaningful payload, pass a dummy **Object**. So, there is always a payload; but not always a meaningful one.
 
 ### Delegates
 A *delegate type* specifies a method with a particular parameter list and return type. A single instance of an event can contain any number of references to instances of its delegate type. The declaration is similar to that of a regular member method, except that it exists outside of a runtime class, and it's prefixed with the `delegate` keyword.
@@ -1076,7 +1088,7 @@ runtimeclass EditBox : IControl, IDataBound
 }
 ```
 
-You should only define an interface if you expect developers who consume your types to implement it.
+For Windows Runtime types in the Windows platform, an interface is defined if developers who consume those types are expected to implement the interface. Another use case for defining an interface is when multiple runtime classes implement the interface, and developers consuming those runtime classes will access different types of object generically (and thus polymorphically) via that common interface.
 
 ### Enums
 
