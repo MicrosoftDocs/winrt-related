@@ -185,9 +185,6 @@ winrt::com_ptr<IDXGIFactory2> factory;
 factory.capture(adapter, &IDXGIAdapter::GetParent);
 ```
 
-### Return value
-A **com_ptr** referencing the requested interface, or a strongly-typed smart pointer for the requested interface (either declared by C++/WinRT or by a third party), if the requested interface is supported, otherwise `nullptr` (the `auto`-returning overload), or `false` (the `bool`-returning overload).
-
 ## com_ptr::copy_from function
 Copies from another pointer. Decrements the reference count on any currently referenced interface or object, copies the raw pointer parameter, and begins managing the lifetime of the interface or object pointed to by it.
 
