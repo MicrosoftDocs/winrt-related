@@ -9,7 +9,7 @@ ms.topic: reference
 
 # Windows UI Library 2.2
 
-WinUI 2.2 is the next upcoming release of the Windows UI Library. It is currently in preview and available as a prerelease NuGet package.
+WinUI 2.2 is the latest official release of the Windows UI Library. 
 
 You can add WinUI packages to your app using the NuGet package manager: see [Getting Started with the Windows UI Library](../getting-started.md) for more information.
 
