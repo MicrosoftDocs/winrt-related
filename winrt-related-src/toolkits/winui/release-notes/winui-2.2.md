@@ -32,7 +32,7 @@ AUGUST 2019
 ![Example](../images/TabView%20GIF.gif)
 
 #### Description: 
-The Tab control is a collection of tabs that each represents a new page or document in your app. Tab controls are useful when your app has several pages of content and the user expects to be able to add, close, and rearrange the pages.
+The TabView control is a collection of tabs that each represents a new page or document in your app. TabView is useful when your app has several pages of content and the user expects to be able to add, close, and rearrange the tabs. The new [Windows Terminal](https://github.com/Microsoft/Terminal) uses TabView to show multiple command line interfaces. 
 
 #### MSDN Doc Link:  
 https://docs.microsoft.com/en-us/uwp/api/microsoft.ui.xaml.controls.tabview?view=winui-2.2
