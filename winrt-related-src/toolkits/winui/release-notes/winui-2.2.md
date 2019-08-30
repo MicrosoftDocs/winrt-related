@@ -56,7 +56,7 @@ App developers can now reclaim all pixels within their app window when they use 
 #### MSDN Doc Link:  
 https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/navigationview#top-whitespace
 
-#### 3) Santorini Style Updates
+#### 3) Visual Style Updates
 
 #### a) Corner Radius Update
 
