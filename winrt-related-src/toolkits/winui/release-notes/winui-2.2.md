@@ -7,7 +7,7 @@ ms.date: 04/16/2019
 ms.topic: reference
 ---
 
-# Windows UI Library 2.2 prerelease
+# Windows UI Library 2.2
 
 WinUI 2.2 is the next upcoming release of the Windows UI Library. It is currently in preview and available as a prerelease NuGet package.
 
