@@ -49,8 +49,7 @@ A traits type that specifies the kind of handle being represented (a handle, a f
 |[handle_type::close function](#handle_typeclose-function)|Closes the underlying handle.|
 |[handle_type::detach function](#handle_typedetach-function)|Detaches from the underlying handle.|
 |[handle_type::get function](#handle_typeget-function)|Returns the underlying handle should you need to pass it to a function.|
-|[handle_type::put function](#handle_typeput-function)|
-Returns the address of the underlying handle; this function helps you call methods that return references as out parameters via a pointer to a handle.|
+|[handle_type::put function](#handle_typeput-function)|Returns the address of the underlying handle; this function helps you call methods that return references as out parameters via a pointer to a handle.|
 
 ## Member operators
 |Operator|Description|
