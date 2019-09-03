@@ -29,7 +29,7 @@ AUGUST 2019
 
 #### 1) TabView
 
-![Example](../images/TabView%20GIF.gif)
+![Example](../images/tabview-gif.gif)
 
 #### Description: 
 The TabView control is a collection of tabs that each represents a new page or document in your app. TabView is useful when your app has several pages of content and the user expects to be able to add, close, and rearrange the tabs. The new [Windows Terminal](https://github.com/Microsoft/Terminal) uses TabView to show multiple command line interfaces. 
@@ -41,14 +41,14 @@ https://docs.microsoft.com/en-us/uwp/api/microsoft.ui.xaml.controls.tabview?view
 
 #### a) NavigationView's Back Button update
 
-![Example](../images/NavigationView_BackButton.gif)
+![Example](../images/navigationview-back-button.gif)
 
 #### Description: 
 In NavigationView’s minimal mode, the back button no longer disappears. When opening and closing the pane, users no longer need to move their cursor to click the hamburger button. This feature will work by default. You don't need to make any code changes to make this work.
 
 #### b) NavigationView - No Auto Padding
 
-![Example](../images/NavigationView_NoAutoPadding.png)
+![Example](../images/navigationview-no-auto-padding.png)
 
 #### Description: 
 App developers can now reclaim all pixels within their app window when they use the NavigationView control and extend into the title bar area.
@@ -60,7 +60,7 @@ https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/naviga
 
 #### a) Corner Radius Update
 
-![Example](../images/CornerRadius.png)
+![Example](../images/corner-radius.png)
 
 #### Description: 
 CornerRadius attribute was added. Default controls were updated to use slightly rounded corners. Developers can easily customize the corner radius to give your app a unique look if desired.
@@ -70,7 +70,7 @@ https://github.com/microsoft/microsoft-ui-xaml/issues/524
 
 #### b) Border Thickness Update
 
-![Example](../images/BorderThickness.png)
+![Example](../images/border-thickness.png)
 
 #### Description: 
 BorderThickness property was made easier to customize. Default controls were updated to reduce the outlines to be thinner for a cleaner and familiar look.
@@ -80,7 +80,7 @@ https://github.com/microsoft/microsoft-ui-xaml/issues/835
 
 #### c) Button Visual Update
 
-![Example](../images/ButtonHoverVisualUpdate.png)
+![Example](../images/button-hover-visual-update.png)
 
 #### Description: 
 Default Button’s visual was updated to remove outline that appeared during hover to give it a cleaner look.
@@ -90,7 +90,7 @@ https://github.com/microsoft/microsoft-ui-xaml/issues/953
 
 #### d) SplitButton Visual Update
 
-![Example](../images/SplitButtonVisualUpdate.png)
+![Example](../images/splitbutton-visual-update.png)
 
 #### Description: 
 Default SplitButton’s visual was updated to make it more distinct from DropDownButton.
@@ -100,7 +100,7 @@ https://github.com/microsoft/microsoft-ui-xaml/issues/986
 
 #### e) ToggleSwitch Visual Update
 
-![Example](../images/ToggleSwitchUpdate.png)
+![Example](../images/toggleswitch-update.png)
 
 #### Description: 
 Default ToggleSwitch’s width was reduced from 44px to 40px so it is balanced visually while retaining usability.
@@ -110,7 +110,7 @@ https://github.com/microsoft/microsoft-ui-xaml/issues/836
 
 #### f) CheckBox and RadioButton Visual Update
 
-![Example](../images/CheckboxRadioButton.png)
+![Example](../images/checkbox-radiobutton.png)
 
 #### Description: 
 CheckBox and RadioButton visuals were updated to be consistent with the rest of the visual style change.
