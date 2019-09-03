@@ -108,6 +108,16 @@ Default ToggleSwitch’s width was reduced from 44px to 40px so it is balanced v
 #### GitHub Spec Link: 
 https://github.com/microsoft/microsoft-ui-xaml/issues/836
 
+#### f) CheckBox and RadioButton Visual Update
+
+![Example](../images/CheckboxRadioButton.png)
+
+#### Description: 
+CheckBox and RadioButton visuals were updated to be consistent with the rest of the visual style change.
+
+#### GitHub Spec Link: 
+https://github.com/microsoft/microsoft-ui-xaml/issues/839
+
 
 ### Microsoft.UI.Xaml 2.2.190702001-prerelease
 
