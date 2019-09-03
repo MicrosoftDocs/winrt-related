@@ -21,9 +21,9 @@ WinUI is an open source project hosted on GitHub. We welcome bug reports, featur
 
 AUGUST 2019
 
-[GitHub release page](https://github.com/microsoft/microsoft-ui-xaml/releases/tag/v2.2.190702001-prerelease)
+[GitHub release page](https://github.com/microsoft/microsoft-ui-xaml/releases)
 
-[NuGet package download](https://www.nuget.org/packages/Microsoft.UI.Xaml/2.2.190702001-prerelease)
+[NuGet package download](https://www.nuget.org/packages/Microsoft.UI.Xaml)
 
 ### New Features
 
