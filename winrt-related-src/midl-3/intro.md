@@ -511,7 +511,7 @@ By default, a runtimeclass is sealed, and derivation from it is disallowed. See 
 
 In order to bind XAML to a view model, the view model runtime class needs to be defined in MIDL. See [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property) for more details.
 
-You can declare that a class contains only static members, and supports no instances, by prefixing the runtime class definition with the `static` keyword. Adding a non-static member to the class then causes a compilation error.
+You can declare that a class supports no instances (and consequently must contain only static members) by prefixing the runtime class definition with the `static` keyword. Adding a non-static member to the class then causes a compilation error.
 
 ```idl
 static runtimeclass Area
@@ -526,8 +526,8 @@ You can indicate that a class definition is incomplete by prefixing the runtime 
 
 |Modifier|Meaning|
 |-|-|
-|static|Class contains only static members|
-|partial|Class definition is incomplete|
+|static|Class has no instances. Consequently, only static members are permitted.|
+|partial|Class definition is incomplete.|
 
 See [Composition and activation](advanced.md#composition-and-activation) for advanced modifiers.
 
@@ -646,18 +646,11 @@ for a class, then you cannot directly instantiate the class. For such a class, y
 The exception is unsealed classes. An unsealed class can have one or more protected constructors.
 
 #### Properties
-*Properties* are conceptually similar to fields. Both are a member with a name and an associated type. However, unlike fields, properties do not
-denote storage locations. Instead, properties have *accessors* that
-specify the function to be executed when you read or write a property.
+*Properties* are conceptually similar to fields. Both are a member with a name and an associated type. However, unlike fields, properties do not denote storage locations. Instead, properties have *accessors* that specify the function to be executed when you read or write a property.
 
-A property is declared like a field, except that the declaration ends
-with a `get` keyword and/or a `set` keyword written between the delimiters {
-and }, and ending in a semicolon.
+A property is declared like a field, except that the declaration ends with a `get` keyword and/or a `set` keyword written between the delimiters { and }, and ending in a semicolon.
 
-A property that has both a `get` keyword and a `set` keyword is a
-*read-write property*. A property that has only a `get` keyword is a
-*read-only property*. And a property that has only a `set` keyword is
-a *write-only property*.
+A property that has both a `get` keyword and a `set` keyword is a *read-write property*. A property that has only a `get` keyword is a *read-only property*. The Windows Runtime doesn't support write-only properties.
 
 For example, the class **Area**, seen previously, contains two read-write properties named **Height** and **Width**.
 
@@ -838,12 +831,12 @@ actual value. For large value types, it's more efficient to pass (to a function)
 pointer-sized reference to a value than to pass a copy of the actual
 value itself.
 
-A const reference parameter is declared with the `const ref` modifier. This example shows the use of `const ref` parameters; a practical choice when accepting a value as large as a [**Matrix4X4**](/uwp/api/windows.foundation.numerics.matrix4x4).
+A const reference parameter is declared with the `const ref` modifier. This example shows the use of `const ref` parameters; a practical choice when accepting a value as large as a [**Matrix4X4**](/uwp/api/windows.foundation.numerics.matrix4x4), for example.
 
 ```idl
 runtimeclass Test
 {
-    static void Swap(const ref Matrix4X4 x, const ref Matrix4X4 y);
+    static bool IsIdentity(const ref Matrix4X4 m);
 }
 ```
 
@@ -858,14 +851,6 @@ runtimeclass Test
     static void Divide(Int32 x, Int32 y, out Int32 result, out Int32 remainder);
 }
 ```
-
-Note that JavaScript projects a method with multiple `out` parameters
-differently than most languages do. JavaScript projects the preceding
-method as returning a single object; and the returned object has two
-properties. The properties have the names of the `out` parameters. In
-the preceding example, the JavaScript object returned by the method call
-has a property named *result*, and another property named
-*remainder*.
 
 An *array* is a data structure that contains a number of variables that are accessed through computed indices. The variables contained in
 an array&mdash;also called the *elements* of the array&mdash;are all of the
@@ -966,7 +951,7 @@ static event Windows.Foundation.EventHandler<Object> ResetOccurred;
 static event Windows.Foundation.EventHandler<BasicClassDeviceAddedEventArgs> DeviceAdded;
 ```
 
-By convention, if you have no meaningful payload, pass a dummy **Object**. So, there is always a payload; but not always a meaningful one.
+By convention, two parameters are always passed to a Windows Runtime event handler: the identity of the sender, and an event arguments object. The sender is the object that raised the event, or null for static events. If the event has no meaningful payload, then the event arguments is an **Object** whose value is null.
 
 ### Delegates
 A *delegate type* specifies a method with a particular parameter list and return type. A single instance of an event can contain any number of references to instances of its delegate type. The declaration is similar to that of a regular member method, except that it exists outside of a runtime class, and it's prefixed with the `delegate` keyword.
@@ -991,12 +976,7 @@ Also see [Delegates returning HRESULT](advanced.md#delegates-returning-hresult).
 
 A *struct* is a data structure that can contain data members. But, unlike a class, a struct is a value type.
 
-Structs are particularly useful for small data structures that have
-value semantics. Complex numbers, event args, points in a coordinate system, or
-key-value pairs in a dictionary are all good examples of structs. The
-use of structs rather than classes for small data structures can make a
-large difference in the number of memory allocations that an application
-performs.
+Structs are particularly useful for small data structures that have value semantics. Complex numbers, or points in a coordinate system, are good examples of structs. The use of structs rather than classes for small data structures can make a large difference in the number of memory allocations that an application performs.
 
 Let's use an example to contrast classes and structs. Here's a version of **Point** first as a *class*.
 
@@ -1035,7 +1015,7 @@ struct Point
 
 Now, only one object is instantiated&mdash;the array object itself. The **Point** elements are stored in line inside the array; a memory arrangement that processor caches are able to use to powerful effect.
 
-Structs implemented as part of Windows itself are not altered once introduced.
+Changing a struct is a binary breaking change. Therefore, structs implemented as part of Windows itself are not altered once introduced.
 
 ### Interfaces
 An *interface* defines a contract that can be implemented by

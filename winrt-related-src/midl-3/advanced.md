@@ -321,4 +321,19 @@ delegate HRESULT AmbiguousDelegate(MyEnum e);
 - Interpreted as a classic delegate, where the delegate nominally returns void, and the HRESULT is for propagating an exception.
 - If you really wanted a delegate that returned an **HRESULT**, you need to use classic syntax: `delegate HRESULT AmbiguousDelegate(MyEnum e, [out, retval] HRESULT* result);`.
 
-Fortunately, it's rare to have a delegate that nominally returns HRESULT.
+Fortunately, it's rare to have a delegate that nominally returns **HRESULT**.
+
+## Output parameters in JavaScript and Visual Basic
+
+See [Parameters](/uwp/midl-3/intro#parameters) for background info about output parameters.
+
+JavaScript projects a method with an `out` parameter differently from most languages. If a method's return type is void, and it has a single `out` parameter, then the `out` parameter is returned by the method. Otherwise, the method returns a single object; that object has a property for each `out` parameter, plus another property for the return value (if not void). In the following example, then, the JavaScript object returned by the method call has a property named *result*, and another property named *remainder*.
+
+```idl
+runtimeclass Test
+{
+    static void Divide(Int32 x, Int32 y, out Int32 result, out Int32 remainder);
+}
+```
+
+Visual Basic doesn't support `out`-only parameters. A method with `out` parameters is treated by Visual Basic as if it were `ByRef`.
