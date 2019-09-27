@@ -18,6 +18,13 @@ This is the base from which your own [C++/WinRT](/windows/uwp/cpp-and-winrt-apis
 > [!NOTE]
 > For more info about deriving from this type, and examples, see [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis).
 
+## Extension points on winrt::implements
+
+**winrt::implements** has extension points that allow you to defer destruction of your implementation types, to safely query during destruction, and to hook the entry into and exit from your projected methods. Here are the names of the extension points, together with links to details and code examples.
+
+- **final_release**. See [Deferred destruction](/windows/uwp/cpp-and-winrt-apis/details-about-destructors#deferred-destruction) and [Safe queries during destruction](/windows/uwp/cpp-and-winrt-apis/details-about-destructors#safe-queries-during-destruction).
+- **abi_enter**, **abi_exit**, and **abi_guard**. See [Method entry and exit hooks](/windows/uwp/cpp-and-winrt-apis/details-about-destructors#method-entry-and-exit-hooks).
+
 ## Marker types
 The **implements** struct template supports several marker types (such as [non_agile](non-agile.md), [no_weak_ref](no-weak-ref.md), and [static_lifetime](static-lifetime.md) for factories). These marker types override default behavior. We expect that these will be only rarely used; the defaults are sufficient for almost all cases. A marker type can appear anywhere in the interface list, which is the variadic parameter pack.
 
@@ -195,4 +202,5 @@ The **implements** object converted to a **Windows::Foundation::IInspectable**.
 * [winrt namespace](winrt.md)
 * [winrt::weak_ref struct template](weak-ref.md)
 * [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis)
+* [Extension points for your implementation types](/windows/uwp/cpp-and-winrt-apis/details-about-destructors)
 * [Strong and weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references)
