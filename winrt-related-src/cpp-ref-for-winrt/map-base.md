@@ -18,7 +18,7 @@ A base class from which you can derive to implement your own custom non-observab
 ## Syntax
 ```cppwinrt
 template <typename D, typename K, typename V>
-struct map_base : map_view_base<D, K, V, impl::collection_version>
+struct map_base : map_view_base<D, K, V, winrt::impl::collection_version>
 ```
 
 ### Template parameters

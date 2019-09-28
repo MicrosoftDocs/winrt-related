@@ -16,29 +16,36 @@ A helper function that detaches a [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/in
 
 ## Syntax
 ```cppwinrt
-template <typename T, typename = std::enable_if_t<!std::is_base_of_v<winrt::Windows::Foundation::IUnknown, std::decay_t<T>> && !std::is_convertible_v<T, std::wstring_view>>>
+template <typename T, typename =
+std::enable_if_t<!std::is_base_of_v<winrt::Windows::Foundation::IUnknown, std::decay_t<T>>
+&& !std::is_convertible_v<T, std::wstring_view>>>
 auto detach_abi(T&& object);
 
-void* detach_abi(winrt::Windows::Foundation::IUnknown& object) noexcept
+inline void* detach_abi(winrt::Windows::Foundation::IUnknown& object) noexcept;
 
-void* detach_abi(winrt::Windows::Foundation::IUnknown&& object) noexcept
+inline void* detach_abi(winrt::Windows::Foundation::IUnknown&& object) noexcept;
 
-constexpr void* detach_abi(std::nullptr_t) noexcept
-
-template <typename T>
-auto detach_abi(winrt::com_ptr<T>& object) noexcept
-
-HSTRING detach_abi(winrt::hstring& object) noexcept
-
-HSTRING detach_abi(winrt::hstring&& object) noexcept
-
-HSTRING detach_abi(std::wstring_view const& value)
+constexpr void* detach_abi(std::nullptr_t) noexcept;
 
 template <typename T>
-auto detach_abi(winrt::com_array<T>& object) noexcept
+auto detach_abi(winrt::com_ptr<T>& object) noexcept;
+
+inline void* detach_abi(winrt::hstring& object) noexcept;
+
+inline void* detach_abi(winrt::hstring&& object) noexcept;
+
+inline void* detach_abi(std::wstring_view const& value);
+
+inline void* detach_abi(std::wchar_t const * const value);
 
 template <typename T>
-auto detach_abi(winrt::com_array<T>&& object) noexcept
+auto detach_abi(winrt::com_array<T>& object) noexcept;
+
+template <typename T>
+auto detach_abi(winrt::com_array<T>&& object) noexcept;
+
+template <typename T>
+auto detach_abi(std::uint32_t* __valueSize, winrt::impl::arg_out<T>* value) noexcept;
 ```
 
 ### Parameters

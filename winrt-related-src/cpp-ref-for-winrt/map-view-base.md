@@ -17,7 +17,7 @@ A base class from which you can derive to implement your own custom view, or spa
 
 ## Syntax
 ```cppwinrt
-template <typename D, typename K, typename V, typename Version = impl::no_collection_version>
+template <typename D, typename K, typename V, typename Version = winrt::impl::no_collection_version>
 struct map_view_base : iterable_base<D, winrt::Windows::Foundation::Collections::IKeyValuePair<K, V>, Version>
 ```
 
