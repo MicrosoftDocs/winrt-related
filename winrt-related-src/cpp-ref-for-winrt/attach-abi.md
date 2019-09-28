@@ -17,8 +17,11 @@ A helper function that attaches a [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/in
 
 ## Syntax
 ```cppwinrt
-void attach_abi(winrt::com_ptr<T>& object, T* value) noexcept;
-void attach_abi(winrt::hstring& object, HSTRING value) noexcept;
+template <typename T>
+void attach_abi(com_ptr<T>& object, winrt::impl::abi_t<T>* value) noexcept;
+
+void attach_abi(winrt::hstring& object, void* value) noexcept;
+
 void attach_abi(winrt::Windows::Foundation::IUnknown& object, void* value) noexcept;
 ```
 
