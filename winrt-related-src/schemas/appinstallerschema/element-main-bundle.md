@@ -1,6 +1,6 @@
 ---
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 title: MainBundle
 description: The MainBundle element specifies the information about the bundle package which includes name, publisher, version and uri. 
 ms.topic: reference

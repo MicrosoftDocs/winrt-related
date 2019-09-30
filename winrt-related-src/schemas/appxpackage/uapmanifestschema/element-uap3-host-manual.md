@@ -3,8 +3,8 @@ Description: Represents a valid HTTP or HTTPS host name that the app wants to re
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:Host
 ms.assetid: 7635ea1b-a5f8-4347-a553-8cabb62d7102
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

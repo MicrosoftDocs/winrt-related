@@ -3,8 +3,8 @@ Description: Declares a language, display scale, or DirectX feature level for re
 Search.Product: eADQiWindows 10XVcnh
 title: Resource
 ms.assetid: 445e7de7-e778-4666-b099-3d7f6f0125c7
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

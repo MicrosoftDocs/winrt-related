@@ -1,8 +1,8 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 title: uap6:LocalExperiencePack
 description: This extension provides a means to deliver translated app resources.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 04/10/2018
 ms.topic: reference
 

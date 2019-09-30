@@ -3,8 +3,8 @@ Description: Declares the function for the device.
 Search.Product: eADQiWindows 10XVcnh
 title: Function (Windows 10)
 ms.assetid: d53133f1-6017-4c20-bbff-f2370c5fc39d
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

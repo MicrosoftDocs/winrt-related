@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 62655174-6b4c-4fef-bc99-b5ef22b85333
 title: desktop2:FirewallRules
 description: Specifies firewall exception rules used by Windows Desktop Bridge apps.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 04/05/2017
 ms.topic: reference
 

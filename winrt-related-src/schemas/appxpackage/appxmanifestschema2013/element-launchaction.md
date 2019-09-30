@@ -3,8 +3,8 @@ Description: Describes a ContactLaunchActions content action.
 Search.Product: eADQiWindows 10XVcnh
 title: LaunchAction (in ContactLaunchActions)
 ms.assetid: 3561ba0c-690c-4c09-b383-b2c1e95f26d6
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

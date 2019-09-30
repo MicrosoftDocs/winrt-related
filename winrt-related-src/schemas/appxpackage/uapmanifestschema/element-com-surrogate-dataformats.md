@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 152ab966-bf59-4b40-83b6-1a653f9361f9
 title: com:DataFormats (in SurrogateServer/Class)
 description: Specifies the default and main data formats supported by an application.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 03/29/2017
 ms.topic: reference
 

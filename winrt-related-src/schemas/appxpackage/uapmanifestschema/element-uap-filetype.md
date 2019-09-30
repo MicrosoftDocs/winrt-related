@@ -3,8 +3,8 @@ Description: A supported file type specified as its file type extension.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:FileType (uap:FileTypeAssociation/uap:SupportedFileTypes)
 ms.assetid: 9a872ee1-03fa-48f0-bc13-e35c7a22820e
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

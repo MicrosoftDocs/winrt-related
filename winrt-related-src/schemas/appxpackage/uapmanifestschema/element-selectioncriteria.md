@@ -3,8 +3,8 @@ Description: Defines selection criteria for the certificates defined for the pac
 Search.Product: eADQiWindows 10XVcnh
 title: SelectionCriteria (Windows 10)
 ms.assetid: 5f3d9db3-5b2d-44ec-9607-dcc15f0854b5
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

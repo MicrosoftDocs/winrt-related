@@ -3,8 +3,8 @@ Description: A friendly name that can be displayed to users. This string is loca
 Search.Product: eADQiWindows 10XVcnh
 title: DisplayName
 ms.assetid: 3c16ea92-5f60-4d15-ac7d-8fc8fee3a51f
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 7095e2f1-6781-4961-b436-1192c55fa53f
 title: desktop2:DesktopPreviewHandler
 description: Enables declaration of a preview handler for a file type association.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 04/05/2017
 ms.topic: reference
 

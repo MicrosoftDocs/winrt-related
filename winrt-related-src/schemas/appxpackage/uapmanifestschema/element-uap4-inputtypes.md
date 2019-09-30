@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: ddc64ab8-4c79-4034-ab23-476053c7dbb3
 title: uap4:InputTypes
 description: Contains the media codec input types.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 04/05/2017
 ms.topic: reference
 

@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 0aab475f-cb99-4742-9be5-e0b760c7bf05
 title: desktop2:AppPrinter
 description: Enables the ability to install software file printers in Windows Desktop Bridge apps.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 04/05/2017
 ms.topic: reference
 

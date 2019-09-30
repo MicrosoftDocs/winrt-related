@@ -1,8 +1,8 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 title: uap6:BarcodeScannerProvider
 description: Used for enabling the support of a barcode scanner.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 04/10/2018
 ms.topic: reference
 

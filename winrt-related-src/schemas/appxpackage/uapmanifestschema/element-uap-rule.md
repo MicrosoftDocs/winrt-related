@@ -3,8 +3,8 @@ Description: Specifies which pages in the web context have access to the system'
 Search.Product: eADQiWindows 10XVcnh
 title: uap:Rule (Windows 10)
 ms.assetid: 99bea1bd-db33-4dc9-bdf5-299f413d5c00
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

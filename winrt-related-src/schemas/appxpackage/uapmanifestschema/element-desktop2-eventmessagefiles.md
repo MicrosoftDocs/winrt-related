@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: a0d13555-3408-4d8e-8ac9-223f7b31059f
 title: desktop2:EventMessageFiles
 description: Contains event message files.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 04/05/2017
 ms.topic: reference
 

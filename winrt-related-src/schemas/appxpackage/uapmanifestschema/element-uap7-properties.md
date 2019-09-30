@@ -1,8 +1,8 @@
 ---
 Description: Properties of an application.
 title: uap7:Properties
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

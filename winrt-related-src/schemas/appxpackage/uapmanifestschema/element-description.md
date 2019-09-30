@@ -3,8 +3,8 @@ Description: A friendly description that can be displayed to users.
 Search.Product: eADQiWindows 10XVcnh
 title: Description (Windows 10)
 ms.assetid: e113111a-1d9b-4d04-bd86-86beece204dd
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

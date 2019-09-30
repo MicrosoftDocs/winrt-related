@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 4230de7d-5e70-4f11-a8c4-19c94394b7a4
 title: desktop2:FilterExtension
 description: Specifies the file type to be registered by the app.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 04/05/2017
 ms.topic: reference
 

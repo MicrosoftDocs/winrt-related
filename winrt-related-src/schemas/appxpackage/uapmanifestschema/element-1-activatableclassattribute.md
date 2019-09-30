@@ -3,8 +3,8 @@ Description: Defines an attribute of the class that is stored in the Windows Run
 Search.Product: eADQiWindows 10XVcnh
 title: ActivatableClassAttribute (Windows 10)
 ms.assetid: 74ca4fd4-1a67-4e1f-b933-89b2ffa2fa17
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

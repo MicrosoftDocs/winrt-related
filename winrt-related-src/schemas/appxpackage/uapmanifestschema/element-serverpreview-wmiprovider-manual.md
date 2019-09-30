@@ -3,8 +3,8 @@ Description: Identifies a Windows Management Instrumentation (WMI) provider to i
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:WmiProvider
 ms.assetid: 9268ed23-e619-4316-8a13-a13462e27479
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

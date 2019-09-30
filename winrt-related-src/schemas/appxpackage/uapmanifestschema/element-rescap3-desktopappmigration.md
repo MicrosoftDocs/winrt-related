@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 350e2733-4da7-4e0b-a0aa-291c15c80e25
 title: rescap3:DesktopAppMigration
 description: Specifies where to redirect user tiles and pins to a Windows Desktop Bridge app.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 04/05/2017
 ms.topic: reference
 

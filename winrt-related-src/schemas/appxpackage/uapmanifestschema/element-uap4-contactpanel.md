@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 76e05698-cd02-451b-b2b7-bb79169ea082
 title: uap4:ContactPanel
 description: Enables the contacts panel in a Windows app.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 04/05/2017
 ms.topic: reference
 

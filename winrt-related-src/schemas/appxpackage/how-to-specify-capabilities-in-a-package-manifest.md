@@ -3,8 +3,8 @@ Description: To declare each capability required by your app, add a Capability e
 Search.Product: eADQiWindows 10XVcnh
 title: How to specify capabilities in a package manifest
 ms.assetid: 7ca1d523-bc49-4009-a2ef-238c713cd907
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

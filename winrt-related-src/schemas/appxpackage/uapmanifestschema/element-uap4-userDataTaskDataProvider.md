@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: b7722b81-6aae-4dc2-97a5-e7f729e10f25
 title: uap4:UserDataTaskDataProvider
 description: Enables an app to become a DataProvider for a task.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 04/05/2017
 ms.topic: reference
 

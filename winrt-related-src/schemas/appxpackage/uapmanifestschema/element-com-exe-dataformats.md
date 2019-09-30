@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 6bca24cd-9433-4cbd-a701-9356f0a4b418
 title: com:DataFormats (in ExeServer/Class)
 description: Specifies the default and main data formats supported by an application.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 03/29/2017
 ms.topic: reference
 

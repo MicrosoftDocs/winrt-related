@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 80ce46c6-31e0-4e75-87b1-a8e6e18aea31
 title: com:DataFormat (in SurrogateServer/Class)
 description: The data format supported by an application.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 03/29/2017
 ms.topic: reference
 

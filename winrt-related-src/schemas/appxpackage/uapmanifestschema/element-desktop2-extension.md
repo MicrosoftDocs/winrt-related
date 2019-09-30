@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 917fe36f-091e-4374-9ead-5755f1cce72b
 title: desktop2:Extension
 description: Declares an extensibility point for the app.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 04/05/2017
 ms.topic: reference
 

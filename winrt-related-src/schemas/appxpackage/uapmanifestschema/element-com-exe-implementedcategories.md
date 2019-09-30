@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 14552b44-db78-47f8-9f45-4021d82f1d74
 title: com:ImplementedCategories (in ExeServer/Class)
 description: Specifies categories implemented by the class.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 03/29/2017
 ms.topic: reference
 

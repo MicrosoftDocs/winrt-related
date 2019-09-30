@@ -3,8 +3,8 @@ Description: Identifies section data that will be embedded into applicationHost.
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:SectionData
 ms.assetid: 1182ba2d-ad98-4584-ba9b-935ee18aa5f4
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

@@ -3,8 +3,8 @@ Description: Describes the orientations in which the app would prefer to be show
 Search.Product: eADQiWindows 10XVcnh
 title: InitialRotationPreference
 ms.assetid: 0f03085b-0bbc-4e1c-adda-565bb6287b15
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

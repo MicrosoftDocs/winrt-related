@@ -1,6 +1,6 @@
 ---
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 title: RelatedPackages
 description: An optional element that is used to specify the other optional packages that are specified in the main app package. These packages will not be installed as part of the deployment operation.
 ms.topic: reference

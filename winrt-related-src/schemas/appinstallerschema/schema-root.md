@@ -1,8 +1,8 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 title: App Installer file (.appinstaller) reference
 description: This reference provides details for each element, attribute, and data type that defines the schema for appinstaller file that defines the packages that are part of a related set. 
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 1/4/2018
 ms.topic: reference
 

@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: f6e84399-3194-421b-b24c-d68a8d705998
 title: desktop2:ThumbnailHandler
 description: Enables a ThumbnailProvider for a file type association.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 04/05/2017
 ms.topic: reference
 

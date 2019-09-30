@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 7f73aea2-6b7e-4c78-ba9b-74e574370a58
 title: com:ToolboxBitmap32 (in SurrogateServer/Class)
 description: Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 03/29/2017
 ms.topic: reference
 

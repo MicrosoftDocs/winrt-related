@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 066c1245-b3f1-4022-8f96-3bb1d7f6fbc0
 title: com:Readable (in SurrogateServer/Class)
 description: Specifies that an application can only read files.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 03/29/2017
 ms.topic: reference
 

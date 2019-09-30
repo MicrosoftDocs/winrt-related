@@ -1,8 +1,8 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 title: uap7:Extension
 description: Declares an extensibility point for the app.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 10/03/2018
 ms.topic: reference
 

@@ -3,8 +3,8 @@ Description: Provides information about an app previously made available on Wind
 Search.Product: eADQiWindows 10XVcnh
 title: mp:PhoneIdentity (Windows 10)
 ms.assetid: 817d5865-3838-4554-b751-2af09d84c8ad
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

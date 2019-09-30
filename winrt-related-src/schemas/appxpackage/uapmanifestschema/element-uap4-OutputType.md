@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: fbdc96ec-04e1-4a64-9549-fd79f1e318d8
 title: uap4:OutputType
 description: The media codec output type.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 04/05/2017
 ms.topic: reference
 

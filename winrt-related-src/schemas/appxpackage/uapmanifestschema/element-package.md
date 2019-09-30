@@ -3,8 +3,8 @@ Description: Defines the root element of an app package manifest.
 Search.Product: eADQiWindows 10XVcnh
 title: Package (Windows 10)
 ms.assetid: ea0f5af0-8191-4ce0-9594-c647f800bd53
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

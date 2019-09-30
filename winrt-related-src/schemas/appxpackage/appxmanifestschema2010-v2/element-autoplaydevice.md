@@ -3,8 +3,8 @@ Description: Declares an app extensibility point of type windows.autoPlayDevice.
 Search.Product: eADQiWindows 10XVcnh
 title: AutoPlayDevice
 ms.assetid: f01934d7-ad54-455d-bfb9-ef2560bb02ad
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

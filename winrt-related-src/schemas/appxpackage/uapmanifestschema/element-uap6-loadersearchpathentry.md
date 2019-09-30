@@ -1,8 +1,8 @@
 ---
 Description: A relative path used specify where to load content from an app package.
 title: uap6:LoaderSearchPathEntry
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

@@ -1,8 +1,8 @@
 ---
 title: Localizable manifest items
 description: Contains a list of all the localizable items in the app package manifest. 
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 ms.topic: reference
 
 

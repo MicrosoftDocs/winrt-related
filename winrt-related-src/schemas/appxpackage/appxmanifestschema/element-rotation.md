@@ -3,8 +3,8 @@ Description: Specifies a single rotational orientation in which an app will disp
 Search.Product: eADQiWindows 10XVcnh
 title: Rotation
 ms.assetid: 0e351d87-2ff0-4e9e-b3ea-6a6254d4c1c4
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

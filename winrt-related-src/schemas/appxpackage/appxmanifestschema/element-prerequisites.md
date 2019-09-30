@@ -3,8 +3,8 @@ Description: Declares the minimum operating system and software requirements tha
 Search.Product: eADQiWindows 10XVcnh
 title: Prerequisites
 ms.assetid: 93b13906-9c63-46d0-8659-0f382ce8f477
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

@@ -3,8 +3,8 @@ Description: Declares an extensibility point for the app.
 Search.Product: eADQiWindows 10XVcnh
 title: rescap2:Extension (Windows 10)
 ms.assetid: 067b6b25-2d89-42b1-845c-605ac00963b7
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

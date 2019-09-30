@@ -3,8 +3,8 @@ Description: Specifies an additional service on which the service that correspon
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:ServiceDependency
 ms.assetid: e0874f7b-4e67-4da6-9f43-2e176f595675
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

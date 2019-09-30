@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: b7261b8b-2979-4961-b521-7e5c290170a8
 title: com:Interface
 description: Registers new COM Interfaces.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 03/29/2017
 ms.topic: reference
 

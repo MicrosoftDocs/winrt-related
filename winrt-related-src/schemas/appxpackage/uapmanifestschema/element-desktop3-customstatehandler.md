@@ -1,8 +1,8 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 title: desktop3:CloudFiles
 description: Registration of a Windows Shell CustomStateHandler for cloud based placeholder files. 
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 10/10/2017
 ms.topic: reference
 

@@ -1,8 +1,8 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 title: uap5:VideoRendererEffect
 description: Enables activation of video renderer effects in apps.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 10/10/2017
 ms.topic: reference
 

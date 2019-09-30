@@ -3,8 +3,8 @@ Description: Specifies the codec to use for transcoding.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:Codec (Windows 10)
 ms.assetid: 7b42abe0-154d-4377-ba94-4edda3d0586c
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

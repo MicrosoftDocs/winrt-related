@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 5872b49b-5572-4198-8765-775c7a5a36fc
 title: rescap3:MigrationProgIds
 description:
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 04/05/2017
 ms.topic: reference
 

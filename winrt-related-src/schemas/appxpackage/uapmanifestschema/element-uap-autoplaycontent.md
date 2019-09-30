@@ -3,8 +3,8 @@ Description: Declares an app extensibility point of type windows.autoPlayContent
 Search.Product: eADQiWindows 10XVcnh
 title: uap:AutoPlayContent (Windows 10)
 ms.assetid: 15514696-9195-4dd1-91af-2b97383992cc
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

@@ -3,8 +3,8 @@ Description: Indicates whether all file types are supported for sharing.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:SupportsAnyFileType (Windows 10)
 ms.assetid: 3dbbeaac-2578-472b-80d2-f0bd0b9ead7e
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

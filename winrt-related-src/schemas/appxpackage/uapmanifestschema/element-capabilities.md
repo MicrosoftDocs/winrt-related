@@ -3,8 +3,8 @@ Description: Declares the access to protected user resources that the package re
 Search.Product: eADQiWindows 10XVcnh
 title: Capabilities (Windows 10)
 ms.assetid: 508b9a46-3dd4-4bce-875b-fb7cadadceb1
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

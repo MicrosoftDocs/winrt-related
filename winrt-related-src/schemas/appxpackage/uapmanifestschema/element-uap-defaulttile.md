@@ -3,8 +3,8 @@ Description: The default tile that represents the app on the Start screen.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:DefaultTile (Windows 10)
 ms.assetid: 0ee61279-efa8-4bd9-b713-1f5f9ec526f7
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

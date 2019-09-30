@@ -3,8 +3,8 @@ Description: Declares a package extensibility point of type windows.activatableC
 Search.Product: eADQiWindows 10XVcnh
 title: ProxyStub (Windows 10)
 ms.assetid: d902d2b6-4694-4158-9c1f-4b3511150ee5
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 2fb1ff8b-0c47-44b8-b1c3-b814d10685d1
 title: com:TypeLib (in Package/Extensions)
 description: A type library for an interface.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 03/29/2017
 ms.topic: reference
 

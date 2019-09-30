@@ -1,6 +1,6 @@
 ---
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 title: AppInstaller
 description: Defines the root element of an appinstaller file.
 ms.topic: reference

@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 88b03e8c-e7a6-4dec-8df7-eeb0bc84396b
 title: com:ImplementedCategory (in SurrogateServer/Class)
 description: Indicates that the class has implemented the specified category.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 03/29/2017
 ms.topic: reference
 

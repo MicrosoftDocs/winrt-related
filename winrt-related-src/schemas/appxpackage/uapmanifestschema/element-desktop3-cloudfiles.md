@@ -1,8 +1,8 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 title: desktop3:CloudFiles
 description: Registration for the handlers implemented in an application and context menu options for cloud based placeholder files.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 10/10/2017
 ms.topic: reference
 

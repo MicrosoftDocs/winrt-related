@@ -3,8 +3,8 @@ Description: Specifies the type of info the user sees when opening a file associ
 Search.Product: eADQiWindows 10XVcnh
 title: uap:EditFlags (Windows 10)
 ms.assetid: 5a16f6d9-bdfb-4618-b7dc-7f9aa5807a13
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

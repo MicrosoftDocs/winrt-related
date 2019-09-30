@@ -468,6 +468,10 @@
             href: schemas/appxpackage/uapmanifestschema/element-desktop4-ItemType.md
           - name: "desktop4:Verb"
             href: schemas/appxpackage/uapmanifestschema/element-desktop4-Verb.md  
+          - name: "desktop5:ItemType" 
+            href: schemas/appxpackage/uapmanifestschema/element-desktop5-itemtype.md
+          - name: "desktop5:Verb"  
+            href: schemas/appxpackage/uapmanifestschema/element-desktop5-verb.md
           - name: "desktop6:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-desktop6-extension.md
           - name: "desktop6:Service"

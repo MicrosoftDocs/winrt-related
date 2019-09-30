@@ -1,5 +1,6 @@
 ---
 author: stevewhims
+title: winrt::unbox_value function template (C++/WinRT)
 description: A function template that unwraps (or *unboxes*) a scalar value from inside a reference class object so that it can be processed in a function that expects **IInspectable**.
 dev_langs: ["C++"]
 ms.author: stwhi

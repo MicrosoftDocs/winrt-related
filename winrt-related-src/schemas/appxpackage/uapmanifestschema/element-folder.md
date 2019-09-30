@@ -3,8 +3,8 @@ Description: Specifies a folder that the package shares with other packages from
 Search.Product: eADQiWindows 10XVcnh
 title: Folder (Windows 10)
 ms.assetid: b412b98e-130a-4152-a264-49a42ef2d97c
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

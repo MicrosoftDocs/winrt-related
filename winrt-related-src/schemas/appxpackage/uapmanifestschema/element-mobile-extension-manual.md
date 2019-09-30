@@ -3,8 +3,8 @@ Description: Declares an extensibility point for the app.
 Search.Product: eADQiWindows 10XVcnh
 title: mobile:Extension (Windows 10)
 ms.assetid: 0f9f4bee-3a63-4383-86db-a555ca4ccad6
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 
