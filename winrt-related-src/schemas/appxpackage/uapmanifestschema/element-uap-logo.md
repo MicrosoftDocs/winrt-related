@@ -3,8 +3,8 @@ Description: A path to a file that contains an image.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:Logo (Windows 10)
 ms.assetid: e82d1f5f-e1c8-469c-8568-0736c2a96554
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

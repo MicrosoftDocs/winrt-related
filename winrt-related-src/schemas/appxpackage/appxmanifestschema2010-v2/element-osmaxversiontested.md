@@ -3,8 +3,8 @@ Description: Represents the highest version of Windows that the package was test
 Search.Product: eADQiWindows 10XVcnh
 title: OSMaxVersionTested
 ms.assetid: 2f820978-5080-427d-b364-08951afae9ee
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

@@ -1,8 +1,8 @@
 ---
 Description: Allows for a packaged app to declare API redirections.
 title: uap7:ImportRedirectionTable
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

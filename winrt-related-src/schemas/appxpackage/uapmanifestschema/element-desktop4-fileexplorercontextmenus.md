@@ -1,8 +1,8 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 title: desktop4:FileExplorerContextMenus
 description: Registers items for the context menu of File Explorer.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 04/10/2018
 ms.topic: reference
 
@@ -46,6 +46,7 @@ Registers items for the context menu of File Explorer.
 ```syntax
 <desktop4:FileExplorerContextMenus>
     desktop4:ItemType{0,10000}
+    desktop5:ItemType{0,10000}
 </desktop4:FileExplorerContextMenus>
 ```
 
@@ -57,7 +58,8 @@ Registers items for the context menu of File Explorer.
 
 | Child Element | Description |
 |---------------|-------------|
-| [desktop4:ItemType](element-desktop4-itemtype.md) | Contains the type of command to be registered in the context menu. |  
+| [desktop4:ItemType](element-desktop4-itemtype.md) (Windows 10, version 1803) | Contains the type of command to be registered in the context menu. |  
+| [desktop5:ItemType](element-desktop5-itemtype.md) (Windows 10, version 1809 and later) | Contains the type of command to be registered in the context menu. |  
 
 ## Remarks
 

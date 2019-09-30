@@ -1,8 +1,8 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 title: desktop5:ItemType
 description: Contains the type of command to be registered in the context menu.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 10/03/2018
 ms.topic: reference
 
@@ -49,7 +49,7 @@ Contains the type of command to be registered in the context menu.
 
 ## Syntax
 ```syntax
-<desktop5:ItemType Type = A string between 1 and 64 characters in length that must begin with a period ("."), cannot have additional periods, and cannot contain these characters: &lt;, &gt;, :, ", /, \, |, ?. Can also be a wildcard "*" character. >
+<desktop5:ItemType Type = A string between 1 and 64 characters in length that meets one of the requirements specified in the attributes section below. >
 
   <!-- Child elements -->
   desktop5:Verb{0,10000}
@@ -63,7 +63,7 @@ Contains the type of command to be registered in the context menu.
 ## Attributes
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
-| Type | The file type to associate the context menu handler with. | A string between 1 and 64 characters in length that must begin with a period ("."), cannot have additional periods, and cannot contain these characters: <, >, :, ", /, \, &#124;, ?. Can also be a wildcard "*" character. | Yes |
+| Type | The file type to associate the context menu handler with. | A string between 1 and 64 characters in length. The following string formats are supported:<ul><li>A string that begins with a period ("."), has no additional periods, and does not contain these characters: <, >, :, ", /, \, &#124;, ?.</li><li>A string that contains the wildcard `*` character.</li><li>The strings `Directory` or `Directory\Background`.</li> | Yes |
 
 ## Child Elements
 

@@ -1,13 +1,13 @@
 ---
 Description: OS package dependency information.
 title: uap7:OSPackageDependency
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest, driver dependency
 
 
 ms.topic: reference
-ms.date: 10/03/18
+ms.date: 10/03/2018
 ---
 
 # uap7:OSPackageDependency

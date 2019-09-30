@@ -3,8 +3,8 @@ Description: Contains a list of all the items in the manifest that you can local
 Search.Product: eADQiWindows 10XVcnh
 title: Localizable manifest items in Windows 8
 ms.assetid: 5953e142-709a-4340-854b-bedfb79b8443
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

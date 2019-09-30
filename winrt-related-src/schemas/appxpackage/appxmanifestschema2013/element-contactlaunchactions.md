@@ -3,8 +3,8 @@ Description: Declares actions to take when a contact is launched.
 Search.Product: eADQiWindows 10XVcnh
 title: ContactLaunchActions
 ms.assetid: da094c1d-bd52-492f-81a6-23676802c15f
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

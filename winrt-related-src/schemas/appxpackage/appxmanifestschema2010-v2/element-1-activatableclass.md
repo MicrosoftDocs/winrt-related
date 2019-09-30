@@ -3,8 +3,8 @@ Description: Declares a runtime class associated with the extensibility point.
 Search.Product: eADQiWindows 10XVcnh
 title: 'ActivatableClass (type: CT_OutOfProcessActivatableClass)'
 ms.assetid: b2994883-87f9-4aa5-aff8-9c846606c462
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

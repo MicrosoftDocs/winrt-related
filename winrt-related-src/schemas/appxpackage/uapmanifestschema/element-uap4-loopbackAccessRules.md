@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 6532bd08-d33b-49c1-9f8a-477d32b83464
 title: uap4:LoopbackAccessRules
 description: Contains rules for a loopback filter that enables communication between an app and a service.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 05/10/2018
 ms.topic: reference
 

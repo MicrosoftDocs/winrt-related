@@ -3,8 +3,8 @@ Description: Identifies an Internet Information Service (IIS) module to install,
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:IisModule
 ms.assetid: 57d7aaf7-95b7-409d-8cad-cba17ca0a903
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

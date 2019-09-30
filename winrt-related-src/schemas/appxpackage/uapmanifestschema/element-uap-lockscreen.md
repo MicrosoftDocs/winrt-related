@@ -3,8 +3,8 @@ Description: Defines the badge and notifications that represent the app on the l
 Search.Product: eADQiWindows 10XVcnh
 title: uap:LockScreen (Windows 10)
 ms.assetid: 65e0cc4e-af42-4852-a9ca-ee09a5fee5f2
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

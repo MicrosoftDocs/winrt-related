@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: a7b26419-0322-4269-928b-01634fc8c255
 title: com:Verb
 description: The verb to be registered for an application.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 03/29/2017
 ms.topic: reference
 

@@ -1,8 +1,8 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 title: desktop3:PropertyList
 description: Contains the properties that are under the Properties tab of a file.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 10/10/2017
 ms.topic: reference
 

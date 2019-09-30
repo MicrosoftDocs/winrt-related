@@ -1,8 +1,8 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 title: uap5:FileType
 description: Represents a valid HTTP or HTTPS host name with a wildcard that the app wants to register as able to handle.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 10/10/2017
 ms.topic: reference
 

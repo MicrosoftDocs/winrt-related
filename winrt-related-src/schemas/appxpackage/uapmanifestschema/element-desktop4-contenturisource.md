@@ -1,8 +1,8 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 title: desktop4:ContentUriSource
 description: Registration of a Windows Shell BannersHandler for cloud based placeholder files. 
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 04/10/2018
 ms.topic: reference
 

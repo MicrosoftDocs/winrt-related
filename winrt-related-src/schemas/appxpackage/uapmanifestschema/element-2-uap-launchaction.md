@@ -3,8 +3,8 @@ Description: Describes an uap:AppointmentsProviderLaunchActions content action.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:LaunchAction (in AppointmentsProviderLaunchActions)
 ms.assetid: 1058a98d-10a0-4ce2-8b10-84d5c8fb9da6
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

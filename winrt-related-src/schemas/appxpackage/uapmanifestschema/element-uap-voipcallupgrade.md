@@ -3,8 +3,8 @@ Description: Indicates that the app supports video upgrade
 Search.Product: eADQiWindows 10XVcnh
 title: uap:VoipCallUpgrade
 ms.assetid: e2566775-a4fa-476b-af65-ab252dec514d
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

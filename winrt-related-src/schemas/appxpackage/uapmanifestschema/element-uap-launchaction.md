@@ -3,8 +3,8 @@ Description: Describes an AutoPlay content action.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:LaunchAction (in uap:AutoPlayContent) (Windows 10)
 ms.assetid: 5d2c732f-08dd-4e7e-93b1-6bb122e2179f
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

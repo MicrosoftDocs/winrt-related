@@ -3,8 +3,8 @@ Description: Specifies a parameter for the service.
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:ServiceParameterKey
 ms.assetid: 0a9cf40b-d5da-415c-8c4b-3b879bb6e969
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

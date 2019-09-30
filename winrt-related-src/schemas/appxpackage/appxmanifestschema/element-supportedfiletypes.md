@@ -3,8 +3,8 @@ Description: Defines the file types associated with the app.
 Search.Product: eADQiWindows 10XVcnh
 title: 'SupportedFileTypes (type: CT_FTASupportedFileTypes)'
 ms.assetid: b231434d-8bd1-47c4-8330-fb289be5894f
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

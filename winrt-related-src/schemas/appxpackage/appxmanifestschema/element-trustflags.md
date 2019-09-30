@@ -3,8 +3,8 @@ Description: Indicates whether the certificates for the package are exclusive to
 Search.Product: eADQiWindows 10XVcnh
 title: TrustFlags
 ms.assetid: 44ea0d79-4774-4152-8f69-c5d9ff9287aa
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

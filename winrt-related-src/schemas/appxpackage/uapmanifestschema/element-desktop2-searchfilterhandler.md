@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 706cd678-5620-4733-880b-72641a308c3c
 title: desktop2:SearchFilterHandler
 description: Enables Windows Desktop Bridge apps to register IFilters to extract file properties for searching.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 04/05/2017
 ms.topic: reference
 

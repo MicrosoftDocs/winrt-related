@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: e4acf38c-ec61-411a-bec1-388106202881
 title: com:Format (in SurrogateServer/Class)
 description: Specifies the file format an application can read and write (activate as).
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 03/29/2017
 ms.topic: reference
 

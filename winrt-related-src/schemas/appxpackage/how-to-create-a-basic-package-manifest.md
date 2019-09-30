@@ -3,8 +3,8 @@ Description: To package your app, you must create a package manifest that contai
 Search.Product: eADQiWindows 10XVcnh
 title: How to create a basic package manifest for Windows 8
 ms.assetid: f91fe2f6-4c9c-4965-8c35-8c02b0c66bd0
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

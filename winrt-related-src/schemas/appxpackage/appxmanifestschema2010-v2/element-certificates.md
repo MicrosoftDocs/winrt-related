@@ -3,8 +3,8 @@ Description: Declares a package extensibility point of type windows.certificates
 Search.Product: eADQiWindows 10XVcnh
 title: Certificates
 ms.assetid: 378edcd3-b9ef-46db-9a56-94470451829e
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

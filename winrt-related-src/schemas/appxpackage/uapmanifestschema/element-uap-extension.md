@@ -3,8 +3,8 @@ Description: Declares an extensibility point for the app.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:Extension (Windows 10)
 ms.assetid: b0c2ee51-897b-40be-aa38-372e2f94897f
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

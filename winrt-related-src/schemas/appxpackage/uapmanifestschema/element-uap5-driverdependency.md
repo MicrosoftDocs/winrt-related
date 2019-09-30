@@ -1,13 +1,13 @@
 ﻿---
 Description: Contains the driver constraint information for a UWP app.
 title: uap5:DriverDependency
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest, driver dependency
 
 
 ms.topic: reference
-ms.date: 10/10/17
+ms.date: 10/10/2017
 ---
 
 # uap5:DriverDependency

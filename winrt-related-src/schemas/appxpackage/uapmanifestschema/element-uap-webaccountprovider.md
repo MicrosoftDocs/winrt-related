@@ -3,8 +3,8 @@ Description: Declares an app extensibility point of type windows.webAccountProvi
 Search.Product: eADQiWindows 10XVcnh
 title: uap:WebAccountProvider (Windows 10)
 ms.assetid: 9e38d699-4a07-46ac-88d4-70109fbaa892
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

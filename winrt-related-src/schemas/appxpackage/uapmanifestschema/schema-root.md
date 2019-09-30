@@ -310,7 +310,6 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap6:LoaderSearchPathOverride](element-uap6-LoaderSearchPathOverride.md) | An extension that allows an app developer to declare a path in the app package, relative to the app package root path, to be included in the loader search path for the app's processes. |
 | [uap6:LocalExperiencePack](element-uap6-LocalExperiencePack.md) | This extension provides a means to deliver translated app resources. |
 | [uap6:SpatialBoundingBox](element-uap6-SpatialBoundingBox.md) | Used to define the center point and the extents for a bounding volume. |
-
 | [uap7:Capability](element-uap7-capability.md) | Declares a capability required by a package. |
 | [uap7:EnterpriseDataProtection](element-uap7-enterprisedataprotection.md) | Declares that the app is safe for auto-encryption and allows it to be managed without device enrollment via Windows Information Protection policy. |
 | [uap7:Extension](element-uap7-extension.md) | Declares an extensibility point for the app. |

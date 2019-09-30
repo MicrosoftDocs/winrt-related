@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 532ff2d5-86b6-4c61-a80f-1e9b0dde7c96
 title: com:ComInterface (in Package/Extensions)
 description: Declares a package extension point of type windows.comInterface.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 03/29/2017
 ms.topic: reference
 

@@ -3,8 +3,8 @@ Description: Declares a capability required by a package.
 Search.Product: eADQiWindows 10XVcnh
 title: Capability (Windows 10)
 ms.assetid: ee6bf220-f139-4ad9-a7a7-e621c189b907
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

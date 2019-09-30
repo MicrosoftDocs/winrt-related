@@ -3,8 +3,8 @@ Description: Declares an app extensibility point of type windows.contactDataProv
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:ContactDataProvider
 ms.assetid: 8ae46d6c-d198-4472-9533-e99999cfe5ca
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

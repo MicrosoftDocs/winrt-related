@@ -3,8 +3,8 @@ Description: A friendly name that can be displayed to users.
 Search.Product: eADQiWindows 10XVcnh
 title: DisplayName
 ms.assetid: f6f39a3e-0ec1-4590-a582-19360397dbc9
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

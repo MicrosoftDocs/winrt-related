@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 194c0da4-ada9-4107-b5dd-3bf609f328b2
 title: com:ImplementedCategories (in SurrogateServer/Class)
 description: Specifies categories implemented by the class.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 03/29/2017
 ms.topic: reference
 

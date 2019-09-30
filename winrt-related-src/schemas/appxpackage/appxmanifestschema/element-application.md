@@ -3,8 +3,8 @@ Description: Represents an app that comprises part of or all of the functionalit
 Search.Product: eADQiWindows 10XVcnh
 title: Application
 ms.assetid: 39221d13-bb46-42ac-be51-117357cade81
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

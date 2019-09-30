@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 50d31c23-2d15-428d-9db1-e8f3441a6541
 title: com:Class (in ExeServer)
 description: Defines an ExeServer class registration.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 03/29/2017
 ms.topic: reference
 

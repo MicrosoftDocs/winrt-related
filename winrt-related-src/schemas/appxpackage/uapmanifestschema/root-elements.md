@@ -198,6 +198,8 @@ The following list summarizes the allowed hierarchies for this schema, starting 
                     -   [**desktop4:FileExplorerContextMenus**](element-desktop4-fileexplorercontextmenus.md)
                         -   [**desktop4:ItemType**](element-desktop4-itemtype.md)
                             -   [**desktop4:Verb**](element-desktop4-verb.md)
+                        -   [**desktop5:ItemType**](element-desktop5-itemtype.md)
+                            -   [**desktop5:Verb**](element-desktop5-verb.md)
                 -   [**desktop6:Extension**](element-desktop6-extension.md)
                     -   [**desktop6:Service**](element-desktop6-service.md)
                         -   [**desktop6:Dependencies**](element-desktop6-dependencies.md)

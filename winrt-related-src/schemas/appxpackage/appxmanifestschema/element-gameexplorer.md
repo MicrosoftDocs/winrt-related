@@ -3,8 +3,8 @@ Description: Declares a package extensibility point of type windows.gameExplorer
 Search.Product: eADQiWindows 10XVcnh
 title: GameExplorer
 ms.assetid: a5c4d94a-de5d-4f41-8d32-9233d9e4e7fa
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

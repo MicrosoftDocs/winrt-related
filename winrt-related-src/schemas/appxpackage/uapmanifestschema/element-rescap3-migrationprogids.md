@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 13623913-5515-41e8-929e-e57d8aa38635
 title: rescap3:MigrationProgIds
 description: Contains Migration Prog Ids for protocols and file type associations.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 04/05/2017
 ms.topic: reference
 

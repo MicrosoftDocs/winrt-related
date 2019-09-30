@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 66534b5a-4f04-4fc6-9a3f-91a7b82930e9
 title: com:SurrogateServer
 description: Registers a SurrogateServer with one or many class registrations.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 03/29/2017
 ms.topic: reference
 

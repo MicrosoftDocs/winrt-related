@@ -1,6 +1,6 @@
 ---
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 title: MainPackage
 description: The MainPackage element specifies the information about the package which includes name, publisher, version and uri. ProcessorArchitecture and ResourceId are optional attributes of the MainPackage. 
 ms.topic: reference

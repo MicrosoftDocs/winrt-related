@@ -3,8 +3,8 @@ Description: Declares a package extensibility point of type windows.publisherCac
 Search.Product: eADQiWindows 10XVcnh
 title: PublisherCacheFolders (Windows 10)
 ms.assetid: 71425cb8-5f6b-415a-9791-28c7407869dc
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

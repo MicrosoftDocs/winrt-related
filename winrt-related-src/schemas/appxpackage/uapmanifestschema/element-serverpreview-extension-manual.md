@@ -3,8 +3,8 @@ Description: Declares an extensibility point for the app.
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:Extension
 ms.assetid: c2f0aabe-bc7e-4c33-8f24-2cc848910666
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

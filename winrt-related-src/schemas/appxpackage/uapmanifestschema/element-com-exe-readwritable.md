@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 76085908-f9c0-4ca3-b3ae-c6cce4b1bd39
 title: com:ReadWritable (in ExeServer/Class)
 description: Specifies that an application can read and write files.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 03/29/2017
 ms.topic: reference
 

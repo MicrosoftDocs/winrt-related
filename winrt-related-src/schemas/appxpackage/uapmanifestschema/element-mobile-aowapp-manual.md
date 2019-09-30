@@ -3,8 +3,8 @@ Description: Declares an app extensibility point of type windows.aowApp.
 Search.Product: eADQiWindows 10XVcnh
 title: mobile:AowApp (Windows 10)
 ms.assetid: 5a716d59-0796-4584-890f-98f26b0654ce
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

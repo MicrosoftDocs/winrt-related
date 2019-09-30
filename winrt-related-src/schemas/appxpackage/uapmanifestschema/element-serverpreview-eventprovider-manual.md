@@ -3,8 +3,8 @@ Description: Identifies an event tracing extension to add to the server-specific
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:EventProvider
 ms.assetid: 7992570a-0250-49e8-9f9a-5196028e262e
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

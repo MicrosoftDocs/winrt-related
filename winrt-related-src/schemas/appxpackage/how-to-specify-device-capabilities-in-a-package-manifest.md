@@ -3,8 +3,8 @@ Description: To declare each device capability required by your Windows Runtime 
 Search.Product: eADQiWindows 10XVcnh
 title: How to specify device capabilities in a package manifest
 ms.assetid: 4e83e2b2-d80f-41e2-aa1f-436ffa389ccc
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

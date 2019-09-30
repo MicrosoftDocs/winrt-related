@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: 97d6c3ae-db3f-46c8-b7b0-418bd30bcbdd
 title: desktop2:DesktopPropertyHandler
 description: Enables declaration of a property handler for a file type association.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 04/05/2017
 ms.topic: reference
 

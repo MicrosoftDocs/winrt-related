@@ -3,8 +3,8 @@ Description: Defines the file types associated with the app.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:SupportedFileTypes (in uap:FileTypeAssociation)
 ms.assetid: 119850cc-e313-468a-8d10-bee5af813290
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

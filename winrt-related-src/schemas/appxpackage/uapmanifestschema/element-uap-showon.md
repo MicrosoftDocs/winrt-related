@@ -3,8 +3,8 @@ Description: Describes whether Windows overlays the app’s name on top of the t
 Search.Product: eADQiWindows 10XVcnh
 title: uap:ShowOn (Windows 10)
 ms.assetid: ef9ad3df-5179-4dee-bf54-4f5de545b1ed
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

@@ -3,8 +3,8 @@ Description: Specifies which pages in the web context have access to the system'
 Search.Product: eADQiWindows 10XVcnh
 title: Rule
 ms.assetid: c78c8c62-df95-4202-b3f0-75ddbb7e0e46
-author: laurenhughes
-ms.author: lahugh
+author: mcleanbyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
 
 

@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+author: mcleanbyron
 ms.assetid: b9fbedc4-6f3f-45ae-807a-aa4c53abd9be
 title: com:Win32Path (in Package/Extensions)
 description: A path to the 32-bit type library.
-ms.author: lahugh
+ms.author: mcleans
 ms.date: 03/29/2017
 ms.topic: reference
 
