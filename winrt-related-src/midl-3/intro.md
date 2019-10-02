@@ -1213,8 +1213,10 @@ Instead, insert a space between the two `>` characters so that the pair of templ
 Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector<String> > RetrieveCollectionAsync();
 ```
 
-The example below produces *error MIDL2025: [msg]syntax error [context]: expecting > or, near "["*. This is because it's invalid to use an array as a parameter type argument to a parameterized interface. But also see [**IReferenceArray\<T\>**](/uwp/api/windows.foundation.ireferencearray_t_).
+The example below produces *error MIDL2025: [msg]syntax error [context]: expecting > or, near "["*. This is because it's invalid to use an array as a parameter type argument to a parameterized interface.
 
 ```idl
 Windows.Foundation.IAsyncOperation<Int32[]> RetrieveArrayAsync();
 ```
+
+For the solution, see [Returning an array asynchronously](/windows/uwp/cpp-and-winrt-apis/concurrency-2#returning-an-array-asynchronously).
