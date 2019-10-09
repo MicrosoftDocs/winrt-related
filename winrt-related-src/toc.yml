@@ -164,6 +164,8 @@
             href: schemas/appxpackage/uapmanifestschema/element-uap5-driverdependency.md
           - name: "uap5:DriverConstraint"
             href: schemas/appxpackage/uapmanifestschema/element-uap5-driverconstraint.md
+          - name: "uap7:OSPackageDependency"
+            href: schemas/appxpackage/uapmanifestschema/element-uap7-ospackagedependency.md
           - name: "Capabilities"
             href: schemas/appxpackage/uapmanifestschema/element-capabilities.md
           - name: "Capability"
@@ -176,6 +178,8 @@
             href: schemas/appxpackage/uapmanifestschema/element-uap4-customcapability.md
           - name: "uap6:Capability"
             href: schemas/appxpackage/uapmanifestschema/element-uap6-capability.md
+          - name: "uap7:Capability"
+            href: schemas/appxpackage/uapmanifestschema/element-uap7-capability.md
           - name: "mobile:Capability"
             href: schemas/appxpackage/uapmanifestschema/element-mobile-capability-manual.md
           - name: "DeviceCapability"
@@ -266,6 +270,12 @@
             href: schemas/appxpackage/uapmanifestschema/element-uap6-loadersearchpathoverride.md
           - name: "uap6:LoaderSearchPathEntry"
             href: schemas/appxpackage/uapmanifestschema/element-uap6-loadersearchpathentry.md
+          - name: "uap7:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-uap7-extension.md
+          - name: "uap7:SharedFonts"
+            href: schemas/appxpackage/uapmanifestschema/element-uap7-sharedfonts.md
+          - name: "uap7:EnterpriseDataProtection"
+            href: schemas/appxpackage/uapmanifestschema/element-uap7-enterprisedataprotection.md
           - name: "com:ComInterface"
             href: schemas/appxpackage/uapmanifestschema/element-com-package-cominterface.md
           - name: "com:ProxyStub"
@@ -310,12 +320,16 @@
             href: schemas/appxpackage/uapmanifestschema/element-uap-initialrotationpreference.md
           - name: "uap:Rotation"
             href: schemas/appxpackage/uapmanifestschema/element-uap-rotation.md
-          - name: "uap3:VisualElements"
-            href: schemas/appxpackage/uapmanifestschema/element-uap3-visualelements-manual.md
           - name: "uap:ApplicationContentUriRules"
             href: schemas/appxpackage/uapmanifestschema/element-uap-applicationcontenturirules.md
           - name: "uap:Rule"
             href: schemas/appxpackage/uapmanifestschema/element-uap-rule.md
+          - name: "uap3:VisualElements"
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-visualelements-manual.md
+          - name: "uap7:Properties"
+            href: schemas/appxpackage/uapmanifestschema/element-uap7-properties.md
+          - name: "uap7:ImportRedirectionTable"
+            href: schemas/appxpackage/uapmanifestschema/element-uap7-importredirectiontable.md
           - name: "Extensions"
             href: schemas/appxpackage/uapmanifestschema/element-1-extensions.md
           - name: "Extension"
