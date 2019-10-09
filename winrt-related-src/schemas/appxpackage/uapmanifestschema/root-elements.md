@@ -3,11 +3,9 @@ Description: Summarizes the allowed hierarchies for the app package manifest for
 Search.Product: eADQiWindows 10XVcnh
 title: Element Hierarchy
 ms.assetid: 5dfced88-48fd-4bf6-963c-7ab090b3e26e
-author: mcleblanc
-ms.author: markl
+author: mcleaybyron
+ms.author: mcleans
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 04/19/2019
 ms.custom: 19H1
@@ -102,8 +100,8 @@ The following list summarizes the allowed hierarchies for this schema, starting 
             -   [**uap6:LoaderSearchPathOverride**](element-uap6-LoaderSearchPathOverride.md)
                 -   [**uap6:LoaderSearchPathEntry**](element-uap6-LoaderSearchPathEntry.md)
         -   [**uap7:Extension**](element-uap7-extension.md)  
-                -   [**uap7:SharedFonts**](element-uap7-sharedfonts.md)
-                -   [**uap7:EnterpriseDataProtection**](element-uap7-EnterpriseDataProtection.md)
+            -   [**uap7:SharedFonts**](element-uap7-sharedfonts.md)
+            -   [**uap7:EnterpriseDataProtection**](element-uap7-EnterpriseDataProtection.md)
     -   [**Applications**](element-applications.md)
         -   [**Application**](element-application.md)
             -   [**uap:VisualElements**](element-uap-visualelements.md)
