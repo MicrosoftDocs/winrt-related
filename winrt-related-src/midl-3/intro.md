@@ -935,7 +935,7 @@ runtimeclass Area
 An event declaration implicitly adds two methods to the class: an *add*
 method, which a client calls to add an event handler to the source, and a
 *remove* method, which a client calls to remove a previously added event
-handler. Here are more example.
+handler. Here are more examples.
 
 ```idl
 // Instance event with no meaningful payload.
