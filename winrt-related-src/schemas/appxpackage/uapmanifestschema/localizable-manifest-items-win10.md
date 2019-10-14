@@ -35,6 +35,7 @@ You can localize these strings in the manifest:
 -   **[Properties/PublisherDisplayName](element-publisherdisplayname.md)**
 -   **[uap:Application/uap:VisualElements/@Description](element-uap-visualelements.md)**
 -   **[uap:Application/uap:VisualElements/@DisplayName](element-uap-visualelements.md)**
+-   **[uap:Application/uap:VisualElements/uap:DefaultTile/@ShortName](element-uap-defaulttile.md)**
 -   **[uap:AutoPlayContent/uap:LaunchAction/@Verb](element-uap-launchaction.md)**
 -   **[uap:AutoPlayContent/uap:LaunchAction/@ActionDisplayName](element-uap-launchaction.md)**
 -   **[uap:AutoPlayDevice/uap:LaunchAction/@ActionDisplayName](element-1-uap-launchaction.md)**
