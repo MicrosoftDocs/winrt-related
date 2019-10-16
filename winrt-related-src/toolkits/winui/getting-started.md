@@ -17,7 +17,7 @@ The toolkit is available as NuGet packages that can be added to any existing or 
 1. Download [Visual Studio 2017](https://developer.microsoft.com/windows/downloads) and ensure you choose the **Universal Windows Platform development** Workload in the Visual Studio installer.
 
     > [!NOTE]
-    Visual Studio 2015 doesn't support the Windows UI Library. 
+    > Visual Studio 2015 doesn't support the Windows UI Library. 
 
 2. Open an existing project, or create a new project using the Blank App template under Visual C# -> Windows -> Universal, or the appropriate template for your language projection.  
     > **Important**:  To use WinUI 2.1, your project’s Min version must be 14393 or higher and the Target version must be 17763 or higher.   
@@ -57,9 +57,10 @@ You can optionally check "Include prerelease" to see the latest prerelease versi
     </Application>
     ```
 
-> **Important**:  The order of resources added to a ResourceDictionary affects the order in which they are applied.  
-The `XamlControlsResources` dictionary overrides many default resource keys and should therefore be added to `Application.Resources` first so that it doesn't override any other custom styles or resources in your app.  
-For more information on resource loading see [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/resourcedictionary-and-xaml-resource-references).
+    > [!IMPORTANT]
+    > The order of resources added to a ResourceDictionary affects the order in which they are applied.  
+    > The `XamlControlsResources` dictionary overrides many default resource keys and should therefore be added to `Application.Resources` first so that it doesn't override any other custom styles or resources in your app.  
+    > For more information on resource loading, see [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/resourcedictionary-and-xaml-resource-references).
 
 5. Add a reference to the toolkit to XAML pages and your code-behind pages.
 
@@ -97,6 +98,6 @@ WinUI is an open source project hosted on GitHub.
 
 We welcome bug reports, feature requests and community code contributions in the [Windows UI Library repo](https://aka.ms/winui).
 
-## Other Resources 
+## Other resources 
 
 If you're new to UWP, then we recommend that you visit the [Getting Started with UWP Development](https://developer.microsoft.com/windows/getstarted) pages on the Developer portal.
