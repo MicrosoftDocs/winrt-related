@@ -20,7 +20,9 @@ The toolkit is available as NuGet packages that can be added to any existing or 
     > Visual Studio 2015 doesn't support the Windows UI Library. 
 
 2. Open an existing project, or create a new project using the Blank App template under Visual C# -> Windows -> Universal, or the appropriate template for your language projection.  
-    > **Important**:  To use WinUI 2.1, your project’s Min version must be 14393 or higher and the Target version must be 17763 or higher.   
+
+    > [!IMPORTANT] 
+    > To use WinUI 2.1, your project’s Min version must be 14393 or higher and the Target version must be 17763 or higher.   
 
 3. In the Solution Explorer panel, right click on your project name and select **Manage NuGet Packages**. Select the **Browse** tab, and search for **Microsoft.UI.Xaml** or **WinUI**. Then choose which [Windows UI Library NuGet Packages](nuget-packages.md) you want to use.   
 The **Microsoft.UI.Xaml** package contains Fluent controls and features suitable for all apps.  
@@ -58,9 +60,7 @@ You can optionally check "Include prerelease" to see the latest prerelease versi
     ```
 
     > [!IMPORTANT]
-    > The order of resources added to a ResourceDictionary affects the order in which they are applied.  
-    > The `XamlControlsResources` dictionary overrides many default resource keys and should therefore be added to `Application.Resources` first so that it doesn't override any other custom styles or resources in your app.  
-    > For more information on resource loading, see [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/resourcedictionary-and-xaml-resource-references).
+    > The order of resources added to a ResourceDictionary affects the order in which they are applied. The `XamlControlsResources` dictionary overrides many default resource keys and should therefore be added to `Application.Resources` first so that it doesn't override any other custom styles or resources in your app. For more information on resource loading, see [ResourceDictionary and XAML resource references](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/resourcedictionary-and-xaml-resource-references).
 
 5. Add a reference to the toolkit to XAML pages and your code-behind pages.
 
