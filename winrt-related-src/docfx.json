@@ -14,8 +14,8 @@
         }
     ],
     "globalMetadata": {
-	"ms.prod": "uwp",
-	"ms.technology": "winrt-reference",
+        "ms.prod": "uwp",
+        "ms.technology": "winrt-reference",
         "titleSuffix": "Windows UWP applications",
         "breadcrumb_path":  "/uwp/breadcrumbs/toc.json",
         "feedback_system": "GitHub",
@@ -23,14 +23,20 @@
         "feedback_product_url": "https://wpdev.uservoice.com/",
         "uhfHeaderId": "MSDocsHeader-WinDevCenter",
         "extendBreadcrumb": true,
-	"searchScope": ["UWP"],
-	"_op_documentIdPathDepotMapping": {
-	  "./": {
-	    "depot_name": "MSDN.winrt-related",
-	    "folder_relative_path_in_docset": "./"
-	  }
-       }
+        "searchScope": ["UWP"],
+        "_op_documentIdPathDepotMapping": {
+          "./": {
+            "depot_name": "MSDN.winrt-related",
+            "folder_relative_path_in_docset": "./"
+        }
+      }
     },
+    "fileMetadata": {
+      "feedback_product_url": 
+        {
+          "design/**.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose"	
+        }
+      },
     "externalReference": [
     ],
     "template": [],
