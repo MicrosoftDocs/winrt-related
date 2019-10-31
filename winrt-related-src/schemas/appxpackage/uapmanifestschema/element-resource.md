@@ -11,7 +11,6 @@ keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 10/26/2017
 ---
-<link rel="stylesheet" href="https://az835927.vo.msecnd.net/sites/uwp/Resources/css/custom.css">
 
 # Resource
 
