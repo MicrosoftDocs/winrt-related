@@ -78,6 +78,14 @@ https://github.com/microsoft/Xaml-Controls-Gallery/tree/winui3alpha
 
 ![WinUI 3 Xaml Controls Gallery](images/WinUI3XamlControlsGallery.png)
 
+> [!NOTE]
+> Make sure to switch to the winui3alpha branch. 
+
+Git clone command:
+
+> `git clone --single-branch --branch winui3alpha https://github.com/microsoft/Xaml-Controls-Gallery.git`
+
+
 ## Build apps
 
 Aside from the limitations and known issues outlined below, building an app using the WinUI 3.0 Alpha is very similar to building a UWP app with Xaml and WinUI 2.x, so most of the guidance and documentation for UWP apps and `Windows.UI` APIs is applicable.
@@ -96,7 +104,7 @@ The following items are some of the known issues with the WinUI 3.0 Alpha. If yo
 
 The WinUI 3.0 Alpha project templates for Visual Studio only support building C# and C++/WinRT components and apps using the UWP app model.
 
-Future updates will add support for additional project types and languages, including .NET Core 3.1+ and the desktop (win32) app model.
+Future updates will add support for additional project types and languages, including .NET Core and the desktop (win32) app model.
 
 ### Platform and OS support
 
