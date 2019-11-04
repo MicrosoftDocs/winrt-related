@@ -128,6 +128,7 @@ The following list shows the UI controls and features that are not included (or 
 * The Design view for Xaml files in Visual Studio is currently disabled for WinUI 3.0 apps.
 * Live Visual Tree and other debugging tools may not function correctly for WinUI 3.0 apps.
 * When Visual Studio automatically generates a code-behind event handler from Xaml markup (for example, events such as `Button.Click`), the namespace of the generated event args incorrectly start with `Windows.UI.Xaml` instead of `Microsoft.UI.Xaml`. You can fix this by manually changing the namespaces from `Windows.UI.Xaml` to  `Microsoft.UI.Xaml`.
+* When editing XAML in Visual Studio, the g.cs and g.i.cs files are not generated on the fly. This means you have to build the project to get Intellisense for named elements in the codebehind file (see also [this issue](https://github.com/microsoft/microsoft-ui-xaml/issues/1534))
 
 ### Interactivity
 
