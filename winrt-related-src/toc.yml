@@ -29,6 +29,8 @@
   - name: "Libraries and toolkits"
     href: toolkits/index.md
     items: 
+    - name: "WinUI 3.0 (Alpha)"
+      href: toolkits/winui3/index.md
     - name: "Windows UI Library"
       href: toolkits/winui/index.md
       items: 

@@ -1,30 +1,31 @@
 ---
 title: Getting started with the Windows UI library
 description: How to install and use the Windows UI Library. 
-ms.author: mijacobs
-author: mijacobs
 ms.topic: reference
-ms.date: 01/25/2019
+author: Karl-Bridge-Microsoft
+ms.author: kbridge
+ms.date: 11/01/2019
 keywords: windows 10, uwp, toolkit sdk
 ---
 
 # Getting started with the Windows UI Library
 
-The toolkit is available as NuGet packages that can be added to any existing or new project using Visual Studio.
+The toolkits are available as NuGet packages that can be added to any new or existing Visual Studio project.
+
+> [!NOTE]
+> WinUI 2.2 is the latest stable version of WinUI and should be used for apps in production.
+For information on trying out early previews of WinUI 3.0, see [WinUI 3.0 (Alpha)](../winui3/index.md).
 
 ## Download and install the Windows UI Library
 
-1. Download [Visual Studio 2017](https://developer.microsoft.com/windows/downloads) and ensure you choose the **Universal Windows Platform development** Workload in the Visual Studio installer.
-
-    > [!NOTE]
-    > Visual Studio 2015 doesn't support the Windows UI Library. 
+1. Download [Visual Studio 2019](https://developer.microsoft.com/windows/downloads) and ensure you choose the **Universal Windows Platform development** Workload in the Visual Studio installer.
 
 2. Open an existing project, or create a new project using the Blank App template under Visual C# -> Windows -> Universal, or the appropriate template for your language projection.  
 
-    > [!IMPORTANT] 
-    > To use WinUI 2.1, your project’s Min version must be 14393 or higher and the Target version must be 17763 or higher.   
+    > [!IMPORTANT]
+    > To use WinUI 2.2, you must set Min version to 15063 or higher and Target version to 18362 or higher in the project properties.
 
-3. In the Solution Explorer panel, right click on your project name and select **Manage NuGet Packages**. Select the **Browse** tab, and search for **Microsoft.UI.Xaml** or **WinUI**. Then choose which [Windows UI Library NuGet Packages](nuget-packages.md) you want to use.   
+3. In the Solution Explorer panel, right click on your project name and select **Manage NuGet Packages**. Select the **Browse** tab, and search for **Microsoft.UI.Xaml** or **WinUI**. Then choose which [Windows UI Library NuGet Packages](nuget-packages.md) you want to use.
 The **Microsoft.UI.Xaml** package contains Fluent controls and features suitable for all apps.  
 You can optionally check "Include prerelease" to see the latest prerelease versions that include experimental new features.
 
@@ -32,7 +33,7 @@ You can optionally check "Include prerelease" to see the latest prerelease versi
 
     ![NuGet packages](images/NugetPackages.png)
 
-4. Add the Windows UI (WinUI) Theme Resources to your App.xaml resources. There are two ways to do this, depending on whether you have additional application resources. 
+4. Add the Windows UI (WinUI) Theme Resources to your App.xaml resources. There are two ways to do this, depending on whether you have additional application resources.
 
     a. If you don't have other application resources, 
     add `<XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls"/>` to your Application.Resources: 
