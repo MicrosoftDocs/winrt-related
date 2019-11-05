@@ -60,31 +60,32 @@ For directions on how to add the `.vsix` to Visual Studio, see [Finding and Usin
 
 After installing the `.vsix` extension you can create a new WinUI 3.0 project by searching for "WinUI" and selecting one of the available C# or C++ templates.
 
-![WinUI 3 Visual Studio Templates](images/WinUI3Templates.png)
+![WinUI 3.0 Visual Studio Templates](images/WinUI3Templates.png)
+
+*Example of the WinUI 3.0 Visual Studio Templates*
 
 ### Visual Studio project configuration
 
-> [!IMPORTANT]
-> Your project’s Target version must be 18362 or higher and the Min version must be 17134 or higher to use the WinUI 3.0 Alpha.
+To use the WinUI 3.0 Alpha:
 
-> [!NOTE]
-> If your Visual Studio solution platform is set to x86 then your app may fail to deploy on 64-bit versions of Windows. To work around this issue you can change your platform configuration to x64.
+- The Visual Studio project **Target version** must be **18362 or higher**, and the **Min version** must be **17134 or higher** (right click on the Visual Studio project and select Properties to change these values).
+- If the Solution Configuration for your project is set to x86 then your app might fail to deploy on 64-bit versions of Windows. To work around this issue change the Solution Configuration to x64.
 
 ### Xaml Controls Gallery (WinUI 3.0 Alpha branch)
 
-Check out the WinUI 3.0 Alpha branch of the Xaml Controls Gallery to see a working example of a WinUI 3 app including available controls and features.
+See the [WinUI 3.0 Alpha branch of the Xaml Controls Gallery](https://github.com/microsoft/Xaml-Controls-Gallery/tree/winui3alpha) for a sample app that includes all WinUI 3.0 Alpha controls and features.
 
-https://github.com/microsoft/Xaml-Controls-Gallery/tree/winui3alpha
+![WinUI 3.0 Alpha Xaml Controls Gallery app](images/WinUI3XamlControlsGallery.png)
 
-![WinUI 3 Xaml Controls Gallery](images/WinUI3XamlControlsGallery.png)
+*Example of the WinUI 3.0 Alpha Xaml Controls Gallery app*
 
-> [!NOTE]
-> Make sure to switch to the winui3alpha branch. 
-
-Git clone command:
+To download the sample, clone the **winui3alpha** branch using the following command:
 
 > `git clone --single-branch --branch winui3alpha https://github.com/microsoft/Xaml-Controls-Gallery.git`
 
+After cloning, ensure that you switch to the **winui3alpha** branch in your local Git environment:
+
+> `git checkout winui3alpha`
 
 ## Build apps
 
