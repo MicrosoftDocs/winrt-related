@@ -66,27 +66,25 @@ After installing the `.vsix` extension you can create a new WinUI 3.0 project by
 
 ### Visual Studio project configuration
 
-#### Supported versions
-
 To use the WinUI 3.0 Alpha, the Visual Studio project **Target version** must be **18362 or higher**, and the **Min version** must be **17134 or higher** (right click on the Visual Studio project and select Properties to change these values).
 
-#### VCLibs deployment error workaround
+#### VCLibs deployment error
 
-If your app fails to deploy with an error like this:
+If your app fails to deploy with an error similar to the following:
 
 ```
 DEP0700: Registration of the app failed. [0x80073CF3] Windows cannot install package <app package name> because this package depends on a framework that could not be found. Provide the framework "Microsoft.VCLibs.140.00.UWPDesktop" published by "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US", with neutral or x86 processor architecture and minimum version 14.0.24217.0, along with this package to install. The frameworks with name "Microsoft.VCLibs.140.00.UWPDesktop" currently installed are: {}
 ```
 
-Then you should:
+Then perform the following steps:
 
-1. Delete this line from your `Packages.appxmanifest` file:
+1. In the `Packages.appxmanifest` file, delete this `PackageDependency` declaration:
 
     ```
     <PackageDependency Name="Microsoft.VCLibs.140.00.UWPDesktop" MinVersion="14.0.24217.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
     ```
 
-2. Add these lines to the bottom of your project file (`.csproj` or .`vcxproj`), at the end of the `<Project>` section:
+2. In the project file (`.csproj` or `.vcxproj`), add this `ItemGroup` declaration to the end of the `<Project>` section:
 
     ```
     <ItemGroup>
@@ -95,8 +93,6 @@ Then you should:
         </SDKReference>
     </ItemGroup>
     ```
-
-This issue will be fixed in a future version of the WinUI Alpha Visual Studio project templates.
 
 ### Xaml Controls Gallery (WinUI 3.0 Alpha branch)
 
