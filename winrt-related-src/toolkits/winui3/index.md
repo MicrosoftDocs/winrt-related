@@ -148,6 +148,7 @@ The following list shows the UI controls and features that are not included (or 
 * [MediaPlayerElement](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.mediaplayerelement), [MediaElement](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.MediaElement) and related APIs
 * [RevealBrush](https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.revealbrush)
 * [SwapChainPanel](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.SwapChainPanel) and [SwapChainBackgroundPanel](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.swapchainbackgroundpanel)
+* [System.ComponentModel.INotifyPropertyChanged](https://docs.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged?view=dotnet-uwp-10.0) and [System.Collections.Specialized.INotifyCollectionChanged](https://docs.microsoft.com/dotnet/api/system.collections.specialized.inotifycollectionchanged?view=dotnet-uwp-10.0) for C# apps. Instead, use the ```Microsoft.UI.Xaml.Interop``` versions of these interfaces. See [below](inotifypropertychanged-and-inotifycollectionchanged) for more details.
 * [ThemeShadow](https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.themeshadow)
 * [WebView](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.WebView)
 * [Window.SetTitleBar](https://docs.microsoft.com/uwp/api/windows.ui.xaml.window.settitlebar) and custom window title bars
@@ -157,6 +158,12 @@ The following list shows the UI controls and features that are not included (or 
 ### INotifyPropertyChanged and INotifyCollectionChanged
 
 The .NET interfaces [System.ComponentModel.INotifyPropertyChanged](https://docs.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged?view=dotnet-uwp-10.0) and [System.Collections.Specialized.INotifyCollectionChanged](https://docs.microsoft.com/dotnet/api/system.collections.specialized.inotifycollectionchanged?view=dotnet-uwp-10.0) are projected into the WinRT Windows.UI.Xaml namespace as [Windows.UI.Xaml.Data.INotifyPropertyChanged](https://docs.microsoft.com/uwp/api/windows.ui.xaml.data.inotifypropertychanged) and [Windows.UI.Xaml.Interop.INotifyCollectionChanged](https://docs.microsoft.com/uwp/api/windows.ui.xaml.interop.inotifycollectionchanged), respectively. However, WinUI 3.0 depends on interfaces in the Microsoft.UI.Xaml namespace, so types that implement these .NET interfaces do not function well with WinUI 3.0. To work around this issue, your type should implement the corresponding Microsoft.UI.Xaml interfaces.
+
+As a result of this issue, [ObservableCollection\<T\>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.objectmodel.observablecollection-1) does not work well in conjunction with WinUI 3.0. When used as an [ItemsSource](https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.itemscontrol.itemssource#Windows_UI_Xaml_Controls_ItemsControl_ItemsSource), changes to the collection can result in the following exception:
+
+`System.Runtime.InteropServices.COMException: 'The application called an interface that was marshalled for a different thread. (Exception from HRESULT: 0x8001010E (RPC_E_WRONG_THREAD))'`
+
+For an example of how to work around this issue, see the Xaml Controls Gallery, which uses a [custom implementation of a collection that implements INotifyCollectionChanged](https://github.com/microsoft/Xaml-Controls-Gallery/blob/winui3alpha/XamlControlsGallery/CollectionsInterop.cs) instead of ObservableCollection\<T\>.
 
 ### Developer tools
 
