@@ -1,38 +1,38 @@
 ---
 title: UWP toolkits
 description: Toolkits and libraies for UWP app development. 
-ms.author: mijacobs
-author: mijacobs
-
-
+ms.author: kbridge
+author: Karl-Bridge-Microsoft
 ms.topic: reference
-ms.date: 07/09/2018
+ms.date: 11/07/2019
 keywords: windows 10, uwp, toolkit sdk
 ---
 
 # UWP toolkits and libraries
 
-![](images/toolkits-banner.png)
+![UWP toolkits hero image](images/toolkits-banner.png)
 
-These toolkits, available as NuGet packages, provide controls, helper functions, and services that make it easier to build powerful apps. 
+These toolkits, available as NuGet packages, provide controls, helper functions, and services that make it easier to build powerful apps.
 
-## Windows UI Library 
+## Windows UI 3.0 alpha Library
+
+- [WinUI 3.0 Alpha (November 2019)](winui3/index.md)
+
+## Windows UI 2.x Library
+
 New Fluent controls and UI features for UWP apps from the Windows platform team.
 
-* [Overview](winui/index.md)
+- [Windows UI Library overview](winui/index.md)
+- [API docs](https://docs.microsoft.com/uwp/api/overview/winui/)
+- [Source code](https://aka.ms/winui)
 
-* [API docs](https://docs.microsoft.com/uwp/api/overview/winui/)
+## Windows Community Toolkit
 
-* [Source code](https://aka.ms/winui)
-
-## Windows Community Toolkit 
 A collection of helper functions, custom controls, and app services that simplify building UWP apps. 
 
-* [How-to articles](https://docs.microsoft.com/windows/uwpcommunitytoolkit/)
-
-* [API docs](https://docs.microsoft.com/dotnet/api/?view=win-comm-toolkit-dotnet-stable)  
-
-* [Source code](https://aka.ms/uwptoolkit)
+- [How-to articles](https://docs.microsoft.com/windows/uwpcommunitytoolkit/)
+- [API docs](https://docs.microsoft.com/dotnet/api/?view=win-comm-toolkit-dotnet-stable)  
+- [Source code](https://aka.ms/uwptoolkit)
 
 <!-- 
 * **Windows Community Toolkit**<br/>*NuGet package, Microsoft* 
@@ -41,7 +41,7 @@ A collection of helper functions, custom controls, and app services that simplif
 
     [How-to articles](https://docs.microsoft.com/windows/uwpcommunitytoolkit/)
 
-    [API docs](https://docs.microsoft.com/en-us/dotnet/api/?view=uwp-toolkit-dotnet)   
+    [API docs](https://docs.microsoft.com/dotnet/api/?view=uwp-toolkit-dotnet)   
 
     [Source code](https://aka.ms/uwptoolkit)
 
