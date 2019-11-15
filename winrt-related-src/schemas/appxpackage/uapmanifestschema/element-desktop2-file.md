@@ -5,7 +5,6 @@ title: desktop2:File
 description: Specifies the path to an event message file.
 ms.author: mcleans
 ms.date: 04/05/2017
-ms.topic: reference
 
 
 ms.topic: reference

@@ -4,13 +4,8 @@ title: Application content schema
 description: The Application content schema for UWP apps enables developers to enhance in-app search by providing extra information about your app's content to the Windows Search Index.
 author: mcleblanc
 ms.author: markl
-ms.topic: article
-
-
 keywords: windows 10, uwp, schema
-
-
-ms.topic: reference
+ms.topic: article
 ms.date: 04/05/2017
 ---
 
