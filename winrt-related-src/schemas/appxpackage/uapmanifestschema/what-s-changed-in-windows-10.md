@@ -20,72 +20,72 @@ The following sections list the namespaces and XML prefixes added to the package
 ### Added namespaces and XML prefixes
 | Prefix   | Namespace | 
 |----------|-----------|
-| uap8     | http://schemas.microsoft.com/appx/manifest/uap/windows10/8 | 
-| desktop6 | http://schemas.microsoft.com/appx/manifest/desktop/windows10/6 |
-| rescap6  | http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/6 |
+| uap8     | `http://schemas.microsoft.com/appx/manifest/uap/windows10/8` | 
+| desktop6 | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/6` |
+| rescap6  | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/6` |
 
 ## Windows 10, Build 17763, Version 1809
 ### Added namespaces and XML prefixes
 | Prefix   | Namespace | 
 |----------|-----------|
-| uap7     | http://schemas.microsoft.com/appx/manifest/uap/windows10/7 | 
-| desktop5 | http://schemas.microsoft.com/appx/manifest/desktop/windows10/5 |
-| rescap5  | http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/5 |
+| uap7     | `http://schemas.microsoft.com/appx/manifest/uap/windows10/7` | 
+| desktop5 | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/5` |
+| rescap5  | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/5` |
 
 ## Windows 10, Build 17134, Version 1803
 ### Added namespaces and XML prefixes
 | Prefix   | Namespace | 
 |----------|-----------|
-| uap6     | http://schemas.microsoft.com/appx/manifest/uap/windows10/6 | 
-| desktop4 | http://schemas.microsoft.com/appx/manifest/desktop/windows10/4 |
-| rescap4  | http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/4 | 
+| uap6     | `http://schemas.microsoft.com/appx/manifest/uap/windows10/6` | 
+| desktop4 | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/4` |
+| rescap4  | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/4` | 
 
 
 ## Windows 10, Fall Creators Update - Build 16299.15, Version 1709
 ### Added namespaces and XML prefixes 
 | Prefix   | Namespace | 
 |----------|-----------|
-| com2     | http://schemas.microsoft.com/appx/manifest/com/windows10/2 |
-| desktop3 | http://schemas.microsoft.com/appx/manifest/desktop/windows10/3 |
-| uap5     | http://schemas.microsoft.com/appx/manifest/uap/windows10/5 |
+| com2     | `http://schemas.microsoft.com/appx/manifest/com/windows10/2` |
+| desktop3 | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/3` |
+| uap5     | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
 
 ## Windows 10, Creators Update - Build 15063, Version 1703
 ### Added namespaces and XML prefixes 
 | Prefix   | Namespace | 
 |----------|-----------|
-| com      | http://schemas.microsoft.com/appx/manifest/com/windows10 |
-| desktop2 | http://schemas.microsoft.com/appx/manifest/desktop/windows10/2 |
-| rescap3  | http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/3 |
-| uap4     | http://schemas.microsoft.com/appx/manifest/uap/windows10/4 |
+| com      | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
+| desktop2 | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/2` |
+| rescap3  | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/3` |
+| uap4     | `http://schemas.microsoft.com/appx/manifest/uap/windows10/4` |
 
 
 ## Windows 10, Anniversary Update - Build 14393, Version 1607
 ### Added namespaces and XML prefixes 
 | Prefix  | Namespace | 
 |---------|-----------|
-| desktop | http://schemas.microsoft.com/appx/manifest/desktop/windows10 |
-| rescap2 | http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/2 |
-| uap3    | http://schemas.microsoft.com/appx/manifest/uap/windows10/3 |
+| desktop | `http://schemas.microsoft.com/appx/manifest/desktop/windows10` |
+| rescap2 | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/2` |
+| uap3    | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
 
 
 ## Windows 10, November Update - Build 10586, Version 1511
 ### Added namespaces and XML prefixes 
 | Prefix   | Namespace | 
 |----------|-----------|
-| f2       | http://schemas.microsoft.com/appx/manifest/foundation/windows10/2 |
-| uap2     | http://schemas.microsoft.com/appx/manifest/uap/windows10/2 |
+| f2       | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/2` |
+| uap2     | `http://schemas.microsoft.com/appx/manifest/uap/windows10/2` |
 
 
 ## Windows 10 - Build 10240, Version 1507
 ### Added namespaces and XML prefixes 
 | Prefix        | Namespace | 
 |---------------|-----------|
-| uap           | http://schemas.microsoft.com/appx/manifest/uap/windows10 |
-| f             | http://schemas.microsoft.com/appx/manifest/foundation/windows10 |
-| holo          | http://schemas.microsoft.com/appx/manifest/holographic/windows10 |
-| mobile        | http://schemas.microsoft.com/appx/manifest/mobile/windows10 |
-| rescap        | http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities |
-| serverpreview | http://schemas.microsoft.com/appx/manifest/serverpreview/windows10 |  
+| uap           | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+| f             | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| holo          | `http://schemas.microsoft.com/appx/manifest/holographic/windows10` |
+| mobile        | `http://schemas.microsoft.com/appx/manifest/mobile/windows10` |
+| rescap        | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities` |
+| serverpreview | `http://schemas.microsoft.com/appx/manifest/serverpreview/windows10` |  
 
 
 ## Elements and attributes that have been added
@@ -130,10 +130,6 @@ The following sections list the namespaces and XML prefixes added to the package
 -   [**VisualElements@ForegroundText**](https://msdn.microsoft.com/library/windows/apps/dn423310) attribute.
 -   [**VisualElements@SmallLogo**](https://msdn.microsoft.com/library/windows/apps/dn423310) attribute.
 -   [**VisualElements@ToastCapable**](https://msdn.microsoft.com/library/windows/apps/dn423310) attribute.
-
-
-
-
 
 ## Example
 
