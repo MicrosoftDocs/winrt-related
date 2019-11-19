@@ -20,7 +20,7 @@ The WinUI 3.0 Alpha is a pre-release build of WinUI 3.0, and we welcome your fee
 
 ## Try the WinUI 3.0 Alpha
 
-To try the WinUI 3.0 Alpha, install the latest Visual Studio Preview then either start with a blank [Visual Studio project template](#visual-studio-project-templates), or clone and build the [XAML Controls Gallery (WinUI 3.0 Alpha) sample app](#xaml-controls-gallery-winui-30-alpha-branch).
+To try the WinUI 3.0 Alpha, install the latest Visual Studio Preview then either start with a blank [Visual Studio project template](#visual-studio-project-templates), or clone and build the [XAML Controls Gallery (WinUI 3.0 Alpha) app](#xaml-controls-gallery-winui-30-alpha-branch).
 
 ### Set up Visual Studio
 
@@ -160,7 +160,7 @@ The following list shows the UI controls and features that are not included (or 
 
 The .NET interfaces [System.ComponentModel.INotifyPropertyChanged](https://docs.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged?view=dotnet-uwp-10.0) and [System.Collections.Specialized.INotifyCollectionChanged](https://docs.microsoft.com/dotnet/api/system.collections.specialized.inotifycollectionchanged?view=dotnet-uwp-10.0) are projected into the WinRT Windows.UI.Xaml namespace as [Windows.UI.Xaml.Data.INotifyPropertyChanged](https://docs.microsoft.com/uwp/api/windows.ui.xaml.data.inotifypropertychanged) and [Windows.UI.Xaml.Interop.INotifyCollectionChanged](https://docs.microsoft.com/uwp/api/windows.ui.xaml.interop.inotifycollectionchanged), respectively. However, WinUI 3.0 depends on interfaces in the Microsoft.UI.Xaml namespace, so types that implement these .NET interfaces do not function well with WinUI 3.0. To work around this issue, your type should implement the corresponding Microsoft.UI.Xaml interfaces.
 
-As a result of this issue, [ObservableCollection\<T\>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.objectmodel.observablecollection-1) does not work well in conjunction with WinUI 3.0. When used as an [ItemsSource](https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.itemscontrol.itemssource#Windows_UI_Xaml_Controls_ItemsControl_ItemsSource), changes to the collection can result in the following exception:
+As a result of this issue, [ObservableCollection\<T\>](https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1) does not work well in conjunction with WinUI 3.0. When used as an [ItemsSource](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.itemscontrol.itemssource#Windows_UI_Xaml_Controls_ItemsControl_ItemsSource), changes to the collection can result in the following exception:
 
 `System.Runtime.InteropServices.COMException: 'The application called an interface that was marshalled for a different thread. (Exception from HRESULT: 0x8001010E (RPC_E_WRONG_THREAD))'`
 
