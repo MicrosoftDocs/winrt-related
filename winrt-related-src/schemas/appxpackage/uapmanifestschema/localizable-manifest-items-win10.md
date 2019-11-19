@@ -3,7 +3,6 @@ title: Localizable manifest items
 description: Contains a list of all the localizable items in the app package manifest. 
 author: mcleanbyron
 ms.author: mcleans
-ms.topic: reference
 
 
 keywords: windows 10, uwp, schema, package manifest
