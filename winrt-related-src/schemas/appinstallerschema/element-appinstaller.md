@@ -52,7 +52,7 @@ This element defines the root element of an appinstaller file. The appinstaller 
 |-----------|-------------|-----------|----------|
 | xmlns | The namespace definition of the appinstaller schema. To take advantage of the latest features the schema has to offer, use http://schemas.microsoft.com/appx/appinstaller/2018 on devices using Windows 10, versions 1809 and greater. On devices using Windows 10, versions greater than 1803 but less than 1809 you can use http://schemas.microsoft.com/appx/appinstaller/2017/2. On devices that are on Build number greater than Windows 10, version 1709 but less than Windows 10, version 1803, use: http://schemas.microsoft.com/appx/appinstaller/2017 | URI as a string between 1 and 2084 characters in length. |  Yes |
 | Version | The version of appinstaller file |   A version string in quad notation, "Major.Minor.Build.Revision". | Yes |
-| Uri | Web URI to the redirected appinstaller file. When the Uri specified in the field differs from the current file, the deployment operation will redirect to the Uri instead of the current file. The appinstaller file can only be redirected a max of three times. | Web URI as a string between 1 and 2084 characters in length.| Yes |
+| Uri | Web URI to the redirected appinstaller file. When the Uri specified in the field differs from the current file, the deployment operation will redirect to the Uri instead of the current file. The appinstaller file can only be redirected a max of three times. Query strings with multiple key/value pairs are currently not supported. | Web URI as a string between 1 and 2084 characters in length.| Yes |
 
 
 ### Child Elements
