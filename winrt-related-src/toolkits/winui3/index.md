@@ -116,7 +116,7 @@ Aside from the limitations and known issues outlined below, building an app usin
 
 For more information on how to create a UWP app, see [Start coding](https://docs.microsoft.com/windows/uwp/get-started/create-uwp-apps).
 
-The main difference is that WinUI 3 APIs are in the `Microsoft.UI` namespace instead of the `Windows.UI` namespace, so you may need to update namespaces when copying and pasting sample code. Similarly, libraries and components using UI controls from `Windows.UI.Xaml` are not compatible with WinUI 3 and must be updated to `Microsoft.UI.Xaml`.
+The main difference is that WinUI 3 APIs are in the `Microsoft.UI` namespace instead of the `Windows.UI` namespace, so you might need to update the namespaces when copying and pasting sample code. Similarly, libraries and components using UI controls from `Windows.UI.Xaml` are not compatible with WinUI 3.0 and must be updated to `Microsoft.UI.Xaml`.
 
 ## Alpha limitations and known issues
 

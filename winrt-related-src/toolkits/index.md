@@ -5,10 +5,10 @@ ms.author: kbridge
 author: Karl-Bridge-Microsoft
 ms.topic: reference
 ms.date: 11/07/2019
-keywords: windows 10, uwp, toolkit sdk
+keywords: windows 10, uwp, toolkit sdk, winui, Windows UI Library
 ---
 
-# Toolkits and libraries
+# Libraries and toolkits
 
 ![Toolkits hero image](images/toolkits-banner.png)
 
