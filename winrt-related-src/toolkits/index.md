@@ -8,9 +8,9 @@ ms.date: 11/07/2019
 keywords: windows 10, uwp, toolkit sdk
 ---
 
-# UWP toolkits and libraries
+# Toolkits and libraries
 
-![UWP toolkits hero image](images/toolkits-banner.png)
+![Toolkits hero image](images/toolkits-banner.png)
 
 These toolkits, available as NuGet packages, provide controls, helper functions, and services that make it easier to build powerful apps.
 
@@ -21,7 +21,7 @@ These toolkits, available as NuGet packages, provide controls, helper functions,
 
 ## Windows UI 2.x Library
 
-New Fluent controls and UI features for UWP apps from the Windows platform team.
+New Fluent controls and UI features for Windows apps from the Windows platform team.
 
 - [Windows UI Library overview](winui/index.md)
 - [API docs](https://docs.microsoft.com/uwp/api/overview/winui/)
@@ -30,7 +30,7 @@ New Fluent controls and UI features for UWP apps from the Windows platform team.
 
 ## Windows Community Toolkit
 
-A collection of helper functions, custom controls, and app services that simplify building UWP apps.
+A collection of helper functions, custom controls, and app services that simplify building Windows apps.
 
 - [Windows Community Toolkit overview](https://docs.microsoft.com/windows/uwpcommunitytoolkit/)
 - [API docs](https://docs.microsoft.com/dotnet/api/?view=win-comm-toolkit-dotnet-stable)  

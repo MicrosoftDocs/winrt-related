@@ -15,7 +15,10 @@ ms.custom: RS5
 
 The Windows UI Library provides official native Windows UI controls and other user interface elements for UWP apps.
 
-It maintains down-level compatibility with earlier versions of Windows 10, so your app works even if users don't have the latest OS. 
+It maintains down-level compatibility with earlier versions of Windows 10, so your app works even if users don't have the latest OS.
+
+> [!NOTE]
+> Check out the [WinUI 3.0 Alpha](../winui3/index.md), a major update to the Windows 10 UI platform planned for release in 2020.
 
 ## Features
 
