@@ -1,19 +1,19 @@
 ---
 title: Windows UI library
-description: Lists toolkits for UWP app development. 
-ms.author: mijacobs
-author: mijacobs
+description: Lists toolkits for Windows app development. 
+ms.author: kbridge
+author: Karl-Bridge-Microsoft
 ms.topic: reference
-ms.date: 10/02/2018
-keywords: windows 10, uwp, toolkit sdk
+ms.date: 11/20/2019
+keywords: windows 10, uwp, toolkit sdk, winui, Windows UI Library
 ms.custom: RS5
 ---
 
-# Windows UI Library 
+# Windows UI Library
 
-![](images/winUI-library-767.png)
+![WinUI controls](images/winUI-library-767.png)
 
-The Windows UI Library provides official native Windows UI controls and other user interface elements for UWP apps.
+The Windows UI Library provides official native Windows UI controls and other user interface elements for Windows apps.
 
 It maintains down-level compatibility with earlier versions of Windows 10, so your app works even if users don't have the latest OS.
 
@@ -42,7 +42,7 @@ https://github.com/Microsoft/Xaml-Controls-Gallery)
 
 ## Documentation
 
-How-to articles for Windows UI Library controls are located with the rest of our [UWP controls documentation](/windows/uwp/design/controls-and-patterns/).
+How-to articles for Windows UI Library controls are included with the [Universal Windows Platform controls documentation](/windows/uwp/design/controls-and-patterns/).
 
 API reference docs are located here: [Windows UI Library APIs](/uwp/api/overview/winui/).
 
@@ -59,5 +59,3 @@ We are continuing to develop and evolve WinUI to support more developer scenario
 ## NuGet package list
 
 The Windows UI Library contains multiple NuGet packages: [Windows UI Library NuGet package list](nuget-packages.md).
-
-
