@@ -604,6 +604,8 @@
             href: schemas/appxpackage/uapmanifestschema/element-uap2-supportedverbs.md
           - name: "uap2:Verb"
             href: schemas/appxpackage/uapmanifestschema/element-uap2-verb.md
+          - name: "uap3:Verb"
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-verb.md
           - name: "uap4:KindMap"
             href: schemas/appxpackage/uapmanifestschema/element-uap4-kindmap.md
           - name: "uap4:Kind"

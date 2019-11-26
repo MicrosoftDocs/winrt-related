@@ -257,6 +257,7 @@ The following list summarizes the allowed hierarchies for this schema, starting 
                             -   [**uap:FileType**](element-uap-filetype.md)
                         -   [**uap2:SupportedVerbs**](element-uap2-supportedverbs.md)
                             -   [**uap2:Verb**](element-uap2-verb.md)
+                            -   [**uap3:Verb**](element-uap3-verb.md)
                         -   [**uap4:KindMap**](element-uap4-kindmap.md)
                             -   [**uap4:Kind**](element-uap4-kind.md)
                     -   [**uap:Protocol**](element-uap-protocol.md)

@@ -64,7 +64,7 @@ Describes the visual aspects of the app: its default tile, logo images, text and
                      AppListEntry?     = "default" | "none" 
                      VisualGroup       = A string between 1 and 256 characters in 
                                          length that does not contain one or more 
-                                         backslashes ().>
+                                         backslashes (\).>
 
   <!-- Child elements -->
   ( uap:DefaultTile?
@@ -160,7 +160,7 @@ Describes the visual aspects of the app: its default tile, logo images, text and
 <tr class="odd">
 <td><strong>VisualGroup</strong></td>
 <td>The name of a folder to create on the All Apps List, in which the tile for the app should be stored.</td>
-<td>A string between 1 and 256 characters in length that does not contain one or more backslashes ().</td>
+<td>A string between 1 and 256 characters in length that does not contain one or more backslashes (\).</td>
 <td>No</td>
 <td></td>
 </tr>
@@ -191,7 +191,7 @@ Describes the visual aspects of the app: its default tile, logo images, text and
 ## Remarks
 
 
-You cannot use the **VisualGroup** attribute to create a structure of nested folders. If you include a backslash (\) in the value, an error occurs.
+You cannot use the **VisualGroup** attribute to create a structure of nested folders. If you include a backslash (\\) in the value, an error occurs.
 
 The **VisualGroup** attribute is not valid if the manifest declares only one app.
 
