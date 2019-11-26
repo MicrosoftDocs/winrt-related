@@ -28,9 +28,32 @@ WinUI is an open source project hosted on GitHub. We welcome bug reports, featur
 
 
 #### Description: 
-A progress control provides feedback to the user that a long-running operation is underway. It can mean that the user cannot interact with the app when the progress indicator is visible
+A progress control provides feedback to the user that a long-running operation is underway. It can mean that the user cannot interact with the app when the progress indicator is visible. 
 
 
-[Doc links:](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/progress-controls) 
-Sample Link : XAML Control Gallery on the Store 
+[Doc link](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/progress-controls) 
+
+[Sample Link](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/progress-controls#examples)
+
+
+### 2) Radio Buttons
+
+![Example](../images/tabview-gif.gif)
+
+#### Description 
+RadioButtons is a new container control that enables you to create related groups of RadioButton elements easily, while also correctly supporting keyboarding and narrator/screen reader functionality
+
+[Doc and Sample Link](https://github.com/microsoft/microsoft-ui-xaml-specs/blob/c8d3d3668af546091656dfc37436b13cd062f52d/active/radiobuttons/RadioButtons_Spec.md)
+
+
+### 3) NumberBox
+
+![Example](../images/tabview-gif.gif)
+
+#### Description 
+Represents a control that can be used to display and edit numbers. This supports validation, increment stepping, and computing inline calculations of basic equations, such as multiplication, division, addition, and subtraction.
+
+[Doc and Sample Link](https://github.com/microsoft/microsoft-ui-xaml-specs/blob/e016c9baa154d76ba3f61d2692af97fe6c0613b6/active/NumberBox/NumberBox.md)
+
+
 
