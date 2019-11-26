@@ -24,7 +24,7 @@ WinUI is an open source project hosted on GitHub. We welcome bug reports, featur
 ### 1) Progress Bar Visual Refresh
 
 
-![Example](../images/tabview-gif.gif)
+![Example](../images/ProgressBar.gif)
 
 
 #### Description: 
@@ -38,7 +38,7 @@ A progress control provides feedback to the user that a long-running operation i
 
 ### 2) Radio Buttons
 
-![Example](../images/tabview-gif.gif)
+![Example](../images/RadioButtons.png)
 
 #### Description 
 RadioButtons is a new container control that enables you to create related groups of RadioButton elements easily, while also correctly supporting keyboarding and narrator/screen reader functionality
@@ -48,10 +48,10 @@ RadioButtons is a new container control that enables you to create related group
 
 ### 3) NumberBox
 
-![Example](../images/tabview-gif.gif)
+![Example]
 
 #### Description 
-Represents a control that can be used to display and edit numbers. This supports validation, increment stepping, and computing inline calculations of basic equations, such as multiplication, division, addition, and subtraction.
+NumberBox represents a control that can be used to display and edit numbers. This supports validation, increment stepping, and computing inline calculations of basic equations, such as multiplication, division, addition, and subtraction.
 
 [Doc and Sample Link](https://github.com/microsoft/microsoft-ui-xaml-specs/blob/e016c9baa154d76ba3f61d2692af97fe6c0613b6/active/NumberBox/NumberBox.md)
 
