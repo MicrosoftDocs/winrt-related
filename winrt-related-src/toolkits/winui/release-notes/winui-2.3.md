@@ -23,13 +23,18 @@ WinUI is an open source project hosted on GitHub. We welcome bug reports, featur
 
 ### 1) Progress Bar Visual Refresh
 
+#### Indeterminate Progress Bar 
 
-![Example](../images/ProgressBar.gif)
+![Example](../images/IndeterminateProgressBar.gif)
 
+#### Determinate Progress Bar
+
+![Example](../images/IndeterminateProgressBar.gif)
 
 #### Description: 
-A progress control provides feedback to the user that a long-running operation is underway. It can mean that the user cannot interact with the app when the progress indicator is visible. 
-
+The ProgressBar has two differnt visual represetations. 
+Indeterminate - shows that a task is ongoing , but dosen't block user interaction. 
+Determinate - shows how much progress has been made on a known amount of work. 
 
 [Doc link](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/progress-controls) 
 
