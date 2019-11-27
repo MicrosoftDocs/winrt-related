@@ -29,7 +29,7 @@ WinUI is an open source project hosted on GitHub. We welcome bug reports, featur
 
 #### Determinate Progress Bar
 
-![Example](../images/IndeterminateProgressBar.gif)
+![Example](../images/DeterminateProgressBar.gif)
 
 #### Description: 
 The ProgressBar has two different visual represetations.
