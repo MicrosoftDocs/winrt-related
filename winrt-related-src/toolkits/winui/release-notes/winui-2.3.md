@@ -43,17 +43,9 @@ Determinate - shows how much progress has been made on a known amount of work.
 [Sample Link](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/progress-controls#examples)
 
 
-### 2) Radio Buttons
+### 2) NumberBox
 
-![Example](../images/RadioButtons.png)
-
-#### Description 
-**RadioButtons** is a new container control that enables you to create related groups of RadioButton elements easily, while also correctly supporting keyboarding and narrator/screen reader functionality
-
-[Doc and Sample Link](https://github.com/microsoft/microsoft-ui-xaml-specs/blob/c8d3d3668af546091656dfc37436b13cd062f52d/active/radiobuttons/RadioButtons_Spec.md)
-
-
-### 3) NumberBox
+![Example](../images/NumberBoxGif.gif)
 
 #### Description 
 **NumberBox** represents a control that can be used to display and edit numbers. This supports validation, increment stepping, and computing inline calculations of basic equations, such as multiplication, division, addition, and subtraction.
@@ -61,4 +53,11 @@ Determinate - shows how much progress has been made on a known amount of work.
 [Doc and Sample Link](https://github.com/microsoft/microsoft-ui-xaml-specs/blob/e016c9baa154d76ba3f61d2692af97fe6c0613b6/active/NumberBox/NumberBox.md)
 
 
+### 3) Radio Buttons
 
+![Example](../images/RadioButtons.png)
+
+#### Description 
+**RadioButtons** is a new container control that enables you to create related groups of RadioButton elements easily, while also correctly supporting keyboarding and narrator/screen reader functionality
+
+[Doc and Sample Link](https://github.com/microsoft/microsoft-ui-xaml-specs/blob/c8d3d3668af546091656dfc37436b13cd062f52d/active/radiobuttons/RadioButtons_Spec.md)
