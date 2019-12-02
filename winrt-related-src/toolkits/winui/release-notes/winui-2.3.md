@@ -9,55 +9,50 @@ ms.topic: reference
 
 # Windows UI Library 2.3
 
-WinUI 2.3 is the latest official release of the Windows UI Library.
+WinUI 2.3 is the latest official release of the Windows UI Library (WinUI).
 
-You can add WinUI packages to your app using the NuGet package manager: see [Getting Started with the Windows UI Library](../getting-started.md) for more information.
+WinUI is an open source project hosted on GitHub at [Windows UI Library repo](https://aka.ms/winui). Please register all bug reports, feature requests, and community code contributions in this repo.
 
-WinUI is an open source project hosted on GitHub. We welcome bug reports, feature requests and community code contributions in the [Windows UI Library repo](https://aka.ms/winui).
+WinUI Releases: [GitHub release page](https://github.com/microsoft/microsoft-ui-xaml/releases)
 
-[GitHub release page](https://github.com/microsoft/microsoft-ui-xaml/releases)
+WinUI packages can be added to Visual Studio projects through the NuGet package manager. For more information, see [Getting Started with the Windows UI Library](../getting-started.md).
 
-[NuGet package download](https://www.nuget.org/packages/Microsoft.UI.Xaml)
+NuGet package download: [Microsoft.UI.Xaml](https://www.nuget.org/packages/Microsoft.UI.Xaml)
 
 ## New Features 
 
 ### 1) Progress Bar Visual Refresh
 
+The **ProgressBar** has two different visual represetations.
+
 #### Indeterminate Progress Bar 
 
-![Example](../images/IndeterminateProgressBar.gif)
+Shows that a task is ongoing, but doesn't block user interaction.
+
+![Indeterminate Progress Bar](../images/IndeterminateProgressBar.gif)
 
 #### Determinate Progress Bar
 
-![Example](../images/DeterminateProgressBar.gif)
+Shows how much progress has been made on a known amount of work. 
 
-#### Description: 
-The ProgressBar has two different visual represetations.
-
-Indeterminate - shows that a task is ongoing, but doesn't block user interaction. 
-
-Determinate - shows how much progress has been made on a known amount of work. 
+![Determinate Progress Bar](../images/DeterminateProgressBar.gif)
 
 [Doc link](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/progress-controls) 
 
-[Sample Link](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/progress-controls#examples)
-
+[Sample link](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/progress-controls#examples)
 
 ### 2) NumberBox
 
-![Example](../images/NumberBoxGif.gif)
+A **NumberBox** represents a control that can be used to display and edit numbers. This supports validation, increment stepping, and computing inline calculations of basic equations, such as multiplication, division, addition, and subtraction.
 
-#### Description 
-**NumberBox** represents a control that can be used to display and edit numbers. This supports validation, increment stepping, and computing inline calculations of basic equations, such as multiplication, division, addition, and subtraction.
+![NumberBox](../images/NumberBoxGif.gif)
 
-[Doc and Sample Link](https://github.com/microsoft/microsoft-ui-xaml-specs/blob/e016c9baa154d76ba3f61d2692af97fe6c0613b6/active/NumberBox/NumberBox.md)
+[Doc and sample link](https://github.com/microsoft/microsoft-ui-xaml-specs/blob/e016c9baa154d76ba3f61d2692af97fe6c0613b6/active/NumberBox/NumberBox.md)
 
+### 3) RadioButtons
 
-### 3) Radio Buttons
-
-![Example](../images/RadioButtons.png)
-
-#### Description 
 **RadioButtons** is a new container control that enables you to create related groups of RadioButton elements easily, while also correctly supporting keyboarding and narrator/screen reader functionality
 
-[Doc and Sample Link](https://github.com/microsoft/microsoft-ui-xaml-specs/blob/c8d3d3668af546091656dfc37436b13cd062f52d/active/radiobuttons/RadioButtons_Spec.md)
+![RadioButtons](../images/RadioButtons.png)
+
+[Doc and sample link](https://github.com/microsoft/microsoft-ui-xaml-specs/blob/c8d3d3668af546091656dfc37436b13cd062f52d/active/radiobuttons/RadioButtons_Spec.md)
