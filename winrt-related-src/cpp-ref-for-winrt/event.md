@@ -17,6 +17,10 @@ ms.workload: ["cplusplus"]
 # winrt::event struct template (C++/WinRT)
 A type that you can use to declare and implement an event of a specified delegate type. Subscribers pass their event-handling delegates to an event; the event registers those delegates in a collection; then, when it is raised, the event invokes its registered delegates in turn so that subscribers can handle the event. For more info about authoring events, and code examples, see [Author events in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-events).
 
+If you need events internal to your project, and not limited to Windows Runtime types, then use **event**\<[**winrt::delegate**](delegate.md)\>. For more info, see [Parameterized delegates, simple signals, and callbacks within a project](/windows/uwp/cpp-and-winrt-apis/author-events#parameterized-delegates-simple-signals-and-callbacks-within-a-project).
+
+For more info about handling events, and code examples, see [Handle events by using delegates in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/handle-events).
+
 ## Syntax
 ```cppwinrt
 template <typename Delegate>
@@ -122,5 +126,6 @@ A [**winrt::event_token**](event-token.md) that identifies the delegate whose re
 ## See also
 * [winrt namespace](winrt.md)
 * [Author events in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-events)
+* [Handle events by using delegates in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/handle-events)
 * [winrt::delegate struct template](delegate.md)
 * [winrt::event_token struct](event-token.md)

@@ -5,17 +5,18 @@ title: winrt::delegate struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.author: stwhi
 ms.date: 04/24/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, delegate, handler
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
 # winrt::delegate struct template (C++/WinRT)
-A type that you can use to declare a custom delegate type for your own events in cases where you need to support passing non-Windows Runtime types as delegate parameters. The **delegate** type has no ABI (it has no interface for use across application binaries), so its use case is when you're both authoring and consuming an event within the same project. For more info about handling events, and code examples, see [Handle events by using delegates in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/handle-events).
+A type that you can use to declare a custom delegate type for your own events. **delegate** supports any number of parameters, and they are not limited to Windows Runtime types.
+
+The **delegate** type has no ABI (it has no interface for use across application binaries), so its use case is when you're both authoring and consuming an event within the same project. For more details of that scenario, see [Parameterized delegates, simple signals, and callbacks within a project](/windows/uwp/cpp-and-winrt-apis/author-events#parameterized-delegates-simple-signals-and-callbacks-within-a-project).
+
+For more info about handling events, and code examples, see [Handle events by using delegates in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/handle-events).
 
 ## Syntax
 ```cppwinrt
@@ -97,5 +98,6 @@ void operator()(T const&... args) const
 
 ## See also
 * [winrt namespace](winrt.md)
+* [Author events in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-events)
 * [Handle events by using delegates in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/handle-events)
 * [winrt::event struct template](event.md)
