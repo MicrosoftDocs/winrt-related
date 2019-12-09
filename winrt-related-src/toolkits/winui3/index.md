@@ -141,6 +141,7 @@ Future updates will include support for a wider range of Windows versions and de
 The following list shows the UI controls and features that are not included (or not fully functional) in the first Alpha build.
 
 * [AcrylicBrush](https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.acrylicbrush)
+* [AppWindow](https://docs.microsoft.com/windows/uwp/design/layout/app-window) functionality including [ElementCompositionPreview.GetAppWindowContent](https://docs.microsoft.com/uwp/api/windows.ui.xaml.hosting.elementcompositionpreview.getappwindowcontent) and [ElementCompositionPreview.SetAppWindowContent](https://docs.microsoft.com/uwp/api/windows.ui.xaml.hosting.elementcompositionpreview.setappwindowcontent) 
 * [ContentLink](https://docs.microsoft.com/uwp/api/windows.ui.xaml.documents.contentlink)
 * [HandWritingView](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.handwritingview)
 * [InkCanvas](https://docs.microsoft.com/uwp/api/windows.ui.xaml.controls.inkcanvas), [InkToolbar](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.InkToolbar) and related APIs 
