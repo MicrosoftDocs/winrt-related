@@ -43,7 +43,17 @@
           "toolkits/winui3/**.md": "winui"
         }
       },
-    "externalReference": [
+      "fileMetadata": {
+        "author":
+        {
+         "toolkits/**.md": "Karl-Bridge-Microsoft"
+        },
+        "ms.author":
+        {
+          "toolkits/**.md": "kbridge"
+        }		 		 
+      },
+      "externalReference": [
     ],
     "template": [],
     "dest": "winrt-related"
