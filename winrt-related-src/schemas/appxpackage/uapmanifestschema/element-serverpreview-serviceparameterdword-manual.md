@@ -3,8 +3,8 @@ Description: Specifies the value of a parameter for the service that has a data 
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:ServiceParameterDword
 ms.assetid: 96e0ef7e-d90d-4d55-893d-cb3ed146e403
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

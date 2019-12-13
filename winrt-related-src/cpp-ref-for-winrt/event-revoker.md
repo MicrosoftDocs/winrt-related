@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: When you register a delegate, you can request an event revoker, which you can use to either automatically or manually revoke your delegate.
 title: winrt::event_revoker struct template (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 05/18/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference

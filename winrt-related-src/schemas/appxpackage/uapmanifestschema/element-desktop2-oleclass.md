@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: 6e4f6092-889f-4462-baf5-45ba7ca0359a
 title: desktop2:OleClass
 description: Enables OLE to get the OLE class registered for a given file extension.
-ms.author: mcleans
+
 ms.date: 04/05/2017
 ms.topic: reference
 

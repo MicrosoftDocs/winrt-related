@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: deb8e538-57e7-4b92-b121-6b2ea53f5094
 title: uap4:MediaEncodingProperties
 description: Contains the media coded input and output types.
-ms.author: mcleans
+
 ms.date: 04/05/2017
 ms.topic: reference
 

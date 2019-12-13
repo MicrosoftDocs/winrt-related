@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A type that you can use to declare a custom delegate type for your own events.
 title: winrt::delegate struct template (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 04/24/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, delegate, handler

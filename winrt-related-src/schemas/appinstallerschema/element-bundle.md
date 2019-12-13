@@ -1,6 +1,6 @@
 ---
-author: mcleanbyron
-ms.author: mcleans
+
+
 title: Bundle
 description: The Bundle element specifies the information about the bundle package. 
 ms.topic: reference

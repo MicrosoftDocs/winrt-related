@@ -3,8 +3,7 @@ Description: Defines the maximum number of tethered connections.
 Search.Product: eADQiWindows 10XVcnh
 title: MaxNumberOfDevices
 ms.assetid: b396b874-c57b-42a4-a9d9-f92067d89f8e
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

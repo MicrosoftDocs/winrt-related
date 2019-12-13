@@ -1,6 +1,6 @@
 ---
-author: mcleanbyron
-ms.author: mcleans
+
+
 title: Package
 description: The Package element specifies the information about the package which includes name, publisher, version and uri. ProcessorArchitecture is an optional attribute of the Package.
 ms.topic: reference

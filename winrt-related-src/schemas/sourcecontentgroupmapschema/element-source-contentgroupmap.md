@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+
 ms.assetid: 60660150-a566-438c-ac07-4470f570c2c1 
 title: ContentGroupMap
 description: Specifies the layout of the source content group map, SourceAppxContentGroupMap.xml.
-ms.author: lahugh
+
 ms.date: 03/29/2017
 ms.topic: article
 

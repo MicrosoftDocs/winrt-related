@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A base class, for you to derive from, that represents a view of a contiguous sequence of elements in a general-purpose collection.
 title: winrt::vector_view_base struct template (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 08/25/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, vector, view, collection

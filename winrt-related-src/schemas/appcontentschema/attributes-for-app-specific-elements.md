@@ -3,8 +3,7 @@ title: Attributes for app-specific elements
 description: Use these attributes to index content in your own app-specific XML elements.
 Search.Product: eADQiWindows 10XVcnh
 ms.assetid: 53A9090A-8C47-40AE-9FEC-978586676030
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema
 
 

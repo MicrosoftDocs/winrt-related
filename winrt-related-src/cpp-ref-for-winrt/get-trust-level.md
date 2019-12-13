@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A helper function that retrieves the trust level of a C++/WinRT object.
 title: winrt::get_trust_level function (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 05/01/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, trust, level, IInspectable, GetTrustLevel

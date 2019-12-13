@@ -1,8 +1,8 @@
 ---
-author: mcleanbyron
+
 title: How Visual Studio generates an app package manifest
 description: When you build an app, Visual Studio generates an associated package manifest. Learn how this is generated from your app's information. 
-ms.author: mcleans
+
 ms.date: 11/29/2017
 ms.topic: article
 

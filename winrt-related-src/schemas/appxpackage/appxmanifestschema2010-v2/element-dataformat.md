@@ -3,8 +3,8 @@ Description: Specifies a data package format such as text or HTML format that th
 Search.Product: eADQiWindows 10XVcnh
 title: DataFormat
 ms.assetid: a9aa181e-236d-4d33-adcd-54ec8e656891
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

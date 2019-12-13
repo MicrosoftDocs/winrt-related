@@ -1,8 +1,8 @@
 ---
-author: mcleanbyron
+
 title: desktop4:FileExplorerContextMenus
 description: Registers items for the context menu of File Explorer.
-ms.author: mcleans
+
 ms.date: 04/10/2018
 ms.topic: reference
 

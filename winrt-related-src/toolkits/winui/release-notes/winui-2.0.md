@@ -1,8 +1,8 @@
 ---
 title: WinUI 2.0 Release Notes
 description: Release notes for WinUI 2.0.
-author: jesbis
-ms.author: mijacobs
+
+
 ms.date: 03/14/2019
 ms.topic: reference
 ---

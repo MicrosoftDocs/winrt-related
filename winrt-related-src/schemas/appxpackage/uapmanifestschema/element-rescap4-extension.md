@@ -1,8 +1,8 @@
 ---
-author: mcleanbyron
+
 title: rescap4:Extension
 description: Declares an extensibility point for the app.
-ms.author: mcleans
+
 ms.date: 04/10/2018
 ms.topic: reference
 

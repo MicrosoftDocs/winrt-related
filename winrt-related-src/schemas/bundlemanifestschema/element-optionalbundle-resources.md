@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+
 ms.assetid: e257f16b-91a1-4ce1-95c5-d2d80e13ad3c
 title: Resources
 description: Declares languages, resolution scales, and DirectX feature levels for the resources that the package contains.
-ms.author: lahugh
+
 ms.date: 04/05/2017
 ms.topic: reference
 

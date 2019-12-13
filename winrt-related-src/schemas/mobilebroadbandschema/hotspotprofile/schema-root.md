@@ -3,8 +3,7 @@ Description: The HotspotProfile schema defines elements that are used to describ
 Search.Product: eADQiWindows 10XVcnh
 title: HotspotProfile schema
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

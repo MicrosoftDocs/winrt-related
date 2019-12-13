@@ -3,8 +3,8 @@ Description: The path to the executable.
 Search.Product: eADQiWindows 10XVcnh
 title: 'Path (type: ST_Executable)'
 ms.assetid: f3fe9184-f270-4050-b444-ec37a596b993
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

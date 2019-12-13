@@ -3,8 +3,7 @@ Description: Contains the System.Keywords that describe the item.
 Search.Product: eADQiWindows 10XVcnh
 title: Keywords
 ms.assetid: 9199be86-6c4d-4069-a663-a05917a43a38
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema
 
 

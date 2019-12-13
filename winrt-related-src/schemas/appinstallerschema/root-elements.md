@@ -1,6 +1,6 @@
 ---
-author: mcleanbyron
-ms.author: mcleans
+
+
 title: Element Hierarchy
 description: The following list summarizes the allowed hierarchies for the App Installer file schema, starting with the outermost element at the top.
 ms.topic: reference

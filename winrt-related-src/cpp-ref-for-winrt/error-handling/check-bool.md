@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A helper function that checks whether a value is false and, if so, retrieves the calling thread's last-error code value, and throws an exception using a C++/WinRT object that represents that error code.
 title: winrt::check_bool function template (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 04/30/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, check, throw, exception, bool, HRESULT, error, code

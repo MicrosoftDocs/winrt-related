@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A sequential collection of UTF-16 Unicode characters representing a text string.
 title: winrt::hstring struct (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 04/10/2018
 
 ms.topic: "language-reference"

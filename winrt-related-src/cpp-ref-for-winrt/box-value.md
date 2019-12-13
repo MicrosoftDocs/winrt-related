@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A function template that wraps (or *boxes*) a scalar value inside a reference class object so that it can be passed to a function that expects **IInspectable**.
 title: winrt::box_value function template (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 04/10/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, box, boxing

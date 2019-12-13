@@ -1,8 +1,8 @@
 ---
-author: mcleanbyron
+
 title: desktop4:DesktopIconOverlayHandler
 description: Windows Shell icon overlay handlers for cloud based placeholder files. 
-ms.author: mcleans
+
 ms.date: 4/10/2018
 ms.topic: reference
 

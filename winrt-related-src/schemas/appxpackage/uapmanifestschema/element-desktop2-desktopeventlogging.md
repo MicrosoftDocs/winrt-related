@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: dbddff21-f1f6-488d-9ad5-12a3365a00e3
 title: desktop2:DesktopEventLogging
 description: Enables Windows Desktop Bridge apps to register for Windows event logging.
-ms.author: mcleans
+
 ms.date: 04/05/2017
 ms.topic: reference
 

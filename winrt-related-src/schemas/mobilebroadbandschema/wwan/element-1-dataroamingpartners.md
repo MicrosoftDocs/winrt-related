@@ -3,8 +3,7 @@ Description: Defines the list of preferred network providers for roaming.
 Search.Product: eADQiWindows 10XVcnh
 title: DataRoamingPartners
 ms.assetid: 68a5d75a-bbd5-45cb-8bee-ccb3b0cc0a39
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

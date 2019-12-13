@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: f2108ae9-972c-4b45-8ea0-db791ed08089
 title: uap4:KindMap
 description: Specifies what Kind is and how it's used.
-ms.author: mcleans
+
 ms.date: 04/05/2017
 ms.topic: reference
 

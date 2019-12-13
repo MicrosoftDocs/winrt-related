@@ -1,6 +1,6 @@
 ---
-author: mcleanbyron
-ms.author: mcleans
+
+
 title: ForceUpdateFromAnyVersion
 description: An optional element of the appinstaller file. This element contains a boolean that allows the app's version to be incremented or decremented. Without this element, the app can only move to a higher version. 
 ms.topic: reference

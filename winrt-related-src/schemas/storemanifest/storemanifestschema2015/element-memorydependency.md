@@ -3,8 +3,8 @@ Description: Identifies the minimum memory that a device must have in order for 
 Search.Product: eADQiWindows 10XVcnh
 title: MemoryDependency
 ms.assetid: f575ea28-e218-4061-b3b8-6cc0cd4d9230
-author: laurenhughes
-ms.author: lahugh
+
+
 keywords: windows 10, uwp, schema, storemanifest
 
 

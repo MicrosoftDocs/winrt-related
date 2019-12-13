@@ -3,8 +3,7 @@ Description: The base tile element, which contains a single visual element.
 Search.Product: eADQiWindows 10XVcnh
 title: tile
 ms.assetid: 82ca95f2-5bb4-475f-a052-e82d003b1ab5
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, tiles
 
 

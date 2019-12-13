@@ -3,8 +3,8 @@ Description: Declares other packages that a package depends on to complete its s
 Search.Product: eADQiWindows 10XVcnh
 title: Dependencies (Windows 10)
 ms.assetid: a1e745c9-a804-42cf-a107-7fb860cc8289
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

@@ -3,8 +3,7 @@ Description: Defines the High-Speed Uplink Packet Access (HSUPA) protocol used f
 Search.Product: eADQiWindows 10XVcnh
 title: HSUPA
 ms.assetid: 0d4e73a6-7fac-459a-bcee-49ab29c027f4
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

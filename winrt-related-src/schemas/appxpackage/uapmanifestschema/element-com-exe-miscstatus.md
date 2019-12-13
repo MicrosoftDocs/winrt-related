@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: d1ebca35-9125-4102-a4ad-dadd768a7a8b
 title: com:MiscStatus (in ExeServer/Class)
 description: Specifies how to create and display an object.
-ms.author: mcleans
+
 ms.date: 03/29/2017
 ms.topic: reference
 

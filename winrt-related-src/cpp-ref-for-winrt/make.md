@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A factory method that returns an instance of a projected type or interface when parameterized with the corresponding implementation type.
 title: winrt::make function template (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 04/17/2018
 
 ms.topic: "language-reference"

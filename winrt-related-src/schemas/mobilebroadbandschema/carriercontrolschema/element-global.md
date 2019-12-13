@@ -3,8 +3,7 @@ Description: Defines identifying information for this provisioning attempt on a 
 Search.Product: eADQiWindows 10XVcnh
 title: Global
 ms.assetid: e6dd93a0-2535-4df3-8f3e-32186e7ce122
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

@@ -1,8 +1,8 @@
 ---
-author: stevewhims
+
 description: MIDL 3.0 can coexist in the same source file with classic MIDLRT; this topic shows how to transition to MIDL 3.0 from MIDLRT.
 title: Transition to MIDL 3.0 from classic MIDLRT
-ms.author: stwhi
+
 ms.date: 08/07/2019
 ms.topic: reference
 keywords: windows 10, uwp, winrt, api, reference, idl, midl, 3.0, 3, midl3, transition, port, from, MIDLRT

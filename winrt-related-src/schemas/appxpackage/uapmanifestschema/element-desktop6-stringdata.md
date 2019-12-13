@@ -1,8 +1,8 @@
 ﻿---
-author: mcleanbyron
+
 title: desktop6:StringData
 description: Specifies one or more string data values for a trigger event of a service.
-ms.author: mcleans
+
 ms.date: 04/19/2019
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 

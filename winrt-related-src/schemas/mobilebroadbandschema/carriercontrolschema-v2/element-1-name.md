@@ -3,8 +3,7 @@ Description: Defines the name of a Packet Data Protocol (PDP) context policy in 
 Search.Product: eADQiWindows 10XVcnh
 title: Name
 ms.assetid: 9eab41c7-29ff-42aa-9647-f18ff72b3faf
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

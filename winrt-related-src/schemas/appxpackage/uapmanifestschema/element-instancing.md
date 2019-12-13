@@ -3,8 +3,8 @@ Description: Specifies whether the executable runs as a single instance or can r
 Search.Product: eADQiWindows 10XVcnh
 title: Instancing (Windows 10)
 ms.assetid: 26533f27-2470-4083-91a0-4e4b03f8479a
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

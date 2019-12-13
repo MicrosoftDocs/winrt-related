@@ -3,8 +3,7 @@ Description: Defines the context of a Packet Data Protocol (PDP) context policy 
 Search.Product: eADQiWindows 10XVcnh
 title: Context
 ms.assetid: ddf2b145-59b3-46bf-a297-6992f00a06e0
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

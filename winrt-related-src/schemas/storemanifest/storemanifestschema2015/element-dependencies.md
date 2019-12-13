@@ -3,8 +3,8 @@ Description: Declares requirements that a package depends on to be applicable to
 Search.Product: eADQiWindows 10XVcnh
 title: Dependencies
 ms.assetid: a1e745c9-a804-42cf-a107-7fb860cc8289
-author: laurenhughes
-ms.author: lahugh
+
+
 keywords: windows 10, uwp, schema, storemanifest
 
 

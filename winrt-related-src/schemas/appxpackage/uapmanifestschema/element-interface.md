@@ -3,8 +3,8 @@ Description: Declares an interface associated with the proxy.
 Search.Product: eADQiWindows 10XVcnh
 title: Interface (Windows 10)
 ms.assetid: 5b5c6b0c-a9d1-4e0c-a71c-40744a12c4e7
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

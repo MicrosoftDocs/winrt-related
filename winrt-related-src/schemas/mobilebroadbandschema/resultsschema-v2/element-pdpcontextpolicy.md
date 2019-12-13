@@ -3,8 +3,7 @@ Description: Contains any errors from processing a PDPContextPolicy element from
 Search.Product: eADQiWindows 10XVcnh
 title: PDPContextPolicy
 ms.assetid: 2f17fea0-fb18-416d-9bb2-f70f1b53157e
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

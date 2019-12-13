@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A view, or span, of a contiguous series of values for passing to and from Windows Runtime APIs.
 title: winrt::com_array struct template (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 05/10/2019
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, array, view, com_array, span

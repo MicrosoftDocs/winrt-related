@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+
 ms.assetid: ef52c3d3-b112-42a5-b66d-2ab9cf672a5d
 title: Package
 description: Defines one of the app packages or resource packages in the optional bundle.
-ms.author: lahugh
+
 ms.date: 04/05/2017
 ms.topic: reference
 

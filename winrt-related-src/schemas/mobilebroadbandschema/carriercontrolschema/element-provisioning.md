@@ -3,8 +3,7 @@ Description: Defines parameters used to establish trust and refresh settings for
 Search.Product: eADQiWindows 10XVcnh
 title: Provisioning
 ms.assetid: a6e7f546-9036-4796-b57d-0d45b591f3d6
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

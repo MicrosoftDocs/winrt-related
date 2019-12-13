@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: a5f0f10e-a90a-4255-9175-edf23d306d98
 title: com:TreatAsClass
 description: A registration that corresponds to a CLSID registration with the TreatAs subkey.
-ms.author: mcleans
+
 ms.date: 03/29/2017
 ms.topic: reference
 

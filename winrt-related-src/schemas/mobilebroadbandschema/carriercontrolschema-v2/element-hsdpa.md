@@ -3,8 +3,7 @@ Description: Defines the High-Speed Downlink Packet Access (HSDPA) protocol used
 Search.Product: eADQiWindows 10XVcnh
 title: HSDPA
 ms.assetid: abcb6fa4-920a-4ae4-b19e-8530c5d8dae3
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

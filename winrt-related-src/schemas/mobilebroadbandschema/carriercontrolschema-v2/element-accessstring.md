@@ -3,8 +3,7 @@ Description: Defines the access string for a context in the Packet Data Protocol
 Search.Product: eADQiWindows 10XVcnh
 title: AccessString
 ms.assetid: 10801ce9-abca-4eb4-95ae-0865961e3d2b
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

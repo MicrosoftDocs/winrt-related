@@ -3,8 +3,7 @@ Description: Toast schema are used to define a toast notification, and specify t
 Search.Product: eADQiWindows 10XVcnh
 title: Toast schema
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, toast notifications
 
 

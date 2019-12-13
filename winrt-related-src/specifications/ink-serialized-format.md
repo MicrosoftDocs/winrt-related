@@ -1,8 +1,6 @@
 ---
-author: karl-bridge-microsoft
 description: Describes the Windows Ink Services Platform's (WISP) Ink Serialized Format (ISF).
 title: Ink Serialized Format (ISF) Specification
-ms.author: kbridge
 ms.topic: reference
 
 

@@ -3,8 +3,8 @@ Description: The bundle manifest file is an XML document that contains a list of
 Search.Product: eADQiWindows 10XVcnh
 title: Bundle manifest
 ms.assetid: 42fb6c69-b278-4c67-8677-d19da91f3831
-author: laurenhughes
-ms.author: lahugh
+
+
 keywords: windows 10, uwp, schema, bundle manifest
 
 

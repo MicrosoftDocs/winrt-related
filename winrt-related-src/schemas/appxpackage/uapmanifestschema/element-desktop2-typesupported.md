@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: 948fbf9b-c4c8-42d6-8659-04392d3c13f2
 title: desktop2:TypeSupported
 description: Specifies the types of events that are supported.
-ms.author: mcleans
+
 ms.date: 04/05/2017
 ms.topic: reference
 

@@ -3,8 +3,7 @@ Description: Defines the authentication and encryption pair to be used for this 
 Search.Product: eADQiWindows 10XVcnh
 title: authEncryption
 ms.assetid: f88296a8-9de1-43ec-a610-54562f8be53e
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: a3735612-102e-47e2-ba08-a53259edc60a
 title: com:TypeLib (in Package/Extensions)
 description: Registers a type library.
-ms.author: mcleans
+
 ms.date: 03/29/2017
 ms.topic: reference
 

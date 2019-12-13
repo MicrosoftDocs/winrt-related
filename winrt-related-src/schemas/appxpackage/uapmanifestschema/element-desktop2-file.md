@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: 314cfaee-840a-4e05-92c9-b8c635c22e72
 title: desktop2:File
 description: Specifies the path to an event message file.
-ms.author: mcleans
+
 ms.date: 04/05/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 

@@ -3,8 +3,7 @@ Description: Defines timing information used to activate the subscriber's accoun
 Search.Product: eADQiWindows 10XVcnh
 title: ReconnectToNetwork
 ms.assetid: ae345c7f-83c1-4194-b577-515d07c70c8c
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

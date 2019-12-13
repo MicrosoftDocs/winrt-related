@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+
 ms.assetid: 506e7441-56a8-4c5c-994d-5c070a7eab0b 
 title: File (Required\ContentGroup)
 description: The files specified in the required content group.
-ms.author: lahugh
+
 ms.date: 03/29/2017
 ms.topic: article
 

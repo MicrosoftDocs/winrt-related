@@ -1,6 +1,6 @@
 ---
-author: mcleanbyron
-ms.author: mcleans
+
+
 title: OnLaunch
 description: This element signifies that the deployment service will check for an update to the appinstaller file on the app launch.
 ms.topic: reference

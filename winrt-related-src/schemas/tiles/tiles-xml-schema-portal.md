@@ -3,8 +3,7 @@ title: Tile, toast, and badge schemas
 description: The tile, badge, and toast XML schemas enable app developers to update tiles and badges, and specify the content of toast notifications.
 Search.Product: eADQiWindows 10XVcnh
 ms.assetid: 997887c9-9a62-4a03-8f2f-e7919392d637
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, tiles, toasts, badges
 
 

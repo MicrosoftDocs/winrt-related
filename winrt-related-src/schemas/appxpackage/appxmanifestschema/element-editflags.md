@@ -3,8 +3,8 @@ Description: Specifies the type of info the user sees when opening a file associ
 Search.Product: eADQiWindows 10XVcnh
 title: EditFlags
 ms.assetid: 0f77fddc-bb6d-4d5e-9d15-577a2e5fcfff
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A helper function that copies to a handle, or to a pointer, from a C++/WinRT object.
 title: winrt::copy_to_abi function (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 04/11/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, copy_to_abi

@@ -3,8 +3,8 @@ Description: A file type specified as its file type extension.
 Search.Product: eADQiWindows 10XVcnh
 title: 'FileType (type: ST_FileType)'
 ms.assetid: c6bb4d70-ee2f-41a5-a45f-2e99991f202c
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

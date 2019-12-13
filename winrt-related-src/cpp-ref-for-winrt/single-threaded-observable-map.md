@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A function template that creates and returns an object of a type that implements an observable associative collection (map). The object is returned as an **IObservableMap**.
 title: winrt::single_threaded_observable_map function template (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 08/25/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, associative, observable, collection, map

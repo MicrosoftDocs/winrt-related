@@ -1,8 +1,8 @@
 ---
 title: WinUI 3.0 Alpha (November 2019)
 description: Overview of the WinUI 3.0 Alpha.
-author: jesbis
-ms.author: kbridge
+
+
 ms.date: 11/04/2019
 ms.topic: reference
 ---

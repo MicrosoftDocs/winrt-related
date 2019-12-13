@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A helper function that swaps the contents of two values.
 title: winrt::swap function (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 04/11/2018
 
 ms.topic: "language-reference"

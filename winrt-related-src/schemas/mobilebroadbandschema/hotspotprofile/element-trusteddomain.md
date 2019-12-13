@@ -3,8 +3,7 @@ Description: A host name that is trusted for providing credentials over HTTPS.
 Search.Product: eADQiWindows 10XVcnh
 title: TrustedDomain
 ms.assetid: e2dc8d60-cddd-4fd7-8092-ee34815a2cc5
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

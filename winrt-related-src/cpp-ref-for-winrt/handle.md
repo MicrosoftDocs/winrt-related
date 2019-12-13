@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: Represents a Windows handle object.
 title: winrt::handle struct (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 05/14/2018
 
 ms.topic: "language-reference"

@@ -3,8 +3,7 @@ Description: Contains the SSIDPrefix for a WLAN.
 Search.Product: eADQiWindows 10XVcnh
 title: SSIDPrefix
 ms.assetid: 04783397-4119-4fcf-955f-5110cbb47d90
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

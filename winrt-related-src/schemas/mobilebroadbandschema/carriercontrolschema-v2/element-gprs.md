@@ -3,8 +3,7 @@ Description: Defines the general packet radio service (GPRS) protocol used for m
 Search.Product: eADQiWindows 10XVcnh
 title: GPRS
 ms.assetid: ce4b6201-2290-4bc9-b360-ebac7e74beff
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

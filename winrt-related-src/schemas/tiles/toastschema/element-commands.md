@@ -3,8 +3,7 @@ Description: Specifies that the toast notification is being used to indicate an 
 Search.Product: eADQiWindows 10XVcnh
 title: commands
 ms.assetid: 34e5b696-bc5c-40d1-abe0-42b10a0a6611
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, toast notifications
 
 

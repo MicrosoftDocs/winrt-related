@@ -3,8 +3,7 @@ Description: Defines the HTTPS URL where the client can find the updated copy of
 Search.Product: eADQiWindows 10XVcnh
 title: RefreshURL
 ms.assetid: 615de7ad-9070-4ed1-b6b8-5c5770e47153
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

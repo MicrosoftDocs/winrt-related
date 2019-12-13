@@ -1,8 +1,8 @@
 ---
-author: mcleanbyron
+
 title: rescap4:ClassicAppCompatKey
 description: Registry keys for discovering classic app installations and launching executables.
-ms.author: mcleans
+
 ms.date: 04/10/2018
 ms.topic: reference
 

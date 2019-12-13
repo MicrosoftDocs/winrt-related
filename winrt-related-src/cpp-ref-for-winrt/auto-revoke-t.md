@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A marker type used to request an event revoker when registering a delegate to handle an event.
 title: winrt::auto_revoke_t marker struct (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 04/24/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, marker, type

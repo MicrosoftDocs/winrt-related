@@ -3,8 +3,7 @@ Description: Defines whether Federal Information Processing Standards (FIPS) mod
 Search.Product: eADQiWindows 10XVcnh
 title: FIPSMode
 ms.assetid: 0544cc73-0636-494c-a205-9831e43bd16f
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

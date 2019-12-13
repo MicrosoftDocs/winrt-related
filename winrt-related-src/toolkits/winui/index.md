@@ -1,8 +1,8 @@
 ---
 title: Windows UI library
 description: Lists toolkits for Windows app development. 
-ms.author: kbridge
-author: Karl-Bridge-Microsoft
+
+
 ms.topic: reference
 ms.date: 11/20/2019
 keywords: windows 10, uwp, toolkit sdk, winui, Windows UI Library

@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A helper function that attaches a C++/WinRT object to a handle, or to a raw pointer that owns a reference to its target.
 title: winrt::attach_abi function (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 04/11/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, attach_abi

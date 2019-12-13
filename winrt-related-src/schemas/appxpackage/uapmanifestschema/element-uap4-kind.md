@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: 1f37ad76-f29e-433f-83b5-6af02d723b59
 title: uap4:Kind
 description: Specifies the Kind value.
-ms.author: mcleans
+
 ms.date: 04/05/2017
 ms.topic: reference
 

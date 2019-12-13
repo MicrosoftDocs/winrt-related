@@ -1,8 +1,8 @@
 ---
-author: stevewhims
+
 description: An introduction to Microsoft Interface Definition Language 3.0.
 title: Introduction to Microsoft Interface Definition Language 3.0
-ms.author: stwhi
+
 ms.date: 04/23/2018
 ms.topic: reference
 keywords: windows 10, uwp, winrt, api, reference, idl, midl, 3.0, 3, midl3

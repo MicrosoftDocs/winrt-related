@@ -3,8 +3,8 @@ Description: Declares a function for a device that is associated with the Device
 Search.Product: eADQiWindows 10XVcnh
 title: Device
 ms.assetid: 1e9e699f-bbd9-4d15-95ea-207ec495c46e
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

@@ -1,8 +1,8 @@
 ﻿---
 Description: Indicates whether...
 title: desktop6:RegistryWriteVirtualization
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

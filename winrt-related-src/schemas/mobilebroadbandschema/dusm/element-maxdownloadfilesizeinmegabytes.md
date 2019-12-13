@@ -3,8 +3,7 @@ Description: Defines a value representing the maximum suggested download size in
 Search.Product: eADQiWindows 10XVcnh
 title: MaxDownloadFileSizeInMegabytes
 ms.assetid: 6574bdc7-2d0a-472c-aac3-e0001c4b9073
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

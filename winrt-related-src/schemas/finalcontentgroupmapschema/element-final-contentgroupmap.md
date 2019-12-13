@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+
 ms.assetid: 5babaec2-35fc-4eac-8f82-317a7d3ce5c9
 title: ContentGroupMap
 description: Specifies the layout of the final content group map, AppxContentGroupMap.xml.
-ms.author: lahugh
+
 ms.date: 03/29/2017
 ms.topic: article
 

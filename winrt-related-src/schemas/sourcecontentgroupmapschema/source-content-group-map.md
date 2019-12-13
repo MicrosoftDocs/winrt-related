@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+
 ms.assetid: f06b7492-c915-4068-84a5-ee008133128d
 title: Source content group map
 description: The source content group map file is an XML document that contains required and automatic content groups for UWP app streaming install.
-ms.author: lahugh
+
 ms.date: 03/29/2017
 ms.topic: article
 

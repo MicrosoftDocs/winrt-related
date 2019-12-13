@@ -3,8 +3,8 @@ Description: The package manifest is an XML document that contains the info the 
 Search.Product: eADQiWindows 10XVcnh
 title: App package manifest
 ms.assetid: e3b9d324-c3cd-46e4-b160-37a45e1c349b
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 08/07/2017

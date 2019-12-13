@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: b51ea723-898b-4864-ac9f-8bc4c7672df9
 title: com:Conversion (in SurrogateServer/Class)
 description: Specifies the formats an application can read and write.
-ms.author: mcleans
+
 ms.date: 03/29/2017
 ms.topic: reference
 

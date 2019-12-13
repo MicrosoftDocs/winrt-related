@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: In a coroutine, use the object returned by get_cancellation_token to poll for, or to respond to, cancellation.
 title: winrt::get_cancellation_token function (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 09/28/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference

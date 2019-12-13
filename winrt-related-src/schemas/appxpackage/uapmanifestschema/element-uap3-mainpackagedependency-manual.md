@@ -3,8 +3,8 @@ Description: Specifies the main app package to which this supplemental package a
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:MainPackageDependency (Windows 10)
 ms.assetid: 8de4b12b-0f0d-48d0-b3ff-28aae81fb13c
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

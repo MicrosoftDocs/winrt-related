@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+
 ms.assetid: 6a912fc0-b804-48c8-ad59-66f4f579810f
 title: Source content group map reference
 description: Details for each element, attribute, and data type for the source content group map schema.
-ms.author: lahugh
+
 ms.date: 03/29/2017
 ms.topic: article
 

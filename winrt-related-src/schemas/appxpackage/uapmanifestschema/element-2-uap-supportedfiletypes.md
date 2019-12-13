@@ -3,8 +3,8 @@ Description: Defines the file types that the app can share.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:SupportedFileTypes (in uap:FileSavePicker)
 ms.assetid: 12a1b621-e6e4-4c4e-a2a6-7ffb394644f0
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

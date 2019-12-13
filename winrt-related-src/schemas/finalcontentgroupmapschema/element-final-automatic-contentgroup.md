@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+
 ms.assetid: 95db2dea-30af-4148-bd4f-9e47c64d8634  
 title: ContentGroup
 description: Specifies the automatic content group.
-ms.author: lahugh
+
 ms.date: 03/29/2017
 ms.topic: article
 

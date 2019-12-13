@@ -3,8 +3,7 @@ Description: Defines a class of wireless LANs whose SSIDs begin with the bytes p
 Search.Product: eADQiWindows 10XVcnh
 title: hexPrefix
 ms.assetid: 9ea0533f-7e1a-4e08-ae1a-37e024b37278
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

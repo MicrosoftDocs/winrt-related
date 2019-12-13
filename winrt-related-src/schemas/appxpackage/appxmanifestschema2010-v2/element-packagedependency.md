@@ -3,8 +3,8 @@ Description: Declares a dependency on another package that is marked as a framew
 Search.Product: eADQiWindows 10XVcnh
 title: PackageDependency
 ms.assetid: 7f0800a1-f1dd-48c2-aba0-3701dd27d383
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

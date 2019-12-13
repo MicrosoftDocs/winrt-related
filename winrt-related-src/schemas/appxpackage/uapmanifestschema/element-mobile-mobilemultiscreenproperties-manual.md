@@ -3,8 +3,8 @@ Description: Declares an app extensibility point of type windows.MobileMultiScre
 Search.Product: eADQiWindows 10XVcnh
 title: mobile:MobileMultiScreenProperties (Windows 10)
 ms.assetid: 86ea3e53-23e4-4c7a-9490-2944dbcca460
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

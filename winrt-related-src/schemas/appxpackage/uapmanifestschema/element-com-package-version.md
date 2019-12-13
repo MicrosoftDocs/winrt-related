@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: 4aaee0da-1eff-4a8f-972e-0f8706ab2ca0
 title: com:Version (in Package/Extensions)
 description: Version number and additional information about the type library.
-ms.author: mcleans
+
 ms.date: 03/29/2017
 ms.topic: reference
 

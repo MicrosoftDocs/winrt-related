@@ -3,8 +3,7 @@ Description: Defines the Enhanced Voice-Data Optimized (EVDO) Revision B (Rev. B
 Search.Product: eADQiWindows 10XVcnh
 title: ONEXEVDO\_REVB
 ms.assetid: be570d41-b4bb-4f3e-832d-d2e273a55607
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

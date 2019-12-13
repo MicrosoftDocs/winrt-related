@@ -3,8 +3,7 @@ Description: Defines a transform applied to the digested data object prior to Di
 Search.Product: eADQiWindows 10XVcnh
 title: Transform
 ms.assetid: 21cc5a17-8420-4794-978e-97cfec3f3ac9
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

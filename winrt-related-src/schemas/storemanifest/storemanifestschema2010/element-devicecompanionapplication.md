@@ -3,8 +3,8 @@ Description: DThe DeviceCompanionApplication element contains all the configurat
 Search.Product: eADQiWindows 10XVcnh
 title: DeviceCompanionApplication
 ms.assetid: 302f6805-4684-4061-bb60-c0fcff710758
-author: laurenhughes
-ms.author: lahugh
+
+
 keywords: windows 10, uwp, schema, storemanifest
 
 

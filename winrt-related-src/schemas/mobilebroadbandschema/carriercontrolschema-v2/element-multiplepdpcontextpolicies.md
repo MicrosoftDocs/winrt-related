@@ -3,8 +3,7 @@ Description: Defines multiple Packet Data Protocol (PDP) context policies in a s
 Search.Product: eADQiWindows 10XVcnh
 title: MultiplePDPContextPolicies
 ms.assetid: c6a17067-5f76-41bd-8df5-39ca71cab5b9
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

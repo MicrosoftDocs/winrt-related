@@ -3,8 +3,7 @@ Description: Define if 802.1X authentication is to be used by this profile to co
 Search.Product: eADQiWindows 10XVcnh
 title: useOneX
 ms.assetid: c50a8dd5-460f-4f4e-bb00-392c2b39fd0e
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

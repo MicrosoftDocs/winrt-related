@@ -3,8 +3,8 @@ Description: Declares an app extensibility point of type windows.fileTypeAssocia
 Search.Product: eADQiWindows 10XVcnh
 title: FileTypeAssociation
 ms.assetid: 864e99f6-8685-4010-ae55-a4d09f53159f
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

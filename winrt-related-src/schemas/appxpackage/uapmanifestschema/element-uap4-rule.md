@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: 7ec485fd-ecd8-49f3-82cd-fbf1e0656222
 title: uap4:Rule
 description: Defines rules for inbound and outbound loopback connections.
-ms.author: mcleans
+
 ms.date: 05/10/2018
 ms.topic: reference
 

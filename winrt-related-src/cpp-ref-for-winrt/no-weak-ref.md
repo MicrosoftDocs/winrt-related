@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A marker type used to opt out of weak reference support.
 title: winrt::no_weak_ref marker struct (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 04/13/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, marker, type

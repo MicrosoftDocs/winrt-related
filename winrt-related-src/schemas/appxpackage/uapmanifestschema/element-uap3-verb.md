@@ -1,8 +1,8 @@
 ---
-author: mcleanbyron
+
 title: uap3:Verb
 description: Defines the verbs associated with a file context menu.
-ms.author: mcleans
+
 ms.date: 11/26/2019
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 

@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: d90b7275-21bd-46c7-89a7-c832a95186c6
 title: rescap3:Extension
 description: Declares an extensibility point for the app.
-ms.author: mcleans
+
 ms.date: 04/10/2018
 ms.topic: reference
 

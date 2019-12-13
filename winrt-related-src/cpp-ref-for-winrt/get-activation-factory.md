@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A helper function that retrieves the activation factory for a specified Windows Runtime class type.
 title: winrt::get_activation_factory function template (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 04/30/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, get, activation, factory

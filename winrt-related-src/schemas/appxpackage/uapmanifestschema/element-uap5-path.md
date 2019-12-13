@@ -1,8 +1,8 @@
 ---
-author: mcleanbyron
+
 title: uap5:Path
 description: The path to the executable.
-ms.author: mcleans
+
 ms.date: 10/10/2017
 ms.topic: reference
 

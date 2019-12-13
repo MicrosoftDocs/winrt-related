@@ -3,8 +3,8 @@ Description: Declares an app extensibility point of type windows.eventProviders.
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:EventProviders
 ms.assetid: cfc8b89e-1eef-4fee-adeb-70039588c5a9
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

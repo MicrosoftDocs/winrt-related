@@ -3,8 +3,7 @@ Description: Defines whether the shared key will be a network key or a pass phra
 Search.Product: eADQiWindows 10XVcnh
 title: keyType
 ms.assetid: aced51e9-d51a-449f-bd7e-23e6ce5cd8ea
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

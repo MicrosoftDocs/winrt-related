@@ -3,8 +3,7 @@ Description: Defines a Digital Signature Algorithm (DSA) prime generation seed.
 Search.Product: eADQiWindows 10XVcnh
 title: Seed
 ms.assetid: b9277170-5139-4447-880d-568933ff1921
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

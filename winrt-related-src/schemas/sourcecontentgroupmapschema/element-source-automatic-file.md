@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+
 ms.assetid: cd39d56f-6e73-49c1-b5d1-df4e3d75471b 
 title: File (Automatic\ContentGroup)
 description: The files specified in the automatic content group.
-ms.author: lahugh
+
 ms.date: 03/29/2017
 ms.topic: article
 

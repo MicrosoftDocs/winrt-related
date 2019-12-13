@@ -3,8 +3,8 @@ Description: Defines the appearance of the splash screen, which is displayed by 
 Search.Product: eADQiWindows 10XVcnh
 title: uap:SplashScreen (Windows 10)
 ms.assetid: 1a55627f-7014-4c8c-8ec8-957ac99457db
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

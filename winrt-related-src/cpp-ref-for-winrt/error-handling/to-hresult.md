@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A helper function, for use in a catch block, that turns the last exception thrown into a HRESULT error code.
 title: winrt::to_hresult function (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 04/30/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, check, throw, catch, exception, HRESULT, error, code

@@ -1,8 +1,8 @@
 ﻿---
-author: mcleanbyron
+
 title: desktop6:Service
 description: Specifies a service that is installed and registered along with the app. These services can be configured to run under either the Local Service, Network Service or Local System account.
-ms.author: mcleans
+
 ms.date: 04/19/2019
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 

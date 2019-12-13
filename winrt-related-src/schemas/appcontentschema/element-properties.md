@@ -3,8 +3,7 @@ Description: Contains properties that describe the item to the Windows Search In
 Search.Product: eADQiWindows 10XVcnh
 title: Properties
 ms.assetid: accc712c-c7b9-45e1-ba02-836abacbd9b5
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema
 
 

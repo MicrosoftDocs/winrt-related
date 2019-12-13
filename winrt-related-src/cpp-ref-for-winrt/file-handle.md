@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: Represents a Windows file handle object.
 title: winrt::file_handle struct (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 05/14/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, Windows, file, handle

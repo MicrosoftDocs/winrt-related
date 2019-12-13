@@ -3,8 +3,7 @@ Description: Defines the network properties and settings in a subscriber's carri
 Search.Product: eADQiWindows 10XVcnh
 title: CarrierNetworkMetadata
 ms.assetid: 6b8fa3df-5138-475d-ac95-305c273730fe
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

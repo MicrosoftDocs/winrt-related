@@ -3,8 +3,7 @@ Description: Defines an integer with certain properties with respect to P and Q.
 Search.Product: eADQiWindows 10XVcnh
 title: G
 ms.assetid: 15f0fa15-c95d-4ef4-8272-daa1e19dcf50
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

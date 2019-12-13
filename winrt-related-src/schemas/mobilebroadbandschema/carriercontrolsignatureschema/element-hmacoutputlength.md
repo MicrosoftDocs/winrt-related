@@ -3,8 +3,7 @@ Description: Defines the length, in bits, of the SignatureValue element.
 Search.Product: eADQiWindows 10XVcnh
 title: HMACOutputLength
 ms.assetid: 062c1b2e-8cf2-4503-abb2-8083cac63fa2
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

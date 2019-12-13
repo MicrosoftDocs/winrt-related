@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: 1fe032ac-19b2-49a5-9f8f-093ab9102e66
 title: uap4:MediaCodec
 description: Defines an extension that enables an app to install media codecs from the Microsoft Store.
-ms.author: mcleans
+
 ms.date: 04/05/2017
 ms.topic: reference
 

@@ -1,8 +1,8 @@
 ---
-author: mcleanbyron
+
 title: uap5:AppExecutionAlias
 description: Specifies the application's execution alias to determine the executable of the app to be activated.
-ms.author: mcleans
+
 ms.date: 10/10/2017
 ms.topic: reference
 

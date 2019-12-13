@@ -3,8 +3,8 @@ title: StoreManifest XML example
 description: XML example of a StoreManifest XML file for a UWP package.
 Search.Product: eADQiWindows 10XVcnh
 ms.assetid: 7B824C5B-86F8-4310-9B0D-E88BF2BF95BF
-author: laurenhughes
-ms.author: lahugh
+
+
 keywords: windows 10, uwp, schema, storemanifest
 
 

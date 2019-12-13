@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A base class, for you to derive from, that represents an observable associative collection.
 title: winrt::observable_map_base struct template (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 08/27/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, map, associative, collection

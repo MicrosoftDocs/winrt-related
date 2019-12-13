@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: 6997bc14-c33f-4a88-aec1-21c1ddd5a8f2
 title: uap4:Capability
 description: Declares a capability required by a package.
-ms.author: mcleans
+
 ms.date: 04/05/2017
 ms.topic: reference
 

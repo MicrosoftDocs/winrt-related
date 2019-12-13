@@ -3,8 +3,7 @@ Description: Defines the trusted certificate values for Subject Name and Issuer 
 Search.Product: eADQiWindows 10XVcnh
 title: ProvisioningEngine
 ms.assetid: 5ed0a32d-3a5b-4834-929a-d7b9ee3f1371
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

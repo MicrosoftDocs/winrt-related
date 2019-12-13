@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A helper function that converts an input value to a winrt::hstring containing the value's string representation.
 title: winrt::to_hstring function (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 05/21/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference

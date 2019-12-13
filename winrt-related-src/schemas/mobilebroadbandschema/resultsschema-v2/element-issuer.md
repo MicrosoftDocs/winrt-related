@@ -4,8 +4,7 @@ Description: Contains any errors from processing the CarrierId element from the 
 Search.Product: eADQiWindows 10XVcnh
 title: Issuer
 ms.assetid: b0a623d9-4e4a-4dae-9050-61b90c963893
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

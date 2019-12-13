@@ -3,8 +3,8 @@ Description: Declares an app extensibility point of type windows.appExtensionHos
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:AppExtensionHost
 ms.assetid: 632f4bda-7822-4d90-a3a1-688ed4b7cf24
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

@@ -3,8 +3,8 @@ Description: Declares an app extensibility point of type windows.performanceProv
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:PerformanceProviders
 ms.assetid: 63366b04-0493-4bea-918b-7bab027d5e29
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

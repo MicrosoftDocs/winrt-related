@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: 2f6b2357-2e05-40ac-861d-7cd67202f0e2
 title: com:Conversion (in ExeServer/Class)
 description: Specifies the formats an application can read and write.
-ms.author: mcleans
+
 ms.date: 03/29/2017
 ms.topic: reference
 

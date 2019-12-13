@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A type derived from winrt::hresult_error, representing an CLASS_E_CLASSNOTAVAILABLE HRESULT error code.
 title: winrt::hresult_class_not_available struct (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 04/25/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, hresult, error, code, CLASS_E_CLASSNOTAVAILABLE

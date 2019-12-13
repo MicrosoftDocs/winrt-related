@@ -1,8 +1,8 @@
 ---
 title: NuGet package list for the Windows UI Library
 description: Lists the NuGet packages in the Windows UI Library 
-ms.author: mijacobs
-author: mijacobs
+
+
 
 
 ms.topic: reference

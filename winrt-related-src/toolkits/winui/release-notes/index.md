@@ -1,8 +1,8 @@
 ---
 title: WinUI Release Notes
 description: Index of WinUI release notes.
-author: jesbis
-ms.author: kbridge
+
+
 ms.date: 11/01/2019
 ms.topic: reference
 ---

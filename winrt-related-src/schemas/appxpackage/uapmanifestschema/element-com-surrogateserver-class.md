@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: d73f5fee-ea46-486e-a23e-3049fd3dee86
 title: com:Class (in SurrogateServer/Class)
 description: Defines a SurrogateServer class registration.
-ms.author: mcleans
+
 ms.date: 03/29/2017
 ms.topic: reference
 

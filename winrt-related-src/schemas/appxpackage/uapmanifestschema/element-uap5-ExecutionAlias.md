@@ -1,8 +1,8 @@
 ---
-author: mcleanbyron
+
 title: uap5:ExecutionAlias
 description: The executable of a UWP app to be activated from a command prompt.
-ms.author: mcleans
+
 ms.date: 10/10/2017
 ms.topic: reference
 

@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A helper function that checks whether an HRESULT code represents an error and, if so, throws an exception using a C++/WinRT object that represents the error code.
 title: winrt::check_hresult function (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 04/30/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, check, throw, exception, hresult_error, HRESULT, error, code

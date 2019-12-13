@@ -3,8 +3,8 @@ Description: Identifies a performance counter to add to the server-specific app 
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:PerformanceProvider
 ms.assetid: 6601d242-568d-4260-8aae-1d0b2965aaae
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

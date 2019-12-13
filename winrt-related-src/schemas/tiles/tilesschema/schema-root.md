@@ -3,8 +3,7 @@ Description: Tile schema elements used to define a tile update, and specify the 
 Search.Product: eADQiWindows 10XVcnh
 title: Tile schema
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, tiles
 
 

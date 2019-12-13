@@ -3,8 +3,7 @@ Description: The Mobile Broadband Account Experience (MBAE) schema defines eleme
 Search.Product: eADQiWindows 10XVcnh
 title: MBAE schema
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

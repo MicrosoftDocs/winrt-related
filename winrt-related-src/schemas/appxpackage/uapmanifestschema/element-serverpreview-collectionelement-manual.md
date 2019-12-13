@@ -3,8 +3,8 @@ Description: Represents a collection element with the specified attributes that 
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:CollectionElement
 ms.assetid: a6c0f641-661a-407e-9471-2bf1084faa4d
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

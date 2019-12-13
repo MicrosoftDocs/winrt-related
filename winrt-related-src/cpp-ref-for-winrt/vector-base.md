@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A base class, for you to derive from, that represents a non-observable general-purpose collection known as a vector.
 title: winrt::vector_base struct template (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 08/26/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, vector, collection

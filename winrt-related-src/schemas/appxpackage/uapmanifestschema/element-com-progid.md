@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: be322b98-2ab7-4a7e-9135-3051b3b00a75
 title: com:ProgId
 description: A programmatic identifier (ProgID) that can be associated with a CLSID.
-ms.author: mcleans
+
 ms.date: 03/29/2017
 ms.topic: reference
 

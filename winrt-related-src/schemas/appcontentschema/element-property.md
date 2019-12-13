@@ -3,8 +3,7 @@ Description: A property that describes the item.
 Search.Product: eADQiWindows 10XVcnh
 title: Property
 ms.assetid: b5d5075f-7f4f-4c56-8fd6-259f0c78d029
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema
 
 

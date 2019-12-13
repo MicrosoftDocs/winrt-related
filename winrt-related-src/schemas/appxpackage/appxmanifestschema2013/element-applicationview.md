@@ -3,8 +3,8 @@ title: ApplicationView
 Description: Describes how the app is viewed on the screen.
 Search.Product: eADQiWindows 10XVcnh
 ms.assetid: 762bb23d-e4ea-4e21-b512-298cd0e9ab9d
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

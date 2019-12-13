@@ -3,8 +3,8 @@ Description: The abstract application extension choice element for the XSD subst
 Search.Product: eADQiWindows 10XVcnh
 title: ApplicationExtensionChoice
 ms.assetid: 9d0e5094-7fb9-4016-8f63-68b74d03cb0f
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

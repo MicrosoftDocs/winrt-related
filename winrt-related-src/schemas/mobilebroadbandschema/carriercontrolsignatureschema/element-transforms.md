@@ -3,8 +3,7 @@ Description: Defines a an ordered list of transforms applied to the digested dat
 Search.Product: eADQiWindows 10XVcnh
 title: Transforms
 ms.assetid: c2c86501-4b16-4941-af8d-94b2c00c45ae
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

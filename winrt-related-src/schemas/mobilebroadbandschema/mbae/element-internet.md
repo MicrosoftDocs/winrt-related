@@ -3,8 +3,7 @@ Description: Defines the mobile broadband Internet profile to be used for the mo
 Search.Product: eADQiWindows 10XVcnh
 title: Internet
 ms.assetid: ddcce350-4ec2-485d-9b78-e159e4161dbf
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

@@ -1,8 +1,8 @@
 ---
 title: WinUI 2.2 Release Notes
 description: Release notes for WinUI 2.2 including new features and bugfixes.
-author: predavid
-ms.author: mijacobs
+
+
 ms.date: 04/16/2019
 ms.topic: reference
 ---

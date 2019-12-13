@@ -3,8 +3,7 @@ Description: Defines the properties and settings in a subscriber's carrier provi
 Search.Product: eADQiWindows 10XVcnh
 title: CarrierProvisioning
 ms.assetid: 5033346d-9e0a-4d9e-a619-de88e2fb0818
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

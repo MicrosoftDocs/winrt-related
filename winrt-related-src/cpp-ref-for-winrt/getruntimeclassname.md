@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A member function (of a generated implementation type) that returns a string containing the fully-qualified type name of the Windows Runtime class being implemented.
 title: GetRuntimeClassName function (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 04/30/2018
 
 ms.topic: "language-reference"

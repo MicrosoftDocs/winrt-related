@@ -3,8 +3,7 @@ Description: Contains any errors from processing the CustomerSupportPhoneNumber 
 Search.Product: eADQiWindows 10XVcnh
 title: CustomerSupportPhoneNumber
 ms.assetid: a5fefff4-22ce-4219-be12-4db9520cfa47
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

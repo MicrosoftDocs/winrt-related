@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+
 ms.assetid: 2307c624-c498-4103-a082-3d258b5daee6
 title: Final content group map reference
 description: Details for each element, attribute, and data type for the final content group map schema.
-ms.author: lahugh
+
 ms.date: 03/29/2017
 ms.topic: article
 

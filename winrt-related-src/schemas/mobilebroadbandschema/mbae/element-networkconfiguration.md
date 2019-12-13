@@ -3,8 +3,7 @@ Description: Defines the network configuration for the mobile broadband Purchase
 Search.Product: eADQiWindows 10XVcnh
 title: NetworkConfiguration
 ms.assetid: 528097af-092d-4aaf-abcc-cef110f1018e
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

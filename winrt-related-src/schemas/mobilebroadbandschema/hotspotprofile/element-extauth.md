@@ -3,8 +3,7 @@ Description: Contains the parameters for handling WISPr authentication through a
 Search.Product: eADQiWindows 10XVcnh
 title: ExtAuth
 ms.assetid: b8189ab7-f090-4175-8d5b-d311e7e040fe
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

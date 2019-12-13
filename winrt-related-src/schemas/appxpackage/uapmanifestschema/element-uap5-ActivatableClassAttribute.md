@@ -1,8 +1,8 @@
 ---
 Description: Defines an attribute of the class that is stored in the Windows Runtime property store.
 title: uap5:ActivatableClassAttribute 
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

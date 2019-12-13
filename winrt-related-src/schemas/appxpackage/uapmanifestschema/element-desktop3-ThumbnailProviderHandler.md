@@ -1,8 +1,8 @@
 ---
-author: mcleanbyron
+
 title: desktop3:ThumbnailProviderHandler
 description: Registration of a Windows Shell ThumbnailProviderHandler for cloud based placeholder files. 
-ms.author: mcleans
+
 ms.date: 10/10/2017
 ms.topic: reference
 

@@ -1,8 +1,8 @@
 ---
-author: mcleanbyron
+
 title: desktop3:Extension
 description: Declares an extensibility point for the app.
-ms.author: mcleans
+
 ms.date: 10/10/2017
 ms.topic: reference
 

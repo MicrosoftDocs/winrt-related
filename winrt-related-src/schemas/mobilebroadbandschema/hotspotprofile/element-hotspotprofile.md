@@ -3,8 +3,7 @@ Description: Defines the properties and login credentials for a Wi-Fi hotspot.
 Search.Product: eADQiWindows 10XVcnh
 title: HotspotProfile
 ms.assetid: 7106b831-ef8c-4660-9b8b-4b13a8379ffd
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

@@ -3,8 +3,8 @@ Description: Declares the union of languages, display scales, and DirectX featur
 Search.Product: eADQiWindows 10XVcnh
 title: Resources
 ms.assetid: 45ce3dac-3888-452b-bc10-8775b158637a
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

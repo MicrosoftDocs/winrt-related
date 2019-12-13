@@ -3,8 +3,8 @@ Description: Contains opaque XML that represents custom, extension-specific info
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:Properties
 ms.assetid: fbc52f03-8a01-4abe-b8d1-6aa8b02eb958
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

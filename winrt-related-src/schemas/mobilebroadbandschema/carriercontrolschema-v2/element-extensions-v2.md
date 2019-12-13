@@ -3,8 +3,7 @@ Description: Defines additional properties and settings in a subscriber's carrie
 Search.Product: eADQiWindows 10XVcnh
 title: Extensions\_v2
 ms.assetid: 698df4b4-94ce-4516-bcbc-92cae505c405
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 
