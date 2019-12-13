@@ -19,13 +19,13 @@ WinUI packages can be added to Visual Studio projects through the NuGet package 
 
 NuGet package download: [Microsoft.UI.Xaml](https://www.nuget.org/packages/Microsoft.UI.Xaml)
 
-## New Features 
+## New Features
 
 ### 1) Progress Bar Visual Refresh
 
 The **ProgressBar** has two different visual represetations.
 
-#### Indeterminate Progress Bar 
+#### Indeterminate Progress Bar
 
 Shows that a task is ongoing, but doesn't block user interaction.
 
@@ -37,7 +37,7 @@ Shows how much progress has been made on a known amount of work.
 
 ![Determinate Progress Bar](../images/DeterminateProgressBar.gif)
 
-[Doc link](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/progress-controls) 
+[Doc link](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/progress-controls)
 
 [Sample link](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/progress-controls#examples)
 
