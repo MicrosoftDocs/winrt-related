@@ -3,8 +3,7 @@ Description: Defines carrier specific information required to activate the subsc
 Search.Product: eADQiWindows 10XVcnh
 title: ServiceActivation
 ms.assetid: 59793a10-a1f1-4a71-b883-fa2f4a58c84f
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

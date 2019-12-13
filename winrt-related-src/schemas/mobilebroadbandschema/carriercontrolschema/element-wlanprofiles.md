@@ -3,8 +3,7 @@ Description: Defines information for a subscriber's WLAN profiles on a Mobile Ne
 Search.Product: eADQiWindows 10XVcnh
 title: WLANProfiles
 ms.assetid: ca31898f-b3c9-4f87-9a8e-8adc30875413
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

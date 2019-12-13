@@ -3,8 +3,7 @@ Description: Defines all signed content within the signature.
 Search.Product: eADQiWindows 10XVcnh
 title: SignedInfo
 ms.assetid: 85648eb7-6cb7-4c55-aa7c-3744068c5273
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

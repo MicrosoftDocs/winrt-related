@@ -1,8 +1,8 @@
 ---
-author: msatranjr
+
 description: A Universal Windows Platform (UWP) app (or a Windows Runtime component) written in C++/CX has access to the Win32 and COM APIs that are part of the Universal Windows Platform (UWP).
 title: Win32 and COM APIs for UWP apps
-ms.author: misatran
+
 ms.topic: article
 
 

@@ -3,8 +3,7 @@ Description: Defines the name and provider ID of a cellular network.
 Search.Product: eADQiWindows 10XVcnh
 title: Provider
 ms.assetid: 349e3c3c-3533-4ec5-ae1d-fad2e3c7e542
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

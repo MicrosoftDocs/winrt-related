@@ -1,6 +1,6 @@
 ---
-author: mcleanbyron
-ms.author: mcleans
+
+
 title: AutomaticBackgroundTask
 description: An optional element of the appinstaller file. Checks for updates in the background. 
 ms.topic: reference

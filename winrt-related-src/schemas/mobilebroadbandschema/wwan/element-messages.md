@@ -3,8 +3,7 @@ Description: Contains a set of MNO messages that are parsed by Windows 8 and ma
 Search.Product: eADQiWindows 10XVcnh
 title: Messages
 ms.assetid: 08283c2b-d44e-4d03-8a0f-f213397cb93d
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

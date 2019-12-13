@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+
 ms.assetid: e773d01c-0c0a-4220-a616-edcfa43ca322 
 title: Automatic
 description: The automatic content group.
-ms.author: lahugh
+
 ms.date: 03/29/2017
 ms.topic: article
 

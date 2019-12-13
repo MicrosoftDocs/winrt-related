@@ -3,8 +3,8 @@ Description: Specifies the set of additional services on which the service that 
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:ServiceDependencies
 ms.assetid: 354cd254-29db-42e7-98f4-db235e8aba0a
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

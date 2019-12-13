@@ -3,8 +3,7 @@ Description: Defines a value representing the effective link speed of the subscr
 Search.Product: eADQiWindows 10XVcnh
 title: BandwidthInKbps
 ms.assetid: 404712b0-a232-4967-83ac-51fd35d0ef88
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

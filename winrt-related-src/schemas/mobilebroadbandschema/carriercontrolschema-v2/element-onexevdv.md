@@ -3,8 +3,7 @@ Description: Defines the 1x Evolution-Data and Voice (1xEV-DV) standards used fo
 Search.Product: eADQiWindows 10XVcnh
 title: ONEXEVDV
 ms.assetid: 63c0768e-db8c-4506-a7fa-93b312dcf960
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

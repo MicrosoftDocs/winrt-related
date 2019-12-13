@@ -3,8 +3,7 @@ Description: Defines a value representing the data used to-date within the curre
 Search.Product: eADQiWindows 10XVcnh
 title: UsageInMegabytes
 ms.assetid: 761f569a-22cb-499d-9174-c871ace98031
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

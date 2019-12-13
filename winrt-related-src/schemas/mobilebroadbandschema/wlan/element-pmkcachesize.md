@@ -3,8 +3,7 @@ Description: Defines the number of entries in the Pairwise Master Key (PMK) cach
 Search.Product: eADQiWindows 10XVcnh
 title: PMKCacheSize
 ms.assetid: b8b7c9b7-af01-484a-aeef-ff7ef2a3f728
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

@@ -1,8 +1,8 @@
 ---
 title: Windows Metadata (WinMD) files
 description: Windows Metadata (WinMD) files.
-ms.author: stwhi
-author: stevewhims
+
+
 ms.topic: reference
 ms.date: 01/25/2019
 keywords: windows 10, uwp, winrt, type, system

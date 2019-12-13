@@ -1,8 +1,8 @@
 ---
-author: mcleanbyron
+
 title: uap5:Instancing
 description: Specifies whether the executable runs as a single instance or can run as multiple instances.
-ms.author: mcleans
+
 ms.date: 10/10/2017
 ms.topic: reference
 

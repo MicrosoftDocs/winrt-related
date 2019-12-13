@@ -3,8 +3,8 @@ Description: The abstract task choice element for the XSD substitution group.
 Search.Product: eADQiWindows 10XVcnh
 title: TaskChoice
 ms.assetid: 349bb88f-fe2c-4d5e-9082-c708a24a0c9b
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

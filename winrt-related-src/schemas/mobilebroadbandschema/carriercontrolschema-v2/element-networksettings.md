@@ -3,8 +3,7 @@ Description: Defines the network settings in a subscriber's carrier provisioning
 Search.Product: eADQiWindows 10XVcnh
 title: NetworkSettings
 ms.assetid: 82e8282b-5405-4fcf-b835-83fe6ec9a460
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

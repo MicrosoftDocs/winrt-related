@@ -1,6 +1,6 @@
 ---
-author: mcleanbyron
-ms.author: mcleans
+
+
 title: App Installer file
 description: An App Installer file is an XML document (*.appinstaller) that contains app package and bundle information for defining the packages that are part of a related set.
 ms.topic: reference

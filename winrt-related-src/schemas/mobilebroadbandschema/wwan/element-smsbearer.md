@@ -3,8 +3,7 @@ Description: Defines bearer types allowed for SMS messages.
 Search.Product: eADQiWindows 10XVcnh
 title: SMSBearer
 ms.assetid: 33e79977-cca7-400a-8d01-c3dc72670b3f
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

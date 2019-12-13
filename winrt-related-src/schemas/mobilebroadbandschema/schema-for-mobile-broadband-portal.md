@@ -3,8 +3,7 @@ title: Schema for Mobile Broadband
 description: The Mobile Broadband Schema are used by the Windows.Networking.NetworkOperators namespace provided in the Windows Runtime environment to enable a UWP app to provision a mobile broadband enabled device on a mobile broadband network, query subscriber data usage information, or query the results of the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 ms.assetid: b9f29690-466f-4b5f-bd4e-d4bf07260ca1
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

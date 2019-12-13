@@ -3,8 +3,7 @@ Description: Defines whether a subscriber has consumed more bytes than the data 
 Search.Product: eADQiWindows 10XVcnh
 title: OverDataLimit
 ms.assetid: effb2b5e-e571-42cf-9a5a-72b0b7b3d437
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

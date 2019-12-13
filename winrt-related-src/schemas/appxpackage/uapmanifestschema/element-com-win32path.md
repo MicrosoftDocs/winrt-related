@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: 4e586752-228a-4165-9f8d-699634c4ad33
 title: com:Win32Path (in ComInterface/TypeLib)
 description: A path to the 32-bit type library. 
-ms.author: mcleans
+
 ms.date: 03/29/2017
 ms.topic: reference
 

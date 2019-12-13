@@ -2,8 +2,7 @@
 title: Plans schema
 description: The Plans schema defines elements that are used to describe a subscriber's data plan on a Mobile Network Operator (MNO). 
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

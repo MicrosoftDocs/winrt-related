@@ -3,8 +3,7 @@ Description: Customized HTTP user agent string to support operator-specific user
 Search.Product: eADQiWindows 10XVcnh
 title: UserAgent
 ms.assetid: cbc35545-b55e-4d2d-82ba-d9fd97cf9d95
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

@@ -2,8 +2,8 @@
 title: Getting started with the Windows UI library
 description: How to install and use the Windows UI Library. 
 ms.topic: reference
-author: Karl-Bridge-Microsoft
-ms.author: kbridge
+
+
 ms.date: 11/01/2019
 keywords: windows 10, uwp, toolkit sdk
 ---

@@ -1,8 +1,8 @@
 ---
 title: Windows Team Extension SDK contracts for UWP
 description: See a list of all API contracts within the Windows Team Extension SDK contracts for the Universal Windows Platform.
-ms.author: nichola
-author: knicholasa
+
+
 
 
 ms.topic: reference

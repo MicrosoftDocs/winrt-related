@@ -3,8 +3,8 @@ Description: Represents one or more apps that comprise the package.
 Search.Product: eADQiWindows 10XVcnh
 title: Applications
 ms.assetid: ad9e07fc-ba58-4465-b3fa-b330ba149f92
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

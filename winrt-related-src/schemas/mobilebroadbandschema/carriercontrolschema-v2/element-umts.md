@@ -3,8 +3,7 @@ Description: Defines the Universal Mobile Telecommunications System (UMTS) proto
 Search.Product: eADQiWindows 10XVcnh
 title: UMTS
 ms.assetid: c75cb01e-6a51-4f51-b292-53793c6b9aaf
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

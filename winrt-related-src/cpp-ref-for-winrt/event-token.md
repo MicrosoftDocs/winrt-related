@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A token returned when registering an event-handling delegate with an event; can be used to revoke the registration of the same delegate.
 title: winrt::event_token struct (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 04/25/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, delegate, handler

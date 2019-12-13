@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: 1bf8af5e-3a64-4048-b013-981f805d4836
 title: uap4:SharedFonts
 description: Specifies the shared fonts.
-ms.author: mcleans
+
 ms.date: 04/05/2017
 ms.topic: reference
 

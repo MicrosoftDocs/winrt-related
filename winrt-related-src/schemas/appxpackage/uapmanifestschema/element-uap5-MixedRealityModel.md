@@ -1,8 +1,8 @@
 ---
-author: mcleanbyron
+
 title: uap5:MixedRealityModel
 description: An element used to define a 3D model as the default representation of an app. When launched from a virtual or mixed reality device, this model will represent the app in the virtual setting.
-ms.author: mcleans
+
 ms.date: 10/10/2017
 ms.topic: reference
 

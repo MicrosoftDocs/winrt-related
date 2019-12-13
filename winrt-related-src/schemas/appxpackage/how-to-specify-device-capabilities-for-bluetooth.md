@@ -3,8 +3,8 @@ Description: The package manifest is an XML document that contains the info the 
 Search.Product: eADQiWindows 10XVcnh
 title: How to specify device capabilities for Bluetooth 
 ms.assetid: 366676d5-187e-4e3d-bafa-33ee468efa64
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

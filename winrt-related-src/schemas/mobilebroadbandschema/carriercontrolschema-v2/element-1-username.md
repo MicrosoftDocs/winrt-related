@@ -3,8 +3,7 @@ Description: Defines the username used for the Packet Data Protocol (PDP) contex
 Search.Product: eADQiWindows 10XVcnh
 title: UserName
 ms.assetid: fb4913e1-095c-421d-af9a-40529f9bcd42
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

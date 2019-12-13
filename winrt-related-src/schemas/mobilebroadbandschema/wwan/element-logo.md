@@ -3,8 +3,8 @@ Description: Defines a 32x32 bitmap (.bmp) or portable network graphics (.png) t
 Search.Product: eADQiWindows 10XVcnh
 title: Logo
 ms.assetid: 612973f1-2251-46e7-9923-adec93f0683e
-author: laurenhughes
-ms.author: lahugh
+
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

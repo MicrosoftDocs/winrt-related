@@ -3,8 +3,7 @@ Description: Defines an instance of the PurchaseProfileelement from the WWAN sch
 Search.Product: eADQiWindows 10XVcnh
 title: PurchaseProfile
 ms.assetid: 66b0d844-5469-4e94-b364-72638ac4212a
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

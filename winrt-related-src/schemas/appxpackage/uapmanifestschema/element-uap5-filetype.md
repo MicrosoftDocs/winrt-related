@@ -1,8 +1,8 @@
 ---
-author: mcleanbyron
+
 title: uap5:FileType
 description: Specifies the file type supported by the media source.
-ms.author: mcleans
+
 ms.date: 10/10/2017
 ms.topic: reference
 

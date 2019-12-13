@@ -3,8 +3,7 @@ Description: Defines a RSA public key.
 Search.Product: eADQiWindows 10XVcnh
 title: RSAKeyValue
 ms.assetid: e44e3743-024d-4edb-8612-1fdc6bcc4289
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

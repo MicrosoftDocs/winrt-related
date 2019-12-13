@@ -3,8 +3,7 @@ Description: Provides details for each element, attribute, and data type that de
 Search.Product: eADQiWindows 10XVcnh
 title: Package block map schema reference
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, package manifest
 
 

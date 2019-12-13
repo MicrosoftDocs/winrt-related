@@ -3,8 +3,7 @@ Description: Defines one or more service set identifiers (SSID) for a wireless L
 Search.Product: eADQiWindows 10XVcnh
 title: SSIDConfig
 ms.assetid: a58e4178-4a15-46c0-951d-93aef9fec5e6
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

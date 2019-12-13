@@ -3,8 +3,7 @@ Description: Defines the algorithm used to generate the signature thumbprint in 
 Search.Product: eADQiWindows 10XVcnh
 title: SignatureMethod
 ms.assetid: 1a82d9c6-795f-41a9-a1fa-b3c339a22b02
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

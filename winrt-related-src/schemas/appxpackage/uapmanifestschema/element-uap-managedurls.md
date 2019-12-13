@@ -3,8 +3,8 @@ Description: Provides support for multiple URLs.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:ManagedUrls (Windows 10)
 ms.assetid: 9b4709ea-cce3-472c-a799-96039241fd0b
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

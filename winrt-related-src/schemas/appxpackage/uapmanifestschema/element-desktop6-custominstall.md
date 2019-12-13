@@ -1,8 +1,8 @@
 ﻿---
-author: mcleanbyron
+
 title: desktop6:CustomInstall
 description: Enables your desktop application to specify one or more additional installer files (.exe or .msi) that are installed with your app.
-ms.author: mcleans
+
 ms.date: 04/19/2019
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 

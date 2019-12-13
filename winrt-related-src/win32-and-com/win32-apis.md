@@ -1,8 +1,8 @@
 ---
-author: msatranjr
+
 description: This topic lists the Win32 APIs that are part of the Universal Windows Platform (UWP) and that are implemented by all Windows 10 devices.
 title: APIs present on all Windows 10 devices (grouped by module)
-ms.author: misatran
+
 ms.topic: article
 
 

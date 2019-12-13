@@ -3,8 +3,7 @@ Description: Defines an instance of the DefaultProfile element from the WWAN sch
 Search.Product: eADQiWindows 10XVcnh
 title: DefaultProfile
 ms.assetid: 3f88faaf-9d1a-4561-9527-8cc6067cb8ec
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

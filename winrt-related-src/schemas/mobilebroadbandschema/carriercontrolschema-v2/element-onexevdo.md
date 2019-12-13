@@ -3,8 +3,7 @@ Description: Defines the Enhanced Voice-Data Optimized (EVDO) standard used for 
 Search.Product: eADQiWindows 10XVcnh
 title: ONEXEVDO
 ms.assetid: e29913ca-e464-40e1-a1e1-2a5f86402b49
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

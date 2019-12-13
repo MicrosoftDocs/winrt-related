@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: e6c37b57-76f9-403f-90a7-2b8bda57e905
 title: uap4:DevicePortalProvider
 description: Defines a Device Portal provider for deployment.
-ms.author: mcleans
+
 ms.date: 04/05/2017
 ms.topic: reference
 

@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+
 ms.assetid: 0fc7b4db-549c-4ede-bf85-d5fba6f2fdbe
 title: Element Hierarchy
 description: The allowed hierarchies for the final content group map.
-ms.author: lahugh
+
 ms.date: 03/29/2017
 ms.topic: article
 

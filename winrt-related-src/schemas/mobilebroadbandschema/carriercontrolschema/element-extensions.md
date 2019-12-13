@@ -3,8 +3,8 @@ Description: Defines a schema extension point container for future additions.
 Search.Product: eADQiWindows 10XVcnh
 title: Extensions
 ms.assetid: 837ae066-b590-4f58-b552-2e9d608f0fac
-author: laurenhughes
-ms.author: lahugh
+
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

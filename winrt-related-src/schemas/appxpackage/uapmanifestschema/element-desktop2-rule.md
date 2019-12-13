@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: 603c4ca9-2407-46f8-9e48-d0663a12ddff
 title: desktop2:Rule
 description: Defines a firewall exception rule.
-ms.author: mcleans
+
 ms.date: 04/05/2017
 ms.topic: reference
 

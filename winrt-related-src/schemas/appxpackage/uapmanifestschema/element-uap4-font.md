@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: aa161fac-a537-47df-90b7-8c8be8a63718
 title: uap4:Font
 description: Specifies the font file packaged with the app. 
-ms.author: mcleans
+
 ms.date: 04/05/2017
 ms.topic: reference
 

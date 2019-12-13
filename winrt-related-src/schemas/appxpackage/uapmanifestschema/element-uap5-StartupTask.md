@@ -1,8 +1,8 @@
 ---
-author: mcleanbyron
+
 title: uap5:StartupTask
 description: Specifies a startup task for your application.
-ms.author: mcleans
+
 ms.date: 10/10/2017
 ms.topic: reference
 

@@ -3,8 +3,7 @@ Description: Defines the subject name and issuer name of a trusted certificate r
 Search.Product: eADQiWindows 10XVcnh
 title: TrustedCertificate
 ms.assetid: 97eae84a-4357-462b-b516-3099916839c6
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

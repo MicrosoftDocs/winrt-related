@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+
 ms.assetid: 54447e00-26dd-4d3f-ad36-94146628f1a6 
 title: Required
 description: The required content group.
-ms.author: lahugh
+
 ms.date: 03/29/2017
 ms.topic: article
 

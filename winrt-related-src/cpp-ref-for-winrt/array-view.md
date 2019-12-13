@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A view, or span, of a contiguous series of values.
 title: winrt::array_view struct template (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 01/04/2019
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, array, view, array_view, span

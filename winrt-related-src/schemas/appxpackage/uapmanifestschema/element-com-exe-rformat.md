@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: 1fbe5e60-a8b8-4dc6-b128-674c09b68109
 title: com:Format
 description: Specifies the file format an application can read (convert from).
-ms.author: mcleans
+
 ms.date: 03/29/2017
 ms.topic: reference
 

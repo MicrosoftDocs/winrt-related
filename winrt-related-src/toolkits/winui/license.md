@@ -1,8 +1,8 @@
 ---
 title: License for the Windows UI Library 
 description: Lists toolkits for UWP app development. 
-ms.author: mijacobs
-author: mijacobs
+
+
 
 
 ms.topic: reference

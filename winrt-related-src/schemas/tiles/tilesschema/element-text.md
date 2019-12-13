@@ -3,8 +3,7 @@ Description: Specifies text used in the tile template.
 Search.Product: eADQiWindows 10XVcnh
 title: text
 ms.assetid: dac874d1-0a30-4d85-a63d-0ddfa88783d1
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, tiles
 
 

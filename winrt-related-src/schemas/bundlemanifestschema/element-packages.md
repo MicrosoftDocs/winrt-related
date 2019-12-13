@@ -3,8 +3,8 @@ Description: Defines the app packages and resource packages that are contained i
 Search.Product: eADQiWindows 10XVcnh
 title: Packages
 ms.assetid: 2e6638ac-df50-43a8-be6a-7190c8e4486f
-author: laurenhughes
-ms.author: lahugh
+
+
 keywords: windows 10, uwp, schema, bundle manifest
 
 

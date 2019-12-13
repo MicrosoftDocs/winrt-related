@@ -1,6 +1,6 @@
 ---
-author: mcleanbyron
-ms.author: mcleans
+
+
 title: OptionalPackages
 description: Defines the optional packages that will be installed along with the main package.
 ms.topic: reference

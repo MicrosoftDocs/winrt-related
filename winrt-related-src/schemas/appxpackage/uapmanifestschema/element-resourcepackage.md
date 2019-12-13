@@ -3,8 +3,8 @@ Description: Indicates whether the package is a resource package.
 Search.Product: eADQiWindows 10XVcnh
 title: ResourcePackage (Windows 10)
 ms.assetid: 51cabad7-a2eb-4fa3-ab52-59298555aefb
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

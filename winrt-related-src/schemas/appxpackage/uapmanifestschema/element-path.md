@@ -3,8 +3,8 @@ Description: The path to the DLL.
 Search.Product: eADQiWindows 10XVcnh
 title: Path (in InProcessServer) (Windows 10)
 ms.assetid: 337dd035-774d-40fb-8da1-7af11dbb4a35
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

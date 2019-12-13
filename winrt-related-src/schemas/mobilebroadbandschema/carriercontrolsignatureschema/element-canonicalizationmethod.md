@@ -3,8 +3,7 @@ Description: Defines the canonicalization method applied to SignedInfo
 Search.Product: eADQiWindows 10XVcnh
 title: CanonicalizationMethod
 ms.assetid: d27bd016-acb9-4ae0-ae19-95d19acb79e7
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

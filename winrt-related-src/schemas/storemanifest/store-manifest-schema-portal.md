@@ -3,8 +3,8 @@ title: StoreManifest schema
 description: StoreManifest.xml is an optional configuration file that may be included in packages submitted to the Microsoft Store.
 Search.Product: eADQiWindows 10XVcnh
 ms.assetid: 68de28bf-27c9-4330-bf70-7d6aa95a33fb
-author: laurenhughes
-ms.author: lahugh
+
+
 keywords: windows 10, uwp, schema, storemanifest
 
 

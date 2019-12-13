@@ -1,8 +1,8 @@
 ﻿---
-author: mcleanbyron
+
 title: desktop6:TriggerCustom
 description: Describes a trigger event for the current service.
-ms.author: mcleans
+
 ms.date: 04/19/2019
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 

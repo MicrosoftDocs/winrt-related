@@ -3,8 +3,7 @@ Description: Defines the percentage of the data limit a subscriber has consumed.
 Search.Product: eADQiWindows 10XVcnh
 title: UsagePercentage
 ms.assetid: 7e71669a-4297-4321-936b-ec5d808f9045
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

@@ -3,8 +3,7 @@ Description: Contains the SSID for a WLAN.
 Search.Product: eADQiWindows 10XVcnh
 title: SSID
 ms.assetid: 0773526f-0046-4e2c-8972-53872dd76a83
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: The return type for a fire-and-forget coroutine.
 title: winrt::fire_and_forget struct (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 09/28/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference

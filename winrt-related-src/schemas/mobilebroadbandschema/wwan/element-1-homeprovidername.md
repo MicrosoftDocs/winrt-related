@@ -3,8 +3,7 @@ Description: Defines the name of the Home Provider for a given SIM/Device.
 Search.Product: eADQiWindows 10XVcnh
 title: HomeProviderName
 ms.assetid: 3e57b52a-a7f7-4ef6-89e9-29b72ec833b0
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

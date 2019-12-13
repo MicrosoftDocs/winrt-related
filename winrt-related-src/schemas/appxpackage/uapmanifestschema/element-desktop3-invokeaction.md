@@ -1,8 +1,8 @@
 ---
-author: mcleanbyron
+
 title: desktop3:InvokeAction
 description: Contains content and device information for invoking an AutoPlay action.
-ms.author: mcleans
+
 ms.date: 10/10/2017
 ms.topic: reference
 

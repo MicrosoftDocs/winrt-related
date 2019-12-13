@@ -1,8 +1,8 @@
 ---
-author: mcleanbyron
+
 title: desktop3:Device
 description: Defines the device information of an AutoPlayHandler.
-ms.author: mcleans
+
 ms.date: 10/10/2017
 ms.topic: reference
 

@@ -3,8 +3,8 @@ Description: Indicates that the app supports dialing phone numbers.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:VoipDialPhoneNumber
 ms.assetid: 89161194-e351-4dee-a5b8-07aa4a429d0b
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

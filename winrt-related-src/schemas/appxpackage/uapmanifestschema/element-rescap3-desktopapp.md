@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: d8525fc0-1289-4134-9d46-d294d39d2690
 title: rescap3:DesktopApp
 description: Specifies information for redirecting a Windows Desktop Bridge app's tiles and pins.
-ms.author: mcleans
+
 ms.date: 04/05/2017
 ms.topic: reference
 

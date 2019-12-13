@@ -3,8 +3,8 @@ Description: The package block map file is an XML document that contains a list 
 Search.Product: eADQiWindows 10XVcnh
 title: App package block map
 ms.assetid: 8be602d7-b7f7-4797-899a-c0a7852725d2
-author: laurenhughes
-ms.author: lahugh
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

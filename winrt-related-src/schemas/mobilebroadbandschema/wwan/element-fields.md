@@ -3,8 +3,7 @@ Description: Defines values that describe the subscriber's plan and data usage.
 Search.Product: eADQiWindows 10XVcnh
 title: Fields
 ms.assetid: 18121e44-cd14-44f5-b36b-dc5d9fe3603c
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

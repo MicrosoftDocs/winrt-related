@@ -1,8 +1,6 @@
 ---
-author: karl-bridge-microsoft
 description: Provides information about filetype specifications for Universal Windows Platform (UWP) apps.
 title: Filetype specifications for UWP apps
-ms.author: kbridge
 ms.topic: article
 
 

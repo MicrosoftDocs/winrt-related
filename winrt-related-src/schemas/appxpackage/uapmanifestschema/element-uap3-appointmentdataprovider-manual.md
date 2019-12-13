@@ -3,8 +3,8 @@ Description: Declares an app extensibility point of type windows.appointmentData
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:AppointmentDataProvider (Windows 10)
 ms.assetid: 4d8f6db7-f0a9-4dd7-b1b9-3067d0118da2
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

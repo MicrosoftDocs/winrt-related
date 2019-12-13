@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A helper function which, given an object of a projected type, retrieves a pointer to the implementation.
 title: winrt::from_abi function template (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 04/17/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference

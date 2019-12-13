@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+
 ms.assetid: fa159ae9-8aec-4b21-8db6-e7b4083f40d7
 title: Element Hierarchy
 description: The allowed hierarchies for the source content group map.
-ms.author: lahugh
+
 ms.date: 03/29/2017
 ms.topic: article
 

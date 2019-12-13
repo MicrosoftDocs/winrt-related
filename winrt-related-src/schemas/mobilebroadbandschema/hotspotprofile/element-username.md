@@ -3,8 +3,7 @@ Description: User name to be used for WISPr authentication.
 Search.Product: eADQiWindows 10XVcnh
 title: UserName
 ms.assetid: 5c377a0a-ca24-4a24-85c0-79d5bc6af8ef
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

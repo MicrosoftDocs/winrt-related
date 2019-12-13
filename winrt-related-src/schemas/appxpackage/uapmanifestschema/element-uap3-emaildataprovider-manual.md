@@ -3,8 +3,8 @@ Description: Declares an app extensibility point of type windows.emailDataProvid
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:EmailDataProvider (Windows 10)
 ms.assetid: 113e2e55-a05b-4bb7-9091-5d8f92272103
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

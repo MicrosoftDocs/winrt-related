@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A type derived from winrt::hresult_error, representing an RPC_E_WRONG_THREAD HRESULT error code.
 title: winrt::hresult_wrong_thread struct (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 04/25/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, hresult, error, code, RPC_E_WRONG_THREAD

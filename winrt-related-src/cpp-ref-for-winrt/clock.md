@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A type containing static helper functions for converting a Windows::Foundation::DateTime (that is, a std::chrono::time_point) to and from winrt::file_time, and to and from time_t.
 title: winrt::clock struct (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 04/10/2018
 
 ms.topic: "language-reference"

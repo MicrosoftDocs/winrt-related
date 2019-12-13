@@ -3,8 +3,7 @@ Description: Defines the maximum transmission unit (MTU) for an IPv4 link.
 Search.Product: eADQiWindows 10XVcnh
 title: IPv4LinkMTU
 ms.assetid: 8f6f00a7-45eb-484d-9c41-cafe8b688a7c
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

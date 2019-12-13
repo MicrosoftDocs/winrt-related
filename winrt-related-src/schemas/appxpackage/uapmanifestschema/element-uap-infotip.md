@@ -3,8 +3,8 @@ Description: Defines a string that provides additional info to the user about th
 Search.Product: eADQiWindows 10XVcnh
 title: uap:InfoTip (Windows 10)
 ms.assetid: 98a13282-74da-46e9-9790-54c557f8026c
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

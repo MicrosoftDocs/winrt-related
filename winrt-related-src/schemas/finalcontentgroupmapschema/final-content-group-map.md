@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+
 ms.assetid: ade77423-dfef-4547-877b-ddf4fdcb4e69
 title: Final content group map
 description: The final content group map file is an XML document that contains automatic content groups for UWP app streaming install.
-ms.author: lahugh
+
 ms.date: 03/29/2017
 ms.topic: article
 

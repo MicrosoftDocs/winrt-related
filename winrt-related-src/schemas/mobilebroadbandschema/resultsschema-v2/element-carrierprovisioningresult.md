@@ -3,8 +3,7 @@ Description: Contains any errors from processing the CarrierProvisioning element
 Search.Product: eADQiWindows 10XVcnh
 title: CarrierProvisioningResult
 ms.assetid: cee41310-6d39-431c-8548-aaec3249ce50
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

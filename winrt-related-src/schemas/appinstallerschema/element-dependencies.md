@@ -1,6 +1,6 @@
 ---
-author: mcleanbyron
-ms.author: mcleans
+
+
 title: Dependencies
 description: Defines the dependency packages that are required for successful deployment of the related set. This element is optional.
 ms.topic: reference

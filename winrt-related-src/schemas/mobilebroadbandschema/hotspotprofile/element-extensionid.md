@@ -3,8 +3,7 @@ Description: The package family name of the app that will be invoked to handle t
 Search.Product: eADQiWindows 10XVcnh
 title: ExtensionId
 ms.assetid: 2b5d31a8-4896-4890-82f7-6caa3ac92318
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

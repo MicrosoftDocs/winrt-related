@@ -2,8 +2,8 @@
 title: Universal device family API contracts
 description: See a list of all API contracts in the Universal device family.
 ms.assetid: 98FDBBB3-79DA-46F8-895D-1219D6C0858E
-ms.author: nichola
-author: knicholasa
+
+
 
 
 ms.topic: reference

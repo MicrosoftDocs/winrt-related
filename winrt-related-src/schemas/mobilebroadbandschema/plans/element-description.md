@@ -3,8 +3,8 @@ Description: Defines plan information that specifies the subscriber's Mobile Net
 Search.Product: eADQiWindows 10XVcnh
 title: Description
 ms.assetid: e113111a-1d9b-4d04-bd86-86beece204dd
-author: laurenhughes
-ms.author: lahugh
+
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

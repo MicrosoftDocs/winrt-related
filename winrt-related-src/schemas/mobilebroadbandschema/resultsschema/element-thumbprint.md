@@ -3,8 +3,7 @@ Description: Contains the SignatureValue element of the Signature from the last 
 Search.Product: eADQiWindows 10XVcnh
 title: Thumbprint
 ms.assetid: 846b806e-25e7-4db8-85c9-895f729474e0
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

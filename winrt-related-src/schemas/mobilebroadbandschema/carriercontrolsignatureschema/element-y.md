@@ -3,8 +3,7 @@ Description: Defines G**X mod P as specified in XML DSIG.
 Search.Product: eADQiWindows 10XVcnh
 title: Y
 ms.assetid: 1536662a-c461-45f5-ac7f-75dede4b69e1
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

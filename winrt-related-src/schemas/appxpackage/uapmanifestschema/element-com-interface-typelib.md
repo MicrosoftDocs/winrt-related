@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: a20641e1-138e-4777-a177-a404f96eeed9
 title: com:TypeLib (in ComInterface/Interface)
 description: A type library for an interface.
-ms.author: mcleans
+
 ms.date: 03/29/2017
 ms.topic: reference
 

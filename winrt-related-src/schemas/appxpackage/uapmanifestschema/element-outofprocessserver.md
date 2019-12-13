@@ -3,8 +3,8 @@ Description: Declares a package extension point of type windows.activatableClass
 Search.Product: eADQiWindows 10XVcnh
 title: OutOfProcessServer (Windows 10)
 ms.assetid: 575ad44f-e0e3-4682-a082-8d8184bd8dd4
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

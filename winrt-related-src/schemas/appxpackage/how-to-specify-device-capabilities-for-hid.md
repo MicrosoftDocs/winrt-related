@@ -3,8 +3,8 @@ Description: The package manifest is an XML document that contains the info the 
 Search.Product: eADQiWindows 10XVcnh
 title: How to specify device capabilities for HID
 ms.assetid: 4c5c4ab6-e1d1-4631-ab8e-f0c33af8b464
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

@@ -1,8 +1,8 @@
 ---
-author: mcleanbyron
+
 title: uap5:UserActivity
 description: Allows an app to opt out of engagement data tracking.
-ms.author: mcleans
+
 ms.date: 10/10/2017
 ms.topic: reference
 

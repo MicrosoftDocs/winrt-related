@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A helper function that returns the type name of a Windows Runtime type, in the form of a Windows::UI::Xaml::Interop::TypeName object.
 title: winrt::xaml_typename function template (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 04/10/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, navigation, typename

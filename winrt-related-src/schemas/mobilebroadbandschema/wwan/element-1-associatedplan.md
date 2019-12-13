@@ -3,8 +3,7 @@ Description: Contains the name of the subscriber's data plan.
 Search.Product: eADQiWindows 10XVcnh
 title: AssociatedPlan
 ms.assetid: 982defaf-4870-4bca-bbc9-6d780d61ebf7
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

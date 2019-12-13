@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: f2d6f151-53bb-4ae0-971b-23f8deb16980
 title: desktop2:TypesSupported
 description: Contains the event log types that are supported.
-ms.author: mcleans
+
 ms.date: 04/05/2017
 ms.topic: reference
 

@@ -1,8 +1,8 @@
 ---
 title: Device families overview
 description: Describes what device families are and how to use them.
-ms.author: nichola
-author: knicholasa
+
+
 
 
 ms.topic: reference

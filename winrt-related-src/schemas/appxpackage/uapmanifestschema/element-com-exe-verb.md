@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: 485ad5c0-8ff3-4519-a388-bc40d960987d
 title: com:Verb (in ExeServer/Class)
 description: The verb to be registered for an application.
-ms.author: mcleans
+
 ms.date: 03/29/2017
 ms.topic: reference
 

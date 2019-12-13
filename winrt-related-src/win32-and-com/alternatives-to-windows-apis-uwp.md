@@ -1,8 +1,8 @@
 ---
-author: GrantMeStrength
+
 description: Learn which features of the Windows API can be used in a Universal Windows Platform (UWP) app and which APIs to use as alternatives for those that cannot.
 title: Alternatives to Windows APIs in Universal Windows Platform (UWP) apps
-ms.author: jken
+
 ms.topic: article
 
 

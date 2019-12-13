@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: e33e1624-e994-4b74-9d27-acb7d45db2b8
 title: uap4:SharedFonts
 description: Contains the locations of shared fonts to be used with the app. 
-ms.author: mcleans
+
 ms.date: 04/05/2017
 ms.topic: reference
 

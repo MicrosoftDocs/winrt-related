@@ -3,8 +3,7 @@ Description: Defines a single public key
 Search.Product: eADQiWindows 10XVcnh
 title: KeyValue
 ms.assetid: 3d01d1da-fa17-49e8-873e-255f8ad5a110
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

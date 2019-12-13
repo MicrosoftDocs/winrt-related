@@ -3,8 +3,7 @@ Description: Contains any errors from processing the TetheringSettings element f
 Search.Product: eADQiWindows 10XVcnh
 title: TetheringSettings
 ms.assetid: 0bf2129c-0589-437a-8cfa-834b16ce42a2
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

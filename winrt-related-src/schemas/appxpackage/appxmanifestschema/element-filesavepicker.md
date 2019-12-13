@@ -3,8 +3,8 @@ Description: Declares an app extensibility point of type windows.fileSavePicker.
 Search.Product: eADQiWindows 10XVcnh
 title: FileSavePicker
 ms.assetid: c2d3002e-69e1-479c-a0ec-9facf5bc7142
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

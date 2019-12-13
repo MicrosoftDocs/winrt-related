@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A marker type used to opt an activation factory in to static lifetime.
 title: winrt::static_lifetime marker struct (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 03/19/2019
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, marker, type

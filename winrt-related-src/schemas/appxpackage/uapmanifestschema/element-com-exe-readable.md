@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: 5f282cfa-4670-4989-8829-841842117e81
 title: com:Readable (in ExeServer/Class)
 description: Specifies that an application can only read files.
-ms.author: mcleans
+
 ms.date: 03/29/2017
 ms.topic: reference
 

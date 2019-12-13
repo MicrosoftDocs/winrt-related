@@ -3,8 +3,8 @@ Description: Declares an app extensibility point of type windows.dialProtocol.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:DialProtocol (Windows 10)
 ms.assetid: d0d0d409-f25c-4a55-b392-726ad9225a76
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

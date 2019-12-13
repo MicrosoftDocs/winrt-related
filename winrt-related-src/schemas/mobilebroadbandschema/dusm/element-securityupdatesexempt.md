@@ -3,8 +3,7 @@ Description: Advises Windows Update (WU) that security updates are exempt from b
 Search.Product: eADQiWindows 10XVcnh
 title: SecurityUpdatesExempt
 ms.assetid: a59108e9-4bf0-41e9-92ce-99256d578928
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

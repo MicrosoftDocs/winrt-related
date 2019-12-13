@@ -1,8 +1,8 @@
 ---
-author: mcleanbyron
+
 title: uap6:SpatialBoundingBox
 description: Used to define the center point and the extents for a bounding volume.
-ms.author: mcleans
+
 ms.date: 04/10/2018
 ms.topic: reference
 

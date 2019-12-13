@@ -3,8 +3,7 @@ Description: Specifies a scenario-associated button shown in a toast.
 Search.Product: eADQiWindows 10XVcnh
 title: command
 ms.assetid: dc3cf502-fdf8-42ab-96b6-f0fb4e84e08c
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, toast notifications
 
 

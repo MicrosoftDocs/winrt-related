@@ -3,8 +3,7 @@ Description: Defines a unique device identifier to which this provisioning attem
 Search.Product: eADQiWindows 10XVcnh
 title: DeviceId
 ms.assetid: b7140563-a2c9-499a-aec3-464b2c4e5518
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

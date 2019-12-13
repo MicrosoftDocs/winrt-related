@@ -3,8 +3,7 @@ Description: Defines parameters to be used when refreshing the provisioning file
 Search.Product: eADQiWindows 10XVcnh
 title: RefreshParameters
 ms.assetid: 138e7caf-6eeb-4f3d-8e53-13a3ecfacfeb
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

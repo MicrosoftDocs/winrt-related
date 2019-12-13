@@ -1,8 +1,8 @@
 ---
-author: mcleanbyron
+
 title: uap7:EnterpriseDataProtection
 description: When declared in an app, this ensures that all files it creates and clipboard/dragged items are encrypted.
-ms.author: mcleans
+
 ms.date: 10/03/2018
 ms.topic: reference
 

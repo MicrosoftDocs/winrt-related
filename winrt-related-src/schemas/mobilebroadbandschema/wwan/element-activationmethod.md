@@ -3,8 +3,7 @@ Description: Defines the abstract base element for ReconnectToNetwork, Reregiste
 Search.Product: eADQiWindows 10XVcnh
 title: ActivationMethod
 ms.assetid: bd57da53-5b6a-47e7-a240-5e300ad9d133
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

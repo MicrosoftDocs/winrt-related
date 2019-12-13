@@ -3,8 +3,6 @@ title: Voice command (VCD) schemas
 description: XML markup elements and attributes used in Voice Command Definition (VCD) files to specify recognition constraints.
 Search.Product: eADQiWindows 10XVcnh
 ms.assetid: 6b945294-6e25-4ddf-bf46-63003ece1d5a
-author: Karl-Bridge-Microsoft
-ms.author: kbridge
 keywords: windows 10, uwp, schema, cortana, voice commands, vcd
 
 

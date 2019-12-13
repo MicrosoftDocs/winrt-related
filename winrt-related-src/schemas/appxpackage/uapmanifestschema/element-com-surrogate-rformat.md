@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: 58caaa08-f7ea-4f9c-ad83-2fb3b7c317c3
 title: com:Format (in SurrogateServer/Class)
 description: Specifies the file format an application can read (convert from).
-ms.author: mcleans
+
 ms.date: 03/29/2017
 ms.topic: reference
 

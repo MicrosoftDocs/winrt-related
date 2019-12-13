@@ -3,8 +3,7 @@ Description: Defines a set of meter cost information that specifies the metered 
 Search.Product: eADQiWindows 10XVcnh
 title: Cost
 ms.assetid: d562df54-f0a6-4fbd-bddc-26411f381372
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

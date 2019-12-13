@@ -3,8 +3,8 @@ Description: Declares an app extensibility point of type windows.wmiProviders.
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:WmiProviders
 ms.assetid: d24842b2-5c15-4dbb-bd57-85348819c21a
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

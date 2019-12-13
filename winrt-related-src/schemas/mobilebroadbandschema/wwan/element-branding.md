@@ -3,8 +3,7 @@ Description: Defines carrier specific branding information for a subscriber's co
 Search.Product: eADQiWindows 10XVcnh
 title: Branding
 ms.assetid: fdbfff1d-4109-4c4e-b996-e53ab04d03cf
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

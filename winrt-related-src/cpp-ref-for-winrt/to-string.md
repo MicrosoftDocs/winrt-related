@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A helper function that converts a wide string to a std::string containing a UTF-8 narrow string.
 title: winrt::to_string function (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 05/21/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference

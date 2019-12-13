@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A function template that creates and returns an object of a type that implements a non-observable associative collection (map). The object is returned as an **IMap**.
 title: winrt::single_threaded_map function template (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 08/25/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, associative, collection, map

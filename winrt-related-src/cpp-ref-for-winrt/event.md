@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A type that you can use to declare and implement an event of a specified delegate type.
 title: winrt::event struct template (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 04/25/2018
 
 ms.topic: "language-reference"

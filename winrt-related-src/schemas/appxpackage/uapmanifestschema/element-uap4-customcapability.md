@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: 7c6136d7-780e-40a8-b374-f81998dac3f4
 title: uap4:CustomCapability
 description: Declares a custom capability required by a package.
-ms.author: mcleans
+
 ms.date: 04/05/2017
 ms.topic: reference
 

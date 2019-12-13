@@ -1,8 +1,8 @@
 ---
-author: mcleanbyron
+
 title: desktop3:AutoPlayHandler
 description: Handler for AutoPlay, which can present your app as an option when a user connects a device to their PC.
-ms.author: mcleans
+
 ms.date: 10/10/2017
 ms.topic: reference
 

@@ -1,8 +1,8 @@
 ---
 Description: Declares a capability required by a package.
 title: uap6:Capability
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

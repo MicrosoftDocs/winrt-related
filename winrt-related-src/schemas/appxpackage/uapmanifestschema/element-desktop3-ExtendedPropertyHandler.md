@@ -1,8 +1,8 @@
 ---
-author: mcleanbyron
+
 title: desktop3:ExtendedPropertyHandler
 description: Registration of a Windows Shell ExtendedPropertyHandler for cloud based placeholder files. 
-ms.author: mcleans
+
 ms.date: 10/10/2017
 ms.topic: reference
 

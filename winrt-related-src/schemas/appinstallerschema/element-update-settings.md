@@ -1,6 +1,6 @@
 ---
-author: mcleanbyron
-ms.author: mcleans
+
+
 title: UpdateSettings
 description: An optional element of the appinstaller file. UpdateSettings signifies whether or not to check for an update during the app's launch. 
 ms.topic: reference

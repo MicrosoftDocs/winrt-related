@@ -3,8 +3,7 @@ Description: Defines an instance of the Signature element from the CarrierContro
 Search.Product: eADQiWindows 10XVcnh
 title: Signature
 ms.assetid: 58a2b918-192d-41ee-879c-b739b498bff0
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

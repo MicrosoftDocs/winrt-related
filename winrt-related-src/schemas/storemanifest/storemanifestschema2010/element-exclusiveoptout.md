@@ -3,8 +3,8 @@ Description: ExclusiveOptOut
 Search.Product: eADQiWindows 10XVcnh
 title: ExclusiveOptOut
 ms.assetid: f711637b-dbe2-4e90-8fdf-c7ea3ee4e986
-author: laurenhughes
-ms.author: lahugh
+
+
 keywords: windows 10, uwp, schema, storemanifest
 
 

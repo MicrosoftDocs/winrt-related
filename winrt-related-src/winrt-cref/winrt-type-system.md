@@ -1,8 +1,8 @@
 ---
 title: The Windows Runtime (WinRT) type system
 description: The Windows Runtime (WinRT) type system.
-ms.author: stwhi
-author: stevewhims
+
+
 ms.topic: reference
 ms.date: 01/25/2019
 keywords: windows 10, uwp, winrt, type, system

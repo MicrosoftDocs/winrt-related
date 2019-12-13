@@ -3,8 +3,7 @@ Description: Defines logon credentials for a connection.
 Search.Product: eADQiWindows 10XVcnh
 title: UserLogonCred
 ms.assetid: 518b3496-f7c3-4af5-a17b-778293d74d4a
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

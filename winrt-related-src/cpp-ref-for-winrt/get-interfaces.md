@@ -1,9 +1,9 @@
 ---
-author: stevewhims
+
 description: A helper function that retrieves an array containing the identifiers of the interfaces that are implemented by a C++/WinRT object.
 title: winrt::get_interfaces function (C++/WinRT)
 dev_langs: ["C++"]
-ms.author: stwhi
+
 ms.date: 05/01/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, interface, identifiers, IInspectable, GetIids

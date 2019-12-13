@@ -3,8 +3,8 @@ Description: Identifies an Internet Information Service (IIS) SectionGroupDefini
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:SectionGroupDefinition
 ms.assetid: 61a1d2f5-5742-414d-98ea-e9d43d831efc
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

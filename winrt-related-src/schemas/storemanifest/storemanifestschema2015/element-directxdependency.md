@@ -3,8 +3,8 @@ Description: Identifies the minimum DirectX level that a device must support in 
 Search.Product: eADQiWindows 10XVcnh
 title: DirectXDependency
 ms.assetid: 6034e4ef-8a4d-4cdd-8e18-df026a35f4e7
-author: laurenhughes
-ms.author: lahugh
+
+
 keywords: windows 10, uwp, schema, storemanifest
 
 

@@ -3,8 +3,8 @@ Description: Describes whether Windows overlays the app’s name on top of the t
 Search.Product: eADQiWindows 10XVcnh
 title: uap:ShowNameOnTiles (Windows 10)
 ms.assetid: 883c601d-00b2-4903-996d-6cbab8801acd
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

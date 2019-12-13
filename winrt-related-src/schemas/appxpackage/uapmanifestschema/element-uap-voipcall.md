@@ -3,8 +3,8 @@ Description: Declares an app extensibility point of type voipCall so that your a
 Search.Product: eADQiWindows 10XVcnh
 title: uap:VoipCall
 ms.assetid: 44b66d5c-feb6-4112-9816-1dbdc804577e
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

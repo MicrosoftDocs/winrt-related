@@ -3,8 +3,8 @@ Description: Declares a package extensibility point of type windows.activatableC
 Search.Product: eADQiWindows 10XVcnh
 title: InProcessServer (Windows 10)
 ms.assetid: 47e3c888-76eb-4d12-977c-ebd947a2b63c
-author: mcleanbyron
-ms.author: mcleans
+
+
 keywords: windows 10, uwp, schema, package manifest
 
 

@@ -1,9 +1,8 @@
 ---
-author: mcleblanc
+
 ms.assetid: 711a48bb-de30-4c75-811f-1cb8822665f3
 description: Provides information about file and XML schema specifications for Universal Windows Platform (UWP) apps.
 title: File and XML schema specifications for UWP apps
-ms.author: markl
 ms.topic: article
 
 

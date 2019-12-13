@@ -1,9 +1,9 @@
 ---
-author: mcleanbyron
+
 ms.assetid: 0a5b6804-915b-43b4-87ba-56a0018e58ad
 title: uap2:SupportedVerbs
 description: Contains verbs for a file context menu.
-ms.author: mcleans
+
 ms.date: 04/05/2017
 ms.topic: reference
 

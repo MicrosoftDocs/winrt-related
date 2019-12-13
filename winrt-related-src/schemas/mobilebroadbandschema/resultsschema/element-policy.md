@@ -3,8 +3,7 @@ Description: Contains any errors from processing the CarrierPolicy schema from t
 Search.Product: eADQiWindows 10XVcnh
 title: Policy
 ms.assetid: 4cabf792-57b6-42b1-94bc-1f4138d09534
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

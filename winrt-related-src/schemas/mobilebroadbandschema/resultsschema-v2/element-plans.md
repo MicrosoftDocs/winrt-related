@@ -4,8 +4,7 @@ Description: Contains any errors from processing the Plans element from the last
 Search.Product: eADQiWindows 10XVcnh
 title: Plans
 ms.assetid: f6bdcd56-748b-4d9e-86fd-10467df0e7f3
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 

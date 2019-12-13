@@ -3,8 +3,8 @@ Description: Declares languages, resolution scales, and DirectX feature levels f
 Search.Product: eADQiWindows 10XVcnh
 title: Resources
 ms.assetid: 45ce3dac-3888-452b-bc10-8775b158637a
-author: laurenhughes
-ms.author: lahugh
+
+
 keywords: windows 10, uwp, schema, bundle manifest
 
 

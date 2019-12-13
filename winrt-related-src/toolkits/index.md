@@ -1,8 +1,8 @@
 ---
 title: UWP toolkits
 description: Toolkits and libraies for UWP app development. 
-ms.author: kbridge
-author: Karl-Bridge-Microsoft
+
+
 ms.topic: reference
 ms.date: 11/07/2019
 keywords: windows 10, uwp, toolkit sdk, winui, Windows UI Library

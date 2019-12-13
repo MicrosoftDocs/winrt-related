@@ -1,9 +1,9 @@
 ---
-author: laurenhughes
+
 ms.assetid: deb7031e-075c-4f41-b8d9-87e64c30b588 
 title: ContentGroup (Required\ContentGroup)
 description: Specifies the required content group.
-ms.author: lahugh
+
 ms.date: 03/29/2017
 ms.topic: article
 

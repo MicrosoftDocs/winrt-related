@@ -2,8 +2,7 @@
 title: WLAN_v2 schema
 description: The WLAN_v2 schema defines additional elements that are used to describe a subscriber's connection to a Wireless Local Area Network (WLAN).
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
-author: mcleblanc
-ms.author: markl
+
 keywords: windows 10, uwp, schema, mobile broadband schema
 
 
