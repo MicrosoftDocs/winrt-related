@@ -34,7 +34,14 @@
     "fileMetadata": {
       "feedback_product_url": 
         {
-          "toolkits/winui/**.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose"	
+          "toolkits/winui/**.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",	
+          "toolkits/winui3/**.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose"	
+        }
+      },
+      "ms.technology": 
+        {
+          "toolkits/winui/**.md": "winui",	
+          "toolkits/winui3/**.md": "winui"	
         }
       },
     "externalReference": [
