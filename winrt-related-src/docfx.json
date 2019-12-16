@@ -14,6 +14,7 @@
         }
     ],
     "globalMetadata": {
+        "ROBOTS": "INDEX, FOLLOW",
         "ms.prod": "uwp",
         "ms.technology": "winrt-reference",
         "titleSuffix": "Windows UWP applications",
@@ -24,6 +25,7 @@
         "uhfHeaderId": "MSDocsHeader-WinDevCenter",
         "extendBreadcrumb": true,
         "searchScope": ["UWP"],
+        "keywords": "windows 10, uwp, winrt, api, winui, Windows UI Library",
         "_op_documentIdPathDepotMapping": {
           "./": {
             "depot_name": "MSDN.winrt-related",
@@ -41,24 +43,22 @@
         {
           "toolkits/winui/**.md": "winui", 
           "toolkits/winui3/**.md": "winui"
-        }
-      },
-      "fileMetadata": {
+        },
         "author":
         {
-         "**.md": "Karl-Bridge-Microsoft",
-         "cpp-ref-for-winrt/**.md": "stevewhims",
-         "extension-sdks/**.md": "stevewhims",
-         "midl-3/**.md": "stevewhims",
-         "schemas/**.md": "mcleanbyron",
-         "schemas/voicecommands/**.md": "Karl-Bridge-Microsoft",
-         "specifications/**.md": "Karl-Bridge-Microsoft",
-         "toolkits/**.md": "Karl-Bridge-Microsoft",
-         "win32-and-com/**.md": "mcleanbyron"
+          "**.md": "GrantMeStrength",
+          "cpp-ref-for-winrt/**.md": "stevewhims",
+          "extension-sdks/**.md": "stevewhims",
+          "midl-3/**.md": "stevewhims",
+          "schemas/**.md": "mcleanbyron",
+          "schemas/voicecommands/**.md": "Karl-Bridge-Microsoft",
+          "specifications/**.md": "Karl-Bridge-Microsoft",
+          "toolkits/**.md": "Karl-Bridge-Microsoft",
+          "win32-and-com/**.md": "mcleanbyron"
         },
         "ms.author":
         {
-          "**.md": "kbridge",
+          "**.md": "jken",
           "cpp-ref-for-winrt/**.md": "stwhi",
           "extension-sdks/**.md": "stwhi",
           "midl-3/**.md": "stwhi",
