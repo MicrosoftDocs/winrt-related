@@ -825,18 +825,18 @@ argument that was passed for the parameter. So, a value parameter
 is effective a `const` input parameter.
 
 A *const reference parameter* is used for efficient input parameter
-passing of large value types. Methods receive such parameters as a
+passing of large value types (but not simple types such as integral or floating-point numbers, nor enums). Methods receive such parameters as a
 reference to the actual value, rather than receiving a copy of the
 actual value. For large value types, it's more efficient to pass (to a function) a
 pointer-sized reference to a value than to pass a copy of the actual
 value itself.
 
-A const reference parameter is declared with the `const ref` modifier. This example shows the use of `const ref` parameters; a practical choice when accepting a value as large as a [**Matrix4X4**](/uwp/api/windows.foundation.numerics.matrix4x4), for example.
+A const reference parameter is declared with the `ref const` modifier. This example shows the use of `ref const` parameters; a practical choice when accepting a value as large as a [**Matrix4x4**](/uwp/api/windows.foundation.numerics.matrix4x4), for example.
 
 ```idl
 runtimeclass Test
 {
-    static bool IsIdentity(const ref Matrix4X4 m);
+    static bool IsIdentity(ref const Matrix4x4 m);
 }
 ```
 
