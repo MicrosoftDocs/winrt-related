@@ -128,7 +128,7 @@ The following items are some of the known issues with the WinUI 3.0 Alpha. If yo
 
 The WinUI 3.0 Alpha project templates for Visual Studio only support building C# and C++/WinRT components and apps using the UWP app model.
 
-Future updates will add support for additional project types and languages, including .NET Core and the desktop (win32) app model.
+C# 8 and .NET Core are not yet supported. Future updates will add support for additional project types and languages, including .NET Core, C# 8, and the desktop (win32) app model.
 
 ### Platform and OS support
 
