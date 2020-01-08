@@ -267,7 +267,7 @@ The following example is taken from the package manifest of an SDK sample.
 ## See also
 
 
-[App screenshots and images](https://docs.microsoft.com/en-us/windows/uwp/publish/app-screenshots-and-images)
+[App screenshots and images](https://docs.microsoft.com/windows/uwp/publish/app-screenshots-and-images)
 
 [**Colors class**](https://msdn.microsoft.com/library/windows/apps/hh747824)
 

@@ -124,7 +124,7 @@ If more than one rule is defined, then the order of the rules is important.
 
 To define the **Match** attribute with an IRI for a web resource, you can specify only secure "https:" sites - unsecure "http:" sites aren't allowed. If you specify a "http:" site, you get a schema semantic check validation error.
 
-For any values that have a [scheme](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/launch-maps-app) in Windows 8.1 (version 6.3.0), the manifest only permits secure "https:" scheme. The manifest fails any other scheme. This rule doesn't apply on Windows 8 apps for backward compatibility.
+For any values that have a [scheme](https://docs.microsoft.com/windows/uwp/launch-resume/launch-maps-app) in Windows 8.1 (version 6.3.0), the manifest only permits secure "https:" scheme. The manifest fails any other scheme. This rule doesn't apply on Windows 8 apps for backward compatibility.
 
 ## Requirements
 

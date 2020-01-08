@@ -299,7 +299,7 @@ m_changed(*this, make<args>(CollectionChange::ItemInserted, Size() - 1));
 
 The event arguments indicate both that an element was inserted, and also what its index is (the last element, in this case). These arguments enable a XAML items control to respond to the event and to refresh itself in the optimal way.
 
-This is how you'd create an instance of the type defined above. Instead of calling the **winrt::single_threaded_observable_vector** factory function template, you create the collection object by calling [**winrt::make**](https://docs.microsoft.com/en-us/uwp/cpp-ref-for-winrt/make).
+This is how you'd create an instance of the type defined above. Instead of calling the **winrt::single_threaded_observable_vector** factory function template, you create the collection object by calling [**winrt::make**](https://docs.microsoft.com/uwp/cpp-ref-for-winrt/make).
 
 ```cppwinrt
 #include "single_threaded_observable_vector.h"

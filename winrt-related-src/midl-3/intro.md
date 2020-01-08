@@ -348,7 +348,7 @@ An *attribute* type defines a Windows Runtime attribute that can be applied to o
 
 A *struct* type defines a Windows Runtime structure that contains data members. Structs are value types, and they do not require heap allocation. A data member of a struct type must either be a value type or a nullable type. Struct types do not support inheritance.
 
-An *interface* type defines a Windows Runtime interface, which is a named set of function members. An interface may specify that an implementation of the interface must also implement of one or more specified additional (required) interfaces. Every interface type directly derives from the Windows Runtime [**IInspectable**](https://msdn.microsoft.com/en-us/library/br205821) interface.
+An *interface* type defines a Windows Runtime interface, which is a named set of function members. An interface may specify that an implementation of the interface must also implement of one or more specified additional (required) interfaces. Every interface type directly derives from the Windows Runtime [**IInspectable**](https://msdn.microsoft.com/library/br205821) interface.
 
 A *runtimeclass* type defines a Windows Runtime class (runtime class). A runtime class contains members that can be properties, methods, and events.
 
@@ -366,7 +366,7 @@ You don't need to declare a single-dimensional array before you can use it. Inst
 
 Similarly, *nullable* value types also do not have to be defined before they can be used. For each non-nullable value type **T** (except **String**), there's a corresponding nullable type **Windows.Foundation.IReference&lt;T&gt;**, which can hold the additional value `null`. For instance, **Windows.Foundation.IReference&lt;Int32&gt;** is a type that can hold any 32-bit integer, or the value `null`. Also see [**IReference&lt;T&gt;**](/uwp/api/windows.foundation.ireference_t_).
 
-Finally, MIDL 3.0 supports the **Object** type, which maps to the Windows Runtime [**IInspectable**](https://msdn.microsoft.com/en-us/library/br205821) interface. The *interface* and *runtimeclass* reference types conceptually derive from the **Object** type; *delegate* does not.
+Finally, MIDL 3.0 supports the **Object** type, which maps to the Windows Runtime [**IInspectable**](https://msdn.microsoft.com/library/br205821) interface. The *interface* and *runtimeclass* reference types conceptually derive from the **Object** type; *delegate* does not.
 
 ### Expressions in an enumerated value
 With MIDL 3.0, you can only use an *expression* in the definition of the value of an enumerated type's named constants; in other words, in an enumeration initializer.
@@ -539,7 +539,7 @@ public. That's why MIDL 3.0 doesn't require nor allow the (effectively
 redundant) `public` keyword.
 
 ### Base classes
-A class definition may specify a base class by following the class name and type parameters with a colon and the name of the base class. Omitting a base class specification is the same as deriving from type **Object** (in other words, from [**IInspectable**](https://msdn.microsoft.com/en-us/library/br205821)).
+A class definition may specify a base class by following the class name and type parameters with a colon and the name of the base class. Omitting a base class specification is the same as deriving from type **Object** (in other words, from [**IInspectable**](https://msdn.microsoft.com/library/br205821)).
 
 > [!NOTE]
 > Your view model classes&mdash;in fact, any runtime class that you define in your application&mdash;need not derive from a base class.

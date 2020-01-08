@@ -35,7 +35,7 @@ It maintains down-level compatibility with earlier versions of Windows 10, so yo
 The Xaml Controls Gallery sample app includes interactive demos and sample code for using WinUI controls.
 
 * Install the XAML Controls Gallery app from the [Microsoft Store](
-https://www.microsoft.com/en-us/p/xaml-controls-gallery/9msvh128x2zt)
+https://www.microsoft.com/p/xaml-controls-gallery/9msvh128x2zt)
 
 * The Xaml Controls Gallery is also [open source on GitHub](
 https://github.com/Microsoft/Xaml-Controls-Gallery)
