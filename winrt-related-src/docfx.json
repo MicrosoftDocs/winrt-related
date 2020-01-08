@@ -15,7 +15,9 @@
     ],
     "globalMetadata": {
         "ROBOTS": "INDEX, FOLLOW",
-        "ms.prod": "uwp",
+        "author": "GrantMeStrength",
+        "ms.author": "wdg-dev-content",
+         "ms.prod": "jken",
         "ms.technology": "winrt-reference",
         "titleSuffix": "Windows UWP applications",
         "breadcrumb_path":  "/uwp/breadcrumbs/toc.json",
@@ -36,37 +38,35 @@
     "fileMetadata": {
       "feedback_product_url": 
         {
-          "toolkits/winui/**.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose", 
-          "toolkits/winui3/**.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose"
+          "toolkits/winui/*.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose", 
+          "toolkits/winui3/*.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose"
         },
         "ms.technology": 
         {
-          "toolkits/winui/**.md": "winui", 
-          "toolkits/winui3/**.md": "winui"
+          "toolkits/winui/*.md": "winui", 
+          "toolkits/winui3/*.md": "winui"
         },
         "author":
         {
-          "**.md": "GrantMeStrength",
-          "cpp-ref-for-winrt/**.md": "stevewhims",
-          "extension-sdks/**.md": "stevewhims",
-          "midl-3/**.md": "stevewhims",
-          "schemas/**.md": "mcleanbyron",
-          "schemas/voicecommands/**.md": "Karl-Bridge-Microsoft",
-          "specifications/**.md": "Karl-Bridge-Microsoft",
-          "toolkits/**.md": "Karl-Bridge-Microsoft",
-          "win32-and-com/**.md": "mcleanbyron"
+          "cpp-ref-for-winrt/*.md": "stevewhims",
+          "extension-sdks/*.md": "stevewhims",
+          "midl-3/*.md": "stevewhims",
+          "schemas/*.md": "mcleanbyron",
+          "schemas/voicecommands/*.md": "Karl-Bridge-Microsoft",
+          "specifications/*.md": "Karl-Bridge-Microsoft",
+          "toolkits/*.md": "Karl-Bridge-Microsoft",
+          "win32-and-com/*.md": "mcleanbyron"
         },
         "ms.author":
         {
-          "**.md": "jken",
-          "cpp-ref-for-winrt/**.md": "stwhi",
-          "extension-sdks/**.md": "stwhi",
-          "midl-3/**.md": "stwhi",
-          "schemas/**.md": "mcleans",
-          "schemas/voicecommands/**.md": "kbridge",
-          "specifications/**.md": "kbridge",
-          "toolkits/**.md": "kbridge",
-          "win32-and-com/**.md": "mcleans"
+          "cpp-ref-for-winrt/*.md": "stwhi",
+          "extension-sdks/*.md": "stwhi",
+          "midl-3/*.md": "stwhi",
+          "schemas/*.md": "mcleans",
+          "schemas/voicecommands/*.md": "kbridge",
+          "specifications/*.md": "kbridge",
+          "toolkits/*.md": "kbridge",
+          "win32-and-com/*.md": "mcleans"
         }		 		 
       },
       "externalReference": [

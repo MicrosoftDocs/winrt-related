@@ -20,7 +20,7 @@ A member function (of a generated implementation type) that returns a string con
 
 For an explanation of the implementation type and projected type concepts, see [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis) and [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis).
 
-Also see [IInspectable::GetRuntimeClassName](https://msdn.microsoft.com/en-us/library/br205823).
+Also see [IInspectable::GetRuntimeClassName](https://msdn.microsoft.com/library/br205823).
 
 ## Syntax
 ```cppwinrt

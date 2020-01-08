@@ -133,9 +133,9 @@ The following example is taken from the package manifest of one of the SDK sampl
 
 ## See also
 
-[Upload app packages](https://docs.microsoft.com/en-us/windows/uwp/publish/upload-app-packages)
+[Upload app packages](https://docs.microsoft.com/windows/uwp/publish/upload-app-packages)
 
-[Create your app by reserving a name](https://docs.microsoft.com/en-us/windows/uwp/publish/create-your-app-by-reserving-a-name)
+[Create your app by reserving a name](https://docs.microsoft.com/windows/uwp/publish/create-your-app-by-reserving-a-name)
 
 ## Requirements
 
@@ -147,7 +147,7 @@ The following example is taken from the package manifest of one of the SDK sampl
 <tbody>
 <tr class="odd">
 <td><p>Namespace</p></td>
-<td><p>http://schemas.microsoft.com/appx/2010/manifest</p></td>
+<td><pre>http://schemas.microsoft.com/appx/2010/manifest</pre></td>
 </tr>
 </tbody>
 </table>

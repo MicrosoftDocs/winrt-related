@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # DefaultTile
 
 
-The default tile that represents your app on the Start screen. The icons specified here are displayed when your app is not showing tile notifications. To dynamically change the appearance of your tile and display relevant live content, see [Send a local tile notification](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/tiles-and-notifications-sending-a-local-tile-notification).
+The default tile that represents your app on the Start screen. The icons specified here are displayed when your app is not showing tile notifications. To dynamically change the appearance of your tile and display relevant live content, see [Send a local tile notification](https://docs.microsoft.com/windows/uwp/controls-and-patterns/tiles-and-notifications-sending-a-local-tile-notification).
 
 ## Element hierarchy
 
@@ -174,7 +174,7 @@ Applications\\Application\\VisualElements\\DefaultTile\\@WideLogo
 <tbody>
 <tr class="odd">
 <td><p>Namespace</p></td>
-<td><p>http://schemas.microsoft.com/appx/2010/manifest</p></td>
+<td><pre>http://schemas.microsoft.com/appx/2010/manifest</pre></td>
 </tr>
 </tbody>
 </table>

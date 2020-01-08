@@ -35,7 +35,7 @@ AUGUST 2019
 The TabView control is a collection of tabs that each represents a new page or document in your app. TabView is useful when your app has several pages of content and the user expects to be able to add, close, and rearrange the tabs. The new [Windows Terminal](https://github.com/Microsoft/Terminal) uses TabView to show multiple command line interfaces. 
 
 #### Documentation:  
-https://docs.microsoft.com/en-us/uwp/api/microsoft.ui.xaml.controls.tabview?view=winui-2.2
+https://docs.microsoft.com/uwp/api/microsoft.ui.xaml.controls.tabview?view=winui-2.2
 
 #### 2) NavigationView Updates
 
@@ -54,7 +54,7 @@ In NavigationView’s minimal mode, the back button no longer disappears. When o
 App developers can now reclaim all pixels within their app window when they use the NavigationView control and extend into the title bar area.
 
 #### Documentation:  
-https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/navigationview#top-whitespace
+https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/navigationview#top-whitespace
 
 #### 3) Visual Style Updates
 
@@ -129,7 +129,7 @@ July 2019
 
 ### Experimental Feature
 
-* [TabView](https://docs.microsoft.com/en-us/uwp/api/microsoft.ui.xaml.controls.tabview?view=winui-2.2)
+* [TabView](https://docs.microsoft.com/uwp/api/microsoft.ui.xaml.controls.tabview?view=winui-2.2)
 
 ### Microsoft.UI.Xaml 2.2.20190416001-prerelease
 

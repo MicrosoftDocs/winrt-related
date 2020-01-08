@@ -133,7 +133,7 @@ If more than one rule is defined, then the order of the rules is important.
 <tbody>
 <tr class="odd">
 <td><p>Namespace</p></td>
-<td><p>http://schemas.microsoft.com/appx/2010/manifest</p></td>
+<td><pre>http://schemas.microsoft.com/appx/2010/manifest</pre></td>
 </tr>
 </tbody>
 </table>

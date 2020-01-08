@@ -25,7 +25,7 @@ When you declare a default constructor as a member of a class, the
 compiler produces a Windows Runtime class that's default activatable.
 At the implementation level, this means that the metadata describes
 the class as default activatable, and the class factory for the
-runtimeclass implements the [**IActivationFactory**](https://msdn.microsoft.com/en-us/library/br205779) interface.
+runtimeclass implements the [**IActivationFactory**](https://msdn.microsoft.com/library/br205779) interface.
 
 ```idl
 runtimeclass Area
