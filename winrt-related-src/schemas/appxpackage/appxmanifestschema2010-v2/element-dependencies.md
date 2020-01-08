@@ -117,7 +117,7 @@ Dependencies must be explicitly defined. If a dependency cannot be resolved, dep
 <tbody>
 <tr class="odd">
 <td><p>Namespace</p></td>
-<td><p>http://schemas.microsoft.com/appx/2010/manifest</p></td>
+<td><pre>http://schemas.microsoft.com/appx/2010/manifest</pre></td>
 </tr>
 </tbody>
 </table>
