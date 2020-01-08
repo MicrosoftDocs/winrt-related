@@ -749,7 +749,7 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | lroundl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | [modf](https://msdn.microsoft.com/library/Bb509627(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | modff | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [nan](https://msdn.microsoft.com/de-de/library/Dd372582(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [nan](https://msdn.microsoft.com/library/Dd372582(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | nanf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | nanl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | nearbyint | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
@@ -2966,27 +2966,27 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 
 | API | Requirements |
 | -----| --------------|
-| [FreeAddrInfo](https://msdn.microsoft.com/de-de/library/ms737931(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetAddrInfoEx](https://msdn.microsoft.com/de-de/library/ms738518(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetAddrInfo](https://msdn.microsoft.com/de-de/library/ms738520(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetHostName](https://msdn.microsoft.com/de-de/library/ms738527(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetNameInfo](https://msdn.microsoft.com/de-de/library/ms738532(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [InetNtop](https://msdn.microsoft.com/de-de/library/Cc805843(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [FreeAddrInfo](https://msdn.microsoft.com/library/ms737931(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetAddrInfoEx](https://msdn.microsoft.com/library/ms738518(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetAddrInfo](https://msdn.microsoft.com/library/ms738520(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetHostName](https://msdn.microsoft.com/library/ms738527(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetNameInfo](https://msdn.microsoft.com/library/ms738532(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [InetNtop](https://msdn.microsoft.com/library/Cc805843(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
 | [InetPton](https://msdn.microsoft.com/library/Cc805844(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
 | [SetAddrInfoEx](https://msdn.microsoft.com/library/windows/desktop/ms740473.aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSAAddressToString](https://msdn.microsoft.com/de-de/library/ms741516(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSAConnectByName](https://msdn.microsoft.com/de-de/library/ms741557(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSADuplicateSocket](https://msdn.microsoft.com/de-de/library/ms741565(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSAEnumNameSpaceProviders](https://msdn.microsoft.com/de-de/library/ms741570(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSAEnumNameSpaceProvidersEx](https://msdn.microsoft.com/de-de/library/ms741568(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSAEnumProtocols](https://msdn.microsoft.com/de-de/library/ms741574(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSAGetServiceClassInfo](https://msdn.microsoft.com/de-de/library/ms741592(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSAGetServiceClassNameByClassId](https://msdn.microsoft.com/de-de/library/ms741598(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSALookupServiceBegin](https://msdn.microsoft.com/de-de/library/ms741633(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSALookupServiceNext](https://msdn.microsoft.com/de-de/library/ms741641(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSASetService](https://msdn.microsoft.com/de-de/library/ms742211(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSASocket](https://msdn.microsoft.com/de-de/library/ms742212(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSAStringToAddress](https://msdn.microsoft.com/de-de/library/ms742214(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAAddressToString](https://msdn.microsoft.com/library/ms741516(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAConnectByName](https://msdn.microsoft.com/library/ms741557(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSADuplicateSocket](https://msdn.microsoft.com/library/ms741565(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAEnumNameSpaceProviders](https://msdn.microsoft.com/library/ms741570(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAEnumNameSpaceProvidersEx](https://msdn.microsoft.com/library/ms741568(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAEnumProtocols](https://msdn.microsoft.com/library/ms741574(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAGetServiceClassInfo](https://msdn.microsoft.com/library/ms741592(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAGetServiceClassNameByClassId](https://msdn.microsoft.com/library/ms741598(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSALookupServiceBegin](https://msdn.microsoft.com/library/ms741633(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSALookupServiceNext](https://msdn.microsoft.com/library/ms741641(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSASetService](https://msdn.microsoft.com/library/ms742211(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSASocket](https://msdn.microsoft.com/library/ms742212(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAStringToAddress](https://msdn.microsoft.com/library/ms742214(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-namedpipe-ansi-l1-1-0.dll
@@ -4089,7 +4089,7 @@ COM interfaces
 | [IXmlReaderInput](https://msdn.microsoft.com/library/windows/desktop/ms752817.aspx) | Introduced in 10.0.10240. |
 | [IXmlResolver](https://msdn.microsoft.com/library/windows/desktop/ms752841.aspx) | Introduced in 10.0.10240. |
 | [IXmlWriter](https://msdn.microsoft.com/library/windows/desktop/ms752860.aspx) | Introduced in 10.0.10240. |
-| [IXmlWriterLite](https://msdn.microsoft.com/de-de/library/Mt143569(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [IXmlWriterLite](https://msdn.microsoft.com/library/Mt143569(v=VS.85).aspx) | Introduced in 10.0.10240. |
 | [IXmlWriterOutput](https://msdn.microsoft.com/library/windows/desktop/ms752843.aspx) | Introduced in 10.0.10240. |
 | [IXpsDocumentPackageTarget](https://msdn.microsoft.com/library/windows/desktop/hh994456.aspx) | Introduced in 10.0.10240. |
 | [IXpsDocumentPackageTarget3D](https://msdn.microsoft.com/library/windows/desktop/dn280684.aspx) | Introduced in 10.0.10240. |

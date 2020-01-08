@@ -1504,15 +1504,15 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [MFGetService](https://msdn.microsoft.com/library/windows/desktop/ms694284.aspx) | Introduced into mf.dll in 10.0.10240. |
 | [MFGetSystemId](https://msdn.microsoft.com/library/windows/desktop/hh162767.aspx) | Introduced into mf.dll in 10.0.10240. |
 | [MFLoadSignedLibrary](https://msdn.microsoft.com/library/windows/desktop/hh162769.aspx) | Introduced into mf.dll in 10.0.10240. |
-| [MFCreateASFContentInfo](https://msdn.microsoft.com/de-de/library/Bb970315(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
-| [MFCreateASFIndexer](https://msdn.microsoft.com/de-de/library/ms704561(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
-| [MFCreateASFIndexerByteStream](https://msdn.microsoft.com/de-de/library/Bb970563(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
-| [MFCreateASFSplitter](https://msdn.microsoft.com/de-de/library/Bb970321(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
-| [MFCreateAudioRendererActivate](https://msdn.microsoft.com/de-de/library/ms702998(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
-| [MFCreatePMPMediaSession](https://msdn.microsoft.com/de-de/library/ms703144(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
-| [MFCreatePresentationClock](https://msdn.microsoft.com/de-de/library/ms702174(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
-| [MFCreateTopology](https://msdn.microsoft.com/de-de/library/ms701584(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
-| [MFCreateTopologyNode](https://msdn.microsoft.com/de-de/library/ms697574(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreateASFContentInfo](https://msdn.microsoft.com/library/Bb970315(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreateASFIndexer](https://msdn.microsoft.com/library/ms704561(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreateASFIndexerByteStream](https://msdn.microsoft.com/library/Bb970563(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreateASFSplitter](https://msdn.microsoft.com/library/Bb970321(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreateAudioRendererActivate](https://msdn.microsoft.com/library/ms702998(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreatePMPMediaSession](https://msdn.microsoft.com/library/ms703144(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreatePresentationClock](https://msdn.microsoft.com/library/ms702174(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreateTopology](https://msdn.microsoft.com/library/ms701584(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreateTopologyNode](https://msdn.microsoft.com/library/ms697574(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
 
 
 ## APIs from mfplat.dll
@@ -1573,9 +1573,9 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [MFUnlockWorkQueue](https://msdn.microsoft.com/library/windows/desktop/aa372543.aspx) | Introduced into mfplat.dll in 10.0.10240. |
 | [MFUnwrapMediaType](https://msdn.microsoft.com/library/windows/desktop/ms696190.aspx) | Introduced into mfplat.dll in 10.0.10240. |
 | [MFWrapMediaType](https://msdn.microsoft.com/library/windows/desktop/ms701782.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateSystemTimeSource](https://msdn.microsoft.com/de-de/library/ms705610(v=VS.85).aspx) | Introduced into mfplat.dll in 10.0.16299. |
-| [MFScheduleWorkItemEx](https://msdn.microsoft.com/de-de/library/ms702259(v=VS.85).aspx) | Introduced into mfplat.dll in 10.0.16299. |
-| [MFTEnumEx](https://msdn.microsoft.com/de-de/library/Dd388652(v=VS.85).aspx) | Introduced into mfplat.dll in 10.0.16299. |
+| [MFCreateSystemTimeSource](https://msdn.microsoft.com/library/ms705610(v=VS.85).aspx) | Introduced into mfplat.dll in 10.0.16299. |
+| [MFScheduleWorkItemEx](https://msdn.microsoft.com/library/ms702259(v=VS.85).aspx) | Introduced into mfplat.dll in 10.0.16299. |
+| [MFTEnumEx](https://msdn.microsoft.com/library/Dd388652(v=VS.85).aspx) | Introduced into mfplat.dll in 10.0.16299. |
 
 
 ## APIs from mfreadwrite.dll
@@ -2055,8 +2055,8 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [_CorDllMain](https://msdn.microsoft.com/de-de/library/9yk0t8cf(v=VS.85).aspx) | Introduced into mscoree.dll in 10.0.10240. Removed in 10.0.16299. |
-| [_CorExeMain](https://msdn.microsoft.com/de-de/library/xh0859k0(v=VS.85).aspx) | Introduced into mscoree.dll in 10.0.10240. Removed in 10.0.16299. |
+| [_CorDllMain](https://msdn.microsoft.com/library/9yk0t8cf(v=VS.85).aspx) | Introduced into mscoree.dll in 10.0.10240. Removed in 10.0.16299. |
+| [_CorExeMain](https://msdn.microsoft.com/library/xh0859k0(v=VS.85).aspx) | Introduced into mscoree.dll in 10.0.10240. Removed in 10.0.16299. |
 | [MetaDataGetDispenser](https://msdn.microsoft.com/library/windows/desktop/br229853.aspx) | Introduced into mscoree.dll in 10.0.10240. Moved into rometadata.dll in 10.0.10586. |
 
 
@@ -3094,7 +3094,7 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [inet_addr](https://msdn.microsoft.com/library/windows/desktop/ms738563.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
 | [inet_ntoa](https://msdn.microsoft.com/library/windows/desktop/ms738564.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
 | inet_ntop | Introduced into ws2_32.dll in 10.0.10240. |
-| [inet_pton](https://msdn.microsoft.com/de-de/library/Cc805844(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.10240. |
+| [inet_pton](https://msdn.microsoft.com/library/Cc805844(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.10240. |
 | [InetNtopW](https://msdn.microsoft.com/library/windows/desktop/cc805843.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
 | [InetPtonW](https://msdn.microsoft.com/library/windows/desktop/cc805844.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
 | [ioctlsocket](https://msdn.microsoft.com/library/windows/desktop/ms738573.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
@@ -3164,7 +3164,7 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [WSAStringToAddressA](https://msdn.microsoft.com/library/windows/desktop/ms742214.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
 | [WSAStringToAddressW](https://msdn.microsoft.com/library/windows/desktop/ms742214.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
 | [WSAWaitForMultipleEvents](https://msdn.microsoft.com/library/windows/desktop/ms742219.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [FreeAddrInfoEx](https://msdn.microsoft.com/de-de/library/ms737906(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [FreeAddrInfoEx](https://msdn.microsoft.com/library/ms737906(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from xaudio2_9.dll
