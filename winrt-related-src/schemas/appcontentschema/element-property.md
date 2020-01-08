@@ -176,7 +176,7 @@ A property that describes the item.
 <tbody>
 <tr class="odd">
 <td><p>Namespace</p></td>
-<td><p>http://schemas.microsoft.com/Search/2013/ApplicationContent</p></td>
+<td><pre>http://schemas.microsoft.com/Search/2013/ApplicationContent</pre></td>
 </tr>
 </tbody>
 </table>
