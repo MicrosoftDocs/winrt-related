@@ -19,7 +19,7 @@ WinUI packages can be added to Visual Studio projects through the NuGet package 
 
 NuGet package download: [Microsoft.UI.Xaml](https://www.nuget.org/packages/Microsoft.UI.Xaml)
 
-## New Features
+## New Features 
 
 ### 1) Progress Bar Visual Refresh
 
