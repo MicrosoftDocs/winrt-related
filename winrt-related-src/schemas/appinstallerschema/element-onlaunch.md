@@ -40,7 +40,15 @@ This element signifies that the deployment service will check for an update to t
 | ShowPrompt | Indicates if deployment will show a prompt, informing the user about the update. For more information about the behavior of this attribute, see the remarks. Available in Windows 10, version 1903 and later.  |Boolean | No |
 | UpdateBlocksActivation| Should only be used if ShowPrompt="true". Indicates if deployment will stop the user from launching the application until the update has been applied. “UpdateBlocksActivation” = true means the UI the user will see allows the user to take the update or close the app. “UpdateBlocksActivation” = false means the UI the user will see allows the user to take the update or start the app without updating. In the latter case, the update will be applied silently at an opportune time. For more information about the behavior of this attribute, see the remarks. Available in Windows 10, version 1903 and later. | Boolean | No |
 
+### Parent Elements
+
+| Parent Elements | Description |
+|----------------|-------------|
+| [UpdateSettings](element-update-settings.md) | An optional element of the appinstaller file. UpdateSettings signifies whether or not to check for an update during the app's launch. |
+
 ## Remarks
+
+Setting the `ShowPrompt="true"` attribute currently shows a prompt for UWP applications but not for desktop applications that have been packaged in a Windows app package (that is, desktop applications that use the Desktop Bridge). For desktop applications, this functionality provides a silent update; the same default functionality provided by the OnLaunch element.
 
 The `ShowPrompt` and `UpdateBlocksActivation` attributes have effect only when the user starts the app from a menu item or tile in the Start menu. These attributes have no effect if the user starts the app from a desktop shortcut or from the Taskbar.
 
@@ -55,16 +63,8 @@ In this example, deployment will check for updates every time the app is launche
 </UpdateSettings>
 ```
 
-### Parent Elements
-
-| Parent Elements | Description |
-|----------------|-------------|
-| [UpdateSettings](element-update-settings.md) | An optional element of the appinstaller file. UpdateSettings signifies whether or not to check for an update during the app's launch. |
-
-## Remarks
-Setting the ```ShowPrompt="true"``` attribute currently shows a prompt for UWP applications but not for desktop applications that have been packaged in a Windows app package (that is, desktop applications that use the Desktop Bridge). For desktop applications, this functionality provides a silent update; the same default functionality provided by the OnLaunch element.
-
 ## Requirements for HoursBetweenUpdateChecks
+
 <table>
     <tbody>
         <tr>
