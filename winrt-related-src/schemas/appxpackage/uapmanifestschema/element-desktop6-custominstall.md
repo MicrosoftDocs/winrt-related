@@ -3,7 +3,7 @@
 title: desktop6:CustomInstall
 description: Enables your desktop application to specify one or more additional installer files (.exe or .msi) that are installed with your app.
 
-ms.date: 04/19/2019
+ms.date: 01/22/2020
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ms.custom: 19H1
@@ -71,6 +71,8 @@ Enables your desktop application to specify one or more additional installer fil
 ## Remarks
 
 This element requires the **customInstallActions** [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
+
+The OS uses the `Name` attribute of the [desktop6:InstallAction](element-desktop6-installaction.md), [desktop6:RepairAction](element-desktop6-repairaction.md), and [desktop6:UninstallAction](element-desktop6-uninstallaction.md) elements to identify a related set of install, repair, and uninstall actions. To specify a related set of actions that should be executed in conjunction with each other, make sure they have the same value for the `Name` attribute. The OS will run an uninstall action only if the corresponding install or repair action has been run.
 
 ## Examples
 
