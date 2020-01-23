@@ -132,7 +132,7 @@ The WinUI 3.0 Alpha project templates for Visual Studio only support building C#
 
 ### Platform and OS support
 
-The WinUI 3 Alpha works on PCs running the Windows 10 April 2018 Update (1803) and newer.
+The WinUI 3.0 Alpha is compatible with PCs running the Windows 10 April 2018 Update (1803) and newer.
 
 Future updates will include support for a wider range of Windows versions and devices.
 
