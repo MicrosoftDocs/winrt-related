@@ -16,6 +16,14 @@ This topic lists changes to the package manifest schema reference for each versi
 
 The following sections list the namespaces and XML prefixes added to the package manifest schema in each update of Windows 10. To get the latest version of Windows 10, see [Download Windows 10](https://www.microsoft.com/software-download/windows10).
 
+## Windows 10, Version 2004
+### Added namespaces and XML prefixes
+| Prefix   | Namespace | 
+|----------|-----------|
+| uap10     | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` | 
+| desktop7 | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |
+| com3     | `http://schemas.microsoft.com/appx/manifest/com/windows10/3` |
+
 ## Windows 10, Version 1903
 ### Added namespaces and XML prefixes
 | Prefix   | Namespace | 

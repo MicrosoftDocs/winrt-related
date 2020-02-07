@@ -31,6 +31,8 @@ The following list summarizes the allowed hierarchies for this schema, starting 
         -   [**desktop6:FileSystemWriteVirtualization**](element-desktop6-filesystemwritevirtualization.md)
         -   [**desktop6:RegistryWriteVirtualization**](element-desktop6-registrywritevirtualization.md)
         -   [**rescap6:ModificationPackage**](element-rescap6-modificationpackage.md)
+        -   [**uap10:PackageIntegrity**](element-uap10-packageintegrity.md)
+            -   [**uap10:Content**](element-uap10-content.md)
     -   [**Resources**](element-resources.md)
         -   [**Resource**](element-resource.md)
     -   [**Dependencies**](element-dependencies.md)

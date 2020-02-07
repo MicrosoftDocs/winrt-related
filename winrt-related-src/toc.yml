@@ -152,6 +152,10 @@
             href: schemas/appxpackage/uapmanifestschema/element-desktop6-registrywritevirtualization.md
           - name: "rescap6:ModificationPackage"
             href: schemas/appxpackage/uapmanifestschema/element-rescap6-modificationpackage.md
+          - name: "uap10:PackageIntegrity"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-packageintegrity.md
+          - name: "uap10:Content"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-content.md
           - name: "Resources"
             href: schemas/appxpackage/uapmanifestschema/element-resources.md
           - name: "Resource"
