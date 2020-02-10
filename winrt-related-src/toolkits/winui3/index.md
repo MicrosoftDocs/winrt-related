@@ -1,5 +1,5 @@
 ---
-title: WinUI 3.0 Alpha (November 2019)
+title: WinUI 3.0 Alpha (February 2020)
 description: Overview of the WinUI 3.0 Alpha.
 
 
@@ -7,7 +7,7 @@ ms.date: 11/04/2019
 ms.topic: reference
 ---
 
-# WinUI 3.0 Alpha (November 2019)
+# WinUI 3.0 Alpha (February 2020)
 
 WinUI 3.0 is a major update to the Windows 10 UI platform planned for release in 2020.
 
@@ -138,7 +138,24 @@ Future updates will include support for a wider range of Windows versions and de
 
 ### Controls and features
 
-The following list shows the UI controls and features that are not included (or not fully functional) in the first Alpha build.
+The current (February 2020) update to the Alpha brings the addition of a chromium-based Microsoft Edge [WebView2](https://github.com/microsoft/microsoft-ui-xaml/issues/1658). This Alpha release of the WebView2 has the following limitations worth noting:
+
+* A limited API/feature set
+  - See [API draft](https://github.com/microsoft/microsoft-ui-xaml-specs/blob/master/active/WebView2/WebView2_spec.md) for more details
+* Current Beta version of Microsoft Edge is required
+  - Note: if Microsoft Edge is later upgraded, there is no guarantee that the WebView2 will continue to work
+* Inclusion of the public [Microsoft Edge core WebView2 Nuget package](https://www.nuget.org/packages/Microsoft.Web.WebView2) is necessary
+    - The [version 0.8.355](https://www.nuget.org/packages/Microsoft.Web.WebView2/) of the above Nuget package is known to work
+* Accessibility support is not complete
+* Z-order issue
+    - Alpha WebView2 will always render on top of all other content
+* Keyboard input integration is limited
+    - Basic keyboard input is working, however other text input scenarios are yet to be completed
+* Touch input does not work correctly when using DPI scaling
+  - Leave your DPI at 100% if you would like to utilize touch input in the WebView2
+
+
+The following list shows the UI controls and features that are not included (or not fully functional) in the current Alpha build.
 
 * [AcrylicBrush](https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.acrylicbrush)
 * [AppWindow](https://docs.microsoft.com/windows/uwp/design/layout/app-window) functionality including [ElementCompositionPreview.GetAppWindowContent](https://docs.microsoft.com/uwp/api/windows.ui.xaml.hosting.elementcompositionpreview.getappwindowcontent) and [ElementCompositionPreview.SetAppWindowContent](https://docs.microsoft.com/uwp/api/windows.ui.xaml.hosting.elementcompositionpreview.setappwindowcontent) 
@@ -152,7 +169,6 @@ The following list shows the UI controls and features that are not included (or 
 * [System.ComponentModel.INotifyPropertyChanged](https://docs.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged?view=dotnet-uwp-10.0) and [System.Collections.Specialized.INotifyCollectionChanged](https://docs.microsoft.com/dotnet/api/system.collections.specialized.inotifycollectionchanged?view=dotnet-uwp-10.0) for C# apps. Use the `Microsoft.UI.Xaml.Interop` versions of these interfaces instead.
 * [ObservableCollection\<T\>](https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1?view=netframework-4.8) implements [System.ComponentModel.INotifyPropertyChanged](https://docs.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged?view=dotnet-uwp-10.0) and [System.Collections.Specialized.INotifyCollectionChanged](https://docs.microsoft.com/dotnet/api/system.collections.specialized.inotifycollectionchanged?view=dotnet-uwp-10.0). See the Xaml Controls Gallery app for an example of an [alternative observable collection implementation](https://github.com/microsoft/Xaml-Controls-Gallery/blob/winui3alpha/XamlControlsGallery/CollectionsInterop.cs).
 * [ThemeShadow](https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.themeshadow)
-* [WebView](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.WebView)
 * [Window.SetTitleBar](https://docs.microsoft.com/uwp/api/windows.ui.xaml.window.settitlebar) and custom window title bars
 * [Xaml Islands](https://docs.microsoft.com/windows/apps/desktop/modernize/xaml-islands) functionality including [DesktopWindowXamlSource](https://docs.microsoft.com/uwp/api/windows.ui.xaml.hosting.desktopwindowxamlsource)
 * [XamlLight](https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.xamllight)
