@@ -3,7 +3,7 @@ title: WinUI 3.0 Alpha (February 2020)
 description: Overview of the WinUI 3.0 Alpha.
 
 
-ms.date: 11/04/2019
+ms.date: 2/11/2020
 ms.topic: reference
 ---
 
