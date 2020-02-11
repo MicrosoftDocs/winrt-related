@@ -154,7 +154,7 @@ The latest (February 2020) update to the WinUI 3.0 Alpha adds a Chromium-based M
   - Basic keyboard input works as expected. However, other text input scenarios are incomplete.
 * Touch input does not work correctly when using DPI scaling.
   - DPI should be set to 100%.
-* For full IntelliSense support you must use an xmlns namespace, such as:
+* IntelliSense still shows for the deprecated WebView control which is no longer included. For correct IntelliSense support for WebView2 you must use an xmlns namespace, such as:
 
 ```xaml
 <Page
