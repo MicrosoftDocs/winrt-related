@@ -152,6 +152,7 @@ The latest (February 2020) update to the WinUI 3.0 Alpha adds a Chromium-based M
   - Alpha WebView2 is always rendered on top of other content.
 * Limited support for Keyboard input.
   - Basic keyboard input works as expected. However, other text input scenarios are incomplete.
+* WebViewBrush is not yet functional with WebView2.
 * Touch input does not work correctly when using DPI scaling.
   - DPI should be set to 100%.
 * IntelliSense still shows for the deprecated WebView control which is no longer included. For correct IntelliSense support for WebView2 you must use an xmlns namespace, such as:
