@@ -140,12 +140,12 @@ Future updates will include support for a wider range of Windows versions and de
 
 The latest (February 2020) update to the WinUI 3.0 Alpha adds a Chromium-based Microsoft Edge [WebView2](https://github.com/microsoft/microsoft-ui-xaml/issues/1658) control. This release of the WebView2 control has the following known issues:
 
+* You must add a reference to the [Microsoft Edge WebView2 NuGet package](https://www.nuget.org/packages/Microsoft.Web.WebView2) to your app.
+  - [Version 0.8.355](https://www.nuget.org/packages/Microsoft.Web.WebView2/) is the latest Nuget package known to work.
 * A limited API/feature set.
   - See [API draft](https://github.com/microsoft/microsoft-ui-xaml-specs/blob/master/active/WebView2/WebView2_spec.md) for more details.
 * Current Beta version of Microsoft Edge is required.
   - Future updates to Microsoft Edge might cause the WebView2 control to stop working.
-* You must add a reference to the [Microsoft Edge WebView2 NuGet package](https://www.nuget.org/packages/Microsoft.Web.WebView2) to your app.
-  - [Version 0.8.355](https://www.nuget.org/packages/Microsoft.Web.WebView2/) is the latest Nuget package known to work.
 * Incomplete accessibility support.
 * Z-order issue.
   - Alpha WebView2 is always rendered on top of other content.
@@ -153,6 +153,18 @@ The latest (February 2020) update to the WinUI 3.0 Alpha adds a Chromium-based M
   - Basic keyboard input works as expected. However, other text input scenarios are incomplete.
 * Touch input does not work correctly when using DPI scaling.
   - DPI should be set to 100%.
+* For full IntelliSense support you must use an xmlns namespace, such as:
+
+```xaml
+<Page
+...
+    xmlns:controls="using:Microsoft.UI.Xaml.Controls">
+
+    <Grid>
+        <controls:WebView2 UriSource="http://www.bing.com" Width="800" Height="600"/>
+    </Grid>
+</Page>
+```
 
 The following list shows the UI controls and features that are not included (or not fully functional) in the current Alpha build.
 
