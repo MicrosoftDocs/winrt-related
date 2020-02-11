@@ -24,7 +24,7 @@ This topic lists some of the feature areas that your UWP app might use that donâ
 | Chat                    | [**Chat**](https://msdn.microsoft.com/library/windows/apps/dn642321) APIs can create messages and add them to the database on Xbox but send/receive functionality is not supported.|
 | Cortana voice commands  | [**VoiceCommands**](https://msdn.microsoft.com/library/windows/apps/dn706594) APIs are currently not supported on Xbox. |
 | Credential APIs         | APIs related to key credentials are not supported on Xbox. See [**Windows.Security.Credentials**](https://msdn.microsoft.com/library/windows/apps/br227089).  |
-| File system access                  | The [**broadFileSystemAccess** capability](/windows/uwp/files/file-access-permissions#accessing-additional-locations) is not supported on Xbox. |
+| File system access                  | The [**broadFileSystemAccess**](/windows/uwp/files/file-access-permissions#accessing-additional-locations) capability is not supported on Xbox. |
 | Kinect                  | Xbox Universal Windows Apps don't support skeletal tracking. Xbox provides support for using the infrared, depth, and color feeds from Kinect. |
 | Launcher APIs           | [**FolderLauncherOptions**](https://msdn.microsoft.com/library/windows/apps/dn889612) and [**LauncherUIOptions**](https://msdn.microsoft.com/library/windows/apps/hh701448) APIs are not supported on Xbox. |
 | Personalization         | [**UserProfilePersonalizationSettings**](https://msdn.microsoft.com/library/windows/apps/mt244354) APIs are currently not supported on Xbox. |
