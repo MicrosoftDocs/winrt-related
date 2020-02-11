@@ -144,7 +144,7 @@ The latest (February 2020) update to the WinUI 3.0 Alpha adds a Chromium-based M
   - See [API draft](https://github.com/microsoft/microsoft-ui-xaml-specs/blob/master/active/WebView2/WebView2_spec.md) for more details.
 * Current Beta version of Microsoft Edge is required.
   - Future updates to Microsoft Edge might cause the WebView2 control to stop working.
-* The public [Microsoft Edge core WebView2 Nuget package](https://www.nuget.org/packages/Microsoft.Web.WebView2) is required.
+* You must add a reference to the [Microsoft Edge WebView2 NuGet package](https://www.nuget.org/packages/Microsoft.Web.WebView2) to your app.
   - [Version 0.8.355](https://www.nuget.org/packages/Microsoft.Web.WebView2/) is the latest Nuget package known to work.
 * Incomplete accessibility support.
 * Z-order issue.
