@@ -138,22 +138,21 @@ Future updates will include support for a wider range of Windows versions and de
 
 ### Controls and features
 
-The current (February 2020) update to the Alpha brings the addition of a chromium-based Microsoft Edge [WebView2](https://github.com/microsoft/microsoft-ui-xaml/issues/1658). This Alpha release of the WebView2 has the following limitations worth noting:
+The latest (February 2020) update to the WinUI 3.0 Alpha adds a chromium-based Microsoft Edge [WebView2](https://github.com/microsoft/microsoft-ui-xaml/issues/1658) control. This release of the WebView2 control has the following known issues:
 
-* A limited API/feature set
-  - See [API draft](https://github.com/microsoft/microsoft-ui-xaml-specs/blob/master/active/WebView2/WebView2_spec.md) for more details
-* Current Beta version of Microsoft Edge is required
-  - Note: if Microsoft Edge is later upgraded, there is no guarantee that the WebView2 will continue to work
-* Inclusion of the public [Microsoft Edge core WebView2 Nuget package](https://www.nuget.org/packages/Microsoft.Web.WebView2) is necessary
-    - The [version 0.8.355](https://www.nuget.org/packages/Microsoft.Web.WebView2/) of the above Nuget package is known to work
-* Accessibility support is not complete
-* Z-order issue
-    - Alpha WebView2 will always render on top of all other content
-* Keyboard input integration is limited
-    - Basic keyboard input is working, however other text input scenarios are yet to be completed
-* Touch input does not work correctly when using DPI scaling
-  - Leave your DPI at 100% if you would like to utilize touch input in the WebView2
-
+* A limited API/feature set.
+  - See [API draft](https://github.com/microsoft/microsoft-ui-xaml-specs/blob/master/active/WebView2/WebView2_spec.md) for more details.
+* Current Beta version of Microsoft Edge is required.
+  - Future updates to Microsoft Edge might cause the WebView2 control to stop working.
+* The public [Microsoft Edge core WebView2 Nuget package](https://www.nuget.org/packages/Microsoft.Web.WebView2) is required.
+  - [Version 0.8.355](https://www.nuget.org/packages/Microsoft.Web.WebView2/) is the latest Nuget package known to work.
+* Incomplete accessibility support.
+* Z-order issue.
+  - Alpha WebView2 is always rendered on top of other content.
+* Limited support for Keyboard input.
+  - Basic keyboard input works as expected. However, other text input scenarios are incomplete.
+* Touch input does not work correctly when using DPI scaling.
+  - DPI should be set to 100%.
 
 The following list shows the UI controls and features that are not included (or not fully functional) in the current Alpha build.
 
