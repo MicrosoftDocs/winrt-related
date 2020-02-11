@@ -15,7 +15,7 @@ keywords: windows 10, uwp, xbox
 
 Xbox runs Windows 10, which means that it shares the same core operating system as other devices in the Windows 10 family: desktop, mobile, IoT, and HoloLens. However, there are some feature areas that haven’t reached the same level of support on Xbox as they have on other devices.
 
-This topic lists some of the feature areas that your UWP app might use that don’t currently function as fully on Xbox. All APIs are callable and will fail gracefully if they’re unsupported. As we service Windows, we will continue implementing, testing, and bugfixing until all of the Universal device family API surface is fully operational on Xbox.
+This topic lists some of the feature areas that your UWP app might use that don’t currently function as fully on Xbox. All APIs are callable and will fail gracefully if they’re unsupported. As we service Windows, we will continue implementing, testing, and bug fixing until all of the Universal device family API surface is fully operational on Xbox.
 
 ## Feature areas most applicable to Xbox
 
@@ -24,6 +24,7 @@ This topic lists some of the feature areas that your UWP app might use that don�
 | Chat                    | [**Chat**](https://msdn.microsoft.com/library/windows/apps/dn642321) APIs can create messages and add them to the database on Xbox but send/receive functionality is not supported.|
 | Cortana voice commands  | [**VoiceCommands**](https://msdn.microsoft.com/library/windows/apps/dn706594) APIs are currently not supported on Xbox. |
 | Credential APIs         | APIs related to key credentials are not supported on Xbox. See [**Windows.Security.Credentials**](https://msdn.microsoft.com/library/windows/apps/br227089).  |
+| File system access                  | The [**broadFileSystemAccess**](/windows/uwp/files/file-access-permissions#accessing-additional-locations) capability is not supported on Xbox. |
 | Kinect                  | Xbox Universal Windows Apps don't support skeletal tracking. Xbox provides support for using the infrared, depth, and color feeds from Kinect. |
 | Launcher APIs           | [**FolderLauncherOptions**](https://msdn.microsoft.com/library/windows/apps/dn889612) and [**LauncherUIOptions**](https://msdn.microsoft.com/library/windows/apps/hh701448) APIs are not supported on Xbox. |
 | Personalization         | [**UserProfilePersonalizationSettings**](https://msdn.microsoft.com/library/windows/apps/mt244354) APIs are currently not supported on Xbox. |
