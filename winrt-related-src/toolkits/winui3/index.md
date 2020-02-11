@@ -138,7 +138,7 @@ Future updates will include support for a wider range of Windows versions and de
 
 ### Controls and features
 
-The latest (February 2020) update to the WinUI 3.0 Alpha adds a chromium-based Microsoft Edge [WebView2](https://github.com/microsoft/microsoft-ui-xaml/issues/1658) control. This release of the WebView2 control has the following known issues:
+The latest (February 2020) update to the WinUI 3.0 Alpha adds a Chromium-based Microsoft Edge [WebView2](https://github.com/microsoft/microsoft-ui-xaml/issues/1658) control. This release of the WebView2 control has the following known issues:
 
 * A limited API/feature set.
   - See [API draft](https://github.com/microsoft/microsoft-ui-xaml-specs/blob/master/active/WebView2/WebView2_spec.md) for more details.
