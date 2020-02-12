@@ -3,12 +3,9 @@ Description: Specifies a sound to play when a toast notification is displayed.
 Search.Product: eADQiWindows 10XVcnh
 title: audio
 ms.assetid: 13e5fe05-383b-4615-81ce-20d8b020350f
-
 keywords: windows 10, uwp, schema, toast notifications
-
-
 ms.topic: reference
-ms.date: 04/05/2017
+ms.date: 02/11/2020
 ---
 
 # audio
@@ -102,11 +99,8 @@ Specifies a sound to play when a toast notification is displayed. This element a
 <li>ms-winsoundevent:Notification.Looping.Call9</li>
 <li>ms-winsoundevent:Notification.Looping.Call10</li>
 </ul>
-<p>On Windows Phone 8.1, this attribute can also contain the path to a local audio file, with one of the following prefixes:</p>
-<ul>
-<li>ms-appx:///</li>
-<li>ms-appdata:///</li>
-</ul></td>
+<p>See the remarks section for information about custom sounds.</p>
+</td>
 <td>string</td>
 <td>No</td>
 <td>None</td>
@@ -145,7 +139,7 @@ None.
 
 ## Remarks
 
-UWP apps that target the desktop platform don't currently support custom sounds; instead, you can choose from the list of winsoundevents.
+UWP apps that target the desktop platform support custom toast notification sounds on Windows 10, version 1511 (build 10586) and later. On earlier versions, you can choose from the list of `ms-winsoundevent` values listed for the **src** attribute in the table above. For more information about custom toast notification sounds, see [Custom audio on toasts](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/custom-audio-on-toasts).  
 
 If you specify a custom file path in the app payload, the default sound (notification, call, alarm, or reminder) will be played based on the specified scenario.
 
