@@ -1,5 +1,5 @@
 - name: "API reference for UWP apps"
-  href: index.md
+  href: index.yml
   items: 
   - name: "Windows Runtime (WinRT) namespaces"
     href: http://docs.microsoft.com/uwp/api/
