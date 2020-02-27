@@ -1149,15 +1149,14 @@ using *attributes*.
 
 The next example defines a **HelpAttribute** attribute, which can be
 placed on program entities to provide links to their associated
-documentation.
+documentation. As you can see, an attribute is essentially a struct type, so it doesn't have a constructor, and contains only data members.
 
 ```idl
-[attributeusage(target_runtimeclass_member)]
+[attributeusage(target_runtimeclass, target_event, target_method, target_property)]
 attribute HelpAttribute
 {
-    HelpAttribute(String classUri);
-    String ClassUri { get; };
-    String MemberTopic { get; set; };
+    String ClassUri;
+    String MemberTopic;
 }
 ```
 
@@ -1168,11 +1167,11 @@ name can be omitted when the attribute is referenced. For example, the
 **HelpAttribute** attribute can be used like this.
 
 ```idl
-[Help("https://docs.contoso.com/.../Widget")]
-runtimeclass Widget
+[Help("https://docs.contoso.com/.../BookSku", "BookSku class")]
+runtimeclass BookSku : Windows.UI.Xaml.Data.INotifyPropertyChanged
 {
-    [Help("https://docs.contoso.com/.../Widget", MemberTopic="Display")]
-    void Display(String text);
+    [Help("https://docs.contoso.com/.../BookSku_Title", "Title method")]
+    String Title;
 }
 ```
 
@@ -1184,7 +1183,7 @@ the declarations to which the attribute applies.
 ```idl
 runtimeclass Widget
 {
-    [Custom()]
+    [Help("https://docs.contoso.com/.../Widget", "Widget members")]
     {
         void Display(String text);
         void Print();
@@ -1195,7 +1194,7 @@ runtimeclass Widget
 
 Attributes implemented as part of Windows itself are usually in the **Windows.Foundation** namespace.
 
-As shown in the first example, you use the `[attributeusage(<target>)]` attribute on your attribute definition. Valid target values are `target_all`, `target_delegate`, `target_enum`, `target_event`, `target_field`, `target_interface`, `target_method`, `target_parameter`, `target_property`, `target_runtimeclass`, `target_runtimeclass_member`, and `target_struct`. You can include multiple targets within the parentheses, separated by commas.
+As shown in the first example, you use the `[attributeusage(<target>)]` attribute on your attribute definition. Valid target values are `target_all`, `target_delegate`, `target_enum`, `target_event`, `target_field`, `target_interface`, `target_method`, `target_parameter`, `target_property`, `target_runtimeclass`, and `target_struct`. You can include multiple targets within the parentheses, separated by commas.
 
 Other attributes you can apply to an attribute are `[allowmultiple]` and `[attributename("<name>")]`.
 
