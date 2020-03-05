@@ -15,6 +15,9 @@ ms.workload: ["cplusplus"]
 
 The template for the [**winrt::handle**](handle.md) and [**winrt::file_handle**](file-handle.md) structs, among others.
 
+> [!NOTE]
+> You can define your own handle traits (see, for example, **handle_traits** or **file_handle_traits** in `\cppwinrt\winrt\base.h`), and use them with **winrt::handle_type** as `typename T`. Copy one of those examples from `base.h` into your own source code file, and provide your own handle type and implementation. There are more details in the MSDN Magazine article [Windows with C++](/archive/msdn-magazine/2011/july/msdn-magazine-windows-with-c-c-and-the-windows-api).
+
 ## Syntax
 ```cppwinrt
 template <typename T>
