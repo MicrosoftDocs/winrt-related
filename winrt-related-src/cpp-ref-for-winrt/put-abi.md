@@ -13,7 +13,7 @@ ms.workload: ["cplusplus"]
 
 # winrt::put_abi function (C++/WinRT)
 
-A helper function that retrieves the address of a [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) object's underlying [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) pointer so that it can be set to another value.
+A helper function that retrieves the address of a [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) object's underlying [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) pointer so that it can be set to another value.
 
 ## Syntax
 ```cppwinrt

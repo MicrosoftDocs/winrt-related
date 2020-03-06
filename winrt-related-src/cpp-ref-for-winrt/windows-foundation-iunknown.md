@@ -13,7 +13,7 @@ ms.workload: ["cplusplus"]
 
 # winrt::Windows::Foundation::IUnknown struct (C++/WinRT)
 
-Every C++/WinRT runtime class (whether a Windows or a third party runtime class) derives from **winrt::Windows::Foundation::IUnknown**. It represents the COM [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) interface, and it provides facilities such as querying for a different interface, abi functions, and comparison operators.
+Every C++/WinRT runtime class (whether a Windows or a third party runtime class) derives from **winrt::Windows::Foundation::IUnknown**. It represents the COM [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface, and it provides facilities such as querying for a different interface, abi functions, and comparison operators.
 
 ## Syntax
 ```cppwinrt
@@ -50,10 +50,10 @@ struct IUnknown
 |[attach_abi function](#attach_abi-function)|Attaches an **IUnknown** object to a raw pointer that owns a reference to its target; an additional reference is not added.|
 |[copy_from_abi function](#copy_from_abi-function)|Copies to an **IUnknown** object from another pointer. Decrements the reference count on any currently referenced interface or object, copies the raw pointer parameter, and begins managing the lifetime of the interface or object pointed to by it.|
 |[copy_to_abi function](#copy_to_abi-function)|Copies to another pointer from an **IUnknown** object. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter.|
-|[detach_abi function](#detach_abi-function)|Detaches from the raw [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) without decrementing the reference count, perhaps to return it to a caller.|
-|[get_abi function](#get_abi-function)|Returns the underlying raw [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) pointer should you need to pass it to a function.|
-|[get_unknown function](#get_unknown-function)|Returns the address of the underlying raw [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) as a pointer to **IUnknown**; this function helps you call methods (such as COM methods) that expect a pointer to **IUnknown**.|
-|[put_abi function](#put_abi-function)|Returns the address of the underlying raw [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) pointer as a pointer to a pointer to **void**; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer to **void**.|
+|[detach_abi function](#detach_abi-function)|Detaches from the raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) without decrementing the reference count, perhaps to return it to a caller.|
+|[get_abi function](#get_abi-function)|Returns the underlying raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) pointer should you need to pass it to a function.|
+|[get_unknown function](#get_unknown-function)|Returns the address of the underlying raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) as a pointer to **IUnknown**; this function helps you call methods (such as COM methods) that expect a pointer to **IUnknown**.|
+|[put_abi function](#put_abi-function)|Returns the address of the underlying raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) pointer as a pointer to a pointer to **void**; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer to **void**.|
 |[swap function](#swap-function)|Swaps the contents of the two **IUnknown** parameters so that they point at one another's target.|
 
 ## Free operators
@@ -180,7 +180,7 @@ An **IUnknown** value to operate on.
 A raw pointer to a target whose lifetime should be managed by the **IUnknown** object.
 
 ## copy_to_abi function
-Copies to another pointer from an **IUnknown** object. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter. This function lets you hand out a reference to the same interface without calling [QueryInterface](https://msdn.microsoft.com/library/windows/desktop/ms682521).
+Copies to another pointer from an **IUnknown** object. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter. This function lets you hand out a reference to the same interface without calling [QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)).
 
 ### Syntax
 ```cppwinrt
@@ -195,7 +195,7 @@ An **IUnknown** value to operate on.
 A raw pointer reference; via which to copy the pointer to the **IUnknown** object's target.
 
 ## detach_abi function
-Detaches an **IUnknown** object from its raw [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) without decrementing the reference count, perhaps to return it to a caller.
+Detaches an **IUnknown** object from its raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) without decrementing the reference count, perhaps to return it to a caller.
 
 ### Syntax
 ```cppwinrt
@@ -208,10 +208,10 @@ void* detach_abi(winrt::Windows::Foundation::IUnknown&& object) noexcept;
 An **IUnknown** value to operate on.
 
 ### Return value
-A pointer to the raw [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) referenced by the **IUnknown** object.
+A pointer to the raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) referenced by the **IUnknown** object.
 
 ## get_abi function
-Returns the underlying raw [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) pointer should you need to pass it to a function. You may call [AddRef](https://msdn.microsoft.com/library/windows/desktop/ms691379), [Release](https://msdn.microsoft.com/library/windows/desktop/ms682317), or [QueryInterface](https://msdn.microsoft.com/library/windows/desktop/ms682521) on the returned pointer.
+Returns the underlying raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) pointer should you need to pass it to a function. You may call [AddRef](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref), [Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release), or [QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) on the returned pointer.
 
 ### Syntax
 ```cppwinrt
@@ -223,10 +223,10 @@ void* get_abi(winrt::Windows::Foundation::IUnknown const& object) noexcept;
 An **IUnknown** value to operate on.
 
 ### Return value 
-A pointer to the raw [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) referenced by the **IUnknown** object.
+A pointer to the raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) referenced by the **IUnknown** object.
 
 ## get_unknown function
-Returns the address of the underlying raw [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) as a pointer to **IUnknown**; this function helps you call methods (such as COM methods) that expect a pointer to **IUnknown**.
+Returns the address of the underlying raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) as a pointer to **IUnknown**; this function helps you call methods (such as COM methods) that expect a pointer to **IUnknown**.
 
 ### Syntax
 ```cppwinrt
@@ -238,7 +238,7 @@ Returns the address of the underlying raw [IUnknown interface](https://msdn.micr
 An **IUnknown** value to operate on.
 
 ### Return value 
-The address of the underlying raw [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) as a pointer to **IUnknown**.
+The address of the underlying raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) as a pointer to **IUnknown**.
 
 ## operator!= (inequality operator)
 Returns a value indicating whether the two parameters refer to different targets.
@@ -331,7 +331,7 @@ An **IUnknown** value whose target's memory address to compare with that of the 
 `true` if the first parameter's target's memory address is greater than or equal to that of the second parameter, otherwise `false`.
 
 ## put_abi function
-Returns the address of the underlying raw [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) pointer as a pointer to a pointer to **void**; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer to **void**.
+Returns the address of the underlying raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) pointer as a pointer to a pointer to **void**; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer to **void**.
 
 ### Syntax
 ```cppwinrt
@@ -343,7 +343,7 @@ void** put_abi(winrt::Windows::Foundation::IUnknown& object) noexcept;
 An **IUnknown** value to operate on.
 
 ### Return value 
-The address of the underlying raw [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509) pointer.
+The address of the underlying raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) pointer.
 
 ## swap function
 Swaps the contents of the two **IUnknown** parameters so that they point at one another's target.

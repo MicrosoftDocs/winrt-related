@@ -198,7 +198,7 @@ void copy_from(T* other) noexcept;
 A raw pointer to a target whose lifetime should be managed by the **com_ptr** object.
 
 ## com_ptr::copy_to function
-Copies to another pointer from the **com_ptr** object. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter. This function lets you hand out a reference to the same interface without calling [QueryInterface](https://msdn.microsoft.com/library/windows/desktop/ms682521).
+Copies to another pointer from the **com_ptr** object. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter. This function lets you hand out a reference to the same interface without calling [QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)).
 
 ### Syntax
 ```cppwinrt
@@ -221,7 +221,7 @@ T* detach() noexcept;
 A pointer to the interface or object referenced by the **com_ptr** object.
 
 ## com_ptr::get function
-Returns the underlying raw pointer should you need to pass it to a function. You may call [AddRef](https://msdn.microsoft.com/library/windows/desktop/ms691379), [Release](https://msdn.microsoft.com/library/windows/desktop/ms682317), or [QueryInterface](https://msdn.microsoft.com/library/windows/desktop/ms682521) on the returned pointer.
+Returns the underlying raw pointer should you need to pass it to a function. You may call [AddRef](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref), [Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release), or [QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) on the returned pointer.
 
 ### Syntax
 ```cppwinrt
@@ -317,7 +317,7 @@ A **com_ptr** value to assign to the **com_ptr** object. The parameter's **T** m
 A reference to the **com_ptr** object.
 
 ## com_ptr::operator-> (arrow operator)
-To afford access to the referenced interface or object's methods, returns the underlying raw pointer. You may not call [AddRef](https://msdn.microsoft.com/library/windows/desktop/ms691379) nor [Release](https://msdn.microsoft.com/library/windows/desktop/ms682317) on the returned pointer, but you may call [QueryInterface](https://msdn.microsoft.com/library/windows/desktop/ms682521).
+To afford access to the referenced interface or object's methods, returns the underlying raw pointer. You may not call [AddRef](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) nor [Release](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) on the returned pointer, but you may call [QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)).
 
 ### Syntax
 ```cppwinrt

@@ -38,7 +38,7 @@ namespace PhotoEditor
 Note that the syntax of MIDL 3.0 is specifically and solely designed for *defining* types. You'll use a different programming language to *implement* those types. To use MIDL 3.0, you'll need Windows SDK version 10.0.17134.0 (Windows 10, version 1803) (`midl.exe` version 8.01.0622 or later, used with the `/winrt` switch).
 
 ## MIDL 1.0, 2.0, and 3.0
-Interface Definition Language (IDL) began with the Distributed Computing Environment/Remote Procedure Calls (DCE/RPC) system. The original [MIDL 1.0](https://msdn.microsoft.com/library/windows/desktop/aa367091) is DCE/RPC IDL with enhancements for defining COM interfaces and coclasses.
+Interface Definition Language (IDL) began with the Distributed Computing Environment/Remote Procedure Calls (DCE/RPC) system. The original [MIDL 1.0](/windows/win32/midl/midl-start-page) is DCE/RPC IDL with enhancements for defining COM interfaces and coclasses.
 
 An updated MIDL 2.0 syntax (also known as MIDLRT) was then developed within Microsoft to declare Windows Runtime APIs for the Windows platform. If you look in the Windows SDK folder `%WindowsSdkDir%Include<WindowsTargetPlatformVersion>\winrt` then you'll see examples of `.idl` files that are written with the MIDL 2.0 syntax. These are built-in Windows Runtime APIs, declared in their application binary interface (ABI) form. These files exist primarily for tooling to use&mdash;you won't author nor consume these APIs in this form (unless you're writing very low-level code).
 
@@ -348,7 +348,7 @@ An *attribute* type defines a Windows Runtime attribute that can be applied to o
 
 A *struct* type defines a Windows Runtime structure that contains data members. Structs are value types, and they do not require heap allocation. A data member of a struct type must either be a value type or a nullable type. Struct types do not support inheritance.
 
-An *interface* type defines a Windows Runtime interface, which is a named set of function members. An interface may specify that an implementation of the interface must also implement of one or more specified additional (required) interfaces. Every interface type directly derives from the Windows Runtime [**IInspectable**](https://msdn.microsoft.com/library/br205821) interface.
+An *interface* type defines a Windows Runtime interface, which is a named set of function members. An interface may specify that an implementation of the interface must also implement of one or more specified additional (required) interfaces. Every interface type directly derives from the Windows Runtime [**IInspectable**](/windows/win32/api/inspectable/nn-inspectable-iinspectable) interface.
 
 A *runtimeclass* type defines a Windows Runtime class (runtime class). A runtime class contains members that can be properties, methods, and events.
 
@@ -366,7 +366,7 @@ You don't need to declare a single-dimensional array before you can use it. Inst
 
 Similarly, *nullable* value types also do not have to be defined before they can be used. For each non-nullable value type **T** (except **String**), there's a corresponding nullable type **Windows.Foundation.IReference&lt;T&gt;**, which can hold the additional value `null`. For instance, **Windows.Foundation.IReference&lt;Int32&gt;** is a type that can hold any 32-bit integer, or the value `null`. Also see [**IReference&lt;T&gt;**](/uwp/api/windows.foundation.ireference_t_).
 
-Finally, MIDL 3.0 supports the **Object** type, which maps to the Windows Runtime [**IInspectable**](https://msdn.microsoft.com/library/br205821) interface. The *interface* and *runtimeclass* reference types conceptually derive from the **Object** type; *delegate* does not.
+Finally, MIDL 3.0 supports the **Object** type, which maps to the Windows Runtime [**IInspectable**](/windows/win32/api/inspectable/nn-inspectable-iinspectable) interface. The *interface* and *runtimeclass* reference types conceptually derive from the **Object** type; *delegate* does not.
 
 ### Expressions in an enumerated value
 With MIDL 3.0, you can only use an *expression* in the definition of the value of an enumerated type's named constants; in other words, in an enumeration initializer.
@@ -539,7 +539,7 @@ public. That's why MIDL 3.0 doesn't require nor allow the (effectively
 redundant) `public` keyword.
 
 ### Base classes
-A class definition may specify a base class by following the class name and type parameters with a colon and the name of the base class. Omitting a base class specification is the same as deriving from type **Object** (in other words, from [**IInspectable**](https://msdn.microsoft.com/library/br205821)).
+A class definition may specify a base class by following the class name and type parameters with a colon and the name of the base class. Omitting a base class specification is the same as deriving from type **Object** (in other words, from [**IInspectable**](/windows/win32/api/inspectable/nn-inspectable-iinspectable)).
 
 > [!NOTE]
 > Your view model classes&mdash;in fact, any runtime class that you define in your application&mdash;need not derive from a base class.

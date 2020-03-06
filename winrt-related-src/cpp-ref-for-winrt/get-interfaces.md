@@ -12,7 +12,7 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::get_interfaces function (C++/WinRT)
-A helper function that retrieves an array containing the identifiers of the interfaces that are implemented by a [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) object. These are the same identifiers that are returned from a call to [**IInspectable::GetIids**](https://msdn.microsoft.com/library/br205822).
+A helper function that retrieves an array containing the identifiers of the interfaces that are implemented by a [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) object. These are the same identifiers that are returned from a call to [**IInspectable::GetIids**](/windows/win32/api/inspectable/nf-inspectable-iinspectable-getiids).
 
 Also see the [implements::find_interface](/uwp/cpp-ref-for-winrt/implements#implementsfind_interface-function) and [implements::get_local_iids](/uwp/cpp-ref-for-winrt/implements#implementsget_local_iids-function) functions.
 
@@ -40,4 +40,4 @@ A [**winrt::com_array**](com-array.md) containing the interface identifiers.
 * [winrt::com_array struct template](com-ptr.md)
 * [winrt::implements::find_interface member function](/uwp/cpp-ref-for-winrt/implements#implementsfind_interface-function)
 * [winrt::implements::get_local_iids member function](/uwp/cpp-ref-for-winrt/implements#implementsget_local_iids-function) 
-* [IInspectable::GetIids](https://msdn.microsoft.com/library/br205822)
+* [IInspectable::GetIids](/windows/win32/api/inspectable/nf-inspectable-iinspectable-getiids)
