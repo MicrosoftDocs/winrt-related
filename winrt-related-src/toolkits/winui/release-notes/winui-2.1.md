@@ -21,36 +21,46 @@ WinUI is an open source project hosted on GitHub. We welcome bug reports, featur
 
 ## What's new in this release
 
-[ItemsRepeater](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/items-repeater)
+### ItemsRepeater
+
+Use an ItemsRepeater to create custom collection experiences using a flexible layout system, custom views, and virtualization.
+Unlike ListView, ItemsRepeater does not provide a comprehensive end-user experience – it has no default UI and provides no policy around focus, selection, or user interaction. Instead, it's a building block that you can use to create your own unique collection-based experiences and custom controls. It supports building of richer and more performant experiences.
 
 ![Example](../images/ItemsRepeater%20-%20MSN%20News.gif)
 
-Use an ItemsRepeater to create custom collection experiences using a flexible layout system, custom views, and virtualization.
-Unlike ListView, ItemsRepeater does not provide a comprehensive end-user experience – it has no default UI and provides no policy around focus, selection, or user interaction. Instead, it’s a building block that you can use to create your own unique collection-based experiences and custom controls. It supports building of richer and more performant experiences.
+[Documentation](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/items-repeater)
 
-[AnimatedVisualPlayer](https://docs.microsoft.com/windows/communitytoolkit/animations/lottie)
-
-![Example](../images/AnimatedVisualPlayerUpdated.gif)
+### AnimatedVisualPlayer
 
 The AnimatedVisualPlayer hosts and controls playback of animated visuals, enabling you to add high performance custom motion graphics to your app. For instance, the AnimatedVisualPlayer is used to display and control Lottie animations.
 
-[TeachingTip](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/dialogs-and-flyouts/teaching-tip)
+![Example](../images/AnimatedVisualPlayerUpdated.gif)
 
-![Example](../images/TeachingTipUpdated.gif)
+[Documentation](https://docs.microsoft.com/windows/communitytoolkit/animations/lottie)
+
+### TeachingTip
 
 TeachingTip provides an engaging and Fluent way for applications to guide and inform users with non-invasive and content-rich tips. TeachingTip can bring focus to new or important features, teach users how to perform tasks, and enhance workflow by providing contextually relevant information to your task at hand.
 
-[RadioMenuFlyoutItem](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/menus#create-a-menu-flyout-or-a-context-menu)
+![Example](../images/TeachingTipUpdated.gif)
+
+[Documentation](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/dialogs-and-flyouts/teaching-tip)
+
+### RadioMenuFlyoutItem
+
+Includes the ability to have 'Radio Button' style options in a MenuBar. This enables groups of options with bullets that are tied together like a radio button group. The logic is handled for the developer.
 
 ![Example](../images/RadioMenuFlyoutItem1.png)
 
-It is the ability to have 'Radio Button' style options in a MenuBar. This allows for groups of options with bullets which are tied together like a radio button group. The logic is handled for the developer.
+[Documentation](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/menus#create-a-menu-flyout-or-a-context-menu)
 
-[CompactDensity](https://docs.microsoft.com/windows/uwp/design/style/spacing )
+### CompactDensity
+
+Compact mode enables developers to create comfortable experiences for any number of scenarios. Simply by adding a resource dictionary your application can fit on average ~33% more UI.
 
 ![Compact Density Example](../images/CompactDensityUpdated.png)
 
-Compact mode enable developers to create comfortable experiences for any number of scenarios. Simply by adding a resource dictionary your application can fit on average ~33% more UI.
+[Documentation](https://docs.microsoft.com/windows/uwp/design/style/spacing )
 
 ### Shadows
 
