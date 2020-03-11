@@ -21,6 +21,22 @@ WinUI includes two NuGet packages:
 
 You can download and use WinUI packages in your app using the NuGet package manager: see [Getting Started with the Windows UI Library](https://docs.microsoft.com/uwp/toolkits/winui/getting-started) for more information.
 
+## Examples
+
+The Xaml Controls Gallery sample app includes interactive demos and sample code for using WinUI controls.
+
+* Install the XAML Controls Gallery app from the [Microsoft Store](
+https://www.microsoft.com/p/xaml-controls-gallery/9msvh128x2zt)
+
+* The Xaml Controls Gallery is also [open source on GitHub](
+https://github.com/Microsoft/Xaml-Controls-Gallery)
+
+## Documentation
+
+How-to articles for Windows UI Library controls are included with the [Universal Windows Platform controls documentation](/windows/uwp/design/controls-and-patterns/).
+
+API reference docs are located here: [Windows UI Library APIs](/uwp/api/overview/winui/).
+
 ## Version History
 
 Version history for the main [Microsoft.UI.Xaml NuGet package](https://www.nuget.org/packages/Microsoft.UI.Xaml):

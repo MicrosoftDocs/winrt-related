@@ -70,6 +70,22 @@ Creating a visual hierarchy of elements in your UI makes the UI easy to scan and
 
 With Windows 10 May 2019 Update, many of our common controls add elevation by using z-depth and shadow by default. The NavigationView and TeachingTip controls in WinUI 2.1 will also have default shadows when running on an OS with Windows 10 May 2019 Update. The full list of controls that have default shadows and how to use additional APIs will be available once the Windows 10 May 2019 Update is released and the link will be posted here.
 
+## Examples
+
+The Xaml Controls Gallery sample app includes interactive demos and sample code for using WinUI controls.
+
+* Install the XAML Controls Gallery app from the [Microsoft Store](
+https://www.microsoft.com/p/xaml-controls-gallery/9msvh128x2zt)
+
+* The Xaml Controls Gallery is also [open source on GitHub](
+https://github.com/Microsoft/Xaml-Controls-Gallery)
+
+## Documentation
+
+How-to articles for Windows UI Library controls are included with the [Universal Windows Platform controls documentation](/windows/uwp/design/controls-and-patterns/).
+
+API reference docs are located here: [Windows UI Library APIs](/uwp/api/overview/winui/).
+
 ## Microsoft.UI.Xaml 2.1 Version History
 
 ### Microsoft.UI.Xaml 2.1 Official release
