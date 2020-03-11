@@ -127,6 +127,24 @@ CheckBox and RadioButton visuals were updated to be consistent with the rest of 
 ##### GitHub Spec Link: 
 https://github.com/microsoft/microsoft-ui-xaml/issues/839
 
+## Examples
+
+The Xaml Controls Gallery sample app includes interactive demos and sample code for using WinUI controls.
+
+* Install the XAML Controls Gallery app from the [Microsoft Store](
+https://www.microsoft.com/p/xaml-controls-gallery/9msvh128x2zt)
+
+* The Xaml Controls Gallery is also [open source on GitHub](
+https://github.com/Microsoft/Xaml-Controls-Gallery)
+
+## Documentation
+
+How-to articles for Windows UI Library controls are included with the [Universal Windows Platform controls documentation](/windows/uwp/design/controls-and-patterns/).
+
+API reference docs are located here: [Windows UI Library APIs](/uwp/api/overview/winui/).
+
+## Microsoft.UI.Xaml 2.2 Version History
+
 ### Microsoft.UI.Xaml 2.2.190702001-prerelease
 
 July 2019
