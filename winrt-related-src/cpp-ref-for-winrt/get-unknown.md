@@ -56,6 +56,8 @@ HRESULT FunctionThatExpectsAnIUnknown(::IUnknown * pUnk);
 ...
 struct MyRuntimeClass : winrt::implements<MyRuntimeClass, IMyCOMInterface>
 {
+    ...
+
     HRESULT MyRuntimeClass::MemberFunction()
     {
         return FunctionThatExpectsAnIUnknown(this);
