@@ -87,6 +87,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [get_progress_token function](get-progress-token.md) | In a coroutine, use the object returned by **winrt::get_progress_token** to report progress back to a progress handler. |
 | [get_self function template](get-self.md) | A helper function which, given an object of a projected type, retrieves a pointer to the implementation. |
 | [get_trust_level function](get-trust-level.md) | A helper function that retrieves the trust level of a C++/WinRT object. |
+| [get_unknown function](get-unknown.md) | A helper function that returns the address of the underlying raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) of an object of a projected type. |
 | [guid_of function template](guid-of.md) | A helper function template that retrieves the GUID of a runtime class, coclass, or interface. |
 | [make function template](make.md) | A factory method that returns an instance of a projected type or interface when parameterized with the corresponding implementation type. |
 | [make_agile function template](make-agile.md) | A helper function that returns an [agile_ref](agile-ref.md) object, representing an agile reference to a C++/WinRT object or interface. |

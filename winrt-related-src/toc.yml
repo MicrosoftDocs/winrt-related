@@ -2140,6 +2140,8 @@
       href: cpp-ref-for-winrt/get-self.md
     - name: "get_trust_level function"
       href: cpp-ref-for-winrt/get-trust-level.md
+    - name: "get_unknown function"
+      href: cpp-ref-for-winrt/get-unknown.md
     - name: "GetRuntimeClassName function"
       href: cpp-ref-for-winrt/getruntimeclassname.md
     - name: "guid_of function template"

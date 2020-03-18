@@ -52,7 +52,6 @@ struct IUnknown
 |[copy_to_abi function](#copy_to_abi-function)|Copies to another pointer from an **IUnknown** object. Increments the reference count on any currently referenced interface or object, and copies that interface or object's memory address into the parameter.|
 |[detach_abi function](#detach_abi-function)|Detaches from the raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) without decrementing the reference count, perhaps to return it to a caller.|
 |[get_abi function](#get_abi-function)|Returns the underlying raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) pointer should you need to pass it to a function.|
-|[get_unknown function](#get_unknown-function)|Returns the address of the underlying raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) as a pointer to **IUnknown**; this function helps you call methods (such as COM methods) that expect a pointer to **IUnknown**.|
 |[put_abi function](#put_abi-function)|Returns the address of the underlying raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) pointer as a pointer to a pointer to **void**; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer to **void**.|
 |[swap function](#swap-function)|Swaps the contents of the two **IUnknown** parameters so that they point at one another's target.|
 
@@ -224,21 +223,6 @@ An **IUnknown** value to operate on.
 
 ### Return value 
 A pointer to the raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) referenced by the **IUnknown** object.
-
-## get_unknown function
-Returns the address of the underlying raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) as a pointer to **IUnknown**; this function helps you call methods (such as COM methods) that expect a pointer to **IUnknown**.
-
-### Syntax
-```cppwinrt
-::IUnknown* get_unknown(winrt::Windows::Foundation::IUnknown const& object) noexcept;
-```
-
-### Parameters
-`object`
-An **IUnknown** value to operate on.
-
-### Return value 
-The address of the underlying raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) as a pointer to **IUnknown**.
 
 ## operator!= (inequality operator)
 Returns a value indicating whether the two parameters refer to different targets.
