@@ -3,11 +3,7 @@ Description: Declares an extensibility point for the package.
 Search.Product: eADQiWindows 10XVcnh
 title: Extension (in Package/Extensions) (Windows 10)
 ms.assetid: 72f0d1ae-15a4-4eba-a3ca-990f4de2b697
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 04/10/2018
 ---
@@ -32,7 +28,11 @@ Declares an extensibility point for the package.
 ## Syntax
 
 ``` syntax
-<Extension Category = "windows.activatableClass.inProcessServer" | "windows.activatableClass.outOfProcessServer" | "windows.activatableClass.proxyStub" | "windows.certificates" | "windows.publisherCacheFolders" | "windows.comInterface" | "windows.loaderSearchPathOverride">
+<Extension Category = "windows.activatableClass.inProcessServer" | "windows.activatableClass.outOfProcessServer" | "windows.activatableClass.proxyStub" | "windows.certificates" | "windows.publisherCacheFolders" | "windows.comInterface" | "windows.loaderSearchPathOverride"
+           uap10:TrustLevel?       = String value. Can be one of the following: "appContainer", "mediumIL".
+           uap10:RuntimeBehavior?  = String value. Can be one of the following: "windowsApp", "packagedClassicApp", "win32App".
+           uap10:HostId?           = An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.
+           uap10:Parameters?       = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. >
 
   <!-- Child elements -->
   ( InProcessServer
@@ -84,6 +84,34 @@ Declares an extensibility point for the package.
 <li>windows.loaderSearchPathOverride</li>
 </ul></td>
 <td>Yes</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>uap10:TrustLevel</strong></td>
+<td><p>Specifies the trust level of the extension. </p></td>
+<td>String value. Can be one of the following: "appContainer", "mediumIL". </td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>uap10:RuntimeBehavior</strong></td>
+<td><p>Specifies the run time behavior of the extension. </p></td>
+<td>String value. Can be one of the following: "windowsApp", "packagedClassicApp", "win32App". </td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>uap10:HostId</strong></td>
+<td><p>This value specifies the app ID of the host app for the extension. </p></td>
+<td>An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.</td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>uap10:Parameters</strong></td>
+<td><p>Contains command line parameters for the extension.</p></td>
+<td>A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. </td>
+<td>No</td>
 <td></td>
 </tr>
 </tbody>
@@ -182,22 +210,6 @@ The **windows.certificates** extensibility point can't be declared multiple time
 
 ## Requirements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>http://schemas.microsoft.com/appx/manifest/foundation/windows10</p></td>
-</tr>
-</tbody>
-</table>
-
- 
-
- 
-
-
-
+|   |   |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/foundation/windows10`<br/><br/>`http://schemas.microsoft.com/appx/manifest/uap/windows10/10` (for the **uap10** attributes) |

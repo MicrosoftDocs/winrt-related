@@ -67,12 +67,17 @@ Declares an extensibility point for the app.
                 StartPage?     = A string between 1 and 256 characters in length that 
                                  cannot contain these characters: <, >, :, ", |, ?, or *.
                 ResourceGroup? = An alphanumeric string between 1 and 255 characters in 
-                                 length. Must begin with an alphabetic character. >
+                                 length. Must begin with an alphabetic character. .
+                uap10:TrustLevel?       = String value. Can be one of the following: "appContainer", "mediumIL".
+                uap10:RuntimeBehavior?  = String value. Can be one of the following: "windowsApp", "packagedClassicApp", "win32App".
+                uap10:HostId?           = An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.
+                uap10:Parameters?       = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. >
   <!-- Child elements -->
   ( uap3:appointmentDataProvider
   | uap3:emailDataProvider
   | uap3:contactDataProvider
   | uap3:appUriHandler
+  | uap3:appExecutionAlias
   )?
 
 </uap3:Extension>
@@ -116,6 +121,7 @@ Declares an extensibility point for the app.
 <li>windows.appUriHandler</li>
 <li>windows.appExtensionHost</li>
 <li>windows.appExtension</li>
+<li>windows.app.ExecutionAlias</li>
 </ul></td>
 <td>Yes</td>
 <td></td>
@@ -155,10 +161,37 @@ Declares an extensibility point for the app.
 <td>No</td>
 <td></td>
 </tr>
+<tr class="even">
+<td><strong>uap10:TrustLevel</strong></td>
+<td><p>Specifies the trust level of the extension.</p></td>
+<td>String value. Can be one of the following: "appContainer", "mediumIL". </td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>uap10:RuntimeBehavior</strong></td>
+<td><p>Specifies the run time behavior of the extension.</p></td>
+<td>String value. Can be one of the following: "windowsApp", "packagedClassicApp", "win32App". </td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>uap10:HostId</strong></td>
+<td><p>This value specifies the app ID of the host app for the extension.</p></td>
+<td>An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.</td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>uap10:Parameters</strong></td>
+<td><p>Contains command line parameters to pass to the extension. Only supported for desktop apps that have package identity.</p></td>
+<td>A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. </td>
+<td>No</td>
+<td></td>
+</tr>
 </tbody>
 </table>
 
- 
 
 **Child Elements**
 
@@ -170,6 +203,7 @@ Declares an extensibility point for the app.
 | [**uap3:AppUriHandler**](element-uap3-appurihandler-manual.md)                     | Declares an app extensibility point of type **windows.appUriHandler**.           |
 | [**uap3:AppExtensionHost**](element-uap3-appextensionhost-manual.md)               | Declares an app extensibility point of type **windows.appExtensionHost**.        |
 | [**uap3:AppExtension**](element-uap3-appextension-manual.md)                       | Declares an app extensibility point of type **windows.appExtension**.            |
+| [**uap3:AppExeuctionAlias**](element-uap3-appexecutionalias.md)                       | Declares an app extensibility point of type **windows.appExecutionAlias**.            |
 
  
 
@@ -204,9 +238,9 @@ Declares an extensibility point for the app.
 ## Requirements
 
 
-|               |                                                            |
-|---------------|------------------------------------------------------------|
-| **Namespace** | http://schemas.microsoft.com/appx/manifest/uap/windows10/3 |
+|               |                                                             |
+|---------------|-------------------------------------------------------------|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3`<br/><br/>`http://schemas.microsoft.com/appx/manifest/uap/windows10/10` (for the **uap10** attributes) |
 
  
 

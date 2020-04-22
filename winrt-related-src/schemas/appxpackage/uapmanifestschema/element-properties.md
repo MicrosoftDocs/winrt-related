@@ -44,6 +44,7 @@ Defines additional metadata about the package including attributes that describe
   & desktop6:FileSystemWriteVirtualization?
   & desktop6:RegistryWriteVirtualization?
   & rescap6:ModificationPackage?
+  & uap10:AllowExternalContent?
   & uap10:PackageIntegrity?
   )
 
@@ -121,6 +122,10 @@ None.
 <td><p>Declares that the current package is a modification package for an enterprise application.</p></td>
 </tr>
 <tr class="even">
+<td><a href="element-uap10-allowexternalcontent.md">uap10:AllowExternalContent</a> </td>
+<td><p>Enables your package manifest to reference content outside the package, in a specific location on disk, for [sparse package](https://docs.microsoft.com/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps) scenarios.</p></td>
+</tr>
+<tr class="even">
 <td><a href="element-uap10-packageintegrity.md">uap10:PackageIntegrity</a> </td>
 <td><p>Specifies the level of run time package integrity checks and remediation for the package.</p></td>
 </tr>
@@ -174,18 +179,10 @@ The following example is taken from the package manifest of one of the SDK sampl
 
 ## Requirements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>http://schemas.microsoft.com/appx/manifest/foundation/windows10</p></td>
-</tr>
-</tbody>
-</table>
+|   |   |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+
 
  
 

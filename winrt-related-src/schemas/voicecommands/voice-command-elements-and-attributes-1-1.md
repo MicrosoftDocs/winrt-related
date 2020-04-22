@@ -20,19 +20,18 @@ Use voice commands to launch an app and specify an action or command to execute.
 
 As with any XML file, a VCD file should begin with an XML declaration that specifies both the XML version and the character encoding.
 
-> [!NOTE]
-> Visual Studio includes this by default in new XML files.
-
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 ```
+
+The root element is the **VoiceCommands** element, and its **xmlns** attribute must be set to `http://schemas.microsoft.com/voicecommands/1.1` (no uppercase characters). For an example that conforms to this schema, see the [Cortana Voice Command sample](https://github.com/microsoft/Windows-universal-samples/blob/master/Samples/CortanaVoiceCommand/shared/AdventureWorksCommands.xml).
 
 <table>
 <tr>
 <th colspan="2">Element</th><th>Description</th>
 </tr>
 <tr><td colspan="2">VoiceCommands</td>
-<td>Required. The root element of a VCD file. The value of its <strong>xmlns</strong> attribute must be <pre>http://schemas.microsoft.com/voicecommands/1.1</pre> (no uppercase characters). Contains between 1 and 15 <strong>CommandSet</strong> elements, each of which represents the voice commands for a single language.</td>
+<td>Required. The root element of a VCD file. Contains between 1 and 15 <strong>CommandSet</strong> elements, each of which represents the voice commands for a single language.</td>
 </tr>
 <tr>
 <td colspan="2">CommandSet</td>

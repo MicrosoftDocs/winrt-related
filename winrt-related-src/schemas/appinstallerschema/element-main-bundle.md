@@ -58,11 +58,6 @@ Only one of either `<MainBundle>` or `<MainPackage>` can be declared in the `<Ap
 The `<MainBundle>` element should only be used for app package bundles (.appxbundle).
 
 ## Requirements
-<table>
-    <tbody>
-        <tr>
-            <td>Namespace</td>
-            <td> http://schemas.microsoft.com/appx/appinstaller/2017 </td>
-        </tr>
-    </tbody>
-</table>
+|               |                                                             |
+|---------------|-------------------------------------------------------------|
+| **Namespace** | `http://schemas.microsoft.com/appx/appinstaller/2017` |

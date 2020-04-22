@@ -36,7 +36,13 @@ Represents an app that comprises part of or all of the functionality delivered i
              StartPage?          = Any valid URI or IRI (the non-ASCII version of a URI). See below for more details. 
              ResourceGroup?      = An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.
              desktop4:Subsystem? = String value. Can be one of the following: "console", "windows"
-             desktop4:SupportsMultipleInstances? = Boolean. >
+             uap10:Subsystem?    = String value. Can be one of the following: "console", "windows"
+             desktop4:SupportsMultipleInstances? = Boolean.
+             uap10:SupportsMultipleInstances? = Boolean.
+             uap10:TrustLevel?   = String value. Can be one of the following: "appContainer", "mediumIL".
+             uap10:RuntimeBehavior?  = String value. Can be one of the following: "windowsApp", "packagedClassicApp", "win32App".
+             uap10:HostId?       = An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.
+             uap10:Parameters?   = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. >
 
   <!-- Child elements -->
   ( uap:VisualElements
@@ -112,23 +118,65 @@ Represents an app that comprises part of or all of the functionality delivered i
 <tr class="odd">
 <td><strong>StartPage</strong></td>
 <td><p>The default launch HTML page for the app. This can be a relative Windows file path referencing a document in the app's package, or it can be an absolute URL (so that a web site can publish as an app in the Store). The URL can only be starting with http://, https:// or ms-appx-web://. This is the entry point document that will be loaded by WWAHost when starting a WWA for that app. </p>
-<p>Technically, the value may be a URL or an IRI—the non-ASCII version of a URI. An IRI must support up to 2084 characters and must be allowed to contain the %, and reserved and unreserved characters as described in [RFC 3986 Appendix A](https://tools.ietf.org/html/rfc3986#appendix-a).</p>
+<p>Technically, the value may be a URL or an IRI—the non-ASCII version of a URI. An IRI must support up to 2084 characters and must be allowed to contain the %, and reserved and unreserved characters as described in <a href="https://tools.ietf.org/html/rfc3986#appendix-a">RFC 3986 Appendix A</a>.</p>
 <p>If you specify this attribute, you cannot specify either the <strong>EntryPoint</strong> attribute or the <strong>Executable</strong> attribute.</p></td>
 <td>Any valid URI or IRI (the non-ASCII version of a URI).</td>
 <td>No</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><strong>uap4:Subsystem</strong></td>
-<td><p>Indicates whether the app is a standard UWP app or a UWP console app.</p></td>
-<td>String value. Can be one of the following: "console", "windows". </td>
+<td><strong>desktop4:Subsystem</strong></td>
+<td><p>Indicates whether the app is a standard UWP app or a UWP console app. </p></td>
+<td>String value. Can be one of the following: "console", "windows".</td>
 <td>No</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><strong>uap4:SupportsMultipleInstances</strong></td>
-<td><p>Indicates support of multiple, separate instances of UWP apps. For more information, see the remarks section.</p></td>
+<td><strong>uap10:Subsystem</strong></td>
+<td><p>Indicates whether the app is a standard UWP app or a UWP console app. </p></td>
+<td>String value. Can be one of the following: "console", "windows".</td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>desktop4:SupportsMultipleInstances</strong></td>
+<td><p>Indicates support of multiple, separate instances of UWP apps. For more information, see the remarks section. </code> namespace.</p></td>
 <td>Boolean value.</td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>uap10:SupportsMultipleInstances</strong></td>
+<td><p>Indicates support of multiple, separate instances of UWP apps. For more information, see the remarks section. </code> namespace.</p></td>
+<td>Boolean value.</td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>uap10:TrustLevel</strong></td>
+<td><p>Specifies the trust level of the app. This attribute is used for <a href="https://docs.microsoft.com/windows/uwp/launch-resume/hosted-apps">hosted apps</a>.</p></td>
+<td>String value. Can be one of the following: "appContainer", "mediumIL". </td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>uap10:RuntimeBehavior</strong></td>
+<td><p>Specifies the run time behavior of the app. This attribute is used for <a href="https://docs.microsoft.com/windows/uwp/launch-resume/hosted-apps">hosted apps</a>.</p></td>
+<td>String value. Can be one of the following: "windowsApp", "packagedClassicApp", "win32App". </td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>uap10:HostId</strong></td>
+<td><p>This value specifies the app ID of the host app for the current app. This attribute is used for <a href="https://docs.microsoft.com/windows/uwp/launch-resume/hosted-apps">hosted apps</a>.</p></td>
+<td>An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.</td>
+<td>No</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>uap10:Parameters</strong></td>
+<td><p>Contains command line parameters to pass to the app. Only supported for desktop apps that have package identity.</p></td>
+<td>A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. </td>
 <td>No</td>
 <td></td>
 </tr>
@@ -162,6 +210,11 @@ Represents an app that comprises part of or all of the functionality delivered i
 <tr class="odd">
 <td><a href="element-uap-visualelements.md">uap:VisualElements</a> </td>
 <td><p>Describes the visual aspects of the app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance.</p></td>
+</tr>
+</tr>
+<tr class="even">
+<td><a href="element-uap7-properties.md">uap7:Properties</a> </td>
+<td><p>Specifies properties of the app.</p></td>
 </tr>
 </tbody>
 </table>
@@ -209,22 +262,6 @@ For more information about using the **SupportsMultipleInstances** attribute to 
 
 ## Requirements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>http://schemas.microsoft.com/appx/manifest/foundation/windows10</p></td>
-</tr>
-</tbody>
-</table>
-
- 
-
- 
-
-
-
+|   |   |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10`<br/><br/>**desktop4** attributes: `http://schemas.microsoft.com/appx/manifest/desktop/windows10/4`<br/><br/>**uap10** attributes: `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |

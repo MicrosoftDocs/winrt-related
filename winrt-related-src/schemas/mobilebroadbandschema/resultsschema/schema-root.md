@@ -14,9 +14,9 @@ ms.date: 04/05/2017
 # ResultsSchema schema
 
 
-The ResultsSchema schema defines elements that are returned from a call to [**ProvisionResultsXml**](https://msdn.microsoft.com/library/windows/apps/br212048) and describe the results of the last provisioning attempt. All of the elements are in the namespace http://www.microsoft.com/networking/CarrierControlResults/v1. Not all elements are in every profile, as some elements are optional.
+The ResultsSchema schema defines elements that are returned from a call to [**ProvisionResultsXml**](https://msdn.microsoft.com/library/windows/apps/br212048) and describe the results of the last provisioning attempt. All of the elements are in the namespace `http://www.microsoft.com/networking/CarrierControlResults/v1`. Not all elements are in every profile, as some elements are optional.
 
-The [ResultsSchema\_v2](https://msdn.microsoft.com/library/windows/apps/dn394062) schema defines additional elements in the *http://www.microsoft.com/networking/CarrierControlResults/v2* namespace and is supported on Windows 8.1, Windows Server 2012 R2, and later.
+The [ResultsSchema\_v2](https://msdn.microsoft.com/library/windows/apps/dn394062) schema defines additional elements in the `http://www.microsoft.com/networking/CarrierControlResults/v2` namespace and is supported on Windows 8.1, Windows Server 2012 R2, and later.
 
 The following table lists all of the elements in this schema, sorted alphabetically by name.
 

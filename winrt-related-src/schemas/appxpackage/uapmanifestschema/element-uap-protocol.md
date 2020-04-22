@@ -47,8 +47,7 @@ Declares an app extensibility point of type **windows.protocol**. A URI associat
 ## Syntax
 
 ``` syntax
-<Protocol Name           = A string between 2 and 39 characters in length that contains numbers, lowercased letters, dots ('.'), pluses('+'), or hyphens ('-'). The string can't start with a dot ('.').
-
+<Protocol Name               = A string between 2 and 39 characters in length that contains numbers, lowercased letters, dots ('.'), pluses('+'), or hyphens ('-'). The string can't start with a dot ('.').
               DesiredView?   = "default" | "useLess" | "useHalf" | "useMore" | "useMinimum"
               ReturnResults? = "none" | "always" | "optional" >
 
@@ -208,18 +207,10 @@ The following example is taken from the package manifest of one of the SDK sampl
 
 ## Requirements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>http://schemas.microsoft.com/appx/manifest/uap/windows10</p></td>
-</tr>
-</tbody>
-</table>
+|   |   |
+|--|--|
+| Namespace | `	http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+
 
  
 

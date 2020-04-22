@@ -130,18 +130,9 @@ If processing all MBN profiles failed with the same error, this error will be sh
 
 ## Requirements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>http://www.microsoft.com/networking/CarrierControlResults/v1</p></td>
-</tr>
-</tbody>
-</table>
+|          |         |
+|----------|--------------|
+| **Namespace** | `http://www.microsoft.com/networking/CarrierControlResults/v1` |
 
  
 

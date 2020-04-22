@@ -152,6 +152,8 @@
             href: schemas/appxpackage/uapmanifestschema/element-desktop6-registrywritevirtualization.md
           - name: "rescap6:ModificationPackage"
             href: schemas/appxpackage/uapmanifestschema/element-rescap6-modificationpackage.md
+          - name: "uap10:AllowExternalContent"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-allowexternalcontent.md
           - name: "uap10:PackageIntegrity"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-packageintegrity.md
           - name: "uap10:Content"
@@ -174,6 +176,8 @@
             href: schemas/appxpackage/uapmanifestschema/element-uap5-driverconstraint.md
           - name: "uap7:OSPackageDependency"
             href: schemas/appxpackage/uapmanifestschema/element-uap7-ospackagedependency.md
+          - name: "uap10:HostRuntimeDependency"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-hostruntimedependency.md
           - name: "Capabilities"
             href: schemas/appxpackage/uapmanifestschema/element-capabilities.md
           - name: "Capability"
@@ -442,6 +446,24 @@
             href: schemas/appxpackage/uapmanifestschema/element-com-progid.md
           - name: "com:TreatAsClass"
             href: schemas/appxpackage/uapmanifestschema/element-com-treatasclass.md
+          - name: "com2:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-com2-extension.md
+          - name: "com2:ComServer"
+            href: schemas/appxpackage/uapmanifestschema/element-com2-comserver.md
+          - name: "com3:ServiceServer"
+            href: schemas/appxpackage/uapmanifestschema/element-com3-serviceserver.md
+          - name: "com3:Class"
+            href: schemas/appxpackage/uapmanifestschema/element-com3-class.md
+          - name: "com3:ExeServer"
+            href: schemas/appxpackage/uapmanifestschema/element-com3-exeserver.md
+          - name: "com3:SurrogateServer"
+            href: schemas/appxpackage/uapmanifestschema/element-com3-surrogateserver.md
+          - name: "com3:TreatAsClass"
+            href: schemas/appxpackage/uapmanifestschema/element-com3-treatasclass.md
+          - name: "com3:ProgId"
+            href: schemas/appxpackage/uapmanifestschema/element-com3-progid.md
+          - name: "com2:ComInterface"
+            href: schemas/appxpackage/uapmanifestschema/element-com2-cominterface.md
           - name: "desktop2:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-desktop2-extension.md
           - name: "desktop2:AppPrinter"
@@ -702,6 +724,12 @@
             href: schemas/appxpackage/uapmanifestschema/element-uap3-appurihandler-manual.md
           - name: "uap3:Host"
             href: schemas/appxpackage/uapmanifestschema/element-uap3-host-manual.md
+          - name: "uap3:AppExecutionAlias"
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-appexecutionalias.md
+          - name: "desktop:ExecutionAlias"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop-executionalias.md
+          - name: "uap8:ExecutionAlias"
+            href: schemas/appxpackage/uapmanifestschema/element-uap8-executionalias.md
           - name: "uap3:AppointmentDataProvider"
             href: schemas/appxpackage/uapmanifestschema/element-uap3-appointmentdataprovider-manual.md
           - name: "uap3:EmailDataProvider"
@@ -782,6 +810,10 @@
             href: schemas/appxpackage/uapmanifestschema/element-uap6-BarcodeScannerProvider.md
           - name: "uap6:LocalExperiencePack"
             href: schemas/appxpackage/uapmanifestschema/element-uap6-localexperiencepack.md
+          - name: "uap10:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-extension.md
+          - name: "uap10:HostRuntime"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-hostruntime.md
           - name: "mobile:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-mobile-extension-manual.md
           - name: "mobile:AowApp"

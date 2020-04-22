@@ -54,19 +54,11 @@ The executable of a UWP app to be activated from a command prompt.
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | Alias | The name of the UWP app executable. | An executable in the form of a string followed by ".exe". | Yes |
+| uap8:AllowOverride | A value that indicates whether to override the UWP app executable. | Boolean value. | No |
 
 
 ## Requirements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>http://schemas.microsoft.com/appx/manifest/uap/windows10/5</p></td>
-</tr>
-</tbody>
-</table>
+|   |   |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5`</br></br>`http://schemas.microsoft.com/appx/manifest/uap/windows10/8` (for the **uap8:AllowOverride** attribute) |

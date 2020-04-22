@@ -66,11 +66,6 @@ The Package element specifies the information about the package which includes n
 | [Dependencies](element-dependencies.md)           | These are dependencies that will be installed if required.            |
 
 ## Requirements
-<table>
-    <tbody>
-        <tr>
-            <td>Namespace</td>
-            <td> http://schemas.microsoft.com/appx/appinstaller/2017 </td>
-        </tr>
-    </tbody>
-</table>
+|               |                                                             |
+|---------------|-------------------------------------------------------------|
+| **Namespace** | `http://schemas.microsoft.com/appx/appinstaller/2017` |

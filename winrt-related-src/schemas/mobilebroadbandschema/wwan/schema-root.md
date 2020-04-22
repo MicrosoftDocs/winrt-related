@@ -13,7 +13,7 @@ ms.date: 04/05/2017
 # WWAN Schema
 
 
-The WWAN schema defines elements that are used to describe a subscriber's connection to a Wireless Wide Area Network (WWAN). All of the elements are in the namespace http://www.microsoft.com/networking/CarrierControl/WWAN/v1. Not all elements are in every profile, as some elements are optional.
+The WWAN schema defines elements that are used to describe a subscriber's connection to a Wireless Wide Area Network (WWAN). All of the elements are in the namespace `http://www.microsoft.com/networking/CarrierControl/WWAN/v1`. Not all elements are in every profile, as some elements are optional.
 
 The following table lists all of the elements in this schema, sorted alphabetically by name.
 

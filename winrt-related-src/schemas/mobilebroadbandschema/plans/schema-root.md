@@ -13,7 +13,7 @@ ms.date: 04/05/2017
 # Plans schema
 
 
-The Plans schema defines elements that are used to describe a subscriber's data plan on a Mobile Network Operator (MNO). All of the elements are in the namespace http://www.microsoft.com/networking/CarrierControl/Plans/v1. Not all elements are in every profile, as some elements are optional.
+The Plans schema defines elements that are used to describe a subscriber's data plan on a Mobile Network Operator (MNO). All of the elements are in the namespace `http://www.microsoft.com/networking/CarrierControl/Plans/v1`. Not all elements are in every profile, as some elements are optional.
 
 The following table lists all of the elements in this schema, sorted alphabetically by name.
 

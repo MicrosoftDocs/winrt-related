@@ -25,78 +25,23 @@ The Mobile Broadband Schema strictly enforces the order of the nodes. Nodes used
 
 ## In this section
 
-
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Topic</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><a href="base/schema-root.md">Base schema</a> </p></td>
-<td><p>The <a href="base/schema-root.md">Base</a>  schema defines elements that are used to describe basic data types used throughout the Mobile Broadband schema. It defines only simple and complex types.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="carriercontrolschema/schema-root.md">CarrierControlSchema schema</a> </p></td>
-<td><p>The <a href="carriercontrolschema/schema-root.md">CarrierControlSchema</a>  schema defines elements that are used to create the provisioning file in a call to <a href="https://msdn.microsoft.com/library/windows/apps/br207400"><strong>ProvisionFromXmlDocumentAsync</strong></a> and describe all of the settings required to authenticate and provision a subscriber's account on a Mobile Network Operator's (MNO) network. All of the elements are in the namespace http://www.microsoft.com/networking/CarrierControl/v1. Not all elements are in every profile, as some elements are optional.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="carriercontrolschema-v2/schema-root.md">CarrierControlSchema_v2 schema</a> </p></td>
-<td><p>The <a href="carriercontrolschema-v2/schema-root.md">CarrierControlSchema_v2</a>  schema defines additional elements that are used to create the provisioning file in a call to <a href="https://msdn.microsoft.com/library/windows/apps/br207400"><strong>ProvisionFromXmlDocumentAsync</strong></a> and describe additional settings required to authenticate and provision a subscriber's account on a Mobile Network Operator's (MNO) network. All of the elements are in the namespace http://www.microsoft.com/networking/CarrierControl/v2. Not all elements are in every profile, as some elements are optional.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="carriercontrolsignatureschema/schema-root.md">CarrierControlSignatureSchema schema</a> </p></td>
-<td><p>The <a href="carriercontrolsignatureschema/schema-root.md">CarrierControlSignatureSchema</a>  schema defines elements that are used to describe the signature appended to the provisioning file. It is based on the <a href="https://www.w3.org/TR/xmldsig-core/">XML DSIG</a> specification with only minor deviations that are explicitly described below. All of the elements are in the namespace http://www.w3.org/2000/09/xmldsig#. Not all elements are in every profile, as some elements are optional.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="dusm/schema-root.md">DUSM schema</a> </p></td>
-<td><p>The <a href="dusm/schema-root.md">Data Usage Subscription Management (DUSM)</a>  schema defines elements that are used to describe cost information for a subscriber's connection to a metered network. All of the elements are in the namespace http://www.microsoft.com/networking/CarrierControl/DUSM/v1. Not all elements are in every profile, as some elements are optional.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="hotspotprofile/schema-root.md">HotspotProfile schema</a> </p></td>
-<td><p>The <a href="hotspotprofile/schema-root.md">HotspotProfile</a>  schema defines elements that are used to describe login credentials for Wi-Fi hotspots that use the Wireless Internet Service Provider roaming (WISPr) protocol. All of the elements are in the namespace http://www.microsoft.com/networking/WLAN/HotspotProfile/v1. Not all elements are in every profile, as some elements are optional.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="mbae/schema-root.md">MBAE schema</a> </p></td>
-<td><p>The <a href="mbae/schema-root.md">Mobile Broadband Account Experience (MBAE)</a>  schema defines elements that are used by mobile network operators and retail partners to deliver valued added services to customers. All of the elements are in the namespace http://schemas.microsoft.com/windows/2010/12/DeviceMetadata/MobileBroadbandInfo. Not all elements are in every profile, as some elements are optional.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="plans/schema-root.md">Plans schema</a> </p></td>
-<td><p>The <a href="plans/schema-root.md">Plans</a>  schema defines elements that are used to describe a subscriber's data plan on a Mobile Network Operator (MNO). All of the elements are in the namespace http://www.microsoft.com/networking/CarrierControl/Plans/v1. Not all elements are in every profile, as some elements are optional.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="resultsschema/schema-root.md">ResultsSchema schema</a> </p></td>
-<td><p>The <a href="resultsschema/schema-root.md">ResultsSchema</a>  schema defines elements that are returned from a call to <a href="https://msdn.microsoft.com/library/windows/apps/br212048"><strong>ProvisionResultsXml</strong></a> and describe the results of the last provisioning attempt. All of the elements are in the namespace http://www.microsoft.com/networking/CarrierControlResults/v1. Not all elements are in every profile, as some elements are optional.</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="resultsschema-v2/schema-root.md">ResultsSchema_v2 schema</a> </p></td>
-<td><p>The <a href="resultsschema-v2/schema-root.md">ResultsSchema_v2</a>  schema defines additional elements that are returned from a call to <a href="https://msdn.microsoft.com/library/windows/apps/br212048"><strong>ProvisionResultsXml</strong></a> and describe the results of the last provisioning attempt. All of the elements are in the namespace http://www.microsoft.com/networking/CarrierControlResults/v2. Not all elements are in every profile, as some elements are optional.</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="wlan/schema-root.md">WLAN schema</a> </p></td>
-<td><p>The <a href="wlan/schema-root.md">WLAN</a>  schema defines elements that are used to describe a subscriber's connection to a Wireless Local Area Network (WLAN).</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="wlan-v2/schema-root.md">WLAN_v2 schema</a> </p></td>
-<td><p>The <a href="wlan-v2/schema-root.md">WLAN_v2</a>  schema defines additional elements that are used to describe a subscriber's connection to a Wireless Local Area Network (WLAN).</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="wwan/schema-root.md">WWAN Schema</a> </p></td>
-<td><p>The <a href="wwan/schema-root.md">WWAN</a>  schema defines elements that are used to describe a subscriber's connection to a Wireless Wide Area Network (WWAN). All of the elements are in the namespace http://www.microsoft.com/networking/CarrierControl/WWAN/v1. Not all elements are in every profile, as some elements are optional.</p></td>
-</tr>
-</tbody>
-</table>
-
- 
+|  Topic  |  Description  |
+|---------|---------------|
+| [Base schema](base/schema-root.md) | Defines elements that are used to describe basic data types used throughout the Mobile Broadband schema. It defines only simple and complex types. |
+| [CarrierControlSchema schema](carriercontrolschema/schema-root.md) | Defines elements that are used to create the provisioning file in a call to [ProvisionFromXmlDocumentAsync](https://msdn.microsoft.com/library/windows/apps/br207400) and describe all of the settings required to authenticate and provision a subscriber's account on a Mobile Network Operator's (MNO) network. All of the elements are in the namespace `http://www.microsoft.com/networking/CarrierControl/v1`. Not all elements are in every profile, as some elements are optional. |
+| [CarrierControlSchema_v2 schema](carriercontrolschema-v2/schema-root.md) | Defines additional elements that are used to create the provisioning file in a call to [ProvisionFromXmlDocumentAsync](https://msdn.microsoft.com/library/windows/apps/br207400) and describe additional settings required to authenticate and provision a subscriber's account on a Mobile Network Operator's (MNO) network. All of the elements are in the namespace `http://www.microsoft.com/networking/CarrierControl/v2`. Not all elements are in every profile, as some elements are optional. |
+| [CarrierControlSignatureSchema schema](carriercontrolsignatureschema/schema-root.md) | Defines elements that are used to describe the signature appended to the provisioning file. It is based on the [XML DSIG](https://www.w3.org/TR/xmldsig-core/) specification with only minor deviations that are explicitly described below. All of the elements are in the namespace `http://www.w3.org/2000/09/xmldsig#`. Not all elements are in every profile, as some elements are optional. |
+| [DUSM schema](dusm/schema-root.md) | Defines elements that are used to describe cost information for a subscriber's connection to a metered network. All of the elements are in the namespace `http://www.microsoft.com/networking/CarrierControl/DUSM/v1`. Not all elements are in every profile, as some elements are optional.  |
+| [HotspotProfile schema](hotspotprofile/schema-root.md) | Defines elements that are used to describe login credentials for Wi-Fi hotspots that use the Wireless Internet Service Provider roaming (WISPr) protocol. All of the elements are in the namespace `http://www.microsoft.com/networking/WLAN/HotspotProfile/v1`. Not all elements are in every profile, as some elements are optional. |
+| [MBAE schema](mbae/schema-root.md) | Defines elements that are used by mobile network operators and retail partners to deliver valued added services to customers. All of the elements are in the namespace `http://schemas.microsoft.com/windows/2010/12/DeviceMetadata/MobileBroadbandInfo`. Not all elements are in every profile, as some elements are optional. |
+| [Plans schema](plans/schema-root.md) | Defines elements that are used to describe a subscriber's data plan on a Mobile Network Operator (MNO). All of the elements are in the namespace `http://www.microsoft.com/networking/CarrierControl/Plans/v1`. Not all elements are in every profile, as some elements are optional. |
+| [ResultsSchema schema](resultsschema/schema-root.md) | Defines elements that are returned from a call to [ProvisionResultsXml](https://msdn.microsoft.com/library/windows/apps/br212048) and describe the results of the last provisioning attempt. All of the elements are in the namespace `http://www.microsoft.com/networking/CarrierControlResults/v1`. Not all elements are in every profile, as some elements are optional. |
+| [ResultsSchema_v2 schema](resultsschema-v2/schema-root.md) | Defines additional elements that are returned from a call to [ProvisionResultsXml](https://msdn.microsoft.com/library/windows/apps/br212048) and describe the results of the last provisioning attempt. All of the elements are in the namespace `http://www.microsoft.com/networking/CarrierControlResults/v2`. Not all elements are in every profile, as some elements are optional. |
+| [WLAN schema](wlan/schema-root.md) | Defines elements that are used to describe a subscriber's connection to a Wireless Local Area Network (WLAN). |
+| [WLAN_v2 schema](wlan-v2/schema-root.md) | Defines additional elements that are used to describe a subscriber's connection to a Wireless Local Area Network (WLAN). |
+| [WWAN schema](wwan/schema-root.md) | Defines elements that are used to describe a subscriber's connection to a Wireless Wide Area Network (WWAN). All of the elements are in the namespace `http://www.microsoft.com/networking/CarrierControl/WWAN/v1`.` Not all elements are in every profile, as some elements are optional. |
 
 ## Developer audience
-
 
 The Mobile Broadband Schema are designed for use by Javascript/C++/C#/Visual Basic developers interested in enabling the use of Mobile Broadband for network communications in their UWP app.
 

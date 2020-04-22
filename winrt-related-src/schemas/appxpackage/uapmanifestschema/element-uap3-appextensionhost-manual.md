@@ -107,9 +107,9 @@ The following example indicates that the app can host the Office spell check and
 ## Requirements
 
 
-|               |                                                            |
-|---------------|------------------------------------------------------------|
-| **Namespace** | http://schemas.microsoft.com/appx/manifest/uap/windows10/3 |
+|               |                                                             |
+|---------------|-------------------------------------------------------------|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
 
  
 

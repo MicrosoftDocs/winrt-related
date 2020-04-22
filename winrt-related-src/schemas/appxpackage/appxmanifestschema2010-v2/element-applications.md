@@ -99,18 +99,9 @@ You can use the **Applications** element to specify one or more apps for the pac
 
 ## Requirements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><pre>http://schemas.microsoft.com/appx/2010/manifest</pre></td>
-</tr>
-</tbody>
-</table>
+|               |                                                             |
+|---------------|-------------------------------------------------------------|
+| **Namespace** | `http://schemas.microsoft.com/appx/2010/manifest` |
 
  
 

@@ -3,11 +3,7 @@ Description: Declares other packages that a package depends on to complete its s
 Search.Product: eADQiWindows 10XVcnh
 title: Dependencies (Windows 10)
 ms.assetid: a1e745c9-a804-42cf-a107-7fb860cc8289
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 04/05/2017
 ---
@@ -35,6 +31,7 @@ Declares other packages that a package depends on to complete its software.
   uap3:MainPackageDependency{0,1},
   uap5:DriverDependency{0,1000}
   uap7:OSPackageDependency{0,1000}
+  uap10:HostRuntimeDependency{0,1000}
 
 </Dependencies>
 ```
@@ -79,6 +76,16 @@ None.
 <tr class="even">
 <td><a href="element-uap5-driverdependency.md">uap5:DriverDependency</a> </td>
 <td><p>Contains the driver constraint information for a UWP app. If DriverDependency is used, the specified driver must be present for the app to load.
+</p></td>
+</tr>
+<tr class="even">
+<td><a href="element-uap7-ospackagedependency.md">uap7:OSPackageDependency</a> </td>
+<td><p>CDefines a package dependency for a UWP app.
+</p></td>
+</tr>
+<tr class="even">
+<td><a href="element-uap10-hostruntimedependency.md">uap10:HostRuntimeDependency</a> </td>
+<td><p>Defines a dependency on a host app package for the current app package.
 </p></td>
 </tr>
 </tbody>
@@ -126,18 +133,10 @@ Dependencies must be explicitly defined. If a dependency cannot be resolved, dep
 
 ## Requirements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>http://schemas.microsoft.com/appx/manifest/foundation/windows10</p></td>
-</tr>
-</tbody>
-</table>
+|   |   |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+
 
  
 

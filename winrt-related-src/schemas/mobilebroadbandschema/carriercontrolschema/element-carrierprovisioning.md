@@ -106,18 +106,9 @@ This outermost (document) element may not be contained by any other elements.
 
 ## Requirements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>http://www.microsoft.com/networking/CarrierControl/v1</p></td>
-</tr>
-</tbody>
-</table>
+|          |         |
+|----------|--------------|
+| **Namespace** | `http://www.microsoft.com/networking/CarrierControl/v1` |
 
  
 

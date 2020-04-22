@@ -2,11 +2,9 @@
 title: What's different in Windows 10
 description: This topic lists changes to the package manifest schema reference for each version of Windows 10, including namespaces and features that have been added or changed.
 ms.assetid: 2afadf58-6dcc-4959-b97b-47d2075af692
-
-
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
-ms.date: 04/19/2019
+ms.date: 01/16/2020
 ms.custom: 19H1
 ---
 
@@ -18,13 +16,12 @@ The following sections list the namespaces and XML prefixes added to the package
 
 ## Windows 10, Version 2004
 ### Added namespaces and XML prefixes
-| Prefix   | Namespace | 
+| Prefix   | Namespace |
 |----------|-----------|
-| uap10     | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` | 
-| desktop7 | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |
+| uap10     | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
 | com3     | `http://schemas.microsoft.com/appx/manifest/com/windows10/3` |
 
-## Windows 10, Version 1903
+## Windows 10, Build 18362, Version 1903
 ### Added namespaces and XML prefixes
 | Prefix   | Namespace | 
 |----------|-----------|
@@ -95,6 +92,7 @@ The following sections list the namespaces and XML prefixes added to the package
 | rescap        | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities` |
 | serverpreview | `http://schemas.microsoft.com/appx/manifest/serverpreview/windows10` |  
 
+<!-- This section specifies changes from Windows 8.x to Windows 10. This information is probably no longer needed. 
 
 ## Elements and attributes that have been added
 
@@ -138,6 +136,8 @@ The following sections list the namespaces and XML prefixes added to the package
 -   [**VisualElements\@ForegroundText**](https://msdn.microsoft.com/library/windows/apps/dn423310) attribute.
 -   [**VisualElements\@SmallLogo**](https://msdn.microsoft.com/library/windows/apps/dn423310) attribute.
 -   [**VisualElements\@ToastCapable**](https://msdn.microsoft.com/library/windows/apps/dn423310) attribute.
+
+-->
 
 ## Example
 
