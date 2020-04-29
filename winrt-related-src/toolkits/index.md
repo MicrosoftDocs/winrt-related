@@ -16,7 +16,7 @@ These toolkits, available as NuGet packages, provide controls, helper functions,
 
 ## Windows UI 3.0 Library (Alpha)
 
-- [WinUI 3.0 Alpha (November 2019)](winui3/index.md)
+- [WinUI 3.0 Alpha (February 2020)](winui3/index.md)
 - [XAML Controls Gallery (WinUI 3.0 Alpha) app](https://github.com/microsoft/Xaml-Controls-Gallery/tree/winui3alpha)
 
 ## Windows UI 2.x Library
