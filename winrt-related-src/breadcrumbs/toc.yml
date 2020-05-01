@@ -1,12 +1,15 @@
-- name: Docs
-  tocHref: /
-  topicHref: /
+- name: Windows
+  tocHref: /windows/
+  topicHref: /windows/index
   items:
-  - name: Windows
-    tocHref: /windows/
-    topicHref: /windows/
-    items:
-      - name: UWP
-        tocHref: /windows/uwp/
-        topicHref: "https://developer.microsoft.com/windows/apps" 
-    
+    - name: Apps
+      tocHref: /windows/apps/
+      topicHref: /windows/apps/index
+      items:
+        - name: UWP
+          tocHref: /windows/uwp/
+          topicHref: /windows/uwp/index
+          items:
+            - name: Reference
+              tocHref: /uwp/
+              topicHref: /uwp/index
