@@ -15,9 +15,9 @@ ms.date: 04/05/2017
 
 The WLAN\_v2 schema defines additional elements that are used to describe a subscriber's connection to a Wireless Local Area Network (WLAN).
 
-All of the elements of the WLAN\_v2 schema are defined in the *http://www.microsoft.com/networking/CarrierControl/WLAN/v2* namespace.
+All of the elements of the WLAN\_v2 schema are defined in the `http://www.microsoft.com/networking/CarrierControl/WLAN/v2` namespace.
 
-The WLAN\_v2 schema elements are additions to the [WLAN](https://msdn.microsoft.com/library/windows/apps/hh868424) version 1 schema defined in the *http://www.microsoft.com/networking/CarrierControl/WLAN/v1* namespace.
+The WLAN\_v2 schema elements are additions to the [WLAN](https://msdn.microsoft.com/library/windows/apps/hh868424) version 1 schema defined in the `http://www.microsoft.com/networking/CarrierControl/WLAN/v1` namespace.
 
 The WLAN\_v2 schema is supported on Windows 8.1, Windows Server 2012 R2, and later.
 

@@ -150,7 +150,7 @@ A service dependency must be one of the other services in the package.
 
 |               |                                                                    |
 |---------------|--------------------------------------------------------------------|
-| **Namespace** | http://schemas.microsoft.com/appx/manifest/serverpreview/windows10 |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/serverpreview/windows10` |
 
  
 

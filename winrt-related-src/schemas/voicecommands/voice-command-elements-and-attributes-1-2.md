@@ -19,15 +19,13 @@ Use voice commands to launch an app and specify an action or command to execute.
 
 ## Elements and attributes
 
-
 As with any XML file, a VCD file should begin with an XML declaration that specifies both the XML version and the character encoding.
-
-> [!NOTE]
-> Visual Studio includes this by default in new XML files.
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 ```
+
+The root element is the **VoiceCommands** element, and its **xmlns** attribute must be set to `http://schemas.microsoft.com/voicecommands/1.2` (no uppercase characters). For an example that conforms to this schema, see the [Cortana Voice Command sample](https://github.com/microsoft/Windows-universal-samples/blob/master/Samples/CortanaVoiceCommand/shared/AdventureWorksCommands.xml).
 
 <table>
 <tr>
@@ -37,7 +35,7 @@ As with any XML file, a VCD file should begin with an XML declaration that speci
 
 <tr>
 <td colspan="2">VoiceCommands</td>
-<td>Required. The root element of a VCD file. The value of its <strong>xmlns</strong> attribute must be <pre>http://schemas.microsoft.com/voicecommands/1.2</pre> (no uppercase characters). Contains between 1 and 15 <strong>CommandSet</strong> elements, each of which represents the voice commands for a single language.</td>
+<td>Required. The root element of a VCD file. Contains between 1 and 15 <strong>CommandSet</strong> elements, each of which represents the voice commands for a single language.</td>
 </tr>
 <tr><td colspan="2">CommandSet</td>
 <td>Required child element of the <strong>VoiceCommands</strong> element. A container for all the voice commands that an app will accept in the language specified by the required <strong>xml:lang</strong> attribute. <p>The value of the <strong>xml:lang</strong> attribute must be unique in the <strong>VoiceCommand</strong> document, and it is a single, specific language, specified in language name form, that corresponds to a language that is available in the <strong>Speech</strong> control panel. </p><p><strong>Note</strong>  Languages specified in the VCD file, but  not supported on the system, are ignored.</p>

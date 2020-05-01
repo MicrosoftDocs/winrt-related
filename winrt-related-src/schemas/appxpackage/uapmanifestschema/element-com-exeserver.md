@@ -90,15 +90,6 @@ The **Executable** and **Arguments** attributes correspond to the default value 
 ## Examples
 
 ## Requirements
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>http://schemas.microsoft.com/appx/manifest/com/windows10</p></td>
-</tr>
-</tbody>
-</table>
+|               |                                                             |
+|---------------|-------------------------------------------------------------|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

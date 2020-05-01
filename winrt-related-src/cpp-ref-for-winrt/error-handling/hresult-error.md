@@ -78,7 +78,7 @@ An HRESULT code that initializes the **hresult_error** object.
 An informative string to help developers to correct the reported error condition.
 
 `object`
-An error object that stores extra information about the error. The error object should be apartment-agile, in-proc, and marshal-by-value across processes. It should implement [ILanguageExceptionStackBackTrace](https://msdn.microsoft.com/library/mt809558) and [ILanguageExceptionTransform](https://msdn.microsoft.com/library/mt809560) if necessary. See [RoOriginateLanguageException](https://msdn.microsoft.com/library/dn302172).
+An error object that stores extra information about the error. The error object should be apartment-agile, in-proc, and marshal-by-value across processes. It should implement [ILanguageExceptionStackBackTrace](/windows/win32/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionstackbacktrace) and [ILanguageExceptionTransform](/windows/win32/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptiontransform) if necessary. See [RoOriginateLanguageException](/windows/win32/api/roerrorapi/nf-roerrorapi-rooriginatelanguageexception).
 
 ## hresult_error::code function
 Retrieves the code for the error represented by the **hresult_error** object.
@@ -146,7 +146,7 @@ HRESULT to_abi() const noexcept;
 An HRESULT error code.
 
 ## hresult_error::try_as function
-Returns the requested interface, if it is supported. Returns `nullptr` if it is not. This function is useful if you want to query for an interface that you don't need to pass back to your caller. For example, you can retrieve an [IRestrictedErrorInfo](https://msdn.microsoft.com/library/br224587) to access the restricted error info for the error represented by the **hresult_error** object.
+Returns the requested interface, if it is supported. Returns `nullptr` if it is not. This function is useful if you want to query for an interface that you don't need to pass back to your caller. For example, you can retrieve an [IRestrictedErrorInfo](/windows/win32/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo) to access the restricted error info for the error represented by the **hresult_error** object.
 
 ### Syntax
 ```cppwinrt
@@ -167,7 +167,7 @@ A [winrt::com_ptr](../com-ptr.md) referencing the requested interface, or a stro
 ## See also 
 * [winrt namespace](../winrt.md)
 * [winrt::com_ptr struct template](../com-ptr.md)
-* [ILanguageExceptionStackBackTrace interface](https://msdn.microsoft.com/library/mt809558)
-* [ILanguageExceptionTransform interface](https://msdn.microsoft.com/library/mt809560)
-* [RoOriginateLanguageException function](https://msdn.microsoft.com/library/dn302172)
+* [ILanguageExceptionStackBackTrace interface](/windows/win32/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionstackbacktrace)
+* [ILanguageExceptionTransform interface](/windows/win32/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptiontransform)
+* [RoOriginateLanguageException function](/windows/win32/api/roerrorapi/nf-roerrorapi-rooriginatelanguageexception)
 * [Error handling with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/error-handling)

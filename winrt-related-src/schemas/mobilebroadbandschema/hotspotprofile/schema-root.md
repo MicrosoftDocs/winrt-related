@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # HotspotProfile schema
 
 
-The HotspotProfile schema defines elements that are used to describe login credentials for Wi-Fi hotspots that use the Wireless Internet Service Provider roaming (WISPr) protocol. All of the elements are in the namespace http://www.microsoft.com/networking/WLAN/HotspotProfile/v1. Not all elements are in every profile, as some elements are optional.
+The HotspotProfile schema defines elements that are used to describe login credentials for Wi-Fi hotspots that use the Wireless Internet Service Provider roaming (WISPr) protocol. All of the elements are in the namespace `http://www.microsoft.com/networking/WLAN/HotspotProfile/v1`. Not all elements are in every profile, as some elements are optional.
 
 The full HotspotProfile schema is below:
 

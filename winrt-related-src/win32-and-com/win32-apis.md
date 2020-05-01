@@ -4332,8 +4332,8 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| RoIsApiContractPresent | Introduced into api-ms-win-ro-typeresolution-l1-1-1.dll in 10.0.17763. |
-| RoIsApiContractMajorVersionPresent | Introduced into api-ms-win-ro-typeresolution-l1-1-1.dll in 10.0.17763. |
+| [RoIsApiContractPresent](https://docs.microsoft.com/windows/win32/api/rometadataresolution/nf-rometadataresolution-roisapicontractpresent) | Introduced into api-ms-win-ro-typeresolution-l1-1-1.dll in 10.0.17763. |
+| [RoIsApiContractMajorVersionPresent](https://docs.microsoft.com/windows/win32/api/rometadataresolution/nf-rometadataresolution-roisapicontractmajorversionpresent) | Introduced into api-ms-win-ro-typeresolution-l1-1-1.dll in 10.0.17763. |
 
 
 ## APIs from api-ms-win-core-memory-l1-1-7.dll

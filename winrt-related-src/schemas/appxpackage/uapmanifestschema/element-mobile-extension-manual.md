@@ -185,7 +185,7 @@ The following example shows how to block your mobile app from being displayed on
 
 |               |                                                             |
 |---------------|-------------------------------------------------------------|
-| **Namespace** | http://schemas.microsoft.com/appx/manifest/mobile/windows10 |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/mobile/windows10` |
 
  
 

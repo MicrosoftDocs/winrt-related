@@ -9,7 +9,7 @@ ms.topic: reference
 
 # Windows UI Library 2.0
 
-WinUI 2.0 is the first public release of the Windows UI Library. 
+WinUI 2.0 is the first public release of the Windows UI Library.
 
 WinUI is the easiest way to build great Fluent Design experiences for Windows.
 
@@ -59,3 +59,18 @@ Controls and patterns in this release include:
 |[ToggleSplitButton](https://docs.microsoft.com/uwp/api/microsoft.ui.xaml.controls.togglesplitbutton)|Represents a button with two parts that can be invoked separately. One part behaves like a toggle button and the other part invokes a flyout.|
 |[TreeView](https://docs.microsoft.com/uwp/api/microsoft.ui.xaml.controls.treeview)|Represents a hierarchical list with expanding and collapsing nodes that contain nested items.|
 
+## Examples
+
+The Xaml Controls Gallery sample app includes interactive demos and sample code for using WinUI controls.
+
+* Install the XAML Controls Gallery app from the [Microsoft Store](
+https://www.microsoft.com/p/xaml-controls-gallery/9msvh128x2zt)
+
+* The Xaml Controls Gallery is also [open source on GitHub](
+https://github.com/Microsoft/Xaml-Controls-Gallery)
+
+## Documentation
+
+How-to articles for Windows UI Library controls are included with the [Universal Windows Platform controls documentation](/windows/uwp/design/controls-and-patterns/).
+
+API reference docs are located here: [Windows UI Library APIs](/uwp/api/overview/winui/).

@@ -15,9 +15,9 @@ ms.date: 04/05/2017
 
 The WLAN schema defines elements that are used to describe a subscriber's connection to a Wireless Local Area Network (WLAN).
 
-All of the elements in the WLAN schema are in the *http://www.microsoft.com/networking/CarrierControl/WLAN/v1* namespace.
+All of the elements in the WLAN schema are in the `*`http://www.microsoft.com/networking/CarrierControl/WLAN/v1`*` namespace.
 
-The [WLAN\_v2](https://msdn.microsoft.com/library/windows/apps/dn297323) schema defines additional elements in the *http://www.microsoft.com/networking/CarrierControl/WLAN/v2* namespace and is supported on Windows 8.1, Windows Server 2012 R2, and later.
+The [WLAN\_v2](https://msdn.microsoft.com/library/windows/apps/dn297323) schema defines additional elements in the `http://www.microsoft.com/networking/CarrierControl/WLAN/v2` namespace and is supported on Windows 8.1, Windows Server 2012 R2, and later.
 
 The [**SSIDConfig**](element-ssidconfig.md) element in the WLAN schema supports up to 25 SSIDs in the v1 namespace and up to additional 10,000 SSIDs in the v2 namespace. The v2 namespace also supports [**SSIDPrefix**](https://msdn.microsoft.com/library/windows/apps/dn297316) elements.
 

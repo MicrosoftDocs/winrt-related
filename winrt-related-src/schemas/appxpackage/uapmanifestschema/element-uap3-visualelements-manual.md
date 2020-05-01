@@ -286,9 +286,9 @@ The following example creates a folder named App1 in the All Apps List and store
 ## Requirements
 
 
-|               |                                                            |
-|---------------|------------------------------------------------------------|
-| **Namespace** | http://schemas.microsoft.com/appx/manifest/uap/windows10/3 |
+|               |                                                             |
+|---------------|-------------------------------------------------------------|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
 
  
 

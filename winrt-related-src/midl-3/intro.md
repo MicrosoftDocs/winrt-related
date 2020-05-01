@@ -38,13 +38,13 @@ namespace PhotoEditor
 Note that the syntax of MIDL 3.0 is specifically and solely designed for *defining* types. You'll use a different programming language to *implement* those types. To use MIDL 3.0, you'll need Windows SDK version 10.0.17134.0 (Windows 10, version 1803) (`midl.exe` version 8.01.0622 or later, used with the `/winrt` switch).
 
 ## MIDL 1.0, 2.0, and 3.0
-Interface Definition Language (IDL) began with the Distributed Computing Environment/Remote Procedure Calls (DCE/RPC) system. The original [MIDL 1.0](https://msdn.microsoft.com/library/windows/desktop/aa367091) is DCE/RPC IDL with enhancements for defining COM interfaces and coclasses.
+Interface Definition Language (IDL) began with the Distributed Computing Environment/Remote Procedure Calls (DCE/RPC) system. The original [MIDL 1.0](/windows/win32/midl/midl-start-page) is DCE/RPC IDL with enhancements for defining COM interfaces and coclasses.
 
-An updated MIDL 2.0 syntax (also known as MIDLRT) was then developed within Microsoft to declare Windows Runtime APIs for the Windows platform. If you look in the Windows SDK folder `%WindowsSdkDir%Include<WindowsTargetPlatformVersion>\winrt` then you'll see examples of `.idl` files that are written with the MIDL 2.0 syntax. These are first-party Windows Runtime APIs, declared in their application binary interface (ABI) form. These files exist primarily for tooling to use&mdash;you won't author nor consume these APIs in this form (unless you're writing very low-level code).
+An updated MIDL 2.0 syntax (also known as MIDLRT) was then developed within Microsoft to declare Windows Runtime APIs for the Windows platform. If you look in the Windows SDK folder `%WindowsSdkDir%Include<WindowsTargetPlatformVersion>\winrt` then you'll see examples of `.idl` files that are written with the MIDL 2.0 syntax. These are built-in Windows Runtime APIs, declared in their application binary interface (ABI) form. These files exist primarily for tooling to use&mdash;you won't author nor consume these APIs in this form (unless you're writing very low-level code).
 
 Also see [Transition to MIDL 3.0 from classic MIDLRT](from-midlrt.md).
 
-MIDL 3.0 is a much simpler and more modern syntax, whose purpose is to declare Windows Runtime APIs. And you can use it in your projects, particularly to define [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) runtime classes. The headers, for use from C++/WinRT, for the first-party Windows Runtime APIs are part of the SDK, inside the folder `%WindowsSdkDir%Include<WindowsTargetPlatformVersion>\cppwinrt\winrt`.
+MIDL 3.0 is a much simpler and more modern syntax, whose purpose is to declare Windows Runtime APIs. And you can use it in your projects, particularly to define [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) runtime classes. The headers, for use from C++/WinRT, for the built-in Windows Runtime APIs are part of the SDK, inside the folder `%WindowsSdkDir%Include<WindowsTargetPlatformVersion>\cppwinrt\winrt`.
 
 ## Use cases for MIDL 3.0
 In general, all Windows Runtime APIs are designed to be available to all Windows Runtime language projections. This is done, in part, by choosing to exclusively pass Windows Runtime types to and from Windows Runtime APIs. While it is a valid design decision to pass a raw COM interface to and from a Windows Runtime API, doing so limits the consumers of that particular Windows Runtime API to C++ applications. The technique can be seen in interoperation scenarios&mdash;for example, when interoperating between Direct3D and XAML. Since Direct3D is in the picture, the scenario is necessarily narrowed to C++ applications. So, an API that requires a COM interface doesn't impose any additional limitation over and above what's inherent. For example, a C++ application can obtain an [IDXGISwapChain](/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain) interface pointer, and then pass that to the [ISwapChainPanelNative::SetSwapChain method](/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-iswapchainpanelnative-setswapchain). A C# application, for example, wouldn't be able to obtain an **IDXGISwapChain** to begin with, so it wouldn't be able to use that method for that reason. These interop-related exceptions live in interop headers, such as `windows.ui.xaml.media.dxinterop.h`.
@@ -107,7 +107,7 @@ Incidentally, you can use the `where` command to find out where `midl.exe` is in
 where midl
 ```
 
-If you want to use the types defined in one `.idl` file from a different `.idl` file, then you use the `import` directive. For more details, and a code example, see [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property). Of course, if you're consuming a first- or third-party component, then you won't have access to the `.idl` file. For example, you might want to consume the [Win2D](https://www.nuget.org/packages/Win2D.uwp) Windows Runtime API for immediate-mode 2D graphics rendering. The command above used the `/reference` switch to reference a Windows Runtime metadata (`.winmd`) file. In this next example, we'll use that switch again, imagining the scenario where we have `Bookstore.winmd`, but not `Bookstore.idl`.
+If you want to use the types defined in one `.idl` file from a different `.idl` file, then you use the `import` directive. For more details, and a code example, see [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property). Of course, if you're consuming a built-in or third-party component, then you won't have access to the `.idl` file. For example, you might want to consume the [Win2D](https://www.nuget.org/packages/Win2D.uwp) Windows Runtime API for immediate-mode 2D graphics rendering. The command above used the `/reference` switch to reference a Windows Runtime metadata (`.winmd`) file. In this next example, we'll use that switch again, imagining the scenario where we have `Bookstore.winmd`, but not `Bookstore.idl`.
 
 ```idl
 // MVVMApp.idl
@@ -348,7 +348,7 @@ An *attribute* type defines a Windows Runtime attribute that can be applied to o
 
 A *struct* type defines a Windows Runtime structure that contains data members. Structs are value types, and they do not require heap allocation. A data member of a struct type must either be a value type or a nullable type. Struct types do not support inheritance.
 
-An *interface* type defines a Windows Runtime interface, which is a named set of function members. An interface may specify that an implementation of the interface must also implement of one or more specified additional (required) interfaces. Every interface type directly derives from the Windows Runtime [**IInspectable**](https://msdn.microsoft.com/library/br205821) interface.
+An *interface* type defines a Windows Runtime interface, which is a named set of function members. An interface may specify that an implementation of the interface must also implement of one or more specified additional (required) interfaces. Every interface type directly derives from the Windows Runtime [**IInspectable**](/windows/win32/api/inspectable/nn-inspectable-iinspectable) interface.
 
 A *runtimeclass* type defines a Windows Runtime class (runtime class). A runtime class contains members that can be properties, methods, and events.
 
@@ -366,7 +366,7 @@ You don't need to declare a single-dimensional array before you can use it. Inst
 
 Similarly, *nullable* value types also do not have to be defined before they can be used. For each non-nullable value type **T** (except **String**), there's a corresponding nullable type **Windows.Foundation.IReference&lt;T&gt;**, which can hold the additional value `null`. For instance, **Windows.Foundation.IReference&lt;Int32&gt;** is a type that can hold any 32-bit integer, or the value `null`. Also see [**IReference&lt;T&gt;**](/uwp/api/windows.foundation.ireference_t_).
 
-Finally, MIDL 3.0 supports the **Object** type, which maps to the Windows Runtime [**IInspectable**](https://msdn.microsoft.com/library/br205821) interface. The *interface* and *runtimeclass* reference types conceptually derive from the **Object** type; *delegate* does not.
+Finally, MIDL 3.0 supports the **Object** type, which maps to the Windows Runtime [**IInspectable**](/windows/win32/api/inspectable/nn-inspectable-iinspectable) interface. The *interface* and *runtimeclass* reference types conceptually derive from the **Object** type; *delegate* does not.
 
 ### Expressions in an enumerated value
 With MIDL 3.0, you can only use an *expression* in the definition of the value of an enumerated type's named constants; in other words, in an enumeration initializer.
@@ -539,7 +539,7 @@ public. That's why MIDL 3.0 doesn't require nor allow the (effectively
 redundant) `public` keyword.
 
 ### Base classes
-A class definition may specify a base class by following the class name and type parameters with a colon and the name of the base class. Omitting a base class specification is the same as deriving from type **Object** (in other words, from [**IInspectable**](https://msdn.microsoft.com/library/br205821)).
+A class definition may specify a base class by following the class name and type parameters with a colon and the name of the base class. Omitting a base class specification is the same as deriving from type **Object** (in other words, from [**IInspectable**](/windows/win32/api/inspectable/nn-inspectable-iinspectable)).
 
 > [!NOTE]
 > Your view model classes&mdash;in fact, any runtime class that you define in your application&mdash;need not derive from a base class.
@@ -1149,15 +1149,14 @@ using *attributes*.
 
 The next example defines a **HelpAttribute** attribute, which can be
 placed on program entities to provide links to their associated
-documentation.
+documentation. As you can see, an attribute is essentially a struct type, so it doesn't have a constructor, and contains only data members.
 
 ```idl
-[attributeusage(target_runtimeclass_member)]
+[attributeusage(target_runtimeclass, target_event, target_method, target_property)]
 attribute HelpAttribute
 {
-    HelpAttribute(String classUri);
-    String ClassUri { get; };
-    String MemberTopic { get; set; };
+    String ClassUri;
+    String MemberTopic;
 }
 ```
 
@@ -1168,11 +1167,11 @@ name can be omitted when the attribute is referenced. For example, the
 **HelpAttribute** attribute can be used like this.
 
 ```idl
-[Help("https://docs.contoso.com/.../Widget")]
-runtimeclass Widget
+[Help("https://docs.contoso.com/.../BookSku", "BookSku class")]
+runtimeclass BookSku : Windows.UI.Xaml.Data.INotifyPropertyChanged
 {
-    [Help("https://docs.contoso.com/.../Widget", MemberTopic="Display")]
-    void Display(String text);
+    [Help("https://docs.contoso.com/.../BookSku_Title", "Title method")]
+    String Title;
 }
 ```
 
@@ -1184,7 +1183,7 @@ the declarations to which the attribute applies.
 ```idl
 runtimeclass Widget
 {
-    [Custom()]
+    [Help("https://docs.contoso.com/.../Widget", "Widget members")]
     {
         void Display(String text);
         void Print();
@@ -1195,7 +1194,7 @@ runtimeclass Widget
 
 Attributes implemented as part of Windows itself are usually in the **Windows.Foundation** namespace.
 
-As shown in the first example, you use the `[attributeusage(<target>)]` attribute on your attribute definition. Valid target values are `target_all`, `target_delegate`, `target_enum`, `target_event`, `target_field`, `target_interface`, `target_method`, `target_parameter`, `target_property`, `target_runtimeclass`, `target_runtimeclass_member`, and `target_struct`. You can include multiple targets within the parentheses, separated by commas.
+As shown in the first example, you use the `[attributeusage(<target>)]` attribute on your attribute definition. Valid target values are `target_all`, `target_delegate`, `target_enum`, `target_event`, `target_field`, `target_interface`, `target_method`, `target_parameter`, `target_property`, `target_runtimeclass`, and `target_struct`. You can include multiple targets within the parentheses, separated by commas.
 
 Other attributes you can apply to an attribute are `[allowmultiple]` and `[attributename("<name>")]`.
 

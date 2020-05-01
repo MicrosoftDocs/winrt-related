@@ -236,7 +236,7 @@ The combination the namespace and name for the WMI provider must be unique in th
 
 |               |                                                                    |
 |---------------|--------------------------------------------------------------------|
-| **Namespace** | http://schemas.microsoft.com/appx/manifest/serverpreview/windows10 |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/serverpreview/windows10` |
 
  
 

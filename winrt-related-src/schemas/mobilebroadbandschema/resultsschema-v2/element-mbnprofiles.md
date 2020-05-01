@@ -126,18 +126,9 @@ Contains any errors from processing the [**MBNProfiles**](https://msdn.microsoft
 
 ## Requirements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>http://www.microsoft.com/networking/CarrierControlResults/v2</p></td>
-</tr>
-</tbody>
-</table>
+|          |         |
+|----------|--------------|
+| **Namespace** | `http://www.microsoft.com/networking/CarrierControlResults/v2` |
 
  
 

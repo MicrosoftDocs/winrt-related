@@ -65,11 +65,7 @@ In this example, deployment will check for updates at launch time and in the bac
 
 
 ## Requirements
-<table>
-    <tbody>
-        <tr>
-            <td>Namespace</td>
-            <td> http://schemas.microsoft.com/appx/appinstaller/2018  </td>
-        </tr>
-    </tbody>
-</table>
+
+|               |                                                             |
+|---------------|-------------------------------------------------------------|
+| **Namespace** | `hhttp://schemas.microsoft.com/appx/appinstaller/2018` |

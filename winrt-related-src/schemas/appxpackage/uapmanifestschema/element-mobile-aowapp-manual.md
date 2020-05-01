@@ -90,7 +90,7 @@ None.
 
 |               |                                                             |
 |---------------|-------------------------------------------------------------|
-| **Namespace** | http://schemas.microsoft.com/appx/manifest/mobile/windows10 |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/mobile/windows10` |
 
  
 

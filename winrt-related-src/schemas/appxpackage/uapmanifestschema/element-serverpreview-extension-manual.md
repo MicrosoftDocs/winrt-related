@@ -43,11 +43,12 @@ Declares an extensibility point for the app.
 
 
 ```
-<serverpreview:Extension Category       = "windows.eventProviders" | 
-                                          "windows.performanceProviders" | 
-                                          "windows.iisModules"  |
-                                          "windows.ntServices" |
-                                          "windows.wmiProviders" >
+<serverpreview:Extension Category  = "windows.eventProviders" | "windows.performanceProviders" | "windows.iisModules"  |
+                                     "windows.ntServices" | "windows.wmiProviders" 
+                                     uap10:TrustLevel?       = String value. Can be one of the following: "appContainer", "mediumIL".
+                                     uap10:RuntimeBehavior?  = String value. Can be one of the following: "windowsApp", "packagedClassicApp", "win32App".
+                                     uap10:HostId?           = An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.
+                                     uap10:Parameters?       = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. >
   <!-- Child elements -->
   ( serverpreview:IisModules*
   | serverpreview:PerformanceProviders*
@@ -72,11 +73,10 @@ Declares an extensibility point for the app.
 
 <table>
 <colgroup>
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -100,7 +100,30 @@ Declares an extensibility point for the app.
 <li>windows.wmiProviders</li>
 </ul></td>
 <td>Yes</td>
-<td></td>
+</tr>
+<tr class="even">
+<td><strong>uap10:TrustLevel</strong></td>
+<td><p>Specifies the trust level of the extension.</p></td>
+<td>String value. Can be one of the following: "appContainer", "mediumIL". </td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td><strong>uap10:RuntimeBehavior</strong></td>
+<td><p>Specifies the run time behavior of the extension.</p></td>
+<td>String value. Can be one of the following: "windowsApp", "packagedClassicApp", "win32App". </td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td><strong>uap10:HostId</strong></td>
+<td><p>This value specifies the app ID of the host app for the extension.</p></td>
+<td>An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.</td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td><strong>uap10:Parameters</strong></td>
+<td><p>Contains command line parameters to pass to the extension. Only supported for desktop apps that have package identity.</p></td>
+<td>A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. </td>
+<td>No</td>
 </tr>
 </tbody>
 </table>
@@ -168,7 +191,7 @@ The following example identifies a performance counter to add to the server-spec
 
 |               |                                                                    |
 |---------------|--------------------------------------------------------------------|
-| **Namespace** | http://schemas.microsoft.com/appx/manifest/serverpreview/windows10 |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/serverpreview/windows10`<br/><br/>`http://schemas.microsoft.com/appx/manifest/uap/windows10/10` (for the **uap10** attributes) |
 
  
 

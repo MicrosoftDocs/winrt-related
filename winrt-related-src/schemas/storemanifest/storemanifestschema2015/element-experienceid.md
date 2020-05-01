@@ -79,18 +79,9 @@ The value of the ExperienceId element is a 128-bit Globally Unique Identifier (G
 
 ## Requirements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>http://schemas.microsoft.com/appx/2015/StoreManifest</p></td>
-</tr>
-</tbody>
-</table>
+|          |         |
+|----------|--------------|
+| **Namespace** | `http://schemas.microsoft.com/appx/2015/StoreManifest` |
 
  
 

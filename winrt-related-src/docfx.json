@@ -38,37 +38,61 @@
     "fileMetadata": {
       "feedback_product_url": 
         {
-          "toolkits/winui/**/*.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose", 
-          "toolkits/winui3/**/*.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose"
+          "toolkits/winui/*.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose", 
+          "toolkits/winui3/*.md": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose"
         },
         "ms.technology": 
         {
-          "toolkits/winui/**/*.md": "winui", 
-          "toolkits/winui3/**/*.md": "winui"
+          "toolkits/winui/*.md": "winui", 
+          "toolkits/winui3/*.md": "winui"
         },
         "author":
         {
-          "cpp-ref-for-winrt/**/*.md": "stevewhims",
-          "extension-sdks/**/*.md": "stevewhims",
-          "midl-3/**/*.md": "stevewhims",
-          "schemas/**/*.md": "mcleanbyron",
-          "schemas/voicecommands/**/*.md": "Karl-Bridge-Microsoft",
-          "specifications/**/*.md": "Karl-Bridge-Microsoft",
-          "toolkits/**/*.md": "Karl-Bridge-Microsoft",
-          "win32-and-com/**/*.md": "mcleanbyron",
-          "winrt-cref/**/*.md": "stevewhims"
+          "cpp-ref-for-winrt/*.md": "stevewhims",
+          "extension-sdks/*.md": "stevewhims",
+          "midl-3/*.md": "stevewhims",
+          "schemas/*.md": "mcleanbyron",
+          "schemas/appcontentschema/*.md": "mcleanbyron",
+          "schemas/appinstallerschema/*.md": "mcleanbyron",
+          "schemas/appxpackage/*.md": "mcleanbyron",
+          "schemas/blockmapschema/*.md": "mcleanbyron",
+          "schemas/bundlemanifestschema/*.md": "mcleanbyron",
+          "schemas/finalcontentgroupmapschema/*.md": "mcleanbyron",
+          "schemas/mobilebroadbandschema/*.md": "mcleanbyron",
+          "schemas/sourcecontentgroupmapschema/*.md": "mcleanbyron",
+          "schemas/storemanifest/*.md": "mcleanbyron",
+          "schemas/tiles/*.md": "mcleanbyron",
+          "schemas/voicecommands/*.md": "Karl-Bridge-Microsoft",
+          "specifications/*.md": "Karl-Bridge-Microsoft",
+          "toolkits/*.md": "Karl-Bridge-Microsoft",
+          "toolkits/winui/*.md": "Karl-Bridge-Microsoft",
+          "toolkits/winui3/*.md": "Karl-Bridge-Microsoft",
+          "win32-and-com/*.md": "mcleanbyron",
+          "winrt-cref/*.md": "stevewhims"
         },
         "ms.author":
         {
-          "cpp-ref-for-winrt/**/*.md": "stwhi",
-          "extension-sdks/**/*.md": "stwhi",
-          "midl-3/**/*.md": "stwhi",
-          "schemas/**/*.md": "mcleans",
-          "schemas/voicecommands/**/*.md": "kbridge",
-          "specifications/**/*.md": "kbridge",
-          "toolkits/**/*.md": "kbridge",
-          "win32-and-com/**/*.md": "mcleans",
-          "winrt-cref/**/*.md": "stwhi"
+          "cpp-ref-for-winrt/*.md": "stwhi",
+          "extension-sdks/*.md": "stwhi",
+          "midl-3/*.md": "stwhi",
+          "schemas/*.md": "mcleans",
+          "schemas/appcontentschema/*.md": "mcleans",
+          "schemas/appinstallerschema/*.md": "mcleans",
+          "schemas/appxpackage/*.md": "mcleans",
+          "schemas/blockmapschema/*.md": "mcleans",
+          "schemas/bundlemanifestschema/*.md": "mcleans",
+          "schemas/finalcontentgroupmapschema/*.md": "mcleans",
+          "schemas/mobilebroadbandschema/*.md": "mcleans",
+          "schemas/sourcecontentgroupmapschema/*.md": "mcleans",
+          "schemas/storemanifest/*.md": "mcleans",
+          "schemas/tiles/*.md": "mcleans",
+          "schemas/voicecommands/*.md": "kbridge",
+          "specifications/*.md": "kbridge",
+          "toolkits/*.md": "kbridge",
+          "toolkits/winui/*.md": "kbridge",
+          "toolkits/winui3/*.md": "kbridge",
+          "win32-and-com/*.md": "mcleans",
+          "winrt-cref/*.md": "stwhi"
         }		 		 
       },
       "externalReference": [

@@ -64,11 +64,6 @@ The `<MainPackage>` element should only be used for app packages (.appx).
 > The Name, Publisher, Version, ProcessorArchitecture, and ResourceId **must** match the values in the AppxManifest.xml file specified in the app package Uri. 
 
 ## Requirements
-<table>
-    <tbody>
-        <tr>
-            <td>Namespace</td>
-            <td> http://schemas.microsoft.com/appx/appinstaller/2017 </td>
-        </tr>
-    </tbody>
-</table>
+|               |                                                             |
+|---------------|-------------------------------------------------------------|
+| **Namespace** | `http://schemas.microsoft.com/appx/appinstaller/2017` |

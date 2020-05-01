@@ -183,25 +183,6 @@ The following are supported background color names:
 
 ## Requirements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>http://schemas.microsoft.com/appx/manifest/uap/windows10</p></td>
-</tr><tr class="even">
-<td><p>Namespace (to use the Optional attribute)</p></td>
-<td><p>http://schemas.microsoft.com/appx/manifest/uap/windows10/5</p></td>
-</tr>
-</tbody>
-</table>
-
- 
-
- 
-
-
-
+|   |   |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10`<br/><br/>`http://schemas.microsoft.com/appx/manifest/uap/windows10/5` (for the **Optional** attribute) |

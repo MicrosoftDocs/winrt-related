@@ -170,7 +170,7 @@ The values of the **Name**, **ModuleDll**, and **SchemaFileName** attributes mus
 
 |               |                                                                    |
 |---------------|--------------------------------------------------------------------|
-| **Namespace** | http://schemas.microsoft.com/appx/manifest/serverpreview/windows10 |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/serverpreview/windows10` |
 
  
 

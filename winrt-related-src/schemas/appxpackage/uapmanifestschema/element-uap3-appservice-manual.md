@@ -120,9 +120,9 @@ Note that to use the uap3 or uap4 schema elements, you must have the correct ver
 ## Requirements
 
 
-|               |                                                            |
-|---------------|------------------------------------------------------------|
-| **Namespace** | http://schemas.microsoft.com/appx/manifest/uap/windows10/3 |
+|               |                                                             |
+|---------------|-------------------------------------------------------------|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
 
  
 

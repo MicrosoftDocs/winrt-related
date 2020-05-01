@@ -141,18 +141,9 @@ The order of the [**Block**](element-block.md) child elements must correspond to
 
 ## Requirements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>http://schemas.microsoft.com/appx/2010/blockmap</p></td>
-</tr>
-</tbody>
-</table>
+|          |         |
+|----------|--------------|
+| **Namespace** | `http://schemas.microsoft.com/appx/2010/blockmap` |
 
  
 

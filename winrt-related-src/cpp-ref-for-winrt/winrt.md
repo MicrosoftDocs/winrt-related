@@ -56,7 +56,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [map_base struct template](map-base.md) | A base class, for you to derive from, that represents a non-observable associative collection. |
 | [map_view_base struct template](map-view-base.md) | A base class, for you to derive from, that represents a view of a contiguous sequence of elements in an associative collection. |
 | [no_weak_ref marker struct](no-weak-ref.md) | A marker type used to opt out of weak reference support. |
-| [non_agile marker struct](non-agile.md) | A marker type used to indicate that your type is not agile, and consequently does not implement the [IAgileObject interface](https://msdn.microsoft.com/library/windows/desktop/hh802476). |
+| [non_agile marker struct](non-agile.md) | A marker type used to indicate that your type is not agile, and consequently does not implement the [IAgileObject interface](/windows/win32/api/objidlbase/nn-objidlbase-iagileobject). |
 | [observable_map_base struct template](observable-map-base.md) | A base class, for you to derive from, that represents an observable associative collection. |
 | [observable_vector_base struct template](observable-vector-base.md) | A base class, for you to derive from, that represents an observable vector. |
 | [static_lifetime marker struct](static-lifetime.md) | A marker type used to opt an activation factory in to static lifetime. |
@@ -79,7 +79,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [copy_to_abi function](copy-to-abi.md) | A helper function that copies to a handle, or to a pointer from a C++/WinRT object. |
 | [detach_abi function](detach-abi.md) | A helper function that detaches a C++/WinRT object from its referenced handle, or from its referenced interface. |
 | [from_abi function template](from-abi.md) | A helper function which, given an object of a projected type, retrieves a pointer to the implementation. |
-| [get_abi function](get-abi.md) | A helper function that retrieves a pointer to a C++/WinRT object's underlying [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509). |
+| [get_abi function](get-abi.md) | A helper function that retrieves a pointer to a C++/WinRT object's underlying [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown). |
 | [get_activation_factory function template](get-activation-factory.md) | A helper function that retrieves the activation factory for a specified Windows Runtime class type. |
 | [get_cancellation_token function](get-cancellation-token.md) | In a coroutine, use the object returned by **winrt::get_cancellation_token** to poll for, or to respond to, cancellation. |
 | [get_class_name function](get-class-name.md) | A helper function that retrieves a string containing the fully-qualified type name of a specified Windows Runtime class. |
@@ -87,6 +87,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [get_progress_token function](get-progress-token.md) | In a coroutine, use the object returned by **winrt::get_progress_token** to report progress back to a progress handler. |
 | [get_self function template](get-self.md) | A helper function which, given an object of a projected type, retrieves a pointer to the implementation. |
 | [get_trust_level function](get-trust-level.md) | A helper function that retrieves the trust level of a C++/WinRT object. |
+| [get_unknown function](get-unknown.md) | A helper function that returns the address of the underlying raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) of an object of a projected type. |
 | [guid_of function template](guid-of.md) | A helper function template that retrieves the GUID of a runtime class, coclass, or interface. |
 | [make function template](make.md) | A factory method that returns an instance of a projected type or interface when parameterized with the corresponding implementation type. |
 | [make_agile function template](make-agile.md) | A helper function that returns an [agile_ref](agile-ref.md) object, representing an agile reference to a C++/WinRT object or interface. |

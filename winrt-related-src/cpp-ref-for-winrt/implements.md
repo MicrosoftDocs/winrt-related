@@ -13,7 +13,7 @@ ms.workload: ["cplusplus"]
 
 # winrt::implements struct template (C++/WinRT)
 
-This is the base from which your own [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) implementations (of runtime classes and activation factories) directly or indirectly derive. It implements one or more Windows Runtime interfaces (which you specify to it as type parameters), and it also provides efficient implementations of [IUnknown](https://msdn.microsoft.com/library/windows/desktop/ms680509), [IInspectable](/windows/desktop/api/inspectable/nn-inspectable-iinspectable), [IAgileObject](https://msdn.microsoft.com/library/windows/desktop/hh802476), [IWeakReferenceSource](/windows/desktop/api/weakreference/nn-weakreference-iweakreferencesource), and others.
+This is the base from which your own [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt) implementations (of runtime classes and activation factories) directly or indirectly derive. It implements one or more Windows Runtime interfaces (which you specify to it as type parameters), and it also provides efficient implementations of [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown), [IInspectable](/windows/desktop/api/inspectable/nn-inspectable-iinspectable), [IAgileObject](/windows/win32/api/objidlbase/nn-objidlbase-iagileobject), [IWeakReferenceSource](/windows/desktop/api/weakreference/nn-weakreference-iweakreferencesource), and others.
 
 > [!NOTE]
 > For more info about deriving from this type, and examples, see [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis).

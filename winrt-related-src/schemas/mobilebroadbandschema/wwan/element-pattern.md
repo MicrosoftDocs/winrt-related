@@ -78,18 +78,9 @@ This regular expression must match an incoming message for further parsing to pr
 
 ## Requirements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>http://www.microsoft.com/networking/CarrierControl/WWAN/v1</p></td>
-</tr>
-</tbody>
-</table>
+|          |         |
+|----------|--------------|
+| **Namespace** | `http://www.microsoft.com/networking/CarrierControl/WWAN/v1` |
 
  
 

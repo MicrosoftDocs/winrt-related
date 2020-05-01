@@ -13,7 +13,7 @@ ms.workload: ["cplusplus"]
 
 # winrt::no_weak_ref marker struct (C++/WinRT)
 
-A marker type passed to the [**implements**](implements.md) base struct to opt out of weak reference support, which is otherwise provided automatically. As a result, **implements** does not implement the [IWeakReferenceSource interface](https://msdn.microsoft.com/library/windows/desktop/hh802476). See [Strong and weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references). For a usage example of marker types, see [Marker types](implements.md#marker-types).
+A marker type passed to the [**implements**](implements.md) base struct to opt out of weak reference support, which is otherwise provided automatically. As a result, **implements** does not implement the [IWeakReferenceSource interface](/windows/win32/api/objidlbase/nn-objidlbase-iagileobject). See [Strong and weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references). For a usage example of marker types, see [Marker types](implements.md#marker-types).
 
 ## Syntax
 ```cppwinrt

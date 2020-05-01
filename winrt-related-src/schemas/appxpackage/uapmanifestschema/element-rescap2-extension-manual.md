@@ -184,7 +184,7 @@ None.
 
 |               |                                                                                          |
 |---------------|------------------------------------------------------------------------------------------|
-| **Namespace** | http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/2 |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/2` |
 
  
 

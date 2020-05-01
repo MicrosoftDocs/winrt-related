@@ -41,6 +41,11 @@ Defines additional metadata about the package including attributes that describe
   & ResourcePackage?
   & uap:SupportedUsers?
   & uap6:AllowExecution?
+  & desktop6:FileSystemWriteVirtualization?
+  & desktop6:RegistryWriteVirtualization?
+  & rescap6:ModificationPackage?
+  & uap10:AllowExternalContent?
+  & uap10:PackageIntegrity?
   )
 
 </Properties>
@@ -104,6 +109,26 @@ None.
 <td><a href="element-uap6-allowexecution.md">uap6:AllowExecution</a> </td>
 <td><p>A boolean value that specifies whether packages with executable are allowed to execute. By default, this value is true.</p></td>
 </tr>
+<tr class="odd">
+<td><a href="element-desktop6-filesystemwritevirtualization.md">desktop6:FileSystemWriteVirtualization</a> </td>
+<td><p>Indicates whether virtualization for the file system is enabled for your desktop application.</p></td>
+</tr>
+<tr class="even">
+<td><a href="element-desktop6-registrywritevirtualization.md">desktop6:RegistryWriteVirtualization</a> </td>
+<td><p>Indicates whether virtualization for the registry is enabled for your desktop application.</p></td>
+</tr>
+<tr class="odd">
+<td><a href="element-rescap6-modificationpackage.md">rescap6:ModificationPackage</a> </td>
+<td><p>Declares that the current package is a modification package for an enterprise application.</p></td>
+</tr>
+<tr class="even">
+<td><a href="element-uap10-allowexternalcontent.md">uap10:AllowExternalContent</a> </td>
+<td><p>Enables your package manifest to reference content outside the package, in a specific location on disk, for [sparse package](https://docs.microsoft.com/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps) scenarios.</p></td>
+</tr>
+<tr class="even">
+<td><a href="element-uap10-packageintegrity.md">uap10:PackageIntegrity</a> </td>
+<td><p>Specifies the level of run time package integrity checks and remediation for the package.</p></td>
+</tr>
 </tbody>
 </table>
 
@@ -154,18 +179,10 @@ The following example is taken from the package manifest of one of the SDK sampl
 
 ## Requirements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>http://schemas.microsoft.com/appx/manifest/foundation/windows10</p></td>
-</tr>
-</tbody>
-</table>
+|   |   |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+
 
  
 

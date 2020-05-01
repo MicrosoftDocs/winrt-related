@@ -138,7 +138,7 @@ None.
 
 |               |                                                                    |
 |---------------|--------------------------------------------------------------------|
-| **Namespace** | http://schemas.microsoft.com/appx/manifest/serverpreview/windows10 |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/serverpreview/windows10` |
 
  
 

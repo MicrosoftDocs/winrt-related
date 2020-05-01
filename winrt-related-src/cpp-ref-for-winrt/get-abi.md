@@ -13,7 +13,7 @@ ms.workload: ["cplusplus"]
 
 # winrt::get_abi function (C++/WinRT)
 
-A helper function that retrieves a pointer to a C++/WinRT object's underlying [IUnknown interface](https://msdn.microsoft.com/library/windows/desktop/ms680509). For more info, and code examples, see [Interop between C++/WinRT and the ABI](/windows/uwp/cpp-and-winrt-apis/interop-winrt-abi).
+A helper function that retrieves a pointer to a C++/WinRT object's underlying [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown). For more info, and code examples, see [Interop between C++/WinRT and the ABI](/windows/uwp/cpp-and-winrt-apis/interop-winrt-abi).
 
 ## Syntax
 ```cppwinrt

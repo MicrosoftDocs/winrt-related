@@ -153,7 +153,7 @@ Identifies an Internet Information Service (IIS) SectionGroupDefinition as it pe
 
 |               |                                                                    |
 |---------------|--------------------------------------------------------------------|
-| **Namespace** | http://schemas.microsoft.com/appx/manifest/serverpreview/windows10 |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/serverpreview/windows10` |
 
  
 

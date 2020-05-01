@@ -180,18 +180,10 @@ The following elements have the same name as this one, but different content or 
 
 ## Requirements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>http://schemas.microsoft.com/appx/manifest/uap/windows10</p></td>
-</tr>
-</tbody>
-</table>
+|   |   |
+|--|--|
+| Namespace | `	http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+
 
  
 

@@ -58,6 +58,7 @@ Specifies the application's execution alias to determine the executable of the a
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | desktop4:Subsystem | Indicates whether the app is a standard UWP app or a UWP console app. | String value. Can be one of the following: "console", "windows" | No |
+| uap10:Subsystem | Indicates whether the app is a standard UWP app or a UWP console app. | String value. Can be one of the following: "console", "windows" | No |
 
 ### Child Elements
 | Child Element | Description |
@@ -67,15 +68,6 @@ Specifies the application's execution alias to determine the executable of the a
 
 ## Requirements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>http://schemas.microsoft.com/appx/manifest/uap/windows10/5</p></td>
-</tr>
-</tbody>
-</table>
+|   |   |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5`<br/><br/>`http://schemas.microsoft.com/appx/manifest/desktop/windows10/4` (for the **desktop4:Subsystem** attribute)<br/><br/>`http://schemas.microsoft.com/appx/manifest/uap/windows10/10` (for the **uap10:Subsystem** attribute) |

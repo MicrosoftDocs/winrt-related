@@ -53,15 +53,6 @@ See [uap5:DriverConstraint](element-uap5-DriverConstraint.md) for an example.
 
 ## Requirements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Namespace</p></td>
-<td><p>http://schemas.microsoft.com/appx/manifest/uap/windows10/5</p></td>
-</tr>
-</tbody>
-</table>
+|   |   |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |

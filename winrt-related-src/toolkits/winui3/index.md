@@ -1,13 +1,13 @@
 ---
-title: WinUI 3.0 Alpha (November 2019)
+title: WinUI 3.0 Alpha (February 2020)
 description: Overview of the WinUI 3.0 Alpha.
 
 
-ms.date: 11/04/2019
+ms.date: 2/11/2020
 ms.topic: reference
 ---
 
-# WinUI 3.0 Alpha (November 2019)
+# WinUI 3.0 Alpha (February 2020)
 
 WinUI 3.0 is a major update to the Windows 10 UI platform planned for release in 2020.
 
@@ -132,13 +132,43 @@ The WinUI 3.0 Alpha project templates for Visual Studio only support building C#
 
 ### Platform and OS support
 
-The WinUI 3 Alpha works on PCs running the Windows 10 April 2018 Update (1803) and newer.
+The WinUI 3.0 Alpha is compatible with PCs running the Windows 10 April 2018 Update (1803) and newer.
 
 Future updates will include support for a wider range of Windows versions and devices.
 
 ### Controls and features
 
-The following list shows the UI controls and features that are not included (or not fully functional) in the first Alpha build.
+The latest (February 2020) update to the WinUI 3.0 Alpha adds a Chromium-based Microsoft Edge [WebView2](https://github.com/microsoft/microsoft-ui-xaml/issues/1658) control. This release of the WebView2 control has the following known issues:
+
+> [!IMPORTANT]
+> You must add a reference to the [Microsoft Edge WebView2 NuGet package](https://www.nuget.org/packages/Microsoft.Web.WebView2) to your app. [Version 0.8.355](https://www.nuget.org/packages/Microsoft.Web.WebView2/) is the latest NuGet package known to work.
+
+* A limited API/feature set.
+  - See [API draft](https://github.com/microsoft/microsoft-ui-xaml-specs/blob/master/active/WebView2/WebView2_spec.md) for more details.
+* Current Beta version of Microsoft Edge is required.
+  - Future updates to Microsoft Edge might cause the WebView2 control to stop working.
+* Incomplete accessibility support.
+* Z-order issue.
+  - Alpha WebView2 is always rendered on top of other content.
+* Limited support for Keyboard input.
+  - Basic keyboard input works as expected. However, other text input scenarios are incomplete.
+* WebViewBrush is not yet functional with WebView2.
+* Touch input does not work correctly when using DPI scaling.
+  - DPI should be set to 100%.
+* IntelliSense still shows for the deprecated WebView control which is no longer included. For correct IntelliSense support for WebView2 you must use an xmlns namespace, such as:
+
+```xaml
+<Page
+...
+    xmlns:controls="using:Microsoft.UI.Xaml.Controls">
+
+    <Grid>
+        <controls:WebView2 UriSource="http://www.bing.com" Width="800" Height="600"/>
+    </Grid>
+</Page>
+```
+
+The following list shows the UI controls and features that are not included (or not fully functional) in the current Alpha build.
 
 * [AcrylicBrush](https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.acrylicbrush)
 * [AppWindow](https://docs.microsoft.com/windows/uwp/design/layout/app-window) functionality including [ElementCompositionPreview.GetAppWindowContent](https://docs.microsoft.com/uwp/api/windows.ui.xaml.hosting.elementcompositionpreview.getappwindowcontent) and [ElementCompositionPreview.SetAppWindowContent](https://docs.microsoft.com/uwp/api/windows.ui.xaml.hosting.elementcompositionpreview.setappwindowcontent) 
@@ -152,7 +182,6 @@ The following list shows the UI controls and features that are not included (or 
 * [System.ComponentModel.INotifyPropertyChanged](https://docs.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged?view=dotnet-uwp-10.0) and [System.Collections.Specialized.INotifyCollectionChanged](https://docs.microsoft.com/dotnet/api/system.collections.specialized.inotifycollectionchanged?view=dotnet-uwp-10.0) for C# apps. Use the `Microsoft.UI.Xaml.Interop` versions of these interfaces instead.
 * [ObservableCollection\<T\>](https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1?view=netframework-4.8) implements [System.ComponentModel.INotifyPropertyChanged](https://docs.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged?view=dotnet-uwp-10.0) and [System.Collections.Specialized.INotifyCollectionChanged](https://docs.microsoft.com/dotnet/api/system.collections.specialized.inotifycollectionchanged?view=dotnet-uwp-10.0). See the Xaml Controls Gallery app for an example of an [alternative observable collection implementation](https://github.com/microsoft/Xaml-Controls-Gallery/blob/winui3alpha/XamlControlsGallery/CollectionsInterop.cs).
 * [ThemeShadow](https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.themeshadow)
-* [WebView](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Controls.WebView)
 * [Window.SetTitleBar](https://docs.microsoft.com/uwp/api/windows.ui.xaml.window.settitlebar) and custom window title bars
 * [Xaml Islands](https://docs.microsoft.com/windows/apps/desktop/modernize/xaml-islands) functionality including [DesktopWindowXamlSource](https://docs.microsoft.com/uwp/api/windows.ui.xaml.hosting.desktopwindowxamlsource)
 * [XamlLight](https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.xamllight)

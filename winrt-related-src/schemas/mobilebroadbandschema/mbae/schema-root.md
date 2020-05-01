@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # MBAE schema
 
 
-The Mobile Broadband Account Experience (MBAE) schema defines elements that are used by mobile network operators and retail partners to deliver valued added services to customers. All of the elements are in the namespace http://schemas.microsoft.com/windows/2010/12/DeviceMetadata/MobileBroadbandInfo. Not all elements are in every profile, as some elements are optional.
+The Mobile Broadband Account Experience (MBAE) schema defines elements that are used by mobile network operators and retail partners to deliver valued added services to customers. All of the elements are in the namespace `http://schemas.microsoft.com/windows/2010/12/DeviceMetadata/MobileBroadbandInfo`. Not all elements are in every profile, as some elements are optional.
 
 The following table lists all of the elements in this schema, sorted alphabetically by name.
 
