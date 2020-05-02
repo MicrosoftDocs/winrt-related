@@ -37,9 +37,9 @@ Shows how much progress has been made on a known amount of work.
 
 ![Determinate Progress Bar](../images/DeterminateProgressBar.gif)
 
-[Doc link](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/progress-controls)
+[Doc link](/windows/uwp/design/controls-and-patterns/progress-controls)
 
-[Sample link](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/progress-controls#examples)
+[Sample link](/windows/uwp/design/controls-and-patterns/progress-controls#examples)
 
 ### NumberBox
 
