@@ -65,6 +65,11 @@ You can also hide the close button on unselected tabs until the user hovers over
 
 When dark theme is enabled, the background color of TextBox family controls remains dark by default on text insertion (in previous versions, the background color changes to light theme during text insertion).
 
+| Before | After |
+| - | - |
+| ![TextBox dark theme updates (before)](..\images\textbox-darkthemeupdates-before1.gif)<br>*TextBox dark theme updates (before)* | ![TextBox dark theme updates (after)](..\images\textbox-darkthemeupdates-after1.gif)<br>*TextBox dark theme updates (after)* |
+| ![TextBox dark theme updates (before)](..\images\textbox-darkthemeupdates-before2.gif)<br>*TextBox dark theme updates (before)* | ![TextBox dark theme updates (after)](..\images\textbox-darkthemeupdates-after2.gif)<br>*TextBox dark theme updates (after)* |
+
 The following are some of the controls included in the TextBox family of controls:
 
 - [TextBox](/uwp/api/windows.ui.xaml.controls.textbox)
@@ -72,3 +77,25 @@ The following are some of the controls included in the TextBox family of control
 - [PasswordBox](/uwp/api/windows.ui.xaml.controls.passwordbox)
 - [Editable ComboBox](/uwp/api/windows.ui.xaml.controls.combobox)
 - [AutoSuggestBox](/uwp/api/windows.ui.xaml.controls.autosuggestbox)
+
+### Hierarchical navigation
+
+The [NavigationView](/uwp/api/microsoft.ui.xaml.controls.navigationview?view=winui-2.4) control now supports more complex hierarchical navigation structures.
+
+Previously limited to a flat list of items, you can now specify top-level navigation items for categories of pages and child items for specific pages. A hierarchical NavigationView is also useful if you have hub-style pages that only link to other pages.
+
+A hierarchical NavigationView can contain any number of nested levels, but we recommend keeping your application's navigation hierarchy as shallow as possible (two levels is typically ideal for usability and comprehension).
+
+NavigationView shows hierarchy in Top, Left, and LeftCompact pane display modes.
+
+![Hierarchical NavigationView control](..\images\HierarchicalNavView.gif)<br>*Hierarchical NavigationView control*
+
+## Samples
+
+Examples of each of the WinUI 2.4 features described are available in the **XAML Controls Gallery**.
+
+If you have the XAML Controls Gallery app installed, [open the app](xamlcontrolsgallery:/item/NavigationView) to see the NavigationView in action.
+
+If you don't have the XAML Controls Gallery app installed, get it from the [XMicrosoft Store](https://www.microsoft.com/p/xaml-controls-gallery/9msvh128x2zt).
+
+You can also view the XAML Controls Gallery source code on [GitHub](https://github.com/Microsoft/Xaml-Controls-Gallery).
