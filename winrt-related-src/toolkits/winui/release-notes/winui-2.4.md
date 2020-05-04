@@ -96,6 +96,6 @@ Examples of each of the WinUI 2.4 features described are available in the **XAML
 
 If you have the XAML Controls Gallery app installed, [open the app](xamlcontrolsgallery:/item/NavigationView) to see the NavigationView in action.
 
-If you don't have the XAML Controls Gallery app installed, get it from the [XMicrosoft Store](https://www.microsoft.com/p/xaml-controls-gallery/9msvh128x2zt).
+If you don't have the XAML Controls Gallery app installed, get it from the [Microsoft Store](https://www.microsoft.com/p/xaml-controls-gallery/9msvh128x2zt).
 
 You can also view the XAML Controls Gallery source code on [GitHub](https://github.com/Microsoft/Xaml-Controls-Gallery).
