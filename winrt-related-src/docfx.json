@@ -66,6 +66,7 @@
           "specifications/*.md": "Karl-Bridge-Microsoft",
           "toolkits/*.md": "Karl-Bridge-Microsoft",
           "toolkits/winui/*.md": "Karl-Bridge-Microsoft",
+          "toolkits/winui/release-notes/*.md": "Karl-Bridge-Microsoft",
           "toolkits/winui3/*.md": "Karl-Bridge-Microsoft",
           "win32-and-com/*.md": "mcleanbyron",
           "winrt-cref/*.md": "stevewhims"
