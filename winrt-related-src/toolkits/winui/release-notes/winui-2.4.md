@@ -90,6 +90,10 @@ NavigationView shows hierarchy in Top, Left, and LeftCompact pane display modes.
 
 ![Hierarchical NavigationView control](..\images\HierarchicalNavView.gif)<br>*Hierarchical NavigationView control*
 
+[Usage guidelines](/windows/uwp/design/controls-and-patterns/navigationview#hierarchical-navigation)
+
+[API reference](/uwp/api/microsoft.ui.xaml.controls.navigationview)
+
 ## Samples
 
 Examples of each of the WinUI 2.4 features described are available in the **XAML Controls Gallery**.
