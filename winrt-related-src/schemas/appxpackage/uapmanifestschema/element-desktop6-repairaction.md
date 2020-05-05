@@ -13,7 +13,7 @@ ms.custom: 19H1
 
 
 ## Description
-Specifies an installer file (.exe or .msi) that is run when the user selects the repair or reset options in the Settings page for your desktop application.
+Specifies an installer file (.exe or .msi) that is run when the user selects the repair or reset options in the Settings page for your desktop application. This element is currently intended to be used only by desktop PC games that are packaged in an MSIXVC container.
 
 ## Element Hierarchy
 <dl>

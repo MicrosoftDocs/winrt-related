@@ -138,18 +138,30 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [desktop4:Verb](element-desktop4-verb.md) | Names and class IDs of the commands registered in the Shell for a file explorer context menu. |
 | [desktop5:ItemType](element-desktop5-itemtype.md) | Contains the type of command to be registered in the context menu. |
 | [desktop5:Verb](element-desktop5-verb.md) | Names and class IDs of the commands registered in the Shell for a file explorer context menu. |
-| [desktop6:Extension](element-desktop6-extension.md) | Declares an extensibility point for the app. |
-| [desktop6:Service](element-desktop6-service.md) | Specifies a service that is installed and registered along with the app. These services can be configured to run under either the Local Service, Network Service or Local System account. |
+| [desktop6:BinaryData](element-desktop6-binarydata.md) | Specifies binary data for a trigger event of a service. |
+| [desktop6:CustomInstall](element-desktop6-custominstall.md) | Enables your desktop application to specify one or more additional installer files (.exe or .msi) that are installed with your desktop application.  |
+| [desktop6:DataItem](element-desktop6-dataitem.md) | Specifies a string value for a trigger event of a service. |
 | [desktop6:Dependencies](element-desktop6-dependencies.md) | Specifies one or more dependent services for the current service. |
 | [desktop6:DependentService](element-desktop6-dependentservice.md) | Specifies a dependent service for the current service. |
-| [desktop6:TriggerEvents](element-desktop6-triggerevents.md) | Describes one or more trigger events for the current service. |
-| [desktop6:TriggerCustom](element-desktop6-triggercustom.md) | Describes a trigger event for the current service. |
-| [desktop6:StringData](element-desktop6-stringdata.md) | Specifies one or more string data values for a trigger event of a service. |
-| [desktop6:DataItem](element-desktop6-dataitem.md) | Specifies a string value for a trigger event of a service. |
-| [desktop6:BinaryData](element-desktop6-binarydata.md) | Specifies binary data for a trigger event of a service. |
-| [desktop6:LevelData](element-desktop6-leveldata.md) | Specifies a byte value for a trigger event of a service. |
+| [desktop6:Extension (child of Application)](element-desktop6-extension.md) | Declares an extensibility point for the app. |
+| [desktop6:Extension (child of Package)](element-desktop6-package-extension.md) | Declares an extensibility point for the app. |
+| [desktop6:FileSystemWriteVirtualization](element-desktop6-filesystemwritevirtualization.md) | Indicates whether virtualization for the file system is enabled for your desktop application. |
+| [desktop6:InstallActions](element-desktop6-installactions.md) | Specifies installer files (.exe or .msi) that are run before the first launch of your desktop application. This element is currently intended to be used only by desktop PC games that are packaged in an MSIXVC container. |
+| [desktop6:InstallAction](element-desktop6-installaction.md) | Specifies an installer file (.exe or .msi) that is run before the first launch of your desktop application. This element is currently intended to be used only by desktop PC games that are packaged in an MSIXVC container. |
+| [desktop6:RegistryWriteVirtualization](element-desktop6-extension.md) | Indicates whether virtualization for the registry is enabled for your desktop application. |
 | [desktop6:KeywordAnyData](element-desktop6-keywordanydata.md) | Specifies a 64-bit unsigned integer value for a trigger event of a service. |
 | [desktop6:KeywordAllData](element-desktop6-keywordalldata.md) | Specifies a 64-bit unsigned integer value for a trigger event of a service. |
+| [desktop6:MutablePackageDirectories](element-desktop6-mutablepackagedirectories) | Enables your desktop application to specify one or more folders where users can modify the installation files for your application (for example, to install mods). |
+| [desktop6:MutablePackageDirectory](element-desktop6-mutablepackagedirectory) | Specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of your desktop application's install folder are projected so that users can modify the installation files (for example, to install mods). |
+| [desktop6:LevelData](element-desktop6-leveldata.md) | Specifies a byte value for a trigger event of a service. |
+| [desktop6:RepairActions](element-desktop6-repairactions.md) | Specifies installer files (.exe or .msi) that are run when the user selects the repair or reset options in the Settings page for your desktop application. This element is currently intended to be used only by desktop PC games that are packaged in an MSIXVC container.  |
+| [desktop6:RepairAction](element-desktop6-repairaction.md) | Specifies an installer file (.exe or .msi) that is run when the user selects the repair or reset options in the Settings page for your desktop application. This element is currently intended to be used only by desktop PC games that are packaged in an MSIXVC container. |
+| [desktop6:Service](element-desktop6-service.md) | Specifies a service that is installed and registered along with the app. These services can be configured to run under either the Local Service, Network Service or Local System account. |
+| [desktop6:StringData](element-desktop6-stringdata.md) | Specifies one or more string data values for a trigger event of a service. |
+| [desktop6:TriggerEvents](element-desktop6-triggerevents.md) | Describes one or more trigger events for the current service. |
+| [desktop6:TriggerCustom](element-desktop6-triggercustom.md) | Describes a trigger event for the current service. |
+| [desktop6:UninstallActions](element-desktop6-uninstallactions.md) | Specifies installer files (.exe or .msi) that are run when the user uninstalls your desktop application. This element is currently intended to be used only by desktop PC games that are packaged in an MSIXVC container. |
+| [desktop6:UninstallAction](element-desktop6-uninstallaction.md) | Specifies an installer file (.exe or .msi) that is run when the user uninstalls your desktop application. This element is currently intended to be used only by desktop PC games that are packaged in an MSIXVC container.  |
 | [Device](element-device.md) | Declares a function for a device that is associated with the [**DeviceCapability**](element-devicecapability.md). On Windows 10.0.10240.0, a **DeviceCapability** can contain up to 100 **Device** elements. On Windows 10.0.10586.0, it can contain up to 1000 (for more details, see **DeviceCapability**). |
 | [DeviceCapability](element-devicecapability.md) | Declares a device capability required by a package. On Windows 10.0.10240.0, can contain up to 100 [**Device**](element-device.md) elements. On Windows 10.0.10586.0, can contain up to 1000 (for syntax and examples, see Examples). |
 | [DisplayName](element-displayname.md) | A friendly name that can be displayed to users. |
@@ -341,5 +353,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap8:ExecutionAlias](element-uap8-executionalias.md) | The executable of a UWP app to be activated from a command prompt. |
 | [uap10:AllowExternalContent](element-uap10-allowexternalcontent.md) | Enables your package manifest to reference content outside the package, in a specific location on disk, for [sparse package](https://docs.microsoft.com/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps) scenarios. |
 | [uap10:Content](element-uap10-content.md) | Indicates whether Windows will enforce run time package integrity checks on the entire contents of the package. |
+| [uap10:Extension](element-uap10-extension.md) | Declares an extensibility point for the app. |
+| [uap10:HostRuntime](element-uap10-hostruntime.md) | Defines a package-wide extension that defines the runtime information to be used when activating a hosted app. |
 | [uap10:HostRuntimeDependency](element-uap10-hostruntimedependency.md) | Defines a dependency on a host app package for the current app package. |
 | [uap10:PackageIntegrity](element-uap10-packageintegrity.md) | Specifies the level of run time package integrity checks and remediation for the package.  |
