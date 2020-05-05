@@ -19,7 +19,7 @@ NuGet package download: [Microsoft.UI.Xaml](https://www.nuget.org/packages/Micro
 
 ## New Features
 
-### RadialGradientBrush fill style
+### RadialGradientBrush
 
 A RadialGradientBrush is drawn within an ellipse defined by Center, RadiusX, and RadiusY properties. Colors for the gradient start at the center of the ellipse and end at the radius.
 
@@ -30,20 +30,18 @@ A RadialGradientBrush is drawn within an ellipse defined by Center, RadiusX, and
 
 [API reference](/uwp/api/microsoft.ui.xaml.media.radialgradientbrush)
 
-### ProgressRing control
+### ProgressRing
 
 The ProgressRing control is used for modal interactions where the user is blocked until the ProgressRing disappears. Use this control if an operation requires that most interaction with the app be suspended until the operation is complete.
 
-![ProgressRing control](../images/progressring.png)<br>
+![ProgressRing control](../images/progressring.gif)<br>
 *ProgressRing control*
 
 [Usage guidelines](/windows/uwp/design/controls-and-patterns/progress-controls)
 
 [API reference](/uwp/api/microsoft.ui.xaml.controls.progressring)
 
-[Sample link](/windows/uwp/design/controls-and-patterns/progress-controls#examples)
-
-### TabView control updates
+### TabView updates
 
 The TabView control updates provide you with more control over how to render tabs.
 
@@ -61,7 +59,7 @@ You can also hide the close button on unselected tabs until the user hovers over
 
 [API reference](/uwp/api/microsoft.ui.xaml.controls.tabview)
 
-### Dark theme updates for TextBox family controls
+### Dark theme updates to TextBox family of controls
 
 When dark theme is enabled, the background color of TextBox family controls remains dark by default on text insertion (in previous versions, the background color changes to light theme during text insertion).
 
@@ -80,13 +78,7 @@ The following are some of the controls included in the TextBox family of control
 
 ### Hierarchical navigation
 
-The [NavigationView](/uwp/api/microsoft.ui.xaml.controls.navigationview?view=winui-2.4) control now supports more complex hierarchical navigation structures.
-
-Previously limited to a flat list of items, you can now specify top-level navigation items for categories of pages and child items for specific pages. A hierarchical NavigationView is also useful if you have hub-style pages that only link to other pages.
-
-A hierarchical NavigationView can contain any number of nested levels, but we recommend keeping your application's navigation hierarchy as shallow as possible (two levels is typically ideal for usability and comprehension).
-
-NavigationView shows hierarchy in Top, Left, and LeftCompact pane display modes.
+The [NavigationView](/uwp/api/microsoft.ui.xaml.controls.navigationview?view=winui-2.4) control now supports hierarchical navigation and includes Left, Top, and LeftCompact display modes. A hierarchical NavigationView is useful for displaying categories of pages, identifying pages with related child-pages, or using within apps that have hub-style pages linking to many other pages.
 
 ![Hierarchical NavigationView control](..\images\HierarchicalNavView.gif)<br>*Hierarchical NavigationView control*
 
@@ -97,8 +89,6 @@ NavigationView shows hierarchy in Top, Left, and LeftCompact pane display modes.
 ## Samples
 
 Examples of each of the WinUI 2.4 features described are available in the **XAML Controls Gallery**.
-
-If you have the XAML Controls Gallery app installed, [open the app](xamlcontrolsgallery:/item/NavigationView) to see the NavigationView in action.
 
 If you don't have the XAML Controls Gallery app installed, get it from the [Microsoft Store](https://www.microsoft.com/p/xaml-controls-gallery/9msvh128x2zt).
 
