@@ -61,7 +61,7 @@ You can also hide the close button on unselected tabs until the user hovers over
 
 ### Dark theme updates to TextBox family of controls
 
-When dark theme is enabled, the background color of TextBox family controls remains dark by default on text insertion (in previous versions, the background color changes to light theme during text insertion).
+When dark theme is enabled, the background color of TextBox family controls remains dark by default on text insertion (in previous versions, the background color changes to white during text insertion).
 
 | Before | After |
 | - | - |
