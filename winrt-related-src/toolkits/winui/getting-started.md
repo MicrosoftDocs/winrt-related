@@ -10,7 +10,7 @@ keywords: windows 10, uwp, toolkit sdk
 
 # Getting started with the Windows UI Library
 
-[WinUI 2.3](release-notes/winui-2.3.md) is the latest stable version of WinUI and should be used for apps in production.
+[WinUI 2.4](release-notes/winui-2.4.md) is the latest stable version of WinUI and should be used for apps in production.
 
 The library is available as a NuGet package that can be added to any new or existing Visual Studio project.
 
