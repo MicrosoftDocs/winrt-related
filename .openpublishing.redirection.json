@@ -1,0 +1,69 @@
+{
+  "redirections": [
+    {
+    "source_path": "winrt-related-src/schemas/appxpackage/uapmaifestsschema/element-pm-phoneidentity.md",
+    "redirect_url": "winrt-related-src/schemas/appxpackage/uapmanifestsschema/element-mp-phoneidentity.md",
+    "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/toolkits/index.md",
+      "redirect_url": "/windows/apps/winui/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/toolkits/winui3/index.md",
+      "redirect_url": "/windows/apps/winui/winui3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/toolkits/winui/index.md",
+      "redirect_url": "/windows/apps/winui/winui2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/toolkits/winui/getting-started.md",
+      "redirect_url": "/windows/apps/winui/winui2/getting-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/toolkits/winui/nuget-packages.md",
+      "redirect_url": "/windows/apps/winui/winui2/nuget-packages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/toolkits/winui/license.md",
+      "redirect_url": "/windows/apps/winui/winui2/license",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/toolkits/winui/release-notes/index.md",
+      "redirect_url": "/windows/apps/winui/winui2/release-notes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/toolkits/winui/release-notes/winui-2.4.md",
+      "redirect_url": "/windows/apps/winui/winui2/release-notes/winui-2.4",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/toolkits/winui/release-notes/winui-2.3.md",
+      "redirect_url": "/windows/apps/winui/winui2/release-notes/winui-2.3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/toolkits/winui/release-notes/winui-2.2.md",
+      "redirect_url": "/windows/apps/winui/winui2/release-notes/winui-2.2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/toolkits/winui/release-notes/winui-2.1.md",
+      "redirect_url": "/windows/apps/winui/winui2/release-notes/winui-2.1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/toolkits/winui/release-notes/winui-2.0.md",
+      "redirect_url": "/windows/apps/winui/winui2/release-notes/winui-2.0",
+      "redirect_document_id": false
+    },
+  ]
+}
