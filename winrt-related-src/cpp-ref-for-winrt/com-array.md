@@ -11,7 +11,9 @@ ms.workload: ["cplusplus"]
 
 # winrt::com_array struct template (C++/WinRT)
 
-An array of objects; used for passing parameters to and from Windows Runtime APIs. **com_array** uses the COM allocator for memory allocation and freeing, hence the name.
+Represents a C-style conformant array of data where the underlying buffer is allocated and freed via the COM task allocator, hence the name. It's typically used to represent a C-style conformant array that's allocated by one component, and freed by another.
+
+**winrt::com_array** is used for passing parameters to and from Windows Runtime APIs. If you're authoring APIs then you'll probably need to construct a **winrt::com_array** to return a projected array to the caller; either as the return value, or through an output parameter.
 
 **winrt::com_array** derives from **winrt::array_view**. See the [**winrt::array_view**](array-view.md) struct template topic, which documents members and free operators that are also available to **winrt::com_array**. However, be aware of the difference in semantics between the base type **winrt::array_view** (which is a non-owning view, or span, of a contiguous series of values), and **winrt::com_array** (which allocates and frees its own elements).
 
@@ -67,17 +69,19 @@ Initializes a new instance of the **com_array** struct with a copy of the input 
 
 ### Syntax
 
+The constructors are numbered, and described further in **Remarks** below.
+
 ```cppwinrt
-com_array() noexcept;
-com_array(uint32_t const count);
-com_array(uint32_t const count, T const& value);
-template <typename InIt> com_array(InIt first, InIt last);
-com_array(std::vector<T> const& vectorValue);
-template <size_t N> com_array(std::array<T, N> const& arrayValue);
-template <uint32_t N> com_array(T const(&rawArrayValue)[N])
-com_array(std::initializer_list<T> initializerListValue);
-com_array(void* ptr, uint32_t const count, winrt::take_ownership_from_abi_t) noexcept;
-com_array(com_array&& comArrayValue) noexcept;
+1.  com_array() noexcept;
+2.  com_array(uint32_t const count);
+3.  com_array(uint32_t const count, T const& value);
+4.  template <typename InIt> com_array(InIt first, InIt last);
+5.  com_array(std::vector<T> const& vectorValue);
+6.  template <size_t N> com_array(std::array<T, N> const& arrayValue);
+7.  template <uint32_t N> com_array(T const(&rawArrayValue)[N])
+8.  com_array(std::initializer_list<T> initializerListValue);
+9.  com_array(void* ptr, uint32_t const count, winrt::take_ownership_from_abi_t) noexcept;
+10. com_array(com_array&& comArrayValue) noexcept;
 ```
 
 ### Template parameters
@@ -116,6 +120,79 @@ The value to give to each element of the **com_array** object.
 
 `vectorValue`
 A **std::vector** value that initializes the **com_array** object.
+
+### Remarks
+
+The constructors are numbered in **Syntax** above.
+
+#### 1. Default constructor
+
+Constructs an empty buffer.
+
+#### 2. Capacity constructor; default value
+
+Creates a buffer of *count* elements, all of which are copies of a default-constructed **T**.
+
+This is similar to (but not the same as) creating a buffer of *count* elements, each of which is a default-constructed **T**.
+
+```cppwinrt
+auto players{ winrt::com_array<MediaPlayer>(50) };
+```
+
+The **MediaPlayer** object's default constructor creates a reference to a new media player object, and its copy constructor copies the reference. Therefore, the above line of code creates an array of 50 references to the same media player object. It doesn't create an array of 50 different media player objects.
+
+#### 3. Capacity constructor; explicit value
+
+Creates a buffer of *count* elements, each of which is a copy of the provided *value*.
+
+`winrt::com_array(2, 42)` is interpreted as an attempt to use the range constructor (4). But it fails because 2 and 42 aren't iterators. To get this to be interpreted as a capacity constructor with an explicit **int32_t** value, use an explicitly unsigned integer as the first parameter: `com_array(2u, 42)`.
+
+#### 4. Range constructor
+
+Creates a buffer that is a copy of the range [*first*, *last*).
+
+State the underlying type **T** explicitly, like this.
+
+```cppwinrt
+auto a{ winrt::com_array<T>(source.begin(), source.end()) };
+```
+
+To move the range, rather than copying it, use the **std::move_iterator** iterator adaptor.
+
+```cppwinrt
+auto a{ winrt::com_array<T>(std::move_iterator(source.begin()),
+                            std::move_iterator(source.end())) };
+```
+
+#### 5. Vector constructor
+
+Creates a buffer that is a copy of the contents of *vectorValue*.
+
+#### 6. Array constructor
+
+Creates a buffer that is a copy of the contents of *arrayValue*.
+
+#### 7. C-style array constructor
+
+Creates a buffer that is a copy of the contents of the C-style array *rawArrayValue*.
+
+#### 8. Initializer-list constructor
+
+Creates a buffer that is a copy of the contents of the initializer list *initializerListValue*.
+
+#### 9. ABI constructor
+
+Takes ownership of a buffer of specified length.
+
+This lowest-level of the constructors. Use it when you have a block of memory already allocated via **Co­Task­Mem­Alloc**, and you want the **com_array** to assume responsibility for it. To emphasize the special requirements for this constructor, the final argument must be **winrt::take_ownership_from_abi**.
+
+#### 10. Move constructor
+
+Moves the resources from another **com_array** of the same type, leaving the original empty.
+
+#### Constructors 5, 6, and 7
+
+Copies are taken of the contents of the provided container. You can use the range constructor (4) with the **std::move_iterator** iterator adaptor to move the contents into the **com_array** instead of copying them.
 
 ## com_array::clear function
 
