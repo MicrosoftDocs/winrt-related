@@ -26,11 +26,12 @@ D* get_self(I const& from) noexcept
 An implementation type.
 
 `typename I`
-A projected interface type.
+A projected interface or runtime class type.
 
 ### Parameters
 `from`
 An object of a projected type, a pointer to whose implementation to retrieve.
+This parameter may not be null.
 
 ### Return value 
 A pointer to the implementation object that implements the interface object.
