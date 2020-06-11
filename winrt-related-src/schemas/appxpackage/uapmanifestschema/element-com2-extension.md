@@ -45,7 +45,7 @@ Provides functionality to expose COM registrations to clients outside of the app
   <!-- Child elements -->
   ( com2:ComServer
   | com2:ComInterface )
-</com:Extension>
+</com2:Extension>
 ```
 
 ## Key
