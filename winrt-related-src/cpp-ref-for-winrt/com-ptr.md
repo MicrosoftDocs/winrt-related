@@ -1,9 +1,7 @@
 ---
-
 description: A reference-counted COM smart pointer template.
 title: winrt::com_ptr struct template (C++/WinRT)
 dev_langs: ["C++"]
-
 ms.date: 04/10/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, com, smart, pointer
@@ -54,6 +52,7 @@ The interface, or runtime class implementation type, a pointer to which is repre
 |[com_ptr::put function](#com_ptrput-function)|Returns the address of the underlying raw pointer; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer.|
 |[com_ptr::put_void function](#com_ptrput_void-function)|Returns the address of the underlying raw pointer as a pointer to a pointer to **void**; this function helps you call methods (such as COM methods) that return references as out parameters via a pointer to a pointer to **void**.|
 |[com_ptr::try_as function](#com_ptrtry_as-function)|Returns the requested interface, if it is supported. Returns `nullptr`, or `false`, if it is not.|
+|[com_ptr::try_capture function](#com_ptrtry_capture-function)|A version of [com_ptr::capture](#com_ptrcapture-function) that doesn't throw on failure but instead returns returns `true` if successful or `false` if not.|
 
 ## Member operators
 |Operator|Description|
@@ -163,7 +162,7 @@ A function object of type `F`.
 `object`
 A **winrt::com_ptr** of type `O`.
 
-`object`
+`method`
 A method (implemented by `O`) of type `M`.
 
 `args`
@@ -272,6 +271,9 @@ A reference to a value to receive the requested interface.
 
 ### Return value
 A **com_ptr** referencing the requested interface, or a strongly-typed smart pointer for the requested interface (either declared by C++/WinRT or by a third party), if the requested interface is supported, otherwise `nullptr` (the `auto`-returning overload), or `false` (the `bool`-returning overload).
+
+## com_ptr::try_capture function
+A version of [com_ptr::capture](#com_ptrcapture-function) that doesn't throw on failure but instead returns returns `true` if successful or `false` if not.
 
 ## com_ptr::operator bool
 Checks whether or not the smart pointer is referencing an interface or object. If the smart pointer is not referencing an interface or object, then it is logically null; otherwise it is logically not null.

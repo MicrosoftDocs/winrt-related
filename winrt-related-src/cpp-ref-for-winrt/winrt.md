@@ -70,6 +70,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | - | - |
 | [attach_abi function](attach-abi.md) | A helper function that attaches a C++/WinRT object to a handle, or to a raw pointer that owns a reference to its target. |
 | [box_value function template](box-value.md) | A function template that wraps (or *boxes*) a scalar value inside a reference class object so that it can be passed to a function that expects **IInspectable**. |
+| [capture function template](capture.md) | A function template that calls a specified function or method, captures the resulting interface pointer, and returns it as a [winrt::com_ptr](/uwp/cpp-ref-for-winrt/com-ptr). |
 | [check_bool function template](error-handling/check-bool.md) | A helper function that checks whether a value is false and, if so, retrieves the calling thread's last-error code value, and throws an exception using a C++/WinRT object that represents that error code. |
 | [check_hresult function](error-handling/check-hresult.md) | A helper function that checks whether an HRESULT code represents an error and, if so, throws an exception using a C++/WinRT object that represents the error code. |
 | [check_nt function template](error-handling/check-nt.md) | A helper function that checks whether a code represents an error and, if so, maps the NT status value of the error code to an HRESULT value and throws an exception using a C++/WinRT object that represents the error code. |
@@ -77,6 +78,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [check_win32 function template](error-handling/check-win32.md) | A helper function that checks whether a code represents an error and, if so, maps the system error code of the value to an HRESULT value and throws an exception using a C++/WinRT object that represents the error code. |
 | [copy_from_abi function](copy-from-abi.md) | A helper function that copies to a C++/WinRT object from a handle, or from a raw pointer. |
 | [copy_to_abi function](copy-to-abi.md) | A helper function that copies to a handle, or to a pointer from a C++/WinRT object. |
+| [create_instance function template](create-instance.md) | A function template that creates a single uninitialized object of the class associated with a specified CLSID, and returns it as a [winrt::com_ptr](/uwp/cpp-ref-for-winrt/com-ptr) or throws if not successful. |
 | [detach_abi function](detach-abi.md) | A helper function that detaches a C++/WinRT object from its referenced handle, or from its referenced interface. |
 | [from_abi function template](from-abi.md) | A helper function which, given an object of a projected type, retrieves a pointer to the implementation. |
 | [get_abi function](get-abi.md) | A helper function that retrieves a pointer to a C++/WinRT object's underlying [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown). |
@@ -106,6 +108,8 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [to_hresult function](error-handling/to-hresult.md) | A helper function, for use in a catch block, that turns the last exception thrown into a HRESULT error code. |
 | [to_hstring function](to-hstring.md) | A helper function that converts an input value to a **winrt::hstring** containing the value's string representation. |
 | [to_string function](to-string.md) | A helper function that converts an input wide string to a **std::string** containing a UTF-8 narrow string. |
+| [try_capture function template](try-capture.md) | A function template that calls a specified function or method, captures the interface pointer that's output from the function or method, and returns it as a [winrt::com_ptr](/uwp/cpp-ref-for-winrt/com-ptr) or an empty **com_ptr** if not successful. |
+| [try_create_instance function template](try-create-instance.md) | A function template that creates a single uninitialized object of the class associated with a specified CLSID, and returns it as a [winrt::com_ptr](/uwp/cpp-ref-for-winrt/com-ptr) or an empty **com_ptr** if not successful. |
 | [unbox_value function template](unbox-value.md) | A function template that unwraps (or *unboxes*) a scalar value from inside a reference class object so that it can be processed in a function that expects **IInspectable**. |
 | [unbox_value_or function template](unbox-value-or.md) | A function template that unwraps (or *unboxes*) a scalar value from inside a reference class object, with a fallback value, so that it can be processed in a function that expects **IInspectable**. |
 | [xaml_typename function template](xaml-typename.md) | A helper function that returns the type name of a Windows Runtime type, in the form of a [Windows::UI::Xaml::Interop::TypeName](/uwp/api/windows.ui.xaml.interop.typename) object. |

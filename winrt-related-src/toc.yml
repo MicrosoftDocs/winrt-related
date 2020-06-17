@@ -2057,6 +2057,8 @@
       href: cpp-ref-for-winrt/auto-revoke-t.md
     - name: "box_value function template"
       href: cpp-ref-for-winrt/box-value.md
+    - name: "capture function template"
+      href: cpp-ref-for-winrt/capture.md
     - name: "clock struct"
       href: cpp-ref-for-winrt/clock.md
     - name: "com_array struct template"
@@ -2067,6 +2069,8 @@
       href: cpp-ref-for-winrt/copy-from-abi.md
     - name: "copy_to_abi function"
       href: cpp-ref-for-winrt/copy-to-abi.md
+    - name: "create_instance function template"
+      href: cpp-ref-for-winrt/create-instance.md
     - name: "delegate struct template"
       href: cpp-ref-for-winrt/delegate.md
     - name: "detach_abi function"
@@ -2200,6 +2204,10 @@
       href: cpp-ref-for-winrt/to-hstring.md
     - name: "to_string function"
       href: cpp-ref-for-winrt/to-string.md
+    - name: "try_capture function template"
+      href: cpp-ref-for-winrt/try-capture.md
+    - name: "try_create_instance function template"
+      href: cpp-ref-for-winrt/try-create-instance.md
     - name: "unbox_value function template"
       href: cpp-ref-for-winrt/unbox-value.md
     - name: "unbox_value_or function template"
