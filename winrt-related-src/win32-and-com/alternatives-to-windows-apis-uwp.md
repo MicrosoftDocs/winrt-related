@@ -145,11 +145,11 @@ Here's some alternatives to system APIs that cannot be used in a UWP app.
 
 | Feature                                   | Alternative                                                           |
 |-------------------------------------------|-----------------------------------------------------------------------|
-| Console | none |
+| Console | [Create a UWP Console App](https://docs.microsoft.com/windows/uwp/launch-resume/console-uwp) |
 | Current directory | none |
 | Fibers | none |
-| Memory manager | Heap API |
-| Named pipes | none |
+| Memory manager | Heap API | 
+| Named pipes | [Interprocess Communications](https://docs.microsoft.com/windows/win32/ipc/interprocess-communications) |
 | Power | [Windows.Devices.Power](https://docs.microsoft.com/uwp/api/Windows.Devices.Power)<br />[Windows.System.Power](https://docs.microsoft.com/uwp/api/Windows.System.Power)<br />[Windows.System.Power.Diagnostics](https://docs.microsoft.com/uwp/api/Windows.System.Power.Diagnostics) |
 | Registry | [Windows.Storage.ApplicationDataContainer](https://docs.microsoft.com/uwp/api/Windows.Storage.ApplicationDataContainer)<br />[Windows.Storage.ApplicationDataContainerSettings](https://docs.microsoft.com/uwp/api/Windows.Storage.ApplicationDataContainerSettings)|
 | Thread pool | [Windows.System.Threading](https://docs.microsoft.com/uwp/api/Windows.System.Threading) |
@@ -171,7 +171,7 @@ Here's some alternatives to user interface APIs that cannot be used in a UWP app
 |-------------------------------------------|-----------------------------------------------------------------------|
 Common controls | HTML, XAML |
 DDE/NetDDE | none |
-DWM | none |
+DWM | [Windows.UI.Composition](https://docs.microsoft.com/uwp/api/windows.ui.composition)] |
 File Open, File Save | [Windows.Storage.Pickers.FileOpenPicker](https://docs.microsoft.com/uwp/api/Windows.Storage.Pickers.FileOpenPicker)<br />[Windows.Storage.Pickers.FileSavePicker](https://docs.microsoft.com/uwp/api/Windows.Storage.Pickers.FileSavePicker) |
 IMM | TSF |
 Magnifier | none |
@@ -190,7 +190,7 @@ User: hooks | none |
 User: icons | apps represented by tiles |
 User: keyboard accel | [Windows.UI.Core.CoreAcceleratorKeys](https://docs.microsoft.com/uwp/api/Windows.UI.Core.CoreAcceleratorKeys) |
 User: keyboard input | [Windows.Devices.Input](https://docs.microsoft.com/uwp/api/Windows.Devices.Input) |
-User: MDI | none |
+User: MDI | [TabView XAML Control](https://docs.microsoft.com/windows/communitytoolkit/controls/tabview), [AppWindow](https://docs.microsoft.com/uwp/api/windows.ui.windowmanagement.appwindow) |
 User: messages | events and notifications |
 User: mouse input | [Windows.Devices.Input](https://docs.microsoft.com/uwp/api/Windows.Devices.Input) |
 User: multimon | single monitor |
