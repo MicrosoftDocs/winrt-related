@@ -13,7 +13,10 @@ ms.custom: 19H1
 
 ## Description
 
-Enables your desktop application to specify one or more additional installer files (.exe or .msi) that are installed with your desktop application. For example, this is useful for apps that bundle a 3rd party redistributable component. This element is currently intended to be used only by certain types of desktop PC games that are published by Microsoft and our partners.
+Enables your desktop application to specify one or more additional installer files (.exe or .msi) that are installed with your desktop application. For example, this is useful for apps that bundle a 3rd party redistributable component. 
+
+> [!NOTE]
+> This element is currently intended to be used only by certain types of desktop PC games that are published by Microsoft and our partners. It requires the **customInstallActions** [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
 
 ## Element Hierarchy
 <dl>

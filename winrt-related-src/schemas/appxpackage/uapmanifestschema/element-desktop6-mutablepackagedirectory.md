@@ -13,7 +13,10 @@ ms.custom: 19H1
 
 ## Description
 
-Specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of your desktop application's install folder are projected so that users can modify the installation files (for example, to install mods). This element is currently intended to be used only by certain types of desktop PC games that are published by Microsoft and our partners.
+Specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of your desktop application's install folder are projected so that users can modify the installation files (for example, to install mods). 
+
+> [!NOTE]
+> This element is currently intended to be used only by certain types of desktop PC games that are published by Microsoft and our partners. It requires the **modifiableApp** [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
 
 
 ## Element Hierarchy

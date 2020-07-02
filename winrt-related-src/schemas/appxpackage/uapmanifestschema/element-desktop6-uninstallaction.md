@@ -13,7 +13,10 @@ ms.custom: 19H1
 
 
 ## Description
-Specifies an installer file (.exe or .msi) that is run when the user uninstalls your desktop application. This element is currently intended to be used only by desktop PC games that are packaged in an MSIXVC container.
+Specifies an installer file (.exe or .msi) that is run when the user uninstalls your desktop application. 
+
+> [!NOTE]
+> This element is currently intended to be used only by desktop PC games that are packaged in an MSIXVC container. It requires the **customInstallActions** [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
 
 ## Element Hierarchy
 <dl>

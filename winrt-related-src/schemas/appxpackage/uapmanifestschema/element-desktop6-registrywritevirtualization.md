@@ -13,7 +13,10 @@ ms.custom: 19H1
 
 # desktop6:RegistryWriteVirtualization
 
-Indicates whether virtualization for the registry is enabled for your desktop application. If disabled, other apps can read or write the same registry entries as your application. This element is currently intended to be used only by certain types of desktop PC games that are published by Microsoft and our partners.
+Indicates whether virtualization for the registry is enabled for your desktop application. If disabled, other apps can read or write the same registry entries as your application.
+
+> [!NOTE]
+> This element is currently intended to be used only by certain types of desktop PC games that are published by Microsoft and our partners. It requires the  **unvirtualizedResources** [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
 
 ## Element hierarchy
 
