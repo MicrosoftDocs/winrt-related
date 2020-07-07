@@ -361,9 +361,5 @@ The following list summarizes the allowed hierarchies for this schema, starting 
                     - [**uap6:LocalExperiencePack**](element-uap6-localexperiencepack.md)
                 -   [**uap10:Extension**](element-uap10-extension.md)
                     - [**uap10:HostRuntime**](element-uap10-hostruntime.md)
- 
-
- 
-
-
-
+                    - [**uap10:InstalledLocationVirtualization**](element-uap10-installedlocationvirtualization.md)
+                        - [**uap10:UpdateActions**](element-uap10-UpdateActions.md)

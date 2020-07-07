@@ -356,4 +356,6 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap10:Extension](element-uap10-extension.md) | Declares an extensibility point for the app. |
 | [uap10:HostRuntime](element-uap10-hostruntime.md) | Defines a package-wide extension that defines the runtime information to be used when activating a hosted app. |
 | [uap10:HostRuntimeDependency](element-uap10-hostruntimedependency.md) | Defines a dependency on a host app package for the current app package. |
+| [uap10:InstalledLocationVirtualization](element-uap10-installedlocationvirtualization.md) | Defines an extension for a desktop app in an MSIX package that redirects any writes to the app's installation directory to a location in the [app data](https://docs.microsoft.com/windows/uwp/design/app-settings/store-and-retrieve-app-data). |
 | [uap10:PackageIntegrity](element-uap10-packageintegrity.md) | Specifies the level of run time package integrity checks and remediation for the package.  |
+| [uap10:UpdateActions](element-uap10-UpdateActions.md) | Specifies what happens during app updates to files in the app's installation directory that were previously modified, added, or deleted by the app. This element is intended to be used in conjunction with the [uap10:InstalledLocationVirtualization](element-uap10-installedlocationvirtualization.md) extension. |

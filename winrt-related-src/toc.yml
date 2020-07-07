@@ -767,6 +767,10 @@
             href: schemas/appxpackage/uapmanifestschema/element-uap10-extension.md
           - name: "uap10:HostRuntime"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-hostruntime.md
+          - name: "uap10:InstalledLocationVirtualization"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-installedlocationvirtualization.md
+          - name: "uap10:UpdateActions"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-UpdateActions.md
           - name: "mobile:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-mobile-extension-manual.md
           - name: "mobile:AowApp"
