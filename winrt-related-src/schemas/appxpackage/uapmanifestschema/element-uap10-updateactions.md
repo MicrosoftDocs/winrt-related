@@ -45,9 +45,9 @@ For a desktop app in an MSIX package that uses the [uap10:InstalledLocationVirtu
 ### Attributes
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
-| ModifiedItems | Specifies what happens during app updates to files in the app's installation directory that were previously modified by the app. | String. Can be one of the following: "keep", "reset" | Yes |
-| DeletedItems | Specifies what happens during app updates to files in the app's installation directory that were previously deleted by the app. | String. Can be one of the following: "keep", "reset" | Yes |
-| AddedItems | Specifies what happens during app updates to files in the app's installation directory that were previously added by the app.  | String. Can be one of the following: "keep", "reset" | Yes |
+| ModifiedItems | Specifies what happens during app updates to files in the app's installation directory that were previously modified by the app. This attribute only applies to files that were present in the app package when it was installed. | String. Can be one of the following: "keep", "reset" | Yes |
+| DeletedItems | Specifies what happens during app updates to files in the app's installation directory that were previously deleted by the app. This attribute only applies to files that were present in the app package when it was installed. | String. Can be one of the following: "keep", "reset" | Yes |
+| AddedItems | Specifies what happens during app updates to files in the app's installation directory that were added by the app after it was installed.  | String. Can be one of the following: "keep", "reset" | Yes |
 
 ### Child Elements
 
