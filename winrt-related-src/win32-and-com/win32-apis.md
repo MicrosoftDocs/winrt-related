@@ -1,11 +1,7 @@
 ---
-
 description: This topic lists the Win32 APIs that are part of the Universal Windows Platform (UWP) and that are implemented by all Windows 10 devices.
 title: APIs present on all Windows 10 devices (grouped by module)
-
 ms.topic: article
-
-
 keywords: windows 10, uwp, win32, COM
 ms.date: 10/10/2018
 ms.assetid: 9763fa67-0f32-4128-b901-013b1d7ea73c
@@ -15,7 +11,6 @@ ms.assetid: 9763fa67-0f32-4128-b901-013b1d7ea73c
 This topic lists the Win32 APIs that are part of the Universal Windows Platform (UWP) and that are implemented by all Windows 10 devices. For convenience, an umbrella library named WindowsApp.lib is provided in the Microsoft Windows Software Development Kit (SDK), which provides the exports for this set of Win32 APIs. Link your app with WindowsApp.lib (and no other libraries) to access these APIs.
 
 This topic lists all the APIs in WindowsApp.lib, grouped by module (where the module is either an [API set](https://msdn.microsoft.com/library/windows/apps/mt683763.aspx#api_sets) or a dll). Linking to WindowsApp.lib will add to your app dependencies on dlls that are present on all Windows 10 devices. For delay load, use the module name. Note that an umbrella lib can contain some, but not necessarily all, APIs from a given module.
-
 
 ## APIs from api-ms-win-core-com-l1-1-1.dll
 
@@ -136,36 +131,36 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | NdrProxyForwardingFunction7 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
 | NdrProxyForwardingFunction8 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
 | NdrProxyForwardingFunction9 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient10 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient11 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient12 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient13 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient14 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient15 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient16 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient17 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient18 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient19 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient20 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient21 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient22 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient23 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient24 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient25 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient26 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient27 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient28 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient29 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient3 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient30 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient31 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient32 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient4 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient5 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient6 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient7 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient8 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| ObjectStublessClient9 | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient10](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient10) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient11](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient11) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient12](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient12) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient13](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient13) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient14](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient14) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient15](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient15) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient16](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient16) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient17](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient17) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient18](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient18) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient19](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient19) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient20](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient20) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient21](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient21) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient22](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient22) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient23](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient23) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient24](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient24) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient25](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient25) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient26](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient26) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient27](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient27) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient28](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient28) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient29](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient29) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient3](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient3) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient30](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient30) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient31](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient31) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient32](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient32) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient4](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient4) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient5](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient5) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient6](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient6) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient7](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient7) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient8](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient8) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [ObjectStublessClient9](/windows/win32/api/rpcproxy/nf-rpcproxy-objectstublessclient9) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-datetime-l1-1-1.dll
