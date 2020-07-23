@@ -2192,6 +2192,8 @@
       href: cpp-ref-for-winrt/resume-background.md
     - name: "resume_foreground function"
       href: cpp-ref-for-winrt/resume-foreground.md
+    - name: "resume_on_signal function"
+      href: cpp-ref-for-winrt/resume-on-signal.md
     - name: "single_threaded_map function template"
       href: cpp-ref-for-winrt/single-threaded-map.md
     - name: "single_threaded_observable_map function template"
