@@ -27,10 +27,11 @@ auto resume_on_signal(
 A handle to the kernel event to wait on. You're responsible for ensuring that this handle remains valid until your `co_await` of the function completes.
 
 `timeout`
-An optional timeout.
+An optional timeout value. If you pass a timeout of 0, that's treated as infinite. If you pass a negative timeout, **resume_on_signal** immediately times out.
+
 
 ### Return value 
-An awaitable object (an object that can be passed to `co_await`).
+An awaitable object (an object that can be passed to `co_await`). The result of the `co_await` is `true` if the handle is signaled, or `false` if the timeout elapsed.
 
 ## Requirements
 **Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
