@@ -182,7 +182,8 @@ unsealed runtimeclass StateTriggerBase
 ```
 
 ## The `[default_interface]` attribute
-The `default_interface` attribute is used to force the generation of a default interface where one wouldn't otherwise be generated. In the example below, **StateTriggerBase** has no need for a default interface, and it's only the presence of the `default_interface` attribute that causes one (named **IStateTriggerBase**) to be generated.
+
+The `default_interface` attribute is used to force the generation of a default interface where one wouldn't otherwise be generated. In the example below, **StateTriggerBase** has no need for a default interface (because it has no public nonstatic members), so it's only the presence of the `default_interface` attribute that causes one (named **IStateTriggerBase**) to be generated.
 
 ```idl
 [default_interface]
@@ -192,9 +193,9 @@ unsealed runtimeclass StateTriggerBase
 };
 ```
 
-As a result, when your class description doesn't otherwise reference an
-interface, but when one is needed to implement the class, the MIDL 3.0
-compiler synthesizes and adds interfaces, as necessary.
+As a result, when your class description doesn't otherwise reference an interface, but when one is needed to implement the class, the MIDL 3.0 compiler synthesizes and adds interfaces, as necessary.
+
+If you use the `default_interface` unnecessarily, then MIDL 3.0 generates an extra *empty* interface, and makes that the default.
 
 ## The `[default]` attribute
 If you don't specify a default interface, then the MIDL 3.0 compiler chooses the first instance interface. To override this selection, insert The `default` attribute before the interface that you want to be the default interface.
