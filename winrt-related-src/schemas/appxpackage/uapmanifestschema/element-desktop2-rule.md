@@ -42,10 +42,10 @@ Defines a firewall exception rule.
 <desktop2:Rule Direction = One of the following string values: "in", "out"
                IPProtocol = A string value representing the IP protocol. See Attributes table for more details.
                Profile = One of the following string values: "domain", "private", "domainAndPrivate", "public", "all"
-               LocalPortMin? = An integer value between 0 and 65535.
-               LocalPortMax? = An integer value between 0 and 65535.
-               RemotePortMin? = An integer value between 0 and 65535.
-               RemotePortMax? = An integer value between 0 and 65535. >
+               LocalPortMin? = An integer value between 1 and 65535 (inclusive).
+               LocalPortMax? = An integer value between 1 and 65535.
+               RemotePortMin? = An integer value between 1 and 65535.
+               RemotePortMax? = An integer value between 1 and 65535. >
 ```
 
 ### Key
@@ -57,10 +57,10 @@ Defines a firewall exception rule.
 | Direction | The direction for the rule. | One of the following string values: "in", "out" | Yes |
 | IPProtocol | The IP protocol for the rule. | These are the supported IP protocols: <ul><li>ICMPv4</li><li>ICMPv6</li><li>TCP</li><li>UDP</li><li>GRE</li><li>AH</li><li>ESP</li><li>EGP</li><li>GGP</li><li>HMP</li><li>IGMP</li><li>RVD</li><li>OSPFIGP</li><li>PUP</li><li>RDP</li><li>RSVP</li></ul> | Yes |
 | Profile | The profile of the network. | One of the following string values: <ul><li>domain</li><li>private</li><li>domainAndPrivate</li><li>public</li><li>all</li></ul> | Yes |
-| LocalPortMin | A min value for the local port. | An integer value between 0 and 65535. | No |
-| LocalPortMax | A max value for the local port. | An integer value between 0 and 65535. | No |
-| RemotePortMin | A min value for the remote port. | An integer value between 0 and 65535. | No |
-| RemotePortMax | A max value for the remote port. | An integer value between 0 and 65535. | No |
+| LocalPortMin | A min value for the local port. | An integer value between 1 and 65535 (inclusive). | No |
+| LocalPortMax | A max value for the local port. | An integer value between 1 and 65535. | No |
+| RemotePortMin | A min value for the remote port. | An integer value between 1 and 65535. | No |
+| RemotePortMax | A max value for the remote port. | An integer value between 1 and 65535. | No |
 
 ## Requirements
 
