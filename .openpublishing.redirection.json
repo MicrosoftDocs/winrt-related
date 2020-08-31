@@ -2,7 +2,7 @@
   "redirections": [
     {
     "source_path": "winrt-related-src/schemas/appxpackage/uapmaifestsschema/element-pm-phoneidentity.md",
-    "redirect_url": "winrt-related-src/schemas/appxpackage/uapmanifestsschema/element-mp-phoneidentity.md",
+    "redirect_url": "/uwp/schemas/appxpackage/uapmanifestsschema/element-mp-phoneidentity",
     "redirect_document_id": false
     },
     {
@@ -64,6 +64,6 @@
       "source_path": "winrt-related-src/toolkits/winui/release-notes/winui-2.0.md",
       "redirect_url": "/windows/apps/winui/winui2/release-notes/winui-2.0",
       "redirect_document_id": false
-    },
+    }
   ]
 }
