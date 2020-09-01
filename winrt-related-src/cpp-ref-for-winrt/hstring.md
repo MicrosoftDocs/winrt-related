@@ -1,14 +1,9 @@
 ---
-
 description: A sequential collection of UTF-16 Unicode characters representing a text string.
 title: winrt::hstring struct (C++/WinRT)
 dev_langs: ["C++"]
-
-ms.date: 04/10/2018
-
+ms.date: 08/31/2020
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, string
 ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
@@ -50,7 +45,7 @@ struct hstring
 |------------|-----------------|
 |[hstring::back function](#hstringback-function)|Returns a reference to the last character in the **hstring** object.|
 |[hstring::begin function](#hstringbegin-function)|Returns a const iterator to the first character in the **hstring** object.|
-|[hstring::c_str function](#hstringc_str-function)|Returns a null-terminated C-style string version of the characters in the **hstring** object.|
+|[hstring::c_str function](#hstringc_str-function)|Returns a pointer to the underlying null-terminated C-style string of the characters in the **hstring** object; no copy is made.|
 |[hstring::cbegin function](#hstringcbegin-function)|Returns a const iterator to the first character in the **hstring** object.|
 |[hstring::cend function](#hstringcend-function)|Returns a const iterator to one beyond the end of (one beyond the last character in) the **hstring** object.|
 |[hstring::clear function](#hstringclear-function)|Makes the **hstring** object empty.|
@@ -186,15 +181,15 @@ std::wchar_t const* begin() const noexcept;
 A const iterator to the first character in the **hstring** object.
 
 ## hstring::c_str function
-Returns a null-terminated C-style string version of the characters in the **hstring** object.
+Returns a pointer to the underlying null-terminated C-style string of the characters in the **hstring** object; no copy is made.
 
 ### Syntax
 ```cppwinrt
 std::wchar_t const* c_str() const noexcept;
 ```
 
-### Return value 
-A null-terminated C-style string version of the characters in the **hstring** object.
+### Return value
+A pointer to the underlying null-terminated C-style string of the characters in the **hstring** object; no copy is made.
 
 ### Example
 ```cppwinrt
