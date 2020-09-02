@@ -96,7 +96,7 @@ None.
 
 ## Remarks
 
-For info about appointments and the appointments provider, see [**Windows.ApplicationModel.Appointments**](https://msdn.microsoft.com/library/windows/apps/dn263359) and [**Windows.ApplicationModel.Appointments.AppointmentsProvider**](https://msdn.microsoft.com/library/windows/apps/dn297284).
+For info about appointments and the appointments provider, see [**Windows.ApplicationModel.Appointments**](/uwp/api/Windows.ApplicationModel.Appointments) and [**Windows.ApplicationModel.Appointments.AppointmentsProvider**](/uwp/api/Windows.ApplicationModel.Appointments.AppointmentsProvider).
 
 ## Requirements
 
@@ -107,6 +107,3 @@ For info about appointments and the appointments provider, see [**Windows.Applic
  
 
  
-
-
-

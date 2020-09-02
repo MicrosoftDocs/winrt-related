@@ -88,7 +88,7 @@ Defines an ExeServer class registration.
 |-----------|-------------|-----------|----------|
 | Id        | The Id attribute corresponds to the CLSID (HKCR\CLSID\{MyGuid}). | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |
 | DisplayName | A localizable string corresponding to the default value of the CLSID's key. | A string between 1 and 256 characters in length. | No |
-| EnableOleDefaultHandler | This should be set to true if the default value of the [InprocHandler32](https://msdn.microsoft.com/library/windows/desktop/ms693485.aspx) key is "Ole32.dll". Otherwise it should be omitted. The default value is false. | Boolean. | No |
+| EnableOleDefaultHandler | This should be set to true if the default value of the [InprocHandler32](/windows/win32/com/inprochandler32) key is "Ole32.dll". Otherwise it should be omitted. The default value is false. | Boolean. | No |
 | ProgId | Associates a programmatic identifier (ProgID) with a CLSID. | An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1 | No |
 | VersionIndependentProgId | Associates a ProgID with a CLSID. This value is used to determine the latest version of an object application. | An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1 | No |
 | AutoConvertTo | Specifies the automatic conversion of a given class of objects to a new class of objects. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |
@@ -108,7 +108,7 @@ Defines an ExeServer class registration.
 | [ToolboxBitmap32](element-com-exe-toolboxbitmap32.md) | Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button. |
 
 ## Remarks
-Each **Class** registered under an **ExeServer** must have an **Id** attribute corresponding to the [CLSID](https://msdn.microsoft.com/library/windows/desktop/ms691424.aspx). 
+Each **Class** registered under an **ExeServer** must have an **Id** attribute corresponding to the [CLSID](/windows/win32/com/clsid-key-hklm). 
 
 ## Examples
 

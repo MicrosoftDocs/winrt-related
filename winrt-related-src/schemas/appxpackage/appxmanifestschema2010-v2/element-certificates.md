@@ -118,10 +118,10 @@ None.
 
 
 **Tasks**
-[Working with certificates](https://msdn.microsoft.com/library/windows/apps/hh465044)
+[Working with certificates](/previous-versions/windows/apps/hh465044(v=win.10))
 
 **Concepts**
-[App contracts and extensions](https://msdn.microsoft.com/library/windows/apps/hh464906)
+[App contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10))
 
 ## Requirements
 
@@ -132,6 +132,3 @@ None.
  
 
  
-
-
-

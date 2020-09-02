@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # Plans
 
 
-Contains any errors from processing the [**Plans**](https://msdn.microsoft.com/library/windows/apps/hh868299) element from the last provisioning attempt.
+Contains any errors from processing the [**Plans**](../carriercontrolschema/element-plans.md) element from the last provisioning attempt.
 
 ## Element hierarchy
 
@@ -130,6 +130,3 @@ Contains any errors from processing the [**Plans**](https://msdn.microsoft.com/l
  
 
  
-
-
-

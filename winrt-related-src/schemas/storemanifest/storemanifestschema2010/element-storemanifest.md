@@ -72,7 +72,7 @@ This outermost (document) element may not be contained by any other elements.
 
 ## Remarks
 
-For UWP apps, see [StoreManifest schema](https://msdn.microsoft.com/library/windows/apps/mt617335).
+For UWP apps, see [StoreManifest schema](../storemanifestschema2015/schema-root.md).
 
 ## Requirements
 
@@ -83,6 +83,3 @@ For UWP apps, see [StoreManifest schema](https://msdn.microsoft.com/library/wind
  
 
  
-
-
-

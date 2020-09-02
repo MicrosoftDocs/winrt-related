@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # Signature
 
 
-Defines an instance of the [**Signature**](https://msdn.microsoft.com/library/windows/apps/hh868330) element from the [**CarrierControlSignatureSchema**](https://msdn.microsoft.com/library/windows/apps/hh868341).
+Defines an instance of the [**Signature**](../carriercontrolsignatureschema/element-signature.md) element from the [**CarrierControlSignatureSchema**](../carriercontrolsignatureschema/schema-root.md).
 
 ## Element hierarchy
 
@@ -76,6 +76,3 @@ None.
  
 
  
-
-
-

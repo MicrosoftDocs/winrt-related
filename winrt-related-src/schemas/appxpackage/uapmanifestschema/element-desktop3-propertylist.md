@@ -66,7 +66,7 @@ Contains the properties that are under the Properties tab of a file.
 | Value | A list of property values, separated by semicolons, such as: System.Description; System.Content | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |
 
 ## See Also
-[Using Property Lists](https://msdn.microsoft.com/library/windows/desktop/cc144133(v=vs.85).aspx)
+[Using Property Lists](/windows/win32/properties/building-property-handlers-property-lists)
 
 ## Requirements
 

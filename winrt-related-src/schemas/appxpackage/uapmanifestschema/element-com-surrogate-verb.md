@@ -81,9 +81,9 @@ The verb to be registered for an application.
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | Id | The Id number of the verb. Verbs are numbered consecutively. | An integer value in the range of -6 to 1000. | Yes |
-| DisplayName | Describes how the verb is appended by [AppendMenu](https://msdn.microsoft.com/library/windows/desktop/ms647616.aspx). | A string between 1 and 256 characters in length. This string is localizable. | Yes |
+| DisplayName | Describes how the verb is appended by [AppendMenu](/windows/win32/api/winuser/nf-winuser-appendmenua). | A string between 1 and 256 characters in length. This string is localizable. | Yes |
 | AppendMenuFlag | Indicates how the verb should appear in the menu. | An integer value in the range of 0 to 2431. | Yes |
-| OleVerbFlag | Describes the attributes of a verb. Use either 0 or a value from the [OLEVERBATTRIB](https://msdn.microsoft.com/library/windows/desktop/ms686659.aspx) enumeration. | An integer value in the range of 0 to 3. | Yes |
+| OleVerbFlag | Describes the attributes of a verb. Use either 0 or a value from the [OLEVERBATTRIB](/windows/win32/api/oleidl/ne-oleidl-oleverbattrib) enumeration. | An integer value in the range of 0 to 3. | Yes |
 
 ## Remarks
 

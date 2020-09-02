@@ -191,7 +191,7 @@ Specifies the tile template. Every notification should include one binding eleme
 
 ## Remarks
 
-The **tileTemplateNameV2** value used in the *template* attribute can be one of the following string values. For details on each template, see [The tile template catalog](https://msdn.microsoft.com/library/windows/apps/hh761491).
+The **tileTemplateNameV2** value used in the *template* attribute can be one of the following string values. For details on each template, see [The tile template catalog](/previous-versions/windows/apps/hh761491(v=win.10)).
 
 -   TileSquare150x150Block
 -   TileSquare150x150Image
@@ -266,7 +266,7 @@ The **tileTemplateNameV2** value used in the *template* attribute can be one of 
 -   TileWide310x150Text10
 -   TileWide310x150Text11
 
-The **tileTemplateNameV1** value used in the *fallback* attribute can be one of the following string values. These are the Windows 8 template names. For details on each template, see [The tile template catalog](https://msdn.microsoft.com/library/windows/apps/hh761491).
+The **tileTemplateNameV1** value used in the *fallback* attribute can be one of the following string values. These are the Windows 8 template names. For details on each template, see [The tile template catalog](/previous-versions/windows/apps/hh761491(v=win.10)).
 
 -   TileSquareBlock
 -   TileSquareImage
@@ -333,7 +333,7 @@ The following table explains how the system responds when lang is not specified.
 <td>The language for the notification</td>
 <td><ul>
 <li>If set explicitly, use visual.lang or binding.lang</li>
-<li>Else the app specific language setting (the language, if any, that the [Resource Management System](https://msdn.microsoft.com/library/windows/apps/jj552947) determines the app will run in given the current language profile)</li>
+<li>Else the app specific language setting (the language, if any, that the [Resource Management System](/previous-versions/windows/apps/jj552947(v=win.10)) determines the app will run in given the current language profile)</li>
 <li>Else the language of the display name on the tile as resolved by Windows Runtime</li>
 <li>Else the Shell's UI language (MUI language)</li>
 </ul>
@@ -343,7 +343,7 @@ The following table explains how the system responds when lang is not specified.
 <td>Text elements with literal text</td>
 <td><ul>
 <li>If set explicitly, use visual.lang or binding.lang</li>
-<li>Else the app specific language setting (the language, if any, that the [Resource Management System](https://msdn.microsoft.com/library/windows/apps/jj552947) determines the app will run in given the current language profile)</li>
+<li>Else the app specific language setting (the language, if any, that the [Resource Management System](/previous-versions/windows/apps/jj552947(v=win.10)) determines the app will run in given the current language profile)</li>
 <li>Else the language of the display name on the tile as resolved by Windows Runtime</li>
 <li>Else the shell's UI language (MUI language)</li>
 </ul></td>
@@ -351,23 +351,23 @@ The following table explains how the system responds when lang is not specified.
 <tr class="odd">
 <td>Text elements with ms-resource content</td>
 <td><ul>
-<li>If set explicitly, use visual.lang or binding.lang, and the explicit language is prepended to the language list the Resource Management System's [ResourceContext](https://msdn.microsoft.com/library/windows/apps/jj552947#resourcecontext) used to resolve the string</li>
-<li>Else the [ResourceContext](https://msdn.microsoft.com/library/windows/apps/jj552947#resourcecontext) used as initialized with the user's language profile</li>
+<li>If set explicitly, use visual.lang or binding.lang, and the explicit language is prepended to the language list the Resource Management System's [ResourceContext](/previous-versions/windows/apps/jj552947(v=win.10)#resourcecontext) used to resolve the string</li>
+<li>Else the [ResourceContext](/previous-versions/windows/apps/jj552947(v=win.10)#resourcecontext) used as initialized with the user's language profile</li>
 </ul>
 <p>After the string is resolved, the language for the resolved string is assigned to the text element. This language shapes the text alignment (LTR vs. RTL) and font selection for UI.</p></td>
 </tr>
 <tr class="even">
 <td>ms-appx:/// image</td>
 <td><ul>
-<li>If set explicitly, use visual.lang or binding.lang, the explicit language is prepended to the language list the Resource Management System's [ResourceContext](https://msdn.microsoft.com/library/windows/apps/jj552947#resourcecontext) used to resolve the string</li>
-<li>Else the [ResourceContext](https://msdn.microsoft.com/library/windows/apps/jj552947#resourcecontext) us used as initialized with the user's language profile</li>
+<li>If set explicitly, use visual.lang or binding.lang, the explicit language is prepended to the language list the Resource Management System's [ResourceContext](/previous-versions/windows/apps/jj552947(v=win.10)#resourcecontext) used to resolve the string</li>
+<li>Else the [ResourceContext](/previous-versions/windows/apps/jj552947(v=win.10)#resourcecontext) us used as initialized with the user's language profile</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Cloud images</td>
 <td><ul>
 <li>If set explicitly, use visual.lang or binding.lang</li>
-<li>Else the app-specific language setting (the language, if any, that the [Resource Management System](https://msdn.microsoft.com/library/windows/apps/jj552947) determines the app will run in given the current language profile)</li>
+<li>Else the app-specific language setting (the language, if any, that the [Resource Management System](/previous-versions/windows/apps/jj552947(v=win.10)) determines the app will run in given the current language profile)</li>
 <li>Else the language of the display name on the tile as resolved by Windows Runtime (might not be set if the name is language-neutral)</li>
 <li>Else the Shell's UI language (MUI language)</li>
 </ul>
@@ -387,6 +387,3 @@ The following table explains how the system responds when lang is not specified.
  
 
  
-
-
-

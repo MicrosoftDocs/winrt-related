@@ -119,7 +119,7 @@ The body of the text element can be expressed in two ways:
 -   As a literal string; for instance, &lt;text id="1"&gt;Hello world!&lt;/text&gt;.
 -   As a string reference, using the "ms-resource" prefix; for instance, &lt;text id="1"&gt; ms-resource:hello&lt;/text&gt;. When using the "ms-resource" prefix, the string identifier is referenced in the app's Resources.resjson (Windows app using JavaScript) or Resources.resw file (C#/C++).
 
-For more information, see [Globalizing your tile: localization, scaling, and accessibility](https://msdn.microsoft.com/library/windows/apps/hh831183).
+For more information, see [Globalizing your tile: localization, scaling, and accessibility](/previous-versions/windows/apps/hh831183(v=win.10)).
 
 ## Requirements
 
@@ -130,6 +130,3 @@ For more information, see [Globalizing your tile: localization, scaling, and acc
  
 
  
-
-
-

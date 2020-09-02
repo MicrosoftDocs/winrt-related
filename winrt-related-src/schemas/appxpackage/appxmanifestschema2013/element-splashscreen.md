@@ -105,7 +105,7 @@ None.
 
 ## Remarks
 
-The splash screen image can be given as either a direct path to an image file or as a resource. By using a resource reference, you can supply images of different scales so that Windows can choose the best size for the device and screen resolution. You can also supply high contrast images for accessibility and localized images to match different UI languages. For more info, see the [Globalization](https://msdn.microsoft.com/library/windows/apps/hh831183) topic.
+The splash screen image can be given as either a direct path to an image file or as a resource. By using a resource reference, you can supply images of different scales so that Windows can choose the best size for the device and screen resolution. You can also supply high contrast images for accessibility and localized images to match different UI languages. For more info, see the [Globalization](/previous-versions/windows/apps/hh831183(v=win.10)) topic.
 
 Size requirements of a splash screen image are shown here:
 
@@ -155,7 +155,7 @@ The following are supported background color names:
 ## See also
 
 
-[**Colors class**](https://msdn.microsoft.com/library/windows/apps/hh747824)
+[**Colors class**](/uwp/api/Windows.UI.Colors)
 
 ## Requirements
 
@@ -166,6 +166,3 @@ The following are supported background color names:
  
 
  
-
-
-

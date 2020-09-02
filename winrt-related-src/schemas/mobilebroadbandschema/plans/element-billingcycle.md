@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # BillingCycle
 
 
-Defines the plan's starting date and time, its duration, and what happens at the end of the billing cycle. UWP apps can retrieve this information using the [**DataPlanStatus**](https://msdn.microsoft.com/library/windows/apps/br207256) class.
+Defines the plan's starting date and time, its duration, and what happens at the end of the billing cycle. UWP apps can retrieve this information using the [**DataPlanStatus**](/uwp/api/Windows.Networking.Connectivity.DataPlanStatus) class.
 
 ## Element hierarchy
 
@@ -123,7 +123,7 @@ This information can be used to understand when the next billing cycle begins fo
 ## See also
 
 
-[**DataPlanStatus**](https://msdn.microsoft.com/library/windows/apps/br207256)
+[**DataPlanStatus**](/uwp/api/Windows.Networking.Connectivity.DataPlanStatus)
 
 ## Requirements
 
@@ -134,6 +134,3 @@ This information can be used to understand when the next billing cycle begins fo
  
 
  
-
-
-

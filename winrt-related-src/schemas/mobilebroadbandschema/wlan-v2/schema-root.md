@@ -17,11 +17,11 @@ The WLAN\_v2 schema defines additional elements that are used to describe a subs
 
 All of the elements of the WLAN\_v2 schema are defined in the `http://www.microsoft.com/networking/CarrierControl/WLAN/v2` namespace.
 
-The WLAN\_v2 schema elements are additions to the [WLAN](https://msdn.microsoft.com/library/windows/apps/hh868424) version 1 schema defined in the `http://www.microsoft.com/networking/CarrierControl/WLAN/v1` namespace.
+The WLAN\_v2 schema elements are additions to the [WLAN](../wlan/schema-root.md) version 1 schema defined in the `http://www.microsoft.com/networking/CarrierControl/WLAN/v1` namespace.
 
 The WLAN\_v2 schema is supported on Windows 8.1, Windows Server 2012 R2, and later.
 
-The [**SSIDConfig**](https://msdn.microsoft.com/library/windows/apps/hh868420) element in the [WLAN](https://msdn.microsoft.com/library/windows/apps/hh868424) schema supports up to 25 SSIDs in the v1 namespace and up to additional 10,000 SSIDs in the v2 namespace. The v2 namespace also supports [**SSIDPrefix**](element-ssidprefix.md) elements.
+The [**SSIDConfig**](../wlan/element-ssidconfig.md) element in the [WLAN](../wlan/schema-root.md) schema supports up to 25 SSIDs in the v1 namespace and up to additional 10,000 SSIDs in the v2 namespace. The v2 namespace also supports [**SSIDPrefix**](element-ssidprefix.md) elements.
 
 Not all elements are in every profile, as some elements are optional.
 
@@ -75,13 +75,10 @@ The following table lists all of the elements in this schema, sorted alphabetica
 ## Related topics
 
 
-[**SSIDConfig**](https://msdn.microsoft.com/library/windows/apps/hh868420)
+[**SSIDConfig**](../wlan/element-ssidconfig.md)
 
-[WLAN schema](https://msdn.microsoft.com/library/windows/apps/hh868424)
-
- 
+[WLAN schema](../wlan/schema-root.md)
 
  
 
-
-
+ 

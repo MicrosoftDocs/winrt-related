@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # Subscriber
 
 
-Contains any errors from processing the [**SubscriberId**](https://msdn.microsoft.com/library/windows/apps/hh868305) element from the last provisioning attempt.
+Contains any errors from processing the [**SubscriberId**](../carriercontrolschema/element-subscriberid.md) element from the last provisioning attempt.
 
 ## Element hierarchy
 
@@ -76,6 +76,3 @@ None.
  
 
  
-
-
-

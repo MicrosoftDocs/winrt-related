@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # Messages
 
 
-Defines an instance of the [**Messages**](https://msdn.microsoft.com/library/windows/apps/hh868462) element from the [**WWAN**](https://msdn.microsoft.com/library/windows/apps/hh868486) schema.
+Defines an instance of the [**Messages**](../wwan/element-messages.md) element from the [**WWAN**](../wwan/schema-root.md) schema.
 
 ## Element hierarchy
 
@@ -81,6 +81,3 @@ None.
  
 
  
-
-
-

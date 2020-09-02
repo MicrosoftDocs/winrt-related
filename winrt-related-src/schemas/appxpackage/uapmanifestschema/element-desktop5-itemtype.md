@@ -72,7 +72,7 @@ Contains the type of command to be registered in the context menu.
 | [desktop5:Verb](element-desktop4-verb.md) | Names and class IDs of the commands registered in the Shell for a file explorer context menu. |  
 
 ## See Also
-[Creating a Shell Extension Handler](https://msdn.microsoft.com/library/windows/desktop/cc144067.aspx)
+[Creating a Shell Extension Handler](/windows/win32/shell/handlers)
 
 ## Requirements
 

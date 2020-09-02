@@ -71,7 +71,7 @@ Registers a proxy stub.
 | [com2:ProxyStubDll](element-com2-package-proxystubdll.md) | Specifies the path and processor architecture of a ProxyStub DLL. |
 
 ## Remarks
-Proxy stub registrations correspond to the CLSID registration for the Interface's [ProxyStubClsid32](https://msdn.microsoft.com/library/windows/desktop/ms688573.aspx) keys.
+Proxy stub registrations correspond to the CLSID registration for the Interface's [ProxyStubClsid32](/windows/win32/com/proxystubclsid32) keys.
 
 A proxy stub element must have either a Path attribute or one or more ProxyStubDll child elements, but not both.
 

@@ -12,7 +12,7 @@ ms.assetid: BB6F6100-85F3-4B35-A2AB-FA677671AADA
 ---
 
 # Win32 and COM APIs for UWP apps
-A Universal Windows Platform (UWP) app (or a [Windows Runtime component](https://docs.microsoft.com/windows/uwp/winrt-components/)) written in C++/CX has access to the Win32 and COM APIs that are part of the Universal Windows Platform (UWP).
+A Universal Windows Platform (UWP) app (or a [Windows Runtime component](/windows/uwp/winrt-components/)) written in C++/CX has access to the Win32 and COM APIs that are part of the Universal Windows Platform (UWP).
 
 Most of these APIs are implemented by all Windows 10 devices, and that set is listed first (in two forms: grouped by module, and listed in alphabetical order of name). Then, additional APIs that are part of the UWP but that are not present on all Windows 10 devices, are listed.
 
@@ -51,6 +51,3 @@ Most of these APIs are implemented by all Windows 10 devices, and that set is l
  
 
  
-
-
-

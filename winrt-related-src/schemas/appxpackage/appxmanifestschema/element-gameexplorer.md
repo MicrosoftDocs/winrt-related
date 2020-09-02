@@ -104,7 +104,7 @@ None.
 
 ## Remarks
 
-**Note**  The **GameExplorer** extension is deprecated in Windows 8.1. To view the package manifest schema for Windows 8.1, see [Package manifest schema with Windows 8.1 minor extensions reference](https://msdn.microsoft.com/library/windows/apps/dn423313) and [Package manifest schema with Windows 8.1 feature extensions reference](https://msdn.microsoft.com/library/windows/apps/dn391692).
+**Note**  The **GameExplorer** extension is deprecated in Windows 8.1. To view the package manifest schema for Windows 8.1, see [Package manifest schema with Windows 8.1 minor extensions reference](../appxmanifestschema2010-v2/schema-root.md) and [Package manifest schema with Windows 8.1 feature extensions reference](../appxmanifestschema2013/schema-root.md).
 
  
 
@@ -119,7 +119,7 @@ None.
 ## See also
 
 **Concepts**
-[App contracts and extensions](https://msdn.microsoft.com/library/windows/apps/hh464906)
+[App contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10))
 
 ## Requirements
 
@@ -130,6 +130,3 @@ None.
  
 
  
-
-
-

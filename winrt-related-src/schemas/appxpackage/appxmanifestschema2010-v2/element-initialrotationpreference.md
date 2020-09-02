@@ -21,7 +21,7 @@ Describes the orientations in which the app would prefer to be shown for the bes
 
 Note that on devices that can't be rotated, an app might be shown in that device's default orientation and the app's preferred orientation will be ignored. However, on a device with a rotation lock activated, your app's preferred rotation will still be honored.
 
-These orientation preference choices apply to both the [**splash screen**](element-splashscreen.md) and the app UI when a new session is launched for your app. The preferences can be changed during run time through the [**AutoRotationPreferences**](https://msdn.microsoft.com/library/windows/apps/dn264259) property.
+These orientation preference choices apply to both the [**splash screen**](element-splashscreen.md) and the app UI when a new session is launched for your app. The preferences can be changed during run time through the [**AutoRotationPreferences**](/uwp/api/Windows.Graphics.Display.DisplayInformation) property.
 
 ## Element hierarchy
 
@@ -120,34 +120,34 @@ The following example shows an app that will display in Landscape and LandscapeF
                     
 ```
 
-When your app is initially launched, Windows receives its rotation preferences. These preferences remain in place until that app is terminated, with one important exception: if a call is made to [**Windows.Graphics.Display.DisplayInformation.autoRotationPreferences**](https://msdn.microsoft.com/library/windows/apps/dn264259) to change those preferences. That API is used to inform Windows of a change in your app's rotational preferences, and can be called at any time. Note that this API call does not affect the contents of the **InitialRotationPreference** element in the app's manifest file, which remain as you set them in the manifest editor. Therefore, whenever you relaunch your app, it takes the rotation preferences that you originally specified in your app's manifest.
+When your app is initially launched, Windows receives its rotation preferences. These preferences remain in place until that app is terminated, with one important exception: if a call is made to [**Windows.Graphics.Display.DisplayInformation.autoRotationPreferences**](/uwp/api/Windows.Graphics.Display.DisplayInformation) to change those preferences. That API is used to inform Windows of a change in your app's rotational preferences, and can be called at any time. Note that this API call does not affect the contents of the **InitialRotationPreference** element in the app's manifest file, which remain as you set them in the manifest editor. Therefore, whenever you relaunch your app, it takes the rotation preferences that you originally specified in your app's manifest.
 
-For instance, consider a game app that is best viewed in Landscape, but that has a certain page that displays a map that is more readable in Portrait. The following series of events could take place on a device that supports rotation. A familiarity with [app lifecycle](https://msdn.microsoft.com/library/windows/apps/hh464925) terms will be helpful to you here.
+For instance, consider a game app that is best viewed in Landscape, but that has a certain page that displays a map that is more readable in Portrait. The following series of events could take place on a device that supports rotation. A familiarity with [app lifecycle](/previous-versions/windows/apps/hh464925(v=win.10)) terms will be helpful to you here.
 
 1.  The developer specifies Landscape and/or LandscapeFlipped rotation preferences for the app in the manifest editor.
 2.  The game is installed and launched. The preferences specified in the manifest editor apply and the game will not rotate into Portrait.
-3.  The game detects that the user is accessing the map. It calls [**AutoRotationPreferences**](https://msdn.microsoft.com/library/windows/apps/dn264259) to tell Windows to change the app's rotational preferences to Portrait and/or PortraitFlipped.
+3.  The game detects that the user is accessing the map. It calls [**AutoRotationPreferences**](/uwp/api/Windows.Graphics.Display.DisplayInformation) to tell Windows to change the app's rotational preferences to Portrait and/or PortraitFlipped.
 4.  Windows rotates the app to the new preferred orientation.
 5.  The user switches to another app to check their mail.
 6.  The user switches back to the game app to continue where they left off. Windows knows that the app's last stated preference was for Portrait and brings the app onscreen in that orientation. Note that it did not refer to the **InitialRotationPreference** settings because the current session is still active.
-7.  The game detects that the user is closing the map page. It calls [**AutoRotationPreferences**](https://msdn.microsoft.com/library/windows/apps/dn264259) to change its rotational preferences back to its original Landscape settings to continue the game.
+7.  The game detects that the user is closing the map page. It calls [**AutoRotationPreferences**](/uwp/api/Windows.Graphics.Display.DisplayInformation) to change its rotational preferences back to its original Landscape settings to continue the game.
 8.  The user finishes the game and the app is suspended after the user navigates away for some period of time.
-9.  The user resumes the app to play another game. Because the app has not been relaunched, the last preferences declared by the [**AutoRotationPreferences**](https://msdn.microsoft.com/library/windows/apps/dn264259) API still apply.
+9.  The user resumes the app to play another game. Because the app has not been relaunched, the last preferences declared by the [**AutoRotationPreferences**](/uwp/api/Windows.Graphics.Display.DisplayInformation) API still apply.
 10. The game is closed (terminated).
 11. The game is restarted. Because it is again starting from an initial launch, the **InitialRotationPreference** settings once again apply.
 
-The key point to note is that once you've called [**AutoRotationPreferences**](https://msdn.microsoft.com/library/windows/apps/dn264259), it is your responsibility to handle the rotational preferences through that API until the game is terminated (not merely suspended).
+The key point to note is that once you've called [**AutoRotationPreferences**](/uwp/api/Windows.Graphics.Display.DisplayInformation), it is your responsibility to handle the rotational preferences through that API until the game is terminated (not merely suspended).
 
 When an app rotates, Windows rotates with it. If you close the app in Portrait, the Start screen is shown in Portrait. If an app has stated a rotation preference for a different rotation than the device is currently displaying, the rotation of the system occurs while the app's splash screen is displayed. The main app UI will not be shown until the system rotation is complete behind it.
 
 ## See also
 
 
-[**VisualElements**](https://msdn.microsoft.com/library/windows/apps/br211471)
+[**VisualElements**](../appxmanifestschema/element-visualelements.md)
 
-[Quickstart: Creating a default tile using the Visual Studio manifest editor](https://msdn.microsoft.com/library/windows/apps/hh465437)
+[Quickstart: Creating a default tile using the Visual Studio manifest editor](/previous-versions/windows/apps/hh465437(v=win.10))
 
-[**Windows.Graphics.Display.DisplayInformation.AutoRotationPreferences**](https://msdn.microsoft.com/library/windows/apps/dn264259)
+[**Windows.Graphics.Display.DisplayInformation.AutoRotationPreferences**](/uwp/api/Windows.Graphics.Display.DisplayInformation)
 
 ## Requirements
 
@@ -158,6 +158,3 @@ When an app rotates, Windows rotates with it. If you close the app in Portrait, 
  
 
  
-
-
-

@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # Provisioning
 
 
-Contains any errors from processing the [**Provisioning**](https://msdn.microsoft.com/library/windows/apps/hh868300) element from the last provisioning attempt.
+Contains any errors from processing the [**Provisioning**](../carriercontrolschema/element-provisioning.md) element from the last provisioning attempt.
 
 ## Element hierarchy
 
@@ -138,6 +138,3 @@ Contains any errors from processing the [**Provisioning**](https://msdn.microsof
  
 
  
-
-
-

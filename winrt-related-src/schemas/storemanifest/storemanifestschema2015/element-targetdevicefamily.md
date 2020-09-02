@@ -17,7 +17,7 @@ ms.date: 04/05/2017
 
 Identifies the device family that your package targets.
 
-**Important**  In most cases, you should simply specify your device families in the [**TargetDeviceFamily**](https://msdn.microsoft.com/library/windows/apps/dn986903) element of your AppxManifest. Values here should only be used if you need to override that info (using a subset of the values provided there).
+**Important**  In most cases, you should simply specify your device families in the [**TargetDeviceFamily**](../../appxpackage/uapmanifestschema/element-targetdevicefamily.md) element of your AppxManifest. Values here should only be used if you need to override that info (using a subset of the values provided there).
 
  
 
@@ -111,7 +111,7 @@ None.
 
 ## Remarks
 
-For more info about device families, see [Guide to Universal Windows Platform (UWP) apps](https://msdn.microsoft.com/library/windows/apps/dn894631).
+For more info about device families, see [Guide to Universal Windows Platform (UWP) apps](/windows/uwp/get-started/universal-application-platform-guide).
 
 ## Requirements
 
@@ -122,6 +122,3 @@ For more info about device families, see [Guide to Universal Windows Platform (U
  
 
  
-
-
-

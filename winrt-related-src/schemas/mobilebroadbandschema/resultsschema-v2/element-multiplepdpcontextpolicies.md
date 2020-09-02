@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # MultiplePDPContextPolicies
 
 
-Contains any errors from processing the [**MultiplePDPContextPolicies**](https://msdn.microsoft.com/library/windows/apps/dn394018) element from the last provisioning attempt.
+Contains any errors from processing the [**MultiplePDPContextPolicies**](../carriercontrolschema-v2/element-multiplepdpcontextpolicies.md) element from the last provisioning attempt.
 
 ## Element hierarchy
 
@@ -105,6 +105,3 @@ None.
  
 
  
-
-
-

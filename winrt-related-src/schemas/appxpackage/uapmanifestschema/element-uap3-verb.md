@@ -77,7 +77,7 @@ Defines the verbs associated with a file context menu and enables Windows Deskto
 | rescap3:DdeExecIfExec | The DDE command used if DDE conversion cannot be executed. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
 | uap7:Default | Specifies whether the verb is the default verb. | A boolean value. | No |
 | uap3:Parameters | Specifies the parameters for the app. | A string that contains one or more app parameters. | No |
-| uap3:MultiSelectModel | Specifies the activation model for apps that are started when the user selects and opens multiple files at the same time. For more information, see [this article](https://docs.microsoft.com/windows/apps/desktop/modernize/desktop-to-uwp-extensions#define-how-your-application-behaves-when-users-select-and-open-multiple-files-at-the-same-time). | One of the following strings: Player, Document, or Single. | No |
+| uap3:MultiSelectModel | Specifies the activation model for apps that are started when the user selects and opens multiple files at the same time. For more information, see [this article](/windows/apps/desktop/modernize/desktop-to-uwp-extensions#define-how-your-application-behaves-when-users-select-and-open-multiple-files-at-the-same-time). | One of the following strings: Player, Document, or Single. | No |
 
 ## Requirements
 

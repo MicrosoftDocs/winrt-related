@@ -94,14 +94,14 @@ None.
 
 ## Remarks
 
-The **SSIDConfig** element in te [WLAN](schema-root.md) schema supports up to 25 SSIDs in the v1 namespace and up to additional 10,000 SSIDs in the [WLAN\_v2 schema](https://msdn.microsoft.com/library/windows/apps/dn297323) in the v2 namespace. The v2 namespace also supports [**SSIDPrefix**](https://msdn.microsoft.com/library/windows/apps/dn297316) elements.
+The **SSIDConfig** element in te [WLAN](schema-root.md) schema supports up to 25 SSIDs in the v1 namespace and up to additional 10,000 SSIDs in the [WLAN\_v2 schema](../wlan-v2/schema-root.md) in the v2 namespace. The v2 namespace also supports [**SSIDPrefix**](../wlan-v2/element-ssidprefix.md) elements.
 
 ## See also
 
 
-[**SSIDPrefix**](https://msdn.microsoft.com/library/windows/apps/dn297316)
+[**SSIDPrefix**](../wlan-v2/element-ssidprefix.md)
 
-[WLAN\_v2 schema](https://msdn.microsoft.com/library/windows/apps/dn297323)
+[WLAN\_v2 schema](../wlan-v2/schema-root.md)
 
 ## Requirements
 
@@ -112,6 +112,3 @@ The **SSIDConfig** element in te [WLAN](schema-root.md) schema supports up to 25
  
 
  
-
-
-

@@ -89,7 +89,7 @@ Specifies the default and main data formats supported by an application.
 ## Remarks
 **DefaultFormatName** is the string value, and **DefaultStandardFormat** is the integer value of the supported data formats. These values are mutually exclusive.
 
-This element corresponds to the [DataFormats](https://msdn.microsoft.com/library/windows/desktop/ms678525.aspx) subkey.
+This element corresponds to the [DataFormats](/windows/win32/com/dataformats) subkey.
 
 ## Examples
 

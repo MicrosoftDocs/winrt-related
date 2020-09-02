@@ -111,7 +111,7 @@ This outermost (document) element may not be contained by any other elements.
 
 ## Remarks
 
-For more info, see [**Extension**](https://msdn.microsoft.com/library/windows/apps/dn423270).
+For more info, see [**Extension**](../appxmanifestschema2010-v2/element-extension.md).
 
 ## Requirements
 
@@ -122,6 +122,3 @@ For more info, see [**Extension**](https://msdn.microsoft.com/library/windows/ap
  
 
  
-
-
-

@@ -14,7 +14,7 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 # rescap3:MigrationProgId
 
 ## Description
-Contains a [programmatic identifier (ProgID)](https://docs.microsoft.com/windows/win32/shell/fa-progids) value that describes the application, component, and version of a desktop application from which you want to inherit file associations.
+Contains a [programmatic identifier (ProgID)](/windows/win32/shell/fa-progids) value that describes the application, component, and version of a desktop application from which you want to inherit file associations.
 
 
 ## Element Hierarchy

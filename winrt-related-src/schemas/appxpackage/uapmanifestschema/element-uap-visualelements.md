@@ -160,7 +160,7 @@ Describes the visual aspects of the app: its default tile, logo images, text and
 <td><a href="element-uap-initialrotationpreference.md">uap:InitialRotationPreference</a> </td>
 <td><p>Describes the orientations in which the app would prefer to be shown for the best user experience. On a device that can be rotated, such as a tablet, the app will not be redrawn for orientations that are not specified here. For instance, if the app specifies only Landscape and LandscapeFlipped orientations, and the device is rotated to a Portrait orientation, the app will not rotate.</p>
 <p>Note that on devices that can't be rotated, an app might be shown in that device's default orientation and the app's preferred orientation will be ignored. However, on a device with a rotation lock activated, your app's preferred rotation will still be honored.</p>
-<p>These orientation preference choices apply to both the <a href="element-uap-splashscreen.md">splash screen</a> and the app UI when a new session is launched for your app. The preferences can be changed during run time through the <a href="https://docs.microsoft.com/uwp/api/windows.graphics.display.displayinformation.autorotationpreferences">AutoRotationPreferences</a> property.</p></td>
+<p>These orientation preference choices apply to both the <a href="element-uap-splashscreen.md">splash screen</a> and the app UI when a new session is launched for your app. The preferences can be changed during run time through the <a href="/uwp/api/windows.graphics.display.displayinformation.autorotationpreferences">AutoRotationPreferences</a> property.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-uap-lockscreen.md">uap:LockScreen</a> </td>
@@ -200,9 +200,9 @@ Describes the visual aspects of the app: its default tile, logo images, text and
 
 ## Remarks
 
-For more info on tile dimension requirements, see [Tile sizes](https://msdn.microsoft.com/library/windows/apps/hh781198).
+For more info on tile dimension requirements, see [Tile sizes](/previous-versions/windows/apps/hh781198(v=win.10)).
 
-For the **Square150x150Logo** and **Square44x44Logo** images, you can supply images of different scales so that Windows can choose the best size for the device and screen resolution. You can also supply high contrast images for accessibility and localized images to match different UI languages. This feature also allows you to localize the **DisplayName** and **Description** attributes. For more info, see the [Globalization](https://msdn.microsoft.com/library/windows/apps/hh831183) topic.
+For the **Square150x150Logo** and **Square44x44Logo** images, you can supply images of different scales so that Windows can choose the best size for the device and screen resolution. You can also supply high contrast images for accessibility and localized images to match different UI languages. This feature also allows you to localize the **DisplayName** and **Description** attributes. For more info, see the [Globalization](/previous-versions/windows/apps/hh831183(v=win.10)) topic.
 
 Applications/Application/Extensions/Extension/FileTypeAssociation/Logo Applications/Application/Extensions/Extension/Protocol/Logo
 
@@ -288,11 +288,11 @@ The following example is taken from the package manifest of an SDK sample.
 ## See also
 
 
-[App screenshots and images](https://docs.microsoft.com/windows/uwp/publish/app-screenshots-and-images)
+[App screenshots and images](/windows/uwp/publish/app-screenshots-and-images)
 
-[**Colors class**](https://msdn.microsoft.com/library/windows/apps/hh747824)
+[**Colors class**](/uwp/api/Windows.UI.Colors)
 
-[Quickstart: Creating a default tile using the Visual Studio manifest editor](https://msdn.microsoft.com/library/windows/apps/hh465437)
+[Quickstart: Creating a default tile using the Visual Studio manifest editor](/previous-versions/windows/apps/hh465437(v=win.10))
 
 ## Requirements
 
@@ -304,6 +304,3 @@ The following example is taken from the package manifest of an SDK sample.
  
 
  
-
-
-

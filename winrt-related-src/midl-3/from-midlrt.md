@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 
 # Transition to MIDL 3.0 from classic MIDLRT
 
-MIDLRT is also known as MIDL 2.0. See [MIDL 1.0, 2.0, and 3.0](/uwp/midl-3/intro#midl-10-20-and-30).
+MIDLRT is also known as MIDL 2.0. See [MIDL 1.0, 2.0, and 3.0](./intro.md#midl-10-20-and-30).
 
 MIDL 3.0 can coexist in the same source file with classic MIDLRT; you're not required to convert the IDL file all at once. No new compiler options are required to express that you're using MIDL 3.0. The existing `/winrt` option enables both classic MIDLRT and MIDL 3.0.
 

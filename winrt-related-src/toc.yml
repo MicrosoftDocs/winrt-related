@@ -2,9 +2,9 @@
   href: index.yml
   items: 
   - name: "Windows Runtime (WinRT) namespaces"
-    href: http://docs.microsoft.com/uwp/api/
+    href: /uwp/api/
   - name: "Windows UI Library (WinUI) namespaces"
-    href: https://docs.microsoft.com/uwp/api/overview/winui/
+    href: /uwp/api/overview/winui/
   - name: "Schemas"
     href: schemas/index.md
     items: 
@@ -2260,9 +2260,9 @@
     - name: "Ink Serialized Format (ISF) Specification"
       href: specifications/ink-serialized-format.md
   - name: "Advertising SDK namespaces"
-    href: https://docs.microsoft.com/uwp/api/overview/advertising
+    href: /uwp/api/overview/advertising
   - name: "Store Services SDK namespaces"
-    href: https://docs.microsoft.com/uwp/api/overview/engagement
+    href: /uwp/api/overview/engagement
   - name: "Windows Runtime consolidated reference"
     href: 
     items:

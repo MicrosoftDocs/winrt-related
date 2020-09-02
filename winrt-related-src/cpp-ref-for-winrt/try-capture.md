@@ -1,5 +1,5 @@
 ---
-description: A function template that calls a specified function or method, captures the interface pointer that's output from the function or method, and returns it as a [winrt::com_ptr](/uwp/cpp-ref-for-winrt/com-ptr) or an empty **com_ptr** if not successful.
+description: A function template that calls a specified function or method, captures the interface pointer that's output from the function or method, and returns it as a [winrt::com_ptr](./com-ptr.md) or an empty **com_ptr** if not successful.
 title: winrt::try_capture function template (C++/WinRT)
 dev_langs: ["C++"]
 ms.date: 06/16/2020
@@ -11,9 +11,9 @@ ms.workload: ["cplusplus"]
 
 # winrt::try_capture function template (C++/WinRT)
 
-A function template that calls a specified function or method (automatically calling [winrt::check_hresult](/uwp/cpp-ref-for-winrt/error-handling/check-hresult) on it), captures the interface pointer that's output from the function or method, and returns it as a [winrt::com_ptr](/uwp/cpp-ref-for-winrt/com-ptr) or an empty **com_ptr** if not successful.
+A function template that calls a specified function or method (automatically calling [winrt::check_hresult](./error-handling/check-hresult.md) on it), captures the interface pointer that's output from the function or method, and returns it as a [winrt::com_ptr](./com-ptr.md) or an empty **com_ptr** if not successful.
 
-Also see the [winrt::com_ptr::try_capture function](/uwp/cpp-ref-for-winrt/com-ptr#com_ptrtry_capture-function).
+Also see the [winrt::com_ptr::try_capture function](./com-ptr.md#com_ptrtry_capture-function).
 
 ## Syntax
 
@@ -73,7 +73,7 @@ Both overloads pass through (to the invokee) any additional arguments that you p
 
 ## See also 
 
-* [winrt namespace](/uwp/cpp-ref-for-winrt/winrt.md)
-* [capture function template](/uwp/cpp-ref-for-winrt/capture.md)
-* [winrt::com_ptr struct template](/uwp/cpp-ref-for-winrt/com-ptr.md)
-* [winrt::com_ptr::try_capture function](/uwp/cpp-ref-for-winrt/com-ptr#com_ptrtry_capture-function)
+* [winrt namespace](./winrt.md)
+* [capture function template](./capture.md)
+* [winrt::com_ptr struct template](./com-ptr.md)
+* [winrt::com_ptr::try_capture function](./com-ptr.md#com_ptrtry_capture-function)

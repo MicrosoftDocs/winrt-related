@@ -325,7 +325,7 @@ Fortunately, it's rare to have a delegate that nominally returns **HRESULT**.
 
 ## Output parameters in JavaScript and Visual Basic
 
-See [Parameters](/uwp/midl-3/intro#parameters) for background info about output parameters.
+See [Parameters](./intro.md#parameters) for background info about output parameters.
 
 JavaScript projects a method with an `out` parameter differently from most languages. If a method's return type is void, and it has a single `out` parameter, then the `out` parameter is returned by the method. Otherwise, the method returns a single object; that object has a property for each `out` parameter, plus another property for the return value (if not void). In the following example, then, the JavaScript object returned by the method call has a property named *result*, and another property named *remainder*.
 

@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # WLANProfiles
 
 
-Contains any errors from processing the [**WLANProfile**](https://msdn.microsoft.com/library/windows/apps/hh868422) elements from the last provisioning attempt.
+Contains any errors from processing the [**WLANProfile**](../wlan/element-wlanprofile.md) elements from the last provisioning attempt.
 
 ## Element hierarchy
 
@@ -133,6 +133,3 @@ If processing all WLAN profiles failed with the same error, this error will be s
  
 
  
-
-
-

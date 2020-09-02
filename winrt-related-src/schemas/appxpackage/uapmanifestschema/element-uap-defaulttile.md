@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # uap:DefaultTile (Windows 10)
 
 
-The default tile that represents your app on the Start screen. The icons specified here are displayed when your app is not showing tile notifications. To dynamically change the appearance of your tile and display relevant live content, see [Send a local tile notification](https://docs.microsoft.com/windows/uwp/controls-and-patterns/tiles-and-notifications-sending-a-local-tile-notification).
+The default tile that represents your app on the Start screen. The icons specified here are displayed when your app is not showing tile notifications. To dynamically change the appearance of your tile and display relevant live content, see [Send a local tile notification](/windows/uwp/controls-and-patterns/tiles-and-notifications-sending-a-local-tile-notification).
 
 ## Element hierarchy
 
@@ -176,7 +176,7 @@ The default tile that represents your app on the Start screen. The icons specifi
 
 ## Remarks
 
-For the **Wide310x150Logo**, **Square310x310Logo**, **Square71x71Logo**, and **Tall150x310Logo** images, you can supply images of different scales so that Windows can choose the best size for the device and screen resolution. You can also supply high contrast images for accessibility and localized images to match different UI languages. This feature also allows you to localize the **ShortName** attribute. For more info, see the [Globalization](https://msdn.microsoft.com/library/windows/apps/hh831183) topic.
+For the **Wide310x150Logo**, **Square310x310Logo**, **Square71x71Logo**, and **Tall150x310Logo** images, you can supply images of different scales so that Windows can choose the best size for the device and screen resolution. You can also supply high contrast images for accessibility and localized images to match different UI languages. This feature also allows you to localize the **ShortName** attribute. For more info, see the [Globalization](/previous-versions/windows/apps/hh831183(v=win.10)) topic.
 
 ## Requirements
 
@@ -188,6 +188,3 @@ For the **Wide310x150Logo**, **Square310x310Logo**, **Square71x71Logo**, and **T
  
 
  
-
-
-

@@ -48,7 +48,7 @@ compiler synthesizes and adds interfaces, as necessary.
 ## The `[contract]` attribute
 Do not use the `contract` attribute in your own APIs; it only has meaning for built-in Windows APIs.
 
-The `contract` attribute specifies the name and version of the Windows 10 [API contract](/uwp/extension-sdks/device-families-overview) in which the attributed type and/or member was first introduced into Windows (hence it is not meaningful for APIs not delivered as part of Windows). The attribute takes the form `[contract(ContractName, ContractVersion)]`, and it appears before the item to which it applies.
+The `contract` attribute specifies the name and version of the Windows 10 [API contract](../extension-sdks/device-families-overview.md) in which the attributed type and/or member was first introduced into Windows (hence it is not meaningful for APIs not delivered as part of Windows). The attribute takes the form `[contract(ContractName, ContractVersion)]`, and it appears before the item to which it applies.
 
 ## The `[method_name]` attribute
 Every Windows Runtime interface has an equivalent Application Binary

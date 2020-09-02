@@ -137,7 +137,7 @@ Declares actions to take when a contact is launched.
 
 ## Remarks
 
-For more info, see [**ViewSizePreference**](https://msdn.microsoft.com/library/windows/apps/dn281132) and [**DesiredRemainingView**](https://msdn.microsoft.com/library/windows/apps/dn298314).
+For more info, see [**ViewSizePreference**](/uwp/api/Windows.UI.ViewManagement.ViewSizePreference) and [**DesiredRemainingView**](/uwp/api/Windows.System.LauncherOptions).
 
 ## Requirements
 
@@ -148,6 +148,3 @@ For more info, see [**ViewSizePreference**](https://msdn.microsoft.com/library/w
  
 
  
-
-
-

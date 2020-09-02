@@ -1,5 +1,5 @@
 ---
-description: A function template that creates a single uninitialized object of the class associated with a specified CLSID, and returns it as a [winrt::com_ptr](/uwp/cpp-ref-for-winrt/com-ptr) or an empty **com_ptr** if not successful.
+description: A function template that creates a single uninitialized object of the class associated with a specified CLSID, and returns it as a [winrt::com_ptr](./com-ptr.md) or an empty **com_ptr** if not successful.
 title: winrt::try_create_instance function template (C++/WinRT)
 dev_langs: ["C++"]
 ms.date: 06/16/2020
@@ -11,7 +11,7 @@ ms.workload: ["cplusplus"]
 
 # winrt::try_create_instance function template (C++/WinRT)
 
-A function template that creates a single uninitialized object of the class associated with a specified CLSID, and returns it as a [winrt::com_ptr](/uwp/cpp-ref-for-winrt/com-ptr) or an empty **com_ptr** if not successful.
+A function template that creates a single uninitialized object of the class associated with a specified CLSID, and returns it as a [winrt::com_ptr](./com-ptr.md) or an empty **com_ptr** if not successful.
 
 ## Syntax
 
@@ -40,7 +40,7 @@ If `nullptr`, indicates that the object is not being created as part of an aggre
 
 ### Return value
 
-A [winrt::com_ptr](/uwp/cpp-ref-for-winrt/com-ptr) of the newly created object or an empty **com_ptr** if not successful.
+A [winrt::com_ptr](./com-ptr.md) of the newly created object or an empty **com_ptr** if not successful.
 
 ## Requirements
 
@@ -52,6 +52,6 @@ A [winrt::com_ptr](/uwp/cpp-ref-for-winrt/com-ptr) of the newly created object o
 
 ## See also 
 
-* [winrt namespace](/uwp/cpp-ref-for-winrt/winrt.md)
-* [create_instance function template](/uwp/cpp-ref-for-winrt/create-instance.md)
-* [winrt::com_ptr struct template](/uwp/cpp-ref-for-winrt/com-ptr.md)
+* [winrt namespace](./winrt.md)
+* [create_instance function template](./create-instance.md)
+* [winrt::com_ptr struct template](./com-ptr.md)

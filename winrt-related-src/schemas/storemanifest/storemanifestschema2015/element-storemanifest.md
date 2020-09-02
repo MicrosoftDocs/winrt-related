@@ -79,7 +79,7 @@ This outermost (document) element may not be contained by any other elements.
 
 ## Remarks
 
-For apps targeting earlier OS versions, see [StoreManifest schema (Windows 8.1 and earlier)](https://msdn.microsoft.com/library/windows/apps/jj730526).
+For apps targeting earlier OS versions, see [StoreManifest schema (Windows 8.1 and earlier)](../storemanifestschema2010/schema-root.md).
 
 ## Requirements
 
@@ -90,6 +90,3 @@ For apps targeting earlier OS versions, see [StoreManifest schema (Windows 8.1 a
  
 
  
-
-
-

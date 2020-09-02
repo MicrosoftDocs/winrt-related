@@ -20,7 +20,7 @@ ms.date: 04/05/2017
 
  
 
-To declare each device capability required by your Windows Runtime app, add a [**DeviceCapability**](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-devicecapability) element and applicable child elements to the package manifest.
+To declare each device capability required by your Windows Runtime app, add a [**DeviceCapability**](./uapmanifestschema/element-devicecapability.md) element and applicable child elements to the package manifest.
 
 > [!IMPORTANT]
 > Some device capabilities must be specified manually. For example, you must use the **XML (Text) Editor** to specify device capabilities for the USB, Human Interface Device (HID), Point of Service (POS), Bluetooth GATT, and Bluetooth RFCOMM APIs.
@@ -35,7 +35,7 @@ Open the Package.appxmanifest file. In Microsoft Visual Studio, open the file wi
 ## Step 2:
 
 
-Add one **DeviceCapability** element per device capability. You can have multiple **DeviceCapability** and **Capability** elements in the **Capabilities** element, but all **DeviceCapability** elements must come after the **Capability** elements. Note that some device capabilities require multiple child elements. For more info, see [**DeviceCapability**](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-devicecapability).
+Add one **DeviceCapability** element per device capability. You can have multiple **DeviceCapability** and **Capability** elements in the **Capabilities** element, but all **DeviceCapability** elements must come after the **Capability** elements. Note that some device capabilities require multiple child elements. For more info, see [**DeviceCapability**](./uapmanifestschema/element-devicecapability.md).
 
 > [!NOTE]
 > Not all APIs are available for both UWP apps and Windows 8.x Phone apps. See the API reference documentation for more details about which devices are supported by each API.
@@ -44,7 +44,7 @@ Add one **DeviceCapability** element per device capability. You can have multipl
 
 ### Webcam example
 
-Here's an example of the **webcam** device capability. This device capability does not require child elements. For an example of how to use a webcam, see [How to record audio or video](https://msdn.microsoft.com/library/windows/apps/hh452798).
+Here's an example of the **webcam** device capability. This device capability does not require child elements. For an example of how to use a webcam, see [How to record audio or video](/previous-versions/windows/apps/hh452798(v=win.10)).
 
 ```XML
 <Capabilities>
@@ -58,7 +58,7 @@ Here's an example of the **webcam** device capability. This device capability do
 
 ### USB example
 
-The **usb** device capability enables access to APIs in the [**Windows.Devices.Usb**](https://msdn.microsoft.com/library/windows/apps/dn278466) namespace. For more info, see [Updating the app manifest package for a USB device](https://go.microsoft.com/fwlink/p/?LinkId=302259).
+The **usb** device capability enables access to APIs in the [**Windows.Devices.Usb**](/uwp/api/Windows.Devices.Usb) namespace. For more info, see [Updating the app manifest package for a USB device](https://go.microsoft.com/fwlink/p/?LinkId=302259).
 
 ```XML
 <DeviceCapability Name="usb">
@@ -72,7 +72,7 @@ The **usb** device capability enables access to APIs in the [**Windows.Devices.U
 
 ### Human Interface Device (HID) example
 
-The **humaninterfacedevice** device capability enables access to APIs in the [**Windows.Devices.HumanInterfaceDevice**](https://msdn.microsoft.com/library/windows/apps/dn264174) namespace. In this example, the capability enables access to any device of a specific function. For more info, see [How to specify device capabilities for HID](how-to-specify-device-capabilities-for-hid.md).
+The **humaninterfacedevice** device capability enables access to APIs in the [**Windows.Devices.HumanInterfaceDevice**](/uwp/api/Windows.Devices.HumanInterfaceDevice) namespace. In this example, the capability enables access to any device of a specific function. For more info, see [How to specify device capabilities for HID](how-to-specify-device-capabilities-for-hid.md).
 
 ```XML
 <DeviceCapability Name="humaninterfacedevice">
@@ -84,7 +84,7 @@ The **humaninterfacedevice** device capability enables access to APIs in the [**
 
 ### Point of Service (POS) example
 
-The **pointOfService** device capability enables access to APIs in the [**Windows.Devices.PointOfService**](https://msdn.microsoft.com/library/windows/apps/dn298071) namespace. This device capability does not require child elements.
+The **pointOfService** device capability enables access to APIs in the [**Windows.Devices.PointOfService**](/uwp/api/Windows.Devices.PointOfService) namespace. This device capability does not require child elements.
 
 ```XML
 <Capabilities>
@@ -94,7 +94,7 @@ The **pointOfService** device capability enables access to APIs in the [**Window
 
 ### Bluetooth GATT example
 
-The **bluetooth.genericAttributeProfile** device capability enables access to APIs in the [**Windows.Devices.Bluetooth.GenericAttributeProfile**](https://msdn.microsoft.com/library/windows/apps/dn297685) namespace. In this example, the capability enables access to any device of a specific function. For more info, see [How to specify device capabilities for Bluetooth](how-to-specify-device-capabilities-for-bluetooth.md).
+The **bluetooth.genericAttributeProfile** device capability enables access to APIs in the [**Windows.Devices.Bluetooth.GenericAttributeProfile**](/uwp/api/Windows.Devices.Bluetooth.GenericAttributeProfile) namespace. In this example, the capability enables access to any device of a specific function. For more info, see [How to specify device capabilities for Bluetooth](how-to-specify-device-capabilities-for-bluetooth.md).
 
 ```XML
   <Capabilities>
@@ -108,7 +108,7 @@ The **bluetooth.genericAttributeProfile** device capability enables access to AP
 
 ### Bluetooth RFCOMM example
 
-The **bluetooth.rfcomm** device capability enables access to APIs in the [**Windows.Devices.Bluetooth.Rfcomm**](https://msdn.microsoft.com/library/windows/apps/dn263529) namespace. In this example, the capability enables access to any device of a specific function. For more info, see [How to specify device capabilities for Bluetooth](how-to-specify-device-capabilities-for-bluetooth.md).
+The **bluetooth.rfcomm** device capability enables access to APIs in the [**Windows.Devices.Bluetooth.Rfcomm**](/uwp/api/Windows.Devices.Bluetooth.Rfcomm) namespace. In this example, the capability enables access to any device of a specific function. For more info, see [How to specify device capabilities for Bluetooth](how-to-specify-device-capabilities-for-bluetooth.md).
 
 ```XML
   <Capabilities>
@@ -123,15 +123,12 @@ The **bluetooth.rfcomm** device capability enables access to APIs in the [**Wind
 ## Related topics
 
 
-[Devices, sensors, and power](https://msdn.microsoft.com/library/windows/apps/mt204543)
+[Devices, sensors, and power](/windows/uwp/devices-sensors/)
 
-[**DeviceCapability element reference**](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-devicecapability)
+[**DeviceCapability element reference**](./uapmanifestschema/element-devicecapability.md)
 
-[App capability declarations](https://msdn.microsoft.com/windows/uwp/packaging/app-capability-declarations)
-
- 
+[App capability declarations](/windows/uwp/packaging/app-capability-declarations)
 
  
 
-
-
+ 

@@ -13,7 +13,7 @@ ms.date: 04/05/2017
 
 # Name
 
-Specifies the [System.ItemName](https://msdn.microsoft.com/library/windows/desktop/bb760768)\\[System.ItemNameDisplay](https://msdn.microsoft.com/library/windows/desktop/bb760770) of the item.
+Specifies the [System.ItemName](/windows/win32/properties/props-system-itemname)\\[System.ItemNameDisplay](/windows/win32/properties/props-system-itemnamedisplay) of the item.
 
 ## Element hierarchy
 
@@ -176,7 +176,7 @@ For the complete code, see the [Indexer sample](https://go.microsoft.com/fwlink/
 
 [Indexer sample](https://go.microsoft.com/fwlink/p/?LinkID=311565)
 
-[**Windows.Storage.Search**](https://msdn.microsoft.com/library/windows/apps/br208106)
+[**Windows.Storage.Search**](/uwp/api/Windows.Storage.Search)
 
 ## Requirements
 
@@ -187,6 +187,3 @@ For the complete code, see the [Indexer sample](https://go.microsoft.com/fwlink/
  
 
  
-
-
-

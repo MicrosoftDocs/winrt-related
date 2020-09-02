@@ -96,7 +96,7 @@ Describes a trigger event for the current service.
 
 ## Remarks
 
-This element requires the **packagedServices** or **localSystemServices** [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
+This element requires the **packagedServices** or **localSystemServices** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
 
 
 ## Requirements

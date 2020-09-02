@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # CarrierProvisioningResult
 
 
-Contains any errors from processing the [**CarrierProvisioning**](https://msdn.microsoft.com/library/windows/apps/hh868289) element from the last provisioning attempt. [**CarrierProvisioningResult**](https://msdn.microsoft.com/library/windows/apps/hh868380) is the unique root element for the provisioning results.
+Contains any errors from processing the [**CarrierProvisioning**](../carriercontrolschema/element-carrierprovisioning.md) element from the last provisioning attempt. [**CarrierProvisioningResult**](../resultsschema/element-carrierprovisioningresult.md) is the unique root element for the provisioning results.
 
 ## Element hierarchy
 
@@ -148,6 +148,3 @@ This outermost (document) element may not be contained by any other elements.
  
 
  
-
-
-

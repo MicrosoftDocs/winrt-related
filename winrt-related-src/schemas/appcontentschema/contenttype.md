@@ -245,12 +245,8 @@ For the complete code, see the [Indexer sample](https://go.microsoft.com/fwlink/
 
 [Indexer sample](https://go.microsoft.com/fwlink/p/?LinkID=311565)
 
-[**Windows.Storage.Search**](https://msdn.microsoft.com/library/windows/apps/br208106)
+[**Windows.Storage.Search**](/uwp/api/Windows.Storage.Search)
 
  
 
  
-
-
-
-

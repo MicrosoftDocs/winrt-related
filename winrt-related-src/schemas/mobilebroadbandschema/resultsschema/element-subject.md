@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # Subject
 
 
-Contains the X.509 certificate subject field of the [**Signature**](https://msdn.microsoft.com/library/windows/apps/hh868330) element from the last provisioning attempt.
+Contains the X.509 certificate subject field of the [**Signature**](../carriercontrolsignatureschema/element-signature.md) element from the last provisioning attempt.
 
 ## Element hierarchy
 
@@ -81,6 +81,3 @@ None.
  
 
  
-
-
-

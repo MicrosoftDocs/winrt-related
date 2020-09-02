@@ -13,7 +13,7 @@ ms.date: 04/05/2017
 
 # MBNProfiles
 
-Contains any errors from processing the [**MBNProfiles**](https://msdn.microsoft.com/library/windows/apps/hh868295) element from the last provisioning attempt.
+Contains any errors from processing the [**MBNProfiles**](../carriercontrolschema/element-mbnprofiles.md) element from the last provisioning attempt.
 
 
 ## Element hierarchy
@@ -133,6 +133,3 @@ Contains any errors from processing the [**MBNProfiles**](https://msdn.microsoft
  
 
  
-
-
-

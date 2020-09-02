@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # CarrierNetworkMetadata
 
 
-Contains any errors from processing the [**CarrierNetworkMetadata**](https://msdn.microsoft.com/library/windows/apps/dn393998) element from the last provisioning attempt.
+Contains any errors from processing the [**CarrierNetworkMetadata**](../carriercontrolschema-v2/element-carriernetworkmetadata.md) element from the last provisioning attempt.
 
 ## Element hierarchy
 
@@ -139,6 +139,3 @@ Contains any errors from processing the [**CarrierNetworkMetadata**](https://msd
  
 
  
-
-
-

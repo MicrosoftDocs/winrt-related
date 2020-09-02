@@ -76,7 +76,7 @@ None.
 </tr>
 <tr class="even">
 <td><a href="element-name.md">Name</a> </td>
-<td><p>Specifies the <a href="https://msdn.microsoft.com/library/windows/desktop/bb760768">System.ItemName</a> \<a href="https://msdn.microsoft.com/library/windows/desktop/bb760770">System.ItemNameDisplay</a> of the item.</p></td>
+<td><p>Specifies the <a href="https://msdn.microsoft.com/library/windows/desktop/bb760768">System.ItemName</a> \<a href="/windows/win32/properties/props-system-itemnamedisplay">System.ItemNameDisplay</a> of the item.</p></td>
 </tr>
 </tbody>
 </table>
@@ -197,7 +197,7 @@ For the complete code, see the [Indexer sample](https://go.microsoft.com/fwlink/
 
 [Indexer sample](https://go.microsoft.com/fwlink/p/?LinkID=311565)
 
-[**Windows.Storage.Search**](https://msdn.microsoft.com/library/windows/apps/br208106)
+[**Windows.Storage.Search**](/uwp/api/Windows.Storage.Search)
 
 ## Requirements
 
@@ -208,6 +208,3 @@ For the complete code, see the [Indexer sample](https://go.microsoft.com/fwlink/
  
 
  
-
-
-

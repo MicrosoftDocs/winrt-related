@@ -155,7 +155,7 @@ Defines an app extensibility point of type **windows.backgroundTasks**. Backgrou
 
 ## Remarks
 
-Extensions of type "windows.backgroundTask" must specify either a StartPage or EntryPoint attribute in the Extension element. For more info (and an example) see [Declare background tasks in the application manifest](https://docs.microsoft.com/windows/uwp/launch-resume/declare-background-tasks-in-the-application-manifest).
+Extensions of type "windows.backgroundTask" must specify either a StartPage or EntryPoint attribute in the Extension element. For more info (and an example) see [Declare background tasks in the application manifest](/windows/uwp/launch-resume/declare-background-tasks-in-the-application-manifest).
 
 ## Requirements
 
@@ -167,6 +167,3 @@ Extensions of type "windows.backgroundTask" must specify either a StartPage or E
  
 
  
-
-
-

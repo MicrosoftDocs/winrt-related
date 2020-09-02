@@ -79,7 +79,7 @@ Defines the badge and notifications that represent the app on the lock screen, w
 </tr>
 <tr class="even">
 <td><strong>Notification</strong></td>
-<td><p>The type of tile that can be shown for an app on the lock screen. This can either be simply a badge which displays either a number or a glyph to communicate status, or both a badge and text, which can display detailed status. If LockScreen Notification type 'badgeAndTileText' is selected, then the optional WideLogo must be specified, since only the WideLogo template provides the right information to display with tile text. If this image is not provided, the tile can only display in the square format and cannot accept notifications based on <a href="https://msdn.microsoft.com/library/windows/apps/hh761491">wide template types</a> . This rule is semantically enforced through the manifest API.</p></td>
+<td><p>The type of tile that can be shown for an app on the lock screen. This can either be simply a badge which displays either a number or a glyph to communicate status, or both a badge and text, which can display detailed status. If LockScreen Notification type 'badgeAndTileText' is selected, then the optional WideLogo must be specified, since only the WideLogo template provides the right information to display with tile text. If this image is not provided, the tile can only display in the square format and cannot accept notifications based on <a href="/previous-versions/windows/apps/hh761491(v=win.10)">wide template types</a> . This rule is semantically enforced through the manifest API.</p></td>
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li>badge</li>
@@ -122,9 +122,9 @@ None.
 
 ## Remarks
 
-For an app to have a presence on the lock screen, it must also register to handle background tasks. For more information, see the [Lock screen overview](https://msdn.microsoft.com/library/windows/apps/hh779720) and the [**uap:BackgroundTasks**](https://msdn.microsoft.com/library/windows/apps/dn934782) element.
+For an app to have a presence on the lock screen, it must also register to handle background tasks. For more information, see the [Lock screen overview](/previous-versions/windows/apps/hh779720(v=win.10)) and the [**uap:BackgroundTasks**](/previous-versions/windows/dn934782(v=win.10)) element.
 
-The **BadgeLogo** image can be given as either a direct path to an image file or as a resource. By using a resource reference, you can supply images of different scales so that Windows can choose the best size for the device and screen resolution. You can also supply high contrast images for accessibility and localized images to match different UI languages. For more info, see the [Globalization](https://msdn.microsoft.com/library/windows/apps/hh831183) topic.
+The **BadgeLogo** image can be given as either a direct path to an image file or as a resource. By using a resource reference, you can supply images of different scales so that Windows can choose the best size for the device and screen resolution. You can also supply high contrast images for accessibility and localized images to match different UI languages. For more info, see the [Globalization](/previous-versions/windows/apps/hh831183(v=win.10)) topic.
 
 Size requirements of a badge logo image are shown here:
 
@@ -143,13 +143,13 @@ Applications\\Application\\VisualElements\\LockScreen\\@BadgeLogo
 ## See also
 
 
-[Lock screen overview](https://msdn.microsoft.com/library/windows/apps/br241847)
+[Lock screen overview](/uwp/api/Windows.System.UserProfile.LockScreen)
 
-[How to show notifications on the lock screen](https://msdn.microsoft.com/library/windows/apps/hh700416)
+[How to show notifications on the lock screen](/previous-versions/windows/apps/hh700416(v=win.10))
 
 [Lock screen apps sample](https://go.microsoft.com/fwlink/p/?linkid=239970)
 
-[Windows.ApplicationModel.LockScreen namespace](https://docs.microsoft.com/uwp/api/windows.applicationmodel.lockscreen)
+[Windows.ApplicationModel.LockScreen namespace](/uwp/api/windows.applicationmodel.lockscreen)
 
 ## Requirements
 
@@ -161,6 +161,3 @@ Applications\\Application\\VisualElements\\LockScreen\\@BadgeLogo
  
 
  
-
-
-

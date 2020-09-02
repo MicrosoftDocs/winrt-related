@@ -133,9 +133,9 @@ Identifies an NT Service to install, update, or uninstall on Nano Server.
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li><p>auto</p>
-<p>Corresponds to the <strong>SERVICE_AUTO_START</strong> value for the <em>dwStartType</em> parameter of the [<strong>CreateService</strong>](https://msdn.microsoft.com/library/windows/desktop/ms682450) function.</p></li>
+<p>Corresponds to the <strong>SERVICE_AUTO_START</strong> value for the <em>dwStartType</em> parameter of the [<strong>CreateService</strong>](/windows/win32/api/winsvc/nf-winsvc-createservicea) function.</p></li>
 <li><p>manual</p>
-<p>Corresponds to the <strong>SERVICE_DEMAND_START</strong> value for the <em>dwStartType</em> parameter of the [<strong>CreateService</strong>](https://msdn.microsoft.com/library/windows/desktop/ms682450) function.</p></li>
+<p>Corresponds to the <strong>SERVICE_DEMAND_START</strong> value for the <em>dwStartType</em> parameter of the [<strong>CreateService</strong>](/windows/win32/api/winsvc/nf-winsvc-createservicea) function.</p></li>
 </ul></td>
 <td>Yes</td>
 <td></td>
@@ -165,9 +165,9 @@ Identifies an NT Service to install, update, or uninstall on Nano Server.
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li><p>ignoreError</p>
-<p>Corresponds to the <strong>SERVICE_ERROR_IGNORE</strong> value for the <em>dwErrorControl</em> parameter of the [<strong>CreateService</strong>](https://msdn.microsoft.com/library/windows/desktop/ms682450) function.</p></li>
+<p>Corresponds to the <strong>SERVICE_ERROR_IGNORE</strong> value for the <em>dwErrorControl</em> parameter of the [<strong>CreateService</strong>](/windows/win32/api/winsvc/nf-winsvc-createservicea) function.</p></li>
 <li><p>logError</p>
-<p>Corresponds to the <strong>SERVICE_ERROR_NORMAL</strong> value for the <em>dwErrorControl</em> parameter of the [<strong>CreateService</strong>](https://msdn.microsoft.com/library/windows/desktop/ms682450) function.</p></li>
+<p>Corresponds to the <strong>SERVICE_ERROR_NORMAL</strong> value for the <em>dwErrorControl</em> parameter of the [<strong>CreateService</strong>](/windows/win32/api/winsvc/nf-winsvc-createservicea) function.</p></li>
 </ul></td>
 <td>No</td>
 <td></td>
@@ -192,9 +192,9 @@ Identifies an NT Service to install, update, or uninstall on Nano Server.
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li><p>none</p>
-<p>Corresponds to the <strong>SERVICE_ACTION_NONE</strong> value for the <strong>Type</strong> member of the [<strong>SC_ACTION</strong>](https://msdn.microsoft.com/library/windows/desktop/ms685126) structure.</p></li>
+<p>Corresponds to the <strong>SERVICE_ACTION_NONE</strong> value for the <strong>Type</strong> member of the [<strong>SC_ACTION</strong>](/windows/win32/api/winsvc/ns-winsvc-sc_action) structure.</p></li>
 <li><p>restartService</p>
-<p>Corresponds to the <strong>SERVICE_ACTION_RESTART</strong> value for the <strong>Type</strong> member of the [<strong>SC_ACTION</strong>](https://msdn.microsoft.com/library/windows/desktop/ms685126) structure.</p></li>
+<p>Corresponds to the <strong>SERVICE_ACTION_RESTART</strong> value for the <strong>Type</strong> member of the [<strong>SC_ACTION</strong>](/windows/win32/api/winsvc/ns-winsvc-sc_action) structure.</p></li>
 </ul></td>
 <td>No</td>
 <td></td>
@@ -277,6 +277,3 @@ Only NT services that run in their own processes are supported. Services that sh
  
 
  
-
-
-

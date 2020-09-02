@@ -135,7 +135,7 @@ None.
 
 [**AdditionalPDPContexts**](element-additionalpdpcontexts.md)
 
-[CarrierControlSchema schema](https://msdn.microsoft.com/library/windows/apps/hh868312)
+[CarrierControlSchema schema](../carriercontrolschema/schema-root.md)
 
 [CarrierControlSchema\_v2 schema](schema-root.md)
 
@@ -154,6 +154,3 @@ None.
  
 
  
-
-
-

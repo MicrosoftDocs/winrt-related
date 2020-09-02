@@ -19,7 +19,7 @@ Describes the orientations in which the app would prefer to be shown for the bes
 
 Note that on devices that can't be rotated, an app might be shown in that device's default orientation and the app's preferred orientation will be ignored. However, on a device with a rotation lock activated, your app's preferred rotation will still be honored.
 
-These orientation preference choices apply to both the [**splash screen**](https://msdn.microsoft.com/library/windows/apps/dn391687) and the app UI when a new session is launched for your app. The preferences can be changed during run time through the [**AutoRotationPreferences**](https://msdn.microsoft.com/library/windows/apps/dn264259) property.
+These orientation preference choices apply to both the [**splash screen**](../appxmanifestschema2013/element-splashscreen.md) and the app UI when a new session is launched for your app. The preferences can be changed during run time through the [**AutoRotationPreferences**](https://msdn.microsoft.com/library/windows/apps/dn264259) property.
 
 ## Element hierarchy
 
@@ -120,6 +120,3 @@ None.
  
 
  
-
-
-

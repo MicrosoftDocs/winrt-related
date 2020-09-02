@@ -106,7 +106,7 @@ None.
 
 ## Remarks
 
-The [App capability declarations](https://msdn.microsoft.com/library/windows/apps/hh464936) topic describes the capability values.
+The [App capability declarations](/previous-versions/windows/apps/hh464936(v=win.10)) topic describes the capability values.
 
 ## Examples
 
@@ -137,9 +137,9 @@ Here's an example of a [**Capabilities**](element-capabilities.md) node.
 ## See also
 
 
-[App capability declarations](https://msdn.microsoft.com/library/windows/apps/hh464936)
+[App capability declarations](/previous-versions/windows/apps/hh464936(v=win.10))
 
-[Guidelines for app settings](https://msdn.microsoft.com/library/windows/apps/hh770544)
+[Guidelines for app settings](/windows/uwp/design/app-settings/guidelines-for-app-settings)
 
 ## Requirements
 
@@ -151,6 +151,3 @@ Here's an example of a [**Capabilities**](element-capabilities.md) node.
  
 
  
-
-
-

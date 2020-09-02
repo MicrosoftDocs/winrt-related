@@ -92,7 +92,7 @@ Defines a SurrogateServer class registration.
 | Path | The full path to the surrogate class DLL. | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *. | Yes |
 | ThreadingModel | The threading model for loading DLLs. | String value, valid choices are: Both, STA, MTA, MainSTA, Neutral. | Yes |
 | DisplayName | A localizable string corresponding to the default value of the CLSID's key. | A string between 1 and 256 characters in length. | No |
-| EnableOleDefaultHandler |This should be set to true if the default value of the [InprocHandler32](https://msdn.microsoft.com/library/windows/desktop/ms693485.aspx) key is "Ole32.dll". Otherwise it should be omitted. The default value is false. | Boolean. | No |
+| EnableOleDefaultHandler |This should be set to true if the default value of the [InprocHandler32](/windows/win32/com/inprochandler32) key is "Ole32.dll". Otherwise it should be omitted. The default value is false. | Boolean. | No |
 | ProgId | Associates a programmatic identifier (ProgID) with a CLSID. | An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1 | No |
 | VersionIndependentProgId | Associates a ProgID with a CLSID. This value is used to determine the latest version of an object application. | An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1 | No |
 | AutoConvertTo | Specifies the automatic conversion of a given class of objects to a new class of objects. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |
@@ -114,7 +114,7 @@ Defines a SurrogateServer class registration.
 ## Remarks
 Class registrations with the same AppId should share a **SurrogateServer**, unless they need to be registered under different Applications/Application manifest elements. 
 
-The **ThreadingModel** corresponds to the [InprocServer32](https://msdn.microsoft.com/library/windows/desktop/ms682390.aspx) threading model. **SurrogateServer** class registrations should have an InprocServer32 registration in the package's private hive.
+The **ThreadingModel** corresponds to the [InprocServer32](/windows/win32/com/inprocserver32) threading model. **SurrogateServer** class registrations should have an InprocServer32 registration in the package's private hive.
 
 ## Examples
 

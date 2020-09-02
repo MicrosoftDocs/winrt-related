@@ -82,7 +82,7 @@ Specifies a service that is installed and registered along with the app. These s
 
 ## Remarks
 
-This element requires the **packagedServices** or **localSystemServices** [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
+This element requires the **packagedServices** or **localSystemServices** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
 
 
 ## Requirements

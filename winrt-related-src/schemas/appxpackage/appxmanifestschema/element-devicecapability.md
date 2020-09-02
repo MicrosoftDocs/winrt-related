@@ -103,23 +103,23 @@ None.
 
 If the *Name* attribute is specified as a GUID, then it is validated as GUID.
 
-By default, UWP apps have access to print, scanner, and sensor devices. To access other types of devices, you must specify them using a **DeviceCapability** element. Some device capabilities must be added to the package manifest manually. For more info, see [How to specify device capabilities in a package manifest](https://msdn.microsoft.com/library/windows/apps/dn263092).
+By default, UWP apps have access to print, scanner, and sensor devices. To access other types of devices, you must specify them using a **DeviceCapability** element. Some device capabilities must be added to the package manifest manually. For more info, see [How to specify device capabilities in a package manifest](../how-to-specify-device-capabilities-in-a-package-manifest.md).
 
-For more info about capability declarations, see [App capability declarations](https://msdn.microsoft.com/library/windows/apps/hh464936).
+For more info about capability declarations, see [App capability declarations](/previous-versions/windows/apps/hh464936(v=win.10)).
 
 Some device capabilities require child elements. This table lists device capabilities by name or GUID and specifies if any child elements are required.
 
 | Device capability                     | Description                                     |
 |---------------------------------------|-------------------------------------------------|
-| **bluetooth.genericAttributeProfile** | Provides access to APIs in the [**Windows.Devices.Bluetooth.GenericAttributeProfile**](https://msdn.microsoft.com/library/windows/apps/dn297685) namespace. This capability requires child elements. For more info, see [How to specify device capabilities for Bluetooth](https://msdn.microsoft.com/library/windows/apps/dn263090). |
-| **bluetooth.rfcomm**                  | Provides access to APIs in the [**Windows.Devices.Bluetooth.Rfcomm**](https://msdn.microsoft.com/library/windows/apps/dn263529) namespace. This capability requires child elements. For more info, see [How to specify device capabilities for Bluetooth](https://msdn.microsoft.com/library/windows/apps/dn263090). |
-| **humaninterfacedevice**              | Provides access to APIs in the [**Windows.Devices.HumanInterfaceDevice**](https://msdn.microsoft.com/library/windows/apps/dn264174) namespace. This capability requires child elements. For more info, see [How to specify device capabilities for HID](https://msdn.microsoft.com/library/windows/apps/dn263091). |
+| **bluetooth.genericAttributeProfile** | Provides access to APIs in the [**Windows.Devices.Bluetooth.GenericAttributeProfile**](/uwp/api/Windows.Devices.Bluetooth.GenericAttributeProfile) namespace. This capability requires child elements. For more info, see [How to specify device capabilities for Bluetooth](../how-to-specify-device-capabilities-for-bluetooth.md). |
+| **bluetooth.rfcomm**                  | Provides access to APIs in the [**Windows.Devices.Bluetooth.Rfcomm**](/uwp/api/Windows.Devices.Bluetooth.Rfcomm) namespace. This capability requires child elements. For more info, see [How to specify device capabilities for Bluetooth](../how-to-specify-device-capabilities-for-bluetooth.md). |
+| **humaninterfacedevice**              | Provides access to APIs in the [**Windows.Devices.HumanInterfaceDevice**](/uwp/api/Windows.Devices.HumanInterfaceDevice) namespace. This capability requires child elements. For more info, see [How to specify device capabilities for HID](../how-to-specify-device-capabilities-for-hid.md). |
 | **location**                          | Provides access to the user's current location. |
 | **microphone**                        | Provides access to the microphone's audio feed. |
-| **pointOfService**                    | Provides access to Point of Service (POS) barcode scanners and magnetic stripe readers, via the [**Windows.Devices.PointOfService**](https://msdn.microsoft.com/library/windows/apps/dn298071) namespace. These APIs are not supported on Windows Phone. |
+| **pointOfService**                    | Provides access to Point of Service (POS) barcode scanners and magnetic stripe readers, via the [**Windows.Devices.PointOfService**](/uwp/api/Windows.Devices.PointOfService) namespace. These APIs are not supported on Windows Phone. |
 | **proximity**                         | Required for near-field communication (NFC) between devices in close proximity. Near-field proximity may be used to send files or connect with an app on a proximate device. |
-| **serialcommunication**               | Provides access to APIs in the [**Windows.Devices.SerialCommunication**](https://docs.microsoft.com/uwp/api/windows.devices.serialcommunication) namespace. For more information about defining this capability in the manifest, see the [**Windows.Devices.SerialCommunication**](https://docs.microsoft.com/uwp/api/windows.devices.serialcommunication) namespace page. |
-| **usb**                               | Provides access to APIs in the [**Windows.Devices.Usb**](https://msdn.microsoft.com/library/windows/apps/dn278466) namespace. This capability requires child elements. For more info, see [Updating the app manifest package for a USB device](https://go.microsoft.com/fwlink/p/?LinkId=302259). |
+| **serialcommunication**               | Provides access to APIs in the [**Windows.Devices.SerialCommunication**](/uwp/api/windows.devices.serialcommunication) namespace. For more information about defining this capability in the manifest, see the [**Windows.Devices.SerialCommunication**](/uwp/api/windows.devices.serialcommunication) namespace page. |
+| **usb**                               | Provides access to APIs in the [**Windows.Devices.Usb**](/uwp/api/Windows.Devices.Usb) namespace. This capability requires child elements. For more info, see [Updating the app manifest package for a USB device](https://go.microsoft.com/fwlink/p/?LinkId=302259). |
 | **webcam**                            | Provides access to the camera's video feed. |
 | Other devices (represented by GUIDs)  | Includes specialized devices and Windows Portable Devices. |
 
@@ -127,7 +127,7 @@ Some device capabilities require child elements. This table lists device capabil
 
 ## Examples
 
-Here's an example of a[**Capabilities**](element-capabilities.md) node. For more examples, see [How to specify device capabilities in a package manifest](https://msdn.microsoft.com/library/windows/apps/dn263092).
+Here's an example of a[**Capabilities**](element-capabilities.md) node. For more examples, see [How to specify device capabilities in a package manifest](../how-to-specify-device-capabilities-in-a-package-manifest.md).
 
 ```XML
 <Capabilities>
@@ -142,9 +142,9 @@ Here's an example of a[**Capabilities**](element-capabilities.md) node. For more
 ## See also
 
 
-[App capability declarations](https://msdn.microsoft.com/library/windows/apps/hh464936)
+[App capability declarations](/previous-versions/windows/apps/hh464936(v=win.10))
 
-[How to specify device capabilities in a package manifest](https://msdn.microsoft.com/library/windows/apps/dn263092)
+[How to specify device capabilities in a package manifest](../how-to-specify-device-capabilities-in-a-package-manifest.md)
 
 ## Requirements
 
@@ -155,6 +155,3 @@ Here's an example of a[**Capabilities**](element-capabilities.md) node. For more
  
 
  
-
-
-

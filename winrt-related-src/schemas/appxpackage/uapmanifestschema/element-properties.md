@@ -16,7 +16,7 @@ ms.date: 04/05/2017
 
 Defines additional metadata about the package including attributes that describe how the package appears to users.
 
-**Note**  You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely “|” and “all”, due to which Windows fails to create the AppContainer profile for the package . Use this reference for [troubleshooting](https://msdn.microsoft.com/library/windows/desktop/hh973484) if you get an error.
+**Note**  You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely “|” and “all”, due to which Windows fails to create the AppContainer profile for the package . Use this reference for [troubleshooting](/windows/win32/appxpkg/troubleshooting) if you get an error.
 
  
 
@@ -123,7 +123,7 @@ None.
 </tr>
 <tr class="even">
 <td><a href="element-uap10-allowexternalcontent.md">uap10:AllowExternalContent</a> </td>
-<td><p>Enables your package manifest to reference content outside the package, in a specific location on disk, for [sparse package](https://docs.microsoft.com/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps) scenarios.</p></td>
+<td><p>Enables your package manifest to reference content outside the package, in a specific location on disk, for [sparse package](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps) scenarios.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-uap10-packageintegrity.md">uap10:PackageIntegrity</a> </td>
@@ -172,9 +172,9 @@ The following example is taken from the package manifest of one of the SDK sampl
 
 ## See also
 
-[Upload app packages](https://docs.microsoft.com/windows/uwp/publish/upload-app-packages)
+[Upload app packages](/windows/uwp/publish/upload-app-packages)
 
-[Create your app by reserving a name](https://docs.microsoft.com/windows/uwp/publish/create-your-app-by-reserving-a-name)
+[Create your app by reserving a name](/windows/uwp/publish/create-your-app-by-reserving-a-name)
 
 
 ## Requirements
@@ -187,6 +187,3 @@ The following example is taken from the package manifest of one of the SDK sampl
  
 
  
-
-
-

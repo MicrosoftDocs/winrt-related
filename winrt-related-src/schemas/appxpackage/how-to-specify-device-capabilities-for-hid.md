@@ -85,11 +85,8 @@ Windows 8.x Phone apps can access the **Windows.Devices.HumanInterfaceDevice** A
 ## Related topics
 
 
-[**Windows.Devices.HumanInterfaceDevice**](https://msdn.microsoft.com/library/windows/apps/dn264174)
+[**Windows.Devices.HumanInterfaceDevice**](/uwp/api/Windows.Devices.HumanInterfaceDevice)
 
  
 
  
-
-
-

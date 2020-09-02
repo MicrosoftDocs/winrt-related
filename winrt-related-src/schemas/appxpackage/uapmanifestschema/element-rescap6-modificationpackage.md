@@ -10,7 +10,7 @@ ms.custom: 19H1
 ---
 
 # rescap6:ModificationPackage
-Declares that the current package is a [modification package](https://docs.microsoft.com/windows/msix/modification-packages) for an enterprise application.
+Declares that the current package is a [modification package](/windows/msix/modification-packages) for an enterprise application.
 
 ## Element hierarchy
 
@@ -48,9 +48,9 @@ None.
 
 ## Remarks
 
-This element represents a restricted property that is only supported in [optional packages](https://docs.microsoft.com/windows/uwp/packaging/optional-packages). This element is currently intended to be used only for enterprise applications. We don't recommend that you declare this capability in applications that you submit to the Microsoft Store. In most cases, the use of this element won't be approved.
+This element represents a restricted property that is only supported in [optional packages](/windows/uwp/packaging/optional-packages). This element is currently intended to be used only for enterprise applications. We don't recommend that you declare this capability in applications that you submit to the Microsoft Store. In most cases, the use of this element won't be approved.
 
-For more information, see [Modification packages](https://docs.microsoft.com/windows/msix/modification-packages).
+For more information, see [Modification packages](/windows/msix/modification-packages).
 
 ## Requirements
 
@@ -58,6 +58,3 @@ For more information, see [Modification packages](https://docs.microsoft.com/win
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/6` |
  
-
-
-

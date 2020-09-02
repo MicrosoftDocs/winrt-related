@@ -55,17 +55,17 @@ Declares an extensibility point for the app.
 | EntryPoint | The activatable class ID. | A string between 1 and 256 characters in length, representing the task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |
 | RuntimeType | The runtime provider. This attribute is used typically when there are mixed frameworks in an app. | A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, &#124;, ?, or *. | No |
 | StartPage | The web page that handles the extensibility point. | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *. | No |
-| uap10:TrustLevel | Specifies the trust level of the extension. This attribute is used for [hosted apps](https://docs.microsoft.com/windows/uwp/launch-resume/hosted-apps). | String value. Can be one of the following: "appContainer", "mediumIL".  | No |
-| uap10:RuntimeBehavior | Specifies the run time behavior of the extension. This attribute is used for [hosted apps](https://docs.microsoft.com/windows/uwp/launch-resume/hosted-apps). | String value. Can be one of the following: "windowsApp", "packagedClassicApp", "win32App".  | No |
-| uap10:HostId | Specifies the app ID of the host app for the extension. This attribute is used for [hosted apps](https://docs.microsoft.com/windows/uwp/launch-resume/hosted-apps). | An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.  | No |
+| uap10:TrustLevel | Specifies the trust level of the extension. This attribute is used for [hosted apps](/windows/uwp/launch-resume/hosted-apps). | String value. Can be one of the following: "appContainer", "mediumIL".  | No |
+| uap10:RuntimeBehavior | Specifies the run time behavior of the extension. This attribute is used for [hosted apps](/windows/uwp/launch-resume/hosted-apps). | String value. Can be one of the following: "windowsApp", "packagedClassicApp", "win32App".  | No |
+| uap10:HostId | Specifies the app ID of the host app for the extension. This attribute is used for [hosted apps](/windows/uwp/launch-resume/hosted-apps). | An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.  | No |
 | uap10:Parameters | Contains command line parameters to pass to the extension. Only supported for desktop apps that have package identity. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.  | No |
 
 ## Child Elements
 
 | Child Element | Description |
 |---------------|-------------|
-| [uap10:HostRuntime](element-uap10-hostruntime.md) | Defines a package-wide extension that defines the runtime information to be used when activating a [hosted app](https://docs.microsoft.com/windows/uwp/launch-resume/hosted-apps). |
-| [uap10:InstalledLocationVirtualization](element-uap10-installedlocationvirtualization.md) | Defines an extension for a desktop app in an MSIX package that redirects any writes to the app's installation directory to a location in the [app data](https://docs.microsoft.com/windows/uwp/design/app-settings/store-and-retrieve-app-data). |
+| [uap10:HostRuntime](element-uap10-hostruntime.md) | Defines a package-wide extension that defines the runtime information to be used when activating a [hosted app](/windows/uwp/launch-resume/hosted-apps). |
+| [uap10:InstalledLocationVirtualization](element-uap10-installedlocationvirtualization.md) | Defines an extension for a desktop app in an MSIX package that redirects any writes to the app's installation directory to a location in the [app data](/windows/uwp/design/app-settings/store-and-retrieve-app-data). |
 
 
 ## Requirements

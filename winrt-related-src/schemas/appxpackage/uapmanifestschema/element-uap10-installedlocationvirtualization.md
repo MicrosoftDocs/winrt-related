@@ -11,7 +11,7 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 
 ## Description
 
-Defines an extension for a desktop app in an MSIX package that redirects any writes to the app's installation directory to a location in the [app data](https://docs.microsoft.com/windows/uwp/design/app-settings/store-and-retrieve-app-data). For more details, see the [remarks](#remarks).
+Defines an extension for a desktop app in an MSIX package that redirects any writes to the app's installation directory to a location in the [app data](/windows/uwp/design/app-settings/store-and-retrieve-app-data). For more details, see the [remarks](#remarks).
 
 ## Element Hierarchy
 
@@ -55,7 +55,7 @@ None.
 
 ## Remarks
 
-This extension is intended to be used by desktop apps in an MSIX package that write to their installation directory. These types of apps cannot normally write to their installation directory, so this extension redirects the write operations to a safe location in the [app data](https://docs.microsoft.com/windows/uwp/design/app-settings/store-and-retrieve-app-data). This extension also enables you to specify what happens during app updates to files in the app's installation directory that were previously modified, added, or deleted by the app.
+This extension is intended to be used by desktop apps in an MSIX package that write to their installation directory. These types of apps cannot normally write to their installation directory, so this extension redirects the write operations to a safe location in the [app data](/windows/uwp/design/app-settings/store-and-retrieve-app-data). This extension also enables you to specify what happens during app updates to files in the app's installation directory that were previously modified, added, or deleted by the app.
 
 This extension has no effect in a UWP app.
 

@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # TrustedCertificate
 
 
-Contains errors from processing any of the [**TrustedCertificate**](https://msdn.microsoft.com/library/windows/apps/hh868306) element from the last provisioning attempt.
+Contains errors from processing any of the [**TrustedCertificate**](../carriercontrolschema/element-trustedcertificate.md) element from the last provisioning attempt.
 
 ## Element hierarchy
 
@@ -105,6 +105,3 @@ None.
  
 
  
-
-
-

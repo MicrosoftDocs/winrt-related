@@ -133,7 +133,7 @@ The following example is taken from the package manifest of one of the SDK sampl
 
 
 **Concepts**
-[App contracts and extensions](https://msdn.microsoft.com/library/windows/apps/hh464906)
+[App contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10))
 
 ## Requirements
 
@@ -144,6 +144,3 @@ The following example is taken from the package manifest of one of the SDK sampl
  
 
  
-
-
-

@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # Issuer
 
 
-Contains any errors from processing the [**CarrierId**](https://msdn.microsoft.com/library/windows/apps/hh868288) element from the last provisioning attempt.
+Contains any errors from processing the [**CarrierId**](../carriercontrolschema/element-carrierid.md) element from the last provisioning attempt.
 
 ## Element hierarchy
 
@@ -76,6 +76,3 @@ None.
  
 
  
-
-
-

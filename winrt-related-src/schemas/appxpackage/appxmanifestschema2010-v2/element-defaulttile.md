@@ -129,9 +129,9 @@ None.
 
 ## Remarks
 
-For more info on tile dimension requirements, see [Tile sizes](https://msdn.microsoft.com/library/windows/apps/hh781198).
+For more info on tile dimension requirements, see [Tile sizes](/previous-versions/windows/apps/hh781198(v=win.10)).
 
-**WideLogo** image can be given as either a direct path to an image file or as a resource. By using a resource reference, you can supply images of different scales so that Windows can choose the best size for the device and screen resolution. You can also supply high contrast images for accessibility and localized images to match different UI languages. This feature also allows you to localize the **ShortName** attribute. For more info, see the [Globalization](https://msdn.microsoft.com/library/windows/apps/hh831183) topic.
+**WideLogo** image can be given as either a direct path to an image file or as a resource. By using a resource reference, you can supply images of different scales so that Windows can choose the best size for the device and screen resolution. You can also supply high contrast images for accessibility and localized images to match different UI languages. This feature also allows you to localize the **ShortName** attribute. For more info, see the [Globalization](/previous-versions/windows/apps/hh831183(v=win.10)) topic.
 
 Size requirements of a wide logo image are shown here:
 
@@ -150,7 +150,7 @@ Applications\\Application\\VisualElements\\DefaultTile\\@WideLogo
 ## See also
 
 
-[Quickstart: Creating a default tile using the Visual Studio manifest editor](https://msdn.microsoft.com/library/windows/apps/hh465437)
+[Quickstart: Creating a default tile using the Visual Studio manifest editor](/previous-versions/windows/apps/hh465437(v=win.10))
 
 ## Requirements
 
@@ -161,6 +161,3 @@ Applications\\Application\\VisualElements\\DefaultTile\\@WideLogo
  
 
  
-
-
-

@@ -92,7 +92,7 @@ None.
 
 ## Remarks
 
-For more info about contacts, see [**Windows.ApplicationModel.Contacts**](https://msdn.microsoft.com/library/windows/apps/br225002).
+For more info about contacts, see [**Windows.ApplicationModel.Contacts**](/uwp/api/Windows.ApplicationModel.Contacts).
 
 ## Requirements
 
@@ -103,6 +103,3 @@ For more info about contacts, see [**Windows.ApplicationModel.Contacts**](https:
  
 
  
-
-
-

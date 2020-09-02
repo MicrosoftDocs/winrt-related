@@ -65,8 +65,8 @@ Defines the device information of an AutoPlayHandler.
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | DeviceEvent | The name of a content event raised when a volume device such as a camera memory card, USB drive, or DVD is inserted into the PC. | A string between 1 and 255 characters in length. Backward slashes ('\') are not allowed. | Yes |
-| HWEventHandler | The Class ID of the app that implements the [IHWEventHandler](https://msdn.microsoft.com/library/windows/desktop/bb775492.aspx) interface. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |
-| InitCmdLine | A string parameter that should be passed into the [Initialize](https://msdn.microsoft.com/library/windows/desktop/bb775495.aspx) method of the [IHWEventHandler](https://msdn.microsoft.com/library/windows/desktop/bb775492.aspx) interface. | A string between 1 and 255 characters in length. | No |
+| HWEventHandler | The Class ID of the app that implements the [IHWEventHandler](/windows/win32/api/shobjidl/nn-shobjidl-ihweventhandler) interface. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |
+| InitCmdLine | A string parameter that should be passed into the [Initialize](/windows/win32/api/shobjidl/nf-shobjidl-ihweventhandler-initialize) method of the [IHWEventHandler](/windows/win32/api/shobjidl/nn-shobjidl-ihweventhandler) interface. | A string between 1 and 255 characters in length. | No |
 
 ## Requirements
 

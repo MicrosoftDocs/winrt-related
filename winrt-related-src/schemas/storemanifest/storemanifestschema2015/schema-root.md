@@ -16,7 +16,7 @@ ms.date: 04/05/2017
 
 StoreManifest.xml is an optional configuration file that may be included in a UWP package. Its purpose is to enable features, such as declaring your app as a Microsoft Store device app, that the AppxManifest.xml file does not cover. StoreManifest.xml is submitted with the application package and must be in the root folder of your app's main project.
 
-**Note**  This section describes StoreManifest.xml for UWP packages targeting Windows 10. For packages targeting Windows 8.1 and earlier, see [StoreManifest schema (Windows 8.1 and earlier)](https://msdn.microsoft.com/library/windows/apps/jj730526).
+**Note**  This section describes StoreManifest.xml for UWP packages targeting Windows 10. For packages targeting Windows 8.1 and earlier, see [StoreManifest schema (Windows 8.1 and earlier)](../storemanifestschema2010/schema-root.md).
 
  
 
@@ -77,7 +77,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 <td><a href="element-targetdevicefamily.md">TargetDeviceFamily</a> </td>
 <td><p>Identifies the device family that your package targets.</p>
 <div class="alert">
-<strong>Important</strong>  In most cases, you should simply specify your device families in the [<strong>TargetDeviceFamily</strong>](https://msdn.microsoft.com/library/windows/apps/dn986903) element of your AppxManifest. Values here should only be used if you need to override that info (using a subset of the values provided there).
+<strong>Important</strong>  In most cases, you should simply specify your device families in the [<strong>TargetDeviceFamily</strong>](../../appxpackage/uapmanifestschema/element-targetdevicefamily.md) element of your AppxManifest. Values here should only be used if you need to override that info (using a subset of the values provided there).
 </div>
 <div>
  
@@ -91,6 +91,3 @@ The following table lists all of the elements in this schema, sorted alphabetica
  
 
  
-
-
-

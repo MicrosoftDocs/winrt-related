@@ -161,7 +161,7 @@ The following elements have the same name as this one, but different content or 
 
 ## Remarks
 
-For more info about launch actions that a contacts provider takes, see [**ContactLaunchActionVerbs**](https://msdn.microsoft.com/library/windows/apps/dn263363).
+For more info about launch actions that a contacts provider takes, see [**ContactLaunchActionVerbs**](/uwp/api/Windows.ApplicationModel.Contacts.ContactLaunchActionVerbs).
 
 The manifest enforces these semantic checks for the **Verb** attribute for a [**ContactLaunchActions**](element-contactlaunchactions.md) content action.
 
@@ -187,7 +187,7 @@ The **LaunchAction (in ContactLaunchActions)** definition has these statements:
             </xs:element>
 ```
 
-The preceding 'ref' statement indicates that **LaunchAction (in ContactLaunchActions)** inherits all of these [**Extension**](https://msdn.microsoft.com/library/windows/apps/dn423270) base attributes:
+The preceding 'ref' statement indicates that **LaunchAction (in ContactLaunchActions)** inherits all of these [**Extension**](../appxmanifestschema2010-v2/element-extension.md) base attributes:
 
 ``` syntax
   <xs:attributeGroup name="ExtensionBaseAttributes">
@@ -198,14 +198,14 @@ The preceding 'ref' statement indicates that **LaunchAction (in ContactLaunchAct
   </xs:attributeGroup>
 ```
 
-Because **LaunchAction (in ContactLaunchActions)** allows the [**Extension**](https://msdn.microsoft.com/library/windows/apps/dn423270) base attributes, it has these semantic validations that aren't covered by the XSD manifest schema:
+Because **LaunchAction (in ContactLaunchActions)** allows the [**Extension**](../appxmanifestschema2010-v2/element-extension.md) base attributes, it has these semantic validations that aren't covered by the XSD manifest schema:
 
--   [**Extension**](https://msdn.microsoft.com/library/windows/apps/dn423270) base attributes must follow these rules:
+-   [**Extension**](../appxmanifestschema2010-v2/element-extension.md) base attributes must follow these rules:
 
     -   If the **StartPage** attribute is specified, fail if the **EntryPoint**, **Executable**, or **RuntimeType** attribute is specified.
     -   Otherwise, fail if the **Executable** or **RuntimeType** attribute is specified without an **EntryPoint** specified.
 
--   If **LaunchAction** defines the **EntryPoint** attribute, either this **LaunchAction** or the parent [**Extension**](https://msdn.microsoft.com/library/windows/apps/dn423270) or [**Application**](https://msdn.microsoft.com/library/windows/apps/dn423250) element must specify an **Executable** attribute.
+-   If **LaunchAction** defines the **EntryPoint** attribute, either this **LaunchAction** or the parent [**Extension**](../appxmanifestschema2010-v2/element-extension.md) or [**Application**](../appxmanifestschema2010-v2/element-application.md) element must specify an **Executable** attribute.
 
 ## Requirements
 
@@ -216,6 +216,3 @@ Because **LaunchAction (in ContactLaunchActions)** allows the [**Extension**](ht
  
 
  
-
-
-

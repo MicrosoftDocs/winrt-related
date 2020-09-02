@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # NotificationSignatureKey
 
 
-Contains any errors from processing the [**KeyInfo**](https://msdn.microsoft.com/library/windows/apps/hh868321) element from the last provisioning attempt.
+Contains any errors from processing the [**KeyInfo**](../carriercontrolsignatureschema/element-keyinfo.md) element from the last provisioning attempt.
 
 ## Element hierarchy
 
@@ -110,6 +110,3 @@ None.
  
 
  
-
-
-

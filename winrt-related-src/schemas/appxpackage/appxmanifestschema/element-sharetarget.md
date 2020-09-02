@@ -146,10 +146,10 @@ The Share charm provides access to a list of target apps that can receive data t
 
 
 **Tasks**
-[Adding share](https://msdn.microsoft.com/library/windows/apps/hh758314)
+[Adding share](/previous-versions/windows/apps/hh758314(v=win.10))
 
 **Concepts**
-[App contracts and extensions](https://msdn.microsoft.com/library/windows/apps/hh464906)
+[App contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10))
 
 ## Requirements
 
@@ -160,6 +160,3 @@ The Share charm provides access to a list of target apps that can receive data t
  
 
  
-
-
-

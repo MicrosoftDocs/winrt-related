@@ -195,9 +195,9 @@ You cannot use the **VisualGroup** attribute to create a structure of nested fol
 
 The **VisualGroup** attribute is not valid if the manifest declares only one app.
 
-For more info on tile dimension requirements, see [Tile sizes](https://msdn.microsoft.com/library/windows/apps/hh781198).
+For more info on tile dimension requirements, see [Tile sizes](/previous-versions/windows/apps/hh781198(v=win.10)).
 
-For the **Square150x150Logo** and **Square44x44Logo** images, you can supply images of different scales so that Windows can choose the best size for the device and screen resolution. You can also supply high contrast images for accessibility and localized images to match different UI languages. This feature also allows you to localize the **DisplayName** and **Description** attributes. For more info, see the [Globalization](https://msdn.microsoft.com/library/windows/apps/hh831183) and [Localizing the package manifest]( https://go.microsoft.com/fwlink/p/?LinkId=823054) topics.
+For the **Square150x150Logo** and **Square44x44Logo** images, you can supply images of different scales so that Windows can choose the best size for the device and screen resolution. You can also supply high contrast images for accessibility and localized images to match different UI languages. This feature also allows you to localize the **DisplayName** and **Description** attributes. For more info, see the [Globalization](/previous-versions/windows/apps/hh831183(v=win.10)) and [Localizing the package manifest]( https://go.microsoft.com/fwlink/p/?LinkId=823054) topics.
 
 Applications/Application/Extensions/Extension/FileTypeAssociation/Logo Applications/Application/Extensions/Extension/Protocol/Logo
 
@@ -295,13 +295,10 @@ The following example creates a folder named App1 in the All Apps List and store
 ## Related topics
 
 
-[**Colors class**](https://msdn.microsoft.com/library/windows/apps/hh747824)
+[**Colors class**](/uwp/api/Windows.UI.Colors)
 
-[Quickstart: Creating a default tile using the Visual Studio manifest editor](https://msdn.microsoft.com/library/windows/apps/hh465437)
-
- 
+[Quickstart: Creating a default tile using the Visual Studio manifest editor](/previous-versions/windows/apps/hh465437(v=win.10))
 
  
 
-
-
+ 

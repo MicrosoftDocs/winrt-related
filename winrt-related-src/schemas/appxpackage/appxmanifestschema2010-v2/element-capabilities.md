@@ -117,7 +117,7 @@ Here's an example **Capabilities** node that declares 3 capabilities.
 ## See also
 
 
-[App capability declarations](https://msdn.microsoft.com/library/windows/apps/hh464936)
+[App capability declarations](/previous-versions/windows/apps/hh464936(v=win.10))
 
 ## Requirements
 
@@ -128,6 +128,3 @@ Here's an example **Capabilities** node that declares 3 capabilities.
  
 
  
-
-
-

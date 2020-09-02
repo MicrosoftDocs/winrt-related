@@ -53,8 +53,8 @@ This element is optional. If this element is not specified in a profile, then FI
 
 **FIPSMode** can be enabled only when the following conditions are met:
 
--   The [**authentication**](https://msdn.microsoft.com/library/windows/apps/hh868402) element has a value of `WPA2` or `WPA2PSK`.
--   The [**encryption**](https://msdn.microsoft.com/library/windows/apps/hh868403) element has a value of `AES`.
+-   The [**authentication**](../wlan/element-authentication.md) element has a value of `WPA2` or `WPA2PSK`.
+-   The [**encryption**](../wlan/element-encryption.md) element has a value of `AES`.
 
 ## Requirements
 
@@ -65,6 +65,3 @@ This element is optional. If this element is not specified in a profile, then FI
  
 
  
-
-
-

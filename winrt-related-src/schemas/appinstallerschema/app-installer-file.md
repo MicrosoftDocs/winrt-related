@@ -20,11 +20,11 @@ An App Installer file is an XML document (*.appinstaller) that contains app pack
 
 Create the App Installer file manually.
 
-For more information on how to create an App Installer file, see [Install a related set using an App Installer file](https://docs.microsoft.com/windows/uwp/packaging/install-related-set).
+For more information on how to create an App Installer file, see [Install a related set using an App Installer file](/windows/uwp/packaging/install-related-set).
 
 ## In this section
 
 -   [App Installer file (.appinstaller) schema reference](schema-root.md)
 
 ## Related topics
-[App Installer features](https://docs.microsoft.com/windows/uwp/packaging/appinstaller-root)
+[App Installer features](/windows/uwp/packaging/appinstaller-root)

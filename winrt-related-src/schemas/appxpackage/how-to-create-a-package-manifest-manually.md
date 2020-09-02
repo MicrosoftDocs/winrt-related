@@ -21,7 +21,7 @@ ms.date: 04/05/2017
 
 Learn how to create a package manifest XML file that conforms to the package manifest schema, using an XML editor.
 
-Alternatively, you can package your app using Visual Studio. See [Packaging your app using Visual Studio](https://msdn.microsoft.com/windows/uwp/packaging/index).
+Alternatively, you can package your app using Visual Studio. See [Packaging your app using Visual Studio](/windows/uwp/packaging/).
 
 ## In this section
 
@@ -63,16 +63,13 @@ Alternatively, you can package your app using Visual Studio. See [Packaging your
 
 
 **Reference**
-[App packager (MakeAppx.exe)](https://msdn.microsoft.com/library/windows/desktop/hh446767)
+[App packager (MakeAppx.exe)](/windows/win32/appxpkg/make-appx-package--makeappx-exe-)
 
 [Package manifest schema reference](appxmanifestschema/schema-root.md)
 
 **Concepts**
-[Packaging apps](https://msdn.microsoft.com/windows/uwp/packaging/index)
+[Packaging apps](/windows/uwp/packaging/)
 
  
 
  
-
-
-

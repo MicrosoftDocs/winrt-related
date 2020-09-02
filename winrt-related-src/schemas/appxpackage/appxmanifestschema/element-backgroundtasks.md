@@ -144,7 +144,7 @@ Defines an app extensibility point of type **windows.backgroundTasks**. Backgrou
 
 ## Remarks
 
-Extensions of type "windows.backgroundTask" must specify either a StartPage or EntryPoint attribute in the Extension element. For more info (and an example) see [**How to declare background tasks in the application manifest (JavaScript and HTML)**](https://msdn.microsoft.com/library/windows/apps/hh977042) or [**How to declare background tasks in the application manifest (C#/VB/C++ and XAML)**](https://msdn.microsoft.com/library/windows/apps/xaml/hh977049).
+Extensions of type "windows.backgroundTask" must specify either a StartPage or EntryPoint attribute in the Extension element. For more info (and an example) see [**How to declare background tasks in the application manifest (JavaScript and HTML)**](/previous-versions/windows/apps/hh977042(v=win.10)) or [**How to declare background tasks in the application manifest (C#/VB/C++ and XAML)**](/previous-versions/windows/apps/hh977049(v=win.10)).
 
 ## Requirements
 
@@ -155,6 +155,3 @@ Extensions of type "windows.backgroundTask" must specify either a StartPage or E
  
 
  
-
-
-

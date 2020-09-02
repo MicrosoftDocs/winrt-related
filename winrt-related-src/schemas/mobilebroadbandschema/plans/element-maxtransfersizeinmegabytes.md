@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # MaxTransferSizeInMegabytes
 
 
-Defines the size of an individual download in MB which a compliant application should permit over a metered connection without explicit user approval of the connection being used. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the [**DataPlanStatus**](https://msdn.microsoft.com/library/windows/apps/br207256) class.
+Defines the size of an individual download in MB which a compliant application should permit over a metered connection without explicit user approval of the connection being used. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the [**DataPlanStatus**](/uwp/api/Windows.Networking.Connectivity.DataPlanStatus) class.
 
 ## Element hierarchy
 
@@ -75,7 +75,7 @@ None.
 ## See also
 
 
-[**DataPlanStatus**](https://msdn.microsoft.com/library/windows/apps/br207256)
+[**DataPlanStatus**](/uwp/api/Windows.Networking.Connectivity.DataPlanStatus)
 
 ## Requirements
 
@@ -86,6 +86,3 @@ None.
  
 
  
-
-
-

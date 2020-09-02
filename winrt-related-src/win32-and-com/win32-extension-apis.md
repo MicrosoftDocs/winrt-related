@@ -14,7 +14,7 @@ ms.assetid: e8d54f37-9969-4f33-8b1b-fcb3d659c507
 # Extension APIs for Windows 10 devices
 This topic lists the Win32 and COM APIs that are part of the Universal Windows Platform (UWP) and that are implemented by some Windows 10 devices, so your calls to these APIs must be guarded with conditions that first confirm the presence of the API on the device your app is running on. The union of [APIs present on all Windows 10 devices](win32-apis.md) and the APIs listed in this topic make up the entire Win32 and COM surface area of UWP.
 
-This topic lists the APIs grouped by module (where the module is either an [API set](https://msdn.microsoft.com/library/windows/apps/mt683763.aspx#api_sets) or a dll). For delay load, use the module name.
+This topic lists the APIs grouped by module (where the module is either an [API set](/windows/win32/apiindex/windows-umbrella-libraries#api_sets) or a dll). For delay load, use the module name.
 
 ## APIs from PhoneAudioSes.dll
 
@@ -36,46 +36,46 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 
 | API | Requirements |
 | -----| --------------|
-| [BCryptCreateMultiHash](https://msdn.microsoft.com/library/Mt845763(v=VS.85).aspx) | Introduced into Bcrypt.dll in 10.0.10240. Removed in 10.0.10586. |
-| [BCryptProcessMultiOperations](https://msdn.microsoft.com/library/Mt845764(v=VS.85).aspx) | Introduced into Bcrypt.dll in 10.0.10240. Removed in 10.0.10586. |
+| [BCryptCreateMultiHash](/windows/win32/api/bcrypt/nf-bcrypt-bcryptcreatemultihash) | Introduced into Bcrypt.dll in 10.0.10240. Removed in 10.0.10586. |
+| [BCryptProcessMultiOperations](/windows/win32/api/bcrypt/nf-bcrypt-bcryptprocessmultioperations) | Introduced into Bcrypt.dll in 10.0.10240. Removed in 10.0.10586. |
 
 
 ## APIs from ole32.dll
 
 | API | Requirements |
 | -----| --------------|
-| [BindMoniker](https://msdn.microsoft.com/library/windows/desktop/ms683759.aspx) | Introduced into ole32.dll in 10.0.10240. |
-| [CoGetObject](https://msdn.microsoft.com/library/windows/desktop/ms678805.aspx) | Introduced into ole32.dll in 10.0.10240. |
-| [CreateAntiMoniker](https://msdn.microsoft.com/library/windows/desktop/ms679750.aspx) | Introduced into ole32.dll in 10.0.10240. |
-| [CreateBindCtx](https://msdn.microsoft.com/library/windows/desktop/ms678542.aspx) | Introduced into ole32.dll in 10.0.10240. |
-| [CreateClassMoniker](https://msdn.microsoft.com/library/windows/desktop/ms688698.aspx) | Introduced into ole32.dll in 10.0.10240. |
-| [CreateFileMoniker](https://msdn.microsoft.com/library/windows/desktop/ms693465.aspx) | Introduced into ole32.dll in 10.0.10240. |
-| [CreateGenericComposite](https://msdn.microsoft.com/library/windows/desktop/ms687265.aspx) | Introduced into ole32.dll in 10.0.10240. |
-| [CreateItemMoniker](https://msdn.microsoft.com/library/windows/desktop/ms680140.aspx) | Introduced into ole32.dll in 10.0.10240. |
-| [CreateObjrefMoniker](https://msdn.microsoft.com/library/windows/desktop/ms678493.aspx) | Introduced into ole32.dll in 10.0.10240. |
-| [CreatePointerMoniker](https://msdn.microsoft.com/library/windows/desktop/ms693427.aspx) | Introduced into ole32.dll in 10.0.10240. |
-| [GetClassFile](https://msdn.microsoft.com/library/windows/desktop/ms693715.aspx) | Introduced into ole32.dll in 10.0.10240. |
-| [IsEqualGUID](https://msdn.microsoft.com/library/windows/desktop/ms680575.aspx) | Introduced into ole32.dll in 10.0.10240. |
-| [MkParseDisplayName](https://msdn.microsoft.com/library/windows/desktop/ms691253.aspx) | Introduced into ole32.dll in 10.0.10240. |
-| [MonikerCommonPrefixWith](https://msdn.microsoft.com/library/windows/desktop/ms686583.aspx) | Introduced into ole32.dll in 10.0.10240. |
-| [MonikerRelativePathTo](https://msdn.microsoft.com/library/windows/desktop/ms682532.aspx) | Introduced into ole32.dll in 10.0.10240. |
+| [BindMoniker](/windows/win32/api/objbase/nf-objbase-bindmoniker) | Introduced into ole32.dll in 10.0.10240. |
+| [CoGetObject](/windows/win32/api/objbase/nf-objbase-cogetobject) | Introduced into ole32.dll in 10.0.10240. |
+| [CreateAntiMoniker](/windows/win32/api/objbase/nf-objbase-createantimoniker) | Introduced into ole32.dll in 10.0.10240. |
+| [CreateBindCtx](/windows/win32/api/objbase/nf-objbase-createbindctx) | Introduced into ole32.dll in 10.0.10240. |
+| [CreateClassMoniker](/windows/win32/api/objbase/nf-objbase-createclassmoniker) | Introduced into ole32.dll in 10.0.10240. |
+| [CreateFileMoniker](/windows/win32/api/objbase/nf-objbase-createfilemoniker) | Introduced into ole32.dll in 10.0.10240. |
+| [CreateGenericComposite](/windows/win32/api/objbase/nf-objbase-creategenericcomposite) | Introduced into ole32.dll in 10.0.10240. |
+| [CreateItemMoniker](/windows/win32/api/objbase/nf-objbase-createitemmoniker) | Introduced into ole32.dll in 10.0.10240. |
+| [CreateObjrefMoniker](/windows/win32/api/objbase/nf-objbase-createobjrefmoniker) | Introduced into ole32.dll in 10.0.10240. |
+| [CreatePointerMoniker](/windows/win32/api/objbase/nf-objbase-createpointermoniker) | Introduced into ole32.dll in 10.0.10240. |
+| [GetClassFile](/windows/win32/api/objbase/nf-objbase-getclassfile) | Introduced into ole32.dll in 10.0.10240. |
+| [IsEqualGUID](/windows/win32/api/guiddef/nf-guiddef-isequalguid) | Introduced into ole32.dll in 10.0.10240. |
+| [MkParseDisplayName](/windows/win32/api/objbase/nf-objbase-mkparsedisplayname) | Introduced into ole32.dll in 10.0.10240. |
+| [MonikerCommonPrefixWith](/windows/win32/api/objbase/nf-objbase-monikercommonprefixwith) | Introduced into ole32.dll in 10.0.10240. |
+| [MonikerRelativePathTo](/windows/win32/api/objbase/nf-objbase-monikerrelativepathto) | Introduced into ole32.dll in 10.0.10240. |
 
 
 ## APIs from dmprocessxmlfiltered.dll
 
 | API | Requirements |
 | -----| --------------|
-| [DMProcessConfigXMLFiltered](https://msdn.microsoft.com/library/Mt591928(v=VS.85).aspx) | Introduced into dmprocessxmlfiltered.dll in 10.0.10240. |
+| [DMProcessConfigXMLFiltered](/windows/client-management/mdm/dmprocessconfigxmlfiltered) | Introduced into dmprocessxmlfiltered.dll in 10.0.10240. |
 
 
 ## APIs from iphlpapi.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetAdaptersAddresses](https://msdn.microsoft.com/library/windows/desktop/aa365915.aspx) | Introduced into iphlpapi.dll in 10.0.10240. Removed in 10.0.14393. |
-| [FreeMibTable](https://msdn.microsoft.com/library/windows/desktop/aa814408.aspx) | Introduced into iphlpapi.dll in 10.0.10586. Removed in 10.0.14393. |
-| [GetBestRoute2](https://msdn.microsoft.com/library/windows/desktop/aa814411.aspx) | Introduced into iphlpapi.dll in 10.0.10586. Removed in 10.0.14393. |
-| [GetUnicastIpAddressTable](https://msdn.microsoft.com/library/windows/desktop/aa814428.aspx) | Introduced into iphlpapi.dll in 10.0.10586. Removed in 10.0.14393. |
+| [GetAdaptersAddresses](/windows/win32/api/iphlpapi/nf-iphlpapi-getadaptersaddresses) | Introduced into iphlpapi.dll in 10.0.10240. Removed in 10.0.14393. |
+| [FreeMibTable](/windows/win32/api/netioapi/nf-netioapi-freemibtable) | Introduced into iphlpapi.dll in 10.0.10586. Removed in 10.0.14393. |
+| [GetBestRoute2](/windows/win32/api/netioapi/nf-netioapi-getbestroute2) | Introduced into iphlpapi.dll in 10.0.10586. Removed in 10.0.14393. |
+| [GetUnicastIpAddressTable](/windows/win32/api/netioapi/nf-netioapi-getunicastipaddresstable) | Introduced into iphlpapi.dll in 10.0.10586. Removed in 10.0.14393. |
 
 
 ## APIs from PhoneAudioSes.lib
@@ -97,74 +97,74 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 
 | API | Requirements |
 | -----| --------------|
-| [InterlockedCompareExchange](https://msdn.microsoft.com/library/windows/desktop/ff471409.aspx) | Introduced into kernel32.dll in 10.0.10240. Removed in 10.0.16299. |
-| [InterlockedCompareExchange64](https://msdn.microsoft.com/library/windows/desktop/ms683562.aspx) | Introduced into kernel32.dll in 10.0.10240. Removed in 10.0.16299. |
-| [InterlockedDecrement](https://msdn.microsoft.com/library/windows/desktop/ms683580.aspx) | Introduced into kernel32.dll in 10.0.10240. Removed in 10.0.16299. |
-| [InterlockedExchange](https://msdn.microsoft.com/library/windows/desktop/ff471411.aspx) | Introduced into kernel32.dll in 10.0.10240. Removed in 10.0.16299. |
-| [InterlockedExchangeAdd](https://msdn.microsoft.com/library/windows/desktop/ms683597.aspx) | Introduced into kernel32.dll in 10.0.10240. Removed in 10.0.16299. |
-| [InterlockedIncrement](https://msdn.microsoft.com/library/windows/desktop/ms683614.aspx) | Introduced into kernel32.dll in 10.0.10240. Removed in 10.0.16299. |
-| [GetModuleBaseNameA](https://msdn.microsoft.com/library/ms683196(v=VS.85).aspx) | Introduced into kernel32.dll in 10.0.16299. |
-| [GetModuleBaseNameW](https://msdn.microsoft.com/library/ms683196(v=VS.85).aspx) | Introduced into kernel32.dll in 10.0.16299. |
-| [GetModuleFileNameExA](https://msdn.microsoft.com/library/ms683198(v=VS.85).aspx) | Introduced into kernel32.dll in 10.0.16299. |
-| [GetModuleFileNameExW](https://msdn.microsoft.com/library/ms683198(v=VS.85).aspx) | Introduced into kernel32.dll in 10.0.16299. |
-| [GetModuleInformation](https://msdn.microsoft.com/library/ms683201(v=VS.85).aspx) | Introduced into kernel32.dll in 10.0.16299. |
-| [SetEnvironmentVariable](https://msdn.microsoft.com/library/ms686206(v=VS.85).aspx) | Introduced into kernel32.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetModuleFileNameEx](https://msdn.microsoft.com/library/ms683198(v=VS.85).aspx) | Introduced into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [VerLanguageName](https://msdn.microsoft.com/library/ms647463(v=VS.85).aspx) | Introduced into kernel32.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Removed in 10.0.17134. |
+| [InterlockedCompareExchange](/windows/win32/direct3dhlsl/interlockedcompareexchange) | Introduced into kernel32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [InterlockedCompareExchange64](/windows/win32/api/winnt/nf-winnt-interlockedcompareexchange64) | Introduced into kernel32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [InterlockedDecrement](/windows/win32/api/winnt/nf-winnt-interlockeddecrement) | Introduced into kernel32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [InterlockedExchange](/windows/win32/direct3dhlsl/interlockedexchange) | Introduced into kernel32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [InterlockedExchangeAdd](/windows/win32/api/winnt/nf-winnt-interlockedexchangeadd) | Introduced into kernel32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [InterlockedIncrement](/windows/win32/api/winnt/nf-winnt-interlockedincrement) | Introduced into kernel32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [GetModuleBaseNameA](/windows/win32/api/psapi/nf-psapi-getmodulebasenamea) | Introduced into kernel32.dll in 10.0.16299. |
+| [GetModuleBaseNameW](/windows/win32/api/psapi/nf-psapi-getmodulebasenamea) | Introduced into kernel32.dll in 10.0.16299. |
+| [GetModuleFileNameExA](/windows/win32/api/psapi/nf-psapi-getmodulefilenameexa) | Introduced into kernel32.dll in 10.0.16299. |
+| [GetModuleFileNameExW](/windows/win32/api/psapi/nf-psapi-getmodulefilenameexa) | Introduced into kernel32.dll in 10.0.16299. |
+| [GetModuleInformation](/windows/win32/api/psapi/nf-psapi-getmoduleinformation) | Introduced into kernel32.dll in 10.0.16299. |
+| [SetEnvironmentVariable](/windows/win32/api/processenv/nf-processenv-setenvironmentvariablea) | Introduced into kernel32.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetModuleFileNameEx](/windows/win32/api/psapi/nf-psapi-getmodulefilenameexa) | Introduced into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [VerLanguageName](/windows/win32/api/winver/nf-winver-verlanguagenamea) | Introduced into kernel32.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from kernelbase.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetProcessMemoryInfo](https://msdn.microsoft.com/library/windows/desktop/ms683219.aspx) | Introduced into kernelbase.dll in 10.0.10240. Removed in 10.0.14393. Moved into kernel32.dll in 10.0.16299. |
+| [GetProcessMemoryInfo](/windows/win32/api/psapi/nf-psapi-getprocessmemoryinfo) | Introduced into kernelbase.dll in 10.0.10240. Removed in 10.0.14393. Moved into kernel32.dll in 10.0.16299. |
 
 
 ## APIs from elscore.dll
 
 | API | Requirements |
 | -----| --------------|
-| [MappingFreePropertyBag](https://msdn.microsoft.com/library/windows/desktop/dd319058.aspx) | Introduced into elscore.dll in 10.0.10240. |
-| [MappingFreeServices](https://msdn.microsoft.com/library/windows/desktop/dd319059.aspx) | Introduced into elscore.dll in 10.0.10240. |
-| [MappingGetServices](https://msdn.microsoft.com/library/windows/desktop/dd319060.aspx) | Introduced into elscore.dll in 10.0.10240. |
-| [MappingRecognizeText](https://msdn.microsoft.com/library/windows/desktop/dd319063.aspx) | Introduced into elscore.dll in 10.0.10240. |
+| [MappingFreePropertyBag](/windows/win32/api/elscore/nf-elscore-mappingfreepropertybag) | Introduced into elscore.dll in 10.0.10240. |
+| [MappingFreeServices](/windows/win32/api/elscore/nf-elscore-mappingfreeservices) | Introduced into elscore.dll in 10.0.10240. |
+| [MappingGetServices](/windows/win32/api/elscore/nf-elscore-mappinggetservices) | Introduced into elscore.dll in 10.0.10240. |
+| [MappingRecognizeText](/windows/win32/api/elscore/nf-elscore-mappingrecognizetext) | Introduced into elscore.dll in 10.0.10240. |
 
 
 ## APIs from rpcrt4.dll
 
 | API | Requirements |
 | -----| --------------|
-| [NdrAsyncClientCall2](https://msdn.microsoft.com/library/windows/desktop/mt297483.aspx) | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
-| [NdrClientCall4](https://msdn.microsoft.com/library/windows/desktop/mt297484.aspx) | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
-| [DceErrorInqText](https://msdn.microsoft.com/library/Aa373623(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
-| [RpcBindingCreate](https://msdn.microsoft.com/library/Aa375587(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
-| [RpcBindingFromStringBinding](https://msdn.microsoft.com/library/Aa375590(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
-| [RpcBindingInqAuthInfo](https://msdn.microsoft.com/library/Aa375593(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
-| [RpcBindingInqAuthInfoEx](https://msdn.microsoft.com/library/Aa375595(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
-| [RpcBindingSetAuthInfo](https://msdn.microsoft.com/library/Aa375606(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
-| [RpcBindingSetAuthInfoEx](https://msdn.microsoft.com/library/Aa375608(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
-| [RpcBindingToStringBinding](https://msdn.microsoft.com/library/Aa375612(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
-| [RpcMgmtInqServerPrincName](https://msdn.microsoft.com/library/Aa375756(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
-| [RpcNetworkIsProtseqValid](https://msdn.microsoft.com/library/Aa375804(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
-| [RpcStringBindingCompose](https://msdn.microsoft.com/library/Aa378481(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
-| [RpcStringBindingParse](https://msdn.microsoft.com/library/Aa378482(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
-| [RpcStringFree](https://msdn.microsoft.com/library/Aa378483(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
-| [UuidFromString](https://msdn.microsoft.com/library/Aa379336(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
-| [UuidToString](https://msdn.microsoft.com/library/Aa379352(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [NdrAsyncClientCall2](/windows/win32/api/rpcndr/nf-rpcndr-ndrasyncclientcall2) | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
+| [NdrClientCall4](/windows/win32/api/rpcndr/nf-rpcndr-ndrclientcall4) | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
+| [DceErrorInqText](/windows/win32/api/rpcdce/nf-rpcdce-dceerrorinqtext) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcBindingCreate](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingcreatea) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcBindingFromStringBinding](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcBindingInqAuthInfo](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindinginqauthinfo) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcBindingInqAuthInfoEx](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindinginqauthinfoexa) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcBindingSetAuthInfo](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcBindingSetAuthInfoEx](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcBindingToStringBinding](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingtostringbinding) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcMgmtInqServerPrincName](/windows/win32/api/rpcdce/nf-rpcdce-rpcmgmtinqserverprincname) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcNetworkIsProtseqValid](/windows/win32/api/rpcdce/nf-rpcdce-rpcnetworkisprotseqvalid) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcStringBindingCompose](/windows/win32/api/rpcdce/nf-rpcdce-rpcstringbindingcompose) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcStringBindingParse](/windows/win32/api/rpcdce/nf-rpcdce-rpcstringbindingparse) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RpcStringFree](/windows/win32/api/rpcdce/nf-rpcdce-rpcstringfree) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [UuidFromString](/windows/win32/api/rpcdce/nf-rpcdce-uuidfromstring) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
+| [UuidToString](/windows/win32/api/rpcdce/nf-rpcdce-uuidtostring) | Introduced into rpcrt4.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from windows.data.pdf.dll
 
 | API | Requirements |
 | -----| --------------|
-| [PdfRenderParams](https://msdn.microsoft.com/library/windows/desktop/mt604123.aspx) | Introduced into windows.data.pdf.dll in 10.0.10240. Removed in 10.0.14393. |
+| [PdfRenderParams](/windows/win32/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-pdfrenderparams) | Introduced into windows.data.pdf.dll in 10.0.10240. Removed in 10.0.14393. |
 
 
 ## APIs from api-ms-win-core-slapi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [SLQueryLicenseValueFromApp](https://msdn.microsoft.com/library/windows/desktop/mt403327.aspx) | Introduced into api-ms-win-core-slapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.14393. |
+| [SLQueryLicenseValueFromApp](/windows/win32/api/slpublic/nf-slpublic-slquerylicensevaluefromapp) | Introduced into api-ms-win-core-slapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.14393. |
 | SLQueryLicenseValueFromApp2 | Introduced into api-ms-win-core-slapi-l1-1-0.dll in 10.0.10240. Removed in 10.0.14393. |
 
 
@@ -172,7 +172,7 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 
 | API | Requirements |
 | -----| --------------|
-| [SrpDoesPolicyAllowAppExecution](https://msdn.microsoft.com/library/Mt757271(v=VS.85).aspx) | Introduced into srpapi.dll in 10.0.10240. |
+| [SrpDoesPolicyAllowAppExecution](/windows/win32/api/srpapi/nf-srpapi-srpdoespolicyallowappexecution) | Introduced into srpapi.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-crt-convert-l1-1-0.dll
@@ -392,8 +392,8 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | _wstat64 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
 | _wstat64i32 | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
 | _wunlink | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [remove](https://msdn.microsoft.com/library/Aa371194(v=VS.85).aspx) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
-| [rename](https://msdn.microsoft.com/library/Aa964881(v=VS.85).aspx) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| [remove](/windows/win32/msi/remove) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
+| [rename](/previous-versions/windows/desktop/aa964881(v=vs.85)) | Introduced into api-ms-win-crt-filesystem-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-crt-heap-l1-1-0.dll
@@ -451,7 +451,7 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | _wcreate_locale | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
 | _wsetlocale | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
 | localeconv | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
-| [setlocale](https://msdn.microsoft.com/library/5xf99h19(v=VS.85).aspx) | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
+| [setlocale](/previous-versions//5xf99h19(v=vs.85)) | Introduced into api-ms-win-crt-locale-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-crt-math-l1-1-0.dll
@@ -583,18 +583,18 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | _y0 | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _y1 | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | _yn | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [acos](https://msdn.microsoft.com/library/Bb509563(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [acos](/windows/win32/direct3dhlsl/dx-graphics-hlsl-acos) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | acosf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | acosh | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | acoshf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | acoshl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [asin](https://msdn.microsoft.com/library/Bb509571(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [asin](/windows/win32/direct3dhlsl/dx-graphics-hlsl-asin) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | asinf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | asinh | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | asinhf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | asinhl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [atan](https://msdn.microsoft.com/library/Bb509574(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [atan2](https://msdn.microsoft.com/library/Bb509575(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [atan](/windows/win32/direct3dhlsl/dx-graphics-hlsl-atan) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [atan2](/windows/win32/direct3dhlsl/dx-graphics-hlsl-atan2) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | atan2f | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | atanf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | atanh | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
@@ -633,7 +633,7 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | ccoshf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | ccoshl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | ccosl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [ceil](https://msdn.microsoft.com/library/Bb509577(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [ceil](/windows/win32/direct3dhlsl/dx-graphics-hlsl-ceil) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | ceilf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | cexp | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | cexpf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
@@ -653,9 +653,9 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | copysign | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | copysignf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | copysignl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cos](https://msdn.microsoft.com/library/66bkzah2(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [cos](/previous-versions//66bkzah2(v=vs.85)) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | cosf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [cosh](https://msdn.microsoft.com/library/Bb509584(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [cosh](/windows/win32/direct3dhlsl/dx-graphics-hlsl-cosh) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | coshf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | cpow | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | cpowf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
@@ -687,8 +687,8 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | erfcl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | erff | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | erfl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [exp](https://msdn.microsoft.com/library/aw8fzd30(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [exp2](https://msdn.microsoft.com/library/Bb509596(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [exp](/previous-versions//aw8fzd30(v=vs.85)) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [exp2](/windows/win32/direct3dhlsl/dx-graphics-hlsl-exp2) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | exp2f | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | exp2l | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | expf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
@@ -700,9 +700,9 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | fdim | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | fdimf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | fdiml | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [floor](https://msdn.microsoft.com/library/Bb509599(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [floor](/windows/win32/direct3dhlsl/dx-graphics-hlsl-floor) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | floorf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [fma](https://msdn.microsoft.com/library/Hh768893(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [fma](/windows/win32/direct3dhlsl/dx-graphics-hlsl-fma) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | fmaf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | fmal | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | fmax | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
@@ -711,14 +711,14 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | fmin | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | fminf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | fminl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [fmod](https://msdn.microsoft.com/library/Bb509601(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [fmod](/windows/win32/direct3dhlsl/dx-graphics-hlsl-fmod) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | fmodf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [frexp](https://msdn.microsoft.com/library/Bb509604(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [frexp](/windows/win32/direct3dhlsl/dx-graphics-hlsl-frexp) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | hypot | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | ilogb | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | ilogbf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | ilogbl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [ldexp](https://msdn.microsoft.com/library/Bb509616(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [ldexp](/windows/win32/direct3dhlsl/dx-graphics-hlsl-ldexp) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | lgamma | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | lgammaf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | lgammal | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
@@ -728,13 +728,13 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | llround | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | llroundf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | llroundl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [log](https://msdn.microsoft.com/library/5xkbf3yw(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [log10](https://msdn.microsoft.com/library/Bb509621(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [log](/previous-versions//5xkbf3yw(v=vs.85)) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [log10](/windows/win32/direct3dhlsl/dx-graphics-hlsl-log10) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | log10f | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | log1p | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | log1pf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | log1pl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [log2](https://msdn.microsoft.com/library/Bb509622(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [log2](/windows/win32/direct3dhlsl/dx-graphics-hlsl-log2) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | log2f | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | log2l | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | logb | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
@@ -747,9 +747,9 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | lround | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | lroundf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | lroundl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [modf](https://msdn.microsoft.com/library/Bb509627(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [modf](/windows/win32/direct3dhlsl/dx-graphics-hlsl-modf) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | modff | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [nan](https://msdn.microsoft.com/library/Dd372582(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [nan](/windows/win32/wintouch/imanipulationprocessor-constants) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | nanf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | nanl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | nearbyint | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
@@ -764,7 +764,7 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | norm | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | normf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | norml | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [pow](https://msdn.microsoft.com/library/Bb509636(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [pow](/windows/win32/direct3dhlsl/dx-graphics-hlsl-pow) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | powf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | remainder | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | remainderf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
@@ -775,7 +775,7 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | rint | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | rintf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | rintl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [round](https://msdn.microsoft.com/library/Bb509642(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [round](/windows/win32/direct3dhlsl/dx-graphics-hlsl-round) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | roundf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | roundl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | scalbln | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
@@ -784,20 +784,20 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | scalbn | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | scalbnf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | scalbnl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [sin](https://msdn.microsoft.com/library/Bb509651(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [sin](/windows/win32/direct3dhlsl/dx-graphics-hlsl-sin) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | sinf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [sinh](https://msdn.microsoft.com/library/Bb509653(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [sinh](/windows/win32/direct3dhlsl/dx-graphics-hlsl-sinh) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | sinhf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [sqrt](https://msdn.microsoft.com/library/Bb509662(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [sqrt](/windows/win32/direct3dhlsl/dx-graphics-hlsl-sqrt) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | sqrtf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [tan](https://msdn.microsoft.com/library/Bb509670(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [tan](/windows/win32/direct3dhlsl/dx-graphics-hlsl-tan) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | tanf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [tanh](https://msdn.microsoft.com/library/Bb509671(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [tanh](/windows/win32/direct3dhlsl/dx-graphics-hlsl-tanh) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | tanhf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | tgamma | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | tgammaf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | tgammal | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
-| [trunc](https://msdn.microsoft.com/library/Cc308065(v=VS.85).aspx) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
+| [trunc](/windows/win32/direct3dhlsl/dx-graphics-hlsl-trunc) | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | truncf | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 | truncl | Introduced into api-ms-win-crt-math-l1-1-0.dll in 10.0.10240. |
 
@@ -935,7 +935,7 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | _wcserror | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
 | _wcserror_s | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
 | _wperror | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [abort](https://msdn.microsoft.com/library/windows/desktop/ff728669.aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| [abort](/windows/win32/direct3dhlsl/abort) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
 | exit | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
 | feclearexcept | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
 | fegetenv | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
@@ -948,14 +948,14 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | fetestexcept | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
 | perror | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
 | quick_exit | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [raise](https://msdn.microsoft.com/library/h1hea41c(v=VS.85).aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| [raise](/previous-versions//h1hea41c(v=vs.85)) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
 | set_terminate | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [signal](https://msdn.microsoft.com/library/Dd798670(v=VS.85).aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| [signal](/windows/win32/multimedia/signal) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
 | strerror | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
 | strerror_s | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
-| [terminate](https://msdn.microsoft.com/library/Aa372939(v=VS.85).aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
+| [terminate](/windows/win32/api/resapi/nc-resapi-pterminate_routine) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.10240. |
 | _seterrormode | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.17134. |
-| [system](https://msdn.microsoft.com/library/Aa385207(v=VS.85).aspx) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.17134. |
+| [system](/windows/win32/wes/eventschema-system-eventtype-element) | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.17134. |
 | _wsystem | Introduced into api-ms-win-crt-runtime-l1-1-0.dll in 10.0.17134. |
 
 
@@ -1251,22 +1251,22 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | mbrlen | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
 | memcpy_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
 | memset | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strcat](https://msdn.microsoft.com/library/windows/desktop/bb759925.aspx) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| [strcat](/windows/win32/api/shlwapi/nf-shlwapi-strcatw) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
 | strcat_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strcmp](https://msdn.microsoft.com/library/windows/desktop/bb759938.aspx) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| [strcmp](/windows/win32/api/shlwapi/nf-shlwapi-strcmpw) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
 | strcoll | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strcpy](https://msdn.microsoft.com/library/windows/desktop/bb759960.aspx) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| [strcpy](/windows/win32/api/shlwapi/nf-shlwapi-strcpyw) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
 | strcpy_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strcspn](https://msdn.microsoft.com/library/windows/desktop/bb759964.aspx) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| [strcspn](/windows/win32/api/shlwapi/nf-shlwapi-strcspna) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
 | strlen | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strncat](https://msdn.microsoft.com/library/windows/desktop/bb759987.aspx) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| [strncat](/windows/win32/api/shlwapi/nf-shlwapi-strncata) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
 | strncat_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
 | strncmp | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
 | strncpy | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
 | strncpy_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
 | strnlen | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strpbrk](https://msdn.microsoft.com/library/windows/desktop/bb760010.aspx) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
-| [strspn](https://msdn.microsoft.com/library/windows/desktop/bb773435.aspx) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| [strpbrk](/windows/win32/api/shlwapi/nf-shlwapi-strpbrka) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
+| [strspn](/windows/win32/api/shlwapi/nf-shlwapi-strspna) | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
 | strtok | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
 | strtok_s | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
 | strxfrm | Introduced into api-ms-win-crt-string-l1-1-0.dll in 10.0.10240. |
@@ -1395,7 +1395,7 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | _rotr | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
 | _rotr64 | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
 | _swab | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
-| [abs](https://msdn.microsoft.com/library/307330xe(v=VS.85).aspx) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
+| [abs](/previous-versions//307330xe(v=vs.85)) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
 | bsearch | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
 | bsearch_s | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
 | [div](https://msdn.microsoft.com/library/ms535240(v=VS.85).aspx) | Introduced into api-ms-win-crt-utility-l1-1-0.dll in 10.0.10240. |
@@ -1417,7 +1417,7 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | API | Requirements |
 | -----| --------------|
 | CheckGamingPrivilegeSilently | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10586. Removed in 10.0.14393. |
-| [CheckGamingPrivilegeWithUI](https://msdn.microsoft.com/library/Mt736760(v=VS.85).aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10586. Removed in 10.0.14393. |
+| [CheckGamingPrivilegeWithUI](/windows/win32/api/gamingtcui/nf-gamingtcui-checkgamingprivilegewithui) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10586. Removed in 10.0.14393. |
 
 
 ## APIs from winsqlite3.dll
@@ -1669,16 +1669,16 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 
 | API | Requirements |
 | -----| --------------|
-| [SoundSentry](https://msdn.microsoft.com/library/aa969269.aspx) | Introduced into user32.dll in 10.0.14393. |
-| [GetKeyNameTextA](https://msdn.microsoft.com/library/windows/desktop/ms646300.aspx) | Introduced into user32.dll in 10.0.14393. |
-| [GetKeyNameTextW](https://msdn.microsoft.com/library/ms646300.aspx) | Introduced into user32.dll in 10.0.14393. |
-| [MapVirtualKeyA](https://msdn.microsoft.com/library/ms646306.aspx) | Introduced into user32.dll in 10.0.14393. |
-| [MapVirtualKeyW](https://msdn.microsoft.com/library/ms646306.aspx) | Introduced into user32.dll in 10.0.14393. |
-| [MapVirtualKeyExA](https://msdn.microsoft.com/library/windows/desktop/ms646307.aspx) | Introduced into user32.dll in 10.0.14393. |
-| [MapVirtualKeyExW](https://msdn.microsoft.com/library/ms646307.aspx) | Introduced into user32.dll in 10.0.14393. |
-| [ClipCursor](https://msdn.microsoft.com/library/ms648383(v=VS.85).aspx) | Introduced into user32.dll in 10.0.16299. |
-| [GetKeyState](https://msdn.microsoft.com/library/ms646301(v=VS.85).aspx) | Introduced into user32.dll in 10.0.16299. |
-| [GetLastInputInfo](https://msdn.microsoft.com/library/ms646302(v=VS.85).aspx) | Introduced into user32.dll in 10.0.16299. |
+| [SoundSentry](/windows/win32/api/winuser/nf-winuser-soundsentry) | Introduced into user32.dll in 10.0.14393. |
+| [GetKeyNameTextA](/windows/win32/api/winuser/nf-winuser-getkeynametexta) | Introduced into user32.dll in 10.0.14393. |
+| [GetKeyNameTextW](/windows/win32/api/winuser/nf-winuser-getkeynametexta) | Introduced into user32.dll in 10.0.14393. |
+| [MapVirtualKeyA](/windows/win32/api/winuser/nf-winuser-mapvirtualkeya) | Introduced into user32.dll in 10.0.14393. |
+| [MapVirtualKeyW](/windows/win32/api/winuser/nf-winuser-mapvirtualkeya) | Introduced into user32.dll in 10.0.14393. |
+| [MapVirtualKeyExA](/windows/win32/api/winuser/nf-winuser-mapvirtualkeyexa) | Introduced into user32.dll in 10.0.14393. |
+| [MapVirtualKeyExW](/windows/win32/api/winuser/nf-winuser-mapvirtualkeyexa) | Introduced into user32.dll in 10.0.14393. |
+| [ClipCursor](/windows/win32/api/winuser/nf-winuser-clipcursor) | Introduced into user32.dll in 10.0.16299. |
+| [GetKeyState](/windows/win32/api/winuser/nf-winuser-getkeystate) | Introduced into user32.dll in 10.0.16299. |
+| [GetLastInputInfo](/windows/win32/api/winuser/nf-winuser-getlastinputinfo) | Introduced into user32.dll in 10.0.16299. |
 
 
 ## APIs from ResetPhoneForArm32.dll
@@ -1692,24 +1692,24 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 
 | API | Requirements |
 | -----| --------------|
-| [CredUIParseUserNameW](https://msdn.microsoft.com/library/Aa375175(v=VS.85).aspx) | Introduced into Credui.dll in 10.0.16299. |
+| [CredUIParseUserNameW](/windows/win32/api/wincred/nf-wincred-creduiparseusernamea) | Introduced into Credui.dll in 10.0.16299. |
 
 
 ## APIs from ntdll.dll
 
 | API | Requirements |
 | -----| --------------|
-| [NtQueryDirectoryFile](https://msdn.microsoft.com/library/Ff556633(v=VS.85).aspx) | Introduced into ntdll.dll in 10.0.16299. |
-| [RtlEthernetAddressToString](https://msdn.microsoft.com/library/Dn550721(v=VS.85).aspx) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
-| [RtlEthernetStringToAddress](https://msdn.microsoft.com/library/Dn550722(v=VS.85).aspx) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
-| [RtlIpv4AddressToString](https://msdn.microsoft.com/library/Aa814456(v=VS.85).aspx) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
-| [RtlIpv4AddressToStringEx](https://msdn.microsoft.com/library/windows/desktop/aa814457.aspx) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
-| [RtlIpv4StringToAddress](https://msdn.microsoft.com/library/Aa814458(v=VS.85).aspx) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
-| [RtlIpv4StringToAddressEx](https://msdn.microsoft.com/library/Aa814459(v=VS.85).aspx) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
-| [RtlIpv6AddressToString](https://msdn.microsoft.com/library/Aa814460(v=VS.85).aspx) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
-| [RtlIpv6AddressToStringEx](https://msdn.microsoft.com/library/Aa814461(v=VS.85).aspx) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
-| [RtlIpv6StringToAddress](https://msdn.microsoft.com/library/Aa814462(v=VS.85).aspx) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
-| [RtlIpv6StringToAddressEx](https://msdn.microsoft.com/library/Aa814463(v=VS.85).aspx) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
+| [NtQueryDirectoryFile](/previous-versions/ff567047(v=vs.85)) | Introduced into ntdll.dll in 10.0.16299. |
+| [RtlEthernetAddressToString](/windows/win32/api/ip2string/nf-ip2string-rtlethernetaddresstostringa) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RtlEthernetStringToAddress](/windows/win32/api/ip2string/nf-ip2string-rtlethernetstringtoaddressa) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RtlIpv4AddressToString](/windows/win32/api/ip2string/nf-ip2string-rtlipv4addresstostringa) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RtlIpv4AddressToStringEx](/windows/win32/api/ip2string/nf-ip2string-rtlipv4addresstostringexw) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RtlIpv4StringToAddress](/windows/win32/api/ip2string/nf-ip2string-rtlipv4stringtoaddressa) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RtlIpv4StringToAddressEx](/windows/win32/api/ip2string/nf-ip2string-rtlipv4stringtoaddressexw) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RtlIpv6AddressToString](/windows/win32/api/ip2string/nf-ip2string-rtlipv6addresstostringa) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RtlIpv6AddressToStringEx](/windows/win32/api/ip2string/nf-ip2string-rtlipv6addresstostringexw) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RtlIpv6StringToAddress](/windows/win32/api/ip2string/nf-ip2string-rtlipv6stringtoaddressa) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RtlIpv6StringToAddressEx](/windows/win32/api/ip2string/nf-ip2string-rtlipv6stringtoaddressexw) | Introduced into ntdll.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from OPMXbox.dll
@@ -1725,7 +1725,7 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 
 | API | Requirements |
 | -----| --------------|
-| [ProtectFileToEnterpriseIdentity](https://msdn.microsoft.com/library/Mt622168(v=VS.85).aspx) | Introduced into efswrt.dll in 10.0.16299. |
+| [ProtectFileToEnterpriseIdentity](/windows/win32/api/edpwin32/nf-edpwin32-protectfiletoenterpriseidentity) | Introduced into efswrt.dll in 10.0.16299. |
 | UnprotectFile | Introduced into efswrt.dll in 10.0.16299. |
 
 
@@ -1733,18 +1733,18 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 
 | API | Requirements |
 | -----| --------------|
-| [WerStoreOpen](https://msdn.microsoft.com/library/Mt492590(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
-| [WerStoreClose](https://msdn.microsoft.com/library/Mt796907(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
-| [WerFreeString](https://msdn.microsoft.com/library/Mt492584(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
-| [WerStoreGetFirstReportKey](https://msdn.microsoft.com/library/Mt492588(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
-| [WerStoreGetNextReportKey](https://msdn.microsoft.com/library/Mt492589(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
-| [WerStoreQueryReportMetadataV2](https://msdn.microsoft.com/library/Mt492591(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
-| [WerReportCreate](https://msdn.microsoft.com/library/Bb513625(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
-| [WerReportSetParameter](https://msdn.microsoft.com/library/Bb513626(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
-| [WerReportAddFile](https://msdn.microsoft.com/library/Bb513623(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
-| [WerReportSubmit](https://msdn.microsoft.com/library/Bb513628(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
-| [WerReportAddDump](https://msdn.microsoft.com/library/Bb513622(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
-| [WerReportCloseHandle](https://msdn.microsoft.com/library/Bb513624(v=VS.85).aspx) | Introduced into wer.dll in 10.0.16299. |
+| [WerStoreOpen](/windows/win32/api/werapi/nf-werapi-werstoreopen) | Introduced into wer.dll in 10.0.16299. |
+| [WerStoreClose](/windows/win32/api/werapi/nf-werapi-werstoreclose) | Introduced into wer.dll in 10.0.16299. |
+| [WerFreeString](/windows/win32/api/werapi/nf-werapi-werfreestring) | Introduced into wer.dll in 10.0.16299. |
+| [WerStoreGetFirstReportKey](/windows/win32/api/werapi/nf-werapi-werstoregetfirstreportkey) | Introduced into wer.dll in 10.0.16299. |
+| [WerStoreGetNextReportKey](/windows/win32/api/werapi/nf-werapi-werstoregetnextreportkey) | Introduced into wer.dll in 10.0.16299. |
+| [WerStoreQueryReportMetadataV2](/windows/win32/api/werapi/nf-werapi-werstorequeryreportmetadatav2) | Introduced into wer.dll in 10.0.16299. |
+| [WerReportCreate](/windows/win32/api/werapi/nf-werapi-werreportcreate) | Introduced into wer.dll in 10.0.16299. |
+| [WerReportSetParameter](/windows/win32/api/werapi/nf-werapi-werreportsetparameter) | Introduced into wer.dll in 10.0.16299. |
+| [WerReportAddFile](/windows/win32/api/werapi/nf-werapi-werreportaddfile) | Introduced into wer.dll in 10.0.16299. |
+| [WerReportSubmit](/windows/win32/api/werapi/nf-werapi-werreportsubmit) | Introduced into wer.dll in 10.0.16299. |
+| [WerReportAddDump](/windows/win32/api/werapi/nf-werapi-werreportadddump) | Introduced into wer.dll in 10.0.16299. |
+| [WerReportCloseHandle](/windows/win32/api/werapi/nf-werapi-werreportclosehandle) | Introduced into wer.dll in 10.0.16299. |
 
 
 ## APIs from atiadlxx.dll
@@ -2756,87 +2756,87 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 
 | API | Requirements |
 | -----| --------------|
-| [CallNamedPipe](https://msdn.microsoft.com/library/Aa365144(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CallNamedPipe](/windows/win32/api/winbase/nf-winbase-callnamedpipea) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from crypt32.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CertGetNameString](https://msdn.microsoft.com/library/Aa376086(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [CertNameToStr](https://msdn.microsoft.com/library/Aa376556(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [CertRDNValueToStr](https://msdn.microsoft.com/library/Aa376561(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [CertStrToName](https://msdn.microsoft.com/library/Aa377160(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [CryptBinaryToString](https://msdn.microsoft.com/library/Aa379887(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [CryptStringToBinary](https://msdn.microsoft.com/library/Aa380285(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CertGetNameString](/windows/win32/api/wincrypt/nf-wincrypt-certgetnamestringa) | Introduced into crypt32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CertNameToStr](/windows/win32/api/wincrypt/nf-wincrypt-certnametostra) | Introduced into crypt32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CertRDNValueToStr](/windows/win32/api/wincrypt/nf-wincrypt-certrdnvaluetostra) | Introduced into crypt32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CertStrToName](/windows/win32/api/wincrypt/nf-wincrypt-certstrtonamea) | Introduced into crypt32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CryptBinaryToString](/windows/win32/api/wincrypt/nf-wincrypt-cryptbinarytostringa) | Introduced into crypt32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CryptStringToBinary](/windows/win32/api/wincrypt/nf-wincrypt-cryptstringtobinarya) | Introduced into crypt32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-downlevel-advapi32-l2-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [ControlTrace](https://msdn.microsoft.com/library/windows/desktop/aa363696.aspx) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [ConvertSecurityDescriptorToStringSecurityDescriptor](https://msdn.microsoft.com/library/Aa376397(v=VS.85).aspx) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-security-sddl-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [OpenTrace](https://msdn.microsoft.com/library/windows/desktop/aa364089.aspx) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-eventing-consumer-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-eventing-consumer-l1-1-1.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [StartTrace](https://msdn.microsoft.com/library/windows/desktop/aa364117.aspx) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [StopTrace](https://msdn.microsoft.com/library/windows/desktop/aa364119.aspx) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [ControlTrace](/windows/win32/api/evntrace/nf-evntrace-controltracea) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [ConvertSecurityDescriptorToStringSecurityDescriptor](/windows/win32/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-security-sddl-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [OpenTrace](/windows/win32/api/evntrace/nf-evntrace-opentracea) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-eventing-consumer-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-eventing-consumer-l1-1-1.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [StartTrace](/windows/win32/api/evntrace/nf-evntrace-starttracea) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [StopTrace](/windows/win32/api/evntrace/nf-evntrace-stoptrace) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-security-sddl-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [ConvertSidToStringSid](https://msdn.microsoft.com/library/Aa376399(v=VS.85).aspx) | Introduced into api-ms-win-security-sddl-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-security-sddl-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [ConvertStringSidToSid](https://msdn.microsoft.com/library/Aa376402(v=VS.85).aspx) | Introduced into api-ms-win-security-sddl-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-security-sddl-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [ConvertSidToStringSid](/windows/win32/api/sddl/nf-sddl-convertsidtostringsida) | Introduced into api-ms-win-security-sddl-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-security-sddl-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [ConvertStringSidToSid](/windows/win32/api/sddl/nf-sddl-convertstringsidtosida) | Introduced into api-ms-win-security-sddl-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-security-sddl-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-kernel32-legacy-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CopyFile](https://msdn.microsoft.com/library/Aa363851(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-3.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [CreateNamedPipe](https://msdn.microsoft.com/library/Aa365150(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetComputerName](https://msdn.microsoft.com/library/ms724295(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetStringTypeEx](https://msdn.microsoft.com/library/windows/desktop/dd318118.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-core-localization-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-deprecated-apis-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-deprecated-apis-legacy-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-string-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [MoveFileEx](https://msdn.microsoft.com/library/windows/desktop/aa365240.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-3.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CopyFile](/windows/win32/api/winbase/nf-winbase-copyfile) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-3.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CreateNamedPipe](/windows/win32/api/winbase/nf-winbase-createnamedpipea) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetComputerName](/windows/win32/api/winbase/nf-winbase-getcomputernamea) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetStringTypeEx](/windows/win32/api/stringapiset/nf-stringapiset-getstringtypeexw) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-core-localization-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-deprecated-apis-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-deprecated-apis-legacy-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-string-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [MoveFileEx](/windows/win32/api/winbase/nf-winbase-movefileexa) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-3.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-file-ansi-l2-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CopyFileEx](https://msdn.microsoft.com/library/Aa363852(v=VS.85).aspx) | Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-3.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [ReplaceFile](https://msdn.microsoft.com/library/Aa365512(v=VS.85).aspx) | Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-3.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CopyFileEx](/windows/win32/api/winbase/nf-winbase-copyfileexa) | Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-3.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [ReplaceFile](/windows/win32/api/winbase/nf-winbase-replacefilea) | Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.16299. Moved into api-ms-win-core-file-l2-1-3.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-namespace-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateBoundaryDescriptor](https://msdn.microsoft.com/library/ms682121(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [CreatePrivateNamespace](https://msdn.microsoft.com/library/ms682419(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [OpenPrivateNamespace](https://msdn.microsoft.com/library/ms684318(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CreateBoundaryDescriptor](/windows/win32/api/winbase/nf-winbase-createboundarydescriptora) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CreatePrivateNamespace](/windows/win32/api/winbase/nf-winbase-createprivatenamespacea) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [OpenPrivateNamespace](/windows/win32/api/winbase/nf-winbase-openprivatenamespacea) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-file-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateDirectory](https://msdn.microsoft.com/library/windows/desktop/aa363855.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [DeleteFile](https://msdn.microsoft.com/library/windows/desktop/aa363915.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [FindNextFile](https://msdn.microsoft.com/library/windows/desktop/aa364428.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [FindFirstFile](https://msdn.microsoft.com/library/Aa364418(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [FindFirstFileEx](https://msdn.microsoft.com/library/windows/desktop/aa364419.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetDiskFreeSpace](https://msdn.microsoft.com/library/Aa364935(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetDriveType](https://msdn.microsoft.com/library/Aa364939(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetFileAttributes](https://msdn.microsoft.com/library/Aa364944(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetFullPathName](https://msdn.microsoft.com/library/Aa364963(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetDiskFreeSpaceEx](https://msdn.microsoft.com/library/windows/desktop/aa364937.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetFileAttributesEx](https://msdn.microsoft.com/library/windows/desktop/aa364946.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetFinalPathNameByHandle](https://msdn.microsoft.com/library/Aa364962(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetLongPathName](https://msdn.microsoft.com/library/Aa364980(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [RemoveDirectory](https://msdn.microsoft.com/library/windows/desktop/aa365488.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [SetFileAttributes](https://msdn.microsoft.com/library/windows/desktop/aa365535.aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CreateDirectory](/windows/win32/api/fileapi/nf-fileapi-createdirectorya) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [DeleteFile](/windows/win32/api/fileapi/nf-fileapi-deletefilea) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [FindNextFile](/windows/win32/api/fileapi/nf-fileapi-findnextfilea) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [FindFirstFile](/windows/win32/api/fileapi/nf-fileapi-findfirstfilea) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [FindFirstFileEx](/windows/win32/api/fileapi/nf-fileapi-findfirstfileexa) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetDiskFreeSpace](/windows/win32/api/fileapi/nf-fileapi-getdiskfreespacea) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetDriveType](/windows/win32/api/fileapi/nf-fileapi-getdrivetypea) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetFileAttributes](/windows/win32/api/fileapi/nf-fileapi-getfileattributesa) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetFullPathName](/windows/win32/api/fileapi/nf-fileapi-getfullpathnamea) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetDiskFreeSpaceEx](/windows/win32/api/fileapi/nf-fileapi-getdiskfreespaceexa) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetFileAttributesEx](/windows/win32/api/fileapi/nf-fileapi-getfileattributesexa) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetFinalPathNameByHandle](/windows/win32/api/fileapi/nf-fileapi-getfinalpathnamebyhandlea) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetLongPathName](/windows/win32/api/fileapi/nf-fileapi-getlongpathnamea) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RemoveDirectory](/windows/win32/api/fileapi/nf-fileapi-removedirectorya) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [SetFileAttributes](/windows/win32/api/fileapi/nf-fileapi-setfileattributesa) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-synch-l1-1-0.dll
@@ -2844,11 +2844,11 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 | API | Requirements |
 | -----| --------------|
 | [CreateEvent](https://msdn.microsoft.com/library/Ff975304(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [CreateEventEx](https://msdn.microsoft.com/library/windows/desktop/ms682400.aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [CreateMutex](https://msdn.microsoft.com/library/ms682411(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [CreateMutexEx](https://msdn.microsoft.com/library/windows/desktop/ms682418.aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [OpenEvent](https://msdn.microsoft.com/library/windows/desktop/ms684305.aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [OpenSemaphore](https://msdn.microsoft.com/library/windows/desktop/ms684326.aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CreateEventEx](/windows/win32/api/synchapi/nf-synchapi-createeventexa) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CreateMutex](/windows/win32/api/synchapi/nf-synchapi-createmutexa) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CreateMutexEx](/windows/win32/api/synchapi/nf-synchapi-createmutexexa) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [OpenEvent](/windows/win32/api/synchapi/nf-synchapi-openeventa) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [OpenSemaphore](/windows/win32/api/synchapi/nf-synchapi-opensemaphorew) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-security-cpwl-l1-1-0.dll
@@ -2862,194 +2862,194 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 
 | API | Requirements |
 | -----| --------------|
-| [CreateProcess](https://msdn.microsoft.com/library/Hh437462(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CreateProcess](/previous-versions/windows/desktop/axe/createprocess) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-kernel32-legacy-l1-1-2.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateSemaphore](https://msdn.microsoft.com/library/ms682438(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [OpenMutex](https://msdn.microsoft.com/library/windows/desktop/ms684315.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CreateSemaphore](/windows/win32/api/synchapi/nf-synchapi-createsemaphorew) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [OpenMutex](/windows/win32/api/synchapi/nf-synchapi-openmutexw) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-synch-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateSemaphoreEx](https://msdn.microsoft.com/library/windows/desktop/ms682446.aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [CreateWaitableTimer](https://msdn.microsoft.com/library/ms682492(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [CreateWaitableTimerEx](https://msdn.microsoft.com/library/ms682494(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [OpenWaitableTimer](https://msdn.microsoft.com/library/ms684337(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CreateSemaphoreEx](/windows/win32/api/synchapi/nf-synchapi-createsemaphoreexw) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CreateWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CreateWaitableTimerEx](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerexw) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [OpenWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from ext-ms-win-security-credui-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CredUIParseUserName](https://msdn.microsoft.com/library/Aa375175(v=VS.85).aspx) | Introduced into ext-ms-win-security-credui-l1-1-1.dll in 10.0.16299. Moved into Credui.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CredUIParseUserName](/windows/win32/api/wincred/nf-wincred-creduiparseusernamea) | Introduced into ext-ms-win-security-credui-l1-1-1.dll in 10.0.16299. Moved into Credui.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-security-cryptoapi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CryptAcquireContext](https://msdn.microsoft.com/library/Aa379886(v=VS.85).aspx) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [CryptGetDefaultProvider](https://msdn.microsoft.com/library/Aa379945(v=VS.85).aspx) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [CryptSignHash](https://msdn.microsoft.com/library/Aa380280(v=VS.85).aspx) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [CryptVerifySignature](https://msdn.microsoft.com/library/Aa381097(v=VS.85).aspx) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CryptAcquireContext](/windows/win32/api/wincrypt/nf-wincrypt-cryptacquirecontexta) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CryptGetDefaultProvider](/windows/win32/api/wincrypt/nf-wincrypt-cryptgetdefaultprovidera) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CryptSignHash](/windows/win32/api/wincrypt/nf-wincrypt-cryptsignhasha) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [CryptVerifySignature](/windows/win32/api/wincrypt/nf-wincrypt-cryptverifysignaturea) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-file-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [DeleteVolumeMountPoint](https://msdn.microsoft.com/library/Aa363927(v=VS.85).aspx) | Introduced into api-ms-win-core-file-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [DeleteVolumeMountPoint](/windows/win32/api/fileapi/nf-fileapi-deletevolumemountpointw) | Introduced into api-ms-win-core-file-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-localization-l2-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [EnumSystemCodePages](https://msdn.microsoft.com/library/windows/desktop/dd317825.aspx) | Introduced into api-ms-win-core-localization-l2-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [EnumSystemCodePages](/windows/win32/api/winnls/nf-winnls-enumsystemcodepagesa) | Introduced into api-ms-win-core-localization-l2-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-localization-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [EnumUILanguages](https://msdn.microsoft.com/library/Dd317834(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-obsolete-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-obsolete-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-obsolete-l1-3-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [EnumUILanguages](/windows/win32/api/winnls/nf-winnls-enumuilanguagesa) | Introduced into api-ms-win-core-localization-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-obsolete-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-obsolete-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-obsolete-l1-3-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-processenvironment-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [ExpandEnvironmentStrings](https://msdn.microsoft.com/library/ms724265(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [FreeEnvironmentStrings](https://msdn.microsoft.com/library/ms683151(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetCommandLine](https://msdn.microsoft.com/library/windows/desktop/ms683156.aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetCurrentDirectory](https://msdn.microsoft.com/library/Aa364934(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetEnvironmentVariable](https://msdn.microsoft.com/library/ms683188(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [SetCurrentDirectory](https://msdn.microsoft.com/library/Aa365530(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [ExpandEnvironmentStrings](/windows/win32/api/processenv/nf-processenv-expandenvironmentstringsa) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [FreeEnvironmentStrings](/windows/win32/api/processenv/nf-processenv-freeenvironmentstringsa) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetCommandLine](/windows/win32/api/processenv/nf-processenv-getcommandlinea) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetCurrentDirectory](/windows/win32/api/winbase/nf-winbase-getcurrentdirectory) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetEnvironmentVariable](/windows/win32/api/processenv/nf-processenv-getenvironmentvariablea) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [SetCurrentDirectory](/windows/win32/api/winbase/nf-winbase-setcurrentdirectory) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-console-l2-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [FillConsoleOutputCharacter](https://msdn.microsoft.com/library/ms682663(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetConsoleTitle](https://msdn.microsoft.com/library/ms683174(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [PeekConsoleInput](https://msdn.microsoft.com/library/ms684344(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [ReadConsoleOutput](https://msdn.microsoft.com/library/ms684965(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [SetConsoleTitle](https://msdn.microsoft.com/library/ms686050(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WriteConsoleOutput](https://msdn.microsoft.com/library/ms687404(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [FillConsoleOutputCharacter](/windows/console/fillconsoleoutputcharacter) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetConsoleTitle](/windows/console/getconsoletitle) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [PeekConsoleInput](/windows/console/peekconsoleinput) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [ReadConsoleOutput](/windows/console/readconsoleoutput) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [SetConsoleTitle](/windows/console/setconsoletitle) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WriteConsoleOutput](/windows/console/writeconsoleoutput) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-eventing-legacy-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [FlushTrace](https://msdn.microsoft.com/library/windows/desktop/aa363891.aspx) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [QueryTrace](https://msdn.microsoft.com/library/windows/desktop/aa364103.aspx) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [FlushTrace](/windows/win32/api/evntrace/nf-evntrace-flushtracea) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [QueryTrace](/windows/win32/api/evntrace/nf-evntrace-querytrace) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-localization-l1-2-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [FormatMessage](https://msdn.microsoft.com/library/windows/desktop/ms679351.aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-core-misc-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetGeoInfo](https://msdn.microsoft.com/library/windows/desktop/dd318099.aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetLocaleInfo](https://msdn.microsoft.com/library/Dd318101(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [FormatMessage](/windows/win32/api/winbase/nf-winbase-formatmessage) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-core-misc-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetGeoInfo](/windows/win32/api/winnls/nf-winnls-getgeoinfoa) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetLocaleInfo](/windows/win32/api/winnls/nf-winnls-getlocaleinfoa) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from ws2_32.dll
 
 | API | Requirements |
 | -----| --------------|
-| [FreeAddrInfo](https://msdn.microsoft.com/library/ms737931(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetAddrInfoEx](https://msdn.microsoft.com/library/ms738518(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetAddrInfo](https://msdn.microsoft.com/library/ms738520(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetHostName](https://msdn.microsoft.com/library/ms738527(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetNameInfo](https://msdn.microsoft.com/library/ms738532(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [InetNtop](https://msdn.microsoft.com/library/Cc805843(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [InetPton](https://msdn.microsoft.com/library/Cc805844(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [SetAddrInfoEx](https://msdn.microsoft.com/library/windows/desktop/ms740473.aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSAAddressToString](https://msdn.microsoft.com/library/ms741516(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSAConnectByName](https://msdn.microsoft.com/library/ms741557(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSADuplicateSocket](https://msdn.microsoft.com/library/ms741565(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSAEnumNameSpaceProviders](https://msdn.microsoft.com/library/ms741570(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSAEnumNameSpaceProvidersEx](https://msdn.microsoft.com/library/ms741568(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSAEnumProtocols](https://msdn.microsoft.com/library/ms741574(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSAGetServiceClassInfo](https://msdn.microsoft.com/library/ms741592(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSAGetServiceClassNameByClassId](https://msdn.microsoft.com/library/ms741598(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSALookupServiceBegin](https://msdn.microsoft.com/library/ms741633(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSALookupServiceNext](https://msdn.microsoft.com/library/ms741641(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSASetService](https://msdn.microsoft.com/library/ms742211(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSASocket](https://msdn.microsoft.com/library/ms742212(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WSAStringToAddress](https://msdn.microsoft.com/library/ms742214(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [FreeAddrInfo](/windows/win32/api/ws2tcpip/nf-ws2tcpip-freeaddrinfo) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetAddrInfoEx](/windows/win32/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetAddrInfo](/windows/win32/api/ws2tcpip/nf-ws2tcpip-getaddrinfo) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetHostName](/windows/win32/api/winsock/nf-winsock-gethostname) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetNameInfo](/windows/win32/api/ws2tcpip/nf-ws2tcpip-getnameinfo) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [InetNtop](/windows/win32/api/ws2tcpip/nf-ws2tcpip-inetntopw) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [InetPton](/windows/win32/api/ws2tcpip/nf-ws2tcpip-inetptonw) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [SetAddrInfoEx](/windows/win32/api/ws2tcpip/nf-ws2tcpip-setaddrinfoexa) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAAddressToString](/windows/win32/api/winsock2/nf-winsock2-wsaaddresstostringa) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAConnectByName](/windows/win32/api/winsock2/nf-winsock2-wsaconnectbynamea) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSADuplicateSocket](/windows/win32/api/winsock2/nf-winsock2-wsaduplicatesocketa) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAEnumNameSpaceProviders](/windows/win32/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAEnumNameSpaceProvidersEx](/windows/win32/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersexa) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAEnumProtocols](/windows/win32/api/winsock2/nf-winsock2-wsaenumprotocolsa) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAGetServiceClassInfo](/windows/win32/api/winsock2/nf-winsock2-wsagetserviceclassinfoa) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAGetServiceClassNameByClassId](/windows/win32/api/winsock2/nf-winsock2-wsagetserviceclassnamebyclassida) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSALookupServiceBegin](/windows/win32/api/winsock2/nf-winsock2-wsalookupservicebegina) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSALookupServiceNext](/windows/win32/api/winsock2/nf-winsock2-wsalookupservicenexta) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSASetService](/windows/win32/api/winsock2/nf-winsock2-wsasetservicea) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSASocket](/windows/win32/api/winsock2/nf-winsock2-wsasocketa) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WSAStringToAddress](/windows/win32/api/winsock2/nf-winsock2-wsastringtoaddressa) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-namedpipe-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetNamedPipeClientComputerName](https://msdn.microsoft.com/library/Aa365437(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-ansi-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetNamedPipeHandleState](https://msdn.microsoft.com/library/Aa365443(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-ansi-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WaitNamedPipe](https://msdn.microsoft.com/library/Aa365800(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-ansi-l1-1-1.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetNamedPipeClientComputerName](/windows/win32/api/winbase/nf-winbase-getnamedpipeclientcomputernamea) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-ansi-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetNamedPipeHandleState](/windows/win32/api/winbase/nf-winbase-getnamedpipehandlestatea) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-ansi-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WaitNamedPipe](/windows/win32/api/winbase/nf-winbase-waitnamedpipea) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-ansi-l1-1-1.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-url-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetAcceptLanguages](https://msdn.microsoft.com/library/Bb759898(v=VS.85).aspx) | Introduced into api-ms-win-core-url-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-shlwapi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-shlwapi-l1-1-1.dll in 10.0.16299. Moved into shlwapi.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetAcceptLanguages](/windows/win32/api/shlwapi/nf-shlwapi-getacceptlanguagesa) | Introduced into api-ms-win-core-url-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-shlwapi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-shlwapi-l1-1-1.dll in 10.0.16299. Moved into shlwapi.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-localization-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetCPInfoEx](https://msdn.microsoft.com/library/windows/desktop/dd318081.aspx) | Introduced into api-ms-win-core-localization-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetCPInfoEx](/windows/win32/api/winnls/nf-winnls-getcpinfoexa) | Introduced into api-ms-win-core-localization-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-security-provider-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetExplicitEntriesFromAcl](https://msdn.microsoft.com/library/Aa446638(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l3-1-0.dll in 10.0.16299. Moved into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetNamedSecurityInfo](https://msdn.microsoft.com/library/Aa446645(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l3-1-0.dll in 10.0.16299. Moved into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [SetEntriesInAcl](https://msdn.microsoft.com/library/Aa379576(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l3-1-0.dll in 10.0.16299. Moved into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [SetNamedSecurityInfo](https://msdn.microsoft.com/library/Aa379579(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l3-1-0.dll in 10.0.16299. Moved into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetExplicitEntriesFromAcl](/windows/win32/api/aclapi/nf-aclapi-getexplicitentriesfromacla) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l3-1-0.dll in 10.0.16299. Moved into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetNamedSecurityInfo](/windows/win32/api/aclapi/nf-aclapi-getnamedsecurityinfoa) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l3-1-0.dll in 10.0.16299. Moved into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [SetEntriesInAcl](/windows/win32/api/aclapi/nf-aclapi-setentriesinacla) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l3-1-0.dll in 10.0.16299. Moved into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [SetNamedSecurityInfo](/windows/win32/api/aclapi/nf-aclapi-setnamedsecurityinfoa) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l3-1-0.dll in 10.0.16299. Moved into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from version.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetFileVersionInfoEx](https://msdn.microsoft.com/library/Aa969434(v=VS.85).aspx) | Introduced into version.dll in 10.0.16299. Moved into api-ms-win-core-versionansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-versionansi-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-version-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-version-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-version-l1-1-0.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetFileVersionInfoSizeEx](https://msdn.microsoft.com/library/Aa969435(v=VS.85).aspx) | Introduced into version.dll in 10.0.16299. Moved into api-ms-win-core-versionansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-versionansi-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-version-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-version-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-version-l1-1-0.dll in 10.0.16299. Removed in 10.0.17134. |
-| [VerQueryValue](https://msdn.microsoft.com/library/ms647464(v=VS.85).aspx) | Introduced into version.dll in 10.0.16299. Moved into api-ms-win-core-versionansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-versionansi-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-version-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-version-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-version-l1-1-1.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetFileVersionInfoEx](/windows/win32/api/winver/nf-winver-getfileversioninfoexa) | Introduced into version.dll in 10.0.16299. Moved into api-ms-win-core-versionansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-versionansi-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-version-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-version-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-version-l1-1-0.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetFileVersionInfoSizeEx](/windows/win32/api/winver/nf-winver-getfileversioninfosizeexa) | Introduced into version.dll in 10.0.16299. Moved into api-ms-win-core-versionansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-versionansi-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-version-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-version-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-version-l1-1-0.dll in 10.0.16299. Removed in 10.0.17134. |
+| [VerQueryValue](/windows/win32/api/winver/nf-winver-verqueryvaluea) | Introduced into version.dll in 10.0.16299. Moved into api-ms-win-core-versionansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-versionansi-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-version-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-version-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-version-l1-1-1.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from ext-ms-win-ntuser-keyboard-l1-2-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetKeyNameText](https://msdn.microsoft.com/library/ms646300(v=VS.85).aspx) | Introduced into ext-ms-win-ntuser-keyboard-l1-2-0.dll in 10.0.16299. Moved into ext-ms-win-ntuser-keyboard-l1-3-0.dll in 10.0.16299. Moved into user32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetKeyNameText](/windows/win32/api/winuser/nf-winuser-getkeynametexta) | Introduced into ext-ms-win-ntuser-keyboard-l1-2-0.dll in 10.0.16299. Moved into ext-ms-win-ntuser-keyboard-l1-3-0.dll in 10.0.16299. Moved into user32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from ext-ms-win-base-psapi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetModuleBaseName](https://msdn.microsoft.com/library/ms683196(v=VS.85).aspx) | Introduced into ext-ms-win-base-psapi-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetModuleBaseName](/windows/win32/api/psapi/nf-psapi-getmodulebasenamea) | Introduced into ext-ms-win-base-psapi-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-libraryloader-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetModuleFileName](https://msdn.microsoft.com/library/ms683197(v=VS.85).aspx) | Introduced into api-ms-win-core-libraryloader-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-libraryloader-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-libraryloader-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-libraryloader-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetModuleFileName](/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulefilenamea) | Introduced into api-ms-win-core-libraryloader-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-libraryloader-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-libraryloader-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-libraryloader-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-string-l1-1-0.dll
@@ -3063,24 +3063,24 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 
 | API | Requirements |
 | -----| --------------|
-| [GetSystemDirectory](https://msdn.microsoft.com/library/ms724373(v=VS.85).aspx) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetVersionEx](https://msdn.microsoft.com/library/ms724451(v=VS.85).aspx) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetSystemDirectory](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetVersionEx](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-file-l1-2-2.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetTempFileName](https://msdn.microsoft.com/library/Aa364991(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetTempPath](https://msdn.microsoft.com/library/Aa364992(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [GetVolumeInformation](https://msdn.microsoft.com/library/Aa364993(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetTempFileName](/windows/win32/api/fileapi/nf-fileapi-gettempfilenamea) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetTempPath](/windows/win32/api/fileapi/nf-fileapi-gettemppatha) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [GetVolumeInformation](/windows/win32/api/fileapi/nf-fileapi-getvolumeinformationa) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-kernel32-legacy-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [SetVolumeLabel](https://msdn.microsoft.com/library/Aa365560(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [SetVolumeLabel](/windows/win32/api/winbase/nf-winbase-setvolumelabela) | Introduced into api-ms-win-core-kernel32-legacy-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-3.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-5.dll in 10.0.16299. Moved into api-ms-win-core-kernel32-legacy-l1-1-6.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l2-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from esent.dll
@@ -3096,49 +3096,49 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 
 | API | Requirements |
 | -----| --------------|
-| [K32GetModuleBaseName](https://msdn.microsoft.com/library/ms683196(v=VS.85).aspx) | Introduced into api-ms-win-core-psapi-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-psapi-obsolete-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-psapi-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [K32GetModuleFileNameEx](https://msdn.microsoft.com/library/ms683198(v=VS.85).aspx) | Introduced into api-ms-win-core-psapi-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-psapi-obsolete-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-psapi-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [K32GetModuleBaseName](/windows/win32/api/psapi/nf-psapi-getmodulebasenamea) | Introduced into api-ms-win-core-psapi-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-psapi-obsolete-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-psapi-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [K32GetModuleFileNameEx](/windows/win32/api/psapi/nf-psapi-getmodulefilenameexa) | Introduced into api-ms-win-core-psapi-ansi-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-psapi-obsolete-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-psapi-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-security-lsalookup-ansi-l2-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [LookupAccountName](https://msdn.microsoft.com/library/Aa379159(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l4-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-1.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [LookupAccountSid](https://msdn.microsoft.com/library/Aa379166(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l4-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-1.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [LookupPrivilegeDisplayName](https://msdn.microsoft.com/library/Aa379168(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l4-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-1.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [LookupPrivilegeName](https://msdn.microsoft.com/library/Aa379176(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l4-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-1.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [LookupPrivilegeValue](https://msdn.microsoft.com/library/Aa379180(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. Moved into ext-ms-win-advapi32-auth-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l4-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-1.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [LookupAccountName](/windows/win32/api/winbase/nf-winbase-lookupaccountnamea) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l4-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-1.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [LookupAccountSid](/windows/win32/api/winbase/nf-winbase-lookupaccountsida) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l4-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-1.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [LookupPrivilegeDisplayName](/windows/win32/api/winbase/nf-winbase-lookupprivilegedisplaynamea) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l4-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-1.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [LookupPrivilegeName](/windows/win32/api/winbase/nf-winbase-lookupprivilegenamea) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l4-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-1.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [LookupPrivilegeValue](/windows/win32/api/winbase/nf-winbase-lookupprivilegevaluea) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. Moved into ext-ms-win-advapi32-auth-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l4-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-security-lsalookup-l2-1-1.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from ext-ms-win-ntuser-keyboard-l1-3-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [MapVirtualKey](https://msdn.microsoft.com/library/ms646306(v=VS.85).aspx) | Introduced into ext-ms-win-ntuser-keyboard-l1-3-0.dll in 10.0.16299. Moved into ext-ms-win-ntuser-keyboard-l1-1-0.dll in 10.0.16299. Moved into ext-ms-win-ntuser-keyboard-l1-1-1.dll in 10.0.16299. Moved into ext-ms-win-ntuser-keyboard-l1-2-0.dll in 10.0.16299. Moved into user32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [MapVirtualKey](/windows/win32/api/winuser/nf-winuser-mapvirtualkeya) | Introduced into ext-ms-win-ntuser-keyboard-l1-3-0.dll in 10.0.16299. Moved into ext-ms-win-ntuser-keyboard-l1-1-0.dll in 10.0.16299. Moved into ext-ms-win-ntuser-keyboard-l1-1-1.dll in 10.0.16299. Moved into ext-ms-win-ntuser-keyboard-l1-2-0.dll in 10.0.16299. Moved into user32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from ext-ms-win-ntuser-keyboard-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [MapVirtualKeyEx](https://msdn.microsoft.com/library/ms646307(v=VS.85).aspx) | Introduced into ext-ms-win-ntuser-keyboard-l1-1-0.dll in 10.0.16299. Moved into ext-ms-win-ntuser-keyboard-l1-1-1.dll in 10.0.16299. Moved into ext-ms-win-ntuser-keyboard-l1-2-0.dll in 10.0.16299. Moved into ext-ms-win-ntuser-keyboard-l1-3-0.dll in 10.0.16299. Moved into user32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [MapVirtualKeyEx](/windows/win32/api/winuser/nf-winuser-mapvirtualkeyexa) | Introduced into ext-ms-win-ntuser-keyboard-l1-1-0.dll in 10.0.16299. Moved into ext-ms-win-ntuser-keyboard-l1-1-1.dll in 10.0.16299. Moved into ext-ms-win-ntuser-keyboard-l1-2-0.dll in 10.0.16299. Moved into ext-ms-win-ntuser-keyboard-l1-3-0.dll in 10.0.16299. Moved into user32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-debug-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [OutputDebugString](https://msdn.microsoft.com/library/windows/desktop/aa363362.aspx) | Introduced into api-ms-win-core-debug-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-debug-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-debug-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [OutputDebugString](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa) | Introduced into api-ms-win-core-debug-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-core-debug-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-core-debug-l1-1-2.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-console-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [ReadConsoleInput](https://msdn.microsoft.com/library/ms684961(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [ReadConsole](https://msdn.microsoft.com/library/ms684958(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [WriteConsole](https://msdn.microsoft.com/library/ms687401(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [ReadConsoleInput](/windows/console/readconsoleinput) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [ReadConsole](/windows/console/readconsole) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [WriteConsole](/windows/console/writeconsole) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-kernel32-l1-1-0.dll in 10.0.16299. Moved into kernel32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-file-l2-1-0.dll
@@ -3152,7 +3152,7 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 
 | API | Requirements |
 | -----| --------------|
-| [RegisterTraceGuids](https://msdn.microsoft.com/library/windows/desktop/aa364105.aspx) | Introduced into api-ms-win-downlevel-advapi32-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-eventing-classicprovider-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [RegisterTraceGuids](/windows/win32/api/evntrace/nf-evntrace-registertraceguidsa) | Introduced into api-ms-win-downlevel-advapi32-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-downlevel-advapi32-l1-1-1.dll in 10.0.16299. Moved into api-ms-win-eventing-classicprovider-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-synch-l1-2-0.dll
@@ -3173,571 +3173,571 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 
 | API | Requirements |
 | -----| --------------|
-| [Tbsi_Context_Create](https://msdn.microsoft.com/library/Aa446800(v=VS.85).aspx) | Introduced into tbs.dll in 10.0.17134. |
-| [Tbsi_GetDeviceInfo](https://msdn.microsoft.com/library/JJ553827(v=VS.85).aspx) | Introduced into tbs.dll in 10.0.17134. |
-| [Tbsi_Get_OwnerAuth](https://msdn.microsoft.com/library/JJ553828(v=VS.85).aspx) | Introduced into tbs.dll in 10.0.17134. |
-| [Tbsi_Get_TCG_Log](https://msdn.microsoft.com/library/Bb530712(v=VS.85).aspx) | Introduced into tbs.dll in 10.0.17134. |
-| [Tbsi_Physical_Presence_Command](https://msdn.microsoft.com/library/Aa446801(v=VS.85).aspx) | Introduced into tbs.dll in 10.0.17134. |
-| [Tbsi_Revoke_Attestation](https://msdn.microsoft.com/library/JJ553829(v=VS.85).aspx) | Introduced into tbs.dll in 10.0.17134. |
-| [Tbsip_Cancel_Commands](https://msdn.microsoft.com/library/Aa446797(v=VS.85).aspx) | Introduced into tbs.dll in 10.0.17134. |
-| [Tbsip_Context_Close](https://msdn.microsoft.com/library/Aa446798(v=VS.85).aspx) | Introduced into tbs.dll in 10.0.17134. |
-| [Tbsip_Submit_Command](https://msdn.microsoft.com/library/Aa446799(v=VS.85).aspx) | Introduced into tbs.dll in 10.0.17134. |
+| [Tbsi_Context_Create](/windows/win32/api/tbs/nf-tbs-tbsi_context_create) | Introduced into tbs.dll in 10.0.17134. |
+| [Tbsi_GetDeviceInfo](/windows/win32/api/tbs/nf-tbs-tbsi_getdeviceinfo) | Introduced into tbs.dll in 10.0.17134. |
+| [Tbsi_Get_OwnerAuth](/windows/win32/api/tbs/nf-tbs-tbsi_get_ownerauth) | Introduced into tbs.dll in 10.0.17134. |
+| [Tbsi_Get_TCG_Log](/windows/win32/api/tbs/nf-tbs-tbsi_get_tcg_log) | Introduced into tbs.dll in 10.0.17134. |
+| [Tbsi_Physical_Presence_Command](/windows/win32/api/tbs/nf-tbs-tbsi_physical_presence_command) | Introduced into tbs.dll in 10.0.17134. |
+| [Tbsi_Revoke_Attestation](/windows/win32/api/tbs/nf-tbs-tbsi_revoke_attestation) | Introduced into tbs.dll in 10.0.17134. |
+| [Tbsip_Cancel_Commands](/windows/win32/api/tbs/nf-tbs-tbsip_cancel_commands) | Introduced into tbs.dll in 10.0.17134. |
+| [Tbsip_Context_Close](/windows/win32/api/tbs/nf-tbs-tbsip_context_close) | Introduced into tbs.dll in 10.0.17134. |
+| [Tbsip_Submit_Command](/windows/win32/api/tbs/nf-tbs-tbsip_submit_command) | Introduced into tbs.dll in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-rtlsupport-l1-2-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [RtlVirtualUnwind](https://msdn.microsoft.com/library/ms680617(v=VS.85).aspx) | Introduced into api-ms-win-core-rtlsupport-l1-2-0.dll in 10.0.17763. |
+| [RtlVirtualUnwind](/windows/win32/api/winnt/nf-winnt-rtlvirtualunwind) | Introduced into api-ms-win-core-rtlsupport-l1-2-0.dll in 10.0.17763. |
 
 
 COM interfaces
 
 | API | Requirements |
 | -----| --------------|
-| [_IRDPSessionEvents](https://msdn.microsoft.com/library/windows/desktop/aa373879.aspx) | Introduced in 10.0.10240. |
+| [_IRDPSessionEvents](/windows/win32/api/rdpencomapi/nn-rdpencomapi-_irdpsessionevents) | Introduced in 10.0.10240. |
 | _IWorkspaceBrokerAxEvents | Introduced in 10.0.10240. |
-| [IAccessibleEx](https://msdn.microsoft.com/library/windows/desktop/ee671234.aspx) | Introduced in 10.0.10240. |
-| [IAccessibleHostingElementProviders](https://msdn.microsoft.com/library/windows/desktop/hh448733.aspx) | Introduced in 10.0.10240. |
-| [IActivateAudioInterfaceAsyncOperation](https://msdn.microsoft.com/library/windows/desktop/jj128300.aspx) | Introduced in 10.0.10240. |
-| [IActivateAudioInterfaceCompletionHandler](https://msdn.microsoft.com/library/windows/desktop/jj128302.aspx) | Introduced in 10.0.10240. |
-| [IActivationFactory](https://msdn.microsoft.com/library/windows/desktop/br205779.aspx) | Introduced in 10.0.10240. |
-| [IAdvancedMediaCapture](https://msdn.microsoft.com/library/windows/desktop/hh802709.aspx) | Introduced in 10.0.10240. |
-| [IAdvancedMediaCaptureInitializationSettings](https://msdn.microsoft.com/library/windows/desktop/hh802710.aspx) | Introduced in 10.0.10240. |
-| [IAdvancedMediaCaptureSettings](https://msdn.microsoft.com/library/windows/desktop/hh802712.aspx) | Introduced in 10.0.10240. |
-| [IAgileObject](https://msdn.microsoft.com/library/windows/desktop/hh802476.aspx) | Introduced in 10.0.10240. |
-| [IAgileReference](https://msdn.microsoft.com/library/windows/desktop/dn269837.aspx) | Introduced in 10.0.10240. |
-| [IAnnotationProvider](https://msdn.microsoft.com/library/windows/desktop/hh448757.aspx) | Introduced in 10.0.10240. |
+| [IAccessibleEx](/windows/win32/api/uiautomationcore/nn-uiautomationcore-iaccessibleex) | Introduced in 10.0.10240. |
+| [IAccessibleHostingElementProviders](/windows/win32/api/uiautomationcore/nn-uiautomationcore-iaccessiblehostingelementproviders) | Introduced in 10.0.10240. |
+| [IActivateAudioInterfaceAsyncOperation](/windows/win32/api/mmdeviceapi/nn-mmdeviceapi-iactivateaudiointerfaceasyncoperation) | Introduced in 10.0.10240. |
+| [IActivateAudioInterfaceCompletionHandler](/windows/win32/api/mmdeviceapi/nn-mmdeviceapi-iactivateaudiointerfacecompletionhandler) | Introduced in 10.0.10240. |
+| [IActivationFactory](/windows/win32/api/activation/nn-activation-iactivationfactory) | Introduced in 10.0.10240. |
+| [IAdvancedMediaCapture](/windows/win32/api/mfmediacapture/nn-mfmediacapture-iadvancedmediacapture) | Introduced in 10.0.10240. |
+| [IAdvancedMediaCaptureInitializationSettings](/windows/win32/api/mfmediacapture/nn-mfmediacapture-iadvancedmediacaptureinitializationsettings) | Introduced in 10.0.10240. |
+| [IAdvancedMediaCaptureSettings](/windows/win32/api/mfmediacapture/nn-mfmediacapture-iadvancedmediacapturesettings) | Introduced in 10.0.10240. |
+| [IAgileObject](/windows/win32/api/objidlbase/nn-objidlbase-iagileobject) | Introduced in 10.0.10240. |
+| [IAgileReference](/windows/win32/api/objidl/nn-objidl-iagilereference) | Introduced in 10.0.10240. |
+| [IAnnotationProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-iannotationprovider) | Introduced in 10.0.10240. |
 | IAoWAppActivatedRuntime | Introduced in 10.0.10240. Removed in 10.0.16299. |
 | IAoWBackgroundTaskRuntime | Introduced in 10.0.10240. Removed in 10.0.16299. |
-| [IApartmentShutdown](https://msdn.microsoft.com/library/windows/desktop/jj219263.aspx) | Introduced in 10.0.10240. |
-| [IAsyncInfo](https://msdn.microsoft.com/library/windows/desktop/br205795.aspx) | Introduced in 10.0.10240. |
-| [IAudioCaptureClient](https://msdn.microsoft.com/library/windows/desktop/dd370858.aspx) | Introduced in 10.0.10240. |
-| [IAudioClient](https://msdn.microsoft.com/library/windows/desktop/dd370865.aspx) | Introduced in 10.0.10240. |
-| [IAudioClient2](https://msdn.microsoft.com/library/windows/desktop/hh404179.aspx) | Introduced in 10.0.10240. |
-| [IAudioClient3](https://msdn.microsoft.com/library/windows/desktop/dn911487.aspx) | Introduced in 10.0.10240. |
-| [IAudioClock](https://msdn.microsoft.com/library/windows/desktop/dd370881.aspx) | Introduced in 10.0.10240. |
-| [IAudioEndpointVolume](https://msdn.microsoft.com/library/windows/desktop/dd370892.aspx) | Introduced in 10.0.10240. |
-| [IAudioEndpointVolumeCallback](https://msdn.microsoft.com/library/windows/desktop/dd370894.aspx) | Introduced in 10.0.10240. |
-| [IAudioFrameNative](https://msdn.microsoft.com/library/windows/desktop/mt431700.aspx) | Introduced in 10.0.10240. |
-| [IAudioFrameNativeFactory](https://msdn.microsoft.com/library/windows/desktop/mt431701.aspx) | Introduced in 10.0.10240. |
-| [IAudioMeterInformation](https://msdn.microsoft.com/library/windows/desktop/dd368227.aspx) | Introduced in 10.0.10240. |
-| [IAudioRenderClient](https://msdn.microsoft.com/library/windows/desktop/dd368242.aspx) | Introduced in 10.0.10240. |
-| [IAudioSessionControl](https://msdn.microsoft.com/library/windows/desktop/dd368246.aspx) | Introduced in 10.0.10240. |
-| [IAudioSessionEvents](https://msdn.microsoft.com/library/windows/desktop/dd368289.aspx) | Introduced in 10.0.10240. |
-| [IAudioStreamVolume](https://msdn.microsoft.com/library/windows/desktop/dd370977.aspx) | Introduced in 10.0.10240. |
+| [IApartmentShutdown](/windows/win32/api/objidl/nn-objidl-iapartmentshutdown) | Introduced in 10.0.10240. |
+| [IAsyncInfo](/windows/win32/api/asyncinfo/nn-asyncinfo-iasyncinfo) | Introduced in 10.0.10240. |
+| [IAudioCaptureClient](/windows/win32/api/audioclient/nn-audioclient-iaudiocaptureclient) | Introduced in 10.0.10240. |
+| [IAudioClient](/windows/win32/api/audioclient/nn-audioclient-iaudioclient) | Introduced in 10.0.10240. |
+| [IAudioClient2](/windows/win32/api/audioclient/nn-audioclient-iaudioclient2) | Introduced in 10.0.10240. |
+| [IAudioClient3](/windows/win32/api/audioclient/nn-audioclient-iaudioclient3) | Introduced in 10.0.10240. |
+| [IAudioClock](/windows/win32/api/audioclient/nn-audioclient-iaudioclock) | Introduced in 10.0.10240. |
+| [IAudioEndpointVolume](/windows/win32/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume) | Introduced in 10.0.10240. |
+| [IAudioEndpointVolumeCallback](/windows/win32/api/endpointvolume/nn-endpointvolume-iaudioendpointvolumecallback) | Introduced in 10.0.10240. |
+| [IAudioFrameNative](/windows/win32/api/windows.media.core.interop/nn-windows-media-core-interop-iaudioframenative) | Introduced in 10.0.10240. |
+| [IAudioFrameNativeFactory](/windows/win32/api/windows.media.core.interop/nn-windows-media-core-interop-iaudioframenativefactory) | Introduced in 10.0.10240. |
+| [IAudioMeterInformation](/windows/win32/api/endpointvolume/nn-endpointvolume-iaudiometerinformation) | Introduced in 10.0.10240. |
+| [IAudioRenderClient](/windows/win32/api/audioclient/nn-audioclient-iaudiorenderclient) | Introduced in 10.0.10240. |
+| [IAudioSessionControl](/windows/win32/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol) | Introduced in 10.0.10240. |
+| [IAudioSessionEvents](/windows/win32/api/audiopolicy/nn-audiopolicy-iaudiosessionevents) | Introduced in 10.0.10240. |
+| [IAudioStreamVolume](/windows/win32/api/audioclient/nn-audioclient-iaudiostreamvolume) | Introduced in 10.0.10240. |
 | IAudioVideoCaptureDeviceNative | Introduced in 10.0.10240. |
-| [IBindCtx](https://msdn.microsoft.com/library/windows/desktop/ms693755.aspx) | Introduced in 10.0.10240. |
+| [IBindCtx](/windows/win32/api/objidl/nn-objidl-ibindctx) | Introduced in 10.0.10240. |
 | ICameraCaptureDeviceNative | Introduced in 10.0.10240. |
 | ICameraCaptureFrameNative | Introduced in 10.0.10240. |
 | ICameraCapturePreviewSink | Introduced in 10.0.10240. |
-| [ICameraUIControl](https://msdn.microsoft.com/library/windows/desktop/hh802717.aspx) | Introduced in 10.0.10240. |
-| [ICameraUIControlEventCallback](https://msdn.microsoft.com/library/windows/desktop/hh802718.aspx) | Introduced in 10.0.10240. |
-| [IClassFactory](https://msdn.microsoft.com/library/windows/desktop/ms694364.aspx) | Introduced in 10.0.10240. |
-| [IClientSecurity](https://msdn.microsoft.com/library/windows/desktop/ms683964.aspx) | Introduced in 10.0.10240. |
-| [ICodecAPI](https://msdn.microsoft.com/library/windows/desktop/dd311953.aspx) | Introduced in 10.0.10240. |
-| [IConnectionPoint](https://msdn.microsoft.com/library/windows/desktop/ms694318.aspx) | Introduced in 10.0.10240. |
-| [IConnectionPointContainer](https://msdn.microsoft.com/library/windows/desktop/ms683857.aspx) | Introduced in 10.0.10240. |
-| [IContextCallback](https://msdn.microsoft.com/library/windows/desktop/ms682253.aspx) | Introduced in 10.0.10240. |
-| [ICreateDeviceAccessAsync](https://msdn.microsoft.com/library/windows/desktop/hh404248.aspx) | Introduced in 10.0.10240. |
+| [ICameraUIControl](/windows/win32/api/camerauicontrol/nn-camerauicontrol-icamerauicontrol) | Introduced in 10.0.10240. |
+| [ICameraUIControlEventCallback](/windows/win32/api/camerauicontrol/nn-camerauicontrol-icamerauicontroleventcallback) | Introduced in 10.0.10240. |
+| [IClassFactory](/windows/win32/api/unknwn/nn-unknwn-iclassfactory) | Introduced in 10.0.10240. |
+| [IClientSecurity](/windows/win32/api/objidl/nn-objidl-iclientsecurity) | Introduced in 10.0.10240. |
+| [ICodecAPI](/windows/win32/api/strmif/nn-strmif-icodecapi) | Introduced in 10.0.10240. |
+| [IConnectionPoint](/windows/win32/api/ocidl/nn-ocidl-iconnectionpoint) | Introduced in 10.0.10240. |
+| [IConnectionPointContainer](/windows/win32/api/ocidl/nn-ocidl-iconnectionpointcontainer) | Introduced in 10.0.10240. |
+| [IContextCallback](/windows/win32/api/ctxtcall/nn-ctxtcall-icontextcallback) | Introduced in 10.0.10240. |
+| [ICreateDeviceAccessAsync](/windows/win32/api/deviceaccess/nn-deviceaccess-icreatedeviceaccessasync) | Introduced in 10.0.10240. |
 | ICustomNavigationProvider | Introduced in 10.0.10240. |
-| [ID2D1AnalysisTransform](https://msdn.microsoft.com/library/windows/desktop/hh404347.aspx) | Introduced in 10.0.10240. |
-| [ID2D1Bitmap](https://msdn.microsoft.com/library/windows/desktop/dd371109.aspx) | Introduced in 10.0.10240. |
-| [ID2D1Bitmap1](https://msdn.microsoft.com/library/windows/desktop/hh404349.aspx) | Introduced in 10.0.10240. |
-| [ID2D1BitmapBrush](https://msdn.microsoft.com/library/windows/desktop/dd371122.aspx) | Introduced in 10.0.10240. |
-| [ID2D1BitmapRenderTarget](https://msdn.microsoft.com/library/windows/desktop/dd371146.aspx) | Introduced in 10.0.10240. |
-| [ID2D1BlendTransform](https://msdn.microsoft.com/library/windows/desktop/hh404361.aspx) | Introduced in 10.0.10240. |
-| [ID2D1BorderTransform](https://msdn.microsoft.com/library/windows/desktop/hh404367.aspx) | Introduced in 10.0.10240. |
-| [ID2D1BoundsAdjustmentTransform](https://msdn.microsoft.com/library/windows/desktop/hh847963.aspx) | Introduced in 10.0.10240. |
-| [ID2D1Brush](https://msdn.microsoft.com/library/windows/desktop/dd371173.aspx) | Introduced in 10.0.10240. |
-| [ID2D1ColorContext](https://msdn.microsoft.com/library/windows/desktop/hh404388.aspx) | Introduced in 10.0.10240. |
-| [ID2D1CommandList](https://msdn.microsoft.com/library/windows/desktop/hh404392.aspx) | Introduced in 10.0.10240. |
-| [ID2D1CommandSink](https://msdn.microsoft.com/library/windows/desktop/hh404394.aspx) | Introduced in 10.0.10240. |
-| [ID2D1CommandSink1](https://msdn.microsoft.com/library/windows/desktop/dn280436.aspx) | Introduced in 10.0.10240. |
-| [ID2D1CommandSink2](https://msdn.microsoft.com/library/windows/desktop/dn890781.aspx) | Introduced in 10.0.10240. |
-| [ID2D1ComputeInfo](https://msdn.microsoft.com/library/windows/desktop/hh847966.aspx) | Introduced in 10.0.10240. |
-| [ID2D1ComputeTransform](https://msdn.microsoft.com/library/windows/desktop/hh404434.aspx) | Introduced in 10.0.10240. |
-| [ID2D1ConcreteTransform](https://msdn.microsoft.com/library/windows/desktop/hh404452.aspx) | Introduced in 10.0.10240. |
-| [ID2D1DCRenderTarget](https://msdn.microsoft.com/library/windows/desktop/dd371213.aspx) | Introduced in 10.0.10240. |
-| [ID2D1Device](https://msdn.microsoft.com/library/windows/desktop/hh404478.aspx) | Introduced in 10.0.10240. |
-| [ID2D1Device1](https://msdn.microsoft.com/library/windows/desktop/dn280458.aspx) | Introduced in 10.0.10240. |
-| [ID2D1Device2](https://msdn.microsoft.com/library/windows/desktop/dn890786.aspx) | Introduced in 10.0.10240. |
-| [ID2D1DeviceContext](https://msdn.microsoft.com/library/windows/desktop/hh404479.aspx) | Introduced in 10.0.10240. |
-| [ID2D1DeviceContext1](https://msdn.microsoft.com/library/windows/desktop/dn280461.aspx) | Introduced in 10.0.10240. |
-| [ID2D1DeviceContext2](https://msdn.microsoft.com/library/windows/desktop/dn890789.aspx) | Introduced in 10.0.10240. |
-| [ID2D1DrawInfo](https://msdn.microsoft.com/library/windows/desktop/hh847986.aspx) | Introduced in 10.0.10240. |
-| [ID2D1DrawingStateBlock](https://msdn.microsoft.com/library/windows/desktop/dd371218.aspx) | Introduced in 10.0.10240. |
-| [ID2D1DrawingStateBlock1](https://msdn.microsoft.com/library/windows/desktop/hh871452.aspx) | Introduced in 10.0.10240. |
-| [ID2D1DrawTransform](https://msdn.microsoft.com/library/windows/desktop/hh847992.aspx) | Introduced in 10.0.10240. |
-| [ID2D1Effect](https://msdn.microsoft.com/library/windows/desktop/hh404566.aspx) | Introduced in 10.0.10240. |
-| [ID2D1EffectContext](https://msdn.microsoft.com/library/windows/desktop/hh404459.aspx) | Introduced in 10.0.10240. |
-| [ID2D1EffectContext1](https://msdn.microsoft.com/library/windows/desktop/dn949338.aspx) | Introduced in 10.0.10240. |
-| [ID2D1EffectImpl](https://msdn.microsoft.com/library/windows/desktop/hh404568.aspx) | Introduced in 10.0.10240. |
-| [ID2D1EllipseGeometry](https://msdn.microsoft.com/library/windows/desktop/dd371239.aspx) | Introduced in 10.0.10240. |
-| [ID2D1Factory](https://msdn.microsoft.com/library/windows/desktop/dd371246.aspx) | Introduced in 10.0.10240. |
-| [ID2D1Factory1](https://msdn.microsoft.com/library/windows/desktop/hh404596.aspx) | Introduced in 10.0.10240. |
-| [ID2D1Factory2](https://msdn.microsoft.com/library/windows/desktop/dn280481.aspx) | Introduced in 10.0.10240. |
-| [ID2D1Factory3](https://msdn.microsoft.com/library/windows/desktop/dn900394.aspx) | Introduced in 10.0.10240. |
-| [ID2D1GdiMetafile](https://msdn.microsoft.com/library/windows/desktop/hh871460.aspx) | Introduced in 10.0.10240. |
-| [ID2D1GdiMetafile1](https://msdn.microsoft.com/library/windows/desktop/dn900400.aspx) | Introduced in 10.0.10240. |
-| [ID2D1GdiMetafileSink](https://msdn.microsoft.com/library/windows/desktop/hh871461.aspx) | Introduced in 10.0.10240. |
-| [ID2D1GdiMetafileSink1](https://msdn.microsoft.com/library/windows/desktop/dn900403.aspx) | Introduced in 10.0.10240. |
-| [ID2D1Geometry](https://msdn.microsoft.com/library/windows/desktop/dd316578.aspx) | Introduced in 10.0.10240. |
-| [ID2D1GeometryGroup](https://msdn.microsoft.com/library/windows/desktop/dd316581.aspx) | Introduced in 10.0.10240. |
-| [ID2D1GeometryRealization](https://msdn.microsoft.com/library/windows/desktop/dn280515.aspx) | Introduced in 10.0.10240. |
-| [ID2D1GeometrySink](https://msdn.microsoft.com/library/windows/desktop/dd316592.aspx) | Introduced in 10.0.10240. |
-| [ID2D1GradientMesh](https://msdn.microsoft.com/library/windows/desktop/dn900410.aspx) | Introduced in 10.0.10240. |
-| [ID2D1GradientStopCollection](https://msdn.microsoft.com/library/windows/desktop/dd316783.aspx) | Introduced in 10.0.10240. |
-| [ID2D1GradientStopCollection1](https://msdn.microsoft.com/library/windows/desktop/hh446792.aspx) | Introduced in 10.0.10240. |
-| [ID2D1HwndRenderTarget](https://msdn.microsoft.com/library/windows/desktop/dd371461.aspx) | Introduced in 10.0.10240. |
-| [ID2D1Image](https://msdn.microsoft.com/library/windows/desktop/hh446803.aspx) | Introduced in 10.0.10240. |
-| [ID2D1ImageBrush](https://msdn.microsoft.com/library/windows/desktop/hh446804.aspx) | Introduced in 10.0.10240. |
-| [ID2D1ImageSource](https://msdn.microsoft.com/library/windows/desktop/dn900413.aspx) | Introduced in 10.0.10240. |
-| [ID2D1ImageSourceFromWic](https://msdn.microsoft.com/library/windows/desktop/dn900414.aspx) | Introduced in 10.0.10240. |
-| [ID2D1Ink](https://msdn.microsoft.com/library/windows/desktop/dn900426.aspx) | Introduced in 10.0.10240. |
-| [ID2D1InkStyle](https://msdn.microsoft.com/library/windows/desktop/dn900427.aspx) | Introduced in 10.0.10240. |
-| [ID2D1Layer](https://msdn.microsoft.com/library/windows/desktop/dd371483.aspx) | Introduced in 10.0.10240. |
-| [ID2D1LinearGradientBrush](https://msdn.microsoft.com/library/windows/desktop/dd371488.aspx) | Introduced in 10.0.10240. |
-| [ID2D1LookupTable3D](https://msdn.microsoft.com/library/windows/desktop/dn900453.aspx) | Introduced in 10.0.10240. |
-| [ID2D1Mesh](https://msdn.microsoft.com/library/windows/desktop/dd371508.aspx) | Introduced in 10.0.10240. |
-| [ID2D1Multithread](https://msdn.microsoft.com/library/windows/desktop/hh997713.aspx) | Introduced in 10.0.10240. |
-| [ID2D1OffsetTransform](https://msdn.microsoft.com/library/windows/desktop/hh446820.aspx) | Introduced in 10.0.10240. |
-| [ID2D1PathGeometry](https://msdn.microsoft.com/library/windows/desktop/dd371512.aspx) | Introduced in 10.0.10240. |
-| [ID2D1PathGeometry1](https://msdn.microsoft.com/library/windows/desktop/hh446826.aspx) | Introduced in 10.0.10240. |
-| [ID2D1PrintControl](https://msdn.microsoft.com/library/windows/desktop/hh847997.aspx) | Introduced in 10.0.10240. |
-| [ID2D1Properties](https://msdn.microsoft.com/library/windows/desktop/hh446854.aspx) | Introduced in 10.0.10240. |
-| [ID2D1RadialGradientBrush](https://msdn.microsoft.com/library/windows/desktop/dd371529.aspx) | Introduced in 10.0.10240. |
-| [ID2D1RectangleGeometry](https://msdn.microsoft.com/library/windows/desktop/dd371561.aspx) | Introduced in 10.0.10240. |
-| [ID2D1RenderInfo](https://msdn.microsoft.com/library/windows/desktop/hh446890.aspx) | Introduced in 10.0.10240. |
-| [ID2D1RenderTarget](https://msdn.microsoft.com/library/windows/desktop/dd371766.aspx) | Introduced in 10.0.10240. |
-| [ID2D1Resource](https://msdn.microsoft.com/library/windows/desktop/dd316908.aspx) | Introduced in 10.0.10240. |
-| [ID2D1ResourceTexture](https://msdn.microsoft.com/library/windows/desktop/hh446904.aspx) | Introduced in 10.0.10240. |
-| [ID2D1RoundedRectangleGeometry](https://msdn.microsoft.com/library/windows/desktop/dd316914.aspx) | Introduced in 10.0.10240. |
-| [ID2D1SimplifiedGeometrySink](https://msdn.microsoft.com/library/windows/desktop/dd316919.aspx) | Introduced in 10.0.10240. |
-| [ID2D1SolidColorBrush](https://msdn.microsoft.com/library/windows/desktop/dd372207.aspx) | Introduced in 10.0.10240. |
-| [ID2D1SourceTransform](https://msdn.microsoft.com/library/windows/desktop/hh446908.aspx) | Introduced in 10.0.10240. |
-| [ID2D1StrokeStyle](https://msdn.microsoft.com/library/windows/desktop/dd372217.aspx) | Introduced in 10.0.10240. |
-| [ID2D1StrokeStyle1](https://msdn.microsoft.com/library/windows/desktop/hh446914.aspx) | Introduced in 10.0.10240. |
-| [ID2D1TessellationSink](https://msdn.microsoft.com/library/windows/desktop/dd372245.aspx) | Introduced in 10.0.10240. |
-| [ID2D1Transform](https://msdn.microsoft.com/library/windows/desktop/hh446919.aspx) | Introduced in 10.0.10240. |
-| [ID2D1TransformedGeometry](https://msdn.microsoft.com/library/windows/desktop/dd372252.aspx) | Introduced in 10.0.10240. |
-| [ID2D1TransformedImageSource](https://msdn.microsoft.com/library/windows/desktop/dn952305.aspx) | Introduced in 10.0.10240. |
-| [ID2D1TransformGraph](https://msdn.microsoft.com/library/windows/desktop/hh446920.aspx) | Introduced in 10.0.10240. |
-| [ID2D1TransformNode](https://msdn.microsoft.com/library/windows/desktop/hh446939.aspx) | Introduced in 10.0.10240. |
-| [ID2D1VertexBuffer](https://msdn.microsoft.com/library/windows/desktop/hh446949.aspx) | Introduced in 10.0.10240. |
-| [ID3D10Blob](https://msdn.microsoft.com/library/windows/desktop/bb173507.aspx) | Introduced in 10.0.10240. |
-| [ID3D10Multithread](https://msdn.microsoft.com/library/windows/desktop/bb173816.aspx) | Introduced in 10.0.10240. |
-| [ID3D11Asynchronous](https://msdn.microsoft.com/library/windows/desktop/ff476347.aspx) | Introduced in 10.0.10240. |
-| [ID3D11AuthenticatedChannel](https://msdn.microsoft.com/library/windows/desktop/hh447690.aspx) | Introduced in 10.0.10240. |
-| [ID3D11BlendState](https://msdn.microsoft.com/library/windows/desktop/ff476349.aspx) | Introduced in 10.0.10240. |
-| [ID3D11BlendState1](https://msdn.microsoft.com/library/windows/desktop/hh404571.aspx) | Introduced in 10.0.10240. |
-| [ID3D11Buffer](https://msdn.microsoft.com/library/windows/desktop/ff476351.aspx) | Introduced in 10.0.10240. |
-| [ID3D11ClassInstance](https://msdn.microsoft.com/library/windows/desktop/ff476353.aspx) | Introduced in 10.0.10240. |
-| [ID3D11ClassLinkage](https://msdn.microsoft.com/library/windows/desktop/ff476358.aspx) | Introduced in 10.0.10240. |
-| [ID3D11CommandList](https://msdn.microsoft.com/library/windows/desktop/ff476361.aspx) | Introduced in 10.0.10240. |
-| [ID3D11ComputeShader](https://msdn.microsoft.com/library/windows/desktop/ff476363.aspx) | Introduced in 10.0.10240. |
-| [ID3D11Counter](https://msdn.microsoft.com/library/windows/desktop/ff476364.aspx) | Introduced in 10.0.10240. |
-| [ID3D11CryptoSession](https://msdn.microsoft.com/library/windows/desktop/hh447691.aspx) | Introduced in 10.0.10240. |
-| [ID3D11Debug](https://msdn.microsoft.com/library/windows/desktop/ff476366.aspx) | Introduced in 10.0.10240. |
-| [ID3D11DepthStencilState](https://msdn.microsoft.com/library/windows/desktop/ff476375.aspx) | Introduced in 10.0.10240. |
-| [ID3D11DepthStencilView](https://msdn.microsoft.com/library/windows/desktop/ff476377.aspx) | Introduced in 10.0.10240. |
-| [ID3D11Device](https://msdn.microsoft.com/library/windows/desktop/ff476379.aspx) | Introduced in 10.0.10240. |
-| [ID3D11Device1](https://msdn.microsoft.com/library/windows/desktop/hh404575.aspx) | Introduced in 10.0.10240. |
-| [ID3D11Device2](https://msdn.microsoft.com/library/windows/desktop/dn280493.aspx) | Introduced in 10.0.10240. |
-| [ID3D11DeviceChild](https://msdn.microsoft.com/library/windows/desktop/ff476380.aspx) | Introduced in 10.0.10240. |
-| [ID3D11DeviceContext](https://msdn.microsoft.com/library/windows/desktop/ff476385.aspx) | Introduced in 10.0.10240. |
-| [ID3D11DeviceContext1](https://msdn.microsoft.com/library/windows/desktop/hh404598.aspx) | Introduced in 10.0.10240. |
-| [ID3D11DeviceContext2](https://msdn.microsoft.com/library/windows/desktop/dn280498.aspx) | Introduced in 10.0.10240. |
-| [ID3D11DeviceContext3](https://msdn.microsoft.com/library/windows/desktop/dn912875.aspx) | Introduced in 10.0.10240. |
-| [ID3D11Device3](https://msdn.microsoft.com/library/windows/desktop/dn899218.aspx) | Introduced in 10.0.10240. |
-| [ID3D11Texture2D1](https://msdn.microsoft.com/library/windows/desktop/dn899244.aspx) | Introduced in 10.0.10240. |
-| [ID3D11Texture3D1](https://msdn.microsoft.com/library/windows/desktop/dn899246.aspx) | Introduced in 10.0.10240. |
-| [ID3D11DomainShader](https://msdn.microsoft.com/library/windows/desktop/ff476535.aspx) | Introduced in 10.0.10240. |
-| [ID3D11FunctionLinkingGraph](https://msdn.microsoft.com/library/windows/desktop/dn280535.aspx) | Introduced in 10.0.10240. |
-| [ID3D11GeometryShader](https://msdn.microsoft.com/library/windows/desktop/ff476536.aspx) | Introduced in 10.0.10240. |
-| [ID3D11HullShader](https://msdn.microsoft.com/library/windows/desktop/ff476537.aspx) | Introduced in 10.0.10240. |
-| [ID3D11InfoQueue](https://msdn.microsoft.com/library/windows/desktop/ff476538.aspx) | Introduced in 10.0.10240. |
-| [ID3D11InputLayout](https://msdn.microsoft.com/library/windows/desktop/ff476575.aspx) | Introduced in 10.0.10240. |
-| [ID3D11LibraryReflection](https://msdn.microsoft.com/library/windows/desktop/dn280554.aspx) | Introduced in 10.0.10240. |
-| [ID3D11Linker](https://msdn.microsoft.com/library/windows/desktop/dn280558.aspx) | Introduced in 10.0.10240. |
-| [ID3D11LinkingNode](https://msdn.microsoft.com/library/windows/desktop/dn280562.aspx) | Introduced in 10.0.10240. |
-| [ID3D11Module](https://msdn.microsoft.com/library/windows/desktop/dn280563.aspx) | Introduced in 10.0.10240. |
-| [ID3D11ModuleInstance](https://msdn.microsoft.com/library/windows/desktop/dn280564.aspx) | Introduced in 10.0.10240. |
-| [ID3D11On12Device](https://msdn.microsoft.com/library/Dn913197(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D11PixelShader](https://msdn.microsoft.com/library/windows/desktop/ff476576.aspx) | Introduced in 10.0.10240. |
-| [ID3D11Predicate](https://msdn.microsoft.com/library/windows/desktop/ff476577.aspx) | Introduced in 10.0.10240. |
-| [ID3D11Query](https://msdn.microsoft.com/library/windows/desktop/ff476578.aspx) | Introduced in 10.0.10240. |
-| [ID3D11Query1](https://msdn.microsoft.com/library/windows/desktop/dn899236.aspx) | Introduced in 10.0.10240. |
-| [ID3D11RasterizerState](https://msdn.microsoft.com/library/windows/desktop/ff476580.aspx) | Introduced in 10.0.10240. |
-| [ID3D11RasterizerState1](https://msdn.microsoft.com/library/windows/desktop/hh446828.aspx) | Introduced in 10.0.10240. |
-| [ID3D11RasterizerState2](https://msdn.microsoft.com/library/windows/desktop/dn899238.aspx) | Introduced in 10.0.10240. |
-| [ID3D11RefDefaultTrackingOptions](https://msdn.microsoft.com/library/windows/desktop/hh446832.aspx) | Introduced in 10.0.10240. |
-| [ID3D11RefTrackingOptions](https://msdn.microsoft.com/library/windows/desktop/hh446836.aspx) | Introduced in 10.0.10240. |
-| [ID3D11RenderTargetView](https://msdn.microsoft.com/library/windows/desktop/ff476582.aspx) | Introduced in 10.0.10240. |
-| [ID3D11RenderTargetView1](https://msdn.microsoft.com/library/windows/desktop/dn899240.aspx) | Introduced in 10.0.10240. |
-| [ID3D11Resource](https://msdn.microsoft.com/library/windows/desktop/ff476584.aspx) | Introduced in 10.0.10240. |
-| [ID3D11SamplerState](https://msdn.microsoft.com/library/windows/desktop/ff476588.aspx) | Introduced in 10.0.10240. |
-| [ID3D11ShaderReflection](https://msdn.microsoft.com/library/windows/desktop/ff476590.aspx) | Introduced in 10.0.10240. |
-| [ID3D11ShaderReflectionConstantBuffer](https://msdn.microsoft.com/library/windows/desktop/ff476591.aspx) | Introduced in 10.0.10240. |
-| [ID3D11ShaderReflectionType](https://msdn.microsoft.com/library/windows/desktop/ff476595.aspx) | Introduced in 10.0.10240. |
-| [ID3D11ShaderReflectionVariable](https://msdn.microsoft.com/library/windows/desktop/ff476607.aspx) | Introduced in 10.0.10240. |
-| [ID3D11ShaderResourceView](https://msdn.microsoft.com/library/windows/desktop/ff476628.aspx) | Introduced in 10.0.10240. |
-| [ID3D11ShaderResourceView1](https://msdn.microsoft.com/library/windows/desktop/dn899242.aspx) | Introduced in 10.0.10240. |
-| [ID3D11ShaderTrace](https://msdn.microsoft.com/library/windows/desktop/hh446840.aspx) | Introduced in 10.0.10240. |
-| [ID3D11ShaderTraceFactory](https://msdn.microsoft.com/library/windows/desktop/hh446842.aspx) | Introduced in 10.0.10240. |
-| [ID3D11Texture1D](https://msdn.microsoft.com/library/windows/desktop/ff476633.aspx) | Introduced in 10.0.10240. |
-| [ID3D11Texture2D](https://msdn.microsoft.com/library/windows/desktop/ff476635.aspx) | Introduced in 10.0.10240. |
-| [ID3D11Texture3D](https://msdn.microsoft.com/library/windows/desktop/ff476637.aspx) | Introduced in 10.0.10240. |
-| [ID3D11TracingDevice](https://msdn.microsoft.com/library/windows/desktop/hh446868.aspx) | Introduced in 10.0.10240. |
-| [ID3D11UnorderedAccessView](https://msdn.microsoft.com/library/windows/desktop/ff476639.aspx) | Introduced in 10.0.10240. |
-| [ID3D11UnorderedAccessView1](https://msdn.microsoft.com/library/windows/desktop/dn899248.aspx) | Introduced in 10.0.10240. |
-| [ID3D11VertexShader](https://msdn.microsoft.com/library/windows/desktop/ff476641.aspx) | Introduced in 10.0.10240. |
-| [ID3D11VideoContext](https://msdn.microsoft.com/library/windows/desktop/hh447703.aspx) | Introduced in 10.0.10240. |
-| [ID3D11VideoContext1](https://msdn.microsoft.com/library/windows/desktop/dn894126.aspx) | Introduced in 10.0.10240. |
-| [ID3D11VideoDecoder](https://msdn.microsoft.com/library/windows/desktop/hh447766.aspx) | Introduced in 10.0.10240. |
-| [ID3D11VideoDecoderOutputView](https://msdn.microsoft.com/library/windows/desktop/hh447767.aspx) | Introduced in 10.0.10240. |
-| [ID3D11VideoDevice](https://msdn.microsoft.com/library/windows/desktop/hh447781.aspx) | Introduced in 10.0.10240. |
-| [ID3D11VideoDevice1](https://msdn.microsoft.com/library/windows/desktop/dn894141.aspx) | Introduced in 10.0.10240. |
-| [ID3D11VideoProcessor](https://msdn.microsoft.com/library/windows/desktop/hh447799.aspx) | Introduced in 10.0.10240. |
-| [ID3D11VideoProcessorEnumerator](https://msdn.microsoft.com/library/windows/desktop/hh447800.aspx) | Introduced in 10.0.10240. |
-| [ID3D11VideoProcessorEnumerator1](https://msdn.microsoft.com/library/windows/desktop/dn894146.aspx) | Introduced in 10.0.10240. |
-| [ID3D11VideoProcessorInputView](https://msdn.microsoft.com/library/windows/desktop/hh447807.aspx) | Introduced in 10.0.10240. |
-| [ID3D11VideoProcessorOutputView](https://msdn.microsoft.com/library/windows/desktop/hh447809.aspx) | Introduced in 10.0.10240. |
-| [ID3D11View](https://msdn.microsoft.com/library/windows/desktop/ff476642.aspx) | Introduced in 10.0.10240. |
-| [ID3D12CommandAllocator](https://msdn.microsoft.com/library/Dn770463(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12CommandList](https://msdn.microsoft.com/library/Dn770465(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12CommandQueue](https://msdn.microsoft.com/library/Dn788627(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12CommandSignature](https://msdn.microsoft.com/library/Dn891446(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12Debug](https://msdn.microsoft.com/library/Dn950153(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12DebugCommandList](https://msdn.microsoft.com/library/Dn950154(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12DebugCommandQueue](https://msdn.microsoft.com/library/Dn950158(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12DebugDevice](https://msdn.microsoft.com/library/Dn986873(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12DescriptorHeap](https://msdn.microsoft.com/library/Dn788648(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12Device](https://msdn.microsoft.com/library/Dn788650(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12DeviceChild](https://msdn.microsoft.com/library/Dn788651(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12Fence](https://msdn.microsoft.com/library/Dn899188(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12GraphicsCommandList](https://msdn.microsoft.com/library/Dn903537(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12Heap](https://msdn.microsoft.com/library/Dn788687(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12InfoQueue](https://msdn.microsoft.com/library/Dn950163(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12LibraryReflection](https://msdn.microsoft.com/library/Dn933676(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12Object](https://msdn.microsoft.com/library/Dn788699(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12Pageable](https://msdn.microsoft.com/library/Dn788704(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12PipelineState](https://msdn.microsoft.com/library/Dn788705(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12QueryHeap](https://msdn.microsoft.com/library/Dn891447(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12Resource](https://msdn.microsoft.com/library/Dn788709(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12RootSignature](https://msdn.microsoft.com/library/Dn788714(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12RootSignatureDeserializer](https://msdn.microsoft.com/library/Dn899192(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3D12ShaderReflection](https://msdn.microsoft.com/library/Dn933679(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [ID3DDeviceContextState](https://msdn.microsoft.com/library/windows/desktop/hh446878.aspx) | Introduced in 10.0.10240. |
-| [ID3DUserDefinedAnnotation](https://msdn.microsoft.com/library/windows/desktop/hh446881.aspx) | Introduced in 10.0.10240. |
-| [IDeviceIoControl](https://msdn.microsoft.com/library/windows/desktop/hh404258.aspx) | Introduced in 10.0.10240. |
-| [IDeviceRequestCompletionCallback](https://msdn.microsoft.com/library/windows/desktop/hh404262.aspx) | Introduced in 10.0.10240. |
+| [ID2D1AnalysisTransform](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1analysistransform) | Introduced in 10.0.10240. |
+| [ID2D1Bitmap](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) | Introduced in 10.0.10240. |
+| [ID2D1Bitmap1](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1bitmap1) | Introduced in 10.0.10240. |
+| [ID2D1BitmapBrush](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush) | Introduced in 10.0.10240. |
+| [ID2D1BitmapRenderTarget](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmaprendertarget) | Introduced in 10.0.10240. |
+| [ID2D1BlendTransform](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1blendtransform) | Introduced in 10.0.10240. |
+| [ID2D1BorderTransform](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1bordertransform) | Introduced in 10.0.10240. |
+| [ID2D1BoundsAdjustmentTransform](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1boundsadjustmenttransform) | Introduced in 10.0.10240. |
+| [ID2D1Brush](/windows/win32/api/d2d1/nn-d2d1-id2d1brush) | Introduced in 10.0.10240. |
+| [ID2D1ColorContext](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1colorcontext) | Introduced in 10.0.10240. |
+| [ID2D1CommandList](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1commandlist) | Introduced in 10.0.10240. |
+| [ID2D1CommandSink](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1commandsink) | Introduced in 10.0.10240. |
+| [ID2D1CommandSink1](/windows/win32/api/d2d1_2/nn-d2d1_2-id2d1commandsink1) | Introduced in 10.0.10240. |
+| [ID2D1CommandSink2](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1commandsink2) | Introduced in 10.0.10240. |
+| [ID2D1ComputeInfo](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1computeinfo) | Introduced in 10.0.10240. |
+| [ID2D1ComputeTransform](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1computetransform) | Introduced in 10.0.10240. |
+| [ID2D1ConcreteTransform](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1concretetransform) | Introduced in 10.0.10240. |
+| [ID2D1DCRenderTarget](/windows/win32/api/d2d1/nn-d2d1-id2d1dcrendertarget) | Introduced in 10.0.10240. |
+| [ID2D1Device](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1device) | Introduced in 10.0.10240. |
+| [ID2D1Device1](/windows/win32/api/d2d1_2/nn-d2d1_2-id2d1device1) | Introduced in 10.0.10240. |
+| [ID2D1Device2](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1device2) | Introduced in 10.0.10240. |
+| [ID2D1DeviceContext](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) | Introduced in 10.0.10240. |
+| [ID2D1DeviceContext1](/windows/win32/api/d2d1_2/nn-d2d1_2-id2d1devicecontext1) | Introduced in 10.0.10240. |
+| [ID2D1DeviceContext2](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2) | Introduced in 10.0.10240. |
+| [ID2D1DrawInfo](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1drawinfo) | Introduced in 10.0.10240. |
+| [ID2D1DrawingStateBlock](/windows/win32/api/d2d1/nn-d2d1-id2d1drawingstateblock) | Introduced in 10.0.10240. |
+| [ID2D1DrawingStateBlock1](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1drawingstateblock1) | Introduced in 10.0.10240. |
+| [ID2D1DrawTransform](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1drawtransform) | Introduced in 10.0.10240. |
+| [ID2D1Effect](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1effect) | Introduced in 10.0.10240. |
+| [ID2D1EffectContext](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext) | Introduced in 10.0.10240. |
+| [ID2D1EffectContext1](/windows/win32/api/d2d1effectauthor_1/nn-d2d1effectauthor_1-id2d1effectcontext1) | Introduced in 10.0.10240. |
+| [ID2D1EffectImpl](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectimpl) | Introduced in 10.0.10240. |
+| [ID2D1EllipseGeometry](/windows/win32/api/d2d1/nn-d2d1-id2d1ellipsegeometry) | Introduced in 10.0.10240. |
+| [ID2D1Factory](/windows/win32/api/d2d1/nn-d2d1-id2d1factory) | Introduced in 10.0.10240. |
+| [ID2D1Factory1](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1factory1) | Introduced in 10.0.10240. |
+| [ID2D1Factory2](/windows/win32/api/d2d1_2/nn-d2d1_2-id2d1factory2) | Introduced in 10.0.10240. |
+| [ID2D1Factory3](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1factory3) | Introduced in 10.0.10240. |
+| [ID2D1GdiMetafile](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1gdimetafile) | Introduced in 10.0.10240. |
+| [ID2D1GdiMetafile1](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1gdimetafile1) | Introduced in 10.0.10240. |
+| [ID2D1GdiMetafileSink](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1gdimetafilesink) | Introduced in 10.0.10240. |
+| [ID2D1GdiMetafileSink1](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1gdimetafilesink1) | Introduced in 10.0.10240. |
+| [ID2D1Geometry](/windows/win32/api/d2d1/nn-d2d1-id2d1geometry) | Introduced in 10.0.10240. |
+| [ID2D1GeometryGroup](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrygroup) | Introduced in 10.0.10240. |
+| [ID2D1GeometryRealization](/windows/win32/api/d2d1_2/nn-d2d1_2-id2d1geometryrealization) | Introduced in 10.0.10240. |
+| [ID2D1GeometrySink](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink) | Introduced in 10.0.10240. |
+| [ID2D1GradientMesh](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1gradientmesh) | Introduced in 10.0.10240. |
+| [ID2D1GradientStopCollection](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection) | Introduced in 10.0.10240. |
+| [ID2D1GradientStopCollection1](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1gradientstopcollection1) | Introduced in 10.0.10240. |
+| [ID2D1HwndRenderTarget](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) | Introduced in 10.0.10240. |
+| [ID2D1Image](/windows/win32/api/d2d1/nn-d2d1-id2d1image) | Introduced in 10.0.10240. |
+| [ID2D1ImageBrush](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1imagebrush) | Introduced in 10.0.10240. |
+| [ID2D1ImageSource](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1imagesource) | Introduced in 10.0.10240. |
+| [ID2D1ImageSourceFromWic](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1imagesourcefromwic) | Introduced in 10.0.10240. |
+| [ID2D1Ink](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1ink) | Introduced in 10.0.10240. |
+| [ID2D1InkStyle](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1inkstyle) | Introduced in 10.0.10240. |
+| [ID2D1Layer](/windows/win32/api/d2d1/nn-d2d1-id2d1layer) | Introduced in 10.0.10240. |
+| [ID2D1LinearGradientBrush](/windows/win32/api/d2d1/nn-d2d1-id2d1lineargradientbrush) | Introduced in 10.0.10240. |
+| [ID2D1LookupTable3D](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1lookuptable3d) | Introduced in 10.0.10240. |
+| [ID2D1Mesh](/windows/win32/api/d2d1/nn-d2d1-id2d1mesh) | Introduced in 10.0.10240. |
+| [ID2D1Multithread](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1multithread) | Introduced in 10.0.10240. |
+| [ID2D1OffsetTransform](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1offsettransform) | Introduced in 10.0.10240. |
+| [ID2D1PathGeometry](/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry) | Introduced in 10.0.10240. |
+| [ID2D1PathGeometry1](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1pathgeometry1) | Introduced in 10.0.10240. |
+| [ID2D1PrintControl](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1printcontrol) | Introduced in 10.0.10240. |
+| [ID2D1Properties](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1properties) | Introduced in 10.0.10240. |
+| [ID2D1RadialGradientBrush](/windows/win32/api/d2d1/nn-d2d1-id2d1radialgradientbrush) | Introduced in 10.0.10240. |
+| [ID2D1RectangleGeometry](/windows/win32/api/d2d1/nn-d2d1-id2d1rectanglegeometry) | Introduced in 10.0.10240. |
+| [ID2D1RenderInfo](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1renderinfo) | Introduced in 10.0.10240. |
+| [ID2D1RenderTarget](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget) | Introduced in 10.0.10240. |
+| [ID2D1Resource](/windows/win32/api/d2d1/nn-d2d1-id2d1resource) | Introduced in 10.0.10240. |
+| [ID2D1ResourceTexture](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1resourcetexture) | Introduced in 10.0.10240. |
+| [ID2D1RoundedRectangleGeometry](/windows/win32/api/d2d1/nn-d2d1-id2d1roundedrectanglegeometry) | Introduced in 10.0.10240. |
+| [ID2D1SimplifiedGeometrySink](/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink) | Introduced in 10.0.10240. |
+| [ID2D1SolidColorBrush](/windows/win32/api/d2d1/nn-d2d1-id2d1solidcolorbrush) | Introduced in 10.0.10240. |
+| [ID2D1SourceTransform](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1sourcetransform) | Introduced in 10.0.10240. |
+| [ID2D1StrokeStyle](/windows/win32/api/d2d1/nn-d2d1-id2d1strokestyle) | Introduced in 10.0.10240. |
+| [ID2D1StrokeStyle1](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1strokestyle1) | Introduced in 10.0.10240. |
+| [ID2D1TessellationSink](/windows/win32/api/d2d1/nn-d2d1-id2d1tessellationsink) | Introduced in 10.0.10240. |
+| [ID2D1Transform](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transform) | Introduced in 10.0.10240. |
+| [ID2D1TransformedGeometry](/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry) | Introduced in 10.0.10240. |
+| [ID2D1TransformedImageSource](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1transformedimagesource) | Introduced in 10.0.10240. |
+| [ID2D1TransformGraph](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformgraph) | Introduced in 10.0.10240. |
+| [ID2D1TransformNode](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformnode) | Introduced in 10.0.10240. |
+| [ID2D1VertexBuffer](/windows/win32/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1vertexbuffer) | Introduced in 10.0.10240. |
+| [ID3D10Blob](/windows/win32/api/d3dcommon/nn-d3dcommon-id3d10blob) | Introduced in 10.0.10240. |
+| [ID3D10Multithread](/windows/win32/api/d3d10/nn-d3d10-id3d10multithread) | Introduced in 10.0.10240. |
+| [ID3D11Asynchronous](/windows/win32/api/d3d11/nn-d3d11-id3d11asynchronous) | Introduced in 10.0.10240. |
+| [ID3D11AuthenticatedChannel](/windows/win32/api/d3d11/nn-d3d11-id3d11authenticatedchannel) | Introduced in 10.0.10240. |
+| [ID3D11BlendState](/windows/win32/api/d3d11/nn-d3d11-id3d11blendstate) | Introduced in 10.0.10240. |
+| [ID3D11BlendState1](/windows/win32/api/d3d11_1/nn-d3d11_1-id3d11blendstate1) | Introduced in 10.0.10240. |
+| [ID3D11Buffer](/windows/win32/api/d3d11/nn-d3d11-id3d11buffer) | Introduced in 10.0.10240. |
+| [ID3D11ClassInstance](/windows/win32/api/d3d11/nn-d3d11-id3d11classinstance) | Introduced in 10.0.10240. |
+| [ID3D11ClassLinkage](/windows/win32/api/d3d11/nn-d3d11-id3d11classlinkage) | Introduced in 10.0.10240. |
+| [ID3D11CommandList](/windows/win32/api/d3d11/nn-d3d11-id3d11commandlist) | Introduced in 10.0.10240. |
+| [ID3D11ComputeShader](/windows/win32/api/d3d11/nn-d3d11-id3d11computeshader) | Introduced in 10.0.10240. |
+| [ID3D11Counter](/windows/win32/api/d3d11/nn-d3d11-id3d11counter) | Introduced in 10.0.10240. |
+| [ID3D11CryptoSession](/windows/win32/api/d3d11/nn-d3d11-id3d11cryptosession) | Introduced in 10.0.10240. |
+| [ID3D11Debug](/windows/win32/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11debug) | Introduced in 10.0.10240. |
+| [ID3D11DepthStencilState](/windows/win32/api/d3d11/nn-d3d11-id3d11depthstencilstate) | Introduced in 10.0.10240. |
+| [ID3D11DepthStencilView](/windows/win32/api/d3d11/nn-d3d11-id3d11depthstencilview) | Introduced in 10.0.10240. |
+| [ID3D11Device](/windows/win32/api/d3d11/nn-d3d11-id3d11device) | Introduced in 10.0.10240. |
+| [ID3D11Device1](/windows/win32/api/d3d11_1/nn-d3d11_1-id3d11device1) | Introduced in 10.0.10240. |
+| [ID3D11Device2](/windows/win32/api/d3d11_2/nn-d3d11_2-id3d11device2) | Introduced in 10.0.10240. |
+| [ID3D11DeviceChild](/windows/win32/api/d3d11/nn-d3d11-id3d11devicechild) | Introduced in 10.0.10240. |
+| [ID3D11DeviceContext](/windows/win32/api/d3d11/nn-d3d11-id3d11devicecontext) | Introduced in 10.0.10240. |
+| [ID3D11DeviceContext1](/windows/win32/api/d3d11_1/nn-d3d11_1-id3d11devicecontext1) | Introduced in 10.0.10240. |
+| [ID3D11DeviceContext2](/windows/win32/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2) | Introduced in 10.0.10240. |
+| [ID3D11DeviceContext3](/windows/win32/api/d3d11_3/nn-d3d11_3-id3d11devicecontext3) | Introduced in 10.0.10240. |
+| [ID3D11Device3](/windows/win32/api/d3d11_3/nn-d3d11_3-id3d11device3) | Introduced in 10.0.10240. |
+| [ID3D11Texture2D1](/windows/win32/api/d3d11_3/nn-d3d11_3-id3d11texture2d1) | Introduced in 10.0.10240. |
+| [ID3D11Texture3D1](/windows/win32/api/d3d11_3/nn-d3d11_3-id3d11texture3d1) | Introduced in 10.0.10240. |
+| [ID3D11DomainShader](/windows/win32/api/d3d11/nn-d3d11-id3d11domainshader) | Introduced in 10.0.10240. |
+| [ID3D11FunctionLinkingGraph](/windows/win32/api/d3d11shader/nn-d3d11shader-id3d11functionlinkinggraph) | Introduced in 10.0.10240. |
+| [ID3D11GeometryShader](/windows/win32/api/d3d11/nn-d3d11-id3d11geometryshader) | Introduced in 10.0.10240. |
+| [ID3D11HullShader](/windows/win32/api/d3d11/nn-d3d11-id3d11hullshader) | Introduced in 10.0.10240. |
+| [ID3D11InfoQueue](/windows/win32/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11infoqueue) | Introduced in 10.0.10240. |
+| [ID3D11InputLayout](/windows/win32/api/d3d11/nn-d3d11-id3d11inputlayout) | Introduced in 10.0.10240. |
+| [ID3D11LibraryReflection](/windows/win32/api/d3d11shader/nn-d3d11shader-id3d11libraryreflection) | Introduced in 10.0.10240. |
+| [ID3D11Linker](/windows/win32/api/d3d11shader/nn-d3d11shader-id3d11linker) | Introduced in 10.0.10240. |
+| [ID3D11LinkingNode](/windows/win32/api/d3d11shader/nn-d3d11shader-id3d11linkingnode) | Introduced in 10.0.10240. |
+| [ID3D11Module](/windows/win32/api/d3d11shader/nn-d3d11shader-id3d11module) | Introduced in 10.0.10240. |
+| [ID3D11ModuleInstance](/windows/win32/api/d3d11shader/nn-d3d11shader-id3d11moduleinstance) | Introduced in 10.0.10240. |
+| [ID3D11On12Device](/windows/win32/api/d3d11on12/nn-d3d11on12-id3d11on12device) | Introduced in 10.0.10240. |
+| [ID3D11PixelShader](/windows/win32/api/d3d11/nn-d3d11-id3d11pixelshader) | Introduced in 10.0.10240. |
+| [ID3D11Predicate](/windows/win32/api/d3d11/nn-d3d11-id3d11predicate) | Introduced in 10.0.10240. |
+| [ID3D11Query](/windows/win32/api/d3d11/nn-d3d11-id3d11query) | Introduced in 10.0.10240. |
+| [ID3D11Query1](/windows/win32/api/d3d11_3/nn-d3d11_3-id3d11query1) | Introduced in 10.0.10240. |
+| [ID3D11RasterizerState](/windows/win32/api/d3d11/nn-d3d11-id3d11rasterizerstate) | Introduced in 10.0.10240. |
+| [ID3D11RasterizerState1](/windows/win32/api/d3d11_1/nn-d3d11_1-id3d11rasterizerstate1) | Introduced in 10.0.10240. |
+| [ID3D11RasterizerState2](/windows/win32/api/d3d11_3/nn-d3d11_3-id3d11rasterizerstate2) | Introduced in 10.0.10240. |
+| [ID3D11RefDefaultTrackingOptions](/windows/win32/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11refdefaulttrackingoptions) | Introduced in 10.0.10240. |
+| [ID3D11RefTrackingOptions](/windows/win32/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11reftrackingoptions) | Introduced in 10.0.10240. |
+| [ID3D11RenderTargetView](/windows/win32/api/d3d11/nn-d3d11-id3d11rendertargetview) | Introduced in 10.0.10240. |
+| [ID3D11RenderTargetView1](/windows/win32/api/d3d11_3/nn-d3d11_3-id3d11rendertargetview1) | Introduced in 10.0.10240. |
+| [ID3D11Resource](/windows/win32/api/d3d11/nn-d3d11-id3d11resource) | Introduced in 10.0.10240. |
+| [ID3D11SamplerState](/windows/win32/api/d3d11/nn-d3d11-id3d11samplerstate) | Introduced in 10.0.10240. |
+| [ID3D11ShaderReflection](/windows/win32/api/d3d11shader/nn-d3d11shader-id3d11shaderreflection) | Introduced in 10.0.10240. |
+| [ID3D11ShaderReflectionConstantBuffer](/windows/win32/api/d3d11shader/nn-d3d11shader-id3d11shaderreflectionconstantbuffer) | Introduced in 10.0.10240. |
+| [ID3D11ShaderReflectionType](/windows/win32/api/d3d11shader/nn-d3d11shader-id3d11shaderreflectiontype) | Introduced in 10.0.10240. |
+| [ID3D11ShaderReflectionVariable](/windows/win32/api/d3d11shader/nn-d3d11shader-id3d11shaderreflectionvariable) | Introduced in 10.0.10240. |
+| [ID3D11ShaderResourceView](/windows/win32/api/d3d11/nn-d3d11-id3d11shaderresourceview) | Introduced in 10.0.10240. |
+| [ID3D11ShaderResourceView1](/windows/win32/api/d3d11_3/nn-d3d11_3-id3d11shaderresourceview1) | Introduced in 10.0.10240. |
+| [ID3D11ShaderTrace](/windows/win32/api/d3d11shadertracing/nn-d3d11shadertracing-id3d11shadertrace) | Introduced in 10.0.10240. |
+| [ID3D11ShaderTraceFactory](/windows/win32/api/d3d11shadertracing/nn-d3d11shadertracing-id3d11shadertracefactory) | Introduced in 10.0.10240. |
+| [ID3D11Texture1D](/windows/win32/api/d3d11/nn-d3d11-id3d11texture1d) | Introduced in 10.0.10240. |
+| [ID3D11Texture2D](/windows/win32/api/d3d11/nn-d3d11-id3d11texture2d) | Introduced in 10.0.10240. |
+| [ID3D11Texture3D](/windows/win32/api/d3d11/nn-d3d11-id3d11texture3d) | Introduced in 10.0.10240. |
+| [ID3D11TracingDevice](/windows/win32/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11tracingdevice) | Introduced in 10.0.10240. |
+| [ID3D11UnorderedAccessView](/windows/win32/api/d3d11/nn-d3d11-id3d11unorderedaccessview) | Introduced in 10.0.10240. |
+| [ID3D11UnorderedAccessView1](/windows/win32/api/d3d11_3/nn-d3d11_3-id3d11unorderedaccessview1) | Introduced in 10.0.10240. |
+| [ID3D11VertexShader](/windows/win32/api/d3d11/nn-d3d11-id3d11vertexshader) | Introduced in 10.0.10240. |
+| [ID3D11VideoContext](/windows/win32/api/d3d11/nn-d3d11-id3d11videocontext) | Introduced in 10.0.10240. |
+| [ID3D11VideoContext1](/windows/win32/api/d3d11_1/nn-d3d11_1-id3d11videocontext1) | Introduced in 10.0.10240. |
+| [ID3D11VideoDecoder](/windows/win32/api/d3d11/nn-d3d11-id3d11videodecoder) | Introduced in 10.0.10240. |
+| [ID3D11VideoDecoderOutputView](/windows/win32/api/d3d11/nn-d3d11-id3d11videodecoderoutputview) | Introduced in 10.0.10240. |
+| [ID3D11VideoDevice](/windows/win32/api/d3d11/nn-d3d11-id3d11videodevice) | Introduced in 10.0.10240. |
+| [ID3D11VideoDevice1](/windows/win32/api/d3d11_1/nn-d3d11_1-id3d11videodevice1) | Introduced in 10.0.10240. |
+| [ID3D11VideoProcessor](/windows/win32/api/d3d11/nn-d3d11-id3d11videoprocessor) | Introduced in 10.0.10240. |
+| [ID3D11VideoProcessorEnumerator](/windows/win32/api/d3d11/nn-d3d11-id3d11videoprocessorenumerator) | Introduced in 10.0.10240. |
+| [ID3D11VideoProcessorEnumerator1](/windows/win32/api/d3d11_1/nn-d3d11_1-id3d11videoprocessorenumerator1) | Introduced in 10.0.10240. |
+| [ID3D11VideoProcessorInputView](/windows/win32/api/d3d11/nn-d3d11-id3d11videoprocessorinputview) | Introduced in 10.0.10240. |
+| [ID3D11VideoProcessorOutputView](/windows/win32/api/d3d11/nn-d3d11-id3d11videoprocessoroutputview) | Introduced in 10.0.10240. |
+| [ID3D11View](/windows/win32/api/d3d11/nn-d3d11-id3d11view) | Introduced in 10.0.10240. |
+| [ID3D12CommandAllocator](/windows/win32/api/d3d12/nn-d3d12-id3d12commandallocator) | Introduced in 10.0.10240. |
+| [ID3D12CommandList](/windows/win32/api/d3d12/nn-d3d12-id3d12commandlist) | Introduced in 10.0.10240. |
+| [ID3D12CommandQueue](/windows/win32/api/d3d12/nn-d3d12-id3d12commandqueue) | Introduced in 10.0.10240. |
+| [ID3D12CommandSignature](/windows/win32/api/d3d12/nn-d3d12-id3d12commandsignature) | Introduced in 10.0.10240. |
+| [ID3D12Debug](/windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug) | Introduced in 10.0.10240. |
+| [ID3D12DebugCommandList](/windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugcommandlist) | Introduced in 10.0.10240. |
+| [ID3D12DebugCommandQueue](/windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugcommandqueue) | Introduced in 10.0.10240. |
+| [ID3D12DebugDevice](/windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugdevice) | Introduced in 10.0.10240. |
+| [ID3D12DescriptorHeap](/windows/win32/api/d3d12/nn-d3d12-id3d12descriptorheap) | Introduced in 10.0.10240. |
+| [ID3D12Device](/windows/win32/api/d3d12/nn-d3d12-id3d12device) | Introduced in 10.0.10240. |
+| [ID3D12DeviceChild](/windows/win32/api/d3d12/nn-d3d12-id3d12devicechild) | Introduced in 10.0.10240. |
+| [ID3D12Fence](/windows/win32/api/d3d12/nn-d3d12-id3d12fence) | Introduced in 10.0.10240. |
+| [ID3D12GraphicsCommandList](/windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist) | Introduced in 10.0.10240. |
+| [ID3D12Heap](/windows/win32/api/d3d12/nn-d3d12-id3d12heap) | Introduced in 10.0.10240. |
+| [ID3D12InfoQueue](/windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12infoqueue) | Introduced in 10.0.10240. |
+| [ID3D12LibraryReflection](/windows/win32/api/d3d12shader/nn-d3d12shader-id3d12libraryreflection) | Introduced in 10.0.10240. |
+| [ID3D12Object](/windows/win32/api/d3d12/nn-d3d12-id3d12object) | Introduced in 10.0.10240. |
+| [ID3D12Pageable](/windows/win32/api/d3d12/nn-d3d12-id3d12pageable) | Introduced in 10.0.10240. |
+| [ID3D12PipelineState](/windows/win32/api/d3d12/nn-d3d12-id3d12pipelinestate) | Introduced in 10.0.10240. |
+| [ID3D12QueryHeap](/windows/win32/api/d3d12/nn-d3d12-id3d12queryheap) | Introduced in 10.0.10240. |
+| [ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12resource) | Introduced in 10.0.10240. |
+| [ID3D12RootSignature](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignature) | Introduced in 10.0.10240. |
+| [ID3D12RootSignatureDeserializer](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignaturedeserializer) | Introduced in 10.0.10240. |
+| [ID3D12ShaderReflection](/windows/win32/api/d3d12shader/nn-d3d12shader-id3d12shaderreflection) | Introduced in 10.0.10240. |
+| [ID3DDeviceContextState](/windows/win32/api/d3d11_1/nn-d3d11_1-id3ddevicecontextstate) | Introduced in 10.0.10240. |
+| [ID3DUserDefinedAnnotation](/windows/win32/api/d3d11_1/nn-d3d11_1-id3duserdefinedannotation) | Introduced in 10.0.10240. |
+| [IDeviceIoControl](/windows/win32/api/deviceaccess/nn-deviceaccess-ideviceiocontrol) | Introduced in 10.0.10240. |
+| [IDeviceRequestCompletionCallback](/windows/win32/api/deviceaccess/nn-deviceaccess-idevicerequestcompletioncallback) | Introduced in 10.0.10240. |
 | IDirect3DDxgiInterfaceAccess | Introduced in 10.0.10240. |
-| [IDirectWriterLock](https://msdn.microsoft.com/library/windows/desktop/aa379158.aspx) | Introduced in 10.0.10240. |
-| [IDispatch](https://msdn.microsoft.com/library/windows/desktop/ms221608.aspx) | Introduced in 10.0.10240. |
-| [IDockProvider](https://msdn.microsoft.com/library/windows/desktop/ee671239.aspx) | Introduced in 10.0.10240. |
-| [IDragProvider](https://msdn.microsoft.com/library/windows/desktop/hh707338.aspx) | Introduced in 10.0.10240. |
-| [IDropTargetProvider](https://msdn.microsoft.com/library/windows/desktop/hh707345.aspx) | Introduced in 10.0.10240. |
-| [IDvdControl2](https://msdn.microsoft.com/library/windows/desktop/dd389895.aspx) | Introduced in 10.0.10240. |
-| [IDvdInfo2](https://msdn.microsoft.com/library/windows/desktop/dd376432.aspx) | Introduced in 10.0.10240. |
-| [IDWriteBitmapRenderTarget](https://msdn.microsoft.com/library/windows/desktop/dd368165.aspx) | Introduced in 10.0.10240. |
-| [IDWriteBitmapRenderTarget1](https://msdn.microsoft.com/library/windows/desktop/hh780398.aspx) | Introduced in 10.0.10240. |
-| [IDWriteColorGlyphRunEnumerator](https://msdn.microsoft.com/library/windows/desktop/dn280445.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFactory](https://msdn.microsoft.com/library/windows/desktop/dd368183.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFactory1](https://msdn.microsoft.com/library/windows/desktop/hh780401.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFactory2](https://msdn.microsoft.com/library/windows/desktop/dn280448.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFactory3](https://msdn.microsoft.com/library/windows/desktop/dn890753.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFont](https://msdn.microsoft.com/library/windows/desktop/dd368213.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFont1](https://msdn.microsoft.com/library/windows/desktop/hh780404.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFont2](https://msdn.microsoft.com/library/windows/desktop/dn280452.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFont3](https://msdn.microsoft.com/library/windows/desktop/dn890766.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFontCollection](https://msdn.microsoft.com/library/windows/desktop/dd368214.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFontCollection1](https://msdn.microsoft.com/library/windows/desktop/dn933224.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFontCollectionLoader](https://msdn.microsoft.com/library/windows/desktop/dd368215.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFontDownloadListener](https://msdn.microsoft.com/library/windows/desktop/dn890775.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFontDownloadQueue](https://msdn.microsoft.com/library/windows/desktop/dn890778.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFontFace](https://msdn.microsoft.com/library/windows/desktop/dd370983.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFontFace1](https://msdn.microsoft.com/library/windows/desktop/hh780409.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFontFace2](https://msdn.microsoft.com/library/windows/desktop/dn280454.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFontFace3](https://msdn.microsoft.com/library/windows/desktop/dn894561.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFontFaceReference](https://msdn.microsoft.com/library/windows/desktop/dn894576.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFontFallback](https://msdn.microsoft.com/library/windows/desktop/dn280474.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFontFallbackBuilder](https://msdn.microsoft.com/library/windows/desktop/dn280476.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFontFamily](https://msdn.microsoft.com/library/windows/desktop/dd371042.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFontFamily1](https://msdn.microsoft.com/library/windows/desktop/dn894590.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFontFile](https://msdn.microsoft.com/library/windows/desktop/dd371060.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFontFileEnumerator](https://msdn.microsoft.com/library/windows/desktop/dd371063.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFontFileLoader](https://msdn.microsoft.com/library/windows/desktop/dd371075.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFontFileStream](https://msdn.microsoft.com/library/windows/desktop/dd371081.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFontList](https://msdn.microsoft.com/library/windows/desktop/dd371120.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFontList1](https://msdn.microsoft.com/library/windows/desktop/dn894594.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFontSet](https://msdn.microsoft.com/library/windows/desktop/dn933235.aspx) | Introduced in 10.0.10240. |
-| [IDWriteFontSetBuilder](https://msdn.microsoft.com/library/windows/desktop/dn933236.aspx) | Introduced in 10.0.10240. |
-| [IDWriteGdiInterop](https://msdn.microsoft.com/library/windows/desktop/dd371172.aspx) | Introduced in 10.0.10240. |
-| [IDWriteGdiInterop1](https://msdn.microsoft.com/library/windows/desktop/dn958415.aspx) | Introduced in 10.0.10240. |
-| [IDWriteGlyphRunAnalysis](https://msdn.microsoft.com/library/windows/desktop/dd371188.aspx) | Introduced in 10.0.10240. |
-| [IDWriteInlineObject](https://msdn.microsoft.com/library/windows/desktop/dd371221.aspx) | Introduced in 10.0.10240. |
-| [IDWriteLocalFontFileLoader](https://msdn.microsoft.com/library/windows/desktop/dd371238.aspx) | Introduced in 10.0.10240. |
-| [IDWriteLocalizedStrings](https://msdn.microsoft.com/library/windows/desktop/dd371250.aspx) | Introduced in 10.0.10240. |
-| [IDWriteNumberSubstitution](https://msdn.microsoft.com/library/windows/desktop/dd371271.aspx) | Introduced in 10.0.10240. |
-| [IDWritePixelSnapping](https://msdn.microsoft.com/library/windows/desktop/dd371274.aspx) | Introduced in 10.0.10240. |
-| [IDWriteRenderingParams](https://msdn.microsoft.com/library/windows/desktop/dd371285.aspx) | Introduced in 10.0.10240. |
-| [IDWriteRenderingParams1](https://msdn.microsoft.com/library/windows/desktop/hh780422.aspx) | Introduced in 10.0.10240. |
-| [IDWriteRenderingParams2](https://msdn.microsoft.com/library/windows/desktop/dn900387.aspx) | Introduced in 10.0.10240. |
-| [IDWriteRenderingParams3](https://msdn.microsoft.com/library/windows/desktop/dn900389.aspx) | Introduced in 10.0.10240. |
-| [IDWriteStringList](https://msdn.microsoft.com/library/windows/desktop/dn958421.aspx) | Introduced in 10.0.10240. |
-| [IDWriteTextAnalysisSink](https://msdn.microsoft.com/library/windows/desktop/dd371303.aspx) | Introduced in 10.0.10240. |
-| [IDWriteTextAnalysisSink1](https://msdn.microsoft.com/library/windows/desktop/hh780424.aspx) | Introduced in 10.0.10240. |
-| [IDWriteTextAnalysisSource](https://msdn.microsoft.com/library/windows/desktop/dd371318.aspx) | Introduced in 10.0.10240. |
-| [IDWriteTextAnalysisSource1](https://msdn.microsoft.com/library/windows/desktop/hh780426.aspx) | Introduced in 10.0.10240. |
-| [IDWriteTextAnalyzer](https://msdn.microsoft.com/library/windows/desktop/dd316607.aspx) | Introduced in 10.0.10240. |
-| [IDWriteTextAnalyzer1](https://msdn.microsoft.com/library/windows/desktop/hh780428.aspx) | Introduced in 10.0.10240. |
-| [IDWriteTextAnalyzer2](https://msdn.microsoft.com/library/windows/desktop/dn280483.aspx) | Introduced in 10.0.10240. |
-| [IDWriteTextFormat](https://msdn.microsoft.com/library/windows/desktop/dd316628.aspx) | Introduced in 10.0.10240. |
-| [IDWriteTextFormat1](https://msdn.microsoft.com/library/windows/desktop/dn280485.aspx) | Introduced in 10.0.10240. |
-| [IDWriteTextFormat2](https://msdn.microsoft.com/library/windows/desktop/mt574121.aspx) | Introduced in 10.0.10240. |
-| [IDWriteTextLayout](https://msdn.microsoft.com/library/windows/desktop/dd316718.aspx) | Introduced in 10.0.10240. |
-| [IDWriteTextLayout1](https://msdn.microsoft.com/library/windows/desktop/hh780438.aspx) | Introduced in 10.0.10240. |
-| [IDWriteTextLayout2](https://msdn.microsoft.com/library/windows/desktop/dn280491.aspx) | Introduced in 10.0.10240. |
-| [IDWriteTextLayout3](https://msdn.microsoft.com/library/windows/desktop/dn900405.aspx) | Introduced in 10.0.10240. |
-| [IDWriteTextRenderer](https://msdn.microsoft.com/library/windows/desktop/dd371523.aspx) | Introduced in 10.0.10240. |
-| [IDWriteTextRenderer1](https://msdn.microsoft.com/library/windows/desktop/dn280513.aspx) | Introduced in 10.0.10240. |
-| [IDWriteTypography](https://msdn.microsoft.com/library/windows/desktop/dd371541.aspx) | Introduced in 10.0.10240. |
-| [IDXGIAdapter](https://msdn.microsoft.com/library/windows/desktop/bb174523.aspx) | Introduced in 10.0.10240. |
-| [IDXGIAdapter1](https://msdn.microsoft.com/library/windows/desktop/ff471329.aspx) | Introduced in 10.0.10240. |
-| [IDXGIAdapter2](https://msdn.microsoft.com/library/windows/desktop/hh404537.aspx) | Introduced in 10.0.10240. |
-| [IDXGIAdapter3](https://msdn.microsoft.com/library/windows/desktop/dn933221.aspx) | Introduced in 10.0.10240. |
-| [IDXGIDebug](https://msdn.microsoft.com/library/windows/desktop/hh780351.aspx) | Introduced in 10.0.10240. |
-| [IDXGIDebug1](https://msdn.microsoft.com/library/windows/desktop/dn457938.aspx) | Introduced in 10.0.10240. |
-| [IDXGIDevice](https://msdn.microsoft.com/library/windows/desktop/bb174527.aspx) | Introduced in 10.0.10240. |
-| [IDXGIDevice1](https://msdn.microsoft.com/library/windows/desktop/ff471331.aspx) | Introduced in 10.0.10240. |
-| [IDXGIDevice2](https://msdn.microsoft.com/library/windows/desktop/hh404543.aspx) | Introduced in 10.0.10240. |
-| [IDXGIDevice3](https://msdn.microsoft.com/library/windows/desktop/dn280345.aspx) | Introduced in 10.0.10240. |
-| [IDXGIDeviceSubObject](https://msdn.microsoft.com/library/windows/desktop/bb174528.aspx) | Introduced in 10.0.10240. |
-| [IDXGIFactory](https://msdn.microsoft.com/library/windows/desktop/bb174535.aspx) | Introduced in 10.0.10240. |
-| [IDXGIFactory1](https://msdn.microsoft.com/library/windows/desktop/ff471335.aspx) | Introduced in 10.0.10240. |
-| [IDXGIFactory2](https://msdn.microsoft.com/library/windows/desktop/hh404556.aspx) | Introduced in 10.0.10240. |
-| [IDXGIFactory3](https://msdn.microsoft.com/library/windows/desktop/dn457942.aspx) | Introduced in 10.0.10240. |
-| [IDXGIFactory4](https://msdn.microsoft.com/library/windows/desktop/mt427785.aspx) | Introduced in 10.0.10240. |
-| [IDXGIInfoQueue](https://msdn.microsoft.com/library/windows/desktop/hh780355.aspx) | Introduced in 10.0.10240. |
-| [IDXGIKeyedMutex](https://msdn.microsoft.com/library/windows/desktop/ff471338.aspx) | Introduced in 10.0.10240. |
-| [IDXGIObject](https://msdn.microsoft.com/library/windows/desktop/bb174541.aspx) | Introduced in 10.0.10240. |
-| [IDXGIOutput](https://msdn.microsoft.com/library/windows/desktop/bb174546.aspx) | Introduced in 10.0.10240. |
-| [IDXGIOutput1](https://msdn.microsoft.com/library/windows/desktop/hh404597.aspx) | Introduced in 10.0.10240. |
-| [IDXGIOutput2](https://msdn.microsoft.com/library/windows/desktop/dn280410.aspx) | Introduced in 10.0.10240. |
-| [IDXGIOutput3](https://msdn.microsoft.com/library/windows/desktop/dn903669.aspx) | Introduced in 10.0.10240. |
-| [IDXGIOutput4](https://msdn.microsoft.com/library/windows/desktop/dn903671.aspx) | Introduced in 10.0.10240. |
-| [IDXGIResource](https://msdn.microsoft.com/library/windows/desktop/bb174560.aspx) | Introduced in 10.0.10240. |
-| [IDXGIResource1](https://msdn.microsoft.com/library/windows/desktop/hh404625.aspx) | Introduced in 10.0.10240. |
-| [IDXGISurface](https://msdn.microsoft.com/library/windows/desktop/bb174565.aspx) | Introduced in 10.0.10240. |
-| [IDXGISurface1](https://msdn.microsoft.com/library/windows/desktop/ff471343.aspx) | Introduced in 10.0.10240. |
-| [IDXGISurface2](https://msdn.microsoft.com/library/windows/desktop/hh404628.aspx) | Introduced in 10.0.10240. |
-| [IDXGISwapChain](https://msdn.microsoft.com/library/windows/desktop/bb174569.aspx) | Introduced in 10.0.10240. |
-| [IDXGISwapChain1](https://msdn.microsoft.com/library/windows/desktop/hh404631.aspx) | Introduced in 10.0.10240. |
-| [IDXGISwapChain2](https://msdn.microsoft.com/library/windows/desktop/dn280420.aspx) | Introduced in 10.0.10240. |
-| [IDXGISwapChain3](https://msdn.microsoft.com/library/windows/desktop/dn903673.aspx) | Introduced in 10.0.10240. |
-| [IEditionUpgradeHelper](https://msdn.microsoft.com/library/Mt459283(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [IEnumCodePage](https://msdn.microsoft.com/library/windows/desktop/aa741101.aspx) | Introduced in 10.0.10240. |
-| [IEnumConnectionPoints](https://msdn.microsoft.com/library/windows/desktop/ms688265.aspx) | Introduced in 10.0.10240. |
-| [IEnumConnections](https://msdn.microsoft.com/library/windows/desktop/ms682237.aspx) | Introduced in 10.0.10240. |
-| [IEnumGUID](https://msdn.microsoft.com/library/windows/desktop/ms682393.aspx) | Introduced in 10.0.10240. |
-| [IEnumITfCompositionView](https://msdn.microsoft.com/library/windows/desktop/ms538115.aspx) | Introduced in 10.0.10240. |
-| [IEnumMoniker](https://msdn.microsoft.com/library/windows/desktop/ms692852.aspx) | Introduced in 10.0.10240. |
-| [IEnumPortableDeviceObjectIDs](https://msdn.microsoft.com/library/windows/desktop/dd319350.aspx) | Introduced in 10.0.10240. |
-| [IEnumRfc1766](https://msdn.microsoft.com/library/windows/desktop/aa741095.aspx) | Introduced in 10.0.10240. |
-| [IEnumScript](https://msdn.microsoft.com/library/windows/desktop/aa741082.aspx) | Introduced in 10.0.10240. |
-| [IEnumSpellingError](https://msdn.microsoft.com/library/windows/desktop/hh869751.aspx) | Introduced in 10.0.10240. |
-| [IEnumSTATDATA](https://msdn.microsoft.com/library/windows/desktop/ms688589.aspx) | Introduced in 10.0.10240. |
-| [IEnumSTATPROPSETSTG](https://msdn.microsoft.com/library/windows/desktop/aa379184.aspx) | Introduced in 10.0.10240. |
-| [IEnumSTATPROPSTG](https://msdn.microsoft.com/library/windows/desktop/aa379210.aspx) | Introduced in 10.0.10240. |
-| [IEnumSTATSTG](https://msdn.microsoft.com/library/windows/desktop/aa379217.aspx) | Introduced in 10.0.10240. |
-| [IEnumString](https://msdn.microsoft.com/library/windows/desktop/ms687257.aspx) | Introduced in 10.0.10240. |
-| [IEnumTfCandidates](https://msdn.microsoft.com/library/windows/desktop/ms538125.aspx) | Introduced in 10.0.10240. |
-| [IEnumTfContexts](https://msdn.microsoft.com/library/windows/desktop/ms538135.aspx) | Introduced in 10.0.10240. |
-| [IEnumTfContextViews](https://msdn.microsoft.com/library/windows/desktop/ms538144.aspx) | Introduced in 10.0.10240. |
-| [IEnumTfDisplayAttributeInfo](https://msdn.microsoft.com/library/windows/desktop/ms538154.aspx) | Introduced in 10.0.10240. |
-| [IEnumTfDocumentMgrs](https://msdn.microsoft.com/library/windows/desktop/ms538164.aspx) | Introduced in 10.0.10240. |
-| [IEnumTfFunctionProviders](https://msdn.microsoft.com/library/windows/desktop/ms538172.aspx) | Introduced in 10.0.10240. |
-| [IEnumTfInputProcessorProfiles](https://msdn.microsoft.com/library/windows/desktop/aa380591.aspx) | Introduced in 10.0.10240. |
-| [IEnumTfProperties](https://msdn.microsoft.com/library/windows/desktop/ms538218.aspx) | Introduced in 10.0.10240. |
-| [IEnumTfPropertyValue](https://msdn.microsoft.com/library/windows/desktop/ms538230.aspx) | Introduced in 10.0.10240. |
-| [IEnumTfRanges](https://msdn.microsoft.com/library/windows/desktop/ms538241.aspx) | Introduced in 10.0.10240. |
-| [IEnumTfUIElements](https://msdn.microsoft.com/library/windows/desktop/aa380866.aspx) | Introduced in 10.0.10240. |
-| [IEnumUnknown](https://msdn.microsoft.com/library/windows/desktop/ms683764.aspx) | Introduced in 10.0.10240. |
-| [IEnumVARIANT](https://msdn.microsoft.com/library/windows/desktop/ms221053.aspx) | Introduced in 10.0.10240. |
-| [IExpandCollapseProvider](https://msdn.microsoft.com/library/windows/desktop/ee671242.aspx) | Introduced in 10.0.10240. |
-| [IFillLockBytes](https://msdn.microsoft.com/library/windows/desktop/aa379224.aspx) | Introduced in 10.0.10240. |
-| [IFindReferenceTargetsCallback](https://msdn.microsoft.com/library/windows/desktop/jj542493.aspx) | Introduced in 10.0.10240. |
-| [IGlobalInterfaceTable](https://msdn.microsoft.com/library/windows/desktop/ms678517.aspx) | Introduced in 10.0.10240. |
-| [IGlobalOptions](https://msdn.microsoft.com/library/windows/desktop/aa344211.aspx) | Introduced in 10.0.10240. |
-| [IGridItemProvider](https://msdn.microsoft.com/library/windows/desktop/ee671246.aspx) | Introduced in 10.0.10240. |
-| [IGridProvider](https://msdn.microsoft.com/library/windows/desktop/ee671252.aspx) | Introduced in 10.0.10240. |
-| [IInkD2DRenderer](https://msdn.microsoft.com/library/Mt147263(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [IInspectable](https://msdn.microsoft.com/library/windows/desktop/br205821.aspx) | Introduced in 10.0.10240. |
-| [IInvokeProvider](https://msdn.microsoft.com/library/windows/desktop/ee671256.aspx) | Introduced in 10.0.10240. |
-| [IItemContainerProvider](https://msdn.microsoft.com/library/windows/desktop/ee671258.aspx) | Introduced in 10.0.10240. |
-| [ILanguageExceptionErrorInfo](https://msdn.microsoft.com/library/windows/desktop/dn302120.aspx) | Introduced in 10.0.10240. |
-| [ILayoutStorage](https://msdn.microsoft.com/library/windows/desktop/aa379232.aspx) | Introduced in 10.0.10240. |
-| [ILegacyIAccessibleProvider](https://msdn.microsoft.com/library/windows/desktop/ee671260.aspx) | Introduced in 10.0.10240. |
-| [ILockBytes](https://msdn.microsoft.com/library/windows/desktop/aa379238.aspx) | Introduced in 10.0.10240. |
-| [IMarshal](https://msdn.microsoft.com/library/windows/desktop/ms688712.aspx) | Introduced in 10.0.10240. |
-| [IMbnConnection](https://msdn.microsoft.com/library/windows/desktop/dd430368.aspx) | Introduced in 10.0.10240. |
-| [IMbnConnectionEvents](https://msdn.microsoft.com/library/windows/desktop/dd430375.aspx) | Introduced in 10.0.10240. |
-| [IMbnConnectionManager](https://msdn.microsoft.com/library/windows/desktop/dd430380.aspx) | Introduced in 10.0.10240. |
-| [IMbnConnectionManagerEvents](https://msdn.microsoft.com/library/windows/desktop/dd430381.aspx) | Introduced in 10.0.10240. |
-| [IMbnDeviceService](https://msdn.microsoft.com/library/windows/desktop/hh780509.aspx) | Introduced in 10.0.10240. |
-| [IMbnDeviceServicesContext](https://msdn.microsoft.com/library/windows/desktop/hh780510.aspx) | Introduced in 10.0.10240. |
-| [IMbnDeviceServicesEvents](https://msdn.microsoft.com/library/windows/desktop/hh780515.aspx) | Introduced in 10.0.10240. |
-| [IMbnDeviceServicesManager](https://msdn.microsoft.com/library/windows/desktop/hh780527.aspx) | Introduced in 10.0.10240. |
-| [IMbnInterface](https://msdn.microsoft.com/library/windows/desktop/dd430406.aspx) | Introduced in 10.0.10240. |
-| [IMbnInterfaceEvents](https://msdn.microsoft.com/library/windows/desktop/dd430407.aspx) | Introduced in 10.0.10240. |
-| [IMbnInterfaceManager](https://msdn.microsoft.com/library/windows/desktop/dd430416.aspx) | Introduced in 10.0.10240. |
-| [IMbnInterfaceManagerEvents](https://msdn.microsoft.com/library/windows/desktop/dd430417.aspx) | Introduced in 10.0.10240. |
-| [IMbnPin](https://msdn.microsoft.com/library/windows/desktop/dd323109.aspx) | Introduced in 10.0.10240. |
-| [IMbnPinEvents](https://msdn.microsoft.com/library/windows/desktop/dd323110.aspx) | Introduced in 10.0.10240. |
-| [IMbnPinManager](https://msdn.microsoft.com/library/windows/desktop/dd323117.aspx) | Introduced in 10.0.10240. |
-| [IMbnPinManagerEvents](https://msdn.microsoft.com/library/windows/desktop/dd323118.aspx) | Introduced in 10.0.10240. |
-| [IMbnRegistration](https://msdn.microsoft.com/library/windows/desktop/dd323142.aspx) | Introduced in 10.0.10240. |
-| [IMbnRegistrationEvents](https://msdn.microsoft.com/library/windows/desktop/dd323143.aspx) | Introduced in 10.0.10240. |
-| [IMetaDataAssemblyImport](https://msdn.microsoft.com/library/windows/desktop/hh870550.aspx) | Introduced in 10.0.10240. |
-| [IMetaDataDispenser](https://msdn.microsoft.com/library/windows/desktop/hh870566.aspx) | Introduced in 10.0.10240. |
-| [IMetaDataDispenserEx](https://msdn.microsoft.com/library/windows/desktop/hh870567.aspx) | Introduced in 10.0.10240. |
-| [IMetaDataImport](https://msdn.microsoft.com/library/windows/desktop/hh870577.aspx) | Introduced in 10.0.10240. |
-| [IMetaDataImport2](https://msdn.microsoft.com/library/windows/desktop/hh870578.aspx) | Introduced in 10.0.10240. |
-| [IMetaDataTables](https://msdn.microsoft.com/library/windows/desktop/hh870643.aspx) | Introduced in 10.0.10240. |
-| [IMetaDataTables2](https://msdn.microsoft.com/library/windows/desktop/hh870644.aspx) | Introduced in 10.0.10240. |
-| [IMF2DBuffer](https://msdn.microsoft.com/library/windows/desktop/ms699894.aspx) | Introduced in 10.0.10240. |
-| [IMF2DBuffer2](https://msdn.microsoft.com/library/windows/desktop/hh447827.aspx) | Introduced in 10.0.10240. |
-| [IMFActivate](https://msdn.microsoft.com/library/windows/desktop/ms703039.aspx) | Introduced in 10.0.10240. |
-| [IMFAsyncCallback](https://msdn.microsoft.com/library/windows/desktop/ms699856.aspx) | Introduced in 10.0.10240. |
-| [IMFAsyncResult](https://msdn.microsoft.com/library/windows/desktop/ms700196.aspx) | Introduced in 10.0.10240. |
-| [IMFAttributes](https://msdn.microsoft.com/library/windows/desktop/ms704598.aspx) | Introduced in 10.0.10240. |
-| [IMFByteStream](https://msdn.microsoft.com/library/windows/desktop/ms698720.aspx) | Introduced in 10.0.10240. |
-| [IMFByteStreamBuffering](https://msdn.microsoft.com/library/windows/desktop/aa372548.aspx) | Introduced in 10.0.10240. |
-| [IMFByteStreamCacheControl](https://msdn.microsoft.com/library/windows/desktop/dd368785.aspx) | Introduced in 10.0.10240. |
-| [IMFByteStreamCacheControl2](https://msdn.microsoft.com/library/windows/desktop/hh447830.aspx) | Introduced in 10.0.10240. |
-| [IMFByteStreamTimeSeek](https://msdn.microsoft.com/library/windows/desktop/hh447836.aspx) | Introduced in 10.0.10240. |
-| [IMFClock](https://msdn.microsoft.com/library/windows/desktop/ms696248.aspx) | Introduced in 10.0.10240. |
-| [IMFClockStateSink](https://msdn.microsoft.com/library/windows/desktop/ms701593.aspx) | Introduced in 10.0.10240. |
-| [IMFCollection](https://msdn.microsoft.com/library/windows/desktop/ms705661.aspx) | Introduced in 10.0.10240. |
-| [IMFContentDecryptorContext](https://msdn.microsoft.com/library/windows/desktop/mt219182.aspx) | Introduced in 10.0.10240. |
-| [IMFContentProtectionDevice](https://msdn.microsoft.com/library/windows/desktop/mt219184.aspx) | Introduced in 10.0.10240. |
-| [IMFDXGIBuffer](https://msdn.microsoft.com/library/windows/desktop/hh447901.aspx) | Introduced in 10.0.10240. |
-| [IMFDXGIDeviceManager](https://msdn.microsoft.com/library/windows/desktop/hh447906.aspx) | Introduced in 10.0.10240. |
-| [IMFDXGIDeviceManagerSource](https://msdn.microsoft.com/library/windows/desktop/dn280687.aspx) | Introduced in 10.0.10240. |
-| [IMFGetService](https://msdn.microsoft.com/library/windows/desktop/ms694261.aspx) | Introduced in 10.0.10240. |
-| [IMFInputTrustAuthority](https://msdn.microsoft.com/library/windows/desktop/ms697500.aspx) | Introduced in 10.0.10240. |
-| [IMFMediaBuffer](https://msdn.microsoft.com/library/windows/desktop/ms696261.aspx) | Introduced in 10.0.10240. |
-| [IMFMediaEngine](https://msdn.microsoft.com/library/windows/desktop/hh447918.aspx) | Introduced in 10.0.10240. |
-| [IMFMediaEngineClassFactory](https://msdn.microsoft.com/library/windows/desktop/hh447919.aspx) | Introduced in 10.0.10240. |
-| [IMFMediaEngineEx](https://msdn.microsoft.com/library/windows/desktop/hh447923.aspx) | Introduced in 10.0.10240. |
-| [IMFMediaEngineExtension](https://msdn.microsoft.com/library/windows/desktop/hh447924.aspx) | Introduced in 10.0.10240. |
-| [IMFMediaEngineNotify](https://msdn.microsoft.com/library/windows/desktop/hh447962.aspx) | Introduced in 10.0.10240. |
-| [IMFMediaEngineProtectedContent](https://msdn.microsoft.com/library/windows/desktop/hh447964.aspx) | Introduced in 10.0.10240. |
-| [IMFMediaEngineSrcElements](https://msdn.microsoft.com/library/windows/desktop/hh447971.aspx) | Introduced in 10.0.10240. |
-| [IMFMediaError](https://msdn.microsoft.com/library/windows/desktop/hh448022.aspx) | Introduced in 10.0.10240. |
-| [IMFMediaEvent](https://msdn.microsoft.com/library/windows/desktop/ms702249.aspx) | Introduced in 10.0.10240. |
-| [IMFMediaEventGenerator](https://msdn.microsoft.com/library/windows/desktop/ms701755.aspx) | Introduced in 10.0.10240. |
-| [IMFMediaEventQueue](https://msdn.microsoft.com/library/windows/desktop/ms704617.aspx) | Introduced in 10.0.10240. |
-| [IMFMediaSink](https://msdn.microsoft.com/library/windows/desktop/ms694262.aspx) | Introduced in 10.0.10240. |
-| [IMFMediaSinkPreroll](https://msdn.microsoft.com/library/windows/desktop/ms699832.aspx) | Introduced in 10.0.10240. |
-| [IMFMediaSource](https://msdn.microsoft.com/library/windows/desktop/ms700189.aspx) | Introduced in 10.0.10240. |
-| [IMFMediaSourceEx](https://msdn.microsoft.com/library/windows/desktop/hh448029.aspx) | Introduced in 10.0.10240. |
-| [IMFMediaStream](https://msdn.microsoft.com/library/windows/desktop/ms697561.aspx) | Introduced in 10.0.10240. |
-| [IMFMediaStreamSourceSampleRequest](https://msdn.microsoft.com/library/windows/desktop/dn280741.aspx) | Introduced in 10.0.10240. |
-| [IMFMediaTimeRange](https://msdn.microsoft.com/library/windows/desktop/hh448033.aspx) | Introduced in 10.0.10240. |
-| [IMFMediaType](https://msdn.microsoft.com/library/windows/desktop/ms704850.aspx) | Introduced in 10.0.10240. |
-| [IMFMediaTypeHandler](https://msdn.microsoft.com/library/windows/desktop/ms697311.aspx) | Introduced in 10.0.10240. |
-| [IMFMetadata](https://msdn.microsoft.com/library/windows/desktop/ms696970.aspx) | Introduced in 10.0.10240. |
-| [IMFMetadataProvider](https://msdn.microsoft.com/library/windows/desktop/ms705606.aspx) | Introduced in 10.0.10240. |
-| [IMFOutputPolicy](https://msdn.microsoft.com/library/windows/desktop/ms698985.aspx) | Introduced in 10.0.10240. |
-| [IMFOutputSchema](https://msdn.microsoft.com/library/windows/desktop/ms703800.aspx) | Introduced in 10.0.10240. |
-| [IMFOutputTrustAuthority](https://msdn.microsoft.com/library/windows/desktop/ms695254.aspx) | Introduced in 10.0.10240. |
-| [IMFPMPClientApp](https://msdn.microsoft.com/library/windows/desktop/jj128316.aspx) | Introduced in 10.0.10240. |
-| [IMFPMPHostApp](https://msdn.microsoft.com/library/windows/desktop/jj128318.aspx) | Introduced in 10.0.10240. |
-| [IMFPresentationClock](https://msdn.microsoft.com/library/windows/desktop/ms701581.aspx) | Introduced in 10.0.10240. |
-| [IMFPresentationDescriptor](https://msdn.microsoft.com/library/windows/desktop/ms703990.aspx) | Introduced in 10.0.10240. |
-| [IMFPresentationTimeSource](https://msdn.microsoft.com/library/windows/desktop/ms704711.aspx) | Introduced in 10.0.10240. |
-| [IMFProtectedEnvironmentAccess](https://msdn.microsoft.com/library/windows/desktop/hh448045.aspx) | Introduced in 10.0.10240. |
-| [IMFQualityAdvise](https://msdn.microsoft.com/library/windows/desktop/ms695241.aspx) | Introduced in 10.0.10240. |
-| [IMFQualityAdvise2](https://msdn.microsoft.com/library/windows/desktop/dd743249.aspx) | Introduced in 10.0.10240. |
-| [IMFQualityAdviseLimits](https://msdn.microsoft.com/library/windows/desktop/dd374511.aspx) | Introduced in 10.0.10240. |
-| [IMFRateControl](https://msdn.microsoft.com/library/windows/desktop/ms697193.aspx) | Introduced in 10.0.10240. |
-| [IMFRateSupport](https://msdn.microsoft.com/library/windows/desktop/ms701858.aspx) | Introduced in 10.0.10240. |
-| [IMFReadWriteClassFactory](https://msdn.microsoft.com/library/windows/desktop/dd374514.aspx) | Introduced in 10.0.10240. |
-| [IMFRealTimeClientEx](https://msdn.microsoft.com/library/windows/desktop/hh448047.aspx) | Introduced in 10.0.10240. |
-| [IMFSample](https://msdn.microsoft.com/library/windows/desktop/ms702192.aspx) | Introduced in 10.0.10240. |
-| [IMFSampleOutputStream](https://msdn.microsoft.com/library/windows/desktop/hh448051.aspx) | Introduced in 10.0.10240. |
-| [IMFSampleProtection](https://msdn.microsoft.com/library/windows/desktop/ms703018.aspx) | Introduced in 10.0.10240. |
-| [IMFSchemeHandler](https://msdn.microsoft.com/library/windows/desktop/ms701638.aspx) | Introduced in 10.0.10240. |
-| [IMFSeekInfo](https://msdn.microsoft.com/library/windows/desktop/hh448054.aspx) | Introduced in 10.0.10240. |
-| [IMFShutdown](https://msdn.microsoft.com/library/windows/desktop/ms703054.aspx) | Introduced in 10.0.10240. |
-| [IMFSignedLibrary](https://msdn.microsoft.com/library/windows/desktop/hh448058.aspx) | Introduced in 10.0.10240. |
-| [IMFSinkWriter](https://msdn.microsoft.com/library/windows/desktop/dd374642.aspx) | Introduced in 10.0.10240. |
-| [IMFSinkWriterCallback](https://msdn.microsoft.com/library/windows/desktop/dd374643.aspx) | Introduced in 10.0.10240. |
-| [IMFSinkWriterCallback2](https://msdn.microsoft.com/library/windows/desktop/dn949415.aspx) | Introduced in 10.0.10240. |
-| [IMFSinkWriterEx](https://msdn.microsoft.com/library/windows/desktop/hh448060.aspx) | Introduced in 10.0.10240. |
-| [IMFSinkWriterEncoderConfig](https://msdn.microsoft.com/library/windows/desktop/dn302046.aspx) | Introduced in 10.0.10240. |
-| [IMFSourceReader](https://msdn.microsoft.com/library/windows/desktop/dd374655.aspx) | Introduced in 10.0.10240. |
-| [IMFSourceReaderCallback](https://msdn.microsoft.com/library/windows/desktop/dd374656.aspx) | Introduced in 10.0.10240. |
-| [IMFSourceReaderCallback2](https://msdn.microsoft.com/library/windows/desktop/dn949418.aspx) | Introduced in 10.0.10240. |
-| [IMFSourceReaderEx](https://msdn.microsoft.com/library/windows/desktop/hh448062.aspx) | Introduced in 10.0.10240. |
-| [IMFSourceResolver](https://msdn.microsoft.com/library/windows/desktop/ms694009.aspx) | Introduced in 10.0.10240. |
-| [IMFStreamDescriptor](https://msdn.microsoft.com/library/windows/desktop/ms701622.aspx) | Introduced in 10.0.10240. |
-| [IMFStreamingSinkConfig](https://msdn.microsoft.com/library/windows/desktop/dd374676.aspx) | Introduced in 10.0.10240. |
-| [IMFStreamSink](https://msdn.microsoft.com/library/windows/desktop/ms705657.aspx) | Introduced in 10.0.10240. |
-| [IMFSystemId](https://msdn.microsoft.com/library/windows/desktop/hh448067.aspx) | Introduced in 10.0.10240. |
-| [IMFTrackedSample](https://msdn.microsoft.com/library/windows/desktop/ms697026.aspx) | Introduced in 10.0.10240. |
-| [IMFTransform](https://msdn.microsoft.com/library/windows/desktop/ms696260.aspx) | Introduced in 10.0.10240. |
-| [IMFTrustedInput](https://msdn.microsoft.com/library/windows/desktop/ms697279.aspx) | Introduced in 10.0.10240. |
-| [IMFTrustedOutput](https://msdn.microsoft.com/library/windows/desktop/ms694305.aspx) | Introduced in 10.0.10240. |
-| [IMFVideoSampleAllocator](https://msdn.microsoft.com/library/windows/desktop/aa473823.aspx) | Introduced in 10.0.10240. |
-| [IMFVideoSampleAllocatorCallback](https://msdn.microsoft.com/library/windows/desktop/dd374900.aspx) | Introduced in 10.0.10240. |
-| [IMFVideoSampleAllocatorEx](https://msdn.microsoft.com/library/windows/desktop/hh448076.aspx) | Introduced in 10.0.10240. |
-| [IMFVideoSampleAllocatorNotify](https://msdn.microsoft.com/library/windows/desktop/dd374906.aspx) | Introduced in 10.0.10240. |
-| [IMFVideoSampleAllocatorNotifyEx](https://msdn.microsoft.com/library/windows/desktop/mt627756.aspx) | Introduced in 10.0.10240. |
-| [IMFVideoProcessorControl](https://msdn.microsoft.com/library/windows/desktop/hh448069.aspx) | Introduced in 10.0.10240. |
-| [IMFVideoProcessorControl2](https://msdn.microsoft.com/library/windows/desktop/dn800741.aspx) | Introduced in 10.0.10240. |
-| [IMLangConvertCharset](https://msdn.microsoft.com/library/windows/desktop/aa741058.aspx) | Introduced in 10.0.10240. |
-| [IMultiLanguage](https://msdn.microsoft.com/library/windows/desktop/aa741022.aspx) | Introduced in 10.0.10240. |
-| [IMultiLanguage2](https://msdn.microsoft.com/library/windows/desktop/aa741001.aspx) | Introduced in 10.0.10240. |
-| [IMultipleViewProvider](https://msdn.microsoft.com/library/windows/desktop/ee671296.aspx) | Introduced in 10.0.10240. |
-| [IMultiQI](https://msdn.microsoft.com/library/windows/desktop/ms683863.aspx) | Introduced in 10.0.10240. |
-| [INoMarshal](https://msdn.microsoft.com/library/windows/desktop/hh802477.aspx) | Introduced in 10.0.10240. |
-| [IObjectModelProvider](https://msdn.microsoft.com/library/windows/desktop/hh448776.aspx) | Introduced in 10.0.10240. |
-| [IOpcCertificateEnumerator](https://msdn.microsoft.com/library/windows/desktop/dd368258.aspx) | Introduced in 10.0.10240. |
-| [IOpcCertificateSet](https://msdn.microsoft.com/library/windows/desktop/dd368269.aspx) | Introduced in 10.0.10240. |
-| [IOpcDigitalSignature](https://msdn.microsoft.com/library/windows/desktop/dd368278.aspx) | Introduced in 10.0.10240. |
-| [IOpcDigitalSignatureEnumerator](https://msdn.microsoft.com/library/windows/desktop/dd368280.aspx) | Introduced in 10.0.10240. |
-| [IOpcDigitalSignatureManager](https://msdn.microsoft.com/library/windows/desktop/dd368288.aspx) | Introduced in 10.0.10240. |
-| [IOpcFactory](https://msdn.microsoft.com/library/windows/desktop/dd370991.aspx) | Introduced in 10.0.10240. |
-| [IOpcPackage](https://msdn.microsoft.com/library/windows/desktop/dd371025.aspx) | Introduced in 10.0.10240. |
-| [IOpcPart](https://msdn.microsoft.com/library/windows/desktop/dd371038.aspx) | Introduced in 10.0.10240. |
-| [IOpcPartEnumerator](https://msdn.microsoft.com/library/windows/desktop/dd371043.aspx) | Introduced in 10.0.10240. |
-| [IOpcPartSet](https://msdn.microsoft.com/library/windows/desktop/dd371062.aspx) | Introduced in 10.0.10240. |
-| [IOpcPartUri](https://msdn.microsoft.com/library/windows/desktop/dd371083.aspx) | Introduced in 10.0.10240. |
-| [IOpcRelationship](https://msdn.microsoft.com/library/windows/desktop/dd371131.aspx) | Introduced in 10.0.10240. |
-| [IOpcRelationshipEnumerator](https://msdn.microsoft.com/library/windows/desktop/dd371135.aspx) | Introduced in 10.0.10240. |
-| [IOpcRelationshipSelector](https://msdn.microsoft.com/library/windows/desktop/dd371151.aspx) | Introduced in 10.0.10240. |
-| [IOpcRelationshipSelectorEnumerator](https://msdn.microsoft.com/library/windows/desktop/dd371154.aspx) | Introduced in 10.0.10240. |
-| [IOpcRelationshipSelectorSet](https://msdn.microsoft.com/library/windows/desktop/dd371169.aspx) | Introduced in 10.0.10240. |
-| [IOpcRelationshipSet](https://msdn.microsoft.com/library/windows/desktop/dd371217.aspx) | Introduced in 10.0.10240. |
-| [IOpcSignatureCustomObject](https://msdn.microsoft.com/library/windows/desktop/dd316546.aspx) | Introduced in 10.0.10240. |
-| [IOpcSignatureCustomObjectEnumerator](https://msdn.microsoft.com/library/windows/desktop/dd316548.aspx) | Introduced in 10.0.10240. |
-| [IOpcSignatureCustomObjectSet](https://msdn.microsoft.com/library/windows/desktop/dd316560.aspx) | Introduced in 10.0.10240. |
-| [IOpcSignaturePartReference](https://msdn.microsoft.com/library/windows/desktop/dd316570.aspx) | Introduced in 10.0.10240. |
-| [IOpcSignaturePartReferenceEnumerator](https://msdn.microsoft.com/library/windows/desktop/dd316571.aspx) | Introduced in 10.0.10240. |
-| [IOpcSignaturePartReferenceSet](https://msdn.microsoft.com/library/windows/desktop/dd316585.aspx) | Introduced in 10.0.10240. |
-| [IOpcSignatureReference](https://msdn.microsoft.com/library/windows/desktop/dd316612.aspx) | Introduced in 10.0.10240. |
-| [IOpcSignatureReferenceEnumerator](https://msdn.microsoft.com/library/windows/desktop/dd316615.aspx) | Introduced in 10.0.10240. |
-| [IOpcSignatureReferenceSet](https://msdn.microsoft.com/library/windows/desktop/dd316629.aspx) | Introduced in 10.0.10240. |
-| [IOpcSignatureRelationshipReference](https://msdn.microsoft.com/library/windows/desktop/dd316670.aspx) | Introduced in 10.0.10240. |
-| [IOpcSignatureRelationshipReferenceEnumerator](https://msdn.microsoft.com/library/windows/desktop/dd316673.aspx) | Introduced in 10.0.10240. |
-| [IOpcSignatureRelationshipReferenceSet](https://msdn.microsoft.com/library/windows/desktop/dd316689.aspx) | Introduced in 10.0.10240. |
-| [IOpcSigningOptions](https://msdn.microsoft.com/library/windows/desktop/dd316719.aspx) | Introduced in 10.0.10240. |
-| [IOpcUri](https://msdn.microsoft.com/library/windows/desktop/dd316778.aspx) | Introduced in 10.0.10240. |
-| [IOptionDescription](https://msdn.microsoft.com/library/windows/desktop/hh869762.aspx) | Introduced in 10.0.10240. |
-| [IPdfRendererNative](https://msdn.microsoft.com/library/windows/desktop/dn302125.aspx) | Introduced in 10.0.10240. |
+| [IDirectWriterLock](/windows/win32/api/objidl/nn-objidl-idirectwriterlock) | Introduced in 10.0.10240. |
+| [IDispatch](/windows/win32/api/oaidl/nn-oaidl-idispatch) | Introduced in 10.0.10240. |
+| [IDockProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-idockprovider) | Introduced in 10.0.10240. |
+| [IDragProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-idragprovider) | Introduced in 10.0.10240. |
+| [IDropTargetProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-idroptargetprovider) | Introduced in 10.0.10240. |
+| [IDvdControl2](/windows/win32/api/strmif/nn-strmif-idvdcontrol2) | Introduced in 10.0.10240. |
+| [IDvdInfo2](/windows/win32/api/strmif/nn-strmif-idvdinfo2) | Introduced in 10.0.10240. |
+| [IDWriteBitmapRenderTarget](/windows/win32/api/dwrite/nn-dwrite-idwritebitmaprendertarget) | Introduced in 10.0.10240. |
+| [IDWriteBitmapRenderTarget1](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritebitmaprendertarget1) | Introduced in 10.0.10240. |
+| [IDWriteColorGlyphRunEnumerator](/windows/win32/api/dwrite_2/nn-dwrite_2-idwritecolorglyphrunenumerator) | Introduced in 10.0.10240. |
+| [IDWriteFactory](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) | Introduced in 10.0.10240. |
+| [IDWriteFactory1](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefactory1) | Introduced in 10.0.10240. |
+| [IDWriteFactory2](/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefactory2) | Introduced in 10.0.10240. |
+| [IDWriteFactory3](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory3) | Introduced in 10.0.10240. |
+| [IDWriteFont](/windows/win32/api/dwrite/nn-dwrite-idwritefont) | Introduced in 10.0.10240. |
+| [IDWriteFont1](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefont1) | Introduced in 10.0.10240. |
+| [IDWriteFont2](/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefont2) | Introduced in 10.0.10240. |
+| [IDWriteFont3](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefont3) | Introduced in 10.0.10240. |
+| [IDWriteFontCollection](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection) | Introduced in 10.0.10240. |
+| [IDWriteFontCollection1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontcollection1) | Introduced in 10.0.10240. |
+| [IDWriteFontCollectionLoader](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollectionloader) | Introduced in 10.0.10240. |
+| [IDWriteFontDownloadListener](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontdownloadlistener) | Introduced in 10.0.10240. |
+| [IDWriteFontDownloadQueue](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue) | Introduced in 10.0.10240. |
+| [IDWriteFontFace](/windows/win32/api/dwrite/nn-dwrite-idwritefontface) | Introduced in 10.0.10240. |
+| [IDWriteFontFace1](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefontface1) | Introduced in 10.0.10240. |
+| [IDWriteFontFace2](/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefontface2) | Introduced in 10.0.10240. |
+| [IDWriteFontFace3](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface3) | Introduced in 10.0.10240. |
+| [IDWriteFontFaceReference](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference) | Introduced in 10.0.10240. |
+| [IDWriteFontFallback](/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefontfallback) | Introduced in 10.0.10240. |
+| [IDWriteFontFallbackBuilder](/windows/win32/api/dwrite_2/nn-dwrite_2-idwritefontfallbackbuilder) | Introduced in 10.0.10240. |
+| [IDWriteFontFamily](/windows/win32/api/dwrite/nn-dwrite-idwritefontfamily) | Introduced in 10.0.10240. |
+| [IDWriteFontFamily1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfamily1) | Introduced in 10.0.10240. |
+| [IDWriteFontFile](/windows/win32/api/dwrite/nn-dwrite-idwritefontfile) | Introduced in 10.0.10240. |
+| [IDWriteFontFileEnumerator](/windows/win32/api/dwrite/nn-dwrite-idwritefontfileenumerator) | Introduced in 10.0.10240. |
+| [IDWriteFontFileLoader](/windows/win32/api/dwrite/nn-dwrite-idwritefontfileloader) | Introduced in 10.0.10240. |
+| [IDWriteFontFileStream](/windows/win32/api/dwrite/nn-dwrite-idwritefontfilestream) | Introduced in 10.0.10240. |
+| [IDWriteFontList](/windows/win32/api/dwrite/nn-dwrite-idwritefontlist) | Introduced in 10.0.10240. |
+| [IDWriteFontList1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontlist1) | Introduced in 10.0.10240. |
+| [IDWriteFontSet](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset) | Introduced in 10.0.10240. |
+| [IDWriteFontSetBuilder](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder) | Introduced in 10.0.10240. |
+| [IDWriteGdiInterop](/windows/win32/api/dwrite/nn-dwrite-idwritegdiinterop) | Introduced in 10.0.10240. |
+| [IDWriteGdiInterop1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritegdiinterop1) | Introduced in 10.0.10240. |
+| [IDWriteGlyphRunAnalysis](/windows/win32/api/dwrite/nn-dwrite-idwriteglyphrunanalysis) | Introduced in 10.0.10240. |
+| [IDWriteInlineObject](/windows/win32/api/dwrite/nn-dwrite-idwriteinlineobject) | Introduced in 10.0.10240. |
+| [IDWriteLocalFontFileLoader](/windows/win32/api/dwrite/nn-dwrite-idwritelocalfontfileloader) | Introduced in 10.0.10240. |
+| [IDWriteLocalizedStrings](/windows/win32/api/dwrite/nn-dwrite-idwritelocalizedstrings) | Introduced in 10.0.10240. |
+| [IDWriteNumberSubstitution](/windows/win32/api/dwrite/nn-dwrite-idwritenumbersubstitution) | Introduced in 10.0.10240. |
+| [IDWritePixelSnapping](/windows/win32/api/dwrite/nn-dwrite-idwritepixelsnapping) | Introduced in 10.0.10240. |
+| [IDWriteRenderingParams](/windows/win32/api/dwrite/nn-dwrite-idwriterenderingparams) | Introduced in 10.0.10240. |
+| [IDWriteRenderingParams1](/windows/win32/api/dwrite_1/nn-dwrite_1-idwriterenderingparams1) | Introduced in 10.0.10240. |
+| [IDWriteRenderingParams2](/windows/win32/api/dwrite_2/nn-dwrite_2-idwriterenderingparams2) | Introduced in 10.0.10240. |
+| [IDWriteRenderingParams3](/windows/win32/api/dwrite_3/nn-dwrite_3-idwriterenderingparams3) | Introduced in 10.0.10240. |
+| [IDWriteStringList](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritestringlist) | Introduced in 10.0.10240. |
+| [IDWriteTextAnalysisSink](/windows/win32/api/dwrite/nn-dwrite-idwritetextanalysissink) | Introduced in 10.0.10240. |
+| [IDWriteTextAnalysisSink1](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextanalysissink1) | Introduced in 10.0.10240. |
+| [IDWriteTextAnalysisSource](/windows/win32/api/dwrite/nn-dwrite-idwritetextanalysissource) | Introduced in 10.0.10240. |
+| [IDWriteTextAnalysisSource1](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextanalysissource1) | Introduced in 10.0.10240. |
+| [IDWriteTextAnalyzer](/windows/win32/api/dwrite/nn-dwrite-idwritetextanalyzer) | Introduced in 10.0.10240. |
+| [IDWriteTextAnalyzer1](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextanalyzer1) | Introduced in 10.0.10240. |
+| [IDWriteTextAnalyzer2](/windows/win32/api/dwrite_2/nn-dwrite_2-idwritetextanalyzer2) | Introduced in 10.0.10240. |
+| [IDWriteTextFormat](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) | Introduced in 10.0.10240. |
+| [IDWriteTextFormat1](/windows/win32/api/dwrite_2/nn-dwrite_2-idwritetextformat1) | Introduced in 10.0.10240. |
+| [IDWriteTextFormat2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextformat2) | Introduced in 10.0.10240. |
+| [IDWriteTextLayout](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) | Introduced in 10.0.10240. |
+| [IDWriteTextLayout1](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextlayout1) | Introduced in 10.0.10240. |
+| [IDWriteTextLayout2](/windows/win32/api/dwrite_2/nn-dwrite_2-idwritetextlayout2) | Introduced in 10.0.10240. |
+| [IDWriteTextLayout3](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritetextlayout3) | Introduced in 10.0.10240. |
+| [IDWriteTextRenderer](/windows/win32/api/dwrite/nn-dwrite-idwritetextrenderer) | Introduced in 10.0.10240. |
+| [IDWriteTextRenderer1](/windows/win32/api/dwrite_2/nn-dwrite_2-idwritetextrenderer1) | Introduced in 10.0.10240. |
+| [IDWriteTypography](/windows/win32/api/dwrite/nn-dwrite-idwritetypography) | Introduced in 10.0.10240. |
+| [IDXGIAdapter](/windows/win32/api/dxgi/nn-dxgi-idxgiadapter) | Introduced in 10.0.10240. |
+| [IDXGIAdapter1](/windows/win32/api/dxgi/nn-dxgi-idxgiadapter1) | Introduced in 10.0.10240. |
+| [IDXGIAdapter2](/windows/win32/api/dxgi1_2/nn-dxgi1_2-idxgiadapter2) | Introduced in 10.0.10240. |
+| [IDXGIAdapter3](/windows/win32/api/dxgi1_4/nn-dxgi1_4-idxgiadapter3) | Introduced in 10.0.10240. |
+| [IDXGIDebug](/windows/win32/api/dxgidebug/nn-dxgidebug-idxgidebug) | Introduced in 10.0.10240. |
+| [IDXGIDebug1](/windows/win32/api/dxgidebug/nn-dxgidebug-idxgidebug1) | Introduced in 10.0.10240. |
+| [IDXGIDevice](/windows/win32/api/dxgi/nn-dxgi-idxgidevice) | Introduced in 10.0.10240. |
+| [IDXGIDevice1](/windows/win32/api/dxgi/nn-dxgi-idxgidevice1) | Introduced in 10.0.10240. |
+| [IDXGIDevice2](/windows/win32/api/dxgi1_2/nn-dxgi1_2-idxgidevice2) | Introduced in 10.0.10240. |
+| [IDXGIDevice3](/windows/win32/api/dxgi1_3/nn-dxgi1_3-idxgidevice3) | Introduced in 10.0.10240. |
+| [IDXGIDeviceSubObject](/windows/win32/api/dxgi/nn-dxgi-idxgidevicesubobject) | Introduced in 10.0.10240. |
+| [IDXGIFactory](/windows/win32/api/dxgi/nn-dxgi-idxgifactory) | Introduced in 10.0.10240. |
+| [IDXGIFactory1](/windows/win32/api/dxgi/nn-dxgi-idxgifactory1) | Introduced in 10.0.10240. |
+| [IDXGIFactory2](/windows/win32/api/dxgi1_2/nn-dxgi1_2-idxgifactory2) | Introduced in 10.0.10240. |
+| [IDXGIFactory3](/windows/win32/api/dxgi1_3/nn-dxgi1_3-idxgifactory3) | Introduced in 10.0.10240. |
+| [IDXGIFactory4](/windows/win32/api/dxgi1_4/nn-dxgi1_4-idxgifactory4) | Introduced in 10.0.10240. |
+| [IDXGIInfoQueue](/windows/win32/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue) | Introduced in 10.0.10240. |
+| [IDXGIKeyedMutex](/windows/win32/api/dxgi/nn-dxgi-idxgikeyedmutex) | Introduced in 10.0.10240. |
+| [IDXGIObject](/windows/win32/api/dxgi/nn-dxgi-idxgiobject) | Introduced in 10.0.10240. |
+| [IDXGIOutput](/windows/win32/api/dxgi/nn-dxgi-idxgioutput) | Introduced in 10.0.10240. |
+| [IDXGIOutput1](/windows/win32/api/dxgi1_2/nn-dxgi1_2-idxgioutput1) | Introduced in 10.0.10240. |
+| [IDXGIOutput2](/windows/win32/api/dxgi1_3/nn-dxgi1_3-idxgioutput2) | Introduced in 10.0.10240. |
+| [IDXGIOutput3](/windows/win32/api/dxgi1_3/nn-dxgi1_3-idxgioutput3) | Introduced in 10.0.10240. |
+| [IDXGIOutput4](/windows/win32/api/dxgi1_4/nn-dxgi1_4-idxgioutput4) | Introduced in 10.0.10240. |
+| [IDXGIResource](/windows/win32/api/dxgi/nn-dxgi-idxgiresource) | Introduced in 10.0.10240. |
+| [IDXGIResource1](/windows/win32/api/dxgi1_2/nn-dxgi1_2-idxgiresource1) | Introduced in 10.0.10240. |
+| [IDXGISurface](/windows/win32/api/dxgi/nn-dxgi-idxgisurface) | Introduced in 10.0.10240. |
+| [IDXGISurface1](/windows/win32/api/dxgi/nn-dxgi-idxgisurface1) | Introduced in 10.0.10240. |
+| [IDXGISurface2](/windows/win32/api/dxgi1_2/nn-dxgi1_2-idxgisurface2) | Introduced in 10.0.10240. |
+| [IDXGISwapChain](/windows/win32/api/dxgi/nn-dxgi-idxgiswapchain) | Introduced in 10.0.10240. |
+| [IDXGISwapChain1](/windows/win32/api/dxgi1_2/nn-dxgi1_2-idxgiswapchain1) | Introduced in 10.0.10240. |
+| [IDXGISwapChain2](/windows/win32/api/dxgi1_3/nn-dxgi1_3-idxgiswapchain2) | Introduced in 10.0.10240. |
+| [IDXGISwapChain3](/windows/win32/api/dxgi1_4/nn-dxgi1_4-idxgiswapchain3) | Introduced in 10.0.10240. |
+| [IEditionUpgradeHelper](/windows/win32/api/editionupgradehelper/nn-editionupgradehelper-ieditionupgradehelper) | Introduced in 10.0.10240. |
+| [IEnumCodePage](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741101(v=vs.85)) | Introduced in 10.0.10240. |
+| [IEnumConnectionPoints](/windows/win32/api/ocidl/nn-ocidl-ienumconnectionpoints) | Introduced in 10.0.10240. |
+| [IEnumConnections](/windows/win32/api/ocidl/nn-ocidl-ienumconnections) | Introduced in 10.0.10240. |
+| [IEnumGUID](/windows/win32/api/comcat/nn-comcat-ienumguid) | Introduced in 10.0.10240. |
+| [IEnumITfCompositionView](/windows/win32/api/msctf/nn-msctf-ienumitfcompositionview) | Introduced in 10.0.10240. |
+| [IEnumMoniker](/windows/win32/api/objidl/nn-objidl-ienummoniker) | Introduced in 10.0.10240. |
+| [IEnumPortableDeviceObjectIDs](/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-ienumportabledeviceobjectids) | Introduced in 10.0.10240. |
+| [IEnumRfc1766](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741095(v=vs.85)) | Introduced in 10.0.10240. |
+| [IEnumScript](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741082(v=vs.85)) | Introduced in 10.0.10240. |
+| [IEnumSpellingError](/windows/win32/api/spellcheck/nn-spellcheck-ienumspellingerror) | Introduced in 10.0.10240. |
+| [IEnumSTATDATA](/windows/win32/api/objidl/nn-objidl-ienumstatdata) | Introduced in 10.0.10240. |
+| [IEnumSTATPROPSETSTG](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) | Introduced in 10.0.10240. |
+| [IEnumSTATPROPSTG](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropstg) | Introduced in 10.0.10240. |
+| [IEnumSTATSTG](/windows/win32/api/objidl/nn-objidl-ienumstatstg) | Introduced in 10.0.10240. |
+| [IEnumString](/windows/win32/api/objidlbase/nn-objidlbase-ienumstring) | Introduced in 10.0.10240. |
+| [IEnumTfCandidates](/windows/win32/api/ctffunc/nn-ctffunc-ienumtfcandidates) | Introduced in 10.0.10240. |
+| [IEnumTfContexts](/windows/win32/api/msctf/nn-msctf-ienumtfcontexts) | Introduced in 10.0.10240. |
+| [IEnumTfContextViews](/windows/win32/api/msctf/nn-msctf-ienumtfcontextviews) | Introduced in 10.0.10240. |
+| [IEnumTfDisplayAttributeInfo](/windows/win32/api/msctf/nn-msctf-ienumtfdisplayattributeinfo) | Introduced in 10.0.10240. |
+| [IEnumTfDocumentMgrs](/windows/win32/api/msctf/nn-msctf-ienumtfdocumentmgrs) | Introduced in 10.0.10240. |
+| [IEnumTfFunctionProviders](/windows/win32/api/msctf/nn-msctf-ienumtffunctionproviders) | Introduced in 10.0.10240. |
+| [IEnumTfInputProcessorProfiles](/windows/win32/api/msctf/nn-msctf-ienumtfinputprocessorprofiles) | Introduced in 10.0.10240. |
+| [IEnumTfProperties](/windows/win32/api/msctf/nn-msctf-ienumtfproperties) | Introduced in 10.0.10240. |
+| [IEnumTfPropertyValue](/windows/win32/api/msctf/nn-msctf-ienumtfpropertyvalue) | Introduced in 10.0.10240. |
+| [IEnumTfRanges](/windows/win32/api/msctf/nn-msctf-ienumtfranges) | Introduced in 10.0.10240. |
+| [IEnumTfUIElements](/windows/win32/api/msctf/nn-msctf-ienumtfuielements) | Introduced in 10.0.10240. |
+| [IEnumUnknown](/windows/win32/api/objidlbase/nn-objidlbase-ienumunknown) | Introduced in 10.0.10240. |
+| [IEnumVARIANT](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) | Introduced in 10.0.10240. |
+| [IExpandCollapseProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-iexpandcollapseprovider) | Introduced in 10.0.10240. |
+| [IFillLockBytes](/windows/win32/api/objidl/nn-objidl-ifilllockbytes) | Introduced in 10.0.10240. |
+| [IFindReferenceTargetsCallback](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ifindreferencetargetscallback) | Introduced in 10.0.10240. |
+| [IGlobalInterfaceTable](/windows/win32/api/objidl/nn-objidl-iglobalinterfacetable) | Introduced in 10.0.10240. |
+| [IGlobalOptions](/windows/win32/api/objidlbase/nn-objidlbase-iglobaloptions) | Introduced in 10.0.10240. |
+| [IGridItemProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-igriditemprovider) | Introduced in 10.0.10240. |
+| [IGridProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-igridprovider) | Introduced in 10.0.10240. |
+| [IInkD2DRenderer](/windows/win32/api/inkrenderer/nn-inkrenderer-iinkd2drenderer) | Introduced in 10.0.10240. |
+| [IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable) | Introduced in 10.0.10240. |
+| [IInvokeProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-iinvokeprovider) | Introduced in 10.0.10240. |
+| [IItemContainerProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-iitemcontainerprovider) | Introduced in 10.0.10240. |
+| [ILanguageExceptionErrorInfo](/windows/win32/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionerrorinfo) | Introduced in 10.0.10240. |
+| [ILayoutStorage](/windows/win32/api/objidl/nn-objidl-ilayoutstorage) | Introduced in 10.0.10240. |
+| [ILegacyIAccessibleProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-ilegacyiaccessibleprovider) | Introduced in 10.0.10240. |
+| [ILockBytes](/windows/win32/api/objidl/nn-objidl-ilockbytes) | Introduced in 10.0.10240. |
+| [IMarshal](/previous-versions//ms688712(v=vs.85)) | Introduced in 10.0.10240. |
+| [IMbnConnection](/windows/win32/api/mbnapi/nn-mbnapi-imbnconnection) | Introduced in 10.0.10240. |
+| [IMbnConnectionEvents](/windows/win32/api/mbnapi/nn-mbnapi-imbnconnectionevents) | Introduced in 10.0.10240. |
+| [IMbnConnectionManager](/windows/win32/api/mbnapi/nn-mbnapi-imbnconnectionmanager) | Introduced in 10.0.10240. |
+| [IMbnConnectionManagerEvents](/windows/win32/api/mbnapi/nn-mbnapi-imbnconnectionmanagerevents) | Introduced in 10.0.10240. |
+| [IMbnDeviceService](/windows/win32/api/mbnapi/nn-mbnapi-imbndeviceservice) | Introduced in 10.0.10240. |
+| [IMbnDeviceServicesContext](/windows/win32/api/mbnapi/nn-mbnapi-imbndeviceservicescontext) | Introduced in 10.0.10240. |
+| [IMbnDeviceServicesEvents](/windows/win32/api/mbnapi/nn-mbnapi-imbndeviceservicesevents) | Introduced in 10.0.10240. |
+| [IMbnDeviceServicesManager](/windows/win32/api/mbnapi/nn-mbnapi-imbndeviceservicesmanager) | Introduced in 10.0.10240. |
+| [IMbnInterface](/windows/win32/api/mbnapi/nn-mbnapi-imbninterface) | Introduced in 10.0.10240. |
+| [IMbnInterfaceEvents](/windows/win32/api/mbnapi/nn-mbnapi-imbninterfaceevents) | Introduced in 10.0.10240. |
+| [IMbnInterfaceManager](/windows/win32/api/mbnapi/nn-mbnapi-imbninterfacemanager) | Introduced in 10.0.10240. |
+| [IMbnInterfaceManagerEvents](/windows/win32/api/mbnapi/nn-mbnapi-imbninterfacemanagerevents) | Introduced in 10.0.10240. |
+| [IMbnPin](/windows/win32/api/mbnapi/nn-mbnapi-imbnpin) | Introduced in 10.0.10240. |
+| [IMbnPinEvents](/windows/win32/api/mbnapi/nn-mbnapi-imbnpinevents) | Introduced in 10.0.10240. |
+| [IMbnPinManager](/windows/win32/api/mbnapi/nn-mbnapi-imbnpinmanager) | Introduced in 10.0.10240. |
+| [IMbnPinManagerEvents](/windows/win32/api/mbnapi/nn-mbnapi-imbnpinmanagerevents) | Introduced in 10.0.10240. |
+| [IMbnRegistration](/windows/win32/api/mbnapi/nn-mbnapi-imbnregistration) | Introduced in 10.0.10240. |
+| [IMbnRegistrationEvents](/windows/win32/api/mbnapi/nn-mbnapi-imbnregistrationevents) | Introduced in 10.0.10240. |
+| [IMetaDataAssemblyImport](/windows/win32/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport) | Introduced in 10.0.10240. |
+| [IMetaDataDispenser](/windows/win32/api/rometadataapi/nn-rometadataapi-imetadatadispenser) | Introduced in 10.0.10240. |
+| [IMetaDataDispenserEx](/windows/win32/api/rometadataapi/nn-rometadataapi-imetadatadispenserex) | Introduced in 10.0.10240. |
+| [IMetaDataImport](/windows/win32/api/rometadataapi/nn-rometadataapi-imetadataimport) | Introduced in 10.0.10240. |
+| [IMetaDataImport2](/windows/win32/api/rometadataapi/nn-rometadataapi-imetadataimport2) | Introduced in 10.0.10240. |
+| [IMetaDataTables](/windows/win32/api/rometadataapi/nn-rometadataapi-imetadatatables) | Introduced in 10.0.10240. |
+| [IMetaDataTables2](/windows/win32/api/rometadataapi/nn-rometadataapi-imetadatatables2) | Introduced in 10.0.10240. |
+| [IMF2DBuffer](/windows/win32/api/mfobjects/nn-mfobjects-imf2dbuffer) | Introduced in 10.0.10240. |
+| [IMF2DBuffer2](/windows/win32/api/mfobjects/nn-mfobjects-imf2dbuffer2) | Introduced in 10.0.10240. |
+| [IMFActivate](/windows/win32/api/mfobjects/nn-mfobjects-imfactivate) | Introduced in 10.0.10240. |
+| [IMFAsyncCallback](/windows/win32/api/mfobjects/nn-mfobjects-imfasynccallback) | Introduced in 10.0.10240. |
+| [IMFAsyncResult](/windows/win32/api/mfobjects/nn-mfobjects-imfasyncresult) | Introduced in 10.0.10240. |
+| [IMFAttributes](/windows/win32/api/mfobjects/nn-mfobjects-imfattributes) | Introduced in 10.0.10240. |
+| [IMFByteStream](/windows/win32/api/mfobjects/nn-mfobjects-imfbytestream) | Introduced in 10.0.10240. |
+| [IMFByteStreamBuffering](/windows/win32/api/mfidl/nn-mfidl-imfbytestreambuffering) | Introduced in 10.0.10240. |
+| [IMFByteStreamCacheControl](/windows/win32/api/mfidl/nn-mfidl-imfbytestreamcachecontrol) | Introduced in 10.0.10240. |
+| [IMFByteStreamCacheControl2](/windows/win32/api/mfidl/nn-mfidl-imfbytestreamcachecontrol2) | Introduced in 10.0.10240. |
+| [IMFByteStreamTimeSeek](/windows/win32/api/mfidl/nn-mfidl-imfbytestreamtimeseek) | Introduced in 10.0.10240. |
+| [IMFClock](/windows/win32/api/mfidl/nn-mfidl-imfclock) | Introduced in 10.0.10240. |
+| [IMFClockStateSink](/windows/win32/api/mfidl/nn-mfidl-imfclockstatesink) | Introduced in 10.0.10240. |
+| [IMFCollection](/windows/win32/api/mfobjects/nn-mfobjects-imfcollection) | Introduced in 10.0.10240. |
+| [IMFContentDecryptorContext](/windows/win32/api/mfidl/nn-mfidl-imfcontentdecryptorcontext) | Introduced in 10.0.10240. |
+| [IMFContentProtectionDevice](/windows/win32/api/mfidl/nn-mfidl-imfcontentprotectiondevice) | Introduced in 10.0.10240. |
+| [IMFDXGIBuffer](/windows/win32/api/mfobjects/nn-mfobjects-imfdxgibuffer) | Introduced in 10.0.10240. |
+| [IMFDXGIDeviceManager](/windows/win32/api/mfobjects/nn-mfobjects-imfdxgidevicemanager) | Introduced in 10.0.10240. |
+| [IMFDXGIDeviceManagerSource](/windows/win32/api/mfidl/nn-mfidl-imfdxgidevicemanagersource) | Introduced in 10.0.10240. |
+| [IMFGetService](/windows/win32/api/mfidl/nn-mfidl-imfgetservice) | Introduced in 10.0.10240. |
+| [IMFInputTrustAuthority](/windows/win32/api/mfidl/nn-mfidl-imfinputtrustauthority) | Introduced in 10.0.10240. |
+| [IMFMediaBuffer](/windows/win32/api/mfobjects/nn-mfobjects-imfmediabuffer) | Introduced in 10.0.10240. |
+| [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) | Introduced in 10.0.10240. |
+| [IMFMediaEngineClassFactory](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengineclassfactory) | Introduced in 10.0.10240. |
+| [IMFMediaEngineEx](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex) | Introduced in 10.0.10240. |
+| [IMFMediaEngineExtension](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengineextension) | Introduced in 10.0.10240. |
+| [IMFMediaEngineNotify](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaenginenotify) | Introduced in 10.0.10240. |
+| [IMFMediaEngineProtectedContent](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengineprotectedcontent) | Introduced in 10.0.10240. |
+| [IMFMediaEngineSrcElements](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaenginesrcelements) | Introduced in 10.0.10240. |
+| [IMFMediaError](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaerror) | Introduced in 10.0.10240. |
+| [IMFMediaEvent](/windows/win32/api/mfobjects/nn-mfobjects-imfmediaevent) | Introduced in 10.0.10240. |
+| [IMFMediaEventGenerator](/windows/win32/api/mfobjects/nn-mfobjects-imfmediaeventgenerator) | Introduced in 10.0.10240. |
+| [IMFMediaEventQueue](/windows/win32/api/mfobjects/nn-mfobjects-imfmediaeventqueue) | Introduced in 10.0.10240. |
+| [IMFMediaSink](/windows/win32/api/mfidl/nn-mfidl-imfmediasink) | Introduced in 10.0.10240. |
+| [IMFMediaSinkPreroll](/windows/win32/api/mfidl/nn-mfidl-imfmediasinkpreroll) | Introduced in 10.0.10240. |
+| [IMFMediaSource](/windows/win32/api/mfidl/nn-mfidl-imfmediasource) | Introduced in 10.0.10240. |
+| [IMFMediaSourceEx](/windows/win32/api/mfidl/nn-mfidl-imfmediasourceex) | Introduced in 10.0.10240. |
+| [IMFMediaStream](/windows/win32/api/mfidl/nn-mfidl-imfmediastream) | Introduced in 10.0.10240. |
+| [IMFMediaStreamSourceSampleRequest](/windows/win32/api/mfidl/nn-mfidl-imfmediastreamsourcesamplerequest) | Introduced in 10.0.10240. |
+| [IMFMediaTimeRange](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediatimerange) | Introduced in 10.0.10240. |
+| [IMFMediaType](/windows/win32/api/mfobjects/nn-mfobjects-imfmediatype) | Introduced in 10.0.10240. |
+| [IMFMediaTypeHandler](/windows/win32/api/mfidl/nn-mfidl-imfmediatypehandler) | Introduced in 10.0.10240. |
+| [IMFMetadata](/windows/win32/api/mfidl/nn-mfidl-imfmetadata) | Introduced in 10.0.10240. |
+| [IMFMetadataProvider](/windows/win32/api/mfidl/nn-mfidl-imfmetadataprovider) | Introduced in 10.0.10240. |
+| [IMFOutputPolicy](/windows/win32/api/mfidl/nn-mfidl-imfoutputpolicy) | Introduced in 10.0.10240. |
+| [IMFOutputSchema](/windows/win32/api/mfidl/nn-mfidl-imfoutputschema) | Introduced in 10.0.10240. |
+| [IMFOutputTrustAuthority](/windows/win32/api/mfidl/nn-mfidl-imfoutputtrustauthority) | Introduced in 10.0.10240. |
+| [IMFPMPClientApp](/windows/win32/api/mfidl/nn-mfidl-imfpmpclientapp) | Introduced in 10.0.10240. |
+| [IMFPMPHostApp](/windows/win32/api/mfidl/nn-mfidl-imfpmphostapp) | Introduced in 10.0.10240. |
+| [IMFPresentationClock](/windows/win32/api/mfidl/nn-mfidl-imfpresentationclock) | Introduced in 10.0.10240. |
+| [IMFPresentationDescriptor](/windows/win32/api/mfidl/nn-mfidl-imfpresentationdescriptor) | Introduced in 10.0.10240. |
+| [IMFPresentationTimeSource](/windows/win32/api/mfidl/nn-mfidl-imfpresentationtimesource) | Introduced in 10.0.10240. |
+| [IMFProtectedEnvironmentAccess](/windows/win32/api/mfidl/nn-mfidl-imfprotectedenvironmentaccess) | Introduced in 10.0.10240. |
+| [IMFQualityAdvise](/windows/win32/api/mfidl/nn-mfidl-imfqualityadvise) | Introduced in 10.0.10240. |
+| [IMFQualityAdvise2](/windows/win32/api/mfidl/nn-mfidl-imfqualityadvise2) | Introduced in 10.0.10240. |
+| [IMFQualityAdviseLimits](/windows/win32/api/mfidl/nn-mfidl-imfqualityadviselimits) | Introduced in 10.0.10240. |
+| [IMFRateControl](/windows/win32/api/mfidl/nn-mfidl-imfratecontrol) | Introduced in 10.0.10240. |
+| [IMFRateSupport](/windows/win32/api/mfidl/nn-mfidl-imfratesupport) | Introduced in 10.0.10240. |
+| [IMFReadWriteClassFactory](/windows/win32/api/mfreadwrite/nn-mfreadwrite-imfreadwriteclassfactory) | Introduced in 10.0.10240. |
+| [IMFRealTimeClientEx](/windows/win32/api/mfidl/nn-mfidl-imfrealtimeclientex) | Introduced in 10.0.10240. |
+| [IMFSample](/windows/win32/api/mfobjects/nn-mfobjects-imfsample) | Introduced in 10.0.10240. |
+| [IMFSampleOutputStream](/windows/win32/api/mfobjects/nn-mfobjects-imfsampleoutputstream) | Introduced in 10.0.10240. |
+| [IMFSampleProtection](/windows/win32/api/mfidl/nn-mfidl-imfsampleprotection) | Introduced in 10.0.10240. |
+| [IMFSchemeHandler](/windows/win32/api/mfidl/nn-mfidl-imfschemehandler) | Introduced in 10.0.10240. |
+| [IMFSeekInfo](/windows/win32/api/mfidl/nn-mfidl-imfseekinfo) | Introduced in 10.0.10240. |
+| [IMFShutdown](/windows/win32/api/mfidl/nn-mfidl-imfshutdown) | Introduced in 10.0.10240. |
+| [IMFSignedLibrary](/windows/win32/api/mfidl/nn-mfidl-imfsignedlibrary) | Introduced in 10.0.10240. |
+| [IMFSinkWriter](/windows/win32/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter) | Introduced in 10.0.10240. |
+| [IMFSinkWriterCallback](/windows/win32/api/mfreadwrite/nn-mfreadwrite-imfsinkwritercallback) | Introduced in 10.0.10240. |
+| [IMFSinkWriterCallback2](/windows/win32/api/mfreadwrite/nn-mfreadwrite-imfsinkwritercallback2) | Introduced in 10.0.10240. |
+| [IMFSinkWriterEx](/windows/win32/api/mfreadwrite/nn-mfreadwrite-imfsinkwriterex) | Introduced in 10.0.10240. |
+| [IMFSinkWriterEncoderConfig](/windows/win32/api/mfreadwrite/nn-mfreadwrite-imfsinkwriterencoderconfig) | Introduced in 10.0.10240. |
+| [IMFSourceReader](/windows/win32/api/mfreadwrite/nn-mfreadwrite-imfsourcereader) | Introduced in 10.0.10240. |
+| [IMFSourceReaderCallback](/windows/win32/api/mfreadwrite/nn-mfreadwrite-imfsourcereadercallback) | Introduced in 10.0.10240. |
+| [IMFSourceReaderCallback2](/windows/win32/api/mfreadwrite/nn-mfreadwrite-imfsourcereadercallback2) | Introduced in 10.0.10240. |
+| [IMFSourceReaderEx](/windows/win32/api/mfreadwrite/nn-mfreadwrite-imfsourcereaderex) | Introduced in 10.0.10240. |
+| [IMFSourceResolver](/windows/win32/api/mfidl/nn-mfidl-imfsourceresolver) | Introduced in 10.0.10240. |
+| [IMFStreamDescriptor](/windows/win32/api/mfidl/nn-mfidl-imfstreamdescriptor) | Introduced in 10.0.10240. |
+| [IMFStreamingSinkConfig](/windows/win32/api/mfidl/nn-mfidl-imfstreamingsinkconfig) | Introduced in 10.0.10240. |
+| [IMFStreamSink](/windows/win32/api/mfidl/nn-mfidl-imfstreamsink) | Introduced in 10.0.10240. |
+| [IMFSystemId](/windows/win32/api/mfidl/nn-mfidl-imfsystemid) | Introduced in 10.0.10240. |
+| [IMFTrackedSample](/windows/win32/api/mfidl/nn-mfidl-imftrackedsample) | Introduced in 10.0.10240. |
+| [IMFTransform](/windows/win32/api/mftransform/nn-mftransform-imftransform) | Introduced in 10.0.10240. |
+| [IMFTrustedInput](/windows/win32/api/mfidl/nn-mfidl-imftrustedinput) | Introduced in 10.0.10240. |
+| [IMFTrustedOutput](/windows/win32/api/mfidl/nn-mfidl-imftrustedoutput) | Introduced in 10.0.10240. |
+| [IMFVideoSampleAllocator](/windows/win32/api/mfidl/nn-mfidl-imfvideosampleallocator) | Introduced in 10.0.10240. |
+| [IMFVideoSampleAllocatorCallback](/windows/win32/api/mfidl/nn-mfidl-imfvideosampleallocatorcallback) | Introduced in 10.0.10240. |
+| [IMFVideoSampleAllocatorEx](/windows/win32/api/mfidl/nn-mfidl-imfvideosampleallocatorex) | Introduced in 10.0.10240. |
+| [IMFVideoSampleAllocatorNotify](/windows/win32/api/mfidl/nn-mfidl-imfvideosampleallocatornotify) | Introduced in 10.0.10240. |
+| [IMFVideoSampleAllocatorNotifyEx](/windows/win32/api/mfidl/nn-mfidl-imfvideosampleallocatornotifyex) | Introduced in 10.0.10240. |
+| [IMFVideoProcessorControl](/windows/win32/api/mfidl/nn-mfidl-imfvideoprocessorcontrol) | Introduced in 10.0.10240. |
+| [IMFVideoProcessorControl2](/windows/win32/api/mfidl/nn-mfidl-imfvideoprocessorcontrol2) | Introduced in 10.0.10240. |
+| [IMLangConvertCharset](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741058(v=vs.85)) | Introduced in 10.0.10240. |
+| [IMultiLanguage](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741022(v=vs.85)) | Introduced in 10.0.10240. |
+| [IMultiLanguage2](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741001(v=vs.85)) | Introduced in 10.0.10240. |
+| [IMultipleViewProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-imultipleviewprovider) | Introduced in 10.0.10240. |
+| [IMultiQI](/windows/win32/api/objidlbase/nn-objidlbase-imultiqi) | Introduced in 10.0.10240. |
+| [INoMarshal](/windows/win32/api/objidlbase/nn-objidlbase-inomarshal) | Introduced in 10.0.10240. |
+| [IObjectModelProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-iobjectmodelprovider) | Introduced in 10.0.10240. |
+| [IOpcCertificateEnumerator](/windows/win32/api/msopc/nn-msopc-iopccertificateenumerator) | Introduced in 10.0.10240. |
+| [IOpcCertificateSet](/windows/win32/api/msopc/nn-msopc-iopccertificateset) | Introduced in 10.0.10240. |
+| [IOpcDigitalSignature](/windows/win32/api/msopc/nn-msopc-iopcdigitalsignature) | Introduced in 10.0.10240. |
+| [IOpcDigitalSignatureEnumerator](/windows/win32/api/msopc/nn-msopc-iopcdigitalsignatureenumerator) | Introduced in 10.0.10240. |
+| [IOpcDigitalSignatureManager](/windows/win32/api/msopc/nn-msopc-iopcdigitalsignaturemanager) | Introduced in 10.0.10240. |
+| [IOpcFactory](/windows/win32/api/msopc/nn-msopc-iopcfactory) | Introduced in 10.0.10240. |
+| [IOpcPackage](/windows/win32/api/msopc/nn-msopc-iopcpackage) | Introduced in 10.0.10240. |
+| [IOpcPart](/windows/win32/api/msopc/nn-msopc-iopcpart) | Introduced in 10.0.10240. |
+| [IOpcPartEnumerator](/windows/win32/api/msopc/nn-msopc-iopcpartenumerator) | Introduced in 10.0.10240. |
+| [IOpcPartSet](/windows/win32/api/msopc/nn-msopc-iopcpartset) | Introduced in 10.0.10240. |
+| [IOpcPartUri](/windows/win32/api/msopc/nn-msopc-iopcparturi) | Introduced in 10.0.10240. |
+| [IOpcRelationship](/windows/win32/api/msopc/nn-msopc-iopcrelationship) | Introduced in 10.0.10240. |
+| [IOpcRelationshipEnumerator](/windows/win32/api/msopc/nn-msopc-iopcrelationshipenumerator) | Introduced in 10.0.10240. |
+| [IOpcRelationshipSelector](/windows/win32/api/msopc/nn-msopc-iopcrelationshipselector) | Introduced in 10.0.10240. |
+| [IOpcRelationshipSelectorEnumerator](/windows/win32/api/msopc/nn-msopc-iopcrelationshipselectorenumerator) | Introduced in 10.0.10240. |
+| [IOpcRelationshipSelectorSet](/windows/win32/api/msopc/nn-msopc-iopcrelationshipselectorset) | Introduced in 10.0.10240. |
+| [IOpcRelationshipSet](/windows/win32/api/msopc/nn-msopc-iopcrelationshipset) | Introduced in 10.0.10240. |
+| [IOpcSignatureCustomObject](/windows/win32/api/msopc/nn-msopc-iopcsignaturecustomobject) | Introduced in 10.0.10240. |
+| [IOpcSignatureCustomObjectEnumerator](/windows/win32/api/msopc/nn-msopc-iopcsignaturecustomobjectenumerator) | Introduced in 10.0.10240. |
+| [IOpcSignatureCustomObjectSet](/windows/win32/api/msopc/nn-msopc-iopcsignaturecustomobjectset) | Introduced in 10.0.10240. |
+| [IOpcSignaturePartReference](/windows/win32/api/msopc/nn-msopc-iopcsignaturepartreference) | Introduced in 10.0.10240. |
+| [IOpcSignaturePartReferenceEnumerator](/windows/win32/api/msopc/nn-msopc-iopcsignaturepartreferenceenumerator) | Introduced in 10.0.10240. |
+| [IOpcSignaturePartReferenceSet](/windows/win32/api/msopc/nn-msopc-iopcsignaturepartreferenceset) | Introduced in 10.0.10240. |
+| [IOpcSignatureReference](/windows/win32/api/msopc/nn-msopc-iopcsignaturereference) | Introduced in 10.0.10240. |
+| [IOpcSignatureReferenceEnumerator](/windows/win32/api/msopc/nn-msopc-iopcsignaturereferenceenumerator) | Introduced in 10.0.10240. |
+| [IOpcSignatureReferenceSet](/windows/win32/api/msopc/nn-msopc-iopcsignaturereferenceset) | Introduced in 10.0.10240. |
+| [IOpcSignatureRelationshipReference](/windows/win32/api/msopc/nn-msopc-iopcsignaturerelationshipreference) | Introduced in 10.0.10240. |
+| [IOpcSignatureRelationshipReferenceEnumerator](/windows/win32/api/msopc/nn-msopc-iopcsignaturerelationshipreferenceenumerator) | Introduced in 10.0.10240. |
+| [IOpcSignatureRelationshipReferenceSet](/windows/win32/api/msopc/nn-msopc-iopcsignaturerelationshipreferenceset) | Introduced in 10.0.10240. |
+| [IOpcSigningOptions](/windows/win32/api/msopc/nn-msopc-iopcsigningoptions) | Introduced in 10.0.10240. |
+| [IOpcUri](/windows/win32/api/msopc/nn-msopc-iopcuri) | Introduced in 10.0.10240. |
+| [IOptionDescription](/windows/win32/api/spellcheck/nn-spellcheck-ioptiondescription) | Introduced in 10.0.10240. |
+| [IPdfRendererNative](/windows/win32/api/windows.data.pdf.interop/nn-windows-data-pdf-interop-ipdfrenderernative) | Introduced in 10.0.10240. |
 | IPMApplicationInfo | Introduced in 10.0.10240. |
 | IPMApplicationInfoEnumerator | Introduced in 10.0.10240. |
 | IPMBackgroundServiceAgentInfo | Introduced in 10.0.10240. |
@@ -3762,394 +3762,394 @@ COM interfaces
 | IPMTileInfoEnumerator | Introduced in 10.0.10240. |
 | IPMTilePropertyEnumerator | Introduced in 10.0.10240. |
 | IPMTilePropertyInfo | Introduced in 10.0.10240. |
-| [IPortableDevice](https://msdn.microsoft.com/library/windows/desktop/dd319361.aspx) | Introduced in 10.0.10240. |
-| [IPortableDeviceCapabilities](https://msdn.microsoft.com/library/windows/desktop/dd319362.aspx) | Introduced in 10.0.10240. |
-| [IPortableDeviceContent](https://msdn.microsoft.com/library/windows/desktop/dd388529.aspx) | Introduced in 10.0.10240. |
-| [IPortableDeviceContent2](https://msdn.microsoft.com/library/windows/desktop/dd388530.aspx) | Introduced in 10.0.10240. |
-| [IPortableDeviceDataStream](https://msdn.microsoft.com/library/windows/desktop/dd388542.aspx) | Introduced in 10.0.10240. |
-| [IPortableDeviceDispatchFactory](https://msdn.microsoft.com/library/windows/desktop/dd389218.aspx) | Introduced in 10.0.10240. |
-| [IPortableDeviceEventCallback](https://msdn.microsoft.com/library/windows/desktop/dd388545.aspx) | Introduced in 10.0.10240. |
-| [IPortableDeviceKeyCollection](https://msdn.microsoft.com/library/windows/desktop/dd388547.aspx) | Introduced in 10.0.10240. |
-| [IPortableDeviceManager](https://msdn.microsoft.com/library/windows/desktop/dd388688.aspx) | Introduced in 10.0.10240. |
-| [IPortableDeviceProperties](https://msdn.microsoft.com/library/windows/desktop/dd388696.aspx) | Introduced in 10.0.10240. |
-| [IPortableDevicePropertiesBulk](https://msdn.microsoft.com/library/windows/desktop/dd388697.aspx) | Introduced in 10.0.10240. |
-| [IPortableDevicePropertiesBulkCallback](https://msdn.microsoft.com/library/windows/desktop/dd388698.aspx) | Introduced in 10.0.10240. |
-| [IPortableDevicePropVariantCollection](https://msdn.microsoft.com/library/windows/desktop/dd388719.aspx) | Introduced in 10.0.10240. |
-| [IPortableDeviceResources](https://msdn.microsoft.com/library/windows/desktop/dd388733.aspx) | Introduced in 10.0.10240. |
-| [IPortableDeviceService](https://msdn.microsoft.com/library/windows/desktop/dd388753.aspx) | Introduced in 10.0.10240. |
+| [IPortableDevice](/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledevice) | Introduced in 10.0.10240. |
+| [IPortableDeviceCapabilities](/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities) | Introduced in 10.0.10240. |
+| [IPortableDeviceContent](/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent) | Introduced in 10.0.10240. |
+| [IPortableDeviceContent2](/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent2) | Introduced in 10.0.10240. |
+| [IPortableDeviceDataStream](/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicedatastream) | Introduced in 10.0.10240. |
+| [IPortableDeviceDispatchFactory](/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicedispatchfactory) | Introduced in 10.0.10240. |
+| [IPortableDeviceEventCallback](/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceeventcallback) | Introduced in 10.0.10240. |
+| [IPortableDeviceKeyCollection](/windows/win32/wpd_sdk/iportabledevicekeycollection) | Introduced in 10.0.10240. |
+| [IPortableDeviceManager](/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicemanager) | Introduced in 10.0.10240. |
+| [IPortableDeviceProperties](/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties) | Introduced in 10.0.10240. |
+| [IPortableDevicePropertiesBulk](/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulk) | Introduced in 10.0.10240. |
+| [IPortableDevicePropertiesBulkCallback](/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulkcallback) | Introduced in 10.0.10240. |
+| [IPortableDevicePropVariantCollection](/windows/win32/wpd_sdk/iportabledevicepropvariantcollection) | Introduced in 10.0.10240. |
+| [IPortableDeviceResources](/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceresources) | Introduced in 10.0.10240. |
+| [IPortableDeviceService](/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice) | Introduced in 10.0.10240. |
 | IPortableDeviceServiceActivation | Introduced in 10.0.10240. |
-| [IPortableDeviceServiceCapabilities](https://msdn.microsoft.com/library/windows/desktop/dd388755.aspx) | Introduced in 10.0.10240. |
-| [IPortableDeviceServiceManager](https://msdn.microsoft.com/library/windows/desktop/dd319402.aspx) | Introduced in 10.0.10240. |
-| [IPortableDeviceServiceMethodCallback](https://msdn.microsoft.com/library/windows/desktop/dd319411.aspx) | Introduced in 10.0.10240. |
-| [IPortableDeviceServiceMethods](https://msdn.microsoft.com/library/windows/desktop/dd319418.aspx) | Introduced in 10.0.10240. |
+| [IPortableDeviceServiceCapabilities](/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicecapabilities) | Introduced in 10.0.10240. |
+| [IPortableDeviceServiceManager](/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemanager) | Introduced in 10.0.10240. |
+| [IPortableDeviceServiceMethodCallback](/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemethodcallback) | Introduced in 10.0.10240. |
+| [IPortableDeviceServiceMethods](/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemethods) | Introduced in 10.0.10240. |
 | IPortableDeviceServiceOpenCallback | Introduced in 10.0.10240. |
-| [IPortableDeviceUnitsStream](https://msdn.microsoft.com/library/windows/desktop/hh707376.aspx) | Introduced in 10.0.10240. |
-| [IPortableDeviceValues](https://msdn.microsoft.com/library/windows/desktop/dd319461.aspx) | Introduced in 10.0.10240. |
-| [IPortableDeviceValuesCollection](https://msdn.microsoft.com/library/windows/desktop/dd319463.aspx) | Introduced in 10.0.10240. |
-| [IPrintDocumentPackageTarget](https://msdn.microsoft.com/library/windows/desktop/hh448393.aspx) | Introduced in 10.0.10240. |
-| [IPrintDocumentPageSource](https://msdn.microsoft.com/library/windows/desktop/jj710015.aspx) | Introduced in 10.0.10240. |
-| [IPrinterBidiSetRequestCallback](https://msdn.microsoft.com/library/windows/desktop/dn265385.aspx) | Introduced in 10.0.10240. |
-| [IPrinterExtensionAsyncOperation](https://msdn.microsoft.com/library/windows/desktop/dn265387.aspx) | Introduced in 10.0.10240. |
-| [IPrinterExtensionContext](https://msdn.microsoft.com/library/windows/desktop/hh406649.aspx) | Introduced in 10.0.10240. |
-| [IPrinterPropertyBag](https://msdn.microsoft.com/library/windows/desktop/hh439547.aspx) | Introduced in 10.0.10240. |
-| [IPrinterQueue](https://msdn.microsoft.com/library/windows/desktop/hh439635.aspx) | Introduced in 10.0.10240. |
-| [IPrinterQueue2](https://msdn.microsoft.com/library/windows/desktop/dn265389.aspx) | Introduced in 10.0.10240. |
-| [IPrinterQueueEvent](https://msdn.microsoft.com/library/windows/desktop/hh439618.aspx) | Introduced in 10.0.10240. |
-| [IPrinterQueueView](https://msdn.microsoft.com/library/windows/desktop/dn265392.aspx) | Introduced in 10.0.10240. |
-| [IPrinterQueueViewEvent](https://msdn.microsoft.com/library/windows/desktop/dn265393.aspx) | Introduced in 10.0.10240. |
-| [IPrintJob](https://msdn.microsoft.com/library/windows/desktop/dn265396.aspx) | Introduced in 10.0.10240. |
-| [IPrintJobCollection](https://msdn.microsoft.com/library/windows/desktop/dn265397.aspx) | Introduced in 10.0.10240. |
-| [IPrintPreviewDxgiPackageTarget](https://msdn.microsoft.com/library/windows/desktop/jj553554.aspx) | Introduced in 10.0.10240. |
-| [IPrintPreviewPageCollection](https://msdn.microsoft.com/library/windows/desktop/jj710018.aspx) | Introduced in 10.0.10240. |
-| [IPrintSchemaAsyncOperation](https://msdn.microsoft.com/library/windows/desktop/hh451224.aspx) | Introduced in 10.0.10240. |
-| [IPrintSchemaAsyncOperationEvent](https://msdn.microsoft.com/library/windows/desktop/hh451211.aspx) | Introduced in 10.0.10240. |
-| [IPrintSchemaCapabilities](https://msdn.microsoft.com/library/windows/desktop/hh451256.aspx) | Introduced in 10.0.10240. |
-| [IPrintSchemaCapabilities2](https://msdn.microsoft.com/library/Dn465887(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [IPrintSchemaDisplayableElement](https://msdn.microsoft.com/library/windows/desktop/hh451262.aspx) | Introduced in 10.0.10240. |
-| [IPrintSchemaElement](https://msdn.microsoft.com/library/windows/desktop/hh451270.aspx) | Introduced in 10.0.10240. |
-| [IPrintSchemaFeature](https://msdn.microsoft.com/library/windows/desktop/hh451284.aspx) | Introduced in 10.0.10240. |
-| [IPrintSchemaNUpOption](https://msdn.microsoft.com/library/windows/desktop/hh451302.aspx) | Introduced in 10.0.10240. |
-| [IPrintSchemaOption](https://msdn.microsoft.com/library/windows/desktop/hh451335.aspx) | Introduced in 10.0.10240. |
-| [IPrintSchemaOptionCollection](https://msdn.microsoft.com/library/windows/desktop/hh846198.aspx) | Introduced in 10.0.10240. |
-| [IPrintSchemaPageImageableSize](https://msdn.microsoft.com/library/windows/desktop/hh451366.aspx) | Introduced in 10.0.10240. |
-| [IPrintSchemaPageMediaSizeOption](https://msdn.microsoft.com/library/windows/desktop/hh451378.aspx) | Introduced in 10.0.10240. |
-| [IPrintSchemaParameterDefinition](https://msdn.microsoft.com/library/Dn465890(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [IPrintSchemaParameterInitializer](https://msdn.microsoft.com/library/Dn454557(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [IPrintSchemaTicket](https://msdn.microsoft.com/library/windows/desktop/hh451398.aspx) | Introduced in 10.0.10240. |
-| [IPrintSchemaTicket2](https://msdn.microsoft.com/library/Dn454560(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [IPropertyBag2](https://msdn.microsoft.com/library/Aa768192(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [IPropertySetStorage](https://msdn.microsoft.com/library/windows/desktop/aa379840.aspx) | Introduced in 10.0.10240. |
-| [IPropertyStorage](https://msdn.microsoft.com/library/windows/desktop/aa379968.aspx) | Introduced in 10.0.10240. |
-| [IPropertyStore](https://msdn.microsoft.com/library/windows/desktop/bb761474.aspx) | Introduced in 10.0.10240. |
-| [IProxyProviderWinEventHandler](https://msdn.microsoft.com/library/windows/desktop/ee671303.aspx) | Introduced in 10.0.10240. |
-| [IProxyProviderWinEventSink](https://msdn.microsoft.com/library/windows/desktop/ee671305.aspx) | Introduced in 10.0.10240. |
-| [IPSFactoryBuffer](https://msdn.microsoft.com/library/windows/desktop/ms695281.aspx) | Introduced in 10.0.10240. |
-| [IQuickActivate](https://msdn.microsoft.com/library/windows/desktop/ms690146.aspx) | Introduced in 10.0.10240. |
-| [IRangeValueProvider](https://msdn.microsoft.com/library/windows/desktop/ee671309.aspx) | Introduced in 10.0.10240. |
-| [IRawElementProviderAdviseEvents](https://msdn.microsoft.com/library/windows/desktop/ee671317.aspx) | Introduced in 10.0.10240. |
-| [IRawElementProviderFragment](https://msdn.microsoft.com/library/windows/desktop/ee671320.aspx) | Introduced in 10.0.10240. |
-| [IRawElementProviderFragmentRoot](https://msdn.microsoft.com/library/windows/desktop/ee671321.aspx) | Introduced in 10.0.10240. |
-| [IRawElementProviderHostingAccessibles](https://msdn.microsoft.com/library/windows/desktop/hh448785.aspx) | Introduced in 10.0.10240. |
-| [IRawElementProviderHwndOverride](https://msdn.microsoft.com/library/windows/desktop/ee671330.aspx) | Introduced in 10.0.10240. |
-| [IRawElementProviderSimple](https://msdn.microsoft.com/library/windows/desktop/ee671332.aspx) | Introduced in 10.0.10240. |
-| [IRawElementProviderSimple2](https://msdn.microsoft.com/library/windows/desktop/dn302133.aspx) | Introduced in 10.0.10240. |
-| [IRawElementProviderWindowlessSite](https://msdn.microsoft.com/library/windows/desktop/hh448787.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPIApplication](https://msdn.microsoft.com/library/windows/desktop/aa373266.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPIApplicationFilter](https://msdn.microsoft.com/library/windows/desktop/aa373267.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPIApplicationList](https://msdn.microsoft.com/library/windows/desktop/aa373271.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPIAttendee](https://msdn.microsoft.com/library/windows/desktop/aa373279.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPIAttendeeDisconnectInfo](https://msdn.microsoft.com/library/windows/desktop/aa373280.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPIAttendeeManager](https://msdn.microsoft.com/library/windows/desktop/aa373284.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPIAudioStream](https://msdn.microsoft.com/library/windows/desktop/dn408582.aspx) | Introduced in 10.0.10240. |
+| [IPortableDeviceUnitsStream](/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceunitsstream) | Introduced in 10.0.10240. |
+| [IPortableDeviceValues](/windows/win32/wpd_sdk/iportabledevicevalues) | Introduced in 10.0.10240. |
+| [IPortableDeviceValuesCollection](/windows/win32/wpd_sdk/iportabledevicevaluescollection) | Introduced in 10.0.10240. |
+| [IPrintDocumentPackageTarget](/windows/win32/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget) | Introduced in 10.0.10240. |
+| [IPrintDocumentPageSource](/previous-versions//jj710015(v=vs.85)) | Introduced in 10.0.10240. |
+| [IPrinterBidiSetRequestCallback](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterbidisetrequestcallback) | Introduced in 10.0.10240. |
+| [IPrinterExtensionAsyncOperation](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensionasyncoperation) | Introduced in 10.0.10240. |
+| [IPrinterExtensionContext](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext) | Introduced in 10.0.10240. |
+| [IPrinterPropertyBag](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterpropertybag) | Introduced in 10.0.10240. |
+| [IPrinterQueue](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue) | Introduced in 10.0.10240. |
+| [IPrinterQueue2](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue2) | Introduced in 10.0.10240. |
+| [IPrinterQueueEvent](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueevent) | Introduced in 10.0.10240. |
+| [IPrinterQueueView](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueview) | Introduced in 10.0.10240. |
+| [IPrinterQueueViewEvent](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueviewevent) | Introduced in 10.0.10240. |
+| [IPrintJob](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob) | Introduced in 10.0.10240. |
+| [IPrintJobCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjobcollection) | Introduced in 10.0.10240. |
+| [IPrintPreviewDxgiPackageTarget](/previous-versions//jj553554(v=vs.85)) | Introduced in 10.0.10240. |
+| [IPrintPreviewPageCollection](/previous-versions//jj710018(v=vs.85)) | Introduced in 10.0.10240. |
+| [IPrintSchemaAsyncOperation](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaasyncoperation) | Introduced in 10.0.10240. |
+| [IPrintSchemaAsyncOperationEvent](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaasyncoperationevent) | Introduced in 10.0.10240. |
+| [IPrintSchemaCapabilities](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities) | Introduced in 10.0.10240. |
+| [IPrintSchemaCapabilities2](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities2) | Introduced in 10.0.10240. |
+| [IPrintSchemaDisplayableElement](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemadisplayableelement) | Introduced in 10.0.10240. |
+| [IPrintSchemaElement](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement) | Introduced in 10.0.10240. |
+| [IPrintSchemaFeature](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemafeature) | Introduced in 10.0.10240. |
+| [IPrintSchemaNUpOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemanupoption) | Introduced in 10.0.10240. |
+| [IPrintSchemaOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption) | Introduced in 10.0.10240. |
+| [IPrintSchemaOptionCollection](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoptioncollection) | Introduced in 10.0.10240. |
+| [IPrintSchemaPageImageableSize](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemapageimageablesize) | Introduced in 10.0.10240. |
+| [IPrintSchemaPageMediaSizeOption](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemapagemediasizeoption) | Introduced in 10.0.10240. |
+| [IPrintSchemaParameterDefinition](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition) | Introduced in 10.0.10240. |
+| [IPrintSchemaParameterInitializer](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterinitializer) | Introduced in 10.0.10240. |
+| [IPrintSchemaTicket](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket) | Introduced in 10.0.10240. |
+| [IPrintSchemaTicket2](/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket2) | Introduced in 10.0.10240. |
+| [IPropertyBag2](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85)) | Introduced in 10.0.10240. |
+| [IPropertySetStorage](/windows/win32/api/propidl/nn-propidl-ipropertysetstorage) | Introduced in 10.0.10240. |
+| [IPropertyStorage](/windows/win32/api/propidlbase/nn-propidlbase-ipropertystorage) | Introduced in 10.0.10240. |
+| [IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore) | Introduced in 10.0.10240. |
+| [IProxyProviderWinEventHandler](/windows/win32/api/uiautomationcore/nn-uiautomationcore-iproxyproviderwineventhandler) | Introduced in 10.0.10240. |
+| [IProxyProviderWinEventSink](/windows/win32/api/uiautomationcore/nn-uiautomationcore-iproxyproviderwineventsink) | Introduced in 10.0.10240. |
+| [IPSFactoryBuffer](/windows/win32/api/objidlbase/nn-objidlbase-ipsfactorybuffer) | Introduced in 10.0.10240. |
+| [IQuickActivate](/windows/win32/api/ocidl/nn-ocidl-iquickactivate) | Introduced in 10.0.10240. |
+| [IRangeValueProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-irangevalueprovider) | Introduced in 10.0.10240. |
+| [IRawElementProviderAdviseEvents](/windows/win32/api/uiautomationcore/nn-uiautomationcore-irawelementprovideradviseevents) | Introduced in 10.0.10240. |
+| [IRawElementProviderFragment](/windows/win32/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment) | Introduced in 10.0.10240. |
+| [IRawElementProviderFragmentRoot](/windows/win32/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot) | Introduced in 10.0.10240. |
+| [IRawElementProviderHostingAccessibles](/windows/win32/api/uiautomationcore/nn-uiautomationcore-irawelementproviderhostingaccessibles) | Introduced in 10.0.10240. |
+| [IRawElementProviderHwndOverride](/windows/win32/api/uiautomationcore/nn-uiautomationcore-irawelementproviderhwndoverride) | Introduced in 10.0.10240. |
+| [IRawElementProviderSimple](/windows/win32/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple) | Introduced in 10.0.10240. |
+| [IRawElementProviderSimple2](/windows/win32/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple2) | Introduced in 10.0.10240. |
+| [IRawElementProviderWindowlessSite](/windows/win32/api/uiautomationcore/nn-uiautomationcore-irawelementproviderwindowlesssite) | Introduced in 10.0.10240. |
+| [IRDPSRAPIApplication](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplication) | Introduced in 10.0.10240. |
+| [IRDPSRAPIApplicationFilter](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplicationfilter) | Introduced in 10.0.10240. |
+| [IRDPSRAPIApplicationList](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplicationlist) | Introduced in 10.0.10240. |
+| [IRDPSRAPIAttendee](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee) | Introduced in 10.0.10240. |
+| [IRDPSRAPIAttendeeDisconnectInfo](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendeedisconnectinfo) | Introduced in 10.0.10240. |
+| [IRDPSRAPIAttendeeManager](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendeemanager) | Introduced in 10.0.10240. |
+| [IRDPSRAPIAudioStream](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapiaudiostream) | Introduced in 10.0.10240. |
 | IRDPSRAPIDebug | Introduced in 10.0.10240. |
-| [IRDPSRAPIFrameBuffer](https://msdn.microsoft.com/library/windows/desktop/dn894394.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPIInvitation](https://msdn.microsoft.com/library/windows/desktop/aa373294.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPIInvitationManager](https://msdn.microsoft.com/library/windows/desktop/aa373295.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPIPerfCounterLogger](https://msdn.microsoft.com/library/windows/desktop/dn408589.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPIPerfCounterLoggingManager](https://msdn.microsoft.com/library/windows/desktop/dn408592.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPISessionProperties](https://msdn.microsoft.com/library/windows/desktop/aa373305.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPISharingSession](https://msdn.microsoft.com/library/windows/desktop/aa373307.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPISharingSession2](https://msdn.microsoft.com/library/windows/desktop/dn894401.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPITcpConnectionInfo](https://msdn.microsoft.com/library/windows/desktop/aa373321.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPITransportStream](https://msdn.microsoft.com/library/windows/desktop/ee620975.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPITransportStreamBuffer](https://msdn.microsoft.com/library/windows/desktop/ee620976.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPITransportStreamEvents](https://msdn.microsoft.com/library/windows/desktop/ee620984.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPIViewer](https://msdn.microsoft.com/library/windows/desktop/aa373327.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPIVirtualChannel](https://msdn.microsoft.com/library/windows/desktop/aa373361.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPIVirtualChannelManager](https://msdn.microsoft.com/library/windows/desktop/aa373362.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPIWindow](https://msdn.microsoft.com/library/windows/desktop/aa373371.aspx) | Introduced in 10.0.10240. |
-| [IRDPSRAPIWindowList](https://msdn.microsoft.com/library/windows/desktop/aa373372.aspx) | Introduced in 10.0.10240. |
-| [IRDPViewerInputSink](https://msdn.microsoft.com/library/windows/desktop/dn408595.aspx) | Introduced in 10.0.10240. |
-| [IRDPViewerRenderingSurface](https://msdn.microsoft.com/library/windows/desktop/hh802746.aspx) | Introduced in 10.0.10240. |
-| [IReferenceTracker](https://msdn.microsoft.com/library/windows/desktop/jj542495.aspx) | Introduced in 10.0.10240. |
-| [IReferenceTrackerHost](https://msdn.microsoft.com/library/windows/desktop/jj542496.aspx) | Introduced in 10.0.10240. |
-| [IReferenceTrackerManager](https://msdn.microsoft.com/library/windows/desktop/jj542503.aspx) | Introduced in 10.0.10240. |
-| [IReferenceTrackerTarget](https://msdn.microsoft.com/library/windows/desktop/jj542508.aspx) | Introduced in 10.0.10240. |
-| [IRemoteDesktopClient](https://msdn.microsoft.com/library/windows/desktop/hh448564.aspx) | Introduced in 10.0.10240. |
-| [IRemoteDesktopClientActions](https://msdn.microsoft.com/library/windows/desktop/hh448581.aspx) | Introduced in 10.0.10240. |
-| [IRemoteDesktopClientEvents](https://msdn.microsoft.com/library/windows/desktop/hh448568.aspx) | Introduced in 10.0.10240. |
-| [IRemoteDesktopClientSettings](https://msdn.microsoft.com/library/windows/desktop/hh448590.aspx) | Introduced in 10.0.10240. |
-| [IRestrictedErrorInfo](https://msdn.microsoft.com/library/windows/desktop/br224587.aspx) | Introduced in 10.0.10240. |
-| [IRootStorage](https://msdn.microsoft.com/library/windows/desktop/aa379987.aspx) | Introduced in 10.0.10240. |
-| [IRpcChannelBuffer](https://msdn.microsoft.com/library/windows/desktop/ms679738.aspx) | Introduced in 10.0.10240. |
-| [IRpcStubBuffer](https://msdn.microsoft.com/library/windows/desktop/ms678504.aspx) | Introduced in 10.0.10240. |
-| [IScrollItemProvider](https://msdn.microsoft.com/library/windows/desktop/ee671338.aspx) | Introduced in 10.0.10240. |
-| [IScrollProvider](https://msdn.microsoft.com/library/windows/desktop/ee671340.aspx) | Introduced in 10.0.10240. |
-| [ISelectionItemProvider](https://msdn.microsoft.com/library/windows/desktop/ee671349.aspx) | Introduced in 10.0.10240. |
-| [ISelectionProvider](https://msdn.microsoft.com/library/windows/desktop/ee671355.aspx) | Introduced in 10.0.10240. |
-| [ISequentialStream](https://msdn.microsoft.com/library/windows/desktop/aa380010.aspx) | Introduced in 10.0.10240. |
+| [IRDPSRAPIFrameBuffer](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapiframebuffer) | Introduced in 10.0.10240. |
+| [IRDPSRAPIInvitation](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitation) | Introduced in 10.0.10240. |
+| [IRDPSRAPIInvitationManager](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitationmanager) | Introduced in 10.0.10240. |
+| [IRDPSRAPIPerfCounterLogger](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapiperfcounterlogger) | Introduced in 10.0.10240. |
+| [IRDPSRAPIPerfCounterLoggingManager](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapiperfcounterloggingmanager) | Introduced in 10.0.10240. |
+| [IRDPSRAPISessionProperties](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapisessionproperties) | Introduced in 10.0.10240. |
+| [IRDPSRAPISharingSession](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession) | Introduced in 10.0.10240. |
+| [IRDPSRAPISharingSession2](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession2) | Introduced in 10.0.10240. |
+| [IRDPSRAPITcpConnectionInfo](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapitcpconnectioninfo) | Introduced in 10.0.10240. |
+| [IRDPSRAPITransportStream](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstream) | Introduced in 10.0.10240. |
+| [IRDPSRAPITransportStreamBuffer](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreambuffer) | Introduced in 10.0.10240. |
+| [IRDPSRAPITransportStreamEvents](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreamevents) | Introduced in 10.0.10240. |
+| [IRDPSRAPIViewer](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapiviewer) | Introduced in 10.0.10240. |
+| [IRDPSRAPIVirtualChannel](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapivirtualchannel) | Introduced in 10.0.10240. |
+| [IRDPSRAPIVirtualChannelManager](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapivirtualchannelmanager) | Introduced in 10.0.10240. |
+| [IRDPSRAPIWindow](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapiwindow) | Introduced in 10.0.10240. |
+| [IRDPSRAPIWindowList](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapiwindowlist) | Introduced in 10.0.10240. |
+| [IRDPViewerInputSink](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpviewerinputsink) | Introduced in 10.0.10240. |
+| [IRDPViewerRenderingSurface](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpviewerrenderingsurface) | Introduced in 10.0.10240. |
+| [IReferenceTracker](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetracker) | Introduced in 10.0.10240. |
+| [IReferenceTrackerHost](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost) | Introduced in 10.0.10240. |
+| [IReferenceTrackerManager](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackermanager) | Introduced in 10.0.10240. |
+| [IReferenceTrackerTarget](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget) | Introduced in 10.0.10240. |
+| [IRemoteDesktopClient](/previous-versions//hh448564(v=vs.85)) | Introduced in 10.0.10240. |
+| [IRemoteDesktopClientActions](/previous-versions//hh448581(v=vs.85)) | Introduced in 10.0.10240. |
+| [IRemoteDesktopClientEvents](/previous-versions//hh448568(v=vs.85)) | Introduced in 10.0.10240. |
+| [IRemoteDesktopClientSettings](/previous-versions//hh448590(v=vs.85)) | Introduced in 10.0.10240. |
+| [IRestrictedErrorInfo](/windows/win32/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo) | Introduced in 10.0.10240. |
+| [IRootStorage](/windows/win32/api/objidl/nn-objidl-irootstorage) | Introduced in 10.0.10240. |
+| [IRpcChannelBuffer](/windows/win32/api/objidlbase/nn-objidlbase-irpcchannelbuffer) | Introduced in 10.0.10240. |
+| [IRpcStubBuffer](/windows/win32/api/objidlbase/nn-objidlbase-irpcstubbuffer) | Introduced in 10.0.10240. |
+| [IScrollItemProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-iscrollitemprovider) | Introduced in 10.0.10240. |
+| [IScrollProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-iscrollprovider) | Introduced in 10.0.10240. |
+| [ISelectionItemProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-iselectionitemprovider) | Introduced in 10.0.10240. |
+| [ISelectionProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-iselectionprovider) | Introduced in 10.0.10240. |
+| [ISequentialStream](/windows/win32/api/objidl/nn-objidl-isequentialstream) | Introduced in 10.0.10240. |
 | ISignalableNotifier | Introduced in 10.0.10240. |
-| [ISimpleAudioVolume](https://msdn.microsoft.com/library/windows/desktop/dd316531.aspx) | Introduced in 10.0.10240. |
-| [ISoftwareBitmapNative](https://msdn.microsoft.com/library/windows/desktop/dn878036.aspx) | Introduced in 10.0.10240. |
-| [ISoftwareBitmapNativeFactory](https://msdn.microsoft.com/library/windows/desktop/dn878037.aspx) | Introduced in 10.0.10240. |
-| [ISpellChecker](https://msdn.microsoft.com/library/windows/desktop/hh869767.aspx) | Introduced in 10.0.10240. |
-| [ISpellChecker2](https://msdn.microsoft.com/library/windows/desktop/mt422900.aspx) | Introduced in 10.0.10240. |
-| [ISpellCheckerChangedEventHandler](https://msdn.microsoft.com/library/windows/desktop/hh869768.aspx) | Introduced in 10.0.10240. |
-| [ISpellCheckerFactory](https://msdn.microsoft.com/library/windows/desktop/hh869770.aspx) | Introduced in 10.0.10240. |
-| [ISpellingError](https://msdn.microsoft.com/library/windows/desktop/hh869805.aspx) | Introduced in 10.0.10240. |
-| [ISpreadsheetItemProvider](https://msdn.microsoft.com/library/windows/desktop/hh448790.aspx) | Introduced in 10.0.10240. |
-| [ISpreadsheetProvider](https://msdn.microsoft.com/library/windows/desktop/hh448796.aspx) | Introduced in 10.0.10240. |
-| [IStorage](https://msdn.microsoft.com/library/windows/desktop/aa380015.aspx) | Introduced in 10.0.10240. |
-| [IStream](https://msdn.microsoft.com/library/windows/desktop/aa380034.aspx) | Introduced in 10.0.10240. |
-| [IStylesProvider](https://msdn.microsoft.com/library/windows/desktop/hh448800.aspx) | Introduced in 10.0.10240. |
-| [ISurfaceImageSourceManagerNative](https://msdn.microsoft.com/library/windows/desktop/dn448959.aspx) | Introduced in 10.0.10240. |
-| [ISurfaceImageSourceNative](https://msdn.microsoft.com/library/windows/desktop/hh848322.aspx) | Introduced in 10.0.10240. |
-| [ISurfaceImageSourceNativeWithD2D](https://msdn.microsoft.com/library/windows/desktop/dn302137.aspx) | Introduced in 10.0.10240. |
-| [ISurrogate](https://msdn.microsoft.com/library/windows/desktop/ms695062.aspx) | Introduced in 10.0.10240. |
-| [ISwapChainBackgroundPanelNative](https://msdn.microsoft.com/library/windows/desktop/hh848326.aspx) | Introduced in 10.0.10240. |
-| [ISwapChainPanelNative](https://msdn.microsoft.com/library/windows/desktop/dn302143.aspx) | Introduced in 10.0.10240. |
-| [ISwapChainPanelNative2](https://msdn.microsoft.com/library/windows/desktop/dn858172.aspx) | Introduced in 10.0.10240. |
-| [ISynchronizedInputProvider](https://msdn.microsoft.com/library/windows/desktop/ee671359.aspx) | Introduced in 10.0.10240. |
-| [ITableItemProvider](https://msdn.microsoft.com/library/windows/desktop/ee671362.aspx) | Introduced in 10.0.10240. |
-| [ITableProvider](https://msdn.microsoft.com/library/windows/desktop/ee671365.aspx) | Introduced in 10.0.10240. |
-| [ITextChildProvider](https://msdn.microsoft.com/library/windows/desktop/hh437317.aspx) | Introduced in 10.0.10240. |
-| [ITextEditProvider](https://msdn.microsoft.com/library/windows/desktop/dn302166.aspx) | Introduced in 10.0.10240. |
-| [ITextProvider](https://msdn.microsoft.com/library/windows/desktop/ee671370.aspx) | Introduced in 10.0.10240. |
-| [ITextProvider2](https://msdn.microsoft.com/library/windows/desktop/hh448818.aspx) | Introduced in 10.0.10240. |
-| [ITextRangeProvider](https://msdn.microsoft.com/library/windows/desktop/ee671377.aspx) | Introduced in 10.0.10240. |
-| [ITextRangeProvider2](https://msdn.microsoft.com/library/windows/desktop/dn302169.aspx) | Introduced in 10.0.10240. |
-| [ITextStoreACP2](https://msdn.microsoft.com/library/windows/desktop/jj670566.aspx) | Introduced in 10.0.10240. |
-| [ITextStoreACPServices](https://msdn.microsoft.com/library/windows/desktop/ms538387.aspx) | Introduced in 10.0.10240. |
-| [ITextStoreACPSink](https://msdn.microsoft.com/library/windows/desktop/ms538395.aspx) | Introduced in 10.0.10240. |
-| [ITextStoreAnchor](https://msdn.microsoft.com/library/windows/desktop/ms538453.aspx) | Introduced in 10.0.10240. |
-| [ITextStoreAnchorSink](https://msdn.microsoft.com/library/windows/desktop/ms538454.aspx) | Introduced in 10.0.10240. |
-| [ITfCandidateList](https://msdn.microsoft.com/library/windows/desktop/ms538492.aspx) | Introduced in 10.0.10240. |
-| [ITfCandidateListUIElement](https://msdn.microsoft.com/library/windows/desktop/aa380892.aspx) | Introduced in 10.0.10240. |
-| [ITfCandidateListUIElementBehavior](https://msdn.microsoft.com/library/windows/desktop/aa381004.aspx) | Introduced in 10.0.10240. |
-| [ITfCandidateString](https://msdn.microsoft.com/library/windows/desktop/ms538497.aspx) | Introduced in 10.0.10240. |
-| [ITfCategoryMgr](https://msdn.microsoft.com/library/windows/desktop/ms538500.aspx) | Introduced in 10.0.10240. |
-| [ITfCompartment](https://msdn.microsoft.com/library/windows/desktop/ms538621.aspx) | Introduced in 10.0.10240. |
-| [ITfCompartmentEventSink](https://msdn.microsoft.com/library/windows/desktop/ms538625.aspx) | Introduced in 10.0.10240. |
-| [ITfCompartmentMgr](https://msdn.microsoft.com/library/windows/desktop/ms538631.aspx) | Introduced in 10.0.10240. |
-| [ITfComposition](https://msdn.microsoft.com/library/windows/desktop/ms538653.aspx) | Introduced in 10.0.10240. |
-| [ITfCompositionSink](https://msdn.microsoft.com/library/windows/desktop/ms538654.aspx) | Introduced in 10.0.10240. |
-| [ITfCompositionView](https://msdn.microsoft.com/library/windows/desktop/ms538660.aspx) | Introduced in 10.0.10240. |
-| [ITfConfigureSystemKeystrokeFeed](https://msdn.microsoft.com/library/windows/desktop/ms538692.aspx) | Introduced in 10.0.10240. |
-| [ITfContext](https://msdn.microsoft.com/library/windows/desktop/ms538703.aspx) | Introduced in 10.0.10240. |
-| [ITfContextComposition](https://msdn.microsoft.com/library/windows/desktop/ms538705.aspx) | Introduced in 10.0.10240. |
-| [ITfContextOwnerCompositionServices](https://msdn.microsoft.com/library/windows/desktop/ms538734.aspx) | Introduced in 10.0.10240. |
-| [ITfContextOwnerCompositionSink](https://msdn.microsoft.com/library/windows/desktop/ms538740.aspx) | Introduced in 10.0.10240. |
-| [ITfContextOwnerServices](https://msdn.microsoft.com/library/windows/desktop/ms538750.aspx) | Introduced in 10.0.10240. |
-| [ITfContextView](https://msdn.microsoft.com/library/windows/desktop/ms538779.aspx) | Introduced in 10.0.10240. |
-| [ITfDisplayAttributeInfo](https://msdn.microsoft.com/library/windows/desktop/ms538802.aspx) | Introduced in 10.0.10240. |
-| [ITfDisplayAttributeMgr](https://msdn.microsoft.com/library/windows/desktop/ms538808.aspx) | Introduced in 10.0.10240. |
-| [ITfDisplayAttributeNotifySink](https://msdn.microsoft.com/library/windows/desktop/ms538869.aspx) | Introduced in 10.0.10240. |
-| [ITfDisplayAttributeProvider](https://msdn.microsoft.com/library/windows/desktop/ms538873.aspx) | Introduced in 10.0.10240. |
-| [ITfDocumentMgr](https://msdn.microsoft.com/library/windows/desktop/ms538878.aspx) | Introduced in 10.0.10240. |
-| [ITfEditRecord](https://msdn.microsoft.com/library/windows/desktop/ms538901.aspx) | Introduced in 10.0.10240. |
-| [ITfEditSession](https://msdn.microsoft.com/library/windows/desktop/ms538906.aspx) | Introduced in 10.0.10240. |
-| [ITfFnGetSAPIObject](https://msdn.microsoft.com/library/windows/desktop/ms538932.aspx) | Introduced in 10.0.10240. |
-| [ITfFnReconversion](https://msdn.microsoft.com/library/windows/desktop/ms538970.aspx) | Introduced in 10.0.10240. |
-| [ITfFunction](https://msdn.microsoft.com/library/windows/desktop/ms538978.aspx) | Introduced in 10.0.10240. |
-| [ITfFunctionProvider](https://msdn.microsoft.com/library/windows/desktop/ms538979.aspx) | Introduced in 10.0.10240. |
-| [ITfInputProcessorProfileActivationSink](https://msdn.microsoft.com/library/windows/desktop/aa381928.aspx) | Introduced in 10.0.10240. |
-| [ITfInputProcessorProfileMgr](https://msdn.microsoft.com/library/windows/desktop/aa381941.aspx) | Introduced in 10.0.10240. |
-| [ITfInputScope](https://msdn.microsoft.com/library/windows/desktop/ms628582.aspx) | Introduced in 10.0.10240. |
-| [ITfInputScope2](https://msdn.microsoft.com/library/windows/desktop/aa382054.aspx) | Introduced in 10.0.10240. |
-| [ITfKeyEventSink](https://msdn.microsoft.com/library/windows/desktop/ms628601.aspx) | Introduced in 10.0.10240. |
-| [ITfKeystrokeMgr](https://msdn.microsoft.com/library/windows/desktop/ms628676.aspx) | Introduced in 10.0.10240. |
-| [ITfKeyTraceEventSink](https://msdn.microsoft.com/library/windows/desktop/ms628691.aspx) | Introduced in 10.0.10240. |
-| [ITfLanguageProfileNotifySink](https://msdn.microsoft.com/library/windows/desktop/ms628769.aspx) | Introduced in 10.0.10240. |
-| [ITfPersistentPropertyLoaderACP](https://msdn.microsoft.com/library/windows/desktop/ms628877.aspx) | Introduced in 10.0.10240. |
-| [ITfPreservedKeyNotifySink](https://msdn.microsoft.com/library/windows/desktop/ms628879.aspx) | Introduced in 10.0.10240. |
-| [ITfProperty](https://msdn.microsoft.com/library/windows/desktop/ms628891.aspx) | Introduced in 10.0.10240. |
-| [ITfPropertyStore](https://msdn.microsoft.com/library/windows/desktop/ms628892.aspx) | Introduced in 10.0.10240. |
-| [ITfRange](https://msdn.microsoft.com/library/windows/desktop/ms628908.aspx) | Introduced in 10.0.10240. |
-| [ITfRangeACP](https://msdn.microsoft.com/library/windows/desktop/ms628909.aspx) | Introduced in 10.0.10240. |
-| [ITfRangeBackup](https://msdn.microsoft.com/library/windows/desktop/ms628912.aspx) | Introduced in 10.0.10240. |
-| [ITfReadingInformationUIElement](https://msdn.microsoft.com/library/windows/desktop/aa382576.aspx) | Introduced in 10.0.10240. |
-| [ITfReadOnlyProperty](https://msdn.microsoft.com/library/windows/desktop/ms628936.aspx) | Introduced in 10.0.10240. |
-| [ITfSource](https://msdn.microsoft.com/library/windows/desktop/ms628941.aspx) | Introduced in 10.0.10240. |
-| [ITfSourceSingle](https://msdn.microsoft.com/library/windows/desktop/ms628942.aspx) | Introduced in 10.0.10240. |
-| [ITfTextEditSink](https://msdn.microsoft.com/library/windows/desktop/ms628962.aspx) | Introduced in 10.0.10240. |
-| [ITfThreadMgr2](https://msdn.microsoft.com/library/windows/desktop/hh920960.aspx) | Introduced in 10.0.10240. |
-| [ITfUIElement](https://msdn.microsoft.com/library/windows/desktop/aa383175.aspx) | Introduced in 10.0.10240. |
-| [ITfUIElementMgr](https://msdn.microsoft.com/library/windows/desktop/aa383178.aspx) | Introduced in 10.0.10240. |
-| [ITfUIElementSink](https://msdn.microsoft.com/library/windows/desktop/aa383201.aspx) | Introduced in 10.0.10240. |
-| [IThumbnailStreamCache](https://msdn.microsoft.com/library/windows/desktop/mt438734.aspx) | Introduced in 10.0.10240. |
-| [IToggleProvider](https://msdn.microsoft.com/library/windows/desktop/ee671396.aspx) | Introduced in 10.0.10240. |
-| [ITransformProvider](https://msdn.microsoft.com/library/windows/desktop/ee671399.aspx) | Introduced in 10.0.10240. |
-| [ITransformProvider2](https://msdn.microsoft.com/library/windows/desktop/hh448824.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationInterpolator](https://msdn.microsoft.com/library/windows/desktop/dd371665.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationInterpolator2](https://msdn.microsoft.com/library/windows/desktop/hh437121.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationLoopIterationChangeHandler2](https://msdn.microsoft.com/library/windows/desktop/hh437133.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationManager](https://msdn.microsoft.com/library/windows/desktop/dd371687.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationManager2](https://msdn.microsoft.com/library/windows/desktop/hh437135.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationManagerEventHandler](https://msdn.microsoft.com/library/windows/desktop/dd371690.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationManagerEventHandler2](https://msdn.microsoft.com/library/windows/desktop/hh437172.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationPrimitiveInterpolation](https://msdn.microsoft.com/library/windows/desktop/hh437174.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationPriorityComparison](https://msdn.microsoft.com/library/windows/desktop/dd371757.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationPriorityComparison2](https://msdn.microsoft.com/library/windows/desktop/hh437176.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationStoryboard](https://msdn.microsoft.com/library/windows/desktop/dd371761.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationStoryboard2](https://msdn.microsoft.com/library/windows/desktop/hh437178.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationStoryboardEventHandler](https://msdn.microsoft.com/library/windows/desktop/dd371764.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationStoryboardEventHandler2](https://msdn.microsoft.com/library/windows/desktop/hh448599.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationTimer](https://msdn.microsoft.com/library/windows/desktop/dd371831.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationTimerClientEventHandler](https://msdn.microsoft.com/library/windows/desktop/dd371834.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationTimerEventHandler](https://msdn.microsoft.com/library/windows/desktop/dd371841.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationTimerUpdateHandler](https://msdn.microsoft.com/library/windows/desktop/dd371853.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationTransition](https://msdn.microsoft.com/library/windows/desktop/dd371887.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationTransition2](https://msdn.microsoft.com/library/windows/desktop/hh448602.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationTransitionFactory](https://msdn.microsoft.com/library/windows/desktop/dd371891.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationTransitionFactory2](https://msdn.microsoft.com/library/windows/desktop/hh448610.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationTransitionLibrary](https://msdn.microsoft.com/library/windows/desktop/dd371897.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationTransitionLibrary2](https://msdn.microsoft.com/library/windows/desktop/hh448612.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationVariable](https://msdn.microsoft.com/library/windows/desktop/dd316797.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationVariable2](https://msdn.microsoft.com/library/windows/desktop/hh448632.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationVariableChangeHandler](https://msdn.microsoft.com/library/windows/desktop/dd316806.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationVariableChangeHandler2](https://msdn.microsoft.com/library/windows/desktop/hh448659.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationVariableCurveChangeHandler2](https://msdn.microsoft.com/library/windows/desktop/hh448661.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationVariableIntegerChangeHandler](https://msdn.microsoft.com/library/windows/desktop/dd316819.aspx) | Introduced in 10.0.10240. |
-| [IUIAnimationVariableIntegerChangeHandler2](https://msdn.microsoft.com/library/windows/desktop/hh448663.aspx) | Introduced in 10.0.10240. |
-| [IUIAutomationPatternHandler](https://msdn.microsoft.com/library/windows/desktop/ee696113.aspx) | Introduced in 10.0.10240. |
-| [IUIAutomationPatternInstance](https://msdn.microsoft.com/library/windows/desktop/ee696116.aspx) | Introduced in 10.0.10240. |
-| [IUIAutomationRegistrar](https://msdn.microsoft.com/library/windows/desktop/ee696161.aspx) | Introduced in 10.0.10240. |
-| [IUnknown](https://msdn.microsoft.com/library/windows/desktop/ms680509.aspx) | Introduced in 10.0.10240. |
-| [IValueProvider](https://msdn.microsoft.com/library/windows/desktop/ee671565.aspx) | Introduced in 10.0.10240. |
-| [IVideoFrameNative](https://msdn.microsoft.com/library/windows/desktop/mt431704.aspx) | Introduced in 10.0.10240. |
-| [IVideoFrameNativeFactory](https://msdn.microsoft.com/library/windows/desktop/mt431705.aspx) | Introduced in 10.0.10240. |
-| [IVirtualizedItemProvider](https://msdn.microsoft.com/library/windows/desktop/ee671569.aspx) | Introduced in 10.0.10240. |
-| [IVirtualSurfaceImageSourceNative](https://msdn.microsoft.com/library/windows/desktop/hh848328.aspx) | Introduced in 10.0.10240. |
-| [IVirtualSurfaceUpdatesCallbackNative](https://msdn.microsoft.com/library/windows/desktop/hh848336.aspx) | Introduced in 10.0.10240. |
-| [IWeakReference](https://msdn.microsoft.com/library/windows/desktop/br224608.aspx) | Introduced in 10.0.10240. |
-| [IWeakReferenceSource](https://msdn.microsoft.com/library/windows/desktop/br224609.aspx) | Introduced in 10.0.10240. |
-| [IWICBitmap](https://msdn.microsoft.com/library/windows/desktop/ee719675.aspx) | Introduced in 10.0.10240. |
-| [IWICBitmapClipper](https://msdn.microsoft.com/library/windows/desktop/ee719676.aspx) | Introduced in 10.0.10240. |
-| [IWICBitmapCodecInfo](https://msdn.microsoft.com/library/windows/desktop/ee719679.aspx) | Introduced in 10.0.10240. |
-| [IWICBitmapCodecProgressNotification](https://msdn.microsoft.com/library/windows/desktop/ee690084.aspx) | Introduced in 10.0.10240. |
-| [IWICBitmapDecoder](https://msdn.microsoft.com/library/windows/desktop/ee690086.aspx) | Introduced in 10.0.10240. |
-| [IWICBitmapDecoderInfo](https://msdn.microsoft.com/library/windows/desktop/ee690087.aspx) | Introduced in 10.0.10240. |
-| [IWICBitmapEncoder](https://msdn.microsoft.com/library/windows/desktop/ee690110.aspx) | Introduced in 10.0.10240. |
-| [IWICBitmapEncoderInfo](https://msdn.microsoft.com/library/windows/desktop/ee690112.aspx) | Introduced in 10.0.10240. |
-| [IWICBitmapFlipRotator](https://msdn.microsoft.com/library/windows/desktop/ee690131.aspx) | Introduced in 10.0.10240. |
-| [IWICBitmapFrameDecode](https://msdn.microsoft.com/library/windows/desktop/ee690134.aspx) | Introduced in 10.0.10240. |
-| [IWICBitmapFrameEncode](https://msdn.microsoft.com/library/windows/desktop/ee690141.aspx) | Introduced in 10.0.10240. |
-| [IWICBitmapLock](https://msdn.microsoft.com/library/windows/desktop/ee690161.aspx) | Introduced in 10.0.10240. |
-| [IWICBitmapScaler](https://msdn.microsoft.com/library/windows/desktop/ee690168.aspx) | Introduced in 10.0.10240. |
-| [IWICBitmapSource](https://msdn.microsoft.com/library/windows/desktop/ee690171.aspx) | Introduced in 10.0.10240. |
-| [IWICBitmapSourceTransform](https://msdn.microsoft.com/library/windows/desktop/ee690172.aspx) | Introduced in 10.0.10240. |
-| [IWICColorContext](https://msdn.microsoft.com/library/windows/desktop/ee690193.aspx) | Introduced in 10.0.10240. |
-| [IWICColorTransform](https://msdn.microsoft.com/library/windows/desktop/ee690201.aspx) | Introduced in 10.0.10240. |
-| [IWICComponentFactory](https://msdn.microsoft.com/library/windows/desktop/ee690203.aspx) | Introduced in 10.0.10240. |
-| [IWICComponentInfo](https://msdn.microsoft.com/library/windows/desktop/ee690213.aspx) | Introduced in 10.0.10240. |
-| [IWICDevelopRaw](https://msdn.microsoft.com/library/windows/desktop/ee690228.aspx) | Introduced in 10.0.10240. |
-| [IWICDevelopRawNotificationCallback](https://msdn.microsoft.com/library/windows/desktop/ee690229.aspx) | Introduced in 10.0.10240. |
-| [IWICEnumMetadataItem](https://msdn.microsoft.com/library/windows/desktop/ee690264.aspx) | Introduced in 10.0.10240. |
-| [IWICFastMetadataEncoder](https://msdn.microsoft.com/library/windows/desktop/ee690269.aspx) | Introduced in 10.0.10240. |
-| [IWICFormatConverter](https://msdn.microsoft.com/library/windows/desktop/ee690274.aspx) | Introduced in 10.0.10240. |
-| [IWICFormatConverterInfo](https://msdn.microsoft.com/library/windows/desktop/ee690275.aspx) | Introduced in 10.0.10240. |
-| [IWICImageEncoder](https://msdn.microsoft.com/library/windows/desktop/hh880844.aspx) | Introduced in 10.0.10240. |
-| [IWICImagingFactory](https://msdn.microsoft.com/library/windows/desktop/ee690281.aspx) | Introduced in 10.0.10240. |
-| [IWICImagingFactory2](https://msdn.microsoft.com/library/windows/desktop/hh880848.aspx) | Introduced in 10.0.10240. |
-| [IWICMetadataBlockReader](https://msdn.microsoft.com/library/windows/desktop/ee690327.aspx) | Introduced in 10.0.10240. |
-| [IWICMetadataBlockWriter](https://msdn.microsoft.com/library/windows/desktop/ee690335.aspx) | Introduced in 10.0.10240. |
-| [IWICMetadataHandlerInfo](https://msdn.microsoft.com/library/windows/desktop/ee719700.aspx) | Introduced in 10.0.10240. |
-| [IWICMetadataQueryReader](https://msdn.microsoft.com/library/windows/desktop/ee719708.aspx) | Introduced in 10.0.10240. |
-| [IWICMetadataQueryWriter](https://msdn.microsoft.com/library/windows/desktop/ee719717.aspx) | Introduced in 10.0.10240. |
-| [IWICMetadataReader](https://msdn.microsoft.com/library/windows/desktop/ee719722.aspx) | Introduced in 10.0.10240. |
-| [IWICMetadataReaderInfo](https://msdn.microsoft.com/library/windows/desktop/ee719723.aspx) | Introduced in 10.0.10240. |
-| [IWICMetadataWriter](https://msdn.microsoft.com/library/windows/desktop/ee719733.aspx) | Introduced in 10.0.10240. |
-| [IWICMetadataWriterInfo](https://msdn.microsoft.com/library/windows/desktop/ee719734.aspx) | Introduced in 10.0.10240. |
-| [IWICPalette](https://msdn.microsoft.com/library/windows/desktop/ee719741.aspx) | Introduced in 10.0.10240. |
-| [IWICPersistStream](https://msdn.microsoft.com/library/windows/desktop/ee719760.aspx) | Introduced in 10.0.10240. |
-| [IWICPixelFormatInfo](https://msdn.microsoft.com/library/windows/desktop/ee719763.aspx) | Introduced in 10.0.10240. |
-| [IWICPixelFormatInfo2](https://msdn.microsoft.com/library/windows/desktop/ee719764.aspx) | Introduced in 10.0.10240. |
-| [IWICProgressCallback](https://msdn.microsoft.com/library/windows/desktop/ee719775.aspx) | Introduced in 10.0.10240. |
-| [IWICProgressiveLevelControl](https://msdn.microsoft.com/library/windows/desktop/ee719778.aspx) | Introduced in 10.0.10240. |
-| [IWICStream](https://msdn.microsoft.com/library/windows/desktop/ee719782.aspx) | Introduced in 10.0.10240. |
-| [IWICStreamProvider](https://msdn.microsoft.com/library/windows/desktop/ee719783.aspx) | Introduced in 10.0.10240. |
-| [IWICDdsDecoder](https://msdn.microsoft.com/library/windows/desktop/dn302079.aspx) | Introduced in 10.0.10240. |
-| [IWICDdsEncoder](https://msdn.microsoft.com/library/windows/desktop/dn302082.aspx) | Introduced in 10.0.10240. |
-| [IWICDdsFrameDecode](https://msdn.microsoft.com/library/windows/desktop/dn302086.aspx) | Introduced in 10.0.10240. |
-| [IWICPlanarBitmapFrameEncode](https://msdn.microsoft.com/library/windows/desktop/dn302090.aspx) | Introduced in 10.0.10240. |
-| [IWICPlanarBitmapSourceTransform](https://msdn.microsoft.com/library/windows/desktop/dn302093.aspx) | Introduced in 10.0.10240. |
-| [IWICPlanarFormatConverter](https://msdn.microsoft.com/library/windows/desktop/dn302096.aspx) | Introduced in 10.0.10240. |
-| [IWICJpegFrameDecode](https://msdn.microsoft.com/library/windows/desktop/dn903834.aspx) | Introduced in 10.0.10240. |
-| [IWICJpegFrameEncode](https://msdn.microsoft.com/library/windows/desktop/dn903864.aspx) | Introduced in 10.0.10240. |
-| [IWindowProvider](https://msdn.microsoft.com/library/windows/desktop/ee671571.aspx) | Introduced in 10.0.10240. |
-| [IWindowsDevicesAllJoynBusAttachmentFactoryInterop](https://msdn.microsoft.com/library/Mt573659(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [IWindowsDevicesAllJoynBusAttachmentInterop](https://msdn.microsoft.com/library/Mt573661(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [ISimpleAudioVolume](/windows/win32/api/audioclient/nn-audioclient-isimpleaudiovolume) | Introduced in 10.0.10240. |
+| [ISoftwareBitmapNative](/windows/win32/api/windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnative) | Introduced in 10.0.10240. |
+| [ISoftwareBitmapNativeFactory](/windows/win32/api/windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnativefactory) | Introduced in 10.0.10240. |
+| [ISpellChecker](/windows/win32/api/spellcheck/nn-spellcheck-ispellchecker) | Introduced in 10.0.10240. |
+| [ISpellChecker2](/windows/win32/api/spellcheck/nn-spellcheck-ispellchecker2) | Introduced in 10.0.10240. |
+| [ISpellCheckerChangedEventHandler](/windows/win32/api/spellcheck/nn-spellcheck-ispellcheckerchangedeventhandler) | Introduced in 10.0.10240. |
+| [ISpellCheckerFactory](/windows/win32/api/spellcheck/nn-spellcheck-ispellcheckerfactory) | Introduced in 10.0.10240. |
+| [ISpellingError](/windows/win32/api/spellcheck/nn-spellcheck-ispellingerror) | Introduced in 10.0.10240. |
+| [ISpreadsheetItemProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-ispreadsheetitemprovider) | Introduced in 10.0.10240. |
+| [ISpreadsheetProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-ispreadsheetprovider) | Introduced in 10.0.10240. |
+| [IStorage](/windows/win32/api/objidl/nn-objidl-istorage) | Introduced in 10.0.10240. |
+| [IStream](/windows/win32/api/objidl/nn-objidl-istream) | Introduced in 10.0.10240. |
+| [IStylesProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-istylesprovider) | Introduced in 10.0.10240. |
+| [ISurfaceImageSourceManagerNative](/windows/win32/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-isurfaceimagesourcemanagernative) | Introduced in 10.0.10240. |
+| [ISurfaceImageSourceNative](/windows/win32/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenative) | Introduced in 10.0.10240. |
+| [ISurfaceImageSourceNativeWithD2D](/windows/win32/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d) | Introduced in 10.0.10240. |
+| [ISurrogate](/windows/win32/api/objidlbase/nn-objidlbase-isurrogate) | Introduced in 10.0.10240. |
+| [ISwapChainBackgroundPanelNative](/windows/win32/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-iswapchainbackgroundpanelnative) | Introduced in 10.0.10240. |
+| [ISwapChainPanelNative](/windows/win32/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-iswapchainpanelnative) | Introduced in 10.0.10240. |
+| [ISwapChainPanelNative2](/windows/win32/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-iswapchainpanelnative2) | Introduced in 10.0.10240. |
+| [ISynchronizedInputProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-isynchronizedinputprovider) | Introduced in 10.0.10240. |
+| [ITableItemProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-itableitemprovider) | Introduced in 10.0.10240. |
+| [ITableProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-itableprovider) | Introduced in 10.0.10240. |
+| [ITextChildProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-itextchildprovider) | Introduced in 10.0.10240. |
+| [ITextEditProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-itexteditprovider) | Introduced in 10.0.10240. |
+| [ITextProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-itextprovider) | Introduced in 10.0.10240. |
+| [ITextProvider2](/windows/win32/api/uiautomationcore/nn-uiautomationcore-itextprovider2) | Introduced in 10.0.10240. |
+| [ITextRangeProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-itextrangeprovider) | Introduced in 10.0.10240. |
+| [ITextRangeProvider2](/windows/win32/api/uiautomationcore/nn-uiautomationcore-itextrangeprovider2) | Introduced in 10.0.10240. |
+| [ITextStoreACP2](/windows/win32/api/textstor/nn-textstor-itextstoreacp2) | Introduced in 10.0.10240. |
+| [ITextStoreACPServices](/windows/win32/api/msctf/nn-msctf-itextstoreacpservices) | Introduced in 10.0.10240. |
+| [ITextStoreACPSink](/windows/win32/api/textstor/nn-textstor-itextstoreacpsink) | Introduced in 10.0.10240. |
+| [ITextStoreAnchor](/windows/win32/api/textstor/nn-textstor-itextstoreanchor) | Introduced in 10.0.10240. |
+| [ITextStoreAnchorSink](/windows/win32/api/textstor/nn-textstor-itextstoreanchorsink) | Introduced in 10.0.10240. |
+| [ITfCandidateList](/windows/win32/api/ctffunc/nn-ctffunc-itfcandidatelist) | Introduced in 10.0.10240. |
+| [ITfCandidateListUIElement](/windows/win32/api/msctf/nn-msctf-itfcandidatelistuielement) | Introduced in 10.0.10240. |
+| [ITfCandidateListUIElementBehavior](/windows/win32/api/msctf/nn-msctf-itfcandidatelistuielementbehavior) | Introduced in 10.0.10240. |
+| [ITfCandidateString](/windows/win32/api/ctffunc/nn-ctffunc-itfcandidatestring) | Introduced in 10.0.10240. |
+| [ITfCategoryMgr](/windows/win32/api/msctf/nn-msctf-itfcategorymgr) | Introduced in 10.0.10240. |
+| [ITfCompartment](/windows/win32/api/msctf/nn-msctf-itfcompartment) | Introduced in 10.0.10240. |
+| [ITfCompartmentEventSink](/windows/win32/api/msctf/nn-msctf-itfcompartmenteventsink) | Introduced in 10.0.10240. |
+| [ITfCompartmentMgr](/windows/win32/api/msctf/nn-msctf-itfcompartmentmgr) | Introduced in 10.0.10240. |
+| [ITfComposition](/windows/win32/api/msctf/nn-msctf-itfcomposition) | Introduced in 10.0.10240. |
+| [ITfCompositionSink](/windows/win32/api/msctf/nn-msctf-itfcompositionsink) | Introduced in 10.0.10240. |
+| [ITfCompositionView](/windows/win32/api/msctf/nn-msctf-itfcompositionview) | Introduced in 10.0.10240. |
+| [ITfConfigureSystemKeystrokeFeed](/windows/win32/api/msctf/nn-msctf-itfconfiguresystemkeystrokefeed) | Introduced in 10.0.10240. |
+| [ITfContext](/windows/win32/api/msctf/nn-msctf-itfcontext) | Introduced in 10.0.10240. |
+| [ITfContextComposition](/windows/win32/api/msctf/nn-msctf-itfcontextcomposition) | Introduced in 10.0.10240. |
+| [ITfContextOwnerCompositionServices](/windows/win32/api/msctf/nn-msctf-itfcontextownercompositionservices) | Introduced in 10.0.10240. |
+| [ITfContextOwnerCompositionSink](/windows/win32/api/msctf/nn-msctf-itfcontextownercompositionsink) | Introduced in 10.0.10240. |
+| [ITfContextOwnerServices](/windows/win32/api/msctf/nn-msctf-itfcontextownerservices) | Introduced in 10.0.10240. |
+| [ITfContextView](/windows/win32/api/msctf/nn-msctf-itfcontextview) | Introduced in 10.0.10240. |
+| [ITfDisplayAttributeInfo](/windows/win32/api/msctf/nn-msctf-itfdisplayattributeinfo) | Introduced in 10.0.10240. |
+| [ITfDisplayAttributeMgr](/windows/win32/api/msctf/nn-msctf-itfdisplayattributemgr) | Introduced in 10.0.10240. |
+| [ITfDisplayAttributeNotifySink](/windows/win32/api/msctf/nn-msctf-itfdisplayattributenotifysink) | Introduced in 10.0.10240. |
+| [ITfDisplayAttributeProvider](/windows/win32/api/msctf/nn-msctf-itfdisplayattributeprovider) | Introduced in 10.0.10240. |
+| [ITfDocumentMgr](/windows/win32/api/msctf/nn-msctf-itfdocumentmgr) | Introduced in 10.0.10240. |
+| [ITfEditRecord](/windows/win32/api/msctf/nn-msctf-itfeditrecord) | Introduced in 10.0.10240. |
+| [ITfEditSession](/windows/win32/api/msctf/nn-msctf-itfeditsession) | Introduced in 10.0.10240. |
+| [ITfFnGetSAPIObject](/windows/win32/api/ctffunc/nn-ctffunc-itffngetsapiobject) | Introduced in 10.0.10240. |
+| [ITfFnReconversion](/windows/win32/api/ctffunc/nn-ctffunc-itffnreconversion) | Introduced in 10.0.10240. |
+| [ITfFunction](/windows/win32/api/msctf/nn-msctf-itffunction) | Introduced in 10.0.10240. |
+| [ITfFunctionProvider](/windows/win32/api/msctf/nn-msctf-itffunctionprovider) | Introduced in 10.0.10240. |
+| [ITfInputProcessorProfileActivationSink](/windows/win32/api/msctf/nn-msctf-itfinputprocessorprofileactivationsink) | Introduced in 10.0.10240. |
+| [ITfInputProcessorProfileMgr](/windows/win32/api/msctf/nn-msctf-itfinputprocessorprofilemgr) | Introduced in 10.0.10240. |
+| [ITfInputScope](/windows/win32/api/inputscope/nn-inputscope-itfinputscope) | Introduced in 10.0.10240. |
+| [ITfInputScope2](/windows/win32/api/inputscope/nn-inputscope-itfinputscope2) | Introduced in 10.0.10240. |
+| [ITfKeyEventSink](/windows/win32/api/msctf/nn-msctf-itfkeyeventsink) | Introduced in 10.0.10240. |
+| [ITfKeystrokeMgr](/windows/win32/api/msctf/nn-msctf-itfkeystrokemgr) | Introduced in 10.0.10240. |
+| [ITfKeyTraceEventSink](/windows/win32/api/msctf/nn-msctf-itfkeytraceeventsink) | Introduced in 10.0.10240. |
+| [ITfLanguageProfileNotifySink](/windows/win32/api/msctf/nn-msctf-itflanguageprofilenotifysink) | Introduced in 10.0.10240. |
+| [ITfPersistentPropertyLoaderACP](/windows/win32/api/msctf/nn-msctf-itfpersistentpropertyloaderacp) | Introduced in 10.0.10240. |
+| [ITfPreservedKeyNotifySink](/windows/win32/api/msctf/nn-msctf-itfpreservedkeynotifysink) | Introduced in 10.0.10240. |
+| [ITfProperty](/windows/win32/api/msctf/nn-msctf-itfproperty) | Introduced in 10.0.10240. |
+| [ITfPropertyStore](/windows/win32/api/msctf/nn-msctf-itfpropertystore) | Introduced in 10.0.10240. |
+| [ITfRange](/windows/win32/api/msctf/nn-msctf-itfrange) | Introduced in 10.0.10240. |
+| [ITfRangeACP](/windows/win32/api/msctf/nn-msctf-itfrangeacp) | Introduced in 10.0.10240. |
+| [ITfRangeBackup](/windows/win32/api/msctf/nn-msctf-itfrangebackup) | Introduced in 10.0.10240. |
+| [ITfReadingInformationUIElement](/windows/win32/api/msctf/nn-msctf-itfreadinginformationuielement) | Introduced in 10.0.10240. |
+| [ITfReadOnlyProperty](/windows/win32/api/msctf/nn-msctf-itfreadonlyproperty) | Introduced in 10.0.10240. |
+| [ITfSource](/windows/win32/api/msctf/nn-msctf-itfsource) | Introduced in 10.0.10240. |
+| [ITfSourceSingle](/windows/win32/api/msctf/nn-msctf-itfsourcesingle) | Introduced in 10.0.10240. |
+| [ITfTextEditSink](/windows/win32/api/msctf/nn-msctf-itftexteditsink) | Introduced in 10.0.10240. |
+| [ITfThreadMgr2](/windows/win32/api/msctf/nn-msctf-itfthreadmgr2) | Introduced in 10.0.10240. |
+| [ITfUIElement](/windows/win32/api/msctf/nn-msctf-itfuielement) | Introduced in 10.0.10240. |
+| [ITfUIElementMgr](/windows/win32/api/msctf/nn-msctf-itfuielementmgr) | Introduced in 10.0.10240. |
+| [ITfUIElementSink](/windows/win32/api/msctf/nn-msctf-itfuielementsink) | Introduced in 10.0.10240. |
+| [IThumbnailStreamCache](/windows/win32/api/thumbnailstreamcache/nn-thumbnailstreamcache-ithumbnailstreamcache) | Introduced in 10.0.10240. |
+| [IToggleProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-itoggleprovider) | Introduced in 10.0.10240. |
+| [ITransformProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-itransformprovider) | Introduced in 10.0.10240. |
+| [ITransformProvider2](/windows/win32/api/uiautomationcore/nn-uiautomationcore-itransformprovider2) | Introduced in 10.0.10240. |
+| [IUIAnimationInterpolator](/windows/win32/api/uianimation/nn-uianimation-iuianimationinterpolator) | Introduced in 10.0.10240. |
+| [IUIAnimationInterpolator2](/windows/win32/api/uianimation/nn-uianimation-iuianimationinterpolator2) | Introduced in 10.0.10240. |
+| [IUIAnimationLoopIterationChangeHandler2](/windows/win32/api/uianimation/nn-uianimation-iuianimationloopiterationchangehandler2) | Introduced in 10.0.10240. |
+| [IUIAnimationManager](/windows/win32/api/uianimation/nn-uianimation-iuianimationmanager) | Introduced in 10.0.10240. |
+| [IUIAnimationManager2](/windows/win32/api/uianimation/nn-uianimation-iuianimationmanager2) | Introduced in 10.0.10240. |
+| [IUIAnimationManagerEventHandler](/windows/win32/api/uianimation/nn-uianimation-iuianimationmanagereventhandler) | Introduced in 10.0.10240. |
+| [IUIAnimationManagerEventHandler2](/windows/win32/api/uianimation/nn-uianimation-iuianimationmanagereventhandler2) | Introduced in 10.0.10240. |
+| [IUIAnimationPrimitiveInterpolation](/windows/win32/api/uianimation/nn-uianimation-iuianimationprimitiveinterpolation) | Introduced in 10.0.10240. |
+| [IUIAnimationPriorityComparison](/windows/win32/api/uianimation/nn-uianimation-iuianimationprioritycomparison) | Introduced in 10.0.10240. |
+| [IUIAnimationPriorityComparison2](/windows/win32/api/uianimation/nn-uianimation-iuianimationprioritycomparison2) | Introduced in 10.0.10240. |
+| [IUIAnimationStoryboard](/windows/win32/api/uianimation/nn-uianimation-iuianimationstoryboard) | Introduced in 10.0.10240. |
+| [IUIAnimationStoryboard2](/windows/win32/api/uianimation/nn-uianimation-iuianimationstoryboard2) | Introduced in 10.0.10240. |
+| [IUIAnimationStoryboardEventHandler](/windows/win32/api/uianimation/nn-uianimation-iuianimationstoryboardeventhandler) | Introduced in 10.0.10240. |
+| [IUIAnimationStoryboardEventHandler2](/windows/win32/api/uianimation/nn-uianimation-iuianimationstoryboardeventhandler2) | Introduced in 10.0.10240. |
+| [IUIAnimationTimer](/windows/win32/api/uianimation/nn-uianimation-iuianimationtimer) | Introduced in 10.0.10240. |
+| [IUIAnimationTimerClientEventHandler](/windows/win32/api/uianimation/nn-uianimation-iuianimationtimerclienteventhandler) | Introduced in 10.0.10240. |
+| [IUIAnimationTimerEventHandler](/windows/win32/api/uianimation/nn-uianimation-iuianimationtimereventhandler) | Introduced in 10.0.10240. |
+| [IUIAnimationTimerUpdateHandler](/windows/win32/api/uianimation/nn-uianimation-iuianimationtimerupdatehandler) | Introduced in 10.0.10240. |
+| [IUIAnimationTransition](/windows/win32/api/uianimation/nn-uianimation-iuianimationtransition) | Introduced in 10.0.10240. |
+| [IUIAnimationTransition2](/windows/win32/api/uianimation/nn-uianimation-iuianimationtransition2) | Introduced in 10.0.10240. |
+| [IUIAnimationTransitionFactory](/windows/win32/api/uianimation/nn-uianimation-iuianimationtransitionfactory) | Introduced in 10.0.10240. |
+| [IUIAnimationTransitionFactory2](/windows/win32/api/uianimation/nn-uianimation-iuianimationtransitionfactory2) | Introduced in 10.0.10240. |
+| [IUIAnimationTransitionLibrary](/windows/win32/api/uianimation/nn-uianimation-iuianimationtransitionlibrary) | Introduced in 10.0.10240. |
+| [IUIAnimationTransitionLibrary2](/windows/win32/api/uianimation/nn-uianimation-iuianimationtransitionlibrary2) | Introduced in 10.0.10240. |
+| [IUIAnimationVariable](/windows/win32/api/uianimation/nn-uianimation-iuianimationvariable) | Introduced in 10.0.10240. |
+| [IUIAnimationVariable2](/windows/win32/api/uianimation/nn-uianimation-iuianimationvariable2) | Introduced in 10.0.10240. |
+| [IUIAnimationVariableChangeHandler](/windows/win32/api/uianimation/nn-uianimation-iuianimationvariablechangehandler) | Introduced in 10.0.10240. |
+| [IUIAnimationVariableChangeHandler2](/windows/win32/api/uianimation/nn-uianimation-iuianimationvariablechangehandler2) | Introduced in 10.0.10240. |
+| [IUIAnimationVariableCurveChangeHandler2](/windows/win32/api/uianimation/nn-uianimation-iuianimationvariablecurvechangehandler2) | Introduced in 10.0.10240. |
+| [IUIAnimationVariableIntegerChangeHandler](/windows/win32/api/uianimation/nn-uianimation-iuianimationvariableintegerchangehandler) | Introduced in 10.0.10240. |
+| [IUIAnimationVariableIntegerChangeHandler2](/windows/win32/api/uianimation/nn-uianimation-iuianimationvariableintegerchangehandler2) | Introduced in 10.0.10240. |
+| [IUIAutomationPatternHandler](/windows/win32/api/uiautomationcore/nn-uiautomationcore-iuiautomationpatternhandler) | Introduced in 10.0.10240. |
+| [IUIAutomationPatternInstance](/windows/win32/api/uiautomationcore/nn-uiautomationcore-iuiautomationpatterninstance) | Introduced in 10.0.10240. |
+| [IUIAutomationRegistrar](/windows/win32/api/uiautomationcore/nn-uiautomationcore-iuiautomationregistrar) | Introduced in 10.0.10240. |
+| [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) | Introduced in 10.0.10240. |
+| [IValueProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-ivalueprovider) | Introduced in 10.0.10240. |
+| [IVideoFrameNative](/windows/win32/api/windows.media.core.interop/nn-windows-media-core-interop-ivideoframenative) | Introduced in 10.0.10240. |
+| [IVideoFrameNativeFactory](/windows/win32/api/windows.media.core.interop/nn-windows-media-core-interop-ivideoframenativefactory) | Introduced in 10.0.10240. |
+| [IVirtualizedItemProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-ivirtualizeditemprovider) | Introduced in 10.0.10240. |
+| [IVirtualSurfaceImageSourceNative](/windows/win32/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative) | Introduced in 10.0.10240. |
+| [IVirtualSurfaceUpdatesCallbackNative](/windows/win32/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceupdatescallbacknative) | Introduced in 10.0.10240. |
+| [IWeakReference](/windows/win32/api/weakreference/nn-weakreference-iweakreference) | Introduced in 10.0.10240. |
+| [IWeakReferenceSource](/windows/win32/api/weakreference/nn-weakreference-iweakreferencesource) | Introduced in 10.0.10240. |
+| [IWICBitmap](/windows/win32/api/wincodec/nn-wincodec-iwicbitmap) | Introduced in 10.0.10240. |
+| [IWICBitmapClipper](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapclipper) | Introduced in 10.0.10240. |
+| [IWICBitmapCodecInfo](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapcodecinfo) | Introduced in 10.0.10240. |
+| [IWICBitmapCodecProgressNotification](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapcodecprogressnotification) | Introduced in 10.0.10240. |
+| [IWICBitmapDecoder](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapdecoder) | Introduced in 10.0.10240. |
+| [IWICBitmapDecoderInfo](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapdecoderinfo) | Introduced in 10.0.10240. |
+| [IWICBitmapEncoder](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapencoder) | Introduced in 10.0.10240. |
+| [IWICBitmapEncoderInfo](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapencoderinfo) | Introduced in 10.0.10240. |
+| [IWICBitmapFlipRotator](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapfliprotator) | Introduced in 10.0.10240. |
+| [IWICBitmapFrameDecode](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapframedecode) | Introduced in 10.0.10240. |
+| [IWICBitmapFrameEncode](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapframeencode) | Introduced in 10.0.10240. |
+| [IWICBitmapLock](/windows/win32/api/wincodec/nn-wincodec-iwicbitmaplock) | Introduced in 10.0.10240. |
+| [IWICBitmapScaler](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapscaler) | Introduced in 10.0.10240. |
+| [IWICBitmapSource](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapsource) | Introduced in 10.0.10240. |
+| [IWICBitmapSourceTransform](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapsourcetransform) | Introduced in 10.0.10240. |
+| [IWICColorContext](/windows/win32/api/wincodec/nn-wincodec-iwiccolorcontext) | Introduced in 10.0.10240. |
+| [IWICColorTransform](/windows/win32/api/wincodec/nn-wincodec-iwiccolortransform) | Introduced in 10.0.10240. |
+| [IWICComponentFactory](/windows/win32/api/wincodecsdk/nn-wincodecsdk-iwiccomponentfactory) | Introduced in 10.0.10240. |
+| [IWICComponentInfo](/windows/win32/api/wincodec/nn-wincodec-iwiccomponentinfo) | Introduced in 10.0.10240. |
+| [IWICDevelopRaw](/windows/win32/api/wincodec/nn-wincodec-iwicdevelopraw) | Introduced in 10.0.10240. |
+| [IWICDevelopRawNotificationCallback](/windows/win32/api/wincodec/nn-wincodec-iwicdeveloprawnotificationcallback) | Introduced in 10.0.10240. |
+| [IWICEnumMetadataItem](/windows/win32/api/wincodec/nn-wincodec-iwicenummetadataitem) | Introduced in 10.0.10240. |
+| [IWICFastMetadataEncoder](/windows/win32/api/wincodec/nn-wincodec-iwicfastmetadataencoder) | Introduced in 10.0.10240. |
+| [IWICFormatConverter](/windows/win32/api/wincodec/nn-wincodec-iwicformatconverter) | Introduced in 10.0.10240. |
+| [IWICFormatConverterInfo](/windows/win32/api/wincodec/nn-wincodec-iwicformatconverterinfo) | Introduced in 10.0.10240. |
+| [IWICImageEncoder](/windows/win32/api/wincodec/nn-wincodec-iwicimageencoder) | Introduced in 10.0.10240. |
+| [IWICImagingFactory](/windows/win32/api/wincodec/nn-wincodec-iwicimagingfactory) | Introduced in 10.0.10240. |
+| [IWICImagingFactory2](/windows/win32/api/wincodec/nn-wincodec-iwicimagingfactory2) | Introduced in 10.0.10240. |
+| [IWICMetadataBlockReader](/windows/win32/api/wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader) | Introduced in 10.0.10240. |
+| [IWICMetadataBlockWriter](/windows/win32/api/wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter) | Introduced in 10.0.10240. |
+| [IWICMetadataHandlerInfo](/windows/win32/api/wincodecsdk/nn-wincodecsdk-iwicmetadatahandlerinfo) | Introduced in 10.0.10240. |
+| [IWICMetadataQueryReader](/windows/win32/api/wincodec/nn-wincodec-iwicmetadataqueryreader) | Introduced in 10.0.10240. |
+| [IWICMetadataQueryWriter](/windows/win32/api/wincodec/nn-wincodec-iwicmetadataquerywriter) | Introduced in 10.0.10240. |
+| [IWICMetadataReader](/windows/win32/api/wincodecsdk/nn-wincodecsdk-iwicmetadatareader) | Introduced in 10.0.10240. |
+| [IWICMetadataReaderInfo](/windows/win32/api/wincodecsdk/nn-wincodecsdk-iwicmetadatareaderinfo) | Introduced in 10.0.10240. |
+| [IWICMetadataWriter](/windows/win32/api/wincodecsdk/nn-wincodecsdk-iwicmetadatawriter) | Introduced in 10.0.10240. |
+| [IWICMetadataWriterInfo](/windows/win32/api/wincodecsdk/nn-wincodecsdk-iwicmetadatawriterinfo) | Introduced in 10.0.10240. |
+| [IWICPalette](/windows/win32/api/wincodec/nn-wincodec-iwicpalette) | Introduced in 10.0.10240. |
+| [IWICPersistStream](/windows/win32/api/wincodecsdk/nn-wincodecsdk-iwicpersiststream) | Introduced in 10.0.10240. |
+| [IWICPixelFormatInfo](/windows/win32/api/wincodec/nn-wincodec-iwicpixelformatinfo) | Introduced in 10.0.10240. |
+| [IWICPixelFormatInfo2](/windows/win32/api/wincodec/nn-wincodec-iwicpixelformatinfo2) | Introduced in 10.0.10240. |
+| [IWICProgressCallback](/windows/win32/api/wincodec/nn-wincodec-iwicprogresscallback) | Introduced in 10.0.10240. |
+| [IWICProgressiveLevelControl](/windows/win32/api/wincodec/nn-wincodec-iwicprogressivelevelcontrol) | Introduced in 10.0.10240. |
+| [IWICStream](/windows/win32/api/wincodec/nn-wincodec-iwicstream) | Introduced in 10.0.10240. |
+| [IWICStreamProvider](/windows/win32/api/wincodecsdk/nn-wincodecsdk-iwicstreamprovider) | Introduced in 10.0.10240. |
+| [IWICDdsDecoder](/windows/win32/api/wincodec/nn-wincodec-iwicddsdecoder) | Introduced in 10.0.10240. |
+| [IWICDdsEncoder](/windows/win32/api/wincodec/nn-wincodec-iwicddsencoder) | Introduced in 10.0.10240. |
+| [IWICDdsFrameDecode](/windows/win32/api/wincodec/nn-wincodec-iwicddsframedecode) | Introduced in 10.0.10240. |
+| [IWICPlanarBitmapFrameEncode](/windows/win32/api/wincodec/nn-wincodec-iwicplanarbitmapframeencode) | Introduced in 10.0.10240. |
+| [IWICPlanarBitmapSourceTransform](/windows/win32/api/wincodec/nn-wincodec-iwicplanarbitmapsourcetransform) | Introduced in 10.0.10240. |
+| [IWICPlanarFormatConverter](/windows/win32/api/wincodec/nn-wincodec-iwicplanarformatconverter) | Introduced in 10.0.10240. |
+| [IWICJpegFrameDecode](/windows/win32/api/wincodec/nn-wincodec-iwicjpegframedecode) | Introduced in 10.0.10240. |
+| [IWICJpegFrameEncode](/windows/win32/api/wincodec/nn-wincodec-iwicjpegframeencode) | Introduced in 10.0.10240. |
+| [IWindowProvider](/windows/win32/api/uiautomationcore/nn-uiautomationcore-iwindowprovider) | Introduced in 10.0.10240. |
+| [IWindowsDevicesAllJoynBusAttachmentFactoryInterop](/windows/win32/api/windows.devices.alljoyn.interop/nn-windows-devices-alljoyn-interop-iwindowsdevicesalljoynbusattachmentfactoryinterop) | Introduced in 10.0.10240. |
+| [IWindowsDevicesAllJoynBusAttachmentInterop](/windows/win32/api/windows.devices.alljoyn.interop/nn-windows-devices-alljoyn-interop-iwindowsdevicesalljoynbusattachmentinterop) | Introduced in 10.0.10240. |
 | IWorkspaceBrokerAx | Introduced in 10.0.10240. |
 | IWorkspaceBrokerAx2 | Introduced in 10.0.10240. |
-| [IXAPO](https://msdn.microsoft.com/library/windows/desktop/microsoft.directx_sdk.ixapo.ixapo.aspx) | Introduced in 10.0.10240. |
-| [IXAPOHrtfParameters](https://msdn.microsoft.com/library/windows/desktop/mt186608.aspx) | Introduced in 10.0.10240. |
-| [IXAPOParameters](https://msdn.microsoft.com/library/windows/desktop/microsoft.directx_sdk.ixapoparameters.ixapoparameters.aspx) | Introduced in 10.0.10240. |
-| [IXAudio2](https://msdn.microsoft.com/library/windows/desktop/microsoft.directx_sdk.ixaudio2.ixaudio2.aspx) | Introduced in 10.0.10240. |
-| [IXAudio2EngineCallback](https://msdn.microsoft.com/library/windows/desktop/microsoft.directx_sdk.ixaudio2enginecallback.ixaudio2enginecallback.aspx) | Introduced in 10.0.10240. |
-| [IXAudio2MasteringVoice](https://msdn.microsoft.com/library/windows/desktop/microsoft.directx_sdk.ixaudio2masteringvoice.ixaudio2masteringvoice.aspx) | Introduced in 10.0.10240. |
-| [IXAudio2SourceVoice](https://msdn.microsoft.com/library/windows/desktop/microsoft.directx_sdk.ixaudio2sourcevoice.ixaudio2sourcevoice.aspx) | Introduced in 10.0.10240. |
-| [IXAudio2SubmixVoice](https://msdn.microsoft.com/library/windows/desktop/microsoft.directx_sdk.ixaudio2submixvoice.ixaudio2submixvoice.aspx) | Introduced in 10.0.10240. |
-| [IXAudio2Voice](https://msdn.microsoft.com/library/windows/desktop/microsoft.directx_sdk.ixaudio2voice.ixaudio2voice.aspx) | Introduced in 10.0.10240. |
-| [IXAudio2VoiceCallback](https://msdn.microsoft.com/library/windows/desktop/microsoft.directx_sdk.ixaudio2voicecallback.ixaudio2voicecallback.aspx) | Introduced in 10.0.10240. |
-| [IXMLHTTPRequest2](https://msdn.microsoft.com/library/windows/desktop/hh831151.aspx) | Introduced in 10.0.10240. |
-| [IXMLHTTPRequest2Callback](https://msdn.microsoft.com/library/windows/desktop/hh831152.aspx) | Introduced in 10.0.10240. |
-| [IXMLHTTPRequest3](https://msdn.microsoft.com/library/windows/desktop/dn376398.aspx) | Introduced in 10.0.10240. |
-| [IXMLHTTPRequest3Callback](https://msdn.microsoft.com/library/windows/desktop/dn376399.aspx) | Introduced in 10.0.10240. |
-| [IXmlReader](https://msdn.microsoft.com/library/windows/desktop/ms752743.aspx) | Introduced in 10.0.10240. |
-| [IXmlReaderInput](https://msdn.microsoft.com/library/windows/desktop/ms752817.aspx) | Introduced in 10.0.10240. |
-| [IXmlResolver](https://msdn.microsoft.com/library/windows/desktop/ms752841.aspx) | Introduced in 10.0.10240. |
-| [IXmlWriter](https://msdn.microsoft.com/library/windows/desktop/ms752860.aspx) | Introduced in 10.0.10240. |
-| [IXmlWriterLite](https://msdn.microsoft.com/library/Mt143569(v=VS.85).aspx) | Introduced in 10.0.10240. |
-| [IXmlWriterOutput](https://msdn.microsoft.com/library/windows/desktop/ms752843.aspx) | Introduced in 10.0.10240. |
-| [IXpsDocumentPackageTarget](https://msdn.microsoft.com/library/windows/desktop/hh994456.aspx) | Introduced in 10.0.10240. |
-| [IXpsDocumentPackageTarget3D](https://msdn.microsoft.com/library/windows/desktop/dn280684.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMBrush](https://msdn.microsoft.com/library/windows/desktop/dd317026.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMCanvas](https://msdn.microsoft.com/library/windows/desktop/dd317033.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMColorProfileResource](https://msdn.microsoft.com/library/windows/desktop/dd372020.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMColorProfileResourceCollection](https://msdn.microsoft.com/library/windows/desktop/dd372023.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMCoreProperties](https://msdn.microsoft.com/library/windows/desktop/dd372040.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMDashCollection](https://msdn.microsoft.com/library/windows/desktop/dd372105.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMDictionary](https://msdn.microsoft.com/library/windows/desktop/dd372128.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMDocument](https://msdn.microsoft.com/library/windows/desktop/dd372155.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMDocumentCollection](https://msdn.microsoft.com/library/windows/desktop/dd372157.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMDocumentSequence](https://msdn.microsoft.com/library/windows/desktop/dd372363.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMDocumentStructureResource](https://msdn.microsoft.com/library/windows/desktop/dd372377.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMFontResource](https://msdn.microsoft.com/library/windows/desktop/dd372415.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMFontResourceCollection](https://msdn.microsoft.com/library/windows/desktop/dd372419.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMGeometry](https://msdn.microsoft.com/library/windows/desktop/dd372455.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMGeometryFigure](https://msdn.microsoft.com/library/windows/desktop/dd372457.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMGeometryFigureCollection](https://msdn.microsoft.com/library/windows/desktop/dd372461.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMGlyphs](https://msdn.microsoft.com/library/windows/desktop/dd317087.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMGlyphsEditor](https://msdn.microsoft.com/library/windows/desktop/dd317088.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMGradientBrush](https://msdn.microsoft.com/library/windows/desktop/dd317230.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMGradientStop](https://msdn.microsoft.com/library/windows/desktop/dd317250.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMGradientStopCollection](https://msdn.microsoft.com/library/windows/desktop/dd317252.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMImageBrush](https://msdn.microsoft.com/library/windows/desktop/dd317277.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMImageResource](https://msdn.microsoft.com/library/windows/desktop/dd317289.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMImageResourceCollection](https://msdn.microsoft.com/library/windows/desktop/dd317291.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMLinearGradientBrush](https://msdn.microsoft.com/library/windows/desktop/dd317306.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMMatrixTransform](https://msdn.microsoft.com/library/windows/desktop/dd372495.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMNameCollection](https://msdn.microsoft.com/library/windows/desktop/dd372502.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMObjectFactory](https://msdn.microsoft.com/library/windows/desktop/dd372509.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMObjectFactory1](https://msdn.microsoft.com/library/windows/desktop/hh448399.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMPackage](https://msdn.microsoft.com/library/windows/desktop/dd372618.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMPackage1](https://msdn.microsoft.com/library/windows/desktop/hh448410.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMPackageTarget](https://msdn.microsoft.com/library/windows/desktop/ff970304.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMPackageWriter](https://msdn.microsoft.com/library/windows/desktop/dd372619.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMPackageWriter3D](https://msdn.microsoft.com/library/windows/desktop/dn280743.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMPage](https://msdn.microsoft.com/library/windows/desktop/dd372635.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMPage1](https://msdn.microsoft.com/library/windows/desktop/hh448414.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMPageReference](https://msdn.microsoft.com/library/windows/desktop/dd372636.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMPageReferenceCollection](https://msdn.microsoft.com/library/windows/desktop/dd372637.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMPart](https://msdn.microsoft.com/library/windows/desktop/dd372684.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMPartResources](https://msdn.microsoft.com/library/windows/desktop/dd372685.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMPartUriCollection](https://msdn.microsoft.com/library/windows/desktop/dd372690.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMPath](https://msdn.microsoft.com/library/windows/desktop/dd372699.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMPrintTicketResource](https://msdn.microsoft.com/library/windows/desktop/dd372740.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMRadialGradientBrush](https://msdn.microsoft.com/library/windows/desktop/dd372743.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMRemoteDictionaryResource](https://msdn.microsoft.com/library/windows/desktop/dd372751.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMRemoteDictionaryResource1](https://msdn.microsoft.com/library/windows/desktop/jj159899.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMRemoteDictionaryResourceCollection](https://msdn.microsoft.com/library/windows/desktop/dd372752.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMResource](https://msdn.microsoft.com/library/windows/desktop/dd372762.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMShareable](https://msdn.microsoft.com/library/windows/desktop/dd372763.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMSignatureBlockResource](https://msdn.microsoft.com/library/windows/desktop/dd372766.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMSignatureBlockResourceCollection](https://msdn.microsoft.com/library/windows/desktop/dd372767.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMSolidColorBrush](https://msdn.microsoft.com/library/windows/desktop/dd372779.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMStoryFragmentsResource](https://msdn.microsoft.com/library/windows/desktop/dd372783.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMTileBrush](https://msdn.microsoft.com/library/windows/desktop/dd372789.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMVisual](https://msdn.microsoft.com/library/windows/desktop/dd372801.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMVisualBrush](https://msdn.microsoft.com/library/windows/desktop/dd372802.aspx) | Introduced in 10.0.10240. |
-| [IXpsOMVisualCollection](https://msdn.microsoft.com/library/windows/desktop/dd372809.aspx) | Introduced in 10.0.10240. |
+| [IXAPO](/windows/win32/api/xapo/nn-xapo-ixapo) | Introduced in 10.0.10240. |
+| [IXAPOHrtfParameters](/windows/win32/api/hrtfapoapi/nn-hrtfapoapi-ixapohrtfparameters) | Introduced in 10.0.10240. |
+| [IXAPOParameters](/windows/win32/api/xapo/nn-xapo-ixapoparameters) | Introduced in 10.0.10240. |
+| [IXAudio2](/windows/win32/api/xaudio2/nn-xaudio2-ixaudio2) | Introduced in 10.0.10240. |
+| [IXAudio2EngineCallback](/windows/win32/api/xaudio2/nn-xaudio2-ixaudio2enginecallback) | Introduced in 10.0.10240. |
+| [IXAudio2MasteringVoice](/windows/win32/api/xaudio2/nn-xaudio2-ixaudio2masteringvoice) | Introduced in 10.0.10240. |
+| [IXAudio2SourceVoice](/windows/win32/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice) | Introduced in 10.0.10240. |
+| [IXAudio2SubmixVoice](/windows/win32/api/xaudio2/nn-xaudio2-ixaudio2submixvoice) | Introduced in 10.0.10240. |
+| [IXAudio2Voice](/windows/win32/api/xaudio2/nn-xaudio2-ixaudio2voice) | Introduced in 10.0.10240. |
+| [IXAudio2VoiceCallback](/windows/win32/api/xaudio2/nn-xaudio2-ixaudio2voicecallback) | Introduced in 10.0.10240. |
+| [IXMLHTTPRequest2](/windows/win32/api/msxml6/nn-msxml6-ixmlhttprequest2) | Introduced in 10.0.10240. |
+| [IXMLHTTPRequest2Callback](/windows/win32/api/msxml6/nn-msxml6-ixmlhttprequest2callback) | Introduced in 10.0.10240. |
+| [IXMLHTTPRequest3](/windows/win32/api/msxml6/nn-msxml6-ixmlhttprequest3) | Introduced in 10.0.10240. |
+| [IXMLHTTPRequest3Callback](/windows/win32/api/msxml6/nn-msxml6-ixmlhttprequest3callback) | Introduced in 10.0.10240. |
+| [IXmlReader](/previous-versions/windows/desktop/ms752743(v=vs.85)) | Introduced in 10.0.10240. |
+| [IXmlReaderInput](/previous-versions/windows/desktop/ms752817(v=vs.85)) | Introduced in 10.0.10240. |
+| [IXmlResolver](/previous-versions/windows/desktop/ms752841(v=vs.85)) | Introduced in 10.0.10240. |
+| [IXmlWriter](/previous-versions/windows/desktop/ms752860(v=vs.85)) | Introduced in 10.0.10240. |
+| [IXmlWriterLite](/previous-versions/windows/desktop/mt143569(v=vs.85)) | Introduced in 10.0.10240. |
+| [IXmlWriterOutput](/previous-versions/windows/desktop/ms752843(v=vs.85)) | Introduced in 10.0.10240. |
+| [IXpsDocumentPackageTarget](/windows/win32/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsdocumentpackagetarget) | Introduced in 10.0.10240. |
+| [IXpsDocumentPackageTarget3D](/windows/win32/api/xpsobjectmodel_2/nn-xpsobjectmodel_2-ixpsdocumentpackagetarget3d) | Introduced in 10.0.10240. |
+| [IXpsOMBrush](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush) | Introduced in 10.0.10240. |
+| [IXpsOMCanvas](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcanvas) | Introduced in 10.0.10240. |
+| [IXpsOMColorProfileResource](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresource) | Introduced in 10.0.10240. |
+| [IXpsOMColorProfileResourceCollection](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresourcecollection) | Introduced in 10.0.10240. |
+| [IXpsOMCoreProperties](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcoreproperties) | Introduced in 10.0.10240. |
+| [IXpsOMDashCollection](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdashcollection) | Introduced in 10.0.10240. |
+| [IXpsOMDictionary](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdictionary) | Introduced in 10.0.10240. |
+| [IXpsOMDocument](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocument) | Introduced in 10.0.10240. |
+| [IXpsOMDocumentCollection](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentcollection) | Introduced in 10.0.10240. |
+| [IXpsOMDocumentSequence](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentsequence) | Introduced in 10.0.10240. |
+| [IXpsOMDocumentStructureResource](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentstructureresource) | Introduced in 10.0.10240. |
+| [IXpsOMFontResource](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomfontresource) | Introduced in 10.0.10240. |
+| [IXpsOMFontResourceCollection](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomfontresourcecollection) | Introduced in 10.0.10240. |
+| [IXpsOMGeometry](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometry) | Introduced in 10.0.10240. |
+| [IXpsOMGeometryFigure](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometryfigure) | Introduced in 10.0.10240. |
+| [IXpsOMGeometryFigureCollection](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometryfigurecollection) | Introduced in 10.0.10240. |
+| [IXpsOMGlyphs](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs) | Introduced in 10.0.10240. |
+| [IXpsOMGlyphsEditor](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphseditor) | Introduced in 10.0.10240. |
+| [IXpsOMGradientBrush](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientbrush) | Introduced in 10.0.10240. |
+| [IXpsOMGradientStop](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientstop) | Introduced in 10.0.10240. |
+| [IXpsOMGradientStopCollection](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientstopcollection) | Introduced in 10.0.10240. |
+| [IXpsOMImageBrush](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimagebrush) | Introduced in 10.0.10240. |
+| [IXpsOMImageResource](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimageresource) | Introduced in 10.0.10240. |
+| [IXpsOMImageResourceCollection](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimageresourcecollection) | Introduced in 10.0.10240. |
+| [IXpsOMLinearGradientBrush](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomlineargradientbrush) | Introduced in 10.0.10240. |
+| [IXpsOMMatrixTransform](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsommatrixtransform) | Introduced in 10.0.10240. |
+| [IXpsOMNameCollection](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomnamecollection) | Introduced in 10.0.10240. |
+| [IXpsOMObjectFactory](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomobjectfactory) | Introduced in 10.0.10240. |
+| [IXpsOMObjectFactory1](/windows/win32/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsomobjectfactory1) | Introduced in 10.0.10240. |
+| [IXpsOMPackage](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackage) | Introduced in 10.0.10240. |
+| [IXpsOMPackage1](/windows/win32/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsompackage1) | Introduced in 10.0.10240. |
+| [IXpsOMPackageTarget](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagetarget) | Introduced in 10.0.10240. |
+| [IXpsOMPackageWriter](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter) | Introduced in 10.0.10240. |
+| [IXpsOMPackageWriter3D](/windows/win32/api/xpsobjectmodel_2/nn-xpsobjectmodel_2-ixpsompackagewriter3d) | Introduced in 10.0.10240. |
+| [IXpsOMPage](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage) | Introduced in 10.0.10240. |
+| [IXpsOMPage1](/windows/win32/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsompage1) | Introduced in 10.0.10240. |
+| [IXpsOMPageReference](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference) | Introduced in 10.0.10240. |
+| [IXpsOMPageReferenceCollection](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereferencecollection) | Introduced in 10.0.10240. |
+| [IXpsOMPart](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompart) | Introduced in 10.0.10240. |
+| [IXpsOMPartResources](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompartresources) | Introduced in 10.0.10240. |
+| [IXpsOMPartUriCollection](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomparturicollection) | Introduced in 10.0.10240. |
+| [IXpsOMPath](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompath) | Introduced in 10.0.10240. |
+| [IXpsOMPrintTicketResource](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource) | Introduced in 10.0.10240. |
+| [IXpsOMRadialGradientBrush](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomradialgradientbrush) | Introduced in 10.0.10240. |
+| [IXpsOMRemoteDictionaryResource](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomremotedictionaryresource) | Introduced in 10.0.10240. |
+| [IXpsOMRemoteDictionaryResource1](/windows/win32/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsomremotedictionaryresource1) | Introduced in 10.0.10240. |
+| [IXpsOMRemoteDictionaryResourceCollection](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomremotedictionaryresourcecollection) | Introduced in 10.0.10240. |
+| [IXpsOMResource](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomresource) | Introduced in 10.0.10240. |
+| [IXpsOMShareable](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomshareable) | Introduced in 10.0.10240. |
+| [IXpsOMSignatureBlockResource](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomsignatureblockresource) | Introduced in 10.0.10240. |
+| [IXpsOMSignatureBlockResourceCollection](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomsignatureblockresourcecollection) | Introduced in 10.0.10240. |
+| [IXpsOMSolidColorBrush](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomsolidcolorbrush) | Introduced in 10.0.10240. |
+| [IXpsOMStoryFragmentsResource](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomstoryfragmentsresource) | Introduced in 10.0.10240. |
+| [IXpsOMTileBrush](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomtilebrush) | Introduced in 10.0.10240. |
+| [IXpsOMVisual](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual) | Introduced in 10.0.10240. |
+| [IXpsOMVisualBrush](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisualbrush) | Introduced in 10.0.10240. |
+| [IXpsOMVisualCollection](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisualcollection) | Introduced in 10.0.10240. |
 | IBtRadioController | Introduced in 10.0.10586. |
 | IBtCommandCallback | Introduced in 10.0.10586. |
 | IBtConnectionObserver | Introduced in 10.0.10586. |
@@ -4158,75 +4158,75 @@ COM interfaces
 | IBtPairingRequest | Introduced in 10.0.10586. |
 | IBtPairingRequestCallback | Introduced in 10.0.10586. |
 | IBtIncomingPairingCallback | Introduced in 10.0.10586. |
-| [ID3D11Device4](https://msdn.microsoft.com/library/windows/desktop/mt589889.aspx) | Introduced in 10.0.10586. |
-| [IAppxBlockMapBlock](https://msdn.microsoft.com/library/windows/desktop/hh446630.aspx) | Introduced in 10.0.14393. |
-| [IAppxBlockMapBlocksEnumerator](https://msdn.microsoft.com/library/windows/desktop/hh446631.aspx) | Introduced in 10.0.14393. |
-| [IAppxBlockMapFile](https://msdn.microsoft.com/library/windows/desktop/hh446637.aspx) | Introduced in 10.0.14393. |
-| [IAppxBlockMapFilesEnumerator](https://msdn.microsoft.com/library/windows/desktop/hh446638.aspx) | Introduced in 10.0.14393. |
-| [IAppxBlockMapReader](https://msdn.microsoft.com/library/windows/desktop/hh446651.aspx) | Introduced in 10.0.14393. |
-| [IAppxBundleFactory](https://msdn.microsoft.com/library/windows/desktop/dn280277.aspx) | Introduced in 10.0.14393. |
-| [IAppxBundleWriter](https://msdn.microsoft.com/library/windows/desktop/dn280302.aspx) | Introduced in 10.0.14393. |
-| [IAppxBundleReader](https://msdn.microsoft.com/library/windows/desktop/dn280296.aspx) | Introduced in 10.0.14393. |
-| [IAppxBundleManifestReader](https://msdn.microsoft.com/library/windows/desktop/dn280292.aspx) | Introduced in 10.0.14393. |
-| [IAppxBundleManifestPackageInfoEnumerator](https://msdn.microsoft.com/library/windows/desktop/dn280282.aspx) | Introduced in 10.0.14393. |
-| [IAppxBundleManifestPackageInfo](https://msdn.microsoft.com/library/windows/desktop/dn280281.aspx) | Introduced in 10.0.14393. |
-| [IAppxFactory](https://msdn.microsoft.com/library/windows/desktop/hh446671.aspx) | Introduced in 10.0.14393. |
-| [IAppxFile](https://msdn.microsoft.com/library/windows/desktop/hh446683.aspx) | Introduced in 10.0.14393. |
-| [IAppxFilesEnumerator](https://msdn.microsoft.com/library/windows/desktop/hh446685.aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestApplication](https://msdn.microsoft.com/library/windows/desktop/hh446697.aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestApplicationsEnumerator](https://msdn.microsoft.com/library/windows/desktop/hh446698.aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestQualifiedResource](https://msdn.microsoft.com/library/windows/desktop/dn280305.aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestQualifiedResourcesEnumerator](https://msdn.microsoft.com/library/windows/desktop/dn280306.aspx) | Introduced in 10.0.14393. |
-| [IAppxPackageReader](https://msdn.microsoft.com/library/windows/desktop/hh446756.aspx) | Introduced in 10.0.14393. |
-| [IAppxPackageWriter](https://msdn.microsoft.com/library/windows/desktop/hh446762.aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestDeviceCapabilitiesEnumerator](https://msdn.microsoft.com/library/windows/desktop/hh446704.aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestPackageId](https://msdn.microsoft.com/library/windows/desktop/hh446717.aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestPackageDependency](https://msdn.microsoft.com/library/windows/desktop/hh446713.aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestPackageDependenciesEnumerator](https://msdn.microsoft.com/library/windows/desktop/hh446708.aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestProperties](https://msdn.microsoft.com/library/windows/desktop/hh446731.aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestReader](https://msdn.microsoft.com/library/windows/desktop/hh446737.aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestReader2](https://msdn.microsoft.com/library/windows/desktop/dn280312.aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestReader3](https://msdn.microsoft.com/library/Mt796945(v=VS.85).aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestCapabilitiesEnumerator](https://msdn.microsoft.com/library/Mt796938(v=VS.85).aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestTargetDeviceFamiliesEnumerator](https://msdn.microsoft.com/library/Mt796950(v=VS.85).aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestTargetDeviceFamily](https://msdn.microsoft.com/library/Mt796954(v=VS.85).aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestPackageDependency2](https://msdn.microsoft.com/library/Mt845795(v=VS.85).aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestResourcesEnumerator](https://msdn.microsoft.com/library/windows/desktop/hh446752.aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestReader4](https://msdn.microsoft.com/library/Mt796948(v=VS.85).aspx) | Introduced in 10.0.14393. |
-| [IAppxManifestOptionalPackageInfo](https://msdn.microsoft.com/library/Mt796942(v=VS.85).aspx) | Introduced in 10.0.14393. |
-| [IXblIdpAuthManager](https://msdn.microsoft.com/library/Mt709230(v=VS.85).aspx) | Introduced in 10.0.14393. |
-| [IXblIdpAuthTokenResult](https://msdn.microsoft.com/library/Mt709237(v=VS.85).aspx) | Introduced in 10.0.14393. |
-| [IAudioFormatEnumerator](https://msdn.microsoft.com/library/Mt779256(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ID2D1CommandSink3](https://msdn.microsoft.com/library/Mt619822(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ID2D1CommandSink4](https://msdn.microsoft.com/library/Mt797801(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ID2D1Device3](https://msdn.microsoft.com/library/Mt619824(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ID2D1Device4](https://msdn.microsoft.com/library/Mt736464(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ID2D1Device5](https://msdn.microsoft.com/library/Mt797803(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ID2D1DeviceContext3](https://msdn.microsoft.com/library/Mt619826(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ID2D1DeviceContext4](https://msdn.microsoft.com/library/Mt736468(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ID2D1DeviceContext5](https://msdn.microsoft.com/library/Mt797806(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ID2D1Factory4](https://msdn.microsoft.com/library/Mt619831(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ID2D1Factory5](https://msdn.microsoft.com/library/Mt750191(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ID2D1Factory6](https://msdn.microsoft.com/library/Mt797812(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ID2D1SpriteBatch](https://msdn.microsoft.com/library/Mt619833(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ID2D1SvgAttribute](https://msdn.microsoft.com/library/Mt797814(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ID2D1SvgDocument](https://msdn.microsoft.com/library/Mt797817(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ID2D1SvgElement](https://msdn.microsoft.com/library/Mt797830(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ID2D1SvgGlyphStyle](https://msdn.microsoft.com/library/Mt750193(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ID2D1SvgPaint](https://msdn.microsoft.com/library/Mt797893(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ID2D1SvgPathData](https://msdn.microsoft.com/library/Mt797902(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ID2D1SvgPointCollection](https://msdn.microsoft.com/library/Mt797912(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ID2D1SvgStrokeDashArray](https://msdn.microsoft.com/library/Mt797917(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [IDXGIAdapter4](https://msdn.microsoft.com/library/Mt825229(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [IMFSpatialAudioObjectBuffer](https://msdn.microsoft.com/library/Mt797969(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [IMFSpatialAudioSample](https://msdn.microsoft.com/library/Mt797975(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [IOplockBreakingHandler](https://msdn.microsoft.com/library/Mt743185(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ISpatialAudioObject](https://msdn.microsoft.com/library/Mt779268(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ISpatialAudioObjectRenderStream](https://msdn.microsoft.com/library/Mt779280(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ISpatialAudioObjectRenderStreamNotify](https://msdn.microsoft.com/library/Mt779281(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [ISpatialAudioClient](https://msdn.microsoft.com/library/Mt779259(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [IStorageItemHandleAccess](https://msdn.microsoft.com/library/Mt765063(v=VS.85).aspx) | Introduced in 10.0.16299. |
-| [IStorageFolderHandleAccess](https://msdn.microsoft.com/library/Mt765061(v=VS.85).aspx) | Introduced in 10.0.16299. |
+| [ID3D11Device4](/windows/win32/api/d3d11_4/nn-d3d11_4-id3d11device4) | Introduced in 10.0.10586. |
+| [IAppxBlockMapBlock](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxblockmapblock) | Introduced in 10.0.14393. |
+| [IAppxBlockMapBlocksEnumerator](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxblockmapblocksenumerator) | Introduced in 10.0.14393. |
+| [IAppxBlockMapFile](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxblockmapfile) | Introduced in 10.0.14393. |
+| [IAppxBlockMapFilesEnumerator](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxblockmapfilesenumerator) | Introduced in 10.0.14393. |
+| [IAppxBlockMapReader](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxblockmapreader) | Introduced in 10.0.14393. |
+| [IAppxBundleFactory](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxbundlefactory) | Introduced in 10.0.14393. |
+| [IAppxBundleWriter](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxbundlewriter) | Introduced in 10.0.14393. |
+| [IAppxBundleReader](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxbundlereader) | Introduced in 10.0.14393. |
+| [IAppxBundleManifestReader](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestreader) | Introduced in 10.0.14393. |
+| [IAppxBundleManifestPackageInfoEnumerator](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestpackageinfoenumerator) | Introduced in 10.0.14393. |
+| [IAppxBundleManifestPackageInfo](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestpackageinfo) | Introduced in 10.0.14393. |
+| [IAppxFactory](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxfactory) | Introduced in 10.0.14393. |
+| [IAppxFile](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxfile) | Introduced in 10.0.14393. |
+| [IAppxFilesEnumerator](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxfilesenumerator) | Introduced in 10.0.14393. |
+| [IAppxManifestApplication](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxmanifestapplication) | Introduced in 10.0.14393. |
+| [IAppxManifestApplicationsEnumerator](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxmanifestapplicationsenumerator) | Introduced in 10.0.14393. |
+| [IAppxManifestQualifiedResource](/previous-versions//dn280305(v=vs.85)) | Introduced in 10.0.14393. |
+| [IAppxManifestQualifiedResourcesEnumerator](/previous-versions//dn280306(v=vs.85)) | Introduced in 10.0.14393. |
+| [IAppxPackageReader](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxpackagereader) | Introduced in 10.0.14393. |
+| [IAppxPackageWriter](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxpackagewriter) | Introduced in 10.0.14393. |
+| [IAppxManifestDeviceCapabilitiesEnumerator](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxmanifestdevicecapabilitiesenumerator) | Introduced in 10.0.14393. |
+| [IAppxManifestPackageId](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxmanifestpackageid) | Introduced in 10.0.14393. |
+| [IAppxManifestPackageDependency](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxmanifestpackagedependency) | Introduced in 10.0.14393. |
+| [IAppxManifestPackageDependenciesEnumerator](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxmanifestpackagedependenciesenumerator) | Introduced in 10.0.14393. |
+| [IAppxManifestProperties](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxmanifestproperties) | Introduced in 10.0.14393. |
+| [IAppxManifestReader](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxmanifestreader) | Introduced in 10.0.14393. |
+| [IAppxManifestReader2](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxmanifestreader2) | Introduced in 10.0.14393. |
+| [IAppxManifestReader3](/previous-versions//mt796945(v=vs.85)) | Introduced in 10.0.14393. |
+| [IAppxManifestCapabilitiesEnumerator](/previous-versions//mt796938(v=vs.85)) | Introduced in 10.0.14393. |
+| [IAppxManifestTargetDeviceFamiliesEnumerator](/previous-versions//mt796950(v=vs.85)) | Introduced in 10.0.14393. |
+| [IAppxManifestTargetDeviceFamily](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxmanifesttargetdevicefamily) | Introduced in 10.0.14393. |
+| [IAppxManifestPackageDependency2](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxmanifestpackagedependency2) | Introduced in 10.0.14393. |
+| [IAppxManifestResourcesEnumerator](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxmanifestresourcesenumerator) | Introduced in 10.0.14393. |
+| [IAppxManifestReader4](/previous-versions//mt796948(v=vs.85)) | Introduced in 10.0.14393. |
+| [IAppxManifestOptionalPackageInfo](/windows/win32/api/appxpackaging/nn-appxpackaging-iappxmanifestoptionalpackageinfo) | Introduced in 10.0.14393. |
+| [IXblIdpAuthManager](/windows/win32/api/xblidpauthmanager/nn-xblidpauthmanager-ixblidpauthmanager) | Introduced in 10.0.14393. |
+| [IXblIdpAuthTokenResult](/windows/win32/api/xblidpauthmanager/nn-xblidpauthmanager-ixblidpauthtokenresult) | Introduced in 10.0.14393. |
+| [IAudioFormatEnumerator](/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-iaudioformatenumerator) | Introduced in 10.0.16299. |
+| [ID2D1CommandSink3](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1commandsink3) | Introduced in 10.0.16299. |
+| [ID2D1CommandSink4](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1commandsink4) | Introduced in 10.0.16299. |
+| [ID2D1Device3](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1device3) | Introduced in 10.0.16299. |
+| [ID2D1Device4](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1device4) | Introduced in 10.0.16299. |
+| [ID2D1Device5](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1device5) | Introduced in 10.0.16299. |
+| [ID2D1DeviceContext3](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1devicecontext3) | Introduced in 10.0.16299. |
+| [ID2D1DeviceContext4](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1devicecontext4) | Introduced in 10.0.16299. |
+| [ID2D1DeviceContext5](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1devicecontext5) | Introduced in 10.0.16299. |
+| [ID2D1Factory4](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1factory4) | Introduced in 10.0.16299. |
+| [ID2D1Factory5](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1factory5) | Introduced in 10.0.16299. |
+| [ID2D1Factory6](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1factory6) | Introduced in 10.0.16299. |
+| [ID2D1SpriteBatch](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1spritebatch) | Introduced in 10.0.16299. |
+| [ID2D1SvgAttribute](/windows/win32/api/d2d1svg/nn-d2d1svg-id2d1svgattribute) | Introduced in 10.0.16299. |
+| [ID2D1SvgDocument](/windows/win32/api/d2d1svg/nn-d2d1svg-id2d1svgdocument) | Introduced in 10.0.16299. |
+| [ID2D1SvgElement](/windows/win32/api/d2d1svg/nn-d2d1svg-id2d1svgelement) | Introduced in 10.0.16299. |
+| [ID2D1SvgGlyphStyle](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1svgglyphstyle) | Introduced in 10.0.16299. |
+| [ID2D1SvgPaint](/windows/win32/api/d2d1svg/nn-d2d1svg-id2d1svgpaint) | Introduced in 10.0.16299. |
+| [ID2D1SvgPathData](/windows/win32/api/d2d1svg/nn-d2d1svg-id2d1svgpathdata) | Introduced in 10.0.16299. |
+| [ID2D1SvgPointCollection](/windows/win32/api/d2d1svg/nn-d2d1svg-id2d1svgpointcollection) | Introduced in 10.0.16299. |
+| [ID2D1SvgStrokeDashArray](/windows/win32/api/d2d1svg/nn-d2d1svg-id2d1svgstrokedasharray) | Introduced in 10.0.16299. |
+| [IDXGIAdapter4](/windows/win32/api/dxgi1_6/nn-dxgi1_6-idxgiadapter4) | Introduced in 10.0.16299. |
+| [IMFSpatialAudioObjectBuffer](/windows/win32/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer) | Introduced in 10.0.16299. |
+| [IMFSpatialAudioSample](/windows/win32/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudiosample) | Introduced in 10.0.16299. |
+| [IOplockBreakingHandler](/windows/win32/api/windowsstoragecom/nn-windowsstoragecom-ioplockbreakinghandler) | Introduced in 10.0.16299. |
+| [ISpatialAudioObject](/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject) | Introduced in 10.0.16299. |
+| [ISpatialAudioObjectRenderStream](/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstream) | Introduced in 10.0.16299. |
+| [ISpatialAudioObjectRenderStreamNotify](/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreamnotify) | Introduced in 10.0.16299. |
+| [ISpatialAudioClient](/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient) | Introduced in 10.0.16299. |
+| [IStorageItemHandleAccess](/windows/win32/api/windowsstoragecom/nn-windowsstoragecom-istorageitemhandleaccess) | Introduced in 10.0.16299. |
+| [IStorageFolderHandleAccess](/windows/win32/api/windowsstoragecom/nn-windowsstoragecom-istoragefolderhandleaccess) | Introduced in 10.0.16299. |
 | IRemoteSystemAdditionalInfoProvider | Introduced in 10.0.17134. |
 | IDesktopWindowXamlSourceNative | Introduced in 10.0.17763. |
 | ILearningModelDeviceFactoryNative | Introduced in 10.0.17763. |
@@ -4294,7 +4294,7 @@ COM coclasses
 | FXEQ | Introduced in 10.0.10240. |
 | FXMasteringLimiter | Introduced in 10.0.10240. |
 | FXReverb | Introduced in 10.0.10240. |
-| [RDPSession](https://msdn.microsoft.com/library/Mt446078(v=VS.85).aspx) | Introduced in 10.0.10240. |
+| [RDPSession](/previous-versions/windows/desktop/rdp/rdpsession) | Introduced in 10.0.10240. |
 | RDPSRAPIApplication | Introduced in 10.0.10240. |
 | RDPSRAPIApplicationFilter | Introduced in 10.0.10240. |
 | RDPSRAPIApplicationList | Introduced in 10.0.10240. |
@@ -4327,5 +4327,3 @@ COM coclasses
 | CLSID_WMADecMediaObject | Introduced in 10.0.14393. |
 | CLSID_WMVDecoderMFT | Introduced in 10.0.14393. |
 | XblIdpAuthManager | Introduced in 10.0.14393. |
-
-

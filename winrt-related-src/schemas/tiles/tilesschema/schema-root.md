@@ -18,11 +18,11 @@ These elements are used to define a tile update, and specify the template, image
 
 These elements and their attributes are manipulated through Document Object Model (DOM) functions to customize the tile content.
 
-To define the initial content for a non-default tile, use [**TileUpdateManager.getTemplateContent**](https://msdn.microsoft.com/library/windows/apps/br208627) to get template content that can be modified.
+To define the initial content for a non-default tile, use [**TileUpdateManager.getTemplateContent**](/uwp/api/Windows.UI.Notifications.TileUpdateManager) to get template content that can be modified.
 
-To define the content for an update to an existing non-default tile, you can use [**TileNotification.content**](https://msdn.microsoft.com/library/windows/apps/br208617) to get the existing tile content that can then be modified.
+To define the content for an update to an existing non-default tile, you can use [**TileNotification.content**](/uwp/api/Windows.UI.Notifications.TileNotification) to get the existing tile content that can then be modified.
 
-These elements can also be assigned through use of the [NotificationsExtensions](https://msdn.microsoft.com/library/windows/apps/hh969156) library helper functions.
+These elements can also be assigned through use of the [NotificationsExtensions](/previous-versions/windows/apps/hh969156(v=win.10)) library helper functions.
 
 The following table lists all of the elements in this schema, sorted alphabetically by name.
 
@@ -66,6 +66,3 @@ The following table lists all of the elements in this schema, sorted alphabetica
  
 
  
-
-
-

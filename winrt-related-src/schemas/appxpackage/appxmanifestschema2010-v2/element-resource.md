@@ -75,7 +75,7 @@ Declares a language for the resource contained in the package. The scale and Dir
 </tr>
 <tr class="even">
 <td><strong>m:DXFeatureLevel</strong></td>
-<td><p>The DirectX <a href="https://msdn.microsoft.com/library/windows/desktop/ff476876#overview">feature level</a>  of the resource from the manifest's Resources\Resource field.</p></td>
+<td><p>The DirectX <a href="/windows/win32/direct3d11/overviews-direct3d-11-devices-downlevel-intro#overview">feature level</a>  of the resource from the manifest's Resources\Resource field.</p></td>
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li>dx9</li>
@@ -142,6 +142,3 @@ None.
  
 
  
-
-
-

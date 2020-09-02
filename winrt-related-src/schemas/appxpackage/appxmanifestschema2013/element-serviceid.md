@@ -99,7 +99,7 @@ The **ServiceId** definition has these statements:
   </xs:complexType>
 ```
 
-The preceding 'ref' statement indicates that **ServiceId** inherits all of these [**Extension**](https://msdn.microsoft.com/library/windows/apps/dn423270) base attributes:
+The preceding 'ref' statement indicates that **ServiceId** inherits all of these [**Extension**](../appxmanifestschema2010-v2/element-extension.md) base attributes:
 
 ``` syntax
   <xs:attributeGroup name="ExtensionBaseAttributes">
@@ -110,14 +110,14 @@ The preceding 'ref' statement indicates that **ServiceId** inherits all of these
   </xs:attributeGroup>
 ```
 
-Because **ServiceId** allows the [**Extension**](https://msdn.microsoft.com/library/windows/apps/dn423270) base attributes, it has these semantic validations that aren't covered by the XSD manifest schema:
+Because **ServiceId** allows the [**Extension**](../appxmanifestschema2010-v2/element-extension.md) base attributes, it has these semantic validations that aren't covered by the XSD manifest schema:
 
--   [**Extension**](https://msdn.microsoft.com/library/windows/apps/dn423270) base attributes must follow these rules:
+-   [**Extension**](../appxmanifestschema2010-v2/element-extension.md) base attributes must follow these rules:
 
     -   If the **StartPage** attribute is specified, fail if the **EntryPoint**, **Executable**, or **RuntimeType** attribute is specified.
     -   Otherwise, fail if the **Executable** or **RuntimeType** attribute is specified without an **EntryPoint** specified.
 
--   If **ServiceId** defines the **EntryPoint** attribute, either this **ServiceId** or the parent [**Extension**](https://msdn.microsoft.com/library/windows/apps/dn423270) or [**Application**](https://msdn.microsoft.com/library/windows/apps/dn423250) element must specify an **Executable** attribute.
+-   If **ServiceId** defines the **EntryPoint** attribute, either this **ServiceId** or the parent [**Extension**](../appxmanifestschema2010-v2/element-extension.md) or [**Application**](../appxmanifestschema2010-v2/element-application.md) element must specify an **Executable** attribute.
 
 ## Requirements
 
@@ -128,6 +128,3 @@ Because **ServiceId** allows the [**Extension**](https://msdn.microsoft.com/libr
  
 
  
-
-
-

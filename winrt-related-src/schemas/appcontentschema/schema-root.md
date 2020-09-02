@@ -16,11 +16,11 @@ The Application content, or appcontent-ms, schema for Windows apps enables devel
 ## How it works
 
 
-To request that Windows index your app data for in-app searches, create a folder named "Indexed" under the [**LocalFolder**](https://msdn.microsoft.com/library/windows/apps/br241621) and store the files that you want indexed there. Windows indexes the file content and metadata (properties) in this "Indexed" folder and all its subfolders.
+To request that Windows index your app data for in-app searches, create a folder named "Indexed" under the [**LocalFolder**](/uwp/api/Windows.Storage.ApplicationData) and store the files that you want indexed there. Windows indexes the file content and metadata (properties) in this "Indexed" folder and all its subfolders.
 
-To use the appcontent-ms schema to index info about a file or item, create an appcontent-ms file and add it to your app's [**LocalFolder**](https://msdn.microsoft.com/library/windows/apps/br241621)\\Indexed folder (you need to do this at runtime, after your app has been installed). When your app uses [**Windows.Storage.Search**](https://msdn.microsoft.com/library/windows/apps/br208106) APIs to perform queries on the Indexed folder, Search will include information from your appcontent-ms files.
+To use the appcontent-ms schema to index info about a file or item, create an appcontent-ms file and add it to your app's [**LocalFolder**](/uwp/api/Windows.Storage.ApplicationData)\\Indexed folder (you need to do this at runtime, after your app has been installed). When your app uses [**Windows.Storage.Search**](/uwp/api/Windows.Storage.Search) APIs to perform queries on the Indexed folder, Search will include information from your appcontent-ms files.
 
-The info in appcontent-ms files is only used when the app that contains them uses the [**Windows.Storage.Search**](https://msdn.microsoft.com/library/windows/apps/br208106) API to performs searches; the info won't show up in Windows UI or in other apps, for example.
+The info in appcontent-ms files is only used when the app that contains them uses the [**Windows.Storage.Search**](/uwp/api/Windows.Storage.Search) API to performs searches; the info won't show up in Windows UI or in other apps, for example.
 
 This example shows a simple appcontent-ms file that describes an item named "Sample 1".
 
@@ -160,7 +160,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </tr>
 <tr class="odd">
 <td><a href="element-name.md">Name</a> </td>
-<td><p>Specifies the <a href="https://msdn.microsoft.com/library/windows/desktop/bb760768">System.ItemName</a> \<a href="https://msdn.microsoft.com/library/windows/desktop/bb760770">System.ItemNameDisplay</a> of the item.</p></td>
+<td><p>Specifies the <a href="https://msdn.microsoft.com/library/windows/desktop/bb760768">System.ItemName</a> \<a href="/windows/win32/properties/props-system-itemnamedisplay">System.ItemNameDisplay</a> of the item.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-properties.md">Properties</a> </td>
@@ -214,15 +214,12 @@ Use these attributes to index content in your own app-specific XML elements.
 
 [Indexer sample](https://go.microsoft.com/fwlink/p/?LinkID=311565)
 
-[**Windows.Storage.Search**](https://msdn.microsoft.com/library/windows/apps/br208106)
+[**Windows.Storage.Search**](/uwp/api/Windows.Storage.Search)
 
-[Adding search (HTML)](https://msdn.microsoft.com/library/windows/apps/hh465231)
+[Adding search (HTML)](/previous-versions/windows/apps/hh465231(v=win.10))
 
-[Adding search (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/jj130767)
-
- 
+[Adding search (XAML)](/previous-versions/windows/apps/jj130767(v=win.10))
 
  
 
-
-
+ 

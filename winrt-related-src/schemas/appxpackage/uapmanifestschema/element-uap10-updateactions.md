@@ -55,7 +55,7 @@ None
 
 ### Remarks
 
-This element can only be used in the context of the [uap10:InstalledLocationVirtualization](element-uap10-installedlocationvirtualization.md) extension. This extension redirects any writes to a desktop MSIX app's installation directory to a location in the [app data](https://docs.microsoft.com/windows/uwp/design/app-settings/store-and-retrieve-app-data).
+This element can only be used in the context of the [uap10:InstalledLocationVirtualization](element-uap10-installedlocationvirtualization.md) extension. This extension redirects any writes to a desktop MSIX app's installation directory to a location in the [app data](/windows/uwp/design/app-settings/store-and-retrieve-app-data).
 
 ## Example
 

@@ -32,4 +32,4 @@ Use the source content group map to:
 
 ## Related topics
 
-[Create and convert a source content group map](https://docs.microsoft.com/windows/uwp/packaging/create-cgm)
+[Create and convert a source content group map](/windows/uwp/packaging/create-cgm)

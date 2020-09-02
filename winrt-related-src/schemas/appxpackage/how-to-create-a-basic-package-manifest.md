@@ -21,7 +21,7 @@ ms.date: 04/05/2017
 
 To package your app, you must create a package manifest that contains the elements that are required by that the package manifest schema.
 
-Alternatively, you can package your app using Visual Studio. See [Packaging your app using Visual Studio](https://msdn.microsoft.com/windows/uwp/packaging/index).
+Alternatively, you can package your app using Visual Studio. See [Packaging your app using Visual Studio](/windows/uwp/packaging/).
 
 ## Instructions
 
@@ -134,6 +134,3 @@ The entry for an app must specify certain attributes of the [**VisualElements**]
  
 
  
-
-
-

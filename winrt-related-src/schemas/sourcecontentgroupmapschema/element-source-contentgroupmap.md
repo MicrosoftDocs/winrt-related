@@ -45,7 +45,7 @@ Specifies the layout of the source content group map, SourceAppxContentGroupMap.
 | [Automatic](element-source-automatic.md) | The automatic content group(s). |
 
 ## Remarks
-The source content group map (SourceAppxContentGroupMap.xml) is a content group map authored by the developer. After SourceAppxContentGroupMap.xml is complete, it is converted into the final content group map (AppxContentGroupMap.xml) which will be packaged with the app to enable the app to be streaming installed. For more information on converting your content group map, see [Create and convert a source content group map](https://docs.microsoft.com/windows/uwp/packaging/create-cgm).
+The source content group map (SourceAppxContentGroupMap.xml) is a content group map authored by the developer. After SourceAppxContentGroupMap.xml is complete, it is converted into the final content group map (AppxContentGroupMap.xml) which will be packaged with the app to enable the app to be streaming installed. For more information on converting your content group map, see [Create and convert a source content group map](/windows/uwp/packaging/create-cgm).
 
 It's possible to simply author AppxContentGroupMap.xml and skip converting the SourceAppxContentGroupMap.xml. By skipping this step, you won't be able to use wildcards for files and you'll miss additional validations.
 

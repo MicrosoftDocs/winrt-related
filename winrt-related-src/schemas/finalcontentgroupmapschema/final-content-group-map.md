@@ -19,7 +19,7 @@ The final content group map file is an XML document (AppxContentGroupMap.xml) th
 
 ## Developer audience
 
-Create a source content group map manually and then convert it to the final version, AppxContentGroupMap.xml using the [MakeAppx.exe](https://docs.microsoft.com/windows/uwp/packaging/create-app-package-with-makeappx-tool) tool.
+Create a source content group map manually and then convert it to the final version, AppxContentGroupMap.xml using the [MakeAppx.exe](/windows/uwp/packaging/create-app-package-with-makeappx-tool) tool.
 
 Use the final content group map for:
 
@@ -32,4 +32,4 @@ Use the final content group map for:
 
 ## Related topics
 
-[Create and convert a source content group map](https://docs.microsoft.com/windows/uwp/packaging/create-cgm)
+[Create and convert a source content group map](/windows/uwp/packaging/create-cgm)

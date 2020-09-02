@@ -114,7 +114,7 @@ Declares an app extensibility point of type **windows.protocol**. A URI associat
 <ul>
 <li>None: does not return a value.</li>
 <li>Always: URI activation with this protocol will always return a result.</li>
-<li>Optional: URI activation with this protocol will return a result if it is activated for results (using [<strong>LaunchUriForResultsAndContinueAsync</strong>](https://msdn.microsoft.com/library/windows/apps/dn904655)). However, this protocol activation endpoint can also handle activation when results are not required.</li>
+<li>Optional: URI activation with this protocol will return a result if it is activated for results (using [<strong>LaunchUriForResultsAndContinueAsync</strong>](/previous-versions/windows/dn904655(v=win.10))). However, this protocol activation endpoint can also handle activation when results are not required.</li>
 </ul></td>
 <td><p>This attribute can have one of the following values:</p>
 <ul>
@@ -200,10 +200,10 @@ The following example is taken from the package manifest of one of the SDK sampl
 
 
 **Tasks**
-[How to handle URI activation](https://msdn.microsoft.com/library/windows/apps/hh452686)
+[How to handle URI activation](/previous-versions/windows/apps/hh452686(v=win.10))
 
 **Concepts**
-[App contracts and extensions](https://msdn.microsoft.com/library/windows/apps/hh464906)
+[App contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10))
 
 ## Requirements
 
@@ -215,6 +215,3 @@ The following example is taken from the package manifest of one of the SDK sampl
  
 
  
-
-
-

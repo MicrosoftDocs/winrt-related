@@ -149,7 +149,7 @@ Declares an app extension point of type **windows.shareTarget**. The app can sha
 
 The Share feature provides access to a list of target apps that can receive data that the user wants to share. This extensibility point enables your app to be included in the list of share targets.
 
-[**ShareTarget**](https://msdn.microsoft.com/library/windows/apps/br211466) must specify either [**SupportedFileTypes**](https://msdn.microsoft.com/library/windows/apps/br211468) element, or at least one [**DataFormat**](https://msdn.microsoft.com/library/windows/apps/br211426) element. It cannot omit both. The schema allows omitting both, but semantic validation will fail.
+[**ShareTarget**](../appxmanifestschema/element-sharetarget.md) must specify either [**SupportedFileTypes**](../appxmanifestschema/element-supportedfiletypes.md) element, or at least one [**DataFormat**](../appxmanifestschema/element-dataformat.md) element. It cannot omit both. The schema allows omitting both, but semantic validation will fail.
 
 ## Examples
 
@@ -172,10 +172,10 @@ The Share feature provides access to a list of target apps that can receive data
 
 
 **Tasks**
-[Adding share](https://msdn.microsoft.com/library/windows/apps/hh758314)
+[Adding share](/previous-versions/windows/apps/hh758314(v=win.10))
 
 **Concepts**
-[App contracts and extensions](https://msdn.microsoft.com/library/windows/apps/hh464906)
+[App contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10))
 
 ## Requirements
 
@@ -187,6 +187,3 @@ The Share feature provides access to a list of target apps that can receive data
  
 
  
-
-
-

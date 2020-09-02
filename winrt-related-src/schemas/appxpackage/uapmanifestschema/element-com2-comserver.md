@@ -77,7 +77,7 @@ Declares a package extension point of type **windows.comServer**. The **comServe
 ## Remarks
 In multi-application packages, it's important to place the COM server registration under the correct Applications/Application manifest element, because COM server processes will run with the identity of the ancestor Applications/Application element.
 
-COM servers registered in the manifest always get Activate As Package (AAP) behavior, which means the COM server runs with the user session default token with package and application claims added. This is different from the default activation behavior of classically registered COM servers, in which the COM server runs with the client's token. For most applications, this difference will not be noticeable because clients typically run with the user session default token. Other activation behaviors, such as [RunAs]( https://msdn.microsoft.com/library/windows/desktop/ms680046.aspx), are not supported.
+COM servers registered in the manifest always get Activate As Package (AAP) behavior, which means the COM server runs with the user session default token with package and application claims added. This is different from the default activation behavior of classically registered COM servers, in which the COM server runs with the client's token. For most applications, this difference will not be noticeable because clients typically run with the user session default token. Other activation behaviors, such as [RunAs]( /windows/win32/com/runas), are not supported.
 
 > [!NOTE]
 > Any registrations in **comServer** that depend on another registration (e.g. a **ProgId** references a **Class**) must be in the same **comServer** extension. 
@@ -89,4 +89,3 @@ It is possible to have multiple **comServer** extensions under the Applications/
 |               |                                                             |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/2`<br/><br/>`http://schemas.microsoft.com/appx/manifest/com/windows10/3` (for the **com3** elements) |
-

@@ -121,15 +121,15 @@ This table shows the available status glyphs.
 ## See also
 
 
-[Badge overview](https://msdn.microsoft.com/library/windows/apps/hh779719)
+[Badge overview](/previous-versions/windows/apps/hh779719(v=win.10))
 
 [App tiles and badges sample](https://go.microsoft.com/fwlink/p/?linkid=231469)
 
-[How to send a glyph or numeric badge in a local notification](https://msdn.microsoft.com/library/windows/apps/hh700418)
+[How to send a glyph or numeric badge in a local notification](/previous-versions/windows/apps/hh700418(v=win.10))
 
-[How to clear a badge](https://msdn.microsoft.com/library/windows/apps/hh700418)
+[How to clear a badge](/previous-versions/windows/apps/hh700418(v=win.10))
 
-[Guidelines and checklist for tiles and badges](https://msdn.microsoft.com/library/windows/apps/hh465403)
+[Guidelines and checklist for tiles and badges](/windows/uwp/design/shell/tiles-and-notifications/creating-tiles)
 
 ## Requirements
 
@@ -140,6 +140,3 @@ This table shows the available status glyphs.
  
 
  
-
-
-

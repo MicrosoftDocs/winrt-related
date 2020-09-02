@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # DefaultProfile
 
 
-Contains any errors from processing the [**DefaultProfile**](https://msdn.microsoft.com/library/windows/apps/hh868453) element from the last provisioning attempt.
+Contains any errors from processing the [**DefaultProfile**](../wwan/element-defaultprofile.md) element from the last provisioning attempt.
 
 ## Element hierarchy
 
@@ -113,6 +113,3 @@ None.
  
 
  
-
-
-

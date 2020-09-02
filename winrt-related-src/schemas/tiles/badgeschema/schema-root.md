@@ -16,9 +16,9 @@ ms.date: 04/05/2017
 
 An element used to specify the value of a badge.
 
-To define the initial content for a badge, use [**BadgeUpdateManager.getTemplateContent**](https://msdn.microsoft.com/library/windows/apps/br208536) to get template content that can be modified.
+To define the initial content for a badge, use [**BadgeUpdateManager.getTemplateContent**](/uwp/api/Windows.UI.Notifications.BadgeUpdateManager) to get template content that can be modified.
 
-To update the content of an existing badge, use [**BadgeNotification.content**](https://msdn.microsoft.com/library/windows/apps/br208528) to get the current contents.
+To update the content of an existing badge, use [**BadgeNotification.content**](/uwp/api/Windows.UI.Notifications.BadgeNotification) to get the current contents.
 
 The following table lists all of the elements in this schema, sorted alphabetically by name.
 
@@ -46,6 +46,3 @@ The following table lists all of the elements in this schema, sorted alphabetica
  
 
  
-
-
-

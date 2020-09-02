@@ -10,97 +10,97 @@ ms.assetid: 9763fa67-0f32-4128-b901-013b1d7ea73c
 # APIs present on all Windows 10 devices
 This topic lists the Win32 APIs that are part of the Universal Windows Platform (UWP) and that are implemented by all Windows 10 devices. For convenience, an umbrella library named WindowsApp.lib is provided in the Microsoft Windows Software Development Kit (SDK), which provides the exports for this set of Win32 APIs. Link your app with WindowsApp.lib (and no other libraries) to access these APIs.
 
-This topic lists all the APIs in WindowsApp.lib, grouped by module (where the module is either an [API set](https://msdn.microsoft.com/library/windows/apps/mt683763.aspx#api_sets) or a dll). Linking to WindowsApp.lib will add to your app dependencies on dlls that are present on all Windows 10 devices. For delay load, use the module name. Note that an umbrella lib can contain some, but not necessarily all, APIs from a given module.
+This topic lists all the APIs in WindowsApp.lib, grouped by module (where the module is either an [API set](/windows/win32/apiindex/windows-umbrella-libraries#api_sets) or a dll). Linking to WindowsApp.lib will add to your app dependencies on dlls that are present on all Windows 10 devices. For delay load, use the module name. Note that an umbrella lib can contain some, but not necessarily all, APIs from a given module.
 
 ## APIs from api-ms-win-core-com-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CLSIDFromString](https://msdn.microsoft.com/library/windows/desktop/ms680589.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoCreateFreeThreadedMarshaler](https://msdn.microsoft.com/library/windows/desktop/ms694500.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoCreateGuid](https://msdn.microsoft.com/library/windows/desktop/ms688568.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoCreateInstanceFromApp](https://msdn.microsoft.com/library/windows/desktop/hh404137.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoDisconnectObject](https://msdn.microsoft.com/library/windows/desktop/ms680756.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoFreeUnusedLibraries](https://msdn.microsoft.com/library/windows/desktop/ms679712.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoFreeUnusedLibrariesEx](https://msdn.microsoft.com/library/windows/desktop/ms678413.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoGetApartmentType](https://msdn.microsoft.com/library/windows/desktop/dd542641.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoGetContextToken](https://msdn.microsoft.com/library/windows/desktop/ms679665.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoGetCurrentLogicalThreadId](https://msdn.microsoft.com/library/windows/desktop/ms693805.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoGetInterfaceAndReleaseStream](https://msdn.microsoft.com/library/windows/desktop/ms691421.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoGetMarshalSizeMax](https://msdn.microsoft.com/library/windows/desktop/ms692640.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoGetObjectContext](https://msdn.microsoft.com/library/windows/desktop/ms690084.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoGetStandardMarshal](https://msdn.microsoft.com/library/windows/desktop/ms678527.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoInitializeEx](https://msdn.microsoft.com/library/windows/desktop/ms695279.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoInitializeSecurity](https://msdn.microsoft.com/library/windows/desktop/ms693736.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoMarshalInterface](https://msdn.microsoft.com/library/windows/desktop/ms678428.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoMarshalInterThreadInterfaceInStream](https://msdn.microsoft.com/library/windows/desktop/ms693316.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoRegisterClassObject](https://msdn.microsoft.com/library/windows/desktop/ms693407.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoReleaseMarshalData](https://msdn.microsoft.com/library/windows/desktop/ms690490.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoResumeClassObjects](https://msdn.microsoft.com/library/windows/desktop/ms692686.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoRevokeClassObject](https://msdn.microsoft.com/library/windows/desktop/ms688650.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoSuspendClassObjects](https://msdn.microsoft.com/library/windows/desktop/ms691208.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoSwitchCallContext](https://msdn.microsoft.com/library/windows/desktop/ms679683.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoTaskMemAlloc](https://msdn.microsoft.com/library/windows/desktop/ms692727.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoTaskMemFree](https://msdn.microsoft.com/library/windows/desktop/ms680722.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoTaskMemRealloc](https://msdn.microsoft.com/library/windows/desktop/ms687280.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoUninitialize](https://msdn.microsoft.com/library/windows/desktop/ms688715.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CoUnmarshalInterface](https://msdn.microsoft.com/library/windows/desktop/ms693382.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [CreateStreamOnHGlobal](https://msdn.microsoft.com/library/windows/desktop/aa378980.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [FreePropVariantArray](https://msdn.microsoft.com/library/windows/desktop/bb762285.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [GetHGlobalFromStream](https://msdn.microsoft.com/library/windows/desktop/aa379145.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [IIDFromString](https://msdn.microsoft.com/library/windows/desktop/ms687262.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [PropVariantClear](https://msdn.microsoft.com/library/windows/desktop/bb776515.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [PropVariantCopy](https://msdn.microsoft.com/library/windows/desktop/bb776518.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [RoGetAgileReference](https://msdn.microsoft.com/library/windows/desktop/dn269839.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. |
-| [StringFromCLSID](https://msdn.microsoft.com/library/windows/desktop/ms683917.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [StringFromGUID2](https://msdn.microsoft.com/library/windows/desktop/ms683893.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
-| [StringFromIID](https://msdn.microsoft.com/library/windows/desktop/ms688692.aspx) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CLSIDFromString](/windows/win32/api/combaseapi/nf-combaseapi-clsidfromstring) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoCreateFreeThreadedMarshaler](/windows/win32/api/combaseapi/nf-combaseapi-cocreatefreethreadedmarshaler) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoCreateGuid](/windows/win32/api/combaseapi/nf-combaseapi-cocreateguid) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoCreateInstanceFromApp](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstancefromapp) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoDisconnectObject](/windows/win32/api/combaseapi/nf-combaseapi-codisconnectobject) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoFreeUnusedLibraries](/windows/win32/api/combaseapi/nf-combaseapi-cofreeunusedlibraries) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoFreeUnusedLibrariesEx](/windows/win32/api/combaseapi/nf-combaseapi-cofreeunusedlibrariesex) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoGetApartmentType](/windows/win32/api/combaseapi/nf-combaseapi-cogetapartmenttype) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoGetContextToken](/windows/win32/api/combaseapi/nf-combaseapi-cogetcontexttoken) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoGetCurrentLogicalThreadId](/windows/win32/api/combaseapi/nf-combaseapi-cogetcurrentlogicalthreadid) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoGetInterfaceAndReleaseStream](/windows/win32/api/combaseapi/nf-combaseapi-cogetinterfaceandreleasestream) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoGetMarshalSizeMax](/windows/win32/api/combaseapi/nf-combaseapi-cogetmarshalsizemax) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoGetObjectContext](/windows/win32/api/combaseapi/nf-combaseapi-cogetobjectcontext) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoGetStandardMarshal](/windows/win32/api/combaseapi/nf-combaseapi-cogetstandardmarshal) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoInitializeSecurity](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoMarshalInterface](/windows/win32/api/combaseapi/nf-combaseapi-comarshalinterface) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoMarshalInterThreadInterfaceInStream](/windows/win32/api/combaseapi/nf-combaseapi-comarshalinterthreadinterfaceinstream) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoRegisterClassObject](/windows/win32/api/combaseapi/nf-combaseapi-coregisterclassobject) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoReleaseMarshalData](/windows/win32/api/combaseapi/nf-combaseapi-coreleasemarshaldata) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoResumeClassObjects](/windows/win32/api/combaseapi/nf-combaseapi-coresumeclassobjects) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoRevokeClassObject](/windows/win32/api/combaseapi/nf-combaseapi-corevokeclassobject) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoSuspendClassObjects](/windows/win32/api/combaseapi/nf-combaseapi-cosuspendclassobjects) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoSwitchCallContext](/windows/win32/api/combaseapi/nf-combaseapi-coswitchcallcontext) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoTaskMemAlloc](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoTaskMemFree](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoTaskMemRealloc](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemrealloc) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoUninitialize](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CoUnmarshalInterface](/windows/win32/api/combaseapi/nf-combaseapi-counmarshalinterface) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [CreateStreamOnHGlobal](/windows/win32/api/combaseapi/nf-combaseapi-createstreamonhglobal) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [FreePropVariantArray](/windows/win32/api/propidl/nf-propidl-freepropvariantarray) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [GetHGlobalFromStream](/windows/win32/api/combaseapi/nf-combaseapi-gethglobalfromstream) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [IIDFromString](/windows/win32/api/combaseapi/nf-combaseapi-iidfromstring) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [PropVariantClear](/windows/win32/api/propidl/nf-propidl-propvariantclear) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [PropVariantCopy](/windows/win32/api/propidl/nf-propidl-propvariantcopy) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [RoGetAgileReference](/windows/win32/api/combaseapi/nf-combaseapi-rogetagilereference) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. |
+| [StringFromCLSID](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [StringFromGUID2](/windows/win32/api/combaseapi/nf-combaseapi-stringfromguid2) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
+| [StringFromIID](/windows/win32/api/combaseapi/nf-combaseapi-stringfromiid) | Introduced into api-ms-win-core-com-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-com-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-com-l2-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateILockBytesOnHGlobal](https://msdn.microsoft.com/library/windows/desktop/aa378977.aspx) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
-| [FmtIdToPropStgName](https://msdn.microsoft.com/library/windows/desktop/aa379108.aspx) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
-| [GetConvertStg](https://msdn.microsoft.com/library/windows/desktop/aa379138.aspx) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
-| [GetHGlobalFromILockBytes](https://msdn.microsoft.com/library/windows/desktop/aa379140.aspx) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
-| [PropStgNameToFmtId](https://msdn.microsoft.com/library/windows/desktop/aa380071.aspx) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
-| [ReadClassStg](https://msdn.microsoft.com/library/windows/desktop/aa380302.aspx) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
-| [ReadClassStm](https://msdn.microsoft.com/library/windows/desktop/aa380303.aspx) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
-| [StgCreateDocfile](https://msdn.microsoft.com/library/windows/desktop/aa380323.aspx) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
-| [StgCreateDocfileOnILockBytes](https://msdn.microsoft.com/library/windows/desktop/aa380324.aspx) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
-| [StgCreatePropSetStg](https://msdn.microsoft.com/library/windows/desktop/aa380325.aspx) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
-| [StgCreatePropStg](https://msdn.microsoft.com/library/windows/desktop/aa380327.aspx) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
-| [StgCreateStorageEx](https://msdn.microsoft.com/library/windows/desktop/aa380328.aspx) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
-| [StgIsStorageFile](https://msdn.microsoft.com/library/windows/desktop/aa380334.aspx) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
-| [StgIsStorageILockBytes](https://msdn.microsoft.com/library/windows/desktop/aa380335.aspx) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
-| [StgOpenPropStg](https://msdn.microsoft.com/library/windows/desktop/aa380340.aspx) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
-| [StgOpenStorage](https://msdn.microsoft.com/library/windows/desktop/aa380341.aspx) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
-| [StgOpenStorageEx](https://msdn.microsoft.com/library/windows/desktop/aa380342.aspx) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
-| [StgOpenStorageOnILockBytes](https://msdn.microsoft.com/library/windows/desktop/aa380343.aspx) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
-| [StgSetTimes](https://msdn.microsoft.com/library/windows/desktop/aa380347.aspx) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
-| [WriteClassStg](https://msdn.microsoft.com/library/windows/desktop/aa380384.aspx) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
-| [WriteClassStm](https://msdn.microsoft.com/library/windows/desktop/aa380385.aspx) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
+| [CreateILockBytesOnHGlobal](/windows/win32/api/coml2api/nf-coml2api-createilockbytesonhglobal) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
+| [FmtIdToPropStgName](/windows/win32/api/coml2api/nf-coml2api-fmtidtopropstgname) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
+| [GetConvertStg](/windows/win32/api/coml2api/nf-coml2api-getconvertstg) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
+| [GetHGlobalFromILockBytes](/windows/win32/api/coml2api/nf-coml2api-gethglobalfromilockbytes) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
+| [PropStgNameToFmtId](/windows/win32/api/coml2api/nf-coml2api-propstgnametofmtid) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
+| [ReadClassStg](/windows/win32/api/coml2api/nf-coml2api-readclassstg) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
+| [ReadClassStm](/windows/win32/api/coml2api/nf-coml2api-readclassstm) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
+| [StgCreateDocfile](/windows/win32/api/coml2api/nf-coml2api-stgcreatedocfile) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
+| [StgCreateDocfileOnILockBytes](/windows/win32/api/coml2api/nf-coml2api-stgcreatedocfileonilockbytes) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
+| [StgCreatePropSetStg](/windows/win32/api/coml2api/nf-coml2api-stgcreatepropsetstg) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
+| [StgCreatePropStg](/windows/win32/api/coml2api/nf-coml2api-stgcreatepropstg) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
+| [StgCreateStorageEx](/windows/win32/api/coml2api/nf-coml2api-stgcreatestorageex) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
+| [StgIsStorageFile](/windows/win32/api/coml2api/nf-coml2api-stgisstoragefile) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
+| [StgIsStorageILockBytes](/windows/win32/api/coml2api/nf-coml2api-stgisstorageilockbytes) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
+| [StgOpenPropStg](/windows/win32/api/coml2api/nf-coml2api-stgopenpropstg) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
+| [StgOpenStorage](/windows/win32/api/coml2api/nf-coml2api-stgopenstorage) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
+| [StgOpenStorageEx](/windows/win32/api/coml2api/nf-coml2api-stgopenstorageex) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
+| [StgOpenStorageOnILockBytes](/windows/win32/api/coml2api/nf-coml2api-stgopenstorageonilockbytes) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
+| [StgSetTimes](/windows/win32/api/coml2api/nf-coml2api-stgsettimes) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
+| [WriteClassStg](/windows/win32/api/coml2api/nf-coml2api-writeclassstg) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
+| [WriteClassStm](/windows/win32/api/coml2api/nf-coml2api-writeclassstm) | Introduced into api-ms-win-core-com-l2-1-1.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-com-midlproxystub-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CStdAsyncStubBuffer_AddRef](https://msdn.microsoft.com/library/windows/desktop/mt243874.aspx) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| [CStdAsyncStubBuffer_Connect](https://msdn.microsoft.com/library/windows/desktop/mt243875.aspx) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| [CStdAsyncStubBuffer_Disconnect](https://msdn.microsoft.com/library/windows/desktop/mt243876.aspx) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| [CStdAsyncStubBuffer_Invoke](https://msdn.microsoft.com/library/windows/desktop/mt243877.aspx) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| [CStdAsyncStubBuffer_QueryInterface](https://msdn.microsoft.com/library/windows/desktop/mt243878.aspx) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| [CStdAsyncStubBuffer_Release](https://msdn.microsoft.com/library/windows/desktop/mt243879.aspx) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| [CStdAsyncStubBuffer2_Connect](https://msdn.microsoft.com/library/windows/desktop/mt243871.aspx) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| [CStdAsyncStubBuffer2_Disconnect](https://msdn.microsoft.com/library/windows/desktop/mt243872.aspx) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| [CStdAsyncStubBuffer2_Release](https://msdn.microsoft.com/library/windows/desktop/mt243873.aspx) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| [CStdStubBuffer2_Connect](https://msdn.microsoft.com/library/windows/desktop/mt243880.aspx) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| [CStdStubBuffer2_CountRefs](https://msdn.microsoft.com/library/windows/desktop/mt243881.aspx) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| [CStdStubBuffer2_Disconnect](https://msdn.microsoft.com/library/windows/desktop/mt243882.aspx) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
-| [CStdStubBuffer2_QueryInterface](https://msdn.microsoft.com/library/windows/desktop/mt243883.aspx) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [CStdAsyncStubBuffer_AddRef](/windows/win32/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_addref) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [CStdAsyncStubBuffer_Connect](/windows/win32/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_connect) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [CStdAsyncStubBuffer_Disconnect](/windows/win32/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_disconnect) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [CStdAsyncStubBuffer_Invoke](/windows/win32/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_invoke) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [CStdAsyncStubBuffer_QueryInterface](/windows/win32/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_queryinterface) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [CStdAsyncStubBuffer_Release](/windows/win32/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_release) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [CStdAsyncStubBuffer2_Connect](/windows/win32/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer2_connect) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [CStdAsyncStubBuffer2_Disconnect](/windows/win32/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer2_disconnect) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [CStdAsyncStubBuffer2_Release](/windows/win32/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer2_release) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [CStdStubBuffer2_Connect](/windows/win32/api/rpcproxy/nf-rpcproxy-cstdstubbuffer2_connect) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [CStdStubBuffer2_CountRefs](/windows/win32/api/rpcproxy/nf-rpcproxy-cstdstubbuffer2_countrefs) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [CStdStubBuffer2_Disconnect](/windows/win32/api/rpcproxy/nf-rpcproxy-cstdstubbuffer2_disconnect) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
+| [CStdStubBuffer2_QueryInterface](/windows/win32/api/rpcproxy/nf-rpcproxy-cstdstubbuffer2_queryinterface) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
 | [NdrProxyForwardingFunction10](/windows/win32/api/rpcproxy/nf-rpcproxy-ndrproxyforwardingfunction10) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
 | [NdrProxyForwardingFunction11](/windows/win32/api/rpcproxy/nf-rpcproxy-ndrproxyforwardingfunction11) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
 | [NdrProxyForwardingFunction12](/windows/win32/api/rpcproxy/nf-rpcproxy-ndrproxyforwardingfunction12) | Introduced into api-ms-win-core-com-midlproxystub-l1-1-0.dll in 10.0.10240. |
@@ -167,63 +167,63 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [GetDateFormatEx](https://msdn.microsoft.com/library/windows/desktop/dd318088.aspx) | Introduced into api-ms-win-core-datetime-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-datetime-l1-1-2.dll in 10.0.10586. Moved into api-ms-win-core-datetime-l1-1-1.dll in 10.0.14393. |
-| [GetTimeFormatEx](https://msdn.microsoft.com/library/windows/desktop/dd318131.aspx) | Introduced into api-ms-win-core-datetime-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-datetime-l1-1-2.dll in 10.0.10586. Moved into api-ms-win-core-datetime-l1-1-1.dll in 10.0.14393. |
+| [GetDateFormatEx](/windows/win32/api/datetimeapi/nf-datetimeapi-getdateformatex) | Introduced into api-ms-win-core-datetime-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-datetime-l1-1-2.dll in 10.0.10586. Moved into api-ms-win-core-datetime-l1-1-1.dll in 10.0.14393. |
+| [GetTimeFormatEx](/windows/win32/api/datetimeapi/nf-datetimeapi-gettimeformatex) | Introduced into api-ms-win-core-datetime-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-datetime-l1-1-2.dll in 10.0.10586. Moved into api-ms-win-core-datetime-l1-1-1.dll in 10.0.14393. |
 
 
 ## APIs from api-ms-win-core-datetime-l1-1-2.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetDurationFormatEx](https://msdn.microsoft.com/library/windows/desktop/dd318092.aspx) | Introduced into api-ms-win-core-datetime-l1-1-2.dll in 10.0.10240. |
+| [GetDurationFormatEx](/windows/win32/api/winnls/nf-winnls-getdurationformatex) | Introduced into api-ms-win-core-datetime-l1-1-2.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-debug-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [IsDebuggerPresent](https://msdn.microsoft.com/library/windows/desktop/ms680345.aspx) | Introduced into api-ms-win-core-debug-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-debug-l1-1-2.dll in 10.0.10586. Moved into api-ms-win-core-debug-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-debug-l1-1-0.dll in 10.0.16299. |
-| [OutputDebugStringA](https://msdn.microsoft.com/library/windows/desktop/aa363362.aspx) | Introduced into api-ms-win-core-debug-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-debug-l1-1-2.dll in 10.0.10586. Moved into api-ms-win-core-debug-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-debug-l1-1-0.dll in 10.0.16299. |
-| [OutputDebugStringW](https://msdn.microsoft.com/library/windows/desktop/aa363362.aspx) | Introduced into api-ms-win-core-debug-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-debug-l1-1-2.dll in 10.0.10586. Moved into api-ms-win-core-debug-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-debug-l1-1-0.dll in 10.0.16299. |
+| [IsDebuggerPresent](/windows/win32/api/debugapi/nf-debugapi-isdebuggerpresent) | Introduced into api-ms-win-core-debug-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-debug-l1-1-2.dll in 10.0.10586. Moved into api-ms-win-core-debug-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-debug-l1-1-0.dll in 10.0.16299. |
+| [OutputDebugStringA](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa) | Introduced into api-ms-win-core-debug-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-debug-l1-1-2.dll in 10.0.10586. Moved into api-ms-win-core-debug-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-debug-l1-1-0.dll in 10.0.16299. |
+| [OutputDebugStringW](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa) | Introduced into api-ms-win-core-debug-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-debug-l1-1-2.dll in 10.0.10586. Moved into api-ms-win-core-debug-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-debug-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-delayload-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [DelayLoadFailureHook](https://msdn.microsoft.com/library/windows/desktop/bb432244.aspx) | Introduced into api-ms-win-core-delayload-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-delayload-l1-1-0.dll in 10.0.16299. |
-| [ResolveDelayLoadedAPI](https://msdn.microsoft.com/library/windows/desktop/hh829881.aspx) | Introduced into api-ms-win-core-delayload-l1-1-1.dll in 10.0.10240. |
-| [ResolveDelayLoadsFromDll](https://msdn.microsoft.com/library/windows/desktop/hh829882.aspx) | Introduced into api-ms-win-core-delayload-l1-1-1.dll in 10.0.10240. |
+| [DelayLoadFailureHook](/windows/win32/devnotes/delayloadfailurehook) | Introduced into api-ms-win-core-delayload-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-delayload-l1-1-0.dll in 10.0.16299. |
+| [ResolveDelayLoadedAPI](/windows/win32/devnotes/resolvedelayloadedapi) | Introduced into api-ms-win-core-delayload-l1-1-1.dll in 10.0.10240. |
+| [ResolveDelayLoadsFromDll](/windows/win32/devnotes/resolvedelayloadsfromdll) | Introduced into api-ms-win-core-delayload-l1-1-1.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-errorhandling-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetLastError](https://msdn.microsoft.com/library/windows/desktop/ms679360.aspx) | Introduced into api-ms-win-core-errorhandling-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-errorhandling-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-errorhandling-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-errorhandling-l1-1-0.dll in 10.0.16299. |
-| [RaiseException](https://msdn.microsoft.com/library/windows/desktop/ms680552.aspx) | Introduced into api-ms-win-core-errorhandling-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-errorhandling-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-errorhandling-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-errorhandling-l1-1-0.dll in 10.0.16299. |
-| [SetLastError](https://msdn.microsoft.com/library/windows/desktop/ms680627.aspx) | Introduced into api-ms-win-core-errorhandling-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-errorhandling-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-errorhandling-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-errorhandling-l1-1-0.dll in 10.0.16299. |
+| [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) | Introduced into api-ms-win-core-errorhandling-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-errorhandling-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-errorhandling-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-errorhandling-l1-1-0.dll in 10.0.16299. |
+| [RaiseException](/windows/win32/api/errhandlingapi/nf-errhandlingapi-raiseexception) | Introduced into api-ms-win-core-errorhandling-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-errorhandling-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-errorhandling-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-errorhandling-l1-1-0.dll in 10.0.16299. |
+| [SetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-setlasterror) | Introduced into api-ms-win-core-errorhandling-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-errorhandling-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-errorhandling-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-errorhandling-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-errorhandling-l1-1-3.dll
 
 | API | Requirements |
 | -----| --------------|
-| [RaiseFailFastException](https://msdn.microsoft.com/library/windows/desktop/dd941688.aspx) | Introduced into api-ms-win-core-errorhandling-l1-1-3.dll in 10.0.10240. Moved into api-ms-win-core-errorhandling-l1-1-2.dll in 10.0.16299. |
-| [SetUnhandledExceptionFilter](https://msdn.microsoft.com/library/windows/desktop/ms680634.aspx) | Introduced into api-ms-win-core-errorhandling-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-errorhandling-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-errorhandling-l1-1-0.dll in 10.0.16299. |
-| [GetThreadErrorMode](https://msdn.microsoft.com/library/Dd553629(v=VS.85).aspx) | Introduced into api-ms-win-core-errorhandling-l1-1-3.dll in 10.0.16299. |
-| [SetThreadErrorMode](https://msdn.microsoft.com/library/Dd553630(v=VS.85).aspx) | Introduced into api-ms-win-core-errorhandling-l1-1-3.dll in 10.0.16299. |
+| [RaiseFailFastException](/windows/win32/api/errhandlingapi/nf-errhandlingapi-raisefailfastexception) | Introduced into api-ms-win-core-errorhandling-l1-1-3.dll in 10.0.10240. Moved into api-ms-win-core-errorhandling-l1-1-2.dll in 10.0.16299. |
+| [SetUnhandledExceptionFilter](/windows/win32/api/errhandlingapi/nf-errhandlingapi-setunhandledexceptionfilter) | Introduced into api-ms-win-core-errorhandling-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-errorhandling-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-errorhandling-l1-1-0.dll in 10.0.16299. |
+| [GetThreadErrorMode](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getthreaderrormode) | Introduced into api-ms-win-core-errorhandling-l1-1-3.dll in 10.0.16299. |
+| [SetThreadErrorMode](/windows/win32/api/errhandlingapi/nf-errhandlingapi-setthreaderrormode) | Introduced into api-ms-win-core-errorhandling-l1-1-3.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-fibers-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [FlsAlloc](https://msdn.microsoft.com/library/windows/desktop/ms682664.aspx) | Introduced into api-ms-win-core-fibers-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-fibers-l1-1-0.dll in 10.0.16299. |
-| [FlsFree](https://msdn.microsoft.com/library/windows/desktop/ms682667.aspx) | Introduced into api-ms-win-core-fibers-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-fibers-l1-1-0.dll in 10.0.16299. |
-| [FlsGetValue](https://msdn.microsoft.com/library/windows/desktop/ms683141.aspx) | Introduced into api-ms-win-core-fibers-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-fibers-l1-1-0.dll in 10.0.16299. |
-| [FlsSetValue](https://msdn.microsoft.com/library/windows/desktop/ms683146.aspx) | Introduced into api-ms-win-core-fibers-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-fibers-l1-1-0.dll in 10.0.16299. |
-| [IsThreadAFiber](https://msdn.microsoft.com/library/windows/desktop/ms684131.aspx) | Introduced into api-ms-win-core-fibers-l1-1-1.dll in 10.0.10240. |
+| [FlsAlloc](/windows/win32/api/fibersapi/nf-fibersapi-flsalloc) | Introduced into api-ms-win-core-fibers-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-fibers-l1-1-0.dll in 10.0.16299. |
+| [FlsFree](/windows/win32/api/fibersapi/nf-fibersapi-flsfree) | Introduced into api-ms-win-core-fibers-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-fibers-l1-1-0.dll in 10.0.16299. |
+| [FlsGetValue](/windows/win32/api/fibersapi/nf-fibersapi-flsgetvalue) | Introduced into api-ms-win-core-fibers-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-fibers-l1-1-0.dll in 10.0.16299. |
+| [FlsSetValue](/windows/win32/api/fibersapi/nf-fibersapi-flssetvalue) | Introduced into api-ms-win-core-fibers-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-fibers-l1-1-0.dll in 10.0.16299. |
+| [IsThreadAFiber](/windows/win32/api/fibersapi/nf-fibersapi-isthreadafiber) | Introduced into api-ms-win-core-fibers-l1-1-1.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-fibers-l2-1-1.dll
@@ -231,770 +231,770 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | API | Requirements |
 | -----| --------------|
 | CalloutOnFiberStack | Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. Removed in 10.0.10586. |
-| [ConvertFiberToThread](https://msdn.microsoft.com/library/windows/desktop/ms682112.aspx) | Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-fibers-l2-1-0.dll in 10.0.16299. |
-| [ConvertThreadToFiberEx](https://msdn.microsoft.com/library/windows/desktop/ms682117.aspx) | Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. |
-| [CreateFiberEx](https://msdn.microsoft.com/library/windows/desktop/ms682406.aspx) | Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. |
-| [DeleteFiber](https://msdn.microsoft.com/library/windows/desktop/ms682556.aspx) | Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-fibers-l2-1-0.dll in 10.0.16299. |
-| [SwitchToFiber](https://msdn.microsoft.com/library/windows/desktop/ms686350.aspx) | Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-fibers-l2-1-0.dll in 10.0.16299. |
+| [ConvertFiberToThread](/windows/win32/api/winbase/nf-winbase-convertfibertothread) | Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-fibers-l2-1-0.dll in 10.0.16299. |
+| [ConvertThreadToFiberEx](/windows/win32/api/winbase/nf-winbase-convertthreadtofiberex) | Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. |
+| [CreateFiberEx](/windows/win32/api/winbase/nf-winbase-createfiberex) | Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. |
+| [DeleteFiber](/windows/win32/api/winbase/nf-winbase-deletefiber) | Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-fibers-l2-1-0.dll in 10.0.16299. |
+| [SwitchToFiber](/windows/win32/api/winbase/nf-winbase-switchtofiber) | Introduced into api-ms-win-core-fibers-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-fibers-l2-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-file-ansi-l2-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [ReplaceFileA](https://msdn.microsoft.com/library/windows/desktop/aa365512.aspx) | Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.10240. |
-| [CopyFileExA](https://msdn.microsoft.com/library/Aa363852(v=VS.85).aspx) | Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.16299. |
+| [ReplaceFileA](/windows/win32/api/winbase/nf-winbase-replacefilea) | Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.10240. |
+| [CopyFileExA](/windows/win32/api/winbase/nf-winbase-copyfileexa) | Introduced into api-ms-win-core-file-ansi-l2-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-file-l1-2-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateDirectoryA](https://msdn.microsoft.com/library/windows/desktop/aa363855.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [CreateDirectoryW](https://msdn.microsoft.com/library/windows/desktop/aa363855.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [CreateFile2](https://msdn.microsoft.com/library/windows/desktop/hh449422.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. |
-| [DeleteFileA](https://msdn.microsoft.com/library/windows/desktop/aa363915.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [DeleteFileW](https://msdn.microsoft.com/library/windows/desktop/aa363915.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [FindClose](https://msdn.microsoft.com/library/windows/desktop/aa364413.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [FindFirstFileExA](https://msdn.microsoft.com/library/windows/desktop/aa364419.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [FindFirstFileExW](https://msdn.microsoft.com/library/windows/desktop/aa364419.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [FindNextFileA](https://msdn.microsoft.com/library/windows/desktop/aa364428.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [FindNextFileW](https://msdn.microsoft.com/library/windows/desktop/aa364428.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [FlushFileBuffers](https://msdn.microsoft.com/library/windows/desktop/aa364439.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetDiskFreeSpaceExA](https://msdn.microsoft.com/library/windows/desktop/aa364937.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetDiskFreeSpaceExW](https://msdn.microsoft.com/library/windows/desktop/aa364937.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetFileAttributesExA](https://msdn.microsoft.com/library/windows/desktop/aa364946.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetFileAttributesExW](https://msdn.microsoft.com/library/windows/desktop/aa364946.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetFileSizeEx](https://msdn.microsoft.com/library/windows/desktop/aa364957.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetFileTime](https://msdn.microsoft.com/library/windows/desktop/ms724320.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetFileType](https://msdn.microsoft.com/library/windows/desktop/aa364960.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetFullPathNameW](https://msdn.microsoft.com/library/windows/desktop/aa364963.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetLongPathNameW](https://msdn.microsoft.com/library/windows/desktop/aa364980.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetTempFileNameW](https://msdn.microsoft.com/library/windows/desktop/aa364991.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetTempPathW](https://msdn.microsoft.com/library/windows/desktop/aa364992.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. |
-| [LockFileEx](https://msdn.microsoft.com/library/windows/desktop/aa365203.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [ReadFile](https://msdn.microsoft.com/library/windows/desktop/aa365467.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [RemoveDirectoryA](https://msdn.microsoft.com/library/windows/desktop/aa365488.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [RemoveDirectoryW](https://msdn.microsoft.com/library/windows/desktop/aa365488.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [SetEndOfFile](https://msdn.microsoft.com/library/windows/desktop/aa365531.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [SetFileAttributesA](https://msdn.microsoft.com/library/windows/desktop/aa365535.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [SetFileAttributesW](https://msdn.microsoft.com/library/windows/desktop/aa365535.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [SetFileInformationByHandle](https://msdn.microsoft.com/library/windows/desktop/aa365539.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [SetFilePointerEx](https://msdn.microsoft.com/library/windows/desktop/aa365542.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [SetFileTime](https://msdn.microsoft.com/library/windows/desktop/ms724933.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [UnlockFileEx](https://msdn.microsoft.com/library/windows/desktop/aa365716.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [WriteFile](https://msdn.microsoft.com/library/windows/desktop/aa365747.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [FileTimeToLocalFileTime](https://msdn.microsoft.com/library/windows/desktop/ms724277.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [FindFirstFileA](https://msdn.microsoft.com/library/windows/desktop/aa364418.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [FindFirstFileW](https://msdn.microsoft.com/library/windows/desktop/aa364418.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetDiskFreeSpaceA](https://msdn.microsoft.com/library/windows/desktop/aa364935.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetDiskFreeSpaceW](https://msdn.microsoft.com/library/windows/desktop/aa364935.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetFileAttributesA](https://msdn.microsoft.com/library/windows/desktop/aa364944.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetFileAttributesW](https://msdn.microsoft.com/library/windows/desktop/aa364944.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetFinalPathNameByHandleA](https://msdn.microsoft.com/library/windows/desktop/aa364962.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetFinalPathNameByHandleW](https://msdn.microsoft.com/library/windows/desktop/aa364962.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [LocalFileTimeToFileTime](https://msdn.microsoft.com/library/windows/desktop/ms724490.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [ReadFileEx](https://msdn.microsoft.com/library/windows/desktop/aa365468.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [SetFilePointer](https://msdn.microsoft.com/library/windows/desktop/aa365541.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [WriteFileEx](https://msdn.microsoft.com/library/windows/desktop/aa365748.aspx) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [CreateDirectoryA](/windows/win32/api/fileapi/nf-fileapi-createdirectorya) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [CreateDirectoryW](/windows/win32/api/fileapi/nf-fileapi-createdirectorya) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [CreateFile2](/windows/win32/api/fileapi/nf-fileapi-createfile2) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. |
+| [DeleteFileA](/windows/win32/api/fileapi/nf-fileapi-deletefilea) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [DeleteFileW](/windows/win32/api/fileapi/nf-fileapi-deletefilea) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [FindClose](/windows/win32/api/fileapi/nf-fileapi-findclose) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [FindFirstFileExA](/windows/win32/api/fileapi/nf-fileapi-findfirstfileexa) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [FindFirstFileExW](/windows/win32/api/fileapi/nf-fileapi-findfirstfileexa) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [FindNextFileA](/windows/win32/api/fileapi/nf-fileapi-findnextfilea) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [FindNextFileW](/windows/win32/api/fileapi/nf-fileapi-findnextfilea) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [FlushFileBuffers](/windows/win32/api/fileapi/nf-fileapi-flushfilebuffers) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetDiskFreeSpaceExA](/windows/win32/api/fileapi/nf-fileapi-getdiskfreespaceexa) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetDiskFreeSpaceExW](/windows/win32/api/fileapi/nf-fileapi-getdiskfreespaceexa) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetFileAttributesExA](/windows/win32/api/fileapi/nf-fileapi-getfileattributesexa) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetFileAttributesExW](/windows/win32/api/fileapi/nf-fileapi-getfileattributesexa) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetFileSizeEx](/windows/win32/api/fileapi/nf-fileapi-getfilesizeex) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetFileTime](/windows/win32/api/fileapi/nf-fileapi-getfiletime) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetFileType](/windows/win32/api/fileapi/nf-fileapi-getfiletype) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetFullPathNameW](/windows/win32/api/fileapi/nf-fileapi-getfullpathnamea) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetLongPathNameW](/windows/win32/api/fileapi/nf-fileapi-getlongpathnamea) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetTempFileNameW](/windows/win32/api/fileapi/nf-fileapi-gettempfilenamea) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetTempPathW](/windows/win32/api/fileapi/nf-fileapi-gettemppatha) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-2-0.dll in 10.0.16299. |
+| [LockFileEx](/windows/win32/api/fileapi/nf-fileapi-lockfileex) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [ReadFile](/windows/win32/api/fileapi/nf-fileapi-readfile) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [RemoveDirectoryA](/windows/win32/api/fileapi/nf-fileapi-removedirectorya) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [RemoveDirectoryW](/windows/win32/api/fileapi/nf-fileapi-removedirectorya) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [SetEndOfFile](/windows/win32/api/fileapi/nf-fileapi-setendoffile) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [SetFileAttributesA](/windows/win32/api/fileapi/nf-fileapi-setfileattributesa) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [SetFileAttributesW](/windows/win32/api/fileapi/nf-fileapi-setfileattributesa) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [SetFileInformationByHandle](/windows/win32/api/fileapi/nf-fileapi-setfileinformationbyhandle) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [SetFilePointerEx](/windows/win32/api/fileapi/nf-fileapi-setfilepointerex) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [SetFileTime](/windows/win32/api/fileapi/nf-fileapi-setfiletime) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [UnlockFileEx](/windows/win32/api/fileapi/nf-fileapi-unlockfileex) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [WriteFile](/windows/win32/api/fileapi/nf-fileapi-writefile) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [FileTimeToLocalFileTime](/windows/win32/api/fileapi/nf-fileapi-filetimetolocalfiletime) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [FindFirstFileA](/windows/win32/api/fileapi/nf-fileapi-findfirstfilea) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [FindFirstFileW](/windows/win32/api/fileapi/nf-fileapi-findfirstfilea) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetDiskFreeSpaceA](/windows/win32/api/fileapi/nf-fileapi-getdiskfreespacea) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetDiskFreeSpaceW](/windows/win32/api/fileapi/nf-fileapi-getdiskfreespacea) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetFileAttributesA](/windows/win32/api/fileapi/nf-fileapi-getfileattributesa) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetFileAttributesW](/windows/win32/api/fileapi/nf-fileapi-getfileattributesa) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetFinalPathNameByHandleA](/windows/win32/api/fileapi/nf-fileapi-getfinalpathnamebyhandlea) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetFinalPathNameByHandleW](/windows/win32/api/fileapi/nf-fileapi-getfinalpathnamebyhandlea) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [LocalFileTimeToFileTime](/windows/win32/api/fileapi/nf-fileapi-localfiletimetofiletime) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [ReadFileEx](/windows/win32/api/fileapi/nf-fileapi-readfileex) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [SetFilePointer](/windows/win32/api/fileapi/nf-fileapi-setfilepointer) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [WriteFileEx](/windows/win32/api/fileapi/nf-fileapi-writefileex) | Introduced into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-file-l2-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CopyFile2](https://msdn.microsoft.com/library/windows/desktop/hh449404.aspx) | Introduced into api-ms-win-core-file-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. |
-| [GetFileInformationByHandleEx](https://msdn.microsoft.com/library/windows/desktop/aa364953.aspx) | Introduced into api-ms-win-core-file-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. |
-| [MoveFileExW](https://msdn.microsoft.com/library/windows/desktop/aa365240.aspx) | Introduced into api-ms-win-core-file-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. |
-| [ReplaceFileW](https://msdn.microsoft.com/library/windows/desktop/aa365512.aspx) | Introduced into api-ms-win-core-file-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. |
+| [CopyFile2](/windows/win32/api/winbase/nf-winbase-copyfile2) | Introduced into api-ms-win-core-file-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. |
+| [GetFileInformationByHandleEx](/windows/win32/api/winbase/nf-winbase-getfileinformationbyhandleex) | Introduced into api-ms-win-core-file-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. |
+| [MoveFileExW](/windows/win32/api/winbase/nf-winbase-movefileexa) | Introduced into api-ms-win-core-file-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. |
+| [ReplaceFileW](/windows/win32/api/winbase/nf-winbase-replacefilea) | Introduced into api-ms-win-core-file-l2-1-1.dll in 10.0.10240. Moved into api-ms-win-core-file-l2-1-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l2-1-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-handle-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CloseHandle](https://msdn.microsoft.com/library/windows/desktop/ms724211.aspx) | Introduced into api-ms-win-core-handle-l1-1-0.dll in 10.0.10240. |
-| [CompareObjectHandles](https://msdn.microsoft.com/library/windows/desktop/mt438733.aspx) | Introduced into api-ms-win-core-handle-l1-1-0.dll in 10.0.10240. |
-| [DuplicateHandle](https://msdn.microsoft.com/library/windows/desktop/aa375373.aspx) | Introduced into api-ms-win-core-handle-l1-1-0.dll in 10.0.10240. |
+| [CloseHandle](/windows/win32/api/handleapi/nf-handleapi-closehandle) | Introduced into api-ms-win-core-handle-l1-1-0.dll in 10.0.10240. |
+| [CompareObjectHandles](/windows/win32/api/handleapi/nf-handleapi-compareobjecthandles) | Introduced into api-ms-win-core-handle-l1-1-0.dll in 10.0.10240. |
+| [DuplicateHandle](/windows/win32/api/ntsecpkg/nc-ntsecpkg-lsa_duplicate_handle) | Introduced into api-ms-win-core-handle-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-heap-l1-2-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetProcessHeap](https://msdn.microsoft.com/library/windows/desktop/aa366569.aspx) | Introduced into api-ms-win-core-heap-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-heap-l1-1-0.dll in 10.0.16299. |
-| [HeapAlloc](https://msdn.microsoft.com/library/windows/desktop/aa366597.aspx) | Introduced into api-ms-win-core-heap-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-heap-l1-1-0.dll in 10.0.16299. |
-| [HeapCompact](https://msdn.microsoft.com/library/windows/desktop/aa366598.aspx) | Introduced into api-ms-win-core-heap-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-heap-l1-1-0.dll in 10.0.16299. |
-| [HeapCreate](https://msdn.microsoft.com/library/windows/desktop/aa366599.aspx) | Introduced into api-ms-win-core-heap-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-heap-l1-1-0.dll in 10.0.16299. |
-| [HeapDestroy](https://msdn.microsoft.com/library/windows/desktop/aa366700.aspx) | Introduced into api-ms-win-core-heap-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-heap-l1-1-0.dll in 10.0.16299. |
-| [HeapFree](https://msdn.microsoft.com/library/windows/desktop/aa366701.aspx) | Introduced into api-ms-win-core-heap-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-heap-l1-1-0.dll in 10.0.16299. |
-| [HeapReAlloc](https://msdn.microsoft.com/library/windows/desktop/aa366704.aspx) | Introduced into api-ms-win-core-heap-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-heap-l1-1-0.dll in 10.0.16299. |
-| [HeapSetInformation](https://msdn.microsoft.com/library/windows/desktop/aa366705.aspx) | Introduced into api-ms-win-core-heap-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-heap-l1-1-0.dll in 10.0.16299. |
-| [HeapSize](https://msdn.microsoft.com/library/windows/desktop/aa366706.aspx) | Introduced into api-ms-win-core-heap-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-heap-l1-1-0.dll in 10.0.16299. |
+| [GetProcessHeap](/windows/win32/api/heapapi/nf-heapapi-getprocessheap) | Introduced into api-ms-win-core-heap-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-heap-l1-1-0.dll in 10.0.16299. |
+| [HeapAlloc](/windows/win32/api/heapapi/nf-heapapi-heapalloc) | Introduced into api-ms-win-core-heap-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-heap-l1-1-0.dll in 10.0.16299. |
+| [HeapCompact](/windows/win32/api/heapapi/nf-heapapi-heapcompact) | Introduced into api-ms-win-core-heap-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-heap-l1-1-0.dll in 10.0.16299. |
+| [HeapCreate](/windows/win32/api/heapapi/nf-heapapi-heapcreate) | Introduced into api-ms-win-core-heap-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-heap-l1-1-0.dll in 10.0.16299. |
+| [HeapDestroy](/windows/win32/api/heapapi/nf-heapapi-heapdestroy) | Introduced into api-ms-win-core-heap-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-heap-l1-1-0.dll in 10.0.16299. |
+| [HeapFree](/windows/win32/api/heapapi/nf-heapapi-heapfree) | Introduced into api-ms-win-core-heap-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-heap-l1-1-0.dll in 10.0.16299. |
+| [HeapReAlloc](/windows/win32/api/heapapi/nf-heapapi-heaprealloc) | Introduced into api-ms-win-core-heap-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-heap-l1-1-0.dll in 10.0.16299. |
+| [HeapSetInformation](/windows/win32/api/heapapi/nf-heapapi-heapsetinformation) | Introduced into api-ms-win-core-heap-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-heap-l1-1-0.dll in 10.0.16299. |
+| [HeapSize](/windows/win32/api/heapapi/nf-heapapi-heapsize) | Introduced into api-ms-win-core-heap-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-heap-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-interlocked-l1-2-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [InitializeSListHead](https://msdn.microsoft.com/library/windows/desktop/ms683482.aspx) | Introduced into api-ms-win-core-interlocked-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
-| [InterlockedFlushSList](https://msdn.microsoft.com/library/windows/desktop/ms683612.aspx) | Introduced into api-ms-win-core-interlocked-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
-| [InterlockedPopEntrySList](https://msdn.microsoft.com/library/windows/desktop/ms683648.aspx) | Introduced into api-ms-win-core-interlocked-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
-| [InterlockedPushEntrySList](https://msdn.microsoft.com/library/windows/desktop/ms684020.aspx) | Introduced into api-ms-win-core-interlocked-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
-| [InterlockedPushListSListEx](https://msdn.microsoft.com/library/windows/desktop/hh972673.aspx) | Introduced into api-ms-win-core-interlocked-l1-2-0.dll in 10.0.10240. |
-| [QueryDepthSList](https://msdn.microsoft.com/library/windows/desktop/ms684916.aspx) | Introduced into api-ms-win-core-interlocked-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
+| [InitializeSListHead](/windows/win32/api/interlockedapi/nf-interlockedapi-initializeslisthead) | Introduced into api-ms-win-core-interlocked-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
+| [InterlockedFlushSList](/windows/win32/api/interlockedapi/nf-interlockedapi-interlockedflushslist) | Introduced into api-ms-win-core-interlocked-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
+| [InterlockedPopEntrySList](/windows/win32/api/interlockedapi/nf-interlockedapi-interlockedpopentryslist) | Introduced into api-ms-win-core-interlocked-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
+| [InterlockedPushEntrySList](/windows/win32/api/interlockedapi/nf-interlockedapi-interlockedpushentryslist) | Introduced into api-ms-win-core-interlocked-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
+| [InterlockedPushListSListEx](/windows/win32/api/interlockedapi/nf-interlockedapi-interlockedpushlistslistex) | Introduced into api-ms-win-core-interlocked-l1-2-0.dll in 10.0.10240. |
+| [QueryDepthSList](/windows/win32/api/interlockedapi/nf-interlockedapi-querydepthslist) | Introduced into api-ms-win-core-interlocked-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-io-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CancelIoEx](https://msdn.microsoft.com/library/windows/desktop/aa363792.aspx) | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-io-l1-1-0.dll in 10.0.16299. |
-| [GetOverlappedResultEx](https://msdn.microsoft.com/library/windows/desktop/hh448542.aspx) | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.10240. |
-| [CancelIo](https://msdn.microsoft.com/library/windows/desktop/aa363791.aspx) | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.14393. |
-| [CreateIoCompletionPort](https://msdn.microsoft.com/library/windows/desktop/aa363862.aspx) | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-io-l1-1-0.dll in 10.0.16299. |
-| [GetOverlappedResult](https://msdn.microsoft.com/library/windows/desktop/ms683209.aspx) | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-io-l1-1-0.dll in 10.0.16299. |
-| [GetQueuedCompletionStatus](https://msdn.microsoft.com/library/windows/desktop/aa364986.aspx) | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-io-l1-1-0.dll in 10.0.16299. |
-| [GetQueuedCompletionStatusEx](https://msdn.microsoft.com/library/windows/desktop/aa364988.aspx) | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-io-l1-1-0.dll in 10.0.16299. |
-| [PostQueuedCompletionStatus](https://msdn.microsoft.com/library/windows/desktop/aa365458.aspx) | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-io-l1-1-0.dll in 10.0.16299. |
+| [CancelIoEx](/windows/win32/api/ioapiset/nf-ioapiset-cancelioex) | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-io-l1-1-0.dll in 10.0.16299. |
+| [GetOverlappedResultEx](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresultex) | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.10240. |
+| [CancelIo](/windows/win32/api/ioapiset/nf-ioapiset-cancelio) | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.14393. |
+| [CreateIoCompletionPort](/windows/win32/api/ioapiset/nf-ioapiset-createiocompletionport) | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-io-l1-1-0.dll in 10.0.16299. |
+| [GetOverlappedResult](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult) | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-io-l1-1-0.dll in 10.0.16299. |
+| [GetQueuedCompletionStatus](/windows/win32/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus) | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-io-l1-1-0.dll in 10.0.16299. |
+| [GetQueuedCompletionStatusEx](/windows/win32/api/ioapiset/nf-ioapiset-getqueuedcompletionstatusex) | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-io-l1-1-0.dll in 10.0.16299. |
+| [PostQueuedCompletionStatus](/windows/win32/api/ioapiset/nf-ioapiset-postqueuedcompletionstatus) | Introduced into api-ms-win-core-io-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-io-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-kernel32-legacy-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [MoveFileExA](https://msdn.microsoft.com/library/windows/desktop/aa365240.aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.10586. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
+| [MoveFileExA](/windows/win32/api/winbase/nf-winbase-movefileexa) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-kernel32-legacy-l1-1-4.dll in 10.0.10586. Moved into api-ms-win-core-kernel32-legacy-l1-1-1.dll in 10.0.14393. Moved into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-largeinteger-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [MulDiv](https://msdn.microsoft.com/library/windows/desktop/aa383718.aspx) | Introduced into api-ms-win-core-largeinteger-l1-1-0.dll in 10.0.10240. |
+| [MulDiv](/windows/win32/api/winbase/nf-winbase-muldiv) | Introduced into api-ms-win-core-largeinteger-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-libraryloader-l1-2-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [DisableThreadLibraryCalls](https://msdn.microsoft.com/library/windows/desktop/ms682579.aspx) | Introduced into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-libraryloader-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.14393. |
-| [FindStringOrdinal](https://msdn.microsoft.com/library/windows/desktop/dd318061.aspx) | Introduced into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-libraryloader-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.14393. |
-| [FreeLibrary](https://msdn.microsoft.com/library/windows/desktop/ms683152.aspx) | Introduced into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-libraryloader-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.14393. |
-| [GetModuleFileNameA](https://msdn.microsoft.com/library/windows/desktop/ms683197.aspx) | Introduced into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-libraryloader-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.14393. |
-| [GetModuleFileNameW](https://msdn.microsoft.com/library/windows/desktop/ms683197.aspx) | Introduced into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-libraryloader-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.14393. |
-| [GetProcAddress](https://msdn.microsoft.com/library/windows/desktop/ms683212.aspx) | Introduced into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-libraryloader-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.14393. |
+| [DisableThreadLibraryCalls](/windows/win32/api/libloaderapi/nf-libloaderapi-disablethreadlibrarycalls) | Introduced into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-libraryloader-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.14393. |
+| [FindStringOrdinal](/windows/win32/api/libloaderapi/nf-libloaderapi-findstringordinal) | Introduced into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-libraryloader-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.14393. |
+| [FreeLibrary](/windows/win32/api/libloaderapi/nf-libloaderapi-freelibrary) | Introduced into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-libraryloader-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.14393. |
+| [GetModuleFileNameA](/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulefilenamea) | Introduced into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-libraryloader-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.14393. |
+| [GetModuleFileNameW](/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulefilenamea) | Introduced into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-libraryloader-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.14393. |
+| [GetProcAddress](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) | Introduced into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-libraryloader-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.14393. |
 
 
 ## APIs from api-ms-win-core-libraryloader-l2-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [LoadPackagedLibrary](https://msdn.microsoft.com/library/windows/desktop/hh447159.aspx) | Introduced into api-ms-win-core-libraryloader-l2-1-0.dll in 10.0.10240. |
-| [QueryOptionalDelayLoadedAPI](https://msdn.microsoft.com/library/windows/desktop/mt403328.aspx) | Introduced into api-ms-win-core-libraryloader-l2-1-0.dll in 10.0.10240. |
+| [LoadPackagedLibrary](/windows/win32/api/winbase/nf-winbase-loadpackagedlibrary) | Introduced into api-ms-win-core-libraryloader-l2-1-0.dll in 10.0.10240. |
+| [QueryOptionalDelayLoadedAPI](/windows/win32/api/libloaderapi2/nf-libloaderapi2-queryoptionaldelayloadedapi) | Introduced into api-ms-win-core-libraryloader-l2-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-localization-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetStringTypeExA](https://msdn.microsoft.com/library/windows/desktop/dd318118.aspx) | Introduced into api-ms-win-core-localization-ansi-l1-1-0.dll in 10.0.10240. |
-| [EnumUILanguagesA](https://msdn.microsoft.com/library/Dd317834(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-ansi-l1-1-0.dll in 10.0.16299. |
+| [GetStringTypeExA](/windows/win32/api/stringapiset/nf-stringapiset-getstringtypeexw) | Introduced into api-ms-win-core-localization-ansi-l1-1-0.dll in 10.0.10240. |
+| [EnumUILanguagesA](/windows/win32/api/winnls/nf-winnls-enumuilanguagesa) | Introduced into api-ms-win-core-localization-ansi-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-localization-l1-2-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [EnumSystemGeoID](https://msdn.microsoft.com/library/windows/desktop/dd317826.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [EnumSystemLocalesEx](https://msdn.microsoft.com/library/windows/desktop/dd317829.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. |
-| [FindNLSStringEx](https://msdn.microsoft.com/library/windows/desktop/dd318059.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [FormatMessageA](https://msdn.microsoft.com/library/windows/desktop/ms679351.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [FormatMessageW](https://msdn.microsoft.com/library/windows/desktop/ms679351.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [GetCalendarInfoEx](https://msdn.microsoft.com/library/windows/desktop/dd318075.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [GetCPInfo](https://msdn.microsoft.com/library/windows/desktop/dd318078.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [GetCPInfoExW](https://msdn.microsoft.com/library/windows/desktop/dd318081.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [GetGeoInfoW](https://msdn.microsoft.com/library/windows/desktop/dd318099.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [GetLocaleInfoEx](https://msdn.microsoft.com/library/windows/desktop/dd318103.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [GetNLSVersionEx](https://msdn.microsoft.com/library/windows/desktop/dd318107.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [GetUserDefaultLocaleName](https://msdn.microsoft.com/library/windows/desktop/dd318136.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [GetUserGeoID](https://msdn.microsoft.com/library/windows/desktop/dd318138.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [IdnToAscii](https://msdn.microsoft.com/library/windows/desktop/dd318149.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [IdnToUnicode](https://msdn.microsoft.com/library/windows/desktop/dd318151.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [IsValidCodePage](https://msdn.microsoft.com/library/windows/desktop/dd318674.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [IsValidLocaleName](https://msdn.microsoft.com/library/windows/desktop/dd318681.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [IsValidNLSVersion](https://msdn.microsoft.com/library/windows/desktop/hh706739.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [LCMapStringEx](https://msdn.microsoft.com/library/windows/desktop/dd318702.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [LocaleNameToLCID](https://msdn.microsoft.com/library/windows/desktop/dd318711.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [ResolveLocaleName](https://msdn.microsoft.com/library/windows/desktop/dd319112.aspx) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [EnumSystemGeoID](/windows/win32/api/winnls/nf-winnls-enumsystemgeoid) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [EnumSystemLocalesEx](/windows/win32/api/winnls/nf-winnls-enumsystemlocalesex) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. |
+| [FindNLSStringEx](/windows/win32/api/winnls/nf-winnls-findnlsstringex) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [FormatMessageA](/windows/win32/api/winbase/nf-winbase-formatmessage) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [FormatMessageW](/windows/win32/api/winbase/nf-winbase-formatmessage) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [GetCalendarInfoEx](/windows/win32/api/winnls/nf-winnls-getcalendarinfoex) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [GetCPInfo](/windows/win32/api/winnls/nf-winnls-getcpinfo) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [GetCPInfoExW](/windows/win32/api/winnls/nf-winnls-getcpinfoexa) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [GetGeoInfoW](/windows/win32/api/winnls/nf-winnls-getgeoinfoa) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [GetLocaleInfoEx](/windows/win32/api/winnls/nf-winnls-getlocaleinfoex) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [GetNLSVersionEx](/windows/win32/api/winnls/nf-winnls-getnlsversionex) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [GetUserDefaultLocaleName](/windows/win32/api/winnls/nf-winnls-getuserdefaultlocalename) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [GetUserGeoID](/windows/win32/api/winnls/nf-winnls-getusergeoid) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [IdnToAscii](/windows/win32/api/winnls/nf-winnls-idntoascii) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [IdnToUnicode](/windows/win32/api/winnls/nf-winnls-idntounicode) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [IsValidCodePage](/windows/win32/api/winnls/nf-winnls-isvalidcodepage) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [IsValidLocaleName](/windows/win32/api/winnls/nf-winnls-isvalidlocalename) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [IsValidNLSVersion](/windows/win32/api/winnls/nf-winnls-isvalidnlsversion) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [LCMapStringEx](/windows/win32/api/winnls/nf-winnls-lcmapstringex) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [LocaleNameToLCID](/windows/win32/api/winnls/nf-winnls-localenametolcid) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [ResolveLocaleName](/windows/win32/api/winnls/nf-winnls-resolvelocalename) | Introduced into api-ms-win-core-localization-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-localization-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-localization-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-localization-l1-2-2.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetSystemDefaultLocaleName](https://msdn.microsoft.com/library/windows/desktop/dd318122.aspx) | Introduced into api-ms-win-core-localization-l1-2-2.dll in 10.0.10240. |
-| [LCIDToLocaleName](https://msdn.microsoft.com/library/windows/desktop/dd318698.aspx) | Introduced into api-ms-win-core-localization-l1-2-2.dll in 10.0.10240. |
+| [GetSystemDefaultLocaleName](/windows/win32/api/winnls/nf-winnls-getsystemdefaultlocalename) | Introduced into api-ms-win-core-localization-l1-2-2.dll in 10.0.10240. |
+| [LCIDToLocaleName](/windows/win32/api/winnls/nf-winnls-lcidtolocalename) | Introduced into api-ms-win-core-localization-l1-2-2.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-localization-l2-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [EnumCalendarInfoExEx](https://msdn.microsoft.com/library/windows/desktop/dd317805.aspx) | Introduced into api-ms-win-core-localization-l2-1-0.dll in 10.0.10240. |
-| [EnumDateFormatsExEx](https://msdn.microsoft.com/library/windows/desktop/dd317812.aspx) | Introduced into api-ms-win-core-localization-l2-1-0.dll in 10.0.10240. |
-| [EnumSystemCodePagesW](https://msdn.microsoft.com/library/windows/desktop/dd317825.aspx) | Introduced into api-ms-win-core-localization-l2-1-0.dll in 10.0.10240. |
-| [EnumTimeFormatsEx](https://msdn.microsoft.com/library/windows/desktop/dd317831.aspx) | Introduced into api-ms-win-core-localization-l2-1-0.dll in 10.0.10240. |
-| [GetCurrencyFormatEx](https://msdn.microsoft.com/library/windows/desktop/dd318084.aspx) | Introduced into api-ms-win-core-localization-l2-1-0.dll in 10.0.10240. |
-| [GetNumberFormatEx](https://msdn.microsoft.com/library/windows/desktop/dd318113.aspx) | Introduced into api-ms-win-core-localization-l2-1-0.dll in 10.0.10240. |
+| [EnumCalendarInfoExEx](/windows/win32/api/winnls/nf-winnls-enumcalendarinfoexex) | Introduced into api-ms-win-core-localization-l2-1-0.dll in 10.0.10240. |
+| [EnumDateFormatsExEx](/windows/win32/api/winnls/nf-winnls-enumdateformatsexex) | Introduced into api-ms-win-core-localization-l2-1-0.dll in 10.0.10240. |
+| [EnumSystemCodePagesW](/windows/win32/api/winnls/nf-winnls-enumsystemcodepagesa) | Introduced into api-ms-win-core-localization-l2-1-0.dll in 10.0.10240. |
+| [EnumTimeFormatsEx](/windows/win32/api/winnls/nf-winnls-enumtimeformatsex) | Introduced into api-ms-win-core-localization-l2-1-0.dll in 10.0.10240. |
+| [GetCurrencyFormatEx](/windows/win32/api/winnls/nf-winnls-getcurrencyformatex) | Introduced into api-ms-win-core-localization-l2-1-0.dll in 10.0.10240. |
+| [GetNumberFormatEx](/windows/win32/api/winnls/nf-winnls-getnumberformatex) | Introduced into api-ms-win-core-localization-l2-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-memory-l1-1-2.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateFileMappingFromApp](https://msdn.microsoft.com/library/windows/desktop/hh994453.aspx) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.16299. |
-| [DiscardVirtualMemory](https://msdn.microsoft.com/library/windows/desktop/dn781432.aspx) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. |
-| [FlushViewOfFile](https://msdn.microsoft.com/library/windows/desktop/aa366563.aspx) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299. |
-| [GetWriteWatch](https://msdn.microsoft.com/library/windows/desktop/aa366573.aspx) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.16299. |
-| [MapViewOfFileFromApp](https://msdn.microsoft.com/library/windows/desktop/hh994454.aspx) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.16299. |
-| [OfferVirtualMemory](https://msdn.microsoft.com/library/windows/desktop/dn781436.aspx) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. |
-| [ReclaimVirtualMemory](https://msdn.microsoft.com/library/windows/desktop/dn781437.aspx) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. |
-| [ResetWriteWatch](https://msdn.microsoft.com/library/windows/desktop/aa366874.aspx) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.16299. |
-| [UnmapViewOfFile](https://msdn.microsoft.com/library/windows/desktop/aa366882.aspx) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299. |
-| [VirtualFree](https://msdn.microsoft.com/library/windows/desktop/aa366892.aspx) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299. |
-| [VirtualQuery](https://msdn.microsoft.com/library/windows/desktop/aa366902.aspx) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299. |
-| [UnmapViewOfFileEx](https://msdn.microsoft.com/library/windows/desktop/mt670639.aspx) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.16299. |
+| [CreateFileMappingFromApp](/windows/win32/api/memoryapi/nf-memoryapi-createfilemappingfromapp) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.16299. |
+| [DiscardVirtualMemory](/windows/win32/api/memoryapi/nf-memoryapi-discardvirtualmemory) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. |
+| [FlushViewOfFile](/windows/win32/api/memoryapi/nf-memoryapi-flushviewoffile) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299. |
+| [GetWriteWatch](/windows/win32/api/memoryapi/nf-memoryapi-getwritewatch) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.16299. |
+| [MapViewOfFileFromApp](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffilefromapp) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.16299. |
+| [OfferVirtualMemory](/windows/win32/api/memoryapi/nf-memoryapi-offervirtualmemory) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. |
+| [ReclaimVirtualMemory](/windows/win32/api/memoryapi/nf-memoryapi-reclaimvirtualmemory) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. |
+| [ResetWriteWatch](/windows/win32/api/memoryapi/nf-memoryapi-resetwritewatch) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.16299. |
+| [UnmapViewOfFile](/windows/win32/api/memoryapi/nf-memoryapi-unmapviewoffile) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299. |
+| [VirtualFree](/windows/win32/api/memoryapi/nf-memoryapi-virtualfree) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299. |
+| [VirtualQuery](/windows/win32/api/memoryapi/nf-memoryapi-virtualquery) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-0.dll in 10.0.16299. |
+| [UnmapViewOfFileEx](/windows/win32/api/memoryapi/nf-memoryapi-unmapviewoffileex) | Introduced into api-ms-win-core-memory-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-1.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-memory-l1-1-3.dll
 
 | API | Requirements |
 | -----| --------------|
-| [OpenFileMappingFromApp](https://msdn.microsoft.com/library/windows/desktop/mt169844.aspx) | Introduced into api-ms-win-core-memory-l1-1-3.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-4.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.16299. |
-| [VirtualAllocFromApp](https://msdn.microsoft.com/library/windows/desktop/mt169845.aspx) | Introduced into api-ms-win-core-memory-l1-1-3.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-4.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.16299. |
-| [VirtualProtectFromApp](https://msdn.microsoft.com/library/windows/desktop/mt169846.aspx) | Introduced into api-ms-win-core-memory-l1-1-3.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-4.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.16299. |
-| [SetProcessValidCallTargets](https://msdn.microsoft.com/library/Dn934202(v=VS.85).aspx) | Introduced into api-ms-win-core-memory-l1-1-3.dll in 10.0.16299. |
+| [OpenFileMappingFromApp](/windows/win32/api/memoryapi/nf-memoryapi-openfilemappingfromapp) | Introduced into api-ms-win-core-memory-l1-1-3.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-4.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.16299. |
+| [VirtualAllocFromApp](/windows/win32/api/memoryapi/nf-memoryapi-virtualallocfromapp) | Introduced into api-ms-win-core-memory-l1-1-3.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-4.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.16299. |
+| [VirtualProtectFromApp](/windows/win32/api/memoryapi/nf-memoryapi-virtualprotectfromapp) | Introduced into api-ms-win-core-memory-l1-1-3.dll in 10.0.10240. Moved into api-ms-win-core-memory-l1-1-4.dll in 10.0.14393. Moved into api-ms-win-core-memory-l1-1-3.dll in 10.0.16299. |
+| [SetProcessValidCallTargets](/windows/win32/api/memoryapi/nf-memoryapi-setprocessvalidcalltargets) | Introduced into api-ms-win-core-memory-l1-1-3.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-normalization-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetStringScripts](https://msdn.microsoft.com/library/windows/desktop/dd318116.aspx) | Introduced into api-ms-win-core-normalization-l1-1-0.dll in 10.0.10240. |
-| [IdnToNameprepUnicode](https://msdn.microsoft.com/library/windows/desktop/dd318150.aspx) | Introduced into api-ms-win-core-normalization-l1-1-0.dll in 10.0.10240. |
-| [IsNormalizedString](https://msdn.microsoft.com/library/windows/desktop/dd318671.aspx) | Introduced into api-ms-win-core-normalization-l1-1-0.dll in 10.0.10240. |
-| [NormalizeString](https://msdn.microsoft.com/library/windows/desktop/dd319093.aspx) | Introduced into api-ms-win-core-normalization-l1-1-0.dll in 10.0.10240. |
-| [VerifyScripts](https://msdn.microsoft.com/library/windows/desktop/dd374129.aspx) | Introduced into api-ms-win-core-normalization-l1-1-0.dll in 10.0.10240. |
+| [GetStringScripts](/windows/win32/api/winnls/nf-winnls-getstringscripts) | Introduced into api-ms-win-core-normalization-l1-1-0.dll in 10.0.10240. |
+| [IdnToNameprepUnicode](/windows/win32/api/winnls/nf-winnls-idntonameprepunicode) | Introduced into api-ms-win-core-normalization-l1-1-0.dll in 10.0.10240. |
+| [IsNormalizedString](/windows/win32/api/winnls/nf-winnls-isnormalizedstring) | Introduced into api-ms-win-core-normalization-l1-1-0.dll in 10.0.10240. |
+| [NormalizeString](/windows/win32/api/winnls/nf-winnls-normalizestring) | Introduced into api-ms-win-core-normalization-l1-1-0.dll in 10.0.10240. |
+| [VerifyScripts](/windows/win32/api/winnls/nf-winnls-verifyscripts) | Introduced into api-ms-win-core-normalization-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-processenvironment-l1-2-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetCommandLineA](https://msdn.microsoft.com/library/windows/desktop/ms683156.aspx) | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [GetCommandLineW](https://msdn.microsoft.com/library/windows/desktop/ms683156.aspx) | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [GetCurrentDirectoryW](https://msdn.microsoft.com/library/windows/desktop/aa364934.aspx) | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [SetCurrentDirectoryW](https://msdn.microsoft.com/library/windows/desktop/aa365530.aspx) | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [GetCommandLineA](/windows/win32/api/processenv/nf-processenv-getcommandlinea) | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [GetCommandLineW](/windows/win32/api/processenv/nf-processenv-getcommandlinea) | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [GetCurrentDirectoryW](/windows/win32/api/winbase/nf-winbase-getcurrentdirectory) | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [SetCurrentDirectoryW](/windows/win32/api/winbase/nf-winbase-setcurrentdirectory) | Introduced into api-ms-win-core-processenvironment-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-processthreads-l1-1-2.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateThread](https://msdn.microsoft.com/library/windows/desktop/ms682453.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [ExitThread](https://msdn.microsoft.com/library/windows/desktop/ms682659.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [FlushProcessWriteBuffers](https://msdn.microsoft.com/library/windows/desktop/ms683148.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [GetCurrentProcess](https://msdn.microsoft.com/library/windows/desktop/ms683179.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [GetCurrentProcessId](https://msdn.microsoft.com/library/windows/desktop/ms683180.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [GetCurrentThread](https://msdn.microsoft.com/library/windows/desktop/ms683182.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [GetCurrentThreadId](https://msdn.microsoft.com/library/windows/desktop/ms683183.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [GetExitCodeThread](https://msdn.microsoft.com/library/windows/desktop/ms683190.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [GetThreadContext](https://msdn.microsoft.com/library/windows/desktop/ms679362.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
-| [GetThreadId](https://msdn.microsoft.com/library/windows/desktop/ms683233.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [GetThreadPriority](https://msdn.microsoft.com/library/windows/desktop/ms683235.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [IsProcessorFeaturePresent](https://msdn.microsoft.com/library/windows/desktop/ms724482.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
-| [OpenProcess](https://msdn.microsoft.com/library/windows/desktop/ms684320.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
-| [QueueUserAPC](https://msdn.microsoft.com/library/windows/desktop/ms684954.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [ResumeThread](https://msdn.microsoft.com/library/windows/desktop/ms685086.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [SetThreadIdealProcessorEx](https://msdn.microsoft.com/library/windows/desktop/dd405517.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
-| [SetThreadPriority](https://msdn.microsoft.com/library/windows/desktop/ms686277.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [SuspendThread](https://msdn.microsoft.com/library/windows/desktop/ms686345.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [SwitchToThread](https://msdn.microsoft.com/library/windows/desktop/ms686352.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [TerminateProcess](https://msdn.microsoft.com/library/windows/desktop/ms686714.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [TlsAlloc](https://msdn.microsoft.com/library/windows/desktop/ms686801.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [TlsFree](https://msdn.microsoft.com/library/windows/desktop/ms686804.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [TlsGetValue](https://msdn.microsoft.com/library/windows/desktop/ms686812.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [TlsSetValue](https://msdn.microsoft.com/library/windows/desktop/ms686818.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [GetProcessPriorityBoost](https://msdn.microsoft.com/library/ms683220(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.16299. |
-| [SetProcessPriorityBoost](https://msdn.microsoft.com/library/ms686225(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.16299. |
-| [SetThreadInformation](https://msdn.microsoft.com/library/Hh448390(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.17134. |
-| [GetSystemTimes](https://msdn.microsoft.com/library/ms724400(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.17763. |
+| [CreateThread](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createthread) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [ExitThread](/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitthread) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [FlushProcessWriteBuffers](/windows/win32/api/processthreadsapi/nf-processthreadsapi-flushprocesswritebuffers) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [GetCurrentProcess](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [GetCurrentProcessId](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getcurrentprocessid) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [GetCurrentThread](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getcurrentthread) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [GetCurrentThreadId](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getcurrentthreadid) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [GetExitCodeThread](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getexitcodethread) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [GetThreadContext](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getthreadcontext) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
+| [GetThreadId](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getthreadid) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [GetThreadPriority](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getthreadpriority) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [IsProcessorFeaturePresent](/windows/win32/api/processthreadsapi/nf-processthreadsapi-isprocessorfeaturepresent) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
+| [OpenProcess](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openprocess) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
+| [QueueUserAPC](/windows/win32/api/processthreadsapi/nf-processthreadsapi-queueuserapc) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [ResumeThread](/windows/win32/api/processthreadsapi/nf-processthreadsapi-resumethread) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [SetThreadIdealProcessorEx](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadidealprocessorex) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
+| [SetThreadPriority](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadpriority) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [SuspendThread](/windows/win32/api/processthreadsapi/nf-processthreadsapi-suspendthread) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [SwitchToThread](/windows/win32/api/processthreadsapi/nf-processthreadsapi-switchtothread) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [TerminateProcess](/windows/win32/api/processthreadsapi/nf-processthreadsapi-terminateprocess) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.10240. Moved into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10586. Moved into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [TlsAlloc](/windows/win32/api/processthreadsapi/nf-processthreadsapi-tlsalloc) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [TlsFree](/windows/win32/api/processthreadsapi/nf-processthreadsapi-tlsfree) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [TlsGetValue](/windows/win32/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [TlsSetValue](/windows/win32/api/processthreadsapi/nf-processthreadsapi-tlssetvalue) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [GetProcessPriorityBoost](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesspriorityboost) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.16299. |
+| [SetProcessPriorityBoost](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocesspriorityboost) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.16299. |
+| [SetThreadInformation](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadinformation) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.17134. |
+| [GetSystemTimes](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getsystemtimes) | Introduced into api-ms-win-core-processthreads-l1-1-2.dll in 10.0.17763. |
 
 
 ## APIs from api-ms-win-core-processthreads-l1-1-3.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetProcessDefaultCpuSets](https://msdn.microsoft.com/library/windows/desktop/mt186424.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10240. |
-| [GetProcessInformation](https://msdn.microsoft.com/library/windows/desktop/hh448381.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10240. |
-| [GetSystemCpuSetInformation](https://msdn.microsoft.com/library/windows/desktop/mt186425.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10240. |
-| [GetThreadSelectedCpuSets](https://msdn.microsoft.com/library/windows/desktop/mt186426.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10240. |
-| [SetProcessDefaultCpuSets](https://msdn.microsoft.com/library/windows/desktop/mt186427.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10240. |
-| [SetProcessInformation](https://msdn.microsoft.com/library/windows/desktop/hh448389.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10240. |
-| [SetThreadIdealProcessor](https://msdn.microsoft.com/library/windows/desktop/ms686253.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10240. |
-| [SetThreadSelectedCpuSets](https://msdn.microsoft.com/library/windows/desktop/mt186428.aspx) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10240. |
-| [GetThreadDescription](https://msdn.microsoft.com/library/Mt774972(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.16299. |
-| [SetThreadDescription](https://msdn.microsoft.com/library/Mt774976(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.16299. |
+| [GetProcessDefaultCpuSets](/windows/win32/procthread/getprocessdefaultcpusets) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10240. |
+| [GetProcessInformation](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessinformation) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10240. |
+| [GetSystemCpuSetInformation](/windows/win32/procthread/getsystemcpusetinformation) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10240. |
+| [GetThreadSelectedCpuSets](/windows/win32/procthread/getthreadselectedcpusets) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10240. |
+| [SetProcessDefaultCpuSets](/windows/win32/procthread/setprocessdefaultcpusets) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10240. |
+| [SetProcessInformation](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocessinformation) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10240. |
+| [SetThreadIdealProcessor](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadidealprocessor) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10240. |
+| [SetThreadSelectedCpuSets](/windows/win32/procthread/setthreadselectedcpusets) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.10240. |
+| [GetThreadDescription](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getthreaddescription) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.16299. |
+| [SetThreadDescription](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreaddescription) | Introduced into api-ms-win-core-processthreads-l1-1-3.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-profile-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [QueryPerformanceCounter](https://msdn.microsoft.com/library/windows/desktop/ms644904.aspx) | Introduced into api-ms-win-core-profile-l1-1-0.dll in 10.0.10240. |
-| [QueryPerformanceFrequency](https://msdn.microsoft.com/library/windows/desktop/ms644905.aspx) | Introduced into api-ms-win-core-profile-l1-1-0.dll in 10.0.10240. |
+| [QueryPerformanceCounter](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) | Introduced into api-ms-win-core-profile-l1-1-0.dll in 10.0.10240. |
+| [QueryPerformanceFrequency](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency) | Introduced into api-ms-win-core-profile-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-realtime-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [QueryUnbiasedInterruptTime](https://msdn.microsoft.com/library/windows/desktop/ee662307.aspx) | Introduced into api-ms-win-core-realtime-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-realtime-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-realtime-l1-1-0.dll in 10.0.14393. |
+| [QueryUnbiasedInterruptTime](/windows/win32/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime) | Introduced into api-ms-win-core-realtime-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-realtime-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-realtime-l1-1-0.dll in 10.0.14393. |
 
 
 ## APIs from api-ms-win-core-realtime-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [QueryInterruptTime](https://msdn.microsoft.com/library/windows/desktop/dn903659.aspx) | Introduced into api-ms-win-core-realtime-l1-1-1.dll in 10.0.10240. |
-| [QueryInterruptTimePrecise](https://msdn.microsoft.com/library/windows/desktop/dn903660.aspx) | Introduced into api-ms-win-core-realtime-l1-1-1.dll in 10.0.10240. |
-| [QueryUnbiasedInterruptTimePrecise](https://msdn.microsoft.com/library/windows/desktop/dn891448.aspx) | Introduced into api-ms-win-core-realtime-l1-1-1.dll in 10.0.10240. |
+| [QueryInterruptTime](/windows/win32/api/realtimeapiset/nf-realtimeapiset-queryinterrupttime) | Introduced into api-ms-win-core-realtime-l1-1-1.dll in 10.0.10240. |
+| [QueryInterruptTimePrecise](/windows/win32/api/realtimeapiset/nf-realtimeapiset-queryinterrupttimeprecise) | Introduced into api-ms-win-core-realtime-l1-1-1.dll in 10.0.10240. |
+| [QueryUnbiasedInterruptTimePrecise](/windows/win32/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttimeprecise) | Introduced into api-ms-win-core-realtime-l1-1-1.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-rtlsupport-l1-2-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [RtlCaptureStackBackTrace](https://msdn.microsoft.com/library/windows/desktop/aa813366.aspx) | Introduced into api-ms-win-core-rtlsupport-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-rtlsupport-l1-1-0.dll in 10.0.16299. |
-| [RtlLookupFunctionEntry](https://msdn.microsoft.com/library/windows/desktop/ms680597.aspx) | Introduced into api-ms-win-core-rtlsupport-l1-2-0.dll in 10.0.10240. Removed in 10.0.16299. |
-| [RtlPcToFileHeader](https://msdn.microsoft.com/library/windows/desktop/ms680603.aspx) | Introduced into api-ms-win-core-rtlsupport-l1-2-0.dll in 10.0.10240. |
-| [RtlUnwind](https://msdn.microsoft.com/library/windows/desktop/ms680609.aspx) | Introduced into api-ms-win-core-rtlsupport-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-rtlsupport-l1-1-0.dll in 10.0.16299. |
-| [RtlUnwindEx](https://msdn.microsoft.com/library/windows/desktop/ms680615.aspx) | Introduced into api-ms-win-core-rtlsupport-l1-2-0.dll in 10.0.10240. Removed in 10.0.16299. |
+| [RtlCaptureStackBackTrace](/previous-versions//aa813366(v=vs.85)) | Introduced into api-ms-win-core-rtlsupport-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-rtlsupport-l1-1-0.dll in 10.0.16299. |
+| [RtlLookupFunctionEntry](/windows/win32/api/winnt/nf-winnt-rtllookupfunctionentry) | Introduced into api-ms-win-core-rtlsupport-l1-2-0.dll in 10.0.10240. Removed in 10.0.16299. |
+| [RtlPcToFileHeader](/windows/win32/api/winnt/nf-winnt-rtlpctofileheader) | Introduced into api-ms-win-core-rtlsupport-l1-2-0.dll in 10.0.10240. |
+| [RtlUnwind](/windows/win32/api/winnt/nf-winnt-rtlunwind) | Introduced into api-ms-win-core-rtlsupport-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-rtlsupport-l1-1-0.dll in 10.0.16299. |
+| [RtlUnwindEx](/windows/win32/api/winnt/nf-winnt-rtlunwindex) | Introduced into api-ms-win-core-rtlsupport-l1-2-0.dll in 10.0.10240. Removed in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-string-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CompareStringEx](https://msdn.microsoft.com/library/windows/desktop/dd317761.aspx) | Introduced into api-ms-win-core-string-l1-1-0.dll in 10.0.10240. |
-| [CompareStringOrdinal](https://msdn.microsoft.com/library/windows/desktop/dd317762.aspx) | Introduced into api-ms-win-core-string-l1-1-0.dll in 10.0.10240. |
-| [GetStringTypeExW](https://msdn.microsoft.com/library/windows/desktop/dd318118.aspx) | Introduced into api-ms-win-core-string-l1-1-0.dll in 10.0.10240. |
-| [GetStringTypeW](https://msdn.microsoft.com/library/windows/desktop/dd318119.aspx) | Introduced into api-ms-win-core-string-l1-1-0.dll in 10.0.10240. |
-| [MultiByteToWideChar](https://msdn.microsoft.com/library/windows/desktop/dd319072.aspx) | Introduced into api-ms-win-core-string-l1-1-0.dll in 10.0.10240. |
-| [WideCharToMultiByte](https://msdn.microsoft.com/library/windows/desktop/dd374130.aspx) | Introduced into api-ms-win-core-string-l1-1-0.dll in 10.0.10240. |
+| [CompareStringEx](/windows/win32/api/stringapiset/nf-stringapiset-comparestringex) | Introduced into api-ms-win-core-string-l1-1-0.dll in 10.0.10240. |
+| [CompareStringOrdinal](/windows/win32/api/stringapiset/nf-stringapiset-comparestringordinal) | Introduced into api-ms-win-core-string-l1-1-0.dll in 10.0.10240. |
+| [GetStringTypeExW](/windows/win32/api/stringapiset/nf-stringapiset-getstringtypeexw) | Introduced into api-ms-win-core-string-l1-1-0.dll in 10.0.10240. |
+| [GetStringTypeW](/windows/win32/api/stringapiset/nf-stringapiset-getstringtypew) | Introduced into api-ms-win-core-string-l1-1-0.dll in 10.0.10240. |
+| [MultiByteToWideChar](/windows/win32/api/stringapiset/nf-stringapiset-multibytetowidechar) | Introduced into api-ms-win-core-string-l1-1-0.dll in 10.0.10240. |
+| [WideCharToMultiByte](/windows/win32/api/stringapiset/nf-stringapiset-widechartomultibyte) | Introduced into api-ms-win-core-string-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-synch-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateSemaphoreA](https://msdn.microsoft.com/library/windows/desktop/ms682438.aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.10240. |
-| [CreateSemaphoreExA](https://msdn.microsoft.com/library/windows/desktop/ms682446.aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.10240. |
-| [OpenMutexA](https://msdn.microsoft.com/library/windows/desktop/ms684315.aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.10240. |
-| [CreateWaitableTimerA](https://msdn.microsoft.com/library/ms682492(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. |
-| [CreateWaitableTimerExA](https://msdn.microsoft.com/library/ms682494(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. |
-| [OpenWaitableTimerA](https://msdn.microsoft.com/library/ms684337(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. |
+| [CreateSemaphoreA](/windows/win32/api/synchapi/nf-synchapi-createsemaphorew) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.10240. |
+| [CreateSemaphoreExA](/windows/win32/api/synchapi/nf-synchapi-createsemaphoreexw) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.10240. |
+| [OpenMutexA](/windows/win32/api/synchapi/nf-synchapi-openmutexw) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.10240. |
+| [CreateWaitableTimerA](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. |
+| [CreateWaitableTimerExA](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerexw) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. |
+| [OpenWaitableTimerA](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw) | Introduced into api-ms-win-core-synch-ansi-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-synch-l1-2-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [AcquireSRWLockExclusive](https://msdn.microsoft.com/library/windows/desktop/ms681930.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [AcquireSRWLockShared](https://msdn.microsoft.com/library/windows/desktop/ms681934.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [CreateEventA](https://msdn.microsoft.com/library/windows/desktop/ms682396.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [CreateEventExA](https://msdn.microsoft.com/library/windows/desktop/ms682400.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [CreateEventExW](https://msdn.microsoft.com/library/windows/desktop/ms682400.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [CreateEventW](https://msdn.microsoft.com/library/windows/desktop/ms682396.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [CreateMutexA](https://msdn.microsoft.com/library/windows/desktop/ms682411.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [CreateMutexExA](https://msdn.microsoft.com/library/windows/desktop/ms682418.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [CreateMutexExW](https://msdn.microsoft.com/library/windows/desktop/ms682418.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [CreateMutexW](https://msdn.microsoft.com/library/windows/desktop/ms682411.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [CreateSemaphoreExW](https://msdn.microsoft.com/library/windows/desktop/ms682446.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [DeleteCriticalSection](https://msdn.microsoft.com/library/windows/desktop/ms682552.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [EnterCriticalSection](https://msdn.microsoft.com/library/windows/desktop/ms682608.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [InitializeConditionVariable](https://msdn.microsoft.com/library/windows/desktop/ms683469.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
-| [InitializeCriticalSection](https://msdn.microsoft.com/library/windows/desktop/ms683472.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [InitializeCriticalSectionAndSpinCount](https://msdn.microsoft.com/library/windows/desktop/ms683476.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [InitializeCriticalSectionEx](https://msdn.microsoft.com/library/windows/desktop/ms683477.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [InitializeSRWLock](https://msdn.microsoft.com/library/windows/desktop/ms683483.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [InitOnceBeginInitialize](https://msdn.microsoft.com/library/windows/desktop/ms683487.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
-| [InitOnceComplete](https://msdn.microsoft.com/library/windows/desktop/ms683491.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
-| [InitOnceExecuteOnce](https://msdn.microsoft.com/library/windows/desktop/ms683493.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
-| [InitOnceInitialize](https://msdn.microsoft.com/library/windows/desktop/ms683495.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
-| [LeaveCriticalSection](https://msdn.microsoft.com/library/windows/desktop/ms684169.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [OpenEventA](https://msdn.microsoft.com/library/windows/desktop/ms684305.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [OpenEventW](https://msdn.microsoft.com/library/windows/desktop/ms684305.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [OpenMutexW](https://msdn.microsoft.com/library/windows/desktop/ms684315.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [OpenSemaphoreW](https://msdn.microsoft.com/library/windows/desktop/ms684326.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [ReleaseMutex](https://msdn.microsoft.com/library/windows/desktop/ms685066.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [ReleaseSemaphore](https://msdn.microsoft.com/library/windows/desktop/ms685071.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [ReleaseSRWLockExclusive](https://msdn.microsoft.com/library/windows/desktop/ms685076.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [ReleaseSRWLockShared](https://msdn.microsoft.com/library/windows/desktop/ms685080.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [ResetEvent](https://msdn.microsoft.com/library/windows/desktop/ms685081.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [SetCriticalSectionSpinCount](https://msdn.microsoft.com/library/windows/desktop/ms686197.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [SetEvent](https://msdn.microsoft.com/library/windows/desktop/ms686211.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [Sleep](https://msdn.microsoft.com/library/windows/desktop/ms686298.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
-| [SleepConditionVariableCS](https://msdn.microsoft.com/library/windows/desktop/ms686301.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
-| [SleepConditionVariableSRW](https://msdn.microsoft.com/library/windows/desktop/ms686304.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
-| [SleepEx](https://msdn.microsoft.com/library/windows/desktop/ms686307.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [TryAcquireSRWLockExclusive](https://msdn.microsoft.com/library/windows/desktop/dd405523.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [TryAcquireSRWLockShared](https://msdn.microsoft.com/library/windows/desktop/dd405524.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [TryEnterCriticalSection](https://msdn.microsoft.com/library/windows/desktop/ms686857.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [WaitForMultipleObjectsEx](https://msdn.microsoft.com/library/windows/desktop/ms687028.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [WaitForSingleObject](https://msdn.microsoft.com/library/windows/desktop/ms687032.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [WaitForSingleObjectEx](https://msdn.microsoft.com/library/windows/desktop/ms687036.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [WaitOnAddress](https://msdn.microsoft.com/library/windows/desktop/hh706898.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
-| [WakeAllConditionVariable](https://msdn.microsoft.com/library/windows/desktop/ms687076.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
-| [WakeByAddressAll](https://msdn.microsoft.com/library/windows/desktop/hh706899.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
-| [WakeByAddressSingle](https://msdn.microsoft.com/library/windows/desktop/hh706900.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
-| [WakeConditionVariable](https://msdn.microsoft.com/library/windows/desktop/ms687080.aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
-| [SignalObjectAndWait](https://msdn.microsoft.com/library/ms686293(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. |
+| [AcquireSRWLockExclusive](/windows/win32/api/synchapi/nf-synchapi-acquiresrwlockexclusive) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [AcquireSRWLockShared](/windows/win32/api/synchapi/nf-synchapi-acquiresrwlockshared) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [CreateEventA](/windows/win32/api/synchapi/nf-synchapi-createeventa) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [CreateEventExA](/windows/win32/api/synchapi/nf-synchapi-createeventexa) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [CreateEventExW](/windows/win32/api/synchapi/nf-synchapi-createeventexa) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [CreateEventW](/windows/win32/api/synchapi/nf-synchapi-createeventa) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [CreateMutexA](/windows/win32/api/synchapi/nf-synchapi-createmutexa) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [CreateMutexExA](/windows/win32/api/synchapi/nf-synchapi-createmutexexa) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [CreateMutexExW](/windows/win32/api/synchapi/nf-synchapi-createmutexexa) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [CreateMutexW](/windows/win32/api/synchapi/nf-synchapi-createmutexa) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [CreateSemaphoreExW](/windows/win32/api/synchapi/nf-synchapi-createsemaphoreexw) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [DeleteCriticalSection](/windows/win32/api/synchapi/nf-synchapi-deletecriticalsection) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [EnterCriticalSection](/windows/win32/api/synchapi/nf-synchapi-entercriticalsection) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [InitializeConditionVariable](/windows/win32/api/synchapi/nf-synchapi-initializeconditionvariable) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
+| [InitializeCriticalSection](/windows/win32/api/synchapi/nf-synchapi-initializecriticalsection) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [InitializeCriticalSectionAndSpinCount](/windows/win32/api/synchapi/nf-synchapi-initializecriticalsectionandspincount) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [InitializeCriticalSectionEx](/windows/win32/api/synchapi/nf-synchapi-initializecriticalsectionex) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [InitializeSRWLock](/windows/win32/api/synchapi/nf-synchapi-initializesrwlock) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [InitOnceBeginInitialize](/windows/win32/api/synchapi/nf-synchapi-initoncebegininitialize) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
+| [InitOnceComplete](/windows/win32/api/synchapi/nf-synchapi-initoncecomplete) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
+| [InitOnceExecuteOnce](/windows/win32/api/synchapi/nf-synchapi-initonceexecuteonce) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
+| [InitOnceInitialize](/windows/win32/api/synchapi/nf-synchapi-initonceinitialize) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
+| [LeaveCriticalSection](/windows/win32/api/synchapi/nf-synchapi-leavecriticalsection) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [OpenEventA](/windows/win32/api/synchapi/nf-synchapi-openeventa) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [OpenEventW](/windows/win32/api/synchapi/nf-synchapi-openeventa) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [OpenMutexW](/windows/win32/api/synchapi/nf-synchapi-openmutexw) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [OpenSemaphoreW](/windows/win32/api/synchapi/nf-synchapi-opensemaphorew) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [ReleaseMutex](/windows/win32/api/synchapi/nf-synchapi-releasemutex) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [ReleaseSemaphore](/windows/win32/api/synchapi/nf-synchapi-releasesemaphore) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [ReleaseSRWLockExclusive](/windows/win32/api/synchapi/nf-synchapi-releasesrwlockexclusive) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [ReleaseSRWLockShared](/windows/win32/api/synchapi/nf-synchapi-releasesrwlockshared) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [ResetEvent](/windows/win32/api/synchapi/nf-synchapi-resetevent) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [SetCriticalSectionSpinCount](/windows/win32/api/synchapi/nf-synchapi-setcriticalsectionspincount) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [SetEvent](/windows/win32/api/synchapi/nf-synchapi-setevent) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [Sleep](/windows/win32/api/synchapi/nf-synchapi-sleep) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
+| [SleepConditionVariableCS](/windows/win32/api/synchapi/nf-synchapi-sleepconditionvariablecs) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
+| [SleepConditionVariableSRW](/windows/win32/api/synchapi/nf-synchapi-sleepconditionvariablesrw) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
+| [SleepEx](/windows/win32/api/synchapi/nf-synchapi-sleepex) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [TryAcquireSRWLockExclusive](/windows/win32/api/synchapi/nf-synchapi-tryacquiresrwlockexclusive) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [TryAcquireSRWLockShared](/windows/win32/api/synchapi/nf-synchapi-tryacquiresrwlockshared) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [TryEnterCriticalSection](/windows/win32/api/synchapi/nf-synchapi-tryentercriticalsection) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [WaitForMultipleObjectsEx](/windows/win32/api/synchapi/nf-synchapi-waitformultipleobjectsex) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [WaitForSingleObject](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [WaitForSingleObjectEx](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. Moved into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [WaitOnAddress](/windows/win32/api/synchapi/nf-synchapi-waitonaddress) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
+| [WakeAllConditionVariable](/windows/win32/api/synchapi/nf-synchapi-wakeallconditionvariable) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
+| [WakeByAddressAll](/windows/win32/api/synchapi/nf-synchapi-wakebyaddressall) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
+| [WakeByAddressSingle](/windows/win32/api/synchapi/nf-synchapi-wakebyaddresssingle) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
+| [WakeConditionVariable](/windows/win32/api/synchapi/nf-synchapi-wakeconditionvariable) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.10240. Moved into api-ms-win-core-synch-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-synch-l1-2-0.dll in 10.0.14393. |
+| [SignalObjectAndWait](/windows/win32/api/synchapi/nf-synchapi-signalobjectandwait) | Introduced into api-ms-win-core-synch-l1-2-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-synch-l1-2-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateSemaphoreW](https://msdn.microsoft.com/library/windows/desktop/ms682438.aspx) | Introduced into api-ms-win-core-synch-l1-2-1.dll in 10.0.10240. |
-| [WaitForMultipleObjects](https://msdn.microsoft.com/library/windows/desktop/ms687025.aspx) | Introduced into api-ms-win-core-synch-l1-2-1.dll in 10.0.10240. |
-| [CreateWaitableTimerW](https://msdn.microsoft.com/library/ms682492(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. |
+| [CreateSemaphoreW](/windows/win32/api/synchapi/nf-synchapi-createsemaphorew) | Introduced into api-ms-win-core-synch-l1-2-1.dll in 10.0.10240. |
+| [WaitForMultipleObjects](/windows/win32/api/synchapi/nf-synchapi-waitformultipleobjects) | Introduced into api-ms-win-core-synch-l1-2-1.dll in 10.0.10240. |
+| [CreateWaitableTimerW](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw) | Introduced into api-ms-win-core-synch-l1-2-1.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-sysinfo-l1-2-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetLocalTime](https://msdn.microsoft.com/library/windows/desktop/ms724338.aspx) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
-| [GetNativeSystemInfo](https://msdn.microsoft.com/library/windows/desktop/ms724340.aspx) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.16299. |
-| [GetSystemInfo](https://msdn.microsoft.com/library/windows/desktop/ms724381.aspx) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
-| [GetSystemTime](https://msdn.microsoft.com/library/windows/desktop/ms724390.aspx) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
-| [GetSystemTimeAsFileTime](https://msdn.microsoft.com/library/windows/desktop/ms724397.aspx) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
-| [GetSystemTimePreciseAsFileTime](https://msdn.microsoft.com/library/windows/desktop/hh706895.aspx) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.16299. |
-| [GetTickCount64](https://msdn.microsoft.com/library/windows/desktop/ms724411.aspx) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
-| [GetLogicalProcessorInformation](https://msdn.microsoft.com/library/windows/desktop/ms683194.aspx) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
-| [GetLogicalProcessorInformationEx](https://msdn.microsoft.com/library/windows/desktop/dd405488.aspx) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
-| [GlobalMemoryStatusEx](https://msdn.microsoft.com/library/windows/desktop/aa366589.aspx) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+| [GetLocalTime](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getlocaltime) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+| [GetNativeSystemInfo](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.16299. |
+| [GetSystemInfo](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsysteminfo) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+| [GetSystemTime](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemtime) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+| [GetSystemTimeAsFileTime](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemtimeasfiletime) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+| [GetSystemTimePreciseAsFileTime](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemtimepreciseasfiletime) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.16299. |
+| [GetTickCount64](/windows/win32/api/sysinfoapi/nf-sysinfoapi-gettickcount64) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.10240. Moved into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10586. Moved into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+| [GetLogicalProcessorInformation](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+| [GetLogicalProcessorInformationEx](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+| [GlobalMemoryStatusEx](/windows/win32/api/sysinfoapi/nf-sysinfoapi-globalmemorystatusex) | Introduced into api-ms-win-core-sysinfo-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-sysinfo-l1-2-3.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetIntegratedDisplaySize](https://msdn.microsoft.com/library/windows/desktop/dn904185.aspx) | Introduced into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10240. |
+| [GetIntegratedDisplaySize](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getintegrateddisplaysize) | Introduced into api-ms-win-core-sysinfo-l1-2-3.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-threadpool-l1-2-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CallbackMayRunLong](https://msdn.microsoft.com/library/windows/desktop/ms681981.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [CancelThreadpoolIo](https://msdn.microsoft.com/library/windows/desktop/ms681983.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [CloseThreadpool](https://msdn.microsoft.com/library/windows/desktop/ms682030.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [CloseThreadpoolCleanupGroup](https://msdn.microsoft.com/library/windows/desktop/ms682033.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [CloseThreadpoolCleanupGroupMembers](https://msdn.microsoft.com/library/windows/desktop/ms682036.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [CloseThreadpoolIo](https://msdn.microsoft.com/library/windows/desktop/ms682038.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [CloseThreadpoolTimer](https://msdn.microsoft.com/library/windows/desktop/ms682040.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [CloseThreadpoolWait](https://msdn.microsoft.com/library/windows/desktop/ms682042.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [CloseThreadpoolWork](https://msdn.microsoft.com/library/windows/desktop/ms682043.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [CreateThreadpool](https://msdn.microsoft.com/library/windows/desktop/ms682456.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [CreateThreadpoolCleanupGroup](https://msdn.microsoft.com/library/windows/desktop/ms682462.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [CreateThreadpoolIo](https://msdn.microsoft.com/library/windows/desktop/ms682464.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [CreateThreadpoolTimer](https://msdn.microsoft.com/library/windows/desktop/ms682466.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [CreateThreadpoolWait](https://msdn.microsoft.com/library/windows/desktop/ms682474.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [CreateThreadpoolWork](https://msdn.microsoft.com/library/windows/desktop/ms682478.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [DisassociateCurrentThreadFromCallback](https://msdn.microsoft.com/library/windows/desktop/ms682581.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [FreeLibraryWhenCallbackReturns](https://msdn.microsoft.com/library/windows/desktop/ms683154.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [IsThreadpoolTimerSet](https://msdn.microsoft.com/library/windows/desktop/ms684133.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [LeaveCriticalSectionWhenCallbackReturns](https://msdn.microsoft.com/library/windows/desktop/ms684171.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [QueryThreadpoolStackInformation](https://msdn.microsoft.com/library/windows/desktop/dd405508.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [ReleaseMutexWhenCallbackReturns](https://msdn.microsoft.com/library/windows/desktop/ms685070.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [ReleaseSemaphoreWhenCallbackReturns](https://msdn.microsoft.com/library/windows/desktop/ms685073.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [SetEventWhenCallbackReturns](https://msdn.microsoft.com/library/windows/desktop/ms686214.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [SetThreadpoolStackInformation](https://msdn.microsoft.com/library/windows/desktop/dd405520.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [SetThreadpoolThreadMaximum](https://msdn.microsoft.com/library/windows/desktop/ms686266.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [SetThreadpoolThreadMinimum](https://msdn.microsoft.com/library/windows/desktop/ms686268.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [SetThreadpoolTimer](https://msdn.microsoft.com/library/windows/desktop/ms686271.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [SetThreadpoolTimerEx](https://msdn.microsoft.com/library/windows/desktop/dn894018.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [SetThreadpoolWait](https://msdn.microsoft.com/library/windows/desktop/ms686273.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [SetThreadpoolWaitEx](https://msdn.microsoft.com/library/windows/desktop/mt186618.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [StartThreadpoolIo](https://msdn.microsoft.com/library/windows/desktop/ms686326.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [SubmitThreadpoolWork](https://msdn.microsoft.com/library/windows/desktop/ms686338.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [TrySubmitThreadpoolCallback](https://msdn.microsoft.com/library/windows/desktop/ms686862.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [WaitForThreadpoolIoCallbacks](https://msdn.microsoft.com/library/windows/desktop/ms687038.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [WaitForThreadpoolTimerCallbacks](https://msdn.microsoft.com/library/windows/desktop/ms687042.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [WaitForThreadpoolWaitCallbacks](https://msdn.microsoft.com/library/windows/desktop/ms687047.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
-| [WaitForThreadpoolWorkCallbacks](https://msdn.microsoft.com/library/windows/desktop/ms687053.aspx) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [CallbackMayRunLong](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-callbackmayrunlong) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [CancelThreadpoolIo](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-cancelthreadpoolio) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [CloseThreadpool](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-closethreadpool) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [CloseThreadpoolCleanupGroup](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolcleanupgroup) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [CloseThreadpoolCleanupGroupMembers](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolcleanupgroupmembers) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [CloseThreadpoolIo](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolio) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [CloseThreadpoolTimer](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-closethreadpooltimer) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [CloseThreadpoolWait](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwait) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [CloseThreadpoolWork](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwork) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [CreateThreadpool](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-createthreadpool) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [CreateThreadpoolCleanupGroup](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolcleanupgroup) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [CreateThreadpoolIo](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolio) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [CreateThreadpoolTimer](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-createthreadpooltimer) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [CreateThreadpoolWait](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwait) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [CreateThreadpoolWork](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwork) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [DisassociateCurrentThreadFromCallback](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-disassociatecurrentthreadfromcallback) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [FreeLibraryWhenCallbackReturns](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-freelibrarywhencallbackreturns) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [IsThreadpoolTimerSet](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-isthreadpooltimerset) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [LeaveCriticalSectionWhenCallbackReturns](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-leavecriticalsectionwhencallbackreturns) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [QueryThreadpoolStackInformation](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-querythreadpoolstackinformation) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [ReleaseMutexWhenCallbackReturns](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-releasemutexwhencallbackreturns) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [ReleaseSemaphoreWhenCallbackReturns](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-releasesemaphorewhencallbackreturns) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [SetEventWhenCallbackReturns](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-seteventwhencallbackreturns) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [SetThreadpoolStackInformation](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolstackinformation) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [SetThreadpoolThreadMaximum](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolthreadmaximum) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [SetThreadpoolThreadMinimum](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolthreadminimum) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [SetThreadpoolTimer](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-setthreadpooltimer) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [SetThreadpoolTimerEx](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-setthreadpooltimerex) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [SetThreadpoolWait](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwait) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [SetThreadpoolWaitEx](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwaitex) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [StartThreadpoolIo](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-startthreadpoolio) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [SubmitThreadpoolWork](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-submitthreadpoolwork) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [TrySubmitThreadpoolCallback](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-trysubmitthreadpoolcallback) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [WaitForThreadpoolIoCallbacks](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-waitforthreadpooliocallbacks) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [WaitForThreadpoolTimerCallbacks](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-waitforthreadpooltimercallbacks) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [WaitForThreadpoolWaitCallbacks](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-waitforthreadpoolwaitcallbacks) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
+| [WaitForThreadpoolWorkCallbacks](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-waitforthreadpoolworkcallbacks) | Introduced into api-ms-win-core-threadpool-l1-2-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-timezone-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [EnumDynamicTimeZoneInformation](https://msdn.microsoft.com/library/windows/desktop/hh706893.aspx) | Introduced into api-ms-win-core-timezone-l1-1-0.dll in 10.0.10240. |
-| [FileTimeToSystemTime](https://msdn.microsoft.com/library/windows/desktop/ms724280.aspx) | Introduced into api-ms-win-core-timezone-l1-1-0.dll in 10.0.10240. |
-| [GetDynamicTimeZoneInformation](https://msdn.microsoft.com/library/windows/desktop/ms724318.aspx) | Introduced into api-ms-win-core-timezone-l1-1-0.dll in 10.0.10240. |
-| [GetDynamicTimeZoneInformationEffectiveYears](https://msdn.microsoft.com/library/windows/desktop/hh706894.aspx) | Introduced into api-ms-win-core-timezone-l1-1-0.dll in 10.0.10240. |
-| [GetTimeZoneInformation](https://msdn.microsoft.com/library/windows/desktop/ms724421.aspx) | Introduced into api-ms-win-core-timezone-l1-1-0.dll in 10.0.10240. |
-| [GetTimeZoneInformationForYear](https://msdn.microsoft.com/library/windows/desktop/bb540851.aspx) | Introduced into api-ms-win-core-timezone-l1-1-0.dll in 10.0.10240. |
-| [SystemTimeToFileTime](https://msdn.microsoft.com/library/windows/desktop/ms724948.aspx) | Introduced into api-ms-win-core-timezone-l1-1-0.dll in 10.0.10240. |
-| [SystemTimeToTzSpecificLocalTime](https://msdn.microsoft.com/library/windows/desktop/ms724949.aspx) | Introduced into api-ms-win-core-timezone-l1-1-0.dll in 10.0.10240. |
-| [SystemTimeToTzSpecificLocalTimeEx](https://msdn.microsoft.com/library/windows/desktop/jj206642.aspx) | Introduced into api-ms-win-core-timezone-l1-1-0.dll in 10.0.10240. |
-| [TzSpecificLocalTimeToSystemTime](https://msdn.microsoft.com/library/windows/desktop/ms725485.aspx) | Introduced into api-ms-win-core-timezone-l1-1-0.dll in 10.0.10240. |
-| [TzSpecificLocalTimeToSystemTimeEx](https://msdn.microsoft.com/library/windows/desktop/jj206643.aspx) | Introduced into api-ms-win-core-timezone-l1-1-0.dll in 10.0.10240. |
+| [EnumDynamicTimeZoneInformation](/windows/win32/api/timezoneapi/nf-timezoneapi-enumdynamictimezoneinformation) | Introduced into api-ms-win-core-timezone-l1-1-0.dll in 10.0.10240. |
+| [FileTimeToSystemTime](/windows/win32/api/timezoneapi/nf-timezoneapi-filetimetosystemtime) | Introduced into api-ms-win-core-timezone-l1-1-0.dll in 10.0.10240. |
+| [GetDynamicTimeZoneInformation](/windows/win32/api/timezoneapi/nf-timezoneapi-getdynamictimezoneinformation) | Introduced into api-ms-win-core-timezone-l1-1-0.dll in 10.0.10240. |
+| [GetDynamicTimeZoneInformationEffectiveYears](/windows/win32/api/timezoneapi/nf-timezoneapi-getdynamictimezoneinformationeffectiveyears) | Introduced into api-ms-win-core-timezone-l1-1-0.dll in 10.0.10240. |
+| [GetTimeZoneInformation](/windows/win32/api/timezoneapi/nf-timezoneapi-gettimezoneinformation) | Introduced into api-ms-win-core-timezone-l1-1-0.dll in 10.0.10240. |
+| [GetTimeZoneInformationForYear](/windows/win32/api/timezoneapi/nf-timezoneapi-gettimezoneinformationforyear) | Introduced into api-ms-win-core-timezone-l1-1-0.dll in 10.0.10240. |
+| [SystemTimeToFileTime](/windows/win32/api/timezoneapi/nf-timezoneapi-systemtimetofiletime) | Introduced into api-ms-win-core-timezone-l1-1-0.dll in 10.0.10240. |
+| [SystemTimeToTzSpecificLocalTime](/windows/win32/api/timezoneapi/nf-timezoneapi-systemtimetotzspecificlocaltime) | Introduced into api-ms-win-core-timezone-l1-1-0.dll in 10.0.10240. |
+| [SystemTimeToTzSpecificLocalTimeEx](/windows/win32/api/timezoneapi/nf-timezoneapi-systemtimetotzspecificlocaltimeex) | Introduced into api-ms-win-core-timezone-l1-1-0.dll in 10.0.10240. |
+| [TzSpecificLocalTimeToSystemTime](/windows/win32/api/timezoneapi/nf-timezoneapi-tzspecificlocaltimetosystemtime) | Introduced into api-ms-win-core-timezone-l1-1-0.dll in 10.0.10240. |
+| [TzSpecificLocalTimeToSystemTimeEx](/windows/win32/api/timezoneapi/nf-timezoneapi-tzspecificlocaltimetosystemtimeex) | Introduced into api-ms-win-core-timezone-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-util-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [DecodePointer](https://msdn.microsoft.com/library/windows/desktop/bb432242.aspx) | Introduced into api-ms-win-core-util-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-util-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-util-l1-1-0.dll in 10.0.14393. |
-| [EncodePointer](https://msdn.microsoft.com/library/windows/desktop/bb432254.aspx) | Introduced into api-ms-win-core-util-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-util-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-util-l1-1-0.dll in 10.0.14393. |
-| [Beep](https://msdn.microsoft.com/library/ms679277(v=VS.85).aspx) | Introduced into api-ms-win-core-util-l1-1-0.dll in 10.0.16299. |
+| [DecodePointer](/previous-versions//bb432242(v=vs.85)) | Introduced into api-ms-win-core-util-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-util-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-util-l1-1-0.dll in 10.0.14393. |
+| [EncodePointer](/previous-versions//bb432254(v=vs.85)) | Introduced into api-ms-win-core-util-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-util-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-util-l1-1-0.dll in 10.0.14393. |
+| [Beep](/windows/win32/api/utilapiset/nf-utilapiset-beep) | Introduced into api-ms-win-core-util-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-windowsceip-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CeipIsOptedIn](https://msdn.microsoft.com/library/windows/desktop/dn482415.aspx) | Introduced into api-ms-win-core-windowsceip-l1-1-0.dll in 10.0.10240. |
+| [CeipIsOptedIn](/windows/win32/api/windowsceip/nf-windowsceip-ceipisoptedin) | Introduced into api-ms-win-core-windowsceip-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-windowserrorreporting-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [WerRegisterFile](https://msdn.microsoft.com/library/windows/desktop/bb513619.aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-0.dll in 10.0.10240. |
-| [WerRegisterMemoryBlock](https://msdn.microsoft.com/library/windows/desktop/bb513620.aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-0.dll in 10.0.10240. |
-| [WerUnregisterFile](https://msdn.microsoft.com/library/windows/desktop/bb513630.aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-0.dll in 10.0.10240. |
-| [WerUnregisterMemoryBlock](https://msdn.microsoft.com/library/windows/desktop/bb513631.aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-0.dll in 10.0.10240. |
+| [WerRegisterFile](/windows/win32/api/werapi/nf-werapi-werregisterfile) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-0.dll in 10.0.10240. |
+| [WerRegisterMemoryBlock](/windows/win32/api/werapi/nf-werapi-werregistermemoryblock) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-0.dll in 10.0.10240. |
+| [WerUnregisterFile](/windows/win32/api/werapi/nf-werapi-werunregisterfile) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-0.dll in 10.0.10240. |
+| [WerUnregisterMemoryBlock](/windows/win32/api/werapi/nf-werapi-werunregistermemoryblock) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-winrt-error-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetRestrictedErrorInfo](https://msdn.microsoft.com/library/windows/desktop/jj219013.aspx) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-winrt-error-l1-1-0.dll in 10.0.16299. |
-| [RoCaptureErrorContext](https://msdn.microsoft.com/library/windows/desktop/jj219014.aspx) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-winrt-error-l1-1-0.dll in 10.0.16299. |
-| [RoFailFastWithErrorContext](https://msdn.microsoft.com/library/windows/desktop/jj219015.aspx) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-winrt-error-l1-1-0.dll in 10.0.16299. |
-| [RoGetErrorReportingFlags](https://msdn.microsoft.com/library/windows/desktop/br224649.aspx) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-winrt-error-l1-1-0.dll in 10.0.16299. |
-| [RoOriginateError](https://msdn.microsoft.com/library/windows/desktop/br224651.aspx) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-winrt-error-l1-1-0.dll in 10.0.16299. |
-| [RoOriginateErrorW](https://msdn.microsoft.com/library/windows/desktop/br224652.aspx) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-winrt-error-l1-1-0.dll in 10.0.16299. |
-| [RoOriginateLanguageException](https://msdn.microsoft.com/library/windows/desktop/dn302172.aspx) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. |
-| [RoReportUnhandledError](https://msdn.microsoft.com/library/windows/desktop/dn457328.aspx) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. |
-| [RoSetErrorReportingFlags](https://msdn.microsoft.com/library/windows/desktop/br224657.aspx) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-winrt-error-l1-1-0.dll in 10.0.16299. |
-| [RoTransformError](https://msdn.microsoft.com/library/windows/desktop/br224658.aspx) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-winrt-error-l1-1-0.dll in 10.0.16299. |
-| [RoTransformErrorW](https://msdn.microsoft.com/library/windows/desktop/br224659.aspx) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-winrt-error-l1-1-0.dll in 10.0.16299. |
-| [SetRestrictedErrorInfo](https://msdn.microsoft.com/library/windows/desktop/jj219016.aspx) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-winrt-error-l1-1-0.dll in 10.0.16299. |
+| [GetRestrictedErrorInfo](/windows/win32/api/roerrorapi/nf-roerrorapi-getrestrictederrorinfo) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-winrt-error-l1-1-0.dll in 10.0.16299. |
+| [RoCaptureErrorContext](/windows/win32/api/roerrorapi/nf-roerrorapi-rocaptureerrorcontext) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-winrt-error-l1-1-0.dll in 10.0.16299. |
+| [RoFailFastWithErrorContext](/windows/win32/api/roerrorapi/nf-roerrorapi-rofailfastwitherrorcontext) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-winrt-error-l1-1-0.dll in 10.0.16299. |
+| [RoGetErrorReportingFlags](/windows/win32/api/roerrorapi/nf-roerrorapi-rogeterrorreportingflags) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-winrt-error-l1-1-0.dll in 10.0.16299. |
+| [RoOriginateError](/windows/win32/api/roerrorapi/nf-roerrorapi-rooriginateerror) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-winrt-error-l1-1-0.dll in 10.0.16299. |
+| [RoOriginateErrorW](/windows/win32/api/roerrorapi/nf-roerrorapi-rooriginateerrorw) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-winrt-error-l1-1-0.dll in 10.0.16299. |
+| [RoOriginateLanguageException](/windows/win32/api/roerrorapi/nf-roerrorapi-rooriginatelanguageexception) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. |
+| [RoReportUnhandledError](/windows/win32/api/roerrorapi/nf-roerrorapi-roreportunhandlederror) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. |
+| [RoSetErrorReportingFlags](/windows/win32/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-winrt-error-l1-1-0.dll in 10.0.16299. |
+| [RoTransformError](/windows/win32/api/roerrorapi/nf-roerrorapi-rotransformerror) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-winrt-error-l1-1-0.dll in 10.0.16299. |
+| [RoTransformErrorW](/windows/win32/api/roerrorapi/nf-roerrorapi-rotransformerrorw) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-winrt-error-l1-1-0.dll in 10.0.16299. |
+| [SetRestrictedErrorInfo](/windows/win32/api/roerrorapi/nf-roerrorapi-setrestrictederrorinfo) | Introduced into api-ms-win-core-winrt-error-l1-1-1.dll in 10.0.10240. Moved into api-ms-win-core-winrt-error-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-winrt-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [RoActivateInstance](https://msdn.microsoft.com/library/windows/desktop/br224646.aspx) | Introduced into api-ms-win-core-winrt-l1-1-0.dll in 10.0.10240. |
-| [RoGetActivationFactory](https://msdn.microsoft.com/library/windows/desktop/br224648.aspx) | Introduced into api-ms-win-core-winrt-l1-1-0.dll in 10.0.10240. |
-| [RoGetApartmentIdentifier](https://msdn.microsoft.com/library/windows/desktop/jj219266.aspx) | Introduced into api-ms-win-core-winrt-l1-1-0.dll in 10.0.10240. |
-| [RoInitialize](https://msdn.microsoft.com/library/windows/desktop/br224650.aspx) | Introduced into api-ms-win-core-winrt-l1-1-0.dll in 10.0.10240. |
-| [RoRegisterActivationFactories](https://msdn.microsoft.com/library/windows/desktop/br224653.aspx) | Introduced into api-ms-win-core-winrt-l1-1-0.dll in 10.0.10240. |
-| [RoRegisterForApartmentShutdown](https://msdn.microsoft.com/library/windows/desktop/jj219267.aspx) | Introduced into api-ms-win-core-winrt-l1-1-0.dll in 10.0.10240. |
-| [RoRevokeActivationFactories](https://msdn.microsoft.com/library/windows/desktop/br224655.aspx) | Introduced into api-ms-win-core-winrt-l1-1-0.dll in 10.0.10240. |
-| [RoUninitialize](https://msdn.microsoft.com/library/windows/desktop/br224660.aspx) | Introduced into api-ms-win-core-winrt-l1-1-0.dll in 10.0.10240. |
-| [RoUnregisterForApartmentShutdown](https://msdn.microsoft.com/library/windows/desktop/jj219268.aspx) | Introduced into api-ms-win-core-winrt-l1-1-0.dll in 10.0.10240. |
+| [RoActivateInstance](/windows/win32/api/roapi/nf-roapi-roactivateinstance) | Introduced into api-ms-win-core-winrt-l1-1-0.dll in 10.0.10240. |
+| [RoGetActivationFactory](/windows/win32/api/roapi/nf-roapi-rogetactivationfactory) | Introduced into api-ms-win-core-winrt-l1-1-0.dll in 10.0.10240. |
+| [RoGetApartmentIdentifier](/windows/win32/api/roapi/nf-roapi-rogetapartmentidentifier) | Introduced into api-ms-win-core-winrt-l1-1-0.dll in 10.0.10240. |
+| [RoInitialize](/windows/win32/api/roapi/nf-roapi-roinitialize) | Introduced into api-ms-win-core-winrt-l1-1-0.dll in 10.0.10240. |
+| [RoRegisterActivationFactories](/windows/win32/api/roapi/nf-roapi-roregisteractivationfactories) | Introduced into api-ms-win-core-winrt-l1-1-0.dll in 10.0.10240. |
+| [RoRegisterForApartmentShutdown](/windows/win32/api/roapi/nf-roapi-roregisterforapartmentshutdown) | Introduced into api-ms-win-core-winrt-l1-1-0.dll in 10.0.10240. |
+| [RoRevokeActivationFactories](/windows/win32/api/roapi/nf-roapi-rorevokeactivationfactories) | Introduced into api-ms-win-core-winrt-l1-1-0.dll in 10.0.10240. |
+| [RoUninitialize](/windows/win32/api/roapi/nf-roapi-rouninitialize) | Introduced into api-ms-win-core-winrt-l1-1-0.dll in 10.0.10240. |
+| [RoUnregisterForApartmentShutdown](/windows/win32/api/roapi/nf-roapi-rounregisterforapartmentshutdown) | Introduced into api-ms-win-core-winrt-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-winrt-registration-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [RoGetActivatableClassRegistration](https://msdn.microsoft.com/library/windows/desktop/br229855.aspx) | Introduced into api-ms-win-core-winrt-registration-l1-1-0.dll in 10.0.10240. |
-| [RoGetServerActivatableClasses](https://msdn.microsoft.com/library/windows/desktop/br229858.aspx) | Introduced into api-ms-win-core-winrt-registration-l1-1-0.dll in 10.0.10240. |
+| [RoGetActivatableClassRegistration](/windows/win32/api/roregistrationapi/nf-roregistrationapi-rogetactivatableclassregistration) | Introduced into api-ms-win-core-winrt-registration-l1-1-0.dll in 10.0.10240. |
+| [RoGetServerActivatableClasses](/windows/win32/api/roregistrationapi/nf-roregistrationapi-rogetserveractivatableclasses) | Introduced into api-ms-win-core-winrt-registration-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-winrt-robuffer-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [RoGetBufferMarshaler](https://msdn.microsoft.com/library/windows/desktop/hh438433.aspx) | Introduced into api-ms-win-core-winrt-robuffer-l1-1-0.dll in 10.0.10240. |
+| [RoGetBufferMarshaler](/windows/win32/api/robuffer/nf-robuffer-rogetbuffermarshaler) | Introduced into api-ms-win-core-winrt-robuffer-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-winrt-roparameterizediid-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [RoFreeParameterizedTypeExtra](https://msdn.microsoft.com/library/windows/desktop/br229854.aspx) | Introduced into api-ms-win-core-winrt-roparameterizediid-l1-1-0.dll in 10.0.10240. |
-| [RoGetParameterizedTypeInstanceIID](https://msdn.microsoft.com/library/windows/desktop/br229857.aspx) | Introduced into api-ms-win-core-winrt-roparameterizediid-l1-1-0.dll in 10.0.10240. |
-| [RoParameterizedTypeExtraGetTypeSignature](https://msdn.microsoft.com/library/windows/desktop/br229859.aspx) | Introduced into api-ms-win-core-winrt-roparameterizediid-l1-1-0.dll in 10.0.10240. |
+| [RoFreeParameterizedTypeExtra](/windows/win32/api/roparameterizediid/nf-roparameterizediid-rofreeparameterizedtypeextra) | Introduced into api-ms-win-core-winrt-roparameterizediid-l1-1-0.dll in 10.0.10240. |
+| [RoGetParameterizedTypeInstanceIID](/windows/win32/api/roparameterizediid/nf-roparameterizediid-rogetparameterizedtypeinstanceiid) | Introduced into api-ms-win-core-winrt-roparameterizediid-l1-1-0.dll in 10.0.10240. |
+| [RoParameterizedTypeExtraGetTypeSignature](/windows/win32/api/roparameterizediid/nf-roparameterizediid-roparameterizedtypeextragettypesignature) | Introduced into api-ms-win-core-winrt-roparameterizediid-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-winrt-string-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [HSTRING_UserFree](https://msdn.microsoft.com/library/windows/desktop/hh846259.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [HSTRING_UserFree64](https://msdn.microsoft.com/library/windows/desktop/hh846260.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. Removed in 10.0.16299. |
-| [HSTRING_UserMarshal](https://msdn.microsoft.com/library/windows/desktop/hh846261.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [HSTRING_UserMarshal64](https://msdn.microsoft.com/library/windows/desktop/hh846262.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. Removed in 10.0.16299. |
-| [HSTRING_UserSize](https://msdn.microsoft.com/library/windows/desktop/hh846263.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [HSTRING_UserSize64](https://msdn.microsoft.com/library/windows/desktop/hh846264.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. Removed in 10.0.16299. |
-| [HSTRING_UserUnmarshal](https://msdn.microsoft.com/library/windows/desktop/hh846265.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [HSTRING_UserUnmarshal64](https://msdn.microsoft.com/library/windows/desktop/hh846266.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. Removed in 10.0.16299. |
-| [WindowsCompareStringOrdinal](https://msdn.microsoft.com/library/windows/desktop/br224628.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [WindowsConcatString](https://msdn.microsoft.com/library/windows/desktop/br224629.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [WindowsCreateString](https://msdn.microsoft.com/library/windows/desktop/br224630.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [WindowsCreateStringReference](https://msdn.microsoft.com/library/windows/desktop/br224631.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [WindowsDeleteString](https://msdn.microsoft.com/library/windows/desktop/br224632.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [WindowsDeleteStringBuffer](https://msdn.microsoft.com/library/windows/desktop/br224633.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [WindowsDuplicateString](https://msdn.microsoft.com/library/windows/desktop/br224634.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [WindowsGetStringLen](https://msdn.microsoft.com/library/windows/desktop/br224635.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [WindowsGetStringRawBuffer](https://msdn.microsoft.com/library/windows/desktop/br224636.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [WindowsIsStringEmpty](https://msdn.microsoft.com/library/windows/desktop/br224637.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [WindowsPreallocateStringBuffer](https://msdn.microsoft.com/library/windows/desktop/br224638.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [WindowsPromoteStringBuffer](https://msdn.microsoft.com/library/windows/desktop/br224639.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [WindowsReplaceString](https://msdn.microsoft.com/library/windows/desktop/br224640.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [WindowsStringHasEmbeddedNull](https://msdn.microsoft.com/library/windows/desktop/br224641.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [WindowsSubstring](https://msdn.microsoft.com/library/windows/desktop/br224642.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [WindowsSubstringWithSpecifiedLength](https://msdn.microsoft.com/library/windows/desktop/br224643.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [WindowsTrimStringEnd](https://msdn.microsoft.com/library/windows/desktop/br224644.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
-| [WindowsTrimStringStart](https://msdn.microsoft.com/library/windows/desktop/br224645.aspx) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
+| [HSTRING_UserFree](/windows/win32/api/inspectable/nf-inspectable-hstring_userfree) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
+| [HSTRING_UserFree64](/windows/win32/api/inspectable/nf-inspectable-hstring_userfree64) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. Removed in 10.0.16299. |
+| [HSTRING_UserMarshal](/windows/win32/api/inspectable/nf-inspectable-hstring_usermarshal) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
+| [HSTRING_UserMarshal64](/windows/win32/api/inspectable/nf-inspectable-hstring_usermarshal64) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. Removed in 10.0.16299. |
+| [HSTRING_UserSize](/windows/win32/api/inspectable/nf-inspectable-hstring_usersize) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
+| [HSTRING_UserSize64](/windows/win32/api/inspectable/nf-inspectable-hstring_usersize64) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. Removed in 10.0.16299. |
+| [HSTRING_UserUnmarshal](/windows/win32/api/inspectable/nf-inspectable-hstring_userunmarshal) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
+| [HSTRING_UserUnmarshal64](/windows/win32/api/inspectable/nf-inspectable-hstring_userunmarshal64) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. Removed in 10.0.16299. |
+| [WindowsCompareStringOrdinal](/windows/win32/api/winstring/nf-winstring-windowscomparestringordinal) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
+| [WindowsConcatString](/windows/win32/api/winstring/nf-winstring-windowsconcatstring) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
+| [WindowsCreateString](/windows/win32/api/winstring/nf-winstring-windowscreatestring) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
+| [WindowsCreateStringReference](/windows/win32/api/winstring/nf-winstring-windowscreatestringreference) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
+| [WindowsDeleteString](/windows/win32/api/winstring/nf-winstring-windowsdeletestring) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
+| [WindowsDeleteStringBuffer](/windows/win32/api/winstring/nf-winstring-windowsdeletestringbuffer) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
+| [WindowsDuplicateString](/windows/win32/api/winstring/nf-winstring-windowsduplicatestring) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
+| [WindowsGetStringLen](/windows/win32/api/winstring/nf-winstring-windowsgetstringlen) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
+| [WindowsGetStringRawBuffer](/windows/win32/api/winstring/nf-winstring-windowsgetstringrawbuffer) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
+| [WindowsIsStringEmpty](/windows/win32/api/winstring/nf-winstring-windowsisstringempty) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
+| [WindowsPreallocateStringBuffer](/windows/win32/api/winstring/nf-winstring-windowspreallocatestringbuffer) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
+| [WindowsPromoteStringBuffer](/windows/win32/api/winstring/nf-winstring-windowspromotestringbuffer) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
+| [WindowsReplaceString](/windows/win32/api/winstring/nf-winstring-windowsreplacestring) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
+| [WindowsStringHasEmbeddedNull](/windows/win32/api/winstring/nf-winstring-windowsstringhasembeddednull) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
+| [WindowsSubstring](/windows/win32/api/winstring/nf-winstring-windowssubstring) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
+| [WindowsSubstringWithSpecifiedLength](/windows/win32/api/winstring/nf-winstring-windowssubstringwithspecifiedlength) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
+| [WindowsTrimStringEnd](/windows/win32/api/winstring/nf-winstring-windowstrimstringend) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
+| [WindowsTrimStringStart](/windows/win32/api/winstring/nf-winstring-windowstrimstringstart) | Introduced into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.10240. Moved into api-ms-win-core-winrt-string-l1-1-1.dll in 10.0.10586. Moved into api-ms-win-core-winrt-string-l1-1-0.dll in 10.0.14393. |
 
 
 ## APIs from api-ms-win-core-xstate-l2-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetEnabledXStateFeatures](https://msdn.microsoft.com/library/windows/desktop/hh134235.aspx) | Introduced into api-ms-win-core-xstate-l2-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-core-xstate-l2-1-0.dll in 10.0.14393. |
-| [GetXStateFeaturesMask](https://msdn.microsoft.com/library/windows/desktop/hh134236.aspx) | Introduced into api-ms-win-core-xstate-l2-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-core-xstate-l2-1-0.dll in 10.0.14393. |
-| [InitializeContext](https://msdn.microsoft.com/library/windows/desktop/hh134237.aspx) | Introduced into api-ms-win-core-xstate-l2-1-0.dll in 10.0.10240. |
-| [LocateXStateFeature](https://msdn.microsoft.com/library/windows/desktop/hh134238.aspx) | Introduced into api-ms-win-core-xstate-l2-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-core-xstate-l2-1-0.dll in 10.0.14393. |
+| [GetEnabledXStateFeatures](/windows/win32/api/winbase/nf-winbase-getenabledxstatefeatures) | Introduced into api-ms-win-core-xstate-l2-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-core-xstate-l2-1-0.dll in 10.0.14393. |
+| [GetXStateFeaturesMask](/windows/win32/api/winbase/nf-winbase-getxstatefeaturesmask) | Introduced into api-ms-win-core-xstate-l2-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-core-xstate-l2-1-0.dll in 10.0.14393. |
+| [InitializeContext](/windows/win32/api/winbase/nf-winbase-initializecontext) | Introduced into api-ms-win-core-xstate-l2-1-0.dll in 10.0.10240. |
+| [LocateXStateFeature](/windows/win32/api/winbase/nf-winbase-locatexstatefeature) | Introduced into api-ms-win-core-xstate-l2-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-core-xstate-l2-1-0.dll in 10.0.14393. |
 
 
 ## APIs from api-ms-win-eventing-classicprovider-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetTraceEnableFlags](https://msdn.microsoft.com/library/windows/desktop/aa363893.aspx) | Introduced into api-ms-win-eventing-classicprovider-l1-1-0.dll in 10.0.10240. |
-| [GetTraceEnableLevel](https://msdn.microsoft.com/library/windows/desktop/aa363894.aspx) | Introduced into api-ms-win-eventing-classicprovider-l1-1-0.dll in 10.0.10240. |
-| [GetTraceLoggerHandle](https://msdn.microsoft.com/library/windows/desktop/aa363897.aspx) | Introduced into api-ms-win-eventing-classicprovider-l1-1-0.dll in 10.0.10240. |
-| [RegisterTraceGuidsW](https://msdn.microsoft.com/library/windows/desktop/aa364105.aspx) | Introduced into api-ms-win-eventing-classicprovider-l1-1-0.dll in 10.0.10240. |
-| [TraceMessage](https://msdn.microsoft.com/library/windows/desktop/aa364139.aspx) | Introduced into api-ms-win-eventing-classicprovider-l1-1-0.dll in 10.0.10240. |
-| [UnregisterTraceGuids](https://msdn.microsoft.com/library/windows/desktop/aa364154.aspx) | Introduced into api-ms-win-eventing-classicprovider-l1-1-0.dll in 10.0.10240. |
+| [GetTraceEnableFlags](/windows/win32/api/evntrace/nf-evntrace-gettraceenableflags) | Introduced into api-ms-win-eventing-classicprovider-l1-1-0.dll in 10.0.10240. |
+| [GetTraceEnableLevel](/windows/win32/api/evntrace/nf-evntrace-gettraceenablelevel) | Introduced into api-ms-win-eventing-classicprovider-l1-1-0.dll in 10.0.10240. |
+| [GetTraceLoggerHandle](/windows/win32/api/evntrace/nf-evntrace-gettraceloggerhandle) | Introduced into api-ms-win-eventing-classicprovider-l1-1-0.dll in 10.0.10240. |
+| [RegisterTraceGuidsW](/windows/win32/api/evntrace/nf-evntrace-registertraceguidsa) | Introduced into api-ms-win-eventing-classicprovider-l1-1-0.dll in 10.0.10240. |
+| [TraceMessage](/windows/win32/api/evntrace/nf-evntrace-tracemessage) | Introduced into api-ms-win-eventing-classicprovider-l1-1-0.dll in 10.0.10240. |
+| [UnregisterTraceGuids](/windows/win32/api/evntrace/nf-evntrace-unregistertraceguids) | Introduced into api-ms-win-eventing-classicprovider-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-eventing-consumer-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CloseTrace](https://msdn.microsoft.com/library/windows/desktop/aa363686.aspx) | Introduced into api-ms-win-eventing-consumer-l1-1-0.dll in 10.0.10240. |
-| [OpenTraceW](https://msdn.microsoft.com/library/windows/desktop/aa364089.aspx) | Introduced into api-ms-win-eventing-consumer-l1-1-0.dll in 10.0.10240. |
-| [ProcessTrace](https://msdn.microsoft.com/library/windows/desktop/aa364093.aspx) | Introduced into api-ms-win-eventing-consumer-l1-1-0.dll in 10.0.10240. |
+| [CloseTrace](/windows/win32/api/evntrace/nf-evntrace-closetrace) | Introduced into api-ms-win-eventing-consumer-l1-1-0.dll in 10.0.10240. |
+| [OpenTraceW](/windows/win32/api/evntrace/nf-evntrace-opentracea) | Introduced into api-ms-win-eventing-consumer-l1-1-0.dll in 10.0.10240. |
+| [ProcessTrace](/windows/win32/api/evntrace/nf-evntrace-processtrace) | Introduced into api-ms-win-eventing-consumer-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-eventing-controller-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [ControlTraceW](https://msdn.microsoft.com/library/windows/desktop/aa363696.aspx) | Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.10240. |
-| [EnableTraceEx2](https://msdn.microsoft.com/library/windows/desktop/dd392305.aspx) | Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.10240. |
-| [StartTraceW](https://msdn.microsoft.com/library/windows/desktop/aa364117.aspx) | Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.10240. |
-| [StopTraceW](https://msdn.microsoft.com/library/windows/desktop/aa364119.aspx) | Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.10240. |
-| [EnumerateTraceGuidsEx](https://msdn.microsoft.com/library/Aa363714(v=VS.85).aspx) | Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.16299. |
+| [ControlTraceW](/windows/win32/api/evntrace/nf-evntrace-controltracea) | Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.10240. |
+| [EnableTraceEx2](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) | Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.10240. |
+| [StartTraceW](/windows/win32/api/evntrace/nf-evntrace-starttracea) | Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.10240. |
+| [StopTraceW](/windows/win32/api/evntrace/nf-evntrace-stoptrace) | Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.10240. |
+| [EnumerateTraceGuidsEx](/windows/win32/api/evntrace/nf-evntrace-enumeratetraceguidsex) | Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-eventing-legacy-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [EnableTrace](https://msdn.microsoft.com/library/windows/desktop/aa363710.aspx) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.10240. |
-| [EnableTraceEx](https://msdn.microsoft.com/library/windows/desktop/aa363711.aspx) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.10240. |
-| [FlushTraceW](https://msdn.microsoft.com/library/windows/desktop/aa363891.aspx) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.10240. |
-| [QueryTraceW](https://msdn.microsoft.com/library/windows/desktop/aa364103.aspx) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.10240. |
+| [EnableTrace](/windows/win32/api/evntrace/nf-evntrace-enabletrace) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.10240. |
+| [EnableTraceEx](/windows/win32/api/evntrace/nf-evntrace-enabletraceex) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.10240. |
+| [FlushTraceW](/windows/win32/api/evntrace/nf-evntrace-flushtracea) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.10240. |
+| [QueryTraceW](/windows/win32/api/evntrace/nf-evntrace-querytrace) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-eventing-provider-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [EventActivityIdControl](https://msdn.microsoft.com/library/windows/desktop/aa363720.aspx) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.10240. |
-| [EventRegister](https://msdn.microsoft.com/library/windows/desktop/aa363744.aspx) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.10240. |
-| [EventSetInformation](https://msdn.microsoft.com/library/windows/desktop/hh447256.aspx) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.10240. |
-| [EventUnregister](https://msdn.microsoft.com/library/windows/desktop/aa363749.aspx) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.10240. |
-| [EventWrite](https://msdn.microsoft.com/library/windows/desktop/aa363752.aspx) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.10240. |
-| [EventWriteEx](https://msdn.microsoft.com/library/windows/desktop/dd392307.aspx) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.10240. |
-| [EventWriteString](https://msdn.microsoft.com/library/windows/desktop/aa363750.aspx) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.10240. |
-| [EventWriteTransfer](https://msdn.microsoft.com/library/windows/desktop/aa363751.aspx) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.10240. |
-| [EventEnabled](https://msdn.microsoft.com/library/Aa363741(v=VS.85).aspx) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.17763. |
-| [EventProviderEnabled](https://msdn.microsoft.com/library/Aa363742(v=VS.85).aspx) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.17763. |
+| [EventActivityIdControl](/windows/win32/api/evntprov/nf-evntprov-eventactivityidcontrol) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.10240. |
+| [EventRegister](/windows/win32/api/evntprov/nf-evntprov-eventregister) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.10240. |
+| [EventSetInformation](/windows/win32/api/evntprov/nf-evntprov-eventsetinformation) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.10240. |
+| [EventUnregister](/windows/win32/api/evntprov/nf-evntprov-eventunregister) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.10240. |
+| [EventWrite](/windows/win32/api/evntprov/nf-evntprov-eventwrite) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.10240. |
+| [EventWriteEx](/windows/win32/api/evntprov/nf-evntprov-eventwriteex) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.10240. |
+| [EventWriteString](/windows/win32/api/evntprov/nf-evntprov-eventwritestring) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.10240. |
+| [EventWriteTransfer](/windows/win32/api/evntprov/nf-evntprov-eventwritetransfer) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.10240. |
+| [EventEnabled](/windows/win32/api/evntprov/nf-evntprov-eventenabled) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.17763. |
+| [EventProviderEnabled](/windows/win32/api/evntprov/nf-evntprov-eventproviderenabled) | Introduced into api-ms-win-eventing-provider-l1-1-0.dll in 10.0.17763. |
 
 
 ## APIs from api-ms-win-gaming-tcui-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [ProcessPendingGameUI](https://msdn.microsoft.com/library/Mt421171(v=VS.85).aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
-| [ShowChangeFriendRelationshipUI](https://msdn.microsoft.com/library/Mt421172(v=VS.85).aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
-| [ShowGameInviteUI](https://msdn.microsoft.com/library/Mt421173(v=VS.85).aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
-| [ShowPlayerPickerUI](https://msdn.microsoft.com/library/Mt421174(v=VS.85).aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
-| [ShowProfileCardUI](https://msdn.microsoft.com/library/Mt421175(v=VS.85).aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
-| [ShowTitleAchievementsUI](https://msdn.microsoft.com/library/Mt421176(v=VS.85).aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
-| [TryCancelPendingGameUI](https://msdn.microsoft.com/library/Mt421178(v=VS.85).aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
+| [ProcessPendingGameUI](/windows/win32/api/gamingtcui/nf-gamingtcui-processpendinggameui) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
+| [ShowChangeFriendRelationshipUI](/windows/win32/api/gamingtcui/nf-gamingtcui-showchangefriendrelationshipui) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
+| [ShowGameInviteUI](/windows/win32/api/gamingtcui/nf-gamingtcui-showgameinviteui) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
+| [ShowPlayerPickerUI](/windows/win32/api/gamingtcui/nf-gamingtcui-showplayerpickerui) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
+| [ShowProfileCardUI](/windows/win32/api/gamingtcui/nf-gamingtcui-showprofilecardui) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
+| [ShowTitleAchievementsUI](/windows/win32/api/gamingtcui/nf-gamingtcui-showtitleachievementsui) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
+| [TryCancelPendingGameUI](/windows/win32/api/gamingtcui/nf-gamingtcui-trycancelpendinggameui) | Introduced into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.10240. Removed in 10.0.10586. Moved into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-ro-typeresolution-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [RoGetMetaDataFile](https://msdn.microsoft.com/library/windows/desktop/br229856.aspx) | Introduced into api-ms-win-ro-typeresolution-l1-1-0.dll in 10.0.10240. |
-| [RoParseTypeName](https://msdn.microsoft.com/library/windows/desktop/hh438434.aspx) | Introduced into api-ms-win-ro-typeresolution-l1-1-0.dll in 10.0.10240. |
-| [RoResolveNamespace](https://msdn.microsoft.com/library/windows/desktop/br229860.aspx) | Introduced into api-ms-win-ro-typeresolution-l1-1-0.dll in 10.0.10240. |
+| [RoGetMetaDataFile](/windows/win32/api/rometadataresolution/nf-rometadataresolution-rogetmetadatafile) | Introduced into api-ms-win-ro-typeresolution-l1-1-0.dll in 10.0.10240. |
+| [RoParseTypeName](/windows/win32/api/rometadataresolution/nf-rometadataresolution-roparsetypename) | Introduced into api-ms-win-ro-typeresolution-l1-1-0.dll in 10.0.10240. |
+| [RoResolveNamespace](/windows/win32/api/rometadataresolution/nf-rometadataresolution-roresolvenamespace) | Introduced into api-ms-win-ro-typeresolution-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-security-cryptoapi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CryptReleaseContext](https://msdn.microsoft.com/library/windows/desktop/aa380268.aspx) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. |
+| [CryptReleaseContext](/windows/win32/api/wincrypt/nf-wincrypt-cryptreleasecontext) | Introduced into api-ms-win-security-cryptoapi-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-shcore-stream-winrt-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateRandomAccessStreamOnFile](https://msdn.microsoft.com/library/windows/desktop/hh846256.aspx) | Introduced into api-ms-win-shcore-stream-winrt-l1-1-0.dll in 10.0.10240. |
-| [CreateRandomAccessStreamOverStream](https://msdn.microsoft.com/library/windows/desktop/hh846257.aspx) | Introduced into api-ms-win-shcore-stream-winrt-l1-1-0.dll in 10.0.10240. |
-| [CreateStreamOverRandomAccessStream](https://msdn.microsoft.com/library/windows/desktop/hh846258.aspx) | Introduced into api-ms-win-shcore-stream-winrt-l1-1-0.dll in 10.0.10240. |
+| [CreateRandomAccessStreamOnFile](/windows/win32/api/shcore/nf-shcore-createrandomaccessstreamonfile) | Introduced into api-ms-win-shcore-stream-winrt-l1-1-0.dll in 10.0.10240. |
+| [CreateRandomAccessStreamOverStream](/windows/win32/api/shcore/nf-shcore-createrandomaccessstreamoverstream) | Introduced into api-ms-win-shcore-stream-winrt-l1-1-0.dll in 10.0.10240. |
+| [CreateStreamOverRandomAccessStream](/windows/win32/api/shcore/nf-shcore-createstreamoverrandomaccessstream) | Introduced into api-ms-win-shcore-stream-winrt-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from cabinet.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CloseCompressor](https://msdn.microsoft.com/library/windows/desktop/hh437542.aspx) | Introduced into cabinet.dll in 10.0.10240. |
-| [CloseDecompressor](https://msdn.microsoft.com/library/windows/desktop/hh437545.aspx) | Introduced into cabinet.dll in 10.0.10240. |
-| [Compress](https://msdn.microsoft.com/library/windows/desktop/hh437548.aspx) | Introduced into cabinet.dll in 10.0.10240. |
-| [CreateCompressor](https://msdn.microsoft.com/library/windows/desktop/hh437570.aspx) | Introduced into cabinet.dll in 10.0.10240. |
-| [CreateDecompressor](https://msdn.microsoft.com/library/windows/desktop/hh437573.aspx) | Introduced into cabinet.dll in 10.0.10240. |
-| [Decompress](https://msdn.microsoft.com/library/windows/desktop/hh437576.aspx) | Introduced into cabinet.dll in 10.0.10240. |
-| [FDICopy](https://msdn.microsoft.com/library/windows/desktop/bb432270.aspx) | Introduced into cabinet.dll in 10.0.10240. |
-| [FDICreate](https://msdn.microsoft.com/library/windows/desktop/bb432271.aspx) | Introduced into cabinet.dll in 10.0.10240. |
-| [FDIDestroy](https://msdn.microsoft.com/library/windows/desktop/bb432272.aspx) | Introduced into cabinet.dll in 10.0.10240. |
-| [FDIIsCabinet](https://msdn.microsoft.com/library/windows/desktop/bb432273.aspx) | Introduced into cabinet.dll in 10.0.10240. |
-| [QueryCompressorInformation](https://msdn.microsoft.com/library/windows/desktop/hh437578.aspx) | Introduced into cabinet.dll in 10.0.10240. |
-| [QueryDecompressorInformation](https://msdn.microsoft.com/library/windows/desktop/hh437580.aspx) | Introduced into cabinet.dll in 10.0.10240. |
-| [ResetCompressor](https://msdn.microsoft.com/library/windows/desktop/hh437583.aspx) | Introduced into cabinet.dll in 10.0.10240. |
-| [ResetDecompressor](https://msdn.microsoft.com/library/windows/desktop/hh437586.aspx) | Introduced into cabinet.dll in 10.0.10240. |
-| [SetCompressorInformation](https://msdn.microsoft.com/library/windows/desktop/hh437588.aspx) | Introduced into cabinet.dll in 10.0.10240. |
-| [SetDecompressorInformation](https://msdn.microsoft.com/library/windows/desktop/hh437592.aspx) | Introduced into cabinet.dll in 10.0.10240. |
+| [CloseCompressor](/windows/win32/api/compressapi/nf-compressapi-closecompressor) | Introduced into cabinet.dll in 10.0.10240. |
+| [CloseDecompressor](/windows/win32/api/compressapi/nf-compressapi-closedecompressor) | Introduced into cabinet.dll in 10.0.10240. |
+| [Compress](/windows/win32/api/compressapi/nf-compressapi-compress) | Introduced into cabinet.dll in 10.0.10240. |
+| [CreateCompressor](/windows/win32/api/compressapi/nf-compressapi-createcompressor) | Introduced into cabinet.dll in 10.0.10240. |
+| [CreateDecompressor](/windows/win32/api/compressapi/nf-compressapi-createdecompressor) | Introduced into cabinet.dll in 10.0.10240. |
+| [Decompress](/windows/win32/api/compressapi/nf-compressapi-decompress) | Introduced into cabinet.dll in 10.0.10240. |
+| [FDICopy](/windows/win32/api/fdi/nf-fdi-fdicopy) | Introduced into cabinet.dll in 10.0.10240. |
+| [FDICreate](/windows/win32/api/fdi/nf-fdi-fdicreate) | Introduced into cabinet.dll in 10.0.10240. |
+| [FDIDestroy](/windows/win32/api/fdi/nf-fdi-fdidestroy) | Introduced into cabinet.dll in 10.0.10240. |
+| [FDIIsCabinet](/windows/win32/api/fdi/nf-fdi-fdiiscabinet) | Introduced into cabinet.dll in 10.0.10240. |
+| [QueryCompressorInformation](/windows/win32/api/compressapi/nf-compressapi-querycompressorinformation) | Introduced into cabinet.dll in 10.0.10240. |
+| [QueryDecompressorInformation](/windows/win32/api/compressapi/nf-compressapi-querydecompressorinformation) | Introduced into cabinet.dll in 10.0.10240. |
+| [ResetCompressor](/windows/win32/api/compressapi/nf-compressapi-resetcompressor) | Introduced into cabinet.dll in 10.0.10240. |
+| [ResetDecompressor](/windows/win32/api/compressapi/nf-compressapi-resetdecompressor) | Introduced into cabinet.dll in 10.0.10240. |
+| [SetCompressorInformation](/windows/win32/api/compressapi/nf-compressapi-setcompressorinformation) | Introduced into cabinet.dll in 10.0.10240. |
+| [SetDecompressorInformation](/windows/win32/api/compressapi/nf-compressapi-setdecompressorinformation) | Introduced into cabinet.dll in 10.0.10240. |
 
 
 ## APIs from chakra.dll
@@ -1118,161 +1118,161 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [CertAddCertificateContextToStore](https://msdn.microsoft.com/library/windows/desktop/aa376009.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertAddCertificateLinkToStore](https://msdn.microsoft.com/library/windows/desktop/aa376010.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertAddCRLContextToStore](https://msdn.microsoft.com/library/windows/desktop/aa376011.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertAddCRLLinkToStore](https://msdn.microsoft.com/library/windows/desktop/aa376012.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertAddCTLContextToStore](https://msdn.microsoft.com/library/windows/desktop/aa376013.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertAddCTLLinkToStore](https://msdn.microsoft.com/library/windows/desktop/aa376014.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertAddEncodedCertificateToStore](https://msdn.microsoft.com/library/windows/desktop/aa376015.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertAddEncodedCRLToStore](https://msdn.microsoft.com/library/windows/desktop/aa376016.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertAddEncodedCTLToStore](https://msdn.microsoft.com/library/windows/desktop/aa376017.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertAddSerializedElementToStore](https://msdn.microsoft.com/library/windows/desktop/aa376021.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertAddStoreToCollection](https://msdn.microsoft.com/library/windows/desktop/aa376022.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertCloseStore](https://msdn.microsoft.com/library/windows/desktop/aa376026.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertCompareCertificate](https://msdn.microsoft.com/library/windows/desktop/aa376027.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertCompareCertificateName](https://msdn.microsoft.com/library/windows/desktop/aa376028.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertCompareIntegerBlob](https://msdn.microsoft.com/library/windows/desktop/aa376029.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertControlStore](https://msdn.microsoft.com/library/windows/desktop/aa376031.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertCreateCertificateChainEngine](https://msdn.microsoft.com/library/windows/desktop/aa376032.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertCreateCertificateContext](https://msdn.microsoft.com/library/windows/desktop/aa376033.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertCreateContext](https://msdn.microsoft.com/library/windows/desktop/aa376035.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertCreateCRLContext](https://msdn.microsoft.com/library/windows/desktop/aa376036.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertCreateCTLContext](https://msdn.microsoft.com/library/windows/desktop/aa376037.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertCreateSelfSignCertificate](https://msdn.microsoft.com/library/windows/desktop/aa376039.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertDeleteCertificateFromStore](https://msdn.microsoft.com/library/windows/desktop/aa376040.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertDeleteCRLFromStore](https://msdn.microsoft.com/library/windows/desktop/aa376041.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertDeleteCTLFromStore](https://msdn.microsoft.com/library/windows/desktop/aa376042.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertDuplicateCertificateChain](https://msdn.microsoft.com/library/windows/desktop/aa376044.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertDuplicateCertificateContext](https://msdn.microsoft.com/library/windows/desktop/aa376045.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertDuplicateCRLContext](https://msdn.microsoft.com/library/windows/desktop/aa376046.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertDuplicateCTLContext](https://msdn.microsoft.com/library/windows/desktop/aa376047.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertDuplicateStore](https://msdn.microsoft.com/library/windows/desktop/aa376048.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertEnumCertificateContextProperties](https://msdn.microsoft.com/library/windows/desktop/aa376049.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertEnumCertificatesInStore](https://msdn.microsoft.com/library/windows/desktop/aa376050.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertEnumCRLContextProperties](https://msdn.microsoft.com/library/windows/desktop/aa376051.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertEnumCRLsInStore](https://msdn.microsoft.com/library/windows/desktop/aa376052.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertEnumCTLContextProperties](https://msdn.microsoft.com/library/windows/desktop/aa376053.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertEnumCTLsInStore](https://msdn.microsoft.com/library/windows/desktop/aa376054.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertEnumPhysicalStore](https://msdn.microsoft.com/library/windows/desktop/aa376055.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertEnumSystemStore](https://msdn.microsoft.com/library/windows/desktop/aa376058.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertEnumSystemStoreLocation](https://msdn.microsoft.com/library/windows/desktop/aa376060.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertFindAttribute](https://msdn.microsoft.com/library/windows/desktop/aa376062.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertFindCertificateInCRL](https://msdn.microsoft.com/library/windows/desktop/aa376063.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertFindCertificateInStore](https://msdn.microsoft.com/library/windows/desktop/aa376064.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertFindCRLInStore](https://msdn.microsoft.com/library/windows/desktop/aa376066.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertFindCTLInStore](https://msdn.microsoft.com/library/windows/desktop/aa376067.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertFindExtension](https://msdn.microsoft.com/library/windows/desktop/aa376068.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertFindRDNAttr](https://msdn.microsoft.com/library/windows/desktop/aa376069.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertFindSubjectInCTL](https://msdn.microsoft.com/library/windows/desktop/aa376071.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertFreeCertificateChain](https://msdn.microsoft.com/library/windows/desktop/aa376073.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertFreeCertificateChainEngine](https://msdn.microsoft.com/library/windows/desktop/aa376074.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertFreeCertificateChainList](https://msdn.microsoft.com/library/windows/desktop/dd433796.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertFreeCertificateContext](https://msdn.microsoft.com/library/windows/desktop/aa376075.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertFreeCRLContext](https://msdn.microsoft.com/library/windows/desktop/aa376076.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertFreeCTLContext](https://msdn.microsoft.com/library/windows/desktop/aa376077.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertGetCertificateChain](https://msdn.microsoft.com/library/windows/desktop/aa376078.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertGetCertificateContextProperty](https://msdn.microsoft.com/library/windows/desktop/aa376079.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertGetCRLContextProperty](https://msdn.microsoft.com/library/windows/desktop/aa376080.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertGetCRLFromStore](https://msdn.microsoft.com/library/windows/desktop/aa376081.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertGetCTLContextProperty](https://msdn.microsoft.com/library/windows/desktop/aa376082.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertGetEnhancedKeyUsage](https://msdn.microsoft.com/library/windows/desktop/aa376083.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertGetIntendedKeyUsage](https://msdn.microsoft.com/library/windows/desktop/aa376084.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertGetIssuerCertificateFromStore](https://msdn.microsoft.com/library/windows/desktop/aa376085.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertGetNameStringA](https://msdn.microsoft.com/library/windows/desktop/aa376086.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertGetNameStringW](https://msdn.microsoft.com/library/windows/desktop/aa376086.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertGetPublicKeyLength](https://msdn.microsoft.com/library/windows/desktop/aa376087.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertGetStoreProperty](https://msdn.microsoft.com/library/windows/desktop/aa376089.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertGetSubjectCertificateFromStore](https://msdn.microsoft.com/library/windows/desktop/aa376090.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertGetValidUsages](https://msdn.microsoft.com/library/windows/desktop/aa376091.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertIsValidCRLForCertificate](https://msdn.microsoft.com/library/windows/desktop/aa376552.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertNameToStrA](https://msdn.microsoft.com/library/windows/desktop/aa376556.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertNameToStrW](https://msdn.microsoft.com/library/windows/desktop/aa376556.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertOpenStore](https://msdn.microsoft.com/library/windows/desktop/aa376559.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertRDNValueToStrA](https://msdn.microsoft.com/library/windows/desktop/aa376561.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertRDNValueToStrW](https://msdn.microsoft.com/library/windows/desktop/aa376561.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertRemoveStoreFromCollection](https://msdn.microsoft.com/library/windows/desktop/aa376565.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertResyncCertificateChainEngine](https://msdn.microsoft.com/library/windows/desktop/mt270087.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertSaveStore](https://msdn.microsoft.com/library/windows/desktop/aa376567.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertSelectCertificateChains](https://msdn.microsoft.com/library/windows/desktop/dd433797.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertSerializeCertificateStoreElement](https://msdn.microsoft.com/library/windows/desktop/aa376569.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertSerializeCRLStoreElement](https://msdn.microsoft.com/library/windows/desktop/aa376570.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertSerializeCTLStoreElement](https://msdn.microsoft.com/library/windows/desktop/aa376571.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertSetCertificateContextProperty](https://msdn.microsoft.com/library/windows/desktop/aa376573.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertSetCRLContextProperty](https://msdn.microsoft.com/library/windows/desktop/aa376574.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertSetCTLContextProperty](https://msdn.microsoft.com/library/windows/desktop/aa376575.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertSetStoreProperty](https://msdn.microsoft.com/library/windows/desktop/aa376577.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertStrToNameA](https://msdn.microsoft.com/library/Aa377160(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertStrToNameW](https://msdn.microsoft.com/library/Aa377160(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertVerifyCertificateChainPolicy](https://msdn.microsoft.com/library/windows/desktop/aa377163.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertVerifySubjectCertificateContext](https://msdn.microsoft.com/library/windows/desktop/aa377168.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CertVerifyTimeValidity](https://msdn.microsoft.com/library/windows/desktop/aa377169.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptAcquireCertificatePrivateKey](https://msdn.microsoft.com/library/windows/desktop/aa379885.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptDecodeObject](https://msdn.microsoft.com/library/windows/desktop/aa379911.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptDecodeObjectEx](https://msdn.microsoft.com/library/windows/desktop/aa379912.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptEncodeObject](https://msdn.microsoft.com/library/windows/desktop/aa379921.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptEncodeObjectEx](https://msdn.microsoft.com/library/windows/desktop/aa379922.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptEnumOIDFunction](https://msdn.microsoft.com/library/windows/desktop/aa379927.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptEnumOIDInfo](https://msdn.microsoft.com/library/windows/desktop/aa379928.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptFindLocalizedName](https://msdn.microsoft.com/library/windows/desktop/aa379937.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptFindOIDInfo](https://msdn.microsoft.com/library/windows/desktop/aa379938.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptFormatObject](https://msdn.microsoft.com/library/windows/desktop/aa379939.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptFreeOIDFunctionAddress](https://msdn.microsoft.com/library/windows/desktop/aa379940.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptGetDefaultOIDDllList](https://msdn.microsoft.com/library/windows/desktop/aa379943.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptGetDefaultOIDFunctionAddress](https://msdn.microsoft.com/library/windows/desktop/aa379944.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptGetOIDFunctionAddress](https://msdn.microsoft.com/library/windows/desktop/aa380088.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptGetOIDFunctionValue](https://msdn.microsoft.com/library/windows/desktop/aa380187.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptHashPublicKeyInfo](https://msdn.microsoft.com/library/windows/desktop/aa380204.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptInitOIDFunctionSet](https://msdn.microsoft.com/library/windows/desktop/aa380212.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptInstallOIDFunctionAddress](https://msdn.microsoft.com/library/windows/desktop/aa380214.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptMsgCalculateEncodedLength](https://msdn.microsoft.com/library/windows/desktop/aa380218.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptMsgClose](https://msdn.microsoft.com/library/windows/desktop/aa380219.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptMsgControl](https://msdn.microsoft.com/library/windows/desktop/aa380220.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptMsgCountersign](https://msdn.microsoft.com/library/windows/desktop/aa380221.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptMsgCountersignEncoded](https://msdn.microsoft.com/library/windows/desktop/aa380223.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptMsgDuplicate](https://msdn.microsoft.com/library/windows/desktop/aa380224.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptMsgGetAndVerifySigner](https://msdn.microsoft.com/library/windows/desktop/aa380226.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptMsgGetParam](https://msdn.microsoft.com/library/windows/desktop/aa380227.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptMsgOpenToDecode](https://msdn.microsoft.com/library/windows/desktop/aa380228.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptMsgOpenToEncode](https://msdn.microsoft.com/library/windows/desktop/aa380229.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptMsgUpdate](https://msdn.microsoft.com/library/windows/desktop/aa380231.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptMsgVerifyCountersignatureEncoded](https://msdn.microsoft.com/library/windows/desktop/aa380232.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptMsgVerifyCountersignatureEncodedEx](https://msdn.microsoft.com/library/windows/desktop/aa380233.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptProtectData](https://msdn.microsoft.com/library/windows/desktop/aa380261.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptQueryObject](https://msdn.microsoft.com/library/windows/desktop/aa380264.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptRetrieveTimeStamp](https://msdn.microsoft.com/library/windows/desktop/dd433803.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptUnprotectData](https://msdn.microsoft.com/library/windows/desktop/aa380882.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptVerifyTimeStampSignature](https://msdn.microsoft.com/library/windows/desktop/dd433804.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [PFXExportCertStore](https://msdn.microsoft.com/library/windows/desktop/aa387311.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [PFXExportCertStoreEx](https://msdn.microsoft.com/library/windows/desktop/aa387313.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [PFXImportCertStore](https://msdn.microsoft.com/library/windows/desktop/aa387314.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [PFXIsPFXBlob](https://msdn.microsoft.com/library/windows/desktop/aa387316.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [PFXVerifyPassword](https://msdn.microsoft.com/library/windows/desktop/aa387319.aspx) | Introduced into crypt32.dll in 10.0.10240. |
-| [CryptBinaryToStringW](https://msdn.microsoft.com/library/Aa379887(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. |
-| [CryptHashCertificate2](https://msdn.microsoft.com/library/Aa380201(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. |
-| [CryptImportPublicKeyInfoEx2](https://msdn.microsoft.com/library/Aa380211(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. |
-| [CryptProtectMemory](https://msdn.microsoft.com/library/Aa380262(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. |
-| [CryptStringToBinaryA](https://msdn.microsoft.com/library/Aa380285(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. |
-| [CryptUnprotectMemory](https://msdn.microsoft.com/library/Aa380890(v=VS.85).aspx) | Introduced into crypt32.dll in 10.0.16299. |
+| [CertAddCertificateContextToStore](/windows/win32/api/wincrypt/nf-wincrypt-certaddcertificatecontexttostore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertAddCertificateLinkToStore](/windows/win32/api/wincrypt/nf-wincrypt-certaddcertificatelinktostore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertAddCRLContextToStore](/windows/win32/api/wincrypt/nf-wincrypt-certaddcrlcontexttostore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertAddCRLLinkToStore](/windows/win32/api/wincrypt/nf-wincrypt-certaddcrllinktostore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertAddCTLContextToStore](/windows/win32/api/wincrypt/nf-wincrypt-certaddctlcontexttostore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertAddCTLLinkToStore](/windows/win32/api/wincrypt/nf-wincrypt-certaddctllinktostore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertAddEncodedCertificateToStore](/windows/win32/api/wincrypt/nf-wincrypt-certaddencodedcertificatetostore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertAddEncodedCRLToStore](/windows/win32/api/wincrypt/nf-wincrypt-certaddencodedcrltostore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertAddEncodedCTLToStore](/windows/win32/api/wincrypt/nf-wincrypt-certaddencodedctltostore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertAddSerializedElementToStore](/windows/win32/api/wincrypt/nf-wincrypt-certaddserializedelementtostore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertAddStoreToCollection](/windows/win32/api/wincrypt/nf-wincrypt-certaddstoretocollection) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertCloseStore](/windows/win32/api/wincrypt/nf-wincrypt-certclosestore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertCompareCertificate](/windows/win32/api/wincrypt/nf-wincrypt-certcomparecertificate) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertCompareCertificateName](/windows/win32/api/wincrypt/nf-wincrypt-certcomparecertificatename) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertCompareIntegerBlob](/windows/win32/api/wincrypt/nf-wincrypt-certcompareintegerblob) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertControlStore](/windows/win32/api/wincrypt/nf-wincrypt-certcontrolstore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertCreateCertificateChainEngine](/windows/win32/api/wincrypt/nf-wincrypt-certcreatecertificatechainengine) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertCreateCertificateContext](/windows/win32/api/wincrypt/nf-wincrypt-certcreatecertificatecontext) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertCreateContext](/windows/win32/api/wincrypt/nf-wincrypt-certcreatecontext) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertCreateCRLContext](/windows/win32/api/wincrypt/nf-wincrypt-certcreatecrlcontext) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertCreateCTLContext](/windows/win32/api/wincrypt/nf-wincrypt-certcreatectlcontext) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertCreateSelfSignCertificate](/windows/win32/api/wincrypt/nf-wincrypt-certcreateselfsigncertificate) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertDeleteCertificateFromStore](/windows/win32/api/wincrypt/nf-wincrypt-certdeletecertificatefromstore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertDeleteCRLFromStore](/windows/win32/api/wincrypt/nf-wincrypt-certdeletecrlfromstore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertDeleteCTLFromStore](/windows/win32/api/wincrypt/nf-wincrypt-certdeletectlfromstore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertDuplicateCertificateChain](/windows/win32/api/wincrypt/nf-wincrypt-certduplicatecertificatechain) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertDuplicateCertificateContext](/windows/win32/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertDuplicateCRLContext](/windows/win32/api/wincrypt/nf-wincrypt-certduplicatecrlcontext) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertDuplicateCTLContext](/windows/win32/api/wincrypt/nf-wincrypt-certduplicatectlcontext) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertDuplicateStore](/windows/win32/api/wincrypt/nf-wincrypt-certduplicatestore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertEnumCertificateContextProperties](/windows/win32/api/wincrypt/nf-wincrypt-certenumcertificatecontextproperties) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertEnumCertificatesInStore](/windows/win32/api/wincrypt/nf-wincrypt-certenumcertificatesinstore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertEnumCRLContextProperties](/windows/win32/api/wincrypt/nf-wincrypt-certenumcrlcontextproperties) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertEnumCRLsInStore](/windows/win32/api/wincrypt/nf-wincrypt-certenumcrlsinstore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertEnumCTLContextProperties](/windows/win32/api/wincrypt/nf-wincrypt-certenumctlcontextproperties) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertEnumCTLsInStore](/windows/win32/api/wincrypt/nf-wincrypt-certenumctlsinstore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertEnumPhysicalStore](/windows/win32/api/wincrypt/nf-wincrypt-certenumphysicalstore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertEnumSystemStore](/windows/win32/api/wincrypt/nf-wincrypt-certenumsystemstore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertEnumSystemStoreLocation](/windows/win32/api/wincrypt/nf-wincrypt-certenumsystemstorelocation) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertFindAttribute](/windows/win32/api/wincrypt/nf-wincrypt-certfindattribute) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertFindCertificateInCRL](/windows/win32/api/wincrypt/nf-wincrypt-certfindcertificateincrl) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertFindCertificateInStore](/windows/win32/api/wincrypt/nf-wincrypt-certfindcertificateinstore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertFindCRLInStore](/windows/win32/api/wincrypt/nf-wincrypt-certfindcrlinstore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertFindCTLInStore](/windows/win32/api/wincrypt/nf-wincrypt-certfindctlinstore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertFindExtension](/windows/win32/api/wincrypt/nf-wincrypt-certfindextension) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertFindRDNAttr](/windows/win32/api/wincrypt/nf-wincrypt-certfindrdnattr) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertFindSubjectInCTL](/windows/win32/api/wincrypt/nf-wincrypt-certfindsubjectinctl) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertFreeCertificateChain](/windows/win32/api/wincrypt/nf-wincrypt-certfreecertificatechain) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertFreeCertificateChainEngine](/windows/win32/api/wincrypt/nf-wincrypt-certfreecertificatechainengine) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertFreeCertificateChainList](/windows/win32/api/wincrypt/nf-wincrypt-certfreecertificatechainlist) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertFreeCertificateContext](/windows/win32/api/wincrypt/nf-wincrypt-certfreecertificatecontext) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertFreeCRLContext](/windows/win32/api/wincrypt/nf-wincrypt-certfreecrlcontext) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertFreeCTLContext](/windows/win32/api/wincrypt/nf-wincrypt-certfreectlcontext) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertGetCertificateChain](/windows/win32/api/wincrypt/nf-wincrypt-certgetcertificatechain) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertGetCertificateContextProperty](/windows/win32/api/wincrypt/nf-wincrypt-certgetcertificatecontextproperty) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertGetCRLContextProperty](/windows/win32/api/wincrypt/nf-wincrypt-certgetcrlcontextproperty) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertGetCRLFromStore](/windows/win32/api/wincrypt/nf-wincrypt-certgetcrlfromstore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertGetCTLContextProperty](/windows/win32/api/wincrypt/nf-wincrypt-certgetctlcontextproperty) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertGetEnhancedKeyUsage](/windows/win32/api/wincrypt/nf-wincrypt-certgetenhancedkeyusage) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertGetIntendedKeyUsage](/windows/win32/api/wincrypt/nf-wincrypt-certgetintendedkeyusage) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertGetIssuerCertificateFromStore](/windows/win32/api/wincrypt/nf-wincrypt-certgetissuercertificatefromstore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertGetNameStringA](/windows/win32/api/wincrypt/nf-wincrypt-certgetnamestringa) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertGetNameStringW](/windows/win32/api/wincrypt/nf-wincrypt-certgetnamestringa) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertGetPublicKeyLength](/windows/win32/api/wincrypt/nf-wincrypt-certgetpublickeylength) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertGetStoreProperty](/windows/win32/api/wincrypt/nf-wincrypt-certgetstoreproperty) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertGetSubjectCertificateFromStore](/windows/win32/api/wincrypt/nf-wincrypt-certgetsubjectcertificatefromstore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertGetValidUsages](/windows/win32/api/wincrypt/nf-wincrypt-certgetvalidusages) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertIsValidCRLForCertificate](/windows/win32/api/wincrypt/nf-wincrypt-certisvalidcrlforcertificate) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertNameToStrA](/windows/win32/api/wincrypt/nf-wincrypt-certnametostra) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertNameToStrW](/windows/win32/api/wincrypt/nf-wincrypt-certnametostra) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertOpenStore](/windows/win32/api/wincrypt/nf-wincrypt-certopenstore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertRDNValueToStrA](/windows/win32/api/wincrypt/nf-wincrypt-certrdnvaluetostra) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertRDNValueToStrW](/windows/win32/api/wincrypt/nf-wincrypt-certrdnvaluetostra) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertRemoveStoreFromCollection](/windows/win32/api/wincrypt/nf-wincrypt-certremovestorefromcollection) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertResyncCertificateChainEngine](/windows/win32/api/wincrypt/nf-wincrypt-certresynccertificatechainengine) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertSaveStore](/windows/win32/api/wincrypt/nf-wincrypt-certsavestore) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertSelectCertificateChains](/windows/win32/api/wincrypt/nf-wincrypt-certselectcertificatechains) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertSerializeCertificateStoreElement](/windows/win32/api/wincrypt/nf-wincrypt-certserializecertificatestoreelement) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertSerializeCRLStoreElement](/windows/win32/api/wincrypt/nf-wincrypt-certserializecrlstoreelement) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertSerializeCTLStoreElement](/windows/win32/api/wincrypt/nf-wincrypt-certserializectlstoreelement) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertSetCertificateContextProperty](/windows/win32/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertSetCRLContextProperty](/windows/win32/api/wincrypt/nf-wincrypt-certsetcrlcontextproperty) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertSetCTLContextProperty](/windows/win32/api/wincrypt/nf-wincrypt-certsetctlcontextproperty) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertSetStoreProperty](/windows/win32/api/wincrypt/nf-wincrypt-certsetstoreproperty) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertStrToNameA](/windows/win32/api/wincrypt/nf-wincrypt-certstrtonamea) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertStrToNameW](/windows/win32/api/wincrypt/nf-wincrypt-certstrtonamea) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertVerifyCertificateChainPolicy](/windows/win32/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertVerifySubjectCertificateContext](/windows/win32/api/wincrypt/nf-wincrypt-certverifysubjectcertificatecontext) | Introduced into crypt32.dll in 10.0.10240. |
+| [CertVerifyTimeValidity](/windows/win32/api/wincrypt/nf-wincrypt-certverifytimevalidity) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptAcquireCertificatePrivateKey](/windows/win32/api/wincrypt/nf-wincrypt-cryptacquirecertificateprivatekey) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptDecodeObject](/windows/win32/api/wincrypt/nf-wincrypt-cryptdecodeobject) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptDecodeObjectEx](/windows/win32/api/wincrypt/nf-wincrypt-cryptdecodeobjectex) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptEncodeObject](/windows/win32/api/wincrypt/nf-wincrypt-cryptencodeobject) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptEncodeObjectEx](/windows/win32/api/wincrypt/nf-wincrypt-cryptencodeobjectex) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptEnumOIDFunction](/windows/win32/api/wincrypt/nf-wincrypt-cryptenumoidfunction) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptEnumOIDInfo](/windows/win32/api/wincrypt/nf-wincrypt-cryptenumoidinfo) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptFindLocalizedName](/windows/win32/api/wincrypt/nf-wincrypt-cryptfindlocalizedname) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptFindOIDInfo](/windows/win32/api/wincrypt/nf-wincrypt-cryptfindoidinfo) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptFormatObject](/windows/win32/api/wincrypt/nf-wincrypt-cryptformatobject) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptFreeOIDFunctionAddress](/windows/win32/api/wincrypt/nf-wincrypt-cryptfreeoidfunctionaddress) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptGetDefaultOIDDllList](/windows/win32/api/wincrypt/nf-wincrypt-cryptgetdefaultoiddlllist) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptGetDefaultOIDFunctionAddress](/windows/win32/api/wincrypt/nf-wincrypt-cryptgetdefaultoidfunctionaddress) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptGetOIDFunctionAddress](/windows/win32/api/wincrypt/nf-wincrypt-cryptgetoidfunctionaddress) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptGetOIDFunctionValue](/windows/win32/api/wincrypt/nf-wincrypt-cryptgetoidfunctionvalue) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptHashPublicKeyInfo](/windows/win32/api/wincrypt/nf-wincrypt-crypthashpublickeyinfo) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptInitOIDFunctionSet](/windows/win32/api/wincrypt/nf-wincrypt-cryptinitoidfunctionset) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptInstallOIDFunctionAddress](/windows/win32/api/wincrypt/nf-wincrypt-cryptinstalloidfunctionaddress) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptMsgCalculateEncodedLength](/windows/win32/api/wincrypt/nf-wincrypt-cryptmsgcalculateencodedlength) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptMsgClose](/windows/win32/api/wincrypt/nf-wincrypt-cryptmsgclose) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptMsgControl](/windows/win32/api/wincrypt/nf-wincrypt-cryptmsgcontrol) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptMsgCountersign](/windows/win32/api/wincrypt/nf-wincrypt-cryptmsgcountersign) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptMsgCountersignEncoded](/windows/win32/api/wincrypt/nf-wincrypt-cryptmsgcountersignencoded) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptMsgDuplicate](/windows/win32/api/wincrypt/nf-wincrypt-cryptmsgduplicate) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptMsgGetAndVerifySigner](/windows/win32/api/wincrypt/nf-wincrypt-cryptmsggetandverifysigner) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptMsgGetParam](/windows/win32/api/wincrypt/nf-wincrypt-cryptmsggetparam) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptMsgOpenToDecode](/windows/win32/api/wincrypt/nf-wincrypt-cryptmsgopentodecode) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptMsgOpenToEncode](/windows/win32/api/wincrypt/nf-wincrypt-cryptmsgopentoencode) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptMsgUpdate](/windows/win32/api/wincrypt/nf-wincrypt-cryptmsgupdate) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptMsgVerifyCountersignatureEncoded](/windows/win32/api/wincrypt/nf-wincrypt-cryptmsgverifycountersignatureencoded) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptMsgVerifyCountersignatureEncodedEx](/windows/win32/api/wincrypt/nf-wincrypt-cryptmsgverifycountersignatureencodedex) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptProtectData](/windows/win32/api/dpapi/nf-dpapi-cryptprotectdata) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptQueryObject](/windows/win32/api/wincrypt/nf-wincrypt-cryptqueryobject) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptRetrieveTimeStamp](/windows/win32/api/wincrypt/nf-wincrypt-cryptretrievetimestamp) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptUnprotectData](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptVerifyTimeStampSignature](/windows/win32/api/wincrypt/nf-wincrypt-cryptverifytimestampsignature) | Introduced into crypt32.dll in 10.0.10240. |
+| [PFXExportCertStore](/windows/win32/api/wincrypt/nf-wincrypt-pfxexportcertstore) | Introduced into crypt32.dll in 10.0.10240. |
+| [PFXExportCertStoreEx](/windows/win32/api/wincrypt/nf-wincrypt-pfxexportcertstoreex) | Introduced into crypt32.dll in 10.0.10240. |
+| [PFXImportCertStore](/windows/win32/api/wincrypt/nf-wincrypt-pfximportcertstore) | Introduced into crypt32.dll in 10.0.10240. |
+| [PFXIsPFXBlob](/windows/win32/api/wincrypt/nf-wincrypt-pfxispfxblob) | Introduced into crypt32.dll in 10.0.10240. |
+| [PFXVerifyPassword](/windows/win32/api/wincrypt/nf-wincrypt-pfxverifypassword) | Introduced into crypt32.dll in 10.0.10240. |
+| [CryptBinaryToStringW](/windows/win32/api/wincrypt/nf-wincrypt-cryptbinarytostringa) | Introduced into crypt32.dll in 10.0.16299. |
+| [CryptHashCertificate2](/windows/win32/api/wincrypt/nf-wincrypt-crypthashcertificate2) | Introduced into crypt32.dll in 10.0.16299. |
+| [CryptImportPublicKeyInfoEx2](/windows/win32/api/wincrypt/nf-wincrypt-cryptimportpublickeyinfoex2) | Introduced into crypt32.dll in 10.0.16299. |
+| [CryptProtectMemory](/windows/win32/api/dpapi/nf-dpapi-cryptprotectmemory) | Introduced into crypt32.dll in 10.0.16299. |
+| [CryptStringToBinaryA](/windows/win32/api/wincrypt/nf-wincrypt-cryptstringtobinarya) | Introduced into crypt32.dll in 10.0.16299. |
+| [CryptUnprotectMemory](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectmemory) | Introduced into crypt32.dll in 10.0.16299. |
 
 
 ## APIs from d2d1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [D2D1ComputeMaximumScaleFactor](https://msdn.microsoft.com/library/windows/desktop/dn280381.aspx) | Introduced into d2d1.dll in 10.0.10240. |
-| [D2D1ConvertColorSpace](https://msdn.microsoft.com/library/windows/desktop/hh847939.aspx) | Introduced into d2d1.dll in 10.0.10240. |
-| [D2D1CreateDevice](https://msdn.microsoft.com/library/windows/desktop/hh404272.aspx) | Introduced into d2d1.dll in 10.0.10240. |
-| [D2D1CreateDeviceContext](https://msdn.microsoft.com/library/windows/desktop/hh404273.aspx) | Introduced into d2d1.dll in 10.0.10240. |
-| [D2D1CreateFactory](https://msdn.microsoft.com/library/Dd368034(v=VS.85).aspx) | Introduced into d2d1.dll in 10.0.10240. |
-| [D2D1GetGradientMeshInteriorPointsFromCoonsPatch](https://msdn.microsoft.com/library/windows/desktop/mt149083.aspx) | Introduced into d2d1.dll in 10.0.10240. |
-| [D2D1InvertMatrix](https://msdn.microsoft.com/library/windows/desktop/dd368044.aspx) | Introduced into d2d1.dll in 10.0.10240. |
-| [D2D1IsMatrixInvertible](https://msdn.microsoft.com/library/windows/desktop/dd368045.aspx) | Introduced into d2d1.dll in 10.0.10240. |
-| [D2D1MakeRotateMatrix](https://msdn.microsoft.com/library/windows/desktop/dd368049.aspx) | Introduced into d2d1.dll in 10.0.10240. |
-| [D2D1MakeSkewMatrix](https://msdn.microsoft.com/library/windows/desktop/dd368052.aspx) | Introduced into d2d1.dll in 10.0.10240. |
-| [D2D1SinCos](https://msdn.microsoft.com/library/windows/desktop/hh847940.aspx) | Introduced into d2d1.dll in 10.0.10240. |
-| [D2D1Tan](https://msdn.microsoft.com/library/windows/desktop/hh847941.aspx) | Introduced into d2d1.dll in 10.0.10240. |
-| [D2D1Vec3Length](https://msdn.microsoft.com/library/windows/desktop/hh847942.aspx) | Introduced into d2d1.dll in 10.0.10240. |
+| [D2D1ComputeMaximumScaleFactor](/windows/win32/api/d2d1_2/nf-d2d1_2-d2d1computemaximumscalefactor) | Introduced into d2d1.dll in 10.0.10240. |
+| [D2D1ConvertColorSpace](/windows/win32/api/d2d1_1/nf-d2d1_1-d2d1convertcolorspace) | Introduced into d2d1.dll in 10.0.10240. |
+| [D2D1CreateDevice](/windows/win32/api/d2d1_1/nf-d2d1_1-d2d1createdevice) | Introduced into d2d1.dll in 10.0.10240. |
+| [D2D1CreateDeviceContext](/windows/win32/api/d2d1_1/nf-d2d1_1-d2d1createdevicecontext) | Introduced into d2d1.dll in 10.0.10240. |
+| [D2D1CreateFactory](/windows/win32/api/d2d1/nf-d2d1-d2d1createfactory) | Introduced into d2d1.dll in 10.0.10240. |
+| [D2D1GetGradientMeshInteriorPointsFromCoonsPatch](/windows/win32/api/d2d1_3/nf-d2d1_3-d2d1getgradientmeshinteriorpointsfromcoonspatch) | Introduced into d2d1.dll in 10.0.10240. |
+| [D2D1InvertMatrix](/windows/win32/api/d2d1/nf-d2d1-d2d1invertmatrix) | Introduced into d2d1.dll in 10.0.10240. |
+| [D2D1IsMatrixInvertible](/windows/win32/api/d2d1/nf-d2d1-d2d1ismatrixinvertible) | Introduced into d2d1.dll in 10.0.10240. |
+| [D2D1MakeRotateMatrix](/windows/win32/api/d2d1/nf-d2d1-d2d1makerotatematrix) | Introduced into d2d1.dll in 10.0.10240. |
+| [D2D1MakeSkewMatrix](/windows/win32/api/d2d1/nf-d2d1-d2d1makeskewmatrix) | Introduced into d2d1.dll in 10.0.10240. |
+| [D2D1SinCos](/windows/win32/api/d2d1_1/nf-d2d1_1-d2d1sincos) | Introduced into d2d1.dll in 10.0.10240. |
+| [D2D1Tan](/windows/win32/api/d2d1_1/nf-d2d1_1-d2d1tan) | Introduced into d2d1.dll in 10.0.10240. |
+| [D2D1Vec3Length](/windows/win32/api/d2d1_1/nf-d2d1_1-d2d1vec3length) | Introduced into d2d1.dll in 10.0.10240. |
 
 
 ## APIs from d3d11.dll
@@ -1281,176 +1281,176 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | -----| --------------|
 | CreateDirect3D11DeviceFromDXGIDevice | Introduced into d3d11.dll in 10.0.10240. |
 | CreateDirect3D11SurfaceFromDXGISurface | Introduced into d3d11.dll in 10.0.10240. |
-| [D3D11CreateDevice](https://msdn.microsoft.com/library/windows/desktop/ff476082.aspx) | Introduced into d3d11.dll in 10.0.10240. |
-| [D3D11On12CreateDevice](https://msdn.microsoft.com/library/Dn933209(v=VS.85).aspx) | Introduced into d3d11.dll in 10.0.10240. |
+| [D3D11CreateDevice](/windows/win32/api/d3d11/nf-d3d11-d3d11createdevice) | Introduced into d3d11.dll in 10.0.10240. |
+| [D3D11On12CreateDevice](/windows/win32/api/d3d11on12/nf-d3d11on12-d3d11on12createdevice) | Introduced into d3d11.dll in 10.0.10240. |
 
 
 ## APIs from d3d12.dll
 
 | API | Requirements |
 | -----| --------------|
-| [D3D12CreateDevice](https://msdn.microsoft.com/library/Dn770336(v=VS.85).aspx) | Introduced into d3d12.dll in 10.0.10240. |
-| [D3D12CreateRootSignatureDeserializer](https://msdn.microsoft.com/library/Dn859362(v=VS.85).aspx) | Introduced into d3d12.dll in 10.0.10240. |
-| [D3D12SerializeRootSignature](https://msdn.microsoft.com/library/Dn859363(v=VS.85).aspx) | Introduced into d3d12.dll in 10.0.10240. |
-| [D3D12CreateVersionedRootSignatureDeserializer](https://msdn.microsoft.com/library/Mt709109(v=VS.85).aspx) | Introduced into d3d12.dll in 10.0.16299. |
-| [D3D12EnableExperimentalFeatures](https://msdn.microsoft.com/library/Mt492553(v=VS.85).aspx) | Introduced into d3d12.dll in 10.0.16299. |
-| [D3D12SerializeVersionedRootSignature](https://msdn.microsoft.com/library/Mt709110(v=VS.85).aspx) | Introduced into d3d12.dll in 10.0.16299. |
+| [D3D12CreateDevice](/windows/win32/api/d3d12/nf-d3d12-d3d12createdevice) | Introduced into d3d12.dll in 10.0.10240. |
+| [D3D12CreateRootSignatureDeserializer](/windows/win32/api/d3d12/nf-d3d12-d3d12createrootsignaturedeserializer) | Introduced into d3d12.dll in 10.0.10240. |
+| [D3D12SerializeRootSignature](/windows/win32/api/d3d12/nf-d3d12-d3d12serializerootsignature) | Introduced into d3d12.dll in 10.0.10240. |
+| [D3D12CreateVersionedRootSignatureDeserializer](/windows/win32/api/d3d12/nf-d3d12-d3d12createversionedrootsignaturedeserializer) | Introduced into d3d12.dll in 10.0.16299. |
+| [D3D12EnableExperimentalFeatures](/windows/win32/api/d3d12/nf-d3d12-d3d12enableexperimentalfeatures) | Introduced into d3d12.dll in 10.0.16299. |
+| [D3D12SerializeVersionedRootSignature](/windows/win32/api/d3d12/nf-d3d12-d3d12serializeversionedrootsignature) | Introduced into d3d12.dll in 10.0.16299. |
 
 
 ## APIs from d3dcompiler_47.dll
 
 | API | Requirements |
 | -----| --------------|
-| [D3DCompile](https://msdn.microsoft.com/library/windows/desktop/dd607324.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DCompile2](https://msdn.microsoft.com/library/windows/desktop/hh446869.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DCompileFromFile](https://msdn.microsoft.com/library/windows/desktop/hh446872.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DCompressShaders](https://msdn.microsoft.com/library/windows/desktop/ff728671.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DCreateBlob](https://msdn.microsoft.com/library/windows/desktop/ff728672.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DCreateFunctionLinkingGraph](https://msdn.microsoft.com/library/windows/desktop/dn280340.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DCreateLinker](https://msdn.microsoft.com/library/windows/desktop/dn280341.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DDecompressShaders](https://msdn.microsoft.com/library/windows/desktop/ff728673.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DDisassemble](https://msdn.microsoft.com/library/windows/desktop/dd607326.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DDisassemble11Trace](https://msdn.microsoft.com/library/windows/desktop/hh706343.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DDisassembleRegion](https://msdn.microsoft.com/library/windows/desktop/hh706344.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DGetBlobPart](https://msdn.microsoft.com/library/windows/desktop/ff728674.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DGetDebugInfo](https://msdn.microsoft.com/library/windows/desktop/dd607328.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DGetInputAndOutputSignatureBlob](https://msdn.microsoft.com/library/windows/desktop/dd607329.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DGetInputSignatureBlob](https://msdn.microsoft.com/library/windows/desktop/dd607330.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DGetOutputSignatureBlob](https://msdn.microsoft.com/library/windows/desktop/dd607331.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DGetTraceInstructionOffsets](https://msdn.microsoft.com/library/windows/desktop/hh446875.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DLoadModule](https://msdn.microsoft.com/library/windows/desktop/dn280342.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DPreprocess](https://msdn.microsoft.com/library/windows/desktop/dd607332.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DReadFileToBlob](https://msdn.microsoft.com/library/windows/desktop/hh446877.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DReflect](https://msdn.microsoft.com/library/windows/desktop/dd607334.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DReflectLibrary](https://msdn.microsoft.com/library/windows/desktop/dn280343.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DSetBlobPart](https://msdn.microsoft.com/library/windows/desktop/hh446880.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DStripShader](https://msdn.microsoft.com/library/windows/desktop/dd607335.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
-| [D3DWriteBlobToFile](https://msdn.microsoft.com/library/windows/desktop/hh446883.aspx) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DCompile](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcompile) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DCompile2](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcompile2) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DCompileFromFile](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcompilefromfile) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DCompressShaders](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcompressshaders) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DCreateBlob](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcreateblob) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DCreateFunctionLinkingGraph](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcreatefunctionlinkinggraph) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DCreateLinker](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcreatelinker) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DDecompressShaders](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3ddecompressshaders) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DDisassemble](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3ddisassemble) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DDisassemble11Trace](/windows/win32/api/d3d11shadertracing/nf-d3d11shadertracing-d3ddisassemble11trace) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DDisassembleRegion](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3ddisassembleregion) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DGetBlobPart](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetblobpart) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DGetDebugInfo](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetdebuginfo) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DGetInputAndOutputSignatureBlob](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetinputandoutputsignatureblob) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DGetInputSignatureBlob](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetinputsignatureblob) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DGetOutputSignatureBlob](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgetoutputsignatureblob) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DGetTraceInstructionOffsets](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dgettraceinstructionoffsets) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DLoadModule](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dloadmodule) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DPreprocess](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dpreprocess) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DReadFileToBlob](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dreadfiletoblob) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DReflect](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dreflect) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DReflectLibrary](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dreflectlibrary) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DSetBlobPart](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dsetblobpart) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DStripShader](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dstripshader) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
+| [D3DWriteBlobToFile](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dwriteblobtofile) | Introduced into d3dcompiler_47.dll in 10.0.10240. |
 
 
 ## APIs from deviceaccess.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateDeviceAccessInstance](https://msdn.microsoft.com/library/windows/desktop/hh404237.aspx) | Introduced into deviceaccess.dll in 10.0.10240. |
+| [CreateDeviceAccessInstance](/windows/win32/api/deviceaccess/nf-deviceaccess-createdeviceaccessinstance) | Introduced into deviceaccess.dll in 10.0.10240. |
 
 
 ## APIs from dhcpcsvc.dll
 
 | API | Requirements |
 | -----| --------------|
-| [DhcpCApiCleanup](https://msdn.microsoft.com/library/windows/desktop/aa363272.aspx) | Introduced into dhcpcsvc.dll in 10.0.10240. |
-| [DhcpCApiInitialize](https://msdn.microsoft.com/library/windows/desktop/aa363273.aspx) | Introduced into dhcpcsvc.dll in 10.0.10240. |
-| [DhcpRequestParams](https://msdn.microsoft.com/library/windows/desktop/aa363298.aspx) | Introduced into dhcpcsvc.dll in 10.0.10240. |
+| [DhcpCApiCleanup](/windows/win32/api/dhcpcsdk/nf-dhcpcsdk-dhcpcapicleanup) | Introduced into dhcpcsvc.dll in 10.0.10240. |
+| [DhcpCApiInitialize](/windows/win32/api/dhcpcsdk/nf-dhcpcsdk-dhcpcapiinitialize) | Introduced into dhcpcsvc.dll in 10.0.10240. |
+| [DhcpRequestParams](/windows/win32/api/dhcpcsdk/nf-dhcpcsdk-dhcprequestparams) | Introduced into dhcpcsvc.dll in 10.0.10240. |
 
 
 ## APIs from dhcpcsvc6.dll
 
 | API | Requirements |
 | -----| --------------|
-| [Dhcpv6CApiCleanup](https://msdn.microsoft.com/library/windows/desktop/aa363305.aspx) | Introduced into dhcpcsvc6.dll in 10.0.10240. |
-| [Dhcpv6CApiInitialize](https://msdn.microsoft.com/library/windows/desktop/aa363306.aspx) | Introduced into dhcpcsvc6.dll in 10.0.10240. |
-| [Dhcpv6RequestParams](https://msdn.microsoft.com/library/windows/desktop/aa363327.aspx) | Introduced into dhcpcsvc6.dll in 10.0.10240. |
+| [Dhcpv6CApiCleanup](/windows/win32/api/dhcpv6csdk/nf-dhcpv6csdk-dhcpv6capicleanup) | Introduced into dhcpcsvc6.dll in 10.0.10240. |
+| [Dhcpv6CApiInitialize](/windows/win32/api/dhcpv6csdk/nf-dhcpv6csdk-dhcpv6capiinitialize) | Introduced into dhcpcsvc6.dll in 10.0.10240. |
+| [Dhcpv6RequestParams](/windows/win32/api/dhcpv6csdk/nf-dhcpv6csdk-dhcpv6requestparams) | Introduced into dhcpcsvc6.dll in 10.0.10240. |
 
 
 ## APIs from dwrite.dll
 
 | API | Requirements |
 | -----| --------------|
-| [DWriteCreateFactory](https://msdn.microsoft.com/library/windows/desktop/dd368040.aspx) | Introduced into dwrite.dll in 10.0.10240. |
+| [DWriteCreateFactory](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) | Introduced into dwrite.dll in 10.0.10240. |
 
 
 ## APIs from dxgi.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateDXGIFactory1](https://msdn.microsoft.com/library/windows/desktop/ff471318.aspx) | Introduced into dxgi.dll in 10.0.10240. |
-| [CreateDXGIFactory2](https://msdn.microsoft.com/library/windows/desktop/dn268307.aspx) | Introduced into dxgi.dll in 10.0.10240. |
+| [CreateDXGIFactory1](/windows/win32/api/dxgi/nf-dxgi-createdxgifactory1) | Introduced into dxgi.dll in 10.0.10240. |
+| [CreateDXGIFactory2](/windows/win32/api/dxgi1_3/nf-dxgi1_3-createdxgifactory2) | Introduced into dxgi.dll in 10.0.10240. |
 
 
 ## APIs from esent.dll
 
 | API | Requirements |
 | -----| --------------|
-| [JetAddColumnW](https://msdn.microsoft.com/library/windows/desktop/gg294122.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetAttachDatabase2W](https://msdn.microsoft.com/library/windows/desktop/gg269322.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetBackupInstanceW](https://msdn.microsoft.com/library/windows/desktop/gg269318.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetBeginSessionW](https://msdn.microsoft.com/library/windows/desktop/gg294131.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetBeginTransaction3](https://msdn.microsoft.com/library/windows/desktop/jj835043.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetCloseDatabase](https://msdn.microsoft.com/library/windows/desktop/gg294123.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetCloseTable](https://msdn.microsoft.com/library/windows/desktop/gg294087.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetCommitTransaction](https://msdn.microsoft.com/library/windows/desktop/gg269191.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetCommitTransaction2](https://msdn.microsoft.com/library/windows/desktop/jj835041.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetCreateDatabase2W](https://msdn.microsoft.com/library/windows/desktop/gg269208.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetCreateIndex4W](https://msdn.microsoft.com/library/windows/desktop/jj835044.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetCreateInstance2W](https://msdn.microsoft.com/library/windows/desktop/gg269202.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetCreateTableColumnIndex4W](https://msdn.microsoft.com/library/windows/desktop/jj835042.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetDefragment2W](https://msdn.microsoft.com/library/windows/desktop/gg294095.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetDelete](https://msdn.microsoft.com/library/windows/desktop/gg269315.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetDeleteColumn2W](https://msdn.microsoft.com/library/windows/desktop/gg269320.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetDeleteIndexW](https://msdn.microsoft.com/library/windows/desktop/gg294081.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetDeleteTableW](https://msdn.microsoft.com/library/windows/desktop/gg294128.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetDetachDatabase2W](https://msdn.microsoft.com/library/windows/desktop/gg294105.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetEndSession](https://msdn.microsoft.com/library/windows/desktop/gg294054.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetEnumerateColumns](https://msdn.microsoft.com/library/windows/desktop/gg269321.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetEscrowUpdate](https://msdn.microsoft.com/library/windows/desktop/gg294125.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetGetBookmark](https://msdn.microsoft.com/library/windows/desktop/gg269221.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetGetColumnInfoW](https://msdn.microsoft.com/library/windows/desktop/gg269215.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetGetCurrentIndexW](https://msdn.microsoft.com/library/windows/desktop/gg294041.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetGetDatabaseFileInfoW](https://msdn.microsoft.com/library/windows/desktop/gg269239.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetGetDatabaseInfoW](https://msdn.microsoft.com/library/windows/desktop/gg294076.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetGetErrorInfoW](https://msdn.microsoft.com/library/windows/desktop/hh475859.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetGetIndexInfoW](https://msdn.microsoft.com/library/windows/desktop/gg294084.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetGetObjectInfoW](https://msdn.microsoft.com/library/windows/desktop/gg269232.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetGetRecordPosition](https://msdn.microsoft.com/library/windows/desktop/gg269316.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetGetSecondaryIndexBookmark](https://msdn.microsoft.com/library/windows/desktop/gg269285.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetGetSessionParameter](https://msdn.microsoft.com/library/windows/desktop/jj835039.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetGetSystemParameterW](https://msdn.microsoft.com/library/windows/desktop/gg269291.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetGetTableColumnInfoW](https://msdn.microsoft.com/library/windows/desktop/gg294061.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetGetTableIndexInfoW](https://msdn.microsoft.com/library/windows/desktop/gg294102.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetGetTableInfoW](https://msdn.microsoft.com/library/windows/desktop/gg269177.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetGetThreadStats](https://msdn.microsoft.com/library/windows/desktop/gg269196.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetGotoBookmark](https://msdn.microsoft.com/library/windows/desktop/gg294053.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetGotoPosition](https://msdn.microsoft.com/library/windows/desktop/gg269300.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetGotoSecondaryIndexBookmark](https://msdn.microsoft.com/library/windows/desktop/gg269180.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetIndexRecordCount](https://msdn.microsoft.com/library/windows/desktop/gg269267.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetInit3W](https://msdn.microsoft.com/library/windows/desktop/gg269296.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetIntersectIndexes](https://msdn.microsoft.com/library/windows/desktop/gg269289.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetMakeKey](https://msdn.microsoft.com/library/windows/desktop/gg269329.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetMove](https://msdn.microsoft.com/library/windows/desktop/gg294117.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetOpenDatabaseW](https://msdn.microsoft.com/library/windows/desktop/gg269299.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetOpenTableW](https://msdn.microsoft.com/library/windows/desktop/gg294118.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetOpenTemporaryTable2](https://msdn.microsoft.com/library/windows/desktop/gg269302.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetOpenTempTable3](https://msdn.microsoft.com/library/windows/desktop/gg269255.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetPrepareUpdate](https://msdn.microsoft.com/library/windows/desktop/gg269339.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetPrereadIndexRanges](https://msdn.microsoft.com/library/windows/desktop/jj835045.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetPrereadKeys](https://msdn.microsoft.com/library/windows/desktop/gg294143.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetRegisterCallback](https://msdn.microsoft.com/library/windows/desktop/gg269175.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetRenameColumnW](https://msdn.microsoft.com/library/windows/desktop/gg269218.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetRenameTableW](https://msdn.microsoft.com/library/windows/desktop/gg294142.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetResetSessionContext](https://msdn.microsoft.com/library/windows/desktop/gg269250.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetResetTableSequential](https://msdn.microsoft.com/library/windows/desktop/gg269261.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetResizeDatabase](https://msdn.microsoft.com/library/windows/desktop/jj835047.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetRestoreInstanceW](https://msdn.microsoft.com/library/windows/desktop/gg269306.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetRetrieveColumn](https://msdn.microsoft.com/library/windows/desktop/gg269198.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetRetrieveColumns](https://msdn.microsoft.com/library/windows/desktop/gg294135.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetRetrieveKey](https://msdn.microsoft.com/library/windows/desktop/gg294051.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetRollback](https://msdn.microsoft.com/library/windows/desktop/gg269273.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetSeek](https://msdn.microsoft.com/library/windows/desktop/gg294103.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetSetColumn](https://msdn.microsoft.com/library/windows/desktop/gg294137.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetSetColumns](https://msdn.microsoft.com/library/windows/desktop/gg294050.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetSetCurrentIndex4W](https://msdn.microsoft.com/library/windows/desktop/gg269262.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetSetCursorFilter](https://msdn.microsoft.com/library/windows/desktop/jj835040.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetSetIndexRange](https://msdn.microsoft.com/library/windows/desktop/gg294112.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetSetSessionContext](https://msdn.microsoft.com/library/windows/desktop/gg294124.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetSetSessionParameter](https://msdn.microsoft.com/library/windows/desktop/jj835038.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetSetSystemParameterW](https://msdn.microsoft.com/library/windows/desktop/gg294044.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetSetTableSequential](https://msdn.microsoft.com/library/windows/desktop/gg269323.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetStopBackupInstance](https://msdn.microsoft.com/library/windows/desktop/gg269309.aspx) | Introduced into esent.dll in 10.0.10240. |
+| [JetAddColumnW](/windows/win32/extensible-storage-engine/jetaddcolumn-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetAttachDatabase2W](/windows/win32/extensible-storage-engine/jetattachdatabase2-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetBackupInstanceW](/windows/win32/extensible-storage-engine/jetbackupinstance-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetBeginSessionW](/windows/win32/extensible-storage-engine/jetbeginsession-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetBeginTransaction3](/windows/win32/extensible-storage-engine/jetbegintransaction3-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetCloseDatabase](/windows/win32/extensible-storage-engine/jetclosedatabase-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetCloseTable](/windows/win32/extensible-storage-engine/jetclosetable-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetCommitTransaction](/windows/win32/extensible-storage-engine/jetcommittransaction-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetCommitTransaction2](/windows/win32/extensible-storage-engine/jetcommittransaction2-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetCreateDatabase2W](/windows/win32/extensible-storage-engine/jetcreatedatabase2-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetCreateIndex4W](/windows/win32/extensible-storage-engine/jetcreateindex4w-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetCreateInstance2W](/windows/win32/extensible-storage-engine/jetcreateinstance2-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetCreateTableColumnIndex4W](/windows/win32/extensible-storage-engine/jetcreatetablecolumnindex4w-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetDefragment2W](/windows/win32/extensible-storage-engine/jetdefragment2-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetDelete](/windows/win32/extensible-storage-engine/jetdelete-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetDeleteColumn2W](/windows/win32/extensible-storage-engine/jetdeletecolumn2-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetDeleteIndexW](/windows/win32/extensible-storage-engine/jetdeleteindex-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetDeleteTableW](/windows/win32/extensible-storage-engine/jetdeletetable-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetDetachDatabase2W](/windows/win32/extensible-storage-engine/jetdetachdatabase2-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetEndSession](/windows/win32/extensible-storage-engine/jetendsession-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetEnumerateColumns](/windows/win32/extensible-storage-engine/jetenumeratecolumns-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetEscrowUpdate](/windows/win32/extensible-storage-engine/jetescrowupdate-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetGetBookmark](/windows/win32/extensible-storage-engine/jetgetbookmark-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetGetColumnInfoW](/windows/win32/extensible-storage-engine/jetgetcolumninfo-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetGetCurrentIndexW](/windows/win32/extensible-storage-engine/jetgetcurrentindex-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetGetDatabaseFileInfoW](/windows/win32/extensible-storage-engine/jetgetdatabasefileinfo-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetGetDatabaseInfoW](/windows/win32/extensible-storage-engine/jetgetdatabaseinfo-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetGetErrorInfoW](/windows/win32/extensible-storage-engine/jetgeterrorinfow-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetGetIndexInfoW](/windows/win32/extensible-storage-engine/jetgetindexinfo-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetGetObjectInfoW](/windows/win32/extensible-storage-engine/jetgetobjectinfo-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetGetRecordPosition](/windows/win32/extensible-storage-engine/jetgetrecordposition-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetGetSecondaryIndexBookmark](/windows/win32/extensible-storage-engine/jetgetsecondaryindexbookmark-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetGetSessionParameter](/windows/win32/extensible-storage-engine/jetgetsessionparameter-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetGetSystemParameterW](/windows/win32/extensible-storage-engine/jetgetsystemparameter-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetGetTableColumnInfoW](/windows/win32/extensible-storage-engine/jetgettablecolumninfo-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetGetTableIndexInfoW](/windows/win32/extensible-storage-engine/jetgettableindexinfo-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetGetTableInfoW](/windows/win32/extensible-storage-engine/jetgettableinfo-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetGetThreadStats](/windows/win32/extensible-storage-engine/jetgetthreadstats-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetGotoBookmark](/windows/win32/extensible-storage-engine/jetgotobookmark-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetGotoPosition](/windows/win32/extensible-storage-engine/jetgotoposition-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetGotoSecondaryIndexBookmark](/windows/win32/extensible-storage-engine/jetgotosecondaryindexbookmark-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetIndexRecordCount](/windows/win32/extensible-storage-engine/jetindexrecordcount-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetInit3W](/windows/win32/extensible-storage-engine/jetinit3-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetIntersectIndexes](/windows/win32/extensible-storage-engine/jetintersectindexes-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetMakeKey](/windows/win32/extensible-storage-engine/jetmakekey-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetMove](/windows/win32/extensible-storage-engine/jetmove-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetOpenDatabaseW](/windows/win32/extensible-storage-engine/jetopendatabase-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetOpenTableW](/windows/win32/extensible-storage-engine/jetopentable-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetOpenTemporaryTable2](/windows/win32/extensible-storage-engine/jetopentemptable2-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetOpenTempTable3](/windows/win32/extensible-storage-engine/jetopentemptable3-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetPrepareUpdate](/windows/win32/extensible-storage-engine/jetprepareupdate-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetPrereadIndexRanges](/windows/win32/extensible-storage-engine/jetprereadindexranges-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetPrereadKeys](/windows/win32/extensible-storage-engine/jetprereadkeys-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetRegisterCallback](/windows/win32/extensible-storage-engine/jetregistercallback-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetRenameColumnW](/windows/win32/extensible-storage-engine/jetrenamecolumn-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetRenameTableW](/windows/win32/extensible-storage-engine/jetrenametable-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetResetSessionContext](/windows/win32/extensible-storage-engine/jetresetsessioncontext-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetResetTableSequential](/windows/win32/extensible-storage-engine/jetresettablesequential-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetResizeDatabase](/windows/win32/extensible-storage-engine/jetresizedatabase-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetRestoreInstanceW](/windows/win32/extensible-storage-engine/jetrestoreinstance-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetRetrieveColumn](/windows/win32/extensible-storage-engine/jetretrievecolumn-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetRetrieveColumns](/windows/win32/extensible-storage-engine/jetretrievecolumns-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetRetrieveKey](/windows/win32/extensible-storage-engine/jetretrievekey-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetRollback](/windows/win32/extensible-storage-engine/jetrollback-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetSeek](/windows/win32/extensible-storage-engine/jetseek-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetSetColumn](/windows/win32/extensible-storage-engine/jetsetcolumn-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetSetColumns](/windows/win32/extensible-storage-engine/jetsetcolumns-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetSetCurrentIndex4W](/windows/win32/extensible-storage-engine/jetsetcurrentindex4-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetSetCursorFilter](/windows/win32/extensible-storage-engine/jetsetcursorfilter-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetSetIndexRange](/windows/win32/extensible-storage-engine/jetsetindexrange-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetSetSessionContext](/windows/win32/extensible-storage-engine/jetsetsessioncontext-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetSetSessionParameter](/windows/win32/extensible-storage-engine/jetsetsessionparameter-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetSetSystemParameterW](/windows/win32/extensible-storage-engine/jetsetsystemparameter-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetSetTableSequential](/windows/win32/extensible-storage-engine/jetsettablesequential-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetStopBackupInstance](/windows/win32/extensible-storage-engine/jetstopbackupinstance-function) | Introduced into esent.dll in 10.0.10240. |
 | JetStopServiceInstance2 | Introduced into esent.dll in 10.0.10240. |
-| [JetTerm2](https://msdn.microsoft.com/library/windows/desktop/gg269223.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetUnregisterCallback](https://msdn.microsoft.com/library/windows/desktop/gg294116.aspx) | Introduced into esent.dll in 10.0.10240. |
-| [JetUpdate2](https://msdn.microsoft.com/library/windows/desktop/gg269190.aspx) | Introduced into esent.dll in 10.0.10240. |
+| [JetTerm2](/windows/win32/extensible-storage-engine/jetterm2-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetUnregisterCallback](/windows/win32/extensible-storage-engine/jetunregistercallback-function) | Introduced into esent.dll in 10.0.10240. |
+| [JetUpdate2](/windows/win32/extensible-storage-engine/jetupdate2-function) | Introduced into esent.dll in 10.0.10240. |
 | JetAddColumn | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
 | JetAttachDatabase2 | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
 | JetBackupInstance | Introduced into esent.dll in 10.0.16299. Removed in 10.0.17134. |
@@ -1486,109 +1486,109 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [CreateHrtfApo](https://msdn.microsoft.com/library/windows/desktop/mt186596.aspx) | Introduced into hrtfapo.dll in 10.0.10240. |
+| [CreateHrtfApo](/windows/win32/api/hrtfapoapi/nf-hrtfapoapi-createhrtfapo) | Introduced into hrtfapo.dll in 10.0.10240. |
 
 
 ## APIs from mf.dll
 
 | API | Requirements |
 | -----| --------------|
-| [MFCreateAggregateSource](https://msdn.microsoft.com/library/windows/desktop/dd388085.aspx) | Introduced into mf.dll in 10.0.10240. |
-| [MFCreateProtectedEnvironmentAccess](https://msdn.microsoft.com/library/windows/desktop/hh162758.aspx) | Introduced into mf.dll in 10.0.10240. |
-| [MFGetLocalId](https://msdn.microsoft.com/library/windows/desktop/jj128335.aspx) | Introduced into mf.dll in 10.0.10240. |
-| [MFGetService](https://msdn.microsoft.com/library/windows/desktop/ms694284.aspx) | Introduced into mf.dll in 10.0.10240. |
-| [MFGetSystemId](https://msdn.microsoft.com/library/windows/desktop/hh162767.aspx) | Introduced into mf.dll in 10.0.10240. |
-| [MFLoadSignedLibrary](https://msdn.microsoft.com/library/windows/desktop/hh162769.aspx) | Introduced into mf.dll in 10.0.10240. |
-| [MFCreateASFContentInfo](https://msdn.microsoft.com/library/Bb970315(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
-| [MFCreateASFIndexer](https://msdn.microsoft.com/library/ms704561(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
-| [MFCreateASFIndexerByteStream](https://msdn.microsoft.com/library/Bb970563(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
-| [MFCreateASFSplitter](https://msdn.microsoft.com/library/Bb970321(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
-| [MFCreateAudioRendererActivate](https://msdn.microsoft.com/library/ms702998(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
-| [MFCreatePMPMediaSession](https://msdn.microsoft.com/library/ms703144(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
-| [MFCreatePresentationClock](https://msdn.microsoft.com/library/ms702174(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
-| [MFCreateTopology](https://msdn.microsoft.com/library/ms701584(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
-| [MFCreateTopologyNode](https://msdn.microsoft.com/library/ms697574(v=VS.85).aspx) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreateAggregateSource](/windows/win32/api/mfidl/nf-mfidl-mfcreateaggregatesource) | Introduced into mf.dll in 10.0.10240. |
+| [MFCreateProtectedEnvironmentAccess](/windows/win32/api/mfidl/nf-mfidl-mfcreateprotectedenvironmentaccess) | Introduced into mf.dll in 10.0.10240. |
+| [MFGetLocalId](/windows/win32/api/mfidl/nf-mfidl-mfgetlocalid) | Introduced into mf.dll in 10.0.10240. |
+| [MFGetService](/windows/win32/api/mfidl/nf-mfidl-mfgetservice) | Introduced into mf.dll in 10.0.10240. |
+| [MFGetSystemId](/windows/win32/api/mfidl/nf-mfidl-mfgetsystemid) | Introduced into mf.dll in 10.0.10240. |
+| [MFLoadSignedLibrary](/windows/win32/api/mfidl/nf-mfidl-mfloadsignedlibrary) | Introduced into mf.dll in 10.0.10240. |
+| [MFCreateASFContentInfo](/windows/win32/api/wmcontainer/nf-wmcontainer-mfcreateasfcontentinfo) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreateASFIndexer](/windows/win32/api/wmcontainer/nf-wmcontainer-mfcreateasfindexer) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreateASFIndexerByteStream](/windows/win32/api/wmcontainer/nf-wmcontainer-mfcreateasfindexerbytestream) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreateASFSplitter](/windows/win32/api/wmcontainer/nf-wmcontainer-mfcreateasfsplitter) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreateAudioRendererActivate](/windows/win32/api/mfidl/nf-mfidl-mfcreateaudiorendereractivate) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreatePMPMediaSession](/windows/win32/api/mfidl/nf-mfidl-mfcreatepmpmediasession) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreatePresentationClock](/windows/win32/api/mfidl/nf-mfidl-mfcreatepresentationclock) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreateTopology](/windows/win32/api/mfidl/nf-mfidl-mfcreatetopology) | Introduced into mf.dll in 10.0.16299. |
+| [MFCreateTopologyNode](/windows/win32/api/mfidl/nf-mfidl-mfcreatetopologynode) | Introduced into mf.dll in 10.0.16299. |
 
 
 ## APIs from mfplat.dll
 
 | API | Requirements |
 | -----| --------------|
-| [MFAllocateSerialWorkQueue](https://msdn.microsoft.com/library/windows/desktop/hh162744.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCancelWorkItem](https://msdn.microsoft.com/library/windows/desktop/ms701633.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCopyImage](https://msdn.microsoft.com/library/windows/desktop/bb970554.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreate2DMediaBuffer](https://msdn.microsoft.com/library/windows/desktop/hh162746.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateAlignedMemoryBuffer](https://msdn.microsoft.com/library/windows/desktop/bb970523.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateAsyncResult](https://msdn.microsoft.com/library/windows/desktop/ms698952.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateAttributes](https://msdn.microsoft.com/library/windows/desktop/ms701878.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateCollection](https://msdn.microsoft.com/library/windows/desktop/ms698852.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateContentDecryptorContext](https://msdn.microsoft.com/library/windows/desktop/mt219224.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateContentProtectionDevice](https://msdn.microsoft.com/library/windows/desktop/mt219225.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateDXGIDeviceManager](https://msdn.microsoft.com/library/windows/desktop/hh162750.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateDXGISurfaceBuffer](https://msdn.microsoft.com/library/windows/desktop/hh162751.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateEventQueue](https://msdn.microsoft.com/library/windows/desktop/ms695252.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateMediaBufferFromMediaType](https://msdn.microsoft.com/library/windows/desktop/hh162752.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateMediaBufferWrapper](https://msdn.microsoft.com/library/windows/desktop/aa370450.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateMediaEvent](https://msdn.microsoft.com/library/windows/desktop/ms697521.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateMediaExtensionActivate](https://msdn.microsoft.com/library/windows/desktop/hh162753.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateMediaType](https://msdn.microsoft.com/library/windows/desktop/ms693861.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateMediaTypeFromProperties](https://msdn.microsoft.com/library/windows/desktop/jj247579.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateMemoryBuffer](https://msdn.microsoft.com/library/windows/desktop/ms695212.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateMFByteStreamOnStreamEx](https://msdn.microsoft.com/library/windows/desktop/hh162754.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreatePresentationDescriptor](https://msdn.microsoft.com/library/windows/desktop/ms695404.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreatePropertiesFromMediaType](https://msdn.microsoft.com/library/windows/desktop/jj247580.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateSample](https://msdn.microsoft.com/library/windows/desktop/ms702276.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateSourceResolver](https://msdn.microsoft.com/library/windows/desktop/ms697433.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateStreamDescriptor](https://msdn.microsoft.com/library/windows/desktop/ms698990.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateStreamOnMFByteStreamEx](https://msdn.microsoft.com/library/windows/desktop/hh162760.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateTrackedSample](https://msdn.microsoft.com/library/windows/desktop/hh162761.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateVideoSampleAllocatorEx](https://msdn.microsoft.com/library/windows/desktop/hh162763.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateWaveFormatExFromMFMediaType](https://msdn.microsoft.com/library/windows/desktop/ms702177.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFDeserializeAttributesFromStream](https://msdn.microsoft.com/library/windows/desktop/ms703162.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFGetAttributesAsBlob](https://msdn.microsoft.com/library/windows/desktop/ms694877.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFGetAttributesAsBlobSize](https://msdn.microsoft.com/library/windows/desktop/ms697064.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFGetSystemTime](https://msdn.microsoft.com/library/windows/desktop/ms704625.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFInitAttributesFromBlob](https://msdn.microsoft.com/library/windows/desktop/ms703978.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFInitMediaTypeFromWaveFormatEx](https://msdn.microsoft.com/library/windows/desktop/ms700801.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFInvokeCallback](https://msdn.microsoft.com/library/windows/desktop/ms695400.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFIsContentProtectionDeviceSupported](https://msdn.microsoft.com/library/windows/desktop/mt219226.aspx) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFAllocateSerialWorkQueue](/windows/win32/api/mfapi/nf-mfapi-mfallocateserialworkqueue) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCancelWorkItem](/windows/win32/api/mfapi/nf-mfapi-mfcancelworkitem) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCopyImage](/windows/win32/api/mfapi/nf-mfapi-mfcopyimage) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreate2DMediaBuffer](/windows/win32/api/mfapi/nf-mfapi-mfcreate2dmediabuffer) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateAlignedMemoryBuffer](/windows/win32/api/mfapi/nf-mfapi-mfcreatealignedmemorybuffer) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateAsyncResult](/windows/win32/api/mfapi/nf-mfapi-mfcreateasyncresult) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateAttributes](/windows/win32/api/mfapi/nf-mfapi-mfcreateattributes) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateCollection](/windows/win32/api/mfapi/nf-mfapi-mfcreatecollection) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateContentDecryptorContext](/windows/win32/api/mfidl/nf-mfidl-mfcreatecontentdecryptorcontext) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateContentProtectionDevice](/windows/win32/api/mfidl/nf-mfidl-mfcreatecontentprotectiondevice) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateDXGIDeviceManager](/windows/win32/api/mfapi/nf-mfapi-mfcreatedxgidevicemanager) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateDXGISurfaceBuffer](/windows/win32/api/mfapi/nf-mfapi-mfcreatedxgisurfacebuffer) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateEventQueue](/windows/win32/api/mfapi/nf-mfapi-mfcreateeventqueue) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateMediaBufferFromMediaType](/windows/win32/api/mfapi/nf-mfapi-mfcreatemediabufferfrommediatype) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateMediaBufferWrapper](/windows/win32/api/mfapi/nf-mfapi-mfcreatemediabufferwrapper) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateMediaEvent](/windows/win32/api/mfapi/nf-mfapi-mfcreatemediaevent) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateMediaExtensionActivate](/windows/win32/api/mfapi/nf-mfapi-mfcreatemediaextensionactivate) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateMediaType](/windows/win32/api/mfapi/nf-mfapi-mfcreatemediatype) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateMediaTypeFromProperties](/windows/win32/api/mfidl/nf-mfidl-mfcreatemediatypefromproperties) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateMemoryBuffer](/windows/win32/api/mfapi/nf-mfapi-mfcreatememorybuffer) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateMFByteStreamOnStreamEx](/windows/win32/api/mfidl/nf-mfidl-mfcreatemfbytestreamonstreamex) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreatePresentationDescriptor](/windows/win32/api/mfidl/nf-mfidl-mfcreatepresentationdescriptor) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreatePropertiesFromMediaType](/windows/win32/api/mfidl/nf-mfidl-mfcreatepropertiesfrommediatype) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateSample](/windows/win32/api/mfapi/nf-mfapi-mfcreatesample) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateSourceResolver](/windows/win32/api/mfidl/nf-mfidl-mfcreatesourceresolver) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateStreamDescriptor](/windows/win32/api/mfidl/nf-mfidl-mfcreatestreamdescriptor) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateStreamOnMFByteStreamEx](/windows/win32/api/mfidl/nf-mfidl-mfcreatestreamonmfbytestreamex) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateTrackedSample](/windows/win32/api/mfidl/nf-mfidl-mfcreatetrackedsample) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateVideoSampleAllocatorEx](/windows/win32/api/mfapi/nf-mfapi-mfcreatevideosampleallocatorex) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateWaveFormatExFromMFMediaType](/windows/win32/api/mfapi/nf-mfapi-mfcreatewaveformatexfrommfmediatype) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFDeserializeAttributesFromStream](/windows/win32/api/mfobjects/nf-mfobjects-mfdeserializeattributesfromstream) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFGetAttributesAsBlob](/windows/win32/api/mfapi/nf-mfapi-mfgetattributesasblob) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFGetAttributesAsBlobSize](/windows/win32/api/mfapi/nf-mfapi-mfgetattributesasblobsize) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFGetSystemTime](/windows/win32/api/mfidl/nf-mfidl-mfgetsystemtime) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFInitAttributesFromBlob](/windows/win32/api/mfapi/nf-mfapi-mfinitattributesfromblob) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFInitMediaTypeFromWaveFormatEx](/windows/win32/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFInvokeCallback](/windows/win32/api/mfapi/nf-mfapi-mfinvokecallback) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFIsContentProtectionDeviceSupported](/windows/win32/api/mfidl/nf-mfidl-mfiscontentprotectiondevicesupported) | Introduced into mfplat.dll in 10.0.10240. |
 | [MFllMulDiv](https://msdn.microsoft.com/library/windows/desktop/dd388510.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFLockDXGIDeviceManager](https://msdn.microsoft.com/library/windows/desktop/hh162770.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFLockPlatform](https://msdn.microsoft.com/library/windows/desktop/ms693588.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFLockSharedWorkQueue](https://msdn.microsoft.com/library/windows/desktop/hh162771.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFLockWorkQueue](https://msdn.microsoft.com/library/windows/desktop/aa367740.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFPutWaitingWorkItem](https://msdn.microsoft.com/library/windows/desktop/hh162783.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFPutWorkItem2](https://msdn.microsoft.com/library/windows/desktop/hh162784.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFPutWorkItemEx2](https://msdn.microsoft.com/library/windows/desktop/hh162785.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFSerializeAttributesToStream](https://msdn.microsoft.com/library/windows/desktop/ms702278.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFShutdown](https://msdn.microsoft.com/library/windows/desktop/ms694273.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFStartup](https://msdn.microsoft.com/library/windows/desktop/ms702238.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFUnlockDXGIDeviceManager](https://msdn.microsoft.com/library/windows/desktop/hh162800.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFUnlockPlatform](https://msdn.microsoft.com/library/windows/desktop/ms703879.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFUnlockWorkQueue](https://msdn.microsoft.com/library/windows/desktop/aa372543.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFUnwrapMediaType](https://msdn.microsoft.com/library/windows/desktop/ms696190.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFWrapMediaType](https://msdn.microsoft.com/library/windows/desktop/ms701782.aspx) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFCreateSystemTimeSource](https://msdn.microsoft.com/library/ms705610(v=VS.85).aspx) | Introduced into mfplat.dll in 10.0.16299. |
-| [MFScheduleWorkItemEx](https://msdn.microsoft.com/library/ms702259(v=VS.85).aspx) | Introduced into mfplat.dll in 10.0.16299. |
-| [MFTEnumEx](https://msdn.microsoft.com/library/Dd388652(v=VS.85).aspx) | Introduced into mfplat.dll in 10.0.16299. |
+| [MFLockDXGIDeviceManager](/windows/win32/api/mfapi/nf-mfapi-mflockdxgidevicemanager) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFLockPlatform](/windows/win32/api/mfapi/nf-mfapi-mflockplatform) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFLockSharedWorkQueue](/windows/win32/api/mfapi/nf-mfapi-mflocksharedworkqueue) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFLockWorkQueue](/windows/win32/api/mfapi/nf-mfapi-mflockworkqueue) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFPutWaitingWorkItem](/windows/win32/api/mfapi/nf-mfapi-mfputwaitingworkitem) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFPutWorkItem2](/windows/win32/api/mfapi/nf-mfapi-mfputworkitem2) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFPutWorkItemEx2](/windows/win32/api/mfapi/nf-mfapi-mfputworkitemex2) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFSerializeAttributesToStream](/windows/win32/api/mfobjects/nf-mfobjects-mfserializeattributestostream) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFShutdown](/windows/win32/api/mfapi/nf-mfapi-mfshutdown) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFStartup](/windows/win32/api/mfapi/nf-mfapi-mfstartup) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFUnlockDXGIDeviceManager](/windows/win32/api/mfapi/nf-mfapi-mfunlockdxgidevicemanager) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFUnlockPlatform](/windows/win32/api/mfapi/nf-mfapi-mfunlockplatform) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFUnlockWorkQueue](/windows/win32/api/mfapi/nf-mfapi-mfunlockworkqueue) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFUnwrapMediaType](/windows/win32/api/mfapi/nf-mfapi-mfunwrapmediatype) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFWrapMediaType](/windows/win32/api/mfapi/nf-mfapi-mfwrapmediatype) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFCreateSystemTimeSource](/windows/win32/api/mfidl/nf-mfidl-mfcreatesystemtimesource) | Introduced into mfplat.dll in 10.0.16299. |
+| [MFScheduleWorkItemEx](/windows/win32/api/mfapi/nf-mfapi-mfscheduleworkitemex) | Introduced into mfplat.dll in 10.0.16299. |
+| [MFTEnumEx](/windows/win32/api/mfapi/nf-mfapi-mftenumex) | Introduced into mfplat.dll in 10.0.16299. |
 
 
 ## APIs from mfreadwrite.dll
 
 | API | Requirements |
 | -----| --------------|
-| [MFCreateSinkWriterFromMediaSink](https://msdn.microsoft.com/library/windows/desktop/dd388103.aspx) | Introduced into mfreadwrite.dll in 10.0.10240. |
-| [MFCreateSinkWriterFromURL](https://msdn.microsoft.com/library/windows/desktop/dd388105.aspx) | Introduced into mfreadwrite.dll in 10.0.10240. |
-| [MFCreateSourceReaderFromByteStream](https://msdn.microsoft.com/library/windows/desktop/dd388106.aspx) | Introduced into mfreadwrite.dll in 10.0.10240. |
-| [MFCreateSourceReaderFromMediaSource](https://msdn.microsoft.com/library/windows/desktop/dd388108.aspx) | Introduced into mfreadwrite.dll in 10.0.10240. |
-| [MFCreateSourceReaderFromURL](https://msdn.microsoft.com/library/windows/desktop/dd388110.aspx) | Introduced into mfreadwrite.dll in 10.0.10240. |
+| [MFCreateSinkWriterFromMediaSink](/windows/win32/api/mfreadwrite/nf-mfreadwrite-mfcreatesinkwriterfrommediasink) | Introduced into mfreadwrite.dll in 10.0.10240. |
+| [MFCreateSinkWriterFromURL](/windows/win32/api/mfreadwrite/nf-mfreadwrite-mfcreatesinkwriterfromurl) | Introduced into mfreadwrite.dll in 10.0.10240. |
+| [MFCreateSourceReaderFromByteStream](/windows/win32/api/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfrombytestream) | Introduced into mfreadwrite.dll in 10.0.10240. |
+| [MFCreateSourceReaderFromMediaSource](/windows/win32/api/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfrommediasource) | Introduced into mfreadwrite.dll in 10.0.10240. |
+| [MFCreateSourceReaderFromURL](/windows/win32/api/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfromurl) | Introduced into mfreadwrite.dll in 10.0.10240. |
 
 
 ## APIs from mmdevapi.dll
 
 | API | Requirements |
 | -----| --------------|
-| [ActivateAudioInterfaceAsync](https://msdn.microsoft.com/library/windows/desktop/jj128298.aspx) | Introduced into mmdevapi.dll in 10.0.10240. |
+| [ActivateAudioInterfaceAsync](/windows/win32/api/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync) | Introduced into mmdevapi.dll in 10.0.10240. |
 
 
 ## APIs from MSAJApi.dll
@@ -2021,13 +2021,13 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | alljoyn_shutdown | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
 | alljoyn_unity_deferred_callbacks_process | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
 | alljoyn_unity_set_deferred_callback_mainthread_only | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [AllJoynCloseBusHandle](https://msdn.microsoft.com/library/Mt270088(v=VS.85).aspx) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [AllJoynConnectToBus](https://msdn.microsoft.com/library/Mt270089(v=VS.85).aspx) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [AllJoynEnumEvents](https://msdn.microsoft.com/library/Mt270090(v=VS.85).aspx) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [AllJoynEventSelect](https://msdn.microsoft.com/library/Mt270091(v=VS.85).aspx) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [AllJoynReceiveFromBus](https://msdn.microsoft.com/library/Mt270092(v=VS.85).aspx) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [AllJoynSendToBus](https://msdn.microsoft.com/library/Mt270093(v=VS.85).aspx) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
-| [QCC_StatusText](https://msdn.microsoft.com/library/Mt186561(v=VS.85).aspx) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| [AllJoynCloseBusHandle](/windows/win32/api/msajtransport/nf-msajtransport-alljoynclosebushandle) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| [AllJoynConnectToBus](/windows/win32/api/msajtransport/nf-msajtransport-alljoynconnecttobus) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| [AllJoynEnumEvents](/windows/win32/api/msajtransport/nf-msajtransport-alljoynenumevents) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| [AllJoynEventSelect](/windows/win32/api/msajtransport/nf-msajtransport-alljoyneventselect) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| [AllJoynReceiveFromBus](/windows/win32/api/msajtransport/nf-msajtransport-alljoynreceivefrombus) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| [AllJoynSendToBus](/windows/win32/api/msajtransport/nf-msajtransport-alljoynsendtobus) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
+| [QCC_StatusText](/previous-versions/windows/desktop/alljoyn/qcc-statustext) | Introduced into MSAJApi.dll in 10.0.10240. Moved into msajapi.dll in 10.0.14393. |
 | alljoyn_autopinger_adddestination | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
 | alljoyn_autopinger_addpinggroup | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
 | alljoyn_autopinger_create | Introduced into MSAJApi.dll in 10.0.10586. Moved into msajapi.dll in 10.0.14393. |
@@ -2050,493 +2050,493 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [_CorDllMain](https://msdn.microsoft.com/library/9yk0t8cf(v=VS.85).aspx) | Introduced into mscoree.dll in 10.0.10240. Removed in 10.0.16299. |
-| [_CorExeMain](https://msdn.microsoft.com/library/xh0859k0(v=VS.85).aspx) | Introduced into mscoree.dll in 10.0.10240. Removed in 10.0.16299. |
-| [MetaDataGetDispenser](https://msdn.microsoft.com/library/windows/desktop/br229853.aspx) | Introduced into mscoree.dll in 10.0.10240. Moved into rometadata.dll in 10.0.10586. |
+| [_CorDllMain](/previous-versions/dotnet/netframework-3.0/9yk0t8cf(v=vs.85)) | Introduced into mscoree.dll in 10.0.10240. Removed in 10.0.16299. |
+| [_CorExeMain](/previous-versions/dotnet/netframework-3.0/xh0859k0(v=vs.85)) | Introduced into mscoree.dll in 10.0.10240. Removed in 10.0.16299. |
+| [MetaDataGetDispenser](/windows/win32/api/rometadata/nf-rometadata-metadatagetdispenser) | Introduced into mscoree.dll in 10.0.10240. Moved into rometadata.dll in 10.0.10586. |
 
 
 ## APIs from mswsock.dll
 
 | API | Requirements |
 | -----| --------------|
-| [AcceptEx](https://msdn.microsoft.com/library/windows/desktop/ms737524.aspx) | Introduced into mswsock.dll in 10.0.10240. |
-| [GetAcceptExSockaddrs](https://msdn.microsoft.com/library/windows/desktop/ms738516.aspx) | Introduced into mswsock.dll in 10.0.10240. |
-| [TransmitFile](https://msdn.microsoft.com/library/windows/desktop/ms740565.aspx) | Introduced into mswsock.dll in 10.0.10240. |
+| [AcceptEx](/windows/win32/api/mswsock/nf-mswsock-acceptex) | Introduced into mswsock.dll in 10.0.10240. |
+| [GetAcceptExSockaddrs](/windows/win32/api/mswsock/nf-mswsock-getacceptexsockaddrs) | Introduced into mswsock.dll in 10.0.10240. |
+| [TransmitFile](/windows/win32/api/mswsock/nf-mswsock-transmitfile) | Introduced into mswsock.dll in 10.0.10240. |
 
 
 ## APIs from ncrypt.dll
 
 | API | Requirements |
 | -----| --------------|
-| [BCryptCloseAlgorithmProvider](https://msdn.microsoft.com/library/windows/desktop/aa375377.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptCreateHash](https://msdn.microsoft.com/library/windows/desktop/aa375383.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptDecrypt](https://msdn.microsoft.com/library/windows/desktop/aa375391.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptDeriveKey](https://msdn.microsoft.com/library/windows/desktop/aa375393.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptDeriveKeyCapi](https://msdn.microsoft.com/library/windows/desktop/dd433794.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptDeriveKeyPBKDF2](https://msdn.microsoft.com/library/windows/desktop/dd433795.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptDestroyHash](https://msdn.microsoft.com/library/windows/desktop/aa375399.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptDestroyKey](https://msdn.microsoft.com/library/windows/desktop/aa375404.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptDestroySecret](https://msdn.microsoft.com/library/windows/desktop/aa375407.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptDuplicateHash](https://msdn.microsoft.com/library/windows/desktop/aa375413.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptDuplicateKey](https://msdn.microsoft.com/library/windows/desktop/aa375419.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptEncrypt](https://msdn.microsoft.com/library/windows/desktop/aa375421.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptEnumAlgorithms](https://msdn.microsoft.com/library/windows/desktop/aa375422.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptEnumProviders](https://msdn.microsoft.com/library/windows/desktop/aa375429.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptExportKey](https://msdn.microsoft.com/library/windows/desktop/aa375434.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptFinalizeKeyPair](https://msdn.microsoft.com/library/windows/desktop/aa375439.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptFinishHash](https://msdn.microsoft.com/library/windows/desktop/aa375443.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptFreeBuffer](https://msdn.microsoft.com/library/windows/desktop/aa375445.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptGenerateKeyPair](https://msdn.microsoft.com/library/windows/desktop/aa375451.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptGenerateSymmetricKey](https://msdn.microsoft.com/library/windows/desktop/aa375453.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptGenRandom](https://msdn.microsoft.com/library/windows/desktop/aa375458.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptGetProperty](https://msdn.microsoft.com/library/windows/desktop/aa375464.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptHash](https://msdn.microsoft.com/library/windows/desktop/mt633798.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptHashData](https://msdn.microsoft.com/library/windows/desktop/aa375468.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptImportKey](https://msdn.microsoft.com/library/windows/desktop/aa375475.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptImportKeyPair](https://msdn.microsoft.com/library/windows/desktop/aa375472.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptKeyDerivation](https://msdn.microsoft.com/library/windows/desktop/hh448506.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptOpenAlgorithmProvider](https://msdn.microsoft.com/library/windows/desktop/aa375479.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptSecretAgreement](https://msdn.microsoft.com/library/windows/desktop/aa375496.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptSetProperty](https://msdn.microsoft.com/library/windows/desktop/aa375504.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptSignHash](https://msdn.microsoft.com/library/windows/desktop/aa375510.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptVerifySignature](https://msdn.microsoft.com/library/windows/desktop/aa375515.aspx) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [NCryptCreateClaim](https://msdn.microsoft.com/library/windows/desktop/mt270085.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
-| [NCryptCreatePersistedKey](https://msdn.microsoft.com/library/windows/desktop/aa376247.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
-| [NCryptDecrypt](https://msdn.microsoft.com/library/windows/desktop/aa376249.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
-| [NCryptDeleteKey](https://msdn.microsoft.com/library/windows/desktop/aa376251.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
-| [NCryptDeriveKey](https://msdn.microsoft.com/library/windows/desktop/aa376252.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
-| [NCryptEncrypt](https://msdn.microsoft.com/library/windows/desktop/aa376255.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
-| [NCryptEnumAlgorithms](https://msdn.microsoft.com/library/windows/desktop/aa376257.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
-| [NCryptEnumKeys](https://msdn.microsoft.com/library/windows/desktop/aa376259.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
-| [NCryptExportKey](https://msdn.microsoft.com/library/windows/desktop/aa376263.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
-| [NCryptFinalizeKey](https://msdn.microsoft.com/library/windows/desktop/aa376265.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
-| [NCryptFreeBuffer](https://msdn.microsoft.com/library/windows/desktop/aa376267.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
-| [NCryptFreeObject](https://msdn.microsoft.com/library/windows/desktop/aa376269.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
-| [NCryptGetProperty](https://msdn.microsoft.com/library/windows/desktop/aa376273.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
-| [NCryptImportKey](https://msdn.microsoft.com/library/windows/desktop/aa376276.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
-| [NCryptIsAlgSupported](https://msdn.microsoft.com/library/windows/desktop/aa376278.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
-| [NCryptKeyDerivation](https://msdn.microsoft.com/library/windows/desktop/hh448516.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
-| [NCryptOpenKey](https://msdn.microsoft.com/library/windows/desktop/aa376284.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
-| [NCryptOpenStorageProvider](https://msdn.microsoft.com/library/windows/desktop/aa376286.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
-| [NCryptSecretAgreement](https://msdn.microsoft.com/library/windows/desktop/aa376289.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
-| [NCryptSetProperty](https://msdn.microsoft.com/library/windows/desktop/aa376292.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
-| [NCryptSignHash](https://msdn.microsoft.com/library/windows/desktop/aa376295.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
-| [NCryptVerifyClaim](https://msdn.microsoft.com/library/windows/desktop/mt270086.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
-| [NCryptVerifySignature](https://msdn.microsoft.com/library/windows/desktop/aa376298.aspx) | Introduced into ncrypt.dll in 10.0.10240. |
+| [BCryptCloseAlgorithmProvider](/windows/win32/api/bcrypt/nf-bcrypt-bcryptclosealgorithmprovider) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptCreateHash](/windows/win32/api/bcrypt/nf-bcrypt-bcryptcreatehash) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptDecrypt](/windows/win32/api/bcrypt/nf-bcrypt-bcryptdecrypt) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptDeriveKey](/windows/win32/api/bcrypt/nf-bcrypt-bcryptderivekey) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptDeriveKeyCapi](/windows/win32/api/bcrypt/nf-bcrypt-bcryptderivekeycapi) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptDeriveKeyPBKDF2](/windows/win32/api/bcrypt/nf-bcrypt-bcryptderivekeypbkdf2) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptDestroyHash](/windows/win32/api/bcrypt/nf-bcrypt-bcryptdestroyhash) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptDestroyKey](/windows/win32/api/bcrypt/nf-bcrypt-bcryptdestroykey) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptDestroySecret](/windows/win32/api/bcrypt/nf-bcrypt-bcryptdestroysecret) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptDuplicateHash](/windows/win32/api/bcrypt/nf-bcrypt-bcryptduplicatehash) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptDuplicateKey](/windows/win32/api/bcrypt/nf-bcrypt-bcryptduplicatekey) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptEncrypt](/windows/win32/api/bcrypt/nf-bcrypt-bcryptencrypt) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptEnumAlgorithms](/windows/win32/api/bcrypt/nf-bcrypt-bcryptenumalgorithms) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptEnumProviders](/windows/win32/api/bcrypt/nf-bcrypt-bcryptenumproviders) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptExportKey](/windows/win32/api/bcrypt/nf-bcrypt-bcryptexportkey) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptFinalizeKeyPair](/windows/win32/api/bcrypt/nf-bcrypt-bcryptfinalizekeypair) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptFinishHash](/windows/win32/api/bcrypt/nf-bcrypt-bcryptfinishhash) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptFreeBuffer](/windows/win32/api/bcrypt/nf-bcrypt-bcryptfreebuffer) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptGenerateKeyPair](/windows/win32/api/bcrypt/nf-bcrypt-bcryptgeneratekeypair) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptGenerateSymmetricKey](/windows/win32/api/bcrypt/nf-bcrypt-bcryptgeneratesymmetrickey) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptGenRandom](/windows/win32/api/bcrypt/nf-bcrypt-bcryptgenrandom) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptGetProperty](/windows/win32/api/bcrypt/nf-bcrypt-bcryptgetproperty) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptHash](/windows/win32/api/bcrypt/nf-bcrypt-bcrypthash) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptHashData](/windows/win32/api/bcrypt/nf-bcrypt-bcrypthashdata) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptImportKey](/windows/win32/api/bcrypt/nf-bcrypt-bcryptimportkey) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptImportKeyPair](/windows/win32/api/bcrypt/nf-bcrypt-bcryptimportkeypair) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptKeyDerivation](/windows/win32/api/bcrypt/nf-bcrypt-bcryptkeyderivation) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptOpenAlgorithmProvider](/windows/win32/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptSecretAgreement](/windows/win32/api/bcrypt/nf-bcrypt-bcryptsecretagreement) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptSetProperty](/windows/win32/api/bcrypt/nf-bcrypt-bcryptsetproperty) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptSignHash](/windows/win32/api/bcrypt/nf-bcrypt-bcryptsignhash) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptVerifySignature](/windows/win32/api/bcrypt/nf-bcrypt-bcryptverifysignature) | Introduced into ncrypt.dll in 10.0.10240. Moved into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [NCryptCreateClaim](/windows/win32/api/ncrypt/nf-ncrypt-ncryptcreateclaim) | Introduced into ncrypt.dll in 10.0.10240. |
+| [NCryptCreatePersistedKey](/windows/win32/api/ncrypt/nf-ncrypt-ncryptcreatepersistedkey) | Introduced into ncrypt.dll in 10.0.10240. |
+| [NCryptDecrypt](/windows/win32/api/ncrypt/nf-ncrypt-ncryptdecrypt) | Introduced into ncrypt.dll in 10.0.10240. |
+| [NCryptDeleteKey](/windows/win32/api/ncrypt/nf-ncrypt-ncryptdeletekey) | Introduced into ncrypt.dll in 10.0.10240. |
+| [NCryptDeriveKey](/windows/win32/api/ncrypt/nf-ncrypt-ncryptderivekey) | Introduced into ncrypt.dll in 10.0.10240. |
+| [NCryptEncrypt](/windows/win32/api/ncrypt/nf-ncrypt-ncryptencrypt) | Introduced into ncrypt.dll in 10.0.10240. |
+| [NCryptEnumAlgorithms](/windows/win32/api/ncrypt/nf-ncrypt-ncryptenumalgorithms) | Introduced into ncrypt.dll in 10.0.10240. |
+| [NCryptEnumKeys](/windows/win32/api/ncrypt/nf-ncrypt-ncryptenumkeys) | Introduced into ncrypt.dll in 10.0.10240. |
+| [NCryptExportKey](/windows/win32/api/ncrypt/nf-ncrypt-ncryptexportkey) | Introduced into ncrypt.dll in 10.0.10240. |
+| [NCryptFinalizeKey](/windows/win32/api/ncrypt/nf-ncrypt-ncryptfinalizekey) | Introduced into ncrypt.dll in 10.0.10240. |
+| [NCryptFreeBuffer](/windows/win32/api/ncrypt/nf-ncrypt-ncryptfreebuffer) | Introduced into ncrypt.dll in 10.0.10240. |
+| [NCryptFreeObject](/windows/win32/api/ncrypt/nf-ncrypt-ncryptfreeobject) | Introduced into ncrypt.dll in 10.0.10240. |
+| [NCryptGetProperty](/windows/win32/api/ncrypt/nf-ncrypt-ncryptgetproperty) | Introduced into ncrypt.dll in 10.0.10240. |
+| [NCryptImportKey](/windows/win32/api/ncrypt/nf-ncrypt-ncryptimportkey) | Introduced into ncrypt.dll in 10.0.10240. |
+| [NCryptIsAlgSupported](/windows/win32/api/ncrypt/nf-ncrypt-ncryptisalgsupported) | Introduced into ncrypt.dll in 10.0.10240. |
+| [NCryptKeyDerivation](/windows/win32/api/ncrypt/nf-ncrypt-ncryptkeyderivation) | Introduced into ncrypt.dll in 10.0.10240. |
+| [NCryptOpenKey](/windows/win32/api/ncrypt/nf-ncrypt-ncryptopenkey) | Introduced into ncrypt.dll in 10.0.10240. |
+| [NCryptOpenStorageProvider](/windows/win32/api/ncrypt/nf-ncrypt-ncryptopenstorageprovider) | Introduced into ncrypt.dll in 10.0.10240. |
+| [NCryptSecretAgreement](/windows/win32/api/ncrypt/nf-ncrypt-ncryptsecretagreement) | Introduced into ncrypt.dll in 10.0.10240. |
+| [NCryptSetProperty](/windows/win32/api/ncrypt/nf-ncrypt-ncryptsetproperty) | Introduced into ncrypt.dll in 10.0.10240. |
+| [NCryptSignHash](/windows/win32/api/ncrypt/nf-ncrypt-ncryptsignhash) | Introduced into ncrypt.dll in 10.0.10240. |
+| [NCryptVerifyClaim](/windows/win32/api/ncrypt/nf-ncrypt-ncryptverifyclaim) | Introduced into ncrypt.dll in 10.0.10240. |
+| [NCryptVerifySignature](/windows/win32/api/ncrypt/nf-ncrypt-ncryptverifysignature) | Introduced into ncrypt.dll in 10.0.10240. |
 
 
 ## APIs from ntdll.dll
 
 | API | Requirements |
 | -----| --------------|
-| [RtlEthernetAddressToStringA](https://msdn.microsoft.com/library/windows/desktop/dn550721.aspx) | Introduced into ntdll.dll in 10.0.10240. |
-| [RtlEthernetAddressToStringW](https://msdn.microsoft.com/library/windows/desktop/dn550721.aspx) | Introduced into ntdll.dll in 10.0.10240. |
-| [RtlEthernetStringToAddressA](https://msdn.microsoft.com/library/windows/desktop/dn550722.aspx) | Introduced into ntdll.dll in 10.0.10240. |
-| [RtlEthernetStringToAddressW](https://msdn.microsoft.com/library/windows/desktop/dn550722.aspx) | Introduced into ntdll.dll in 10.0.10240. |
-| [RtlIpv4AddressToStringA](https://msdn.microsoft.com/library/windows/desktop/aa814456.aspx) | Introduced into ntdll.dll in 10.0.10240. |
-| [RtlIpv4AddressToStringExA](https://msdn.microsoft.com/library/windows/desktop/aa814457.aspx) | Introduced into ntdll.dll in 10.0.10240. |
-| [RtlIpv4AddressToStringExW](https://msdn.microsoft.com/library/windows/desktop/aa814457.aspx) | Introduced into ntdll.dll in 10.0.10240. |
-| [RtlIpv4AddressToStringW](https://msdn.microsoft.com/library/windows/desktop/aa814456.aspx) | Introduced into ntdll.dll in 10.0.10240. |
-| [RtlIpv4StringToAddressA](https://msdn.microsoft.com/library/windows/desktop/aa814458.aspx) | Introduced into ntdll.dll in 10.0.10240. |
-| [RtlIpv4StringToAddressExA](https://msdn.microsoft.com/library/windows/desktop/aa814459.aspx) | Introduced into ntdll.dll in 10.0.10240. |
-| [RtlIpv4StringToAddressExW](https://msdn.microsoft.com/library/windows/desktop/aa814459.aspx) | Introduced into ntdll.dll in 10.0.10240. |
-| [RtlIpv4StringToAddressW](https://msdn.microsoft.com/library/windows/desktop/aa814458.aspx) | Introduced into ntdll.dll in 10.0.10240. |
-| [RtlIpv6AddressToStringA](https://msdn.microsoft.com/library/windows/desktop/aa814460.aspx) | Introduced into ntdll.dll in 10.0.10240. |
-| [RtlIpv6AddressToStringExA](https://msdn.microsoft.com/library/windows/desktop/aa814461.aspx) | Introduced into ntdll.dll in 10.0.10240. |
-| [RtlIpv6AddressToStringExW](https://msdn.microsoft.com/library/windows/desktop/aa814461.aspx) | Introduced into ntdll.dll in 10.0.10240. |
-| [RtlIpv6AddressToStringW](https://msdn.microsoft.com/library/windows/desktop/aa814460.aspx) | Introduced into ntdll.dll in 10.0.10240. |
-| [RtlIpv6StringToAddressA](https://msdn.microsoft.com/library/windows/desktop/aa814462.aspx) | Introduced into ntdll.dll in 10.0.10240. |
-| [RtlIpv6StringToAddressExA](https://msdn.microsoft.com/library/windows/desktop/aa814463.aspx) | Introduced into ntdll.dll in 10.0.10240. |
-| [RtlIpv6StringToAddressExW](https://msdn.microsoft.com/library/windows/desktop/aa814463.aspx) | Introduced into ntdll.dll in 10.0.10240. |
-| [RtlIpv6StringToAddressW](https://msdn.microsoft.com/library/windows/desktop/aa814462.aspx) | Introduced into ntdll.dll in 10.0.10240. |
+| [RtlEthernetAddressToStringA](/windows/win32/api/ip2string/nf-ip2string-rtlethernetaddresstostringa) | Introduced into ntdll.dll in 10.0.10240. |
+| [RtlEthernetAddressToStringW](/windows/win32/api/ip2string/nf-ip2string-rtlethernetaddresstostringa) | Introduced into ntdll.dll in 10.0.10240. |
+| [RtlEthernetStringToAddressA](/windows/win32/api/ip2string/nf-ip2string-rtlethernetstringtoaddressa) | Introduced into ntdll.dll in 10.0.10240. |
+| [RtlEthernetStringToAddressW](/windows/win32/api/ip2string/nf-ip2string-rtlethernetstringtoaddressa) | Introduced into ntdll.dll in 10.0.10240. |
+| [RtlIpv4AddressToStringA](/windows/win32/api/ip2string/nf-ip2string-rtlipv4addresstostringa) | Introduced into ntdll.dll in 10.0.10240. |
+| [RtlIpv4AddressToStringExA](/windows/win32/api/ip2string/nf-ip2string-rtlipv4addresstostringexw) | Introduced into ntdll.dll in 10.0.10240. |
+| [RtlIpv4AddressToStringExW](/windows/win32/api/ip2string/nf-ip2string-rtlipv4addresstostringexw) | Introduced into ntdll.dll in 10.0.10240. |
+| [RtlIpv4AddressToStringW](/windows/win32/api/ip2string/nf-ip2string-rtlipv4addresstostringa) | Introduced into ntdll.dll in 10.0.10240. |
+| [RtlIpv4StringToAddressA](/windows/win32/api/ip2string/nf-ip2string-rtlipv4stringtoaddressa) | Introduced into ntdll.dll in 10.0.10240. |
+| [RtlIpv4StringToAddressExA](/windows/win32/api/ip2string/nf-ip2string-rtlipv4stringtoaddressexw) | Introduced into ntdll.dll in 10.0.10240. |
+| [RtlIpv4StringToAddressExW](/windows/win32/api/ip2string/nf-ip2string-rtlipv4stringtoaddressexw) | Introduced into ntdll.dll in 10.0.10240. |
+| [RtlIpv4StringToAddressW](/windows/win32/api/ip2string/nf-ip2string-rtlipv4stringtoaddressa) | Introduced into ntdll.dll in 10.0.10240. |
+| [RtlIpv6AddressToStringA](/windows/win32/api/ip2string/nf-ip2string-rtlipv6addresstostringa) | Introduced into ntdll.dll in 10.0.10240. |
+| [RtlIpv6AddressToStringExA](/windows/win32/api/ip2string/nf-ip2string-rtlipv6addresstostringexw) | Introduced into ntdll.dll in 10.0.10240. |
+| [RtlIpv6AddressToStringExW](/windows/win32/api/ip2string/nf-ip2string-rtlipv6addresstostringexw) | Introduced into ntdll.dll in 10.0.10240. |
+| [RtlIpv6AddressToStringW](/windows/win32/api/ip2string/nf-ip2string-rtlipv6addresstostringa) | Introduced into ntdll.dll in 10.0.10240. |
+| [RtlIpv6StringToAddressA](/windows/win32/api/ip2string/nf-ip2string-rtlipv6stringtoaddressa) | Introduced into ntdll.dll in 10.0.10240. |
+| [RtlIpv6StringToAddressExA](/windows/win32/api/ip2string/nf-ip2string-rtlipv6stringtoaddressexw) | Introduced into ntdll.dll in 10.0.10240. |
+| [RtlIpv6StringToAddressExW](/windows/win32/api/ip2string/nf-ip2string-rtlipv6stringtoaddressexw) | Introduced into ntdll.dll in 10.0.10240. |
+| [RtlIpv6StringToAddressW](/windows/win32/api/ip2string/nf-ip2string-rtlipv6stringtoaddressa) | Introduced into ntdll.dll in 10.0.10240. |
 
 
 ## APIs from oleaut32.dll
 
 | API | Requirements |
 | -----| --------------|
-| [BSTR_UserFree](https://msdn.microsoft.com/library/windows/desktop/ms644523.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [BSTR_UserFree64](https://msdn.microsoft.com/library/windows/desktop/hh309490.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
-| [BSTR_UserMarshal](https://msdn.microsoft.com/library/windows/desktop/ms644509.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [BSTR_UserMarshal64](https://msdn.microsoft.com/library/windows/desktop/hh309491.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
-| [BSTR_UserSize](https://msdn.microsoft.com/library/windows/desktop/ms644365.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [BSTR_UserSize64](https://msdn.microsoft.com/library/windows/desktop/hh309492.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
-| [BSTR_UserUnmarshal](https://msdn.microsoft.com/library/windows/desktop/ms644522.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [BSTR_UserUnmarshal64](https://msdn.microsoft.com/library/windows/desktop/hh309493.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
-| [DispInvoke](https://msdn.microsoft.com/library/windows/desktop/ms221366.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [LPSAFEARRAY_Marshal](https://msdn.microsoft.com/library/windows/desktop/ms644537.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [LPSAFEARRAY_Size](https://msdn.microsoft.com/library/windows/desktop/ms644517.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [LPSAFEARRAY_Unmarshal](https://msdn.microsoft.com/library/windows/desktop/ms644390.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [LPSAFEARRAY_UserFree](https://msdn.microsoft.com/library/windows/desktop/ms644504.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [LPSAFEARRAY_UserFree64](https://msdn.microsoft.com/library/windows/desktop/hh768285.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
-| [LPSAFEARRAY_UserMarshal](https://msdn.microsoft.com/library/windows/desktop/ms644398.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [LPSAFEARRAY_UserMarshal64](https://msdn.microsoft.com/library/windows/desktop/hh768286.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
-| [LPSAFEARRAY_UserSize](https://msdn.microsoft.com/library/windows/desktop/ms644399.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [LPSAFEARRAY_UserSize64](https://msdn.microsoft.com/library/windows/desktop/hh768287.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
-| [LPSAFEARRAY_UserUnmarshal](https://msdn.microsoft.com/library/windows/desktop/ms644503.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [LPSAFEARRAY_UserUnmarshal64](https://msdn.microsoft.com/library/windows/desktop/hh768288.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
-| [SafeArrayAccessData](https://msdn.microsoft.com/library/windows/desktop/ms221620.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayAllocData](https://msdn.microsoft.com/library/windows/desktop/ms221468.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayAllocDescriptor](https://msdn.microsoft.com/library/windows/desktop/ms221407.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayAllocDescriptorEx](https://msdn.microsoft.com/library/windows/desktop/ms221540.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayCopy](https://msdn.microsoft.com/library/windows/desktop/ms221451.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayCopyData](https://msdn.microsoft.com/library/windows/desktop/ms221174.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayCreate](https://msdn.microsoft.com/library/windows/desktop/ms221234.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayCreateEx](https://msdn.microsoft.com/library/windows/desktop/ms221198.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayCreateVector](https://msdn.microsoft.com/library/windows/desktop/ms221558.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayCreateVectorEx](https://msdn.microsoft.com/library/windows/desktop/ms221093.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayDestroy](https://msdn.microsoft.com/library/windows/desktop/ms221702.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayDestroyData](https://msdn.microsoft.com/library/windows/desktop/ms221418.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayDestroyDescriptor](https://msdn.microsoft.com/library/windows/desktop/ms221681.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayGetDim](https://msdn.microsoft.com/library/windows/desktop/ms221539.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayGetElement](https://msdn.microsoft.com/library/windows/desktop/ms221255.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayGetElemsize](https://msdn.microsoft.com/library/windows/desktop/ms221074.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayGetIID](https://msdn.microsoft.com/library/windows/desktop/ms221428.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayGetLBound](https://msdn.microsoft.com/library/windows/desktop/ms221622.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayGetRecordInfo](https://msdn.microsoft.com/library/windows/desktop/ms221022.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayGetUBound](https://msdn.microsoft.com/library/windows/desktop/ms221584.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayGetVartype](https://msdn.microsoft.com/library/windows/desktop/ms221446.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayLock](https://msdn.microsoft.com/library/windows/desktop/ms221492.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayPtrOfIndex](https://msdn.microsoft.com/library/windows/desktop/ms221452.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayPutElement](https://msdn.microsoft.com/library/windows/desktop/ms221283.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayRedim](https://msdn.microsoft.com/library/windows/desktop/ms221002.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArraySetIID](https://msdn.microsoft.com/library/windows/desktop/ms221347.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArraySetRecordInfo](https://msdn.microsoft.com/library/windows/desktop/ms221287.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayUnaccessData](https://msdn.microsoft.com/library/windows/desktop/ms221203.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SafeArrayUnlock](https://msdn.microsoft.com/library/windows/desktop/ms221246.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SysAllocString](https://msdn.microsoft.com/library/windows/desktop/ms221458.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SysAllocStringByteLen](https://msdn.microsoft.com/library/windows/desktop/ms221637.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SysAllocStringLen](https://msdn.microsoft.com/library/windows/desktop/ms221639.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SysFreeString](https://msdn.microsoft.com/library/windows/desktop/ms221481.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SysReAllocString](https://msdn.microsoft.com/library/windows/desktop/ms220986.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SysReAllocStringLen](https://msdn.microsoft.com/library/windows/desktop/ms221533.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SysStringByteLen](https://msdn.microsoft.com/library/windows/desktop/ms221097.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SysStringLen](https://msdn.microsoft.com/library/windows/desktop/ms221240.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [SystemTimeToVariantTime](https://msdn.microsoft.com/library/windows/desktop/ms221646.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarAbs](https://msdn.microsoft.com/library/windows/desktop/ms221343.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarAdd](https://msdn.microsoft.com/library/windows/desktop/ms221574.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarAnd](https://msdn.microsoft.com/library/windows/desktop/ms221576.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBoolFromCy](https://msdn.microsoft.com/library/windows/desktop/ms221228.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBoolFromDate](https://msdn.microsoft.com/library/windows/desktop/ms221076.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBoolFromDec](https://msdn.microsoft.com/library/windows/desktop/ms221677.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBoolFromDisp](https://msdn.microsoft.com/library/windows/desktop/ms221284.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBoolFromI1](https://msdn.microsoft.com/library/windows/desktop/ms221660.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBoolFromI2](https://msdn.microsoft.com/library/windows/desktop/ms221157.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBoolFromI4](https://msdn.microsoft.com/library/windows/desktop/ms221056.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBoolFromI8](https://msdn.microsoft.com/library/windows/desktop/ms644364.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBoolFromR4](https://msdn.microsoft.com/library/windows/desktop/ms221579.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBoolFromR8](https://msdn.microsoft.com/library/windows/desktop/ms220994.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBoolFromStr](https://msdn.microsoft.com/library/windows/desktop/ms221300.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBoolFromUI1](https://msdn.microsoft.com/library/windows/desktop/ms221202.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBoolFromUI2](https://msdn.microsoft.com/library/windows/desktop/ms221158.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBoolFromUI4](https://msdn.microsoft.com/library/windows/desktop/ms221431.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBoolFromUI8](https://msdn.microsoft.com/library/windows/desktop/ms644380.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBstrCat](https://msdn.microsoft.com/library/windows/desktop/ms221621.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBstrCmp](https://msdn.microsoft.com/library/windows/desktop/ms221038.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBstrFromBool](https://msdn.microsoft.com/library/windows/desktop/ms221338.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBstrFromCy](https://msdn.microsoft.com/library/windows/desktop/ms221218.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBstrFromDate](https://msdn.microsoft.com/library/windows/desktop/ms221699.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBstrFromDec](https://msdn.microsoft.com/library/windows/desktop/ms221304.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBstrFromDisp](https://msdn.microsoft.com/library/windows/desktop/ms221305.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBstrFromI1](https://msdn.microsoft.com/library/windows/desktop/ms221419.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBstrFromI2](https://msdn.microsoft.com/library/windows/desktop/ms221016.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBstrFromI4](https://msdn.microsoft.com/library/windows/desktop/ms221516.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBstrFromI8](https://msdn.microsoft.com/library/windows/desktop/ms644520.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBstrFromR4](https://msdn.microsoft.com/library/windows/desktop/ms221092.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBstrFromR8](https://msdn.microsoft.com/library/windows/desktop/ms221632.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBstrFromUI1](https://msdn.microsoft.com/library/windows/desktop/ms221230.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBstrFromUI2](https://msdn.microsoft.com/library/windows/desktop/ms221693.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBstrFromUI4](https://msdn.microsoft.com/library/windows/desktop/ms221361.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarBstrFromUI8](https://msdn.microsoft.com/library/windows/desktop/ms644394.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCat](https://msdn.microsoft.com/library/windows/desktop/ms221084.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCmp](https://msdn.microsoft.com/library/windows/desktop/ms221006.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyAbs](https://msdn.microsoft.com/library/windows/desktop/ms221356.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyAdd](https://msdn.microsoft.com/library/windows/desktop/ms221636.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyCmp](https://msdn.microsoft.com/library/windows/desktop/ms220995.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyCmpR8](https://msdn.microsoft.com/library/windows/desktop/ms221175.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyFix](https://msdn.microsoft.com/library/windows/desktop/ms221532.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyFromBool](https://msdn.microsoft.com/library/windows/desktop/ms221667.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyFromDate](https://msdn.microsoft.com/library/windows/desktop/ms221216.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyFromDec](https://msdn.microsoft.com/library/windows/desktop/ms221384.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyFromDisp](https://msdn.microsoft.com/library/windows/desktop/ms221045.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyFromI1](https://msdn.microsoft.com/library/windows/desktop/ms221534.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyFromI2](https://msdn.microsoft.com/library/windows/desktop/ms221484.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyFromI4](https://msdn.microsoft.com/library/windows/desktop/ms221280.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyFromI8](https://msdn.microsoft.com/library/windows/desktop/ms644370.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyFromR4](https://msdn.microsoft.com/library/windows/desktop/ms221335.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyFromR8](https://msdn.microsoft.com/library/windows/desktop/ms221572.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyFromStr](https://msdn.microsoft.com/library/windows/desktop/ms221582.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyFromUI1](https://msdn.microsoft.com/library/windows/desktop/ms221671.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyFromUI2](https://msdn.microsoft.com/library/windows/desktop/ms221684.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyFromUI4](https://msdn.microsoft.com/library/windows/desktop/ms221459.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyFromUI8](https://msdn.microsoft.com/library/windows/desktop/ms644391.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyInt](https://msdn.microsoft.com/library/windows/desktop/ms221054.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyMul](https://msdn.microsoft.com/library/windows/desktop/ms221412.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyMulI4](https://msdn.microsoft.com/library/windows/desktop/ms221104.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyMulI8](https://msdn.microsoft.com/library/windows/desktop/ms644381.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyNeg](https://msdn.microsoft.com/library/windows/desktop/ms221514.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCyRound](https://msdn.microsoft.com/library/windows/desktop/ms221546.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarCySub](https://msdn.microsoft.com/library/windows/desktop/ms220982.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDateFromBool](https://msdn.microsoft.com/library/windows/desktop/ms221310.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDateFromCy](https://msdn.microsoft.com/library/windows/desktop/ms221519.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDateFromDec](https://msdn.microsoft.com/library/windows/desktop/ms221122.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDateFromDisp](https://msdn.microsoft.com/library/windows/desktop/ms221271.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDateFromI1](https://msdn.microsoft.com/library/windows/desktop/ms221408.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDateFromI2](https://msdn.microsoft.com/library/windows/desktop/ms221475.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDateFromI4](https://msdn.microsoft.com/library/windows/desktop/ms221380.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDateFromI8](https://msdn.microsoft.com/library/windows/desktop/ms644361.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDateFromR4](https://msdn.microsoft.com/library/windows/desktop/ms221261.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDateFromR8](https://msdn.microsoft.com/library/windows/desktop/ms221441.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDateFromStr](https://msdn.microsoft.com/library/windows/desktop/ms221395.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDateFromUdate](https://msdn.microsoft.com/library/windows/desktop/ms221036.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDateFromUdateEx](https://msdn.microsoft.com/library/windows/desktop/ms221630.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDateFromUI1](https://msdn.microsoft.com/library/windows/desktop/ms221443.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDateFromUI2](https://msdn.microsoft.com/library/windows/desktop/ms221166.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDateFromUI4](https://msdn.microsoft.com/library/windows/desktop/ms221292.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDateFromUI8](https://msdn.microsoft.com/library/windows/desktop/ms644507.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecAbs](https://msdn.microsoft.com/library/windows/desktop/ms221601.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecAdd](https://msdn.microsoft.com/library/windows/desktop/ms221264.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecCmp](https://msdn.microsoft.com/library/windows/desktop/ms221686.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecCmpR8](https://msdn.microsoft.com/library/windows/desktop/ms221512.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecDiv](https://msdn.microsoft.com/library/windows/desktop/ms221344.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecFix](https://msdn.microsoft.com/library/windows/desktop/ms221341.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecFromBool](https://msdn.microsoft.com/library/windows/desktop/ms221530.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecFromCy](https://msdn.microsoft.com/library/windows/desktop/ms221536.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecFromDate](https://msdn.microsoft.com/library/windows/desktop/ms221650.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecFromDisp](https://msdn.microsoft.com/library/windows/desktop/ms221274.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecFromI1](https://msdn.microsoft.com/library/windows/desktop/ms220988.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecFromI2](https://msdn.microsoft.com/library/windows/desktop/ms221511.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecFromI4](https://msdn.microsoft.com/library/windows/desktop/ms221219.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecFromI8](https://msdn.microsoft.com/library/windows/desktop/ms644377.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecFromR4](https://msdn.microsoft.com/library/windows/desktop/ms221517.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecFromR8](https://msdn.microsoft.com/library/windows/desktop/ms221241.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecFromStr](https://msdn.microsoft.com/library/windows/desktop/ms221334.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecFromUI1](https://msdn.microsoft.com/library/windows/desktop/ms221654.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecFromUI2](https://msdn.microsoft.com/library/windows/desktop/ms221154.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecFromUI4](https://msdn.microsoft.com/library/windows/desktop/ms220997.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecFromUI8](https://msdn.microsoft.com/library/windows/desktop/ms644388.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecInt](https://msdn.microsoft.com/library/windows/desktop/ms221189.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecMul](https://msdn.microsoft.com/library/windows/desktop/ms221527.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecNeg](https://msdn.microsoft.com/library/windows/desktop/ms221491.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecRound](https://msdn.microsoft.com/library/windows/desktop/ms221075.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDecSub](https://msdn.microsoft.com/library/windows/desktop/ms221556.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarDiv](https://msdn.microsoft.com/library/windows/desktop/ms221253.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarEqv](https://msdn.microsoft.com/library/windows/desktop/ms221077.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarFix](https://msdn.microsoft.com/library/windows/desktop/ms221664.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarFormat](https://msdn.microsoft.com/library/windows/desktop/ms221128.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarFormatCurrency](https://msdn.microsoft.com/library/windows/desktop/ms221424.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarFormatDateTime](https://msdn.microsoft.com/library/windows/desktop/ms221554.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarFormatFromTokens](https://msdn.microsoft.com/library/windows/desktop/ms221147.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarFormatNumber](https://msdn.microsoft.com/library/windows/desktop/ms221477.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarFormatPercent](https://msdn.microsoft.com/library/windows/desktop/ms221125.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI1FromBool](https://msdn.microsoft.com/library/windows/desktop/ms221049.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI1FromCy](https://msdn.microsoft.com/library/windows/desktop/ms221389.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI1FromDate](https://msdn.microsoft.com/library/windows/desktop/ms221012.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI1FromDec](https://msdn.microsoft.com/library/windows/desktop/ms221094.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI1FromDisp](https://msdn.microsoft.com/library/windows/desktop/ms221373.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI1FromI2](https://msdn.microsoft.com/library/windows/desktop/ms221716.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI1FromI4](https://msdn.microsoft.com/library/windows/desktop/ms221129.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI1FromI8](https://msdn.microsoft.com/library/windows/desktop/ms644518.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI1FromR4](https://msdn.microsoft.com/library/windows/desktop/ms221312.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI1FromR8](https://msdn.microsoft.com/library/windows/desktop/ms221195.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI1FromStr](https://msdn.microsoft.com/library/windows/desktop/ms221201.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI1FromUI1](https://msdn.microsoft.com/library/windows/desktop/ms221208.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI1FromUI2](https://msdn.microsoft.com/library/windows/desktop/ms220998.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI1FromUI4](https://msdn.microsoft.com/library/windows/desktop/ms221560.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI1FromUI8](https://msdn.microsoft.com/library/windows/desktop/ms644383.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI2FromBool](https://msdn.microsoft.com/library/windows/desktop/ms221178.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI2FromCy](https://msdn.microsoft.com/library/windows/desktop/ms221153.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI2FromDate](https://msdn.microsoft.com/library/windows/desktop/ms221642.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI2FromDec](https://msdn.microsoft.com/library/windows/desktop/ms221005.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI2FromDisp](https://msdn.microsoft.com/library/windows/desktop/ms221088.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI2FromI1](https://msdn.microsoft.com/library/windows/desktop/ms221623.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI2FromI4](https://msdn.microsoft.com/library/windows/desktop/ms221668.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI2FromI8](https://msdn.microsoft.com/library/windows/desktop/ms644393.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI2FromR4](https://msdn.microsoft.com/library/windows/desktop/ms220989.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI2FromR8](https://msdn.microsoft.com/library/windows/desktop/ms221429.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI2FromStr](https://msdn.microsoft.com/library/windows/desktop/ms221411.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI2FromUI1](https://msdn.microsoft.com/library/windows/desktop/ms221659.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI2FromUI2](https://msdn.microsoft.com/library/windows/desktop/ms221327.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI2FromUI4](https://msdn.microsoft.com/library/windows/desktop/ms221383.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI2FromUI8](https://msdn.microsoft.com/library/windows/desktop/ms644362.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI4FromBool](https://msdn.microsoft.com/library/windows/desktop/ms221483.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI4FromCy](https://msdn.microsoft.com/library/windows/desktop/ms221707.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI4FromDate](https://msdn.microsoft.com/library/windows/desktop/ms221403.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI4FromDec](https://msdn.microsoft.com/library/windows/desktop/ms220984.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI4FromDisp](https://msdn.microsoft.com/library/windows/desktop/ms221605.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI4FromI1](https://msdn.microsoft.com/library/windows/desktop/ms220991.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI4FromI2](https://msdn.microsoft.com/library/windows/desktop/ms221137.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI4FromI8](https://msdn.microsoft.com/library/windows/desktop/ms644516.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI4FromR4](https://msdn.microsoft.com/library/windows/desktop/ms221066.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI4FromR8](https://msdn.microsoft.com/library/windows/desktop/ms221146.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI4FromStr](https://msdn.microsoft.com/library/windows/desktop/ms221194.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI4FromUI1](https://msdn.microsoft.com/library/windows/desktop/ms221044.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI4FromUI2](https://msdn.microsoft.com/library/windows/desktop/ms221182.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI4FromUI4](https://msdn.microsoft.com/library/windows/desktop/ms221611.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI4FromUI8](https://msdn.microsoft.com/library/windows/desktop/ms644378.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI8FromBool](https://msdn.microsoft.com/library/windows/desktop/ms644385.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI8FromCy](https://msdn.microsoft.com/library/windows/desktop/ms644514.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI8FromDate](https://msdn.microsoft.com/library/windows/desktop/ms644386.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI8FromDec](https://msdn.microsoft.com/library/windows/desktop/ms644389.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI8FromDisp](https://msdn.microsoft.com/library/windows/desktop/ms644506.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI8FromI1](https://msdn.microsoft.com/library/windows/desktop/ms644375.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI8FromI2](https://msdn.microsoft.com/library/windows/desktop/ms644528.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI8FromR4](https://msdn.microsoft.com/library/windows/desktop/ms644384.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI8FromR8](https://msdn.microsoft.com/library/windows/desktop/ms644369.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI8FromStr](https://msdn.microsoft.com/library/windows/desktop/ms644510.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI8FromUI1](https://msdn.microsoft.com/library/windows/desktop/ms644531.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI8FromUI2](https://msdn.microsoft.com/library/windows/desktop/ms644367.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI8FromUI4](https://msdn.microsoft.com/library/windows/desktop/ms644513.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarI8FromUI8](https://msdn.microsoft.com/library/windows/desktop/ms644524.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VARIANT_UserFree](https://msdn.microsoft.com/library/windows/desktop/ms644359.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VARIANT_UserFree64](https://msdn.microsoft.com/library/windows/desktop/hh309497.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
-| [VARIANT_UserMarshal](https://msdn.microsoft.com/library/windows/desktop/ms644368.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VARIANT_UserMarshal64](https://msdn.microsoft.com/library/windows/desktop/hh309498.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
-| [VARIANT_UserSize](https://msdn.microsoft.com/library/windows/desktop/ms644387.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VARIANT_UserSize64](https://msdn.microsoft.com/library/windows/desktop/hh309499.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
-| [VARIANT_UserUnmarshal](https://msdn.microsoft.com/library/windows/desktop/ms644534.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VARIANT_UserUnmarshal64](https://msdn.microsoft.com/library/windows/desktop/hh309500.aspx) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
-| [VariantChangeType](https://msdn.microsoft.com/library/windows/desktop/ms221258.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VariantChangeTypeEx](https://msdn.microsoft.com/library/windows/desktop/ms221634.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VariantClear](https://msdn.microsoft.com/library/windows/desktop/ms221165.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VariantCopy](https://msdn.microsoft.com/library/windows/desktop/ms221697.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VariantCopyInd](https://msdn.microsoft.com/library/windows/desktop/ms221184.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VariantInit](https://msdn.microsoft.com/library/windows/desktop/ms221402.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VariantTimeToSystemTime](https://msdn.microsoft.com/library/windows/desktop/ms221440.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarIdiv](https://msdn.microsoft.com/library/windows/desktop/ms221682.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarImp](https://msdn.microsoft.com/library/windows/desktop/ms221497.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarInt](https://msdn.microsoft.com/library/windows/desktop/ms221460.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarMod](https://msdn.microsoft.com/library/windows/desktop/ms221405.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarMonthName](https://msdn.microsoft.com/library/windows/desktop/ms221299.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarMul](https://msdn.microsoft.com/library/windows/desktop/ms221602.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarNeg](https://msdn.microsoft.com/library/windows/desktop/ms221413.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarNot](https://msdn.microsoft.com/library/windows/desktop/ms221606.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarNumFromParseNum](https://msdn.microsoft.com/library/windows/desktop/ms221357.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarOr](https://msdn.microsoft.com/library/windows/desktop/ms221358.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarParseNumFromStr](https://msdn.microsoft.com/library/windows/desktop/ms221573.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarPow](https://msdn.microsoft.com/library/windows/desktop/ms221303.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR4CmpR8](https://msdn.microsoft.com/library/windows/desktop/ms220981.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR4FromBool](https://msdn.microsoft.com/library/windows/desktop/ms221476.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR4FromCy](https://msdn.microsoft.com/library/windows/desktop/ms221071.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR4FromDate](https://msdn.microsoft.com/library/windows/desktop/ms221266.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR4FromDec](https://msdn.microsoft.com/library/windows/desktop/ms221651.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR4FromDisp](https://msdn.microsoft.com/library/windows/desktop/ms221392.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR4FromI1](https://msdn.microsoft.com/library/windows/desktop/ms221454.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR4FromI2](https://msdn.microsoft.com/library/windows/desktop/ms221055.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR4FromI4](https://msdn.microsoft.com/library/windows/desktop/ms221156.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR4FromI8](https://msdn.microsoft.com/library/windows/desktop/ms644392.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR4FromR8](https://msdn.microsoft.com/library/windows/desktop/ms221273.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR4FromStr](https://msdn.microsoft.com/library/windows/desktop/ms221513.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR4FromUI1](https://msdn.microsoft.com/library/windows/desktop/ms221631.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR4FromUI2](https://msdn.microsoft.com/library/windows/desktop/ms221322.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR4FromUI4](https://msdn.microsoft.com/library/windows/desktop/ms221028.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR4FromUI8](https://msdn.microsoft.com/library/windows/desktop/ms644539.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR8FromBool](https://msdn.microsoft.com/library/windows/desktop/ms221613.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR8FromCy](https://msdn.microsoft.com/library/windows/desktop/ms221239.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR8FromDate](https://msdn.microsoft.com/library/windows/desktop/ms221034.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR8FromDec](https://msdn.microsoft.com/library/windows/desktop/ms221523.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR8FromDisp](https://msdn.microsoft.com/library/windows/desktop/ms221525.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR8FromI1](https://msdn.microsoft.com/library/windows/desktop/ms221462.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR8FromI2](https://msdn.microsoft.com/library/windows/desktop/ms221500.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR8FromI4](https://msdn.microsoft.com/library/windows/desktop/ms221714.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR8FromI8](https://msdn.microsoft.com/library/windows/desktop/ms313882.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR8FromR4](https://msdn.microsoft.com/library/windows/desktop/ms220977.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR8FromStr](https://msdn.microsoft.com/library/windows/desktop/ms221331.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR8FromUI1](https://msdn.microsoft.com/library/windows/desktop/ms221603.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR8FromUI2](https://msdn.microsoft.com/library/windows/desktop/ms221709.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR8FromUI4](https://msdn.microsoft.com/library/windows/desktop/ms221013.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR8FromUI8](https://msdn.microsoft.com/library/windows/desktop/ms644395.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR8Pow](https://msdn.microsoft.com/library/windows/desktop/ms221090.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarR8Round](https://msdn.microsoft.com/library/windows/desktop/ms221501.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarRound](https://msdn.microsoft.com/library/windows/desktop/ms221372.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarSub](https://msdn.microsoft.com/library/windows/desktop/ms221079.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarTokenizeFormatString](https://msdn.microsoft.com/library/windows/desktop/ms221340.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUdateFromDate](https://msdn.microsoft.com/library/windows/desktop/ms221217.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI1FromBool](https://msdn.microsoft.com/library/windows/desktop/ms221095.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI1FromCy](https://msdn.microsoft.com/library/windows/desktop/ms221535.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI1FromDate](https://msdn.microsoft.com/library/windows/desktop/ms221011.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI1FromDec](https://msdn.microsoft.com/library/windows/desktop/ms221406.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI1FromDisp](https://msdn.microsoft.com/library/windows/desktop/ms221151.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI1FromI1](https://msdn.microsoft.com/library/windows/desktop/ms221291.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI1FromI2](https://msdn.microsoft.com/library/windows/desktop/ms221281.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI1FromI4](https://msdn.microsoft.com/library/windows/desktop/ms221024.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI1FromI8](https://msdn.microsoft.com/library/windows/desktop/ms644500.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI1FromR4](https://msdn.microsoft.com/library/windows/desktop/ms221279.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI1FromR8](https://msdn.microsoft.com/library/windows/desktop/ms221051.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI1FromStr](https://msdn.microsoft.com/library/windows/desktop/ms221537.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI1FromUI2](https://msdn.microsoft.com/library/windows/desktop/ms221163.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI1FromUI4](https://msdn.microsoft.com/library/windows/desktop/ms221493.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI1FromUI8](https://msdn.microsoft.com/library/windows/desktop/ms644535.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI2FromBool](https://msdn.microsoft.com/library/windows/desktop/ms221070.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI2FromCy](https://msdn.microsoft.com/library/windows/desktop/ms220979.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI2FromDate](https://msdn.microsoft.com/library/windows/desktop/ms221489.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI2FromDec](https://msdn.microsoft.com/library/windows/desktop/ms221132.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI2FromDisp](https://msdn.microsoft.com/library/windows/desktop/ms221710.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI2FromI1](https://msdn.microsoft.com/library/windows/desktop/ms221638.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI2FromI2](https://msdn.microsoft.com/library/windows/desktop/ms221294.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI2FromI4](https://msdn.microsoft.com/library/windows/desktop/ms221548.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI2FromI8](https://msdn.microsoft.com/library/windows/desktop/ms644502.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI2FromR4](https://msdn.microsoft.com/library/windows/desktop/ms221131.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI2FromR8](https://msdn.microsoft.com/library/windows/desktop/ms221490.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI2FromStr](https://msdn.microsoft.com/library/windows/desktop/ms221635.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI2FromUI1](https://msdn.microsoft.com/library/windows/desktop/ms221043.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI2FromUI4](https://msdn.microsoft.com/library/windows/desktop/ms221205.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI2FromUI8](https://msdn.microsoft.com/library/windows/desktop/ms644526.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI4FromBool](https://msdn.microsoft.com/library/windows/desktop/ms221415.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI4FromCy](https://msdn.microsoft.com/library/windows/desktop/ms221448.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI4FromDate](https://msdn.microsoft.com/library/windows/desktop/ms221362.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI4FromDec](https://msdn.microsoft.com/library/windows/desktop/ms221624.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI4FromDisp](https://msdn.microsoft.com/library/windows/desktop/ms221276.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI4FromI1](https://msdn.microsoft.com/library/windows/desktop/ms221221.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI4FromI2](https://msdn.microsoft.com/library/windows/desktop/ms221562.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI4FromI4](https://msdn.microsoft.com/library/windows/desktop/ms221209.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI4FromI8](https://msdn.microsoft.com/library/windows/desktop/ms644533.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI4FromR4](https://msdn.microsoft.com/library/windows/desktop/ms221518.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI4FromR8](https://msdn.microsoft.com/library/windows/desktop/ms221073.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI4FromStr](https://msdn.microsoft.com/library/windows/desktop/ms221715.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI4FromUI1](https://msdn.microsoft.com/library/windows/desktop/ms221633.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI4FromUI2](https://msdn.microsoft.com/library/windows/desktop/ms221521.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI4FromUI8](https://msdn.microsoft.com/library/windows/desktop/ms644538.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI8FromBool](https://msdn.microsoft.com/library/windows/desktop/ms644525.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI8FromCy](https://msdn.microsoft.com/library/windows/desktop/ms644508.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI8FromDate](https://msdn.microsoft.com/library/windows/desktop/ms644396.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI8FromDec](https://msdn.microsoft.com/library/windows/desktop/ms644371.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI8FromDisp](https://msdn.microsoft.com/library/windows/desktop/ms644515.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI8FromI1](https://msdn.microsoft.com/library/windows/desktop/ms644376.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI8FromI2](https://msdn.microsoft.com/library/windows/desktop/ms644527.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI8FromI8](https://msdn.microsoft.com/library/windows/desktop/ms644511.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI8FromR4](https://msdn.microsoft.com/library/windows/desktop/ms644382.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI8FromR8](https://msdn.microsoft.com/library/windows/desktop/ms644397.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI8FromStr](https://msdn.microsoft.com/library/windows/desktop/ms644536.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI8FromUI1](https://msdn.microsoft.com/library/windows/desktop/ms644532.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI8FromUI2](https://msdn.microsoft.com/library/windows/desktop/ms644366.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarUI8FromUI4](https://msdn.microsoft.com/library/windows/desktop/ms644363.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarWeekdayName](https://msdn.microsoft.com/library/windows/desktop/ms221315.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
-| [VarXor](https://msdn.microsoft.com/library/windows/desktop/ms221188.aspx) | Introduced into oleaut32.dll in 10.0.10240. |
+| [BSTR_UserFree](/windows/win32/api/oaidl/nf-oaidl-bstr_userfree) | Introduced into oleaut32.dll in 10.0.10240. |
+| [BSTR_UserFree64](/windows/win32/api/oaidl/nf-oaidl-bstr_userfree64) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [BSTR_UserMarshal](/windows/win32/api/oaidl/nf-oaidl-bstr_usermarshal) | Introduced into oleaut32.dll in 10.0.10240. |
+| [BSTR_UserMarshal64](/windows/win32/api/oaidl/nf-oaidl-bstr_usermarshal64) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [BSTR_UserSize](/windows/win32/api/oaidl/nf-oaidl-bstr_usersize) | Introduced into oleaut32.dll in 10.0.10240. |
+| [BSTR_UserSize64](/windows/win32/api/oaidl/nf-oaidl-bstr_usersize64) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [BSTR_UserUnmarshal](/windows/win32/api/oaidl/nf-oaidl-bstr_userunmarshal) | Introduced into oleaut32.dll in 10.0.10240. |
+| [BSTR_UserUnmarshal64](/windows/win32/api/oaidl/nf-oaidl-bstr_userunmarshal64) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [DispInvoke](/windows/win32/api/oleauto/nf-oleauto-dispinvoke) | Introduced into oleaut32.dll in 10.0.10240. |
+| [LPSAFEARRAY_Marshal](/previous-versions/windows/desktop/automat/lpsafearray-marshal) | Introduced into oleaut32.dll in 10.0.10240. |
+| [LPSAFEARRAY_Size](/previous-versions/windows/desktop/automat/lpsafearray-size) | Introduced into oleaut32.dll in 10.0.10240. |
+| [LPSAFEARRAY_Unmarshal](/previous-versions/windows/desktop/automat/lpsafearray-unmarshal) | Introduced into oleaut32.dll in 10.0.10240. |
+| [LPSAFEARRAY_UserFree](/windows/win32/api/wia_xp/nf-wia_xp-lpsafearray_userfree) | Introduced into oleaut32.dll in 10.0.10240. |
+| [LPSAFEARRAY_UserFree64](/windows/win32/api/wia_xp/nf-wia_xp-lpsafearray_userfree64) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [LPSAFEARRAY_UserMarshal](/windows/win32/api/wia_xp/nf-wia_xp-lpsafearray_usermarshal) | Introduced into oleaut32.dll in 10.0.10240. |
+| [LPSAFEARRAY_UserMarshal64](/windows/win32/api/wia_xp/nf-wia_xp-lpsafearray_usermarshal64) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [LPSAFEARRAY_UserSize](/windows/win32/api/wia_xp/nf-wia_xp-lpsafearray_usersize) | Introduced into oleaut32.dll in 10.0.10240. |
+| [LPSAFEARRAY_UserSize64](/windows/win32/api/wia_xp/nf-wia_xp-lpsafearray_usersize64) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [LPSAFEARRAY_UserUnmarshal](/windows/win32/api/wia_xp/nf-wia_xp-lpsafearray_userunmarshal) | Introduced into oleaut32.dll in 10.0.10240. |
+| [LPSAFEARRAY_UserUnmarshal64](/windows/win32/api/wia_xp/nf-wia_xp-lpsafearray_userunmarshal64) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [SafeArrayAccessData](/windows/win32/api/oleauto/nf-oleauto-safearrayaccessdata) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayAllocData](/windows/win32/api/oleauto/nf-oleauto-safearrayallocdata) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayAllocDescriptor](/windows/win32/api/oleauto/nf-oleauto-safearrayallocdescriptor) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayAllocDescriptorEx](/windows/win32/api/oleauto/nf-oleauto-safearrayallocdescriptorex) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayCopy](/windows/win32/api/oleauto/nf-oleauto-safearraycopy) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayCopyData](/windows/win32/api/oleauto/nf-oleauto-safearraycopydata) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayCreate](/windows/win32/api/oleauto/nf-oleauto-safearraycreate) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayCreateEx](/windows/win32/api/oleauto/nf-oleauto-safearraycreateex) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayCreateVector](/windows/win32/api/oleauto/nf-oleauto-safearraycreatevector) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayCreateVectorEx](/windows/win32/api/oleauto/nf-oleauto-safearraycreatevectorex) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayDestroy](/windows/win32/api/oleauto/nf-oleauto-safearraydestroy) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayDestroyData](/windows/win32/api/oleauto/nf-oleauto-safearraydestroydata) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayDestroyDescriptor](/windows/win32/api/oleauto/nf-oleauto-safearraydestroydescriptor) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayGetDim](/windows/win32/api/oleauto/nf-oleauto-safearraygetdim) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayGetElement](/windows/win32/api/oleauto/nf-oleauto-safearraygetelement) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayGetElemsize](/windows/win32/api/oleauto/nf-oleauto-safearraygetelemsize) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayGetIID](/windows/win32/api/oleauto/nf-oleauto-safearraygetiid) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayGetLBound](/windows/win32/api/oleauto/nf-oleauto-safearraygetlbound) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayGetRecordInfo](/windows/win32/api/oleauto/nf-oleauto-safearraygetrecordinfo) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayGetUBound](/windows/win32/api/oleauto/nf-oleauto-safearraygetubound) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayGetVartype](/windows/win32/api/oleauto/nf-oleauto-safearraygetvartype) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayLock](/windows/win32/api/oleauto/nf-oleauto-safearraylock) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayPtrOfIndex](/windows/win32/api/oleauto/nf-oleauto-safearrayptrofindex) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayPutElement](/windows/win32/api/oleauto/nf-oleauto-safearrayputelement) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayRedim](/windows/win32/api/oleauto/nf-oleauto-safearrayredim) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArraySetIID](/windows/win32/api/oleauto/nf-oleauto-safearraysetiid) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArraySetRecordInfo](/windows/win32/api/oleauto/nf-oleauto-safearraysetrecordinfo) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayUnaccessData](/windows/win32/api/oleauto/nf-oleauto-safearrayunaccessdata) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SafeArrayUnlock](/windows/win32/api/oleauto/nf-oleauto-safearrayunlock) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SysAllocString](/windows/win32/api/oleauto/nf-oleauto-sysallocstring) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SysAllocStringByteLen](/windows/win32/api/oleauto/nf-oleauto-sysallocstringbytelen) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SysAllocStringLen](/windows/win32/api/oleauto/nf-oleauto-sysallocstringlen) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SysFreeString](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SysReAllocString](/windows/win32/api/oleauto/nf-oleauto-sysreallocstring) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SysReAllocStringLen](/windows/win32/api/oleauto/nf-oleauto-sysreallocstringlen) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SysStringByteLen](/windows/win32/api/oleauto/nf-oleauto-sysstringbytelen) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SysStringLen](/windows/win32/api/oleauto/nf-oleauto-sysstringlen) | Introduced into oleaut32.dll in 10.0.10240. |
+| [SystemTimeToVariantTime](/windows/win32/api/oleauto/nf-oleauto-systemtimetovarianttime) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarAbs](/windows/win32/api/oleauto/nf-oleauto-varabs) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarAdd](/windows/win32/api/oleauto/nf-oleauto-varadd) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarAnd](/windows/win32/api/oleauto/nf-oleauto-varand) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBoolFromCy](/windows/win32/api/oleauto/nf-oleauto-varboolfromcy) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBoolFromDate](/windows/win32/api/oleauto/nf-oleauto-varboolfromdate) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBoolFromDec](/windows/win32/api/oleauto/nf-oleauto-varboolfromdec) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBoolFromDisp](/windows/win32/api/oleauto/nf-oleauto-varboolfromdisp) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBoolFromI1](/windows/win32/api/oleauto/nf-oleauto-varboolfromi1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBoolFromI2](/windows/win32/api/oleauto/nf-oleauto-varboolfromi2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBoolFromI4](/windows/win32/api/oleauto/nf-oleauto-varboolfromi4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBoolFromI8](/windows/win32/api/oleauto/nf-oleauto-varboolfromi8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBoolFromR4](/windows/win32/api/oleauto/nf-oleauto-varboolfromr4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBoolFromR8](/windows/win32/api/oleauto/nf-oleauto-varboolfromr8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBoolFromStr](/windows/win32/api/oleauto/nf-oleauto-varboolfromstr) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBoolFromUI1](/windows/win32/api/oleauto/nf-oleauto-varboolfromui1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBoolFromUI2](/windows/win32/api/oleauto/nf-oleauto-varboolfromui2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBoolFromUI4](/windows/win32/api/oleauto/nf-oleauto-varboolfromui4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBoolFromUI8](/windows/win32/api/oleauto/nf-oleauto-varboolfromui8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBstrCat](/windows/win32/api/oleauto/nf-oleauto-varbstrcat) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBstrCmp](/windows/win32/api/oleauto/nf-oleauto-varbstrcmp) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBstrFromBool](/windows/win32/api/oleauto/nf-oleauto-varbstrfrombool) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBstrFromCy](/windows/win32/api/oleauto/nf-oleauto-varbstrfromcy) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBstrFromDate](/windows/win32/api/oleauto/nf-oleauto-varbstrfromdate) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBstrFromDec](/windows/win32/api/oleauto/nf-oleauto-varbstrfromdec) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBstrFromDisp](/windows/win32/api/oleauto/nf-oleauto-varbstrfromdisp) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBstrFromI1](/windows/win32/api/oleauto/nf-oleauto-varbstrfromi1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBstrFromI2](/windows/win32/api/oleauto/nf-oleauto-varbstrfromi2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBstrFromI4](/windows/win32/api/oleauto/nf-oleauto-varbstrfromi4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBstrFromI8](/windows/win32/api/oleauto/nf-oleauto-varbstrfromi8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBstrFromR4](/windows/win32/api/oleauto/nf-oleauto-varbstrfromr4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBstrFromR8](/windows/win32/api/oleauto/nf-oleauto-varbstrfromr8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBstrFromUI1](/windows/win32/api/oleauto/nf-oleauto-varbstrfromui1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBstrFromUI2](/windows/win32/api/oleauto/nf-oleauto-varbstrfromui2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBstrFromUI4](/windows/win32/api/oleauto/nf-oleauto-varbstrfromui4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarBstrFromUI8](/windows/win32/api/oleauto/nf-oleauto-varbstrfromui8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCat](/windows/win32/api/oleauto/nf-oleauto-varcat) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCmp](/windows/win32/api/oleauto/nf-oleauto-varcmp) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyAbs](/windows/win32/api/oleauto/nf-oleauto-varcyabs) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyAdd](/windows/win32/api/oleauto/nf-oleauto-varcyadd) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyCmp](/windows/win32/api/oleauto/nf-oleauto-varcycmp) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyCmpR8](/windows/win32/api/oleauto/nf-oleauto-varcycmpr8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyFix](/windows/win32/api/oleauto/nf-oleauto-varcyfix) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyFromBool](/windows/win32/api/oleauto/nf-oleauto-varcyfrombool) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyFromDate](/windows/win32/api/oleauto/nf-oleauto-varcyfromdate) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyFromDec](/windows/win32/api/oleauto/nf-oleauto-varcyfromdec) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyFromDisp](/windows/win32/api/oleauto/nf-oleauto-varcyfromdisp) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyFromI1](/windows/win32/api/oleauto/nf-oleauto-varcyfromi1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyFromI2](/windows/win32/api/oleauto/nf-oleauto-varcyfromi2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyFromI4](/windows/win32/api/oleauto/nf-oleauto-varcyfromi4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyFromI8](/windows/win32/api/oleauto/nf-oleauto-varcyfromi8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyFromR4](/windows/win32/api/oleauto/nf-oleauto-varcyfromr4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyFromR8](/windows/win32/api/oleauto/nf-oleauto-varcyfromr8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyFromStr](/windows/win32/api/oleauto/nf-oleauto-varcyfromstr) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyFromUI1](/windows/win32/api/oleauto/nf-oleauto-varcyfromui1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyFromUI2](/windows/win32/api/oleauto/nf-oleauto-varcyfromui2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyFromUI4](/windows/win32/api/oleauto/nf-oleauto-varcyfromui4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyFromUI8](/windows/win32/api/oleauto/nf-oleauto-varcyfromui8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyInt](/windows/win32/api/oleauto/nf-oleauto-varcyint) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyMul](/windows/win32/api/oleauto/nf-oleauto-varcymul) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyMulI4](/windows/win32/api/oleauto/nf-oleauto-varcymuli4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyMulI8](/windows/win32/api/oleauto/nf-oleauto-varcymuli8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyNeg](/windows/win32/api/oleauto/nf-oleauto-varcyneg) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCyRound](/windows/win32/api/oleauto/nf-oleauto-varcyround) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarCySub](/windows/win32/api/oleauto/nf-oleauto-varcysub) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDateFromBool](/windows/win32/api/oleauto/nf-oleauto-vardatefrombool) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDateFromCy](/windows/win32/api/oleauto/nf-oleauto-vardatefromcy) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDateFromDec](/windows/win32/api/oleauto/nf-oleauto-vardatefromdec) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDateFromDisp](/windows/win32/api/oleauto/nf-oleauto-vardatefromdisp) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDateFromI1](/windows/win32/api/oleauto/nf-oleauto-vardatefromi1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDateFromI2](/windows/win32/api/oleauto/nf-oleauto-vardatefromi2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDateFromI4](/windows/win32/api/oleauto/nf-oleauto-vardatefromi4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDateFromI8](/windows/win32/api/oleauto/nf-oleauto-vardatefromi8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDateFromR4](/windows/win32/api/oleauto/nf-oleauto-vardatefromr4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDateFromR8](/windows/win32/api/oleauto/nf-oleauto-vardatefromr8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDateFromStr](/windows/win32/api/oleauto/nf-oleauto-vardatefromstr) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDateFromUdate](/windows/win32/api/oleauto/nf-oleauto-vardatefromudate) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDateFromUdateEx](/windows/win32/api/oleauto/nf-oleauto-vardatefromudateex) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDateFromUI1](/windows/win32/api/oleauto/nf-oleauto-vardatefromui1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDateFromUI2](/windows/win32/api/oleauto/nf-oleauto-vardatefromui2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDateFromUI4](/windows/win32/api/oleauto/nf-oleauto-vardatefromui4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDateFromUI8](/windows/win32/api/oleauto/nf-oleauto-vardatefromui8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecAbs](/windows/win32/api/oleauto/nf-oleauto-vardecabs) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecAdd](/windows/win32/api/oleauto/nf-oleauto-vardecadd) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecCmp](/windows/win32/api/oleauto/nf-oleauto-vardeccmp) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecCmpR8](/windows/win32/api/oleauto/nf-oleauto-vardeccmpr8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecDiv](/windows/win32/api/oleauto/nf-oleauto-vardecdiv) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecFix](/windows/win32/api/oleauto/nf-oleauto-vardecfix) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecFromBool](/windows/win32/api/oleauto/nf-oleauto-vardecfrombool) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecFromCy](/windows/win32/api/oleauto/nf-oleauto-vardecfromcy) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecFromDate](/windows/win32/api/oleauto/nf-oleauto-vardecfromdate) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecFromDisp](/windows/win32/api/oleauto/nf-oleauto-vardecfromdisp) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecFromI1](/windows/win32/api/oleauto/nf-oleauto-vardecfromi1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecFromI2](/windows/win32/api/oleauto/nf-oleauto-vardecfromi2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecFromI4](/windows/win32/api/oleauto/nf-oleauto-vardecfromi4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecFromI8](/windows/win32/api/oleauto/nf-oleauto-vardecfromi8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecFromR4](/windows/win32/api/oleauto/nf-oleauto-vardecfromr4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecFromR8](/windows/win32/api/oleauto/nf-oleauto-vardecfromr8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecFromStr](/windows/win32/api/oleauto/nf-oleauto-vardecfromstr) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecFromUI1](/windows/win32/api/oleauto/nf-oleauto-vardecfromui1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecFromUI2](/windows/win32/api/oleauto/nf-oleauto-vardecfromui2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecFromUI4](/windows/win32/api/oleauto/nf-oleauto-vardecfromui4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecFromUI8](/windows/win32/api/oleauto/nf-oleauto-vardecfromui8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecInt](/windows/win32/api/oleauto/nf-oleauto-vardecint) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecMul](/windows/win32/api/oleauto/nf-oleauto-vardecmul) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecNeg](/windows/win32/api/oleauto/nf-oleauto-vardecneg) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecRound](/windows/win32/api/oleauto/nf-oleauto-vardecround) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDecSub](/windows/win32/api/oleauto/nf-oleauto-vardecsub) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarDiv](/windows/win32/api/oleauto/nf-oleauto-vardiv) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarEqv](/windows/win32/api/oleauto/nf-oleauto-vareqv) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarFix](/windows/win32/api/oleauto/nf-oleauto-varfix) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarFormat](/windows/win32/api/oleauto/nf-oleauto-varformat) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarFormatCurrency](/windows/win32/api/oleauto/nf-oleauto-varformatcurrency) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarFormatDateTime](/windows/win32/api/oleauto/nf-oleauto-varformatdatetime) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarFormatFromTokens](/windows/win32/api/oleauto/nf-oleauto-varformatfromtokens) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarFormatNumber](/windows/win32/api/oleauto/nf-oleauto-varformatnumber) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarFormatPercent](/windows/win32/api/oleauto/nf-oleauto-varformatpercent) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI1FromBool](/windows/win32/api/oleauto/nf-oleauto-vari1frombool) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI1FromCy](/windows/win32/api/oleauto/nf-oleauto-vari1fromcy) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI1FromDate](/windows/win32/api/oleauto/nf-oleauto-vari1fromdate) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI1FromDec](/windows/win32/api/oleauto/nf-oleauto-vari1fromdec) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI1FromDisp](/windows/win32/api/oleauto/nf-oleauto-vari1fromdisp) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI1FromI2](/windows/win32/api/oleauto/nf-oleauto-vari1fromi2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI1FromI4](/windows/win32/api/oleauto/nf-oleauto-vari1fromi4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI1FromI8](/windows/win32/api/oleauto/nf-oleauto-vari1fromi8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI1FromR4](/windows/win32/api/oleauto/nf-oleauto-vari1fromr4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI1FromR8](/windows/win32/api/oleauto/nf-oleauto-vari1fromr8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI1FromStr](/windows/win32/api/oleauto/nf-oleauto-vari1fromstr) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI1FromUI1](/windows/win32/api/oleauto/nf-oleauto-vari1fromui1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI1FromUI2](/windows/win32/api/oleauto/nf-oleauto-vari1fromui2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI1FromUI4](/windows/win32/api/oleauto/nf-oleauto-vari1fromui4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI1FromUI8](/windows/win32/api/oleauto/nf-oleauto-vari1fromui8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI2FromBool](/windows/win32/api/oleauto/nf-oleauto-vari2frombool) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI2FromCy](/windows/win32/api/oleauto/nf-oleauto-vari2fromcy) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI2FromDate](/windows/win32/api/oleauto/nf-oleauto-vari2fromdate) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI2FromDec](/windows/win32/api/oleauto/nf-oleauto-vari2fromdec) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI2FromDisp](/windows/win32/api/oleauto/nf-oleauto-vari2fromdisp) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI2FromI1](/windows/win32/api/oleauto/nf-oleauto-vari2fromi1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI2FromI4](/windows/win32/api/oleauto/nf-oleauto-vari2fromi4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI2FromI8](/windows/win32/api/oleauto/nf-oleauto-vari2fromi8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI2FromR4](/windows/win32/api/oleauto/nf-oleauto-vari2fromr4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI2FromR8](/windows/win32/api/oleauto/nf-oleauto-vari2fromr8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI2FromStr](/windows/win32/api/oleauto/nf-oleauto-vari2fromstr) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI2FromUI1](/windows/win32/api/oleauto/nf-oleauto-vari2fromui1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI2FromUI2](/windows/win32/api/oleauto/nf-oleauto-vari2fromui2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI2FromUI4](/windows/win32/api/oleauto/nf-oleauto-vari2fromui4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI2FromUI8](/windows/win32/api/oleauto/nf-oleauto-vari2fromui8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI4FromBool](/windows/win32/api/oleauto/nf-oleauto-vari4frombool) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI4FromCy](/windows/win32/api/oleauto/nf-oleauto-vari4fromcy) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI4FromDate](/windows/win32/api/oleauto/nf-oleauto-vari4fromdate) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI4FromDec](/windows/win32/api/oleauto/nf-oleauto-vari4fromdec) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI4FromDisp](/windows/win32/api/oleauto/nf-oleauto-vari4fromdisp) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI4FromI1](/windows/win32/api/oleauto/nf-oleauto-vari4fromi1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI4FromI2](/windows/win32/api/oleauto/nf-oleauto-vari4fromi2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI4FromI8](/windows/win32/api/oleauto/nf-oleauto-vari4fromi8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI4FromR4](/windows/win32/api/oleauto/nf-oleauto-vari4fromr4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI4FromR8](/windows/win32/api/oleauto/nf-oleauto-vari4fromr8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI4FromStr](/windows/win32/api/oleauto/nf-oleauto-vari4fromstr) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI4FromUI1](/windows/win32/api/oleauto/nf-oleauto-vari4fromui1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI4FromUI2](/windows/win32/api/oleauto/nf-oleauto-vari4fromui2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI4FromUI4](/windows/win32/api/oleauto/nf-oleauto-vari4fromui4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI4FromUI8](/windows/win32/api/oleauto/nf-oleauto-vari4fromui8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI8FromBool](/windows/win32/api/oleauto/nf-oleauto-vari8frombool) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI8FromCy](/windows/win32/api/oleauto/nf-oleauto-vari8fromcy) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI8FromDate](/windows/win32/api/oleauto/nf-oleauto-vari8fromdate) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI8FromDec](/windows/win32/api/oleauto/nf-oleauto-vari8fromdec) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI8FromDisp](/windows/win32/api/oleauto/nf-oleauto-vari8fromdisp) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI8FromI1](/windows/win32/api/oleauto/nf-oleauto-vari8fromi1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI8FromI2](/windows/win32/api/oleauto/nf-oleauto-vari8fromi2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI8FromR4](/windows/win32/api/oleauto/nf-oleauto-vari8fromr4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI8FromR8](/windows/win32/api/oleauto/nf-oleauto-vari8fromr8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI8FromStr](/windows/win32/api/oleauto/nf-oleauto-vari8fromstr) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI8FromUI1](/windows/win32/api/oleauto/nf-oleauto-vari8fromui1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI8FromUI2](/windows/win32/api/oleauto/nf-oleauto-vari8fromui2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI8FromUI4](/windows/win32/api/oleauto/nf-oleauto-vari8fromui4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarI8FromUI8](/windows/win32/api/oleauto/nf-oleauto-vari8fromui8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VARIANT_UserFree](/windows/win32/api/oaidl/nf-oaidl-variant_userfree) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VARIANT_UserFree64](/windows/win32/api/oaidl/nf-oaidl-variant_userfree64) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [VARIANT_UserMarshal](/windows/win32/api/oaidl/nf-oaidl-variant_usermarshal) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VARIANT_UserMarshal64](/windows/win32/api/oaidl/nf-oaidl-variant_usermarshal64) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [VARIANT_UserSize](/windows/win32/api/oaidl/nf-oaidl-variant_usersize) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VARIANT_UserSize64](/windows/win32/api/oaidl/nf-oaidl-variant_usersize64) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [VARIANT_UserUnmarshal](/windows/win32/api/oaidl/nf-oaidl-variant_userunmarshal) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VARIANT_UserUnmarshal64](/windows/win32/api/oaidl/nf-oaidl-variant_userunmarshal64) | Introduced into oleaut32.dll in 10.0.10240. Removed in 10.0.16299. |
+| [VariantChangeType](/windows/win32/api/oleauto/nf-oleauto-variantchangetype) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VariantChangeTypeEx](/windows/win32/api/oleauto/nf-oleauto-variantchangetypeex) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VariantClear](/windows/win32/api/oleauto/nf-oleauto-variantclear) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VariantCopy](/windows/win32/api/oleauto/nf-oleauto-variantcopy) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VariantCopyInd](/windows/win32/api/oleauto/nf-oleauto-variantcopyind) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VariantInit](/windows/win32/api/oleauto/nf-oleauto-variantinit) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VariantTimeToSystemTime](/windows/win32/api/oleauto/nf-oleauto-varianttimetosystemtime) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarIdiv](/windows/win32/api/oleauto/nf-oleauto-varidiv) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarImp](/windows/win32/api/oleauto/nf-oleauto-varimp) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarInt](/windows/win32/api/oleauto/nf-oleauto-varint) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarMod](/windows/win32/api/oleauto/nf-oleauto-varmod) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarMonthName](/windows/win32/api/oleauto/nf-oleauto-varmonthname) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarMul](/windows/win32/api/oleauto/nf-oleauto-varmul) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarNeg](/windows/win32/api/oleauto/nf-oleauto-varneg) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarNot](/windows/win32/api/oleauto/nf-oleauto-varnot) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarNumFromParseNum](/windows/win32/api/oleauto/nf-oleauto-varnumfromparsenum) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarOr](/windows/win32/api/oleauto/nf-oleauto-varor) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarParseNumFromStr](/windows/win32/api/oleauto/nf-oleauto-varparsenumfromstr) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarPow](/windows/win32/api/oleauto/nf-oleauto-varpow) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR4CmpR8](/windows/win32/api/oleauto/nf-oleauto-varr4cmpr8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR4FromBool](/windows/win32/api/oleauto/nf-oleauto-varr4frombool) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR4FromCy](/windows/win32/api/oleauto/nf-oleauto-varr4fromcy) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR4FromDate](/windows/win32/api/oleauto/nf-oleauto-varr4fromdate) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR4FromDec](/windows/win32/api/oleauto/nf-oleauto-varr4fromdec) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR4FromDisp](/windows/win32/api/oleauto/nf-oleauto-varr4fromdisp) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR4FromI1](/windows/win32/api/oleauto/nf-oleauto-varr4fromi1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR4FromI2](/windows/win32/api/oleauto/nf-oleauto-varr4fromi2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR4FromI4](/windows/win32/api/oleauto/nf-oleauto-varr4fromi4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR4FromI8](/windows/win32/api/oleauto/nf-oleauto-varr4fromi8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR4FromR8](/windows/win32/api/oleauto/nf-oleauto-varr4fromr8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR4FromStr](/windows/win32/api/oleauto/nf-oleauto-varr4fromstr) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR4FromUI1](/windows/win32/api/oleauto/nf-oleauto-varr4fromui1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR4FromUI2](/windows/win32/api/oleauto/nf-oleauto-varr4fromui2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR4FromUI4](/windows/win32/api/oleauto/nf-oleauto-varr4fromui4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR4FromUI8](/windows/win32/api/oleauto/nf-oleauto-varr4fromui8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR8FromBool](/windows/win32/api/oleauto/nf-oleauto-varr8frombool) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR8FromCy](/windows/win32/api/oleauto/nf-oleauto-varr8fromcy) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR8FromDate](/windows/win32/api/oleauto/nf-oleauto-varr8fromdate) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR8FromDec](/windows/win32/api/oleauto/nf-oleauto-varr8fromdec) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR8FromDisp](/windows/win32/api/oleauto/nf-oleauto-varr8fromdisp) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR8FromI1](/windows/win32/api/oleauto/nf-oleauto-varr8fromi1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR8FromI2](/windows/win32/api/oleauto/nf-oleauto-varr8fromi2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR8FromI4](/windows/win32/api/oleauto/nf-oleauto-varr8fromi4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR8FromI8](/windows/win32/api/oleauto/nf-oleauto-varr8fromi8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR8FromR4](/windows/win32/api/oleauto/nf-oleauto-varr8fromr4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR8FromStr](/windows/win32/api/oleauto/nf-oleauto-varr8fromstr) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR8FromUI1](/windows/win32/api/oleauto/nf-oleauto-varr8fromui1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR8FromUI2](/windows/win32/api/oleauto/nf-oleauto-varr8fromui2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR8FromUI4](/windows/win32/api/oleauto/nf-oleauto-varr8fromui4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR8FromUI8](/windows/win32/api/oleauto/nf-oleauto-varr8fromui8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR8Pow](/windows/win32/api/oleauto/nf-oleauto-varr8pow) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarR8Round](/windows/win32/api/oleauto/nf-oleauto-varr8round) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarRound](/windows/win32/api/oleauto/nf-oleauto-varround) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarSub](/windows/win32/api/oleauto/nf-oleauto-varsub) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarTokenizeFormatString](/windows/win32/api/oleauto/nf-oleauto-vartokenizeformatstring) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUdateFromDate](/windows/win32/api/oleauto/nf-oleauto-varudatefromdate) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI1FromBool](/windows/win32/api/oleauto/nf-oleauto-varui1frombool) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI1FromCy](/windows/win32/api/oleauto/nf-oleauto-varui1fromcy) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI1FromDate](/windows/win32/api/oleauto/nf-oleauto-varui1fromdate) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI1FromDec](/windows/win32/api/oleauto/nf-oleauto-varui1fromdec) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI1FromDisp](/windows/win32/api/oleauto/nf-oleauto-varui1fromdisp) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI1FromI1](/windows/win32/api/oleauto/nf-oleauto-varui1fromi1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI1FromI2](/windows/win32/api/oleauto/nf-oleauto-varui1fromi2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI1FromI4](/windows/win32/api/oleauto/nf-oleauto-varui1fromi4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI1FromI8](/windows/win32/api/oleauto/nf-oleauto-varui1fromi8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI1FromR4](/windows/win32/api/oleauto/nf-oleauto-varui1fromr4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI1FromR8](/windows/win32/api/oleauto/nf-oleauto-varui1fromr8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI1FromStr](/windows/win32/api/oleauto/nf-oleauto-varui1fromstr) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI1FromUI2](/windows/win32/api/oleauto/nf-oleauto-varui1fromui2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI1FromUI4](/windows/win32/api/oleauto/nf-oleauto-varui1fromui4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI1FromUI8](/windows/win32/api/oleauto/nf-oleauto-varui1fromui8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI2FromBool](/windows/win32/api/oleauto/nf-oleauto-varui2frombool) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI2FromCy](/windows/win32/api/oleauto/nf-oleauto-varui2fromcy) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI2FromDate](/windows/win32/api/oleauto/nf-oleauto-varui2fromdate) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI2FromDec](/windows/win32/api/oleauto/nf-oleauto-varui2fromdec) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI2FromDisp](/windows/win32/api/oleauto/nf-oleauto-varui2fromdisp) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI2FromI1](/windows/win32/api/oleauto/nf-oleauto-varui2fromi1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI2FromI2](/windows/win32/api/oleauto/nf-oleauto-varui2fromi2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI2FromI4](/windows/win32/api/oleauto/nf-oleauto-varui2fromi4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI2FromI8](/windows/win32/api/oleauto/nf-oleauto-varui2fromi8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI2FromR4](/windows/win32/api/oleauto/nf-oleauto-varui2fromr4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI2FromR8](/windows/win32/api/oleauto/nf-oleauto-varui2fromr8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI2FromStr](/windows/win32/api/oleauto/nf-oleauto-varui2fromstr) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI2FromUI1](/windows/win32/api/oleauto/nf-oleauto-varui2fromui1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI2FromUI4](/windows/win32/api/oleauto/nf-oleauto-varui2fromui4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI2FromUI8](/windows/win32/api/oleauto/nf-oleauto-varui2fromui8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI4FromBool](/windows/win32/api/oleauto/nf-oleauto-varui4frombool) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI4FromCy](/windows/win32/api/oleauto/nf-oleauto-varui4fromcy) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI4FromDate](/windows/win32/api/oleauto/nf-oleauto-varui4fromdate) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI4FromDec](/windows/win32/api/oleauto/nf-oleauto-varui4fromdec) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI4FromDisp](/windows/win32/api/oleauto/nf-oleauto-varui4fromdisp) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI4FromI1](/windows/win32/api/oleauto/nf-oleauto-varui4fromi1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI4FromI2](/windows/win32/api/oleauto/nf-oleauto-varui4fromi2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI4FromI4](/windows/win32/api/oleauto/nf-oleauto-varui4fromi4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI4FromI8](/windows/win32/api/oleauto/nf-oleauto-varui4fromi8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI4FromR4](/windows/win32/api/oleauto/nf-oleauto-varui4fromr4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI4FromR8](/windows/win32/api/oleauto/nf-oleauto-varui4fromr8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI4FromStr](/windows/win32/api/oleauto/nf-oleauto-varui4fromstr) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI4FromUI1](/windows/win32/api/oleauto/nf-oleauto-varui4fromui1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI4FromUI2](/windows/win32/api/oleauto/nf-oleauto-varui4fromui2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI4FromUI8](/windows/win32/api/oleauto/nf-oleauto-varui4fromui8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI8FromBool](/windows/win32/api/oleauto/nf-oleauto-varui8frombool) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI8FromCy](/windows/win32/api/oleauto/nf-oleauto-varui8fromcy) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI8FromDate](/windows/win32/api/oleauto/nf-oleauto-varui8fromdate) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI8FromDec](/windows/win32/api/oleauto/nf-oleauto-varui8fromdec) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI8FromDisp](/windows/win32/api/oleauto/nf-oleauto-varui8fromdisp) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI8FromI1](/windows/win32/api/oleauto/nf-oleauto-varui8fromi1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI8FromI2](/windows/win32/api/oleauto/nf-oleauto-varui8fromi2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI8FromI8](/windows/win32/api/oleauto/nf-oleauto-varui8fromi8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI8FromR4](/windows/win32/api/oleauto/nf-oleauto-varui8fromr4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI8FromR8](/windows/win32/api/oleauto/nf-oleauto-varui8fromr8) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI8FromStr](/windows/win32/api/oleauto/nf-oleauto-varui8fromstr) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI8FromUI1](/windows/win32/api/oleauto/nf-oleauto-varui8fromui1) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI8FromUI2](/windows/win32/api/oleauto/nf-oleauto-varui8fromui2) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarUI8FromUI4](/windows/win32/api/oleauto/nf-oleauto-varui8fromui4) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarWeekdayName](/windows/win32/api/oleauto/nf-oleauto-varweekdayname) | Introduced into oleaut32.dll in 10.0.10240. |
+| [VarXor](/windows/win32/api/oleauto/nf-oleauto-varxor) | Introduced into oleaut32.dll in 10.0.10240. |
 
 
 ## APIs from propsys.dll
 
 | API | Requirements |
 | -----| --------------|
-| [PropVariantCompareEx](https://msdn.microsoft.com/library/windows/desktop/bb776517.aspx) | Introduced into propsys.dll in 10.0.10240. |
-| [PropVariantToWinRTPropertyValue](https://msdn.microsoft.com/library/windows/desktop/dn313197.aspx) | Introduced into propsys.dll in 10.0.10240. |
-| [WinRTPropertyValueToPropVariant](https://msdn.microsoft.com/library/windows/desktop/dn313198.aspx) | Introduced into propsys.dll in 10.0.10240. |
-| [InitPropVariantFromCLSID](https://msdn.microsoft.com/library/Bb762290(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
-| [InitPropVariantFromFileTime](https://msdn.microsoft.com/library/Bb762293(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
-| [InitVariantFromBuffer](https://msdn.microsoft.com/library/Bb762318(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
-| [PropVariantChangeType](https://msdn.microsoft.com/library/Bb776514(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
-| [PropVariantToBoolean](https://msdn.microsoft.com/library/Bb776531(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
-| [PropVariantToBSTR](https://msdn.microsoft.com/library/Bb776535(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
-| [PropVariantToGUID](https://msdn.microsoft.com/library/Bb776545(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
-| [PropVariantToStringAlloc](https://msdn.microsoft.com/library/Bb776560(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
-| [PropVariantToStringWithDefault](https://msdn.microsoft.com/library/Bb776563(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
-| [PropVariantToVariant](https://msdn.microsoft.com/library/Bb776577(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
-| [PSCreateAdapterFromPropertyStore](https://msdn.microsoft.com/library/Bb776487(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
-| [PSCreateMemoryPropertyStore](https://msdn.microsoft.com/library/Bb776489(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
-| [PSCreatePropertyStoreFromObject](https://msdn.microsoft.com/library/Bb776492(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
-| [VariantToGUID](https://msdn.microsoft.com/library/Bb776603(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
-| [VariantToPropVariant](https://msdn.microsoft.com/library/Bb776616(v=VS.85).aspx) | Introduced into propsys.dll in 10.0.16299. |
+| [PropVariantCompareEx](/windows/win32/api/propvarutil/nf-propvarutil-propvariantcompareex) | Introduced into propsys.dll in 10.0.10240. |
+| [PropVariantToWinRTPropertyValue](/previous-versions//dn313197(v=vs.85)) | Introduced into propsys.dll in 10.0.10240. |
+| [WinRTPropertyValueToPropVariant](/windows/win32/api/propsys/nf-propsys-winrtpropertyvaluetopropvariant) | Introduced into propsys.dll in 10.0.10240. |
+| [InitPropVariantFromCLSID](/windows/win32/api/propvarutil/nf-propvarutil-initpropvariantfromclsid) | Introduced into propsys.dll in 10.0.16299. |
+| [InitPropVariantFromFileTime](/windows/win32/api/propvarutil/nf-propvarutil-initpropvariantfromfiletime) | Introduced into propsys.dll in 10.0.16299. |
+| [InitVariantFromBuffer](/windows/win32/api/propvarutil/nf-propvarutil-initvariantfrombuffer) | Introduced into propsys.dll in 10.0.16299. |
+| [PropVariantChangeType](/windows/win32/api/propvarutil/nf-propvarutil-propvariantchangetype) | Introduced into propsys.dll in 10.0.16299. |
+| [PropVariantToBoolean](/windows/win32/api/propvarutil/nf-propvarutil-propvarianttoboolean) | Introduced into propsys.dll in 10.0.16299. |
+| [PropVariantToBSTR](/windows/win32/api/propvarutil/nf-propvarutil-propvarianttobstr) | Introduced into propsys.dll in 10.0.16299. |
+| [PropVariantToGUID](/windows/win32/api/propvarutil/nf-propvarutil-propvarianttoguid) | Introduced into propsys.dll in 10.0.16299. |
+| [PropVariantToStringAlloc](/windows/win32/api/propvarutil/nf-propvarutil-propvarianttostringalloc) | Introduced into propsys.dll in 10.0.16299. |
+| [PropVariantToStringWithDefault](/windows/win32/api/propvarutil/nf-propvarutil-propvarianttostringwithdefault) | Introduced into propsys.dll in 10.0.16299. |
+| [PropVariantToVariant](/windows/win32/api/propvarutil/nf-propvarutil-propvarianttovariant) | Introduced into propsys.dll in 10.0.16299. |
+| [PSCreateAdapterFromPropertyStore](/windows/win32/api/propsys/nf-propsys-pscreateadapterfrompropertystore) | Introduced into propsys.dll in 10.0.16299. |
+| [PSCreateMemoryPropertyStore](/windows/win32/api/propsys/nf-propsys-pscreatememorypropertystore) | Introduced into propsys.dll in 10.0.16299. |
+| [PSCreatePropertyStoreFromObject](/windows/win32/api/propsys/nf-propsys-pscreatepropertystorefromobject) | Introduced into propsys.dll in 10.0.16299. |
+| [VariantToGUID](/windows/win32/api/propvarutil/nf-propvarutil-varianttoguid) | Introduced into propsys.dll in 10.0.16299. |
+| [VariantToPropVariant](/windows/win32/api/propvarutil/nf-propvarutil-varianttopropvariant) | Introduced into propsys.dll in 10.0.16299. |
 
 
 ## APIs from rpcrt4.dll
@@ -2545,24 +2545,24 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | -----| --------------|
 | CreateProxyFromTypeInfo | Introduced into rpcrt4.dll in 10.0.10240. |
 | CreateStubFromTypeInfo | Introduced into rpcrt4.dll in 10.0.10240. |
-| [CStdStubBuffer_AddRef](https://msdn.microsoft.com/library/windows/desktop/aa373611.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [CStdStubBuffer_Connect](https://msdn.microsoft.com/library/windows/desktop/aa373612.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [CStdStubBuffer_CountRefs](https://msdn.microsoft.com/library/windows/desktop/aa373613.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [CStdStubBuffer_DebugServerQueryInterface](https://msdn.microsoft.com/library/windows/desktop/aa373614.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [CStdStubBuffer_DebugServerRelease](https://msdn.microsoft.com/library/windows/desktop/aa373615.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [CStdStubBuffer_Disconnect](https://msdn.microsoft.com/library/windows/desktop/aa373616.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [CStdStubBuffer_Invoke](https://msdn.microsoft.com/library/windows/desktop/aa373617.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [CStdStubBuffer_IsIIDSupported](https://msdn.microsoft.com/library/windows/desktop/aa373618.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [CStdStubBuffer_QueryInterface](https://msdn.microsoft.com/library/windows/desktop/aa373619.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [IUnknown_AddRef_Proxy](https://msdn.microsoft.com/library/windows/desktop/aa373957.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [IUnknown_QueryInterface_Proxy](https://msdn.microsoft.com/library/windows/desktop/aa373958.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [IUnknown_Release_Proxy](https://msdn.microsoft.com/library/windows/desktop/aa373959.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [Ndr64AsyncClientCall](https://msdn.microsoft.com/library/windows/desktop/mt728979.aspx) | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
+| [CStdStubBuffer_AddRef](/windows/win32/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_addref) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [CStdStubBuffer_Connect](/windows/win32/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_connect) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [CStdStubBuffer_CountRefs](/windows/win32/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_countrefs) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [CStdStubBuffer_DebugServerQueryInterface](/windows/win32/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_debugserverqueryinterface) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [CStdStubBuffer_DebugServerRelease](/windows/win32/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_debugserverrelease) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [CStdStubBuffer_Disconnect](/windows/win32/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_disconnect) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [CStdStubBuffer_Invoke](/windows/win32/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_invoke) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [CStdStubBuffer_IsIIDSupported](/windows/win32/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_isiidsupported) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [CStdStubBuffer_QueryInterface](/windows/win32/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_queryinterface) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [IUnknown_AddRef_Proxy](/windows/win32/api/unknwnbase/nf-unknwnbase-iunknown_addref_proxy) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [IUnknown_QueryInterface_Proxy](/windows/win32/api/unknwnbase/nf-unknwnbase-iunknown_queryinterface_proxy) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [IUnknown_Release_Proxy](/windows/win32/api/unknwnbase/nf-unknwnbase-iunknown_release_proxy) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [Ndr64AsyncClientCall](/windows/win32/api/rpcndr/nf-rpcndr-ndr64asyncclientcall) | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
 | Ndr64AsyncServerCall64 | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
-| [Ndr64AsyncServerCallAll](https://msdn.microsoft.com/library/windows/desktop/mt728980.aspx) | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
+| [Ndr64AsyncServerCallAll](/windows/win32/api/rpcndr/nf-rpcndr-ndr64asyncservercallall) | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
 | NdrAllocate | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrAsyncClientCall](https://msdn.microsoft.com/library/windows/desktop/aa374207.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrAsyncServerCall](https://msdn.microsoft.com/library/windows/desktop/mt728981.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrAsyncClientCall](/windows/win32/api/rpcndr/nf-rpcndr-ndrasyncclientcall) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrAsyncServerCall](/windows/win32/api/rpcndr/nf-rpcndr-ndrasyncservercall) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrByteCountPointerBufferSize | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrByteCountPointerFree | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrByteCountPointerMarshall | Introduced into rpcrt4.dll in 10.0.10240. |
@@ -2570,32 +2570,32 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | NDRCContextBinding | Introduced into rpcrt4.dll in 10.0.10240. |
 | NDRCContextMarshall | Introduced into rpcrt4.dll in 10.0.10240. |
 | NDRCContextUnmarshall | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrClearOutParameters](https://msdn.microsoft.com/library/Aa374209(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrClientCall2](https://msdn.microsoft.com/library/windows/desktop/aa374215.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrClientCall3](https://msdn.microsoft.com/library/windows/desktop/mt712330.aspx) | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
+| [NdrClearOutParameters](/windows/win32/api/rpcndr/nf-rpcndr-ndrclearoutparameters) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrClientCall2](/windows/win32/api/rpcndr/nf-rpcndr-ndrclientcall2) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrClientCall3](/windows/win32/api/rpcndr/nf-rpcndr-ndrclientcall3) | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
 | NdrClientContextMarshall | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrClientContextUnmarshall | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrClientInitialize | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrClientInitializeNew | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrComplexArrayBufferSize](https://msdn.microsoft.com/library/Bb432364(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrComplexArrayBufferSize](/windows/win32/api/rpcndr/nf-rpcndr-ndrcomplexarraybuffersize) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrComplexArrayFree | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrComplexArrayMarshall](https://msdn.microsoft.com/library/Bb432365(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrComplexArrayMarshall](/windows/win32/api/rpcndr/nf-rpcndr-ndrcomplexarraymarshall) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrComplexArrayMemorySize | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrComplexArrayUnmarshall](https://msdn.microsoft.com/library/Bb432366(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrComplexStructBufferSize](https://msdn.microsoft.com/library/Bb432367(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrComplexArrayUnmarshall](/windows/win32/api/rpcndr/nf-rpcndr-ndrcomplexarrayunmarshall) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrComplexStructBufferSize](/windows/win32/api/rpcndr/nf-rpcndr-ndrcomplexstructbuffersize) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrComplexStructFree | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrComplexStructMarshall](https://msdn.microsoft.com/library/Bb432368(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrComplexStructMarshall](/windows/win32/api/rpcndr/nf-rpcndr-ndrcomplexstructmarshall) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrComplexStructMemorySize | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrComplexStructUnmarshall](https://msdn.microsoft.com/library/Bb432369(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrConformantArrayBufferSize](https://msdn.microsoft.com/library/Bb432362(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrComplexStructUnmarshall](/windows/win32/api/rpcndr/nf-rpcndr-ndrcomplexstructunmarshall) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrConformantArrayBufferSize](/windows/win32/api/rpcndr/nf-rpcndr-ndrconformantarraybuffersize) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrConformantArrayFree | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrConformantArrayMarshall](https://msdn.microsoft.com/library/Bb432363(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrConformantArrayMarshall](/windows/win32/api/rpcndr/nf-rpcndr-ndrconformantarraymarshall) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrConformantArrayMemorySize | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrConformantArrayUnmarshall](https://msdn.microsoft.com/library/Aa374216(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrConformantStringBufferSize](https://msdn.microsoft.com/library/windows/desktop/aa374220.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrConformantStringMarshall](https://msdn.microsoft.com/library/windows/desktop/aa374223.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrConformantArrayUnmarshall](/windows/win32/api/rpcndr/nf-rpcndr-ndrconformantarrayunmarshall) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrConformantStringBufferSize](/windows/win32/api/rpcndr/nf-rpcndr-ndrconformantstringbuffersize) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrConformantStringMarshall](/windows/win32/api/rpcndr/nf-rpcndr-ndrconformantstringmarshall) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrConformantStringMemorySize | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrConformantStringUnmarshall](https://msdn.microsoft.com/library/windows/desktop/aa374225.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrConformantStringUnmarshall](/windows/win32/api/rpcndr/nf-rpcndr-ndrconformantstringunmarshall) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrConformantStructBufferSize | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrConformantStructFree | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrConformantStructMarshall | Introduced into rpcrt4.dll in 10.0.10240. |
@@ -2611,20 +2611,20 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | NdrConformantVaryingStructMarshall | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrConformantVaryingStructMemorySize | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrConformantVaryingStructUnmarshall | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrContextHandleInitialize](https://msdn.microsoft.com/library/windows/desktop/aa374229.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrContextHandleSize](https://msdn.microsoft.com/library/windows/desktop/aa374236.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrConvert](https://msdn.microsoft.com/library/Aa374239(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrContextHandleInitialize](/windows/win32/api/rpcndr/nf-rpcndr-ndrcontexthandleinitialize) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrContextHandleSize](/windows/win32/api/rpcndr/nf-rpcndr-ndrcontexthandlesize) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrConvert](/windows/win32/api/rpcndr/nf-rpcndr-ndrconvert) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrConvert2 | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrCorrelationFree | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrCorrelationInitialize | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrCorrelationPass | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrCreateServerInterfaceFromStub | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrCStdStubBuffer_Release](https://msdn.microsoft.com/library/windows/desktop/aa374242.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrCStdStubBuffer2_Release](https://msdn.microsoft.com/library/windows/desktop/aa374240.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrDllCanUnloadNow](https://msdn.microsoft.com/library/windows/desktop/aa374245.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrDllGetClassObject](https://msdn.microsoft.com/library/windows/desktop/aa374251.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrDllRegisterProxy](https://msdn.microsoft.com/library/windows/desktop/aa374255.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrDllUnregisterProxy](https://msdn.microsoft.com/library/windows/desktop/aa374257.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrCStdStubBuffer_Release](/windows/win32/api/rpcproxy/nf-rpcproxy-ndrcstdstubbuffer_release) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrCStdStubBuffer2_Release](/windows/win32/api/rpcproxy/nf-rpcproxy-ndrcstdstubbuffer2_release) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrDllCanUnloadNow](/windows/win32/api/rpcproxy/nf-rpcproxy-ndrdllcanunloadnow) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrDllGetClassObject](/windows/win32/api/rpcproxy/nf-rpcproxy-ndrdllgetclassobject) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrDllRegisterProxy](/windows/win32/api/rpcproxy/nf-rpcproxy-ndrdllregisterproxy) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrDllUnregisterProxy](/windows/win32/api/rpcproxy/nf-rpcproxy-ndrdllunregisterproxy) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrEncapsulatedUnionBufferSize | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrEncapsulatedUnionFree | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrEncapsulatedUnionMarshall | Introduced into rpcrt4.dll in 10.0.10240. |
@@ -2640,12 +2640,12 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | NdrFullPointerXlatInit | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrGetBuffer | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrGetDcomProtocolVersion | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrGetUserMarshalInfo](https://msdn.microsoft.com/library/windows/desktop/aa374262.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrInterfacePointerBufferSize](https://msdn.microsoft.com/library/windows/desktop/aa374265.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrInterfacePointerFree](https://msdn.microsoft.com/library/windows/desktop/aa374269.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrInterfacePointerMarshall](https://msdn.microsoft.com/library/windows/desktop/aa374272.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrGetUserMarshalInfo](/windows/win32/api/rpcndr/nf-rpcndr-ndrgetusermarshalinfo) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrInterfacePointerBufferSize](/windows/win32/api/rpcndr/nf-rpcndr-ndrinterfacepointerbuffersize) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrInterfacePointerFree](/windows/win32/api/rpcndr/nf-rpcndr-ndrinterfacepointerfree) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrInterfacePointerMarshall](/windows/win32/api/rpcndr/nf-rpcndr-ndrinterfacepointermarshall) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrInterfacePointerMemorySize | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrInterfacePointerUnmarshall](https://msdn.microsoft.com/library/windows/desktop/aa374278.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrInterfacePointerUnmarshall](/windows/win32/api/rpcndr/nf-rpcndr-ndrinterfacepointerunmarshall) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrMapCommAndFaultStatus | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrNonConformantStringBufferSize | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrNonConformantStringMarshall | Introduced into rpcrt4.dll in 10.0.10240. |
@@ -2658,18 +2658,18 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | NdrNonEncapsulatedUnionUnmarshall | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrNsGetBuffer | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrNsSendReceive | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrOleAllocate](https://msdn.microsoft.com/library/windows/desktop/aa374280.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrOleFree](https://msdn.microsoft.com/library/windows/desktop/aa374285.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrOleAllocate](/windows/win32/api/rpcndr/nf-rpcndr-ndroleallocate) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrOleFree](/windows/win32/api/rpcndr/nf-rpcndr-ndrolefree) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrPartialIgnoreClientBufferSize | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrPartialIgnoreClientMarshall | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrPartialIgnoreServerInitialize | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrPartialIgnoreServerUnmarshall | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrPointerBufferSize](https://msdn.microsoft.com/library/windows/desktop/aa374289.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrPointerFree](https://msdn.microsoft.com/library/windows/desktop/aa374291.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrPointerMarshall](https://msdn.microsoft.com/library/windows/desktop/aa374293.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrPointerBufferSize](/windows/win32/api/rpcndr/nf-rpcndr-ndrpointerbuffersize) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrPointerFree](/windows/win32/api/rpcndr/nf-rpcndr-ndrpointerfree) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrPointerMarshall](/windows/win32/api/rpcndr/nf-rpcndr-ndrpointermarshall) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrPointerMemorySize | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrPointerUnmarshall](https://msdn.microsoft.com/library/windows/desktop/aa374296.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrProxyErrorHandler](https://msdn.microsoft.com/library/windows/desktop/aa374299.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrPointerUnmarshall](/windows/win32/api/rpcndr/nf-rpcndr-ndrpointerunmarshall) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrProxyErrorHandler](/windows/win32/api/rpcproxy/nf-rpcproxy-ndrproxyerrorhandler) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrRangeUnmarshall | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrRpcSmClientAllocate | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrRpcSmClientFree | Introduced into rpcrt4.dll in 10.0.10240. |
@@ -2685,8 +2685,8 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | NDRSContextUnmarshall2 | Introduced into rpcrt4.dll in 10.0.10240. |
 | NDRSContextUnmarshallEx | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrSendReceive | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrServerCall2](https://msdn.microsoft.com/library/windows/desktop/mt728982.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrServerCallAll](https://msdn.microsoft.com/library/windows/desktop/mt728983.aspx) | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
+| [NdrServerCall2](/windows/win32/api/rpcndr/nf-rpcndr-ndrservercall2) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrServerCallAll](/windows/win32/api/rpcndr/nf-rpcndr-ndrservercallall) | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
 | NdrServerCallNdr64 | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
 | NdrServerContextMarshall | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrServerContextNewMarshall | Introduced into rpcrt4.dll in 10.0.10240. |
@@ -2697,22 +2697,22 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | NdrServerInitializeNew | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrServerInitializePartial | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrServerInitializeUnmarshall | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrSimpleStructBufferSize](https://msdn.microsoft.com/library/Bb432370(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrSimpleStructBufferSize](/windows/win32/api/rpcndr/nf-rpcndr-ndrsimplestructbuffersize) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrSimpleStructFree | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrSimpleStructMarshall](https://msdn.microsoft.com/library/Bb432371(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrSimpleStructMarshall](/windows/win32/api/rpcndr/nf-rpcndr-ndrsimplestructmarshall) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrSimpleStructMemorySize | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrSimpleStructUnmarshall](https://msdn.microsoft.com/library/Bb432372(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrSimpleTypeMarshall](https://msdn.microsoft.com/library/windows/desktop/aa374313.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrSimpleTypeUnmarshall](https://msdn.microsoft.com/library/windows/desktop/aa374315.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrStubCall2](https://msdn.microsoft.com/library/windows/desktop/aa374317.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrStubCall3](https://msdn.microsoft.com/library/windows/desktop/mt728984.aspx) | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
-| [NdrStubForwardingFunction](https://msdn.microsoft.com/library/windows/desktop/aa374320.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrUserMarshalBufferSize](https://msdn.microsoft.com/library/windows/desktop/aa374329.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrUserMarshalFree](https://msdn.microsoft.com/library/windows/desktop/aa374332.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrUserMarshalMarshall](https://msdn.microsoft.com/library/windows/desktop/aa374334.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrSimpleStructUnmarshall](/windows/win32/api/rpcndr/nf-rpcndr-ndrsimplestructunmarshall) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrSimpleTypeMarshall](/windows/win32/api/rpcndr/nf-rpcndr-ndrsimpletypemarshall) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrSimpleTypeUnmarshall](/windows/win32/api/rpcndr/nf-rpcndr-ndrsimpletypeunmarshall) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrStubCall2](/windows/win32/api/rpcndr/nf-rpcndr-ndrstubcall2) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrStubCall3](/windows/win32/api/rpcndr/nf-rpcndr-ndrstubcall3) | Introduced into rpcrt4.dll in 10.0.10240. Removed in 10.0.16299. |
+| [NdrStubForwardingFunction](/windows/win32/api/rpcproxy/nf-rpcproxy-ndrstubforwardingfunction) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrUserMarshalBufferSize](/windows/win32/api/rpcndr/nf-rpcndr-ndrusermarshalbuffersize) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrUserMarshalFree](/windows/win32/api/rpcndr/nf-rpcndr-ndrusermarshalfree) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrUserMarshalMarshall](/windows/win32/api/rpcndr/nf-rpcndr-ndrusermarshalmarshall) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrUserMarshalMemorySize | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrUserMarshalSimpleTypeConvert | Introduced into rpcrt4.dll in 10.0.10240. |
-| [NdrUserMarshalUnmarshall](https://msdn.microsoft.com/library/Bb432373(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [NdrUserMarshalUnmarshall](/windows/win32/api/rpcndr/nf-rpcndr-ndrusermarshalunmarshall) | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrVaryingArrayBufferSize | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrVaryingArrayFree | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrVaryingArrayMarshall | Introduced into rpcrt4.dll in 10.0.10240. |
@@ -2723,443 +2723,443 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | NdrXmitOrRepAsMarshall | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrXmitOrRepAsMemorySize | Introduced into rpcrt4.dll in 10.0.10240. |
 | NdrXmitOrRepAsUnmarshall | Introduced into rpcrt4.dll in 10.0.10240. |
-| [RpcSmAllocate](https://msdn.microsoft.com/library/windows/desktop/aa378458.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [RpcSmClientFree](https://msdn.microsoft.com/library/windows/desktop/aa378459.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [RpcSmDestroyClientContext](https://msdn.microsoft.com/library/windows/desktop/aa378460.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [RpcSmDisableAllocate](https://msdn.microsoft.com/library/windows/desktop/aa378461.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [RpcSmEnableAllocate](https://msdn.microsoft.com/library/windows/desktop/aa378462.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [RpcSmFree](https://msdn.microsoft.com/library/windows/desktop/aa378463.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [RpcSmGetThreadHandle](https://msdn.microsoft.com/library/windows/desktop/aa378464.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [RpcSmSetClientAllocFree](https://msdn.microsoft.com/library/windows/desktop/aa378465.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [RpcSmSetThreadHandle](https://msdn.microsoft.com/library/windows/desktop/aa378466.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [RpcSmSwapClientAllocFree](https://msdn.microsoft.com/library/windows/desktop/aa378467.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [RpcSsAllocate](https://msdn.microsoft.com/library/windows/desktop/aa378468.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [RpcSsDestroyClientContext](https://msdn.microsoft.com/library/windows/desktop/aa378471.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [RpcSsDisableAllocate](https://msdn.microsoft.com/library/windows/desktop/aa378472.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [RpcSsEnableAllocate](https://msdn.microsoft.com/library/windows/desktop/aa378474.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [RpcSsFree](https://msdn.microsoft.com/library/windows/desktop/aa378475.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [RpcSsGetThreadHandle](https://msdn.microsoft.com/library/windows/desktop/aa378476.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [RpcSsSetClientAllocFree](https://msdn.microsoft.com/library/windows/desktop/aa378477.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [RpcSsSetThreadHandle](https://msdn.microsoft.com/library/windows/desktop/aa378478.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [RpcSsSwapClientAllocFree](https://msdn.microsoft.com/library/windows/desktop/aa378479.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [RpcUserFree](https://msdn.microsoft.com/library/windows/desktop/mt297501.aspx) | Introduced into rpcrt4.dll in 10.0.10240. |
-| [UuidToStringW](https://msdn.microsoft.com/library/Aa379352(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [UuidToStringA](https://msdn.microsoft.com/library/Aa379352(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [UuidIsNil](https://msdn.microsoft.com/library/Aa379347(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [UuidHash](https://msdn.microsoft.com/library/Aa379343(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [UuidFromStringW](https://msdn.microsoft.com/library/Aa379336(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [UuidFromStringA](https://msdn.microsoft.com/library/Aa379336(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [UuidEqual](https://msdn.microsoft.com/library/Aa379329(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [UuidCreateSequential](https://msdn.microsoft.com/library/Aa379322(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [UuidCreateNil](https://msdn.microsoft.com/library/Aa379262(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [UuidCreate](https://msdn.microsoft.com/library/Aa379205(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [UuidCompare](https://msdn.microsoft.com/library/Aa379201(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcTestCancel](https://msdn.microsoft.com/library/Aa378484(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcStringFreeW](https://msdn.microsoft.com/library/Aa378483(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcStringFreeA](https://msdn.microsoft.com/library/Aa378483(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcStringBindingParseW](https://msdn.microsoft.com/library/Aa378482(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcStringBindingParseA](https://msdn.microsoft.com/library/Aa378482(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcStringBindingComposeW](https://msdn.microsoft.com/library/Aa378481(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcStringBindingComposeA](https://msdn.microsoft.com/library/Aa378481(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcRaiseException](https://msdn.microsoft.com/library/Aa378429(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcNetworkIsProtseqValidW](https://msdn.microsoft.com/library/Aa375804(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcNetworkIsProtseqValidA](https://msdn.microsoft.com/library/Aa375804(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcMgmtSetComTimeout](https://msdn.microsoft.com/library/Aa375779(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcMgmtSetCancelTimeout](https://msdn.microsoft.com/library/Aa375771(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcMgmtIsServerListening](https://msdn.microsoft.com/library/Aa375763(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcMgmtInqStats](https://msdn.microsoft.com/library/Aa375759(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcMgmtInqServerPrincNameW](https://msdn.microsoft.com/library/Aa375756(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcMgmtInqServerPrincNameA](https://msdn.microsoft.com/library/Aa375756(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcExceptionFilter](https://msdn.microsoft.com/library/JJ203733(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcErrorStartEnumeration](https://msdn.microsoft.com/library/Aa375686(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcErrorSaveErrorInfo](https://msdn.microsoft.com/library/Aa375684(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcErrorResetEnumeration](https://msdn.microsoft.com/library/Aa375679(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcErrorLoadErrorInfo](https://msdn.microsoft.com/library/Aa375677(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcErrorGetNumberOfRecords](https://msdn.microsoft.com/library/Aa375671(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcErrorGetNextRecord](https://msdn.microsoft.com/library/Aa375668(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcErrorEndEnumeration](https://msdn.microsoft.com/library/Aa375664(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcErrorClearInformation](https://msdn.microsoft.com/library/Aa375661(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcErrorAddRecord](https://msdn.microsoft.com/library/Aa375658(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcEpResolveBinding](https://msdn.microsoft.com/library/Aa375645(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingUnbind](https://msdn.microsoft.com/library/Aa375613(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingToStringBindingW](https://msdn.microsoft.com/library/Aa375612(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingToStringBindingA](https://msdn.microsoft.com/library/Aa375612(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingSetOption](https://msdn.microsoft.com/library/Aa375611(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingSetObject](https://msdn.microsoft.com/library/Aa375609(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingSetAuthInfoW](https://msdn.microsoft.com/library/Aa375606(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingSetAuthInfoExW](https://msdn.microsoft.com/library/Aa375608(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingSetAuthInfoExA](https://msdn.microsoft.com/library/Aa375608(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingSetAuthInfoA](https://msdn.microsoft.com/library/Aa375606(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingReset](https://msdn.microsoft.com/library/Aa375603(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingInqOption](https://msdn.microsoft.com/library/Aa375600(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingInqObject](https://msdn.microsoft.com/library/Aa375598(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingInqAuthInfoW](https://msdn.microsoft.com/library/Aa375593(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingInqAuthInfoExW](https://msdn.microsoft.com/library/Aa375595(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingInqAuthInfoExA](https://msdn.microsoft.com/library/Aa375595(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingInqAuthInfoA](https://msdn.microsoft.com/library/Aa375593(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingFromStringBindingW](https://msdn.microsoft.com/library/Aa375590(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingFromStringBindingA](https://msdn.microsoft.com/library/Aa375590(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingFree](https://msdn.microsoft.com/library/Aa375588(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingCreateW](https://msdn.microsoft.com/library/Aa375587(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingCreateA](https://msdn.microsoft.com/library/Aa375587(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingCopy](https://msdn.microsoft.com/library/Aa375585(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcBindingBind](https://msdn.microsoft.com/library/Aa375583(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcAsyncInitializeHandle](https://msdn.microsoft.com/library/Aa375578(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcAsyncGetCallStatus](https://msdn.microsoft.com/library/Aa375576(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcAsyncCompleteCall](https://msdn.microsoft.com/library/Aa375572(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcAsyncCancelCall](https://msdn.microsoft.com/library/Aa375570(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [RpcAsyncAbortCall](https://msdn.microsoft.com/library/Aa375565(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [NdrClientCall4](https://msdn.microsoft.com/library/windows/desktop/mt297484.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [NdrAsyncClientCall2](https://msdn.microsoft.com/library/windows/desktop/mt297483.aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [DceErrorInqTextW](https://msdn.microsoft.com/library/Aa373623(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
-| [DceErrorInqTextA](https://msdn.microsoft.com/library/Aa373623(v=VS.85).aspx) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcSmAllocate](/windows/win32/api/rpcndr/nf-rpcndr-rpcsmallocate) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [RpcSmClientFree](/windows/win32/api/rpcndr/nf-rpcndr-rpcsmclientfree) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [RpcSmDestroyClientContext](/windows/win32/api/rpcndr/nf-rpcndr-rpcsmdestroyclientcontext) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [RpcSmDisableAllocate](/windows/win32/api/rpcndr/nf-rpcndr-rpcsmdisableallocate) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [RpcSmEnableAllocate](/windows/win32/api/rpcndr/nf-rpcndr-rpcsmenableallocate) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [RpcSmFree](/windows/win32/api/rpcndr/nf-rpcndr-rpcsmfree) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [RpcSmGetThreadHandle](/windows/win32/api/rpcndr/nf-rpcndr-rpcsmgetthreadhandle) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [RpcSmSetClientAllocFree](/windows/win32/api/rpcndr/nf-rpcndr-rpcsmsetclientallocfree) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [RpcSmSetThreadHandle](/windows/win32/api/rpcndr/nf-rpcndr-rpcsmsetthreadhandle) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [RpcSmSwapClientAllocFree](/windows/win32/api/rpcndr/nf-rpcndr-rpcsmswapclientallocfree) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [RpcSsAllocate](/windows/win32/api/rpcndr/nf-rpcndr-rpcssallocate) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [RpcSsDestroyClientContext](/windows/win32/api/rpcndr/nf-rpcndr-rpcssdestroyclientcontext) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [RpcSsDisableAllocate](/windows/win32/api/rpcndr/nf-rpcndr-rpcssdisableallocate) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [RpcSsEnableAllocate](/windows/win32/api/rpcndr/nf-rpcndr-rpcssenableallocate) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [RpcSsFree](/windows/win32/api/rpcndr/nf-rpcndr-rpcssfree) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [RpcSsGetThreadHandle](/windows/win32/api/rpcndr/nf-rpcndr-rpcssgetthreadhandle) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [RpcSsSetClientAllocFree](/windows/win32/api/rpcndr/nf-rpcndr-rpcsssetclientallocfree) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [RpcSsSetThreadHandle](/windows/win32/api/rpcndr/nf-rpcndr-rpcsssetthreadhandle) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [RpcSsSwapClientAllocFree](/windows/win32/api/rpcndr/nf-rpcndr-rpcssswapclientallocfree) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [RpcUserFree](/windows/win32/api/rpcndr/nf-rpcndr-rpcuserfree) | Introduced into rpcrt4.dll in 10.0.10240. |
+| [UuidToStringW](/windows/win32/api/rpcdce/nf-rpcdce-uuidtostring) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [UuidToStringA](/windows/win32/api/rpcdce/nf-rpcdce-uuidtostring) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [UuidIsNil](/windows/win32/api/rpcdce/nf-rpcdce-uuidisnil) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [UuidHash](/windows/win32/api/rpcdce/nf-rpcdce-uuidhash) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [UuidFromStringW](/windows/win32/api/rpcdce/nf-rpcdce-uuidfromstring) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [UuidFromStringA](/windows/win32/api/rpcdce/nf-rpcdce-uuidfromstring) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [UuidEqual](/windows/win32/api/rpcdce/nf-rpcdce-uuidequal) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [UuidCreateSequential](/windows/win32/api/rpcdce/nf-rpcdce-uuidcreatesequential) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [UuidCreateNil](/windows/win32/api/rpcdce/nf-rpcdce-uuidcreatenil) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [UuidCreate](/windows/win32/api/rpcdce/nf-rpcdce-uuidcreate) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [UuidCompare](/windows/win32/api/rpcdce/nf-rpcdce-uuidcompare) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcTestCancel](/windows/win32/api/rpcdce/nf-rpcdce-rpctestcancel) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcStringFreeW](/windows/win32/api/rpcdce/nf-rpcdce-rpcstringfree) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcStringFreeA](/windows/win32/api/rpcdce/nf-rpcdce-rpcstringfree) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcStringBindingParseW](/windows/win32/api/rpcdce/nf-rpcdce-rpcstringbindingparse) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcStringBindingParseA](/windows/win32/api/rpcdce/nf-rpcdce-rpcstringbindingparse) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcStringBindingComposeW](/windows/win32/api/rpcdce/nf-rpcdce-rpcstringbindingcompose) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcStringBindingComposeA](/windows/win32/api/rpcdce/nf-rpcdce-rpcstringbindingcompose) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcRaiseException](/windows/win32/api/rpcdce/nf-rpcdce-rpcraiseexception) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcNetworkIsProtseqValidW](/windows/win32/api/rpcdce/nf-rpcdce-rpcnetworkisprotseqvalid) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcNetworkIsProtseqValidA](/windows/win32/api/rpcdce/nf-rpcdce-rpcnetworkisprotseqvalid) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcMgmtSetComTimeout](/windows/win32/api/rpcdce/nf-rpcdce-rpcmgmtsetcomtimeout) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcMgmtSetCancelTimeout](/windows/win32/api/rpcdce/nf-rpcdce-rpcmgmtsetcanceltimeout) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcMgmtIsServerListening](/windows/win32/api/rpcdce/nf-rpcdce-rpcmgmtisserverlistening) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcMgmtInqStats](/windows/win32/api/rpcdce/nf-rpcdce-rpcmgmtinqstats) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcMgmtInqServerPrincNameW](/windows/win32/api/rpcdce/nf-rpcdce-rpcmgmtinqserverprincname) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcMgmtInqServerPrincNameA](/windows/win32/api/rpcdce/nf-rpcdce-rpcmgmtinqserverprincname) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcExceptionFilter](/windows/win32/api/rpcdce/nf-rpcdce-rpcexceptionfilter) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcErrorStartEnumeration](/windows/win32/api/rpcasync/nf-rpcasync-rpcerrorstartenumeration) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcErrorSaveErrorInfo](/windows/win32/api/rpcasync/nf-rpcasync-rpcerrorsaveerrorinfo) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcErrorResetEnumeration](/windows/win32/api/rpcasync/nf-rpcasync-rpcerrorresetenumeration) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcErrorLoadErrorInfo](/windows/win32/api/rpcasync/nf-rpcasync-rpcerrorloaderrorinfo) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcErrorGetNumberOfRecords](/windows/win32/api/rpcasync/nf-rpcasync-rpcerrorgetnumberofrecords) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcErrorGetNextRecord](/windows/win32/api/rpcasync/nf-rpcasync-rpcerrorgetnextrecord) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcErrorEndEnumeration](/windows/win32/api/rpcasync/nf-rpcasync-rpcerrorendenumeration) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcErrorClearInformation](/windows/win32/api/rpcasync/nf-rpcasync-rpcerrorclearinformation) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcErrorAddRecord](/windows/win32/api/rpcasync/nf-rpcasync-rpcerroraddrecord) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcEpResolveBinding](/windows/win32/api/rpcdce/nf-rpcdce-rpcepresolvebinding) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingUnbind](/windows/win32/api/rpcasync/nf-rpcasync-rpcbindingunbind) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingToStringBindingW](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingtostringbinding) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingToStringBindingA](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingtostringbinding) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingSetOption](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingsetoption) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingSetObject](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingsetobject) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingSetAuthInfoW](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingSetAuthInfoExW](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingSetAuthInfoExA](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingSetAuthInfoA](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingReset](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingreset) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingInqOption](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindinginqoption) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingInqObject](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindinginqobject) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingInqAuthInfoW](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindinginqauthinfo) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingInqAuthInfoExW](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindinginqauthinfoexa) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingInqAuthInfoExA](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindinginqauthinfoexa) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingInqAuthInfoA](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindinginqauthinfo) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingFromStringBindingW](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingFromStringBindingA](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingFree](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingfree) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingCreateW](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingcreatea) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingCreateA](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingcreatea) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingCopy](/windows/win32/api/rpcdce/nf-rpcdce-rpcbindingcopy) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcBindingBind](/windows/win32/api/rpcasync/nf-rpcasync-rpcbindingbind) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcAsyncInitializeHandle](/windows/win32/api/rpcasync/nf-rpcasync-rpcasyncinitializehandle) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcAsyncGetCallStatus](/windows/win32/api/rpcasync/nf-rpcasync-rpcasyncgetcallstatus) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcAsyncCompleteCall](/windows/win32/api/rpcasync/nf-rpcasync-rpcasynccompletecall) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcAsyncCancelCall](/windows/win32/api/rpcasync/nf-rpcasync-rpcasynccancelcall) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [RpcAsyncAbortCall](/windows/win32/api/rpcasync/nf-rpcasync-rpcasyncabortcall) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [NdrClientCall4](/windows/win32/api/rpcndr/nf-rpcndr-ndrclientcall4) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [NdrAsyncClientCall2](/windows/win32/api/rpcndr/nf-rpcndr-ndrasyncclientcall2) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [DceErrorInqTextW](/windows/win32/api/rpcdce/nf-rpcdce-dceerrorinqtext) | Introduced into rpcrt4.dll in 10.0.16299. |
+| [DceErrorInqTextA](/windows/win32/api/rpcdce/nf-rpcdce-dceerrorinqtext) | Introduced into rpcrt4.dll in 10.0.16299. |
 
 
 ## APIs from uiautomationcore.dll
 
 | API | Requirements |
 | -----| --------------|
-| [UiaClientsAreListening](https://msdn.microsoft.com/library/windows/desktop/ee671704.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
-| [UiaDisconnectAllProviders](https://msdn.microsoft.com/library/windows/desktop/hh437311.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-2.dll in 10.0.16299. |
-| [UiaDisconnectProvider](https://msdn.microsoft.com/library/windows/desktop/hh437312.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
-| [UiaGetReservedMixedAttributeValue](https://msdn.microsoft.com/library/windows/desktop/ee684038.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
-| [UiaGetReservedNotSupportedValue](https://msdn.microsoft.com/library/windows/desktop/ee684039.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
-| [UiaHostProviderFromHwnd](https://msdn.microsoft.com/library/windows/desktop/ee684044.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-0.dll in 10.0.16299. |
-| [UiaProviderForNonClient](https://msdn.microsoft.com/library/windows/desktop/hh437314.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. |
-| [UiaProviderFromIAccessible](https://msdn.microsoft.com/library/windows/desktop/hh437315.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. |
-| [UiaRaiseAsyncContentLoadedEvent](https://msdn.microsoft.com/library/windows/desktop/ee684061.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. |
-| [UiaRaiseAutomationEvent](https://msdn.microsoft.com/library/windows/desktop/ee684062.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
-| [UiaRaiseAutomationPropertyChangedEvent](https://msdn.microsoft.com/library/windows/desktop/ee671601.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
-| [UiaRaiseStructureChangedEvent](https://msdn.microsoft.com/library/windows/desktop/ee684063.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
-| [UiaRaiseTextEditTextChangedEvent](https://msdn.microsoft.com/library/windows/desktop/dn302213.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-2.dll in 10.0.16299. |
-| [UiaReturnRawElementProvider](https://msdn.microsoft.com/library/windows/desktop/ee684069.aspx) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-0.dll in 10.0.16299. |
-| [UiaRaiseChangesEvent](https://msdn.microsoft.com/library/windows/desktop/mt733044.aspx) | Introduced into uiautomationcore.dll in 10.0.14393. Moved into ext-ms-win-uiacore-l1-1-3.dll in 10.0.16299. |
+| [UiaClientsAreListening](/windows/win32/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaclientsarelistening) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
+| [UiaDisconnectAllProviders](/windows/win32/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiadisconnectallproviders) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-2.dll in 10.0.16299. |
+| [UiaDisconnectProvider](/windows/win32/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiadisconnectprovider) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
+| [UiaGetReservedMixedAttributeValue](/windows/win32/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiagetreservedmixedattributevalue) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
+| [UiaGetReservedNotSupportedValue](/windows/win32/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiagetreservednotsupportedvalue) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
+| [UiaHostProviderFromHwnd](/windows/win32/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiahostproviderfromhwnd) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-0.dll in 10.0.16299. |
+| [UiaProviderForNonClient](/windows/win32/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaproviderfornonclient) | Introduced into uiautomationcore.dll in 10.0.10240. |
+| [UiaProviderFromIAccessible](/windows/win32/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaproviderfromiaccessible) | Introduced into uiautomationcore.dll in 10.0.10240. |
+| [UiaRaiseAsyncContentLoadedEvent](/windows/win32/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaraiseasynccontentloadedevent) | Introduced into uiautomationcore.dll in 10.0.10240. |
+| [UiaRaiseAutomationEvent](/windows/win32/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaraiseautomationevent) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
+| [UiaRaiseAutomationPropertyChangedEvent](/windows/win32/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaraiseautomationpropertychangedevent) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
+| [UiaRaiseStructureChangedEvent](/windows/win32/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaraisestructurechangedevent) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-1.dll in 10.0.16299. |
+| [UiaRaiseTextEditTextChangedEvent](/windows/win32/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaraisetextedittextchangedevent) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-2.dll in 10.0.16299. |
+| [UiaReturnRawElementProvider](/windows/win32/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiareturnrawelementprovider) | Introduced into uiautomationcore.dll in 10.0.10240. Moved into ext-ms-win-uiacore-l1-1-0.dll in 10.0.16299. |
+| [UiaRaiseChangesEvent](/windows/win32/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaraisechangesevent) | Introduced into uiautomationcore.dll in 10.0.14393. Moved into ext-ms-win-uiacore-l1-1-3.dll in 10.0.16299. |
 
 
 ## APIs from urlmon.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateUri](https://msdn.microsoft.com/library/windows/desktop/ms775098.aspx) | Introduced into urlmon.dll in 10.0.10240. Moved into ext-ms-win-core-iuri-l1-1-0.dll in 10.0.16299. |
-| [CreateUriWithFragment](https://msdn.microsoft.com/library/windows/desktop/ms775100.aspx) | Introduced into urlmon.dll in 10.0.10240. Moved into ext-ms-win-core-iuri-l1-1-0.dll in 10.0.16299. |
-| [UrlMkGetSessionOption](https://msdn.microsoft.com/library/ms775124(v=VS.85).aspx) | Introduced into urlmon.dll in 10.0.16299. |
-| [UrlMkSetSessionOption](https://msdn.microsoft.com/library/ms775125(v=VS.85).aspx) | Introduced into urlmon.dll in 10.0.16299. |
+| [CreateUri](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775098(v=vs.85)) | Introduced into urlmon.dll in 10.0.10240. Moved into ext-ms-win-core-iuri-l1-1-0.dll in 10.0.16299. |
+| [CreateUriWithFragment](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775100(v=vs.85)) | Introduced into urlmon.dll in 10.0.10240. Moved into ext-ms-win-core-iuri-l1-1-0.dll in 10.0.16299. |
+| [UrlMkGetSessionOption](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775124(v=vs.85)) | Introduced into urlmon.dll in 10.0.16299. |
+| [UrlMkSetSessionOption](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775125(v=vs.85)) | Introduced into urlmon.dll in 10.0.16299. |
 
 
 ## APIs from webservices.dll
 
 | API | Requirements |
 | -----| --------------|
-| [WsAbandonCall](https://msdn.microsoft.com/library/windows/desktop/dd430472.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsAbandonMessage](https://msdn.microsoft.com/library/windows/desktop/dd430473.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsAbortChannel](https://msdn.microsoft.com/library/windows/desktop/dd430474.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsAbortServiceProxy](https://msdn.microsoft.com/library/windows/desktop/dd430477.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsAddCustomHeader](https://msdn.microsoft.com/library/windows/desktop/dd430479.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsAddErrorString](https://msdn.microsoft.com/library/windows/desktop/dd430480.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsAddMappedHeader](https://msdn.microsoft.com/library/windows/desktop/dd430481.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsAddressMessage](https://msdn.microsoft.com/library/windows/desktop/dd430482.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsAlloc](https://msdn.microsoft.com/library/windows/desktop/dd430483.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsAsyncExecute](https://msdn.microsoft.com/library/windows/desktop/dd430484.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsCall](https://msdn.microsoft.com/library/windows/desktop/dd430485.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsCheckMustUnderstandHeaders](https://msdn.microsoft.com/library/windows/desktop/dd430486.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsCloseChannel](https://msdn.microsoft.com/library/windows/desktop/dd430487.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsCloseServiceProxy](https://msdn.microsoft.com/library/windows/desktop/dd430490.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsCombineUrl](https://msdn.microsoft.com/library/windows/desktop/dd430491.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsCopyError](https://msdn.microsoft.com/library/windows/desktop/dd430492.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsCopyNode](https://msdn.microsoft.com/library/windows/desktop/dd430493.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsCreateChannel](https://msdn.microsoft.com/library/windows/desktop/dd430495.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsCreateError](https://msdn.microsoft.com/library/windows/desktop/dd430497.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsCreateFaultFromError](https://msdn.microsoft.com/library/windows/desktop/dd430498.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsCreateHeap](https://msdn.microsoft.com/library/windows/desktop/dd430499.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsCreateMessage](https://msdn.microsoft.com/library/windows/desktop/dd430501.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsCreateMessageForChannel](https://msdn.microsoft.com/library/windows/desktop/dd430502.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsCreateMetadata](https://msdn.microsoft.com/library/windows/desktop/dd430503.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsCreateReader](https://msdn.microsoft.com/library/windows/desktop/dd430504.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsCreateServiceProxy](https://msdn.microsoft.com/library/windows/desktop/dd430507.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsCreateServiceProxyFromTemplate](https://msdn.microsoft.com/library/windows/desktop/dd430508.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsCreateWriter](https://msdn.microsoft.com/library/windows/desktop/dd430509.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsCreateXmlBuffer](https://msdn.microsoft.com/library/windows/desktop/dd430510.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsCreateXmlSecurityToken](https://msdn.microsoft.com/library/windows/desktop/dd430511.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsDateTimeToFileTime](https://msdn.microsoft.com/library/windows/desktop/dd430512.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsDecodeUrl](https://msdn.microsoft.com/library/Dd430513(v=VS.85).aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsEncodeUrl](https://msdn.microsoft.com/library/windows/desktop/dd430516.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsEndReaderCanonicalization](https://msdn.microsoft.com/library/windows/desktop/dd430517.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsEndWriterCanonicalization](https://msdn.microsoft.com/library/windows/desktop/dd430518.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsFileTimeToDateTime](https://msdn.microsoft.com/library/windows/desktop/dd430519.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsFillBody](https://msdn.microsoft.com/library/windows/desktop/dd430520.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsFillReader](https://msdn.microsoft.com/library/windows/desktop/dd430521.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsFindAttribute](https://msdn.microsoft.com/library/windows/desktop/dd430522.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsFlushBody](https://msdn.microsoft.com/library/windows/desktop/dd430523.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsFlushWriter](https://msdn.microsoft.com/library/windows/desktop/dd430524.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsFreeChannel](https://msdn.microsoft.com/library/windows/desktop/dd430525.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsFreeError](https://msdn.microsoft.com/library/windows/desktop/dd430526.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsFreeHeap](https://msdn.microsoft.com/library/windows/desktop/dd430527.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsFreeMessage](https://msdn.microsoft.com/library/windows/desktop/dd430529.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsFreeMetadata](https://msdn.microsoft.com/library/windows/desktop/dd430530.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsFreeReader](https://msdn.microsoft.com/library/windows/desktop/dd430531.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsFreeSecurityToken](https://msdn.microsoft.com/library/windows/desktop/dd430532.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsFreeServiceProxy](https://msdn.microsoft.com/library/windows/desktop/dd430534.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsFreeWriter](https://msdn.microsoft.com/library/windows/desktop/dd430535.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetChannelProperty](https://msdn.microsoft.com/library/windows/desktop/dd430536.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetCustomHeader](https://msdn.microsoft.com/library/windows/desktop/dd430537.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetDictionary](https://msdn.microsoft.com/library/windows/desktop/dd430538.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetErrorProperty](https://msdn.microsoft.com/library/windows/desktop/dd430539.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetErrorString](https://msdn.microsoft.com/library/windows/desktop/dd430540.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetFaultErrorDetail](https://msdn.microsoft.com/library/windows/desktop/dd430541.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetFaultErrorProperty](https://msdn.microsoft.com/library/windows/desktop/dd430542.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetHeader](https://msdn.microsoft.com/library/windows/desktop/dd430543.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetHeaderAttributes](https://msdn.microsoft.com/library/windows/desktop/dd430544.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetHeapProperty](https://msdn.microsoft.com/library/windows/desktop/dd430545.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetMappedHeader](https://msdn.microsoft.com/library/windows/desktop/dd430547.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetMessageProperty](https://msdn.microsoft.com/library/windows/desktop/dd430548.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetMetadataEndpoints](https://msdn.microsoft.com/library/windows/desktop/dd430549.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetMetadataProperty](https://msdn.microsoft.com/library/windows/desktop/dd430550.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetMissingMetadataDocumentAddress](https://msdn.microsoft.com/library/windows/desktop/dd430551.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetNamespaceFromPrefix](https://msdn.microsoft.com/library/windows/desktop/dd430552.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetPolicyAlternativeCount](https://msdn.microsoft.com/library/windows/desktop/dd430554.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetPolicyProperty](https://msdn.microsoft.com/library/windows/desktop/dd430556.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetPrefixFromNamespace](https://msdn.microsoft.com/library/windows/desktop/dd430557.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetReaderNode](https://msdn.microsoft.com/library/windows/desktop/dd430558.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetReaderPosition](https://msdn.microsoft.com/library/windows/desktop/dd430559.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetReaderProperty](https://msdn.microsoft.com/library/windows/desktop/dd430560.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetSecurityContextProperty](https://msdn.microsoft.com/library/windows/desktop/dd430561.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetSecurityTokenProperty](https://msdn.microsoft.com/library/windows/desktop/dd430562.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetServiceProxyProperty](https://msdn.microsoft.com/library/windows/desktop/dd430564.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetWriterPosition](https://msdn.microsoft.com/library/windows/desktop/dd430565.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetWriterProperty](https://msdn.microsoft.com/library/windows/desktop/dd430566.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsGetXmlAttribute](https://msdn.microsoft.com/library/windows/desktop/dd430567.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsInitializeMessage](https://msdn.microsoft.com/library/windows/desktop/dd430568.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsMarkHeaderAsUnderstood](https://msdn.microsoft.com/library/windows/desktop/dd430569.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsMatchPolicyAlternative](https://msdn.microsoft.com/library/windows/desktop/dd430570.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsMoveReader](https://msdn.microsoft.com/library/windows/desktop/dd430571.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsMoveWriter](https://msdn.microsoft.com/library/windows/desktop/dd430572.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsOpenChannel](https://msdn.microsoft.com/library/windows/desktop/dd430574.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsOpenServiceProxy](https://msdn.microsoft.com/library/windows/desktop/dd430577.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsPullBytes](https://msdn.microsoft.com/library/windows/desktop/dd430578.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsPushBytes](https://msdn.microsoft.com/library/windows/desktop/dd430580.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadArray](https://msdn.microsoft.com/library/windows/desktop/dd430581.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadAttribute](https://msdn.microsoft.com/library/windows/desktop/dd430582.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadBody](https://msdn.microsoft.com/library/windows/desktop/dd430583.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadBytes](https://msdn.microsoft.com/library/windows/desktop/dd430584.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadChars](https://msdn.microsoft.com/library/windows/desktop/dd430585.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadCharsUtf8](https://msdn.microsoft.com/library/windows/desktop/dd430586.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadElement](https://msdn.microsoft.com/library/windows/desktop/dd430587.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadEndAttribute](https://msdn.microsoft.com/library/windows/desktop/dd430588.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadEndElement](https://msdn.microsoft.com/library/windows/desktop/dd430589.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadEndpointAddressExtension](https://msdn.microsoft.com/library/windows/desktop/dd430590.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadEnvelopeEnd](https://msdn.microsoft.com/library/windows/desktop/dd430591.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadEnvelopeStart](https://msdn.microsoft.com/library/windows/desktop/dd430592.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadMessageEnd](https://msdn.microsoft.com/library/windows/desktop/dd430593.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadMessageStart](https://msdn.microsoft.com/library/windows/desktop/dd430594.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadMetadata](https://msdn.microsoft.com/library/windows/desktop/dd430595.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadNode](https://msdn.microsoft.com/library/windows/desktop/dd430596.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadQualifiedName](https://msdn.microsoft.com/library/windows/desktop/dd430597.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadStartAttribute](https://msdn.microsoft.com/library/windows/desktop/dd430598.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadStartElement](https://msdn.microsoft.com/library/windows/desktop/dd430599.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadToStartElement](https://msdn.microsoft.com/library/windows/desktop/dd430600.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadType](https://msdn.microsoft.com/library/windows/desktop/dd430601.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadValue](https://msdn.microsoft.com/library/windows/desktop/dd430602.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadXmlBuffer](https://msdn.microsoft.com/library/windows/desktop/dd430603.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReadXmlBufferFromBytes](https://msdn.microsoft.com/library/windows/desktop/dd430604.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsReceiveMessage](https://msdn.microsoft.com/library/windows/desktop/dd430605.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsRemoveCustomHeader](https://msdn.microsoft.com/library/windows/desktop/dd430607.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsRemoveHeader](https://msdn.microsoft.com/library/windows/desktop/dd430608.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsRemoveMappedHeader](https://msdn.microsoft.com/library/windows/desktop/dd430609.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsRemoveNode](https://msdn.microsoft.com/library/windows/desktop/dd430610.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsRequestReply](https://msdn.microsoft.com/library/windows/desktop/dd430611.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsRequestSecurityToken](https://msdn.microsoft.com/library/windows/desktop/dd430612.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsResetChannel](https://msdn.microsoft.com/library/windows/desktop/dd430613.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsResetError](https://msdn.microsoft.com/library/windows/desktop/dd430614.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsResetHeap](https://msdn.microsoft.com/library/windows/desktop/dd430615.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsResetMessage](https://msdn.microsoft.com/library/windows/desktop/dd430617.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsResetMetadata](https://msdn.microsoft.com/library/windows/desktop/dd430618.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsResetServiceProxy](https://msdn.microsoft.com/library/windows/desktop/dd430620.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsRevokeSecurityContext](https://msdn.microsoft.com/library/windows/desktop/dd430621.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsSendFaultMessageForError](https://msdn.microsoft.com/library/windows/desktop/dd430622.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsSendMessage](https://msdn.microsoft.com/library/windows/desktop/dd430623.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsSendReplyMessage](https://msdn.microsoft.com/library/windows/desktop/dd430624.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsSetChannelProperty](https://msdn.microsoft.com/library/windows/desktop/dd430626.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsSetErrorProperty](https://msdn.microsoft.com/library/windows/desktop/dd430627.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsSetFaultErrorDetail](https://msdn.microsoft.com/library/windows/desktop/dd430628.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsSetFaultErrorProperty](https://msdn.microsoft.com/library/windows/desktop/dd430629.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsSetHeader](https://msdn.microsoft.com/library/windows/desktop/dd430630.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsSetInput](https://msdn.microsoft.com/library/windows/desktop/dd430631.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsSetInputToBuffer](https://msdn.microsoft.com/library/windows/desktop/dd430632.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsSetMessageProperty](https://msdn.microsoft.com/library/windows/desktop/dd430634.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsSetOutput](https://msdn.microsoft.com/library/windows/desktop/dd430635.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsSetOutputToBuffer](https://msdn.microsoft.com/library/windows/desktop/dd430636.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsSetReaderPosition](https://msdn.microsoft.com/library/windows/desktop/dd430637.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsSetWriterPosition](https://msdn.microsoft.com/library/windows/desktop/dd430638.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsShutdownSessionChannel](https://msdn.microsoft.com/library/windows/desktop/dd430639.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsSkipNode](https://msdn.microsoft.com/library/windows/desktop/dd430640.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsStartReaderCanonicalization](https://msdn.microsoft.com/library/windows/desktop/dd430641.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsStartWriterCanonicalization](https://msdn.microsoft.com/library/windows/desktop/dd430642.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsTrimXmlWhitespace](https://msdn.microsoft.com/library/windows/desktop/dd430643.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsVerifyXmlNCName](https://msdn.microsoft.com/library/windows/desktop/dd430645.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteArray](https://msdn.microsoft.com/library/windows/desktop/dd430646.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteAttribute](https://msdn.microsoft.com/library/windows/desktop/dd430647.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteBody](https://msdn.microsoft.com/library/windows/desktop/dd430648.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteBytes](https://msdn.microsoft.com/library/windows/desktop/dd430649.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteChars](https://msdn.microsoft.com/library/windows/desktop/dd430650.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteCharsUtf8](https://msdn.microsoft.com/library/windows/desktop/dd430651.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteElement](https://msdn.microsoft.com/library/windows/desktop/dd430652.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteEndAttribute](https://msdn.microsoft.com/library/windows/desktop/dd430653.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteEndCData](https://msdn.microsoft.com/library/windows/desktop/dd430654.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteEndElement](https://msdn.microsoft.com/library/windows/desktop/dd430655.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteEndStartElement](https://msdn.microsoft.com/library/windows/desktop/dd430656.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteEnvelopeEnd](https://msdn.microsoft.com/library/windows/desktop/dd430657.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteEnvelopeStart](https://msdn.microsoft.com/library/windows/desktop/dd430658.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteMessageEnd](https://msdn.microsoft.com/library/windows/desktop/dd430659.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteMessageStart](https://msdn.microsoft.com/library/windows/desktop/dd430660.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteNode](https://msdn.microsoft.com/library/windows/desktop/dd430661.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteQualifiedName](https://msdn.microsoft.com/library/windows/desktop/dd430662.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteStartAttribute](https://msdn.microsoft.com/library/windows/desktop/dd430663.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteStartCData](https://msdn.microsoft.com/library/windows/desktop/dd430664.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteStartElement](https://msdn.microsoft.com/library/windows/desktop/dd430665.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteText](https://msdn.microsoft.com/library/windows/desktop/dd430667.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteType](https://msdn.microsoft.com/library/windows/desktop/dd430668.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteValue](https://msdn.microsoft.com/library/windows/desktop/dd430669.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteXmlBuffer](https://msdn.microsoft.com/library/windows/desktop/dd430670.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteXmlBufferToBytes](https://msdn.microsoft.com/library/windows/desktop/dd430671.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsWriteXmlnsAttribute](https://msdn.microsoft.com/library/windows/desktop/dd430672.aspx) | Introduced into webservices.dll in 10.0.10240. |
-| [WsXmlStringEquals](https://msdn.microsoft.com/library/windows/desktop/dd430673.aspx) | Introduced into webservices.dll in 10.0.10240. |
+| [WsAbandonCall](/windows/win32/api/webservices/nf-webservices-wsabandoncall) | Introduced into webservices.dll in 10.0.10240. |
+| [WsAbandonMessage](/windows/win32/api/webservices/nf-webservices-wsabandonmessage) | Introduced into webservices.dll in 10.0.10240. |
+| [WsAbortChannel](/windows/win32/api/webservices/nf-webservices-wsabortchannel) | Introduced into webservices.dll in 10.0.10240. |
+| [WsAbortServiceProxy](/windows/win32/api/webservices/nf-webservices-wsabortserviceproxy) | Introduced into webservices.dll in 10.0.10240. |
+| [WsAddCustomHeader](/windows/win32/api/webservices/nf-webservices-wsaddcustomheader) | Introduced into webservices.dll in 10.0.10240. |
+| [WsAddErrorString](/windows/win32/api/webservices/nf-webservices-wsadderrorstring) | Introduced into webservices.dll in 10.0.10240. |
+| [WsAddMappedHeader](/windows/win32/api/webservices/nf-webservices-wsaddmappedheader) | Introduced into webservices.dll in 10.0.10240. |
+| [WsAddressMessage](/windows/win32/api/webservices/nf-webservices-wsaddressmessage) | Introduced into webservices.dll in 10.0.10240. |
+| [WsAlloc](/windows/win32/api/webservices/nf-webservices-wsalloc) | Introduced into webservices.dll in 10.0.10240. |
+| [WsAsyncExecute](/windows/win32/api/webservices/nf-webservices-wsasyncexecute) | Introduced into webservices.dll in 10.0.10240. |
+| [WsCall](/windows/win32/api/webservices/nf-webservices-wscall) | Introduced into webservices.dll in 10.0.10240. |
+| [WsCheckMustUnderstandHeaders](/windows/win32/api/webservices/nf-webservices-wscheckmustunderstandheaders) | Introduced into webservices.dll in 10.0.10240. |
+| [WsCloseChannel](/windows/win32/api/webservices/nf-webservices-wsclosechannel) | Introduced into webservices.dll in 10.0.10240. |
+| [WsCloseServiceProxy](/windows/win32/api/webservices/nf-webservices-wscloseserviceproxy) | Introduced into webservices.dll in 10.0.10240. |
+| [WsCombineUrl](/windows/win32/api/webservices/nf-webservices-wscombineurl) | Introduced into webservices.dll in 10.0.10240. |
+| [WsCopyError](/windows/win32/api/webservices/nf-webservices-wscopyerror) | Introduced into webservices.dll in 10.0.10240. |
+| [WsCopyNode](/windows/win32/api/webservices/nf-webservices-wscopynode) | Introduced into webservices.dll in 10.0.10240. |
+| [WsCreateChannel](/windows/win32/api/webservices/nf-webservices-wscreatechannel) | Introduced into webservices.dll in 10.0.10240. |
+| [WsCreateError](/windows/win32/api/webservices/nf-webservices-wscreateerror) | Introduced into webservices.dll in 10.0.10240. |
+| [WsCreateFaultFromError](/windows/win32/api/webservices/nf-webservices-wscreatefaultfromerror) | Introduced into webservices.dll in 10.0.10240. |
+| [WsCreateHeap](/windows/win32/api/webservices/nf-webservices-wscreateheap) | Introduced into webservices.dll in 10.0.10240. |
+| [WsCreateMessage](/windows/win32/api/webservices/nf-webservices-wscreatemessage) | Introduced into webservices.dll in 10.0.10240. |
+| [WsCreateMessageForChannel](/windows/win32/api/webservices/nf-webservices-wscreatemessageforchannel) | Introduced into webservices.dll in 10.0.10240. |
+| [WsCreateMetadata](/windows/win32/api/webservices/nf-webservices-wscreatemetadata) | Introduced into webservices.dll in 10.0.10240. |
+| [WsCreateReader](/windows/win32/api/webservices/nf-webservices-wscreatereader) | Introduced into webservices.dll in 10.0.10240. |
+| [WsCreateServiceProxy](/windows/win32/api/webservices/nf-webservices-wscreateserviceproxy) | Introduced into webservices.dll in 10.0.10240. |
+| [WsCreateServiceProxyFromTemplate](/windows/win32/api/webservices/nf-webservices-wscreateserviceproxyfromtemplate) | Introduced into webservices.dll in 10.0.10240. |
+| [WsCreateWriter](/windows/win32/api/webservices/nf-webservices-wscreatewriter) | Introduced into webservices.dll in 10.0.10240. |
+| [WsCreateXmlBuffer](/windows/win32/api/webservices/nf-webservices-wscreatexmlbuffer) | Introduced into webservices.dll in 10.0.10240. |
+| [WsCreateXmlSecurityToken](/windows/win32/api/webservices/nf-webservices-wscreatexmlsecuritytoken) | Introduced into webservices.dll in 10.0.10240. |
+| [WsDateTimeToFileTime](/windows/win32/api/webservices/nf-webservices-wsdatetimetofiletime) | Introduced into webservices.dll in 10.0.10240. |
+| [WsDecodeUrl](/windows/win32/api/webservices/nf-webservices-wsdecodeurl) | Introduced into webservices.dll in 10.0.10240. |
+| [WsEncodeUrl](/windows/win32/api/webservices/nf-webservices-wsencodeurl) | Introduced into webservices.dll in 10.0.10240. |
+| [WsEndReaderCanonicalization](/windows/win32/api/webservices/nf-webservices-wsendreadercanonicalization) | Introduced into webservices.dll in 10.0.10240. |
+| [WsEndWriterCanonicalization](/windows/win32/api/webservices/nf-webservices-wsendwritercanonicalization) | Introduced into webservices.dll in 10.0.10240. |
+| [WsFileTimeToDateTime](/windows/win32/api/webservices/nf-webservices-wsfiletimetodatetime) | Introduced into webservices.dll in 10.0.10240. |
+| [WsFillBody](/windows/win32/api/webservices/nf-webservices-wsfillbody) | Introduced into webservices.dll in 10.0.10240. |
+| [WsFillReader](/windows/win32/api/webservices/nf-webservices-wsfillreader) | Introduced into webservices.dll in 10.0.10240. |
+| [WsFindAttribute](/windows/win32/api/webservices/nf-webservices-wsfindattribute) | Introduced into webservices.dll in 10.0.10240. |
+| [WsFlushBody](/windows/win32/api/webservices/nf-webservices-wsflushbody) | Introduced into webservices.dll in 10.0.10240. |
+| [WsFlushWriter](/windows/win32/api/webservices/nf-webservices-wsflushwriter) | Introduced into webservices.dll in 10.0.10240. |
+| [WsFreeChannel](/windows/win32/api/webservices/nf-webservices-wsfreechannel) | Introduced into webservices.dll in 10.0.10240. |
+| [WsFreeError](/windows/win32/api/webservices/nf-webservices-wsfreeerror) | Introduced into webservices.dll in 10.0.10240. |
+| [WsFreeHeap](/windows/win32/api/webservices/nf-webservices-wsfreeheap) | Introduced into webservices.dll in 10.0.10240. |
+| [WsFreeMessage](/windows/win32/api/webservices/nf-webservices-wsfreemessage) | Introduced into webservices.dll in 10.0.10240. |
+| [WsFreeMetadata](/windows/win32/api/webservices/nf-webservices-wsfreemetadata) | Introduced into webservices.dll in 10.0.10240. |
+| [WsFreeReader](/windows/win32/api/webservices/nf-webservices-wsfreereader) | Introduced into webservices.dll in 10.0.10240. |
+| [WsFreeSecurityToken](/windows/win32/api/webservices/nf-webservices-wsfreesecuritytoken) | Introduced into webservices.dll in 10.0.10240. |
+| [WsFreeServiceProxy](/windows/win32/api/webservices/nf-webservices-wsfreeserviceproxy) | Introduced into webservices.dll in 10.0.10240. |
+| [WsFreeWriter](/windows/win32/api/webservices/nf-webservices-wsfreewriter) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetChannelProperty](/windows/win32/api/webservices/nf-webservices-wsgetchannelproperty) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetCustomHeader](/windows/win32/api/webservices/nf-webservices-wsgetcustomheader) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetDictionary](/windows/win32/api/webservices/nf-webservices-wsgetdictionary) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetErrorProperty](/windows/win32/api/webservices/nf-webservices-wsgeterrorproperty) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetErrorString](/windows/win32/api/webservices/nf-webservices-wsgeterrorstring) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetFaultErrorDetail](/windows/win32/api/webservices/nf-webservices-wsgetfaulterrordetail) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetFaultErrorProperty](/windows/win32/api/webservices/nf-webservices-wsgetfaulterrorproperty) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetHeader](/windows/win32/api/webservices/nf-webservices-wsgetheader) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetHeaderAttributes](/windows/win32/api/webservices/nf-webservices-wsgetheaderattributes) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetHeapProperty](/windows/win32/api/webservices/nf-webservices-wsgetheapproperty) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetMappedHeader](/windows/win32/api/webservices/nf-webservices-wsgetmappedheader) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetMessageProperty](/windows/win32/api/webservices/nf-webservices-wsgetmessageproperty) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetMetadataEndpoints](/windows/win32/api/webservices/nf-webservices-wsgetmetadataendpoints) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetMetadataProperty](/windows/win32/api/webservices/nf-webservices-wsgetmetadataproperty) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetMissingMetadataDocumentAddress](/windows/win32/api/webservices/nf-webservices-wsgetmissingmetadatadocumentaddress) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetNamespaceFromPrefix](/windows/win32/api/webservices/nf-webservices-wsgetnamespacefromprefix) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetPolicyAlternativeCount](/windows/win32/api/webservices/nf-webservices-wsgetpolicyalternativecount) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetPolicyProperty](/windows/win32/api/webservices/nf-webservices-wsgetpolicyproperty) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetPrefixFromNamespace](/windows/win32/api/webservices/nf-webservices-wsgetprefixfromnamespace) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetReaderNode](/windows/win32/api/webservices/nf-webservices-wsgetreadernode) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetReaderPosition](/windows/win32/api/webservices/nf-webservices-wsgetreaderposition) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetReaderProperty](/windows/win32/api/webservices/nf-webservices-wsgetreaderproperty) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetSecurityContextProperty](/windows/win32/api/webservices/nf-webservices-wsgetsecuritycontextproperty) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetSecurityTokenProperty](/windows/win32/api/webservices/nf-webservices-wsgetsecuritytokenproperty) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetServiceProxyProperty](/windows/win32/api/webservices/nf-webservices-wsgetserviceproxyproperty) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetWriterPosition](/windows/win32/api/webservices/nf-webservices-wsgetwriterposition) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetWriterProperty](/windows/win32/api/webservices/nf-webservices-wsgetwriterproperty) | Introduced into webservices.dll in 10.0.10240. |
+| [WsGetXmlAttribute](/windows/win32/api/webservices/nf-webservices-wsgetxmlattribute) | Introduced into webservices.dll in 10.0.10240. |
+| [WsInitializeMessage](/windows/win32/api/webservices/nf-webservices-wsinitializemessage) | Introduced into webservices.dll in 10.0.10240. |
+| [WsMarkHeaderAsUnderstood](/windows/win32/api/webservices/nf-webservices-wsmarkheaderasunderstood) | Introduced into webservices.dll in 10.0.10240. |
+| [WsMatchPolicyAlternative](/windows/win32/api/webservices/nf-webservices-wsmatchpolicyalternative) | Introduced into webservices.dll in 10.0.10240. |
+| [WsMoveReader](/windows/win32/api/webservices/nf-webservices-wsmovereader) | Introduced into webservices.dll in 10.0.10240. |
+| [WsMoveWriter](/windows/win32/api/webservices/nf-webservices-wsmovewriter) | Introduced into webservices.dll in 10.0.10240. |
+| [WsOpenChannel](/windows/win32/api/webservices/nf-webservices-wsopenchannel) | Introduced into webservices.dll in 10.0.10240. |
+| [WsOpenServiceProxy](/windows/win32/api/webservices/nf-webservices-wsopenserviceproxy) | Introduced into webservices.dll in 10.0.10240. |
+| [WsPullBytes](/windows/win32/api/webservices/nf-webservices-wspullbytes) | Introduced into webservices.dll in 10.0.10240. |
+| [WsPushBytes](/windows/win32/api/webservices/nf-webservices-wspushbytes) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadArray](/windows/win32/api/webservices/nf-webservices-wsreadarray) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadAttribute](/windows/win32/api/webservices/nf-webservices-wsreadattribute) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadBody](/windows/win32/api/webservices/nf-webservices-wsreadbody) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadBytes](/windows/win32/api/webservices/nf-webservices-wsreadbytes) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadChars](/windows/win32/api/webservices/nf-webservices-wsreadchars) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadCharsUtf8](/windows/win32/api/webservices/nf-webservices-wsreadcharsutf8) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadElement](/windows/win32/api/webservices/nf-webservices-wsreadelement) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadEndAttribute](/windows/win32/api/webservices/nf-webservices-wsreadendattribute) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadEndElement](/windows/win32/api/webservices/nf-webservices-wsreadendelement) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadEndpointAddressExtension](/windows/win32/api/webservices/nf-webservices-wsreadendpointaddressextension) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadEnvelopeEnd](/windows/win32/api/webservices/nf-webservices-wsreadenvelopeend) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadEnvelopeStart](/windows/win32/api/webservices/nf-webservices-wsreadenvelopestart) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadMessageEnd](/windows/win32/api/webservices/nf-webservices-wsreadmessageend) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadMessageStart](/windows/win32/api/webservices/nf-webservices-wsreadmessagestart) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadMetadata](/windows/win32/api/webservices/nf-webservices-wsreadmetadata) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadNode](/windows/win32/api/webservices/nf-webservices-wsreadnode) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadQualifiedName](/windows/win32/api/webservices/nf-webservices-wsreadqualifiedname) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadStartAttribute](/windows/win32/api/webservices/nf-webservices-wsreadstartattribute) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadStartElement](/windows/win32/api/webservices/nf-webservices-wsreadstartelement) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadToStartElement](/windows/win32/api/webservices/nf-webservices-wsreadtostartelement) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadType](/windows/win32/api/webservices/nf-webservices-wsreadtype) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadValue](/windows/win32/api/webservices/nf-webservices-wsreadvalue) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadXmlBuffer](/windows/win32/api/webservices/nf-webservices-wsreadxmlbuffer) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReadXmlBufferFromBytes](/windows/win32/api/webservices/nf-webservices-wsreadxmlbufferfrombytes) | Introduced into webservices.dll in 10.0.10240. |
+| [WsReceiveMessage](/windows/win32/api/webservices/nf-webservices-wsreceivemessage) | Introduced into webservices.dll in 10.0.10240. |
+| [WsRemoveCustomHeader](/windows/win32/api/webservices/nf-webservices-wsremovecustomheader) | Introduced into webservices.dll in 10.0.10240. |
+| [WsRemoveHeader](/windows/win32/api/webservices/nf-webservices-wsremoveheader) | Introduced into webservices.dll in 10.0.10240. |
+| [WsRemoveMappedHeader](/windows/win32/api/webservices/nf-webservices-wsremovemappedheader) | Introduced into webservices.dll in 10.0.10240. |
+| [WsRemoveNode](/windows/win32/api/webservices/nf-webservices-wsremovenode) | Introduced into webservices.dll in 10.0.10240. |
+| [WsRequestReply](/windows/win32/api/webservices/nf-webservices-wsrequestreply) | Introduced into webservices.dll in 10.0.10240. |
+| [WsRequestSecurityToken](/windows/win32/api/webservices/nf-webservices-wsrequestsecuritytoken) | Introduced into webservices.dll in 10.0.10240. |
+| [WsResetChannel](/windows/win32/api/webservices/nf-webservices-wsresetchannel) | Introduced into webservices.dll in 10.0.10240. |
+| [WsResetError](/windows/win32/api/webservices/nf-webservices-wsreseterror) | Introduced into webservices.dll in 10.0.10240. |
+| [WsResetHeap](/windows/win32/api/webservices/nf-webservices-wsresetheap) | Introduced into webservices.dll in 10.0.10240. |
+| [WsResetMessage](/windows/win32/api/webservices/nf-webservices-wsresetmessage) | Introduced into webservices.dll in 10.0.10240. |
+| [WsResetMetadata](/windows/win32/api/webservices/nf-webservices-wsresetmetadata) | Introduced into webservices.dll in 10.0.10240. |
+| [WsResetServiceProxy](/windows/win32/api/webservices/nf-webservices-wsresetserviceproxy) | Introduced into webservices.dll in 10.0.10240. |
+| [WsRevokeSecurityContext](/windows/win32/api/webservices/nf-webservices-wsrevokesecuritycontext) | Introduced into webservices.dll in 10.0.10240. |
+| [WsSendFaultMessageForError](/windows/win32/api/webservices/nf-webservices-wssendfaultmessageforerror) | Introduced into webservices.dll in 10.0.10240. |
+| [WsSendMessage](/windows/win32/api/webservices/nf-webservices-wssendmessage) | Introduced into webservices.dll in 10.0.10240. |
+| [WsSendReplyMessage](/windows/win32/api/webservices/nf-webservices-wssendreplymessage) | Introduced into webservices.dll in 10.0.10240. |
+| [WsSetChannelProperty](/windows/win32/api/webservices/nf-webservices-wssetchannelproperty) | Introduced into webservices.dll in 10.0.10240. |
+| [WsSetErrorProperty](/windows/win32/api/webservices/nf-webservices-wsseterrorproperty) | Introduced into webservices.dll in 10.0.10240. |
+| [WsSetFaultErrorDetail](/windows/win32/api/webservices/nf-webservices-wssetfaulterrordetail) | Introduced into webservices.dll in 10.0.10240. |
+| [WsSetFaultErrorProperty](/windows/win32/api/webservices/nf-webservices-wssetfaulterrorproperty) | Introduced into webservices.dll in 10.0.10240. |
+| [WsSetHeader](/windows/win32/api/webservices/nf-webservices-wssetheader) | Introduced into webservices.dll in 10.0.10240. |
+| [WsSetInput](/windows/win32/api/webservices/nf-webservices-wssetinput) | Introduced into webservices.dll in 10.0.10240. |
+| [WsSetInputToBuffer](/windows/win32/api/webservices/nf-webservices-wssetinputtobuffer) | Introduced into webservices.dll in 10.0.10240. |
+| [WsSetMessageProperty](/windows/win32/api/webservices/nf-webservices-wssetmessageproperty) | Introduced into webservices.dll in 10.0.10240. |
+| [WsSetOutput](/windows/win32/api/webservices/nf-webservices-wssetoutput) | Introduced into webservices.dll in 10.0.10240. |
+| [WsSetOutputToBuffer](/windows/win32/api/webservices/nf-webservices-wssetoutputtobuffer) | Introduced into webservices.dll in 10.0.10240. |
+| [WsSetReaderPosition](/windows/win32/api/webservices/nf-webservices-wssetreaderposition) | Introduced into webservices.dll in 10.0.10240. |
+| [WsSetWriterPosition](/windows/win32/api/webservices/nf-webservices-wssetwriterposition) | Introduced into webservices.dll in 10.0.10240. |
+| [WsShutdownSessionChannel](/windows/win32/api/webservices/nf-webservices-wsshutdownsessionchannel) | Introduced into webservices.dll in 10.0.10240. |
+| [WsSkipNode](/windows/win32/api/webservices/nf-webservices-wsskipnode) | Introduced into webservices.dll in 10.0.10240. |
+| [WsStartReaderCanonicalization](/windows/win32/api/webservices/nf-webservices-wsstartreadercanonicalization) | Introduced into webservices.dll in 10.0.10240. |
+| [WsStartWriterCanonicalization](/windows/win32/api/webservices/nf-webservices-wsstartwritercanonicalization) | Introduced into webservices.dll in 10.0.10240. |
+| [WsTrimXmlWhitespace](/windows/win32/api/webservices/nf-webservices-wstrimxmlwhitespace) | Introduced into webservices.dll in 10.0.10240. |
+| [WsVerifyXmlNCName](/windows/win32/api/webservices/nf-webservices-wsverifyxmlncname) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteArray](/windows/win32/api/webservices/nf-webservices-wswritearray) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteAttribute](/windows/win32/api/webservices/nf-webservices-wswriteattribute) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteBody](/windows/win32/api/webservices/nf-webservices-wswritebody) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteBytes](/windows/win32/api/webservices/nf-webservices-wswritebytes) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteChars](/windows/win32/api/webservices/nf-webservices-wswritechars) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteCharsUtf8](/windows/win32/api/webservices/nf-webservices-wswritecharsutf8) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteElement](/windows/win32/api/webservices/nf-webservices-wswriteelement) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteEndAttribute](/windows/win32/api/webservices/nf-webservices-wswriteendattribute) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteEndCData](/windows/win32/api/webservices/nf-webservices-wswriteendcdata) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteEndElement](/windows/win32/api/webservices/nf-webservices-wswriteendelement) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteEndStartElement](/windows/win32/api/webservices/nf-webservices-wswriteendstartelement) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteEnvelopeEnd](/windows/win32/api/webservices/nf-webservices-wswriteenvelopeend) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteEnvelopeStart](/windows/win32/api/webservices/nf-webservices-wswriteenvelopestart) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteMessageEnd](/windows/win32/api/webservices/nf-webservices-wswritemessageend) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteMessageStart](/windows/win32/api/webservices/nf-webservices-wswritemessagestart) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteNode](/windows/win32/api/webservices/nf-webservices-wswritenode) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteQualifiedName](/windows/win32/api/webservices/nf-webservices-wswritequalifiedname) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteStartAttribute](/windows/win32/api/webservices/nf-webservices-wswritestartattribute) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteStartCData](/windows/win32/api/webservices/nf-webservices-wswritestartcdata) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteStartElement](/windows/win32/api/webservices/nf-webservices-wswritestartelement) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteText](/windows/win32/api/webservices/nf-webservices-wswritetext) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteType](/windows/win32/api/webservices/nf-webservices-wswritetype) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteValue](/windows/win32/api/webservices/nf-webservices-wswritevalue) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteXmlBuffer](/windows/win32/api/webservices/nf-webservices-wswritexmlbuffer) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteXmlBufferToBytes](/windows/win32/api/webservices/nf-webservices-wswritexmlbuffertobytes) | Introduced into webservices.dll in 10.0.10240. |
+| [WsWriteXmlnsAttribute](/windows/win32/api/webservices/nf-webservices-wswritexmlnsattribute) | Introduced into webservices.dll in 10.0.10240. |
+| [WsXmlStringEquals](/windows/win32/api/webservices/nf-webservices-wsxmlstringequals) | Introduced into webservices.dll in 10.0.10240. |
 
 
 ## APIs from windows.data.pdf.dll
 
 | API | Requirements |
 | -----| --------------|
-| [PdfCreateRenderer](https://msdn.microsoft.com/library/windows/desktop/dn302145.aspx) | Introduced into windows.data.pdf.dll in 10.0.10240. |
+| [PdfCreateRenderer](/windows/win32/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-pdfcreaterenderer) | Introduced into windows.data.pdf.dll in 10.0.10240. |
 
 
 ## APIs from windows.networking.dll
 
 | API | Requirements |
 | -----| --------------|
-| [SetSocketMediaStreamingMode](https://msdn.microsoft.com/library/windows/desktop/hh994468.aspx) | Introduced into windows.networking.dll in 10.0.10240. |
+| [SetSocketMediaStreamingMode](/windows/win32/api/socketapi/nf-socketapi-setsocketmediastreamingmode) | Introduced into windows.networking.dll in 10.0.10240. |
 
 
 ## APIs from windowscodecs.dll
 
 | API | Requirements |
 | -----| --------------|
-| [WICConvertBitmapSource](https://msdn.microsoft.com/library/windows/desktop/ee719819.aspx) | Introduced into windowscodecs.dll in 10.0.10240. |
-| [WICCreateBitmapFromSection](https://msdn.microsoft.com/library/windows/desktop/ee719820.aspx) | Introduced into windowscodecs.dll in 10.0.10240. |
-| [WICCreateBitmapFromSectionEx](https://msdn.microsoft.com/library/windows/desktop/ee719821.aspx) | Introduced into windowscodecs.dll in 10.0.10240. |
-| [WICGetMetadataContentSize](https://msdn.microsoft.com/library/windows/desktop/ee719825.aspx) | Introduced into windowscodecs.dll in 10.0.10240. |
-| [WICMapGuidToShortName](https://msdn.microsoft.com/library/windows/desktop/ee719835.aspx) | Introduced into windowscodecs.dll in 10.0.10240. |
-| [WICMapSchemaToName](https://msdn.microsoft.com/library/windows/desktop/ee719836.aspx) | Introduced into windowscodecs.dll in 10.0.10240. |
-| [WICMapShortNameToGuid](https://msdn.microsoft.com/library/windows/desktop/ee719837.aspx) | Introduced into windowscodecs.dll in 10.0.10240. |
-| [WICMatchMetadataContent](https://msdn.microsoft.com/library/windows/desktop/ee719838.aspx) | Introduced into windowscodecs.dll in 10.0.10240. |
-| [WICSerializeMetadataContent](https://msdn.microsoft.com/library/windows/desktop/ee719865.aspx) | Introduced into windowscodecs.dll in 10.0.10240. |
+| [WICConvertBitmapSource](/windows/win32/api/wincodec/nf-wincodec-wicconvertbitmapsource) | Introduced into windowscodecs.dll in 10.0.10240. |
+| [WICCreateBitmapFromSection](/windows/win32/api/wincodec/nf-wincodec-wiccreatebitmapfromsection) | Introduced into windowscodecs.dll in 10.0.10240. |
+| [WICCreateBitmapFromSectionEx](/windows/win32/api/wincodec/nf-wincodec-wiccreatebitmapfromsectionex) | Introduced into windowscodecs.dll in 10.0.10240. |
+| [WICGetMetadataContentSize](/windows/win32/api/wincodecsdk/nf-wincodecsdk-wicgetmetadatacontentsize) | Introduced into windowscodecs.dll in 10.0.10240. |
+| [WICMapGuidToShortName](/windows/win32/api/wincodec/nf-wincodec-wicmapguidtoshortname) | Introduced into windowscodecs.dll in 10.0.10240. |
+| [WICMapSchemaToName](/windows/win32/api/wincodec/nf-wincodec-wicmapschematoname) | Introduced into windowscodecs.dll in 10.0.10240. |
+| [WICMapShortNameToGuid](/windows/win32/api/wincodec/nf-wincodec-wicmapshortnametoguid) | Introduced into windowscodecs.dll in 10.0.10240. |
+| [WICMatchMetadataContent](/windows/win32/api/wincodecsdk/nf-wincodecsdk-wicmatchmetadatacontent) | Introduced into windowscodecs.dll in 10.0.10240. |
+| [WICSerializeMetadataContent](/windows/win32/api/wincodecsdk/nf-wincodecsdk-wicserializemetadatacontent) | Introduced into windowscodecs.dll in 10.0.10240. |
 
 
 ## APIs from ws2_32.dll
 
 | API | Requirements |
 | -----| --------------|
-| [__WSAFDIsSet](https://msdn.microsoft.com/library/windows/desktop/ms741578.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [accept](https://msdn.microsoft.com/library/windows/desktop/ms737526.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [bind](https://msdn.microsoft.com/library/windows/desktop/ms737550.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [closesocket](https://msdn.microsoft.com/library/windows/desktop/ms737582.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [connect](https://msdn.microsoft.com/library/windows/desktop/ms737625.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [freeaddrinfo](https://msdn.microsoft.com/library/windows/desktop/ms737931.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [FreeAddrInfoExW](https://msdn.microsoft.com/library/windows/desktop/ms737906.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [FreeAddrInfoW](https://msdn.microsoft.com/library/windows/desktop/ms737912.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [getaddrinfo](https://msdn.microsoft.com/library/windows/desktop/ms738520.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [GetAddrInfoExCancel](https://msdn.microsoft.com/library/windows/desktop/hh448782.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [GetAddrInfoExOverlappedResult](https://msdn.microsoft.com/library/windows/desktop/hh448783.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [GetAddrInfoExW](https://msdn.microsoft.com/library/windows/desktop/ms738518.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [GetAddrInfoW](https://msdn.microsoft.com/library/windows/desktop/ms738519.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [gethostbyaddr](https://msdn.microsoft.com/library/windows/desktop/ms738521.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [gethostbyname](https://msdn.microsoft.com/library/windows/desktop/ms738524.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [gethostname](https://msdn.microsoft.com/library/windows/desktop/ms738527.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [GetHostNameW](https://msdn.microsoft.com/library/windows/desktop/dn793576.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [getnameinfo](https://msdn.microsoft.com/library/windows/desktop/ms738532.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [GetNameInfoW](https://msdn.microsoft.com/library/windows/desktop/ms738531.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [getpeername](https://msdn.microsoft.com/library/windows/desktop/ms738533.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [getprotobyname](https://msdn.microsoft.com/library/windows/desktop/ms738534.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [getprotobynumber](https://msdn.microsoft.com/library/windows/desktop/ms738537.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [getservbyname](https://msdn.microsoft.com/library/windows/desktop/ms738538.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [getservbyport](https://msdn.microsoft.com/library/windows/desktop/ms738541.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [getsockname](https://msdn.microsoft.com/library/windows/desktop/ms738543.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [getsockopt](https://msdn.microsoft.com/library/windows/desktop/ms738544.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [htonl](https://msdn.microsoft.com/library/windows/desktop/ms738556.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [htons](https://msdn.microsoft.com/library/windows/desktop/ms738557.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [inet_addr](https://msdn.microsoft.com/library/windows/desktop/ms738563.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [inet_ntoa](https://msdn.microsoft.com/library/windows/desktop/ms738564.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
+| [__WSAFDIsSet](/windows/win32/api/winsock/nf-winsock-__wsafdisset) | Introduced into ws2_32.dll in 10.0.10240. |
+| [accept](/windows/win32/api/winsock2/nf-winsock2-accept) | Introduced into ws2_32.dll in 10.0.10240. |
+| [bind](/windows/win32/api/winsock/nf-winsock-bind) | Introduced into ws2_32.dll in 10.0.10240. |
+| [closesocket](/windows/win32/api/winsock/nf-winsock-closesocket) | Introduced into ws2_32.dll in 10.0.10240. |
+| [connect](/windows/win32/api/winsock2/nf-winsock2-connect) | Introduced into ws2_32.dll in 10.0.10240. |
+| [freeaddrinfo](/windows/win32/api/ws2tcpip/nf-ws2tcpip-freeaddrinfo) | Introduced into ws2_32.dll in 10.0.10240. |
+| [FreeAddrInfoExW](/windows/win32/api/ws2tcpip/nf-ws2tcpip-freeaddrinfoex) | Introduced into ws2_32.dll in 10.0.10240. |
+| [FreeAddrInfoW](/windows/win32/api/ws2tcpip/nf-ws2tcpip-freeaddrinfow) | Introduced into ws2_32.dll in 10.0.10240. |
+| [getaddrinfo](/windows/win32/api/ws2tcpip/nf-ws2tcpip-getaddrinfo) | Introduced into ws2_32.dll in 10.0.10240. |
+| [GetAddrInfoExCancel](/windows/win32/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexcancel) | Introduced into ws2_32.dll in 10.0.10240. |
+| [GetAddrInfoExOverlappedResult](/windows/win32/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexoverlappedresult) | Introduced into ws2_32.dll in 10.0.10240. |
+| [GetAddrInfoExW](/windows/win32/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa) | Introduced into ws2_32.dll in 10.0.10240. |
+| [GetAddrInfoW](/windows/win32/api/ws2tcpip/nf-ws2tcpip-getaddrinfow) | Introduced into ws2_32.dll in 10.0.10240. |
+| [gethostbyaddr](/windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyaddr) | Introduced into ws2_32.dll in 10.0.10240. |
+| [gethostbyname](/windows/win32/api/wsipv6ok/nf-wsipv6ok-gethostbyname) | Introduced into ws2_32.dll in 10.0.10240. |
+| [gethostname](/windows/win32/api/winsock/nf-winsock-gethostname) | Introduced into ws2_32.dll in 10.0.10240. |
+| [GetHostNameW](/windows/win32/api/winsock2/nf-winsock2-gethostnamew) | Introduced into ws2_32.dll in 10.0.10240. |
+| [getnameinfo](/windows/win32/api/ws2tcpip/nf-ws2tcpip-getnameinfo) | Introduced into ws2_32.dll in 10.0.10240. |
+| [GetNameInfoW](/windows/win32/api/ws2tcpip/nf-ws2tcpip-getnameinfow) | Introduced into ws2_32.dll in 10.0.10240. |
+| [getpeername](/windows/win32/api/winsock/nf-winsock-getpeername) | Introduced into ws2_32.dll in 10.0.10240. |
+| [getprotobyname](/windows/win32/api/winsock/nf-winsock-getprotobyname) | Introduced into ws2_32.dll in 10.0.10240. |
+| [getprotobynumber](/windows/win32/api/winsock/nf-winsock-getprotobynumber) | Introduced into ws2_32.dll in 10.0.10240. |
+| [getservbyname](/windows/win32/api/winsock/nf-winsock-getservbyname) | Introduced into ws2_32.dll in 10.0.10240. |
+| [getservbyport](/windows/win32/api/winsock/nf-winsock-getservbyport) | Introduced into ws2_32.dll in 10.0.10240. |
+| [getsockname](/windows/win32/api/winsock/nf-winsock-getsockname) | Introduced into ws2_32.dll in 10.0.10240. |
+| [getsockopt](/windows/win32/api/winsock/nf-winsock-getsockopt) | Introduced into ws2_32.dll in 10.0.10240. |
+| [htonl](/windows/win32/api/winsock/nf-winsock-htonl) | Introduced into ws2_32.dll in 10.0.10240. |
+| [htons](/windows/win32/api/winsock/nf-winsock-htons) | Introduced into ws2_32.dll in 10.0.10240. |
+| [inet_addr](/windows/win32/api/winsock2/nf-winsock2-inet_addr) | Introduced into ws2_32.dll in 10.0.10240. |
+| [inet_ntoa](/windows/win32/api/winsock2/nf-winsock2-inet_ntoa) | Introduced into ws2_32.dll in 10.0.10240. |
 | inet_ntop | Introduced into ws2_32.dll in 10.0.10240. |
-| [inet_pton](https://msdn.microsoft.com/library/Cc805844(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [InetNtopW](https://msdn.microsoft.com/library/windows/desktop/cc805843.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [InetPtonW](https://msdn.microsoft.com/library/windows/desktop/cc805844.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [ioctlsocket](https://msdn.microsoft.com/library/windows/desktop/ms738573.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [listen](https://msdn.microsoft.com/library/windows/desktop/ms739168.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [ntohl](https://msdn.microsoft.com/library/windows/desktop/ms740069.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [ntohs](https://msdn.microsoft.com/library/windows/desktop/ms740075.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [recv](https://msdn.microsoft.com/library/windows/desktop/ms740121.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [recvfrom](https://msdn.microsoft.com/library/windows/desktop/ms740120.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [select](https://msdn.microsoft.com/library/windows/desktop/ms740141.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [send](https://msdn.microsoft.com/library/windows/desktop/ms740149.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [sendto](https://msdn.microsoft.com/library/windows/desktop/ms740148.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [SetAddrInfoExW](https://msdn.microsoft.com/library/windows/desktop/ms740473.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [setsockopt](https://msdn.microsoft.com/library/windows/desktop/ms740476.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [shutdown](https://msdn.microsoft.com/library/windows/desktop/ms740481.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [socket](https://msdn.microsoft.com/library/windows/desktop/ms740506.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAAccept](https://msdn.microsoft.com/library/windows/desktop/ms741513.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAAddressToStringA](https://msdn.microsoft.com/library/windows/desktop/ms741516.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAAddressToStringW](https://msdn.microsoft.com/library/windows/desktop/ms741516.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSACleanup](https://msdn.microsoft.com/library/windows/desktop/ms741549.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSACloseEvent](https://msdn.microsoft.com/library/windows/desktop/ms741551.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAConnect](https://msdn.microsoft.com/library/windows/desktop/ms741559.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAConnectByList](https://msdn.microsoft.com/library/windows/desktop/ms741554.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAConnectByNameA](https://msdn.microsoft.com/library/windows/desktop/ms741557.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAConnectByNameW](https://msdn.microsoft.com/library/windows/desktop/ms741557.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSACreateEvent](https://msdn.microsoft.com/library/windows/desktop/ms741561.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSADuplicateSocketA](https://msdn.microsoft.com/library/windows/desktop/ms741565.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSADuplicateSocketW](https://msdn.microsoft.com/library/windows/desktop/ms741565.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAEnumNameSpaceProvidersA](https://msdn.microsoft.com/library/windows/desktop/ms741570.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAEnumNameSpaceProvidersExA](https://msdn.microsoft.com/library/windows/desktop/ms741568.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAEnumNameSpaceProvidersExW](https://msdn.microsoft.com/library/windows/desktop/ms741568.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAEnumNameSpaceProvidersW](https://msdn.microsoft.com/library/windows/desktop/ms741570.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAEnumNetworkEvents](https://msdn.microsoft.com/library/windows/desktop/ms741572.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAEnumProtocolsA](https://msdn.microsoft.com/library/windows/desktop/ms741574.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAEnumProtocolsW](https://msdn.microsoft.com/library/windows/desktop/ms741574.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAEventSelect](https://msdn.microsoft.com/library/windows/desktop/ms741576.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAGetLastError](https://msdn.microsoft.com/library/windows/desktop/ms741580.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAGetOverlappedResult](https://msdn.microsoft.com/library/windows/desktop/ms741582.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAGetServiceClassInfoW](https://msdn.microsoft.com/library/windows/desktop/ms741592.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAGetServiceClassNameByClassIdW](https://msdn.microsoft.com/library/windows/desktop/ms741598.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAHtonl](https://msdn.microsoft.com/library/windows/desktop/ms741604.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAHtons](https://msdn.microsoft.com/library/windows/desktop/ms741609.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAIoctl](https://msdn.microsoft.com/library/windows/desktop/ms741621.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAJoinLeaf](https://msdn.microsoft.com/library/windows/desktop/ms741628.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSALookupServiceBeginA](https://msdn.microsoft.com/library/windows/desktop/ms741633.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSALookupServiceBeginW](https://msdn.microsoft.com/library/windows/desktop/ms741633.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSALookupServiceEnd](https://msdn.microsoft.com/library/windows/desktop/ms741637.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSALookupServiceNextA](https://msdn.microsoft.com/library/windows/desktop/ms741641.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSALookupServiceNextW](https://msdn.microsoft.com/library/windows/desktop/ms741641.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSANSPIoctl](https://msdn.microsoft.com/library/windows/desktop/ms741658.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSANtohl](https://msdn.microsoft.com/library/windows/desktop/ms741660.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSANtohs](https://msdn.microsoft.com/library/windows/desktop/ms741663.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAPoll](https://msdn.microsoft.com/library/windows/desktop/ms741669.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAProviderConfigChange](https://msdn.microsoft.com/library/windows/desktop/ms741677.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSARecv](https://msdn.microsoft.com/library/windows/desktop/ms741688.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSARecvFrom](https://msdn.microsoft.com/library/windows/desktop/ms741686.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAResetEvent](https://msdn.microsoft.com/library/windows/desktop/ms741690.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSASend](https://msdn.microsoft.com/library/windows/desktop/ms742203.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSASendMsg](https://msdn.microsoft.com/library/windows/desktop/ms741692.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSASendTo](https://msdn.microsoft.com/library/windows/desktop/ms741693.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSASetEvent](https://msdn.microsoft.com/library/windows/desktop/ms742208.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSASetLastError](https://msdn.microsoft.com/library/windows/desktop/ms742209.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSASetServiceA](https://msdn.microsoft.com/library/windows/desktop/ms742211.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSASetServiceW](https://msdn.microsoft.com/library/windows/desktop/ms742211.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSASocketA](https://msdn.microsoft.com/library/windows/desktop/ms742212.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSASocketW](https://msdn.microsoft.com/library/windows/desktop/ms742212.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAStartup](https://msdn.microsoft.com/library/windows/desktop/ms742213.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAStringToAddressA](https://msdn.microsoft.com/library/windows/desktop/ms742214.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAStringToAddressW](https://msdn.microsoft.com/library/windows/desktop/ms742214.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [WSAWaitForMultipleEvents](https://msdn.microsoft.com/library/windows/desktop/ms742219.aspx) | Introduced into ws2_32.dll in 10.0.10240. |
-| [FreeAddrInfoEx](https://msdn.microsoft.com/library/ms737906(v=VS.85).aspx) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [inet_pton](/windows/win32/api/ws2tcpip/nf-ws2tcpip-inetptonw) | Introduced into ws2_32.dll in 10.0.10240. |
+| [InetNtopW](/windows/win32/api/ws2tcpip/nf-ws2tcpip-inetntopw) | Introduced into ws2_32.dll in 10.0.10240. |
+| [InetPtonW](/windows/win32/api/ws2tcpip/nf-ws2tcpip-inetptonw) | Introduced into ws2_32.dll in 10.0.10240. |
+| [ioctlsocket](/windows/win32/api/winsock/nf-winsock-ioctlsocket) | Introduced into ws2_32.dll in 10.0.10240. |
+| [listen](/windows/win32/api/winsock2/nf-winsock2-listen) | Introduced into ws2_32.dll in 10.0.10240. |
+| [ntohl](/windows/win32/api/winsock/nf-winsock-ntohl) | Introduced into ws2_32.dll in 10.0.10240. |
+| [ntohs](/windows/win32/api/winsock/nf-winsock-ntohs) | Introduced into ws2_32.dll in 10.0.10240. |
+| [recv](/windows/win32/api/winsock/nf-winsock-recv) | Introduced into ws2_32.dll in 10.0.10240. |
+| [recvfrom](/windows/win32/api/winsock/nf-winsock-recvfrom) | Introduced into ws2_32.dll in 10.0.10240. |
+| [select](/windows/win32/api/winsock2/nf-winsock2-select) | Introduced into ws2_32.dll in 10.0.10240. |
+| [send](/windows/win32/api/winsock2/nf-winsock2-send) | Introduced into ws2_32.dll in 10.0.10240. |
+| [sendto](/windows/win32/api/winsock/nf-winsock-sendto) | Introduced into ws2_32.dll in 10.0.10240. |
+| [SetAddrInfoExW](/windows/win32/api/ws2tcpip/nf-ws2tcpip-setaddrinfoexa) | Introduced into ws2_32.dll in 10.0.10240. |
+| [setsockopt](/windows/win32/api/winsock/nf-winsock-setsockopt) | Introduced into ws2_32.dll in 10.0.10240. |
+| [shutdown](/windows/win32/api/winsock/nf-winsock-shutdown) | Introduced into ws2_32.dll in 10.0.10240. |
+| [socket](/windows/win32/api/winsock2/nf-winsock2-socket) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAAccept](/windows/win32/api/winsock2/nf-winsock2-wsaaccept) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAAddressToStringA](/windows/win32/api/winsock2/nf-winsock2-wsaaddresstostringa) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAAddressToStringW](/windows/win32/api/winsock2/nf-winsock2-wsaaddresstostringa) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSACleanup](/windows/win32/api/winsock/nf-winsock-wsacleanup) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSACloseEvent](/windows/win32/api/winsock2/nf-winsock2-wsacloseevent) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAConnect](/windows/win32/api/winsock2/nf-winsock2-wsaconnect) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAConnectByList](/windows/win32/api/winsock2/nf-winsock2-wsaconnectbylist) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAConnectByNameA](/windows/win32/api/winsock2/nf-winsock2-wsaconnectbynamea) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAConnectByNameW](/windows/win32/api/winsock2/nf-winsock2-wsaconnectbynamea) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSACreateEvent](/windows/win32/api/winsock2/nf-winsock2-wsacreateevent) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSADuplicateSocketA](/windows/win32/api/winsock2/nf-winsock2-wsaduplicatesocketa) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSADuplicateSocketW](/windows/win32/api/winsock2/nf-winsock2-wsaduplicatesocketa) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAEnumNameSpaceProvidersA](/windows/win32/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAEnumNameSpaceProvidersExA](/windows/win32/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersexa) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAEnumNameSpaceProvidersExW](/windows/win32/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersexa) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAEnumNameSpaceProvidersW](/windows/win32/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAEnumNetworkEvents](/windows/win32/api/winsock2/nf-winsock2-wsaenumnetworkevents) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAEnumProtocolsA](/windows/win32/api/winsock2/nf-winsock2-wsaenumprotocolsa) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAEnumProtocolsW](/windows/win32/api/winsock2/nf-winsock2-wsaenumprotocolsa) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAEventSelect](/windows/win32/api/winsock2/nf-winsock2-wsaeventselect) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAGetLastError](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAGetOverlappedResult](/windows/win32/api/winsock2/nf-winsock2-wsagetoverlappedresult) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAGetServiceClassInfoW](/windows/win32/api/winsock2/nf-winsock2-wsagetserviceclassinfoa) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAGetServiceClassNameByClassIdW](/windows/win32/api/winsock2/nf-winsock2-wsagetserviceclassnamebyclassida) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAHtonl](/windows/win32/api/winsock2/nf-winsock2-wsahtonl) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAHtons](/windows/win32/api/winsock2/nf-winsock2-wsahtons) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAIoctl](/windows/win32/api/winsock2/nf-winsock2-wsaioctl) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAJoinLeaf](/windows/win32/api/winsock2/nf-winsock2-wsajoinleaf) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSALookupServiceBeginA](/windows/win32/api/winsock2/nf-winsock2-wsalookupservicebegina) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSALookupServiceBeginW](/windows/win32/api/winsock2/nf-winsock2-wsalookupservicebegina) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSALookupServiceEnd](/windows/win32/api/winsock2/nf-winsock2-wsalookupserviceend) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSALookupServiceNextA](/windows/win32/api/winsock2/nf-winsock2-wsalookupservicenexta) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSALookupServiceNextW](/windows/win32/api/winsock2/nf-winsock2-wsalookupservicenexta) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSANSPIoctl](/windows/win32/api/winsock2/nf-winsock2-wsanspioctl) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSANtohl](/windows/win32/api/winsock2/nf-winsock2-wsantohl) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSANtohs](/windows/win32/api/winsock2/nf-winsock2-wsantohs) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAPoll](/windows/win32/api/winsock2/nf-winsock2-wsapoll) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAProviderConfigChange](/windows/win32/api/winsock2/nf-winsock2-wsaproviderconfigchange) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSARecv](/windows/win32/api/winsock2/nf-winsock2-wsarecv) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSARecvFrom](/windows/win32/api/winsock2/nf-winsock2-wsarecvfrom) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAResetEvent](/windows/win32/api/winsock2/nf-winsock2-wsaresetevent) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSASend](/windows/win32/api/winsock2/nf-winsock2-wsasend) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSASendMsg](/windows/win32/api/winsock2/nf-winsock2-wsasendmsg) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSASendTo](/windows/win32/api/winsock2/nf-winsock2-wsasendto) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSASetEvent](/windows/win32/api/winsock2/nf-winsock2-wsasetevent) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSASetLastError](/windows/win32/api/winsock/nf-winsock-wsasetlasterror) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSASetServiceA](/windows/win32/api/winsock2/nf-winsock2-wsasetservicea) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSASetServiceW](/windows/win32/api/winsock2/nf-winsock2-wsasetservicea) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSASocketA](/windows/win32/api/winsock2/nf-winsock2-wsasocketa) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSASocketW](/windows/win32/api/winsock2/nf-winsock2-wsasocketa) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAStartup](/windows/win32/api/winsock/nf-winsock-wsastartup) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAStringToAddressA](/windows/win32/api/winsock2/nf-winsock2-wsastringtoaddressa) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAStringToAddressW](/windows/win32/api/winsock2/nf-winsock2-wsastringtoaddressa) | Introduced into ws2_32.dll in 10.0.10240. |
+| [WSAWaitForMultipleEvents](/windows/win32/api/winsock2/nf-winsock2-wsawaitformultipleevents) | Introduced into ws2_32.dll in 10.0.10240. |
+| [FreeAddrInfoEx](/windows/win32/api/ws2tcpip/nf-ws2tcpip-freeaddrinfoex) | Introduced into ws2_32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from xaudio2_9.dll
@@ -3168,110 +3168,110 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | -----| --------------|
 | CreateAudioReverb | Introduced into xaudio2_9.dll in 10.0.10240. |
 | CreateAudioVolumeMeter | Introduced into xaudio2_9.dll in 10.0.10240. |
-| [CreateFX](https://msdn.microsoft.com/library/windows/desktop/hh405044.aspx) | Introduced into xaudio2_9.dll in 10.0.10240. |
-| [X3DAudioCalculate](https://msdn.microsoft.com/library/windows/desktop/microsoft.directx_sdk.x3daudio.x3daudiocalculate.aspx) | Introduced into xaudio2_9.dll in 10.0.10240. |
-| [X3DAudioInitialize](https://msdn.microsoft.com/library/windows/desktop/microsoft.directx_sdk.x3daudio.x3daudioinitialize.aspx) | Introduced into xaudio2_9.dll in 10.0.10240. |
-| [XAudio2Create](https://msdn.microsoft.com/library/windows/desktop/microsoft.directx_sdk.xaudio2.xaudio2create.aspx) | Introduced into xaudio2_9.dll in 10.0.10240. |
+| [CreateFX](/windows/win32/api/xapofx/nf-xapofx-createfx) | Introduced into xaudio2_9.dll in 10.0.10240. |
+| [X3DAudioCalculate](/windows/win32/api/x3daudio/nf-x3daudio-x3daudiocalculate) | Introduced into xaudio2_9.dll in 10.0.10240. |
+| [X3DAudioInitialize](/windows/win32/api/x3daudio/nf-x3daudio-x3daudioinitialize) | Introduced into xaudio2_9.dll in 10.0.10240. |
+| [XAudio2Create](/windows/win32/api/xaudio2/nf-xaudio2-xaudio2create) | Introduced into xaudio2_9.dll in 10.0.10240. |
 
 
 ## APIs from xinputuap.dll
 
 | API | Requirements |
 | -----| --------------|
-| [XInputEnable](https://msdn.microsoft.com/library/windows/desktop/microsoft.directx_sdk.reference.xinputenable.aspx) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.16299. Moved into xinputuap.dll in 10.0.17134. |
-| [XInputGetAudioDeviceIds](https://msdn.microsoft.com/library/windows/desktop/microsoft.directx_sdk.reference.xinputgetaudiodeviceids.aspx) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.16299. Moved into xinputuap.dll in 10.0.17134. |
-| [XInputGetBatteryInformation](https://msdn.microsoft.com/library/windows/desktop/microsoft.directx_sdk.reference.xinputgetbatteryinformation.aspx) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.16299. Moved into xinputuap.dll in 10.0.17134. |
-| [XInputGetCapabilities](https://msdn.microsoft.com/library/windows/desktop/microsoft.directx_sdk.reference.xinputgetcapabilities.aspx) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.16299. Moved into xinputuap.dll in 10.0.17134. |
-| [XInputGetKeystroke](https://msdn.microsoft.com/library/windows/desktop/microsoft.directx_sdk.reference.xinputgetkeystroke.aspx) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.16299. Moved into xinputuap.dll in 10.0.17134. |
-| [XInputGetState](https://msdn.microsoft.com/library/windows/desktop/microsoft.directx_sdk.reference.xinputgetstate.aspx) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.16299. Moved into xinputuap.dll in 10.0.17134. |
-| [XInputSetState](https://msdn.microsoft.com/library/windows/desktop/microsoft.directx_sdk.reference.xinputsetstate.aspx) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.16299. Moved into xinputuap.dll in 10.0.17134. |
+| [XInputEnable](/windows/win32/api/xinput/nf-xinput-xinputenable) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.16299. Moved into xinputuap.dll in 10.0.17134. |
+| [XInputGetAudioDeviceIds](/windows/win32/api/xinput/nf-xinput-xinputgetaudiodeviceids) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.16299. Moved into xinputuap.dll in 10.0.17134. |
+| [XInputGetBatteryInformation](/windows/win32/api/xinput/nf-xinput-xinputgetbatteryinformation) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.16299. Moved into xinputuap.dll in 10.0.17134. |
+| [XInputGetCapabilities](/windows/win32/api/xinput/nf-xinput-xinputgetcapabilities) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.16299. Moved into xinputuap.dll in 10.0.17134. |
+| [XInputGetKeystroke](/windows/win32/api/xinput/nf-xinput-xinputgetkeystroke) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.16299. Moved into xinputuap.dll in 10.0.17134. |
+| [XInputGetState](/windows/win32/api/xinput/nf-xinput-xinputgetstate) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.16299. Moved into xinputuap.dll in 10.0.17134. |
+| [XInputSetState](/windows/win32/api/xinput/nf-xinput-xinputsetstate) | Introduced into xinputuap.dll in 10.0.10240. Moved into ext-ms-win-gaming-xinput-l1-1-0.dll in 10.0.16299. Moved into xinputuap.dll in 10.0.17134. |
 
 
 ## APIs from xmllite.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateXmlReader](https://msdn.microsoft.com/library/windows/desktop/ms752822.aspx) | Introduced into xmllite.dll in 10.0.10240. |
-| [CreateXmlReaderInputWithEncodingCodePage](https://msdn.microsoft.com/library/windows/desktop/ms752859.aspx) | Introduced into xmllite.dll in 10.0.10240. |
-| [CreateXmlReaderInputWithEncodingName](https://msdn.microsoft.com/library/windows/desktop/ms752899.aspx) | Introduced into xmllite.dll in 10.0.10240. |
-| [CreateXmlWriter](https://msdn.microsoft.com/library/windows/desktop/ms752911.aspx) | Introduced into xmllite.dll in 10.0.10240. |
-| [CreateXmlWriterOutputWithEncodingCodePage](https://msdn.microsoft.com/library/windows/desktop/ms753133.aspx) | Introduced into xmllite.dll in 10.0.10240. |
-| [CreateXmlWriterOutputWithEncodingName](https://msdn.microsoft.com/library/windows/desktop/ms752894.aspx) | Introduced into xmllite.dll in 10.0.10240. |
+| [CreateXmlReader](/previous-versions/windows/desktop/ms752822(v=vs.85)) | Introduced into xmllite.dll in 10.0.10240. |
+| [CreateXmlReaderInputWithEncodingCodePage](/previous-versions/windows/desktop/ms752859(v=vs.85)) | Introduced into xmllite.dll in 10.0.10240. |
+| [CreateXmlReaderInputWithEncodingName](/previous-versions/windows/desktop/ms752899(v=vs.85)) | Introduced into xmllite.dll in 10.0.10240. |
+| [CreateXmlWriter](/previous-versions/windows/desktop/ms752911(v=vs.85)) | Introduced into xmllite.dll in 10.0.10240. |
+| [CreateXmlWriterOutputWithEncodingCodePage](/previous-versions/windows/desktop/ms753133(v=vs.85)) | Introduced into xmllite.dll in 10.0.10240. |
+| [CreateXmlWriterOutputWithEncodingName](/previous-versions/windows/desktop/ms752894(v=vs.85)) | Introduced into xmllite.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-core-file-l1-2-2.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CompareFileTime](https://msdn.microsoft.com/library/windows/desktop/ms724214.aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetTempFileNameA](https://msdn.microsoft.com/library/Aa364991(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. |
-| [GetTempPathA](https://msdn.microsoft.com/library/Aa364992(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. |
-| [GetVolumeInformationA](https://msdn.microsoft.com/library/Aa364993(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. |
+| [CompareFileTime](/windows/win32/api/fileapi/nf-fileapi-comparefiletime) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.10586. Moved into api-ms-win-core-file-l1-2-1.dll in 10.0.14393. Moved into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetTempFileNameA](/windows/win32/api/fileapi/nf-fileapi-gettempfilenamea) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. |
+| [GetTempPathA](/windows/win32/api/fileapi/nf-fileapi-gettemppatha) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. |
+| [GetVolumeInformationA](/windows/win32/api/fileapi/nf-fileapi-getvolumeinformationa) | Introduced into api-ms-win-core-file-l1-2-2.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-libraryloader-l1-2-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [FreeLibraryAndExitThread](https://msdn.microsoft.com/library/windows/desktop/ms683153.aspx) | Introduced into api-ms-win-core-libraryloader-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.14393. |
+| [FreeLibraryAndExitThread](/windows/win32/api/libloaderapi/nf-libloaderapi-freelibraryandexitthread) | Introduced into api-ms-win-core-libraryloader-l1-2-1.dll in 10.0.10586. Moved into api-ms-win-core-libraryloader-l1-2-0.dll in 10.0.14393. |
 
 
 ## APIs from Bcrypt.dll
 
 | API | Requirements |
 | -----| --------------|
-| [BCryptCreateMultiHash](https://msdn.microsoft.com/library/Mt845763(v=VS.85).aspx) | Introduced into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
-| [BCryptProcessMultiOperations](https://msdn.microsoft.com/library/Mt845764(v=VS.85).aspx) | Introduced into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptCreateMultiHash](/windows/win32/api/bcrypt/nf-bcrypt-bcryptcreatemultihash) | Introduced into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
+| [BCryptProcessMultiOperations](/windows/win32/api/bcrypt/nf-bcrypt-bcryptprocessmultioperations) | Introduced into Bcrypt.dll in 10.0.10586. Moved into bcrypt.dll in 10.0.14393. |
 
 
 ## APIs from api-ms-win-core-featurestaging-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetFeatureEnabledState](https://msdn.microsoft.com/library/Mt846395(v=VS.85).aspx) | Introduced into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.14393. |
-| [RecordFeatureError](https://msdn.microsoft.com/library/Mt846397(v=VS.85).aspx) | Introduced into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.14393. |
-| [RecordFeatureUsage](https://msdn.microsoft.com/library/Mt846398(v=VS.85).aspx) | Introduced into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.14393. |
-| [SubscribeFeatureStateChangeNotification](https://msdn.microsoft.com/library/Mt846399(v=VS.85).aspx) | Introduced into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.14393. |
-| [UnsubscribeFeatureStateChangeNotification](https://msdn.microsoft.com/library/Mt846400(v=VS.85).aspx) | Introduced into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.14393. |
+| [GetFeatureEnabledState](/windows/win32/api/featurestagingapi/nf-featurestagingapi-getfeatureenabledstate) | Introduced into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.14393. |
+| [RecordFeatureError](/windows/win32/api/featurestagingapi/nf-featurestagingapi-recordfeatureerror) | Introduced into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.14393. |
+| [RecordFeatureUsage](/windows/win32/api/featurestagingapi/nf-featurestagingapi-recordfeatureusage) | Introduced into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.14393. |
+| [SubscribeFeatureStateChangeNotification](/windows/win32/api/featurestagingapi/nf-featurestagingapi-subscribefeaturestatechangenotification) | Introduced into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.14393. |
+| [UnsubscribeFeatureStateChangeNotification](/windows/win32/api/featurestagingapi/nf-featurestagingapi-unsubscribefeaturestatechangenotification) | Introduced into api-ms-win-core-featurestaging-l1-1-0.dll in 10.0.14393. |
 
 
 ## APIs from api-ms-win-core-heap-l2-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GlobalAlloc](https://msdn.microsoft.com/library/windows/desktop/aa366574.aspx) | Introduced into api-ms-win-core-heap-l2-1-0.dll in 10.0.14393. |
-| [GlobalFree](https://msdn.microsoft.com/library/windows/desktop/aa366579.aspx) | Introduced into api-ms-win-core-heap-l2-1-0.dll in 10.0.14393. |
-| [LocalAlloc](https://msdn.microsoft.com/library/windows/desktop/aa366723.aspx) | Introduced into api-ms-win-core-heap-l2-1-0.dll in 10.0.14393. |
-| [LocalFree](https://msdn.microsoft.com/library/windows/desktop/aa366730.aspx) | Introduced into api-ms-win-core-heap-l2-1-0.dll in 10.0.14393. |
-| [LocalReAlloc](https://msdn.microsoft.com/library/windows/desktop/aa366742.aspx) | Introduced into api-ms-win-core-heap-l2-1-0.dll in 10.0.14393. |
+| [GlobalAlloc](/windows/win32/api/winbase/nf-winbase-globalalloc) | Introduced into api-ms-win-core-heap-l2-1-0.dll in 10.0.14393. |
+| [GlobalFree](/windows/win32/api/winbase/nf-winbase-globalfree) | Introduced into api-ms-win-core-heap-l2-1-0.dll in 10.0.14393. |
+| [LocalAlloc](/windows/win32/api/winbase/nf-winbase-localalloc) | Introduced into api-ms-win-core-heap-l2-1-0.dll in 10.0.14393. |
+| [LocalFree](/windows/win32/api/winbase/nf-winbase-localfree) | Introduced into api-ms-win-core-heap-l2-1-0.dll in 10.0.14393. |
+| [LocalReAlloc](/windows/win32/api/winbase/nf-winbase-localrealloc) | Introduced into api-ms-win-core-heap-l2-1-0.dll in 10.0.14393. |
 
 
 ## APIs from api-ms-win-core-heap-obsolete-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GlobalReAlloc](https://msdn.microsoft.com/library/windows/desktop/aa366590.aspx) | Introduced into api-ms-win-core-heap-obsolete-l1-1-0.dll in 10.0.14393. |
-| [GlobalLock](https://msdn.microsoft.com/library/Aa366584(v=VS.85).aspx) | Introduced into api-ms-win-core-heap-obsolete-l1-1-0.dll in 10.0.16299. |
-| [GlobalSize](https://msdn.microsoft.com/library/Aa366593(v=VS.85).aspx) | Introduced into api-ms-win-core-heap-obsolete-l1-1-0.dll in 10.0.16299. |
-| [GlobalUnlock](https://msdn.microsoft.com/library/Aa366595(v=VS.85).aspx) | Introduced into api-ms-win-core-heap-obsolete-l1-1-0.dll in 10.0.16299. |
+| [GlobalReAlloc](/windows/win32/api/winbase/nf-winbase-globalrealloc) | Introduced into api-ms-win-core-heap-obsolete-l1-1-0.dll in 10.0.14393. |
+| [GlobalLock](/windows/win32/api/winbase/nf-winbase-globallock) | Introduced into api-ms-win-core-heap-obsolete-l1-1-0.dll in 10.0.16299. |
+| [GlobalSize](/windows/win32/api/winbase/nf-winbase-globalsize) | Introduced into api-ms-win-core-heap-obsolete-l1-1-0.dll in 10.0.16299. |
+| [GlobalUnlock](/windows/win32/api/winbase/nf-winbase-globalunlock) | Introduced into api-ms-win-core-heap-obsolete-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-psapi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [K32GetModuleInformation](https://msdn.microsoft.com/library/ms683201(v=VS.85).aspx) | Introduced into api-ms-win-core-psapi-l1-1-0.dll in 10.0.14393. |
-| [K32GetProcessMemoryInfo](https://msdn.microsoft.com/library/ms683219(v=VS.85).aspx) | Introduced into api-ms-win-core-psapi-l1-1-0.dll in 10.0.14393. |
-| [K32EnumProcesses](https://msdn.microsoft.com/library/ms682629(v=VS.85).aspx) | Introduced into api-ms-win-core-psapi-l1-1-0.dll in 10.0.16299. |
-| [K32GetModuleBaseNameW](https://msdn.microsoft.com/library/ms683196(v=VS.85).aspx) | Introduced into api-ms-win-core-psapi-l1-1-0.dll in 10.0.16299. |
-| [K32GetModuleFileNameExW](https://msdn.microsoft.com/library/ms683198(v=VS.85).aspx) | Introduced into api-ms-win-core-psapi-l1-1-0.dll in 10.0.16299. |
+| [K32GetModuleInformation](/windows/win32/api/psapi/nf-psapi-getmoduleinformation) | Introduced into api-ms-win-core-psapi-l1-1-0.dll in 10.0.14393. |
+| [K32GetProcessMemoryInfo](/windows/win32/api/psapi/nf-psapi-getprocessmemoryinfo) | Introduced into api-ms-win-core-psapi-l1-1-0.dll in 10.0.14393. |
+| [K32EnumProcesses](/windows/win32/api/psapi/nf-psapi-enumprocesses) | Introduced into api-ms-win-core-psapi-l1-1-0.dll in 10.0.16299. |
+| [K32GetModuleBaseNameW](/windows/win32/api/psapi/nf-psapi-getmodulebasenamea) | Introduced into api-ms-win-core-psapi-l1-1-0.dll in 10.0.16299. |
+| [K32GetModuleFileNameExW](/windows/win32/api/psapi/nf-psapi-getmodulefilenameexa) | Introduced into api-ms-win-core-psapi-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-slapi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [SLQueryLicenseValueFromApp](https://msdn.microsoft.com/library/windows/desktop/mt403327.aspx) | Introduced into api-ms-win-core-slapi-l1-1-0.dll in 10.0.14393. |
+| [SLQueryLicenseValueFromApp](/windows/win32/api/slpublic/nf-slpublic-slquerylicensevaluefromapp) | Introduced into api-ms-win-core-slapi-l1-1-0.dll in 10.0.14393. |
 | SLQueryLicenseValueFromApp2 | Introduced into api-ms-win-core-slapi-l1-1-0.dll in 10.0.14393. |
 
 
@@ -3281,7 +3281,7 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | -----| --------------|
 | CheckGamingPrivilegeSilently | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-1.dll in 10.0.16299. |
 | CheckGamingPrivilegeSilentlyForUser | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. |
-| [CheckGamingPrivilegeWithUI](https://msdn.microsoft.com/library/Mt736760(v=VS.85).aspx) | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-1.dll in 10.0.16299. |
+| [CheckGamingPrivilegeWithUI](/windows/win32/api/gamingtcui/nf-gamingtcui-checkgamingprivilegewithui) | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. Moved into api-ms-win-gaming-tcui-l1-1-1.dll in 10.0.16299. |
 | CheckGamingPrivilegeWithUIForUser | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. |
 | ShowChangeFriendRelationshipUIForUser | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. |
 | ShowGameInviteUIForUser | Introduced into api-ms-win-gaming-tcui-l1-1-2.dll in 10.0.14393. |
@@ -3294,71 +3294,71 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [CveEventWrite](https://msdn.microsoft.com/library/windows/desktop/mt759300.aspx) | Introduced into api-ms-win-security-base-l1-2-1.dll in 10.0.14393. |
+| [CveEventWrite](/windows/win32/api/securitybaseapi/nf-securitybaseapi-cveeventwrite) | Introduced into api-ms-win-security-base-l1-2-1.dll in 10.0.14393. |
 
 
 ## APIs from inkobjcore.dll
 
 | API | Requirements |
 | -----| --------------|
-| [AddStroke](https://msdn.microsoft.com/library/ms695546(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [AddWordsToWordList](https://msdn.microsoft.com/library/ms700667(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [AdviseInkChange](https://msdn.microsoft.com/library/ms696411(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [CreateContext](https://msdn.microsoft.com/library/ms698176(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [CreateRecognizer](https://msdn.microsoft.com/library/ms702413(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [DestroyContext](https://msdn.microsoft.com/library/ms702394(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [DestroyRecognizer](https://msdn.microsoft.com/library/ms705335(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [DestroyWordList](https://msdn.microsoft.com/library/ms697342(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [EndInkInput](https://msdn.microsoft.com/library/ms704432(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [GetAllRecognizers](https://msdn.microsoft.com/library/Mt752491(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [GetBestResultString](https://msdn.microsoft.com/library/ms701193(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [GetLatticePtr](https://msdn.microsoft.com/library/ms698571(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [GetLeftSeparator](https://msdn.microsoft.com/library/Mt218779(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [GetRecoAttributes](https://msdn.microsoft.com/library/ms698123(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [GetResultPropertyList](https://msdn.microsoft.com/library/ms704360(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [GetRightSeparator](https://msdn.microsoft.com/library/Mt218780(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [GetUnicodeRanges](https://msdn.microsoft.com/library/ms698151(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [IsStringSupported](https://msdn.microsoft.com/library/ms702420(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [LoadCachedAttributes](https://msdn.microsoft.com/library/Mt752492(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [MakeWordList](https://msdn.microsoft.com/library/ms702408(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [Process](https://msdn.microsoft.com/library/Aa364092(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [SetEnabledUnicodeRanges](https://msdn.microsoft.com/library/ms699520(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [SetFactoid](https://msdn.microsoft.com/library/ms704885(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [SetFlags](https://msdn.microsoft.com/library/Dd378283(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [SetGuide](https://msdn.microsoft.com/library/ms697487(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [SetTextContext](https://msdn.microsoft.com/library/ms704873(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
-| [SetWordList](https://msdn.microsoft.com/library/ms701660(v=VS.85).aspx) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [AddStroke](/windows/win32/api/recapis/nf-recapis-addstroke) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [AddWordsToWordList](/windows/win32/api/recapis/nf-recapis-addwordstowordlist) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [AdviseInkChange](/windows/win32/api/recapis/nf-recapis-adviseinkchange) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [CreateContext](/windows/win32/api/recapis/nf-recapis-createcontext) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [CreateRecognizer](/windows/win32/api/recapis/nf-recapis-createrecognizer) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [DestroyContext](/windows/win32/api/recapis/nf-recapis-destroycontext) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [DestroyRecognizer](/windows/win32/api/recapis/nf-recapis-destroyrecognizer) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [DestroyWordList](/windows/win32/api/recapis/nf-recapis-destroywordlist) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [EndInkInput](/windows/win32/api/recapis/nf-recapis-endinkinput) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [GetAllRecognizers](/windows/win32/api/recapis/nf-recapis-getallrecognizers) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [GetBestResultString](/windows/win32/api/recapis/nf-recapis-getbestresultstring) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [GetLatticePtr](/windows/win32/api/recapis/nf-recapis-getlatticeptr) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [GetLeftSeparator](/windows/win32/api/recapis/nf-recapis-getleftseparator) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [GetRecoAttributes](/windows/win32/api/recapis/nf-recapis-getrecoattributes) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [GetResultPropertyList](/windows/win32/api/recapis/nf-recapis-getresultpropertylist) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [GetRightSeparator](/windows/win32/api/recapis/nf-recapis-getrightseparator) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [GetUnicodeRanges](/windows/win32/api/recapis/nf-recapis-getunicoderanges) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [IsStringSupported](/windows/win32/api/recapis/nf-recapis-isstringsupported) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [LoadCachedAttributes](/windows/win32/api/recapis/nf-recapis-loadcachedattributes) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [MakeWordList](/windows/win32/api/recapis/nf-recapis-makewordlist) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [Process](/windows/win32/etw/process) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [SetEnabledUnicodeRanges](/windows/win32/api/recapis/nf-recapis-setenabledunicoderanges) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [SetFactoid](/windows/win32/api/recapis/nf-recapis-setfactoid) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [SetFlags](/previous-versions//dd378283(v=vs.85)) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [SetGuide](/windows/win32/api/recapis/nf-recapis-setguide) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [SetTextContext](/windows/win32/api/recapis/nf-recapis-settextcontext) | Introduced into inkobjcore.dll in 10.0.14393. |
+| [SetWordList](/windows/win32/api/recapis/nf-recapis-setwordlist) | Introduced into inkobjcore.dll in 10.0.14393. |
 
 
 ## APIs from iphlpapi.dll
 
 | API | Requirements |
 | -----| --------------|
-| [FreeMibTable](https://msdn.microsoft.com/library/windows/desktop/aa814408.aspx) | Introduced into iphlpapi.dll in 10.0.14393. |
-| [GetAdaptersAddresses](https://msdn.microsoft.com/library/windows/desktop/aa365915.aspx) | Introduced into iphlpapi.dll in 10.0.14393. |
-| [GetBestRoute2](https://msdn.microsoft.com/library/windows/desktop/aa814411.aspx) | Introduced into iphlpapi.dll in 10.0.14393. |
-| [GetUnicastIpAddressTable](https://msdn.microsoft.com/library/windows/desktop/aa814428.aspx) | Introduced into iphlpapi.dll in 10.0.14393. |
-| [CancelMibChangeNotify2](https://msdn.microsoft.com/library/Aa814397(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
-| [GetBestInterfaceEx](https://msdn.microsoft.com/library/Aa365922(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
-| [GetExtendedTcpTable](https://msdn.microsoft.com/library/Aa365928(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
-| [GetExtendedUdpTable](https://msdn.microsoft.com/library/Aa365930(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
-| [GetIcmpStatistics](https://msdn.microsoft.com/library/Aa365934(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
-| [GetIcmpStatisticsEx](https://msdn.microsoft.com/library/Aa365936(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
-| [GetIfEntry2](https://msdn.microsoft.com/library/Aa365941(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
-| [GetIpStatisticsEx](https://msdn.microsoft.com/library/Aa365963(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
-| [GetNetworkParams](https://msdn.microsoft.com/library/Aa365968(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
-| [GetPerAdapterInfo](https://msdn.microsoft.com/library/Aa366012(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
-| [GetTcpStatisticsEx](https://msdn.microsoft.com/library/Aa366023(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
-| [GetTcpTable](https://msdn.microsoft.com/library/Aa366026(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
-| [GetUdpStatisticsEx](https://msdn.microsoft.com/library/Aa366031(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
-| [GetUdpTable](https://msdn.microsoft.com/library/Aa366033(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
-| [Icmp6CreateFile](https://msdn.microsoft.com/library/Aa366037(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
-| [Icmp6SendEcho2](https://msdn.microsoft.com/library/Aa366041(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
-| [IcmpCloseHandle](https://msdn.microsoft.com/library/Aa366043(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
-| [IcmpCreateFile](https://msdn.microsoft.com/library/Aa366045(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
-| [IcmpSendEcho2](https://msdn.microsoft.com/library/Aa366051(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
-| [NotifyStableUnicastIpAddressTable](https://msdn.microsoft.com/library/Aa814452(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
-| [NotifyUnicastIpAddressChange](https://msdn.microsoft.com/library/Aa814454(v=VS.85).aspx) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [FreeMibTable](/windows/win32/api/netioapi/nf-netioapi-freemibtable) | Introduced into iphlpapi.dll in 10.0.14393. |
+| [GetAdaptersAddresses](/windows/win32/api/iphlpapi/nf-iphlpapi-getadaptersaddresses) | Introduced into iphlpapi.dll in 10.0.14393. |
+| [GetBestRoute2](/windows/win32/api/netioapi/nf-netioapi-getbestroute2) | Introduced into iphlpapi.dll in 10.0.14393. |
+| [GetUnicastIpAddressTable](/windows/win32/api/netioapi/nf-netioapi-getunicastipaddresstable) | Introduced into iphlpapi.dll in 10.0.14393. |
+| [CancelMibChangeNotify2](/windows/win32/api/netioapi/nf-netioapi-cancelmibchangenotify2) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetBestInterfaceEx](/windows/win32/api/iphlpapi/nf-iphlpapi-getbestinterfaceex) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetExtendedTcpTable](/windows/win32/api/iphlpapi/nf-iphlpapi-getextendedtcptable) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetExtendedUdpTable](/windows/win32/api/iphlpapi/nf-iphlpapi-getextendedudptable) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetIcmpStatistics](/windows/win32/api/iphlpapi/nf-iphlpapi-geticmpstatistics) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetIcmpStatisticsEx](/windows/win32/api/iphlpapi/nf-iphlpapi-geticmpstatisticsex) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetIfEntry2](/windows/win32/api/netioapi/nf-netioapi-getifentry2) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetIpStatisticsEx](/windows/win32/api/iphlpapi/nf-iphlpapi-getipstatisticsex) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetNetworkParams](/windows/win32/api/iphlpapi/nf-iphlpapi-getnetworkparams) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetPerAdapterInfo](/windows/win32/api/iphlpapi/nf-iphlpapi-getperadapterinfo) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetTcpStatisticsEx](/windows/win32/api/iphlpapi/nf-iphlpapi-gettcpstatisticsex) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetTcpTable](/windows/win32/api/iphlpapi/nf-iphlpapi-gettcptable) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetUdpStatisticsEx](/windows/win32/api/iphlpapi/nf-iphlpapi-getudpstatisticsex) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [GetUdpTable](/windows/win32/api/iphlpapi/nf-iphlpapi-getudptable) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [Icmp6CreateFile](/windows/win32/api/icmpapi/nf-icmpapi-icmp6createfile) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [Icmp6SendEcho2](/windows/win32/api/icmpapi/nf-icmpapi-icmp6sendecho2) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [IcmpCloseHandle](/windows/win32/api/icmpapi/nf-icmpapi-icmpclosehandle) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [IcmpCreateFile](/windows/win32/api/icmpapi/nf-icmpapi-icmpcreatefile) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [IcmpSendEcho2](/windows/win32/api/icmpapi/nf-icmpapi-icmpsendecho2) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [NotifyStableUnicastIpAddressTable](/windows/win32/api/netioapi/nf-netioapi-notifystableunicastipaddresstable) | Introduced into iphlpapi.dll in 10.0.16299. |
+| [NotifyUnicastIpAddressChange](/windows/win32/api/netioapi/nf-netioapi-notifyunicastipaddresschange) | Introduced into iphlpapi.dll in 10.0.16299. |
 
 
 ## APIs from msajapi.dll
@@ -3468,352 +3468,352 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [MFCreateSensorGroup](https://msdn.microsoft.com/library/Mt797979(v=VS.85).aspx) | Introduced into mfsensorgroup.dll in 10.0.16299. |
-| [MFCreateSensorStream](https://msdn.microsoft.com/library/Mt797980(v=VS.85).aspx) | Introduced into mfsensorgroup.dll in 10.0.16299. |
+| [MFCreateSensorGroup](/windows/win32/api/mfidl/nf-mfidl-mfcreatesensorgroup) | Introduced into mfsensorgroup.dll in 10.0.16299. |
+| [MFCreateSensorStream](/windows/win32/api/mfidl/nf-mfidl-mfcreatesensorstream) | Introduced into mfsensorgroup.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-kernel32-legacy-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [SetVolumeLabelA](https://msdn.microsoft.com/library/Aa365560(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-ansi-l1-1-0.dll in 10.0.16299. |
+| [SetVolumeLabelA](/windows/win32/api/winbase/nf-winbase-setvolumelabela) | Introduced into api-ms-win-core-kernel32-legacy-ansi-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-kernel32-legacy-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CopyFileA](https://msdn.microsoft.com/library/Aa363851(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
-| [CreateNamedPipeA](https://msdn.microsoft.com/library/Aa365150(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
-| [GetComputerNameA](https://msdn.microsoft.com/library/ms724295(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
-| [GetComputerNameW](https://msdn.microsoft.com/library/ms724295(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
-| [GetSystemPowerStatus](https://msdn.microsoft.com/library/Aa372693(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
-| [SetFileCompletionNotificationModes](https://msdn.microsoft.com/library/Aa365538(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
-| [SetVolumeLabelW](https://msdn.microsoft.com/library/Aa365560(v=VS.85).aspx) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
+| [CopyFileA](/windows/win32/api/winbase/nf-winbase-copyfile) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
+| [CreateNamedPipeA](/windows/win32/api/winbase/nf-winbase-createnamedpipea) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
+| [GetComputerNameA](/windows/win32/api/winbase/nf-winbase-getcomputernamea) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
+| [GetComputerNameW](/windows/win32/api/winbase/nf-winbase-getcomputernamea) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
+| [GetSystemPowerStatus](/windows/win32/api/winbase/nf-winbase-getsystempowerstatus) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
+| [SetFileCompletionNotificationModes](/windows/win32/api/winbase/nf-winbase-setfilecompletionnotificationmodes) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
+| [SetVolumeLabelW](/windows/win32/api/winbase/nf-winbase-setvolumelabela) | Introduced into api-ms-win-core-kernel32-legacy-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-namespace-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateBoundaryDescriptorA](https://msdn.microsoft.com/library/ms682121(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. |
-| [CreatePrivateNamespaceA](https://msdn.microsoft.com/library/ms682419(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. |
-| [OpenPrivateNamespaceA](https://msdn.microsoft.com/library/ms684318(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. |
+| [CreateBoundaryDescriptorA](/windows/win32/api/winbase/nf-winbase-createboundarydescriptora) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. |
+| [CreatePrivateNamespaceA](/windows/win32/api/winbase/nf-winbase-createprivatenamespacea) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. |
+| [OpenPrivateNamespaceA](/windows/win32/api/winbase/nf-winbase-openprivatenamespacea) | Introduced into api-ms-win-core-namespace-ansi-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-processtopology-obsolete-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetProcessAffinityMask](https://msdn.microsoft.com/library/ms683213(v=VS.85).aspx) | Introduced into api-ms-win-core-processtopology-obsolete-l1-1-0.dll in 10.0.16299. |
-| [SetProcessAffinityMask](https://msdn.microsoft.com/library/ms686223(v=VS.85).aspx) | Introduced into api-ms-win-core-processtopology-obsolete-l1-1-0.dll in 10.0.16299. |
-| [SetThreadAffinityMask](https://msdn.microsoft.com/library/ms686247(v=VS.85).aspx) | Introduced into api-ms-win-core-processtopology-obsolete-l1-1-0.dll in 10.0.16299. |
+| [GetProcessAffinityMask](/windows/win32/api/winbase/nf-winbase-getprocessaffinitymask) | Introduced into api-ms-win-core-processtopology-obsolete-l1-1-0.dll in 10.0.16299. |
+| [SetProcessAffinityMask](/windows/win32/api/winbase/nf-winbase-setprocessaffinitymask) | Introduced into api-ms-win-core-processtopology-obsolete-l1-1-0.dll in 10.0.16299. |
+| [SetThreadAffinityMask](/windows/win32/api/winbase/nf-winbase-setthreadaffinitymask) | Introduced into api-ms-win-core-processtopology-obsolete-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-psapi-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [K32GetModuleBaseNameA](https://msdn.microsoft.com/library/ms683196(v=VS.85).aspx) | Introduced into api-ms-win-core-psapi-ansi-l1-1-0.dll in 10.0.16299. |
-| [K32GetModuleFileNameExA](https://msdn.microsoft.com/library/ms683198(v=VS.85).aspx) | Introduced into api-ms-win-core-psapi-ansi-l1-1-0.dll in 10.0.16299. |
+| [K32GetModuleBaseNameA](/windows/win32/api/psapi/nf-psapi-getmodulebasenamea) | Introduced into api-ms-win-core-psapi-ansi-l1-1-0.dll in 10.0.16299. |
+| [K32GetModuleFileNameExA](/windows/win32/api/psapi/nf-psapi-getmodulefilenameexa) | Introduced into api-ms-win-core-psapi-ansi-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-url-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetAcceptLanguagesA](https://msdn.microsoft.com/library/Bb759898(v=VS.85).aspx) | Introduced into api-ms-win-core-url-l1-1-0.dll in 10.0.16299. |
-| [GetAcceptLanguagesW](https://msdn.microsoft.com/library/Bb759898(v=VS.85).aspx) | Introduced into api-ms-win-core-url-l1-1-0.dll in 10.0.16299. |
+| [GetAcceptLanguagesA](/windows/win32/api/shlwapi/nf-shlwapi-getacceptlanguagesa) | Introduced into api-ms-win-core-url-l1-1-0.dll in 10.0.16299. |
+| [GetAcceptLanguagesW](/windows/win32/api/shlwapi/nf-shlwapi-getacceptlanguagesa) | Introduced into api-ms-win-core-url-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-versionansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetFileVersionInfoExA](https://msdn.microsoft.com/library/Aa969434(v=VS.85).aspx) | Introduced into api-ms-win-core-versionansi-l1-1-0.dll in 10.0.16299. |
-| [GetFileVersionInfoSizeExA](https://msdn.microsoft.com/library/Aa969435(v=VS.85).aspx) | Introduced into api-ms-win-core-versionansi-l1-1-0.dll in 10.0.16299. |
-| [VerQueryValueA](https://msdn.microsoft.com/library/ms647464(v=VS.85).aspx) | Introduced into api-ms-win-core-versionansi-l1-1-0.dll in 10.0.16299. |
+| [GetFileVersionInfoExA](/windows/win32/api/winver/nf-winver-getfileversioninfoexa) | Introduced into api-ms-win-core-versionansi-l1-1-0.dll in 10.0.16299. |
+| [GetFileVersionInfoSizeExA](/windows/win32/api/winver/nf-winver-getfileversioninfosizeexa) | Introduced into api-ms-win-core-versionansi-l1-1-0.dll in 10.0.16299. |
+| [VerQueryValueA](/windows/win32/api/winver/nf-winver-verqueryvaluea) | Introduced into api-ms-win-core-versionansi-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-windowserrorreporting-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [WerRegisterAdditionalProcess](https://msdn.microsoft.com/library/Mt492585(v=VS.85).aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.16299. |
-| [WerRegisterCustomMetadata](https://msdn.microsoft.com/library/Mt492586(v=VS.85).aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.16299. |
-| [WerRegisterExcludedMemoryBlock](https://msdn.microsoft.com/library/Mt492587(v=VS.85).aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.16299. |
-| [WerUnregisterAdditionalProcess](https://msdn.microsoft.com/library/Mt492592(v=VS.85).aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.16299. |
-| [WerUnregisterCustomMetadata](https://msdn.microsoft.com/library/Mt492593(v=VS.85).aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.16299. |
-| [WerUnregisterExcludedMemoryBlock](https://msdn.microsoft.com/library/Mt492594(v=VS.85).aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.16299. |
+| [WerRegisterAdditionalProcess](/windows/win32/api/werapi/nf-werapi-werregisteradditionalprocess) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.16299. |
+| [WerRegisterCustomMetadata](/windows/win32/api/werapi/nf-werapi-werregistercustommetadata) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.16299. |
+| [WerRegisterExcludedMemoryBlock](/windows/win32/api/werapi/nf-werapi-werregisterexcludedmemoryblock) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.16299. |
+| [WerUnregisterAdditionalProcess](/windows/win32/api/werapi/nf-werapi-werunregisteradditionalprocess) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.16299. |
+| [WerUnregisterCustomMetadata](/windows/win32/api/werapi/nf-werapi-werunregistercustommetadata) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.16299. |
+| [WerUnregisterExcludedMemoryBlock](/windows/win32/api/werapi/nf-werapi-werunregisterexcludedmemoryblock) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-1.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-windowserrorreporting-l1-1-2.dll
 
 | API | Requirements |
 | -----| --------------|
-| [WerRegisterAppLocalDump](https://msdn.microsoft.com/library/Mt826208(v=VS.85).aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-2.dll in 10.0.16299. |
-| [WerUnregisterAppLocalDump](https://msdn.microsoft.com/library/Mt826209(v=VS.85).aspx) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-2.dll in 10.0.16299. |
+| [WerRegisterAppLocalDump](/windows/win32/api/werapi/nf-werapi-werregisterapplocaldump) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-2.dll in 10.0.16299. |
+| [WerUnregisterAppLocalDump](/windows/win32/api/werapi/nf-werapi-werunregisterapplocaldump) | Introduced into api-ms-win-core-windowserrorreporting-l1-1-2.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-security-lsalookup-ansi-l2-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [LookupAccountNameA](https://msdn.microsoft.com/library/Aa379159(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
-| [LookupAccountSidA](https://msdn.microsoft.com/library/Aa379166(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
-| [LookupPrivilegeDisplayNameA](https://msdn.microsoft.com/library/Aa379168(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
-| [LookupPrivilegeNameA](https://msdn.microsoft.com/library/Aa379176(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
-| [LookupPrivilegeValueA](https://msdn.microsoft.com/library/Aa379180(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
+| [LookupAccountNameA](/windows/win32/api/winbase/nf-winbase-lookupaccountnamea) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
+| [LookupAccountSidA](/windows/win32/api/winbase/nf-winbase-lookupaccountsida) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
+| [LookupPrivilegeDisplayNameA](/windows/win32/api/winbase/nf-winbase-lookupprivilegedisplaynamea) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
+| [LookupPrivilegeNameA](/windows/win32/api/winbase/nf-winbase-lookupprivilegenamea) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
+| [LookupPrivilegeValueA](/windows/win32/api/winbase/nf-winbase-lookupprivilegevaluea) | Introduced into api-ms-win-security-lsalookup-ansi-l2-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-security-lsalookup-l2-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [LookupAccountNameW](https://msdn.microsoft.com/library/Aa379159(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. |
-| [LookupAccountSidW](https://msdn.microsoft.com/library/Aa379166(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. |
-| [LookupPrivilegeDisplayNameW](https://msdn.microsoft.com/library/Aa379168(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. |
-| [LookupPrivilegeNameW](https://msdn.microsoft.com/library/Aa379176(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. |
-| [LookupPrivilegeValueW](https://msdn.microsoft.com/library/Aa379180(v=VS.85).aspx) | Introduced into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. |
+| [LookupAccountNameW](/windows/win32/api/winbase/nf-winbase-lookupaccountnamea) | Introduced into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. |
+| [LookupAccountSidW](/windows/win32/api/winbase/nf-winbase-lookupaccountsida) | Introduced into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. |
+| [LookupPrivilegeDisplayNameW](/windows/win32/api/winbase/nf-winbase-lookupprivilegedisplaynamea) | Introduced into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. |
+| [LookupPrivilegeNameW](/windows/win32/api/winbase/nf-winbase-lookupprivilegenamea) | Introduced into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. |
+| [LookupPrivilegeValueW](/windows/win32/api/winbase/nf-winbase-lookupprivilegevaluea) | Introduced into api-ms-win-security-lsalookup-l2-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-security-provider-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetExplicitEntriesFromAclA](https://msdn.microsoft.com/library/Aa446638(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. |
-| [GetNamedSecurityInfoA](https://msdn.microsoft.com/library/Aa446645(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. |
-| [SetEntriesInAclA](https://msdn.microsoft.com/library/Aa379576(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. |
-| [SetNamedSecurityInfoA](https://msdn.microsoft.com/library/Aa379579(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. |
+| [GetExplicitEntriesFromAclA](/windows/win32/api/aclapi/nf-aclapi-getexplicitentriesfromacla) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. |
+| [GetNamedSecurityInfoA](/windows/win32/api/aclapi/nf-aclapi-getnamedsecurityinfoa) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. |
+| [SetEntriesInAclA](/windows/win32/api/aclapi/nf-aclapi-setentriesinacla) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. |
+| [SetNamedSecurityInfoA](/windows/win32/api/aclapi/nf-aclapi-setnamedsecurityinfoa) | Introduced into api-ms-win-security-provider-ansi-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-security-provider-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetExplicitEntriesFromAclW](https://msdn.microsoft.com/library/Aa446638(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. |
-| [GetNamedSecurityInfoW](https://msdn.microsoft.com/library/Aa446645(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. |
-| [GetSecurityInfo](https://msdn.microsoft.com/library/Aa446654(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. |
-| [SetEntriesInAclW](https://msdn.microsoft.com/library/Aa379576(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. |
-| [SetNamedSecurityInfoW](https://msdn.microsoft.com/library/Aa379579(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. |
-| [SetSecurityInfo](https://msdn.microsoft.com/library/Aa379588(v=VS.85).aspx) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. |
+| [GetExplicitEntriesFromAclW](/windows/win32/api/aclapi/nf-aclapi-getexplicitentriesfromacla) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. |
+| [GetNamedSecurityInfoW](/windows/win32/api/aclapi/nf-aclapi-getnamedsecurityinfoa) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. |
+| [GetSecurityInfo](/windows/win32/api/aclapi/nf-aclapi-getsecurityinfo) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. |
+| [SetEntriesInAclW](/windows/win32/api/aclapi/nf-aclapi-setentriesinacla) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. |
+| [SetNamedSecurityInfoW](/windows/win32/api/aclapi/nf-aclapi-setnamedsecurityinfoa) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. |
+| [SetSecurityInfo](/windows/win32/api/aclapi/nf-aclapi-setsecurityinfo) | Introduced into api-ms-win-security-provider-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-security-sddl-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [ConvertSidToStringSidA](https://msdn.microsoft.com/library/Aa376399(v=VS.85).aspx) | Introduced into api-ms-win-security-sddl-ansi-l1-1-0.dll in 10.0.16299. |
-| [ConvertStringSidToSidA](https://msdn.microsoft.com/library/Aa376402(v=VS.85).aspx) | Introduced into api-ms-win-security-sddl-ansi-l1-1-0.dll in 10.0.16299. |
+| [ConvertSidToStringSidA](/windows/win32/api/sddl/nf-sddl-convertsidtostringsida) | Introduced into api-ms-win-security-sddl-ansi-l1-1-0.dll in 10.0.16299. |
+| [ConvertStringSidToSidA](/windows/win32/api/sddl/nf-sddl-convertstringsidtosida) | Introduced into api-ms-win-security-sddl-ansi-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from coremessaging.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CreateDispatcherQueueController](https://msdn.microsoft.com/library/Mt826210(v=VS.85).aspx) | Introduced into coremessaging.dll in 10.0.16299. |
+| [CreateDispatcherQueueController](/windows/win32/api/dispatcherqueue/nf-dispatcherqueue-createdispatcherqueuecontroller) | Introduced into coremessaging.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-localization-obsolete-l1-2-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [EnumUILanguagesW](https://msdn.microsoft.com/library/Dd317834(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-obsolete-l1-2-0.dll in 10.0.16299. |
-| [GetUserDefaultUILanguage](https://msdn.microsoft.com/library/Dd318137(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-obsolete-l1-2-0.dll in 10.0.16299. |
+| [EnumUILanguagesW](/windows/win32/api/winnls/nf-winnls-enumuilanguagesa) | Introduced into api-ms-win-core-localization-obsolete-l1-2-0.dll in 10.0.16299. |
+| [GetUserDefaultUILanguage](/windows/win32/api/winnls/nf-winnls-getuserdefaultuilanguage) | Introduced into api-ms-win-core-localization-obsolete-l1-2-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-namedpipe-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetNamedPipeClientComputerNameA](https://msdn.microsoft.com/library/Aa365437(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. |
-| [GetNamedPipeHandleStateA](https://msdn.microsoft.com/library/Aa365443(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. |
-| [WaitNamedPipeA](https://msdn.microsoft.com/library/Aa365800(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. |
+| [GetNamedPipeClientComputerNameA](/windows/win32/api/winbase/nf-winbase-getnamedpipeclientcomputernamea) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. |
+| [GetNamedPipeHandleStateA](/windows/win32/api/winbase/nf-winbase-getnamedpipehandlestatea) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. |
+| [WaitNamedPipeA](/windows/win32/api/winbase/nf-winbase-waitnamedpipea) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-namedpipe-ansi-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CallNamedPipeA](https://msdn.microsoft.com/library/Aa365144(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-1.dll in 10.0.16299. |
+| [CallNamedPipeA](/windows/win32/api/winbase/nf-winbase-callnamedpipea) | Introduced into api-ms-win-core-namedpipe-ansi-l1-1-1.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-console-l2-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [FillConsoleOutputAttribute](https://msdn.microsoft.com/library/ms682662(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [FillConsoleOutputCharacterW](https://msdn.microsoft.com/library/ms682663(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [GetConsoleCursorInfo](https://msdn.microsoft.com/library/ms683163(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [GetConsoleScreenBufferInfo](https://msdn.microsoft.com/library/ms683171(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [GetConsoleTitleW](https://msdn.microsoft.com/library/ms683174(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-console-l2-2-0.dll in 10.0.17134. |
-| [GetLargestConsoleWindowSize](https://msdn.microsoft.com/library/ms683193(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [PeekConsoleInputW](https://msdn.microsoft.com/library/ms684344(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-console-l1-2-0.dll in 10.0.17134. |
-| [ReadConsoleOutputW](https://msdn.microsoft.com/library/ms684965(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [SetConsoleCP](https://msdn.microsoft.com/library/ms686013(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [SetConsoleCursorInfo](https://msdn.microsoft.com/library/ms686019(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [SetConsoleCursorPosition](https://msdn.microsoft.com/library/ms686025(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [SetConsoleOutputCP](https://msdn.microsoft.com/library/ms686036(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [SetConsoleScreenBufferSize](https://msdn.microsoft.com/library/ms686044(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [SetConsoleTextAttribute](https://msdn.microsoft.com/library/ms686047(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [SetConsoleTitleW](https://msdn.microsoft.com/library/ms686050(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-console-l2-2-0.dll in 10.0.17134. |
-| [SetConsoleWindowInfo](https://msdn.microsoft.com/library/ms686125(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [WriteConsoleOutputW](https://msdn.microsoft.com/library/ms687404(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
-| [CreateConsoleScreenBuffer](https://msdn.microsoft.com/library/ms682122(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
-| [FillConsoleOutputCharacterA](https://msdn.microsoft.com/library/ms682663(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
-| [FlushConsoleInputBuffer](https://msdn.microsoft.com/library/ms683147(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
-| [GenerateConsoleCtrlEvent](https://msdn.microsoft.com/library/ms683155(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
-| [GetConsoleScreenBufferInfoEx](https://msdn.microsoft.com/library/ms683172(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
-| [ReadConsoleOutputA](https://msdn.microsoft.com/library/ms684965(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
-| [ReadConsoleOutputAttribute](https://msdn.microsoft.com/library/ms684968(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
-| [ReadConsoleOutputCharacterA](https://msdn.microsoft.com/library/ms684969(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
-| [ReadConsoleOutputCharacterW](https://msdn.microsoft.com/library/ms684969(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
-| [ScrollConsoleScreenBufferA](https://msdn.microsoft.com/library/ms685107(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
-| [ScrollConsoleScreenBufferW](https://msdn.microsoft.com/library/ms685107(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
-| [SetConsoleActiveScreenBuffer](https://msdn.microsoft.com/library/ms686010(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
-| [SetConsoleScreenBufferInfoEx](https://msdn.microsoft.com/library/ms686039(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
-| [WriteConsoleInputA](https://msdn.microsoft.com/library/ms687403(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
-| [WriteConsoleInputW](https://msdn.microsoft.com/library/ms687403(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
-| [WriteConsoleOutputA](https://msdn.microsoft.com/library/ms687404(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
-| [WriteConsoleOutputAttribute](https://msdn.microsoft.com/library/ms687407(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
-| [WriteConsoleOutputCharacterA](https://msdn.microsoft.com/library/ms687410(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
-| [WriteConsoleOutputCharacterW](https://msdn.microsoft.com/library/ms687410(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [FillConsoleOutputAttribute](/windows/console/fillconsoleoutputattribute) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [FillConsoleOutputCharacterW](/windows/console/fillconsoleoutputcharacter) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [GetConsoleCursorInfo](/windows/console/getconsolecursorinfo) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [GetConsoleScreenBufferInfo](/windows/console/getconsolescreenbufferinfo) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [GetConsoleTitleW](/windows/console/getconsoletitle) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-console-l2-2-0.dll in 10.0.17134. |
+| [GetLargestConsoleWindowSize](/windows/console/getlargestconsolewindowsize) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [PeekConsoleInputW](/windows/console/peekconsoleinput) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-console-l1-2-0.dll in 10.0.17134. |
+| [ReadConsoleOutputW](/windows/console/readconsoleoutput) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [SetConsoleCP](/windows/console/setconsolecp) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [SetConsoleCursorInfo](/windows/console/setconsolecursorinfo) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [SetConsoleCursorPosition](/windows/console/setconsolecursorposition) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [SetConsoleOutputCP](/windows/console/setconsoleoutputcp) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [SetConsoleScreenBufferSize](/windows/console/setconsolescreenbuffersize) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [SetConsoleTextAttribute](/windows/console/setconsoletextattribute) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [SetConsoleTitleW](/windows/console/setconsoletitle) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. Moved into api-ms-win-core-console-l2-2-0.dll in 10.0.17134. |
+| [SetConsoleWindowInfo](/windows/console/setconsolewindowinfo) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [WriteConsoleOutputW](/windows/console/writeconsoleoutput) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.16299. |
+| [CreateConsoleScreenBuffer](/windows/console/createconsolescreenbuffer) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [FillConsoleOutputCharacterA](/windows/console/fillconsoleoutputcharacter) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [FlushConsoleInputBuffer](/windows/console/flushconsoleinputbuffer) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [GenerateConsoleCtrlEvent](/windows/console/generateconsolectrlevent) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [GetConsoleScreenBufferInfoEx](/windows/console/getconsolescreenbufferinfoex) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [ReadConsoleOutputA](/windows/console/readconsoleoutput) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [ReadConsoleOutputAttribute](/windows/console/readconsoleoutputattribute) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [ReadConsoleOutputCharacterA](/windows/console/readconsoleoutputcharacter) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [ReadConsoleOutputCharacterW](/windows/console/readconsoleoutputcharacter) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [ScrollConsoleScreenBufferA](/windows/console/scrollconsolescreenbuffer) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [ScrollConsoleScreenBufferW](/windows/console/scrollconsolescreenbuffer) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [SetConsoleActiveScreenBuffer](/windows/console/setconsoleactivescreenbuffer) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [SetConsoleScreenBufferInfoEx](/windows/console/setconsolescreenbufferinfoex) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [WriteConsoleInputA](/windows/console/writeconsoleinput) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [WriteConsoleInputW](/windows/console/writeconsoleinput) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [WriteConsoleOutputA](/windows/console/writeconsoleoutput) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [WriteConsoleOutputAttribute](/windows/console/writeconsoleoutputattribute) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [WriteConsoleOutputCharacterA](/windows/console/writeconsoleoutputcharacter) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
+| [WriteConsoleOutputCharacterW](/windows/console/writeconsoleoutputcharacter) | Introduced into api-ms-win-core-console-l2-1-0.dll in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-file-l2-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CopyFileExW](https://msdn.microsoft.com/library/Aa363852(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. |
-| [ReadDirectoryChangesW](https://msdn.microsoft.com/library/Aa365465(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. |
+| [CopyFileExW](/windows/win32/api/winbase/nf-winbase-copyfileexa) | Introduced into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. |
+| [ReadDirectoryChangesW](/windows/win32/api/winbase/nf-winbase-readdirectorychangesw) | Introduced into api-ms-win-core-file-l2-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-file-l2-1-2.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CopyFileW](https://msdn.microsoft.com/library/Aa363851(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l2-1-2.dll in 10.0.16299. |
+| [CopyFileW](/windows/win32/api/winbase/nf-winbase-copyfile) | Introduced into api-ms-win-core-file-l2-1-2.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-version-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetFileVersionInfoExW](https://msdn.microsoft.com/library/Aa969434(v=VS.85).aspx) | Introduced into api-ms-win-core-version-l1-1-0.dll in 10.0.16299. |
-| [GetFileVersionInfoSizeExW](https://msdn.microsoft.com/library/Aa969435(v=VS.85).aspx) | Introduced into api-ms-win-core-version-l1-1-0.dll in 10.0.16299. |
-| [VerQueryValueW](https://msdn.microsoft.com/library/ms647464(v=VS.85).aspx) | Introduced into api-ms-win-core-version-l1-1-0.dll in 10.0.16299. |
+| [GetFileVersionInfoExW](/windows/win32/api/winver/nf-winver-getfileversioninfoexa) | Introduced into api-ms-win-core-version-l1-1-0.dll in 10.0.16299. |
+| [GetFileVersionInfoSizeExW](/windows/win32/api/winver/nf-winver-getfileversioninfosizeexa) | Introduced into api-ms-win-core-version-l1-1-0.dll in 10.0.16299. |
+| [VerQueryValueW](/windows/win32/api/winver/nf-winver-verqueryvaluea) | Introduced into api-ms-win-core-version-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-file-ansi-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [DeleteVolumeMountPointA](https://msdn.microsoft.com/library/Aa363927(v=VS.85).aspx) | Introduced into api-ms-win-core-file-ansi-l1-1-0.dll in 10.0.16299. |
+| [DeleteVolumeMountPointA](/windows/win32/api/fileapi/nf-fileapi-deletevolumemountpointw) | Introduced into api-ms-win-core-file-ansi-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-errorhandling-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [SetErrorMode](https://msdn.microsoft.com/library/ms680621(v=VS.85).aspx) | Introduced into api-ms-win-core-errorhandling-l1-1-0.dll in 10.0.16299. |
+| [SetErrorMode](/windows/win32/api/errhandlingapi/nf-errhandlingapi-seterrormode) | Introduced into api-ms-win-core-errorhandling-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-file-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [DeleteVolumeMountPointW](https://msdn.microsoft.com/library/Aa363927(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetDriveTypeA](https://msdn.microsoft.com/library/Aa364939(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetDriveTypeW](https://msdn.microsoft.com/library/Aa364939(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetFullPathNameA](https://msdn.microsoft.com/library/Aa364963(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetLogicalDrives](https://msdn.microsoft.com/library/Aa364972(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [GetVolumeInformationW](https://msdn.microsoft.com/library/Aa364993(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [LockFile](https://msdn.microsoft.com/library/Aa365202(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
-| [UnlockFile](https://msdn.microsoft.com/library/Aa365715(v=VS.85).aspx) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [DeleteVolumeMountPointW](/windows/win32/api/fileapi/nf-fileapi-deletevolumemountpointw) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetDriveTypeA](/windows/win32/api/fileapi/nf-fileapi-getdrivetypea) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetDriveTypeW](/windows/win32/api/fileapi/nf-fileapi-getdrivetypea) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetFullPathNameA](/windows/win32/api/fileapi/nf-fileapi-getfullpathnamea) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetLogicalDrives](/windows/win32/api/fileapi/nf-fileapi-getlogicaldrives) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [GetVolumeInformationW](/windows/win32/api/fileapi/nf-fileapi-getvolumeinformationa) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [LockFile](/windows/win32/api/fileapi/nf-fileapi-lockfile) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
+| [UnlockFile](/windows/win32/api/fileapi/nf-fileapi-unlockfile) | Introduced into api-ms-win-core-file-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-interlocked-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [InterlockedCompareExchange](https://msdn.microsoft.com/library/windows/desktop/ff471409.aspx) | Introduced into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
-| [InterlockedCompareExchange64](https://msdn.microsoft.com/library/windows/desktop/ms683562.aspx) | Introduced into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
-| [InterlockedDecrement](https://msdn.microsoft.com/library/windows/desktop/ms683580.aspx) | Introduced into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
-| [InterlockedExchange](https://msdn.microsoft.com/library/windows/desktop/ff471411.aspx) | Introduced into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
-| [InterlockedExchangeAdd](https://msdn.microsoft.com/library/windows/desktop/ms683597.aspx) | Introduced into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
-| [InterlockedIncrement](https://msdn.microsoft.com/library/windows/desktop/ms683614.aspx) | Introduced into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
+| [InterlockedCompareExchange](/windows/win32/direct3dhlsl/interlockedcompareexchange) | Introduced into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
+| [InterlockedCompareExchange64](/windows/win32/api/winnt/nf-winnt-interlockedcompareexchange64) | Introduced into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
+| [InterlockedDecrement](/windows/win32/api/winnt/nf-winnt-interlockeddecrement) | Introduced into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
+| [InterlockedExchange](/windows/win32/direct3dhlsl/interlockedexchange) | Introduced into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
+| [InterlockedExchangeAdd](/windows/win32/api/winnt/nf-winnt-interlockedexchangeadd) | Introduced into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
+| [InterlockedIncrement](/windows/win32/api/winnt/nf-winnt-interlockedincrement) | Introduced into api-ms-win-core-interlocked-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-localization-l1-2-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetACP](https://msdn.microsoft.com/library/Dd318070(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [GetLocaleInfoA](https://msdn.microsoft.com/library/Dd318101(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [GetLocaleInfoW](https://msdn.microsoft.com/library/Dd318101(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [GetUserDefaultLangID](https://msdn.microsoft.com/library/Dd318134(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [IsDBCSLeadByte](https://msdn.microsoft.com/library/Dd318664(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [IsDBCSLeadByteEx](https://msdn.microsoft.com/library/Dd318667(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [IsNLSDefinedString](https://msdn.microsoft.com/library/Dd318669(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [VerLanguageNameA](https://msdn.microsoft.com/library/ms647463(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
-| [VerLanguageNameW](https://msdn.microsoft.com/library/ms647463(v=VS.85).aspx) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [GetACP](/windows/win32/api/winnls/nf-winnls-getacp) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [GetLocaleInfoA](/windows/win32/api/winnls/nf-winnls-getlocaleinfoa) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [GetLocaleInfoW](/windows/win32/api/winnls/nf-winnls-getlocaleinfoa) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [GetUserDefaultLangID](/windows/win32/api/winnls/nf-winnls-getuserdefaultlangid) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [IsDBCSLeadByte](/windows/win32/api/winnls/nf-winnls-isdbcsleadbyte) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [IsDBCSLeadByteEx](/windows/win32/api/winnls/nf-winnls-isdbcsleadbyteex) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [IsNLSDefinedString](/windows/win32/api/winnls/nf-winnls-isnlsdefinedstring) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [VerLanguageNameA](/windows/win32/api/winver/nf-winver-verlanguagenamea) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
+| [VerLanguageNameW](/windows/win32/api/winver/nf-winver-verlanguagenamea) | Introduced into api-ms-win-core-localization-l1-2-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-wow64-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [IsWow64Process](https://msdn.microsoft.com/library/ms684139(v=VS.85).aspx) | Introduced into api-ms-win-core-wow64-l1-1-0.dll in 10.0.16299. |
+| [IsWow64Process](/windows/win32/api/wow64apiset/nf-wow64apiset-iswow64process) | Introduced into api-ms-win-core-wow64-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-memory-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetLargePageMinimum](https://msdn.microsoft.com/library/Aa366568(v=VS.85).aspx) | Introduced into api-ms-win-core-memory-l1-1-1.dll in 10.0.16299. |
-| [GetProcessWorkingSetSizeEx](https://msdn.microsoft.com/library/ms683227(v=VS.85).aspx) | Introduced into api-ms-win-core-memory-l1-1-1.dll in 10.0.16299. |
-| [SetProcessWorkingSetSizeEx](https://msdn.microsoft.com/library/ms686237(v=VS.85).aspx) | Introduced into api-ms-win-core-memory-l1-1-1.dll in 10.0.16299. |
+| [GetLargePageMinimum](/windows/win32/api/memoryapi/nf-memoryapi-getlargepageminimum) | Introduced into api-ms-win-core-memory-l1-1-1.dll in 10.0.16299. |
+| [GetProcessWorkingSetSizeEx](/windows/win32/api/memoryapi/nf-memoryapi-getprocessworkingsetsizeex) | Introduced into api-ms-win-core-memory-l1-1-1.dll in 10.0.16299. |
+| [SetProcessWorkingSetSizeEx](/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsizeex) | Introduced into api-ms-win-core-memory-l1-1-1.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-namedpipe-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [ConnectNamedPipe](https://msdn.microsoft.com/library/Aa365146(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
-| [CreateNamedPipeW](https://msdn.microsoft.com/library/Aa365150(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
-| [CreatePipe](https://msdn.microsoft.com/library/Aa365152(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
-| [DisconnectNamedPipe](https://msdn.microsoft.com/library/Aa365166(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
-| [GetNamedPipeClientComputerNameW](https://msdn.microsoft.com/library/Aa365437(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
-| [PeekNamedPipe](https://msdn.microsoft.com/library/Aa365779(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
-| [SetNamedPipeHandleState](https://msdn.microsoft.com/library/Aa365787(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
-| [TransactNamedPipe](https://msdn.microsoft.com/library/Aa365790(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
-| [WaitNamedPipeW](https://msdn.microsoft.com/library/Aa365800(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
+| [ConnectNamedPipe](/windows/win32/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
+| [CreateNamedPipeW](/windows/win32/api/winbase/nf-winbase-createnamedpipea) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
+| [CreatePipe](/windows/win32/api/namedpipeapi/nf-namedpipeapi-createpipe) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
+| [DisconnectNamedPipe](/windows/win32/api/namedpipeapi/nf-namedpipeapi-disconnectnamedpipe) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
+| [GetNamedPipeClientComputerNameW](/windows/win32/api/winbase/nf-winbase-getnamedpipeclientcomputernamea) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
+| [PeekNamedPipe](/windows/win32/api/namedpipeapi/nf-namedpipeapi-peeknamedpipe) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
+| [SetNamedPipeHandleState](/windows/win32/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
+| [TransactNamedPipe](/windows/win32/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
+| [WaitNamedPipeW](/windows/win32/api/winbase/nf-winbase-waitnamedpipea) | Introduced into api-ms-win-core-namedpipe-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-namedpipe-l1-2-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetNamedPipeHandleStateW](https://msdn.microsoft.com/library/Aa365443(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-2-1.dll in 10.0.16299. |
-| [GetNamedPipeInfo](https://msdn.microsoft.com/library/Aa365445(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-2-1.dll in 10.0.16299. |
+| [GetNamedPipeHandleStateW](/windows/win32/api/winbase/nf-winbase-getnamedpipehandlestatea) | Introduced into api-ms-win-core-namedpipe-l1-2-1.dll in 10.0.16299. |
+| [GetNamedPipeInfo](/windows/win32/api/namedpipeapi/nf-namedpipeapi-getnamedpipeinfo) | Introduced into api-ms-win-core-namedpipe-l1-2-1.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-processenvironment-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [ExpandEnvironmentStringsA](https://msdn.microsoft.com/library/ms724265(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [ExpandEnvironmentStringsW](https://msdn.microsoft.com/library/ms724265(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [FreeEnvironmentStringsA](https://msdn.microsoft.com/library/ms683151(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [FreeEnvironmentStringsW](https://msdn.microsoft.com/library/ms683151(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [GetEnvironmentStrings](https://msdn.microsoft.com/library/ms683187(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [GetEnvironmentStringsW](https://msdn.microsoft.com/library/ms683187(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [GetEnvironmentVariableA](https://msdn.microsoft.com/library/ms683188(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [GetEnvironmentVariableW](https://msdn.microsoft.com/library/ms683188(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [GetStdHandle](https://msdn.microsoft.com/library/ms683231(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [SetEnvironmentVariableA](https://msdn.microsoft.com/library/ms686206(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [SetEnvironmentVariableW](https://msdn.microsoft.com/library/ms686206(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
-| [SetStdHandle](https://msdn.microsoft.com/library/ms686244(v=VS.85).aspx) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [ExpandEnvironmentStringsA](/windows/win32/api/processenv/nf-processenv-expandenvironmentstringsa) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [ExpandEnvironmentStringsW](/windows/win32/api/processenv/nf-processenv-expandenvironmentstringsa) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [FreeEnvironmentStringsA](/windows/win32/api/processenv/nf-processenv-freeenvironmentstringsa) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [FreeEnvironmentStringsW](/windows/win32/api/processenv/nf-processenv-freeenvironmentstringsa) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [GetEnvironmentStrings](/windows/win32/api/processenv/nf-processenv-getenvironmentstrings) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [GetEnvironmentStringsW](/windows/win32/api/processenv/nf-processenv-getenvironmentstrings) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [GetEnvironmentVariableA](/windows/win32/api/processenv/nf-processenv-getenvironmentvariablea) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [GetEnvironmentVariableW](/windows/win32/api/processenv/nf-processenv-getenvironmentvariablea) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [GetStdHandle](/windows/console/getstdhandle) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [SetEnvironmentVariableA](/windows/win32/api/processenv/nf-processenv-setenvironmentvariablea) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [SetEnvironmentVariableW](/windows/win32/api/processenv/nf-processenv-setenvironmentvariablea) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
+| [SetStdHandle](/windows/console/setstdhandle) | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
 | SetStdHandleEx | Introduced into api-ms-win-core-processenvironment-l1-1-0.dll in 10.0.16299. |
 
 
@@ -3821,183 +3821,183 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [CreateProcessA](https://msdn.microsoft.com/library/ms682425(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [CreateProcessW](https://msdn.microsoft.com/library/ms682425(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [GetExitCodeProcess](https://msdn.microsoft.com/library/ms683189(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [GetPriorityClass](https://msdn.microsoft.com/library/ms683211(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [GetProcessId](https://msdn.microsoft.com/library/ms683215(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [GetProcessTimes](https://msdn.microsoft.com/library/ms683223(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [GetThreadPriorityBoost](https://msdn.microsoft.com/library/ms683236(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [OpenProcessToken](https://msdn.microsoft.com/library/Aa379295(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [OpenThread](https://msdn.microsoft.com/library/ms684335(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [OpenThreadToken](https://msdn.microsoft.com/library/Aa379296(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [SetPriorityClass](https://msdn.microsoft.com/library/ms686219(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [SetThreadPriorityBoost](https://msdn.microsoft.com/library/ms686280(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [SetThreadToken](https://msdn.microsoft.com/library/Aa379590(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
-| [ExitProcess](https://msdn.microsoft.com/library/ms682658(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.17763. |
+| [CreateProcessA](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [CreateProcessW](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [GetExitCodeProcess](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getexitcodeprocess) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [GetPriorityClass](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getpriorityclass) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [GetProcessId](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessid) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [GetProcessTimes](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesstimes) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [GetThreadPriorityBoost](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getthreadpriorityboost) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [OpenProcessToken](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openprocesstoken) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [OpenThread](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openthread) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [OpenThreadToken](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openthreadtoken) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [SetPriorityClass](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setpriorityclass) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [SetThreadPriorityBoost](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadpriorityboost) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [SetThreadToken](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadtoken) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.16299. |
+| [ExitProcess](/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitprocess) | Introduced into api-ms-win-core-processthreads-l1-1-0.dll in 10.0.17763. |
 
 
 ## APIs from api-ms-win-core-processthreads-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [FlushInstructionCache](https://msdn.microsoft.com/library/ms679350(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
-| [GetCurrentProcessorNumber](https://msdn.microsoft.com/library/ms683181(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
-| [GetCurrentProcessorNumberEx](https://msdn.microsoft.com/library/Dd405487(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
-| [GetCurrentThreadStackLimits](https://msdn.microsoft.com/library/Hh706789(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
-| [GetProcessMitigationPolicy](https://msdn.microsoft.com/library/Hh769085(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
-| [GetThreadIdealProcessorEx](https://msdn.microsoft.com/library/Dd405499(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
-| [GetThreadTimes](https://msdn.microsoft.com/library/ms683237(v=VS.85).aspx) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
+| [FlushInstructionCache](/windows/win32/api/processthreadsapi/nf-processthreadsapi-flushinstructioncache) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
+| [GetCurrentProcessorNumber](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getcurrentprocessornumber) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
+| [GetCurrentProcessorNumberEx](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getcurrentprocessornumberex) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
+| [GetCurrentThreadStackLimits](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getcurrentthreadstacklimits) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
+| [GetProcessMitigationPolicy](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
+| [GetThreadIdealProcessorEx](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getthreadidealprocessorex) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
+| [GetThreadTimes](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getthreadtimes) | Introduced into api-ms-win-core-processthreads-l1-1-1.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-security-base-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [AddAccessAllowedAce](https://msdn.microsoft.com/library/Aa374947(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [AddAccessAllowedAceEx](https://msdn.microsoft.com/library/Aa374951(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [AddAce](https://msdn.microsoft.com/library/Aa374970(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [AddMandatoryAce](https://msdn.microsoft.com/library/Aa965464(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [AdjustTokenGroups](https://msdn.microsoft.com/library/Aa375199(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [AdjustTokenPrivileges](https://msdn.microsoft.com/library/Aa375202(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [AllocateAndInitializeSid](https://msdn.microsoft.com/library/Aa375213(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [AllocateLocallyUniqueId](https://msdn.microsoft.com/library/Aa375260(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [CheckTokenMembership](https://msdn.microsoft.com/library/Aa376389(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [CopySid](https://msdn.microsoft.com/library/Aa376404(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [CreateWellKnownSid](https://msdn.microsoft.com/library/Aa446585(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [DeleteAce](https://msdn.microsoft.com/library/Aa446612(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [DuplicateToken](https://msdn.microsoft.com/library/Aa446616(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [DuplicateTokenEx](https://msdn.microsoft.com/library/Aa446617(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [EqualDomainSid](https://msdn.microsoft.com/library/Aa446620(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [FreeSid](https://msdn.microsoft.com/library/Aa446631(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetAce](https://msdn.microsoft.com/library/Aa446634(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetAclInformation](https://msdn.microsoft.com/library/Aa446635(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetKernelObjectSecurity](https://msdn.microsoft.com/library/Aa446641(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetLengthSid](https://msdn.microsoft.com/library/Aa446642(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetSecurityDescriptorControl](https://msdn.microsoft.com/library/Aa446647(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetSecurityDescriptorDacl](https://msdn.microsoft.com/library/Aa446648(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetSecurityDescriptorGroup](https://msdn.microsoft.com/library/Aa446649(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetSecurityDescriptorLength](https://msdn.microsoft.com/library/Aa446650(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetSecurityDescriptorOwner](https://msdn.microsoft.com/library/Aa446651(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetSecurityDescriptorRMControl](https://msdn.microsoft.com/library/Aa446652(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetSecurityDescriptorSacl](https://msdn.microsoft.com/library/Aa446653(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetSidIdentifierAuthority](https://msdn.microsoft.com/library/Aa446655(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetSidLengthRequired](https://msdn.microsoft.com/library/Aa446656(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetSidSubAuthority](https://msdn.microsoft.com/library/Aa446657(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetSidSubAuthorityCount](https://msdn.microsoft.com/library/Aa446658(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetTokenInformation](https://msdn.microsoft.com/library/Aa446671(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [GetWindowsAccountDomainSid](https://msdn.microsoft.com/library/Aa446676(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [InitializeAcl](https://msdn.microsoft.com/library/Aa378853(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [InitializeSecurityDescriptor](https://msdn.microsoft.com/library/Aa378863(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [InitializeSid](https://msdn.microsoft.com/library/Aa378875(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [IsValidAcl](https://msdn.microsoft.com/library/Aa379142(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [IsValidSecurityDescriptor](https://msdn.microsoft.com/library/Aa379147(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [IsValidSid](https://msdn.microsoft.com/library/Aa379151(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [IsWellKnownSid](https://msdn.microsoft.com/library/Aa379154(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [MakeAbsoluteSD](https://msdn.microsoft.com/library/Aa379264(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [MakeSelfRelativeSD](https://msdn.microsoft.com/library/Aa379265(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [SetKernelObjectSecurity](https://msdn.microsoft.com/library/Aa379578(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [SetSecurityDescriptorControl](https://msdn.microsoft.com/library/Aa379582(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [SetSecurityDescriptorDacl](https://msdn.microsoft.com/library/Aa379583(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [SetSecurityDescriptorGroup](https://msdn.microsoft.com/library/Aa379584(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [SetSecurityDescriptorOwner](https://msdn.microsoft.com/library/Aa379585(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [SetSecurityDescriptorRMControl](https://msdn.microsoft.com/library/Aa379586(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [SetSecurityDescriptorSacl](https://msdn.microsoft.com/library/Aa379587(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
-| [SetTokenInformation](https://msdn.microsoft.com/library/Aa379591(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [AddAccessAllowedAce](/windows/win32/api/securitybaseapi/nf-securitybaseapi-addaccessallowedace) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [AddAccessAllowedAceEx](/windows/win32/api/securitybaseapi/nf-securitybaseapi-addaccessallowedaceex) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [AddAce](/windows/win32/api/securitybaseapi/nf-securitybaseapi-addace) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [AddMandatoryAce](/windows/win32/api/securitybaseapi/nf-securitybaseapi-addmandatoryace) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [AdjustTokenGroups](/windows/win32/api/securitybaseapi/nf-securitybaseapi-adjusttokengroups) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [AdjustTokenPrivileges](/windows/win32/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [AllocateAndInitializeSid](/windows/win32/api/securitybaseapi/nf-securitybaseapi-allocateandinitializesid) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [AllocateLocallyUniqueId](/windows/win32/api/securitybaseapi/nf-securitybaseapi-allocatelocallyuniqueid) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [CheckTokenMembership](/windows/win32/api/securitybaseapi/nf-securitybaseapi-checktokenmembership) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [CopySid](/windows/win32/api/securitybaseapi/nf-securitybaseapi-copysid) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [CreateWellKnownSid](/windows/win32/api/securitybaseapi/nf-securitybaseapi-createwellknownsid) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [DeleteAce](/windows/win32/api/securitybaseapi/nf-securitybaseapi-deleteace) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [DuplicateToken](/windows/win32/api/securitybaseapi/nf-securitybaseapi-duplicatetoken) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [DuplicateTokenEx](/windows/win32/api/securitybaseapi/nf-securitybaseapi-duplicatetokenex) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [EqualDomainSid](/windows/win32/api/securitybaseapi/nf-securitybaseapi-equaldomainsid) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [FreeSid](/windows/win32/api/securitybaseapi/nf-securitybaseapi-freesid) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetAce](/windows/win32/api/securitybaseapi/nf-securitybaseapi-getace) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetAclInformation](/windows/win32/api/securitybaseapi/nf-securitybaseapi-getaclinformation) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetKernelObjectSecurity](/windows/win32/api/securitybaseapi/nf-securitybaseapi-getkernelobjectsecurity) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetLengthSid](/windows/win32/api/securitybaseapi/nf-securitybaseapi-getlengthsid) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetSecurityDescriptorControl](/windows/win32/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorcontrol) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetSecurityDescriptorDacl](/windows/win32/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptordacl) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetSecurityDescriptorGroup](/windows/win32/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorgroup) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetSecurityDescriptorLength](/windows/win32/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorlength) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetSecurityDescriptorOwner](/windows/win32/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorowner) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetSecurityDescriptorRMControl](/windows/win32/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorrmcontrol) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetSecurityDescriptorSacl](/windows/win32/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorsacl) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetSidIdentifierAuthority](/windows/win32/api/securitybaseapi/nf-securitybaseapi-getsididentifierauthority) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetSidLengthRequired](/windows/win32/api/securitybaseapi/nf-securitybaseapi-getsidlengthrequired) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetSidSubAuthority](/windows/win32/api/securitybaseapi/nf-securitybaseapi-getsidsubauthority) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetSidSubAuthorityCount](/windows/win32/api/securitybaseapi/nf-securitybaseapi-getsidsubauthoritycount) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetTokenInformation](/windows/win32/api/securitybaseapi/nf-securitybaseapi-gettokeninformation) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [GetWindowsAccountDomainSid](/windows/win32/api/securitybaseapi/nf-securitybaseapi-getwindowsaccountdomainsid) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [InitializeAcl](/windows/win32/api/securitybaseapi/nf-securitybaseapi-initializeacl) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [InitializeSecurityDescriptor](/windows/win32/api/securitybaseapi/nf-securitybaseapi-initializesecuritydescriptor) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [InitializeSid](/windows/win32/api/securitybaseapi/nf-securitybaseapi-initializesid) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [IsValidAcl](/windows/win32/api/securitybaseapi/nf-securitybaseapi-isvalidacl) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [IsValidSecurityDescriptor](/windows/win32/api/securitybaseapi/nf-securitybaseapi-isvalidsecuritydescriptor) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [IsValidSid](/windows/win32/api/securitybaseapi/nf-securitybaseapi-isvalidsid) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [IsWellKnownSid](/windows/win32/api/securitybaseapi/nf-securitybaseapi-iswellknownsid) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [MakeAbsoluteSD](/windows/win32/api/securitybaseapi/nf-securitybaseapi-makeabsolutesd) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [MakeSelfRelativeSD](/windows/win32/api/securitybaseapi/nf-securitybaseapi-makeselfrelativesd) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [SetKernelObjectSecurity](/windows/win32/api/securitybaseapi/nf-securitybaseapi-setkernelobjectsecurity) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [SetSecurityDescriptorControl](/windows/win32/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorcontrol) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [SetSecurityDescriptorDacl](/windows/win32/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [SetSecurityDescriptorGroup](/windows/win32/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorgroup) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [SetSecurityDescriptorOwner](/windows/win32/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorowner) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [SetSecurityDescriptorRMControl](/windows/win32/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorrmcontrol) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [SetSecurityDescriptorSacl](/windows/win32/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorsacl) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
+| [SetTokenInformation](/windows/win32/api/securitybaseapi/nf-securitybaseapi-settokeninformation) | Introduced into api-ms-win-security-base-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-security-sddl-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [ConvertSecurityDescriptorToStringSecurityDescriptorW](https://msdn.microsoft.com/library/Aa376397(v=VS.85).aspx) | Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.16299. |
-| [ConvertSidToStringSidW](https://msdn.microsoft.com/library/Aa376399(v=VS.85).aspx) | Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.16299. |
-| [ConvertStringSecurityDescriptorToSecurityDescriptorW](https://msdn.microsoft.com/library/Aa376401(v=VS.85).aspx) | Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.16299. |
-| [ConvertStringSidToSidW](https://msdn.microsoft.com/library/Aa376402(v=VS.85).aspx) | Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.16299. |
+| [ConvertSecurityDescriptorToStringSecurityDescriptorW](/windows/win32/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora) | Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.16299. |
+| [ConvertSidToStringSidW](/windows/win32/api/sddl/nf-sddl-convertsidtostringsida) | Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.16299. |
+| [ConvertStringSecurityDescriptorToSecurityDescriptorW](/windows/win32/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora) | Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.16299. |
+| [ConvertStringSidToSidW](/windows/win32/api/sddl/nf-sddl-convertstringsidtosida) | Introduced into api-ms-win-security-sddl-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-synch-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CancelWaitableTimer](https://msdn.microsoft.com/library/ms681985(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [CreateWaitableTimerExW](https://msdn.microsoft.com/library/ms682494(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [OpenWaitableTimerW](https://msdn.microsoft.com/library/ms684337(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [SetWaitableTimer](https://msdn.microsoft.com/library/ms686289(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
-| [SetWaitableTimerEx](https://msdn.microsoft.com/library/Dd405521(v=VS.85).aspx) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [CancelWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-cancelwaitabletimer) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [CreateWaitableTimerExW](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerexw) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [OpenWaitableTimerW](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [SetWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-setwaitabletimer) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
+| [SetWaitableTimerEx](/windows/win32/api/synchapi/nf-synchapi-setwaitabletimerex) | Introduced into api-ms-win-core-synch-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-sysinfo-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetSystemDirectoryA](https://msdn.microsoft.com/library/ms724373(v=VS.85).aspx) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
-| [GetSystemDirectoryW](https://msdn.microsoft.com/library/ms724373(v=VS.85).aspx) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
-| [GetTickCount](https://msdn.microsoft.com/library/ms724408(v=VS.85).aspx) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
-| [GetVersionExA](https://msdn.microsoft.com/library/ms724451(v=VS.85).aspx) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
-| [GetVersionExW](https://msdn.microsoft.com/library/ms724451(v=VS.85).aspx) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+| [GetSystemDirectoryA](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+| [GetSystemDirectoryW](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+| [GetTickCount](/windows/win32/api/sysinfoapi/nf-sysinfoapi-gettickcount) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+| [GetVersionExA](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
+| [GetVersionExW](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa) | Introduced into api-ms-win-core-sysinfo-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-comm-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [ClearCommBreak](https://msdn.microsoft.com/library/Aa363179(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [ClearCommError](https://msdn.microsoft.com/library/Aa363180(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [EscapeCommFunction](https://msdn.microsoft.com/library/Aa363254(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [GetCommConfig](https://msdn.microsoft.com/library/Aa363256(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [GetCommMask](https://msdn.microsoft.com/library/Aa363257(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [GetCommModemStatus](https://msdn.microsoft.com/library/Aa363258(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [GetCommProperties](https://msdn.microsoft.com/library/Aa363259(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [GetCommState](https://msdn.microsoft.com/library/Aa363260(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [GetCommTimeouts](https://msdn.microsoft.com/library/Aa363261(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [PurgeComm](https://msdn.microsoft.com/library/Aa363428(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [SetCommBreak](https://msdn.microsoft.com/library/Aa363433(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [SetCommConfig](https://msdn.microsoft.com/library/Aa363434(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [SetCommMask](https://msdn.microsoft.com/library/Aa363435(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [SetCommState](https://msdn.microsoft.com/library/Aa363436(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [SetCommTimeouts](https://msdn.microsoft.com/library/Aa363437(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [SetupComm](https://msdn.microsoft.com/library/Aa363439(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [TransmitCommChar](https://msdn.microsoft.com/library/Aa363473(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
-| [WaitCommEvent](https://msdn.microsoft.com/library/Aa363479(v=VS.85).aspx) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [ClearCommBreak](/windows/win32/api/winbase/nf-winbase-clearcommbreak) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [ClearCommError](/windows/win32/api/winbase/nf-winbase-clearcommerror) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [EscapeCommFunction](/windows/win32/api/winbase/nf-winbase-escapecommfunction) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [GetCommConfig](/windows/win32/api/winbase/nf-winbase-getcommconfig) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [GetCommMask](/windows/win32/api/winbase/nf-winbase-getcommmask) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [GetCommModemStatus](/windows/win32/api/winbase/nf-winbase-getcommmodemstatus) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [GetCommProperties](/windows/win32/api/winbase/nf-winbase-getcommproperties) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [GetCommState](/windows/win32/api/winbase/nf-winbase-getcommstate) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [GetCommTimeouts](/windows/win32/api/winbase/nf-winbase-getcommtimeouts) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [PurgeComm](/windows/win32/api/winbase/nf-winbase-purgecomm) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [SetCommBreak](/windows/win32/api/winbase/nf-winbase-setcommbreak) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [SetCommConfig](/windows/win32/api/winbase/nf-winbase-setcommconfig) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [SetCommMask](/windows/win32/api/winbase/nf-winbase-setcommmask) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [SetCommState](/windows/win32/api/winbase/nf-winbase-setcommstate) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [SetCommTimeouts](/windows/win32/api/winbase/nf-winbase-setcommtimeouts) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [SetupComm](/windows/win32/api/winbase/nf-winbase-setupcomm) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [TransmitCommChar](/windows/win32/api/winbase/nf-winbase-transmitcommchar) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
+| [WaitCommEvent](/windows/win32/api/winbase/nf-winbase-waitcommevent) | Introduced into api-ms-win-core-comm-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-console-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetConsoleCP](https://msdn.microsoft.com/library/ms683162(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
-| [GetConsoleMode](https://msdn.microsoft.com/library/ms683167(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
-| [GetConsoleOutputCP](https://msdn.microsoft.com/library/ms683169(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
-| [ReadConsoleInputW](https://msdn.microsoft.com/library/ms684961(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
-| [ReadConsoleW](https://msdn.microsoft.com/library/ms684958(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
-| [SetConsoleCtrlHandler](https://msdn.microsoft.com/library/ms686016(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
-| [SetConsoleMode](https://msdn.microsoft.com/library/ms686033(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
-| [WriteConsoleW](https://msdn.microsoft.com/library/ms687401(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
-| [AllocConsole](https://msdn.microsoft.com/library/ms681944(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.17134. |
-| [GetNumberOfConsoleInputEvents](https://msdn.microsoft.com/library/ms683207(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.17134. |
-| [ReadConsoleA](https://msdn.microsoft.com/library/ms684958(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.17134. |
-| [ReadConsoleInputA](https://msdn.microsoft.com/library/ms684961(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.17134. |
-| [WriteConsoleA](https://msdn.microsoft.com/library/ms687401(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.17134. |
+| [GetConsoleCP](/windows/console/getconsolecp) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
+| [GetConsoleMode](/windows/console/getconsolemode) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
+| [GetConsoleOutputCP](/windows/console/getconsoleoutputcp) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
+| [ReadConsoleInputW](/windows/console/readconsoleinput) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
+| [ReadConsoleW](/windows/console/readconsole) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
+| [SetConsoleCtrlHandler](/windows/console/setconsolectrlhandler) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
+| [SetConsoleMode](/windows/console/setconsolemode) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
+| [WriteConsoleW](/windows/console/writeconsole) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.16299. |
+| [AllocConsole](/windows/console/allocconsole) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.17134. |
+| [GetNumberOfConsoleInputEvents](/windows/console/getnumberofconsoleinputevents) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.17134. |
+| [ReadConsoleA](/windows/console/readconsole) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.17134. |
+| [ReadConsoleInputA](/windows/console/readconsoleinput) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.17134. |
+| [WriteConsoleA](/windows/console/writeconsole) | Introduced into api-ms-win-core-console-l1-1-0.dll in 10.0.17134. |
 
 
 ## APIs from api-ms-win-appmodel-runtime-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [PackageFamilyNameFromFullName](https://msdn.microsoft.com/library/Hh446769(v=VS.85).aspx) | Introduced into api-ms-win-appmodel-runtime-l1-1-0.dll in 10.0.16299. |
-| [PackageFamilyNameFromId](https://msdn.microsoft.com/library/Hh446770(v=VS.85).aspx) | Introduced into api-ms-win-appmodel-runtime-l1-1-0.dll in 10.0.16299. |
-| [PackageFullNameFromId](https://msdn.microsoft.com/library/Hh446771(v=VS.85).aspx) | Introduced into api-ms-win-appmodel-runtime-l1-1-0.dll in 10.0.16299. |
-| [PackageIdFromFullName](https://msdn.microsoft.com/library/Hh446772(v=VS.85).aspx) | Introduced into api-ms-win-appmodel-runtime-l1-1-0.dll in 10.0.16299. |
-| [PackageNameAndPublisherIdFromFamilyName](https://msdn.microsoft.com/library/Hh446773(v=VS.85).aspx) | Introduced into api-ms-win-appmodel-runtime-l1-1-0.dll in 10.0.16299. |
+| [PackageFamilyNameFromFullName](/windows/win32/api/appmodel/nf-appmodel-packagefamilynamefromfullname) | Introduced into api-ms-win-appmodel-runtime-l1-1-0.dll in 10.0.16299. |
+| [PackageFamilyNameFromId](/windows/win32/api/appmodel/nf-appmodel-packagefamilynamefromid) | Introduced into api-ms-win-appmodel-runtime-l1-1-0.dll in 10.0.16299. |
+| [PackageFullNameFromId](/windows/win32/api/appmodel/nf-appmodel-packagefullnamefromid) | Introduced into api-ms-win-appmodel-runtime-l1-1-0.dll in 10.0.16299. |
+| [PackageIdFromFullName](/windows/win32/api/appmodel/nf-appmodel-packageidfromfullname) | Introduced into api-ms-win-appmodel-runtime-l1-1-0.dll in 10.0.16299. |
+| [PackageNameAndPublisherIdFromFamilyName](/windows/win32/api/appmodel/nf-appmodel-packagenameandpublisheridfromfamilyname) | Introduced into api-ms-win-appmodel-runtime-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-appmodel-runtime-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [FormatApplicationUserModelId](https://msdn.microsoft.com/library/Dn270602(v=VS.85).aspx) | Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.16299. |
-| [ParseApplicationUserModelId](https://msdn.microsoft.com/library/Dn313168(v=VS.85).aspx) | Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.16299. |
+| [FormatApplicationUserModelId](/windows/win32/api/appmodel/nf-appmodel-formatapplicationusermodelid) | Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.16299. |
+| [ParseApplicationUserModelId](/windows/win32/api/appmodel/nf-appmodel-parseapplicationusermodelid) | Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.16299. |
 | VerifyApplicationUserModelId | Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.16299. |
 | VerifyPackageFamilyName | Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.16299. |
 | VerifyPackageFullName | Introduced into api-ms-win-appmodel-runtime-l1-1-1.dll in 10.0.16299. |
@@ -4016,81 +4016,81 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [CreateEnclave](https://msdn.microsoft.com/library/Mt592866(v=VS.85).aspx) | Introduced into api-ms-win-core-enclave-l1-1-0.dll in 10.0.16299. |
-| [InitializeEnclave](https://msdn.microsoft.com/library/Mt592869(v=VS.85).aspx) | Introduced into api-ms-win-core-enclave-l1-1-0.dll in 10.0.16299. |
-| [IsEnclaveTypeSupported](https://msdn.microsoft.com/library/Mt592870(v=VS.85).aspx) | Introduced into api-ms-win-core-enclave-l1-1-0.dll in 10.0.16299. |
-| [LoadEnclaveData](https://msdn.microsoft.com/library/Mt592871(v=VS.85).aspx) | Introduced into api-ms-win-core-enclave-l1-1-0.dll in 10.0.16299. |
+| [CreateEnclave](/windows/win32/api/enclaveapi/nf-enclaveapi-createenclave) | Introduced into api-ms-win-core-enclave-l1-1-0.dll in 10.0.16299. |
+| [InitializeEnclave](/windows/win32/api/enclaveapi/nf-enclaveapi-initializeenclave) | Introduced into api-ms-win-core-enclave-l1-1-0.dll in 10.0.16299. |
+| [IsEnclaveTypeSupported](/windows/win32/api/enclaveapi/nf-enclaveapi-isenclavetypesupported) | Introduced into api-ms-win-core-enclave-l1-1-0.dll in 10.0.16299. |
+| [LoadEnclaveData](/windows/win32/api/enclaveapi/nf-enclaveapi-loadenclavedata) | Introduced into api-ms-win-core-enclave-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-featurestaging-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetFeatureVariant](https://msdn.microsoft.com/library/Mt846396(v=VS.85).aspx) | Introduced into api-ms-win-core-featurestaging-l1-1-1.dll in 10.0.16299. |
+| [GetFeatureVariant](/windows/win32/api/featurestagingapi/nf-featurestagingapi-getfeaturevariant) | Introduced into api-ms-win-core-featurestaging-l1-1-1.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-namedpipe-l1-2-2.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CallNamedPipeW](https://msdn.microsoft.com/library/Aa365144(v=VS.85).aspx) | Introduced into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.16299. |
+| [CallNamedPipeW](/windows/win32/api/winbase/nf-winbase-callnamedpipea) | Introduced into api-ms-win-core-namedpipe-l1-2-2.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-namespace-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [AddSIDToBoundaryDescriptor](https://msdn.microsoft.com/library/ms681937(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. |
-| [ClosePrivateNamespace](https://msdn.microsoft.com/library/ms682026(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. |
-| [CreateBoundaryDescriptorW](https://msdn.microsoft.com/library/ms682121(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. |
-| [CreatePrivateNamespaceW](https://msdn.microsoft.com/library/ms682419(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. |
-| [DeleteBoundaryDescriptor](https://msdn.microsoft.com/library/ms682549(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. |
-| [OpenPrivateNamespaceW](https://msdn.microsoft.com/library/ms684318(v=VS.85).aspx) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. |
+| [AddSIDToBoundaryDescriptor](/windows/win32/api/namespaceapi/nf-namespaceapi-addsidtoboundarydescriptor) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. |
+| [ClosePrivateNamespace](/windows/win32/api/namespaceapi/nf-namespaceapi-closeprivatenamespace) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. |
+| [CreateBoundaryDescriptorW](/windows/win32/api/winbase/nf-winbase-createboundarydescriptora) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. |
+| [CreatePrivateNamespaceW](/windows/win32/api/winbase/nf-winbase-createprivatenamespacea) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. |
+| [DeleteBoundaryDescriptor](/windows/win32/api/namespaceapi/nf-namespaceapi-deleteboundarydescriptor) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. |
+| [OpenPrivateNamespaceW](/windows/win32/api/winbase/nf-winbase-openprivatenamespacea) | Introduced into api-ms-win-core-namespace-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-path-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [PathAllocCanonicalize](https://msdn.microsoft.com/library/Hh707076(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
-| [PathAllocCombine](https://msdn.microsoft.com/library/Hh707077(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
-| [PathCchAddBackslash](https://msdn.microsoft.com/library/Hh707078(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
-| [PathCchAddBackslashEx](https://msdn.microsoft.com/library/Hh707079(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
-| [PathCchAddExtension](https://msdn.microsoft.com/library/Hh707080(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
-| [PathCchAppend](https://msdn.microsoft.com/library/Hh707081(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
-| [PathCchAppendEx](https://msdn.microsoft.com/library/Hh707082(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
-| [PathCchCanonicalize](https://msdn.microsoft.com/library/Hh707083(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
-| [PathCchCanonicalizeEx](https://msdn.microsoft.com/library/Hh707084(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
-| [PathCchCombine](https://msdn.microsoft.com/library/Hh707085(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
-| [PathCchCombineEx](https://msdn.microsoft.com/library/Hh707086(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
-| [PathCchFindExtension](https://msdn.microsoft.com/library/Hh707087(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
-| [PathCchIsRoot](https://msdn.microsoft.com/library/Hh707088(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
-| [PathCchRemoveBackslash](https://msdn.microsoft.com/library/Hh707089(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
-| [PathCchRemoveBackslashEx](https://msdn.microsoft.com/library/Hh707090(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
-| [PathCchRemoveExtension](https://msdn.microsoft.com/library/Hh707091(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
-| [PathCchRemoveFileSpec](https://msdn.microsoft.com/library/Hh707092(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
-| [PathCchRenameExtension](https://msdn.microsoft.com/library/Hh707093(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
-| [PathCchSkipRoot](https://msdn.microsoft.com/library/Hh707094(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
-| [PathCchStripPrefix](https://msdn.microsoft.com/library/Hh707095(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
-| [PathCchStripToRoot](https://msdn.microsoft.com/library/Hh707096(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
-| [PathIsUNCEx](https://msdn.microsoft.com/library/Hh707097(v=VS.85).aspx) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathAllocCanonicalize](/windows/win32/api/pathcch/nf-pathcch-pathalloccanonicalize) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathAllocCombine](/windows/win32/api/pathcch/nf-pathcch-pathalloccombine) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchAddBackslash](/windows/win32/api/pathcch/nf-pathcch-pathcchaddbackslash) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchAddBackslashEx](/windows/win32/api/pathcch/nf-pathcch-pathcchaddbackslashex) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchAddExtension](/windows/win32/api/pathcch/nf-pathcch-pathcchaddextension) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchAppend](/windows/win32/api/pathcch/nf-pathcch-pathcchappend) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchAppendEx](/windows/win32/api/pathcch/nf-pathcch-pathcchappendex) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchCanonicalize](/windows/win32/api/pathcch/nf-pathcch-pathcchcanonicalize) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchCanonicalizeEx](/windows/win32/api/pathcch/nf-pathcch-pathcchcanonicalizeex) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchCombine](/windows/win32/api/pathcch/nf-pathcch-pathcchcombine) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchCombineEx](/windows/win32/api/pathcch/nf-pathcch-pathcchcombineex) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchFindExtension](/windows/win32/api/pathcch/nf-pathcch-pathcchfindextension) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchIsRoot](/windows/win32/api/pathcch/nf-pathcch-pathcchisroot) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchRemoveBackslash](/windows/win32/api/pathcch/nf-pathcch-pathcchremovebackslash) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchRemoveBackslashEx](/windows/win32/api/pathcch/nf-pathcch-pathcchremovebackslashex) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchRemoveExtension](/windows/win32/api/pathcch/nf-pathcch-pathcchremoveextension) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchRemoveFileSpec](/windows/win32/api/pathcch/nf-pathcch-pathcchremovefilespec) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchRenameExtension](/windows/win32/api/pathcch/nf-pathcch-pathcchrenameextension) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchSkipRoot](/windows/win32/api/pathcch/nf-pathcch-pathcchskiproot) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchStripPrefix](/windows/win32/api/pathcch/nf-pathcch-pathcchstripprefix) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathCchStripToRoot](/windows/win32/api/pathcch/nf-pathcch-pathcchstriptoroot) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
+| [PathIsUNCEx](/windows/win32/api/pathcch/nf-pathcch-pathisuncex) | Introduced into api-ms-win-core-path-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-psm-appnotify-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [RegisterAppStateChangeNotification](https://msdn.microsoft.com/library/Dn424996(v=VS.85).aspx) | Introduced into api-ms-win-core-psm-appnotify-l1-1-0.dll in 10.0.16299. |
-| [UnregisterAppStateChangeNotification](https://msdn.microsoft.com/library/Dn424997(v=VS.85).aspx) | Introduced into api-ms-win-core-psm-appnotify-l1-1-0.dll in 10.0.16299. |
+| [RegisterAppStateChangeNotification](/windows/win32/api/appnotify/nf-appnotify-registerappstatechangenotification) | Introduced into api-ms-win-core-psm-appnotify-l1-1-0.dll in 10.0.16299. |
+| [UnregisterAppStateChangeNotification](/windows/win32/api/appnotify/nf-appnotify-unregisterappstatechangenotification) | Introduced into api-ms-win-core-psm-appnotify-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-realtime-l1-1-2.dll
 
 | API | Requirements |
 | -----| --------------|
-| [ConvertAuxiliaryCounterToPerformanceCounter](https://msdn.microsoft.com/library/Mt781214(v=VS.85).aspx) | Introduced into api-ms-win-core-realtime-l1-1-2.dll in 10.0.16299. |
-| [ConvertPerformanceCounterToAuxiliaryCounter](https://msdn.microsoft.com/library/Mt781215(v=VS.85).aspx) | Introduced into api-ms-win-core-realtime-l1-1-2.dll in 10.0.16299. |
-| [QueryAuxiliaryCounterFrequency](https://msdn.microsoft.com/library/Mt781218(v=VS.85).aspx) | Introduced into api-ms-win-core-realtime-l1-1-2.dll in 10.0.16299. |
+| [ConvertAuxiliaryCounterToPerformanceCounter](/windows/win32/api/realtimeapiset/nf-realtimeapiset-convertauxiliarycountertoperformancecounter) | Introduced into api-ms-win-core-realtime-l1-1-2.dll in 10.0.16299. |
+| [ConvertPerformanceCounterToAuxiliaryCounter](/windows/win32/api/realtimeapiset/nf-realtimeapiset-convertperformancecountertoauxiliarycounter) | Introduced into api-ms-win-core-realtime-l1-1-2.dll in 10.0.16299. |
+| [QueryAuxiliaryCounterFrequency](/windows/win32/api/realtimeapiset/nf-realtimeapiset-queryauxiliarycounterfrequency) | Introduced into api-ms-win-core-realtime-l1-1-2.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-gaming-tcui-l1-1-3.dll
@@ -4119,39 +4119,39 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [GetGamingDeviceModelInformation](https://msdn.microsoft.com/library/Mt825238(v=VS.85).aspx) | Introduced into api-ms-win-gaming-deviceinformation-l1-1-0.dll in 10.0.16299. |
+| [GetGamingDeviceModelInformation](/windows/win32/api/gamingdeviceinformation/nf-gamingdeviceinformation-getgamingdevicemodelinformation) | Introduced into api-ms-win-gaming-deviceinformation-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-gaming-expandedresources-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetExpandedResourceExclusiveCpuCount](https://msdn.microsoft.com/library/Mt808809(v=VS.85).aspx) | Introduced into api-ms-win-gaming-expandedresources-l1-1-0.dll in 10.0.16299. |
-| [HasExpandedResources](https://msdn.microsoft.com/library/Mt808810(v=VS.85).aspx) | Introduced into api-ms-win-gaming-expandedresources-l1-1-0.dll in 10.0.16299. |
-| [ReleaseExclusiveCpuSets](https://msdn.microsoft.com/library/Mt808811(v=VS.85).aspx) | Introduced into api-ms-win-gaming-expandedresources-l1-1-0.dll in 10.0.16299. |
+| [GetExpandedResourceExclusiveCpuCount](/windows/win32/api/expandedresources/nf-expandedresources-getexpandedresourceexclusivecpucount) | Introduced into api-ms-win-gaming-expandedresources-l1-1-0.dll in 10.0.16299. |
+| [HasExpandedResources](/windows/win32/api/expandedresources/nf-expandedresources-hasexpandedresources) | Introduced into api-ms-win-gaming-expandedresources-l1-1-0.dll in 10.0.16299. |
+| [ReleaseExclusiveCpuSets](/windows/win32/api/expandedresources/nf-expandedresources-releaseexclusivecpusets) | Introduced into api-ms-win-gaming-expandedresources-l1-1-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-gaming-gamemonitor-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [EnableActiveGameMonitoring](https://msdn.microsoft.com/library/Mt808782(v=VS.85).aspx) | Introduced into api-ms-win-gaming-gamemonitor-l1-1-0.dll in 10.0.16299. Removed in 10.0.17763. |
-| [ReportGameActivity](https://msdn.microsoft.com/library/Mt808783(v=VS.85).aspx) | Introduced into api-ms-win-gaming-gamemonitor-l1-1-0.dll in 10.0.16299. Removed in 10.0.17763. |
-| [SetGameActivityCorrelationId](https://msdn.microsoft.com/library/Mt808784(v=VS.85).aspx) | Introduced into api-ms-win-gaming-gamemonitor-l1-1-0.dll in 10.0.16299. Removed in 10.0.17763. |
+| [EnableActiveGameMonitoring](/previous-versions/visualstudio/) | Introduced into api-ms-win-gaming-gamemonitor-l1-1-0.dll in 10.0.16299. Removed in 10.0.17763. |
+| [ReportGameActivity](/previous-versions/visualstudio/) | Introduced into api-ms-win-gaming-gamemonitor-l1-1-0.dll in 10.0.16299. Removed in 10.0.17763. |
+| [SetGameActivityCorrelationId](/previous-versions//mt808784(v=vs.85)) | Introduced into api-ms-win-gaming-gamemonitor-l1-1-0.dll in 10.0.16299. Removed in 10.0.17763. |
 
 
 ## APIs from api-ms-win-gaming-gamemonitor-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetGameMonitoringPermissionState](https://msdn.microsoft.com/library/Mt823413(v=VS.85).aspx) | Introduced into api-ms-win-gaming-gamemonitor-l1-1-1.dll in 10.0.16299. Removed in 10.0.17763. |
+| [GetGameMonitoringPermissionState](/previous-versions//mt823413(v=vs.85)) | Introduced into api-ms-win-gaming-gamemonitor-l1-1-1.dll in 10.0.16299. Removed in 10.0.17763. |
 
 
 ## APIs from api-ms-win-security-base-l1-2-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CheckTokenMembershipEx](https://msdn.microsoft.com/library/Hh448479(v=VS.85).aspx) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.16299. |
+| [CheckTokenMembershipEx](/windows/win32/api/securitybaseapi/nf-securitybaseapi-checktokenmembershipex) | Introduced into api-ms-win-security-base-l1-2-0.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-security-isolatedcontainer-l1-1-0.dll
@@ -4165,7 +4165,7 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [BCryptGetFipsAlgorithmMode](https://msdn.microsoft.com/library/Aa375460(v=VS.85).aspx) | Introduced into bcrypt.dll in 10.0.16299. |
+| [BCryptGetFipsAlgorithmMode](/windows/win32/api/bcrypt/nf-bcrypt-bcryptgetfipsalgorithmmode) | Introduced into bcrypt.dll in 10.0.16299. |
 
 
 ## APIs from api-ms-win-core-memory-l1-1-6.dll
@@ -4180,7 +4180,7 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [UnmapViewOfFile2](https://msdn.microsoft.com/library/Mt492559(v=VS.85).aspx) | Introduced into api-ms-win-core-memory-l1-1-5.dll in 10.0.17134. |
+| [UnmapViewOfFile2](/windows/win32/api/memoryapi/nf-memoryapi-unmapviewoffile2) | Introduced into api-ms-win-core-memory-l1-1-5.dll in 10.0.17134. |
 | VirtualUnlockEx | Introduced into api-ms-win-core-memory-l1-1-5.dll in 10.0.17134. |
 
 
@@ -4188,87 +4188,87 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [GetConsoleOriginalTitleA](https://msdn.microsoft.com/library/ms683168(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-2-0.dll in 10.0.17134. |
-| [GetConsoleOriginalTitleW](https://msdn.microsoft.com/library/ms683168(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-2-0.dll in 10.0.17134. |
-| [GetConsoleTitleA](https://msdn.microsoft.com/library/ms683174(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-2-0.dll in 10.0.17134. |
-| [SetConsoleTitleA](https://msdn.microsoft.com/library/ms686050(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l2-2-0.dll in 10.0.17134. |
+| [GetConsoleOriginalTitleA](/windows/console/getconsoleoriginaltitle) | Introduced into api-ms-win-core-console-l2-2-0.dll in 10.0.17134. |
+| [GetConsoleOriginalTitleW](/windows/console/getconsoleoriginaltitle) | Introduced into api-ms-win-core-console-l2-2-0.dll in 10.0.17134. |
+| [GetConsoleTitleA](/windows/console/getconsoletitle) | Introduced into api-ms-win-core-console-l2-2-0.dll in 10.0.17134. |
+| [SetConsoleTitleA](/windows/console/setconsoletitle) | Introduced into api-ms-win-core-console-l2-2-0.dll in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-console-l3-2-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [AddConsoleAliasA](https://msdn.microsoft.com/library/ms681935(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [AddConsoleAliasW](https://msdn.microsoft.com/library/ms681935(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [AddConsoleAliasA](/windows/console/addconsolealias) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [AddConsoleAliasW](/windows/console/addconsolealias) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
 | ExpungeConsoleCommandHistoryA | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
 | ExpungeConsoleCommandHistoryW | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [GetConsoleAliasA](https://msdn.microsoft.com/library/ms683157(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [GetConsoleAliasExesA](https://msdn.microsoft.com/library/ms683160(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [GetConsoleAliasExesLengthA](https://msdn.microsoft.com/library/ms683161(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [GetConsoleAliasExesLengthW](https://msdn.microsoft.com/library/ms683161(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [GetConsoleAliasExesW](https://msdn.microsoft.com/library/ms683160(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [GetConsoleAliasW](https://msdn.microsoft.com/library/ms683157(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [GetConsoleAliasesA](https://msdn.microsoft.com/library/ms683158(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [GetConsoleAliasesLengthA](https://msdn.microsoft.com/library/ms683159(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [GetConsoleAliasesLengthW](https://msdn.microsoft.com/library/ms683159(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [GetConsoleAliasesW](https://msdn.microsoft.com/library/ms683158(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleAliasA](/windows/console/getconsolealias) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleAliasExesA](/windows/console/getconsolealiasexes) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleAliasExesLengthA](/windows/console/getconsolealiasexeslength) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleAliasExesLengthW](/windows/console/getconsolealiasexeslength) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleAliasExesW](/windows/console/getconsolealiasexes) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleAliasW](/windows/console/getconsolealias) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleAliasesA](/windows/console/getconsolealiases) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleAliasesLengthA](/windows/console/getconsolealiaseslength) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleAliasesLengthW](/windows/console/getconsolealiaseslength) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleAliasesW](/windows/console/getconsolealiases) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
 | GetConsoleCommandHistoryA | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
 | GetConsoleCommandHistoryLengthA | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
 | GetConsoleCommandHistoryLengthW | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
 | GetConsoleCommandHistoryW | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [GetConsoleDisplayMode](https://msdn.microsoft.com/library/ms683164(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [GetConsoleFontSize](https://msdn.microsoft.com/library/ms683165(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [GetConsoleHistoryInfo](https://msdn.microsoft.com/library/ms683166(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [GetConsoleProcessList](https://msdn.microsoft.com/library/ms683170(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [GetConsoleSelectionInfo](https://msdn.microsoft.com/library/ms683173(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [GetConsoleWindow](https://msdn.microsoft.com/library/ms683175(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [GetCurrentConsoleFont](https://msdn.microsoft.com/library/ms683176(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [GetCurrentConsoleFontEx](https://msdn.microsoft.com/library/ms683177(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [GetNumberOfConsoleMouseButtons](https://msdn.microsoft.com/library/ms683208(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [SetConsoleDisplayMode](https://msdn.microsoft.com/library/ms686028(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [SetConsoleHistoryInfo](https://msdn.microsoft.com/library/ms686031(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleDisplayMode](/windows/console/getconsoledisplaymode) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleFontSize](/windows/console/getconsolefontsize) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleHistoryInfo](/windows/console/getconsolehistoryinfo) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleProcessList](/windows/console/getconsoleprocesslist) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleSelectionInfo](/windows/console/getconsoleselectioninfo) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetConsoleWindow](/windows/console/getconsolewindow) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetCurrentConsoleFont](/windows/console/getcurrentconsolefont) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetCurrentConsoleFontEx](/windows/console/getcurrentconsolefontex) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [GetNumberOfConsoleMouseButtons](/windows/console/getnumberofconsolemousebuttons) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [SetConsoleDisplayMode](/windows/console/setconsoledisplaymode) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [SetConsoleHistoryInfo](/windows/console/setconsolehistoryinfo) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
 | SetConsoleNumberOfCommandsA | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
 | SetConsoleNumberOfCommandsW | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
-| [SetCurrentConsoleFontEx](https://msdn.microsoft.com/library/ms686200(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
+| [SetCurrentConsoleFontEx](/windows/console/setcurrentconsolefontex) | Introduced into api-ms-win-core-console-l3-2-0.dll in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-memory-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [VirtualFreeEx](https://msdn.microsoft.com/library/Aa366894(v=VS.85).aspx) | Introduced into api-ms-win-core-memory-l1-1-0.dll in 10.0.17134. |
+| [VirtualFreeEx](/windows/win32/api/memoryapi/nf-memoryapi-virtualfreeex) | Introduced into api-ms-win-core-memory-l1-1-0.dll in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-sysinfo-l1-2-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [EnumSystemFirmwareTables](https://msdn.microsoft.com/library/Hh802466(v=VS.85).aspx) | Introduced into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.17134. |
-| [GetSystemFirmwareTable](https://msdn.microsoft.com/library/ms724379(v=VS.85).aspx) | Introduced into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.17134. |
-| [GetProductInfo](https://msdn.microsoft.com/library/ms724358(v=VS.85).aspx) | Introduced into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.17763. |
+| [EnumSystemFirmwareTables](/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_firmware_table_interface) | Introduced into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.17134. |
+| [GetSystemFirmwareTable](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable) | Introduced into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.17134. |
+| [GetProductInfo](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getproductinfo) | Introduced into api-ms-win-core-sysinfo-l1-2-0.dll in 10.0.17763. |
 
 
 ## APIs from api-ms-win-core-console-l1-2-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [AttachConsole](https://msdn.microsoft.com/library/ms681952(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-2-0.dll in 10.0.17134. |
-| [FreeConsole](https://msdn.microsoft.com/library/ms683150(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-2-0.dll in 10.0.17134. |
-| [PeekConsoleInputA](https://msdn.microsoft.com/library/ms684344(v=VS.85).aspx) | Introduced into api-ms-win-core-console-l1-2-0.dll in 10.0.17134. |
+| [AttachConsole](/windows/console/attachconsole) | Introduced into api-ms-win-core-console-l1-2-0.dll in 10.0.17134. |
+| [FreeConsole](/windows/console/freeconsole) | Introduced into api-ms-win-core-console-l1-2-0.dll in 10.0.17134. |
+| [PeekConsoleInputA](/windows/console/peekconsoleinput) | Introduced into api-ms-win-core-console-l1-2-0.dll in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-debug-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [DebugBreak](https://msdn.microsoft.com/library/ms679297(v=VS.85).aspx) | Introduced into api-ms-win-core-debug-l1-1-0.dll in 10.0.17134. |
+| [DebugBreak](/windows/win32/api/debugapi/nf-debugapi-debugbreak) | Introduced into api-ms-win-core-debug-l1-1-0.dll in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-wow64-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [IsWow64Process2](https://msdn.microsoft.com/library/Mt804318(v=VS.85).aspx) | Introduced into api-ms-win-core-wow64-l1-1-1.dll in 10.0.17134. |
+| [IsWow64Process2](/windows/win32/api/wow64apiset/nf-wow64apiset-iswow64process2) | Introduced into api-ms-win-core-wow64-l1-1-1.dll in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-comm-l1-1-2.dll
@@ -4282,38 +4282,38 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [CopyFileFromAppW](https://msdn.microsoft.com/library/Mt846582(v=VS.85).aspx) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
-| [CreateDirectoryFromAppW](https://msdn.microsoft.com/library/Mt846583(v=VS.85).aspx) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
-| [CreateFile2FromAppW](https://msdn.microsoft.com/library/Mt846584(v=VS.85).aspx) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
-| [CreateFileFromAppW](https://msdn.microsoft.com/library/Mt846585(v=VS.85).aspx) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
-| [DeleteFileFromAppW](https://msdn.microsoft.com/library/Mt846586(v=VS.85).aspx) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
-| [FindFirstFileExFromAppW](https://msdn.microsoft.com/library/Mt846625(v=VS.85).aspx) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
+| [CopyFileFromAppW](/previous-versions/windows/desktop/legacy/mt846582(v=vs.85)) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
+| [CreateDirectoryFromAppW](/previous-versions/windows/desktop/legacy/mt846583(v=vs.85)) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
+| [CreateFile2FromAppW](/previous-versions/windows/desktop/legacy/mt846584(v=vs.85)) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
+| [CreateFileFromAppW](/previous-versions/windows/desktop/legacy/mt846585(v=vs.85)) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
+| [DeleteFileFromAppW](/previous-versions/windows/desktop/legacy/mt846586(v=vs.85)) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
+| [FindFirstFileExFromAppW](/previous-versions/windows/desktop/legacy/mt846625(v=vs.85)) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
 | GetFileAttributesExFromAppW | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
-| [MoveFileFromAppW](https://msdn.microsoft.com/library/Mt846627(v=VS.85).aspx) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
-| [RemoveDirectoryFromAppW](https://msdn.microsoft.com/library/Mt846628(v=VS.85).aspx) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
-| [ReplaceFileFromAppW](https://msdn.microsoft.com/library/Mt846629(v=VS.85).aspx) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
-| [SetFileAttributesFromAppW](https://msdn.microsoft.com/library/Mt846630(v=VS.85).aspx) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
+| [MoveFileFromAppW](/previous-versions/windows/desktop/legacy/mt846627(v=vs.85)) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
+| [RemoveDirectoryFromAppW](/previous-versions/windows/desktop/legacy/mt846628(v=vs.85)) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
+| [ReplaceFileFromAppW](/previous-versions/windows/desktop/legacy/mt846629(v=vs.85)) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
+| [SetFileAttributesFromAppW](/previous-versions/windows/desktop/legacy/mt846630(v=vs.85)) | Introduced into api-ms-win-core-file-fromapp-l1-1-0.dll in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-firmware-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [GetFirmwareEnvironmentVariableA](https://msdn.microsoft.com/library/ms724325(v=VS.85).aspx) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
-| [GetFirmwareEnvironmentVariableExA](https://msdn.microsoft.com/library/JJ204593(v=VS.85).aspx) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
-| [GetFirmwareEnvironmentVariableExW](https://msdn.microsoft.com/library/JJ204593(v=VS.85).aspx) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
-| [GetFirmwareEnvironmentVariableW](https://msdn.microsoft.com/library/ms724325(v=VS.85).aspx) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
-| [SetFirmwareEnvironmentVariableA](https://msdn.microsoft.com/library/ms724934(v=VS.85).aspx) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
-| [SetFirmwareEnvironmentVariableExA](https://msdn.microsoft.com/library/JJ204594(v=VS.85).aspx) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
-| [SetFirmwareEnvironmentVariableExW](https://msdn.microsoft.com/library/JJ204594(v=VS.85).aspx) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
-| [SetFirmwareEnvironmentVariableW](https://msdn.microsoft.com/library/ms724934(v=VS.85).aspx) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
+| [GetFirmwareEnvironmentVariableA](/windows/win32/api/winbase/nf-winbase-getfirmwareenvironmentvariablea) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
+| [GetFirmwareEnvironmentVariableExA](/windows/win32/api/winbase/nf-winbase-getfirmwareenvironmentvariableexa) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
+| [GetFirmwareEnvironmentVariableExW](/windows/win32/api/winbase/nf-winbase-getfirmwareenvironmentvariableexa) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
+| [GetFirmwareEnvironmentVariableW](/windows/win32/api/winbase/nf-winbase-getfirmwareenvironmentvariablea) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
+| [SetFirmwareEnvironmentVariableA](/windows/win32/api/winbase/nf-winbase-setfirmwareenvironmentvariablea) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
+| [SetFirmwareEnvironmentVariableExA](/windows/win32/api/winbase/nf-winbase-setfirmwareenvironmentvariableexa) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
+| [SetFirmwareEnvironmentVariableExW](/windows/win32/api/winbase/nf-winbase-setfirmwareenvironmentvariableexa) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
+| [SetFirmwareEnvironmentVariableW](/windows/win32/api/winbase/nf-winbase-setfirmwareenvironmentvariablea) | Introduced into api-ms-win-core-firmware-l1-1-0.dll in 10.0.17134. |
 
 
 ## APIs from api-ms-win-shcore-obsolete-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CommandLineToArgvW](https://msdn.microsoft.com/library/Bb776391(v=VS.85).aspx) | Introduced into api-ms-win-shcore-obsolete-l1-1-0.dll in 10.0.17134. |
+| [CommandLineToArgvW](/windows/win32/api/shellapi/nf-shellapi-commandlinetoargvw) | Introduced into api-ms-win-shcore-obsolete-l1-1-0.dll in 10.0.17134. |
 
 
 ## APIs from windows.ai.machinelearning.dll
@@ -4327,8 +4327,8 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [RoIsApiContractPresent](https://docs.microsoft.com/windows/win32/api/rometadataresolution/nf-rometadataresolution-roisapicontractpresent) | Introduced into api-ms-win-ro-typeresolution-l1-1-1.dll in 10.0.17763. |
-| [RoIsApiContractMajorVersionPresent](https://docs.microsoft.com/windows/win32/api/rometadataresolution/nf-rometadataresolution-roisapicontractmajorversionpresent) | Introduced into api-ms-win-ro-typeresolution-l1-1-1.dll in 10.0.17763. |
+| [RoIsApiContractPresent](/windows/win32/api/rometadataresolution/nf-rometadataresolution-roisapicontractpresent) | Introduced into api-ms-win-ro-typeresolution-l1-1-1.dll in 10.0.17763. |
+| [RoIsApiContractMajorVersionPresent](/windows/win32/api/rometadataresolution/nf-rometadataresolution-roisapicontractmajorversionpresent) | Introduced into api-ms-win-ro-typeresolution-l1-1-1.dll in 10.0.17763. |
 
 
 ## APIs from api-ms-win-core-memory-l1-1-7.dll
@@ -4342,8 +4342,8 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [InstallColorProfileA](https://msdn.microsoft.com/library/Dd372153(v=VS.85).aspx) | Introduced into mscms.dll in 10.0.17763. |
-| [InstallColorProfileW](https://msdn.microsoft.com/library/Dd372153(v=VS.85).aspx) | Introduced into mscms.dll in 10.0.17763. |
+| [InstallColorProfileA](/previous-versions/windows/desktop/wcs/installcolorprofile) | Introduced into mscms.dll in 10.0.17763. |
+| [InstallColorProfileW](/previous-versions/windows/desktop/wcs/installcolorprofile) | Introduced into mscms.dll in 10.0.17763. |
 | ColorAdapterGetSystemModifyWhitePointCaps | Introduced into mscms.dll in 10.0.17763. |
 | ColorAdapterGetDisplayCurrentStateID | Introduced into mscms.dll in 10.0.17763. |
 | ColorAdapterGetDisplayTransformData | Introduced into mscms.dll in 10.0.17763. |
@@ -4364,34 +4364,34 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [CoDecrementMTAUsage](https://msdn.microsoft.com/library/JJ151606(v=VS.85).aspx) | Introduced into api-ms-win-core-com-l1-1-0.dll in 10.0.17763. |
-| [CoIncrementMTAUsage](https://msdn.microsoft.com/library/JJ151607(v=VS.85).aspx) | Introduced into api-ms-win-core-com-l1-1-0.dll in 10.0.17763. |
+| [CoDecrementMTAUsage](/windows/win32/api/combaseapi/nf-combaseapi-codecrementmtausage) | Introduced into api-ms-win-core-com-l1-1-0.dll in 10.0.17763. |
+| [CoIncrementMTAUsage](/windows/win32/api/combaseapi/nf-combaseapi-coincrementmtausage) | Introduced into api-ms-win-core-com-l1-1-0.dll in 10.0.17763. |
 
 
 ## APIs from api-ms-win-devices-config-l1-1-1.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CM_Get_Device_Interface_ListW](https://msdn.microsoft.com/library/Aa363183(v=VS.85).aspx) | Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.17763. |
-| [CM_Get_Device_Interface_List_SizeW](https://msdn.microsoft.com/library/Aa363184(v=VS.85).aspx) | Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.17763. |
-| [CM_MapCrToWin32Err](https://msdn.microsoft.com/library/Dn313265(v=VS.85).aspx) | Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.17763. |
-| [CM_Register_Notification](https://msdn.microsoft.com/library/Hh780224(v=VS.85).aspx) | Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.17763. |
-| [CM_Unregister_Notification](https://msdn.microsoft.com/library/Hh780228(v=VS.85).aspx) | Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.17763. |
+| [CM_Get_Device_Interface_ListW](/previous-versions//aa363183(v=vs.85)) | Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.17763. |
+| [CM_Get_Device_Interface_List_SizeW](/previous-versions//aa363184(v=vs.85)) | Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.17763. |
+| [CM_MapCrToWin32Err](/windows/win32/api/cfgmgr32/nf-cfgmgr32-cm_mapcrtowin32err) | Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.17763. |
+| [CM_Register_Notification](/windows/win32/api/cfgmgr32/nf-cfgmgr32-cm_register_notification) | Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.17763. |
+| [CM_Unregister_Notification](/windows/win32/api/cfgmgr32/nf-cfgmgr32-cm_unregister_notification) | Introduced into api-ms-win-devices-config-l1-1-1.dll in 10.0.17763. |
 
 
 ## APIs from api-ms-win-devices-config-l1-1-2.dll
 
 | API | Requirements |
 | -----| --------------|
-| [CM_Get_Device_Interface_ListA](https://msdn.microsoft.com/library/Ff538463(v=VS.85).aspx) | Introduced into api-ms-win-devices-config-l1-1-2.dll in 10.0.17763. |
-| [CM_Get_Device_Interface_List_SizeA](https://msdn.microsoft.com/library/Ff538471(v=VS.85).aspx) | Introduced into api-ms-win-devices-config-l1-1-2.dll in 10.0.17763. |
+| [CM_Get_Device_Interface_ListA](/windows/win32/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista) | Introduced into api-ms-win-devices-config-l1-1-2.dll in 10.0.17763. |
+| [CM_Get_Device_Interface_List_SizeA](/windows/win32/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_list_sizea) | Introduced into api-ms-win-devices-config-l1-1-2.dll in 10.0.17763. |
 
 
 ## APIs from api-ms-win-core-io-l1-1-0.dll
 
 | API | Requirements |
 | -----| --------------|
-| [DeviceIoControl](https://msdn.microsoft.com/library/Aa363216(v=VS.85).aspx) | Introduced into api-ms-win-core-io-l1-1-0.dll in 10.0.17763. |
+| [DeviceIoControl](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) | Introduced into api-ms-win-core-io-l1-1-0.dll in 10.0.17763. |
 
 
 ## APIs from api-ms-win-core-timezone-l1-1-1.dll
@@ -4400,5 +4400,3 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | -----| --------------|
 | LocalFileTimeToLocalSystemTime | Introduced into api-ms-win-core-timezone-l1-1-1.dll in 10.0.17763. |
 | LocalSystemTimeToLocalFileTime | Introduced into api-ms-win-core-timezone-l1-1-1.dll in 10.0.17763. |
-
-

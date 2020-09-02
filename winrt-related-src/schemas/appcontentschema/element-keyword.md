@@ -13,7 +13,7 @@ ms.date: 04/05/2017
 
 # Keyword
 
-A one of the [System.Keywords](https://msdn.microsoft.com/library/windows/desktop/bb787519) that describes the item.
+A one of the [System.Keywords](/windows/win32/properties/props-system-keywords) that describes the item.
 
 ## Element hierarchy
 
@@ -181,7 +181,7 @@ For the complete code, see the [Indexer sample](https://go.microsoft.com/fwlink/
 
 [Indexer sample](https://go.microsoft.com/fwlink/p/?LinkID=311565)
 
-[**Windows.Storage.Search**](https://msdn.microsoft.com/library/windows/apps/br208106)
+[**Windows.Storage.Search**](/uwp/api/Windows.Storage.Search)
 
 ## Requirements
 
@@ -192,6 +192,3 @@ For the complete code, see the [Indexer sample](https://go.microsoft.com/fwlink/
  
 
  
-
-
-

@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # Thumbprint
 
 
-Contains the [**SignatureValue**](https://msdn.microsoft.com/library/windows/apps/hh868332) element of the [**Signature**](https://msdn.microsoft.com/library/windows/apps/hh868330) from the last provisioning attempt.
+Contains the [**SignatureValue**](../carriercontrolsignatureschema/element-signaturevalue.md) element of the [**Signature**](../carriercontrolsignatureschema/element-signature.md) from the last provisioning attempt.
 
 ## Element hierarchy
 
@@ -81,6 +81,3 @@ None.
  
 
  
-
-
-

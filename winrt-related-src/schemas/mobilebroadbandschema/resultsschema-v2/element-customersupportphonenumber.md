@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # CustomerSupportPhoneNumber
 
 
-Contains any errors from processing the [**CustomerSupportPhoneNumber**](https://msdn.microsoft.com/library/windows/apps/dn394004) element from the last provisioning attempt.
+Contains any errors from processing the [**CustomerSupportPhoneNumber**](../carriercontrolschema-v2/element-customersupportphonenumber.md) element from the last provisioning attempt.
 
 ## Element hierarchy
 
@@ -105,6 +105,3 @@ None.
  
 
  
-
-
-

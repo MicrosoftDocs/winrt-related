@@ -14,7 +14,7 @@ ms.workload: ["cplusplus"]
 
 A helper function that returns the address of (in other words, a pointer to) the underlying raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) of an object of a projected type (for info about *projected types*, see [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis)).
 
-This function helps you call methods (such as COM methods) that expect a pointer to [::IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown). See the [**Example**](#example) section in this topic for more details. Also see the [winrt::Windows::Foundation::IUnknown struct](/uwp/cpp-ref-for-winrt/windows-foundation-iunknown#get_unknown-function).
+This function helps you call methods (such as COM methods) that expect a pointer to [::IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown). See the [**Example**](#example) section in this topic for more details. Also see the [winrt::Windows::Foundation::IUnknown struct](./windows-foundation-iunknown.md).
 
 It's a good idea to `#include <unknwn.h>` explicity whenever you use **winrt::get_unknown**, even if that header has been included by another header.
 
@@ -84,4 +84,4 @@ For more info, see [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/
 ## See also 
 * [winrt namespace](winrt.md)
 * [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown)
-* [winrt::Windows::Foundation::IUnknown struct](/uwp/cpp-ref-for-winrt/windows-foundation-iunknown#get_unknown-function)
+* [winrt::Windows::Foundation::IUnknown struct](./windows-foundation-iunknown.md)

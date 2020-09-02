@@ -50,7 +50,7 @@ Instead of targeting the universal device family, or targeting one of the child 
 
 In rare cases, you may want your app to run everywhere except on devices with a particular version of a particular device family. For example, let's say your app targets version 10.0.x.0 of the universal device family. When the operating system version changes in the future, say to 10.0.x.2, at that point you can specify that your app runs everywhere except version 10.0.x.1 of Xbox by targeting your app to 10.0.x.0 of universal and 10.0.x.2 of Xbox. Your app will then be unavailable to the set of device family versions within Xbox 10.0.x.1 (inclusive) and earlier.
 
-By default, Microsoft Visual Studio specifies **Windows.Universal** as the target device family in the app package manifest file. To specify the device family or device families that your app is offered to from within the Store, manually configure the [**TargetDeviceFamily**](https://msdn.microsoft.com/library/windows/apps/dn986903) element in your Package.appxmanifest file.
+By default, Microsoft Visual Studio specifies **Windows.Universal** as the target device family in the app package manifest file. To specify the device family or device families that your app is offered to from within the Store, manually configure the [**TargetDeviceFamily**](../schemas/appxpackage/uapmanifestschema/element-targetdevicefamily.md) element in your Package.appxmanifest file.
 
 ## Extension SDKs
 
@@ -86,11 +86,11 @@ There will be cases when you want to call an API in an extension SDK that you've
 
 **Writing adaptive code with the ApiInformation class**
 
-There are two steps to write adaptive code. The first step is to make the APIs that you want to access available to your project. To do that, add a reference to the extension SDK that represents the device family that owns the APIs that you want to conditionally call. For more information, see the **Extension SDKs** section in [Porting Windows Phone Silverlight projects to UWP projects](https://docs.microsoft.com/windows/uwp/porting/wpsl-to-uwp-porting-to-a-uwp-project).
+There are two steps to write adaptive code. The first step is to make the APIs that you want to access available to your project. To do that, add a reference to the extension SDK that represents the device family that owns the APIs that you want to conditionally call. For more information, see the **Extension SDKs** section in [Porting Windows Phone Silverlight projects to UWP projects](/windows/uwp/porting/wpsl-to-uwp-porting-to-a-uwp-project).
 
-The second step is to use the [**Windows.Foundation.Metadata.ApiInformation**](https://msdn.microsoft.com/library/windows/apps/dn949001) class in a condition in your code to test for the presence of the API you want to call. This condition is evaluated wherever your app runs, but it evaluates to true only on devices where the API is present and therefore available to call.
+The second step is to use the [**Windows.Foundation.Metadata.ApiInformation**](/uwp/api/Windows.Foundation.Metadata.ApiInformation) class in a condition in your code to test for the presence of the API you want to call. This condition is evaluated wherever your app runs, but it evaluates to true only on devices where the API is present and therefore available to call.
 
-If you want to call just a small number of APIs, you could use the [**ApiInformation.IsTypePresent**](https://msdn.microsoft.com/library/windows/apps/dn949016) method like this.
+If you want to call just a small number of APIs, you could use the [**ApiInformation.IsTypePresent**](/uwp/api/Windows.Foundation.Metadata.ApiInformation) method like this.
 
 ```csharp
     // Note: Cache the value instead of querying it more than once.
@@ -104,7 +104,7 @@ If you want to call just a small number of APIs, you could use the [**ApiInforma
     }
 ```
 
-In this case, there is confidence that the presence of the [**HardwareButtons**](https://msdn.microsoft.com/library/windows/apps/jj207557) class implies the presence of the [**CameraPressed**](https://msdn.microsoft.com/library/windows/apps/dn653805) event, because the class and the member have the same requirements info. But in time, new members will be added to already-introduced classes, and those members will have later "introduced in" version numbers. In such cases, instead of using **IsTypePresent**, you can test for the presence of individual members by using **IsEventPresent**, **IsMethodPresent**, **IsPropertyPresent**, and similar methods. Here's an example.
+In this case, there is confidence that the presence of the [**HardwareButtons**](/uwp/api/Windows.Phone.UI.Input.HardwareButtons) class implies the presence of the [**CameraPressed**](/uwp/api/Windows.Phone.UI.Input.HardwareButtons) event, because the class and the member have the same requirements info. But in time, new members will be added to already-introduced classes, and those members will have later "introduced in" version numbers. In such cases, instead of using **IsTypePresent**, you can test for the presence of individual members by using **IsEventPresent**, **IsMethodPresent**, **IsPropertyPresent**, and similar methods. Here's an example.
 
 ```csharp
     bool isHardwareButtons_CameraPressedAPIPresent =
@@ -122,4 +122,4 @@ The set of APIs within a device family is further broken down into subdivisions 
 
 ## See also
 
-[Version adaptive code](https://docs.microsoft.com/windows/uwp/debug-test-perf/version-adaptive-code)
+[Version adaptive code](/windows/uwp/debug-test-perf/version-adaptive-code)

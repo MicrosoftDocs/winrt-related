@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # TetheringProfile
 
 
-Contains any errors from processing a [**TetheringProfile**](https://msdn.microsoft.com/library/windows/apps/dn394029) element from the last provisioning attempt.
+Contains any errors from processing a [**TetheringProfile**](../carriercontrolschema-v2/element-tetheringprofile.md) element from the last provisioning attempt.
 
 ## Element hierarchy
 
@@ -118,6 +118,3 @@ None.
  
 
  
-
-
-

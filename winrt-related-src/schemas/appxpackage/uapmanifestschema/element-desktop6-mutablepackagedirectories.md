@@ -16,7 +16,7 @@ ms.custom: 19H1
 Enables your desktop application to specify one or more folders where users can modify the installation files for your application (for example, to install mods). 
 
 > [!NOTE]
-> This element is currently intended to be used only by certain types of desktop PC games that are published by Microsoft and our partners. It requires the **modifiableApp** [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
+> This element is currently intended to be used only by certain types of desktop PC games that are published by Microsoft and our partners. It requires the **modifiableApp** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
 
 ## Element Hierarchy
 <dl>
@@ -54,7 +54,7 @@ None.
 
 | Child Element | Description |
 |---------------|-------------|
-| [MutablePackageDirectory](element-desktop6-mutablepackagedirectory.md) | Specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of your desktop application's install folder are projected so that users can modify the installation files (for example, to install mods). For more information, see [Package.MutableLocation](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package.mutablelocation) and [Package.EffectiveLocation](https://docs.microsoft.com/uwp/api/windows.applicationmodel.package.effectivelocation). |
+| [MutablePackageDirectory](element-desktop6-mutablepackagedirectory.md) | Specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of your desktop application's install folder are projected so that users can modify the installation files (for example, to install mods). For more information, see [Package.MutableLocation](/uwp/api/windows.applicationmodel.package.mutablelocation) and [Package.EffectiveLocation](/uwp/api/windows.applicationmodel.package.effectivelocation). |
 
 ### Parent Elements
 
@@ -64,7 +64,7 @@ None.
 
 ## Remarks
 
-This element requires the **modifiableApp** [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#restricted-capabilities). 
+This element requires the **modifiableApp** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities). 
 
 ## Examples
 

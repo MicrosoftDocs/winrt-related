@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # NetworkSettings
 
 
-Contains any errors from processing the [**NetworkSettings**](https://msdn.microsoft.com/library/windows/apps/dn394020) element from the last provisioning attempt.
+Contains any errors from processing the [**NetworkSettings**](../carriercontrolschema-v2/element-networksettings.md) element from the last provisioning attempt.
 
 ## Element hierarchy
 
@@ -105,6 +105,3 @@ None.
  
 
  
-
-
-

@@ -23,7 +23,7 @@ The package block map file is an XML document that contains a list of the app’
 ## Developer audience
 
 
-Visual Studio and the [MakeAppx](https://msdn.microsoft.com/library/windows/desktop/hh446767) packaging utility automatically create and insert a package block map (AppxBlockMap.xml) when they build each app ZIP package.
+Visual Studio and the [MakeAppx](/windows/win32/appxpkg/make-appx-package--makeappx-exe-) packaging utility automatically create and insert a package block map (AppxBlockMap.xml) when they build each app ZIP package.
 
 Use the block map file to:
 
@@ -38,11 +38,8 @@ Use the block map file to:
 ## Related topics
 
 
-[Packaging apps](https://msdn.microsoft.com/library/windows/apps/mt270969)
+[Packaging apps](/windows/uwp/packaging/)
 
  
 
  
-
-
-

@@ -134,12 +134,12 @@ The root element is the **VoiceCommands** element, and its **xmlns** attribute m
 
 ## See also
 
-[Windows.ApplicationModel.VoiceCommands](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.VoiceCommands)
+[Windows.ApplicationModel.VoiceCommands](/uwp/api/Windows.ApplicationModel.VoiceCommands)
 
 [Cortana interactions](https://dev.microsoft.com/cortana)
 
 **Designers**  
-[Cortana design guidelines](https://docs.microsoft.com/cortana/voice-commands/voicecommand-design-guidelines)
+[Cortana design guidelines](/cortana/voice-commands/voicecommand-design-guidelines)
 
 **Samples**  
 [Cortana voice command sample](https://go.microsoft.com/fwlink/p/?LinkID=619899)
@@ -147,7 +147,3 @@ The root element is the **VoiceCommands** element, and its **xmlns** attribute m
  
 
  
-
-
-
-

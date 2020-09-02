@@ -70,7 +70,7 @@ None.
 <td><a href="element-properties.md">Properties</a> </td>
 <td><p>Defines additional metadata about the package including attributes that describe how the package appears to users.</p>
 <div class="alert">
-<strong>Note</strong>  You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely “|” and “all”, due to which Windows fails to create the AppContainer profile for the package . Use this reference for [troubleshooting](https://msdn.microsoft.com/library/windows/desktop/hh973484) if you get an error.
+<strong>Note</strong>  You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely “|” and “all”, due to which Windows fails to create the AppContainer profile for the package . Use this reference for [troubleshooting](/windows/win32/appxpkg/troubleshooting) if you get an error.
 </div>
 <div>
  
@@ -85,7 +85,7 @@ None.
 
 A package marked as a framework package cannot declare dependencies on other packages.
 
-A framework package cannot define the [**Applications**](https://msdn.microsoft.com/library/windows/apps/br211417) or [**Capabilities**](appxmanifestschema/../element-capabilities.md) node.
+A framework package cannot define the [**Applications**](../appxmanifestschema/element-applications.md) or [**Capabilities**](appxmanifestschema/../element-capabilities.md) node.
 
 ## Requirements
 
@@ -96,6 +96,3 @@ A framework package cannot define the [**Applications**](https://msdn.microsoft.
  
 
  
-
-
-

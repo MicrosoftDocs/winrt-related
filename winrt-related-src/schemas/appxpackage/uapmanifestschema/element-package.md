@@ -118,7 +118,7 @@ Defines the root element of an app package manifest. The manifest describes the 
 <td><a href="element-properties.md">Properties</a> </td>
 <td><p>Defines additional metadata about the package including attributes that describe how the package appears to users.</p>
 <div class="alert">
-<strong>Note</strong>  You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely “|” and “all”, due to which Windows fails to create the AppContainer profile for the package . Use this reference for <a href="https://docs.microsoft.com/windows/win32/appxpkg/troubleshooting">troubleshooting</a> if you get an error.
+<strong>Note</strong>  You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely “|” and “all”, due to which Windows fails to create the AppContainer profile for the package . Use this reference for <a href="/windows/win32/appxpkg/troubleshooting">troubleshooting</a> if you get an error.
 </div>
 <div>
  
@@ -151,6 +151,3 @@ This outermost (document) element may not be contained by any other elements.
  
 
  
-
-
-

@@ -162,7 +162,7 @@ The **windows.certificates** extensibility point can't be declared multiple time
 
 
 **Concepts**
-[App contracts and extensions](https://msdn.microsoft.com/library/windows/apps/hh464906)
+[App contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10))
 
 ## Requirements
 
@@ -173,6 +173,3 @@ The **windows.certificates** extensibility point can't be declared multiple time
  
 
  
-
-
-

@@ -86,7 +86,7 @@ None.
 <td><a href="element-targetdevicefamily.md">TargetDeviceFamily</a> </td>
 <td><p>Identifies the device family that your package targets.</p>
 <div class="alert">
-<strong>Important</strong>  In most cases, you should simply specify your device families in the [<strong>TargetDeviceFamily</strong>](https://msdn.microsoft.com/library/windows/apps/dn986903) element of your AppxManifest. Values here should only be used if you need to override that info (using a subset of the values provided there).
+<strong>Important</strong>  In most cases, you should simply specify your device families in the [<strong>TargetDeviceFamily</strong>](../../appxpackage/uapmanifestschema/element-targetdevicefamily.md) element of your AppxManifest. Values here should only be used if you need to override that info (using a subset of the values provided there).
 </div>
 <div>
  
@@ -129,6 +129,3 @@ None.
  
 
  
-
-
-

@@ -106,14 +106,14 @@ Navigate</td><td>Required child element of the <strong>Command</strong> element.
 
 ## See also
 
-[Windows.ApplicationModel.VoiceCommands](https://docs.microsoft.com/uwp/api/Windows.ApplicationModel.VoiceCommands)
+[Windows.ApplicationModel.VoiceCommands](/uwp/api/Windows.ApplicationModel.VoiceCommands)
 
 [VCD elements and attributes v1.2](voice-command-elements-and-attributes-1-2.md)
 
 [Cortana interactions](https://dev.microsoft.com/cortana)
 
 **Designers**  
-[Cortana design guidelines](https://docs.microsoft.com/cortana/voice-commands/voicecommand-design-guidelines)
+[Cortana design guidelines](/cortana/voice-commands/voicecommand-design-guidelines)
 
 **Samples**  
 [Cortana voice command sample](https://go.microsoft.com/fwlink/p/?LinkID=619899)
@@ -121,7 +121,3 @@ Navigate</td><td>Required child element of the <strong>Command</strong> element.
  
 
  
-
-
-
-

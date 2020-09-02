@@ -68,7 +68,7 @@ Version number and additional information about the type library.
 |-----------|-------------|-----------|----------|
 | VersionNumber | The name of the version number. | One to three alphanumeric characters separated by a period followed by one to three more alphanumeric characters, e.g., 1.5a | Yes |
 | LocaleId | An Id representing geographic location. | A string in hexadecimal format containing numbers or the letters a, b, c, d, e, f (capital or lower case). | No |
-| LibraryFlag | An integer value from the [LIBFLAGS](https://msdn.microsoft.com/library/windows/desktop/ms221149.aspx) enumeration. | An integer value in the range of 0 to 15. | No |
+| LibraryFlag | An integer value from the [LIBFLAGS](/windows/win32/api/oaidl/ne-oaidl-libflags) enumeration. | An integer value in the range of 0 to 15. | No |
 | HelpDirectory | The HELPDIR subkey. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
 
 ## Child Elements
@@ -79,7 +79,7 @@ Version number and additional information about the type library.
 | [Win64Path](element-com-package-win64path.md) | A path to the 64-bit type library. |
 
 ## Remarks
-For more information about type libraries and the attributes on this page, see [Registering a Type Library](https://msdn.microsoft.com/library/windows/desktop/ms221610.aspx).
+For more information about type libraries and the attributes on this page, see [Registering a Type Library](/previous-versions/windows/desktop/automat/registering-a-type-library).
 
 > [!NOTE]  
 > You must specify both a Win32Path and a Win64Path. 

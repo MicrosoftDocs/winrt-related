@@ -21,7 +21,7 @@ ms.date: 04/05/2017
 
 To declare each capability required by your app, add a [**Capability**](appxmanifestschema/element-capability.md) element to the package manifest.
 
-Alternatively, you can package your app using Visual Studio. See [Packaging your app using Visual Studio](https://msdn.microsoft.com/windows/uwp/packaging/index).
+Alternatively, you can package your app using Visual Studio. See [Packaging your app using Visual Studio](/windows/uwp/packaging/).
 
 ## Instructions
 
@@ -31,11 +31,11 @@ Follow the steps in [How to create a basic package manifest](how-to-create-a-bas
 
 ### Step 2:
 
-Determine the capabilities that your app needs. Any capabilities that are required by an API are listed in the documentation and IntelliSense ToolTip for the API. For more info, see [App capability declarations](https://msdn.microsoft.com/windows/uwp/packaging/app-capability-declarations).
+Determine the capabilities that your app needs. Any capabilities that are required by an API are listed in the documentation and IntelliSense ToolTip for the API. For more info, see [App capability declarations](/windows/uwp/packaging/app-capability-declarations).
 
 ### Step 3:
 
-Add one [**Capability**](https://msdn.microsoft.com/library/windows/apps/br211423) element per capability. Here's an example [**Capabilities**](appxmanifestschema/element-capabilities.md) node that declares 3 capabilities.
+Add one [**Capability**](./appxmanifestschema/element-capability.md) element per capability. Here's an example [**Capabilities**](appxmanifestschema/element-capabilities.md) node that declares 3 capabilities.
 
 ```XML
 <Capabilities>
@@ -55,6 +55,3 @@ Add one [**Capability**](https://msdn.microsoft.com/library/windows/apps/br21142
  
 
  
-
-
-

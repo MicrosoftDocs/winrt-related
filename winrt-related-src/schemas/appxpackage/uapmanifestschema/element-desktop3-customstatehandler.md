@@ -58,7 +58,7 @@ Registration of a Windows Shell CustomStateHandler for cloud based placeholder f
 | Clsid | The class ID of the app that implements the CustomStateHandler, used for custom states and columns for placeholder files. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |
 
 ## See also
-[Creating Shell Extension Handlers](https://msdn.microsoft.com/library/windows/desktop/cc144067(v=vs.85).aspx)
+[Creating Shell Extension Handlers](/windows/win32/shell/handlers)
 
 ## Requirements
 

@@ -82,9 +82,9 @@ Registers a SurrogateServer with one or many class registrations.
 | [Class](element-com-surrogateserver-class.md) | Defines a SurrogateServer class registration. |
 
 ## Remarks
-If there is no value for the DllSurrogate in the [AppId key](https://msdn.microsoft.com/library/windows/desktop/ms682359.aspx), do not use the CustomSurrogateExecutable attribute.
+If there is no value for the DllSurrogate in the [AppId key](/windows/win32/com/appid-key), do not use the CustomSurrogateExecutable attribute.
 
-**LaunchAndActivationPermission** is an [SDDL string](https://aka.ms/sddl-string-format) that corresponds to the LaunchPermission value of the [AppID key](https://msdn.microsoft.com/library/windows/desktop/ms682359.aspx).
+**LaunchAndActivationPermission** is an [SDDL string](https://aka.ms/sddl-string-format) that corresponds to the LaunchPermission value of the [AppID key](/windows/win32/com/appid-key).
 
 The **SystemSurrogate** corresponds to the values of the DllSurrogate value of the AppId key. For example, if the DllSurrogate value is `%System32%\prevhost.exe` or `%SysWow64%\prevhost.exe`, then **SystemSurrogate** should be set to `PreviewHost` and the **CustomSurrogateExecutable** should not be set. 
 

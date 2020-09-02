@@ -42,7 +42,7 @@ Specifies the layout of the final content group map, AppxContentGroupMap.xml.
 | [Automatic](element-final-automatic.md) | The automatic content group. |
 
 ## Remarks
-It's recommended to start with authoring the source content group map (SourceAppxContentGroupMap.xml) and converting that into the final content group map (AppxContentGroupMap.xml) via Visual Studio or MakeAppx.exe. For more information, see [Create and convert a source content group map](https://docs.microsoft.com/windows/uwp/packaging/create-cgm).
+It's recommended to start with authoring the source content group map (SourceAppxContentGroupMap.xml) and converting that into the final content group map (AppxContentGroupMap.xml) via Visual Studio or MakeAppx.exe. For more information, see [Create and convert a source content group map](/windows/uwp/packaging/create-cgm).
 
 ## Examples
 

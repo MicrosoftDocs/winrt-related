@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # WLANProfile
 
 
-Defines an instance of the [**WLANProfile**](https://msdn.microsoft.com/library/windows/apps/hh868422) element from the [**WLAN**](https://msdn.microsoft.com/library/windows/apps/hh868424) schema.
+Defines an instance of the [**WLANProfile**](../wlan/element-wlanprofile.md) element from the [**WLAN**](../wlan/schema-root.md) schema.
 
 ## Element hierarchy
 
@@ -81,6 +81,3 @@ None.
  
 
  
-
-
-

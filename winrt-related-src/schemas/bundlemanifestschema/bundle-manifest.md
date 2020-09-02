@@ -25,7 +25,7 @@ The bundle manifest contains info about the architectures and resources of each 
 ## Developer audience
 
 
-Visual Studio and the [MakeAppx](https://msdn.microsoft.com/library/windows/desktop/hh446767) packaging utility automatically create and insert a bundle manifest schema (BundleManifest.xml) when they build each ZIP bundle.
+Visual Studio and the [MakeAppx](/windows/win32/appxpkg/make-appx-package--makeappx-exe-) packaging utility automatically create and insert a bundle manifest schema (BundleManifest.xml) when they build each ZIP bundle.
 
 ## In this section
 
@@ -35,11 +35,8 @@ Visual Studio and the [MakeAppx](https://msdn.microsoft.com/library/windows/desk
 ## Related topics
 
 
-[Packaging apps](https://msdn.microsoft.com/library/windows/apps/mt270969)
+[Packaging apps](/windows/uwp/packaging/)
 
  
 
  
-
-
-

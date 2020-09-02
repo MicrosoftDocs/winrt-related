@@ -112,9 +112,9 @@ The **HashMethod** attribute specifies the method for computing cryptographic ha
 
  
 
-App packages that are created by Visual Studio or the [app packager (MakeAppx.exe)](https://msdn.microsoft.com/library/windows/desktop/hh446767) utility use the <http://www.w3.org/2001/04/xmlenc#sha256> hash algorithm by default.
+App packages that are created by Visual Studio or the [app packager (MakeAppx.exe)](/windows/win32/appxpkg/make-appx-package--makeappx-exe-) utility use the <http://www.w3.org/2001/04/xmlenc#sha256> hash algorithm by default.
 
-**Note**  When signing the package, the **BlockMap**’s **HashMethod** attribute must also match the file digest hash algorithm (“/fd” parameter) specified to SignTool. For more info, see [To sign the package using SignTool](https://msdn.microsoft.com/library/windows/desktop/hh446767).
+**Note**  When signing the package, the **BlockMap**’s **HashMethod** attribute must also match the file digest hash algorithm (“/fd” parameter) specified to SignTool. For more info, see [To sign the package using SignTool](/windows/win32/appxpkg/make-appx-package--makeappx-exe-).
 
  
 
@@ -128,6 +128,3 @@ App packages that are created by Visual Studio or the [app packager (MakeAppx.ex
  
 
  
-
-
-

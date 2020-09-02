@@ -16,7 +16,7 @@ ms.custom: 19H1
 Specifies an installer file (.exe or .msi) that is run before the first launch of your desktop application.
 
 > [!NOTE]
-> This element is currently intended to be used only by desktop PC games that are packaged in an MSIXVC container. It requires the **customInstallActions** [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
+> This element is currently intended to be used only by desktop PC games that are packaged in an MSIXVC container. It requires the **customInstallActions** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
 
 ## Element Hierarchy
 <dl>
@@ -74,7 +74,7 @@ None
 
 ## Remarks
 
-This element requires the **customInstallActions** [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
+This element requires the **customInstallActions** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
 
 ## Examples
 

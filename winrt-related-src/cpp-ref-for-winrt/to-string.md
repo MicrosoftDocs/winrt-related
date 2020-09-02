@@ -22,7 +22,7 @@ inline std::string to_string(std::wstring_view value);
 
 ### Parameters
 `value`
-A **std::wstring_view** value, or any value of a type convertible to **std::wstring_view**, to convert into a UTF-8 narrow string. This can be a [**winrt::hstring**](hstring.md), thanks to **hstring**'s [conversion operator to **std::wstring_view**](/uwp/cpp-ref-for-winrt/hstring#hstringoperator-stdwstring_view).
+A **std::wstring_view** value, or any value of a type convertible to **std::wstring_view**, to convert into a UTF-8 narrow string. This can be a [**winrt::hstring**](hstring.md), thanks to **hstring**'s [conversion operator to **std::wstring_view**](./hstring.md#hstringoperator-stdwstring_view).
 
 ### Return value
 A **std::string** containing a UTF-8 narrow string resulting from converting the parameter.

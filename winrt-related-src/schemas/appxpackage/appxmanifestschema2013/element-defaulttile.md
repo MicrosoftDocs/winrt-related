@@ -176,7 +176,7 @@ The default tile that represents the app on the Start screen. This tile is displ
 
 ## Remarks
 
-**Wide310x150Logo**, **Square310x310Logo**, and **Square70x70Logo** images can be given as either a direct path to an image file or as a resource. By using a resource reference, you can supply localized images to match different UI languages. This feature also allows you to localize the **ShortName** attribute. For more info, see the [Globalization](https://msdn.microsoft.com/library/windows/apps/hh831183) topic.
+**Wide310x150Logo**, **Square310x310Logo**, and **Square70x70Logo** images can be given as either a direct path to an image file or as a resource. By using a resource reference, you can supply localized images to match different UI languages. This feature also allows you to localize the **ShortName** attribute. For more info, see the [Globalization](/previous-versions/windows/apps/hh831183(v=win.10)) topic.
 
 ## Requirements
 
@@ -187,6 +187,3 @@ The default tile that represents the app on the Start screen. This tile is displ
  
 
  
-
-
-

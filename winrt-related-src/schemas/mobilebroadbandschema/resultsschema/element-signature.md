@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # Signature
 
 
-Contains any errors from processing the [**Signature**](https://msdn.microsoft.com/library/windows/apps/hh868330) element from the last provisioning attempt.
+Contains any errors from processing the [**Signature**](../carriercontrolsignatureschema/element-signature.md) element from the last provisioning attempt.
 
 ## Element hierarchy
 
@@ -129,6 +129,3 @@ Contains any errors from processing the [**Signature**](https://msdn.microsoft.c
  
 
  
-
-
-

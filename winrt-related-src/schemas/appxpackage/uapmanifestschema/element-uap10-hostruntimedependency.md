@@ -8,7 +8,7 @@ ms.date: 04/20/2020
 
 # uap10:HostRuntimeDependency
 
-Defines a dependency on a host app for the current app. For more information, see [Create hosted apps](https://docs.microsoft.com/windows/uwp/launch-resume/hosted-apps).
+Defines a dependency on a host app for the current app. For more information, see [Create hosted apps](/windows/uwp/launch-resume/hosted-apps).
 
 ## Element hierarchy
 

@@ -110,9 +110,9 @@ This table lists device capabilities by name that are supported starting with th
 
  
 
-For info about device capabilities that are supported starting with the app package manifest for Windows 8 UWP apps, see [**DeviceCapability**](https://msdn.microsoft.com/library/windows/apps/dn423266).
+For info about device capabilities that are supported starting with the app package manifest for Windows 8 UWP apps, see [**DeviceCapability**](../appxmanifestschema2010-v2/element-devicecapability.md).
 
-For more info about capability declarations, see [App capability declarations](https://msdn.microsoft.com/library/windows/apps/hh464936).
+For more info about capability declarations, see [App capability declarations](/previous-versions/windows/apps/hh464936(v=win.10)).
 
 ## Requirements
 
@@ -123,6 +123,3 @@ For more info about capability declarations, see [App capability declarations](h
  
 
  
-
-
-

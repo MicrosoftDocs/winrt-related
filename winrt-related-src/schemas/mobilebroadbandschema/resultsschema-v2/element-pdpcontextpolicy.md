@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # PDPContextPolicy
 
 
-Contains any errors from processing a [**PDPContextPolicy**](https://msdn.microsoft.com/library/windows/apps/dn394028) element from the last provisioning attempt.
+Contains any errors from processing a [**PDPContextPolicy**](../carriercontrolschema-v2/element-pdpcontextpolicy.md) element from the last provisioning attempt.
 
 ## Element hierarchy
 
@@ -118,6 +118,3 @@ None.
  
 
  
-
-
-

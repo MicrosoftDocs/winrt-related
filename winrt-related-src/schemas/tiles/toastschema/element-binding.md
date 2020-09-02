@@ -193,7 +193,7 @@ Specifies the toast template. Note that only one binding element can be included
 
 ## Remarks
 
-To see examples of each of the toast templates, see the [toast template catalog](https://msdn.microsoft.com/library/windows/apps/hh761494).
+To see examples of each of the toast templates, see the [toast template catalog](/previous-versions/windows/apps/hh761494(v=win.10)).
 
 ## Requirements
 
@@ -204,6 +204,3 @@ To see examples of each of the toast templates, see the [toast template catalog]
  
 
  
-
-
-

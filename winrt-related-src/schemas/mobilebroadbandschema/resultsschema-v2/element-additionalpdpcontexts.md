@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # AdditionalPDPContexts
 
 
-Contains any errors from processing the [**AdditionalPDPContexts**](https://msdn.microsoft.com/library/windows/apps/dn393994) element from the last provisioning attempt.
+Contains any errors from processing the [**AdditionalPDPContexts**](../carriercontrolschema-v2/element-additionalpdpcontexts.md) element from the last provisioning attempt.
 
 ## Element hierarchy
 
@@ -129,6 +129,3 @@ Contains any errors from processing the [**AdditionalPDPContexts**](https://msdn
  
 
  
-
-
-

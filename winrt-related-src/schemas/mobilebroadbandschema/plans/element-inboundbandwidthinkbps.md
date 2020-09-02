@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # InboundBandwidthInKbps
 
 
-Defines a value representing the effective link speed of the subscriber’s inbound connection specified in Kbps. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the [**DataPlanStatus**](https://msdn.microsoft.com/library/windows/apps/br207256) class.
+Defines a value representing the effective link speed of the subscriber’s inbound connection specified in Kbps. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the [**DataPlanStatus**](/uwp/api/Windows.Networking.Connectivity.DataPlanStatus) class.
 
 ## Element hierarchy
 
@@ -75,7 +75,7 @@ None.
 ## See also
 
 
-[**DataPlanStatus**](https://msdn.microsoft.com/library/windows/apps/br207256)
+[**DataPlanStatus**](/uwp/api/Windows.Networking.Connectivity.DataPlanStatus)
 
 ## Requirements
 
@@ -86,6 +86,3 @@ None.
  
 
  
-
-
-

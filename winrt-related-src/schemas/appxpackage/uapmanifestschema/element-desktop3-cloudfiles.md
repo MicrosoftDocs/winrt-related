@@ -74,7 +74,7 @@ Registration for the handlers implemented in an application and context menu opt
 | [desktop4:ContentUriSource](element-desktop4-contenturisource.md) | Registration of a Windows Shell ContentUriSource enabling cloud storage providers to provide a file ID for a given local path. |  
 
 ## See also
-[Creating Shell Extension Handlers](https://msdn.microsoft.com/library/windows/desktop/cc144067(v=vs.85).aspx)
+[Creating Shell Extension Handlers](/windows/win32/shell/handlers)
 
 ## Requirements
 

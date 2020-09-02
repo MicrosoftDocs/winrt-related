@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # PurchaseProfile
 
 
-Contains any errors from processing the [**PurchaseProfile**](https://msdn.microsoft.com/library/windows/apps/hh868470) element from the last provisioning attempt.
+Contains any errors from processing the [**PurchaseProfile**](../wwan/element-purchaseprofile.md) element from the last provisioning attempt.
 
 ## Element hierarchy
 
@@ -113,6 +113,3 @@ None.
  
 
  
-
-
-

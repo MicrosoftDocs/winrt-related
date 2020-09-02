@@ -16,7 +16,7 @@ ms.date: 04/05/2017
 
 
 
-Contains a single [**binding**](https://msdn.microsoft.com/library/windows/apps/br212854) element that defines a toast.
+Contains a single [**binding**](../tilesschema/element-binding.md) element that defines a toast.
 
 ## Element hierarchy
 
@@ -171,6 +171,3 @@ Contains a single [**binding**](https://msdn.microsoft.com/library/windows/apps/
  
 
  
-
-
-

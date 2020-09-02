@@ -135,7 +135,7 @@ Here's an example [**Capabilities**](https://msdn.microsoft.com/library/windows/
 ## See also
 
 
-[App capability declarations](https://msdn.microsoft.com/library/windows/apps/hh464936)
+[App capability declarations](/previous-versions/windows/apps/hh464936(v=win.10))
 
 ## Requirements
 
@@ -147,6 +147,3 @@ Here's an example [**Capabilities**](https://msdn.microsoft.com/library/windows/
  
 
  
-
-
-

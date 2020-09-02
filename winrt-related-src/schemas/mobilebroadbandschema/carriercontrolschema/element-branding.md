@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # Branding
 
 
-Defines an instance of the [**Branding**](https://msdn.microsoft.com/library/windows/apps/hh868446) element from the [**WWAN**](https://msdn.microsoft.com/library/windows/apps/hh868486) schema.
+Defines an instance of the [**Branding**](../wwan/element-branding.md) element from the [**WWAN**](../wwan/schema-root.md) schema.
 
 ## Element hierarchy
 
@@ -81,6 +81,3 @@ None.
  
 
  
-
-
-

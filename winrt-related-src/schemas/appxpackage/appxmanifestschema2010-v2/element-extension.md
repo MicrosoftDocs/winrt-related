@@ -223,7 +223,7 @@ If /Application/@StartPage is not specified, it is a UWP app using C# or VB and 
 
 
 **Concepts**
-[App contracts and extensions](https://msdn.microsoft.com/library/windows/apps/hh464906)
+[App contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10))
 
 ## Requirements
 
@@ -234,6 +234,3 @@ If /Application/@StartPage is not specified, it is a UWP app using C# or VB and 
  
 
  
-
-
-

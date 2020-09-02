@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # RefreshParameters
 
 
-Contains any errors from processing the [**RefreshParameters**](https://msdn.microsoft.com/library/windows/apps/hh868302) element from the last provisioning attempt.
+Contains any errors from processing the [**RefreshParameters**](../carriercontrolschema/element-refreshparameters.md) element from the last provisioning attempt.
 
 ## Element hierarchy
 
@@ -105,6 +105,3 @@ None.
  
 
  
-
-
-

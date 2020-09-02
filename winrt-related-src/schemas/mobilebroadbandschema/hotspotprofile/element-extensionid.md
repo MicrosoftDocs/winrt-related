@@ -74,7 +74,7 @@ None.
 
 ## Remarks
 
-The app must register for the corresponding system event using [**Windows.ApplicationModel.Background.NetworkOperatorHotspotAuthenticationTrigger**](https://msdn.microsoft.com/library/windows/apps/hh779764). One or more profiles referencing an app must be provisioned (see [**Windows.Networking.NetworkOperators.ProvisioningAgent**](https://msdn.microsoft.com/library/windows/apps/br207397)) before the app can register for this event.
+The app must register for the corresponding system event using [**Windows.ApplicationModel.Background.NetworkOperatorHotspotAuthenticationTrigger**](/uwp/api/Windows.ApplicationModel.Background.NetworkOperatorHotspotAuthenticationTrigger). One or more profiles referencing an app must be provisioned (see [**Windows.Networking.NetworkOperators.ProvisioningAgent**](/uwp/api/Windows.Networking.NetworkOperators.ProvisioningAgent)) before the app can register for this event.
 
 ## Requirements
 
@@ -85,6 +85,3 @@ The app must register for the corresponding system event using [**Windows.Applic
  
 
  
-
-
-

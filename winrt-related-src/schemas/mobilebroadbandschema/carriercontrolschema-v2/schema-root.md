@@ -13,9 +13,9 @@ ms.date: 04/05/2017
 # CarrierControlSchema\_v2 schema
 
 
-The CarrierControlSchema\_v2 schema defines additional elements that are used to create the provisioning file in a call to [**ProvisionFromXmlDocumentAsync**](https://msdn.microsoft.com/library/windows/apps/br207400) and describe additional settings required to authenticate and provision a subscriber's account on a Mobile Network Operator's (MNO) network. All of the elements are in the namespace `http://www.microsoft.com/networking/CarrierControl/v2`. Not all elements are in every profile, as some elements are optional.
+The CarrierControlSchema\_v2 schema defines additional elements that are used to create the provisioning file in a call to [**ProvisionFromXmlDocumentAsync**](/uwp/api/Windows.Networking.NetworkOperators.ProvisioningAgent) and describe additional settings required to authenticate and provision a subscriber's account on a Mobile Network Operator's (MNO) network. All of the elements are in the namespace `http://www.microsoft.com/networking/CarrierControl/v2`. Not all elements are in every profile, as some elements are optional.
 
-The CarrierControlSchema\_v2 schema elements are additions to the [CarrierControlSchema](https://msdn.microsoft.com/library/windows/apps/hh868312) version 1 schema defined in the `http://www.microsoft.com/networking/CarrierControl/v1` namespace.
+The CarrierControlSchema\_v2 schema elements are additions to the [CarrierControlSchema](../carriercontrolschema/schema-root.md) version 1 schema defined in the `http://www.microsoft.com/networking/CarrierControl/v1` namespace.
 
 The following table lists all of the elements in this schema, sorted alphabetically by name.
 
@@ -403,11 +403,8 @@ The full CarrierControlSchema\_v2 schema is below:
 ## Related topics
 
 
-[CarrierControlSchema schema](https://msdn.microsoft.com/library/windows/apps/hh868312)
+[CarrierControlSchema schema](../carriercontrolschema/schema-root.md)
 
  
 
  
-
-
-

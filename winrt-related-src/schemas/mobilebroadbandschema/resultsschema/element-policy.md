@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # Policy
 
 
-Contains any errors from processing the [**CarrierPolicy**](https://msdn.microsoft.com/library/windows/apps/hh868345) schema from the last provisioning attempt.
+Contains any errors from processing the [**CarrierPolicy**](../dusm/element-carrierpolicy.md) schema from the last provisioning attempt.
 
 ## Element hierarchy
 
@@ -105,6 +105,3 @@ None.
  
 
  
-
-
-

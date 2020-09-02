@@ -63,7 +63,7 @@ Contains a list of properties to show under the properties tab of a file.
 | [PropertyList](element-desktop3-propertylist.md) | Defines properties shown under the properties tab of a file. |
 
 ## See Also
-[Using Property Lists](https://msdn.microsoft.com/library/windows/desktop/cc144133(v=vs.85).aspx)
+[Using Property Lists](/windows/win32/properties/building-property-handlers-property-lists)
 
 
 ## Requirements

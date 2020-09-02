@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # Plan
 
 
-Defines an instance of the [**Plan**](https://msdn.microsoft.com/library/windows/apps/hh868373) element from the [**Plans**](https://msdn.microsoft.com/library/windows/apps/hh868378) schema.
+Defines an instance of the [**Plan**](../plans/element-plan.md) element from the [**Plans**](../plans/schema-root.md) schema.
 
 ## Element hierarchy
 
@@ -81,6 +81,3 @@ None.
  
 
  
-
-
-

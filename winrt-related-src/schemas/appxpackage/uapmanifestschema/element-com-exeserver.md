@@ -69,7 +69,7 @@ Registers an ExeServer with one or many class registrations.
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | Executable | A path relative to the package root and must reference a file in the package. This specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", &#124;, ?, or *. The .exe extension is case sensitive, it must be lowercase. | Yes |
-| Arguments | The arguments of the [LocalServer32](https://msdn.microsoft.com/library/windows/desktop/ms683844.aspx) key. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
+| Arguments | The arguments of the [LocalServer32](/windows/win32/com/localserver32) key. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
 | DisplayName | DisplayName is a localizable string corresponding to the default AppID key value. | A string between 1 and 256 characters in length. | No |
 | LaunchAndActivationPermission | An [SDDL string](https://aka.ms/sddl-string-format) that corresponds to the LaunchPermission value of the AppID key. | [SDDL string](https://aka.ms/sddl-string-format). | No |
 
@@ -81,11 +81,11 @@ Registers an ExeServer with one or many class registrations.
 
 
 ## Remarks
-An **ExeServer** can have one or more class registrations. Multiple class registrations should share an **ExeServer** if their [LocalServer32 keys](https://msdn.microsoft.com/library/windows/desktop/ms683844.aspx) match and they have the same [AppID](https://msdn.microsoft.com/library/windows/desktop/ms688754.aspx) (or if they don't have an AppID), unless they need to be registered under different Applications/Application manifest elements.
+An **ExeServer** can have one or more class registrations. Multiple class registrations should share an **ExeServer** if their [LocalServer32 keys](/windows/win32/com/localserver32) match and they have the same [AppID](/windows/win32/com/appid) (or if they don't have an AppID), unless they need to be registered under different Applications/Application manifest elements.
 
-**ExeServer** registrations correspond to [LocalServer32 keys](https://msdn.microsoft.com/library/windows/desktop/ms683844.aspx) and their associated [AppID key](https://msdn.microsoft.com/library/windows/desktop/ms682359.aspx).
+**ExeServer** registrations correspond to [LocalServer32 keys](/windows/win32/com/localserver32) and their associated [AppID key](/windows/win32/com/appid-key).
 
-The **Executable** and **Arguments** attributes correspond to the default value of the [LocalServer32](https://msdn.microsoft.com/library/windows/desktop/ms683844.aspx) key.
+The **Executable** and **Arguments** attributes correspond to the default value of the [LocalServer32](/windows/win32/com/localserver32) key.
 
 ## Examples
 

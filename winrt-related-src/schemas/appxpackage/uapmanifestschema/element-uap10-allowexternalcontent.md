@@ -8,7 +8,7 @@ ms.date: 04/22/2020
 
 # uap10:AllowExternalContent
 
-Enables your package manifest to reference content outside the package, in a specific location on disk, for [sparse package](https://docs.microsoft.com/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps) scenarios.
+Enables your package manifest to reference content outside the package, in a specific location on disk, for [sparse package](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps) scenarios.
 
 ## Element hierarchy
 
@@ -69,7 +69,7 @@ None.
 
 ## Remarks
 
-The **uap10:AllowExternalContent** element contains a Boolean value. For more information about the use of the element, see [Grant identity to non-packaged desktop apps](https://docs.microsoft.com/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps).
+The **uap10:AllowExternalContent** element contains a Boolean value. For more information about the use of the element, see [Grant identity to non-packaged desktop apps](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps).
 
 ## Requirements
 

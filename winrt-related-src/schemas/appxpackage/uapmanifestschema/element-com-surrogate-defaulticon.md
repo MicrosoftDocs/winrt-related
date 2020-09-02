@@ -75,7 +75,7 @@ Provides default icon information for iconic presentations of objects.
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | Path | The full path to the executable name of the server application. | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *. | Yes |
-| ResourceIndex | The integer at the end of the path, separated from the path by a comma, e.g., C:\Foo\Bar\Baz.exe,5. See the nIconIndex parameter in [ExtractIcon](https://msdn.microsoft.com/library/windows/desktop/ms648068.aspx) for more details. | An integer type. | No |
+| ResourceIndex | The integer at the end of the path, separated from the path by a comma, e.g., C:\Foo\Bar\Baz.exe,5. See the nIconIndex parameter in [ExtractIcon](/windows/win32/api/shellapi/nf-shellapi-extracticona) for more details. | An integer type. | No |
 
 ## Remarks
 

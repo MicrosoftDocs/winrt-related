@@ -94,10 +94,10 @@ None.
 
 
 **Tasks**
-[Accessing files with file pickers](https://msdn.microsoft.com/library/windows/apps/hh465174)
+[Accessing files with file pickers](/previous-versions/windows/apps/hh465174(v=win.10))
 
 **Concepts**
-[App contracts and extensions](https://msdn.microsoft.com/library/windows/apps/hh464906)
+[App contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10))
 
 ## Requirements
 
@@ -108,6 +108,3 @@ None.
  
 
  
-
-
-

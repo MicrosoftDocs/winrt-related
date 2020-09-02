@@ -130,7 +130,7 @@ If the *Name* attribute is specified as a GUID, then it is validated as GUID.
 
 Apps are granted access to some devices by default. To access other types of devices, you must specify them using a **DeviceCapability** element. Some device capabilities must be added to the package manifest manually. For more info, see [How to specify device capabilities in a package manifest](../how-to-specify-device-capabilities-in-a-package-manifest.md).
 
-For more info about capability declarations, see [App capability declarations](https://msdn.microsoft.com/library/windows/apps/hh464936).
+For more info about capability declarations, see [App capability declarations](/previous-versions/windows/apps/hh464936(v=win.10)).
 
 The following device capabilities require child elements.
 
@@ -176,7 +176,7 @@ For more examples, see [How to specify device capabilities in a package manifest
 ## See also
 
 
-[App capability declarations](https://msdn.microsoft.com/library/windows/apps/hh464936)
+[App capability declarations](/previous-versions/windows/apps/hh464936(v=win.10))
 
 [How to specify device capabilities in a package manifest](../how-to-specify-device-capabilities-in-a-package-manifest.md)
 
@@ -190,6 +190,3 @@ For more examples, see [How to specify device capabilities in a package manifest
  
 
  
-
-
-

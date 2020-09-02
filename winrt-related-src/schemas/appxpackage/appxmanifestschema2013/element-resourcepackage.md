@@ -47,11 +47,11 @@ This outermost (document) element may not be contained by any other elements.
 
 ## Remarks
 
-If **ResourcePackage** is set to **true**, the manifest performs these semantic checks, which aren't enforced in the schema. A manifest that violates these semantic checks will just fail to validate via the [Packaging APIs](https://msdn.microsoft.com/library/windows/desktop/hh446766).
+If **ResourcePackage** is set to **true**, the manifest performs these semantic checks, which aren't enforced in the schema. A manifest that violates these semantic checks will just fail to validate via the [Packaging APIs](/windows/win32/appxpkg/interfaces).
 
--   A resource package can't define the [**Dependencies**](https://msdn.microsoft.com/library/windows/apps/dn423264), [**Capabilities**](../appxmanifestschema/element-capabilities.md), [**Applications**](https://msdn.microsoft.com/library/windows/apps/br211417), [**Extensions**](https://msdn.microsoft.com/library/windows/apps/dn423271), and [**Framework**](https://msdn.microsoft.com/library/windows/apps/dn423276) elements.
--   A resource package can't define [**Package\\Identity\\@ProcessorArchitecture**](https://msdn.microsoft.com/library/windows/apps/br211441), so it always defaults to **neutral**.
--   [**Resources\\Resource**](https://msdn.microsoft.com/library/windows/apps/dn423297) elements for a resource package can only define one type of attribute, for example, only **Language** or **Scale**.
+-   A resource package can't define the [**Dependencies**](../appxmanifestschema2010-v2/element-dependencies.md), [**Capabilities**](../appxmanifestschema/element-capabilities.md), [**Applications**](../appxmanifestschema/element-applications.md), [**Extensions**](../appxmanifestschema2010-v2/element-extensions.md), and [**Framework**](../appxmanifestschema2010-v2/element-framework.md) elements.
+-   A resource package can't define [**Package\\Identity\\@ProcessorArchitecture**](../appxmanifestschema/element-identity.md), so it always defaults to **neutral**.
+-   [**Resources\\Resource**](../appxmanifestschema2010-v2/element-resource.md) elements for a resource package can only define one type of attribute, for example, only **Language** or **Scale**.
 
 ## Requirements
 
@@ -62,6 +62,3 @@ If **ResourcePackage** is set to **true**, the manifest performs these semantic 
  
 
  
-
-
-

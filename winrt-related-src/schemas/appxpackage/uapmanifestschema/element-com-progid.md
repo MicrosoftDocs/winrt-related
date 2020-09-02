@@ -71,7 +71,7 @@ A programmatic identifier (ProgID) that can be associated with a CLSID. The Prog
 ## Remarks
 The **Clsid** attribute must reference the **Id** attribute of an ExeServer class, SurrogateServer class, or TreatAsClass registration within the same [ComServer](element-com-comserver.md) extension.
 
-For more information on the ProgID, see [&lt;ProgID&gt; Key](https://msdn.microsoft.com/library/windows/desktop/dd542719.aspx).
+For more information on the ProgID, see [&lt;ProgID&gt; Key](/windows/win32/com/-progid--key).
 
 > [!NOTE]
 > Clsid and CurrentVersion are mutually exclusive, but at least one must be provided.

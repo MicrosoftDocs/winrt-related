@@ -18,9 +18,9 @@ These elements
 
 These elements and their attributes are manipulated through Document Object Model (DOM) manipulation functions to customize the toast content.
 
-To define the content for a toast, you can use [**ToastNotificationManager.getTemplateContent**](https://msdn.microsoft.com/library/windows/apps/br208646) to get a toast template that can be modified.
+To define the content for a toast, you can use [**ToastNotificationManager.getTemplateContent**](/uwp/api/Windows.UI.Notifications.ToastNotificationManager) to get a toast template that can be modified.
 
-To examine the content of an existing toast, use [**ToastNotification.content**](https://msdn.microsoft.com/library/windows/apps/br208648) to get the current contents.
+To examine the content of an existing toast, use [**ToastNotification.content**](/uwp/api/Windows.UI.Notifications.ToastNotification) to get the current contents.
 
 The following table lists all of the elements in this schema, sorted alphabetically by name.
 
@@ -76,6 +76,3 @@ The following table lists all of the elements in this schema, sorted alphabetica
  
 
  
-
-
-

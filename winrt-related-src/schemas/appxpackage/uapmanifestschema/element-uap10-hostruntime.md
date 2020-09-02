@@ -10,7 +10,7 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 # uap10:HostRuntime
 
 ## Description
-Defines a package-wide extension that defines the runtime information to be used when activating a [hosted app](https://docs.microsoft.com/windows/uwp/launch-resume/hosted-app-packages).
+Defines a package-wide extension that defines the runtime information to be used when activating a [hosted app](/windows/uwp/launch-resume/hosted-app-packages).
 
 ## Element Hierarchy
 

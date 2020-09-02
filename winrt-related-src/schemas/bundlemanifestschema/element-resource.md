@@ -75,7 +75,7 @@ Declares language, resolution scale, and DirectX feature level for a resource in
 <tbody>
 <tr class="odd">
 <td><strong>DXFeatureLevel</strong></td>
-<td><p>The <a href="https://msdn.microsoft.com/library/windows/desktop/ff476876#overview">DirectX feature level</a>  for the resource.</p></td>
+<td><p>The <a href="/windows/win32/direct3d11/overviews-direct3d-11-devices-downlevel-intro#overview">DirectX feature level</a>  for the resource.</p></td>
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li>dx9</li>
@@ -149,6 +149,3 @@ None.
  
 
  
-
-
-

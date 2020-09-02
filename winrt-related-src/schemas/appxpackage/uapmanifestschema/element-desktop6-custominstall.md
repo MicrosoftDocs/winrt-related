@@ -16,7 +16,7 @@ ms.custom: 19H1
 Enables your desktop application to specify one or more additional installer files (.exe or .msi) that are installed with your desktop application. For example, this is useful for apps that bundle a 3rd party redistributable component. 
 
 > [!NOTE]
-> This element is currently intended to be used only by certain types of desktop PC games that are published by Microsoft and our partners. It requires the **customInstallActions** [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
+> This element is currently intended to be used only by certain types of desktop PC games that are published by Microsoft and our partners. It requires the **customInstallActions** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
 
 ## Element Hierarchy
 <dl>
@@ -73,7 +73,7 @@ Enables your desktop application to specify one or more additional installer fil
 
 ## Remarks
 
-This element requires the **customInstallActions** [restricted capability](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
+This element requires the **customInstallActions** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
 
 The OS uses the `Name` attribute of the [desktop6:InstallAction](element-desktop6-installaction.md), [desktop6:RepairAction](element-desktop6-repairaction.md), and [desktop6:UninstallAction](element-desktop6-uninstallaction.md) elements to identify a related set of install, repair, and uninstall actions. To specify a related set of actions that should be executed in conjunction with each other, make sure they have the same value for the `Name` attribute. The OS will run an uninstall action only if the corresponding install or repair action has been run.
 

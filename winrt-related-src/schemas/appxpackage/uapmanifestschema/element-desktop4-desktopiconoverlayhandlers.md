@@ -68,7 +68,7 @@ Contains Windows Shell icon overlay handlers for cloud based placeholder files.
 | [desktop4:DesktopIconOverlayHandler](element-desktop4-desktopiconoverlayhandler.md) | Registration for a Windows Shell icon overlay handler. |
 
 ## See Also
-[How to Register Icon Overlay Handlers](https://msdn.microsoft.com/library/windows/desktop/hh127455.aspx)
+[How to Register Icon Overlay Handlers](/windows/win32/shell/how-to-register-icon-overlay-handlers)
 
 ## Requirements
 

@@ -21,15 +21,15 @@ landingContent:
       - linkListType: reference
         links:
           - text: Windows Runtime (WinRT) namespaces
-            url: https://docs.microsoft.com/uwp/api
+            url: /uwp/api
           - text: Windows UI Library (WinUI) namespaces
-            url: https://docs.microsoft.com/uwp/api/overview/winui
+            url: /uwp/api/overview/winui
           - text: .NET APIs for UWP apps
-            url: https://docs.microsoft.com/dotnet/api/index?view=dotnet-uwp-10.0
+            url: /dotnet/api/index?view=dotnet-uwp-10.0
           - text: Advertising SDK namespaces
-            url: https://docs.microsoft.com/uwp/api/overview/advertising
+            url: /uwp/api/overview/advertising
           - text: Store Services SDK namespaces
-            url: https://docs.microsoft.com/uwp/api/overview/engagement
+            url: /uwp/api/overview/engagement
       - linkListType: overview
         links:
           - text: Extension SDKs and API contracts
@@ -55,11 +55,10 @@ landingContent:
       - linkListType: reference
         links:
           - text: C# reference
-            url: https://docs.microsoft.com/dotnet/csharp/language-reference/index
+            url: /dotnet/csharp/language-reference/index
           - text: C++/WinRT reference (winrt namespace)
             url: cpp-ref-for-winrt/winrt.md
           - text: C++/CX reference
-            url: https://docs.microsoft.com/cpp/cppcx/visual-c-language-reference-c-cx
+            url: /cpp/cppcx/visual-c-language-reference-c-cx
           - text: Microsoft Interface Definition Language 3.0
             url: midl-3/index.md
-

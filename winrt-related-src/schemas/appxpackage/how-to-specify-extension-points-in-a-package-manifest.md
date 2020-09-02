@@ -19,9 +19,9 @@ ms.date: 04/05/2017
 
  
 
-Your app can use extensibility points to interact with the system or other apps. To declare an extensibility point for your app, use the [**Extension (CT\_ApplicationExtensions)**](https://msdn.microsoft.com/library/windows/apps/br211400) element. To declare an extensibility point for the package, use the [**Extension (CT\_PackageExtensions)**](https://msdn.microsoft.com/library/windows/apps/br211434) element.
+Your app can use extensibility points to interact with the system or other apps. To declare an extensibility point for your app, use the [**Extension (CT\_ApplicationExtensions)**](./appxmanifestschema/element-1-extension.md) element. To declare an extensibility point for the package, use the [**Extension (CT\_PackageExtensions)**](./appxmanifestschema/element-extension.md) element.
 
-Alternatively, you can package your app using Visual Studio. See [Packaging your app using Visual Studio](https://msdn.microsoft.com/windows/uwp/packaging/index). Note that in Microsoft Visual Studio they are called “Declarations” and there is no distinction between package and app level extensions.
+Alternatively, you can package your app using Visual Studio. See [Packaging your app using Visual Studio](/windows/uwp/packaging/). Note that in Microsoft Visual Studio they are called “Declarations” and there is no distinction between package and app level extensions.
 
 ## Instructions
 
@@ -31,7 +31,7 @@ Follow the steps in [How to create a basic package manifest](how-to-create-a-bas
 
 ### Step 2:
 
-If the extensibility point is a package extensibility point, add a [**Package/Extensions**](https://msdn.microsoft.com/library/windows/apps/br211435) node. The schema for each extensibility point is category-specific. For more info, see the description of the **Category** attribute for the [**Extension (CT\_PackageExtensions)**](https://msdn.microsoft.com/library/windows/apps/br211434) element.
+If the extensibility point is a package extensibility point, add a [**Package/Extensions**](./appxmanifestschema/element-extensions.md) node. The schema for each extensibility point is category-specific. For more info, see the description of the **Category** attribute for the [**Extension (CT\_PackageExtensions)**](./appxmanifestschema/element-extension.md) element.
 
 Here's an example **Package/Extensions** node. Both extensions are **windows.activatableClass** extensions.
 
@@ -54,7 +54,7 @@ Here's an example **Package/Extensions** node. Both extensions are **windows.act
 
 ### Step 3:
 
-If the extensibility point is an app extensibility point, add a [**Package/Applications/Application/Extensions**](https://msdn.microsoft.com/library/windows/apps/br211401) node. The schema for each extensibility point is category-specific. For more info, see the description of the **Category** attribute for the [**Extension (CT\_ApplicationExtensions)**](https://msdn.microsoft.com/library/windows/apps/br211400) element.
+If the extensibility point is an app extensibility point, add a [**Package/Applications/Application/Extensions**](./appxmanifestschema/element-1-extensions.md) node. The schema for each extensibility point is category-specific. For more info, see the description of the **Category** attribute for the [**Extension (CT\_ApplicationExtensions)**](./appxmanifestschema/element-1-extension.md) element.
 
 Here's an example **Package/Applications/Application/Extensions** node. The extensions is a **windows.fileTypeAssociation** extension. Some extensions contain child elements like in the example below and others do not, like **windows.accountPictureProvider**.
 
@@ -91,6 +91,3 @@ Here's an example **Package/Applications/Application/Extensions** node. The exte
  
 
  
-
-
-

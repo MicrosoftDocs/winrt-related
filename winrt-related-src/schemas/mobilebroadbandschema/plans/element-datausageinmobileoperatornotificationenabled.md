@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # DataUsageInMobileOperatorNotificationEnabled
 
 
-Indicates whether the [**NetworkOperatorNotificationTrigger**](https://msdn.microsoft.com/library/windows/apps/br224831) should include data usage notifications. If **true**, Windows raises this trigger when the data usage threshold is met.
+Indicates whether the [**NetworkOperatorNotificationTrigger**](/uwp/api/Windows.ApplicationModel.Background.NetworkOperatorNotificationTrigger) should include data usage notifications. If **true**, Windows raises this trigger when the data usage threshold is met.
 
 ## Element hierarchy
 
@@ -78,7 +78,7 @@ None.
 ## See also
 
 
-[**NetworkOperatorNotificationTrigger**](https://msdn.microsoft.com/library/windows/apps/br224831)
+[**NetworkOperatorNotificationTrigger**](/uwp/api/Windows.ApplicationModel.Background.NetworkOperatorNotificationTrigger)
 
 ## Requirements
 
@@ -89,6 +89,3 @@ None.
  
 
  
-
-
-

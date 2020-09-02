@@ -175,7 +175,7 @@ The following elements have the same name as this one, but different content or 
 ## See also
 
 
-[Supporting AutoPlay](https://msdn.microsoft.com/library/windows/apps/hh452731)
+[Supporting AutoPlay](/previous-versions/windows/apps/hh452731(v=win.10))
 
 ## Requirements
 
@@ -186,6 +186,3 @@ The following elements have the same name as this one, but different content or 
  
 
  
-
-
-

@@ -13,7 +13,7 @@ ms.date: 04/05/2017
 # CarrierControlSchema schema
 
 
-The CarrierControlSchema schema defines elements that are used to create the provisioning file in a call to [**ProvisionFromXmlDocumentAsync**](https://msdn.microsoft.com/library/windows/apps/br207400) and describe all of the settings required to authenticate and provision a subscriber's account on a Mobile Network Operator's (MNO) network. All of the elements are in the namespace `http://www.microsoft.com/networking/CarrierControl/v1`. Not all elements are in every profile, as some elements are optional.
+The CarrierControlSchema schema defines elements that are used to create the provisioning file in a call to [**ProvisionFromXmlDocumentAsync**](/uwp/api/Windows.Networking.NetworkOperators.ProvisioningAgent) and describe all of the settings required to authenticate and provision a subscriber's account on a Mobile Network Operator's (MNO) network. All of the elements are in the namespace `http://www.microsoft.com/networking/CarrierControl/v1`. Not all elements are in every profile, as some elements are optional.
 
 The following table lists all of the elements in this schema, sorted alphabetically by name.
 
@@ -273,6 +273,3 @@ The full CarrierControlSchema schema is below:
  
 
  
-
-
-

@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # AssociatedPlan
 
 
-Contains the name of the subscriber's data plan. It must match the **Name** attribute of a [**Plan**](https://msdn.microsoft.com/library/windows/apps/hh868373) in the same XML document.
+Contains the name of the subscriber's data plan. It must match the **Name** attribute of a [**Plan**](../plans/element-plan.md) in the same XML document.
 
 ## Element hierarchy
 
@@ -84,6 +84,3 @@ None.
  
 
  
-
-
-

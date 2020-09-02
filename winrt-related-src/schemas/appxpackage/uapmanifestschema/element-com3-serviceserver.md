@@ -78,7 +78,7 @@ Registers a COM server (with one or more class registrations) hosted in a Window
 
 ## Remarks
 
-A **ServiceServer** can have one or more class registrations. Multiple class registrations should share a **ServiceServer** if their [LocalService](https://docs.microsoft.com/windows/win32/com/localservice) keys match and they have the same [AppID](https://docs.microsoft.com/windows/win32/com/appid) (or if they don't have an AppID), unless they need to be registered under different Applications/Application manifest elements.
+A **ServiceServer** can have one or more class registrations. Multiple class registrations should share a **ServiceServer** if their [LocalService](/windows/win32/com/localservice) keys match and they have the same [AppID](/windows/win32/com/appid) (or if they don't have an AppID), unless they need to be registered under different Applications/Application manifest elements.
 
 ## Examples
 

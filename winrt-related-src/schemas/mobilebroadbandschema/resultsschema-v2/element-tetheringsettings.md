@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 # TetheringSettings
 
 
-Contains any errors from processing the [**TetheringSettings**](https://msdn.microsoft.com/library/windows/apps/dn394030) element from the last provisioning attempt.
+Contains any errors from processing the [**TetheringSettings**](../carriercontrolschema-v2/element-tetheringsettings.md) element from the last provisioning attempt.
 
 ## Element hierarchy
 
@@ -105,6 +105,3 @@ None.
  
 
  
-
-
-

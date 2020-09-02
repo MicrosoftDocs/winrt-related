@@ -129,7 +129,7 @@ None.
 
 ## Remarks
 
-The **UriTemplate** attribute must be a value URI per RFC 3986. It must be an absolute URI with only [schemes](https://docs.microsoft.com/windows/uwp/launch-resume/launch-maps-app) of unsecure "http:" sites and secure "https:" sites permitted.
+The **UriTemplate** attribute must be a value URI per RFC 3986. It must be an absolute URI with only [schemes](/windows/uwp/launch-resume/launch-maps-app) of unsecure "http:" sites and secure "https:" sites permitted.
 
 ## Requirements
 
@@ -141,6 +141,3 @@ The **UriTemplate** attribute must be a value URI per RFC 3986. It must be an ab
  
 
  
-
-
-

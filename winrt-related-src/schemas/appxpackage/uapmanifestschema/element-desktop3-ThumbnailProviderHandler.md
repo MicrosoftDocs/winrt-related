@@ -58,7 +58,7 @@ Registration of a Windows Shell ThumbnailProviderHandler for cloud based placeho
 | Clsid | The class ID of the app that implements the ThumbnailProviderHandler, used for thumbnail images of placeholder files. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |
 
 ## See also
-[Creating Shell Extension Handlers](https://msdn.microsoft.com/library/windows/desktop/cc144067(v=vs.85).aspx)
+[Creating Shell Extension Handlers](/windows/win32/shell/handlers)
 
 ## Requirements
 

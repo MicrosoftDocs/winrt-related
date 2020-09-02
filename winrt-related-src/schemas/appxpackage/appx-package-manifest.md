@@ -36,11 +36,8 @@ Visual Studio automatically creates a package manifest. You can also create a pa
 ## Related topics
 
 
-[Packaging apps](https://msdn.microsoft.com/library/windows/apps/mt270969)
+[Packaging apps](/windows/uwp/packaging/)
 
  
 
  
-
-
-

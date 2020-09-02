@@ -129,10 +129,10 @@ When a device that is not volume-based is connected to a computer, the system ra
 
 
 **Tasks**
-[Auto-launching with AutoPlay](https://msdn.microsoft.com/library/windows/apps/hh452731)
+[Auto-launching with AutoPlay](/previous-versions/windows/apps/hh452731(v=win.10))
 
 **Concepts**
-[App contracts and extensions](https://msdn.microsoft.com/library/windows/apps/hh464906)
+[App contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10))
 
 ## Requirements
 
@@ -144,6 +144,3 @@ When a device that is not volume-based is connected to a computer, the system ra
  
 
  
-
-
-
