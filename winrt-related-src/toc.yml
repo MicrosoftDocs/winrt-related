@@ -2030,21 +2030,9 @@
   - name: "Extension SDKs"
     href: extension-sdks/index.md
     items: 
-    - name: "Device families overview"
+    - name: "Programming with extension SDKs"
       href: extension-sdks/device-families-overview.md
-    - name: "Universal device family"
-      href: extension-sdks/windows-universal-sdk.md
-    - name: "Desktop extension SDK"
-      href: extension-sdks/windows-desktop-extension-sdk.md
-    - name: "Mobile extension SDK"
-      href: extension-sdks/windows-mobile-extension-sdk.md
-    - name: "IoT extension SDK"
-      href: extension-sdks/windows-iot-extension-sdk.md
-    - name: "Windows Team Extension SDK"
-      href: extension-sdks/windows-team-extension-sdk.md
-    - name: "Xbox Live extension SDK"
-      href: extension-sdks/xbox-live-extensions.md
-    - name: "UWP features not yet supported on Xbox"
+    - name: "UWP features not supported on Xbox"
       href: extension-sdks/uwp-limitations-on-xbox.md
   - name: "winrt namespace (C++/WinRT)"
     href: cpp-ref-for-winrt/winrt.md

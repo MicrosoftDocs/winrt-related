@@ -1,19 +1,16 @@
 ---
-Description: Identifies the device family that your package targets. 
+description: Identifies the device family that your package targets. 
 Search.Product: eADQiWindows 10XVcnh
 title: TargetDeviceFamily (Windows 10)
 ms.assetid: 457745aa-bc12-427b-b1f1-74c1618753c0
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 04/05/2017
 ---
+
 # TargetDeviceFamily (Windows 10)
 
-Identifies the device family that your package targets. For more info about device families, see [Device families overview](../../../extension-sdks/device-families-overview.md).
+Identifies the device family that your package targets. For more info about device families, see [Programming with extension SDKs](/uwp/extension-sdks/device-families-overview).
 
 ## Element hierarchy
 
@@ -185,6 +182,6 @@ In this last example, the app targets the universal device family (so, by defaul
 
 ## Requirements
 
-|   |   |
+| Requirement | Value |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |

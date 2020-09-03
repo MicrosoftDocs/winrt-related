@@ -1,31 +1,26 @@
 ---
-title: Device Family Extension SDKs and API contracts
-description: Lists the extension SDKs and their versions, with links to topics that list the API contracts associated with each extension SDK.
+title: Device family extension SDKs and API contracts
+description: Explains device families, extension SDKs, and API contracts; and lists UWP feature areas that don't function as fully on Xbox.
 ms.assetid: 9C4F57CB-6E45-4B42-9852-67B0EFB63450
-
-
-
-
 ms.topic: reference
-ms.date: 6/4/2019
+ms.date: 09/02/2020
 keywords: windows 10, uwp, extension sdk
 ---
 
-# Device Family Extension SDKs and API contracts
+# Device family extension SDKs and API contracts
 
-The way of thinking about app-targeting changes with Windows 10. The new conceptual model is that UWP apps target the Universal device family by default, which provides a common API surface that works across a variety of devices. But you can also target the capabilities of specific devices by using an extension SDK. For more info on what a extension SDK is, and how to decide which one to target, see [Device families overview](device-families-overview.md).
+## Available extension SDKs
 
-This reference topic enumerates all of the extension SDKs with links to topics that list the contracts available in each extension.
+These are the names of the extension SDKs available for you to reference in Visual Studio.
+
+- Windows Desktop Extensions for the UWP
+- Windows IoT Extensions for the UWP
+- Windows Mobile Extensions for the UWP
+- Windows Team Extensions for the UWP
 
 ## In this section
 
-|  Topic                                                                                | Description                                                       |
-|---------------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| [Device families overview](device-families-overview.md)                               | Overview of device families |
-| [Universal device family API contracts](windows-universal-sdk.md)              | Lists the API contracts within the Universal device family |
-| [Windows Desktop Extension SDK API contracts for UWP](windows-desktop-extension-sdk.md)   | Lists the API contracts within the Windows Desktop Extension SDK |
-| [Windows Mobile Extension SDK API contracts for UWP](windows-mobile-extension-sdk.md) | Lists the API contracts within the Windows Mobile Extension SDK |
-| [Windows IoT Extension SDK API contracts for UWP](windows-iot-extension-sdk.md)       | Lists the API contracts within the Windows Internet of Things Extension SDK |
-| [Windows Team Extension SDK contracts for UWP](windows-team-extension-sdk.md)         | Lists the API contracts within the Windows Team Extension SDK |
-| [Xbox Live Extension API contracts for UWP](xbox-live-extensions.md)                  | Lists the API contracts within the Xbox Live extension SDK |
-| [UWP features not yet supported on Xbox](uwp-limitations-on-xbox.md)                  | Lists some of the feature areas that your UWP app might use that don’t currently function as fully on Xbox |
+| Topic | Description |
+|-|-|
+| [Programming with extension SDKs](/uwp/extension-sdks/device-families-overview) | An explanation of device families, extension SDKs, and API contracts, and how to program with them. |
+| [UWP features not supported on Xbox](/uwp/extension-sdks/uwp-limitations-on-xbox) | Lists some of the feature areas that your UWP app might use that don't function as fully on Xbox. |
