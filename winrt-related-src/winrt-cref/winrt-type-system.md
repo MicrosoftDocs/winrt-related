@@ -1,8 +1,6 @@
 ---
 title: The Windows Runtime (WinRT) type system
 description: The Windows Runtime (WinRT) type system.
-
-
 ms.topic: reference
 ms.date: 01/25/2019
 keywords: windows 10, uwp, winrt, type, system
@@ -31,6 +29,7 @@ WinRT namespaces and type names are case-preserving, but insensitive, similar to
 
 A WinRT identifier must conform to the following grammar. Note that only characters defined in Unicode 3.0 and earlier are supported.
 
+```syntax
     identifier-or-keyword: 
         identifier-start-character   identifier-continuation-characters* 
     identifier-start-character: 
@@ -56,6 +55,7 @@ A WinRT identifier must conform to the following grammar. Note that only charact
     formatting-character: 
         Zero Width Non-Joiner (U+200C)
         Zero Width Joiner (U+200D)
+```
 
 ## Parameterized types
 WinRT supports type parameterization of interfaces and delegates. The parameterized types permit a family of interfaces to be defined that may be processed polymorphically in programming languages that support parametric polymorphism.
@@ -96,7 +96,9 @@ The instantiation algorithm is as follows.
 3. The type signature for an interface that is not a parameterized interface instance is its IID encoded in ASCII in dashed form, and delimited by curly braces. For example, "{00000000-0000-0000-0000-000000000000}".
 4. The type signature for a delegate that is not a parameterized delegate instance is the string "delegate", and then the IID as with interfaces. The detailed grammar appears next.
 5. The guid for a parameterized type is computed according to this grammar.
-    - signature_octets => guid_to_octets(wrt_pinterface_namespace) string_to_utf8_octets(ptype_instance_signature)
+
+```syntax
+    signature_octets => guid_to_octets(wrt_pinterface_namespace) string_to_utf8_octets(ptype_instance_signature)
 
         wrt_pinterface_namespace => "11f47ad5-7b73-42c0-abae-878b1e16adee"
 
@@ -140,6 +142,7 @@ The instantiation algorithm is as follows.
             dashed_hex => hex{8} "-" hex{4} "-" hex{4} "-" hex{4} "-" hex{12}
 
             hex => [0-9a-f]
+```
 
     - according to UUID rfc 4122, compute the ver 5 sha-1 generated hash of signature_octets&mdash;this uses a single winrt pinterface/pintergroup guid as the namespace as described in rfc 4122/4.3, and the signature of the pinterface/pintergroup and the args it is instantiated with as the name string.
     - the pinterface instantiation is assigned this guid, and the signature from 4.
@@ -227,19 +230,21 @@ A struct must have at least one field. All of a struct's fields must be public.
 A struct cannot be generic nor parameterized.
 
 ## Interfaces
-An interface is a contract that consists of a group of related type members whose usage is defined but whose implementation is not. An interface definition specifies the interface's members&mdash;methods, properties, and events. There is no implementation associated with an interface.
+An interface is a contract that consists of a group of related type members whose usage is defined, but whose implementation is not. An interface definition specifies the interface's members&mdash;methods, properties, and events. There is no implementation associated with an interface.
 
 Non-parameterized interfaces must have a unique interface ID (aka IID) specified via a GuidAttribute. A parameterized interface must have a unique parameterized interface ID (also known as a PIID) specified via a GuidAttribute. The PIID is used to generate an IID for a specific parameterized interface instance via the algorithm specified above.
 
 An interface may have public or private visibility. This reflects the fact that some interfaces represent shared contracts implemented by multiple WinRT classes, while other interfaces represent members implemented by a single WinRT class. A private-visibility interface must specify the WinRT class it is exclusive to via the ExclusiveToAttribute. Private interfaces may only be implemented by the WinRT class specified in the ExclusiveToAttribute.
 
 ### IInspectable and IUnknown
-All WinRT interfaces must inherit directly from IInspectable, which in turn inherits from IUnknown. IUnknown defines three methods: QueryInterface, AddRef, and Release as per traditional COM usage. IInspectable defines three methods in addition to the IUnknown methods: GetIids, GetRuntimeClassName, and GetTrustLevel. These three methods allow the object's client to retrieve information about the object. In particular, IInspectable.GetRuntimeClassName enables an object's client to retrieve a WinRT typename that can be resolved in metadata to enable language projection.
+When it comes to interfaces, WinRT has no notion of inheritance. Instead there is the idea that an interface can *require* another interface. For more info, specifically about the MIDL 3.0 `requires` keyword, see [MIDL 3.0 interfaces](/uwp/midl-3/intro#interfaces).
 
-### Interface requires
-An interface may specify that it requires one or more other interfaces that must be implemented on any object that implements the interface in question. For example, if **IButton** requires **IControl**, then any class implementing **IButton** would also need to implement **IControl**.
+All WinRT interfaces implicitly require IInspectable; and in turn IInspectable requires IUnknown. IUnknown defines three methods: QueryInterface, AddRef, and Release as per traditional COM usage. IInspectable defines three methods in addition to the IUnknown methods: GetIids, GetRuntimeClassName, and GetTrustLevel. These three methods allow the object's client to retrieve information about the object. In particular, IInspectable.GetRuntimeClassName enables an object's client to retrieve a WinRT typename that can be resolved in metadata to enable language projection.
 
-Adding new functionality by implementing new interfaces that inherit from existing interfaces (for example, **IFoo2** inherits from **IFoo**) is not allowed.
+### Interface *requires*
+As mentioned above, an interface may specify that it *requires* one or more other interfaces that must be implemented on any object that implements the interface in question. For example, if **IButton** requires **IControl**, then any class implementing **IButton** would also need to implement **IControl**.
+
+But neither the WinRT type system nor the ABI has a concept of interface inheritance. So the idea of adding new functionality by implementing new interfaces that inherit from existing interfaces (for example, **IFoo2** inherits from **IFoo**) has no meaning. It is true that a WinRT language projection can use an inheritance relationship for ease of consumption in that particular language, and a runtime class can use inheritance, but interface inheritance doesn't exist in the context of MIDL 3.0 authoring (see [MIDL 3.0 interfaces](/uwp/midl-3/intro#interfaces)).
 
 ### Parameterized interfaces
 Interfaces support type parameterization. A parameterized interface definition specifies a type parameter list in addition to the list of interface members and required interfaces. A required interface of a parameterized interface may share the same type argument list, such that a single type argument is used to specify the parameterized instance of both the interface and the interface that it requires (for example, `IVector<T> requires IIterable<T>`). The signature of any member (that is, method, property, or event) of a parameterized interface may reference a type from the parameterized interface's type arguments list (for example, `IVector<T>.SetAt([in] UInt32 index, [in] T value)`).

@@ -1,8 +1,6 @@
 ---
-
 description: An introduction to Microsoft Interface Definition Language 3.0.
 title: Introduction to Microsoft Interface Definition Language 3.0
-
 ms.date: 04/23/2018
 ms.topic: reference
 keywords: windows 10, uwp, winrt, api, reference, idl, midl, 3.0, 3, midl3
@@ -36,6 +34,9 @@ namespace PhotoEditor
 ```
 
 Note that the syntax of MIDL 3.0 is specifically and solely designed for *defining* types. You'll use a different programming language to *implement* those types. To use MIDL 3.0, you'll need Windows SDK version 10.0.17134.0 (Windows 10, version 1803) (`midl.exe` version 8.01.0622 or later, used with the `/winrt` switch).
+
+> [!NOTE]
+> Also see the Windows Runtime consolidated reference ([The Windows Runtime type system](/uwp/winrt-cref/winrt-type-system), and [Windows Metadata files](/uwp/winrt-cref/winmd-files)).
 
 ## MIDL 1.0, 2.0, and 3.0
 Interface Definition Language (IDL) began with the Distributed Computing Environment/Remote Procedure Calls (DCE/RPC) system. The original [MIDL 1.0](/windows/win32/midl/midl-start-page) is DCE/RPC IDL with enhancements for defining COM interfaces and coclasses.
@@ -1069,6 +1070,9 @@ runtimeclass EditBox : IControl, IDataBound
 ```
 
 For Windows Runtime types in the Windows platform, an interface is defined if developers who consume those types are expected to implement the interface. Another use case for defining an interface is when multiple runtime classes implement the interface, and developers consuming those runtime classes will access different types of object generically (and thus polymorphically) via that common interface.
+
+> [!NOTE]
+> Think twice about using the `requires` keyword in MIDL 3.0. It can lead to messy designs, especially when versioning is taken into account.
 
 ### Enums
 
