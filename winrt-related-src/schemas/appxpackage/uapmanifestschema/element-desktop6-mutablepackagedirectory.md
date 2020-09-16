@@ -62,7 +62,7 @@ None.
 
 | Parent Element | Description |
 |---------------|-------------|
-| [desktop6:MutablePackageDirectories)](element-desktop6-mutablepackagedirectories.md) | Enables your desktop application to specify one or more folders where users can modify the installation files for your application (for example, to install mods). |
+| [desktop6:MutablePackageDirectories](element-desktop6-mutablepackagedirectories.md) | Enables your desktop application to specify one or more folders where users can modify the installation files for your application (for example, to install mods). |
 
 
 ## Remarks
@@ -83,11 +83,11 @@ This element requires the **modifiableApp** [restricted capability](/windows/uwp
   <!-- ... -->
  
   <Extensions> 
-    <Extension Category="windows.mutablePackageDirectories">
+    <desktop6:Extension Category="windows.mutablePackageDirectories">
       <desktop6:MutablePackageDirectories>
-        <desktop6:MutablePackageDirectory target="ContosoGame"/>
+        <desktop6:MutablePackageDirectory Target="ContosoGame"/>
       </desktop6:MutablePackageDirectories>
-    </Extension>
+    </desktop6:Extension>
   </Extensions>
  
   <Capabilities>
