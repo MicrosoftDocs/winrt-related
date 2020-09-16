@@ -49,7 +49,6 @@ Defines a globally unique identifier for a package. A package identity is repres
 <col width="20%" />
 <col width="20%" />
 <col width="20%" />
-<col width="20%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -57,18 +56,16 @@ Defines a globally unique identifier for a package. A package identity is repres
 <th>Description</th>
 <th>Data type</th>
 <th>Required</th>
-<th>Default value</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><strong>Name</strong></td>
 <td><p>Describes the contents of the package. The <strong>Name</strong> attribute is case-sensitive.</p>
-<p>Use the [<strong>DisplayName</strong>](https://msdn.microsoft.com/library/windows/apps/br211432) attribute to display a package name to users.</p>
+<p>Use the <a href="element-displayname.md">DisplayName</a> attribute to display a package name to users.</p>
 <p>This string cannot end with a period and cannot be one of these strings: &quot;CON&quot;, &quot;PRN&quot;, &quot;AUX&quot;, &quot;NUL&quot;, &quot;COM1&quot;, &quot;COM2&quot;, &quot;COM3&quot;, &quot;COM4&quot;, &quot;COM5&quot;, &quot;COM6&quot;, &quot;COM7&quot;, &quot;COM8&quot;, &quot;COM9&quot;, &quot;LPT1&quot;, &quot;LPT2&quot;, &quot;LPT3&quot;, &quot;LPT4&quot;, &quot;LPT5&quot;, &quot;LPT6&quot;, &quot;LPT7&quot;, &quot;LPT8&quot;, and &quot;LPT9&quot;.</p></td>
 <td>A string between 3 and 50 characters in length that consists of alpha-numeric, period, and dash characters.</td>
 <td>Yes</td>
-<td></td>
 </tr>
 <tr class="even">
 <td><strong>ProcessorArchitecture</strong></td>
@@ -82,14 +79,12 @@ Defines a globally unique identifier for a package. A package identity is repres
 <li>neutral</li>
 </ul></td>
 <td>No</td>
-<td></td>
 </tr>
 <tr class="odd">
 <td><strong>Publisher</strong></td>
-<td><p>Describes the publisher information. The <strong>Publisher</strong> attribute must match the publisher subject information of the certificate used to sign a package. For more information see <a href="https://docs.microsoft.com/windows/uwp/packaging/index">Packaging apps</a>.</p></td>
-<td>A string between 1 and 8192 characters in length that fits the regular expression of a distinguished name : &quot;(CN | L | O | OU | E | C | S | STREET | T | G | I | SN | DC | SERIALNUMBER | Description | PostalCode | POBox | Phone | X21Address | dnQualifier | (OID\.(0 | [1-9][0-9]*)(\.(0 | [1-9][0-9]*))+))=(([^,+=&quot;&lt;&gt;#;])+ | &quot;.*&quot;)(, ((CN | L | O | OU | E | C | S | STREET | T | G | I | SN | DC | SERIALNUMBER | Description | PostalCode | POBox | Phone | X21Address | dnQualifier | (OID\.(0 | [1-9][0-9]*)(\.(0 | [1-9][0-9]*))+))=(([^,+=&quot;&lt;&gt;#;])+ | &quot;.*&quot;)))*&quot;. Further, semantic validation ensures that the string is compliant with <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/nf-wincrypt-certnametostrw">CertNameToStr</a> Windows API implementation of X.500 rules.</td>
+<td><p>Describes the publisher information. The <strong>Publisher</strong> attribute must match the publisher subject information of the certificate used to sign a package. For more information see <a href="/windows/uwp/packaging/index">Packaging apps</a>.</p></td>
+<td>A string between 1 and 8192 characters in length that fits the regular expression of a distinguished name : &quot;(CN | L | O | OU | E | C | S | STREET | T | G | I | SN | DC | SERIALNUMBER | Description | PostalCode | POBox | Phone | X21Address | dnQualifier | (OID\.(0 | [1-9][0-9]*)(\.(0 | [1-9][0-9]*))+))=(([^,+=&quot;&lt;&gt;#;])+ | &quot;.*&quot;)(, ((CN | L | O | OU | E | C | S | STREET | T | G | I | SN | DC | SERIALNUMBER | Description | PostalCode | POBox | Phone | X21Address | dnQualifier | (OID\.(0 | [1-9][0-9]*)(\.(0 | [1-9][0-9]*))+))=(([^,+=&quot;&lt;&gt;#;])+ | &quot;.*&quot;)))*&quot;. Further, semantic validation ensures that the string is compliant with <a href="/windows/win32/api/wincrypt/nf-wincrypt-certnametostrw">CertNameToStr</a> Windows API implementation of X.500 rules.</td>
 <td>Yes</td>
-<td></td>
 </tr>
 <tr class="even">
 <td><strong>ResourceId</strong></td>
@@ -97,14 +92,12 @@ Defines a globally unique identifier for a package. A package identity is repres
 <p>This string cannot end with a period and cannot be one of these strings: &quot;CON&quot;, &quot;PRN&quot;, &quot;AUX&quot;, &quot;NUL&quot;, &quot;COM1&quot;, &quot;COM2&quot;, &quot;COM3&quot;, &quot;COM4&quot;, &quot;COM5&quot;, &quot;COM6&quot;, &quot;COM7&quot;, &quot;COM8&quot;, &quot;COM9&quot;, &quot;LPT1&quot;, &quot;LPT2&quot;, &quot;LPT3&quot;, &quot;LPT4&quot;, &quot;LPT5&quot;, &quot;LPT6&quot;, &quot;LPT7&quot;, &quot;LPT8&quot;, and &quot;LPT9&quot;.</p></td>
 <td>An ASCII string between 1 and 30 characters in length.</td>
 <td>No</td>
-<td></td>
 </tr>
 <tr class="odd">
 <td><strong>Version</strong></td>
 <td><p>The version number of the package.</p></td>
 <td>A version string in quad notation, &quot;Major.Minor.Build.Revision&quot; where Major cannot be "0".</td>
 <td>Yes</td>
-<td></td>
 </tr>
 </tbody>
 </table>
