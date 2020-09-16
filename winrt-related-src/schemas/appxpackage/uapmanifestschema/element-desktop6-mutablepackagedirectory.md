@@ -62,7 +62,7 @@ None.
 
 | Parent Element | Description |
 |---------------|-------------|
-| [desktop6:MutablePackageDirectories)](element-desktop6-mutablepackagedirectories.md) | Enables your desktop application to specify one or more folders where users can modify the installation files for your application (for example, to install mods). |
+| [desktop6:MutablePackageDirectories](element-desktop6-mutablepackagedirectories.md) | Enables your desktop application to specify one or more folders where users can modify the installation files for your application (for example, to install mods). |
 
 
 ## Remarks
