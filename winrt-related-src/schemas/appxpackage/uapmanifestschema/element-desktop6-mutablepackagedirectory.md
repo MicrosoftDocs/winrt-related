@@ -74,8 +74,7 @@ This element requires the **modifiableApp** [restricted capability](/windows/uwp
 ```xml
 <Package
   xmlns:desktop6="http://schemas.microsoft.com/appx/manifest/desktop/windows10/6"
-  xmlns:rescap= 
-"http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+  xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" 
   IgnorableNamespaces="rescap desktop6">
  
   <!-- ... -->
