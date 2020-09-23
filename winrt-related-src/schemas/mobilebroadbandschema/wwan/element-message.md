@@ -74,7 +74,7 @@ Defines a MNO formatted message that contains the parsing rules necessary for Wi
 <tbody>
 <tr class="odd">
 <td><strong>RuleId</strong></td>
-<td><p>The MNO defined rule ID for this message that is passed back within a <a href="https://msdn.microsoft.com/library/windows/apps/br207377"><strong>NetworkOperatorNotificationEventDetails</strong></a>  event for message identification.</p></td>
+<td><p>The MNO defined rule ID for this message that is passed back within a <a href="/uwp/api/Windows.Networking.NetworkOperators.NetworkOperatorNotificationEventDetails"><strong>NetworkOperatorNotificationEventDetails</strong></a>  event for message identification.</p></td>
 <td>token</td>
 <td>No</td>
 <td></td>
@@ -170,6 +170,3 @@ Must be at least one bearer of either type, but multiple SMS bearers permitted.
  
 
  
-
-
-

@@ -64,7 +64,7 @@ None.
 <tbody>
 <tr class="odd">
 <td><a href="element-keywords.md">Keywords</a> </td>
-<td><p>Contains the <a href="https://msdn.microsoft.com/library/windows/desktop/bb787519">System.Keywords</a>  that describe the item.</p></td>
+<td><p>Contains the <a href="/windows/win32/properties/props-system-keywords">System.Keywords</a>  that describe the item.</p></td>
 </tr>
 </tbody>
 </table>

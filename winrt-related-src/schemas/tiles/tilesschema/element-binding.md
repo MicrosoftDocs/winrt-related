@@ -129,7 +129,7 @@ Specifies the tile template. Every notification should include one binding eleme
 </tr>
 <tr class="odd">
 <td><strong>template</strong></td>
-<td><p>One of the provided templates on which to base the tile. Typically, a developer should supply both a square and a wide format, each as a separate <a href="element-binding.md"><strong>binding</strong></a>  element. Valid entries are members of the <a href="https://msdn.microsoft.com/library/windows/apps/br208621"><strong>tileTemplateType</strong></a> enumeration.</p></td>
+<td><p>One of the provided templates on which to base the tile. Typically, a developer should supply both a square and a wide format, each as a separate <a href="element-binding.md"><strong>binding</strong></a>  element. Valid entries are members of the <a href="/uwp/api/Windows.UI.Notifications.TileTemplateType"><strong>tileTemplateType</strong></a> enumeration.</p></td>
 <td>tileTemplateNameV2 (see Remarks)</td>
 <td>Yes</td>
 <td>None</td>

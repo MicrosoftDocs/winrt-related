@@ -59,7 +59,7 @@ The type of the values (elements) that the **com_array** contains.
 
 |Function|Description|
 |------------|-----------------|
-|[detach_abi function](#detach_abi-function)|Detaches the **com_array** object from its raw values, perhaps to return them to a caller. The **com_array** is cleared. Also see [winrt::detach_abi function](/uwp/cpp-ref-for-winrt/detach-abi).|
+|[detach_abi function](#detach_abi-function)|Detaches the **com_array** object from its raw values, perhaps to return them to a caller. The **com_array** is cleared. Also see [winrt::detach_abi function](./detach-abi.md).|
 |[put_abi function](#put_abi-function)|Retrieves the address of the **com_array** so that it can be set to another value. Also see [winrt::put_abi function](./put-abi.md).|
 |[swap function](#swap-function)|Swaps the contents of the two **com_array** parameters.|
 

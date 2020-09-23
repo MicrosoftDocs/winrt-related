@@ -22,5 +22,5 @@ These are the names of the extension SDKs available for you to reference in Visu
 
 | Topic | Description |
 |-|-|
-| [Programming with extension SDKs](/uwp/extension-sdks/device-families-overview) | An explanation of device families, extension SDKs, and API contracts, and how to program with them. |
-| [UWP features not supported on Xbox](/uwp/extension-sdks/uwp-limitations-on-xbox) | Lists some of the feature areas that your UWP app might use that don't function as fully on Xbox. |
+| [Programming with extension SDKs](./device-families-overview.md) | An explanation of device families, extension SDKs, and API contracts, and how to program with them. |
+| [UWP features not supported on Xbox](./uwp-limitations-on-xbox.md) | Lists some of the feature areas that your UWP app might use that don't function as fully on Xbox. |

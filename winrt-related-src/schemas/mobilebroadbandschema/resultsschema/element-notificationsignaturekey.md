@@ -94,7 +94,7 @@ None.
 <tbody>
 <tr class="odd">
 <td><a href="element-refreshparameters.md">RefreshParameters</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868302"><strong>RefreshParameters</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema/element-refreshparameters"><strong>RefreshParameters</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>

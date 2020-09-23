@@ -92,15 +92,15 @@ Contains any errors from processing the [**CarrierNetworkMetadata**](../carrierc
 <tbody>
 <tr class="odd">
 <td><a href="element-customersupportphonenumber.md">CustomerSupportPhoneNumber</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394004"><strong>CustomerSupportPhoneNumber</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema-v2/element-customersupportphonenumber"><strong>CustomerSupportPhoneNumber</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-dataclassfriendlynames.md">DataClassFriendlyNames</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394005"><strong>DataClassFriendlyNames</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema-v2/element-dataclassfriendlynames"><strong>DataClassFriendlyNames</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-networksettings.md">NetworkSettings</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394020"><strong>NetworkSettings</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema-v2/element-networksettings"><strong>NetworkSettings</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>
@@ -123,7 +123,7 @@ Contains any errors from processing the [**CarrierNetworkMetadata**](../carrierc
 <tbody>
 <tr class="odd">
 <td><a href="element-carrierprovisioningresult.md">CarrierProvisioningResult</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868289"><strong>CarrierProvisioning</strong></a>  element from the last provisioning attempt. <a href="https://msdn.microsoft.com/library/windows/apps/hh868380"><strong>CarrierProvisioningResult</strong></a> is the unique root element for the provisioning results.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema/element-carrierprovisioning"><strong>CarrierProvisioning</strong></a>  element from the last provisioning attempt. <a href="/uwp/schemas/mobilebroadbandschema/resultsschema/element-carrierprovisioningresult"><strong>CarrierProvisioningResult</strong></a> is the unique root element for the provisioning results.</p></td>
 </tr>
 </tbody>
 </table>

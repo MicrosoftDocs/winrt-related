@@ -105,27 +105,27 @@ Defines plan information that specifies the subscriber's Mobile Network Operator
 <tbody>
 <tr class="odd">
 <td><a href="element-billingcycle.md">BillingCycle</a> </td>
-<td><p>Defines the plan's starting date and time, its duration, and what happens at the end of the billing cycle. UWP apps can retrieve this information using the <a href="https://msdn.microsoft.com/library/windows/apps/br207256"><strong>DataPlanStatus</strong></a>  class.</p></td>
+<td><p>Defines the plan's starting date and time, its duration, and what happens at the end of the billing cycle. UWP apps can retrieve this information using the <a href="/uwp/api/Windows.Networking.Connectivity.DataPlanStatus"><strong>DataPlanStatus</strong></a>  class.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-datalimitinmegabytes.md">DataLimitInMegabytes</a> </td>
-<td><p>Defines a value representing the data limit in MB for a capped plan. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the <a href="https://msdn.microsoft.com/library/windows/apps/br207256"><strong>DataPlanStatus</strong></a>  class.</p></td>
+<td><p>Defines a value representing the data limit in MB for a capped plan. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the <a href="/uwp/api/Windows.Networking.Connectivity.DataPlanStatus"><strong>DataPlanStatus</strong></a>  class.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-datausageinmobileoperatornotificationenabled.md">DataUsageInMobileOperatorNotificationEnabled</a> </td>
-<td><p>Indicates whether the <a href="https://msdn.microsoft.com/library/windows/apps/br224831"><strong>NetworkOperatorNotificationTrigger</strong></a>  should include data usage notifications. If <strong>true</strong>, Windows raises this trigger when the data usage threshold is met.</p></td>
+<td><p>Indicates whether the <a href="/uwp/api/Windows.ApplicationModel.Background.NetworkOperatorNotificationTrigger"><strong>NetworkOperatorNotificationTrigger</strong></a>  should include data usage notifications. If <strong>true</strong>, Windows raises this trigger when the data usage threshold is met.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-inboundbandwidthinkbps.md">InboundBandwidthInKbps</a> </td>
-<td><p>Defines a value representing the effective link speed of the subscriber’s inbound connection specified in Kbps. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the <a href="https://msdn.microsoft.com/library/windows/apps/br207256"><strong>DataPlanStatus</strong></a>  class.</p></td>
+<td><p>Defines a value representing the effective link speed of the subscriber’s inbound connection specified in Kbps. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the <a href="/uwp/api/Windows.Networking.Connectivity.DataPlanStatus"><strong>DataPlanStatus</strong></a>  class.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-maxtransfersizeinmegabytes.md">MaxTransferSizeInMegabytes</a> </td>
-<td><p>Defines the size of an individual download in MB which a compliant application should permit over a metered connection without explicit user approval of the connection being used. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the <a href="https://msdn.microsoft.com/library/windows/apps/br207256"><strong>DataPlanStatus</strong></a>  class.</p></td>
+<td><p>Defines the size of an individual download in MB which a compliant application should permit over a metered connection without explicit user approval of the connection being used. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the <a href="/uwp/api/Windows.Networking.Connectivity.DataPlanStatus"><strong>DataPlanStatus</strong></a>  class.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-outboundbandwidthinkbps.md">OutboundBandwidthInKbps</a> </td>
-<td><p>Defines a value representing the effective link speed of the subscriber’s outbound connection specified in Kbps. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the <a href="https://msdn.microsoft.com/library/windows/apps/br207256"><strong>DataPlanStatus</strong></a>  class.</p></td>
+<td><p>Defines a value representing the effective link speed of the subscriber’s outbound connection specified in Kbps. Must be a value from 0 to 2<sup>32nd</sup>. UWP apps can retrieve this information using the <a href="/uwp/api/Windows.Networking.Connectivity.DataPlanStatus"><strong>DataPlanStatus</strong></a>  class.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-plan.md">SecurityUpdatesExempt</a> </td>
@@ -172,6 +172,3 @@ Defines plan information that specifies the subscriber's Mobile Network Operator
  
 
  
-
-
-

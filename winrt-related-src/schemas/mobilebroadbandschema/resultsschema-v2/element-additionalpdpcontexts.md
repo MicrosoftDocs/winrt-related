@@ -86,11 +86,11 @@ Contains any errors from processing the [**AdditionalPDPContexts**](../carrierco
 <tbody>
 <tr class="odd">
 <td><a href="element-multiplepdpcontextpolicies.md">MultiplePDPContextPolicies</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394018"><strong>MultiplePDPContextPolicies</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema-v2/element-multiplepdpcontextpolicies"><strong>MultiplePDPContextPolicies</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-tetheringsettings.md">TetheringSettings</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394030"><strong>TetheringSettings</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema-v2/element-tetheringsettings"><strong>TetheringSettings</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>
@@ -113,7 +113,7 @@ Contains any errors from processing the [**AdditionalPDPContexts**](../carrierco
 <tbody>
 <tr class="odd">
 <td><a href="element-carrierprovisioningresult.md">CarrierProvisioningResult</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868289"><strong>CarrierProvisioning</strong></a>  element from the last provisioning attempt. <a href="https://msdn.microsoft.com/library/windows/apps/hh868380"><strong>CarrierProvisioningResult</strong></a> is the unique root element for the provisioning results.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema/element-carrierprovisioning"><strong>CarrierProvisioning</strong></a>  element from the last provisioning attempt. <a href="/uwp/schemas/mobilebroadbandschema/resultsschema/element-carrierprovisioningresult"><strong>CarrierProvisioningResult</strong></a> is the unique root element for the provisioning results.</p></td>
 </tr>
 </tbody>
 </table>

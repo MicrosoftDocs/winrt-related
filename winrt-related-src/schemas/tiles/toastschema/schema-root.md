@@ -66,7 +66,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </tr>
 <tr class="even">
 <td><a href="element-visual.md">visual</a> </td>
-<td><p>Contains a single <a href="https://msdn.microsoft.com/library/windows/apps/br212854"><strong>binding</strong></a>  element that defines a toast.</p></td>
+<td><p>Contains a single <a href="/uwp/schemas/tiles/tilesschema/element-binding"><strong>binding</strong></a>  element that defines a toast.</p></td>
 </tr>
 </tbody>
 </table>

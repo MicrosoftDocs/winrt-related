@@ -25,7 +25,7 @@ inline ::IUnknown* get_unknown(winrt::Windows::Foundation::IUnknown const& objec
 
 ### Parameters
 `object`
-An object of a projected type to operate on (or any [winrt::Windows::Foundation::IUnknown](/uwp/cpp-ref-for-winrt/windows-foundation-iunknown#get_unknown-function) value).
+An object of a projected type to operate on (or any [winrt::Windows::Foundation::IUnknown](./windows-foundation-iunknown.md) value).
 
 ### Return value 
 The address of the underlying raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) as a pointer to **IUnknown**.

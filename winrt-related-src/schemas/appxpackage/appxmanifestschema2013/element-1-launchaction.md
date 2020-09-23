@@ -139,7 +139,7 @@ The following elements have the same name as this one, but different content or 
 
 ## Remarks
 
-For more info about launch actions that an appointments provider takes, see [**AppointmentsProviderLaunchActionVerbs**](https://msdn.microsoft.com/library/windows/apps/dn297211).
+For more info about launch actions that an appointments provider takes, see [**AppointmentsProviderLaunchActionVerbs**](/uwp/api/Windows.ApplicationModel.Appointments.AppointmentsProvider.AppointmentsProviderLaunchActionVerbs).
 
 The **LaunchAction (in AppointmentsProviderLaunchActions)** definition has these statements:
 

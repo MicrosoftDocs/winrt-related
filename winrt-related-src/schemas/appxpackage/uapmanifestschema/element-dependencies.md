@@ -66,7 +66,7 @@ None.
 </tr>
 <tr class="even">
 <td><a href="element-targetdevicefamily.md">TargetDeviceFamily</a> </td>
-<td><p>Identifies the device family that your package targets. For more info about device families, see <a href="https://msdn.microsoft.com/library/windows/apps/dn894631">Guide to UWP apps</a> .</p></td>
+<td><p>Identifies the device family that your package targets. For more info about device families, see <a href="/windows/uwp/get-started/universal-application-platform-guide">Guide to UWP apps</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-uap3-mainpackagedependency-manual.md">uap3:MainPackageDependency</a> </td>
@@ -141,6 +141,3 @@ Dependencies must be explicitly defined. If a dependency cannot be resolved, dep
  
 
  
-
-
-

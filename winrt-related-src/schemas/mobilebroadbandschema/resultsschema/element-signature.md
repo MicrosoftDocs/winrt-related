@@ -86,11 +86,11 @@ Contains any errors from processing the [**Signature**](../carriercontrolsignatu
 <tbody>
 <tr class="odd">
 <td><a href="element-subject.md">Subject</a> </td>
-<td><p>Contains the X.509 certificate subject field of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868330"><strong>Signature</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains the X.509 certificate subject field of the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-signature"><strong>Signature</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-thumbprint.md">Thumbprint</a> </td>
-<td><p>Contains the <a href="https://msdn.microsoft.com/library/windows/apps/hh868332"><strong>SignatureValue</strong></a>  element of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868330"><strong>Signature</strong></a> from the last provisioning attempt.</p></td>
+<td><p>Contains the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-signaturevalue"><strong>SignatureValue</strong></a>  element of the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-signature"><strong>Signature</strong></a> from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>
@@ -113,7 +113,7 @@ Contains any errors from processing the [**Signature**](../carriercontrolsignatu
 <tbody>
 <tr class="odd">
 <td><a href="element-carrierprovisioningresult.md">CarrierProvisioningResult</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868289"><strong>CarrierProvisioning</strong></a>  element from the last provisioning attempt. <a href="element-carrierprovisioningresult.md"><strong>CarrierProvisioningResult</strong></a> is the unique root element for the provisioning results.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema/element-carrierprovisioning"><strong>CarrierProvisioning</strong></a>  element from the last provisioning attempt. <a href="element-carrierprovisioningresult.md"><strong>CarrierProvisioningResult</strong></a> is the unique root element for the provisioning results.</p></td>
 </tr>
 </tbody>
 </table>

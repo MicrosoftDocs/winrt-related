@@ -98,7 +98,7 @@ None.
 <tbody>
 <tr class="odd">
 <td><a href="element-plans.md">Plans</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868299"><strong>Plans</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema/element-plans"><strong>Plans</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>

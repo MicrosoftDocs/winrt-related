@@ -61,7 +61,7 @@ None.
 <tbody>
 <tr class="odd">
 <td><a href="element-plan.md">Plan</a> </td>
-<td><p>Defines an instance of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868373"><strong>Plan</strong></a>  element from the <a href="https://msdn.microsoft.com/library/windows/apps/hh868378"><strong>Plans</strong></a> schema.</p></td>
+<td><p>Defines an instance of the <a href="/uwp/schemas/mobilebroadbandschema/plans/element-plan"><strong>Plan</strong></a>  element from the <a href="/uwp/schemas/mobilebroadbandschema/plans/schema-root"><strong>Plans</strong></a> schema.</p></td>
 </tr>
 </tbody>
 </table>
@@ -100,6 +100,3 @@ None.
  
 
  
-
-
-

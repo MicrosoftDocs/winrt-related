@@ -90,7 +90,7 @@ Contains any errors from processing the [**WLANProfile**](../wlan/element-wlanpr
 <tbody>
 <tr class="odd">
 <td><a href="element-wlanprofile.md">WLANProfile</a> </td>
-<td><p>Contains any errors from processing a <a href="https://msdn.microsoft.com/library/windows/apps/hh868422"><strong>WLANProfile</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing a <a href="/uwp/schemas/mobilebroadbandschema/wlan/element-wlanprofile"><strong>WLANProfile</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>
@@ -113,7 +113,7 @@ Contains any errors from processing the [**WLANProfile**](../wlan/element-wlanpr
 <tbody>
 <tr class="odd">
 <td><a href="element-carrierprovisioningresult.md">CarrierProvisioningResult</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868289"><strong>CarrierProvisioning</strong></a>  element from the last provisioning attempt. <a href="element-carrierprovisioningresult.md"><strong>CarrierProvisioningResult</strong></a> is the unique root element for the provisioning results.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema/element-carrierprovisioning"><strong>CarrierProvisioning</strong></a>  element from the last provisioning attempt. <a href="element-carrierprovisioningresult.md"><strong>CarrierProvisioningResult</strong></a> is the unique root element for the provisioning results.</p></td>
 </tr>
 </tbody>
 </table>

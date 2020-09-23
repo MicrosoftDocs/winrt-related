@@ -36,7 +36,7 @@ namespace PhotoEditor
 Note that the syntax of MIDL 3.0 is specifically and solely designed for *defining* types. You'll use a different programming language to *implement* those types. To use MIDL 3.0, you'll need Windows SDK version 10.0.17134.0 (Windows 10, version 1803) (`midl.exe` version 8.01.0622 or later, used with the `/winrt` switch).
 
 > [!NOTE]
-> Also see the Windows Runtime consolidated reference ([The Windows Runtime type system](/uwp/winrt-cref/winrt-type-system), and [Windows Metadata files](/uwp/winrt-cref/winmd-files)).
+> Also see the Windows Runtime consolidated reference ([The Windows Runtime type system](../winrt-cref/winrt-type-system.md), and [Windows Metadata files](../winrt-cref/winmd-files.md)).
 
 ## MIDL 1.0, 2.0, and 3.0
 Interface Definition Language (IDL) began with the Distributed Computing Environment/Remote Procedure Calls (DCE/RPC) system. The original [MIDL 1.0](/windows/win32/midl/midl-start-page) is DCE/RPC IDL with enhancements for defining COM interfaces and coclasses.

@@ -87,7 +87,7 @@ Declares a language for the resource contained in the package. The scale and Dir
 </tr>
 <tr class="odd">
 <td><strong>m:Scale</strong></td>
-<td><p>The <a href="https://msdn.microsoft.com/library/windows/apps/br226165"><strong>resolution scale</strong></a>  of the resource.</p></td>
+<td><p>The <a href="/uwp/api/Windows.Graphics.Display.ResolutionScale"><strong>resolution scale</strong></a>  of the resource.</p></td>
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li>100</li>

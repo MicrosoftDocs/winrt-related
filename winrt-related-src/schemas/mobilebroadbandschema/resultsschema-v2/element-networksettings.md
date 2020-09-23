@@ -89,7 +89,7 @@ None.
 <tbody>
 <tr class="odd">
 <td><a href="element-carriernetworkmetadata.md">CarrierNetworkMetadata</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn393998"><strong>CarrierNetworkMetadata</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema-v2/element-carriernetworkmetadata"><strong>CarrierNetworkMetadata</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>

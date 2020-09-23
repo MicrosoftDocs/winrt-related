@@ -36,95 +36,95 @@ The following table lists all of the elements in this schema, sorted alphabetica
 <tbody>
 <tr class="odd">
 <td><a href="element-activation.md">Activation</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868285"><strong>Activation</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema/element-activation"><strong>Activation</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-additionalpdpcontexts.md">AdditionalPDPContexts</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn393994"><strong>AdditionalPDPContexts</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema-v2/element-additionalpdpcontexts"><strong>AdditionalPDPContexts</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-carriernetworkmetadata.md">CarrierNetworkMetadata</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn393998"><strong>CarrierNetworkMetadata</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema-v2/element-carriernetworkmetadata"><strong>CarrierNetworkMetadata</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-carrierprovisioningresult.md">CarrierProvisioningResult</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868289"><strong>CarrierProvisioning</strong></a>  element from the last provisioning attempt. <a href="https://msdn.microsoft.com/library/windows/apps/hh868380"><strong>CarrierProvisioningResult</strong></a> is the unique root element for the provisioning results.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema/element-carrierprovisioning"><strong>CarrierProvisioning</strong></a>  element from the last provisioning attempt. <a href="/uwp/schemas/mobilebroadbandschema/resultsschema/element-carrierprovisioningresult"><strong>CarrierProvisioningResult</strong></a> is the unique root element for the provisioning results.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-customersupportphonenumber.md">CustomerSupportPhoneNumber</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394004"><strong>CustomerSupportPhoneNumber</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema-v2/element-customersupportphonenumber"><strong>CustomerSupportPhoneNumber</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-dataclassfriendlynames.md">DataClassFriendlyNames</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394005"><strong>DataClassFriendlyNames</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema-v2/element-dataclassfriendlynames"><strong>DataClassFriendlyNames</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-defaultprofile.md">DefaultProfile</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868453"><strong>DefaultProfile</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/wwan/element-defaultprofile"><strong>DefaultProfile</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-issuer.md">Issuer</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868288"><strong>CarrierId</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema/element-carrierid"><strong>CarrierId</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-mbnprofiles.md">MBNProfiles</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868295"><strong>MBNProfiles</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema/element-mbnprofiles"><strong>MBNProfiles</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-multiplepdpcontextpolicies.md">MultiplePDPContextPolicies</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394018"><strong>MultiplePDPContextPolicies</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema-v2/element-multiplepdpcontextpolicies"><strong>MultiplePDPContextPolicies</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-networksettings.md">NetworkSettings</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394020"><strong>NetworkSettings</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema-v2/element-networksettings"><strong>NetworkSettings</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-pdpcontextpolicy.md">PDPContextPolicy</a> </td>
-<td><p>Contains any errors from processing a <a href="https://msdn.microsoft.com/library/windows/apps/dn394028"><strong>PDPContextPolicy</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing a <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema-v2/element-pdpcontextpolicy"><strong>PDPContextPolicy</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-plan.md">Plan</a> </td>
-<td><p>Contains any errors from processing a <a href="https://msdn.microsoft.com/library/windows/apps/hh868298"><strong>Plan</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing a <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema/element-plan"><strong>Plan</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-plans.md">Plans</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868299"><strong>Plans</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema/element-plans"><strong>Plans</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-provisioning.md">Provisioning</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868300"><strong>Provisioning</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema/element-provisioning"><strong>Provisioning</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-purchaseprofile.md">PurchaseProfile</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868470"><strong>PurchaseProfile</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/wwan/element-purchaseprofile"><strong>PurchaseProfile</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-refreshparameters.md">RefreshParameters</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868302"><strong>RefreshParameters</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema/element-refreshparameters"><strong>RefreshParameters</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-subscriber.md">Subscriber</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868305"><strong>SubscriberId</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema/element-subscriberid"><strong>SubscriberId</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-tetheringprofile.md">TetheringProfile</a> </td>
-<td><p>Contains any errors from processing a <a href="https://msdn.microsoft.com/library/windows/apps/dn394029"><strong>TetheringProfile</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing a <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema-v2/element-tetheringprofile"><strong>TetheringProfile</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-tetheringsettings.md">TetheringSettings</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394030"><strong>TetheringSettings</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema-v2/element-tetheringsettings"><strong>TetheringSettings</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-trustedcertificate.md">TrustedCertificate</a> </td>
-<td><p>Contains errors from processing any of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868306"><strong>TrustedCertificate</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains errors from processing any of the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema/element-trustedcertificate"><strong>TrustedCertificate</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-wlanprofile.md">WLANProfile</a> </td>
-<td><p>Contains any errors from processing a <a href="https://msdn.microsoft.com/library/windows/apps/hh868422"><strong>WLANProfile</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing a <a href="/uwp/schemas/mobilebroadbandschema/wlan/element-wlanprofile"><strong>WLANProfile</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-wlanprofiles.md">WLANProfiles</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868422"><strong>WLANProfile</strong></a>  elements from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/wlan/element-wlanprofile"><strong>WLANProfile</strong></a>  elements from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>

@@ -49,7 +49,7 @@ Registers a COM server (with one or more class registrations) hosted in a Window
     ServiceName = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
     Arguments? = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
     DisplayName? = A string between 1 and 256 characters in length. This string is localizable.
-    LaunchAndActivationPermission? = [SDDL string](https://aka.ms/sddl-string-format). >
+    LaunchAndActivationPermission? = [SDDL string](/windows/win32/secauthz/security-descriptor-string-format). >
 
   <!-- Child elements -->
   com3:Class{1,10000}
@@ -67,7 +67,7 @@ Registers a COM server (with one or more class registrations) hosted in a Window
 | ServiceName | The name of the Windows service that hosts the COM server. This service name must match the name of a corresponding [desktop6:Service](element-desktop6-service.md) element in the same application-level [Extensions](element-1-extensions.md) element in the package manifest.   | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.  | Yes |
 | Arguments | The command-line parameters of the service. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
 | DisplayName | A localizable string corresponding to the default AppID key value. | A string between 1 and 256 characters in length. | No |
-| LaunchAndActivationPermission | An [SDDL string](https://aka.ms/sddl-string-format) that corresponds to the LaunchPermission value of the AppID key. | [SDDL string](https://aka.ms/sddl-string-format). | No |
+| LaunchAndActivationPermission | An [SDDL string](/windows/win32/secauthz/security-descriptor-string-format) that corresponds to the LaunchPermission value of the AppID key. | [SDDL string](/windows/win32/secauthz/security-descriptor-string-format). | No |
 
 ## Child Elements
 

@@ -81,7 +81,7 @@ Defines a globally unique identifier for a package. A package identity is repres
 </tr>
 <tr class="odd">
 <td><strong>Publisher</strong></td>
-<td><p>Describes the publisher information. The <strong>Publisher</strong> attribute must match the publisher subject information of the certificate used to sign a package. For more information see <a href="https://docs.microsoft.com/windows/uwp/packaging/index">Packaging apps</a> </p></td>
+<td><p>Describes the publisher information. The <strong>Publisher</strong> attribute must match the publisher subject information of the certificate used to sign a package. For more information see <a href="/windows/uwp/packaging/index">Packaging apps</a> </p></td>
 <td>A string between 1 and 8192 characters in length that fits the regular expression of a distinguished name : &quot;(CN|L|O|OU|E|C|S|STREET|T|G|I|SN|DC|SERIALNUMBER|(OID\.(0|[1-9][0-9]*)(\.(0|[1-9][0-9]*))+))=(([^,+=&quot;&lt;&gt;#;])+|&quot;.*&quot;)(, ((CN|L|O|OU|E|C|S|STREET|T|G|I|SN|DC|SERIALNUMBER|(OID\.(0|[1-9][0-9]*)(\.(0|[1-9][0-9]*))+))=(([^,+=&quot;&lt;&gt;#;])+|&quot;.*&quot;)))*&quot;. Further, semantic validation ensures that the string is compliant with CertNameToStr Windows API implementation of X.500 rules.</td>
 <td>Yes</td>
 </tr>
@@ -163,7 +163,7 @@ When an app is based on different resource packages, the **ResourceId** attribut
 The **Publisher** attribute is validated against the subject name of the signing certificate when signed packages are opened. If the **Publisher** attribute doesn't exactly match the subject name, the package is invalid. You can construct multiple semantically-equivalent string representations from the subject name that is stored in the certificate. Use these canonicalization rules to match the **Publisher** attribute value to that subject name:
 
 -   Unicode values can be UTF-8 encoded.
--   If the name contains the legacy e-mail component, the [Internationalized Domain Name (IDN)](https://msdn.microsoft.com/library/windows/desktop/dd318142) is represented in Unicode form.
+-   If the name contains the legacy e-mail component, the [Internationalized Domain Name (IDN)](/windows/win32/intl/handling-internationalized-domain-names--idns) is represented in Unicode form.
 -   Object identifiers (OIDs) with X.500 key names must use the X.500 key name (for example, CN, not 2.5.4.3).
 -   OIDs without X.500 key names are identified with the "OID." prefix (for example, OID.2.5.4.34).
 -   OID key names are separated from their values by an equal sign without extra spaces (for example, CN=JohnSmith).
@@ -183,7 +183,7 @@ The **Publisher** attribute is validated against the subject name of the signing
 -   The quotation character is an inch mark ("). If the RDN value contains an inch mark, the inch mark must have double quotes ("") in addition to being enclosed in quotes (for example, CN="William ""Bill"" Smith").
 -   Multivalued RDN are not allowed (for example, CN=JohnSmith + O=Contoso).
 
-These rules follow the behavior of the [**CertNameToStr**](https://msdn.microsoft.com/library/windows/desktop/aa376556) function, which can be used to determine the expected **Publisher** attribute value from a certificate.
+These rules follow the behavior of the [**CertNameToStr**](/windows/win32/api/wincrypt/nf-wincrypt-certnametostra) function, which can be used to determine the expected **Publisher** attribute value from a certificate.
 
 ## Examples
 
@@ -204,6 +204,3 @@ The following example is taken from the package manifest of one of the SDK sampl
  
 
  
-
-
-

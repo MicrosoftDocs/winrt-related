@@ -60,7 +60,7 @@ Contains any errors from processing a [**WLANProfile**](../wlan/element-wlanprof
 <tbody>
 <tr class="odd">
 <td><strong>Name</strong></td>
-<td><p>Defines the case sensitive <a href="https://msdn.microsoft.com/library/windows/apps/hh868409"><strong>name</strong></a>  of the wireless LAN profile.</p></td>
+<td><p>Defines the case sensitive <a href="/uwp/schemas/mobilebroadbandschema/wlan/element-name"><strong>name</strong></a>  of the wireless LAN profile.</p></td>
 <td>string</td>
 <td>Yes</td>
 <td></td>
@@ -97,7 +97,7 @@ None.
 <tbody>
 <tr class="odd">
 <td><a href="element-wlanprofiles.md">WLANProfiles</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868422"><strong>WLANProfile</strong></a>  elements from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/wlan/element-wlanprofile"><strong>WLANProfile</strong></a>  elements from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>

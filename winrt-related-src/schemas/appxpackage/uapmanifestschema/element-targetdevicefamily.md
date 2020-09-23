@@ -10,7 +10,7 @@ ms.date: 04/05/2017
 
 # TargetDeviceFamily (Windows 10)
 
-Identifies the device family that your package targets. For more info about device families, see [Programming with extension SDKs](/uwp/extension-sdks/device-families-overview).
+Identifies the device family that your package targets. For more info about device families, see [Programming with extension SDKs](../../../extension-sdks/device-families-overview.md).
 
 ## Element hierarchy
 

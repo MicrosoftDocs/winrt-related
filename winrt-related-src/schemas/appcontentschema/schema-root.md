@@ -148,19 +148,19 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </tr>
 <tr class="even">
 <td><a href="element-comment.md">Comment</a> </td>
-<td><p>Contains a <a href="https://msdn.microsoft.com/library/windows/desktop/bb760658">System.Comment</a>  that describes the item.</p></td>
+<td><p>Contains a <a href="/windows/win32/properties/props-system-comment">System.Comment</a>  that describes the item.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-keyword.md">Keyword</a> </td>
-<td><p>A one of the <a href="https://msdn.microsoft.com/library/windows/desktop/bb787519">System.Keywords</a>  that describes the item.</p></td>
+<td><p>A one of the <a href="/windows/win32/properties/props-system-keywords">System.Keywords</a>  that describes the item.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-keywords.md">Keywords</a> </td>
-<td><p>Contains the <a href="https://msdn.microsoft.com/library/windows/desktop/bb787519">System.Keywords</a>  that describe the item.</p></td>
+<td><p>Contains the <a href="/windows/win32/properties/props-system-keywords">System.Keywords</a>  that describe the item.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-name.md">Name</a> </td>
-<td><p>Specifies the <a href="https://msdn.microsoft.com/library/windows/desktop/bb760768">System.ItemName</a> \<a href="/windows/win32/properties/props-system-itemnamedisplay">System.ItemNameDisplay</a> of the item.</p></td>
+<td><p>Specifies the <a href="/windows/win32/properties/props-system-itemname">System.ItemName</a> \<a href="/windows/win32/properties/props-system-itemnamedisplay">System.ItemNameDisplay</a> of the item.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-properties.md">Properties</a> </td>

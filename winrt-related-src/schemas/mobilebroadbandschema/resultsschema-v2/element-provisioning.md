@@ -90,11 +90,11 @@ Contains any errors from processing the [**Provisioning**](../carriercontrolsche
 <tbody>
 <tr class="odd">
 <td><a href="element-refreshparameters.md">RefreshParameters</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868302"><strong>RefreshParameters</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema/element-refreshparameters"><strong>RefreshParameters</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-trustedcertificate.md">TrustedCertificate</a> </td>
-<td><p>Contains errors from processing any of the <a href="https://msdn.microsoft.com/library/windows/apps/hh868306"><strong>TrustedCertificate</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains errors from processing any of the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema/element-trustedcertificate"><strong>TrustedCertificate</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>
@@ -117,7 +117,7 @@ Contains any errors from processing the [**Provisioning**](../carriercontrolsche
 <tbody>
 <tr class="odd">
 <td><a href="element-carrierprovisioningresult.md">CarrierProvisioningResult</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868289"><strong>CarrierProvisioning</strong></a>  element from the last provisioning attempt. <a href="https://msdn.microsoft.com/library/windows/apps/hh868380"><strong>CarrierProvisioningResult</strong></a> is the unique root element for the provisioning results.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema/element-carrierprovisioning"><strong>CarrierProvisioning</strong></a>  element from the last provisioning attempt. <a href="/uwp/schemas/mobilebroadbandschema/resultsschema/element-carrierprovisioningresult"><strong>CarrierProvisioningResult</strong></a> is the unique root element for the provisioning results.</p></td>
 </tr>
 </tbody>
 </table>

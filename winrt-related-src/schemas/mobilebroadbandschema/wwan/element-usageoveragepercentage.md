@@ -64,7 +64,7 @@ Defines the percentage over the data limit a subscriber has consumed.
 <tbody>
 <tr class="odd">
 <td><strong>Group</strong></td>
-<td><p>Defines the group that contains the data limit. This must be a number formatted per the specified <a href="https://msdn.microsoft.com/library/windows/apps/hh868459"><strong>Locale</strong></a> .</p></td>
+<td><p>Defines the group that contains the data limit. This must be a number formatted per the specified <a href="/uwp/schemas/mobilebroadbandschema/wwan/element-locale"><strong>Locale</strong></a> .</p></td>
 <td>positiveInteger</td>
 <td>Yes</td>
 <td></td>
@@ -114,6 +114,3 @@ If the **UsageOveragePercentage** element is included in the schema, then the **
  
 
  
-
-
-

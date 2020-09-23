@@ -52,7 +52,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 </tr>
 <tr class="even">
 <td><a href="element-tile.md">tile</a> </td>
-<td><p>Base tile element, which contains a single <a href="https://msdn.microsoft.com/library/windows/apps/br230847"><strong>visual</strong></a>  element.</p></td>
+<td><p>Base tile element, which contains a single <a href="/uwp/schemas/tiles/toastschema/element-visual"><strong>visual</strong></a>  element.</p></td>
 </tr>
 <tr class="odd">
 <td><a href="element-visual.md">visual</a> </td>

@@ -99,14 +99,14 @@ Defines a value representing the data limit in MB for a capped plan. Must be a v
 </tr>
 <tr class="even">
 <td><strong>Group</strong></td>
-<td><p>Defines the group that contains the data limit. This must be a number formatted per the specified <a href="https://msdn.microsoft.com/library/windows/apps/hh868459"><strong>Locale</strong></a> .</p></td>
+<td><p>Defines the group that contains the data limit. This must be a number formatted per the specified <a href="/uwp/schemas/mobilebroadbandschema/wwan/element-locale"><strong>Locale</strong></a> .</p></td>
 <td>positiveInteger</td>
 <td>Yes</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><strong>UnitGroup</strong></td>
-<td><p>Defines the group that specifies units for the data limit. The contents of this group are compared to tokens in <a href="https://msdn.microsoft.com/library/windows/apps/hh868476"><strong>Units</strong></a> . If no match is found, the value of <strong>DefaultUnit</strong> will be used instead. The content of <strong>Group</strong> will be multiplied by this value before being used.</p></td>
+<td><p>Defines the group that specifies units for the data limit. The contents of this group are compared to tokens in <a href="/uwp/schemas/mobilebroadbandschema/wwan/element-units"><strong>Units</strong></a> . If no match is found, the value of <strong>DefaultUnit</strong> will be used instead. The content of <strong>Group</strong> will be multiplied by this value before being used.</p></td>
 <td>positiveInteger</td>
 <td>No</td>
 <td></td>
@@ -152,6 +152,3 @@ None.
  
 
  
-
-
-

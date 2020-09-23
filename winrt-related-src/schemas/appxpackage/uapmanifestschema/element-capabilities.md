@@ -107,7 +107,7 @@ If you don't explicitly declare the capabilities required for your app to access
 
 ## Examples
 
-Here's an example [**Capabilities**](https://msdn.microsoft.com/library/windows/apps/dn423258) node.
+Here's an example [**Capabilities**](../appxmanifestschema2010-v2/element-capabilities.md) node.
 
 ```XML
 <Capabilities>

@@ -121,7 +121,7 @@ Specifies the toast template. Note that only one binding element can be included
 </tr>
 <tr class="even">
 <td><strong>template</strong></td>
-<td><p>One of the provided templates on which to base the toast. Values are given in the <a href="https://msdn.microsoft.com/library/windows/apps/br208660"><strong>toastTemplateType</strong></a>  enumeration.</p></td>
+<td><p>One of the provided templates on which to base the toast. Values are given in the <a href="/uwp/api/Windows.UI.Notifications.ToastTemplateType"><strong>toastTemplateType</strong></a>  enumeration.</p></td>
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li>ToastImageAndText01</li>
@@ -184,7 +184,7 @@ Specifies the toast template. Note that only one binding element can be included
 <tbody>
 <tr class="odd">
 <td><a href="element-visual.md">visual</a> </td>
-<td><p>Contains a single <a href="https://msdn.microsoft.com/library/windows/apps/br212854"><strong>binding</strong></a>  element that defines a toast.</p></td>
+<td><p>Contains a single <a href="/uwp/schemas/tiles/tilesschema/element-binding"><strong>binding</strong></a>  element that defines a toast.</p></td>
 </tr>
 </tbody>
 </table>

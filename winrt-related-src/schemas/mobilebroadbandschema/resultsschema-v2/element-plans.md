@@ -91,7 +91,7 @@ Contains any errors from processing the [**Plans**](../carriercontrolschema/elem
 <tbody>
 <tr class="odd">
 <td><a href="element-plan.md">Plan</a> </td>
-<td><p>Contains any errors from processing a <a href="https://msdn.microsoft.com/library/windows/apps/hh868298"><strong>Plan</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing a <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema/element-plan"><strong>Plan</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>
@@ -114,7 +114,7 @@ Contains any errors from processing the [**Plans**](../carriercontrolschema/elem
 <tbody>
 <tr class="odd">
 <td><a href="element-carrierprovisioningresult.md">CarrierProvisioningResult</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/hh868289"><strong>CarrierProvisioning</strong></a>  element from the last provisioning attempt. <a href="https://msdn.microsoft.com/library/windows/apps/hh868380"><strong>CarrierProvisioningResult</strong></a> is the unique root element for the provisioning results.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema/element-carrierprovisioning"><strong>CarrierProvisioning</strong></a>  element from the last provisioning attempt. <a href="/uwp/schemas/mobilebroadbandschema/resultsschema/element-carrierprovisioningresult"><strong>CarrierProvisioningResult</strong></a> is the unique root element for the provisioning results.</p></td>
 </tr>
 </tbody>
 </table>

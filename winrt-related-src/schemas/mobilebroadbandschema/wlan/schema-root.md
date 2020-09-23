@@ -39,7 +39,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 <tbody>
 <tr class="odd">
 <td><a href="element-associatedplan.md">AssociatedPlan</a> </td>
-<td><p>Contains the name of the subscriber's data plan. It must match the <strong>Name</strong> attribute of a <a href="https://msdn.microsoft.com/library/windows/apps/hh868373"><strong>Plan</strong></a>  in the same XML document.</p></td>
+<td><p>Contains the name of the subscriber's data plan. It must match the <strong>Name</strong> attribute of a <a href="/uwp/schemas/mobilebroadbandschema/plans/element-plan"><strong>Plan</strong></a>  in the same XML document.</p></td>
 </tr>
 <tr class="even">
 <td><a href="element-msm.md">MSM</a> </td>

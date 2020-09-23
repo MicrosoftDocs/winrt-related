@@ -94,7 +94,7 @@ Defines a set of plan information that specifies the data usage options and stat
 </tr>
 <tr class="even">
 <td><a href="element-usage.md">Usage</a> </td>
-<td><p>Defines the state of a subscriber's data usage on a connection to a Mobile Network Operator (MNO). UWP apps can retrieve this information using the <a href="https://msdn.microsoft.com/library/windows/apps/br207256"><strong>DataPlanStatus</strong></a>  class.</p></td>
+<td><p>Defines the state of a subscriber's data usage on a connection to a Mobile Network Operator (MNO). UWP apps can retrieve this information using the <a href="/uwp/api/Windows.Networking.Connectivity.DataPlanStatus"><strong>DataPlanStatus</strong></a>  class.</p></td>
 </tr>
 </tbody>
 </table>
@@ -114,6 +114,3 @@ This outermost (document) element may not be contained by any other elements.
  
 
  
-
-
-

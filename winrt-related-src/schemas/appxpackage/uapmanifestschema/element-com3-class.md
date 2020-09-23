@@ -84,7 +84,7 @@ Defines a class registration in a COM server hosted in a Windows service that is
 |-----------|-------------|-----------|----------|
 | Id        | The Id attribute corresponds to the CLSID (HKCR\CLSID\{MyGuid}). | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |
 | DisplayName | A localizable string corresponding to the default value of the CLSID's key. | A string between 1 and 256 characters in length. | No |
-| EnableOleDefaultHandler | This should be set to true if the default value of the [InprocHandler32](https://msdn.microsoft.com/library/windows/desktop/ms693485.aspx) key is "Ole32.dll". Otherwise it should be omitted. The default value is false. | Boolean. | No |
+| EnableOleDefaultHandler | This should be set to true if the default value of the [InprocHandler32](/windows/win32/com/inprochandler32) key is "Ole32.dll". Otherwise it should be omitted. The default value is false. | Boolean. | No |
 | ProgId | Associates a programmatic identifier (ProgID) with a CLSID. | An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1 | No |
 | VersionIndependentProgId | Associates a ProgID with a CLSID. This value is used to determine the latest version of an object application. | An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1 | No |
 | AutoConvertTo | Specifies the automatic conversion of a given class of objects to a new class of objects. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |

@@ -133,7 +133,7 @@ Identifies a Windows Management Instrumentation (WMI) provider to install, updat
 </tr>
 <tr class="odd">
 <td><strong>HostingSpecification</strong></td>
-<td>The first component of the <strong>HostingModel</strong> property of the <a href="https://msdn.microsoft.com/library/aa394688"><strong>__Win32Provider</strong></a>  class, specifies how WMI loads the provider and the security account it runs under.</td>
+<td>The first component of the <strong>HostingModel</strong> property of the <a href="/windows/win32/wmisdk/--win32provider"><strong>__Win32Provider</strong></a>  class, specifies how WMI loads the provider and the security account it runs under.</td>
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li>selfHost</li>
@@ -149,7 +149,7 @@ Identifies a Windows Management Instrumentation (WMI) provider to install, updat
 </tr>
 <tr class="even">
 <td><strong>HostingGroup</strong></td>
-<td><p>The hosting group for the provider which is the second component of the <strong>HostingModel</strong> property of the <a href="https://msdn.microsoft.com/library/aa394688"><strong>__Win32Provider</strong></a>  class, and specifies how WMI loads the provider and the security account it runs under.</p>
+<td><p>The hosting group for the provider which is the second component of the <strong>HostingModel</strong> property of the <a href="/windows/win32/wmisdk/--win32provider"><strong>__Win32Provider</strong></a>  class, and specifies how WMI loads the provider and the security account it runs under.</p>
 <p>A hosting group defines grouping of providers in a separate Wmiprvse.exe process. The manifest schema does not support the case where WMI providers from different packages that share the same shared hosting model also share the same Wmiprvse.exe process. For example, specifying a <strong>HostingSpecification</strong> of &quot;localSystemHost&quot; without any <strong>HostingGroup</strong> is not supported. So, the value of the <strong>HostingGroup</strong> attribute must be non-empty if the value of the <strong>HostingSpecification</strong> attribute is not &quot;SelfHost&quot; or &quot;Decoupled:Com&quot;.</p>
 <p>The <strong>HostingGroup</strong> must be unique within the package and across all packages in the system.</p></td>
 <td>A string between 1 and 256 characters in length with a non-whitespace character at its beginning and end.</td>
@@ -243,6 +243,3 @@ The combination the namespace and name for the WMI provider must be unique in th
  
 
  
-
-
-

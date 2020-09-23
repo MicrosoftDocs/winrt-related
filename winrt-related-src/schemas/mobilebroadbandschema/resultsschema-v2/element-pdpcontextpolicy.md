@@ -102,7 +102,7 @@ None.
 <tbody>
 <tr class="odd">
 <td><a href="element-multiplepdpcontextpolicies.md">MultiplePDPContextPolicies</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn394018"><strong>MultiplePDPContextPolicies</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema-v2/element-multiplepdpcontextpolicies"><strong>MultiplePDPContextPolicies</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>

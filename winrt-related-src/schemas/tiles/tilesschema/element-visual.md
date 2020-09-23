@@ -163,7 +163,7 @@ Contains multiple [**binding**](element-binding.md) child elements, each of whic
 <tbody>
 <tr class="odd">
 <td><a href="element-tile.md">tile</a> </td>
-<td><p>Base tile element, which contains a single <a href="https://msdn.microsoft.com/library/windows/apps/br230847"><strong>visual</strong></a>  element.</p></td>
+<td><p>Base tile element, which contains a single <a href="/uwp/schemas/tiles/toastschema/element-visual"><strong>visual</strong></a>  element.</p></td>
 </tr>
 </tbody>
 </table>

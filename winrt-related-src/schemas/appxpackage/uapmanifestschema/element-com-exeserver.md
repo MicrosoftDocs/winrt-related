@@ -53,7 +53,7 @@ Registers an ExeServer with one or many class registrations.
     Executable = A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *.
     Arguments? = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
     DisplayName? = A string between 1 and 256 characters in length. This string is localizable.
-    LaunchAndActivationPermission? = [SDDL string](https://aka.ms/sddl-string-format). >
+    LaunchAndActivationPermission? = [SDDL string](/windows/win32/secauthz/security-descriptor-string-format). >
 
   <!-- Child elements -->
   Class{1,10000}
@@ -71,7 +71,7 @@ Registers an ExeServer with one or many class registrations.
 | Executable | A path relative to the package root and must reference a file in the package. This specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", &#124;, ?, or *. The .exe extension is case sensitive, it must be lowercase. | Yes |
 | Arguments | The arguments of the [LocalServer32](/windows/win32/com/localserver32) key. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
 | DisplayName | DisplayName is a localizable string corresponding to the default AppID key value. | A string between 1 and 256 characters in length. | No |
-| LaunchAndActivationPermission | An [SDDL string](https://aka.ms/sddl-string-format) that corresponds to the LaunchPermission value of the AppID key. | [SDDL string](https://aka.ms/sddl-string-format). | No |
+| LaunchAndActivationPermission | An [SDDL string](/windows/win32/secauthz/security-descriptor-string-format) that corresponds to the LaunchPermission value of the AppID key. | [SDDL string](/windows/win32/secauthz/security-descriptor-string-format). | No |
 
 ## Child Elements
 

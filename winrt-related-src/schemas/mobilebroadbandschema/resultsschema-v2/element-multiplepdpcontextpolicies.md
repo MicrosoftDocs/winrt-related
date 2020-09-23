@@ -66,7 +66,7 @@ None.
 <tbody>
 <tr class="odd">
 <td><a href="element-pdpcontextpolicy.md">PDPContextPolicy</a> </td>
-<td><p>Contains any errors from processing a <a href="https://msdn.microsoft.com/library/windows/apps/dn394028"><strong>PDPContextPolicy</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing a <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema-v2/element-pdpcontextpolicy"><strong>PDPContextPolicy</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>
@@ -89,7 +89,7 @@ None.
 <tbody>
 <tr class="odd">
 <td><a href="element-additionalpdpcontexts.md">AdditionalPDPContexts</a> </td>
-<td><p>Contains any errors from processing the <a href="https://msdn.microsoft.com/library/windows/apps/dn393994"><strong>AdditionalPDPContexts</strong></a>  element from the last provisioning attempt.</p></td>
+<td><p>Contains any errors from processing the <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolschema-v2/element-additionalpdpcontexts"><strong>AdditionalPDPContexts</strong></a>  element from the last provisioning attempt.</p></td>
 </tr>
 </tbody>
 </table>

@@ -1552,7 +1552,7 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [MFInitMediaTypeFromWaveFormatEx](/windows/win32/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex) | Introduced into mfplat.dll in 10.0.10240. |
 | [MFInvokeCallback](/windows/win32/api/mfapi/nf-mfapi-mfinvokecallback) | Introduced into mfplat.dll in 10.0.10240. |
 | [MFIsContentProtectionDeviceSupported](/windows/win32/api/mfidl/nf-mfidl-mfiscontentprotectiondevicesupported) | Introduced into mfplat.dll in 10.0.10240. |
-| [MFllMulDiv](https://msdn.microsoft.com/library/windows/desktop/dd388510.aspx) | Introduced into mfplat.dll in 10.0.10240. |
+| [MFllMulDiv](/windows/win32/api/mfapi/nf-mfapi-mfllmuldiv) | Introduced into mfplat.dll in 10.0.10240. |
 | [MFLockDXGIDeviceManager](/windows/win32/api/mfapi/nf-mfapi-mflockdxgidevicemanager) | Introduced into mfplat.dll in 10.0.10240. |
 | [MFLockPlatform](/windows/win32/api/mfapi/nf-mfapi-mflockplatform) | Introduced into mfplat.dll in 10.0.10240. |
 | [MFLockSharedWorkQueue](/windows/win32/api/mfapi/nf-mfapi-mflocksharedworkqueue) | Introduced into mfplat.dll in 10.0.10240. |

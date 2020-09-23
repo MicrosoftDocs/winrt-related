@@ -84,7 +84,7 @@ At build time, these values (together with the value of **TargetDeviceFamily@Nam
 </Dependencies>
 ```
 
-**MaxVersionTested** specifies the maximum version of the device family that your app is targeting that you have tested it against. And **MinVersion** specifies the minimum version of the device family that your app is targeting. For more details, see [**TargetDeviceFamily**](/uwp/schemas/appxpackage/uapmanifestschema/element-targetdevicefamily).
+**MaxVersionTested** specifies the maximum version of the device family that your app is targeting that you have tested it against. And **MinVersion** specifies the minimum version of the device family that your app is targeting. For more details, see [**TargetDeviceFamily**](../schemas/appxpackage/uapmanifestschema/element-targetdevicefamily.md).
 
 > [!IMPORTANT]
 > You should configure these version numbers by means of either your Visual Studio project's property pages, or the values of **WindowsTargetPlatformVersion** and **WindowsTargetPlatformMinVersion** in your project file. Don't edit `AppxManifest.xml`, because the build overwrites that file. And don't edit the **MinVersion** and **MaxVersionTested** attributes of the **TargetDeviceFamily** element in your app package manifest source file (the `Package.appxmanifest` file), because those values are ignored.
@@ -131,7 +131,7 @@ Next, let's look at the topic for the [**StorageFolder.TryGetItemAsync**](/uwp/a
 
 ## How to choose a device family to target
 
-Here are some considerations to help you decide which device family to target. For more details, see [**TargetDeviceFamily**](/uwp/schemas/appxpackage/uapmanifestschema/element-targetdevicefamily).
+Here are some considerations to help you decide which device family to target. For more details, see [**TargetDeviceFamily**](../schemas/appxpackage/uapmanifestschema/element-targetdevicefamily.md).
 
 ### Maximize your app's reach
 
@@ -220,8 +220,8 @@ You don't have to make a decision in advance about every device type that you'll
 
 ## See also
 
-* [Device family extension SDKs and API contracts](/uwp/extension-sdks/)
-* [TargetDeviceFamily](/uwp/schemas/appxpackage/uapmanifestschema/element-targetdevicefamily)
+* [Device family extension SDKs and API contracts](./index.md)
+* [TargetDeviceFamily](../schemas/appxpackage/uapmanifestschema/element-targetdevicefamily.md)
 * [Tutorial: Create adaptive layouts](/windows/uwp/design/basics/xaml-basics-adaptive-layout)
 * [What's a Universal Windows Platform (UWP) app](/windows/uwp/get-started/universal-application-platform-guide)
 * [Version-adaptive apps](/windows/uwp/debug-test-perf/version-adaptive-apps)

@@ -110,7 +110,7 @@ Base toast element, which contains at least a single [**visual**](element-visual
 </tr>
 <tr class="odd">
 <td><a href="element-visual.md">visual</a> </td>
-<td><p>Contains a single <a href="https://msdn.microsoft.com/library/windows/apps/br212854"><strong>binding</strong></a>  element that defines a toast.</p></td>
+<td><p>Contains a single <a href="/uwp/schemas/tiles/tilesschema/element-binding"><strong>binding</strong></a>  element that defines a toast.</p></td>
 </tr>
 </tbody>
 </table>
@@ -130,6 +130,3 @@ This outermost (document) element may not be contained by any other elements.
  
 
  
-
-
-

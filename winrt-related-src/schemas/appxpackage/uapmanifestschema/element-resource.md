@@ -73,7 +73,7 @@ See [BCP-47 language tag](https://go.microsoft.com/fwlink/p/?linkid=227302).
 </tr>
 <tr class="even">
 <td><strong>uap:DXFeatureLevel</strong></td>
-<td><p>The DirectX <a href="https://msdn.microsoft.com/library/windows/desktop/ff476876#overview">feature level</a>  of the resource from the manifest's Resources\Resource field.</p></td>
+<td><p>The DirectX <a href="/windows/win32/direct3d11/overviews-direct3d-11-devices-downlevel-intro#overview">feature level</a>  of the resource from the manifest's Resources\Resource field.</p></td>
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li>dx9</li>
@@ -85,7 +85,7 @@ See [BCP-47 language tag](https://go.microsoft.com/fwlink/p/?linkid=227302).
 </tr>
 <tr class="odd">
 <td><strong>uap:Scale</strong></td>
-<td><p>The <a href="https://msdn.microsoft.com/library/windows/apps/br226165"><strong>resolution scale</strong></a>  of the resource.</p></td>
+<td><p>The <a href="/uwp/api/Windows.Graphics.Display.ResolutionScale"><strong>resolution scale</strong></a>  of the resource.</p></td>
 <td>&quot;100&quot; | &quot;120&quot; | &quot;125&quot; | &quot;140&quot; | &quot;150&quot; | &quot;160&quot; | &quot;180&quot; | &quot;200&quot; | &quot;225&quot; | &quot;250&quot; | &quot;300&quot; | &quot;400&quot;</td>
 <td>No</td>
 <td></td>
@@ -145,4 +145,3 @@ The first entry in the list is the default language for the app, which you can s
 |   |   |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
-

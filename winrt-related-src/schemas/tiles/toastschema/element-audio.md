@@ -139,7 +139,7 @@ None.
 
 ## Remarks
 
-UWP apps that target the desktop platform support custom toast notification sounds on Windows 10, version 1511 (build 10586) and later. On earlier versions, you can choose from the list of `ms-winsoundevent` values listed for the **src** attribute in the table above. For more information about custom toast notification sounds, see [Custom audio on toasts](https://docs.microsoft.com/windows/uwp/design/shell/tiles-and-notifications/custom-audio-on-toasts).  
+UWP apps that target the desktop platform support custom toast notification sounds on Windows 10, version 1511 (build 10586) and later. On earlier versions, you can choose from the list of `ms-winsoundevent` values listed for the **src** attribute in the table above. For more information about custom toast notification sounds, see [Custom audio on toasts](/windows/uwp/design/shell/tiles-and-notifications/custom-audio-on-toasts).  
 
 If you specify a custom file path in the app payload, the default sound (notification, call, alarm, or reminder) will be played based on the specified scenario.
 
@@ -168,6 +168,3 @@ The following code shows this tag used to mute toast notification audio.
  
 
  
-
-
-
