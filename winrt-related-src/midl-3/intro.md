@@ -199,7 +199,7 @@ namespace RootNs.SubNs1.SubNs2
 ## Types
 There are two kinds of data types in MIDL 3.0: value types, and reference types. A variable of a value type directly contains its data. A variable of a reference type stores a reference to its data (such a variable is also known as an *object*).
 
-It's possible for two reference type variables to reference the same object. Thus, an operation on one variable affects the object referenced by the other variable. With value types, the variables each have their own copy of the data, and it's not possible for an operation on one to affect the other (except in the case of `ref` and `out` parameter variables).
+It's possible for two reference type variables to reference the same object. Thus, an operation on one variable affects the object referenced by the other variable. With value types, the variables each have their own copy of the data, and it's not possible for an operation on one to affect the other.
 
 MIDL 3.0's value types are further divided into simple types, enum types, struct types, and nullable types.
 
@@ -812,39 +812,15 @@ runtimeclass Test
 > All methods with the same name should have differing *arity*. That's because weakly-typed programming languages don't support overloading by type.
 
 ##### Parameters
-*Parameters* are used to pass values, or variable references, to a method. A *parameter* describes a range of allowable values, and a name. An *argument* is an actual value passed in practice where a parameter is expected.
 
-So, parameters of a method get their actual values from the specific
-*arguments* that are specified when the method is invoked. There are
-four kinds of parameters: value parameters, const reference parameters,
-output parameters, and array parameters.
+*Parameters* are used to pass values or variable references to a method. A *parameter* describes a slot with a type and a name, and optionally some modifier keyword. An *argument* is an actual value passed in that slot from the caller of the method to the callee.
 
-A *value parameter* is used to pass an input parameter. A value
-parameter gets its initial value from the argument that was passed for
-the parameter. Modifications to a value parameter do not affect the
-argument that was passed for the parameter. So, a value parameter
-is effective a `const` input parameter.
+Parameters of a method get their value from the specific *argument* that is specified when the method is invoked. The way arguments are passed between caller and callee depends on the type of the parameter. By default, all parameters are *input parameters*, that is they are marshaled from the caller to the callee only. The modifier keywords `ref`, `ref const`, and `out` can be added to modify the default direction of marshaling between caller and callee, and create *output parameters*. Not all keywords are valid with all parameter types, though; valid combinations are detailed below.
 
-A *const reference parameter* is used for efficient input parameter
-passing of large value types (but not simple types such as integral or floating-point numbers, nor enums). Methods receive such parameters as a
-reference to the actual value, rather than receiving a copy of the
-actual value. For large value types, it's more efficient to pass (to a function) a
-pointer-sized reference to a value than to pass a copy of the actual
-value itself.
+> [!IMPORTANT]
+> The Common Language Runtime (CLR) has concepts and modifier keywords that might appear to be similar to the ones described in this section. However in practice those are unrelated, and the effect of these modifiers is specific to the design and functioning of the Windows Runtime.
 
-A const reference parameter is declared with the `ref const` modifier. This example shows the use of `ref const` parameters; a practical choice when accepting a value as large as a [**Matrix4x4**](/uwp/api/windows.foundation.numerics.matrix4x4), for example.
-
-```idl
-runtimeclass Test
-{
-    static bool IsIdentity(ref const Matrix4x4 m);
-}
-```
-
-An *output parameter* is used for output parameter passing. For an
-output parameter, the callee receives a pointer to the location in which
-the value is returned. An output parameter is declared with the `out`
-modifier. The following example shows the use of `out` parameters.
+Value types are implicitly *input parameters*, and by default a copy of the argument is passed from the caller to the callee. Value parameters can be transformed into *output parmeters* with the `out` keyword; in that case the argument is marshaled instead from the callee back to the caller only.
 
 ```idl
 runtimeclass Test
@@ -853,23 +829,84 @@ runtimeclass Test
 }
 ```
 
-An *array* is a data structure that contains a number of variables that are accessed through computed indices. The variables contained in
-an array&mdash;also called the *elements* of the array&mdash;are all of the
-same type, and this type is called the *element type* of the array.
-
-An *array parameter* is a reference type, and the declaration
-allocates space for a reference to an array instance.
+As a special performance optimization, struct types (and no other type), which are normally passed by value as a full copy, can be made to be passed by pointer to the immutable struct. This is achieved with the `ref const` (*not* `const ref`) keyword, which marks the struct parameter as an input parameter, but instructs the marshaler to pass a pointer to the struct's storage, instead of passing a full copy of the struct. Note however that the struct is immutable; the pointer is conceptually a *const pointer*. There is no boxing involved. This is a practical choice when accepting a value as large as a [**Matrix4x4**](/uwp/api/windows.foundation.numerics.matrix4x4), for example.
 
 ```idl
 runtimeclass Test
 {
-    void PassArray (Int32[] values);
-    void FillArray (ref Int32[] values);
-    void ReceiveArray (out Int32[] values);
+    static bool IsIdentity(ref const Matrix4x4 m);
 }
 ```
 
+Reference types are also implicitly input parameters, meaning that the caller is responsible for allocating the object and passing a reference to it as argument; however since the argument is a reference to the object, modifications to that object by the callee are observed by the caller after the call. Alternatively, a reference type can be made an output parameter with the `out` keyword. In that case the roles are reversed; the callee is the one allocating the object and returning it back to the caller. Again, the `ref` keywords cannot be used in general with reference types (see exception below).
+
+```idl
+runtimeclass Test
+{
+    static void CreateObjectWithConfig(Config config, out MyClass newObject);
+}
+```
+
+The following table summarizes the behavior of the marshaling keywords for value parameters and reference parameters:
+
+<div class="mx-responsive-img">
+<table class="uwpd-top-aligned-table">
+  <tr class="header">
+    <th align="left">Behavior</th>
+    <th align="left">Allocated by</th>
+    <th align="left">Keyword</th>
+    <th align="left">Types</th>
+    <th align="left">Remarks</th>
+  </tr>
+  <tr>
+    <td rowspan="2">Input parameter</td>
+    <td rowspan="2">Caller</td>
+    <td>(none)</td>
+    <td>All types</td>
+    <td>Default behavior</td>
+  </tr>
+  <tr>
+    <td><code>ref const</code></td>
+    <td>Struct only</td>
+    <td>Performance optimization</td>
+  </tr>
+  <tr>
+    <td>Output parameter</td>
+    <td>Callee</td>
+    <td><code>out</code></td>
+    <td>All types</td>
+    <td></td>
+  </tr>
+</table>
+</div>
+
+Windows Runtime supports array types, whose behavior as parameter is somewhat different. An *array* is a data structure that contains a number of variables stored sequentially and accessed via an index. The variables contained in an array&mdash;also called the *elements* of the array&mdash;are all of the same type, and this type is called the *element type* of the array.
+
 MIDL 3.0 supports declarations of a *single-dimensional array*.
+
+An *array parameter* is a reference type, and like all reference types is by default an input parameter. In that case, the caller allocates the array to the callee, which can read its elements but cannot modify them (read-only). This is called the *pass array* pattern. Alternatively, the *fill array* pattern can be used by adding the `ref` keyword to the parameter; in that setup, the array is still allocated by the caller, but is conceptually an output parameter in the sense that the callee will fill the values of the array elements. Finally, the last pattern is the *receive array* where (like all output reference parameters) the callee is both allocating and initializing the argument before it is returned to the caller.
+
+```idl
+runtimeclass Test
+{
+    // Pass array pattern: read-only array from caller to callee
+    void PassArray(Int32[] values);
+
+    // Fill array pattern: caller allocates array for callee to fill
+    void FillArray(ref Int32[] values);
+
+    // Receive array pattern: callee allocates and fill an array returned to caller
+    void ReceiveArray(out Int32[] values);
+}
+```
+
+The following table summarizes the behavior for arrays and their elements:
+
+| Array pattern | Keyword | Allocated by | Elements access by callee |
+|---|---|---|---|
+| "Pass array" | (none) | Caller | Read-only |
+| "Fill array" | `ref` | Caller | Write-only |
+| "Receive array" | `out` | Callee | Read-write |
 
 ##### Static and instance methods
 A method declared with a `static` modifier prefixed is a *static method*. A
