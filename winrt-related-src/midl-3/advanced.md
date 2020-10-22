@@ -201,7 +201,7 @@ runtimeclass MyEventsEventArgs
 }
 ```
 
-Another way to fix is this is with the `[interface_name]` attribute. If MIDL encounters the `[interface_name]` on a class with no normal methods (or a versioned block with no normal methods), then it generates an empty interface for that block. Similarly, if the` [static_name]` or `[activatable_name]` attribute is present on a class or versioned block with no static (or constructors), then it will generate an empty interface for that static interface or constructor.
+Another way to fix is this is with the `[interface_name]` attribute. If MIDL encounters the `[interface_name]` on a class with no normal methods (or a versioned block with no normal methods), then it generates an empty interface for that block. Similarly, if the` [static_name]` or `[constructor_name]` attribute is present on a class or versioned block with no static (or constructors), then it will generate an empty interface for that static interface or constructor.
 
 Be careful not to confuse an empty class with a static class. You can have instances of an empty class (although they don't do anything), but you cannot have instances of a static class.
 
