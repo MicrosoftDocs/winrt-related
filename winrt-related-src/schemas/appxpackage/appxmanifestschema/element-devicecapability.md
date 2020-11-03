@@ -119,7 +119,7 @@ Some device capabilities require child elements. This table lists device capabil
 | **pointOfService**                    | Provides access to Point of Service (POS) barcode scanners and magnetic stripe readers, via the [**Windows.Devices.PointOfService**](/uwp/api/Windows.Devices.PointOfService) namespace. These APIs are not supported on Windows Phone. |
 | **proximity**                         | Required for near-field communication (NFC) between devices in close proximity. Near-field proximity may be used to send files or connect with an app on a proximate device. |
 | **serialcommunication**               | Provides access to APIs in the [**Windows.Devices.SerialCommunication**](/uwp/api/windows.devices.serialcommunication) namespace. For more information about defining this capability in the manifest, see the [**Windows.Devices.SerialCommunication**](/uwp/api/windows.devices.serialcommunication) namespace page. |
-| **usb**                               | Provides access to APIs in the [**Windows.Devices.Usb**](/uwp/api/Windows.Devices.Usb) namespace. This capability requires child elements. For more info, see [Updating the app manifest package for a USB device](https://go.microsoft.com/fwlink/p/?LinkId=302259). |
+| **usb**                               | Provides access to APIs in the [**Windows.Devices.Usb**](/uwp/api/Windows.Devices.Usb) namespace. This capability requires child elements. For more info, see [Updating the app manifest package for a USB device](/windows-hardware/drivers/usbcon/). |
 | **webcam**                            | Provides access to the camera's video feed. |
 | Other devices (represented by GUIDs)  | Includes specialized devices and Windows Portable Devices. |
 

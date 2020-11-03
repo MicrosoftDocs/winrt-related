@@ -129,7 +129,7 @@ Specifies that the toast notification is being used to indicate an incoming call
 ## See also
 
 
-[Alarm notifications sample](https://go.microsoft.com/fwlink/p/?linkid=310148)
+[Alarm notifications sample](/samples/browse/)
 
 ## Requirements
 
@@ -140,6 +140,3 @@ Specifies that the toast notification is being used to indicate an incoming call
  
 
  
-
-
-

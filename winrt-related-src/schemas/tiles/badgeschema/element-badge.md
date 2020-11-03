@@ -123,7 +123,7 @@ This table shows the available status glyphs.
 
 [Badge overview](/previous-versions/windows/apps/hh779719(v=win.10))
 
-[App tiles and badges sample](https://go.microsoft.com/fwlink/p/?linkid=231469)
+[App tiles and badges sample](/samples/browse/)
 
 [How to send a glyph or numeric badge in a local notification](/previous-versions/windows/apps/hh700418(v=win.10))
 

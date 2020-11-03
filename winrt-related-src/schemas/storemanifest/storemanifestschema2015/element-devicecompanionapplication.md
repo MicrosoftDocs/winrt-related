@@ -95,7 +95,7 @@ None.
 
 When present, the DeviceCompanionApplication element must contain an ExperienceId element, which is described below.
 
-**Important**  Using the DeviceCompanionApplication element in StoreManifest.xml and submitting it with your app will declare your app as a device app in the Microsoft Store. This action cannot be undone in the same product release. If you wish to release this app without the features and constraints that are applied to device apps, you will need to create and submit a new release with an updated StoreManifest.xml file. For more info, see [Microsoft Store device apps](https://go.microsoft.com/fwlink/?LinkID=301381).
+**Important**  Using the DeviceCompanionApplication element in StoreManifest.xml and submitting it with your app will declare your app as a device app in the Microsoft Store. This action cannot be undone in the same product release. If you wish to release this app without the features and constraints that are applied to device apps, you will need to create and submit a new release with an updated StoreManifest.xml file. For more info, see [Microsoft Store device apps](/windows-hardware/drivers/devapps/).
 
  
 
@@ -119,6 +119,3 @@ The following is an example of the DeviceCompanionApplication element that decla
  
 
  
-
-
-

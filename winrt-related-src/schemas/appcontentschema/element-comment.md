@@ -170,12 +170,12 @@ function _addAppContentFilesToIndexedFolder() {
 }
 ```
 
-For the complete code, see the [Indexer sample](https://go.microsoft.com/fwlink/p/?LinkID=311565).
+For the complete code, see the [Indexer sample](/samples/browse/).
 
 ## See also
 
 
-[Indexer sample](https://go.microsoft.com/fwlink/p/?LinkID=311565)
+[Indexer sample](/samples/browse/)
 
 [**Windows.Storage.Search**](/uwp/api/Windows.Storage.Search)
 

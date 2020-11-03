@@ -162,7 +162,7 @@ A property that describes the item.
 ## See also
 
 
-[Indexer sample](https://go.microsoft.com/fwlink/p/?LinkID=311565)
+[Indexer sample](/samples/browse/)
 
 [**Windows.Storage.Search**](/uwp/api/Windows.Storage.Search)
 
