@@ -53,7 +53,7 @@ Specifies a category of extensions that the app can host.
 
 ```
 <uap3:Name>
-    A string between 2 and 39 characters in length that consists of alphanumeric, period 
+    A string between 2 and 255 characters in length that consists of alphanumeric, period 
     (except for the first character), and dash characters only.
 </uap3:Name>
 ```
@@ -73,7 +73,7 @@ None.
 
 | Parent Element                                                        | Description                                   |
 |-----------------------------------------------------------------------|-----------------------------------------------|
-| [**uap3:AppExtensionHost**](element-uap3-appextensionhost-manual.md) | Declares an extensibility point for the app.. |
+| [**uap3:AppExtensionHost**](element-uap3-appextensionhost-manual.md) | Declares an extensibility point for the app. |
 
  
 
