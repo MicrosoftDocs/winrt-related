@@ -44,6 +44,7 @@ This topic lists some of the feature areas that your UWP app might use that don'
 | Device Enumeration | Currently there is no [**DevicePicker**](/uwp/api/Windows.Devices.Enumeration.DevicePicker) UI on Xbox, so device enumeration APIs are not supported. |
 | Drag and Drop | Drag and drop is not supported for Universal Windows Platform (UWP) apps on Xbox.See [**Windows.ApplicationModel.DataTransfer.DragDrop.Core**](/uwp/api/Windows.ApplicationModel.DataTransfer.DragDrop). |
 | Folder picker scenarios | Scenarios related to folder pickers are not supported on Xbox. See [**FolderPicker**](/uwp/api/Windows.Storage.Pickers.FolderPicker) class. |
+| Graphics capture APIs | [**Windows.Graphics.Capture**](/uwp/api/windows.graphics.capture) is not supported for Xbox. |
 | Holographic APIs | [**Holographic**](/uwp/api/Windows.Graphics.Holographic) APIs are not supported on Xbox. |
 | HumanInterfaceDevice Protocol APIs | [**HumanInterfaceDevice**](/uwp/api/Windows.Devices.HumanInterfaceDevice) APIs are not supported on Xbox. |
 | Inking | [**Inking**](/uwp/api/Windows.UI.Input.Inking) APIs are not supported on Xbox. |
@@ -52,6 +53,8 @@ This topic lists some of the feature areas that your UWP app might use that don'
 | Network Operators API | APIs related to Network Operators require modem support, which is not present on Xbox. See [**Windows.Networking.NetworkOperators**](/uwp/api/Windows.Networking.NetworkOperators). |
 | Near Field Communication (NFC) | [**NFC**](/uwp/api/Windows.Networking.Proximity) APIs are not supported on Xbox, so proximity APIs aren't supported. |
 | Optical Character Recognition (OCR) | [**OCR**](/uwp/api/Windows.Media.Ocr) APIs are not supported on Xbox. |
+| Perception APIs | [**Windows.Perception**](uwp/api/windows.perception) is not supported for Xbox. |
+| Phone APIs | [**Windows.Phone**](/uwp/api/windows.phone) and [**Windows.ApplicationModel.Calls**](/uwp/api/windows.applicationmodel.calls) are not supported for Xbox. |
 | Printing | [**Printing**](/uwp/api/Windows.Graphics.Printing) is not supported on Xbox. |
 | Point of Service (POS) | [**POS**](/uwp/api/Windows.Devices.PointOfService) APIs are not supported on Xbox. |
 | Radios | [**Radio**](/uwp/api/Windows.Devices.Radios) APIs are not supported on Xbox |
