@@ -21,7 +21,7 @@ A factory method that, when a [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-
 - If you're authoring a component to be consumed from an app, then call **make** to return the default (projected) interface of the implementation type. In this case, your project doesn't contain a projected type.
 - If you're both implementing and consuming a runtime class within the same compilation unit&mdash;for example, authoring a type to be consumed from XAML UI&mdash;then call **make** to return an instance of the projected type.
 
-For an explanation of the implementation type and projected type concepts, see [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis) and [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis). For more details, code, and a walkthrough of calling **make** in practice, see [XAML; binding a control to C++/WinRT properties and collections](/windows/uwp/cpp-and-winrt-apis/binding-property#add-a-property-of-type-bookstoreviewmodel-to-mainpage). Also see [make_self](make-self.md), which returns an instance of the *implementation* type instead.
+For an explanation of the implementation type and projected type concepts, see [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis) and [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis). For more details, code, and a walkthrough of calling **make** in practice, see [XAML; binding a control to C++/WinRT properties and collections](/windows/uwp/cpp-and-winrt-apis/binding-property#add-a-property-of-type-bookstoreviewmodel-to-mainpage). Also see [make_self](make-self.md), which returns a [*com_ptr*](com-ptr.md) to an instance of the *implementation* type instead.
 
 ## Syntax
 ```cppwinrt
