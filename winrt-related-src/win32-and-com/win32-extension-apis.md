@@ -7,7 +7,7 @@ ms.topic: article
 
 
 keywords: windows 10, uwp, win32, COM
-ms.date: 10/10/2018
+ms.date: 1/4/2021
 ms.assetid: e8d54f37-9969-4f33-8b1b-fcb3d659c507
 ---
 
@@ -1421,6 +1421,9 @@ This topic lists the APIs grouped by module (where the module is either an [API 
 
 
 ## APIs from winsqlite3.dll
+
+For more information about these APIs, please see the official [SQLite documentation](https://sqlite.org/c3ref/funclist.html ).
+
 
 | API | Requirements |
 | -----| --------------|
