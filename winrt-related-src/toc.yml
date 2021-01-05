@@ -2176,6 +2176,8 @@
       href: cpp-ref-for-winrt/observable-vector-base.md
     - name: "put_abi function template"
       href: cpp-ref-for-winrt/put-abi.md
+    - name: "resume_after function"
+      href: cpp-ref-for-winrt/resume-after.md
     - name: "resume_background function"
       href: cpp-ref-for-winrt/resume-background.md
     - name: "resume_foreground function"

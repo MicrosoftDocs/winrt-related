@@ -1,9 +1,7 @@
 ---
-
 description: A helper function&mdash;for use within a coroutine&mdash;that you can `co_await` to switch execution to a specific foreground thread.
 title: winrt::resume_foreground function (C++/WinRT)
 dev_langs: ["C++"]
-
 ms.date: 05/17/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference

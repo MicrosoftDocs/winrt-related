@@ -96,6 +96,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [make_self function template](make-self.md) | A factory method that returns a [com_ptr](com-ptr.md) to an instance of the implementation type for a runtime class. |
 | [make_weak function template](make-weak.md) | A helper function that returns a [weak_ref](weak-ref.md) object, representing a weak reference to a C++/WinRT object or interface. |
 | [put_abi function](put-abi.md) | A helper function that retrieves the address of a C++/WinRT object's underlying IUnknown interface pointer so that it can be set to another value. |
+| [resume_after function](resume-after.md) | A helper function that returns control to the caller, and then resumes execution on a thread pool thread after a delay. |
 | [resume_background function](resume-background.md) | A helper function that returns control to the caller, and resumes execution on a thread pool thread. |
 | [resume_foreground function](resume-foreground.md) | A helper function&mdash;for use within a coroutine&mdash;that you can `co_await` to switch execution to a specific foreground thread. |
 | [resume_on_signal](resume-on-signal.md) | A function that you can use to suspend until a kernel event is signaled. |
