@@ -3,8 +3,6 @@ Description: Summarizes the allowed hierarchies for the app package manifest for
 Search.Product: eADQiWindows 10XVcnh
 title: Element Hierarchy
 ms.assetid: 5dfced88-48fd-4bf6-963c-7ab090b3e26e
-
-
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/19/2019

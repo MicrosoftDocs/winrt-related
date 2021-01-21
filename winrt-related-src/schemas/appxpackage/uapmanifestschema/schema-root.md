@@ -1,17 +1,14 @@
 ---
-Description: Provides details for each element, attribute, and data type that defines the schema for the app package manifest for Windows 10 apps. 
+description: Provides details for each element, attribute, and data type that defines the schema for the app package manifest for Windows 10 apps. 
 Search.Product: eADQiWindows 10XVcnh
 title: Package manifest schema reference for Windows 10
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
-
-
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/10/2018
 ---
 
 # Package manifest schema reference for Windows 10
-
 
 This reference provides details for each element, attribute, and data type that defines the schema for the app package manifest for Windows 10 apps. The schema definition files are UapManifestSchema.xsd, FoundationManifestSchema.xsd, AppxManifestTypes.xsd, and others.
 

@@ -72,6 +72,8 @@
         items: 
         - name: "What's different in Windows 10"
           href: schemas/appxpackage/uapmanifestschema/what-s-changed-in-windows-10.md
+        - name: "Extensions in the package manifest schema"
+          href: schemas/appxpackage/uapmanifestschema/extensions.md
         - name: "Element Hierarchy"
           href: schemas/appxpackage/uapmanifestschema/root-elements.md
           items: 
