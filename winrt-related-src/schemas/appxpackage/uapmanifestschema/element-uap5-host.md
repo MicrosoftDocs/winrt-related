@@ -1,6 +1,6 @@
 ---
 
-title: uap5:FileType
+title: uap5:Host
 description: Represents a valid HTTP or HTTPS host name with a wildcard that the app wants to register as able to handle.
 
 ms.date: 10/10/2017
