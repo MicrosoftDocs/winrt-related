@@ -1,5 +1,5 @@
 ---
-Description: Specifies the value of a parameter for the service that has a data type of REG\_SZ.
+description: Specifies the value of a parameter for the service that has a data type of REG\_SZ.
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:ServiceParameterString
 ms.assetid: 4ef62655-93fd-40b7-9920-a4674a305040

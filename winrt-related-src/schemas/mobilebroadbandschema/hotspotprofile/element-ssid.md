@@ -1,5 +1,5 @@
 ---
-Description: An additional SSID handled by this profile.
+description: An additional SSID handled by this profile.
 Search.Product: eADQiWindows 10XVcnh
 title: SSID
 ms.assetid: 0773526f-0046-4e2c-8972-53872dd76a83

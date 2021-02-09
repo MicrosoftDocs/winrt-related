@@ -1,5 +1,5 @@
 ---
-Description: Declares an extensibility point for the app.
+description: Declares an extensibility point for the app.
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:Extension (Windows 10)
 ms.assetid: ed8f9296-0771-48ab-aecf-cca642e830c1

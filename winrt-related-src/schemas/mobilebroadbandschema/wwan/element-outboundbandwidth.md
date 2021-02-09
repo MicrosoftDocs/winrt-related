@@ -1,5 +1,5 @@
 ---
-Description: Defines a value representing the effective link speed of the subscriber’s outbound connection.
+description: Defines a value representing the effective link speed of the subscriber’s outbound connection.
 Search.Product: eADQiWindows 10XVcnh
 title: OutboundBandwidth
 ms.assetid: e61e531d-855f-4e42-a123-ca21b0a2b302

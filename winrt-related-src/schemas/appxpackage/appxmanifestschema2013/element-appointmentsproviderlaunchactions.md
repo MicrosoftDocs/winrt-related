@@ -1,6 +1,6 @@
 ---
 title: AppointmentsProviderLaunchActions
-Description: Declares actions to take when a appointment is launched.
+description: Declares actions to take when a appointment is launched.
 Search.Product: eADQiWindows 10XVcnh
 ms.assetid: 5e9b44b6-94b5-4cab-91ff-df8ae15c0978
 

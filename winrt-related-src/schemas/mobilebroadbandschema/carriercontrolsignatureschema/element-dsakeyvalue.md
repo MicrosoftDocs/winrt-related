@@ -1,5 +1,5 @@
 ---
-Description: Defines a Digital Signature Algorithm (DSA) public key.
+description: Defines a Digital Signature Algorithm (DSA) public key.
 Search.Product: eADQiWindows 10XVcnh
 title: DSAKeyValue
 ms.assetid: 41c1ee09-ee66-47a6-b971-6fd9d5340c43

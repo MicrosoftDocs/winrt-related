@@ -1,5 +1,5 @@
 ---
-Description: Declares an app extensibility point of type windows.contactDataProvider.
+description: Declares an app extensibility point of type windows.contactDataProvider.
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:ContactDataProvider
 ms.assetid: 8ae46d6c-d198-4472-9533-e99999cfe5ca

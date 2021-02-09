@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection element with the specified attributes that should be added to the applicationHost.config file.
+description: Represents a collection element with the specified attributes that should be added to the applicationHost.config file.
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:CollectionElement
 ms.assetid: a6c0f641-661a-407e-9471-2bf1084faa4d

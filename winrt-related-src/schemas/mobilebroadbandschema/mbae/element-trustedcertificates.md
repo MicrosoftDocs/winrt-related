@@ -1,5 +1,5 @@
 ---
-Description: Defines the list of trusted security certificates required for provisioning on the mobile network.
+description: Defines the list of trusted security certificates required for provisioning on the mobile network.
 Search.Product: eADQiWindows 10XVcnh
 title: TrustedCertificates
 ms.assetid: 26d8eb7c-6059-4e7a-9d07-8ad5054385e3

@@ -1,5 +1,5 @@
 ---
-Description: Base toast element, which contains at least a single visual element.
+description: Base toast element, which contains at least a single visual element.
 Search.Product: eADQiWindows 10XVcnh
 title: toast
 ms.assetid: 78359fce-826c-4c1c-9afb-9651ac34cdfa

@@ -1,5 +1,5 @@
 ---
-Description: Defines the user name for logon. 
+description: Defines the user name for logon.
 Search.Product: eADQiWindows 10XVcnh
 title: UserName
 ms.assetid: fb4913e1-095c-421d-af9a-40529f9bcd42

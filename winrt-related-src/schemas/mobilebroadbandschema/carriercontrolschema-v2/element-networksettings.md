@@ -1,5 +1,5 @@
 ---
-Description: Defines the network settings in a subscriber's carrier provisioning file.
+description: Defines the network settings in a subscriber's carrier provisioning file.
 Search.Product: eADQiWindows 10XVcnh
 title: NetworkSettings
 ms.assetid: 82e8282b-5405-4fcf-b835-83fe6ec9a460

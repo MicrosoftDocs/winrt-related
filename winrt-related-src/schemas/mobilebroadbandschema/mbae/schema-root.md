@@ -1,5 +1,5 @@
 ---
-Description: The Mobile Broadband Account Experience (MBAE) schema defines elements that are used by mobile network operators and retail partners to deliver valued added services to customers.
+description: The Mobile Broadband Account Experience (MBAE) schema defines elements that are used by mobile network operators and retail partners to deliver valued added services to customers.
 Search.Product: eADQiWindows 10XVcnh
 title: MBAE schema
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c

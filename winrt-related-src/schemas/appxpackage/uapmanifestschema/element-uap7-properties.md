@@ -1,5 +1,5 @@
 ---
-Description: Properties of an application.
+description: Properties of an application.
 title: uap7:Properties
 
 

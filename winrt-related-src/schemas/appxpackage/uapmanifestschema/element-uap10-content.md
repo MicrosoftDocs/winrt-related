@@ -1,5 +1,5 @@
 ---
-Description: Represents...
+description: Represents...
 title: uap10:Content
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference

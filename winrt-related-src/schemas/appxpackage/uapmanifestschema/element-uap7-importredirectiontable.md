@@ -1,5 +1,5 @@
 ---
-Description: Allows for a packaged app to declare API redirections.
+description: Allows for a packaged app to declare API redirections.
 title: uap7:ImportRedirectionTable
 
 

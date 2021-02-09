@@ -1,5 +1,5 @@
 ---
-Description: Defines carrier specific data not specified by Windows.
+description: Defines carrier specific data not specified by Windows.
 Search.Product: eADQiWindows 10XVcnh
 title: CarrierSpecificData
 ms.assetid: c664b4ec-7e79-4836-85e4-971b42e10976

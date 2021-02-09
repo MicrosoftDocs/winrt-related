@@ -1,5 +1,5 @@
 ---
-Description: Provides information about an app previously made available on Windows Phone.
+description: Provides information about an app previously made available on Windows Phone.
 Search.Product: eADQiWindows 10XVcnh
 title: mp:PhoneIdentity (Windows 10)
 ms.assetid: 817d5865-3838-4554-b751-2af09d84c8ad

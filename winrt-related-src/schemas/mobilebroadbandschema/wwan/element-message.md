@@ -1,5 +1,5 @@
 ---
-Description: Defines a MNO formatted message that contains the parsing rules necessary for Windows 8 to parse the message.
+description: Defines a MNO formatted message that contains the parsing rules necessary for Windows 8 to parse the message.
 Search.Product: eADQiWindows 10XVcnh
 title: Message
 ms.assetid: b4f7969d-5251-4536-b782-ded76f385550

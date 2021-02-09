@@ -1,5 +1,5 @@
 ---
-Description: provides details for each element, attribute, and data type that defines the schema for the app package manifest for UWP apps.
+description: provides details for each element, attribute, and data type that defines the schema for the app package manifest for UWP apps.
 Search.Product: eADQiWindows 10XVcnh
 title: Windows 8 app package manifest schema
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c

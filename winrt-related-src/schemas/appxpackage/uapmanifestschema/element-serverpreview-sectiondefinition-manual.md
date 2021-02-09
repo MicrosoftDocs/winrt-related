@@ -1,5 +1,5 @@
 ---
-Description: Identifies an Internet Information Service (IIS) SectionDefinition as it pertains to a same-named XML element in an applicationHost.config file.
+description: Identifies an Internet Information Service (IIS) SectionDefinition as it pertains to a same-named XML element in an applicationHost.config file.
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:SectionDefinition
 ms.assetid: 7fa268e0-a5aa-49d4-a37d-6be0a9ec6dda

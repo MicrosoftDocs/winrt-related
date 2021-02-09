@@ -1,5 +1,5 @@
 ---
-Description: Identifies an Internet Information Service (IIS) SectionGroupDefinition as it pertains to a same-named XML element in an applicationHost.config file.
+description: Identifies an Internet Information Service (IIS) SectionGroupDefinition as it pertains to a same-named XML element in an applicationHost.config file.
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:SectionGroupDefinition
 ms.assetid: 61a1d2f5-5742-414d-98ea-e9d43d831efc

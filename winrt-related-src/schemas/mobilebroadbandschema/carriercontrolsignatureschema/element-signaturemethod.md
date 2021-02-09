@@ -1,5 +1,5 @@
 ---
-Description: Defines the algorithm used to generate the signature thumbprint in SignatureValue.
+description: Defines the algorithm used to generate the signature thumbprint in SignatureValue.
 Search.Product: eADQiWindows 10XVcnh
 title: SignatureMethod
 ms.assetid: 1a82d9c6-795f-41a9-a1fa-b3c339a22b02

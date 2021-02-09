@@ -1,5 +1,5 @@
 ---
-Description: The path to the executable.
+description: The path to the executable.
 Search.Product: eADQiWindows 10XVcnh
 title: Path (in OutOfProcessServer) (Windows 10)
 ms.assetid: f3fe9184-f270-4050-b444-ec37a596b993

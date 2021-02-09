@@ -1,5 +1,5 @@
 ---
-Description: Contains any errors from processing the TetheringSettings element from the last provisioning attempt.
+description: Contains any errors from processing the TetheringSettings element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: TetheringSettings
 ms.assetid: 0bf2129c-0589-437a-8cfa-834b16ce42a2

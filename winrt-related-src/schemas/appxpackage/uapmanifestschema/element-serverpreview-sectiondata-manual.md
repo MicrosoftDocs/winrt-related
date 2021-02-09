@@ -1,5 +1,5 @@
 ---
-Description: Identifies section data that will be embedded into applicationHost.config file of an IIS installation.
+description: Identifies section data that will be embedded into applicationHost.config file of an IIS installation.
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:SectionData
 ms.assetid: 1182ba2d-ad98-4584-ba9b-935ee18aa5f4

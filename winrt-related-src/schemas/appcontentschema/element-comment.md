@@ -1,5 +1,5 @@
 ---
-Description: Contains a System.Comment that describes the item.
+description: Contains a System.Comment that describes the item.
 Search.Product: eADQiWindows 10XVcnh
 title: Comment
 ms.assetid: e368afe3-e9cf-48db-9994-607b666fe80b

@@ -1,5 +1,5 @@
 ---
-Description: Package manifest schema with Windows 8.1 minor extensions reference
+description: Package manifest schema with Windows 8.1 minor extensions reference
 Search.Product: eADQiWindows 10XVcnh
 title: Windows 8.1 extensions manifest schema
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c

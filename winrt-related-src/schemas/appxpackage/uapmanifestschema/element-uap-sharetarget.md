@@ -1,5 +1,5 @@
 ---
-Description: Declares an app extension point of type windows.shareTarget.
+description: Declares an app extension point of type windows.shareTarget.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:ShareTarget (Windows 10)
 ms.assetid: 92622f42-dfef-4fd2-a42d-73d4ac47357c

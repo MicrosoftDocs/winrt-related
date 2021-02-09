@@ -1,5 +1,5 @@
 ---
-Description: A relative path used specify where to load content from an app package.
+description: A relative path used specify where to load content from an app package.
 title: uap6:LoaderSearchPathEntry
 
 

@@ -1,5 +1,5 @@
 ---
-Description: Defines the parameters required to setup a data connection.
+description: Defines the parameters required to setup a data connection.
 Search.Product: eADQiWindows 10XVcnh
 title: Context
 ms.assetid: ddf2b145-59b3-46bf-a297-6992f00a06e0

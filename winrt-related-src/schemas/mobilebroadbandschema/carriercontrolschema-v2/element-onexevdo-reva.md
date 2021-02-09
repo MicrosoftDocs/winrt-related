@@ -1,5 +1,5 @@
 ---
-Description: Defines the Enhanced Voice-Data Optimized (EVDO) Revision A (Rev. A) standard used for mobile network data.
+description: Defines the Enhanced Voice-Data Optimized (EVDO) Revision A (Rev. A) standard used for mobile network data.
 Search.Product: eADQiWindows 10XVcnh
 title: ONEXEVDO\_REVA
 ms.assetid: 5d39edde-8904-4e9e-a4d5-7c84ddc5b789

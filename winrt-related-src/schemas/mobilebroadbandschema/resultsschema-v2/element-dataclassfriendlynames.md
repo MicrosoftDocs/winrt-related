@@ -1,5 +1,5 @@
 ---
-Description: Contains any errors from processing the DataClassFriendlyNames element from the last provisioning attempt.
+description: Contains any errors from processing the DataClassFriendlyNames element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: DataClassFriendlyNames
 ms.assetid: 14e6fa1b-991e-4420-a675-52f4c120f5e4

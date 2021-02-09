@@ -1,5 +1,5 @@
 ---
-Description: Summarizes the allowed hierarchies for the HotspotProfile schema.
+description: Summarizes the allowed hierarchies for the HotspotProfile schema.
 Search.Product: eADQiWindows 10XVcnh
 title: Element Hierarchy
 ms.assetid: 5dfced88-48fd-4bf6-963c-7ab090b3e26e

@@ -1,5 +1,5 @@
 ---
-Description: An extension that allows an app developer to declare a path in the app package, relative to the app package root path, to be included in the loader search path for the app's processes.
+description: An extension that allows an app developer to declare a path in the app package, relative to the app package root path, to be included in the loader search path for the app's processes.
 title: uap6:LoaderSearchPathOverride
 
 

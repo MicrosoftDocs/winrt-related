@@ -1,6 +1,6 @@
 ---
 title: LaunchAction (in AppointmentsProviderLaunchActions)
-Description: Describes an AppointmentsProviderLaunchActions content action.
+description: Describes an AppointmentsProviderLaunchActions content action.
 Search.Product: eADQiWindows 10XVcnh
 ms.assetid: 074c2f73-dcdd-4660-9d70-5bcee7b63199
 

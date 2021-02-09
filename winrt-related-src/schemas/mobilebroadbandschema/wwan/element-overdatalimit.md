@@ -1,5 +1,5 @@
 ---
-Description: Defines whether a subscriber has consumed more bytes than the data limit for their plan.
+description: Defines whether a subscriber has consumed more bytes than the data limit for their plan.
 Search.Product: eADQiWindows 10XVcnh
 title: OverDataLimit
 ms.assetid: effb2b5e-e571-42cf-9a5a-72b0b7b3d437

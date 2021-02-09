@@ -1,5 +1,5 @@
 ---
-Description: Indicates that the app supports dialing phone numbers.
+description: Indicates that the app supports dialing phone numbers.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:VoipDialPhoneNumber
 ms.assetid: 89161194-e351-4dee-a5b8-07aa4a429d0b

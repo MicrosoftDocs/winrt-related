@@ -1,5 +1,5 @@
 ---
-Description: Defines the tethering profile in a subscriber's carrier provisioning file.
+description: Defines the tethering profile in a subscriber's carrier provisioning file.
 Search.Product: eADQiWindows 10XVcnh
 title: TetheringProfile
 ms.assetid: fa2708f2-2200-46ac-b6cd-97d1a51cc867

@@ -1,5 +1,5 @@
 ---
-Description: Defines timing information used to activate the subscriber's account on the Mobile Broadband Network (MNO) for a reconnect activation type.
+description: Defines timing information used to activate the subscriber's account on the Mobile Broadband Network (MNO) for a reconnect activation type.
 Search.Product: eADQiWindows 10XVcnh
 title: ReconnectToNetwork
 ms.assetid: ae345c7f-83c1-4194-b577-515d07c70c8c

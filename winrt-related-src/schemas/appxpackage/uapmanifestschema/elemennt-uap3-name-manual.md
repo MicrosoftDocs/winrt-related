@@ -1,5 +1,5 @@
 ---
-Description: Specifies a category of extensions that the app can host.
+description: Specifies a category of extensions that the app can host.
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:Name
 ms.assetid: bb879ff2-1f08-4bff-8b3c-0c7198c9f6da

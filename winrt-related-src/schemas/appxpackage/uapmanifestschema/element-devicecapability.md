@@ -1,5 +1,5 @@
 ---
-Description: Declares a device capability required by a package.
+description: Declares a device capability required by a package.
 Search.Product: eADQiWindows 10XVcnh
 title: DeviceCapability (Windows 10)
 ms.assetid: 4353c4fd-f038-4986-81ed-d2ec0c6235ef

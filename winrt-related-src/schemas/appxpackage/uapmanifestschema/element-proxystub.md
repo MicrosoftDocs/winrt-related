@@ -1,5 +1,5 @@
 ---
-Description: Declares a package extensibility point of type windows.activatableClass.proxyStub.
+description: Declares a package extensibility point of type windows.activatableClass.proxyStub.
 Search.Product: eADQiWindows 10XVcnh
 title: ProxyStub (Windows 10)
 ms.assetid: d902d2b6-4694-4158-9c1f-4b3511150ee5

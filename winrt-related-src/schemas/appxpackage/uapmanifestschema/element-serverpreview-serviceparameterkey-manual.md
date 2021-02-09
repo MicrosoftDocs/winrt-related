@@ -1,5 +1,5 @@
 ---
-Description: Specifies a parameter for the service. 
+description: Specifies a parameter for the service.
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:ServiceParameterKey
 ms.assetid: 0a9cf40b-d5da-415c-8c4b-3b879bb6e969

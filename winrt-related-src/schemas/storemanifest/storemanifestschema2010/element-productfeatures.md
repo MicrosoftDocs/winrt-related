@@ -1,5 +1,5 @@
 ---
-Description: The ProductFeatures element is the container for all existing and future product features that will be configured through the StoreManifest XML file.
+description: The ProductFeatures element is the container for all existing and future product features that will be configured through the StoreManifest XML file.
 Search.Product: eADQiWindows 10XVcnh
 title: ProductFeatures
 ms.assetid: 95f2ec1b-e3d1-490d-a5dc-367e385f7fc5

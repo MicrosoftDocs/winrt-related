@@ -1,5 +1,5 @@
 ---
-Description: Defines whether pre-authentication will be used by the client.
+description: Defines whether pre-authentication will be used by the client.
 Search.Product: eADQiWindows 10XVcnh
 title: preAuthMode
 ms.assetid: 4ec7ff00-a0b8-453b-9b7b-80782a116900

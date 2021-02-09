@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether all file types are supported for sharing.
+description: Indicates whether all file types are supported for sharing.
 Search.Product: eADQiWindows 10XVcnh
 title: SupportsAnyFileType
 ms.assetid: be446c1e-2be7-47eb-8ac9-9dd32733465a

@@ -1,5 +1,5 @@
 ---
-Description: Specifies a URL to which a plugin may send cookies. 
+description: Specifies a URL to which a plugin may send cookies.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:Url (Windows 10)
 ms.assetid: d552c065-2697-49d0-936e-f93dca38caad

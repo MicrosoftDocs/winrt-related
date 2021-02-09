@@ -1,5 +1,5 @@
 ---
-Description: Provides details for each element, attribute, and data type that defines the schema for the bundle manifest for UWP apps.
+description: Provides details for each element, attribute, and data type that defines the schema for the bundle manifest for UWP apps.
 Search.Product: eADQiWindows 10XVcnh
 title: Bundle manifest schema reference
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c

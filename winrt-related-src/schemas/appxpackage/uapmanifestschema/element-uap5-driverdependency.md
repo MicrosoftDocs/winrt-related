@@ -1,5 +1,5 @@
-﻿---
-Description: Contains the driver constraint information for a UWP app.
+---
+description: Contains the driver constraint information for a UWP app.
 title: uap5:DriverDependency
 
 

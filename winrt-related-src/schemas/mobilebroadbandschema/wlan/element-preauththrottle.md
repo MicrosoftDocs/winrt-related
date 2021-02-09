@@ -1,5 +1,5 @@
 ---
-Description: Defines the number of pre-authentication attempts to try on neighboring access points (AP).
+description: Defines the number of pre-authentication attempts to try on neighboring access points (AP).
 Search.Product: eADQiWindows 10XVcnh
 title: preAuthThrottle
 ms.assetid: f0836b86-12da-4329-a190-5c8d5132e145

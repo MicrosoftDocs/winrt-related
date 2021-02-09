@@ -1,5 +1,5 @@
 ---
-Description: Defines bearer types allowed for USSD messages.
+description: Defines bearer types allowed for USSD messages.
 Search.Product: eADQiWindows 10XVcnh
 title: USSDBearer
 ms.assetid: 64bc3ee2-b5ca-4c71-a6ac-9474913cebf3

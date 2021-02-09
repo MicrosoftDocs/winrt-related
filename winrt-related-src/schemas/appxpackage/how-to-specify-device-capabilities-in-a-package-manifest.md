@@ -1,5 +1,5 @@
 ---
-Description: To declare each device capability required by your Windows Runtime app, add a DeviceCapability element and applicable child elements to the package manifest.
+description: To declare each device capability required by your Windows Runtime app, add a DeviceCapability element and applicable child elements to the package manifest.
 Search.Product: eADQiWindows 10XVcnh
 title: How to specify device capabilities in a package manifest
 ms.assetid: 4e83e2b2-d80f-41e2-aa1f-436ffa389ccc

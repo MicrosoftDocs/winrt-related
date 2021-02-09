@@ -1,5 +1,5 @@
 ---
-Description: The DeviceCompanionApplication element contains all the configuration required to declare your app as a Microsoft Store device app.
+description: The DeviceCompanionApplication element contains all the configuration required to declare your app as a Microsoft Store device app.
 Search.Product: eADQiWindows 10XVcnh
 title: DeviceCompanionApplication
 ms.assetid: 302f6805-4684-4061-bb60-c0fcff710758

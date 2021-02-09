@@ -1,5 +1,5 @@
 ---
-Description: Defines the RSA public key modulus.
+description: Defines the RSA public key modulus.
 Search.Product: eADQiWindows 10XVcnh
 title: Modulus
 ms.assetid: 33ec8118-3a6a-4273-96bf-2109d4305ca8

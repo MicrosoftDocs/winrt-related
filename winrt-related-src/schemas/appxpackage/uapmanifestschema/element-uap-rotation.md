@@ -1,5 +1,5 @@
 ---
-Description: Specifies a single rotational orientation in which an app will display.
+description: Specifies a single rotational orientation in which an app will display.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:Rotation (Windows 10)
 ms.assetid: c3e6abb0-05ac-4b38-a23e-3e0f7e610b4c

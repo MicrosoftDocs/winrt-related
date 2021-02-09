@@ -1,5 +1,5 @@
 ---
-Description: Represents an attiribute that should be added to or modified in the applicationHost.config file.
+description: Represents an attiribute that should be added to or modified in the applicationHost.config file.
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:Attribute
 ms.assetid: 8d3d3c80-6411-4912-9bf9-eaa8f9670661

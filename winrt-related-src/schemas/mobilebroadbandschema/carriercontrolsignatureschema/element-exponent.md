@@ -1,5 +1,5 @@
 ---
-Description: Defines the RSA public key exponent.
+description: Defines the RSA public key exponent.
 Search.Product: eADQiWindows 10XVcnh
 title: Defines the RSA public key exponent.
 ms.assetid: d07608d5-959b-43e7-8d31-98b6b584e94d

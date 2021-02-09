@@ -1,5 +1,5 @@
 ---
-Description: Defines the mobile broadband Purchase profile to be used for the mobile network.
+description: Defines the mobile broadband Purchase profile to be used for the mobile network.
 
 Search.Product: eADQiWindows 10XVcnh
 title: Purchase

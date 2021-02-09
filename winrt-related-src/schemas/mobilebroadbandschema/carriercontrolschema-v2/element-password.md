@@ -1,5 +1,5 @@
 ---
-Description: Defines the password used for the Packet Data Protocol (PDP) context activation.
+description: Defines the password used for the Packet Data Protocol (PDP) context activation.
 Search.Product: eADQiWindows 10XVcnh
 title: Password
 ms.assetid: a7a63a7c-31d7-42bb-8e04-557306980baf

@@ -1,5 +1,5 @@
 ---
-Description: Defines a regular expression describing the contents of the decoded human-readable message.
+description: Defines a regular expression describing the contents of the decoded human-readable message.
 Search.Product: eADQiWindows 10XVcnh
 title: Pattern
 ms.assetid: 873958b1-2344-46ce-b5b4-d0139156389d

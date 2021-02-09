@@ -1,5 +1,5 @@
 ---
-Description: Defines which key index should be used to encrypt wireless traffic. 
+description: Defines which key index should be used to encrypt wireless traffic.
 Search.Product: eADQiWindows 10XVcnh
 title: keyIndex
 ms.assetid: 0d8686f8-8dfa-4677-9a6d-c59e18d8ef59

@@ -1,5 +1,5 @@
 ---
-Description: The value that will be indexed for the property.
+description: The value that will be indexed for the property.
 Search.Product: eADQiWindows 10XVcnh
 title: Value
 ms.assetid: f5186723-7c23-4904-82df-35b1a2369f5b

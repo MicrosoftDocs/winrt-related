@@ -1,5 +1,5 @@
 ---
-Description: Defines the properties and settings in a subscriber's carrier provisioning file. 
+description: Defines the properties and settings in a subscriber's carrier provisioning file.
 Search.Product: eADQiWindows 10XVcnh
 title: CarrierProvisioning
 ms.assetid: 5033346d-9e0a-4d9e-a619-de88e2fb0818

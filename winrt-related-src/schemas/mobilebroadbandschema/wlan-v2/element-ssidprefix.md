@@ -1,5 +1,5 @@
 ---
-Description: Contains the SSIDPrefix for a WLAN.
+description: Contains the SSIDPrefix for a WLAN.
 Search.Product: eADQiWindows 10XVcnh
 title: SSIDPrefix
 ms.assetid: 04783397-4119-4fcf-955f-5110cbb47d90

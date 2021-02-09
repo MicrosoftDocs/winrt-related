@@ -1,5 +1,5 @@
 ---
-Description: The package manifest is an XML document that contains the info the system needs to deploy, display, or update a Windows Runtime apps app.
+description: The package manifest is an XML document that contains the info the system needs to deploy, display, or update a Windows Runtime apps app.
 Search.Product: eADQiWindows 10XVcnh
 title: How to specify device capabilities for Bluetooth 
 ms.assetid: 366676d5-187e-4e3d-bafa-33ee468efa64

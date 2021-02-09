@@ -1,5 +1,5 @@
 ---
-Description: Identifies an event tracing extension to add to the server-specific app extensions.
+description: Identifies an event tracing extension to add to the server-specific app extensions.
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:EventProvider
 ms.assetid: 7992570a-0250-49e8-9f9a-5196028e262e

@@ -1,5 +1,5 @@
 ---
-Description: Specifies which pages in the web context have access to the system's geolocation devices and access to the clipboard.
+description: Specifies which pages in the web context have access to the system's geolocation devices and access to the clipboard.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:ApplicationContentUriRules (Windows 10)
 ms.assetid: ae619bfa-0087-46ac-90e3-934a7bae85ba

@@ -1,5 +1,5 @@
 ---
-Description: The Base schema defines elements that are used to describe basic data types used throughout the Mobile Broadband schema. It defines only simple and complex types.
+description: The Base schema defines elements that are used to describe basic data types used throughout the Mobile Broadband schema. It defines only simple and complex types.
 Search.Product: eADQiWindows 10XVcnh
 title: Base schema
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c

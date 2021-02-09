@@ -1,5 +1,5 @@
 ---
-Description: Defines the name of the Home Provider for a given SIM/Device.
+description: Defines the name of the Home Provider for a given SIM/Device.
 Search.Product: eADQiWindows 10XVcnh
 title: HomeProviderName
 ms.assetid: 8c80386f-a778-49ec-9439-990220d17d13

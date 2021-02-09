@@ -1,5 +1,5 @@
 ---
-Description: Contains any errors from processing the Activation element from the last provisioning attempt.
+description: Contains any errors from processing the Activation element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: Activation
 ms.assetid: d01c586b-a738-4506-a18e-a8c6475d77cd

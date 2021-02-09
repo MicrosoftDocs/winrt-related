@@ -1,5 +1,5 @@
 ---
-Description: Defines the default connection profile used by a subscriber to connect to a MNO. 
+description: Defines the default connection profile used by a subscriber to connect to a MNO.
 Search.Product: eADQiWindows 10XVcnh
 title: DefaultProfile
 ms.assetid: 3f88faaf-9d1a-4561-9527-8cc6067cb8ec

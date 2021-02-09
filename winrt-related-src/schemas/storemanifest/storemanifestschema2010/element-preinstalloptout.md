@@ -1,5 +1,5 @@
 ---
-Description: PreinstallOptOut
+description: PreinstallOptOut
 Search.Product: eADQiWindows 10XVcnh
 title: PreinstallOptOut
 ms.assetid: c8cd557c-89a3-4a48-b671-f997501ceb59

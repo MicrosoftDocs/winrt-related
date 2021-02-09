@@ -1,5 +1,5 @@
 ---
-Description: Defines whether compression is enabled for a context in the Packet Data Protocol (PDP) context policy.
+description: Defines whether compression is enabled for a context in the Packet Data Protocol (PDP) context policy.
 Search.Product: eADQiWindows 10XVcnh
 title: Compression
 ms.assetid: 10360bdf-d86a-4a6b-9d92-46cf29c3b07d

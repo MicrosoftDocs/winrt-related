@@ -1,5 +1,5 @@
 ---
-Description: Defines the Long Term Evolution (LTE) standard used for mobile network data.
+description: Defines the Long Term Evolution (LTE) standard used for mobile network data.
 Search.Product: eADQiWindows 10XVcnh
 title: LTE
 ms.assetid: 3e1b2fec-0630-4e20-8bd5-8e1af6d5ee17

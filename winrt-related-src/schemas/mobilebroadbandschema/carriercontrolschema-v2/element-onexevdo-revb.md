@@ -1,5 +1,5 @@
 ---
-Description: Defines the Enhanced Voice-Data Optimized (EVDO) Revision B (Rev. B) standard used for mobile network data.
+description: Defines the Enhanced Voice-Data Optimized (EVDO) Revision B (Rev. B) standard used for mobile network data.
 Search.Product: eADQiWindows 10XVcnh
 title: ONEXEVDO\_REVB
 ms.assetid: be570d41-b4bb-4f3e-832d-d2e273a55607

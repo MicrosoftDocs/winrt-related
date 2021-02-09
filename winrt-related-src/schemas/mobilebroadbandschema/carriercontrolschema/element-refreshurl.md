@@ -1,5 +1,5 @@
 ---
-Description: Defines the HTTPS URL where the client can find the updated copy of this provisioning file in the future. 
+description: Defines the HTTPS URL where the client can find the updated copy of this provisioning file in the future.
 Search.Product: eADQiWindows 10XVcnh
 title: RefreshURL
 ms.assetid: 615de7ad-9070-4ed1-b6b8-5c5770e47153

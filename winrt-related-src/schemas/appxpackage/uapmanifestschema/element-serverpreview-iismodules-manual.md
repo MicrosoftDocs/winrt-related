@@ -1,5 +1,5 @@
 ---
-Description: Declares an app extensibility point of type windows.iisModules.
+description: Declares an app extensibility point of type windows.iisModules.
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:IisModules
 ms.assetid: f1f28b61-2a61-4799-851c-a8f52cca16b7

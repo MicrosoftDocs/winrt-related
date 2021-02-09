@@ -1,5 +1,5 @@
 ---
-Description: efines a Digital Signature Algorithm (DSA) prime generation counter.
+description: efines a Digital Signature Algorithm (DSA) prime generation counter.
 Search.Product: eADQiWindows 10XVcnh
 title: PgenCounter
 ms.assetid: 46445ef4-1aaf-43cf-9ce2-f6a587a425fe

@@ -1,5 +1,5 @@
 ---
-Description: The abstract visual elements choice element for the XSD substitution group.
+description: The abstract visual elements choice element for the XSD substitution group.
 Search.Product: eADQiWindows 10XVcnh
 title: VisualElementsChoice
 ms.assetid: 96a1b427-844d-4523-9e5a-5f67f80b059c

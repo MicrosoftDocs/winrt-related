@@ -1,5 +1,5 @@
 ---
-Description: Toast schema are used to define a toast notification, and specify the template, images, audio, and text that compose the toast content, branding specifics, and language information.
+description: Toast schema are used to define a toast notification, and specify the template, images, audio, and text that compose the toast content, branding specifics, and language information.
 Search.Product: eADQiWindows 10XVcnh
 title: Toast schema
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c

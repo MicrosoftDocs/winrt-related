@@ -1,5 +1,5 @@
 ---
-Description: Describes an AutoPlay content action.
+description: Describes an AutoPlay content action.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:LaunchAction (in uap:AutoPlayContent) (Windows 10)
 ms.assetid: 5d2c732f-08dd-4e7e-93b1-6bb122e2179f

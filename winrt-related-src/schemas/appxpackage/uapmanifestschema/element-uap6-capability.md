@@ -1,5 +1,5 @@
 ---
-Description: Declares a capability required by a package.
+description: Declares a capability required by a package.
 title: uap6:Capability
 
 

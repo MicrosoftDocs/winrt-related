@@ -1,5 +1,5 @@
 ---
-Description: Contains any errors from processing the Provisioning element from the last provisioning attempt.
+description: Contains any errors from processing the Provisioning element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: Provisioning
 ms.assetid: a6e7f546-9036-4796-b57d-0d45b591f3d6

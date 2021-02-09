@@ -1,5 +1,5 @@
 ---
-Description: Defines one or more extensibility points for the app.
+description: Defines one or more extensibility points for the app.
 Search.Product: eADQiWindows 10XVcnh
 title: Extensions (in Application) (Windows 10)
 ms.assetid: 267051e3-b09c-467c-b5bd-4575cc31cb36

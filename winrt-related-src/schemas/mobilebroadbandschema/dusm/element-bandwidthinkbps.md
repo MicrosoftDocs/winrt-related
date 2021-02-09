@@ -1,5 +1,5 @@
 ---
-Description: Defines a value representing the effective link speed of the subscriber’s connection specified in Kbps.
+description: Defines a value representing the effective link speed of the subscriber’s connection specified in Kbps.
 Search.Product: eADQiWindows 10XVcnh
 title: BandwidthInKbps
 ms.assetid: 404712b0-a232-4967-83ac-51fd35d0ef88

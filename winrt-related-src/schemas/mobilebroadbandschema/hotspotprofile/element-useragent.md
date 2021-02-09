@@ -1,5 +1,5 @@
 ---
-Description: Customized HTTP user agent string to support operator-specific user agent filtering.
+description: Customized HTTP user agent string to support operator-specific user agent filtering.
 Search.Product: eADQiWindows 10XVcnh
 title: UserAgent
 ms.assetid: cbc35545-b55e-4d2d-82ba-d9fd97cf9d95

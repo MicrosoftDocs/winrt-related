@@ -1,5 +1,5 @@
 ---
-Description: OS package dependency information.
+description: OS package dependency information.
 title: uap7:OSPackageDependency
 
 

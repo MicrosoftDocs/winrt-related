@@ -1,5 +1,5 @@
 ---
-Description: Defines one or more X.509 compliant signatures.
+description: Defines one or more X.509 compliant signatures.
 Search.Product: eADQiWindows 10XVcnh
 title: X509Data
 ms.assetid: 1e3356cf-1c4d-45da-bb08-11329c586529

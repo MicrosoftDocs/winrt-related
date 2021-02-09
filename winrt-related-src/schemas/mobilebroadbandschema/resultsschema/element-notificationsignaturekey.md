@@ -1,5 +1,5 @@
 ---
-Description: Contains any errors from processing the KeyInfo element from the last provisioning attempt.
+description: Contains any errors from processing the KeyInfo element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: NotificationSignatureKey
 ms.assetid: 3beb4301-113d-4826-85b0-14a3ad4bda4b

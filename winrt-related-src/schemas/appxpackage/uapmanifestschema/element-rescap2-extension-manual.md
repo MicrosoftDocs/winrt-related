@@ -1,5 +1,5 @@
 ---
-Description: Declares an extensibility point for the app.
+description: Declares an extensibility point for the app.
 Search.Product: eADQiWindows 10XVcnh
 title: rescap2:Extension (Windows 10)
 ms.assetid: 067b6b25-2d89-42b1-845c-605ac00963b7

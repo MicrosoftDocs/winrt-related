@@ -1,5 +1,5 @@
 ---
-Description: Defines a unique GUID that identifies the Mobile Network Operator (MNO). 
+description: Defines a unique GUID that identifies the Mobile Network Operator (MNO).
 Search.Product: eADQiWindows 10XVcnh
 title: CarrierId
 ms.assetid: 60cee169-cd12-41c1-9f2f-70236dced515

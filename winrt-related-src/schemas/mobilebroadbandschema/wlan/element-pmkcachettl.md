@@ -1,5 +1,5 @@
 ---
-Description: Defines the length of time, in minutes, that a Pairwise Master Key (PMK) cache will be kept.
+description: Defines the length of time, in minutes, that a Pairwise Master Key (PMK) cache will be kept.
 Search.Product: eADQiWindows 10XVcnh
 title: PMKCacheTTL
 ms.assetid: 0c8bfb08-dda7-482f-b442-d2aaff667d00

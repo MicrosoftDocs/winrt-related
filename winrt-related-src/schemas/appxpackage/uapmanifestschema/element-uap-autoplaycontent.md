@@ -1,5 +1,5 @@
 ---
-Description: Declares an app extensibility point of type windows.autoPlayContent.
+description: Declares an app extensibility point of type windows.autoPlayContent.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:AutoPlayContent (Windows 10)
 ms.assetid: 15514696-9195-4dd1-91af-2b97383992cc

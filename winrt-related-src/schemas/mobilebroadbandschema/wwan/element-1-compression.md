@@ -1,5 +1,5 @@
 ---
-Description: Defines if the packet header and data transferred over the connection is compressed.
+description: Defines if the packet header and data transferred over the connection is compressed.
 Search.Product: eADQiWindows 10XVcnh
 title: Compression
 ms.assetid: 10360bdf-d86a-4a6b-9d92-46cf29c3b07d

@@ -1,5 +1,5 @@
 ---
-Description: The ExperienceIds element contains a list of one or more individual ExperienceId elements.
+description: The ExperienceIds element contains a list of one or more individual ExperienceId elements.
 Search.Product: eADQiWindows 10XVcnh
 title: ExperienceIds
 ms.assetid: 83a574da-fcdc-4655-bd37-4d942d8c988b

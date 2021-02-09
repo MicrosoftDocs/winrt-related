@@ -1,5 +1,5 @@
 ---
-Description: Defines the type of plan currently in use by the subscriber.
+description: Defines the type of plan currently in use by the subscriber.
 Search.Product: eADQiWindows 10XVcnh
 title: PlanType
 ms.assetid: b5fa5a45-9931-4678-bffc-be68f6853199

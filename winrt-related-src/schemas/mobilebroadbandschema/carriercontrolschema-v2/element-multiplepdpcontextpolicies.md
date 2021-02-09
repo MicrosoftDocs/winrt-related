@@ -1,5 +1,5 @@
 ---
-Description: Defines multiple Packet Data Protocol (PDP) context policies in a subscriber's carrier provisioning file.
+description: Defines multiple Packet Data Protocol (PDP) context policies in a subscriber's carrier provisioning file.
 Search.Product: eADQiWindows 10XVcnh
 title: MultiplePDPContextPolicies
 ms.assetid: c6a17067-5f76-41bd-8df5-39ca71cab5b9

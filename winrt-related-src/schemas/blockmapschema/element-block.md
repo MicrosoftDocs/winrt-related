@@ -1,5 +1,5 @@
 ---
-Description: Represents a block of binary data contained in a file.
+description: Represents a block of binary data contained in a file.
 Search.Product: eADQiWindows 10XVcnh
 title: Block
 ms.assetid: 7b4a9f58-a370-41f1-9234-004fc8ba425b

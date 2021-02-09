@@ -1,5 +1,5 @@
 ---
-Description: Declares an app extensibility point of type windows.appUriHandler.
+description: Declares an app extensibility point of type windows.appUriHandler.
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:AppUriHandler
 ms.assetid: 3ec18f36-df44-46c1-ae8f-721c77e715d5

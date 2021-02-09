@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether or not the package is multi-user aware. 
+description: Indicates whether or not the package is multi-user aware.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:SupportedUsers (Windows 10)
 ms.assetid: 5be5aec1-f253-4e1f-b386-8e9ae815a4e9

@@ -1,5 +1,5 @@
 ---
-Description: Describes how the app tile receives update notifications.
+description: Describes how the app tile receives update notifications.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:TileUpdate (Windows 10)
 ms.assetid: cf529081-b711-4c35-b50c-da0f95ebf3c1

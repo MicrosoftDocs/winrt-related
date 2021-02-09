@@ -1,5 +1,5 @@
 ---
-Description: Defines a 32x32 bitmap (.bmp) or portable network graphics (.png) type image of the MNO's logo.
+description: Defines a 32x32 bitmap (.bmp) or portable network graphics (.png) type image of the MNO's logo.
 Search.Product: eADQiWindows 10XVcnh
 title: Logo
 ms.assetid: 612973f1-2251-46e7-9923-adec93f0683e

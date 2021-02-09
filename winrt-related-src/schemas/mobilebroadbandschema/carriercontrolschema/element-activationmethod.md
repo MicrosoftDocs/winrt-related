@@ -1,5 +1,5 @@
 ---
-Description: Defines an instance of the ActivationMethod element from the WWAN schema.
+description: Defines an instance of the ActivationMethod element from the WWAN schema.
 Search.Product: eADQiWindows 10XVcnh
 title: ActivationMethod
 ms.assetid: bd57da53-5b6a-47e7-a240-5e300ad9d133

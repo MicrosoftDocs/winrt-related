@@ -1,5 +1,5 @@
 ---
-Description: Represents a valid HTTP or HTTPS host name that the app wants to register as able to handle.
+description: Represents a valid HTTP or HTTPS host name that the app wants to register as able to handle.
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:Host
 ms.assetid: 7635ea1b-a5f8-4347-a553-8cabb62d7102

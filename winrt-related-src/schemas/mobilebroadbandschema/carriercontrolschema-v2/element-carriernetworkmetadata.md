@@ -1,5 +1,5 @@
 ---
-Description: Defines the network properties and settings in a subscriber's carrier provisioning file.
+description: Defines the network properties and settings in a subscriber's carrier provisioning file.
 Search.Product: eADQiWindows 10XVcnh
 title: CarrierNetworkMetadata
 ms.assetid: 6b8fa3df-5138-475d-ac95-305c273730fe

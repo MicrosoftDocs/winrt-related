@@ -1,5 +1,5 @@
 ---
-Description: Contains any errors from processing a TetheringProfile element from the last provisioning attempt.
+description: Contains any errors from processing a TetheringProfile element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: TetheringProfile
 ms.assetid: fa2708f2-2200-46ac-b6cd-97d1a51cc867

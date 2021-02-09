@@ -1,5 +1,5 @@
 ---
-Description: Defines the 3X Radio Transmission Technology (3xRTT) standard used for mobile network data.
+description: Defines the 3X Radio Transmission Technology (3xRTT) standard used for mobile network data.
 Search.Product: eADQiWindows 10XVcnh
 title: THREEXRTT
 ms.assetid: 32dbbcc4-06b0-40b3-bcc8-f421bf201207

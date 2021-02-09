@@ -1,6 +1,6 @@
 ---
 title: StoreManifest schema 
-Description: StoreManifest schema 
+description: StoreManifest schema
 Search.Product: eADQiWindows 10XVcnh
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c
 

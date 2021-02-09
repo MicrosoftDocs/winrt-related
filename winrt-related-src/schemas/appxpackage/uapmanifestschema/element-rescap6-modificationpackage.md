@@ -1,5 +1,5 @@
-﻿---
-Description: Indicates whether...
+---
+description: Indicates whether...
 title: rescap6:ModificationPackage
 
 

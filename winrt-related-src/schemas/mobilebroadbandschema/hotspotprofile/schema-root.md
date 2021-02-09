@@ -1,5 +1,5 @@
 ---
-Description: The HotspotProfile schema defines elements that are used to describe login credentials for Wi-Fi hotspots that use the Wireless Internet Service Provider roaming (WISPr) protocol.
+description: The HotspotProfile schema defines elements that are used to describe login credentials for Wi-Fi hotspots that use the Wireless Internet Service Provider roaming (WISPr) protocol.
 Search.Product: eADQiWindows 10XVcnh
 title: HotspotProfile schema
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c

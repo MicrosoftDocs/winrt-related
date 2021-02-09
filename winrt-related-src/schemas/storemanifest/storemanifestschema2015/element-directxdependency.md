@@ -1,5 +1,5 @@
 ---
-Description: Identifies the minimum DirectX level that a device must support in order for your package to run properly.
+description: Identifies the minimum DirectX level that a device must support in order for your package to run properly.
 Search.Product: eADQiWindows 10XVcnh
 title: DirectXDependency
 ms.assetid: 6034e4ef-8a4d-4cdd-8e18-df026a35f4e7

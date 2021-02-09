@@ -1,5 +1,5 @@
 ---
-Description: Defines the file types that the app can share.
+description: Defines the file types that the app can share.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:SupportedFileTypes (in uap:ShareTarget) (Windows 10)
 ms.assetid: 2161f39d-f31f-4ab5-81cc-da46126808a5

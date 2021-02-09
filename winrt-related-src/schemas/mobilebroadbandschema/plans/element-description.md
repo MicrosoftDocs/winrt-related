@@ -1,5 +1,5 @@
 ---
-Description: Defines plan information that specifies the subscriber's Mobile Network Operator (MNO) connection type.
+description: Defines plan information that specifies the subscriber's Mobile Network Operator (MNO) connection type.
 Search.Product: eADQiWindows 10XVcnh
 title: Description
 ms.assetid: e113111a-1d9b-4d04-bd86-86beece204dd

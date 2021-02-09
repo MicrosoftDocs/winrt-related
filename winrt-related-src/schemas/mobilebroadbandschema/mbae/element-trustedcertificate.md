@@ -1,5 +1,5 @@
 ---
-Description: Defines the subject name and issuer name of a trusted certificate required for provisioning on the mobile network.
+description: Defines the subject name and issuer name of a trusted certificate required for provisioning on the mobile network.
 Search.Product: eADQiWindows 10XVcnh
 title: TrustedCertificate
 ms.assetid: 97eae84a-4357-462b-b516-3099916839c6

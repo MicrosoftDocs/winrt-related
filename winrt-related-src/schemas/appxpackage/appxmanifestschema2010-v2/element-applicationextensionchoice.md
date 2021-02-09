@@ -1,5 +1,5 @@
 ---
-Description: The abstract application extension choice element for the XSD substitution group. 
+description: The abstract application extension choice element for the XSD substitution group.
 Search.Product: eADQiWindows 10XVcnh
 title: ApplicationExtensionChoice
 ms.assetid: 9d0e5094-7fb9-4016-8f63-68b74d03cb0f

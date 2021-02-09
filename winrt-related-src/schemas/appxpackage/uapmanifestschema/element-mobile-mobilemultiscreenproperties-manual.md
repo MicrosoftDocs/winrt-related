@@ -1,5 +1,5 @@
 ---
-Description: Declares an app extensibility point of type windows.MobileMultiScreenProperties.
+description: Declares an app extensibility point of type windows.MobileMultiScreenProperties.
 Search.Product: eADQiWindows 10XVcnh
 title: mobile:MobileMultiScreenProperties (Windows 10)
 ms.assetid: 86ea3e53-23e4-4c7a-9490-2944dbcca460

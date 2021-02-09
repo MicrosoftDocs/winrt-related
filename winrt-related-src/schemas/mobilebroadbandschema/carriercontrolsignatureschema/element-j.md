@@ -1,5 +1,5 @@
 ---
-Description: Defines (P- 1) / Q.
+description: Defines (P- 1) / Q.
 Search.Product: eADQiWindows 10XVcnh
 title: J
 ms.assetid: 508dcb74-dda9-4a1b-8629-a846f2066d75

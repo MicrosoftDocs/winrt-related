@@ -1,5 +1,5 @@
 ---
-Description: Defines the application ID used for Packet Data Protocol (PDP) context allowed list.
+description: Defines the application ID used for Packet Data Protocol (PDP) context allowed list.
 Search.Product: eADQiWindows 10XVcnh
 title: AppID
 ms.assetid: 3c43645c-b9ac-4884-85ed-bd4453a890b0

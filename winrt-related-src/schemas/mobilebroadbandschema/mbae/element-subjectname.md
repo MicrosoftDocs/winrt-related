@@ -1,5 +1,5 @@
 ---
-Description: Defines the subject name of the trusted certificate.
+description: Defines the subject name of the trusted certificate.
 Search.Product: eADQiWindows 10XVcnh
 title: SubjectName
 ms.assetid: 63be4106-a116-40b7-9645-fcced74a01ac

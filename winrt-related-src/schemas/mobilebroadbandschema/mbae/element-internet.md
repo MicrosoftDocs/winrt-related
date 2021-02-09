@@ -1,5 +1,5 @@
 ---
-Description: Defines the mobile broadband Internet profile to be used for the mobile network.
+description: Defines the mobile broadband Internet profile to be used for the mobile network.
 Search.Product: eADQiWindows 10XVcnh
 title: Internet
 ms.assetid: ddcce350-4ec2-485d-9b78-e159e4161dbf

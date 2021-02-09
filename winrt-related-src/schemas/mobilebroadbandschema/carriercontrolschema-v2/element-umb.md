@@ -1,5 +1,5 @@
 ---
-Description: Defines the Ultra Mobile Broadband (UMB) system used for mobile network data.
+description: Defines the Ultra Mobile Broadband (UMB) system used for mobile network data.
 Search.Product: eADQiWindows 10XVcnh
 title: UMB
 ms.assetid: 6b10ec79-e20c-4adf-8a40-21abec574f18

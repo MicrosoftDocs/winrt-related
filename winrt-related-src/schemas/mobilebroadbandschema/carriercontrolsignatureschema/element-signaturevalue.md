@@ -1,5 +1,5 @@
 ---
-Description: Defines the signature thumbprint.
+description: Defines the signature thumbprint.
 Search.Product: eADQiWindows 10XVcnh
 title: SignatureValue
 ms.assetid: 52ffacf0-920a-4bde-9b2e-9589161a57ff

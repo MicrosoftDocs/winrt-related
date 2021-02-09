@@ -1,5 +1,5 @@
 ---
-Description: Defines the authentication protocol to use for a context in the Packet Data Protocol (PDP) context policy.
+description: Defines the authentication protocol to use for a context in the Packet Data Protocol (PDP) context policy.
 Search.Product: eADQiWindows 10XVcnh
 title: AuthProtocol
 ms.assetid: 24272c9d-966a-4f02-a64b-6e7116131ba7

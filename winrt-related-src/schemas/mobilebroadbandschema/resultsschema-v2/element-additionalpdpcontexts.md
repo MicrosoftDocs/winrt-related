@@ -1,5 +1,5 @@
 ---
-Description: Contains any errors from processing the AdditionalPDPContexts element from the last provisioning attempt.
+description: Contains any errors from processing the AdditionalPDPContexts element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: AdditionalPDPContexts
 ms.assetid: 4f4a4b43-e475-4d21-b847-0de7282c4f08

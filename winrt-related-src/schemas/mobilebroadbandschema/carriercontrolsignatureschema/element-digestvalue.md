@@ -1,5 +1,5 @@
 ---
-Description: Defines the digest value as specified in XML DSIG.
+description: Defines the digest value as specified in XML DSIG.
 Search.Product: eADQiWindows 10XVcnh
 title: DigestValue
 ms.assetid: 2145779c-b719-46f3-aeea-02bc36638962

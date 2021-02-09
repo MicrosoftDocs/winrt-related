@@ -1,5 +1,5 @@
 ---
-Description: Enables your package manifest to reference content outside the package, in a specific location on disk, for sparse package scenarios.
+description: Enables your package manifest to reference content outside the package, in a specific location on disk, for sparse package scenarios.
 title: uap10:AllowExternalContent
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference

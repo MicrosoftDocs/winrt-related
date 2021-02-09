@@ -1,5 +1,5 @@
 ---
-Description: Defines the Enhanced Data rates for the GSM Evolution (EDGE) protocol used for mobile network data.
+description: Defines the Enhanced Data rates for the GSM Evolution (EDGE) protocol used for mobile network data.
 Search.Product: eADQiWindows 10XVcnh
 title: EDGE
 ms.assetid: 237fa83f-9af5-4730-94af-28680f9eef7c

@@ -1,5 +1,5 @@
 ---
-Description: Specifies an additional service on which the service that corresponds to the grandparent serverpreview:NTService element depends.
+description: Specifies an additional service on which the service that corresponds to the grandparent serverpreview:NTService element depends.
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:ServiceDependency
 ms.assetid: e0874f7b-4e67-4da6-9f43-2e176f595675

@@ -1,5 +1,5 @@
 ---
-Description: StoreManifest schema for Windows 8.1 and earlier
+description: StoreManifest schema for Windows 8.1 and earlier
 Search.Product: eADQiWindows 10XVcnh
 title: StoreManifest
 ms.assetid: 01d2ebcb-9da0-4bcc-9eb4-c284810f894b

@@ -1,5 +1,5 @@
 ---
-Description: Contains any errors from processing the CarrierPolicy schema from the last provisioning attempt.
+description: Contains any errors from processing the CarrierPolicy schema from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: Policy
 ms.assetid: 4cabf792-57b6-42b1-94bc-1f4138d09534

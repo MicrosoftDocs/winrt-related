@@ -1,5 +1,5 @@
 ---
-Description: Defines a dependency on a host app package for the current app package.
+description: Defines a dependency on a host app package for the current app package.
 title: uap10:HostRuntimeDependency
 keywords: windows 10, uwp, schema, package manifest, host app, hosted app
 ms.topic: reference

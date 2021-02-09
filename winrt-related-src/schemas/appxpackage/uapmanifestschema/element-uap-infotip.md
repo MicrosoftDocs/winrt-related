@@ -1,5 +1,5 @@
 ---
-Description: Defines a string that provides additional info to the user about the file type.
+description: Defines a string that provides additional info to the user about the file type.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:InfoTip (Windows 10)
 ms.assetid: 98a13282-74da-46e9-9790-54c557f8026c

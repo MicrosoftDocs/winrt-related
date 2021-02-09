@@ -1,5 +1,5 @@
 ---
-Description: Defines an instance of the Messages element from the WWAN schema.
+description: Defines an instance of the Messages element from the WWAN schema.
 Search.Product: eADQiWindows 10XVcnh
 title: Messages
 ms.assetid: 08283c2b-d44e-4d03-8a0f-f213397cb93d

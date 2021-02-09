@@ -1,5 +1,5 @@
 ---
-Description: Declares an app extensibility point of type windows.contact.
+description: Declares an app extensibility point of type windows.contact.
 Search.Product: eADQiWindows 10XVcnh
 title: Contact
 ms.assetid: 28ca2446-b797-4699-bd5a-56f1cfdf5782

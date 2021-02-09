@@ -1,5 +1,5 @@
 ---
-Description: Contains a single binding element that defines a toast.
+description: Contains a single binding element that defines a toast.
 Search.Product: eADQiWindows 10XVcnh
 title: visual
 ms.assetid: f8de9ed6-53d4-4ba5-a4e5-df540c93bd89

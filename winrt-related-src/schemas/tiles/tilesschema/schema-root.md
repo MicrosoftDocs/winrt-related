@@ -1,5 +1,5 @@
 ---
-Description: Tile schema elements used to define a tile update, and specify the template, images, and text that are used to customize the tile, branding specifics, and language information.
+description: Tile schema elements used to define a tile update, and specify the template, images, and text that are used to customize the tile, branding specifics, and language information.
 Search.Product: eADQiWindows 10XVcnh
 title: Tile schema
 ms.assetid: 20fba0dd-b7d6-47c8-9d9f-a8831bda627c

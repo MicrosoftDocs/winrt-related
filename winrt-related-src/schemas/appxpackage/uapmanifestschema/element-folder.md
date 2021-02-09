@@ -1,5 +1,5 @@
 ---
-Description: Specifies a folder that the package shares with other packages from the same publisher.
+description: Specifies a folder that the package shares with other packages from the same publisher.
 Search.Product: eADQiWindows 10XVcnh
 title: Folder (Windows 10)
 ms.assetid: b412b98e-130a-4152-a264-49a42ef2d97c

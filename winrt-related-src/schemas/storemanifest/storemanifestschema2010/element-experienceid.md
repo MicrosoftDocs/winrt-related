@@ -1,5 +1,5 @@
 ---
-Description: The ExperienceId element specifies a GUID that links the device metadata to a device app that can be automatically acquired when the device is first connected.
+description: The ExperienceId element specifies a GUID that links the device metadata to a device app that can be automatically acquired when the device is first connected.
 Search.Product: eADQiWindows 10XVcnh
 title: ExperienceId
 ms.assetid: fb3585cf-8f9c-4ae6-8430-685ccc132a98

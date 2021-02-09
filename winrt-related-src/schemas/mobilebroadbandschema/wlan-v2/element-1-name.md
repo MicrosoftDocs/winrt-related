@@ -1,5 +1,5 @@
 ---
-Description: Defines the SSIDPrefix of a wireless LAN in alphanumeric format.
+description: Defines the SSIDPrefix of a wireless LAN in alphanumeric format.
 Search.Product: eADQiWindows 10XVcnh
 title: name (in SSIDPrefix)
 ms.assetid: 9eab41c7-29ff-42aa-9647-f18ff72b3faf

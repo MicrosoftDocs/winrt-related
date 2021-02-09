@@ -1,5 +1,5 @@
 ---
-Description: Contains the user name and password required for WISPr authentication.
+description: Contains the user name and password required for WISPr authentication.
 Search.Product: eADQiWindows 10XVcnh
 title: BasicAuth
 ms.assetid: bd926228-8384-42ee-9a4d-2d8c6fc8ff5a

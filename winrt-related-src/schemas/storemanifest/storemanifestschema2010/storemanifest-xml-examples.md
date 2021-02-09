@@ -1,6 +1,6 @@
 ---
 title: StoreManifest XML example (Windows 8.1 and earlier)
-Description: XML example of a StoreManifest XML file for a package targeting Windows 8.1 or earlier.
+description: XML example of a StoreManifest XML file for a package targeting Windows 8.1 or earlier.
 ms.assetid: 7d6eaaf8-b0f0-4d8a-b2a6-c9a8f90704c9
 
 

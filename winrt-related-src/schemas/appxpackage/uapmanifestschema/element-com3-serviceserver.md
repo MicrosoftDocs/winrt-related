@@ -1,6 +1,6 @@
 ---
 title: com3:ServiceServer
-description: 
+description: "Learn more about: com3:ServiceServer"
 ms.date: 04/04/2020
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com

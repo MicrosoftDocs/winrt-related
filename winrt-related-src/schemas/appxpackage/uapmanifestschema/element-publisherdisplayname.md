@@ -1,5 +1,5 @@
 ---
-Description: A friendly name for the publisher that can be displayed to users.
+description: A friendly name for the publisher that can be displayed to users.
 Search.Product: eADQiWindows 10XVcnh
 title: PublisherDisplayName (Windows 10)
 ms.assetid: 8df2d218-e62d-4b2e-8db5-3436c67aa04c

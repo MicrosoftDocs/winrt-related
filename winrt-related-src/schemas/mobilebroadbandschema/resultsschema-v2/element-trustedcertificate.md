@@ -1,5 +1,5 @@
 ---
-Description: Contains errors from processing any of the TrustedCertificate element from the last provisioning attempt.
+description: Contains errors from processing any of the TrustedCertificate element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: TrustedCertificate
 ms.assetid: 97eae84a-4357-462b-b516-3099916839c6

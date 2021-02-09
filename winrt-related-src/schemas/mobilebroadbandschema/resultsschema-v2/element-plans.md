@@ -1,5 +1,5 @@
 ---
-Description: Contains any errors from processing the Plans element from the last provisioning attempt.
+description: Contains any errors from processing the Plans element from the last provisioning attempt.
 
 Search.Product: eADQiWindows 10XVcnh
 title: Plans

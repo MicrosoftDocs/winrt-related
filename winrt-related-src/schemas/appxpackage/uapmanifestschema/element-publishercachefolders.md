@@ -1,5 +1,5 @@
 ---
-Description: Declares a package extensibility point of type windows.publisherCacheFolders.
+description: Declares a package extensibility point of type windows.publisherCacheFolders.
 Search.Product: eADQiWindows 10XVcnh
 title: PublisherCacheFolders (Windows 10)
 ms.assetid: 71425cb8-5f6b-415a-9791-28c7407869dc

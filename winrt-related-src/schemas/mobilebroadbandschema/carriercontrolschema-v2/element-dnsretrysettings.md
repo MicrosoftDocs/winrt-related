@@ -1,5 +1,5 @@
 ---
-Description: Defines the network settings for DNS retries in a subscriber's carrier provisioning file.
+description: Defines the network settings for DNS retries in a subscriber's carrier provisioning file.
 Search.Product: eADQiWindows 10XVcnh
 title: DNSRetrySettings
 ms.assetid: 2749204f-5d80-4b44-9c65-b0d62931e269

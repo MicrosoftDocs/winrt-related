@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the contents of the package will be allowed to execute.
+description: Indicates whether the contents of the package will be allowed to execute.
 title: uap6:AllowExecution
 
 

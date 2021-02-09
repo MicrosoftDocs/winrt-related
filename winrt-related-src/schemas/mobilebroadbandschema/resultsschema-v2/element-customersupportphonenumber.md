@@ -1,5 +1,5 @@
 ---
-Description: Contains any errors from processing the CustomerSupportPhoneNumber element from the last provisioning attempt.
+description: Contains any errors from processing the CustomerSupportPhoneNumber element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: CustomerSupportPhoneNumber
 ms.assetid: a5fefff4-22ce-4219-be12-4db9520cfa47

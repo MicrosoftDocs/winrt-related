@@ -1,5 +1,5 @@
 ---
-Description: Contains any errors from processing a PDPContextPolicy element from the last provisioning attempt.
+description: Contains any errors from processing a PDPContextPolicy element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: PDPContextPolicy
 ms.assetid: 2f17fea0-fb18-416d-9bb2-f70f1b53157e

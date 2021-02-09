@@ -1,5 +1,5 @@
 ---
-Description: Defines an instance of the Branding element from the WWAN schema.
+description: Defines an instance of the Branding element from the WWAN schema.
 Search.Product: eADQiWindows 10XVcnh
 title: Branding
 ms.assetid: fdbfff1d-4109-4c4e-b996-e53ab04d03cf

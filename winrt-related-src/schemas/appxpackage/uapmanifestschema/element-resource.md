@@ -1,5 +1,5 @@
 ---
-Description: Declares a language, display scale, or DirectX feature level for resources that the package contains. The scale and DirectX feature level attributes are common for all resources in the package.
+description: Declares a language, display scale, or DirectX feature level for resources that the package contains. The scale and DirectX feature level attributes are common for all resources in the package.
 Search.Product: eADQiWindows 10XVcnh
 title: Resource
 ms.assetid: 445e7de7-e778-4666-b099-3d7f6f0125c7

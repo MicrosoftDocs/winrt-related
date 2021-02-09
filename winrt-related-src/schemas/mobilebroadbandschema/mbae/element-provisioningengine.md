@@ -1,5 +1,5 @@
 ---
-Description: Defines the trusted certificate values for Subject Name and Issuer Name required for provisioning on the mobile network.
+description: Defines the trusted certificate values for Subject Name and Issuer Name required for provisioning on the mobile network.
 Search.Product: eADQiWindows 10XVcnh
 title: ProvisioningEngine
 ms.assetid: 5ed0a32d-3a5b-4834-929a-d7b9ee3f1371

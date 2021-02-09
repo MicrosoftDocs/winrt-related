@@ -1,5 +1,5 @@
 ---
-Description: Specifies that the toast notification is being used to indicate an incoming call or an alarm, with appropriate commands associated with each scenario.
+description: Specifies that the toast notification is being used to indicate an incoming call or an alarm, with appropriate commands associated with each scenario.
 Search.Product: eADQiWindows 10XVcnh
 title: commands
 ms.assetid: 34e5b696-bc5c-40d1-abe0-42b10a0a6611

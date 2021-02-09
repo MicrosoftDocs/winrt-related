@@ -1,5 +1,5 @@
 ---
-Description: Defines class friendly names for the standard or protocol used for mobile network data in a subscriber's carrier provisioning file.
+description: Defines class friendly names for the standard or protocol used for mobile network data in a subscriber's carrier provisioning file.
 Search.Product: eADQiWindows 10XVcnh
 title: DataClassFriendlyNames
 ms.assetid: 14e6fa1b-991e-4420-a675-52f4c120f5e4

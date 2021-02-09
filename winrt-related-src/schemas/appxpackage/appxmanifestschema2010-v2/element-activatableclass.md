@@ -1,5 +1,5 @@
 ---
-Description: Declares a runtime class associated with the extensibility point.
+description: Declares a runtime class associated with the extensibility point.
 Search.Product: eADQiWindows 10XVcnh
 title: 'ActivatableClass (type: CT_InProcessActivatableClass)'
 ms.assetid: c75a7a4d-1864-4bff-95e6-67cd007ee192

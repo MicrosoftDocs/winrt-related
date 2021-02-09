@@ -1,5 +1,5 @@
 ---
-Description: Defines the Access Point Name (APN) or dial string to be used to establish a data connection. 
+description: Defines the Access Point Name (APN) or dial string to be used to establish a data connection.
 Search.Product: eADQiWindows 10XVcnh
 title: AccessString
 ms.assetid: 86cd5d68-ef31-4a85-b3e2-3132c39f6bc4

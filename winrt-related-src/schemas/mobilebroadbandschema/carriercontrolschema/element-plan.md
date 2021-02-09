@@ -1,5 +1,5 @@
 ---
-Description: Defines an instance of the Plan element from the Plans schema.
+description: Defines an instance of the Plan element from the Plans schema.
 Search.Product: eADQiWindows 10XVcnh
 title: Plan
 ms.assetid: 880ae12d-cd46-4b3b-9b24-3b1f92a64fd0

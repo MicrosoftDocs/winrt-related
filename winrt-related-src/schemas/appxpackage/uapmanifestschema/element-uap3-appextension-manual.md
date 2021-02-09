@@ -1,5 +1,5 @@
 ---
-Description: Declares an app extensibility point of type windows.appExtension.
+description: Declares an app extensibility point of type windows.appExtension.
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:AppExtension
 ms.assetid: 88e4b56d-e2c2-4782-bedd-eae33d069c2c

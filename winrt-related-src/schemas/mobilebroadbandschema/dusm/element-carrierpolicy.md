@@ -1,5 +1,5 @@
 ---
-Description: Defines optional setting for Windows on this connection.
+description: Defines optional setting for Windows on this connection.
 Search.Product: eADQiWindows 10XVcnh
 title: CarrierPolicy
 ms.assetid: 36db68fb-6961-47c2-bc36-84aa5ec4a5c5

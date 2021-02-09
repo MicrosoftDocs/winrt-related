@@ -1,5 +1,5 @@
 ---
-Description: Contains any errors from processing a WLANProfile element from the last provisioning attempt.
+description: Contains any errors from processing a WLANProfile element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: WLANProfile
 ms.assetid: adafca95-23be-417f-8c3f-7c340222ecfd

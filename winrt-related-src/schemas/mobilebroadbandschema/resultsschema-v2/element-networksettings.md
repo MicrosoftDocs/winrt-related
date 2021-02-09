@@ -1,5 +1,5 @@
 ---
-Description: Contains any errors from processing the NetworkSettings element from the last provisioning attempt.
+description: Contains any errors from processing the NetworkSettings element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: NetworkSettings
 ms.assetid: 82e8282b-5405-4fcf-b835-83fe6ec9a460

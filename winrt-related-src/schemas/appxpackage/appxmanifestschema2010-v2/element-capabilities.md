@@ -1,5 +1,5 @@
 ---
-Description: Declares the access to protected user resources that the package requires.
+description: Declares the access to protected user resources that the package requires.
 Search.Product: eADQiWindows 10XVcnh
 title: Capabilities
 ms.assetid: 508b9a46-3dd4-4bce-875b-fb7cadadceb1

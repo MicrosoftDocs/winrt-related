@@ -1,5 +1,5 @@
 ---
-Description: Defines the Enhanced Voice-Data Optimized (EVDO) standard used for mobile network data.
+description: Defines the Enhanced Voice-Data Optimized (EVDO) standard used for mobile network data.
 Search.Product: eADQiWindows 10XVcnh
 title: ONEXEVDO
 ms.assetid: e29913ca-e464-40e1-a1e1-2a5f86402b49

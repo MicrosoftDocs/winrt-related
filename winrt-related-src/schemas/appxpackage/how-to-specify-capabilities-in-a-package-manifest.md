@@ -1,5 +1,5 @@
 ---
-Description: To declare each capability required by your app, add a Capability element to the package manifest.
+description: To declare each capability required by your app, add a Capability element to the package manifest.
 Search.Product: eADQiWindows 10XVcnh
 title: How to specify capabilities in a package manifest
 ms.assetid: 7ca1d523-bc49-4009-a2ef-238c713cd907

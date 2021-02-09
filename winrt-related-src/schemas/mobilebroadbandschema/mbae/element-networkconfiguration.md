@@ -1,5 +1,5 @@
 ---
-Description: Defines the network configuration for the mobile broadband Purchase and Internet profiles to be used for mobile network.
+description: Defines the network configuration for the mobile broadband Purchase and Internet profiles to be used for mobile network.
 Search.Product: eADQiWindows 10XVcnh
 title: NetworkConfiguration
 ms.assetid: 528097af-092d-4aaf-abcc-cef110f1018e

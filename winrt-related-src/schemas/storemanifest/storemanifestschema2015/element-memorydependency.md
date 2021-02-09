@@ -1,5 +1,5 @@
 ---
-Description: Identifies the minimum memory that a device must have in order for your package to run properly.
+description: Identifies the minimum memory that a device must have in order for your package to run properly.
 Search.Product: eADQiWindows 10XVcnh
 title: MemoryDependency
 ms.assetid: f575ea28-e218-4061-b3b8-6cc0cd4d9230

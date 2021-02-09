@@ -1,5 +1,5 @@
 ---
-Description: ExclusiveOptOut
+description: ExclusiveOptOut
 Search.Product: eADQiWindows 10XVcnh
 title: ExclusiveOptOut
 ms.assetid: f711637b-dbe2-4e90-8fdf-c7ea3ee4e986

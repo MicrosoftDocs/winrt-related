@@ -1,5 +1,5 @@
 ---
-Description: Defines the root element of a bundle manifest.
+description: Defines the root element of a bundle manifest.
 Search.Product: eADQiWindows 10XVcnh
 title: Bundle
 ms.assetid: 34dfa061-f42f-40f2-bf36-ee9c21ecd096

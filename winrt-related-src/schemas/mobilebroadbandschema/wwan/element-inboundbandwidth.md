@@ -1,5 +1,5 @@
 ---
-Description: Defines a value representing the effective link speed of the subscriber’s inbound connection.
+description: Defines a value representing the effective link speed of the subscriber’s inbound connection.
 Search.Product: eADQiWindows 10XVcnh
 title: InboundBandwidth
 ms.assetid: a754547a-eeb5-4397-b3a9-7640886394d4

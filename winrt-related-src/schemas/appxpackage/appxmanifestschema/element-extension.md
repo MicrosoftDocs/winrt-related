@@ -1,5 +1,5 @@
 ---
-Description: Declares an extensibility point for the package.
+description: Declares an extensibility point for the package.
 Search.Product: eADQiWindows 10XVcnh
 title: 'Extension (in type: CT_PackageExtensions)'
 ms.assetid: 72f0d1ae-15a4-4eba-a3ca-990f4de2b697

@@ -1,5 +1,5 @@
 ---
-Description: To declare an extensibility point for your app, use the Extension (CT\_ApplicationExtensions) element. To declare an extensibility point for the package, use the Extension (CT\_PackageExtensions) element.
+description: To declare an extensibility point for your app, use the Extension (CT\_ApplicationExtensions) element. To declare an extensibility point for the package, use the Extension (CT\_PackageExtensions) element.
 Search.Product: eADQiWindows 10XVcnh
 title: How to specify extensions in a package manifest
 ms.assetid: 0c781926-91a9-4daf-b59b-ad9bd4ea71c8

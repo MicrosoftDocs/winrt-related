@@ -1,5 +1,5 @@
 ---
-Description: Defines a network key or pass phrase. 
+description: Defines a network key or pass phrase.
 Search.Product: eADQiWindows 10XVcnh
 title: keyMaterial
 ms.assetid: 9079ea77-b72a-43fc-afca-871d9533186b

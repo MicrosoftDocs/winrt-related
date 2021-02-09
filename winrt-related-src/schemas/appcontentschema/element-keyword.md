@@ -1,5 +1,5 @@
 ---
-Description: A one of the System.Keywords that describes the item.
+description: A one of the System.Keywords that describes the item.
 Search.Product: eADQiWindows 10XVcnh
 title: Keyword
 ms.assetid: 16dd7165-e581-4b91-b938-6c0f63b5e977

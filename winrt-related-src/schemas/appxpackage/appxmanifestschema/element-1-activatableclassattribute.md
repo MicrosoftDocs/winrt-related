@@ -1,5 +1,5 @@
 ---
-Description: Defines an attribute of the class that is stored in the Windows Runtime property store.
+description: Defines an attribute of the class that is stored in the Windows Runtime property store.
 Search.Product: eADQiWindows 10XVcnh
 title: ActivatableClassAttribute
 ms.assetid: 74ca4fd4-1a67-4e1f-b933-89b2ffa2fa17

@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether Windows will enforce runtime package integrity checks on the package.
+description: Indicates whether Windows will enforce runtime package integrity checks on the package.
 title: uap10:PackageIntegrity
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference

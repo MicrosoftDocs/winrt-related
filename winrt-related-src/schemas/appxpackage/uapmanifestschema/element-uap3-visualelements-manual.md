@@ -1,5 +1,5 @@
 ---
-Description: Describes the visual aspects of the app.
+description: Describes the visual aspects of the app.
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:VisualElements (Windows 10)
 ms.assetid: f98fc3ac-5d51-4dfb-b7a0-1985b4e568af

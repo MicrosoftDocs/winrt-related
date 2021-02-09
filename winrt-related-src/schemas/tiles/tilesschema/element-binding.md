@@ -1,5 +1,5 @@
 ---
-Description: Specifies the tile template.
+description: Specifies the tile template.
 Search.Product: eADQiWindows 10XVcnh
 title: binding
 ms.assetid: c88c9e7a-d929-4d1b-95e4-65df88cf9844

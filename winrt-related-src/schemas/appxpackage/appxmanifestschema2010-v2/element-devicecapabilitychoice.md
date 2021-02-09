@@ -1,5 +1,5 @@
 ---
-Description: The abstract device capability choice element for the XSD substitution group. 
+description: The abstract device capability choice element for the XSD substitution group.
 Search.Product: eADQiWindows 10XVcnh
 title: DeviceCapabilityChoice
 ms.assetid: 44d764bb-041e-455d-862e-23fb95eec9e9

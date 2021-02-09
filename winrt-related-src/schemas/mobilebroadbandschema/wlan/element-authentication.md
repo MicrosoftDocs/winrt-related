@@ -1,5 +1,5 @@
 ---
-Description: Defines the authentication method to be used by this profile to connect to a WLAN.
+description: Defines the authentication method to be used by this profile to connect to a WLAN.
 Search.Product: eADQiWindows 10XVcnh
 title: authentication
 ms.assetid: 34e5552a-98b3-4b2c-8dde-dce34578bc9a

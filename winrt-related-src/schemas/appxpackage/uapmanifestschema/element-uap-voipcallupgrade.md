@@ -1,5 +1,5 @@
 ---
-Description: Indicates that the app supports video upgrade
+description: Indicates that the app supports video upgrade
 Search.Product: eADQiWindows 10XVcnh
 title: uap:VoipCallUpgrade
 ms.assetid: e2566775-a4fa-476b-af65-ab252dec514d

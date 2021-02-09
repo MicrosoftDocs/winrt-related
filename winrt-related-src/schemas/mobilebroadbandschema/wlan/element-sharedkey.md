@@ -1,5 +1,5 @@
 ---
-Description: Defines optional shared key information to be used by this profile to connect to a WLAN.
+description: Defines optional shared key information to be used by this profile to connect to a WLAN.
 Search.Product: eADQiWindows 10XVcnh
 title: sharedKey
 ms.assetid: e4a05934-b2a1-4237-93ab-2b1b5831906f

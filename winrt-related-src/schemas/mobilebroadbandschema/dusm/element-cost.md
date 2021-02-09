@@ -1,5 +1,5 @@
 ---
-Description: Defines a set of meter cost information that specifies the metered state of a subscriber's connection to a Mobile Network Operator (MNO). 
+description: Defines a set of meter cost information that specifies the metered state of a subscriber's connection to a Mobile Network Operator (MNO).
 Search.Product: eADQiWindows 10XVcnh
 title: Cost
 ms.assetid: d562df54-f0a6-4fbd-bddc-26411f381372

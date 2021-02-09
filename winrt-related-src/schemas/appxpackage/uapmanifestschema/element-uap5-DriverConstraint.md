@@ -1,5 +1,5 @@
-﻿---
-Description: Specifies the details of a driver paired with a UWP app.
+---
+description: Specifies the details of a driver paired with a UWP app.
 title: uap5:DriverConstraint
 
 

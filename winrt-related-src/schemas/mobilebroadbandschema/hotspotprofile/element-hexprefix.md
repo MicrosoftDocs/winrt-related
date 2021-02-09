@@ -1,5 +1,5 @@
 ---
-Description: Defines a class of wireless LANs whose SSIDs begin with the bytes provided.
+description: Defines a class of wireless LANs whose SSIDs begin with the bytes provided.
 Search.Product: eADQiWindows 10XVcnh
 title: hexPrefix
 ms.assetid: 9ea0533f-7e1a-4e08-ae1a-37e024b37278

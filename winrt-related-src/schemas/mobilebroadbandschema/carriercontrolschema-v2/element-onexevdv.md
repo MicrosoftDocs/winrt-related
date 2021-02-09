@@ -1,5 +1,5 @@
 ---
-Description: Defines the 1x Evolution-Data and Voice (1xEV-DV) standards used for mobile network data.
+description: Defines the 1x Evolution-Data and Voice (1xEV-DV) standards used for mobile network data.
 Search.Product: eADQiWindows 10XVcnh
 title: ONEXEVDV
 ms.assetid: 63c0768e-db8c-4506-a7fa-93b312dcf960

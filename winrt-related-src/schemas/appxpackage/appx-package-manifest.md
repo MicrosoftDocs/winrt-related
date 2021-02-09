@@ -1,5 +1,5 @@
 ---
-Description: The package manifest is an XML document that contains the info the system needs to deploy, display, or update a Windows app. 
+description: The package manifest is an XML document that contains the info the system needs to deploy, display, or update a Windows app.
 Search.Product: eADQiWindows 10XVcnh
 title: App package manifest
 ms.assetid: e3b9d324-c3cd-46e4-b160-37a45e1c349b

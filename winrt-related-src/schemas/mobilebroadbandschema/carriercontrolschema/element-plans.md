@@ -1,5 +1,5 @@
 ---
-Description: Defines information for a subscriber's connection plans to a Mobile Network Operator's (MNO) network.
+description: Defines information for a subscriber's connection plans to a Mobile Network Operator's (MNO) network.
 Search.Product: eADQiWindows 10XVcnh
 title: Plans
 ms.assetid: f6bdcd56-748b-4d9e-86fd-10467df0e7f3

@@ -1,5 +1,5 @@
 ---
-Description: Defines parameters used to establish trust and refresh settings for future provisioning attempts.
+description: Defines parameters used to establish trust and refresh settings for future provisioning attempts.
 Search.Product: eADQiWindows 10XVcnh
 title: Provisioning
 ms.assetid: a6e7f546-9036-4796-b57d-0d45b591f3d6

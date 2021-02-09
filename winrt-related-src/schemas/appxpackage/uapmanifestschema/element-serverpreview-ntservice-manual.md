@@ -1,5 +1,5 @@
 ---
-Description: Identifies an NT Service to install, update, or uninstall on Nano Server.
+description: Identifies an NT Service to install, update, or uninstall on Nano Server.
 Search.Product: eADQiWindows 10XVcnh
 title: serverpreview:NTService
 ms.assetid: 4ce23453-fffb-47a0-aa32-8d2b900de356

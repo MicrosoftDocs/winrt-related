@@ -1,5 +1,5 @@
 ---
-Description: Defines a unique subscriber account identifier to which this provisioning attempt applies.
+description: Defines a unique subscriber account identifier to which this provisioning attempt applies.
 Search.Product: eADQiWindows 10XVcnh
 title: SubscriberId
 ms.assetid: 45dab45a-a745-4719-b091-abb83f854084

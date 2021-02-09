@@ -1,5 +1,5 @@
 ---
-Description: Declares a language for resources contained in the package.
+description: Declares a language for resources contained in the package.
 Search.Product: eADQiWindows 10XVcnh
 title: Resource
 ms.assetid: 445e7de7-e778-4666-b099-3d7f6f0125c7

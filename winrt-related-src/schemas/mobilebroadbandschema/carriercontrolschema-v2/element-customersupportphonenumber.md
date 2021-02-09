@@ -1,5 +1,5 @@
 ---
-Description: Defines the phone number for customer support in a subscriber's carrier provisioning file.
+description: Defines the phone number for customer support in a subscriber's carrier provisioning file.
 Search.Product: eADQiWindows 10XVcnh
 title: CustomerSupportPhoneNumber
 ms.assetid: a5fefff4-22ce-4219-be12-4db9520cfa47

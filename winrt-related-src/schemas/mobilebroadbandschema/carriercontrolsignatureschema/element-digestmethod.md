@@ -1,5 +1,5 @@
 ---
-Description: Defines the algorithm used to generate DigestValue
+description: Defines the algorithm used to generate DigestValue
 Search.Product: eADQiWindows 10XVcnh
 title: DigestMethod
 ms.assetid: de7b02d8-8d72-4e94-887f-5f319784e79b

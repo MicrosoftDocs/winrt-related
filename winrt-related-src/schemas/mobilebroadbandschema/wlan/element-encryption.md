@@ -1,5 +1,5 @@
 ---
-Description: Defines the type of data encryption to be used by this profile to connect to a WLAN.
+description: Defines the type of data encryption to be used by this profile to connect to a WLAN.
 Search.Product: eADQiWindows 10XVcnh
 title: encryption
 ms.assetid: 9d00087e-32e9-49ae-8bf6-b4c62819e800

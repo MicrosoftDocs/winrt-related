@@ -1,5 +1,5 @@
 ---
-Description: Specifies a badge's value or glyph.
+description: Specifies a badge's value or glyph.
 Search.Product: eADQiWindows 10XVcnh
 title: badge
 ms.assetid: b16170df-5c92-4b03-8f4d-6d155d114725

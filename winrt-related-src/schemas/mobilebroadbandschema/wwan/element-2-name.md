@@ -1,5 +1,5 @@
 ---
-Description: Defines the profile name.
+description: Defines the profile name.
 Search.Product: eADQiWindows 10XVcnh
 title: 'Name (type: NameType)'
 ms.assetid: 4cd85e0d-4b37-4d64-86fd-406ec368a532

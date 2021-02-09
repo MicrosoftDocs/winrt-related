@@ -1,5 +1,5 @@
 ---
-Description: Contains any errors from processing the Signature element from the last provisioning attempt.
+description: Contains any errors from processing the Signature element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
 title: Signature
 ms.assetid: 58a2b918-192d-41ee-879c-b739b498bff0

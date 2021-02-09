@@ -1,5 +1,5 @@
 ---
-Description: Defines how to interpret the unit fields corresponding to each number field. 
+description: Defines how to interpret the unit fields corresponding to each number field.
 Search.Product: eADQiWindows 10XVcnh
 title: Units
 ms.assetid: 4e4be814-8934-48ae-902a-dd5f5a2dd4cb

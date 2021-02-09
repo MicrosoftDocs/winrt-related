@@ -1,5 +1,5 @@
 ---
-Description: Defines additional properties and settings in a subscriber's carrier provisioning file. 
+description: Defines additional properties and settings in a subscriber's carrier provisioning file.
 Search.Product: eADQiWindows 10XVcnh
 title: Extensions\_v2
 ms.assetid: 698df4b4-94ce-4516-bcbc-92cae505c405

@@ -1,5 +1,5 @@
 ---
-Description: Declares an app extensibility point of type windows.emailDataProvider.
+description: Declares an app extensibility point of type windows.emailDataProvider.
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:EmailDataProvider (Windows 10)
 ms.assetid: 113e2e55-a05b-4bb7-9091-5d8f92272103

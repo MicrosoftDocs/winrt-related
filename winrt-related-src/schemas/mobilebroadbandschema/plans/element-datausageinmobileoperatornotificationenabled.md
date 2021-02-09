@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the NetworkOperatorNotificationTrigger should include data usage notifications.
+description: Indicates whether the NetworkOperatorNotificationTrigger should include data usage notifications.
 Search.Product: eADQiWindows 10XVcnh
 title: DataUsageInMobileOperatorNotificationEnabled
 ms.assetid: 232adaba-ec76-49a3-956c-438389548e60
