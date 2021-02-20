@@ -834,7 +834,7 @@ As a special performance optimization, struct types (and no other type), which a
 ```idl
 runtimeclass Test
 {
-    static bool IsIdentity(ref const Matrix4x4 m);
+    static Boolean IsIdentity(ref const Windows.Foundation.Numerics.Matrix4x4 m);
 }
 ```
 
