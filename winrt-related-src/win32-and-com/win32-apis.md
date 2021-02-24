@@ -4342,8 +4342,8 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 
 | API | Requirements |
 | -----| --------------|
-| [InstallColorProfileA](/previous-versions/windows/desktop/wcs/installcolorprofile) | Introduced into mscms.dll in 10.0.17763. |
-| [InstallColorProfileW](/previous-versions/windows/desktop/wcs/installcolorprofile) | Introduced into mscms.dll in 10.0.17763. |
+| [InstallColorProfileA](/windows/win32/api/icm/nf-icm-installcolorprofilea) | Introduced into mscms.dll in 10.0.17763. |
+| [InstallColorProfileW](/windows/win32/api/icm/nf-icm-installcolorprofilew) | Introduced into mscms.dll in 10.0.17763. |
 | ColorAdapterGetSystemModifyWhitePointCaps | Introduced into mscms.dll in 10.0.17763. |
 | ColorAdapterGetDisplayCurrentStateID | Introduced into mscms.dll in 10.0.17763. |
 | ColorAdapterGetDisplayTransformData | Introduced into mscms.dll in 10.0.17763. |
