@@ -27,12 +27,6 @@ For an explanation of the implementation type and projected type concepts, see [
 ```cppwinrt
 template <typename D, typename... Args>
 auto make(Args&&... args);
-
-template <typename D, typename... Args>
-auto make(Args&&... args);
-
-template <typename D, typename... Args>
-auto make(Args&&... args);
 ```
 
 ### Template parameters
