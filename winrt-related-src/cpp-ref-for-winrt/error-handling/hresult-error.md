@@ -85,11 +85,11 @@ Retrieves the code for the error represented by the **hresult_error** object.
 
 ### Syntax
 ```cppwinrt
-HRESULT code() const noexcept;
+winrt::hresult code() const noexcept;
 ```
 
 ### Return value 
-An HRESULT error code.
+A **winrt::hresult** error code.
 
 ## hresult_error::from_abi static data member
 An instance of type [hresult_error::from_abi_t](#hresult_errorfrom_abi_t-type), which can be passed to the constructor of **hresult_error** (or a derived type) to indicate that the constructor should try to retrieve restricted error info.

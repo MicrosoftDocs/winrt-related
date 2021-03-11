@@ -2168,6 +2168,8 @@
       href: cpp-ref-for-winrt/map-base.md
     - name: "map_view_base struct template"
       href: cpp-ref-for-winrt/map-view-base.md
+    - name: "name_of function template"
+      href: cpp-ref-for-winrt/name-of.md
     - name: "no_weak_ref marker struct"
       href: cpp-ref-for-winrt/no-weak-ref.md
     - name: "non_agile marker struct"

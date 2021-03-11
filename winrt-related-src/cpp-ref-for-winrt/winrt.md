@@ -95,6 +95,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [make_agile function template](make-agile.md) | A helper function that returns an [agile_ref](agile-ref.md) object, representing an agile reference to a C++/WinRT object or interface. |
 | [make_self function template](make-self.md) | A factory method that returns a [com_ptr](com-ptr.md) to an instance of the implementation type for a runtime class. |
 | [make_weak function template](make-weak.md) | A helper function that returns a [weak_ref](weak-ref.md) object, representing a weak reference to a C++/WinRT object or interface. |
+| [name_of function template](name-of.md) | A helper function that retrieves a string view containing the fully-qualified type name of a particular Windows Runtime class. |
 | [put_abi function](put-abi.md) | A helper function that retrieves the address of a C++/WinRT object's underlying IUnknown interface pointer so that it can be set to another value. |
 | [resume_after function](resume-after.md) | A helper function that returns control to the caller, and then resumes execution on a thread pool thread after a delay. |
 | [resume_background function](resume-background.md) | A helper function that returns control to the caller, and resumes execution on a thread pool thread. |

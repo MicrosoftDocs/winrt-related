@@ -1,9 +1,7 @@
 ---
-
 description: A helper function which, given an object of a projected type, retrieves a pointer to the implementation.
 title: winrt::get_self function template (C++/WinRT)
 dev_langs: ["C++"]
-
 ms.date: 08/29/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, projected, implementation, type
