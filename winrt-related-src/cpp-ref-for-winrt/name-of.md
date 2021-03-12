@@ -29,6 +29,7 @@ A projected interface or runtime class type.
 A string view with a null-terminator beyond the end.
 
 ### Example
+
 ```cppwinrt
 if (ApiInformation.IsMethodPresent(
       winrt::name_of<Windows::Devices::PointOfService::ReceiptPrintJob>(),
