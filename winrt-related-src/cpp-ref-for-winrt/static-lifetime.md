@@ -52,34 +52,13 @@ You should implement static events on your activation factory object using the *
 
 #include "Static.g.h"
 
+// Forward-declare the instance class.
 namespace winrt::Component::implementation
 {
-    struct Static
-    {
-        Static() = delete;
-
-        // If you're not using component optimizations, then you can omit these next three methods.
-
-        // Component optimizations means that you have to implement any statics on the instance class,
-        // and have those forward to the activation factory. You will see build errors if you don't do this.
-
-        static winrt::event_token StaticEvent(Windows::Foundation::EventHandler<int32_t> const& handler)
-        {
-            return get_activation_factory<Component::Static, IStaticStatics>().StaticEvent(handler);
-        }
-
-        static void StaticEvent(winrt::event_token const& cookie)
-        {
-            get_activation_factory<Component::Static, IStaticStatics>().StaticEvent(cookie);
-        }
-
-        static void RaiseStaticEvent(int32_t value)
-        {
-            get_activation_factory<Component::Static, IStaticStatics>().RaiseStaticEvent(value);
-        }
-    };
+    struct Static;
 }
 
+// Then define the activation factory class before the instance class.
 namespace winrt::Component::factory_implementation
 {
     struct Static : StaticT<Static, implementation::Static, static_lifetime>
@@ -100,6 +79,34 @@ namespace winrt::Component::factory_implementation
         }
 
         event<Windows::Foundation::EventHandler<int32_t>> m_static;
+    };
+}
+
+namespace winrt::Component::implementation
+{
+    struct Static
+    {
+        Static() = delete;
+
+        // If you're not using component optimizations, then you can omit these next three methods.
+
+        // Component optimizations means that you have to implement any statics on the instance class,
+        // and have those forward to the activation factory. You will see build errors if you don't do this.
+
+        static winrt::event_token StaticEvent(Windows::Foundation::EventHandler<int32_t> const& handler)
+        {
+            return make_self<factory_implementation::Static>()->StaticEvent(handler);
+        }
+
+        static void StaticEvent(winrt::event_token const& cookie)
+        {
+            return make_self<factory_implementation::Static>()->StaticEvent(cookie);
+        }
+
+        static void RaiseStaticEvent(int32_t value)
+        {
+            return make_self<factory_implementation::Static>()->RaiseStaticEvent(value);
+        }
     };
 }
 ```
