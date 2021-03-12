@@ -43,6 +43,9 @@ namespace winrt::MYNAMESPACE::factory_implementation
 
 You should implement static events on your activation factory object using the **winrt::static_lifetime** marker. You pin the factory to ensure that its lifetime is stable as event handlers are added and removed. You can do all that in a header such as in this next example.
 
+> [!NOTE]
+> A new C++/WinRT project (from a project template) will use [component optimizations](/windows/uwp/cpp-and-winrt-apis/news#component-optimizations) by default. If you're *not* using component optimizations, then you can omit the part of the listing indicated.
+
 ```cppwinrt
 // Static.h
 #pragma once
@@ -54,6 +57,26 @@ namespace winrt::Component::implementation
     struct Static
     {
         Static() = delete;
+
+        // If you're not using component optimizations, then you can omit these next three methods.
+
+        // Component optimizations means that you have to implement any statics on the instance class,
+        // and have those forward to the activation factory. You will see build errors if you don't do this.
+
+        static winrt::event_token StaticEvent(Windows::Foundation::EventHandler<int32_t> const& handler)
+        {
+            return get_activation_factory<Component::Static, IStaticStatics>().StaticEvent(handler);
+        }
+
+        static void StaticEvent(winrt::event_token const& cookie)
+        {
+            get_activation_factory<Component::Static, IStaticStatics>().StaticEvent(cookie);
+        }
+
+        static void RaiseStaticEvent(int32_t value)
+        {
+            get_activation_factory<Component::Static, IStaticStatics>().RaiseStaticEvent(value);
+        }
     };
 }
 
