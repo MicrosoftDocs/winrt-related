@@ -47,33 +47,33 @@ You should implement static events on your activation factory object using the *
 > A new C++/WinRT project (from a project template) will use [component optimizations](/windows/uwp/cpp-and-winrt-apis/news#component-optimizations) by default. If you're *not* using component optimizations, then you can omit the part of the listing indicated.
 
 ```cppwinrt
-// Static.h
+// MyRuntimeClass.h
 #pragma once
 
-#include "Static.g.h"
+#include "MyRuntimeClass.g.h"
 
 // Forward-declare the instance class.
 namespace winrt::Component::implementation
 {
-    struct Static;
+    struct MyRuntimeClass;
 }
 
 // Then define the activation factory class before the instance class.
 namespace winrt::Component::factory_implementation
 {
-    struct Static : StaticT<Static, implementation::Static, static_lifetime>
+    struct MyRuntimeClass : MyRuntimeClassT<MyRuntimeClass, implementation::MyRuntimeClass, static_lifetime>
     {
-        winrt::event_token StaticEvent(Windows::Foundation::EventHandler<int32_t> const& handler)
+        winrt::event_token MyRuntimeClassEvent(Windows::Foundation::EventHandler<int32_t> const& handler)
         {
             return m_static.add(handler);
         }
 
-        void StaticEvent(winrt::event_token const& cookie)
+        void MyRuntimeClassEvent(winrt::event_token const& cookie)
         {
             m_static.remove(cookie);
         }
 
-        void RaiseStaticEvent(int32_t value)
+        void RaiseMyRuntimeClassStaticEvent(int32_t value)
         {
             m_static(nullptr, value);
         }
@@ -84,28 +84,28 @@ namespace winrt::Component::factory_implementation
 
 namespace winrt::Component::implementation
 {
-    struct Static
+    struct MyRuntimeClass
     {
-        Static() = delete;
+        MyRuntimeClass() = delete;
 
         // If you're not using component optimizations, then you can omit these next three methods.
 
         // Component optimizations means that you have to implement any statics on the instance class,
         // and have those forward to the activation factory. You will see build errors if you don't do this.
 
-        static winrt::event_token StaticEvent(Windows::Foundation::EventHandler<int32_t> const& handler)
+        static winrt::event_token MyRuntimeClassStaticEvent(Windows::Foundation::EventHandler<int32_t> const& handler)
         {
-            return make_self<factory_implementation::Static>()->StaticEvent(handler);
+            return make_self<factory_implementation::MyRuntimeClass>()->MyRuntimeClassStaticEvent(handler);
         }
 
-        static void StaticEvent(winrt::event_token const& cookie)
+        static void MyRuntimeClassStaticEvent(winrt::event_token const& cookie)
         {
-            return make_self<factory_implementation::Static>()->StaticEvent(cookie);
+            return make_self<factory_implementation::MyRuntimeClass>()->MyRuntimeClassStaticEvent(cookie);
         }
 
-        static void RaiseStaticEvent(int32_t value)
+        static void RaiseMyRuntimeClassStaticEvent(int32_t value)
         {
-            return make_self<factory_implementation::Static>()->RaiseStaticEvent(value);
+            return make_self<factory_implementation::MyRuntimeClass>()->RaiseMyRuntimeClassStaticEvent(value);
         }
     };
 }
