@@ -73,7 +73,7 @@ namespace winrt::Component::factory_implementation
             m_static.remove(cookie);
         }
 
-        void RaiseMyRuntimeClassEvent(int32_t value)
+        void RaiseMyRuntimeClassStaticEvent(int32_t value)
         {
             m_static(nullptr, value);
         }
@@ -93,19 +93,19 @@ namespace winrt::Component::implementation
         // Component optimizations means that you have to implement any statics on the instance class,
         // and have those forward to the activation factory. You will see build errors if you don't do this.
 
-        static winrt::event_token MyRuntimeClassEvent(Windows::Foundation::EventHandler<int32_t> const& handler)
+        static winrt::event_token MyRuntimeClassStaticEvent(Windows::Foundation::EventHandler<int32_t> const& handler)
         {
-            return make_self<factory_implementation::MyRuntimeClass>()->MyRuntimeClassEvent(handler);
+            return make_self<factory_implementation::MyRuntimeClass>()->MyRuntimeClassStaticEvent(handler);
         }
 
-        static void MyRuntimeClassEvent(winrt::event_token const& cookie)
+        static void MyRuntimeClassStaticEvent(winrt::event_token const& cookie)
         {
-            return make_self<factory_implementation::MyRuntimeClass>()->MyRuntimeClassEvent(cookie);
+            return make_self<factory_implementation::MyRuntimeClass>()->MyRuntimeClassStaticEvent(cookie);
         }
 
-        static void RaiseMyRuntimeClassEvent(int32_t value)
+        static void RaiseMyRuntimeClassStaticEvent(int32_t value)
         {
-            return make_self<factory_implementation::MyRuntimeClass>()->RaiseMyRuntimeClassEvent(value);
+            return make_self<factory_implementation::MyRuntimeClass>()->RaiseMyRuntimeClassStaticEvent(value);
         }
     };
 }
