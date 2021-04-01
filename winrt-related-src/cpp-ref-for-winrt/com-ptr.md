@@ -101,6 +101,8 @@ Another **com_ptr** that initializes the **com_ptr** object. The parameter's **T
 ## com_ptr::as function
 Returns the requested interface, if it is supported. Throws if it is not. This function is useful if you want to query for an interface that you don't need to pass back to your caller.
 
+For code examples, see the section [Instantiating and returning projected types and interfaces](/windows/uwp/cpp-and-winrt-apis/consume-apis#instantiating-and-returning-projected-types-and-interfaces), and other sections in that topic.
+
 ### Syntax
 ```cppwinrt
 template <typename To> auto as() const;
@@ -466,3 +468,5 @@ A **com_ptr** value whose pointer to mutually swap with that of the other parame
 
 ## See also 
 * [winrt namespace](winrt.md)
+* [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis)
+
