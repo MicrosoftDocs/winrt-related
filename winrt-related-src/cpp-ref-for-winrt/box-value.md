@@ -1,9 +1,7 @@
 ---
-
-description: A function template that wraps (or *boxes*) a scalar value inside a reference class object so that it can be passed to a function that expects **IInspectable**.
+description: A function template that wraps (or *boxes*) a scalar or array value inside a reference class object so that it can be passed to a function that expects **IInspectable**.
 title: winrt::box_value function template (C++/WinRT)
 dev_langs: ["C++"]
-
 ms.date: 04/10/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, box, boxing
@@ -12,7 +10,11 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::box_value function template (C++/WinRT)
-A function template that wraps (or *boxes*) a scalar value inside a reference class object so that it can be passed to a function that expects **IInspectable**. An overload of the function also exists for [**winrt::hstring**](hstring.md). For more details, and code examples, see [Boxing and unboxing scalar values to IInspectable with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/boxing).
+
+> [!NOTE]
+> You can box not only scalar values, but also most kinds of arrays (with the exception of arrays of enumerations) by using the **winrt::box_value** function.
+
+A function template that wraps (or *boxes*) a scalar or array value inside a reference class object so that it can be passed to a function that expects **IInspectable**. An overload of the function also exists for [**winrt::hstring**](hstring.md). For more details, and code examples, see [Boxing and unboxing values to IInspectable with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/boxing).
 
 ## Syntax
 ```cppwinrt
@@ -24,11 +26,11 @@ winrt::Windows::Foundation::IInspectable box_value(T const& value);
 
 ### Template parameters
 `typename T`
-A scalar type.
+A scalar or array type.
 
 ### Parameters
 `value`
-A scalar value to box.
+A scalar or array value to box.
 
 ### Return value 
 A reference class object containing the boxed value.
@@ -44,4 +46,4 @@ A reference class object containing the boxed value.
 * [winrt namespace](winrt.md)
 * [winrt::unbox_value function template](unbox-value.md)
 * [winrt::unbox_value_or function template](unbox-value-or.md)
-* [Boxing and unboxing scalar values to IInspectable with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/boxing)
+* [Boxing and unboxing values to IInspectable with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/boxing)

@@ -69,7 +69,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | Function | Description |
 | - | - |
 | [attach_abi function](attach-abi.md) | A helper function that attaches a C++/WinRT object to a handle, or to a raw pointer that owns a reference to its target. |
-| [box_value function template](box-value.md) | A function template that wraps (or *boxes*) a scalar value inside a reference class object so that it can be passed to a function that expects **IInspectable**. |
+| [box_value function template](box-value.md) | A function template that wraps (or *boxes*) a scalar or array value inside a reference class object so that it can be passed to a function that expects **IInspectable**. |
 | [capture function template](capture.md) | A function template that calls a specified function or method, captures the resulting interface pointer, and returns it as a [winrt::com_ptr](./com-ptr.md). |
 | [check_bool function template](error-handling/check-bool.md) | A helper function that checks whether a value is false and, if so, retrieves the calling thread's last-error code value, and throws an exception using a C++/WinRT object that represents that error code. |
 | [check_hresult function](error-handling/check-hresult.md) | A helper function that checks whether an HRESULT code represents an error and, if so, throws an exception using a C++/WinRT object that represents the error code. |
@@ -114,7 +114,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [try_capture function template](try-capture.md) | A function template that calls a specified function or method, captures the interface pointer that's output from the function or method, and returns it as a [winrt::com_ptr](./com-ptr.md) or an empty **com_ptr** if not successful. |
 | [try_create_instance function template](try-create-instance.md) | A function template that creates a single uninitialized object of the class associated with a specified CLSID, and returns it as a [winrt::com_ptr](./com-ptr.md) or an empty **com_ptr** if not successful. |
 | [try_get_activation_factory function template](try-get-activation-factory.md) | A helper function that retrieves the activation factory for a specified Windows Runtime class type or an empty **com_ptr** if not successful. |
-| [unbox_value function template](unbox-value.md) | A function template that unwraps (or *unboxes*) a scalar value from inside a reference class object so that it can be processed in a function that expects **IInspectable**. |
+| [unbox_value function template](unbox-value.md) | A function template that unwraps (or *unboxes*) a scalar or array value from inside a reference class object so that it can be processed in a function that expects **IInspectable**. |
 | [unbox_value_or function template](unbox-value-or.md) | A function template that unwraps (or *unboxes*) a scalar value from inside a reference class object, with a fallback value, so that it can be processed in a function that expects **IInspectable**. |
 | [xaml_typename function template](xaml-typename.md) | A helper function that returns the type name of a Windows Runtime type, in the form of a [Windows::UI::Xaml::Interop::TypeName](/uwp/api/windows.ui.xaml.interop.typename) object. |
 

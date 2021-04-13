@@ -13,7 +13,10 @@ ms.workload: ["cplusplus"]
 
 # winrt::unbox_value_or function template (C++/WinRT)
 
-A function template that unwraps (or *unboxes*) a scalar value from inside a reference class object, with a fallback value, so that it can be processed in a function that expects **IInspectable**. An overload of the function also exists for [**winrt::hstring**](hstring.md). For more details, and code examples, see [Boxing and unboxing scalar values to IInspectable with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/boxing).
+> [!NOTE]
+> You can unbox only scalar values (not arrays) by using the **winrt::unbox_value_or** function.
+
+A function template that unwraps (or *unboxes*) a scalar value from inside a reference class object, with a fallback value, so that it can be processed in a function that expects **IInspectable**. An overload of the function also exists for [**winrt::hstring**](hstring.md). For more details, and code examples, see [Boxing and unboxing values to IInspectable with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/boxing).
 
 ## Syntax
 ```cppwinrt
@@ -49,4 +52,4 @@ The scalar value contained inside the reference class object, or *default_value*
 * [winrt namespace](winrt.md)
 * [winrt::box_value function template](box-value.md)
 * [winrt::unbox_value function template](unbox-value.md)
-* [Boxing and unboxing scalar values to IInspectable with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/boxing)
+* [Boxing and unboxing values to IInspectable with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/boxing)
