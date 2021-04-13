@@ -141,6 +141,9 @@ template <typename F, typename...Args>
 void capture(F function, Args&&...args);
 
 template <typename O, typename M, typename...Args>
+void capture(O* p, M method, Args&& ...args);
+
+template <typename O, typename M, typename...Args>
 void capture(winrt::com_ptr<O> const& object, M method, Args&&...args);
 ```
 
@@ -161,6 +164,9 @@ Zero or more argument types.
 `function`
 A function object of type `F`.
 
+`p`
+A pointer to an object of type `O`.
+
 `object`
 A **winrt::com_ptr** of type `O`.
 
@@ -173,9 +179,10 @@ Zero or more arguments of type `Args`.
 ### Remarks
 
 - The `capture(F function, Args&&...args)` overload invokes the function object.
+- The `capture(O* p, M method, Args&& ...args)` overload invokes the method on the pointer.
 - The `capture(winrt::com_ptr<O> const& object, M method, Args&&...args)` overload invokes the method on the object.
 
-Both overloads pass through (to the invokee) any additional arguments that you provide. Both overloads also pass the two additional arguments that such invokees require&mdash;specifically, a **REFIID** (the ID of the target of the **winrt::com_ptr**), and a **void\*\*** (The address of a pointer to the target of the **winrt::com_ptr**).
+All overloads pass through (to the invokee) any additional arguments that you provide. All overloads also pass the two additional arguments that such invokees require&mdash;specifically, a **REFIID** (the ID of the target of the **winrt::com_ptr**), and a **void\*\*** (The address of a pointer to the target of the **winrt::com_ptr**).
 
 ### Example
 
