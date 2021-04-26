@@ -80,11 +80,11 @@ This element requires the **modifiableApp** [restricted capability](/windows/uwp
   <!-- ... -->
  
   <Extensions> 
-    <Extension Category="windows.mutablePackageDirectories">
+    <desktop6:Extension Category="windows.mutablePackageDirectories">
       <desktop6:MutablePackageDirectories>
         <desktop6:MutablePackageDirectory target="ContosoGame"/>
       </desktop6:MutablePackageDirectories>
-    </Extension>
+    </desktop6:Extension>
   </Extensions>
  
   <Capabilities>
