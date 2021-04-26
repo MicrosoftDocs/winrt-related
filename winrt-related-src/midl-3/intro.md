@@ -908,6 +908,8 @@ The following table summarizes the behavior for arrays and their elements:
 | "Fill array" | `ref` | Caller | Write-only |
 | "Receive array" | `out` | Callee | Read-write |
 
+For more info about using C-style array parameters&mdash;also known as conformant arrays&mdash;with C++/WinRT, see [Array parameters](/windows/uwp/cpp-and-winrt-apis/pass-parms-to-abi#array-parameters).
+
 ##### Static and instance methods
 A method declared with a `static` modifier prefixed is a *static method*. A
 static method has no access to a specific instance, and therefore can
