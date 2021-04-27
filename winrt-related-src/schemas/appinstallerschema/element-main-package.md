@@ -1,7 +1,7 @@
 ---
 
 
-title: MainPackage
+title: MainPackage (App installer schema)
 description: The MainPackage element specifies the information about the package which includes name, publisher, version and uri. ProcessorArchitecture and ResourceId are optional attributes of the MainPackage. 
 ms.topic: reference
 ms.date: 10/10/2017
@@ -10,7 +10,7 @@ ms.date: 10/10/2017
 keywords: windows 10, uwp, app installer, AppInstaller, sideload, related set, optional packages
 ---
 
-# MainPackage
+# MainPackage (App installer schema)
 
 The MainPackage element specifies the information about the package which includes name, publisher, version and uri. ProcessorArchitecture and ResourceId are optional attributes of the MainPackage. 
 

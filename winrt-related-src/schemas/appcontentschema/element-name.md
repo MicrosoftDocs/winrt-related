@@ -1,7 +1,7 @@
 ---
 description: Specifies the System.ItemName\\System.ItemNameDisplay of the item.
 Search.Product: eADQiWindows 10XVcnh
-title: Name
+title: Name (App content schema)
 ms.assetid: 388d0dc5-d9a8-48f3-96ce-ebd5262894ed
 
 keywords: windows 10, uwp, schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Name
+# Name (App content schema)
 
 Specifies the [System.ItemName](/windows/win32/properties/props-system-itemname)\\[System.ItemNameDisplay](/windows/win32/properties/props-system-itemnamedisplay) of the item.
 

@@ -1,7 +1,7 @@
 ---
 
 
-title: Dependencies
+title: Dependencies (App installer schema)
 description: Defines the dependency packages that are required for successful deployment of the related set. This element is optional.
 ms.topic: reference
 ms.date: 10/10/2017
@@ -10,7 +10,7 @@ ms.date: 10/10/2017
 keywords: windows 10, uwp, app installer, AppInstaller, sideload, related set, optional packages
 ---
 
-# Dependencies
+# Dependencies (App installer schema)
 
 Defines the dependency packages that are required for successful deployment of the related set. This element is optional. 
 
