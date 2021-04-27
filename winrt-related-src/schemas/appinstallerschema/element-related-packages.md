@@ -85,6 +85,6 @@ The following example is taken from a sample appinstaller file. The Uri location
 
 ```
 ## Requirements
-|               |                                                             |
+|               |     Object                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/appinstaller/2017` |

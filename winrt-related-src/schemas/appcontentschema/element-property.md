@@ -168,7 +168,7 @@ A property that describes the item.
 
 ## Requirements
 
-|               |                                                             |
+|               |          Object                                                   |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/Search/2013/ApplicationContent` |
 

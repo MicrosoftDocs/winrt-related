@@ -64,6 +64,6 @@ The Bundle element specifies the information about the bundle package.
 | [Dependencies](element-dependencies.md)           | These are dependencies that will be installed if required.            |
 
 ## Requirements
-|               |                                                             |
+|               |       Object                                                      |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/appinstaller/2017` |
