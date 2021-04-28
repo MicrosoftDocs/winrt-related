@@ -87,6 +87,6 @@ The `<OptionalPackages>` element defines the app packages that will be installed
 
 ```
 ## Requirements
-|               |      Object                                                       |
+|               |      Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/appinstaller/2017` |

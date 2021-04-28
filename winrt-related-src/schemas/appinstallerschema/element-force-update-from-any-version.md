@@ -66,6 +66,6 @@ In this example, deployment will check for updates at launch time and in the bac
 
 ## Requirements
 
-|               |     Object                                                        |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/appinstaller/2018` |

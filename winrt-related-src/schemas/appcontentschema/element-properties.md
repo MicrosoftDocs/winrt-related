@@ -201,7 +201,7 @@ For the complete code, see the [Indexer sample](/samples/browse/).
 
 ## Requirements
 
-|               |        Object                                                     |
+|               |        Value                                                     |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/Search/2013/ApplicationContent` |
 
