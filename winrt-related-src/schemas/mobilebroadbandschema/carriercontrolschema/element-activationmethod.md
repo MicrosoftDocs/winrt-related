@@ -1,7 +1,7 @@
 ---
 description: Defines an instance of the ActivationMethod element from the WWAN schema.
 Search.Product: eADQiWindows 10XVcnh
-title: ActivationMethod
+title: ActivationMethod (CarrierControlSchema schema)
 ms.assetid: bd57da53-5b6a-47e7-a240-5e300ad9d133
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# ActivationMethod
+# ActivationMethod (CarrierControlSchema schema)
 
 
 Defines an instance of the [**ActivationMethod**](../wwan/element-activationmethod.md) element from the [**WWAN**](../wwan/schema-root.md) schema.

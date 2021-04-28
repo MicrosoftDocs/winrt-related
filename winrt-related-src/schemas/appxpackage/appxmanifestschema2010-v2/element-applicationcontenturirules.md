@@ -1,7 +1,7 @@
 ---
 description: Specifies which pages in the web context have access to the system's geolocation devices and access to the clipboard.
 Search.Product: eADQiWindows 10XVcnh
-title: ApplicationContentUriRules
+title: ApplicationContentUriRules (extensions schema for Windows 8.1)
 ms.assetid: 8bb7c378-6461-4c01-b02f-b7f17c32daaa
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# ApplicationContentUriRules
+# ApplicationContentUriRules (extensions schema for Windows 8.1)
 
 
 
