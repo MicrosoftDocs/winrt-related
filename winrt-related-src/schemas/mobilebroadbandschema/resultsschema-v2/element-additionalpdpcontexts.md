@@ -1,7 +1,7 @@
 ---
 description: Contains any errors from processing the AdditionalPDPContexts element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
-title: AdditionalPDPContexts
+title: AdditionalPDPContexts (ResultsSchema_v2 schema)
 ms.assetid: 4f4a4b43-e475-4d21-b847-0de7282c4f08
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# AdditionalPDPContexts
+# AdditionalPDPContexts (ResultsSchema_v2 schema)
 
 
 Contains any errors from processing the [**AdditionalPDPContexts**](../carriercontrolschema-v2/element-additionalpdpcontexts.md) element from the last provisioning attempt.

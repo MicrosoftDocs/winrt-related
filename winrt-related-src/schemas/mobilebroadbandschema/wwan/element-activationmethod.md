@@ -1,7 +1,7 @@
 ---
 description: Defines the abstract base element for ReconnectToNetwork, ReregisterToNetwork, and ServiceActivation.
 Search.Product: eADQiWindows 10XVcnh
-title: ActivationMethod
+title: ActivationMethod (WWAN schema)
 ms.assetid: bd57da53-5b6a-47e7-a240-5e300ad9d133
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# ActivationMethod
+# ActivationMethod (WWAN schema)
 
 
 Defines the abstract base element for [**ReconnectToNetwork**](element-reconnecttonetwork.md), [**ReregisterToNetwork**](element-reregistertonetwork.md), and [**ServiceActivation**](element-serviceactivation.md).
