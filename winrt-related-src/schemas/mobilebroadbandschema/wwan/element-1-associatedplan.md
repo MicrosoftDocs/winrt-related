@@ -1,7 +1,7 @@
 ---
 description: Contains the name of the subscriber's data plan.
 Search.Product: eADQiWindows 10XVcnh
-title: AssociatedPlan
+title: AssociatedPlan (WWAN schema, descendant of PurchaseProfile)
 ms.assetid: 982defaf-4870-4bca-bbc9-6d780d61ebf7
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,17 +11,13 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# AssociatedPlan
+# AssociatedPlan (WWAN schema, descendant of PurchaseProfile)
 
 
 Contains the name of the subscriber's data plan. It must match the **Name** attribute of a [**Plan**](../plans/element-plan.md) in the same XML document.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-defaultprofile.md">&lt;DefaultProfile&gt;</a></dt>
-<dd><b>&lt;AssociatedPlan&gt;</b></dd>
-</dl>
 <dl>
 <dt><a href="element-purchaseprofile.md">&lt;PurchaseProfile&gt;</a></dt>
 <dd><b>&lt;AssociatedPlan&gt;</b></dd>

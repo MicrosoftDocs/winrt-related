@@ -1,7 +1,7 @@
 ---
 description: Contains the name of the subscriber's data plan.
 Search.Product: eADQiWindows 10XVcnh
-title: AssociatedPlan
+title: AssociatedPlan (WLAN schema)
 ms.assetid: fdfc0657-a653-4fed-b0ae-b60e94af03ee
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# AssociatedPlan
+# AssociatedPlan (WLAN schema)
 
 
 Contains the name of the subscriber's data plan. It must match the **Name** attribute of a [**Plan**](../plans/element-plan.md) in the same XML document.
