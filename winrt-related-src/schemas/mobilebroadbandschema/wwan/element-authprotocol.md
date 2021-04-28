@@ -1,7 +1,7 @@
 ---
 description: Defines the authentication protocol to be used for activating a Packet Data Protocol (PDP) context.
 Search.Product: eADQiWindows 10XVcnh
-title: AuthProtocol
+title: AuthProtocol (descendant of DefaultProfile)
 ms.assetid: 1cb2fe6e-48b1-4314-b7b7-17d6ab7e0f46
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# AuthProtocol
+# AuthProtocol (descendant of DefaultProfile)
 
 
 Defines the authentication protocol to be used for activating a Packet Data Protocol (PDP) context:
@@ -28,15 +28,6 @@ Defines the authentication protocol to be used for activating a Packet Data Prot
 <dd>
 <dl>
 <dt><a href="element-context.md">&lt;Context&gt;</a></dt>
-<dd><b>&lt;AuthProtocol&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-<dl>
-<dt><a href="element-purchaseprofile.md">&lt;PurchaseProfile&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-context.md">&lt;Context&gt;</a></dt>
 <dd><b>&lt;AuthProtocol&gt;</b></dd>
 </dl>
 </dd>

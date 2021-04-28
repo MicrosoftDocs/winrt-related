@@ -1,7 +1,7 @@
 ---
 description: Declares a runtime class associated with the extensibility point (Package schema for Windows 8).
 Search.Product: eADQiWindows 10XVcnh
-title: 'ActivatableClass (type: CT_OutOfProcessActivatableClass - Package schema for Windows 8)'
+title: 'ActivatableClass (Windows 8 package schema, child of OutOfProcessServer)'
 ms.assetid: b2994883-87f9-4aa5-aff8-9c846606c462
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# ActivatableClass (type: CT_OutOfProcessActivatableClass - Package schema for Windows 8)
+# ActivatableClass (app package schema for Windows 8; type: CT_OutOfProcessActivatableClass) 
 
 
 Declares a runtime class associated with the extensibility point.

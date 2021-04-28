@@ -1,7 +1,7 @@
 ---
 description: Represents one or more apps that comprise the package.
 Search.Product: eADQiWindows 10XVcnh
-title: Applications
+title: Applications (extensions schema for Windows 8.1)
 ms.assetid: ad9e07fc-ba58-4465-b3fa-b330ba149f92
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Applications
+# Applications (extensions schema for Windows 8.1)
 
 
 

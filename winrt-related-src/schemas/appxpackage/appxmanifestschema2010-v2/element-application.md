@@ -1,7 +1,7 @@
 ---
 description: Represents an app that comprises part of or all of the functionality delivered in the package.
 Search.Product: eADQiWindows 10XVcnh
-title: Application
+title: Application (extensions schema for Windows 8.1)
 ms.assetid: 39221d13-bb46-42ac-be51-117357cade81
 
 
@@ -11,7 +11,7 @@ ms.date: 04/05/2017
 ms.custom: RS5
 ---
 
-# Application
+# Application (extensions schema for Windows 8.1)
 
 
 

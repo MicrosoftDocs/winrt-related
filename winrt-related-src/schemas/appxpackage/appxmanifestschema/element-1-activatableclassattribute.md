@@ -1,7 +1,7 @@
 ---
 description: Defines an attribute of the class that is stored in the Windows Runtime property store.
 Search.Product: eADQiWindows 10XVcnh
-title: ActivatableClassAttribute
+title: ActivatableClassAttribute (Windows 8, descendant of OutOfProcessServer)
 ms.assetid: 74ca4fd4-1a67-4e1f-b933-89b2ffa2fa17
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# ActivatableClassAttribute
+# ActivatableClassAttribute (Windows 8, descendant of OutOfProcessServer)
 
 
 Defines an attribute of the class that is stored in the Windows Runtime property store.
@@ -28,15 +28,6 @@ Defines an attribute of the class that is stored in the Windows Runtime property
 <dl>
 <dt><a href="element-extension.md">&lt;Extension&gt;</a></dt>
 <dd>
-<dl>
-<dt><a href="element-inprocessserver.md">&lt;InProcessServer&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-activatableclass.md">&lt;ActivatableClass&gt;</a></dt>
-<dd><b>&lt;ActivatableClassAttribute&gt;</b></dd>
-</dl>
-</dd>
-</dl>
 <dl>
 <dt><a href="element-outofprocessserver.md">&lt;OutOfProcessServer&gt;</a></dt>
 <dd>

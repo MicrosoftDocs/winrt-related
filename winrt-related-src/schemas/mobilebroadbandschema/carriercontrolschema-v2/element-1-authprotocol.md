@@ -1,7 +1,7 @@
 ---
 description: Defines the authentication protocol to use for a context in the Packet Data Protocol (PDP) context policy.
 Search.Product: eADQiWindows 10XVcnh
-title: AuthProtocol
+title: AuthProtocol (descendant of TetheringProfile)
 ms.assetid: 24272c9d-966a-4f02-a64b-6e7116131ba7
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# AuthProtocol
+# AuthProtocol (descendant of TetheringProfile)
 
 
 Defines the authentication protocol to use for a context in the Packet Data Protocol (PDP) context policy.
@@ -24,20 +24,6 @@ Defines the authentication protocol to use for a context in the Packet Data Prot
 <dl>
 <dt><a href="element-additionalpdpcontexts.md">&lt;AdditionalPDPContexts&gt;</a></dt>
 <dd>
-<dl>
-<dt><a href="element-multiplepdpcontextpolicies.md">&lt;MultiplePDPContextPolicies&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-pdpcontextpolicy.md">&lt;PDPContextPolicy&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-context.md">&lt;Context&gt;</a></dt>
-<dd><b>&lt;AuthProtocol&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
 <dl>
 <dt><a href="element-tetheringsettings.md">&lt;TetheringSettings&gt;</a></dt>
 <dd>

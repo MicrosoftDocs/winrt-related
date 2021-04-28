@@ -1,7 +1,7 @@
 ---
 description: Specifies the list of comma-separated arguments to pass to the executable.
 Search.Product: eADQiWindows 10XVcnh
-title: Arguments
+title: Arguments (package schema for Windows 8)
 ms.assetid: d4cb3513-8c57-4449-9c3b-469047d2a4c4
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Arguments
+# Arguments (package schema for Windows 8)
 
 
 Specifies the list of comma-separated arguments to pass to the executable.
