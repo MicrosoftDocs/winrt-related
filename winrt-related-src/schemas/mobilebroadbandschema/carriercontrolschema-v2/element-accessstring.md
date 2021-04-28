@@ -1,7 +1,7 @@
 ---
 description: Defines the access string for a context in the Packet Data Protocol (PDP) context policy.
 Search.Product: eADQiWindows 10XVcnh
-title: AccessString
+title: AccessString (CarrierControlSchema_v2 schema, descendant of PDPContextPolicy)
 ms.assetid: 10801ce9-abca-4eb4-95ae-0865961e3d2b
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# AccessString
+# AccessString (CarrierControlSchema_v2 schema, descendant of PDPContextPolicy)
 
 
 Defines the access string for a context in the Packet Data Protocol (PDP) context policy.
@@ -32,20 +32,6 @@ Defines the access string for a context in the Packet Data Protocol (PDP) contex
 <dd>
 <dl>
 <dt><a href="element-context.md">&lt;Context&gt;</a></dt>
-<dd><b>&lt;AccessString&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-<dl>
-<dt><a href="element-tetheringsettings.md">&lt;TetheringSettings&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-tetheringprofile.md">&lt;TetheringProfile&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-context.md">&lt;Context&gt;</a></dt>
 <dd><b>&lt;AccessString&gt;</b></dd>
 </dl>
 </dd>

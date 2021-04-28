@@ -1,7 +1,7 @@
 ---
 description: Declares a runtime class associated with the extensibility point.
 Search.Product: eADQiWindows 10XVcnh
-title: 'ActivatableClass (type: CT_InProcessActivatableClass)'
+title: 'ActivatableClass (Windows 8.1 extensions schema, child of InProcessServer)'
 ms.assetid: c75a7a4d-1864-4bff-95e6-67cd007ee192
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# ActivatableClass (type: CT_InProcessActivatableClass)
+# ActivatableClass (extensions schema for Windows 8.1; type: CT_InProcessActivatableClass)
 
 
 

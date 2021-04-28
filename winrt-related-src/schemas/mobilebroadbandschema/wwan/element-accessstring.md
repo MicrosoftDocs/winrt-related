@@ -1,7 +1,7 @@
 ---
 description: Defines the Access Point Name (APN) or dial string to be used to establish a data connection.
 Search.Product: eADQiWindows 10XVcnh
-title: AccessString
+title: AccessString (WWAN schema, descendant of DefaultProfile)
 ms.assetid: 10801ce9-abca-4eb4-95ae-0865961e3d2b
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# AccessString
+# AccessString (WWAN schema, descendant of DefaultProfile)
 
 
 Defines the Access Point Name (APN) or dial string to be used to establish a data connection. Must be less than 100 characters.
@@ -23,15 +23,6 @@ Defines the Access Point Name (APN) or dial string to be used to establish a dat
 <dd>
 <dl>
 <dt><a href="element-context.md">&lt;Context&gt;</a></dt>
-<dd><b>&lt;AccessString&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-<dl>
-<dt><a href="element-purchaseprofile.md">&lt;PurchaseProfile&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-context.md">&lt;Context&gt;</a></dt>
 <dd><b>&lt;AccessString&gt;</b></dd>
 </dl>
 </dd>
