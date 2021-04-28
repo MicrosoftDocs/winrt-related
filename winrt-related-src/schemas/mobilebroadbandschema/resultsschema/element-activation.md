@@ -1,7 +1,7 @@
 ---
 description: Contains any errors from processing the Activation element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
-title: Activation
+title: Activation (ResultsSchema schema)
 ms.assetid: d01c586b-a738-4506-a18e-a8c6475d77cd
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Activation
+# Activation (ResultsSchema schema)
 
 
 Contains any errors from processing the [**Activation**](../carriercontrolschema/element-activation.md) element from the last provisioning attempt.
