@@ -99,7 +99,7 @@ None.
 
 ## Requirements
 
-|               |                                                             |
+|               |Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/Search/2013/ApplicationContent` |
 

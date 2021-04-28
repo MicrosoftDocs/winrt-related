@@ -65,11 +65,12 @@ In this example, deployment will check for updates every time the app is launche
 
 ## Requirements for HoursBetweenUpdateChecks
 
-|               |                                                             |
+|               |    Value                                                         |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/appinstaller/2017/2` |
 
 ## Requirements for ShowPrompt and UpdateBlocksActivation
-|               |                                                             |
+
+|               |    Value                                                         |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/appinstaller/2018` |

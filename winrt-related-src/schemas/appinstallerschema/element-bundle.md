@@ -1,7 +1,7 @@
 ---
 
 
-title: Bundle
+title: Bundle (App installer schema)
 description: The Bundle element specifies the information about the bundle package. 
 ms.topic: reference
 ms.date: 10/10/2017
@@ -10,7 +10,7 @@ ms.date: 10/10/2017
 keywords: windows 10, uwp, app installer, AppInstaller, sideload, related set, optional packages
 ---
 
-# Bundle
+# Bundle (App installer schema)
 
 The Bundle element specifies the information about the bundle package. 
 
@@ -64,6 +64,6 @@ The Bundle element specifies the information about the bundle package.
 | [Dependencies](element-dependencies.md)           | These are dependencies that will be installed if required.            |
 
 ## Requirements
-|               |                                                             |
+|               |       Value                                                      |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/appinstaller/2017` |

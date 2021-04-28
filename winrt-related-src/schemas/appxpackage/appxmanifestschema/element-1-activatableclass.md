@@ -1,5 +1,5 @@
 ---
-description: Declares a runtime class associated with the extensibility point.
+description: Declares a runtime class associated with the extensibility point (Package schema for Windows 8).
 Search.Product: eADQiWindows 10XVcnh
 title: 'ActivatableClass (Windows 8 package schema, child of OutOfProcessServer)'
 ms.assetid: b2994883-87f9-4aa5-aff8-9c846606c462
@@ -144,7 +144,7 @@ The following elements have the same name as this one, but different content or 
 
 ## Requirements
 
-|               |                                                             |
+|               |    Value                                                         |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/manifest` |
 

@@ -1,7 +1,7 @@
 ---
 description: Contains properties that describe the item to the Windows Search Index.
 Search.Product: eADQiWindows 10XVcnh
-title: Properties
+title: Properties (App content schema)
 ms.assetid: accc712c-c7b9-45e1-ba02-836abacbd9b5
 
 keywords: windows 10, uwp, schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Properties
+# Properties (App content schema)
 
 
 Contains properties that describe the item to the Windows Search Index.
@@ -201,7 +201,7 @@ For the complete code, see the [Indexer sample](/samples/browse/).
 
 ## Requirements
 
-|               |                                                             |
+|               |        Value                                                     |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/Search/2013/ApplicationContent` |
 
