@@ -1,7 +1,7 @@
 ---
 description: Declares a device capability required by a package.
 Search.Product: eADQiWindows 10XVcnh
-title: DeviceCapability
+title: DeviceCapability (Windows 8 package schema)
 ms.assetid: 4353c4fd-f038-4986-81ed-d2ec0c6235ef
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# DeviceCapability
+# DeviceCapability (package schema for Windows 8)
 
 
 

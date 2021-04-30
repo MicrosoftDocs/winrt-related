@@ -1,7 +1,7 @@
 ---
 description: Defines one or more extensibility points for the app.
 Search.Product: eADQiWindows 10XVcnh
-title: 'Extensions (type: CT_ApplicationExtensions)'
+title: 'Extensions (Windows 8 package schema, child of Application)'
 ms.assetid: 267051e3-b09c-467c-b5bd-4575cc31cb36
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Extensions (type: CT_ApplicationExtensions)
+# Extensions (package schema for Windows 8, child of Application)
 
 
 Defines one or more extensibility points for the app.

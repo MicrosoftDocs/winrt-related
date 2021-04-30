@@ -1,7 +1,7 @@
 ---
 description: Defines a schema extension point container for future additions.
 Search.Product: eADQiWindows 10XVcnh
-title: Extensions
+title: Extensions (CarrierControlSchema schema)
 ms.assetid: 837ae066-b590-4f58-b552-2e9d608f0fac
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Extensions
+# Extensions (CarrierControlSchema schema)
 
 
 Defines a schema extension point container for future additions.
