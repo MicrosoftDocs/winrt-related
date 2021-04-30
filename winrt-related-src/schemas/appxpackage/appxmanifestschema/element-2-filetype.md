@@ -1,7 +1,7 @@
 ---
 description: A file type specified as its file type extension.
 Search.Product: eADQiWindows 10XVcnh
-title: 'FileType (type: ST_FileType)'
+title: 'FileType (Windows 8 package schema, descendant of FileOpenPicker)'
 ms.assetid: a3792047-9fbf-42d5-b629-0025717d0323
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# FileType (type: ST_FileType)
+# FileType (package schema for Windows 8, descendant of FileOpenPicker)
 
 
 A file type specified as its file type extension. It is unique per application in the package and is case sensitive.
@@ -35,28 +35,10 @@ A file type specified as its file type extension. It is unique per application i
 <dt><a href="element-1-extension.md">&lt;Extension&gt;</a></dt>
 <dd>
 <dl>
-<dt><a href="element-sharetarget.md">&lt;ShareTarget&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-supportedfiletypes.md">&lt;SupportedFileTypes&gt;</a></dt>
-<dd><b>&lt;FileType&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-<dl>
 <dt><a href="element-fileopenpicker.md">&lt;FileOpenPicker&gt;</a></dt>
 <dd>
 <dl>
 <dt><a href="element-2-supportedfiletypes.md">&lt;SupportedFileTypes&gt;</a></dt>
-<dd><b>&lt;FileType&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-<dl>
-<dt><a href="element-filesavepicker.md">&lt;FileSavePicker&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-3-supportedfiletypes.md">&lt;SupportedFileTypes&gt;</a></dt>
 <dd><b>&lt;FileType&gt;</b></dd>
 </dl>
 </dd>

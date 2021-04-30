@@ -1,7 +1,7 @@
 ---
 description: Declares an app extensibility point of type windows.fileTypeAssociation.
 Search.Product: eADQiWindows 10XVcnh
-title: FileTypeAssociation
+title: FileTypeAssociation (Windows 8 package schema)
 ms.assetid: 864e99f6-8685-4010-ae55-a4d09f53159f
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# FileTypeAssociation
+# FileTypeAssociation (package schema for Windows 8)
 
 
 Declares an app extensibility point of type **windows.fileTypeAssociation**. A file type association indicates that the app is registered to handle files of the specified types.

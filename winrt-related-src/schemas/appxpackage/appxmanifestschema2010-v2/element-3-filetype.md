@@ -1,7 +1,7 @@
 ---
 description: A file type specified as its file type extension.
 Search.Product: eADQiWindows 10XVcnh
-title: 'FileType (type: ST_FileType)'
+title: 'FileType (extensions schema for Windows 8.1, descendant of FileSavePicker)'
 ms.assetid: c6bb4d70-ee2f-41a5-a45f-2e99991f202c
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# FileType (type: ST_FileType)
+# FileType (extensions schema for Windows 8.1, descendant of FileSavePicker)
 
 
 
@@ -24,24 +24,6 @@ A file type specified as its file type extension. It is unique per application i
 <dl>
 <dt><a href="element-extension.md">&lt;Extension&gt;</a></dt>
 <dd>
-<dl>
-<dt><a href="element-sharetarget.md">&lt;ShareTarget&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-supportedfiletypes.md">&lt;SupportedFileTypes&gt;</a></dt>
-<dd><b>&lt;FileType&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-<dl>
-<dt><a href="element-fileopenpicker.md">&lt;FileOpenPicker&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-2-supportedfiletypes.md">&lt;SupportedFileTypes&gt;</a></dt>
-<dd><b>&lt;FileType&gt;</b></dd>
-</dl>
-</dd>
-</dl>
 <dl>
 <dt><a href="element-filesavepicker.md">&lt;FileSavePicker&gt;</a></dt>
 <dd>
