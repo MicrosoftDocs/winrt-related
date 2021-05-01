@@ -1,7 +1,7 @@
 ---
 description: Defines a string that provides additional info to the user about the file type.
 Search.Product: eADQiWindows 10XVcnh
-title: InfoTip
+title: InfoTip (Windows 8 package schema)
 ms.assetid: 62db4269-58c1-4327-9115-103c6ce7774d
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# InfoTip
+# InfoTip (package schema for Windows 8)
 
 
 Defines a string that provides additional info to the user about the file type.

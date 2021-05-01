@@ -1,7 +1,7 @@
 ---
 description: Defines the SSID of a wireless LAN in hexadecimal format.
 Search.Product: eADQiWindows 10XVcnh
-title: hex
+title: hex (HotspotProfile schema)
 ms.assetid: 45e6f60b-5bf6-42fb-8c7d-8a9a0e66d194
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# hex
+# hex (HotspotProfile schema)
 
 
 Defines the SSID of a wireless LAN in hexadecimal format.

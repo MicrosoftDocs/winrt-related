@@ -1,7 +1,7 @@
 ---
 description: Indicates whether the package is a framework package.
 Search.Product: eADQiWindows 10XVcnh
-title: Framework
+title: Framework (Windows 8 package schema)
 ms.assetid: 2a8e1c58-b079-4ef1-ae62-c27bb3f5a469
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Framework
+# Framework (package schema for Windows 8)
 
 
 Indicates whether the package is a framework package; that is, a package that can be used by other packages. Its value is **false** by default. You should not specify a value for it unless you are creating a framework.
