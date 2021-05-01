@@ -1,7 +1,7 @@
 ---
 description: Contains any errors from processing the MultiplePDPContextPolicies element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
-title: MultiplePDPContextPolicies
+title: MultiplePDPContextPolicies (ResultsSchema_v2 schema)
 ms.assetid: c6a17067-5f76-41bd-8df5-39ca71cab5b9
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# MultiplePDPContextPolicies
+# MultiplePDPContextPolicies (ResultsSchema_v2 schema)
 
 
 Contains any errors from processing the [**MultiplePDPContextPolicies**](../carriercontrolschema-v2/element-multiplepdpcontextpolicies.md) element from the last provisioning attempt.

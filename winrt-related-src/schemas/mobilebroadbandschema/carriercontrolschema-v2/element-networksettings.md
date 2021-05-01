@@ -1,7 +1,7 @@
 ---
 description: Defines the network settings in a subscriber's carrier provisioning file.
 Search.Product: eADQiWindows 10XVcnh
-title: NetworkSettings
+title: NetworkSettings (CarrierControlSchema_v2 schema)
 ms.assetid: 82e8282b-5405-4fcf-b835-83fe6ec9a460
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# NetworkSettings
+# NetworkSettings (CarrierControlSchema_v2 schema)
 
 
 Defines the network settings in a subscriber's carrier provisioning file.
