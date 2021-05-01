@@ -1,7 +1,7 @@
 ---
 description: Defines the SSID of a wireless LAN in alphanumeric format.
 Search.Product: eADQiWindows 10XVcnh
-title: name (in SSID)
+title: name (WLAN schema, child of SSID)
 ms.assetid: 9eab41c7-29ff-42aa-9647-f18ff72b3faf
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# name (in SSID)
+# name (WLAN schema, child of SSID)
 
 
 Defines the SSID of a wireless LAN in alphanumeric format.
