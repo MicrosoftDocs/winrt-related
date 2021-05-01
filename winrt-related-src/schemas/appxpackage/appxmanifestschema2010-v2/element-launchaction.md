@@ -1,7 +1,7 @@
 ---
 description: Describes an AutoPlay content action.
 Search.Product: eADQiWindows 10XVcnh
-title: 'LaunchAction (in type: CT_AutoPlayContent)'
+title: 'LaunchAction (Windows 8.1 extensions schema, child of AutoPlayContent)'
 ms.assetid: 3561ba0c-690c-4c09-b383-b2c1e95f26d6
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# LaunchAction (in type: CT_AutoPlayContent)
+# LaunchAction (extensions schema for Windows 8.1, child of AutoPlayContent)
 
 
 Describes an AutoPlay content action.
