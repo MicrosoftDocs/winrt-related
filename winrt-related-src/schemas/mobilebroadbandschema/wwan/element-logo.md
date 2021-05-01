@@ -1,7 +1,7 @@
 ---
 description: Defines a 32x32 bitmap (.bmp) or portable network graphics (.png) type image of the MNO's logo.
 Search.Product: eADQiWindows 10XVcnh
-title: Logo
+title: Logo (WWAN schema)
 ms.assetid: 612973f1-2251-46e7-9923-adec93f0683e
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Logo
+# Logo (WWAN schema)
 
 
 Defines a 32x32 bitmap (.bmp) or portable network graphics (.png) type image of the MNO's logo.
