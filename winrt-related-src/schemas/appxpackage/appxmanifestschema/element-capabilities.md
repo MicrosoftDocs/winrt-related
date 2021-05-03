@@ -1,7 +1,7 @@
 ---
 description: Declares the access to protected user resources that the package requir
 Search.Product: eADQiWindows 10XVcnh
-title: Capabilities
+title: Capabilities (package schema for Windows 8)
 ms.assetid: 508b9a46-3dd4-4bce-875b-fb7cadadceb1
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Capabilities
+# Capabilities (package schema for Windows 8)
 
 
 Declares the access to protected user resources that the package requires.

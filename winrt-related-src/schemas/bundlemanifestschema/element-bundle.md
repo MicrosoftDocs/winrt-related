@@ -1,7 +1,7 @@
 ---
 description: Defines the root element of a bundle manifest.
 Search.Product: eADQiWindows 10XVcnh
-title: Bundle
+title: Bundle (Bundle schema)
 ms.assetid: 34dfa061-f42f-40f2-bf36-ee9c21ecd096
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Bundle
+# Bundle (Bundle schema)
 
 Defines the root element of a bundle manifest. The manifest describes the structure and capabilities of the software to the system.
 

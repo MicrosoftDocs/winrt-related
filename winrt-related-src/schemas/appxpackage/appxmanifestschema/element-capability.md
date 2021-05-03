@@ -1,7 +1,7 @@
 ---
 description: Declares a capability required by a package.
 Search.Product: eADQiWindows 10XVcnh
-title: Capability
+title: Capability (package schema for Windows 8)
 ms.assetid: ee6bf220-f139-4ad9-a7a7-e621c189b907
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Capability
+# Capability (package schema for Windows 8)
 
 
 
