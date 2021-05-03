@@ -1,7 +1,7 @@
 ---
 description: The default tile that represents the app on the Start screen.
 Search.Product: eADQiWindows 10XVcnh
-title: DefaultTile
+title: DefaultTile (feature extensions schema for Windows 8.1)
 ms.assetid: 262b48ae-ca25-4fed-adad-df1bb8924c9d
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# DefaultTile
+# DefaultTile (feature extensions schema for Windows 8.1)
 
 
 

@@ -1,7 +1,7 @@
 ---
 description: Defines a value representing the data limit in MB for a capped plan.
 Search.Product: eADQiWindows 10XVcnh
-title: DataLimitInMegabytes
+title: DataLimitInMegabytes (DUSM schema)
 ms.assetid: f780b511-6b64-40f4-83a5-c9f116f65351
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# DataLimitInMegabytes
+# DataLimitInMegabytes (DUSM schema)
 
 
 Defines a value representing the data limit in MB for a capped plan. Must be a value from 0 to 2<sup>32nd</sup>.

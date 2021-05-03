@@ -1,7 +1,7 @@
 ---
 description: A friendly description that can be displayed to users.
 Search.Product: eADQiWindows 10XVcnh
-title: Description
+title: Description (package schema for Windows 8)
 ms.assetid: e113111a-1d9b-4d04-bd86-86beece204dd
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Description
+# Description (package schema for Windows 8)
 
 
 A friendly description that can be displayed to users.

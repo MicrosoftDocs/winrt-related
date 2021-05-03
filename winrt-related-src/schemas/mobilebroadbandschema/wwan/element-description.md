@@ -1,7 +1,7 @@
 ---
 description: Defines a brief description of the profile.
 Search.Product: eADQiWindows 10XVcnh
-title: Description
+title: Description (WWAN schema, child of DefaultProfile)
 ms.assetid: e113111a-1d9b-4d04-bd86-86beece204dd
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Description
+# Description (WWAN schema, child of DefaultProfile)
 
 
 Defines a brief description of the profile.
@@ -21,10 +21,6 @@ Defines a brief description of the profile.
 
 <dl>
 <dt><a href="element-defaultprofile.md">&lt;DefaultProfile&gt;</a></dt>
-<dd><b>&lt;Description&gt;</b></dd>
-</dl>
-<dl>
-<dt><a href="element-purchaseprofile.md">&lt;PurchaseProfile&gt;</a></dt>
 <dd><b>&lt;Description&gt;</b></dd>
 </dl>
 
@@ -66,10 +62,6 @@ None.
 <tr class="odd">
 <td><a href="element-defaultprofile.md">DefaultProfile</a> </td>
 <td><p>Defines the default connection profile used by a subscriber to connect to a MNO. The Mobile Broadband service will use these connection settings without prompting the user for details.</p></td>
-</tr>
-<tr class="even">
-<td><a href="element-purchaseprofile.md">PurchaseProfile</a> </td>
-<td><p>Defines a purchase connection profile used by a subscriber to connect to a MNO.</p></td>
 </tr>
 </tbody>
 </table>

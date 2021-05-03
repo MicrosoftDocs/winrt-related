@@ -1,7 +1,7 @@
 ---
 description: Defines plan information that specifies the subscriber's Mobile Network Operator (MNO) connection type.
 Search.Product: eADQiWindows 10XVcnh
-title: Description
+title: Description (Plans schema)
 ms.assetid: e113111a-1d9b-4d04-bd86-86beece204dd
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Description
+# Description (Plans schema)
 
 
 Defines plan information that specifies the subscriber's Mobile Network Operator (MNO) connection type.

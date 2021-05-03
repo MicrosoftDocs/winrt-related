@@ -1,7 +1,7 @@
 ---
 description: The default tile that represents the app on the Start screen.
 Search.Product: eADQiWindows 10XVcnh
-title: DefaultTile
+title: DefaultTile (package schema for Windows 8)
 ms.assetid: 262b48ae-ca25-4fed-adad-df1bb8924c9d
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# DefaultTile
+# DefaultTile (package schema for Windows 8)
 
 
 The default tile that represents your app on the Start screen. The icons specified here are displayed when your app is not showing tile notifications. To dynamically change the appearance of your tile and display relevant live content, see [Send a local tile notification](/windows/uwp/controls-and-patterns/tiles-and-notifications-sending-a-local-tile-notification).
