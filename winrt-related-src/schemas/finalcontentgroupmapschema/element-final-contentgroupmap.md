@@ -1,7 +1,7 @@
 ---
 
 ms.assetid: 5babaec2-35fc-4eac-8f82-317a7d3ce5c9
-title: ContentGroupMap
+title: ContentGroupMap (final schema)
 description: Specifies the layout of the final content group map, AppxContentGroupMap.xml.
 
 ms.date: 03/29/2017
@@ -11,7 +11,7 @@ ms.topic: article
 keywords: windows 10, uwp, streaming install, content group, map, final content group, automatic content group
 ---
 
-# ContentGroupMap
+# ContentGroupMap (final schema)
 
 ## Description
 Specifies the layout of the final content group map, AppxContentGroupMap.xml.

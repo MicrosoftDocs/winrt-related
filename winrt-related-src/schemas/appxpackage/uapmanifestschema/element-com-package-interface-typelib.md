@@ -1,7 +1,7 @@
 ---
 
 ms.assetid: 2fb1ff8b-0c47-44b8-b1c3-b814d10685d1
-title: com:TypeLib (in Package/Extensions)
+title: com:TypeLib (in Package/Extensions, child of Interface)
 description: A type library for an interface.
 
 ms.date: 03/29/2017
@@ -12,7 +12,7 @@ keywords: windows 10, uwp, schema, manifest, com
 ---
 
 
-# com:TypeLib (in Package/Extensions)
+# com:TypeLib (in Package/Extensions, child of Interface)
 
 ## Description
 A type library for an interface.

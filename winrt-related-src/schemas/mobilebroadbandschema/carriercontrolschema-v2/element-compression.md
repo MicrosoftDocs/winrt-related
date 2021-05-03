@@ -1,7 +1,7 @@
 ---
 description: Defines whether compression is enabled for a context in the Packet Data Protocol (PDP) context policy.
 Search.Product: eADQiWindows 10XVcnh
-title: Compression
+title: Compression (CarrierControlSchema_v2 schema, descendant of PDPContextPolicy)
 ms.assetid: 7ef80c21-07a1-46d7-b6fe-e276fde61e39
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Compression
+# Compression (CarrierControlSchema_v2 schema, descendant of PDPContextPolicy)
 
 
 Defines whether compression is enabled for a context in the Packet Data Protocol (PDP) context policy.
@@ -32,20 +32,6 @@ Defines whether compression is enabled for a context in the Packet Data Protocol
 <dd>
 <dl>
 <dt><a href="element-context.md">&lt;Context&gt;</a></dt>
-<dd><b>&lt;Compression&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-<dl>
-<dt><a href="element-tetheringsettings.md">&lt;TetheringSettings&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-tetheringprofile.md">&lt;TetheringProfile&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-context.md">&lt;Context&gt;</a></dt>
 <dd><b>&lt;Compression&gt;</b></dd>
 </dl>
 </dd>

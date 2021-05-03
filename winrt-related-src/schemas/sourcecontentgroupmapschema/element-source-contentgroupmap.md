@@ -1,7 +1,7 @@
 ---
 
 ms.assetid: 60660150-a566-438c-ac07-4470f570c2c1 
-title: ContentGroupMap
+title: ContentGroupMap (source schema)
 description: Specifies the layout of the source content group map, SourceAppxContentGroupMap.xml.
 
 ms.date: 03/29/2017
@@ -11,7 +11,7 @@ ms.topic: article
 keywords: windows 10, uwp, streaming install, content group, map, final content group, automatic content group
 ---
 
-# ContentGroupMap
+# ContentGroupMap (source schema)
 
 ## Description
 Specifies the layout of the source content group map, SourceAppxContentGroupMap.xml.

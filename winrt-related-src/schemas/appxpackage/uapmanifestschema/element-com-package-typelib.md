@@ -1,7 +1,7 @@
 ---
 
 ms.assetid: a3735612-102e-47e2-ba08-a53259edc60a
-title: com:TypeLib (in Package/Extensions)
+title: com:TypeLib (in Package/Extensions, child of ComInterface)
 description: Registers a type library.
 
 ms.date: 03/29/2017
@@ -12,7 +12,7 @@ keywords: windows 10, uwp, schema, manifest, com
 ---
 
 
-# com:TypeLib (in Package/Extensions)
+# com:TypeLib (in Package/Extensions, child of ComInterface)
 
 ## Description
 Registers a type library.

@@ -1,7 +1,7 @@
 ---
 description: Defines if the packet header and data transferred over the connection is compressed.
 Search.Product: eADQiWindows 10XVcnh
-title: Compression
+title: Compression (WWAN schema, descendant of DefaultProfile)
 ms.assetid: 7ef80c21-07a1-46d7-b6fe-e276fde61e39
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Compression
+# Compression (WWAN schema, descendant of DefaultProfile)
 
 
 If **ENABLE**, the packet header and data transferred over the connection is compressed. Otherwise, **DISABLE**.
@@ -23,15 +23,6 @@ If **ENABLE**, the packet header and data transferred over the connection is com
 <dd>
 <dl>
 <dt><a href="element-context.md">&lt;Context&gt;</a></dt>
-<dd><b>&lt;Compression&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-<dl>
-<dt><a href="element-purchaseprofile.md">&lt;PurchaseProfile&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-context.md">&lt;Context&gt;</a></dt>
 <dd><b>&lt;Compression&gt;</b></dd>
 </dl>
 </dd>

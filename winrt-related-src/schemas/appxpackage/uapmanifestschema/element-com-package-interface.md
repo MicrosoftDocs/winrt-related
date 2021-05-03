@@ -1,7 +1,7 @@
 ---
 
 ms.assetid: b7261b8b-2979-4961-b521-7e5c290170a8
-title: com:Interface
+title: com:Interface (descendant of Extension)
 description: Registers new COM Interfaces.
 
 ms.date: 03/29/2017
@@ -12,7 +12,7 @@ keywords: windows 10, uwp, schema, manifest, com
 ---
 
 
-# com:Interface
+# com:Interface (descendant of Extension)
 
 ## Description
 Registers new COM Interfaces.
