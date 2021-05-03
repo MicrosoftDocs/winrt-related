@@ -1,7 +1,7 @@
 ---
 description: Contains any errors from processing the CustomerSupportPhoneNumber element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
-title: CustomerSupportPhoneNumber
+title: CustomerSupportPhoneNumber (ResultsSchema_v2 schema)
 ms.assetid: a5fefff4-22ce-4219-be12-4db9520cfa47
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# CustomerSupportPhoneNumber
+# CustomerSupportPhoneNumber (ResultsSchema_v2 schema)
 
 
 Contains any errors from processing the [**CustomerSupportPhoneNumber**](../carriercontrolschema-v2/element-customersupportphonenumber.md) element from the last provisioning attempt.

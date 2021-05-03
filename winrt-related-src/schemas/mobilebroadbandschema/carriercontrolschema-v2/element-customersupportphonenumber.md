@@ -1,7 +1,7 @@
 ---
 description: Defines the phone number for customer support in a subscriber's carrier provisioning file.
 Search.Product: eADQiWindows 10XVcnh
-title: CustomerSupportPhoneNumber
+title: CustomerSupportPhoneNumber (CarrierControlSchema_v2 schema)
 ms.assetid: a5fefff4-22ce-4219-be12-4db9520cfa47
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# CustomerSupportPhoneNumber
+# CustomerSupportPhoneNumber (CarrierControlSchema_v2 schema)
 
 
 Defines the phone number for customer support in a subscriber's carrier provisioning file.

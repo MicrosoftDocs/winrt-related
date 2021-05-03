@@ -1,7 +1,7 @@
 ---
 description: Defines the context of a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file.
 Search.Product: eADQiWindows 10XVcnh
-title: Context
+title: Context (CarrierControlSchema_v2 schema, child of PDPContextPolicy)
 ms.assetid: ddf2b145-59b3-46bf-a297-6992f00a06e0
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Context
+# Context (CarrierControlSchema_v2 schema, child of PDPContextPolicy)
 
 
 Defines the context of a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file.
@@ -29,15 +29,6 @@ Defines the context of a Packet Data Protocol (PDP) context policy in a subscrib
 <dd>
 <dl>
 <dt><a href="element-pdpcontextpolicy.md">&lt;PDPContextPolicy&gt;</a></dt>
-<dd><b>&lt;Context&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-<dl>
-<dt><a href="element-tetheringsettings.md">&lt;TetheringSettings&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-tetheringprofile.md">&lt;TetheringProfile&gt;</a></dt>
 <dd><b>&lt;Context&gt;</b></dd>
 </dl>
 </dd>
@@ -124,10 +115,6 @@ None.
 <tr class="odd">
 <td><a href="element-pdpcontextpolicy.md">PDPContextPolicy</a> </td>
 <td><p>Defines a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file.</p></td>
-</tr>
-<tr class="even">
-<td><a href="element-tetheringprofile.md">TetheringProfile</a> </td>
-<td><p>Defines the tethering profile in a subscriber's carrier provisioning file.</p></td>
 </tr>
 </tbody>
 </table>

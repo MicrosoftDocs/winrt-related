@@ -1,7 +1,7 @@
 ---
 description: Specifies a data package format such as text or HTML format that the app can share.
 Search.Product: eADQiWindows 10XVcnh
-title: DataFormat
+title: DataFormat (package schema for Windows 8)
 ms.assetid: a9aa181e-236d-4d33-adcd-54ec8e656891
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# DataFormat
+# DataFormat (package schema for Windows 8)
 
 
 Specifies a data package format such as text or HTML format that the app can share. It is unique per application in the package and is case sensitive.

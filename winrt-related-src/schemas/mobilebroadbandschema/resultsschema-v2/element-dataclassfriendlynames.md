@@ -1,7 +1,7 @@
 ---
 description: Contains any errors from processing the DataClassFriendlyNames element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
-title: DataClassFriendlyNames
+title: DataClassFriendlyNames (ResultsSchema_v2 schema)
 ms.assetid: 14e6fa1b-991e-4420-a675-52f4c120f5e4
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# DataClassFriendlyNames
+# DataClassFriendlyNames (ResultsSchema_v2 schema)
 
 
 Contains any errors from processing the [**DataClassFriendlyNames**](../carriercontrolschema-v2/element-dataclassfriendlynames.md) element from the last provisioning attempt.
