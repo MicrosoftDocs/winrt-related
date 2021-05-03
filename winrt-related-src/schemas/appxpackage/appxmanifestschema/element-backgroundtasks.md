@@ -1,7 +1,7 @@
 ---
 description: Defines an app extensibility point of type windows.backgroundTasks.
 Search.Product: eADQiWindows 10XVcnh
-title: BackgroundTasks
+title: BackgroundTasks (package schema for Windows 8)
 ms.assetid: 0e9cbbc5-3852-4158-87e7-12ea87be62e7
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# BackgroundTasks
+# BackgroundTasks (package schema for Windows 8)
 
 
 Defines an app extensibility point of type **windows.backgroundTasks**. Background tasks run in a dedicated background host; that is, without a UI.

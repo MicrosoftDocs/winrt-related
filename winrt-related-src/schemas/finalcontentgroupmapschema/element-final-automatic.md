@@ -1,7 +1,7 @@
 ---
 
 ms.assetid: 4b8ad01f-c365-4665-82da-d1fec571e606
-title: Automatic
+title: Automatic (final schema)
 description: The automatic content group.
 
 ms.date: 03/29/2017
@@ -11,7 +11,7 @@ ms.topic: article
 keywords: windows 10, uwp, streaming install, content group, map, final content group, automatic content group
 ---
 
-# Automatic
+# Automatic (final schema)
 
 ## Description
 The automatic content group.

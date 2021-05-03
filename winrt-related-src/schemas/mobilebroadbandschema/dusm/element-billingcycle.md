@@ -1,7 +1,7 @@
 ---
 description: Defines the plan's starting date and time, its duration, and what happens at the end of the billing cycle.
 Search.Product: eADQiWindows 10XVcnh
-title: BillingCycle
+title: BillingCycle (DUSM schema)
 ms.assetid: 8be4cdc8-4b17-47c6-a810-7ab6c55a89e0
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# BillingCycle
+# BillingCycle (DUSM schema)
 
 
 Defines the plan's starting date and time, its duration, and what happens at the end of the billing cycle.

@@ -1,7 +1,7 @@
 ---
 description: Declares an app extensibility point of type windows.autoPlayDevice.
 Search.Product: eADQiWindows 10XVcnh
-title: AutoPlayDevice
+title: AutoPlayDevice (extensions schema for Windows 8.1)
 ms.assetid: f01934d7-ad54-455d-bfb9-ef2560bb02ad
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# AutoPlayDevice
+# AutoPlayDevice (extensions schema for Windows 8.1)
 
 
 
