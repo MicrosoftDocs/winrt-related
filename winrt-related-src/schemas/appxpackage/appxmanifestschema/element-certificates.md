@@ -1,7 +1,7 @@
 ---
 description: Declares a package extensibility point of type windows.certificates.
 Search.Product: eADQiWindows 10XVcnh
-title: Certificates
+title: Certificates (package schema for Windows 8)
 ms.assetid: 378edcd3-b9ef-46db-9a56-94470451829e
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Certificates
+# Certificates (package schema for Windows 8)
 
 
 Declares a package extensibility point of type **windows.certificates**. The app requires one or more certificates from the specified certificate stores.

@@ -1,7 +1,7 @@
 ---
 description: A certificate for use with the package and placed in the system certificate stores.
 Search.Product: eADQiWindows 10XVcnh
-title: Certificate
+title: Certificate (extensions schema for Windows 8.1)
 ms.assetid: d3682c0f-fb91-466a-a612-a60c1e6025c9
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Certificate
+# Certificate (extensions schema for Windows 8.1)
 
 
 

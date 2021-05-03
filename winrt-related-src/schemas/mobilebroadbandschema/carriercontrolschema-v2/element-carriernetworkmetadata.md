@@ -1,7 +1,7 @@
 ---
 description: Defines the network properties and settings in a subscriber's carrier provisioning file.
 Search.Product: eADQiWindows 10XVcnh
-title: CarrierNetworkMetadata
+title: CarrierNetworkMetadata (CarrierControlSchema_v2 schema)
 ms.assetid: 6b8fa3df-5138-475d-ac95-305c273730fe
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# CarrierNetworkMetadata
+# CarrierNetworkMetadata (CarrierControlSchema_v2 schema)
 
 
 Defines the network properties and settings in a subscriber's carrier provisioning file.

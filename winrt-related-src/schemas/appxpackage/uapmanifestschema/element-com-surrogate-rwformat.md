@@ -1,7 +1,7 @@
 ---
 
 ms.assetid: e4acf38c-ec61-411a-bec1-388106202881
-title: com:Format (in SurrogateServer/Class)
+title: com:Format (in SurrogateServer/Class, child of com:ReadWritable)
 description: Specifies the file format an application can read and write (activate as).
 
 ms.date: 03/29/2017
@@ -12,7 +12,7 @@ keywords: windows 10, uwp, schema, manifest, com
 ---
 
 
-# com:Format (in SurrogateServer/Class)
+# com:Format (in SurrogateServer/Class, child of com:ReadWritable)
 
 ## Description
 Specifies the file format an application can read and write (activate as).

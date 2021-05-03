@@ -1,7 +1,7 @@
 ---
 description: Contains any errors from processing the CarrierProvisioning element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
-title: CarrierProvisioningResult
+title: CarrierProvisioningResult (ResultsSchema_v2 schema)
 ms.assetid: cee41310-6d39-431c-8548-aaec3249ce50
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# CarrierProvisioningResult
+# CarrierProvisioningResult (ResultsSchema_v2 schema)
 
 
 Contains any errors from processing the [**CarrierProvisioning**](../carriercontrolschema/element-carrierprovisioning.md) element from the last provisioning attempt. [**CarrierProvisioningResult**](../resultsschema/element-carrierprovisioningresult.md) is the unique root element for the provisioning results.
