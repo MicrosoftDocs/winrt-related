@@ -1,7 +1,7 @@
 ---
 description: Defines the default connection profile used by a subscriber to connect to a MNO.
 Search.Product: eADQiWindows 10XVcnh
-title: DefaultProfile
+title: DefaultProfile (WWAN schema)
 ms.assetid: 3f88faaf-9d1a-4561-9527-8cc6067cb8ec
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# DefaultProfile
+# DefaultProfile (WWAN schema)
 
 
 Defines the default connection profile used by a subscriber to connect to a MNO. The Mobile Broadband service will use these connection settings without prompting the user for details.

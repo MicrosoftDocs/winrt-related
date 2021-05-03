@@ -1,7 +1,7 @@
 ---
 description: Declares requirements that a package depends on to be applicable to a device
 Search.Product: eADQiWindows 10XVcnh
-title: Dependencies
+title: Dependencies (StoreManifest schema for Windows 10)
 ms.assetid: a1e745c9-a804-42cf-a107-7fb860cc8289
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Dependencies
+# Dependencies (StoreManifest schema for Windows 10)
 
 
 Declares requirements that a package depends on to be applicable to a device.

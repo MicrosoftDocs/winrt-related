@@ -1,7 +1,7 @@
 ---
 description: Defines an instance of the DefaultProfile element from the WWAN schema.
 Search.Product: eADQiWindows 10XVcnh
-title: DefaultProfile
+title: DefaultProfile (CarrierControlSchema schema)
 ms.assetid: 3f88faaf-9d1a-4561-9527-8cc6067cb8ec
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# DefaultProfile
+# DefaultProfile (CarrierControlSchema schema)
 
 
 Defines an instance of the [**DefaultProfile**](../wwan/element-defaultprofile.md) element from the [**WWAN**](../wwan/schema-root.md) schema.
