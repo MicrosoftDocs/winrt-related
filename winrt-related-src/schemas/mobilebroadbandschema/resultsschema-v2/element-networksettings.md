@@ -1,7 +1,7 @@
 ---
 description: Contains any errors from processing the NetworkSettings element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
-title: NetworkSettings
+title: NetworkSettings (ResultsSchema_v2 schema)
 ms.assetid: 82e8282b-5405-4fcf-b835-83fe6ec9a460
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# NetworkSettings
+# NetworkSettings (ResultsSchema_v2 schema)
 
 
 Contains any errors from processing the [**NetworkSettings**](../carriercontrolschema-v2/element-networksettings.md) element from the last provisioning attempt.

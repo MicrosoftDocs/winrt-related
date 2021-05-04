@@ -1,7 +1,7 @@
 ---
 description: Declares a package extension point of type windows.activatableClass.outOfProcessServer.
 Search.Product: eADQiWindows 10XVcnh
-title: OutOfProcessServer
+title: OutOfProcessServer (Windows 8.1 extensions schema)
 ms.assetid: 575ad44f-e0e3-4682-a082-8d8184bd8dd4
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# OutOfProcessServer
+# OutOfProcessServer (extensions schema for Windows 8.1)
 
 
 

@@ -1,7 +1,7 @@
 ---
 description: The minimum version of the operating system that the package requires.
 Search.Product: eADQiWindows 10XVcnh
-title: OSMinVersion
+title: OSMinVersion (Windows 8.1 extensions schema)
 ms.assetid: 18c045dd-7e8c-431c-b3d8-bc3056575632
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# OSMinVersion
+# OSMinVersion (extensions schema for Windows 8.1)
 
 
 

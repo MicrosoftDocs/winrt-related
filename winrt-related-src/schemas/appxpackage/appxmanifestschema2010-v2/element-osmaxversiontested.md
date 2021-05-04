@@ -1,7 +1,7 @@
 ---
 description: Represents the highest version of Windows that the package was tested on.
 Search.Product: eADQiWindows 10XVcnh
-title: OSMaxVersionTested
+title: OSMaxVersionTested (Windows 8.1 extensions schema)
 ms.assetid: 2f820978-5080-427d-b364-08951afae9ee
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# OSMaxVersionTested
+# OSMaxVersionTested (extensions schema for Windows 8.1)
 
 This should be filled in by the developer with the highest version of Windows that the package was tested on. This field is required. Windows will not block installation of the package on versions of the OS higher than the value provided in this field. When an app is executed, Windows will compare this field to the actual OS version. If the value provided in this field is less than the current OS version, Windows may provide behavior compatible with the highest tested OS version for some or all APIs. If the value provided in this field is greater than or equal to the current OS version, Windows will not apply any compatibility changes to APIs.
 
