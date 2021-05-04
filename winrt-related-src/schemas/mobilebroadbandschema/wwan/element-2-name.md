@@ -1,7 +1,7 @@
 ---
 description: Defines the profile name.
 Search.Product: eADQiWindows 10XVcnh
-title: 'Name (type: NameType)'
+title: 'Name (WWAN schema, child of PurchaseProfile)'
 ms.assetid: 4cd85e0d-4b37-4d64-86fd-406ec368a532
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Name (type: NameType)
+# Name (WWAN schema, child of PurchaseProfile)
 
 
 Defines the profile name. Must be 64 characters or less.

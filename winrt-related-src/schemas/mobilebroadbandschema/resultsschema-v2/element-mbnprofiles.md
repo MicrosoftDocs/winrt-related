@@ -1,7 +1,7 @@
 ---
 description: Contains any errors from processing the MBNProfiles element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
-title: MBNProfiles
+title: MBNProfiles (ResultsSchema_v2 schema)
 ms.assetid: 10f5eab7-7e8c-4162-95e5-f1b5b793e0d8
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# MBNProfiles
+# MBNProfiles (ResultsSchema_v2 schema)
 
 Contains any errors from processing the [**MBNProfiles**](../carriercontrolschema/element-mbnprofiles.md) element from the last provisioning attempt.
 

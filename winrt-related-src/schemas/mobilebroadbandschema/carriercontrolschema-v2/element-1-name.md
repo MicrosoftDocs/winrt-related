@@ -1,7 +1,7 @@
 ---
 description: Defines the name of a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file.
 Search.Product: eADQiWindows 10XVcnh
-title: Name
+title: Name (CarrierControlSchema_v2 schema, child of TetheringProfile)
 ms.assetid: 9eab41c7-29ff-42aa-9647-f18ff72b3faf
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Name
+# Name (CarrierControlSchema_v2 schema, child of TetheringProfile)
 
 
 Defines the name of a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file.

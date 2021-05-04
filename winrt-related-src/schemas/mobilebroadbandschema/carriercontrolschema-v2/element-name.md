@@ -1,7 +1,7 @@
 ---
 description: Defines the name of a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file.
 Search.Product: eADQiWindows 10XVcnh
-title: Name
+title: Name (CarrierControlSchema_v2 schema, child of PDPContextPolicy)
 ms.assetid: 388d0dc5-d9a8-48f3-96ce-ebd5262894ed
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Name
+# Name (CarrierControlSchema_v2 schema, child of PDPContextPolicy)
 
 
 Defines the name of a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file.

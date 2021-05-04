@@ -1,7 +1,7 @@
 ---
 description: Defines information for a subscriber's WWAN profiles on a Mobile Network Operator's (MNO) network.
 Search.Product: eADQiWindows 10XVcnh
-title: MBNProfiles
+title: MBNProfiles (CarrierControlSchema schema)
 ms.assetid: 10f5eab7-7e8c-4162-95e5-f1b5b793e0d8
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# MBNProfiles
+# MBNProfiles (CarrierControlSchema schema)
 
 
 Defines information for a subscriber's WWAN profiles on a Mobile Network Operator's (MNO) network.
