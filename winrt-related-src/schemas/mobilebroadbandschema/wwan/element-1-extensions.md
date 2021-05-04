@@ -1,7 +1,7 @@
 ---
 description: Defines a schema extension point container for future additions.
 Search.Product: eADQiWindows 10XVcnh
-title: Extensions
+title: Extensions (WWAN schema, child of PurchaseProfile)
 ms.assetid: 267051e3-b09c-467c-b5bd-4575cc31cb36
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Extensions
+# Extensions (WWAN schema, child of PurchaseProfile)
 
 
 Defines a schema extension point container for future additions.
