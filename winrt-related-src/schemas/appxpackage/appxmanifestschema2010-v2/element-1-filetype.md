@@ -1,7 +1,7 @@
 ---
 description: A file type specified as its file type extension.
 Search.Product: eADQiWindows 10XVcnh
-title: 'FileType (type: ST_FileType)'
+title: 'FileType (Windows 8.1 extensions schema, descendant of ShareTarget)'
 ms.assetid: f04c9bf7-2523-4d48-bdd0-f6b227af0a2d
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# FileType (type: ST_FileType)
+# FileType (extensions schema for Windows 8.1, descendant of ShareTarget)
 
 
 
