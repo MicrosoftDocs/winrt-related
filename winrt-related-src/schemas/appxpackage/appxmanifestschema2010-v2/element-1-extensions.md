@@ -25,13 +25,8 @@ Defines one or more extensibility points for the app.
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
 <dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd><b>&lt;Extensions&gt;</b></dd>
-</dl>
-</dd>
+<dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
+<dd><b>&lt;Extension&gt;</b></dd>
 </dl>
 </dd>
 </dl>

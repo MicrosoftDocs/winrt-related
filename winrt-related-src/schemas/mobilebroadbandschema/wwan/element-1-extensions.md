@@ -20,6 +20,10 @@ Defines a schema extension point container for future additions.
 ## Element hierarchy
 
 <dl>
+<dt><a href="element-defaultprofile.md">&lt;DefaultProfile&gt;</a></dt>
+<dd><b>&lt;Extensions&gt;</b></dd>
+</dl>
+<dl>
 <dt><a href="element-purchaseprofile.md">&lt;PurchaseProfile&gt;</a></dt>
 <dd><b>&lt;Extensions&gt;</b></dd>
 </dl>
@@ -65,6 +69,10 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
+<td><a href="element-defaultprofile.md">DefaultProfile</a> </td>
+<td><p>Defines the default connection profile used by a subscriber to connect to a MNO. The Mobile Broadband service will use these connection settings without prompting the user for details.</p></td>
+</tr>
+<tr class="even">
 <td><a href="element-purchaseprofile.md">PurchaseProfile</a> </td>
 <td><p>Defines a purchase connection profile used by a subscriber to connect to a MNO.</p></td>
 </tr>
