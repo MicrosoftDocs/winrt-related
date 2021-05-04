@@ -1,7 +1,7 @@
 ---
 description: Defines the badge and notifications that represent the app on the lock screen, which is shown when the system is locked.
 Search.Product: eADQiWindows 10XVcnh
-title: LockScreen
+title: LockScreen (Windows 8.1 feature extensions schema)
 ms.assetid: 4b73231f-9cf8-4dc6-ad82-70dc2bdb7745
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# LockScreen
+# LockScreen (feature extensions schema for Windows 8.1)
 
 
 

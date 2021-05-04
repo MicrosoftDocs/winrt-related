@@ -1,7 +1,7 @@
 ---
 description: A path to a file that contains an image.
 Search.Product: eADQiWindows 10XVcnh
-title: Logo
+title: Logo (Windows 8.1 extensions schema, child of Properties)
 ms.assetid: ffbb17ac-d3c5-42ea-9a39-167a8dc4d2ba
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Logo
+# Logo (extensions schema for Windows 8.1, child of Properties)
 
 
 
