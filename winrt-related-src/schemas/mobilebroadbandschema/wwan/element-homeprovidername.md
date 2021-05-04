@@ -1,7 +1,7 @@
 ---
 description: Defines the name of the Home Provider for a given SIM/Device.
 Search.Product: eADQiWindows 10XVcnh
-title: HomeProviderName
+title: HomeProviderName (child of DefaultProfile)
 ms.assetid: 8c80386f-a778-49ec-9439-990220d17d13
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# HomeProviderName
+# HomeProviderName (child of DefaultProfile)
 
 
 Defines the name of the Home Provider for a given SIM/Device.
