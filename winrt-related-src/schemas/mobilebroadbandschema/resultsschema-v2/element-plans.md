@@ -2,7 +2,7 @@
 description: Contains any errors from processing the Plans element from the last provisioning attempt.
 
 Search.Product: eADQiWindows 10XVcnh
-title: Plans
+title: Plans (ResultsSchema_v2 schema)
 ms.assetid: f6bdcd56-748b-4d9e-86fd-10467df0e7f3
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Plans
+# Plans (ResultsSchema_v2 schema)
 
 
 Contains any errors from processing the [**Plans**](../carriercontrolschema/element-plans.md) element from the last provisioning attempt.

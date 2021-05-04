@@ -1,7 +1,7 @@
 ---
 description: The path to the executable.
 Search.Product: eADQiWindows 10XVcnh
-title: 'Path (type: ST_Executable)'
+title: 'Path (Windows 8.1 extensions schema, child of OutOfProcessServer)'
 ms.assetid: f3fe9184-f270-4050-b444-ec37a596b993
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Path (type: ST_Executable)
+# Path (extensions schema for Windows 8.1, child of OutOfProcessServer)
 
 
 
