@@ -25,6 +25,15 @@ Defines the name of a Packet Data Protocol (PDP) context policy in a subscriber'
 <dt><a href="element-additionalpdpcontexts.md">&lt;AdditionalPDPContexts&gt;</a></dt>
 <dd>
 <dl>
+<dt><a href="element-multiplepdpcontextpolicies.md">&lt;MultiplePDPContextPolicies&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-pdpcontextpolicy.md">&lt;PDPContextPolicy&gt;</a></dt>
+<dd><b>&lt;Name&gt;</b></dd>
+</dl>
+</dd>
+</dl>
+<dl>
 <dt><a href="element-tetheringsettings.md">&lt;TetheringSettings&gt;</a></dt>
 <dd>
 <dl>
@@ -74,6 +83,10 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
+<td><a href="element-pdpcontextpolicy.md">PDPContextPolicy</a> </td>
+<td><p>Defines a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file.</p></td>
+</tr>
+<tr class="even">
 <td><a href="element-tetheringprofile.md">TetheringProfile</a> </td>
 <td><p>Defines the tethering profile in a subscriber's carrier provisioning file.</p></td>
 </tr>
