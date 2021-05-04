@@ -23,6 +23,10 @@ A path to a file that contains an image.
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
 <dl>
+<dt><a href="element-properties.md">&lt;Properties&gt;</a></dt>
+<dd><b>&lt;Logo&gt;</b></dd>
+</dl>
+<dl>
 <dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
 <dd>
 <dl>
@@ -36,6 +40,10 @@ A path to a file that contains an image.
 <dd>
 <dl>
 <dt><a href="element-filetypeassociation.md">&lt;FileTypeAssociation&gt;</a></dt>
+<dd><b>&lt;Logo&gt;</b></dd>
+</dl>
+<dl>
+<dt><a href="element-protocol.md">&lt;Protocol&gt;</a></dt>
 <dd><b>&lt;Logo&gt;</b></dd>
 </dl>
 </dd>
@@ -87,6 +95,20 @@ None.
 <tr class="odd">
 <td><a href="element-filetypeassociation.md">FileTypeAssociation</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.fileTypeAssociation</strong>. A file type association indicates that the app is registered to handle files of the specified types.</p></td>
+</tr>
+<tr class="even">
+<td><a href="element-properties.md">Properties</a> </td>
+<td><p>Defines additional metadata about the package including attributes that describe how the package appears to users.</p>
+<div class="alert">
+<strong>Note</strong>  You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely “|” and “all”, due to which Windows fails to create the AppContainer profile for the package . Use this reference for [troubleshooting](/windows/win32/appxpkg/troubleshooting) if you get an error.
+</div>
+<div>
+ 
+</div></td>
+</tr>
+<tr class="odd">
+<td><a href="element-protocol.md">Protocol</a> </td>
+<td><p>Declares an app extensibility point of type <strong>windows.protocol</strong>. A URI association indicates that the app is registered to handle URIs with the specified scheme.</p></td>
 </tr>
 </tbody>
 </table>
