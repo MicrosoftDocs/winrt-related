@@ -1,7 +1,7 @@
 ---
 description: Contains a set of MNO messages that are parsed by Windows 8 and may be signaled to the user.
 Search.Product: eADQiWindows 10XVcnh
-title: Messages
+title: Messages (WWAN schema)
 ms.assetid: 08283c2b-d44e-4d03-8a0f-f213397cb93d
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Messages
+# Messages (WWAN schema)
 
 
 Contains a set of MNO messages that are parsed by Windows 8 and may be signaled to the user.

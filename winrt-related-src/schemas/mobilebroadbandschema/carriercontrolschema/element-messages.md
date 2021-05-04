@@ -1,7 +1,7 @@
 ---
 description: Defines an instance of the Messages element from the WWAN schema.
 Search.Product: eADQiWindows 10XVcnh
-title: Messages
+title: Messages (CarrierControlSchema schema)
 ms.assetid: 08283c2b-d44e-4d03-8a0f-f213397cb93d
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Messages
+# Messages (CarrierControlSchema schema)
 
 
 Defines an instance of the [**Messages**](../wwan/element-messages.md) element from the [**WWAN**](../wwan/schema-root.md) schema.
