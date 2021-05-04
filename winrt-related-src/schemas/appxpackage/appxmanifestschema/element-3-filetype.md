@@ -35,6 +35,24 @@ A file type specified as its file type extension. It is unique per application i
 <dt><a href="element-1-extension.md">&lt;Extension&gt;</a></dt>
 <dd>
 <dl>
+<dt><a href="element-sharetarget.md">&lt;ShareTarget&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-1-supportedfiletypes.md">&lt;SupportedFileTypes&gt;</a></dt>
+<dd><b>&lt;FileType&gt;</b></dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dt><a href="element-fileopenpicker.md">&lt;FileOpenPicker&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-2-supportedfiletypes.md">&lt;SupportedFileTypes&gt;</a></dt>
+<dd><b>&lt;FileType&gt;</b></dd>
+</dl>
+</dd>
+</dl>
+<dl>
 <dt><a href="element-filesavepicker.md">&lt;FileSavePicker&gt;</a></dt>
 <dd>
 <dl>
