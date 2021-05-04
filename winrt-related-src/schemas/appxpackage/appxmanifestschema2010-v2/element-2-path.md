@@ -1,7 +1,7 @@
 ---
 description: The path to the DLL.
 Search.Product: eADQiWindows 10XVcnh
-title: 'Path (type: ST_FileName)'
+title: 'Path (Windows 8.1 extensions schema, child of ProxyStub)'
 ms.assetid: 4522dd59-287a-4c40-8054-168d06f61a08
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Path (type: ST_FileName)
+# Path (extensions schema for Windows 8.1, child of ProxyStub)
 
 
 

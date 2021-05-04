@@ -1,7 +1,7 @@
 ---
 description: The path to the DLL.
 Search.Product: eADQiWindows 10XVcnh
-title: 'Path (type: ST_FileName)'
+title: 'Path (Windows 8.1 extensions schema, child of InProcessServer)'
 ms.assetid: 337dd035-774d-40fb-8da1-7af11dbb4a35
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Path (type: ST_FileName)
+# Path (extensions schema for Windows 8.1, child of InProcessServer)
 
 
 
