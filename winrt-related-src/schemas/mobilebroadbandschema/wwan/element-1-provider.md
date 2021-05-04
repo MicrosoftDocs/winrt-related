@@ -1,7 +1,7 @@
 ---
 description: Defines the name and provider ID of a cellular network.
 Search.Product: eADQiWindows 10XVcnh
-title: Provider
+title: Provider (WWAN schema, descendant of PurchaseProfile)
 ms.assetid: 349e3c3c-3533-4ec5-ae1d-fad2e3c7e542
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Provider
+# Provider (WWAN schema, descendant of PurchaseProfile)
 
 
 Defines the name and provider ID of a cellular network.

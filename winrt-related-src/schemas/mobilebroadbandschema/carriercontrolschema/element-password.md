@@ -1,7 +1,7 @@
 ---
 description: Defines optional password credentials to be presented using HTTP-Auth to log on to the Mobile Network Operator's network when retrieving the provisioning file.
 Search.Product: eADQiWindows 10XVcnh
-title: Password
+title: Password (CarrierControlSchema schema)
 ms.assetid: a7a63a7c-31d7-42bb-8e04-557306980baf
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Password
+# Password (CarrierControlSchema schema)
 
 
 Defines optional password credentials to be presented using HTTP-Auth to log on to the Mobile Network Operator's network when retrieving the provisioning file.
