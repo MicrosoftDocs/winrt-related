@@ -1,7 +1,7 @@
 ---
 description: A friendly name that can be displayed to users. This string is localizable.
 Search.Product: eADQiWindows 10XVcnh
-title: DisplayName
+title: DisplayName (Windows 8.1 extensions schema, child of Protocol)
 ms.assetid: 3c16ea92-5f60-4d15-ac7d-8fc8fee3a51f
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# DisplayName
+# DisplayName (extensions schema for Windows 8.1, child of Protocol)
 
 
 

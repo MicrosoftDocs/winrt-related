@@ -1,7 +1,7 @@
 ---
 description: A friendly name that can be displayed to users.
 Search.Product: eADQiWindows 10XVcnh
-title: DisplayName
+title: DisplayName (Windows 8 package schema, child of Protocol)
 ms.assetid: f6f39a3e-0ec1-4590-a582-19360397dbc9
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# DisplayName
+# DisplayName (package schema for Windows 8, child of Protocol)
 
 
 A friendly name that can be displayed to users.
