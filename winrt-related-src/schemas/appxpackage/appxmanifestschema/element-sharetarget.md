@@ -1,7 +1,7 @@
 ---
 description: Declares an app extension point of type windows.shareTarget.
 Search.Product: eADQiWindows 10XVcnh
-title: ShareTarget
+title: ShareTarget (Windows 8 package schema)
 ms.assetid: 42f77354-83be-4f41-bf89-95566d026687
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# ShareTarget
+# ShareTarget (package schema for Windows 8)
 
 
 Declares an app extension point of type **windows.shareTarget**. The app can share the specified types of files.
