@@ -1,7 +1,7 @@
 ---
 description: A friendly name for the publisher that can be displayed to users.
 Search.Product: eADQiWindows 10XVcnh
-title: PublisherDisplayName
+title: PublisherDisplayName (Windows 8 package schema)
 ms.assetid: 8df2d218-e62d-4b2e-8db5-3436c67aa04c
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# PublisherDisplayName
+# PublisherDisplayName (package schema for Windows 8)
 
 
 A friendly name for the publisher that can be displayed to users.
