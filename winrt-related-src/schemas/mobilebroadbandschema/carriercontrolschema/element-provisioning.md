@@ -1,7 +1,7 @@
 ---
 description: Defines parameters used to establish trust and refresh settings for future provisioning attempts.
 Search.Product: eADQiWindows 10XVcnh
-title: Provisioning
+title: Provisioning (CarrierControlSchema schema)
 ms.assetid: a6e7f546-9036-4796-b57d-0d45b591f3d6
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Provisioning
+# Provisioning (CarrierControlSchema schema)
 
 
 Defines parameters used to establish trust and refresh settings for future provisioning attempts.

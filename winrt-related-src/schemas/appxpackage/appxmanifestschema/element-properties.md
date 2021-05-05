@@ -1,7 +1,7 @@
 ---
 description: Defines additional metadata about the package including attributes that describe how the package appears to users.
 Search.Product: eADQiWindows 10XVcnh
-title: Properties
+title: Properties (Windows 8 package schema)
 ms.assetid: accc712c-c7b9-45e1-ba02-836abacbd9b5
 
 keywords: windows 10, uwp, schema, package manifest
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Properties
+# Properties (package schema for Windows 8)
 
 
 Defines additional metadata about the package including attributes that describe how the package appears to users.
