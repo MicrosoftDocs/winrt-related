@@ -1,7 +1,7 @@
 ---
 description: Defines information for a subscriber's WLAN profiles on a Mobile Network Operator's (MNO) network.
 Search.Product: eADQiWindows 10XVcnh
-title: WLANProfiles
+title: WLANProfiles (CarrierControlSchema schema)
 ms.assetid: ca31898f-b3c9-4f87-9a8e-8adc30875413
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# WLANProfiles
+# WLANProfiles (CarrierControlSchema schema)
 
 
 Defines information for a subscriber's WLAN profiles on a Mobile Network Operator's (MNO) network.
