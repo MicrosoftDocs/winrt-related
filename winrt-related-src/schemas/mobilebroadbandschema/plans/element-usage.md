@@ -1,7 +1,7 @@
 ---
 description: Defines the state of a subscriber's data usage on a connection to a Mobile Network Operator (MNO).
 Search.Product: eADQiWindows 10XVcnh
-title: Usage
+title: Usage (Plans schema)
 ms.assetid: 82d451f6-18be-4455-b62a-61296a8f8ad0
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Usage
+# Usage (Plans schema)
 
 
 Defines the state of a subscriber's data usage on a connection to a Mobile Network Operator (MNO). UWP apps can retrieve this information using the [**DataPlanStatus**](/uwp/api/Windows.Networking.Connectivity.DataPlanStatus) class.

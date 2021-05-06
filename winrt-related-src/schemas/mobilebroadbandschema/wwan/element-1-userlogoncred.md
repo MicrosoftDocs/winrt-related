@@ -1,7 +1,7 @@
 ---
 description: Defines logon credentials for a connection.
 Search.Product: eADQiWindows 10XVcnh
-title: UserLogonCred
+title: UserLogonCred (WWAN schema, descendant of PurchaseProfile)
 ms.assetid: 518b3496-f7c3-4af5-a17b-778293d74d4a
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# UserLogonCred
+# UserLogonCred (WWAN schema, descendant of PurchaseProfile)
 
 
 Defines logon credentials for a connection.
