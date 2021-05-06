@@ -1,7 +1,7 @@
 ---
 description: Specifies text used in the toast template.
 Search.Product: eADQiWindows 10XVcnh
-title: text
+title: text (Toast schema)
 ms.assetid: dac874d1-0a30-4d85-a63d-0ddfa88783d1
 
 keywords: windows 10, uwp, schema, toast notifications
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# text
+# text (Toast schema)
 
 
 

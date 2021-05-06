@@ -1,7 +1,7 @@
 ---
 description: Defines the file types that the app can share.
 Search.Product: eADQiWindows 10XVcnh
-title: 'SupportedFileTypes (type: CT_CharmsSupportedFileTypes)'
+title: 'SupportedFileTypes (Windows 8.1 extensions schema, child of ShareTarget)'
 ms.assetid: f5706357-708f-4d3e-bbca-15272e6b77dc
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# SupportedFileTypes (type: CT_CharmsSupportedFileTypes)
+# SupportedFileTypes (extensions schema for Windows 8.1, child of ShareTarget)
 
 
 
@@ -38,6 +38,7 @@ Defines the file types that the app can share.
 </dl>
 </dd>
 </dl>
+
 ## Syntax
 
 ``` syntax
