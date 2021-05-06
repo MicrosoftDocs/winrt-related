@@ -1,7 +1,7 @@
 ---
 description: Contains any errors from processing the TetheringSettings element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
-title: TetheringSettings
+title: TetheringSettings (ResultsSchema_v2 schema)
 ms.assetid: 0bf2129c-0589-437a-8cfa-834b16ce42a2
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# TetheringSettings
+# TetheringSettings (ResultsSchema_v2 schema)
 
 
 Contains any errors from processing the [**TetheringSettings**](../carriercontrolschema-v2/element-tetheringsettings.md) element from the last provisioning attempt.

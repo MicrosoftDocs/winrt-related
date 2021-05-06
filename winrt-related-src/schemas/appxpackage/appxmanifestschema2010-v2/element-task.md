@@ -1,7 +1,7 @@
 ---
 description: The background task associated with the app extensibility point.
 Search.Product: eADQiWindows 10XVcnh
-title: Task
+title: Task (Windows 8.1 extensions schema)
 ms.assetid: 4662ec1d-c245-4c60-b966-e27d5ce0699d
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Task
+# Task (extensions schema for Windows 8.1)
 
 The background task associated with the app extensibility point.
 
