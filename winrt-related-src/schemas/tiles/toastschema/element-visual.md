@@ -1,7 +1,7 @@
 ---
 description: Contains a single binding element that defines a toast.
 Search.Product: eADQiWindows 10XVcnh
-title: visual
+title: visual (Toast schema)
 ms.assetid: f8de9ed6-53d4-4ba5-a4e5-df540c93bd89
 
 keywords: windows 10, uwp, schema, toast notifications
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# visual
+# visual (Toast schema)
 
 
 

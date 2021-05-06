@@ -1,7 +1,7 @@
 ---
 description: Indicates whether the subscriber's service includes user-to-user SMS which must be delivered in near real-time.
 Search.Product: eADQiWindows 10XVcnh
-title: UserSMSEnabled
+title: UserSMSEnabled (Plans schema)
 ms.assetid: 898c68cd-8d04-45f2-b5a8-d1e8923396bf
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# UserSMSEnabled
+# UserSMSEnabled (Plans schema)
 
 
 Indicates whether the subscriber's service includes user-to-user SMS which must be delivered in near real-time. If **true**, Windows will employ less aggressive power management on the Mobile Broadband interface to allow SMS messages to arrive more quickly. If **false**, the mobile broadband radio may be turned off during periods of inactivity. SMS messages will arrive when the PC is next active.
