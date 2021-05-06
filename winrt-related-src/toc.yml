@@ -2156,6 +2156,8 @@
       href: cpp-ref-for-winrt/hstring.md
     - name: "implements struct template"
       href: cpp-ref-for-winrt/implements.md
+    - name: "is_guid_of function template"
+      href: cpp-ref-for-winrt/is-guid-of.md
     - name: "make function template"
       href: cpp-ref-for-winrt/make.md
     - name: "make_agile function template"

@@ -91,6 +91,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [get_trust_level function](get-trust-level.md) | A helper function that retrieves the trust level of a C++/WinRT object. |
 | [get_unknown function](get-unknown.md) | A helper function that returns the address of the underlying raw [IUnknown interface](/windows/win32/api/unknwn/nn-unknwn-iunknown) of an object of a projected type. |
 | [guid_of function template](guid-of.md) | A helper function template that retrieves the GUID of a runtime class, coclass, or interface. |
+| [is_guid_of function template](is-guid-of.md) | A helper function template that determines whether or not the provided GUID is that of one of the specified runtime classes, coclasses, or interfaces. |
 | [make function template](make.md) | A factory method that returns an instance of a projected type or interface when parameterized with the corresponding implementation type. |
 | [make_agile function template](make-agile.md) | A helper function that returns an [agile_ref](agile-ref.md) object, representing an agile reference to a C++/WinRT object or interface. |
 | [make_self function template](make-self.md) | A factory method that returns a [com_ptr](com-ptr.md) to an instance of the implementation type for a runtime class. |

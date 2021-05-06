@@ -12,6 +12,7 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::guid_of function template (C++/WinRT)
+
 A helper function template that retrieves the GUID of a runtime class, coclass, or interface.
 
 ## Syntax
@@ -21,13 +22,16 @@ constexpr winrt::guid const& guid_of() noexcept;
 ```
 
 ### Template parameters
-`T`
+
+`typename T`
 The type of the runtime class, coclass, or interface whose GUID you wish to retrieve.
 
 ### Return value 
+
 A **winrt::guid** value containing the globally unique identifier of `T`.
 
 ## Requirements
+
 **Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
 
 **Namespace:** winrt
