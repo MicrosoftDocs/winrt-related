@@ -1,7 +1,7 @@
 ---
 
 ms.assetid: 917fe36f-091e-4374-9ead-5755f1cce72b
-title: desktop2:Extension
+title: desktop2:Extension (in Package/Applications)
 description: Declares an extensibility point for the app.
 
 ms.date: 04/05/2017
@@ -11,7 +11,7 @@ ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 
-# desktop2:Extension
+# desktop2:Extension (in Package/Applications)
 
 ## Description
 Declares an extensibility point for the app.

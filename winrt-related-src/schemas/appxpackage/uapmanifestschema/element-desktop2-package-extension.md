@@ -1,7 +1,7 @@
 ---
 
 ms.assetid: f082edc4-0add-46b3-a232-17007783ecb2
-title: desktop2:Extension
+title: desktop2:Extension (in Package/Extensions)
 description: Declares an extensibility point for the app.
 
 ms.date: 04/05/2017
