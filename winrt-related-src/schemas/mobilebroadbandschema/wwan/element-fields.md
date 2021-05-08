@@ -171,7 +171,7 @@ Values include rules for inferring the value if absent. If any value referenced 
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/WWAN/v1` |
 
