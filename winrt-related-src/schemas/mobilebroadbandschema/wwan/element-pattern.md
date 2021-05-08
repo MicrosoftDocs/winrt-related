@@ -78,7 +78,7 @@ This regular expression must match an incoming message for further parsing to pr
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/WWAN/v1` |
 

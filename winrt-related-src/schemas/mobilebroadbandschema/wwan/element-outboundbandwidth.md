@@ -149,7 +149,7 @@ If absent, **OutboundBandwidth** is not inferred.
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/WWAN/v1` |
 
