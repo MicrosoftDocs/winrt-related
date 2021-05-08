@@ -149,7 +149,7 @@ If the **UsageOverage** element is included in the schema, then the **UsageTimes
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/WWAN/v1` |
 

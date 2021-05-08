@@ -107,7 +107,7 @@ If the **UsageOveragePercentage** element is included in the schema, then the **
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/WWAN/v1` |
 
