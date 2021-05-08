@@ -69,7 +69,7 @@ This outermost (document) element may not be contained by any other elements.
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/notifications/2012/tile.xsd` |
 

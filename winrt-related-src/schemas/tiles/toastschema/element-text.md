@@ -126,7 +126,7 @@ For more information, see [Globalizing your tile: localization, scaling, and acc
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/notifications/2012/toast.xsd` |
 

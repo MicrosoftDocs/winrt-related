@@ -164,7 +164,7 @@ Contains a single [**binding**](../tilesschema/element-binding.md) element that 
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/notifications/2012/toast.xsd` |
 
