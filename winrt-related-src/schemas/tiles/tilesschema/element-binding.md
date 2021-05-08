@@ -380,7 +380,7 @@ The following table explains how the system responds when lang is not specified.
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/notifications/2012/tile.xsd` |
 

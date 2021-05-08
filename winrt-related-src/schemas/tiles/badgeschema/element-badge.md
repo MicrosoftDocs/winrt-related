@@ -133,7 +133,7 @@ This table shows the available status glyphs.
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/notifications/2012/badge.xsd` |
 

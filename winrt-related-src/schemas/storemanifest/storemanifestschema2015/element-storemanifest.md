@@ -83,7 +83,7 @@ For apps targeting earlier OS versions, see [StoreManifest schema (Windows 8.1 a
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2015/StoreManifest` |
 
