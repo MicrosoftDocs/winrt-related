@@ -139,7 +139,7 @@ You can use any value for the **Verb** attribute except, **open**, which is rese
 
 ## Requirements
 
-|               |                                                             |
+|               |   Value                                                          |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/manifest` |
 

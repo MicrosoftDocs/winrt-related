@@ -173,7 +173,7 @@ These extensibility points can't be declared multiple times in a manifest:
 
 ## Requirements
 
-|               |                                                             |
+|               |   Value                                                          |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/manifest` |
 
