@@ -80,7 +80,7 @@ The [**SSIDPrefix**](element-ssidprefix.md) element is included in the version 2
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/WLAN/v2` |
 

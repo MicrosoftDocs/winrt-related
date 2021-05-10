@@ -118,7 +118,7 @@ This element is only required if [**authentication**](element-authentication.md)
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/WLAN/v1` |
 
