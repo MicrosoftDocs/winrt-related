@@ -41,7 +41,8 @@ Defines one or more extensibility points for the app.
 
   <!-- Child elements -->
   Extension{1,10000},
-  uap:Extension{1,10000}
+  uap:Extension{1,10000},
+  desktop:Extension{1,10000}
 
 </Extensions>
 ```
@@ -76,6 +77,10 @@ None.
 </tr>
 <tr class="even">
 <td><a href="element-uap-extension.md">uap:Extension</a> </td>
+<td><p>Declares an extensibility point for the app.</p></td>
+</tr>
+<tr class="odd">
+<td><a href="element-desktop-extension.md">desktop:Extension</a> </td>
 <td><p>Declares an extensibility point for the app.</p></td>
 </tr>
 </tbody>

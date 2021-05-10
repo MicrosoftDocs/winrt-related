@@ -101,6 +101,9 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [desktop2:DesktopPreviewHandler](element-desktop2-desktoppreviewhandler.md) | Enables declaration of a preview handler for a file type association. |
 | [desktop2:DesktopPropertyHandler](element-desktop2-DesktopPropertyHandler.md) | Enables declaration of a property handler for a file type association. |
 | [desktop2:EventMessageFiles](element-desktop2-EventMessageFiles.md) | Contains event message files. |
+| [desktop:Extension (in Application/Extensions)](element-desktop-extension.md) | Declares an extensibility point for the app. |
+| [desktop:FullTrustProcess](element-desktop-fulltrustprocess.md) | Represents a desktop process that runs in full-trust. |
+| [desktop:ParameterGroup](element-parametergroup.md) | Represents a group of command-line parameters for a full-trust process. |
 | [desktop2:Extension (in Application/Extensions)](element-desktop2-Extension.md) | Declares an extensibility point for the app. |
 | [desktop2:Extension (in Package/Extensions)](element-desktop2-package-extension.md) | Declares an extensibility point for the app. |
 | [desktop2:File](element-desktop2-file.md) | Specifies the path to an event message file. |

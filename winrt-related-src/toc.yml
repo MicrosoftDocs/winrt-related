@@ -419,6 +419,12 @@
             href: schemas/appxpackage/uapmanifestschema/element-com3-progid.md
           - name: "com2:ComInterface"
             href: schemas/appxpackage/uapmanifestschema/element-com2-cominterface.md
+          - name: "desktop:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop-extension.md
+          - name: "desktop:FullTrustProcess"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop-fulltrustprocess.md
+          - name: "desktop:ParameterGroup"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop-parametergroup.md
           - name: "desktop2:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-desktop2-extension.md
           - name: "desktop2:AppPrinter"
