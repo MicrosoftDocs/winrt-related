@@ -123,7 +123,7 @@ Contains any errors from processing the [**Plans**](../carriercontrolschema/elem
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControlResults/v2` |
 

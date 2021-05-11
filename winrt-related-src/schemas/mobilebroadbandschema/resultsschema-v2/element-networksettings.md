@@ -98,7 +98,7 @@ None.
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControlResults/v2` |
 
