@@ -131,7 +131,7 @@ Contains any errors from processing the [**Provisioning**](../carriercontrolsche
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControlResults/v1` |
 

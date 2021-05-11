@@ -130,7 +130,7 @@ If processing all MBN profiles failed with the same error, this error will be sh
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControlResults/v1` |
 

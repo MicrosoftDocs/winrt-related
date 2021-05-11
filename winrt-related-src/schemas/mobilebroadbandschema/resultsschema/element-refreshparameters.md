@@ -126,7 +126,7 @@ Contains any errors from processing the [**RefreshParameters**](../carriercontro
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControlResults/v1` |
 
