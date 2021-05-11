@@ -96,7 +96,7 @@ None.
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/WLAN/HotspotProfile/v1` |
 
