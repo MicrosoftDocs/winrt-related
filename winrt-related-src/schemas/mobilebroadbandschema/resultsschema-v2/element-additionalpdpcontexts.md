@@ -122,7 +122,7 @@ Contains any errors from processing the [**AdditionalPDPContexts**](../carrierco
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControlResults/v2` |
 

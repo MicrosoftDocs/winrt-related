@@ -126,7 +126,7 @@ If processing all WLAN profiles failed with the same error, this error will be s
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControlResults/v1` |
 
