@@ -137,7 +137,7 @@ Defines multiple Packet Data Protocol (PDP) context policies in a subscriber's c
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/v2` |
 
