@@ -99,7 +99,7 @@ For more information about 802.11 authentication methods, see the [WPA](https://
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/WLAN/v1` |
 
