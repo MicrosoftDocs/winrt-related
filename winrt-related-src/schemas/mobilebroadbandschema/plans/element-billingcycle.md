@@ -127,7 +127,7 @@ This information can be used to understand when the next billing cycle begins fo
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/Plans/v1` |
 
