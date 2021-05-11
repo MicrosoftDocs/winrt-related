@@ -90,7 +90,7 @@ See the [**keyMaterial**](element-keymaterial.md) element for more information r
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/WLAN/v1` |
 

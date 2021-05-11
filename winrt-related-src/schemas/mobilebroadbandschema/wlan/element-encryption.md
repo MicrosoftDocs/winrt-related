@@ -99,7 +99,7 @@ For more information about encryption methods, see the [WEP](https://ieeexplore.
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/WLAN/v1` |
 
