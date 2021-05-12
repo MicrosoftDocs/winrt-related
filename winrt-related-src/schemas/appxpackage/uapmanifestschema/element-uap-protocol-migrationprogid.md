@@ -65,6 +65,6 @@ Contains a migration Prog Id string for protocols and file type associations.
 
 ## Requirements
 
-|               |                                                             |
+|               | Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/3` |

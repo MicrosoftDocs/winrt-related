@@ -244,9 +244,9 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `	http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
 
 
  
