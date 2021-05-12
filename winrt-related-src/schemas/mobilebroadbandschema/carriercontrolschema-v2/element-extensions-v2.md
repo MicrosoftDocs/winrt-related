@@ -83,7 +83,7 @@ This outermost (document) element may not be contained by any other elements.
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/v2` |
 
