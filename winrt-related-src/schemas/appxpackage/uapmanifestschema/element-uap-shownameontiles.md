@@ -124,9 +124,9 @@ This example shows how to use the [**ShowNameOnTiles**](element-uap-shownameonti
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `	http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
 
 
  

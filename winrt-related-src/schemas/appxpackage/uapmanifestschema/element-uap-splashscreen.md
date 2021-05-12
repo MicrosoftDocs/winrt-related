@@ -147,34 +147,161 @@ Applications/Application/VisualElements/SplashScreen/@Image
 
 The following are supported background color names:
 
-|                      |                |                 |                   |                 |                 |
-|----------------------|----------------|-----------------|-------------------|-----------------|-----------------|
-| aliceBlue            | antiqueWhite   | aqua            | aquamarine        | azure           | beige           |
-| bisque               | black          | blanchedAlmond  | blue              | blueViolet      | brown           |
-| burlyWood            | cadetBlue      | chartreuse      | chocolate         | coral           | cornflowerBlue  |
-| cornsilk             | crimson        | cyan            | darkBlue          | darkCyan        | darkGoldenrod   |
-| darkGray             | darkGreen      | darkKhaki       | darkMagenta       | darkOliveGreen  | darkOrange      |
-| darkOrchid           | darkRed        | darkSalmon      | darkSeaGreen      | darkSlateBlue   | darkSlateGray   |
-| darkTurquoise        | darkViolet     | deepPink        | deepSkyBlue       | dimGray         | dodgerBlue      |
-| firebrick            | floralWhite    | forestGreen     | fuchsia           | gainsboro       | ghostWhite      |
-| gold                 | goldenrod      | gray            | green             | greenYellow     | honeydew        |
-| hotPink              | indianRed      | indigo          | ivory             | khaki           | lavender        |
-| lavenderBlush        | lawnGreen      | lemonChiffon    | lightBlue         | lightCoral      | lightCyan       |
-| lightGoldenrodYellow | lightGreen     | lightGray       | lightPink         | lightSalmon     | lightSeaGreen   |
-| lightSkyBlue         | lightSlateGray | lightSteelBlue  | lightYellow       | lime            | limeGreen       |
-| linen                | magenta        | maroon          | mediumAquamarine  | mediumBlue      | mediumOrchid    |
-| mediumPurple         | mediumSeaGreen | mediumSlateBlue | mediumSpringGreen | mediumTurquoise | mediumVioletRed |
-| midnightBlue         | mintCream      | mistyRose       | moccasin          | navajoWhite     | navy            |
-| oldLace              | olive          | oliveDrab       | orange            | orangeRed       | orchid          |
-| paleGoldenrod        | paleGreen      | paleTurquoise   | paleVioletRed     | papayaWhip      | peachPuff       |
-| peru                 | pink           | plum            | powderBlue        | purple          | red             |
-| rosyBrown            | royalBlue      | saddleBrown     | salmon            | sandyBrown      | seaGreen        |
-| seaShell             | sienna         | silver          | skyBlue           | slateBlue       | slateGray       |
-| snow                 | springGreen    | steelBlue       | tan               | teal            | thistle         |
-| tomato               | transparent    | turquoise       | violet            | wheat           | white           |
-| whiteSmoke           | yellow         | yellowGreen     |                   |                 |                 |
-
- 
+:::row:::
+    :::column:::
+        aliceBlue  
+        antiqueWhite  
+        aqua  
+        aquamarine  
+        azure  
+        beige  
+        bisque  
+        black  
+        blanchedAlmond  
+        blue  
+        blueViolet  
+        brown  
+        burlyWood  
+        cadetBlue  
+        chartreuse  
+        chocolate  
+        coral  
+        cornflowerBlue  
+        cornsilk  
+        crimson  
+        cyan  
+        darkBlue  
+        darkCyan  
+        darkGoldenrod  
+    :::column-end:::
+    :::column:::
+        darkGray  
+        darkGreen  
+        darkKhaki  
+        darkMagenta  
+        darkOliveGreen  
+        darkOrange  
+        darkOrchid  
+        darkRed  
+        darkSalmon  
+        darkSeaGreen  
+        darkSlateBlue  
+        darkSlateGray  
+        darkTurquoise  
+        darkViolet  
+        deepPink  
+        deepSkyBlue  
+        dimGray  
+        dodgerBlue  
+        firebrick  
+        floralWhite  
+        forestGreen  
+        fuchsia  
+        gainsboro  
+        ghostWhite  
+    :::column-end:::
+    :::column:::
+        gold  
+        goldenrod  
+        gray  
+        green  
+        greenYellow  
+        honeydew  
+        hotPink  
+        indianRed  
+        indigo  
+        ivory  
+        khaki  
+        lavender  
+        lavenderBlush  
+        lawnGreen  
+        lemonChiffon  
+        lightBlue  
+        lightCoral  
+        lightCyan  
+        lightGoldenrodYellow  
+        lightGray  
+        lightGreen  
+        lightPink  
+        lightSalmon  
+        lightSeaGreen  
+    :::column-end:::
+    :::column:::
+        lightSkyBlue  
+        lightSlateGray  
+        lightSteelBlue  
+        lightYellow  
+        lime  
+        limeGreen  
+        linen  
+        magenta  
+        maroon  
+        mediumAquamarine  
+        mediumBlue  
+        mediumOrchid  
+        mediumPurple  
+        mediumSeaGreen  
+        mediumSlateBlue  
+        mediumSpringGreen  
+        mediumTurquoise  
+        mediumVioletRed  
+        midnightBlue  
+        mintCream  
+        mistyRose  
+        moccasin  
+        navajoWhite  
+    :::column-end:::
+    :::column:::
+        navy  
+        oldLace  
+        olive  
+        oliveDrab  
+        orange  
+        orangeRed  
+        orchid  
+        paleGoldenrod  
+        paleGreen  
+        paleTurquoise  
+        paleVioletRed  
+        papayaWhip  
+        peachPuff  
+        peru  
+        pink  
+        plum  
+        powderBlue  
+        purple  
+        red  
+        rosyBrown  
+        royalBlue  
+        saddleBrown  
+        salmon  
+    :::column-end:::
+    :::column:::
+        sandyBrown  
+        seaGreen  
+        seaShell  
+        sienna  
+        silver  
+        skyBlue  
+        slateBlue  
+        slateGray  
+        snow  
+        springGreen  
+        steelBlue  
+        tan  
+        teal  
+        thistle  
+        tomato  
+        transparent  
+        turquoise  
+        violet  
+        wheat  
+        white  
+        whiteSmoke  
+        yellow  
+        yellowGreen  
+    :::column-end:::
+:::row-end:::
 
 ## See also
 
@@ -183,6 +310,6 @@ The following are supported background color names:
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10`<br/><br/>`http://schemas.microsoft.com/appx/manifest/uap/windows10/5` (for the **Optional** attribute) |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10`<br/><br/>`http://schemas.microsoft.com/appx/manifest/uap/windows10/5` (for the **Optional** attribute) |
