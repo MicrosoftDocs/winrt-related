@@ -165,7 +165,7 @@ Defines plan information that specifies the subscriber's Mobile Network Operator
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/Plans/v1` |
 
