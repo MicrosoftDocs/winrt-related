@@ -1,7 +1,7 @@
 ---
 description: Defines the file types that the app can share.
 Search.Product: eADQiWindows 10XVcnh
-title: 'SupportedFileTypes (type: CT_CharmsSupportedFileTypes)'
+title: 'SupportedFileTypes (Windows 8 package schema, child of FileOpenPicker)'
 ms.assetid: b91c6daf-a941-41ce-b8e1-42d42b1a7617
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# SupportedFileTypes (type: CT_CharmsSupportedFileTypes)
+# SupportedFileTypes (package schema for Windows 8, child of FileOpenPicker)
 
 
 Defines the file types that the app can share.
