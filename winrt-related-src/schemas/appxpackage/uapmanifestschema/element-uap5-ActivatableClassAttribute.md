@@ -61,6 +61,7 @@ Defines an attribute of the class that is stored in the Windows Runtime property
 ## Attributes and Elements
 
 ### Attributes
+
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | Name | The attribute name. | An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. | Yes |
