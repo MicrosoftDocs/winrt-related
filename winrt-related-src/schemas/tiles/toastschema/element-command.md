@@ -137,7 +137,7 @@ None.
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/notifications/2012/toast.xsd` |
 

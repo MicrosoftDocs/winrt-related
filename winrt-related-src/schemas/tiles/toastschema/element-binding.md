@@ -197,7 +197,7 @@ To see examples of each of the toast templates, see the [toast template catalog]
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/notifications/2012/toast.xsd` |
 

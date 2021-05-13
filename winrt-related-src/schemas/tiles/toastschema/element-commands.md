@@ -133,7 +133,7 @@ Specifies that the toast notification is being used to indicate an incoming call
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/notifications/2012/toast.xsd` |
 

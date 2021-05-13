@@ -161,7 +161,7 @@ The following code shows this tag used to mute toast notification audio.
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/notifications/2012/toast.xsd` |
 
