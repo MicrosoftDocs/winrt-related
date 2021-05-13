@@ -1,6 +1,6 @@
 ---
 
-title: desktop3:CloudFiles
+title: desktop3:CustomStateHandler
 description: Registration of a Windows Shell CustomStateHandler for cloud based placeholder files. 
 
 ms.date: 10/10/2017

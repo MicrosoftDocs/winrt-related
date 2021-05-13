@@ -1,6 +1,6 @@
 ---
 
-title: com2:ProxyStubDll
+title: com2:ProxyStubDll (in Package/Extensions)
 description: Specifies the path and processor architecture of a ProxyStub DLL.
 
 ms.date: 10/10/2017
