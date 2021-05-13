@@ -158,9 +158,9 @@ For more info, see [**ViewSizePreference**](/uwp/api/Windows.UI.ViewManagement.V
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `	http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
 
 
  

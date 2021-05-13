@@ -56,6 +56,6 @@ The executable of a UWP app to be activated from a command prompt.
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/8` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/8` |
