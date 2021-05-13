@@ -81,7 +81,7 @@ This element is optional and is set by the Mobile Broadband service for internal
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/WWAN/v1` |
 

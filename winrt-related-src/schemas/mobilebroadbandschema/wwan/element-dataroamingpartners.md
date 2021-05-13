@@ -97,7 +97,7 @@ The Mobile Broadband service uses this element to select the preferred network p
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/WWAN/v1` |
 
