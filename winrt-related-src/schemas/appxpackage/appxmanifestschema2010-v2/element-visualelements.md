@@ -1,7 +1,7 @@
 ---
 description: Describes the visual aspects of the UWP app.
 Search.Product: eADQiWindows 10XVcnh
-title: VisualElements
+title: VisualElements (Windows 8.1 extensions schema)
 ms.assetid: f0db5141-8aba-4ac4-939f-4fe3debcc761
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# VisualElements
+# VisualElements (extensions schema for Windows 8.1)
 
 Describes the visual aspects of the UWP app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance.
 

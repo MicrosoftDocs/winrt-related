@@ -1,7 +1,7 @@
 ---
 description: Defines the properties and security settings of a subscriber's WLAN connection profile.
 Search.Product: eADQiWindows 10XVcnh
-title: WLANProfile
+title: WLANProfile (WLAN schema)
 ms.assetid: adafca95-23be-417f-8c3f-7c340222ecfd
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# WLANProfile
+# WLANProfile (WLAN schema)
 
 
 Defines the properties and security settings of a subscriber's WLAN connection profile. [**WLANProfile**](element-wlanprofile.md) is the unique root element of a wireless profile.

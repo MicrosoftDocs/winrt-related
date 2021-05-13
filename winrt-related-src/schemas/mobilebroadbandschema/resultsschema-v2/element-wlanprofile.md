@@ -2,7 +2,7 @@
 description: Contains any errors from processing a WLANProfile element from the last provisioning attempt.
 
 Search.Product: eADQiWindows 10XVcnh
-title: WLANProfile
+title: WLANProfile (ResultsSchema_v2 schema)
 ms.assetid: adafca95-23be-417f-8c3f-7c340222ecfd
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# WLANProfile
+# WLANProfile (ResultsSchema_v2 schema)
 
 
 Contains any errors from processing a [**WLANProfile**](../wlan/element-wlanprofile.md) element from the last provisioning attempt.
