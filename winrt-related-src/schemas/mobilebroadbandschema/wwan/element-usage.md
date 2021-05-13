@@ -156,7 +156,7 @@ If the **Usage** element is included in the schema, then the **UsageTimestamp** 
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/WWAN/v1` |
 
