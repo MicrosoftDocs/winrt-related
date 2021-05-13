@@ -153,9 +153,9 @@ Here's an example of a [**Capabilities**](element-capabilities.md) node.
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `	http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
 
 
  
