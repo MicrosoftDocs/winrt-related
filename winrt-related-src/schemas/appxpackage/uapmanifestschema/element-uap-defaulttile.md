@@ -180,9 +180,9 @@ For the **Wide310x150Logo**, **Square310x310Logo**, **Square71x71Logo**, and **T
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `	http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
 
 
  
