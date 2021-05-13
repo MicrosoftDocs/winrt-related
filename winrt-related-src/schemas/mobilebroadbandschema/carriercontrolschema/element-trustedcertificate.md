@@ -1,7 +1,7 @@
 ---
 description: Defines a unique subscriber account identifier to which this provisioning attempt applies.
 Search.Product: eADQiWindows 10XVcnh
-title: TrustedCertificate
+title: TrustedCertificate (CarrierControlSchema schema)
 ms.assetid: 97eae84a-4357-462b-b516-3099916839c6
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# TrustedCertificate
+# TrustedCertificate (CarrierControlSchema schema)
 
 
 Defines the Subject and Issuer fields from a trustworthy X.509 certificate.

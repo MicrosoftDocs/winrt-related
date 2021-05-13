@@ -1,7 +1,7 @@
 ---
 description: Indicates whether all file types are supported for sharing.
 Search.Product: eADQiWindows 10XVcnh
-title: SupportsAnyFileType
+title: SupportsAnyFileType (Windows 8.1 extensions schema, descendant of ShareTarget)
 ms.assetid: be446c1e-2be7-47eb-8ac9-9dd32733465a
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# SupportsAnyFileType
+# SupportsAnyFileType (extensions schema for Windows 8.1, descendant of ShareTarget)
 
 Indicates whether all file types are supported for sharing.
 
