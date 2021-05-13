@@ -105,7 +105,7 @@ The **SSIDConfig** element in te [WLAN](schema-root.md) schema supports up to 25
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/WLAN/v1` |
 

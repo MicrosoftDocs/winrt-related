@@ -104,7 +104,7 @@ Although the [**hex**](element-hex.md) and [**name**](element-1-name.md) element
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/WLAN/v1` |
 
