@@ -1,7 +1,7 @@
 ---
 description: Contains any errors from processing a TetheringProfile element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
-title: TetheringProfile
+title: TetheringProfile (ResultsSchema_v2 schema)
 ms.assetid: fa2708f2-2200-46ac-b6cd-97d1a51cc867
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# TetheringProfile
+# TetheringProfile (ResultsSchema_v2 schema)
 
 
 Contains any errors from processing a [**TetheringProfile**](../carriercontrolschema-v2/element-tetheringprofile.md) element from the last provisioning attempt.
