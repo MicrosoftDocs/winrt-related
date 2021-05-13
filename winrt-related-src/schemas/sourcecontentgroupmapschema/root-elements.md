@@ -1,7 +1,7 @@
 ---
 
 ms.assetid: fa159ae9-8aec-4b21-8db6-e7b4083f40d7
-title: Element Hierarchy
+title: Element Hierarchy (source content group map schema)
 description: The allowed hierarchies for the source content group map.
 
 ms.date: 03/29/2017
@@ -10,7 +10,7 @@ ms.topic: article
 
 keywords: windows 10, uwp, streaming install, content group, map, final content group, automatic content group
 ---
-# Element Hierarchy
+# Element Hierarchy (source content group map schema)
 
 
 The following list summarizes the allowed hierarchies for this schema, starting with the outermost element at the top.
