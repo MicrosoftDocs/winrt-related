@@ -79,7 +79,7 @@ Although the [**hex**](element-1-hex.md) and [**name**](element-1-name.md) eleme
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/WLAN/v2` |
 

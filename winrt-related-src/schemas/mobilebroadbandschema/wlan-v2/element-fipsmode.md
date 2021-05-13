@@ -58,7 +58,7 @@ This element is optional. If this element is not specified in a profile, then FI
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/WLAN/v2` |
 
