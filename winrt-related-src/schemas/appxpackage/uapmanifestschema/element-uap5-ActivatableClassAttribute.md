@@ -61,10 +61,11 @@ Defines an attribute of the class that is stored in the Windows Runtime property
 ## Attributes and Elements
 
 ### Attributes
+
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | Name | The attribute name. | An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. | Yes |
-| Type | The attribute type. | "string" | "integer" | Yes |
+| Type | The attribute type. | A string or integer value. | Yes |
 | Value | The attribute value. | A string between 1 and 255 characters in length. | Yes |
 
 ### Child Elements
@@ -72,9 +73,9 @@ None
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
 
 
  
