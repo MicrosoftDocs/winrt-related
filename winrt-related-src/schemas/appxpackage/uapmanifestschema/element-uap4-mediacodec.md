@@ -71,6 +71,6 @@ Defines an extension that enables an app to install media codecs from the Micros
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/4` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/4` |
