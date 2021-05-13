@@ -1,7 +1,7 @@
 ---
 description: Indicates whether all file types are supported for sharing.
 Search.Product: eADQiWindows 10XVcnh
-title: uap:SupportsAnyFileType (Windows 10)
+title: uap:SupportsAnyFileType (Windows 10, descendant of uap:FileSavePicker)
 ms.assetid: 8af8db9e-dc59-4aba-9af9-54ca8051f323
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# uap:SupportsAnyFileType (Windows 10)
+# uap:SupportsAnyFileType (Windows 10, descendant of uap:FileSavePicker)
 
 
 Indicates whether all file types are supported for sharing.
