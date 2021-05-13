@@ -59,6 +59,6 @@ The executable of a UWP app to be activated from a command prompt.
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5`</br></br>`http://schemas.microsoft.com/appx/manifest/uap/windows10/8` (for the **uap8:AllowOverride** attribute) |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5`</br></br>`http://schemas.microsoft.com/appx/manifest/uap/windows10/8` (for the **uap8:AllowOverride** attribute) |

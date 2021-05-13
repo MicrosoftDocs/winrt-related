@@ -53,6 +53,6 @@ See [uap5:DriverConstraint](element-uap5-DriverConstraint.md) for an example.
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |

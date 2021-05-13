@@ -69,6 +69,7 @@ Specifies the media/content type supported by the media source.
 None
 
 ## Requirements
-|   |   |
+
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |

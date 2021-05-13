@@ -68,6 +68,6 @@ Specifies the application's execution alias to determine the executable of the a
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5`<br/><br/>`http://schemas.microsoft.com/appx/manifest/desktop/windows10/4` (for the **desktop4:Subsystem** attribute)<br/><br/>`http://schemas.microsoft.com/appx/manifest/uap/windows10/10` (for the **uap10:Subsystem** attribute) |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5`<br/><br/>`http://schemas.microsoft.com/appx/manifest/desktop/windows10/4` (for the **desktop4:Subsystem** attribute)<br/><br/>`http://schemas.microsoft.com/appx/manifest/uap/windows10/10` (for the **uap10:Subsystem** attribute) |

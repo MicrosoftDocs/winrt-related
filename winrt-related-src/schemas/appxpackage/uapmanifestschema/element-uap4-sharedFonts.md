@@ -58,6 +58,6 @@ Contains the locations of custom fonts to be shared with other apps. For more in
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/4` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/4` |
