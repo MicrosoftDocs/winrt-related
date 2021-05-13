@@ -1,7 +1,7 @@
 ---
 description: Defines a purchase connection profile used by a subscriber to connect to a MNO.
 Search.Product: eADQiWindows 10XVcnh
-title: PurchaseProfile
+title: PurchaseProfile (WWAN schema)
 ms.assetid: 66b0d844-5469-4e94-b364-72638ac4212a
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# PurchaseProfile
+# PurchaseProfile (WWAN schema)
 
 
 Defines a purchase connection profile used by a subscriber to connect to a MNO.

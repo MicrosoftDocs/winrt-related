@@ -1,7 +1,7 @@
 ---
 description: Defines an instance of the PurchaseProfileelement from the WWAN schema.
 Search.Product: eADQiWindows 10XVcnh
-title: PurchaseProfile
+title: PurchaseProfile (CarrierControlSchema schema)
 ms.assetid: 66b0d844-5469-4e94-b364-72638ac4212a
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# PurchaseProfile
+# PurchaseProfile (CarrierControlSchema schema)
 
 
 Defines an instance of the [**PurchaseProfile**](../wwan/element-purchaseprofile.md) element from the [**WWAN**](../wwan/schema-root.md) schema.

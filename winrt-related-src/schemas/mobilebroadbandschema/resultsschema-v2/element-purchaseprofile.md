@@ -1,7 +1,7 @@
 ---
 description: Contains any errors from processing the PurchaseProfile element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
-title: PurchaseProfile
+title: PurchaseProfile (ResultsSchema_v2 schema)
 ms.assetid: 66b0d844-5469-4e94-b364-72638ac4212a
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# PurchaseProfile
+# PurchaseProfile (ResultsSchema_v2 schema)
 
 
 Contains any errors from processing the [**PurchaseProfile**](../wwan/element-purchaseprofile.md) element from the last provisioning attempt.
