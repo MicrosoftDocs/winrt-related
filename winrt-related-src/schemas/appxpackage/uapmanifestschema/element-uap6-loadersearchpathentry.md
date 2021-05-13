@@ -58,9 +58,9 @@ Main app packages, related set package, optional packages, and framework package
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/6` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/6` |
 
 
  

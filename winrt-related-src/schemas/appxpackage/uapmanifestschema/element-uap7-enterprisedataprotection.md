@@ -51,6 +51,6 @@ Use this extension only if the app is exclusively for work, and/or you provide a
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/7` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/7` |

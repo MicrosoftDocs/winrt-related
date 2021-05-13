@@ -58,6 +58,6 @@ The DLL file is passed to CreateProcess to influence how the loader resolves imp
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/7` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/7` |
