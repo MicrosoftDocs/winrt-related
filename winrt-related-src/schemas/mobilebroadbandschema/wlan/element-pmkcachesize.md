@@ -85,7 +85,7 @@ PMK caching is defined in the [802.11i specification](https://standards.ieee.org
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/WLAN/v1` |
 

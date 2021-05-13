@@ -100,7 +100,7 @@ Unicode characters may be entered where ANSI or ASCII characters are specified a
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/WLAN/v1` |
 
