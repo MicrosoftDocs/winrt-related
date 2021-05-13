@@ -61,6 +61,6 @@ Specifies a startup task for your application.
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
