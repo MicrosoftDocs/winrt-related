@@ -78,7 +78,7 @@ The app must register for the corresponding system event using [**Windows.Applic
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/WLAN/HotspotProfile/v1` |
 
