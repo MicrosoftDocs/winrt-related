@@ -1,7 +1,7 @@
 ---
 description: Defines the root element of an XML DSIG compliant signature.
 Search.Product: eADQiWindows 10XVcnh
-title: Signature
+title: Signature (CarrierControlSignatureSchema schema)
 ms.assetid: 58a2b918-192d-41ee-879c-b739b498bff0
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Signature
+# Signature (CarrierControlSignatureSchema schema)
 
 
 Defines the root element of an [XML DSIG](https://www.w3.org/TR/xmldsig-core/) compliant signature. [**Signature**](element-signature.md) is the unique root element for a provisioning file signature.

@@ -1,7 +1,7 @@
 ---
 description: Contains any errors from processing the Signature element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
-title: Signature
+title: Signature (ResultsSchema schema)
 ms.assetid: 58a2b918-192d-41ee-879c-b739b498bff0
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Signature
+# Signature (ResultsSchema schema)
 
 
 Contains any errors from processing the [**Signature**](../carriercontrolsignatureschema/element-signature.md) element from the last provisioning attempt.

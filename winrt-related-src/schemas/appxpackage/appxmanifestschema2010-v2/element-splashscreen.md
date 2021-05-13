@@ -1,7 +1,7 @@
 ---
 description: Defines the appearance of the splash screen, which is displayed by the app during launch.
 Search.Product: eADQiWindows 10XVcnh
-title: SplashScreen
+title: SplashScreen (Windows 8.1 extensions schema)
 ms.assetid: eecce5dd-09c3-4f47-b271-0a04fcd64d44
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# SplashScreen
+# SplashScreen (extensions schema for Windows 8.1)
 
 Defines the appearance of the splash screen, which is displayed by the app during launch.
 

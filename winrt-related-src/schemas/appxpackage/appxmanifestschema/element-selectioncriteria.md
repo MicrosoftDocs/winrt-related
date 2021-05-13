@@ -1,7 +1,7 @@
 ---
 description: Defines selection criteria for the certificates defined for the package.
 Search.Product: eADQiWindows 10XVcnh
-title: SelectionCriteria
+title: SelectionCriteria (Windows 8 package schema)
 ms.assetid: 5f3d9db3-5b2d-44ec-9607-dcc15f0854b5
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# SelectionCriteria
+# SelectionCriteria (package schema for Windows 8)
 
 
 Defines selection criteria for the certificates defined for the package.
