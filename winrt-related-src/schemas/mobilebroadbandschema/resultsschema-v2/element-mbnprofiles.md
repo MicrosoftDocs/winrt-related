@@ -126,7 +126,7 @@ Contains any errors from processing the [**MBNProfiles**](../carriercontrolschem
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControlResults/v2` |
 
