@@ -1,7 +1,7 @@
 ---
 description: Declares the minimum operating system and software requirements that must exist for the package to be applicable to the system.
 Search.Product: eADQiWindows 10XVcnh
-title: Prerequisites
+title: Prerequisites (Windows 8.1 extensions schema)
 ms.assetid: 93b13906-9c63-46d0-8659-0f382ce8f477
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Prerequisites
+# Prerequisites (extensions schema for Windows 8.1)
 
 
 

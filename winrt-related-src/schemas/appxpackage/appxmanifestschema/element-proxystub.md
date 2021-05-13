@@ -1,7 +1,7 @@
 ---
 description: Declares a package extensibility point of type windows.activatableClass.proxyStub.
 Search.Product: eADQiWindows 10XVcnh
-title: ProxyStub
+title: ProxyStub (Windows 8 package schema)
 ms.assetid: d902d2b6-4694-4158-9c1f-4b3511150ee5
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# ProxyStub
+# ProxyStub (package schema for Windows 8)
 
 
 Declares a package extensibility point of type **windows.activatableClass.proxyStub**. A proxy can be composed of one or more interfaces.
