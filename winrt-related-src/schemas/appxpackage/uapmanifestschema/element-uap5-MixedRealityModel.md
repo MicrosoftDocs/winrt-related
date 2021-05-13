@@ -69,6 +69,7 @@ uap6:SpatialBoundingBox?
 
 
 ## Requirements
-|   |   |
+
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |

@@ -75,6 +75,6 @@ Specifies the media source and the app service that it exposes.
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
