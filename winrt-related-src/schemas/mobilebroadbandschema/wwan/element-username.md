@@ -1,7 +1,7 @@
 ---
 description: Defines the user name for logon.
 Search.Product: eADQiWindows 10XVcnh
-title: UserName
+title: UserName (WWAN schema, descendant of DefaultProfile)
 ms.assetid: 5c377a0a-ca24-4a24-85c0-79d5bc6af8ef
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# UserName
+# UserName (WWAN schema, descendant of DefaultProfile)
 
 
 Defines the user name for logon. Must be less than 256 characters.
