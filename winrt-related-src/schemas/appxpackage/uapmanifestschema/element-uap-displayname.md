@@ -1,7 +1,7 @@
 ---
 description: A friendly name that can be displayed to users.
 Search.Product: eADQiWindows 10XVcnh
-title: uap:DisplayName (Windows 10)
+title: uap:DisplayName (Windows 10, child of uap:FileTypeAssociation)
 ms.assetid: c4e698b0-58ac-46d0-8874-f7a062c88343
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# uap:DisplayName (Windows 10)
+# uap:DisplayName (Windows 10, child of uap:FileTypeAssociation)
 
 
 A friendly name that can be displayed to users.

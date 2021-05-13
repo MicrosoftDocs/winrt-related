@@ -1,7 +1,7 @@
 ---
 description: Defines the list of trusted security certificates required for provisioning on the mobile network.
 Search.Product: eADQiWindows 10XVcnh
-title: TrustedCertificates
+title: TrustedCertificates (MBAE schema)
 ms.assetid: 26d8eb7c-6059-4e7a-9d07-8ad5054385e3
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# TrustedCertificates
+# TrustedCertificates (MBAE schema)
 
 
 Defines the list of trusted security certificates required for provisioning on the mobile network.

@@ -1,7 +1,7 @@
 ---
 description: Indicates whether the certificates for the package are exclusive to the package.
 Search.Product: eADQiWindows 10XVcnh
-title: TrustFlags
+title: TrustFlags (Windows 8 package schema)
 ms.assetid: 44ea0d79-4774-4152-8f69-c5d9ff9287aa
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# TrustFlags
+# TrustFlags (package schema for Windows 8)
 
 
 Indicates whether the certificates for the package are exclusive to the package.

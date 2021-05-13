@@ -1,7 +1,7 @@
 ---
 description: A path to a file that contains an image.
 Search.Product: eADQiWindows 10XVcnh
-title: uap:Logo (Windows 10)
+title: uap:Logo (Windows 10, child of uap:FileTypeAssociation)
 ms.assetid: e82d1f5f-e1c8-469c-8568-0736c2a96554
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# uap:Logo (Windows 10)
+# uap:Logo (Windows 10, child of uap:FileTypeAssociation)
 
 
 A path to a file that contains an image.
