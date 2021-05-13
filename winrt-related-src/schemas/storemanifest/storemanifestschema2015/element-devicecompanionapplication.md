@@ -112,7 +112,7 @@ The following is an example of the DeviceCompanionApplication element that decla
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2015/StoreManifest` |
 

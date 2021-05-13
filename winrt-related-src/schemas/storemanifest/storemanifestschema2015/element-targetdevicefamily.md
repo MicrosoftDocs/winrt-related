@@ -115,7 +115,7 @@ For more info about device families, see [Guide to Universal Windows Platform (U
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2015/StoreManifest` |
 
