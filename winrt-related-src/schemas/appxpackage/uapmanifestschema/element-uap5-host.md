@@ -98,6 +98,6 @@ In this example, *.microsoft.com can handled as: docs.microsoft.com, developer.m
 
 ## Requirements
 
-|               |                                                             |
+|               | Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
