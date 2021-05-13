@@ -1,7 +1,7 @@
 ---
 description: Declares an app extensibility point of type windows.protocol
 Search.Product: eADQiWindows 10XVcnh
-title: Protocol
+title: Protocol (Windows 8.1 extensions schema)
 ms.assetid: ac911c85-02eb-408c-8c4b-24a4e172df8b
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Protocol
+# Protocol (extensions schema for Windows 8.1)
 
 Declares an app extensibility point of type **windows.protocol**. A URI association indicates that the app is registered to handle URIs with the specified scheme.
 

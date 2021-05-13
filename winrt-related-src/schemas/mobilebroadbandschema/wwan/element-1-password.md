@@ -1,7 +1,7 @@
 ---
 description: Defines the password used to authenticate a user.
 Search.Product: eADQiWindows 10XVcnh
-title: Password
+title: Password (WWAN schema, descendant of PurchaseProfile)
 ms.assetid: b42762fe-7cc5-485c-8b91-ebe7bc1d6104
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Password
+# Password (WWAN schema, descendant of PurchaseProfile)
 
 
 Defines the password used to authenticate a user. Must be less than 256 characters.

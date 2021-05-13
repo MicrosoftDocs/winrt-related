@@ -1,7 +1,7 @@
 ---
 description: Defines the password used for the Packet Data Protocol (PDP) context activation.
 Search.Product: eADQiWindows 10XVcnh
-title: Password
+title: Password (CarrierControlSchema_v2 schema, descendant of TetheringProfile)
 ms.assetid: b42762fe-7cc5-485c-8b91-ebe7bc1d6104
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Password
+# Password (CarrierControlSchema_v2 schema, descendant of TetheringProfile)
 
 
 Defines the password used for the Packet Data Protocol (PDP) context activation.
