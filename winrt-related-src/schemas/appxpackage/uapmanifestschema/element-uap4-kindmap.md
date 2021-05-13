@@ -66,6 +66,6 @@ Specifies what Kind is and how it's used.
 
 ## Requirements
 
-|               |                                                             |
+|               | Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/2` |

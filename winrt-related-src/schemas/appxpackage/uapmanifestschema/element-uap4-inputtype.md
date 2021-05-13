@@ -73,6 +73,6 @@ The media codec input type.
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/4` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/4` |

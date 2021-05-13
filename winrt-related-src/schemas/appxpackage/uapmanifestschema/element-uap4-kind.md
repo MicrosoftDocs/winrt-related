@@ -65,6 +65,6 @@ Specifies the Kind value.
 
 ## Requirements
 
-|               |                                                             |
+|               | Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/2` |

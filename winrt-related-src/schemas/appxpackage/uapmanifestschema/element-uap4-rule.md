@@ -65,6 +65,6 @@ Loopback connections are supported only for TCP connections. Note that the UDP p
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/4` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/4` |
