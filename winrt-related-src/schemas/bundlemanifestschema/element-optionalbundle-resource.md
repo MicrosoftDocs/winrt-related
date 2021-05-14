@@ -48,11 +48,12 @@ Declares language, resolution scale, and DirectX feature level for a resource in
 `?`   optional (zero or one) 
 
 ## Attributes
+
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | DXFeatureLevel | The [DirectX feature level](/windows/win32/direct3d11/overviews-direct3d-11-devices-downlevel-intro#overview) for the resource. | One of the following: "dx9", "dx10", "dx11" | No |
 | Language | The language for the resource. The syntax of this attribute is defined by the IETF's [BCP47: Tags for Identifying Languages](https://www.rfc-editor.org/rfc/bcp/bcp47.txt). | language | No |
-| Scale | The resolution scale for the resource. | One of the following: "100", "120", "125", "140", "150", "160", "180", "200", "220", "225", "240", "250", "300", "400", "500" | | No |
+| Scale | The resolution scale for the resource. | One of the following: "100", "120", "125", "140", "150", "160", "180", "200", "220", "225", "240", "250", "300", "400", "500" | No |
 
 ## Remarks
 
@@ -60,6 +61,6 @@ Declares language, resolution scale, and DirectX feature level for a resource in
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2016/bundle` |

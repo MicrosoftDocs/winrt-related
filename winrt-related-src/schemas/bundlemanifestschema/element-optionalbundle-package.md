@@ -46,13 +46,14 @@ Defines one of the app packages or resource packages in the optional bundle.
 `{}`  specific range of occurrences
 
 ## Attributes
+
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | Type  | Defines the type of package in the bundle. | A string that specifies the type of package. This can be: "resource" or "application" | No |
 | Version | Defines the version number of the package. | A version string in quad notation, "Major.Minor.Build.Revision". | Yes |
 | Architecture | Describes the architecture of the code contained in the package. A package that includes executable code must include this attribute. | This can be one of the following values: "x86", "x64", "arm", "neutral" | No |
 | ResourceId | Describes the type of resource in the package. | A string between 1 and 30 characters in length that consists of alpha-numeric, period, and dash characters. | No |
-| FileName | Describes the file name of the package. | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *. | Yes |
+| FileName | Describes the file name of the package. | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", \|, ?, or *. | Yes |
 | Offset |  | unsignedLong | No |
 | Size | The size of the package. | unsignedLong | No |
 
@@ -68,6 +69,6 @@ Defines one of the app packages or resource packages in the optional bundle.
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2016/bundle` |

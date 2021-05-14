@@ -120,7 +120,7 @@ App packages that are created by Visual Studio or the [app packager (MakeAppx.ex
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/blockmap` |
 

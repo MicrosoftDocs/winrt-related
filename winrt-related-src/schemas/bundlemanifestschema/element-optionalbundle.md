@@ -97,6 +97,6 @@ Defines optional bundles relative to the main bundle. Optional bundles contain a
 ## Examples
 
 ## Requirements
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2016/bundle` |

@@ -55,6 +55,6 @@ Declares languages, resolution scales, and DirectX feature levels for the resour
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2016/bundle` |

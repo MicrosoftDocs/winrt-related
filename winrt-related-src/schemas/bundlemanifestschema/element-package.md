@@ -180,7 +180,7 @@ Defines one of the app packages or resource packages in the bundle.
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2013/bundle` |
 

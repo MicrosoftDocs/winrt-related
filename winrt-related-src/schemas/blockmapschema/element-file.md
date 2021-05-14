@@ -141,7 +141,7 @@ The order of the [**Block**](element-block.md) child elements must correspond to
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/blockmap` |
 
