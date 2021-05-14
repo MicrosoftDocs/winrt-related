@@ -1,7 +1,7 @@
 ---
 description: Indicates whether the package is a resource package.
 Search.Product: eADQiWindows 10XVcnh
-title: ResourcePackage
+title: ResourcePackage (Windows 8.1 extensions schema)
 ms.assetid: 51cabad7-a2eb-4fa3-ab52-59298555aefb
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# ResourcePackage
+# ResourcePackage (extensions schema for Windows 8.1)
 
 Indicates whether the package is a resource package. A resource package can be used by other packages. Its value is **false** by default. You should not specify a value for it unless you are creating a resource.
 

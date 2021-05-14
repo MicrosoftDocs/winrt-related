@@ -1,7 +1,7 @@
 ---
 
 ms.assetid: 3e8f1959-50fd-4183-9fb7-ee30a2b020a1
-title: Resource
+title: Resource (Bundle schema, descendant of OptionalBundle)
 description: Declares language, resolution scale, and DirectX feature level for a resource in the package.
 
 ms.date: 04/05/2017
@@ -11,7 +11,7 @@ ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, optional bundle 
 ---
 
-# Resource
+# Resource (Bundle schema, descendant of OptionalBundle)
 
 ## Description
 Declares language, resolution scale, and DirectX feature level for a resource in the package.

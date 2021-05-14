@@ -1,7 +1,7 @@
 ---
 description: Declares a language for the resource contained in the package.
 Search.Product: eADQiWindows 10XVcnh
-title: Resource
+title: Resource (Windows 8.1 extensions schema)
 ms.assetid: 445e7de7-e778-4666-b099-3d7f6f0125c7
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Resource
+# Resource (extensions schema for Windows 8.1)
 
 
 

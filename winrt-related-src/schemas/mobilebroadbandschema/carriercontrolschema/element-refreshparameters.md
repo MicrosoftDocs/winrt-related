@@ -1,7 +1,7 @@
 ---
 description: Defines parameters to be used when refreshing the provisioning file contents.
 Search.Product: eADQiWindows 10XVcnh
-title: RefreshParameters
+title: RefreshParameters (CarrierControlSchema schema)
 ms.assetid: 138e7caf-6eeb-4f3d-8e53-13a3ecfacfeb
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# RefreshParameters
+# RefreshParameters (CarrierControlSchema schema)
 
 
 Defines parameters to be used when refreshing the provisioning file contents.

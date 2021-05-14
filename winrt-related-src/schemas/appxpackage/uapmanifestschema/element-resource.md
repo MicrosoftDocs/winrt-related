@@ -1,7 +1,7 @@
 ---
 description: Declares a language, display scale, or DirectX feature level for resources that the package contains. The scale and DirectX feature level attributes are common for all resources in the package.
 Search.Product: eADQiWindows 10XVcnh
-title: Resource
+title: Resource (Windows 10 package schema)
 ms.assetid: 445e7de7-e778-4666-b099-3d7f6f0125c7
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 10/26/2017
 ---
 
-# Resource
+# Resource (package schema for Windows 10)
 
 Declares a language, display scale, or DirectX feature level for resources that the package contains. The scale and DirectX feature level attributes are common for all resources in the package.
 

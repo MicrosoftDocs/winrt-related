@@ -1,7 +1,7 @@
 ---
 description: Contains any errors from processing the RefreshParameters element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
-title: RefreshParameters
+title: RefreshParameters (ResultsSchema_v2 schema)
 ms.assetid: 138e7caf-6eeb-4f3d-8e53-13a3ecfacfeb
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# RefreshParameters
+# RefreshParameters (ResultsSchema_v2 schema)
 
 
 Contains any errors from processing the [**RefreshParameters**](../carriercontrolschema/element-refreshparameters.md) element from the last provisioning attempt.

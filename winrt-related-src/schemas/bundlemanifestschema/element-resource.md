@@ -1,7 +1,7 @@
 ---
 description: Declares language, resolution scale, and DirectX feature level for a resource in the package.
 Search.Product: eADQiWindows 10XVcnh
-title: Resource
+title: Resource (Bundle schema, descendant of Packages)
 ms.assetid: 445e7de7-e778-4666-b099-3d7f6f0125c7
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Resource
+# Resource (Bundle schema, descendant of Packages)
 
 Declares language, resolution scale, and DirectX feature level for a resource in the package.
 
