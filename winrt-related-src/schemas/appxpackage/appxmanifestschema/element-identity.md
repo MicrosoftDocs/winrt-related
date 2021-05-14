@@ -1,7 +1,7 @@
 ---
 description: Defines a globally unique identifier for a package.
 Search.Product: eADQiWindows 10XVcnh
-title: Identity
+title: Identity (Windows 8 package schema)
 ms.assetid: 45524773-3b61-44ac-a417-cfaac92af0a0
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Identity
+# Identity (package schema for Windows 8)
 
 
 Defines a globally unique identifier for a package. A package identity is represented as a tuple of attributes of the package.

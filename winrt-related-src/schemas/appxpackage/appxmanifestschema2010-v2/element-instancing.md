@@ -1,7 +1,7 @@
 ---
 description: Specifies whether the executable runs as a single instance or can run as multiple instances.
 Search.Product: eADQiWindows 10XVcnh
-title: Instancing
+title: Instancing (Windows 8.1 extensions schema)
 ms.assetid: 26533f27-2470-4083-91a0-4e4b03f8479a
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Instancing
+# Instancing (extensions schema for Windows 8.1)
 
 
 

@@ -1,7 +1,7 @@
 ---
 description: Describes the orientations in which the app would prefer to be shown for the best user experience.
 Search.Product: eADQiWindows 10XVcnh
-title: InitialRotationPreference
+title: InitialRotationPreference (Windows 8.1 extensions schema)
 ms.assetid: 0f03085b-0bbc-4e1c-adda-565bb6287b15
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# InitialRotationPreference
+# InitialRotationPreference (extensions schema for Windows 8.1)
 
 
 

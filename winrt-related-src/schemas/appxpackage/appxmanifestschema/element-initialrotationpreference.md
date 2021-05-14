@@ -1,7 +1,7 @@
 ---
 description: Describes the orientations in which the app would prefer to be shown for the best user experience.
 Search.Product: eADQiWindows 10XVcnh
-title: InitialRotationPreference
+title: InitialRotationPreference (Windows 8 package schema)
 ms.assetid: 0f03085b-0bbc-4e1c-adda-565bb6287b15
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# InitialRotationPreference
+# InitialRotationPreference (package schema for Windows 8)
 
 
 Describes the orientations in which the app would prefer to be shown for the best user experience. On a device that can be rotated, such as a tablet, the app will not be redrawn for orientations that are not specified here. For instance, if the app specifies only Landscape and LandscapeFlipped orientations, and the device is rotated to a Portrait orientation, the app will not rotate.

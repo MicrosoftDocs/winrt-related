@@ -1,7 +1,7 @@
 ---
 description: Defines a globally unique identifier for a bundle.
 Search.Product: eADQiWindows 10XVcnh
-title: Identity
+title: Identity (Bundle schema)
 ms.assetid: 45524773-3b61-44ac-a417-cfaac92af0a0
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Identity
+# Identity (Bundle schema)
 
 Defines a globally unique identifier for a bundle. A bundle identity is represented as a tuple of attributes of the bundle.
 
