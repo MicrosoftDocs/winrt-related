@@ -118,7 +118,7 @@ The **Size** attribute value is the size of the data block as stored in the app 
 
 ## Requirements
 
-|          |         |
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/blockmap` |
 

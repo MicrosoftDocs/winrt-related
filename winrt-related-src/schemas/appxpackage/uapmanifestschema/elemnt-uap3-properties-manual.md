@@ -120,7 +120,7 @@ The following example indicates that the app hosts or consumes the low-performan
 ## Requirements
 
 
-|               |                                                             |
+|               | Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
 

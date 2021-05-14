@@ -161,9 +161,9 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `	http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+| **Namespace** | `	http://schemas.microsoft.com/appx/manifest/uap/windows10` |
 
 
  
