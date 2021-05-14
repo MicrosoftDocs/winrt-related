@@ -1,7 +1,7 @@
 ---
 description: Advises Windows Update (WU) that security updates are exempt from being counted as data usage against the subscriber’s plan.
 Search.Product: eADQiWindows 10XVcnh
-title: SecurityUpdatesExempt
+title: SecurityUpdatesExempt (DUSM schema)
 ms.assetid: a59108e9-4bf0-41e9-92ce-99256d578928
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# SecurityUpdatesExempt
+# SecurityUpdatesExempt (DUSM schema)
 
 
 If **true**, the MNO advises Windows Update (WU) that security updates are exempt from being counted as data usage against the subscriber’s plan and WU will download all security patches when on a metered network. Otherwise, WU will only download zero-day patches and not all security updates when **false**.

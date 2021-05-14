@@ -1,7 +1,7 @@
 ---
 description: Defines one or more service set identifiers (SSID) for a wireless LAN.
 Search.Product: eADQiWindows 10XVcnh
-title: SSIDConfig
+title: SSIDConfig (WLAN schema)
 ms.assetid: a58e4178-4a15-46c0-951d-93aef9fec5e6
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# SSIDConfig
+# SSIDConfig (WLAN schema)
 
 
 Defines one or more service set identifiers (SSID) for a wireless LAN.

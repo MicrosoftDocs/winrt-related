@@ -1,7 +1,7 @@
 ---
 description: Contains a set of additional SSIDs that are handled by this profile to reduce the number of SSIDs in the WLAN profile store.
 Search.Product: eADQiWindows 10XVcnh
-title: SSIDConfig
+title: SSIDConfig (HotspotProfile schema)
 ms.assetid: a58e4178-4a15-46c0-951d-93aef9fec5e6
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# SSIDConfig
+# SSIDConfig (HotspotProfile schema)
 
 
 Contains a set of additional SSIDs that are handled by this profile to reduce the number of SSIDs in the WLAN profile store. Windows will not connect to these SSIDs until a user manually connects once. The newly-created profile will inherit the HotspotAuth settings from this profile.

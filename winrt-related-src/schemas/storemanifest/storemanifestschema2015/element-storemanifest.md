@@ -1,7 +1,7 @@
 ---
 description: StoreManifest schema for Windows 10
 Search.Product: eADQiWindows 10XVcnh
-title: StoreManifest
+title: StoreManifest (Store manifest schema for Windows 10)
 ms.assetid: 01d2ebcb-9da0-4bcc-9eb4-c284810f894b
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# StoreManifest
+# StoreManifest (Store manifest schema for Windows 10)
 
 
 Root node for the StoreManifest schema (for Windows 10).

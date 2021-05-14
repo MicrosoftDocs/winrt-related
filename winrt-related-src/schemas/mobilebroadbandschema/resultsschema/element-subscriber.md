@@ -1,7 +1,7 @@
 ---
 description: Contains any errors from processing the SubscriberId element from the last provisioning attempt.
 Search.Product: eADQiWindows 10XVcnh
-title: Subscriber
+title: Subscriber (ResultsSchema schema)
 ms.assetid: 042c6321-1f60-4097-8f31-5e442954603b
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Subscriber
+# Subscriber (ResultsSchema schema)
 
 
 Contains any errors from processing the [**SubscriberId**](../carriercontrolschema/element-subscriberid.md) element from the last provisioning attempt.
