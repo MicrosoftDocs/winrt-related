@@ -1,7 +1,7 @@
 ---
 description: Represents a file contained in the package.
 Search.Product: eADQiWindows 10XVcnh
-title: File
+title: File (package block map schema)
 ms.assetid: ea222abe-8c05-4f31-b494-be5459bd7620
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# File
+# File (package block map schema)
 
 Represents a file contained in the package.
 

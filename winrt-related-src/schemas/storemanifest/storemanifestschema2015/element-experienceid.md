@@ -1,7 +1,7 @@
 ---
 description: The ExperienceId element specifies a GUID that links the device metadata to a device app that can be automatically acquired when the device is first connected.
 Search.Product: eADQiWindows 10XVcnh
-title: ExperienceId
+title: ExperienceId (Store manifest schema for Windows 10)
 ms.assetid: fb3585cf-8f9c-4ae6-8430-685ccc132a98
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# ExperienceId
+# ExperienceId (Store manifest schema for Windows 10)
 
 
 The ExperienceId element specifies a GUID that links the device metadata to a device app that can be automatically acquired when the device is first connected. Each ExperienceId GUID corresponds to the ExperienceId element of a device metadata package.

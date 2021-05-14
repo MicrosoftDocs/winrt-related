@@ -1,7 +1,7 @@
 ---
 description: Declares an extensibility point for the package.
 Search.Product: eADQiWindows 10XVcnh
-title: 'Extension (in type: CT_PackageExtensions)'
+title: 'Extension (Windows 8 package schema, in type: CT_PackageExtensions)'
 ms.assetid: 72f0d1ae-15a4-4eba-a3ca-990f4de2b697
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Extension (in type: CT_PackageExtensions)
+# Extension (package schema for Windows 8, in type: CT_PackageExtensions)
 
 
 Declares an extensibility point for the package.

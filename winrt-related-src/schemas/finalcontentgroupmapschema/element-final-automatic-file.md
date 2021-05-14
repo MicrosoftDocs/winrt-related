@@ -1,7 +1,7 @@
 ---
 
 ms.assetid: 4159e108-5b94-44d4-838d-6db1280a45ff 
-title: File
+title: File (final content group map schema)
 description: The files specified in the automatic content group.
 
 ms.date: 03/29/2017
@@ -11,7 +11,7 @@ ms.topic: article
 keywords: windows 10, uwp, streaming install, content group, map, final content group, automatic content group
 ---
 
-# File
+# File (final content group map schema)
 
 ## Description
 The files specified in the automatic content group.
