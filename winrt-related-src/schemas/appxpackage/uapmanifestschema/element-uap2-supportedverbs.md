@@ -68,6 +68,6 @@ Contains verbs for a file context menu.
 
 ## Requirements
 
-|               |                                                             |
+|               | Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/2` |

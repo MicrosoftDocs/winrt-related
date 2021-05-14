@@ -99,7 +99,7 @@ Indicates whether Windows will enforce run time package integrity checks on the 
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
 

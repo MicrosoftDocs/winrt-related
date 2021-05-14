@@ -81,6 +81,6 @@ This extension has no effect in a UWP app.
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |

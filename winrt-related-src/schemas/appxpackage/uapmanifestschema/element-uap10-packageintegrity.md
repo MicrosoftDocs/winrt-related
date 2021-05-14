@@ -87,7 +87,7 @@ If you include a **uap10:PackageIntegrity** element without a child [uap10:Conte
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
 

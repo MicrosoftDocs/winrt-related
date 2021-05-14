@@ -79,6 +79,6 @@ This element can only be used in the context of the [uap10:InstalledLocationVirt
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
