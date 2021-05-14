@@ -37,7 +37,7 @@ A reference to the specified interface of the activation factory for the specifi
 
 ### Example
 
-This example verifies that a class is present on the system before using it. For example, the class might be in a different device family from that of the machine running the app (see [Programming with extension SDKs](/uwp/extension-sdks/device-families-overview)). The technique shown below works with public and non-public types.
+This example verifies that a class is present on the system before using it. For example, the class might be in a different device family from that of the machine running the app (see [Programming with extension SDKs](../extension-sdks/device-families-overview.md)). The technique shown below works with public and non-public types.
 
 ```cppwinrt
 if (auto factory { winrt::try_get_activation_factory<Class>() })
