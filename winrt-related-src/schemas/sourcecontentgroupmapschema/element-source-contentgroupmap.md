@@ -52,6 +52,7 @@ It's possible to simply author AppxContentGroupMap.xml and skip converting the S
 ## Examples
 
 ## Requirements
-|          |         |
+
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2016/sourcecontentgroupmap` |

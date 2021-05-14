@@ -44,6 +44,7 @@ The automatic content group.
 ## Examples
 
 ## Requirements
-|          |         |
+
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2016/sourcecontentgroupmap` |

@@ -107,7 +107,7 @@ If the **UsagePercentage** element is included in the schema, then the **UsageTi
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/WWAN/v1` |
 

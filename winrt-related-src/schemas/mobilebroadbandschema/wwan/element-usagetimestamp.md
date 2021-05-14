@@ -157,7 +157,7 @@ The **UsageTimestamp** element must not be included if none of the following ele
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://www.microsoft.com/networking/CarrierControl/WWAN/v1` |
 
