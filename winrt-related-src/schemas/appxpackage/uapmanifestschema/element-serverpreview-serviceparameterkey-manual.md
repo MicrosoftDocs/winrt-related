@@ -78,7 +78,7 @@ Specifies a parameter for the service. This parameter corresponds to a registry 
 
 | Attribute  | Description                                                                                                                  | Data type                                                                                                                                                 | Required | Default value |
 |------------|------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------|---------------|
-| **Subkey** | The subkey to create under the **HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\*ServiceName*\\Parameters** key. | A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: &lt;, &gt;, :, ", /, \\, |, ?, or \*. | Yes      |               |
+| **Subkey** | The subkey to create under the **HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\*ServiceName*\\Parameters** key. | A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: &lt;, &gt;, :, ", /, \\, \|, ?, or \*. | Yes      |               |
 
  
 
@@ -134,7 +134,7 @@ None.
 ## Requirements
 
 
-|               |                                                                    |
+|               | Value                                                              |
 |---------------|--------------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/serverpreview/windows10` |
 

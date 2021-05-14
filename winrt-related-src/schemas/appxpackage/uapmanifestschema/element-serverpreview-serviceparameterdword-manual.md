@@ -89,7 +89,7 @@ Specifies the value of a parameter for the service that has a data type of **REG
 |------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------|---------------|
 | **Name**   | The name of the parameter to set.                                                                                                                                                                                                                                                                                                                | A string between 1 and 16,383 characters in length with a non-whitespace character at its beginning and end.                                              | Yes      |               |
 | **Value**  | The value to use for the parameter.                                                                                                                                                                                                                                                                                                              | An unsigned integer.                                                                                                                                      | Yes      |               |
-| **Subkey** | The subkey under the **HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\*ServiceName*\\Parameters** key under which the registry value should be located. If you do not specify this attribute, the registry value is located directly under **HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\*ServiceName*\\Parameters**. | A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: &lt;, &gt;, :, ", /, \\, |, ?, or \*. | No       |               |
+| **Subkey** | The subkey under the **HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\*ServiceName*\\Parameters** key under which the registry value should be located. If you do not specify this attribute, the registry value is located directly under **HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\*ServiceName*\\Parameters**. | A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: &lt;, &gt;, :, ", /, \\, \|, ?, or \*. | No       |               |
 
  
 
@@ -146,7 +146,7 @@ None.
 ## Requirements
 
 
-|               |                                                                    |
+|               | Value                                                              |
 |---------------|--------------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/serverpreview/windows10` |
 
