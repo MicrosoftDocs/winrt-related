@@ -1,7 +1,7 @@
 ---
 
 
-title: Element Hierarchy
+title: Element Hierarchy (app installer file schema)
 description: The following list summarizes the allowed hierarchies for the App Installer file schema, starting with the outermost element at the top.
 ms.topic: reference
 ms.date: 10/10/2017
@@ -10,7 +10,7 @@ ms.date: 10/10/2017
 keywords: windows 10, uwp, app installer, AppInstaller, sideload, related set, optional packages
 ---
 
-# Element Hierarchy
+# Element Hierarchy (app installer file schema)
 
 The following list summarizes the allowed hierarchies for the App Installer file schema, starting with the outermost element at the top.
 
