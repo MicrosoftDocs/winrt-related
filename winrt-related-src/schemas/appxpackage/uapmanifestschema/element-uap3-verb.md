@@ -81,6 +81,6 @@ Defines the verbs associated with a file context menu and enables Windows Deskto
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
