@@ -114,7 +114,7 @@ Declares an app extensibility point of type **windows.appUriHandler**.
 ## Requirements
 
 
-|               |                                                             |
+|               | Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
 

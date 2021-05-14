@@ -63,6 +63,6 @@ None.
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
