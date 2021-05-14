@@ -1,7 +1,7 @@
 ---
 description: Specifies which pages in the web context have access to the system's geolocation devices and access to the clipboard.
 Search.Product: eADQiWindows 10XVcnh
-title: Rule
+title: Rule (Windows 8 package schema)
 ms.assetid: c78c8c62-df95-4202-b3f0-75ddbb7e0e46
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Rule
+# Rule (package schema for Windows 8)
 
 
 Specifies which pages in the web context have access to the system's geolocation devices (if the app has permission to access this capability) and access to the clipboard.

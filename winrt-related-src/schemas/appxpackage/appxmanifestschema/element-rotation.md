@@ -1,7 +1,7 @@
 ---
 description: Specifies a single rotational orientation in which an app will display.
 Search.Product: eADQiWindows 10XVcnh
-title: Rotation
+title: Rotation (Windows 8 package schema)
 ms.assetid: 0e351d87-2ff0-4e9e-b3ea-6a6254d4c1c4
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Rotation
+# Rotation (package schema for Windows 8)
 
 
 Specifies a single rotational orientation in which an app will display.

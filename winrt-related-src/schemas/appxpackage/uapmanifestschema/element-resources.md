@@ -1,7 +1,7 @@
 ---
 description: Declares the union of languages, display scales, and DirectX feature levels for the resources that the package contains.
 Search.Product: eADQiWindows 10XVcnh
-title: Resources
+title: Resources (Windows 10 package schema)
 ms.assetid: 45ce3dac-3888-452b-bc10-8775b158637a
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 10/26/2017
 ---
 
-# Resources
+# Resources (package schema for Windows 10)
 
 Declares the union of languages, display scales, and DirectX feature levels for the resources that the package contains. For details and examples, see [Resource](element-resource.md).
 
