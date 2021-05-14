@@ -54,6 +54,7 @@ File names in the source content group map can use wildcards in names. For more 
 ## Examples
 
 ## Requirements
-|          |         |
+
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2016/sourcecontentgroupmap` |

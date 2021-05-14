@@ -61,6 +61,7 @@ The **Name** of the required content group must be set to: Required, note that t
 ## Examples
 
 ## Requirements
-|          |         |
+
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2016/sourcecontentgroupmap` |

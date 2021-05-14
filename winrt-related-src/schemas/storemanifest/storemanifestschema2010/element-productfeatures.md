@@ -124,7 +124,7 @@ The following is an example of the ProductFeatures element that declares the app
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/StoreManifest` |
 

@@ -119,7 +119,7 @@ The following is an example of the ExperienceIds element with three ExperienceId
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/StoreManifest` |
 

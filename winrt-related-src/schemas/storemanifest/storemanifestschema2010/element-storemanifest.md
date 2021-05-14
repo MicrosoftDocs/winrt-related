@@ -76,7 +76,7 @@ For UWP apps, see [StoreManifest schema](../storemanifestschema2015/schema-root.
 
 ## Requirements
 
-|          |         |
+|          | Value |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/StoreManifest` |
 
