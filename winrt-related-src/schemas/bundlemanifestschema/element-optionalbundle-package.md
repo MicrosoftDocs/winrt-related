@@ -1,7 +1,7 @@
 ---
 
 ms.assetid: ef52c3d3-b112-42a5-b66d-2ab9cf672a5d
-title: Package
+title: Package (Bundle schema, child of OptionalBundle)
 description: Defines one of the app packages or resource packages in the optional bundle.
 
 ms.date: 04/05/2017
@@ -11,7 +11,7 @@ ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, optional bundle 
 ---
 
-# Package
+# Package (Bundle schema, child of OptionalBundle)
 
 ## Description
 Defines one of the app packages or resource packages in the optional bundle.

@@ -1,7 +1,7 @@
 ---
 description: Defines the root element of an app package manifest.
 Search.Product: eADQiWindows 10XVcnh
-title: Package
+title: Package (Windows 8.1 extensions schema)
 ms.assetid: ea0f5af0-8191-4ce0-9594-c647f800bd53
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Package
+# Package (extensions schema for Windows 8.1)
 
 Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system.
 

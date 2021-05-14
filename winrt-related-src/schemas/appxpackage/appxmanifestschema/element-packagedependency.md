@@ -1,7 +1,7 @@
 ---
 description: Declares a dependency on another package that is marked as a framework package.
 Search.Product: eADQiWindows 10XVcnh
-title: PackageDependency
+title: PackageDependency (Windows 8 package schema)
 ms.assetid: 7f0800a1-f1dd-48c2-aba0-3701dd27d383
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# PackageDependency
+# PackageDependency (package schema for Windows 8)
 
 
 Declares a dependency on another package that is marked as a framework package.

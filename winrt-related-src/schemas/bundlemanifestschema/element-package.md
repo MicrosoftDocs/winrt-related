@@ -1,7 +1,7 @@
 ---
 description: Defines one of the app packages or resource packages in the bundle.
 Search.Product: eADQiWindows 10XVcnh
-title: Package
+title: Package (Bundle schema, child of Packages)
 ms.assetid: ea0f5af0-8191-4ce0-9594-c647f800bd53
 
 
@@ -12,7 +12,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Package
+# Package (Bundle schema, child of Packages)
 
 Defines one of the app packages or resource packages in the bundle.
 

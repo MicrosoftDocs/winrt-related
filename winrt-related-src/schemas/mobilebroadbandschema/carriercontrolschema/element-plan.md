@@ -1,7 +1,7 @@
 ---
 description: Defines an instance of the Plan element from the Plans schema.
 Search.Product: eADQiWindows 10XVcnh
-title: Plan
+title: Plan (CarrierControlSchema schema)
 ms.assetid: 880ae12d-cd46-4b3b-9b24-3b1f92a64fd0
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Plan
+# Plan (CarrierControlSchema schema)
 
 
 Defines an instance of the [**Plan**](../plans/element-plan.md) element from the [**Plans**](../plans/schema-root.md) schema.

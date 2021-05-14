@@ -1,7 +1,7 @@
 ---
 description: Defines a set of plan information that specifies the data usage options and state of a subscriber's connection to a Mobile Network Operator (MNO).
 Search.Product: eADQiWindows 10XVcnh
-title: Plan
+title: Plan (Plans schema)
 ms.assetid: 880ae12d-cd46-4b3b-9b24-3b1f92a64fd0
 
 keywords: windows 10, uwp, schema, mobile broadband schema
@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Plan
+# Plan (Plans schema)
 
 
 Defines a set of plan information that specifies the data usage options and state of a subscriber's connection to a Mobile Network Operator (MNO). [**Plan**](element-plan.md) is the unique root element for plan information
