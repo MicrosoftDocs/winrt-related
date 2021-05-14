@@ -47,6 +47,7 @@ It's recommended to start with authoring the source content group map (SourceApp
 ## Examples
 
 ## Requirements
-|          |         |
+
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2016/contentgroupmap` |

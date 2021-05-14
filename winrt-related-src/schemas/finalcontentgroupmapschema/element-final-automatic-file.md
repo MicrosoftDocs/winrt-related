@@ -54,6 +54,7 @@ File names in the final content group map cannot use wildcards. Note that wildca
 ## Examples
 
 ## Requirements
-|          |         |
+
+|          | Value        |
 |----------|--------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2016/contentgroupmap` |
