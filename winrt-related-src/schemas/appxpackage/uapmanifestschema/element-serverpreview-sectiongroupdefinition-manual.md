@@ -151,7 +151,7 @@ Identifies an Internet Information Service (IIS) SectionGroupDefinition as it pe
 ## Requirements
 
 
-|               |                                                                    |
+|               | Value                                                              |
 |---------------|--------------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/serverpreview/windows10` |
 

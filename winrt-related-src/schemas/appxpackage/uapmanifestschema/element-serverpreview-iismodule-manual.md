@@ -87,9 +87,9 @@ Identifies an Internet Information Service (IIS) module to install, update, or u
 
 | Attribute          | Description                                                                                                                                               | Data type                                                                                                                                     | Required | Default value |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|----------|---------------|
-| **ModuleDll**      | The name of the DLL file for the module.                                                                                                                  | A string between 1 and 256 characters in length that must end with ".dll" and cannot contain these characters: &lt;, &gt;, :, ", |, ?, or \*. | Yes      |               |
+| **ModuleDll**      | The name of the DLL file for the module.                                                                                                                  | A string between 1 and 256 characters in length that must end with ".dll" and cannot contain these characters: &lt;, &gt;, :, ", \|, ?, or \*. | Yes      |               |
 | **Name**           | The name of the module to install, modify, or uninstall. Modules are installed at %WINDIR%\\System32\\Inetsrv.                                            | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.                                   | Yes      |               |
-| **SchemaFileName** | The name of the schema file for the module to install, modify, or uninstall. The schema file is installed at %WINDIR%\\System32\\Inetsrv\\Config\\Schema. | A string between 1 and 256 characters in length that must end with ".xml" and cannot contain these characters: &lt;, &gt;, :, ", |, ?, or \*. | No       |               |
+| **SchemaFileName** | The name of the schema file for the module to install, modify, or uninstall. The schema file is installed at %WINDIR%\\System32\\Inetsrv\\Config\\Schema. | A string between 1 and 256 characters in length that must end with ".xml" and cannot contain these characters: &lt;, &gt;, :, ", \|, ?, or \*. | No       |               |
 
  
 
@@ -168,7 +168,7 @@ The values of the **Name**, **ModuleDll**, and **SchemaFileName** attributes mus
 ## Requirements
 
 
-|               |                                                                    |
+|               | Value                                                              |
 |---------------|--------------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/serverpreview/windows10` |
 

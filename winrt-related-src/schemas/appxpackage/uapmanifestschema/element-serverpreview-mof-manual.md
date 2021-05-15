@@ -78,8 +78,8 @@ Specifies the Managed Object Format (MOF) files to use to install or uninstall t
 
 | Attribute        | Description                                                                                                                                                     | Data type                                                                                                                                     | Required | Default value |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|----------|---------------|
-| **InstallMof**   | The file name of the MOF file to use to install the WMI provider. This file name must be unique to the package, and the MOF file must be part of the package.   | A string between 1 and 256 characters in length that must end with ".mof" and cannot contain these characters: &lt;, &gt;, :, ", |, ?, or \*. | Yes      |               |
-| **UninstallMof** | The file name of the MOF file to use to uninstall the WMI provider. This file name must be unique to the package, and the MOF file must be part of the package. | A string between 1 and 256 characters in length that must end with ".mof" and cannot contain these characters: &lt;, &gt;, :, ", |, ?, or \*. | No       |               |
+| **InstallMof**   | The file name of the MOF file to use to install the WMI provider. This file name must be unique to the package, and the MOF file must be part of the package.   | A string between 1 and 256 characters in length that must end with ".mof" and cannot contain these characters: &lt;, &gt;, :, ", \|, ?, or \*. | Yes      |               |
+| **UninstallMof** | The file name of the MOF file to use to uninstall the WMI provider. This file name must be unique to the package, and the MOF file must be part of the package. | A string between 1 and 256 characters in length that must end with ".mof" and cannot contain these characters: &lt;, &gt;, :, ", \|, ?, or \*. | No       |               |
 
  
 
@@ -136,7 +136,7 @@ None.
 ## Requirements
 
 
-|               |                                                                    |
+|               | Value                                                              |
 |---------------|--------------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/serverpreview/windows10` |
 
