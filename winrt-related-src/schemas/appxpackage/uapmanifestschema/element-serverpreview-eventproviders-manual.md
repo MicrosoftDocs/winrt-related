@@ -109,7 +109,7 @@ The following example identifies an event tracing extension to add to the server
 ## Requirements
 
 
-|               |                                                                    |
+|               | Value                                                              |
 |---------------|--------------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/serverpreview/windows10` |
 
