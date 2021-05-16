@@ -81,7 +81,7 @@ In the version string, *major*.*minor*.*appversion*, the first two fields repres
 
 ## Requirements
 
-|               |                                                             |
+|               |   Value                                                          |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/manifest` |
 
