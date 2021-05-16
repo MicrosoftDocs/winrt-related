@@ -166,7 +166,7 @@ The **windows.certificates** extensibility point can't be declared multiple time
 
 ## Requirements
 
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/manifest` |
 

@@ -112,7 +112,7 @@ Extensibility points are a mechanism by which an app can add functionality in a 
 
 ## Requirements
 
-|               |                                                             |
+|               |   Value                                                          |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/manifest` |
 
