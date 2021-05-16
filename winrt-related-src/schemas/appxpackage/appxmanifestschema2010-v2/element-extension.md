@@ -227,7 +227,7 @@ If /Application/@StartPage is not specified, it is a UWP app using C# or VB and 
 
 ## Requirements
 
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/manifest` |
 

@@ -120,7 +120,7 @@ Here's an example of a [**Capabilities**](element-capabilities.md) node. For mor
 
 ## Requirements
 
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/manifest` |
 

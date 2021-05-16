@@ -153,7 +153,7 @@ Here's an example of a [**Capabilities**](../appxmanifestschema/element-capabili
 
 ## Requirements
 
-|               |                                                             |
+|               |         Value                                                    |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/manifest` |
 
