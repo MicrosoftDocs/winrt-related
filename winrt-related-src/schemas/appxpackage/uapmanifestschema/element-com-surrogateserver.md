@@ -91,6 +91,6 @@ The **SystemSurrogate** corresponds to the values of the DllSurrogate value of t
 ## Examples
 
 ## Requirements
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

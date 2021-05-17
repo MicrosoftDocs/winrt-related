@@ -56,6 +56,6 @@ Enables Windows Desktop Bridge apps to register for Windows event logging.
 
 ## Requirements
 
-|               |                                                             |
+|               |    Value                                                         |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/2` |

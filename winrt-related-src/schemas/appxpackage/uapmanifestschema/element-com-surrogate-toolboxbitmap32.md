@@ -82,6 +82,6 @@ Identifies the module name and resource ID for a 16 x 16 bitmap to use for the f
 ## Examples
 
 ## Requirements
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

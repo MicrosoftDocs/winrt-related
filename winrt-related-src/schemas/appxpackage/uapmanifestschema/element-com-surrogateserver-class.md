@@ -119,6 +119,6 @@ The **ThreadingModel** corresponds to the [InprocServer32](/windows/win32/com/in
 ## Examples
 
 ## Requirements
-|               |                                                             |
+|               |          Value                                                   |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
