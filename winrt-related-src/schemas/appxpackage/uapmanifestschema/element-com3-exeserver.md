@@ -84,6 +84,6 @@ An **ExeServer** can have one or more class registrations. Multiple class regist
 The **Executable** and **Arguments** attributes correspond to the default value of the [LocalServer32](/windows/win32/com/localserver32) key.
 
 ## Requirements
-|               |                                                             |
+|               |    Value                                                         |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/3` |

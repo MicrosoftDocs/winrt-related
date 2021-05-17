@@ -97,7 +97,7 @@ You can use the **Applications** element to specify one or more apps for the pac
 
 ## Requirements
 
-|   |   |
+|   | Value  |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
 

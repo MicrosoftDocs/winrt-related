@@ -143,7 +143,7 @@ Here's an example of a [**Capabilities**](element-capabilities.md) node.
 
 ## Requirements
 
-|   |   |
+|   |  Value |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
 
