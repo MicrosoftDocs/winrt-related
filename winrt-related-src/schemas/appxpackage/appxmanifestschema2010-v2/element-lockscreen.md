@@ -137,7 +137,7 @@ Applications\\Application\\VisualElements\\LockScreen\\@BadgeLogo
 
 ## Requirements
 
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/manifest` |
 

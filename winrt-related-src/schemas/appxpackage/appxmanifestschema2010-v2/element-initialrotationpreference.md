@@ -151,7 +151,7 @@ When an app rotates, Windows rotates with it. If you close the app in Portrait, 
 
 ## Requirements
 
-|               |                                                             |
+|               |    Value                                                         |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/manifest` |
 

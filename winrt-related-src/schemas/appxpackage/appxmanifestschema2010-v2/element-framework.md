@@ -89,7 +89,7 @@ A framework package cannot define the [**Applications**](../appxmanifestschema/e
 
 ## Requirements
 
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/manifest` |
 
