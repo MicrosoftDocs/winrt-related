@@ -69,6 +69,6 @@ For a code sample that demonstrates how to implement a context menu handler by i
 
 ## Requirements
 
-|               |                                                             |
+|               |      Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/4` |

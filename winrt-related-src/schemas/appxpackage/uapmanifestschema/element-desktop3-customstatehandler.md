@@ -62,6 +62,6 @@ Registration of a Windows Shell CustomStateHandler for cloud based placeholder f
 
 ## Requirements
 
-|               |                                                             |
+|               |       Value                                                      |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/3` |
