@@ -115,7 +115,7 @@ For more info, see [**Extension**](../appxmanifestschema2010-v2/element-extensio
 
 ## Requirements
 
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2013/manifest` |
 

@@ -123,7 +123,7 @@ Declares a function for a device that is associated with the [**DeviceCapability
 
 ## Requirements
 
-|               |                                                             |
+|               |        Value                                                     |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2013/manifest` |
 

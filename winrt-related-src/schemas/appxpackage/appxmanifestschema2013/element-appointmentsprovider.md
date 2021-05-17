@@ -100,7 +100,7 @@ For info about appointments and the appointments provider, see [**Windows.Applic
 
 ## Requirements
 
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2013/manifest` |
 

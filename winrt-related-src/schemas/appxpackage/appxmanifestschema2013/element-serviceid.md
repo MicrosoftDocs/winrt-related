@@ -121,7 +121,7 @@ Because **ServiceId** allows the [**Extension**](../appxmanifestschema2010-v2/el
 
 ## Requirements
 
-|               |                                                             |
+|               |       Value                                                      |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2013/manifest` |
 

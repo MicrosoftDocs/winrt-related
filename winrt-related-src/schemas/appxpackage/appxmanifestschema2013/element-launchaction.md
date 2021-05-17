@@ -209,7 +209,7 @@ Because **LaunchAction (in ContactLaunchActions)** allows the [**Extension**](..
 
 ## Requirements
 
-|               |                                                             |
+|               |       Value                                                      |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2013/manifest` |
 
