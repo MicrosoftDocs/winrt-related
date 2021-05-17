@@ -99,7 +99,7 @@ You can use the **Applications** element to specify one or more apps for the pac
 
 |   | Value  |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
 
 
  

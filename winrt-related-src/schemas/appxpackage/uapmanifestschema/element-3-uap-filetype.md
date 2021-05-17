@@ -127,7 +127,7 @@ The following elements have the same name as this one, but different content or 
 
 |   | Value  |
 |--|--|
-| Namespace | `	http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+| **Namespace** | `	http://schemas.microsoft.com/appx/manifest/uap/windows10` |
 
 
  
