@@ -128,7 +128,7 @@ For any values that have a [scheme](/windows/uwp/launch-resume/launch-maps-app) 
 
 ## Requirements
 
-|               |                                                             |
+|               |      Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/manifest` |
 

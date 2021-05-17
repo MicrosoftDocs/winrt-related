@@ -156,7 +156,7 @@ Declares an app extensibility point of type **windows.protocol**. A URI associat
 
 ## Requirements
 
-|               |                                                             |
+|               |      Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/manifest` |
 
