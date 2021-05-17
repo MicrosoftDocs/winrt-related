@@ -61,6 +61,6 @@ Handler for AutoPlay, which can present your app as an option when a user connec
 
 ## Requirements
 
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/3` |

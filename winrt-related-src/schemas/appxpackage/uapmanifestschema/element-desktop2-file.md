@@ -53,6 +53,6 @@ Specifies the path to an event message file.
 
 ## Requirements
 
-|||
+|| Value |
 |-|-|
-|Namespace|`http://schemas.microsoft.com/appx/manifest/desktop/windows10/2`|
+|**Namespace**|`http://schemas.microsoft.com/appx/manifest/desktop/windows10/2`|

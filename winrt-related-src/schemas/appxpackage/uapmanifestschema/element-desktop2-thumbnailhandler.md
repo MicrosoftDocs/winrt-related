@@ -64,6 +64,6 @@ A `<desktop2:ThumbnailHandler>` element can only exist under a `<FileTypeAssocia
 
 ## Requirements
 
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/2` |

@@ -78,6 +78,6 @@ Registration for the handlers implemented in an application and context menu opt
 
 ## Requirements
 
-|               |                                                             |
+|               |       Value                                                      |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/3` |

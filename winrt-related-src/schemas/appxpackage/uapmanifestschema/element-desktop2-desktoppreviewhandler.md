@@ -72,6 +72,6 @@ Note that the Clsid attribute from PreviewHandler **must** match the ID attribut
 
 ## Requirements
 
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/2` |
