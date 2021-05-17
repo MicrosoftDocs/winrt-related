@@ -78,6 +78,6 @@ A type library for an interface.
 ## Examples
 
 ## Requirements
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

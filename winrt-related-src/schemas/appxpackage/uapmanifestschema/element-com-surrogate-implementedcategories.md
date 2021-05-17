@@ -80,6 +80,6 @@ Specifies categories implemented by the class.
 ## Examples
 
 ## Requirements
-|               |                                                             |
+|               |      Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

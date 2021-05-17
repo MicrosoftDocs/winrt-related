@@ -94,6 +94,6 @@ Note that **FormatName** and **StandardFormat** are mutually exclusive attribute
 ## Examples
 
 ## Requirements
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

@@ -92,6 +92,6 @@ If **UseUniversalMarshaler** is true, the Interface registration must include **
 ## Examples
 
 ## Requirements
-|               |                                                             |
+|               |      Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

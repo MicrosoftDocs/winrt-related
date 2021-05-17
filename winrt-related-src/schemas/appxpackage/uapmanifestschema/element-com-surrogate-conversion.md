@@ -83,6 +83,6 @@ Specifies the formats an application can read and write.
 ## Examples
 
 ## Requirements
-|               |                                                             |
+|               |    Value                                                         |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
