@@ -1,5 +1,4 @@
 ---
-
 description: A helper function that retrieves the activation factory for a specified Windows Runtime class type or an empty **com_ptr** if not successful.
 title: winrt::try_get_activation_factory function template (C++/WinRT)
 dev_langs: ["C++"]
