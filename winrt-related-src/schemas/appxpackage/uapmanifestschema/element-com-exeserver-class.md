@@ -113,6 +113,6 @@ Each **Class** registered under an **ExeServer** must have an **Id** attribute c
 ## Examples
 
 ## Requirements
-|               |                                                             |
+|               |    Value                                                         |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

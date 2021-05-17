@@ -72,6 +72,6 @@ For more information on the ProgID, see [&lt;ProgID&gt; Key](/windows/win32/com/
 > Clsid and CurrentVersion are mutually exclusive, but at least one must be provided.
 
 ## Requirements
-|               |                                                             |
+|               |        Value                                                     |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/3` |

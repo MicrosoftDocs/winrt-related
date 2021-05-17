@@ -81,6 +81,6 @@ Provides default icon information for iconic presentations of objects.
 ## Examples
 
 ## Requirements
-|               |                                                             |
+|               |    Value                                                         |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

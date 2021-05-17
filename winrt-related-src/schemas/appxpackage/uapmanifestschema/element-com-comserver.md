@@ -82,6 +82,6 @@ It is possible to have multiple **comServer** extensions under the Applications/
 
 ## Requirements
 
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

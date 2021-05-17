@@ -90,6 +90,6 @@ The **Executable** and **Arguments** attributes correspond to the default value 
 ## Examples
 
 ## Requirements
-|               |                                                             |
+|               |   Value                                                          |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
