@@ -96,6 +96,8 @@ The instantiation algorithm is as follows.
 3. The type signature for an interface that is not a parameterized interface instance is its IID encoded in ASCII in dashed form, and delimited by curly braces. For example, "{00000000-0000-0000-0000-000000000000}".
 4. The type signature for a delegate that is not a parameterized delegate instance is the string "delegate", and then the IID as with interfaces. The detailed grammar appears next.
 5. The guid for a parameterized type is computed according to this grammar.
+   - according to UUID rfc 4122, compute the ver 5 sha-1 generated hash of signature_octets&mdash;this uses a single winrt pinterface/pintergroup guid as the namespace as described in rfc 4122/4.3, and the signature of the pinterface/pintergroup and the args it is instantiated with as the name string.
+   - the pinterface instantiation is assigned this guid, and the signature from 4.
 
 ```syntax
     signature_octets => guid_to_octets(wrt_pinterface_namespace) string_to_utf8_octets(ptype_instance_signature)
@@ -144,8 +146,6 @@ The instantiation algorithm is as follows.
             hex => [0-9a-f]
 ```
 
-    - according to UUID rfc 4122, compute the ver 5 sha-1 generated hash of signature_octets&mdash;this uses a single winrt pinterface/pintergroup guid as the namespace as described in rfc 4122/4.3, and the signature of the pinterface/pintergroup and the args it is instantiated with as the name string.
-    - the pinterface instantiation is assigned this guid, and the signature from 4.
 6. When a p-type instantiation is passed as an argument to anther pinterface, the signature computed by step 3 is used as the type signature in  grammar element 'pinterface_instance_signature' or 'pdelegate_instance_signature', as appropriate.
 
 These names are used for base types when they appear.
