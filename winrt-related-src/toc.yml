@@ -2216,6 +2216,8 @@
       href: cpp-ref-for-winrt/try-capture.md
     - name: "try_create_instance function template"
       href: cpp-ref-for-winrt/try-create-instance.md
+    - name: "try_get_activation_factory function template"
+      href: cpp-ref-for-winrt/try-get-activation-factory.md
     - name: "unbox_value function template"
       href: cpp-ref-for-winrt/unbox-value.md
     - name: "unbox_value_or function template"
