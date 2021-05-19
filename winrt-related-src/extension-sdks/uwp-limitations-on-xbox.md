@@ -53,7 +53,7 @@ This topic lists some of the feature areas that your UWP app might use that don'
 | Network Operators API | APIs related to Network Operators require modem support, which is not present on Xbox. See [**Windows.Networking.NetworkOperators**](/uwp/api/Windows.Networking.NetworkOperators). |
 | Near Field Communication (NFC) | [**NFC**](/uwp/api/Windows.Networking.Proximity) APIs are not supported on Xbox, so proximity APIs aren't supported. |
 | Optical Character Recognition (OCR) | [**OCR**](/uwp/api/Windows.Media.Ocr) APIs are not supported on Xbox. |
-| Perception APIs | [**Windows.Perception**](uwp/api/windows.perception) is not supported for Xbox. |
+| Perception APIs | [**Windows.Perception**](/uwp/api/Windows.Perception) is not supported for Xbox. |
 | Phone APIs | [**Windows.Phone**](/uwp/api/windows.phone) and [**Windows.ApplicationModel.Calls**](/uwp/api/windows.applicationmodel.calls) are not supported for Xbox. |
 | Printing | [**Printing**](/uwp/api/Windows.Graphics.Printing) is not supported on Xbox. |
 | Point of Service (POS) | [**POS**](/uwp/api/Windows.Devices.PointOfService) APIs are not supported on Xbox. |

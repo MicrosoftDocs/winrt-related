@@ -54,7 +54,8 @@ For more information, see [Modification packages](/windows/msix/modification-pac
 
 ## Requirements
 
-|               |                                                             |
+
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/6` |
- 
+
