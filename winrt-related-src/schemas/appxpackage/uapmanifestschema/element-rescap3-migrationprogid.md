@@ -64,6 +64,6 @@ Contains a [programmatic identifier (ProgID)](/windows/win32/shell/fa-progids) v
 
 ## Requirements
 
-|               |                                                             |
+|               | Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/3` |

@@ -68,6 +68,6 @@ Contains [programmatic identifier (ProgID)](/windows/win32/shell/fa-progids) val
 
 ## Requirements
 
-|               |                                                             |
+|               | Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/2` |

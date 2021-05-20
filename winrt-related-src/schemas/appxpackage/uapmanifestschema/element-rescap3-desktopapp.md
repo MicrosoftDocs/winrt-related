@@ -62,6 +62,6 @@ Specifies information for redirecting a Windows Desktop Bridge app's tiles and p
 
 ## Requirements
 
-|               |                                                             |
+|               | Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/3` |
