@@ -90,7 +90,7 @@ None.
 ## Requirements
 
 
-|               |                                                             |
+|               | Value                                                         |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/mobile/windows10` |
 
