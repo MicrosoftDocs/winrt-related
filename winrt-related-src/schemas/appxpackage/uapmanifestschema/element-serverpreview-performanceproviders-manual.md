@@ -109,7 +109,7 @@ The following example identifies a performance counter to add to the server-spec
 ## Requirements
 
 
-|               |                                                                    |
+|               | Value                                                              |
 |---------------|--------------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/serverpreview/windows10` |
 

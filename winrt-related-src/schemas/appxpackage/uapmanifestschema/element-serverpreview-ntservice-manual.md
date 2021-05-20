@@ -268,7 +268,7 @@ Only NT services that run in their own processes are supported. Services that sh
 ## Requirements
 
 
-|               |                                                                    |
+|               | Value                                                              |
 |---------------|--------------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/serverpreview/windows10` |
 

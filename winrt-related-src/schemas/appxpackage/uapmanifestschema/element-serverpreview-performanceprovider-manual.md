@@ -74,8 +74,8 @@ Identifies a performance counter to add to the server-specific app extensions.
 | Attribute        | Description                                                            | Data type                                                                                                                                               | Required | Default value |
 |------------------|------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|----------|---------------|
 | **Id**           | The unique identifier of the performance counter provider.             | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.                                                                                                | Yes      |               |
-| **ManifestFile** | The name of the manifest file for the performance counter.             | A string between 1 and 256 characters in length that must end with ".xml" and cannot contain these characters: &lt;, &gt;, :, ", |, ?, or \*.           | Yes      |               |
-| **ResourceFile** | The name of the application resource file for the performance counter. | A string between 1 and 256 characters in length that must end with ".exe" or ".dll" and cannot contain these characters: &lt;, &gt;, :, ", |, ?, or \*. | Yes      |               |
+| **ManifestFile** | The name of the manifest file for the performance counter.             | A string between 1 and 256 characters in length that must end with ".xml" and cannot contain these characters: &lt;, &gt;, :, ", \|, ?, or \*.           | Yes      |               |
+| **ResourceFile** | The name of the application resource file for the performance counter. | A string between 1 and 256 characters in length that must end with ".exe" or ".dll" and cannot contain these characters: &lt;, &gt;, :, ", \|, ?, or \*. | Yes      |               |
 
  
 
@@ -126,7 +126,7 @@ The following example identifies a performance counter to add to the server-spec
 ## Requirements
 
 
-|               |                                                                    |
+|               | Value                                                              |
 |---------------|--------------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/serverpreview/windows10` |
 
