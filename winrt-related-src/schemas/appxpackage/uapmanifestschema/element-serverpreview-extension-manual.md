@@ -189,7 +189,7 @@ The following example identifies a performance counter to add to the server-spec
 ## Requirements
 
 
-|               |                                                                    |
+|               | Value                                                              |
 |---------------|--------------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/serverpreview/windows10`<br/><br/>`http://schemas.microsoft.com/appx/manifest/uap/windows10/10` (for the **uap10** attributes) |
 

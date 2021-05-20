@@ -142,6 +142,6 @@ The first entry in the list is the default language for the app, which you can s
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
