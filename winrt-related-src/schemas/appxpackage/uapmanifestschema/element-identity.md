@@ -141,9 +141,9 @@ This example is from the app manifest file of the [App package information](http
 
 ## Requirements
 
-|   |   |
+|   | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
 
 
  
