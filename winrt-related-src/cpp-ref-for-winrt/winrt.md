@@ -119,6 +119,25 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [unbox_value_or function template](unbox-value-or.md) | A function template that unwraps (or *unboxes*) a scalar value from inside a reference class object, with a fallback value, so that it can be processed in a function that expects **IInspectable**. |
 | [xaml_typename function template](xaml-typename.md) | A helper function that returns the type name of a Windows Runtime type, in the form of a [Windows::UI::Xaml::Interop::TypeName](/uwp/api/windows.ui.xaml.interop.typename) object. |
 
+## C++/WinRT functions that extend Windows Runtime APIs
+
+Extension functions exist on the C++/WinRT projection types for certain Windows Runtime APIs. For example, **winrt::Windows::Foundation::IAsyncAction** is the C++/WinRT projection type for [IAsyncAction](/uwp/api/windows.foundation.iasyncaction). The extension functions aren't part of the application binary interface (ABI) surface of the actual Windows Runtime types, so they're not listed as members of the Windows Runtime APIs. But you can call them from within any C++/WinRT project.
+
+| WinRT API | Function(s) | Description |
+| - | - | - |
+| **IAsyncAction** | **get**, **wait_for** | See [IAsyncAction C++/WinRT extension functions](/uwp/api/windows.foundation.iasyncaction#cwinrt-extension-functions) |
+| **IAsyncActionWithProgress** | **get**, **wait_for** | See [IAsyncActionWithProgress C++/WinRT extension functions](/uwp/api/windows.foundation.iasyncactionwithprogress-1#cwinrt-extension-functions) |
+| **IAsyncOperation** | **get**, **wait_for** | See [IAsyncOperation C++/WinRT extension functions](/uwp/api/windows.foundation.iasyncoperation-1#cwinrt-extension-functions) |
+| **IAsyncOperationWithProgress** | **get**, **wait_for** | See [IAsyncOperationWithProgress C++/WinRT extension functions](/uwp/api/windows.foundation.iasyncoperationwithprogress-2#cwinrt-extension-functions) |
+| **IBindableIterable** | **begin**, **end** | See [IBindableIterator C++/WinRT extension functions](/uwp/api/windows.ui.xaml.interop.ibindableiterator#cwinrt-extension-functions) |
+| **IBindableIterator** | **operator++**, **operator++(int)**, **operator\*** | See [IBindableIterator C++/WinRT extension functions](/uwp/api/windows.ui.xaml.interop.ibindableiterator#cwinrt-extension-functions) |
+| **IBuffer** | **data** | See [IBuffer C++/WinRT extension functions](/uwp/api/windows.storage.streams.ibuffer#cwinrt-extension-functions) |
+| **IIterable** | **begin**, **end** | See [IIterator C++/WinRT extension functions](/uwp/api/windows.foundation.collections.iiterator-1#cwinrt-extension-functions) |
+| **IIterator** | **operator++**, **operator++(int)**, **operator\*** | See [IIterator C++/WinRT extension functions](/uwp/api/windows.foundation.collections.iiterator-1#cwinrt-extension-functions) |
+| **IKeyValuePair** | **operator==** | See [IKeyValuePair C++/WinRT extension functions](/uwp/api/windows.foundation.collections.ikeyvaluepair-2#cwinrt-extension-functions) |
+| **IMap** | **TryLookup**, **TryRemove** | See [IMap C++/WinRT extension functions](/uwp/api/windows.foundation.collections.imap-2#cwinrt-extension-functions) |
+| **IMapView** | **TryLookup** | See [IMapView C++/WinRT extension functions](/uwp/api/windows.foundation.collections.imapview-2#cwinrt-extension-functions) |
+
 ## Other functions
 | Function | Description |
 | - | - |
