@@ -125,18 +125,18 @@ Extension functions exist on the C++/WinRT projection types for certain Windows 
 
 | WinRT API | Function(s) | Description |
 | - | - | - |
-| **IAsyncAction** | **get**, **wait_for** | See [IAsyncAction C++/WinRT extension functions](/uwp/api/windows.foundation.iasyncaction#remarks) |
-| **IAsyncActionWithProgress** | **get**, **wait_for** | See [IAsyncActionWithProgress C++/WinRT extension functions](/uwp/api/windows.foundation.iasyncactionwithprogress-1#remarks) |
-| **IAsyncOperation** | **get**, **wait_for** | See [IAsyncOperation C++/WinRT extension functions](/uwp/api/windows.foundation.iasyncoperation-1#remarks) |
-| **IAsyncOperationWithProgress** | **get**, **wait_for** | See [IAsyncOperationWithProgress C++/WinRT extension functions](/uwp/api/windows.foundation.iasyncoperationwithprogress-2#remarks) |
-| **IBindableIterable** | **begin**, **end** | See [IBindableIterable C++/WinRT extension functions](/uwp/api/windows.ui.xaml.interop.ibindableiterable#remarks) |
-| **IBindableIterator** | **operator++**, **operator++(int)**, **operator\*** | See [IBindableIterator C++/WinRT extension functions](/uwp/api/windows.ui.xaml.interop.ibindableiterator#remarks) |
-| **IBuffer** | **data** | See [IBuffer C++/WinRT extension functions](/uwp/api/windows.storage.streams.ibuffer#remarks) |
-| **IIterable** | **begin**, **end** | See [IIterable C++/WinRT extension functions](/uwp/api/windows.foundation.collections.iiterable-1#remarks) |
-| **IIterator** | **operator++**, **operator++(int)**, **operator\*** | See [IIterator C++/WinRT extension functions](/uwp/api/windows.foundation.collections.iiterator-1#remarks) |
-| **IKeyValuePair** | **operator==** | See [IKeyValuePair C++/WinRT extension functions](/uwp/api/windows.foundation.collections.ikeyvaluepair-2#remarks) |
-| **IMap** | **TryLookup**, **TryRemove** | See [IMap C++/WinRT extension functions](/uwp/api/windows.foundation.collections.imap-2#remarks) |
-| **IMapView** | **TryLookup** | See [IMapView C++/WinRT extension functions](/uwp/api/windows.foundation.collections.imapview-2#remarks) |
+| **IAsyncAction** | **get**, **wait_for** | See [IAsyncAction C++/WinRT extension functions](/uwp/api/windows.foundation.iasyncaction#cwinrt-extension-functions) |
+| **IAsyncActionWithProgress** | **get**, **wait_for** | See [IAsyncActionWithProgress C++/WinRT extension functions](/uwp/api/windows.foundation.iasyncactionwithprogress-1#cwinrt-extension-functions) |
+| **IAsyncOperation** | **get**, **wait_for** | See [IAsyncOperation C++/WinRT extension functions](/uwp/api/windows.foundation.iasyncoperation-1#cwinrt-extension-functions) |
+| **IAsyncOperationWithProgress** | **get**, **wait_for** | See [IAsyncOperationWithProgress C++/WinRT extension functions](/uwp/api/windows.foundation.iasyncoperationwithprogress-2#cwinrt-extension-functions) |
+| **IBindableIterable** | **begin**, **end** | See [IBindableIterable C++/WinRT extension functions](/uwp/api/windows.ui.xaml.interop.ibindableiterable#cwinrt-extension-functions) |
+| **IBindableIterator** | **operator++**, **operator++(int)**, **operator\*** | See [IBindableIterator C++/WinRT extension functions](/uwp/api/windows.ui.xaml.interop.ibindableiterator#cwinrt-extension-functions) |
+| **IBuffer** | **data** | See [IBuffer C++/WinRT extension functions](/uwp/api/windows.storage.streams.ibuffer#cwinrt-extension-functions) |
+| **IIterable** | **begin**, **end** | See [IIterable C++/WinRT extension functions](/uwp/api/windows.foundation.collections.iiterable-1#cwinrt-extension-functions) |
+| **IIterator** | **operator++**, **operator++(int)**, **operator\*** | See [IIterator C++/WinRT extension functions](/uwp/api/windows.foundation.collections.iiterator-1#cwinrt-extension-functions) |
+| **IKeyValuePair** | **operator==** | See [IKeyValuePair C++/WinRT extension functions](/uwp/api/windows.foundation.collections.ikeyvaluepair-2#cwinrt-extension-functions) |
+| **IMap** | **TryLookup**, **TryRemove** | See [IMap C++/WinRT extension functions](/uwp/api/windows.foundation.collections.imap-2#cwinrt-extension-functions) |
+| **IMapView** | **TryLookup** | See [IMapView C++/WinRT extension functions](/uwp/api/windows.foundation.collections.imapview-2#cwinrt-extension-functions) |
 
 ## Other functions
 | Function | Description |
