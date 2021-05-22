@@ -39,7 +39,7 @@ An awaitable object (an object that can be passed to `co_await`). The result of 
 
 **Namespace:** winrt
 
-**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+**Header:** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## See also 
 * [winrt namespace](winrt.md)

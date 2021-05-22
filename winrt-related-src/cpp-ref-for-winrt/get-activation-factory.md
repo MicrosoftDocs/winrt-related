@@ -54,7 +54,7 @@ CurrencyFormatter currency = factory.CreateCurrencyFormatterCode(L"USD");
 
 **Namespace:** winrt
 
-**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+**Header:** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## See also 
 * [winrt namespace](winrt.md)

@@ -38,7 +38,7 @@ A handle, or a raw pointer to a target whose lifetime should be managed by the C
 
 **Namespace:** winrt
 
-**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+**Header:** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## See also 
 * [winrt namespace](winrt.md)

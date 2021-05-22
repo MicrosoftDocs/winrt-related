@@ -41,7 +41,7 @@ A **winrt::guid** function object of type `F`.
 
 **Namespace:** winrt
 
-**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+**Header:** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## See also 
 

@@ -1,9 +1,7 @@
 ---
-
 description: A type representing an agile reference to a C++/WinRT object or interface.
 title: winrt::agile_ref struct template (C++/WinRT)
 dev_langs: ["C++"]
-
 ms.date: 04/19/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, agile
@@ -29,7 +27,7 @@ The type of C++/WinRT object or interface an agile reference to which is represe
 
 **Namespace:** winrt
 
-**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+**Header:** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## Constructors
 |Constructor|Description|

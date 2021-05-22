@@ -40,7 +40,7 @@ The scalar or array value contained inside the reference class object.
 
 **Namespace:** winrt
 
-**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\Windows.Foundation.h
+**Header:** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\Windows.Foundation.h
 
 ## See also 
 * [winrt namespace](winrt.md)

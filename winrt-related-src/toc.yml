@@ -2071,6 +2071,8 @@
       href: cpp-ref-for-winrt/copy-to-abi.md
     - name: "create_instance function template"
       href: cpp-ref-for-winrt/create-instance.md
+    - name: "deferrable_event_args struct template"
+      href: cpp-ref-for-winrt/deferrable-event-args.md
     - name: "delegate struct template"
       href: cpp-ref-for-winrt/delegate.md
     - name: "detach_abi function"

@@ -18,11 +18,19 @@ A helper function&mdash;for use within a coroutine&mdash;that you can `co_await`
 inline auto resume_foreground(
     Windows::UI::Core::CoreDispatcher const& dispatcher,
     Windows::UI::Core::CoreDispatcherPriority const priority = Windows::UI::Core::CoreDispatcherPriority::Normal) noexcept;
+
+inline auto resume_foreground(
+    Windows::System::DispatcherQueue const& dispatcher,
+    Windows::System::DispatcherQueuePriority const priority = Windows::System::DispatcherQueuePriority::Normal) noexcept;
+
+inline auto resume_foreground(
+    Microsoft::System::DispatcherQueue const& dispatcher,
+    Microsoft::System::DispatcherQueuePriority const priority = Microsoft::System::DispatcherQueuePriority::Normal) noexcept;
 ```
 
 ### Parameters
 `dispatcher`
-A **winrt::Windows::UI::Core::CoreDispatcher** whose foreground thread to switch execution to.
+A **winrt::Windows::UI::Core::CoreDispatcher** (or **winrt::Windows::System::DispatcherQueue** or **winrt::Microsoft::System::DispatcherQueue**) whose foreground thread to switch execution to.
 
 `priority`
 Specifies the priority for event dispatch.
@@ -35,7 +43,7 @@ An object that you can `co_await`.
 
 **Namespace:** winrt
 
-**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\Windows.UI.Core.h (not included by default)
+**Header:** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\Windows.UI.Core.h (not included by default), %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\Windows.System.h (not included by default), $(ProjectDir)Generated Files\winrt\Microsoft.System.h (not included by default)
 
 ## See also 
 * [winrt namespace](winrt.md)

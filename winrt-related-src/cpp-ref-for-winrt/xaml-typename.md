@@ -47,7 +47,7 @@ void App::OnLaunched(LaunchActivatedEventArgs const& e)
 
 **Namespace:** winrt
 
-**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\Windows.UI.Xaml.Interop.h (not included by default)
+**Header:** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\Windows.UI.Xaml.Interop.h (not included by default)
 
 ## See also 
 * [winrt namespace](winrt.md)

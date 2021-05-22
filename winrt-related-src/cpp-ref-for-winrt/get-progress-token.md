@@ -25,7 +25,7 @@ inline winrt::get_progress_token_t get_progress_token() noexcept;
 
 **Namespace:** winrt
 
-**Header** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+**Header:** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
 
 ## See also
 * [winrt namespace](winrt.md)
