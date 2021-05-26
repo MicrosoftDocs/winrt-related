@@ -211,7 +211,7 @@ Applications\\Application\\VisualElements\\@SmallLogo
 
 These are the supported background color names:
 
-|                      |                |                 |                   |                 |                 |
+|       Name               |       Name         |     Name            |      Name             |     Name            |    Name             |
 |----------------------|----------------|-----------------|-------------------|-----------------|-----------------|
 | aliceBlue            | antiqueWhite   | aqua            | aquamarine        | azure           | beige           |
 | bisque               | black          | blanchedAlmond  | blue              | blueViolet      | brown           |
@@ -275,7 +275,7 @@ The following example is taken from the package manifest of an SDK sample.
 
 ## Requirements
 
-|               |                                                             |
+|               |       Value                                                      |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/manifest` |
 
