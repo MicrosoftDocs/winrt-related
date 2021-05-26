@@ -94,6 +94,6 @@ Specifies the file format an application can read (convert from).
 ## Examples
 
 ## Requirements
-|               |                                                             |
+|               |   Value                                                          |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

@@ -83,6 +83,6 @@ If there is no value for the DllSurrogate in the [AppId key](/windows/win32/com/
 The **SystemSurrogate** corresponds to the values of the DllSurrogate value of the AppId key. For example, if the DllSurrogate value is `%System32%\prevhost.exe` or `%SysWow64%\prevhost.exe`, then **SystemSurrogate** should be set to `PreviewHost` and the **CustomSurrogateExecutable** should not be set. 
 
 ## Requirements
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/3` |

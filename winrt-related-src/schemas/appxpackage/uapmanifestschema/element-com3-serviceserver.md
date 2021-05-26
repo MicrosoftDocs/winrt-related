@@ -117,6 +117,6 @@ A **ServiceServer** can have one or more class registrations. Multiple class reg
 ```
 
 ## Requirements
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/3` |

@@ -77,6 +77,6 @@ If the extension is under Application/Extensions/Extension, you can improve the 
 
 ## Requirements
 
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
