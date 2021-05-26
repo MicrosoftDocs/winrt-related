@@ -141,6 +141,6 @@ Defines a class registration in a COM server hosted in a Windows service that is
 ```
 
 ## Requirements
-|               |                                                             |
+|               |    Value                                                         |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/3` |

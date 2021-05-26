@@ -262,6 +262,6 @@ For more information about using the **SupportsMultipleInstances** attribute to 
 
 ## Requirements
 
-|   |   |
+|   | Value  |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10`<br/><br/>**desktop4** attributes: `http://schemas.microsoft.com/appx/manifest/desktop/windows10/4`<br/><br/>**uap10** attributes: `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10`<br/><br/>**desktop4** attributes: `http://schemas.microsoft.com/appx/manifest/desktop/windows10/4`<br/><br/>**uap10** attributes: `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |

@@ -139,9 +139,9 @@ Here's an example [**Capabilities**](../appxmanifestschema2010-v2/element-capabi
 
 ## Requirements
 
-|   |   |
+|   | Value  |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
 
 
  
