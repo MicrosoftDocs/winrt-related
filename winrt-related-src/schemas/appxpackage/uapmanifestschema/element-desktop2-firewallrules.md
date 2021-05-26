@@ -56,6 +56,6 @@ Specifies firewall exception rules used by Windows Desktop Bridge apps.
 
 ## Requirements
 
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/2` |

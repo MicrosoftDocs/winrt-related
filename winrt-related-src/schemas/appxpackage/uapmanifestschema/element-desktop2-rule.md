@@ -64,6 +64,6 @@ Defines a firewall exception rule.
 
 ## Requirements
 
-|               |                                                             |
+|               |    Value                                                         |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/2` |

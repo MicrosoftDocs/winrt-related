@@ -61,6 +61,6 @@ Specifies the file type to be registered by the app.
 
 ## Requirements
 
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/2` |

@@ -58,6 +58,6 @@ Enables Windows Desktop Bridge apps to install property handlers on your system.
 | ProcessorArchitecture | The processor architecture. | One of the following: x86, x64, arm, arm64, neutral. | Yes |
 
 ## Requirements
-|               |                                                             |
+|               |    Value                                                         |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/2` |

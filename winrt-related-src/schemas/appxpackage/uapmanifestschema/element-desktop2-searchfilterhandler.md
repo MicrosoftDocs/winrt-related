@@ -77,6 +77,6 @@ Enables Windows Desktop Bridge apps to register IFilters to extract file propert
 
 ## Requirements
 
-|               |                                                             |
+|               |      Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/2` |

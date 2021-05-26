@@ -62,6 +62,6 @@ Registration of a Windows Shell BannersHandler for cloud based placeholder files
 
 ## Requirements
 
-|               |                                                             |
+|               |       Value                                                      |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/3` |

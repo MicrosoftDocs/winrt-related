@@ -64,6 +64,6 @@ A `<desktop2:OleClass>` element can only exist under a `<FileTypeAssociation>` e
 
 ## Requirements
 
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/2` |
