@@ -68,6 +68,6 @@ Contains a list of properties to show under the properties tab of a file.
 
 ## Requirements
 
-|               |                                                             |
+|               |       Value                                                      |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/3` |

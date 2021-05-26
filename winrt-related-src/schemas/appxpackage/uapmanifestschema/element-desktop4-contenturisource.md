@@ -62,6 +62,6 @@ Registration of a Windows Shell ContentUriSource enabling cloud storage provider
 
 ## Requirements
 
-|               |                                                             |
+|               |       Value                                                      |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/4` |

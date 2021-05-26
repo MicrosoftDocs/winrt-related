@@ -77,6 +77,6 @@ For more information about this element, see the remarks for [desktop4:FileExplo
 
 ## Requirements
 
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/4` |

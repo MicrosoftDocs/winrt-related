@@ -113,6 +113,6 @@ The OS uses the `Name` attribute of the [desktop6:InstallAction](element-desktop
 
 ## Requirements
 
-|               |                                                             |
+|               |    Value                                                         |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/6` |

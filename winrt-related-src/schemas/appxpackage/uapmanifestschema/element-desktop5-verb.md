@@ -70,6 +70,6 @@ None.
 
 ## Requirements
 
-|               |                                                             |
+|               |      Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/5` |

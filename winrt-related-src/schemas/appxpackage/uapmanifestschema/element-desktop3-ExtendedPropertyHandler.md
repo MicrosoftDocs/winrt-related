@@ -62,6 +62,6 @@ Registration of a Windows Shell ExtendedPropertyHandler for cloud based placehol
 
 ## Requirements
 
-|               |                                                             |
+|               |       Value                                                      |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/3` |
