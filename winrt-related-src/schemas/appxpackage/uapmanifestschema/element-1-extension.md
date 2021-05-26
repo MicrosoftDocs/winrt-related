@@ -236,6 +236,6 @@ The **windows.certificates** extensibility point can't be declared multiple time
 
 ## Requirements
 
-|   |   |
+|   | Value  |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/foundation/windows10`<br/><br/>`http://schemas.microsoft.com/appx/manifest/uap/windows10/10` (for the **uap10** attributes) |

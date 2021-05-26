@@ -117,7 +117,7 @@ The **UriTemplate** attribute must be a value URI per RFC 3986. It must be an ab
 
 ## Requirements
 
-|               |                                                             |
+|               |   Value                                                          |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2013/manifest` |
 

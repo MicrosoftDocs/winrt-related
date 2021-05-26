@@ -144,7 +144,7 @@ The manifest performs these semantic checks for **VisualElements**, which aren't
 
 ## Requirements
 
-|               |                                                             |
+|               |    Value                                                         |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2013/manifest` |
 
