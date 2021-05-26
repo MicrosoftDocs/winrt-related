@@ -175,7 +175,7 @@ Because **LaunchAction (in AppointmentsProviderLaunchActions)** allows the [**Ex
 
 ## Requirements
 
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2013/manifest` |
 

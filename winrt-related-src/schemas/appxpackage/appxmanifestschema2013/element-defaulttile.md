@@ -180,7 +180,7 @@ The default tile that represents the app on the Start screen. This tile is displ
 
 ## Requirements
 
-|               |                                                             |
+|               |       Value                                                      |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2013/manifest` |
 

@@ -110,7 +110,7 @@ To specify more than one preferred orientation, include multiple [**Rotation**](
 
 ## Requirements
 
-|               |                                                             |
+|               |      Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2013/manifest` |
 

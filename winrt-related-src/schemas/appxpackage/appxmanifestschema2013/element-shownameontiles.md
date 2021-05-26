@@ -108,7 +108,7 @@ This example shows how to use **ShowNameOnTiles**:
 
 ## Requirements
 
-|               |                                                             |
+|               |       Value                                                      |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2013/manifest` |
 

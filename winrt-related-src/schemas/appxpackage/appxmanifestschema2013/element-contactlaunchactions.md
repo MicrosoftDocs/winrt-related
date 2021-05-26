@@ -141,7 +141,7 @@ For more info, see [**ViewSizePreference**](/uwp/api/Windows.UI.ViewManagement.V
 
 ## Requirements
 
-|               |                                                             |
+|               |    Value                                                         |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2013/manifest` |
 

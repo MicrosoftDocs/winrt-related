@@ -96,7 +96,7 @@ For more info about contacts, see [**Windows.ApplicationModel.Contacts**](/uwp/a
 
 ## Requirements
 
-|               |                                                             |
+|               |      Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2013/manifest` |
 
