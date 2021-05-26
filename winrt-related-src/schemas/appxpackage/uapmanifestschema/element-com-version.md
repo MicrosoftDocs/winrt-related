@@ -93,6 +93,6 @@ Version number and additional information about the type library.
 ## Examples
 
 ## Requirements
-|               |                                                             |
+|               |       Value                                                      |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

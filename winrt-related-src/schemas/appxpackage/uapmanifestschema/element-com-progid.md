@@ -79,6 +79,6 @@ For more information on the ProgID, see [&lt;ProgID&gt; Key](/windows/win32/com/
 ## Examples
 
 ## Requirements
-|               |                                                             |
+|               |  Value                                                           |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

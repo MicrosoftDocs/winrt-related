@@ -73,6 +73,6 @@ A path to the 64-bit type library.
 ## Examples
 
 ## Requirements
-|               |                                                             |
+|               |    Value                                                         |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

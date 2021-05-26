@@ -84,6 +84,6 @@ Specifies that an application can read and write files.
 ## Examples
 
 ## Requirements
-|               |                                                             |
+|               |    Value                                                         |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

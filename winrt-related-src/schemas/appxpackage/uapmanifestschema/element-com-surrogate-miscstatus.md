@@ -79,6 +79,6 @@ Specifies how to create and display an object.
 ## Examples
 
 ## Requirements
-|               |                                                             |
+|               |        Value                                                     |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

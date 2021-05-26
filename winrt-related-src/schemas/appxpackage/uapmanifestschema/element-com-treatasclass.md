@@ -72,6 +72,6 @@ A registration that corresponds to a CLSID registration with the TreatAs subkey.
 ## Examples
 
 ## Requirements
-|               |                                                             |
+|               |      Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

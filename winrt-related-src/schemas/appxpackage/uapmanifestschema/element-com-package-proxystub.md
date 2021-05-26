@@ -78,6 +78,6 @@ A proxy stub element must have either a Path attribute or one or more ProxyStubD
 ## Examples
 
 ## Requirements
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

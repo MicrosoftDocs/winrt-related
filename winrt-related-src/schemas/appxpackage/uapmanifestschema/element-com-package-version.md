@@ -87,6 +87,6 @@ For more information about type libraries and the attributes on this page, see [
 ## Examples
 
 ## Requirements
-|               |                                                             |
+|               |      Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

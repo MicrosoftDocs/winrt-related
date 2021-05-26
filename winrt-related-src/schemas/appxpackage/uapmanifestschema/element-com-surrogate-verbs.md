@@ -80,6 +80,6 @@ Specifies the verbs to be registered for an application.
 ## Examples
 
 ## Requirements
-|               |                                                             |
+|               |      Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
