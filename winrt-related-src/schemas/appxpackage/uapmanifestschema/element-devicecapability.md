@@ -182,9 +182,9 @@ For more examples, see [How to specify device capabilities in a package manifest
 
 ## Requirements
 
-|   |   |
+|   | Value  |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
 
 
  

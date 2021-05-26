@@ -131,9 +131,9 @@ Declares a function for a device that is associated with the [**DeviceCapability
 
 ## Requirements
 
-|   |   |
+|   | Value  |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
 
 
  

@@ -61,7 +61,7 @@ This element requires the **unvirtualizedResources** [restricted capability](/wi
 
 ## Requirements
 
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/6` |
 

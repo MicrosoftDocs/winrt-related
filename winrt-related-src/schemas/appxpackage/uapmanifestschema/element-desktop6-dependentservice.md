@@ -84,6 +84,6 @@ This element requires the **packagedServices** or **localSystemServices** [restr
 
 ## Requirements
 
-|               |                                                             |
+|               |    Value                                                         |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/6` |

@@ -113,6 +113,6 @@ This element requires the **customInstallActions** [restricted capability](/wind
 
 ## Requirements
 
-|               |                                                             |
+|               |      Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/6` |
