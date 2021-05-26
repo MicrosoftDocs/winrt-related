@@ -126,7 +126,7 @@ For more information on size requirements of the logo, see [Asset size tables](/
 
 ## Requirements
 
-|               |                                                             |
+|               |      Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/manifest` |
 
