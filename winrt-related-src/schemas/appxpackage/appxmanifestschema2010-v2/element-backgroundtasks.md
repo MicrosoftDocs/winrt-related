@@ -128,7 +128,7 @@ Extensions of type "windows.backgroundTask" must specify either a StartPage or E
 
 ## Requirements
 
-|               |                                                             |
+|               |    Value                                                         |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/manifest` |
 

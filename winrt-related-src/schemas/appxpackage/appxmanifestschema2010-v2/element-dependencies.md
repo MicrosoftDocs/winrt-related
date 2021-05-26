@@ -109,7 +109,7 @@ Dependencies must be explicitly defined. If a dependency cannot be resolved, dep
 
 ## Requirements
 
-|               |                                                             |
+|               |     Value                                                        |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/manifest` |
 
