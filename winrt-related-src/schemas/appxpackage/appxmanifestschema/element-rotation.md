@@ -126,7 +126,7 @@ To specify more than one preferred orientation, include multiple **Rotation** el
 
 ## Requirements
 
-|               |                                                             |
+|               |      Value                                                       |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/manifest` |
 

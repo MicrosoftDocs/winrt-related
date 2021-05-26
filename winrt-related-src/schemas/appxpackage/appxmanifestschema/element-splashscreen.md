@@ -139,7 +139,7 @@ Applications\\Application\\VisualElements\\SplashScreen\\@Image
 
 The following are supported background color names:
 
-|                      |                |                 |                   |                 |                 |
+|   Name                   |  Name              |    Name             |     Name              |     Name            |     Name            |
 |----------------------|----------------|-----------------|-------------------|-----------------|-----------------|
 | aliceBlue            | antiqueWhite   | aqua            | aquamarine        | azure           | beige           |
 | bisque               | black          | blanchedAlmond  | blue              | blueViolet      | brown           |
@@ -175,7 +175,7 @@ The following are supported background color names:
 
 ## Requirements
 
-|               |                                                             |
+|               |    Value                                                         |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/manifest` |
 
