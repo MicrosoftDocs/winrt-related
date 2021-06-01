@@ -82,6 +82,9 @@ unsealed runtimeclass StateTriggerBase
 
 ## The `[default_overload]` attribute
 
+> [!NOTE]
+> This attribute is not supported for constructors. If you can't overload your constructors by arity, then you can define overloaded factory methods such as the **CreateFromUri** and **CreateFromStream** examples shown in the last code snippet in this section.
+
 The `default_overload` attribute represents the [**DefaultOverloadAttribute**](/uwp/api/windows.foundation.metadata.defaultoverloadattribute) class, which indicates that a method is the default overload method. This section walks you through the *reason* for, and usage guidelines for, the `[default_overload]` attribute.
 
 You can freely overload Windows Runtime methods by *arity*. That is, you can define multiple methods with the same name, as long as each one takes a different number of arguments. For usability purposes, we recommend that you add new parameters to the end, and that the behavior of the shorter-parameter-list function be equivalent to calling the longer-parameter-list function with (scenario-specific) natural defaults for the missing parameters.
