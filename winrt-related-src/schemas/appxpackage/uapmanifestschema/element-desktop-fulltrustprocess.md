@@ -65,6 +65,6 @@ For more details, see [FullTrustProcessLauncher](/uwp/api/windows.applicationmod
 
 ## Requirements
 
-|               |                                                             |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10` |
+| Item  | Value  |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10` |

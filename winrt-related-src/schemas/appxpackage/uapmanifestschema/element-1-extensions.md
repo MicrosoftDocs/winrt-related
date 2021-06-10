@@ -124,7 +124,7 @@ Extensibility points are a mechanism by which an app can add functionality in a 
 
 ## Requirements
 
-|   | Value  |
+| Item  | Value  |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
 
