@@ -213,7 +213,7 @@ For more info about launch actions that an appointments provider takes, see [**A
 
 ## Requirements
 
-|   |  Value |
+| Item  | Value  |
 |--|--|
 | Namespace | `	http://schemas.microsoft.com/appx/manifest/uap/windows10` |
 

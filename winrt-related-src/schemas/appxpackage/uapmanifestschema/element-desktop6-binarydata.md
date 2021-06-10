@@ -69,7 +69,7 @@ Specifies binary data for a trigger event of a service.
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
-| File | The name of the package file that contains the binary data (as an array of bytes). | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", /|, ?, or *. | Yes |
+| File | The name of the package file that contains the binary data (as an array of bytes). | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", \|, ?, or *. | Yes |
 
 
 ### Child Elements

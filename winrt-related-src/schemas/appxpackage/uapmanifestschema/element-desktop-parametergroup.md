@@ -70,6 +70,6 @@ For more details, see [LaunchFullTrustProcessForAppAsync](/uwp/api/windows.appli
 
 ## Requirements
 
-|               |                                                             |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10` |
+| Item  | Value  |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10` |

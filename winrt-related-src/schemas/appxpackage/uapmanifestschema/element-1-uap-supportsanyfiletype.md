@@ -118,7 +118,7 @@ None.
 
 ## Requirements
 
-|   | Value  |
+| Item  | Value  |
 |--|--|
 | Namespace | `	http://schemas.microsoft.com/appx/manifest/uap/windows10` |
 

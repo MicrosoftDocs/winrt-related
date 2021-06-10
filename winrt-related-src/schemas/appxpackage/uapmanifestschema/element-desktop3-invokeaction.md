@@ -68,7 +68,7 @@ Contains content and device information for invoking an AutoPlay action.
 |-----------|-------------|-----------|----------|
 | ActionDisplayName | A string that represents the action that users can take with a device that they connect to a PC (For example: "Import files", or "Play video"). | A string between 1 and 256 characters in length. | Yes |
 | ProviderDisplayName | A string that represents your app or service (For example: "Contoso video player"). | A string between 1 and 256 characters in length. | Yes |
-| DefaultIcon | A path to either an .ico file or a resource in a binary file for the default icon.  | A string between 1 and 256 characters in length that cannot contain these characters: &lt;, &gt;, :, %, ", |, ?, or *. | No |
+| DefaultIcon | A path to either an .ico file or a resource in a binary file for the default icon.  | A string between 1 and 256 characters in length that cannot contain these characters: &lt;, &gt;, :, %, ", \|, ?, or *. | No |
 
 
 

@@ -67,6 +67,7 @@ A type library for an interface.
 ## Examples
 
 ## Requirements
-|               |                                                             |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
+
+| Item  | Value  |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

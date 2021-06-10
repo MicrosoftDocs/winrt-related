@@ -140,10 +140,13 @@ In ISF, the tags are "represented" by GUIDS. Using GUIDS guarantees that the tag
 >
 > Size of Stream
 >>
->> | TAG_GUID_TABLE | |
+>> TAG_GUID_TABLE
+>>
+>> Size of GUID_TABLE data
+>>
+>> | Item | Description |
 >> | --- | --- |
->> | Size of GUID_TABLE data | |
->> | Tag0 | GUID value for Tag |
+>> | Tag0 | GUID value for Tag0 |
 >> | Tag1 | GUID value for Tag1 |
 >
 > Tag0
@@ -621,7 +624,7 @@ This above example list has two properties. The property Foo1 is "attached" to t
 
 This section now illustrates a more complex ISF example using some of the tags and concepts from the preceding section. The example below describes an ink object with three strokes where one of the strokes contains pressure values and the others do not:
 
-| | |
+| Value | Description |
 |---|---|
 |0 |ISFVersion number, set to zero|
 |cbInkObject |Size of the whole object|
@@ -1285,8 +1288,8 @@ GUID_TIME_STAMP // stored as 64 bit value
 
 ### MICROSOFT WORD EXAMPLE
 
-|  |  |
-| ----------------------------------- | ----------------------------------- |
+| Value | Description |
+|--|--
 | 0                                 | WISP Version number, set to zero  |
 | cbInkObject                       | Size of the whole object and all its children |
 | TAG\_INK\_SPACE\_RECTANGLE        | Word used the rectangle Width X 64K |

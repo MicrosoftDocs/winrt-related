@@ -78,6 +78,7 @@ Registers new COM Interfaces.
 ## Examples
 
 ## Requirements
-|               |                                                             |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
+
+| Item  | Value  |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
