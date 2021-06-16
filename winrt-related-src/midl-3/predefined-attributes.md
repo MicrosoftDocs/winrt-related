@@ -171,7 +171,7 @@ runtimeclass Widget
 
 Now both creation patterns are available to all languages.
 
-Also see [Method overloading](/uwp/winrt-cref/winrt-type-system#method-overloading) and [Class-based projection](/uwp/winrt-cref/winrt-type-system#class-based-projection).
+Also see [Method overloading](../winrt-cref/winrt-type-system.md#method-overloading) and [Class-based projection](../winrt-cref/winrt-type-system.md#class-based-projection).
 
 ## The `[interface_name]` attribute
 The `interface_name` attribute specifies the name and IID of the
