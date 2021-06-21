@@ -138,6 +138,7 @@ Extension functions exist on the C++/WinRT projection types for certain Windows 
 | **IKeyValuePair** | **operator==** | See [IKeyValuePair C++/WinRT extension functions](/uwp/api/windows.foundation.collections.ikeyvaluepair-2#cwinrt-extension-functions) |
 | **IMap** | **TryLookup**, **TryRemove** | See [IMap C++/WinRT extension functions](/uwp/api/windows.foundation.collections.imap-2#cwinrt-extension-functions) |
 | **IMapView** | **TryLookup** | See [IMapView C++/WinRT extension functions](/uwp/api/windows.foundation.collections.imapview-2#cwinrt-extension-functions) |
+| **IMemoryBufferReference** | **data** | See [IMemoryBufferReference C++/WinRT extension functions](/uwp/api/windows.foundation.imemorybufferreference#cwinrt-extension-functions) |
 
 ## Other functions
 | Function | Description |
