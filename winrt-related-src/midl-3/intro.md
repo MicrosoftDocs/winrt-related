@@ -1050,7 +1050,7 @@ struct Point
 {
     Int32 x;
     Int32 y;
-}
+};
 ```
 
 Now, only one object is instantiated&mdash;the array object itself. The **Point** elements are stored in line inside the array; a memory arrangement that processor caches are able to use to powerful effect.
