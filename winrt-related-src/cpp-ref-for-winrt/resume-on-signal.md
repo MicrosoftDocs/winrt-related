@@ -43,4 +43,4 @@ An awaitable object (an object that can be passed to `co_await`). The result of 
 
 ## See also 
 * [winrt namespace](winrt.md)
-* [More advanced concurrency and asynchrony with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/concurrency-2)
+* [Advanced concurrency and asynchrony with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/concurrency-2)
