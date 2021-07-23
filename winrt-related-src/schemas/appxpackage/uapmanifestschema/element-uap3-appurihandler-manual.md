@@ -9,7 +9,7 @@ keywords: windows 10, uwp, schema, package manifest
 
 
 ms.topic: reference
-ms.date: 04/05/2017
+ms.date: 07/23/2021
 ---
 
 # uap3:AppUriHandler
@@ -68,7 +68,7 @@ Declares an app extensibility point of type **windows.appUriHandler**.
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
-| desktop2:Paramters | Specifies how to pass the URI handler into the app. %1 is a token that specifies the full path. | String format of parameters, e.g. "/L %1" | No |
+| desktop2:Parameters | Specifies how to pass the URI handler into the app. %1 is a token that specifies the full path. | String format of parameters, e.g. "/L %1" | No |
 | uap7:Name | A friendly name for the app URI handler. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
 
 **Child Elements**
