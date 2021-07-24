@@ -171,7 +171,7 @@ Here's some alternatives to user interface APIs that cannot be used in a UWP app
 |-------------------------------------------|-----------------------------------------------------------------------|
 Common controls | HTML, XAML |
 DDE/NetDDE | none |
-DWM | [Windows.UI.Composition](/uwp/api/windows.ui.composition)] |
+DWM | [Windows.UI.Composition](/uwp/api/windows.ui.composition) |
 File Open, File Save | [Windows.Storage.Pickers.FileOpenPicker](/uwp/api/Windows.Storage.Pickers.FileOpenPicker)<br />[Windows.Storage.Pickers.FileSavePicker](/uwp/api/Windows.Storage.Pickers.FileSavePicker) |
 IMM | TSF |
 Magnifier | none |
