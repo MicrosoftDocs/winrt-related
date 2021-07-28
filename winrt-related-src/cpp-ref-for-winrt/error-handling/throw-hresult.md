@@ -36,3 +36,4 @@ An HRESULT code that represents the error that was encountered.
 * [winrt namespace](../winrt.md)
 * [winrt::hresult_error struct](hresult-error.md)
 * [Error handling with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/error-handling)
+* [What’s the difference between throwing a winrt::hresult_error and using winrt::throw_hresult?](https://devblogs.microsoft.com/oldnewthing/20210716-00/?p=105448)
