@@ -1,8 +1,6 @@
 ---
-
 description: This topic describes how the MIDL 3.0 compiler synthesizes and adds interfaces, as necessary.
 title: Synthesizing interfaces (MIDL 3.0)
-
 ms.date: 01/30/2019
 ms.topic: reference
 keywords: windows 10, uwp, winrt, api, reference, idl, midl, 3.0, 3, midl3
@@ -212,24 +210,24 @@ runtimeclass Area : Windows.Foundation.IStringable
 }
 ```
 
-### Overrideable members
+### Overridable members
 
-In the example below, **Volume** (which derives from **Area**) has the overrideable member **DoOverrideableWork**.
+In the example below, **Volume** (which derives from **Area**) has the overridable member **DoOverridableWork**.
 
 ```idl
 runtimeclass Volume : Area
 {
-    overridable void DoOverrideableWork();
+    overridable void DoOverridableWork();
 }
 ```
 
-The overrideable member is not part of any overrideable interface that **Area** implements. So, the compiler synthesizes an interface for it named, by default, I&lt;*className*&gt;Overrides. If this interface name is already in use, then the compiler appends an integer numeral suffix (starting with 2), until it locates an unused name.
+The overridable member is not part of any overridable interface that **Area** implements. So, the compiler synthesizes an interface for it named, by default, I&lt;*className*&gt;Overrides. If this interface name is already in use, then the compiler appends an integer numeral suffix (starting with 2), until it locates an unused name.
 
 In the case of the MIDL above, the compiler
 
 - synthesizes the **IAreaOverrides** interface,
 - adds an `exclusiveto` attribute to the synthesized interface, specifying that the interface can only be referenced by the runtime class, and
-- adds an `overrideable` attribute to the runtime class, specifying that the class implements the overrideable interface **IAreaOverrides**.
+- adds an `overridable` attribute to the runtime class, specifying that the class implements the overridable interface **IAreaOverrides**.
 
 So, the MIDL above can be interpreted like this.
 
@@ -237,10 +235,10 @@ So, the MIDL above can be interpreted like this.
 [exclusiveto(Area)]
 interface IAreaOverrides
 {
-    void DoOverrideableWork();
+    void DoOverridableWork();
 }
 
-[overrideable(IAreaOverrides)]
+[overridable(IAreaOverrides)]
 runtimeclass Area : Windows.Foundation.IStringable
 {
 }
