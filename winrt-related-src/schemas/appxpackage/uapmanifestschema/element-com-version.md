@@ -87,10 +87,8 @@ Version number and additional information about the type library.
 | [Win64Path](element-com-win64path.md) | A path to the 64-bit type library. |
 
 ## Remarks
-> [!NOTE]  
-> You must specify both a Win32Path and a Win64Path.
 
-## Examples
+You must specify either a Win32Path or a Win64Path, and can specify both. Generating and registering both 32-bit and 64-bit formats for a type library can improve performance if its interfaces are used from client processes of both 32-bit and 64-bit architectures.
 
 ## Requirements
 |               |       Value                                                      |
