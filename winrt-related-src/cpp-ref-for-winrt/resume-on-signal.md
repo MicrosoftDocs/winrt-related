@@ -28,7 +28,7 @@ auto resume_on_signal(
 A handle to the kernel event to wait on. You're responsible for ensuring that this handle remains valid until your `co_await` of the function completes.
 
 `timeout`
-An optional timeout value. If you pass a timeout of 0, that's treated as infinite. If you pass a negative timeout, **resume_on_signal** immediately times out.
+An optional timeout value. If you pass a timeout of 0, that's treated as infinite. Behavior is undefined if you pass a negative timeout.
 
 ### Return value 
 
