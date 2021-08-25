@@ -11,7 +11,7 @@ ms.workload: ["cplusplus"]
 
 # winrt::try_capture function template (C++/WinRT)
 
-A function template that calls a specified function or method (automatically calling [winrt::check_hresult](./error-handling/check-hresult.md) on it), captures the interface pointer that's output from the function or method, and returns it as a [winrt::com_ptr](./com-ptr.md) or an empty **com_ptr** if not successful.
+A function template that calls a specified function or method (automatically calling [winrt::check_hresult](./error-handling/check-hresult.md) on it), captures the interface pointer that's output from the function or method, and returns it as the template parameter `typename T` if `T` derives from **Windows::Foundation::IUnknown**, otherwise, returns a [winrt::com_ptr](./com-ptr.md). Returns an empty **com_ptr** if not successful.
 
 Also see the [winrt::com_ptr::try_capture function](./com-ptr.md#com_ptrtry_capture-function).
 
@@ -19,13 +19,13 @@ Also see the [winrt::com_ptr::try_capture function](./com-ptr.md#com_ptrtry_capt
 
 ```cppwinrt
 template <typename T, typename F, typename...Args>
-winrt::com_ptr<T> try_capture(F function, Args&& ...args);
+impl::com_ref<T> try_capture(F function, Args&& ...args);
 
 template <typename T, typename O, typename M, typename...Args>
-winrt::com_ptr<T> try_capture(O* p, M method, Args&& ...args);
+impl::com_ref<T> try_capture(O* p, M method, Args&& ...args);
 
 template <typename T, typename O, typename M, typename...Args>
-winrt::com_ptr<T> try_capture(com_ptr<O> const& object, M method, Args&& ...args);
+impl::com_ref<T> try_capture(com_ptr<O> const& object, M method, Args&& ...args);
 ```
 
 ### Template parameters
@@ -61,6 +61,10 @@ A method (implemented by `O`) of type `M`.
 
 `args`
 Zero or more arguments of type `Args`.
+
+### Return value
+
+Returns `T` if `T` derives from **Windows::Foundation::IUnknown**, otherwise, returns [winrt::com_ptr](./com-ptr.md). Returns an empty **com_ptr** if not successful.
 
 ### Remarks
 

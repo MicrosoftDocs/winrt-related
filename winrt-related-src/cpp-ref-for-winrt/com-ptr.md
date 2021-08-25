@@ -135,6 +135,8 @@ A raw pointer that owns a reference to its target.
 ## com_ptr::capture function
 Calls a specified function or method (automatically calling [winrt::check_hresult](./error-handling/check-hresult.md) on it), and captures the interface pointer that's output from the function or method as a `void**`.
 
+Also see the [winrt::capture function template](./capture.md).
+
 ### Syntax
 ```cppwinrt
 template <typename F, typename...Args>
@@ -283,6 +285,8 @@ A **com_ptr** referencing the requested interface, or a strongly-typed smart poi
 
 ## com_ptr::try_capture function
 A version of [com_ptr::capture](#com_ptrcapture-function) that doesn't throw on failure but instead returns returns `true` if successful or `false` if not.
+
+Also see the [winrt::try_capture function template](./try-capture.md).
 
 ## com_ptr::operator bool
 Checks whether or not the smart pointer is referencing an interface or object. If the smart pointer is not referencing an interface or object, then it is logically null; otherwise it is logically not null.
