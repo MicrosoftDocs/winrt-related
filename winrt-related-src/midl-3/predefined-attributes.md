@@ -128,7 +128,7 @@ To resolve the ambiguity, you need to apply the `[default_overload]` attribute t
 
 You should choose the default overload so that the functionality of the non-default overloads is still available by other means, typically by one of the other overloads.
 
-In the **DeviceInformation.CreateWatcher** example, the functionality of the **String** overload can be obtained by calling the **String**, **IIterable<String>** overload, and passing an empty list of properties. On the other hand, the **DeviceClass** overload is the only way to create a **DeviceWatcher** that is filtered to a **DeviceClass**.
+In the **DeviceInformation.CreateWatcher** example, the functionality of the **String** overload can be obtained by calling the **String**, **IIterable\<String>** overload, and passing an empty list of properties. On the other hand, the **DeviceClass** overload is the only way to create a **DeviceWatcher** that is filtered to a **DeviceClass**.
 
 That makes the **DeviceClass** method the clear winner. So you indicate that by applying the `[default_overload]` attribute to that overload.
 

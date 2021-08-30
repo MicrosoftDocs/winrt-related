@@ -57,7 +57,7 @@ Enables OLE to get the OLE class registered for a given file extension.
 ## Attributes
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
-| Clsid | The ID of a COM class registered in the [<ComServer>](element-com-comserver.md) element.| A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |
+| Clsid | The ID of a COM class registered in the [\<ComServer\>](element-com-comserver.md) element.| A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |
 
 ## Remarks
 A `<desktop2:OleClass>` element can only exist under a `<FileTypeAssociation>` element that is defined with an `<Application>` element that has: EntryPoint="windows.FullTrustApplication".

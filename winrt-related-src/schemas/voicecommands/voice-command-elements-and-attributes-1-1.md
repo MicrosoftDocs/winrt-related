@@ -55,8 +55,8 @@ The root element is the **VoiceCommands** element, and its **xmlns** attribute m
 <td><p>Required (1 to 10) child element of the <strong>Command</strong> element. </p>
 <p>Contains a word or phrase that your app will recognize for this command. This may include or be a reference to a <strong>PhraseList</strong> (or <strong>PhraseTopic</strong>) element's <strong>Label</strong> attribute, which appears in the <strong>ListenFor</strong> element enclosed in curly braces, for example: {myList}, or {myTopic}. </p>
 <p>The content of any <strong>ListenFor</strong> elements can be recognized to activate the command. </p>
-<p>Use brackets around a word or words that are optional. That is, the word or words can be spoken, but are not necessary for a match. For example, `<ListenFor>[Show] {options}</ListenFor>`.</p>
-<p>You can set up wildcard functionality by including an asterisk character inside a pair of curly braces, such as `<ListenFor> Find {*} </ListenFor>`. In this example, the voice command will match as long as the user speaks "Find", optionally followed by any other word or phrase. If the voice command for a wildcard-enabled <strong>ListenFor</strong> element is matched, the  <a href="https://msdn.microsoft.com/library/windows/apps/windows.media.speechrecognition.speechrecognitionresult.text"><strong >SpeechRecognitionResult.Text</strong></a> property will contain the string "…" in the same position as the wildcard.</p></td>
+<p>Use brackets around a word or words that are optional. That is, the word or words can be spoken, but are not necessary for a match. For example, <code>&lt;ListenFor&gt;[Show] {options}&lt;/ListenFor&gt;</code>.</p>
+<p>You can set up wildcard functionality by including an asterisk character inside a pair of curly braces, such as <code>&lt;ListenFor&gt; Find {*} &lt;/ListenFor&gt;</code>. In this example, the voice command will match as long as the user speaks "Find", optionally followed by any other word or phrase. If the voice command for a wildcard-enabled <strong>ListenFor</strong> element is matched, the  <a href="https://msdn.microsoft.com/library/windows/apps/windows.media.speechrecognition.speechrecognitionresult.text"><strong >SpeechRecognitionResult.Text</strong></a> property will contain the string "…" in the same position as the wildcard.</p></td>
 </tr>
 <tr>
 <td colspan="2">Feedback</td>
@@ -81,7 +81,7 @@ Navigate</td><td>Required child element of the <strong>Command</strong> element.
 <td colspan="2">PhraseTopic</td>
 <td><p>Optional child of the <strong>CommandSet</strong> element. Specifies a topic for large vocabulary recognition. The topic may specify a single (0 or 1) <strong>Scenario</strong> attribute  and several (0 to 20) <strong>Subject</strong> child elements for the scenario, which may be used to improve the relevance of the recognition achieved. A <strong>PhraseTopic</strong> requires the <strong>Label</strong> attribute, the value of which may appear—enclosed by curly braces—inside <strong>ListenFor</strong> or <strong>Feedback</strong> elements, and is used to reference the <strong>PhraseTopic</strong>.</p>
 <p>The <strong>Scenario</strong> attribute (default "Dictation") specifies the desired scenario for this <strong>PhraseTopic</strong>, which may optimize the underlying speech recognition of voice commands using the <strong>PhraseTopic</strong> to produce results that are better-suited to the desired context of the command. Valid values are "Natural Language", "Search", "Short Message", "Dictation", "Commands", and "Form Filling".</p>
-<p>The <strong>Subject</strong> child elements  specify a subject specific to the <strong>Scenario</strong> attribute of the parent <strong>PhraseTopic</strong> to further refine the relevance of speech recognition results within spoken commands using the <strong>PhraseTopic</strong>. Subjects will be evaluated in the order provided and, when appropriate, later-specified subjects will constrain earlier-specified ones. Valid inner text values are "Date/Time", "Addresses", "City/State", "Person Names", "Movies", "Music", and "Phone Number". For example: `<Subject>Phone Number</Subject>`</p>
+<p>The <strong>Subject</strong> child elements  specify a subject specific to the <strong>Scenario</strong> attribute of the parent <strong>PhraseTopic</strong> to further refine the relevance of speech recognition results within spoken commands using the <strong>PhraseTopic</strong>. Subjects will be evaluated in the order provided and, when appropriate, later-specified subjects will constrain earlier-specified ones. Valid inner text values are "Date/Time", "Addresses", "City/State", "Person Names", "Movies", "Music", and "Phone Number". For example: <code>&lt;Subject&gt;Phone Number&lt;/Subject&gt;</code> </p>
 <p>In your app, to find out the content spoken in the subset of a <strong>ListenFor</strong> element represented by a <strong>PhraseTopic</strong> reference, you can access the <a href="/uwp/api/Windows.Media.SpeechRecognition.SpeechRecognitionSemanticInterpretation"><strong>SpeechRecognitionSemanticInterpretation.Properties</strong></a> dictionary using a key with the same value as the <strong>Label</strong> of the <strong>PhraseTopic</strong>.</p>
 </td>
 </tr>
@@ -102,7 +102,6 @@ Navigate</td><td>Required child element of the <strong>Command</strong> element.
 <td>Designates that the enclosed word or phrase is optional. The enclosed word or phrase may be spoken but is not required to be recognized to initiate the command. For example, if the contents of a <strong>ListenFor</strong> element are "[start] [begin] new game", the user can speak "start new game" or "new game" or "begin new game" (or even "start begin new game") to initiate the command. Each bracketed element is independently optional, but they must be spoken in the correct order to be recognized. So, in the "new game" example, "start begin new game" would work, but "begin start new game" would not work because of the order in which they were declared.</td></tr>
 </table>
 
- 
 
 ## See also
 
@@ -112,12 +111,10 @@ Navigate</td><td>Required child element of the <strong>Command</strong> element.
 
 [Cortana interactions](https://dev.microsoft.com/cortana)
 
-**Designers**  
+**Designers**
+
 [Cortana design guidelines](/cortana/voice-commands/voicecommand-design-guidelines)
 
-**Samples**  
+**Samples**
+
 [Cortana voice command sample](https://go.microsoft.com/fwlink/p/?LinkID=619899)
-
- 
-
- 

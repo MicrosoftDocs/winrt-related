@@ -43,7 +43,7 @@ The root element is the **VoiceCommands** element, and its **xmlns** attribute m
 </td>
 </tr>
 <tr>
-<td rowspan="2" valign="middle" style="background-color:#FBEFEF"><strong>Mutually exclusive</strong></td>
+<td rowspan="2" valign="middle"><strong>Mutually exclusive</strong></td>
 <td>CommandPrefix</td>
 <td><p>Optional child element of the <strong>CommandSet</strong> element. If present, must be the first child element of the <strong>CommandSet</strong> element.</p>
 <p>Specifies a user-friendly name for an app that a user can speak when giving a voice command. This is useful for apps with names that are long or are difficult to pronounce.</p>
@@ -91,7 +91,7 @@ The root element is the **VoiceCommands** element, and its **xmlns** attribute m
 <td colspan="2">Feedback</td>
 <td>Required child element of the <strong>Command</strong> element. Specifies the text that will be displayed and read back to the user when the command is recognized. If the <strong>Feedback</strong> element includes a reference to a <strong>Label</strong> attribute of a <strong>PhraseList</strong> (or <strong>PhraseTopic</strong>) element, then every <strong>ListenFor</strong> element in the containing <strong>Command</strong> element must also reference the same <strong>Label</strong> attribute of the <strong>PhraseList</strong> (or <strong>PhraseTopic</strong>) element.</td></tr>
 <tr>
-<td rowspan="2" valign="middle" style="background-color:#FBEFEF"><strong>Mutually exclusive</strong></td>
+<td rowspan="2" valign="middle"><strong>Mutually exclusive</strong></td>
 <td>Navigate</td><td>Required child element of the <strong>Command</strong> element, unless the <strong>Command</strong> element has a <strong>VoiceCommandService</strong> child element. The <strong>Target</strong> attribute is optional and is typically used to specify the page that the app should navigate to when it launches. You can obtain the value of the <strong>Target</strong> attribute (or the empty string if you omit the <strong>Target</strong> attribute) from the <a href="/uwp/api/Windows.Media.SpeechRecognition.SpeechRecognitionSemanticInterpretation"><strong>SpeechRecognitionSemanticInterpretation.Properties</strong></a> dictionary using the "NavigationTarget" key.</td>
 </tr>
 <tr>
