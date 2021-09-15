@@ -154,14 +154,14 @@ Represents an app that comprises part of or all of the functionality delivered i
 </tr>
 <tr class="even">
 <td><strong>uap10:TrustLevel</strong></td>
-<td><p>Specifies the trust level of the app. This attribute is used for <a href="/windows/uwp/launch-resume/hosted-apps">hosted apps</a>.</p></td>
+<td><p>Specifies the trust level of the app.</p></td>
 <td>String value. Can be one of the following: "appContainer", "mediumIL". </td>
 <td>No</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><strong>uap10:RuntimeBehavior</strong></td>
-<td><p>Specifies the run time behavior of the app. This attribute is used for <a href="/windows/uwp/launch-resume/hosted-apps">hosted apps</a>.</p></td>
+<td><p>Specifies the run time behavior of the app.</p></td>
 <td>String value. Can be one of the following: "windowsApp", "packagedClassicApp", "win32App". </td>
 <td>No</td>
 <td></td>
