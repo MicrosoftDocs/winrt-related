@@ -193,6 +193,12 @@
             href: schemas/appxpackage/uapmanifestschema/element-desktop6-uninstallactions.md
           - name: "desktop6:UninstallAction"
             href: schemas/appxpackage/uapmanifestschema/element-desktop6-uninstallaction.md
+          - name: "desktop9:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop9-package-extension.md
+          - name: "desktop9:FileExplorerClassicContextMenuHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop9-fileexplorerclassiccontextmenuhandler.md
+          - name: "desktop9:FileExplorerClassicDragDropContextMenuHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop9-fileexplorerclassicdragdropcontextmenuhandler.md
           - name: "Extension"
             href: schemas/appxpackage/uapmanifestschema/element-extension.md
           - name: "InProcessServer"
