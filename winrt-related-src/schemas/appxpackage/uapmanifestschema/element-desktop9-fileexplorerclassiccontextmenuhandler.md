@@ -18,15 +18,26 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 Registers a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) implementation of a context menu handler shell extension for a packaged desktop app.
 
 ## Element Hierarchy
+
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
 <dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
+<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
 <dd>
 <dl>
-<dt><a href="element-desktop9-package-extension.md">&lt;desktop9:Extension&gt;</a></dt>
+<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-desktop9-extension.md">&lt;desktop9:Extension&gt;</a></dt>
 <dd><b>&lt;desktop9:FileExplorerClassicContextMenuHandler&gt;</b></dd>
+</dl>
+</dd>
+</dl>
+</dd>
 </dl>
 </dd>
 </dl>
