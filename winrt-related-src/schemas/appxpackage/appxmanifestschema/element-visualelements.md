@@ -1,5 +1,5 @@
 ---
-description: Describes the visual aspects of the UWP app.
+description: Describes the visual aspects of the UWP app (Windows 8).
 Search.Product: eADQiWindows 10XVcnh
 title: VisualElements (Windows 8 package schema)
 ms.assetid: f0db5141-8aba-4ac4-939f-4fe3debcc761

@@ -1,5 +1,5 @@
 ---
-description: Defines the file types that the app can share.
+description: Defines the file types that the app can share (Windows 8.1, child of ShareTarget).
 Search.Product: eADQiWindows 10XVcnh
 title: 'SupportedFileTypes (Windows 8.1 extensions schema, child of ShareTarget)'
 ms.assetid: f5706357-708f-4d3e-bbca-15272e6b77dc

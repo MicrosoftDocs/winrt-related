@@ -1,6 +1,6 @@
 ---
 title: com2:ComServer
-description: Declares a package extension point of type windows.comServer.
+description: Declares a package extension point of type windows.comServer (com2:ComServer).
 ms.date: 04/04/2020
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com

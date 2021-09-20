@@ -1,5 +1,5 @@
 ---
-description: Defines the access string for a context in the Packet Data Protocol (PDP) context policy.
+description: Defines the access string for a context in the Packet Data Protocol (PDP) context policy (descendant of PDPContextPolicy).
 Search.Product: eADQiWindows 10XVcnh
 title: AccessString (CarrierControlSchema_v2 schema, descendant of PDPContextPolicy)
 ms.assetid: 10801ce9-abca-4eb4-95ae-0865961e3d2b

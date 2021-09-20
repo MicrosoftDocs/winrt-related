@@ -1,5 +1,5 @@
 ---
-description: Defines a value representing the data limit in MB for a capped plan.
+description: Defines a value representing the data limit in MB for a capped plan (in Plan/Description).
 Search.Product: eADQiWindows 10XVcnh
 title: DataLimitInMegabytes (Plans schema)
 ms.assetid: f780b511-6b64-40f4-83a5-c9f116f65351

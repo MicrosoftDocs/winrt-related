@@ -1,5 +1,5 @@
 ---
-description: Defines selection criteria for the certificates defined for the package.
+description: Defines selection criteria for the certificates defined for the package (Windows 8.1).
 Search.Product: eADQiWindows 10XVcnh
 title: SelectionCriteria (Windows 8.1 extensions schema)
 ms.assetid: 5f3d9db3-5b2d-44ec-9607-dcc15f0854b5

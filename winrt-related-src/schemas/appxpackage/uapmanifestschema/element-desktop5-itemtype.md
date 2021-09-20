@@ -1,7 +1,7 @@
 ---
 
 title: desktop5:ItemType
-description: Contains the type of command to be registered in the context menu.
+description: Contains the type of command to be registered in the context menu (desktop5:ItemType).
 
 ms.date: 10/03/2018
 ms.topic: reference

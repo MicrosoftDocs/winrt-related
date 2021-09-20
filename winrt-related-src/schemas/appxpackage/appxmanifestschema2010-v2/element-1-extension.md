@@ -1,5 +1,5 @@
 ---
-description: Declares an extensibility point for the package.
+description: Declares an extensibility point for the package (Windows 8.1).
 Search.Product: eADQiWindows 10XVcnh
 title: 'Extension (Windows 8.1 extensions schema, in type: CT\_PackageExtensions)'
 ms.assetid: e25d664a-67e8-4a22-a666-1b11286b58f3

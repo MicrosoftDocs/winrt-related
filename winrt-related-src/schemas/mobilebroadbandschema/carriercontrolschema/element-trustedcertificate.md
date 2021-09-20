@@ -1,5 +1,5 @@
 ---
-description: Defines a unique subscriber account identifier to which this provisioning attempt applies.
+description: Defines a unique subscriber account identifier to which this provisioning attempt applies (in CarrierProvisioning/Provisioning).
 Search.Product: eADQiWindows 10XVcnh
 title: TrustedCertificate (CarrierControlSchema schema)
 ms.assetid: 97eae84a-4357-462b-b516-3099916839c6

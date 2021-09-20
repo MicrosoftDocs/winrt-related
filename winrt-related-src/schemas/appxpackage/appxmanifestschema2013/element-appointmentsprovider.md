@@ -1,6 +1,6 @@
 ---
 title: AppointmentsProvider
-description: Declares an app extensibility point of type windows.appointmentsProvider.
+description: Declares an app extensibility point of type windows.appointmentsProvider (in Extension/AppointmentsProvider).
 Search.Product: eADQiWindows 10XVcnh
 ms.assetid: 12e4d422-dbbc-41c0-8511-b87eb343b2cf
 

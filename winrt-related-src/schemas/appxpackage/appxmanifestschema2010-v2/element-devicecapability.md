@@ -1,5 +1,5 @@
 ---
-description: Declares a device capability required by a package.
+description: Declares a device capability required by a package (Windows 8.1 extensions schema).
 Search.Product: eADQiWindows 10XVcnh
 title: DeviceCapability (Windows 8.1 extensions schema)
 ms.assetid: 4353c4fd-f038-4986-81ed-d2ec0c6235ef

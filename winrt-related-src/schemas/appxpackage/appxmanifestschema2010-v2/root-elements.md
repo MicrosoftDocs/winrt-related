@@ -1,5 +1,5 @@
 ---
-description: Summarizes the allowed hierarchies for the app package manifest for Windows 8.1 apps schema.
+description: Summarizes the allowed element hierarchies for the app package manifest for Windows 8.1 apps schema.
 Search.Product: eADQiWindows 10XVcnh
 title: Element Hierarchy (Windows 8.1 extensions schema)
 ms.assetid: 5dfced88-48fd-4bf6-963c-7ab090b3e26e

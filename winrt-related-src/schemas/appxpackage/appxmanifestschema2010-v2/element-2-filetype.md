@@ -1,5 +1,5 @@
 ---
-description: A file type specified as its file type extension.
+description: A file type specified as its file type extension (Windows 8.1, descendant of FileOpenPicker).
 Search.Product: eADQiWindows 10XVcnh
 title: 'FileType (Windows 8.1 extensions schema, descendant of FileOpenPicker)'
 ms.assetid: a3792047-9fbf-42d5-b629-0025717d0323

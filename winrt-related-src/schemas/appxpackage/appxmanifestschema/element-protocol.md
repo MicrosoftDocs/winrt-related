@@ -1,5 +1,5 @@
 ---
-description: Declares an app extensibility point of type windows.protocol.
+description: Declares an app extensibility point of type windows.protocol (Windows 8).
 Search.Product: eADQiWindows 10XVcnh
 title: Protocol (Windows 8 package schema)
 ms.assetid: ac911c85-02eb-408c-8c4b-24a4e172df8b

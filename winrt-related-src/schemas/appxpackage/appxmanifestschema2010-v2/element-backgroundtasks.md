@@ -1,5 +1,5 @@
 ---
-description: Defines an app extensibility point of type windows.backgroundTasks.
+description: Defines an app extensibility point of type windows.backgroundTasks (Windows 8.1).
 Search.Product: eADQiWindows 10XVcnh
 title: BackgroundTasks (extensions schema for Windows 8.1)
 ms.assetid: 0e9cbbc5-3852-4158-87e7-12ea87be62e7

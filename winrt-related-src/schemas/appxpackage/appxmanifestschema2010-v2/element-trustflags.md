@@ -1,5 +1,5 @@
 ---
-description: Indicates whether the certificates for the package are exclusive to the package.
+description: Indicates whether the certificates for the package are exclusive to the package (Windows 8.1).
 Search.Product: eADQiWindows 10XVcnh
 title: TrustFlags (Windows 8.1 extensions schema)
 ms.assetid: 44ea0d79-4774-4152-8f69-c5d9ff9287aa

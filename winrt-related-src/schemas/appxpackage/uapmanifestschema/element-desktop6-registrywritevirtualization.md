@@ -1,5 +1,5 @@
 ---
-description: Indicates whether...
+description: Indicates whether virtualization for the registry is enabled for your desktop application.
 title: desktop6:RegistryWriteVirtualization
 
 

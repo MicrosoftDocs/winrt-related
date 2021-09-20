@@ -2,7 +2,7 @@
 
 ms.assetid: 92d6f9b0-dc05-47d6-bd5f-8d0667325e6f
 title: com:Aspect (in ExeServer/Class)
-description: Specifies the desired data or view aspect of the object when drawing or getting data.
+description: Specifies the desired data or view aspect of the object when drawing or getting data (in ExeServer/Class).
 
 ms.date: 03/29/2017
 ms.topic: reference

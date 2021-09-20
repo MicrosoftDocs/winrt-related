@@ -1,5 +1,5 @@
 ---
-description: Indicates whether the package is a framework package.
+description: Indicates whether the package is a framework package (Windows 8.1).
 Search.Product: eADQiWindows 10XVcnh
 title: Framework (Windows 8.1 extensions schema)
 ms.assetid: 2a8e1c58-b079-4ef1-ae62-c27bb3f5a469

@@ -1,5 +1,5 @@
 ---
-description: Advises Windows Update (WU) that security updates are exempt from being counted as data usage against the subscriber’s plan.
+description: Advises Windows Update (WU) that security updates are exempt from being counted as data usage against the subscriber’s plan (Plans schema).
 Search.Product: eADQiWindows 10XVcnh
 title: SecurityUpdatesExempt (Plans schema)
 ms.assetid: 332b9140-c78a-45e2-ad4c-b0ab1be52ada

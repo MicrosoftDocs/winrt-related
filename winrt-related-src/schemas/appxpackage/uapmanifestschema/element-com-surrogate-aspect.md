@@ -2,7 +2,7 @@
 
 ms.assetid: 2023c216-5faa-432e-9d03-796705436eb6
 title: com:Aspect (in SurrogateServer/Class)
-description: Specifies the desired data or view aspect of the object when drawing or getting data.
+description: Specifies the desired data or view aspect of the object when drawing or getting data (in SurrogateServer/Class).
 
 ms.date: 03/29/2017
 ms.topic: reference

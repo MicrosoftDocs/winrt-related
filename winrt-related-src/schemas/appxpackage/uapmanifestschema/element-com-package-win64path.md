@@ -2,7 +2,7 @@
 
 ms.assetid: a79b9fa6-60bd-40d2-80b7-bac80d439e84
 title: com:Win64Path (in Package/Extensions)
-description: A path to the 64-bit type library.
+description: A path to the 64-bit type library (in Package/Extensions).
 
 ms.date: 03/29/2017
 ms.topic: reference

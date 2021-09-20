@@ -1,5 +1,5 @@
 ---
-description: Specifies a data package format such as text or HTML format that the app can share.
+description: Specifies a data package format such as text or HTML format that the app can share (Windows 10).
 Search.Product: eADQiWindows 10XVcnh
 title: uap:DataFormat (Windows 10)
 ms.assetid: 348b61e7-ecbd-42ea-8a82-81ef85e728cb

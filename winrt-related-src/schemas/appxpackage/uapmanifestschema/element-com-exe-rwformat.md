@@ -2,7 +2,7 @@
 
 ms.assetid: 65f3026d-b53f-448e-abb3-5f8826a01af5
 title: com:Format (in ExeServer/Class)
-description: Specifies the file format an application can read and write (activate as).
+description: Specifies the file format an application can read and write (activate as) (in ExeServer/Class).
 
 ms.date: 03/29/2017
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: Contains any errors from processing the Activation element from the last provisioning attempt.
+description: Contains any errors from processing the Activation element from the last provisioning attempt (ResultsSchema_v2 schema).
 
 Search.Product: eADQiWindows 10XVcnh
 title: Activation (ResultsSchema_v2 schema)

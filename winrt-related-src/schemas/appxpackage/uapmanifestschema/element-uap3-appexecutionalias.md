@@ -1,6 +1,6 @@
 ---
 title: uap3:AppExecutionAlias
-description: Specifies the application's execution alias to determine the executable of the app to be activated.
+description: Specifies the application's execution alias to determine the executable of the app to be activated (uap3:AppExecutionAlias).
 ms.date: 04/04/2004
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 

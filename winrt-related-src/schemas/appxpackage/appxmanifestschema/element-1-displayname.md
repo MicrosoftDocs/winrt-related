@@ -1,5 +1,5 @@
 ---
-description: A friendly name that can be displayed to users.
+description: A friendly name that can be displayed to users (Windows 8, child of FileTypeAssociation).
 Search.Product: eADQiWindows 10XVcnh
 title: DisplayName (Windows 8 package schema, child of FileTypeAssociation)
 ms.assetid: 3c16ea92-5f60-4d15-ac7d-8fc8fee3a51f

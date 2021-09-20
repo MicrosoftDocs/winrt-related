@@ -1,5 +1,5 @@
 ---
-description: Defines a schema extension point container for future additions.
+description: Defines a schema extension point container for future additions (child of DefaultProfile).
 Search.Product: eADQiWindows 10XVcnh
 title: Extensions (WWAN schema, child of DefaultProfile)
 ms.assetid: 837ae066-b590-4f58-b552-2e9d608f0fac

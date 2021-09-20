@@ -1,5 +1,5 @@
 ---
-description: Defines the context of a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file.
+description: Defines the context of a Packet Data Protocol (PDP) context policy in a subscriber's carrier provisioning file (child of PDPContextPolicy).
 Search.Product: eADQiWindows 10XVcnh
 title: Context (CarrierControlSchema_v2 schema, child of PDPContextPolicy)
 ms.assetid: ddf2b145-59b3-46bf-a297-6992f00a06e0

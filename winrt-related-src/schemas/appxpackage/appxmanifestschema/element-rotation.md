@@ -1,5 +1,5 @@
 ---
-description: Specifies a single rotational orientation in which an app will display.
+description: Specifies a single rotational orientation in which an app will display (Windows 8).
 Search.Product: eADQiWindows 10XVcnh
 title: Rotation (Windows 8 package schema)
 ms.assetid: 0e351d87-2ff0-4e9e-b3ea-6a6254d4c1c4

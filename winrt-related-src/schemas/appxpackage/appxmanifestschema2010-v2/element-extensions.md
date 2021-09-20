@@ -1,5 +1,5 @@
 ---
-description: Defines one or more extensibility points for the package.
+description: Defines one or more extensibility points for the package (Windows 8.1).
 Search.Product: eADQiWindows 10XVcnh
 title: 'Extensions (Windows 8.1 extensions schema, child of Package)'
 ms.assetid: 837ae066-b590-4f58-b552-2e9d608f0fac

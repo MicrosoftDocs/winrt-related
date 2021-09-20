@@ -2,7 +2,7 @@
 
 ms.assetid: 152ab966-bf59-4b40-83b6-1a653f9361f9
 title: com:DataFormats (in SurrogateServer/Class)
-description: Specifies the default and main data formats supported by an application.
+description: Specifies the default and main data formats supported by an application (in SurrogateServer/Class).
 
 ms.date: 03/29/2017
 ms.topic: reference

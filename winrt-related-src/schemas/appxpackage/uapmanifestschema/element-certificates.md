@@ -1,5 +1,5 @@
 ---
-description: Declares a package extensibility point of type windows.certificates.
+description: Declares a package extensibility point of type windows.certificates (Windows 10).
 Search.Product: eADQiWindows 10XVcnh
 title: Certificates (Windows 10)
 ms.assetid: 378edcd3-b9ef-46db-9a56-94470451829e

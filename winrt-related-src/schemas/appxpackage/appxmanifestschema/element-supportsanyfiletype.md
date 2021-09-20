@@ -1,5 +1,5 @@
 ---
-description: Indicates whether all file types are supported for sharing.
+description: Indicates whether all file types are supported for sharing (package schema for Windows 8, descendant of ShareTarget).
 Search.Product: eADQiWindows 10XVcnh
 title: SupportsAnyFileType (Windows 8 package schema, descendant of ShareTarget)
 ms.assetid: be446c1e-2be7-47eb-8ac9-9dd32733465a

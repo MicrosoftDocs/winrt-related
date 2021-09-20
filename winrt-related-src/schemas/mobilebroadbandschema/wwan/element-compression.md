@@ -1,5 +1,5 @@
 ---
-description: Defines if the packet header and data transferred over the connection is compressed.
+description: Defines if the packet header and data transferred over the connection is compressed (descendant of DefaultProfile).
 Search.Product: eADQiWindows 10XVcnh
 title: Compression (WWAN schema, descendant of DefaultProfile)
 ms.assetid: 7ef80c21-07a1-46d7-b6fe-e276fde61e39

@@ -1,5 +1,5 @@
 ---
-description: Contains the name of the subscriber's data plan.
+description: Contains the name of the subscriber's data plan (WWAN schema, descendant of PurchaseProfile).
 Search.Product: eADQiWindows 10XVcnh
 title: AssociatedPlan (WWAN schema, descendant of PurchaseProfile)
 ms.assetid: 982defaf-4870-4bca-bbc9-6d780d61ebf7

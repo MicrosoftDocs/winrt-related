@@ -1,5 +1,5 @@
 ---
-description: A file type specified as its file type extension.
+description: A file type specified as its file type extension (Windows 8, descendant of FileSavePicker).
 Search.Product: eADQiWindows 10XVcnh
 title: 'FileType (Windows 8 package schema, descendant of FileSavePicker)'
 ms.assetid: c6bb4d70-ee2f-41a5-a45f-2e99991f202c

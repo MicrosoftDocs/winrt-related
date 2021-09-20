@@ -1,5 +1,5 @@
 ---
-description: Declares an app extensibility point of type windows.autoPlayContent.
+description: Declares an app extensibility point of type windows.autoPlayContent (Windows 8.1).
 Search.Product: eADQiWindows 10XVcnh
 title: AutoPlayContent (extensions schema for Windows 8.1)
 ms.assetid: 35cf3998-2a45-4ecc-91a5-13d328b0b649

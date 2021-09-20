@@ -1,5 +1,5 @@
 ---
-description: Defines a brief description of the profile.
+description: Defines a brief description of the profile (child of PurchaseProfile).
 Search.Product: eADQiWindows 10XVcnh
 title: Description (WWAN schema, child of PurchaseProfile)
 ms.assetid: aeed21e9-1fdd-458b-9e2d-46cbc545669e

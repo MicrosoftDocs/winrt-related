@@ -1,5 +1,5 @@
 ---
-description: The path to the executable.
+description: The path to the executable (Windows 8).
 Search.Product: eADQiWindows 10XVcnh
 title: 'Path (Windows 8 package schema, child of OutOfProcessServer)'
 ms.assetid: f3fe9184-f270-4050-b444-ec37a596b993

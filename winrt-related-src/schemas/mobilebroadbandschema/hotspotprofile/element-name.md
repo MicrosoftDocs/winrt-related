@@ -1,5 +1,5 @@
 ---
-description: Defines the SSID of a wireless LAN in alphanumeric format.
+description: Defines the SSID of a wireless LAN in alphanumeric format (in HotspotProfile/SSIDConfig).
 Search.Product: eADQiWindows 10XVcnh
 title: name
 ms.assetid: 388d0dc5-d9a8-48f3-96ce-ebd5262894ed

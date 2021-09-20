@@ -1,5 +1,5 @@
 ---
-description: Contains any errors from processing the PurchaseProfile element from the last provisioning attempt.
+description: Contains any errors from processing the PurchaseProfile element from the last provisioning attempt (ResultsSchema_v2 schema).
 Search.Product: eADQiWindows 10XVcnh
 title: PurchaseProfile (ResultsSchema_v2 schema)
 ms.assetid: 66b0d844-5469-4e94-b364-72638ac4212a

@@ -1,7 +1,7 @@
 ---
 
 title: uap7:Extension
-description: Declares an extensibility point for the app.
+description: Declares an extensibility point for the app (uap7:Extension).
 
 ms.date: 10/03/2018
 ms.topic: reference

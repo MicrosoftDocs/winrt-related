@@ -1,7 +1,7 @@
 ---
 ms.assetid: ae4a725d-10f9-4e03-a579-c3db2d859a9f
 title: com:Extension (Windows 10)
-description: Provides functionality to expose COM registrations to clients outside of the app package.
+description: Provides functionality to expose COM registrations to clients outside of the app package (com:Extension).
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com

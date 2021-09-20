@@ -1,7 +1,7 @@
 ---
 
 title: desktop5:Verb
-description: Names and class IDs of the commands registered in the Shell for a file explorer context menu.
+description: Names and class IDs of the commands registered in the Shell for a file explorer context menu (desktop5:Verb).
 
 ms.date: 10/03/2018
 ms.topic: reference

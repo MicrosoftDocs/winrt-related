@@ -1,5 +1,5 @@
 ---
-description: Declares other packages that a package depends on to complete its software.
+description: Declares other packages that a package depends on to complete its software (Windows 8.1).
 Search.Product: eADQiWindows 10XVcnh
 title: Dependencies (extensions schema for Windows 8.1)
 ms.assetid: a1e745c9-a804-42cf-a107-7fb860cc8289

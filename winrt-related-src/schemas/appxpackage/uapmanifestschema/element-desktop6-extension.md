@@ -1,7 +1,7 @@
 ﻿---
 
 title: desktop6:Extension (in Package/Applications)
-description: Declares an extensibility point for the app.
+description: Declares an extensibility point for the app (in Package/Applications; desktop6:Extension).
 
 ms.date: 04/19/2019
 ms.topic: reference

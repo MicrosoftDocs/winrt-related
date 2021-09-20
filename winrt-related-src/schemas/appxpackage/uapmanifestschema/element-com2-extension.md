@@ -1,6 +1,6 @@
 ---
 title: com2:Extension (Windows 10)
-description: Provides functionality to expose COM registrations to clients outside of the app package.
+description: Provides functionality to expose COM registrations to clients outside of the app package (com2:Extension).
 ms.date: 04/20/2020
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com

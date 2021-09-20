@@ -1,5 +1,5 @@
 ---
-description: The package manifest is an XML document that contains the info the system needs to deploy, display, or update a Windows app.
+description: The package manifest is an XML document that contains the info the system needs to deploy, display, or update a Windows app (previous versions). 
 title: Previous app package manifest schema versions
 
 

@@ -1,5 +1,5 @@
 ---
-description: Declares languages, resolution scales, and DirectX feature levels for the resources that the package contains.
+description: Declares languages, resolution scales, and DirectX feature levels for the resources that the package contains (descendant of Packages).
 Search.Product: eADQiWindows 10XVcnh
 title: Resources (Bundle schema, descendant of Packages)
 ms.assetid: 45ce3dac-3888-452b-bc10-8775b158637a

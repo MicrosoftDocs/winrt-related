@@ -2,7 +2,7 @@
 
 ms.assetid: 58caaa08-f7ea-4f9c-ad83-2fb3b7c317c3
 title: com:Format (in SurrogateServer/Class, child of com:Readable)
-description: Specifies the file format an application can read (convert from).
+description: Specifies the file format an application can read (convert from) (in SurrogateServer/Class).
 
 ms.date: 03/29/2017
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: Declares a capability required by a package.
+description: Declares a capability required by a package (Windows 8.1).
 Search.Product: eADQiWindows 10XVcnh
 title: Capability (extensions schema for Windows 8.1)
 ms.assetid: ee6bf220-f139-4ad9-a7a7-e621c189b907

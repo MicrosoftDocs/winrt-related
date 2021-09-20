@@ -1,5 +1,5 @@
 ---
-description: Defines an attribute of the class that is stored in the Windows Runtime property store.
+description: Defines an attribute of the class that is stored in the Windows Runtime property store (Windows 10, descendant of OutOfProcessServer).
 Search.Product: eADQiWindows 10XVcnh
 title: ActivatableClassAttribute (Windows 10, descendant of OutOfProcessServer)
 ms.assetid: 74ca4fd4-1a67-4e1f-b933-89b2ffa2fa17

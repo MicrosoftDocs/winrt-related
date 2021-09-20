@@ -2,7 +2,7 @@
 
 ms.assetid: 3c95a0bb-546f-4b73-8194-eb491af54a8b
 title: com:DefaultIcon (in ExeServer/Class)
-description: Provides default icon information for iconic presentations of objects.
+description: Provides default icon information for iconic presentations of objects (in ExeServer/Class).
 
 ms.date: 03/29/2017
 ms.topic: reference

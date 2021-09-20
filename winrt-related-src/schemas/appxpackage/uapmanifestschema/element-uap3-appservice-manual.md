@@ -1,5 +1,5 @@
 ---
-description: Declares an app extensibility point of type windows.appService.
+description: Declares an app extensibility point of type windows.appService (uap3:AppService).
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:AppService
 ms.assetid: 1a5170ca-cd60-4102-a451-b4d9ad81a6e7

@@ -1,7 +1,7 @@
 ﻿---
 
 title: desktop6:DataItem
-description: Specifies one or more string data values for a trigger event of a service.
+description: Specifies one or more string data values for a trigger event of a service (desktop6:DataItem).
 
 ms.date: 04/19/2019
 ms.topic: reference

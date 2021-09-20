@@ -1,5 +1,5 @@
 ---
-description: A friendly description that can be displayed to users.
+description: A friendly description that can be displayed to users (Windows 10).
 Search.Product: eADQiWindows 10XVcnh
 title: Description (Windows 10)
 ms.assetid: e113111a-1d9b-4d04-bd86-86beece204dd

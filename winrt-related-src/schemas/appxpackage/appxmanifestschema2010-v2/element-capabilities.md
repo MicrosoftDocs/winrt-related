@@ -1,5 +1,5 @@
 ---
-description: Declares the access to protected user resources that the package requires.
+description: Declares the access to protected user resources that the package requires (Windows 8.1).
 Search.Product: eADQiWindows 10XVcnh
 title: Capabilities (extensions schema for Windows 8.1)
 ms.assetid: 508b9a46-3dd4-4bce-875b-fb7cadadceb1

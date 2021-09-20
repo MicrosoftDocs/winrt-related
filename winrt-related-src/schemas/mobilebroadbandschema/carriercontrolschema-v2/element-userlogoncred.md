@@ -1,5 +1,5 @@
 ---
-description: Defines the user login credentials for a context in the Packet Data Protocol (PDP) context policy.
+description: Defines the user login credentials for a context in the Packet Data Protocol (PDP) context policy (descendant of PDPContextPolicy).
 Search.Product: eADQiWindows 10XVcnh
 title: UserLogonCred (CarrierControlSchema_v2 schema, descendant of PDPContextPolicy)
 ms.assetid: 0d8748d5-a1e7-4535-a5cc-9c9f380eed32

@@ -2,7 +2,7 @@
 
 ms.assetid: 917fe36f-091e-4374-9ead-5755f1cce72b
 title: desktop2:Extension (in Package/Applications)
-description: Declares an extensibility point for the app.
+description: Declares an extensibility point for the app (in Package/Applications; desktop2:Extension).
 
 ms.date: 04/05/2017
 ms.topic: reference

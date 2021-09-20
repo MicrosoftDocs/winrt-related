@@ -1,5 +1,5 @@
 ---
-description: Specifies the type of info the user sees when opening a file associated to the extensibility point.
+description: Specifies the type of info the user sees when opening a file associated to the extensibility point (Windows 8.1).
 Search.Product: eADQiWindows 10XVcnh
 title: EditFlags (extensions schema for Windows 8.1)
 ms.assetid: 0f77fddc-bb6d-4d5e-9d15-577a2e5fcfff

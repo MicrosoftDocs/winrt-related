@@ -2,7 +2,7 @@
 
 ms.assetid: 76724c44-654c-4536-85f3-5d86cc4395a3
 title: com:ReadWritable (in SurrogateServer/Class)
-description: Specifies that an application can read and write files.
+description: Specifies that an application can read and write files (in SurrogateServer/Class).
 
 ms.date: 03/29/2017
 ms.topic: reference

@@ -2,7 +2,7 @@
 
 ms.assetid: dd72b83e-83cc-4a2d-8b96-fb9579bcfcb9 
 title: com:Win64Path (in ComInterface/TypeLib)
-description: A path to the 64-bit type library.
+description: A path to the 64-bit type library (in ComInterface/TypeLib).
 
 ms.date: 03/29/2017
 ms.topic: reference

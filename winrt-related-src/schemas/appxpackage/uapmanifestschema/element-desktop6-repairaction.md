@@ -1,7 +1,7 @@
 ﻿---
 
 title: desktop6:RepairAction
-description: Specifies an installer file (.exe or .msi) that is run when the user selects the repair or reset options in the Settings page for your desktop application.
+description: Specifies an installer file (.exe or .msi) that is run when the user selects the repair or reset options in the Settings page for your desktop application (desktop6:RepairAction).
 
 ms.date: 01/22/2020
 ms.topic: reference

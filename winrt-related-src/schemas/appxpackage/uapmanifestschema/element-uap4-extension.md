@@ -2,7 +2,7 @@
 
 ms.assetid: c589d7a3-8588-4dbd-bc8b-9fd54c639e01
 title: uap4:Extension
-description: Declares an extensibility point for the app.
+description: Declares an extensibility point for the app (uap4:Extension).
 
 ms.date: 04/05/2017
 ms.topic: reference

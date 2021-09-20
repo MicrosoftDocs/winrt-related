@@ -1,5 +1,5 @@
 ---
-description: A supported file type specified as its file type extension.
+description: A supported file type specified as its file type extension (Windows 8.1, descendant of FileTypeAssociation).
 Search.Product: eADQiWindows 10XVcnh
 title: 'FileType (Windows 8.1 extensions schema, descendant of FileTypeAssociation)'
 ms.assetid: ee9a5cc3-18aa-458e-88aa-b1000c35abd3

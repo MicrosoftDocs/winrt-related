@@ -2,7 +2,7 @@
 
 ms.assetid: acf329e3-a99a-42db-8a2a-068eb9ffa28b
 title: ContentGroup (Automatic\ContentGroup)
-description: Specifies the automatic content group.
+description: Specifies the automatic content group (Automatic\ContentGroup).
 
 ms.date: 03/29/2017
 ms.topic: article

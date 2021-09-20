@@ -1,5 +1,5 @@
 ---
-description: Indicates whether the package is a resource package.
+description: Indicates whether the package is a resource package (Windows 10).
 Search.Product: eADQiWindows 10XVcnh
 title: ResourcePackage (Windows 10)
 ms.assetid: 51cabad7-a2eb-4fa3-ab52-59298555aefb

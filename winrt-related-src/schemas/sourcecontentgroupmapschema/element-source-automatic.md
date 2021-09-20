@@ -2,7 +2,7 @@
 
 ms.assetid: e773d01c-0c0a-4220-a616-edcfa43ca322 
 title: Automatic (source schema)
-description: The automatic content group.
+description: The automatic content group (source schema).
 
 ms.date: 03/29/2017
 ms.topic: article

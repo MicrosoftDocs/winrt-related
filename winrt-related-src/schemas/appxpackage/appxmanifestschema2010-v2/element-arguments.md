@@ -1,5 +1,5 @@
 ---
-description: Specifies the list of comma-separated arguments to pass to the executable.
+description: Specifies the list of comma-separated arguments to pass to the executable (Windows 8.1).
 Search.Product: eADQiWindows 10XVcnh
 title: Arguments (extension schema for Windows 8.1)
 ms.assetid: d4cb3513-8c57-4449-9c3b-469047d2a4c4

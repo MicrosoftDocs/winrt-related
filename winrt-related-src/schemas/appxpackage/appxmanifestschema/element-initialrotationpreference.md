@@ -1,5 +1,5 @@
 ---
-description: Describes the orientations in which the app would prefer to be shown for the best user experience.
+description: Describes the orientations in which the app would prefer to be shown for the best user experience (Windows 8).
 Search.Product: eADQiWindows 10XVcnh
 title: InitialRotationPreference (Windows 8 package schema)
 ms.assetid: 0f03085b-0bbc-4e1c-adda-565bb6287b15

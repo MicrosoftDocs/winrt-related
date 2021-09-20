@@ -2,7 +2,7 @@
 
 ms.assetid: b0bb03e0-67c6-484c-bf7b-de21ef24df66
 title: com:Interface (descendant of com:Extension)
-description: Registers new COM Interfaces.
+description: Registers new COM Interfaces (descendant of com:Extension).
 
 ms.date: 03/29/2017
 ms.topic: reference

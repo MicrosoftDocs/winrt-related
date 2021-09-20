@@ -1,6 +1,6 @@
 ---
 title: uap10:Extension
-description: Declares an extensibility point for the app.
+description: Declares an extensibility point for the app (uap10:Extension).
 ms.date: 03/05/2020
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, extension 

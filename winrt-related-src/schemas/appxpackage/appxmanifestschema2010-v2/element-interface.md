@@ -1,5 +1,5 @@
 ---
-description: Declares an interface associated with the proxy.
+description: Declares an interface associated with the proxy (Windows 8.1).
 Search.Product: eADQiWindows 10XVcnh
 title: Interface (Windows 8.1 extensions schema)
 ms.assetid: 5b5c6b0c-a9d1-4e0c-a71c-40744a12c4e7

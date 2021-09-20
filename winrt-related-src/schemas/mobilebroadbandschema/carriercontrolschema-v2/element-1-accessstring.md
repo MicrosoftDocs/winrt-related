@@ -1,5 +1,5 @@
 ---
-description: Defines the access string for a context in the Packet Data Protocol (PDP) context policy.
+description: Defines the access string for a context in the Packet Data Protocol (PDP) context policy (descendant of TetheringProfile).
 Search.Product: eADQiWindows 10XVcnh
 title: AccessString (CarrierControlSchema_v2 schema, descendant of TetheringProfile)
 ms.assetid: 86cd5d68-ef31-4a85-b3e2-3132c39f6bc4

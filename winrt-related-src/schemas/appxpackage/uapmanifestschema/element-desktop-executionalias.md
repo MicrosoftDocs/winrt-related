@@ -1,6 +1,6 @@
 ---
 title: desktop:ExecutionAlias
-description: The executable of a UWP app to be activated from a command prompt.
+description: The executable of a UWP app to be activated from a command prompt (desktop:ExecutionAlias).
 ms.date: 04/21/2020
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 

@@ -1,5 +1,5 @@
 ---
-description: Contains any errors from processing the SubscriberId element from the last provisioning attempt.
+description: Contains any errors from processing the SubscriberId element from the last provisioning attempt (ResultsSchema schema).
 Search.Product: eADQiWindows 10XVcnh
 title: Subscriber (ResultsSchema schema)
 ms.assetid: 042c6321-1f60-4097-8f31-5e442954603b

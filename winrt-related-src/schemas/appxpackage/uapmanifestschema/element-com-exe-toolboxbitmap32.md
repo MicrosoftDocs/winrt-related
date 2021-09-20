@@ -2,7 +2,7 @@
 
 ms.assetid: 04d8934f-e032-4b10-b119-343c07364163
 title: com:ToolboxBitmap32 (in ExeServer/Class)
-description: Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button.
+description: Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button (in ExeServer/Class).
 
 ms.date: 03/29/2017
 ms.topic: reference

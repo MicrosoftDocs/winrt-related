@@ -1,5 +1,5 @@
 ---
-description: Defines whether compression is enabled for a context in the Packet Data Protocol (PDP) context policy.
+description: Defines whether compression is enabled for a context in the Packet Data Protocol (PDP) context policy (descendant of PDPContextPolicy).
 Search.Product: eADQiWindows 10XVcnh
 title: Compression (CarrierControlSchema_v2 schema, descendant of PDPContextPolicy)
 ms.assetid: 7ef80c21-07a1-46d7-b6fe-e276fde61e39

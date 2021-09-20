@@ -1,5 +1,5 @@
 ---
-description: Defines the password used to authenticate a user.
+description: Defines the password used to authenticate a user (descendant of DefaultProfile).
 Search.Product: eADQiWindows 10XVcnh
 title: Password (WWAN schema, descendant of DefaultProfile)
 ms.assetid: a7a63a7c-31d7-42bb-8e04-557306980baf

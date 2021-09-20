@@ -1,5 +1,5 @@
 ---
-description: Describes whether Windows overlays the app’s name on top of the tile images that are shown on the Start screen.
+description: Describes whether Windows overlays the app's name on top of the tile images that are shown on the Start screen (in Package/Applications).
 Search.Product: eADQiWindows 10XVcnh
 title: uap:ShowNameOnTiles (Windows 10)
 ms.assetid: 883c601d-00b2-4903-996d-6cbab8801acd

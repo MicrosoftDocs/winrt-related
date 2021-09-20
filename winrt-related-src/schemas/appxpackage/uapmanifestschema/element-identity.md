@@ -1,5 +1,5 @@
 ---
-description: Defines a globally unique identifier for a package.
+description: Defines a globally unique identifier for a package Windows 10).
 Search.Product: eADQiWindows 10XVcnh
 title: Identity (Windows 10)
 ms.assetid: 45524773-3b61-44ac-a417-cfaac92af0a0

@@ -1,6 +1,6 @@
 ---
 title: desktop:Extension
-description: Declares an extensibility point for the app.
+description: Declares an extensibility point for the app (desktop:Extension).
 ms.date: 05/10/2021
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 

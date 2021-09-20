@@ -1,5 +1,5 @@
 ---
-description: Contains any errors from processing the MBNProfiles element from the last provisioning attempt.
+description: Contains any errors from processing the MBNProfiles element from the last provisioning attempt (ResultsSchema_v2 schema).
 Search.Product: eADQiWindows 10XVcnh
 title: MBNProfiles (ResultsSchema_v2 schema)
 ms.assetid: 10f5eab7-7e8c-4162-95e5-f1b5b793e0d8

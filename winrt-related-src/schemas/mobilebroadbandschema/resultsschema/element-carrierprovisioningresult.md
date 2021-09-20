@@ -1,5 +1,5 @@
 ---
-description: Contains any errors from processing the CarrierProvisioning element from the last provisioning attempt.
+description: Contains any errors from processing the CarrierProvisioning element from the last provisioning attempt (ResultsSchema schema).
 Search.Product: eADQiWindows 10XVcnh
 title: CarrierProvisioningResult (ResultsSchema schema)
 ms.assetid: cee41310-6d39-431c-8548-aaec3249ce50

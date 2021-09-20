@@ -1,6 +1,6 @@
 ---
 title: com3:TreatAsClass
-description: A registration that corresponds to a CLSID registration with the TreatAs subkey.
+description: A registration that corresponds to a CLSID registration with the TreatAs subkey (com3:TreatAsClass).
 ms.date: 04/04/2020
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com

@@ -1,5 +1,5 @@
 ---
-description: Declares the function for the device.
+description: Declares the function for the device (in Package/Capabilities).
 Search.Product: eADQiWindows 10XVcnh
 title: Function (Windows 10)
 ms.assetid: d53133f1-6017-4c20-bbff-f2370c5fc39d

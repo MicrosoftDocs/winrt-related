@@ -2,7 +2,7 @@
 
 ms.assetid: 2fb1ff8b-0c47-44b8-b1c3-b814d10685d1
 title: com:TypeLib (in Package/Extensions, child of Interface)
-description: A type library for an interface.
+description: A type library for an interface (in Package/Extensions, child of Interface).
 
 ms.date: 03/29/2017
 ms.topic: reference

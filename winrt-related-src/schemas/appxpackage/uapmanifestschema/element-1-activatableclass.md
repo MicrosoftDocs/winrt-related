@@ -1,5 +1,5 @@
 ---
-description: Declares a runtime class associated with the extensibility point.
+description: Declares a runtime class associated with the extensibility point (in OutOfProcessServer).
 Search.Product: eADQiWindows 10XVcnh
 title: ActivatableClass (in OutOfProcessServer) (Windows 10)
 ms.assetid: b2994883-87f9-4aa5-aff8-9c846606c462

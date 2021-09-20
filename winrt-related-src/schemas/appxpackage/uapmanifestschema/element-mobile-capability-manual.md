@@ -1,5 +1,5 @@
 ---
-description: Declares a capability required by a package.
+description: Declares a capability required by a package (mobile:Capability).
 Search.Product: eADQiWindows 10XVcnh
 title: mobile:Capability (Windows 10)
 ms.assetid: c3074580-c334-4578-93e1-e7eb2c58c8ea

@@ -1,5 +1,5 @@
 ---
-description: Declares an app extension point of type windows.shareTarget.
+description: Declares an app extension point of type windows.shareTarget (Windows 8).
 Search.Product: eADQiWindows 10XVcnh
 title: ShareTarget (Windows 8 package schema)
 ms.assetid: 42f77354-83be-4f41-bf89-95566d026687

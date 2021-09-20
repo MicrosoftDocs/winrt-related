@@ -2,7 +2,7 @@
 
 ms.assetid: fcc97808-4b2a-4caa-9a29-41b73012e9c8
 title: uap2:Verb
-description: Defines the verbs associated with a file context menu.
+description: Defines the verbs associated with a file context menu (uap2:Verb).
 
 ms.date: 04/05/2017
 ms.topic: reference

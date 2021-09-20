@@ -2,7 +2,7 @@
 
 ms.assetid: d9544423-4a36-413c-b447-cb7640fd353a
 title: com:Verbs (in ExeServer/Class)
-description: Specifies the verbs to be registered for an application.
+description: Specifies the verbs to be registered for an application (in ExeServer/Class).
 
 ms.date: 03/29/2017
 ms.topic: reference

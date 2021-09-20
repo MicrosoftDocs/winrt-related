@@ -1,5 +1,5 @@
 ---
-description: Indicates whether all file types are supported for sharing.
+description: Indicates whether all file types are supported for sharing (extensions schema for Windows 8.1, descendant of FileSavePicker).
 Search.Product: eADQiWindows 10XVcnh
 title: SupportsAnyFileType (Windows 8.1 extensions schema, descendant of FileSavePicker)
 ms.assetid: c7c9ef91-f164-4ce0-bbeb-d5bd7e8a098d

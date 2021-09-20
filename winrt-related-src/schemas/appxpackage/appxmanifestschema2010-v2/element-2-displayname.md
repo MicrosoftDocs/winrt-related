@@ -1,5 +1,5 @@
 ---
-description: A friendly name that can be displayed to users.
+description: A friendly name that can be displayed to users (Windows 8.1, child of Properties).
 Search.Product: eADQiWindows 10XVcnh
 title: DisplayName (Windows 8.1 extensions schema, child of Properties)
 ms.assetid: f6f39a3e-0ec1-4590-a582-19360397dbc9

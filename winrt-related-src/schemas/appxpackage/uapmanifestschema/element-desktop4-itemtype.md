@@ -1,7 +1,7 @@
 ---
 
 title: desktop4:ItemType
-description: Contains the type of command to be registered in the context menu.
+description: Contains the type of command to be registered in the context menu (desktop4:ItemType).
 
 ms.date: 04/10/2018
 ms.topic: reference

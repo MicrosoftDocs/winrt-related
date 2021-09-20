@@ -1,7 +1,7 @@
 ﻿---
 
 title: desktop6:StringData
-description: Specifies one or more string data values for a trigger event of a service.
+description: Specifies one or more string data values for a trigger event of a service (desktop6:StringData).
 
 ms.date: 04/19/2019
 ms.topic: reference

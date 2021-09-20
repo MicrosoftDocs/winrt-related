@@ -1,5 +1,5 @@
 ---
-description: A friendly name that can be displayed to users.
+description: A friendly name that can be displayed to users (Windows 8, child of Protocol).
 Search.Product: eADQiWindows 10XVcnh
 title: DisplayName (Windows 8 package schema, child of Protocol)
 ms.assetid: f6f39a3e-0ec1-4590-a582-19360397dbc9

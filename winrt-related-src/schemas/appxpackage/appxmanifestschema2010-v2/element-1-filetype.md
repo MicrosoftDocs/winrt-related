@@ -1,5 +1,5 @@
 ---
-description: A file type specified as its file type extension.
+description: A file type specified as its file type extension (Windows 8.1, descendant of ShareTarget).
 Search.Product: eADQiWindows 10XVcnh
 title: 'FileType (Windows 8.1 extensions schema, descendant of ShareTarget)'
 ms.assetid: f04c9bf7-2523-4d48-bdd0-f6b227af0a2d

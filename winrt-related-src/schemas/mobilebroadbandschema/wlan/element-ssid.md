@@ -1,5 +1,5 @@
 ---
-description: Contains the SSID for a WLAN.
+description: Contains the SSID for a WLAN (WLAN schema).
 Search.Product: eADQiWindows 10XVcnh
 title: SSID (WLAN schema)
 ms.assetid: 0773526f-0046-4e2c-8972-53872dd76a83

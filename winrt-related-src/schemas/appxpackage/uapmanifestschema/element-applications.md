@@ -1,5 +1,5 @@
 ---
-description: Represents one or more apps that comprise the package.
+description: Represents one or more apps that comprise the package Windows 10).
 Search.Product: eADQiWindows 10XVcnh
 title: Applications (Windows 10)
 ms.assetid: ad9e07fc-ba58-4465-b3fa-b330ba149f92

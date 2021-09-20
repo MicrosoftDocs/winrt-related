@@ -1,7 +1,7 @@
 ---
 
 title: uap5:Path
-description: The path to the executable.
+description: The path to the executable (uap5:Path).
 
 ms.date: 10/10/2017
 ms.topic: reference

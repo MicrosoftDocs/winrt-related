@@ -2,7 +2,7 @@
 
 ms.assetid: 00fa8e21-6613-4eea-a5ff-a4dc4741d5bb
 title: com:ExeServer
-description: Registers an ExeServer with one or many class registrations.
+description: Registers an ExeServer with one or many class registrations (com:ExeServer).
 
 ms.date: 03/29/2017
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: Indicates whether...
+description: Declares that the current package is a modification package for an enterprise application.
 title: rescap6:ModificationPackage
 
 

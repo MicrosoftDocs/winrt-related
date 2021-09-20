@@ -2,7 +2,7 @@
 
 ms.assetid: cf6a8e31-81f7-42b8-ba3a-0d9044389c7a
 title: com:MiscStatus (in SurrogateServer/Class)
-description: Specifies how to create and display an object.
+description: Specifies how to create and display an object (in SurrogateServer/Class).
 
 ms.date: 03/29/2017
 ms.topic: reference

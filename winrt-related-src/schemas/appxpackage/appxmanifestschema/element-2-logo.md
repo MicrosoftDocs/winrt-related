@@ -1,5 +1,5 @@
 ---
-description: A path to a file that contains an image.
+description: A path to a file that contains an image (Windows 8, child of Protocol).
 Search.Product: eADQiWindows 10XVcnh
 title: Logo (Windows 8 package schema, child of Protocol)
 ms.assetid: ffbb17ac-d3c5-42ea-9a39-167a8dc4d2ba

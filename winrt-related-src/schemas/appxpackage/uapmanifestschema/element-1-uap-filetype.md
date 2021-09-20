@@ -1,5 +1,5 @@
 ---
-description: A file type specified as its file type extension.
+description: A file type specified as its file type extension (in uap:ShareTarget/uap:SupportedFileTypes).
 Search.Product: eADQiWindows 10XVcnh
 title: uap:FileType (in uap:ShareTarget/uap:SupportedFileTypes)
 ms.assetid: cc88b643-eb73-4d25-b51c-ebbd1a338c5a

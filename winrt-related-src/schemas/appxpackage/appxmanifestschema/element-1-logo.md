@@ -1,5 +1,5 @@
 ---
-description: A path to a file that contains an image.
+description: A path to a file that contains an image (Windows 8, child of FileTypeAssociation).
 Search.Product: eADQiWindows 10XVcnh
 title: Logo (Windows 8 package schema, child of FileTypeAssociation)
 ms.assetid: 0612bd93-1f47-463b-96db-927e8334d098

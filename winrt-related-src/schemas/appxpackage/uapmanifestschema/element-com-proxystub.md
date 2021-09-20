@@ -2,7 +2,7 @@
 
 ms.assetid: 0fe5d00f-4ade-440a-a13d-cb8e9c9b7e3c
 title: com:ProxyStub
-description: Registers a proxy stub. 
+description: Registers a proxy stub (in Package/Applications). 
 
 ms.date: 03/29/2017
 ms.topic: reference

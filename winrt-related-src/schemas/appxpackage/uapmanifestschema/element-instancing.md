@@ -1,5 +1,5 @@
 ---
-description: Specifies whether the executable runs as a single instance or can run as multiple instances.
+description: Specifies whether the executable runs as a single instance or can run as multiple instances (Windows 10).
 Search.Product: eADQiWindows 10XVcnh
 title: Instancing (Windows 10)
 ms.assetid: 26533f27-2470-4083-91a0-4e4b03f8479a

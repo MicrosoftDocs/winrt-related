@@ -1,5 +1,5 @@
 ---
-description: Declares a package extensibility point of type windows.certificates.
+description: Declares a package extensibility point of type windows.certificates (Windows 8.1).
 Search.Product: eADQiWindows 10XVcnh
 title: Certificates (extensions schema for Windows 8.1)
 ms.assetid: 378edcd3-b9ef-46db-9a56-94470451829e

@@ -1,5 +1,5 @@
 ---
-description: Defines the file types that the app can share.
+description: Defines the file types that the app can share (in uap:FileOpenPicker).
 Search.Product: eADQiWindows 10XVcnh
 title: uap:SupportedFileTypes (in uap:FileOpenPicker)
 ms.assetid: 12a1b621-e6e4-4c4e-a2a6-7ffb394644f0

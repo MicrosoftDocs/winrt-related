@@ -2,7 +2,7 @@
 
 ms.assetid: 1fbace83-45dc-4c29-a84d-5c0d0c2f9589
 title: com:DataFormat (in ExeServer/Class)
-description: The data format supported by an application.
+description: The data format supported by an application (in ExeServer/Class).
 
 ms.date: 03/29/2017
 ms.topic: reference

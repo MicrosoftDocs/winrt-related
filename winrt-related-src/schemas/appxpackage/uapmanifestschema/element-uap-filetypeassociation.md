@@ -1,5 +1,5 @@
 ---
-description: Declares an app extensibility point of type windows.fileTypeAssociation.
+description: Declares an app extensibility point of type windows.fileTypeAssociation (Windows 10).
 Search.Product: eADQiWindows 10XVcnh
 title: uap:FileTypeAssociation (Windows 10)
 ms.assetid: 5e876ef3-c8ca-461d-9764-4ea672e7c0ea

@@ -1,6 +1,6 @@
 ---
 
-description: A helper function which, given an object of a projected type, retrieves a pointer to the implementation.
+description: A helper function which, given an object of a projected type, retrieves a pointer to the implementation (obsolete in newer versions).
 title: winrt::from_abi function template (C++/WinRT)
 dev_langs: ["C++"]
 

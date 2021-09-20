@@ -1,5 +1,5 @@
 ---
-description: Defines the Access Point Name (APN) or dial string to be used to establish a data connection.
+description: Defines the Access Point Name (APN) or dial string to be used to establish a data connection (in DefaultProfile/Context).
 Search.Product: eADQiWindows 10XVcnh
 title: AccessString (WWAN schema, descendant of DefaultProfile)
 ms.assetid: 10801ce9-abca-4eb4-95ae-0865961e3d2b

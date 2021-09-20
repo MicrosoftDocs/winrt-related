@@ -1,5 +1,5 @@
 ---
-description: Contains any errors from processing the WLANProfile elements from the last provisioning attempt.
+description: Contains any errors from processing the WLANProfile elements from the last provisioning attempt (ResultsSchema schema).
 Search.Product: eADQiWindows 10XVcnh
 title: WLANProfiles (ResultsSchema schema)
 ms.assetid: ca31898f-b3c9-4f87-9a8e-8adc30875413

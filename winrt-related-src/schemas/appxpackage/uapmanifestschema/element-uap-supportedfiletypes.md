@@ -1,5 +1,5 @@
 ---
-description: Defines the file types associated with the app.
+description: Defines the file types associated with the app (in uap:FileTypeAssociation).
 Search.Product: eADQiWindows 10XVcnh
 title: uap:SupportedFileTypes (in uap:FileTypeAssociation)
 ms.assetid: 119850cc-e313-468a-8d10-bee5af813290

@@ -1,5 +1,5 @@
 ---
-description: Describes an AutoPlay device action.
+description: Describes an AutoPlay device action (Windows 8).
 Search.Product: eADQiWindows 10XVcnh
 title: 'LaunchAction (Windows 8 package schema, child of AutoPlayDevice)'
 ms.assetid: 074c2f73-dcdd-4660-9d70-5bcee7b63199

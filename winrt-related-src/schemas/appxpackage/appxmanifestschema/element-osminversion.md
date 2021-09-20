@@ -1,5 +1,5 @@
 ---
-description: The minimum version of the operating system that the package requires.
+description: The minimum version of the operating system that the package requires (Windows 8).
 Search.Product: eADQiWindows 10XVcnh
 title: OSMinVersion (Windows 8 package schema)
 ms.assetid: 18c045dd-7e8c-431c-b3d8-bc3056575632

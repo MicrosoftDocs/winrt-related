@@ -1,6 +1,6 @@
 ---
 title: com3:SurrogateServer
-description: Registers a SurrogateServer with one or many class registrations.
+description: Registers a SurrogateServer with one or many class registrations (com3:SurrogateServer).
 ms.date: 04/20/2020
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com

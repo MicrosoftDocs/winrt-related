@@ -1,6 +1,6 @@
 ---
 title: com3:ProgId
-description: A programmatic identifier (ProgID) that can be associated with a CLSID.
+description: A programmatic identifier (ProgID) that can be associated with a CLSID (com3:ProgId).
 ms.date: 04/04/2020
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com

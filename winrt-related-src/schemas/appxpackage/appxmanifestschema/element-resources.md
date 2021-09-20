@@ -1,5 +1,5 @@
 ---
-description: Declares languages for the resources that the package contains.
+description: Declares languages for the resources that the package contains (Windows 8).
 Search.Product: eADQiWindows 10XVcnh
 title: Resources (Windows 8 package schema)
 ms.assetid: 45ce3dac-3888-452b-bc10-8775b158637a

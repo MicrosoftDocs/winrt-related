@@ -1,5 +1,5 @@
 ---
-description: Defines the root element of an app package manifest.
+description: Defines the root element of an app package manifest (Windows 8).
 Search.Product: eADQiWindows 10XVcnh
 title: Package (Windows 8 package schema)
 ms.assetid: ea0f5af0-8191-4ce0-9594-c647f800bd53

@@ -2,7 +2,7 @@
 
 ms.assetid: 94fc4c6f-14c3-4171-93ed-03f1d3084729
 title: com:DefaultIcon (in SurrogateServer/Class)
-description: Provides default icon information for iconic presentations of objects.
+description: Provides default icon information for iconic presentations of objects (in SurrogateServer/Class).
 
 ms.date: 03/29/2017
 ms.topic: reference

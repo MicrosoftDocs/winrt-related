@@ -2,7 +2,7 @@
 
 ms.assetid: 85160560-7b79-45ad-904e-15b998d12c1b
 title: com:Version
-description: Version number and additional information about the type library.
+description: Version number and additional information about the type library (in Package/Applications).
 
 ms.date: 03/29/2017
 ms.topic: reference

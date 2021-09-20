@@ -1,5 +1,5 @@
 ---
-description: Defines the parameters required to setup a data connection.
+description: Defines the parameters required to setup a data connection (in PurchaseProfile/Context).
 Search.Product: eADQiWindows 10XVcnh
 title: Context (WWAN schema, child of PurchaseProfile)
 ms.assetid: bb7c7c66-bd2c-40ca-87e4-c984f8c3911a

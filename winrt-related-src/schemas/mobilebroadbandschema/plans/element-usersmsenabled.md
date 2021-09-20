@@ -1,5 +1,5 @@
 ---
-description: Indicates whether the subscriber's service includes user-to-user SMS which must be delivered in near real-time.
+description: Indicates whether the subscriber's service includes user-to-user SMS which must be delivered in near real-time (in Plan/Usage).
 Search.Product: eADQiWindows 10XVcnh
 title: UserSMSEnabled (Plans schema)
 ms.assetid: 898c68cd-8d04-45f2-b5a8-d1e8923396bf

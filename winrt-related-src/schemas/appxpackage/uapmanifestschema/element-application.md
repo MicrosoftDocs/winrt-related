@@ -1,5 +1,5 @@
 ---
-description: Represents an app that comprises part of or all of the functionality delivered in the package.
+description: Represents an app that comprises part of or all of the functionality delivered in the package (Windows 10).
 Search.Product: eADQiWindows 10XVcnh
 title: Application (Windows 10)
 ms.assetid: 39221d13-bb46-42ac-be51-117357cade81

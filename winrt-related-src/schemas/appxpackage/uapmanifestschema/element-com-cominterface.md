@@ -2,7 +2,7 @@
 
 ms.assetid: ffb76b68-b2c2-424f-8785-10da06294fb7
 title: com:ComInterface
-description: Declares a package extension point of type windows.comInterface.
+description: Declares a package extension point of type windows.comInterface (com:ComInterface).
 
 ms.date: 03/29/2017
 ms.topic: reference

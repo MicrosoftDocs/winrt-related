@@ -1,6 +1,6 @@
 ---
 title: com3:ExeServer
-description: Registers an ExeServer with one or many class registrations.
+description: Registers an ExeServer with one or many class registrations (com3:ExeServer).
 ms.date: 04/20/2020
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com

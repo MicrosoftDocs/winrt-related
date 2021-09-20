@@ -1,5 +1,5 @@
 ---
-description: Declares an app extensibility point of type windows.autoPlayDevice.
+description: Declares an app extensibility point of type windows.autoPlayDevice (Windows 10).
 Search.Product: eADQiWindows 10XVcnh
 title: uap:AutoPlayDevice (Windows 10)
 ms.assetid: ae471158-7ec0-4f6c-b681-76323317ac0d

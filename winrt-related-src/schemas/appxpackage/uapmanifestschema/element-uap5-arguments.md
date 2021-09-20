@@ -1,7 +1,7 @@
 ---
 
 title: uap5:Arguments
-description: Specifies the list of comma-separated arguments to pass to the executable.
+description: Specifies the list of comma-separated arguments to pass to the executable (uap5:Arguments).
 
 ms.date: 10/10/2017
 ms.topic: reference

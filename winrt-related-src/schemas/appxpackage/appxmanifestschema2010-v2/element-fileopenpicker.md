@@ -1,5 +1,5 @@
 ---
-description: Declares an app extensibility point of type windows.fileOpenPicker.
+description: Declares an app extensibility point of type windows.fileOpenPicker (Windows 8.1).
 Search.Product: eADQiWindows 10XVcnh
 title: FileOpenPicker (Windows 8.1 extensions schema)
 ms.assetid: 25af7399-25ca-4a8b-a892-396f6b4d170c

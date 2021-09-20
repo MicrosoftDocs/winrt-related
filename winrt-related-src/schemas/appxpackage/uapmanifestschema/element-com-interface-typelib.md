@@ -2,7 +2,7 @@
 
 ms.assetid: a20641e1-138e-4777-a177-a404f96eeed9
 title: com:TypeLib (in ComInterface/Interface)
-description: A type library for an interface.
+description: A type library for an interface (in ComInterface/Interface).
 
 ms.date: 03/29/2017
 ms.topic: reference

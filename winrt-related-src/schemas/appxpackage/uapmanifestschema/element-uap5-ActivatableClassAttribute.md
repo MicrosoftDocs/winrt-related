@@ -1,5 +1,5 @@
 ---
-description: Defines an attribute of the class that is stored in the Windows Runtime property store.
+description: Defines an attribute of the class that is stored in the Windows Runtime property store (in Package/Applications).
 title: uap5:ActivatableClassAttribute 
 
 

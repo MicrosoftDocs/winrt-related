@@ -2,7 +2,7 @@
 
 ms.assetid: 62d02a56-5e34-4b0a-93d5-f4fbec23e0bb
 title: com:ComServer
-description: Declares a package extension point of type windows.comServer.
+description: Declares a package extension point of type windows.comServer (com:ComServer).
 
 ms.date: 03/29/2017
 ms.topic: reference

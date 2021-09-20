@@ -1,5 +1,5 @@
 ---
-description: The background task associated with the app extensibility point.
+description: The background task associated with the app extensibility point (Windows 10).
 Search.Product: eADQiWindows 10XVcnh
 title: Task (Windows 10)
 ms.assetid: 4662ec1d-c245-4c60-b966-e27d5ce0699d

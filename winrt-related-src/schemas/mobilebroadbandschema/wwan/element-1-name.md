@@ -1,5 +1,5 @@
 ---
-description: Defines the profile name.
+description: Defines the profile name (child of DefaultProfile).
 Search.Product: eADQiWindows 10XVcnh
 title: 'Name (WWAN schema, child of DefaultProfile)'
 ms.assetid: 9eab41c7-29ff-42aa-9647-f18ff72b3faf

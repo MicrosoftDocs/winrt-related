@@ -1,5 +1,5 @@
 ---
-description: Declares an app extensibility point of type windows.fileSavePicker.
+description: Declares an app extensibility point of type windows.fileSavePicker (Windows 8).
 Search.Product: eADQiWindows 10XVcnh
 title: FileSavePicker (Windows 8 package schema)
 ms.assetid: c2d3002e-69e1-479c-a0ec-9facf5bc7142

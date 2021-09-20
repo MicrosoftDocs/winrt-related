@@ -1,5 +1,5 @@
 ---
-description: Defines the badge and notifications that represent the app on the lock screen, which is shown when the system is locked.
+description: Defines the badge and notifications that represent the app on the lock screen, which is shown when the system is locked (Windows 8).
 Search.Product: eADQiWindows 10XVcnh
 title: LockScreen (Windows 8 package schema)
 ms.assetid: 4b73231f-9cf8-4dc6-ad82-70dc2bdb7745

@@ -1,5 +1,5 @@
 ---
-description: Defines additional metadata about the package including attributes that describe how the package appears to users.
+description: Defines additional metadata about the package including attributes that describe how the package appears to users (Windows 10).
 Search.Product: eADQiWindows 10XVcnh
 title: Properties (Windows 10)
 ms.assetid: accc712c-c7b9-45e1-ba02-836abacbd9b5

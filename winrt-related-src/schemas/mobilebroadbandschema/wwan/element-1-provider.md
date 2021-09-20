@@ -1,5 +1,5 @@
 ---
-description: Defines the name and provider ID of a cellular network.
+description: Defines the name and provider ID of a cellular network (descendant of PurchaseProfile).
 Search.Product: eADQiWindows 10XVcnh
 title: Provider (WWAN schema, descendant of PurchaseProfile)
 ms.assetid: 349e3c3c-3533-4ec5-ae1d-fad2e3c7e542

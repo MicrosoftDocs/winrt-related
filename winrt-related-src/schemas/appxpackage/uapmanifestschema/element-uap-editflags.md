@@ -1,5 +1,5 @@
 ---
-description: Specifies the type of info the user sees when opening a file associated to the extensibility point.
+description: Specifies the type of info the user sees when opening a file associated to the extensibility point (Windows 10).
 Search.Product: eADQiWindows 10XVcnh
 title: uap:EditFlags (Windows 10)
 ms.assetid: 5a16f6d9-bdfb-4618-b7dc-7f9aa5807a13

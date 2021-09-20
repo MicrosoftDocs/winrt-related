@@ -1,5 +1,5 @@
 ---
-description: The path to the DLL.
+description: The path to the DLL (in ProxyStub).
 Search.Product: eADQiWindows 10XVcnh
 title: Path (in ProxyStub) (Windows 10)
 ms.assetid: 4522dd59-287a-4c40-8054-168d06f61a08

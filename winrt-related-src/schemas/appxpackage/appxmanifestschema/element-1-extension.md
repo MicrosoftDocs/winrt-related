@@ -1,5 +1,5 @@
 ---
-description: Declares an extensibility point for the app.
+description: Declares an extensibility point for the app (CT_ApplicationExtensions).
 Search.Product: eADQiWindows 10XVcnh
 title: 'Extension (in type: CT_ApplicationExtensions)'
 ms.assetid: e25d664a-67e8-4a22-a666-1b11286b58f3

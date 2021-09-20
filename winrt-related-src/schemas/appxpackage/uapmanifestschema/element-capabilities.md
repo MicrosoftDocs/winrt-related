@@ -1,5 +1,5 @@
 ---
-description: Declares the access to protected user resources that the package requires.
+description: Declares the access to protected user resources that the package requires (Windows 10).
 Search.Product: eADQiWindows 10XVcnh
 title: Capabilities (Windows 10)
 ms.assetid: 508b9a46-3dd4-4bce-875b-fb7cadadceb1

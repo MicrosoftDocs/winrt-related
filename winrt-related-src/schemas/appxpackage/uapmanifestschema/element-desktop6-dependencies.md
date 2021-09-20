@@ -1,7 +1,7 @@
 ﻿---
 
 title: desktop6:Dependencies
-description: Specifies a service that is installed and registered along with the app. These services can be configured to run under either the Local Service, Network Service or Local System account.
+description: Specifies one or more dependent services for the current service.
 
 ms.date: 04/19/2019
 ms.topic: reference

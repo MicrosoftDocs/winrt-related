@@ -1,5 +1,5 @@
 ---
-description: Defines the password used for the Packet Data Protocol (PDP) context activation.
+description: Defines the password used for the Packet Data Protocol (PDP) context activation (descendant of TetheringProfile).
 Search.Product: eADQiWindows 10XVcnh
 title: Password (CarrierControlSchema_v2 schema, descendant of TetheringProfile)
 ms.assetid: b42762fe-7cc5-485c-8b91-ebe7bc1d6104

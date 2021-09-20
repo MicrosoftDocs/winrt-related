@@ -1,7 +1,7 @@
 ---
 
 title: uap6:LocalExperiencePack
-description: This extension provides a means to deliver translated app resources.
+description: This extension provides a means to deliver translated app resources (in Package/Applications).
 
 ms.date: 04/10/2018
 ms.topic: reference

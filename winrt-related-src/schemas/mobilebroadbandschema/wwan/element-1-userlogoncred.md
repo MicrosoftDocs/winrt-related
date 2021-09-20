@@ -1,5 +1,5 @@
 ---
-description: Defines logon credentials for a connection.
+description: Defines logon credentials for a connection (descendant of PurchaseProfile).
 Search.Product: eADQiWindows 10XVcnh
 title: UserLogonCred (WWAN schema, descendant of PurchaseProfile)
 ms.assetid: 518b3496-f7c3-4af5-a17b-778293d74d4a

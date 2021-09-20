@@ -1,5 +1,5 @@
 ---
-description: Declares a capability required by a package.
+description: Declares a capability required by a package (Windows 10).
 Search.Product: eADQiWindows 10XVcnh
 title: Capability (Windows 10)
 ms.assetid: ee6bf220-f139-4ad9-a7a7-e621c189b907

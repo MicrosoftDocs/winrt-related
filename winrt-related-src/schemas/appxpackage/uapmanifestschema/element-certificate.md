@@ -1,5 +1,5 @@
 ---
-description: A certificate for use with the package and placed in the system certificate stores.
+description: A certificate for use with the package and placed in the system certificate stores (Windows 10).
 Search.Product: eADQiWindows 10XVcnh
 title: Certificate (Windows 10)
 ms.assetid: d3682c0f-fb91-466a-a612-a60c1e6025c9

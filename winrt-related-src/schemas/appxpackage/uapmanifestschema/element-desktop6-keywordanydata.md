@@ -1,7 +1,7 @@
 ﻿---
 
 title: desktop6:KeywordAnyData
-description: Specifies a 64-bit unsigned integer value for a trigger event of a service.
+description: Specifies a 64-bit unsigned integer value for a trigger event of a service (desktop6:KeywordAnyData).
 
 ms.date: 04/19/2019
 ms.topic: reference

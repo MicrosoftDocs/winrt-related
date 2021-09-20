@@ -1,5 +1,5 @@
 ---
-description: Declares a package extensibility point of type windows.activatableClass.inProcessServer.
+description: Declares a package extensibility point of type windows.activatableClass.inProcessServer (Windows 8.1).
 Search.Product: eADQiWindows 10XVcnh
 title: InProcessServer (Windows 8.1 extensions schema)
 ms.assetid: 47e3c888-76eb-4d12-977c-ebd947a2b63c

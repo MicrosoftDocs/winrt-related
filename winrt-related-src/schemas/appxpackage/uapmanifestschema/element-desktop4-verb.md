@@ -1,7 +1,7 @@
 ---
 
 title: desktop4:Verb
-description: Names and class IDs of the commands registered in the Shell for a file explorer context menu.
+description: Names and class IDs of the commands registered in the Shell for a file explorer context menu (desktop4:Verb).
 
 ms.date: 04/10/2018
 ms.topic: reference

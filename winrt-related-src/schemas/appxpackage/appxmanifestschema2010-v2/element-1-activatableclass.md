@@ -1,5 +1,5 @@
 ---
-description: Declares a runtime class associated with the extensibility point.
+description: Declares a runtime class associated with the extensibility point (Windows 8.1; CT_OutOfProcessActivatableClass type).
 Search.Product: eADQiWindows 10XVcnh
 title: 'ActivatableClass (Windows 8.1 extensions schema, child of OutOfProcessServer)'
 ms.assetid: b2994883-87f9-4aa5-aff8-9c846606c462

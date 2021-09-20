@@ -2,7 +2,7 @@
 
 ms.assetid: a3735612-102e-47e2-ba08-a53259edc60a
 title: com:TypeLib (in Package/Extensions, child of ComInterface)
-description: Registers a type library.
+description: Registers a type library (in Package/Extensions).
 
 ms.date: 03/29/2017
 ms.topic: reference

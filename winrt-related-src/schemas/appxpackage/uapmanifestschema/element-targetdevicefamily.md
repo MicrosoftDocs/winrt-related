@@ -1,5 +1,5 @@
 ---
-description: Identifies the device family that your package targets. 
+description: Identifies the device family that your package targets (in Package/Dependencies). 
 Search.Product: eADQiWindows 10XVcnh
 title: TargetDeviceFamily (Windows 10)
 ms.assetid: 457745aa-bc12-427b-b1f1-74c1618753c0

@@ -1,5 +1,5 @@
 ---
-description: Defines the SSID of a wireless LAN in hexadecimal format.
+description: Defines the SSID of a wireless LAN in hexadecimal format (in SSID/hex).
 Search.Product: eADQiWindows 10XVcnh
 title: hex (in SSID)
 ms.assetid: 45e6f60b-5bf6-42fb-8c7d-8a9a0e66d194

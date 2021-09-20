@@ -2,7 +2,7 @@
 
 ms.assetid: 4b8ad01f-c365-4665-82da-d1fec571e606
 title: Automatic (final schema)
-description: The automatic content group.
+description: The automatic content group (final schema).
 
 ms.date: 03/29/2017
 ms.topic: article

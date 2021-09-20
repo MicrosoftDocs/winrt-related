@@ -1,7 +1,7 @@
 ---
 
 title: desktop4:Extension
-description: Declares an extensibility point for the app.
+description: Declares an extensibility point for the app (desktop4:Extension).
 
 ms.date: 04/10/2018
 ms.topic: reference

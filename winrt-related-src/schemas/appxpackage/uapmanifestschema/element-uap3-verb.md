@@ -1,7 +1,7 @@
 ---
 
 title: uap3:Verb
-description: Defines the verbs associated with a file context menu.
+description: Defines the verbs associated with a file context menu (uap3:Verb).
 
 ms.date: 11/26/2019
 ms.topic: reference

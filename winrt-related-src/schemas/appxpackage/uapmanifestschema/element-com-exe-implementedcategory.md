@@ -2,7 +2,7 @@
 
 ms.assetid: 53e347fc-d43e-4585-9499-06a132e86d0c
 title: com:ImplementedCategory (in ExeServer/Class)
-description: Indicates that the class has implemented the specified category.
+description: Indicates that the class has implemented the specified category (in ExeServer/Class).
 
 ms.date: 03/29/2017
 ms.topic: reference

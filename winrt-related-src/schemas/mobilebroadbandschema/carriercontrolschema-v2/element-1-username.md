@@ -1,5 +1,5 @@
 ---
-description: Defines the username used for the Packet Data Protocol (PDP) context activation.
+description: Defines the username used for the Packet Data Protocol (PDP) context activation (descendant of TetheringProfile).
 Search.Product: eADQiWindows 10XVcnh
 title: UserName (CarrierControlSchema_v2 schema, descendant of TetheringProfile)
 ms.assetid: fb4913e1-095c-421d-af9a-40529f9bcd42

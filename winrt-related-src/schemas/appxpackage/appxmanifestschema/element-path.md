@@ -1,5 +1,5 @@
 ---
-description: The path to the DLL.
+description: The path to the DLL (Windows 8, child of InProcessServer).
 Search.Product: eADQiWindows 10XVcnh
 title: 'Path (Windows 8 package schema, child of InProcessServer)'
 ms.assetid: 337dd035-774d-40fb-8da1-7af11dbb4a35

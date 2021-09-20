@@ -1,5 +1,5 @@
 ---
-description: Describes the orientations in which the app would prefer to be shown for the best user experience.
+description: Describes the orientations in which the app would prefer to be shown for the best user experience (Windows 10).
 Search.Product: eADQiWindows 10XVcnh
 title: uap:InitialRotationPreference (Windows 10)
 ms.assetid: 95275108-1b23-414d-98df-3b269c4dfc92

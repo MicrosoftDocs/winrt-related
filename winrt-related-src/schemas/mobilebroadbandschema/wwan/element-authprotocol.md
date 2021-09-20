@@ -1,5 +1,5 @@
 ---
-description: Defines the authentication protocol to be used for activating a Packet Data Protocol (PDP) context.
+description: Defines the authentication protocol to be used for activating a Packet Data Protocol (PDP) context (in DefaultProfile/Context).
 Search.Product: eADQiWindows 10XVcnh
 title: AuthProtocol (descendant of DefaultProfile)
 ms.assetid: 1cb2fe6e-48b1-4314-b7b7-17d6ab7e0f46

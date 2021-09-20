@@ -1,5 +1,5 @@
 ---
-description: Indicates whether all file types are supported for sharing.
+description: Indicates whether all file types are supported for sharing (Windows 10, descendant of uap:ShareTarget).
 Search.Product: eADQiWindows 10XVcnh
 title: uap:SupportsAnyFileType (Windows 10, descendant of uap:ShareTarget)
 ms.assetid: 3dbbeaac-2578-472b-80d2-f0bd0b9ead7e

@@ -1,5 +1,5 @@
 ---
-description: Declares a function for a device that is associated with the DeviceCapability.
+description: Declares a function for a device that is associated with the DeviceCapability (Windows 10).
 Search.Product: eADQiWindows 10XVcnh
 title: Device (Windows 10)
 ms.assetid: 1e9e699f-bbd9-4d15-95ea-207ec495c46e

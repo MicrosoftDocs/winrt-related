@@ -1,6 +1,6 @@
 ---
 title: com2:ComInterface
-description: Declares a package extension point of type windows.comInterface.
+description: Declares a package extension point of type windows.comInterface (com2:ComInterface).
 ms.date: 04/20/2020
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com

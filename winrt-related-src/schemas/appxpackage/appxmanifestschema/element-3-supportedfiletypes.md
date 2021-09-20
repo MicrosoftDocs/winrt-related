@@ -1,5 +1,5 @@
 ---
-description: Defines the file types that the app can share.
+description: Defines the file types that the app can share (Windows 8, child of FileSavePicker).
 Search.Product: eADQiWindows 10XVcnh
 title: 'SupportedFileTypes (Windows 8 package schema, child of FileSavePicker)'
 ms.assetid: fd3072eb-572d-4855-8a9c-3de1599b5a00

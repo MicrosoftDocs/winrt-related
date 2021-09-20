@@ -1,7 +1,7 @@
 ---
 
 title: uap10:HostRuntime
-description: This extension provides a means to deliver translated app resources.
+description: This extension provides a means to deliver translated app resources (in Package/Extensions).
 ms.date: 03/05/2020
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 

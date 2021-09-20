@@ -1,5 +1,5 @@
 ---
-description: Defines the password used to authenticate a user.
+description: Defines the password used to authenticate a user (descendant of PurchaseProfile).
 Search.Product: eADQiWindows 10XVcnh
 title: Password (WWAN schema, descendant of PurchaseProfile)
 ms.assetid: b42762fe-7cc5-485c-8b91-ebe7bc1d6104

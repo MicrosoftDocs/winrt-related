@@ -1,7 +1,7 @@
 ---
 
 title: uap5:ActivatableClass
-description: Declares a runtime class associated with the extensibility point.
+description: Declares a runtime class associated with the extensibility point (uap5:ActivatableClass).
 
 ms.date: 10/10/2017
 ms.topic: reference

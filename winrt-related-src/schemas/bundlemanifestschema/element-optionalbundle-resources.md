@@ -2,7 +2,7 @@
 
 ms.assetid: e257f16b-91a1-4ce1-95c5-d2d80e13ad3c
 title: Resources (Bundle schema, descendant of OptionalBundle)
-description: Declares languages, resolution scales, and DirectX feature levels for the resources that the package contains.
+description: Declares languages, resolution scales, and DirectX feature levels for the resources that the package contains (descendant of OptionalBundle).
 
 ms.date: 04/05/2017
 ms.topic: reference

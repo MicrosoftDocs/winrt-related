@@ -1,5 +1,5 @@
 ---
-description: A path to a file that contains an image.
+description: A path to a file that contains an image (Windows 10, child of uap:Protocol).
 Search.Product: eADQiWindows 10XVcnh
 title: uap:Logo (Windows 10, child of uap:Protocol)
 ms.assetid: 22d15097-d9f7-4a9b-9466-d7e76fd7d5ad

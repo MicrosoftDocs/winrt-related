@@ -1,5 +1,5 @@
 ---
-description: Declares an extensibility point for the app.
+description: Declares an extensibility point for the app (mobile:Extension).
 Search.Product: eADQiWindows 10XVcnh
 title: mobile:Extension (Windows 10)
 ms.assetid: 0f9f4bee-3a63-4383-86db-a555ca4ccad6
