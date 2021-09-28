@@ -92,6 +92,12 @@ The following sections list the namespaces and XML prefixes added to the package
 | rescap        | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities` |
 | serverpreview | `http://schemas.microsoft.com/appx/manifest/serverpreview/windows10` |  
 
+## Windows 11 - TBD
+### Added namespaces and XML prefixes 
+| Prefix        | Namespace | 
+|---------------|-----------|
+| desktop9           | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/9` |
+
 <!-- This section specifies changes from Windows 8.x to Windows 10. This information is probably no longer needed. 
 
 ## Elements and attributes that have been added
