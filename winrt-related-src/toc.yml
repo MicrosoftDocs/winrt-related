@@ -1,3 +1,4 @@
+items:
 - name: "Reference"
   href: index.yml
   items: 
@@ -501,6 +502,46 @@
             href: schemas/appxpackage/uapmanifestschema/element-desktop6-keywordanydata.md
           - name: "desktop6:KeywordAllData"
             href: schemas/appxpackage/uapmanifestschema/element-desktop6-keywordalldata.md
+          - name: "desktop7:ApplicationRegistration"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop7-applicationregistration.md
+          - name: "desktop7:AppMigration"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop7-appmigration.md
+          - name: "desktop7:AppMigrations"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop7-appmigrations.md
+          - name: "desktop7:ApprovedShellExtension"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop7-approvedshellextension.md
+          - name: "desktop7:ControlPanelItem"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop7-controlpanelitem.md
+          - name: "desktop7:DefaultIcon"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop7-defaulticon.md
+          - name: "desktop7:DesktopApp"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop7-desktopapp.md
+          - name: "desktop7:DesktopAppMigration"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop7-desktopappmigration.md
+          - name: "desktop7:ErrorReporting"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop7-errorreporting.md
+          - name: "desktop7:Extension (Application)"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop7-extension.md
+          - name: "desktop7:Extension (Package)"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop7-package-extension.md
+          - name: "desktop7:InfoTip"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop7-infotip.md
+          - name: "desktop7:LocalizedString"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop7-localizedstring.md
+          - name: "desktop7:MailProvider"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop7-mailprovider.md
+          - name: "desktop7:RuntimeExceptionHelperModule"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop7-runtimeexceptionhelpermodule.md
+          - name: "desktop7:Service"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop7-service.md
+          - name: "desktop7:ShadowCopyExcludeFile"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop7-shadowcopyexcludefile.md
+          - name: "desktop7:ShadowCopyExcludeFiles"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop7-shadowcopyexcludefiles.md
+          - name: "desktop7:Shortcut"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop7-shortcut.md
+          - name: "desktop7:SystemFileAssociation"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop7-systemfileassociation.md
           - name: "desktop9:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-desktop9-extension.md
           - name: "desktop9:FileExplorerClassicContextMenuHandler"
