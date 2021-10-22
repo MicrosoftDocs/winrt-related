@@ -53,11 +53,11 @@ Specifies the source and target for a tile or pin that should be updated as part
 ## Syntax
 
 ```xml
-<desktop7:AppMigration AumId   = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
+<desktop7:DesktopApp AumId   = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
                         ShortcutPath   = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. 
                         Executable   = A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *. 
                          >
-</desktop7:AppMigration>
+</desktop7:DesktopApp>
 ```
 
 

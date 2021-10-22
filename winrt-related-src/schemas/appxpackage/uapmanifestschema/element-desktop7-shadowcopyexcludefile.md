@@ -8,7 +8,7 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 ms.custom: 19H1
 ---
 
-# desktop7:DesktopApp
+# desktop7:ShadowCopyExcludeFile
 
 ## Description
 Specifies the source and target for a tile or pin that should be updated as part of a desktop app migration.

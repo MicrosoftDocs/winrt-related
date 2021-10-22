@@ -31,7 +31,7 @@ Specifies the localized string to show for the item in the Control Panel.
 <dd>
 <dl>
 <dt><a href="element-desktop7-controlpanelitem.md">&lt;desktop7:ControlPanelItem&gt;</a></dt>
-<dd><b>&lt;desktop7:DefaultIcon&gt;</b></dd>
+<dd><b>&lt;desktop7:LocalizedString&gt;</b></dd>
 </dl>
 </dd>
 </dl>
@@ -48,9 +48,9 @@ Specifies the localized string to show for the item in the Control Panel.
 ## Syntax
 
 ```xml
-<desktop7:DefaultIcon>
+<desktop7:LocalizedString>
     ResourceId   = A string between 1 and 30 characters in length that consists of alpha-numeric, period, and dash characters.
-</desktop7:DefaultIcon>
+</desktop7:LocalizedString>
 ```
 
 

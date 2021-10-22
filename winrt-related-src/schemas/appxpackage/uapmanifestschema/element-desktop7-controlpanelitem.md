@@ -72,7 +72,7 @@ Registers an extension as a control panel item.
 | Child Element | Description |
 |---------------|-------------|
 | [desktop7:DefaultIcon](element-desktop7-defaulticon.md) | Specifies the icon to show for the item in the Control Panel. |  
-| [desktop7:LocalizedString](element-desktop7-localizedicon.md) | Specifies the localized string to show for the item in the Control Panel. |  
+| [desktop7:LocalizedString](element-desktop7-localizedstring.md) | Specifies the localized string to show for the item in the Control Panel. |  
 | [desktop7:InfoTip](element-desktop7-infotip.md) | Specifies the Infotip string to show when the mouse hovers over the item’s icon. |  
 
 ### Parent Elements
