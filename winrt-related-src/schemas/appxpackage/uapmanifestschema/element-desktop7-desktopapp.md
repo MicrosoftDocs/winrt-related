@@ -79,7 +79,7 @@ None.
 
 | Parent Element | Description |
 |---------------|-------------|
-| [DesktopAppMigrations](element-desktop7-desktopappmigrations.md) | Specifies a set of app migration entries for tiles and pins. |  
+| [DesktopAppMigrations](element-desktop7-desktopappmigration.md) | Specifies a set of app migration entries for tiles and pins. |  
 
 
 ## Remarks

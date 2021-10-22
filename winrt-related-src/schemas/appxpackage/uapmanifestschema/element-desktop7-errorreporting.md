@@ -71,7 +71,7 @@ None.
 
 ## Remarks
 
-This extension enables packaged applications to hook into Windows Error Reporting analysis as documented in [WerRegisterRuntimeExceptionModule function](windows/win32/api/werapi/nf-werapi-werregisterruntimeexceptionmodule) and [WER Settings](/windows/win32/wer/wer-settings). To use this extension the package must have the ability to implement in-process extensions, for instance using an external location.
+This extension enables packaged applications to hook into Windows Error Reporting analysis as documented in [WerRegisterRuntimeExceptionModule function](/windows/win32/api/werapi/nf-werapi-werregisterruntimeexceptionmodule) and [WER Settings](/windows/win32/wer/wer-settings). To use this extension the package must have the ability to implement in-process extensions, for instance using an external location.
 To use this extension the package must have the ability to implement in-process extensions, for instance using an external location.
 
 ## Requirements
