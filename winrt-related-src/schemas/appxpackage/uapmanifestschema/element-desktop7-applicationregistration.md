@@ -1,7 +1,7 @@
 ﻿---
 
 title: desktop7:ApplicationRegistration
-description: Registers an application.
+description: Registers an application, replacing the need to register the application in the system PATH variable.
 ms.date: 10/15/2021
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 

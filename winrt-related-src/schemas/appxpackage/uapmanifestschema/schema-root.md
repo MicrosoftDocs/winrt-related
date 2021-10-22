@@ -162,6 +162,26 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [desktop6:TriggerCustom](element-desktop6-triggercustom.md) | Describes a trigger event for the current service. |
 | [desktop6:UninstallActions](element-desktop6-uninstallactions.md) | Specifies installer files (.exe or .msi) that are run when the user uninstalls your desktop application. This element is currently intended to be used only by desktop PC games that are packaged in an MSIXVC container. |
 | [desktop6:UninstallAction](element-desktop6-uninstallaction.md) | Specifies an installer file (.exe or .msi) that is run when the user uninstalls your desktop application. This element is currently intended to be used only by desktop PC games that are packaged in an MSIXVC container.  |
+| [desktop7:ApplicationRegistration](element-desktop7-applicationregistration.md)| Registers an application, replacing the need to register the application in the system PATH variable. |
+| [desktop7:AppMigration](element-desktop7-appmigration.md)| Specifies the target of a deactivated shortcut that should be updated as part of the migration of a recently uninstalled app.|
+| [desktop7:AppMigrations](element-desktop7-appmigrations.md)| Specifies a set of app migration entries for a deactivated shortcut for a recently uninstalled app.|
+| [desktop7:ApprovedShellExtension](element-desktop7-approvedshellextension.md)| Specifies that a shell extension should be added to the approved shell extensions list when installed. |
+| [desktop7:ControlPanelItem](element-desktop7-controlpanelitem.md)| Registers an extension as a control panel item.|
+| [desktop7:DefaultIcon](element-desktop7-defaulticon.md)| Specifies the icon to show for this item in the Control Panel.|
+| [desktop7:DesktopApp](element-desktop7-desktopapp.md)| Specifies the source and target for a tile or pin that should be updated as part of a desktop app migration.|
+| [desktop7:DesktopAppMigration](element-desktop7-desktopappmigration.md)| Specifies a set of app migration entries for tiles and pins.|
+| [desktop7:ErrorReporting](element-desktop7-errorreporting.md)| Specifies a set of runtime exception helper modules.|
+| [desktop7:Extension (child of Application)](lement-desktop7-extension.md)| Declares an extensibility point for the app (in Package/Applications; desktop7:Extension).|
+| [desktop7:Extension (child of Package)](element-desktop7-package-extension.md)| Declares an extensibility point for the app (in Package/Extensions; desktop7:Extension).|
+| [desktop7:InfoTip](element-desktop7-infotip.md)| Specifies the Infotip string to show when the mouse hovers over the item’s icon.|
+| [desktop7:LocalizedString](element-desktop7-localizedstring.md)| Specifies the localized string to show for this item in the Control Panel.|
+| [desktop7:MailProvider](element-desktop7-mailprovider.md)| Registers a dll as a mail provider.|
+| [desktop7:RuntimeExceptionHelperModule](element-desktop7-runtimeexceptionhelpermodule.md)| Specifies a module that will be launched in the event of a runtime exception.|
+| [desktop7:Service](element-desktop7-service.md)| Specifies a service that is installed and registered along with the app. These services can be configured to run under either the Local Service, Network Service or Local System account.|
+| [desktop7:ShadowCopyExcludeFile](element-desktop7-shadowcopyexcludefile.md)| Specifies a file to be excluded by the Volume Shadow Copy Service (VSS).|
+| [desktop7:ShadowCopyExcludeFiles](element-desktop7-shadowcopyexcludefiles.md)| Specifies a set of files to be excluded by the Volume Shadow Copy Service (VSS).|
+| [desktop7:Shortcut](element-desktop7-shortcut.md)| Creates a shortcut to a file.|
+| [desktop7:SystemFileAssociatio](element-desktop7-systemfileassociation.md)| Registers system file associations for an app. |
 | [desktop9:FileExplorerClassicContextMenuHandler](element-desktop9-fileexplorerclassiccontextmenuhandler.md) | Registers a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) implementation of a context menu handler shell extension for a packaged desktop app.  |
 | [desktop9:FileExplorerClassicDragDropContextMenuHandler](element-desktop9-fileexplorerclassicdragdropcontextmenuhandler.md) | Registers a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) implementation of a drag and drop handler shell extension for a packaged desktop app.  |
 | [Device](element-device.md) | Declares a function for a device that is associated with the [**DeviceCapability**](element-devicecapability.md). On Windows 10.0.10240.0, a **DeviceCapability** can contain up to 100 **Device** elements. On Windows 10.0.10586.0, it can contain up to 1000 (for more details, see **DeviceCapability**). |

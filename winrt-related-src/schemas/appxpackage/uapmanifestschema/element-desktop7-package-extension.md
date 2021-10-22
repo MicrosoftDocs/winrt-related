@@ -2,7 +2,6 @@
 
 title: desktop7:Extension (in Package/Extensions)
 description: Declares an extensibility point for the app (in Package/Extensions; desktop7:Extension).
-
 ms.date: 10/20/2021
 ms.topic: reference
 

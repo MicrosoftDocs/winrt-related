@@ -1,7 +1,7 @@
 ﻿---
 
 title: desktop7:MailProvider
-description: Registers an extension as a mail provider.
+description: Registers a dll as a mail provider.
 ms.date: 10/15/2021
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
@@ -11,7 +11,7 @@ ms.custom: 19H1
 # desktop7:MailProvider
 
 ## Description
-Registers an extension as a mail provider.
+Registers a dll as a mail provider.
 
 ## Element Hierarchy
 <dl>

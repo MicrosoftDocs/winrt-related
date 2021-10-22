@@ -1,7 +1,7 @@
 ﻿---
 
 title: desktop7:SystemFileAssociation
-description: Registers an application.
+description: Registers system file associations for an app. 
 ms.date: 10/15/2021
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 

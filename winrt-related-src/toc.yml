@@ -520,9 +520,9 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-desktopappmigration.md
           - name: "desktop7:ErrorReporting"
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-errorreporting.md
-          - name: "desktop7:Extension (Application)"
+          - name: "desktop7:Extension (child of Application)"
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-extension.md
-          - name: "desktop7:Extension (Package)"
+          - name: "desktop7:Extension (child of Package)"
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-package-extension.md
           - name: "desktop7:InfoTip"
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-infotip.md
