@@ -20,7 +20,7 @@ The following sections list the namespaces and XML prefixes added to the package
 |---------------|-----------|
 | desktop9           | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/9` |
 
-## Windows 11 - Build 20348
+## Windows 10 - Build 20348
 ### Added namespaces and XML prefixes 
 | Prefix        | Namespace | 
 |---------------|-----------|
