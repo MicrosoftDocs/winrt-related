@@ -87,7 +87,7 @@ None.
 
 ## Remarks
 
-This feature requires that the latest version of the Microsoft App Installer app be installed on the target machine.
+This feature requires that the latest version of the Microsoft App Installer app be installed on the target machine. The app can be obtained from the [Microsoft Store](https://www.microsoft.com/en-us/store/apps/windows).
 
 ## Requirements
 
