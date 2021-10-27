@@ -85,6 +85,10 @@ None.
 </Package>
 ```
 
+## Remarks
+
+This feature requires that the latest version of the Microsoft App Installer app be installed on the target machine.
+
 ## Requirements
 
 
