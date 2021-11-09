@@ -73,7 +73,7 @@ None.
 
 ```XML
 <Package ...
-         xmlns:win32dependencies="TBD"  
+         xmlns:win32dependencies="http://schemas.microsoft.com/appx/manifest/externaldependencies"  
          IgnorableNamespaces="... win32dependencies">
     <Dependencies>  
         <TargetDeviceFamily Name="Windows.Universal" MinVersion="11.0.0.0" 
@@ -92,9 +92,9 @@ This feature requires that the latest version of the Microsoft App Installer app
 ## Requirements
 
 
-|               | Value                                                       |
+|     Namespace | Value                                                       |
 |---------------|-------------------------------------------------------------|
-| **Namespace** | `TBD` |
+| win32dependencies | "http://schemas.microsoft.com/appx/manifest/externaldependencies" |
 
  
 
