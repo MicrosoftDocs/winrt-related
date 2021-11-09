@@ -1,7 +1,7 @@
 ﻿---
 
 title: desktop7:Service
-description: Specifies a service that is installed and registered along with the app. These services can be configured to run under either the Local Service, Network Service or Local System account.
+description: Specifies a service that is installed and registered along with the app, adding delayedStart startup type. These services can be configured to run under either the Local Service, Network Service or Local System account.
 ms.date: 10/15/2021
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
@@ -43,7 +43,7 @@ Specifies a service that is installed and registered along with the app. These s
 ## Syntax
 ```xml
 <desktop7:Service   Name          =  A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
-                    StartupType   =  The following values are supported: auto, manual, disabled
+                    StartupType   =  The following values are supported: auto, manual, disabled, delayedStart
                     StartAccount  =  The following values are supported: localSystem, localServices, networkService.
                     Arguments?     =  A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. >
     desktop6:Dependencies{1,}
