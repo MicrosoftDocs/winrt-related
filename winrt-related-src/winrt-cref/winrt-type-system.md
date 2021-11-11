@@ -221,11 +221,11 @@ An enum must have public visibility.
 An enum is additively versionable. Subsequent versions of a given enum may add values (also known as named constants). Pre-existing values may not be removed or changed. Enum values optionally carry the VersionAttribute to distinguish when specific values were added to the enum type. Enum values without a VersionAttribute are considered to have the same version value as the enclosing enum type.
 
 ## Structs
-A struct is a record type with one or more fields. Structs are always passed and returned by value. Struct fields may only be enums, structs, and fundamental types (including strings).
+A struct is a record type with one or more fields. Structs are always passed and returned by value. Struct fields may only be primitives, enums, structs, strings, and [IReference<T>](/uwp/api/windows.foundation.ireference-1) (the latter two being the only two heap-allocated field types).
 
 Structs must have public visibility.
 
-A struct must have at least one field. All of a struct's fields must be public.
+In general, a struct must have at least one field (there are rare exceptions, such as types representing metadata contracts and attributes). All of a struct's fields must be public.
 
 A struct cannot be generic nor parameterized.
 

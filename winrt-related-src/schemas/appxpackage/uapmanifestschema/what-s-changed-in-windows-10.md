@@ -14,6 +14,18 @@ This topic lists changes to the package manifest schema reference for each versi
 
 The following sections list the namespaces and XML prefixes added to the package manifest schema in each update of Windows 10. To get the latest version of Windows 10, see [Download Windows 10](https://www.microsoft.com/software-download/windows10).
 
+## Windows 11 - Build 22000
+### Added namespaces and XML prefixes 
+| Prefix        | Namespace | 
+|---------------|-----------|
+| desktop9           | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/9` |
+
+## Windows 10 - Build 20348
+### Added namespaces and XML prefixes 
+| Prefix        | Namespace | 
+|---------------|-----------|
+| desktop7           | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |
+
 ## Windows 10, Version 2004
 ### Added namespaces and XML prefixes
 | Prefix   | Namespace |
@@ -92,11 +104,7 @@ The following sections list the namespaces and XML prefixes added to the package
 | rescap        | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities` |
 | serverpreview | `http://schemas.microsoft.com/appx/manifest/serverpreview/windows10` |  
 
-## Windows 11 - TBD
-### Added namespaces and XML prefixes 
-| Prefix        | Namespace | 
-|---------------|-----------|
-| desktop9           | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/9` |
+
 
 <!-- This section specifies changes from Windows 8.x to Windows 10. This information is probably no longer needed. 
 
