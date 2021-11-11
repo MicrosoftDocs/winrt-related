@@ -826,6 +826,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap10-installedlocationvirtualization.md
           - name: "uap10:UpdateActions"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-UpdateActions.md
+          - name: "win32dependencies:ExternalDependency"
+            href: schemas/appxpackage/uapmanifestschema/element-win32dependencies-externaldependency.md
           - name: "mobile:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-mobile-extension-manual.md
           - name: "mobile:AowApp"

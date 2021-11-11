@@ -41,6 +41,7 @@ The following list summarizes the allowed hierarchies for this schema, starting 
         -   [**uap5:DriverDependency**](element-uap5-driverdependency.md)
         -   [**uap7:OSPackageDependency**](element-uap7-ospackagedependency.md)
         -   [**uap10:HostRuntimeDependency**](element-uap10-hostruntimedependency.md)
+        -   [**win32dependencies:ExternalDependency**](element-win32dependencies-externaldependency.md)
     -   [**Capabilities**](element-capabilities.md)
         -   [**Capability**](element-capability.md)
         -   [**uap:Capability**](element-uap-capability.md)

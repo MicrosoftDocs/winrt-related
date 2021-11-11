@@ -88,6 +88,11 @@ None.
 <td><p>Defines a dependency on a host app package for the current app package.
 </p></td>
 </tr>
+<tr class="even">
+<td><a href="element-win32dependencies-externaldependency.md">win32dependencies:ExternalDependency</a> </td>
+<td><p>Specifies an external dependency that is not included in the MSIX but will be chain installed as part of the app installation. 
+</p></td>
+</tr>
 </tbody>
 </table>
 
