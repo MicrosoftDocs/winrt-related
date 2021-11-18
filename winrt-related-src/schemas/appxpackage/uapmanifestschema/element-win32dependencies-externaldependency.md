@@ -15,7 +15,7 @@ ms.date: 10/26/2021
 # win32dependencies:ExternalDependency (Windows 10, Windows 11)
 
 
-Specifies an external dependency that is not included in the MSIX but will be chain installed as part of the app installation. If the specified minimum version of the external dependency is not already installed on the OS, the Microsoft App Installer app will retrieve the minimum version from WinGet and install the dependency. Microsoft maintains a list of dependencies that can be installed using this method. For the list of allowed dependency packages, see TBD.
+Specifies an external dependency that is not included in the MSIX but will be chain installed as part of the app installation. If the specified minimum version of the external dependency is not already installed on the OS, the Microsoft App Installer app will retrieve the minimum version from an external repository. and install the dependency. Microsoft maintains a list of dependencies that can be installed using this method. 
 
 ## Element hierarchy
 
