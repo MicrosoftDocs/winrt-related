@@ -93,9 +93,9 @@ This feature requires that the latest version of the Microsoft App Installer app
 
 The following table lists the external dependencies that are currently allowed in the **ExternalDependency** element.
 
-| Package | Name attribute value |
-|---------|----------------|
-| Webview2 | Microsoft.WebView2 |
+| Package | Name attribute value | Publisher attribute value |
+|---------|----------------|------------------|
+| Webview2 | "Microsoft.WebView2" | "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" |
 
 
 ## Requirements
