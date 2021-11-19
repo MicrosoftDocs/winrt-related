@@ -61,6 +61,10 @@ Used for enabling the support of a barcode scanner.
 ### Child Elements
 None
 
+## Remarks
+
+If the **SupportsVideoPreview** attribute is true, indicating that the provider supports video preview, a **windows.barcodeScannerPreviewProvider** extension must also be specified in the manifest. 
+
 ## Requirements
 
 |   | Value |
