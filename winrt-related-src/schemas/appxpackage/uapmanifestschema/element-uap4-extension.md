@@ -40,7 +40,7 @@ Declares an extensibility point for the app.
 
 ## Syntax
 ```syntax
-<uap4:Extension Category       = "windows.sharedFonts" | "windows.userDataTaskDataProvider" | "windows.mediaCodec" | "windows.contactPanel" | "windows.loopbackAccessRules" | "windows.devicePortalProvider" | "windows.printWorkflowBackgroundTask"
+<uap4:Extension Category       = "windows.sharedFonts" | "windows.userDataTaskDataProvider" | "windows.mediaCodec" | "windows.contactPanel" | "windows.loopbackAccessRules" | "windows.devicePortalProvider" | "windows.printWorkflowBackgroundTask" | "windows.printWorkflowForegroundTask"
                    Executable?    = A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used.
                    EntryPoint?    = A string between 1 and 256 characters in length, representing the  task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead.
                    RuntimeType?   = A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *.
@@ -68,7 +68,7 @@ Declares an extensibility point for the app.
 ## Attributes
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
-| Category | The category of the extension. | One of the following:<ul><li>windows.sharedFonts</li><li>windows.userDataTaskDataProvider</li><li>windows.mediaCodec</li><li>windows.contactPanel</li><li>windows.loopbackAccessRules</li><li>windows.devicePortalProvider</li><li>windows.printWorkflowBackgroundTask</li></ul> | Yes |
+| Category | The category of the extension. | One of the following:<ul><li>windows.sharedFonts</li><li>windows.userDataTaskDataProvider</li><li>windows.mediaCodec</li><li>windows.contactPanel</li><li>windows.loopbackAccessRules</li><li>windows.devicePortalProvider</li><li>windows.printWorkflowBackgroundTask</li><li>windows.printWorkflowForegroundTask</li></ul> | Yes |
 | Executable | The default launch executable. | A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", &#124;, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | No |
 | EntryPoint | The activatable class ID. | A string between 1 and 256 characters in length, representing the task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |
 | RuntimeType | The runtime provider. This attribute is used typically when there are mixed frameworks in an app. | A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, &#124;, ?, or *. | No |
@@ -91,7 +91,7 @@ Declares an extensibility point for the app.
 | [DevicePortalProvider](element-uap4-devicePortalProvider.md) | Defines a Device Portal provider for deployment. |
 
 ## Remarks
-**windows.printWorkflowBackgroundTask** is an empty extension declaration that provides support for print scenarios. The background task entry point will initially be called by the print system to start handling print data, and the foreground task will be activated when requesting more information from the user.
+**windows.printWorkflowBackgroundTask** and **windows.printWorkflowForegroundTask** are empty extension declarations that provide support for print scenarios. The background task entry point will initially be called by the print system to start handling print data, and the foreground task will be activated when requesting more information from the user. The background entry point must be a class implementing [IBackgroundTask](/uwp/api/Windows.ApplicationModel.Background.IBackgroundTask).
 
 ## Requirements
 
