@@ -39,7 +39,7 @@ Declares an extensibility point for the app.
 
 ## Syntax
 ```syntax
-<uap6:Extension Category       = "windows.barcodeScannerProvider" | "windows.localExperiencePack"
+<uap6:Extension Category       = "windows.barcodeScannerProvider" | "windows.barcodeScannerPreviewProvider" | "windows.localExperiencePack"
                    Executable?    = A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used.
                    EntryPoint?    = A string between 1 and 256 characters in length, representing the  task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead.
                    RuntimeType?   = A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *.
@@ -63,7 +63,7 @@ Declares an extensibility point for the app.
 ## Attributes
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
-| Category | The category of the extension. | One of the following:<ul><li>windows.barcodeScannerProvider</li><li>windows.localExperiencePack</li></ul> | Yes |
+| Category | The category of the extension. | One of the following:<ul><li>windows.barcodeScannerProvider</li><li>windows.barcodeScannerPreviewProvider</li><li>windows.localExperiencePack</li></ul> | Yes |
 | Executable | The default launch executable. | A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", &#124;, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | No |
 | EntryPoint | The activatable class ID. | A string between 1 and 256 characters in length, representing the task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |
 | RuntimeType | The runtime provider. This attribute is used typically when there are mixed frameworks in an app. | A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, &#124;, ?, or *. | No |
@@ -81,6 +81,9 @@ Declares an extensibility point for the app.
 | [BarcodeScannerProvider](element-uap6-barcodescannerprovider.md) | Used for enabling the support of a barcode scanner. |  
 | [LocalExperiencePack](element-uap6-localexperiencepack.md) | This extension provides a means to deliver translated app resources. | 
 
+
+## Remarks
+**windows.barcodeScannerPreviewProvider** are empty extension declarations that provide support for barcode scanner scenarios. If the **SupportsVideoPreview** attribute of the **BarcodeScannerProvider** is true, indicating that the provider supports video preview, a **windows.barcodeScannerPreviewProvider** extension must also be specified. 
 
 ## Requirements
 
