@@ -15,7 +15,7 @@ ms.date: 10/26/2021
 # win32dependencies:ExternalDependency (Windows 10, Windows 11)
 
 
-Specifies an external dependency that is not included in the MSIX but will be chain installed as part of the app installation. If the specified minimum version of the external dependency is not already installed on the OS, the Microsoft App Installer app will retrieve the minimum version from WinGet and install the dependency. Microsoft maintains a list of dependencies that can be installed using this method. For the list of allowed dependency packages, see TBD.
+Specifies an external dependency that is not included in the MSIX but will be chain installed as part of the app installation. If the specified minimum version of the external dependency is not already installed on the OS, the Microsoft App Installer app will retrieve the minimum version from an external repository and install the dependency. Microsoft maintains a list of dependencies that can be installed using this method. See the Remarks section for the current list of allowed packages.
 
 ## Element hierarchy
 
@@ -88,6 +88,15 @@ None.
 ## Remarks
 
 This feature requires that the latest version of the Microsoft App Installer app be installed on the target machine. The app can be obtained from the [Microsoft Store](https://www.microsoft.com/en-us/store/apps/windows).
+
+### Allowed external dependencies
+
+The following table lists the external dependencies that are currently allowed in the **ExternalDependency** element.
+
+| Package | Name attribute value | Publisher attribute value |
+|---------|----------------|------------------|
+| Webview2 | "Microsoft.WebView2" | "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" |
+
 
 ## Requirements
 
