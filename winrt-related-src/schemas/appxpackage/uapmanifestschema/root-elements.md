@@ -251,6 +251,7 @@ The following list summarizes the allowed hierarchies for this schema, starting 
                         - [**desktop7:RuntimeExceptionHelperModule**](element-desktop7-runtimeexceptionhelpermodule.md)
                 -   [**desktop9:Extension**](element-desktop9-extension.md)
                     -   [**desktop9:FileExplorerClassicContextMenuHandler**](element-desktop9-fileexplorerclassiccontextmenuhandler.md)
+                        -   [**desktop9:ExtensionHandler**](element-desktop9-extensionhandler.md)
                     -   [**desktop9:FileExplorerClassicDragDropContextMenuHandler**](element-desktop9-fileexplorerclassicdragdropcontextmenuhandler.md)
                 -   [**rescap2:Extension**](element-rescap2-extension-manual.md)
                 -   [**rescap3:Extension**](element-rescap3-extension.md)

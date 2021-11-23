@@ -1,8 +1,6 @@
 ---
-
-
-title: desktop9:FileExplorerClassicContextMenuHandler
-description: Registers a legacy IContextMenu implementation of a context menu handler shell extension for a packaged desktop app.
+title: desktop9:ExtensionHandler
+description: Specifies a handler for a legacy IContextMenu implementation.
 ms.date: 09/17/2021
 ms.topic: reference
 
@@ -10,11 +8,11 @@ ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 
-# desktop9:FileExplorerClassicContextMenuHandler
+# desktop9:ExtensionHandler
 
 ## Description
 
-Registers a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) implementation of a context menu handler shell extension for a packaged desktop app.
+Specifies a handler for a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) implementation of a context menu handler shell extension for a packaged desktop app.
 
 ## Element Hierarchy
 
@@ -32,7 +30,12 @@ Registers a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_c
 <dd>
 <dl>
 <dt><a href="element-desktop9-extension.md">&lt;desktop9:Extension&gt;</a></dt>
-<dd><b>&lt;desktop9:FileExplorerClassicContextMenuHandler&gt;</b></dd>
+<dd>
+<dl>
+<dt><a href="element-desktop9-fileexplorerclassiccontextmenuhandler.md">&lt;desktop9:FileExplorerClassicContextMenuHandler&gt;</a></dt>
+<dd><b>&lt;desktop9:ExtensionHandler&gt;</b></dd>
+</dl>
+</dd>
 </dl>
 </dd>
 </dl>
@@ -45,24 +48,18 @@ Registers a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_c
 
 ## Syntax
 ```syntax
-<desktop9:FileExplorerClassicContextMenuHandler>
-    desktop9:ExtensionHandler{0,1000}
-</desktop9:FileExplorerClassicContextMenuHandler>
+<desktop9:ExtensionHandler Type = A string between 1 and 64 characters in length with a non-whitespace character at its beginning and end. 
+                   Clsid = A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. 
+>
+
+</desktop9:ExtensionHandler>
 ```
 
-### Key
-`{}` specific range of occurrences
-
-
-### Attributes
-
-None.
-
-### Child Elements
-
-| Child Element | Description |
-|---------------|-------------|
-| [desktop9:ExtensionHandler](element-desktop9-extensionhandler.md) | Specifies a handler for a legacy IContextMenu implementation. | 
+## Attributes
+| Attribute | Description | Data type | Required |
+|-----------|-------------|-----------|----------|
+| Type | The file type to associate the context menu handler with. | A string between 1 and 64 characters in length with a non-whitespace character at its beginning and end. | Yes |
+| Clsid | The CLSID of the COM server being registered. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |
 
 
 ## Remarks
@@ -71,7 +68,7 @@ Packaged desktop apps that use the legacy **IContextMenu** COM interface to impl
 
 ## Examples 
 
-The following example shows the usage of the **FileExplorerClassicDragDropContextMenuHandler** element within a package manifest file to register a context menu shell extension.
+The following example shows the usage of the **ExtensionHandler** element within a package manifest file to register a context menu shell extension.
 
 ```xml
 <desktop9:Extension Category="windows.fileExplorerClassicContextMenuHandler">
