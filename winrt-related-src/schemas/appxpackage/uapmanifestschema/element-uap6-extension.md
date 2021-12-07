@@ -83,7 +83,7 @@ Declares an extensibility point for the app.
 
 
 ## Remarks
-**windows.barcodeScannerPreviewProvider** are empty extension declarations that provide support for barcode scanner scenarios. If the **SupportsVideoPreview** attribute of the **BarcodeScannerProvider** is true, indicating that the provider supports video preview, a **windows.barcodeScannerPreviewProvider** extension must also be specified. 
+**windows.barcodeScannerPreviewProvider** is an empty extension declaration that provides support for barcode scanner scenarios. If the **SupportsVideoPreview** attribute of the **BarcodeScannerProvider** is true, indicating that the provider supports video preview, a **windows.barcodeScannerPreviewProvider** extension must also be specified. 
 
 ## Requirements
 
