@@ -544,6 +544,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-systemfileassociation.md
           - name: "desktop9:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-desktop9-extension.md
+          - name: "desktop9:ExtensionHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop9-extensionhandler.md
           - name: "desktop9:FileExplorerClassicContextMenuHandler"
             href: schemas/appxpackage/uapmanifestschema/element-desktop9-fileexplorerclassiccontextmenuhandler.md
           - name: "desktop9:FileExplorerClassicDragDropContextMenuHandler"
