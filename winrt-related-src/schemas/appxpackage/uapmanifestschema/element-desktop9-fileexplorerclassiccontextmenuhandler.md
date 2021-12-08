@@ -51,7 +51,7 @@ Registers a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_c
 ```
 
 ### Key
-`{}` specific range of occurrences
+`{}` A specific range of occurrences
 
 
 ### Attributes

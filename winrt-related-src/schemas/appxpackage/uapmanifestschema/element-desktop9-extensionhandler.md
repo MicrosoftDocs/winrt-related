@@ -35,6 +35,10 @@ Specifies a handler for a legacy [IContextMenu](/windows/win32/api/shobjidl_core
 <dt><a href="element-desktop9-fileexplorerclassiccontextmenuhandler.md">&lt;desktop9:FileExplorerClassicContextMenuHandler&gt;</a></dt>
 <dd><b>&lt;desktop9:ExtensionHandler&gt;</b></dd>
 </dl>
+<dl>
+<dt><a href="element-desktop9-fileexplorerclassicdragdropcontextmenuhandler.md">&lt;desktop9:FileExplorerClassicDragDropContextMenuHandler&gt;</a></dt>
+<dd><b>&lt;desktop9:ExtensionHandler&gt;</b></dd>
+</dl>
 </dd>
 </dl>
 </dd>

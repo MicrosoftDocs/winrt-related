@@ -46,18 +46,16 @@ Registers a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_c
 
 ## Syntax
 ```syntax
-<desktop9:FileExplorerClassicDragDropContextMenuHandler Type = A string between 1 and 64 characters in length with a non-whitespace character at its beginning and end. 
-                   Clsid = A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. 
->
-
+<desktop9:FileExplorerClassicDragDropContextMenuHandler>
+    desktop9:ExtensionHandler{0,1000}
 </desktop9:FileExplorerClassicDragDropContextMenuHandler>
 ```
 
+### Key
+`{}` A specific range of occurrences
+
 ## Attributes
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| Type | The file type to associate the context menu handler with.  | A string between 1 and 64 characters in length with a non-whitespace character at its beginning and end. | Yes |
-| Clsid | The CLSID of the COM server being registered. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |
+None.
 
 ## Remarks
 
@@ -70,8 +68,9 @@ The following example shows the usage of the **FileExplorerClassicDragDropContex
 ```xml
 <desktop9:Extension Category="windows.fileExplorerClassicDragDropContextMenuHandler">
     <desktop9:FileExplorerClassicDragDropContextMenuHandler>
+        <desktop9:ExtensionHandler Type="*" Clsid="<GUID-for-the-com-server>" />
+        <desktop9:ExtensionHandler Type=".txt" Clsid="<GUID-for-the-com-server>" />
         <desktop9:ExtensionHandler Type="Directory" Clsid="<GUID-for-the-com-server>" />
-        <desktop9:ExtensionHandler Type="Drive" Clsid="<GUID-for-the-com-server>" />
     </desktop9:FileExplorerClassicDragDropContextMenuHandler>
 </desktop9:Extension>
 ``` 
