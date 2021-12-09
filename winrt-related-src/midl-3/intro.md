@@ -820,7 +820,7 @@ Parameters of a method get their value from the specific *argument* that is spec
 > [!IMPORTANT]
 > The Common Language Runtime (CLR) has concepts and modifier keywords that might appear to be similar to the ones described in this section. However in practice those are unrelated, and the effect of these modifiers is specific to the design and functioning of the Windows Runtime.
 
-Value types are implicitly *input parameters*, and by default a copy of the argument is passed from the caller to the callee. Value parameters can be transformed into *output parmeters* with the `out` keyword; in that case the argument is marshaled instead from the callee back to the caller only.
+Value types are implicitly *input parameters*, and by default a copy of the argument is passed from the caller to the callee. Value parameters can be transformed into *output parameters* with the `out` keyword; in that case the argument is marshaled instead from the callee back to the caller only.
 
 ```idl
 runtimeclass Test
