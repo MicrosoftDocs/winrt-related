@@ -44,7 +44,7 @@ inline bool operator<(guid const& left, guid const& right) noexcept;
 ```
 
 ## Requirements
-**Minimum supported SDK:** Windows SDK version 10.0.17134.0 (Windows 10, version 1803)
+**Minimum supported SDK:** Windows SDK version 10.0.17763.0 (Windows 10, version 1809)
 
 **Namespace:** winrt
 
