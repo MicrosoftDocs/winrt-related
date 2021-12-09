@@ -30,7 +30,7 @@ A variadic template parameter pack containing the types of the runtime classes, 
 ### Parameters
 
 `id`
-A **winrt::guid** function object of type `F`.
+A [winrt::guid](/uwp/cpp-ref-for-winrt/guid) function object of type `F`.
 
 ### Return value
 `true` if *id* matches the GUID of one of the types *T*; otherwise, `false`.

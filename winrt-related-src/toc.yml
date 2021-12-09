@@ -2205,6 +2205,8 @@ items:
       href: cpp-ref-for-winrt/get-unknown.md
     - name: "GetRuntimeClassName function"
       href: cpp-ref-for-winrt/getruntimeclassname.md
+    - name: "guid struct"
+      href: cpp-ref-for-winrt/guid.md
     - name: "guid_of function template"
       href: cpp-ref-for-winrt/guid-of.md
     - name: "handle struct"

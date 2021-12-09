@@ -28,7 +28,7 @@ The type of the runtime class, coclass, or interface whose GUID you wish to retr
 
 ### Return value 
 
-A **winrt::guid** value containing the globally unique identifier of `T`.
+A [winrt::guid](/uwp/cpp-ref-for-winrt/guid) value containing the globally unique identifier of `T`.
 
 ## Requirements
 

@@ -37,6 +37,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [event_token struct](event-token.md) | A token returned when registering an event-handling delegate with an event; can be used to revoke the registration of the same delegate. |
 | [file_handle struct](file-handle.md) | Represents a Windows file handle object. |
 | [fire_and_forget struct](fire-and-forget.md) | Use this return type to make your coroutine a fire-and-forget one. |
+| [guid struct](guid.md) | Represents a globally-unique identifier ([GUID](/windows/win32/api/guiddef/ns-guiddef-guid)). |
 | [handle struct](handle.md) | Represents a Windows handle object. |
 | [handle_type struct template](handle-type.md) | The template for the [**winrt::handle**](handle.md) and [**winrt::file_handle**](file-handle.md) structs. |
 | [hstring struct](hstring.md) | A sequential collection of UTF-16 Unicode characters representing a text string. |
