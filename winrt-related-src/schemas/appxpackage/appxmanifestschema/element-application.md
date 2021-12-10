@@ -79,7 +79,7 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 <tbody>
 <tr class="odd">
 <td><strong>EntryPoint</strong></td>
-<td><p>The activatable class ID, such as &quot;&quot;Office.Winword.Class&quot;.</p>
+  <td><p>The activatable class ID, such as &quot;&quot;Office.Winword.Class&quot;.</p><p>For desktop apps, this value should be the actual entry point of the executable, such as "main", "WinMain", or "wWinMain".</p>
 <p>If you specify this attribute, you must also specify the <strong>Executable</strong> attribute. If you specify this attribute you must not specify the <strong>StartPage</strong> attribute.</p></td>
 <td>A string between 1 and 256 characters in length, representing the task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead.</td>
 <td>No</td>
