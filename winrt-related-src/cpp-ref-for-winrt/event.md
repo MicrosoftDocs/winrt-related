@@ -10,7 +10,6 @@ ms.topic: "language-reference"
 
 
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, event, delegate
-ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 

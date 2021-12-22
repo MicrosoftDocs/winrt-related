@@ -6,7 +6,6 @@ title: Advanced topics, and shorthand
 ms.date: 08/07/2019
 ms.topic: reference
 keywords: windows 10, uwp, winrt, api, reference, idl, midl, 3.0, 3, midl3
-ms.localizationpriority: medium
 ---
 
 # Advanced topics, and shorthand
