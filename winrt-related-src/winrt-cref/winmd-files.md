@@ -6,7 +6,6 @@ description: Windows Metadata (WinMD) files.
 ms.topic: reference
 ms.date: 01/25/2019
 keywords: windows 10, uwp, winrt, type, system
-ms.localizationpriority: medium
 ---
 
 # Windows Metadata (WinMD) files

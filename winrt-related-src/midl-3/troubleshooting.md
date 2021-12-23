@@ -6,7 +6,6 @@ title: Troubleshooting Microsoft Interface Definition Language 3.0 issues
 ms.date: 03/31/2018
 ms.topic: reference
 keywords: windows 10, uwp, winrt, api, reference, idl, midl, 3.0, 3, midl3, troubleshooting
-ms.localizationpriority: medium
 ---
 
 # Troubleshooting Microsoft Interface Definition Language 3.0 issues
