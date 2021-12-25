@@ -789,8 +789,8 @@ parameters. The signature of a method doesn't include the return type.
 #### Method visibility modifiers
 A *method* may have one of two optional visibility modifiers when the method is present in a derived class.
 
-The *overridable* modifier states that this method overrides a
-method with the same name and signature in a base class.
+The *overridable* modifier states that this method may be overridden by a
+method with the same name and signature in a subclass.
 
 The *protected* modifier states that this method is only accessible
 by members in a subsequently derived class.
