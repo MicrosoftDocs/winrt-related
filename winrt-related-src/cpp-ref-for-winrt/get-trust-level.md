@@ -7,7 +7,6 @@ dev_langs: ["C++"]
 ms.date: 05/01/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, trust, level, IInspectable, GetTrustLevel
-ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 

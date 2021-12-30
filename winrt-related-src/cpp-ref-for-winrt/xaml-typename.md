@@ -7,7 +7,6 @@ dev_langs: ["C++"]
 ms.date: 04/10/2018
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, navigation, typename
-ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 

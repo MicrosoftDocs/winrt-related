@@ -7,7 +7,6 @@ dev_langs: ["C++"]
 ms.date: 01/04/2019
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, array, view, array_view, span
-ms.localizationpriority: medium
 ms.workload: ["cplusplus"]
 ---
 
