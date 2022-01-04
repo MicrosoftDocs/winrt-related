@@ -16,6 +16,8 @@ A factory method that returns a [com_ptr](com-ptr.md) to an instance of the impl
 
 If you're authoring a runtime class then, from within the same compilation unit, you can use **make_self** to construct an instance of the implementation type for the runtime class. Assign the return value from **make_self** to a [com_ptr](com-ptr.md) of your implementation type so that you manage the lifetime of the object appropriately.
 
+Also see [Opt in to uniform construction, and direct implementation access](/windows/uwp/cpp-and-winrt-apis/author-apis#opt-in-to-uniform-construction-and-direct-implementation-access).
+
 ## Syntax
 ```cppwinrt
 template <typename D, typename... Args>

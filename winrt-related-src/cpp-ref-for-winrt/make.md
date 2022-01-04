@@ -22,6 +22,8 @@ A factory method that, when a [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/intro-
 
 For an explanation of the implementation type and projected type concepts, see [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis) and [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis). For more details, code, and a walkthrough of calling **make** in practice, see [XAML; binding a control to C++/WinRT properties and collections](/windows/uwp/cpp-and-winrt-apis/binding-property#add-a-property-of-type-bookstoreviewmodel-to-mainpage). Also see [make_self](make-self.md), which returns a [*com_ptr*](com-ptr.md) to an instance of the *implementation* type instead.
 
+Also see [Opt in to uniform construction, and direct implementation access](/windows/uwp/cpp-and-winrt-apis/author-apis#opt-in-to-uniform-construction-and-direct-implementation-access).
+
 ## Syntax
 ```cppwinrt
 template <typename D, typename... Args>
