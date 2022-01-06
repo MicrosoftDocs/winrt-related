@@ -55,7 +55,7 @@ If there *are* features or functionality of a COM component that you wish to exp
 The key organizational concepts in a MIDL 3.0 definition are namespaces, types, and members. A MIDL 3.0 source file (an `.idl` file) contains at least one namespace, inside which are types and/or subordinate namespaces. Each type contains zero or more members.
 
 - Classes, interfaces, structures, and enumerations are types.
-- Fields, methods, properties, and events are examples of members.
+- Methods, properties, events, and fields are examples of members.
 
 When you compile a MIDL 3.0 source file, the compiler (`midl.exe`) emits a Windows Runtime metadata file (typically a `.winmd` file).
 
@@ -346,7 +346,7 @@ MIDL 3.0 source files use type definitions to create new types. A type definitio
 
 An *attribute* type defines a Windows Runtime attribute that can be applied to other type definitions. An attribute provides metadata about the type to which the attribute is applied.
 
-A *struct* type defines a Windows Runtime structure that contains data members. Structs are value types, and they do not require heap allocation. A data member of a struct type must either be a value type or a nullable type. Struct types do not support inheritance.
+A *struct* type defines a Windows Runtime structure that contains data members (fields). Structs are value types, and they do not require heap allocation. A data member of a struct type must either be a value type or a nullable type. Struct types do not support inheritance.
 
 An *interface* type defines a Windows Runtime interface, which is a named set of function members. An interface may specify that an implementation of the interface must also implement of one or more specified additional (required) interfaces. Every interface type directly derives from the Windows Runtime [**IInspectable**](/windows/win32/api/inspectable/nn-inspectable-iinspectable) interface.
 
@@ -646,9 +646,9 @@ for a class, then you cannot directly instantiate the class. For such a class, y
 The exception is unsealed classes. An unsealed class can have one or more protected constructors.
 
 #### Properties
-*Properties* are conceptually similar to fields. Both are a member with a name and an associated type. However, unlike fields, properties do not denote storage locations. Instead, properties have *accessors* that specify the function to be executed when you read or write a property.
+*Properties* are conceptually similar to fields (for example, C# fields; or the fields of a MIDL 3.0 struct). Both properties and fields are members with a name and an associated type. However, unlike fields, properties don't denote storage locations. Instead, properties have *accessors* that specify the function to be executed when you read or write a property.
 
-A property is declared like a field, except that the declaration ends with a `get` keyword and/or a `set` keyword written between the delimiters { and }, and ending in a semicolon.
+A property is declared like a struct's field, except that the declaration ends with a `get` keyword and/or a `set` keyword written between the delimiters { and }, and ending in a semicolon.
 
 A property that has both a `get` keyword and a `set` keyword is a *read-write property*. A property that has only a `get` keyword is a *read-only property*. The Windows Runtime doesn't support write-only properties.
 
@@ -738,9 +738,7 @@ Color SurfaceColor { set; get; };
 ```
 
 ##### Static and instance properties
-Similar to fields and methods, MIDL 3.0 supports both instance
-properties and static properties. Static properties are declared with
-the `static` modifier prefixed, and instance properties are declared without it.
+Similar to methods, MIDL 3.0 supports both instance properties and static properties. Static properties are declared with the `static` modifier prefixed, and instance properties are declared without it.
 
 #### Methods
 A *method* is a member that implements a computation or action that
@@ -1012,7 +1010,7 @@ Also see [Delegates returning HRESULT](advanced.md#delegates-returning-hresult).
 
 ### Structs
 
-A *struct* is a data structure that can contain data members. But, unlike a class, a struct is a value type.
+A *struct* is a data structure that can contain data members (fields). But, unlike a class, a struct is a value type.
 
 Structs are particularly useful for small data structures that have value semantics. Complex numbers, or points in a coordinate system, are good examples of structs. The use of structs rather than classes for small data structures can make a large difference in the number of memory allocations that an application performs.
 
