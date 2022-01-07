@@ -7,7 +7,7 @@ keywords: windows 10, uwp, winrt, api, reference, idl, midl, 3.0, 3, midl3
 ---
 
 # Introduction to Microsoft Interface Definition Language 3.0
-Microsoft Interface Definition Language (MIDL) 3.0 is a simplified, modern syntax for defining Windows Runtime types inside Interface Definition Language (IDL) files (`.idl` files). This new syntax will feel familiar to anyone experienced with C, C++, C#, and/or Java. MIDL 3.0 is a particularly convenient way to define [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) runtime classes, being dramatically more concise than previous versions of IDL (reducing designs by two thirds in length, and using reasonable defaults to reduce the need for decorating with attributes).
+Microsoft Interface Definition Language (MIDL) 3.0 is a simplified, modern syntax for defining Windows Runtime types inside of Interface Definition Language (IDL) files (`.idl` files). This new syntax will feel familiar to anyone experienced with C, C++, C#, and/or Java. MIDL 3.0 is a particularly convenient way to define [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/index) runtime classes, being dramatically more concise than previous versions of IDL (reducing designs by two thirds in length, and using reasonable defaults to reduce the need for decorating with attributes).
 
 Here's how MIDL 3.0 looks; this example demonstrates most of the language syntax elements that you'll likely use.
 
@@ -637,7 +637,7 @@ runtimeclass Test
 }
 ```
 
-For details on the syntax for parameter lists, see [Methods](#methods) below.
+For details on the syntax for parameter lists, see [Methods](#methods) below.
 
 Instance properties, methods, and events are inherited. Instance constructors are not inherited (with one exception), and a class has no instance constructors other than those
 actually declared in the class. If no instance constructor is supplied
@@ -1231,11 +1231,11 @@ runtimeclass Widget
 }
 ```
 
-Attributes implemented as part of Windows itself are usually in the **Windows.Foundation** namespace.
+Attributes implemented as part of Windows itself are usually in the **Windows.Foundation** namespace.
 
-As shown in the first example, you use the `[attributeusage(<target>)]` attribute on your attribute definition. Valid target values are `target_all`, `target_delegate`, `target_enum`, `target_event`, `target_field`, `target_interface`, `target_method`, `target_parameter`, `target_property`, `target_runtimeclass`, and `target_struct`. You can include multiple targets within the parentheses, separated by commas.
+As shown in the first example, you use the `[attributeusage(<target>)]` attribute on your attribute definition. Valid target values are `target_all`, `target_delegate`, `target_enum`, `target_event`, `target_field`, `target_interface`, `target_method`, `target_parameter`, `target_property`, `target_runtimeclass`, and `target_struct`. You can include multiple targets within the parentheses, separated by commas.
 
-Other attributes you can apply to an attribute are `[allowmultiple]` and `[attributename("<name>")]`.
+Other attributes you can apply to an attribute are `[allowmultiple]` and `[attributename("<name>")]`.
 
 ## Parameterized types
 
