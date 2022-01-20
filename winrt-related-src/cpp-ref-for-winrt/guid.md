@@ -33,8 +33,8 @@ struct guid
         operator GUID const&() const noexcept;
 #endif
 
-        constexpr explicit guid(std::string_view const value) noexcept;
-        constexpr explicit guid(std::wstring_view const value) noexcept;
+        constexpr explicit guid(std::string_view const value);
+        constexpr explicit guid(std::wstring_view const value);
 };
 
 inline bool operator==(guid const& left, guid const& right) noexcept;
