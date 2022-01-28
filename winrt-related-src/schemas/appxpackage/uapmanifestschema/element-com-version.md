@@ -58,7 +58,7 @@ Version number and additional information about the type library.
 <com:Version
     VersionNumber = One to three alphanumeric characters separated by a period followed by one to three more alphanumeric characters, e.g., 1.5a
     LocaleId? = A string in hexadecimal format containing numbers or the letters a, b, c, d, e, f (capital or lower case).
-    LibraryFlag? = An integer value in the range of 0 to 15.
+    LibraryFlag? = A string in hexadecimal format containing numbers or the letters a, b, c, d, e, f (capital or lower case).
     HelpDirectory? = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. >
 
   <!-- Child elements -->
@@ -76,7 +76,7 @@ Version number and additional information about the type library.
 |-----------|-------------|-----------|----------|
 | VersionNumber | The name of the version number. | One to three alphanumeric characters separated by a period followed by one to three more alphanumeric characters, e.g., 1.5a | Yes |
 | LocaleId | An Id representing geographic location. | A string in hexadecimal format containing numbers or the letters a, b, c, d, e, f (capital or lower case). | No |
-| LibraryFlag | An integer value from the [LIBFLAGS](/windows/win32/api/oaidl/ne-oaidl-libflags) enumeration. | An integer value in the range of 0 to 15. | No |
+| LibraryFlag | An integer value from the [LIBFLAGS](/windows/win32/api/oaidl/ne-oaidl-libflags) enumeration. | A string in hexadecimal format containing numbers or the letters a, b, c, d, e, f (capital or lower case). | No |
 | HelpDirectory | The HELPDIR subkey. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
 
 ## Child Elements
