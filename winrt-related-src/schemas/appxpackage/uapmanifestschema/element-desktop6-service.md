@@ -44,7 +44,7 @@ Specifies a service that is installed and registered along with the app. These s
 ## Syntax
 ```xml
 <desktop6:Service   Name          =  A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
-                    StartupType   =  The following values are supported: auto, manual, disabled
+                    StartupType   =  The following values are supported: auto, manual, disabled, delayedStart
                     StartAccount  =  The following values are supported: localSystem, localServices, networkService.
                     Arguments?     =  A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. >
     desktop6:Dependencies?
@@ -62,7 +62,7 @@ Specifies a service that is installed and registered along with the app. These s
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | Name | The name of the service. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |
-| StartupType  | The startup type for the service.  | The following values are supported: **auto**, **manual**, **disabled**  | Yes |
+| StartupType  | The startup type for the service.  | The following values are supported: **auto**, **manual**, **disabled**, **delayedStart**  | Yes |
 | StartAccount | The type of account in which to run the service. | The following values are supported: **localSystem**, **localServices**, **networkService** | Yes |
 | Arguments | Optional arguments to pass to the service. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
 
