@@ -84,7 +84,7 @@ Describes the visual aspects of the app: its default tile, logo images, text and
 <tbody>
 <tr class="odd">
 <td><strong>AppListEntry</strong></td>
-<td><p>The entry in the All Apps List.</p></td>
+<td><p>The entry in the All Apps List. Select none for entry points that do not need start menu tiles.</p></td>
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li>default</li>
