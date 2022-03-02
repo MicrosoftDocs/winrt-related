@@ -7,7 +7,7 @@ ms.topic: reference
 ms.date: 03/01/2022
 ---
 
-# command
+# input
 
 Specifies an input shown in a toast.
 

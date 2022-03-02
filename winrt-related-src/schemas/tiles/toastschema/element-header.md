@@ -9,7 +9,7 @@ ms.topic: reference
 ms.date: 03/01/2022
 ---
 
-# commands
+# header
 
 Specifies a custom header that groups multiple notifications together within Action Center.
 

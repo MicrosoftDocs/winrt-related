@@ -142,7 +142,7 @@ Base toast element, which contains at least a single [**visual**](element-visual
 </tr>
 </tr>
 <tr class="even">
-<td><a href="element-actions.md">visual</a> </td>
+<td><a href="element-actions.md">actions</a> </td>
 <td><p>Container element for declaring up to five inputs and up to five button actions for the toast notification.</p></td>
 </tr>
 </tr>

@@ -9,7 +9,7 @@ ms.date: 03/01/2022
 
 # progress
 
-Specifies a progress bar for a toast notifcation. Only supported on toasts on Desktop, build 15063 or later.
+Specifies a progress bar for a toast notification. Only supported on toasts on Desktop, build 15063 or later.
 
 ## Element hierarchy
 
