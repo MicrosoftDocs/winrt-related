@@ -2071,6 +2071,22 @@ items:
             href: schemas/tiles/toastschema/element-commands.md
           - name: "command"
             href: schemas/tiles/toastschema/element-command.md
+          - name: "action"
+            href: schemas/tiles/toastschema/element-action.md
+          - name: "actions"
+            href: schemas/tiles/toastschema/element-actions.md
+          - name: "group"
+            href: schemas/tiles/toastschema/element-group.md
+          - name: "subgroup"
+            href: schemas/tiles/toastschema/element-subgroup.md
+          - name: "header"
+            href: schemas/tiles/toastschema/element-header.md
+          - name: "input"
+            href: schemas/tiles/toastschema/element-input.md
+          - name: "progress"
+            href: schemas/tiles/toastschema/element-progress.md
+          - name: "selection"
+            href: schemas/tiles/toastschema/element-selection.md
       - name: "Badge schema"
         href: schemas/tiles/badgeschema/schema-root.md
         items: 
