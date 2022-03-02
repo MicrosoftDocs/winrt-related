@@ -1,0 +1,82 @@
+---
+description: Specifies a progress bar for a toast notifcation. Only supported on toasts on Desktop, build 15063 or later.
+Search.Product: eADQiWindows 10XVcnh
+title: progress
+keywords: windows 10, uwp, schema, toast notifications
+ms.topic: reference
+ms.date: 03/01/2022
+---
+
+# progress
+
+Specifies a progress bar for a toast notifcation. Only supported on toasts on Desktop, build 15063 or later.
+
+## Element hierarchy
+
+<dl>
+<dt><a href="element-toast.md">&lt;toast&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-visual.md">&lt;visual&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-binding.md">&lt;binding&gt;</a></dt>
+<dd><b>&lt;progress&gt;</b></dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+
+
+## Syntax
+
+``` syntax
+<progress title? = string
+    status = string
+    value = string
+    valueStringOverride? = string
+/>
+```
+
+### Key
+
+`?`   optional (zero or one)
+
+## Attributes and Elements
+
+
+### Attributes
+
+| Attribute | Description | Data type | Required | Default value |
+|-----------|-------------|-----------|----------|---------------|
+| title   | An optional title string.  | string    | No      | None          |
+| status      | A status string that is displayed underneath the progress bar on the left. This string should reflect the status of the operation, like "Downloading..." or "Installing..."  | string   | Yes      | None          |
+| value | The value of the progress bar.  | string | Yes | 0 |
+| valueStringOverride | An optional string to be displayed instead of the default percentage string. If this isn't provided, something like "70%" will be displayed. | string | No | None |
+
+
+### Child Elements
+
+None
+
+### Parent Elements
+
+| Parent Element | Description |
+|----------------|-------------|
+| [binding](element-binding.md) | Specifies the toast template. Note that only one binding element can be included in a toast notification. |
+
+## See also
+
+[Alarm notifications sample](/samples/browse/)
+[Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
+
+## Requirements
+
+|          | Value |
+|----------|--------------|
+| **Namespace** | `http://schemas.microsoft.com/notifications/2012/toast.xsd` |
+
+ 
+
+ 

@@ -23,9 +23,17 @@ The following list summarizes the allowed hierarchies for this schema, starting 
         -   [binding](element-binding.md)
             -   [image](element-image.md)
             -   [text](element-text.md)
+            -   [progress](element-progress.md)
+            -   [group](element-group.md)
+                -   [subgroup](element-subgroup.md)
     -   [audio](element-audio.md)
     -   [commands](element-commands.md)
         -   [command](element-command.md)
+    -   [actions](element-actions.md)
+        -   [action](element-action.md)
+        -   [input](element-input.md)
+            -   [selection](element-selection.md)
+    -   [header](element-header.md)
 
  
 

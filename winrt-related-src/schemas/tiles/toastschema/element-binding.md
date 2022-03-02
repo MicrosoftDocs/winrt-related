@@ -13,9 +13,6 @@ ms.date: 04/05/2017
 
 # binding (Toast schema)
 
-
-
-
 Specifies the toast template. Note that only one binding element can be included in a toast notification.
 
 ## Element hierarchy
@@ -43,6 +40,8 @@ Specifies the toast template. Note that only one binding element can be included
   <!-- Child elements -->
   ( image
   | text
+  | group
+  | progress
   )*
 
 </binding>
@@ -161,6 +160,20 @@ Specifies the toast template. Note that only one binding element can be included
 </tr>
 <tr class="even">
 <td><a href="element-text.md">text</a> </td>
+<td><p>Specifies text used in the toast template.</p></td>
+</tr>
+</tbody>
+</table>
+
+<tr class="odd">
+<td><a href="element-group.md">group</a> </td>
+<td><p>Semantically identifies that the content in the group must either be displayed as a whole, or not displayed if it cannot fit. Groups also allow creating multiple columns.</p></td>
+</tr>
+</tbody>
+</table>
+
+<tr class="even">
+<td><a href="element-progress.md">progress</a> </td>
 <td><p>Specifies text used in the toast template.</p></td>
 </tr>
 </tbody>

@@ -38,7 +38,8 @@ Specifies an image used in the toast template.
 <image id             = integer
        src            = string
        alt?           = string
-       addImageQuery? = boolean />
+       addImageQuery? = boolean 
+       placement? = "appLogoOverride" | "hero"/>
 ```
 
 ### Key
@@ -107,6 +108,14 @@ Specifies an image used in the toast template.
 </ul></td>
 <td>string</td>
 <td>Yes</td>
+<td>None</td>
+</tr>
+<tr class="even">
+<td><strong>placement</strong></td>
+<td><p>The placement of the image.</p> <ul><li>"appLogoOverride" - The image replaces your app's logo in the toast notification.</li><li>"hero" - The image is displayed as a hero image. </li></ul><p>For more information, see <a href="/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts">Toast content</a>.</p></li>
+</ul></td>
+<td>string</td>
+<td>No</td>
 <td>None</td>
 </tr>
 </tbody>
