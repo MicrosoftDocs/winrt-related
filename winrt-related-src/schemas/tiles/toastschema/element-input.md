@@ -48,7 +48,7 @@ Specifies an input, either text box or selection menu, shown in a toast notifica
 |-----------|-------------|-----------|----------|---------------|
 | id        | The ID associated with the input.  | string    | Yes      | None          |
 | type      | The type of input. | string - This attribute can have one of the following values: "text", "selection"   | Yes      | None          |
-| placeHolderContent | The placeholder displayed for text input. | string   | Yes      | None          |
+| placeHolderContent | The placeholder displayed for text input. | string   | No      | None          |
 
 ### Child Elements
 
