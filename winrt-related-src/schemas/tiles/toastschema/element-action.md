@@ -48,7 +48,7 @@ Specifies a button shown in a toast.
 
 | Attribute | Description | Data type | Required | Default value |
 |-----------|-------------|-----------|----------|---------------|
-| content   | The content of displayed on the button | string    | Yes      | None          |
+| content   | The content displayed on the button. | string    | Yes      | None          |
 | type      | An argument string that can be passed to the associated app to provide specifics about the action that it should execute in response to the user action.  | string   | Yes      | None          |
 | activationType | TBD | string | No | None |
 | placement | TBD | string | No | None |
@@ -69,8 +69,9 @@ None
 
 ## See also
 
-[Alarm notifications sample](/samples/browse/)
 [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
+[Notifications Visualizer](windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
+
 
 ## Requirements
 

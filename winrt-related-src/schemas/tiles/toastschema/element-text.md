@@ -132,6 +132,11 @@ The body of the text element can be expressed in two ways:
 
 For more information, see [Globalizing your tile: localization, scaling, and accessibility](/previous-versions/windows/apps/hh831183(v=win.10)).
 
+## See also
+
+[Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
+[Notifications Visualizer](windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
+
 ## Requirements
 
 |          | Value |

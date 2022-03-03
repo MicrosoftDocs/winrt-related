@@ -208,6 +208,11 @@ Specifies the toast template. Note that only one binding element can be included
 
 To see examples of each of the toast templates, see the [toast template catalog](/previous-versions/windows/apps/hh761494(v=win.10)).
 
+## See also
+
+[Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
+[Notifications Visualizer](windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
+
 ## Requirements
 
 |          | Value |

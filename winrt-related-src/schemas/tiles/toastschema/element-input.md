@@ -1,5 +1,5 @@
 ---
-description: Specifies an input shown in a toast.
+description: Specifies an input, either text box or selection menu, shown in a toast notification.
 Search.Product: eADQiWindows 10XVcnh
 title: input
 keywords: windows 10, uwp, schema, toast notifications
@@ -9,7 +9,7 @@ ms.date: 03/01/2022
 
 # input
 
-Specifies an input shown in a toast.
+Specifies an input, either text box or selection menu, shown in a toast notification.
 
 ## Element hierarchy
 
@@ -46,14 +46,14 @@ Specifies an input shown in a toast.
 | Attribute | Description | Data type | Required | Default value |
 |-----------|-------------|-----------|----------|---------------|
 | id        | The ID associated with the input.  | string    | Yes      | None          |
-| type      | The tye of input. | string - This attribute can have one of the following values: "text", "selection"   | Yes      | None          |
-| placeHolderContent | TBD | string   | Yes      | None          |
+| type      | The type of input. | string - This attribute can have one of the following values: "text", "selection"   | Yes      | None          |
+| placeHolderContent | The placeholder displayed for text input. | string   | Yes      | None          |
 
 ### Child Elements
 
 | Child Element | Description |
 |---------------|-------------|
-| [selection](element-input.md) | Specifies the id and text of a selection item. |
+| [selection](element-selection.md) | Specifies the id and text of a selection item. |
 
 ### Parent Elements
 
@@ -63,8 +63,8 @@ Specifies an input shown in a toast.
 
 ## See also
 
-[Alarm notifications sample](/samples/browse/)
 [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
+[Notifications Visualizer](windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
 
 ## Requirements
 

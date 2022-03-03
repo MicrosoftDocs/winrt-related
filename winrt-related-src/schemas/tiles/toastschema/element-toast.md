@@ -159,6 +159,11 @@ Base toast element, which contains at least a single [**visual**](element-visual
 
 This outermost (document) element may not be contained by any other elements.
 
+## See also
+
+[Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
+[Notifications Visualizer](windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
+
 ## Requirements
 
 |          | Value |

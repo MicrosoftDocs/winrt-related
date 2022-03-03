@@ -61,8 +61,8 @@ None
 
 ## See also
 
-[Alarm notifications sample](/samples/browse/)
 [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
+[Notifications Visualizer](windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
 
 ## Requirements
 
