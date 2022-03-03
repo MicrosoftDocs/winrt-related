@@ -28,7 +28,7 @@ Specifies a button shown in a toast.
 ``` syntax
 <action content = string
     arguments = string
-    activationType? = string 
+    activationType? = "foreground" | "background" | "protocol"
     placement = TBD
     imageUri = TBD
     hint-inputid = TBD
@@ -49,8 +49,9 @@ Specifies a button shown in a toast.
 | Attribute | Description | Data type | Required | Default value |
 |-----------|-------------|-----------|----------|---------------|
 | content   | The content displayed on the button. | string    | Yes      | None          |
+| arguments   | App-defined string of arguments that the app will later receive if the user clicks this button. | string    | Yes      | None          |
 | type      | An argument string that can be passed to the associated app to provide specifics about the action that it should execute in response to the user action.  | string   | Yes      | None          |
-| activationType | TBD | string | No | None |
+| activationType | Decides the type of activation that will be used when the user interacts with a specific action. <ul>"foreground" - Default value. Your foreground app is launched.<li></li><li>"background" - Your corresponding background task is triggered, and you can execute code in the background without interrupting the user.</li><li>"protocol" - Launch a different app using protocol activation.</li></ul> | string | No | "foreground" |
 | placement | TBD | string | No | None |
 | imageUri | TBD | string | No | None |
 | hint-inputId | TBD | string | No | None |
