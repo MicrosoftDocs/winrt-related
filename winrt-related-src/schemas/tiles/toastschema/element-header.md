@@ -27,7 +27,7 @@ Specifies a custom header that groups multiple notifications together within Act
     title = string
     arguments = string 
     activationType? = "foreground" | "protocol"
-    activationOptions? = TBD
+    activationOptions? = string
 />
 ```
 
@@ -46,7 +46,7 @@ Specifies a custom header that groups multiple notifications together within Act
 | title      | A title for the header.  | string   | Yes      | None          |
 | arguments | A developer-defined string of arguments that is returned to the app when the user clicks this header. Cannot be null. | string | Yes | None |
 | activationType | The type of activation this header will use when clicked. | string | No | "foreground" |
-| activationOptions | Additional options relating to activation of the toast header. | TBD | No | None |
+| activationOptions | Additional options relating to activation of the toast header. | Additional options relating to activation of the toast header. | No | None |
 
 ### Child Elements
 

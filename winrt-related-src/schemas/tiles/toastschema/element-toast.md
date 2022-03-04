@@ -27,7 +27,7 @@ Base toast element, which contains at least a single [**visual**](element-visual
 ``` syntax
 <toast launch?   = string
       duration? = "long" | "short" 
-      displayTimeStamp? = tbd
+      displayTimeStamp? = string
       scenario? = "reminder" | "alarm" | "incomingCall" | "urgent" 
       useButtonStyle? = boolean>
 
