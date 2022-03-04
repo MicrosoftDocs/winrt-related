@@ -162,8 +162,8 @@ Contains a single [**binding**](../tilesschema/element-binding.md) element that 
 
 ## See also
 
-[Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
-[Notifications Visualizer](/windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
+* [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
+* [Notifications Visualizer](/windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
 
 
 ## Requirements
