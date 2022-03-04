@@ -52,7 +52,7 @@ Specifies a progress bar for a toast notification. Only supported on toasts on D
 |-----------|-------------|-----------|----------|---------------|
 | title   | An optional title string.  | string    | No      | None          |
 | status      | A status string that is displayed underneath the progress bar on the left. This string should reflect the status of the operation, like "Downloading..." or "Installing..."  | string   | Yes      | None          |
-| value | The value of the progress bar.  | string | Yes | 0 |
+| value | The value of the progress bar. This value either be a floating point number between 0.0 and 1.0 or the value "indeterminate", which results in a loading animation | string | Yes | 0 |
 | valueStringOverride | An optional string to be displayed instead of the default percentage string. If this isn't provided, something like "70%" will be displayed. | string | No | None |
 
 
