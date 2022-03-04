@@ -104,7 +104,7 @@ Base toast element, which contains at least a single [**visual**](element-visual
 </tr>
 <tr class="odd">
 <td><strong>useButtonStyle</strong></td>
-<td><p>Specifies whether styled buttons (colored red and green) should be used.</p></td>
+<td><p>Specifies whether styled buttons should be used. The styling of the button is determined by the **hint-buttonStyle** attribute of the [action](element-action.md) element.</p></td>
 <td>boolean</td>
 <td>No</td>
 <td>false</td>
@@ -162,7 +162,7 @@ This outermost (document) element may not be contained by any other elements.
 ## See also
 
 [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
-[Notifications Visualizer](windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
+[Notifications Visualizer](/windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
 
 ## Requirements
 

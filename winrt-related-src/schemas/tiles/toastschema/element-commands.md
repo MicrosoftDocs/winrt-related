@@ -129,7 +129,7 @@ Specifies that the toast notification is being used to indicate an incoming call
 ## See also
 
 [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
-[Notifications Visualizer](windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
+[Notifications Visualizer](/windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
 
 ## Requirements
 

@@ -65,7 +65,7 @@ Specifies an input, either text box or selection menu, shown in a toast notifica
 ## See also
 
 [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
-[Notifications Visualizer](windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
+[Notifications Visualizer](/windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
 
 ## Requirements
 

@@ -135,7 +135,7 @@ For more information, see [Globalizing your tile: localization, scaling, and acc
 ## See also
 
 [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
-[Notifications Visualizer](windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
+[Notifications Visualizer](/windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
 
 ## Requirements
 

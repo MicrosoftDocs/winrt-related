@@ -211,7 +211,7 @@ To see examples of each of the toast templates, see the [toast template catalog]
 ## See also
 
 [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
-[Notifications Visualizer](windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
+[Notifications Visualizer](/windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
 
 ## Requirements
 

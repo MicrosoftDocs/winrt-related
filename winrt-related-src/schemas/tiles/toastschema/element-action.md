@@ -29,10 +29,10 @@ Specifies a button shown in a toast.
 <action content = string
     arguments = string
     activationType? = "foreground" | "background" | "protocol"
-    placement = TBD
-    imageUri = TBD
-    hint-inputid = TBD
-    hint-buttonStyle = TBD
+    placement? = "contextMenu"
+    imageUri? = string
+    hint-inputid = string
+    hint-buttonStyle = "success" | "critical"
     hint-toolTip = TBD
 />
 ```
@@ -52,11 +52,11 @@ Specifies a button shown in a toast.
 | arguments   | App-defined string of arguments that the app will later receive if the user clicks this button. | string    | Yes      | None          |
 | type      | An argument string that can be passed to the associated app to provide specifics about the action that it should execute in response to the user action.  | string   | Yes      | None          |
 | activationType | Decides the type of activation that will be used when the user interacts with a specific action. <ul>"foreground" - Default value. Your foreground app is launched.<li></li><li>"background" - Your corresponding background task is triggered, and you can execute code in the background without interrupting the user.</li><li>"protocol" - Launch a different app using protocol activation.</li></ul> | string | No | "foreground" |
-| placement | TBD | string | No | None |
-| imageUri | TBD | string | No | None |
-| hint-inputId | TBD | string | No | None |
-| hint-buttonStyle | TBD | string | No | None |
-| hint-toolTip | TBD | string | No | None |
+| placement | When set to "contextMenu", the action becomes a context menu action added to the toast notification's context menu rather than a traditional toast button. | string | No | None |
+| imageUri | The URI of the image source for a toast button icon. These icons are white transparent 16x16 pixel images at 100% scaling and should have no padding included in the image itself. If you choose to provide icons on a toast notification, you must provide icons for ALL of your buttons in the notification, as it transforms the style of your buttons into icon buttons. | string | No | None |
+| hint-inputId | Set to the Id an [input](element-input.md) to position button beside the input.  | string | No | None |
+| hint-buttonStyle | The button style. **useButtonStyle** must be set to true in the [toast](element-toast.md) element. <ul><li>"success" - The button is green</li><li>"critical" - The button is red.</li></ul> | string | No | None |
+| hint-toolTip | The tooltip for a button icon is present with an empty content string. | string | No | None |
 
 ### Child Elements
 
@@ -71,7 +71,7 @@ None
 ## See also
 
 [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
-[Notifications Visualizer](windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
+[Notifications Visualizer](/windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
 
 
 ## Requirements
