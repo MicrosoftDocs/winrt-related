@@ -166,11 +166,6 @@ Contains a single [**binding**](../tilesschema/element-binding.md) element that 
 * [Notifications Visualizer](/windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
 
 
-## Requirements
-
-|          | Value |
-|----------|--------------|
-| **Namespace** | `http://schemas.microsoft.com/notifications/2012/toast.xsd` |
 
  
 

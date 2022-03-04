@@ -154,11 +154,7 @@ None.
 * [Notifications Visualizer](/windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
  
 
-## Requirements
 
-|          | Value |
-|----------|--------------|
-| **Namespace** | `http://schemas.microsoft.com/notifications/2012/toast.xsd` |
 
  
 

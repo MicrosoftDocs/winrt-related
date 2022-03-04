@@ -137,11 +137,7 @@ For more information, see [Globalizing your tile: localization, scaling, and acc
 * [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
 * [Notifications Visualizer](/windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
 
-## Requirements
 
-|          | Value |
-|----------|--------------|
-| **Namespace** | `http://schemas.microsoft.com/notifications/2012/toast.xsd` |
 
  
 

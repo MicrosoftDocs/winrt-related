@@ -164,11 +164,7 @@ The following code shows this tag used to mute toast notification audio.
 * [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
 * [Notifications Visualizer](/windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
 
-## Requirements
 
-|          | Value |
-|----------|--------------|
-| **Namespace** | `http://schemas.microsoft.com/notifications/2012/toast.xsd` |
 
  
 

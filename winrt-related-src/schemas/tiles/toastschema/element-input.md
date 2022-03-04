@@ -67,11 +67,7 @@ Specifies an input, either text box or selection menu, shown in a toast notifica
 * [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
 * [Notifications Visualizer](/windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
 
-## Requirements
 
-|          | Value |
-|----------|--------------|
-| **Namespace** | `http://schemas.microsoft.com/notifications/2012/toast.xsd` |
 
  
 

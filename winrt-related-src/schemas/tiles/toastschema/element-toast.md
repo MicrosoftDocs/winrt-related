@@ -100,7 +100,7 @@ Base toast element, which contains at least a single [**visual**](element-visual
 </ul></p></td>
 <td>string</td>
 <td>No</td>
-<td>"default" tbd - This is not listed in the email, but is mentioned in https://docs.microsoft.com/en-us/windows/apps/design/shell/tiles-and-notifications/toast-schema#toastheader</td>
+<td>None</td>
 </tr>
 <tr class="odd">
 <td><strong>useButtonStyle</strong></td>
@@ -164,11 +164,7 @@ This outermost (document) element may not be contained by any other elements.
 * [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
 * [Notifications Visualizer](/windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
 
-## Requirements
 
-|          | Value |
-|----------|--------------|
-| **Namespace** | `http://schemas.microsoft.com/notifications/2012/toast.xsd` |
 
  
 
