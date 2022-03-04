@@ -33,7 +33,7 @@ Specifies a button shown in a toast.
     imageUri? = string
     hint-inputid = string
     hint-buttonStyle = "success" | "critical"
-    hint-toolTip = TBD
+    hint-toolTip = string
 />
 ```
 

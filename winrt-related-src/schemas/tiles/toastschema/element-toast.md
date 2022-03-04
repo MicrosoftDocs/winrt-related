@@ -96,7 +96,7 @@ Base toast element, which contains at least a single [**visual**](element-visual
 </tr>
 <tr class="even">
 <td><strong>scenario</strong></td>
-<td><p>The scenario your toast is used for, like an alarm or reminder. <ul><li>"reminder" - A reminder notification. This will be displayed pre-expanded and stay on the user's screen till dismissed.</li><li>"alarm" - An alarm notification. This will be displayed pre-expanded and stay on the user's screen till dismissed. Audio will loop by default and will use alarm audio.</li><li>"incomingCall" - An incoming call notification. This will be displayed pre-expanded in a special call format and stay on the user's screen till dismissed. Audio will loop by default and will use ringtone audio.</li><li>"urgent" - TBD.</li></ul></li>
+<td><p>The scenario your toast is used for, like an alarm or reminder. <ul><li>"reminder" - A reminder notification. This will be displayed pre-expanded and stay on the user's screen till dismissed.</li><li>"alarm" - An alarm notification. This will be displayed pre-expanded and stay on the user's screen till dismissed. Audio will loop by default and will use alarm audio.</li><li>"incomingCall" - An incoming call notification. This will be displayed pre-expanded in a special call format and stay on the user's screen till dismissed. Audio will loop by default and will use ringtone audio.</li><li>"urgent" -  An important notification. This allows users to have more control over what apps can send them high-priority toast notifications that can break through Focus Assist (Do not Disturb). This can be modified in the notifications settings.</li></ul></li>
 </ul></p></td>
 <td>string</td>
 <td>No</td>
