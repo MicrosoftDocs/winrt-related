@@ -98,6 +98,13 @@ Example `Application` output:
 ### PackageDependency 
 The [`PackageDependency`](./element-packagedependency.md) section contains all the Windows component library dependencies for this package. For example, if your project has a reference to WinJS, Visual Studio retrieves the package identity information of the dependencies when the manifest is generated. Visual Studio then populates this section with the `Name` and `MinVersion` fields for each dependent package. 
 
+In a native C++ project, Visual Studio will add a reference to the Visual C/C++ Runtime:
+
+```xml
+<Dependencies>
+    <PackageDependency Name="Microsoft.VCLibs.140.00.Debug" MinVersion="14.0.30035.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+</Dependencies>
+```
 
 ### Windows Runtime registration extensions 
 You can implement Windows Runtime components for your apps, but you'll need to register those components with the operating system for them to run correctly. To register a Windows Runtime component, you must put the registration information in the WinMD files and in the app manifest. If a project implements a Windows Runtime component, the build output of the project will contain a WinMD file. Visual Studio extracts the Windows Runtime registration information from the WinMD file and generates the appropriate [`Extension`](./element-extension.md) elements in the app manifest.
@@ -140,8 +147,13 @@ The [`TargetDeviceFamily`](./element-targetdevicefamily.md) section contains the
 - MinVersion   
 - MaxVersionTested   
 
-These elements are populated from MSBuild properties.
+```xml
+<Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22000.0" />
+</Dependencies>
+```
 
+These elements are populated from MSBuild properties.
 
 ## See also
 [Package a UWP app with Visual Studio](/windows/uwp/packaging/packaging-uwp-apps)  
