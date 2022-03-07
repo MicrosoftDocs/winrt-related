@@ -9,7 +9,7 @@ ms.topic: reference
 ms.date: 03/01/2022
 ---
 
-# actions
+# actions (Toast XML Schema)
 
 Container element for declaring up to five inputs and up to five button actions for the toast notification.
 

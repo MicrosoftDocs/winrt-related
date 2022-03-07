@@ -9,7 +9,7 @@ ms.topic: reference
 ms.date: 03/01/2022
 ---
 
-# group
+# group  (Toast XML Schema)
 
 Semantically identifies that the content in the group must either be displayed as a whole, or not displayed if it cannot fit. Groups also allow creating multiple columns.
 

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.date: 03/01/2022
 ---
 
-# action
+# action (Toast XML Schema)
 
 Specifies a button shown in a toast.
 

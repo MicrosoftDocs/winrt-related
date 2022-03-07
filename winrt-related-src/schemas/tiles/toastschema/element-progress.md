@@ -7,7 +7,7 @@ ms.topic: reference
 ms.date: 03/01/2022
 ---
 
-# progress
+# progress  (Toast XML Schema)
 
 Specifies a progress bar for a toast notification. Only supported on toasts on Desktop, build 15063 or later.
 

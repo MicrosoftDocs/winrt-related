@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# text (Toast schema)
+# text  (Toast XML Schema)
 
 
 

@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# toast
+# toast (Toast XML Schema)
 
 
 
@@ -89,7 +89,7 @@ Base toast element, which contains at least a single [**visual**](element-visual
 </tr>
 <tr class="odd">
 <td><strong>displayTimestamp</strong></td>
-<td><p>Introduced in Creators Update: Overrides the default timestamp with a custom timestamp representing when your notification content was actually delivered, rather than the time the notification was received by the Windows platform.</p></td>
+<td><p>Introduced in Creators Update: Overrides the default timestamp with a custom timestamp representing when your notification content was actually delivered, rather than the time the notification was received by the Windows platform. This value must be a string formatted using the ISO 8601 standard.</p></td>
 <td>string</td>
 <td>No</td>
 <td>None</td>

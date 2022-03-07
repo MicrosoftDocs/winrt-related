@@ -9,7 +9,7 @@ ms.topic: reference
 ms.date: 03/01/2022
 ---
 
-# subgroup
+# subgroup (Toast XML Schema)
 
 Specifies vertical columns that can contain text and images.
 

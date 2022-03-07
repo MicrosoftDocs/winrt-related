@@ -8,7 +8,7 @@ ms.topic: reference
 ms.date: 02/11/2020
 ---
 
-# audio
+# audio (Toast XML Schema)
 
 
 Specifies a sound to play when a toast notification is displayed. This element also allows you to mute any toast notification audio.

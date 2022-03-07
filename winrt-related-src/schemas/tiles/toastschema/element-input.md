@@ -7,7 +7,7 @@ ms.topic: reference
 ms.date: 03/01/2022
 ---
 
-# input
+# input  (Toast XML Schema)
 
 Specifies an input, either text box or selection menu, shown in a toast notification.
 

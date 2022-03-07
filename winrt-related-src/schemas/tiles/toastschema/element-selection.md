@@ -7,7 +7,7 @@ ms.topic: reference
 ms.date: 03/01/2022
 ---
 
-# selection
+# selection (Toast XML Schema)
 
 Specifies the id and text of a selection item.
 
