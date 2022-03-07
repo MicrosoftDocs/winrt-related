@@ -30,7 +30,7 @@ Specifies the toast template. Note that only one binding element can be included
 ## Syntax
 
 ``` syntax
-<binding template       = "ToastImageAndText01" | "ToastImageAndText02" | "ToastImageAndText03" | ...
+<binding template       = "ToastImageAndText01" | "ToastImageAndText02" | "ToastImageAndText03" | "ToastGeneric" ...
          fallback?      = string
          lang?          = string
          addImageQuery? = boolean
@@ -131,6 +131,7 @@ Specifies the toast template. Note that only one binding element can be included
 <li>ToastText02</li>
 <li>ToastText03</li>
 <li>ToastText04</li>
+<li>ToastGeneric</li>
 </ul></td>
 <td>Yes</td>
 <td>None</td>
