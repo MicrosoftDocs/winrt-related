@@ -30,7 +30,7 @@ Specifies the toast template. Note that only one binding element can be included
 ## Syntax
 
 ``` syntax
-<binding template       = "ToastImageAndText01" | "ToastImageAndText02" | "ToastImageAndText03" | "ToastGeneric" ...
+<binding template       = "ToastGeneric"
          fallback?      = string
          lang?          = string
          addImageQuery? = boolean
@@ -120,19 +120,8 @@ Specifies the toast template. Note that only one binding element can be included
 </tr>
 <tr class="even">
 <td><strong>template</strong></td>
-<td><p>One of the provided templates on which to base the toast. Values are given in the <a href="/uwp/api/Windows.UI.Notifications.ToastTemplateType"><strong>toastTemplateType</strong></a>  enumeration.</p></td>
-<td><p>This attribute can have one of the following values:</p>
-<ul>
-<li>ToastImageAndText01</li>
-<li>ToastImageAndText02</li>
-<li>ToastImageAndText03</li>
-<li>ToastImageAndText04</li>
-<li>ToastText01</li>
-<li>ToastText02</li>
-<li>ToastText03</li>
-<li>ToastText04</li>
-<li>ToastGeneric</li>
-</ul></td>
+<td><p>This value must be set to "ToastGeneric"</p></td>
+<td>string</td>
 <td>Yes</td>
 <td>None</td>
 </tr>
@@ -203,9 +192,6 @@ Specifies the toast template. Note that only one binding element can be included
 
  
 
-## Remarks
-
-To see examples of each of the toast templates, see the [toast template catalog](/previous-versions/windows/apps/hh761494(v=win.10)).
 
 ## See also
 

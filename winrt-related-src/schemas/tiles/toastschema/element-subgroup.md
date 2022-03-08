@@ -1,7 +1,7 @@
 ---
 description: Specifies vertical columns that can contain text and images.
 Search.Product: eADQiWindows 10XVcnh
-title: subroup
+title: subgroup
 keywords: windows 10, uwp, schema, toast notifications
 
 
