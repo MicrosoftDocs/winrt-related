@@ -13,10 +13,10 @@ ms.date: 04/05/2017
 
 # commands  (Toast XML Schema)
 
-
-
-
 Specifies that the toast notification is being used to indicate an incoming call or an alarm, with appropriate commands associated with each scenario.
+
+> [!NOTE]
+> The **commands** element has been deprecated. This functionality is implemented using the **scenario** attribute of the [toast](element-toast.md) element and the [actions](element-actions.md) element.
 
 ## Element hierarchy
 

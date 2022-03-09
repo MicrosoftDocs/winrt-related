@@ -18,6 +18,9 @@ ms.date: 04/05/2017
 
 Specifies a scenario-associated button shown in a toast. The scenario is specified in the parent [**commands**](element-commands.md) element.
 
+> [!NOTE]
+> The **command** element has been deprecated. This functionality is implemented using the **scenario** attribute of the [toast](element-toast.md) element and the [actions](element-actions.md) element.
+
 ## Element hierarchy
 
 <dl>
