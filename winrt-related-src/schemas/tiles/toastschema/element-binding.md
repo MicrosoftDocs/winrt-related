@@ -11,10 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# binding (Toast schema)
-
-
-
+# binding  (Toast XML Schema)
 
 Specifies the toast template. Note that only one binding element can be included in a toast notification.
 
@@ -33,7 +30,7 @@ Specifies the toast template. Note that only one binding element can be included
 ## Syntax
 
 ``` syntax
-<binding template       = "ToastImageAndText01" | "ToastImageAndText02" | "ToastImageAndText03" | ...
+<binding template       = "ToastGeneric"
          fallback?      = string
          lang?          = string
          addImageQuery? = boolean
@@ -43,6 +40,8 @@ Specifies the toast template. Note that only one binding element can be included
   <!-- Child elements -->
   ( image
   | text
+  | group
+  | progress
   )*
 
 </binding>
@@ -121,18 +120,8 @@ Specifies the toast template. Note that only one binding element can be included
 </tr>
 <tr class="even">
 <td><strong>template</strong></td>
-<td><p>One of the provided templates on which to base the toast. Values are given in the <a href="/uwp/api/Windows.UI.Notifications.ToastTemplateType"><strong>toastTemplateType</strong></a>  enumeration.</p></td>
-<td><p>This attribute can have one of the following values:</p>
-<ul>
-<li>ToastImageAndText01</li>
-<li>ToastImageAndText02</li>
-<li>ToastImageAndText03</li>
-<li>ToastImageAndText04</li>
-<li>ToastText01</li>
-<li>ToastText02</li>
-<li>ToastText03</li>
-<li>ToastText04</li>
-</ul></td>
+<td><p>This value must be set to "ToastGeneric"</p></td>
+<td>string</td>
 <td>Yes</td>
 <td>None</td>
 </tr>
@@ -163,6 +152,18 @@ Specifies the toast template. Note that only one binding element can be included
 <td><a href="element-text.md">text</a> </td>
 <td><p>Specifies text used in the toast template.</p></td>
 </tr>
+
+
+<tr class="odd">
+<td><a href="element-group.md">group</a> </td>
+<td><p>Semantically identifies that the content in the group must either be displayed as a whole, or not displayed if it cannot fit. Groups also allow creating multiple columns.</p></td>
+</tr>
+
+
+<tr class="even">
+<td><a href="element-progress.md">progress</a> </td>
+<td><p>Specifies text used in the toast template.</p></td>
+</tr>
 </tbody>
 </table>
 
@@ -191,15 +192,13 @@ Specifies the toast template. Note that only one binding element can be included
 
  
 
-## Remarks
 
-To see examples of each of the toast templates, see the [toast template catalog](/previous-versions/windows/apps/hh761494(v=win.10)).
+## See also
 
-## Requirements
+* [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
+* [Notifications Visualizer](/windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
 
-|          | Value |
-|----------|--------------|
-| **Namespace** | `http://schemas.microsoft.com/notifications/2012/toast.xsd` |
+
 
  
 

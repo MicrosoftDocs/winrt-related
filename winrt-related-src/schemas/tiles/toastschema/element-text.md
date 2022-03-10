@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# text (Toast schema)
+# text  (Toast XML Schema)
 
 
 
@@ -39,7 +39,8 @@ Specifies text used in the toast template.
 
 ``` syntax
 <text id    = integer
-      lang? = string />
+      lang? = string 
+      placement? = "attribution"/>
 ```
 
 ### Key
@@ -79,6 +80,13 @@ Specifies text used in the toast template.
 <tr class="even">
 <td><strong>lang</strong></td>
 <td><p>The target locale of the XML payload, specified as a <a href="https://go.microsoft.com/fwlink/p/?linkid=227302">BCP-47 language tags</a>  such as &quot;en-US&quot; or &quot;fr-FR&quot;. The locale specified here overrides any other specified locale in <a href="element-binding.md"><strong>binding</strong></a> or <a href="element-visual.md"><strong>visual</strong></a>. If this value is a literal string, this attribute defaults to the user's UI language. If this value is a string reference, this attribute defaults to the locale chosen by Windows Runtime in resolving the string.</p></td>
+<td>string</td>
+<td>No</td>
+<td>None</td>
+</tr>
+<tr class="odd">
+<td><strong>placement</strong></td>
+<td><p>The placement of the text. Introduced in Anniversary Update. If you specify the value "attribution", the text is always displayed at the bottom of your notification, along with your app's identity or the notification's timestamp. On older versions of Windows that don't support attribution text, the text will simply be displayed as another text element (assuming you don't already have the maximum of three text elements). For more information, see [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).</p></td>
 <td>string</td>
 <td>No</td>
 <td>None</td>
@@ -124,11 +132,12 @@ The body of the text element can be expressed in two ways:
 
 For more information, see [Globalizing your tile: localization, scaling, and accessibility](/previous-versions/windows/apps/hh831183(v=win.10)).
 
-## Requirements
+## See also
 
-|          | Value |
-|----------|--------------|
-| **Namespace** | `http://schemas.microsoft.com/notifications/2012/toast.xsd` |
+* [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
+* [Notifications Visualizer](/windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
+
+
 
  
 
