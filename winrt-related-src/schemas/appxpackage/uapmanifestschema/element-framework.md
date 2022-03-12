@@ -19,23 +19,15 @@ Indicates whether the package is a framework package; that is, a package that ca
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-properties.md">&lt;Properties&gt;</a></dt>
-<dd><b>&lt;Framework&gt;</b></dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)<br/>
+&nbsp;[\<Properties\>](element-properties.md)<br/>
+&nbsp;&nbsp;**\<Framework\>**
 
 ## Syntax
 
-``` syntax
+```xml
 <Framework>
-
   boolean
-
 </Framework>
 ```
 
@@ -52,30 +44,13 @@ None.
 
 ### Parent Elements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-properties.md">Properties</a> </td>
-<td><p>Defines additional metadata about the package including attributes that describe how the package appears to users.</p>
-<div class="alert">
-<strong>Note</strong>  You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely “|” and “all”, due to which Windows fails to create the AppContainer profile for the package . Use this reference for [troubleshooting](/windows/win32/appxpkg/troubleshooting) if you get an error.
-</div>
-<div>
- 
-</div></td>
-</tr>
-</tbody>
-</table>
+| Parent Element | Description |
+|--|--|
+|[Properties](element-properties.md)|Defines additional metadata about the package including attributes that describe how the package appears to users.|
+
+
+
+<strong>Note</strong>  You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely “|” and “all”, due to which Windows fails to create the AppContainer profile for the package. Use this reference for [troubleshooting](/windows/win32/appxpkg/troubleshooting) if you get an error.
 
  
 
