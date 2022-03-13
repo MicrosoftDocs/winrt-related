@@ -79,7 +79,7 @@ Declares an extensibility point for the app.
 ## Child Elements
 | Child Element | Description |
 |---------------|-------------|
-| [PostPaymentConnector](element-uap8-postPaymentConnector.md) | Contains device information for Point-of-Sale/Point-of-Service interfaces. |  
+| [PosPaymentConnector](element-uap8-posPaymentConnector.md) | Contains device information for Point-of-Sale/Point-of-Service interfaces. |  
 | [DataProtection](element-uap8-dataProtection.md) | Settings for configuring data encryption. | 
 
 ## Requirements
