@@ -825,7 +825,7 @@ items:
           - name: "uap8:Extension (child of Package)"
             href: schemas/appxpackage/uapmanifestschema/element-uap8-package-extension.md
           - name: "uap8:PosPaymentConnector"
-            href: schemas/appxpackage/uapmanifestschema/element-uap8-posPaymentConnector.mdd
+            href: schemas/appxpackage/uapmanifestschema/element-uap8-posPaymentConnector.md
           - name: "uap8:DataProtection"
             href: schemas/appxpackage/uapmanifestschema/element-uap8-dataProtection.md
           - name: "uap10:Extension"

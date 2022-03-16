@@ -1,7 +1,7 @@
 ---
 
-title: uap8:Extension
-description: Declares an extensibility point for the app (uap8:Extension).
+title: uap8:Extension (Packages)
+description: Declares an extensibility point for the package (uap8:Extension).
 
 ms.date: 03/10/2022
 ms.topic: reference
