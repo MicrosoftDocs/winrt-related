@@ -9,7 +9,7 @@ ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, extension
 ---
 
-# uap8:Extension (in Package/Applications)
+# uap8:Extension (in Package/Extensions)
 
 Declares an extensibility point for the app.
 
@@ -18,12 +18,10 @@ Declares an extensibility point for the app.
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
 <dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
+<dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
 <dd>
 <dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
 <dd><b>&lt;uap8:Extension&gt;</b></dd>
-</dl>
 </dd>
 </dl>
 </dd>
@@ -33,7 +31,7 @@ Declares an extensibility point for the app.
 
 ## Syntax
 ```syntax
-<uap8:Extension Category       = "windows.posPaymentProvider"
+<uap8:Extension Category       = "windows.dataProtection"
                    Executable?             = A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used.
                    EntryPoint?             = A string between 1 and 256 characters in length, representing the  task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead.
                    RuntimeType?            = A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *.
@@ -55,7 +53,7 @@ Declares an extensibility point for the app.
                    desktop7:Scope = A string value that can be one of the following: "user", "machine".
 
   <!-- Child elements -->
-  ( uap8:PosPaymentConnector )
+  ( uap8:DataProtection )
 
 </uap8:Extension>
 ```
@@ -90,7 +88,7 @@ Declares an extensibility point for the app.
 ## Child Elements
 | Child Element | Description |
 |---------------|-------------|
-| [PosPaymentConnector](element-uap8-posPaymentConnector.md) | Contains device information for Point-of-Sale/Point-of-Service interfaces. |  
+| [DataProtection](element-uap8-dataProtection.md) | Settings to configure data encryption. |  
 
 ## Requirements
 | Namespace | Manifest Path | 

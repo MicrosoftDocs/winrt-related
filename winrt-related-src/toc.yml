@@ -820,10 +820,12 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap6-BarcodeScannerProvider.md
           - name: "uap6:LocalExperiencePack"
             href: schemas/appxpackage/uapmanifestschema/element-uap6-localexperiencepack.md
-          - name: "uap8:Extension"
+          - name: "uap8:Extension (child of Application)"
             href: schemas/appxpackage/uapmanifestschema/element-uap8-extension.md
+          - name: "uap8:Extension (child of Package)"
+            href: schemas/appxpackage/uapmanifestschema/element-uap8-package-extension.md
           - name: "uap8:PosPaymentConnector"
-            href: schemas/appxpackage/uapmanifestschema/element-uap8-posPaymentConnector.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap8-posPaymentConnector.mdd
           - name: "uap8:DataProtection"
             href: schemas/appxpackage/uapmanifestschema/element-uap8-dataProtection.md
           - name: "uap10:Extension"
