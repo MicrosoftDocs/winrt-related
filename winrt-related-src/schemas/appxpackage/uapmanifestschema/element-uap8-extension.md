@@ -71,10 +71,10 @@ Declares an extensibility point for the app.
 | uap10:RuntimeBehavior | Specifies the run time behavior of the extension. | String value. Can be one of the following: "windowsApp", "packagedClassicApp", "win32App".  | No |
 | uap10:HostId | Specifies the app ID of the host app for the extension. | An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.  | No |
 | uap10:Parameters | Contains command line parameters to pass to the extension. Only supported for desktop apps that have package identity. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.  | No |
-| uap11:Id | DESCRIPTION | A string between 1 and 256 characters in length. | No |
-| uap11:Subsystem | DESCRIPTION | String value. Can be one of the following: "console", "windows". | No |
-| uap11:SupportsMultipleInstances | DESCRIPTION | Boolean value. | No
-| uap11:CurrentDirectoryPath | DESCRIPTION | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *. | No |
+| uap11:Id | The unique identifier for the extensibility point. | A string between 1 and 256 characters in length. | No |
+| uap11:Subsystem | Specifies the type of system the application will run on. | String value. Can be one of the following: "console", "windows". | No |
+| uap11:SupportsMultipleInstances | Specifies whether or not the application supports multiple instances. | Boolean value. | No
+| uap11:CurrentDirectoryPath | Specifies the current directory the of the extensibility point. | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *. | No |
 
 ## Child Elements
 | Child Element | Description |
