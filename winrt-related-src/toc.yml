@@ -822,7 +822,7 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap6-localexperiencepack.md
           - name: "uap8:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-uap8-extension.md
-          - name: "uap8:PosPaymentConnector",
+          - name: "uap8:PosPaymentConnector"
             href: schemas/appxpackage/uapmanifestschema/element-uap8-posPaymentConnector.md
           - name: "uap8:DataProtection"
             href: schemas/appxpackage/uapmanifestschema/element-uap8-dataProtection.md
