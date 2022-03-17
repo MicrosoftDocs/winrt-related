@@ -260,6 +260,8 @@ The following list summarizes the allowed hierarchies for this schema, starting 
                 -   [**rescap4:Extension**](element-rescap4-extension.md)
                     -   [**rescap4:ClassicAppCompatKeys**](element-rescap4-ClassicAppCompatKeys.md)
                         -   [**rescap4:ClassicAppCompatKey**](element-rescap4-ClassicAppCompatKey.md)
+                    -   [**rescap4:PrimaryInteropAssemblies**](element-rescap4-primaryInteropAssemblies.md)
+                        -   [**rescap4:Redirect**](element-rescap4-redirect.md)
                 -   [**serverpreview:Extension**](element-serverpreview-extension-manual.md)
                     -   [**serverpreview:IisModules**](element-serverpreview-iismodules-manual.md)
                         -   [**serverpreview:IisModule**](element-serverpreview-iismodule-manual.md)
