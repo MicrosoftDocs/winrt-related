@@ -28,6 +28,7 @@ For reference information about the available package-level extensions, see the 
 * [**desktop6:Extension**](element-desktop6-package-extension.md)
 * [**uap7:Extension**](element-uap7-extension.md)  
 * [**desktop7:Extension**](element-desktop7-package-extension.md)
+* [**uap8:Extension**](element-uap8-package-extension.md)
 
 ## Application-level extensions
 
@@ -47,6 +48,7 @@ For reference information about the available application-level extensions, see 
 * [**uap4:Extension**](element-uap4-extension.md)
 * [**uap5:Extension**](element-uap5-extension.md)
 * [**uap6:Extension**](element-uap6-extension.md)
+* [**uap8:Extension**](element-uap8-extension.md)
 * [**uap10:Extension**](element-uap10-extension.md)
 
 ## Related topics

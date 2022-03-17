@@ -26,7 +26,7 @@ Declares the union of languages, display scales, and DirectX feature levels for 
 ## Syntax
 
 ``` syntax
-<Resources Default = Boolean>
+<Resources>
 
   <!-- Child elements -->
   Resource{0,200}
@@ -37,12 +37,8 @@ Declares the union of languages, display scales, and DirectX feature levels for 
 ### Key
 
 `{}`   specific range of occurrences
-## Attributes and Elements
 
-### Attributes
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| Default | The name of the capability. | Boolean | No |
+## Attributes and Elements
 
 ### Child Elements
 
@@ -86,12 +82,8 @@ Declares the union of languages, display scales, and DirectX feature levels for 
 </tbody>
 </table>
 
-## Remarks
-The **Default** attribute is not 
-
 ## Requirements
 
 |   | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
-

@@ -373,6 +373,8 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap7:OSPackageDependency](element-uap7-ospackagedependency.md) | Defines a package dependency for a UWP app. |
 | [uap7:Properties](element-uap7-properties.md) | Properties of an application. |
 | [uap7:SharedFonts](element-uap7-sharedfonts.md) | Contains the locations of shared fonts to be used with the app. |
+| [uap8:PosPaymentConnector](element-uap8-posPaymentConnector.md) | Contains device information for Point-of-Sale/Point-of-Service devices. |
+| [uap8:DataProtection](element-uap8-dataProtection.md) | Settings to configure data encryption. |
 | [uap8:ExecutionAlias](element-uap8-executionalias.md) | The executable of a UWP app to be activated from a command prompt. |
 | [uap10:AllowExternalContent](element-uap10-allowexternalcontent.md) | Enables your package manifest to reference content outside the package, in a specific location on disk, for [sparse package](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps) scenarios. |
 | [uap10:Content](element-uap10-content.md) | Indicates whether Windows will enforce run time package integrity checks on the entire contents of the package. |
