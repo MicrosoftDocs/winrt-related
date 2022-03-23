@@ -832,10 +832,20 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap8-posPaymentConnector.md
           - name: "uap8:DataProtection"
             href: schemas/appxpackage/uapmanifestschema/element-uap8-dataProtection.md
-          - name: "uap10:Extension"
+          - name: "uap10:Extension (child of Application)"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-extension.md
+          - name: "uap10:Extension (child of Package)"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-package-extension.md
+          - name: "uap10:Logo"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-logo.md
+          - name: "uap10:Protocol"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-protocol.md
+          - name: "uap10:DisplayName"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-displayname.md
           - name: "uap10:HostRuntime"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-hostruntime.md
+          - name: "uap10:MediaContentDecryptionModule"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-mediacontentdecryptionmodule.md
           - name: "uap10:InstalledLocationVirtualization"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-installedlocationvirtualization.md
           - name: "uap10:UpdateActions"
