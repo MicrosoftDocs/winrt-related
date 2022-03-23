@@ -89,7 +89,7 @@ Declares an extensibility point for the app.
 
 | Child Element | Description |
 |---------------|-------------|
-| [PrimaryInteropAssemblies](element-rescap4-primaryInteropAssemblies.md) | Defines package assembly configuration. |
+| [PrimaryInteropAssemblies](element-rescap4-primaryinteropassemblies.md) | Defines package assembly configuration. |
 | [ClassicAppCompatKeys](element-rescap4-ClassicAppCompatKeys.md) | Contains registry keys for discovering classic app installations and launching executables. |
 
 ## Requirements

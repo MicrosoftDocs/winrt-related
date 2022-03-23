@@ -24,7 +24,7 @@ Specifies redirect information for an interop assembly.
 <dt><a href="element-rescap4-extension.md">&lt;rescap4:Extension&gt;</a></dt>
 <dd>
 <dl>
-<dt><a href="element-rescap4-primaryInteropAssemblies.md">&lt;rescap4:PrimaryInteropAssemblies&gt;</a></dt>
+<dt><a href="element-rescap4-primaryinteropassemblies.md">&lt;rescap4:PrimaryInteropAssemblies&gt;</a></dt>
 <dd><b>&lt;rescap4:Redirect&gt;</b>
 </dd>
 </dl>

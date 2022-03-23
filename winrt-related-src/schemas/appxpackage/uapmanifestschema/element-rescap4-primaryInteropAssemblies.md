@@ -57,6 +57,6 @@ Defines package assembly configuration.
 | [Redirect](element-rescap4-redirect.md) | Specifies redirect information for interop assemblies. | 
 
 ## Requirements
-|   | Value |
+|  | Value |
 |--|--|
 | **rescap4** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/4` |
