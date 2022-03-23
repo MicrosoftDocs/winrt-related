@@ -63,7 +63,7 @@ Declares an app extensibility point of type windows.protocol. A URI association 
 | Child Element | Description |
 |---------------|-------------|
 | [Logo](element-uap10-logo.md) | The logo used for application icons during packaging. |
-| [DisplayName](element-uap10-displayName.md) | The display name used for the application. |
+| [DisplayName](element-uap10-displayname.md) | The display name used for the application. |
 | [rescap3:MigrationProgIds](element-rescap3-migrationprogids.md) | The program IDs used for migrations for the application.
 | [previewAppCompat:ProgId](element-previewappcompat-progid.md) | The program ID used for application compatibility previews for the application.
 
