@@ -21,7 +21,7 @@ Declares an app extensibility point of type windows.protocol. A URI association 
 <dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
 <dd>
 <dl>
-<dt><a href="element-uap10-extension">&lt;UAP10:Extension&gt;</a></dt>
+<dt><a href="element-uap10-extension.md">&lt;UAP10:Extension&gt;</a></dt>
 <dd><b>&lt;UAP10:Protocol&gt;</b></dd>
 </dl>
 </dd>

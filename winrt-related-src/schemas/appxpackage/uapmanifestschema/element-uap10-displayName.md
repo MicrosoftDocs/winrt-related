@@ -68,7 +68,7 @@ None.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="link.md">UAP10:Protocol</a> </td>
+<td><a href="element-uap10-protocol.md">UAP10:Protocol</a> </td>
 <td><p>Sets parameters to define the protocol of the extensions.</p></td>
 </tr>
 </tbody>

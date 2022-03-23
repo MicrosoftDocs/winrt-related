@@ -21,7 +21,7 @@ Defines an extension for a desktop app in an MSIX package that defines decryptio
 <dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
 <dd>
 <dl>
-<dt><a href="element-uap10-extension">&lt;UAP10:Extension&gt;</a></dt>
+<dt><a href="element-uap10-extension.md">&lt;UAP10:Extension&gt;</a></dt>
 <dd><b>&lt;UAP10:MediaContentDecryptionModule&gt;</b></dd>
 </dl>
 </dd>
