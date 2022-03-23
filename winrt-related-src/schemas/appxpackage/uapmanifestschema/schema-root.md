@@ -390,5 +390,6 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap10:Logo](element-uap10-logo.md) | A path to a file that contains an image. |
 | [uap10:MediaContentDecryptionModule](element-uap10-mediacontentdecryptionmodule.md) | Defines an extension for a desktop app in an MSIX package that defines decryption information to be used to access media files.
 | [uap10:PackageIntegrity](element-uap10-packageintegrity.md) | Specifies the level of run time package integrity checks and remediation for the package.  |
+| [uap10:Protocol](element-uap10-protocol.md) | Declares an app extensibility point of type windows.protocol. A URI association indicates that the app is registered to handle URIs with the specified scheme. |
 | [uap10:UpdateActions](element-uap10-UpdateActions.md) | Specifies what happens during app updates to files in the app's installation directory that were previously modified, added, or deleted by the app. This element is intended to be used in conjunction with the [uap10:InstalledLocationVirtualization](element-uap10-installedlocationvirtualization.md) extension. |
 | [win32dependencies:ExternalDependency](element-win32dependencies-externaldependency.md) | Specifies an external dependency that is not included in the MSIX but will be chain installed as part of the app installation. |
