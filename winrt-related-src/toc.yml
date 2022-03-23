@@ -564,6 +564,10 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-rescap4-ClassicAppCompatKeys.md
           - name: "rescap4:ClassicAppCompatKey"
             href: schemas/appxpackage/uapmanifestschema/element-rescap4-ClassicAppCompatKey.md
+          - name: "rescap4:PrimaryInteropAssemblies"
+            href: schemas/appxpackage/uapmanifestschema/element-rescap4-primaryInteropAssemblies.md
+          - name: "rescap4:Redirect"
+            href: schemas/appxpackage/uapmanifestschema/element-rescap4-redirect.md
           - name: "serverpreview:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-serverpreview-extension-manual.md
           - name: "serverpreview:IisModules"
