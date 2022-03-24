@@ -11,23 +11,14 @@ keywords: windows 10, uwp, schema, manifest, extension
 Declares an extensibility point for the app.
 
 ## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd><b>&lt;uap10:Extension&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
 
+[ <  Package  > ](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < Applications > ](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < Application > ](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**< UAP10:Extension >**
 
 ## Syntax
 ```syntax
@@ -63,8 +54,6 @@ Declares an extensibility point for the app.
 `?` optional (zero or one)
 
 ## Attributes
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | Category | The category of the extension. | One of the following: HostRuntime, InstalledLocationVirtualization, or MediaContentDecryptionModule| Yes |

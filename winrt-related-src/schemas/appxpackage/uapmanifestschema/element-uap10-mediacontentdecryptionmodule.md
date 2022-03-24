@@ -14,20 +14,14 @@ keywords: windows 10, uwp, schema, manifest, extension
 Defines an extension for a desktop app in an MSIX package that defines decryption information to be used to access media files.
 
 ## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap10-extension.md">&lt;UAP10:Extension&gt;</a></dt>
-<dd><b>&lt;UAP10:MediaContentDecryptionModule&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+
+[ <  Package  > ](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < Extensions > ](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < UAP10:Extension > ](element-uap10-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**< UAP10:MediaContentDecryptionModule >**
 
 ## Syntax
 ```
