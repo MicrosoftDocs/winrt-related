@@ -41,8 +41,6 @@ None.
 None.
 
 ## Parent Elements
-
-## Parent Elements
 | Parent Element | Description |
 |---------------|-------------|
 | [UAP10:Protocol](element-uap10-protocol.md) | Sets parameters to define the protocol of the extensions. |

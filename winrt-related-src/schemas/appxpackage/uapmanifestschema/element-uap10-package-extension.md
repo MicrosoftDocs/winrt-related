@@ -19,18 +19,6 @@ Declares an extensibility point for the app.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**< UAP10:Extension >**
 
-## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd><b>&lt;uap10:Extension&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-
-
 ## Syntax
 ```syntax
 <uap10:Extension Category       = "windows.hostRuntime", "windows.mediaContentDecryptionModule", or "windows.installedLocationVirtualization"
