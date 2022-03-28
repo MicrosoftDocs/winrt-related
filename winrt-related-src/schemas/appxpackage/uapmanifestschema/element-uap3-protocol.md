@@ -1,7 +1,7 @@
 ---
 
 title: UAP3:Protocol
-description: Declares an app extensibility point of type windows.protocol. A URI association indicates that the app is registered to handle URIs with the specified scheme.
+description: Declares an app extensibility point of type windows.protocol. A URI association indicates the app is registered to handle URIs with the specified scheme.
 
 ms.date: 03/14/2022
 ms.topic: reference

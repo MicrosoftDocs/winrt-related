@@ -318,7 +318,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap3:Host](element-uap3-host-manual.md) | Represents a valid HTTP or HTTPS host name that the app wants to register as able to handle. |
 | [uap3:MainPackageDependency](element-uap3-mainpackagedependency-manual.md) | Specifies the main app package to which this supplemental package applies. |
 | [uap3:Name](elemennt-uap3-name-manual.md) | Specifies a category of extensions that the app can host. |
-| [uap3:Properties](element-uap3-properties-manual.md) | Contains opaque XML that represents custom, extension-specific information that is simply stored and not read by the operating system. The information is only read by the host app. |
+| [uap3:Properties](elemnt-uap3-properties-manual.md) | Contains opaque XML that represents custom, extension-specific information that is simply stored and not read by the operating system. The information is only read by the host app. |
 | [uap3:Protocol](element-uap3-protocol.md) | Declares an app extensibility point of type windows.protocol. |
 | [uap3:VisualElements](element-uap3-visualelements-manual.md) | Describes the visual aspects of the app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance. |
 | [uap4:ContactPanel](element-uap4-contactpanel.md) | Enables the contacts panel in a Windows app. |
