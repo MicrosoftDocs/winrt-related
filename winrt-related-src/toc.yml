@@ -724,6 +724,14 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap-voipcallupgrade.md
           - name: "uap:VoipDialPhoneNumber"
             href: schemas/appxpackage/uapmanifestschema/element-uap-voipdialphonenumber.md
+          - name: "uap2:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-uap2-extension.md
+          - name: "uap2:ManagedUrls"
+            href: schemas/appxpackage/uapmanifestschema/element-uap2-managedurls.md
+          - name: "uap2:Url"
+            href: schemas/appxpackage/uapmanifestschema/element-uap2-url.md
+          - name: "uap2:WebAccountProvider"
+            href: schemas/appxpackage/uapmanifestschema/element-uap2-webaccountprovider.md
           - name: "uap3:AppService"
             href: schemas/appxpackage/uapmanifestschema/element-uap3-appservice-manual.md
           - name: "uap3:Extension"
