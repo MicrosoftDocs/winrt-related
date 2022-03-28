@@ -9,7 +9,7 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 
 # uap3:FileTypeAssociations
 
-Defines the types of files used within the application.
+Defines the types of files used within the application. 
 
 [ <  Package  > ](element-package.md)
 

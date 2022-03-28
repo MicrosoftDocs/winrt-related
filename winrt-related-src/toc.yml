@@ -742,6 +742,10 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap3-host-manual.md
           - name: "uap3:AppExecutionAlias"
             href: schemas/appxpackage/uapmanifestschema/element-uap3-appexecutionalias.md
+          - name: "uap3:Protocol"
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-protocol.md
+          - name: "uap3:FileTypeAssociations"
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-filetypeassociations.md
           - name: "desktop:ExecutionAlias"
             href: schemas/appxpackage/uapmanifestschema/element-desktop-executionalias.md
           - name: "uap8:ExecutionAlias"
