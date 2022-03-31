@@ -404,6 +404,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-com-treatasclass.md
           - name: "com2:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-com2-extension.md
+          - name: "com2:ComInterface"
+            href: schemas/appxpackage/uapmanifestschema/element-com2-cominterface.md
           - name: "com2:ComServer"
             href: schemas/appxpackage/uapmanifestschema/element-com2-comserver.md
           - name: "com3:ServiceServer"
@@ -418,8 +420,102 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-com3-treatasclass.md
           - name: "com3:ProgId"
             href: schemas/appxpackage/uapmanifestschema/element-com3-progid.md
-          - name: "com2:ComInterface"
-            href: schemas/appxpackage/uapmanifestschema/element-com2-cominterface.md
+          - name: "com4:Aspect"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-aspect.md
+          - name: "com4:TypeLib (in Class)"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-class-typelib.md
+          - name: "com4:Class"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-class.md
+          - name: "com4:ComInterface"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-cominterface.md
+          - name: "com4:ComServer"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-comserver.md
+          - name: "com4:Conversion"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-conversion.md
+          - name: "com4:DataFormat"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-dataformat.md
+          - name: "com4:DataFormats"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-dataformats.md
+          - name: "com4:DefaultIcon"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-defaulticon.md
+          - name: "com4:Class (in ExeServer)"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-exeserver-class.md
+          - name: "com4:ClassReference (in ExeServer)"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-exeserver-classreference.md
+          - name: "com4:ExeServer"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-exeserver.md
+          - name: "com4:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-extension.md
+          - name: "com4:Format"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-format.md
+          - name: "com4:ImplementedCategories"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-implementedcategories.md
+          - name: "com4:ImplementedCategory"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-implementedcategory.md
+          - name: "com4:Class (in InProcessHandler)"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-inprocesshandler-class.md
+          - name: "com4:ClassReference (in InProcessHandler)"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-inprocesshandler-classreference.md
+          - name: "com4:InProcessHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-inprocesshandler.md
+          - name: "com4:InProcessHandlerDll"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-inprocesshandlerdll.md
+          - name: "com4:Class (in InProcessServer)"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-inprocessserver-class.md
+          - name: "com4:ClassReference (in InProcessServer)"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-inprocessserver-classreference.md
+          - name: "com4:InProcessServer"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-inprocessserver.md
+          - name: "com4:InProcessServerClassReference"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-inprocessserverclassreference.md
+          - name: "com4:InProcessServerDll"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-inprocessserverdll.md
+          - name: "com4:TypeLib (in Interface)"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-interface-typelib.md
+          - name: "com4:Interface"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-interface.md
+          - name: "com4:Class (in ManagedInProcessServer)"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-managedinprocessserver-class.md
+          - name: "com4:ClassReference (in ManagedInProcessServer)"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-managedinprocessserver-classreference.md
+          - name: "com4:ManagedInProcessServer"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-managedinprocessserver.md
+          - name: "com4:MiscStatus"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-miscstatus.md
+          - name: "com4:ProgId"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-progid.md
+          - name: "com4:ProxyStub"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-proxystub.md
+          - name: "com4:ProxyStubDll"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-proxystubdll.md
+          - name: "com4:Readable"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-readable.md
+          - name: "com4:ReadWritable"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-readwritable.md
+          - name: "com4:ServiceServer"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-serviceserver.md
+          - name: "com4:Class (in SurrogateServer)"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-surrogateserver-class.md
+          - name: "com4:ClassReference (in SurrogateServer)"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-surrogateserver-classreference.md
+          - name: "com4:SurrogateServer"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-surrogateserver.md
+          - name: "com4:ToolboxBitmap32"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-toolboxbitmap32.md
+          - name: "com4:TreatAsClass"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-treatasclass.md
+          - name: "com4:TypeLib"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-typelib.md
+          - name: "com4:Verb"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-verb.md
+          - name: "com4:Verbs"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-verbs.md
+          - name: "com4:Version"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-version.md
+          - name: "com4:Win32Path"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-win32path.md
+          - name: "com4:Win64Path"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-win64path.md
           - name: "desktop:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-desktop-extension.md
           - name: "desktop:FullTrustProcess"
