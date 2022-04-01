@@ -1,16 +1,16 @@
 ---
-title: desktop:FullTrustProcess
-description: Represents a desktop process that runs in full-trust.
+title: desktop:ToastNotificationActivator
+description: Allows toast notification to be received within the app.
 ms.date: 05/10/2021
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 
-# desktop:FullTrustProcess
+# desktop:ToastNotificationActivator
 
 ## Description
 
-Represents a desktop process that runs in full-trust.
+Allows toast notification to be received within the app.
 
 ## Element Hierarchy
 
@@ -24,31 +24,24 @@ Represents a desktop process that runs in full-trust.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < Desktop:Extension > ](element-desktop-extension.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**< Desktop:FullTrustProcess >**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**< Desktop:ToastNotificationHandler >**
 
 ## Syntax
 ```sytnax
-<desktop:FullTrustProcess >
+<desktop:ToastNotificationActivator  toastActivatorCLSID = A string between 2 and 2048 characters in length.>
 
- <!-- Child elements -->
- ParameterGroup{0,1000}
-</desktop:FullTrustProcess>
+</desktop:ToastNotificationActivator>
 ```
-### Key
-`{}` specific range of occurrences
 
 ## Attributes
 
-None
+| Attribute | Description | Data type | Required |
+|-----------|-------------|-----------|----------|
+| Toast Activator CLSID | A unique identifier for the toast account. | A string between 2 and 2048 characters in length. | Yes |
 
 ## Child Elements
-| Child Element | Description |
-|---------------|-------------|
-| [ParameterGroup](element-desktop-parametergroup.md) | Defines a group of command line parameters for the process. |
 
-## Remarks
-
-For more details, see [FullTrustProcessLauncher](/uwp/api/windows.applicationmodel.fulltrustprocesslauncher).
+None
 
 ## Requirements
 
