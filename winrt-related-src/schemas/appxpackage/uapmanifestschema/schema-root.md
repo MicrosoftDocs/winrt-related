@@ -96,6 +96,11 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [Dependencies](element-dependencies.md) | Declares other packages that a package depends on to complete its software. |
 | [Description](element-description.md) | A friendly description that can be displayed to users. |
 | [desktop:ExecutionAlias](element-desktop-executionalias.md) | The executable of a UWP app to be activated from a command prompt. |
+| [desktop:Extension](element-desktop-extension.md) | Declares an extensibility point for the app. |
+| [desktop:FullTrustProcess](element-desktop-fulltrustprocess.md) | Represents a desktop process that runs in full-trust. |
+| [desktop:SearchProtocolHandler](element-desktop-searchprotocolhandler.md) | Represents a desktop process handles the search protocol for the app. |
+| [desktop:StartupTasks](element-desktop-startuptasks.md) | Represents a desktop process that runs during app startup. |
+| [desktop:ToastNotificationActivation](element-desktop-toastnotificationactivation.md) | Allows toast notification to be received within the app. |
 | [desktop2:AppPrinter](element-desktop2-appprinter.md) | Enables the ability to install software file printers in Windows Desktop Bridge apps. |
 | [desktop2:DesktopEventLogging](element-desktop2-desktopeventlogging.md) | Enables Windows Desktop Bridge apps to register for Windows event logging. |
 | [desktop2:DesktopPreviewHandler](element-desktop2-desktoppreviewhandler.md) | Enables declaration of a preview handler for a file type association. |

@@ -192,6 +192,12 @@ The following list summarizes the allowed hierarchies for this schema, starting 
                 -   [**desktop:Extension**](element-desktop-extension.md)
                     -   [**desktop:FullTrustProcess**](element-desktop-fulltrustprocess.md)
                         -   [**desktop:ParameterGroup**](element-desktop-parametergroup.md)
+                    -   [**desktop:SearchProtocolHandler**]
+                    (element-desktop-searchprotocolhandler.md)
+                    -   [**desktop:StartupTasks**]
+                    (element-desktop-startuptasks.md)
+                    -   [**desktop:ToastNotificationActivation**]
+                    (element-desktop-toastnotificationactivation.md)
                 -   [**desktop2:Extension**](element-desktop2-extension.md)
                     -   [**desktop2:AppPrinter**](element-desktop2-appprinter.md)
                     -   [**desktop2:SearchFilterHandler**](element-desktop2-searchfilterhandler.md)
