@@ -78,7 +78,7 @@ Declares an extensibility point for the app.
 | Child Element | Description |
 |---------------|-------------|
 | [FullTrustProcess](element-desktop-fulltrustprocess.md) | Represents a desktop process that runs in full-trust. |
-| [StartupTask](element-desktop-startuptask.md) | Represents a desktop process that runs during app startup. |
+| [StartupTask](element-desktop-startuptasks.md) | Represents a desktop process that runs during app startup. |
 | [ToastNotificationActivation](element-desktop-toastnotificationactivation.md) | Allows toast notification to be received within the app. |
 | [SearchProtocolHandler](element-desktop-searchprotocolhandler.md) | Represents a desktop process handles the search protocol for the app. |   
 
