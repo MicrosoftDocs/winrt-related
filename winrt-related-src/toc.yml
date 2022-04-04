@@ -426,6 +426,12 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop-fulltrustprocess.md
           - name: "desktop:ParameterGroup"
             href: schemas/appxpackage/uapmanifestschema/element-desktop-parametergroup.md
+          - name: "desktop:SearchProtocolHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop-searchprotocolhandler.md
+          - name: "desktop:StartupTasks"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop-startuptasks.md
+          - name: "desktop:ToastNotificationActivation"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop-toastnotificationactivation.md
           - name: "desktop2:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-desktop2-extension.md
           - name: "desktop2:AppPrinter"

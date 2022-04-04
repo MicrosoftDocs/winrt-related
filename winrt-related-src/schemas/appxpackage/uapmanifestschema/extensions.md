@@ -38,6 +38,7 @@ For reference information about the available application-level extensions, see 
 * [**Extension**](element-1-extension.md)
 * [**com:Extension**](element-com-extension.md)
 * [**com2:Extension**](element-com2-extension.md)
+* [**desktop:Extension**](element-desktop-extension.md)
 * [**desktop2:Extension**](element-desktop2-extension.md)
 * [**desktop3:Extension**](element-desktop3-extension.md)  
 * [**desktop4:Extension**](element-desktop4-extension.md)
