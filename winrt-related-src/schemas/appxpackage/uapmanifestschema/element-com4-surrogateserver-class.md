@@ -1,6 +1,6 @@
 ---
-title: com4:Class (in SurrogateServer)
-description: TBD
+title: com4:Class (in com4:SurrogateServer)
+description: Defines a surrogate server class registration. (in com4:SurrogateServer)
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
@@ -11,7 +11,7 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 
 ## Description
-TBD
+Defines a surrogate server class registration.
 
 
 
@@ -59,17 +59,17 @@ TBD
 
 | Attribute | Description | Data type | Required |
 | -----------| -------------| -----------| ----------|
-| Path | TBD | One of the following values: A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", ,, ?, or *.| Yes |
-| ThreadingModel | TBD | One of the following values: "Both" , "STA" , "MTA" , "MainSTA" , "Neutral"| Yes |
+| Path | The path to the surrogate server DLL. | One of the following values: A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", ,, ?, or *.| Yes |
+| ThreadingModel | The threading model for loading DLLs. | One of the following values: "Both" , "STA" , "MTA" , "MainSTA" , "Neutral"| Yes |
 | Virtualization | TBD | One of the following values: "enabled" , "disabled"| Yes |
-| EnableOleDefaultHandler | TBD | Boolean.| Yes |
-| ProgId | TBD | An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1| Yes |
-| VersionIndependentProgId | TBD | An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1| Yes |
-| AutoConvertTo | TBD | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
-| InsertableObject | TBD | Boolean.| Yes |
-| ShortDisplayName | TBD | A string between 1 and 40 characters in length.| Yes |
-| Id | TBD | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
-| DisplayName | TBD | A string between 1 and 256 characters in length. This string is localizable.| Yes |
+| EnableOleDefaultHandler | This should be set to true if the default value of the [InprocHandler32](/windows/win32/com/inprochandler32) key is "Ole32.dll". Otherwise it should be omitted. The default value is false. | Boolean.| Yes |
+| ProgId | Associates a programmatic identifier (ProgID) with a CLSID. | An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1| Yes |
+| VersionIndependentProgId | Associates a ProgID with a CLSID. This value is used to determine the latest version of an object application. | An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1| Yes |
+| AutoConvertTo | Specifies the automatic conversion of a given class of objects to a new class of objects. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
+| InsertableObject | Indicates that this class is insertable. | Boolean.| Yes |
+| ShortDisplayName | A short version of the class display name. | A string between 1 and 40 characters in length.| Yes |
+| Id | The Id attribute corresponds to the CLSID. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
+| DisplayName | A localizable string corresponding to the default value of the CLSID's key. | A string between 1 and 256 characters in length. This string is localizable.| Yes |
 
 
 

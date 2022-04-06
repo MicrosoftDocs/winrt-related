@@ -42,10 +42,14 @@ Registers an ExeServer with one or many class registrations.
     LaunchAndActivationPermission = [SDDL string](/windows/win32/secauthz/security-descriptor-string-format).
 >
 <!-- Child elements -->
-  Class
-  ClassReference
+  Class {0, 1000}
+  ClassReference {0, 1000}
 </com4:ExeServer>
 ```
+
+### Key
+
+`{}`   specific range of occurrences
 
 
 ## Attributes
@@ -63,7 +67,7 @@ Registers an ExeServer with one or many class registrations.
 | Element | Description |
 | -----------| -------------|
 | [Class](element-com4-exeserver-class.md) | Defines an ExeServer class registration. |
-| [ClassReference](element-com4-exeserver-classreference.md) | TBD |
+| [ClassReference](element-com4-exeserver-classreference.md) | Specifies the class with which the registered ExeServer is associated and sets ExeServer-specific registration details. |
 
 ## Requirements
 | Prefix | Value |

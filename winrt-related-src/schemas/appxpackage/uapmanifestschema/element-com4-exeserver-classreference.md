@@ -1,17 +1,17 @@
 ---
-title: com4:ClassReference (in ExeServer)
-description: TBD
+title: com4:ClassReference (in com4:ExeServer)
+description: Specifies the class with which the registered ExeServer is associated and sets ExeServer-specific registration details. (in com4:ExeServer)
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
 ---
 
-# com4:ClassReference (in ExeServer)
+# com4:ClassReference (in com4:ExeServer)
 
 
 
 ## Description
-TBD
+Specifies the class with which the registered ExeServer is associated and sets ExeServer-specific registration details.
 
 
 
@@ -51,7 +51,7 @@ TBD
 | Attribute | Description | Data type | Required |
 | -----------| -------------| -----------| ----------|
 | EnableOleDefaultHandler | This should be set to true if the default value of the [InprocHandler32](/windows/win32/com/inprochandler32) key is "Ole32.dll". Otherwise it should be omitted. The default value is false. | Boolean.| Yes |
-| Id | TBD | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
+| Id | The Id of the [Class](element-com4-class.md) being referenced. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
 
 
 

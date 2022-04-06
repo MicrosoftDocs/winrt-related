@@ -1,6 +1,6 @@
 ---
 title: com4:InProcessServer
-description: Declares a package extensibility point of type windows.activatableClass.inProcessServer (com4:InProcessServer).
+description: Registers an in-process server with one or many class registrations. (com4:InProcessServer).
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
@@ -11,7 +11,7 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 
 ## Description
-Declares a package extensibility point of type windows.activatableClass.inProcessServer.
+Registers an in-process server with one or many class registrations.
 
 
 
@@ -59,9 +59,24 @@ Declares a package extensibility point of type windows.activatableClass.inProces
 
 | Element | Description |
 | -----------| -------------|
-| [Class](element-com4-inprocessserver-class.md) | TBD |
-| [InProcessServerDll](element-com4-inprocessserverdll.md) | TBD |
-| [ClassReference](element-com4-inprocessserver-classreference.md) | TBD |
+| [Class](element-com4-inprocessserver-class.md) | Defines an in-process server class registration. |
+| [InProcessServerDll](element-com4-inprocessserverdll.md) | Specifies the path and processor architecture of an in-process server DLL. |
+| [ClassReference](element-com4-inprocessserver-classreference.md) | Specifies the class with which the registered in-process server is associated and sets registration details. |
+
+## Remarks
+
+The following example shows how to register an out-of-process and an in-process server implementation for the same class.
+
+```xml
+<com4:Class Id="f4ed7720-9b3a-44a4-xxxx-xxxxxxxxxxxx" DisplayName="CLSID_Foo"/> 
+<com:ExeServer Executable="MyServer.exe" DisplayName="My server">  
+  <com4:ClassReference Id="f4ed7720-9b3a-44a4-xxxx-xxxxxxxxxxxx"/>  
+</com:ExeServer> 
+<com4:InProcessServer Path="MyServer.dll">  
+  <com4:ClassReference Id="f4ed7720-9b3a-44a4-xxxx-xxxxxxxxxxxx"/>  
+</com4:InProcessServer> 
+
+```
 
 ## Requirements
 | Prefix | Value |

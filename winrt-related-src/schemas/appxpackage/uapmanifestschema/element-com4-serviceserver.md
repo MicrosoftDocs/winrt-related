@@ -1,6 +1,6 @@
 ---
 title: com4:ServiceServer
-description: TBD
+description: Registers a ServiceServer with one or many class registrations. (com4:ServiceServer)
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
@@ -11,7 +11,7 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 
 ## Description
-TBD
+Registers a ServiceServer with one or many class registrations.
 
 
 
@@ -62,7 +62,7 @@ TBD
 | Element | Description |
 | -----------| -------------|
 | [Class](element-com4-exeserver-class.md) | Defines an ExeServer class registration. |
-| [ClassReference](element-com4-exeserver-classreference.md) | TBD |
+| [ClassReference](element-com4-exeserver-classreference.md) | Specifies the class with which the registered ExeServer is associated and sets ExeServer-specific registration details. |
 
 ## Requirements
 | Prefix | Value |

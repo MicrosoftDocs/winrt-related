@@ -12,7 +12,7 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 ## Description
 
-Declares a package extension point of type windows.comServer. The comServer extension may include four types of registrations: Class, ServiceServer, SurrogateServer, InProcessServer, InProcessHandler, ManagedInProcessServer.
+Declares a package extension point of type windows.comServer. The comServer extension may include six types of registrations: Class, ServiceServer, SurrogateServer, InProcessServer, InProcessHandler, ManagedInProcessServer.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: com4:ManagedInProcessServer
-description: TBD
+description: Registers a managed in-process server with one or many class registrations. (com4:ManagedInProcessServer)
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
@@ -11,7 +11,7 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 
 ## Description
-TBD
+Registers a managed in-process server with one or many class registrations.
 
 
 
@@ -49,16 +49,16 @@ TBD
 
 | Attribute | Description | Data type | Required |
 | -----------| -------------| -----------| ----------|
-| Assembly | TBD | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.| Yes |
-| RuntimeVersion | TBD | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.| Yes |
+| Assembly | The name of the assembly for the managed in-process server. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.| Yes |
+| RuntimeVersion | The runtime version targeted by the managed in-proces server. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.| Yes |
 
 
 ## Child Elements
 
 | Element | Description |
 | -----------| -------------|
-| [Class](element-com4-managedinprocessserver-class.md) | TBD |
-| [ClassReference](element-com4-managedinprocessserver-classreference.md) | TBD |
+| [Class](element-com4-managedinprocessserver-class.md) | Registers a managed in-process server with one or more classes.  |
+| [ClassReference](element-com4-managedinprocessserver-classreference.md) | Specifies the class with which the managed in-process server is associated and sets registration details. |
 
 ## Requirements
 | Prefix | Value |

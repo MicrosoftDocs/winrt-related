@@ -1,6 +1,6 @@
 ---
 title: com4:ClassReference (in ManagedInProcessServer)
-description: TBD
+description: Specifies the class with which the managed in-process server is associated and sets registration details. (in com4:ManagedInProcessServer)
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
@@ -11,7 +11,8 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 
 ## Description
-TBD
+
+Specifies the class with which the managed in-process server is associated and sets registration details.
 
 
 
@@ -52,14 +53,15 @@ TBD
 
 | Attribute | Description | Data type | Required |
 | -----------| -------------| -----------| ----------|
-| ThreadingModel | TBD | One of the following values: "Both" , "STA" , "MTA" , "MainSTA" , "Neutral"| Yes |
+| ThreadingModel | The threading model for loading DLLs. | One of the following values: "Both" , "STA" , "MTA" , "MainSTA" , "Neutral"| Yes |
 | ImplementationClass | TBD | An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1| Yes |
-| Virtualization | TBD | One of the following values: "enabled" , "disabled"| Yes |
-| Id | TBD | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
+| Virtualization | Specifies whether virtualization is used when loading the class. | One of the following values: "enabled" , "disabled"| Yes |
+| Id | The Id of the [Class](element-com4-class.md) being referenced. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
 
 
 
 ## Requirements
+
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|
 | com4 | http://schemas.microsoft.com/appx/manifest/com/windows10/4 |

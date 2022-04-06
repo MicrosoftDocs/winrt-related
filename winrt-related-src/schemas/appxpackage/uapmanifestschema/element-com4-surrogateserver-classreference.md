@@ -1,6 +1,6 @@
 ---
-title: com4:ClassReference (in SurrogateServer)
-description: TBD
+title: com4:ClassReference (in com4:SurrogateServer)
+description: Specifies the class with which the registered in-process server is associated and sets registration details. (in com4:SurrogateServer)
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
@@ -11,7 +11,7 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 
 ## Description
-TBD
+Specifies the class with which the registered in-process server is associated and sets registration details.
 
 
 
@@ -52,10 +52,10 @@ TBD
 
 | Attribute | Description | Data type | Required |
 | -----------| -------------| -----------| ----------|
-| Path | TBD | One of the following values: A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", ,, ?, or *.| Yes |
-| ThreadingModel | TBD | One of the following values: "Both" , "STA" , "MTA" , "MainSTA" , "Neutral"| Yes |
-| EnableOleDefaultHandler | TBD | Boolean.| Yes |
-| Id | TBD | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
+| Path | The path to the surrogate server DLL. | One of the following values: A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", ,, ?, or *.| Yes |
+| ThreadingModel | The threading model for loading DLLs. | One of the following values: "Both" , "STA" , "MTA" , "MainSTA" , "Neutral"| Yes |
+| EnableOleDefaultHandler | This should be set to true if the default value of the [InprocHandler32](/windows/win32/com/inprochandler32) key is "Ole32.dll". Otherwise it should be omitted. The default value is false. | Boolean.| Yes |
+| Id | The Id of the [Class](element-com4-class.md) being referenced. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
 
 
 

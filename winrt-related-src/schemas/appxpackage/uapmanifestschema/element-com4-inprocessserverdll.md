@@ -1,6 +1,6 @@
 ---
 title: com4:InProcessServerDll
-description: TBD
+description: Specifies the path and processor architecture of an in-process server DLL. (com4:InProcessServerDll)
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
@@ -11,7 +11,7 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 
 ## Description
-TBD
+Specifies the path and processor architecture of an in-process server DLL.
 
 
 
@@ -50,8 +50,8 @@ TBD
 
 | Attribute | Description | Data type | Required |
 | -----------| -------------| -----------| ----------|
-| Path | TBD | One of the following values: A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", ,, ?, or *, ending with the case-insensitive file extension ".dll".| Yes |
-| ProcessorArchitecture | TBD | One of the following values: "x86" , "x64" , "arm" , "arm64" , "x86a64"| Yes |
+| Path | The full path to the in-process server DLL. | One of the following values: A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", ,, ?, or *, ending with the case-insensitive file extension ".dll".| Yes |
+| ProcessorArchitecture | The processor architecture of the in-process server DLL. | One of the following values: "x86" , "x64" , "arm" , "arm64" , "x86a64"| Yes |
 
 
 

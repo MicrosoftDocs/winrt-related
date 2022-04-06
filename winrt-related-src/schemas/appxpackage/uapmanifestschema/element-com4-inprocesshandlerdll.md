@@ -53,6 +53,17 @@ Specifies the path and processor architecture of an in-process handler DLL.
 | Path |  The full path to the in-process handler DLL. | One of the following values: A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", ,, ?, or *, ending with the case-insensitive file extension ".dll".| Yes |
 | ProcessorArchitecture | The processor architecture of the in-process handler DLL. | One of the following values: "x86" , "x64" , "arm" , "arm64" , "x86a64"| Yes |
 
+## Remarks
+
+The following example shows how to register a class and an in-process handler dll for x86 and x64 architectures.
+
+```xml
+<com4:InProcessHandler> 
+  <com4:InProcessHandlerDll Path="x86\MyHandler.dll" ProcessorArchitecture="x86"/> 
+  <com4:InProcessHandlerDll Path="amd64\MyHandler.dll" ProcessorArchitecture="x64"/> 
+  <com4:Class Id="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" DisplayName="CLSID_Bar" ThreadingModel="Both"/> 
+</com4:InProcessHandler>
+```
 
 
 ## Requirements

@@ -1,6 +1,6 @@
 ---
 title: com4:ClassReference (in InProcessHandler)
-description: TBD
+description: Specifies the class with which the registered in-process handler is associated and sets registration details. (in com4:InProcessHandler)
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
@@ -11,7 +11,7 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 
 ## Description
-TBD
+Specifies the class with which the registered in-process handler is associated and sets registration details.
 
 
 
@@ -50,8 +50,8 @@ TBD
 
 | Attribute | Description | Data type | Required |
 | -----------| -------------| -----------| ----------|
-| Virtualization | TBD | One of the following values: "enabled" , "disabled"| Yes |
-| Id | TBD | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
+| Virtualization | Specifies whether virtualization is used when loading the class. | One of the following values: "enabled" , "disabled"| Yes |
+| Id | The Id of the [Class](element-com4-class.md) being referenced. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
 
 
 

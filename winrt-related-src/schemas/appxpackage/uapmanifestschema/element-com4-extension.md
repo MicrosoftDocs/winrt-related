@@ -1,6 +1,6 @@
 ---
 title: com4:Extension
-description: TBD
+description: Provides functionality to expose COM registrations to clients outside of the app package (com4:Extension).
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
@@ -11,7 +11,8 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 
 ## Description
-TBD
+
+Provides functionality to expose COM registrations to clients outside of the app package. The com4 extension is a new version that is a superset of and replacement for the previous COM schema versions. See the Remarks section for more information.
 
 
 
@@ -55,8 +56,8 @@ TBD
     Scope? = "machine" | "user"
 >
 <!-- Child elements -->
-  com4:ComServer
-  com4:ComInterface
+  (com4:ComServer |
+  com4:ComInterface)
 </com4:Extension>
 ```
 
@@ -93,7 +94,33 @@ TBD
 | Element | Description |
 | -----------| -------------|
 | [com4:ComServer](element-com4-comserver.md) | Declares a package extension point of type windows.comServer. The comServer extension may include four types of registrations: Class, ServiceServer, SurrogateServer, InProcessServer, InProcessHandler, ManagedInProcessServer. |
-| [com4:ComInterface](element-com4-cominterface.md) | TBD |
+| [com4:ComInterface](element-com4-cominterface.md) | Declares a package extension point of type **windows.comInterface** (com4:ComInterface). |
+
+## Remarks
+
+The com4 extension is essentially a rewrite of the old windows.comServer/windows.comInterface extension syntax. This extension is a superset of the previous com extension functionality, with identical behavior for the inherited syntax. One fundamental change in the com4 extension is the strict enforcement of unique key and keyref attributes (e.g. Id attributes). In the previous version, each extension was treated as a separate document, allowing non-unique keys and dangling references to be validated.	Applications targeting Windows 11 that can use the new com4 namespace for all of their windows.comServer/windows.comInterface extensions should use it. Mixing the new namespace with the older namespaces is not recommended.
+
+The following example shows how to register an out-of-process and an in-process server implementation for the same class.
+
+```xml
+<com4:Class Id="f4ed7720-9b3a-44a4-xxxx-xxxxxxxxxxxx" DisplayName="CLSID_Foo"/> 
+<com:ExeServer Executable="MyServer.exe" DisplayName="My server">  
+  <com4:ClassReference Id="f4ed7720-9b3a-44a4-xxxx-xxxxxxxxxxxx"/>  
+</com:ExeServer> 
+<com4:InProcessServer Path="MyServer.dll">  
+  <com4:ClassReference Id="f4ed7720-9b3a-44a4-xxxx-xxxxxxxxxxxx"/>  
+</com4:InProcessServer> 
+
+```
+
+### New features in the com4 extension
+
+- Support for in-process servers (both unmanaged and managed) and custom in-process handlers (i.e. not the OLE default handler). This capability is currently functionally limited and restricted by policy:
+    - This is currently only intended for use by sparse packages and doesn’t work for most normal packages due to ACLs on the install location that prevent the package’s dlls from being loaded outside the package. For more information on sparse packages, see [Grant identity to non-packaged desktop apps](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps).
+    -	Use of any of the com4 syntax requires a custom capability Microsoft.classicAppCompat_8wekyb3d8bbwe
+- It is now possible to associate a TypeLib with a class registration. 
+
+
 
 ## Requirements
 | Prefix | Value |
