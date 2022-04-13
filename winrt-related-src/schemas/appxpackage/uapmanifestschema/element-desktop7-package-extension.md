@@ -70,7 +70,7 @@ Declares an extensibility point for the desktop application.
 | Child Element | Description |
 |---------------|-------------|
 | [desktop7:ShadowCopyExcludeFiles](element-desktop7-shadowcopyexcludefiles.md) | Specifies a set of files to be excluded by the Volume Shadow Copy Service (VSS).  |
-| [desktop7:ErrorReporting](element-desktop7-shadowcopyexcludefiles.md) | Specifies a set of files to be excluded by the Volume Shadow Copy Service (VSS).  |
+| [desktop7:ErrorReporting](element-desktop7-errorreporting.md) | Specifies a set of files to be excluded by the Volume Shadow Copy Service (VSS).  |
 
 
 ### Parent Elements
