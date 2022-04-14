@@ -17,47 +17,35 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 Contains registry keys for discovering classic app installations and launching executables.
 
 ## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-rescap4-extension.md">&lt;rescap4:Extension&gt;</a></dt>
-<dd><b>&lt;rescap4:ClassicAppCompatKeys&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
 
+[ < Package > ](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < Extensions > ](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ <rescap4:Extension> ](element-rescap4-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**< rescap4:ClassicAppCompatKeys >**
 
 ## Syntax
 ```syntax
 <rescap4:ClassicAppCompatKeys>
+
   <!-- Child elements -->
   rescap4:ClassicAppCompatKey{1,10000}
+
 </rescap4:ClassicAppCompatKeys>
 ```
 
 ### Key
+
 `{}` specific range of occurrences  
 
 ## Attributes
+
 None.
 
 ## Child Elements
+
 | Child Element | Description |
 |---------------|-------------|
 | [ClassicAppCompatKey](element-rescap4-classicappcompatkey.md) | Registry keys for discovering classic app installations and launching executables. |
