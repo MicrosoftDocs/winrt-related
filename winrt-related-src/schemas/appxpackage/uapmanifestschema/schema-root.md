@@ -374,7 +374,8 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap6:AllowExecution](element-uap6-AllowExecution.md) | Indicates whether the contents of the package will be allowed to execute. |
 | [uap6:BarcodeScannerProvider](element-uap6-BarcodeScannerProvider.md) | Used for enabling the support of a barcode scanner. |
 | [uap6:Capability](element-uap6-capability.md) | Declares a capability required by a package. |
-| [uap6:Extension](element-uap6-Extension.md) | Declares an extensibility point for the app. |
+| [uap6:Extension (in Application/Extensions)](element-uap6-Extension.md) | Declares an extensibility point for the app. |
+| [uap6:Extension (in Package/Extensions)](element-uap6-package-extension.md) | Declares an extensibility point for the app. |
 | [uap6:LoaderSearchPathEntry](element-uap6-LoaderSearchPathEntry.md) | A path in the app package, relative to the app package root path, to be included in the loader search path for the app's processes. |
 | [uap6:LoaderSearchPathOverride](element-uap6-LoaderSearchPathOverride.md) | An extension that allows an app developer to declare a path in the app package, relative to the app package root path, to be included in the loader search path for the app's processes. |
 | [uap6:LocalExperiencePack](element-uap6-LocalExperiencePack.md) | This extension provides a means to deliver translated app resources. |
