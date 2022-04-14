@@ -116,7 +116,7 @@ Declares an extensibility point for the app.
 | [**uap3:AppService**](element-uap3-appservice-manual.md)                           | Declares an app extensibility point of type **windows.appExtension**.            |
 | [**uap3:AppExeuctionAlias**](element-uap3-appexecutionalias.md)                    | Declares an app extensibility point of type **windows.appExecutionAlias**.       |
 | [**uap3:Protocol**](element-uap3-protocol.md)                                      | Declares an app extensibility point of type **windows.protocol**.                |
-| [**uap3:FileTypeAssociations**](element-uap3-filetypeassociations.md)              | Declares an app extensibility point of type **windows.fileTypeAssociationss**.   |
+| [**uap3:FileTypeAssociations**](element-uap3-filetypeassociations.md)              | Declares an app extensibility point of type **windows.fileTypeAssociations**.   |
 
  
 
