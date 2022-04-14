@@ -81,6 +81,10 @@ This example assumes you have added the desktop9 xml namespace to your manifest 
 xmlns:desktop9="http://schemas.microsoft.com/appx/manifest/desktop/windows10/9"
 ```
 
+## Remarks
+
+The AppXManifest file must have the dependency MaxTested set to as least version 10.0.21300.0. Support for OS builds starting with the minimum version of 10.0.21300.0.
+
 
 ## Requirements
 

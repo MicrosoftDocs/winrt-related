@@ -69,6 +69,8 @@ None.
 
 Packaged desktop apps that use the legacy **IContextMenu** COM interface to implement a context menu shell extension should include this element in their package manifest file. For more information, see [Support legacy context menus for packaged apps](/windows/msix/packaging-tool/support-legacy-context-menus).
 
+The AppXManifest file must have the dependency MaxTested set to as least version 10.0.21300.0. Support for OS builds starting with the minimum version of 10.0.21300.0.
+
 ## Examples 
 
 The following example shows the usage of the **FileExplorerClassicDragDropContextMenuHandler** element within a package manifest file to register a context menu shell extension.
