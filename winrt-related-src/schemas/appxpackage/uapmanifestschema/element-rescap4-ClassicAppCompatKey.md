@@ -34,6 +34,8 @@ Registry keys for discovering classic app installations and launching executable
                              ValueName? = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
                              ValueType? = One of the following string values: REG_SZ, REG_BINARY, REG_DWORD, REG_QWORD, REG_MULTI_SZ, REG_EXPAND_SZ
                              Value?     = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. />
+
+</rescap4:ClassicAppCompatKey>
 ```
 
 ### Key

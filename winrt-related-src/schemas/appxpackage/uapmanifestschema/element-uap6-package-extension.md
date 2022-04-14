@@ -1,7 +1,7 @@
 ---
 
 title: uap6:Extension (in Package/Extensions)
-description: Declares an extensibility point for the app.
+description: Declares an extensibility point for the app (in Package/Extensions).
 keywords: windows 10, uwp, schema, manifest, extension 
 
 ms.date: 04/14/2022
