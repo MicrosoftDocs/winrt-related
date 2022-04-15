@@ -1,28 +1,39 @@
 ---
-title: uap10:Extension (in Application/Extensions)
-description: Declares an extensibility point for the app (uap10:Extension).
-ms.date: 03/05/2020
+
+title: uap8:Extension
+description: Declares an extensibility point for the app (uap8:Extension).
+
+ms.date: 03/10/2022
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, extension 
+
+keywords: windows 10, uwp, schema, manifest, extension
 ---
 
-# uap10:Extension (in Application/Extensions)
+# uap8:Extension (in Package/Applications)
 
 Declares an extensibility point for the app.
 
 ## Element Hierarchy
-
-[ <  Package  > ](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < Applications > ](element-applications.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < Application > ](element-application.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**< UAP10:Extension >**
+<dl>
+<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
+<dd><b>&lt;uap8:Extension&gt;</b></dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
 
 ## Syntax
 ```syntax
-<uap10:Extension Category       = "windows.protocol"
+<uap8:Extension Category       = "windows.posPaymentProvider"
                    Executable?             = A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used.
                    EntryPoint?             = A string between 1 and 256 characters in length, representing the  task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead.
                    RuntimeType?            = A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *.
@@ -42,12 +53,11 @@ Declares an extensibility point for the app.
                    uap11:Parameters? = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
                    desktop7:CompatMode = A string value that can be one of the following: "classic", "modern".
                    desktop7:Scope = A string value that can be one of the following: "user", "machine".
-                   >
 
   <!-- Child elements -->
-  ( uap10:protocol? )
-  
-</uap10:Extension>
+  ( uap8:PosPaymentConnector )
+
+</uap8:Extension>
 ```
 
 ### Key
@@ -56,7 +66,7 @@ Declares an extensibility point for the app.
 ## Attributes
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
-| Category | The category of the extension. | One of the following: HostRuntime, InstalledLocationVirtualization, or MediaContentDecryptionModule| Yes |
+| Category | The category of the extension. | One of the following: | Yes |
 | Executable | The default launch executable. | A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", &#124;, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | No |
 | EntryPoint | The activatable class ID. | A string between 1 and 256 characters in length, representing the task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |
 | RuntimeType | The runtime provider. This attribute is used typically when there are mixed frameworks in an app. | A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, &#124;, ?, or *. | No |
@@ -78,15 +88,14 @@ Declares an extensibility point for the app.
 | desktop7:Scope | Contains paraeters to manipulate the scope used for application previews. | A string value that can be one of the following: "user", "machine". | No |
 
 ## Child Elements
-
 | Child Element | Description |
 |---------------|-------------|
-| [uap10:Protocol](element-uap10-protocol.md) | Sets parameters to define the protocol of the extensions. |
-
+| [PosPaymentConnector](element-uap8-posPaymentConnector.md) | Contains device information for Point-of-Sale/Point-of-Service interfaces. |  
 
 ## Requirements
 | Namespace | Manifest Path | 
 |--|--|
+| **UAP8** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/8` |
 | **UAP10** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
 | **previewappcompat** | `http://schemas.microsoft.com/appx/manifest/preview/windows10/msixappcompatsupport/3` |
 | **UAP11** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/11` |

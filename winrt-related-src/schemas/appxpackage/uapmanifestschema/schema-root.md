@@ -96,6 +96,11 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [Dependencies](element-dependencies.md) | Declares other packages that a package depends on to complete its software. |
 | [Description](element-description.md) | A friendly description that can be displayed to users. |
 | [desktop:ExecutionAlias](element-desktop-executionalias.md) | The executable of a UWP app to be activated from a command prompt. |
+| [desktop:Extension](element-desktop-extension.md) | Declares an extensibility point for the app. |
+| [desktop:FullTrustProcess](element-desktop-fulltrustprocess.md) | Represents a desktop process that runs in full-trust. |
+| [desktop:SearchProtocolHandler](element-desktop-searchprotocolhandler.md) | Represents a desktop process handles the search protocol for the app. |
+| [desktop:StartupTasks](element-desktop-startuptasks.md) | Represents a desktop process that runs during app startup. |
+| [desktop:ToastNotificationActivation](element-desktop-toastnotificationactivation.md) | Allows toast notification to be received within the app. |
 | [desktop2:AppPrinter](element-desktop2-appprinter.md) | Enables the ability to install software file printers in Windows Desktop Bridge apps. |
 | [desktop2:DesktopEventLogging](element-desktop2-desktopeventlogging.md) | Enables Windows Desktop Bridge apps to register for Windows event logging. |
 | [desktop2:DesktopPreviewHandler](element-desktop2-desktoppreviewhandler.md) | Enables declaration of a preview handler for a file type association. |
@@ -221,6 +226,8 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [rescap4:ClassicAppCompatKey](element-rescap4-ClassicAppCompatKey.md) | Registry keys for discovering classic app installations and launching executables. |
 | [rescap4:ClassicAppCompatKeys](element-rescap4-ClassicAppCompatKeys.md) | Contains registry keys for discovering classic app installations and launching executables. |
 | [rescap4:Extension](element-rescap4-extension.md) | Declares an extensibility point for the app. |
+| [rescap4:PrimaryInteropAssemblies](element-rescap4-primaryInteropAssemblies.md) | Defines package assembly configuration. |
+| [rescap4:Redirect](element-rescap4-redirect.md) | Specifies redirect information for interop assemblies. |
 | [Resource](element-resource.md) | Declares a language for the resource contained in the package. The scale and DirectX feature level attributes are common for all resources in the package. |
 | [ResourcePackage](element-resourcepackage.md) | Indicates whether the package is a resource package. A resource package can be used by other packages. Its value is **false** by default. You should not specify a value for it unless you are creating a resource. |
 | [Resources](element-resources.md) | Declares languages for the resources that the package contains. Every package must declare at least one language for resources. The scale and DirectX feature level attributes are common for all resources in the package. |
@@ -299,8 +306,12 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap:VoipCallUpgrade](element-uap-voipcallupgrade.md) | Indicates that the app supports video upgrade. Video upgrade is a feature on some mobile devices such that, when a user is on a cellular call, the user can upgrade that call to a VoIP video call if there is an app installed that can service such a request. These upgrades can be non-seamless (we must drop the cellular call before starting the video call through the app) or seamless (the cellular call remains connected until the app tells us the video call is established). |
 | [uap:VoipDialPhoneNumber](element-uap-voipdialphonenumber.md) | Indicates that the app supports dialing phone numbers. |
 | [uap:WebAccountProvider](element-uap-webaccountprovider.md) | Declares an app extensibility point of type **windows.webAccountProvider**. |
+| [uap2:Extension](element-uap2-extension.md) | Declares an extensibility point for the app. |
+| [uap2:ManagedUrls](element-uap2-managedurls.md) | Provides support for multiple URLs. Allows plugins to specify multiple URLs to which they may send cookies. |
 | [uap2:SupportedVerbs](element-uap2-supportedverbs.md) | Contains verbs for a file context menu. |
+| [uap2:Url](element-uap2-url.md) | Specifies a URL to which a plugin may send cookies. Need only be a valid URI; not necessarily a URL. |
 | [uap2:Verb](element-uap2-verb.md) | Defines the verbs associated with a file context menu and enables Windows Desktop Bridge apps to use ddeexec to launch. |
+| [uap2:WebAccountProvider](element-uap2-webaccountprovider.md) | Declares an app extensibility point of type windows.webAccountProvider. |
 | [uap3:AppExecutionAlias](element-uap3-appexecutionalias.md) | Specifies the application's execution alias to determine the executable of the app to be activated. |
 | [uap3:AppExtension](element-uap3-appextension-manual.md) | Declares an app extensibility point of type **windows.appExtension**. This element indicates which categories of extensions the app intends to consume and/or host. |
 | [uap3:AppExtensionHost](element-uap3-appextensionhost-manual.md) | Declares an app extensibility point of type **windows.appExtensionHost**. This element indicates which categories of extensions the app can host.
@@ -312,10 +323,12 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap3:ContactDataProvider](element-uap3-contactdataprovider-manual.md) | Declares an app extensibility point of type **windows.contactDataProvider**. This element enables apps to become data providers for contacts. |
 | [uap3:EmailDataProvider](element-uap3-emaildataprovider-manual.md) | Declares an app extensibility point of type **windows.emailDataProvider**. This element enables apps to become data providers for email. |
 | [uap3:Extension](element-uap3-extension-manual.md) | Declares an extensibility point for the app. |
+| [uap3:FileTypeAssociations](element-uap3-filetypeassociations.md) | Defines the types of files used within the application. |
 | [uap3:Host](element-uap3-host-manual.md) | Represents a valid HTTP or HTTPS host name that the app wants to register as able to handle. |
 | [uap3:MainPackageDependency](element-uap3-mainpackagedependency-manual.md) | Specifies the main app package to which this supplemental package applies. |
 | [uap3:Name](elemennt-uap3-name-manual.md) | Specifies a category of extensions that the app can host. |
 | [uap3:Properties](elemnt-uap3-properties-manual.md) | Contains opaque XML that represents custom, extension-specific information that is simply stored and not read by the operating system. The information is only read by the host app. |
+| [uap3:Protocol](element-uap3-protocol.md) | Declares an app extensibility point of type windows.protocol. |
 | [uap3:VisualElements](element-uap3-visualelements-manual.md) | Describes the visual aspects of the app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance. |
 | [uap4:ContactPanel](element-uap4-contactpanel.md) | Enables the contacts panel in a Windows app. |
 | [uap4:CustomCapability](element-uap4-customcapability.md) | Declares a custom capability required by a package. |
@@ -373,13 +386,21 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap7:OSPackageDependency](element-uap7-ospackagedependency.md) | Defines a package dependency for a UWP app. |
 | [uap7:Properties](element-uap7-properties.md) | Properties of an application. |
 | [uap7:SharedFonts](element-uap7-sharedfonts.md) | Contains the locations of shared fonts to be used with the app. |
+| [uap8:PosPaymentConnector](element-uap8-posPaymentConnector.md) | Contains device information for Point-of-Sale/Point-of-Service devices. |
+| [uap8:DataProtection](element-uap8-dataProtection.md) | Settings to configure data encryption. |
 | [uap8:ExecutionAlias](element-uap8-executionalias.md) | The executable of a UWP app to be activated from a command prompt. |
 | [uap10:AllowExternalContent](element-uap10-allowexternalcontent.md) | Enables your package manifest to reference content outside the package, in a specific location on disk, for [sparse package](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps) scenarios. |
 | [uap10:Content](element-uap10-content.md) | Indicates whether Windows will enforce run time package integrity checks on the entire contents of the package. |
-| [uap10:Extension](element-uap10-extension.md) | Declares an extensibility point for the app. |
+| [uap10:DisplayName](element-uap10-displayname.md) | A friendly name that can be displayed to users. |
+| [uap10:Extension (Child of Application)](element-uap10-extension.md) | Declares an extensibility point for the app. |
+| [uap10:Extension (Child of Package)](element-uap10-package-extension.md) | Declares an extensibility point for the app. |
 | [uap10:HostRuntime](element-uap10-hostruntime.md) | Defines a package-wide extension that defines the runtime information to be used when activating a hosted app. |
 | [uap10:HostRuntimeDependency](element-uap10-hostruntimedependency.md) | Defines a dependency on a host app package for the current app package. |
 | [uap10:InstalledLocationVirtualization](element-uap10-installedlocationvirtualization.md) | Defines an extension for a desktop app in an MSIX package that redirects any writes to the app's installation directory to a location in the [app data](/windows/uwp/design/app-settings/store-and-retrieve-app-data). |
+|
+| [uap10:Logo](element-uap10-logo.md) | A path to a file that contains an image. |
+| [uap10:MediaContentDecryptionModule](element-uap10-mediacontentdecryptionmodule.md) | Defines an extension for a desktop app in an MSIX package that defines decryption information to be used to access media files.
 | [uap10:PackageIntegrity](element-uap10-packageintegrity.md) | Specifies the level of run time package integrity checks and remediation for the package.  |
+| [uap10:Protocol](element-uap10-protocol.md) | Declares an app extensibility point of type windows.protocol. A URI association indicates that the app is registered to handle URIs with the specified scheme. |
 | [uap10:UpdateActions](element-uap10-UpdateActions.md) | Specifies what happens during app updates to files in the app's installation directory that were previously modified, added, or deleted by the app. This element is intended to be used in conjunction with the [uap10:InstalledLocationVirtualization](element-uap10-installedlocationvirtualization.md) extension. |
 | [win32dependencies:ExternalDependency](element-win32dependencies-externaldependency.md) | Specifies an external dependency that is not included in the MSIX but will be chain installed as part of the app installation. |

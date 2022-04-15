@@ -1,14 +1,14 @@
 ---
 description: Declares an extensibility point for the package (in Application/Extensions).
 Search.Product: eADQiWindows 10XVcnh
-title: Extension (in Application/Extensions) (Windows 10)
+title: Extension (in Application/Extensions) (Windows 10)
 ms.assetid: e25d664a-67e8-4a22-a666-1b11286b58f3
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# Extension (in Application/Extensions) (Windows 10)
+# Extension (in Application/Extensions) (Windows 10)
 
 
 Declares an extensibility point for the package.
@@ -59,7 +59,7 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 
 ### Key
 
-`?`   optional (zero or one)
+`?`   optional (zero or one)
 
 ## Attributes and Elements
 
@@ -163,7 +163,7 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 </tbody>
 </table>
 
- 
+ 
 
 ### Child Elements
 
@@ -186,7 +186,7 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 </tbody>
 </table>
 
- 
+ 
 
 ### Parent Elements
 
@@ -209,7 +209,7 @@ If EntryPoint is not specified, the EntryPoint defined for the app is used inste
 </tbody>
 </table>
 
- 
+ 
 
 ## Related elements
 
@@ -224,9 +224,9 @@ Extensibility points are a mechanism by which a package can add functionality in
 
 The **windows.certificates** extensibility point can't be declared multiple times in a manifest.
 
-**Note**  Either the **EntryPoint** or **StartPage** attribute is required if the **Category** attribute is windows.UpdateTask or windows.preInstalledConfigTask for versions of Windows 10 before Windows 10, version 1607. Starting with Windows 10, version 1607, you no longer need to specify a value for **EntryPoint** or **StartPage** when **Category** is windows.UpdateTask or windows.preInstalledConfigTask and your application targets only devices that run Windows 10, version 1607 or later.
+**Note**  Either the **EntryPoint** or **StartPage** attribute is required if the **Category** attribute is windows.UpdateTask or windows.preInstalledConfigTask for versions of Windows 10 before Windows 10, version 1607. Starting with Windows 10, version 1607, you no longer need to specify a value for **EntryPoint** or **StartPage** when **Category** is windows.UpdateTask or windows.preInstalledConfigTask and your application targets only devices that run Windows 10, version 1607 or later.
 
- 
+ 
 
 ## See also
 

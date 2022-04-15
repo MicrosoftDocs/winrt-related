@@ -522,6 +522,12 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop-fulltrustprocess.md
           - name: "desktop:ParameterGroup"
             href: schemas/appxpackage/uapmanifestschema/element-desktop-parametergroup.md
+          - name: "desktop:SearchProtocolHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop-searchprotocolhandler.md
+          - name: "desktop:StartupTasks"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop-startuptasks.md
+          - name: "desktop:ToastNotificationActivation"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop-toastnotificationactivation.md
           - name: "desktop2:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-desktop2-extension.md
           - name: "desktop2:AppPrinter"
@@ -646,6 +652,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop9-fileexplorerclassiccontextmenuhandler.md
           - name: "desktop9:FileExplorerClassicDragDropContextMenuHandler"
             href: schemas/appxpackage/uapmanifestschema/element-desktop9-fileexplorerclassicdragdropcontextmenuhandler.md
+          - name: "previewappcompat:ProgId"
+            href: schemas/appxpackage/uapmanifestschema/element-previewappcompat-progid.md
           - name: "rescap2:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-rescap2-extension-manual.md
           - name: "rescap3:Extension"
@@ -660,6 +668,10 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-rescap4-ClassicAppCompatKeys.md
           - name: "rescap4:ClassicAppCompatKey"
             href: schemas/appxpackage/uapmanifestschema/element-rescap4-ClassicAppCompatKey.md
+          - name: "rescap4:PrimaryInteropAssemblies"
+            href: schemas/appxpackage/uapmanifestschema/element-rescap4-primaryInteropAssemblies.md
+          - name: "rescap4:Redirect"
+            href: schemas/appxpackage/uapmanifestschema/element-rescap4-redirect.md
           - name: "serverpreview:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-serverpreview-extension-manual.md
           - name: "serverpreview:IisModules"
@@ -814,6 +826,14 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap-voipcallupgrade.md
           - name: "uap:VoipDialPhoneNumber"
             href: schemas/appxpackage/uapmanifestschema/element-uap-voipdialphonenumber.md
+          - name: "uap2:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-uap2-extension.md
+          - name: "uap2:ManagedUrls"
+            href: schemas/appxpackage/uapmanifestschema/element-uap2-managedurls.md
+          - name: "uap2:Url"
+            href: schemas/appxpackage/uapmanifestschema/element-uap2-url.md
+          - name: "uap2:WebAccountProvider"
+            href: schemas/appxpackage/uapmanifestschema/element-uap2-webaccountprovider.md
           - name: "uap3:AppService"
             href: schemas/appxpackage/uapmanifestschema/element-uap3-appservice-manual.md
           - name: "uap3:Extension"
@@ -832,6 +852,10 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap3-host-manual.md
           - name: "uap3:AppExecutionAlias"
             href: schemas/appxpackage/uapmanifestschema/element-uap3-appexecutionalias.md
+          - name: "uap3:Protocol"
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-protocol.md
+          - name: "uap3:FileTypeAssociations"
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-filetypeassociations.md
           - name: "desktop:ExecutionAlias"
             href: schemas/appxpackage/uapmanifestschema/element-desktop-executionalias.md
           - name: "uap8:ExecutionAlias"
@@ -916,10 +940,28 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap6-BarcodeScannerProvider.md
           - name: "uap6:LocalExperiencePack"
             href: schemas/appxpackage/uapmanifestschema/element-uap6-localexperiencepack.md
-          - name: "uap10:Extension"
+          - name: "uap8:Extension (child of Application)"
+            href: schemas/appxpackage/uapmanifestschema/element-uap8-extension.md
+          - name: "uap8:Extension (child of Package)"
+            href: schemas/appxpackage/uapmanifestschema/element-uap8-package-extension.md
+          - name: "uap8:PosPaymentConnector"
+            href: schemas/appxpackage/uapmanifestschema/element-uap8-posPaymentConnector.md
+          - name: "uap8:DataProtection"
+            href: schemas/appxpackage/uapmanifestschema/element-uap8-dataProtection.md
+          - name: "uap10:Extension (child of Application)"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-extension.md
+          - name: "uap10:Extension (child of Package)"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-package-extension.md
+          - name: "uap10:Logo"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-logo.md
+          - name: "uap10:Protocol"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-protocol.md
+          - name: "uap10:DisplayName"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-displayname.md
           - name: "uap10:HostRuntime"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-hostruntime.md
+          - name: "uap10:MediaContentDecryptionModule"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-mediacontentdecryptionmodule.md
           - name: "uap10:InstalledLocationVirtualization"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-installedlocationvirtualization.md
           - name: "uap10:UpdateActions"
