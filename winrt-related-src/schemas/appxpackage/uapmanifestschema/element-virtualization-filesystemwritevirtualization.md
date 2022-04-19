@@ -14,7 +14,7 @@ ms.custom:
 Indicates whether virtualization for the file system is enabled for a package. If disabled, other apps can read or write the same file system entries as your package. 
 
 > [!NOTE]
-> This element is currently intended to be used only by certain types of desktop PC games that are published by Microsoft and our partners. It requires the  **unvirtualizedResources** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
+> This element requires the  **unvirtualizedResources** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
 
 ## Element hierarchy
 
