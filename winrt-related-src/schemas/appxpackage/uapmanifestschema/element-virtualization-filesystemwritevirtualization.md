@@ -57,6 +57,8 @@ None.
 
 This element requires the **unvirtualizedResources** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
 
+You can only declare file system locations under the %USERPROFILE%\AppData directory to be excluded from virtualization. This schema and syntax were introduced in the Windows 10, version 2004. Previously, in the Windows 10, version 1903 release, similar functionality was introduced with the [desktop6:FileSystemWriteVirtualization](schemas\appxpackage\uapmanifestschema\element-desktop6-filesystemwritevirtualization.md) element. If an application includes both syntaxes for disabling file system virtualization, the old declaration will be used on pre-2004 OS versions while the new declaration will be used on 2004 and later OS versions.
+
 ## Requirements
 
 | Namespace | Manifest Path | 

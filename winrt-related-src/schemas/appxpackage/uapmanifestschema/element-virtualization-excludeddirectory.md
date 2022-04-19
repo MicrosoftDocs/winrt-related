@@ -46,7 +46,7 @@ Specifies a directory that is excluded from file system virtualization.
 
 ## Value
 
-This element is a case-insensitive string that must start with "KnownFolder:&lt;folder name&gt;" where *folder name* specifies one of the known folders under the AppData directory. The rest of the string is the relative path to the excluded directory. For example, `KnownFolder:LocalAppData)\Fabrikam\Shared`. 
+This element is a case-insensitive string that must start with "$(KnownFolder:KnownFolder:&lt;folder name&gt;)" where *folder name* specifies one of the known folders under the AppData directory. The rest of the string is the relative path to the excluded directory. For example, "\$(KnownFolder:LocalAppData)\Fabrikam\Shared". 
 
 ## Attributes and Elements
 
