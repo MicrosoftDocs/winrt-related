@@ -28,7 +28,7 @@ Specifies a directory that is excluded from file system virtualization.
 <dt><a href="element-virtualization-filesystemwritevirtualization.md">&lt;virtualization:FileSystemWriteVirtualization&gt;</a></dt>
 <dd>
 <dl>
-<dt><a href="element-virtualization-exludeddirectories.md">&lt;virtualization:ExcludedDirectories&gt;</a></dt>
+<dt><a href="element-virtualization-excludeddirectories.md">&lt;virtualization:ExcludedDirectories&gt;</a></dt>
 <dd><b>&lt;virtualization:ExcludedDirectory&gt;</b></dd>
 </dl>
 </dd>

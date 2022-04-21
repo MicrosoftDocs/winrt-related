@@ -25,7 +25,7 @@ Specifies the list of keys that are excluded from registry virtualization.
 <dt><a href="element-properties.md">&lt;Properties&gt;</a></dt>
 <dd>
 <dl>
-<dt><a href="element-registrywritevirtualization.md">&lt;virtualization:RegistryWriteVirtualization&gt;</a></dt>
+<dt><a href="element-virtualization-registrywritevirtualization.md">&lt;virtualization:RegistryWriteVirtualization&gt;</a></dt>
 <dd><b>&lt;virtualization:ExcludedKeys&gt;</b></dd>
 </dl>
 </dd>

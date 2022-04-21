@@ -871,7 +871,7 @@ items:
           - name: "uap10:UpdateActions"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-UpdateActions.md
           - name: "virtualization:ExludedDirectories"
-            href: schemas/appxpackage/uapmanifestschema/element-virtualization-exludeddirectories.md
+            href: schemas/appxpackage/uapmanifestschema/element-virtualization-excludeddirectories.md
           - name: "virtualization:ExcludedDirectory"
             href: schemas/appxpackage/uapmanifestschema/element-virtualization-excludeddirectory.md
           - name: "virtualization:ExcludedKey"
