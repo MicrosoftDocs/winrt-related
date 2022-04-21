@@ -870,6 +870,18 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap10-installedlocationvirtualization.md
           - name: "uap10:UpdateActions"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-UpdateActions.md
+          - name: "virtualization:ExludedDirectories"
+            href: schemas/appxpackage/uapmanifestschema/element-virtualization-excludeddirectories.md
+          - name: "virtualization:ExcludedDirectory"
+            href: schemas/appxpackage/uapmanifestschema/element-virtualization-excludeddirectory.md
+          - name: "virtualization:ExcludedKey"
+            href: schemas/appxpackage/uapmanifestschema/element-virtualization-excludedkey.md
+          - name: "virtualization:ExcludedKeys"
+            href: schemas/appxpackage/uapmanifestschema/element-virtualization-excludedkeys.md
+          - name: "virtualization:FileSystemWriteVirtualization"
+            href: schemas/appxpackage/uapmanifestschema/element-virtualization-filesystemwritevirtualization.md
+          - name: "virtualization:RegistryWriteVirtualization"
+            href: schemas/appxpackage/uapmanifestschema/element-virtualization-registrywritevirtualization.md
           - name: "win32dependencies:ExternalDependency"
             href: schemas/appxpackage/uapmanifestschema/element-win32dependencies-externaldependency.md
           - name: "mobile:Extension"
