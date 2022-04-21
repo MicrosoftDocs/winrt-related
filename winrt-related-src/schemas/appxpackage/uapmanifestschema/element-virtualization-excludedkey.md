@@ -31,7 +31,7 @@ Specifies a key that is excluded from registry key virtualization.
 ## Syntax
 
 ``` xml
-<virtualization:ExcludedKey>disabled</virtualization:ExcludedKey>
+<virtualization:ExcludedKey>HKEY_CURRENT_USER\[path to registry key]</virtualization:ExcludedKey>
 ```
 
 ## Value

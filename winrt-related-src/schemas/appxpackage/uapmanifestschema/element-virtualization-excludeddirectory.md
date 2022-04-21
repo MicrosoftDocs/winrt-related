@@ -1,6 +1,6 @@
 ---
 description: Specifies a directory that is excluded from file system virtualization.
-title: desktop6:FileSystemWriteVirtualization
+title: virtualization:ExcludedDirectory
 
 
 keywords: windows 10, uwp, schema, package manifest
@@ -9,7 +9,7 @@ ms.date: 04/18/2022
 ms.custom: 
 ---
 
-# desktop6:FileSystemWriteVirtualization
+# virtualization:ExcludedDirectory
 
 Specifies a directory that is excluded from file system virtualization. 
 
@@ -41,12 +41,12 @@ Specifies a directory that is excluded from file system virtualization.
 ## Syntax
 
 ``` xml
-<desktop6:FileSystemWriteVirtualization>disabled</desktop6:FileSystemWriteVirtualization>
+<virtualization:ExcludedDirectory>$(KnownFolder:[known folder name])\[path to excluded directory]</virtualization:ExcludedDirectory>
 ```
 
 ## Value
 
-This element is a case-insensitive string that must start with "$(KnownFolder:KnownFolder:&lt;folder name&gt;)" where *folder name* specifies one of the known folders under the AppData directory. The rest of the string is the relative path to the excluded directory. For example, "\$(KnownFolder:LocalAppData)\Fabrikam\Shared". 
+This element is a case-insensitive string that must start with "$(KnownFolder:&lt;known folder name&gt;)\\&lt;path to excluded directory&gt;" where *known folder name* specifies one of the known folders under the AppData directory. The rest of the string is the relative path to the excluded directory. For example, "\$(KnownFolder:LocalAppData)\Fabrikam\Shared".
 
 ## Attributes and Elements
 
@@ -68,6 +68,47 @@ None.
 ## Remarks
 
 This element requires the **unvirtualizedResources** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
+
+For the list of known directories that can be specified for this element, see [KNOWNFOLDERID](/windows/win32/shell/knownfolderid). The folder name specified in the schema syntax is the constant value with the "FOLDERID_" token removed from the string. For example, for the constant **FOLDERID_AccountPictures**, the known folder name is "AccountPictures".
+
+The following list contains the list of allowed known folder names, current as of this writing.
+
+- AccountPictures
+- AdminTools
+- AppDataDesktop
+- AppDataDocuments
+- AppDataFavorites
+- AppDataProgramData
+- ApplicationShortcuts
+- CDBurning
+- Cookies
+- GameTasks
+- History
+- ImplicitAppShortcuts
+- InternetCache
+- Libraries
+- LocalAppData
+- LocalAppDataLow
+- NetHood
+- OriginalImages
+- PrintHood
+- Programs
+- QuickLaunch
+- Recent
+- Ringtones
+- RoamingAppData
+- RoamedTileImages
+- RoamingTiles
+- SearchHistory
+- SearchTemplates
+- SendTo
+- SidebarParts
+- StartMenu
+- Startup
+- Templates
+- UserPinned
+- UserProgramFiles
+- UserProgramFilesCommon
 
 ## Requirements
 
