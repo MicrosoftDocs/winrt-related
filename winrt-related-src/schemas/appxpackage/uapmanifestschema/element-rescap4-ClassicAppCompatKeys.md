@@ -17,6 +17,7 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 Contains registry keys for discovering classic app installations and launching executables.
 
 ## Element Hierarchy
+
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
@@ -32,6 +33,8 @@ Contains registry keys for discovering classic app installations and launching e
 <dl>
 <dt><a href="element-rescap4-extension.md">&lt;rescap4:Extension&gt;</a></dt>
 <dd><b>&lt;rescap4:ClassicAppCompatKeys&gt;</b></dd>
+</dd>
+</dl>
 </dl>
 </dd>
 </dl>
@@ -41,23 +44,27 @@ Contains registry keys for discovering classic app installations and launching e
 </dl>
 </dd>
 </dl>
-
 
 ## Syntax
 ```syntax
 <rescap4:ClassicAppCompatKeys>
+
   <!-- Child elements -->
   rescap4:ClassicAppCompatKey{1,10000}
+
 </rescap4:ClassicAppCompatKeys>
 ```
 
 ### Key
+
 `{}` specific range of occurrences  
 
 ## Attributes
+
 None.
 
 ## Child Elements
+
 | Child Element | Description |
 |---------------|-------------|
 | [ClassicAppCompatKey](element-rescap4-classicappcompatkey.md) | Registry keys for discovering classic app installations and launching executables. |
