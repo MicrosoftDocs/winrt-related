@@ -15,10 +15,15 @@ Declares an extensibility point for the app.
 
 ## Element Hierarchy
 
-[ < Package > ](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < Extensions > ](element-1-extensions.md)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**< uap6:Extension >**
+<dl>
+<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
+<dd><b>&lt;uap6:Extension&gt;</b></dd>
+</dl>
+</dd>
+</dl>
 
 
 ## Syntax
@@ -55,7 +60,7 @@ Declares an extensibility point for the app.
 `?` optional (zero or one)
 
 ## Attributes
-| Attribute | Description | Data type | Required |
+| Attribute | Description | Data Type | Required |
 |-----------|-------------|-----------|----------|
 | Category | The category of the extension. | One of the following:<ul><li>windows.barcodeScannerProvider</li><li>windows.barcodeScannerPreviewProvider</li><li>windows.localExperiencePack</li></ul> | Yes |
 | Executable | The default launch executable. | A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", &#124;, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | No |

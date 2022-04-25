@@ -18,13 +18,32 @@ Contains registry keys for discovering classic app installations and launching e
 
 ## Element Hierarchy
 
-[ < Package > ](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < Extensions > ](element-1-extensions.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ <rescap4:Extension> ](element-rescap4-extension.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**< rescap4:ClassicAppCompatKeys >**
+<dl>
+<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-rescap4-extension.md">&lt;rescap4:Extension&gt;</a></dt>
+<dd><b>&lt;rescap4:ClassicAppCompatKeys&gt;</b></dd>
+</dd>
+</dl>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
 
 ## Syntax
 ```syntax

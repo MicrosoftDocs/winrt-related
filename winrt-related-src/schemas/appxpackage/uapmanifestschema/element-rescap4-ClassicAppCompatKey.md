@@ -18,15 +18,35 @@ Registry keys for discovering classic app installations and launching executable
 
 ## Element Hierarchy
 
-[ < Package > ](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < Extensions > ](element-1-extensions.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ <rescap4:Extension> ](element-rescap4-extension.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < rescap4:ClassicAppCompatKeys > ](element-rescap4-ClassicAppCompatKeys.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**< rescap4:ClassicAppCompatKey >**
+<dl>
+<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-rescap4-extension.md">&lt;rescap4:Extension&gt;</a></dt>
+<dd>
+<dl>
+<dt><a href="element-rescap4-ClassicAppCompatKeys.md">&lt;rescap4:ClassicAppCompatKeys&gt;</a></dt>
+<dd><b>&lt;rescap4:ClassicAppCompatKey&gt;</b></dd>
+</dd>
+</dl>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
 
 ## Syntax
 ```syntax
@@ -42,7 +62,7 @@ Registry keys for discovering classic app installations and launching executable
 `?` optional (zero or one)  
 
 ## Attributes
-| Attribute | Description | Data type | Required |
+| Attribute | Description | Data Type | Required |
 |-----------|-------------|-----------|----------|
 | Name | The name of the registry path. | A valid registry path in: HKEY_LOCAL_MACHINE\Sofware, HKEY_CURRENT_USER\Software, HKEY_CURRENT_CONFIG\Software, HKLM\Software, HKCU\Software, HKCC\Software. The path is not case sensitive. | Yes |
 | ValueName | Value name of a key in the registry path. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
