@@ -33,6 +33,8 @@ The following list summarizes the allowed hierarchies for this schema, starting 
         -   [**uap10:AllowExternalContent**](element-uap10-allowexternalcontent.md)
         -   [**uap10:PackageIntegrity**](element-uap10-packageintegrity.md)
             -   [**uap10:Content**](element-uap10-content.md)
+        -   [**virtualization:FileSystemWriteVirtualization](element-virtualization-filesystemwritevirtualization.md)
+        -   [**virtualization:RegistryWriteVirtualization](element-virtualization-registrywritevirtualization.md)
     -   [**Resources**](element-resources.md)
         -   [**Resource**](element-resource.md)
     -   [**Dependencies**](element-dependencies.md)
