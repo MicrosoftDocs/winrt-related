@@ -548,8 +548,32 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-shortcut.md
           - name: "desktop7:SystemFileAssociation"
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-systemfileassociation.md
+          - name: "desktop8:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-extension.md
+          - name: "desktop8:Channels"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-channels.md
+          - name: "desktop8:Channel"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-channel.md
+          - name: "desktop8:EventTracing"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-eventtracing.md
           - name: "desktop9:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-desktop9-extension.md
+          - name: "desktop8:ImportChannel"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-importchannel.md
+          - name: "desktop8:Logging",
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-logging.md
+          - name: "desktop8:MutablePackageDirectories"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-mutablepackagedirectories.md
+          - name: "desktop8:MutablePackageDirectory"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-mutablepackagedirectory.md
+          - name: "desktop8:Provider"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-provider.md
+          - name: "desktop8:Publishing"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-publishing.md
+          - name: "desktop8:UserMutablePackageDirectories"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-usermutablepackagedirectories.md
+          - name: "desktop8:UserMutablePackageDirectory"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-usermutablepackagedirectory.md
           - name: "desktop9:ExtensionHandler"
             href: schemas/appxpackage/uapmanifestschema/element-desktop9-extensionhandler.md
           - name: "desktop9:FileExplorerClassicContextMenuHandler"
