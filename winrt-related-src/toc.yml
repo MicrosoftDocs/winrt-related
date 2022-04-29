@@ -560,7 +560,7 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop9-extension.md
           - name: "desktop8:ImportChannel"
             href: schemas/appxpackage/uapmanifestschema/element-desktop8-importchannel.md
-          - name: "desktop8:Logging",
+          - name: "desktop8:Logging"
             href: schemas/appxpackage/uapmanifestschema/element-desktop8-logging.md
           - name: "desktop8:MutablePackageDirectories"
             href: schemas/appxpackage/uapmanifestschema/element-desktop8-mutablepackagedirectories.md

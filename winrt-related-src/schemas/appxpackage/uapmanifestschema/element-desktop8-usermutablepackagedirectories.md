@@ -1,6 +1,6 @@
 ---
 title: desktop8:UserMutablePackageDirectories
-description: Enables your desktop application to specify one or more folders where users can modify the installation files for your application (for example, to install mods).
+description: Enables your desktop application to specify one or more folders where users can modify the installation files for your application (for example to install mods).
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 ms.date: 04/27/2022
 ms.topic: reference
