@@ -187,6 +187,18 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [desktop7:ShadowCopyExcludeFiles](element-desktop7-shadowcopyexcludefiles.md)| Specifies a set of files to be excluded by the Volume Shadow Copy Service (VSS).|
 | [desktop7:Shortcut](element-desktop7-shortcut.md)| Creates a shortcut to a file.|
 | [desktop7:SystemFileAssociation](element-desktop7-systemfileassociation.md)| Registers system file associations for an app. |
+| [desktop8:Channels](element-desktop8-channels.md) | Allows one or more channels to be specified for event tracing. |
+| [desktop8:Channel](element-desktop8-channel.md) | Specifies a channel to be used for event tracing. |
+| [desktop8:EventTracing](element-desktop8-eventtracing.md) | Enables your desktop application to log application-defined events to be consumed in real time or saved to a log file. |
+| [desktop8:Extension](element-desktop8-extension.md) | Declares an extensibility point for the app. |
+| [desktop8:ImportChannel](element-desktop8-importchannel.md) | Specifies an imported channel to be used for event tracing. |
+| [desktop8:Logging](element-desktop8-logging.md) | Provides access to the Logging feature within an Event Tracing channel. |
+| [desktop8:MutablePackageDirectories](element-desktop8-mutablepackagedirectories.md) | Enables your desktop application to specify one or more folders where you can modify the installation files for your application. |
+| [desktop8:MutablePackageDirectory](element-desktop8-mutablepackagedirectory.md) | Registers a provider to Event Tracing and enables its functionality. |
+| [desktop8:Provider](element-desktop8-provider.md) | Registers a provider to Event Tracing and enables its functionality. |
+| [desktop8:Publishing](element-desktop8-publishing.md) | Provides access to the Publishing feature within an Event Tracing channel. | 
+| [desktop8:UserMutablePackageDirectories](element-desktop8-usermutablepackagedirectories.md) | Enables your desktop application to specify one or more folders where users can modify the installation files for your application (for example, to install mods). |
+| [desktop8:UserMutablePackageDirectory](element-desktop8-usermutablepackagedirectory.md) | Enables your desktop application to specify a folder where users can modify the installation files for your application (for example, to install mods). |
 | [desktop9:ExtensionHandler](element-desktop9-extensionhandler.md) | Specifies a handler for a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) implementation of a context menu handler shell extension for a packaged desktop app.  |
 | [desktop9:FileExplorerClassicContextMenuHandler](element-desktop9-fileexplorerclassiccontextmenuhandler.md) | Registers a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) implementation of a context menu handler shell extension for a packaged desktop app.  |
 | [desktop9:FileExplorerClassicDragDropContextMenuHandler](element-desktop9-fileexplorerclassicdragdropcontextmenuhandler.md) | Registers a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) implementation of a drag and drop handler shell extension for a packaged desktop app.  |
