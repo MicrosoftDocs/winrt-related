@@ -59,7 +59,7 @@ Declares publisher information for the app.
 | Attribute | Description | Data type | Required |
 |-|-|-|:-:|
 | Name | The name of the application. | An alphanumeric string value between 1 and 32767 characters that may also contain the following characters: "." and "-". | Yes |
-| Publisher | The publisher of the application | A string between 1 and 8192 characters in length that fits the regular expression  of a distinguished name: "(CN | L | O | OU | E | C | S | STREET | T | G | I | SN | DC | SERIALNUMBER | Description | PostalCode | POBox | Phone | X21Address | dnQualifier | (OID\.(0 | [1-9][0-9]*)(\.(0 | [1-9][0-9]*))+))=(([^,+="<>#;])+ | ".*")(, ((CN | L | O | OU | E | C | S | STREET | T | G | I | SN | DC | SERIALNUMBER | Description | PostalCode | POBox | Phone | X21Address | dnQualifier | (OID\.(0 | [1-9][0-9]*)(\.(0 | [1-9][0-9]*))+))=(([^,+="<>#;])+ | ".*")))*". Further, semantic validation ensures that the string is compliant with CertNameToStr Windows API implementation of X.500 rules. | Yes |
+| Publisher | The publisher of the application | A string between 1 and 8192 characters in length that fits the regular expression  of a distinguished name. Further, semantic validation ensures that the string is compliant with CertNameToStr Windows API implementation of X.500 rules. | Yes |
 | MinVersion | The minimum Windows version required to install the application. | A version string in quad notation, e.g. "Major.Minor.Build.Revision". | Yes |
 
 ### Child Elements

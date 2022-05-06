@@ -61,7 +61,7 @@ Specifies a directory containing the installation files for the app.
 
 | Attribute | Description | Data type | Required |
 |-|-|-|:-:|
-| File | Specifies the file which should be used to configure auto update settings. | An alphanumeric string between 1 and 255 characters that cannot contain the following characters: <, >, :, ", |, ?, or *. | Yes |
+| File | Specifies the file which should be used to configure auto update settings. | An alphanumeric string between 1 and 255 characters that cannot contain the following characters: <, >, :, ", &#124;, ?, or *. | Yes |
 
 ### Child Elements
 
