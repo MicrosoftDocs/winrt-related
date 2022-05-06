@@ -48,12 +48,11 @@ Specifies a directory containing the installation files for the app.
 ## Syntax
 
 ``` XML
-<uap13:AutoUpdate>
+<uap13:AppInstaller 
+  file = An alphanumeric string between 1 and 255 characters that cannot contain the following characters: <, >, :, ", |, ?, or *.
+  >
 
-  <!-- Child Elements -->
-  AppInstaller
-
-</uap13:AutoUpdate>
+</uap13:AppInstaller>
 ```
 
 ## Attributes & Elements
@@ -62,7 +61,7 @@ Specifies a directory containing the installation files for the app.
 
 | Attribute | Description | Data type | Required |
 |-|-|-|:-:|
-| File | Specifies the file which should be used to configure auto update settings. |
+| File | Specifies the file which should be used to configure auto update settings. | An alphanumeric string between 1 and 255 characters that cannot contain the following characters: <, >, :, ", |, ?, or *. | Yes |
 
 ### Child Elements
 
