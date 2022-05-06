@@ -15,8 +15,6 @@ Specifies automatic update configuration for the app.
 
 ## Element Hierarchy
 
-[ < Package > ](element-package.md)
-
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
 <dd>
