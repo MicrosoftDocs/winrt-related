@@ -114,6 +114,18 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap10-packageintegrity.md
           - name: "uap10:Content"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-content.md
+          - name: "uap12:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-uap12-extension.md
+          - name: "uap12:Host"
+            href: schemas/appxpackage/uapmanifestschema/element-uap12-host.md
+          - name: "uap13:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-uap13-extension.md
+          - name: "uap13:AutoUpdate"
+            href: schemas/appxpackage/uapmanifestschema/element-uap13-autoupdate.md
+          - name: "uap13:AppInstaller"
+            href: schemas/appxpackage/uapmanifestschema/element-uap13-appinstaller.md
+          - name: "uap13:HostRuntimeDependency"
+            href: schemas/appxpackage/uapmanifestschema/element-uap13-hostruntimedependency.md
           - name: "Resources"
             href: schemas/appxpackage/uapmanifestschema/element-resources.md
           - name: "Resource"
@@ -600,52 +612,6 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-rescap4-primaryInteropAssemblies.md
           - name: "rescap4:Redirect"
             href: schemas/appxpackage/uapmanifestschema/element-rescap4-redirect.md
-          - name: "serverpreview:Extension"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-extension-manual.md
-          - name: "serverpreview:IisModules"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-iismodules-manual.md
-          - name: "serverpreview:IisModule"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-iismodule-manual.md
-          - name: "serverpreview:SectionGroupDefinition"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-sectiongroupdefinition-manual.md
-          - name: "serverpreview:SectionDefinition"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-sectiondefinition-manual.md
-          - name: "serverpreview:SectionData"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-sectiondata-manual.md
-          - name: "serverpreview:CollectionElement"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-collectionelement-manual.md
-          - name: "serverpreview:Attribute"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-attribute-manual.md
-          - name: "serverpreview:NTServices"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-ntservices-manual.md
-          - name: "serverpreview:NTService"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-ntservice-manual.md
-          - name: "serverpreview:ServiceDependencies"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-servicedependencies-manual.md
-          - name: "serverpreview:ServiceDependency"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-servicedependency-manual.md
-          - name: "serverpreview:ServiceParameters"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-serviceparameters-manual.md
-          - name: "serverpreview:ServiceParameterDword"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-serviceparameterdword-manual.md
-          - name: "serverpreview:ServiceParameterString"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-serviceparameterstring-manual.md
-          - name: "serverpreview:ServiceParameterKey"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-serviceparameterkey-manual.md
-          - name: "serverpreview:WmiProviders"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-wmiproviders-manual.md
-          - name: "serverpreview:WmiProvider"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-wmiprovider-manual.md
-          - name: "serverpreview:Mof"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-mof-manual.md
-          - name: "serverpreview:PerformanceProviders"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-performanceproviders-manual.md
-          - name: "serverpreview:PerformanceProvider"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-performanceprovider-manual.md
-          - name: "serverpreview:EventProviders"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-eventproviders-manual.md
-          - name: "serverpreview:EventProvider"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-eventprovider-manual.md
           - name: "uap:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-uap-extension.md
           - name: "uap:FileTypeAssociation"
