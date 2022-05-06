@@ -71,7 +71,7 @@ Specifies a directory containing the installation files for the app.
 
 | Parent Element | Description |
 |-|-|
-| [uap13:AutoUpdate](element-uap13-autoupdate.md) | Specifies automatic update configuration for the app. | Should match the value "AppInstaller". The value is NOT case sensitive. | Yes |
+| [uap13:AutoUpdate](element-uap13-autoupdate.md) | Specifies automatic update configuration for the app. | Should match the value "AppInstaller". The value is NOT case sensitive. |
 
 ### Requirements
 
