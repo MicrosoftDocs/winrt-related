@@ -411,4 +411,4 @@ The following list summarizes the allowed hierarchies for this schema, starting 
                 -   [**uap13:Extension**](element-uap13-extension.md)
                     -   [**uap13:HostRuntimeDependency**](element-uap13-hostruntimedependency.md)
                     -   [**uap13:AutoUpdate**](element-uap13-autoupdate.md)
-                        -   [**uap13:AppInstaller](element-uap13-appinstaller.md)
+                        -   [**uap13:AppInstaller**](element-uap13-appinstaller.md)

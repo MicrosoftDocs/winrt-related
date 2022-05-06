@@ -9,11 +9,9 @@ ms.topic: reference
 
 # uap12:Extension
 
-## Description
-
 Declares an extensibility point for the app.
 
-## Element Hierarchy
+## Element hierarchy
 
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
@@ -68,7 +66,7 @@ Declares an extensibility point for the app.
 
 `?` optional (zero or one)
 
-## Attributes & Elements
+## Attributes and elements
 
 ### Attributes
 
@@ -97,13 +95,13 @@ Declares an extensibility point for the app.
 | desktop7:CompatMode | Specifies the compatibility mode when viewing application previews. | A string value that can be one of the following: "classic", "modern". | No |
 | desktop7:Scope | Contains paraeters to manipulate the scope used for application previews. | A string value that can be one of the following: "user", "machine". | No |
 
-### Child Elements
+### Child elements
 
 **None.**
 
-### Parent Elements
+### Parent elements
 
-| Parent Element | Description |
+| Parent element | Description |
 |-|-|
 | [Extension (in Package/Applications)](element-extension.md) | Declares an extensibility point for the app. |
 

@@ -394,7 +394,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap10:Protocol](element-uap10-protocol.md) | Declares an app extensibility point of type windows.protocol. A URI association indicates that the app is registered to handle URIs with the specified scheme. |
 | [uap10:UpdateActions](element-uap10-UpdateActions.md) | Specifies what happens during app updates to files in the app's installation directory that were previously modified, added, or deleted by the app. This element is intended to be used in conjunction with the [uap10:InstalledLocationVirtualization](element-uap10-installedlocationvirtualization.md) extension. |
 | [uap12:Extension](element-uap12-extension.md) | Declares an extensibility point for the app. |
-| [uap12:Host] | Declares domain and subdomain parameters for the uap12 extension. |
+| [uap12:Host](element-uap12-host.md) | Declares domain and subdomain parameters for the uap12 extension. |
 | [uap13:AppInstaller](element-uap13-appinstaller.md) | Specifies a directory containing the installation files for the app. |
 | [uap13:AutoUpdate](element-uap13-autoupdate.md) | Specifies automatic update configuration for the app. |
 | [uap13:Extension](element-uap13-extension.md) | Declares an extensibility point for the app. |

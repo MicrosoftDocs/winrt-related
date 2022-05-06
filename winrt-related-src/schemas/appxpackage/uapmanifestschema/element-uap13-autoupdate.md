@@ -9,11 +9,9 @@ ms.topic: reference
 
 # uap13:AutoUpdate
 
-## Description
-
 Specifies automatic update configuration for the app.
 
-## Element Hierarchy
+## Element hierarchy
 
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
@@ -51,19 +49,19 @@ Specifies automatic update configuration for the app.
 </uap13:AutoUpdate>
 ```
 
-## Attributes & Elements
+## Attributes  and elements
 
 ### Attributes
 
 **None.**
 
-### Child Elements
+### Child elements
 
 | Child Element | Description |
 |-|-|
 | AppInstaller | Specifies a directory containing the installation files for the app. |
 
-### Parent Elements
+### Parent elements
 
 | Parent Element | Description |
 |-|-|

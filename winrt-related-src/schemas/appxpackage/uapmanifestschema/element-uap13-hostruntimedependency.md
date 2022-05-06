@@ -9,11 +9,9 @@ ms.topic: reference
 
 # uap13:HostRuntimeDependency
 
-## Description
-
 Declares publisher information for the app.
 
-## Element Hierarchy
+## Element hierarchy
 
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
@@ -52,7 +50,7 @@ Declares publisher information for the app.
 </uap13:HostRuntimeDependency>
 ```
 
-## Attributes & Elements
+## Attributes and elements
 
 ### Attributes
 
@@ -62,13 +60,13 @@ Declares publisher information for the app.
 | Publisher | The publisher of the application | A string between 1 and 8192 characters in length that fits the regular expression  of a distinguished name. Further, semantic validation ensures that the string is compliant with CertNameToStr Windows API implementation of X.500 rules. | Yes |
 | MinVersion | The minimum Windows version required to install the application. | A version string in quad notation, e.g. "Major.Minor.Build.Revision". | Yes |
 
-### Child Elements
+### Child elements
 
 **None.**
 
-### Parent Elements
+### Parent elements
 
-| Parent Element | Description |
+| Parent element | Description |
 |-|-|
 | [Extension (in Package/Applications)](element-extension.md) | Declares an extensibility point for the app. |
 

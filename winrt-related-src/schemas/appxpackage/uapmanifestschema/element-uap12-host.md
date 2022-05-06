@@ -9,11 +9,9 @@ ms.topic: reference
 
 # uap12:Host
 
-## Description
-
 Declares domain and subdomain parameters for the uap12 extension.
 
-## Element Hierarchy
+## Element hierarchy
 
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
@@ -56,7 +54,7 @@ Declares domain and subdomain parameters for the uap12 extension.
 
 `?` optional (zero or one)
 
-## Attributes & Elements
+## Attributes and elements
 
 ### Attributes
 
@@ -66,13 +64,13 @@ Declares domain and subdomain parameters for the uap12 extension.
 | Uri | Represents the URI for the domain name with the star signifying a subdomain. | An alphanumeric string value between 1 and 255 characters that also accepts the following characters: ".", "-", or "*". No other characters are accepted. | Yes |
 | uap11:Path | Represents the path to the domain and/or subdomain. | An alphanumeric string value between 1 and 2,084 characters that also accepts the following characters: "/", or "\". No other characters are accepted. | No |
 
-### Child Elements
+### Child elements
 
 **None.**
 
-### Parent Elements
+### Parent elements
 
-| Parent Element | Description |
+| Parent element | Description |
 |-|-|
 | [Extension (in Package/Applications)](element-extension.md) | Declares an extensibility point for the app. |
 

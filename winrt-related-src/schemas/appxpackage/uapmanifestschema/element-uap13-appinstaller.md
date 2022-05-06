@@ -9,11 +9,9 @@ ms.topic: reference
 
 # uap13:AppInstaller
 
-## Description
-
 Specifies a directory containing the installation files for the app.
 
-## Element Hierarchy
+## Element hierarchy
 
 <dl>
 <dt><a href="element-package.md">&lt;Package&gt;</a></dt>
@@ -55,7 +53,7 @@ Specifies a directory containing the installation files for the app.
 </uap13:AppInstaller>
 ```
 
-## Attributes & Elements
+## Attributes and elements
 
 ### Attributes
 
@@ -63,13 +61,13 @@ Specifies a directory containing the installation files for the app.
 |-|-|-|:-:|
 | File | Specifies the file which should be used to configure auto update settings. | An alphanumeric string between 1 and 255 characters that cannot contain the following characters: <, >, :, ", &#124;, ?, or *. | Yes |
 
-### Child Elements
+### Child elements
 
 **None.**
 
-### Parent Elements
+### Parent elements
 
-| Parent Element | Description |
+| Parent element | Description |
 |-|-|
 | [uap13:AutoUpdate](element-uap13-autoupdate.md) | Specifies automatic update configuration for the app. |
 
