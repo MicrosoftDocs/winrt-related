@@ -1,0 +1,68 @@
+---
+title: uap12:Host
+description: Declares domain and subdomain parameters for the uap12 extension.
+keywords: windows 10, uwp, schema, manifest, extension
+
+ms.date: 05/03/2022
+ms.topic: reference
+---
+
+# uap12:Host
+
+## Description
+
+Declares domain and subdomain parameters for the uap12 extension.
+
+## Element Hierarchy
+
+[ < Package > ](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < Applications > ](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < Application > ](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < Extensions > ](element-extensions.md)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**< uap12:Host >**
+
+## Syntax
+
+``` XML
+<uap12:Host
+  Name = An alphanumeric string value between 1 and 255 characters that also accepts the following characters: ".", "-", or "*". No other characters are accepted. Represents the domain name with the star signifying a subdomain.
+  Uri = An alphanumeric string value between 1 and 255 characters that also accepts the following characters: ".", "-", or "*". No other characters are accepted. Represents the URI for the domain name with the star signifying a subdomain.
+  uap11:path? = An alphanumeric string value between 1 and 2,084 characters that also accepts the following characters: "/", or "\". No other characters are accepted. Represents the path to the domain and/or subdomain.
+  >
+
+</uap12:Host>
+```
+
+### Key
+
+`?` optional (zero or one)
+
+## Attributes & Elements
+
+### Attributes
+
+| Attribute | Description | Data type | Required |
+|-|-|-|:-:|
+| Name | Represents the domain name with the star signifying a subdomain. | An alphanumeric string value between 1 and 255 characters that also accepts the following characters: ".", "-", or "*". No other characters are accepted. | Yes |
+| Uri | Represents the URI for the domain name with the star signifying a subdomain. | An alphanumeric string value between 1 and 255 characters that also accepts the following characters: ".", "-", or "*". No other characters are accepted. | Yes |
+| uap11:Path | Represents the path to the domain and/or subdomain. | An alphanumeric string value between 1 and 2,084 characters that also accepts the following characters: "/", or "\". No other characters are accepted. | No |
+
+### Child Elements
+
+**None.**
+
+### Parent Elements
+
+| Parent Element | Description |
+|-|-|
+| [Extension (in Package/Applications)](element-extension.md) | Declares an extensibility point for the app. |
+
+### Requirements
+
+| Namespace | Path |
+|-|-|
+| **UAP11** | `http://schemas.microsoft.com/appx/manifest/uap/windows/10/11` |
+| **UAP12** | `http://schemas.microsoft.com/appx/manifest/uap/windows/10/12` |
