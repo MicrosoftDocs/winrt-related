@@ -51,6 +51,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-ntservices-manual.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-performanceprovider-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
