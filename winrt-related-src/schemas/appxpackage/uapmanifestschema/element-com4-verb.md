@@ -66,4 +66,4 @@ The verb to be registered for an application.
 ## Requirements
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|
-| com4 | http://schemas.microsoft.com/appx/manifest/com/windows10/4 |
+| com4 | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |

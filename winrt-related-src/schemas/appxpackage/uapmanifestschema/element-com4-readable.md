@@ -62,4 +62,4 @@ Specifies that an application can only read files.
 ## Requirements
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|
-| com4 | http://schemas.microsoft.com/appx/manifest/com/windows10/4 |
+| com4 | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |

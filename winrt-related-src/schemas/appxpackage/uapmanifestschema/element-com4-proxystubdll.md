@@ -58,4 +58,4 @@ Specifies the path and processor architecture of a ProxyStub DLL.
 ## Requirements
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|
-| com4 | http://schemas.microsoft.com/appx/manifest/com/windows10/4 |
+| com4 | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |

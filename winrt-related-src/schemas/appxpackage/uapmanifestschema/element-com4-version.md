@@ -79,4 +79,4 @@ You must specify either a Win32Path or a Win64Path, and can specify both. Genera
 ## Requirements
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|
-| com4 | http://schemas.microsoft.com/appx/manifest/com/windows10/4 |
+| com4 | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |

@@ -69,4 +69,4 @@ Defines an in-process handler class registration.
 ## Requirements
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|
-| com4 | http://schemas.microsoft.com/appx/manifest/com/windows10/4 |
+| com4 | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
