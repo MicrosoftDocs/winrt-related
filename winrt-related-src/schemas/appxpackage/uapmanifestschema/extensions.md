@@ -55,6 +55,8 @@ For reference information about the available application-level extensions, see 
 * [**uap6:Extension**](element-uap6-extension.md)
 * [**uap8:Extension**](element-uap8-extension.md)
 * [**uap10:Extension**](element-uap10-extension.md)
+* [**uap12:Extension**](element-uap12-extension.md)
+* [**uap13:Extension**](element-uap13-extension.md)
 
 ## Related topics
 
