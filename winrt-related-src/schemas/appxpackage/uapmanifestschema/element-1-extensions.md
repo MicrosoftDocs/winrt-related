@@ -100,7 +100,7 @@ None.
 ### Parent Elements
 
 | Parent Element | Description |
-|----------------|-------------|
+|---------------|-------------|
 | [Application](element-application.md) | Represents an app that comprises part of or all of the functionality delivered in the package. |  
 
 ## Related elements
