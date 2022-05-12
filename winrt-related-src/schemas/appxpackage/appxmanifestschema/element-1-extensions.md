@@ -40,7 +40,29 @@ Defines one or more extensibility points for the app.
 <Extensions>
 
   <!-- Child elements -->
-  Extension{1,10000}
+  Extension{1,10000},
+  com:Extension{1, 10000},
+  com2:Extension{1, 10000},
+  desktop:Extension{1,10000},
+  desktop2:Extension{1, 10000},
+  desktop3:Extension{1, 10000},
+  desktop4:Extension{1, 10000},
+  desktop6:Extension{1, 10000},
+  desktop7:Extension{1, 10000},
+  desktop9:Extension{1, 10000},
+  rescap2:Extension{1, 10000},
+  rescap3:Extension{1, 10000},
+  uap:Extension{1,10000},
+  uap2:Extension{1, 10000},
+  uap3:Extension{1, 10000},
+  uap4:Extension{1, 10000},
+  uap5:Extension{1, 10000},
+  uap6:Extension{1, 10000},
+  uap7:Extension{1, 10000},
+  uap8:Extension{1, 10000},
+  uap10:Extension{1, 10000},
+  uap12:Extension{1, 10000},
+  uap13:Extension{1, 10000}
 
 </Extensions>
 ```
@@ -58,49 +80,35 @@ None.
 
 ### Child Elements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Child Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-1-extension.md">Extension (in type: CT_ApplicationExtensions)</a> </td>
-<td><p>Declares an extensibility point for the app.</p></td>
-</tr>
-</tbody>
-</table>
-
- 
+| Child Element | Description |
+|---------------|-------------|
+| [Extension (global)](element-1-extension.md) | Declares an extensibility point for the package. |
+| [com:Extension](element-com-extension.md) | Declares an extensibility point for the package. |
+| [com2:Extension](element-com2-extension.md) | Declares an extensibility point for the package. |
+| [desktop:Extension](element-desktop-extension.md) | Declares an extensibility point for the package. |
+| [desktop2:Extension](element-desktop2-extension.md) | Declares an extensibility point for the package. |
+| [desktop3:Extension](element-desktop3-extension.md) | Declares an extensibility point for the package. |
+| [desktop4:Extension](element-desktop4-extension.md) | Declares an extensibility point for the package. |
+| [desktop6:Extension](element-desktop6-extension.md) | Declares an extensibility point for the package. |
+| [desktop7:Extension](element-desktop7-extension.md) | Declares an extensibility point for the package. |
+| [desktop9:Extension](element-desktop9-extension.md) | Declares an extensibility point for the package. |
+| [rescap2:Extension](element-rescap2-extension-manual.md) | Declares an extensibility point for the package. |
+| [rescap3:Extension](element-rescap3-extension.md) | Declares an extensibility point for the package. | 
+| [uap:Extension](element-uap-extension.md) | Declares an extensibility point for the package. |
+| [uap2:Extension](element-uap2-extension.md) | Declares an extensibility point for the package. |
+| [uap3:Extension](element-uap3-extension-manual.md) | Declares an extensibility point for the package. |
+| [uap4:Extension](element-uap4-extension.md) | Declares an extensibility point for the package. | 
+| [uap5:Extension](element-uap5-extension.md) | Declares an extensibility point for the package. |
+| [uap6:Extension](element-uap6-extension.md) | Declares an extensibility point for the package. |
+| [uap7:Extension](element-uap7-extension.md) | Declares an extensibility point for the package. |
+| [uap8:Extension](element-uap8-extension.md) | Declares an extensibility point for the package. |
+| [uap10:Extension](element-uap10-extension.md) | Declares an extensibility point for the package. |
 
 ### Parent Elements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-application.md">Application</a> </td>
-<td><p>Represents an app that comprises part of or all of the functionality delivered in the package.</p></td>
-</tr>
-</tbody>
-</table>
-
- 
+| Parent Element | Description |
+|---------------|-------------|
+| [Application](element-application.md) | Represents an app that comprises part of or all of the functionality delivered in the package. | 
 
 ## Related elements
 
@@ -154,7 +162,3 @@ The following example is taken from the package manifest of one of the SDK sampl
 |               |        Value                                                     |
 |---------------|-------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/2010/manifest` |
-
- 
-
- 
