@@ -38,7 +38,8 @@ Declares an extensibility point for the app.
 ## Syntax
 
 ``` syntax
-<Extension Category           = "windows.fileTypeAssociation" | "windows.protocol" | "windows.autoPlayContent" | "windows.autoPlayDevice" | "windows.shareTarget" | ...
+<Extension
+          Category        = "windows.fileTypeAssociation" | "windows.protocol" | "windows.autoPlayContent" | "windows.autoPlayDevice" | "windows.shareTarget" | "windows.search" | "windows.fileOpenPicker" | "windows.fileSavePicker" | "windows.cachedFileUpdater" | "windows.cameraSettings" | "windows.accountPictureProvider" | "windows.printTaskSettings" | "windows.lockScreenCall" | "windows.appointmentsProvider" | "windows.alarm" | "windows.webAccountProvider" | "windows.dialProtocol" | "windows.appService" | "windows.mediaPlayback" | "windows.print3DWorkflow" | "windows.lockScreen" | "windows.aboveLockScreen" | "windows.personalAssistantLaunch" | "windows.voipCall"
            Executable?    = A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used.
            EntryPoint?    = A string between 1 and 256 characters in length, representing the  task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead.
            RuntimeType?   = A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *.
@@ -74,221 +75,48 @@ Declares an extensibility point for the app.
 
 ## Attributes and Elements
 
-
 ### Attributes
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-<th>Data type</th>
-<th>Required</th>
-<th>Default value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Category</strong></td>
-<td><p>The type of app extensibility point.</p></td>
-<td><p>This attribute can have one of the following values:</p>
-<ul>
-<li>windows.fileTypeAssociation</li>
-<li>windows.protocol</li>
-<li>windows.autoPlayContent</li>
-<li>windows.autoPlayDevice</li>
-<li>windows.shareTarget</li>
-<li>windows.search</li>
-<li>windows.fileOpenPicker</li>
-<li>windows.fileSavePicker</li>
-<li>windows.cachedFileUpdater</li>
-<li>windows.cameraSettings</li>
-<li>windows.accountPictureProvider</li>
-<li>windows.printTaskSettings</li>
-<li>windows.lockScreenCall</li>
-<li>windows.appointmentsProvider</li>
-<li>windows.alarm</li>
-<li>windows.webAccountProvider</li>
-<li>windows.dialProtocol</li>
-<li>windows.appService</li>
-<li>windows.mediaPlayback</li>
-<li>windows.print3DWorkflow</li>
-<li>windows.lockScreen</li>
-<li>windows.aboveLockScreen</li>
-<li>windows.personalAssistantLaunch</li>
-<li>windows.voipCall</li>
-</ul></td>
-<td>Yes</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>EntryPoint</strong></td>
-<td><p>The activatable class ID.</p></td>
-<td>A string between 1 and 256 characters in length, representing the task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead.</td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>Executable</strong></td>
-<td><p>The default launch executable.</p></td>
-<td>A string between 1 and 256 characters in length that must end with &quot;.exe&quot; and cannot contain these characters: &lt;, &gt;, :, &quot;, |, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used. If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used.</td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>ResourceGroup</strong></td>
-<td><p>A tag that you can use to group extension activations together for resource management purposes (for example, CPU and memory). The value you can set ResourceGroup is free-form and flexible. See <a href="element-application.md"><strong>Application@ResourceGroup</strong></a>  and Remarks.</p></td>
-<td>An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.</td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>RuntimeType</strong></td>
-<td><p>The runtime provider. This attribute is used typically when there are mixed frameworks in an app.</p></td>
-<td>A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: &lt;, &gt;, :, &quot;, /, \, |, ?, or *.</td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>StartPage</strong></td>
-<td><p>The web page that handles the extensibility point.</p></td>
-<td>A string between 1 and 256 characters in length that cannot contain these characters: &lt;, &gt;, :, &quot;, |, ?, or *.</td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>uap10:TrustLevel</strong></td>
-<td><p>Specifies the trust level of the extension.</p></td>
-<td>String value. Can be one of the following: "appContainer", "mediumIL". </td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>uap10:RuntimeBehavior</strong></td>
-<td><p>Specifies the run time behavior of the extension.</p></td>
-<td>String value. Can be one of the following: "windowsApp", "packagedClassicApp", "win32App". </td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>uap10:HostId</strong></td>
-<td><p>This value specifies the app ID of the host app for the extension.</p></td>
-<td>An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.</td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>uap10:Parameters</strong></td>
-<td><p>Contains command line parameters to pass to the extension. Only supported for desktop apps that have package identity.</p></td>
-<td>A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. </td>
-<td>No</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| Attribute | Description | Data type | Required |
+|-----------|-------------|-----------|----------|
+| Category | The category of the extension. | One of the following: "windows.fileTypeAssociations", "windows.protocol", "windows.autoPlayContent", "windows.autoPlayDevice", "windows.shareTarget", "windows.search", "windows.fileOpenPicker", "windows.fileSavePicker", "windows.cachedFileUpdater", "windows.cameraSettings", "windows.accountPictureProvider", "windows.printTaskSettings", "windows.appointmentsProvider", "windows.alarm", "windows.webAccountProvider", "windows.dialProtocol", "windows.appService", "windows.mediaPlayback", "windows.print3DWorkflow", "windows.lockScreen", "windows.personalAssistantLaunch", or "windows.voipCall" | Yes |
+| Executable | The default launch executable. | A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", &#124;, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | No |
+| EntryPoint | The activatable class ID. | A string between 1 and 256 characters in length, representing the task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |
+| RuntimeType | The runtime provider. This attribute is used typically when there are mixed frameworks in an app. | A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, &#124;, ?, or *. | No |
+| StartPage | The web page that handles the extensibility point. | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *. | No |
+| ResourceGroup | The logical container where resources are managed. | An alphanumeric string between 1 and 255 characters in length. | No |
+| uap10:TrustLevel | Specifies the trust level of the extension. | String value. Can be one of the following: "appContainer", "mediumIL".  | No |
+| uap10:RuntimeBehavior | Specifies the run time behavior of the extension. | String value. Can be one of the following: "windowsApp", "packagedClassicApp", "win32App".  | No |
+| uap10:HostId | Specifies the app ID of the host app for the extension. | An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.  | No |
+| uap10:Parameters | Contains command line parameters to pass to the extension. Only supported for desktop apps that have package identity. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.  | No |
 
  
 
 ### Child Elements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Child Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-uap-appservice.md">uap:AppService</a> </td>
-<td><p>Declares an app extensibility point of type <strong>windows.appService</strong>. Application Contracts are a way for an app to invoke a background task belonging to another app; or for a background task invoked to service an app contract a way to communicate with its caller.</p></td>
-</tr>
-<tr class="even">
-<td><a href="element-uap-appointmentsprovider.md">uap:AppointmentsProvider</a> </td>
-<td><p>Declares an app extensibility point of type <strong>windows.appointmentsProvider</strong>.</p></td>
-</tr>
-<tr class="odd">
-<td><a href="element-uap-autoplaycontent.md">uap:AutoPlayContent</a> </td>
-<td><p>Declares an app extensibility point of type <strong>windows.autoPlayContent</strong>. The app provides the specified AutoPlay content actions.</p></td>
-</tr>
-<tr class="even">
-<td><a href="element-uap-autoplaydevice.md">uap:AutoPlayDevice</a> </td>
-<td><p>Declares an app extensibility point of type <strong>windows.autoPlayDevice</strong>. The app provides the specified AutoPlay device actions.</p></td>
-</tr>
-<tr class="odd">
-<td><a href="element-uap-dialprotocol.md">uap:DialProtocol</a> </td>
-<td><p>Declares an app extensibility point of type <strong>windows.dialProtocol</strong>.</p></td>
-</tr>
-<tr class="even">
-<td><a href="element-uap-fileopenpicker.md">uap:FileOpenPicker</a> </td>
-<td><p>Declares an app extensibility point of type <strong>windows.fileOpenPicker</strong>. The app lets the user choose and open the specified types of files.</p></td>
-</tr>
-<tr class="odd">
-<td><a href="element-uap-filesavepicker.md">uap:FileSavePicker</a> </td>
-<td><p>Declares an app extensibility point of type <strong>windows.fileSavePicker</strong>. The app lets the user choose the file name, extension, and storage location for the specified types of files.</p></td>
-</tr>
-<tr class="even">
-<td><a href="element-uap-filetypeassociation.md">uap:FileTypeAssociation</a> </td>
-<td><p>Declares an app extensibility point of type <strong>windows.fileTypeAssociation</strong>. A file type association indicates that the app is registered to handle files of the specified types.</p></td>
-</tr>
-<tr class="odd">
-<td><a href="element-uap-mediaplayback.md">uap:MediaPlayback</a> </td>
-<td><p>Declares an app extensibility point of type <strong>mediaPlayback</strong> so that your app can declare that it performs video transcoding.</p></td>
-</tr>
-<tr class="even">
-<td><a href="element-uap-protocol.md">uap:Protocol</a> </td>
-<td><p>Declares an app extensibility point of type <strong>windows.protocol</strong>. A URI association indicates that the app is registered to handle URIs with the specified scheme.</p></td>
-</tr>
-<tr class="odd">
-<td><a href="element-uap-sharetarget.md">uap:ShareTarget</a> </td>
-<td><p>Declares an app extension point of type <strong>windows.shareTarget</strong>. The app can share the specified types of files.</p></td>
-</tr>
-<tr class="even">
-<td><a href="element-uap-voipcall.md">uap:VoipCall</a> </td>
-<td><p>Declares an app extensibility point of type <strong>voipCall</strong> so that your app can declare that it can perform an upgrade from a cellular call to a VoIP video call, and/or whether it is a VoIP app that supports dialing phone numbers directly.</p></td>
-</tr>
-<tr class="odd">
-<td><a href="element-uap-webaccountprovider.md">uap:WebAccountProvider</a> </td>
-<td><p>Declares an app extensibility point of type <strong>windows.webAccountProvider</strong>.</p></td>
-</tr>
-</tbody>
-</table>
+| Child element | Description |
+|---------------|-------------|
+| [uap:AppService](element-uap-appservice.md) | Declares an app extensibility point of type **windows.appService**. Application Contracts are a way for an app to invoke a background task belonging to another app; or for a background task invoked to service an app contract a way to communicate with its caller. |
+| [uap:AppointmentsProvider](element-uap-appointmentsprovider.md) | Declares an app extensibility point of type **windows.appointmentsProvider**. |
+| [uap:AutoPlayContent](element-uap-autoplaycontent.md) | Declares an app extensibility point of type **windows.autoPlayContent**. The app provides the specified AutoPlay content actions. |
+| [uap:AutoPlayDevice](element-uap-autoplaydevice.md) | Declares an app extensibility point of type **windows.autoPlayDevice**. The app provides the specified AutoPlay device actions. |
+| [uap:DialProtocol](element-uap-dialprotocol.md) | Declares an app extensibility point of type **windows.dialProtocol**. |
+| [uap:FileOpenPicker](element-uap-fileopenpicker.md) | Declares an app extensibility point of type **windows.fileOpenPicker**. The app lets the user choose and open the specified types of files. |
+| [uap:FileSavePicker](element-uap-filesavepicker.md) | Declares an app extensibility point of type **windows.fileSavePicker**. The app lets the user choose the file name, extension, and storage location for the specified types of files. |
+| [uap:FileTypeAssociation](element-uap-filetypeassociation.md) | Declares an app extensibility point of type **windows.fileTypeAssociation**. A file type association indicates that the app is registered to handle files of the specified types. |
+| [uap:MediaPlayback](element-uap-mediaplayback.md) | Declares an app extensibility point of type mediaPlayback so that your app can declare that it performs video transcoding. |
+| [uap:Protocol](element-uap-protocol.md) | Declares an app extensibility point of type **windows.protocol**. A URI association indicates that the app is registered to handle URIs with the specified scheme. |
+| [uap:ShareTarget](element-uap-sharetarget.md) | Declares an app extension point of type **windows.shareTarget**. The app can share the specified types of files. |
+| [uap:VoipCall](element-uap-voipcall.md) | Declares an app extensibility point of type **windows.voipCall** so that your app can declare that it can perform an upgrade from a cellular call to a VoIP video call, and/or whether it is a VoIP app that supports dialing phone numbers directly. |
+| [uap:WebAccountProvider](element-uap-webaccountprovider.md) | Declares an app extensibility point of type **windows.webAccountProvider**. | 
 
  
 
 ### Parent Elements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-1-extensions.md">Extensions (type: CT_ApplicationExtensions)</a> </td>
-<td><p>Defines one or more extensibility points for the app.</p></td>
-</tr>
-</tbody>
-</table>
-
- 
+| Parent element | Description |
+|---------------|-------------|
+| [Extensions (type:CT_ApplicationExtensions)](element-1-extensions.md) | Defines one or more extensibility points for the app. | 
 
 ## Remarks
 
@@ -325,6 +153,21 @@ Then the last two background tasks would be activated into the same instance of 
 If no ResourceGroup is specified for an extension then all background tasks are activated into the same instance of backgroundtaskhost.exe.
 
 Additionally if one of these extensions(windows.backgroundTasks, windows.appServices, windows.preinstalledConfigTask, windows.updateTask) specifies the same value of the ResourceGroup attribute of the parent Application element they will be activated in the same process as the UI.
+
+### Declarations
+
+The following elements can be found in the declarations tab of the package designer - see descriptions for each of these elements:
+
+**Search**: Registers the app as a search provider. The app's indexed content can appear as search results in the global search experience launched via the Search charm. Only one instance of this declaration is allowed per app.
+**CachedFileUpdater**: Registers the app as a cached file updater, allowing the app to provider updates to files that are accessed by other Microsoft Store apps. Only one instance of this declaration is allowed per app.
+**Camera Settings**: Enables the app to provide custom control panels for web camera devices. Only one instance of this declaration is allowed per app.
+**AccountPictureProvider**: Registers the app as an account pciture provider, allowing it to be launched in an account picture mode and to set the user's picture without additional prompting. Only one instance of this declaration is allowed per app.
+**PrintTaskSettings**: Enables the app to replace the basic print settings experience. Only one instance of this declaration is allowed per app.
+**LockScreen**: If a phone is locked, there is a limited amount of interaction that the user can perform. In some cases, a user would like to be able to answer a VoIP call without unlocking the phone. This contract makes that possible. Only one instance of this declaration is allowed per app.
+**Alarm**: An application can declare itself as the System Alarm App. When a user goes through the selection UI to set their System Alarm, only applications that are declared as System Alarm Apps can be selected. Only one instance of this declaration is allowed per app.
+**BackgroundTasks**: Background tasks enable applications to communicate with each other and enable one application to call another. In order to use contracts to provide or launch these background tasks, an application need to be declared as an app service. Multiple instances of this declaration are allowed in each app.
+**Print3DWorkFlow**: Manufacturers of 3D printers can provide a Universal Windows app to provide a unique experience in the 3D print dialog. If they do not, Windows provides a default 3D printing experience. Only one instance of this declaration is allowed per app.
+**PersonalAssistantLaunch**: Allows an app to integrate with Cortana. Only one instance of this declaration is allowed per app.
 
 ## Requirements
 
