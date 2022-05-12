@@ -154,9 +154,7 @@ If no ResourceGroup is specified for an extension then all background tasks are 
 
 Additionally if one of these extensions(windows.backgroundTasks, windows.appServices, windows.preinstalledConfigTask, windows.updateTask) specifies the same value of the ResourceGroup attribute of the parent Application element they will be activated in the same process as the UI.
 
-### Declarations
-
-The following elements can be found in the declarations tab of the package designer - see descriptions for each of these elements:
+The following extensions can be found in the declarations tab of the package designer UI - see descriptions for each of these elements:
 
 **Search**: Registers the app as a search provider. The app's indexed content can appear as search results in the global search experience launched via the Search charm. Only one instance of this declaration is allowed per app.
 **CachedFileUpdater**: Registers the app as a cached file updater, allowing the app to provider updates to files that are accessed by other Microsoft Store apps. Only one instance of this declaration is allowed per app.
