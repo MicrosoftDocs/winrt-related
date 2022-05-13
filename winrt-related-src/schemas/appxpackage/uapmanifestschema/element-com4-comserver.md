@@ -12,7 +12,7 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 ## Description
 
-Declares a package extension point of type windows.comServer. The comServer extension may include six types of registrations: Class, ServiceServer, SurrogateServer, InProcessServer, InProcessHandler, ManagedInProcessServer.
+Declares a package extension point of type windows.comServer. The comServer extension may include class registrations, including activation details for the servers that implement these classes, and ProgId and TreatAsClass registrations, which provide additional identifiers used to reference these classes at runtime.
 
 
 
@@ -84,10 +84,21 @@ In multi-application packages, it's important to place the COM server registrati
 
 COM servers registered in the manifest always get Activate As Package (AAP) behavior, which means the COM server runs with the user session default token with package and application claims added. This is different from the default activation behavior of classically registered COM servers, in which the COM server runs with the client's token. For most applications, this difference will not be noticeable because clients typically run with the user session default token. Other activation behaviors, such as [RunAs]( /windows/win32/com/runas), are not supported.
 
-> [!NOTE]
-> Any registrations in **comServer** that depend on another registration (e.g. a **ProgId** references a **Class**) must be in the same **comServer** extension. 
+It is possible to have multiple **comServer** extensions under the Applications/Application element, but in most cases this is neither necessary nor recommended. An example of an edge case where multiple **comServer** extensions are needed is if a package needs some of the registrations to have CompatMode="classic" while others have CompatMode="modern", the only way to do this is to split them between extensions.
 
-It is possible to have multiple **comServer** extensions under the Applications/Application element, but that is neither necessary nor recommended.
+### Changes in the com4 extension
+
+The com4 extension syntax is a new, superset of the previous com extension syntax. This version of the syntax supports the same structure as older versions of the syntax, where class registrations are represented by ExeServer/Class, SurrogateServer/Class, ServiceServer/Class, InProcessServer/Class, InProcessHandler/Class, or ManagedInProcessServer/Class elements. 
+
+The new syntax also supports alternative structures, where:
+
+- ExeServer/ClassReference, SurrogateServer/ClassReference, ServiceServer/ClassReference, InProcessServer/ClassReference, InProcessHandler/ClassReference, or ManagedInProcessServer/ClassReference elements reference top-level Class elements
+ 
+and/or
+
+- SurrogateServer/InProcessServerClassReference elements reference InProcessServer/Class (alternatively, InProcessServer/ClassReference) or ManagedInProcessServer/Class (alternatively, ManagedInProcessServer/ClassReference) elements.
+- 
+The main purpose of the new syntax structure is to enable combinations of in-process server, in-process handler, and out of process server registrations for the same CLSID, as is possible and supported with the classic registry layout. For more information on the COM registry layout, see [CLSID Key](/windows/win32/com/clsid-key-hklm).
 
 
 ## Requirements

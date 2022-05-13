@@ -76,6 +76,9 @@ Registers a type library.
 
 ## Remarks
 
+
+If the **VersionNumber** attribute is present, it must reference the **VersionNumber** attribute of a **TypeLib/Version** element under the **TypeLib** element referenced by the **Id** attribute.
+
 ## Examples
 
 ## Requirements

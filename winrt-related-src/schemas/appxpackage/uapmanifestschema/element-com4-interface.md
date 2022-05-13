@@ -54,8 +54,8 @@ Registers new COM Interfaces.
 | Id | An interface Id (IID). | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
 | UseUniversalMarshaler | Set this to true to use the OLE Universal Marshaler as the proxy stub. | Boolean.| Yes |
 | ProxyStubClsid | Corresponds to the [ProxyStubClsid32](/windows/win32/com/proxystubclsid32) registry value. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
-| SynchronousInterface | The Id of another interface registration containing AsynchronousInterface that references this registration. The other interface must be in the same comInterface registration. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
-| AsynchronousInterface | The Id of another interface registration containing SynchronousInterface that references this registration. The other interface must be in the same comInterface registration. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
+| SynchronousInterface | The Id of another interface registration containing AsynchronousInterface that references this registration. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
+| AsynchronousInterface | The Id of another interface registration containing SynchronousInterface that references this registration. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
 
 
 ## Child Elements
@@ -65,7 +65,7 @@ Registers new COM Interfaces.
 | [TypeLib](element-com4-interface-typelib.md) | A type library for an interface. |
 
 ## Remarks
-The **ProxyStubClsid** attribute must reference the Id of a [ProxyStub](element-com4-proxystub.md) in the same [comInterface](element-com4-cominterface.md) extension. **ProxyStubClsid** can only be used for proxy stubs with an implementation as part of the package. To use the OLE Universal Marshaler as the proxy stub, use **UseUniversalMarshaler** instead.
+**ProxyStubClsid** can only be used for proxy stubs with an implementation as part of the package. To use the OLE Universal Marshaler as the proxy stub, use **UseUniversalMarshaler** instead.
 
 If **UseUniversalMarshaler** is true, the Interface registration must include **TypeLib**.
 
