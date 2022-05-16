@@ -97,7 +97,7 @@ The new syntax also supports alternative structures, where:
 and/or
 
 - SurrogateServer/InProcessServerClassReference elements reference InProcessServer/Class (alternatively, InProcessServer/ClassReference) or ManagedInProcessServer/Class (alternatively, ManagedInProcessServer/ClassReference) elements.
-- 
+
 The main purpose of the new syntax structure is to enable combinations of in-process server, in-process handler, and out of process server registrations for the same CLSID, as is possible and supported with the classic registry layout. For more information on the COM registry layout, see [CLSID Key](/windows/win32/com/clsid-key-hklm).
 
 
