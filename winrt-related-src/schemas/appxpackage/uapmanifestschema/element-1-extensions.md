@@ -1,5 +1,5 @@
 ---
-description: Defines one or more extensibility points for the app (Windows 10).
+description: Defines one or more extensibility points for the app (Windows 10) by detailing the element hierarchy and syntax.
 Search.Product: eADQiWindows 10XVcnh
 title: Extensions (in Application) (Windows 10)
 ms.assetid: 267051e3-b09c-467c-b5bd-4575cc31cb36
@@ -84,11 +84,11 @@ None.
 | [desktop8:Extension](element-desktop8-extension.md) | Declares an extensibility point for the package. |
 | [desktop9:Extension](element-desktop9-extension.md) | Declares an extensibility point for the package. |
 | [rescap2:Extension](element-rescap2-extension-manual.md) | Declares an extensibility point for the package. |
-| [rescap3:Extension](element-rescap3-extension.md) | Declares an extensibility point for the package. | 
+| [rescap3:Extension](element-rescap3-extension.md) | Declares an extensibility point for the package. |
 | [uap:Extension](element-uap-extension.md) | Declares an extensibility point for the package. |
 | [uap2:Extension](element-uap2-extension.md) | Declares an extensibility point for the package. |
 | [uap3:Extension](element-uap3-extension-manual.md) | Declares an extensibility point for the package. |
-| [uap4:Extension](element-uap4-extension.md) | Declares an extensibility point for the package. | 
+| [uap4:Extension](element-uap4-extension.md) | Declares an extensibility point for the package. |
 | [uap5:Extension](element-uap5-extension.md) | Declares an extensibility point for the package. |
 | [uap6:Extension](element-uap6-extension.md) | Declares an extensibility point for the package. |
 | [uap7:Extension](element-uap7-extension.md) | Declares an extensibility point for the package. |
@@ -97,11 +97,12 @@ None.
 | [uap12:Extension](element-uap12-extension.md) | Declares an extensibility point for the package. |
 | [uap13:Extension](element-uap13-extension.md) | Declares an extensibility point for the package. |
 
+
 ### Parent Elements
 
 | Parent Element | Description |
 |---------------|-------------|
-| [Application](element-application.md) | Represents an app that comprises part of or all of the functionality delivered in the package. |  
+| [Application](element-application.md) | Represents an app that comprises part of or all of the functionality delivered in the package. |
 
 ## Related elements
 
