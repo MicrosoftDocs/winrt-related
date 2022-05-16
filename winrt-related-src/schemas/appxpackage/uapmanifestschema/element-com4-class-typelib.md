@@ -55,7 +55,7 @@ Associates a type library with a class or interface.
 
 ## Remarks
 
-The **Id** attribute must reference the **Id** attribute of a [TypeLib](element-com4-typelib.md) element in the manifest, in the com4 version of the syntax. In the old version of the syntax, the **Id** must reference a **TypeLib** element in the same **comInterface** extension.
+In the com4 version of the syntax, the **Id** attribute must reference the **Id** attribute of a [TypeLib](element-com4-typelib.md) element in the manifest. In the previous version of the syntax, the **Id** must reference a **TypeLib** element in the same **comInterface** extension.
 
 If the **VersionNumber** attribute is present, it must reference the **VersionNumber** attribute of a **TypeLib/Version** element under the **TypeLib** element referenced by the **Id** attribute.
 
