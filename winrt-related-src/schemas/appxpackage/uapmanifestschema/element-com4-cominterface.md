@@ -66,7 +66,9 @@ Declares a package extension point of type **windows.comInterface**. The comInte
 
 The **comInterface** extension can be under the Application/Extensions/Extension manifest element, or under the Package/Extensions/Extension manifest element. There is no functional difference between these two options, but both placements have different advantages.
 
-If the extension is under Application/Extensions/Extension, you can improve the readability of the manifest by keeping interface registrations near the class registrations that implement them. However, if you place the extension under Package/Extensions/Extension, you won't need to determine which Application to use for each interface. It's possible to use multiple **comInterface** extensions in either Application/Extensions/Extension or Package/Extensions/Extension, but this is neither recommended nor necessary.
+If the extension is under Application/Extensions/Extension, you can improve the readability of the manifest by keeping interface registrations near the class registrations that implement them. However, if you place the extension under Package/Extensions/Extension, you won't need to determine which Application to use for each interface. 
+
+It is possible to have multiple **comInterface** extensions under the Applications/Application element, but in most cases this is neither necessary nor recommended. An example of an edge case where multiple **comInterface** extensions are needed is if a package needs some of the registrations to have CompatMode="classic" while others have CompatMode="modern", the only way to do this is to split them between extensions.
 
 > [!NOTE]
 > Any registrations in **comInterface** that depend on another registration (e.g. an **Interface** references a **ProxyStub** and/or a **TypeLib**) must be in the same **comInterface** extension. 
