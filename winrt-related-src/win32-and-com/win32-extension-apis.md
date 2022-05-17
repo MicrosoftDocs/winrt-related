@@ -2782,7 +2782,7 @@ For more information about these APIs, please see the official [SQLite documenta
 | [ConvertSecurityDescriptorToStringSecurityDescriptor](/windows/win32/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-security-sddl-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
 | [OpenTrace](/windows/win32/api/evntrace/nf-evntrace-opentracea) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-eventing-consumer-l1-1-0.dll in 10.0.16299. Moved into api-ms-win-eventing-consumer-l1-1-1.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
 | [StartTrace](/windows/win32/api/evntrace/nf-evntrace-starttracea) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [StopTrace](/windows/win32/api/evntrace/nf-evntrace-stoptrace) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [StopTrace](/windows/win32/api/evntrace/nf-evntrace-stoptracew) | Introduced into api-ms-win-downlevel-advapi32-l2-1-1.dll in 10.0.16299. Moved into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-security-sddl-ansi-l1-1-0.dll
@@ -2953,7 +2953,7 @@ For more information about these APIs, please see the official [SQLite documenta
 | API | Requirements |
 | -----| --------------|
 | [FlushTrace](/windows/win32/api/evntrace/nf-evntrace-flushtracea) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
-| [QueryTrace](/windows/win32/api/evntrace/nf-evntrace-querytrace) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
+| [QueryTrace](/windows/win32/api/evntrace/nf-evntrace-querytracew) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.16299. Moved into advapi32.dll in 10.0.16299. Removed in 10.0.17134. |
 
 
 ## APIs from api-ms-win-core-localization-l1-2-0.dll
@@ -3863,7 +3863,7 @@ COM interfaces
 | [IRDPSRAPIWindow](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapiwindow) | Introduced in 10.0.10240. |
 | [IRDPSRAPIWindowList](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpsrapiwindowlist) | Introduced in 10.0.10240. |
 | [IRDPViewerInputSink](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpviewerinputsink) | Introduced in 10.0.10240. |
-| [IRDPViewerRenderingSurface](/windows/win32/api/rdpencomapi/nn-rdpencomapi-irdpviewerrenderingsurface) | Introduced in 10.0.10240. |
+| [IRDPViewerRenderingSurface](/previous-versions/windows/desktop/rdp/irdpviewerrenderingsurface-methods) | Introduced in 10.0.10240. |
 | [IReferenceTracker](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetracker) | Introduced in 10.0.10240. |
 | [IReferenceTrackerHost](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost) | Introduced in 10.0.10240. |
 | [IReferenceTrackerManager](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackermanager) | Introduced in 10.0.10240. |
