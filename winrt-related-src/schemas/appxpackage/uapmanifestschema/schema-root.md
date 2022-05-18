@@ -93,6 +93,19 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [com3:ServiceServer](element-com3-serviceserver.md) | Registers a COM server (with one or more class registrations) hosted in a Windows service that is declared with a corresponding [desktop6:Service](element-desktop6-service.md) element.   |
 | [com3:SurrogateServer](element-com3-surrogateserver.md) | Registers a SurrogateServer with one or many class registrations.   |
 | [com3:TreatAsClass](element-com3-treatasclass.md) | A registration that corresponds to a CLSID registration with the TreatAs subkey for a com3:ServiceServer class.    |
+| [com4:Class](element-com4-class.md) | Defines a class registration in a COM server hosted in a Windows service that is registered in a [com4:ComServer](element-com4-comserver.md) element. |
+| [com4:ExeServer](element-com4-exeserver.md) | Registers an ExeServer with one or many class registrations. |
+| [com4:Extension](element-com4-extension.md) | Provides functionality to expose COM registrations to clients outside of the app package. |
+| [com4:InProcessHandler](element-com4-inprocesshandler.md) | Registers an in-process handler with one or many class registrations. |
+| [com4:InProcessServer](element-com4-inprocessserver.md) | Registers an in-process server with one or many class registrations. |
+| [com4:Interface](element-com4-interface.md) | Registers new COM interface. |
+| [com4:ManagedInProcessServer](element-com4-managedinprocessserver.md) | Registers a managed in-process server with one or many class registrations. |
+| [com4:ProgId](element-com4-progid.md) | A programmatic identifier (ProgID) that can be associated with a CLSID. |
+| [com4:ProxyStub](element-com4-proxystub.md) | Registers a proxy stub. |
+| [com4:ServiceServer](element-com4-serviceserver.md) | Registers a ServiceServer with one or many class registrations. |
+| [com4:SurrogateServer](element-com4-surrogateserver.md) | Registers a SurrogateServer with one or many class registrations. |
+| [com4:TreatAsClass](element-com4-treatasclass.md) | A registration that corresponds to a CLSID registration with the TreatAs subkey. |
+| [com4:TypeLib](element-com4-typelib.md) | Registers a type library. |
 | [Dependencies](element-dependencies.md) | Declares other packages that a package depends on to complete its software. |
 | [Description](element-description.md) | A friendly description that can be displayed to users. |
 | [desktop:ExecutionAlias](element-desktop-executionalias.md) | The executable of a UWP app to be activated from a command prompt. |
