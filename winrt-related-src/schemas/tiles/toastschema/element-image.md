@@ -40,8 +40,7 @@ Specifies an image used in the toast template.
        alt?           = string
        addImageQuery? = boolean 
        placement? = "appLogoOverride" | "hero"
-       hint-crop? = "circle"
-       hint-callScenarioCenterAlign? = boolean />
+       hint-crop? = "circle" />
 ```
 
 ### Key
@@ -123,14 +122,6 @@ Specifies an image used in the toast template.
 <tr class="odd">
 <td><strong>hint-crop</strong></td>
 <td><p>The cropping of the image.</p> <ul><li>"circle" - The image is cropped into a circle.</li><li>Unspecified - The image is not cropped and displayed as a square. </li></ul><p>For more information, see <a href="/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts">Toast content</a>.</p></li>
-</ul></td>
-<td>string</td>
-<td>No</td>
-<td>None</td>
-</tr>
-<tr class="even">
-<td><strong>hint-callScenarioCenterAlign</strong></td>
-<td><p>Set to &quot;true&quot; to TBD...For more information, see <a href="/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts">Toast content</a>.</p></li>
 </ul></td>
 <td>string</td>
 <td>No</td>
