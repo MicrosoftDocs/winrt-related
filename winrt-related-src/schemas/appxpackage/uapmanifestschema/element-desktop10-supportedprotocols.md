@@ -1,17 +1,17 @@
 ---
-title: desktop10:TypesSupported
-description: Defines 1 or more of the event log types supported by the event source.
+title: desktop10:SupportedProtocols
+description: Specifies the supported URL protocol schemes for a given key.
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 
 ms.date: 05/23/2022
 ms.topic: reference
 ---
 
-# desktop10:TypesSupported
+# desktop10:SupportedProtocols
 
 ## Description
 
-Defines 1 or more of the event log types supported by the event source.
+Specifies the supported URL protocol schemes for a given key.
 
 ## Element hierarchy
 
@@ -23,17 +23,7 @@ Defines 1 or more of the event log types supported by the event source.
 <dd>
 <dl>
 <dt><a href="element-desktop10-extension.md">&lt;desktop10:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop10-customdesktopeventlog.md">&lt;desktop10:CustomDesktopEventLog&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop10-customeventsource.md">&lt;desktop10:CustomEventSource&gt;</a></dt>
-<dd><strong>&lt;desktop10:TypesSupported&gt;</strong></dd>
-</dd>
-</dl>
-</dd>
-</dl>
+<dd><strong>&lt;desktop10:SupportedProtocols&gt;</strong></dd>
 </dd>
 </dl>
 </dd>
@@ -44,16 +34,16 @@ Defines 1 or more of the event log types supported by the event source.
 ## Syntax
 
 ```xml
-<desktop10:TypesSupported>
+<desktop10:SupportedProtocols>
   <!-- Child Elements -->
-  desktop10:TypeSupported
+  desktop10:SupportedProtocol{0, 10000}
 
-</desktop10:TypesSupported>
+</desktop10:SupportedProtocols>
 ```
 
 ### Key
 
-`?` optional (zero or one)
+`{}` A specific range of occurrences
 
 ## Attributes and elements
 
@@ -65,17 +55,13 @@ None.
 
 | Child element | Description |
 |-|-|
-| [desktop10:TypeSupported](element-desktop10-typesupported.md) | Specifies a supported event log type. |
+| [desktop10:SupportedProtocol](element-desktop10-supportedprotocol.md) | Specifies a URL protocol scheme. |
 
 ### Parent Elements
 
 | Parent element | Description |
 |-|-|
 | [desktop10:Extension](element-desktop10-extension.md) | Declares an extensibility point for the app. |
-
-## Remarks
-
-For more information on event log types, see [Event Sources](/windows/win32/eventlog/event-sources).
 
 ## Requirements
 

@@ -1,6 +1,6 @@
 ---
 title: desktop10:TypeSupported
-description: TBD
+description: Specifies a supported event log type.
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 
 ms.date: 05/23/2022
@@ -11,7 +11,7 @@ ms.topic: reference
 
 ## Description
 
-TBD
+Specifies a supported event log type.
 
 ## Element hierarchy
 
@@ -64,7 +64,7 @@ TBD
 
 | Attribute | Description | Data type | Required |
 |-|-|-|-|
-| Value | TBD | A string value that can be one of the following: "auditFailure", "auditSuccess", "errorType", "informationType", or "warningType". | Yes |
+| Value | The supported event log type. | A string value that can be one of the following: "auditFailure", "auditSuccess", "errorType", "informationType", or "warningType". | Yes |
 
 ### Child Elements
 
@@ -74,7 +74,12 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [desktop10:TypesSupported](element-desktop10-typessupported.md) | Declares an extensibility point for the app. |
+| [desktop10:TypesSupported](element-desktop10-typessupported.md) | Defines 1 or more of the Eventlog types supported by the event source. |
+
+## Remarks
+
+For more information on event log types, see [Event Sources](/windows/win32/eventlog/event-sources).
+
 
 ## Requirements
 

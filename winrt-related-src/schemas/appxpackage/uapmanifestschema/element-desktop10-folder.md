@@ -1,6 +1,6 @@
 ---
 title: desktop10:Folder
-description: TBD
+description: Defines a folder with localizable details.
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 
 ms.date: 05/23/2022
@@ -11,7 +11,7 @@ ms.topic: reference
 
 ## Description
 
-TBD
+Defines a folder with localizable details.
 
 ## Element hierarchy
 
@@ -37,10 +37,10 @@ TBD
   KnownFolder   = A string value that can be one of the following: "Common Programs", "Programs", or "Desktop".
   RelativePath? = A string between 1 and 256 characters in length that  cannot contain these characters: <, >, :, ", |, ?, or *.
   Name?         = A string between 1 and 256 characters in length that  cannot contain these characters: <, >, :, ", |, ?, or *.
-  DisplayName?  = An alphanumeric string value between 1 and 256 characters in length.
+  DisplayName?  = An alphanumeric string value between 1 and 256 characters in length. This string is localizable.
   Icon?         = A string between 1 and 256 characters in length that  cannot contain these characters: <, >, :, ", |, ?, or *.
   IconIndex?    = A numerical value between 0 and 255.
-  Description?  = A string value between 1 and 2048 characters.
+  Description?  = A string value between 1 and 2048 characters. This string is localizable.
   >
 
 </desktop10:Folder>
@@ -56,13 +56,13 @@ TBD
 
 | Attribute | Description | Data type | Required |
 |-|-|-|-|
-| KnownFolder | TBD | A string value that can be one of the following: "Common Programs", "Programs", or "Desktop". | Yes |
-| RelativePath | TBD | A string between 1 and 256 characters in length that  cannot contain these characters: <, >, :, ", &#124;, ?, or *. | No |
-| Name | TBD | A string between 1 and 256 characters in length that  cannot contain these characters: <, >, :, ", &#124;, ?, or *. | No |
-| DisplayName | TBD | An alphanumeric string value between 1 and 256 characters in length. | No |
-| Icon | TBD | A string between 1 and 256 characters in length that  cannot contain these characters: <, >, :, ", &#124;, ?, or *.  | No |
-| IconIndex | TBD | A numerical value between 0 and 255. | No |
-| Description | TBD | A string value between 1 and 2048 characters. | No |
+| KnownFolder | The known folder to which the *RelativePath* value is relative. | A string value that can be one of the following: "Common Programs", "Programs", or "Desktop". | Yes |
+| RelativePath | The path the folder, relative to the folder specified in *KnownFolder* | A string between 1 and 256 characters in length that  cannot contain these characters: <, >, :, ", &#124;, ?, or *. | No |
+| Name | The on-disk name of the folder. | A string between 1 and 256 characters in length that  cannot contain these characters: <, >, :, ", &#124;, ?, or *. | No |
+| DisplayName | The display name for the folder. | An alphanumeric string value between 1 and 256 characters in length. This string is localizable. | No |
+| Icon | The icon image to show up for the lnk file, in [Multilingual User Interface](/windows/win32/intl/multilingual-user-interface) string format. | A string between 1 and 256 characters in length that  cannot contain these characters: <, >, :, ", &#124;, ?, or *.  | No |
+| IconIndex | The index of the icon within the current icon file. | A numerical value between 0 and 255. | No |
+| Description | The description of the folder. | A string value between 1 and 2048 characters. This string is localizable. | No |
 
 ### Child Elements
 

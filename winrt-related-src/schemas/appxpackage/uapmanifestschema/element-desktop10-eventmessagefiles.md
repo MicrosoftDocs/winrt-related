@@ -1,6 +1,6 @@
 ---
 title: desktop10:EventMessageFiles
-description: TBD
+description: Defines 1 or more DLL files containing the language strings describing the events.
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 
 ms.date: 05/23/2022
@@ -11,7 +11,7 @@ ms.topic: reference
 
 ## Description
 
-TBD
+Defines 1 or more DLL files containing the language strings describing the events.
 
 ## Element hierarchy
 
@@ -46,7 +46,7 @@ TBD
 ```xml
 <desktop10:EventMessageFiles>
   <!-- Child Elements -->
-  desktop10:File
+  desktop10:File{0,10000}
 
 </desktop10:EventMessageFiles>
 ```
@@ -65,13 +65,13 @@ None.
 
 | Child element | Description |
 |-|-|
-| [desktop10:File](element-desktop10-file.md) | TBD |
+| [desktop10:File](element-desktop10-file.md) | Specifies an event log DLL within the package. |
 
 ### Parent Elements
 
 | Parent element | Description |
 |-|-|
-| [desktop10:CustomEventSource](element-desktop10-customeventsource.md) | Declares an extensibility point for the app. |
+| [desktop10:CustomEventSource](element-desktop10-customeventsource.md) | Defines an event source within a custom event log. |
 
 ## Requirements
 

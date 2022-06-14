@@ -1,6 +1,6 @@
 ---
 title: desktop10:File
-description: TBD
+description: Defines an event log DLL within the package.
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 
 ms.date: 05/23/2022
@@ -11,7 +11,7 @@ ms.topic: reference
 
 ## Description
 
-TBD
+Specifies an event log DLL within the package.
 
 ## Element hierarchy
 
@@ -64,7 +64,7 @@ TBD
 
 | Attribute | Description | Data type | Required |
 |-|-|-|-|
-| Path | TBD | A string between 1 and 256 characters in length that must end with ".dll" and cannot contain these characters: <, >, :, ", &#124;, ?, or *. | Yes |
+| Path | The package-relative path to the event log dll. The path must be unique within the parent **EventMessageFiles** element. | A string between 1 and 256 characters in length that must end with ".dll" and cannot contain these characters: <, >, :, ", &#124;, ?, or *. | Yes |
 
 ### Child Elements
 

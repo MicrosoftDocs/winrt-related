@@ -1,17 +1,17 @@
 ---
-title: desktop10:DataShortcuts
-description: Specifies a list of non-executable shortcuts.
+title: desktop10:SupportedProtocol
+description: Specifies a URL protocol scheme.
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 
 ms.date: 05/23/2022
 ms.topic: reference
 ---
 
-# desktop10:DataShortcuts
+# desktop10:SupportedProtocol
 
 ## Description
 
-Specifies a list of non-executable shortcuts. 
+Specifies a URL protocol scheme.
 
 ## Element hierarchy
 
@@ -23,7 +23,11 @@ Specifies a list of non-executable shortcuts.
 <dd>
 <dl>
 <dt><a href="element-desktop10-extension.md">&lt;desktop10:Extension&gt;</a></dt>
-<dd><strong>&lt;desktop10:DataShortcuts&gt;</strong></dd>
+<dd>
+<dl>
+<dt><a href="element-desktop10-supportedprotocols.md">&lt;desktop10:SupportedProtocols&gt;</a></dt>
+<dd><strong>&lt;desktop10:SupportedProtocol&gt;</strong></dd>
+</dd>
 </dl>
 </dd>
 </dl>
@@ -33,16 +37,10 @@ Specifies a list of non-executable shortcuts.
 ## Syntax
 
 ```xml
-<desktop10:DataShortcuts>
-  <!-- Child Elements -->
-  desktop10:DataShortcut
-
-</desktop10:DataShortcuts>
+<desktop10:SupportedProtocol>
+  A string between 2 and 2048 characters in length.
+</desktop10:SupportedProtocol>
 ```
-
-### Key
-
-`?` optional (zero or one)
 
 ## Attributes and elements
 
@@ -52,15 +50,13 @@ None.
 
 ### Child Elements
 
-| Child element | Description |
-|-|-|
-| [desktop10:DataShortcut](element-desktop10-datashortcut.md) | Creates a shortcut to a file that is not an executable. |
+None.
 
 ### Parent Elements
 
 | Parent element | Description |
 |-|-|
-| [desktop10:Extension](element-desktop10-extension.md) | Declares an extensibility point for the app. |
+| [desktop10:SupportedProtocols](element-desktop10-supportedprotocols.md) | TBD |
 
 ## Requirements
 
