@@ -63,10 +63,10 @@ Creates a shortcut to a file that is not an executable.
 | Attribute | Description | Data type | Required |
 |-|-|-|-|
 | Path | The package-relative path to the file. | A string between 1 and 256 characters in length that  cannot contain these characters: <, >, :, ", &#124;, ?, or *. | Yes |
+| DisplayName | The name to display on the start menu. | An alphanumeric string value between 1 and 256 characters in length. | Yes |
 | WorkingDirectory | The package-relative working directory. | A string between 1 and 256 characters in length that  cannot contain these characters: <, >, :, ", &#124;, ?, or *. | No |
 | WindowOption | Specifies whether the app should to start minimized, maximized, or normal.  Default is normal | A string value that can be one of the following: "minimized", "maximized", or "normal". | No |
 | Comment | A comment for the shortcut. | A string value between 1 and 2048 characters. | No |
-| DisplayName | The name to diosplay on the start menu. | An alphanumeric string value between 1 and 256 characters in length. | Yes |
 | Icon | The icon image to show up for the lnk file, in [Multilingual User Interface](/windows/win32/intl/multilingual-user-interface) string format. If no icon is specified, the shell selects a default icon. | A string between 1 and 256 characters in length that  cannot contain these characters: <, >, :, ", &#124;, ?, or *. | No |
 | IconIndex | The index of the icon within the current icon file. | A numerical value between 0 and 255. | No |
 | AUMID | The Application User Model ID (AUMID) associated with the shortcut. See Remarks for more information. | A string value between 1 and 32767 characters that cannot begin or end with a whitespace character. | No | 

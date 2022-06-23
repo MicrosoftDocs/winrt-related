@@ -56,7 +56,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [desktop10:SupportedProtocols](element-desktop10-supportedprotocols.md) | TBD |
+| [desktop10:SupportedProtocols](element-desktop10-supportedprotocols.md) | Specifies the supported URL protocol schemes for a given key. |
 
 ## Requirements
 
