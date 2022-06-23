@@ -47,6 +47,7 @@ Creates a shortcut to a file that is not an executable.
   Icon?             = A string between 1 and 256 characters in length that  cannot contain these characters: <, >, :, ", |;, ?, or *.
   IconIndex?        = A numerical value between 0 and 255.
   AUMID?            = A string value between 1 and 32767 characters that cannot begin or end with a whitespace character.
+  uap10:Parameters?   = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
   >
 
 </desktop10:DataShortcut>
@@ -70,6 +71,7 @@ Creates a shortcut to a file that is not an executable.
 | Icon | The icon image to show up for the lnk file, in [Multilingual User Interface](/windows/win32/intl/multilingual-user-interface) string format. If no icon is specified, the shell selects a default icon. | A string between 1 and 256 characters in length that  cannot contain these characters: <, >, :, ", &#124;, ?, or *. | No |
 | IconIndex | The index of the icon within the current icon file. | A numerical value between 0 and 255. | No |
 | AUMID | The Application User Model ID (AUMID) associated with the shortcut. See Remarks for more information. | A string value between 1 and 32767 characters that cannot begin or end with a whitespace character. | No | 
+| uap10:Parameters | Contains command line parameters to pass to the extension. Only supported for desktop apps that have package identity. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.  | Yes |
 
 ### Child Elements
 
@@ -90,3 +92,4 @@ Apps that specify multiple data shortcuts should specifiy unique AUMID values fo
 | Namespace | Value |
 |-|-|
 | **desktop10** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |
+| **uap10** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
