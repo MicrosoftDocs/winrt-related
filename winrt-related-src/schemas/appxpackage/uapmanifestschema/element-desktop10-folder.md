@@ -1,6 +1,6 @@
 ---
 title: desktop10:Folder
-description: Defines a folder with localizable details.
+description: Defines a folder to hold shortcuts, with localizable details.
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 
 ms.date: 05/23/2022
@@ -11,7 +11,7 @@ ms.topic: reference
 
 ## Description
 
-Defines a folder with localizable details.
+Defines a folder to hold shortcuts, with localizable details.
 
 ## Element hierarchy
 

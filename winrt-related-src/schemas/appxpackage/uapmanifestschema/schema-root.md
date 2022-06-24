@@ -209,7 +209,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [desktop10:EventMessageFiles](element-desktop10-eventmessagefiles.md) | Defines 1 or more DLL files containing the language strings describing the events.  |
 | [desktop10:Extension](element-desktop10-extension.md) | Declares an extensibility point for the app (in Package/Extensions; desktop10:Extension).  |
 | [desktop10:File](element-desktop10-file.md) | Defines an event log DLL within the package.  |
-| [desktop10:Folder](element-desktop10-folder.md) | Defines a folder with localizable details.  |
+| [desktop10:Folder](element-desktop10-folder.md) | Defines a folder to hold shortcuts, with localizable details.  |
 | [desktop10:IconHandler](element-desktop10-iconhandler.md) | Enables an IconHandler for a file type association.  |
 | [desktop10:PredefinedTriggerEvents](element-desktop10-predefinedtriggerevents.md) | Describes predefined trigger events for the current service.  |
 | [desktop10:SupportedProtocol](element-desktop10-supportedprotocol.md) | Specifies a URL protocol scheme.  |

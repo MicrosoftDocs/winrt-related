@@ -72,7 +72,7 @@ Declares an extensibility point for the app.
 
 | Child element | Description |
 |---------------|-------------|
-| [desktop10:Folder](element-desktop10-folder.md) | Defines a folder with localizable details. |
+| [desktop10:Folder](element-desktop10-folder.md) | Defines a folder to hold shortcuts, with localizable details. |
 | [desktop10:DataShortcuts](element-desktop10-datashortcuts.md) | Specifies a list of non-executable shortcuts. |
 | [desktop10:CustomDesktopEventLog](element-desktop10-customdesktopeventlog.md) | Defines a custom event log. |
 
