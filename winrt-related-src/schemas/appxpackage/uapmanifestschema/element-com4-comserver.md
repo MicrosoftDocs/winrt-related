@@ -76,8 +76,8 @@ Declares a package extension point of type windows.comServer. The comServer exte
 | [InProcessServer](element-com4-inprocessserver.md) | Registers an in-process server with one or many class registrations. |
 | [InProcessHandler](element-com4-inprocesshandler.md) | Registers an in-process handler with one or many class registrations. |
 | [ManagedInProcessServer](element-com4-managedinprocessserver.md) | Registers a managed in-process server with one or many class registrations. |
-| [com5:InProcessServer](TBD) | TBD |
-| [com5:InProcessHandler](TBD) | TBD |
+| com5:InProcessServer |  |
+| com5:InProcessHandler |  |
 
 ## Remarks
 In multi-application packages, it's important to place the COM server registration under the correct Applications/Application manifest element, because COM server processes will run with the identity of the ancestor Applications/Application element.

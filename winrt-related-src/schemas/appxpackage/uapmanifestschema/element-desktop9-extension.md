@@ -79,7 +79,7 @@ Declares an extensibility point for the app.
 
 | Child Element | Description |
 |---------------|-------------|
-| [FileExplorerClassicContextMenuHandler](element-desktop9-fileexplorerclassiccontextmenuhandler.md) | TBD |  
+| [FileExplorerClassicContextMenuHandler](element-desktop9-fileexplorerclassiccontextmenuhandler.md) | Registers a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) implementation of a context menu handler shell extension for a packaged desktop app. |  
 | [FileExplorerClassicDragDropContextMenuHandler](element-desktop9-fileexplorerclassicdragdropcontextmenuhandler.md) | Enables Windows Desktop Bridge apps to register for Windows event logging. | 
 
 

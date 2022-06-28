@@ -52,7 +52,7 @@ Specifies how to create and display an object.
 
 | Attribute | Description | Data type | Required |
 | -----------| -------------| -----------| ----------|
-| OleMiscFlag | TBD | An integer value in the range of 0-4194303.| Yes |
+| OleMiscFlag | The integer value for the view aspect of the object. | An integer value in the range of 0-4194303.| Yes |
 
 
 ## Child Elements
