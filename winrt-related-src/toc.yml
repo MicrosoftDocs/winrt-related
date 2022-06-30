@@ -592,6 +592,34 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop9-fileexplorerclassiccontextmenuhandler.md
           - name: "desktop9:FileExplorerClassicDragDropContextMenuHandler"
             href: schemas/appxpackage/uapmanifestschema/element-desktop9-fileexplorerclassicdragdropcontextmenuhandler.md
+          - name: desktop10:CustomDesktopEventLog
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-customdesktopeventlog.md
+          - name: desktop10:CustomEventSource
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-customeventsource.md
+          - name: desktop10:DataShortcut
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-datashortcut.md
+          - name: desktop10:DataShortcuts
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-datashortcuts.md
+          - name: desktop10:EventMessageFiles
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-eventmessagefiles.md
+          - name: desktop10:Extension (in Package/Extensions)
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-extension.md
+          - name: desktop10:File
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-file.md
+          - name: desktop10:Folder
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-folder.md
+          - name: desktop10:IconHandler
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-iconhandler.md
+          - name: desktop10:PredefinedTriggerEvents
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-predefinedtriggerevents.md
+          - name: desktop10:SupportedProtocol
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-supportedprotocol.md
+          - name: desktop10:SupportedProtocols
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-supportedprotocols.md
+          - name: desktop10:TypesSupported
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-typessupported.md
+          - name: desktop10:TypeSupported
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-typesupported.md
           - name: "previewappcompat:ProgId"
             href: schemas/appxpackage/uapmanifestschema/element-previewappcompat-progid.md
           - name: "rescap2:Extension"

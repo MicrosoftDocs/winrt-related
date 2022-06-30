@@ -47,7 +47,9 @@ Creates a shortcut to a file.
                     Arguments?          =  A string between 1 and 256 characters in length. 
                     PinToStartMenu          =  Boolean
                     ExcludeFromShowInNewInstall   = Boolean
-                    Description=  A string between 1 and 256 characters in length.>
+                    Description=  A string between 1 and 2048 characters in length.
+                    desktop10:DisplayName? = A string between 1 and 256 characters in length. This string is localizable.
+                    desktop10:Description? = A string between 1 and 2048 characters in length. This string is localizable.>
     desktop7:AppMigrations?
 </desktop7:Shortcut>
 ```
@@ -67,6 +69,8 @@ Creates a shortcut to a file.
 | PinToStartMenu | A boolean value specifying if the shortcut is pinned to the Start menu. | Boolean. | No |
 | ExcludeFromShowInNewInstall  | A boolean value specifying if the shortcut should be excluded from the highlighting that is applied to newly installed apps. | Boolean.  | No |
 | Description  | The description of the shortcut.  | A string between 1 and 256 characters in length.  | No |
+| desktop10:DisplayName | The display name for the shortcut. | A string between 1 and 256 characters in length. This string is localizable. | No |
+| desktop10:Description | The localizable description for the shortcut. | A string between 1 and 2048 characters in length. This string is localizable. | No |
 
 ### Child Elements
 
@@ -89,6 +93,7 @@ Creates a shortcut to a file.
 
 ## Requirements
 
-|               |       Value                                                      |
+| Namespace |       Value                                                      |
 |---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |
+| desktop7 | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |
+| desktop10 | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |

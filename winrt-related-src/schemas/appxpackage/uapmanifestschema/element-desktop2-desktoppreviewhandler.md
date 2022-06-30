@@ -55,7 +55,8 @@ Enables declaration of a preview handler for a file type association.
                                 ManualSafeSave? = Boolean.
                                 EnableShareDenyNone? = Boolean.
                                 EnableShareDenyWrite? = Boolean.
-                                NoOplock? = Boolean. >                                
+                                NoOplock? = Boolean. 
+                                desktop10:DisplayName? = A string between 1 and 256 characters in length. This string is localizable.>                                
 ```
 
 ## Attributes
@@ -66,12 +67,14 @@ Enables declaration of a preview handler for a file type association.
 | EnableShareDenyNone | Sets STGM_SHARE_DENY_NONE. | Boolean. | No |
 | EnableShareDenyWrite | Sets STGM_SHARE_DENY_WRITE. | Boolean. | No |
 | NoOplock | Disables oplock logic. This is used to close the file if another process attempts to access the file. | Boolean. | No |
+| desktop10:DisplayName | The display name for the preview handler. | A string between 1 and 256 characters in length. This string is localizable. | No |
 
 ## Remarks
 Note that the Clsid attribute from PreviewHandler **must** match the ID attribute under the Class element in the [SurrogateServer](element-com-surrogateserver.md) element from the COM registration in the app manifest.
 
 ## Requirements
 
-|               |     Value                                                        |
+| Namespace     | Calue                                                       |
 |---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/2` |
+| desktop2 | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/2` |
+| desktop10 | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |

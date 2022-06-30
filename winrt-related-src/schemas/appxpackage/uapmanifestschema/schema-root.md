@@ -202,6 +202,20 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [desktop9:ExtensionHandler](element-desktop9-extensionhandler.md) | Specifies a handler for a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) implementation of a context menu handler shell extension for a packaged desktop app.  |
 | [desktop9:FileExplorerClassicContextMenuHandler](element-desktop9-fileexplorerclassiccontextmenuhandler.md) | Registers a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) implementation of a context menu handler shell extension for a packaged desktop app.  |
 | [desktop9:FileExplorerClassicDragDropContextMenuHandler](element-desktop9-fileexplorerclassicdragdropcontextmenuhandler.md) | Registers a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) implementation of a drag and drop handler shell extension for a packaged desktop app.  |
+| [desktop10:CustomDesktopEventLog](element-desktop10-customdesktopeventlog.md) | efines a custom event log.  |
+| [desktop10:CustomEventSource](element-desktop10-customeventsource.md) | Defines an event source within a custom event log.  |
+| [desktop10:DataShortcut](element-desktop10-datashortcut.md) | Creates a shortcut to a file that is not an executable.  |
+| [desktop10:DataShortcuts](element-desktop10-datashortcuts.md) | Specifies a list of non-executable shortcuts.  |
+| [desktop10:EventMessageFiles](element-desktop10-eventmessagefiles.md) | Defines 1 or more DLL files containing the language strings describing the events.  |
+| [desktop10:Extension](element-desktop10-extension.md) | Declares an extensibility point for the app (in Package/Extensions; desktop10:Extension).  |
+| [desktop10:File](element-desktop10-file.md) | Defines an event log DLL within the package.  |
+| [desktop10:Folder](element-desktop10-folder.md) | Defines a folder to hold shortcuts, with localizable details.  |
+| [desktop10:IconHandler](element-desktop10-iconhandler.md) | Enables an IconHandler for a file type association.  |
+| [desktop10:PredefinedTriggerEvents](element-desktop10-predefinedtriggerevents.md) | Describes predefined trigger events for the current service.  |
+| [desktop10:SupportedProtocol](element-desktop10-supportedprotocol.md) | Specifies a URL protocol scheme.  |
+| [desktop10:SupportedProtocols](element-desktop10-supportedprotocols.md) | DSpecifies the supported URL protocol schemes for a given key.  |
+| [desktop10:TypesSupported](element-desktop10-typessupported.md) | Defines 1 or more of the event log types supported by the event source.  |
+| [desktop10:TypeSupported](element-desktop10-typesupported.md) | Specifies a supported event log type.  |
 | [Device](element-device.md) | Declares a function for a device that is associated with the [**DeviceCapability**](element-devicecapability.md). On Windows 10.0.10240.0, a **DeviceCapability** can contain up to 100 **Device** elements. On Windows 10.0.10586.0, it can contain up to 1000 (for more details, see **DeviceCapability**). |
 | [DeviceCapability](element-devicecapability.md) | Declares a device capability required by a package. On Windows 10.0.10240.0, can contain up to 100 [**Device**](element-device.md) elements. On Windows 10.0.10586.0, can contain up to 1000 (for syntax and examples, see Examples). |
 | [DisplayName](element-displayname.md) | A friendly name that can be displayed to users. |
