@@ -28,7 +28,8 @@ Specifies an input, either text box or selection menu, shown in a toast notifica
 ``` syntax
 <input id = string
     type = "text" | "selection" 
-    placeHolderContent? = string >
+    placeHolderContent? = string 
+    title? = string>
   <!-- Child elements -->
   selection{0,5}
 </input>
