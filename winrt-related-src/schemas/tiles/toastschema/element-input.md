@@ -28,7 +28,8 @@ Specifies an input, either text box or selection menu, shown in a toast notifica
 ``` syntax
 <input id = string
     type = "text" | "selection" 
-    placeHolderContent? = string >
+    placeHolderContent? = string 
+    title? = string>
   <!-- Child elements -->
   selection{0,5}
 </input>
@@ -49,6 +50,7 @@ Specifies an input, either text box or selection menu, shown in a toast notifica
 | id        | The ID associated with the input.  | string    | Yes      | None          |
 | type      | The type of input. | string - This attribute can have one of the following values: "text", "selection"   | Yes      | None          |
 | placeHolderContent | The placeholder displayed for text input. | string   | No      | None          |
+| title | Text displayed as a label for the input. | string   | No      | None          |
 
 ### Child Elements
 
