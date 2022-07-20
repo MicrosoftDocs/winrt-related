@@ -40,7 +40,8 @@ Specifies text used in the toast template.
 ``` syntax
 <text id    = integer
       lang? = string 
-      placement? = "attribution"/>
+      placement? = "attribution"
+      hint-callScenarioCenterAlign? = boolean />
 ```
 
 ### Key
@@ -88,6 +89,14 @@ Specifies text used in the toast template.
 <td><strong>placement</strong></td>
 <td><p>The placement of the text. Introduced in Anniversary Update. If you specify the value "attribution", the text is always displayed at the bottom of your notification, along with your app's identity or the notification's timestamp. On older versions of Windows that don't support attribution text, the text will simply be displayed as another text element (assuming you don't already have the maximum of three text elements). For more information, see [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).</p></td>
 <td>string</td>
+<td>No</td>
+<td>None</td>
+</tr>
+<tr class="even">
+<td><strong>hint-callScenarioCenterAlign</strong></td>
+<td><p>Set to &quot;true&quot; to center the text for incoming call notifications. This value is only used for notifications with with a <strong>scenario</strong> value of "incomingCall"; otherwise, it is ignored. For more information, see <a href="/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts#scenarios">Toast content</a>.</p></li>
+</ul></td>
+<td>boolean</td>
 <td>No</td>
 <td>None</td>
 </tr>

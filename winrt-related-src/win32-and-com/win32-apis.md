@@ -907,7 +907,7 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [ControlTraceW](/windows/win32/api/evntrace/nf-evntrace-controltracea) | Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.10240. |
 | [EnableTraceEx2](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) | Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.10240. |
 | [StartTraceW](/windows/win32/api/evntrace/nf-evntrace-starttracea) | Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.10240. |
-| [StopTraceW](/windows/win32/api/evntrace/nf-evntrace-stoptrace) | Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.10240. |
+| [StopTraceW](/windows/win32/api/evntrace/nf-evntrace-stoptracew) | Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.10240. |
 | [EnumerateTraceGuidsEx](/windows/win32/api/evntrace/nf-evntrace-enumeratetraceguidsex) | Introduced into api-ms-win-eventing-controller-l1-1-0.dll in 10.0.16299. |
 
 
@@ -918,7 +918,7 @@ This topic lists all the APIs in WindowsApp.lib, grouped by module (where the mo
 | [EnableTrace](/windows/win32/api/evntrace/nf-evntrace-enabletrace) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.10240. |
 | [EnableTraceEx](/windows/win32/api/evntrace/nf-evntrace-enabletraceex) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.10240. |
 | [FlushTraceW](/windows/win32/api/evntrace/nf-evntrace-flushtracea) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.10240. |
-| [QueryTraceW](/windows/win32/api/evntrace/nf-evntrace-querytrace) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.10240. |
+| [QueryTraceW](/windows/win32/api/evntrace/nf-evntrace-querytracew) | Introduced into api-ms-win-eventing-legacy-l1-1-0.dll in 10.0.10240. |
 
 
 ## APIs from api-ms-win-eventing-provider-l1-1-0.dll

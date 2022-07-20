@@ -935,21 +935,13 @@ instance on which you invoke the *property get* method.
 
 The **GetNextSerialNo** and **SetNextSerialNo** static methods can access the internal *next available serial number* static member of the **Entity** class.
 
-##### Protected and override methods
-All methods in a Windows Runtime type are effectively virtual. When a
-virtual method is invoked, the *run-time type* of the instance for
-which that invocation takes place determines the actual method
-implementation to invoke.
+##### Overridable and protected methods
 
-A method can be *overridden* in a derived class. When an instance
-method declaration includes an `override` modifier, the method overrides
-an inherited virtual method with the same signature. Whereas a method
-declaration ordinarily *introduces* a new method, an `override` method declaration
-*specializes* an existing inherited virtual method by providing a new
-implementation of that method.
+All methods in a Windows Runtime type are effectively virtual. When a virtual method is invoked, the *run-time type* of the instance for which that invocation takes place determines the actual method implementation to invoke.
 
-When an instance method declaration includes a `protected` modifier, the
-method is only visible to derived classes.
+A method can be *overridden* in a derived class. When an instance method declaration includes an `overridable` modifier, the method can be overridden by derived classes. Whether a derived class does actually override an overridable base class method is determined by the implementation; it's not present in the metadata. If a derived class redeclares a method in the base class, then it declares a new method that sits alongside the derived class method, rather than overriding it.
+
+When an instance method declaration includes a `protected` modifier, the method is visible only to derived classes.
 
 #### Events
 An *event* declaration is a member that specifies that a class is an

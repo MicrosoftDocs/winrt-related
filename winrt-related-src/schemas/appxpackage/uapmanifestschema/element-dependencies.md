@@ -80,7 +80,7 @@ None.
 </tr>
 <tr class="even">
 <td><a href="element-uap7-ospackagedependency.md">uap7:OSPackageDependency</a> </td>
-<td><p>CDefines a package dependency for a UWP app.
+<td><p>Defines a package dependency for a UWP app.
 </p></td>
 </tr>
 <tr class="even">

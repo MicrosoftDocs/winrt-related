@@ -114,6 +114,18 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap10-packageintegrity.md
           - name: "uap10:Content"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-content.md
+          - name: "uap12:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-uap12-extension.md
+          - name: "uap12:Host"
+            href: schemas/appxpackage/uapmanifestschema/element-uap12-host.md
+          - name: "uap13:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-uap13-extension.md
+          - name: "uap13:AutoUpdate"
+            href: schemas/appxpackage/uapmanifestschema/element-uap13-autoupdate.md
+          - name: "uap13:AppInstaller"
+            href: schemas/appxpackage/uapmanifestschema/element-uap13-appinstaller.md
+          - name: "uap13:HostRuntimeDependency"
+            href: schemas/appxpackage/uapmanifestschema/element-uap13-hostruntimedependency.md
           - name: "Resources"
             href: schemas/appxpackage/uapmanifestschema/element-resources.md
           - name: "Resource"
@@ -644,14 +656,66 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-shortcut.md
           - name: "desktop7:SystemFileAssociation"
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-systemfileassociation.md
+          - name: "desktop8:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-extension.md
+          - name: "desktop8:Channels"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-channels.md
+          - name: "desktop8:Channel"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-channel.md
+          - name: "desktop8:EventTracing"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-eventtracing.md
           - name: "desktop9:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-desktop9-extension.md
+          - name: "desktop8:ImportChannel"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-importchannel.md
+          - name: "desktop8:Logging"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-logging.md
+          - name: "desktop8:MutablePackageDirectories"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-mutablepackagedirectories.md
+          - name: "desktop8:MutablePackageDirectory"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-mutablepackagedirectory.md
+          - name: "desktop8:Provider"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-provider.md
+          - name: "desktop8:Publishing"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-publishing.md
+          - name: "desktop8:UserMutablePackageDirectories"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-usermutablepackagedirectories.md
+          - name: "desktop8:UserMutablePackageDirectory"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop8-usermutablepackagedirectory.md
           - name: "desktop9:ExtensionHandler"
             href: schemas/appxpackage/uapmanifestschema/element-desktop9-extensionhandler.md
           - name: "desktop9:FileExplorerClassicContextMenuHandler"
             href: schemas/appxpackage/uapmanifestschema/element-desktop9-fileexplorerclassiccontextmenuhandler.md
           - name: "desktop9:FileExplorerClassicDragDropContextMenuHandler"
             href: schemas/appxpackage/uapmanifestschema/element-desktop9-fileexplorerclassicdragdropcontextmenuhandler.md
+          - name: desktop10:CustomDesktopEventLog
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-customdesktopeventlog.md
+          - name: desktop10:CustomEventSource
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-customeventsource.md
+          - name: desktop10:DataShortcut
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-datashortcut.md
+          - name: desktop10:DataShortcuts
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-datashortcuts.md
+          - name: desktop10:EventMessageFiles
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-eventmessagefiles.md
+          - name: desktop10:Extension (in Package/Extensions)
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-extension.md
+          - name: desktop10:File
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-file.md
+          - name: desktop10:Folder
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-folder.md
+          - name: desktop10:IconHandler
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-iconhandler.md
+          - name: desktop10:PredefinedTriggerEvents
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-predefinedtriggerevents.md
+          - name: desktop10:SupportedProtocol
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-supportedprotocol.md
+          - name: desktop10:SupportedProtocols
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-supportedprotocols.md
+          - name: desktop10:TypesSupported
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-typessupported.md
+          - name: desktop10:TypeSupported
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-typesupported.md
           - name: "previewappcompat:ProgId"
             href: schemas/appxpackage/uapmanifestschema/element-previewappcompat-progid.md
           - name: "rescap2:Extension"
@@ -672,52 +736,6 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-rescap4-primaryInteropAssemblies.md
           - name: "rescap4:Redirect"
             href: schemas/appxpackage/uapmanifestschema/element-rescap4-redirect.md
-          - name: "serverpreview:Extension"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-extension-manual.md
-          - name: "serverpreview:IisModules"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-iismodules-manual.md
-          - name: "serverpreview:IisModule"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-iismodule-manual.md
-          - name: "serverpreview:SectionGroupDefinition"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-sectiongroupdefinition-manual.md
-          - name: "serverpreview:SectionDefinition"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-sectiondefinition-manual.md
-          - name: "serverpreview:SectionData"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-sectiondata-manual.md
-          - name: "serverpreview:CollectionElement"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-collectionelement-manual.md
-          - name: "serverpreview:Attribute"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-attribute-manual.md
-          - name: "serverpreview:NTServices"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-ntservices-manual.md
-          - name: "serverpreview:NTService"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-ntservice-manual.md
-          - name: "serverpreview:ServiceDependencies"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-servicedependencies-manual.md
-          - name: "serverpreview:ServiceDependency"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-servicedependency-manual.md
-          - name: "serverpreview:ServiceParameters"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-serviceparameters-manual.md
-          - name: "serverpreview:ServiceParameterDword"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-serviceparameterdword-manual.md
-          - name: "serverpreview:ServiceParameterString"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-serviceparameterstring-manual.md
-          - name: "serverpreview:ServiceParameterKey"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-serviceparameterkey-manual.md
-          - name: "serverpreview:WmiProviders"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-wmiproviders-manual.md
-          - name: "serverpreview:WmiProvider"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-wmiprovider-manual.md
-          - name: "serverpreview:Mof"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-mof-manual.md
-          - name: "serverpreview:PerformanceProviders"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-performanceproviders-manual.md
-          - name: "serverpreview:PerformanceProvider"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-performanceprovider-manual.md
-          - name: "serverpreview:EventProviders"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-eventproviders-manual.md
-          - name: "serverpreview:EventProvider"
-            href: schemas/appxpackage/uapmanifestschema/element-serverpreview-eventprovider-manual.md
           - name: "uap:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-uap-extension.md
           - name: "uap:FileTypeAssociation"
@@ -966,6 +984,18 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap10-installedlocationvirtualization.md
           - name: "uap10:UpdateActions"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-UpdateActions.md
+          - name: "virtualization:ExludedDirectories"
+            href: schemas/appxpackage/uapmanifestschema/element-virtualization-excludeddirectories.md
+          - name: "virtualization:ExcludedDirectory"
+            href: schemas/appxpackage/uapmanifestschema/element-virtualization-excludeddirectory.md
+          - name: "virtualization:ExcludedKey"
+            href: schemas/appxpackage/uapmanifestschema/element-virtualization-excludedkey.md
+          - name: "virtualization:ExcludedKeys"
+            href: schemas/appxpackage/uapmanifestschema/element-virtualization-excludedkeys.md
+          - name: "virtualization:FileSystemWriteVirtualization"
+            href: schemas/appxpackage/uapmanifestschema/element-virtualization-filesystemwritevirtualization.md
+          - name: "virtualization:RegistryWriteVirtualization"
+            href: schemas/appxpackage/uapmanifestschema/element-virtualization-registrywritevirtualization.md
           - name: "win32dependencies:ExternalDependency"
             href: schemas/appxpackage/uapmanifestschema/element-win32dependencies-externaldependency.md
           - name: "mobile:Extension"
