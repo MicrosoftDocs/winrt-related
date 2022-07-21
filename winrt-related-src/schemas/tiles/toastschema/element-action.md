@@ -32,7 +32,7 @@ Specifies a button shown in a toast.
     placement? = "contextMenu"
     imageUri? = string
     hint-inputid = string
-    hint-buttonStyle = "success" | "critical"
+    hint-buttonStyle = "Success" | "Critical"
     hint-toolTip = string
 />
 ```
@@ -55,7 +55,7 @@ Specifies a button shown in a toast.
 | placement | When set to "contextMenu", the action becomes a context menu action added to the toast notification's context menu rather than a traditional toast button. | string | No | None |
 | imageUri | The URI of the image source for a toast button icon. These icons are white transparent 16x16 pixel images at 100% scaling and should have no padding included in the image itself. If you choose to provide icons on a toast notification, you must provide icons for ALL of your buttons in the notification, as it transforms the style of your buttons into icon buttons. Use one of the following protocol handlers: <ul><li>http:// or https:// - A web-based image.</li><li>ms-appx:/// - An image included in the app package.</li><li>ms-appdata:///local/ - An image saved to local storage.</li><li>file:/// - A local image. (Supported only for desktop apps. This protocol cannot be used by UWP apps.)</li></ul>| string | No | None |
 | hint-inputId | Set to the Id of an [input](element-input.md) to position button beside the input.  | string | No | None |
-| hint-buttonStyle | The button style. **useButtonStyle** must be set to true in the [toast](element-toast.md) element. <ul><li>"success" - The button is green</li><li>"critical" - The button is red.</li></ul> | string | No | None |
+| hint-buttonStyle | The button style. **useButtonStyle** must be set to true in the [toast](element-toast.md) element. <ul><li>"Success" - The button is green</li><li>"Critical" - The button is red.</li></ul> Note that these values are case-sensitive. | string | No | None |
 | hint-toolTip | The tooltip for a button, if the button has an empty content string. | string | No | None |
 
 ### Child Elements
