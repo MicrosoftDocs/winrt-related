@@ -46,7 +46,7 @@ Specifies the path and processor architecture of a ProxyStub DLL.
 ## Syntax
 ```syntax
 <com2:ProxyStubDll Path                  = A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.
-                   ProcessorArchitecture = A string value, one of the following: x86 or x64 >
+                   ProcessorArchitecture = "x86" | "x64" | "arm" | "arm64" | "x86a64" >
 ```
 
 ## Key
@@ -57,7 +57,7 @@ Specifies the path and processor architecture of a ProxyStub DLL.
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
 | Path | A relative path to the .dll file in the app package. | A string between 1 and 256 characters in length that cannot contain these characters: &lt;, &gt;, :, ", &#124;, ?, or *. | Yes |
-| ProcessorArchitecture | The processor architecture of the ProxyStub registration. | A string value, one of the following: x86 or x64 | No |
+| ProcessorArchitecture | The processor architecture of the ProxyStub registration. | One of the following values: "x86" , "x64" , "arm" , "arm64" , "x86a64" | No |
 
 ## Examples
 
