@@ -87,12 +87,12 @@ None.
 
 ## Remarks
 
-This feature requires that the latest version of the Microsoft App Installer app be installed on the target machine. The app can be obtained from the [Microsoft Store](https://www.microsoft.com/en-us/store/apps/windows).
+This feature requires that Microsoft App Installer version **1.16.12651.0** or later be installed on the target machine. The app can be obtained from the [Microsoft Store](https://www.microsoft.com/en-us/store/apps/windows).
 
 ### Allowed external dependencies
 
 The following table lists the external dependencies that are currently allowed in the **ExternalDependency** element.
-
+ 
 | Package | Name attribute value | Publisher attribute value |
 |---------|----------------|------------------|
 | Webview2 | "Microsoft.WebView2" | "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" |
