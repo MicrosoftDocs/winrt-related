@@ -67,7 +67,7 @@ Declares an extensibility point for the package.
 
 | Child element | Description |
 |-|-|
-| [BackgroundTasks](element-backgroundtasks.md) | Defines an app extensibility point of type **windows.backgroundTasks**. Background tasks run in a dedicated background host; that is, without a UI.
+| [BackgroundTasks](element-backgroundtasks.md) | Defines an app extensibility point of type **windows.backgroundTasks**. Background tasks run in a dedicated background host; that is, without a UI. |
 
 ### Parent elements
 
@@ -99,5 +99,5 @@ The **windows.certificates** extensibility point can't be declared multiple time
 
 | Namespace |
 |-|
-| `http://schemas.microsoft.com/appx/manifest/foundation/windows10`
+| `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
 | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` (for **uap10** attributes) |
