@@ -67,6 +67,7 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
   & desktop2:DesktopPreviewHandler?
   & desktop2:DesktopPropertyHandler?
   & desktop3:PropertyLists?
+  & desktop7:Logo?
   )
 
 </uap:FileTypeAssociation>
@@ -102,7 +103,7 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 <tbody>
 <tr class="odd">
 <td><strong>DesiredView</strong></td>
-<td><p>The desired amount of screen space to use when the appointment launches.</p></td>
+<td><p>The desired amount of screen space to use when the app launches. This view mode preference is a requested value only. The preferred size that you specify is not guaranteed to be honored by Windows, so you should not write code that relies on never getting into a size that is smaller than the preferred minimum size or larger than the preferred maximum size.</p></td>
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li>default</li>
@@ -130,7 +131,7 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 </tr>
 <tr class="even">
 <td><strong>desktop2:UseUrl</strong></td>
-<td><p>If set to true, the file will be opened with the URL path directly.</p></td>
+<td><p>If set to true, specifies that the application can accept a URL, instead of a file name, on the command line. Applications that can open documents directly from the internet, like web browsers and media players, should use this value. When <strong>ShellExecuteEx</strong> starts an application and this value is set to false, the default behavior, <strong>ShellExecuteEx</strong> downloads the document to a local file and invokes the handler on the local copy.</p></td>
 <td>Boolean.</td>
 <td>No</td>
 <td></td>
@@ -215,6 +216,10 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 <td><a href="element-desktop3-propertylists.md">desktop3:PropertyLists</a> </td>
 <td><p>Contains a list of properties to show under the properties tab of a file.
 </p></td>
+</tr>
+<tr class="odd">
+<td><a href="element-desktop7-logo.md">desktop7:Logo</a> </td>
+<td><p>A path to a file that contains an image. Adds support for .ico file extensions.</p></td>
 </tr>
 </tbody>
 </table>

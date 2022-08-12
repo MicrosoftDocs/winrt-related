@@ -192,6 +192,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [desktop7:Extension (child of Application)](element-desktop7-extension.md)| Declares an extensibility point for the app (in Package/Applications; desktop7:Extension).|
 | [desktop7:Extension (child of Package)](element-desktop7-package-extension.md)| Declares an extensibility point for the app (in Package/Extensions; desktop7:Extension).|
 | [desktop7:InfoTip](element-desktop7-infotip.md)| Specifies the Infotip string to show when the mouse hovers over the item’s icon.|
+| [desktop7:Logo](element-desktop7-logo.md)| A path to a file that contains an image.|
 | [desktop7:LocalizedString](element-desktop7-localizedstring.md)| Specifies the localized string to show for this item in the Control Panel.|
 | [desktop7:MailProvider](element-desktop7-mailprovider.md)| Registers a dll as a mail provider.|
 | [desktop7:RuntimeExceptionHelperModule](element-desktop7-runtimeexceptionhelpermodule.md)| Specifies a module that will be launched in the event of a runtime exception.|
