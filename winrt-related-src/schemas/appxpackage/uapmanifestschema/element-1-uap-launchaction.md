@@ -26,9 +26,10 @@ Describes an AutoPlay device action.
 
 ```xml
 <LaunchAction
-  Verb = A string between 1 and 64 characters in length that consists of alphanumeric, period, dash, and space characters only.
-  ActionDisplayName = A string between 1 and 256 characters in length. This string is localizable. 
-  DeviceEvent = A string between 1 and 255 characters in length. Backward slashes ('\') are not allowed.
+  Verb = 'A string between 1 and 64 characters in length that consists of letters, periods, dashes, and spaces only.'
+  ActionDisplayName = 'A string between 1 and 256 characters in length. This string is localizable.' 
+  DeviceEvent = 'A string between 1 and 255 characters in length. Backward slashes ('\') are not allowed.'
+  Verb = 'A string with a value between 1 and 64 characters in length that consists of letters, periods, dashes, and spaces only.'
 />
 ```
 
