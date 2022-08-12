@@ -3,30 +3,25 @@ description: Defines one or more extensibility points for the app (Windows 10) 
 Search.Product: eADQiWindows 10XVcnh
 title: Extensions (in Application) (Windows 10)
 ms.assetid: 267051e3-b09c-467c-b5bd-4575cc31cb36
-
 keywords: windows 10, uwp, schema, package manifest
-
 ms.topic: reference
 ms.date: 04/05/2017
 ---
 
 # Extensions (in Application) (Windows 10)
 
-
 Defines one or more extensibility points for the app.
 
 ## Element hierarchy
 
-[ <  Package  > ](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < Applications > ](element-applications.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < Application > ](element-application.md)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**< Extensions >**
+> [\<Package\>](element-package.md)
+> > [\<Applications\>](element-applications.md)
+> > > [\<Application\>](element-application.md)
+> > > > **\<Extensions\>**
 
 ## Syntax
 
-``` syntax
+```xml
 <Extensions>
 
   <!-- Child elements -->
@@ -61,8 +56,8 @@ Defines one or more extensibility points for the app.
 ### Key
 
 `{}`   specific range of occurrences
-## Attributes and Elements
 
+## Attributes and Elements
 
 ### Attributes
 
@@ -97,7 +92,6 @@ None.
 | [uap12:Extension](element-uap12-extension.md) | Declares an extensibility point for the package. |
 | [uap13:Extension](element-uap13-extension.md) | Declares an extensibility point for the package. |
 
-
 ### Parent Elements
 
 | Parent Element | Description |
@@ -106,10 +100,9 @@ None.
 
 ## Related elements
 
-
 The following elements have the same name as this one, but different content or attributes:
 
--   **[Extensions (type: CT_PackageExtensions)](element-extensions.md)**
+- **[Extensions (type: CT_PackageExtensions)](element-extensions.md)**
 
 ## Remarks
 
