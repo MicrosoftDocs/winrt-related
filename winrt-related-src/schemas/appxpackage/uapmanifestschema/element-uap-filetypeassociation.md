@@ -67,6 +67,7 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
   & desktop2:DesktopPreviewHandler?
   & desktop2:DesktopPropertyHandler?
   & desktop3:PropertyLists?
+  & desktop7:Logo?
   )
 
 </uap:FileTypeAssociation>
@@ -215,6 +216,10 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 <td><a href="element-desktop3-propertylists.md">desktop3:PropertyLists</a> </td>
 <td><p>Contains a list of properties to show under the properties tab of a file.
 </p></td>
+</tr>
+<tr class="odd">
+<td><a href="element-desktop7-logo.md">desktop7:Logo</a> </td>
+<td><p>A path to a file that contains an image. Adds support for .ico file extensions.</p></td>
 </tr>
 </tbody>
 </table>
