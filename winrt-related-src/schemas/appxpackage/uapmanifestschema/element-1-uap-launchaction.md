@@ -8,7 +8,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# uap:LaunchAction (in uap:AutoPlayDevice) (Windows 10)
+# uap:LaunchAction (uap:AutoPlayDevice) (Windows 10)
 
 Describes an AutoPlay device action.
 
@@ -57,7 +57,7 @@ None.
 The following elements have the same name as this one, but different content or attributes:
 
 - **[uap:LaunchAction (type: *CT_AutoPlayContent*)](element-uap-launchaction.md)**
-- **[uap:LaunchAction (global)](element-2-uap-launchaction.md)**
+- **[uap:LaunchAction (*global*)](element-2-uap-launchaction.md)**
 
 ## Remarks
 
