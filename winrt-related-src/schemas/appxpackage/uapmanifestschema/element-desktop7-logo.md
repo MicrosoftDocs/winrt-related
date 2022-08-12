@@ -8,7 +8,7 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 ms.custom: 19H1
 ---
 
-# desktop7:InfoTip
+# desktop7:Logo
 
 ## Description
 A path to a file that contains an image.
