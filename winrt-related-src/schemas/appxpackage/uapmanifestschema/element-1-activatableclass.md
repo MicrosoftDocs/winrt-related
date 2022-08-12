@@ -36,7 +36,7 @@ Declares a runtime class associated with the extensibility point.
 
 `{}`   specific range of occurrences
 
-## Attributes and Elements
+## Attributes and elements
 
 ### Attributes
 
@@ -44,13 +44,13 @@ Declares a runtime class associated with the extensibility point.
 |-|-|-|-|-|
 | ActivatableClassId | The identifier of the runtime class in the operating system. | A string with a value between 1 and 255 characters in length that cannot start or end with a period or contain these characters: `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, or `*`. | Yes |  |
 
-### Child Elements
+### Child elements
 
 | Child element | Description |
 |-|-|
 | [ActivatableClassAttribute](element-1-activatableclassattribute.md) | Defines an attribute of the class that is stored in the Windows Runtime property store. |
 
-### Parent Elements
+### Parent elements
 
 | Parent element | Description |
 |-|-|

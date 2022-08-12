@@ -31,21 +31,21 @@ Defines an attribute of the class that is stored in the Windows Runtime property
 />
 ```
 
-## Attributes and Elements
+## Attributes and elements
 
 ### Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
 | Name | The name of the attribute. | An alphanumeric string with a value between 1 and 255 characters in length. Must begin with a letter. | Yes |  |
-| Type | The type of the attribute. | One of the following values: *string* or *integer* | Yes |  |
+| Type | The type of the attribute. | One of the following values: `string` or `integer` | Yes |  |
 | Value | The value of the attribute. | A string with a value between 1 and 255 characters in length. | Yes |  |
 
-### Child Elements
+### Child elements
 
 None.
 
-### Parent Elements
+### Parent elements
 
 | Parent element | Description |
 |-|-|
