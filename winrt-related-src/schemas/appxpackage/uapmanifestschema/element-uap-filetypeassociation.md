@@ -103,7 +103,7 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 <tbody>
 <tr class="odd">
 <td><strong>DesiredView</strong></td>
-<td><p>The desired amount of screen space to use when the app launches.</p></td>
+<td><p>The desired amount of screen space to use when the app launches. These view mode preference are requested values only. The preferred size that you specify is not guaranteed to be honored by Windows, so you should not write code that relies on never getting into a size that is smaller than the preferred minimum size or larger than the preferred maximum size.</p></td>
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li>default</li>
