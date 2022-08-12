@@ -131,7 +131,7 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 </tr>
 <tr class="even">
 <td><strong>desktop2:UseUrl</strong></td>
-<td><p>If set to true, specifies that the application can accept a URL, instead of a file name, on the command line. Applications that can open documents directly from the internet, like web browsers and media players, should use this value. When **ShellExecuteEx** starts an application and this value is set to false, the default behavior, **ShellExecuteEx** downloads the document to a local file and invokes the handler on the local copy.</p></td>
+<td><p>If set to true, specifies that the application can accept a URL, instead of a file name, on the command line. Applications that can open documents directly from the internet, like web browsers and media players, should use this value. When <strong>ShellExecuteEx</strong> starts an application and this value is set to false, the default behavior, <strong>ShellExecuteEx</strong> downloads the document to a local file and invokes the handler on the local copy.</p></td>
 <td>Boolean.</td>
 <td>No</td>
 <td></td>
