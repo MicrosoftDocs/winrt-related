@@ -27,11 +27,11 @@ A path to a file that contains an image.
 <dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
 <dd>
 <dl>
-<dt><a href="element-desktop7-extension.md">&lt;desktop7:Extension&gt;</a></dt>
+<dt><a href="element-uap-extension.md">&lt;uap:Extension&gt;</a></dt>
 <dd>
 <dl>
-<dt><a href="element-desktop7-controlpanelitem.md">&lt;desktop7:ControlPanelItem&gt;</a></dt>
-<dd><b>&lt;desktop7:InfoTip&gt;</b></dd>
+<dt><a href="element-uap-filetypeassociation.md">&lt;uap:FileTypeAssociation&gt;</a></dt>
+<dd><b>&lt;desktop7:Logo&gt;</b></dd>
 </dl>
 </dd>
 </dl>
