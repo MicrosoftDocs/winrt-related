@@ -642,6 +642,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-infotip.md
           - name: "desktop7:LocalizedString"
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-localizedstring.md
+          - name: "desktop7:Logo"
+            href: schemas/appxpackage/uapmanifestschema/element-desktop7-logo.md
           - name: "desktop7:MailProvider"
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-mailprovider.md
           - name: "desktop7:RuntimeExceptionHelperModule"

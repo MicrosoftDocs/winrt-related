@@ -36,11 +36,7 @@ A path to a file that contains an image.
 <dd>
 <dl>
 <dt><a href="element-uap-filetypeassociation.md">&lt;uap:FileTypeAssociation&gt;</a></dt>
-<dd><b>&lt;uap:Logo&gt;</b></dd>
-</dl>
-<dl>
-<dt><a href="element-uap-protocol.md">&lt;uap:Protocol&gt;</a></dt>
-<dd><b>&lt;uap:Logo&gt;</b></dd>
+<dd><b>&lt;desktop7:Logo&gt;</b></dd>
 </dl>
 </dd>
 </dl>
@@ -58,7 +54,7 @@ A path to a file that contains an image.
 ``` syntax
 <Logo>
 
-  A string between 1 and 256 characters in length that ends with ".jpg", ".png", or ".jpeg" that can't contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters can't be the first or last characters. Also, the string can contain / or \ but not both.
+  A string between 1 and 256 characters in length that ends with ".jpg", ".png", ".jpeg", or ".ico" that can't contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters can't be the first or last characters. Also, the string can contain / or \ but not both.
 
 </uap:Logo>
 ```
@@ -91,10 +87,6 @@ None.
 <tr class="odd">
 <td><a href="element-uap-filetypeassociation.md">uap:FileTypeAssociation</a> </td>
 <td><p>Declares an app extensibility point of type <strong>windows.fileTypeAssociation</strong>. A file type association indicates that the app is registered to handle files of the specified types.</p></td>
-</tr>
-<tr class="even">
-<td><a href="element-uap-protocol.md">uap:Protocol</a> </td>
-<td><p>Declares an app extensibility point of type <strong>windows.protocol</strong>. A URI association indicates that the app is registered to handle URIs with the specified scheme.</p></td>
 </tr>
 </tbody>
 </table>
