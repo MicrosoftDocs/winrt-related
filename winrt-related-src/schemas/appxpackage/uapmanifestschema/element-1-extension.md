@@ -88,7 +88,7 @@ Extensibility points are a mechanism by which a package can add functionality in
 The **windows.certificates** extensibility point can't be declared multiple times in a manifest.
 
 > [!NOTE]
-> Either the **EntryPoint** or **StartPage** attribute is required if the **Category** attribute is windows.UpdateTask or windows.preInstalledConfigTask for versions of Windows 10 before Windows 10, version 1607. Starting with Windows 10, version 1607, you no longer need to specify a value for **EntryPoint** or **StartPage** when **Category** is windows.UpdateTask or windows.preInstalledConfigTask and your application targets only devices that run Windows 10, version 1607 or later.
+> Either the **EntryPoint** or **StartPage** attribute is required if the **Category** attribute is `windows.UpdateTask` or `windows.preInstalledConfigTask` for versions of Windows 10 before Windows 10, version 1607. Starting with Windows 10, version 1607, you no longer need to specify a value for **EntryPoint** or **StartPage** when **Category** is windows.Use **UpdateTask** or `windows.preInstalledConfigTask` to target only devices that run Windows 10, version 1607 or later.
 
 ## See also
 

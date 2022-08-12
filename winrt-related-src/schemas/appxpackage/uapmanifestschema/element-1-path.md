@@ -17,7 +17,7 @@ The path to the executable.
 > [\<Package\>](element-package.md)
 > > [\<Extensions\>](element-extensions.md)
 > > > [\<Extension\>](element-extension.md)
-> > > > [\<OutOfProcessServer](element-outofprocessserver.md)
+> > > > [\<OutOfProcessServer\>](element-outofprocessserver.md)
 > > > > > **\<Path\>**
 
 ## Syntax
@@ -42,7 +42,7 @@ None.
 
 | Parent elements | Description |
 |-|-|
-| OutOfProcessServer | Declares a package extension point of type **windows.activatableClass.outOfProcessServer**. The app uses an executable (`.exe`) that exposes one or more activatable classes. |
+| [OutOfProcessServer](element-outofprocessserver.md) | Declares a package extension point of type **windows.activatableClass.outOfProcessServer**. The app uses an executable (`.exe`) that exposes one or more activatable classes. |
 
 ## Related elements
 

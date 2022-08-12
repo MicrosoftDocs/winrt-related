@@ -15,9 +15,9 @@ Defines one or more extensibility points for the app.
 ## Element hierarchy
 
 > [\<Package\>](element-package.md)
-> > [<\Applications\>](element-applications.md)
+> > [\<Applications\>](element-applications.md)
 > > > [\<Application\>](element-application.md)
-> > > > **< Extensions >**
+> > > > **\<Extensions\>**
 
 ## Syntax
 
