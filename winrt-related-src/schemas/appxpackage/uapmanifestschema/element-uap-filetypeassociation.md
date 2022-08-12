@@ -103,7 +103,7 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 <tbody>
 <tr class="odd">
 <td><strong>DesiredView</strong></td>
-<td><p>The desired amount of screen space to use when the appointment launches.</p></td>
+<td><p>The desired amount of screen space to use when the app launches.</p></td>
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li>default</li>
