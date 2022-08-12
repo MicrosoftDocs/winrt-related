@@ -48,8 +48,8 @@ A path to a file that contains an image.
 ## Syntax
 
 ```xml
-<desktop7:InfoTip ResourceId   = A string between 1 and 30 characters in length that consists of alpha-numeric, period, and dash characters. >
-</desktop7:InfoTip>
+<desktop7:Logo ResourceId   = A string between 1 and 30 characters in length that consists of alpha-numeric, period, and dash characters. >
+</desktop7:Logo>
 ```
 
 
