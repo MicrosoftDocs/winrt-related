@@ -3,69 +3,35 @@ description: Defines the file types that the app can share (in uap:ShareTarget).
 Search.Product: eADQiWindows 10XVcnh
 title: uap:SupportedFileTypes (in uap:ShareTarget) (Windows 10)
 ms.assetid: 2161f39d-f31f-4ab5-81cc-da46126808a5
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 04/05/2017
 ---
 
 # uap:SupportedFileTypes (in uap:ShareTarget) (Windows 10)
 
-
 Defines the file types that the app can share.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap-extension.md">&lt;uap:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap-sharetarget.md">&lt;uap:ShareTarget&gt;</a></dt>
-<dd><b>&lt;uap:SupportedFileTypes&gt;</b></dd>
-</dl>
-<dl>
-<dt><a href="element-uap-fileopenpicker.md">&lt;uap:FileOpenPicker&gt;</a></dt>
-<dd><b>&lt;uap:SupportedFileTypes&gt;</b></dd>
-</dl>
-<dl>
-<dt><a href="element-uap-filesavepicker.md">&lt;uap:FileSavePicker&gt;</a></dt>
-<dd><b>&lt;uap:SupportedFileTypes&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+> [\<Package\>](element-package.md)
+> > [\<Applications\>](element-applications.md)
+> > > [\<Application\>](element-application.md)
+> > > > [\<Extensions\>](element-extensions.md)
+> > > > > [\<uap:Extension\>](element-uap-extension.md)
+> > > > > > [\<uap:ShareTarget\>](element-uap-sharetarget.md)
+> > > > > > [\<uap:FileOpenPicker\>](element-uap-fileopenpicker.md)
+> > > > > > [\<uap:FileSavePicker\>](element-uap-filesavepicker.md)
+> > > > > > > **\<uap:SupportedFileTypes\>**
 
 ## Syntax
 
-``` syntax
-<SupportedFileTypes>
+```xml
+<uap:SupportedFileTypes>
 
   <!-- Child elements -->
-  ( uap:FileType{1,10000}
-  | uap:SupportsAnyFileType
-  )
+  uap:FileType{1,10000}
+  uap:SupportsAnyFileType
 
 </uap:SupportedFileTypes>
 ```
@@ -73,81 +39,37 @@ Defines the file types that the app can share.
 ### Key
 
 `{}`   specific range of occurrences
-## Attributes and Elements
 
+## Attributes and elements
 
 ### Attributes
 
 None.
 
-### Child Elements
+### Child elements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Child Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-1-uap-filetype.md">uap:FileType (type: ST_FileType)</a> </td>
-<td><p>A file type specified as its file type extension. It is unique per application in the package and is case sensitive.</p></td>
-</tr>
-<tr class="even">
-<td><a href="element-uap-supportsanyfiletype.md">uap:SupportsAnyFileType</a> </td>
-<td><p>Indicates whether all file types are supported for sharing.</p></td>
-</tr>
-</tbody>
-</table>
+| Child element | Description |
+|-|-|
+| [uap:FileType (type: *ST_FileType*)](element-1-uap-filetype.md) | A file type specified as a file type extension. It's case sensitive and unique per application in the package. |
+| [uap:SupportsAnyFileType](element-uap-supportsanyfiletype.md) | Indicates whether or not all file types are supported for sharing. |
 
- 
+### Parent elements
 
-### Parent Elements
-
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-uap-fileopenpicker.md">uap:FileOpenPicker</a> </td>
-<td><p>Declares an app extensibility point of type <strong>windows.fileOpenPicker</strong>. The app lets the user choose and open the specified types of files.</p></td>
-</tr>
-<tr class="even">
-<td><a href="element-uap-filesavepicker.md">uap:FileSavePicker</a> </td>
-<td><p>Declares an app extensibility point of type <strong>windows.fileSavePicker</strong>. The app lets the user choose the file name, extension, and storage location for the specified types of files.</p></td>
-</tr>
-<tr class="odd">
-<td><a href="element-uap-sharetarget.md">uap:ShareTarget</a> </td>
-<td><p>Declares an app extension point of type <strong>windows.shareTarget</strong>. The app can share the specified types of files.</p></td>
-</tr>
-</tbody>
-</table>
-
- 
+| Parent element | Description |
+|-|-|
+| [uap:ShareTarget](element-uap-sharetarget.md) | Declares an app extension point of type **windows.shareTarget**. The app can share the specified types of files. |
+| [uap:FileOpenPicker](element-uap-fileopenpicker.md) | Declares an app extensibility point of type **windows.fileOpenPicker**. The app lets the user choose and open the specified types of files. |
+| [uap:FileSavePicker](element-uap-filesavepicker.md) | Declares an app extensibility point of type **windows.fileSavePicker**. The app lets the user choose the file name, extension, and storage location for the specified types of files. |
 
 ## Related elements
 
-
 The following elements have the same name as this one, but different content or attributes:
 
--   **[uap:SupportedFileTypes (type: CT_FTASupportedFileTypes)](element-uap-supportedfiletypes.md)**
+- **[uap:SupportedFileTypes (type: *CT_FTASupportedFileTypes*)](element-uap-supportedfiletypes.md)**
 
 ## Examples
 
-```XAML
+```xml
 <uap:SupportedFileTypes>
   <uap:FileType>.txt</uap:FileType>
   <uap:FileType>.docx</uap:FileType>
@@ -158,12 +80,4 @@ The following elements have the same name as this one, but different content or 
 
 | Item  | Value  |
 |--|--|
-| Namespace | `	http://schemas.microsoft.com/appx/manifest/uap/windows10` |
-
-
- 
-
- 
-
-
-
+| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
