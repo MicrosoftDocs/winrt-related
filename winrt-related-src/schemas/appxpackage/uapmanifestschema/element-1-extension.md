@@ -14,11 +14,15 @@ Declares an extensibility point for the package.
 
 ## Element hierarchy
 
-> [\<Package\>](element-package.md)
-> > [\<Applications\>](element-applications.md)
-> > > [\<Application\>](element-application.md)
-> > > > [\<Extensions\>](element-1-extensions.md)
-> > > > > **\<Extension\>**
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<Extension\>**
 
 ## Syntax
 
