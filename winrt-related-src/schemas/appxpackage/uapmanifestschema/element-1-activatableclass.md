@@ -14,11 +14,15 @@ Declares a runtime class associated with the extensibility point.
 
 ## Element hierarchy
 
-> [\<Package\>](element-package.md)
-> > [\<Extensions\>](element-extensions.md)
-> > > [\<Extension\>](element-extension.md)
-> > > > [\<OutOfProcessServer\>](element-outofprocessserver.md)
-> > > > > **\<ActivatableClass\>**
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extension\>](element-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<OutOfProcessServer\>](element-outofprocessserver.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<ActivatableClass\>**
 
 ## Syntax
 
