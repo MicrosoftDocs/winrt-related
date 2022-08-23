@@ -14,11 +14,62 @@ Declares a runtime class associated with the extensibility point.
 
 ## Element hierarchy
 
-> [\<Package\>](element-package.md)
-> > [\<Extensions\>](element-extensions.md)
-> > > [\<Extension\>](element-extension.md)
-> > > > [\<OutOfProcessServer\>](element-outofprocessserver.md)
-> > > > > **\<ActivatableClass\>**
+:::row:::
+  :::column span="1":::
+  [\<Package\>](element-package.md)
+  :::column-end:::
+  :::column span="7":::
+  <!--blank-->
+  :::column-end:::
+:::row-end:::
+
+:::row:::
+  :::column span="1":::
+  <!--blank-->
+  :::column-end:::
+  :::column span="1":::
+  [\<Extensions\>](element-extensions.md)
+  :::column-end:::
+  :::column span="6":::
+  <!--blank-->
+  :::column-end:::
+:::row-end:::
+
+:::row:::
+  :::column span="2":::
+  <!--blank-->
+  :::column-end:::
+  :::column span="1":::
+  [\<Extension\>](element-extension.md)
+  :::column-end:::
+  :::column span="5":::
+  <!--blank-->
+  :::column-end:::
+:::row-end:::
+
+:::row:::
+  :::column span="3":::
+  <!--blank-->
+  :::column-end:::
+  :::column span="1":::
+  [\<OutOfProcessServer\>](element-outofprocessserver.md)
+  :::column-end:::
+  :::column span="4":::
+  <!--blank-->
+  :::column-end:::
+:::row-end:::
+
+:::row:::
+  :::column span="4":::
+  <!--blank-->
+  :::column-end:::
+  :::column span="1":::
+  **\<ActivatableClass\>**
+  :::column-end:::
+  :::column span="3":::
+  <!--blank-->
+  :::column-end:::
+:::row-end:::
 
 ## Syntax
 
