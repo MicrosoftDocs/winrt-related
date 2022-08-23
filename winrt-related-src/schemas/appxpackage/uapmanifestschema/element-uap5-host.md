@@ -53,14 +53,11 @@ Represents a valid HTTP or HTTPS host name with a wildcard that the app wants to
 
 ## Attributes and Elements
 
-
 **Attributes**
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
-| **Name**  | A wildcard with a domain name of the web site associated with the app. | A wildcard and a period (*.) followed an alphanumeric domain name string. | Yes  |    
-
- 
+| **Name**  | A wildcard with a domain name of the web site associated with the app. | A wildcard and a period (*.) followed an alphanumeric domain name string. | Yes  |
 
 **Child Elements**
 
@@ -72,12 +69,11 @@ None.
 |----------------|-------------|
 | [**uap3:AppUriHandler**](element-uap3-appurihandler-manual.md) | Declares an app extensibility point of type **windows.appUriHandler**. |
 
- 
-
 ## Examples
-In this example, *.microsoft.com can handled as: docs.microsoft.com, developer.microsoft.com, foo.microsoft.com, etc.
 
-```XML
+In this example, `*.microsoft.com` can handled as: `docs.microsoft.com`, `developer.microsoft.com`, `foo.microsoft.com`, etc.
+
+```xml
 <Package ...
          xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3"  
          xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5"  
@@ -98,6 +94,6 @@ In this example, *.microsoft.com can handled as: docs.microsoft.com, developer.m
 
 ## Requirements
 
-|               | Value                                                       |
-|---------------|-------------------------------------------------------------|
+|               | Value                                                        |
+|---------------|--------------------------------------------------------------|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
