@@ -34,17 +34,17 @@ The path to the DLL.
 </Path>
 ```
 
-## Attributes and Elements
+## Attributes and elements
 
 ### Attributes
 
 None.
 
-### Child Elements
+### Child elements
 
 None.
 
-### Parent Elements
+### Parent elements
 
 | Parent element | Description |
 |-|-|
