@@ -75,21 +75,21 @@ None.
 
 The following elements have the same name as this one, but different content or attributes:
 
-- **[uap:LaunchAction (in type: CT_AutoPlayContent)](element-uap-launchaction.md)**
-- **[uap:LaunchAction (in type: CT_AutoPlayDevice)](element-1-uap-launchaction.md)**
+- **[uap:LaunchAction (in type: *CT_AutoPlayContent*)](element-uap-launchaction.md)**
+- **[uap:LaunchAction (in type: *CT_AutoPlayDevice*)](element-1-uap-launchaction.md)**
 
 ## Remarks
 
 For more info about launch actions that an appointments provider takes, see [**AppointmentsProviderLaunchActionVerbs**](/uwp/api/Windows.ApplicationModel.Appointments.AppointmentsProvider.AppointmentsProviderLaunchActionVerbs).
 
-**LaunchAction (in AppointmentsProviderLaunchActions)** has these semantic validations:
+**LaunchAction (in *AppointmentsProviderLaunchActions*)** has these semantic validations:
 
 - [**Extension**](../appxmanifestschema2010-v2/element-extension.md) base attributes must follow these rules:
 
   - If the **StartPage** attribute is specified, fail if the **EntryPoint**, **Executable**, or **RuntimeType** attribute is specified.
   - Otherwise, fail if the **Executable** or **RuntimeType** attribute is specified without an **EntryPoint** specified.
 
-- If **LaunchAction (in AppointmentsProviderLaunchActions)** defines the **EntryPoint** attribute, either this **LaunchAction (in AppointmentsProviderLaunchActions)** or the parent [**uap:Extension**](element-uap-extension.md) or [**Application**](element-application.md) element must specify an **Executable** attribute.
+- If **LaunchAction (in *AppointmentsProviderLaunchActions*)** defines the **EntryPoint** attribute, either this **LaunchAction (in *AppointmentsProviderLaunchActions*)** or the parent [**uap:Extension**](element-uap-extension.md) or [**Application**](element-application.md) element must specify an **Executable** attribute.
 
 ## Requirements
 
