@@ -43,13 +43,25 @@ Declares a package extension point of type **windows.comInterface**. The comInte
 
 `{}`   specific range of occurrences
 
-## Child Elements
+## Attributes and elements
 
-| Child Element | Description |
+### Attributes
+
+None.
+
+### Child elements
+
+| Child element | Description |
 |---------------|-------------|
 | [ProxyStub](element-com-proxystub.md) | Registers a proxy stub. |
 | [Interface](element-com-interface.md) | Registers new COM Interfaces. |
 | [TypeLib](element-com-typelib.md) | Registers a type library. |
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [com:Extension](element-com-extension.md) | Provides functionality to expose COM registrations to clients outside of the app package. |
 
 ## Remarks
 
