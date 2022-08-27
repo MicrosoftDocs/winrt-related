@@ -58,7 +58,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [com:ImplementedCategories](element-com-implementedcategories.md) | Specifies categories implemented by the class. |
+| [com:ImplementedCategories](element-com-exe-implementedcategories.md) | Specifies categories implemented by the class. |
 
 ## Requirements
 
