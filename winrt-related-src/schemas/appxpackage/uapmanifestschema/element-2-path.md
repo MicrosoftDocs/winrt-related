@@ -18,7 +18,7 @@ The path to the DLL.
 
 &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extension\>](extension.md)
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extension\>](element-extension.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<InProcessServer\>](element-inprocessserver.md)
 
