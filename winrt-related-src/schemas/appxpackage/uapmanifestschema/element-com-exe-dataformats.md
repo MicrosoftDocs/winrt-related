@@ -52,10 +52,10 @@ Specifies the default and main data formats supported by an application.
 
 ### Attributes
 
-| Attribute | Description | Data type | Required |
+| Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|
-| DefaultFormatName | The string value of the format name. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |
-| DefaultStandardFormat | The hexadecimal value of the format name. | A string in hexadecimal format containing numbers or the letters `a`, `b`, `c`, `d`, `e`, or `f` (capital or lower case). | Yes |
+| DefaultFormatName | The string value of the format name. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
+| DefaultStandardFormat | The hexadecimal value of the format name. | A string in hexadecimal format containing numbers or the letters `a`, `b`, `c`, `d`, `e`, or `f` (capital or lower case). | Yes |  |
 
 ### Child elements
 
