@@ -47,18 +47,20 @@ Specifies the formats an application can read and write.
 
 `?`    optional (zero or one)
 
-## Attributes
+## Attributes and elements
+
+### Attributes
 
 None.
 
-## Child elements
+### Child elements
 
 | Child element | Description |
 |-|-|
 | [Readable](element-com-exe-readable.md) | Specifies that the application can only read files. |
 | [ReadWritable](element-com-exe-readwritable.md) | Specifies that the application can read and write files. |
 
-## Parent elements
+### Parent elements
 
 | Parent element | Description |
 |-|-|
