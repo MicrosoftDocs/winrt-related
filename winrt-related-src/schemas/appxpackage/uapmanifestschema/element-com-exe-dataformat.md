@@ -47,7 +47,7 @@ The data format supported by an application.
 
 ## Attributes and elements
 
-## Attributes
+### Attributes
 
 | Attribute | Description | Data type | Required |
 |-|-|-|-|
@@ -57,11 +57,11 @@ The data format supported by an application.
 | FormatName | The name of the data format. | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
 | StandardFormat | The integer value of the data format. | A string in hexadecimal format containing numbers or the letters `a`, `b`, `c`, `d`, `e`, or `f` (capital or lower case). | No |
 
-## Child elements
+### Child elements
 
 None.
 
-## Parent elements
+### Parent elements
 
 | Parent element | Description |
 |-|-|

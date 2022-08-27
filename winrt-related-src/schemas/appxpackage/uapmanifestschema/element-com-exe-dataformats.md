@@ -50,20 +50,20 @@ Specifies the default and main data formats supported by an application.
 
 ## Attributes and elements
 
-## Attributes
+### Attributes
 
 | Attribute | Description | Data type | Required |
 |-|-|-|-|
 | DefaultFormatName | The string value of the format name. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |
 | DefaultStandardFormat | The hexadecimal value of the format name. | A string in hexadecimal format containing numbers or the letters `a`, `b`, `c`, `d`, `e`, or `f` (capital or lower case). | Yes |
 
-## Child elements
+### Child elements
 
 | Child Element | Description |
 |-|-|
 | [DataFormat](element-com-exe-dataformat.md) | The data format supported by an application. |
 
-## Parent elements
+### Parent elements
 
 | Parent Element | Description |
 |-|-|
