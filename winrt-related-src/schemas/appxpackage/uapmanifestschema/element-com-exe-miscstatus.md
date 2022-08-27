@@ -37,7 +37,7 @@ Specifies how to create and display an object.
 <com:MiscStatus>
 
   <!-- Child elements -->
-  Aspect
+  com:Aspect
 
 </com:MiscStatus>
 ```
