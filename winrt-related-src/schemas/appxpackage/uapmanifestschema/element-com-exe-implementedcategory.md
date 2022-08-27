@@ -11,7 +11,7 @@ keywords: windows 10, uwp, schema, manifest, com
 
 Indicates that the class has implemented the specified category.
 
-## Element Hierarchy
+## Element hierarchy
 
 [\<Package\>](element-package.md)
 

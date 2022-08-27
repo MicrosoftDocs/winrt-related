@@ -59,13 +59,13 @@ Specifies the default and main data formats supported by an application.
 
 ### Child elements
 
-| Child Element | Description |
+| Child element | Description |
 |-|-|
 | [DataFormat](element-com-exe-dataformat.md) | The data format supported by an application. |
 
 ### Parent elements
 
-| Parent Element | Description |
+| Parent element | Description |
 |-|-|
 | [com:Class](element-com-exeserver-class.md) | Defines an ExeServer class registration. |
 
