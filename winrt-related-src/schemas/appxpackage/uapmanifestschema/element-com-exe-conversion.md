@@ -13,7 +13,7 @@ Specifies the formats an application can read and write.
 
 ## Element hierarchy
 
-[Package](element-package.md)
+[\<Package\>](element-package.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
 

@@ -13,7 +13,7 @@ Specifies the desired data or view aspect of the object when drawing or getting 
 
 ## Element hierarchy
 
-[Package](element-package.md)
+[\<Package\>](element-package.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
 

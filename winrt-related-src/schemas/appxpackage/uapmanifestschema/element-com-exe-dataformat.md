@@ -13,7 +13,7 @@ The data format supported by an application.
 
 ## Element hierarchy
 
-[Package](element-package.md)
+[\<Package\>](element-package.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
 

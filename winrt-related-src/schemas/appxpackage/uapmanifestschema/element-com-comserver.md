@@ -13,7 +13,7 @@ Declares a package extension point of type **windows.comServer**. The **comServe
 
 ## Element hierarchy
 
-[Package](element-package.md)
+[\<Package\>](element-package.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
 
