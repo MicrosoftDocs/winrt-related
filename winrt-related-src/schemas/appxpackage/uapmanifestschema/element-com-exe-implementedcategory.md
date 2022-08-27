@@ -47,7 +47,7 @@ Indicates that the class has implemented the specified category.
 ### Attributes
 
 | Attribute | Description | Data type | Required | Default value |
-|-|-|-|-|
+|-|-|-|-|-|
 | Id | The ID of the COM category that is implemented. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
 
 ### Child elements

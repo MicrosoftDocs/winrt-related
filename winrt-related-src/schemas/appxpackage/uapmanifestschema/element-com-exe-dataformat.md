@@ -50,7 +50,7 @@ The data format supported by an application.
 ### Attributes
 
 | Attribute | Description | Data type | Required | Default value |
-|-|-|-|-|
+|-|-|-|-|-|
 | AspectFlag | Represents a [DVASPECT](/windows/win32/api/wtypes/ne-wtypes-dvaspect) enumeration value for the desired data or view aspect. | A string that has one of the following enumeration values: *Content*, *Thumbnail*, *Icon*, or *DocPrint*. | Yes |  |
 | MediumFlag | The type of storage medium used for data transfer. This corresponds to the [TYMED](/windows/win32/api/objidl/ne-objidl-tymed) enumeration. | An integer with a value between 0 and 127. | Yes |  |
 | Direction | This represents the [DATADIR](/windows/win32/api/objidl/ne-objidl-datadir) enumeration which corresponds to the direction of the data flow. | A string that has one of the following enumeration values: *Get*, *Set*, or *GetAndSet*. | Yes |  |

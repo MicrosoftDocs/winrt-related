@@ -48,7 +48,7 @@ Specifies the desired data or view aspect of the object when drawing or getting 
 ### Attributes
 
 | Attribute | Description | Data type | Required | Default value |
-|-|-|-|-|
+|-|-|-|-|-|
 | Type | The string value for the view aspect of the object. | A string that can have one of the following enumeration values: *Content*, *Thumbnail*, *Icon*, or *DocPrint*. | Yes |  |
 | OleMiscFlag | The integer value for the view aspect of the object. | An integer with a value from 0 to 4194303. | Yes |  |
 

@@ -54,7 +54,7 @@ Provides default icon information for iconic presentations of objects.
 ## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
-|-|-|-|-|
+|-|-|-|-|-|
 | Path | The full path to the executable name of the server application. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
 | ResourceIndex | The integer at the end of the path, separated from the path by a comma (for example, `C:\Foo\Bar\Baz.exe,5`). See the *nIconIndex* parameter in [ExtractIcon](/windows/win32/api/shellapi/nf-shellapi-extracticona) for more details. | An integer type. | No |  |
 
