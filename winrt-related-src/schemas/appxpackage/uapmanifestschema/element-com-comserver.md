@@ -11,7 +11,7 @@ keywords: windows 10, uwp, schema, manifest, com
 
 Declares a package extension point of type **windows.comServer**. The **comServer** extension may include four types of registrations: **ExeServer**, **SurrogateServer**, **ProgId**, or **TreatAsClass**.
 
-## Element Hierarchy
+## Element hierarchy
 
 &nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
 
@@ -50,7 +50,7 @@ None.
 ### Child elements
 
 | Child element | Description |
-|---------------|-------------|
+|-|-|
 | [ExeServer](element-com-exeserver.md) | Registers an ExeServer with one or many class registrations. |
 | [SurrogateServer](element-com-surrogateserver.md) | Registers an SurrogateServer with one or many class registrations. |
 | [ProgId](element-com-progid.md) | A programmatic identifier (ProgID) that can be associated with a CLSID. |
@@ -77,6 +77,6 @@ It is possible to have multiple **comServer** extensions under the Applications/
 
 ## Requirements
 
-|               |     Value                                                        |
-|---------------|-------------------------------------------------------------|
+|   | Value  |
+|--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

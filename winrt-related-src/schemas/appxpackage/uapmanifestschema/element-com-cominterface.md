@@ -11,7 +11,7 @@ keywords: windows 10, uwp, schema, manifest, com
 
 Declares a package extension point of type **windows.comInterface**. The comInterface extension may include three types of registrations: *Interface*, *ProxyStub*, or *TypeLib*.
 
-## Element Hierarchy
+## Element hierarchy
 
 [\<Package\>](element-package.md)
 
@@ -52,7 +52,7 @@ None.
 ### Child elements
 
 | Child element | Description |
-|---------------|-------------|
+|-|-|
 | [ProxyStub](element-com-proxystub.md) | Registers a proxy stub. |
 | [Interface](element-com-interface.md) | Registers new COM Interfaces. |
 | [TypeLib](element-com-typelib.md) | Registers a type library. |
@@ -74,6 +74,6 @@ If the extension is under Application/Extensions/Extension, you can improve the 
 
 ## Requirements
 
-|               |     Value                                                        |
-|---------------|-------------------------------------------------------------|
+|   | Value  |
+|--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
