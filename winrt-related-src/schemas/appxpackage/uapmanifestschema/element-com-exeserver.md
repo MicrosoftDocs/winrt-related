@@ -50,8 +50,8 @@ Registers an ExeServer with one or many class registrations.
 
 ### Attributes
 
-| Attribute | Description | Data type | Required |
-|-|-|-|-|
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
 | **Executable** | A path relative to the package root and must reference a file in the package. This specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | A string with a value between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *. | Yes |  |
 | **Arguments** | The arguments of the [LocalServer32](/windows/win32/com/localserver32) key. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
 | **DisplayName** | DisplayName is a localizable string corresponding to the default AppID key value. | A string with a value between 1 and 256 characters in length. | No |  |
