@@ -64,16 +64,16 @@ Defines an ExeServer class registration.
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Id** | The Id attribute corresponds to the CLSID (HKCR\CLSID\{MyGuid}). | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |
-| **DisplayName** | A localizable string corresponding to the default value of the CLSID's key. | An optional string with a value between 1 and 256 characters in length. | No |
-| **EnableOleDefaultHandler** | This should be set to true if the default value of the [InprocHandler32](/windows/win32/com/inprochandler32) key is "Ole32.dll". Otherwise it should be omitted. The default value is false. | An optional boolean value. | No |
-| **ProgId** | Associates a programmatic identifier (ProgID) with a CLSID. | An optional alphanumeric string separated by a period with a value between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1. | No |
-| **VersionIndependentProgId** | Associates a ProgID with a CLSID. This value is used to determine the latest version of an object application. | An optional alphanumeric string separated by a period with a value between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1. | No |
-| **AutoConvertTo** | Specifies the automatic conversion of a given class of objects to a new class of objects. | An optional GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |
-| **InsertableObject** | Indicates that this class is insertable. | An optional boolean value. | No |
-| **ShortDisplayName** | A short version of the class display name. | An optional string with a value between 1 and 40 characters in length. | No |
+| **Id** | The Id attribute corresponds to the CLSID (HKCR\CLSID\{MyGuid}). | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
+| **DisplayName** | A localizable string corresponding to the default value of the CLSID's key. | An optional string with a value between 1 and 256 characters in length. | No |  |
+| **EnableOleDefaultHandler** | This should be set to true if the default value of the [InprocHandler32](/windows/win32/com/inprochandler32) key is "Ole32.dll". Otherwise it should be omitted. The default value is false. | An optional boolean value. | No |  |
+| **ProgId** | Associates a programmatic identifier (ProgID) with a CLSID. | An optional alphanumeric string separated by a period with a value between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1. | No |  |
+| **VersionIndependentProgId** | Associates a ProgID with a CLSID. This value is used to determine the latest version of an object application. | An optional alphanumeric string separated by a period with a value between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1. | No |  |
+| **AutoConvertTo** | Specifies the automatic conversion of a given class of objects to a new class of objects. | An optional GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |  |
+| **InsertableObject** | Indicates that this class is insertable. | An optional boolean value. | No |  |
+| **ShortDisplayName** | A short version of the class display name. | An optional string with a value between 1 and 40 characters in length. | No |  |
 
-## Child elements
+### Child elements
 
 | Child element | Description |
 |-|-|
@@ -84,6 +84,12 @@ Defines an ExeServer class registration.
 | [Verbs](element-com-exe-verbs.md) | Specifies the verbs to be registered for an application. |
 | [DefaultIcon](element-com-exe-defaulticon.md) | Provides default icon information for iconic presentations of objects. |
 | [ToolboxBitmap32](element-com-exe-toolboxbitmap32.md) | Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button. |
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [com:ExeServer](element-com-exeserver.md) | Registers an ExeServer with one or many class registrations. |
 
 ## Remarks
 

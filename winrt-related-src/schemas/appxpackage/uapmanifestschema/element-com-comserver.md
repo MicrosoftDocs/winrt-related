@@ -9,7 +9,7 @@ keywords: windows 10, uwp, schema, manifest, com
 
 # com:ComServer
 
-Declares a package extension point of type **windows.comServer**. The **comServer** extension may include four types of registrations: **ExeServer**, **SurrogateServer**, **ProgId**, or **TreatAsClass**.
+Declares a package extension point of type **windows.comServer**. The **comServer** extension may include four types of registrations: *ExeServer*, *SurrogateServer*, *ProgId*, or *TreatAsClass*.
 
 ## Element hierarchy
 
