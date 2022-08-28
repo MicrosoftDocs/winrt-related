@@ -46,8 +46,8 @@ Identifies the module name and resource ID for a 16 x 16 bitmap to use for the f
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Path** | The path to the bitmap. | A string between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
-| **ResourceId** | The resource ID of the bitmap. | An integer type. | No |  |
+| **Path** | The path to the bitmap. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
+| **ResourceId** | The resource ID of the bitmap. | An optional integer value. | No |  |
 
 ### Child elements
 
