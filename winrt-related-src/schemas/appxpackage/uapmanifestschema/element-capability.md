@@ -33,7 +33,7 @@ Declares a capability required by a package.
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| Name | The name of the capability. | A string that can one of the following values: *internetClient*, *internetClientServer*, *privateNetworkClientServer*, *allJoyn*, or *codeGeneration*. | Yes |  |
+| **Name** | The name of the capability. | A string that can one of the following values: *internetClient*, *internetClientServer*, *privateNetworkClientServer*, *allJoyn*, or *codeGeneration*. | Yes |  |
 
 ### Child elements
 
@@ -51,7 +51,7 @@ The [App capability declarations](/previous-versions/windows/apps/hh464936(v=win
 
 ## Examples
 
-Here's an example of a [**Capabilities**](element-capabilities.md) node.
+Here's an example of a [Capabilities](element-capabilities.md) node.
 
 ```xml
 <Capabilities>

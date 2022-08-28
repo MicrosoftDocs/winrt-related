@@ -52,8 +52,8 @@ Defines an app extensibility point of type **windows.backgroundTasks**. Backgrou
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| ServerName | The server name. Ensures that only one instance of the server exists at runtime. | An alphanumeric string with a value between 1 and 255 characters in length. Must begin with a letter. | No |  |
-| uap4:SupportsMultipleInstances | Supports multiple, separate instances of background tasks. | A boolean value. | No |  |
+| **ServerName** | The server name. Ensures that only one instance of the server exists at runtime. | An alphanumeric string with a value between 1 and 255 characters in length. Must begin with a letter. | No |  |
+| **uap4:SupportsMultipleInstances** | Supports multiple, separate instances of background tasks. | A boolean value. | No |  |
 
 ### Child elements
 
@@ -70,7 +70,7 @@ Defines an app extensibility point of type **windows.backgroundTasks**. Backgrou
 
 ## Remarks
 
-Extensions of type "windows.backgroundTask" must specify either a StartPage or EntryPoint attribute in the Extension element. For more info (and an example) see [Declare background tasks in the application manifest](/windows/uwp/launch-resume/declare-background-tasks-in-the-application-manifest).
+Extensions of type **windows.backgroundTask** must specify either a StartPage or EntryPoint attribute in the Extension element. For more info (and an example) see [Declare background tasks in the application manifest](/windows/uwp/launch-resume/declare-background-tasks-in-the-application-manifest).
 
 ## Requirements
 

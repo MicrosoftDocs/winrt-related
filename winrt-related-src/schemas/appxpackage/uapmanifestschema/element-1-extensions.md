@@ -60,16 +60,16 @@ Defines one or more extensibility points for the app.
 
 `{}`   specific range of occurrences
 
-## Attributes and Elements
+## Attributes and elements
 
 ### Attributes
 
 None.
 
-### Child Elements
+### Child elements
 
-| Child Element | Description |
-|---------------|-------------|
+| Child element | Description |
+|-|-|
 | [Extension (global)](element-1-extension.md) | Declares an extensibility point for the package. |
 | [com:Extension](element-com-extension.md) | Declares an extensibility point for the package. |
 | [com2:Extension](element-com2-extension.md) | Declares an extensibility point for the package. |
@@ -95,9 +95,9 @@ None.
 | [uap12:Extension](element-uap12-extension.md) | Declares an extensibility point for the package. |
 | [uap13:Extension](element-uap13-extension.md) | Declares an extensibility point for the package. |
 
-### Parent Elements
+### Parent elements
 
-| Parent Element | Description |
+| Parent element | Description |
 |---------------|-------------|
 | [Application](element-application.md) | Represents an app that comprises part of or all of the functionality delivered in the package. |
 

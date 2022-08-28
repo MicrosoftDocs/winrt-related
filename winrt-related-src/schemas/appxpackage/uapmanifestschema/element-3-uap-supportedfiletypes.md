@@ -39,7 +39,7 @@ Defines the file types that the app can share.
 ## Syntax
 
 ```xml
-<SupportedFileTypes>
+<uap:SupportedFileTypes>
 
   <!-- Child elements -->
   uap:FileType{1,10000}
@@ -62,7 +62,7 @@ None.
 
 | Child element | Description |
 |-|-|
-| [uap:FileType (type: *ST_FileType*)](element-3-uap-filetype.md) | A file type specified as its file type extension. It is unique per application in the package and is case sensitive. |
+| [uap:FileType (type: ST_FileType)](element-3-uap-filetype.md) | A file type specified as its file type extension. It is unique per application in the package and is case sensitive. |
 | [uap:SupportsAnyFileType](element-2-uap-supportsanyfiletype.md) | Indicates whether all file types are supported for sharing. |
 
 ### Parent elements

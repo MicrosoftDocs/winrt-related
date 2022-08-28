@@ -9,7 +9,7 @@ keywords: windows 10, uwp, schema, manifest, com
 
 # com:ComServer
 
-Declares a package extension point of type **windows.comServer**. The **comServer** extension may include four types of registrations: **ExeServer**, **SurrogateServer**, **ProgId**, or **TreatAsClass**.
+Declares a package extension point of type **windows.comServer**. The **comServer** extension may include four types of registrations: *ExeServer*, *SurrogateServer*, *ProgId*, or *TreatAsClass*.
 
 ## Element hierarchy
 
@@ -28,7 +28,7 @@ Declares a package extension point of type **windows.comServer**. The **comServe
 ## Syntax
 
 ```xml
-<ComServer>
+<com:ComServer>
 
   <!-- Child elements -->
   com:ExeServer{0,1000},
@@ -36,7 +36,7 @@ Declares a package extension point of type **windows.comServer**. The **comServe
   com:ProgId{0,10000},
   com:TreatAsClass{0,10000}
 
-</ComServer>
+</com:ComServer>
 ```
 
 ## Key
@@ -53,10 +53,10 @@ None.
 
 | Child element | Description |
 |-|-|
-| [ExeServer](element-com-exeserver.md) | Registers an ExeServer with one or many class registrations. |
-| [SurrogateServer](element-com-surrogateserver.md) | Registers an SurrogateServer with one or many class registrations. |
-| [ProgId](element-com-progid.md) | A programmatic identifier (ProgID) that can be associated with a CLSID. |
-| [TreatAsClass](element-com-treatasclass.md) | A registration that corresponds to a CLSID registration with the TreatAs subkey. |
+| [com:ExeServer](element-com-exeserver.md) | Registers an ExeServer with one or many class registrations. |
+| [com:SurrogateServer](element-com-surrogateserver.md) | Registers an SurrogateServer with one or many class registrations. |
+| [com:ProgId](element-com-progid.md) | A programmatic identifier (ProgID) that can be associated with a CLSID. |
+| [com:TreatAsClass](element-com-treatasclass.md) | A registration that corresponds to a CLSID registration with the TreatAs subkey. |
 
 ### Parent elements
 
@@ -71,11 +71,9 @@ In multi-application packages, it's important to place the COM server registrati
 COM servers registered in the manifest always get Activate As Package (AAP) behavior, which means the COM server runs with the user session default token with package and application claims added. This is different from the default activation behavior of classically registered COM servers, in which the COM server runs with the client's token. For most applications, this difference will not be noticeable because clients typically run with the user session default token. Other activation behaviors, such as [RunAs]( /windows/win32/com/runas), are not supported.
 
 > [!NOTE]
-> Any registrations in **comServer** that depend on another registration (e.g. a **ProgId** references a **Class**) must be in the same **comServer** extension. 
+> Any registrations in **comServer** that depend on another registration (e.g. a **ProgId** references a **Class**) must be in the same **comServer** extension.
 
 It is possible to have multiple **comServer** extensions under the Applications/Application element, but that is neither necessary nor recommended.
-
-## Examples
 
 ## Requirements
 

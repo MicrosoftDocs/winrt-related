@@ -49,8 +49,8 @@ Specifies the file format an application can read (convert from).
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| FormatName | The file name in string format. | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
-| StandardFormat | The file name in hexadecimal format. | An optional string with a hexadecimal format containing numbers or the letters `a`, `b`, `c`, `d`, `e`, or `f` (capital or lower case). | No |  |
+| **FormatName** | The file name in string format. | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **StandardFormat** | The file name in hexadecimal format. | An optional string with a hexadecimal format containing numbers or the letters `a`, `b`, `c`, `d`, `e`, or `f` (capital or lower case). | No |  |
 
 ### Child elements
 

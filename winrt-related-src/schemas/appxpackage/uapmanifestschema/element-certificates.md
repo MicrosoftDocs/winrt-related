@@ -58,7 +58,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [Extension (in type: *CT_PackageExtensions*)](element-extension.md) | Declares an extensibility point for the package. |
+| [Extension (in type: CT_PackageExtensions)](element-extension.md) | Declares an extensibility point for the package. |
 
 ## See also
 

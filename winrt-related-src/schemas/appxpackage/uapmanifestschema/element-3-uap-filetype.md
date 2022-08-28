@@ -45,8 +45,8 @@ A file type specified as its file type extension. It is unique per application i
 ## Syntax
 
 ```xml
-<FileType>
-  A string between 1 and 64 characters in length that must begin with a period ("."), cannot have additional periods, and cannot contain these characters: <, >, :, ", /, \, |, ?, or *.
+<uap:FileType>
+  <!-- A string between 1 and 64 characters in length that must begin with a period ("."), cannot have additional periods, and cannot contain these characters: <, >, :, ", /, \, |, ?, or *. -->
 </uap:FileType>
 ```
 
@@ -62,13 +62,15 @@ None.
 
 ### Parent elements
 
-| [uap:SupportedFileTypes (type: *CT_CharmsSupportedFileTypes*)](element-3-uap-supportedfiletypes.md) | Defines the file types that the app can share. |
+| Parent element | Description |
+|-|-|
+| [uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes)](element-3-uap-supportedfiletypes.md) | Defines the file types that the app can share. |
 
 ## Related elements
 
 The following elements have the same name as this one, but different content or attributes:
 
-- **[uap:FileType (in type: *CT_FTASupportedFileTypes*)](element-uap-filetype.md)**
+- **[uap:FileType (in type: CT_FTASupportedFileTypes)](element-uap-filetype.md)**
 
 ## Requirements
 

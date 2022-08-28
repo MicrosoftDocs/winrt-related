@@ -29,7 +29,7 @@ Declares a runtime class associated with the extensibility point.
 ```xml
 <ActivatableClass 
   ActivatableClassId = 'A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *.'
-  ThreadingModel = 'A string that can be one of the following values: "both", "STA", or "MTA"' >
+  ThreadingModel = 'A string that can be one of the following values: "both", "STA", or "MTA".' >
 
   <!-- Child elements -->
   ActivatableClassAttribute{0,1000}
@@ -47,17 +47,16 @@ Declares a runtime class associated with the extensibility point.
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| ActivatableClassId | The identifier of the runtime class in the operating system. | A string with a value between 1 and 255 characters in length that cannot start or end with a period (`.`) or contain these characters: `<`, `>`, `:`, `&`, `"`, `/`, `\`, `|`, `?`, or `*`. | Yes |  |
-| ThreadingModel | The type of threading model supported by the runtime class. | A string that can be one of the following values: *both*, *STA*, or *MTA*. | Yes |  |
+| **ActivatableClassId** | The identifier of the runtime class in the operating system. | A string with a value between 1 and 255 characters in length that cannot start or end with a period (`.`) or contain these characters: `<`, `>`, `:`, `&`, `"`, `/`, `\`, `|`, `?`, or `*`. | Yes |  |
+| **ThreadingModel** | The type of threading model supported by the runtime class. | A string that can be one of the following values: *both*, *STA*, or *MTA*. | Yes |  |
 
-### Child Elements
+### Child elements
 
 | Child element | Description |
 |-|-|
 | [ActivatableClassAttribute](element-activatableclassattribute.md) | Defines an attribute of the class that is stored in the Windows Runtime property store. |
 
-### Parent Elements
-
+### Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -67,7 +66,7 @@ Declares a runtime class associated with the extensibility point.
 
 The following elements have the same name as this one, but different content or attributes:
 
-- **[ActivatableClass (type: *CT_OutOfProcessActivatableClass*)](element-1-activatableclass.md)**
+- **[ActivatableClass (type: CT_OutOfProcessActivatableClass)](element-1-activatableclass.md)**
 
 ## Requirements
 

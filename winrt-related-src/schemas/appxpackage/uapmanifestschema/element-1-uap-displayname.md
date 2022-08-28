@@ -34,7 +34,7 @@ A friendly name that can be displayed to users.
 
 ```xml
 <uap:DisplayName>
-  A string between 1 and 256 characters in length. This string is localizable.
+  <!-- A string between 1 and 256 characters in length. This string is localizable. -->
 </uap:DisplayName>
 ```
 

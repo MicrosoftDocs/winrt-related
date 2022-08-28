@@ -37,8 +37,8 @@ Specifies the formats an application can read and write.
 <com:Conversion>
 
   <!-- Child elements -->
-  Readable?,
-  ReadWritable?
+  com:Readable?,
+  com:ReadWritable?
 
 </com:Conversion>
 ```
@@ -57,8 +57,8 @@ None.
 
 | Child element | Description |
 |-|-|
-| [Readable](element-com-exe-readable.md) | Specifies that the application can only read files. |
-| [ReadWritable](element-com-exe-readwritable.md) | Specifies that the application can read and write files. |
+| [com:Readable](element-com-exe-readable.md) | Specifies that the application can only read files. |
+| [com:ReadWritable](element-com-exe-readwritable.md) | Specifies that the application can read and write files. |
 
 ### Parent elements
 

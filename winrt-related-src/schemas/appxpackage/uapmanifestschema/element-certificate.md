@@ -29,7 +29,7 @@ A certificate for use with the package and placed in the system certificate stor
 ```xml
 <Certificate
   StoreName = 'A string with a value between 1 and 50 characters in length that cannot contain these characters: <, >, :, ", /, \, |, ?, or *.'
-  Content = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *. />'
+  Content = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.' />
 ```
 
 ## Attributes and elements
@@ -38,8 +38,8 @@ A certificate for use with the package and placed in the system certificate stor
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| Content | The path to the certificate content to place in the store. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `&`, `"`, `/`, `\`, `|`, `?`, or `*`. | Yes |  |
-| StoreName | The store name in which the certificate should be placed. | A string with a value between 1 and 50 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, or `*`. | Yes |  |
+| **Content** | The path to the certificate content to place in the store. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `&`, `"`, `/`, `\`, `|`, `?`, or `*`. | Yes |  |
+| **StoreName** | The store name in which the certificate should be placed. | A string with a value between 1 and 50 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, or `*`. | Yes |  |
 
 ### Child elements
 

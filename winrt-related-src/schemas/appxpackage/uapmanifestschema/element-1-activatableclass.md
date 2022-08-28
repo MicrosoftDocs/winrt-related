@@ -46,7 +46,7 @@ Declares a runtime class associated with the extensibility point.
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| ActivatableClassId | The identifier of the runtime class in the operating system. | A string with a value between 1 and 255 characters in length that cannot start or end with a period or contain these characters: `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, or `*`. | Yes |  |
+| **ActivatableClassId** | The identifier of the runtime class in the operating system. | A string with a value between 1 and 255 characters in length that cannot start or end with a period or contain these characters: `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, or `*`. | Yes |  |
 
 ### Child elements
 
@@ -58,13 +58,13 @@ Declares a runtime class associated with the extensibility point.
 
 | Parent element | Description |
 |-|-|
-| [OutOfProcessServer](element-outofprocessserver.md) | Declares a package extension point of type **windows.activatableClass.outOfProcessServer**. The app uses an executable (EXE) that exposes one or more activatable classes. |
+| [OutOfProcessServer](element-outofprocessserver.md) | Declares a package extension point of type **windows.activatableClass.outOfProcessServer**. The app uses an executable (`.exe`) that exposes one or more activatable classes. |
 
 ## Related elements
 
 The following elements have the same name as this one, but different content or attributes:
 
-- **[ActivatableClass (*type: CT_InProcessActivatableClass*)](element-activatableclass.md)**
+- **[ActivatableClass (type: CT_InProcessActivatableClass)](element-activatableclass.md)**
 
 ## Requirements
 

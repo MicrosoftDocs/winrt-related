@@ -1,13 +1,9 @@
 ---
-
 ms.assetid: 3c95a0bb-546f-4b73-8194-eb491af54a8b
 title: com:DefaultIcon (in ExeServer/Class)
 description: Provides default icon information for iconic presentations of objects (in ExeServer/Class).
-
 ms.date: 03/29/2017
 ms.topic: reference
-
-
 keywords: windows 10, uwp, schema, manifest, com
 ---
 
@@ -55,8 +51,8 @@ Provides default icon information for iconic presentations of objects.
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| Path | The full path to the executable name of the server application. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
-| ResourceIndex | The integer at the end of the path, separated from the path by a comma (for example, `C:\Foo\Bar\Baz.exe,5`). See the *nIconIndex* parameter in [ExtractIcon](/windows/win32/api/shellapi/nf-shellapi-extracticona) for more details. | An integer type. | No |  |
+| **Path** | The full path to the executable name of the server application. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
+| **ResourceIndex** | The integer at the end of the path, separated from the path by a comma (for example, `C:\Foo\Bar\Baz.exe,5`). See the *nIconIndex* parameter in [ExtractIcon](/windows/win32/api/shellapi/nf-shellapi-extracticona) for more details. | An integer type. | No |  |
 
 ## Child elements
 

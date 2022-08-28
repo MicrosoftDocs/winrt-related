@@ -36,7 +36,7 @@ Specifies the default and main data formats supported by an application.
 ```xml
 <com:DataFormats
   DefaultFormatName = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
-  DefaultStandardFormat = 'A string in hexadecimal format containing numbers or the letters a, b, c, d, e, f (capital or lower case)'. >
+  DefaultStandardFormat = 'A string in hexadecimal format containing numbers or the letters a, b, c, d, e, f (capital or lower case).' >
 
   <!-- Child elements -->
   DataFormat{0,1000}
@@ -54,14 +54,14 @@ Specifies the default and main data formats supported by an application.
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| DefaultFormatName | The string value of the format name. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
-| DefaultStandardFormat | The hexadecimal value of the format name. | A string in hexadecimal format containing numbers or the letters `a`, `b`, `c`, `d`, `e`, or `f` (capital or lower case). | Yes |  |
+| **DefaultFormatName** | The string value of the format name. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
+| **DefaultStandardFormat** | The hexadecimal value of the format name. | A string in hexadecimal format containing numbers or the letters `a`, `b`, `c`, `d`, `e`, or `f` (capital or lower case). | Yes |  |
 
 ### Child elements
 
 | Child element | Description |
 |-|-|
-| [DataFormat](element-com-exe-dataformat.md) | The data format supported by an application. |
+| [com:DataFormat](element-com-exe-dataformat.md) | The data format supported by an application. |
 
 ### Parent elements
 
@@ -74,8 +74,6 @@ Specifies the default and main data formats supported by an application.
 **DefaultFormatName** is the string value, and **DefaultStandardFormat** is the integer value of the supported data formats. These values are mutually exclusive.
 
 This element corresponds to the [DataFormats](/windows/win32/com/dataformats) subkey.
-
-## Examples
 
 ## Requirements
 

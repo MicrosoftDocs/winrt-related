@@ -48,6 +48,8 @@ Specifies that an application can read and write files.
 
 ### Attributes
 
+None.
+
 ### Child elements
 
 | Child element | Description |

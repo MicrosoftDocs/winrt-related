@@ -30,7 +30,7 @@ The path to the DLL.
 
 ```xml
 <Path>
-  A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.
+  <!-- A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *. -->
 </Path>
 ```
 
@@ -55,7 +55,7 @@ None.
 
 The following elements have the same name as this one, but different content or attributes:
 
-- **[Path (*type: ST_Executable*)](element-1-path.md)**
+- **[Path (type: ST_Executable)](element-1-path.md)**
 
 ## Requirements
 

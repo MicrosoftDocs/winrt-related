@@ -28,7 +28,7 @@ Specifies the list of comma-separated arguments to pass to the executable.
 
 ```xml
 <Arguments>
-  A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
+  <!-- A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. -->
 </Arguments>
 ```
 
@@ -46,7 +46,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [OutOfProcessServer](element-outofprocessserver.md) | Declares a package extension point of type **windows.activatableClass.outOfProcessServer**. The app uses an executable (EXE) that exposes one or more activatable classes. |
+| [OutOfProcessServer](element-outofprocessserver.md) | Declares a package extension point of type **windows.activatableClass.outOfProcessServer**. The app uses an executable (`.exe`) that exposes one or more activatable classes. |
 
 ## Requirements
 

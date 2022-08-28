@@ -28,15 +28,14 @@ Declares a package extension point of type **windows.comInterface**. The comInte
 ## Syntax
 
 ```xml
-<ComInterface>
+<com:ComInterface>
 
   <!-- Child elements -->
   com:ProxyStub{0,1000},
   com:Interface{0,10000},
   com:TypeLib{0,1000}
-  
 
-</ComInterface>
+</com:ComInterface>
 ```
 
 ## Key
@@ -53,9 +52,9 @@ None.
 
 | Child element | Description |
 |-|-|
-| [ProxyStub](element-com-proxystub.md) | Registers a proxy stub. |
-| [Interface](element-com-interface.md) | Registers new COM Interfaces. |
-| [TypeLib](element-com-typelib.md) | Registers a type library. |
+| [com:ProxyStub](element-com-proxystub.md) | Registers a proxy stub. |
+| [com:Interface](element-com-interface.md) | Registers new COM Interfaces. |
+| [com:TypeLib](element-com-typelib.md) | Registers a type library. |
 
 ### Parent elements
 

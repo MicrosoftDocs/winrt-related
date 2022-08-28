@@ -56,7 +56,7 @@ None.
 
 | Child element | Description |
 |-|-|
-| [ImplementedCategory](element-com-exe-implementedcategory.md) | Indicates that the class has implemented the specified category. |
+| [com:ImplementedCategory](element-com-exe-implementedcategory.md) | Indicates that the class has implemented the specified category. |
 
 ### Parent elements
 

@@ -53,8 +53,8 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [ActivatableClass (type: *CT_InProcessActivatableClass*)](element-activatableclass.md) | Declares a runtime class associated with the extensibility point. |
-| [ActivatableClass (type: *CT_OutOfProcessActivatableClass*)](element-1-activatableclass.md)] | Declares a runtime class associated with the extensibility point. |
+| [ActivatableClass (type: CT_InProcessActivatableClass)](element-activatableclass.md) | Declares a runtime class associated with the extensibility point. |
+| [ActivatableClass (type: CT_OutOfProcessActivatableClass)](element-1-activatableclass.md)] | Declares a runtime class associated with the extensibility point. |
 
 ## Requirements
 
