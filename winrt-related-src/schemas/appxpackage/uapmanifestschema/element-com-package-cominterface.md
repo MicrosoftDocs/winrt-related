@@ -9,7 +9,7 @@ keywords: windows 10, uwp, schema, manifest, com
 
 # com:ComInterface (in Package/Extensions)
 
-Declares a package extension point of type **windows.comInterface**. The comInterface extension may include three types of registrations: **Interface**, **ProxyStub**, or **TypeLib**.
+Declares a package extension point of type **windows.comInterface**. The comInterface extension may include three types of registrations: *Interface*, *ProxyStub*, or *TypeLib*.
 
 ## Element hierarchy
 

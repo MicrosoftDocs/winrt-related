@@ -53,11 +53,11 @@ Registers new COM Interfaces.
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Id** | An interface Id (IID). | An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1 | Yes |  |
-| **UseUniversalMarshaler** | Set this to true to use the OLE Universal Marshaler as the proxy stub. | Boolean. | No |  |
-| **ProxyStubClsid** | Corresponds to the [ProxyStubClsid32](/windows/win32/com/proxystubclsid32) registry value. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |  |
-| **SynchronousInterface** | The Id of another interface registration containing AsynchronousInterface that references this registration. The other interface must be in the same comInterface extension. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |  |
-| **AsynchronousInterface** | The Id of another interface registration containing SynchronousInterface that references this registration. The other interface must be in the same comInterface extension. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |  |
+| **Id** | An interface Id (IID). | An alphanumeric string separated by a period between 1 and 255 characters in length (for example, Foo.Bar or Foo.Bar.1). | Yes |  |
+| **UseUniversalMarshaler** | Set this to true to use the OLE Universal Marshaler as the proxy stub. | An optional boolean value. | No |  |
+| **ProxyStubClsid** | Corresponds to the [ProxyStubClsid32](/windows/win32/com/proxystubclsid32) registry value. | An optional GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |  |
+| **SynchronousInterface** | The Id of another interface registration containing AsynchronousInterface that references this registration. The other interface must be in the same comInterface extension. | An optional GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |  |
+| **AsynchronousInterface** | The Id of another interface registration containing SynchronousInterface that references this registration. The other interface must be in the same comInterface extension. | An optional GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |  |
 
 ### Child elements
 

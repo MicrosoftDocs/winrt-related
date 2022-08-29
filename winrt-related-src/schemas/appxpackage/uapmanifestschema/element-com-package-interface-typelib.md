@@ -1,70 +1,60 @@
 ---
-
 ms.assetid: 2fb1ff8b-0c47-44b8-b1c3-b814d10685d1
 title: com:TypeLib (in Package/Extensions, child of Interface)
 description: A type library for an interface (in Package/Extensions, child of Interface).
-
 ms.date: 03/29/2017
 ms.topic: reference
-
-
 keywords: windows 10, uwp, schema, manifest, com
 ---
 
-
 # com:TypeLib (in Package/Extensions, child of Interface)
 
-## Description
 A type library for an interface.
 
 ## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extension.md">&lt;Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-package-cominterface.md">&lt;ComInterface&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-package-interface.md">&lt;Interface&gt;</a></dt>
-<dd><b>&lt;TypeLib&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
 
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:Extension\>](element-com-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:ComInterface\>](element-com-cominterface.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:Interface\>](element-com-package-interface.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com:TypeLib\>**
 
 ## Syntax
-```syntax
-<TypeLib
-    Id = A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. 
-    VersionNumber? = One to three alphanumeric characters separated by a period followed by one to three more alphanumeric characters, e.g., 1.5a >
-</TypeLib>
+
+```xml
+<com:TypeLib
+    Id = 'A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.'
+    VersionNumber = 'An optional value with one to three alphanumeric characters separated by a period followed by one to three more alphanumeric characters (for example, 1.5a).' />
 ```
 
-## Key
-`?`    optional (zero or one) 
+## Attributes and elements
 
-## Attributes
+### Attributes
 
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| Id      | The type library ID. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |
-| VersionNumber | The version of the type library. | One to three alphanumeric characters separated by a period followed by one to three more alphanumeric characters, e.g., 1.5a | No |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| Id | The type library ID. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
+| VersionNumber | The version of the type library. | An optional value with one to three alphanumeric characters separated by a period followed by one to three more alphanumeric characters (for example, 1.5a). | No |  |
 
-## Remarks
+### Child elements
 
-## Examples
+None.
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [com:Interface](element-com-package-interface.md) | Declares a package extension point of type **windows.comInterface**. The comInterface extension may include three types of registrations: *Interface*, *ProxyStub*, or *TypeLib*. |
 
 ## Requirements
 
