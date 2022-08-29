@@ -45,9 +45,9 @@ Describes an AutoPlay device action.
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| ActionDisplayName | The name displayed to the user in the AutoPlay flyout for the handler. This string is localizable. | A string with a value between 1 and 256 characters in length. | Yes |  |
-| DeviceEvent | The name of a device-related event that the extensibility point handles. For more info, see **Remarks**. | A string with a value between 1 and 255 characters in length. Backward slashes (`\`) are not allowed. | Yes |  |
-| Verb | A unique identifier passed to the app when it's launched. The app uses this string to determine which AutoPlay handler triggered its launch. It's unique per app in the package and is case sensitive. | A string with a value between 1 and 64 characters in length that consists of letters, periods, dashes, and spaces only. | Yes |  |
+| **ActionDisplayName** | The name displayed to the user in the AutoPlay flyout for the handler. This string is localizable. | A string with a value between 1 and 256 characters in length. | Yes |  |
+| **DeviceEvent** | The name of a device-related event that the extensibility point handles. For more info, see **Remarks**. | A string with a value between 1 and 255 characters in length. Backward slashes (`\`) are not allowed. | Yes |  |
+| **Verb** | A unique identifier passed to the app when it's launched. The app uses this string to determine which AutoPlay handler triggered its launch. It's unique per app in the package and is case sensitive. | A string with a value between 1 and 64 characters in length that consists of letters, periods, dashes, and spaces only. | Yes |  |
 
 ### Child elements
 
@@ -57,14 +57,14 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [uap:AutoPlayDevice](element-uap-autoplaydevice.md) | Declares an app extensibility point of type **windows.autoPlayDevice**. The app provides the specified AutoPlay device actions.
+| [uap:AutoPlayDevice](element-uap-autoplaydevice.md) | Declares an app extensibility point of type **windows.autoPlayDevice**. The app provides the specified AutoPlay device actions. |
 
 ## Related elements
 
 The following elements have the same name as this one, but different content or attributes:
 
-- **[uap:LaunchAction (type: *CT_AutoPlayContent*)](element-uap-launchaction.md)**
-- **[uap:LaunchAction (*global*)](element-2-uap-launchaction.md)**
+- **[uap:LaunchAction (type: CT_AutoPlayContent)](element-uap-launchaction.md)**
+- **[uap:LaunchAction (global)](element-2-uap-launchaction.md)**
 
 ## Remarks
 

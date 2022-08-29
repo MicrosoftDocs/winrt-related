@@ -40,9 +40,7 @@ Indicates whether all file types are supported for sharing.
 
 ```xml
 <uap:SupportsAnyFileType>
-
-  xs:anyType
-
+  <!-- xs:anyType -->
 </uap:SupportsAnyFileType>
 ```
 
@@ -60,7 +58,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| uap:SupportedFileTypes (type: *CT_CharmsSupportedFileTypes*) | Defines the file types the app can share. |
+| [uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes)](element-1-uap-supportedfiletypes.md) | Defines the file types the app can share. |
 
 ## Requirements
 

@@ -1,99 +1,76 @@
 ---
-
 ms.assetid: 1fbe5e60-a8b8-4dc6-b128-674c09b68109
 title: com:Format
 description: Specifies the file format an application can read (convert from).
-
 ms.date: 03/29/2017
 ms.topic: reference
-
-
 keywords: windows 10, uwp, schema, manifest, com
 ---
 
 # com:Format
 
-## Description
 Specifies the file format an application can read (convert from).
 
-## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-extension.md">&lt;com:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-comserver.md">&lt;com:ComServer&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-exeserver.md">&lt;com:ExeServer&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-exeserver-class.md">&lt;com:Class&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-exe-conversion.md">&lt;com:Conversion&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-exe-readable.md">&lt;com:Readable&gt;</a></dt>
-<dd><b>&lt;com:Format&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+## Element hierarchy
 
+[\<Package\>](element-package.md)
 
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:Extension\>](element-com-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:ComServer\>](element-com-comserver.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:ExeServer\>](element-com-exeserver.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:Class\>](element-com-exeserver-class.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:Conversion\>](element-com-exe-conversion.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:Readable\>](element-com-exe-readable.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com:Format\>**
 
 ## Syntax
-```syntax
+
+```xml
 <com:Format
-    FormatName? = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
-    StandardFormat? = A string in hexadecimal format containing numbers or the letters a, b, c, d, e, f (capital or lower case). >
-</com:Format>
+    FormatName = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+    StandardFormat = 'An optional string with a hexadecimal format containing numbers or the letters a, b, c, d, e, or f (capital or lower case).' />
 ```
 
-## Key
-`?`   optional (zero or more)
+## Attributes and elements
 
-## Attributes
+### Attributes
 
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| FormatName | The string file format name. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
-| StandardFormat | The hexadecimal file format name. | A string in hexadecimal format containing numbers or the letters a, b, c, d, e, f (capital or lower case). | No |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **FormatName** | The file name in string format. | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **StandardFormat** | The file name in hexadecimal format. | An optional string with a hexadecimal format containing numbers or the letters `a`, `b`, `c`, `d`, `e`, or `f` (capital or lower case). | No |  |
+
+### Child elements
+
+None.
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [com:Readable](element-com-exe-readable.md) | Specifies that an application can only read files. |
 
 ## Remarks
+
 > [!NOTE]
 > **FormatName** and **StandardFormat** are mutually exclusive.
 
 ## Examples
 
 ## Requirements
-|               |   Value                                                          |
-|---------------|-------------------------------------------------------------|
+
+|   | Value  |
+|--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
