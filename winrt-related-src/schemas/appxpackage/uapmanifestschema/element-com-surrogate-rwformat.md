@@ -45,12 +45,22 @@ Specifies the file format an application can read and write (activate as).
 
 ## Attributes and elements
 
-## Attributes
+### Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
 | **FormatName** | The string file format name. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
 | **StandardFormat** | The hexadecimal file format name. | An optional string value in hexadecimal format containing numbers or the letters `a`, `b`, `c`, `d`, `e`, or `f` (capital or lower case). | No |  |
+
+### Child elements
+
+None.
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [com:Readwriteable](element-com-surrogate-readwritable.md) | Specifies that an application can read and write files. |
 
 ## Remarks
 
