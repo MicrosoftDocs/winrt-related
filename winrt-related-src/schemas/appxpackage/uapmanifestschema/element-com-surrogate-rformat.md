@@ -39,7 +39,7 @@ Specifies the file format an application can read (convert from).
 
 ```xml
 <com:Format
-    FormatName = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+    FormatName = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
     StandardFormat = 'An optional string value in hexadecimal format containing numbers or the letters a, b, c, d, e, or f (capital or lower case).' />
 ```
 
@@ -49,8 +49,8 @@ Specifies the file format an application can read (convert from).
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **FormatName** | The string file format name. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
-| **StandardFormat** | The hexadecimal file format name. | An optional string value in hexadecimal format containing numbers or the letters `a`, `b`, `c`, `d`, `e`, or `f` (capital or lower case). | No |
+| **FormatName** | The string file format name. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **StandardFormat** | The hexadecimal file format name. | An optional string value in hexadecimal format containing numbers or the letters `a`, `b`, `c`, `d`, `e`, or `f` (capital or lower case). | No |  |
 
 ### Child elements
 
