@@ -53,10 +53,10 @@ Version number and additional information about the type library.
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| VersionNumber | The name of the version number. | A string with a value between one to three alphanumeric characters separated by a period followed by one to three more alphanumeric characters (for example, 1.5a). | Yes |  |
-| LocaleId | An Id representing geographic location. | An optional string in hexadecimal format containing numbers or the letters a, b, c, d, e, or f (capital or lower case). | No |  |
-| LibraryFlag | An integer value from the [LIBFLAGS](/windows/win32/api/oaidl/ne-oaidl-libflags) enumeration. | An optional string in hexadecimal format containing numbers or the letters a, b, c, d, e, or f (capital or lower case). | No |  |
-| HelpDirectory | The HELPDIR subkey. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **VersionNumber** | The name of the version number. | A string with a value between one to three alphanumeric characters separated by a period followed by one to three more alphanumeric characters (for example, 1.5a). | Yes |  |
+| **LocaleId** | An Id representing geographic location. | An optional string in hexadecimal format containing numbers or the letters a, b, c, d, e, or f (capital or lower case). | No |  |
+| **LibraryFlag** | An integer value from the [LIBFLAGS](/windows/win32/api/oaidl/ne-oaidl-libflags) enumeration. | An optional string in hexadecimal format containing numbers or the letters a, b, c, d, e, or f (capital or lower case). | No |  |
+| **HelpDirectory** | The HELPDIR subkey. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
 
 ### Child elements
 
