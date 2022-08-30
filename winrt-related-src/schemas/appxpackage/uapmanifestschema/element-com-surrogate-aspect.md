@@ -1,90 +1,67 @@
 ---
-
 ms.assetid: 2023c216-5faa-432e-9d03-796705436eb6
 title: com:Aspect (in SurrogateServer/Class)
 description: Specifies the desired data or view aspect of the object when drawing or getting data (in SurrogateServer/Class).
-
 ms.date: 03/29/2017
 ms.topic: reference
-
-
 keywords: windows 10, uwp, schema, manifest, com
 ---
 
 # com:Aspect (in SurrogateServer/Class)
 
-## Description
 Specifies the desired data or view aspect of the object when drawing or getting data.
 
-## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-extension.md">&lt;com:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-comserver.md">&lt;com:ComServer&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-surrogateserver.md">&lt;com:SurrogateServer&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-surrogateserver-class.md">&lt;com:Class&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-surrogate-miscstatus.md">&lt;com:MiscStatus&gt;</a></dt>
-<dd><b>&lt;com:Aspect&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+## Element hierarchy
 
+[Package](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[Applications](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[Application](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[Extensions](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[com:Extension](element-com-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[com:ComServer](element-com-comserver.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[com:SurrogateServer](element-com-surrogateserver.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[com:Class](element-com-surrogateserver-class.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[com:MiscStatus](element-com-surrogate-miscstatus.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com:Aspect\>**
 
 ## Syntax
-```syntax
+
+```xml
 <com:Aspect  
-    Type = A string as one of the enumeration values: Content, Thumbnail, Icon, or DocPrint.
-    OleMiscFlag = An integer value in the range of 0-4194303. >
-</com:Aspect>
+    Type = 'A string that can have one of the following enumeration values: "Content", "Thumbnail", "Icon", or "DocPrint".'
+    OleMiscFlag = 'An integer with a value between 0 and 4194303.' />
 ```
 
-## Key
+## Attributes and elements
 
-## Attributes
+### Attributes
 
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| Type      | The string value for the view aspect of the object. | A string as one of the enumeration values: Content, Thumbnail, Icon, or DocPrint. | Yes |
-| OleMiscFlag | The integer value for the view aspect of the object. | An integer value in the range of 0-4194303. | Yes |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Type** | The string value for the view aspect of the object. | A string that can have one of the following enumeration values: *Content*, *Thumbnail*, *Icon*, or *DocPrint*. | Yes |  |
+| **OleMiscFlag** | The integer value for the view aspect of the object. | An integer with a value between 0 and 4194303. | Yes |  |
 
-## Remarks
+### Child elements
 
-## Examples
+None.
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [com:MiscStatus](element-com-surrogate-miscstatus.md) | Specifies how to create and display an object. |
 
 ## Requirements
-|               |       Value                                                      |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
+
+| Item  | Value  |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
