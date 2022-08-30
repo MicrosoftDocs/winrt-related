@@ -7,7 +7,6 @@ ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
 ---
 
-
 # com:TypeLib (in Package/Extensions, child of ComInterface)
 
 Registers a type library.
