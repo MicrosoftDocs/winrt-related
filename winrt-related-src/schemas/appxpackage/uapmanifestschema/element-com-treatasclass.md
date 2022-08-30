@@ -11,7 +11,7 @@ keywords: windows 10, uwp, schema, manifest, com
 
 A registration that corresponds to a CLSID registration with the TreatAs subkey.
 
-## Element Hierarchy
+## Element hierarchy
 
 [\<Package\>](element-package.md)
 
