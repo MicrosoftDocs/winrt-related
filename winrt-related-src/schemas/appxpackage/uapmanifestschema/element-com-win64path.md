@@ -46,8 +46,8 @@ A path to the 64-bit type library.
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| Path | A path to the 32-bit TypeLib relative to the package root. Path must reference a file in the package. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `%`, `"`, `|`, `?`, or `*`. | Yes |  |
-| ResourceId | The integer at the end of the default value of the Win32Path, separated from the path by a backslash, e.g., C:\Foo\Bar\Baz.exe\5. | An optional integer value. | No |  |
+| **Path** | A path to the 32-bit TypeLib relative to the package root. Path must reference a file in the package. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `%`, `"`, `|`, `?`, or `*`. | Yes |  |
+| **ResourceId** | The integer at the end of the default value of the Win32Path, separated from the path by a backslash, e.g., C:\Foo\Bar\Baz.exe\5. | An optional integer value. | No |  |
 
 ### Child elements
 
