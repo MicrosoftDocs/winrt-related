@@ -1,89 +1,69 @@
 ---
-
 ms.assetid: 76724c44-654c-4536-85f3-5d86cc4395a3
 title: com:ReadWritable (in SurrogateServer/Class)
 description: Specifies that an application can read and write files (in SurrogateServer/Class).
-
 ms.date: 03/29/2017
 ms.topic: reference
-
-
 keywords: windows 10, uwp, schema, manifest, com
 ---
 
-
 # com:ReadWritable (in SurrogateServer/Class)
 
-## Description
 Specifies that an application can read and write files.
 
-## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-extension.md">&lt;com:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-comserver.md">&lt;com:ComServer&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-surrogateserver.md">&lt;com:SurrogateServer&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-surrogateserver-class.md">&lt;com:Class&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-surrogate-conversion.md">&lt;com:Conversion&gt;</a></dt>
-<dd><b>&lt;com:ReadWritable&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+## Element hierarchy
+
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:Extension\>](element-com-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:ComServer\>](element-com-comserver.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:SurrogateServer\>](element-com-surrogateserver.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:Class\>](element-com-surrogateserver-class.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:Conversion\>](element-com-surrogate-conversion.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com:Readwritable\>**
 
 ## Syntax
-```syntax
-<com:ReadWritable> 
+
+```xml
+<com:ReadWritable>
+
   <!-- Child elements -->
   Format
+
 </com:ReadWritable>
 ```
 
-## Key
+## Attributes and elements
 
-## Child Elements
+### Attributes
 
-| Child Element | Description |
-|---------------|-------------|
+None.
+
+## Child elements
+
+| Child element | Description |
+|-|-|
 | [Format](element-com-surrogate-rwformat.md) | Specifies the file format an application can read and write (activate as). |
 
-## Remarks
+### Parent elements
 
-## Examples
+| Parent elements | Description |
+|-|-|
+| [com:Conversion](element-com-surrogate-conversion.md) | Specifies the formats an application can read and write. |
 
 ## Requirements
-|               |    Value                                                         |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
+
+| Item  | Value  |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

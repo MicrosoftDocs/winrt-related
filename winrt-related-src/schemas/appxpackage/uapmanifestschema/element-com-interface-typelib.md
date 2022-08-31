@@ -34,7 +34,7 @@ A type library for an interface.
 ```xml
 <com:TypeLib
     Id = 'A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.'
-    VersionNumber = 'An optional value with one to three alphanumeric characters separated by a period followed by one to three more alphanumeric characters, e.g., 1.5a' >
+    VersionNumber = 'An optional value with one to three alphanumeric characters separated by a period followed by one to three more alphanumeric characters (for example, 1.5a).' >
 </com:TypeLib>
 ```
 
@@ -45,7 +45,7 @@ A type library for an interface.
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|
 | **Id** | The type library ID. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
-| **VersionNumber** | The version of the type library. | One to three alphanumeric characters separated by a period followed by one to three more alphanumeric characters, e.g., 1.5a | No |  |
+| **VersionNumber** | The version of the type library. | An optional value with one to three alphanumeric characters separated by a period followed by one to three more alphanumeric characters (for example, 1.5a). | No |  |
 
 ### Child elements
 
