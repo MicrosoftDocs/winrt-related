@@ -8,33 +8,23 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 # com4:Class
 
-
-
-## Description
 Specifies properties of a CLSID registered by the package that can be shared by one or more concrete registrations of the CLSID for different class contexts. For example, consider an ExeServer supporting out-of-process activation ([CLSCTX_LOCAL_SERVER](/windows/win32/api/wtypesbase/ne-wtypesbase-clsctx)) and a corresponding in-process handler ([CLSCTX_INPROC_HANDLER](/windows/win32/api/wtypesbase/ne-wtypesbase-clsctx)). By itself, the **com4:Class** element does not register a CLSID for activation, but it can be referenced by elements such as an ExeServer [Class](element-com4-exeserver-class.md)/[ClassReference](element-com4-exeserver-classreference.md) or InProcessHandler [Class](element-com4-inprocesshandler-class.md)/[ClassReference](element-com4-inprocesshandler-classreference.md), in which case its attributes replace the attributes that could otherwise be specified directly in an ExeServer/Class or InProcessHandler/Class element. This syntax is optional for CLSIDs that are registered for a single class context, but is required to register the same CLSID for multiple class contexts because manifest validation requires the Id attribute to be unique among all Class, ExeServer/Class, InProcessHandler/Class, etc., elements in the manifest.
 
+## Element hierarchy
 
+[\<Package\>](element-package.md)
 
-## Element Hierarchy
-<dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dd><b>&lt;com4:Class&gt;</b></dd></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com4:Class\>**
 
 ## Syntax
-```syntax
+
+```xml
 <com4:Class     ProgId = An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1
     VersionIndependentProgId = An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1
     AutoConvertTo = A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.

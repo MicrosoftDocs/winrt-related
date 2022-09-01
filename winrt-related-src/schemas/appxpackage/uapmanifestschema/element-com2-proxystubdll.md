@@ -52,6 +52,7 @@ None.
 ### Parent elements
 
 | Parent element | Description |
+|-|-|
 | [com:ProxyStub](element-com-proxystub.md) | Registers a proxy stub. |
 
 ## Requirements
