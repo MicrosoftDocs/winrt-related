@@ -10,7 +10,7 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 Specifies the class with which the registered in-process handler is associated and sets registration details.
 
-## Element Hierarchy
+## Element hierarchy
 
 [\<Package\>](element-package.md)
 
