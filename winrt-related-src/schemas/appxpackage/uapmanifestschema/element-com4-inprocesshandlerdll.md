@@ -8,52 +8,48 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 # com4:InProcessHandlerDll
 
-
-
-## Description
 Specifies the path and processor architecture of an in-process handler DLL.
 
+## Element hierarchy
 
+[\<Package\>](element-package.md)
 
-## Element Hierarchy
-<dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-com4-inprocesshandler.md">&lt;com4:InProcessHandler&gt;</a></dt>
-<dd>
-<b>&lt;com4:InProcessHandlerDll&gt;</b>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com4:InProcessHandler\>](element-com4-inprocesshandler.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com4:InProcessHandlerDll\>**
 
 ## Syntax
-```syntax
-<com4:InProcessHandlerDll     Path = A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *, ending with the case-insensitive file extension ".dll".
-    ProcessorArchitecture = "x86" | "x64" | "arm" | "arm64" | "x86a64"
-></com4:InProcessHandlerDll>
+
+```xml
+<com4:InProcessHandlerDll
+  Path = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *, ending with the case-insensitive file extension ".dll".'
+  ProcessorArchitecture = 'A string that can be one of the following values: "x86", "x64", "arm", "arm64", or "x86a64".' />
 ```
 
+## Attributes and elements
 
-## Attributes
+### Attributes
 
-| Attribute | Description | Data type | Required |
+| Attribute | Description | Data type | Required | Default value |
 | -----------| -------------| -----------| ----------|
-| Path |  The full path to the in-process handler DLL. | One of the following values: A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", ,, ?, or *, ending with the case-insensitive file extension ".dll".| Yes |
-| ProcessorArchitecture | The processor architecture of the in-process handler DLL. | One of the following values: "x86" , "x64" , "arm" , "arm64" , "x86a64"| Yes |
+| **Path** |  The full path to the in-process handler DLL. | One of the following values: A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", ,, ?, or *, ending with the case-insensitive file extension ".dll".| Yes |  |
+| **ProcessorArchitecture** | The processor architecture of the in-process handler DLL. | One of the following values: "x86" , "x64" , "arm" , "arm64" , "x86a64"| Yes |  |
 
-## Remarks
+### Child elements
+
+None.
+
+### Parent elements
+
+
+
+## Examples
 
 The following example shows how to register a class and an in-process handler dll for x86 and x64 architectures.
 
@@ -65,8 +61,8 @@ The following example shows how to register a class and an in-process handler dl
 </com4:InProcessHandler>
 ```
 
-
 ## Requirements
+
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|
 | com4 | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
