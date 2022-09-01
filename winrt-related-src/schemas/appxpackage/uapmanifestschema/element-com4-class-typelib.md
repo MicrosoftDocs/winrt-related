@@ -32,12 +32,24 @@ Associates a type library with a class or interface.
     VersionNumber = 'One to three alphanumeric characters separated by a period followed by one to three more alphanumeric characters (for example, 1.5a).' />
 ```
 
-## Attributes
+## Attributes and elements
+
+### Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
 | **Id** | The type library ID. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
 | **VersionNumber** | The version of the type library. | One to three alphanumeric characters separated by a period followed by one to three more alphanumeric characters (for example, 1.5a). | No |  |
+
+### Child elements
+
+None.
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [com4:Class](element-com4-class.md) | Specifies properties of a CLSID registered by the package that can be shared by one or more concrete registrations of the CLSID for different class contexts. |
 
 ## Remarks
 
