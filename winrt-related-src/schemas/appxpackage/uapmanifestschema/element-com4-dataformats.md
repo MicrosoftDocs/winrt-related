@@ -25,36 +25,46 @@ Specifies the default and main data formats supported by an application.
 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com4:DataFormats\>**
 
 ## Syntax
-```syntax
-<com4:DataFormats     DefaultFormatName = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
-    DefaultStandardFormat = A string in hexadecimal format containing numbers or the letters a, b, c, d, e, f (capital or lower case).
->
+
+```xml
+<com4:DataFormats
+  DefaultFormatName = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+  DefaultStandardFormat = 'A string in hexadecimal format containing numbers or the letters a, b, c, d, e, or f (capital or lower case).' />
+
 <!-- Child elements -->
   DataFormat
 </com4:DataFormats>
 ```
 
+## Attributes and elements
 
-## Attributes
+### Attributes
 
-| Attribute | Description | Data type | Required |
-| -----------| -------------| -----------| ----------|
-| DefaultFormatName | The string value of the format name. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.| Yes |
-| DefaultStandardFormat | The hexadecimal value of the format name. | A string in hexadecimal format containing numbers or the letters a, b, c, d, e, f (capital or lower case).| Yes |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **DefaultFormatName** | The string value of the format name. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
+| **DefaultStandardFormat** | The hexadecimal value of the format name. | A string in hexadecimal format containing numbers or the letters `a`, `b`, `c`, `d`, `e`, or `f` (capital or lower case). | Yes |  |
 
+### Child elements
 
-## Child Elements
-
-| Element | Description |
-| -----------| -------------|
+| Child element | Description |
+|-|-|
 | [DataFormat](element-com4-dataformat.md) | The data format supported by an application. |
 
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [com4:Class](element-com4-class.md) | Specifies properties of a CLSID registered by the package that can be shared by one or more concrete registrations of the CLSID for different class contexts. |
+
 ## Remarks
+
 **DefaultFormatName** is the string value, and **DefaultStandardFormat** is the integer value of the supported data formats. These values are mutually exclusive.
 
 This element corresponds to the [DataFormats](/windows/win32/com/dataformats) subkey.
 
 ## Requirements
-| Prefix | Value |
-| ---------------| -------------------------------------------------------------|
-| com4 | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
+
+|   | Value  |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
