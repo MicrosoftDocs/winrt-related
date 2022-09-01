@@ -8,69 +8,60 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 # com4:Format
 
+Specifies the file format an application can read from or write to.
 
+## Element hierarchy
 
-## Description
-Specifies the file format an application can read from or write to. 
+[\<Package\>](element-package.md)
 
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
 
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
 
-## Element Hierarchy
-<dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-com4-class.md">&lt;com4:Class&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-com4-conversion.md">&lt;com4:Conversion&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-com4-readable.md">&lt;com4:Readable&gt;</a></dt>
-<dd>
-<b>&lt;com4:Format&gt;</b>
-</dd>
-</dl>
-<dl><dt><a href = "element-com4-readwritable.md">&lt;com4:ReadWritable&gt;</a></dt>
-<dd>
-<b>&lt;com4:Format&gt;</b>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com4:Class\>](element-com4-class.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com4:Conversion\>](element-com4-conversion.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com4:Readable\>](element-com4-readable.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com4:Format\>**
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com4:Readwritable\>](element-com4-readwritable.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com4:Format\>**
 
 ## Syntax
-```syntax
-<com4:Format     FormatName = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
-    StandardFormat = A string in hexadecimal format containing numbers or the letters a, b, c, d, e, f (capital or lower case).
-></com4:Format>
+
+```xml
+<com4:Format
+    FormatName = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+    StandardFormat = 'A string in hexadecimal format containing numbers or the letters a, b, c, d, e, or f (capital or lower case).' />
 ```
 
+## Attributes and elements
 
-## Attributes
+### Attributes
 
-| Attribute | Description | Data type | Required |
-| -----------| -------------| -----------| ----------|
-| FormatName | The string file format name. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.| Yes |
-| StandardFormat | StandardFormat | A string in hexadecimal format containing numbers or the letters a, b, c, d, e, f (capital or lower case).| Yes |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **FormatName** | The string file format name. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
+| **StandardFormat** | StandardFormat |A string in hexadecimal format containing numbers or the letters `a`, `b`, `c`, `d`, `e`, or `f` (capital or lower case). | Yes |  |
 
+### Child elements
 
+None.
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [com4:Readable](element-com4-readable.md) | Specifies that an application can only read files. |
+| [com4:Readwritable](element-com4-readwritable.md) | Specifies that an application can read and write files. |
 
 ## Requirements
-| Prefix | Value |
-| ---------------| -------------------------------------------------------------|
-| com4 | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
+
+|   | Value  |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
