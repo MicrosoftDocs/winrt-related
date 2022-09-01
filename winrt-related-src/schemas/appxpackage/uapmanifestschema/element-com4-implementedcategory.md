@@ -8,56 +8,51 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 # com4:ImplementedCategory
 
-
-
-## Description
 Indicates that the class has implemented the specified category.
 
+## Element hierarchy
 
+[\<Package\>](element-package.md)
 
-## Element Hierarchy
-<dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-com4-class.md">&lt;com4:Class&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-com4-implementedcategories.md">&lt;com4:ImplementedCategories&gt;</a></dt>
-<dd>
-<b>&lt;com4:ImplementedCategory&gt;</b>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com4:Class\>](element-com4-class.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com4:ImplementedCategories\>](element-com4-implementedcategories.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com4:ImplementedCategory\>**
 
 ## Syntax
-```syntax
-<com4:ImplementedCategory     Id = A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.
-></com4:ImplementedCategory>
+
+```xml
+<com4:ImplementedCategory
+  Id = 'A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.' />
 ```
 
+## Attributes and elements
 
-## Attributes
+### Attributes
 
-| Attribute | Description | Data type | Required |
-| -----------| -------------| -----------| ----------|
-| Id | The ID of the COM category that is implemented. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Id** | The ID of the COM category that is implemented. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |  |
 
+### Child elements
 
+None.
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [com4:ImplementedCategories](element-com4-implementedcategories.md) | Specifies categories implemented by the class. |
 
 ## Requirements
-| Prefix | Value |
-| ---------------| -------------------------------------------------------------|
-| com4 | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
+
+|   | Value  |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
