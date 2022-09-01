@@ -25,14 +25,15 @@ Specifies properties of a CLSID registered by the package that can be shared by 
 ## Syntax
 
 ```xml
-<com4:Class     ProgId = An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1
-    VersionIndependentProgId = An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1
-    AutoConvertTo = A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.
-    InsertableObject = Boolean.
-    ShortDisplayName = A string between 1 and 40 characters in length.
-    Id = A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.
-    DisplayName = A string between 1 and 256 characters in length. This string is localizable.
->
+<com4:Class
+  ProgId = 'An alphanumeric string separated by a period with a value between 1 and 255 characters in length (for example, Foo.Bar or Foo.Bar.1).'
+  VersionIndependentProgId = 'An alphanumeric string separated by a period with a value between 1 and 255 characters in length (for example, Foo.Bar or Foo.Bar.1).'
+  AutoConvertTo = 'A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.'
+  InsertableObject = 'A boolean value.'
+  ShortDisplayName = 'A string with a value between 1 and 40 characters in length.'
+  Id = 'A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.'
+  DisplayName = 'A string with a value between 1 and 256 characters in length. This string is localizable.' >
+
 <!-- Child elements -->
   ImplementedCategories
   Conversion
@@ -42,27 +43,28 @@ Specifies properties of a CLSID registered by the package that can be shared by 
   DefaultIcon
   ToolboxBitmap32
   TypeLib
+
 </com4:Class>
 ```
 
+## Attributes and elements
 
-## Attributes
+### Attributes
 
-| Attribute | Description | Data type | Required |
-| -----------| -------------| -----------| ----------|
-| ProgId | Associates a programmatic identifier (ProgID) with a CLSID. | An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1| Yes |
-| VersionIndependentProgId | Associates a ProgID with a CLSID. This value is used to determine the latest version of an object application. | An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1| Yes |
-| AutoConvertTo | Specifies the automatic conversion of a given class of objects to a new class of objects. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
-| InsertableObject | Indicates that this class is insertable. | Boolean.| Yes |
-| ShortDisplayName | A short version of the class display name. | A string between 1 and 40 characters in length.| Yes |
-| Id | The Id attribute corresponds to the CLSID (HKCR\CLSID\{MyGuid}). | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
-| DisplayName | The class display name. | A string between 1 and 256 characters in length. This string is localizable.| Yes |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **ProgId** | Associates a programmatic identifier (ProgID) with a CLSID. | An alphanumeric string separated by a period with a value between 1 and 255 characters in length (for example, Foo.Bar or Foo.Bar.1). | Yes |  |
+| **VersionIndependentProgId** | Associates a ProgID with a CLSID. This value is used to determine the latest version of an object application. | An alphanumeric string separated by a period with a value between 1 and 255 characters in length (for example, Foo.Bar or Foo.Bar.1). | Yes |  |
+| **AutoConvertTo** | Specifies the automatic conversion of a given class of objects to a new class of objects. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
+| **InsertableObject** | Indicates that this class is insertable. | A boolean value. | Yes |  |
+| **ShortDisplayName** | A short version of the class display name. | A string with a value between 1 and 40 characters in length. | Yes |  |
+| **Id** | The Id attribute corresponds to the CLSID (HKCR\CLSID\{MyGuid}). | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
+| **DisplayName** | The class display name. | A string with a value between 1 and 256 characters in length. This string is localizable. | Yes |  |
 
+### Child elements
 
-## Child Elements
-
-| Element | Description |
-| -----------| -------------|
+| Child element | Description |
+|-|-|
 | [ImplementedCategories](element-com4-implementedcategories.md) | Specifies categories implemented by the class. |
 | [Conversion](element-com4-conversion.md) | Specifies the formats an application can read and write. |
 | [DataFormats](element-com4-dataformats.md) | Specifies the default and main data formats supported by an application. |
@@ -72,6 +74,11 @@ Specifies properties of a CLSID registered by the package that can be shared by 
 | [ToolboxBitmap32](element-com4-toolboxbitmap32.md) | Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button. |
 | [TypeLib](element-com4-class-typelib.md) | A type library for a class or interface. |
 
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [Extensions](element-1-extensions.md) | Defines one or more extensibility points for the app. |
 
 ## Remarks
 
@@ -84,7 +91,6 @@ The attributes of a top-level **com4:Class** element correspond to the informati
 
 - Shared properties must be provided as the attributes of a top-level Class element.
 - Per-class context activation details must be provided in nested ClassReference elements, e.g. ExeServer [Class](element-com4-exeserver-class.md)/[ClassReference](element-com4-exeserver-classreference.md) and InProcessHandler [Class](element-com4-inprocesshandler-class.md)/[ClassReference](element-com4-inprocesshandler-class.md) for a CLSID that supports outofproc activation and an inproc handler. The Id attribute of the **ClassReference** element references the top-level Class element containing the shared properties.
-
 
 ## Example
 
@@ -104,6 +110,7 @@ The attributes of a top-level **com4:Class** element correspond to the informati
 ```
 
 ## Requirements
-| Prefix | Value |
-| ---------------| -------------------------------------------------------------|
-| com4 | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
+
+|   | Value  |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
