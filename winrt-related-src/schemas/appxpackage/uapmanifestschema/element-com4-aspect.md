@@ -8,58 +8,53 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 # com4:Aspect
 
-
-
-## Description
 Specifies the desired data or view aspect of the object when drawing or getting data.
 
+## Element hierarchy
 
+[\<Package\>](element-package.md)
 
-## Element Hierarchy
-<dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-com4-class.md">&lt;com4:Class&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-com4-miscstatus.md">&lt;com4:MiscStatus&gt;</a></dt>
-<dd>
-<b>&lt;com4:Aspect&gt;</b>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com4:Class\>](element-com4-class.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com4:MiscStatus\>](element-com4-miscstatus.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com4:Aspect\>**
 
 ## Syntax
-```syntax
-<com4:Aspect     Type = "Content" | "Thumbnail" | "Icon" | "DocPrint"
-    OleMiscFlag = An integer value in the range of 0-4194303.
-></com4:Aspect>
+
+```xml
+<com4:Aspect
+    Type = 'A string that can have one of the following values: "Content", "Thumbnail", "Icon", or "DocPrint".'
+    OleMiscFlag = 'An integer with a value between 0 and 4194303.' />
 ```
 
+## Attributes and elements
 
-## Attributes
+### Attributes
 
-| Attribute | Description | Data type | Required |
-| -----------| -------------| -----------| ----------|
-| Type | The string value for the view aspect of the object. | One of the following values: "Content" , "Thumbnail" , "Icon" , "DocPrint"| Yes |
-| OleMiscFlag | The integer value for the view aspect of the object. | An integer value in the range of 0-4194303.| Yes |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Type** | The string value for the view aspect of the object. | A string that can have one of the following values: *Content*, *Thumbnail*, *Icon*, or *DocPrint*. | Yes |  |
+| **OleMiscFlag** | The integer value for the view aspect of the object. | An integer with a value between 0 and 4194303. | Yes |  |
 
+### Child elements
 
+None.
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [com4:MiscStatus](element-com4-miscstatus.md) | Specifies how to create and display an object. |
 
 ## Requirements
-| Prefix | Value |
-| ---------------| -------------------------------------------------------------|
-| com4 | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
+
+|   | Value  |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
