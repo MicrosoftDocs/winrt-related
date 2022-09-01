@@ -59,7 +59,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [com4:Extension](element-com4-extension.md) | Provides functionality to expose COM registrations to clients outside of the app package. The com4 extension is a new version that is a superset of and replacement for the previous COM schema versions. See the Remarks section for more information. |
+| [com4:Extension](element-com4-extension.md) | Provides functionality to expose COM registrations to clients outside of the app package. The com4 extension is a new version that is a superset of and replacement for the previous COM schema versions. |
 
 ## Remarks
 
