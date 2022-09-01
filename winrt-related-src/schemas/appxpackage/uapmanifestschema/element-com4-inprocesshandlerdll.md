@@ -38,8 +38,8 @@ Specifies the path and processor architecture of an in-process handler DLL.
 
 | Attribute | Description | Data type | Required | Default value |
 | -----------| -------------| -----------| ----------|
-| **Path** |  The full path to the in-process handler DLL. | One of the following values: A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", ,, ?, or *, ending with the case-insensitive file extension ".dll".| Yes |  |
-| **ProcessorArchitecture** | The processor architecture of the in-process handler DLL. | One of the following values: "x86" , "x64" , "arm" , "arm64" , "x86a64"| Yes |  |
+| **Path** |  The full path to the in-process handler DLL. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`, ending with the case-insensitive file extension `.dll`. | Yes |  |
+| **ProcessorArchitecture** | The processor architecture of the in-process handler DLL. | A string that can be one of the following values: *x86* , *x64* , *arm* , *arm64*, or *x86a64*. | Yes |  |
 
 ### Child elements
 
@@ -47,7 +47,9 @@ None.
 
 ### Parent elements
 
-
+| Parent element | Description |
+|-|-|
+| [Extensions](element-1-extensions.md) | Defines one or more extensibility points for the app. |
 
 ## Examples
 
@@ -63,6 +65,6 @@ The following example shows how to register a class and an in-process handler dl
 
 ## Requirements
 
-| Prefix | Value |
-| ---------------| -------------------------------------------------------------|
-| com4 | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
+|   | Value  |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
