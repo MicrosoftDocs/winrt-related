@@ -46,15 +46,19 @@ Declares a package extension point of type windows.comServer. The comServer exte
 ```
 
 ## Key
+
 `{}`   specific range of occurrences
 
+## Attributes and elements
 
+### Attributes
 
+None.
 
-## Child Elements
+### Child elements
 
-| Element | Description |
-| -----------| -------------|
+| Child element | Description |
+|-|-|
 | [Class](element-com4-class.md) | Defines a class registration in a COM server. |
 | [ExeServer](element-com4-exeserver.md) | Registers an ExeServer with one or many class registrations. |
 | [ServiceServer](element-com4-serviceserver.md) | Registers a ServiceServer with one or many class registrations. |
@@ -64,10 +68,17 @@ Declares a package extension point of type windows.comServer. The comServer exte
 | [InProcessServer](element-com4-inprocessserver.md) | Registers an in-process server with one or many class registrations. |
 | [InProcessHandler](element-com4-inprocesshandler.md) | Registers an in-process handler with one or many class registrations. |
 | [ManagedInProcessServer](element-com4-managedinprocessserver.md) | Registers a managed in-process server with one or many class registrations. |
-| com5:InProcessServer |  |
-| com5:InProcessHandler |  |
+<!-- | com5:InProcessServer |  |
+| com5:InProcessHandler |  | -->
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [com4:Extension](element-com4-extension.md) | Provides functionality to expose COM registrations to clients outside of the app package. The com4 extension is a new version that is a superset of and replacement for the previous COM schema versions. |
 
 ## Remarks
+
 In multi-application packages, it's important to place the COM server registration under the correct Applications/Application manifest element, because COM server processes will run with the identity of the ancestor Applications/Application element.
 
 COM servers registered in the manifest always get Activate As Package (AAP) behavior, which means the COM server runs with the user session default token with package and application claims added. This is different from the default activation behavior of classically registered COM servers, in which the COM server runs with the client's token. For most applications, this difference will not be noticeable because clients typically run with the user session default token. Other activation behaviors, such as [RunAs]( /windows/win32/com/runas), are not supported.
@@ -76,20 +87,20 @@ It is possible to have multiple **comServer** extensions under the Applications/
 
 ### Changes in the com4 extension
 
-The com4 extension syntax is a new, superset of the previous com extension syntax. This version of the syntax supports the same structure as older versions of the syntax, where class registrations are represented by ExeServer/Class, SurrogateServer/Class, ServiceServer/Class, InProcessServer/Class, InProcessHandler/Class, or ManagedInProcessServer/Class elements. 
+The com4 extension syntax is a new, superset of the previous com extension syntax. This version of the syntax supports the same structure as older versions of the syntax, where class registrations are represented by ExeServer/Class, SurrogateServer/Class, ServiceServer/Class, InProcessServer/Class, InProcessHandler/Class, or ManagedInProcessServer/Class elements.
 
 The new syntax also supports alternative structures, where:
 
 - ExeServer/ClassReference, SurrogateServer/ClassReference, ServiceServer/ClassReference, InProcessServer/ClassReference, InProcessHandler/ClassReference, or ManagedInProcessServer/ClassReference elements reference top-level Class elements
- 
+
 and/or
 
 - SurrogateServer/InProcessServerClassReference elements reference InProcessServer/Class (alternatively, InProcessServer/ClassReference) or ManagedInProcessServer/Class (alternatively, ManagedInProcessServer/ClassReference) elements.
 
 The main purpose of the new syntax structure is to enable combinations of in-process server, in-process handler, and out of process server registrations for the same CLSID, as is possible and supported with the classic registry layout. For more information on the COM registry layout, see [CLSID Key](/windows/win32/com/clsid-key-hklm).
 
-
 ## Requirements
-| Prefix | Value |
-| ---------------| -------------------------------------------------------------|
-| com4 | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
+
+|   | Value  |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
