@@ -10,7 +10,7 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 Registers an in-process server with one or many class registrations.
 
-## Element Hierarchy
+## Element hierarchy
 
 [\<Package\>](element-package.md)
 
