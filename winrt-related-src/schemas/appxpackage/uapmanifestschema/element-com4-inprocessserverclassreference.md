@@ -8,50 +8,48 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 # com4:InProcessServerClassReference
 
-
-
-## Description
 Specifies the class or class reference with which the registered in-process server is associated and sets registration details.
 
+## Element hierarchy
 
+[\<Package\>](element-package.md)
 
-## Element Hierarchy
-<dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-com4-surrogateserver.md">&lt;com4:SurrogateServer&gt;</a></dt>
-<dd>
-<b>&lt;com4:InProcessServerClassReference&gt;</b>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com4:SurrogateServer\>](element-com4-surrogateserver.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com4:InProcessServerClassReference\>**
 
 ## Syntax
-```syntax
-<com4:InProcessServerClassReference     EnableOleDefaultHandler = Boolean.
-    Id = A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.
-></com4:InProcessServerClassReference>
+
+```xml
+<com4:InProcessServerClassReference
+  EnableOleDefaultHandler = 'A boolean value.'
+  Id = 'A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.' />
 ```
 
+## Attributes and elements
 
-## Attributes
+### Attributes
 
-| Attribute | Description | Data type | Required |
-| -----------| -------------| -----------| ----------|
-| EnableOleDefaultHandler | This should be set to true if the default value of the [InprocHandler32](/windows/win32/com/inprochandler32) key is "Ole32.dll". Otherwise it should be omitted. The default value is false. | Boolean.| Yes |
-| Id | The Id of the [Class](element-com4-class.md) being referenced. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **EnableOleDefaultHandler** | This should be set to true if the default value of the [InprocHandler32](/windows/win32/com/inprochandler32) key is `Ole32.dll`. Otherwise it should be omitted. | A boolean value. | Yes | False |
+| **Id** | The Id of the [Class](element-com4-class.md) being referenced. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
+
+### Child elements
+
+None.
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [com4:SurrogateServer](element-com4-surrogateserver.md) | Registers a SurrogateServer with one or many class registrations. |
 
 ## Remarks
 
@@ -62,6 +60,7 @@ The CLSID Key](/windows/win32/com/clsid-key-hklm) in the COM registry layout ena
 
 When packaging an application with a CLSID registered for outofproc activation in a surrogate server, it is generally recommended that only the surrogate server is registered in the manifest. For example, surrogate registrations are often used to support COM-based extension points that historically enabled inproc server implementations but which now recommend an outofproc server registration as a best practice for isolation. For packaged applications, there are additional functional limitations for inproc servers (see [In-ProcessServers](/windows/win32/com/in-process-servers) for details), whereas any package with the [runFullTrust restricted capability](/windows/uwp/packaging/app-capability-declarations) can successfully register a surrogate server, and for most extension points registering a surrogate server is sufficient to enable the functionality of the extension. However, if a packaged application needs to support inproc activation of its CLSIDs for compatibility with other applications that request inproc activation (CLSCTX_INPROC_SERVER), and satisfies the requirements for registering an inproc server, it can register the CLSID for inproc activation and outofproc activation in a surrogate. In this case, it is recommended to provide the inproc server details in an **InProcessServer/Class** or **InProcessServer/ClassReference** element, and reference them from a [SurrogateServer](element-com4-serviceserver.md)/[InProcessServerClassReference](element-com4-inprocessserverclassreference.md) element.
 
+## Examples
 
 The following example illustrates using **InProcessServerClassreference** to reference a class in a surrogate server registration.
 
@@ -76,6 +75,7 @@ The following example illustrates using **InProcessServerClassreference** to ref
 ```
 
 ## Requirements
-| Prefix | Value |
-| ---------------| -------------------------------------------------------------|
-| com4 | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
+
+|   | Value  |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
