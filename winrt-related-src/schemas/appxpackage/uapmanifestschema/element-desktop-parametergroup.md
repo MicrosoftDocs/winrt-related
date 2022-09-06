@@ -8,61 +8,50 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 
 # desktop:ParameterGroup
 
-
-## Description
-
 Represents a group of command-line parameters for a full-trust process.
 
-## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop-extension.md">&lt;desktop:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop-fulltrustprocess.md">&lt;desktop:FullTrustProcess&gt;</a></dt>
-<dd><b>&lt;desktop:ParameterGroup&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+## Element hierarchy
+
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Desktop:Extension\>](element-desktop-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Desktop:FullTrustProcess\>](element-desktop-fulltrustprocess.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop:ParameterGroup\>**
 
 ## Syntax
-```sytnax
-<desktop:ParameterGroup  GroupId = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and 
-                         end.
-                         Parameters = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. >
+
+```xml
+<desktop:ParameterGroup
+  GroupId = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+  Parameters = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.' >
 ```
-### Key
-`{}` specific range of occurrences
 
-## Attributes
+## Attributes and elements
 
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| GroupId | The name for a group of one or more related command-line parameters. You can pass this group ID to the [LaunchFullTrustProcessForAppAsync](/uwp/api/windows.applicationmodel.fulltrustprocesslauncher.launchfulltrustprocessforappasync) or [LaunchFullTrustProcessForCurrentAppAsync](/uwp/api/windows.applicationmodel.fulltrustprocesslauncher.launchfulltrustprocessforcurrentappasync) method. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |
-| Parameters | The command line parameters to associate with the **GroupId** value. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |
+### Attributes
 
-## Child Elements
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **GroupId** | The name for a group of one or more related command-line parameters. You can pass this group ID to the [LaunchFullTrustProcessForAppAsync](/uwp/api/windows.applicationmodel.fulltrustprocesslauncher.launchfulltrustprocessforappasync) or [LaunchFullTrustProcessForCurrentAppAsync](/uwp/api/windows.applicationmodel.fulltrustprocesslauncher.launchfulltrustprocessforcurrentappasync) method. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
+| **Parameters** | The command line parameters to associate with the **GroupId** value. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
+
+### Child elements
 
 None
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [desktop:FullTrustProcess](element-desktop-fulltrustprocess.md) | Represents a desktop process that runs in full-trust. |
 
 ## Remarks
 
