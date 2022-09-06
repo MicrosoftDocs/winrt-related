@@ -10,7 +10,7 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 Specifies the path and processor architecture of a ProxyStub DLL.
 
-## Element Hierarchy
+## Element hierarchy
 
 [\<Package\>](element-package.md)
 
