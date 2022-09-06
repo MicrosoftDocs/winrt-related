@@ -26,10 +26,10 @@ Registers a ServiceServer with one or many class registrations.
 
 ```xml
 <com4:ServiceServer
-  ServiceName = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
-  Arguments = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
-  DisplayName = A string between 1 and 256 characters in length. This string is localizable.
-  LaunchAndActivationPermission = [SDDL string](/windows/win32/secauthz/security-descriptor-string-format). >
+  ServiceName = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+  Arguments = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+  DisplayName = 'A string with a value between 1 and 256 characters in length. This string is localizable.'
+  LaunchAndActivationPermission = 'An [SDDL string](/windows/win32/secauthz/security-descriptor-string-format) value.' >
 
   <!-- Child elements -->
   Class
@@ -44,10 +44,10 @@ Registers a ServiceServer with one or many class registrations.
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **ServiceName** | The name of the Windows service that hosts the COM server.  | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.| Yes |  |
-| **Arguments** | The command-line parameters of the service. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.| Yes |  |
-| **DisplayName** | A localizable string corresponding to the default AppID key value. | A string between 1 and 256 characters in length. This string is localizable.| Yes |  |
-| **LaunchAndActivationPermission** | An [SDDL string](/windows/win32/secauthz/security-descriptor-string-format) that corresponds to the LaunchPermission value of the AppID key. | [SDDL string](/windows/win32/secauthz/security-descriptor-string-format).| Yes |  |
+| **ServiceName** | The name of the Windows service that hosts the COM server.  | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
+| **Arguments** | The command-line parameters of the service. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
+| **DisplayName** | A localizable string corresponding to the default AppID key value. | A string with a value between 1 and 256 characters in length. | Yes |  |
+| **LaunchAndActivationPermission** | An [SDDL string](/windows/win32/secauthz/security-descriptor-string-format) that corresponds to the LaunchPermission value of the AppID key. | An [SDDL string](/windows/win32/secauthz/security-descriptor-string-format) value.| Yes |  |
 
 ### Child elements
 
