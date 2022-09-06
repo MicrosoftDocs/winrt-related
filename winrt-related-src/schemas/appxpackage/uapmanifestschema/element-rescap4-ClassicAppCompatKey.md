@@ -72,6 +72,10 @@ Registry keys for discovering classic app installations and launching executable
 ## Child Elements
 None.
 
+## Remarks
+
+Locations under "HKEY_LOCAL_MACHINE\Software\Microsoft" are not allowed for the **Name** attribute unless **CompatMode** is set to 'classic'.
+
 ## Requirements
 
 |               | Value                                                       |

@@ -46,6 +46,7 @@ Defines additional metadata about the package including attributes that describe
   & rescap6:ModificationPackage?
   & uap10:AllowExternalContent?
   & uap10:PackageIntegrity?
+  & heap:HeapPolicy?
   )
 
 </Properties>
@@ -128,6 +129,10 @@ None.
 <tr class="even">
 <td><a href="element-uap10-packageintegrity.md">uap10:PackageIntegrity</a> </td>
 <td><p>Specifies the level of run time package integrity checks and remediation for the package.</p></td>
+</tr>
+<tr class="even">
+<td><a href="element-heap-heappolicy.md">heap:HeapPolicy</a> </td>
+<td><p>Allows MSIX packaged apps to request a heap profile that has performance and behavior characteristics consistent with that of the legacy NT heap.</p></td>
 </tr>
 </tbody>
 </table>
