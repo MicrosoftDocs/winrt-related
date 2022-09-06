@@ -36,7 +36,7 @@ Specifies the class with which the registered in-process handler is associated a
 
 ### Attributes
 
-| Attribute | Description | Data type | Required |
+| Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
 | **Virtualization** | Specifies whether virtualization is used when loading the class. | A string that can have one of the following values: *enabled* or *disabled*. | Yes |  |
 | **Id** | The Id of the [Class](element-com4-class.md) being referenced. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
