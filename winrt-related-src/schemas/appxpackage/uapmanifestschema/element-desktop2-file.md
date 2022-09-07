@@ -56,6 +56,6 @@ None.
 
 ## Requirements
 
-|| Value |
+|  | Value |
 |-|-|
 |**Namespace**|`http://schemas.microsoft.com/appx/manifest/desktop/windows10/2`|
