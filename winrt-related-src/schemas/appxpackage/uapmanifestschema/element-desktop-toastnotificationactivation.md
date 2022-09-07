@@ -47,7 +47,7 @@ None
 
 | Parent element | Description |
 |-|-|
-| [desktop:Extension](element-desktop-extensions.md) | Declares an extensibility point for the app. |
+| [desktop:Extension](element-desktop-extension.md) | Declares an extensibility point for the app. |
 
 ## Requirements
 
