@@ -8,6 +8,8 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
+# Description (Windows 10)
+
 A friendly description that can be displayed to users.
 
 ## Element hierarchy
