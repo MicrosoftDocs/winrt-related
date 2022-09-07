@@ -48,7 +48,7 @@ A path to a file that contains an image.
 ## Syntax
 
 ```xml
-<desktop7:Logo ResourceId   = A string between 1 and 30 characters in length that consists of alpha-numeric, period, and dash characters. >
+<desktop7:Logo ResourceId   = A string between 1 and 30 characters in length that consists of alpha-numeric, period, and dash characters. Allows the following file extensions: ".jpg", ".jpeg", ".png", ".ico".>
 </desktop7:Logo>
 ```
 
@@ -59,7 +59,7 @@ A path to a file that contains an image.
 
 | Attribute | Description | Data type | Required |
 |-----------|-------------|-----------|----------|
-| ResourceId | The string table ID of the string Infotip string within the resource module. | A string between 1 and 30 characters in length that consists of alpha-numeric, period, and dash characters. | Yes |
+| ResourceId | The string table ID of the string Infotip string within the resource module. | A string between 1 and 30 characters in length that consists of alpha-numeric, period, and dash characters. Allows the following file extensions: ".jpg", ".jpeg", ".png", ".ico".| Yes |
 
 ### Child Elements
 
