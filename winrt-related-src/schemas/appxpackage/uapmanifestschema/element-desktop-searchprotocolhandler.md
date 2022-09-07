@@ -29,7 +29,7 @@ Represents a desktop process handles the search protocol for the app.
 ```xml
 <desktop:SearchProtocolHandler
   protocolName = 'A string with a value between 2 and 2048 characters in length.'
-  protocolActivatorCLSID = 'A string with a value between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *. >.' />
+  protocolActivatorCLSID = 'A string with a value between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *.' />
 ```
 
 ## Attributes and elements
@@ -39,7 +39,7 @@ Represents a desktop process handles the search protocol for the app.
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
 | **ProtocolName** | The friendly name to display ot users. | A string with a value between 2 and 2048 characters in length. | Yes |  |
-| **ProtocolActivatorCLSID** | A unique identifier for the search protocol. | A string with a value between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *. >. | Yes |  |
+| **ProtocolActivatorCLSID** | A unique identifier for the search protocol. | A string with a value between 1 and 255 characters in length that cannot start or end with a period or contain these characters: `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, or `*`. | Yes |  |
 
 ### Child elements
 
