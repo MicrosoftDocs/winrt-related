@@ -1,63 +1,58 @@
 ---
-
 title: desktop3:BannersHandler
 description: Registration of a Windows Shell BannersHandler for cloud based placeholder files (desktop3:BannersHandler). 
-
 ms.date: 10/10/2017
 ms.topic: reference
-
-
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 
 # desktop3:BannersHandler
 
-## Description
-Registration of a Windows Shell BannersHandler for cloud based placeholder files. 
+Registration of a Windows Shell BannersHandler for cloud based placeholder files.
 
-## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop3-extension.md">&lt;desktop3:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop3-cloudfiles.md">&lt;desktop3:CloudFiles&gt;</a></dt>
-<dd><b>&lt;desktop3:BannersHandler&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+## Element hierarchy
 
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop3:Extension\>](element-desktop3-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop3:CloudFiles\>](element-desktop3-cloudfiles.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop3:BannersHandler\>**
 
 ## Syntax
-```syntax
-<desktop3:BannersHandler Clsid = A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. />
+
+```xml
+<desktop3:BannersHandler
+  Clsid = 'A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.' />
 ```
 
-## Attributes
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| Clsid | The class ID of the app that implements the BannersHandler. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |
+## Attributes and elements
+
+### Attributes
+
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Clsid** | The class ID of the app that implements the BannersHandler. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
+
+### Child elements
+
+None.
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [desktop3:CloudFiles](element-desktop3-cloudfiles.md) | Registration for the handlers implemented in an application and context menu options for cloud based placeholder files. |
 
 ## See also
+
 [Creating Shell Extension Handlers](/windows/win32/shell/handlers)
 
 ## Requirements
