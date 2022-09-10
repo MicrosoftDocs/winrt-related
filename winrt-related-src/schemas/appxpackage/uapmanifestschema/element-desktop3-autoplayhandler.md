@@ -1,66 +1,63 @@
 ---
-
 title: desktop3:AutoPlayHandler
 description: Handler for AutoPlay, which can present your app as an option when a user connects a device to their PC.
-
 ms.date: 10/10/2017
 ms.topic: reference
-
-
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 
 # desktop3:AutoPlayHandler
 
-## Description
 Handler for AutoPlay, which can present your app as an option when a user connects a device to their PC.
 
-## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop3-extension.md">&lt;desktop3:Extension&gt;</a></dt>
-<dd><b>&lt;desktop3:AutoPlayHandler&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+## Element hierarchy
 
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop3:Extension\>](element-desktop3-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop3:AutoPlayHandler\>**
 
 ## Syntax
-```syntax
+
+```xml
 <desktop3:AutoPlayHandler>
+
     desktop3:InvokeAction{0,1000}
+
 </desktop3:AutoPlayHandler>
 ```
 
 ### Key
+
 `{}` specific range of occurrences
 
+## Attributes and elements
 
-## Child Elements
+### Attributes
 
-| Child Element | Description |
-|---------------|-------------|
-| [desktop3:InvokeAction](element-desktop3-invokeaction.md) | Contains content and device information for invoking an AutoPlay action. |  
+None.
+
+### Child elements
+
+| Child element | Description |
+|-|-|
+| [desktop3:InvokeAction](element-desktop3-invokeaction.md) | Contains content and device information for invoking an AutoPlay action. |
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [desktop3:Extension](element-desktop3-extension.md) | Declares an extensibility point for the app. |
 
 ## Requirements
 
-|               |     Value                                                        |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/3` |
+| Item  | Value  |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/3` |
