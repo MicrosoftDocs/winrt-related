@@ -28,8 +28,10 @@ Registers items for the context menu of File Explorer.
 
 ```xml
 <desktop4:FileExplorerContextMenus>
+
     desktop4:ItemType{0,10000}
     desktop5:ItemType{0,10000}
+    
 </desktop4:FileExplorerContextMenus>
 ```
 
