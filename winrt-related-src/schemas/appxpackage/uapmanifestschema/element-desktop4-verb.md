@@ -40,7 +40,7 @@ Names and class IDs of the commands registered in the Shell for a file explorer 
 
 ### Attributes
 
-| Attribute | Description | Data type | Required |
+| Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
 | **Id** | The name that appears in the File Explorer context menu. | An alphanumeric string with a value from 3 to 64 characters in length. | Yes |  |
 | **Clsid** | The class ID of the app. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
