@@ -71,7 +71,7 @@ None.
 
 ## Examples
 
-In this example, `*.microsoft.com` can handled as: `docs.microsoft.com`, `developer.microsoft.com`, `foo.microsoft.com`, etc.
+In this example, `*.microsoft.com` can handled as: `learn.microsoft.com`, `developer.microsoft.com`, `foo.microsoft.com`, etc.
 
 ```xml
 <Package ...
