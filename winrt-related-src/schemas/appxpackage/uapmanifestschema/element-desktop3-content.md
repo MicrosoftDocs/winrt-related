@@ -46,8 +46,8 @@ Defines the content information of an AutoPlayHandler.
 |-|-|-|-|-|
 | **ContentEvent** | The name of a content event raised when a volume device such as a camera memory card, USB drive, or DVD is inserted into the PC. | A string with a value between 1 and 255 characters in length. Backward slashes (`\`) are not allowed. | Yes |  |
 | **Verb** | A literal value, specifying the action. Possible values can include (but aren't limited to): Show, play, import, and open. | A string with a value between 1 and 64 characters in length that consists of letters, numbers, periods (`.`), dashes (`-`), and spaces only. | Yes |  |
-| **DropTargetHandler** | An GUID that identifies the class ID of the app that implements the [IDropTarget](/dotnet/api/microsoft.visualstudio.ole.interop.idroptarget?view=visualstudiosdk-2017) interface. | An optional GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |  |
-| **Parameters** | Parameters provided to start your app if the [IDropTarget](/dotnet/api/microsoft.visualstudio.ole.interop.idroptarget?view=visualstudiosdk-2017) interface is not implemented. | An optional string with a value between 1 and 256 characters in length. | No |  |
+| **DropTargetHandler** | An GUID that identifies the class ID of the app that implements the [IDropTarget](/dotnet/api/microsoft.visualstudio.ole.interop.idroptarget) interface. | An optional GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |  |
+| **Parameters** | Parameters provided to start your app if the [IDropTarget](/dotnet/api/microsoft.visualstudio.ole.interop.idroptarget) interface is not implemented. | An optional string with a value between 1 and 256 characters in length. | No |  |
 
 ### Child elements
 
