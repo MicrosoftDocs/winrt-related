@@ -1,61 +1,57 @@
 ---
-
 ms.assetid: 948fbf9b-c4c8-42d6-8659-04392d3c13f2
 title: desktop2:TypeSupported
 description: Specifies the types of events that are supported.
-
 ms.date: 04/05/2017
 ms.topic: reference
-
-
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 
 # desktop2:TypeSupported
 
-
-## Description
 Specifies the types of events that are supported.
 
 ## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop2-package-extension.md">&lt;desktop2:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop2-DesktopEventLogging.md">&lt;desktop2:DesktopEventLogging&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop2-typessupported.md">&lt;desktop2:TypesSupported&gt;</a></dt>
-<dd><b>&lt;desktop2:TypeSupported&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
 
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop2:Extension\>](element-desktop2-package-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop2:DesktopEventLogging\>](element-desktop2-DesktopEventLogging.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop2:TypesSupported\>](element-desktop2-typessupported.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop2:TypeSupported\>**
 
 ## Syntax
-```syntax
-<desktop2:TypeSupported Value = A string value that specifies the type of event logging. See the Attributes table for more info. >
+
+```xml
+<desktop2:TypeSupported
+  Value = 'A string that can have one of the following values: "EVENTLOG_AUDIT_FAILURE", "EVENTLOG_AUDIT_SUCCESS", "EVENTLOG_ERROR_TYPE", "EVENTLOG_INFORMATION_TYPE", or "EVENTLOG_WARNING_TYPE".' />
 ```
 
-## Attributes
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| Value | The value of event log types supported. | One of the following string values: <ul><li>EVENTLOG_AUDIT_FAILURE</li><li>EVENTLOG_AUDIT_SUCCESS</li><li>EVENTLOG_ERROR_TYPE</li><li>EVENTLOG_INFORMATION_TYPE</li><li>EVENTLOG_WARNING_TYPE</li></ul> | Yes |
+## Attributes and elements
+
+### Attributes
+
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Value** | The value of event log types supported. | A string that can have one of the following values: *EVENTLOG_AUDIT_FAILURE*, *EVENTLOG_AUDIT_SUCCESS*, *EVENTLOG_ERROR_TYPE*, *EVENTLOG_INFORMATION_TYPE*, or *EVENTLOG_WARNING_TYPE*. | Yes |  |
+
+### Child elements
+
+None.
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [desktop2:TypesSupported](element-desktop2-typessupported.md) | Contains the event log types that are supported. |
 
 ## Requirements
 
-|               |       Value                                                      |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/2` |
+| Item  | Value  |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/2` |

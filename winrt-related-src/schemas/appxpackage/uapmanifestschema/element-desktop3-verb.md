@@ -1,72 +1,62 @@
 ---
-
 title: desktop3:Verb
 description: Specifies the names of items in the File Explorer context menu for cloud based placeholder files.
-
 ms.date: 10/10/2017
 ms.topic: reference
-
-
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 
 # desktop3:Verb
 
-## Description
 Specifies the names of items in the File Explorer context menu for cloud based placeholder files.
 
-## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop3-extension.md">&lt;desktop3:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop3-cloudfiles.md">&lt;desktop3:CloudFiles&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop3-cloudfilescontextmenus.md">&lt;desktop3:CloudFilesContextMenus&gt;</a></dt>
-<dd><b>&lt;desktop3:Verb&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+## Element hierarchy
 
+[\<Package\>](element-package.md)
 
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop3:Extension\>](element-desktop3-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop3:CloudFiles\>](element-desktop3-cloudfiles.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop3:CloudFilesContextMenu\>](element-desktop3-cloudfilescontextmenus.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop3:Verb\>**
 
 ## Syntax
-```syntax
-<desktop3:Verb Id    = An alphanumeric string from 3 to 64 characters in length.
-               Clsid = A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. />
+
+```xml
+<desktop3:Verb
+  Id = 'An alphanumeric string with a value from 3 to 64 characters in length.'
+  Clsid = 'A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.' />
 ```
 
-## Attributes
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| Id | The name that appears in the File Explorer context menu.  | An alphanumeric string from 3 to 64 characters in length. | Yes |
-| Clsid | The class ID of the app that implements the context menu. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |
+## Attributes and elements
+
+### Attributes
+
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Id** | The name that appears in the File Explorer context menu.  | An alphanumeric string from 3 to 64 characters in length. | Yes |  |
+| **Clsid** | The class ID of the app that implements the context menu. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
+
+### Child elements
+
+None.
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [desktop3:CloudFilesContextMenus](element-desktop3-cloudfilescontextmenus.md) | Registration of a context menu for a cloud based placeholder file. |
 
 ## Requirements
 
-|               |      Value                                                       |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/3` |
+| Item  | Value  |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/3` |

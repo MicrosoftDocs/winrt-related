@@ -8,60 +8,55 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 # com4:InProcessHandler
 
-
-
-## Description
 Registers an in-process handler with one or many class registrations.
 
+## Element hierarchy
 
+[\<Package\>](element-package.md)
 
-## Element Hierarchy
-<dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dd><b>&lt;com4:InProcessHandler&gt;</b></dd></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com4:InProcessHandler\>**
 
 ## Syntax
-```syntax
-<com4:InProcessHandler     Path? = A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *, ending with the case-insensitive file extension ".dll".
->
-<!-- Child elements -->
+
+```xml
+<com4:InProcessHandler
+  Path = 'An optional string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *, ending with the case-insensitive file extension ".dll".' >
+
+  <!-- Child elements -->
   Class
   InProcessHandlerDll
   ClassReference
+
 </com4:InProcessHandler>
 ```
 
-## Key
-`?`    optional (zero or one) 
+## Attributes and elements
 
+### Attributes
 
-## Attributes
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| Path | The full path to the in-process handler DLL. | An optional string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`, ending with the case-insensitive file extension `.dll`. | No |  |
 
-| Attribute | Description | Data type | Required |
-| -----------| -------------| -----------| ----------|
-| Path | The full path to the in-process handler DLL. | One of the following values: A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", ,, ?, or *, ending with the case-insensitive file extension ".dll".| No |
+### Child elements
 
-
-## Child Elements
-
-| Element | Description |
-| -----------| -------------|
-| [Class](element-com4-inprocesshandler-class.md) | Defines an in-process handler class registration.  |
+| Child element | Description |
+|-|-|
+| [Class](element-com4-inprocesshandler-class.md) | Defines an in-process handler class registration. |
 | [InProcessHandlerDll](element-com4-inprocesshandlerdll.md) | Specifies the path and processor architecture of an in-process handler DLL. |
 | [ClassReference](element-com4-inprocesshandler-classreference.md) | Specifies the class with which the registered in-process handler is associated and sets registration details. |
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [Extensions](element-1-extensions.md) | Defines one or more extensibility points for the app. |
 
 ## Remarks
 
@@ -75,9 +70,8 @@ The following example shows how to register a class and an in-process handler dl
 </com4:InProcessHandler>
 ```
 
-
-
 ## Requirements
-| Prefix | Value |
-| ---------------| -------------------------------------------------------------|
-| com4 | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
+
+|   | Value  |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |

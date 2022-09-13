@@ -8,60 +8,56 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 # com4:MiscStatus
 
-
-
-## Description
 Specifies how to create and display an object.
 
+## Element hierarchy
 
+[\<Package\>](element-package.md)
 
-## Element Hierarchy
-<dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-com4-class.md">&lt;com4:Class&gt;</a></dt>
-<dd>
-<b>&lt;com4:MiscStatus&gt;</b>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com4:Class\>](element-com4-managedinprocessserver-class.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com4:MiscStatus\>**
 
 ## Syntax
-```syntax
-<com4:MiscStatus     OleMiscFlag = An integer value in the range of 0-4194303.
->
-<!-- Child elements -->
+
+```xml
+<com4:MiscStatus
+  OleMiscFlag = 'An integer with a value between 0 and 4194303.' >
+
+  <!-- Child elements -->
   Aspect
+
 </com4:MiscStatus>
 ```
 
+## Attributes and elements
 
-## Attributes
+### Attributs
 
-| Attribute | Description | Data type | Required |
-| -----------| -------------| -----------| ----------|
-| OleMiscFlag | The integer value for the view aspect of the object. | An integer value in the range of 0-4194303.| Yes |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **OleMiscFlag** | The integer value for the view aspect of the object. | An integer with a value between 0 and 4194303. | Yes |  |
 
+### Child elements
 
-## Child Elements
-
-| Element | Description |
-| -----------| -------------|
+| Child element | Description |
+|-|-|
 | [Aspect](element-com4-aspect.md) | Specifies the desired data or view aspect of the object when drawing or getting data. |
 
+### Parent element
+
+| Parent element | Description |
+|-|-|
+| [com4:class](element-com4-managedinprocessserver-class.md) | Specifies the class with which the managed in-process server is associated and sets registration details. |
+
 ## Requirements
-| Prefix | Value |
-| ---------------| -------------------------------------------------------------|
-| com4 | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
+
+|   | Value  |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
