@@ -1,55 +1,34 @@
 ---
-
 title: desktop4:DesktopIconOverlayHandlers
 description: Contains Windows Shell icon overlay handlers for cloud based placeholder files.  
-
 ms.date: 04/10/2018
 ms.topic: reference
-
-
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 
 # desktop4:DesktopIconOverlayHandlers
 
-## Description
 Contains Windows Shell icon overlay handlers for cloud based placeholder files. 
 
+## Element hierarchy
 
-## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop3-extension.md">&lt;desktop3:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop3-cloudfiles.md">&lt;desktop3:CloudFiles&gt;</a></dt>
-<dd><b>&lt;desktop4:DesktopIconOverlayHandlers&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
 
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop3:Extension\>](element-desktop3-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop3:CloudFiles\>](element-desktop3-cloudfiles.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop4:DesktopIconOverlayHandlers\>**
 
 ## Syntax
-```syntax
+
+```xml
 <desktop4:DesktopIconOverlayHandlers>
     
   <!-- Child elements -->
@@ -59,19 +38,33 @@ Contains Windows Shell icon overlay handlers for cloud based placeholder files.
 ```
 
 ### Key
+
 `{}`   specific range of occurrences
 
-## Child Elements
+## Attributes and elements
 
-| Child Element | Description |
-|---------------|-------------|
+### Attributes
+
+None.
+
+### Child elements
+
+| Child element | Description |
+|-|-|
 | [desktop4:DesktopIconOverlayHandler](element-desktop4-desktopiconoverlayhandler.md) | Registration for a Windows Shell icon overlay handler. |
 
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [desktop3:CloudFiles](element-desktop3-cloudfiles.md) | Registration for the handlers implemented in an application and context menu options for cloud based placeholder files. |
+
 ## See Also
+
 [How to Register Icon Overlay Handlers](/windows/win32/shell/how-to-register-icon-overlay-handlers)
 
 ## Requirements
 
-|               |   Value                                                          |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/4` |
+| Item  | Value  |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/4` |
