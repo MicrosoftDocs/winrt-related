@@ -1,49 +1,32 @@
 ---
-
 title: desktop4:FileExplorerContextMenus
 description: Registers items for the context menu of File Explorer.
-
 ms.date: 04/10/2018
 ms.topic: reference
-
-
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 
 # desktop4:FileExplorerContextMenus
 
-## Description
 Registers items for the context menu of File Explorer.
 
-## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop4-extension.md">&lt;desktop4:Extension&gt;</a></dt>
-<dd><b>&lt;desktop4:FileExplorerContextMenus&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+## Element hierarchy
 
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop4:Extension\>](element-desktop4-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop4:FileExplorerContextMenus\>**
 
 ## Syntax
-```syntax
+
+```xml
 <desktop4:FileExplorerContextMenus>
     desktop4:ItemType{0,10000}
     desktop5:ItemType{0,10000}
@@ -51,15 +34,27 @@ Registers items for the context menu of File Explorer.
 ```
 
 ### Key
+
 `{}` specific range of occurrences
 
+## Attributes and elements
 
-## Child Elements
+### Attributes
 
-| Child Element | Description |
-|---------------|-------------|
+None.
+
+## Child elements
+
+| Child element | Description |
+|-|-|
 | [desktop4:ItemType](element-desktop4-itemtype.md) (Windows 10, version 1803) | Contains the type of command to be registered in the context menu. |  
-| [desktop5:ItemType](element-desktop5-itemtype.md) (Windows 10, version 1809 and later) | Contains the type of command to be registered in the context menu. |  
+| [desktop5:ItemType](element-desktop5-itemtype.md) (Windows 10, version 1809 and later) | Contains the type of command to be registered in the context menu. |
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [desktop4:Extension](element-desktop4-extension.md) | Declares an extensibility point for the app. |
 
 ## Remarks
 
@@ -69,6 +64,6 @@ For a code sample that demonstrates how to implement a context menu handler by i
 
 ## Requirements
 
-|               |      Value                                                       |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/4` |
+| Item  | Value  |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/4` |
