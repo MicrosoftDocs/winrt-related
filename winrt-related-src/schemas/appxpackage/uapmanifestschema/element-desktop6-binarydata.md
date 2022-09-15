@@ -64,4 +64,4 @@ This element requires the **packagedServices** or **localSystemServices** [restr
 
 | Item  | Value  |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/5` |
+| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/6` |
