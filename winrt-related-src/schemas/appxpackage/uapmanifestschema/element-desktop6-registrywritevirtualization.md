@@ -1,11 +1,7 @@
 ---
 description: Indicates whether virtualization for the registry is enabled for your desktop application.
 title: desktop6:RegistryWriteVirtualization
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 04/19/2019
 ms.custom: 19H1
@@ -20,41 +16,36 @@ Indicates whether virtualization for the registry is enabled for your desktop ap
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-properties.md">&lt;Properties&gt;</a></dt>
-<dd><b>&lt;desktop6:RegistryWriteVirtualization&gt;</b></dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop6:RegistryWriteVirtualization\>**
 
 ## Syntax
 
 ``` xml
-<desktop6:RegistryWriteVirtualization>disabled</desktop6:RegistryWriteVirtualization>
+<desktop6:RegistryWriteVirtualization>"enabled" -or- "disabled"</desktop6:RegistryWriteVirtualization>
 ```
 
 ## Value
 
-This element can have the value **enabled** or **disabled**. The default is **enabled**. 
+This element can have the value **enabled** or **disabled**. The default is **enabled**.
 
 ## Attributes and Elements
-
 
 ### Attributes
 
 None.
 
-### Child Elements
+### Child elements
 
 None.
 
-### Parent Elements
+### Parent elements
 
-| Parent Element | Description |
-|---------------|-------------|
+| Parent element | Description |
+|-|-|
 | [Properties](element-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users.  |
 
 ## Remarks
@@ -63,10 +54,6 @@ This element requires the **unvirtualizedResources** [restricted capability](/wi
 
 ## Requirements
 
-|               |     Value                                                        |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/6` |
-
- 
-
- 
+| Item  | Value  |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/6` |
