@@ -49,7 +49,7 @@ None.
 ### Parent elements
 
 | Parent element | Description |
-|---------------|-------------|
+|-|-|
 | [Extension](element-desktop6-extension.md) | Defines an extensibility point for the application. |
 
 ## Remarks
