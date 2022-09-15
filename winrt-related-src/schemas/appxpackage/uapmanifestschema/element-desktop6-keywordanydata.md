@@ -13,6 +13,8 @@ Specifies a 64-bit unsigned integer value for a trigger event of a service.
 
 ## Element hierarchy
 
+[\<Package\>](element-package.md)
+
 &nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
