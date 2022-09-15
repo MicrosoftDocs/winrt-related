@@ -44,7 +44,7 @@ Specifies a string value for a trigger event of a service.
 
 ### Attributes
 
-| Attribute | Description | Data type | Required |
+| Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
 | **Value** | The value of the string. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
 
