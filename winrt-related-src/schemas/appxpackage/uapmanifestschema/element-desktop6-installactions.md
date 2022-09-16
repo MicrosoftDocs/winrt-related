@@ -1,8 +1,6 @@
 ﻿---
-
 title: desktop6:InstallActions
 description: Specifies installer files (.exe or .msi) that are run before the first launch of your desktop application.
-
 ms.date: 04/19/2019
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
@@ -11,37 +9,25 @@ ms.custom: 19H1
 
 # desktop6:InstallActions
 
-## Description
-
 Specifies installer files (.exe or .msi) that are run before the first launch of your desktop application. 
 
 > [!NOTE]
 > This element is currently intended to be used only by desktop PC games that are packaged in an MSIXVC container. It requires the **customInstallActions** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
 
-
 ## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop6-package-extension.md">&lt;desktop6:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop6-custominstall.md">&lt;desktop6:CustomInstall&gt;</a></dt>
-<dd><b>&lt;desktop6:InstallActions&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
 
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop6:Extension\>](element-desktop6-package-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop6:CustomInstall\>](element-desktop6-custominstall.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop6:InstallActions\>**
 
 ## Syntax
+
 ```xml
 <desktop6:InstallActions>
 
@@ -52,26 +38,26 @@ Specifies installer files (.exe or .msi) that are run before the first launch of
 ```
 
 ### Key
+
 `{}` specific range of occurrences
 
-## Attributes and Elements
+## Attributes and elements
 
 ### Attributes
 
 None.
 
-### Child Elements
+### Child elements
 
-| Child Element | Description |
-|---------------|-------------|
+| Child element | Description |
+|-|-|
 | [InstallAction](element-desktop6-installaction.md) | Specifies an installer file that is run before the first launch of your desktop application. |
 
-### Parent Elements
+### Parent elements
 
-| Parent Element | Description |
-|---------------|-------------|
+| Parent element | Description |
+|-|-|
 | [desktop6:CustomInstall](element-desktop6-custominstall.md) | Enables your desktop application to specify one or more additional installer files that are installed with your desktop application.  |
-
 
 ## Remarks
 
@@ -113,6 +99,6 @@ This element requires the **customInstallActions** [restricted capability](/wind
 
 ## Requirements
 
-|               |      Value                                                       |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/6` |
+| Item  | Value  |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/6` |
