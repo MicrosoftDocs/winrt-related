@@ -2,75 +2,50 @@
 title: desktop10:TypeSupported
 description: Specifies a supported event log type.
 keywords: windows 10, uwp, schema, manifest, desktop, extension
-
 ms.date: 05/23/2022
 ms.topic: reference
 ---
 
 # desktop10:TypeSupported
 
-## Description
-
 Specifies a supported event log type.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop10-extension.md">&lt;desktop10:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop10-customdesktopeventlog.md">&lt;desktop10:CustomDesktopEventLog&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop10-customeventsource.md">&lt;desktop10:CustomEventSource&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop10-eventmessagefiles.md">&lt;desktop10:TypesSupported&gt;</a></dt>
-<dd><strong>&lt;desktop10:TypeSupported&gt;</strong></dd>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop10:Extension\>](element-desktop10-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop10:CustomDesktopEventLog\>](element-desktop10-customdesktopeventlog.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop10:CustomEventSource\>](element-desktop10-customeventsource.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop10:TypesSupported\>](element-desktop10-typessupported.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop10:TypeSupported\>**
 
 ## Syntax
 
 ```xml
 <desktop10:TypeSupported
-  Value = A string value that can be one of the following: "auditFailure", "auditSuccess", "errorType", "informationType", or "warningType".
-  >
-
-</desktop10:TypeSupported>
+  Value = 'A string that can have one of the following values: "auditFailure", "auditSuccess", "errorType", "informationType", or "warningType".' />
 ```
-
-### Key
-
-`?` optional (zero or one)
 
 ## Attributes and elements
 
 ### Attributes
 
-| Attribute | Description | Data type | Required |
-|-|-|-|-|
-| Value | The supported event log type. | A string value that can be one of the following: "auditFailure", "auditSuccess", "errorType", "informationType", or "warningType". | Yes |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Value** | The supported event log type. | A string that can have one of the following values: *auditFailure*, *auditSuccess*, *errorType*, *informationType*, or *warningType*. | Yes |  |
 
-### Child Elements
+### Child elements
 
 None.
 
-### Parent Elements
+### Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -80,9 +55,8 @@ None.
 
 For more information on event log types, see [Event Sources](/windows/win32/eventlog/event-sources).
 
-
 ## Requirements
 
-| Namespace | Value |
-|-|-|
+| Item  | Value  |
+|--|--|
 | **desktop10** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |
