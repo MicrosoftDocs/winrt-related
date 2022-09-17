@@ -8,62 +8,47 @@ ms.topic: reference
 
 # desktop8:UserMutablePackageDirectory
 
-## Description
-
 Enables your desktop application to specify a folder where users can modify the installation files for your application (for example, to install mods).
 
-## Element Hierarchy
+## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</dt>
-<dd>
-<dl>
-<dt><a href="element-desktop8-extension.md">&lt;desktop8:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop8-usermutablepackagedirectories.md">&lt;desktop8:UserMutablePackageDirectories&gt;</a></dt>
-<dd><strong>&lt;desktop8:UserMutablePackageDirectory&gt;</strong></dd>
-</dd>
-</dl>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop8:Extension\>](element-desktop8-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop8:UserMutablePackageDirectories\>](element-desktop8-usermutablepackagedirectories.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<deesktop8:UserMutablePackageDirectory\>**
 
 ## Syntax
 
 ```xml
 <desktop8:UserMutablePackageDirectory
-          Target = An alphanumeric string that can also accept "/", "\", and/or "." characters representing the path to a file.
-          >
-
-</desktop8:UserMutablePackageDirectory>
+  Target = 'An alphanumeric string value that also accepts "/", "\", and "." characters, representing the path to a file.' />
 ```
 
 ## Attributes and Elements
 
 ### Attributes
 
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| Target | Specifies a path to the folder used to store the installation files. | An alphanumeric string that can also accept "/", "\\", and/or "." characters representing the path to a file. | Yes |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Target** | Specifies a path to the folder used to store the installation files. | An alphanumeric string value that also accepts "/", "\", and "." characters, representing the path to a file. | Yes |  |
 
-### Child Elements
+### Child elements
 
 None.
 
-### Parent Elements
+### Parent elements
 
-| Parent Element | Description |
-|----------------|-------------|
+| Parent element | Description |
+|-|-|
 | [desktop8:MutablePackageDirectories](element-desktop8-usermutablepackagedirectories.md) | Enables your desktop application to specify one or more folders where users can modify the installation files for your application (for example, to install mods). |
 
 ## Requirements
 
-| **Namespace** | **Value** |
-|---------------|-----------|
-| **desktop8** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/8` |
+| Item  | Value  |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/8` |
