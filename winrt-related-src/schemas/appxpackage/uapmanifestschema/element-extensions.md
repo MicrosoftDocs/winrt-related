@@ -92,6 +92,6 @@ The following example is taken from the package manifest of one of the SDK sampl
 
 ## Requirements
 
-|   | Value |
+| Item  | Value  |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |

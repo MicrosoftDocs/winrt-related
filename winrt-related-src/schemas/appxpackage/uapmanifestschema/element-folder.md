@@ -3,17 +3,12 @@ description: Specifies a folder that the package shares with other packages from
 Search.Product: eADQiWindows 10XVcnh
 title: Folder (Windows 10)
 ms.assetid: b412b98e-130a-4152-a264-49a42ef2d97c
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 04/05/2017
 ---
 
 # Folder (Windows 10)
-
 
 Specifies a folder that the package shares with other packages from the same publisher.
 
@@ -41,12 +36,12 @@ Specifies a folder that the package shares with other packages from the same pub
 
 ## Syntax
 
-``` syntax
-<Folder Name = A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *. />
+```xml
+<Folder
+    Name = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.' />
 ```
 
-## Attributes and Elements
-
+## Attributes and elements
 
 ### Attributes
 
@@ -78,13 +73,11 @@ Specifies a folder that the package shares with other packages from the same pub
 </tbody>
 </table>
 
- 
-
-### Child Elements
+### Child elements
 
 None.
 
-### Parent Elements
+### Parent elements
 
 <table>
 <colgroup>
@@ -105,8 +98,6 @@ None.
 </tbody>
 </table>
 
- 
-
 ## Examples
 
 ```XML
@@ -118,14 +109,6 @@ None.
 
 ## Requirements
 
-|   | Value  |
+| Item  | Value  |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
-
-
- 
-
- 
-
-
-
