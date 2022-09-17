@@ -8,95 +8,71 @@ ms.topic: reference
 
 # desktop8:Publishing
 
-## Description
-
 Provides access to the Publishing feature within an Event Tracing channel.
 
-## Element Hierarchy
+## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</dt>
-<dd>
-<dl>
-<dt><a href="element-desktop8-extension.md">&lt;desktop8:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop8-eventtracing.md">&lt;desktop8:EventTracing&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop8-provider.md">&lt;desktop8:Provider&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop8-channels.md">&lt;desktop8:Channels&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop8-channel.md">&lt;desktop8:Channel&gt;</a></dt>
-<dd><strong>&lt;desktop8:Publishing&gt;</strong></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop8:Extension\>](element-desktop8-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop8:EventTracing\>](element-desktop8-eventtracing.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop8:Provider\>](element-desktop8-provider.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop8:Channels\>](element-desktop8-channels.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop8:Channel\>](element-desktop8-channel.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop8:Publishing\>**
 
 ## Syntax
 
 ```xml
 <desktop8:Publishing
-          Level?       = A byte-type number value.
-          Keywords?    = A long-type number value.
-          ControlGuid? = A hexadecimal string that may only contain the following values: 0-9 or A-F (uppercase or lowercase) representing the unique identifier of the provider.
-          BufferSize?  = An integer-type number value.
-          FileMax?     = An integer-type number value.
-          MinBuffers?  = An integer-type number value.
-          MaxBuffers?  = An integer-type number value.
-          Latency?     = An integer-type number value.
-          ClockType?   = Specifies the clock type to be used during publishing. | A string value that can be one of the following: "systemTime" or "queryPerformanceCounter".
-          SidType?     = Specifies the security identifier type for publishing. | A string value that can be one of the following: "none", or "publishing".
-          >
-
-</desktop8:Publishing>
+  Level = 'An optional number with a value between 0 and 127 characters.'
+  Keywords = 'An optional string with a value between 0 and 4294967295 characters.'
+  ControlGuid = 'An optional hexadecimal string that may only contain the following values: "0-9" or "A-F" (uppercase or lowercase) representing the unique identifier of the provider.'
+  BufferSize = 'An optional integer value.'
+  FileMax = 'An optional integer value.'
+  MinBuffers = 'An optional integer value.'
+  MaxBuffers = 'An optional integer value.'
+  Latency = 'An optional integer value.'
+  ClockType = 'An optional string that can have one of the following values: "systemTime" or "queryPerformanceCounter".'
+  SidType = 'A string that can have one of the following values: "none" or "publishing".' />
 ```
 
-## Attributes and Elements
+## Attributes and elements
 
 ### Attributes
 
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| Level | Specifies the level for publishing. | A byte-type number value. | No |
-| Keywords | Specifies the keywords used for publishing. | A long-type number value. | No |
-| ControlGuid | Specifies the GUID used for controlling publishing. | A hexadecimal string that may only contain the following values: 0-9 or A-F (uppercase or lowercase) representing the unique identifier of the provider. | No |
-| BufferSize | Specifies the buffer size during publishing. | An integer-type number value. | No |
-| FileMax | Specifies the maximum file size for publishing. | An integer-type number value. | No |
-| MinBuffers | Specifies the minimum buffer size during publshing. | An integer-type number value. | No |
-| MaxBuffers | Specifies the maximum buffer size during publishing. | An interger-type number value. | No |
-| Latency | Specifies the latency to accept when publishing. | An integer-type number value. | No |
-| ClockType | Specifies the clock type to be used during publishing. | A string value that can be one of the following: "systemTime" or "queryPerformanceCounter". | No |
-| SidType | Specifies the security identifier type for publishing. | A string value that can be one of the following: "none", or "publishing". | No |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Level** | Specifies the level for publishing. | An optional number with a value between 0 and 127 characters. | No |  |
+| **Keywords** | Specifies the keywords used for publishing. | An optional string with a value between 0 and 4294967295 characters. | No |  |
+| **ControlGuid** | Specifies the GUID used for controlling publishing. | An optional hexadecimal string that may only contain the following values: `0-9` or `A-F` (uppercase or lowercase) representing the unique identifier of the provider. | No |  |
+| **BufferSize** | Specifies the buffer size during publishing. | An optional integer value. | No |  |
+| **FileMax** | Specifies the maximum file size for publishing. | An optional integer value. | No |  |
+| **MinBuffers** | Specifies the minimum buffer size during publshing. | An optional integer value. | No |  |
+| **MaxBuffers** | Specifies the maximum buffer size during publishing. | An optional integer value. | No |  |
+| **Latency** | Specifies the latency to accept when publishing. | An optional integer value. | No |  |
+| **ClockType** | Specifies the clock type to be used during publishing. | An optional string that can have one of the following values: *systemTime* or *queryPerformanceCounter*. | No |  |
+| **SidType** | Specifies the security identifier type for publishing. | A string that can have one of the following values: *none* or *publishing*. | No |  |
 
-### Child Elements
+### Child elements
 
 None.
 
-### Parent Elements
+### Parent elements
 
-| Parent Element | Description |
-|----------------|-------------|
+| Parent element | Description |
+|-|-|
 | [desktop8:Channel](element-desktop8-channel.md) | Specifies a channel to be used for event tracing. |
 
 ## Requirements
 
-| **Namespace** | **Value** |
-|---------------|-----------|
-| **desktop8** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/8` |
+| Item  | Value  |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/8` |
