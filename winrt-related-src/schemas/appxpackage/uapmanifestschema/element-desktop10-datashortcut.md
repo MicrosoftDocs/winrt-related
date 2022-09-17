@@ -42,7 +42,7 @@ Creates a shortcut to a file that is not an executable.
 ### Attributes
 
 | Attribute | Description | Data type | Required | Default value |
-|-|-|-|-|
+|-|-|-|-|-|
 | **Path** | The package-relative path to the file. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
 | **DisplayName** | The name to display on the start menu. | An alphanumeric string with a value between 1 and 256 characters in length. | Yes |  |
 | **WorkingDirectory** | The package-relative working directory. | An optional string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |  |
