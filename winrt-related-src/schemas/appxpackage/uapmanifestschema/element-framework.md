@@ -51,15 +51,10 @@ None.
 
 A package marked as a framework package cannot declare dependencies on other packages.
 
-A framework package cannot define the [**Applications**](element-applications.md) or [**Capabilities**](element-capabilities.md) node.
+A framework package cannot define the [Applications](element-applications.md) or [Capabilities](element-capabilities.md) node.
 
 ## Requirements
 
-|   | Value |
+| Item  | Value  |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
-
-
- 
-
- 
