@@ -3,30 +3,24 @@ description: Defines one or more extensibility points for the package (Windows 
 Search.Product: eADQiWindows 10XVcnh
 title: Extensions (in Package) (Windows 10)
 ms.assetid: 837ae066-b590-4f58-b552-2e9d608f0fac
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 04/05/2017
 ---
 
 # Extensions (in Package) (Windows 10)
 
-
 Defines one or more extensibility points for the package.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd><b>&lt;Extensions&gt;</b></dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;**\<Extensions\>**
 
 ## Syntax
 
-``` syntax
+```xml
 <Extensions>
 
   <!-- Child elements -->
@@ -38,65 +32,30 @@ Defines one or more extensibility points for the package.
 ### Key
 
 `{}`   specific range of occurrences
-## Attributes and Elements
 
+## Attributes and elements
 
 ### Attributes
 
 None.
 
-### Child Elements
+### Child elements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Child Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-extension.md">Extension (in type: CT_PackageExtensions)</a> </td>
-<td><p>Declares an extensibility point for the package.</p></td>
-</tr>
-</tbody>
-</table>
+| Child element | Description |
+|-|-|
+| [Extension (in type: CT_PackageExtensions)](element-extension.md) | Declares an extensibility point for the package. |
 
- 
+### Parent elements
 
-### Parent Elements
-
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-package.md">Package</a> </td>
-<td><p>Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system.</p></td>
-</tr>
-</tbody>
-</table>
-
- 
+| Parent element | Description |
+|-|-|
+| [Package](element-package.md) | Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system. |
 
 ## Related elements
 
-
 The following elements have the same name as this one, but different content or attributes:
 
--   **[Extensions (type: CT_ApplicationExtensions)](element-1-extensions.md)**
+- [Extensions (type: CT_ApplicationExtensions)](element-1-extensions.md)
 
 ## Remarks
 
@@ -106,7 +65,7 @@ Extensibility points are a mechanism by which an app can add functionality in a 
 
 The following example is taken from the package manifest of one of the SDK samples.
 
-```XML
+```xml
 <Package>
   <Extensions>
     <Extension Category="windows.activatableClass.proxyStub">
@@ -125,22 +84,14 @@ The following example is taken from the package manifest of one of the SDK sampl
     </Extension>
   </Extensions>
 </Package>
-
 ```
 
 ## See also
 
-
-**Concepts**
-[App contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10))
+- [App contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10))
 
 ## Requirements
 
 |   | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
-
-
- 
-
- 
