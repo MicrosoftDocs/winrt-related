@@ -72,6 +72,6 @@ For more information on custom event logs, see [Eventlog Key](/windows/win32/eve
 
 ## Requirements
 
-| Namespace | Value |
-|-|-|
+| Item  | Value  |
+|--|--|
 | **desktop10** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |

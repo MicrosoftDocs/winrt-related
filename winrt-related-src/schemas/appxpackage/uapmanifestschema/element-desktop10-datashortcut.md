@@ -69,7 +69,7 @@ Apps that specify multiple data shortcuts should specifiy unique AUMID values fo
 
 ## Requirements
 
-| Namespace | Value |
-|-|-|
+| Item  | Value  |
+|--|--|
 | **desktop10** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |
 | **uap10** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |

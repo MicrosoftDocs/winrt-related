@@ -70,6 +70,6 @@ For more information on custom event sources, see [Event Sources](/windows/win32
 
 ## Requirements
 
-| Namespace | Value |
-|-|-|
+| Item  | Value  |
+|--|--|
 | **desktop10** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |
