@@ -8,26 +8,17 @@ ms.topic: reference
 
 # desktop8:UserMutablePackageDirectories
 
-## Description
-
 Enables your desktop application to specify one or more folders where users can modify the installation files for your application (for example, to install mods).
 
-## Element Hierarchy
+## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</dt>
-<dd>
-<dl>
-<dt><a href="element-desktop8-extension.md">&lt;desktop8:Extension&gt;</a></dt>
-<dd><strong>&lt;desktop8:UserMutablePackageDirectories&gt;</strong></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop8:Extension\>](element-desktop8-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop8:UserMutablePackageDirectories\>**
 
 ## Syntax
 
@@ -40,26 +31,26 @@ Enables your desktop application to specify one or more folders where users can 
 </desktop8:UserMutablePackageDirectories>
 ```
 
-## Attributes and Elements
+## Attributes and elements
 
 ### Attributes
 
 None.
 
-### Child Elements
+### Child elements
 
-| Child Element | Description |
-|---------------|-------------|
+| Child element | Description |
+|-|-|
 | [desktop8:UserMutablePackageDirectory](element-desktop8-usermutablepackagedirectory.md) | Enables your desktop application to specify a folder where users can modify the installation files for your application (for example, to install mods). |
 
-### Parent Elements
+### Parent elements
 
-| Parent Element | Description |
-|----------------|-------------|
+| Parent element | Description |
+|-|-|
 | [desktop8:Extension (in Package/Application)](element-1-extensions.md) | Declares an extensibility point for the application. |
 
 ## Requirements
 
-| **Namespace** | **Value** |
-|---------------|-----------|
-| **desktop8** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/8` |
+| Item  | Value  |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/8` |
