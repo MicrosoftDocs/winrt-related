@@ -2,38 +2,29 @@
 title: desktop10:DataShortcuts
 description: Specifies a list of non-executable shortcuts.
 keywords: windows 10, uwp, schema, manifest, desktop, extension
-
 ms.date: 05/23/2022
 ms.topic: reference
 ---
 
 # desktop10:DataShortcuts
 
-## Description
-
-Specifies a list of non-executable shortcuts. 
+Specifies a list of non-executable shortcuts.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop10-extension.md">&lt;desktop10:Extension&gt;</a></dt>
-<dd><strong>&lt;desktop10:DataShortcuts&gt;</strong></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop10:Extension\>](element-desktop10-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop10:DataShortcuts\>**
 
 ## Syntax
 
 ```xml
 <desktop10:DataShortcuts>
+
   <!-- Child Elements -->
   desktop10:DataShortcut
 
@@ -50,13 +41,13 @@ Specifies a list of non-executable shortcuts.
 
 None.
 
-### Child Elements
+### Child elements
 
 | Child element | Description |
 |-|-|
 | [desktop10:DataShortcut](element-desktop10-datashortcut.md) | Creates a shortcut to a file that is not an executable. |
 
-### Parent Elements
+### Parent elements
 
 | Parent element | Description |
 |-|-|
