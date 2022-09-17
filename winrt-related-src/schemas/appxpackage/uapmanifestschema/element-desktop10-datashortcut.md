@@ -50,7 +50,7 @@ Creates a shortcut to a file that is not an executable.
 | **Comment** | A comment for the shortcut. | An optional string with a value between 1 and 2048 characters. | No |  |
 | **Icon** | The icon image to show up for the lnk file, in [Multilingual User Interface](/windows/win32/intl/multilingual-user-interface) string format. If no icon is specified, the shell selects a default icon. | An optional string with a value between 1 and 256 characters in length that  cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |  |
 | **IconIndex** | The index of the icon within the current icon file. | An optional numerical value between 0 and 255. | No |  |
-| **AUMID** | The Application User Model ID (AUMID) associated with the shortcut. See Remarks for more information. |An optional string with a value between 1 and 32767 characters that cannot begin or end with a whitespace character. | No |  |  |
+| **AUMID** | The Application User Model ID (AUMID) associated with the shortcut. See Remarks for more information. |An optional string with a value between 1 and 32767 characters that cannot begin or end with a whitespace character. | No |  |
 | **uap10:Parameters** | Contains command line parameters to pass to the extension. Only supported for desktop apps that have package identity. | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
 
 ### Child elements
