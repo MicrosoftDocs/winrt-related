@@ -33,7 +33,7 @@ These upgrades can be non-seamless (we must drop the cellular call before starti
 ## Syntax
 
 ```xml
-<VoipCallUpgrade
+<uap:VoipCallUpgrade
   SeamlessCallUpgrade = 'An optional boolean value.' />
 ```
 
