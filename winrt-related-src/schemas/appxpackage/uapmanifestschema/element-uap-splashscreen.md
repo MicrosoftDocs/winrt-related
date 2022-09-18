@@ -27,7 +27,7 @@ Defines the appearance of the splash screen, which is displayed by the app durin
 ## Syntax
 
 ```xml
-<SplashScreen
+<uap:SplashScreen
     BackgroundColor = 'An optional three-byte hexadecimal number preceded by "#" or a named color. See the [Remarks](#remarks) for a list of named colors.'
     Image = 'A string with a value between 1 and 256 characters in length that ends with ".jpg", ".png", or ".jpeg" that cannot contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters cannot be the first or last characters. Also, the string can contain / or \ but not both.' 
     uap5:Optional = 'An optional boolean value.' />
