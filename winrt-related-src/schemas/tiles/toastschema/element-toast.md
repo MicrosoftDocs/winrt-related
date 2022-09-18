@@ -147,7 +147,7 @@ Base toast element, which contains at least a single [**visual**](element-visual
 </tr>
 </tr>
 <tr class="odd">
-<td><a href="element-header.md">visual</a> </td>
+<td><a href="element-header.md">header</a> </td>
 <td><p>Introduced in Creators Update. Specifies a custom header that groups multiple notifications together within Action Center.</p></td>
 </tr>
 </tbody>
