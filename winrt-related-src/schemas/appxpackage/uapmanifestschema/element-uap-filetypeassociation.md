@@ -29,7 +29,7 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 ## Syntax
 
 ```xml
-<FileTypeAssociation
+<uap:FileTypeAssociation
   Name = 'A string with a value between 1 and 100 characters in length.'
   DesiredView = 'An optional string that can have one of the following values: "default", "useLess", "useHalf", "useMore", or "useMinimum".'
   desktop2:UseUrl = 'An optional boolean value.'

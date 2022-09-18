@@ -27,7 +27,7 @@ Defines the badge and notifications that represent the app on the lock screen, w
 ## Syntax
 
 ```xml
-<LockScreen
+<uap:LockScreen
   Notification = 'A string that can have one of the following values: "badge" or "badgeAndTileText".'
   BadgeLogo = 'A string with a value between 1 and 256 characters in length that ends with ".jpg", ".png", or ".jpeg" that cannot contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters cannot be the first or last characters. Also, the string can contain / or \ but not both.' />
 ```

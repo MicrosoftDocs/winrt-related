@@ -27,7 +27,7 @@ The default tile that represents your app on the Start screen. The icons specifi
 ## Syntax
 
 ```xml
-<DefaultTile
+<uap:DefaultTile
   Wide310x150Logo = 'An optional string with a value between 1 and 256 characters in length that ends with ".jpg", ".png", or ".jpeg" that cannot contain these characters: <, >, :, ", |, ?, or *. Additionally, the / and \ characters cannot be the first or last characters. Also, the string can contain / or \ but not both.'
   Square310x310Logo = 'An optional string with a value between 1 and 256 characters in length that ends with ".jpg", ".png", or ".jpeg" that cannot contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters cannot be the first or last characters. Also, the string can contain / or \ but not both.'
   Square71x71Logo = 'An optional string with a value between 1 and 256 characters in length that ends with ".jpg", ".png", or ".jpeg" that cannot contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters cannot be the first or last characters. Also, the string can contain / or \ but not both.'

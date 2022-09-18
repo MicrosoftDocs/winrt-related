@@ -31,7 +31,7 @@ These orientation preference choices apply to both the [splash screen](../appxma
 ## Syntax
 
 ```xml
-<InitialRotationPreference>
+<uap:InitialRotationPreference>
 
   <!-- Child elements -->
   uap:Rotation{1,4}

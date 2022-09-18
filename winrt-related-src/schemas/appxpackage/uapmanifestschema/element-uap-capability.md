@@ -23,7 +23,7 @@ Declares a capability required by a package.
 ## Syntax
 
 ```xml
-<Capability Name = 'A string that can have one of the following values: "documentsLibrary", "picturesLibrary", "videosLibrary", "musicLibrary", "enterpriseAuthentication", "sharedUserCertificates", "userAccountInformation", "removableStorage", "appointments", "contacts", "phoneCall", "blockedChatMessages", "objects3D", "voipCall", or "chat".' />
+<uap:Capability Name = 'A string that can have one of the following values: "documentsLibrary", "picturesLibrary", "videosLibrary", "musicLibrary", "enterpriseAuthentication", "sharedUserCertificates", "userAccountInformation", "removableStorage", "appointments", "contacts", "phoneCall", "blockedChatMessages", "objects3D", "voipCall", or "chat".' />
 ```
 
 ## Attributes and elements

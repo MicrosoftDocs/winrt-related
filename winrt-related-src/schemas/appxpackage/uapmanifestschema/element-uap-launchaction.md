@@ -31,7 +31,7 @@ Describes an AutoPlay content action.
 ## Syntax
 
 ```xml
-<LaunchAction
+<uap:LaunchAction
   Verb = 'A string with a value between 1 and 64 characters in length that consists of alphanumeric characters, periods ("."), dashes ("-"), and spaces only.'
   ActionDisplayName = 'A string with a value between 1 and 256 characters in length. This string is localizable.'
   ContentEvent = 'A string with a value between 1 and 255 characters in length. Backward slashes ("\") are not allowed.' />

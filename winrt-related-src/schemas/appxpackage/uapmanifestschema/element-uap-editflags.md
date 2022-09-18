@@ -31,7 +31,7 @@ Specifies the type of info the user sees when opening a file associated to the e
 ## Syntax
 
 ```xml
-<EditFlags
+<uap:EditFlags
   OpenIsSafe = 'An optional boolean value.'
   AlwaysUnsafe = 'An optional boolean value.' />
 ```

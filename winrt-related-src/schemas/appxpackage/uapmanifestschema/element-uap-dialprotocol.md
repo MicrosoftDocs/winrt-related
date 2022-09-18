@@ -29,7 +29,7 @@ Declares an app extensibility point of type **windows.dialProtocol**.
 ## Syntax
 
 ```xml
-<DialProtocol
+<uap:DialProtocol
     Name = 'A string with a value between 2 and 39 characters in length that can contain numbers, uppercase and lowercase letters, periods ("."), plus signs ("+"), or dashes ("-"). The string cannot start with a period (".").' />
 ```
 

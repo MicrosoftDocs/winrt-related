@@ -27,7 +27,7 @@ Declares an extensibility point for the app.
 ## Syntax
 
 ```xml
-<Extension
+<uap:Extension
   Category = 'A string that can have one of the following values: "windows.fileTypeAssociation", "windows.protocol", "windows.autoPlayContent", "windows.autoPlayDevice", "windows.shareTarget", "windows.search", "windows.fileOpenPicker", "windows.fileSavePicker", "windows.cachedFileUpdater", "windows.cameraSettings", "windows.accountPictureProvider", "windows.printTaskSettings", "windows.lockScreenCall", "windows.appointmentsProvider", "windows.alarm", "windows.webAccountProvider", "windows.dialProtocol", "windows.appService", "windows.mediaPlayback", "windows.print3DWorkflow", "windows.lockScreen", "windows.aboveLockScreen", "windows.personalAssistantLaunch", or "windows.voipCall".'
   Executable = 'A string with an optional value between 1 and 256 characters in length, that must end with ".exe", and cannot contain the following characters: <, >, :, ", |, ?, or *. Specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If the EntryPoint property is not specified, the EntryPoint defined for the app is used.'
   EntryPoint = 'A string with an optional value between 1 and 256 characters in length. Represents the task handling the extension (normally the fully namespace-qualified name of a Windows Runtime type). If EntryPoint is not specified, the EntryPoint defined for the app is used instead.'
@@ -115,21 +115,21 @@ For the following Extensions, Extension@ResourceGroup allows the background task
 For example, if the manifest had these three entries.
 
 ```xml
-        <Extension Category="windows.backgroundTasks" EntryPoint="Fabrikam.BackgroundTask" ResourceGroup="Group1">
-          <BackgroundTasks>
-            <Task Type="timer"/>
-          </BackgroundTasks>
-        </Extension>
-        <Extension Category="windows.backgroundTasks" EntryPoint="Fabrikam.BackgroundTask2" ResourceGroup="Group2">
-          <BackgroundTasks>
-            <Task Type="controlChannel"/>
-          </BackgroundTasks>
-        </Extension>
-        <Extension Category="windows.backgroundTasks" EntryPoint="Fabrikam.BackgroundTask3" ResourceGroup="Group2">
-          <BackgroundTasks>
-            <Task Type="pushNotification"/>
-          </BackgroundTasks>
-        </Extension>
+<Extension Category="windows.backgroundTasks" EntryPoint="Fabrikam.BackgroundTask" ResourceGroup="Group1">
+  <BackgroundTasks>
+    <Task Type="timer"/>
+  </BackgroundTasks>
+</Extension>
+<Extension Category="windows.backgroundTasks" EntryPoint="Fabrikam.BackgroundTask2" ResourceGroup="Group2">
+  <BackgroundTasks>
+    <Task Type="controlChannel"/>
+  </BackgroundTasks>
+</Extension>
+<Extension Category="windows.backgroundTasks" EntryPoint="Fabrikam.BackgroundTask3" ResourceGroup="Group2">
+  <BackgroundTasks>
+    <Task Type="pushNotification"/>
+  </BackgroundTasks>
+</Extension>
 ```
 
 Then the last two background tasks would be activated into the same instance of `backgroundtaskhost.exe` if they were activated concurrently. However, a separate instance of backgroundtaskhost.exe would be spun up for the first entry because it has a different ResourceGroup.
