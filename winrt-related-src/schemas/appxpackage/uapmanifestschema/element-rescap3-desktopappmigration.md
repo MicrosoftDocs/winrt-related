@@ -11,7 +11,7 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 
 Specifies where to redirect user tiles and pins to a Windows Desktop Bridge app.
 
-## Element Hierarchy
+## Element hierarchy
 
 [\<Package\>](element-package.md)
 
