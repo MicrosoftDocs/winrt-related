@@ -3,166 +3,74 @@ description: A supported file type specified as its file type extension (in uap:
 Search.Product: eADQiWindows 10XVcnh
 title: uap:FileType (uap:FileTypeAssociation/uap:SupportedFileTypes)
 ms.assetid: 9a872ee1-03fa-48f0-bc13-e35c7a22820e
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 04/05/2017
 ---
 
 # uap:FileType (in uap:FileTypeAssociation/uap:SupportedFileTypes) 
 
-
 A supported file type specified as its file type extension.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap-extension.md">&lt;uap:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap-filetypeassociation.md">&lt;uap:FileTypeAssociation&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap-supportedfiletypes.md">&lt;uap:SupportedFileTypes&gt;</a></dt>
-<dd><b>&lt;uap:FileType&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap:Extension\>](element-uap-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap:FileTypeAssociation\>](element-uap-filetypeassociation.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap:SupportedFileTypes\>](element-uap-supportedfiletypes.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap:FileType\>**
 
 ## Syntax
 
-``` syntax
-<uap:FileType ContentType? = A string that contains two components between 1 and 127 characters in length, separated by a forward slash ("/"). It follows the RFC 4288 naming requirements. 
-              uap4:ShellNewFileName? = A string between 1 and 256 characters in length that cannot contain these characters: &lt;, &gt;, :, ", |, ?, or *.
-              uap4:ShellNewDisplayName? = A string between 1 and 256 characters in length. This string is localizable. >
-
-  This element has no child elements.
-
-</uap:FileType>
+```xml
+<uap:FileType
+  ContentType = 'An optional string with a value that contains two components between 1 and 127 characters in length, separated by a forward slash ("/"). It follows the RFC 4288 naming requirements.'
+  uap4:ShellNewFileName = 'An optional string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
+  uap4:ShellNewDisplayName = 'A string with a value between 1 and 256 characters in length. This string is localizable.' />
 ```
 
 ### Key
 
 `?`   optional (zero or one)
 
-## Attributes and Elements
-
+## Attributes and elements
 
 ### Attributes
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-<th>Data type</th>
-<th>Required</th>
-<th>Default value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>ContentType</strong></td>
-<td><p>The content type.</p></td>
-<td>A string that contains two components between 1 and 127 characters in length, separated by a forward slash (&quot;/&quot;). It follows the RFC 4288 naming requirements.</td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>uap4:ShellNewFileName</strong></td>
-<td><p>The file from the package to be copied to the location where the user initiated the Shell New command.</p></td>
-<td>A string between 1 and 256 characters in length that cannot contain these characters: &lt;, &gt;, :, ", |, ?, or *.</td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>uap4:ShellNewDisplayName</strong></td>
-<td><p>The display name of the file type that shows when a user hovers over the "New" submenu in the Windows explorer.</p></td>
-<td>A string between 1 and 256 characters in length. This string is localizable.</td>
-<td>No</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **ContentType** | The type of the content. | An optional string with a value that contains two components between 1 and 127 characters in length, separated by a forward slash (`/`). It follows the RFC 4288 naming requirements. | No |  |
+| **uap4:ShellNewFileName** | The file from the package to be copied to the location where the user initiated the Shell New command. | An optional string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |  |
+| **uap4:ShellNewDisplayName** | The display name of the file type that shows when a user hovers over the "New" submenu in the Windows explorer. | A string with a value between 1 and 256 characters in length. This string is localizable. | No |  |
 
- 
-
-### Child Elements
+### Child elements
 
 None.
 
-### Parent Elements
+### Parent elements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-uap-supportedfiletypes.md">uap:SupportedFileTypes (type: CT_FTASupportedFileTypes)</a> </td>
-<td><p>Defines the file types associated with the app. They are unique per package and are case sensitive.</p></td>
-</tr>
-</tbody>
-</table>
-
- 
+| Parent element | Description |
+|-|-|
+| [uap:SupportedFileTypes (type: CT_FTASupportedFileTypes)](element-uap-supportedfiletypes.md) | Defines the file types associated with the app. They are unique per package and are case sensitive. |
 
 ## Related elements
 
-
 The following elements have the same name as this one, but different content or attributes:
 
--   **[uap:FileType (type: ST_FileType)](element-1-uap-filetype.md)**
+- **[uap:FileType (type: ST_FileType)](element-1-uap-filetype.md)**
 
 ## Requirements
 
-|   | Value |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
-
-
- 
-
- 
-
-
-
