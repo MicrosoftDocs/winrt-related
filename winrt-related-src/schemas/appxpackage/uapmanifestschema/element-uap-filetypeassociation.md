@@ -84,7 +84,7 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 | [uap2:SupportedVerbs](element-uap2-supportedverbs.md) | Contains verbs for a file context menu. |
 | [uap4:KindMap](element-uap4-kindmap.md) | Specifies what Kind is and how it's used. |
 | [rescap3:MigrationProgIds](element-rescap3-migrationprogids.md) | Contains [programmatic identifier (ProgID)](/windows/win32/shell/fa-progids) values that describe the application, component, and version of each desktop application from which you want to inherit file associations. |
-| [desktop2:ThumbnailHandler](element-desktop2-thumbnailhander.md) | Enables a ThumbnailProvider for a file type association. |
+| [desktop2:ThumbnailHandler](element-desktop2-thumbnailhandler.md) | Enables a ThumbnailProvider for a file type association. |
 | [desktop2:OleClass](element-desktop2-oleclass.md) | Enables OLE to get the OLE class registered for a given file extension. |
 | [desktop2:DesktopPreviewHandler](element-desktop2-DesktopPreviewHandler.md) | Enables declaration of a preview handler for a file type association. |
 | [desktop2:DesktopPropertyHandler](element-desktop2-DesktopPropertyHandler.md) | Enables declaration of a property handler for a file type association. |
