@@ -70,6 +70,6 @@ This is the outermost element in a document. It cannot be contained by any other
 
 ## Requirements
 
-|   | Value |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
