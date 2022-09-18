@@ -1,8 +1,6 @@
 ---
 description: Declares that the current package is a modification package for an enterprise application.
 title: rescap6:ModificationPackage
-
-
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/19/2019
@@ -10,19 +8,16 @@ ms.custom: 19H1
 ---
 
 # rescap6:ModificationPackage
+
 Declares that the current package is a [modification package](/windows/msix/modification-packages) for an enterprise application.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-properties.md">&lt;Properties&gt;</a></dt>
-<dd><b>&lt;rescap6:ModificationPackage&gt;</b></dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<rescap6:ModificationPackage\>**
 
 ## Syntax
 
@@ -30,20 +25,20 @@ Declares that the current package is a [modification package](/windows/msix/modi
 <rescap6:ModificationPackage>true</rescap6:ModificationPackage>
 ```
 
-## Attributes and Elements
+## Attributes and elements
 
 ### Attributes
 
 None.
 
-### Child Elements
+### Child elements
 
 None.
 
-### Parent Elements
+### Parent elements
 
-| Parent Element | Description |
-|---------------|-------------|
+| Parent element | Description |
+|-|-|
 | [Properties](element-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users. |  
 
 ## Remarks
@@ -54,8 +49,6 @@ For more information, see [Modification packages](/windows/msix/modification-pac
 
 ## Requirements
 
-
-|               |     Value                                                        |
-|---------------|-------------------------------------------------------------|
+| Item | Value |
+|--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/6` |
-

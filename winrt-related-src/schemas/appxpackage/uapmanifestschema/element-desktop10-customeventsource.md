@@ -15,33 +15,23 @@ Defines an event source within a custom event log.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop10-extension.md">desktop10:Extension</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop10-customdesktopeventlog.md">&lt;desktop10:CustomDesktopEventLog&gt;</a></dt>
-<dd><strong>&lt;desktop10:CustomEventSource&gt;</strong></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop10:Extension\>](element-desktop10-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop10:CustomDesktopEventLog\>](element-desktop10-customdesktopeventlog.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop10:CustomEventSource\>**
 
 ## Syntax
 
 ```xml
 <desktop10:CustomEventSource
-  EventSourceName      = A string value between 1 and 32767 characters in length that cannot start or end with a whitespace character. May contain whitespace characters in between the first and last values.
-  CategoryCount?       = An unsigned integer value. A number between -2147483648 and 2147483647.
-  CategoryMessageFile? = A string between 1 and 256 characters in length and cannot contain these characters: <, >, :, ", |, ?, or *.
+  EventSourceName = 'A string with a value between 1 and 32767 characters in length that cannot start or end with a whitespace character. May contain whitespace characters in between the first and last values.'
+  CategoryCount = 'An optional unsigned integer value. A number between -2147483648 and 2147483647.'
+  CategoryMessageFile = 'A string with a value between 1 and 256 characters in length and cannot contain these characters: <, >, :, ", |, ?, or *.'
   >
 
   <!-- Child Elements -->
@@ -51,28 +41,24 @@ Defines an event source within a custom event log.
 </desktop10:CustomEventSource>
 ```
 
-### Key
-
-`?` optional (zero or one)
-
 ## Attributes and elements
 
 ### Attributes
 
-| Attribute | Description | Data type | Required |
-|-|-|-|-|
-| EventSourceName | The name of the custom event source. Used as the registry key name. | A string value between 1 and 32767 characters in length that cannot start or end with a whitespace character. May contain whitespace characters in between the first and last values. | Yes |
-| CategoryCount | Number of event categories supported. | An unsigned integer value. A number between -2147483648 and 2147483647. | No |
-| CategoryMessageFile | Path to the category message file. A category message file contains language-dependent strings that describe the categories.  | A string between 1 and 256 characters in length and cannot contain these characters: <, >, :, ", &#124;, ?, or *. | No |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **EventSourceName** | The name of the custom event source. Used as the registry key name. | A string with a value between 1 and 32767 characters in length that cannot start or end with a whitespace character. May contain whitespace characters in between the first and last values. | Yes |
+| **CategoryCount** | Number of event categories supported. | An optional unsigned integer value. A number between -2147483648 and 2147483647. | No |
+| **CategoryMessageFile** | Path to the category message file. A category message file contains language-dependent strings that describe the categories.  | A string with a value between 1 and 256 characters in length and cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |
 
-### Child Elements
+### Child elements
 
 | Child element | Description |
 |-|-|
 | [desktop10:EventMessageFiles](element-desktop10-eventmessagefiles.md) | Defines 1 or more DLL files containing the language strings describing the events. |
 | [desktop10:TypesSupported](element-desktop10-typessupported.md) | Defines 1 or more of the event log types supported by the event source. |
 
-### Parent Elements
+### Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -84,6 +70,6 @@ For more information on custom event sources, see [Event Sources](/windows/win32
 
 ## Requirements
 
-| Namespace | Value |
-|-|-|
+| Item  | Value  |
+|--|--|
 | **desktop10** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |

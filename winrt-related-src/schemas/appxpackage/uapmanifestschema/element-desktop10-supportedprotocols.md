@@ -2,39 +2,29 @@
 title: desktop10:SupportedProtocols
 description: Specifies the supported URL protocol schemes for a given key.
 keywords: windows 10, uwp, schema, manifest, desktop, extension
-
 ms.date: 05/23/2022
 ms.topic: reference
 ---
 
 # desktop10:SupportedProtocols
 
-## Description
-
 Specifies the supported URL protocol schemes for a given key.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop10-extension.md">&lt;desktop10:Extension&gt;</a></dt>
-<dd><strong>&lt;desktop10:SupportedProtocols&gt;</strong></dd>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop10:Extension\>](element-desktop10-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop10:SupportedProtocols\>**
 
 ## Syntax
 
 ```xml
 <desktop10:SupportedProtocols>
+
   <!-- Child Elements -->
   desktop10:SupportedProtocol{0, 10000}
 
@@ -51,13 +41,13 @@ Specifies the supported URL protocol schemes for a given key.
 
 None.
 
-### Child Elements
+### Child elements
 
 | Child element | Description |
 |-|-|
 | [desktop10:SupportedProtocol](element-desktop10-supportedprotocol.md) | Specifies a URL protocol scheme. |
 
-### Parent Elements
+### Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -65,6 +55,6 @@ None.
 
 ## Requirements
 
-| Namespace | Value |
-|-|-|
+| Item  | Value  |
+|--|--|
 | **desktop10** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |

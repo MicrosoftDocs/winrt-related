@@ -3,143 +3,58 @@ description: The background task associated with the app extensibility point (Wi
 Search.Product: eADQiWindows 10XVcnh
 title: Task (Windows 10)
 ms.assetid: 4662ec1d-c245-4c60-b966-e27d5ce0699d
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 04/05/2017
 ---
 
 # Task (Windows 10)
 
-
 The background task associated with the app extensibility point.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extension.md">&lt;Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-backgroundtasks.md">&lt;BackgroundTasks&gt;</a></dt>
-<dd><b>&lt;Task&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extension\>](element-1-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<BackgroundTasks\>](element-backgroundtasks.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<Task\>**
 
 ## Syntax
 
-``` syntax
-<Task Type = "general" | "audio" | "controlChannel" | "systemEvent" | "timer" | ... />
+```xml
+<Task
+  Type = 'A string that can have one of the following values: "general", "audio", "controlChannel", "systemEvent", "timer", "pushNotification", "location", "deviceUse", "deviceServicing", "deviceConnectionChange" or "bluetooth".' />
 ```
 
-## Attributes and Elements
-
+## Attributes and elements
 
 ### Attributes
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-<th>Data type</th>
-<th>Required</th>
-<th>Default value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Type</strong></td>
-<td><p>The task type.</p></td>
-<td><p>This attribute can have one of the following values:</p>
-<ul>
-<li>general</li>
-<li>audio</li>
-<li>controlChannel</li>
-<li>systemEvent</li>
-<li>timer</li>
-<li>pushNotification</li>
-<li>location</li>
-<li>deviceUse</li>
-<li>deviceServicing</li>
-<li>deviceConnectionChange</li>
-<li>bluetooth</li>
-</ul></td>
-<td>Yes</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Type** | The task type. | A string that can have one of the following values: *general*, *audio*, *controlChannel*, *systemEvent*, *timer*, *pushNotification*, *location*, *deviceUse*, *deviceServicing*, *deviceConnectionChange* or *bluetooth*. | Yes |  |
 
- 
-
-### Child Elements
+### Child elements
 
 None.
 
-### Parent Elements
+### Parent elements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-backgroundtasks.md">BackgroundTasks</a> </td>
-<td><p>Defines an app extensibility point of type <strong>windows.backgroundTasks</strong>. Background tasks run in a dedicated background host; that is, without a UI.</p></td>
-</tr>
-</tbody>
-</table>
-
- 
+| Parent element | Description |
+|-|-|
+| [BackgroundTasks](element-backgroundtasks.md) | Defines an app extensibility point of type *windows.backgroundTasks*. Background tasks run in a dedicated background host; that is, without a UI. |
 
 ## Requirements
 
-|   | Value |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
-
-
- 
-
- 
-
-
-
