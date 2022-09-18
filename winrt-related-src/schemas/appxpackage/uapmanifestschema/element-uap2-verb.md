@@ -31,15 +31,15 @@ Defines the verbs associated with a file context menu and enables Windows Deskto
 
 ## Syntax
 
-```syntax
+```xml
 <uap2:Verb
-  Id = An alphanumeric string between 3 and 64 characters in length.
-  Extended? = Boolean.
-  rescap3:DdeExecCommand? = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
-  rescap3:DdeExecApplication? = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
-  rescap3:DdeExecTopic? = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
-  rescap3:DdeExecIfExec? = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
-  uap7:Default? = boolean value >
+  Id = 'An alphanumeric string with a value between 3 and 64 characters in length.'
+  Extended = 'An optional boolean value.'
+  rescap3:DdeExecCommand = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+  rescap3:DdeExecApplication = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+  rescap3:DdeExecTopic = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+  rescap3:DdeExecIfExec = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+  uap7:Default = 'An optional boolean value.' >
 ```
 
 ### Key
@@ -50,15 +50,15 @@ Defines the verbs associated with a file context menu and enables Windows Deskto
 
 ### Attributes
 
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| Id | The name of the verb. | An alphanumeric string between 3 and 64 characters in length. | Yes |
-| Extended | Specifies that the verb should only appear if the user holds the **Shift** key before right-clicking the file to show the context menu. | Boolean. | No |
-| rescap3:DdeExecCommand | A DDE command string. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
-| rescap3:DdeExecApplication | An application name used to establish the DDE conversion. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
-| rescap3:DdeExecTopic | The topic name of the DDE conversion. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
-| rescap3:DdeExecIfExec | The DDE command used if DDE conversion cannot be executed. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |
-| uap7:Default | Specifies whether the verb is the default verb. | A boolean value. | No |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Id** | The name of the verb. | An alphanumeric string with a value between 3 and 64 characters in length. | Yes |  |
+| **Extended** | Specifies that the verb should only appear if the user holds the *Shift* key before right-clicking the file to show the context menu. | An optional boolean value. | No |  |
+| **rescap3:DdeExecCommand** | A DDE command string. | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **rescap3:DdeExecApplication** | An application name used to establish the DDE conversion. | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **rescap3:DdeExecTopic** | The topic name of the DDE conversion. | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **rescap3:DdeExecIfExec** | The DDE command used if DDE conversion cannot be executed. | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **uap7:Default** | Specifies whether the verb is the default verb. | An optional boolean value. | No |  |
 
 ### Child elements
 
