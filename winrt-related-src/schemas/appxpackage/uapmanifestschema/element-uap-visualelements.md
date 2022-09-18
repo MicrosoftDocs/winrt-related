@@ -25,7 +25,7 @@ Describes the visual aspects of the app: its default tile, logo images, text and
 ## Syntax
 
 ```xml
-<VisualElements
+<uap:VisualElements
     DisplayName = 'A string with a value between 1 and 256 characters. This string is localizable.' 
     Description = 'A string between 1 and 2048 characters.'
     BackgroundColor = 'A three-byte hexadecimal number preceded by "#" or a named color. See Remarks for a list of named colors.'
