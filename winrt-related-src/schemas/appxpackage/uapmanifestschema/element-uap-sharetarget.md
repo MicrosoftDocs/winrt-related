@@ -29,7 +29,7 @@ Declares an app extension point of type *windows.shareTarget*. The app can share
 ## Syntax
 
 ```xml
-<ShareTarget
+<uap:ShareTarget
   Description = 'An optional string with a value between 1 and 256 characters in length.' >
 
   <!-- Child elements -->

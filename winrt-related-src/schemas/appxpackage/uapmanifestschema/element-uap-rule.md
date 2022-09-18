@@ -27,7 +27,7 @@ Specifies which pages in the web context have access to the system's geolocation
 ## Syntax
 
 ```xml
-<Rule
+<uap:Rule
       Type = 'A string that can have one of the following values: "include" or "exclude".'
       Match = 'A string with a value between 1 and 2084 characters in length.'
       WindowsRuntimeAccess = 'An optional string that can have one of the following values: "allowForWebOnly", "all", or "none".' 

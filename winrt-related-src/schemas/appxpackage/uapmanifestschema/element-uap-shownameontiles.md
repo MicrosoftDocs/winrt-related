@@ -29,7 +29,7 @@ Describes whether Windows overlays the app’s name on top of the tile images th
 ## Syntax
 
 ```xml
-<ShowNameOnTiles>
+<uap:ShowNameOnTiles>
 
   <!-- Child elements -->
   uap:ShowOn{1,4}

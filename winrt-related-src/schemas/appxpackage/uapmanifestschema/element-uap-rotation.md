@@ -29,7 +29,7 @@ Specifies a single rotational orientation in which an app will display.
 ## Syntax
 
 ```xml
-<Rotation
+<uap:Rotation
   Preference = 'A string that can have one of the following values: "portrait", "landscape", "portraitFlipped", or "landscapeFlipped".' />
 ```
 
