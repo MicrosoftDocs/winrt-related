@@ -29,7 +29,7 @@ Describes how the app tile receives update notifications.
 ## Syntax
 
 ```xml
-<TileUpdate
+<uap:TileUpdate
   Recurrence = 'A string that can have one of the following values: "halfHour", "hour", "sixHours", "twelveHours", or "daily".'
   UriTemplate = 'A string with a value between 1 and 2084 characters in length.' />
 ```

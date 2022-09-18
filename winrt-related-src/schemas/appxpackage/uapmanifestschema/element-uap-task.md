@@ -31,7 +31,7 @@ The background task associated with the app extensibility point.
 ## Syntax
 
 ```xml
-<Task
+<uap:Task
   Type = 'A string that can have one of the following values: "chatMessageNotification", "vpnClient", "phoneCall", or "mediaProcessing".' />
 ```
 
