@@ -3,195 +3,89 @@ description: Describes the visual aspects of the app (in uap3:VisualElements).
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:VisualElements (Windows 10)
 ms.assetid: f98fc3ac-5d51-4dfb-b7a0-1985b4e568af
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 04/05/2017
 ---
 
 # uap3:VisualElements (Windows 10)
 
-
 Describes the visual aspects of the app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd><b>&lt;uap3:VisualElements&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<uap3:VisualElements\>**
 
 ## Syntax
 
-
-```
-<uap3:VisualElements DisplayName       = A string between 1 and 256 characters 
-                                         in length. This string is localizable. 
-                     Description       = A string between 1 and 2048 characters 
-                                         in length that cannot include 
-                                         characters such as tabs, carriage 
-                                         returns, and line feeds.
-                     BackgroundColor   = A three-byte hexadecimal number 
-                                         preceded by "#" or a named color. See 
-                                         Remarks for a list of named colors.
-                     Square150x150Logo = A string between 1 and 256 characters 
-                                         in length that ends with ".jpg", ".png", 
-                                         or ".jpeg" that can't contain these 
-                                         characters: <, >, :, ", |, ?, or *. In 
-                                         this string, the / and \ characters can't 
-                                         be the first or last characters. Also, the 
-                                         string can contain / or \ but not both.
-                     Square44x44Logo   = A string between 1 and 256 characters in 
-                                         length that ends with ".jpg", ".png", or 
-                                         ".jpeg" that can't contain these 
-                                         characters: <, >, :, ", |, ?, or *. In this 
-                                         string, the / and \ characters can't be the 
-                                         first or last characters. Also, the string 
-                                         can contain / or \ but not both.
-                     AppListEntry?     = "default" | "none" 
-                     VisualGroup       = A string between 1 and 256 characters in 
-                                         length that does not contain one or more 
-                                         backslashes (\).>
+```xml
+<uap3:VisualElements
+    DisplayName = 'A string with a value between 1 and 256 characters in length. This string is localizable.' 
+    Description = 'A string between 1 and 2048 characters in length.'
+    BackgroundColor = 'A three-byte hexadecimal number preceded by "#" or a named color. See Remarks for a list of named colors.'
+    Square150x150Logo = 'A string with a value between 1 and 256 characters in length that ends with ".jpg", ".png", or ".jpeg" that cannot contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters cannot be the first or last characters. Also, the string can contain / or \ but not both.'
+    Square44x44Logo = 'A string with a value between 1 and 256 characters in length that ends with ".jpg", ".png", or ".jpeg" that cannot contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters cannot be the first or last characters. Also, the string can contain / or \ but not both.'
+    AppListEntry = 'An optional string that can have one of the following values: "default" or "none".' 
+    VisualGroup = 'A string with a value between 1 and 256 characters in length that does not contain backslashes ("\").' />
 
   <!-- Child elements -->
-  ( uap:DefaultTile?
+  uap:DefaultTile?
   & uap:LockScreen?
   & uap:SplashScreen?
   & uap:InitialRotationPreference?
-  )
 
 </uap3:VisualElements>
 ```
 
-**Key**
+### Key
 
-          ? optional (zero or one)
+`?`  optional (zero or one)
+`&`  interleave connector (may occur in any order)
 
-          & interleave connector (may occur in any order)
+## Attributes and elements
 
-## Attributes and Elements
+### Attributes
 
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **DisplayName** | A friendly name for the app that can be displayed to users. This string is localizable; see Remarks for details. | A string with a value between 1 and 256 characters in length. This string is localizable. | Yes |  |
+| **Description** | The description of the app. This string is localizable; see [Remarks](#remarks) for details. | A string between 1 and 2048 characters in length. | Yes |  |
+| **BackgroundColor** | Specifies the background color of the app tile. | A three-byte hexadecimal number preceded by `#` or a named color. See [Remarks](#remarks) for a list of named colors. | Yes |  |
+| **Square150x150Logo** | An image used as the app's Start Screen medium tile, and on the Task Switcher. For more info about how to specify the image in this attribute, see [Remarks](#remarks). | A string with a value between 1 and 256 characters in length that ends with `.jpg`, `.png`, or `.jpeg` that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. In this string, the `/` and `\` characters cannot be the first or last characters. Also, the string can contain `/` or `\` but not both. | Yes |  |
+| **Square44x44Logo** | An image used as the app's Start Screen small tile, and on the All Apps List. For more info about how to specify the image in this attribute, see [Remarks](#remarks). | A string with a value between 1 and 256 characters in length that ends with `.jpg`, `.png`, or `.jpeg` that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. In this string, the `/` and `\` characters cannot be the first or last characters. Also, the string can contain `/` or `\` but not both. | Yes |  |
+| **AppListEntry** | The entry in the All Apps List. | An optional string that can have one of the following values: *default* or *none*. | No |  |
+| **VisualGroup** | The name of a folder to create on the All Apps List, in which the tile for the app should be stored. | A string with a value between 1 and 256 characters in length that does not contain backslashes (`\`). | No |  |
 
-**Attributes**
+> [!NOTE]
+> The background color specified here also applies to these items:
+>
+>- The button color in any app-owned dialog boxes.
+>- The App Description page in the Store.
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-<th>Data type</th>
-<th>Required</th>
-<th>Default value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>AppListEntry</strong></td>
-<td>The entry in the All Apps List.</td>
-<td><p>This attribute can have one of the following values:</p>
-<ul>
-<li>default</li>
-<li>none</li>
-</ul></td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>BackgroundColor</strong></td>
-<td>Specifies the background color of the app tile. See the Remarks section for color names. Note that the background color specified here also applies to these items:
-<ul>
-<li>The button color in any app-owned dialog boxes</li>
-<li>The App Description page in the Store</li>
-</ul></td>
-<td>A three-byte hexadecimal number preceded by &quot;#&quot; or a named color. See Remarks for a list of named colors.</td>
-<td>Yes</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>Description</strong></td>
-<td>The description of the app. This string is localizable; see Remarks for details.</td>
-<td>A string between 1 and 2048 characters in length that cannot include characters such as tabs, carriage returns, and line feeds.</td>
-<td>Yes</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>DisplayName</strong></td>
-<td>A friendly name for the app that can be displayed to users. This string is localizable; see Remarks for details.
-<p>There are two explicitly reserved words that may not be used as the DisplayName for apps uploaded to the Store: &quot;NoUIEntryPoints&quot; and &quot;NoUIEntryPoints-DesignMode&quot;. These identifiers are reserved for use by development tools and test suites.</p>
-.</td>
-<td>A string between 1 and 256 characters in length. This string is localizable</td>
-<td>Yes</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>Square150x150Logo</strong></td>
-<td>An image used as the app's Start Screen medium tile, and on the Task Switcher. For more info about how to specify the image in this attribute, see Remarks.</td>
-<td>A string between 1 and 256 characters in length that ends with &quot;.jpg&quot;, &quot;.png&quot;, or &quot;.jpeg&quot; that can't contain these characters: &lt;, &gt;, :, &quot;, |, ?, or *. In this string, the / and \ characters can't be the first or last characters. Also, the string can contain / or \ but not both.</td>
-<td>Yes</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>Square44x44Logo</strong></td>
-<td>An image used as the app's Start Screen small tile, and on the All Apps List. For more info about how to specify the image in this attribute, see Remarks..</td>
-<td>A string between 1 and 256 characters in length that ends with &quot;.jpg&quot;, &quot;.png&quot;, or &quot;.jpeg&quot; that can't contain these characters: &lt;, &gt;, :, &quot;, |, ?, or *. In this string, the / and \ characters can't be the first or last characters. Also, the string can contain / or \ but not both.</td>
-<td>Yes</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>VisualGroup</strong></td>
-<td>The name of a folder to create on the All Apps List, in which the tile for the app should be stored.</td>
-<td>A string between 1 and 256 characters in length that does not contain one or more backslashes (\).</td>
-<td>No</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+### Child elements
 
- 
+| Child Element | Description |
+|-|-|
+| [uap:DefaultTile](element-uap-defaulttile.md) | Defines the default tile that represents the app on the Start screen. This tile is displayed when the app is first installed, before it has received any update notifications. When a tile has no notifications to show, the tile reverts to this default. |
+| [uap:LockScreen](element-uap-lockscreen.md) | Defines the badge and notifications that represent the app on the lock screen, which is shown when the system is locked. |
+| [uap:SplashScreen](element-uap-splashscreen.md) | Defines the appearance of the splash screen, which is displayed by the app during launch. |
+| [uap:InitialRotationPreference](element-uap-initialrotationpreference.md) | Describes the orientations in which the app would prefer to be shown for the best user experience. |
 
-**Child Elements**
+### Parent elements
 
-| Child Element                                                                  | Description                                                                                                                                                                                                                                                |
-|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**uap:DefaultTile**](element-uap-defaulttile.md)                             | Defines the default tile that represents the app on the Start screen. This tile is displayed when the app is first installed, before it has received any update notifications. When a tile has no notifications to show, the tile reverts to this default. |
-| [**uap:LockScreen**](element-uap-lockscreen.md)                               | Defines the badge and notifications that represent the app on the lock screen, which is shown when the system is locked.                                                                                                                                   |
-| [**uap:SplashScreen**](element-uap-splashscreen.md)                           | Defines the appearance of the splash screen, which is displayed by the app during launch.                                                                                                                                                                  |
-| [**uap:InitialRotationPreference**](element-uap-initialrotationpreference.md) | Describes the orientations in which the app would prefer to be shown for the best user experience.                                                                                                                                                         |
-
- 
-
-**Parent Elements**
-
-| Parent Element                             | Description                                                                                    |
-|--------------------------------------------|------------------------------------------------------------------------------------------------|
-| [**Application**](element-application.md) | Represents an app that comprises part of or all of the functionality delivered in the package. |
-
- 
+| Parent Element | Description |
+|-|-|
+| [Application](element-application.md) | Represents an app that comprises part of or all of the functionality delivered in the package. |
 
 ## Remarks
 
-
-You cannot use the **VisualGroup** attribute to create a structure of nested folders. If you include a backslash (\\) in the value, an error occurs.
+You cannot use the **VisualGroup** attribute to create a structure of nested folders. If you include a backslash (`\`) in the value, an error occurs.
 
 The **VisualGroup** attribute is not valid if the manifest declares only one app.
 
@@ -199,29 +93,16 @@ For more info on tile dimension requirements, see [Tile sizes](/previous-version
 
 For the **Square150x150Logo** and **Square44x44Logo** images, you can supply images of different scales so that Windows can choose the best size for the device and screen resolution. You can also supply high contrast images for accessibility and localized images to match different UI languages. This feature also allows you to localize the **DisplayName** and **Description** attributes. For more info, see the [Globalization](/previous-versions/windows/apps/hh831183(v=win.10)) and [Localizing the package manifest]( https://go.microsoft.com/fwlink/p/?LinkId=823054) topics.
 
-Applications/Application/Extensions/Extension/FileTypeAssociation/Logo Applications/Application/Extensions/Extension/Protocol/Logo
-
 Size requirements of two types of logo images are shown here:
 
-Image attribute
-Scale
-Image size in pixels
-Applications/Application/VisualElements/@Square150x150Logo
-100
-150x150
-250
-375x375
-Applications/Application/VisualElements/@Square44x44Logo
-100
-44x44
-250
-110x110
-Applications/Application/VisualElements/@Tall150x310Logo
-100
-150x310
-250
-375x775
- 
+| Image attribute | Scale (Image size in pixels) |
+|-|-|-|
+| `Applications/Application/VisualElements/@Square150x150Logo` | 100 (150x150) |
+|  | 250 (375x375) |
+| `Applications/Application/VisualElements/@Square44x44Logo` | 100 (44x44) |
+|  | 250 (110x110) |
+| `Applications/Application/VisualElements/@Tall150x310Logo` | 100 (150x310) |
+|  | 250 (375x775) |
 
 These are the supported background color names:
 
@@ -383,49 +264,38 @@ These are the supported background color names:
 
 ## Examples
 
-
 The following example creates a folder named App1 in the All Apps List and stores the tile for App1 in that folder.
 
-```XML
-<Package ...
-         xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10"  
-         IgnorableNamespaces="... desktop">
+```xml
+<Package
+    xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10"  
+    IgnorableNamespaces="... desktop">
     <Applications>
         <Application>
-            <uap3:VisualElements DisplayName="App1" 
-                                 Square150x150Logo="images/150x150.png" 
-                                 Square44x44Logo="images/44x44.png" 
-                                 Description="App1" 
-                                 BackgroundColor="#777777" 
-                                 AppListEntry="default" 
-                                 VisualGroup="App1">  
-                <uap:SplashScreen BackgroundColor="#777777" 
-                                  Image="images/splash.png"/>  
+            <uap3:VisualElements
+                DisplayName="App1" 
+                Square150x150Logo="images/150x150.png" 
+                Square44x44Logo="images/44x44.png" 
+                Description="App1" 
+                BackgroundColor="#777777" 
+                AppListEntry="default" 
+                VisualGroup="App1">  
+                <uap:SplashScreen
+                    BackgroundColor="#777777" 
+                    Image="images/splash.png"/>  
            </uap3:VisualElements>  
-        </Application>
-        <Application>
-           ...
         </Application>
     </Applications>
 </Package>
 ```
 
-## Requirements
-
-
-|               | Value                                                       |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
-
- 
-
 ## Related topics
 
+- [**Colors class**](/uwp/api/Windows.UI.Colors)
+- [Quickstart: Creating a default tile using the Visual Studio manifest editor](/previous-versions/windows/apps/hh465437(v=win.10))
 
-[**Colors class**](/uwp/api/Windows.UI.Colors)
+## Requirements
 
-[Quickstart: Creating a default tile using the Visual Studio manifest editor](/previous-versions/windows/apps/hh465437(v=win.10))
-
- 
-
- 
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
