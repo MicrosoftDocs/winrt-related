@@ -1,11 +1,7 @@
 ---
 description: Defines an attribute of the class that is stored in the Windows Runtime property store (in Package/Applications).
 title: uap5:ActivatableClassAttribute 
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 10/10/2017
 ---
@@ -15,72 +11,54 @@ ms.date: 10/10/2017
 Defines an attribute of the class that is stored in the Windows Runtime property store.
 
 ## Element hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap5-extension.md">&lt;uap5:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap5-outofprocessserver.md">&lt;uap5:OutOfProcessServer&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap5-activatableclass.md">&lt;uap5:ActivatableClass&gt;</a></dt>
-<dd><b>&lt;uap5:ActivatableClassAttribute&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap5:Extension\>](element-uap5-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap5:OutOfProcessServer\>](element-uap5-outofprocessserver.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap5:ActivatableClass\>](element-uap5-activatableclass.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap5:ActivatableClassAttribute\>**
 
 ## Syntax
 
-``` syntax
-<ActivatableClassAttribute Name  = An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.
-                           Type  = "string" | "integer"
-                           Value = A string between 1 and 255 characters in length. />
+```xml
+<ActivatableClassAttribute
+  Name  = 'An alphanumeric string with a value between 1 and 255 characters in length. Must begin with a letter.'
+  Type  = 'A string that can have one of the following values: "string" or "integer".'
+  Value = 'A string with a value between 1 and 255 characters in length.' />
 ```
 
-## Attributes and Elements
+## Attributes and elements
 
 ### Attributes
 
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| Name | The attribute name. | An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. | Yes |
-| Type | The attribute type. | A string or integer value. | Yes |
-| Value | The attribute value. | A string between 1 and 255 characters in length. | Yes |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Name** | The name of the attribute. | An alphanumeric string with a value between 1 and 255 characters in length. Must begin with a letter. | Yes |  |
+| **Type** | The type of the attribute. | A string that can have one of the following values: *string* or *integer*. | Yes |  |
+| **Value** | The value of the attribute. | A string with a value between 1 and 255 characters in length. | Yes |  |
 
-### Child Elements
-None
+### Child elements
+
+None.
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [uap5:ActivatableClass](element-uap5-activatableclass.md) | Declares a runtime class associated with the extensibility point. |
 
 ## Requirements
 
-|   | Value |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
-
-
- 
-
- 
-
-
-
