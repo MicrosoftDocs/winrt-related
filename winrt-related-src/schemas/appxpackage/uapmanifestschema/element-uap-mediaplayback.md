@@ -1,5 +1,5 @@
 ---
-Description: Declares an app extensibility point of type mediaPlayback.
+description: Declares an app extensibility point of type mediaPlayback.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:MediaPlayback (Windows 10)
 ms.assetid: 8c9e4e21-4efe-4032-a15c-a513542d844b
