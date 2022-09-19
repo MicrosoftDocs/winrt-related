@@ -31,7 +31,7 @@ Specifies the codec to use for transcoding.
 ## Syntax
 
 ```xml
-<Codec
+<uap:Codec
   Name = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.' />
 ```
 

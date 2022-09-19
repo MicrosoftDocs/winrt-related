@@ -3,129 +3,59 @@ description: Defines the appearance of the splash screen, which is displayed by 
 Search.Product: eADQiWindows 10XVcnh
 title: uap:SplashScreen (Windows 10)
 ms.assetid: 1a55627f-7014-4c8c-8ec8-957ac99457db
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 04/05/2017
 ---
 
 # uap:SplashScreen (Windows 10)
 
-
 Defines the appearance of the splash screen, which is displayed by the app during launch.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap-visualelements.md">&lt;uap:VisualElements&gt;</a></dt>
-<dd><b>&lt;uap:SplashScreen&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap:VisualElements\>](element-uap-visualelements.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap:SplashScreen\>**
 
 ## Syntax
 
-``` syntax
-<SplashScreen BackgroundColor?      = A three-byte hexadecimal number preceded by "#" or a named color. See Remarks for a list of named colors.
-              Image                 = A string between 1 and 256 characters in length that ends with ".jpg", ".png", or ".jpeg" that can't contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters can't be the first or last characters. Also, the string can contain / or \ but not both. 
-              uap5:Optional?        = Boolean.  />
+```xml
+<uap:SplashScreen
+    BackgroundColor = 'An optional three-byte hexadecimal number preceded by "#" or a named color. See the [Remarks](#remarks) for a list of named colors.'
+    Image = 'A string with a value between 1 and 256 characters in length that ends with ".jpg", ".png", or ".jpeg" that cannot contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters cannot be the first or last characters. Also, the string can contain / or \ but not both.' 
+    uap5:Optional = 'An optional boolean value.' />
 ```
 
 ### Key
 
 `?`   optional (zero or one)
 
-## Attributes and Elements
-
+## Attributes and elements
 
 ### Attributes
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-<th>Data type</th>
-<th>Required</th>
-<th>Default value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>BackgroundColor</strong></td>
-<td><p>Specifies the background color of the splash screen. See the Remarks section for color names.</p></td>
-<td>A three-byte hexadecimal number preceded by &quot;#&quot; or a named color. See Remarks for a list of named colors.</td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>Image</strong></td>
-<td><p>The path to the splash screen image. See the Remarks section for size requirements.</p></td>
-<td>A string between 1 and 256 characters in length that ends with &quot;.jpg&quot;, &quot;.png&quot;, or &quot;.jpeg&quot; that can't contain these characters: &lt;, &gt;, :, &quot;, |, ?, or *. In this string, the / and \ characters can't be the first or last characters. Also, the string can contain / or \ but not both.</td>
-<td>Yes</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>uap5:Optional</strong></td>
-<td><p>Specifies whether an app should be launched without a splash screen. If true, the splash screen will not be shown if the app can launch fast enough. If there is a delay in the app launch time, the splash screen will be shown. If false, the splash screen will always be shown.</p></td>
-<td>Boolean</td>
-<td>No</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **BackgroundColor** | Specifies the background color of the splash screen. See the [Remarks](#remarks) section for a list of color names. | An optional three-byte hexadecimal number preceded by "#" or a named color. See the [Remarks](#remarks) for a list of named colors. | No |  |
+| **Image** | The path to the splash screen image. See the [Remarks](#remarks) section for size requirements. | A string with a value between 1 and 256 characters in length that ends with `.jpg`, `.png`, or `.jpeg` that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. In this string, the `/` and `\` characters cannot be the first or last characters. Also, the string can contain `/` or `\` but not both. | Yes |  |
+| **uap5:Optional** | Specifies whether an app should be launched without a splash screen. If true, the splash screen will not be shown if the app can launch fast enough. If there is a delay in the app launch time, the splash screen will be shown. If false, the splash screen will always be shown. | An optional boolean value. | No |  |
 
- 
-
-### Child Elements
+### Child elements
 
 None.
 
-### Parent Elements
+### Parent elements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-uap-visualelements.md">uap:VisualElements</a> </td>
-<td><p>Describes the visual aspects of the app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance.</p></td>
-</tr>
-</tbody>
-</table>
-
- 
+| Parent element | Description |
+|-|-|
+| [uap:VisualElements](element-uap-visualelements.md) | Describes the visual aspects of the app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance. |
 
 ## Remarks
 
@@ -133,17 +63,16 @@ The splash screen image can be given as either a direct path to an image file or
 
 Size requirements of a splash screen image are shown here:
 
-Image attributes
-Scale
-Image size in pixels
-Applications/Application/VisualElements/SplashScreen/@Image
-100
-620x300
-140
-868x420
-180
-1116x540
- 
+- Image attributes
+- Scale
+- Image size in pixels
+- Applications/Application/VisualElements/SplashScreen/@Image
+- 100
+- 620x300
+- 140
+- 868x420
+- 180
+- 1116x540
 
 The following are supported background color names:
 
@@ -305,11 +234,11 @@ The following are supported background color names:
 
 ## See also
 
-
-[**Colors class**](/uwp/api/Windows.UI.Colors)
+[Colors class](/uwp/api/Windows.UI.Colors)
 
 ## Requirements
 
-|   | Value |
+| Item | Value |
 |--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10`<br/><br/>`http://schemas.microsoft.com/appx/manifest/uap/windows10/5` (for the **Optional** attribute) |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+| **uap5** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |

@@ -31,7 +31,7 @@ Declares actions to take when a appointment is launched.
 ## Syntax
 
 ```xml
-<AppointmentsProviderLaunchActions
+<uap:AppointmentsProviderLaunchActions
   DesiredView = 'An optional string that can have one of the following values: "default", "useLess", "useHalf", "useMore", or "useMinimum".' >
 
   <!-- Child elements -->

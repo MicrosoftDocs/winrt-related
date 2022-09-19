@@ -29,7 +29,7 @@ Declares an app extensibility point of type **windows.appService**. Application 
 ## Syntax
 
 ```xml
-<AppService
+<uap:AppService
   Name = 'A string with a value between 2 and 39 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only.'
   ServerName = 'An optional alphanumeric string with a value between 1 and 255 characters in length. Must begin with an alphabetic character.'
   uap4:SupportsMultipleInstances = 'A boolean value'. />
