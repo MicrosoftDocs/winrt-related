@@ -1,72 +1,65 @@
 ---
-
 ms.assetid: deb8e538-57e7-4b92-b121-6b2ea53f5094
 title: uap4:MediaEncodingProperties
 description: Contains the media coded input and output types.
-
 ms.date: 04/05/2017
 ms.topic: reference
-
-
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 
 # uap4:MediaEncodingProperties
 
-## Description
 Contains the media coded input and output types.
 
-## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap4-extension.md">&lt;uap4:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap4-mediacodec.md">&lt;uap4:MediaCodec&gt;</a></dt>
-<dd><b>&lt;uap4:MediaEncodingProperties&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+## Element hierarchy
 
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap4:Extension\>](element-uap4-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap4:MediaCodec\>](element-uap4-mediacodec.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap4:MediaEncodingProperties\>**
 
 ## Syntax
-```syntax
+
+```xml
 <uap4:MediaEncodingProperties>
+
   <!-- Child elements -->
   uap4:InputTypes,
   uap4:OutputTypes
+
 </uap4:MediaEncodingProperties>                   
 ```
 
-## Child Elements
+## Attributes and elements
 
-| Child Element | Description |
-|---------------|-------------|
+### Attributes
+
+None.
+
+### Child elements
+
+| Child element | Description |
+|-|-|
 | [InputTypes](element-uap4-inputtypes.md) | Contains the media codec input types. |
 | [OutputTypes](element-uap4-outputtypes.md) | Contains the media codec output types. |
 
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [uap4:MediaCodec](element-uap4-mediacodec.md) | Defines an extension that enables an app to install media codecs from the Microsoft Store. |
 
 ## Requirements
 
-|   | Value |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/4` |
