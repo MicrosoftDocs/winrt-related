@@ -29,10 +29,10 @@ Defines a Device Portal provider for deployment.  See [Write a custom plugin for
 
 ```xml
 <uap4:DevicePortalProvider
-  DisplayName = A string between 1 and 256 characters in length. This string is localizable.
-  AppServiceName = A string between 2 and 39 characters in length that consists of alphanumeric, period (except for the first character), and dash characters only.
-  ContentRoute? = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.
-  HandlerRoute? = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. />            
+  DisplayName = 'A string with a value between 1 and 256 characters in length. This string is localizable.'
+  AppServiceName = 'A string with a value between 2 and 39 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only.'
+  ContentRoute = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+  HandlerRoute = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.' />            
 ```
 
 ### Key
@@ -45,10 +45,10 @@ Defines a Device Portal provider for deployment.  See [Write a custom plugin for
 
 | Attribute | Description | Data type | Required | Default value
 |-|-|-|-|-|
-| **DisplayName** | A friendly display name for the device portal provider. | A string between 1 and 256 characters in length. This string is localizable. | Yes |  |
-| **AppServiceName** | The name of the app service used to launch the device portal provider. | A string between 2 and 39 characters in length that consists of alphanumeric, period (except for the first character), and dash characters only. | Yes |  |
-| **ContentRoute** | A route that's used to declare HTTP content (JavaScript, HTML, and CSS), e.g., /foo| A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
-| **HandlerRoute** | The API namespace requested by the provider, e.g., /foo/bar. Any successful HTTP requests will be sent to the provider for handling. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **DisplayName** | A friendly display name for the device portal provider. | A string with a value between 1 and 256 characters in length. This string is localizable. | Yes |  |
+| **AppServiceName** | The name of the app service used to launch the device portal provider. | A string with a value between 2 and 39 characters in length that consists of alphanumeric, period (except for the first character), and dash characters only. | Yes |  |
+| **ContentRoute** | A route that's used to declare HTTP content (JavaScript, HTML, and CSS), e.g., /foo| An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **HandlerRoute** | The API namespace requested by the provider, e.g., /foo/bar. Any successful HTTP requests will be sent to the provider for handling. | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
 
 ### Child elements
 
