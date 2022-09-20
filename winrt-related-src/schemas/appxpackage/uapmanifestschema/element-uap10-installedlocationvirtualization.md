@@ -15,24 +15,17 @@ Defines an extension for a desktop app in an MSIX package that redirects any wri
 
 ## Element Hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap10-extension.md">&lt;uap10:Extension&gt;</a></dt>
-<dd><b>&lt;uap10:InstalledLocationVirtualization&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap10:Extensions\>](element-uap10-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap10:InstalledLocationVirtualization\>**
 
 ## Syntax
 
-```syntax
+```xml
 <uap10:InstalledLocationVirtualization>
 
   <!-- Child elements -->
@@ -41,17 +34,23 @@ Defines an extension for a desktop app in an MSIX package that redirects any wri
 </uap10:InstalledLocationVirtualization>
 ```
 
-## Attrbutes and Elements
+## Attrbutes and elements
 
 ### Attributes
 
 None.
 
-### Child Elements
+### Child elements
 
 | Child Element | Description |
-|-----------|-------------|
-| [uap10:UpdateActions](element-uap10-updateactions.md) |  Specifies what happens during app updates to files in the app's installation directory that were previously modified, added, or deleted by the app. |
+|-|-|
+| [uap10:UpdateActions](element-uap10-updateactions.md) | Specifies what happens during app updates to files in the app's installation directory that were previously modified, added, or deleted by the app. |
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [uap10:Extension](element-uap10-extension.md) | Declares an extensibility point for the app. |
 
 ## Remarks
 
@@ -62,17 +61,25 @@ This extension has no effect in a UWP app.
 ## Example
 
 ```xml
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
-         xmlns:uap10="http://schemas.microsoft.com/appx/manifest/uap/windows10/10"
-         IgnorableNamespaces="uap10">
+<?xml
+  version="1.0"
+  encoding="utf-8"
+  standalone="yes"?>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:uap10="http://schemas.microsoft.com/appx/manifest/uap/windows10/10"
+  IgnorableNamespaces="uap10">
 
-  <!-- Other entries omitted for brevity. -->
+    <!-- Other entries omitted for brevity. -->
 
     <Extensions>
-        <uap10:Extension Category="windows.installedLocationVirtualization">
+        <uap10:Extension
+          Category="windows.installedLocationVirtualization">
             <uap10:InstalledLocationVirtualization>
-            <uap10:UpdateActions ModifiedItems="keep" DeletedItems="reset" AddedItems="keep"/>
+            <uap10:UpdateActions
+              ModifiedItems="keep"
+              DeletedItems="reset"
+              AddedItems="keep"/>
             </uap10:InstalledLocationVirtualization>
         </uap10:Extension>
     </Extensions>
@@ -81,6 +88,6 @@ This extension has no effect in a UWP app.
 
 ## Requirements
 
-|   | Value |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
