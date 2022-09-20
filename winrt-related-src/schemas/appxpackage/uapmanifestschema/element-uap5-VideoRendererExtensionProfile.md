@@ -1,74 +1,60 @@
 ---
-
 title: uap5:VideoRendererExtensionProfile
 description: Specifies a video renderer profile.
-
 ms.date: 10/10/2017
 ms.topic: reference
-
-
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 
 # uap5:VideoRendererExtensionProfile
 
-## Description
 Specifies a video renderer profile.
 
-## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap5-extension.md">&lt;uap5:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap5-VideoRendererEffect.md">&lt;uap5:VideoRendererEffect&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap5-VideoRendererExtensionProfiles.md">&lt;uap5:VideoRendererExtensionProfiles&gt;</a></dt>
-<dd><b>&lt;uap5:VideoRendererExtensionProfile&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+## Element hierarchy
+
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap5:Extension\>](element-uap5-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap5:VideoRendererEffect\>](element-uap5-videorenderereffect.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap5:VideoRendererExtensionProfiles\>](element-uap5-VideoRendererExtensionProfiles.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap5:VideoRendererExtensionProfile\>**
 
 ## Syntax
-```syntax
-<uap5:VideoRendererExtensionProfile Profile = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. />
+
+```xml
+<uap5:VideoRendererExtensionProfile
+  Profile = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.' />
 ```
 
-## Attributes and Elements
+## Attributes and elements
 
 ### Attributes
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| Profile | Specifies a renderer profile. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |
 
-### Child Elements
-None
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Profile** | Specifies a renderer profile. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
 
+### Child elements
+
+None.
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [uap5:VideoRendererExtensionProfiles](element-uap5-VideoRendererExtensionProfiles.md) | Contains a list of video renderer profiles. |
 
 ## Requirements
 
-|   | Value |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
