@@ -62,7 +62,7 @@ Declares an app extensibility point of type *windows.appExtension*. This element
 
 | Child element | Description |
 |-|-|
-| [uap3:Properties](elemnt-uap3-properties-manual.md) | Contains opaque XML that represents custom, extension-specific information that is simply stored and not read by the operating system. The information is only read by the host app. |
+| [uap3:Properties](element-uap3-properties-manual.md) | Contains opaque XML that represents custom, extension-specific information that is simply stored and not read by the operating system. The information is only read by the host app. |
 
 ### Parent elements
 

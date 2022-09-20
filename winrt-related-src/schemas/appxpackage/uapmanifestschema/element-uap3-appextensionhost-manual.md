@@ -47,7 +47,7 @@ None.
 
 | Child element | Description |
 |-|-|
-| [uap3:Name](elemennt-uap3-name-manual.md) | Specifies a category of extensions that the app can host. |
+| [uap3:Name](element-uap3-name-manual.md) | Specifies a category of extensions that the app can host. |
 
 ### Parent elements
 
