@@ -52,6 +52,6 @@ The **uap10:AllowExternalContent** element contains a boolean value. For more in
 
 ## Requirements
 
-|   | Value |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |

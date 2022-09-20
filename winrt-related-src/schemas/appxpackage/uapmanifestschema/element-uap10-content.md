@@ -12,25 +12,13 @@ Indicates whether Windows will enforce run time package integrity checks on the 
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-properties.md">&lt;Properties&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap10-packageintegrity.md">&lt;uap10:PackageIntegrity&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap10-content.md">&lt;uap10:Content&gt;</a></dt>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
 
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap10:PackageIntegrity\>](element-uap10-packageintegrity.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap10:Content\>**
 
 ## Syntax
 
@@ -38,68 +26,32 @@ Indicates whether Windows will enforce run time package integrity checks on the 
 <uap10:PackageIntegrity>
 
   <!-- Child elements -->
-  <uap10:Content Enforcement="on" />
+  <uap10:Content
+    Enforcement = 'A string that can have one of the following values: "on", "off", or "default". The value "default" currently has the same behavior as "off".' />
 
 </uap10:PackageIntegrity>
 ```
 
-## Attributes and Elements
+## Attributes and elements
 
 ### Attributes
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-<th>Data type</th>
-<th>Required</th>
-<th>Default value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Enforcement</strong></td>
-<td><p>Indicates whether Windows will enforce run time package integrity checks on the entire contents of the package.</p>
-</td>
-<td><p>One of the following string values: "on", "off", or "default". The value "default" currently has the same behavior as "off".</p></td>
-<td><p>Yes</p></td>
-<td><p>"off"</p></td>
-</tr>
-</tbody>
-</table>
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Enforcement** | Indicates whether Windows will enforce run time package integrity checks on the entire contents of the package. | A string that can have one of the following values: *on*, *off*, or *default*. The value *default* currently has the same behavior as *off*. | Yes | *off* |
 
-### Parent Elements
+### Child elements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-uap10-packageintegrity.md">uap10:PackageIntegrity</a> </td>
-<td><p>Specifies the level of run time package integrity checks and remediation for the package.</p></td>
-</tr>
-</tbody>
-</table>
+None.
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [uap10:PackageIntegrity](element-uap10-packageintegrity.md) | Specifies the level of run time package integrity checks and remediation for the package. |
 
 ## Requirements
 
-|   | Value |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
-
