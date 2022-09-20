@@ -47,7 +47,9 @@ Declares an extensibility point for the app.
 
 `?` optional (zero or one)
 
-## Attributes
+## Attributes and elements
+
+### Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
@@ -62,7 +64,7 @@ Declares an extensibility point for the app.
 | **uap10:HostId** | Specifies the app ID of the host app for the extension. | An alphanumeric string with an optional value between 1 and 255 characters in length. Must begin with a letter. | No |  |
 | **uap10:Parameters** | Contains command line parameters to pass to the extension. Only supported for desktop apps that have a package identity. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
 
-## Child elements
+### Child elements
 
 | Child element | Description |
 |-|-|
