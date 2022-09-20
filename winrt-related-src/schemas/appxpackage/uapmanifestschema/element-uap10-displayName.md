@@ -32,7 +32,9 @@ A friendly name that can be displayed to users.
 </uap10:DisplayName>
 ```
 
-## Attributes
+## Attributes and elements
+
+### Attributes
 
 None.
 
