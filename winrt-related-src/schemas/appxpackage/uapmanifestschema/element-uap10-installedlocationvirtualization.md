@@ -9,8 +9,6 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 
 # uap10:InstalledLocationVirtualization
 
-## Description
-
 Defines an extension for a desktop app in an MSIX package that redirects any writes to the app's installation directory to a location in the [app data](/windows/uwp/design/app-settings/store-and-retrieve-app-data). For more details, see the [remarks](#remarks).
 
 ## Element Hierarchy
