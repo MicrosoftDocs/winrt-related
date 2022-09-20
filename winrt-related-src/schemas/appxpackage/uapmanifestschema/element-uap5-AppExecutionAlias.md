@@ -1,73 +1,71 @@
 ---
-
 title: uap5:AppExecutionAlias
 description: Specifies the application's execution alias to determine the executable of the app to be activated (uap5:AppExecutionAlias).
-
 ms.date: 10/10/2017
 ms.topic: reference
-
-
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 
 # uap5:AppExecutionAlias
 
-## Description
 Specifies the application's execution alias to determine the executable of the app to be activated.
 
-## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap5-extension.md">&lt;uap5:Extension&gt;</a></dt>
-<dd><b>&lt;uap5:AppExecutionAlias&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+## Element hierarchy
+
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap5:Extension\>](element-uap5-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap5:AppExecutionAlias\>](element-uap5-appexecutionalias.md)
 
 ## Syntax
-```syntax
-<uap5:AppExecutionAlias desktop4:Subsystem? = String value. Can be one of the following: "console", "windows" >   
+
+```xml
+<uap5:AppExecutionAlias
+    desktop4:Subsystem = 'An optional string that can have one of the following values: "console" or "windows".'
+    uap10:Subsystem = 'An optional string that can have one of the following values: "console" or "windows".' >
+
+    <!-- Child elements -->
     uap5:ExecutionAlias{0,1000}
+
 </uap5:AppExecutionAlias>
 ```
 
 ### Key
+
 `{}`   specific range of occurrences
 
+## Attributes and elements
 
-## Attributes and Elements
 ### Attributes
-## Attributes
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| desktop4:Subsystem | Indicates whether the app is a standard UWP app or a UWP console app. | String value. Can be one of the following: "console", "windows" | No |
-| uap10:Subsystem | Indicates whether the app is a standard UWP app or a UWP console app. | String value. Can be one of the following: "console", "windows" | No |
 
-### Child Elements
-| Child Element | Description |
-|---------------|-------------|
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **desktop4:Subsystem** | Indicates whether the app is a standard UWP app or a UWP console app. | An optional string that can have one of the following values: "console" or "windows". | No |  |
+| **uap10:Subsystem** | Indicates whether the app is a standard UWP app or a UWP console app. | An optional string that can have one of the following values: "console" or "windows". | No |  |
+
+### Child elements
+
+| Child element | Description |
+|-|-|
 | [ExecutionAlias](element-uap5-ExecutionAlias.md) | The executable of a UWP app to be activated from a command prompt. |
 
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [uap5:Extension](element-uap5-extension.md) | Declares an extensibility point for the app. |
 
 ## Requirements
 
-|   | Value |
+| Item | Value |
 |--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5`<br/><br/>`http://schemas.microsoft.com/appx/manifest/desktop/windows10/4` (for the **desktop4:Subsystem** attribute)<br/><br/>`http://schemas.microsoft.com/appx/manifest/uap/windows10/10` (for the **uap10:Subsystem** attribute) |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
+| **desktop4** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/4` |
+| **uap10** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
