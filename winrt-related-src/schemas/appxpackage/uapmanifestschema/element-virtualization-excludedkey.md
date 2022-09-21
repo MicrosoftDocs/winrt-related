@@ -20,7 +20,7 @@ Specifies a key that is excluded from registry key virtualization.
 
 &nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<virtualization:FileSystemWriteVirtualization\>**
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<virtualization:ExcludedKey\>**
 
 ## Syntax
 
