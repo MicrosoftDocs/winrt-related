@@ -2,7 +2,6 @@
 title: uap13:AutoUpdate
 description: Specifies automatic update configuration for the app.
 keywords: windows 10, uwp, schema, manifest, extension
-
 ms.date: 05/03/2022
 ms.topic: reference
 ---
@@ -13,34 +12,19 @@ Specifies automatic update configuration for the app.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extension.md">&lt;Extension&gt;</a></dt>
-<dd><strong>&lt;uap13:AutoUpdate&gt;</strong></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap13:Extension\>](element-uap13-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**<\uap13:AutoUpdate\>**
 
 ## Syntax
 
-``` XML
+```xml
 <uap13:AutoUpdate>
 
   <!-- Child Elements -->
@@ -49,21 +33,21 @@ Specifies automatic update configuration for the app.
 </uap13:AutoUpdate>
 ```
 
-## Attributes  and elements
+## Attributes and elements
 
 ### Attributes
 
-**None.**
+None.
 
 ### Child elements
 
-| Child Element | Description |
+| Child element | Description |
 |-|-|
-| [AppInstaller](element-uap13-autoupdate.md) | Specifies an App Installer file, which provides an update path that a Windows app can traverse searching for updates, and repairs. |
+| [AppInstaller](element-uap13-autoupdate.md) | Specifies an `.appinstaller` file, which provides an update path that a Windows app can traverse searching for updates and repairs. |
 
 ### Parent elements
 
-| Parent Element | Description |
+| Parent element | Description |
 |-|-|
 | [Extension (in Package/Applications)](element-extension.md) | Declares an extensibility point for the app. |
 
@@ -73,6 +57,6 @@ An App Installer file, declared in the manifest with the [uap13:AppInstaller](el
 
 ### Requirements
 
-| Namespace | Path |
+| Item | Value |
 |-|-|
 | **UAP13** | `http://schemas.microsoft.com/appx/manifest/uap/windows/10/13` |
