@@ -121,12 +121,12 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/uapmanifestschema/elemennt-uap3-name-manual.md",
+      "source_path": "uwp/schemas/uapmanifestschema/elemennt-uap3-name-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-name-manual.md",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/uapmanifestschema/elemnt-uap3-properties-manual.md",
+      "source_path": "uwp/schemas/uapmanifestschema/elemnt-uap3-properties-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-properties-manual.md",
       "redirect_document_id": false
     },
