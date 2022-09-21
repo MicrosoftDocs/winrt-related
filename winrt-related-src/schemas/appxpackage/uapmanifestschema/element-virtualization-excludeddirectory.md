@@ -30,7 +30,7 @@ Specifies a directory that is excluded from file system virtualization.
 
 ```xml
 <virtualization:ExcludedDirectory>
-  This element is a case-insensitive string that must start with `$(KnownFolder:<known folder name>)<path to excluded directory>` where *known folder name* specifies one of the known folders under the AppData directory. The rest of the string is the relative path to the excluded directory. For example, `$(KnownFolder:LocalAppData)\Fabrikam\Shared`.
+  This element is a case-insensitive string that must start with "$(KnownFolder:<known folder name>)<path to excluded directory>" where "known folder name" specifies one of the known folders under the AppData directory. The rest of the string is the relative path to the excluded directory. For example, "$(KnownFolder:LocalAppData)\Fabrikam\Shared".
 </virtualization:ExcludedDirectory>
 ```
 
