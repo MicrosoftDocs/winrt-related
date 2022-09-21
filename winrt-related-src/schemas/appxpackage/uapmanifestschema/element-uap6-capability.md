@@ -1,11 +1,7 @@
 ---
 description: Declares a capability required by a package (uap6:Capability).
 title: uap6:Capability
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 04/10/2018
 ---
@@ -16,44 +12,43 @@ Declares a capability required by a package.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-capabilities.md">&lt;Capabilities&gt;</a></dt>
-<dd><b>&lt;uap6:Capability&gt;</b></dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Capabilities\>](element-capabilities.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap6:Capability\>**
 
 ## Syntax
 
-``` syntax
-<uap6:Capability Name = "graphicsCapture" />
+```xml
+<uap6:Capability
+  Name = 'A string that can have one of the following values: "graphicsCapture".' />
 ```
 
-## Attributes and Elements
+## Attributes and elements
 
 ### Attributes
 
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| Name | The name of the capability. | One of the following string values: "graphicsCapture" | Yes |  
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Name** | The name of the capability. | A string that can have one of the following values: "graphicsCapture". | Yes |  |  
 
-### Child Elements
+### Child elements
 
 None.
 
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [Capabilities](element-capabilities.md) | Declares the access to protected user resources that the package requires. |
+
 ## See also
+
 [App capability declarations](/previous-versions/windows/apps/hh464936(v=win.10))
 
 ## Requirements
 
-|   | Value |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/6` |
-
-
- 
-
- 

@@ -2,7 +2,6 @@
 title: uap13:AppInstaller
 description: Specifies an App Installer file, which provides an update path that a Windows app can traverse searching for updates, and repairs.
 keywords: windows 10, uwp, schema, manifest, extension
-
 ms.date: 05/03/2022
 ms.topic: reference
 ---
@@ -13,57 +12,36 @@ Specifies an App Installer file, which provides an update path that a Windows ap
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extension.md">&lt;Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap13-autoupdate.md">&lt;uap13:AutoUpdate</a></dt>
-<dd><strong>&lt;uap13:AppInstaller&gt;</strong></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap13:Extension\>](element-uap13-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[<\uap13:AutoUpdate\>](element-uap13-autoupdate.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap13:AppInstaller\>**
 
 ## Syntax
 
 ``` XML
 <uap13:AppInstaller 
-  file = An alphanumeric string between 1 and 255 characters that ends with the extension .appinstaller and cannot contain the following characters: <, >, :, ", |, ?, or *.
-  >
-
-</uap13:AppInstaller>
+  file = 'An alphanumeric string with a value between 1 and 255 characters that ends with the extension ".appinstaller". The string cannot contain the following characters: <, >, :, ", |, ?, or *.' />
 ```
 
 ## Attributes and elements
 
 ### Attributes
 
-| Attribute | Description | Data type | Required |
-|-|-|-|:-:|
-| File | The package-relative path to the App Installer file. | An alphanumeric string between 1 and 255 characters that ends with the extension .appinstaller and cannot contain the following characters: <, >, :, ", &#124;, ?, or *. | Yes |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **File** | The package-relative path to the App Installer file. | An alphanumeric string with a value between 1 and 255 characters that ends with the extension `.appinstaller`. The string cannot contain the following characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
 
 ### Child elements
 
-**None.**
+None.
 
 ### Parent elements
 
@@ -77,6 +55,6 @@ An App Installer file specifies where your app is located and how to update it. 
 
 ### Requirements
 
-| Namespace | Path |
+| Item | Value |
 |-|-|
 | **UAP13** | `http://schemas.microsoft.com/appx/manifest/uap/windows/10/13` |

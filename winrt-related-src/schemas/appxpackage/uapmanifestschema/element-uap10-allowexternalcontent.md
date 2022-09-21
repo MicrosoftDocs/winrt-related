@@ -12,23 +12,17 @@ Enables your package manifest to reference content outside the package, in a spe
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-properties.md">&lt;Properties&gt;</a></dt>
-<dd><b>&lt;uap10:AllowExternalContent&gt;</b></dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap10:AllowExternalContent\>**
 
 ## Syntax
 
-```syntax
+```xml
 <uap10:AllowExternalContent>
-
-  Boolean
-
+  A boolean value.
 </uap10:AllowExternalContents>
 ```
 
@@ -36,43 +30,28 @@ Enables your package manifest to reference content outside the package, in a spe
 
 `?`   optional (zero or one)
 
-## Attributes and Elements
+## Attributes and elements
 
 ### Attributes
 
 None.
 
-### Child Elements
+### Child elements
 
 None.
 
-### Parent Elements
+### Parent elements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-properties.md">Properties</a> </td>
-<td><p>Defines additional metadata about the package including attributes that describe how the package behaves.</p></td>
-</tr>
-</tbody>
-</table>
+| Parent element | Description |
+|-|-|
+| [Properties](element-properties.md) | Defines additional metadata about the package including attributes that describe how the package behaves. |
 
 ## Remarks
 
-The **uap10:AllowExternalContent** element contains a Boolean value. For more information about the use of the element, see [Grant identity to non-packaged desktop apps](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps).
+The **uap10:AllowExternalContent** element contains a boolean value. For more information about the use of the element, see [Grant identity to non-packaged desktop apps](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps).
 
 ## Requirements
 
-|   | Value |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
