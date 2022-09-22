@@ -31,7 +31,7 @@ Specifies a service that is installed and registered along with the app. These s
 <desktop6:Service
     Name = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
     StartupType = 'A string that can be one of the following values: "auto", "manual", "disabled", or "delayedStart".'
-    StartAccount = 'A string that can be one of the following values: "localSystem", "localServices", or "networkService".'
+    StartAccount = 'A string that can be one of the following values: "localSystem", "localService", or "networkService".'
     Arguments = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.' >
 
     desktop6:Dependencies?
