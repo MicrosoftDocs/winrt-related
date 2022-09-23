@@ -126,6 +126,10 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap13-appinstaller.md
           - name: "uap13:HostRuntimeDependency"
             href: schemas/appxpackage/uapmanifestschema/element-uap13-hostruntimedependency.md
+          - name: "uap15:Capabilities"
+            href: schemas/appxpackage/uapmanifestschema/element-uap15-capabilities.md
+          - name: "uap15:DependencyTarget"
+            href: schemas/appxpackage/uapmanifestschema/element-uap15-dependencytarget.md
           - name: "Resources"
             href: schemas/appxpackage/uapmanifestschema/element-resources.md
           - name: "Resource"
