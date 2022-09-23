@@ -31,8 +31,12 @@ A path to a file that contains an image.
 
 ```xml
 <desktop7:Logo
-  ResourceId = 'A string with a value between 1 and 30 characters in length that consists of alphanumeric, period, and dash characters.' />
+  ResourceId = 'An optional integer value.' >
+A string with a value between 1 and 256 characters in length that ends with ".jpg", ".png", ".jpeg", ".ico", ".dll", or ".exe", case-insensitive, that can't contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters can't be the first or last characters. Also, the string can contain / or \ but not both.
+<desktop7:Logo>
 ```
+
+
 
 ## Attributes and elements
 
@@ -40,7 +44,7 @@ A path to a file that contains an image.
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **ResourceId** | The string table ID of the string Infotip string within the resource module. | A string with a value between 1 and 30 characters in length that consists of alphanumeric, period, and dash characters. | Yes |  |
+| **ResourceId** | The resource ID of the logo. | 'An optional integer value.' | Yes |  |
 
 ### Child elements
 
