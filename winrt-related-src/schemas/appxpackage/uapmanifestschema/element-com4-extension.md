@@ -126,7 +126,7 @@ The following example shows how to register an out-of-process and an in-process 
 ### New features in the com4 extension
 
 - Support for in-process servers (both unmanaged and managed) and custom in-process handlers (i.e. not the OLE default handler). This capability is currently functionally limited and restricted by policy:
-  - This is currently only intended for use by sparse packages and doesn’t work for most normal packages due to ACLs on the install location that prevent the package’s dlls from being loaded outside the package. For more information on sparse packages, see [Grant identity to non-packaged desktop apps](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps).
+  - This is currently only intended for use by sparse packages and doesn’t work for most normal packages due to ACLs on the install location that prevent the package’s dlls from being loaded outside the package. For more information on sparse packages, see [Grant identity to unpackaged desktop apps](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps).
 - It is now possible to associate a TypeLib with a class registration.
 
 ## Requirements
