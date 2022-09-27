@@ -44,8 +44,7 @@ None.
 
 ## Remarks
 
-Before the introduction of this element, only framework packages could be referenced as a dynamic dependency at runtime. This element allows any main package to declare that they can be referenced as a run time dynamic dependency. For more information, see
-[Use the dynamic dependency API to reference framework packages at run time](/windows/apps/desktop/modernize/framework-packages/use-the-dynamic-dependency-api).
+For more information on dynamic dependencies, see [Use the dynamic dependency API to reference framework packages at run time](/windows/apps/desktop/modernize/framework-packages/use-the-dynamic-dependency-api).
 
 
 
