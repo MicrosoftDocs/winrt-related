@@ -54,7 +54,7 @@ None.
 
 ## Remarks
 
-This element has the same format and provides the same behavior as the [Capabilities](element-capabilities) element. The only difference is that while the original **Capabilities** element could only be used for main packages, **uap15:Capabilities** can be used for non-main packages. The usage of this element is restricted to framework packages.
+This element has the same format and provides the same behavior as the [Capabilities](element-capabilities.md) element. The only difference is that while the original **Capabilities** element could only be used for main packages, **uap15:Capabilities** can be used for non-main packages. The usage of this element is restricted to framework packages.
 
 
 
