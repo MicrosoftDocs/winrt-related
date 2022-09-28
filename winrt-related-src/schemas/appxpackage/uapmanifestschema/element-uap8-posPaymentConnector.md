@@ -2,7 +2,6 @@
 title: uap8:PosPaymentConnector
 description: Contains device information for Point-of-Sale/Point-of-Service devices.
 ms.date: 03/14/2022
-
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
@@ -11,45 +10,47 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 
 Contains device information for Point-of-Sale/Point-of-Service devices.
 
-## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap8-extension.md">&lt;uap8:Extension&gt;</a></dt>
-<dd><b>&lt;uap8:PosPaymentConnector&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+## Element hierarchy
+
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap8:Extension\>](element-uap8-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap8:PosPaymentConnector\>**
 
 ## Syntax
-```syntax
-<uap8:POSPaymentConnector DisplayName = A string between 1 and 256 characters in length.>
 
-</uap8:POSPaymentConnector>
+```xml
+<uap8:POSPaymentConnector
+  DisplayName = 'A string with a value between 1 and 256 characters in length.' />
 ```
 
-## Attributes
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| DisplayName | The display name of the device. | A string between 1 and 256 characters in length. | Yes |
+## Attributes and elements
+
+### Attributes
+
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **DisplayName** | The display name of the device. | A string with a value between 1 and 256 characters in length. | Yes |  |
+
+### Child elements
+
+None.
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [uap8:Extension](element-uap8-extension.md) | Declares an extensibility point for the app. |
 
 ## Requirements
-|   | Value |
+
+| Item | Value |
 |--|--|
 | **uap8** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/8` |

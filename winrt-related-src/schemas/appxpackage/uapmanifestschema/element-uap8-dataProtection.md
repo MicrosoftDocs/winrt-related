@@ -2,7 +2,6 @@
 title: uap8:DataProtection
 description: Settings to configure data encryption.
 ms.date: 03/14/2022
-
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
@@ -11,37 +10,43 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 
 Settings to configure data encryption.
 
-## Element Hierarchy (Application Extensions)
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap8-extension.md">&lt;uap8:Extension&gt;</a></dt>
-<dd><b>&lt;uap8:dataProtection&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+## Element Hierarchy
+
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap8:Extension\>](element-uap8-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap8:DataProtection\>**
 
 ## Syntax
-```syntax
-<uap8:DataProtection UserDataAvailability = One of the following string values: "always", "afterFirstUnlock", "whileUnlocked", "applicationManaged">
 
-</uap8:DataProtection>
+```xml
+<uap8:DataProtection
+  UserDataAvailability = 'A string that can have one of the following values: "always", "afterFirstUnlock", "whileUnlocked", or "applicationManaged".' />
 ```
 
-## Attributes
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| UserDataAvailability | Specifies how the application should make user data available. | A string value that can be one of the following: "always", "afterFirstUnlock", "whileUnlocked", or "applicationManaged" | Yes |
+## Attributes and elements
 
+### Attributes
 
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **UserDataAvailability** | Specifies how the application should make user data available. | A string that can have one of the following values: *always*, *afterFirstUnlock*, *whileUnlocked*, or *applicationManaged*. | Yes |  |
+
+### Child elements
+
+None.
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [uap8:Extension](element-uap8-extension.md) | Declares an extensibility point for the app. |
 
 ## Requirements
-|   | Value |
+
+| Item | Value |
 |--|--|
 | **uap8** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/8` |

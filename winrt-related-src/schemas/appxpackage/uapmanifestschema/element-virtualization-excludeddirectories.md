@@ -1,8 +1,6 @@
 ---
 description: Specifies the list of directories that are excluded from file system virtualization.
 title: virtualization:ExcludedDirectories
-
-
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/18/2022
@@ -14,56 +12,49 @@ ms.custom:
 Specifies the list of directories that are excluded from file system virtualization.
 
 > [!NOTE]
-> This element requires the  **unvirtualizedResources** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
+> This element requires the **unvirtualizedResources** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-properties.md">&lt;Properties&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-virtualization-filesystemwritevirtualization.md">&lt;virtualization:FileSystemWriteVirtualization&gt;</a></dt>
-<dd><b>&lt;virtualization:ExcludedDirectories&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<virtualization:FileSystemWriteVirtualization\>](element-virtualization-filesystemwritevirtualization.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<virtualization:ExcludedDirectories\>**
 
 ## Syntax
 
-``` xml
+```xml
 <virtualization:ExcludedDirectories>
+
+    <!-- Child elements -->
     ExcludedDirectory {0, 1000}
+
 </virtualization:ExcludedDirectories>
 ```
 
-
-
-### Key 
+### Key
 
 `{}`   specific range of occurrences
 
-## Attributes and Elements
-
+## Attributes and elements
 
 ### Attributes
 
 None.
 
-### Child Elements
+### Child elements
 
-| Child Element | Description |
-|---------------|-------------|
+| Child element | Description |
+|-|-|
 | [virtualization:ExcludedDirectory](element-virtualization-excludeddirectory.md) | Specifies a directory that is excluded from file system virtualization. |
 
-### Parent Elements
+### Parent elements
 
-| Parent Element | Description |
-|---------------|-------------|
+| Parent element | Description |
+|-|-|
 | [virtualization:FileSystemWriteVirtualization](element-virtualization-filesystemwritevirtualization.md) | Indicates whether virtualization for the file system is enabled for a package.  |
 
 ## Remarks
@@ -72,10 +63,6 @@ This element requires the **unvirtualizedResources** [restricted capability](/wi
 
 ## Requirements
 
-| Namespace | Manifest Path | 
-|---------------|-------------------------------------------------------------|
-| virtualization | `http://schemas.microsoft.com/appx/manifest/virtualization/windows10` |
-
- 
-
- 
+| Item | Value |
+|-|-|
+| **UAP12** | `http://schemas.microsoft.com/appx/manifest/virtualization/windows10` |

@@ -3,95 +3,54 @@ description: A path to a file that contains an image (Windows 10, child of uap:
 Search.Product: eADQiWindows 10XVcnh
 title: uap:Logo (Windows 10, child of uap:FileTypeAssociation)
 ms.assetid: e82d1f5f-e1c8-469c-8568-0736c2a96554
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 04/05/2017
 ---
 
 # uap:Logo (Windows 10, child of uap:FileTypeAssociation)
 
-
 A path to a file that contains an image.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap-extension.md">&lt;uap:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap-filetypeassociation.md">&lt;uap:FileTypeAssociation&gt;</a></dt>
-<dd><b>&lt;desktop7:Logo&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap:Extension\>](element-uap-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap:FileTypeAssociation\>](element-uap-filetypeassociation.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap:Logo\>**
 
 ## Syntax
 
-``` syntax
-<Logo>
-
-  A string between 1 and 256 characters in length that ends with ".jpg", ".png", ".jpeg", or ".ico" that can't contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters can't be the first or last characters. Also, the string can contain / or \ but not both.
-
+```xml
+<uap:Logo>
+  A string with a value between 1 and 256 characters in length that ends with ".jpg", ".png", ".jpeg", or ".ico" that can't contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters can't be the first or last characters. Also, the string can contain / or \ but not both.
 </uap:Logo>
 ```
 
-## Attributes and Elements
-
+## Attributes and elements
 
 ### Attributes
 
 None.
 
-### Child Elements
+### Child elements
 
 None.
 
-### Parent Elements
+### Parent elements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-uap-filetypeassociation.md">uap:FileTypeAssociation</a> </td>
-<td><p>Declares an app extensibility point of type <strong>windows.fileTypeAssociation</strong>. A file type association indicates that the app is registered to handle files of the specified types.</p></td>
-</tr>
-</tbody>
-</table>
-
- 
+| Parent element | Description |
+|-|-|
+| [uap:FileTypeAssociation](element-uap-filetypeassociation.md) | Declares an app extensibility point of type *windows.fileTypeAssociation*. A file type association indicates that the app is registered to handle files of the specified types. |
 
 ## Remarks
 
@@ -99,11 +58,6 @@ The logo image can be given as either a direct path to an image file or as a res
 
 ## Requirements
 
-|   | Value |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
-
-
- 
-
- 

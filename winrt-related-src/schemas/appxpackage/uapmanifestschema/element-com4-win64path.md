@@ -8,61 +8,53 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 # com4:Win64Path
 
-
-
-## Description
 A path to the 64-bit type library.
 
+## Element hierarchy
 
+[\<Package\>](element-package.md)
 
-## Element Hierarchy
-<dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-com4-typelib.md">&lt;com4:TypeLib&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-com4-version.md">&lt;com4:Version&gt;</a></dt>
-<dd>
-<b>&lt;com4:Win64Path&gt;</b>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com4:TypeLib\>](element-com4-typelib.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com4:Version\>](element-com4-version.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com4:Win32Path\>**
 
 ## Syntax
-```syntax
-<com4:Win64Path     Path = A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.
-    ResourceId? = A positive integer.
-></com4:Win64Path>
+
+```xml
+<com4:Win64Path
+    Path = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
+    ResourceId = 'An optional non-negative integer value.' />
 ```
 
-## Key
-`?`    optional (zero or one) 
+## Attributes and elements
 
+### Attributes
 
-## Attributes
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Path** | A path to the 32-bit TypeLib relative to the package root. Path must reference a file in the package. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
+| **ResourceId** | The integer at the end of the default value of the Win32Path, separated from the path by a backslash (for example, C:\Foo\Bar\Baz.exe\5). | An optional non-negative integer value. | No |  |
 
-| Attribute | Description | Data type | Required |
-| -----------| -------------| -----------| ----------|
-| Path | A path to the 64-bit TypeLib relative to the package root. Path must reference a file in the package. | One of the following values: A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", ,, ?, or *.| Yes |
-| ResourceId | The integer at the end of the default value of the Win64Path, separated from the path by a backslash, e.g., C:\Foo\Bar\Baz.exe\5. | A positive integer.| No |
+### Child elements
 
+None.
 
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [com4:Version](element-com4-version.md) | Version number and additional information about the type library. |
 
 ## Requirements
-| Prefix | Value |
-| ---------------| -------------------------------------------------------------|
-| com4 | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
+
+|   | Value  |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |

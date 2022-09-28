@@ -1,5 +1,4 @@
 ﻿---
-
 title: desktop7:Logo
 description: A path to a file that contains an image (desktop7).
 ms.date: 08/12/2022
@@ -10,74 +9,51 @@ ms.custom: 19H1
 
 # desktop7:Logo
 
-## Description
 A path to a file that contains an image.
 
-## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap-extension.md">&lt;uap:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap-filetypeassociation.md">&lt;uap:FileTypeAssociation&gt;</a></dt>
-<dd><b>&lt;desktop7:Logo&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+## Element hierarchy
 
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap:Extension\>](element-uap-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap:FileTypeAssociation\>](element-uap-filetypeassociation.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop7:Logo\>**
 
 ## Syntax
 
 ```xml
-<desktop7:Logo ResourceId   = A string between 1 and 30 characters in length that consists of alpha-numeric, period, and dash characters. >
-</desktop7:Logo>
+<desktop7:Logo
+  ResourceId = 'A string with a value between 1 and 30 characters in length that consists of alphanumeric, period, and dash characters.' />
 ```
 
-
-## Attributes and Elements
+## Attributes and elements
 
 ### Attributes
 
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| ResourceId | The string table ID of the string Infotip string within the resource module. | A string between 1 and 30 characters in length that consists of alpha-numeric, period, and dash characters. | Yes |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **ResourceId** | The string table ID of the string Infotip string within the resource module. | A string with a value between 1 and 30 characters in length that consists of alphanumeric, period, and dash characters. | Yes |  |
 
-### Child Elements
+### Child elements
 
 None
 
-### Parent Elements
+### Parent elements
 
-| Parent Element | Description |
-|---------------|-------------|
+| Parent element | Description |
+|-|-|
 | [ControlPanelItem](element-desktop7-controlpanelitem.md) | Registers an extension as a control panel item. |  
-
-
-## Remarks
-
-
 
 ## Requirements
 
-|               |     Value                                                        |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |
+| Item  | Value  |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |

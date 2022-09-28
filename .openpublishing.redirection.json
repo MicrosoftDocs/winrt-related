@@ -119,7 +119,17 @@
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-wmiproviders-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
-    },    
+    },
+    {
+      "source_path": "uwp/schemas/uapmanifestschema/elemennt-uap3-name-manual.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-name-manual.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "uwp/schemas/uapmanifestschema/elemnt-uap3-properties-manual.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-properties-manual.md",
+      "redirect_document_id": false
+    },
     {
       "source_path": "winrt-related-src/toolkits/index.md",
       "redirect_url": "/windows/apps/winui/",

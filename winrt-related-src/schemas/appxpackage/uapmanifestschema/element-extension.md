@@ -10,206 +10,88 @@ ms.date: 04/10/2018
 
 # Extension (in Package/Extensions) (Windows 10)
 
-
 Declares an extensibility point for the package.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd><b>&lt;Extension&gt;</b></dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<Extension\>**
 
 ## Syntax
 
-``` syntax
-<Extension Category = "windows.activatableClass.inProcessServer" | "windows.activatableClass.outOfProcessServer" | "windows.activatableClass.proxyStub" | "windows.certificates" | "windows.publisherCacheFolders" | "windows.comInterface" | "windows.loaderSearchPathOverride"
-           uap10:TrustLevel?       = String value. Can be one of the following: "appContainer", "mediumIL".
-           uap10:RuntimeBehavior?  = String value. Can be one of the following: "windowsApp", "packagedClassicApp", "win32App".
-           uap10:HostId?           = An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.
-           uap10:Parameters?       = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. >
+```xml
+<Extension
+  Category = 'A string that can have one of the following values: "windows.activatableClass.inProcessServer", "windows.activatableClass.outOfProcessServer", "windows.activatableClass.proxyStub", "windows.certificates", "windows.publisherCacheFolders", "windows.comInterface", or "windows.loaderSearchPathOverride".'
+  uap10:TrustLevel = 'An optional string that can have one of the following values: "appContainer" or "mediumIL".'
+  uap10:RuntimeBehavior = 'An optional string that can have one of the following values: "windowsApp", "packagedClassicApp", or "win32App".'
+  uap10:HostId = 'An alphanumeric string with a value between 1 and 255 characters in length. Must begin with a letter.'
+  uap10:Parameters = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.' >
 
   <!-- Child elements -->
-  ( InProcessServer
-  | OutOfProcessServer
-  | ProxyStub
-  | Certificates
-  | PublisherCacheFolders
-  | com:ComInterface
-  | uap6:LoaderSearchPathOverride
-  )
+  InProcessServer
+  OutOfProcessServer
+  ProxyStub
+  Certificates
+  PublisherCacheFolders
+  com:ComInterface
+  uap6:LoaderSearchPathOverride
 
 </Extension>
 ```
 
-## Attributes and Elements
-
+## Attributes and elements
 
 ### Attributes
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-<th>Data type</th>
-<th>Required</th>
-<th>Default value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Category</strong></td>
-<td><p>The type of package extensibility point.</p></td>
-<td><p>This attribute can have one of the following values:</p>
-<ul>
-<li>windows.activatableClass.inProcessServer</li>
-<li>windows.activatableClass.outOfProcessServer</li>
-<li>windows.activatableClass.proxyStub</li>
-<li>windows.certificates</li>
-<li>windows.publisherCacheFolders</li>
-<li>windows.comInterface</li>
-<li>windows.loaderSearchPathOverride</li>
-</ul></td>
-<td>Yes</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>uap10:TrustLevel</strong></td>
-<td><p>Specifies the trust level of the extension. </p></td>
-<td>String value. Can be one of the following: "appContainer", "mediumIL". </td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>uap10:RuntimeBehavior</strong></td>
-<td><p>Specifies the run time behavior of the extension. </p></td>
-<td>String value. Can be one of the following: "windowsApp", "packagedClassicApp", "win32App". </td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>uap10:HostId</strong></td>
-<td><p>This value specifies the app ID of the host app for the extension. </p></td>
-<td>An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.</td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>uap10:Parameters</strong></td>
-<td><p>Contains command line parameters for the extension.</p></td>
-<td>A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. </td>
-<td>No</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Category** | The type of package extensibility point. | A string that can have one of the following values: *windows.activatableClass.inProcessServer*, *windows.activatableClass.outOfProcessServer*, *windows.activatableClass.proxyStub*, *windows.certificates*, *windows.publisherCacheFolders*, *windows.comInterface*, or *windows.loaderSearchPathOverride* | Yes |  |
+| **uap10:TrustLevel** | Specifies the trust level of the extension. | An optional string that can have one of the following values: *appContainer* or *mediumIL*. | No |  |
+| **uap10:RuntimeBehavior** | Specifies the run time behavior of the extension. | An optional string that can have one of the following values: *windowsApp*, *packagedClassicApp*, or *win32App*. | No |  |
+| **uap10:HostId** | This value specifies the app ID of the host app for the extension. | An alphanumeric string with a value between 1 and 255 characters in length. Must begin with a letter. |
+| **uap10:Parameters** | Contains command line parameters for the extension. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
 
- 
+### Child elements
 
-### Child Elements
+| Child element | Description |
+|-|-|
+| [Certificates](element-certificates.md) | Declares a package extensibility point of type **windows.certificates**. The app requires one or more certificates from the specified certificate stores. |
+| [InProcessServer](element-inprocessserver.md) | Declares a package extensibility point of type **windows.activatableClass.inProcessServer**. The app uses a dynamic link library (`.dll`) that exposes one or more activatable classes. |
+| [OutOfProcessServer](element-outofprocessserver.md) | Declares a package extension point of type **windows.activatableClass.outOfProcessServer**. The app uses an executable (`.exe`) that exposes one or more activatable classes. |
+| [ProxyStub](element-proxystub.md) | Declares a package extensibility point of type **windows.activatableClass.proxyStub**. A proxy can be composed of one or more interfaces. |
+| [PublisherCacheFolders](element-publishercachefolders.md) | Declares a package extensibility point of type **windows.publisherCacheFolders**. This specifies one or more folders that the package shares with other packages from the same publisher. |
+| [com:ComInterface](element-com-package-interface.md) | Declares a package extension point of type **windows.comInterface**. |
+| [uap6:LoaderSearchPathOverride](element-uap6-LoaderSearchPathOverride.md) | Declares a package extension point of type **windows.loaderSearchPathOverride**. |
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Child Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-certificates.md">Certificates</a> </td>
-<td><p>Declares a package extensibility point of type <strong>windows.certificates</strong>. The app requires one or more certificates from the specified certificate stores.</p></td>
-</tr>
-<tr class="even">
-<td><a href="element-inprocessserver.md">InProcessServer</a> </td>
-<td><p>Declares a package extensibility point of type <strong>windows.activatableClass.inProcessServer</strong>. The app uses a dynamic link library (DLL) that exposes one or more activatable classes.</p></td>
-</tr>
-<tr class="odd">
-<td><a href="element-outofprocessserver.md">OutOfProcessServer</a> </td>
-<td><p>Declares a package extension point of type <strong>windows.activatableClass.outOfProcessServer</strong>. The app uses an executable (EXE) that exposes one or more activatable classes.</p></td>
-</tr>
-<tr class="even">
-<td><a href="element-proxystub.md">ProxyStub</a> </td>
-<td><p>Declares a package extensibility point of type <strong>windows.activatableClass.proxyStub</strong>. A proxy can be composed of one or more interfaces.</p></td>
-</tr>
-<tr class="odd">
-<td><a href="element-publishercachefolders.md">PublisherCacheFolders</a> </td>
-<td><p>Declares a package extensibility point of type <strong>windows.publisherCacheFolders</strong>. This specifies one or more folders that the package shares with other packages from the same publisher.</p></td>
-</tr>
-<tr class="even">
-<td><a href="element-com-package-interface.md">com:ComInterface</a> </td>
-<td><p>Declares a package extension point of type <strong>windows.comInterface.</strong></p></td>
-</tr>
-<tr class="odd">
-<td><a href="element-uap6-LoaderSearchPathOverride.md">uap6:LoaderSearchPathOverride</a> </td>
-<td><p>Declares a package extension point of type <strong>windows.loaderSearchPathOverride.</strong></p></td>
-</tr>
-</tbody>
-</table>
+### Parent elements
 
- 
-
-### Parent Elements
-
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-extensions.md">Extensions (type: CT_PackageExtensions)</a> </td>
-<td><p>Defines one or more extensibility points for the package.</p></td>
-</tr>
-</tbody>
-</table>
-
- 
+| Parent element | Description |
+|-|-|
+| [Extensions (type: CT_PackageExtensions)](element-extensions.md) | Defines one or more extensibility points for the package. |
 
 ## Related elements
 
-
 The following elements have the same name as this one, but different content or attributes:
 
--   **[Extension (global)](element-1-extension.md)**
+- [Extension (global)](element-1-extension.md)
 
 ## Remarks
 
-Extensibility points are a mechanism by which a package can add functionality in a manner defined by the operating system. An extensibility point is a location where an app can register to execute code or use resources of the current package. To add functionality for a particular app, use the [**Application**](element-application.md) child element of the [**Applications**](element-applications.md) element.
+Extensibility points are a mechanism by which a package can add functionality in a manner defined by the operating system. An extensibility point is a location where an app can register to execute code or use resources of the current package. To add functionality for a particular app, use the [Application](element-application.md) child element of the [Applications](element-applications.md) element.
 
 The **windows.certificates** extensibility point can't be declared multiple times in a manifest.
 
 ## See also
 
-
-**Concepts**
-[App contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10))
+- [App contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10))
 
 ## Requirements
 
-|   | Value  |
+| Item  | Value  |
 |--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10`<br/><br/>`http://schemas.microsoft.com/appx/manifest/uap/windows10/10` (for the **uap10** attributes) |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **com** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
+| **uap6** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |

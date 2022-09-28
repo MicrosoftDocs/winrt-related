@@ -8,62 +8,57 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 # com4:InProcessServer
 
-
-
-## Description
 Registers an in-process server with one or many class registrations.
 
+## Element hierarchy
 
+[\<Package\>](element-package.md)
 
-## Element Hierarchy
-<dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dd><b>&lt;com4:InProcessServer&gt;</b></dd></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com4:InProcessServer\>**
 
 ## Syntax
-```syntax
-<com4:InProcessServer     Path? = A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *, ending with the case-insensitive file extension ".dll".
->
-<!-- Child elements -->
+
+```xml
+<com4:InProcessServer
+  Path = 'An optional string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *, ending with the case-insensitive file extension ".dll".' />
+
+  <!-- Child elements -->
   Class
   InProcessServerDll
   ClassReference
+
 </com4:InProcessServer>
 ```
 
-## Key
-`?`    optional (zero or one) 
+## Attributes and elements
 
+### Attributes
 
-## Attributes
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Path** | The path to the DLL. | One of the following values: A string between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|` `?`, or `*`, ending with the case-insensitive file extension `.dll`. | No |  |
 
-| Attribute | Description | Data type | Required |
-| -----------| -------------| -----------| ----------|
-| Path | The path to the DLL. | One of the following values: A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", ,, ?, or *, ending with the case-insensitive file extension ".dll".| No |
+### Child elements
 
-
-## Child Elements
-
-| Element | Description |
-| -----------| -------------|
+| Child element | Description |
+|-|-|
 | [Class](element-com4-inprocessserver-class.md) | Defines an in-process server class registration. |
 | [InProcessServerDll](element-com4-inprocessserverdll.md) | Specifies the path and processor architecture of an in-process server DLL. |
 | [ClassReference](element-com4-inprocessserver-classreference.md) | Specifies the class with which the registered in-process server is associated and sets registration details. |
 
-## Remarks
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [Extensions](element-1-extensions.md) | Defines one or more extensibility points for the app. |
+
+## Examples
 
 The following example shows how to register an out-of-process and an in-process server implementation for the same class.
 
@@ -75,10 +70,10 @@ The following example shows how to register an out-of-process and an in-process 
 <com4:InProcessServer Path="MyServer.dll">  
   <com4:ClassReference Id="f4ed7720-9b3a-44a4-xxxx-xxxxxxxxxxxx"/>  
 </com4:InProcessServer> 
-
 ```
 
 ## Requirements
-| Prefix | Value |
-| ---------------| -------------------------------------------------------------|
-| com4 | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
+
+|   | Value  |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |

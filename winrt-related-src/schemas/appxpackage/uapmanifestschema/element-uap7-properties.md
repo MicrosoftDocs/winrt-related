@@ -1,38 +1,28 @@
 ---
 description: Properties of an application.
 title: uap7:Properties
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 10/03/2018
 ---
 
 # uap7:Properties
+
 Properties of an application.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd><b>&lt;uap7:Properties&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap7:Properties\>**
 
 ## Syntax
 
-``` syntax
+```xml
 <uap7:Properties>
 
   <!-- Child elements -->
@@ -41,27 +31,26 @@ Properties of an application.
 </uap7:Properties>
 ```
 
-## Attributes and Elements
+## Attributes and elements
+
 ### Attributes
-None 
 
-### Child Elements
+None.
 
-| Child Element | Description |
-|---------------|-------------|
+### Child elements
+
+| Child element | Description |
+|-|-|
 | [uap7:ImportRedirectionTable](element-uap7-importredirectiontable.md) | Allows for a packaged app to declare API redirections.|
 
- 
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [Application](element-application.md) | Represents an app that comprises part of or all of the functionality delivered in the package. |
+
 ## Requirements
 
-|   | Value |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/7` |
-
-
- 
-
- 
-
-
-

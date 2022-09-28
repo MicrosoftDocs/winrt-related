@@ -8,36 +8,21 @@ ms.topic: reference
 
 # desktop8:Channels
 
-## Description
-
 Allows one or more channels to be specified for event tracing.
 
-## Element Hierarchy
+## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</dt>
-<dd>
-<dl>
-<dt><a href="element-desktop8-extension.md">&lt;desktop8:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop8-eventtracing.md">&lt;desktop8:EventTracing&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop8-provider.md">&lt;desktop8:Provider&gt;</a></dt>
-<dd><strong>&lt;desktop8:Channels&gt;</strong></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop8:Extension\>](element-desktop8-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop8:EventTracing\>](element-desktop8-eventtracing.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop8:Provider\>](element-desktop8-provider.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop8:Channels\>**
 
 ## Syntax
 
@@ -51,27 +36,27 @@ Allows one or more channels to be specified for event tracing.
 </desktop8:Channels>
 ```
 
-## Attributes and Elements
+## Attributes and elements
 
 ### Attributes
 
 None.
 
-### Child Elements
+### Child elements
 
-| Child Element | Description |
-|---------------|-------------|
+| Child element | Description |
+|-|-|
 | [desktop8:Channel](element-desktop8-channel.md) | Specifies a channel to be used for event tracing. |
 | [desktop8:ImportChannel](element-desktop8-importchannel.md) | Specifies an imported channel to be used for event tracing. |
 
-### Parent Elements
+### Parent elements
 
-| Parent Element | Description |
-|----------------|-------------|
+| Parent element | Description |
+|-|-|
 | [desktop8:Provider](element-desktop8-provider.md) | Registers a provider to Event Tracing and enables its functionality. |
 
 ## Requirements
 
-| **Namespace** | **Value** |
-|---------------|-----------|
-| **desktop8** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/8` |
+| Item  | Value  |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/8` |

@@ -1,77 +1,67 @@
 ---
-
 ms.assetid: 5872b49b-5572-4198-8765-775c7a5a36fc
 title: rescap3:MigrationProgIds (child of uap:Protocol)
 description: "Learn more about: rescap3:MigrationProgIds"
-
 ms.date: 04/05/2017
 ms.topic: reference
-
-
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 
 # rescap3:MigrationProgIds (child of uap:Protocol)
 
-
-## Description
 Contains Migration Prog Ids for protocols and file type associations.
 
+## Element hierarchy
 
-## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap-extension.md">&lt;uap:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap-protocol.md">&lt;uap:Protocol&gt;</a></dt>
-<dd><b>&lt;rescap3:MigrationProgIds&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
 
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap:Extension\>](element-uap-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap:Protocol\>](element-uap-protocol.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<rescap3:MigrationProgIds\>**
 
 ## Syntax
-```syntax
+
+```xml
 <rescap3:MigrationProgIds> 
+
   <!-- Child elements -->
-  rescap3:MigrationProgId{0,10000} 
+  rescap3:MigrationProgId{0,10000}
+
 </rescap3:MigrationProgIds>
 ```
 
 ### Key
+
 `{}` specific range of occurrences
 
-## Child Elements
+## Attributes and elements
+
+### Attributes
+
+None.
+
+### Child elements
+
 | Child Element | Description |
-|---------------|-------------|
-| [MigrationProgId](element-uap-protocol-migrationprogid.md) | Contains a migration Prog Id string for protocols and file type associations. | 
+|-|-|
+| [MigrationProgId](element-uap-protocol-migrationprogid.md) | Contains a migration Prog Id string for protocols and file type associations. |
 
-## Remarks
+### Parent elements
 
-## Examples
+| Parent element | Description |
+|-|-|
+| [uap:Protocol](element-uap-protocol.md) | Declares an app extensibility point of type *windows.protocol*. A URI association indicates that the app is registered to handle URIs with the specified scheme. |
 
 ## Requirements
 
-|               | Value                                                       |
-|---------------|-------------------------------------------------------------|
+| Item | Value |
+|-|-|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/3` |

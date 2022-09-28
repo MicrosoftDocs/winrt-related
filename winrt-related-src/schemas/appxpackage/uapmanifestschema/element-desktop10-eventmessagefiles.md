@@ -2,49 +2,33 @@
 title: desktop10:EventMessageFiles
 description: Defines 1 or more DLL files containing the language strings describing the events.
 keywords: windows 10, uwp, schema, manifest, desktop, extension
-
 ms.date: 05/23/2022
 ms.topic: reference
 ---
 
 # desktop10:EventMessageFiles
 
-## Description
-
 Defines 1 or more DLL files containing the language strings describing the events.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop10-extension.md">&lt;desktop10:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop10-customdesktopeventlog.md">&lt;desktop10:CustomDesktopEventLog&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop10-customeventsource.md">&lt;desktop10:CustomEventSource&gt;</a></dt>
-<dd><strong>&lt;desktop10:EventMessageFiles&gt;</strong></dd>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop10:Extension\>](element-desktop10-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop10:CustomDesktopEventLog\>](element-desktop10-customdesktopeventlog.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop10:CustomEventSource\>](element-desktop10-customeventsource.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop10:EventMessageFiles\>**
 
 ## Syntax
 
 ```xml
 <desktop10:EventMessageFiles>
+
   <!-- Child Elements -->
   desktop10:File{0,10000}
 
@@ -61,13 +45,13 @@ Defines 1 or more DLL files containing the language strings describing the event
 
 None.
 
-### Child Elements
+### Child elements
 
 | Child element | Description |
 |-|-|
 | [desktop10:File](element-desktop10-file.md) | Specifies an event log DLL within the package. |
 
-### Parent Elements
+### Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -75,6 +59,6 @@ None.
 
 ## Requirements
 
-| Namespace | Value |
-|-|-|
+| Item  | Value  |
+|--|--|
 | **desktop10** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |

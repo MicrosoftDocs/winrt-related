@@ -1,91 +1,75 @@
 ---
-
 title: uap5:Host
 description: Represents a valid HTTP or HTTPS host name with a wildcard that the app wants to register as able to handle.
-
 ms.date: 10/10/2017
 ms.topic: reference
-
-
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 
 # uap5:Host
+
 Represents a valid HTTP or HTTPS host name with a wildcard that the app wants to register as able to handle.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap3-extension-manual.md">&lt;uap3:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap3-appurihandler-manual.md">&lt;uap3:AppUriHandler&gt;</a></dt>
-<dd><b>&lt;uap5:Host&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap3:Extension\>](element-uap3-extension-manual.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap3:AppUriHandler\>](element-uap3-appurihandler-manual.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap5:Host\>**
 
 ## Syntax
 
-```
-<uap5:Host Name = A wildcard with a domain name of the web site associated with the app. />
+```xml
+<uap5:Host
+    Name = 'A wildcard ("*") and a period (".") character followed by an alphanumeric domain name string value.' />
 ```
 
 ## Attributes and Elements
 
-**Attributes**
+### Attributes
 
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| **Name**  | A wildcard with a domain name of the web site associated with the app. | A wildcard and a period (*.) followed an alphanumeric domain name string. | Yes  |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Name**  | A wildcard with a domain name of the web site associated with the app. | A wildcard (`*`) and a period (`.`) character followed by an alphanumeric domain name string value. | Yes  |  |
 
-**Child Elements**
+### Child elements
 
 None.
 
-**Parent Elements**
+### Parent elements
 
-| Parent Element | Description |
-|----------------|-------------|
-| [**uap3:AppUriHandler**](element-uap3-appurihandler-manual.md) | Declares an app extensibility point of type **windows.appUriHandler**. |
+| Parent element | Description |
+|-|-|
+| [uap3:AppUriHandler](element-uap3-appurihandler-manual.md) | Declares an app extensibility point of type *windows.appUriHandler*. |
 
 ## Examples
 
-In this example, `*.microsoft.com` can handled as: `docs.microsoft.com`, `developer.microsoft.com`, `foo.microsoft.com`, etc.
+In this example, `*.microsoft.com` can be handled as: `learn.microsoft.com`, `developer.microsoft.com`, `foo.microsoft.com`, etc.
 
 ```xml
 <Package ...
-         xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3"  
-         xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5"  
-         IgnorableNamespaces="... uap3">
+    xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3"  
+    xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5"  
+    IgnorableNamespaces="... uap3">
     <Applications>
         <Application>
             <Extensions>
-                <uap3:Extension Category="windows.appUriHandler">  
+                <uap3:Extension
+                    Category="windows.appUriHandler">  
                     <uap3:AppUriHandler>  
-                        <uap5:Host Name="*.microsoft.com" />  
+                        <uap5:Host
+                            Name="*.microsoft.com" />  
                     </uap3:AppUriHandler>  
-                </uap3:Extension>  
+                </uap3:ExtensionCategory>  
             </Extensions>
         </Application>
     </Applications>
@@ -94,6 +78,6 @@ In this example, `*.microsoft.com` can handled as: `docs.microsoft.com`, `develo
 
 ## Requirements
 
-|               | Value                                                        |
-|---------------|--------------------------------------------------------------|
+| Item | Value |
+|--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |

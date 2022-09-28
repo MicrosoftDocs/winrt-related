@@ -8,43 +8,54 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 
 # desktop:FullTrustProcess
 
-## Description
-
 Represents a desktop process that runs in full-trust.
 
 ## Element Hierarchy
 
-[ < Package > ](element-package.md)
+[\<Package\>](element-package.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < Applications > ](element-applications.md)
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < Application > ](element-application.md)
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < Extensions > ](element-1-extensions.md)
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < Desktop:Extension > ](element-desktop-extension.md)
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Desktop:Extension\>](element-desktop-extension.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**< Desktop:FullTrustProcess >**
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<Desktop:FullTrustProcess\>**
 
 ## Syntax
-```sytnax
+
+```xml
 <desktop:FullTrustProcess >
 
- <!-- Child elements -->
- ParameterGroup{0,1000}
+  <!-- Child elements -->
+  ParameterGroup{0,1000}
+
 </desktop:FullTrustProcess>
 ```
+
 ### Key
+
 `{}` specific range of occurrences
 
-## Attributes
+## Attributes and elements
+
+### Attributes
 
 None
 
-## Child Elements
-| Child Element | Description |
-|---------------|-------------|
+### Child elements
+
+| Child element | Description |
+|-|-|
 | [ParameterGroup](element-desktop-parametergroup.md) | Defines a group of command line parameters for the process. |
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [desktop:Extension](element-desktop-extension.md) | Declares an extensibility point for the app. |
 
 ## Remarks
 

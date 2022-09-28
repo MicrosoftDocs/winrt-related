@@ -863,11 +863,11 @@ items:
           - name: "uap3:AppExtensionHost"
             href: schemas/appxpackage/uapmanifestschema/element-uap3-appextensionhost-manual.md
           - name: "uap3:Name"
-            href: schemas/appxpackage/uapmanifestschema/elemennt-uap3-name-manual.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-name-manual.md
           - name: "uap3:AppExtension"
             href: schemas/appxpackage/uapmanifestschema/element-uap3-appextension-manual.md
           - name: "uap3:Properties"
-            href: schemas/appxpackage/uapmanifestschema/elemnt-uap3-properties-manual.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-properties-manual.md
           - name: "uap3:AppUriHandler"
             href: schemas/appxpackage/uapmanifestschema/element-uap3-appurihandler-manual.md
           - name: "uap3:Host"

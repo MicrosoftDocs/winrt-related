@@ -8,62 +8,59 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 # com4:Verb
 
-
-
-## Description
 The verb to be registered for an application.
 
+## Element hierarchy
 
+[\<Package\>](element-package.md)
 
-## Element Hierarchy
-<dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-com4-class.md">&lt;com4:Class&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-com4-verbs.md">&lt;com4:Verbs&gt;</a></dt>
-<dd>
-<b>&lt;com4:Verb&gt;</b>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com4:SurrogateServer\>](element-com4-surrogateserver.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com4:Class\>](element-com4-class.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com4:Verbs\](element-com4-verbs.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com4:Verb\>**
 
 ## Syntax
-```syntax
-<com4:Verb     Id = An integer between -6 and 1000.
-    DisplayName = A string between 1 and 256 characters in length. This string is localizable.
-    AppendMenuFlag = An integer between 0 and 2431.
-    OleVerbFlag = An integer between 0 and 3.
-></com4:Verb>
+
+```xml
+<com4:Verb
+    Id = 'An integer with a value between -6 and 1000.'
+    DisplayName = 'A string with a value between 1 and 256 characters in length. This string is localizable.'
+    AppendMenuFlag = 'An integer with a value between 0 and 2431.'
+    OleVerbFlag = 'An integer with a value between 0 and 3.' />
 ```
 
+## Attributes and elements
 
-## Attributes
+### Attributes
 
-| Attribute | Description | Data type | Required |
-| -----------| -------------| -----------| ----------|
-| Id | The Id number of the verb. Verbs are numbered consecutively. | An integer between -6 and 1000.| Yes |
-| DisplayName | Describes how the verb is appended by [AppendMenu](/windows/win32/api/winuser/nf-winuser-appendmenua). | A string between 1 and 256 characters in length. This string is localizable.| Yes |
-| AppendMenuFlag | Indicates how the verb should appear in the menu. | An integer between 0 and 2431.| Yes |
-| OleVerbFlag | Describes the attributes of a verb. Use either 0 or a value from the [OLEVERBATTRIB](/windows/win32/api/oleidl/ne-oleidl-oleverbattrib) enumeration. | An integer between 0 and 3.| Yes |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Id** | The Id number of the verb. Verbs are numbered consecutively. | An integer with a value between -6 and 1000. | Yes |  |
+| **DisplayName** | Describes how the verb is appended by [AppendMenu](/windows/win32/api/winuser/nf-winuser-appendmenua). | A string with a value between 1 and 256 characters in length. This string is localizable. | Yes |  |
+| **AppendMenuFlag** | Indicates how the verb should appear in the menu. | An integer with a value between 0 and 2431. | Yes |  |
+| **OleVerbFlag** | Describes the attributes of a verb. Use either 0 or a value from the [OLEVERBATTRIB](/windows/win32/api/oleidl/ne-oleidl-oleverbattrib) enumeration. | An integer with a value between 0 and 3. | Yes |  |
 
+### Child elements
 
+None.
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [com4:Verbs](element-com4-verbs.md) | Specifies the verbs to be registered for an application. |
 
 ## Requirements
-| Prefix | Value |
-| ---------------| -------------------------------------------------------------|
-| com4 | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
+
+|   | Value  |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |

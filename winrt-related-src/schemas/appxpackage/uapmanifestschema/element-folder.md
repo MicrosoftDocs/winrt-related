@@ -3,113 +3,55 @@ description: Specifies a folder that the package shares with other packages from
 Search.Product: eADQiWindows 10XVcnh
 title: Folder (Windows 10)
 ms.assetid: b412b98e-130a-4152-a264-49a42ef2d97c
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 04/05/2017
 ---
 
 # Folder (Windows 10)
 
-
 Specifies a folder that the package shares with other packages from the same publisher.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extension.md">&lt;Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-publishercachefolders.md">&lt;PublisherCacheFolders&gt;</a></dt>
-<dd><b>&lt;Folder&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extension\>](element-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<PublisherCacheFolders\>](element-publishercachefolders.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<Folder\>**
 
 ## Syntax
 
-``` syntax
-<Folder Name = A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *. />
+```xml
+<Folder
+    Name = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", \, /, |, ?, or *.' />
 ```
 
-## Attributes and Elements
-
+## Attributes and elements
 
 ### Attributes
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-<th>Data type</th>
-<th>Required</th>
-<th>Default value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Name</strong></td>
-<td><p>The folder name, which must be string valid for a folder name. Sub-folders in the folder name are not allowed (no / or \ characters).</p></td>
-<td>A string between 1 and 256 characters in length that cannot contain these characters: &lt;, &gt;, :, &quot;, |, ?, or *.</td>
-<td>Yes</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Name** | The folder name, which must be string valid for a folder name. Sub-folders in the folder name are not allowed. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `\`, `/`, `|`, `?`, or `*`. | Yes |  |
 
- 
-
-### Child Elements
+### Child elements
 
 None.
 
-### Parent Elements
+### Parent elements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-publishercachefolders.md">PublisherCacheFolders</a> </td>
-<td><p>Declares a package extensibility point of type <strong>windows.publisherCacheFolders</strong>. This specifies one or more folders that the package shares with other packages from the same publisher.</p></td>
-</tr>
-</tbody>
-</table>
-
- 
+| Parent element | Description |
+|-|-|
+| [PublisherCacheFolders](element-publishercachefolders.md) | Declares a package extensibility point of type **windows.publisherCacheFolders**. This specifies one or more folders that the package shares with other packages from the same publisher. |
 
 ## Examples
 
-```XML
+```xml
     <Extension Category="windows.publisherCacheFolders">
         <Folder Name="Folder1"/>
         <Folder Name="Folder2"/>
@@ -118,14 +60,6 @@ None.
 
 ## Requirements
 
-|   | Value  |
+| Item  | Value  |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
-
-
- 
-
- 
-
-
-

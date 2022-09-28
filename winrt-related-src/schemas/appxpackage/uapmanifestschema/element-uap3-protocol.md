@@ -1,56 +1,54 @@
 ---
-
 title: UAP3:Protocol
 description: Declares an app extensibility point of type windows.protocol. A URI association indicates the app is registered to handle URIs with the specified scheme.
-
 ms.date: 03/14/2022
 ms.topic: reference
-
 keywords: windows 10, uwp, schema, manifest, extension 
 ---
 
-# UAP3:Protocol
+# uap3:Protocol
 
 Declares an app extensibility point of type windows.protocol. A URI association indicates that the app is registered to handle URIs with the specified scheme.
 
-[ <  Package  > ](element-package.md)
+## Element hierarchy
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < Applications > ](element-applications.md)
+[\<Package\>](element-package.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < Application > ](element-application.md)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ < UAP3:Extension > ](element-uap3-extension-manual.md)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**< UAP3:Protocol >**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\<uap3:Extension\>](element-uap3-extension-manual.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<uap3:Protocol\>**
 
 ## Syntax
-```
-<uap3:Protocol        parameters? = A string value or set of string values between % characters.
-                      >
 
-</uap3:Protocol>
+```xml
+<uap3:Protocol
+  parameters = 'A string with a value or set of string values between 1 and 32767 characters.' />
 ```
 
-### Key
-`?` optional (zero or one)
+## Attributes and elements
 
 ### Attributes
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| Parameters | The class ID associated with this media content. | A string value or set of string values between % characters. | No |
 
-## Child Elements
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Parameters** | The class ID associated with this media content. | A string with a value or set of string values between 1 and 32767 characters. | No |  |
+
+### Child elements
 
 None.
 
-## Parent Elements
+### Parent elements
 
-| Parent Element | Description |
-|---------------|-------------|
+| Parent element | Description |
+|-|-|
 | [uap3:Extension](element-uap3-extension-manual.md) | Sets parameters to define the protocol of the extensions. |
 
-
 ## Requirements
-|   | Value |
+
+| Item | Value |
 |--|--|
-| **uap3** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |

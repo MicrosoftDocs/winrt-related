@@ -1,8 +1,6 @@
 ---
 description: Specifies the list of keys that are excluded from registry virtualization.
 title: virtualization:ExcludedKeys
-
-
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 
@@ -18,50 +16,45 @@ Specifies the list of keys that are excluded from registry virtualization.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-properties.md">&lt;Properties&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-virtualization-registrywritevirtualization.md">&lt;virtualization:RegistryWriteVirtualization&gt;</a></dt>
-<dd><b>&lt;virtualization:ExcludedKeys&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<virtualization:FileSystemWriteVirtualization\>](element-virtualization-filesystemwritevirtualization.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<virtualization:ExcludedKeys\>**
 
 ## Syntax
 
 ``` xml
 <virtualization:ExcludedKeys>
+
+    <!-- Child elements -->
     virtualization:ExcludedKey {0,1000}
+
 </virtualization:ExcludedKeys>
 ```
 
-### Key 
+### Key
 
 `{}`   specific range of occurrences
 
-## Attributes and Elements
-
+## Attributes and elements
 
 ### Attributes
 
 None.
 
-### Child Elements
+### Child elements
 
-| Child Element | Description |
-|---------------|-------------|
+| Child element | Description |
+|-|-|
 | [virtualization:ExcludedKey](element-virtualization-excludedkey.md) | Specifies a key that is excluded from registry key virtualization. |
 
-### Parent Elements
+### Parent elements
 
-| Parent Element | Description |
-|---------------|-------------|
+| Parent element | Description |
+|-|-|
 | [virtualization:RegistryWriteVirtualization](element-virtualization-registrywritevirtualization.md) | Indicates whether virtualization for the registry for your package.  |
 
 ## Remarks
@@ -70,10 +63,6 @@ This element requires the **unvirtualizedResources** [restricted capability](/wi
 
 ## Requirements
 
-| Namespace | Manifest Path | 
-|---------------|-------------------------------------------------------------|
+| Item | Value |
+|--|--|
 | virtualization | `http://schemas.microsoft.com/appx/manifest/virtualization/windows10` |
-
- 
-
- 

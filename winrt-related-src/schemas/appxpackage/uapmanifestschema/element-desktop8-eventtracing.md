@@ -8,26 +8,17 @@ ms.topic: reference
 
 # desktop8:EventTracing
 
-## Description
-
 Enables your desktop application to log application-defined events to be consumed in real time or saved to a log file.
 
-## Element Hierarchy
+## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</dt>
-<dd>
-<dl>
-<dt><a href="element-desktop8-extension.md">&lt;desktop8:Extension&gt;</a></dt>
-<dd><strong>&lt;desktop8:EventTracing&gt;</strong></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop8:Extension\>](element-desktop8-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop8:EventTracing\>**
 
 ## Syntax
 
@@ -40,26 +31,26 @@ Enables your desktop application to log application-defined events to be consume
 </desktop8:EventTracing>
 ```
 
-## Attributes and Elements
+## Attributes and elements
 
 ### Attributes
 
 None.
 
-### Child Elements
+### Child elements
 
-| Child Element | Description |
-|---------------|-------------|
+| Child element | Description |
+|-|-|
 | [desktop8:Provider](element-desktop8-provider.md) | Registers a provider to Event Tracing and enables its functionality. |
 
-### Parent Elements
+### Parent elements
 
-| Parent Element | Description |
-|----------------|-------------|
+| Parent element | Description |
+|-|-|
 | [desktop8:Extension (in Package/Application)](element-desktop8-extension.md) | Declares an extensibility point for the application. |
 
 ## Requirements
 
-| **Namespace** | **Value** |
-|---------------|-----------|
-| **desktop8** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/8` |
+| Item  | Value  |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/8` |

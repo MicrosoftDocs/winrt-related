@@ -3,90 +3,56 @@ description: Declares an app extensibility point of type windows.MobileMultiScre
 Search.Product: eADQiWindows 10XVcnh
 title: mobile:MobileMultiScreenProperties (Windows 10)
 ms.assetid: 86ea3e53-23e4-4c7a-9490-2944dbcca460
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 04/05/2017
 ---
 
 # mobile:MobileMultiScreenProperties (Windows 10)
 
-
 Declares an app extensibility point of type **windows.MobileMultiScreenProperties**.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-mobile-extension-manual.md">&lt;mobile:Extension&gt;</a></dt>
-<dd><b>&lt;mobile:MobileMultiScreenProperties&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<mobile:Extension\>](element-mobile-extension-manual.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<mobile:MobileMultiScreenProperties\>**
 
 ## Syntax
 
-
+```xml
+<mobile:Extension
+  RestrictToInternalScreen = 'A boolean value.' />
 ```
-<mobile:Extension RestrictToInternalScreen = A boolean value ("true" or "false")
-</mobile:Extension>
-```
 
-## Attributes and Elements
+## Attributes and elements
 
+### Attributes
 
-**Attributes**
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **RestrictToInternalScreen** | Determines whether to restrict the app's display output to the mobile device's integral screen. Setting this to true prevents the app's display from being sent to an external display. | A boolean value. | Yes | true |
 
-| Attribute                    | Description                                                                                                                                                                             | Data type | Required | Default value |
-|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|----------|---------------|
-| **RestrictToInternalScreen** | Determines whether to restrict the app's display output to the mobile device's integral screen. Setting this to true prevents the app's display from being sent to an external display. | Boolean   | Yes      | True          |
-
- 
-
-**Child Elements**
+### Child elements
 
 None.
 
-**Parent Elements**
+### Parent elements
 
-| Parent Element                                              | Description                                  |
-|-------------------------------------------------------------|----------------------------------------------|
-| [**mobile:Extension**](element-mobile-extension-manual.md) | Declares an extensibility point for the app. |
-
- 
+| Parent element | Description |
+|-|-|
+| [mobile:Extension](element-mobile-extension-manual.md) | Declares an extensibility point for the app. |
 
 ## Requirements
 
-
-|               | Value                                                         |
-|---------------|-------------------------------------------------------------|
+| Item  | Value  |
+|--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/mobile/windows10` |
-
- 
-
- 
-
- 
-
-
-

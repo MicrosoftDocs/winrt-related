@@ -3,134 +3,66 @@ description: Declares an app extensibility point of type windows.dialProtocol.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:DialProtocol (Windows 10)
 ms.assetid: d0d0d409-f25c-4a55-b392-726ad9225a76
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 04/05/2017
 ---
 
 # uap:DialProtocol (Windows 10)
 
-
 Declares an app extensibility point of type **windows.dialProtocol**.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap-extension.md">&lt;uap:Extension&gt;</a></dt>
-<dd><b>&lt;uap:DialProtocol&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap:Extension\>](element-uap-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap:DialProtocol\>**
 
 ## Syntax
 
-``` syntax
-<DialProtocol Name = A string between 2 and 39 characters in length that contains numbers, uppercased and lowercased letters, dots ('.'), pluses('+'), or hyphens ('-'). The string can't start with a dot ('.').
- />
+```xml
+<uap:DialProtocol
+    Name = 'A string with a value between 2 and 39 characters in length that can contain numbers, uppercase and lowercase letters, periods ("."), plus signs ("+"), or dashes ("-"). The string cannot start with a period (".").' />
 ```
 
-## Attributes and Elements
-
+## Attributes and elements
 
 ### Attributes
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-<th>Data type</th>
-<th>Required</th>
-<th>Default value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Name</strong></td>
-<td><p>The app's registered DIAL name.</p></td>
-<td>A string between 2 and 39 characters in length that contains numbers, uppercased and lowercased letters, dots ('.'), pluses('+'), or hyphens ('-'). The string can't start with a dot ('.').</td>
-<td>Yes</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Name** | The app's registered DIAL name. | A string with a value between 2 and 39 characters in length that can contain numbers, uppercase and lowercase letters, periods (`.`), plus signs (`+`), or dashes (`-`). The string cannot start with a period (`.`). | Yes |  |
 
- 
-
-### Child Elements
+### Child elements
 
 None.
 
-### Parent Elements
+### Parent elements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-uap-extension.md">uap:Extension</a> </td>
-<td><p>Declares an extensibility point for the app.</p></td>
-</tr>
-</tbody>
-</table>
-
- 
+| Parent element | Description |
+|-|-|
+| [uap:Extension](element-uap-extension.md) | Declares an extensibility point for the app. |
 
 ## Examples
 
-```XML
-    <Extension Category="windows.dialProtocol">
-        <uap:DialProtocol Name="Contoso"/>
-    </Extension>
+```xml
+<Extension
+    Category="windows.dialProtocol">
+    <uap:DialProtocol
+        Name="Contoso"/>
+</Extension>
 ```
 
 ## Requirements
 
-|   | Value |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
-
-
- 
-
- 
-
-
-

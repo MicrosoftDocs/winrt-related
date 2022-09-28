@@ -1,38 +1,28 @@
 ---
 description: An extension that allows an app developer to declare a path in the app package, relative to the app package root path, to be included in the loader search path for the app's processes.
 title: uap6:LoaderSearchPathOverride
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 04/10/2018
 ---
 
 # uap6:LoaderSearchPathOverride
+
 An extension that allows an app developer to declare a path in the app package, relative to the app package root path, to be included in the loader search path for the app's processes.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extension.md">&lt;Extension&gt;</a></dt>
-<dd><b>&lt;uap6:LoaderSearchPathOverride&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extension\>](element-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap6:LoaderSearchPathOverride\>**
 
 ## Syntax
 
-``` syntax
+```xml
 <uap6:LoaderSearchPathOverride>
 
   <!-- Child elements -->
@@ -42,29 +32,29 @@ An extension that allows an app developer to declare a path in the app package, 
 ```
 
 ### Key
+
 `{}`   specific range of occurrences
 
-## Attributes and Elements
+## Attributes and elements
 
 ### Attributes
+
 None.
 
-### Child Elements
+### Child elements
 
-| Child Element | Description |
-|---------------|-------------|
+| Child element | Description |
+|-|-|
 | [uap6:LoaderSearchPathEntry](element-uap6-loadersearchpathentry.md) | A relative path used specify where to load content from an app package. |
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [Extension](element-extension.md) | Declares an extensibility point for the package. |
 
 ## Requirements
 
-|   | Value |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/6` |
-
-
- 
-
- 
-
-
-

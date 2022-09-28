@@ -12,23 +12,19 @@ Specifies the level of run time package integrity checks and remediation for the
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-properties.md">&lt;Properties&gt;</a></dt>
-<dd><b>&lt;uap10:PackageIntegrity&gt;</b></dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap10:PackageIntegrity\>**
 
 ## Syntax
 
-```syntax
+```xml
 <uap10:PackageIntegrity>
 
   <!-- Child elements -->
-  ( uap10:Content? )
+  uap10:Content?
 
 </uap10:PackageIntegrity>
 ```
@@ -37,49 +33,23 @@ Specifies the level of run time package integrity checks and remediation for the
 
 `?`   optional (zero or one)
 
-## Attributes and Elements
+## Attributes and elements
 
-### Child Elements
+### Attributes
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Child Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-uap10-content.md">uap10:Content</a> </td>
-<td><p>Optional. Indicates whether Windows will enforce runtime package integrity checks on the entire contents of the package.</p></td>
-</tr>
-</tbody>
-</table>
+None.
 
-### Parent Elements
+### Child elements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-properties.md">Properties</a> </td>
-<td><p>Defines additional metadata about the package including attributes that describe how the package behaves.</p></td>
-</tr>
-</tbody>
-</table>
+| Child element | Description |
+|-|-|
+| [uap10:Content](element-uap10-content.md) | Indicates whether Windows will enforce runtime package integrity checks on the entire contents of the package. |
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [Properties](element-properties.md) | Defines additional metadata about the package including attributes that describe how the package behaves. |
 
 ## Remarks
 
@@ -87,7 +57,6 @@ If you include a **uap10:PackageIntegrity** element without a child [uap10:Conte
 
 ## Requirements
 
-|   | Value |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
-
