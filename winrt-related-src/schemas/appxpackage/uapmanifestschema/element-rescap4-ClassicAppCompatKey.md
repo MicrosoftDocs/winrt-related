@@ -55,15 +55,15 @@ Registry keys for discovering classic app installations and launching executable
 
 None.
 
-## Remarks
-
-Locations under "HKEY_LOCAL_MACHINE\Software\Microsoft" are not allowed for the **Name** attribute unless **CompatMode** is set to 'classic'.
-
 ### Parent elements
 
 | Parent element | Description |
 |-|-|
 | [recap4:ClassicAppCompatKeys](element-rescap4-ClassicAppCompatKeys.md) | Contains registry keys for discovering classic app installations and launching executables. |
+
+## Remarks
+
+Locations under "HKEY_LOCAL_MACHINE\Software\Microsoft" are not allowed for the **Name** attribute unless **CompatMode** is set to 'classic'.
 
 ## Requirements
 
