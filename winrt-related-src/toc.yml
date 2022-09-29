@@ -718,6 +718,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop10-typessupported.md
           - name: desktop10:TypeSupported
             href: schemas/appxpackage/uapmanifestschema/element-desktop10-typesupported.md
+          - name: heap:HeapPolicy
+            href: schemas/appxpackage/uapmanifestschema/element-heap-heappolicy.md
           - name: "previewappcompat:ProgId"
             href: schemas/appxpackage/uapmanifestschema/element-previewappcompat-progid.md
           - name: "rescap2:Extension"

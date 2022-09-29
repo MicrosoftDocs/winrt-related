@@ -240,6 +240,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [Folder](element-folder.md) | Specifies a folder that the package shares with other packages from the same publisher. |
 | [Framework](element-framework.md) | Indicates whether the package is a framework package; that is, a package that can be used by other packages. Its value is **false** by default. You should not specify a value for it unless you are creating a framework. |
 | [Function](element-function.md) | Declares the function for the device. |
+| [HeapPolicy](element-heap-heappolicy.md) | Allows MSIX packaged apps to request a heap profile that has performance and behavior characteristics consistent with that of the legacy NT heap. |
 | [Identity](element-identity.md) | Defines a globally unique identifier for a package. A package identity is represented as a tuple of attributes of the package. |
 | [InProcessServer](element-inprocessserver.md) | Declares a package extensibility point of type **windows.activatableClass.inProcessServer**. The app uses a dynamic link library (DLL) that exposes one or more activatable classes. |
 | [Instancing](element-instancing.md) | Specifies whether the executable runs as a single instance or can run as multiple instances. |

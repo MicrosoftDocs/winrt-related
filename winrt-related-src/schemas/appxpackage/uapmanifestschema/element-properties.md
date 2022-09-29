@@ -40,6 +40,8 @@ Defines additional metadata about the package including attributes that describe
   & rescap6:ModificationPackage?
   & uap10:AllowExternalContent?
   & uap10:PackageIntegrity?
+  & heap:HeapPolicy?
+  )
 
 </Properties>
 ```
