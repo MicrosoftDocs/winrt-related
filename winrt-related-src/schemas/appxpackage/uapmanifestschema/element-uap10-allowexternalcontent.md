@@ -48,7 +48,7 @@ None.
 
 ## Remarks
 
-The **uap10:AllowExternalContent** element contains a boolean value. For more information about the use of the element, see [Grant identity to unpackaged desktop apps](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps).
+The **uap10:AllowExternalContent** element contains a boolean value. For more information about the use of the element, see [Grant package identity by packaging with external location](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps).
 
 ## Requirements
 
