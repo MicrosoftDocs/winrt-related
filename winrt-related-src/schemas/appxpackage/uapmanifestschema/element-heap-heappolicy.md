@@ -1,5 +1,5 @@
 ---
-description: Allows MSIX packaged apps to request a heap profile that has performance and behavior characteristics consistent with that of the legacy NT heap.
+description: Allows packaged apps to request a heap profile that has performance and behavior characteristics consistent with that of the legacy NT heap.
 title: heap:HeapPolicy
 keywords: windows 10, schema, package manifest
 ms.topic: reference
@@ -9,7 +9,7 @@ ms.custom:
 
 # heap:HeapPolicy
 
-Allows MSIX packaged apps to request a heap profile that has performance and behavior characteristics consistent with that of the legacy NT heap.
+Allows packaged apps to request a heap profile that has performance and behavior characteristics consistent with that of the legacy NT heap.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
@@ -49,7 +49,7 @@ None.
 
 ## Remarks
 
-The segment heap is the recommend heap implementation on Windows and has, by default, backed all process heaps for MSIX packaged apps since its inception. Now that MSIX now supports several different app types, including classic desktop apps, a mechanism has been provided by which packages can request legacy heap behavior for their apps. Setting the value of the **type** attribute to "win32Compatible" requests for the heap for the app to be initialized with legacy behavior and performance. This serves only as a hint to the heap initialization code which may decide on alternate settings based on internal criteria.
+The segment heap is the recommend heap implementation on Windows and has, by default, backed all process heaps for packaged apps since its inception. Now that MSIX now supports several different app types, including desktop apps, a mechanism has been provided by which packages can request legacy heap behavior for their apps. Setting the value of the **type** attribute to "win32Compatible" requests for the heap for the app to be initialized with legacy behavior and performance. This serves only as a hint to the heap initialization code which may decide on alternate settings based on internal criteria.
 
 ## Requirements
 

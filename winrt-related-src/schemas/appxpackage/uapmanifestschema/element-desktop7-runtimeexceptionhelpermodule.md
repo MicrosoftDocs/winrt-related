@@ -56,7 +56,7 @@ None.
 
 ## Remarks
 
-The system will resolve this to an absolute path and write a value with this path as the value name to the **RuntimeExceptionHelperModules** subkey of the WER settings key for the specified scope (either machine or user scope is supported). At runtime this is used in the same way as a value written by an unpackaged app installer.
+The system will resolve this to an absolute path and write a value with this path as the value name to the **RuntimeExceptionHelperModules** subkey of the WER settings key for the specified scope (either machine or user scope is supported). At runtime this is used in the same way as a value written by an installer for an unpackaged app (or a packaged app with external location).
 
 ## Requirements
 
