@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 09/22/2022
 ---
 
-# uap15:apabilities
+# uap15:Capabilities
 
 Declares the access to protected user resources that a package requires. This element can be used by non-main packages. This element can only be used by framework packages.
 
