@@ -8,7 +8,7 @@ ms.date: 09/22/2022
 
 # uap15:DependencyTarget
 
-Allows a main package manifest to specify whether the package is a valid target for dynamic dependencies.
+Allows a main package manifest to specify whether the package is a valid target for [dynamic dependencies](/windows/apps/desktop/modernize/framework-packages/framework-packages-overview).
 
 ## Element hierarchy
 
@@ -21,9 +21,9 @@ Allows a main package manifest to specify whether the package is a valid target 
 ## Syntax
 
 ```xml
-<Capabilities>
+<uap15:DependencyTarget>
   A boolean value.
-</Capabilities>
+</uap15:DependencyTarget>
 ```
 
 ## Attributes and elements
@@ -57,4 +57,4 @@ For more information on dynamic dependencies, see [Use the dynamic dependency AP
 
 |   | Value  |
 |--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/15` |

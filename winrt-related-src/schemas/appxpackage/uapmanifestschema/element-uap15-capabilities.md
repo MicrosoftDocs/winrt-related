@@ -67,4 +67,4 @@ This element has the same format and provides the same behavior as the [Capabili
 
 |   | Value  |
 |--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/15` |
