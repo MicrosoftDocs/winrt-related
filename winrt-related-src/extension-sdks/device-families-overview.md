@@ -212,7 +212,7 @@ bool isWindows_Devices_Scanners_ScannerDeviceContract_1_0Present =
 
 We recommend that you maximize the reach of your app. But even if you target only one kind of device form factor, there'll still likely be different sizes of screen that your app could end up being displayed on.
 
-When you're ready to see how your app looks and lays out on a particular size of screen, use the device preview toolbar in Visual Studio to preview your UI on a small or medium mobile device, on a PC, or on a large TV screen. That way, if you've used XAML's adaptive layout features (see [Tutorial: Create adaptive layouts](/windows/uwp/design/basics/xaml-basics-adaptive-layout)), then you can test that, too.
+When you're ready to see how your app looks and lays out on a particular size of screen, use the device preview toolbar in Visual Studio to preview your UI on a small or medium mobile device, on a PC, or on a large TV screen. That way, if you've used XAML's adaptive layout features (see [Tutorial: Responsive layouts with XAML](/windows/apps/design/layout/layouts-with-xaml)), then you can test that, too.
 
 ![visual studio 2015 device preview toolbar](images/vs2015-device-preview-toolbar.png)
 
