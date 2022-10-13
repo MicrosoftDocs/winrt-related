@@ -26,7 +26,7 @@ Declares an extensibility point for the app.
 
 ```xml
 <uap13:Extension 
-  Category = 'A string that can have one of the following values: "windows.PhoneCallActivation".'
+  Category = 'A string that can have one of the following values: "windows.phoneCallActivation".'
   Executable = 'A string with an optional value between 1 and 256 characters in length, that must end with ".exe", and cannot contain the following characters: <, >, :, ", |, ?, or *. Specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If the EntryPoint property is not specified, the EntryPoint defined for the app is used.'
   EntryPoint = 'A string with an optional value between 1 and 256 characters in length. Represents the task handling the extension (normally the fully namespace-qualified name of a Windows Runtime type). If EntryPoint is not specified, the EntryPoint defined for the app is used instead.'
   RuntimeType = 'A string with an optional value between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *.'
@@ -48,7 +48,7 @@ Declares an extensibility point for the app.
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Category** | The type of package extensibility point. | A string that can have one of the following values: *windows.PhoneCallActivation*. | Yes |  |
+| **Category** | The type of package extensibility point. | A string that can have one of the following values: *windows.phoneCallActivation*. | Yes |  |
 | **EntryPoint** | The activatable class ID. | A string with a value between 1 and 256 characters in length. Represents the task handling the extension (normally the fully namespace-qualified name of a Windows Runtime type). If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |  |
 | **Executable** | The default launch executable. | A string with a value between 1 and 256 characters in length, that must end with `.exe`, and cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. Specifies the default executable for the extension. If not specified, the executable defined for the app is used. If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | No |  |
 | **RuntimeType** | The runtime provider. Typically used when there are mixted frameworks in an app. | A string with a value between 1 and 255 characters in length that cannot start or end with a `.` or contain there characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |  |
