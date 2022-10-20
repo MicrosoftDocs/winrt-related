@@ -1,7 +1,7 @@
 ﻿---
 title: desktop7:ApprovedShellExtension
 description: Specifies that a shell extension should be added to the approved shell extensions list when installed. 
-ms.date: 10/14/2021
+ms.date: 10/19/2022
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ms.custom: 19H1
@@ -54,7 +54,16 @@ None.
 
 ## Remarks
 
-The process installing the shell extension must have permissions to add entries to the approved shell extensions list. For more information on registering shell extensions, see [Registering Shell Extension Handlers](/windows/win32/shell/reg-shell-exts)
+> [!IMPORTANT]
+> To use the **desktop7:ApprovedShellExtension** element, you need to set the **desktop7:Scope** attribute to the value of *machine*. You set the **desktop7:Scope** attribute on the [desktop:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop-extension) element.
+> 
+> Equally importantly, to set the **desktop7:Scope** attribute to *machine*, your app's package needs to declare this custom capability: `<uap4:CustomCapability Name="Microsoft.classicAppCompatElevated_8wekyb3d8bbwe"/>`. That custom capability is granted to only a limited set of apps.
+
+A shell extension is used in conjunction with a COM class in the manifest that is exposed through Packaged COM (`windows.comServer`; see [com:ComServer](/uwp/schemas/appxpackage/uapmanifestschema/element-com-comserver)). That COM class is used as a [Shell Extension Handler](/windows/win32/shell/handlers) (for example, [DesktopPropertyHandler](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop2-desktoppropertyhandler), [ThumbnailHandler](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop2-thumbnailhandler)). That info applies to all of the shell extensions that you can declare in the app package manifest.
+
+The process that installs the shell extension must have permissions to add entries to the approved shell extensions list. For more information on registering shell extensions, see [Registering Shell Extension Handlers](/windows/win32/shell/reg-shell-exts).
+
+As mentioned in [Registering Shell Extension Handlers](/windows/win32/shell/reg-shell-exts), the impact of including or not including the **desktop7:ApprovedShellExtension** element is whether or not the shell extension would be turned off when an administrator on the machine turns on the key **EnforceShellExtensionSecurity**.
 
 ## Requirements
 

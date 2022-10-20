@@ -1,7 +1,7 @@
 ---
 title: desktop:Extension
 description: Declares an extensibility point for the app (desktop:Extension).
-ms.date: 05/10/2021
+ms.date: 10/19/2022
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
@@ -45,7 +45,7 @@ Declares an extensibility point for the app.
   uap11:CurrentDirectoryPath = 'An optional string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
   uap11:Parameters = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
   desktop7:CompatMode = 'A string that can have one of the following values: "classic" or "modern".'
-  desktop7:Scope = 'A string that can have one of the following values: "user" or "machine".' >
+  desktop7:Scope = 'A string that can have one of the following values: "machine" or "user".' >
 
   <!-- Child elements -->
   desktop:FullTrustProcess?
@@ -75,6 +75,7 @@ Declares an extensibility point for the app.
 | **uap10:RuntimeBehavior** | Specifies the run time behavior of the extension. | An optional string that can have one of the following values: *windowsApp*, *packagedClassicApp*, or *win32App*. | No |  |
 | **uap10:HostId** | Specifies the app ID of the host app for the extension. | An optional alphanumeric string with a value between 1 and 255 characters in length. Must begin with an alphabetic character. | No |  |
 | **uap10:Parameters** | Contains command line parameters to pass to the extension. Only supported for desktop apps that have package identity. | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **desktop7:Scope** | Specifies whether the registrations are visible only to other applications running as a user who has this package registered (user), or whether they're visible to all users and services on the machine (machine). The default value is *user*. For more information, see the Remarks section in this topic. | An optional string that can have one of the following values: *machine* or *user*. | No |  |
 
 ### Child elements
 
@@ -90,6 +91,13 @@ Declares an extensibility point for the app.
 | Parent element | Description |
 |-|-|
 | [Extensions](element-1-extensions.md) | Declares an extensibility point for the package. |
+
+## Remarks
+	
+Use of the following desktop syntax semantics have capability requirements:
+	
+- CompatMode="classic" requires *Microsoft.classicAppCompat_8wekyb3d8bbwe*.
+- Scope="machine" requires *Microsoft.classicAppCompatElevated_8wekyb3d8bbwe*.
 
 ## Requirements
 
