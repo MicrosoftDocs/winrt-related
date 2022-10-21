@@ -26,8 +26,17 @@ Declares the access to protected user resources that the package requires.
   <!-- Child elements -->
   Capability{0,100},
   uap:Capability{0,100},
-  DeviceCapability{0,100}
-
+  DeviceCapability{0,100},
+  mobile:Capability{0,100},
+  rescap:Capability{0,100},
+  uap:Capability{0,100},
+  uap2:Capability{0,100},
+  uap3:Capability{0,100},
+  uap4:Capability{0,100},
+  uap4:CustomCapability{0,100},
+  uap7:Capability{0,100},
+  uap11:Capability{0,100}
+  
 </Capabilities>
 ```
 
@@ -47,6 +56,14 @@ None.
 |-|-|
 | [Capability](element-capability.md) | Declares a capability required by a package. |
 | [DeviceCapability](element-devicecapability.md) | Declares a device capability required by a package. On Windows 10.0.10240.0, can contain up to 100 **[Device]**(element-device.md) elements. On Windows 10.0.10586.0, can contain up to 1000 (for syntax and examples, see Examples). |
+| [mobile:Capability](element-mobile-capability-manual.md) | Declares a capability required by a package. (mobile)|
+| [rescap:Capability](element-rescap-capability.md) | Declares a restricted capability required by a package.|
+| [uap2:Capability](element-uap2-capability.md) | Declares a capability required by a package. (uap2)|
+| [uap3:Capability](element-uap3-capability-manual.md) | Declares a capability required by a package. (uap3)|
+| [uap4:Capability](element-uap4-capability.md) | Declares a capability required by a package. (uap4)|
+| [uap4:CustomCapability](element-uap4-customcapability.md) | Declares a custom capability required by a package. (uap4) |
+| [uap11:Capability](element-uap11-capability.md) | Declares a capability required by a package. (uap11)|
+
 
 ### Parent elements
 
