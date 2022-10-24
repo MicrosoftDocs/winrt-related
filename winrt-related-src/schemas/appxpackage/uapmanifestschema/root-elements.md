@@ -422,7 +422,7 @@ The following list summarizes the allowed hierarchies for this schema, starting 
                     - [**uap10:MediaContentDecryptionModule**](element-uap10-mediacontentdecryptionmodule.md)
                     - [**uap10:InstalledLocationVirtualization**](element-uap10-installedlocationvirtualization.md)
                         - [**uap10:UpdateActions**](element-uap10-UpdateActions.md)
-                -   [**uap11:Category**](element-uap11-category.md)
+                -   [**uap11:Capability**](element-uap11-capability.md)
                 -   [**uap12:Extension**](element-uap12-extension.md)
                     -   [**uap12:Host**](element-uap12-host.md)
                 -   [**uap13:Extension**](element-uap13-extension.md)
