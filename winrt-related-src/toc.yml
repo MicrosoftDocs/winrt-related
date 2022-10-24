@@ -106,6 +106,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop6-filesystemwritevirtualization.md
           - name: "desktop6:RegistryWriteVirtualization"
             href: schemas/appxpackage/uapmanifestschema/element-desktop6-registrywritevirtualization.md
+          - name: "rescap:Capability"
+            href: schemas/appxpackage/uapmanifestschema/element-rescap-capability.md
           - name: "rescap6:ModificationPackage"
             href: schemas/appxpackage/uapmanifestschema/element-rescap6-modificationpackage.md
           - name: "uap10:AllowExternalContent"
@@ -126,6 +128,10 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap13-appinstaller.md
           - name: "uap13:HostRuntimeDependency"
             href: schemas/appxpackage/uapmanifestschema/element-uap13-hostruntimedependency.md
+          - name: "uap15:Capabilities"
+            href: schemas/appxpackage/uapmanifestschema/element-uap15-capabilities.md
+          - name: "uap15:DependencyTarget"
+            href: schemas/appxpackage/uapmanifestschema/element-uap15-dependencytarget.md
           - name: "Resources"
             href: schemas/appxpackage/uapmanifestschema/element-resources.md
           - name: "Resource"
@@ -152,8 +158,12 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-capability.md
           - name: "uap:Capability"
             href: schemas/appxpackage/uapmanifestschema/element-uap-capability.md
+          - name: "uap2:Capability"
+            href: schemas/appxpackage/uapmanifestschema/element-uap2-capability.md
           - name: "uap3:Capability"
             href: schemas/appxpackage/uapmanifestschema/element-uap3-capability-manual.md
+          - name: "uap4:Capability"
+            href: schemas/appxpackage/uapmanifestschema/element-uap4-capability.md
           - name: "uap4:CustomCapability"
             href: schemas/appxpackage/uapmanifestschema/element-uap4-customcapability.md
           - name: "uap6:Capability"

@@ -45,7 +45,7 @@ None.
 
 ## See also
 
-[App capability declarations](/previous-versions/windows/apps/hh464936(v=win.10))
+[App capability declarations](/windows/uwp/packaging/app-capability-declarations)
 
 ## Requirements
 

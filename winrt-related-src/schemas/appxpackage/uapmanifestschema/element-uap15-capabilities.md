@@ -1,27 +1,25 @@
 ---
-description: Declares the access to protected user resources that the package requires (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
-title: Capabilities (Windows 10)
-ms.assetid: 508b9a46-3dd4-4bce-875b-fb7cadadceb1
+description: Declares the access to protected user resources that a package requires. This element can be used by framework packages.
+title: uap15:Capabilities
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
-ms.date: 04/05/2017
+ms.date: 09/22/2022
 ---
 
-# Capabilities (Windows 10)
+# uap15:Capabilities
 
-Declares the access to protected user resources that the package requires.
+Declares the access to protected user resources that a package requires. This element can be used by framework packages.
 
 ## Element hierarchy
 
 [\<Package\>](element-package.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;**\<Capabilities\>**
+&nbsp;&nbsp;&nbsp;&nbsp;**\<uap15:Capabilities\>**
 
 ## Syntax
 
 ```xml
-<Capabilities>
+<uap15:Capabilities>
 
   <!-- Child elements -->
   Capability{0,100},
@@ -36,8 +34,8 @@ Declares the access to protected user resources that the package requires.
   uap4:CustomCapability{0,100},
   uap7:Capability{0,100},
   uap11:Capability{0,100}
-  
-</Capabilities>
+
+</uap15:Capabilities>
 ```
 
 ### Key
@@ -64,7 +62,6 @@ None.
 | [uap4:CustomCapability](element-uap4-customcapability.md) | Declares a custom capability required by a package. (uap4) |
 | [uap11:Capability](element-uap11-capability.md) | Declares a capability required by a package. (uap11)|
 
-
 ### Parent elements
 
 | Parent element | Description |
@@ -73,43 +70,17 @@ None.
 
 ## Remarks
 
-If you don't explicitly declare the capabilities required for your app to access user resources, your app can't access that resource. However, even if you declare a capability, your app still won't have access to the user resource if it doesn't exist on the system or there are other security policies in place that limit access to the resource.
+This element has the same format and provides the same behavior as the [Capabilities](element-capabilities.md) element. The only difference is that while the original **Capabilities** element could only be used for main packages, **uap15:Capabilities** can be used for non-main packages. The usage of this element is restricted to framework packages.
 
-## Examples
 
-Here's an example of the [Capabilities](../appxmanifestschema2010-v2/element-capabilities.md) node.
-
-```xml
-<Capabilities>
-    <Capability Name="internetClient"/>
-    <Capability Name="internetClientServer"/>
-    <Capability Name="privateNetworkClientServer"/>
-    <Capability Name="allJoyn"/>
-    <uap:Capability Name="documentsLibrary"/>
-    <uap:Capability Name="picturesLibrary"/>
-    <uap:Capability Name="videosLibrary"/>
-    <uap:Capability Name="musicLibrary"/>
-    <uap:Capability Name="enterpriseAuthentication"/>
-    <uap:Capability Name="sharedUserCertificates"/>
-    <uap:Capability Name="userAccountInformation"/>
-    <uap:Capability Name="removableStorage"/>
-    <uap:Capability Name="appointments"/>
-    <uap:Capability Name="contacts"/>
-    <uap:Capability Name="phoneCall"/>
-    <uap:Capability Name="blockedChatMessages"/>
-    <uap:Capability Name="objects3D"/>
-    <mobile:Capability Name="recordedCallsFolder"/>
-</Capabilities>
-```
 
 ## See also
 
 [App capability declarations](/windows/uwp/packaging/app-capability-declarations)
-
-
+[MSIX framework packages and dynamic dependencies](/windows/apps/desktop/modernize/framework-packages/framework-packages-overview)
 
 ## Requirements
 
 |   | Value  |
 |--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/15` |
