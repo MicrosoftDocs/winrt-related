@@ -240,6 +240,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [Folder](element-folder.md) | Specifies a folder that the package shares with other packages from the same publisher. |
 | [Framework](element-framework.md) | Indicates whether the package is a framework package; that is, a package that can be used by other packages. Its value is **false** by default. You should not specify a value for it unless you are creating a framework. |
 | [Function](element-function.md) | Declares the function for the device. |
+| [HeapPolicy](element-heap-heappolicy.md) | Allows packaged apps to request a heap profile that has performance and behavior characteristics consistent with that of the legacy NT heap. |
 | [Identity](element-identity.md) | Defines a globally unique identifier for a package. A package identity is represented as a tuple of attributes of the package. |
 | [InProcessServer](element-inprocessserver.md) | Declares a package extensibility point of type **windows.activatableClass.inProcessServer**. The app uses a dynamic link library (DLL) that exposes one or more activatable classes. |
 | [Instancing](element-instancing.md) | Specifies whether the executable runs as a single instance or can run as multiple instances. |
@@ -407,7 +408,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap8:PosPaymentConnector](element-uap8-posPaymentConnector.md) | Contains device information for Point-of-Sale/Point-of-Service devices. |
 | [uap8:DataProtection](element-uap8-dataProtection.md) | Settings to configure data encryption. |
 | [uap8:ExecutionAlias](element-uap8-executionalias.md) | The executable of a UWP app to be activated from a command prompt. |
-| [uap10:AllowExternalContent](element-uap10-allowexternalcontent.md) | Enables your package manifest to reference content outside the package, in a specific location on disk, for [sparse package](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps) scenarios. |
+| [uap10:AllowExternalContent](element-uap10-allowexternalcontent.md) | Enables your package manifest to reference content outside the package, in a specific location on disk. See [Grant package identity by packaging with external location](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps). |
 | [uap10:Content](element-uap10-content.md) | Indicates whether Windows will enforce run time package integrity checks on the entire contents of the package. |
 | [uap10:DisplayName](element-uap10-displayname.md) | A friendly name that can be displayed to users. |
 | [uap10:Extension (Child of Application)](element-uap10-extension.md) | Declares an extensibility point for the app. |
@@ -427,6 +428,8 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap13:AutoUpdate](element-uap13-autoupdate.md) | Specifies automatic update configuration for the app. |
 | [uap13:Extension](element-uap13-extension.md) | Declares an extensibility point for the app. |
 | [uap13:HostRuntimeDependency](element-uap13-hostruntimedependency.md) | Declares publisher information for the app. |
+| [uap15:Capabilities](element-uap15-capabilities.md) | Declares the access to protected user resources that a package requires. This element can be used by non-main packages. This element can only be used by framework packages. |
+| [uap15:DependencyTarget](element-uap15-dependencytarget.md) | Declares an extensibility point for the app. |
 | [virtualization:ExcludedDirectories](element-virtualization-excludeddirectories.md) | Specifies the list of directories that are excluded from file system virtualization. |
 | [virtualization:ExcludedDirectory](element-virtualization-excludeddirectory.md) | Specifies a directory that is excluded from file system virtualization. |
 | [virtualization:ExcludedKey](element-virtualization-excludedkey.md) | Specifies a key that is excluded from registry key virtualization. |

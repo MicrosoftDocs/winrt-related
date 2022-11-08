@@ -1,5 +1,5 @@
 ---
-description: Enables your package manifest to reference content outside the package, in a specific location on disk, for sparse package scenarios.
+description: Enables your package manifest to reference content outside the package, in a specific location on disk, for packages with external location.
 title: uap10:AllowExternalContent
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 04/22/2020
 
 # uap10:AllowExternalContent
 
-Enables your package manifest to reference content outside the package, in a specific location on disk, for [sparse package](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps) scenarios.
+Enables your package manifest to reference content outside the package, in a specific location on disk. See [Grant package identity by packaging with external location](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps).
 
 ## Element hierarchy
 
@@ -48,7 +48,7 @@ None.
 
 ## Remarks
 
-The **uap10:AllowExternalContent** element contains a boolean value. For more information about the use of the element, see [Grant identity to unpackaged desktop apps](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps).
+The **uap10:AllowExternalContent** element contains a boolean value. For more information about the use of the element, see [Grant package identity by packaging with external location](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps).
 
 ## Requirements
 

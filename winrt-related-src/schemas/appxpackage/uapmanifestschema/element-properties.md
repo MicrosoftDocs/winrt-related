@@ -40,6 +40,8 @@ Defines additional metadata about the package including attributes that describe
   & rescap6:ModificationPackage?
   & uap10:AllowExternalContent?
   & uap10:PackageIntegrity?
+  & heap:HeapPolicy?
+  )
 
 </Properties>
 ```
@@ -70,7 +72,7 @@ None.
 | [desktop6:FileSystemWriteVirtualization](element-desktop6-filesystemwritevirtualization.md) | Indicates whether virtualization for the file system is enabled for your desktop application. |
 | [desktop6:RegistryWriteVirtualization](element-desktop6-registrywritevirtualization.md) | Indicates whether virtualization for the registry is enabled for your desktop application. |
 | [rescap6:ModificationPackage](element-rescap6-modificationpackage.md) | Declares that the current package is a modification package for an enterprise application. |
-| [uap10:AllowExternalContent](element-uap10-allowexternalcontent.md) | Enables your package manifest to reference content outside the package, in a specific location on disk, for [sparse package](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps) scenarios. |
+| [uap10:AllowExternalContent](element-uap10-allowexternalcontent.md) | Enables your package manifest to reference content outside the package, in a specific location on disk. See [Grant package identity by packaging with external location](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps). |
 | [uap10:PackageIntegrity](element-uap10-packageintegrity.md) | Specifies the level of run time package integrity checks and remediation for the package. |
 
 ### Parent elements

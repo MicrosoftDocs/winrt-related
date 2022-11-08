@@ -1,7 +1,7 @@
 ---
 title: desktop:Extension
 description: Declares an extensibility point for the app (desktop:Extension).
-ms.date: 05/10/2021
+ms.date: 10/19/2022
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
@@ -45,7 +45,7 @@ Declares an extensibility point for the app.
   uap11:CurrentDirectoryPath = 'An optional string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
   uap11:Parameters = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
   desktop7:CompatMode = 'A string that can have one of the following values: "classic" or "modern".'
-  desktop7:Scope = 'A string that can have one of the following values: "user" or "machine".' >
+  desktop7:Scope = 'A string that can have one of the following values: "machine" or "user".' >
 
   <!-- Child elements -->
   desktop:FullTrustProcess?
@@ -98,6 +98,13 @@ Declares an extensibility point for the app.
 | Parent element | Description |
 |-|-|
 | [Extensions](element-1-extensions.md) | Declares an extensibility point for the package. |
+
+## Remarks
+	
+Use of the following desktop syntax semantics have capability requirements:
+	
+- CompatMode="classic" requires *Microsoft.classicAppCompat_8wekyb3d8bbwe*.
+- Scope="machine" requires *Microsoft.classicAppCompatElevated_8wekyb3d8bbwe*.
 
 ## Requirements
 

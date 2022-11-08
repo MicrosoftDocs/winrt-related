@@ -61,6 +61,10 @@ None.
 |-|-|
 | [recap4:ClassicAppCompatKeys](element-rescap4-ClassicAppCompatKeys.md) | Contains registry keys for discovering classic app installations and launching executables. |
 
+## Remarks
+
+Locations under "HKEY_LOCAL_MACHINE\Software\Microsoft" are not allowed for the **Name** attribute unless **CompatMode** is set to 'classic'.
+
 ## Requirements
 
 | Item | Value |

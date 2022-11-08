@@ -46,7 +46,7 @@ None.
 
 ## Remarks
 
-The [App capability declarations](/previous-versions/windows/apps/hh464936(v=win.10)) topic describes the capability values.
+The [App capability declarations](/windows/uwp/packaging/app-capability-declarations) topic describes the capability values.
 
 ## Examples
 
@@ -76,7 +76,7 @@ Here's an example of a [Capabilities](element-capabilities.md) node.
 
 ## See also
 
-- [App capability declarations](/previous-versions/windows/apps/hh464936(v=win.10))
+- [App capability declarations](/windows/uwp/packaging/app-capability-declarations)
 - [Guidelines for app settings](/windows/uwp/design/app-settings/guidelines-for-app-settings)
 
 ## Requirements

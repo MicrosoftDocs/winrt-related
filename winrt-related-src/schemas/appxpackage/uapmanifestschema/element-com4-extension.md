@@ -75,7 +75,7 @@ Provides functionality to expose COM registrations to clients outside of the app
 | **uap11:CurrentDirectoryPath** | This attribute is inherited from the base extension syntax and is not applicable to the com4 extension. Other than syntactic validation, this value is ignored.  | An optional string that cannot contain these characters: `<`, `>`, `|`, `?`, or `*`. > | No |  |
 | **uap11:Parameters** | This attribute is inherited from the base extension syntax and is not applicable to the com4 extension. Other than syntactic validation, this value is ignored. | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
 | **desktop7:CompatMode** | Specifies whether the registrations in this extension are only visible to other applications via COM activation and other COM/OLE APIs (modern), or whether they should also be written to the registry in the classic format (classic). The default value is "modern". For more information, see the Remarks section. | An optional string the can have one of the following values: *classic* or *modern*. | No |  |
-| **desktop7:Scope** | Specifies whether the registrations are only visible to other applications running as a user who has this package registered (user), or whether they are visible to all users and services on the machine (machine). The default value is "user". For more information, see the Remarks section. | An optional string that can have one of the following values: *machine* or *user*. | No |  |
+| **desktop7:Scope** | Specifies whether the registrations are visible only to other applications running as a user who has this package registered (user), or whether they're visible to all users and services on the machine (machine). The default value is *user*. For more information, see the Remarks section in this topic. | An optional string that can have one of the following values: *machine* or *user*. | No |  |
 
 ### Child elements
 
@@ -125,8 +125,8 @@ The following example shows how to register an out-of-process and an in-process 
 
 ### New features in the com4 extension
 
-- Support for in-process servers (both unmanaged and managed) and custom in-process handlers (i.e. not the OLE default handler). This capability is currently functionally limited and restricted by policy:
-  - This is currently only intended for use by sparse packages and doesn’t work for most normal packages due to ACLs on the install location that prevent the package’s dlls from being loaded outside the package. For more information on sparse packages, see [Grant identity to unpackaged desktop apps](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps).
+- Support for in-process servers (both unmanaged and managed) and custom in-process handlers (that is, not the OLE default handler). This capability is currently functionally limited and restricted by policy:
+  - This is currently intended for use only by packages with external location; it doesn't work for most normal packages due to ACLs on the install location that prevent the package's dlls from being loaded outside the package. For more information on packages with external location, see [Grant package identity by packaging with external location](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps).
 - It is now possible to associate a TypeLib with a class registration.
 
 ## Requirements
