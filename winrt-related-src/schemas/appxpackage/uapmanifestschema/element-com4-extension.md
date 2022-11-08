@@ -36,14 +36,14 @@ Provides functionality to expose COM registrations to clients outside of the app
   RuntimeBehavior = 'An optional string the can have one of the following values: "windowsApp", "packagedClassicApp", or "win32App".'
   HostId = 'An optional alphanumeric string with a value between 1 and 255 characters in length. Must begin with a letter.'
   Parameters = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
-  Id = 'An optional string with a value between 1 and 255 characters in length with a non-whitespace character at its beginning and end.'
-  Subsystem = 'An optional string that can have one of the following values: "console" or "windows".'
-  SupportsMultipleInstances = 'An optional boolean value.'
-  ResourceGroup = 'An optional alphanumeric string with a value between 1 and 255 characters in length. Must begin with a letter.'
-  CurrentDirectoryPath = 'An optional string that cannot contain these characters: <, >, |, ?, or *. >'
-  Parameters = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
-  CompatMode = 'An optional string the can have one of the following values: "classic" or "modern".'
-  Scope = 'An optional string that can have one of the following values: "machine" or "user".' />
+  uap11:Id = 'An optional string with a value between 1 and 255 characters in length with a non-whitespace character at its beginning and end.'
+  uap11:Subsystem = 'An optional string that can have one of the following values: "console" or "windows".'
+  uap11:SupportsMultipleInstances = 'An optional boolean value.'
+  uap11:ResourceGroup = 'An optional alphanumeric string with a value between 1 and 255 characters in length. Must begin with a letter.'
+  uap11:CurrentDirectoryPath = 'An optional string that cannot contain these characters: <, >, |, ?, or *. >'
+  uap11:Parameters = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+  desktop7:CompatMode = 'An optional string the can have one of the following values: "classic" or "modern".'
+  desktop7:Scope = 'An optional string that can have one of the following values: "machine" or "user".' />
 
   <!-- Child elements -->
   com4:ComServer
