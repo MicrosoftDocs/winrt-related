@@ -42,9 +42,11 @@ Declares an extensibility point for the app.
   uap10:Parameters = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.' >
 
   <!-- Child elements -->
-  desktop2:AppPrinter
-  desktop2:SearchFilterHandler
+  desktop2:AppPrinter?
+  desktop2:SearchFilterHandler?
   desktop2:SearchPropertyHandler?
+  desktop2:DesktopEventLogging?
+  desktop2:FirewallRules?
 
 </desktop2:Extension>
 ```
@@ -76,6 +78,9 @@ Declares an extensibility point for the app.
 | [AppPrinter](element-desktop2-appprinter.md) | Enables the ability to install software file printers in Windows Desktop Bridge apps. |  
 | [SearchFilterHandler](element-desktop2-searchfilterhandler.md) | Enables Windows Desktop Bridge apps to register IFilters to extract file properties for searching. |
 | [SearchPropertyHandler](element-desktop2-searchpropertyhandler.md) | Enables Windows Desktop Bridge apps to install property handlers on your system. |
+| [DesktopEventLogging](element-desktop2-desktopeventlogging.md) | Enables Windows Desktop Bridge apps to register for Windows event logging. |
+| [FirewallRules](element-desktop2-firewallrules.md) | Specifies firewall exception rules used by Windows Desktop Bridge apps. |
+
 
 ### Parent elements
 
