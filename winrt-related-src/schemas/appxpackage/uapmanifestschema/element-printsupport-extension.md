@@ -1,12 +1,12 @@
 ---
-title: uap12:printSupport
+title:  printSupport:Extension
 description: Declares an extensibility point for a Print Support App (uap12:printSupport).
 keywords: windows 10, uwp, schema, manifest, extension
-ms.date: 05/03/2022
+ms.date: 01/09/2023
 ms.topic: reference
 ---
 
-# uap12:Extension
+# printSupport:Extension
 
 Declares an extensibility point for a Print Support App.
 
