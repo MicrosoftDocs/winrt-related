@@ -256,6 +256,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [ProxyStub](element-proxystub.md) | Declares a package extensibility point of type **windows.activatableClass.proxyStub**. A proxy can be composed of one or more interfaces. |
 | [PublisherCacheFolders](element-publishercachefolders.md) | Declares a package extensibility point of type **windows.publisherCacheFolders**. This specifies one or more folders that the package shares with other packages from the same publisher. |
 | [PublisherDisplayName](element-publisherdisplayname.md) | A friendly name for the publisher that can be displayed to users. |
+| [printSupport:Extension](element-printsupport-extension.md) | Declares an extensibility point for a Print Support App. |
 | [rescap2:Extension](element-rescap2-extension-manual.md) | Declares an extensibility point for the app. |
 | [rescap3:DesktopApp](element-rescap3-desktopapp.md) | Specifies information for redirecting a Windows Desktop Bridge app's tiles and pins. |
 | [rescap3:DesktopAppMigration](element-rescap3-desktopappmigration.md) | Specifies where to redirect user tiles and pins to a Windows Desktop Bridge app. |
