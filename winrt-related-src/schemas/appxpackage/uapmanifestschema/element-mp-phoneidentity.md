@@ -45,6 +45,10 @@ None.
 |-|-|
 | [Package](element-package.md) | Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system. |
 
+## Remarks
+
+For apps that are not migrating from a mobile version, the **PhoneProductId** and **PhonePublisherId** are required for Store submission but are not validated. For project types that require the **PhoneIdentity** element, the Visual Studio project templates should include placeholder values. If you created a project from a template that does not include these values, you can specify any GUID for **PhoneProductId** and the value "00000000-0000-0000-0000-000000000000" for  **PhonePublisherID**.
+
 ## Requirements
 
 | Item | Value |
