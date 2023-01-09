@@ -732,6 +732,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-heap-heappolicy.md
           - name: "previewappcompat:ProgId"
             href: schemas/appxpackage/uapmanifestschema/element-previewappcompat-progid.md
+          - name: "printSupport:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-printsupport-extension.md
           - name: "rescap2:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-rescap2-extension-manual.md
           - name: "rescap3:Extension"

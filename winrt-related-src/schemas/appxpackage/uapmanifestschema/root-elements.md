@@ -290,6 +290,7 @@ The following list summarizes the allowed hierarchies for this schema, starting 
                     -   [**desktop9:FileExplorerClassicContextMenuHandler**](element-desktop9-fileexplorerclassiccontextmenuhandler.md)
                         -   [**desktop9:ExtensionHandler**](element-desktop9-extensionhandler.md)
                     -   [**desktop9:FileExplorerClassicDragDropContextMenuHandler**](element-desktop9-fileexplorerclassicdragdropcontextmenuhandler.md)
+                -   [**printSupport:Extension**](element-printsupport-extension.md)
                 -   [**rescap:Capability**](element-rescap-capability.md)
                 -   [**rescap2:Extension**](element-rescap2-extension-manual.md)
                 -   [**rescap3:Extension**](element-rescap3-extension.md)
