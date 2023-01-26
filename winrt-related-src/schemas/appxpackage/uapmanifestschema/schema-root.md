@@ -107,6 +107,10 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [com4:TreatAsClass](element-com4-treatasclass.md) | A registration that corresponds to a CLSID registration with the TreatAs subkey. |
 | [com4:TypeLib](element-com4-typelib.md) | Registers a type library. |
 | [Dependencies](element-dependencies.md) | Declares other packages that a package depends on to complete its software. |
+| [deployment:Extension](element-deployment-extension.md) | Declares an extensibility point for the app that specifies an undocked deployment extension handler (DEH). |
+| [deployment:DeploymentExtensionHandler](element-deployment-deploymentextensionhandler.md) | Allows an app to specify one or more DLL files that provide DEH functionality that ships outside of an OS release. |
+| [deployment:Files](element-deployment-files.md) | Contains one or more **File** elements specifying DLL files that provide DEH functionality that ships outside of an OS release. |
+| [deployment:File](element-deployment-file.md) | Specifies one or more DLL files that provide DEH functionality that ships outside of an OS release. |
 | [Description](element-description.md) | A friendly description that can be displayed to users. |
 | [desktop:ExecutionAlias](element-desktop-executionalias.md) | The executable of a UWP app to be activated from a command prompt. |
 | [desktop:Extension](element-desktop-extension.md) | Declares an extensibility point for the app. |
