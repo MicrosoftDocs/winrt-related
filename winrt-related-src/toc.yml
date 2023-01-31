@@ -330,6 +330,30 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-task.md
           - name: "uap:Task"
             href: schemas/appxpackage/uapmanifestschema/element-uap-task.md
+          - name: "cloudFiles:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-cloudfiles-extension.md
+          - name: "cloudFiles:CloudFiles"
+            href: schemas/appxpackage/uapmanifestschema/element-cloudfiles-cloudfiles.md
+          - name: "cloudFiles:BannerHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-cloudfiles-bannerhandler.md
+          - name: "cloudFiles:CloudFilesContextMenus"
+            href: schemas/appxpackage/uapmanifestschema/element-cloudfiles-cloudfilescontextmenus.md
+          - name: "cloudFiles:Verb"
+            href: schemas/appxpackage/uapmanifestschema/element-cloudfiles-verb.md
+          - name: "cloudFiles:ContentUriSource"
+            href: schemas/appxpackage/uapmanifestschema/element-cloudfiles-contenturisource.md
+          - name: "cloudFiles:CustomStateHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-cloudfiles-customstatehandler.md
+          - name: "cloudFiles:DesktopIconOverlayHandlers"
+            href: schemas/appxpackage/uapmanifestschema/element-cloudfiles-desktopiconoverlayhandlers.md
+          - name: "cloudFiles:DesktopIconOverlayHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-cloudfiles-desktopiconoverlayhandler.md
+          - name: "cloudFiles:ExtendedPropertyHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-cloudfiles-extendedpropertyhandler.md
+          - name: "cloudFiles:ThumbnailProviderHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-cloudfiles-thumbnailproviderhandler.md
+          - name: "cloudFiles2:StorageProviderStatusUISourceFactory"
+            href: schemas/appxpackage/uapmanifestschema/element-cloudfiles2-storageproviderstatusuisourcefactory.md
           - name: "com:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-com-extension.md
           - name: "com:ComInterface"

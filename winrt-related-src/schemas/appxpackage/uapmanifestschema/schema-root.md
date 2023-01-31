@@ -29,6 +29,18 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [Capability](element-capability.md) | Declares a capability required by a package. |
 | [Certificate](element-certificate.md) | A certificate for use with the package and placed in the system certificate stores. |
 | [Certificates](element-certificates.md) | Declares a package extensibility point of type **windows.certificates**. The app requires one or more certificates from the specified certificate stores. |
+| [cloudFiles:Extension](element-cloudfiles-extension.md) | Declares an extensibility point for the app that registers the handlers implemented in an application and context menu options for cloud-based placeholder files. |
+| [cloudFiles:CloudFiles](element-cloudfiles-cloudfiles.md) | Registers the handlers implemented in an application and context menu options for cloud-based placeholder files. |
+| [cloudFiles:BannerHandler](element-cloudfiles-bannerhandler.md) | Registration of a Windows Shell BannersHandler for cloud based placeholder files. |
+| [cloudFiles:CloudFilesContextMenus](element-cloudfiles-cloudfilescontextmenus.md) | Registration of a context menu for a cloud based placeholder file. |
+| [cloudFiles:ContentUriSource](element-cloudfiles-contenturisource.md) | Registration of a Windows Shell CustomStateHandler for cloud based placeholder files. |
+| [cloudFiles:CustomStateHandler](element-cloudfiles-customstatehandler.md) | Windows Shell icon overlay handlers for cloud based placeholder files. |
+| [cloudFiles:DesktopIconOverlayHandler](element-cloudfiles-desktopiconoverlayhandler.md) | Declares a package extensibility point of type **windows.certificates**. The app requires one or more certificates from the specified certificate stores. |
+| [cloudFiles:DesktopIconOverlayHandlers](element-cloudfiles-desktopiconoverlayhandlers.md) | Contains Windows Shell icon overlay handlers for cloud based placeholder files.  |
+| [cloudFiles:ExtendedPropertyHandler](element-cloudfiles-extendedpropertyhandler.md) | Registration of a Windows Shell ExtendedPropertyHandler for cloud based placeholder files. |
+| [cloudFiles:ThumbnailProviderHandler](element-cloudfiles-thumbnailproviderhandler.md) | Registration of a Windows Shell ThumbnailProviderHandler for cloud based placeholder files. |
+| [cloudFiles:Verb](element-cloudfiles-verb.md) | Defines the verbs associated with a file context menu |
+| [cloudFiles2:StorageProviderStatusUISourceFactory](element-cloudfiles2-storageproviderstatusuisourcefactory.md) | Registration of a Windows Shell StorageProviderStatusUI for cloud-based placeholder files. |
 | [com:Aspect (in ExeServer/Class)](element-com-exe-aspect.md) | Specifies the desired data or view aspect of the object when drawing or getting data. |
 | [com:Aspect (in SurrogateServer/Class)](element-com-surrogate-aspect.md) | Specifies the desired data or view aspect of the object when drawing or getting data. |
 | [com:Class (in ExeServer)](element-com-exeserver-class.md) | Defines an ExeServer class registration. |
