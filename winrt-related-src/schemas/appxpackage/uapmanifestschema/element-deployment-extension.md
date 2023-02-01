@@ -92,7 +92,7 @@ Declares an extensibility point for the app that specifies an undocked deploymen
 
 ## Remarks
 
-A DEH allows apps to access extensibility points in the OS. An undocked DEH is one that ships outside of an OS release.
+A DEH allows apps to access extensibility points in the OS. An undocked DEH is one that ships outside of an OS release. This is extension is not intended for use by 3rd party developers.
 
 ## Examples
 
