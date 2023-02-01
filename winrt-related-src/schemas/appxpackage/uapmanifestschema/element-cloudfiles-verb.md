@@ -26,7 +26,7 @@ Specifies the names of items in the File Explorer context menu for cloud based p
 
 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[cloudFiles:CloudFilesContextMenus](element-cloudfiles-cloudfilescontextmenus.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap3:Verb\>**
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<cloudFiles:Verb\>**
 
 ## Syntax
 
@@ -60,4 +60,4 @@ None.
 
 | Item | Value |
 |--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/cloudfiles/windows10` |
