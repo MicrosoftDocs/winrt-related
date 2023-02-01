@@ -36,7 +36,6 @@ Registers the handlers implemented in an application and context menu options fo
   ContentUriSource?
   CloudFilesContextMenus?
   DesktopIconOverlayHandlers?
-  cloudfiles2:StorageProviderStatusUISourceFactory?
   
 
 </cloudFiles:CloudFiles>
@@ -66,7 +65,7 @@ Registers the handlers implemented in an application and context menu options fo
 | [ContentUriSource](element-cloudfiles-contenturisource.md) | Registration of a Windows Shell ContentUriSource enabling cloud storage providers to provide a file ID for a given local path. |
 | [CloudFilesContextMenus](element-cloudfiles-cloudfilescontextmenus.md) | Registration of a context menu for a cloud-based placeholder file. |
 | [DesktopIconOverlayHandlers](element-cloudfiles-desktopiconoverlayhandlers.md) | Contains Windows Shell icon overlay handlers for cloud-based placeholder files. |
-| [cloudfiles2:StorageProviderStatusUISourceFactory](element-cloudfiles2-storageproviderstatusuisourcefactory.md) | Registration of a Windows Shell StorageProviderStatusUI for cloud-based placeholder files. |
+
 
 ### Parent elements
 
@@ -83,4 +82,4 @@ For more information, see [Build a Cloud Sync Engine that Supports Placeholder F
 | Item  | Value  |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/cloudfiles/windows10` |
-| cloudFiles2 | `http://schemas.microsoft.com/appx/manifest/cloudfiles/windows10/2` |
+

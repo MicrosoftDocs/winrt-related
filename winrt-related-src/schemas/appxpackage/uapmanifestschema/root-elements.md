@@ -174,7 +174,6 @@ The following list summarizes the allowed hierarchies for this schema, starting 
                             - [**cloudFiles:DesktopIconOverlayHandler**](element-cloudfiles-desktopiconoverlayhandler.md)
                         - [**cloudFiles:ExtendedPropertyHandler**](element-cloudfiles-extendedpropertyhandler.md)
                         - [**cloudFiles:ThumbnailProviderHandler**](element-cloudfiles-thumbnailproviderhandler.md)
-                -   [**cloudFiles2:StorageProviderStatusUISourceFactory**](element-cloudfiles2-storageproviderstatusuisourcefactory.md)
                 -   [**com:Extension**](element-com-extension.md)
                     -   [**com:ComInterface**](element-com-cominterface.md)
                         -   [**com:ProxyStub**](element-com-proxystub.md)

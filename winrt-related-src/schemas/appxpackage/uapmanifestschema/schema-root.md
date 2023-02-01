@@ -40,7 +40,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [cloudFiles:ExtendedPropertyHandler](element-cloudfiles-extendedpropertyhandler.md) | Registration of a Windows Shell ExtendedPropertyHandler for cloud based placeholder files. |
 | [cloudFiles:ThumbnailProviderHandler](element-cloudfiles-thumbnailproviderhandler.md) | Registration of a Windows Shell ThumbnailProviderHandler for cloud based placeholder files. |
 | [cloudFiles:Verb](element-cloudfiles-verb.md) | Defines the verbs associated with a file context menu |
-| [cloudFiles2:StorageProviderStatusUISourceFactory](element-cloudfiles2-storageproviderstatusuisourcefactory.md) | Registration of a Windows Shell StorageProviderStatusUI for cloud-based placeholder files. |
+ Registration of a Windows Shell StorageProviderStatusUI for cloud-based placeholder files. |
 | [com:Aspect (in ExeServer/Class)](element-com-exe-aspect.md) | Specifies the desired data or view aspect of the object when drawing or getting data. |
 | [com:Aspect (in SurrogateServer/Class)](element-com-surrogate-aspect.md) | Specifies the desired data or view aspect of the object when drawing or getting data. |
 | [com:Class (in ExeServer)](element-com-exeserver-class.md) | Defines an ExeServer class registration. |
