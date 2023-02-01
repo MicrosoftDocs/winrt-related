@@ -58,6 +58,7 @@ The following list summarizes the allowed hierarchies for this schema, starting 
             -   [**Device**](element-device.md)
                 -   [**Function**](element-function.md)
     -   [**Extensions**](element-extensions.md)
+        -   [**deployment:Extension**](element-deployment-extension.md)
         -   [**desktop2:Extension**](element-desktop2-package-extension.md)
             -   [**desktop2:FirewallRules**](element-desktop2-firewallrules.md)
                 -   [**desktop2:Rule**](element-desktop2-rule.md)
