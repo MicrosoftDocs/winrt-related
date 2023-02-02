@@ -109,6 +109,8 @@ So these combinations are valid, and they all produce identical results:
 
 Similarly, if `uap10:TrustLevel="appContainer"`, then on those older systems `EntryPoint` must be set to "windows.partialTrustApplication`.
 
+Setting `uap10:TrustLevel="mediumIL"` while `uap10:RuntimeBehavior="windowsApp"` (default behavior for UWP apps) or `EntryPoint="windows.partialTrustApplication"` requires the `Microsoft.coreAppActivation_8wekyb3d8bbwe` Custom Capability, you can read more about this capability here in [Custom Capabilities](/windows/uwp/packaging/app-capability-declarations#custom-capabilities)
+
 ### Important notes about multi-instancing apps
 
 - If an app declares **SupportsMultipleInstances** within the **Application** element, then all foreground extensions will also be multi-instanced.
