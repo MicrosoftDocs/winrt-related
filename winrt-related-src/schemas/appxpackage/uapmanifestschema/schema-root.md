@@ -199,6 +199,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [desktop7:Logo](element-desktop7-logo.md)| A path to a file that contains an image.|
 | [desktop7:LocalizedString](element-desktop7-localizedstring.md)| Specifies the localized string to show for this item in the Control Panel.|
 | [desktop7:MailProvider](element-desktop7-mailprovider.md)| Registers a dll as a mail provider.|
+| [desktop7:ProgId](element-desktop7-progid.md)| A programmatic identifier (ProgID) that can be associated with a CLSID. |
 | [desktop7:RuntimeExceptionHelperModule](element-desktop7-runtimeexceptionhelpermodule.md)| Specifies a module that will be launched in the event of a runtime exception.|
 | [desktop7:Service](element-desktop7-service.md)| Specifies a service that is installed and registered along with the app. These services can be configured to run under either the Local Service, Network Service or Local System account.|
 | [desktop7:ShadowCopyExcludeFile](element-desktop7-shadowcopyexcludefile.md)| Specifies a file to be excluded by the Volume Shadow Copy Service (VSS).|
