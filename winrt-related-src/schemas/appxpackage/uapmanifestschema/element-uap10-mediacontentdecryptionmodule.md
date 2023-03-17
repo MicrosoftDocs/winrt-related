@@ -27,9 +27,9 @@ Defines an extension for a desktop app in an MSIX package that defines decryptio
   DisplayName = 'A string with a value between 1 and 256 characters in length.'
   Description = 'A string with a value between 1 and 2048 characters in length.'
   SupportedKeySystems = 'A string with a value between 1 and 255 characters in length.'
-  ActivatableClassId = 'A string with a value between 1 and 255 characters in length.'
-  Path = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, ", |, ?, or *.'
-  ProcessorArchitecture = 'A string value that can be one of the following: "x86", "x64", "arm", "arm64", or "neutral".' />
+  wincap3:ActivatableClassId = 'A string with a value between 1 and 255 characters in length.'
+  wincap3:Path = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, ", |, ?, or *.'
+  wincap3:ProcessorArchitecture = 'A string value that can be one of the following: "x86", "x64", "arm", "arm64", or "neutral".' />
 ```
 
 ### Key
@@ -47,7 +47,7 @@ Defines an extension for a desktop app in an MSIX package that defines decryptio
 | **SupportedKeySystems** | Defines the key systems used to encrypt/descrypt media content. | A string with a value between 1 and 255 characters in length. | Yes |
 | **rescap3:ActivatableClassId** | The class ID associated with this media content. | A string with a value between 1 and 255 characters in length. | No |
 | **rescap3:Path** | The path to the media content. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `"`, `|`, `?`, or `*`. | No |
-| **rescap3:ProcessorArchitecture** | The processor architecture used for the media content. | A string value that can be one of the following: *x86*, *x64*, *arm*, *arm64*, or *neutral*. | No
+| **rescap3:ProcessorArchitecture** | The processor architecture used for the media content. | A string value that can be one of the following: *x86*, *x64*, *arm*, *arm64*, or *neutral*. | No |
 
 ### Child elements
 

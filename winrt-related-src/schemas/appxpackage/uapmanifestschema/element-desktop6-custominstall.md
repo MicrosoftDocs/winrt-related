@@ -28,7 +28,8 @@ Enables your desktop application to specify one or more additional installer fil
 
 ```xml
 <desktop6:CustomInstall
-  Folder = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.' >
+  Folder = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.' 
+  desktop8:RunAsUser = 'An optional boolean value.'>
 
   <!-- Child elements -->
   desktop6:InstallActions
@@ -63,6 +64,7 @@ Enables your desktop application to specify one or more additional installer fil
 | Parent element | Description |
 |-|-|
 | [desktop6:Extension](element-desktop6-package-extension.md) | Declares an extensibility point for the desktop application. |
+| **desktop8:RunAsUser** | Indicates whether the task should be run as the current user. | An optional boolean value. | No |
 
 ## Remarks
 
