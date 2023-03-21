@@ -31,7 +31,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [Certificates](element-certificates.md) | Declares a package extensibility point of type **windows.certificates**. The app requires one or more certificates from the specified certificate stores. |
 | [cloudFiles:Extension](element-cloudfiles-extension.md) | Declares an extensibility point for the app that registers the handlers implemented in an application and context menu options for cloud-based placeholder files. |
 | [cloudFiles:CloudFiles](element-cloudfiles-cloudfiles.md) | Registers the handlers implemented in an application and context menu options for cloud-based placeholder files. |
-| [cloudFiles:BannerHandler](element-cloudfiles-bannerhandler.md) | Registration of a Windows Shell BannersHandler for cloud based placeholder files. |
+| [cloudFiles:BannersHandler](element-cloudfiles-bannershandler.md) | Registration of a Windows Shell BannersHandler for cloud based placeholder files. |
 | [cloudFiles:CloudFilesContextMenus](element-cloudfiles-cloudfilescontextmenus.md) | Registration of a context menu for a cloud based placeholder file. |
 | [cloudFiles:ContentUriSource](element-cloudfiles-contenturisource.md) | Registration of a Windows Shell CustomStateHandler for cloud based placeholder files. |
 | [cloudFiles:CustomStateHandler](element-cloudfiles-customstatehandler.md) | Windows Shell icon overlay handlers for cloud based placeholder files. |

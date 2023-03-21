@@ -165,7 +165,7 @@ The following list summarizes the allowed hierarchies for this schema, starting 
                         -   [**uap:Task**](element-uap-task.md)
                 -   [**cloudFiles:Extension**](element-cloudfiles-extension.md)
                     -   [**cloudFiles:CloudFiles**](element-cloudfiles-cloudfiles.md)
-                        - [**cloudFiles:BannerHandler**](element-cloudfiles-bannerhandler.md)
+                        - [**cloudFiles:BannersHandler**](element-cloudfiles-bannershandler.md)
                         - [**cloudFiles:CloudFilesContextMenus**](element-cloudfiles-cloudfilescontextmenus.md)
                             - [**cloudFiles:Verb**](element-cloudfiles-verb.md)
                         - [**cloudFiles:ContentUriSource**](element-cloudfiles-contenturisource.md)

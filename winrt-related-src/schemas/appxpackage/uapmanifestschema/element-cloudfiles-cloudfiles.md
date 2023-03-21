@@ -61,7 +61,7 @@ Registers the handlers implemented in an application and context menu options fo
 | [CustomStateHandler](element-cloudfiles-customstatehandler.md) | Registration of a Windows Shell CustomStateHandler for cloud-based placeholder files. |
 | [ThumbnailProviderHandler](element-cloudfiles-thumbnailproviderhandler.md) | Registration of a Windows Shell ThumbnailProviderHandler for cloud-based placeholder files. |
 | [ExtendedPropertyHandler](element-cloudfiles-extendedpropertyhandler.md) | Registration of a Windows Shell ExtendedPropertyHandler for cloud-based placeholder files. |
-| [BannersHandler](element-cloudfiles-bannerhandler.md) | Registration of a Windows Shell BannersHandler for cloud-based placeholder files. |
+| [BannersHandler](element-cloudfiles-bannershandler.md) | Registration of a Windows Shell BannersHandler for cloud-based placeholder files. |
 | [ContentUriSource](element-cloudfiles-contenturisource.md) | Registration of a Windows Shell ContentUriSource enabling cloud storage providers to provide a file ID for a given local path. |
 | [CloudFilesContextMenus](element-cloudfiles-cloudfilescontextmenus.md) | Registration of a context menu for a cloud-based placeholder file. |
 | [DesktopIconOverlayHandlers](element-cloudfiles-desktopiconoverlayhandlers.md) | Contains Windows Shell icon overlay handlers for cloud-based placeholder files. |
