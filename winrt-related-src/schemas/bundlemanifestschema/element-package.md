@@ -37,11 +37,12 @@ Defines one of the app packages or resource packages in the bundle.
          ResourceId?   = A string between 1 and 30 characters in length that consists of alpha-numeric, period, and dash characters.
          FileName      = A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.
          Offset        = unsignedLong
-         Size          = unsignedLong >
+         Size          = unsignedLong
+         IsStub        = boolean >
 
   <!-- Child elements -->
   Resources
-
+  Dependencies
 </Package>
 ```
 
@@ -127,6 +128,14 @@ Defines one of the app packages or resource packages in the bundle.
 <td>Yes</td>
 <td></td>
 </tr>
+
+<tr class="even">
+<td><strong>IsStub</strong></td>
+<td><p>Indicates whether the application in the current package is a stub application.</p></td>
+<td>True if the application is a stub; otherwise, false.</td>
+<td>No</td>
+<td>False</td>
+</tr>
 </tbody>
 </table>
 
@@ -148,6 +157,10 @@ Defines one of the app packages or resource packages in the bundle.
 <tbody>
 <tr class="odd">
 <td><a href="element-resources.md">Resources</a> </td>
+<td><p>Declares languages, resolution scales, and DirectX feature levels for the resources that the package contains.</p></td>
+</tr>
+<tr class="even">
+<td><a href="element-dependencies.md">Dependencies</a> </td>
 <td><p>Declares languages, resolution scales, and DirectX feature levels for the resources that the package contains.</p></td>
 </tr>
 </tbody>

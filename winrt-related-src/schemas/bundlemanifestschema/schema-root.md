@@ -54,6 +54,10 @@ The following table lists all of the elements in this schema, sorted alphabetica
 <td><a href="element-resources.md">Resources</a> </td>
 <td><p>Declares languages, resolution scales, and DirectX feature levels for the resources that the package contains.</p></td>
 </tr>
+<tr class="even">
+<td><a href="element-dependencies.md">Dependencies</a> </td>
+<td><p>Declares dependencies that will be installed if required.</p></td>
+</tr>
 </tbody>
 </table>
 

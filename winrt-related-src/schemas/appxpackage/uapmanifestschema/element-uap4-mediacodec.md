@@ -32,7 +32,10 @@ Defines an extension that enables an app to install media codecs from the Micros
   DisplayName = 'A string with a value between 1 and 256 characters in length. This string is localizable.'
   Description = 'A string between 1 and 2048 characters in length.'
   Category = 'A string that can have one of the following values: "audioDecoder", "audioEncoder","videoDecoder", or "videoEncoder".'
-  AppServiceName = 'An optional string with a value between 2 and 39 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only.' >
+  AppServiceName = 'An optional string with a value between 2 and 39 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only.' 
+  wincap3:ActivatableClassId = 'A string with a value between 1 and 255 characters in length.'
+  wincap3:Path = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, ", |, ?, or *.'
+  wincap3:ProcessorArchitecture = 'A string value that can be one of the following: "x86", "x64", "arm", "arm64", or "neutral".' >
 
   <!-- Child elements -->
   uap4:MediaEncodingProperties
@@ -54,6 +57,10 @@ Defines an extension that enables an app to install media codecs from the Micros
 | **Description** | A description of the codec. | A string between 1 and 2048 characters in length. | Yes |  |
 | **Category** | The category of the codec. | A string that can have one of the following values: *audioDecoder*, *audioEncoder*,*videoDecoder*, or *videoEncoder*. | Yes |  |
 | **AppServiceName** | The app service that is launched as the codec. | An optional string with a value between 2 and 39 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only. | No |  |
+| **rescap3:ActivatableClassId** | The class ID associated with this media content. | A string with a value between 1 and 255 characters in length. | No |
+| **rescap3:Path** | The path to the media content. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `"`, `|`, `?`, or `*`. | No |
+| **rescap3:ProcessorArchitecture** | The processor architecture used for the media content. | A string value that can be one of the following: *x86*, *x64*, *arm*, *arm64*, or *neutral*. | No |
+
 
 ### Child elements
 

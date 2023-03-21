@@ -30,7 +30,8 @@ Specifies a startup task for your application.
 <uap5:StartupTask
   TaskId = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
   Enabled = 'An optional boolean value.'
-  DisplayName = 'An optional string with a value between 1 and 256 characters in length. This string is localizable.' />
+  DisplayName = 'An optional string with a value between 1 and 256 characters in length. This string is localizable.' 
+  uap11:UserConfigurable = 'An optional boolean value.'/>
 ```
 
 ## Attributes and elements
@@ -42,6 +43,7 @@ Specifies a startup task for your application.
 | **TaskId** | A unique identifier for your task. Using this identifier, your app can call the APIs in the Windows.ApplicationModel.StartupTask class to programmatically enable or disable a startup task. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |
 | **Enabled** | Indicates whether the task first starts enabled or disabled. Enabled tasks will run the next time the user logs on (unless it has been disabled by the user). | An optional boolean value. | No |
 | **DisplayName** | The name of the task that appears in the Task Manager. This string is localizable using ms-resource. | An optional string with a value between 1 and 256 characters in length. This string is localizable. | No |
+| **uap11:UserConfigurable** | Indicates whether the task is user configurable. | An optional boolean value. | No |
 
 ### Child elements
 
