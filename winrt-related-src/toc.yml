@@ -538,6 +538,14 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-com4-win32path.md
           - name: "com4:Win64Path"
             href: schemas/appxpackage/uapmanifestschema/element-com4-win64path.md
+          - name: "deployment:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-deployment-extension.md
+          - name: "deployment:DeploymentExtensionHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-deployment-deploymentextensionhandler.md
+          - name: "deployment:Files"
+            href: schemas/appxpackage/uapmanifestschema/element-deployment-files.md
+          - name: "deployment:File"
+            href: schemas/appxpackage/uapmanifestschema/element-deployment-file.md
           - name: "desktop:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-desktop-extension.md
           - name: "desktop:FullTrustProcess"

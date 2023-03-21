@@ -29,7 +29,7 @@ Declares other packages that a package depends on to complete its software.
   uap3:MainPackageDependency{0,1},
   uap5:DriverDependency{0,1000}
   uap7:OSPackageDependency{0,1000}
-  uap10:HostRuntimeDependency{0,1000}
+  uap10:HostRuntimeDependency{0,128}
 
 </Dependencies>
 ```
@@ -65,6 +65,8 @@ None.
 ## Remarks
 
 Dependencies must be explicitly defined. If a dependency cannot be resolved, deployment of the package fails. By default, a package cannot take a dependency on another package if the dependency package is not declared to be a framework or resource package. Set [Framework](element-framework.md) to **true** to declare a framework package and [ResourcePackage](element-resourcepackage.md) to **true** to declare a resource package.
+
+The total count of `uap7:OSPackageDependency` and `uap10:HostRuntimeDependency` elements must not exceed 128.
 
 ## Examples
 
