@@ -14,7 +14,7 @@ ms.date: 04/05/2017
 
 # TargetDeviceFamily (Bundle schema, descendant of Packages)
 
-Identifies the device family that a package targets. For more info about device families, see [Programming with extension SDKs](../../../extension-sdks/device-families-overview.md).
+Identifies the device family that a package targets. For more info about device families, see [Programming with extension SDKs](/uwp/extension-sdks/device-families-overview).
 
 ## Element hierarchy
 
@@ -51,7 +51,7 @@ Identifies the device family that a package targets. For more info about device 
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Name** | The name of the device family that your app is targeting. See the [Examples](#examples) section for more information about the supported device family names. | An alphanumeric string that can contain period and dash characters. | Yes |  |
+| **Name** | The name of the device family that your app is targeting.  | An alphanumeric string that can contain period and dash characters. | Yes |  |
 | **MinVersion** | The minimum version of the device family that your app is targeting. Used for applicability at deployment time. If the device family version of the system is lower than *MinVersion*, then the app is not considered applicable. | A version string in quad notation (`Major.Minor.Build.Revision`), where `Major` cannot be `0`. | Yes |  |
 | **MaxVersionTested** | The maximum version of the device family that your app is targeting that you have tested it against. This is used at runtime to determine the effective process space for quirks. | A version string in quad notation (`Major.Minor.Build.Revision`), where `Major` cannot be `0`. | Yes |  |
 

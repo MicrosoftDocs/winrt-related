@@ -22,7 +22,7 @@ The following list summarizes the allowed hierarchies for this schema, starting 
         -   [Package](element-package.md)
             -   [Resources](element-resources.md)
                 -   [Resource](element-resource.md)
-            -   [Dependencies](element-optionalbundle-dependencies.md)
+            -   [Dependencies](element-dependencies.md)
                 -   [TargetDeviceFamily](element-targetdevicefamily.md)
     -   [OptionalBundle](element-optionalbundle.md)
         -   [Package](element-optionalbundle-package.md)

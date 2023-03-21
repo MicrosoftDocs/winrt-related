@@ -59,7 +59,6 @@ Declares an app extensibility point of type *windows.appUriHandler*.
 |-|-|
 | [uap3:Host](element-uap3-host-manual.md) | Represents a valid HTTP or HTTPS host name that the app wants to register as able to handle. |
 | [uap5:Host](element-uap5-host.md) | Represents a valid HTTP or HTTPS host name with a wildcard that the app wants to register as able to handle. |
-| [uap10:Host](element-uap10-host.md) | Represents a valid HTTP or HTTPS host name with a wildcard that the app wants to register as able to handle. |
 
 ### Parent elements
 

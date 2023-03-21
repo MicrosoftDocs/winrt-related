@@ -62,9 +62,9 @@ Enables your desktop application to specify one or more additional installer fil
 ### Parent elements
 
 | Parent element | Description |
-|-|-|
+|------|----------------|
 | [desktop6:Extension](element-desktop6-package-extension.md) | Declares an extensibility point for the desktop application. |
-| **desktop8:RunAsUser** | Indicates whether the task should be run as the current user. | An optional boolean value. | No |
+| **desktop8:RunAsUser** | Indicates whether the task should be run as the current user. | An optional boolean value. | 
 
 ## Remarks
 

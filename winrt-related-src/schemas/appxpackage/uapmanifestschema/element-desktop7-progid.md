@@ -1,5 +1,5 @@
 ---
-description: A programmatic identifier (ProgID) that can be associated with a CLSID (com:ProgId).
+description: A programmatic identifier (ProgID) that can be associated with a CLSID (desktop7:ProgId).
 Search.Product: eADQiWindows 10XVcnh
 title: desktop7:ProgId
 keywords: windows 10, uwp, schema, package manifest
