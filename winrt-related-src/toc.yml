@@ -334,8 +334,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-cloudfiles-extension.md
           - name: "cloudFiles:CloudFiles"
             href: schemas/appxpackage/uapmanifestschema/element-cloudfiles-cloudfiles.md
-          - name: "cloudFiles:BannerHandler"
-            href: schemas/appxpackage/uapmanifestschema/element-cloudfiles-bannerhandler.md
+          - name: "cloudFiles:BannersHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-cloudfiles-bannershandler.md
           - name: "cloudFiles:CloudFilesContextMenus"
             href: schemas/appxpackage/uapmanifestschema/element-cloudfiles-cloudfilescontextmenus.md
           - name: "cloudFiles:Verb"
