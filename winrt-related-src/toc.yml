@@ -1520,7 +1520,12 @@ items:
           - name: "Resources"
             href: schemas/bundlemanifestschema/element-resources.md
           - name: "Resource"
-            href: schemas/bundlemanifestschema/element-resource.md
+            href: schemas/bundlemanifestschema/element-resource.
+          - name: "Dependencies"
+            href: schemas/bundlemanifestschema/element-dependencies.
+            items:
+            - name: "TargetDeviceFamily"
+              href: schemas/bundlemanifestschema/element-targetdevicefamily.md.
           - name: "OptionalBundle"
             href: schemas/bundlemanifestschema/element-optionalbundle.md
           - name: "Package"
