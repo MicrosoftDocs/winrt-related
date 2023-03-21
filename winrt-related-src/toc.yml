@@ -1522,7 +1522,7 @@ items:
           - name: "Resource"
             href: schemas/bundlemanifestschema/element-resource.
           - name: "Dependencies"
-            href: schemas/bundlemanifestschema/element-dependencies.
+            href: schemas/bundlemanifestschema/element-dependencies.md
             items:
             - name: "TargetDeviceFamily"
               href: schemas/bundlemanifestschema/element-targetdevicefamily.md.
