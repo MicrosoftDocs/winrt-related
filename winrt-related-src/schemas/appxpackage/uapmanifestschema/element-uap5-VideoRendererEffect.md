@@ -29,7 +29,10 @@ Enables activation of video renderer effects in apps.
 ```xml
 <uap5:VideoRendererEffect
     DisplayName = 'A string with a value between 1 and 256 characters in length. This string is localizable.'
-    Description = 'A string with a value between 1 and 2048 characters in length.' />
+    Description = 'A string with a value between 1 and 2048 characters in length.' 
+    wincap3:ActivatableClassId = 'A string with a value between 1 and 255 characters in length.'
+    wincap3:Path = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, ", |, ?, or *.'
+    wincap3:ProcessorArchitecture = 'A string value that can be one of the following: "x86", "x64", "arm", "arm64", or "neutral".' />
 
     <!-- Child elements -->
     uap5:VideoRendererExtensionProfiles{0,1000}
@@ -51,6 +54,9 @@ Enables activation of video renderer effects in apps.
 |-|-|-|-|-|
 | **DisplayName** | The video renderer display name. | A string with a value between 1 and 256 characters in length. This string is localizable. | No |  |
 | **Description** | A description of the video renderer effect. | A string with a value between 1 and 2048 characters in length. | No |  |
+| **rescap3:ActivatableClassId** | The class ID associated with this media content. | A string with a value between 1 and 255 characters in length. | No |
+| **rescap3:Path** | The path to the media content. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `"`, `|`, `?`, or `*`. | No |
+| **rescap3:ProcessorArchitecture** | The processor architecture used for the media content. | A string value that can be one of the following: *x86*, *x64*, *arm*, *arm64*, or *neutral*. | No |
 
 ### Child elements
 

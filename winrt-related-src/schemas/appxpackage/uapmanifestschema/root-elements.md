@@ -295,6 +295,7 @@ The following list summarizes the allowed hierarchies for this schema, starting 
                     - [**desktop7:ErrorReporting**](element-desktop7-errorreporting.md)
                         - [**desktop7:RuntimeExceptionHelperModule**](element-desktop7-runtimeexceptionhelpermodule.md)
                     - [**desktop7:Logo**](element-desktop7-logo.md)
+                    - [**desktop7:ProgId**](element-desktop7-progid.md)
                 -   [**desktop9:Extension**](element-desktop9-extension.md)
                     -   [**desktop9:FileExplorerClassicContextMenuHandler**](element-desktop9-fileexplorerclassiccontextmenuhandler.md)
                         -   [**desktop9:ExtensionHandler**](element-desktop9-extensionhandler.md)
