@@ -36,7 +36,11 @@ A supported file type specified as its file type extension.
 <uap:FileType
   ContentType = 'An optional string with a value that contains two components between 1 and 127 characters in length, separated by a forward slash ("/"). It follows the RFC 4288 naming requirements.'
   uap4:ShellNewFileName = 'An optional string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
-  uap4:ShellNewDisplayName = 'A string with a value between 1 and 256 characters in length. This string is localizable.' />
+  uap4:ShellNewDisplayName = 'A string with a value between 1 and 256 characters in length. This string is localizable.'>
+
+<!-- A string between 1 and 64 characters in length that must begin with a period ("."), cannot have additional periods, and cannot contain these characters: <, >, :, ", /, \, |, ?, or *. -->
+
+</uap:FileType>
 ```
 
 ### Key
