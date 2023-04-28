@@ -5,7 +5,7 @@ title: TargetDeviceFamily (Windows 10)
 ms.assetid: 457745aa-bc12-427b-b1f1-74c1618753c0
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
-ms.date: 04/05/2017
+ms.date: 04/28/2023
 ---
 
 # TargetDeviceFamily (Windows 10)
@@ -125,6 +125,12 @@ In this last example, the app targets the universal device family (so, by defaul
     <TargetDeviceFamily Name="Windows.Mobile" MinVersion="10.0.m.0" MaxVersionTested="10.0.n.0"/>
 </Dependencies>
 ```
+
+## Remarks
+
+A package has access to operating system (OS) behaviors only up to `<TargetDeviceFamily [...] MaxVersionTested="version">`. So if a package's `MaxVersionTested` value is *higher* than the version of the OS on the target machine, then potentially there's OS behavior that's understood by the package, but that's not made available to the package by the target OS. If the target OS upgrades (nearer to, or matching, `MaxVersionTested`), then potentially OS behavior understood by the package becomes available that wasn't available previously. Consequently, the OS reprocesses the package in order to *light up* any such behavior.
+
+The process by which Deployment makes this *light up* scenario happen is known as *ReIndexing*.
 
 ## Requirements
 
