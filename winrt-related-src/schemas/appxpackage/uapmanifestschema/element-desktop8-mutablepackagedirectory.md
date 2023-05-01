@@ -2,7 +2,7 @@
 title: desktop8:MutablePackageDirectory
 description: Enables your desktop application to specify a folder where you can modify the installation files for your application.
 keywords: windows 10, uwp, schema, manifest, desktop, extension
-ms.date: 04/27/2022
+ms.date: 05/01/2023
 ms.topic: reference
 ---
 
@@ -28,8 +28,8 @@ Enables your desktop application to specify a folder where you can modify the in
 
 ```xml
 <desktop8:MutablePackageDirectory
-          Target = 'A string that must be in the form of "$(string)\subpath" where the string is semantically validated and interpreted by calling code, and subpath is a directory subpath.'
-          Shared = 'A boolean value.' />
+  Target = 'A string that must be in the form of "$(string)\subpath" where the string is semantically validated and interpreted by calling code, and subpath is a directory subpath.'
+  Shared = 'A boolean value.' />
 ```
 
 ## Attributes and elements
@@ -38,7 +38,7 @@ Enables your desktop application to specify a folder where you can modify the in
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Target** | Specifies a path to the folder used to store the installation files. | A string that must be in the form of `$(string)\subpath` where the string is semantically validated and interpreted by calling code, and subpath is a directory subpath. | Yes |  |
+| **Target** | Specifies a path to the folder (which will be created, and is external to `%ProgramFiles%\WindowsApps`) used to store the installation files. | A string of the form `$(string)\subpath`, where `$(string)` can be either `$(package.volumeRoot)` or `$(package.mutableroot)`, and *subpath* is a directory subpath. `$(package.volumeRoot)` denotes that *subpath* is relative to the volume root of the package; and `$(package.mutableroot)` denotes that *subpath* is relative to the mutable root (`%ProgramFiles%\ModifiableWindowsApps`). | Yes |  |
 | **Shared** | Specifies whether or not the folder is a shared. | A boolean value. | No |  |
 
 ### Child elements
