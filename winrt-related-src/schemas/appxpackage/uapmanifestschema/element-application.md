@@ -58,7 +58,7 @@ Represents an app that comprises part of or all of the functionality delivered i
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **EntryPoint** | The activatable class ID (for example, "Office.Winword.Class"), or "windows.fullTrustApplication", or "windows.partialTrustApplication". If you specify **EntryPoint**, then you must also specify the **Executable** attribute. If you specify **EntryPoint**, then you must not specify the **StartPage** attribute. | A string between 1 and 256 characters in length, representing the task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type; but it can be one of the special values "windows.fullTrustApplication" or "windows.partialTrustApplication". If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |  |
+| **EntryPoint** | The activatable class ID (for example, "Office.Winword.Class"), or "windows.FullTrustApplication", or "windows.PartialTrustApplication". If you specify **EntryPoint**, then you must also specify the **Executable** attribute. If you specify **EntryPoint**, then you must not specify the **StartPage** attribute. | A string between 1 and 256 characters in length, representing the task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type; but it can be one of the special values "windows.FullTrustApplication" or "windows.PartialTrustApplication". If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |  |
 | **Executable** | The default launch executable for the app. The specified file must be present in the package. If you specify **Executable**, then you must also specify the **EntryPoint** attribute. If you specify **Executable**, then you must *not* specify the **StartPage** attribute. | A string between 1 and 256 characters in length that must end with `.exe` and can't contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |  |
 | **uap10:HostId** | The app ID of the host app for the current app. This attribute is used for [hosted apps](/windows/uwp/launch-resume/hosted-apps). | An alphanumeric string between 1 and 255 characters in length. Must begin with a letter. | No |  |
 | **Id** | The unique identifier of the application within the package. This value is sometimes referred to as the package-relative app identifier (PRAID). The ID is unique within the package but not globally. There may be another package on the system that uses the same ID. The same ID cannot be used more than once in the same package. When using a Visual Studio template, the default value of this attribute is *App*. Developers should manually change this in the manifest. The app's identifier should not be changed after the app has been published to the Microsoft Store; doing so will disrupt the tile's position on the Start screen. | An ASCII string between 1 and 64 characters in length. This string contains alpha-numeric fields separated by periods. Each field must begin with an ASCII alphabetic character. You cannot use these as field values: *CON*, *PRN*, *AUX*, *NUL*, *COM1*, *COM2*, *COM3*, *COM4*, *COM5*, *COM6*, *COM7*, *COM8*, *COM9*, *LPT1*, *LPT2*, *LPT3*, *LPT4*, *LPT5*, *LPT6*, *LPT7*, *LPT8*, and *LPT9*. | Yes |  |
@@ -103,11 +103,11 @@ But if your package has `<TargetDeviceFamily MinVersion="10.0.19041.0">`, or hig
 
 So these combinations are valid, and they all produce identical results:
 
-* EntryPoint="windows.fullTrustApplication".
+* EntryPoint="windows.FullTrustApplication".
 * uap10:RuntimeBehavior="packagedClassicApp" uap10:TrustLevel="mediumIL".
-* uap10:RuntimeBehavior="packagedClassicApp" uap10:TrustLevel="mediumIL" EntryPoint="windows.fullTrustApplication".
+* uap10:RuntimeBehavior="packagedClassicApp" uap10:TrustLevel="mediumIL" EntryPoint="windows.FullTrustApplication".
 
-Similarly, if `uap10:TrustLevel="appContainer"`, then on those older systems `EntryPoint` must be set to "windows.partialTrustApplication`.
+Similarly, if `uap10:TrustLevel="appContainer"`, then on those older systems `EntryPoint` must be set to "windows.PartialTrustApplication`.
 
 ### Important notes about multi-instancing apps
 
