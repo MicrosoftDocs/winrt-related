@@ -766,6 +766,18 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-previewappcompat-progid.md
           - name: "printSupport:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-printsupport-extension.md
+          - name: "rescap:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-rescap-extension.md
+          - name: "rescap:SettingsApp"
+            href: schemas/appxpackage/uapmanifestschema/element-rescap-settingsapp.md
+          - name: "rescap:AppLinks"
+            href: schemas/appxpackage/uapmanifestschema/element-rescap-applinks.md
+          - name: "rescap:Link"
+            href: schemas/appxpackage/uapmanifestschema/element-rescap-link.md
+          - name: "rescap:SearchTerms"
+            href: schemas/appxpackage/uapmanifestschema/element-rescap-searchterms.md
+          - name: "rescap:Term"
+            href: schemas/appxpackage/uapmanifestschema/element-rescap-term.md
           - name: "rescap2:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-rescap2-extension-manual.md
           - name: "rescap3:Extension"
