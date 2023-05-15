@@ -87,6 +87,8 @@ The following elements have the same name as this one, but different content or 
 
 ## Remarks
 
+If activation info attributes aren't specified on **Extension**, then they're inherited from the parent [Application](/uwp/schemas/appxpackage/uapmanifestschema/element-application). See the remarks section for the **Application** element.
+
 Extensibility points are a mechanism by which a package can add functionality in a manner defined by the operating system. An extensibility point is a location where an app can register to execute code or use resources of the current package. To add functionality for a particular app, use the [Application](element-application.md) child element of the [Applications](element-applications.md) element.
 
 The **windows.certificates** extensibility point can't be declared multiple times in a manifest.

@@ -58,8 +58,8 @@ Represents an app that comprises part of or all of the functionality delivered i
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **EntryPoint** | The activatable class ID (for example, "Office.Winword.Class"), or "windows.FullTrustApplication", or "windows.PartialTrustApplication". If you specify **EntryPoint**, then you must also specify the **Executable** attribute. If you specify **EntryPoint**, then you must not specify the **StartPage** attribute. | A string between 1 and 256 characters in length, representing the task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type; but it can be one of the special values "windows.FullTrustApplication" or "windows.PartialTrustApplication". If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |  |
-| **Executable** | The default launch executable for the app. The specified file must be present in the package. If you specify **Executable**, then you must also specify the **EntryPoint** attribute. If you specify **Executable**, then you must *not* specify the **StartPage** attribute. | A string between 1 and 256 characters in length that must end with `.exe` and can't contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |  |
+| **EntryPoint** | The activatable class ID (for example, "Office.Winword.Class"), or "windows.fullTrustApplication", or "windows.partialTrustApplication". If you specify **EntryPoint**, then you must also specify the **Executable** attribute. If you specify **EntryPoint**, then you must not specify the **StartPage** attribute. | A string between 1 and 256 characters in length, representing the task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type; but it can be one of the special values "windows.fullTrustApplication" or "windows.partialTrustApplication". If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |  |
+| **Executable** | The default launch executable for the app. The specified file must be present in the package. On older systems (see the remarks section for details), if you specify **Executable**, then you must also specify the **EntryPoint** attribute. If you specify **Executable**, then you must *not* specify the **StartPage** attribute. | A string between 1 and 256 characters in length that must end with `.exe` and can't contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |  |
 | **uap10:HostId** | The app ID of the host app for the current app. This attribute is used for [hosted apps](/windows/uwp/launch-resume/hosted-apps). | An alphanumeric string between 1 and 255 characters in length. Must begin with a letter. | No |  |
 | **Id** | The unique identifier of the application within the package. This value is sometimes referred to as the package-relative app identifier (PRAID). The ID is unique within the package but not globally. There may be another package on the system that uses the same ID. The same ID cannot be used more than once in the same package. When using a Visual Studio template, the default value of this attribute is *App*. Developers should manually change this in the manifest. The app's identifier should not be changed after the app has been published to the Microsoft Store; doing so will disrupt the tile's position on the Start screen. | An ASCII string between 1 and 64 characters in length. This string contains alpha-numeric fields separated by periods. Each field must begin with an ASCII alphabetic character. You cannot use these as field values: *CON*, *PRN*, *AUX*, *NUL*, *COM1*, *COM2*, *COM3*, *COM4*, *COM5*, *COM6*, *COM7*, *COM8*, *COM9*, *LPT1*, *LPT2*, *LPT3*, *LPT4*, *LPT5*, *LPT6*, *LPT7*, *LPT8*, and *LPT9*. | Yes |  |
 | **uap10:Parameters** | Contains command line parameters to pass to the app. Only supported for [desktop apps](/windows/apps/desktop/) that have package identity (see [Deployment overview](/windows/apps/package-and-deploy/)). | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
@@ -68,8 +68,8 @@ Represents an app that comprises part of or all of the functionality delivered i
 | **StartPage** | The web page that handles the extensibility point. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. Any valid URI or IRI (the non-ASCII version of a URI). | No |  |
 | **desktop4:Subsystem** | Indicates whether the app is a standard UWP app or a UWP console app. | A string that can be any of the following values: *console* or *windows*. | No |  |
 | **uap10:Subsystem** | Indicates whether the app is a standard UWP app or a UWP console app. | A string that can be any of the following values: *console* or *windows*. | No |  |
-| **desktop4:SupportsMultipleInstances** | Indicates support of multiple, separate instances of UWP apps. For more information, see the remarks section. | A boolean value. | No |  |
-| **uap10:SupportsMultipleInstances** | Indicates support of multiple, separate instances of UWP apps. For more information, see the remarks section. | A boolean value. | No |  |
+| **desktop4:SupportsMultipleInstances** | Indicates support of multiple, separate instances of UWP apps. For more info, see the remarks section. | A boolean value. | No |  |
+| **uap10:SupportsMultipleInstances** | Indicates support of multiple, separate instances of UWP apps. For more info, see the remarks section. | A boolean value. | No |  |
 | **uap10:TrustLevel** | Specifies the trust level of the app<br/><br/>"mediumIL"&mdash;the app is *full trust*; its process runs with an integrity level of *medium* (see [Mandatory Integrity Control](/windows/win32/secauthz/mandatory-integrity-control)). Needs the "Full Trust Permission Level" restricted capability (see [App capability declarations](/windows/uwp/packaging/app-capability-declarations)).<br/><br/>"appContainer"&mdash;the app runs in a lightweight app container; its process runs with an integrity level of *low*. | A string with one of the following values: "mediumIL" or "appContainer". | No |  |
 
 ### Child elements
@@ -89,25 +89,33 @@ Represents an app that comprises part of or all of the functionality delivered i
 
 ## Remarks
 
-The **Application** element contains attributes that are common to the extensibility points that pertain to the app. This information is used by other extensibility points to get information about the app. Also, **Application** attributes are used in the start and management of an instance of the app.
+The **Application** element contains attributes that are common to the extensibility points that pertain to the app. This info is used by other extensibility points to get info about the app. **Application** attributes are also used as *activation info* in the startup and management of an instance of the app (in other words, they describe how to start a process, and with what behavior).
 
-You can set `uap10:TrustLevel="appContainer"` in combination with `uap10:RuntimeBehavior="packagedClassicApp"`.
-
-The **StartPage** attribute applies only to JavaScript apps. If **StartPage** isn't specified, then both the **Executable** and **EntryPoint** attributes must be specified; and that applies only to C#, C++, or VB apps.
+The **StartPage** attribute applies only to JavaScript apps. If **StartPage** isn't specified, then both the **Executable** and **EntryPoint** attributes must be specified (and that applies only to C#, C++, or VB apps).
 
 ### uap10 was introduced in Windows 10, version 2004 (10.0; Build 19041)
 
-The `uap10` namespace (for `uap10:RuntimeBehavior` and `uap10:TrustLevel`) was introduced in Windows 10, version 2004 (10.0; Build 19041). So if your package installs on systems older than that, then you need to specify the **EntryPoint** attribute, otherwise the activation information will be incomplete, and the install will fail.
+The `uap10` namespace (for `uap10:RuntimeBehavior` and `uap10:TrustLevel`) was introduced in Windows 10, version 2004 (10.0; Build 19041). If your package installs on systems older than that, then you need to provide an equivalent combination of attributes (see the following section), otherwise the activation info will be incomplete, and the install will fail.
 
-But if your package has `<TargetDeviceFamily MinVersion="10.0.19041.0">`, or higher, then it installs only on systems that support the `uap10` namespace. In that case, you can omit `EntryPoint`, and instead use the `uap10:RuntimeBehavior` and `uap10:TrustLevel` attributes.
+But if your package has `<TargetDeviceFamily MinVersion="10.0.19041.0">`, or higher, then it installs only on systems that support the `uap10` namespace. In that case, you should use the `uap10:RuntimeBehavior` and `uap10:TrustLevel` attributes in preference to the older equivalent combinations (see the following section).
 
-So these combinations are valid, and they all produce identical results:
+### Combinations of activation info attributes
 
-* EntryPoint="windows.FullTrustApplication".
-* uap10:RuntimeBehavior="packagedClassicApp" uap10:TrustLevel="mediumIL".
-* uap10:RuntimeBehavior="packagedClassicApp" uap10:TrustLevel="mediumIL" EntryPoint="windows.FullTrustApplication".
+You can specify activation info attributes on the **Application** element; and you can optionally specify them on an app-scope [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-1-extension) element. If they're not specified on **Extension**, then they're inherited from the parent **Application**. You specify these attributes in combinations&mdash;for example, **EntryPoint**, **RuntimeBehavior**, and **TrustLevel** have overlapping meaning, and they're specified (and/or inherited) in combinations. Here are some valid combinations of activation info attributes.
 
-Similarly, if `uap10:TrustLevel="appContainer"`, then on those older systems `EntryPoint` must be set to "windows.PartialTrustApplication`.
+1. **Executable**, **uap10:RuntimeBehavior**="packagedClassicApp", **uap10:TrustLevel**=["mediumIL", or "appContainer" (the default if omitted)]
+1. **Executable**, **uap10:RuntimeBehavior**="win32App", **uap10:TrustLevel**="mediumIL" (for other requirements, see the Description earlier in this topic for **uap10:RuntimeBehavior**).
+1. **Executable**, **EntryPoint**="windows.fullTrustApplication" (equivalent to **uap10:RuntimeBehavior**="packagedClassicApp", **uap10:TrustLevel**="mediumIL")
+1. **Executable**, **EntryPoint**="windows.partialTrustApplication" (equivalent to **uap10:RuntimeBehavior**="packagedClassicApp", **uap10:TrustLevel**="appContainer")
+1. **Executable**, **EntryPoint**="\<anything else>"
+
+As you can see, if your target system doesn't support the `uap10` namespace, then you can specify the **EntryPoint** attribute instead. Similarly, the equivalent of **uap10:TrustLevel**="appContainer"` on older systems is **EntryPoint**="windows.partialTrustApplication".
+
+But it's redundant to specify both **uap10:RuntimeBehavior**/**uap10:TrustLevel** and **EntryPoint** at the same time. But if you do that, then it's an error if they contradict.
+
+Universal Windows Platform (UWP) app activations require **EntryPoint**. So if you specify **Executable** and **uap10:RuntimeBehavior**="windowsApp" (with no **EntryPoint**), then that's an error. In this same case, **EntryPoint** would specify something other than "windows.fullTrustApplication" and "windows.partialTrustApplication"; and values other than those two already say the same thing as **uap10:RuntimeBehavior**="windowsApp". So **uap10:RuntimeBehavior** would be redundant in this case, and you'd specify **Executable** and **EntryPoint**.
+
+Setting **uap10:RuntimeBehavior**="win32App" and **uap10:TrustLevel**="appContainer" isn't supported.
 
 ### Important notes about multi-instancing apps
 
@@ -117,7 +125,7 @@ Similarly, if `uap10:TrustLevel="appContainer"`, then on those older systems `En
 - Console apps will always be multi-instanced and must explicitly declare **SupportsMultipleInstances**.
 - Apps can use the **ResourceGroup** declaration in the manifest to group multiple background tasks into the same host. This conflicts with multi-instancing, where each activation goes into a separate host. Therefore, an app cannot declare both **SupportsMultipleInstances** and **ResourceGroup** in the manifest.
 
-For more information about using the **SupportsMultipleInstances** attribute to support multiple, separate instances of UWP apps, see [Create a multi-instance Universal Windows App](/windows/uwp/launch-resume/multi-instance-uwp).
+For more info about using the **SupportsMultipleInstances** attribute to support multiple, separate instances of UWP apps, see [Create a multi-instance Universal Windows App](/windows/uwp/launch-resume/multi-instance-uwp).
 
 ## Requirements
 
