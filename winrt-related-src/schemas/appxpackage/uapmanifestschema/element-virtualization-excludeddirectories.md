@@ -65,4 +65,4 @@ This element requires the **unvirtualizedResources** [restricted capability](/wi
 
 | Item | Value |
 |-|-|
-| **UAP12** | `http://schemas.microsoft.com/appx/manifest/virtualization/windows10` |
+| **virtualization** | `http://schemas.microsoft.com/appx/manifest/virtualization/windows10` |
