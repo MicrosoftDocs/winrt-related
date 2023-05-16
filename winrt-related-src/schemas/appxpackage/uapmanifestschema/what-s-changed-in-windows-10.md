@@ -21,27 +21,48 @@ The following sections list the namespaces and XML prefixes added to the package
 | desktop10           | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |
 | uap15 | `http://schemas.microsoft.com/appx/manifest/uap/windows10/15` |
 
+
+## Windows 11 - Build 22159
+### Added namespaces and XML prefixes 
+| Prefix        | Namespace | 
+|---------------|-----------|
+| desktop9           | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/9` |
+
+
 ## Windows 11 - Build 22000
 ### Added namespaces and XML prefixes 
 | Prefix        | Namespace | 
 |---------------|-----------|
+| com5     | `http://schemas.microsoft.com/appx/manifest/com/windows10/5` |
 | desktop8           | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/8` |
-| desktop9           | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/9` |
+| heap | `http://schemas.microsoft.com/appx/manifest/heap/windows10` |
 | uap13 | `http://schemas.microsoft.com/appx/manifest/uap/windows10/13` |
-| printSupport | `http://schemas.microsoft.com/appx/manifest/printsupport/windows10` |
+
 
 ## Windows 10 - Build 20348
 ### Added namespaces and XML prefixes 
 | Prefix        | Namespace | 
 |---------------|-----------|
+| com4     | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
+| deployment | `http://schemas.microsoft.com/appx/manifest/deployment/windows10` |
 | desktop7           | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |
+| uap12 | `http://schemas.microsoft.com/appx/manifest/uap/windows10/12` |
+| virtualization | `http://schemas.microsoft.com/appx/manifest/virtualization/windows10` |
 
-## Windows 10, Version 2004
+## Windows 10 - Build 19645
+### Added namespaces and XML prefixes 
+| Prefix        | Namespace | 
+|---------------|-----------|
+| uap11           | `http://schemas.microsoft.com/appx/manifest/uap/windows10/11` |
+| cloudFiles | `http://schemas.microsoft.com/appx/manifest/cloudfiles/windows10`|
+
+## Windows 10 - Build 10941, Version 2004
 ### Added namespaces and XML prefixes
 | Prefix   | Namespace |
 |----------|-----------|
 | uap10     | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
 | com3     | `http://schemas.microsoft.com/appx/manifest/com/windows10/3` |
+| printSupport | `http://schemas.microsoft.com/appx/manifest/printsupport/windows10` |
 
 ## Windows 10, Build 18362, Version 1903
 ### Added namespaces and XML prefixes
