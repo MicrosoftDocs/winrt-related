@@ -14,11 +14,21 @@ This topic lists changes to the package manifest schema reference for each versi
 
 The following sections list the namespaces and XML prefixes added to the package manifest schema in each update of Windows 10. To get the latest version of Windows 10, see [Download Windows 10](https://www.microsoft.com/software-download/windows10).
 
+## Windows 11 - Build 22621
+### Added namespaces and XML prefixes 
+| Prefix        | Namespace | 
+|---------------|-----------|
+| desktop10           | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |
+| uap15 | `http://schemas.microsoft.com/appx/manifest/uap/windows10/15` |
+
 ## Windows 11 - Build 22000
 ### Added namespaces and XML prefixes 
 | Prefix        | Namespace | 
 |---------------|-----------|
+| desktop8           | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/8` |
 | desktop9           | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/9` |
+| uap13 | `http://schemas.microsoft.com/appx/manifest/uap/windows10/13` |
+| printSupport | `http://schemas.microsoft.com/appx/manifest/printsupport/windows10` |
 
 ## Windows 10 - Build 20348
 ### Added namespaces and XML prefixes 
