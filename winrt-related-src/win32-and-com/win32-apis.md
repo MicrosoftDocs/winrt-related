@@ -1,22 +1,25 @@
 ---
-title: APIs present on all Windows 10 devices, and later (grouped by module)
-description: This topic lists the Win32 APIs that are part of the Universal Windows Platform (UWP) and that are implemented by all Windows 10 devices.
+title: APIs present on all Windows devices
+description: This topic lists the Win32 APIs that are part of the Universal Windows Platform (UWP), and that are implemented by all Windows devices.
 ms.topic: article
-keywords: windows 10, uwp, win32, COM
+keywords: windows 10, Windows 11, uwp, win32, COM
 ms.date: 05/31/2023
 ms.assetid: 9763fa67-0f32-4128-b901-013b1d7ea73c
 ---
 
-# APIs present on all Windows 10 devices, and later
+# APIs present on all Windows devices (grouped by module)
 
-> [IMPORTANT]
+> [!IMPORTANT]
+> The info in this topic applies to all versions of Windows 10, and later. We'll refer to those versions here as "Windows", calling out any exceptions where necessary.
+
+> [TIP]
 > For important background info, see [Windows API sets](/windows/win32/apiindex/windows-apisets) and [Windows umbrella libraries](/windows/win32/apiindex/windows-umbrella-libraries).
 
-This topic lists the Win32 APIs that are part of the Universal Windows Platform (UWP) and that are implemented by all Windows 10 devices, and later.
+This topic lists the Win32 APIs that are part of the Universal Windows Platform (UWP), and that are implemented by all Windows devices.
 
 For convenience, in the Microsoft Windows Software Development Kit (SDK) is an *umbrella library* named `WindowsApp.lib`. That umbrella library provides the exports for the set of Win32 APIs in question. To access those APIs in your app, link `WindowsApp.lib` (and no other libraries).
 
-This topic lists all of the APIs in `WindowsApp.lib`, grouped by module, where the module is either an API set or a dll. Linking `WindowsApp.lib` adds to your app dependencies on dlls that are present on all Windows 10 devices. For delay load or [LoadLibrary](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya), use the module name (whether the module is an API set or a dll).
+This topic lists all of the APIs in `WindowsApp.lib`, grouped by module, where the module is either an API set or a dll. Linking `WindowsApp.lib` adds to your app dependencies on dlls that are present on all Windows devices. For delay load or [LoadLibrary](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya), use the module name (whether the module is an API set or a dll).
 
 Note that an umbrella library can contain some, but not necessarily all, APIs from a given module.
 
