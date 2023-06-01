@@ -12,7 +12,7 @@ ms.assetid: 9763fa67-0f32-4128-b901-013b1d7ea73c
 > [!IMPORTANT]
 > The info in this topic applies to all versions of Windows 10, and later. We'll refer to those versions here as "Windows", calling out any exceptions where necessary.
 
-> [TIP]
+> [!TIP]
 > For important background info, see [Windows API sets](/windows/win32/apiindex/windows-apisets) and [Windows umbrella libraries](/windows/win32/apiindex/windows-umbrella-libraries).
 
 This topic lists the Win32 APIs that are part of the Universal Windows Platform (UWP), and that are implemented by all Windows devices.
