@@ -115,7 +115,7 @@ The following elements have the same name as this one, but different content or 
 
 Extensibility points are a mechanism by which an app can add functionality in a manner defined by the operating system. An example of an app extensibility point is the ability to create a file type association and enable your app to be the default handler for files with a specific file name extension.
 
-The **Extension** elements that can be included under the **Application/Extensions** element are enforced by the XML schema. Each of these **Extension** elements have a required **category** attribute that specifies one or more extension points that the extension supports. Some extension points are supported for application extensions, others are supported for package extensions. These restrictions are enforced by OS code, not by XML schema. The following table lists the extension categories supported for application extensions and the associated **Extension** element that supports each category. Individual categories can be supported for multiple extensions as a versioning mechanism.
+The **Extension** elements that can be included under the **Application/Extensions** element are enforced by the XML schema. Each of these **Extension** elements have a required **category** attribute that specifies one or more extension points that the extension supports. Some extensions support both application and package extension categories. The following table lists the extension categories supported for application extensions and the associated **Extension** element that supports each category. A category can be supported for multiple extensions as a versioning mechanism.
 
 | Extension category | Extension |
 |--------------------|-----------|
