@@ -72,32 +72,32 @@ None.
 
 | Child element | Description |
 |-|-|
-| [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-1-extension) | Declares an extensibility point for the package. |
-| [cloudFiles:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-cloudfiles-extension) | Declares an extensibility point for the package. |
-| [com2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com2-extension) | Declares an extensibility point for the package. |
-| [com4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com4-extension) | Declares an extensibility point for the package. |
-| [com:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com-extension) | Declares an extensibility point for the package. |
-| [desktop2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop2-extension) | Declares an extensibility point for the package. |
-| [desktop3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop3-extension) | Declares an extensibility point for the package. |
-| [desktop4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop4-extension) | Declares an extensibility point for the package. |
-| [desktop6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-extension) | Declares an extensibility point for the package. |
-| [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-extension) | Declares an extensibility point for the package. |
-| [desktop9:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop9-extension) | Declares an extensibility point for the package. |
-| [desktop:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop-extension) | Declares an extensibility point for the package. |
-| [mobile:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-mobile-extension-manual) | Declares an extensibility point for the package. |
-| [printSupport:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-printsupport-extension) | Declares an extensibility point for the package. |
-| [rescap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-rescap3-extension) | Declares an extensibility point for the package. |
-| [rescap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-rescap-extension) | Declares an extensibility point for the package. |
-| [uap10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap10-extension) | Declares an extensibility point for the package. |
-| [uap12:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap12-extension) | Declares an extensibility point for the package. |
-| [uap13:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap13-extension) | Declares an extensibility point for the package. |
-| [uap2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap2-extension) | Declares an extensibility point for the package. |
-| [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension-manual) | Declares an extensibility point for the package. |
-| [uap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap4-extension) | Declares an extensibility point for the package. |
-| [uap5:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap5-extension) | Declares an extensibility point for the package. |
-| [uap6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap6-extension) | Declares an extensibility point for the package. |
-| [uap7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap7-extension) | Declares an extensibility point for the package. |
-| [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) | Declares an extensibility point for the package. |
+| [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-1-extension) | Declares an extensibility point for the app. |
+| [cloudFiles:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-cloudfiles-extension) | Declares an extensibility point for the app. |
+| [com2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com2-extension) | Declares an extensibility point for the app. |
+| [com4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com4-extension) | Declares an extensibility point for the app. |
+| [com:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com-extension) | Declares an extensibility point for the app. |
+| [desktop2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop2-extension) | Declares an extensibility point for the app. |
+| [desktop3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop3-extension) | Declares an extensibility point for the app. |
+| [desktop4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop4-extension) | Declares an extensibility point for the app. |
+| [desktop6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-extension) | Declares an extensibility point for the app. |
+| [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-extension) | Declares an extensibility point for the app. |
+| [desktop9:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop9-extension) | Declares an extensibility point for the app. |
+| [desktop:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop-extension) | Declares an extensibility point for the app. |
+| [mobile:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-mobile-extension-manual) | Declares an extensibility point for the app. |
+| [printSupport:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-printsupport-extension) | Declares an extensibility point for the app. |
+| [rescap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-rescap3-extension) | Declares an extensibility point for the app. |
+| [rescap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-rescap-extension) | Declares an extensibility point for the app. |
+| [uap10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap10-extension) | Declares an extensibility point for the app. |
+| [uap12:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap12-extension) | Declares an extensibility point for the app. |
+| [uap13:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap13-extension) | Declares an extensibility point for the app. |
+| [uap2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap2-extension) | Declares an extensibility point for the app. |
+| [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension-manual) | Declares an extensibility point for the app. |
+| [uap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap4-extension) | Declares an extensibility point for the app. |
+| [uap5:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap5-extension) | Declares an extensibility point for the app. |
+| [uap6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap6-extension) | Declares an extensibility point for the app. |
+| [uap7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap7-extension) | Declares an extensibility point for the app. |
+| [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) | Declares an extensibility point for the app. |
 
 ### Parent elements
 
