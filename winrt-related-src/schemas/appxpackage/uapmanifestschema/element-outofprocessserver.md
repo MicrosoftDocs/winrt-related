@@ -5,7 +5,7 @@ title: OutOfProcessServer (Windows 10)
 ms.assetid: 575ad44f-e0e3-4682-a082-8d8184bd8dd4
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
-ms.date: 04/05/2017
+ms.date: 06/07/2023
 ---
 
 # OutOfProcessServer (Windows 10)
@@ -26,7 +26,7 @@ Declares a package extension point of type **windows.activatableClass.outOfProce
 
 ```xml
 <OutOfProcessServer
-  ServerName = 'An alphanumeric string with a value between 1 and 255 characters in length. Must begin with a letter.' 
+  ServerName = 'An alphanumeric string (dots are allowed) with a value between 1 and 255 characters in length. Must begin with a letter.' 
   RunFullTrust = 'An optional boolean value.'
   IdentityType = 'An optional string that can be one of the following values: "activateAsPackage" or "activateAsActivator".' >
 
@@ -50,7 +50,7 @@ Declares a package extension point of type **windows.activatableClass.outOfProce
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **ServerName** | The name of the executable. | An alphanumeric string with a value between 1 and 255 characters in length. Must begin with a letter. | Yes |  |
+| **ServerName** | The name of the executable, or an arbitrary opaque identifier. See the Remarks section. | An alphanumeric string (dots are allowed) with a value between 1 and 255 characters in length. Must begin with a letter. | Yes |  |
 | **RunFullTrust** | If true, the server will be launched with a Windows Desktop Bridge token, as opposed to a UWP token. | An optional boolean value. | No |  |
 | **IdentityType** | The activation type of the server. | An optional string that can be one of the following values: *activateAsPackage* or *activateAsActivator*. | No |  |
 
@@ -61,7 +61,7 @@ Declares a package extension point of type **windows.activatableClass.outOfProce
 | [ActivatableClass (type: CT_OutOfProcessActivatableClass)](element-1-activatableclass.md) | Declares a runtime class associated with the extensibility point. |
 | [Arguments](element-arguments.md) | Specifies the list of comma-separated arguments to pass to the executable. |
 | [Instancing](element-instancing.md) | Specifies whether the executable runs as a single instance or can run as multiple instances. |
-| [Path (type: ST_Executable)](element-1-path.md) | The path to the executable. |
+| [Path (type: ST_Executable)](element-1-path.md) | The default executable for the extension. |
 
 ### Parent elements
 
@@ -72,6 +72,8 @@ Declares a package extension point of type **windows.activatableClass.outOfProce
 ## Remarks
 
 If the `IdentityType` is set to `activateAsPackage`, the server will be launched with a token that doesn't vary based on the activating process's token.
+
+`ServerName` can be any arbitrary opaque identifier, or primary key. It can, but doesn't need to, correspond to the name of the exectable (or anything else). It does need to be unique within its scope (that is, per-package for external types; per-OS for OS types).
 
 ## Examples
 
