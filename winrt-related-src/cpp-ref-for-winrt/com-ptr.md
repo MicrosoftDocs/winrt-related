@@ -2,7 +2,7 @@
 description: A reference-counted COM smart pointer template.
 title: winrt::com_ptr struct template (C++/WinRT)
 dev_langs: ["C++"]
-ms.date: 04/10/2018
+ms.date: 06/09/2023
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, com, smart, pointer
 ms.workload: ["cplusplus"]
@@ -81,10 +81,13 @@ The interface, or runtime class implementation type, a pointer to which is repre
 ## com_ptr::com_ptr constructor
 Initializes a new instance of the **com_ptr** struct, optionally with a copy or move of the input data.
 
+The `void*` constructor takes a T*, and assumes ownership. **winrt::take_ownership_from_abi_t** is a marker type that makes explicit *the responsibility to release this pointer is now being transferred to the com_ptr*. The refcount doesn't have to be exactly 1; it's just saying that responsibility is being transferred.
+
 ### Syntax
 ```cppwinrt
 com_ptr(winrt::com_ptr const& other) noexcept;
 com_ptr(std::nullptr_t = nullptr) noexcept;
+com_ptr(void* ptr, winrt::take_ownership_from_abi_t) noexcept;
 template <typename U> com_ptr(winrt::com_ptr<U> const& other) noexcept;
 template <typename U> com_ptr(winrt::com_ptr<U>&& other) noexcept;
 ```
