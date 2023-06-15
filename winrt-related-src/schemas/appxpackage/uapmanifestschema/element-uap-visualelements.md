@@ -51,6 +51,7 @@ Describes the visual aspects of the app: its default tile, logo images, text and
 
 ### Attributes
 
+
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
 | **DisplayName** | A friendly name for the app that can be displayed to users. This string is localizable; see [Remarks](#remarks) for details. | A string with a value between 1 and 256 characters. This string is localizable. | Yes |  |
@@ -58,7 +59,7 @@ Describes the visual aspects of the app: its default tile, logo images, text and
 | **BackgroundColor** | Specifies the background color of the app tile. See the [Remarks](#remarks) section for color names. | Yes |  |
 | **Square150x150Logo** | An image used as the app's Start Screen medium tile, and on the Task Switcher. For more info about how to specify the image in this attribute, see [Remarks](#remarks). | A string between 1 and 256 characters in length that ends with `.jpg`, `.png`, or `.jpeg` that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. In this string, the `/` and `\` characters cannot be the first or last characters. Also, the string can contain `/` or `\` but not both. | Yes |  |
 | **Square44x44Logo** | An image used as the app's Start Screen small tile, and on the All Apps List. For more info about how to specify the image in this attribute, see [Remarks](#remarks). | A string between 1 and 256 characters in length that ends with `.jpg`, `.png`, or `.jpeg` that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. In this string, the `/` and `\` characters cannot be the first or last characters. Also, the string can contain `/` or `\` but not both. | Yes |  |
-| **AppListEntry** | The entry in the All Apps List. | An optional string that can have one of the following values: "default" or "none". | No | *default* |
+| **AppListEntry** | The entry in the All Apps List. Select none for entry points that do not need start menu tiles. | An optional string that can have one of the following values: "default" or "none". | No | *default* |
 
 > [!NOTE]
 > The background color specified here also applies to these items:
@@ -85,6 +86,7 @@ Describes the visual aspects of the app: its default tile, logo images, text and
 | Parent element | Description |
 |-|-|
 | [Application](element-application.md) | Represents an app that comprises part of or all of the functionality delivered in the package. |
+
 
 ## Remarks
 
