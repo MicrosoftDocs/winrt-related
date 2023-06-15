@@ -18,8 +18,6 @@ Indicates whether the package is a framework package; that is, a package that ca
 [\<Package\>](element-package.md)<br/>
 &nbsp;[\<Properties\>](element-properties.md)<br/>
 &nbsp;&nbsp;**\<Framework\>**
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<Framework\>**
 
 ## Syntax
 
