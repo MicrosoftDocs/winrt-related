@@ -14,11 +14,10 @@ Indicates whether the package is a framework package; that is, a package that ca
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<Framework\>**
+[\<Package\>](element-package.md)<br/>
+&nbsp;[\<Properties\>](element-properties.md)<br/>
+&nbsp;&nbsp;**\<Framework\>**
 
 ## Syntax
 
@@ -46,6 +45,7 @@ None.
 
 > [!NOTE]
 > You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely `|` and `all`, due to which Windows fails to create the AppContainer profile for the package. Use this reference for [troubleshooting](/windows/win32/appxpkg/troubleshooting) if you get an error.
+
 
 ## Remarks
 
