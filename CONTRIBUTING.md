@@ -19,7 +19,7 @@ If you'd like to suggest a change to the docs, follow these steps:
 
 After you create the pull request, a member of the Windows docs team will review your changes and provide any feedback as needed.
 
-**Note:** If you're a Microsoft employee, please see https://review.docs.microsoft.com/en-us/windows-authoring-guide/uwp/winrt-api/?branch=master.
+**Note:** If you're a Microsoft employee, see [Writing UWP/WinRT API reference](https://review.learn.microsoft.com/windows-authoring-guide/uwp/winrt-api/?branch=main).
 
 ## Making more substantial changes
 

@@ -1,67 +1,62 @@
 ---
-
 title: com2:ProxyStubDll (in Package/Extensions)
 description: Specifies the path and processor architecture of a ProxyStub DLL (in Package/Extensions).
-
 ms.date: 10/10/2017
 ms.topic: reference
-
-
 keywords: windows 10, uwp, schema, manifest, com
 ---
 
-
 # com2:ProxyStubDll (in Package/Extensions)
 
-## Description
 Specifies the path and processor architecture of a ProxyStub DLL.
 
-## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extension.md">&lt;Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-package-cominterface.md">&lt;ComInterface&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-package-proxystub.md">&lt;com:ProxyStub&gt;</a></dt>
-<dd><b>&lt;com2:ProxyStubDll&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+## Element hierarchy
 
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extension\>](element-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<ComInterface\>](element-com-package-cominterface.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:Extension\>](element-com-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:ComInterface\>](element-com-cominterface.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:ProxyStub\>](element-com-package-proxystub.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com2:ProxyStubDll\>**
 
 ## Syntax
-```syntax
-<com2:ProxyStubDll Path                  = A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.
-                   ProcessorArchitecture = A string value, one of the following: x86 or x64 >
+
+```xml
+<com2:ProxyStubDll
+  Path = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
+  ProcessorArchitecture = 'A string that can have one of the following value: "x86", "x64", "arm", "arm64", or "x86a64".' />
 ```
 
-## Key
-`?`    optional (zero or one)  
+## Attributes and elements
 
-## Attributes
+### Attributes
 
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| Path | A relative path to the .dll file in the app package. | A string between 1 and 256 characters in length that cannot contain these characters: &lt;, &gt;, :, ", &#124;, ?, or *. | Yes |
-| ProcessorArchitecture | The processor architecture of the ProxyStub registration. | A string value, one of the following: x86 or x64 | No |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Path** | A relative path to the .dll file in the app package. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
+| **ProcessorArchitecture** | The processor architecture of the ProxyStub registration. | A string that can have one of the following value: *x86*, *x64*, *arm*, *arm64*, or *x86a64*. | No |  |
 
-## Examples
+### Child elements
+
+None.
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [com:ProxyStub](element-com-package-proxystub.md) | Registers a proxy stub. |
 
 ## Requirements
-|               |  Value                                                           |
-|---------------|-------------------------------------------------------------|
+
+|   | Value  |
+|--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/2` |

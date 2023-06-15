@@ -1,77 +1,66 @@
 ---
-
 title: uap5:SupportedContentTypes
 description: Contains the media/content types supported by the media source.
-
 ms.date: 10/10/2017
 ms.topic: reference
-
-
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 
 # uap5:SupportedContentTypes
 
-## Description
 Contains the media/content types supported by the media source.
 
-## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap5-extension.md">&lt;uap5:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap5-mediasource.md">&lt;uap5:MediaSource&gt;</a></dt>
-<dd><b>&lt;uap5:SupportedContentTypes&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+## Element hierarchy
+
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap5:Extension\>](element-uap5-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap5:MediaSource\>](element-uap5-mediasource.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap5:SupportedContentTypes\>**
 
 ## Syntax
-```syntax
-<uap5:SupportedContentTypes>   
+
+```xml
+<uap5:SupportedContentTypes>
+
   <!-- Child elements -->
   uap5:ContentType{0,1000}
+
 </uap5:SupportedContentTypes>
 ```
 
 ### Key
+
 `{}` specific range of occurrences
 
-## Attributes and Elements
+## Attributes and elements
 
 ### Attributes
+
 None
 
+### Child elements
 
-### Child Elements
-
-| Child Element | Description |
-|---------------|-------------|
+| Child element | Description |
+|-|-|
 | [ContentType](element-uap5-contenttype.md) | Specifies the media/content type supported by the media source. |
 
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [uap5:MediaSource](element-uap5-mediasource.md) | Specifies the media source and the app service that it exposes. |
 
 ## Requirements
 
-|               | Value                                                       |
-|---------------|-------------------------------------------------------------|
+| Item | Value |
+|--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |

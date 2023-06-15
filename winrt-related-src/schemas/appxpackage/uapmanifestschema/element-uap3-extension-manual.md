@@ -3,231 +3,123 @@ description: Declares an extensibility point for the app (uap3:Extension).
 Search.Product: eADQiWindows 10XVcnh
 title: uap3:Extension (Windows 10)
 ms.assetid: ed8f9296-0771-48ab-aecf-cca642e830c1
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 04/05/2017
 ---
 
 # uap3:Extension (Windows 10)
 
-
 Declares an extensibility point for the app.
 
-## Element hierarchy
+[\<Package\>](element-package.md)
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd><b>&lt;uap3:Extension&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**<\uap3:Extension\>**
 
 ## Syntax
 
+```xml
+<uap3:Extension
+    Category = 'A string that can be one of the following values: "windows.appointmentDataProvider", "windows.emailDataProvider", "windows.contactDataProvider", "windows.appUriHandler", "windows.appExtensionHost", "windows.appExtension", "windows.protocol", "windows.fileTypeAssociation".' |
+    Executable = 'A string with an optional value between 1 and 256 characters in length, that must end with ".exe", and cannot contain the following characters: <, >, :, ", |, ?, or *. Specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If the EntryPoint property is not specified, the EntryPoint defined for the app is used.'
+    EntryPoint = 'A string with an optional value between 1 and 256 characters in length. Represents the task handling the extension (normally the fully namespace-qualified name of a Windows Runtime type). If EntryPoint is not specified, the EntryPoint defined for the app is used instead.'
+    RuntimeType = 'A string with an optional value between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *.'
+    StartPage = 'A string with an optional value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
+    ResourceGroup = 'An alphanumeric string with an optional value between 1 and 255 characters in length. Must begin with a letter.'
+    uap10:TrustLevel = 'An optional string value. If specified, it must be either "appContainer" or "mediumIL".'
+    uap10:RuntimeBehavior  = 'An optional string value. If specified, it must be one of the following values:  "windowsApp", "packagedClassicApp", or "win32App".'
+    uap10:HostId = 'An alphanumeric string with an optional value between 1 and 255 characters in length. Must begin with an letter.'
+    uap10:Parameters = 'A string with an optional value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.' 
+    uap11:Id = 'An optional string with a value between 1 and 255 characters in length with a non-whitespace character at its beginning and end.'
+    uap11:Subsystem = 'An optional string that can have one of the following values: "console" or "windows".'
+    uap11:SupportsMultipleInstances = 'An optional boolean value.'
+    uap11:ResourceGroup = 'An optional alphanumeric string with a value between 1 and 255 characters in length. Must begin with a letter.'
+    uap11:CurrentDirectoryPath = 'An optional string that cannot contain these characters: <, >, |, ?, or *. >'
+    uap11:Parameters = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+    desktop7:CompatMode = 'An optional string the can have one of the following values: "classic" or "modern".'
+    desktop7:Scope = 'An optional string that can have one of the following values: "machine" or "user".'>
 
-```
-<uap3:Extension Category       = "windows.appointmentDataProvider" | 
-                                 "windows.emailDataProvider" | 
-                                 "windows.contactDataProvider" | 
-                                 "windows.appUriHandler" | 
-                                 "windows.appExtensionHost" | 
-                                 "windows.appExtension"
-                Executable?    = A string between 1 and 256 characters in length that must 
-                                 end with ".exe" and cannot contain these characters: <, >, 
-                                 :, ", |, ?, or *. It specifies the default executable for 
-                                 the extension. If not specified, the executable defined 
-                                 for the app is used.  If specified, the EntryPoint 
-                                 property is also used. If that EntryPoint property isn&#39;t 
-                                 specified, the EntryPoint defined for the app is used.
-                EntryPoint?    = A string between 1 and 256 characters in length, 
-                                 representing the  task handling the extension. This is 
-                                 normally the fully namespace-qualified name of a 
-                                 Windows Runtime type. If EntryPoint is not specified, 
-                                 the EntryPoint defined for the app is used instead.
-                RuntimeType?   = A string between 1 and 255 characters in length that 
-                                 cannot start or end with a period or contain these 
-                                 characters: <, >, :, ", /, \, |, ?, or *.
-                StartPage?     = A string between 1 and 256 characters in length that 
-                                 cannot contain these characters: <, >, :, ", |, ?, or *.
-                ResourceGroup? = An alphanumeric string between 1 and 255 characters in 
-                                 length. Must begin with an alphabetic character. .
-                uap10:TrustLevel?       = String value. Can be one of the following: "appContainer", "mediumIL".
-                uap10:RuntimeBehavior?  = String value. Can be one of the following: "windowsApp", "packagedClassicApp", "win32App".
-                uap10:HostId?           = An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.
-                uap10:Parameters?       = A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. >
-  <!-- Child elements -->
-  ( uap3:appointmentDataProvider
-  | uap3:emailDataProvider
-  | uap3:contactDataProvider
-  | uap3:appUriHandler
-  | uap3:appExecutionAlias
-  )?
+    <!-- Child elements -->
+    uap3:appointmentDataProvider?
+    uap3:emailDataProvider?
+    uap3:contactDataProvider?
+    uap3:appUriHandler?
+    uap3:appService?
+    uap3:appExecutionAlias?
+    uap3:fileTypeAssociations?
 
 </uap3:Extension>
 ```
 
-**Key**
+### Key
 
-          ? optional (zero or one)
+`?`  optional (zero or one)
 
-## Attributes and Elements
+## Attributes and elements
 
+### Attributes
 
-**Attributes**
+| Attribute | Description | Data Type | Required | Default value |
+|-|-|-|-|-|
+| **Category** | The type of package extensibility point. | A string that can have one of the following values: *windows.appointmentDataProvider*, *windows.emailDataProvider*, *windows.contactDataProvider*, *windows.appUriHandler*, *windows.appExtensionHost*, *windows.appExtension*, *windows.protocol*, *windows.fileTypeAssociation*. | Yes |  |
+| **EntryPoint** | The activatable class ID. | A string with a value between 1 and 256 characters in length. Represents the task handling the extension (normally the fully namespace-qualified name of a Windows Runtime type). If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |  |
+| **Executable** | The default launch executable. | A string with a value between 1 and 256 characters in length, that must end with `.exe`, and cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. Specifies the default executable for the extension. If not specified, the executable defined for the app is used. If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | No |  |
+| **RuntimeType** | The runtime provider. Typically used when there are mixted frameworks in an app. | A string with a value between 1 and 255 characters in length that cannot start or end with a `.` or contain there characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |  |
+| **StartPage** | The web page that handles the extensibility point. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |  |
+| **ResourceGroup** | An optional tag used to group extension activations together for resource management purposes (for example, CPU and memory). See the **Remarks** section in *[Application@ResourceGroup](element-application.md)*. | An alphanumeric string between 1 and 255 characters in length. Must begin with a letter. | No |  |
+| **uap10:TrustLevel** | Specifies the trust level of the extension. | An optional string value. If specified, it can be one of the following values: *appContainer* or *mediumIL*. | No |  |
+| **uap10:RuntimeBehavior** | Specifies the runtime behavior of an extension. | An optional string value. If specified, it can be one of the following values: *windowsApp*, *packagedClassicApp*, or *win32App*. | No |  |
+| **uap10:HostId** | Specifies the app ID of the host app for the extension. | An alphanumeric string with an optional value between 1 and 255 characters in length. Must begin with a letter. | No |  |
+| **uap10:Parameters** | Contains command line parameters to pass to the extension. Only supported for desktop apps that have a package identity. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **uap11:Id** | An identifier for the extension. | An optional string with a value between 1 and 255 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **uap11:Subsystem** | This attribute is inherited from the base extension syntax and is not applicable to the com4 extension. Other than syntactic validation, this value is ignored.  | An optional string that can have one of the following values: *console* or *windows*. | No |  |
+| **uap11:SupportsMultipleInstances** | Specifies whether instances should run in different job object and process. The default value is false. | An optional boolean value. | No |  |
+| **uap11:ResourceGroup** | A tag that you can use to group extension activations together for resource management purposes (for example, CPU and memory). The value you can set ResourceGroup is free-form and flexible. See [Application@ResourceGroup](element-application.md).  | An optional alphanumeric string with a value between 1 and 255 characters in length. Must begin with a letter. | No |  |
+| **uap11:CurrentDirectoryPath** | Specifies the initial directory when the application process is launched.  | An optional string that cannot contain these characters: `<`, `>`, `|`, `?`, or `*`. > | No |  |
+| **uap11:Parameters** | This attribute is inherited from the base extension syntax and is not applicable to the com4 extension. Other than syntactic validation, this value is ignored. | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **desktop7:CompatMode** | Specifies whether the registrations in this extension are only visible to other applications via COM activation and other COM/OLE APIs (modern), or whether they should also be written to the registry in the classic format (classic). The default value is "modern". For more information, see the Remarks section. | An optional string the can have one of the following values: *classic* or *modern*. | No |  |
+| **desktop7:Scope** | Specifies whether the registrations are only visible to other applications running as a user who has this package registered (user), or whether they are visible to all users and services on the machine (machine). The default value is "user". For more information, see the Remarks section. | An optional string that can have one of the following values: *machine* or *user*. | No |  |
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-<th>Data type</th>
-<th>Required</th>
-<th>Default value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Category</strong></td>
-<td>The type of app extensibility point.</td>
-<td><p>This attribute can have one of the following values:</p>
-<ul>
-<li>windows.appointmentDataProvider</li>
-<li>windows.emailDataProvider</li>
-<li>windows.contactDataProvider</li>
-<li>windows.appUriHandler</li>
-<li>windows.appExtensionHost</li>
-<li>windows.appExtension</li>
-<li>windows.app.ExecutionAlias</li>
-</ul></td>
-<td>Yes</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>EntryPoint</strong></td>
-<td>The activatable class ID.</td>
-<td>A string between 1 and 256 characters in length, representing the task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead.</td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>Executable</strong></td>
-<td>The default launch executable.</td>
-<td>A string between 1 and 256 characters in length that must end with &quot;.exe&quot; and cannot contain these characters: &lt;, &gt;, :, &quot;, |, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used. If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used.</td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>ResourceGroup</strong></td>
-<td>A tag that you can use to group extension activations together for resource management purposes (for example, CPU and memory). The value you can set ResourceGroup is free-form and flexible. See <a href="element-application.md"><strong>Application@ResourceGroup</strong></a> .</td>
-<td>An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.</td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>RuntimeType</strong></td>
-<td>The runtime provider. This attribute is used typically when there are mixed frameworks in an app.</td>
-<td>A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: &lt;, &gt;, :, &quot;, /, \, |, ?, or *.</td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>StartPage</strong></td>
-<td>The web page that handles the extensibility point.</td>
-<td>A string between 1 and 256 characters in length that cannot contain these characters: &lt;, &gt;, :, &quot;, |, ?, or *.</td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>uap10:TrustLevel</strong></td>
-<td><p>Specifies the trust level of the extension.</p></td>
-<td>String value. Can be one of the following: "appContainer", "mediumIL". </td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>uap10:RuntimeBehavior</strong></td>
-<td><p>Specifies the run time behavior of the extension.</p></td>
-<td>String value. Can be one of the following: "windowsApp", "packagedClassicApp", "win32App". </td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>uap10:HostId</strong></td>
-<td><p>This value specifies the app ID of the host app for the extension.</p></td>
-<td>An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.</td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>uap10:Parameters</strong></td>
-<td><p>Contains command line parameters to pass to the extension. Only supported for desktop apps that have package identity.</p></td>
-<td>A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. </td>
-<td>No</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+### Child elements
+
+| Child element | Description |
+|-|-|
+| [uap3:AppointmentDataProvider](element-uap3-appointmentdataprovider-manual.md) | Declares an app extensibility point of type *windows.appointmentDataProvider*. |
+| [uap3:EmailDataProvider](element-uap3-emaildataprovider-manual.md) | Declares an app extensibility point of type *windows.emailDataProvider*. |
+| [uap3:ContactDataProvider](element-uap3-contactdataprovider-manual.md) | Declares an app extensibility point of type *windows.contactDataProvider*. |
+| [uap3:AppUriHandler](element-uap3-appurihandler-manual.md) | Declares an app extensibility point of type *windows.appUriHandler*. |
+| [uap3:AppExtensionHost](element-uap3-appextensionhost-manual.md) | Declares an app extensibility point of type *windows.appExtensionHost*. |
+| [uap3:AppExtension](element-uap3-appextension-manual.md) | Declares an app extensibility point of type *windows.appExtension*. |
+| [uap3:AppService](element-uap3-appservice-manual.md) | Declares an app extensibility point of type *windows.appExtension*. |
+| [uap3:AppExeuctionAlias](element-uap3-appexecutionalias.md) | Declares an app extensibility point of type *windows.appExecutionAlias*. |
+| [uap3:Protocol](element-uap3-protocol.md) | Declares an app extensibility point of type *windows.protocol*. |
+| [uap3:FileTypeAssociations](element-uap3-filetypeassociations.md) | Declares an app extensibility point of type *windows.fileTypeAssociations*. |
 
 
-**Child Elements**
+### Parent elements
 
-| Child Element                                                                       | Description                                                                      |
-|-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
-| [**uap3:AppointmentDataProvider**](element-uap3-appointmentdataprovider-manual.md) | Declares an app extensibility point of type **windows.appointmentDataProvider**. |
-| [**uap3:EmailDataProvider**](element-uap3-emaildataprovider-manual.md)             | Declares an app extensibility point of type **windows.emailDataProvider**.       |
-| [**uap3:ContactDataProvider**](element-uap3-contactdataprovider-manual.md)         | Declares an app extensibility point of type **windows.contactDataProvider**.     |
-| [**uap3:AppUriHandler**](element-uap3-appurihandler-manual.md)                     | Declares an app extensibility point of type **windows.appUriHandler**.           |
-| [**uap3:AppExtensionHost**](element-uap3-appextensionhost-manual.md)               | Declares an app extensibility point of type **windows.appExtensionHost**.        |
-| [**uap3:AppExtension**](element-uap3-appextension-manual.md)                       | Declares an app extensibility point of type **windows.appExtension**.            |
-| [**uap3:AppExeuctionAlias**](element-uap3-appexecutionalias.md)                       | Declares an app extensibility point of type **windows.appExecutionAlias**.            |
-
- 
-
-**Parent Elements**
-
-| Parent Element                                                               | Description                                           |
-|------------------------------------------------------------------------------|-------------------------------------------------------|
-| [**Extensions (type: CT_ApplicationExtensions)**](element-1-extensions.md) | Defines one or more extensibility points for the app. |
-
- 
+| Parent element | Description |
+|-|-|
+| [Extensions (type: CT_ApplicationExtensions)](element-1-extensions.md) | Defines one or more extensibility points for the app. |
 
 ## Examples
 
-
-```XML
-<Package ...
-         xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3"  
-         IgnorableNamespaces="... uap3">
+```xml
+<Package
+    xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3"  
+    IgnorableNamespaces="... uap3">
     <Applications>
         <Application>
             <Extensions>
-                <uap3:Extension Category="windows.appointmentDataProvider" 
-                                EntryPoint="UserDataProvider.AppointmentDataProviderTask">  
-                    <uap3:AppointmentDataProvider ServerName="MyDataProvider.PPLE" />  
+                <uap3:Extension
+                    Category="windows.appointmentDataProvider" 
+                    EntryPoint="UserDataProvider.AppointmentDataProviderTask">  
+                    <uap3:AppointmentDataProvider
+                        ServerName="MyDataProvider.PPLE" />  
                 </uap3:Extension>  
             </Extensions>
         </Application>
@@ -237,16 +129,7 @@ Declares an extensibility point for the app.
 
 ## Requirements
 
-
-|               | Value                                                       |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3`<br/><br/>`http://schemas.microsoft.com/appx/manifest/uap/windows10/10` (for the **uap10** attributes) |
-
- 
-
- 
-
- 
-
-
-
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
+| **uap10** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |

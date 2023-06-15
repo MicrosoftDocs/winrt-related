@@ -111,8 +111,8 @@ Initializes a new instance of the **hstring** struct with a copy of the input st
 hstring() noexcept;
 hstring(winrt::hstring const& h);
 explicit hstring(std::wstring_view const& v);
-hstring(std::wchar_t const* c);
-hstring(std::wchar_t const* c, uint32_t s);
+hstring(wchar_t const* c);
+hstring(wchar_t const* c, uint32_t s);
 ```
 
 ### Parameters
@@ -173,7 +173,7 @@ Returns a const iterator to the first character in the **hstring** object. See [
 
 ### Syntax
 ```cppwinrt
-std::wchar_t const* begin() const noexcept;
+wchar_t const* begin() const noexcept;
 ```
 
 ### Return value
@@ -207,7 +207,7 @@ Returns a const iterator to the first character in the **hstring** object. See [
 
 ### Syntax
 ```cppwinrt
-std::wchar_t const* cbegin() const noexcept;
+wchar_t const* cbegin() const noexcept;
 ```
 
 ### Return value 
@@ -218,7 +218,7 @@ Returns a const iterator to one beyond the end of (one beyond the last character
 
 ### Syntax
 ```cppwinrt
-std::wchar_t const* cend() const noexcept;
+wchar_t const* cend() const noexcept;
 ```
 
 ### Return value 
@@ -237,7 +237,7 @@ Returns a const reverse iterator to one beyond the end of (one beyond the last c
 
 ### Syntax
 ```cppwinrt
-std::reverse_iterator<std::wchar_t const*> crbegin() const noexcept;
+std::reverse_iterator<wchar_t const*> crbegin() const noexcept;
 ```
 
 ### Return value 
@@ -248,7 +248,7 @@ Returns a const reverse iterator to the first character in the **hstring** objec
 
 ### Syntax
 ```cppwinrt
-std::reverse_iterator<std::wchar_t const*> crend() const noexcept;
+std::reverse_iterator<wchar_t const*> crend() const noexcept;
 ```
 
 ### Return value 
@@ -259,7 +259,7 @@ Returns a null-terminated C-style string version of the characters in the **hstr
 
 ### Syntax
 ```cppwinrt
-std::wchar_t const* data() const noexcept;
+wchar_t const* data() const noexcept;
 ```
 
 ### Return value 
@@ -293,7 +293,7 @@ Returns a const iterator to one beyond the end of (one beyond the last character
 
 ### Syntax
 ```cppwinrt
-std::wchar_t const* end() const noexcept;
+wchar_t const* end() const noexcept;
 ```
 
 ### Return value
@@ -304,7 +304,7 @@ Returns a reference to the first character in the **hstring** object.
 
 ### Syntax
 ```cppwinrt
-std::wchar_t const& front() const noexcept;
+wchar_t const& front() const noexcept;
 ```
 
 ### Return value
@@ -338,7 +338,7 @@ Returns a reference to the character at the specified position within the **hstr
 
 ### Syntax
 ```cppwinrt
-std::wchar_t const& operator[](uint32_t pos) const noexcept;
+wchar_t const& operator[](uint32_t pos) const noexcept;
 ```
 
 ### Parameters
@@ -372,7 +372,7 @@ Returns a const reverse iterator to one beyond the end of (one beyond the last c
 
 ### Syntax
 ```cppwinrt
-std::reverse_iterator<std::wchar_t const*> rbegin() const noexcept;
+std::reverse_iterator<wchar_t const*> rbegin() const noexcept;
 ```
 
 ### Return value
@@ -383,7 +383,7 @@ Returns a const reverse iterator to the first character in the **hstring** objec
 
 ### Syntax
 ```cppwinrt
-std::reverse_iterator<std::wchar_t const*> rend() const noexcept;
+std::reverse_iterator<wchar_t const*> rend() const noexcept;
 ```
 
 ### Return value
@@ -468,9 +468,9 @@ Returns a value indicating whether the two parameters are unequal to one another
 ```cppwinrt
 inline bool operator!=(winrt::hstring const& hLeft, winrt::hstring const& hRight) noexcept;
 inline bool operator!=(winrt::hstring const& hLeft, std::wstring const& wRight) noexcept;
-inline bool operator!=(winrt::hstring const& hLeft, std::wchar_t const* cRight) noexcept;
+inline bool operator!=(winrt::hstring const& hLeft, wchar_t const* cRight) noexcept;
 inline bool operator!=(std::wstring const& wLeft, winrt::hstring const& hRight) noexcept;
-inline bool operator!=(std::wchar_t const* cLeft, winrt::hstring const& hRight) noexcept;
+inline bool operator!=(wchar_t const* cLeft, winrt::hstring const& hRight) noexcept;
 ```
 
 ### Parameters
@@ -494,12 +494,12 @@ Returns a new **hstring** object resulting from concatenating the two parameters
 inline hstring operator+(winrt::hstring const& hLeft, winrt::hstring const& hRight);
 inline hstring operator+(winrt::hstring const& hLeft, std::wstring const& wRight);
 inline hstring operator+(winrt::hstring const& hLeft, std::wstring_view const& vRight);
-inline hstring operator+(winrt::hstring const& hLeft, std::wchar_t const* cRight);
-inline hstring operator+(winrt::hstring const& hLeft, std::wchar_t scRight);
+inline hstring operator+(winrt::hstring const& hLeft, wchar_t const* cRight);
+inline hstring operator+(winrt::hstring const& hLeft, wchar_t scRight);
 inline hstring operator+(std::wstring const& wLeft, winrt::hstring const& hRight);
 inline hstring operator+(std::wstring_view const& vLeft, winrt::hstring const& hRight);
-inline hstring operator+(std::wchar_t const* cLeft, winrt::hstring const& hRight);
-inline hstring operator+(std::wchar_t scLeft, winrt::hstring const& hRight);
+inline hstring operator+(wchar_t const* cLeft, winrt::hstring const& hRight);
+inline hstring operator+(wchar_t scLeft, winrt::hstring const& hRight);
 ```
 
 ### Parameters
@@ -528,9 +528,9 @@ Returns a value indicating whether the first parameter is less than the second p
 ```cppwinrt
 inline bool operator<(winrt::hstring const& hLeft, winrt::hstring const& hRight) noexcept;
 inline bool operator<(winrt::hstring const& hLeft, std::wstring const& wRight) noexcept;
-inline bool operator<(winrt::hstring const& hLeft, std::wchar_t const* cRight) noexcept;
+inline bool operator<(winrt::hstring const& hLeft, wchar_t const* cRight) noexcept;
 inline bool operator<(std::wstring const& wLeft, winrt::hstring const& hRight) noexcept;
-inline bool operator<(std::wchar_t const* cLeft, winrt::hstring const& hRight) noexcept;
+inline bool operator<(wchar_t const* cLeft, winrt::hstring const& hRight) noexcept;
 ```
 
 ### Parameters
@@ -553,9 +553,9 @@ Returns a value indicating whether the first parameter is less than or equal to 
 ```cppwinrt
 inline bool operator<=(winrt::hstring const& hLeft, winrt::hstring const& hRight) noexcept;
 inline bool operator<=(winrt::hstring const& hLeft, std::wstring const& wRight) noexcept;
-inline bool operator<=(winrt::hstring const& hLeft, std::wchar_t const* cRight) noexcept;
+inline bool operator<=(winrt::hstring const& hLeft, wchar_t const* cRight) noexcept;
 inline bool operator<=(std::wstring const& wLeft, winrt::hstring const& hRight) noexcept;
-inline bool operator<=(std::wchar_t const* cLeft, winrt::hstring const& hRight) noexcept;
+inline bool operator<=(wchar_t const* cLeft, winrt::hstring const& hRight) noexcept;
 ```
 
 ### Parameters
@@ -578,9 +578,9 @@ Returns a value indicating whether the two parameters are equal to one another.
 ```cppwinrt
 inline bool operator==(winrt::hstring const& hLeft, winrt::hstring const& hRight) noexcept;
 inline bool operator==(winrt::hstring const& hLeft, std::wstring const& wRight) noexcept;
-inline bool operator==(winrt::hstring const& hLeft, std::wchar_t const* cRight) noexcept;
+inline bool operator==(winrt::hstring const& hLeft, wchar_t const* cRight) noexcept;
 inline bool operator==(std::wstring const& wLeft, winrt::hstring const& hRight) noexcept;
-inline bool operator==(std::wchar_t const* cLeft, winrt::hstring const& hRight) noexcept;
+inline bool operator==(wchar_t const* cLeft, winrt::hstring const& hRight) noexcept;
 ```
 
 ### Parameters
@@ -603,9 +603,9 @@ Returns a value indicating whether the first parameter is greater than the secon
 ```cppwinrt
 inline bool operator>(winrt::hstring const& hLeft, winrt::hstring const& hRight) noexcept;
 inline bool operator>(winrt::hstring const& hLeft, std::wstring const& wRight) noexcept;
-inline bool operator>(winrt::hstring const& hLeft, std::wchar_t const* cRight) noexcept;
+inline bool operator>(winrt::hstring const& hLeft, wchar_t const* cRight) noexcept;
 inline bool operator>(std::wstring const& wLeft, winrt::hstring const& hRight) noexcept;
-inline bool operator>(std::wchar_t const* cLeft, winrt::hstring const& hRight) noexcept;
+inline bool operator>(wchar_t const* cLeft, winrt::hstring const& hRight) noexcept;
 ```
 
 ### Parameters
@@ -628,9 +628,9 @@ Returns a value indicating whether the first parameter is greater than or equal 
 ```cppwinrt
 inline bool operator>=(winrt::hstring const& hLeft, winrt::hstring const& hRight) noexcept;
 inline bool operator>=(winrt::hstring const& hLeft, std::wstring const& wRight) noexcept;
-inline bool operator>=(winrt::hstring const& hLeft, std::wchar_t const* cRight) noexcept;
+inline bool operator>=(winrt::hstring const& hLeft, wchar_t const* cRight) noexcept;
 inline bool operator>=(std::wstring const& wLeft, winrt::hstring const& hRight) noexcept;
-inline bool operator>=(std::wchar_t const* cLeft, winrt::hstring const& hRight) noexcept;
+inline bool operator>=(wchar_t const* cLeft, winrt::hstring const& hRight) noexcept;
 ```
 
 ### Parameters

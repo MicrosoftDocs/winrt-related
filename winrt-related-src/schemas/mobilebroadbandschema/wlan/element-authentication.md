@@ -95,7 +95,7 @@ None.
 
  
 
-For more information about 802.11 authentication methods, see the [WPA](https://go.microsoft.com/fwlink/p/?linkid=391356), [802.1X](https://go.microsoft.com/fwlink/p/?linkid=89910), and [802.11i](https://go.microsoft.com/fwlink/p/?linkid=89906) specifications.
+For more information about 802.11 authentication methods, see the [WPA](https://go.microsoft.com/fwlink/p/?linkid=391356), [802.1X](https://go.microsoft.com/fwlink/p/?linkid=89910), and [802.11i](https://standards.ieee.org/ieee/802.11i/3127/) specifications.
 
 ## Requirements
 

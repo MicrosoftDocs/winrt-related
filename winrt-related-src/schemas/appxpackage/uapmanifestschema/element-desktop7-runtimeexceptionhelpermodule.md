@@ -1,5 +1,4 @@
 ﻿---
-
 title: desktop7:RuntimeExceptionHelperModule
 description: Specifies a module that will be launched in the event of a runtime exception.
 ms.date: 10/15/2021
@@ -10,81 +9,57 @@ ms.custom: 19H1
 
 # desktop7:RuntimeExceptionHelperModule
 
-## Description
 Specifies a module that will be launched in the event of a runtime exception.
 
-## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop7-extension.md">&lt;desktop7:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop7-shortcut.md">&lt;desktop7:Shortcut&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-desktop7-desktopappmigration.md">&lt;desktop7:ErrorReporting&gt;</a></dt>
-<dd><b>&lt;desktop7:RuntimeExceptionHelperModule&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+## Element hierarchy
 
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop7:Extension\>](element-desktop7-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop7:Shortcut\>](element-desktop7-shortcut.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop7:LocalizedString\>](element-desktop7-localizedstring.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop7:RuntimeExceptionHelperModule\>**
 
 ## Syntax
 
 ```xml
-<desktop7:RuntimeExceptionHelperModule Path   = A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.   >
-</desktop7:RuntimeExceptionHelperModule>
+<desktop7:RuntimeExceptionHelperModule
+  Path = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.' />
 ```
 
-
-## Attributes and Elements
+## Attributes and elements
 
 ### Attributes
 
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| Path | The package-relative path to the module. | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", \|, ?, or *. | Yes |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Path** | The package-relative path to the module. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
 
-
-### Child Elements
+### Child elements
 
 None.
 
-### Parent Elements
+### Parent elements
 
-| Parent Element | Description |
-|---------------|-------------|
+| Parent element | Description |
+|-|-|
 | [ErrorReporting](element-desktop7-errorreporting.md) | Specifies a set of runtime exception helper modules. |  
-
 
 ## Remarks
 
-The system will resolve this to an absolute path and write a value with this path as the value name to the **RuntimeExceptionHelperModules** subkey of the WER settings key for the specified scope (either machine or user scope is supported). At runtime this is used in the same way as a value written by an unpackaged app installer.
-
+The system will resolve this to an absolute path and write a value with this path as the value name to the **RuntimeExceptionHelperModules** subkey of the WER settings key for the specified scope (either machine or user scope is supported). At runtime this is used in the same way as a value written by an installer for an unpackaged app (or a packaged app with external location).
 
 ## Requirements
 
-|               |     Value                                                        |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |
+| Item  | Value  |
+|--|--|
+| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |

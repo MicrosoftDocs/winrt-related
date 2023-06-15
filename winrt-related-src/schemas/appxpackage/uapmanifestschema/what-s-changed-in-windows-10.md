@@ -14,24 +14,55 @@ This topic lists changes to the package manifest schema reference for each versi
 
 The following sections list the namespaces and XML prefixes added to the package manifest schema in each update of Windows 10. To get the latest version of Windows 10, see [Download Windows 10](https://www.microsoft.com/software-download/windows10).
 
-## Windows 11 - Build 22000
+## Windows 11 - Build 22621
+### Added namespaces and XML prefixes 
+| Prefix        | Namespace | 
+|---------------|-----------|
+| desktop10           | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |
+| uap15 | `http://schemas.microsoft.com/appx/manifest/uap/windows10/15` |
+
+
+## Windows 11 - Build 22159
 ### Added namespaces and XML prefixes 
 | Prefix        | Namespace | 
 |---------------|-----------|
 | desktop9           | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/9` |
 
+
+## Windows 11 - Build 22000
+### Added namespaces and XML prefixes 
+| Prefix        | Namespace | 
+|---------------|-----------|
+| com5     | `http://schemas.microsoft.com/appx/manifest/com/windows10/5` |
+| desktop8           | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/8` |
+| heap | `http://schemas.microsoft.com/appx/manifest/heap/windows10` |
+| uap13 | `http://schemas.microsoft.com/appx/manifest/uap/windows10/13` |
+
+
 ## Windows 10 - Build 20348
 ### Added namespaces and XML prefixes 
 | Prefix        | Namespace | 
 |---------------|-----------|
+| com4     | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
+| deployment | `http://schemas.microsoft.com/appx/manifest/deployment/windows10` |
 | desktop7           | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |
+| uap12 | `http://schemas.microsoft.com/appx/manifest/uap/windows10/12` |
+| virtualization | `http://schemas.microsoft.com/appx/manifest/virtualization/windows10` |
 
-## Windows 10, Version 2004
+## Windows 10 - Build 19645
+### Added namespaces and XML prefixes 
+| Prefix        | Namespace | 
+|---------------|-----------|
+| uap11           | `http://schemas.microsoft.com/appx/manifest/uap/windows10/11` |
+| cloudFiles | `http://schemas.microsoft.com/appx/manifest/cloudfiles/windows10`|
+
+## Windows 10 - Build 10941, Version 2004
 ### Added namespaces and XML prefixes
 | Prefix   | Namespace |
 |----------|-----------|
 | uap10     | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
 | com3     | `http://schemas.microsoft.com/appx/manifest/com/windows10/3` |
+| printSupport | `http://schemas.microsoft.com/appx/manifest/printsupport/windows10` |
 
 ## Windows 10, Build 18362, Version 1903
 ### Added namespaces and XML prefixes
@@ -124,7 +155,7 @@ The following sections list the namespaces and XML prefixes added to the package
 
 ## Elements and attributes that have changed
 -   The [**uap:ApplicationContentUriRules**](element-uap-applicationcontenturirules.md) element (and its child elements) is now in an xml namespace that uses the "uap:" xml namespace prefix.
--   For the [**Capability**](element-capability.md) element, some values for the @Name attribute have moved to the new [**uap:Capability**](element-uap-capability.md) element. Valid values for **Capability\@Name** are now "internetClient", "internetClientServer", "privateNetworkClientServer", and "allJoyn". See [App capability declarations](/previous-versions/windows/apps/hh464936(v=win.10)).
+-   For the [**Capability**](element-capability.md) element, some values for the @Name attribute have moved to the new [**uap:Capability**](element-uap-capability.md) element. Valid values for **Capability\@Name** are now "internetClient", "internetClientServer", "privateNetworkClientServer", and "allJoyn". See [App capability declarations](/windows/uwp/packaging/app-capability-declarations).
 -   For the [**Extension**](element-1-extension.md) element, some values for the @Category attribute have moved to the new [**uap:Extension**](element-uap-extension.md) element. For **Extension\@Category**, new valid values are "windows.preInstalledConfigTask", "windows.updateTask", and "windows.restrictedLaunch". The values "windows.contactPicker" and "windows.contact" have been removed.
 -   The Application/Extensions/Extension/[**uap:FileTypeAssociation**](element-uap-filetypeassociation.md) element is now in an xml namespace that uses the "uap:" xml namespace prefix.
 -   The Application/Extensions/Extension/[**uap:Protocol**](element-uap-protocol.md) element is now in an xml namespace that uses the "uap:" xml namespace prefix.
@@ -135,7 +166,7 @@ The following sections list the namespaces and XML prefixes added to the package
 -   The Application/Extensions/Extension/[**uap:FileSavePicker**](element-uap-filesavepicker.md) element is now in an xml namespace that uses the "uap:" xml namespace prefix.
 -   The Application/Extensions/Extension/[**uap:AppointmentsProvider**](element-uap-appointmentsprovider.md) element is now in an xml namespace that uses the "uap:" xml namespace prefix.
 -   The [**Application\@StartPage**](element-application.md) attribute was previously required to be a relative Windows file path referencing a document in the app's package. Now it additionally may be an absolute URL (so that a web site can publish as an app in the Store).
--   For the [**DeviceCapability\@Name**](element-devicecapability.md) attribute, new valid values are "bluetooth", "wiFiControl", "radios", and "optical". See [App capability declarations](/previous-versions/windows/apps/hh464936(v=win.10)).
+-   For the [**DeviceCapability\@Name**](element-devicecapability.md) attribute, new valid values are "bluetooth", "wiFiControl", "radios", and "optical". See [App capability declarations](/windows/uwp/packaging/app-capability-declarations).
 -   The [**PackageDependency\@Publisher**](element-packagedependency.md) attribute is now required.
 -   For the [**Task\@Type**](element-task.md) attribute, new valid values are "general", "deviceConnectionChange", and "bluetooth".
 -   The [**uap:VisualElements**](element-uap-visualelements.md) element (and its child elements) is now in an xml namespace that uses the "uap:" xml namespace prefix.

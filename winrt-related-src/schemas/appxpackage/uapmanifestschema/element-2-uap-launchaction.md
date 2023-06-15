@@ -3,221 +3,96 @@ description: Describes an uap:AppointmentsProviderLaunchActions content action.
 Search.Product: eADQiWindows 10XVcnh
 title: uap:LaunchAction (in AppointmentsProviderLaunchActions)
 ms.assetid: 1058a98d-10a0-4ce2-8b10-84d5c8fb9da6
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 04/05/2017
 ---
 
 # uap:LaunchAction (in AppointmentsProviderLaunchActions)
 
-
-Describes an [**uap:AppointmentsProviderLaunchActions**](element-uap-appointmentsproviderlaunchactions.md) content action.
+Describes an [uap:AppointmentsProviderLaunchActions](element-uap-appointmentsproviderlaunchactions.md) content action.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap-extension.md">&lt;uap:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap-appointmentsprovider.md">&lt;uap:AppointmentsProvider&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap-appointmentsproviderlaunchactions.md">&lt;uap:AppointmentsProviderLaunchActions&gt;</a></dt>
-<dd><b>&lt;uap:LaunchAction&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap:Extension\>](element-uap-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap:AppointmentsProvider\>](element-uap-appointmentsprovider.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap:AppointmentsProviderLaunchActions\>](element-uap-appointmentsproviderlaunchactions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap:LaunchAction\>**
 
 ## Syntax
 
-``` syntax
-<LaunchAction Verb           = "addAppointment" | "removeAppointment" | "replaceAppointment" | "showTimeFrame" | "showAppointmentDetails"
-                  DesiredView?   = "default" | "useLess" | "useHalf" | "useMore" | "useMinimum"
-                  Executable?    = A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used.
-                  EntryPoint?    = A string between 1 and 256 characters in length, representing the  task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type.
-If EntryPoint is not specified, the EntryPoint defined for the app is used instead.
-
-                  RuntimeType?   = A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *.
-                  StartPage?     = A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.
-                  ResourceGroup? = An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. />
+```xml
+<uap:LaunchAction
+    EntryPoint = 'A string with an optional value between 1 and 256 characters in length. Represents the task handling the extension (normally the fully namespace-qualified name of a Windows Runtime type). If EntryPoint is not specified, the EntryPoint defined for the app is used instead.'
+    Executable = 'A string with an optional value between 1 and 256 characters in length, that must end with ".exe", and cannot contain the following characters: <, >, :, ", |, ?, or *. Specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If the EntryPoint property is not specified, the EntryPoint defined for the app is used.'
+    RuntimeType = 'A string with an optional value between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *.'
+    StartPage = 'A string with an optional value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
+    ResourceGroup = 'An alphanumeric string with an optional value between 1 and 255 characters in length. Must begin with a letter.'
+    Verb = 'A string that can have any of the following values: "addAppointment", "removeAppointment", "replaceAppointment", "showTimeFrame", or "showAppointmentDetails".'
+    DesiredView = 'A string that can have any of the following values: "default", "useLess", "useHalf", "useMore", or "useMinimum".' />
 ```
 
 ### Key
 
 `?`   optional (zero or one)
 
-## Attributes and Elements
-
+## Attributes and elements
 
 ### Attributes
 
-<table>
-<colgroup>
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribute</th>
-<th>Description</th>
-<th>Data type</th>
-<th>Required</th>
-<th>Default value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>DesiredView</strong></td>
-<td><p>The desired amount of screen space to use when the appointment launches.</p></td>
-<td><p>This attribute can have one of the following values:</p>
-<ul>
-<li>default</li>
-<li>useLess</li>
-<li>useHalf</li>
-<li>useMore</li>
-<li>useMinimum</li>
-</ul></td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>EntryPoint</strong></td>
-<td><p>The activatable class ID.</p></td>
-<td>A string between 1 and 256 characters in length, representing the task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead.</td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>Executable</strong></td>
-<td><p>The default launch executable.</p></td>
-<td>A string between 1 and 256 characters in length that must end with &quot;.exe&quot; and cannot contain these characters: &lt;, &gt;, :, &quot;, |, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used. If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used.</td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>ResourceGroup</strong></td>
-<td><p>A tag that you can use to group extension activations together for resource management purposes (for example, CPU and memory). The value you can set ResourceGroup is free-form and flexible. See <a href="element-application.md"><strong>Application@ResourceGroup</strong></a>  and Remarks.</p></td>
-<td>An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.</td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>RuntimeType</strong></td>
-<td><p>The runtime provider. This attribute is used typically when there are mixed frameworks in an app.</p></td>
-<td>A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: &lt;, &gt;, :, &quot;, /, \, |, ?, or *.</td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>StartPage</strong></td>
-<td><p>The web page that handles the extensibility point.</p></td>
-<td>A string between 1 and 256 characters in length that cannot contain these characters: &lt;, &gt;, :, &quot;, |, ?, or *.</td>
-<td>No</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>Verb</strong></td>
-<td><p>A unique identifier that is passed to the app when it is launched. The app can use this string to determine which <a href="element-uap-appointmentsproviderlaunchactions.md"><strong>uap:AppointmentsProviderLaunchActions</strong></a>  handler triggered its launch. It is unique per application in the package and is case sensitive.</p></td>
-<td><p>This attribute can have one of the following values:</p>
-<ul>
-<li>addAppointment</li>
-<li>removeAppointment</li>
-<li>replaceAppointment</li>
-<li>showTimeFrame</li>
-<li>showAppointmentDetails</li>
-</ul></td>
-<td>Yes</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **EntryPoint** | The activatable class ID. | A string with a value between 1 and 256 characters in length. Represents the task handling the extension (normally the fully namespace-qualified name of a Windows Runtime type). If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |  |
+| **Executable** | The default launch executable. | A string with a value between 1 and 256 characters in length, that must end with `.exe`, and cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. Specifies the default executable for the extension. If not specified, the executable defined for the app is used. If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | No |  |
+| **RuntimeType** | The runtime provider. Typically used when there are mixted frameworks in an app. | A string with a value between 1 and 255 characters in length that cannot start or end with a `.` or contain there characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |  |
+| **StartPage** | The web page that handles the extensibility point. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |  |
+| **ResourceGroup** | An optional tag used to group extension activations together for resource management purposes (for example, CPU and memory). See the **Remarks** section in *[Application@ResourceGroup](element-application.md)*. | An alphanumeric string between 1 and 255 characters in length. Must begin with a letter. | No |  |
+| **Verb** | A unique identifier that is passed to the app when it is launched. The app can use this string to determine which [uap:AppointmentsProviderLaunchActions](element-uap-appointmentsproviderlaunchactions.md) handler triggered its launch. It is unique per application in the package and is case sensitive. | A string that can have any of the following values: *addAppointment*, *removeAppointment*, *replaceAppointment*, *showTimeFrame*, or *showAppointmentDetails*. | No |  |
+| **DesiredView** | The desired amount of screen space to use when the appointment launches. | A string that can have any of the following values: *default*, *useLess*, *useHalf*, *useMore*, or *useMinimum*. | No |  |
 
- 
-
-### Child Elements
+### Child elements
 
 None.
 
-### Parent Elements
+### Parent elements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-uap-appointmentsproviderlaunchactions.md">uap:AppointmentsProviderLaunchActions</a> </td>
-<td><p>Declares actions to take when a appointment is launched.</p></td>
-</tr>
-</tbody>
-</table>
-
- 
+| Parent element | Description |
+|-|-|
+| [uap:AppointmentsProviderLaunchActions](element-uap-appointmentsproviderlaunchactions.md) | Declares actions to take when a appointment is launched. |
 
 ## Related elements
 
-
 The following elements have the same name as this one, but different content or attributes:
 
--   **[uap:LaunchAction (in type: CT_AutoPlayContent)](element-uap-launchaction.md)**
--   **[uap:LaunchAction (in type: CT_AutoPlayDevice)](element-1-uap-launchaction.md)**
+- **[uap:LaunchAction (in type: CT_AutoPlayContent)](element-uap-launchaction.md)**
+- **[uap:LaunchAction (in type: CT_AutoPlayDevice)](element-1-uap-launchaction.md)**
 
 ## Remarks
 
-For more info about launch actions that an appointments provider takes, see [**AppointmentsProviderLaunchActionVerbs**](/uwp/api/Windows.ApplicationModel.Appointments.AppointmentsProvider.AppointmentsProviderLaunchActionVerbs).
+For more info about launch actions that an appointments provider takes, see [AppointmentsProviderLaunchActionVerbs](/uwp/api/Windows.ApplicationModel.Appointments.AppointmentsProvider.AppointmentsProviderLaunchActionVerbs).
 
 **LaunchAction (in AppointmentsProviderLaunchActions)** has these semantic validations:
 
--   [**Extension**](../appxmanifestschema2010-v2/element-extension.md) base attributes must follow these rules:
+- [Extension](../appxmanifestschema2010-v2/element-extension.md) base attributes must follow these rules:
 
-    -   If the **StartPage** attribute is specified, fail if the **EntryPoint**, **Executable**, or **RuntimeType** attribute is specified.
-    -   Otherwise, fail if the **Executable** or **RuntimeType** attribute is specified without an **EntryPoint** specified.
+  - If the **StartPage** attribute is specified, fail if the **EntryPoint**, **Executable**, or **RuntimeType** attribute is specified.
+  - Otherwise, fail if the **Executable** or **RuntimeType** attribute is specified without an **EntryPoint** specified.
 
--   If **LaunchAction (in AppointmentsProviderLaunchActions)** defines the **EntryPoint** attribute, either this **LaunchAction (in AppointmentsProviderLaunchActions)** or the parent [**uap:Extension**](element-uap-extension.md) or [**Application**](element-application.md) element must specify an **Executable** attribute.
+- If **LaunchAction (in AppointmentsProviderLaunchActions)** defines the **EntryPoint** attribute, either this **LaunchAction (in AppointmentsProviderLaunchActions)** or the parent [uap:Extension](element-uap-extension.md) or [Application](element-application.md) element must specify an **Executable** attribute.
 
 ## Requirements
 
 | Item  | Value  |
 |--|--|
-| Namespace | `	http://schemas.microsoft.com/appx/manifest/uap/windows10` |
-
-
- 
-
- 
+| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
