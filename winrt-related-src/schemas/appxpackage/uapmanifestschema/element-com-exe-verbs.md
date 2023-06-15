@@ -1,84 +1,67 @@
 ---
-
 ms.assetid: d9544423-4a36-413c-b447-cb7640fd353a
 title: com:Verbs (in ExeServer/Class)
 description: Specifies the verbs to be registered for an application (in ExeServer/Class).
-
 ms.date: 03/29/2017
 ms.topic: reference
-
-
 keywords: windows 10, uwp, schema, manifest, com
 ---
 
 # com:Verbs (in ExeServer/Class)
 
-## Description
 Specifies the verbs to be registered for an application.
 
-## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-extension.md">&lt;com:Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-comserver.md">&lt;com:ComServer&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-exeserver.md">&lt;com:ExeServer&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-exeserver-class.md">&lt;com:Class&gt;</a></dt>
-<dd><b>&lt;com:Verbs&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+## Element hierarchy
 
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:Extension\>](element-com-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:ComServer\>](element-com-comserver.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:ExeServer\>](element-com-exeserver.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:Class\>](element-com-exeserver-class.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com:Verbs\>**
 
 ## Syntax
-```syntax
+
+```xml
 <com:Verbs>
+
   <!-- Child elements -->
-  Verb 
+  Verb
+
 </com:Verbs>
 ```
 
-## Key
+## Attributes and elements
 
-## Child Elements
+### Attributes
 
-| Child Element | Description |
-|---------------|-------------|
+None.
+
+### Child elements
+
+| Child element | Description |
+|-|-|
 | [Verb](element-com-exe-verb.md) | The verb to be registered for an application. |
 
-## Remarks
+### Parent elements
 
-## Examples
+| Parent element | Description |
+|-|-|
+| [com:Class](element-com-exeserver-class.md) | Defines an ExeServer class registration. |
 
 ## Requirements
-|               |    Value                                                         |
-|---------------|-------------------------------------------------------------|
+
+|   | Value  |
+|--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |

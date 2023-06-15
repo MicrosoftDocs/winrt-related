@@ -3,51 +3,33 @@ description: Declares an app extensibility point of type windows.autoPlayDevice 
 Search.Product: eADQiWindows 10XVcnh
 title: uap:AutoPlayDevice (Windows 10)
 ms.assetid: ae471158-7ec0-4f6c-b681-76323317ac0d
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 04/05/2017
 ---
 
 # uap:AutoPlayDevice (Windows 10)
 
-
 Declares an app extensibility point of type **windows.autoPlayDevice**. The app provides the specified AutoPlay device actions.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-1-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap-extension.md">&lt;uap:Extension&gt;</a></dt>
-<dd><b>&lt;uap:AutoPlayDevice&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap:Extension\>](element-uap-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap:AutoPlayDevice\>**
 
 ## Syntax
 
-``` syntax
-<AutoPlayDevice>
+```xml
+<uap:AutoPlayDevice>
 
   <!-- Child elements -->
   uap:LaunchAction{1,1000}
@@ -57,59 +39,25 @@ Declares an app extensibility point of type **windows.autoPlayDevice**. The app 
 
 ### Key
 
-`{}`   specific range of occurrences
-## Attributes and Elements
+`{}`  specific range of occurrences
 
+## Attributes and elements
 
 ### Attributes
 
 None.
 
-### Child Elements
+### Child elements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Child Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-1-uap-launchaction.md">uap:LaunchAction (in type: CT_AutoPlayDevice)</a> </td>
-<td><p>Describes an AutoPlay device action.</p></td>
-</tr>
-</tbody>
-</table>
+| Child element | Description |
+|-|-|
+| [uap:LaunchAction (in type: CT_AutoPlayDevice)](element-1-uap-launchaction.md) | Describes an AutoPlay device action. |
 
- 
+### Parent elements
 
-### Parent Elements
-
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-uap-extension.md">uap:Extension</a> </td>
-<td><p>Declares an extensibility point for the app.</p></td>
-</tr>
-</tbody>
-</table>
-
- 
+| Parent element | Description |
+|-|-|
+| [uap:Extension](element-uap-extension.md) | Declares an extensibility point for the app. |
 
 ## Remarks
 
@@ -117,16 +65,19 @@ When a device that is not volume-based is connected to a computer, the system ra
 
 ## Examples
 
-```XML
-<uap:Extension Category="windows.autoPlayDevice">
+```xml
+<uap:Extension
+  Category="windows.autoPlayDevice">
   <uap:AutoPlayDevice>
-    <uap:LaunchAction Verb="startDeviceApp" ActionDisplayName="Start my device app" DeviceEvent="CustomDeviceEvent"/>
+    <uap:LaunchAction
+      Verb="startDeviceApp"
+      ActionDisplayName="Start my device app"
+      DeviceEvent="CustomDeviceEvent"/>
   </uap:AutoPlayDevice>
 </uap:Extension>
 ```
 
 ## See also
-
 
 **Tasks**
 [Auto-launching with AutoPlay](/previous-versions/windows/apps/hh452731(v=win.10))
@@ -139,8 +90,3 @@ When a device that is not volume-based is connected to a computer, the system ra
 |   | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
-
-
- 
-
- 

@@ -18,7 +18,7 @@ We also show how to use them in your programming.
 
 ## Video&mdash;Introduction to UWP and device families
 &nbsp;
-<iframe src="https://channel9.msdn.com/Blogs/One-Dev-Minute/Introduction-to-UWP-and-Device-Families/player" width="640" height="360" allowFullScreen frameBorder="0"></iframe>
+<iframe src="https://player.vimeo.com/video/149814073?h=a7220cae08" width="640" height="360" allowFullScreen frameBorder="0"></iframe>
 
 ## Device families, and your app's target device family
 
@@ -212,7 +212,7 @@ bool isWindows_Devices_Scanners_ScannerDeviceContract_1_0Present =
 
 We recommend that you maximize the reach of your app. But even if you target only one kind of device form factor, there'll still likely be different sizes of screen that your app could end up being displayed on.
 
-When you're ready to see how your app looks and lays out on a particular size of screen, use the device preview toolbar in Visual Studio to preview your UI on a small or medium mobile device, on a PC, or on a large TV screen. That way, if you've used XAML's adaptive layout features (see [Tutorial: Create adaptive layouts](/windows/uwp/design/basics/xaml-basics-adaptive-layout)), then you can test that, too.
+When you're ready to see how your app looks and lays out on a particular size of screen, use the device preview toolbar in Visual Studio to preview your UI on a small or medium mobile device, on a PC, or on a large TV screen. That way, if you've used XAML's adaptive layout features (see [Adaptive layouts with visual states and state triggers](/windows/apps/design/layout/layouts-with-xaml#adaptive-layouts-with-visual-states-and-state-triggers)), then you can test that, too.
 
 ![visual studio 2015 device preview toolbar](images/vs2015-device-preview-toolbar.png)
 

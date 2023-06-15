@@ -11,12 +11,15 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# command
+# command (Toast XML Schema)
 
 
 
 
 Specifies a scenario-associated button shown in a toast. The scenario is specified in the parent [**commands**](element-commands.md) element.
+
+> [!NOTE]
+> The **command** element has been deprecated. This functionality is implemented using the **scenario** attribute of the [toast](element-toast.md) element and the [actions](element-actions.md) element.
 
 ## Element hierarchy
 
@@ -132,14 +135,10 @@ None.
 
 ## See also
 
+* [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
+* [Notifications Visualizer](/windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
 
-[Alarm notifications sample](/samples/browse/)
 
-## Requirements
-
-|          | Value |
-|----------|--------------|
-| **Namespace** | `http://schemas.microsoft.com/notifications/2012/toast.xsd` |
 
  
 

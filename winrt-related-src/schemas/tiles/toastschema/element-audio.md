@@ -8,7 +8,7 @@ ms.topic: reference
 ms.date: 02/11/2020
 ---
 
-# audio
+# audio (Toast XML Schema)
 
 
 Specifies a sound to play when a toast notification is displayed. This element also allows you to mute any toast notification audio.
@@ -159,11 +159,12 @@ The following code shows this tag used to mute toast notification audio.
                 
 ```
 
-## Requirements
+## See also
 
-|          | Value |
-|----------|--------------|
-| **Namespace** | `http://schemas.microsoft.com/notifications/2012/toast.xsd` |
+* [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
+* [Notifications Visualizer](/windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
+
+
 
  
 

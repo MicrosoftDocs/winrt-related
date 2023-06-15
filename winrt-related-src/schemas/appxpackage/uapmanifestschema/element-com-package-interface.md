@@ -1,81 +1,73 @@
 ---
-
 ms.assetid: b7261b8b-2979-4961-b521-7e5c290170a8
 title: com:Interface (descendant of Extension)
 description: Registers new COM Interfaces (descendant of Extension).
-
 ms.date: 03/29/2017
 ms.topic: reference
-
-
 keywords: windows 10, uwp, schema, manifest, com
 ---
 
-
 # com:Interface (descendant of Extension)
 
-## Description
 Registers new COM Interfaces.
 
-## Element Hierarchy
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extension.md">&lt;Extension&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-com-package-cominterface.md">&lt;ComInterface&gt;</a></dt>
-<dd><b>&lt;Interface&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+## Element hierarchy
 
+[\<Package\>](element-package.md)
 
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:Extension\>](element-com-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:ComInterface\>](element-com-package-cominterface.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:Interface\>](element-com-package-interface.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com:Interface\>**
 
 ## Syntax
-```syntax
-<Interface
-    Id = An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1
-    UseUniversalMarshaler? = Boolean.
-    ProxyStubClsid? = A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.
-    SynchronousInterface? = A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.
-    AsynchronousInterface? = A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. >
+
+```xml
+<com:Interface
+  Id = 'An alphanumeric string separated by a period with a value between 1 and 255 characters in length (for example, Foo.Bar or Foo.Bar.1).'
+  UseUniversalMarshaler = 'An optional boolean value.'
+  ProxyStubClsid = 'An optional GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.'
+  SynchronousInterface = 'An optional GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.'
+  AsynchronousInterface = 'An optional GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.'  >
 
   <!-- Child elements -->
-  TypeLib?  
-</Interface>
+  TypeLib?
+
+</com:Interface>
 ```
 
 ## Key
-`?`    optional (zero or one) 
 
-## Attributes
+`?`    optional (zero or one)
 
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| Id      | An interface Id (IID). | An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1 | Yes |
-| UseUniversalMarshaler | Set this to true to use the OLE Universal Marshaler as the proxy stub. | Boolean. | No |
-| ProxyStubClsid | Corresponds to the [ProxyStubClsid32](/windows/win32/com/proxystubclsid32) registry value. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |
-| SynchronousInterface | The Id of another interface registration containing AsynchronousInterface that references this registration. The other interface must be in the same comInterface registration. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |
-| AsynchronousInterface | The Id of another interface registration containing SynchronousInterface that references this registration. The other interface must be in the same comInterface registration. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |
+## Attributes and elements
 
-## Child Elements
+### Attributes
 
-| Child Element | Description |
-|---------------|-------------|
-| [TypeLib](element-com-package-interface-typelib.md) | A type library for an interface. | 
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Id** | An interface Id (IID). | An alphanumeric string separated by a period with a value between 1 and 255 characters in length (for example, Foo.Bar or Foo.Bar.1). | Yes |  |
+| **UseUniversalMarshaler** | Set this to true to use the OLE Universal Marshaler as the proxy stub. | An optional boolean value. | No |  |
+| **ProxyStubClsid** | Corresponds to the [ProxyStubClsid32](/windows/win32/com/proxystubclsid32) registry value. | An optional GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |  |
+| **SynchronousInterface** | The Id of another interface registration containing AsynchronousInterface that references this registration. The other interface must be in the same comInterface extension. | An optional GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |  |
+| **AsynchronousInterface** | The Id of another interface registration containing SynchronousInterface that references this registration. The other interface must be in the same comInterface extension. | An optional GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |  |
 
-## Remarks
+### Child elements
 
-## Examples
+| Child element | Description |
+|-|-|
+| [TypeLib](element-com-package-interface-typelib.md) | A type library for an interface. |
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [com:ComInterface](element-com-package-cominterface.md) | Declares a package extension point of type **windows.comInterface**. The comInterface extension may include three types of registrations: *Interface*, *ProxyStub*, or *TypeLib*. |
 
 ## Requirements
 

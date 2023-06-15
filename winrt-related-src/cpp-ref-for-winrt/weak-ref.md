@@ -1,10 +1,8 @@
 ---
-
-description: A type representing a weak reference to a C++/WinRT object or interface.
 title: winrt::weak_ref struct template (C++/WinRT)
+description: A type representing a weak reference to a C++/WinRT object or interface.
 dev_langs: ["C++"]
-
-ms.date: 04/10/2018
+ms.date: 04/09/2022
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, weak
 ms.workload: ["cplusplus"]
@@ -39,12 +37,12 @@ The type of C++/WinRT object or interface a weak reference to which is represent
 ## Member functions
 |Function|Description|
 |------------|-----------------|
-|[weak_ref::get function](#weak_refget-function)|Increments the reference count and retrieves the C++/WinRT object or interface weakly referenced by the **weak_ref** object.|
+|[weak_ref::get function](#weak_refget-function)|Increments the reference count, and retrieves the C++/WinRT object or interface weakly referenced by the **weak_ref** object. The way to determine whether or not a **weak_ref** can be resolved to a strong reference is to call **get** and try.|
 
 ## Member operators
 |Operator|Description|
 |------------|-----------------|
-|[weak_ref::operator bool](#weak_refoperator-bool)|Checks whether the **weak_ref** object is targeting a C++/WinRT object that hasn't yet been destroyed.|
+|[weak_ref::operator bool](#weak_refoperator-bool)|Checks whether the **weak_ref** object owns a weak reference or a `nullptr`. The way to determine whether or not a **weak_ref** can be resolved to a strong reference is to call [weak_ref::get](#weak_refget-function) and try.|
 
 ## weak_ref::weak_ref constructor
 Initializes a new instance of the **weak_ref** struct, optionally with a copy of the input data.
@@ -61,7 +59,7 @@ weak_ref(com_ptr<T> const& object);
 A C++/WinRT object or interface or smart pointer that initializes the **weak_ref** object.
 
 ## weak_ref::get function
-Increments the reference count and retrieves the C++/WinRT object or interface weakly referenced by the **weak_ref** object.
+Increments the reference count, and retrieves the C++/WinRT object or interface weakly referenced by the **weak_ref** object. The way to determine whether or not a **weak_ref** can be resolved to a strong reference is to call **get** and try.
 
 ### Syntax
 ```cppwinrt
@@ -72,7 +70,7 @@ auto get() const noexcept;
 The C++/WinRT object or interface weakly referenced by the **weak_ref** object, or `nullptr` if the weak reference's target has been destroyed.
 
 ## weak_ref::operator bool
-Checks whether the **weak_ref** object is targeting a C++/WinRT object that hasn't yet been destroyed.
+Checks whether the **weak_ref** object owns a weak reference or a `nullptr`. The way to determine whether or not a **weak_ref** can be resolved to a strong reference is to call [weak_ref::get](#weak_refget-function) and try.
 
 ### Syntax
 ```cppwinrt
@@ -80,7 +78,7 @@ explicit operator bool() const noexcept;
 ```
 
 ### Return value
-`true` if the **weak_ref** object is targeting a C++/WinRT object that hasn't yet been destroyed, otherwise `false`.
+`true` if the **weak_ref** object owns a weak reference; `false` if the **weak_ref** object owns a `nullptr`.
 
 ## See also 
 * [winrt namespace](winrt.md)

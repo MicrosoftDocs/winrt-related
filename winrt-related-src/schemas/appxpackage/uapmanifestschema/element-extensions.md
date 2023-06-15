@@ -3,30 +3,24 @@ description: Defines one or more extensibility points for the package (Windows 
 Search.Product: eADQiWindows 10XVcnh
 title: Extensions (in Package) (Windows 10)
 ms.assetid: 837ae066-b590-4f58-b552-2e9d608f0fac
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 04/05/2017
 ---
 
 # Extensions (in Package) (Windows 10)
 
-
 Defines one or more extensibility points for the package.
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd><b>&lt;Extensions&gt;</b></dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;**\<Extensions\>**
 
 ## Syntax
 
-``` syntax
+```xml
 <Extensions>
 
   <!-- Child elements -->
@@ -38,75 +32,82 @@ Defines one or more extensibility points for the package.
 ### Key
 
 `{}`   specific range of occurrences
-## Attributes and Elements
 
+## Attributes and elements
 
 ### Attributes
 
 None.
 
-### Child Elements
+### Child elements
 
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Child Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-extension.md">Extension (in type: CT_PackageExtensions)</a> </td>
-<td><p>Declares an extensibility point for the package.</p></td>
-</tr>
-</tbody>
-</table>
+| Child element | Description |
+|-|-|
+| [Extension (in type: CT_PackageExtensions)](element-extension.md) | Declares an extensibility point for the package. |
 
- 
+### Parent elements
 
-### Parent Elements
-
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parent Element</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-package.md">Package</a> </td>
-<td><p>Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system.</p></td>
-</tr>
-</tbody>
-</table>
-
- 
+| Parent element | Description |
+|-|-|
+| [Package](element-package.md) | Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system. |
 
 ## Related elements
 
-
 The following elements have the same name as this one, but different content or attributes:
 
--   **[Extensions (type: CT_ApplicationExtensions)](element-1-extensions.md)**
+- [Extensions (type: CT_ApplicationExtensions)](element-1-extensions.md)
 
 ## Remarks
 
 Extensibility points are a mechanism by which an app can add functionality in a manner defined by the operating system. An example of a package extensibility point is the ability to specify a dynamic-link library or executable that contains activatable classes that your code uses.
 
+The **Extension** elements that can be included under the **Package/Extensions** element are enforced by the XML schema. Each of these **Extension** elements have a required **Category** attribute that specifies one or more extension points that the extension supports. Some extensions support both application and package extension categories. The following table lists the extension categories supported for application extensions and the associated **Extension** element that supports each category. A category can be supported for multiple extensions as a versioning mechanism.
+
+| Extension category | Extension |
+|--------------------|-----------|
+| windows.comServer | [com:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com-extension) |
+| windows.comInterface | [com:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com-extension) |
+| windows.comServer | [com2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com2-extension) |
+| windows.comInterface | [com2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com2-extension) |
+| windows.comServer | [com4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com4-extension) |
+| windows.comInterface | [com4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com4-extension) |
+| windows.deploymentExtensionHandler | [deployment:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-deployment-extension) |
+| windows.firewallRules | [desktop2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop2-package-extension) |
+| windows.desktopEventLogging | [desktop2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop2-package-extension) |
+| windows.mutablePackageDirectories | [desktop6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-package-extension) |
+| windows.customInstall | [desktop6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-package-extension) |
+| windows.shadowCopyExcludeFiles | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-extension) |
+| windows.errorReporting | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-extension) |
+| windows.shadowCopyExcludeFiles | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-package-extension) |
+| windows.errorReporting | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-package-extension) |
+| windows.mutablePackageDirectories | [desktop8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop8-extension) |
+| windows.userMutablePackageDirectories | [desktop8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop8-extension) |
+| windows.eventTracing | [desktop8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop8-extension) |
+| windows.activatableClass.inProcessServer | [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
+| windows.activatableClass.outOfProcessServer | [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
+| windows.activatableClass.proxyStub | [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
+| windows.certificates | [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
+| windows.publisherCacheFolders | [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
+| windows.comInterface | [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
+| windows.loaderSearchPathOverride | [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
+| windows.classicAppCompatKeys | [rescap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-rescap4-extension) |
+| windows.primaryInteropAssemblies | [rescap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-rescap4-extension) |
+| windows.hostRuntime | [uap10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap10-package-extension) |
+| windows.mediaContentDecryptionModule | [uap10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap10-package-extension) |
+| windows.installedLocationVirtualization | [uap10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap10-package-extension) |
+| windows.sharedFonts | [uap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap4-extension) |
+| windows.activatableClass.outOfProcessServer | [uap5:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap5-extension) |
+| windows.loaderSearchPathOverride | [uap6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap6-package-extension) |
+| windows.sharedFonts | [uap7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap7-extension) |
+| windows.enterpriseDataProtection | [uap7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap7-extension) |
+| windows.dataProtection | [uap8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap8-package-extension) |
+
+
 ## Examples
 
 The following example is taken from the package manifest of one of the SDK samples.
 
-```XML
+```xml
 <Package>
   <Extensions>
     <Extension Category="windows.activatableClass.proxyStub">
@@ -125,22 +126,14 @@ The following example is taken from the package manifest of one of the SDK sampl
     </Extension>
   </Extensions>
 </Package>
-
 ```
 
 ## See also
 
-
-**Concepts**
-[App contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10))
+- [App contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10))
 
 ## Requirements
 
-|   | Value |
+| Item  | Value  |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
-
-
- 
-
- 

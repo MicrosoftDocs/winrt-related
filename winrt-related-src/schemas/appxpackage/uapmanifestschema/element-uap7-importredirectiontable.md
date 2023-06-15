@@ -1,11 +1,7 @@
 ---
 description: Allows for a packaged app to declare API redirections.
 title: uap7:ImportRedirectionTable
-
-
 keywords: windows 10, uwp, schema, package manifest
-
-
 ms.topic: reference
 ms.date: 10/03/2018
 ---
@@ -16,48 +12,46 @@ Allows for a packaged app to declare API redirections. API redirection allows ap
 
 ## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-applications.md">&lt;Applications&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-application.md">&lt;Application&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap7-properties.md">&lt;uap7:Properties&gt;</a></dt>
-<dd><b>&lt;uap7:ImportRedirectionTable&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap7:Properties\>](element-uap7-properties.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap7:ImportRedirectionTable\>**
 
 ## Syntax
 
-``` syntax
+```xml
 <uap7:ImportRedirectionTable>
-
-  A DLL file.
-
+  A string that represnets the name of a DLL file.
 </uap7:ImportRedirectionTable>
 ```
 
 ## Attributes and Elements
-### Attributes
-None 
 
-### Child Elements
-None
+### Attributes
+
+None.
+
+### Child elements
+
+None.
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [uap7:Properties](element-uap7-properties.md) | Properties of an application. |
 
 ## Remarks
-The DLL file is passed to CreateProcess to influence how the loader resolves imports.
+
+The DLL file is passed to *CreateProcess* to influence how the loader resolves imports.
 
 ## Requirements
 
-|   | Value |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/7` |

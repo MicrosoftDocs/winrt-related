@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# toast
+# toast (Toast XML Schema)
 
 
 
@@ -26,15 +26,21 @@ Base toast element, which contains at least a single [**visual**](element-visual
 
 ``` syntax
 <toast launch?   = string
-       duration? = "long" | "short" >
+      duration? = "long" | "short" 
+      displayTimeStamp? = string
+      scenario? = "reminder" | "alarm" | "incomingCall" | "urgent" 
+      useButtonStyle? = boolean>
 
   <!-- Child elements -->
   visual,
   audio?,
   commands?
-
+  actions?
+  header?
 </toast>
 ```
+
+
 
 ### Key
 
@@ -81,6 +87,28 @@ Base toast element, which contains at least a single [**visual**](element-visual
 <td>No</td>
 <td>None</td>
 </tr>
+<tr class="odd">
+<td><strong>displayTimestamp</strong></td>
+<td><p>Introduced in Creators Update: Overrides the default timestamp with a custom timestamp representing when your notification content was actually delivered, rather than the time the notification was received by the Windows platform. This value must be a string formatted using the ISO 8601 standard.</p></td>
+<td>string</td>
+<td>No</td>
+<td>None</td>
+</tr>
+<tr class="even">
+<td><strong>scenario</strong></td>
+<td><p>The scenario your toast is used for, like an alarm or reminder. <ul><li>"reminder" - A reminder notification. This will be displayed pre-expanded and stay on the user's screen till dismissed.</li><li>"alarm" - An alarm notification. This will be displayed pre-expanded and stay on the user's screen till dismissed. Audio will loop by default and will use alarm audio.</li><li>"incomingCall" - An incoming call notification. This will be displayed pre-expanded in a special call format and stay on the user's screen till dismissed. Audio will loop by default and will use ringtone audio.</li><li>"urgent" -  An important notification. This allows users to have more control over what apps can send them high-priority toast notifications that can break through Focus Assist (Do not Disturb). This can be modified in the notifications settings.</li></ul></li>
+</ul></p></td>
+<td>string</td>
+<td>No</td>
+<td>None</td>
+</tr>
+<tr class="odd">
+<td><strong>useButtonStyle</strong></td>
+<td><p>Specifies whether styled buttons should be used. The styling of the button is determined by the **hint-buttonStyle** attribute of the [action](element-action.md) element.</p></td>
+<td>boolean</td>
+<td>No</td>
+<td>false</td>
+</tr>
 </tbody>
 </table>
 
@@ -112,6 +140,16 @@ Base toast element, which contains at least a single [**visual**](element-visual
 <td><a href="element-visual.md">visual</a> </td>
 <td><p>Contains a single <a href="/uwp/schemas/tiles/tilesschema/element-binding"><strong>binding</strong></a>  element that defines a toast.</p></td>
 </tr>
+</tr>
+<tr class="even">
+<td><a href="element-actions.md">actions</a> </td>
+<td><p>Container element for declaring up to five inputs and up to five button actions for the toast notification.</p></td>
+</tr>
+</tr>
+<tr class="odd">
+<td><a href="element-header.md">header</a> </td>
+<td><p>Introduced in Creators Update. Specifies a custom header that groups multiple notifications together within Action Center.</p></td>
+</tr>
 </tbody>
 </table>
 
@@ -121,11 +159,12 @@ Base toast element, which contains at least a single [**visual**](element-visual
 
 This outermost (document) element may not be contained by any other elements.
 
-## Requirements
+## See also
 
-|          | Value |
-|----------|--------------|
-| **Namespace** | `http://schemas.microsoft.com/notifications/2012/toast.xsd` |
+* [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
+* [Notifications Visualizer](/windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
+
+
 
  
 

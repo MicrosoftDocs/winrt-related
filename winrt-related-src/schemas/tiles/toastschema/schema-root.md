@@ -65,6 +65,30 @@ The following table lists all of the elements in this schema, sorted alphabetica
 <td><a href="element-visual.md">visual</a> </td>
 <td><p>Contains a single <a href="/uwp/schemas/tiles/tilesschema/element-binding"><strong>binding</strong></a>  element that defines a toast.</p></td>
 </tr>
+<tr class="odd">
+<td><a href="element-header.md">header</a> </td>
+<td><p>Specifies a custom header that groups multiple notifications together within Action Center.</p></td>
+</tr>
+<tr class="even">
+<td><a href="element-action.md">action</a> </td>
+<td><p>Specifies a button shown in a toast.</p></td>
+</tr>
+<tr class="odd">
+<td><a href="element-actions.md">actions</a> </td>
+<td><p>Container element for declaring up to five inputs and up to five button actions for the toast notification.</p></td>
+</tr>
+<tr class="even">
+<td><a href="element-progress.md">progress</a> </td>
+<td><p>Specifies a progress bar for a toast notification.</p></td>
+</tr>
+<tr class="odd">
+<td><a href="element-group.md">group</a> </td>
+<td><p>Semantically identifies that the content in the group must either be displayed as a whole, or not displayed if it cannot fit. Groups also allow creating multiple columns.</p></td>
+</tr>
+<tr class="even">
+<td><a href="element-subgroup.md">subgroup</a> </td>
+<td><p>Specifies vertical columns that can contain text and images.</p></td>
+</tr>
 </tbody>
 </table>
 

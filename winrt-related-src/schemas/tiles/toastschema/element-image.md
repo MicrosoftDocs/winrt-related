@@ -11,7 +11,7 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# image (Toast schema)
+# image  (Toast XML Schema)
 
 Specifies an image used in the toast template.
 
@@ -38,7 +38,9 @@ Specifies an image used in the toast template.
 <image id             = integer
        src            = string
        alt?           = string
-       addImageQuery? = boolean />
+       addImageQuery? = boolean 
+       placement? = "appLogoOverride" | "hero"
+       hint-crop? = "circle" />
 ```
 
 ### Key
@@ -109,6 +111,22 @@ Specifies an image used in the toast template.
 <td>Yes</td>
 <td>None</td>
 </tr>
+<tr class="even">
+<td><strong>placement</strong></td>
+<td><p>The placement of the image.</p> <ul><li>"appLogoOverride" - The image replaces your app's logo in the toast notification.</li><li>"hero" - The image is displayed as a hero image. </li></ul><p>For more information, see <a href="/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts">Toast content</a>.</p></li>
+</ul></td>
+<td>string</td>
+<td>No</td>
+<td>None</td>
+</tr>
+<tr class="odd">
+<td><strong>hint-crop</strong></td>
+<td><p>The cropping of the image.</p> <ul><li>"circle" - The image is cropped into a circle.</li><li>Unspecified - The image is not cropped and displayed as a square. </li></ul><p>For more information, see <a href="/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts">Toast content</a>.</p></li>
+</ul></td>
+<td>string</td>
+<td>No</td>
+<td>None</td>
+</tr>
 </tbody>
 </table>
 
@@ -139,13 +157,13 @@ None.
 </tbody>
 </table>
 
+## See also
+
+* [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
+* [Notifications Visualizer](/windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
  
 
-## Requirements
 
-|          | Value |
-|----------|--------------|
-| **Namespace** | `http://schemas.microsoft.com/notifications/2012/toast.xsd` |
 
  
 

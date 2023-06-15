@@ -29,6 +29,18 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [Capability](element-capability.md) | Declares a capability required by a package. |
 | [Certificate](element-certificate.md) | A certificate for use with the package and placed in the system certificate stores. |
 | [Certificates](element-certificates.md) | Declares a package extensibility point of type **windows.certificates**. The app requires one or more certificates from the specified certificate stores. |
+| [cloudFiles:Extension](element-cloudfiles-extension.md) | Declares an extensibility point for the app that registers the handlers implemented in an application and context menu options for cloud-based placeholder files. |
+| [cloudFiles:CloudFiles](element-cloudfiles-cloudfiles.md) | Registers the handlers implemented in an application and context menu options for cloud-based placeholder files. |
+| [cloudFiles:BannersHandler](element-cloudfiles-bannershandler.md) | Registration of a Windows Shell BannersHandler for cloud based placeholder files. |
+| [cloudFiles:CloudFilesContextMenus](element-cloudfiles-cloudfilescontextmenus.md) | Registration of a context menu for a cloud based placeholder file. |
+| [cloudFiles:ContentUriSource](element-cloudfiles-contenturisource.md) | Registration of a Windows Shell CustomStateHandler for cloud based placeholder files. |
+| [cloudFiles:CustomStateHandler](element-cloudfiles-customstatehandler.md) | Windows Shell icon overlay handlers for cloud based placeholder files. |
+| [cloudFiles:DesktopIconOverlayHandler](element-cloudfiles-desktopiconoverlayhandler.md) | Declares a package extensibility point of type **windows.certificates**. The app requires one or more certificates from the specified certificate stores. |
+| [cloudFiles:DesktopIconOverlayHandlers](element-cloudfiles-desktopiconoverlayhandlers.md) | Contains Windows Shell icon overlay handlers for cloud based placeholder files.  |
+| [cloudFiles:ExtendedPropertyHandler](element-cloudfiles-extendedpropertyhandler.md) | Registration of a Windows Shell ExtendedPropertyHandler for cloud based placeholder files. |
+| [cloudFiles:ThumbnailProviderHandler](element-cloudfiles-thumbnailproviderhandler.md) | Registration of a Windows Shell ThumbnailProviderHandler for cloud based placeholder files. |
+| [cloudFiles:Verb](element-cloudfiles-verb.md) | Defines the verbs associated with a file context menu |
+ Registration of a Windows Shell StorageProviderStatusUI for cloud-based placeholder files. |
 | [com:Aspect (in ExeServer/Class)](element-com-exe-aspect.md) | Specifies the desired data or view aspect of the object when drawing or getting data. |
 | [com:Aspect (in SurrogateServer/Class)](element-com-surrogate-aspect.md) | Specifies the desired data or view aspect of the object when drawing or getting data. |
 | [com:Class (in ExeServer)](element-com-exeserver-class.md) | Defines an ExeServer class registration. |
@@ -93,9 +105,31 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [com3:ServiceServer](element-com3-serviceserver.md) | Registers a COM server (with one or more class registrations) hosted in a Windows service that is declared with a corresponding [desktop6:Service](element-desktop6-service.md) element.   |
 | [com3:SurrogateServer](element-com3-surrogateserver.md) | Registers a SurrogateServer with one or many class registrations.   |
 | [com3:TreatAsClass](element-com3-treatasclass.md) | A registration that corresponds to a CLSID registration with the TreatAs subkey for a com3:ServiceServer class.    |
+| [com4:Class](element-com4-class.md) | Defines a class registration in a COM server hosted in a Windows service that is registered in a [com4:ComServer](element-com4-comserver.md) element. |
+| [com4:ExeServer](element-com4-exeserver.md) | Registers an ExeServer with one or many class registrations. |
+| [com4:Extension](element-com4-extension.md) | Provides functionality to expose COM registrations to clients outside of the app package. |
+| [com4:InProcessHandler](element-com4-inprocesshandler.md) | Registers an in-process handler with one or many class registrations. |
+| [com4:InProcessServer](element-com4-inprocessserver.md) | Registers an in-process server with one or many class registrations. |
+| [com4:Interface](element-com4-interface.md) | Registers new COM interface. |
+| [com4:ManagedInProcessServer](element-com4-managedinprocessserver.md) | Registers a managed in-process server with one or many class registrations. |
+| [com4:ProgId](element-com4-progid.md) | A programmatic identifier (ProgID) that can be associated with a CLSID. |
+| [com4:ProxyStub](element-com4-proxystub.md) | Registers a proxy stub. |
+| [com4:ServiceServer](element-com4-serviceserver.md) | Registers a ServiceServer with one or many class registrations. |
+| [com4:SurrogateServer](element-com4-surrogateserver.md) | Registers a SurrogateServer with one or many class registrations. |
+| [com4:TreatAsClass](element-com4-treatasclass.md) | A registration that corresponds to a CLSID registration with the TreatAs subkey. |
+| [com4:TypeLib](element-com4-typelib.md) | Registers a type library. |
 | [Dependencies](element-dependencies.md) | Declares other packages that a package depends on to complete its software. |
+| [deployment:Extension](element-deployment-extension.md) | Declares an extensibility point for the app that specifies an undocked deployment extension handler (DEH). |
+| [deployment:DeploymentExtensionHandler](element-deployment-deploymentextensionhandler.md) | Allows an app to specify one or more DLL files that provide DEH functionality that ships outside of an OS release. |
+| [deployment:Files](element-deployment-files.md) | Contains one or more **File** elements specifying DLL files that provide DEH functionality that ships outside of an OS release. |
+| [deployment:File](element-deployment-file.md) | Specifies one or more DLL files that provide DEH functionality that ships outside of an OS release. |
 | [Description](element-description.md) | A friendly description that can be displayed to users. |
 | [desktop:ExecutionAlias](element-desktop-executionalias.md) | The executable of a UWP app to be activated from a command prompt. |
+| [desktop:Extension](element-desktop-extension.md) | Declares an extensibility point for the app. |
+| [desktop:FullTrustProcess](element-desktop-fulltrustprocess.md) | Represents a desktop process that runs in full-trust. |
+| [desktop:SearchProtocolHandler](element-desktop-searchprotocolhandler.md) | Represents a desktop process handles the search protocol for the app. |
+| [desktop:StartupTasks](element-desktop-startuptasks.md) | Represents a desktop process that runs during app startup. |
+| [desktop:ToastNotificationActivation](element-desktop-toastnotificationactivation.md) | Allows toast notification to be received within the app. |
 | [desktop2:AppPrinter](element-desktop2-appprinter.md) | Enables the ability to install software file printers in Windows Desktop Bridge apps. |
 | [desktop2:DesktopEventLogging](element-desktop2-desktopeventlogging.md) | Enables Windows Desktop Bridge apps to register for Windows event logging. |
 | [desktop2:DesktopPreviewHandler](element-desktop2-desktoppreviewhandler.md) | Enables declaration of a preview handler for a file type association. |
@@ -174,17 +208,45 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [desktop7:Extension (child of Application)](element-desktop7-extension.md)| Declares an extensibility point for the app (in Package/Applications; desktop7:Extension).|
 | [desktop7:Extension (child of Package)](element-desktop7-package-extension.md)| Declares an extensibility point for the app (in Package/Extensions; desktop7:Extension).|
 | [desktop7:InfoTip](element-desktop7-infotip.md)| Specifies the Infotip string to show when the mouse hovers over the item’s icon.|
+| [desktop7:Logo](element-desktop7-logo.md)| A path to a file that contains an image.|
 | [desktop7:LocalizedString](element-desktop7-localizedstring.md)| Specifies the localized string to show for this item in the Control Panel.|
 | [desktop7:MailProvider](element-desktop7-mailprovider.md)| Registers a dll as a mail provider.|
+| [desktop7:ProgId](element-desktop7-progid.md)| A programmatic identifier (ProgID) that can be associated with a CLSID. |
 | [desktop7:RuntimeExceptionHelperModule](element-desktop7-runtimeexceptionhelpermodule.md)| Specifies a module that will be launched in the event of a runtime exception.|
 | [desktop7:Service](element-desktop7-service.md)| Specifies a service that is installed and registered along with the app. These services can be configured to run under either the Local Service, Network Service or Local System account.|
 | [desktop7:ShadowCopyExcludeFile](element-desktop7-shadowcopyexcludefile.md)| Specifies a file to be excluded by the Volume Shadow Copy Service (VSS).|
 | [desktop7:ShadowCopyExcludeFiles](element-desktop7-shadowcopyexcludefiles.md)| Specifies a set of files to be excluded by the Volume Shadow Copy Service (VSS).|
 | [desktop7:Shortcut](element-desktop7-shortcut.md)| Creates a shortcut to a file.|
 | [desktop7:SystemFileAssociation](element-desktop7-systemfileassociation.md)| Registers system file associations for an app. |
+| [desktop8:Channels](element-desktop8-channels.md) | Allows one or more channels to be specified for event tracing. |
+| [desktop8:Channel](element-desktop8-channel.md) | Specifies a channel to be used for event tracing. |
+| [desktop8:EventTracing](element-desktop8-eventtracing.md) | Enables your desktop application to log application-defined events to be consumed in real time or saved to a log file. |
+| [desktop8:Extension](element-desktop8-extension.md) | Declares an extensibility point for the app. |
+| [desktop8:ImportChannel](element-desktop8-importchannel.md) | Specifies an imported channel to be used for event tracing. |
+| [desktop8:Logging](element-desktop8-logging.md) | Provides access to the Logging feature within an Event Tracing channel. |
+| [desktop8:MutablePackageDirectories](element-desktop8-mutablepackagedirectories.md) | Enables your desktop application to specify one or more folders where you can modify the installation files for your application. |
+| [desktop8:MutablePackageDirectory](element-desktop8-mutablepackagedirectory.md) | Registers a provider to Event Tracing and enables its functionality. |
+| [desktop8:Provider](element-desktop8-provider.md) | Registers a provider to Event Tracing and enables its functionality. |
+| [desktop8:Publishing](element-desktop8-publishing.md) | Provides access to the Publishing feature within an Event Tracing channel. | 
+| [desktop8:UserMutablePackageDirectories](element-desktop8-usermutablepackagedirectories.md) | Enables your desktop application to specify one or more folders where users can modify the installation files for your application (for example, to install mods). |
+| [desktop8:UserMutablePackageDirectory](element-desktop8-usermutablepackagedirectory.md) | Enables your desktop application to specify a folder where users can modify the installation files for your application (for example, to install mods). |
 | [desktop9:ExtensionHandler](element-desktop9-extensionhandler.md) | Specifies a handler for a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) implementation of a context menu handler shell extension for a packaged desktop app.  |
 | [desktop9:FileExplorerClassicContextMenuHandler](element-desktop9-fileexplorerclassiccontextmenuhandler.md) | Registers a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) implementation of a context menu handler shell extension for a packaged desktop app.  |
 | [desktop9:FileExplorerClassicDragDropContextMenuHandler](element-desktop9-fileexplorerclassicdragdropcontextmenuhandler.md) | Registers a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) implementation of a drag and drop handler shell extension for a packaged desktop app.  |
+| [desktop10:CustomDesktopEventLog](element-desktop10-customdesktopeventlog.md) | efines a custom event log.  |
+| [desktop10:CustomEventSource](element-desktop10-customeventsource.md) | Defines an event source within a custom event log.  |
+| [desktop10:DataShortcut](element-desktop10-datashortcut.md) | Creates a shortcut to a file that is not an executable.  |
+| [desktop10:DataShortcuts](element-desktop10-datashortcuts.md) | Specifies a list of non-executable shortcuts.  |
+| [desktop10:EventMessageFiles](element-desktop10-eventmessagefiles.md) | Defines 1 or more DLL files containing the language strings describing the events.  |
+| [desktop10:Extension](element-desktop10-extension.md) | Declares an extensibility point for the app (in Package/Extensions; desktop10:Extension).  |
+| [desktop10:File](element-desktop10-file.md) | Defines an event log DLL within the package.  |
+| [desktop10:Folder](element-desktop10-folder.md) | Defines a folder to hold shortcuts, with localizable details.  |
+| [desktop10:IconHandler](element-desktop10-iconhandler.md) | Enables an IconHandler for a file type association.  |
+| [desktop10:PredefinedTriggerEvents](element-desktop10-predefinedtriggerevents.md) | Describes predefined trigger events for the current service.  |
+| [desktop10:SupportedProtocol](element-desktop10-supportedprotocol.md) | Specifies a URL protocol scheme.  |
+| [desktop10:SupportedProtocols](element-desktop10-supportedprotocols.md) | DSpecifies the supported URL protocol schemes for a given key.  |
+| [desktop10:TypesSupported](element-desktop10-typessupported.md) | Defines 1 or more of the event log types supported by the event source.  |
+| [desktop10:TypeSupported](element-desktop10-typesupported.md) | Specifies a supported event log type.  |
 | [Device](element-device.md) | Declares a function for a device that is associated with the [**DeviceCapability**](element-devicecapability.md). On Windows 10.0.10240.0, a **DeviceCapability** can contain up to 100 **Device** elements. On Windows 10.0.10586.0, it can contain up to 1000 (for more details, see **DeviceCapability**). |
 | [DeviceCapability](element-devicecapability.md) | Declares a device capability required by a package. On Windows 10.0.10240.0, can contain up to 100 [**Device**](element-device.md) elements. On Windows 10.0.10586.0, can contain up to 1000 (for syntax and examples, see Examples). |
 | [DisplayName](element-displayname.md) | A friendly name that can be displayed to users. |
@@ -195,6 +257,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [Folder](element-folder.md) | Specifies a folder that the package shares with other packages from the same publisher. |
 | [Framework](element-framework.md) | Indicates whether the package is a framework package; that is, a package that can be used by other packages. Its value is **false** by default. You should not specify a value for it unless you are creating a framework. |
 | [Function](element-function.md) | Declares the function for the device. |
+| [HeapPolicy](element-heap-heappolicy.md) | Allows packaged apps to request a heap profile that has performance and behavior characteristics consistent with that of the legacy NT heap. |
 | [Identity](element-identity.md) | Defines a globally unique identifier for a package. A package identity is represented as a tuple of attributes of the package. |
 | [InProcessServer](element-inprocessserver.md) | Declares a package extensibility point of type **windows.activatableClass.inProcessServer**. The app uses a dynamic link library (DLL) that exposes one or more activatable classes. |
 | [Instancing](element-instancing.md) | Specifies whether the executable runs as a single instance or can run as multiple instances. |
@@ -210,6 +273,9 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [ProxyStub](element-proxystub.md) | Declares a package extensibility point of type **windows.activatableClass.proxyStub**. A proxy can be composed of one or more interfaces. |
 | [PublisherCacheFolders](element-publishercachefolders.md) | Declares a package extensibility point of type **windows.publisherCacheFolders**. This specifies one or more folders that the package shares with other packages from the same publisher. |
 | [PublisherDisplayName](element-publisherdisplayname.md) | A friendly name for the publisher that can be displayed to users. |
+| [printSupport:Extension](element-printsupport-extension.md) | Declares an extensibility point for a Print Support App. |
+| [rescap:Extension](element-rescap-extension.md) | Declares an extensibility point for the app. |
+| [rescap:SettingsApp](element-rescap-settingsapp.md) | Registers deep link and search information for settings apps. |
 | [rescap2:Extension](element-rescap2-extension-manual.md) | Declares an extensibility point for the app. |
 | [rescap3:DesktopApp](element-rescap3-desktopapp.md) | Specifies information for redirecting a Windows Desktop Bridge app's tiles and pins. |
 | [rescap3:DesktopAppMigration](element-rescap3-desktopappmigration.md) | Specifies where to redirect user tiles and pins to a Windows Desktop Bridge app. |
@@ -221,33 +287,12 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [rescap4:ClassicAppCompatKey](element-rescap4-ClassicAppCompatKey.md) | Registry keys for discovering classic app installations and launching executables. |
 | [rescap4:ClassicAppCompatKeys](element-rescap4-ClassicAppCompatKeys.md) | Contains registry keys for discovering classic app installations and launching executables. |
 | [rescap4:Extension](element-rescap4-extension.md) | Declares an extensibility point for the app. |
+| [rescap4:PrimaryInteropAssemblies](element-rescap4-primaryInteropAssemblies.md) | Defines package assembly configuration. |
+| [rescap4:Redirect](element-rescap4-redirect.md) | Specifies redirect information for interop assemblies. |
 | [Resource](element-resource.md) | Declares a language for the resource contained in the package. The scale and DirectX feature level attributes are common for all resources in the package. |
 | [ResourcePackage](element-resourcepackage.md) | Indicates whether the package is a resource package. A resource package can be used by other packages. Its value is **false** by default. You should not specify a value for it unless you are creating a resource. |
 | [Resources](element-resources.md) | Declares languages for the resources that the package contains. Every package must declare at least one language for resources. The scale and DirectX feature level attributes are common for all resources in the package. |
 | [SelectionCriteria](element-selectioncriteria.md) | Defines selection criteria for the certificates defined for the package. |
-| [serverpreview:Attribute](element-serverpreview-attribute-manual.md) | Represents an attiribute that should be added to or modified in the applicationHost.config file. |
-| [serverpreview:CollectionElement](element-serverpreview-collectionelement-manual.md) | Represents a collection element with the specified attributes that should be added to the applicationHost.config file. |
-| [serverpreview:EventProvider](element-serverpreview-eventprovider-manual.md) | Identifies an event tracing extension to add to the server-specific app extensions. |
-| [serverpreview:EventProviders](element-serverpreview-eventproviders-manual.md) | Declares an app extensibility point of type **windows.eventProviders**. This element identifies one or more event tracing extensions to add to the server-specific app extensions. |
-| [serverpreview:Extension](element-serverpreview-extension-manual.md) | Declares an extensibility point for the app. |
-| [serverpreview:IisModule](element-serverpreview-iismodule-manual.md) | Identifies an Internet Information Service (IIS) module to install, update, or uninstall out-of-band on Nano Server. |
-| [serverpreview:IisModules](element-serverpreview-iismodules-manual.md) | Declares an app extensibility point of type **windows.iisModules**. This element identifies one or more Internet Information Service (IIS) modules to install, update, or uninstall out-of-band on Nano Server. |
-| [serverpreview:Mof](element-serverpreview-mof-manual.md) | Specifies the Managed Object Format (MOF) files to use to install or uninstall the Windows Management Instrumentation (WMI) provider. |
-| [serverpreview:NTService](element-serverpreview-ntservice-manual.md) | Identifies an NT Service to install, update, or uninstall on Nano Server. |
-| [serverpreview:NTServices](element-serverpreview-ntservices-manual.md) | Declares an app extensibility point of type **windows.ntServices**. This element identifies one or more NT Services to install, update, or uninstall on Nano Server. |
-| [serverpreview:PerformanceProvider](element-serverpreview-performanceprovider-manual.md) | Identifies a performance counter to add to the server-specific app extensions. |
-| [serverpreview:PerformanceProviders](element-serverpreview-performanceproviders-manual.md) | Declares an app extensibility point of type **windows.performanceProviders**. This element identifies one or more performance counters to add to the server-specific app extensions. |
-| [serverpreview:SectionData](element-serverpreview-sectiondata-manual.md) | Identifies section data that will be embedded into applicationHost.config file of an IIS installation. Each SectionData element specifies one combination of a section and a path as determined by the attributes of the element. |
-| [serverpreview:SectionDefinition](element-serverpreview-sectiondefinition-manual.md) | Identifies an Internet Information Service (IIS) SectionDefinition as it pertains to a same-named XML element in an applicationHost.config file. |
-| [serverpreview:SectionGroupDefinition](element-serverpreview-sectiongroupdefinition-manual.md) | Identifies an Internet Information Service (IIS) SectionGroupDefinition as it pertains to a same-named XML element in an applicationHost.config file. |
-| [serverpreview:ServiceDependencies](element-serverpreview-servicedependencies-manual.md) | Specifies the set of additional services on which the service that corresponds to the parent serverpreview:NTService element depends. |
-| [serverpreview:ServiceDependency](element-serverpreview-servicedependency-manual.md) | Specifies an additional service on which the service that corresponds to the grandparent serverpreview:NTService element depends. |
-| [serverpreview:ServiceParameterDword](element-serverpreview-serviceparameterdword-manual.md) | Specifies the value of a parameter for the service that has a data type of REG_DWORD. This parameter corresponds to a registry value that is created under the HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ServiceName\Parameters key or specified subkey. |
-| [serverpreview:ServiceParameterKey](element-serverpreview-serviceparameterkey-manual.md) | Specifies a parameter for the service. This parameter corresponds to a registry subkey that is created under the HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ServiceName\Parameters key. |
-| [serverpreview:ServiceParameters](element-serverpreview-serviceparameters-manual.md) | Specifies a set of parameters to configure for the service. These parameters correspond to registry values that are created under the HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ServiceName\Parameters key. |
-| [serverpreview:ServiceParameterString](element-serverpreview-serviceparameterstring-manual.md) | Specifies the value of a parameter for the service that has a data type of REG_SZ. This parameter corresponds to a registry value that is created under the HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ServiceName\Parameters key or specified subkey. |
-| [serverpreview:WmiProvider](element-serverpreview-wmiprovider-manual.md) | Identifies a Windows Management Instrumentation (WMI) provider to install, update, or uninstall out-of-band on Nano Server. |
-| [serverpreview:WmiProviders](element-serverpreview-wmiproviders-manual.md) | Declares an app extensibility point of type windows.wmiProviders. This element identifies one or more Windows Management Instrumentation (WMI) providers to install, update, or uninstall out-of-band on Nano Server. |
 | [TargetDeviceFamily](element-targetdevicefamily.md) | Identifies the device family that your package targets. For more info about device families, see [Guide to UWP apps](/windows/uwp/get-started/universal-application-platform-guide). |
 | [Task](element-task.md) | The background task associated with the app extensibility point. |
 | [TypeLib (in ComInterface/Interface)](element-com-interface-typelib.md) | A type library for an interface. |
@@ -299,8 +344,12 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap:VoipCallUpgrade](element-uap-voipcallupgrade.md) | Indicates that the app supports video upgrade. Video upgrade is a feature on some mobile devices such that, when a user is on a cellular call, the user can upgrade that call to a VoIP video call if there is an app installed that can service such a request. These upgrades can be non-seamless (we must drop the cellular call before starting the video call through the app) or seamless (the cellular call remains connected until the app tells us the video call is established). |
 | [uap:VoipDialPhoneNumber](element-uap-voipdialphonenumber.md) | Indicates that the app supports dialing phone numbers. |
 | [uap:WebAccountProvider](element-uap-webaccountprovider.md) | Declares an app extensibility point of type **windows.webAccountProvider**. |
+| [uap2:Extension](element-uap2-extension.md) | Declares an extensibility point for the app. |
+| [uap2:ManagedUrls](element-uap2-managedurls.md) | Provides support for multiple URLs. Allows plugins to specify multiple URLs to which they may send cookies. |
 | [uap2:SupportedVerbs](element-uap2-supportedverbs.md) | Contains verbs for a file context menu. |
+| [uap2:Url](element-uap2-url.md) | Specifies a URL to which a plugin may send cookies. Need only be a valid URI; not necessarily a URL. |
 | [uap2:Verb](element-uap2-verb.md) | Defines the verbs associated with a file context menu and enables Windows Desktop Bridge apps to use ddeexec to launch. |
+| [uap2:WebAccountProvider](element-uap2-webaccountprovider.md) | Declares an app extensibility point of type windows.webAccountProvider. |
 | [uap3:AppExecutionAlias](element-uap3-appexecutionalias.md) | Specifies the application's execution alias to determine the executable of the app to be activated. |
 | [uap3:AppExtension](element-uap3-appextension-manual.md) | Declares an app extensibility point of type **windows.appExtension**. This element indicates which categories of extensions the app intends to consume and/or host. |
 | [uap3:AppExtensionHost](element-uap3-appextensionhost-manual.md) | Declares an app extensibility point of type **windows.appExtensionHost**. This element indicates which categories of extensions the app can host.
@@ -312,10 +361,12 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap3:ContactDataProvider](element-uap3-contactdataprovider-manual.md) | Declares an app extensibility point of type **windows.contactDataProvider**. This element enables apps to become data providers for contacts. |
 | [uap3:EmailDataProvider](element-uap3-emaildataprovider-manual.md) | Declares an app extensibility point of type **windows.emailDataProvider**. This element enables apps to become data providers for email. |
 | [uap3:Extension](element-uap3-extension-manual.md) | Declares an extensibility point for the app. |
+| [uap3:FileTypeAssociations](element-uap3-filetypeassociations.md) | Defines the types of files used within the application. |
 | [uap3:Host](element-uap3-host-manual.md) | Represents a valid HTTP or HTTPS host name that the app wants to register as able to handle. |
 | [uap3:MainPackageDependency](element-uap3-mainpackagedependency-manual.md) | Specifies the main app package to which this supplemental package applies. |
-| [uap3:Name](elemennt-uap3-name-manual.md) | Specifies a category of extensions that the app can host. |
-| [uap3:Properties](elemnt-uap3-properties-manual.md) | Contains opaque XML that represents custom, extension-specific information that is simply stored and not read by the operating system. The information is only read by the host app. |
+| [uap3:Name](element-uap3-name-manual.md) | Specifies a category of extensions that the app can host. |
+| [uap3:Properties](element-uap3-properties-manual.md) | Contains opaque XML that represents custom, extension-specific information that is simply stored and not read by the operating system. The information is only read by the host app. |
+| [uap3:Protocol](element-uap3-protocol.md) | Declares an app extensibility point of type windows.protocol. |
 | [uap3:VisualElements](element-uap3-visualelements-manual.md) | Describes the visual aspects of the app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance. |
 | [uap4:ContactPanel](element-uap4-contactpanel.md) | Enables the contacts panel in a Windows app. |
 | [uap4:CustomCapability](element-uap4-customcapability.md) | Declares a custom capability required by a package. |
@@ -361,7 +412,8 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap6:AllowExecution](element-uap6-AllowExecution.md) | Indicates whether the contents of the package will be allowed to execute. |
 | [uap6:BarcodeScannerProvider](element-uap6-BarcodeScannerProvider.md) | Used for enabling the support of a barcode scanner. |
 | [uap6:Capability](element-uap6-capability.md) | Declares a capability required by a package. |
-| [uap6:Extension](element-uap6-Extension.md) | Declares an extensibility point for the app. |
+| [uap6:Extension (in Application/Extensions)](element-uap6-Extension.md) | Declares an extensibility point for the app. |
+| [uap6:Extension (in Package/Extensions)](element-uap6-package-extension.md) | Declares an extensibility point for the app. |
 | [uap6:LoaderSearchPathEntry](element-uap6-LoaderSearchPathEntry.md) | A path in the app package, relative to the app package root path, to be included in the loader search path for the app's processes. |
 | [uap6:LoaderSearchPathOverride](element-uap6-LoaderSearchPathOverride.md) | An extension that allows an app developer to declare a path in the app package, relative to the app package root path, to be included in the loader search path for the app's processes. |
 | [uap6:LocalExperiencePack](element-uap6-LocalExperiencePack.md) | This extension provides a means to deliver translated app resources. |
@@ -373,13 +425,35 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap7:OSPackageDependency](element-uap7-ospackagedependency.md) | Defines a package dependency for a UWP app. |
 | [uap7:Properties](element-uap7-properties.md) | Properties of an application. |
 | [uap7:SharedFonts](element-uap7-sharedfonts.md) | Contains the locations of shared fonts to be used with the app. |
+| [uap8:PosPaymentConnector](element-uap8-posPaymentConnector.md) | Contains device information for Point-of-Sale/Point-of-Service devices. |
+| [uap8:DataProtection](element-uap8-dataProtection.md) | Settings to configure data encryption. |
 | [uap8:ExecutionAlias](element-uap8-executionalias.md) | The executable of a UWP app to be activated from a command prompt. |
-| [uap10:AllowExternalContent](element-uap10-allowexternalcontent.md) | Enables your package manifest to reference content outside the package, in a specific location on disk, for [sparse package](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps) scenarios. |
+| [uap10:AllowExternalContent](element-uap10-allowexternalcontent.md) | Enables your package manifest to reference content outside the package, in a specific location on disk. See [Grant package identity by packaging with external location](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps). |
 | [uap10:Content](element-uap10-content.md) | Indicates whether Windows will enforce run time package integrity checks on the entire contents of the package. |
-| [uap10:Extension](element-uap10-extension.md) | Declares an extensibility point for the app. |
+| [uap10:DisplayName](element-uap10-displayname.md) | A friendly name that can be displayed to users. |
+| [uap10:Extension (Child of Application)](element-uap10-extension.md) | Declares an extensibility point for the app. |
+| [uap10:Extension (Child of Package)](element-uap10-package-extension.md) | Declares an extensibility point for the app. |
 | [uap10:HostRuntime](element-uap10-hostruntime.md) | Defines a package-wide extension that defines the runtime information to be used when activating a hosted app. |
 | [uap10:HostRuntimeDependency](element-uap10-hostruntimedependency.md) | Defines a dependency on a host app package for the current app package. |
 | [uap10:InstalledLocationVirtualization](element-uap10-installedlocationvirtualization.md) | Defines an extension for a desktop app in an MSIX package that redirects any writes to the app's installation directory to a location in the [app data](/windows/uwp/design/app-settings/store-and-retrieve-app-data). |
+|
+| [uap10:Logo](element-uap10-logo.md) | A path to a file that contains an image. |
+| [uap10:MediaContentDecryptionModule](element-uap10-mediacontentdecryptionmodule.md) | Defines an extension for a desktop app in an MSIX package that defines decryption information to be used to access media files.
 | [uap10:PackageIntegrity](element-uap10-packageintegrity.md) | Specifies the level of run time package integrity checks and remediation for the package.  |
+| [uap10:Protocol](element-uap10-protocol.md) | Declares an app extensibility point of type windows.protocol. A URI association indicates that the app is registered to handle URIs with the specified scheme. |
 | [uap10:UpdateActions](element-uap10-UpdateActions.md) | Specifies what happens during app updates to files in the app's installation directory that were previously modified, added, or deleted by the app. This element is intended to be used in conjunction with the [uap10:InstalledLocationVirtualization](element-uap10-installedlocationvirtualization.md) extension. |
+| [uap12:Extension](element-uap12-extension.md) | Declares an extensibility point for the app. |
+| [uap12:Host](element-uap12-host.md) | Declares domain and subdomain parameters for the uap12 extension. |
+| [uap13:AppInstaller](element-uap13-appinstaller.md) | Specifies a directory containing the installation files for the app. |
+| [uap13:AutoUpdate](element-uap13-autoupdate.md) | Specifies automatic update configuration for the app. |
+| [uap13:Extension](element-uap13-extension.md) | Declares an extensibility point for the app. |
+| [uap13:HostRuntimeDependency](element-uap13-hostruntimedependency.md) | Declares publisher information for the app. |
+| [uap15:Capabilities](element-uap15-capabilities.md) | Declares the access to protected user resources that a package requires. This element can be used by non-main packages. This element can only be used by framework packages. |
+| [uap15:DependencyTarget](element-uap15-dependencytarget.md) | Declares an extensibility point for the app. |
+| [virtualization:ExcludedDirectories](element-virtualization-excludeddirectories.md) | Specifies the list of directories that are excluded from file system virtualization. |
+| [virtualization:ExcludedDirectory](element-virtualization-excludeddirectory.md) | Specifies a directory that is excluded from file system virtualization. |
+| [virtualization:ExcludedKey](element-virtualization-excludedkey.md) | Specifies a key that is excluded from registry key virtualization. |
+| [virtualization:ExcludedKeys](element-virtualization-excludedkeys.md) | Specifies the list of keys that are excluded from registry virtualization. |
+| [virtualization:FileSystemWriteVirtualization](element-virtualization-filesystemwritevirtualization.md) | Indicates whether virtualization for the file system is enabled for a package. |
+| [virtualization:RegistryWriteVirtualization](element-virtualization-registrywritevirtualization.md) | Indicates whether virtualization for the registry is enabled for a package. |
 | [win32dependencies:ExternalDependency](element-win32dependencies-externaldependency.md) | Specifies an external dependency that is not included in the MSIX but will be chain installed as part of the app installation. |

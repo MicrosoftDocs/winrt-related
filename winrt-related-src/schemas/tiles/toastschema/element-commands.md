@@ -11,12 +11,12 @@ ms.topic: reference
 ms.date: 04/05/2017
 ---
 
-# commands
-
-
-
+# commands  (Toast XML Schema)
 
 Specifies that the toast notification is being used to indicate an incoming call or an alarm, with appropriate commands associated with each scenario.
+
+> [!NOTE]
+> The **commands** element has been deprecated. This functionality is implemented using the **scenario** attribute of the [toast](element-toast.md) element and the [actions](element-actions.md) element.
 
 ## Element hierarchy
 
@@ -128,14 +128,10 @@ Specifies that the toast notification is being used to indicate an incoming call
 
 ## See also
 
+* [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts)
+* [Notifications Visualizer](/windows/apps/design/shell/tiles-and-notifications/notifications-visualizer)
 
-[Alarm notifications sample](/samples/browse/)
 
-## Requirements
-
-|          | Value |
-|----------|--------------|
-| **Namespace** | `http://schemas.microsoft.com/notifications/2012/toast.xsd` |
 
  
 

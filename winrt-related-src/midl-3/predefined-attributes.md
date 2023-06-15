@@ -42,6 +42,25 @@ As a result, when your class description doesn't otherwise reference an
 interface, but when one is needed to implement the class, the MIDL 3.0
 compiler synthesizes and adds interfaces, as necessary.
 
+## The `[contentproperty]` attribute
+the `contentproperty` attribute represents the [ContentPropertyAttribute](/uwp/api/windows.ui.xaml.markup.contentpropertyattribute) class. Here's an example:
+
+```idl
+// BgLabelControl.idl
+namespace BgLabelControlApp
+{
+    [contentproperty("Content")]
+    runtimeclass BgLabelControl : Windows.UI.Xaml.Controls.Control
+    {
+        BgLabelControl();
+        static Windows.UI.Xaml.DependencyProperty LabelProperty{ get; };
+        String Label;
+        static Windows.UI.Xaml.DependencyProperty ContentProperty{ get; };
+        IInspectable Content;
+    }
+}
+```
+
 ## The `[contract]` attribute
 Do not use the `contract` attribute in your own APIs; it only has meaning for built-in Windows APIs.
 

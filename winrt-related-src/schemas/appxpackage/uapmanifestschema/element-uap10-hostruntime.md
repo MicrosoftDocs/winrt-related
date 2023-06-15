@@ -1,5 +1,4 @@
 ---
-
 title: uap10:HostRuntime
 description: This extension provides a means to deliver translated app resources (in Package/Extensions).
 ms.date: 03/05/2020
@@ -9,46 +8,45 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 
 # uap10:HostRuntime
 
-## Description
-Defines a package-wide extension that defines the runtime information to be used when activating a [hosted app](/windows/uwp/launch-resume/hosted-app-packages).
+Defines a package-wide extension that defines the runtime information to be used when activating a [hosted app](/windows/uwp/launch-resume/hosted-apps).
 
-## Element Hierarchy
+## Element hierarchy
 
-<dl>
-<dt><a href="element-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl>
-<dt><a href="element-uap10-extension.md">&lt;uap10:Extension&gt;</a></dt>
-<dd><b>&lt;uap10:HostRuntime&gt;</b></dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap10:Extensions\>](element-uap10-extension.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap10:HostRuntime\>**
 
 ## Syntax
-```syntax
-<uap10:HostRuntime Id =  An ASCII string between 1 and 256 characters in length. />
+
+```xml
+<uap10:HostRuntime
+  Id = 'An ASCII string with a value between 1 and 256 characters in length.' />
 ```
 
-### Key
-`?`   optional (zero or one)
-
-## Attrbutes and Elements
+## Attributes and elements
 
 ### Attributes
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| Id |  The unique identifier of this specific host app in the package. | Yes |
 
-### Child Elements
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Id** |  The unique identifier of this specific host app in the package. | An ASCII string with a value between 1 and 256 characters in length. | Yes |  |
+
+### Child elements
+
 None
+
+### Parent elements
+
+| Parent element | Description |
+|-|-|
+| [uap10:Extension](element-uap10-extension.md) | Declares an extensibility point for the app. |
 
 ## Requirements
 
-|   | Value |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
