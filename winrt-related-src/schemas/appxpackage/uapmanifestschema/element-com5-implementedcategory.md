@@ -1,0 +1,51 @@
+---
+title: com5:ImplementedCategory
+description: Indicates that the class has implemented the specified category. (com5:ImplementedCategory)
+ms.date: 06/22/2023
+ms.topic: reference
+keywords: windows 10, windows 11, uwp, schema, manifest, com
+---
+
+# com5:ImplementedCategory
+
+## Description
+
+Indicates that the class has implemented the specified category.
+
+## Element Hierarchy
+[\<Package\>](element-package.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; [\<Applications\>](element-applications.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; [\<Application\>](element-application.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; [\<Extensions\>](element-1-extensions.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; [\<ImplementedCategories\>](element-com5-implementedcategories.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **&lt;com5:ImplementedCategory&gt;**
+
+
+## Syntax
+```syntax
+<com5:ImplementedCategory     Id = A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.
+></com5:ImplementedCategory>
+```
+
+
+## Attributes
+
+| Attribute | Description | Data type | Required |
+| -----------| -------------| -----------| ----------|
+| Id | The ID of the COM category that is implemented. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |
+
+## Parent elements
+
+| Parent element | Description |
+|-|-|
+| [com5:ImplementedCategories](element-com5-implementedcategories.md) | Specifies categories implemented by the class. |
+
+## Requirements
+| Prefix | Value |
+| ---------------| -------------------------------------------------------------|
+| com5 | http://schemas.microsoft.com/appx/manifest/com/windows10/5 |
