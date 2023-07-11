@@ -1528,8 +1528,11 @@ For more information about these APIs, please see the official [SQLite documenta
 | sqlite3_get_auxdata | Introduced into winsqlite3.dll in 10.0.10586. |
 | sqlite3_get_table | Introduced into winsqlite3.dll in 10.0.10586. |
 | sqlite3_global_recover | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_hard_heap_limit64 | Introduced into winsqlite3.dll in 10.0.22000. |
 | sqlite3_initialize | Introduced into winsqlite3.dll in 10.0.10586. |
 | sqlite3_interrupt | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_keyword_count | Introduced into winsqlite3.dll in 10.0.18362. |
+| sqlite3_keyword_name | Introduced into winsqlite3.dll in 10.0.18362. |
 | sqlite3_last_insert_rowid | Introduced into winsqlite3.dll in 10.0.10586. |
 | sqlite3_libversion | Introduced into winsqlite3.dll in 10.0.10586. |
 | sqlite3_libversion_number | Introduced into winsqlite3.dll in 10.0.10586. |
@@ -1592,6 +1595,11 @@ For more information about these APIs, please see the official [SQLite documenta
 | sqlite3_set_auxdata | Introduced into winsqlite3.dll in 10.0.10586. |
 | sqlite3_shutdown | Introduced into winsqlite3.dll in 10.0.10586. |
 | sqlite3_sleep | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_snapshot_cmp | Introduced into winsqlite3.dll in 10.0.15063. |
+| sqlite3_snapshot_free | Introduced into winsqlite3.dll in 10.0.14393. |
+| sqlite3_snapshot_get | Introduced into winsqlite3.dll in 10.0.14393. |
+| sqlite3_snapshot_open | Introduced into winsqlite3.dll in 10.0.14393. |
+| sqlite3_snapshot_recover | Introduced into winsqlite3.dll in 10.0.16299. |
 | sqlite3_snprintf | Introduced into winsqlite3.dll in 10.0.10586. |
 | sqlite3_soft_heap_limit | Introduced into winsqlite3.dll in 10.0.10586. |
 | sqlite3_soft_heap_limit64 | Introduced into winsqlite3.dll in 10.0.10586. |
@@ -1600,6 +1608,7 @@ For more information about these APIs, please see the official [SQLite documenta
 | sqlite3_status | Introduced into winsqlite3.dll in 10.0.10586. |
 | sqlite3_step | Introduced into winsqlite3.dll in 10.0.10586. |
 | sqlite3_stmt_busy | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_stmt_isexplain | Introduced into winsqlite3.dll in 10.0.19041. |
 | sqlite3_stmt_readonly | Introduced into winsqlite3.dll in 10.0.10586. |
 | sqlite3_stmt_status | Introduced into winsqlite3.dll in 10.0.10586. |
 | sqlite3_strglob | Introduced into winsqlite3.dll in 10.0.10586. |
