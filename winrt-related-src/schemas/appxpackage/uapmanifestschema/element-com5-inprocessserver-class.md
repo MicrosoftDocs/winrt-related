@@ -97,4 +97,4 @@ The **com5:Class** element is identical to [com4:Class](element-com4-inprocessha
 
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|
-| com5 | http://schemas.microsoft.com/appx/manifest/com/windows10/5 |
+| com5 | `http://schemas.microsoft.com/appx/manifest/com/windows10/5` |

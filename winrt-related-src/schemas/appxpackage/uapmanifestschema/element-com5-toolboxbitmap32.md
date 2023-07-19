@@ -65,4 +65,4 @@ Identifies the module name and resource ID for a 16 x 16 bitmap to use for the f
 ## Requirements
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|
-| com5 | http://schemas.microsoft.com/appx/manifest/com/windows10/5 |
+| com5 | `http://schemas.microsoft.com/appx/manifest/com/windows10/5` |

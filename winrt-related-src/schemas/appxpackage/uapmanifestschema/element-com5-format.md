@@ -81,4 +81,4 @@ Specifies the file format an application can read from or write to.
 ## Requirements
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|
-| com5 | http://schemas.microsoft.com/appx/manifest/com/windows10/5 |
+| com5 | `http://schemas.microsoft.com/appx/manifest/com/windows10/5` |

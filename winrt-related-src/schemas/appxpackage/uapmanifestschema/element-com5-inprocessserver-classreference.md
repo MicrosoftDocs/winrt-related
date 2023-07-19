@@ -58,4 +58,4 @@ Specifies the class or class reference with which the registered in-process serv
 ## Requirements
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|
-| com5 | http://schemas.microsoft.com/appx/manifest/com/windows10/5 |
+| com5 | `http://schemas.microsoft.com/appx/manifest/com/windows10/5` |

@@ -72,4 +72,4 @@ Specifies the desired data or view aspect of the object when drawing or getting 
 
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|
-| com5 | http://schemas.microsoft.com/appx/manifest/com/windows10/5 |
+| com5 | `http://schemas.microsoft.com/appx/manifest/com/windows10/5` |

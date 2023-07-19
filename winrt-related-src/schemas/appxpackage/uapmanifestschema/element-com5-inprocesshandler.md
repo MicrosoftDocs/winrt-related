@@ -71,4 +71,4 @@ This element is identical to [com5:InProcessHandler](element-com4-inprocesshandl
 ## Requirements
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|
-| com5 | http://schemas.microsoft.com/appx/manifest/com/windows10/5 |
+| com5 | `http://schemas.microsoft.com/appx/manifest/com/windows10/5` |
