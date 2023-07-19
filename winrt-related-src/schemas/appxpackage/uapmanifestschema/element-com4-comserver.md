@@ -68,8 +68,8 @@ None.
 | [InProcessServer](element-com4-inprocessserver.md) | Registers an in-process server with one or many class registrations. |
 | [InProcessHandler](element-com4-inprocesshandler.md) | Registers an in-process handler with one or many class registrations. |
 | [ManagedInProcessServer](element-com4-managedinprocessserver.md) | Registers a managed in-process server with one or many class registrations. |
-| [com5:InProcessServer](schemas\appxpackage\uapmanifestschema\element-com5-inprocessserver.md) | Registers an in-process server with one or many class registrations. |
-| [com5:InProcessHandler](schemas\appxpackage\uapmanifestschema\element-com5-inprocesshandler.md) | Registers an in-process handler with one or many class registrations. |
+| [com5:InProcessServer](element-com5-inprocessserver.md) | Registers an in-process server with one or many class registrations. |
+| [com5:InProcessHandler](element-com5-inprocesshandler.md) | Registers an in-process handler with one or many class registrations. |
 
 ### Parent elements
 
