@@ -602,10 +602,10 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-com5-toolboxbitmap32.md
           - name: "com5:TypeLib"
             href: schemas/appxpackage/uapmanifestschema/element-com5-typelib.md
-- name: "com5:Verb"
-  href: schemas/appxpackage/uapmanifestschema/element-com5-verb.md
-- name: "com5:Verbs"
-  href: schemas/appxpackage/uapmanifestschema/element-com5-verbs.md
+          - name: "com5:Verb"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-verb.md
+          - name: "com5:Verbs"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-verbs.md
           - name: "deployment:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-deployment-extension.md
           - name: "deployment:DeploymentExtensionHandler"
