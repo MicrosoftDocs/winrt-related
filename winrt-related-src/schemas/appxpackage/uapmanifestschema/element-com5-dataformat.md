@@ -1,6 +1,6 @@
 ---
 title: com5:DataFormat
-description: The data format supported by an application. (com4:DataFormat)
+description: The data format supported by an application. (com5:DataFormat)
 ms.date: 06/22/2023
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com

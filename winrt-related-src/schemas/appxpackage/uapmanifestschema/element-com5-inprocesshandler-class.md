@@ -1,6 +1,6 @@
 ---
 title: com5:Class (in InProcessHandler)
-description: Defines an in-process handler class registration. (in com4:InProcessHandler)
+description: Defines an in-process handler class registration. (in com5:InProcessHandler)
 ms.date: 06/22/2023
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
