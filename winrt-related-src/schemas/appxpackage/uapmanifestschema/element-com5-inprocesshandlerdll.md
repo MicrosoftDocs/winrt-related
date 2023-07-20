@@ -54,6 +54,11 @@ Specifies the path and processor architecture of an in-process handler DLL.
 | [com5:InProcessHandler](element-com5-inprocesshandler.md) | Registers an in-process handler with one or many class registrations. |
 
 
+## Remarks 
+
+In a change from [com4:InProcessHandlerDll](element-com4-inprocesshandlerdll.md), the **Path** attribute does not require that the supplied value end in ".dll".
+
+
 ## Requirements
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|

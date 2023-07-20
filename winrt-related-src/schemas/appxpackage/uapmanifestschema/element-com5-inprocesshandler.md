@@ -12,8 +12,8 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 ## Description
 
-Registers an in-process handler with one or many class registrations.
-
+Registers an in-process handler with one or many class registrations. This schema introduces some minor changes in syntactic validation from the com4 schema.
+ 
 
 
 ## Element Hierarchy
@@ -66,7 +66,7 @@ Registers an in-process handler with one or many class registrations.
 
 ## Remarks
 
-This element is identical to [com5:InProcessHandler](element-com4-inprocesshandler.md) except that the child **Class** element can specify a [TypeLib](element-com5-typelib.md).
+In a change from [com4:InProcessHandler](element-com4-inprocesshandler.md), the **Path** attribute does not require that the supplied value end in ".dll".
 
 ## Requirements
 | Prefix | Value |

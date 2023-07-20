@@ -12,7 +12,7 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 ## Description
 
-Specifies the path and processor architecture of an in-process server DLL.
+Specifies the path and processor architecture of an in-process server DLL. This schema introduces some minor changes in syntactic validation from the com4 schema.
 
 ## Element Hierarchy
 [\<Package\>](element-package.md)
@@ -52,6 +52,10 @@ Specifies the path and processor architecture of an in-process server DLL.
 | Parent element | Description |
 |-|-|
 | [com5:InProcessServer](element-com5-inprocessserver.md) | Registers an in-process server with one or many class registrations. |
+
+## Remarks
+
+In a change from [com4:InProcessServerDll](element-com4-inprocessserverdll.md), the **Path** attribute does not require that the supplied value end in ".dll".
 
 ## Requirements
 | Prefix | Value |
