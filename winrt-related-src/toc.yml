@@ -560,6 +560,52 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-com4-win32path.md
           - name: "com4:Win64Path"
             href: schemas/appxpackage/uapmanifestschema/element-com4-win64path.md
+          - name: "com5:Aspect"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-aspect.md
+          - name: "com5:Conversion"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-conversion.md
+          - name: "com5:DataFormat"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-dataformat.md
+          - name: "com5:DataFormats"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-dataformats.md
+          - name: "com5:DefaultIcon"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-defaulticon.md
+          - name: "com5:Format"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-format.md
+          - name: "com5:ImplementedCategories"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-implementedcategories.md
+          - name: "com5:ImplementedCategory"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-implementedcategory.md
+          - name: "com5:Class (in InProcessHandler)"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-inprocesshandler-class.md
+          - name: "com5:ClassReference (in InProcessHandler)"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-inprocesshandler-classreference.md
+          - name: "com5:InProcessHandler"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-inprocesshandler.md
+          - name: "com5:InProcessHandlerDll"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-inprocesshandlerdll.md
+          - name: "com5:Class (in InProcessServer)"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-inprocessserver-class.md
+          - name: "com5:ClassReference (in InProcessServer)"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-inprocessserver-classreference.md
+          - name: "com5:InProcessServer"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-inprocessserver.md
+          - name: "com5:InProcessServerDll"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-inprocessserverdll.md
+          - name: "com5:MiscStatus"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-miscstatus.md
+          - name: "com5:Readable"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-readable.md
+          - name: "com5:ReadWritable"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-readwritable.md
+          - name: "com5:ToolboxBitmap32"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-toolboxbitmap32.md
+          - name: "com5:TypeLib"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-typelib.md
+          - name: "com5:Verb"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-verb.md
+          - name: "com5:Verbs"
+            href: schemas/appxpackage/uapmanifestschema/element-com5-verbs.md
           - name: "deployment:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-deployment-extension.md
           - name: "deployment:DeploymentExtensionHandler"
