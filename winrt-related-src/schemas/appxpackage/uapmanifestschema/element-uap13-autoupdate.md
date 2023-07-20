@@ -14,13 +14,9 @@ Specifies automatic update configuration for the app.
 
 [\<Package\>](element-package.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap13:Extension\>](element-uap13-extension.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**<\uap13:AutoUpdate\>**
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**<\uap13:AutoUpdate\>**
 
 ## Syntax
 
@@ -49,7 +45,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [Extension (in Package/Applications)](element-extension.md) | Declares an extensibility point for the app. |
+| [Properties](element-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users. |
 
 ### Remarks
 
