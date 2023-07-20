@@ -16,7 +16,7 @@ Specifies an App Installer file, which provides an update path that a Windows ap
 
 &nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;[<\uap13:AutoUpdate\>](element-uap13-autoupdate.md)
+&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;[\<uap13:AutoUpdate\>](element-uap13-autoupdate.md)
 
  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap13:AppInstaller\>**
 
