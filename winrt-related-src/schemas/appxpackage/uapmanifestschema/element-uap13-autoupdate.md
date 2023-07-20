@@ -39,7 +39,7 @@ None.
 
 | Child element | Description |
 |-|-|
-| [AppInstaller](element-uap13-autoupdate.md) | Specifies an `.appinstaller` file, which provides an update path that a Windows app can traverse searching for updates and repairs. |
+| [AppInstaller](element-uap13-appinstaller.md) | Specifies an `.appinstaller` file, which provides an update path that a Windows app can traverse searching for updates and repairs. |
 
 ### Parent elements
 
