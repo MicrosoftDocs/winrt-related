@@ -16,7 +16,7 @@ Specifies automatic update configuration for the app.
 
 &nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**<\uap13:AutoUpdate\>**
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap13:AutoUpdate\>**
 
 ## Syntax
 
