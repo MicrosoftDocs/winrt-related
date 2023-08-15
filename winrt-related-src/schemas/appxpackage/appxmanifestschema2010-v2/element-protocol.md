@@ -76,9 +76,9 @@ Declares an app extensibility point of type **windows.protocol**. A URI associat
 <tr class="even">
 <td><strong>m:DesiredView</strong></td>
 <td><p>The desired view of the app.</p>
-<blockquote>
+
 <strong>Windows Phone:  DesiredView</strong> isn't supported for Windows Phone.
-</blockquote></td>
+</td>
 <td><p>This attribute can have one of the following values:</p>
 <ul>
 <li>default</li>
