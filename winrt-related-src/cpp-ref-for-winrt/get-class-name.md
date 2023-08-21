@@ -12,7 +12,7 @@ ms.workload: ["cplusplus"]
 
 A helper function that retrieves a string containing the fully-qualified type name of the Windows Runtime class represented by an object of a given projected type. This is the same value returned from a call to [IInspectable::GetRuntimeClassName](/windows/win32/api/inspectable/nf-inspectable-iinspectable-getruntimeclassname).
 
-For an explanation of the implementation type and projected type concepts, see [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis) and [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis).
+This is a free function that retrieves the runtime class name of any arbitrary **IInspectable**. For the automatically-generated member function that's available only on implementation types, see [GetRuntimeClassName](/uwp/cpp-ref-for-winrt/getruntimeclassname). For an explanation of the implementation type and projected type concepts, see [Consume APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/consume-apis) and [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis).
 
 ## Syntax
 ```cppwinrt
