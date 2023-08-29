@@ -31,7 +31,7 @@ Defines the verbs associated with a file context menu and enables Windows Deskto
 ## Syntax
 
 ```xml
-<uap2:Verb
+<uap3:Verb
   Id = 'An alphanumeric string with a value between 3 and 64 characters in length.'
   Extended = 'An optional boolean value.'
   rescap3:DdeExecCommand = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
@@ -39,7 +39,7 @@ Defines the verbs associated with a file context menu and enables Windows Deskto
   rescap3:DdeExecTopic = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
   rescap3:DdeExecIfExec = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
   uap7:Default = 'An optional boolean value.'
-  uap3:Parameters = 'A string that contains one or more app parameters.'
+  Parameters = 'A string that contains one or more app parameters.'
   uap3:MultiSelectModel = 'A string that can be one of the following values: "Player", "Document", or "Single".' >
 ```
 
@@ -60,7 +60,7 @@ Defines the verbs associated with a file context menu and enables Windows Deskto
 | **rescap3:DdeExecTopic** | The topic name of the DDE conversion. | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
 | **rescap3:DdeExecIfExec** | The DDE command used if DDE conversion cannot be executed. | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
 | **uap7:Default** | Specifies whether the verb is the default verb. | An optional boolean value. | No |  |
-| **uap3:Parameters** | Specifies the parameters for the app. | A string that contains one or more app parameters. | No |  |
+| **Parameters** | Specifies the parameters for the app. | A string that contains one or more app parameters. | No |  |
 | **uap3:MultiSelectModel** | Specifies the activation model for apps that are started when the user selects and opens multiple files at the same time. For more information, see [this article](/windows/apps/desktop/modernize/desktop-to-uwp-extensions#define-how-your-application-behaves-when-users-select-and-open-multiple-files-at-the-same-time). | A string that can be one of the following values: *Player*, *Document*, or *Single*. | No |  |
 
 ### Child elements
