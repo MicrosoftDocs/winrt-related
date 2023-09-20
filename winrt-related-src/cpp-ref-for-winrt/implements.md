@@ -1,9 +1,7 @@
 ---
-
 description: A base struct template that implements one or more Windows Runtime interfaces on behalf of a derived type.
 title: winrt::implements struct template (C++/WinRT)
 dev_langs: ["C++"]
-
 ms.date: 03/19/2019
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, implement, interface
@@ -58,7 +56,10 @@ Your derived type name.
 `typename... I`
 Any number of interfaces to implement.
 
+By default, interfaces that derive from **IInspectable** are reported by the implementation of the **IInspectable::GetIids** method. Use the [`cloaked` marker template](cloaked.md) to suppress that.
+
 ### Example
+
 ```cppwinrt
 // App.cpp
 ...
@@ -130,7 +131,7 @@ void* find_interface(winrt::guid const& id) const noexcept override;
 The pointer to the interface implemented by the **implements** object, identified by the specified identifier.
 
 ## implements::get_local_iids function
-Retrieves a two-element tuple containing the identifiers of the interfaces that are implemented by the **implements** object.
+Retrieves a two-element tuple containing the identifiers of the interfaces that are implemented by the **implements** object. ["Cloaked" interfaces](cloaked.md) aren't included.
 
 ### Syntax
 ```cppwinrt
@@ -138,7 +139,7 @@ std::pair<uint32_t, const winrt::guid*> get_local_iids() const noexcept override
 ```
 
 ### Return value
-A two-element tuple containing the identifiers of the interfaces that are implemented by the **implements** object.
+A two-element tuple containing the number and identifiers of the interfaces that are implemented by the **implements** object.
 
 ## implements::get_strong function
 Retrieves a strong reference to the **winrt::implements** object's *this* pointer. See [Strong and weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references). Because **get_strong** is a member function of the **winrt::implements** struct template, you can call it only from an object that directly or indirectly derives from **winrt::implements**, such as a C++/WinRT object. For more info about deriving from **winrt::implements**, and examples, see [Author APIs with C++/WinRT](/windows/uwp/cpp-and-winrt-apis/author-apis).

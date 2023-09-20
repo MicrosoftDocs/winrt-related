@@ -1,14 +1,9 @@
 ---
-
 description: API reference content for the winrt namespace from C++/WinRT.
 title: winrt namespace (C++/WinRT)
 dev_langs: ["C++"]
-
 ms.date: 04/10/2018
-
 ms.topic: "language-reference"
-
-
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference
 ms.workload: ["cplusplus"]
 ---
@@ -26,6 +21,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [apartment_context struct](apartment-context.md) | Captures the thread context within a coroutine so that it can be restored later. |
 | [array_view struct template](array-view.md) | A view, or span, of a contiguous series of values. |
 | [auto_revoke_t marker struct](auto-revoke-t.md) | A marker type used to request an event revoker when registering a delegate to handle an event. |
+| [cloaked marker struct template](cloaked.md) | A marker type used to indicate that an implemented interface should not be reported by [IInspectable::GetIids](/windows/win32/api/inspectable/nf-inspectable-iinspectable-getiids) |
 | [clock struct](clock.md) | A type containing static helper functions for converting a [Windows::Foundation::DateTime](/uwp/api/windows.foundation.datetime) (that is, a [std::chrono::time_point](/cpp/standard-library/time-point-class)) to and from **winrt::file_time**, and to and from [time_t](/cpp/c-runtime-library/reference/time-time32-time64). |
 | [com_array struct template](com-array.md) | A view, or span, of a contiguous series of values for passing to and from Windows Runtime APIs. |
 | [com_ptr struct template](com-ptr.md) | A reference-counted COM smart pointer template. |
