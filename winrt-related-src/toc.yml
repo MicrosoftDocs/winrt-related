@@ -2405,6 +2405,8 @@ items:
       href: cpp-ref-for-winrt/box-value.md
     - name: "capture function template"
       href: cpp-ref-for-winrt/capture.md
+    - name: "cloaked marker struct template"
+      href: cpp-ref-for-winrt/cloaked.md
     - name: "clock struct"
       href: cpp-ref-for-winrt/clock.md
     - name: "com_array struct template"
