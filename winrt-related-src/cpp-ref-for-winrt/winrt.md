@@ -2,7 +2,7 @@
 description: API reference content for the winrt namespace from C++/WinRT.
 title: winrt namespace (C++/WinRT)
 dev_langs: ["C++"]
-ms.date: 04/10/2018
+ms.date: 09/21/2023
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference
 ms.workload: ["cplusplus"]
@@ -15,6 +15,7 @@ The **winrt** namespace provides custom data types belonging to [C++/WinRT](/win
 Also provided in the **winrt** namespace are functions (for creating runtime class instances, boxing and unboxing, etc.), smart pointers, and other facilities.
 
 ## Types in the winrt namespace
+
 | Type | Description |
 | - | - |
 | [agile_ref struct template](agile-ref.md) | A type representing an agile reference to a C++/WinRT object or interface. |
@@ -25,6 +26,8 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [clock struct](clock.md) | A type containing static helper functions for converting a [Windows::Foundation::DateTime](/uwp/api/windows.foundation.datetime) (that is, a [std::chrono::time_point](/cpp/standard-library/time-point-class)) to and from **winrt::file_time**, and to and from [time_t](/cpp/c-runtime-library/reference/time-time32-time64). |
 | [com_array struct template](com-array.md) | A view, or span, of a contiguous series of values for passing to and from Windows Runtime APIs. |
 | [com_ptr struct template](com-ptr.md) | A reference-counted COM smart pointer template. |
+| [composable marker struct](composable.md) | A marker type used to indicate that the type can be the inner class of a composable class. |
+| [composing marker struct](composing.md) | A marker type used to indicate that the type is the outer class of a composable class. |
 | [deferrable_event_args](deferrable-event-args.md) | A type that you can use to implement (produce) the deferrable event pattern. |
 | [delegate struct template](delegate.md) | A type that you can use to declare a custom delegate type for your own events. |
 | [event struct template](event.md) | A type that you can use to declare and implement an event of a specified delegate type. |
@@ -52,6 +55,7 @@ Also provided in the **winrt** namespace are functions (for creating runtime cla
 | [implements struct template](implements.md) | A base struct template that implements one or more Windows Runtime interfaces on behalf of a derived type. |
 | [map_base struct template](map-base.md) | A base class, for you to derive from, that represents a non-observable associative collection. |
 | [map_view_base struct template](map-view-base.md) | A base class, for you to derive from, that represents a view of a contiguous sequence of elements in an associative collection. |
+| [no_module_lock marker struct](no-module-lock.md) | A marker type used to indicate that instances of a type do not count toward the module object count. |
 | [no_weak_ref marker struct](no-weak-ref.md) | A marker type used to opt out of weak reference support. |
 | [non_agile marker struct](non-agile.md) | A marker type used to indicate that your type is not agile, and consequently does not implement the [IAgileObject interface](/windows/win32/api/objidlbase/nn-objidlbase-iagileobject). |
 | [observable_map_base struct template](observable-map-base.md) | A base class, for you to derive from, that represents an observable associative collection. |
