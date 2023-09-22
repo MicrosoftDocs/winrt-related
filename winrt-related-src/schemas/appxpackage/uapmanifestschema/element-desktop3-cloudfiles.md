@@ -36,7 +36,8 @@ Registration for the handlers implemented in an application and context menu opt
     desktop3:BannersHandler,
     desktop3:CloudFilesContextMenus,
     desktop4:ContentUriSource
-    desktop4:DesktopIconOverlayHandlers )
+    desktop4:DesktopIconOverlayHandlers,
+    cloudFiles2:StorageProviderStatusUISourceFactory )
     
 </desktop3:CloudFiles>
 ```
@@ -59,7 +60,8 @@ Registration for the handlers implemented in an application and context menu opt
 | [desktop3:BannersHandler](element-desktop3-BannersHandler.md) | Registration of a Windows Shell BannersHandler for cloud based placeholder files. |  
 | [desktop3:CloudFilesContextMenus](element-desktop3-CloudFilesContextMenus.md) | Registration of a context menu for a cloud based placeholder file. |
 | [desktop4:ContentUriSource](element-desktop4-contenturisource.md) | Registration of a Windows Shell ContentUriSource enabling cloud storage providers to provide a file ID for a given local path. |  
-| [desktop4:DesktopIconOverlayHandlers](element-desktop4-contenturisource.md) | Contains Windows Shell icon overlay handlers for cloud based placeholder files. | 
+| [desktop4:DesktopIconOverlayHandlers](element-desktop4-contenturisource.md) | Contains Windows Shell icon overlay handlers for cloud based placeholder files. |
+| [cloudFiles2:StorageProviderStatusUISourceFactory](element-cloudfiles2-storageproviderstatusuisourcefactory.md) | Registration of a Windows shell [IStorageProviderStatusUISourceFactory](/uwp/api/windows.storage.provider.istorageproviderstatusuisourcefactory) for cloud-based placeholder files. |
 
 ### Parent elements
 
