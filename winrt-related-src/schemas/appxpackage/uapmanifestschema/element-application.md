@@ -117,6 +117,12 @@ Universal Windows Platform (UWP) app activations require **EntryPoint**. So if y
 
 Setting **uap10:RuntimeBehavior**="win32App" and **uap10:TrustLevel**="appContainer" isn't supported.
 
+Setting `uap10:TrustLevel="mediumIL"` while `uap10:RuntimeBehavior="windowsApp"` requires the `Microsoft.coreAppActivation_8wekyb3d8bbwe` Custom Capability.
+
+This is also true if `uap10:TrustLevel="mediumIL"` and `EntryPoint` is any other value than `"windows.fullTrustApplication"` or `"windows.partialTrustApplication"`.
+
+You can read more about this custom capability here in [Custom Capabilities](/windows/uwp/packaging/app-capability-declarations#custom-capabilities).
+
 ### Important notes about multi-instancing apps
 
 - If an app declares **SupportsMultipleInstances** within the **Application** element, then all foreground extensions will also be multi-instanced.

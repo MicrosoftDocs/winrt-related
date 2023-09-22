@@ -34,9 +34,6 @@ The executable of a UWP app to be activated from a command prompt.
     desktop10:UseDesktopChangeRouter = 'A boolean value.'
     desktop10:DropTarget = 'A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.'
     desktop10:UseUrl = 'A boolean value.'
-    desktop10:EnvironmentPath = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
-    desktop10:DropTarget = 'A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.'
-    desktop10:UseUrl = 'A boolean value.'
     desktop10:EnvironmentPath = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.' >
 
     <!-- Child elements -->

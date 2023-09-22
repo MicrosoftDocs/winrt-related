@@ -2407,12 +2407,18 @@ items:
       href: cpp-ref-for-winrt/box-value.md
     - name: "capture function template"
       href: cpp-ref-for-winrt/capture.md
+    - name: "cloaked marker struct template"
+      href: cpp-ref-for-winrt/cloaked.md
     - name: "clock struct"
       href: cpp-ref-for-winrt/clock.md
     - name: "com_array struct template"
       href: cpp-ref-for-winrt/com-array.md
     - name: "com_ptr struct template"
       href: cpp-ref-for-winrt/com-ptr.md
+    - name: "composable marker struct"
+      href: cpp-ref-for-winrt/composable.md
+    - name: "composing marker struct"
+      href: cpp-ref-for-winrt/composing.md
     - name: "copy_from_abi function"
       href: cpp-ref-for-winrt/copy-from-abi.md
     - name: "copy_to_abi function"
@@ -2530,6 +2536,8 @@ items:
       href: cpp-ref-for-winrt/map-view-base.md
     - name: "name_of function template"
       href: cpp-ref-for-winrt/name-of.md
+    - name: "no_module_lock marker struct"
+      href: cpp-ref-for-winrt/no-module-lock.md
     - name: "no_weak_ref marker struct"
       href: cpp-ref-for-winrt/no-weak-ref.md
     - name: "non_agile marker struct"

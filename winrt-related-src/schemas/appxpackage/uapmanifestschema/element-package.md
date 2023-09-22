@@ -54,7 +54,7 @@ Defines the root element of an app package manifest. The manifest describes the 
 |-|-|
 | [Applications](element-applications.md) | Represents one or more apps that comprise the package. |
 | [Capabilities](element-capabilities.md) | Declares the access to protected user resources that the package requires. |
-| [Depdendencies](element-dependencies.md) | Declares other packages that a package depends on to complete its software. |
+| [Dependencies](element-dependencies.md) | Declares other packages that a package depends on to complete its software. |
 | [Extensions (type: CT_PackageExtensions)](element-extensions.md) | Defines one or more extensibility points for the package. |
 | [Identity](element-identity.md) | Defines a globally unique identifier for a package. A package identity is represented as a tuple of attributes of the package. |
 | [Properties](element-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users. |
