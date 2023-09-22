@@ -352,6 +352,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-cloudfiles-extendedpropertyhandler.md
           - name: "cloudFiles:ThumbnailProviderHandler"
             href: schemas/appxpackage/uapmanifestschema/element-cloudfiles-thumbnailproviderhandler.md
+          - name: "cloudFiles2:StorageProviderStatusUISourceFactory"
+            href: schemas/appxpackage/uapmanifestschema/element-cloudfiles2-storageproviderstatusuisourcefactory.md
           - name: "com:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-com-extension.md
           - name: "com:ComInterface"
