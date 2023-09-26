@@ -58,7 +58,7 @@ Defines the verbs associated with a file context menu and enables Windows Deskto
 | **rescap3:DdeExecApplication** | An application name used to establish the DDE conversion. | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
 | **rescap3:DdeExecTopic** | The topic name of the DDE conversion. | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
 | **rescap3:DdeExecIfExec** | The DDE command used if DDE conversion cannot be executed. | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
-| **uap7:Default** | Specifies whether the verb is the default verb. | An optional boolean value. | No |  |
+| **uap7:Default** | Specifies whether the verb is the default verb. Only one verb within **SupportedVerbs** can be set as the default verb. | An optional boolean value. | No | False |
 
 ### Child elements
 
