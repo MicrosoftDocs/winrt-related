@@ -2,7 +2,7 @@
 description: A base struct template that implements one or more Windows Runtime interfaces on behalf of a derived type.
 title: winrt::implements struct template (C++/WinRT)
 dev_langs: ["C++"]
-ms.date: 03/19/2019
+ms.date: 09/29/2023
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, implement, interface
 ms.workload: ["cplusplus"]
@@ -105,6 +105,11 @@ struct App : implements<App, IFrameworkViewSource>
 |Operator|Description| 
 |------------|-----------------|
 |[implements::operator Windows::Foundation::IInspectable](#implementsoperator-windowsfoundationiinspectable)|Converts the **implements** object to a **Windows::Foundation::IInspectable**.|
+
+## Data members
+|Data member|Description| 
+|------------|-----------------|
+|**m_inner**|Accesses the *composed* object, where applicable. For more info, see [Runtime class derivation](/windows/uwp/cpp-and-winrt-apis/author-apis#runtime-class-derivation).|
 
 ## implements::AddRef function
 Increments the reference count for the default interface of the **implements** object.
