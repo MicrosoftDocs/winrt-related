@@ -55,6 +55,16 @@ None.
 |-|-|
 | [uap3:Extension](element-uap3-extension-manual.md) | Declares an extensibility point for the app. |
 
+## Remarks
+
+for a packaged app to see/enumerate appextensions it must meet at least one of the following criteria:
+
+- Run as MediumIL (or higher)
+- Run in an AppContainer and declare a matching appextensionhost
+- Run in an AppContainer and have the packageQuery capability
+
+This check is called by [AppExtensionCatalog.Open](/uwp/api/windows.applicationmodel.appextensions.appextensioncatalog.open) and [AppExtensionCatalog::RequestRemovePackageAsync](/uwp/api/windows.applicationmodel.appextensions.
+
 ## Examples
 
 The following example indicates that the app can host the Office spell check and browser extensions.
