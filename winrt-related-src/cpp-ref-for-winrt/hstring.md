@@ -162,7 +162,7 @@ Returns a reference to the last character in the **hstring** object.
 
 ### Syntax
 ```cppwinrt
-std::wchar_t const& back() const noexcept;
+wchar_t const& back() const noexcept;
 ```
 
 ### Return value 
@@ -184,7 +184,7 @@ Returns a pointer to the underlying null-terminated C-style string of the charac
 
 ### Syntax
 ```cppwinrt
-std::wchar_t const* c_str() const noexcept;
+wchar_t const* c_str() const noexcept;
 ```
 
 ### Return value
