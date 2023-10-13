@@ -68,4 +68,4 @@ Declares an app extensibility point of type *windows.packageExtension*. This ele
 ## Requirements
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|
-| uap17 | http://schemas.microsoft.com/appx/manifest/uap/windows10/17 |
+| uap17 | `http://schemas.microsoft.com/appx/manifest/uap/windows10/17` |

@@ -57,5 +57,5 @@ Declares other packages that a package depends on. This dependency can be specif
 ## Requirements
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|
-| uap17 | http://schemas.microsoft.com/appx/manifest/uap/windows10/17 |
-| uap6 | http://schemas.microsoft.com/appx/manifest/uap/windows10/6 |
+| uap17 | `http://schemas.microsoft.com/appx/manifest/uap/windows10/17` |
+| uap6 | `http://schemas.microsoft.com/appx/manifest/uap/windows10/6` |

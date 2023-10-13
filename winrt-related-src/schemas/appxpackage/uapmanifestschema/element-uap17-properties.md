@@ -46,4 +46,4 @@ Contains opaque XML that represents custom, extension-specific information that 
 ## Requirements
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|
-| uap17 | http://schemas.microsoft.com/appx/manifest/uap/windows10/17 |
+| uap17 | `http://schemas.microsoft.com/appx/manifest/uap/windows10/17` |

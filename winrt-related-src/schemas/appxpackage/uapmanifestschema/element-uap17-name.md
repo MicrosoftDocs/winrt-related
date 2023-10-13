@@ -50,4 +50,4 @@ Specifies the name of an extension category that can be hosted by a [PackageExte
 
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|
-| uap17 | http://schemas.microsoft.com/appx/manifest/uap/windows10/17 |
+| uap17 | `http://schemas.microsoft.com/appx/manifest/uap/windows10/17` |

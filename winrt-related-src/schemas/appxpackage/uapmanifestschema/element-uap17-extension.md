@@ -93,7 +93,7 @@ Declares an extensibility point for the app.
 ## Requirements
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|
-| uap17 | http://schemas.microsoft.com/appx/manifest/uap/windows10/17 |
-| uap10 | http://schemas.microsoft.com/appx/manifest/uap/windows10/10 |
-| uap11 | http://schemas.microsoft.com/appx/manifest/uap/windows10/11 |
-| desktop7 | http://schemas.microsoft.com/appx/manifest/desktop/windows10/7 |
+| uap17 | `http://schemas.microsoft.com/appx/manifest/uap/windows10/17` |
+| uap10 | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
+| uap11 | `http://schemas.microsoft.com/appx/manifest/uap/windows10/11` |
+| desktop7 | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |

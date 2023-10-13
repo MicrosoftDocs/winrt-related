@@ -37,4 +37,4 @@ Specifies whether the OS should close the app for app updates, or if the update 
 ## Requirements
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|
-| uap17 | http://schemas.microsoft.com/appx/manifest/uap/windows10/17 |
+| uap17 | `http://schemas.microsoft.com/appx/manifest/uap/windows10/17` |
