@@ -452,6 +452,9 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap13:HostRuntimeDependency](element-uap13-hostruntimedependency.md) | Declares publisher information for the app. |
 | [uap15:Capabilities](element-uap15-capabilities.md) | Declares the access to protected user resources that a package requires. This element can be used by non-main packages. This element can only be used by framework packages. |
 | [uap15:DependencyTarget](element-uap15-dependencytarget.md) | Declares an extensibility point for the app. |
+| [uap17:Extension](element-uap17-extension.md) | Declares an extensibility point for the app. |
+| [uap17:PackageDependency](element-uap17-packagedependency.md) | Declares other packages that a package depends on. This dependency can be specified as required for both install time and runtime or just install time but not runtime. |
+| [uap17:UpdateWhileInUse](element-uap17-updatewhileinuse.md) | Specifies whether the OS should close the app for app updates, or if the update should be deferred until until the next time the app is restarted by the user or a system reboot. |
 | [virtualization:ExcludedDirectories](element-virtualization-excludeddirectories.md) | Specifies the list of directories that are excluded from file system virtualization. |
 | [virtualization:ExcludedDirectory](element-virtualization-excludeddirectory.md) | Specifies a directory that is excluded from file system virtualization. |
 | [virtualization:ExcludedKey](element-virtualization-excludedkey.md) | Specifies a key that is excluded from registry key virtualization. |

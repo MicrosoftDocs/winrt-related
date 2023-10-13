@@ -132,6 +132,20 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap15-capabilities.md
           - name: "uap15:DependencyTarget"
             href: schemas/appxpackage/uapmanifestschema/element-uap15-dependencytarget.md
+          - name: "uap17:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-uap17-extension.md
+          - name: "uap17:Name"
+            href: schemas/appxpackage/uapmanifestschema/element-uap17-name.md
+          - name: "uap17:PackageDependency"
+            href: schemas/appxpackage/uapmanifestschema/element-uap17-packagedependency.md
+          - name: "uap17:PackageExtension"
+            href: schemas/appxpackage/uapmanifestschema/element-uap17-packageextension.md
+          - name: "uap17:PackageExtensionHost"
+            href: schemas/appxpackage/uapmanifestschema/element-uap17-packageextensionhost.md
+          - name: "uap17:Properties"
+            href: schemas/appxpackage/uapmanifestschema/element-uap17-properties.md
+          - name: "uap17:UpdateWhileInUse"
+            href: schemas/appxpackage/uapmanifestschema/element-uap17-updatewhileinuse.md
           - name: "Resources"
             href: schemas/appxpackage/uapmanifestschema/element-resources.md
           - name: "Resource"

@@ -1,6 +1,6 @@
 ---
 title: uap17:PackageDependency
-description: TBD
+description: Declares other packages that a package depends on. This dependency can be specified as required for both install time and runtime or just install time but not runtime.
 ms.date: 10/12/2023
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
