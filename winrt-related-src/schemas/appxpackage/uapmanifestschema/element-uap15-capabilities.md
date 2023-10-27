@@ -81,6 +81,7 @@ This element has the same format and provides the same behavior as the [Capabili
 
 ## Requirements
 
-|   | Value  |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/15` |
+| Minimum OS Version | Windows 11 version 22H2 (Build 22621) |

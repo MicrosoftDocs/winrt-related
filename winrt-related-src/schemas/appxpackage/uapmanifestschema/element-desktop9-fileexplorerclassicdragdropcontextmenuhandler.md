@@ -87,3 +87,4 @@ The AppXManifest file must have the dependency MaxTested set to at least version
 | Item  | Value  |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/9` |
+| Minimum OS Version | Windows 11 version 21H2 (Build 22159) |

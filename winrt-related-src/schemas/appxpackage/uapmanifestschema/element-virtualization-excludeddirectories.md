@@ -66,3 +66,4 @@ This element requires the **unvirtualizedResources** [restricted capability](/wi
 | Item | Value |
 |-|-|
 | **virtualization** | `http://schemas.microsoft.com/appx/manifest/virtualization/windows10` |
+| Minimum OS Version | Windows 10 (Build 20348) |

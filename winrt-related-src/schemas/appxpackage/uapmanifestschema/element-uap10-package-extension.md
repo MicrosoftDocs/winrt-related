@@ -81,3 +81,4 @@ Declares an extensibility point for the app.
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
+| Minimum OS Version | Windows 10 version 2004 (Build 19041) |

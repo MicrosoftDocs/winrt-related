@@ -61,3 +61,4 @@ None
 |--|--|
 | **Desktop** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10` |
 | **Rescap3** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/5`
+| Minimum OS Version | Windows 10 version 1607 (Build 14393) |

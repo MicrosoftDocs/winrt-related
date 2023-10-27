@@ -74,3 +74,4 @@ Registers new COM Interfaces.
 | Item  | Value  |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
+| Minimum OS Version | Windows 10 version 1703 (Build 15063) |

@@ -72,3 +72,4 @@ In a change from [com4:InProcessHandler](element-com4-inprocesshandler.md), the 
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|
 | com5 | `http://schemas.microsoft.com/appx/manifest/com/windows10/5` |
+| Minimum OS Version | Windows 11 version 21H2 (Build 22000) |

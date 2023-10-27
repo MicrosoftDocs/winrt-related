@@ -98,3 +98,4 @@ The **com5:Class** element is identical to [com4:Class](element-com4-inprocessha
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|
 | com5 | `http://schemas.microsoft.com/appx/manifest/com/windows10/5` |
+| Minimum OS Version | Windows 11 version 21H2 (Build 22000) |

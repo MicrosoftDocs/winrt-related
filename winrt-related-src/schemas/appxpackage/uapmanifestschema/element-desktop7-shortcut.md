@@ -80,3 +80,4 @@ Creates a shortcut to a file.
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |
 | desktop10 | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |
+| Minimum OS Version | Windows 10 (Build 19645) |

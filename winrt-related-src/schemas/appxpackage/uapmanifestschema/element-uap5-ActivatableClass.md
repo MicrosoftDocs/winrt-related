@@ -63,3 +63,4 @@ Declares a runtime class associated with the extensibility point.
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
+| Minimum OS Version | Windows 10 version 1709 (Build 16299) |

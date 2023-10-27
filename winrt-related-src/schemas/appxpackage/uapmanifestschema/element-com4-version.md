@@ -72,6 +72,7 @@ You must specify either a Win32Path or a Win64Path, and can specify both. Genera
 
 ## Requirements
 
-|   | Value  |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
+| Minimum OS Version | Windows 10 (Build 20348) |

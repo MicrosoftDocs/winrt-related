@@ -77,3 +77,4 @@ This element requires the **packagedServices** or **localSystemServices** [restr
 | Item  | Value  |
 |--|--|
 | **desktop10** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |
+| Minimum OS Version | Windows 11 version 22H2 (Build 22621) |

@@ -70,3 +70,4 @@ Locations under "HKEY_LOCAL_MACHINE\Software\Microsoft" are not allowed for the 
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/4` |
+| Minimum OS Version | Windows 10 version 1803 (Build 17134) |

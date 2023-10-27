@@ -99,3 +99,4 @@ The following example shows how to block your mobile app from being displayed on
 | Item  | Value  |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/mobile/windows10` |
+| Minimum OS Version | Windows 10 version 1511 (Build 10586) |

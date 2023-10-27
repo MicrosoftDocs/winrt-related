@@ -68,3 +68,4 @@ Specifies how to create and display an object. (com5:MiscStatus)
 | Prefix | Value |
 | ---------------| -------------------------------------------------------------|
 | com5 | `http://schemas.microsoft.com/appx/manifest/com/windows10/5` |
+| Minimum OS Version | Windows 11 version 21H2 (Build 22000) |

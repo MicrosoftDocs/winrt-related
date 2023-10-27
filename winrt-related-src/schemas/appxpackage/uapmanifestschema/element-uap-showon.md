@@ -71,3 +71,4 @@ This example shows how to use the [ShowNameOnTiles](element-uap-shownameontiles.
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+| Minimum OS Version | Windows 10 version 1511 (Build 10586) |

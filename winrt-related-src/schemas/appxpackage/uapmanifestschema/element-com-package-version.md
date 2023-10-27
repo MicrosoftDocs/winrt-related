@@ -83,3 +83,4 @@ For more information about type libraries and the attributes on this page, see [
 | Item  | Value  |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
+| Minimum OS Version | Windows 10 version 1703 (Build 15063) |

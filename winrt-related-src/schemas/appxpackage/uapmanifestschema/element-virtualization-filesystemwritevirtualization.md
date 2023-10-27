@@ -64,3 +64,4 @@ This schema and syntax were introduced in the Windows 10, version 2004. Previous
 | Item | Value |
 |--|--|
 | virtualization | `http://schemas.microsoft.com/appx/manifest/virtualization/windows10` |
+| Minimum OS Version | Windows 10 (Build 20348) |

@@ -58,3 +58,4 @@ None.
 | Item  | Value  |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/cloudfiles/windows10` |
+| Minimum OS Version | Windows 10 (Build 19645) |

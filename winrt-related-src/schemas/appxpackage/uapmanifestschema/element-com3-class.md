@@ -128,6 +128,7 @@ Defines a class registration in a COM server hosted in a Windows service that is
 
 ## Requirements
 
-|   | Value  |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/3` |
+| Minimum OS Version | Windows 10 version 2004 (Build 19041) |

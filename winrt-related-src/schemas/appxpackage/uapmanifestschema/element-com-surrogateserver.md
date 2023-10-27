@@ -81,6 +81,7 @@ The **SystemSurrogate** corresponds to the values of the DllSurrogate value of t
 
 ## Requirements
 
-|   | Value  |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
+| Minimum OS Version | Windows 10 version 1703 (Build 15063) |

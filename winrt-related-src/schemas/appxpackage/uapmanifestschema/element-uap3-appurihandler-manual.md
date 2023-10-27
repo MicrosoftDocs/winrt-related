@@ -95,3 +95,4 @@ Declares an app extensibility point of type *windows.appUriHandler*.
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
+| Minimum OS Version | Windows 10 version 1607 (Build 14393) |

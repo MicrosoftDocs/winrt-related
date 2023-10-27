@@ -64,3 +64,4 @@ For more information about this element, see the remarks for [desktop4:FileExplo
 | Item  | Value  |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/4` |
+| Minimum OS Version | Windows 10 version 1803 (Build 17134) |

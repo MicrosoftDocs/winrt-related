@@ -88,3 +88,4 @@ This element can only be used in the context of the [uap10:InstalledLocationVirt
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
+| Minimum OS Version | Windows 10 version 2004 (Build 19041) |

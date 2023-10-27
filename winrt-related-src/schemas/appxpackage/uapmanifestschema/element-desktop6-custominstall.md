@@ -111,3 +111,4 @@ The OS uses the `Name` attribute of the [desktop6:InstallAction](element-desktop
 | Item  | Value  |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/6` |
+| Minimum OS Version | Windows 10 version 1903 (Build 18362) |

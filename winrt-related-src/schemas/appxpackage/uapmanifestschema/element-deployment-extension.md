@@ -117,3 +117,4 @@ The following example shows the usage of the **DeploymentExtensionHandler** elem
 | **uap10** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
 | **uap11** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/11` |
 | **desktop7** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |
+| Minimum OS Version | Windows 10 (Build 20348) |

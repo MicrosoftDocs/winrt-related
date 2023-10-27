@@ -107,3 +107,4 @@ The **ThreadingModel** corresponds to the [InprocServer32](/windows/win32/com/in
 | Item  | Value  |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
+| Minimum OS Version | Windows 10 version 1703 (Build 15063) |
