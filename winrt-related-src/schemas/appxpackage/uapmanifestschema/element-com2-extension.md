@@ -86,4 +86,4 @@ Provides functionality to expose COM registrations to clients outside of the app
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/2` |
 | **uap10 elements** | `http://schemas.microsoft.com/appx/manifest/com/windows10/3` |
-| Minimum OS Version | Windows 10 version 1709 (Build 16299) |
+| **Minimum OS Version** | Windows 10 version 1709 (Build 16299) |

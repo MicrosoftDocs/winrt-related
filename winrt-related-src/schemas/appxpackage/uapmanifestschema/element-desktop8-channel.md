@@ -73,4 +73,4 @@ Specifies a channel to be used for event tracing.
 | Item  | Value  |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/8` |
-| Minimum OS Version | Windows 11 version 21H2 (Build 22000) |
+| **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |

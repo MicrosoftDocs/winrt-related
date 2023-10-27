@@ -87,4 +87,4 @@ This example assumes you have added the desktop9 xml namespace to your manifest 
 | Item  | Value  |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/9` |
-| Minimum OS Version | Windows 11 version 21H2 (Build 22159) |
+| **Minimum OS Version** | Windows 11 version 21H2 (Build 22159) |

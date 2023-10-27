@@ -90,4 +90,4 @@ This element requires the **modifiableApp** [restricted capability](/windows/uwp
 | Item  | Value  |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/6` |
-| Minimum OS Version | Windows 10 version 1903 (Build 18362) |
+| **Minimum OS Version** | Windows 10 version 1903 (Build 18362) |

@@ -66,4 +66,4 @@ None
 | Item  | Value  |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/deployment/windows10` |
-| Minimum OS Version | Windows 10 (Build 20348) |
+| **Minimum OS Version** | Windows 10 (Build 20348) |

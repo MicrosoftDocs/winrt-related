@@ -58,7 +58,7 @@ Specifies the path and processor architecture of an in-process server DLL. This 
 In a change from [com4:InProcessServerDll](element-com4-inprocessserverdll.md), the **Path** attribute does not require that the supplied value end in ".dll".
 
 ## Requirements
-| Prefix | Value |
+| Item | Value |
 | ---------------| -------------------------------------------------------------|
 | com5 | `http://schemas.microsoft.com/appx/manifest/com/windows10/5` |
-| Minimum OS Version | Windows 11 version 21H2 (Build 22000) |
+| **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |

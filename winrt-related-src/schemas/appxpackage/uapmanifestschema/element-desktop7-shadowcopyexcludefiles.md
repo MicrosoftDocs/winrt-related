@@ -68,4 +68,4 @@ For more information on VSS, see [Volume Shadow Copy Service Overview](/windows/
 | Item  | Value  |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |
-| Minimum OS Version | Windows 10 (Build 19645) |
+| **Minimum OS Version** | Windows 10 (Build 19645) |

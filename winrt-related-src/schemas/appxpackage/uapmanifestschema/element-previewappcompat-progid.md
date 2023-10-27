@@ -55,4 +55,4 @@ None.
 | Item | Value |
 |--|--|
 | **previewappcompat** | `http://schemas.microsoft.com/appx/manifest/preview/windows10/msixappcompatsupport/3` |
-| Minimum OS Version | Windows 10 version 2004 (Build 19041) |
+| **Minimum OS Version** | Windows 10 version 2004 (Build 19041) |

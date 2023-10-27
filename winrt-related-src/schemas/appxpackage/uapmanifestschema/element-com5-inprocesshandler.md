@@ -69,7 +69,7 @@ Registers an in-process handler with one or many class registrations. This schem
 In a change from [com4:InProcessHandler](element-com4-inprocesshandler.md), the **Path** attribute does not require that the supplied value end in ".dll".
 
 ## Requirements
-| Prefix | Value |
+| Item | Value |
 | ---------------| -------------------------------------------------------------|
 | com5 | `http://schemas.microsoft.com/appx/manifest/com/windows10/5` |
-| Minimum OS Version | Windows 11 version 21H2 (Build 22000) |
+| **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |

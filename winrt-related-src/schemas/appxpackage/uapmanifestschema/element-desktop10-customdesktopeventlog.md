@@ -75,4 +75,4 @@ For more information on custom event logs, see [Eventlog Key](/windows/win32/eve
 | Item  | Value  |
 |--|--|
 | **desktop10** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |
-| Minimum OS Version | Windows 11 version 22H2 (Build 22621) |
+| **Minimum OS Version** | Windows 11 version 22H2 (Build 22621) |

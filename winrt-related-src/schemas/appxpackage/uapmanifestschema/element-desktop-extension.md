@@ -109,4 +109,4 @@ Declares an extensibility point for the app.
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
 | **uap10** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
-| Minimum OS Version | Windows 10 version 1607 (Build 14393) |
+| **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |

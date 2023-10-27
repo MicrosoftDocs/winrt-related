@@ -114,4 +114,4 @@ The attributes of a top-level **com4:Class** element correspond to the informati
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
-| Minimum OS Version | Windows 10 (Build 20348) |
+| **Minimum OS Version** | Windows 10 (Build 20348) |

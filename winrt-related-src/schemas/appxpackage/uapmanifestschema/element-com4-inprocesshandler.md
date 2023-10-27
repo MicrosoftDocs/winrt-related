@@ -75,4 +75,4 @@ The following example shows how to register a class and an in-process handler dl
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
-| Minimum OS Version | Windows 10 (Build 20348) |
+| **Minimum OS Version** | Windows 10 (Build 20348) |

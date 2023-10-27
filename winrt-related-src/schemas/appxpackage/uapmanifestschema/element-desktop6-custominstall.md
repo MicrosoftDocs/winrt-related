@@ -64,7 +64,7 @@ Enables your desktop application to specify one or more additional installer fil
 | Parent element | Description |
 |------|----------------|
 | [desktop6:Extension](element-desktop6-package-extension.md) | Declares an extensibility point for the desktop application. |
-| **desktop8:RunAsUser** | Indicates whether the task should be run as the current user. | An optional boolean value. | 
+| **desktop8:RunAsUser** | Indicates whether the task should be run as the current user. |
 
 ## Remarks
 
@@ -111,4 +111,4 @@ The OS uses the `Name` attribute of the [desktop6:InstallAction](element-desktop
 | Item  | Value  |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/6` |
-| Minimum OS Version | Windows 10 version 1903 (Build 18362) |
+| **Minimum OS Version** | Windows 10 version 1903 (Build 18362) |

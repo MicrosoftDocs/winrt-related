@@ -113,4 +113,4 @@ A **ServiceServer** can have one or more class registrations. Multiple class reg
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/3` |
-| Minimum OS Version | Windows 10 version 2004 (Build 19041) |
+| **Minimum OS Version** | Windows 10 version 2004 (Build 19041) |

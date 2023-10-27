@@ -101,4 +101,4 @@ Declares an extensibility point for the app.
 | **rescap** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/4` |
 | **uap10** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
 | **uap11** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/11` |
-| Minimum OS Version | Windows 10 version 1511 (Build 10586) |
+| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |

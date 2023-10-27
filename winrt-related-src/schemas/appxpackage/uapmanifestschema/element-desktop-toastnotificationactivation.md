@@ -54,4 +54,4 @@ None
 | Item  | Value  |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10` |
-| Minimum OS Version | Windows 10 version 1607 (Build 14393) |
+| **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |

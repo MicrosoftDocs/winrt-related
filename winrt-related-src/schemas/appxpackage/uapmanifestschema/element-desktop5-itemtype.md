@@ -71,4 +71,4 @@ Contains the type of command to be registered in the context menu.
 | Item  | Value  |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/5` |
-| Minimum OS Version | Windows 10 version 1809 (Build 17763) |
+| **Minimum OS Version** | Windows 10 version 1809 (Build 17763) |

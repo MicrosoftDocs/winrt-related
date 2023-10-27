@@ -82,4 +82,4 @@ The **Executable** and **Arguments** attributes correspond to the default value 
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
-| Minimum OS Version | Windows 10 version 1703 (Build 15063) |
+| **Minimum OS Version** | Windows 10 version 1703 (Build 15063) |

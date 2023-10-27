@@ -61,7 +61,7 @@ Registers an in-process server with one or many class registrations.
 | [ClassReference](element-com5-inprocessserver-classreference.md) | Specifies the class with which the registered in-process handler is associated and sets registration details. |
 
 ## Requirements
-| Prefix | Value |
+| Item | Value |
 | ---------------| -------------------------------------------------------------|
 | com5 | `http://schemas.microsoft.com/appx/manifest/com/windows10/5` |
-| Minimum OS Version | Windows 11 version 21H2 (Build 22000) |
+| **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |

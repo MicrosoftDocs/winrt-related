@@ -78,7 +78,7 @@ TBD
 **DefaultFormatName** is the string value, and **DefaultStandardFormat** is the integer value of the supported data formats. These values are mutually exclusive.
 
 ## Requirements
-| Prefix | Value |
+| Item | Value |
 | ---------------| -------------------------------------------------------------|
 | com5 | `http://schemas.microsoft.com/appx/manifest/com/windows10/5` |
-| Minimum OS Version | Windows 11 version 21H2 (Build 22000) |
+| **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |

@@ -62,7 +62,7 @@ Indicates that the class has implemented the specified category.
 | [com5:ImplementedCategories](element-com5-implementedcategories.md) | Specifies categories implemented by the class. |
 
 ## Requirements
-| Prefix | Value |
+| Item | Value |
 | ---------------| -------------------------------------------------------------|
 | com5 | `http://schemas.microsoft.com/appx/manifest/com/windows10/5` |
-| Minimum OS Version | Windows 11 version 21H2 (Build 22000) |
+| **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |

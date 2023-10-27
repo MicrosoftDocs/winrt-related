@@ -73,7 +73,7 @@ Specifies that an application can read and write files.
 | [com5:Conversion](element-com5-conversion.md) | Specifies the formats an application can read and write. |
 
 ## Requirements
-| Prefix | Value |
+| Item | Value |
 | ---------------| -------------------------------------------------------------|
 | com5 | `http://schemas.microsoft.com/appx/manifest/com/windows10/5` |
-| Minimum OS Version | Windows 11 version 21H2 (Build 22000) |
+| **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |

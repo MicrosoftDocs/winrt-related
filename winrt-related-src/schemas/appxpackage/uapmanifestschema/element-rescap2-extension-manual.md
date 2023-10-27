@@ -112,4 +112,4 @@ None.
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/2` |
 | **uap10** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
 | **uap11** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/11` |
-| Minimum OS Version | Windows 10 version 1607 (Build 14393) |
+| **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |
