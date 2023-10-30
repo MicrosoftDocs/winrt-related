@@ -54,6 +54,7 @@ Specifies the class with which the registered in-process handler is associated a
 | [com5:InProcessHandler](element-com5-inprocesshandler.md) | Registers an in-process handler with one or many class registrations. |
 
 ## Requirements
-| Prefix | Value |
+| Item | Value |
 | ---------------| -------------------------------------------------------------|
 | com5 | `http://schemas.microsoft.com/appx/manifest/com/windows10/5` |
+| **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |

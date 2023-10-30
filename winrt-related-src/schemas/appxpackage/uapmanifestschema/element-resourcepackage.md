@@ -57,6 +57,6 @@ If **ResourcePackage** is set to **true**, the manifest performs these semantic 
 
 ## Requirements
 
-|   | Value |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |

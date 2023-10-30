@@ -56,6 +56,7 @@ Specifies the class or class reference with which the registered in-process serv
 | [com5:InProcessServer](element-com5-inprocessserver.md) | Registers an in-process server with one or many class registrations. |
 
 ## Requirements
-| Prefix | Value |
+| Item | Value |
 | ---------------| -------------------------------------------------------------|
 | com5 | `http://schemas.microsoft.com/appx/manifest/com/windows10/5` |
+| **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |

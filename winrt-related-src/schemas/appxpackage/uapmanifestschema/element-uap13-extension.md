@@ -91,3 +91,4 @@ None.
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/13` |
 | **UAP10** | `http://schemas.microsoft.com/appx/manifest/uap/windows/10/10` |
+| **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |

@@ -71,6 +71,7 @@ The verb to be registered for an application.
 | [com5:Verbs](element-com5-verbs.md) | Specifies the verbs to be registered for an application. |
 
 ## Requirements
-| Prefix | Value |
+| Item | Value |
 | ---------------| -------------------------------------------------------------|
 | com5 | `http://schemas.microsoft.com/appx/manifest/com/windows10/5` |
+| **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |

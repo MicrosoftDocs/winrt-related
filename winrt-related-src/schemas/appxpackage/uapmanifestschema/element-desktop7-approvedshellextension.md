@@ -70,3 +70,4 @@ As mentioned in [Registering Shell Extension Handlers](/windows/win32/shell/reg-
 | Item  | Value  |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |
+| **Minimum OS Version** | Windows 10 (Build 19645) |

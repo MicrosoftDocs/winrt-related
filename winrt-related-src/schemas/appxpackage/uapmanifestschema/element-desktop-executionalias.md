@@ -72,8 +72,9 @@ The attributes and child elements from the desktop10 namespace are only supporte
 
 ## Requirements
 
-|   | Value  |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
 | **uap8** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/8` |
 | **desktop10** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |
+| **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |

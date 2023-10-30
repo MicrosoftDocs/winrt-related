@@ -72,6 +72,7 @@ The data format supported by an application.
 | [com5:DataFormats](element-com5-dataformats.md) | Specifies the default and main data formats supported by an application. |
 
 ## Requirements
-| Prefix | Value |
+| Item | Value |
 | ---------------| -------------------------------------------------------------|
 | com5 | `http://schemas.microsoft.com/appx/manifest/com/windows10/5` |
+| **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |

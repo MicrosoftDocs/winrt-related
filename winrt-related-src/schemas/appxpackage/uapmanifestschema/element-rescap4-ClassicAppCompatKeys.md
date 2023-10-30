@@ -62,3 +62,4 @@ None.
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/4` |
+| **Minimum OS Version** | Windows 10 version 1803 (Build 17134) |

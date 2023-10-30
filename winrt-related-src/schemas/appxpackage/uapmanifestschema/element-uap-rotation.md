@@ -65,3 +65,4 @@ To specify more than one preferred orientation, include multiple **uap:Rotation*
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |

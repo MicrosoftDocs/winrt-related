@@ -242,3 +242,4 @@ The following are supported background color names:
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
 | **uap5** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
+| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |

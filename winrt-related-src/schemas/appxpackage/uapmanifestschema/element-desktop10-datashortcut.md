@@ -73,3 +73,4 @@ Apps that specify multiple data shortcuts should specifiy unique AUMID values fo
 |--|--|
 | **desktop10** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |
 | **uap10** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
+| **Minimum OS Version** | Windows 11 version 22H2 (Build 22621) |

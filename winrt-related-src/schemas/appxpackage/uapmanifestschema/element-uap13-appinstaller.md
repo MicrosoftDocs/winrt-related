@@ -54,3 +54,4 @@ An App Installer file specifies where your app is located and how to update it. 
 | Item | Value |
 |-|-|
 | **UAP13** | `http://schemas.microsoft.com/appx/manifest/uap/windows/10/13` |
+| **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |

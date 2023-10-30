@@ -52,3 +52,4 @@ For more information, see [Modification packages](/windows/msix/modification-pac
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/6` |
+| **Minimum OS Version** | Windows 10 version 1903 (Build 18362) |

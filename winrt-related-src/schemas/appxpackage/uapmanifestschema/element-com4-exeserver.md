@@ -68,6 +68,7 @@ Registers an ExeServer with one or many class registrations.
 
 ## Requirements
 
-|   | Value  |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
+| **Minimum OS Version** | Windows 10 (Build 20348) |

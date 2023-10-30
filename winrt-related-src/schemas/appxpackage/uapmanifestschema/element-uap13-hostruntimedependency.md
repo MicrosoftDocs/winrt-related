@@ -56,3 +56,4 @@ None.
 | Item | Value |
 |-|-|
 | **UAP12** | `http://schemas.microsoft.com/appx/manifest/uap/windows/10/13` |
+| **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |
