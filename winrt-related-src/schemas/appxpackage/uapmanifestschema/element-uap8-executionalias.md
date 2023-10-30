@@ -77,4 +77,4 @@ The attributes and child elements from the desktop10 namespace are only supporte
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/8` |
 | **desktop10** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |
-| Minimum OS Version | Windows 10 version 1903 (Build 18362) |
+| **Minimum OS Version** | Windows 10 version 1903 (Build 18362) |

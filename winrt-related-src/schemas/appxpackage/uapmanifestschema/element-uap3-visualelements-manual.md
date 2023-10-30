@@ -299,4 +299,4 @@ The following example creates a folder named App1 in the All Apps List and store
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
-| Minimum OS Version | Windows 10 version 1607 (Build 14393) |
+| **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |

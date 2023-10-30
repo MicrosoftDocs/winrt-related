@@ -58,4 +58,4 @@ Main app packages, related set package, optional packages, and framework package
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/6` |
-| Minimum OS Version | Windows 10 version 1803 (Build 17134) |
+| **Minimum OS Version** | Windows 10 version 1803 (Build 17134) |

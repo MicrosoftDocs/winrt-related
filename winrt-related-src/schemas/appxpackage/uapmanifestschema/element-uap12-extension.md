@@ -92,4 +92,4 @@ None.
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/12` |
 | **uap10** | `http://schemas.microsoft.com/appx/manifest/uap/windows/10/10` |
 | **uap11** | `http://schemas.microsoft.com/appx/manifest/uap/windows/10/10` |
-| Minimum OS Version | Windows 10 (Build 20348) |
+| **Minimum OS Version** | Windows 10 (Build 20348) |

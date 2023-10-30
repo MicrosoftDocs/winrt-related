@@ -70,4 +70,4 @@ Declares an app extensibility point of the type windows.webAccountProvider.
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/2`
-| Minimum OS Version | Windows 10 version 1511 (Build 10586) |
+| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |

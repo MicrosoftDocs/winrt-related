@@ -58,4 +58,4 @@ For more information on dynamic dependencies, see [Use the dynamic dependency AP
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/15` |
-| Minimum OS Version | Windows 11 version 22H2 (Build 22621) |
+| **Minimum OS Version** | Windows 11 version 22H2 (Build 22621) |

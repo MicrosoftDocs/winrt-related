@@ -61,4 +61,4 @@ This string is localizable.
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
-| Minimum OS Version | Windows 10 version 1511 (Build 10586) |
+| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |

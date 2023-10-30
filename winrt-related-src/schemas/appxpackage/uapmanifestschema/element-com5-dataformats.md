@@ -11,7 +11,8 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 
 ## Description
-TBD
+
+Specifies the default and main data formats supported by an application.
 
 
 

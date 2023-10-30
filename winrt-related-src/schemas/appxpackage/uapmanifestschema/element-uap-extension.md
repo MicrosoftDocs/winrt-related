@@ -173,4 +173,4 @@ The following extensions can be found in the declarations tab of the package des
 |--|--|
 | **rescap4** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
 | **uap10** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
-| Minimum OS Version | Windows 10 version 1511 (Build 10586) |
+| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |

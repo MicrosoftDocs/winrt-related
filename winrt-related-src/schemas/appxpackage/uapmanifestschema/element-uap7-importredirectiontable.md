@@ -55,4 +55,4 @@ The DLL file is passed to *CreateProcess* to influence how the loader resolves i
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/7` |
-| Minimum OS Version | Windows 10 version 1809 (Build 17763) |
+| **Minimum OS Version** | Windows 10 version 1809 (Build 17763) |

@@ -94,4 +94,4 @@ The following example indicates that the app can host the Office spell check and
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
-| Minimum OS Version | Windows 10 version 1607 (Build 14393) |
+| **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |

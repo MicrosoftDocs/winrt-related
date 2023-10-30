@@ -62,4 +62,4 @@ You can only declare registry locations under the `HKEY_CURRENT_USER` to be excl
 | Item | Value |
 |--|--|
 | virtualization | `http://schemas.microsoft.com/appx/manifest/virtualization/windows10` |
-| Minimum OS Version | Windows 10 (Build 20348) |
+| **Minimum OS Version** | Windows 10 (Build 20348) |
