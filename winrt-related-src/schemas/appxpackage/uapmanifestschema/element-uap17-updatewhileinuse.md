@@ -30,7 +30,9 @@ Specifies whether the OS should close the app for app updates, or if the update 
 </uap17:UpdateWhileInUse>
 ```
 
+## Remarks
 
+If the value of this element is set to "defer", then any force update options specified with [AddPackageOptions.ForceTargetAppShutdown](/uwp/api/windows.management.deployment.addpackageoptions.forcetargetappshutdown), [RegisterPackageOptions.ForceTargetAppShutdown](/uwp/api/windows.management.deployment.registerpackageoptions.forcetargetappshutdown), or [DeploymentOptions.ForceApplicationShutdown](/uwp/api/windows.management.deployment.deploymentoptions) will be ignored.
 
 
 
