@@ -69,7 +69,7 @@ Declares an extensibility point for the app.
 | uap10:RuntimeBehavior | Specifies the runtime behavior of an extension. | One of the following values: "windowsApp" , "packagedClassicApp" , "win32App"| No |
 | uap10:HostId | Specifies the ID of the host runtime for the extension. | An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.| No |
 | uap10:Parameters | Contains command line parameters to pass to the extension. Only supported for desktop apps.| A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.| No |
-| uap11:Id | An identifier for the extension. | A string between 1 and 255 characters in length with a non-whitespace character at its beginning and end.| No |
+| uap11:Id | An identifier for the extension. The ID must be unique for all extensions in a package. | A string between 1 and 255 characters in length with a non-whitespace character at its beginning and end.| No |
 | uap11:Subsystem | This attribute is inherited from the base extension syntax. Other than syntactic validation, this value is ignored. | One of the following values: "console" , "windows"| No |
 | uap11:SupportsMultipleInstances | Specifies whether instances should run in different processes. The default value is false. | Boolean.| No |
 | uap11:ResourceGroup | A tag that you can use to group extension activations together for resource management purposes (for example, CPU and memory). The value you can set ResourceGroup is free-form and flexible. | An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.| No |
