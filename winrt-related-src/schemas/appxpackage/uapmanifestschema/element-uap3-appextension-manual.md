@@ -31,7 +31,7 @@ Declares an app extensibility point of type *windows.appExtension*. This element
 ```xml
 <uap3:AppExtension
     Name = 'A string with a value between 2 and 255 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only.'
-    Id = 'A string with a value between 2 and 255 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only.'
+    Id = 'A string with a value between 2 and 39 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only.'
     PublicFolder = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
     DisplayName = 'A string with a value between 1 and 256 characters in length.'
     Description = 'A string between 1 and 2048 characters in length.' >
@@ -54,7 +54,7 @@ Declares an app extensibility point of type *windows.appExtension*. This element
 |-|-|-|-|-|
 | **Description** | The description of the app | A string between 1 and 2048 characters in length. | No |  |
 | **DisplayName**  | A friendly name for the app extension that can be displayed to users. | A string with a value between 1 and 256 characters in length. | Yes |  |
-| **Id** | The entry point by which the host app accesses the extension category instance, if there are multiple entry points. | A string with a value between 2 and 255 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only. | Yes |  |
+| **Id** | The entry point by which the host app accesses the extension category instance, if there are multiple entry points. | A string with a value between 2 and 39 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only. | Yes |  |
 | **Name** | The type of extension that the app intends to consume and/or host. | A string with a value between 2 and 255 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only. | Yes |  |
 | **PublicFolder** | The folder that the instance declares as the location where a host can have read access to files through a broker. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
 
