@@ -65,3 +65,4 @@ None.
 |--|--|
 | **uap10** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
 | **rescap3** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/windowscapabilities/3` |
+| **Minimum OS Version** | Windows 10 version 2004 (Build 19041) |

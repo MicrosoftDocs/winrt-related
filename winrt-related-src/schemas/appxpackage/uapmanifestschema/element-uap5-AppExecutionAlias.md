@@ -69,3 +69,4 @@ Specifies the application's execution alias to determine the executable of the a
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
 | **desktop4** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/4` |
 | **uap10** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
+| **Minimum OS Version** | Windows 10 version 1709 (Build 16299) |

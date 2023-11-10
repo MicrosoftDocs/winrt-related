@@ -64,7 +64,7 @@ Defines an in-process handler class registration.
 | Attribute | Description | Data type | Required |
 | -----------| -------------| -----------| ----------|
 | Virtualization | Specifies whether virtualization is used when loading the class. | One of the following values: "enabled" , "disabled"| Yes |
-| ProgId | Associates a programmatic identifier (ProgID) with a CLSID. | An alphanumeric string separated by a period with a value between 1 and 255 characters in length (for example, Foo.Bar or Foo.Bar.1). | An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1| No |
+| ProgId | Associates a programmatic identifier (ProgID) with a CLSID. | An alphanumeric string separated by a period with a value between 1 and 255 characters in length (for example, Foo.Bar or Foo.Bar.1). | No |
 | VersionIndependentProgId | Associates a ProgID with a CLSID. This value is used to determine the latest version of an object application. | An alphanumeric string separated by a period between 1 and 255 characters in length, e.g. Foo.Bar or Foo.Bar.1| No |
 | AutoConvertTo | Specifies the automatic conversion of a given class of objects to a new class of objects. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| No |
 | InsertableObject | Indicates that this class is insertable. | Boolean.| No |
@@ -88,6 +88,7 @@ Defines an in-process handler class registration.
 
 ## Requirements
 
-| Prefix | Value |
+| Item | Value |
 | ---------------| -------------------------------------------------------------|
 | com5 | `http://schemas.microsoft.com/appx/manifest/com/windows10/5` |
+| **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |

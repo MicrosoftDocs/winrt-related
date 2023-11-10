@@ -90,6 +90,6 @@ If the `IdentityType` is set to `activateAsPackage`, the server will be launched
 
 ## Requirements
 
-|   | Value |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |

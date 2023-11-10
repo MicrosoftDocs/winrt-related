@@ -100,3 +100,4 @@ The following list contains the list of allowed known folder names, current as o
 | Item | Value |
 |--|--|
 | virtualization | `http://schemas.microsoft.com/appx/manifest/virtualization/windows10` |
+| **Minimum OS Version** | Windows 10 (Build 20348) |

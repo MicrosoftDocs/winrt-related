@@ -56,3 +56,4 @@ The segment heap is the recommend heap implementation on Windows and has, by def
 | Namespace | Manifest Path | 
 |---------------|-------------------------------------------------------------|
 | heap | `http://schemas.microsoft.com/appx/manifest/heap/windows10` |
+| **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |

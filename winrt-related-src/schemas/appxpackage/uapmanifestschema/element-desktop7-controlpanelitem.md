@@ -73,3 +73,4 @@ Registers an extension as a control panel item.
 | Item  | Value  |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |
+| **Minimum OS Version** | Windows 10 (Build 19645) |

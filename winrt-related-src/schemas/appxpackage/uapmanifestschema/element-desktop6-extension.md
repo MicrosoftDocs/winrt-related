@@ -97,3 +97,4 @@ Declares an extensibility point for the app.
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/6` |
 | **uap10** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
+| **Minimum OS Version** | Windows 10 version 1903 (Build 18362) |

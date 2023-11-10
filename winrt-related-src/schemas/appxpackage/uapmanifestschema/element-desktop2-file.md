@@ -56,6 +56,7 @@ None.
 
 ## Requirements
 
-|  | Value |
+| Item | Value |
 |-|-|
 |**Namespace**|`http://schemas.microsoft.com/appx/manifest/desktop/windows10/2`|
+| **Minimum OS Version** | Windows 10 version 1703 (Build 15063) |

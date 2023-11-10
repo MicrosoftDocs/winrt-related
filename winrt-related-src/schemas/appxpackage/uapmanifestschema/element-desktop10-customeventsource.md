@@ -73,3 +73,4 @@ For more information on custom event sources, see [Event Sources](/windows/win32
 | Item  | Value  |
 |--|--|
 | **desktop10** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |
+| **Minimum OS Version** | Windows 11 version 22H2 (Build 22621) |

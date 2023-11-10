@@ -103,3 +103,4 @@ For more information, see [Build a Cloud Sync Engine that Supports Placeholder F
 | **uap10** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
 | **uap11** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/11` |
 | **desktop7** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |
+| **Minimum OS Version** | Windows 10 (Build 19645) |

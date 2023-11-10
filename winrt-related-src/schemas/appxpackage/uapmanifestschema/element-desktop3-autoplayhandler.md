@@ -61,3 +61,4 @@ None.
 | Item  | Value  |
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/3` |
+| **Minimum OS Version** | Windows 10 version 1709 (Build 16299) |

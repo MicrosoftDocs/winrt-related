@@ -80,6 +80,6 @@ The total count of `uap7:OSPackageDependency` and `uap10:HostRuntimeDependency` 
 
 ## Requirements
 
-|   | Value  |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |

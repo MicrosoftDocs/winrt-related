@@ -50,3 +50,4 @@ None.
 | Item | Value |
 |--|--|
 | **uap8** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/8` |
+| **Minimum OS Version** | Windows 10 version 1903 (Build 18362) |

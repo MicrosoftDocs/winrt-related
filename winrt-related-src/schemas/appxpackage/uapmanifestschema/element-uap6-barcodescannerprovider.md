@@ -60,3 +60,4 @@ If the *SupportsVideoPreview* attribute is true, indicating that the provider su
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/6` |
+| **Minimum OS Version** | Windows 10 version 1803 (Build 17134) |

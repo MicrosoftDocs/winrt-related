@@ -65,3 +65,4 @@ None.
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/11` |
+| **Minimum OS Version** | Windows 10 (Build 19645) |

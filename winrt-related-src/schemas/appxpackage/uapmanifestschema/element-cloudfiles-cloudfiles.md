@@ -84,3 +84,4 @@ For more information, see [Build a Cloud Sync Engine that Supports Placeholder F
 |--|--|
 | Namespace | `http://schemas.microsoft.com/appx/manifest/cloudfiles/windows10` |
 
+| **Minimum OS Version** | Windows 10 (Build 19645) |
