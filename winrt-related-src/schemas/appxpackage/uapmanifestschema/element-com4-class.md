@@ -53,13 +53,13 @@ Specifies properties of a CLSID registered by the package that can be shared by 
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **ProgId** | Associates a programmatic identifier (ProgID) with a CLSID. | An alphanumeric string separated by a period with a value between 1 and 255 characters in length (for example, Foo.Bar or Foo.Bar.1). | Yes |  |
-| **VersionIndependentProgId** | Associates a ProgID with a CLSID. This value is used to determine the latest version of an object application. | An alphanumeric string separated by a period with a value between 1 and 255 characters in length (for example, Foo.Bar or Foo.Bar.1). | Yes |  |
-| **AutoConvertTo** | Specifies the automatic conversion of a given class of objects to a new class of objects. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
-| **InsertableObject** | Indicates that this class is insertable. | A boolean value. | Yes |  |
-| **ShortDisplayName** | A short version of the class display name. | A string with a value between 1 and 40 characters in length. | Yes |  |
+| **ProgId** | Associates a programmatic identifier (ProgID) with a CLSID. | An alphanumeric string separated by a period with a value between 1 and 255 characters in length (for example, Foo.Bar or Foo.Bar.1). | No |  |
+| **VersionIndependentProgId** | Associates a ProgID with a CLSID. This value is used to determine the latest version of an object application. | An alphanumeric string separated by a period with a value between 1 and 255 characters in length (for example, Foo.Bar or Foo.Bar.1). | No |  |
+| **AutoConvertTo** | Specifies the automatic conversion of a given class of objects to a new class of objects. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |  |
+| **InsertableObject** | Indicates that this class is insertable. | A boolean value. | No |  |
+| **ShortDisplayName** | A short version of the class display name. | A string with a value between 1 and 40 characters in length. | No |  |
 | **Id** | The Id attribute corresponds to the CLSID (HKCR\CLSID\{MyGuid}). | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
-| **DisplayName** | The class display name. | A string with a value between 1 and 256 characters in length. This string is localizable. | Yes |  |
+| **DisplayName** | The class display name. | A string with a value between 1 and 256 characters in length. This string is localizable. | No |  |
 
 ### Child elements
 
