@@ -37,7 +37,19 @@ Registers a managed in-process server with one or more classes.
   InsertableObject = 'A boolean value.'
   ShortDisplayName = 'A string with a value between 1 and 40 characters in length.'
   Id = 'A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.'
-  DisplayName = 'A string with a value between 1 and 256 characters in length. This string is localizable.' />
+  DisplayName = 'A string with a value between 1 and 256 characters in length. This string is localizable.'>
+
+<!-- Child elements -->
+  ImplementedCategories
+  Conversion
+  DataFormats
+  MiscStatus
+  Verbs
+  DefaultIcon
+  ToolboxBitmap32
+  TypeLib
+
+</com4:Class>
 ```
 
 ## Attributes and elements
@@ -49,17 +61,26 @@ Registers a managed in-process server with one or more classes.
 | **ThreadingModel** | The threading model for loading DLLs. | A string that can have one of the following values: *Both*, *STA*, *MTA*, *MainSTA*, or *Neutral*. | Yes |  |
 | **ImplementationClass** | The implementation class associated with the class reference. | An alphanumeric string separated by a period with a value between 1 and 255 characters in length (for example, Foo.Bar or Foo.Bar.1). | Yes |  |
 | **Virtualization** | Specifies whether virtualization is used when loading the class. | A string that can have one of the following values: *enabled* or *disabled*. | Yes |  |
-| **ProgId** | Associates a programmatic identifier (ProgID) with a CLSID. | An alphanumeric string separated by a period with a value between 1 and 255 characters in length (for example, Foo.Bar or Foo.Bar.1). | Yes |  |
-| **VersionIndependentProgId** | Associates a ProgID with a CLSID. This value is used to determine the latest version of an object application. | An alphanumeric string separated by a period with a value between 1 and 255 characters in length (for example, Foo.Bar or Foo.Bar.1). | Yes |  |
-| **AutoConvertTo** | Specifies the automatic conversion of a given class of objects to a new class of objects. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
-| **InsertableObject** | Indicates that this class is insertable. | A boolean value. | Yes |  |
-| **ShortDisplayName** | A short version of the class display name. | A string with a value between 1 and 40 characters in length. | Yes |  |
+| **ProgId** | Associates a programmatic identifier (ProgID) with a CLSID. | An alphanumeric string separated by a period with a value between 1 and 255 characters in length (for example, Foo.Bar or Foo.Bar.1). | No |  |
+| **VersionIndependentProgId** | Associates a ProgID with a CLSID. This value is used to determine the latest version of an object application. | An alphanumeric string separated by a period with a value between 1 and 255 characters in length (for example, Foo.Bar or Foo.Bar.1). | No |  |
+| **AutoConvertTo** | Specifies the automatic conversion of a given class of objects to a new class of objects. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |  |
+| **InsertableObject** | Indicates that this class is insertable. | A boolean value. | No |  |
+| **ShortDisplayName** | A short version of the class display name. | A string with a value between 1 and 40 characters in length. | No |  |
 | **Id** | The Id attribute corresponds to the CLSID. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |
-| **DisplayName** | A localizable string corresponding to the default value of the CLSID's key. | A string with a value between 1 and 256 characters in length. This string is localizable. | Yes |  |
+| **DisplayName** | A localizable string corresponding to the default value of the CLSID's key. | A string with a value between 1 and 256 characters in length. This string is localizable. | No |  |
 
 ### Child elements
 
-None.
+| Child element | Description |
+|-|-|
+| [ImplementedCategories](element-com4-implementedcategories.md) | Specifies categories implemented by the class. |
+| [Conversion](element-com4-conversion.md) | Specifies the formats an application can read and write. |
+| [DataFormats](element-com4-dataformats.md) | Specifies the default and main data formats supported by an application. |
+| [MiscStatus](element-com4-miscstatus.md) | Specifies how to create and display an object. |
+| [Verbs](element-com4-verbs.md) | Specifies the verbs to be registered for an application. |
+| [DefaultIcon](element-com4-defaulticon.md) | Provides default icon information for iconic presentations of objects. |
+| [ToolboxBitmap32](element-com4-toolboxbitmap32.md) | Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button. |
+| [TypeLib](element-com4-class-typelib.md) | A type library for a class or interface. |
 
 ### Parent elements
 
