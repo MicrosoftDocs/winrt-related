@@ -52,6 +52,7 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
   & desktop3:PropertyLists?
   & desktop7:Logo?
   & desktop7:ProgId?
+  & desktop10:IconHandler?
 
 </uap:FileTypeAssociation>
 ```
@@ -92,6 +93,7 @@ Declares an app extensibility point of type **windows.fileTypeAssociation**. A f
 | [desktop3:PropertyLists](element-desktop3-propertylists.md) | Contains a list of properties to show under the properties tab of a file. |
 | [desktop7:Logo](element-desktop7-logo.md) | A path to a file that contains an image. Adds support for .ico file extensions. |
 | [desktop7:ProgId](element-desktop7-progId.md) | A programmatic identifier (ProgID) that can be associated with a CLSID. |
+| [desktop10:IconHandler](element-desktop10-iconhandler.md) | Enables an IconHandler for a file type association. |
 
 ### Parent elements
 
