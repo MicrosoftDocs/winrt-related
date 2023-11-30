@@ -222,6 +222,5 @@ You don't have to make a decision in advance about every device type that you'll
 
 * [Device family extension SDKs and API contracts](./index.md)
 * [TargetDeviceFamily](../schemas/appxpackage/uapmanifestschema/element-targetdevicefamily.md)
-* [Tutorial: Create adaptive layouts](/windows/uwp/design/basics/xaml-basics-adaptive-layout)
 * [What's a Universal Windows Platform (UWP) app](/windows/uwp/get-started/universal-application-platform-guide)
 * [Version-adaptive apps](/windows/uwp/debug-test-perf/version-adaptive-apps)
