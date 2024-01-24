@@ -14,11 +14,11 @@
         }
     ],
     "globalMetadata": {
+      "ms.subservice": "winrt-reference",
+      "ms.service": "uwp",
         "ROBOTS": "INDEX, FOLLOW",
         "author": "GrantMeStrength",
         "ms.author": "jken",
-        "ms.prod": "uwp",
-        "ms.technology": "winrt-reference",
         "titleSuffix": "Windows UWP applications",
         "breadcrumb_path":  "/uwp/breadcrumbs/toc.json",
         "feedback_system": "GitHub",
