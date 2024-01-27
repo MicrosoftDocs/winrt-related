@@ -192,7 +192,7 @@
     }
     ,
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-filetypeassociation.md",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-filetypeassociations.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-filetypeassociation",
       "redirect_document_id": false
     }
