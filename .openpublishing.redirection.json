@@ -190,5 +190,11 @@
       "redirect_url": "/windows/apps/winui/winui2/release-notes/winui-2.0",
       "redirect_document_id": false
     }
+    ,
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-filetypeassociation.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-filetypeassociation",
+      "redirect_document_id": false
+    }
   ]
 }
