@@ -363,7 +363,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap3:ContactDataProvider](element-uap3-contactdataprovider-manual.md) | Declares an app extensibility point of type **windows.contactDataProvider**. This element enables apps to become data providers for contacts. |
 | [uap3:EmailDataProvider](element-uap3-emaildataprovider-manual.md) | Declares an app extensibility point of type **windows.emailDataProvider**. This element enables apps to become data providers for email. |
 | [uap3:Extension](element-uap3-extension-manual.md) | Declares an extensibility point for the app. |
-| [uap3:FileTypeAssociations](element-uap3-filetypeassociations.md) | Defines the types of files used within the application. |
+| [uap3:FileTypeAssociations](element-uap3-filetypeassociation.md) | Defines the types of files used within the application. |
 | [uap3:Host](element-uap3-host-manual.md) | Represents a valid HTTP or HTTPS host name that the app wants to register as able to handle. |
 | [uap3:MainPackageDependency](element-uap3-mainpackagedependency-manual.md) | Specifies the main app package to which this supplemental package applies. |
 | [uap3:Name](element-uap3-name-manual.md) | Specifies a category of extensions that the app can host. |

@@ -50,7 +50,7 @@ Declares an extensibility point for the app.
     uap3:appUriHandler?
     uap3:appService?
     uap3:appExecutionAlias?
-    uap3:fileTypeAssociations?
+    uap3:fileTypeAssociation?
 
 </uap3:Extension>
 ```
@@ -97,7 +97,7 @@ Declares an extensibility point for the app.
 | [uap3:AppService](element-uap3-appservice-manual.md) | Declares an app extensibility point of type *windows.appExtension*. |
 | [uap3:AppExeuctionAlias](element-uap3-appexecutionalias.md) | Declares an app extensibility point of type *windows.appExecutionAlias*. |
 | [uap3:Protocol](element-uap3-protocol.md) | Declares an app extensibility point of type *windows.protocol*. |
-| [uap3:FileTypeAssociations](element-uap3-filetypeassociations.md) | Declares an app extensibility point of type *windows.fileTypeAssociations*. |
+| [uap3:FileTypeAssociation](element-uap3-filetypeassociation.md) | Declares an app extensibility point of type *windows.fileTypeAssociation*. |
 
 
 ### Parent elements

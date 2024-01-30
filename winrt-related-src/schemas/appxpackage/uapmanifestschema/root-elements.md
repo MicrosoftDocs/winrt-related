@@ -390,7 +390,7 @@ The following list summarizes the allowed hierarchies for this schema, starting 
                     -   [**uap3:AppointmentDataProvider**](element-uap3-appointmentdataprovider-manual.md)
                     -   [**uap3:EmailDataProvider**](element-uap3-emaildataprovider-manual.md)
                     -   [**uap3:ContactDataProvider**](element-uap3-contactdataprovider-manual.md)
-                    -   [**uap3:FileTypeAssociations**](element-uap3-filetypeassociations.md)
+                    -   [**uap3:FileTypeAssociations**](element-uap3-filetypeassociation.md)
                     -   [**uap3:Protocol**](element-uap3-protocol.md)
                 -   [**uap4:Extension**](element-uap4-extension.md)
                     -   [**uap4:ContactPanel**](element-uap4-contactpanel.md)
