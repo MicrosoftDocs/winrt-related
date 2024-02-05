@@ -12,7 +12,7 @@ ms.workload: ["cplusplus"]
 
 A sequential collection of UTF-16 Unicode characters representing a text string. For more examples and info about **winrt::hstring**, see [String handling in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/strings).
 
-The **winrt::hstring** type encapsulates [HSTRING](/windows/win32/winrt/hstring) behind an interface similar to that of **std::wstring**. A **HSTRING** is a handle to a Windows Runtime string. For info about how to set an **HSTRING** into a **winrt::hstring**, and how to rertrieve an **HSTRING** from a **winrt::hstring**, see [Interoperating with the ABI's HSTRING](/windows/uwp/cpp-and-winrt-apis/interop-winrt-abi).
+The **winrt::hstring** type encapsulates [HSTRING](/windows/win32/winrt/hstring) behind an interface similar to that of **std::wstring**. A **HSTRING** is a handle to a Windows Runtime string. For info about how to set an **HSTRING** into a **winrt::hstring**, and how to rertrieve an **HSTRING** from a **winrt::hstring**, see [Interoperating with the ABI's HSTRING](/windows/uwp/cpp-and-winrt-apis/interop-winrt-abi#interoperating-with-the-abis-hstring).
 
 ## Syntax
 ```cppwinrt
