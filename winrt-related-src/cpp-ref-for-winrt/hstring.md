@@ -2,7 +2,7 @@
 description: A sequential collection of UTF-16 Unicode characters representing a text string.
 title: winrt::hstring struct (C++/WinRT)
 dev_langs: ["C++"]
-ms.date: 02/05/2024
+ms.date: 02/06/2024
 ms.topic: "language-reference"
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, string
 ms.workload: ["cplusplus"]
@@ -12,7 +12,7 @@ ms.workload: ["cplusplus"]
 
 A sequential collection of UTF-16 Unicode characters representing a text string. For more examples and info about **winrt::hstring**, see [String handling in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/strings).
 
-The **winrt::hstring** type encapsulates [HSTRING](/windows/win32/winrt/hstring) behind an interface similar to that of **std::wstring**. A **HSTRING** is a handle to a Windows Runtime string. For info about how to set an **HSTRING** into a **winrt::hstring**, and how to rertrieve an **HSTRING** from a **winrt::hstring**, see [Interoperating with the ABI's HSTRING](/windows/uwp/cpp-and-winrt-apis/interop-winrt-abi#interoperating-with-the-abis-hstring).
+The **winrt::hstring** type encapsulates [HSTRING](/windows/win32/winrt/hstring) behind an interface similar to that of **std::wstring**. A **HSTRING** is a handle to a Windows Runtime string. For info about how to set an **HSTRING** into a **winrt::hstring**, and how to retrieve an **HSTRING** from a **winrt::hstring**, see [Interoperating with the ABI's HSTRING](/windows/uwp/cpp-and-winrt-apis/interop-winrt-abi#interoperating-with-the-abis-hstring).
 
 ## Syntax
 ```cppwinrt
