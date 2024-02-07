@@ -35,12 +35,15 @@ This element defines the root element of an appinstaller file. The appinstaller 
   & OptionalPackages?
   & RelatedPackages?
   & UpdateSettings?
+  & s4:UpdateUris?
+  & s4:RepairUris?
   )
 
 </AppInstaller>
 ```
 
 ### Key
+
 `?`   optional (zero or one)
 `&`   interleave connector (may occur in any order)
 
@@ -67,12 +70,15 @@ Child elements must appear in the specified order
 | [RelatedPackages](element-related-packages.md) | Specifies the related packages. These packages won't be installed. |
 | [Dependencies](element-dependencies.md) | These are dependencies that will be installed if required. |
 | [UpdateSettings](element-update-settings.md) | Use the updatesettings element to toggle auto update of installed packages. |
+| [s4:UpdateUris](element-s4-updateuris.md) | Specifies a list of Uris pointing to App Installer files for updating an installation. |
+| [s4:RepairUris](element-s4-repairuris.md) | Specifies a list of Uris pointing to App Installer files for repairing an installation. |
 
 ### Parent Elements
 
 This outermost element may not be contained by any other elements.
 
 ## Remarks
+
 `<AppInstaller>` can have either a `<MainPackage>` or `<MainBundle>` element. The deployment operation will fail if more than one of either are included.
 Only `encoding="UTF-8"` with no escape characters, and no non-ascii characters is accepted.
 

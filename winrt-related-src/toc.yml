@@ -20,36 +20,110 @@ items:
           items: 
           - name: "AppInstaller"
             href: schemas/appinstallerschema/element-appinstaller.md
+          - name: "AutomaticBackgroundTask"
+            href: schemas/appinstallerschema/element-automatic-background-task.md
+          - name: "Bundle"
+            href: schemas/appinstallerschema/element-bundle.md
+          - name: "Dependencies"
+            href: schemas/appinstallerschema/element-dependencies.md
+          - name: "ForceUpdateFromAnyVersion"
+            href: schemas/appinstallerschema/element-force-update-from-any-version.md
           - name: "MainBundle"
             href: schemas/appinstallerschema/element-main-bundle.md
           - name: "MainPackage"
             href: schemas/appinstallerschema/element-main-package.md
+          - name: "OnLaunch"
+            href: schemas/appinstallerschema/element-onlaunch.md
           - name: "OptionalPackages"
-            href: schemas/appinstallerschema/element-optional-packages.md
-          - name: "Bundle"
-            href: schemas/appinstallerschema/element-bundle.md
+            href: schemas/appinstallerschema/element-optional-packages.md  
           - name: "Package"
             href: schemas/appinstallerschema/element-package.md
           - name: "RelatedPackages"
             href: schemas/appinstallerschema/element-related-packages.md
-          - name: "Bundle"
-            href: schemas/appinstallerschema/element-bundle.md
-          - name: "Package"
-            href: schemas/appinstallerschema/element-package.md
-          - name: "Dependencies"
-            href: schemas/appinstallerschema/element-dependencies.md
-          - name: "Bundle"
-            href: schemas/appinstallerschema/element-bundle.md
-          - name: "Package"
-            href: schemas/appinstallerschema/element-package.md
           - name: "UpdateSettings"
             href: schemas/appinstallerschema/element-update-settings.md
-          - name: "OnLaunch"
-            href: schemas/appinstallerschema/element-onlaunch.md
-          - name: "AutomaticBackgroundTask"
-            href: schemas/appinstallerschema/element-automatic-background-task.md
-          - name: "ForceUpdateFromAnyVersion"
-            href: schemas/appinstallerschema/element-force-update-from-any-version.md
+          - name: "s2:AppInstaller"
+            href: schemas/appinstallerschema/element-s2-appinstaller.md
+          - name: "s2:AutomaticBackgroundTask"
+            href: schemas/appinstallerschema/element-s2-automaticbackgroundtask.md
+          - name: "s2:Bundle"
+            href: schemas/appinstallerschema/element-s2-bundle.md
+          - name: "s2:Dependencies"
+            href: schemas/appinstallerschema/element-s2-dependencies.md
+          - name: "s2:MainBundle"
+            href: schemas/appinstallerschema/element-s2-mainbundle.md
+          - name: "s2:MainPackage"
+            href: schemas/appinstallerschema/element-s2-mainpackage.md
+          - name: "s2:OnLaunch"
+            href: schemas/appinstallerschema/element-s2-onlaunch.md
+          - name: "s2:OptionalPackages"
+            href: schemas/appinstallerschema/element-s2-optionalpackages.md
+          - name: "s2:Package"
+            href: schemas/appinstallerschema/element-s2-package.md
+          - name: "s2:RelatedPackages"
+            href: schemas/appinstallerschema/element-s2-relatedpackages.md
+          - name: "s2:UpdateSettings"
+            href: schemas/appinstallerschema/element-s2-updatesettings.md
+          - name: "s3:AppInstaller"
+            href: schemas/appinstallerschema/element-s3-appinstaller.md
+          - name: "s3:AutomaticBackgroundTask"
+            href: schemas/appinstallerschema/element-s3-automaticbackgroundtask.md
+          - name: "s3:Bundle"
+            href: schemas/appinstallerschema/element-s3-bundle.md
+          - name: "s3:Dependencies"
+            href: schemas/appinstallerschema/element-s3-dependencies.md
+          - name: "s3:ForceUpdateFromAnyVersion"
+            href: schemas/appinstallerschema/element-s3-forceupdatefromanyversion.md
+          - name: "s3:MainBundle"
+            href: schemas/appinstallerschema/element-s3-mainbundle.md
+          - name: "s3:MainPackage"
+            href: schemas/appinstallerschema/element-s3-mainpackage.md
+          - name: "s3:MainPackageType"
+            href: schemas/appinstallerschema/element-s3-mainpackagetype.md
+          - name: "s3:OnLaunch"
+            href: schemas/appinstallerschema/element-s3-onlaunch.md
+          - name: "s3:OptionalPackages"
+            href: schemas/appinstallerschema/element-s3-optionalpackages.md
+          - name: "s3:Package"
+            href: schemas/appinstallerschema/element-s3-package.md
+          - name: "s3:RelatedPackages"
+            href: schemas/appinstallerschema/element-s3-relatedpackages.md
+          - name: "s3:UpdateSettings"
+            href: schemas/appinstallerschema/element-s3-updatesettings.md
+          - name: "s4:AppInstaller"
+            href: schemas/appinstallerschema/element-s4-appinstaller.md
+          - name: "s4:AutomaticBackgroundTask"
+            href: schemas/appinstallerschema/element-s4-automaticbackgroundtask.md
+          - name: "s4:Bundle"
+            href: schemas/appinstallerschema/element-s4-bundle.md
+          - name: "s4:Dependencies"
+            href: schemas/appinstallerschema/element-s4-dependencies.md
+          - name: "s4:ForceUpdateFromAnyVersion"
+            href: schemas/appinstallerschema/element-s4-forceupdatefromanyversion.md
+          - name: "s4:MainBundle"
+            href: schemas/appinstallerschema/element-s4-mainbundle.md
+          - name: "s4:MainPackage"
+            href: schemas/appinstallerschema/element-s4-mainpackage.md
+          - name: "s4:MainPackageType"
+            href: schemas/appinstallerschema/element-s4-mainpackagetype.md
+          - name: "s4:OnLaunch"
+            href: schemas/appinstallerschema/element-s4-onlaunch.md
+          - name: "s4:OptionalPackages"
+            href: schemas/appinstallerschema/element-s4-optionalpackages.md
+          - name: "s4:Package"
+            href: schemas/appinstallerschema/element-s4-package.md
+          - name: "s4:RelatedPackages"
+            href: schemas/appinstallerschema/element-s4-relatedpackages.md
+          - name: "s4:RepairUri"
+            href: schemas/appinstallerschema/element-s4-repairuri.md
+          - name: "s4:RepairUris"
+            href: schemas/appinstallerschema/element-s4-repairuris.md
+          - name: "s4:UpdateSettings"
+            href: schemas/appinstallerschema/element-s4-updatesettings.md
+          - name: "s4:UpdateUri"
+            href: schemas/appinstallerschema/element-s4-updateuri.md
+          - name: "s4:UpdateUris"
+            href: schemas/appinstallerschema/element-s4-updateuris.md
     - name: "App package block map"
       href: schemas/blockmapschema/app-package-block-map.md
       items: 
