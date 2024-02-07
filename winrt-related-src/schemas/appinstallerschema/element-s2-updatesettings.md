@@ -35,7 +35,7 @@ Specifies settings related to app updates. (s2:UpdateSettings)
 | -----------| -------------|
 | [s2:OnLaunch](element-s2-onlaunch.md) | Specifies whether the deployment service will check for an update to the App Installer file on the app launch. |
 | [s2:AutomaticBackgroundTask](element-s2-automaticbackgroundtask.md) | An optional element of the App Installer file, the presence of which indicates that the system should check for updates in the background. |
-| [s2:ForceUpdateFromAnyVersion](element-s2-forceupdatefromanyversion.md) | An optional element of the App Installer file that specifies if an app can be updated from any version. |
+| [s4:ForceUpdateFromAnyVersion](element-s4-forceupdatefromanyversion.md) | An optional element of the App Installer file that specifies if an app can be updated from any version. |
 
 ## Parent Elements
 

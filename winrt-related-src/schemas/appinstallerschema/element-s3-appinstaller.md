@@ -45,7 +45,7 @@ Defines the root element of an App Installer file. (s3:AppInstaller)
 
 | Attribute | Description | Data type | Required |
 | -----------| -------------| -----------| ----------|
-| Uri | Web URI to the redirected App Installer file. When the Uri specified in the field differs from the current file, the deployment operation will redirect to the Uri instead of the current file. The App Installer file can only be redirected a max of three times. Query strings with multiple key/value pairs are currently not supported. | Web URI as a string between 1 and 2084 characters in length. | Web URI as a string between 1 and 2084 characters in length.| Yes |
+| Uri | Web URI to the redirected App Installer file. When the Uri specified in the field differs from the current file, the deployment operation will redirect to the Uri instead of the current file. The App Installer file can only be redirected a max of three times. Query strings with multiple key/value pairs are currently not supported. | Web URI as a string between 1 and 2084 characters in length. | Yes |
 | Version | The version of App Installer file. | A version string in quad notation, "Major.Minor.Build.Revision" where Major cannot be "0".| Yes |
 | IgnorableNamespaces | Declares namespaces used in the app installer file that should be ignored. Ignored namespace elements are not validated and should be considered untrusted. Multiple namespaces are specified with a space between each namespace. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.| No |
 
