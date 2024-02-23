@@ -22,7 +22,7 @@
         "titleSuffix": "Windows UWP applications",
         "breadcrumb_path":  "/uwp/breadcrumbs/toc.json",
         "feedback_system": "Standard",
-        "feedback_product_url": "https://github.com/microsoft/ProjectReunion/issues",
+        "feedback_product_url": "https://github.com/microsoft/WindowsAppSDK",
         "feedback_help_link_url": "https://learn.microsoft.com/answers/tags/184/windows-app-sdk/",
         "feedback_help_link_type": "get-help-at-qna",
         "uhfHeaderId": "MSDocsHeader-WinDevCenter",
