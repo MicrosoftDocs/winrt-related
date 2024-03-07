@@ -27,10 +27,10 @@ Declares other packages that a package depends on to complete its software.
   TargetDeviceFamily{1,128},
   PackageDependency{0,128},
   uap3:MainPackageDependency{0,1},
-  uap5:DriverDependency{0,1000}
-  uap7:OSPackageDependency{0,1000}
-  uap10:HostRuntimeDependency{0,128}
-
+  uap5:DriverDependency{0,1000},
+  uap7:OSPackageDependency{0,1000},
+  uap10:HostRuntimeDependency{0,128},
+  win32dependencies:ExternalDependency{0,128}
 </Dependencies>
 ```
 
