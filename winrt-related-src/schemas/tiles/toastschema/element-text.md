@@ -87,7 +87,7 @@ Specifies text used in the toast template.
 </tr>
 <tr class="odd">
 <td><strong>placement</strong></td>
-<td><p>The placement of the text. Introduced in Anniversary Update. If you specify the value "attribution", the text is always displayed at the bottom of your notification, along with your app's identity or the notification's timestamp. On older versions of Windows that don't support attribution text, the text will simply be displayed as another text element (assuming you don't already have the maximum of three text elements). For more information, see [Toast content](/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts).</p></td>
+<td><p>The placement of the text. Introduced in Anniversary Update. If you specify the value "attribution", the text is always displayed at the bottom of your notification, along with your app's identity or the notification's timestamp. On older versions of Windows that don't support attribution text, the text will simply be displayed as another text element (assuming you don't already have the maximum of three text elements). For more information, see <a href="/windows/apps/design/shell/tiles-and-notifications/adaptive-interactive-toasts">Toast content]</a>.</p></td>
 <td>string</td>
 <td>No</td>
 <td>None</td>
