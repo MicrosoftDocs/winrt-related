@@ -118,7 +118,7 @@ You can specify activation info attributes on the **Application** element; and y
 
 As you can see, if your target system doesn't support the `uap10` namespace, then you can specify the **EntryPoint** attribute instead. Similarly, the equivalent of **uap10:TrustLevel**="appContainer"` on older systems is **EntryPoint**="windows.partialTrustApplication".
 
-But it's redundant to specify both **uap10:RuntimeBehavior**/**uap10:TrustLevel** and **EntryPoint** at the same time. But if you do that, then it's an error if they contradict.
+It is redundant to specify both **uap10:RuntimeBehavior**/**uap10:TrustLevel** and **EntryPoint** at the same time, but if you do, then it's an error if they contradict.
 
 Universal Windows Platform (UWP) app activations require **EntryPoint**. So if you specify **Executable** and **uap10:RuntimeBehavior**="windowsApp" (with no **EntryPoint**), then that's an error. In this same case, **EntryPoint** would specify something other than "windows.fullTrustApplication" and "windows.partialTrustApplication"; and values other than those two already say the same thing as **uap10:RuntimeBehavior**="windowsApp". So **uap10:RuntimeBehavior** would be redundant in this case, and you'd specify **Executable** and **EntryPoint**.
 
