@@ -12,6 +12,8 @@ ms.date: 04/05/2017
 
 # Voice Command Definition (VCD) elements and attributes v1.2
 
+> [!NOTE]
+> The Cortana Skills Kit for consumer and enterprise, and the skills built on these platforms, have been deprecated.
 
 Reference documentation for the XML markup elements and attributes used in Voice Command Definition (VCD) files to specify recognition constraints.
 
@@ -138,8 +140,6 @@ The root element is the **VoiceCommands** element, and its **xmlns** attribute m
 
 [Cortana interactions](https://dev.microsoft.com/cortana)
 
-**Designers**  
-[Cortana design guidelines](/cortana/voice-commands/voicecommand-design-guidelines)
 
 **Samples**  
 [Cortana voice command sample](https://go.microsoft.com/fwlink/p/?LinkID=619899)

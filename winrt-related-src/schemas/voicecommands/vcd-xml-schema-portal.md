@@ -12,6 +12,8 @@ ms.date: 04/05/2017
 
 # Voice command (VCD) schemas
 
+> [!NOTE]
+> The Cortana Skills Kit for consumer and enterprise, and the skills built on these platforms, have been deprecated.
 
 ## Purpose
 

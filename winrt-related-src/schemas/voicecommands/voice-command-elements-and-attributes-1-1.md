@@ -10,6 +10,9 @@ ms.date: 04/05/2017
 
 # Voice Command Definition (VCD) elements and attributes v1.1
 
+> [!NOTE]
+> The Cortana Skills Kit for consumer and enterprise, and the skills built on these platforms, have been deprecated.
+
 See latest version at [**Voice Command Definition (VCD) elements and attributes v1.2**](voice-command-elements-and-attributes-1-2.md).
 
 Reference documentation for the XML markup elements and attributes used in VCD files to specify recognition constraints.
@@ -111,9 +114,6 @@ Navigate</td><td>Required child element of the <strong>Command</strong> element.
 
 [Cortana interactions](https://dev.microsoft.com/cortana)
 
-**Designers**
-
-[Cortana design guidelines](/cortana/voice-commands/voicecommand-design-guidelines)
 
 **Samples**
 
