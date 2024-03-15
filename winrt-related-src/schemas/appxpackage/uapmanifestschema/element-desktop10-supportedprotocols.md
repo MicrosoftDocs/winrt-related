@@ -1,6 +1,6 @@
 ---
 title: desktop10:SupportedProtocols
-description: Specifies the supported URL protocol schemes for a given key.
+description: Specifies the supported URL protocol schemes for the extension.
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 ms.date: 05/23/2022
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.topic: reference
 
 # desktop10:SupportedProtocols
 
-Specifies the supported URL protocol schemes for a given key.
+Specifies the supported URL protocol schemes for the extension.
 
 ## Element hierarchy
 
@@ -52,6 +52,10 @@ None.
 | Parent element | Description |
 |-|-|
 | [desktop10:Extension](element-desktop10-extension.md) | Declares an extensibility point for the app. |
+
+## Remarks
+
+The behavior of this element is comparable to setting supported protocols for unpackaged apps in the registry as described in [Application Registration](/windows/win32/shell/app-registration). The attributes and child elements from the desktop10 namespace are only supported on extension instances that specify CompatMode="classic" and are only supported on desktop SKUs.
 
 ## Requirements
 
