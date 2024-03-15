@@ -140,8 +140,6 @@ The root element is the **VoiceCommands** element, and its **xmlns** attribute m
 
 [Cortana interactions](https://dev.microsoft.com/cortana)
 
-**Designers**  
-[Cortana design guidelines](/cortana/voice-commands/voicecommand-design-guidelines)
 
 **Samples**  
 [Cortana voice command sample](https://go.microsoft.com/fwlink/p/?LinkID=619899)
