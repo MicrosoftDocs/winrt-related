@@ -115,10 +115,12 @@ The type of the requested interface.
 
 ### Parameters
 `to`
-A reference to a value to receive the requested interface.
+A reference to a value to receive the requested interface. Can be a null reference.
 
 ### Return value 
 A **com_ptr** referencing the requested interface, or a strongly-typed smart pointer for the requested interface (either declared by C++/WinRT or by a third party), if the requested interface is supported, otherwise `null` (the `auto`-returning overload) or `false` (the `bool`-returning overload).
+
+If `to` is a null reference, returns `null` or `false`.
 
 ## IUnknown::operator bool
 Checks whether or not the **IUnknown** object is referencing an interface. If the **IUnknown** object is not referencing an interface, then it is logically null; otherwise it is logically not null.
