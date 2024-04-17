@@ -20,14 +20,10 @@ items:
           items: 
           - name: "AppInstaller"
             href: schemas/appinstallerschema/element-appinstaller.md
-          - name: "AutomaticBackgroundTask"
-            href: schemas/appinstallerschema/element-automatic-background-task.md
           - name: "Bundle"
             href: schemas/appinstallerschema/element-bundle.md
           - name: "Dependencies"
             href: schemas/appinstallerschema/element-dependencies.md
-          - name: "ForceUpdateFromAnyVersion"
-            href: schemas/appinstallerschema/element-force-update-from-any-version.md
           - name: "MainBundle"
             href: schemas/appinstallerschema/element-main-bundle.md
           - name: "MainPackage"

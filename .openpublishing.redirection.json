@@ -189,6 +189,16 @@
       "source_path": "winrt-related-src/toolkits/winui/release-notes/winui-2.0.md",
       "redirect_url": "/windows/apps/winui/winui2/release-notes/winui-2.0",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appinstallerschema/element-automatic-background-task.md",
+      "redirect_url": "/uwp/schemas/appinstallerschema/element-s4-automaticbackgroundtask.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appinstallerschema/element-force-update-from-any-version.md",
+      "redirect_url": "/uwp/schemas/appinstallerschema/element-s4-forceupdatefromanyversion.md",
+      "redirect_document_id": false
     }
   ]
 }

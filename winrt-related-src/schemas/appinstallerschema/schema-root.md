@@ -31,7 +31,7 @@ The following table lists all of the elements in each this schema.
 | [UpdateSettings](element-update-settings.md) | Use the UpdateSettings element to toggle auto update of installed packages and set an interval for update checks. |
 | [OnLaunch](element-onlaunch.md)  |  Signifies that the deployment service will check for an update to the appinstaller file on the app launch. |
 | [s4:AutomaticBackgroundTask](element-s4-automaticbackgroundtask.md)  | Checks for updates in the background. A check is made every 8 hours independently of whether the user launched the app. This type of update cannot show UI.  |
-| [s4:ForceUpdateFromAnyVersion](element-forceupdatefromanyversion.md)  | A boolean that allows the app's version to be incremented or decremented. Without this element, the app can only move to a higher version.  |
+| [s4:ForceUpdateFromAnyVersion](element-s4-forceupdatefromanyversion.md)  | A boolean that allows the app's version to be incremented or decremented. Without this element, the app can only move to a higher version.  |
 | [s4:MainPackageType](element-s4-mainpackagetype.md)  | Checks for updates in the background. A check is made every 8 hours independently of whether the user launched the app. This type of update cannot show UI.  |
 | [s4:RepairUris](element-s4-repairuris.md)  | A boolean that allows the app's version to be incremented or decremented. Without this element, the app can only move to a higher version.  |
 | [s4:RepairUri](element-s4-repairuri.md)  | A boolean that allows the app's version to be incremented or decremented. Without this element, the app can only move to a higher version.  |
