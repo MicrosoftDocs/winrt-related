@@ -34,9 +34,29 @@ The check is made every 8 hours independently of whether the user launched the a
 |-----------------|-------------|
 | [s4:UpdateSettings](element-s4-updatesettings.md) | Specifies settings related to app updates. |
 
+## Examples
+
+In this example, deployment will check for updates in the background, every 8 hours, even if the user doesn't launch the app.
+
+``` xml  
+<s4:UpdateSettings>
+    <s4:AutomaticBackgroundTask/>
+</s4:UpdateSettings>
+```
+
+In this example, deployment will check for updates at launch time and in the background. In addition, the app version can be incremented or decremented.
+
+``` xml  
+<s4:UpdateSettings>
+    <s4:OnLaunch HoursBetweenUpdateChecks="12"/>
+    <s4:AutomaticBackgroundTask/>
+    <s4:ForceUpdateFromAnyVersion>true</ForceUpdateFromAnyVersion>
+</s4:UpdateSettings>
+```
+
 ## Requirements
 
 | Requirement | Value |
 | ---------------| -------------------------------------------------------------|
-| Namespace (s4) | `http://schemas.microsoft.com/appx/appinstaller/2021` |
+| `xmlns:s4=http://schemas.microsoft.com/appx/appinstaller/2021` | This namespace is required for features introduced in Windows version 21H2 build 22000 |
 | Minimum OS version | Windows version 21H2 build 22000 |

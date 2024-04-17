@@ -43,9 +43,11 @@ Specifies settings related to app updates. (s2:UpdateSettings)
 |-----------------|-------------|
 | [s2:AppInstaller](element-s2-optionalpackages.md) | Defines the root element of an AppInstaller file. |
 
+## Requirements
+
 | Requirement | Value |
 | ---------------| -------------------------------------------------------------|
-| Namespace (s2) | `http://schemas.microsoft.com/appx/appinstaller/2017/2` |
-| Namespace (s4) | `http://schemas.microsoft.com/appx/appinstaller/2021` |
+| `xmlns:s2=http://schemas.microsoft.com/appx/appinstaller/2017/2` | This namespace is required for features introduced in Windows 10, version 1803. |
+| `xmlns:s4=http://schemas.microsoft.com/appx/appinstaller/2021` | This namespace is required for features introduced in Windows version 21H2 build 22000 |
 | Minimum OS version | Windows 10 version 1803 build 17134 |
 

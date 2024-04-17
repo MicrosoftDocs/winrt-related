@@ -47,6 +47,19 @@ Defines the dependency packages that are required for successful deployment of t
 |-----------------|-------------|
 | [s4:AppInstaller](element-s4-optionalpackages.md) | Defines the root element of an AppInstaller file. |
 
+## Remarks
+These packages will only be installed if they are not already available on the target device.
+
+## Examples
+The following example is taken from a sample appinstaller file. The Uri location doesn't exist.  
+
+``` xml
+<s4:Dependencies>
+  <s4:Package Name="Microsoft.VCLibs.140.00" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="14.0.24605.0" ProcessorArchitecture="x86" Uri="http://foobarbaz.com/fwkx86.appx" />
+  <s4:Package Name="Microsoft.VCLibs.140.00" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="14.0.24605.0" ProcessorArchitecture="x64" Uri="http://foobarbaz.com/fwkx64.appx" />
+</s4:Dependencies>
+```
+
 ## Requirements
 
 | Requirement | Value |

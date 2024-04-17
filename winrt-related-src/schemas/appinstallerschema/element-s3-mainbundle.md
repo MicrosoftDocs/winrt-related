@@ -44,9 +44,14 @@ Specifies the information about the main bundle package. (s3:MainBundle)
 |-----------------|-------------|
 | [s3:AppInstaller](element-s3-optionalpackages.md) | Defines the root element of an AppInstaller file. |
 
+## Remarks
+Only one of either `<MainBundle>` or `<MainPackage>` can be declared in the `<AppInstaller>` element. 
+
+The `<MainBundle>` element should only be used for app package bundles (.appxbundle).
+
 ## Requirements
 
 | Requirement | Value |
 | ---------------| -------------------------------------------------------------|
-| Namespace (s3) | `http://schemas.microsoft.com/appx/appinstaller/2018` |
-| Minimum OS version | Windows version 1809 build 17763 |
+| `xmlns:s3=http://schemas.microsoft.com/appx/appinstaller/2018` | This namespace is required for features introduced in Windows 10, version 1809. |
+| Minimum OS version | Windows 10 version 1809 |

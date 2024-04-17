@@ -36,10 +36,30 @@ The check is made every 8 hours independently of whether the user launched the a
 |-----------------|-------------|
 | [s3:UpdateSettings](element-s3-updatesettings.md) | Specifies settings related to app updates. |
 
+## Examples
+
+In this example, deployment will check for updates in the background, every 8 hours, even if the user doesn't launch the app.
+
+``` xml  
+<s3:UpdateSettings>
+    <s3:AutomaticBackgroundTask/>
+</s3:UpdateSettings>
+```
+
+In this example, deployment will check for updates at launch time and in the background. In addition, the app version can be incremented or decremented.
+
+``` xml  
+<s3:UpdateSettings>
+    <s3:OnLaunch HoursBetweenUpdateChecks="12"/>
+    <s3:AutomaticBackgroundTask/>
+    <s3:ForceUpdateFromAnyVersion>true</ForceUpdateFromAnyVersion>
+</s3:UpdateSettings>
+```
+
 
 ## Requirements
 
 | Requirement | Value |
 | ---------------| -------------------------------------------------------------|
-| Namespace (s3) | `http://schemas.microsoft.com/appx/appinstaller/2018` |
+| `xmlns:s3=http://schemas.microsoft.com/appx/appinstaller/2018` | Windows version 1809 build 17763 |
 | Minimum OS version | Windows version 1809 build 17763 |

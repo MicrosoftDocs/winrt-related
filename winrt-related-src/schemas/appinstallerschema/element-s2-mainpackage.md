@@ -49,9 +49,18 @@ Specifies the information about the main package which includes name, publisher,
 |-----------------|-------------|
 | [s2:AppInstaller](element-s2-optionalpackages.md) | Defines the root element of an AppInstaller file. |
 
+## Remarks
+
+Only one of either `<MainPackage>` or `<MainBundle>` can be declared in the `<AppInstaller>` element. 
+
+The `<MainPackage>` element should only be used for app packages (.appx).
+
+> [!NOTE]
+> The Name, Publisher, Version, ProcessorArchitecture, and ResourceId **must** match the values in the AppxManifest.xml file specified in the app package Uri.
+
 ## Requirements
 
 | Requirement | Value |
 | ---------------| -------------------------------------------------------------|
-| Namespace (s2) | `http://schemas.microsoft.com/appx/appinstaller/2017/2` |
+| `xmlns:s2=http://schemas.microsoft.com/appx/appinstaller/2017/2` | This namespace is required for features introduced in Windows 10, version 1803. |
 | Minimum OS version | Windows 10 version 1803 build 17134 |

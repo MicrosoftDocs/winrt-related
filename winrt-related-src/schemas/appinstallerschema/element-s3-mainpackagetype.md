@@ -18,5 +18,5 @@ An abstract element that can't be specified directly, but must be substituted wi
 
 | Requirement | Value |
 | ---------------| -------------------------------------------------------------|
-| Namespace (s3) | `http://schemas.microsoft.com/appx/appinstaller/2018` |
-| Minimum OS version | Windows version 1809 build 17763 |
+| `xmlns:s3=http://schemas.microsoft.com/appx/appinstaller/2018` | This namespace is required for features introduced in Windows 10, version 1809. |
+| Minimum OS version | Windows 10 version 1809 |

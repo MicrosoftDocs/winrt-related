@@ -84,8 +84,8 @@ Only `encoding="UTF-8"` with no escape characters, and no non-ascii characters i
 
 ## Requirements
 
-| Namespace | Description |
+| Requirement | Description |
 |----------------|-------------|
-| `http://schemas.microsoft.com/appx/appinstaller/2018` | This namespace is required for features introduced in Windows 10, version 1809. |
-| `http://schemas.microsoft.com/appx/appinstaller/2017/2` | This namespace is required for features introduced in Windows 10, version 1803. |
-| `http://schemas.microsoft.com/appx/appinstaller/2017` | This namespace is required for features introduced in Windows 10, version 1709. |
+| `xmlns=http://schemas.microsoft.com/appx/appinstaller/2017` | This namespace is required for features introduced in Windows 10, version 1709. |
+| `xmlns:s4=http://schemas.microsoft.com/appx/appinstaller/2021` | This namespace is required for features introduced in Windows version 21H2 build 22000 |
+| Minimum OS version | Windows 10, version 1709 |

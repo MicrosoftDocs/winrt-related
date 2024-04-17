@@ -49,9 +49,28 @@ Specifies whether the deployment service will check for an update to the App Ins
 |-----------------|-------------|
 | [s3:UpdateSettings](element-s3-updatesettings.md) | Specifies settings related to app updates. |
 
+
+## Remarks
+
+Setting the `ShowPrompt="true"` attribute currently shows a prompt for UWP applications but not for desktop applications that have been packaged in a Windows app package (that is, desktop applications that use the Desktop Bridge). For desktop applications, this functionality provides a silent update; the same default functionality provided by the OnLaunch element.
+
+The `ShowPrompt` and `UpdateBlocksActivation` attributes have effect only when the user starts the app from a menu item or tile in the Start menu. These attributes have no effect if the user starts the app from a desktop shortcut or from the Taskbar.
+
+## Examples
+
+In this example, deployment will check for updates every time the app is launched. If updates are found, deployment will show a prompt telling the user they must take the update before launching the app. Also the app version can be incremented or decremented.
+
+``` xml  
+<s3:UpdateSettings> 
+    <s3:OnLaunch s4:HoursBetweenUpdateChecks="0" s4:ShowPrompt="true" s4:UpdateBlocksActivation="true"/>
+    <s4:ForceUpdateFromAnyVersion>true</s4:ForceUpdateFromAnyVersion>
+</s3:UpdateSettings>
+```
+
+
 ## Requirements
 
 | Requirement | Value |
 | ---------------| -------------------------------------------------------------|
-| Namespace (s3) | `http://schemas.microsoft.com/appx/appinstaller/2018` |
-| Minimum OS version | Windows version 1809 build 17763 |
+| `xmlns:s3=http://schemas.microsoft.com/appx/appinstaller/2018` | This namespace is required for features introduced in Windows 10, version 1809. |
+| Minimum OS version | Windows 10 version 1809 |

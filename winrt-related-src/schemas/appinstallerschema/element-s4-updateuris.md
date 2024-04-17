@@ -50,5 +50,5 @@ Specifies a list of Uris pointing to App Installer files for updating an install
 
 | Requirement | Value |
 | ---------------| -------------------------------------------------------------|
-| Namespace (s4) | `http://schemas.microsoft.com/appx/appinstaller/2021` |
+| `xmlns:s4=http://schemas.microsoft.com/appx/appinstaller/2021` | This namespace is required for features introduced in Windows version 21H2 build 22000 |
 | Minimum OS version | Windows version 21H2 build 22000 |

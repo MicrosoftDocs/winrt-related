@@ -48,9 +48,28 @@ Specifies whether the deployment service will check for an update to the App Ins
 |-----------------|-------------|
 | [s4:UpdateSettings](element-s4-updatesettings.md) | Specifies settings related to app updates. |
 
+
+## Remarks
+
+Setting the `ShowPrompt="true"` attribute currently shows a prompt for UWP applications but not for desktop applications that have been packaged in a Windows app package (that is, desktop applications that use the Desktop Bridge). For desktop applications, this functionality provides a silent update; the same default functionality provided by the OnLaunch element.
+
+The `ShowPrompt` and `UpdateBlocksActivation` attributes have effect only when the user starts the app from a menu item or tile in the Start menu. These attributes have no effect if the user starts the app from a desktop shortcut or from the Taskbar.
+
+## Examples
+
+In this example, deployment will check for updates every time the app is launched. If updates are found, deployment will show a prompt telling the user they must take the update before launching the app. Also the app version can be incremented or decremented.
+
+``` xml  
+<s4:UpdateSettings> 
+    <s4OnLaunch s4:HoursBetweenUpdateChecks="0" s4:ShowPrompt="true" s4:UpdateBlocksActivation="true"/>
+    <s4:ForceUpdateFromAnyVersion>true</s4:ForceUpdateFromAnyVersion>
+</s4UpdateSettings>
+```
+
+
 ## Requirements
 
 | Requirement | Value |
 | ---------------| -------------------------------------------------------------|
-| Namespace (s4) | `http://schemas.microsoft.com/appx/appinstaller/2021` |
+| `xmlns:s4=http://schemas.microsoft.com/appx/appinstaller/2021` | This namespace is required for features introduced in Windows version 21H2 build 22000 |
 | Minimum OS version | Windows version 21H2 build 22000 |

@@ -36,7 +36,17 @@ If the value is true, then the app can be updated to a higher or lower version n
 |-----------------|-------------|
 | [s4:UpdateSettings](element-s4-updatesettings.md) |Specifies settings related to app updates. |
 
+## Examples
 
+In this example, deployment will check for updates at launch time and in the background. In addition, the app version can be incremented or decremented.
+
+``` xml  
+<s4:UpdateSettings>
+    <s4:OnLaunch HoursBetweenUpdateChecks="12"/>
+    <s4:AutomaticBackgroundTask/>
+    <s4:ForceUpdateFromAnyVersion>true</ForceUpdateFromAnyVersion>
+</s4:UpdateSettings>
+```
 
 ## Requirements
 

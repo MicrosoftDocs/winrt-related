@@ -14,6 +14,12 @@ keywords: windows 10, windows 11, uwp, schema, manifest, package
 
 Defines the root element of an AppInstaller file. (s2:AppInstaller)
 
+This version of the app installer schema, introduced in Windows 10 version 1803 build 17134, defines the same elements with the same behavior as the version described in [AppInstaller](element-appinstaller.md), but introduces the following new elements:
+
+* [s2:AutomaticBackgroundTask](element-s2-automaticbackgroundtask.md)
+
+This new element can be used with previous versions of the schema by referencing the namespace `xmlns:s2=http://schemas.microsoft.com/appx/appinstaller/2017/2`.
+
 ## Element Hierarchy
 
 &lt;s2:AppInstaller&gt;
@@ -73,6 +79,6 @@ Only `encoding="UTF-8"` with no escape characters, and no non-ascii characters i
 
 | Requirement | Value |
 | ---------------| -------------------------------------------------------------|
-| Namespace (s2) | `http://schemas.microsoft.com/appx/appinstaller/2017/2` |
-| Namespace (s4) | `http://schemas.microsoft.com/appx/appinstaller/2021` |
+| `xmlns:s2=http://schemas.microsoft.com/appx/appinstaller/2017/2` | This namespace is required for features introduced in Windows 10, version 1803. |
+| `xmlns:s4=http://schemas.microsoft.com/appx/appinstaller/2021` | This namespace is required for features introduced in Windows version 21H2 build 22000 |
 | Minimum OS version | Windows 10 version 1803 build 17134 |

@@ -62,6 +62,7 @@ None
 The `<OptionalPackages>` element defines the app packages that will be installed along with the main app. There can be more than one child element defined inside the `<OptionalPackages>` element. If the optional app is packaged as .appx then use the `<Package>`, and if the optional app is packaged as .appxbundle then use the `<Bundle>` element.
 
 ## Examples
+
 ```xml
     <OptionalPackages>
         <Bundle
@@ -86,7 +87,10 @@ The `<OptionalPackages>` element defines the app packages that will be installed
     </OptionalPackages>
 
 ```
+
 ## Requirements
-|               |      Value                                                       |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/appinstaller/2017` |
+
+| Requirement | Description |
+|----------------|-------------|
+| `xmlns=http://schemas.microsoft.com/appx/appinstaller/2017` | This namespace is required for features introduced in Windows 10, version 1709. |
+| Minimum OS version | Windows 10, version 1709 |

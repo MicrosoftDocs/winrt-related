@@ -72,5 +72,5 @@ Specifies the information about a package, including name, publisher, version an
 
 | Requirement | Value |
 | ---------------| -------------------------------------------------------------|
-| Namespace (s3) | `http://schemas.microsoft.com/appx/appinstaller/2018` |
-| Minimum OS version | Windows version 1809 build 17763 |
+| `xmlns:s3=http://schemas.microsoft.com/appx/appinstaller/2018` | This namespace is required for features introduced in Windows 10, version 1809. |
+| Minimum OS version | Windows 10 version 1809 |

@@ -53,5 +53,5 @@ Specifies the information about the bundle package. (s2:Bundle)
 
 | Requirement | Value |
 | ---------------| -------------------------------------------------------------|
-| Namespace (s2) | `http://schemas.microsoft.com/appx/appinstaller/2017/2` |
+| `xmlns:s2=http://schemas.microsoft.com/appx/appinstaller/2017/2` | This namespace is required for features introduced in Windows 10, version 1803. |
 | Minimum OS version | Windows 10 version 1803 build 17134 |

@@ -34,10 +34,21 @@ An optional element of the App Installer file that specifies if an app can be up
 |-----------------|-------------|
 | [s3:UpdateSettings](element-s3-updatesettings.md) |Specifies settings related to app updates. |
 
+## Examples
+
+In this example, deployment will check for updates at launch time and in the background. In addition, the app version can be incremented or decremented.
+
+``` xml  
+<s3:UpdateSettings>
+    <s3:OnLaunch HoursBetweenUpdateChecks="12"/>
+    <s3:AutomaticBackgroundTask/>
+    <s3:ForceUpdateFromAnyVersion>true</ForceUpdateFromAnyVersion>
+</s3:UpdateSettings>
+```
 
 ## Requirements
 
 | Requirement | Value |
 | ---------------| -------------------------------------------------------------|
-| Namespace (s3) | `http://schemas.microsoft.com/appx/appinstaller/2018` |
-| Minimum OS version | Windows version 1809 build 17763 |
+| `xmlns:s3=http://schemas.microsoft.com/appx/appinstaller/2018` | This namespace is required for features introduced in Windows 10, version 1809. |
+| Minimum OS version | Windows 10 version 1809 |

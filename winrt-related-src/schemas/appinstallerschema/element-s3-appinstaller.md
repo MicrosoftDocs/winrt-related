@@ -14,6 +14,13 @@ keywords: windows 10, windows 11, uwp, schema, manifest, package
 
 Defines the root element of an App Installer file. (s3:AppInstaller)
 
+This version of the app installer schema, introduced in Windows 10 version 1809, defines the same elements with the same behavior as the version described in [AppInstaller](element-appinstaller.md), but introduces the following new elements:
+
+* [s3:ForceUpdateFromAnyVersion](element-s3-forceupdatefromanyversion.md)
+* [s3:MainPackageType](element-s3-mainpackagetype.md)
+
+These new elements can be used with previous versions of the schema by referencing the namespace `xmlns:s3=http://schemas.microsoft.com/appx/appinstaller/2018`.
+
 ## Element Hierarchy
 
 &lt;s3:AppInstaller&gt;
@@ -71,6 +78,6 @@ Only `encoding="UTF-8"` with no escape characters, and no non-ascii characters i
 
 | Requirement | Value |
 | ---------------| -------------------------------------------------------------|
-| Namespace (s3) | `http://schemas.microsoft.com/appx/appinstaller/2018` |
-| Namespace (s4) | `http://schemas.microsoft.com/appx/appinstaller/2021` |
-| Minimum OS version | Windows version 1809 build 17763 |
+| `xmlns:s3=http://schemas.microsoft.com/appx/appinstaller/2018` | This namespace is required for features introduced in Windows 10, version 1809. |
+| `xmlns:s4=http://schemas.microsoft.com/appx/appinstaller/2021` | This namespace is required for features introduced in Windows version 21H2 build 22000 |
+| Minimum OS version | Windows 10 version 1809 |

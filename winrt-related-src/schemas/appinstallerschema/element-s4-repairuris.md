@@ -40,7 +40,8 @@ Specifies a list of Uris pointing to App Installer files for repairing an instal
 | [s4:AppInstaller](element-s4-optionalpackages.md) | Defines the root element of an AppInstaller file. |
 
 ## Requirements
-| Prefix | Value |
+
+| Requirement | Value |
 | ---------------| -------------------------------------------------------------|
-| s4 | `http://schemas.microsoft.com/appx/appinstaller/2021` |
+| `xmlns:s4=http://schemas.microsoft.com/appx/appinstaller/2021` | This namespace is required for features introduced in Windows version 21H2 build 22000 |
 | Minimum OS version | Windows version 21H2 build 22000 |

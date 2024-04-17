@@ -22,6 +22,19 @@ The App Installer file can be created manually or through the use of the AppInst
 
 For more information on how to create an App Installer file manually, see [Install a related set using an App Installer file](/windows/uwp/packaging/install-related-set).
 
+## App Installer file versioning
+
+Features are added to the app installer file by adding new schemas. The namespace associated with each new version is unique. The following versions of the schema are currently supported:
+
+| Schema namespace | Introduced in OS Version |
+|------------------|--------------------------|
+| `xmlns=http://schemas.microsoft.com/appx/appinstaller/2017` | Windows 10, version 1709. |
+| `xmlns:s2=http://schemas.microsoft.com/appx/appinstaller/2017/2` | Windows 10, version 1803. |
+| `xmlns:s3=http://schemas.microsoft.com/appx/appinstaller/2018` | Windows 10, version 1809. |
+| `xmlns:s4=http://schemas.microsoft.com/appx/appinstaller/2021` | Windows version 21H2 build 22000 |
+
+Note that earlier versions of the schema may support elements introduced in later schemas using namespace references.
+
 ## In this section
 
 -   [App Installer file (.appinstaller) schema reference](schema-root.md)

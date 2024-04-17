@@ -12,6 +12,16 @@ keywords: windows 10, windows 11, uwp, schema, manifest, package
 
 Defines the root element of an App Installer file. (s4:AppInstaller)
 
+This version of the app installer schema, introduced in Windows 10 version 1809, defines the same elements with the same behavior as the version described in [AppInstaller](element-appinstaller.md), but introduces the following new elements:
+
+* [s4:RepairUri](element-s4-repairuri.md)
+* [s4:RepairUris](element-s4-repairuris.md)
+* [s4:UpdateUri](element-s4-updateuri.md)
+* [s4:UpdateUris](element-s4-updateuris.md)
+
+These new elements can be used with previous versions of the schema by referencing the namespace `xmlns:s3=http://schemas.microsoft.com/appx/appinstaller/2018`.
+
+
 ## Element Hierarchy
 
 &lt;s4:AppInstaller&gt;
@@ -70,5 +80,5 @@ Only `encoding="UTF-8"` with no escape characters, and no non-ascii characters i
 
 | Requirement | Value |
 | ---------------| -------------------------------------------------------------|
-| Namespace (s4) | `http://schemas.microsoft.com/appx/appinstaller/2021` |
+| `xmlns:s4=http://schemas.microsoft.com/appx/appinstaller/2021` | This namespace is required for features introduced in Windows version 21H2 build 22000 |
 | Minimum OS version | Windows version 21H2 build 22000 |

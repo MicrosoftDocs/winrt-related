@@ -41,9 +41,22 @@ efines the dependency packages that are required for successful deployment of th
 |-----------------|-------------|
 | [s2:AppInstaller](element-s2-optionalpackages.md) | Defines the root element of an AppInstaller file. |
 
+## Remarks
+These packages will only be installed if they are not already available on the target device.
+
+## Examples
+The following example is taken from a sample appinstaller file. The Uri location doesn't exist.  
+
+``` xml
+<s2:Dependencies>
+  <s2:Package Name="Microsoft.VCLibs.140.00" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="14.0.24605.0" ProcessorArchitecture="x86" Uri="http://foobarbaz.com/fwkx86.appx" />
+  <s2:Package Name="Microsoft.VCLibs.140.00" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="14.0.24605.0" ProcessorArchitecture="x64" Uri="http://foobarbaz.com/fwkx64.appx" />
+</s2:Dependencies>
+```
+
 ## Requirements
 
 | Requirement | Value |
 | ---------------| -------------------------------------------------------------|
-| Namespace (s2) | `http://schemas.microsoft.com/appx/appinstaller/2017/2` |
+| `xmlns:s2=http://schemas.microsoft.com/appx/appinstaller/2017/2` | This namespace is required for features introduced in Windows 10, version 1803. |
 | Minimum OS version | Windows 10 version 1803 build 17134 |

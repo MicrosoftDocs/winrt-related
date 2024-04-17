@@ -38,9 +38,15 @@ Specifies the information about the main bundle package. (s2:MainBundle)
 
 ## Parent Elements
 
-| Parent Elements | Description |
-|-----------------|-------------|
-| [s2:AppInstaller](element-s2-optionalpackages.md) | Defines the root element of an AppInstaller file. |
+| Requirement | Value |
+| ---------------| -------------------------------------------------------------|
+| `xmlns:s2=http://schemas.microsoft.com/appx/appinstaller/2017/2` | This namespace is required for features introduced in Windows 10, version 1803. |
+| Minimum OS version | Windows 10 version 1803 build 17134 |
+
+## Remarks
+Only one of either `<MainBundle>` or `<MainPackage>` can be declared in the `<AppInstaller>` element. 
+
+The `<MainBundle>` element should only be used for app package bundles (.appxbundle).
 
 ## Requirements
 
