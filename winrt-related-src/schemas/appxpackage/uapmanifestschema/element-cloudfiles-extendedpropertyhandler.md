@@ -39,7 +39,7 @@ Registration of a Windows Shell ExtendedPropertyHandler for cloud based placehol
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Clsid** | The class ID of the app that implements the ExtendedPropertyHandler, used for extended properties of placeholder files. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |
+| **Clsid** | The class ID of the app that implements the [IStorageProviderPropertyCapabilities](/uwp/api/windows.storage.provider.istorageproviderpropertycapabilities) interface, used for extended properties of placeholder files. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |
 
 ### Child elements
 
@@ -53,6 +53,7 @@ None.
 ## See also
 
 [Creating Shell Extension Handlers](/windows/win32/shell/handlers)
+
 
 ## Requirements
 
