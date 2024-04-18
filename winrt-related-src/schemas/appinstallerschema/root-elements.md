@@ -31,10 +31,10 @@ The following list summarizes the allowed hierarchies for the App Installer file
     * [OnLaunch](element-onlaunch.md)
     * [s4:AutomaticBackgroundTask](element-s4-automaticbackgroundtask.md)
     * [s4:ForceUpdateFromAnyVersion](element-s4-forceupdatefromanyversion.md)
-  * [RepairUris](element-s4-repairuris.md)
-    * [RepairUri](element-s4-repairuri.md)
-  * [UpdateUris](element-s4-updateuris.md)
-    * [UpdateUri](element-s4-updateuri.md)
+  * [s4:RepairUris](element-s4-repairuris.md)
+    * [s4:RepairUri](element-s4-repairuri.md)
+  * [s4:UpdateUris](element-s4-updateuris.md)
+    * [s4:UpdateUri](element-s4-updateuri.md)
 
 ## Requirements
 
