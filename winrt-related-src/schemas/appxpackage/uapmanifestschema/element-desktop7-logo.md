@@ -9,7 +9,7 @@ ms.custom: 19H1
 
 # desktop7:Logo
 
-A path to a file that contains an image.
+A path to a file that contains an image. Adds support for .ico, .dll, and .exe files.
 
 ## Element hierarchy
 
@@ -44,7 +44,7 @@ A string with a value between 1 and 256 characters in length that ends with ".jp
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **ResourceId** | The resource ID of the logo. | 'An optional integer value.' | Yes |  |
+| **ResourceId** | The resource ID of the logo for formats that support multiple resources. | 'An optional integer value.' | No |  |
 
 ### Child elements
 
@@ -54,7 +54,7 @@ None
 
 | Parent element | Description |
 |-|-|
-| [ControlPanelItem](element-desktop7-controlpanelitem.md) | Registers an extension as a control panel item. |  
+| [\<uap:FileTypeAssociation\>](element-uap-filetypeassociation.md) | Declares an app extensibility point of type **windows.fileTypeAssociation**. A file type association indicates that the app is registered to handle files of the specified types. |  
 
 ## Requirements
 
