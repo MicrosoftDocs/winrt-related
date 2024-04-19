@@ -52,7 +52,7 @@ None.
 
 ## Remarks
 
-This extension is intended to be used by desktop apps in an MSIX package that write to their installation directory. These types of apps cannot normally write to their installation directory, so this extension redirects the write operations to a safe location in the [app data](/windows/uwp/design/app-settings/store-and-retrieve-app-data). This extension also enables you to specify what happens during app updates to files in the app's installation directory that were previously modified, added, or deleted by the app.
+This extension is intended to be used by desktop apps in an MSIX package that write to their installation directory. These types of apps cannot normally write to their installation directory, so this extension redirects the write operations to a safe location in the [app data](/windows/uwp/design/app-settings/store-and-retrieve-app-data). This extension also enables you to specify what happens during app updates to files in the app's installation directory that were previously modified, added, or deleted by the app. This path redirection applies recursively to folders underneath the root folder. The extension has limited support for virtual file system (VFS) paths. 
 
 This extension has no effect in a UWP app.
 
