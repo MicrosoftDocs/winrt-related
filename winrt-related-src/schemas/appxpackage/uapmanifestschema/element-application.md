@@ -5,7 +5,7 @@ title: Application (Windows 10)
 ms.assetid: 39221d13-bb46-42ac-be51-117357cade81
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
-ms.date: 12/16/2022
+ms.date: 04/26/2024
 ---
 
 # Application (Windows 10)
@@ -40,6 +40,8 @@ Represents an app that comprises part of or all of the functionality delivered i
   uap16:BaseNamedObjectsIsolation?
   uap17:BaseNamedObjectsIsolation?
   desktop11:AppLifecycleBehavior?
+  uap11:CurrentDirectoryPath?
+  uap11:Parameters?
 
   <!-- Child elements -->
   uap:ApplicationContentUriRules?
@@ -76,8 +78,9 @@ Represents an app that comprises part of or all of the functionality delivered i
 | **uap10:TrustLevel** | Specifies the trust level of the app<br/><br/>"mediumIL"&mdash;the app is *full trust*; its process runs with an integrity level of *medium* (see [Mandatory Integrity Control](/windows/win32/secauthz/mandatory-integrity-control)). Needs the "Full Trust Permission Level" restricted capability (see [App capability declarations](/windows/uwp/packaging/app-capability-declarations)).<br/><br/>"appContainer"&mdash;the app runs in a lightweight app container (see [MSIX AppContainer apps](/windows/msix/msix-container)); its process runs with an integrity level of *low*. It's also possible for an unpackaged app to run in an AppContainer. | A string with one of the following values: "mediumIL" or "appContainer". | No |  |
 | **uap16:BaseNamedObjectsIsolation** | Enables BaseNameObject (BNO) isolation for the app. | A string that can be any of the following values: *package* or *none*. | No |  |
 | **uap17:BaseNamedObjectsIsolation** | Enables BaseNameObject (BNO) isolation for the app. | A string that can be any of the following values: *package* or *none*.  | No |  |
-| desktop11:AppLifecycleBehavior | Allows an app to override the lifecycle behavior associated with the runtime behavior for the extension. Apps or extensions with a **RuntimeBehavior** of "windowsApp" implicitly have **AppLifecycleBehavior** of "systemManaged" unless otherwise specified. Apps or extensions with **RuntimeBehavior** of "packagedClassicApp" or "win32App" implicitly have **AppLifecycleBehavior** of "unmanaged" unless otherwise specified. | One of the following values: "systemManaged" , "unmanaged".| No | |
-
+| **desktop11:AppLifecycleBehavior** | Allows an app to override the lifecycle behavior associated with the runtime behavior for the extension. Apps or extensions with a **RuntimeBehavior** of "windowsApp" implicitly have **AppLifecycleBehavior** of "systemManaged" unless otherwise specified. Apps or extensions with **RuntimeBehavior** of "packagedClassicApp" or "win32App" implicitly have **AppLifecycleBehavior** of "unmanaged" unless otherwise specified. | One of the following values: "systemManaged" , "unmanaged".| No | |
+| **uap11:CurrentDirectoryPath** | Specifies the initial directory when the application process is launched. This attribute supports macros. For more info, see [Macros in the package manifest schema](./macros.md). | An optional string that cannot contain these characters: `<`, `>`, `|`, `?`, or `*`. > | No |  |
+| **uap11:Parameters** | This attribute is inherited from the base extension syntax and is not applicable to the com4 extension. Other than syntactic validation, this value is ignored. This attribute supports macros. For more info, see [Macros in the package manifest schema](./macros.md). | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
 
 ### Child elements
 
@@ -118,7 +121,7 @@ You can specify activation info attributes on the **Application** element; and y
 
 As you can see, if your target system doesn't support the `uap10` namespace, then you can specify the **EntryPoint** attribute instead. Similarly, the equivalent of **uap10:TrustLevel**="appContainer"` on older systems is **EntryPoint**="windows.partialTrustApplication".
 
-It is redundant to specify both **uap10:RuntimeBehavior**/**uap10:TrustLevel** and **EntryPoint** at the same time, but if you do, then it's an error if they contradict.
+But it's redundant to specify both **uap10:RuntimeBehavior**/**uap10:TrustLevel** and **EntryPoint** at the same time. But if you do that, then it's an error if they contradict.
 
 Universal Windows Platform (UWP) app activations require **EntryPoint**. So if you specify **Executable** and **uap10:RuntimeBehavior**="windowsApp" (with no **EntryPoint**), then that's an error. In this same case, **EntryPoint** would specify something other than "windows.fullTrustApplication" and "windows.partialTrustApplication"; and values other than those two already say the same thing as **uap10:RuntimeBehavior**="windowsApp". So **uap10:RuntimeBehavior** would be redundant in this case, and you'd specify **Executable** and **EntryPoint**.
 

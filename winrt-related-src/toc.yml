@@ -75,6 +75,8 @@ items:
           href: schemas/appxpackage/uapmanifestschema/what-s-changed-in-windows-10.md
         - name: "Extensions in the package manifest schema"
           href: schemas/appxpackage/uapmanifestschema/extensions.md
+        - name: "Macros in the package manifest schema"
+          href: schemas/appxpackage/uapmanifestschema/macros.md
         - name: "Element Hierarchy"
           href: schemas/appxpackage/uapmanifestschema/root-elements.md
           items: 
