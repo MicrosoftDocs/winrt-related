@@ -33,7 +33,7 @@ Features are added to the app installer file by adding new schemas. The namespac
 | `xmlns:s3=http://schemas.microsoft.com/appx/appinstaller/2018` | Windows 10, version 1809. |
 | `xmlns:s4=http://schemas.microsoft.com/appx/appinstaller/2021` | Windows version 21H2 build 22000 |
 
-Note that earlier versions of the schema may support elements introduced in later schemas using namespace references.
+Note that earlier versions of the schema may support elements introduced in later schemas using namespace references to the `http://schemas.microsoft.com/appx/appinstaller/2021` schema.
 
 ## In this section
 

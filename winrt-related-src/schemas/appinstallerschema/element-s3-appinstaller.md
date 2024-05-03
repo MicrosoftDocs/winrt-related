@@ -19,7 +19,6 @@ This version of the app installer schema, introduced in Windows 10 version 1809,
 * [s3:ForceUpdateFromAnyVersion](element-s3-forceupdatefromanyversion.md)
 * [s3:MainPackageType](element-s3-mainpackagetype.md)
 
-These new elements can be used with previous versions of the schema by referencing the namespace `xmlns:s3=http://schemas.microsoft.com/appx/appinstaller/2018`.
 
 ## Element Hierarchy
 

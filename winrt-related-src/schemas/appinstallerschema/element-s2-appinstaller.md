@@ -18,7 +18,6 @@ This version of the app installer schema, introduced in Windows 10 version 1803 
 
 * [s2:AutomaticBackgroundTask](element-s2-automaticbackgroundtask.md)
 
-This new element can be used with previous versions of the schema by referencing the namespace `xmlns:s2=http://schemas.microsoft.com/appx/appinstaller/2017/2`.
 
 ## Element Hierarchy
 

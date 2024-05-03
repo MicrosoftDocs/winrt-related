@@ -19,7 +19,7 @@ This version of the app installer schema, introduced in Windows 10 version 1809,
 * [s4:UpdateUri](element-s4-updateuri.md)
 * [s4:UpdateUris](element-s4-updateuris.md)
 
-These new elements can be used with previous versions of the schema by referencing the namespace `xmlns:s3=http://schemas.microsoft.com/appx/appinstaller/2018`.
+These new elements can be used with previous versions of the schema by referencing the namespace `xmlns:s4=http://schemas.microsoft.com/appx/appinstaller/2021`and adding the prefix `s4` to the **IgnorableNamespaces** attribute.
 
 
 ## Element Hierarchy
