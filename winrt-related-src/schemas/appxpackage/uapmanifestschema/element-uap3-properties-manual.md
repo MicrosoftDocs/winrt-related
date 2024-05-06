@@ -56,7 +56,7 @@ None.
 
 ## Examples
 
-The following example indicates that the app hosts or consumes the low-performance browser extension
+The following example indicates that the app hosts or consumes a high-performance browser extension
 
 ```xml
 <Package ...
