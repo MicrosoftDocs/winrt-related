@@ -57,7 +57,7 @@ Only one of either `<MainBundle>` or `<MainPackage>` can be declared in the `<Ap
 
 The `<MainBundle>` element should only be used for app package bundles (.appxbundle).
 
-## Requirements
-|               |     Value                                                        |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/appinstaller/2017` |
+| Requirement | Description |
+|----------------|-------------|
+| `xmlns=http://schemas.microsoft.com/appx/appinstaller/2017` | This namespace is required for features introduced in Windows 10, version 1709. |
+| Minimum OS version | Windows 10, version 1709 |

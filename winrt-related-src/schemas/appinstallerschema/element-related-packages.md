@@ -84,7 +84,10 @@ The following example is taken from a sample appinstaller file. The Uri location
     </RelatedPackages>
 
 ```
+
 ## Requirements
-|               |     Value                                                        |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/appinstaller/2017` |
+
+| Requirement | Description |
+|----------------|-------------|
+| `xmlns=http://schemas.microsoft.com/appx/appinstaller/2017` | This namespace is required for features introduced in Windows 10, version 1709. |
+| Minimum OS version | Windows 10, version 1709 |

@@ -66,6 +66,8 @@ The Package element specifies the information about the package which includes n
 | [Dependencies](element-dependencies.md)           | These are dependencies that will be installed if required.            |
 
 ## Requirements
-|               |       Value                                                      |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/appinstaller/2017` |
+
+| Requirement | Description |
+|----------------|-------------|
+| `xmlns=http://schemas.microsoft.com/appx/appinstaller/2017` | This namespace is required for features introduced in Windows 10, version 1709. |
+| Minimum OS version | Windows 10, version 1709 |

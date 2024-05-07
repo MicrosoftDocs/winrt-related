@@ -30,8 +30,8 @@ An optional element of the appinstaller file. UpdateSettings signifies whether o
 <UpdateSettings>
     <!-- Child elements -->
     OnLaunch?
-    AutomaticBackgroundTask?
-    ForceUpdateFromAnyVersion?
+    s4:AutomaticBackgroundTask?
+    s4:ForceUpdateFromAnyVersion?
 </UpdateSettings>
 ```
 
@@ -53,8 +53,8 @@ None.
 | Child Elements | Description |
 |----------------|-------------|
 | [OnLaunch](element-onlaunch.md) |  OnLaunch signifies that the deployment service will check for an update to the appinstaller file on the app launch. |
-| [AutomaticBackgroundTask](element-automatic-background-task.md) |Checks for updates in the background. A check is made every 8 hours independently of whether the user launched the app. This type of update cannot show UI. Available in Windows 10, version 1803 and later. |
-| [ForceUpdateFromAnyVersion](element-force-update-from-any-version.md) |A boolean that allows the app's version to be incremented or decremented. Without this element, the app can only move to a higher version. Available starting in Windows 10, version 1809 and later. |
+| [s4:AutomaticBackgroundTask](element-s4-automaticbackgroundtask.md) |Checks for updates in the background. A check is made every 8 hours independently of whether the user launched the app. This type of update cannot show UI. Available in Windows 10, version 1803 and later. |
+| [s4:ForceUpdateFromAnyVersion](element-s4-forceupdatefromanyversion.md) |A boolean that allows the app's version to be incremented or decremented. Without this element, the app can only move to a higher version. Available starting in Windows 10, version 1809 and later. |
 
 ### Parent Elements
 
@@ -79,7 +79,7 @@ In this example, deployment will check for updates in the background, every 8 ho
 
 ``` xml  
 <UpdateSettings>
-    <AutomaticBackgroundTask/>
+    <s4:AutomaticBackgroundTask/>
 </UpdateSettings>
 ```
 
@@ -88,15 +88,17 @@ In this example, deployment will check for updates at launch time and in the bac
 ``` xml  
 <UpdateSettings>
     <OnLaunch HoursBetweenUpdateChecks="12"/>
-    <AutomaticBackgroundTask/>
-    <ForceUpdateFromAnyVersion>true</ForceUpdateFromAnyVersion>
+    <s4:AutomaticBackgroundTask/>
+    <s4:ForceUpdateFromAnyVersion>true</s4:ForceUpdateFromAnyVersion>
 </UpdateSettings>
 ```
 
 
 ## Requirements
 
-|               |     Value                                                        |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/appinstaller/2017/2` |
+| Requirement | Description |
+|----------------|-------------|
+| `xmlns=http://schemas.microsoft.com/appx/appinstaller/2017` | This namespace is required for features introduced in Windows 10, version 1709. |
+| `xmlns:s4=http://schemas.microsoft.com/appx/appinstaller/2018` | This namespace is required for features introduced in Windows 10, version 1809. |
+| Minimum OS version | Windows 10, version 1709 |
 

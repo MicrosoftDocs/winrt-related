@@ -61,9 +61,11 @@ Only one of either `<MainPackage>` or `<MainBundle>` can be declared in the `<Ap
 The `<MainPackage>` element should only be used for app packages (.appx).
 
 > [!NOTE]
-> The Name, Publisher, Version, ProcessorArchitecture, and ResourceId **must** match the values in the AppxManifest.xml file specified in the app package Uri. 
+> The Name, Publisher, Version, ProcessorArchitecture, and ResourceId **must** match the values in the AppxManifest.xml file specified in the app package Uri.
 
 ## Requirements
-|               |      Value                                                       |
-|---------------|-------------------------------------------------------------|
-| **Namespace** | `http://schemas.microsoft.com/appx/appinstaller/2017` |
+
+| Requirement | Description |
+|----------------|-------------|
+| `xmlns=http://schemas.microsoft.com/appx/appinstaller/2017` | This namespace is required for features introduced in Windows 10, version 1709. |
+| Minimum OS version | Windows 10, version 1709 |
