@@ -15,7 +15,7 @@ keywords: windows 10, uwp, app installer, AppInstaller, sideload, related set, o
 
 This reference provides details for each element, attribute, and data type that defines the schema for an .appinstaller file that defines the packages that are part of a related set. 
 
-The following table lists all of the elements in each this schema.
+The following table lists all of the elements in this schema.
 
 
 | Element | Description |

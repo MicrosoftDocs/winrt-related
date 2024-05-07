@@ -10,7 +10,7 @@ keywords: windows 10, windows 11, uwp, schema, manifest, package
 
 ## Description
 
-efines the dependency packages that are required for successful deployment of the related set. This element is optional. (s2:Dependencies)
+Defines the dependency packages that are required for successful deployment of the related set. This element is optional. (s2:Dependencies)
 
 ## Element Hierarchy
 
