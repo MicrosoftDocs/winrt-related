@@ -11,6 +11,9 @@ ms.date: 10/26/2021
 
 Specifies an external dependency that is not included in the MSIX but will be chain installed as part of the app installation. If the specified minimum version of the external dependency is not already installed on the OS, the Microsoft App Installer app will retrieve the minimum version from an external repository and install the dependency. Microsoft maintains a list of dependencies that can be installed using this method. See the [Remarks](#remarks) section for the current list of allowed packages.
 
+> [!IMPORTANT]
+> **win32dependencies:ExternalDependency** only applies to installations that use the Microsoft App Installer app. If a package is installed using any other mechanism, such as the [PackageManager](/uwp/api/windows.management.deployment.packagemanager) API, a Powershell cmdlet, Microsoft Intune or any other mechanism other than via the App Installer app, then **win32dependencies:ExternalDependency** is ignored.
+
 ## Element hierarchy
 
 [\<Package\>](element-package.md)
