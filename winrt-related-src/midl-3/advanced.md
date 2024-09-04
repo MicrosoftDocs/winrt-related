@@ -2,10 +2,9 @@
 
 description: Advanced topics, and shorthand syntax.
 title: Advanced topics, and shorthand
-
-ms.date: 08/07/2019
+ms.date: 09/04/2024
 ms.topic: reference
-keywords: windows 10, uwp, winrt, api, reference, idl, midl, 3.0, 3, midl3
+keywords: windows 11, windows 10, uwp, winrt, api, reference, idl, midl, 3.0, 3, midl3
 ---
 
 # Advanced topics, and shorthand
@@ -233,7 +232,7 @@ If you pass the `/enum_class` command switch to the MIDL 3.0 compiler, then the 
 
 For more info about **composable** classes, see [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property).
 
-You can specify `unsealed runtimeclass` to create a composable class. Furthermore, you can specify `unsealed runtimeclass unsealed` to indicate whether the class uses COM aggregation, or regular activation. This is significant for base classes with public constructors.
+You can specify `unsealed runtimeclass` to create a composable class.
 
 ## Interpreting error messages
 
