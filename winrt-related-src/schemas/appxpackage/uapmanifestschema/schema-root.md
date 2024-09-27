@@ -47,8 +47,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [com:Aspect (in SurrogateServer/Class)](element-com-surrogate-aspect.md) | Specifies the desired data or view aspect of the object when drawing or getting data. |
 | [com:Class (in ExeServer)](element-com-exeserver-class.md) | Defines an ExeServer class registration. |
 | [com:Class (in SurrogateServer/Class)](element-com-surrogateserver-class.md) | Defines a SurrogateServer class registration. |
-| [com:ComInterface (in Application/Extensions)](element-com-interface.md) | Declares a package extension point of type windows.comInterface. The comInterface extension may include three types of registrations: Interface, ProxyStub, or TypeLib. |
-| [com:ComInterface (in Package/Extensions)](element-com-package-interface.md) | Declares a package extension point of type windows.comInterface. The comInterface extension may include three types of registrations: Interface, ProxyStub, or TypeLib. |
+| [com:ComInterface (in Application/Extensions)](element-com-cominterface.md) | Declares a package extension point of type windows.comInterface. The comInterface extension may include three types of registrations: Interface, ProxyStub, or TypeLib. |
 | [com:ComServer](element-com-comserver.md) | Declares a package extension point of type windows.comServer. The comServer extension may include four types of registrations: ExeServer, SurrogateServer, ProgId, or TreatAsClass. |
 | [com:Conversion (in ExeServer/Class)](element-com-exe-conversion.md) | Specifies the formats an application can read and write. |
 | [com:Conversion (in SurrogateServer/Class)](element-com-surrogate-conversion.md) | Specifies the formats an application can read and write. |
@@ -68,8 +67,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [com:ImplementedCategories (in SurrogateServer/Class)](element-com-surrogate-implementedcategories.md) | Specifies categories implemented by the class. |
 | [com:ImplementedCategory (in ExeServer/Class)](element-com-exe-implementedcategory.md) | Indicates that the class has implemented the specified category. |
 | [com:ImplementedCategory (in SurrogateServer/Class)](element-com-surrogate-implementedcategory.md) | Indicates that the class has implemented the specified category. |
-| [com:Interface (in Application/Extensions)](element-com-interface.md) | Registers new COM Interfaces. |
-| [com:Interface (in Package/Extensions)](element-com-package-cominterface.md) | Registers new COM Interfaces. |
+| [com:Interface](element-com-interface.md) | Registers new COM Interfaces. |
 | [com:MiscStatus (in ExeServer/Class)](element-com-exe-miscstatus.md) | Specifies how to create and display an object. |
 | [com:MiscStatus (in SurrogateServer/Class)](element-com-surrogate-miscstatus.md) | Specifies how to create and display an object. |
 | [com:ProgId](element-com-progid.md) | A programmatic identifier (ProgID) that can be associated with a CLSID. The ProgID identifies a class but with less precision than a CLSID because it is not guaranteed to be globally unique. |

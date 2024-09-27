@@ -205,6 +205,16 @@
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-filetypeassociations.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-filetypeassociation",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-cominterface.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-cominterface",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-interface.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-interface",
+      "redirect_document_id": false
     }
   ]
 }

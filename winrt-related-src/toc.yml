@@ -352,14 +352,10 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap7-sharedfonts.md
           - name: "uap7:EnterpriseDataProtection"
             href: schemas/appxpackage/uapmanifestschema/element-uap7-enterprisedataprotection.md
-          - name: "com:ComInterface"
-            href: schemas/appxpackage/uapmanifestschema/element-com-package-cominterface.md
           - name: "com:ProxyStub"
             href: schemas/appxpackage/uapmanifestschema/element-com-package-proxystub.md
           - name: "com2:ProxyStubDll"
             href: schemas/appxpackage/uapmanifestschema/element-com2-package-proxystubdll.md
-          - name: "com:Interface"
-            href: schemas/appxpackage/uapmanifestschema/element-com-package-interface.md
           - name: "com:TypeLib"
             href: schemas/appxpackage/uapmanifestschema/element-com-package-interface-typelib.md
           - name: "com:TypeLib"
