@@ -81,9 +81,8 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [com:ToolboxBitmap32 (in ExeServer/Class)](element-com-exe-toolboxbitmap32.md) | Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button. |
 | [com:ToolboxBitmap32 (in SurrogateServer/Class)](element-com-surrogate-toolboxbitmap32.md) | Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button. |
 | [com:TreatAsClass](element-com-treatasclass.md) | A registration that corresponds to a CLSID registration with the TreatAs subkey. |
-| [com:TypeLib (in Package/Extensions)](element-com-package-interface-typelib.md) | A type library for an interface. |
 | [com:TypeLib (in ComInterface)](element-com-typelib.md) | Registers a type library. |
-| [com:TypeLib (in Package/Extensions)](element-com-package-typelib.md) | Registers a type library. |
+| [com:TypeLib (in Interface)](element-com-interface-typelib.md) | A type library for an interface. |
 | [com:Verb (in ExeServer/Class)](element-com-exe-verb.md) | The verb to be registered for an application. |
 | [com:Verb (in SurrogateServer/Class)](element-com-surrogate-verb.md) | The verb to be registered for an application. |
 | [com:Verbs (in ExeServer/Class)](element-com-exe-verbs.md) | Specifies the verbs to be registered for an application. |
@@ -295,7 +294,6 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [SelectionCriteria](element-selectioncriteria.md) | Defines selection criteria for the certificates defined for the package. |
 | [TargetDeviceFamily](element-targetdevicefamily.md) | Identifies the device family that your package targets. For more info about device families, see [Guide to UWP apps](/windows/uwp/get-started/universal-application-platform-guide). |
 | [Task](element-task.md) | The background task associated with the app extensibility point. |
-| [TypeLib (in ComInterface/Interface)](element-com-interface-typelib.md) | A type library for an interface. |
 | [TrustFlags](element-trustflags.md) | Indicates whether the certificates for the package are exclusive to the package. |
 | [uap:ApplicationContentUriRules](element-uap-applicationcontenturirules.md) | Specifies which pages in the web context have access to the system's geolocation devices (if the app has permission to access this capability) and access to the clipboard. |
 | [uap:AppointmentsProvider](element-uap-appointmentsprovider.md) | Declares an app extensibility point of type **windows.appointmentsProvider**. |

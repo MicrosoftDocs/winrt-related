@@ -356,10 +356,6 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-com-package-proxystub.md
           - name: "com2:ProxyStubDll"
             href: schemas/appxpackage/uapmanifestschema/element-com2-package-proxystubdll.md
-          - name: "com:TypeLib"
-            href: schemas/appxpackage/uapmanifestschema/element-com-package-interface-typelib.md
-          - name: "com:TypeLib"
-            href: schemas/appxpackage/uapmanifestschema/element-com-package-typelib.md
           - name: "com:Version"
             href: schemas/appxpackage/uapmanifestschema/element-com-package-version.md
           - name: "com:Win32Path"
@@ -446,9 +442,9 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-com2-proxystubdll.md
           - name: "com:Interface"
             href: schemas/appxpackage/uapmanifestschema/element-com-interface.md
-          - name: "com:TypeLib"
+          - name: "com:TypeLib (in Interface)"
             href: schemas/appxpackage/uapmanifestschema/element-com-interface-typelib.md
-          - name: "com:TypeLib"
+          - name: "com:TypeLib (in ComInterface)"
             href: schemas/appxpackage/uapmanifestschema/element-com-typelib.md
           - name: "com:Version"
             href: schemas/appxpackage/uapmanifestschema/element-com-version.md
