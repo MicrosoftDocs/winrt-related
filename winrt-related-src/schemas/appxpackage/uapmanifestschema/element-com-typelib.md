@@ -1,7 +1,7 @@
 ---
 ms.assetid: 7dbfa1d3-68fe-4021-93db-d8948a6f4435
 title: com:TypeLib
-description: Registers a type library (in Package/Applications).
+description: Registers a type library (in ComInterface).
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com

@@ -72,7 +72,6 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [com:MiscStatus (in SurrogateServer/Class)](element-com-surrogate-miscstatus.md) | Specifies how to create and display an object. |
 | [com:ProgId](element-com-progid.md) | A programmatic identifier (ProgID) that can be associated with a CLSID. The ProgID identifies a class but with less precision than a CLSID because it is not guaranteed to be globally unique. |
 | [com:ProxyStub (in ComInterface)](element-com-proxystub.md) | Registers a proxy stub. |
-| [com:ProxyStub (in Package/Extensions)](element-com-package-proxystub.md) | Registers a proxy stub. |
 | [com:Readable (in ExeServer)](element-com-exe-readable.md) | Specifies that an application can only read files. |
 | [com:Readable (in SurrogateServer)](element-com-surrogate-readable.md) | Specifies that an application can only read files. |
 | [com:ReadWritable (in ExeServer)](element-com-exe-ReadWritable.md) | Specifies that an application can read and write files. |

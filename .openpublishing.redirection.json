@@ -225,6 +225,11 @@
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-interface-typelib.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-interface-typelib",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-proxystub.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-proxystub",
+      "redirect_document_id": false
     }
   ]
 }
