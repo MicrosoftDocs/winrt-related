@@ -87,7 +87,6 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [com:Verbs (in ExeServer/Class)](element-com-exe-verbs.md) | Specifies the verbs to be registered for an application. |
 | [com:Verbs (in SurrogateServer/Class)](element-com-surrogate-verbs.md) | Specifies the verbs to be registered for an application. |
 | [com:Version (in ComInterface/TypeLib)](element-com-version.md) | Version number and additional information about the type library. |
-| [com:Version (in Package/Extensions)](element-com-package-version.md) | Version number and additional information about the type library. |
 | [com:Win32Path (in ComInterface/TypeLib)](element-com-win32path.md) | A path to the 32-bit type library. |
 | [com:Win32Path (in Package/Extensions)](element-com-package-win32path.md) | A path to the 32-bit type library. |
 | [com:Win64Path (in ComInterface/TypeLib)](element-com-win64path.md) | A path to the 64-bit type library. |
