@@ -88,9 +88,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [com:Verbs (in SurrogateServer/Class)](element-com-surrogate-verbs.md) | Specifies the verbs to be registered for an application. |
 | [com:Version (in ComInterface/TypeLib)](element-com-version.md) | Version number and additional information about the type library. |
 | [com:Win32Path (in ComInterface/TypeLib)](element-com-win32path.md) | A path to the 32-bit type library. |
-| [com:Win32Path (in Package/Extensions)](element-com-package-win32path.md) | A path to the 32-bit type library. |
 | [com:Win64Path (in ComInterface/TypeLib)](element-com-win64path.md) | A path to the 64-bit type library. |
-| [com:Win64Path (in Package/Extensions)](element-com-package-win64path.md) | A path to the 64-bit type library. |
 | [com2:ComInterface](element-com2-cominterface.md) | Declares a package extension point of type windows.comInterface. The comInterface extension may include three types of registrations: Interface, ProxyStub, or TypeLib.  |
 | [com2:ComServer](element-com2-comserver.md) | Declares a package extension point of type windows.comServer. The comServer extension may include a ServiceServer registration.  |
 | [com2:Extension](element-com2-extension.md) | Provides functionality to expose COM registrations to clients outside of the app package.  |

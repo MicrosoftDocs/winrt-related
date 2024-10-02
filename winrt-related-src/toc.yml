@@ -352,10 +352,6 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap7-sharedfonts.md
           - name: "uap7:EnterpriseDataProtection"
             href: schemas/appxpackage/uapmanifestschema/element-uap7-enterprisedataprotection.md
-          - name: "com:Win32Path"
-            href: schemas/appxpackage/uapmanifestschema/element-com-package-win32path.md
-          - name: "com:Win64Path"
-            href: schemas/appxpackage/uapmanifestschema/element-com-package-win64path.md
           - name: "Applications"
             href: schemas/appxpackage/uapmanifestschema/element-applications.md
           - name: "Application"

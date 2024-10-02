@@ -240,6 +240,16 @@
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-version.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-version",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-win32path.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-win32path",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-win64path.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-win64path",
+      "redirect_document_id": false
     }
   ]
 }
