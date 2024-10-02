@@ -230,6 +230,11 @@
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-proxystub.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-proxystub",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com2-package-proxystubdll.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com2-proxystubdll",
+      "redirect_document_id": false
     }
   ]
 }

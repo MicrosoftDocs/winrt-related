@@ -96,7 +96,6 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [com2:ComServer](element-com2-comserver.md) | Declares a package extension point of type windows.comServer. The comServer extension may include a ServiceServer registration.  |
 | [com2:Extension](element-com2-extension.md) | Provides functionality to expose COM registrations to clients outside of the app package.  |
 | [com2:ProxyStubDll](element-com2-proxystubdll.md) | Specifies the path and processor architecture of a ProxyStub DLL. |
-| [com2:ProxyStubDll (in Package/Extensions)](element-com2-package-proxystubdll.md) | Specifies the path and processor architecture of a ProxyStub DLL. |
 | [com3:Class](element-com3-class.md) | DDefines a class registration in a COM server hosted in a Windows service that is registered in a [com3:ServiceServer](element-com3-serviceserver.md) element.    |
 | [com3:ExeServer](element-com3-exeserver.md) |Registers an ExeServer with one or many class registrations.   |
 | [com3:ProgId](element-com3-progid.md) | A programmatic identifier (ProgID) that can be associated with a CLSID for a com3:ServiceServer class registration. The ProgID identifies a class but with less precision than a CLSID because it is not guaranteed to be globally unique.    |

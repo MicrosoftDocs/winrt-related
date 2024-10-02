@@ -109,7 +109,7 @@ The following list summarizes the allowed hierarchies for this schema, starting 
         -   [**Extension**](element-extension.md)
             -   [**com:ComInterface**](element-com-cominterface.md)
                 -   [**com:ProxyStub**](element-com-proxystub.md)
-                    -   [**com2:ProxyStubDll**](element-com2-package-proxystubdll.md)
+                    -   [**com2:ProxyStubDll**](element-com2-proxystubdll.md)
                 -   [**com:Interface**](element-com-interface.md)
                     -   [**com:TypeLib**](element-com-interface-typelib.md)
                 -   [**com:TypeLib**](element-com-typelib.md)
