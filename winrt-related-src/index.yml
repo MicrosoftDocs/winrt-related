@@ -23,7 +23,7 @@ landingContent:
             url: /uwp/api
           - text: Windows UI Library (WinUI) namespaces
             url: /uwp/api/overview/winui
-          - text: .NET APIs for UWP apps
+          - text: .NET APIs
             url: /dotnet/api/index?view=dotnet-uwp-10.0
           - text: Advertising SDK namespaces
             url: /uwp/api/overview/advertising
@@ -33,14 +33,14 @@ landingContent:
         links:
           - text: Extension SDKs and API contracts
             url: extension-sdks/index.md
-          - text: Win32 and COM APIs for UWP apps
+          - text: Win32 and COM APIs
             url: win32-and-com/win32-and-com-for-uwp-apps.md
 
   - title: Schema reference
     linkLists:
       - linkListType: reference
         links:
-          - text: File and XML schema specifications for UWP apps
+          - text: File and XML schema specifications
             url: schemas/index.md
           - text: App package manifest schema
             url: schemas/appxpackage/appx-package-manifest.md
