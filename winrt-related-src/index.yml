@@ -8,8 +8,8 @@ metadata:
   description: Learn about Windows Runtime (WinRT) APIs, the language-independent way to access Windows operating system features when building Windows apps, based on the Component Object Model (COM) .
   ms.topic: landing-page
   ms.collection: collection
-  ms.author: mattwojo
-  author: mattwoj
+  ms.author: mattwoj
+  author: mattwojo
   ms.date: 10/09/2024
   
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
