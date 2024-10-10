@@ -1,18 +1,17 @@
 ### YamlMime:Landing
 
-title: Reference for Universal Windows Platform (UWP) apps
-summary: The Universal Windows Platform (UWP) introduces a common API that you can use to deliver unique and personal app experiences on all devices that run Windows 10. Learn about the APIs for developing Universal Windows apps for Windows 10, or learn about the main programming languages from which you can call Windows APIs.
+title: Reference for WinRT APIs
+summary: Learn about the Windows Runtime (WinRT) APIs.
 
 metadata:
-  title: Reference for Universal Windows Platform (UWP) apps
-  description: Learn about the APIs for developing UWP apps for Windows 10, or learn about the main programming languages from which you can call Windows APIs.
+  title: Reference for Windows Runtime (WinRT) APIs
+  description: Learn about the Windows Runtime (WinRT) APIs.
   ms.topic: landing-page
   ms.collection: collection
-  ms.author: mcleans
-  author: mcleanbyron
-  ms.date: 02/25/2020
-  keywords: windows uwp, universal windows platform, Windows Runtime APIs, windows api, windows api ref, winrt api, windows api reference, uwp api, uwp api reference, develop uwp, design uwp, publish uwp
-
+  ms.author: mattwoj
+  author: mattwojo
+  ms.date: 10/09/2024
+ 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
 landingContent:
