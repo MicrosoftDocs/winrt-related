@@ -1,6 +1,6 @@
 ---
 title: com2:ProxyStubDll
-description: Specifies the path and processor architecture of a ProxyStub DLL.
+description: Specifies the path and processor architecture of a ProxyStub DLL. (com2)
 ms.date: 10/10/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
