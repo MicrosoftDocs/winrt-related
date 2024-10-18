@@ -12,7 +12,7 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 ## Description
 
-Specifies whether the OS should close the app for app updates, or if the update should be deferred until until the next time the app is restarted by the user or a system reboot. The OS will still force-close the app for required OS updates and system reboots.
+Specifies whether the OS should close the app for app updates, or if the update should be deferred until the next time the app is restarted by the user or a system reboot. The OS will still force-close the app for required OS updates and system reboots.
 
 ## Element Hierarchy
 

@@ -83,7 +83,7 @@ None.
 | [uap10:PackageIntegrity](element-uap10-packageintegrity.md) | Specifies the level of run time package integrity checks and remediation for the package. |
 | [uap13:AutoUpdate](element-uap13-autoupdate.md) | Specifies automatic update configuration for the app. |
 | [uap15:DependencyTarget](element-uap15-dependencytarget.md) | Allows a main package manifest to specify whether the package is a valid target for [dynamic dependencies](/windows/apps/desktop/modernize/framework-packages/framework-packages-overview). |
-| [uap17:UpdateWhileInUSe](element-uap17-updatewhileinuse.md) | Specifies whether the OS should close the app for app updates, or if the update should be deferred until until the next time the app is restarted by the user or a system reboot. |
+| [uap17:UpdateWhileInUSe](element-uap17-updatewhileinuse.md) | Specifies whether the OS should close the app for app updates, or if the update should be deferred until the next time the app is restarted by the user or a system reboot. |
 | [heap:HeapPolicy](element-heap-heappolicy.md) | Allows packaged apps to request a heap profile that has performance and behavior characteristics consistent with that of the legacy NT heap. |
 
 ### Parent elements
