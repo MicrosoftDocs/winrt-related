@@ -27,7 +27,7 @@ Declares a package extension point of type **windows.comInterface**. The comInte
 
 &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extension\>](element-extension.md)
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com:Extension\>](element-com-extension.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com:ComInterface\>**
 
