@@ -79,7 +79,7 @@ Declares an extensibility point for the package.
 | [OutOfProcessServer](element-outofprocessserver.md) | Declares a package extension point of type **windows.activatableClass.outOfProcessServer**. The app uses an executable (`.exe`) that exposes one or more activatable classes. |
 | [ProxyStub](element-proxystub.md) | Declares a package extensibility point of type **windows.activatableClass.proxyStub**. A proxy can be composed of one or more interfaces. |
 | [PublisherCacheFolders](element-publishercachefolders.md) | Declares a package extensibility point of type **windows.publisherCacheFolders**. This specifies one or more folders that the package shares with other packages from the same publisher. |
-| [com:ComInterface](element-com-package-interface.md) | Declares a package extension point of type **windows.comInterface**. |
+| [com:ComInterface](element-com-interface.md) | Declares a package extension point of type **windows.comInterface**. |
 | [uap6:LoaderSearchPathOverride](element-uap6-LoaderSearchPathOverride.md) | Declares a package extension point of type **windows.loaderSearchPathOverride**. |
 
 ### Parent elements

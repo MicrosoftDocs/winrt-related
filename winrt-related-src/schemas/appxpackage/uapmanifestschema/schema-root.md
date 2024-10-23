@@ -47,8 +47,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [com:Aspect (in SurrogateServer/Class)](element-com-surrogate-aspect.md) | Specifies the desired data or view aspect of the object when drawing or getting data. |
 | [com:Class (in ExeServer)](element-com-exeserver-class.md) | Defines an ExeServer class registration. |
 | [com:Class (in SurrogateServer/Class)](element-com-surrogateserver-class.md) | Defines a SurrogateServer class registration. |
-| [com:ComInterface (in Application/Extensions)](element-com-interface.md) | Declares a package extension point of type windows.comInterface. The comInterface extension may include three types of registrations: Interface, ProxyStub, or TypeLib. |
-| [com:ComInterface (in Package/Extensions)](element-com-package-interface.md) | Declares a package extension point of type windows.comInterface. The comInterface extension may include three types of registrations: Interface, ProxyStub, or TypeLib. |
+| [com:ComInterface (in Application/Extensions)](element-com-cominterface.md) | Declares a package extension point of type windows.comInterface. The comInterface extension may include three types of registrations: Interface, ProxyStub, or TypeLib. |
 | [com:ComServer](element-com-comserver.md) | Declares a package extension point of type windows.comServer. The comServer extension may include four types of registrations: ExeServer, SurrogateServer, ProgId, or TreatAsClass. |
 | [com:Conversion (in ExeServer/Class)](element-com-exe-conversion.md) | Specifies the formats an application can read and write. |
 | [com:Conversion (in SurrogateServer/Class)](element-com-surrogate-conversion.md) | Specifies the formats an application can read and write. |
@@ -68,13 +67,11 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [com:ImplementedCategories (in SurrogateServer/Class)](element-com-surrogate-implementedcategories.md) | Specifies categories implemented by the class. |
 | [com:ImplementedCategory (in ExeServer/Class)](element-com-exe-implementedcategory.md) | Indicates that the class has implemented the specified category. |
 | [com:ImplementedCategory (in SurrogateServer/Class)](element-com-surrogate-implementedcategory.md) | Indicates that the class has implemented the specified category. |
-| [com:Interface (in Application/Extensions)](element-com-interface.md) | Registers new COM Interfaces. |
-| [com:Interface (in Package/Extensions)](element-com-package-cominterface.md) | Registers new COM Interfaces. |
+| [com:Interface](element-com-interface.md) | Registers new COM Interfaces. |
 | [com:MiscStatus (in ExeServer/Class)](element-com-exe-miscstatus.md) | Specifies how to create and display an object. |
 | [com:MiscStatus (in SurrogateServer/Class)](element-com-surrogate-miscstatus.md) | Specifies how to create and display an object. |
 | [com:ProgId](element-com-progid.md) | A programmatic identifier (ProgID) that can be associated with a CLSID. The ProgID identifies a class but with less precision than a CLSID because it is not guaranteed to be globally unique. |
 | [com:ProxyStub (in ComInterface)](element-com-proxystub.md) | Registers a proxy stub. |
-| [com:ProxyStub (in Package/Extensions)](element-com-package-proxystub.md) | Registers a proxy stub. |
 | [com:Readable (in ExeServer)](element-com-exe-readable.md) | Specifies that an application can only read files. |
 | [com:Readable (in SurrogateServer)](element-com-surrogate-readable.md) | Specifies that an application can only read files. |
 | [com:ReadWritable (in ExeServer)](element-com-exe-ReadWritable.md) | Specifies that an application can read and write files. |
@@ -83,24 +80,19 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [com:ToolboxBitmap32 (in ExeServer/Class)](element-com-exe-toolboxbitmap32.md) | Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button. |
 | [com:ToolboxBitmap32 (in SurrogateServer/Class)](element-com-surrogate-toolboxbitmap32.md) | Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button. |
 | [com:TreatAsClass](element-com-treatasclass.md) | A registration that corresponds to a CLSID registration with the TreatAs subkey. |
-| [com:TypeLib (in Package/Extensions)](element-com-package-interface-typelib.md) | A type library for an interface. |
 | [com:TypeLib (in ComInterface)](element-com-typelib.md) | Registers a type library. |
-| [com:TypeLib (in Package/Extensions)](element-com-package-typelib.md) | Registers a type library. |
+| [com:TypeLib (in Interface)](element-com-interface-typelib.md) | A type library for an interface. |
 | [com:Verb (in ExeServer/Class)](element-com-exe-verb.md) | The verb to be registered for an application. |
 | [com:Verb (in SurrogateServer/Class)](element-com-surrogate-verb.md) | The verb to be registered for an application. |
 | [com:Verbs (in ExeServer/Class)](element-com-exe-verbs.md) | Specifies the verbs to be registered for an application. |
 | [com:Verbs (in SurrogateServer/Class)](element-com-surrogate-verbs.md) | Specifies the verbs to be registered for an application. |
 | [com:Version (in ComInterface/TypeLib)](element-com-version.md) | Version number and additional information about the type library. |
-| [com:Version (in Package/Extensions)](element-com-package-version.md) | Version number and additional information about the type library. |
 | [com:Win32Path (in ComInterface/TypeLib)](element-com-win32path.md) | A path to the 32-bit type library. |
-| [com:Win32Path (in Package/Extensions)](element-com-package-win32path.md) | A path to the 32-bit type library. |
 | [com:Win64Path (in ComInterface/TypeLib)](element-com-win64path.md) | A path to the 64-bit type library. |
-| [com:Win64Path (in Package/Extensions)](element-com-package-win64path.md) | A path to the 64-bit type library. |
 | [com2:ComInterface](element-com2-cominterface.md) | Declares a package extension point of type windows.comInterface. The comInterface extension may include three types of registrations: Interface, ProxyStub, or TypeLib.  |
 | [com2:ComServer](element-com2-comserver.md) | Declares a package extension point of type windows.comServer. The comServer extension may include a ServiceServer registration.  |
 | [com2:Extension](element-com2-extension.md) | Provides functionality to expose COM registrations to clients outside of the app package.  |
 | [com2:ProxyStubDll](element-com2-proxystubdll.md) | Specifies the path and processor architecture of a ProxyStub DLL. |
-| [com2:ProxyStubDll (in Package/Extensions)](element-com2-package-proxystubdll.md) | Specifies the path and processor architecture of a ProxyStub DLL. |
 | [com3:Class](element-com3-class.md) | DDefines a class registration in a COM server hosted in a Windows service that is registered in a [com3:ServiceServer](element-com3-serviceserver.md) element.    |
 | [com3:ExeServer](element-com3-exeserver.md) |Registers an ExeServer with one or many class registrations.   |
 | [com3:ProgId](element-com3-progid.md) | A programmatic identifier (ProgID) that can be associated with a CLSID for a com3:ServiceServer class registration. The ProgID identifies a class but with less precision than a CLSID because it is not guaranteed to be globally unique.    |
@@ -297,7 +289,6 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [SelectionCriteria](element-selectioncriteria.md) | Defines selection criteria for the certificates defined for the package. |
 | [TargetDeviceFamily](element-targetdevicefamily.md) | Identifies the device family that your package targets. For more info about device families, see [Guide to UWP apps](/windows/uwp/get-started/universal-application-platform-guide). |
 | [Task](element-task.md) | The background task associated with the app extensibility point. |
-| [TypeLib (in ComInterface/Interface)](element-com-interface-typelib.md) | A type library for an interface. |
 | [TrustFlags](element-trustflags.md) | Indicates whether the certificates for the package are exclusive to the package. |
 | [uap:ApplicationContentUriRules](element-uap-applicationcontenturirules.md) | Specifies which pages in the web context have access to the system's geolocation devices (if the app has permission to access this capability) and access to the clipboard. |
 | [uap:AppointmentsProvider](element-uap-appointmentsprovider.md) | Declares an app extensibility point of type **windows.appointmentsProvider**. |
