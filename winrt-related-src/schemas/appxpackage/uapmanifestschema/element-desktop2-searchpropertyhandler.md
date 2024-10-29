@@ -53,6 +53,10 @@ None.
 |-|-|
 | [desktop2:Extension](element-desktop2-extension.md) | Declares an extensibility point for the app. |
 
+## Remarks
+
+Starting with Windows Build [TBD], this app extension will no longer work for desktop apps packaged as UWP apps using Windows Desktop Bridge. Including this extension in the package manifest for Desktop Bridge apps will have no effect.
+
 ## Requirements
 
 | Item  | Value  |
