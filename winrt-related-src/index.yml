@@ -1,18 +1,16 @@
 ### YamlMime:Landing
 
-title: Reference for Universal Windows Platform (UWP) apps
-summary: The Universal Windows Platform (UWP) introduces a common API that you can use to deliver unique and personal app experiences on all devices that run Windows 10. Learn about the APIs for developing Universal Windows apps for Windows 10, or learn about the main programming languages from which you can call Windows APIs.
+title: Reference for Windows Runtime API namespaces
+summary: Windows Runtime (WinRT) is a set of application programming interfaces (APIs) that allow developers to create applications for the Windows operating system, designed to be language-independent so that they can be used from various programming languages, including C++, C#, or JavaScript. WinRT APIs are based on the Component Object Model (COM) and provide a modern, object-oriented approach to Windows development. WinRT APIs enable access to a wide range of Windows features and services, such as file handling, networking, and user interface elements.
 
 metadata:
-  title: Reference for Universal Windows Platform (UWP) apps
-  description: Learn about the APIs for developing UWP apps for Windows 10, or learn about the main programming languages from which you can call Windows APIs.
+  title: Reference for WinRT APIs
+  description: Learn about Windows Runtime (WinRT) APIs, the language-independent way to access Windows operating system features when building Windows apps, based on the Component Object Model (COM) .
   ms.topic: landing-page
   ms.collection: collection
-  ms.author: mcleans
-  author: mcleanbyron
-  ms.date: 02/25/2020
-  keywords: windows uwp, universal windows platform, Windows Runtime APIs, windows api, windows api ref, winrt api, windows api reference, uwp api, uwp api reference, develop uwp, design uwp, publish uwp
- 
+  ms.author: mattwoj
+  author: mattwojo
+  ms.date: 10/09/2024
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
 landingContent:
@@ -24,7 +22,7 @@ landingContent:
             url: /uwp/api
           - text: Windows UI Library (WinUI) namespaces
             url: /uwp/api/overview/winui
-          - text: .NET APIs for UWP apps
+          - text: .NET APIs
             url: /dotnet/api/index?view=dotnet-uwp-10.0
           - text: Advertising SDK namespaces
             url: /uwp/api/overview/advertising
@@ -34,14 +32,14 @@ landingContent:
         links:
           - text: Extension SDKs and API contracts
             url: extension-sdks/index.md
-          - text: Win32 and COM APIs for UWP apps
+          - text: Win32 and COM APIs
             url: win32-and-com/win32-and-com-for-uwp-apps.md
 
   - title: Schema reference
     linkLists:
       - linkListType: reference
         links:
-          - text: File and XML schema specifications for UWP apps
+          - text: File and XML schema specifications
             url: schemas/index.md
           - text: App package manifest schema
             url: schemas/appxpackage/appx-package-manifest.md
