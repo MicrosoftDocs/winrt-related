@@ -1,12 +1,12 @@
 ---
-title: desktop:ToastNotificationActivator
+title: desktop:ToastNotificationActivation
 description: Allows toast notification to be received within the app.
-ms.date: 05/10/2021
+ms.date: 10/11/2024
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 
-# desktop:ToastNotificationActivator
+# desktop:ToastNotificationActivation
 
 Allows toast notification to be received within the app.
 
@@ -22,12 +22,12 @@ Allows toast notification to be received within the app.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\<Desktop:Extension\>](element-desktop-extension.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<Desktop:ToastNotificationHandler\>**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<Desktop:ToastNotificationActivation\>**
 
 ## Syntax
 
 ```xml
-<desktop:ToastNotificationActivator
+<desktop:ToastNotificationActivation
   toastActivatorCLSID = 'A string with a value between 2 and 2048 characters in length.' />
 ```
 
