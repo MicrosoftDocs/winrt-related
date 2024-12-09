@@ -55,7 +55,7 @@ None.
 
 ## Remarks
 
-Starting with Windows Build [TBD], this app extension will no longer work for desktop apps packaged as UWP apps using Windows Desktop Bridge. Including this extension in the package manifest for Desktop Bridge apps will have no effect.
+Starting with Windows 10 Version 1809 and Windows 11 Version 22H2, this app extension will no longer work for desktop apps packaged as UWP apps using Windows Desktop Bridge. Including this extension in the package manifest for Desktop Bridge apps will have no effect.
 
 ## Requirements
 
