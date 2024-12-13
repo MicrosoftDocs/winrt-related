@@ -882,6 +882,14 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-previewappcompat-progid.md
           - name: "printSupport:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-printsupport-extension.md
+          - name: "printSupport2:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-printsupport2-extension.md
+          - name: "printSupport2:PrintSupportVirtualPrinter"
+            href: schemas/appxpackage/uapmanifestschema/element-printsupport2-printsupportvirtualprinter.md
+          - name: "printSupport2:SupportedFormat"
+            href: schemas/appxpackage/uapmanifestschema/element-printsupport2-supportedformat.md
+          - name: "printSupport2:SupportedFormats"
+            href: schemas/appxpackage/uapmanifestschema/element-printsupport2-supportedformats.md
           - name: "rescap:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-rescap-extension.md
           - name: "rescap:SettingsApp"
