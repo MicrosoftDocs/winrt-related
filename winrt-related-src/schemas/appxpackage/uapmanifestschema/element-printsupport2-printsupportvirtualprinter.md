@@ -1,6 +1,6 @@
 ---
 title:  printSupport2:PrintSupportVirtualPrinter
-description: Specifies a virtual endpoint print queue to be installed with the app..
+description: Specifies a virtual endpoint print queue to be installed with the app.
 keywords: windows 10, uwp, schema, manifest, extension
 ms.date: 01/09/2023
 ms.topic: reference
@@ -28,12 +28,12 @@ Specifies a virtual endpoint print queue to be installed with the app.
 
 ```xml
 <printSupport2:PrintSupportVirtualPrinter 
-  DisplayName = 'TBD".'
-  PdcFile = 'TBD".'
-  PdrFile = 'TBD".'
-  PreferredInputFormat = 'TBD".'
-  PrinterUri = 'TBD".'
-  OutputFileTypes = 'TBD".'
+  DisplayName = 'A string with a value between 1 and 256 characters in length. This string is localizable.'
+  PdcFile = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`.'
+  PdrFile = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`.".'
+  PreferredInputFormat = 'A string that can have one of the following values: *application/oxps*, *application/postscript*.'
+  PrinterUri = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`.'
+  OutputFileTypes = 'A string containing a comma-delimited list of file extensions.'
 >
 
   <!-- Child elements -->
@@ -47,7 +47,7 @@ Specifies a virtual endpoint print queue to be installed with the app.
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **DisplayName** | The display name of the birtual printer. | 'A string with a value between 1 and 256 characters in length. This string is localizable.' | Yes |  |
+| **DisplayName** | The display name of the virtual printer. | 'A string with a value between 1 and 256 characters in length. This string is localizable.' | Yes |  |
 | **PdcFile** | The Print Device Capabilities (PDC) file for the virtual printer that defines printer capabilities and any custom features, options, or parameters. The path must point to a resource file within the application package. The file must use the PDC XML format. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
 | **PdrFile** | The Print Device Resources (PDR) file for the virtual printer. If provided, the path must point to a resource file within the application package. An app should specify a PDR file if it wants to localize custom print preferences. If a PDR file is not specified, resource localization for print preferences will be performed by the print system. |  A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |  |
 | **PreferredInputFormat** | The preferred input PDL format for the virtual printer. Windows Print System will generate this format before giving PDL data to the virtual printer for all printing paths. | A string that can have one of the following values: *application/oxps*, *application/postscript*. | No |  |

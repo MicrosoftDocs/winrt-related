@@ -32,8 +32,8 @@ Specifies a Page Description Language (PDL) format supported by the virtual prin
 
 ```xml
 <printSupport2:SupportedFormat
-  DisplayName = 'A MIME type string specifying the PDL format.'
-  PdcFile = 'The maximum version of the PDL format that the virtual printer can handle.'/>
+  Type = 'A MIME type string specifying the PDL format.'
+  MaxVersion = 'The maximum version of the PDL format that the virtual printer can handle.'/>
 ```
 
 ## Attributes and elements
@@ -54,7 +54,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [printsupport2:SupportedFormats](element-printsupport2-supportedformats.md) | Declares an extensibility point for the app. |
+| [printsupport2:SupportedFormats](element-printsupport2-supportedformats.md) | Specifies the Page Description Language (PDL) formats supported by the virtual printer. |
 
 ### Remarks
 
