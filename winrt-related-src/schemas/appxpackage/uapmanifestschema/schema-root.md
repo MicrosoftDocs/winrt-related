@@ -268,6 +268,10 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [PublisherCacheFolders](element-publishercachefolders.md) | Declares a package extensibility point of type **windows.publisherCacheFolders**. This specifies one or more folders that the package shares with other packages from the same publisher. |
 | [PublisherDisplayName](element-publisherdisplayname.md) | A friendly name for the publisher that can be displayed to users. |
 | [printSupport:Extension](element-printsupport-extension.md) | Declares an extensibility point for a Print Support App. |
+| [printSupport2:Extension](element-printsupport2-extension.md) | Declares an extensibility point for a Print Support App, adding support for virtual printers |
+| [printSupport2:PrintSupportVirtualPrinter](element-printsupport2-extension.md) | Specifies a virtual endpoint print queue to be installed with the app. |
+| [printSupport2:SupportedFormat](element-printsupport2-supportedformat.md) | Specifies a Page Description Language (PDL) format supported by the virtual printer. |
+| [printSupport2:SupportedFormats](element-printsupport2-supportedformats.md) | Specifies the Page Description Language (PDL) formats supported by the virtual printer. |
 | [rescap:Extension](element-rescap-extension.md) | Declares an extensibility point for the app. |
 | [rescap:SettingsApp](element-rescap-settingsapp.md) | Registers deep link and search information for settings apps. |
 | [rescap2:Extension](element-rescap2-extension-manual.md) | Declares an extensibility point for the app. |

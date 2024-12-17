@@ -300,6 +300,7 @@ The following list summarizes the allowed hierarchies for this schema, starting 
                         -   [**desktop9:ExtensionHandler**](element-desktop9-extensionhandler.md)
                     -   [**desktop9:FileExplorerClassicDragDropContextMenuHandler**](element-desktop9-fileexplorerclassicdragdropcontextmenuhandler.md)
                 -   [**printSupport:Extension**](element-printsupport-extension.md)
+                -   [**printSupport2:Extension**](element-printsupport2-extension.md)
                 -   [**rescap:Capability**](element-rescap-capability.md)
                 -   [**rescap:Extension**](element-rescap-extension.md)
                     -   [**rescap:SettingsApp**](element-rescap-settingsapp.md)
