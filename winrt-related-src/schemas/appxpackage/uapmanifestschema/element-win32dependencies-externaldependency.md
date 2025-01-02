@@ -41,7 +41,7 @@ Specifies an external dependency that is not included in the MSIX but will be ch
 | **Name** | The dependency package name. For the list of allowed dependency packages, see the Remarks section below. | A string between 3 and 50 characters in length that consists of alpha-numeric characters, periods, and dashes only. | Yes |  |
 | **Publisher** | The publisher of the dependency package. | A string with a value between 1 and 8192 characters in length that fits the regular expression  of a distinguished name. | Yes |  |
 | **MinVersion**  | The minimum version of the external dependency. If the OS already has the minimum version installed, the installation will not be triggered. | A version string in quad notation, (`Major.Minor.Build.Revision`) where `Major` is not `0`. | Yes |  |
-| **Optional**  | When the installation is performed without an internet connection and this value is false, the installation will complete without installing the external dependency. If this value is true, an installation with no internet connection will fail. | A boolean value. | Yes |  |
+| **Optional**  | When the installation is performed without an internet connection and this value is true, the installation will complete without installing the external dependency. If this value is false, an installation with no internet connection will fail. | A boolean value. | Yes |  |
 
 ### Child elements
 
