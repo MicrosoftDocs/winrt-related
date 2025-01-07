@@ -65,6 +65,12 @@ Enables Windows Desktop Bridge apps to register IFilters to extract file propert
 |-|-|
 | [Extensions](element-1-extensions.md) | Defines one or more extensibility points for the app. |
 
+
+## Remarks
+
+Starting with Windows 10 Version 1809 and Windows 11 Version 22H2, this app extension will no longer work for desktop apps packaged as UWP apps using Windows Desktop Bridge. Including this extension in the package manifest for Desktop Bridge apps will have no effect.
+
+
 ## Requirements
 
 | Item  | Value  |
