@@ -9,7 +9,7 @@ ms.custom:
 
 # virtualization:RegistryWriteVirtualization
 
-Indicates whether virtualization for the registry for your package. If disabled, other apps can read or write the same registry entries as your package.
+Specifies a list of keys for which registry virtualization is disabled. If disabled, other apps can read or write the same registry entries as your package.
 
 > [!NOTE]
 > This element requires the  **unvirtualizedResources** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
