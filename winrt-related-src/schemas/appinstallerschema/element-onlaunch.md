@@ -52,7 +52,7 @@ This element signifies that the deployment service will check for an update to t
 
 Setting the `ShowPrompt="true"` attribute currently shows a prompt for UWP applications but not for desktop applications that have been packaged in a Windows app package (that is, desktop applications that use the Desktop Bridge). For desktop applications, this functionality provides a silent update; the same default functionality provided by the OnLaunch element.
 
-The `ShowPrompt` and `UpdateBlocksActivation` attributes have effect only when the user starts the app from a menu item or tile in the Start menu. These attributes have no effect if the user starts the app from a desktop shortcut or from the Taskbar.
+The `ShowPrompt` and `UpdateBlocksActivation` attributes have effect only when the user starts the app from a menu item, a tile in the Start menu, an app alias, or a protocol handler. These attributes have no effect if the user starts the app from a desktop shortcut or from the Taskbar.
 
 ## Examples
 
