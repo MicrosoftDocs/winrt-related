@@ -171,6 +171,8 @@ The following extensions can be found in the declarations tab of the package des
 
 | Item | Value |
 |--|--|
-| **rescap4** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
 | **uap10** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
+| **uap11** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/11` |
+| **desktop7** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |
 | **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |
