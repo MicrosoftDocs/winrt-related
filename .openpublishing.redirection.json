@@ -250,6 +250,11 @@
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-win64path.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-win64path",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-desktop-startuptasks.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-desktop-startuptask",
+      "redirect_document_id": false
     }
   ]
 }
