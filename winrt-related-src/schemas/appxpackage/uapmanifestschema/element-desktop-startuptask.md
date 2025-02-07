@@ -1,12 +1,12 @@
 ---
-title: desktop:StartupTasks
+title: desktop:StartupTask
 description: Represents a desktop process that runs during app startup.
 ms.date: 05/10/2021
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 
-# desktop:StartupTasks
+# desktop:StartupTask
 
 Represents a desktop process that runs during app startup.
 
@@ -22,12 +22,12 @@ Represents a desktop process that runs during app startup.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\<Desktop:Extension\>](element-desktop-extension.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**<\Desktop:StartupTasks\>**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**<\Desktop:StartupTask\>**
 
 ## Syntax
 
 ```xml
-<desktop:StartupTasks
+<desktop:StartupTask
   TaskId = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
   Enabled = 'A boolean value.'
   DisplayName = 'A string with a value between 1 and 256 characters in length. This string is localizable.'
