@@ -102,4 +102,5 @@ The Share feature provides access to a list of target apps that can receive data
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
-| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |
+| **Minimum OS Version** | Windows 10 version 2004 (Build 19041) |
+| **Minimum OS Version (UWP apps only** | Windows 10 version 1511 (Build 10586) |
