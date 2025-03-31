@@ -4,7 +4,7 @@ description: A helper function that returns the address of the underlying raw [I
 title: winrt::get_unknown function (C++/WinRT)
 dev_langs: ["C++"]
 ms.date: 03/17/2020
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, IUnknown
 ms.workload: ["cplusplus"]
 ---

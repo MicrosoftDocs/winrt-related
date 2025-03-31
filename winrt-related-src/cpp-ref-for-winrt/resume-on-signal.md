@@ -3,7 +3,7 @@ title: winrt::resume_on_signal function (C++/WinRT)
 description: A function that you can use to suspend until a kernel event is signaled.
 dev_langs: ["C++"]
 ms.date: 07/22/2020
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference
 ms.workload: ["cplusplus"]
 ---

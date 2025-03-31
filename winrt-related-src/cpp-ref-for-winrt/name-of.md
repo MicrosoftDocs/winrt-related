@@ -3,7 +3,7 @@ description: A helper function that retrieves a string view containing the fully
 title: winrt::name_of function template (C++/WinRT)
 dev_langs: ["C++"]
 ms.date: 03/10/2021
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, projected, implementation, type
 ms.workload: ["cplusplus"]
 ---

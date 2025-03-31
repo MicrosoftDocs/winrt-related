@@ -5,7 +5,7 @@ title: winrt::event_revoker struct template (C++/WinRT)
 dev_langs: ["C++"]
 
 ms.date: 05/18/2018
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference
 ms.workload: ["cplusplus"]
 ---

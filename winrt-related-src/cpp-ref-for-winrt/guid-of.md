@@ -5,7 +5,7 @@ title: winrt::guid_of function template (C++/WinRT)
 dev_langs: ["C++"]
 
 ms.date: 03/15/2019
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, GUID
 ms.workload: ["cplusplus"]
 ---

@@ -3,7 +3,7 @@ description: A function template that calls a specified function or method, capt
 title: winrt::capture function template (C++/WinRT)
 dev_langs: ["C++"]
 ms.date: 06/16/2020
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, capture
 ms.workload: ["cplusplus"]
 ---

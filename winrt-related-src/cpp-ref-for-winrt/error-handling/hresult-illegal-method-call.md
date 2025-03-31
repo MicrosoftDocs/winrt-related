@@ -5,7 +5,7 @@ title: winrt::hresult_illegal_method_call struct (C++/WinRT)
 dev_langs: ["C++"]
 
 ms.date: 04/25/2018
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, hresult, error, code, E_ILLEGAL_METHOD_CALL
 ms.workload: ["cplusplus"]
 ---

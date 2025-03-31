@@ -3,7 +3,7 @@ description: A function template that creates a single uninitialized object of t
 title: winrt::create_instance function template (C++/WinRT)
 dev_langs: ["C++"]
 ms.date: 06/16/2020
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, create_instance, cocreateinstance
 ms.workload: ["cplusplus"]
 ---

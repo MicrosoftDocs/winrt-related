@@ -5,7 +5,7 @@ title: winrt::check_bool function template (C++/WinRT)
 dev_langs: ["C++"]
 
 ms.date: 04/30/2018
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, check, throw, exception, bool, HRESULT, error, code
 ms.workload: ["cplusplus"]
 ---

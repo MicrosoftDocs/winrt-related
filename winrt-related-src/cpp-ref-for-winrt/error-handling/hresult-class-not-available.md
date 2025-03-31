@@ -5,7 +5,7 @@ title: winrt::hresult_class_not_available struct (C++/WinRT)
 dev_langs: ["C++"]
 
 ms.date: 04/25/2018
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, hresult, error, code, CLASS_E_CLASSNOTAVAILABLE
 ms.workload: ["cplusplus"]
 ---

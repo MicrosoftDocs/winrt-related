@@ -3,7 +3,7 @@ description: A helper function template that determines whether or not the provi
 title: winrt::is_guid_of function template (C++/WinRT)
 dev_langs: ["C++"]
 ms.date: 05/06/2021
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, is_guid_of
 ms.workload: ["cplusplus"]
 ---

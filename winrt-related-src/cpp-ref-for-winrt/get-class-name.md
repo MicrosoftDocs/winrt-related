@@ -3,7 +3,7 @@ description: A helper function that retrieves a string containing the fully-qual
 title: winrt::get_class_name function (C++/WinRT)
 dev_langs: ["C++"]
 ms.date: 04/30/2018
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, runtime, class, name, string
 ms.workload: ["cplusplus"]
 ---

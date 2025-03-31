@@ -3,7 +3,7 @@ description: A view, or span, of a contiguous series of values for passing to an
 title: winrt::com_array struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.date: 05/10/2019
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, array, view, com_array, span
 ms.workload: ["cplusplus"]
 ---

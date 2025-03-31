@@ -5,7 +5,7 @@ title: winrt::observable_map_base struct template (C++/WinRT)
 dev_langs: ["C++"]
 
 ms.date: 08/27/2018
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, map, associative, collection
 ms.workload: ["cplusplus"]
 ---

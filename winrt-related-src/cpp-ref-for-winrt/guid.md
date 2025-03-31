@@ -3,7 +3,7 @@ title: winrt::guid struct (C++/WinRT)
 description: Represents a globally-unique identifier ([GUID](/windows/win32/api/guiddef/ns-guiddef-guid)).
 dev_langs: ["C++"]
 ms.date: 12/08/2021
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, Windows, guid
 ms.workload: ["cplusplus"]
 ---

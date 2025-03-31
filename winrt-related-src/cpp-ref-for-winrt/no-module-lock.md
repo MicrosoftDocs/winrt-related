@@ -3,7 +3,7 @@ description: A marker type used to indicate that instances of a type do not coun
 title: winrt::no_module_lock struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.date: 09/20/2023
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, marker, type
 ms.workload: ["cplusplus"]
 ---
