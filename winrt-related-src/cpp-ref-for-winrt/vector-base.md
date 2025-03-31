@@ -5,7 +5,7 @@ title: winrt::vector_base struct template (C++/WinRT)
 dev_langs: ["C++"]
 
 ms.date: 08/26/2018
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, vector, collection
 ms.workload: ["cplusplus"]
 ---

@@ -5,7 +5,7 @@ title: winrt::make_agile function template (C++/WinRT)
 dev_langs: ["C++"]
 
 ms.date: 04/19/2018
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, agile
 ms.workload: ["cplusplus"]
 ---

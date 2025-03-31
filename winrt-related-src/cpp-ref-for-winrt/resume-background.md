@@ -3,7 +3,7 @@ description: A helper function that returns control to the caller, and resumes e
 title: winrt::resume_background function (C++/WinRT)
 dev_langs: ["C++"]
 ms.date: 05/17/2018
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference
 ms.workload: ["cplusplus"]
 ---

@@ -3,7 +3,7 @@ description: A sequential collection of UTF-16 Unicode characters representing a
 title: winrt::hstring struct (C++/WinRT)
 dev_langs: ["C++"]
 ms.date: 02/06/2024
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, string
 ms.workload: ["cplusplus"]
 ---

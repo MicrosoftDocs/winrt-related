@@ -3,7 +3,7 @@ description: A type that you can use to implement (produce) the deferrable event
 title: winrt::deferrable_event_args struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.date: 05/21/2021
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, agile
 ms.workload: ["cplusplus"]
 ---

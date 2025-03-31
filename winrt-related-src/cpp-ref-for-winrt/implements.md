@@ -3,7 +3,7 @@ description: A base struct template that implements one or more Windows Runtime 
 title: winrt::implements struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.date: 09/29/2023
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, implement, interface
 ms.workload: ["cplusplus"]
 ---

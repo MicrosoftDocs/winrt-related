@@ -3,7 +3,7 @@ description: A reference-counted COM smart pointer template.
 title: winrt::com_ptr struct template (C++/WinRT)
 dev_langs: ["C++"]
 ms.date: 06/09/2023
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, com, smart, pointer
 ms.workload: ["cplusplus"]
 ---

@@ -3,7 +3,7 @@ description: A helper function that returns control to the caller, and then resu
 title: winrt::resume_after function (C++/WinRT)
 dev_langs: ["C++"]
 ms.date: 01/04/2021
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference
 ms.workload: ["cplusplus"]
 ---

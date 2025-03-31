@@ -3,7 +3,7 @@ description: A helper function that retrieves the activation factory for a speci
 title: winrt::get_activation_factory function template (C++/WinRT)
 dev_langs: ["C++"]
 ms.date: 04/30/2018
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, get, activation, factory
 ms.workload: ["cplusplus"]
 ---

@@ -5,7 +5,7 @@ title: winrt::delegate struct template (C++/WinRT)
 dev_langs: ["C++"]
 
 ms.date: 04/24/2018
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, delegate, handler
 ms.workload: ["cplusplus"]
 ---

@@ -5,7 +5,7 @@ title: winrt::hresult_wrong_thread struct (C++/WinRT)
 dev_langs: ["C++"]
 
 ms.date: 04/25/2018
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, hresult, error, code, RPC_E_WRONG_THREAD
 ms.workload: ["cplusplus"]
 ---

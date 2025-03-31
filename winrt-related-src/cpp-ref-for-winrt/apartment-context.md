@@ -5,7 +5,7 @@ title: winrt::apartment_context struct (C++/WinRT)
 dev_langs: ["C++"]
 
 ms.date: 05/17/2018
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference
 ms.workload: ["cplusplus"]
 ---

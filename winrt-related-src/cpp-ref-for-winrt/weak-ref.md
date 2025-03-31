@@ -3,7 +3,7 @@ title: winrt::weak_ref struct template (C++/WinRT)
 description: A type representing a weak reference to a C++/WinRT object or interface.
 dev_langs: ["C++"]
 ms.date: 04/09/2022
-ms.topic: "language-reference"
+ms.topic: reference
 keywords: windows 10, uwp, standard, c++, cpp, winrt, projection, api, reference, weak
 ms.workload: ["cplusplus"]
 ---
