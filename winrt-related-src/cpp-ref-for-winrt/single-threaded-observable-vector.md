@@ -43,7 +43,7 @@ An [**IObservableVector**](/uwp/api/windows.foundation.collections.iobservableve
 
 **Namespace:** winrt
 
-**Header:** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+**Header:** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\Windows.Foundation.Collections.h
 
 ## If you have an older version of the Windows SDK
 
