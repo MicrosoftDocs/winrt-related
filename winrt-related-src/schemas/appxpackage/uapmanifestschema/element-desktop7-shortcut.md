@@ -74,6 +74,22 @@ Creates a shortcut to a file.
 |-|-|
 | [Extension](element-desktop7-extension.md) | Defines an extensibility point for the application. |  
 
+## Remarks
+
+The *File* path format is a path relative to one of the following constants that resolve to a directory.
+
+| Constant | Directory |
+|----------|-----------|
+| Common Programs | C:\ProgramData\Microsoft\Windows\Start Menu\Programs |
+| Programs | C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs |
+| Desktop | C:\Users\<username>\Desktop |
+
+So, for example the following value for *File* creates a shortcut with the path `C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Subfolder\Shortcut.exe.lnk`.
+
+```xml
+File="$$(Programs)\Subfolder\Shortcut.exe.lnk"
+```
+
 ## Requirements
 
 | Item  | Value  |
