@@ -55,7 +55,7 @@ An [**IObservableMap**](/uwp/api/windows.foundation.collections.iobservablemap_k
 
 **Namespace:** winrt
 
-**Header:** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+**Header:** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\Windows.Foundation.Collections.h
 
 ## See also
 * [winrt namespace](winrt.md)

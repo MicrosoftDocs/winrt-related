@@ -55,7 +55,7 @@ An [**IMap**](/uwp/api/windows.foundation.collections.imap_k_v_) representing a 
 
 **Namespace:** winrt
 
-**Header:** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\base.h (included by default)
+**Header:** %WindowsSdkDir%Include\<WindowsTargetPlatformVersion>\cppwinrt\winrt\Windows.Foundation.Collections.h
 
 ## See also 
 * [winrt namespace](winrt.md)
