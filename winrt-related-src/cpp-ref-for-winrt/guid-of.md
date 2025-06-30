@@ -12,7 +12,9 @@ ms.workload: ["cplusplus"]
 
 # winrt::guid_of function template (C++/WinRT)
 
-A helper function template that retrieves the default interface for classes inheriting `winrt::implements`. Will fall back to using `__uuidof` for other classes.
+A helper function template that retrieves the GUID of a runtime class, coclass, or interface; that is, the identifier of the WinRT type. For COM and WinRT interfaces, that's the identifier of the interface. For WinRT classes, it's the identifier of the default interface of the class.
+
+It's only if and when `guid_v` (see the function's implementation) isn't specialized that the function falls back to using `__uuidof`, where applicable.
 
 ## Syntax
 ```cppwinrt
