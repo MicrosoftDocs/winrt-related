@@ -22,7 +22,9 @@ The executable of a UWP app to be activated from a command prompt.
 
 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap3:Extensions\>](element-uap3-extension-manual.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop:ExecutionAlias\>**
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\<uap3:AppExecutionAlias\>](element-uap3-appexecutionalias.md)
+
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop:ExecutionAlias\>**
 
 ## Syntax
 
@@ -64,7 +66,7 @@ The executable of a UWP app to be activated from a command prompt.
 
 | Parent element | Description |
 |-|-|
-| [uap3:Extension](element-uap3-extension-manual.md) | Declares an extensibility point for the app. |
+| [uap3:AppExecutionAlias](element-uap3-appexecutionalias.md) | Declares an alias extensibility point for the app. |
 
 ## Remarks
 
