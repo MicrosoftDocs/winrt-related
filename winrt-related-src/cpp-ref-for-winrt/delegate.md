@@ -49,21 +49,39 @@ Initializes a new instance of the **delegate** struct from the input data.
 
 ### Syntax
 ```cppwinrt
-delegate(std::nullptr_t = nullptr) noexcept;
+delegate(std::nullptr_t = nullptr) noexcept; // (1)
 
 template <typename L>
-delegate(L lHandler);
+delegate(L lHandler); // (2)
 
 template <typename F>
-delegate(F* fHandler);
+delegate(F* fHandler); // (3)
 
 template <typename O, typename M>
-delegate(O* object, M method);
+delegate(O* object, M method); // (4)
+
+template <typename O, typename M>
+delegate(winrt::com_ptr<O>&& object, M method); // (5)
+
+template <typename O, typename M>
+delegate(winrt::weak_ref<O>&& object, M method); // (6)
+
+template <typename O, typename M>
+delegate(winrt::weak_ref<O>&& object, L lHandler); // (7)
+
+template <typename O, typename M>
+delegate(std::shared_ptr<O>&& object, M method); // (8)
+
+template <typename O, typename M>
+delegate(std::weak_ptr<O>&& object, M method); // (9)
+
+template <typename O, typename M>
+delegate(std::weak_ptr<O>&& object, L lHandler); // (10)
 ```
 
 ### Template parameters
 `typename L`
-A lambda function type.
+A lambda type, or more generally, any type that supports function call syntax, such as a `std::function`.
 
 `typename F`
 A free function type.
@@ -76,16 +94,47 @@ A pointer-to-member-function type.
 
 ### Parameters
 `lHandler`
-A lambda function, which will handle the event.
+A lambda object, or more generally, an object that supports function call syntax, such as a `std::function`, which will handle the event.
 
 `fHandler`
 A pointer-to-free-function, which will handle the event.
 
 `object`
-A pointer to an object, one of whose member functions will handle the event.
+An object, one of whose member functions will handle the event.
+Depending on the overload, this object may be represented by a raw pointer or a smart pointer.
 
 `method`
 A pointer-to-member-function, which will handle the event.
+
+### Remarks
+
+The default constructor (1) constructs an empty delegate.
+
+Constructor (2) constructs a delegate which calls the lambda with the delegate arguments.
+
+Constructor (3) constructs a delegate which calls the function with the delegate arguments.
+
+Constructor (4) constructs a delegate which calls the pointed-to object's method with the delegate arguments.
+
+Constructor (5) constructs a delegate which calls the referenced object's method with the delegate arguments.
+
+Constructor (6) constructs a delegate which attempts to resolve the `weak_ref` to a strong reference.
+If successful, then it calls the object's method with the delegate arguments; otherwise, it does nothing.
+
+Constructor (7) constructs a delegate which attempts to resolve the `weak_ref` to a strong reference.
+If successful, then it calls the lambda with the delegate arguments; otherwise, it does nothing.
+Requires C++/WinRT version 2.0.240111.5.
+
+Constructor (8) constructs a delegate which calls the shared object's method with the delegate arguments.
+Requires C++/WinRT version 2.0.240111.5.
+
+Constructor (9) constructs a delegate which attempts to resolve the `weak_ptr` to a shared pointer.
+If successful, then it calls the shared object's method with the delegate arguments; otherwise, it does nothing.
+Requires C++/WinRT version 2.0.240111.5.
+
+Constructor (10) constructs a delegate which attempts to resolve the `weak_ptr` to a shared pointer.
+If successful, then it calls the lambda with the delegate arguments; otherwise, it does nothing.
+Requires C++/WinRT version 2.0.240111.5.
 
 ## delegate::operator() (function call operator)
 Invokes the delegate represented by the **delegate** object with the provided arguments.
