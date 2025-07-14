@@ -34,8 +34,9 @@ struct IUnknown
 ## Member functions
 |Function|Description|
 |------------|-----------------|
-|[IUnknown::as function](#iunknownas-function)|Returns the requested interface, if it is supported. Throws if it is not.|
-|[IUnknown::try_as function](#iunknowntry_as-function)|Returns the requested interface, if it is supported. Returns `null`, or `false`, if it is not.|
+|[IUnknown::as function](#iunknownas-function)|Requests an interface, throwing if it is not supported.|
+|[IUnknown::try_as function](#iunknowntry_as-function)|Requests an interface, producing `null` if it is not supported.|
+|[IUnknown::try_as_with_reason function](#iunknowntry_as_with_reason-function)|Requests an interface, reporting the reason if it is not supported.|
 
 ## Member operators
 |Operator|Description|
@@ -81,7 +82,7 @@ IUnknown(winrt::Windows::Foundation::IUnknown&& other) noexcept;
 Another **IUnknown** that initializes the **IUnknown** object.
 
 ## IUnknown::as function
-Returns the requested interface, if it is supported. Throws if it is not. This function is useful if you want to query for an interface that you don't need to pass back to your caller.
+Requests the specified interface from the `IUnknown`. Throws if the interface is not supported. Use this method if you expect the interface to be supported.
 
 ### Syntax
 ```cppwinrt
@@ -91,17 +92,26 @@ template <typename To> void as(To& to) const;
 
 ### Template parameters
 `typename To`
-The type of the requested interface.
+A type that describes the requested interface.
+This type can be a C++/WinRT interface name or a C++/WinRT runtime class name.
+
+For the `auto`-returning overload, the type can also be a classic COM interface.
+
+For the `void`-returning overload, the type can also be `com_ptr<I>` where `I` is a classic COM interface.
 
 ### Parameters
 `to`
 A reference to a value to receive the requested interface.
 
 ### Return value 
-A **com_ptr** referencing the requested interface, or a strongly-typed smart pointer for the requested interface (either declared by C++/WinRT or by a third party).
+The `auto`-returning overload returns the requested interface, in the form of `To` if it is a C++/WinRT interface or runtime class name, or in the form of `com_ptr<To>` if `To` is a classic COM interface.
+
+If the `IUnknown` is `null`, then the `auto`-returning overload returns `null`, and the `void`-returning overload sets `to` to `null`.
+
+If the `IUnknown` is non-`null` but the interface cannot be obtained, the method throws.
 
 ## IUnknown::try_as function
-Returns the requested interface, if it is supported. Returns `null` (the `auto`-returning overload), or `false` (the `bool`-returning overload), if it is not. This function is useful if you want to query for an interface that you don't need to pass back to your caller.
+Requests the specified interface from the `IUnknown`. Produces `null` if the interface is not supported.
 
 ### Syntax
 ```cppwinrt
@@ -111,16 +121,52 @@ template <typename To> bool try_as(To& to) const noexcept;
 
 ### Template parameters
 `typename To`
-The type of the requested interface.
+A type that describes the requested interface.
+This type can be a C++/WinRT interface name or a C++/WinRT runtime class name.
+
+For the `auto`-returning overload, the type can also be a classic COM interface.
+
+For the `bool`-returning overload, the type can also be `com_ptr<I>` where `I` is a classic COM interface.
 
 ### Parameters
 `to`
-A reference to a value to receive the requested interface. Can be a null reference.
+A reference to a value to receive the requested interface.
 
-### Return value 
-A **com_ptr** referencing the requested interface, or a strongly-typed smart pointer for the requested interface (either declared by C++/WinRT or by a third party), if the requested interface is supported, otherwise `null` (the `auto`-returning overload) or `false` (the `bool`-returning overload).
+### Return value
+The `auto`-returning overload returns the requested interface, in the form of `To` if it is a C++/WinRT interface or runtime class name, or in the form of `com_ptr<To>` if `To` is a classic COM interface.
 
-If `to` is a null reference, returns `null` or `false`.
+If the `IUnknown` is `null` or if the interface cannot be obtained, then the `auto`-returning overload returns `null`, and the `bool`-returning overload sets `to` to `null`.
+
+The `bool` returning overload returns `true` if the value returned in `to` is non-`null` and `false` if it is `null`.
+
+## IUnknown::try_as_with_reason function
+Returns the requested interface, if it is supported, and reports the reason if it is not supported.
+
+### Syntax
+```cppwinrt
+template <typename To> auto try_as_with_reason(winrt::hresult& reason) const noexcept;
+```
+
+### Template parameters
+`typename To`
+A type that describes the requested interface.
+This type can be a C++/WinRT interface name, a C++/WinRT runtime class name, or a classic COM interface.
+
+### Parameters
+`reason`
+Receives the `winrt::hresult` which describes the result of the query.
+
+### Return value
+Returns the requested interface, in the form of `To` if it is a C++/WinRT interface or runtime class name, or in the form of `com_ptr<To>` if `To` is a classic COM interface.
+
+If the `IUnknown` is `null` or if the interface cannot be obtained, then the method returns `null`.
+
+### Remarks
+This method is available starting in C++/WinRT version 2.0.250303.1.
+
+If the `IUnknown` is `null`, then the method returns `null` and sets the `reason` to `S_OK`.
+
+If the `IUnknown` is non-`null`, then the method returns the result of the query, and the `reason` receives the `winrt::hresult` produced by the query.
 
 ## IUnknown::operator bool
 Checks whether or not the **IUnknown** object is referencing an interface. If the **IUnknown** object is not referencing an interface, then it is logically null; otherwise it is logically not null.
