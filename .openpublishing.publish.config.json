@@ -22,10 +22,8 @@
   "branches_to_filter": [],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/winrt-related",
   "git_repository_branch_open_to_public_contributors": "docs",
-  "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
   "resolve_user_profile_using_github": true,
-  "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -35,11 +33,11 @@
     }
   ],
   "branch_target_mapping": {},
-  "need_generate_pdf_url_template": false,
   "targets": {},
+  "docs_build_engine": {},
+  "skip_source_output_uploading": false,
+  "contribution_branch_mappings": {},
+  "need_generate_pdf_url_template": false,
   "need_generate_pdf": false,
-  "need_generate_intellisense": false,
-  "docs_build_engine": {
-    "name": "docfx_v3"
-  }
+  "need_generate_intellisense": false
 }
