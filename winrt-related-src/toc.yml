@@ -147,9 +147,11 @@ items:
           href: schemas/appxpackage/uapmanifestschema/extensions.md
         - name: "Macros in the package manifest schema"
           href: schemas/appxpackage/uapmanifestschema/macros.md
-        - name: "Element Hierarchy"
-          href: schemas/appxpackage/uapmanifestschema/root-elements.md
+        - name: "App package manifest schema elements"
+          href: schemas/appxpackage/uapmanifestschema/schema-elements.md
           items: 
+          - name: "Element Hierarchy"
+            href: schemas/appxpackage/uapmanifestschema/root-elements.md
           - name: "Package"
             href: schemas/appxpackage/uapmanifestschema/element-package.md
           - name: "Identity"
