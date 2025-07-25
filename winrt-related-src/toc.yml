@@ -147,9 +147,11 @@ items:
           href: schemas/appxpackage/uapmanifestschema/extensions.md
         - name: "Macros in the package manifest schema"
           href: schemas/appxpackage/uapmanifestschema/macros.md
-        - name: "Element Hierarchy"
-          href: schemas/appxpackage/uapmanifestschema/root-elements.md
+        - name: "App package manifest schema elements"
+          href: schemas/appxpackage/uapmanifestschema/schema-elements.md
           items: 
+          - name: "Element Hierarchy"
+            href: schemas/appxpackage/uapmanifestschema/root-elements.md
           - name: "Package"
             href: schemas/appxpackage/uapmanifestschema/element-package.md
           - name: "Identity"
@@ -256,6 +258,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap6-capability.md
           - name: "uap7:Capability"
             href: schemas/appxpackage/uapmanifestschema/element-uap7-capability.md
+          - name: "uap11:Capability"
+            href: schemas/appxpackage/uapmanifestschema/element-uap11-capability.md
           - name: "mobile:Capability"
             href: schemas/appxpackage/uapmanifestschema/element-mobile-capability-manual.md
           - name: "DeviceCapability"
