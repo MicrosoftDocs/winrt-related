@@ -256,6 +256,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap6-capability.md
           - name: "uap7:Capability"
             href: schemas/appxpackage/uapmanifestschema/element-uap7-capability.md
+          - name: "uap11:Capability"
+            href: schemas/appxpackage/uapmanifestschema/element-uap11-capability.md
           - name: "mobile:Capability"
             href: schemas/appxpackage/uapmanifestschema/element-mobile-capability-manual.md
           - name: "DeviceCapability"
