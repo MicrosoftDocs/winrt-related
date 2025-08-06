@@ -1,18 +1,21 @@
 ---
 description: Specifies an external dependency that is not included in the MSIX but will be chain installed as part of the app installation. 
 Search.Product: eADQiWindows 10XVcnh
-title: win32dependencies:ExternalDependency (Windows 10, Windows 11)
-keywords: windows 10, uwp, schema, package manifest
+title: win32dependencies:ExternalDependency (Windows 11, Windows 10)
+keywords: windows 11, windows 10, uwp, schema, package manifest
 ms.topic: reference
-ms.date: 10/26/2021
+ms.date: 08/05/2025
 ---
 
-# win32dependencies:ExternalDependency (Windows 10, Windows 11)
-
-Specifies an external dependency that is not included in the MSIX but will be chain installed as part of the app installation. If the specified minimum version of the external dependency is not already installed on the OS, the Microsoft App Installer app will retrieve the minimum version from an external repository and install the dependency. Microsoft maintains a list of dependencies that can be installed using this method. See the [Remarks](#remarks) section for the current list of allowed packages.
+# win32dependencies:ExternalDependency (Windows 11, Windows 10)
 
 > [!IMPORTANT]
-> **win32dependencies:ExternalDependency** only applies to installations that use the Microsoft App Installer app. If a package is installed using any other mechanism, such as the [PackageManager](/uwp/api/windows.management.deployment.packagemanager) API, a Powershell cmdlet, Microsoft Intune or any other mechanism other than via the App Installer app, then **win32dependencies:ExternalDependency** is ignored.
+> In terms of install-time and run-time, **win32dependencies:ExternalDependency** applies only to installs that use the Microsoft App Installer app. If a package is installed using any other mechanism, such as the [PackageManager](/uwp/api/windows.management.deployment.packagemanager) API, or a Powershell cmdlet, or Microsoft Intune, or any other mechanism other than via the App Installer app, then **win32dependencies:ExternalDependency** is ignored.
+
+> [!IMPORTANT]
+> In terms of build-time, **win32dependencies:ExternalDependency** is not validated by either PackageWriter, `makeappx.exe`, or AppxManifestReader.
+
+Specifies an external dependency that is not included in the MSIX but will be chain installed as part of the app installation. If the specified minimum version of the external dependency is not already installed on the OS, the Microsoft App Installer app will retrieve the minimum version from an external repository and install the dependency. Microsoft maintains a list of dependencies that can be installed using this method. See the [Remarks](#remarks) section for the current list of allowed packages.
 
 ## Element hierarchy
 
@@ -78,7 +81,7 @@ None.
 
 ## Remarks
 
-This feature requires that Microsoft App Installer version 1.16.12651.0 or later be installed on the target machine. The app can be obtained from the [Microsoft Store](https://www.microsoft.com/en-us/store/apps/windows).
+This feature requires that Microsoft App Installer version 1.16.12651.0 or later be installed on the target machine. The app can be obtained from the [Microsoft Store](https://apps.microsoft.com/home).
 
 ### Allowed external dependencies
 
