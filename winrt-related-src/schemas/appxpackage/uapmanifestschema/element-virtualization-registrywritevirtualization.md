@@ -9,7 +9,7 @@ ms.custom:
 
 # virtualization:RegistryWriteVirtualization
 
-Indicates whether virtualization for the registry for your package. If disabled, other apps can read or write the same registry entries as your package.
+Specifies a list of keys for which registry virtualization is disabled for a package. Disabling virtualization enables your app to access the global registry (or file system) locations seen by other apps, rather than the virtualized registry (or file system) that is created for your app. Any data written to these unvirtualized locations will persist after your app is uninstalled.
 
 > [!NOTE]
 > This element requires the  **unvirtualizedResources** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).

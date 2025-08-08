@@ -9,7 +9,7 @@ ms.custom:
 
 # virtualization:FileSystemWriteVirtualization
 
-Indicates whether virtualization for the file system is enabled for a package. Disabling virtualization enables your app to access the global file system (or registry) locations seen by other apps, rather than the virtualized file system (or registry) that is created for your app. Any data written to these unvirtualized locations will persist after your app is uninstalled.
+Specifies a list of directories for which file system virtualization is disabled for a package. Disabling virtualization enables your app to access the global file system (or registry) locations seen by other apps, rather than the virtualized file system (or registry) that is created for your app. Any data written to these unvirtualized locations will persist after your app is uninstalled.
 
 > [!NOTE]
 > This element requires the  **unvirtualizedResources** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
