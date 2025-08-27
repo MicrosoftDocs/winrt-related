@@ -55,5 +55,5 @@ Enabling Trusted Launch will cause SignTool to generate a catalog file containin
 
 | Item | Value |
 |--|--|
-| **Namespace** | TBD `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
-| **Minimum OS Version** | TBD Windows 10 version 2004 (Build 19041) |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/trustedlaunch/windows10` |
+| **Minimum OS Version** | Windows 10 version 26100 |
