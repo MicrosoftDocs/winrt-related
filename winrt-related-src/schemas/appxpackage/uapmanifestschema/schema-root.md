@@ -293,6 +293,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [SelectionCriteria](element-selectioncriteria.md) | Defines selection criteria for the certificates defined for the package. |
 | [TargetDeviceFamily](element-targetdevicefamily.md) | Identifies the device family that your package targets. For more info about device families, see [Guide to UWP apps](/windows/uwp/get-started/universal-application-platform-guide). |
 | [Task](element-task.md) | The background task associated with the app extensibility point. |
+| [TrustedLaunch](element-trustedlaunch-trustedlaunch.md) | Specifies that Trusted Launch is enabled, which restricts the set of processes that can be launched under a package's identity. |
 | [TrustFlags](element-trustflags.md) | Indicates whether the certificates for the package are exclusive to the package. |
 | [uap:ApplicationContentUriRules](element-uap-applicationcontenturirules.md) | Specifies which pages in the web context have access to the system's geolocation devices (if the app has permission to access this capability) and access to the clipboard. |
 | [uap:AppointmentsProvider](element-uap-appointmentsprovider.md) | Declares an app extensibility point of type **windows.appointmentsProvider**. |

@@ -32,6 +32,7 @@ Defines the root element of an app package manifest. The manifest describes the 
   & Extensions?
   & Applications?
   & uap15:Capabilities?
+  & trustedlaunch:TrustedLaunch?
 </Package>
 ```
 
@@ -61,6 +62,7 @@ Defines the root element of an app package manifest. The manifest describes the 
 | [Resources](element-resources.md) | Declares languages for the resources that the package contains. Every package must declare at least one language for resources. The scale and DirectX feature level attributes are common for all resources in the package. |
 | [mp:PhoneIdentity](element-mp-phoneidentity.md) | If your app is an update to an app previously made available on Windows Phone, ensure that this element matches what is in the app manifest of your previous app. Use the same GUIDs that were assigned to the app by the Store. This ensures that users of your app who are upgrading to Windows 10 will receive your new app as an update, and not as a duplicate. |
 | [uap15:Capabilities](element-uap15-capabilities.md) | Declares the access to protected user resources that the package requires.  This element can be used by non-main packages. This element can only be used by framework packages.|
+| [trustedlaunch:TrustedLaunch](element-trustedlaunch-trustedlaunch.md) | Specifies that Trusted Launch is enabled, which restricts the set of processes that can be launched under a package's identity.|
 
 > [!NOTE]
 > You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely `|` and `all`, due to which Windows fails to create the AppContainer profile for the package. Use this reference for [troubleshooting](/windows/win32/appxpkg/troubleshooting) if you get an error.

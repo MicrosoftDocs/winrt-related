@@ -36,6 +36,7 @@ The following list summarizes the allowed hierarchies for this schema, starting 
         -   [**HeapPolicy**](element-heap-heappolicy.md)
         -   [**virtualization:FileSystemWriteVirtualization**](element-virtualization-filesystemwritevirtualization.md)
         -   [**virtualization:RegistryWriteVirtualization**](element-virtualization-registrywritevirtualization.md)
+        -   [**trustedlaunch:TrustedLaunch**](element-trustedlaunch-trustedlaunch.md)
     -   [**Resources**](element-resources.md)
         -   [**Resource**](element-resource.md)
     -   [**Dependencies**](element-dependencies.md)
