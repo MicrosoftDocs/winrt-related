@@ -16,7 +16,7 @@ Specifies that Trusted Launch is enabled, which restricts the set of processes t
 
 &nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
 
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<tbd:TrustedLaunch\>**
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<trustedlaunch:TrustedLaunch\>**
 
 ## Syntax
 
