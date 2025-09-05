@@ -924,6 +924,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-rescap4-primaryInteropAssemblies.md
           - name: "rescap4:Redirect"
             href: schemas/appxpackage/uapmanifestschema/element-rescap4-redirect.md
+          - name: "trustedlaunch:TrustedLaunch"
+            href: schemas/appxpackage/uapmanifestschema/element-trustedlaunch-trustedlaunch.md
           - name: "uap:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-uap-extension.md
           - name: "uap:FileTypeAssociation"

@@ -59,9 +59,9 @@ The following example shows how to use the **TrustedLaunch** element with the **
 <Package
   ...
   xmlns:uap10="http://schemas.microsoft.com/appx/manifest/uap/windows10/10"
-  xmlns:trustedlaunch=”http://schemas.microsoft.com/appx/manifest/trustedlaunch/windows10”
+  xmlns:trustedlaunch="http://schemas.microsoft.com/appx/manifest/trustedlaunch/windows10"
   ...
-/>
+>
 
 <trustedlaunch:TrustedLaunch>true</trustedlaunch:TrustedLaunch>
 <uap10:PackageIntegrity>
