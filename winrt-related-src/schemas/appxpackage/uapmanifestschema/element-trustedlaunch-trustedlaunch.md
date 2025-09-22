@@ -63,11 +63,13 @@ The following example shows how to use the **TrustedLaunch** element with the **
   ...
 >
 
-<trustedlaunch:TrustedLaunch>true</trustedlaunch:TrustedLaunch>
-<uap10:PackageIntegrity>
-  <uap10:content Enforcement = "on" />
-</uap10:PackageIntegrity>
-
+  <Properties>
+  ...
+    <trustedlaunch:TrustedLaunch>true</trustedlaunch:TrustedLaunch>
+    <uap10:PackageIntegrity>
+      <uap10:content Enforcement = "on" />
+    </uap10:PackageIntegrity>
+  </Properties>
 ```
 
 ## Requirements
