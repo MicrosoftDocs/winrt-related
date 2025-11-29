@@ -62,9 +62,23 @@ namespace BgLabelControlApp
 ```
 
 ## The `[contract]` attribute
-Do not use the `contract` attribute in your own APIs; it only has meaning for built-in Windows APIs.
 
-The `contract` attribute specifies the name and version of the Windows 10 API contract (see [Programming with extension SDKs](../extension-sdks/device-families-overview.md)) in which the attributed type and/or member was first introduced into Windows (hence it is not meaningful for APIs not delivered as part of Windows). The attribute takes the form `[contract(ContractName, ContractVersion)]`, and it appears before the item to which it applies.
+The `contract` attribute is used to version APIs; for example when creating a
+Software Development Kit where strong contracts are needed. It indicates the API contract
+name and two decimal values; `[contract(ContractName, LeftNumber.RightNumber)]`
+with `RightNumber` being optional. 
+
+It appears before the item to which it applies and can apply to several artifacts
+by using braces (`{}`) to group those parts of the API.
+
+Designs that don't need versioning should not use this attribute, or should keep the
+numeric value at `1`. Different designs use the decimal values in different ways.
+For example the Windows SDK only uses the left number to indicate new, compatible functionality has been
+added; The Windows SDK does not allow breaking changes, see [Programming with extension SDKs](../extension-sdks/device-families-overview.md) for details. In other designs, versioning systems 
+like [SEMVER 2.0](https://semver.org/) are used, where breaking changes are represented
+by different MAJOR version values, represented by `LeftNumber` and MINOR represented by `RightNumber`.
+
+The `[contractversion]` defines contract names (`ContractName`) and the maximum numeric value that can be used  with the `[contract]` attribute.  
 
 ## The `[default]` attribute
 If you don't specify a default interface, then the MIDL 3.0 compiler chooses the first instance interface. To override this selection, insert The `default` attribute before the interface that you want to be the default interface.
