@@ -87,7 +87,7 @@ The *File* path format is a path relative to one of the following constants that
 So, for example the following value for *File* creates a shortcut with the path `C:\Users\<username>\Desktop\Shortcut.lnk`.
 
 ```xml
-File="[{Desktop}]\Shortcut.lnk"
+File="${Desktop}\Shortcut.lnk"
 ```
 
 ## Requirements
