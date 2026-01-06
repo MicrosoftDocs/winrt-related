@@ -81,13 +81,13 @@ The *File* path format is a path relative to one of the following constants that
 | Constant | Directory |
 |----------|-----------|
 | Common Programs | C:\ProgramData\Microsoft\Windows\Start Menu\Programs |
-| Programs | C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs |
-| Desktop | C:\Users\<username>\Desktop |
+| Programs | C:\Users\\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs |
+| Desktop | C:\Users\\<username>\Desktop |
 
-So, for example the following value for *File* creates a shortcut with the path `C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Subfolder\Shortcut.exe.lnk`.
+So, for example the following value for *File* creates a shortcut with the path `C:\Users\<username>\Desktop\Shortcut.lnk`.
 
 ```xml
-File="$$(Programs)\Subfolder\Shortcut.exe.lnk"
+File="$(Desktop)\Shortcut.lnk"
 ```
 
 ## Requirements
