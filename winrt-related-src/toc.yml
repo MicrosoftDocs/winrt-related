@@ -480,34 +480,6 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop-startuptasks.md
           - name: "desktop:ToastNotificationActivation"
             href: schemas/appxpackage/uapmanifestschema/element-desktop-toastnotificationactivation.md
-          - name: desktop10:CustomDesktopEventLog
-            href: schemas/appxpackage/uapmanifestschema/element-desktop10-customdesktopeventlog.md
-          - name: desktop10:CustomEventSource
-            href: schemas/appxpackage/uapmanifestschema/element-desktop10-customeventsource.md
-          - name: desktop10:DataShortcut
-            href: schemas/appxpackage/uapmanifestschema/element-desktop10-datashortcut.md
-          - name: desktop10:DataShortcuts
-            href: schemas/appxpackage/uapmanifestschema/element-desktop10-datashortcuts.md
-          - name: desktop10:EventMessageFiles
-            href: schemas/appxpackage/uapmanifestschema/element-desktop10-eventmessagefiles.md
-          - name: desktop10:Extension (in Package/Extensions)
-            href: schemas/appxpackage/uapmanifestschema/element-desktop10-extension.md
-          - name: desktop10:File
-            href: schemas/appxpackage/uapmanifestschema/element-desktop10-file.md
-          - name: desktop10:Folder
-            href: schemas/appxpackage/uapmanifestschema/element-desktop10-folder.md
-          - name: desktop10:IconHandler
-            href: schemas/appxpackage/uapmanifestschema/element-desktop10-iconhandler.md
-          - name: desktop10:PredefinedTriggerEvents
-            href: schemas/appxpackage/uapmanifestschema/element-desktop10-predefinedtriggerevents.md
-          - name: desktop10:SupportedProtocol
-            href: schemas/appxpackage/uapmanifestschema/element-desktop10-supportedprotocol.md
-          - name: desktop10:SupportedProtocols
-            href: schemas/appxpackage/uapmanifestschema/element-desktop10-supportedprotocols.md
-          - name: desktop10:TypesSupported
-            href: schemas/appxpackage/uapmanifestschema/element-desktop10-typessupported.md
-          - name: desktop10:TypeSupported
-            href: schemas/appxpackage/uapmanifestschema/element-desktop10-typesupported.md
           - name: "desktop2:AppPrinter"
             href: schemas/appxpackage/uapmanifestschema/element-desktop2-appprinter.md
           - name: "desktop2:DesktopEventLogging"
@@ -708,6 +680,34 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop9-fileexplorerclassiccontextmenuhandler.md
           - name: "desktop9:FileExplorerClassicDragDropContextMenuHandler"
             href: schemas/appxpackage/uapmanifestschema/element-desktop9-fileexplorerclassicdragdropcontextmenuhandler.md
+          - name: desktop10:CustomDesktopEventLog
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-customdesktopeventlog.md
+          - name: desktop10:CustomEventSource
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-customeventsource.md
+          - name: desktop10:DataShortcut
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-datashortcut.md
+          - name: desktop10:DataShortcuts
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-datashortcuts.md
+          - name: desktop10:EventMessageFiles
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-eventmessagefiles.md
+          - name: desktop10:Extension (in Package/Extensions)
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-extension.md
+          - name: desktop10:File
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-file.md
+          - name: desktop10:Folder
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-folder.md
+          - name: desktop10:IconHandler
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-iconhandler.md
+          - name: desktop10:PredefinedTriggerEvents
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-predefinedtriggerevents.md
+          - name: desktop10:SupportedProtocol
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-supportedprotocol.md
+          - name: desktop10:SupportedProtocols
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-supportedprotocols.md
+          - name: desktop10:TypesSupported
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-typessupported.md
+          - name: desktop10:TypeSupported
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-typesupported.md
           - name: "Device"
             href: schemas/appxpackage/uapmanifestschema/element-device.md
           - name: "DeviceCapability"
@@ -950,64 +950,6 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap-voipdialphonenumber.md
           - name: "uap:WebAccountProvider"
             href: schemas/appxpackage/uapmanifestschema/element-uap-webaccountprovider.md
-          - name: "uap10:AllowExternalContent"
-            href: schemas/appxpackage/uapmanifestschema/element-uap10-allowexternalcontent.md
-          - name: "uap10:Content"
-            href: schemas/appxpackage/uapmanifestschema/element-uap10-content.md
-          - name: "uap10:DisplayName"
-            href: schemas/appxpackage/uapmanifestschema/element-uap10-displayname.md
-          - name: "uap10:Extension (child of Application)"
-            href: schemas/appxpackage/uapmanifestschema/element-uap10-extension.md
-          - name: "uap10:Extension (child of Package)"
-            href: schemas/appxpackage/uapmanifestschema/element-uap10-package-extension.md
-          - name: "uap10:HostRuntime"
-            href: schemas/appxpackage/uapmanifestschema/element-uap10-hostruntime.md
-          - name: "uap10:HostRuntimeDependency"
-            href: schemas/appxpackage/uapmanifestschema/element-uap10-hostruntimedependency.md
-          - name: "uap10:InstalledLocationVirtualization"
-            href: schemas/appxpackage/uapmanifestschema/element-uap10-installedlocationvirtualization.md
-          - name: "uap10:Logo"
-            href: schemas/appxpackage/uapmanifestschema/element-uap10-logo.md
-          - name: "uap10:MediaContentDecryptionModule"
-            href: schemas/appxpackage/uapmanifestschema/element-uap10-mediacontentdecryptionmodule.md
-          - name: "uap10:PackageIntegrity"
-            href: schemas/appxpackage/uapmanifestschema/element-uap10-packageintegrity.md
-          - name: "uap10:Protocol"
-            href: schemas/appxpackage/uapmanifestschema/element-uap10-protocol.md
-          - name: "uap10:UpdateActions"
-            href: schemas/appxpackage/uapmanifestschema/element-uap10-UpdateActions.md
-          - name: "uap11:Capability"
-            href: schemas/appxpackage/uapmanifestschema/element-uap11-capability.md
-          - name: "uap12:Extension"
-            href: schemas/appxpackage/uapmanifestschema/element-uap12-extension.md
-          - name: "uap12:Host"
-            href: schemas/appxpackage/uapmanifestschema/element-uap12-host.md
-          - name: "uap13:AppInstaller"
-            href: schemas/appxpackage/uapmanifestschema/element-uap13-appinstaller.md
-          - name: "uap13:AutoUpdate"
-            href: schemas/appxpackage/uapmanifestschema/element-uap13-autoupdate.md
-          - name: "uap13:Extension"
-            href: schemas/appxpackage/uapmanifestschema/element-uap13-extension.md
-          - name: "uap13:HostRuntimeDependency"
-            href: schemas/appxpackage/uapmanifestschema/element-uap13-hostruntimedependency.md
-          - name: "uap15:Capabilities"
-            href: schemas/appxpackage/uapmanifestschema/element-uap15-capabilities.md
-          - name: "uap15:DependencyTarget"
-            href: schemas/appxpackage/uapmanifestschema/element-uap15-dependencytarget.md
-          - name: "uap17:Extension"
-            href: schemas/appxpackage/uapmanifestschema/element-uap17-extension.md
-          - name: "uap17:Name"
-            href: schemas/appxpackage/uapmanifestschema/element-uap17-name.md
-          - name: "uap17:PackageDependency"
-            href: schemas/appxpackage/uapmanifestschema/element-uap17-packagedependency.md
-          - name: "uap17:PackageExtension"
-            href: schemas/appxpackage/uapmanifestschema/element-uap17-packageextension.md
-          - name: "uap17:PackageExtensionHost"
-            href: schemas/appxpackage/uapmanifestschema/element-uap17-packageextensionhost.md
-          - name: "uap17:Properties"
-            href: schemas/appxpackage/uapmanifestschema/element-uap17-properties.md
-          - name: "uap17:UpdateWhileInUse"
-            href: schemas/appxpackage/uapmanifestschema/element-uap17-updatewhileinuse.md
           - name: "uap2:Capability"
             href: schemas/appxpackage/uapmanifestschema/element-uap2-capability.md
           - name: "uap2:Extension"
@@ -1180,6 +1122,64 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap8-package-extension.md
           - name: "uap8:PosPaymentConnector"
             href: schemas/appxpackage/uapmanifestschema/element-uap8-posPaymentConnector.md
+          - name: "uap10:AllowExternalContent"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-allowexternalcontent.md
+          - name: "uap10:Content"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-content.md
+          - name: "uap10:DisplayName"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-displayname.md
+          - name: "uap10:Extension (child of Application)"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-extension.md
+          - name: "uap10:Extension (child of Package)"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-package-extension.md
+          - name: "uap10:HostRuntime"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-hostruntime.md
+          - name: "uap10:HostRuntimeDependency"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-hostruntimedependency.md
+          - name: "uap10:InstalledLocationVirtualization"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-installedlocationvirtualization.md
+          - name: "uap10:Logo"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-logo.md
+          - name: "uap10:MediaContentDecryptionModule"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-mediacontentdecryptionmodule.md
+          - name: "uap10:PackageIntegrity"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-packageintegrity.md
+          - name: "uap10:Protocol"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-protocol.md
+          - name: "uap10:UpdateActions"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-UpdateActions.md
+          - name: "uap11:Capability"
+            href: schemas/appxpackage/uapmanifestschema/element-uap11-capability.md
+          - name: "uap12:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-uap12-extension.md
+          - name: "uap12:Host"
+            href: schemas/appxpackage/uapmanifestschema/element-uap12-host.md
+          - name: "uap13:AppInstaller"
+            href: schemas/appxpackage/uapmanifestschema/element-uap13-appinstaller.md
+          - name: "uap13:AutoUpdate"
+            href: schemas/appxpackage/uapmanifestschema/element-uap13-autoupdate.md
+          - name: "uap13:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-uap13-extension.md
+          - name: "uap13:HostRuntimeDependency"
+            href: schemas/appxpackage/uapmanifestschema/element-uap13-hostruntimedependency.md
+          - name: "uap15:Capabilities"
+            href: schemas/appxpackage/uapmanifestschema/element-uap15-capabilities.md
+          - name: "uap15:DependencyTarget"
+            href: schemas/appxpackage/uapmanifestschema/element-uap15-dependencytarget.md
+          - name: "uap17:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-uap17-extension.md
+          - name: "uap17:Name"
+            href: schemas/appxpackage/uapmanifestschema/element-uap17-name.md
+          - name: "uap17:PackageDependency"
+            href: schemas/appxpackage/uapmanifestschema/element-uap17-packagedependency.md
+          - name: "uap17:PackageExtension"
+            href: schemas/appxpackage/uapmanifestschema/element-uap17-packageextension.md
+          - name: "uap17:PackageExtensionHost"
+            href: schemas/appxpackage/uapmanifestschema/element-uap17-packageextensionhost.md
+          - name: "uap17:Properties"
+            href: schemas/appxpackage/uapmanifestschema/element-uap17-properties.md
+          - name: "uap17:UpdateWhileInUse"
+            href: schemas/appxpackage/uapmanifestschema/element-uap17-updatewhileinuse.md
           - name: "virtualization:ExcludedDirectory"
             href: schemas/appxpackage/uapmanifestschema/element-virtualization-excludeddirectory.md
           - name: "virtualization:ExcludedKey"
