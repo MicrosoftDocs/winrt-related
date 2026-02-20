@@ -2694,9 +2694,9 @@ items:
   - name: "Win32 and COM APIs for UWP apps"
     href: win32-and-com/win32-and-com-for-uwp-apps.md
     items: 
-    - name: "APIs present on all Windows┬á10 devices"
+    - name: "APIs present on all Windows 10 devices"
       href: win32-and-com/win32-apis.md
-    - name: "Extension APIs for Windows┬á10 devices"
+    - name: "Extension APIs for Windows 10 devices"
       href: win32-and-com/win32-extension-apis.md
     - name: "Alternatives to Win32 and COM API"
       href: win32-and-com/alternatives-to-windows-apis-uwp.md
