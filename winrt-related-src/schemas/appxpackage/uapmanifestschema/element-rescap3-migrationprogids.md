@@ -1,13 +1,13 @@
 ---
 ms.assetid: 13623913-5515-41e8-929e-e57d8aa38635
-title: rescap3:MigrationProgIds (child of uap:FileTypeAssociation)
+title: rescap3:MigrationProgIds (in uap:FileTypeAssociation)
 description: Contains Migration Prog Ids for protocols and file type associations.
 ms.date: 04/05/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 
-# rescap3:MigrationProgIds (child of uap:FileTypeAssociation)
+# rescap3:MigrationProgIds (in uap:FileTypeAssociation)
 
 Contains [programmatic identifier (ProgID)](/windows/win32/shell/fa-progids) values that describes the application, component, and version of each desktop application from which you want to inherit file associations.
 

@@ -1,13 +1,13 @@
 ---
 ms.assetid: 5872b49b-5572-4198-8765-775c7a5a36fc
-title: rescap3:MigrationProgIds (child of uap:Protocol)
+title: rescap3:MigrationProgIds (in uap:Protocol)
 description: "Learn more about: rescap3:MigrationProgIds"
 ms.date: 04/05/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ---
 
-# rescap3:MigrationProgIds (child of uap:Protocol)
+# rescap3:MigrationProgIds (in uap:Protocol)
 
 Contains Migration Prog Ids for protocols and file type associations.
 

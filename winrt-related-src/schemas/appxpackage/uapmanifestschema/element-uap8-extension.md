@@ -1,12 +1,12 @@
 ---
-title: uap8:Extension
+title: uap8:Extension (in Application)
 description: Declares an extensibility point for the app (uap8:Extension).
 ms.date: 03/10/2022
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, extension
 ---
 
-# uap8:Extension (in Package/Applications)
+# uap8:Extension (in Application)
 
 Declares an extensibility point for the app.
 

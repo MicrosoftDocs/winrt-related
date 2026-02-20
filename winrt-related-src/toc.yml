@@ -156,9 +156,9 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-activatableclass.md
           - name: "ActivatableClass (in OutOfProcessServer)"
             href: schemas/appxpackage/uapmanifestschema/element-1-activatableclass.md
-          - name: "ActivatableClassAttribute (Windows 10, descendant of InProcessServer)"
+          - name: "ActivatableClassAttribute (in InProcessServer)"
             href: schemas/appxpackage/uapmanifestschema/element-activatableclassattribute.md
-          - name: "ActivatableClassAttribute (Windows 10, descendant of OutOfProcessServer)"
+          - name: "ActivatableClassAttribute (in OutOfProcessServer)"
             href: schemas/appxpackage/uapmanifestschema/element-1-activatableclassattribute.md
           - name: "Application"
             href: schemas/appxpackage/uapmanifestschema/element-application.md
@@ -232,13 +232,13 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-com-exeserver.md
           - name: "com:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-com-extension.md
-          - name: "com:Format (in SurrogateServer/Class, child of com:ReadWritable)"
+          - name: "com:Format (in SurrogateServer/Class, in com:ReadWritable)"
             href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-rwformat.md
-          - name: "com:Format (in ExeServer/Class, child of com:ReadWritable)"
+          - name: "com:Format (in ExeServer/Class, in com:ReadWritable)"
             href: schemas/appxpackage/uapmanifestschema/element-com-exe-rwformat.md
-          - name: "com:Format (in ExeServer/Class, child of com:Readable)"
+          - name: "com:Format (in ExeServer/Class, in com:Readable)"
             href: schemas/appxpackage/uapmanifestschema/element-com-exe-rformat.md
-          - name: "com:Format (in SurrogateServer/Class, child of com:Readable)"
+          - name: "com:Format (in SurrogateServer/Class, in com:Readable)"
             href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-rformat.md
           - name: "com:ImplementedCategories (in ExeServer/Class)"
             href: schemas/appxpackage/uapmanifestschema/element-com-exe-ImplementedCategories.md
@@ -622,9 +622,9 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-desktopappmigration.md
           - name: "desktop7:ErrorReporting"
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-errorreporting.md
-          - name: "desktop7:Extension (child of Application)"
+          - name: "desktop7:Extension (in Application)"
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-extension.md
-          - name: "desktop7:Extension (child of Package)"
+          - name: "desktop7:Extension (in Package)"
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-package-extension.md
           - name: "desktop7:InfoTip"
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-infotip.md
@@ -804,13 +804,13 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-rescap3-desktopappmigration.md
           - name: "rescap3:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-rescap3-extension.md
-          - name: "rescap3:MigrationProgId (descendant of uap:Protocol)"
+          - name: "rescap3:MigrationProgId (in uap:Protocol)"
             href: schemas/appxpackage/uapmanifestschema/element-uap-protocol-migrationprogid.md
-          - name: "rescap3:MigrationProgId (descendant of uap:FileTypeAssociation)"
+          - name: "rescap3:MigrationProgId (in uap:FileTypeAssociation)"
             href: schemas/appxpackage/uapmanifestschema/element-rescap3-migrationprogid.md
-          - name: "rescap3:MigrationProgIds (child of uap:Protocol)"
+          - name: "rescap3:MigrationProgIds (in uap:Protocol)"
             href: schemas/appxpackage/uapmanifestschema/element-uap-protocol-migrationprogids.md
-          - name: "rescap3:MigrationProgIds (child of uap:FileTypeAssociation)"
+          - name: "rescap3:MigrationProgIds (in uap:FileTypeAssociation)"
             href: schemas/appxpackage/uapmanifestschema/element-rescap3-migrationprogids.md
           - name: "rescap4:ClassicAppCompatKey"
             href: schemas/appxpackage/uapmanifestschema/element-rescap4-ClassicAppCompatKey.md
@@ -862,9 +862,9 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap-defaulttile.md
           - name: "uap:DialProtocol"
             href: schemas/appxpackage/uapmanifestschema/element-uap-dialprotocol.md
-          - name: "uap:DisplayName (Windows 10, child of uap:FileTypeAssociation)"
+          - name: "uap:DisplayName (in uap:FileTypeAssociation)"
             href: schemas/appxpackage/uapmanifestschema/element-uap-displayname.md
-          - name: "uap:DisplayName (Windows 10, child of uap:Protocol)"
+          - name: "uap:DisplayName (in uap:Protocol)"
             href: schemas/appxpackage/uapmanifestschema/element-1-uap-displayname.md
           - name: "uap:EditFlags"
             href: schemas/appxpackage/uapmanifestschema/element-uap-editflags.md
@@ -896,9 +896,9 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-2-uap-launchaction.md
           - name: "uap:LockScreen"
             href: schemas/appxpackage/uapmanifestschema/element-uap-lockscreen.md
-          - name: "uap:Logo (Windows 10, child of uap:Protocol)"
+          - name: "uap:Logo (in uap:Protocol)"
             href: schemas/appxpackage/uapmanifestschema/element-1-uap-logo.md
-          - name: "uap:Logo (Windows 10, child of uap:FileTypeAssociation)"
+          - name: "uap:Logo (in uap:FileTypeAssociation)"
             href: schemas/appxpackage/uapmanifestschema/element-uap-logo.md
           - name: "uap:ManagedUrls"
             href: schemas/appxpackage/uapmanifestschema/element-uap-managedurls.md
@@ -928,11 +928,11 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-3-uap-supportedfiletypes.md
           - name: "uap:SupportedUsers"
             href: schemas/appxpackage/uapmanifestschema/element-uap-supportedusers.md
-          - name: "uap:SupportsAnyFileType (Windows 10, descendant of uap:FileSavePicker)"
+          - name: "uap:SupportsAnyFileType (in uap:FileSavePicker)"
             href: schemas/appxpackage/uapmanifestschema/element-2-uap-supportsanyfiletype.md
-          - name: "uap:SupportsAnyFileType (Windows 10, descendant of uap:FileOpenPicker)"
+          - name: "uap:SupportsAnyFileType (in uap:FileOpenPicker)"
             href: schemas/appxpackage/uapmanifestschema/element-1-uap-supportsanyfiletype.md
-          - name: "uap:SupportsAnyFileType (Windows 10, descendant of uap:ShareTarget)"
+          - name: "uap:SupportsAnyFileType (in uap:ShareTarget)"
             href: schemas/appxpackage/uapmanifestschema/element-uap-supportsanyfiletype.md
           - name: "uap:Task"
             href: schemas/appxpackage/uapmanifestschema/element-uap-task.md
@@ -1116,9 +1116,9 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap8-dataProtection.md
           - name: "uap8:ExecutionAlias"
             href: schemas/appxpackage/uapmanifestschema/element-uap8-executionalias.md
-          - name: "uap8:Extension (child of Application)"
+          - name: "uap8:Extension (in Application)"
             href: schemas/appxpackage/uapmanifestschema/element-uap8-extension.md
-          - name: "uap8:Extension (child of Package)"
+          - name: "uap8:Extension (in Package)"
             href: schemas/appxpackage/uapmanifestschema/element-uap8-package-extension.md
           - name: "uap8:PosPaymentConnector"
             href: schemas/appxpackage/uapmanifestschema/element-uap8-posPaymentConnector.md
@@ -1128,9 +1128,9 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap10-content.md
           - name: "uap10:DisplayName"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-displayname.md
-          - name: "uap10:Extension (child of Application)"
+          - name: "uap10:Extension (in Application)"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-extension.md
-          - name: "uap10:Extension (child of Package)"
+          - name: "uap10:Extension (in Package)"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-package-extension.md
           - name: "uap10:HostRuntime"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-hostruntime.md
