@@ -16,12 +16,9 @@ Allows packaged apps to request a heap profile that has performance and behavior
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-
-&nbsp;&nbsp;[\<Properties\>](element-properties.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;**\<heap:HeapPolicy\>**
+**[`<Package>`](element-package.md)**  
+**[`<Properties>`](element-properties.md)**  
+&nbsp;&nbsp;&nbsp;└─ **`<heap:HeapPolicy>`**  
 
 ## Syntax
 

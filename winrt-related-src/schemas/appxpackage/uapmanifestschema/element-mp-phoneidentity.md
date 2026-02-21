@@ -14,9 +14,8 @@ If your app is an update to an app previously made available on Windows Phone, e
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;**\<mp:PhoneIdentity\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ **`<mp:PhoneIdentity>`**  
 
 ## Syntax
 

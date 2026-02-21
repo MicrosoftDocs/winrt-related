@@ -12,9 +12,8 @@ Declares the access to protected user resources that a package requires. This el
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;**\<uap15:Capabilities\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ **`<uap15:Capabilities>`**  
 
 ## Syntax
 

@@ -19,11 +19,8 @@ Specifies an external dependency that is not included in the MSIX but will be ch
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Dependencies\>]
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<win32dependencies:ExternalDependency\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<win32dependencies:ExternalDependency>`**  
 
 ## Syntax
 

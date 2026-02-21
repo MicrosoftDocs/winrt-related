@@ -14,10 +14,9 @@ Indicates whether the package is a framework package; that is, a package that ca
 
 ## Element hierarchy
 
-
-[\<Package\>](element-package.md)<br/>
-&nbsp;[\<Properties\>](element-properties.md)<br/>
-&nbsp;&nbsp;**\<Framework\>**
+**[`<Package>`](element-package.md)**  
+**[`<Properties>`](element-properties.md)**  
+**`<Framework>`**  
 
 ## Syntax
 

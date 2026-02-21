@@ -14,9 +14,8 @@ Defines one or more extensibility points for the package.
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;**\<Extensions\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ **`<Extensions>`**  
 
 ## Syntax
 

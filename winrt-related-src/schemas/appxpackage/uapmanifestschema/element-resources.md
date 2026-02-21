@@ -14,9 +14,8 @@ Declares the union of languages, display scales, and DirectX feature levels for 
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;**\<Resources\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ **`<Resources>`**  
 
 ## Syntax
 

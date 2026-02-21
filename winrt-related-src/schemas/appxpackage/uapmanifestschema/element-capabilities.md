@@ -14,9 +14,8 @@ Declares the access to protected user resources that the package requires.
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;**\<Capabilities\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ **`<Capabilities>`**  
 
 ## Syntax
 

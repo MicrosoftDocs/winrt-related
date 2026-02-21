@@ -14,11 +14,9 @@ Declares a device capability required by a package. On Windows 10.0.10240.0, can
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Capabilities\>](element-capabilities.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<DeviceCapability\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Capabilities>`](element-capabilities.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<DeviceCapability>`**  
 
 ## Syntax
 

@@ -17,9 +17,8 @@ Defines additional metadata about the package including attributes that describe
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;**\<Properties\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ **`<Properties>`**  
 
 ## Syntax
 

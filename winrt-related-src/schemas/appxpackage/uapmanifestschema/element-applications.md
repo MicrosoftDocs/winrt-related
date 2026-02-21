@@ -14,9 +14,8 @@ Represents one or more apps that comprise the package.
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;**\<Applications\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ **`<Applications>`**  
 
 ## Syntax
 

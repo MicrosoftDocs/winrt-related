@@ -14,9 +14,8 @@ Declares other packages that a package depends on to complete its software.
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;**\<Dependencies\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ **`<Dependencies>`**  
 
 ## Syntax
 

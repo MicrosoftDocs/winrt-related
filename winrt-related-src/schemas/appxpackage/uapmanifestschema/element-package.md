@@ -14,7 +14,7 @@ Defines the root element of an app package manifest. The manifest describes the 
 
 ## Element hierarchy
 
-**\<Package\>**
+**`<Package>`**  
 
 ## Syntax
 

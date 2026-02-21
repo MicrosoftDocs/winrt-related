@@ -14,9 +14,8 @@ Defines a globally unique identifier for a package. A package identity is repres
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;**\<Identity\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ **`<Identity>`**  
 
 ## Syntax
 
