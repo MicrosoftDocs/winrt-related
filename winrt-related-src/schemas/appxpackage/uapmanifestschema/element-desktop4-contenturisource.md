@@ -3,7 +3,8 @@ title: desktop4:ContentUriSource
 description: Registration of a Windows Shell BannersHandler for cloud based placeholder files (desktop4:ContentUriSource). 
 ms.date: 04/10/2018
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, desktop3:Extension, desktop3:CloudFiles, desktop4:ContentUriSource]
 ---
 
 # desktop4:ContentUriSource

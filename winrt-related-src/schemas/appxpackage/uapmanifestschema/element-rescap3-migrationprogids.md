@@ -4,7 +4,8 @@ title: rescap3:MigrationProgIds (child of uap:FileTypeAssociation)
 description: Contains Migration Prog Ids for protocols and file type associations.
 ms.date: 04/05/2017
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:FileTypeAssociation, rescap3:MigrationProgIds]
 ---
 
 # rescap3:MigrationProgIds (child of uap:FileTypeAssociation)

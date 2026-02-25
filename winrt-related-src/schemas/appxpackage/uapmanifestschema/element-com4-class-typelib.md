@@ -4,6 +4,7 @@ description: Associates a type library with a class or interface. (in com4:Class
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
+no-loc: [com4:TypeLib, com4:TypeLib]
 ---
 
 # com4:TypeLib (in com4:Class and com4:Interface)

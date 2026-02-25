@@ -6,6 +6,7 @@ ms.assetid: 2a8e1c58-b079-4ef1-ae62-c27bb3f5a469
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Properties, Framework]
 ---
 
 # Framework (Windows 10)

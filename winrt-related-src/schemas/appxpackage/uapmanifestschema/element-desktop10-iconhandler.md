@@ -3,7 +3,8 @@ title: desktop10:IconHandler
 description: Enables an IconHandler for a file type association.
 ms.date: 04/05/2017
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:FileTypeAssociation, desktop10:IconHandler]
 ---
 
 # desktop10:IconHandler

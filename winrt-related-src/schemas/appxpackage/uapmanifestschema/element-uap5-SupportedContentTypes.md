@@ -3,7 +3,8 @@ title: uap5:SupportedContentTypes
 description: Contains the media/content types supported by the media source.
 ms.date: 10/10/2017
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, uap5:Extension, uap5:MediaSource, uap5:SupportedContentTypes]
 ---
 
 # uap5:SupportedContentTypes

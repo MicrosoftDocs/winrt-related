@@ -6,6 +6,7 @@ ms.assetid: 337dd035-774d-40fb-8da1-7af11dbb4a35
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Extensions, Extension, InProcessServer, Path, ProxyStub, Path]
 ---
 
 # Path (in InProcessServer) (Windows 10)

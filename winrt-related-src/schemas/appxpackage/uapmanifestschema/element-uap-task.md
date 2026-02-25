@@ -6,6 +6,7 @@ ms.assetid: 2e4fce9f-4db8-48e7-ab0e-03cf08f6342f
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, Extensions, Extension, BackgroundTasks, uap:Task]
 ---
 
 # uap:Task (Windows 10)

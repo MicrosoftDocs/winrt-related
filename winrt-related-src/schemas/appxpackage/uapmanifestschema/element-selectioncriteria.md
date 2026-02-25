@@ -6,6 +6,7 @@ ms.assetid: 5f3d9db3-5b2d-44ec-9607-dcc15f0854b5
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Extensions, Extension, Certificates, SelectionCriteria]
 ---
 
 # SelectionCriteria (Windows 10)

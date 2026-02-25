@@ -3,7 +3,8 @@ title: UAP10:MediaContentDecryptionModule
 description: Defines an extension for a desktop app in an MSIX package that defines decryption information to be used to access media files.
 ms.date: 03/14/2022
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, extension 
+keywords: windows 10, uwp, schema, manifest, extension
+no-loc: [Package, Extensions, uap10:Extension]
 ---
 
 # UAP10:MediaContentDecryptionModule

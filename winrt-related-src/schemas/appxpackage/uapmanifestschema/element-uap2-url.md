@@ -4,6 +4,7 @@ description: Specifies a URL to which a plugin may send cookies. Need only be a 
 keywords: windows 10, uwp, schema, package, manifest
 ms.topic: reference
 ms.date: 03/28/2022
+no-loc: [Package, Applications, Application, Extensions, uap2:Extension, uap2:WebAccountProvider, uap2:ManagedUrls, UAP2:Url]
 ---
 
 # uap2:Url

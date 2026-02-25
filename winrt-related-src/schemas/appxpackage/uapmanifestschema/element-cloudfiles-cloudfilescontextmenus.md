@@ -3,7 +3,8 @@ title: cloudFiles:CloudFilesContextMenus
 description: Registration of a context menu for a cloud based placeholder file. (cloudFiles:CloudFilesContextMenus)
 ms.date: 01/27/2023
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, cloudFiles:Extension, cloudFiles:CloudFiles, cloudFiles:CloudFilesContextMenu]
 ---
 
 # cloudFiles:CloudFilesContextMenus

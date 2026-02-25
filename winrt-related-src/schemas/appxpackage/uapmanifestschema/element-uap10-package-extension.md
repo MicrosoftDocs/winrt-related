@@ -3,7 +3,8 @@ title: uap10:Extension (in Packages/Extension)
 description: Declares an extensibility point for the package (uap10:Extension).
 ms.date: 03/05/2020
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, extension 
+keywords: windows 10, uwp, schema, manifest, extension
+no-loc: [Package, Extensions]
 ---
 
 # uap10:Extension (in Packages/Extension)

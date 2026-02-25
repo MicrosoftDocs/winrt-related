@@ -6,6 +6,7 @@ ms.assetid: 05c2d6ae-0368-4258-ad1e-bafe76b6f455
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:ShareTarget, uap:SupportedFileTypes, uap:FileType, uap:FileOpenPicker, uap:SupportedFileTypes, uap:FileType, uap:FileSavePicker, uap:SupportedFileTypes, uap:FileType]
 ---
 
 # uap:FileType (in uap:FileSavePicker/uap:SupportedFileTypes)

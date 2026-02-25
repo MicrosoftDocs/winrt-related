@@ -6,6 +6,7 @@ ms.assetid: f98fc3ac-5d51-4dfb-b7a0-1985b4e568af
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, uap3:VisualElements]
 ---
 
 # uap3:VisualElements (Windows 10)

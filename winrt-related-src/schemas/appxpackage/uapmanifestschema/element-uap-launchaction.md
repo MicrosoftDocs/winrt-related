@@ -6,6 +6,7 @@ ms.assetid: 5d2c732f-08dd-4e7e-93b1-6bb122e2179f
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:AutoPlayContent, uap:LaunchAction]
 ---
 
 # uap:LaunchAction (in uap:AutoPlayContent) (Windows 10)

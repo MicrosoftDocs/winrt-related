@@ -4,6 +4,7 @@ description: Defines a folder to hold shortcuts, with localizable details.
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 ms.date: 05/23/2022
 ms.topic: reference
+no-loc: [Package, Extensions, desktop10:Extension, desktop10:Folder]
 ---
 
 # desktop10:Folder

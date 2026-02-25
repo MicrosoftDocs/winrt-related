@@ -5,6 +5,7 @@ keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/19/2019
 ms.custom: 19H1
+no-loc: [Package, Properties, rescap6:ModificationPackage]
 ---
 
 # rescap6:ModificationPackage

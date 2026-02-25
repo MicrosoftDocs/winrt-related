@@ -3,7 +3,8 @@ title: rescap:SearchTerms
 description: Registers one or more search terms for a settings app.
 ms.date: 03/14/2022
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, extension 
+keywords: windows 10, uwp, schema, manifest, extension
+no-loc: [Package, Applications, Application, Extensions, rescap:Extension, rescap:SearchTerms]
 ---
 
 # rescap:SearchTerms

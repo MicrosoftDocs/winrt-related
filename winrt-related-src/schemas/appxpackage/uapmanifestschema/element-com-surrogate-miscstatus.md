@@ -5,6 +5,7 @@ description: Specifies how to create and display an object (in SurrogateServer/C
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:SurrogateServer, com:Class, com:MiscStatus]
 ---
 
 # com:MiscStatus (in SurrogateServer/Class)

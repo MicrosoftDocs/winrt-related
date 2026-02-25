@@ -5,6 +5,7 @@ description: Identifies the module name and resource ID for a 16 x 16 bitmap to 
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:ExeServer, com:Class, com:ToolboxBitmap32]
 ---
 
 # com:ToolboxBitmap32 (in ExeServer/Class)

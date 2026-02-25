@@ -5,6 +5,7 @@ description: Specifies categories implemented by the class (in ExeServer/Class).
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:ExeServer, com:Class, com:ImplementedCategories]
 ---
 
 # com:ImplementedCategories (in ExeServer/Class)

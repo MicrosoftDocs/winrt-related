@@ -4,7 +4,8 @@ title: desktop2:TypesSupported
 description: Contains the event log types that are supported.
 ms.date: 04/05/2017
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Extensions, desktop2:Extension, desktop2:DesktopEventLogging, desktop2:TypesSupported]
 ---
 
 # desktop2:TypesSupported

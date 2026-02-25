@@ -6,6 +6,7 @@ ms.assetid: 7f0800a1-f1dd-48c2-aba0-3701dd27d383
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/10/2018
+no-loc: [Package, Dependencies, PackageDependency]
 ---
 
 # PackageDependency (Windows 10)

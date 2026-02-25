@@ -4,6 +4,7 @@ description: A registration that corresponds to a CLSID registration with the Tr
 ms.date: 04/04/2020
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com2:Extension, com2:ComServer, com3:TreatAsClass]
 ---
 
 # com3:TreatAsClass

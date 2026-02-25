@@ -4,7 +4,8 @@ title: desktop2:OleClass
 description: Enables OLE to get the OLE class registered for a given file extension.
 ms.date: 04/05/2017
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:FileTypeAssociation, desktop2:OleClass]
 ---
 
 # desktop2:OleClass

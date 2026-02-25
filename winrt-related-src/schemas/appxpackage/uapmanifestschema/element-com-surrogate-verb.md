@@ -5,6 +5,7 @@ description: The verb to be registered for an application.
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:SurrogateServer, com:Class, com:Verbs, com:Verb]
 ---
 
 # com:Verb

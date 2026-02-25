@@ -4,6 +4,7 @@ description: Declares an extensibility point for the app (uap12:Extension).
 keywords: windows 10, uwp, schema, manifest, extension
 ms.date: 05/03/2022
 ms.topic: reference
+no-loc: [Package, Applications, Application, Extensions]
 ---
 
 # uap12:Extension

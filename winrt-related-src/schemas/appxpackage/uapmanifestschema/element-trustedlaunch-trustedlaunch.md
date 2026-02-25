@@ -4,6 +4,7 @@ title: trustedLaunch:TrustedLaunch
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 02/06/2020
+no-loc: [Package, Properties, trustedlaunch:TrustedLaunch]
 ---
 
 # trustedLaunch:TrustedLaunch

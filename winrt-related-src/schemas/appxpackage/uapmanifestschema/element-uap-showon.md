@@ -6,6 +6,7 @@ ms.assetid: ef9ad3df-5179-4dee-bf54-4f5de545b1ed
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, uap:VisualElements, uap:DefaultTitle, uap:ShowNameOnTiles, uap:ShowOn]
 ---
 
 # uap:ShowOn (Windows 10)

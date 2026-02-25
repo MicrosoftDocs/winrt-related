@@ -4,6 +4,7 @@ description: Allows one or more channels to be specified for event tracing.
 keywords: windows 10, uwp, schema, manifest, desktop
 ms.date: 04/27/2022
 ms.topic: reference
+no-loc: [Package, Extensions, desktop8:Extension, desktop8:EventTracing, desktop8:Provider, desktop8:Channels]
 ---
 
 # desktop8:Channels

@@ -5,6 +5,7 @@ description: Registers new COM Interfaces (descendant of com:Extension).
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComInterface, com:Interface, Extensions, com:Extension, com:ComInterface, com:Interface]
 ---
 
 # com:Interface (descendant of com:Extension)

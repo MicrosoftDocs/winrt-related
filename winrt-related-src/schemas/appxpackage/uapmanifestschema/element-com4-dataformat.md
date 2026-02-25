@@ -4,6 +4,7 @@ description: The data format supported by an application. (com4:DataFormat)
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com4:Class, com4:DataFormats, com4:DataFormat, Extensions, com4:Class, com4:DataFormats, com4:DataFormat]
 ---
 
 # com4:DataFormat

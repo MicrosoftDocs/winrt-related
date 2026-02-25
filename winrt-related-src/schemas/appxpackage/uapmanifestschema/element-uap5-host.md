@@ -3,7 +3,8 @@ title: uap5:Host
 description: Represents a valid HTTP or HTTPS host name with a wildcard that the app wants to register as able to handle.
 ms.date: 10/10/2017
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, uap3:Extension, uap3:AppUriHandler, uap5:Host]
 ---
 
 # uap5:Host

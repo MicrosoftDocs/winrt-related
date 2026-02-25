@@ -5,6 +5,7 @@ keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 
 ms.custom: 04/18/2022
+no-loc: [Package, Properties, virtualization:FileSystemWriteVirtualization, virtualization:ExcludedKeys]
 ---
 
 # virtualization:ExcludedKeys

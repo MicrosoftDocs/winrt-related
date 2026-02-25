@@ -4,6 +4,7 @@ description: Enables your desktop application to specify a folder where you can 
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 ms.date: 05/01/2023
 ms.topic: reference
+no-loc: [Package, Extensions, desktop8:Extension, desktop8:MutablePackageDirectories, desktop8:MutablePackageDirectory]
 ---
 
 # desktop8:MutablePackageDirectory

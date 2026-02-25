@@ -3,7 +3,8 @@ title: uap10:UpdateActions
 description: Specifies what happens to files in the app's installation directory that are modified, added, or deleted by the app when it's updated to a new version.
 ms.date: 07/07/2020
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Extensions, uap10:InstalledLocationVirtualization, uap10:UpdateActions]
 ---
 
 # uap10:UpdateActions

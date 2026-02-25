@@ -6,6 +6,7 @@ ms.assetid: f3fe9184-f270-4050-b444-ec37a596b993
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Extensions, Extension, OutOfProcessServer, Path]
 ---
 
 # Path (in OutOfProcessServer) (Windows 10)

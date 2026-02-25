@@ -5,6 +5,7 @@ description: Specifies categories implemented by the class (in SurrogateServer/C
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:SurrogateServer, com:Class, com:ImplementedCategories]
 ---
 
 # com:ImplementedCategories (in SurrogateServer/Class)

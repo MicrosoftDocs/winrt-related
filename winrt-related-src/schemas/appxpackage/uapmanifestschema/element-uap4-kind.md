@@ -4,7 +4,8 @@ title: uap4:Kind
 description: Specifies the Kind value.
 ms.date: 04/05/2017
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, uap4:Extension, uap:FileTypeAssociation, uap4:KindMap, uap4:Kind]
 ---
 
 # uap4:Kind

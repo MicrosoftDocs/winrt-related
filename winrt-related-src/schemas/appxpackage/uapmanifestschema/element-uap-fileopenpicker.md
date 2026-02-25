@@ -6,6 +6,7 @@ ms.assetid: bb3c01d7-e83a-475f-bd5b-d338098b1f29
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:FileOpenPicker]
 ---
 
 # uap:FileOpenPicker (Windows 10)

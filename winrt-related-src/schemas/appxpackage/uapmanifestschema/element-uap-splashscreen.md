@@ -6,6 +6,7 @@ ms.assetid: 1a55627f-7014-4c8c-8ec8-957ac99457db
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, uap:VisualElements, uap:SplashScreen]
 ---
 
 # uap:SplashScreen (Windows 10)

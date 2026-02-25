@@ -3,7 +3,8 @@ title: uap7:SharedFonts
 description: Contains the locations of shared fonts to be used with the app. This version of the extension is in the uap7 namespace.
 ms.date: 09/11/2020
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Extensions, uap7:Extension, uap7:SharedFonts]
 ---
 
 # uap7:SharedFonts

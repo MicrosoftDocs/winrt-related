@@ -6,6 +6,7 @@ ms.assetid: 0f9f4bee-3a63-4383-86db-a555ca4ccad6
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, Extensions, mobile:Extension]
 ---
 
 # mobile:Extension (Windows 10)

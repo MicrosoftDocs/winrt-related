@@ -3,7 +3,8 @@ title: rescap:Link
 description: Registers a deep link from the settings page to the settings app.
 ms.date: 03/14/2022
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, extension 
+keywords: windows 10, uwp, schema, manifest, extension
+no-loc: [Package, Applications, Application, Extensions, rescap:Extension, rescap:Link]
 ---
 
 # rescap:Link

@@ -4,6 +4,7 @@ description: Specifies the path and processor architecture of a ProxyStub DLL. (
 ms.date: 10/10/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComInterface, com:ProxyStub, com:ProxyStubDll, Extensions, Extension, ComInterface, com:Extension, com:ComInterface, com:ProxyStub, com2:ProxyStubDll]
 ---
 
 # com:ProxyStubDll

@@ -5,6 +5,7 @@ description: A type library for an interface (in Interface).
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComInterface, com:Interface, com:TypeLib, Extensions, com:Extension, com:ComInterface, com:Interface, com:TypeLib]
 ---
 
 # com:TypeLib (in Interface)

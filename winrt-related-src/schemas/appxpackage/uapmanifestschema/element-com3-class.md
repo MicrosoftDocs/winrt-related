@@ -4,6 +4,7 @@ description: Defines a ServiceServer class registration.
 ms.date: 04/04/2020
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com2:Extension, com3:Class]
 ---
 
 # com3:Class (in ServiceServer)

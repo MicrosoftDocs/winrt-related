@@ -3,7 +3,8 @@ title: uap5:ActivatableClass
 description: Declares a runtime class associated with the extensibility point (uap5:ActivatableClass).
 ms.date: 10/10/2017
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, uap5:Extension, uap5:OutOfProcessServer, uap5:ActivatableClass]
 ---
 
 # uap5:ActivatableClass

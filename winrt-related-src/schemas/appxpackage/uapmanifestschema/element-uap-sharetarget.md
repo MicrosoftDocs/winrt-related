@@ -6,6 +6,7 @@ ms.assetid: 92622f42-dfef-4fd2-a42d-73d4ac47357c
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:ShareTarget]
 ---
 
 # uap:ShareTarget (Windows 10)

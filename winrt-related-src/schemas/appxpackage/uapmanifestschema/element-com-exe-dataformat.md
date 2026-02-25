@@ -5,6 +5,7 @@ description: The data format supported by an application (in ExeServer/Class).
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:ExeServer, com:Class, com:DataFormats, DataFormat]
 ---
 
 # com:DataFormat (in ExeServer/Class)

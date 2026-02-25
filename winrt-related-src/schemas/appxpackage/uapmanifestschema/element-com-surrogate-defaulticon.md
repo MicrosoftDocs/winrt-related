@@ -5,6 +5,7 @@ description: Provides default icon information for iconic presentations of objec
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:SurrogateServer, com:Class, com:DefaultIcon]
 ---
 
 # com:DefaultIcon (in SurrogateServer/Class)

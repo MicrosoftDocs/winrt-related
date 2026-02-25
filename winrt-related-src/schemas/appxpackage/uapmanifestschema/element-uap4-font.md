@@ -4,7 +4,8 @@ title: uap4:Font
 description: Specifies the font file packaged with the app. 
 ms.date: 04/05/2017
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, uap4:Extension, uap4:SharedFonts, uap4:Font]
 ---
 
 # uap4:Font

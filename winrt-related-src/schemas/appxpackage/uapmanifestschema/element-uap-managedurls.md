@@ -6,6 +6,7 @@ ms.assetid: 9b4709ea-cce3-472c-a799-96039241fd0b
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:WebAccountProvider, uap:ManagedUrls]
 ---
 
 # uap:ManagedUrls (Windows 10)

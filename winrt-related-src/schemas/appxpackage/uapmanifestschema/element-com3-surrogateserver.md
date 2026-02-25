@@ -4,6 +4,7 @@ description: Registers a SurrogateServer with one or many class registrations (c
 ms.date: 04/20/2020
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com2:Extension, com2:ComServer, com3:SurrogateServer]
 ---
 
 # com3:SurrogateServer

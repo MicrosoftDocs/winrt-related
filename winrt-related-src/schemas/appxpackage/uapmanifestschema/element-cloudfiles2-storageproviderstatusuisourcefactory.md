@@ -3,7 +3,8 @@ title: cloudFiles2:StorageProviderStatusUISourceFactory
 description: Registration of a Windows Shell StorageProviderStatusUI for cloud-based placeholder files. (cloudFiles2:StorageProviderStatusUISourceFactory)
 ms.date: 01/30/2023
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, cloudFiles:Extension, cloudFiles:CloudFiles, cloudFiles2:StorageProviderStatusUISourceFactory]
 ---
 
 # cloudFiles2:StorageProviderStatusUISourceFactory

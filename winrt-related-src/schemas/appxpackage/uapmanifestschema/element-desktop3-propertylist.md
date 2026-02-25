@@ -3,7 +3,8 @@ title: desktop3:PropertyList
 description: Contains the properties that are under the Properties tab of a file.
 ms.date: 10/10/2017
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:FileTypeAssociation, desktop3:PropertyLists, desktop3:PropertyList]
 ---
 
 # desktop3:PropertyList

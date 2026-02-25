@@ -5,6 +5,7 @@ description: Specifies the file format an application can read and write (activa
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:ExeServer, com:Class, com:Conversion, com:Readwritable, com:Format]
 ---
 
 # com:Format (in ExeServer/Class)

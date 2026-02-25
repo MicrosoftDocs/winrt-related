@@ -4,6 +4,7 @@ description: A programmatic identifier (ProgID) that can be associated with a CL
 ms.date: 04/04/2020
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com2:Extension, com2:ComServer, com3:ProgId]
 ---
 
 # com3:ProgId

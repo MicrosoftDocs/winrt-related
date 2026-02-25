@@ -4,6 +4,7 @@ description: Registers a managed in-process server with one or more classes. (in
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com4:ManagedInProcessServer, com4:Class, Extensions, com4:ManagedInProcessServer, com4:Class]
 ---
 
 # com4:Class (in ManagedInProcessServer)

@@ -4,6 +4,7 @@ description: Specifies the file format an application can read from or write to.
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com4:Class, com4:Conversion, com4:Readable, com4:Format, com4:Readwritable, com4:Format, Extensions, com4:Class, com4:Conversion, com4:Readable, com4:Format, com4:Readwritable, com4:Format]
 ---
 
 # com4:Format

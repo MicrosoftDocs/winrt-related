@@ -4,6 +4,7 @@ title: uap6:LoaderSearchPathOverride
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/10/2018
+no-loc: [Package, Extensions, Extension, uap6:LoaderSearchPathOverride]
 ---
 
 # uap6:LoaderSearchPathOverride

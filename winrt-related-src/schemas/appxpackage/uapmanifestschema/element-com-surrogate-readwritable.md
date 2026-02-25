@@ -5,6 +5,7 @@ description: Specifies that an application can read and write files (in Surrogat
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:SurrogateServer, com:Class, com:Conversion, com:Readwritable]
 ---
 
 # com:ReadWritable (in SurrogateServer/Class)

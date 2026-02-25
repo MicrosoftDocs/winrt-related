@@ -3,7 +3,8 @@ title: uap5:Arguments
 description: Specifies the list of comma-separated arguments to pass to the executable (uap5:Arguments).
 ms.date: 10/10/2017
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, uap5:Extension, uap5:OutOfProcessServer, uap5:Arguments]
 ---
 
 # uap5:Arguments

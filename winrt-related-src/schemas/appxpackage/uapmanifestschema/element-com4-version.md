@@ -4,6 +4,7 @@ description:  Version number and additional information about the type library. 
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com4:TypeLib, com4:Version, Extensions, com4:TypeLib, com4:Version]
 ---
 
 # com4:Version

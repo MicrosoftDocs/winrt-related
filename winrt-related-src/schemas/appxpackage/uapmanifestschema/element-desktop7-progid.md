@@ -5,6 +5,7 @@ title: desktop7:ProgId
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 03/16/2023
+no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:FileTypeAssociation, desktop7:ProgId, uap:FileTypeAssociation, desktop7:ProgId]
 ---
 
 # desktop7:ProgId

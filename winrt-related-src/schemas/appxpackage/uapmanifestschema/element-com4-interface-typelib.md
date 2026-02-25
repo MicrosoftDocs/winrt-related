@@ -4,6 +4,7 @@ description: A type library for an interface. (in com4:Interface)
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com4:Interface, com4:TypeLib, Extensions, com4:Interface, com4:TypeLib]
 ---
 
 # com4:TypeLib (in Interface)

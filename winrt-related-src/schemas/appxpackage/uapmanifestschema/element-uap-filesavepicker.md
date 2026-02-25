@@ -6,6 +6,7 @@ ms.assetid: 9b6f7fef-57c0-46ba-9b17-417e907d4084
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:FileSavePicker]
 ---
 
 # uap:FileSavePicker (Windows 10)

@@ -6,6 +6,7 @@ ms.assetid: c3e6abb0-05ac-4b38-a23e-3e0f7e610b4c
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, uap:VisualElements, uap:InitialRotationPreference, uap:Rotation]
 ---
 
 # uap:Rotation (Windows 10)

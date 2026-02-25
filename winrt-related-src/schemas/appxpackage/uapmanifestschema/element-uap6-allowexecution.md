@@ -4,6 +4,7 @@ title: uap6:AllowExecution
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/07/2018
+no-loc: [Package, Properties, uap6:AllowExecution]
 ---
 
 # uap6:AllowExecution

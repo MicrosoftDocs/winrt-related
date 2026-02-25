@@ -4,6 +4,7 @@ description: Defines an ExeServer class registration. (in com4:ExeServer)
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com4:Class]
 ---
 
 # com4:Class (in com4:ExeServer)

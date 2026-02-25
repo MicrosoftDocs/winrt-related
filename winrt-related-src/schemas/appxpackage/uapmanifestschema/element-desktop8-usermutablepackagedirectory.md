@@ -4,6 +4,7 @@ description: Enables your desktop application to specify a folder where users ca
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 ms.date: 04/27/2022
 ms.topic: reference
+no-loc: [Package, Extensions, desktop8:Extension, desktop8:UserMutablePackageDirectories, deesktop8:UserMutablePackageDirectory]
 ---
 
 # desktop8:UserMutablePackageDirectory

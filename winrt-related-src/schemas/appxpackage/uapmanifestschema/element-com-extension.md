@@ -5,6 +5,7 @@ description: Provides functionality to expose COM registrations to clients outsi
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com:Extension, Extensions, com:Extension]
 ---
 
 # com:Extension (Windows 10)

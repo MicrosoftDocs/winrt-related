@@ -4,7 +4,8 @@ title: desktop2:DesktopPreviewHandler
 description: Enables declaration of a preview handler for a file type association.
 ms.date: 04/05/2017
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:FileTypeAssociation, desktop2:DesktopPreviewHandler]
 ---
 
 # desktop2:DesktopPreviewHandler

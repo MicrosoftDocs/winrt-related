@@ -3,7 +3,8 @@ title: rescap4:Extension
 description: Declares an extensibility point for the app (rescap4:Extension).
 ms.date: 04/10/2018
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, extension 
+keywords: windows 10, uwp, schema, manifest, extension
+no-loc: [Package, Applications, Application, Extensions, rescap4:Extension]
 ---
 
 # rescap4:Extension

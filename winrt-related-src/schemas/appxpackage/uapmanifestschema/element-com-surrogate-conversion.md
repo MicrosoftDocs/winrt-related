@@ -5,6 +5,7 @@ description: Specifies the formats an application can read and write (in Surroga
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:SurrogateServer, com:Class, com:Conversion]
 ---
 
 # com:Conversion (in SurrogateServer/Class)

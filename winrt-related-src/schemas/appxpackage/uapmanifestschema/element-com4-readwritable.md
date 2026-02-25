@@ -4,6 +4,7 @@ description: Specifies that an application can read and write files (com4:ReadWr
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com4:Class, com4:Conversion, com4:ReadWritable, Extensions, com4:Class, com4:Conversion, com4:ReadWritable]
 ---
 
 # com4:ReadWritable

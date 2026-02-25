@@ -3,7 +3,8 @@ title: cloudFiles:Extension (in Package/Applications)
 description: Declares an extensibility point for the app that registers the handlers implemented in an application and context menu options for cloud-based placeholder files.
 ms.date: 01/27/2023
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, cloudFiles:Extension]
 ---
 
 # cloudFiles:Extension (in Package/Applications)

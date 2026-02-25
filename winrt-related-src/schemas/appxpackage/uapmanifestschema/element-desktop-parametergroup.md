@@ -3,7 +3,8 @@ title: desktop:ParameterGroup
 description: Represents a group of command-line parameters for a full-trust process.
 ms.date: 05/10/2021
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, Desktop:Extension, Desktop:FullTrustProcess, desktop:ParameterGroup]
 ---
 
 # desktop:ParameterGroup

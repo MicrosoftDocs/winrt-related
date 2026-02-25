@@ -4,7 +4,8 @@ title: rescap3:DesktopAppMigration
 description: Specifies where to redirect user tiles and pins to a Windows Desktop Bridge app.
 ms.date: 04/05/2017
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, rescap3:Extension, rescap3:DesktopAppMigration]
 ---
 
 # rescap3:DesktopAppMigration

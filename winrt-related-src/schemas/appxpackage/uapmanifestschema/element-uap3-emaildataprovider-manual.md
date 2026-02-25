@@ -6,6 +6,7 @@ ms.assetid: 113e2e55-a05b-4bb7-9091-5d8f92272103
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, Extensions, uap3:Extension, uap3:EmailDataProvider]
 ---
 
 # uap3:EmailDataProvider (Windows 10)

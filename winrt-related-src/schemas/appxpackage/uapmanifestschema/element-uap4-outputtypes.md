@@ -4,7 +4,8 @@ title: uap4:OutputTypes
 description: Contains the media codec output types.
 ms.date: 04/05/2017
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, uap4:Extension, uap4:MediaCodec, uap4:MediaEncodingProperties, uap4:OutputTypes]
 ---
 
 # uap4:OutputTypes

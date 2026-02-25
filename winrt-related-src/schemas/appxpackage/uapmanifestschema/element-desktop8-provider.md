@@ -4,6 +4,7 @@ description: Registers a provider to Event Tracing and enables its functionality
 keywords: windows 10, uwp, schema, manifest, desktop
 ms.date: 04/27/2022
 ms.topic: reference
+no-loc: [Package, Extensions, desktop8:Extension, desktop8:EventTracing, desktop8:Provider]
 ---
 
 # desktop8:Provider

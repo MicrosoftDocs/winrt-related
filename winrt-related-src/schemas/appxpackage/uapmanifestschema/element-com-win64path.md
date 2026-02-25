@@ -5,6 +5,7 @@ description: A path to the 64-bit type library (in ComInterface/TypeLib).
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComInterface, com:TypeLib, com:Version, com:Win64Path, Extensions, com:Extension, com:ComInterface, com:TypeLib, com:Version, com:Win64Path]
 ---
 
 # com:Win64Path (in ComInterface/TypeLib)

@@ -4,7 +4,8 @@ title: uap4:DevicePortalProvider
 description: Defines a Device Portal provider for deployment.
 ms.date: 04/05/2017
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, uap4:Extension, uap4:DevicePortalProvider]
 ---
 
 # uap4:DevicePortalProvider

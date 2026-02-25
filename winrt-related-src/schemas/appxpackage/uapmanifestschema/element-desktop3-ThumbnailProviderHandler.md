@@ -3,7 +3,8 @@ title: desktop3:ThumbnailProviderHandler
 description: Registration of a Windows Shell ThumbnailProviderHandler for cloud based placeholder files. 
 ms.date: 10/10/2017
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, desktop3:Extension, desktop3:CloudFiles, desktop3:ThumbnailProviderHandler]
 ---
 
 # desktop3:ThumbnailProviderHandler

@@ -4,7 +4,8 @@ title: desktop2:SearchFilterHandler
 description: Enables Windows Desktop Bridge apps to register IFilters to extract file properties for searching.
 ms.date: 04/05/2017
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, desktop2:Extension, desktop2:SearchFilterHandler]
 ---
 
 # desktop2:SearchFilterHandler

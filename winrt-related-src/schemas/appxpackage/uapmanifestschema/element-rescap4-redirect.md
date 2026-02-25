@@ -3,7 +3,8 @@ title: rescap4:Redirect
 description: Specifies redirect information for an interop assembly.
 ms.date: 03/14/2022
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, extension 
+keywords: windows 10, uwp, schema, manifest, extension
+no-loc: [Package, Applications, Application, Extensions, rescap4:Extension, rescap4:PrimaryInteropAssemblies, rescap4:Redirect]
 ---
 
 # Rescap4:Redirect

@@ -4,6 +4,7 @@ title: uap7:Properties
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 10/03/2018
+no-loc: [Package, Applications, Application, uap7:Properties]
 ---
 
 # uap7:Properties

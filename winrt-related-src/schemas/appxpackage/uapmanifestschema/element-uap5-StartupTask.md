@@ -3,7 +3,8 @@ title: uap5:StartupTask
 description: Specifies a startup task for your application.
 ms.date: 10/10/2017
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, uap5:Extension, uap5:StartupTask]
 ---
 
 # uap5:StartupTask

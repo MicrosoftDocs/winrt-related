@@ -4,6 +4,7 @@ description: Enables your desktop application to log application-defined events 
 keywords: windows 10, uwp, schema, manifest, desktop
 ms.date: 04/27/2022
 ms.topic: reference
+no-loc: [Package, Extensions, desktop8:Extension, desktop8:EventTracing]
 ---
 
 # desktop8:EventTracing

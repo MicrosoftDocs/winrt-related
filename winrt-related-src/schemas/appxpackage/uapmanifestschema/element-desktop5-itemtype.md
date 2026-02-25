@@ -3,7 +3,8 @@ title: desktop5:ItemType
 description: Contains the type of command to be registered in the context menu (desktop5:ItemType).
 ms.date: 10/03/2018
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, desktop4:Extension, desktop4:FileExplorerContextMenus, desktop5:ItemType]
 ---
 
 # desktop5:ItemType

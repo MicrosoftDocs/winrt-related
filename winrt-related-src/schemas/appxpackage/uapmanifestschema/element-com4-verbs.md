@@ -4,6 +4,7 @@ description: Specifies the verbs to be registered for an application. (com4:Verb
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com4:SurrogateServer, com4:Class, com4:Verbs, Extensions, com4:SurrogateServer, com4:Class, com4:Verbs]
 ---
 
 # com4:Verbs

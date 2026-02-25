@@ -4,6 +4,7 @@ description: Specifies the formats an application can read and write. (com4:Conv
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com4:Class, com4:Conversion, Extensions, com4:Class, com4:Conversion]
 ---
 
 # com4:Conversion

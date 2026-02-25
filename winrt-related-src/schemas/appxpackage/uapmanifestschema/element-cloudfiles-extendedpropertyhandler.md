@@ -3,7 +3,8 @@ title: cloudFiles:ExtendedPropertyHandler
 description: Registration of a Windows Shell ExtendedPropertyHandler for cloud based placeholder files. (cloudFiles:ExtendedPropertyHandler) 
 ms.date: 01/27/2023
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, cloudFiles:Extension, cloudFiles:CloudFiles, cloudFiles:ExtendedPropertyHandler]
 ---
 
 # cloudFiles:ExtendedPropertyHandler

@@ -3,7 +3,8 @@ title: uap6:SpatialBoundingBox
 description: Used to define the center point and the extents for a bounding volume.
 ms.date: 04/10/2018
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, extension 
+keywords: windows 10, uwp, schema, manifest, extension
+no-loc: [Package, Applications, Application, uap:VisualElements, uap:DefaultTile, uap5:MixedRealityModel, uap6:SpatialBoundingBox]
 ---
 
 # uap6:SpatialBoundingBox

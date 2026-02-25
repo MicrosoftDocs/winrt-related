@@ -4,7 +4,8 @@ title: heap:HeapPolicy
 keywords: windows 10, schema, package manifest
 ms.topic: reference
 ms.date: 09/06/2022
-ms.custom: 
+ms.custom:
+no-loc: [Package, Properties, heap:HeapPolicy]
 ---
 
 # heap:HeapPolicy

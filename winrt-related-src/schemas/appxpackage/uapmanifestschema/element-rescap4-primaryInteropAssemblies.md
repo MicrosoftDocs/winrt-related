@@ -3,7 +3,8 @@ title: rescap4:PrimaryInteropAssemblies
 description: Defines package assembly configuration.
 ms.date: 03/17/2022
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, extension 
+keywords: windows 10, uwp, schema, manifest, extension
+no-loc: [Package, Applications, Application, Extensions, rescap4:Extension, rescap4:PrimaryInteropAssemblies]
 ---
 
 # Rescap4:PrimaryInteropAssemblies

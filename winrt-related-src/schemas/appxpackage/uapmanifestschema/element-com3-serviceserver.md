@@ -4,6 +4,7 @@ description: "Learn more about: com3:ServiceServer"
 ms.date: 04/04/2020
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com2:Extension, com2:ComServer, com3:ServiceServer]
 ---
 
 # com3:ServiceServer

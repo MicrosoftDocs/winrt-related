@@ -3,7 +3,8 @@ title: uap6:BarcodeScannerProvider
 description: Used for enabling the support of a barcode scanner.
 ms.date: 04/10/2018
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, uap6:Extension, uap6:BarcodeScannerProvider]
 ---
 
 # uap6:BarcodeScannerProvider

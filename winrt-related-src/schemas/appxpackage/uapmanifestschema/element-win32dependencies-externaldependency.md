@@ -5,6 +5,7 @@ title: win32dependencies:ExternalDependency (Windows 11, Windows 10)
 keywords: windows 11, windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 08/05/2025
+no-loc: [Package, win32dependencies:ExternalDependency]
 ---
 
 # win32dependencies:ExternalDependency (Windows 11, Windows 10)

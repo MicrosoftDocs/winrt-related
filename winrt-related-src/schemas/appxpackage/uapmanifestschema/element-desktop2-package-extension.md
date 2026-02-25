@@ -4,7 +4,8 @@ title: desktop2:Extension (in Package/Extensions)
 description: Declares an extensibility point for the app (in Package/Extensions; desktop2:Extension).
 ms.date: 04/05/2017
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Extensions, desktop2:Extension]
 ---
 
 # desktop2:Extension (in Package/Extensions)

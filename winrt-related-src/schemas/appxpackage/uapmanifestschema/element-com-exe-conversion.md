@@ -5,6 +5,7 @@ description: Specifies the formats an application can read and write (in ExeServ
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:ExeServer, com:Class, com:Conversion]
 ---
 
 # com:Conversion (in ExeServer/Class)

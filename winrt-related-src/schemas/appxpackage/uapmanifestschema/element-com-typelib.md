@@ -5,6 +5,7 @@ description: Registers a type library (in ComInterface).
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComInterface, com:TypeLib, Extensions, com:Extension, com:ComInterface, com:TypeLib]
 ---
 
 # com:TypeLib

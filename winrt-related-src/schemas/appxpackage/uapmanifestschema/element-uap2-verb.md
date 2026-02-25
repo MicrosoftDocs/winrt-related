@@ -4,7 +4,8 @@ title: uap2:Verb
 description: Defines the verbs associated with a file context menu (uap2:Verb).
 ms.date: 04/05/2017
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:FileTypeAssociation, uap2:SupportedVerbs, uap2:Verb]
 ---
 
 # uap2:Verb

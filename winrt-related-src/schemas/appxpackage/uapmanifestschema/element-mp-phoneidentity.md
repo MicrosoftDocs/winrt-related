@@ -6,6 +6,7 @@ ms.assetid: 817d5865-3838-4554-b751-2af09d84c8ad
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, mp:PhoneIdentity]
 ---
 
 # mp:PhoneIdentity (Windows 10)

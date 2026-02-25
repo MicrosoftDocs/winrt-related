@@ -6,6 +6,7 @@ ms.assetid: 65e0cc4e-af42-4852-a9ca-ee09a5fee5f2
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, uap:VisualElements, uap:LockScreen]
 ---
 
 # uap:LockScreen (Windows 10)

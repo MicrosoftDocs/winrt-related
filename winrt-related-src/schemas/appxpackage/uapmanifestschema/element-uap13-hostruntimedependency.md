@@ -4,6 +4,7 @@ description: Declares publisher information for the app.
 keywords: windows 10, uwp, schema, manifest, extension
 ms.date: 05/03/2022
 ms.topic: reference
+no-loc: [Package, Applications, Application, uap13:Extension]
 ---
 
 # uap13:HostRuntimeDependency

@@ -6,6 +6,7 @@ ms.assetid: 017359a9-e1c5-4b47-8598-bc8c49a67e4a
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:AppointmentsProvider]
 ---
 
 # uap:AppointmentsProvider (Windows 10)

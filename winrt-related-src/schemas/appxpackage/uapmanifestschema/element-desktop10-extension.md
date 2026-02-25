@@ -4,6 +4,7 @@ description: Declares an extensibility point for the app (in Package/Extensions;
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 ms.date: 04/27/2022
 ms.topic: reference
+no-loc: [Package, Extensions, desktop10:Extension]
 ---
 
 # desktop10:Extension (in Package/Extensions)

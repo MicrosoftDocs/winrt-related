@@ -3,7 +3,8 @@ title: uap5:ExecutionAlias
 description: The executable of a UWP app to be activated from a command prompt (uap5:ExecutionAlias).
 ms.date: 10/10/2017
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, uap5:Extension, uap5:AppExecutionAlias, uap5:ExecutionAlias]
 ---
 
 # uap5:ExecutionAlias

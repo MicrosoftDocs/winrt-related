@@ -6,6 +6,7 @@ ms.assetid: b412b98e-130a-4152-a264-49a42ef2d97c
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Extensions, Extension, PublisherCacheFolders, Folder]
 ---
 
 # Folder (Windows 10)

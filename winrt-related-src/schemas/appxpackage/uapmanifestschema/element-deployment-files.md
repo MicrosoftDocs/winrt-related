@@ -3,7 +3,8 @@ title: deployment:Files
 description: Contains one or more **File** elements specifying DLL files that provide DEH functionality that ships outside of an OS release.
 ms.date: 09/17/2021
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, deployment:Extension, deployment:DeploymentExtensionHandler, deployment:Files]
 ---
 
 # deployment:Files

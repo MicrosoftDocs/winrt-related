@@ -3,7 +3,8 @@ title: rescap4:ClassicAppCompatKey
 description: Registry keys for discovering classic app installations and launching executables.
 ms.date: 04/10/2018
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, rescap4:Extension, rescap4:ClassicAppCompatKeys, rescap4:ClassicAppCompayKey]
 ---
 
 # rescap4:ClassicAppCompatKey

@@ -4,6 +4,7 @@ description: Registers an ExeServer with one or many class registrations (com3:E
 ms.date: 04/20/2020
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com2:Extension, com2:ComServer, com3:ExeServer]
 ---
 
 # com3:ExeServer

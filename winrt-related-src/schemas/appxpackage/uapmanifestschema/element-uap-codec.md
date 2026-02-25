@@ -6,6 +6,7 @@ ms.assetid: 7b42abe0-154d-4377-ba94-4edda3d0586c
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:MediaPlayback, uap:Codec]
 ---
 
 # uap:Codec (Windows 10)

@@ -6,6 +6,7 @@ ms.assetid: 26533f27-2470-4083-91a0-4e4b03f8479a
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Extensions, Extension, OutOfProcessServer, Instancing]
 ---
 
 # Instancing (Windows 10)

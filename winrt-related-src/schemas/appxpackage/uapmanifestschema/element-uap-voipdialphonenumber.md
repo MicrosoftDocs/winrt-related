@@ -6,6 +6,7 @@ ms.assetid: 89161194-e351-4dee-a5b8-07aa4a429d0b
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:VoipCall, uap:VoipDialPhoneNumber]
 ---
 
 # uap:VoipDialPhoneNumber

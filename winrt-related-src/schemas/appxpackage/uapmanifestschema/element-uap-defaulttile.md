@@ -6,6 +6,7 @@ ms.assetid: 0ee61279-efa8-4bd9-b713-1f5f9ec526f7
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, uap:VisualElements, uap:DefaultTitle]
 ---
 
 # uap:DefaultTile (Windows 10)

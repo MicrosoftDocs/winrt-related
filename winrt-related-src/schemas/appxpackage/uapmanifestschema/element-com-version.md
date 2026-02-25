@@ -5,6 +5,7 @@ description: Version number and additional information about the type library  (
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComInterface, com:TypeLib, com:Version, Extensions, com:Extension, com:ComInterface, com:TypeLib, com:Version]
 ---
 
 # com:Version

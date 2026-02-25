@@ -6,6 +6,7 @@ ms.assetid: 74ca4fd4-1a67-4e1f-b933-89b2ffa2fa17
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Extensions, Extension, OutOfProcessServer, ActivatableClass, ActivatableClassAttribute]
 ---
 
 # ActivatableClassAttribute (Windows 10, descendant of OutOfProcessServer)

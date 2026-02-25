@@ -3,7 +3,8 @@ title: desktop:ToastNotificationActivation
 description: Allows toast notification to be received within the app.
 ms.date: 10/11/2024
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, Desktop:Extension, Desktop:ToastNotificationActivation]
 ---
 
 # desktop:ToastNotificationActivation

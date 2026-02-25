@@ -3,7 +3,8 @@ title: uap8:PosPaymentConnector
 description: Contains device information for Point-of-Sale/Point-of-Service devices.
 ms.date: 03/14/2022
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, uap8:Extension, uap8:PosPaymentConnector]
 ---
 
 # uap8:PosPaymentConnector

@@ -4,7 +4,8 @@ title: uap4:SharedFonts
 description: Contains the locations of custom fonts to be shared with other apps. This version of the extension is in the uap4 namespace.
 ms.date: 09/11/2020
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, uap4:Extension]
 ---
 
 # uap4:SharedFonts

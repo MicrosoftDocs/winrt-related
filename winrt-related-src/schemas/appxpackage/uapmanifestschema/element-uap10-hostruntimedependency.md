@@ -4,6 +4,7 @@ title: uap10:HostRuntimeDependency
 keywords: windows 10, uwp, schema, package manifest, host app, hosted app
 ms.topic: reference
 ms.date: 04/20/2020
+no-loc: [Package, Dependencies, uap10:HostRuntimeDependency]
 ---
 
 # uap10:HostRuntimeDependency

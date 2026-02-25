@@ -3,7 +3,8 @@ title: uap7:Capability
 description: Declares a capability.
 ms.date: 10/03/2018
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Capabilities, uap7:Capability]
 ---
 
 # uap7:Capability

@@ -4,6 +4,7 @@ description: Specifies the Page Description Language (PDL) formats supported by 
 keywords: windows 10, uwp, schema, manifest, extension
 ms.date: 01/09/2023
 ms.topic: reference
+no-loc: [Package, Applications, Application, Extensions, printSupport2:Extension, printSupport2:PrintSupportVirtualPrinter, printSupport2:SupportedFormats]
 ---
 
 # printSupport2:SupportedFormats

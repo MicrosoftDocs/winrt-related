@@ -6,6 +6,7 @@ ms.assetid: 8c9e4e21-4efe-4032-a15c-a513542d844b
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:MediaPlayback]
 ---
 
 # uap:MediaPlayback (Windows 10)

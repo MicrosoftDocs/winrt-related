@@ -6,6 +6,7 @@ ms.assetid: ae619bfa-0087-46ac-90e3-934a7bae85ba
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, uap:ApplicationContentUriRules]
 ---
 
 # uap:ApplicationContentUriRules (Windows 10)

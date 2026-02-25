@@ -6,6 +6,7 @@ ms.assetid: 8ae46d6c-d198-4472-9533-e99999cfe5ca
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, Extensions, uap3:Extension, uap3:ContactDataProvider]
 ---
 
 # uap3:ContactDataProvider

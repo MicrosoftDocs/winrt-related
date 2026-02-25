@@ -6,6 +6,7 @@ ms.assetid: 98a13282-74da-46e9-9790-54c557f8026c
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:FileTypeAssociation, uap:InfoTip]
 ---
 
 # uap:InfoTip (Windows 10)

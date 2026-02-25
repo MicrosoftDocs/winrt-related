@@ -4,6 +4,7 @@ description: Specifies the class with which the registered in-process server is 
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com4:SurrogateServer, com4:ClassReference]
 ---
 
 # com4:ClassReference (in SurrogateServer)

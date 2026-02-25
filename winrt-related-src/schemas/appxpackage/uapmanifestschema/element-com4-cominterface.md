@@ -4,6 +4,7 @@ description: Declares a package extension point of type **windows.comInterface**
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:ComInterface, Extensions, com4:Extension, com4:ComInterface]
 ---
 
 # com4:ComInterface

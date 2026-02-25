@@ -4,6 +4,7 @@ description: Registers an in-process handler with one or many class registration
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com4:InProcessHandler, Extensions, com4:InProcessHandler]
 ---
 
 # com4:InProcessHandler

@@ -4,6 +4,7 @@ description: Specifies that an application can only read files. (com4:Readable)
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com4:Class, com4:Conversion, com4:Readable, Extensions, com4:Class, com4:Conversion, com4:Readable]
 ---
 
 # com4:Readable

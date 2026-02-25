@@ -6,6 +6,7 @@ ms.assetid: d53133f1-6017-4c20-bbff-f2370c5fc39d
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Capabilities, DeviceCapability, Device, Function]
 ---
 
 # Function (Windows 10)

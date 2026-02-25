@@ -4,6 +4,7 @@ title: uap10:AllowExternalContent
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/22/2020
+no-loc: [Package, Properties, uap10:AllowExternalContent]
 ---
 
 # uap10:AllowExternalContent

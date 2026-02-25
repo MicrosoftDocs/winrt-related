@@ -4,6 +4,7 @@ description: Declares domain and subdomain parameters for the uap12 extension.
 keywords: windows 10, uwp, schema, manifest, extension
 ms.date: 05/03/2022
 ms.topic: reference
+no-loc: [Package, Applications, Application, uap12:Extension]
 ---
 
 # uap12:Host

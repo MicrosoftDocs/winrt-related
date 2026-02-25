@@ -6,6 +6,7 @@ ms.assetid: 9e38d699-4a07-46ac-88d4-70109fbaa892
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:WebAccountProvider]
 ---
 
 # uap:WebAccountProvider (Windows 10)

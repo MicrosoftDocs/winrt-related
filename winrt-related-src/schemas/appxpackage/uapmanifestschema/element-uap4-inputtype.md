@@ -4,7 +4,8 @@ title: uap4:InputType
 description: The media codec input type.
 ms.date: 04/10/2018
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, uap4:Extension, uap4:MediaCodec, uap4:MediaEncodingProperties, uap4:InputTypes, uap4:InputType]
 ---
 
 # uap4:InputType

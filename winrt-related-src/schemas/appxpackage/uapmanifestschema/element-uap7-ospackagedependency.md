@@ -4,6 +4,7 @@ title: uap7:OSPackageDependency
 keywords: windows 10, uwp, schema, package manifest, driver dependency
 ms.topic: reference
 ms.date: 10/03/2018
+no-loc: [Package, Dependencies, uap7:OSPackageDependency]
 ---
 
 # uap7:OSPackageDependency

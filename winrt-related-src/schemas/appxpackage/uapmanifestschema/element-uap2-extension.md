@@ -4,6 +4,7 @@ title: uap2:Extension (Windows 10)
 keywords: windows 10, uwp, schema, package, manifest
 ms.topic: reference
 ms.date: 03/28/2022
+no-loc: [Package, Applications, Application, Extensions, uap2:Extension]
 ---
 
 # uap2:Extension (Windows 10)

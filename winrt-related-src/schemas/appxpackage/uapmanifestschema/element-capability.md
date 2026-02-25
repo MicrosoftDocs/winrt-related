@@ -6,6 +6,7 @@ ms.assetid: ee6bf220-f139-4ad9-a7a7-e621c189b907
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Capabilities, Capability]
 ---
 
 # Capability (Windows 10)

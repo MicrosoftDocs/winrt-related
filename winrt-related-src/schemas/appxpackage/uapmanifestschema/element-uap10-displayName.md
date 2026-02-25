@@ -3,7 +3,8 @@ title: uap10:DisplayName
 description: A friendly name that can be displayed to users.
 ms.date: 03/14/2022
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, uap10:Extension, uap10:Protocol]
 ---
 
 # uap10:DisplayName

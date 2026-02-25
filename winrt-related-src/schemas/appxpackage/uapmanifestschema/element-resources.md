@@ -6,6 +6,7 @@ ms.assetid: 45ce3dac-3888-452b-bc10-8775b158637a
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 10/26/2017
+no-loc: [Package, Resources]
 ---
 
 # Resources (package schema for Windows 10)
