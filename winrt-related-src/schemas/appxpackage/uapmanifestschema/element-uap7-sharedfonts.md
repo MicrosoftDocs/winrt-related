@@ -54,7 +54,7 @@ None
 
 ## Remarks
 
-The [uap7:sharedFonts](element-uap7-sharedfonts.md) element defined in **uap7:Extension** is a descendent of [Package](element-package.md) and is associated with the package identity, regardless of how many apps the package contains. This includes packages that contain no applications at all. When the application is installed, the user is not presented with the system font installation UI.
+The **sharedFonts** element defined in **uap7:Extension** is a descendent of [Package](element-package.md) and is associated with the package identity, regardless of how many apps the package contains. This includes packages that contain no applications at all. When the application is installed, the user is not presented with the system font installation UI.
 
 The **sharedFonts** element defined in **uap4:Extension** provides similar functionality, but is a descendent of [Application](element-application.md) and is associated to a specific application's identity. When the application is installed, the user is presented with the system font installation UI.
 
