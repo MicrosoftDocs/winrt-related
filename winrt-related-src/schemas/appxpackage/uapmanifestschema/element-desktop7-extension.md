@@ -1,5 +1,5 @@
 ﻿---
-title: desktop7:Extension (in Package/Applications)
+title: desktop7:Extension (in Application)
 description: Declares an extensibility point for the app (in Package/Applications; desktop7:Extension).
 ms.date: 04/19/2019
 ms.topic: reference
@@ -7,7 +7,7 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 ms.custom: 19H1
 ---
 
-# desktop7:Extension (in Package/Applications)
+# desktop7:Extension (in Application)
 
 Declares an extensibility point for the app.
 
