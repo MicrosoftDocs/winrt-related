@@ -4,6 +4,7 @@ title: uap6:Capability
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/10/2018
+no-loc: [Package, Capabilities, uap6:Capability]
 ---
 
 # uap6:Capability
@@ -12,11 +13,9 @@ Declares a capability required by a package.
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Capabilities\>](element-capabilities.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap6:Capability\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Capabilities>`](element-capabilities.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap6:Capability>`**  
 
 ## Syntax
 

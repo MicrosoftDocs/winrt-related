@@ -6,6 +6,7 @@ ms.assetid: accc712c-c7b9-45e1-ba02-836abacbd9b5
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Properties]
 ---
 
 # Properties (Windows 10)
@@ -17,9 +18,8 @@ Defines additional metadata about the package including attributes that describe
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;**\<Properties\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ **`<Properties>`**  
 
 ## Syntax
 

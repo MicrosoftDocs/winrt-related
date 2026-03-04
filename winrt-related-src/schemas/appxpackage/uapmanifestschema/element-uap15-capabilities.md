@@ -4,6 +4,7 @@ title: uap15:Capabilities
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 09/22/2022
+no-loc: [Package, uap15:Capabilities]
 ---
 
 # uap15:Capabilities
@@ -12,9 +13,8 @@ Declares the access to protected user resources that a package requires. This el
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;**\<uap15:Capabilities\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ **`<uap15:Capabilities>`**  
 
 ## Syntax
 

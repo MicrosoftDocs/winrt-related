@@ -6,6 +6,7 @@ ms.assetid: 8df2d218-e62d-4b2e-8db5-3436c67aa04c
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Properties, PublisherDisplayName]
 ---
 
 # PublisherDisplayName (Windows 10)
@@ -14,11 +15,9 @@ A friendly name for the publisher that can be displayed to users.
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<PublisherDisplayName\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-properties.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<PublisherDisplayName>`**  
 
 ## Syntax
 

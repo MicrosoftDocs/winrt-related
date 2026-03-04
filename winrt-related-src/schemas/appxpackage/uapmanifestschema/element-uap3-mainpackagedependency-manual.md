@@ -6,6 +6,7 @@ ms.assetid: 8de4b12b-0f0d-48d0-b3ff-28aae81fb13c
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Dependencies, uap3:MainPackageDependency]
 ---
 
 # uap3:MainPackageDependency (Windows 10)
@@ -14,11 +15,9 @@ Specifies the main app package to which this supplemental package applies.
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Dependencies\>](element-dependencies.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap3:MainPackageDependency\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Dependencies>`](element-dependencies.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap3:MainPackageDependency>`**  
 
 ## Syntax
 

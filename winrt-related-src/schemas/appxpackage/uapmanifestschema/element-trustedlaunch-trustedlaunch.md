@@ -4,6 +4,7 @@ title: trustedLaunch:TrustedLaunch
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 02/06/2020
+no-loc: [Package, Properties, trustedlaunch:TrustedLaunch]
 ---
 
 # trustedLaunch:TrustedLaunch
@@ -12,11 +13,9 @@ Specifies that Trusted Launch is enabled, which restricts the set of processes t
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<trustedlaunch:TrustedLaunch\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-properties.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<trustedlaunch:TrustedLaunch>`**  
 
 ## Syntax
 

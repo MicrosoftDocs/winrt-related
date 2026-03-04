@@ -5,6 +5,7 @@ keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/19/2019
 ms.custom: 19H1
+no-loc: [Package, Properties, rescap6:ModificationPackage]
 ---
 
 # rescap6:ModificationPackage
@@ -13,11 +14,9 @@ Declares that the current package is a [modification package](/windows/msix/modi
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<rescap6:ModificationPackage\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-properties.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<rescap6:ModificationPackage>`**  
 
 ## Syntax
 

@@ -4,6 +4,7 @@ description: Specifies an App Installer file, which provides an update path that
 keywords: windows 10, uwp, schema, manifest, extension
 ms.date: 05/03/2022
 ms.topic: reference
+no-loc: [Package, Properties, uap13:AutoUpdate, uap13:AppInstaller]
 ---
 
 # uap13:AppInstaller
@@ -12,13 +13,10 @@ Specifies an App Installer file, which provides an update path that a Windows ap
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;[\<uap13:AutoUpdate\>](element-uap13-autoupdate.md)
-
- &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap13:AppInstaller\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-properties.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap13:AutoUpdate>`](element-uap13-autoupdate.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap13:AppInstaller>`**  
 
 ## Syntax
 

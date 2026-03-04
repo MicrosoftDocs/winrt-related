@@ -6,6 +6,7 @@ ms.assetid: 51cabad7-a2eb-4fa3-ab52-59298555aefb
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Properties, ResourcePackage]
 ---
 
 # ResourcePackage (Windows 10)
@@ -14,11 +15,9 @@ Indicates whether the package is a resource package. A resource package can be u
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<ResourcePackage\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-properties.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<ResourcePackage>`**  
 
 ## Syntax
 

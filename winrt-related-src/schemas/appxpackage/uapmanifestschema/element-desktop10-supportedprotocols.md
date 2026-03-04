@@ -4,6 +4,7 @@ description: Specifies the supported URL protocol schemes for the extension.
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 ms.date: 05/23/2022
 ms.topic: reference
+no-loc: [Package, Extensions, desktop10:Extension, desktop10:SupportedProtocols]
 ---
 
 # desktop10:SupportedProtocols
@@ -12,13 +13,10 @@ Specifies the supported URL protocol schemes for the extension.
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop10:Extension\>](element-desktop10-extension.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop10:SupportedProtocols\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop10:Extension>`](element-desktop10-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop10:SupportedProtocols>`**  
 
 ## Syntax
 

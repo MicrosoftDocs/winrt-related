@@ -5,6 +5,7 @@ keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 
 ms.custom: 04/18/2022
+no-loc: [Package, Properties, virtualization:FileSystemWriteVirtualization, virtualization:ExcludedKeys]
 ---
 
 # virtualization:ExcludedKeys
@@ -16,13 +17,10 @@ Specifies the list of keys that are excluded from registry virtualization.
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<virtualization:FileSystemWriteVirtualization\>](element-virtualization-filesystemwritevirtualization.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<virtualization:ExcludedKeys\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-properties.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<virtualization:FileSystemWriteVirtualization>`](element-virtualization-filesystemwritevirtualization.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<virtualization:ExcludedKeys>`**  
 
 ## Syntax
 

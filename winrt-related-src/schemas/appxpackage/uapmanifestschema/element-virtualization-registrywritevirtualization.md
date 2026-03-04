@@ -4,7 +4,8 @@ title: virtualization:RegistryWriteVirtualization
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/18/2022
-ms.custom: 
+ms.custom:
+no-loc: [Package, Properties, virtualization:RegistryWriteVirtualization]
 ---
 
 # virtualization:RegistryWriteVirtualization
@@ -16,11 +17,9 @@ Specifies a list of keys for which registry virtualization is disabled for a pac
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<virtualization:RegistryWriteVirtualization\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-properties.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<virtualization:RegistryWriteVirtualization>`**  
 
 ## Syntax
 

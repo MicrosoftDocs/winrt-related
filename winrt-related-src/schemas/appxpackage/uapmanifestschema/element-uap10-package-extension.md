@@ -1,22 +1,20 @@
 ---
-title: uap10:Extension (in Packages/Extension)
+title: uap10:Extension (in Package)
 description: Declares an extensibility point for the package (uap10:Extension).
 ms.date: 03/05/2020
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, extension 
+keywords: windows 10, uwp, schema, manifest, extension
+no-loc: [Package, Extensions]
 ---
 
-# uap10:Extension (in Packages/Extension)
+# uap10:Extension (in Package)
 
 Declares an extensibility point for the app.
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**<\uap10:Extension\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
 
 ## Syntax
 

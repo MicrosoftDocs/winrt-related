@@ -4,7 +4,8 @@ title: virtualization:ExcludedKey
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/18/2022
-ms.custom: 
+ms.custom:
+no-loc: [Package, Properties, virtualization:ExcludedKey]
 ---
 
 # virtualization:ExcludedKey
@@ -16,11 +17,9 @@ Specifies a key that is excluded from registry key virtualization.
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<virtualization:ExcludedKey\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-properties.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<virtualization:ExcludedKey>`**  
 
 ## Syntax
 

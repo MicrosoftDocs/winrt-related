@@ -6,6 +6,7 @@ ms.assetid: 817d5865-3838-4554-b751-2af09d84c8ad
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, mp:PhoneIdentity]
 ---
 
 # mp:PhoneIdentity (Windows 10)
@@ -14,9 +15,8 @@ If your app is an update to an app previously made available on Windows Phone, e
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;**\<mp:PhoneIdentity\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ **`<mp:PhoneIdentity>`**  
 
 ## Syntax
 

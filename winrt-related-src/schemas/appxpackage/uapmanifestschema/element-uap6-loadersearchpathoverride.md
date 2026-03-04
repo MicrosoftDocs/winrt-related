@@ -4,6 +4,7 @@ title: uap6:LoaderSearchPathOverride
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/10/2018
+no-loc: [Package, Extensions, Extension, uap6:LoaderSearchPathOverride]
 ---
 
 # uap6:LoaderSearchPathOverride
@@ -12,13 +13,10 @@ An extension that allows an app developer to declare a path in the app package, 
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extension\>](element-extension.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap6:LoaderSearchPathOverride\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap6:LoaderSearchPathOverride>`**  
 
 ## Syntax
 

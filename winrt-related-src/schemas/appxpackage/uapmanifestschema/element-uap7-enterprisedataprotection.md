@@ -3,7 +3,8 @@ title: uap7:EnterpriseDataProtection
 description: When declared in an app, this ensures that all files it creates and clipboard/dragged items are encrypted.
 ms.date: 10/03/2018
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Extensions, uap7:Extension, uap7:EnterpriseDataProtection]
 ---
 
 # uap7:EnterpriseDataProtection
@@ -12,13 +13,10 @@ Declares that the app is safe for auto-encryption and allows it to be managed wi
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap7:Extension\>](element-uap7-extension.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap7:EnterpriseDataProtection\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap7:Extension>`](element-uap7-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap7:EnterpriseDataProtection>`**  
 
 ## Syntax
 
