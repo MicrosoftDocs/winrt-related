@@ -4,6 +4,7 @@ description: Defines a custom event log.
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 ms.date: 05/23/2022
 ms.topic: reference
+no-loc: [Package, Extensions, desktop10:Extension, desktop10:CustomDesktopEventLog]
 ---
 
 # desktop10:CustomDesktopEventLog
@@ -12,13 +13,10 @@ Defines a custom event log.
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop10:Extension\>](element-desktop10-extension.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop10:CustomDesktopEventLog\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop10:Extension>`](element-desktop10-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop10:CustomDesktopEventLog>`**  
 
 ## Syntax
 

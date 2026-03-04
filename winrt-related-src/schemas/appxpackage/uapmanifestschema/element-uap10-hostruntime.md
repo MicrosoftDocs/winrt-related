@@ -3,7 +3,8 @@ title: uap10:HostRuntime
 description: This extension provides a means to deliver translated app resources (in Package/Extensions).
 ms.date: 03/05/2020
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Extensions, uap10:Extensions, uap10:HostRuntime]
 ---
 
 # uap10:HostRuntime
@@ -12,13 +13,10 @@ Defines a package-wide extension that defines the runtime information to be used
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap10:Extensions\>](element-uap10-extension.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap10:HostRuntime\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap10:Extensions>`](element-uap10-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap10:HostRuntime>`**  
 
 ## Syntax
 

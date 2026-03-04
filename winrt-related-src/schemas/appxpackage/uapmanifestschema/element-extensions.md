@@ -6,6 +6,7 @@ ms.assetid: 837ae066-b590-4f58-b552-2e9d608f0fac
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Extensions]
 ---
 
 # Extensions (in Package) (Windows 10)
@@ -14,9 +15,8 @@ Defines one or more extensibility points for the package.
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;**\<Extensions\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ **`<Extensions>`**  
 
 ## Syntax
 

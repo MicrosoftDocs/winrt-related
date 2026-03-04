@@ -6,6 +6,7 @@ ms.assetid: 612973f1-2251-46e7-9923-adec93f0683e
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Properties, Logo]
 ---
 
 # Logo (Windows 10)
@@ -14,11 +15,9 @@ A path to a file that contains an image.
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<Logo\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-properties.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<Logo>`**  
 
 ## Syntax
 

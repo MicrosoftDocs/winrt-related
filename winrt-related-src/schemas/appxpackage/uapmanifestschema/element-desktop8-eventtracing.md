@@ -4,6 +4,7 @@ description: Enables your desktop application to log application-defined events 
 keywords: windows 10, uwp, schema, manifest, desktop
 ms.date: 04/27/2022
 ms.topic: reference
+no-loc: [Package, Extensions, desktop8:Extension, desktop8:EventTracing]
 ---
 
 # desktop8:EventTracing
@@ -12,13 +13,10 @@ Enables your desktop application to log application-defined events to be consume
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<desktop8:Extension\>](element-desktop8-extension.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop8:EventTracing\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop8:Extension>`](element-desktop8-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop8:EventTracing>`**  
 
 ## Syntax
 

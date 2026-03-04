@@ -6,6 +6,7 @@ ms.assetid: 45524773-3b61-44ac-a417-cfaac92af0a0
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 03/09/2017
+no-loc: [Package, Identity]
 ---
 
 # Identity (Windows 10)
@@ -14,9 +15,8 @@ Defines a globally unique identifier for a package. A package identity is repres
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;**\<Identity\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ **`<Identity>`**  
 
 ## Syntax
 

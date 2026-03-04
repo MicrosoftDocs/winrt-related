@@ -4,6 +4,7 @@ title: uap15:DependencyTarget
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 09/22/2022
+no-loc: [Package, Properties, uap15:DependencyTarget]
 ---
 
 # uap15:DependencyTarget
@@ -12,11 +13,9 @@ Allows a main package manifest to specify whether the package is a valid target 
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<uap15:DependencyTarget\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-properties.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap15:DependencyTarget>`**  
 
 ## Syntax
 

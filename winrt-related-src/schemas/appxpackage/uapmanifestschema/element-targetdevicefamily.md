@@ -6,6 +6,7 @@ ms.assetid: 457745aa-bc12-427b-b1f1-74c1618753c0
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/28/2023
+no-loc: [Package, Dependencies, TargetDeviceFamily]
 ---
 
 # TargetDeviceFamily (Windows 10)
@@ -14,11 +15,9 @@ Identifies the device family that your package targets. For more info about devi
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Dependencies\>](element-dependencies.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<TargetDeviceFamily\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Dependencies>`](element-dependencies.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<TargetDeviceFamily>`**  
 
 ## Syntax
 

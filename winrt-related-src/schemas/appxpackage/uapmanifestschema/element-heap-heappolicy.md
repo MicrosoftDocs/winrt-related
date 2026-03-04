@@ -4,7 +4,8 @@ title: heap:HeapPolicy
 keywords: windows 10, schema, package manifest
 ms.topic: reference
 ms.date: 09/06/2022
-ms.custom: 
+ms.custom:
+no-loc: [Package, Properties, heap:HeapPolicy]
 ---
 
 # heap:HeapPolicy
@@ -16,12 +17,9 @@ Allows packaged apps to request a heap profile that has performance and behavior
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-
-&nbsp;&nbsp;[\<Properties\>](element-properties.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;**\<heap:HeapPolicy\>**
+**[`<Package>`](element-package.md)**  
+**[`<Properties>`](element-properties.md)**  
+&nbsp;&nbsp;&nbsp;└─ **`<heap:HeapPolicy>`**  
 
 ## Syntax
 

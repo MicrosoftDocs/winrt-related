@@ -6,6 +6,7 @@ ms.assetid: a1e745c9-a804-42cf-a107-7fb860cc8289
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Dependencies]
 ---
 
 # Dependencies (Windows 10)
@@ -14,9 +15,8 @@ Declares other packages that a package depends on to complete its software.
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;**\<Dependencies\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ **`<Dependencies>`**  
 
 ## Syntax
 

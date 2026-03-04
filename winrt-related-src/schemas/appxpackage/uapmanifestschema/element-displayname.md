@@ -6,6 +6,7 @@ ms.assetid: e5d9a0b1-73cf-4c17-90c8-1a0cb57779dd
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Properties, DisplayName]
 ---
 
 # DisplayName (Windows 10)
@@ -14,11 +15,9 @@ A friendly name that can be displayed to users.
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<DisplayName\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-properties.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<DisplayName>`**  
 
 ## Syntax
 

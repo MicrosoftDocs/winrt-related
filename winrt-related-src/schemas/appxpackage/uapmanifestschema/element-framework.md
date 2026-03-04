@@ -6,6 +6,7 @@ ms.assetid: 2a8e1c58-b079-4ef1-ae62-c27bb3f5a469
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Properties, Framework]
 ---
 
 # Framework (Windows 10)
@@ -14,10 +15,9 @@ Indicates whether the package is a framework package; that is, a package that ca
 
 ## Element hierarchy
 
-
-[\<Package\>](element-package.md)<br/>
-&nbsp;[\<Properties\>](element-properties.md)<br/>
-&nbsp;&nbsp;**\<Framework\>**
+**[`<Package>`](element-package.md)**  
+**[`<Properties>`](element-properties.md)**  
+**`<Framework>`**  
 
 ## Syntax
 

@@ -4,6 +4,7 @@ title: uap10:PackageIntegrity
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 02/06/2020
+no-loc: [Package, Properties, uap10:PackageIntegrity]
 ---
 
 # uap10:PackageIntegrity
@@ -12,11 +13,9 @@ Specifies the level of run time package integrity checks and remediation for the
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap10:PackageIntegrity\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-properties.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap10:PackageIntegrity>`**  
 
 ## Syntax
 

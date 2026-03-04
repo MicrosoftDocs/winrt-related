@@ -4,6 +4,7 @@ title: uap10:Content
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 02/06/2020
+no-loc: [Package, Properties, uap10:PackageIntegrity, uap10:Content]
 ---
 
 # uap10:Content
@@ -12,13 +13,10 @@ Indicates whether Windows will enforce run time package integrity checks on the 
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap10:PackageIntegrity\>](element-uap10-packageintegrity.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap10:Content\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-properties.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap10:PackageIntegrity>`](element-uap10-packageintegrity.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap10:Content>`**  
 
 ## Syntax
 

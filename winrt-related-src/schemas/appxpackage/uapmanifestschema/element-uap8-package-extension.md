@@ -4,6 +4,7 @@ description: Declares an extensibility point for the package (uap8:Extension).
 ms.date: 03/10/2022
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, extension
+no-loc: [Package, Extensions, uap8:Extension]
 ---
 
 # uap8:Extension (in Package)
@@ -12,11 +13,9 @@ Declares an extensibility point for the app.
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap8:Extension\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap8:Extension>`**  
 
 ## Syntax
 

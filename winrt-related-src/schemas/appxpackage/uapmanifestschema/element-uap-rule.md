@@ -6,6 +6,7 @@ ms.assetid: 99bea1bd-db33-4dc9-bdf5-299f413d5c00
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 11/01/2017
+no-loc: [Package, Applications, Application, uap:ApplicationContentUriRules, uap:Rule]
 ---
 
 # uap:Rule (Windows 10)
@@ -14,15 +15,11 @@ Specifies which pages in the web context have access to the system's geolocation
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap:ApplicationContentUriRules\>](element-uap-applicationcontenturirules.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap:Rule\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-applications.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-application.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:ApplicationContentUriRules>`](element-uap-applicationcontenturirules.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap:Rule>`**  
 
 ## Syntax
 

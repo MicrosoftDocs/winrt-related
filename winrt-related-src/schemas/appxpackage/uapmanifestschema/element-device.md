@@ -6,6 +6,7 @@ ms.assetid: 1e9e699f-bbd9-4d15-95ea-207ec495c46e
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Capabilities, DeviceCapability, Device]
 ---
 
 # Device (Windows 10)
@@ -14,13 +15,10 @@ Declares a function for a device that is associated with the [DeviceCapability](
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Capabilities\>](element-capabilities.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<DeviceCapability\>](element-devicecapability.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<Device\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Capabilities>`](element-capabilities.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<DeviceCapability>`](element-devicecapability.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<Device>`**  
 
 ## Syntax
 

@@ -4,6 +4,7 @@ title: uap10:AllowExternalContent
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/22/2020
+no-loc: [Package, Properties, uap10:AllowExternalContent]
 ---
 
 # uap10:AllowExternalContent
@@ -12,11 +13,9 @@ Enables your package manifest to reference content outside the package, in a spe
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap10:AllowExternalContent\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-properties.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap10:AllowExternalContent>`**  
 
 ## Syntax
 

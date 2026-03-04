@@ -6,6 +6,7 @@ ms.assetid: 4353c4fd-f038-4986-81ed-d2ec0c6235ef
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Capabilities, DeviceCapability]
 ---
 
 # DeviceCapability (Windows 10)
@@ -14,11 +15,9 @@ Declares a device capability required by a package. On Windows 10.0.10240.0, can
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Capabilities\>](element-capabilities.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<DeviceCapability\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Capabilities>`](element-capabilities.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<DeviceCapability>`**  
 
 ## Syntax
 

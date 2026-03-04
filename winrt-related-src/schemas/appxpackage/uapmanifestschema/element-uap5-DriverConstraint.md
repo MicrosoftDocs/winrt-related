@@ -4,6 +4,7 @@ title: uap5:DriverConstraint
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 10/10/2017
+no-loc: [Package, Dependencies, uap5:DriverDependency, uap5:DriverConstraint]
 ---
 
 # uap5:DriverConstraint
@@ -12,13 +13,10 @@ Specifies the details of a driver paired with a UWP app.
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Dependencies\>](element-dependencies.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap5:DriverDependency\>](element-uap5-driverdependency.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap5:DriverConstraint\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Dependencies>`](element-dependencies.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap5:DriverDependency>`](element-uap5-driverdependency.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap5:DriverConstraint>`**  
 
 ## Syntax
 

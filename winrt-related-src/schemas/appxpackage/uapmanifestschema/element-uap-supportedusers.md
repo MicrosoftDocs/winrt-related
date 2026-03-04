@@ -6,6 +6,7 @@ ms.assetid: 5be5aec1-f253-4e1f-b386-8e9ae815a4e9
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Properties, uap:SupportedUsers]
 ---
 
 # uap:SupportedUsers (Windows 10)
@@ -14,11 +15,9 @@ Indicates whether or not the package is multi-user aware. This setting is used a
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap:SupportedUsers\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-properties.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap:SupportedUsers>`**  
 
 ## Syntax
 

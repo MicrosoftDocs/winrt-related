@@ -4,6 +4,7 @@ description: Specifies automatic update configuration for the app.
 keywords: windows 10, uwp, schema, manifest, extension
 ms.date: 05/03/2022
 ms.topic: reference
+no-loc: [Package, Properties, uap13:AutoUpdate]
 ---
 
 # uap13:AutoUpdate
@@ -12,11 +13,9 @@ Specifies automatic update configuration for the app.
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap13:AutoUpdate\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-properties.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap13:AutoUpdate>`**  
 
 ## Syntax
 

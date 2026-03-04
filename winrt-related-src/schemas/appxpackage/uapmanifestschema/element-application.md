@@ -6,6 +6,7 @@ ms.assetid: 39221d13-bb46-42ac-be51-117357cade81
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 08/06/2025
+no-loc: [Package, Applications, Application]
 ---
 
 # Application (Windows 10)
@@ -14,11 +15,9 @@ Represents an app that comprises part of or all of the functionality delivered i
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<Application\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-applications.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<Application>`**  
 
 ## Syntax
 

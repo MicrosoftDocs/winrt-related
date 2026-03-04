@@ -6,6 +6,7 @@ ms.assetid: 575ad44f-e0e3-4682-a082-8d8184bd8dd4
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 06/07/2023
+no-loc: [Package, Extensions, Extension, OutOfProcessServer]
 ---
 
 # OutOfProcessServer (Windows 10)
@@ -14,13 +15,10 @@ Declares a package extension point of type **windows.activatableClass.outOfProce
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extension\>](element-extension.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<OutOfProcessServer\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<OutOfProcessServer>`**  
 
 ## Syntax
 

@@ -6,6 +6,7 @@ ms.assetid: 1a5d687b-4e1f-479a-a24e-eeda24afc560
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
+no-loc: [Package, Capabilities, uap3:Capability]
 ---
 
 # uap3:Capability (Windows 10)
@@ -14,11 +15,9 @@ Declares a capability required by a package.
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Capabilities\>](element-capabilities.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap3:Capability\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Capabilities>`](element-capabilities.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap3:Capability>`**  
 
 ## Syntax
 

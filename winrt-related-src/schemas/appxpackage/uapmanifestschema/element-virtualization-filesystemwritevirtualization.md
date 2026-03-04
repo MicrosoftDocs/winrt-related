@@ -4,7 +4,8 @@ title: virtualization:FileSystemWriteVirtualization
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/18/2022
-ms.custom: 
+ms.custom:
+no-loc: [Package, Properties, virtualization:FileSystemWriteVirtualization]
 ---
 
 # virtualization:FileSystemWriteVirtualization
@@ -16,11 +17,9 @@ Specifies a list of directories for which file system virtualization is disabled
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<virtualization:FileSystemWriteVirtualization\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-properties.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<virtualization:FileSystemWriteVirtualization>`**  
 
 ## Syntax
 

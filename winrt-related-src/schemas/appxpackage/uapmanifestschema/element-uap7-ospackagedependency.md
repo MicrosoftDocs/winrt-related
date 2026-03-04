@@ -4,6 +4,7 @@ title: uap7:OSPackageDependency
 keywords: windows 10, uwp, schema, package manifest, driver dependency
 ms.topic: reference
 ms.date: 10/03/2018
+no-loc: [Package, Dependencies, uap7:OSPackageDependency]
 ---
 
 # uap7:OSPackageDependency
@@ -12,11 +13,9 @@ Defines a package dependency for a UWP app.
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Dependencies\>](element-dependencies.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap7:OSPackageDependency\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Dependencies>`](element-dependencies.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap7:OSPackageDependency>`**  
 
 ## Syntax
 

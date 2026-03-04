@@ -5,6 +5,7 @@ title: win32dependencies:ExternalDependency (Windows 11, Windows 10)
 keywords: windows 11, windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 08/05/2025
+no-loc: [Package, win32dependencies:ExternalDependency]
 ---
 
 # win32dependencies:ExternalDependency (Windows 11, Windows 10)
@@ -19,11 +20,8 @@ Specifies an external dependency that is not included in the MSIX but will be ch
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Dependencies\>]
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<win32dependencies:ExternalDependency\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<win32dependencies:ExternalDependency>`**  
 
 ## Syntax
 

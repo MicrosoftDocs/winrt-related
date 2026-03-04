@@ -6,6 +6,7 @@ ms.assetid: 45ce3dac-3888-452b-bc10-8775b158637a
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 10/26/2017
+no-loc: [Package, Resources]
 ---
 
 # Resources (package schema for Windows 10)
@@ -14,9 +15,8 @@ Declares the union of languages, display scales, and DirectX feature levels for 
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;**\<Resources\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ **`<Resources>`**  
 
 ## Syntax
 

@@ -4,6 +4,7 @@ title: uap6:AllowExecution
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/07/2018
+no-loc: [Package, Properties, uap6:AllowExecution]
 ---
 
 # uap6:AllowExecution
@@ -12,11 +13,9 @@ Indicates whether the contents of the package will be allowed to execute.
 
 ## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Properties\>](element-properties.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap6:AllowExecution\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-properties.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap6:AllowExecution>`**  
 
 ## Syntax
 
