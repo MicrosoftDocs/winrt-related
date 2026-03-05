@@ -1,7 +1,7 @@
 ---
 description: Defines one or more extensibility points for the package (Windows 10).
 Search.Product: eADQiWindows 10XVcnh
-title: Extensions (in Package) (Windows 10)
+title: Extensions (in Package)
 ms.assetid: 837ae066-b590-4f58-b552-2e9d608f0fac
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
@@ -9,7 +9,7 @@ ms.date: 04/05/2017
 no-loc: [Package, Extensions]
 ---
 
-# Extensions (in Package) (Windows 10)
+# Extensions (in Package)
 
 Defines one or more extensibility points for the package.
 
@@ -43,7 +43,7 @@ None.
 
 | Child element | Description |
 |-|-|
-| [Extension (in type: CT_PackageExtensions)](element-extension.md) | Declares an extensibility point for the package. |
+| Extension | Declares an extensibility point for the package. The type of extension is defined by the **Category** attribute. See the extension category table in the [Remarks](#remarks) section below for the list of allowed categories and the Extension element that defines each one. |
 
 ### Parent elements
 
@@ -55,13 +55,13 @@ None.
 
 The following elements have the same name as this one, but different content or attributes:
 
-- [Extensions (type: CT_ApplicationExtensions)](element-1-extensions.md)
+- [Extensions (in Application)](element-1-extensions.md)
 
 ## Remarks
 
 Extensibility points are a mechanism by which an app can add functionality in a manner defined by the operating system. An example of a package extensibility point is the ability to specify a dynamic-link library or executable that contains activatable classes that your code uses.
 
-The **Extension** elements that can be included under the **Package/Extensions** element are enforced by the XML schema. Each of these **Extension** elements have a required **Category** attribute that specifies one or more extension points that the extension supports. Some extensions support both application and package extension categories. The following table lists the extension categories supported for application extensions and the associated **Extension** element that supports each category. A category can be supported for multiple extensions as a versioning mechanism.
+The **Extension** elements that can be included under the **Package/Extensions** element are enforced by the XML schema. Each of these **Extension** elements have a required **Category** attribute that specifies one or more extension points that the extension supports. Some extensions support both application and package extension categories. The following table lists the extension categories supported for package extensions and the associated **Extension** element that supports each category. A category can be supported for multiple extensions as a versioning mechanism.
 
 | Extension category | Extension |
 |--------------------|-----------|
