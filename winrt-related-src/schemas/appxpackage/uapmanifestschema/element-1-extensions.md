@@ -89,9 +89,9 @@ The **Extension** elements that can be included under the **Application/Extensio
 | windows.barcodeScannerProvider | [uap6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap6-extension) |
 | windows.cachedFileUpdater | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
 | windows.cameraSettings | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
-| windows.cloudFiles | [desktop3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop3-extension) |
-| windows.comInterface | [com:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com-extension), [com2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com2-extension) |
-| windows.comServer | [com:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com-extension), [com2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com2-extension) |
+| windows.cloudFiles | [cloudFiles:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-cloudfiles-extension), [desktop3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop3-extension) |
+| windows.comInterface | [com:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com-extension), [com2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com2-extension), [com4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com4-extension) |
+| windows.comServer | [com:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com-extension), [com2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com2-extension), [com4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com4-extension) |
 | windows.contactDataProvider | [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension-manual) |
 | windows.contactPanel | [uap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap4-extension) |
 | windows.controlPanelItem | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-extension) |
