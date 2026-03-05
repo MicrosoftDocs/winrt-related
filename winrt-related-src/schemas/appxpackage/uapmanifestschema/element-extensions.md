@@ -1,7 +1,7 @@
 ---
 description: Defines one or more extensibility points for the package (Windows 10).
 Search.Product: eADQiWindows 10XVcnh
-title: Extensions (in Package) (Windows 10)
+title: Extensions (in Package)
 ms.assetid: 837ae066-b590-4f58-b552-2e9d608f0fac
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
@@ -9,7 +9,7 @@ ms.date: 04/05/2017
 no-loc: [Package, Extensions]
 ---
 
-# Extensions (in Package) (Windows 10)
+# Extensions (in Package)
 
 Defines one or more extensibility points for the package.
 
@@ -43,7 +43,7 @@ None.
 
 | Child element | Description |
 |-|-|
-| [Extension (in type: CT_PackageExtensions)](element-extension.md) | Declares an extensibility point for the package. |
+| Extension | Declares an extensibility point for the package. The type of extension is defined by the **Category** attribute. See the extension category table in the [Remarks](#remarks) section below for the list of allowed categories and the Extension element that defines each one. |
 
 ### Parent elements
 
@@ -55,52 +55,48 @@ None.
 
 The following elements have the same name as this one, but different content or attributes:
 
-- [Extensions (type: CT_ApplicationExtensions)](element-1-extensions.md)
+- [Extensions (in Application)](element-1-extensions.md)
 
 ## Remarks
 
 Extensibility points are a mechanism by which an app can add functionality in a manner defined by the operating system. An example of a package extensibility point is the ability to specify a dynamic-link library or executable that contains activatable classes that your code uses.
 
-The **Extension** elements that can be included under the **Package/Extensions** element are enforced by the XML schema. Each of these **Extension** elements have a required **Category** attribute that specifies one or more extension points that the extension supports. Some extensions support both application and package extension categories. The following table lists the extension categories supported for application extensions and the associated **Extension** element that supports each category. A category can be supported for multiple extensions as a versioning mechanism.
+The **Extension** elements that can be included under the **Package/Extensions** element are enforced by the XML schema. Each of these **Extension** elements have a required **Category** attribute that specifies one or more extension points that the extension supports. Some extensions support both application and package extension categories. The following table lists the extension categories supported for package extensions and the associated **Extension** element that supports each category. A category can be supported for multiple extensions as a versioning mechanism.
 
 | Extension category | Extension |
 |--------------------|-----------|
-| windows.comServer | [com:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com-extension) |
-| windows.comInterface | [com:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com-extension) |
-| windows.comServer | [com2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com2-extension) |
-| windows.comInterface | [com2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com2-extension) |
-| windows.comServer | [com4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com4-extension) |
-| windows.comInterface | [com4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com4-extension) |
-| windows.deploymentExtensionHandler | [deployment:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-deployment-extension) |
-| windows.firewallRules | [desktop2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop2-package-extension) |
-| windows.desktopEventLogging | [desktop2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop2-package-extension) |
-| windows.mutablePackageDirectories | [desktop6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-package-extension) |
-| windows.customInstall | [desktop6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-package-extension) |
-| windows.shadowCopyExcludeFiles | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-extension) |
-| windows.errorReporting | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-extension) |
-| windows.shadowCopyExcludeFiles | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-package-extension) |
-| windows.errorReporting | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-package-extension) |
-| windows.mutablePackageDirectories | [desktop8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop8-extension) |
-| windows.userMutablePackageDirectories | [desktop8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop8-extension) |
-| windows.eventTracing | [desktop8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop8-extension) |
-| windows.activatableClass.inProcessServer | [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
-| windows.activatableClass.outOfProcessServer | [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
-| windows.activatableClass.proxyStub | [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
-| windows.certificates | [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
-| windows.publisherCacheFolders | [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
-| windows.comInterface | [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
-| windows.loaderSearchPathOverride | [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
+| windows.activatableClass.inProcessServer | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
+| windows.activatableClass.outOfProcessServer | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
+| windows.activatableClass.proxyStub | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
+| windows.certificates | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
 | windows.classicAppCompatKeys | [rescap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-rescap4-extension) |
-| windows.primaryInteropAssemblies | [rescap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-rescap4-extension) |
-| windows.hostRuntime | [uap10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap10-package-extension) |
-| windows.mediaContentDecryptionModule | [uap10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap10-package-extension) |
-| windows.installedLocationVirtualization | [uap10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap10-package-extension) |
-| windows.sharedFonts | [uap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap4-extension) |
-| windows.activatableClass.outOfProcessServer | [uap5:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap5-extension) |
-| windows.loaderSearchPathOverride | [uap6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap6-package-extension) |
-| windows.sharedFonts | [uap7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap7-extension) |
+| windows.comInterface | [com:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com-extension), [com2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com2-extension), [com4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com4-extension) |
+| windows.comServer | [com:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com-extension), [com2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com2-extension), [com4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com4-extension) |
+| windows.customDesktopEventLog | [desktop10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop10-extension) |
+| windows.customInstall | [desktop6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-extension) |
+| windows.dataProtection | [uap8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap8-extension) |
+| windows.dataShortcuts | [desktop10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop10-extension) |
+| windows.deploymentStateHandler | deployment3:Extension |
+| windows.desktopEventLogging | [desktop2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop2-extension) |
 | windows.enterpriseDataProtection | [uap7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap7-extension) |
-| windows.dataProtection | [uap8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap8-package-extension) |
+| windows.errorReporting | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-extension) |
+| windows.eventTracing | [desktop8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop8-extension) |
+| windows.firewallRules | [desktop2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop2-extension) |
+| windows.folder | [desktop10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop10-extension) |
+| windows.hostRuntime | [uap10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap10-extension) |
+| windows.installedLocationVirtualization | [uap10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap10-extension) |
+| windows.loaderSearchPathOverride | [uap6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap6-extension) |
+| windows.mediaContentDecryptionModule | [uap10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap10-extension) |
+| windows.mutablePackageDirectories | [desktop6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-extension), [desktop8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop8-extension) |
+| windows.packageExtension | [uap17:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap17-extension) |
+| windows.packageExtensionHost | [uap17:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap17-extension) |
+| windows.packagingExtension | deployment3:Extension |
+| windows.primaryInteropAssemblies | [rescap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-rescap4-extension) |
+| windows.publisherCacheFolders | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
+| windows.shadowCopyExcludeFiles | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-extension) |
+| windows.sharedFonts | [uap7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap7-extension) |
+| windows.sipExtension | deployment3:Extension |
+| windows.userMutablePackageDirectories | [desktop8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop8-extension) |
 
 
 ## Examples
