@@ -740,14 +740,6 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-interface.md
           - name: "Logo"
             href: schemas/appxpackage/uapmanifestschema/element-logo.md
-          - name: "mobile:AowApp"
-            href: schemas/appxpackage/uapmanifestschema/element-mobile-aowapp-manual.md
-          - name: "mobile:Capability"
-            href: schemas/appxpackage/uapmanifestschema/element-mobile-capability-manual.md
-          - name: "mobile:Extension"
-            href: schemas/appxpackage/uapmanifestschema/element-mobile-extension-manual.md
-          - name: "mobile:MobileMultiScreenProperties"
-            href: schemas/appxpackage/uapmanifestschema/element-mobile-mobilemultiscreenproperties-manual.md
           - name: "mp:PhoneIdentity"
             href: schemas/appxpackage/uapmanifestschema/element-mp-phoneidentity.md
           - name: "OutOfProcessServer"
