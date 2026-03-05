@@ -65,42 +65,38 @@ The **Extension** elements that can be included under the **Package/Extensions**
 
 | Extension category | Extension |
 |--------------------|-----------|
-| windows.comServer | [com:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com-extension) |
-| windows.comInterface | [com:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com-extension) |
-| windows.comServer | [com2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com2-extension) |
-| windows.comInterface | [com2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com2-extension) |
-| windows.comServer | [com4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com4-extension) |
-| windows.comInterface | [com4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com4-extension) |
-| windows.deploymentExtensionHandler | [deployment:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-deployment-extension) |
-| windows.firewallRules | [desktop2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop2-package-extension) |
-| windows.desktopEventLogging | [desktop2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop2-package-extension) |
-| windows.mutablePackageDirectories | [desktop6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-package-extension) |
-| windows.customInstall | [desktop6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-package-extension) |
-| windows.shadowCopyExcludeFiles | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-extension) |
-| windows.errorReporting | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-extension) |
-| windows.shadowCopyExcludeFiles | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-package-extension) |
-| windows.errorReporting | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-package-extension) |
-| windows.mutablePackageDirectories | [desktop8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop8-extension) |
-| windows.userMutablePackageDirectories | [desktop8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop8-extension) |
-| windows.eventTracing | [desktop8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop8-extension) |
-| windows.activatableClass.inProcessServer | [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
-| windows.activatableClass.outOfProcessServer | [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
-| windows.activatableClass.proxyStub | [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
-| windows.certificates | [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
-| windows.publisherCacheFolders | [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
-| windows.comInterface | [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
-| windows.loaderSearchPathOverride | [Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
+| windows.activatableClass.inProcessServer | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
+| windows.activatableClass.outOfProcessServer | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
+| windows.activatableClass.proxyStub | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
+| windows.certificates | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
 | windows.classicAppCompatKeys | [rescap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-rescap4-extension) |
-| windows.primaryInteropAssemblies | [rescap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-rescap4-extension) |
-| windows.hostRuntime | [uap10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap10-package-extension) |
-| windows.mediaContentDecryptionModule | [uap10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap10-package-extension) |
-| windows.installedLocationVirtualization | [uap10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap10-package-extension) |
-| windows.sharedFonts | [uap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap4-extension) |
-| windows.activatableClass.outOfProcessServer | [uap5:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap5-extension) |
-| windows.loaderSearchPathOverride | [uap6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap6-package-extension) |
-| windows.sharedFonts | [uap7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap7-extension) |
+| windows.comInterface | [com:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com-extension), [com2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com2-extension) |
+| windows.comServer | [com:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com-extension), [com2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com2-extension) |
+| windows.customDesktopEventLog | [desktop10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop10-extension) |
+| windows.customInstall | [desktop6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-extension) |
+| windows.dataProtection | [uap8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap8-extension) |
+| windows.dataShortcuts | [desktop10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop10-extension) |
+| windows.deploymentStateHandler | deployment3:Extension |
+| windows.desktopEventLogging | [desktop2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop2-extension) |
 | windows.enterpriseDataProtection | [uap7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap7-extension) |
-| windows.dataProtection | [uap8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap8-package-extension) |
+| windows.errorReporting | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-extension) |
+| windows.eventTracing | [desktop8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop8-extension) |
+| windows.firewallRules | [desktop2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop2-extension) |
+| windows.folder | [desktop10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop10-extension) |
+| windows.hostRuntime | [uap10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap10-extension) |
+| windows.installedLocationVirtualization | [uap10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap10-extension) |
+| windows.loaderSearchPathOverride | [uap6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap6-extension) |
+| windows.mediaContentDecryptionModule | [uap10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap10-extension) |
+| windows.mutablePackageDirectories | [desktop6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-extension), [desktop8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop8-extension) |
+| windows.packageExtension | [uap17:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap17-extension) |
+| windows.packageExtensionHost | [uap17:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap17-extension) |
+| windows.packagingExtension | deployment3:Extension |
+| windows.primaryInteropAssemblies | [rescap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-rescap4-extension) |
+| windows.publisherCacheFolders | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-extension) |
+| windows.shadowCopyExcludeFiles | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-extension) |
+| windows.sharedFonts | [uap7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap7-extension) |
+| windows.sipExtension | deployment3:Extension |
+| windows.userMutablePackageDirectories | [desktop8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop8-extension) |
 
 
 ## Examples
