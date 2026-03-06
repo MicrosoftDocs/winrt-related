@@ -4,31 +4,24 @@ description: Declares a package extension point of type windows.comServer (com4:
 ms.date: 03/13/2022
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:ComServer, Extensions, com4:Extension, com4:ComServer]
 ---
 
 # com4:ComServer
 
 Declares a package extension point of type windows.comServer. The comServer extension may include class registrations, including activation details for the servers that implement these classes, and ProgId and TreatAsClass registrations, which provide additional identifiers used to reference these classes at runtime.
 
-## Element Hierarchy
+## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com4:Extension\>](element-com4-extension.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com4:ComServer\>**
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<com4:Extension\>](element-com4-extension.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<com4:ComServer\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-applications.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-application.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com4:Extension>`](element-com4-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com4:ComServer>`**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com4:Extension>`](element-com4-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com4:ComServer>`**  
 
 ## Syntax
 

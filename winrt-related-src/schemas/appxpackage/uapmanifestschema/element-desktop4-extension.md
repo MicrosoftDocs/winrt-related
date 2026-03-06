@@ -4,23 +4,20 @@ description: Declares an extensibility point for the app (desktop4:Extension).
 ms.date: 04/10/2018
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
+no-loc: [Package, Applications, Application, Extensions, desktop4:Extension]
 ---
 
 # desktop4:Extension
 
 Declares an extensibility point for the app.
 
-## Element Hierarchy
+## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Application\>](element-application.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<desktop4:Extension\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-applications.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-application.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop4:Extension>`**  
 
 ## Syntax
 

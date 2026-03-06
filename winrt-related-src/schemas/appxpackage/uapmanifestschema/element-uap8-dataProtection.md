@@ -4,21 +4,19 @@ description: Settings to configure data encryption.
 ms.date: 03/14/2022
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
+no-loc: [Package, Extensions, uap8:Extension, uap8:DataProtection]
 ---
 
 # uap8:DataProtection
 
 Settings to configure data encryption.
 
-## Element Hierarchy
+## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-extensions.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap8:Extension\>](element-uap8-extension.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**\<uap8:DataProtection\>**
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap8:Extension>`](element-uap8-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap8:DataProtection>`**  
 
 ## Syntax
 
