@@ -10,7 +10,7 @@ no-loc: [Package, Applications, Application, Extensions, uap4:Extension]
 
 # uap4:SharedFonts
 
-Contains the locations of custom fonts to be shared with other apps. For more information about this extension, see [this article](/windows/apps/desktop/modernize/desktop-to-uwp-extensions#share-fonts-with-other-windows-applications).
+Contains the locations of custom fonts to be shared with other apps. For more information about this extension, see [Share fonts with other Windows applications](/windows/apps/desktop/modernize/desktop-to-uwp-extensions#share-fonts-with-other-windows-applications).
 
 > [!NOTE]
 > Before you can submit an app that uses this extension to the Store, you must first obtain approval from the Store team. To obtain approval, go to [https://aka.ms/storesupport](https://aka.ms/storesupport), click **Contact us**, and choose options relevant to submitting apps to the dashboard. This approval process helps to ensure that there are no conflicts between fonts installed by your app and fonts that are installed with the OS. If you do not obtain approval, you will receive an error similar to the following when you submit your app: "Package acceptance validation error: You can't use extension windows.sharedFonts with this account. Contact our support team if you'd like to request permissions to use this extension."
@@ -55,9 +55,9 @@ None.
 
 ## Remarks
 
-The **sharedFonts** element defined in **uap4:Extension** is a descendent of [Application](element-application.md) and is associated to a specific application's identity. When the application is installed, the user is presented with the system font installation UI.
+The **sharedFonts** element defined in **uap4:Extension** is a descendent of [Application](element-application.md) and is associated to a specific application's identity.
 
-The [uap7:sharedFonts](element-uap7-sharedfonts.md) provides similar functionality, but is a descendent of [Package](element-package.md) and is associated with the package identity, regardless of how many apps the package contains. This includes packages that contain no applications at all.
+The [uap7:sharedFonts](element-uap7-sharedfonts.md) element provides similar functionality, but is a descendent of [Package](element-package.md) and is associated with the package identity, regardless of how many apps the package contains. This includes packages that contain no applications at all.
 
 For both versions of this extension, the fonts are installed per-user.
 
