@@ -255,6 +255,26 @@
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-desktop-startuptasks.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-desktop-startuptask",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-mobile-aowapp-manual.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-mobile-capability-manual.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-mobile-extension-manual.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-mobile-mobilemultiscreenproperties-manual.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
+      "redirect_document_id": false
     }
   ]
 }
