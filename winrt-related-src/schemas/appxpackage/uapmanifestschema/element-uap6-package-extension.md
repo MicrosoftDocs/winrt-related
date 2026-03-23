@@ -4,19 +4,18 @@ description: Declares an extensibility point for the app (in Package/Extensions)
 keywords: windows 10, uwp, schema, manifest, extension 
 ms.date: 04/14/2022
 ms.topic: reference
+no-loc: [Package, Extensions, uap6:Extension]
 ---
 
 # uap6:Extension (in Package/Extensions)
 
 Declares an extensibility point for the app.
 
-## Element Hierarchy
+## Element hierarchy
 
-[\<Package\>](element-package.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Extensions\>](element-1-extensions.md)
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;[\<uap6:Extension\>](element-uap6-package-extension.md)
+**[`<Package>`](element-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap6:Extension>`**  
 
 ## Syntax
 
