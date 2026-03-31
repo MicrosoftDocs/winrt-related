@@ -31,7 +31,7 @@ This extension provides a means to deliver translated app resources.
 
 `?`   optional (zero or one)
 
-## Attrbutes and elements
+## Attributes and elements
 
 ### Attributes
 

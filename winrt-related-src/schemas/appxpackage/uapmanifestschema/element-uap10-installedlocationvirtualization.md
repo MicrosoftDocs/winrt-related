@@ -30,7 +30,7 @@ Defines an extension for a desktop app in an MSIX package that redirects any wri
 </uap10:InstalledLocationVirtualization>
 ```
 
-## Attrbutes and elements
+## Attributes and elements
 
 ### Attributes
 

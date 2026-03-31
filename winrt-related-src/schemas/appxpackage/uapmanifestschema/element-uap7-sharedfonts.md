@@ -32,7 +32,7 @@ Contains the locations of custom fonts to be shared with other apps. For more in
 </uap7:SharedFonts>
 ```
 
-## Attrbutes and elements
+## Attributes and elements
 
 ### Attributes
 

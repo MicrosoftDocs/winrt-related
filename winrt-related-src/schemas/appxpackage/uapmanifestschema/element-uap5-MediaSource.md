@@ -39,7 +39,7 @@ Specifies the media source and the app service that it exposes.
 
 `?`   optional (zero or one)
 
-## Attrbutes and elements
+## Attributes and elements
 
 ### Attributes
 
