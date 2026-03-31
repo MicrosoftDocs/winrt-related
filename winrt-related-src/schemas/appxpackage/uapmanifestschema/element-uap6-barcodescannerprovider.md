@@ -28,7 +28,7 @@ Used for enabling the support of a barcode scanner.
   SupportsVideoPreview = 'A boolean value.' >
 ```
 
-## Attrbutes and elements
+## Attributes and elements
 
 ### Attributes
 

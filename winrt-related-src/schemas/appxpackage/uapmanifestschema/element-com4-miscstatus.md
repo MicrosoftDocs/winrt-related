@@ -37,7 +37,7 @@ Specifies how to create and display an object.
 
 ## Attributes and elements
 
-### Attributs
+### Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|

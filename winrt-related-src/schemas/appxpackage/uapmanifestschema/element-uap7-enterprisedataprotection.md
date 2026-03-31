@@ -25,7 +25,7 @@ Declares that the app is safe for auto-encryption and allows it to be managed wi
   ProtectionMode = 'A string that can have one of the following values: "auto" or "default".' />
 ```
 
-## Attrbutes and elements
+## Attributes and elements
 
 ### Attributes
 

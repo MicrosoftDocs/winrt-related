@@ -35,7 +35,7 @@ The verb to be registered for an application.
     OleVerbFlag = 'An integer with a value between 0 and 3.' />
 ```
 
-## Attribute and elements
+## Attributes and elements
 
 ### Attributes
 

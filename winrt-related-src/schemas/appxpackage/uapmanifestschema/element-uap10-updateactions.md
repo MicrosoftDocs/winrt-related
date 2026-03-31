@@ -27,7 +27,7 @@ For a desktop app in an MSIX package that uses the [uap10:InstalledLocationVirtu
     AddedItems = 'A string that can have one of the following values: "keep" or "reset".' />
 ```
 
-## Attrbutes and elements
+## Attributes and elements
 
 ### Attributes
 

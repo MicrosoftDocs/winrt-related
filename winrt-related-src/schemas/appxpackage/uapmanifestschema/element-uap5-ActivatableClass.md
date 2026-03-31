@@ -33,7 +33,7 @@ Declares a runtime class associated with the extensibility point.
 </uap5:ActivatableClass>
 ```
 
-## Attrbutes and elements
+## Attributes and elements
 
 ### Attributes
 
