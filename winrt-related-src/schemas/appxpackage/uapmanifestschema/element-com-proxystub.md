@@ -40,8 +40,7 @@ Registers a proxy stub.
 </com:ProxyStub>
 ```
 
-## Key
-
+### Key
 `?`    optional (zero or one)  
 
 ## Attributes and elements

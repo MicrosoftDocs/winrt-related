@@ -43,7 +43,7 @@ Declares an app extensibility point of type *windows.packageExtension*. This ele
 </uap17:PackageExtension>
 ```
 
-## Key
+### Key
 `?`    optional (zero or one) 
 `{}`   specific range of occurrences
 

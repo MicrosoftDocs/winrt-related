@@ -56,7 +56,7 @@ Defines an in-process server class registration.
 </com5:Class>
 ```
 
-## Key
+### Key
 `{}`   specific range of occurrences
 
 

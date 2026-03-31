@@ -32,8 +32,7 @@ Indicates that the class has implemented the specified category.
     Id = 'A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.' />
 ```
 
-## Key
-
+### Key
 ## Attributes and elements
 
 ### Attributes

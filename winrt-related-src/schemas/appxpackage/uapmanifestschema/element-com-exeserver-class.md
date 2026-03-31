@@ -48,8 +48,7 @@ Defines an ExeServer class registration.
 </com:Class>
 ```
 
-## Key
-
+### Key
 `?`    optional (zero or one)
 
 ## Attributes and elements

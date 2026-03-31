@@ -38,8 +38,7 @@ Registers a type library.
 </com:TypeLib>
 ```
 
-## Key
-
+### Key
 `{}`   specific range of occurrences
 
 ## Attributes and elements

@@ -36,8 +36,7 @@ Specifies the formats an application can read and write.
 </com:Conversion>
 ```
 
-## Key
-
+### Key
 `?`    optional (zero or one)
 
 ## Attributes and elements
