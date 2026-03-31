@@ -54,7 +54,7 @@ Registers an in-process handler with one or many class registrations. This schem
 | Path | The full path to the in-process handler DLL. | One of the following values: A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", ,, ?, or *.| No |
 
 
-## Child Elements
+## Child elements
 
 | Element | Description |
 | -----------| -------------|

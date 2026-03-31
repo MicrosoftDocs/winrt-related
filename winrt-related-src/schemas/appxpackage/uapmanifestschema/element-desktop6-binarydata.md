@@ -1,4 +1,4 @@
-﻿---
+---
 title: desktop6:BinaryData
 description: Specifies binary data for a trigger event of a service.
 ms.date: 04/19/2019
@@ -38,7 +38,7 @@ Specifies binary data for a trigger event of a service.
 |-|-|-|-|-|
 | File | The name of the package file that contains the binary data (as an array of bytes). | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
 
-### Child Elements
+### Child elements
 
 None.
 

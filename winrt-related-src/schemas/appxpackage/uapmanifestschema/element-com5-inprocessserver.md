@@ -51,7 +51,7 @@ Registers an in-process server with one or many class registrations.
 | Path | The path to the DLL. | One of the following values: A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", ,, ?, or *.| No |
 
 
-## Child Elements
+## Child elements
 
 | Element | Description |
 | -----------| -------------|

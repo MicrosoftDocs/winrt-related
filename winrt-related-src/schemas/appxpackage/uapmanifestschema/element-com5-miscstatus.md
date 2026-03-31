@@ -49,7 +49,7 @@ Specifies how to create and display an object. (com5:MiscStatus)
 ```
 
 
-## Child Elements
+## Child elements
 
 | Element | Description |
 | -----------| -------------|

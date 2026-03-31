@@ -54,7 +54,7 @@ Specifies that an application can only read files.
 
 
 
-## Child Elements
+## Child elements
 
 | Element | Description |
 | -----------| -------------|

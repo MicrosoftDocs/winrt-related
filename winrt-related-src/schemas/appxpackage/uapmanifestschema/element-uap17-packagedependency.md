@@ -16,7 +16,7 @@ Declares other packages that a package depends on. This dependency can be specif
 
 
 
-## Element Hierarchy
+## Element hierarchy
 <dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
 <dd>
 <dl><dt><a href = "element-extensions.md">&lt;Extensions&gt;</a></dt>

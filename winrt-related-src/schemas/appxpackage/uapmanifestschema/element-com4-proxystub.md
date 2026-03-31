@@ -46,7 +46,7 @@ Registers a proxy stub
 | **Id** | The proxy stub's CLSID. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.| Yes |  |
 | **DisplayName** | A localizable string corresponding to the default value of the proxy stub's CLSID key. | A string between 1 and 256 characters in length. This string is localizable.| Yes |  |
 
-### Child Elements
+### Child elements
 
 | Child element | Description |
 |-|-|
