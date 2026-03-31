@@ -35,8 +35,7 @@ Declares a package extension point of type **windows.comServer**. The **comServe
 </com:ComServer>
 ```
 
-## Key
-
+### Key
 `{}`   specific range of occurrences
 
 ## Attributes and elements

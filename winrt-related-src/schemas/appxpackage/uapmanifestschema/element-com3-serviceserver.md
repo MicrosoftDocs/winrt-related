@@ -36,8 +36,7 @@ Registers a COM server (with one or more class registrations) hosted in a Window
 </com3ServiceServer>
 ```
 
-## Key
-
+### Key
 `{}`   specific range of occurrences
 
 ## Attributes and elements

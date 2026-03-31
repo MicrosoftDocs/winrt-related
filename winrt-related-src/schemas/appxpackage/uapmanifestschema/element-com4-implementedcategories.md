@@ -40,7 +40,7 @@ Specifies categories implemented by the class.
 
 None.
 
-### Child Elements
+### Child elements
 
 | Child element | Description |
 |-|-|

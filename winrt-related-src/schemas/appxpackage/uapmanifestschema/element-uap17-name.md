@@ -10,13 +10,11 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 
 
-## Description
-
 Specifies the name of an extension category that can be hosted by a [PackageExtensionHost](element-uap17-packageextensionhost.md). 
 
 
 
-## Element Hierarchy
+## Element hierarchy
 <dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
 <dd>
 <dl><dt><a href = "element-extensions.md">&lt;Extensions&gt;</a></dt>

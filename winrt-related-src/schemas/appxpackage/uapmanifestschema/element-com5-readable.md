@@ -11,8 +11,6 @@ no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:Co
 
 
 
-## Description
-
 Specifies that an application can only read files.
 
 ## Element hierarchy
@@ -54,7 +52,7 @@ Specifies that an application can only read files.
 
 
 
-## Child Elements
+## Child elements
 
 | Element | Description |
 | -----------| -------------|

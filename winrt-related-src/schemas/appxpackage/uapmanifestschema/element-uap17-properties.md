@@ -10,12 +10,10 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 
 
-## Description
-
 Contains opaque XML that represents custom, extension-specific information that is simply stored and not read by the operating system. The information is only read by the host app.
 
 
-## Element Hierarchy
+## Element hierarchy
 <dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
 <dd>
 <dl><dt><a href = "element-extensions.md">&lt;Extensions&gt;</a></dt>

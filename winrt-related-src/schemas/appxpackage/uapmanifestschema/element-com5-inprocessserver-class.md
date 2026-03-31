@@ -11,8 +11,6 @@ no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:Co
 
 
 
-## Description
-
 Defines an in-process server class registration.
 
 
@@ -56,7 +54,7 @@ Defines an in-process server class registration.
 </com5:Class>
 ```
 
-## Key
+### Key
 `{}`   specific range of occurrences
 
 
@@ -75,7 +73,7 @@ Defines an in-process server class registration.
 | DisplayName | A localizable string corresponding to the default value of the CLSID's key. | A string between 1 and 256 characters in length. This string is localizable.| No |
 
 
-## Child Elements
+## Child elements
 
 | Element | Description |
 | -----------| -------------|

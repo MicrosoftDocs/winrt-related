@@ -31,8 +31,7 @@ A registration that corresponds to a CLSID registration with the TreatAs subkey.
     TreatAs = 'A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.' />
 ```
 
-## Key
-
+### Key
 `?`   optional (zero or more)
 
 ## Attributes and elements

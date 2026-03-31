@@ -42,7 +42,7 @@ Declares a package extensibility point of type **windows.activatableClass.inProc
 
 None.
 
-### Child Elements
+### Child elements
 
 | Child element | Description |
 |-|-|

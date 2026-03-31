@@ -38,8 +38,7 @@ Registers a SurrogateServer with one or many class registrations.
 </com:SurrogateServer>
 ```
 
-## Key
-
+### Key
 `{}`   specific range of occurrences
 
 ## Attributes and elements
@@ -54,7 +53,7 @@ Registers a SurrogateServer with one or many class registrations.
 | **AppId** | The AppId that references the associated AppId key. | An optional GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |  |
 | **SystemSurrogate** | A value that corresponds to well-known values from the DllSurrogate value of the AppId key. This is mututally exclusive with CustomSurrogateExecutable. | An optional string value. | No |  |
 
-### Child Elements
+### Child elements
 
 | Child Element | Description |
 |-|-|

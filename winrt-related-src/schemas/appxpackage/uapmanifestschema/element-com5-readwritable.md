@@ -11,8 +11,6 @@ no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:Co
 
 
 
-## Description
-
 Specifies that an application can read and write files.
 
 
@@ -55,7 +53,7 @@ Specifies that an application can read and write files.
 
 
 
-## Child Elements
+## Child elements
 
 | Element | Description |
 | -----------| -------------|

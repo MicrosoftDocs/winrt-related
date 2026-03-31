@@ -10,13 +10,11 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 
 
-## Description
-
 Declares an app extensibility point of type *windows.packageExtensionHost*. This element indicates which categories of extensions the package can host. Those category names are provided as child elements, of which at least one is required.
 
 
 
-## Element Hierarchy
+## Element hierarchy
 <dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
 <dd>
 <dl><dt><a href = "element-extensions.md">&lt;Extensions&gt;</a></dt>
@@ -39,13 +37,13 @@ Declares an app extensibility point of type *windows.packageExtensionHost*. This
 </uap17:PackageExtensionHost>
 ```
 
-## Key
+### Key
 `{}`   specific range of occurrences
 
 
 
 
-## Child Elements
+## Child elements
 
 | Element | Description |
 | -----------| -------------|

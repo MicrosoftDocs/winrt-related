@@ -36,8 +36,7 @@ The verb to be registered for an application.
 </com:Verb>
 ```
 
-## Key
-
+### Key
 ## Attributes and elements
 
 ### Attributes

@@ -35,8 +35,7 @@ Specifies categories implemented by the class.
 </com:ImplementedCategories>
 ```
 
-## Key
-
+### Key
 `{}`   specific range of occurrences
 
 ## Attributes and elements

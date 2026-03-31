@@ -1,4 +1,4 @@
-﻿---
+---
 title: desktop6:UninstallActions
 description: Specifies installer files (.exe or .msi) that are run when the user uninstalls your desktop application.
 ms.date: 04/19/2019
@@ -8,8 +8,6 @@ ms.custom: 19H1
 ---
 
 # desktop6:UninstallActions
-
-## Description
 
 Specifies installer files (`.exe` or `.msi`) that are run when the user uninstalls your desktop application.
 

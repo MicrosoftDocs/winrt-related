@@ -11,8 +11,6 @@ no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:Co
 
 
 
-## Description
-
 Specifies the default and main data formats supported by an application.
 
 
@@ -60,7 +58,7 @@ Specifies the default and main data formats supported by an application.
 | DefaultStandardFormat | The hexadecimal value of the format name. | A string in hexadecimal format containing numbers or the letters a, b, c, d, e, f (capital or lower case).| Yes |
 
 
-## Child Elements
+## Child elements
 
 | Element | Description |
 | -----------| -------------|

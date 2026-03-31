@@ -1,4 +1,4 @@
-﻿---
+---
 title: desktop6:MutablePackageDirectory
 description: Specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of your desktop application's install folder are projected so that users can modify the installation files (for example, to install mods).
 ms.date: 04/19/2019
@@ -37,7 +37,7 @@ Specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the
 |-|-|-|-|-|
 | **Target** | The name of a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of your desktop application's install folder are projected so that users can modify the installation files (for example, to install mods). The folder name must be string valid for a folder name. Sub-folders in the folder name are not allowed (no / or \ characters). For more information, see [Package.MutableLocation](/uwp/api/windows.applicationmodel.package.mutablelocation) and [Package.EffectiveLocation](/uwp/api/windows.applicationmodel.package.effectivelocation).  | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
 
-### Child Elements
+### Child elements
 
 None.
 

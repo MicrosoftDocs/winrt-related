@@ -51,8 +51,7 @@ None.
 |-|-|
 | [Package](element-package.md) | Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system. |
 
-### Example
-
+### Examples
 This example is from the app manifest file of the [App package information](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Package) sample on GitHub.
 
 ```xml

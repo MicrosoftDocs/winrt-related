@@ -37,7 +37,7 @@ Specifies how to create and display an object.
 
 ## Attributes and elements
 
-### Attributs
+### Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
@@ -49,8 +49,7 @@ Specifies how to create and display an object.
 |-|-|
 | [Aspect](element-com4-aspect.md) | Specifies the desired data or view aspect of the object when drawing or getting data. |
 
-### Parent element
-
+### Parent elements
 | Parent element | Description |
 |-|-|
 | [com4:class](element-com4-managedinprocessserver-class.md) | Specifies the class with which the managed in-process server is associated and sets registration details. |

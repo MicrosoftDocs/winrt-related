@@ -10,8 +10,6 @@ no-loc: [Package, Extensions, desktop10:Extension, desktop10:CustomDesktopEventL
 
 # desktop10:CustomEventSource
 
-## Description
-
 Defines an event source within a custom event log.
 
 ## Element hierarchy

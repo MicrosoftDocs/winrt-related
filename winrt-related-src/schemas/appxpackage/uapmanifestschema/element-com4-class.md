@@ -91,8 +91,7 @@ The attributes of a top-level **com4:Class** element correspond to the informati
 - Shared properties must be provided as the attributes of a top-level Class element.
 - Per-class context activation details must be provided in nested ClassReference elements, e.g. ExeServer [Class](element-com4-exeserver-class.md)/[ClassReference](element-com4-exeserver-classreference.md) and InProcessHandler [Class](element-com4-inprocesshandler-class.md)/[ClassReference](element-com4-inprocesshandler-class.md) for a CLSID that supports outofproc activation and an inproc handler. The Id attribute of the **ClassReference** element references the top-level Class element containing the shared properties.
 
-## Example
-
+## Examples
 ```xml
 <com4:Extension Category="windows.comServer">
   ...

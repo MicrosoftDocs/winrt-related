@@ -54,8 +54,7 @@ None.
 |-|-|
 | [uap:AutoPlayDevice](element-uap-autoplaydevice.md) | Declares an app extensibility point of type **windows.autoPlayDevice**. The app provides the specified AutoPlay device actions. |
 
-## Related elements
-
+## See also
 The following elements have the same name as this one, but different content or attributes:
 
 - **[uap:LaunchAction (type: CT_AutoPlayContent)](element-uap-launchaction.md)**

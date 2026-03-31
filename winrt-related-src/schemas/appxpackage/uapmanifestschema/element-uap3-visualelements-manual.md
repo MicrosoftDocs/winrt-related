@@ -287,8 +287,7 @@ The following example creates a folder named App1 in the All Apps List and store
 </Package>
 ```
 
-## Related topics
-
+## See also
 - [**Colors class**](/uwp/api/Windows.UI.Colors)
 - [Quickstart: Creating a default tile using the Visual Studio manifest editor](/previous-versions/windows/apps/hh465437(v=win.10))
 

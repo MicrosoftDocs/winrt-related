@@ -27,7 +27,7 @@ For a desktop app in an MSIX package that uses the [uap10:InstalledLocationVirtu
     AddedItems = 'A string that can have one of the following values: "keep" or "reset".' />
 ```
 
-## Attrbutes and elements
+## Attributes and elements
 
 ### Attributes
 
@@ -51,8 +51,7 @@ None
 
 This element can only be used in the context of the [uap10:InstalledLocationVirtualization](element-uap10-installedlocationvirtualization.md) extension. This extension redirects any writes to a desktop MSIX app's installation directory to a location in the [app data](/windows/uwp/design/app-settings/store-and-retrieve-app-data).
 
-## Example
-
+## Examples
 ```xml
 <?xml
     version="1.0"

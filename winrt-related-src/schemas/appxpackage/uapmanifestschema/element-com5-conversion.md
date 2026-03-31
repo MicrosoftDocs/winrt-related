@@ -11,8 +11,6 @@ no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:Co
 
 
 
-## Description
-
 Specifies the formats an application can read and write.
 
 ## Element hierarchy
@@ -51,7 +49,7 @@ Specifies the formats an application can read and write.
 
 
 
-## Child Elements
+## Child elements
 
 | Element | Description |
 | -----------| -------------|

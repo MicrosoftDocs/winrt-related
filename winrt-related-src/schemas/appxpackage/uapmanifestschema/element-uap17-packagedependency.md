@@ -10,13 +10,11 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 
 
-## Description
-
 Declares other packages that a package depends on. This dependency can be specified as required for both install time and runtime or just install time but not runtime.
 
 
 
-## Element Hierarchy
+## Element hierarchy
 <dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
 <dd>
 <dl><dt><a href = "element-extensions.md">&lt;Extensions&gt;</a></dt>
@@ -37,7 +35,7 @@ Declares other packages that a package depends on. This dependency can be specif
 ></uap17:PackageDependency>
 ```
 
-## Key
+### Key
 `?`    optional (zero or one) 
 
 

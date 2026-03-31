@@ -11,8 +11,6 @@ no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:Co
 
 
 
-## Description
-
 Specifies how to create and display an object. (com5:MiscStatus)
 
 ## Element hierarchy
@@ -49,7 +47,7 @@ Specifies how to create and display an object. (com5:MiscStatus)
 ```
 
 
-## Child Elements
+## Child elements
 
 | Element | Description |
 | -----------| -------------|

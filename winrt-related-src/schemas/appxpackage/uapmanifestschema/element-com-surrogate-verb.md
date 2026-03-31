@@ -35,7 +35,7 @@ The verb to be registered for an application.
     OleVerbFlag = 'An integer with a value between 0 and 3.' />
 ```
 
-## Attribute and elements
+## Attributes and elements
 
 ### Attributes
 
@@ -50,8 +50,7 @@ The verb to be registered for an application.
 
 None.
 
-## Parent element
-
+## Parent elements
 | Parent element | Description |
 |-|-|
 | [com:Verbs](element-com-surrogate-verbs.md) | Specifies the verbs to be registered for an application. |

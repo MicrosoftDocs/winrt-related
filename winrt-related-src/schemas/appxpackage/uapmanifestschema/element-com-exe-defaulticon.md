@@ -10,8 +10,6 @@ no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComS
 
 # com:DefaultIcon (in ExeServer/Class)
 
-## Description
-
 Provides default icon information for iconic presentations of objects.
 
 ## Element hierarchy
@@ -34,8 +32,7 @@ Provides default icon information for iconic presentations of objects.
   ResourceIndex = 'An optional integer value.' />
 ```
 
-## Key
-
+### Key
 `?`    optional (zero or one)
 
 ## Attributes and elements

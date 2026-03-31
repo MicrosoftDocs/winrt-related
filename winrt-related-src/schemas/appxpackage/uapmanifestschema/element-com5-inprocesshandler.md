@@ -11,8 +11,6 @@ no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:Co
 
 
 
-## Description
-
 Registers an in-process handler with one or many class registrations. This schema introduces some minor changes in syntactic validation from the com4 schema.
  
 
@@ -43,8 +41,7 @@ Registers an in-process handler with one or many class registrations. This schem
 </com5:InProcessHandler>
 ```
 
-## Key
-
+### Key
 `?`    optional (zero or one) 
 
 
@@ -55,7 +52,7 @@ Registers an in-process handler with one or many class registrations. This schem
 | Path | The full path to the in-process handler DLL. | One of the following values: A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", ,, ?, or *.| No |
 
 
-## Child Elements
+## Child elements
 
 | Element | Description |
 | -----------| -------------|

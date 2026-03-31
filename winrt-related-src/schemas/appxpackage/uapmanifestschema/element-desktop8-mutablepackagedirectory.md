@@ -9,8 +9,6 @@ no-loc: [Package, Extensions, desktop8:Extension, desktop8:MutablePackageDirecto
 
 # desktop8:MutablePackageDirectory
 
-## Description
-
 Enables your desktop application to specify a folder where you can modify the installation files for your application.
 
 ## Element hierarchy

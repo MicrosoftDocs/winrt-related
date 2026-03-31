@@ -36,8 +36,7 @@ Declares a package extension point of type **windows.comInterface**. The comInte
 </com4:ComInterface>
 ```
 
-## Key
-
+### Key
 `{}`   specific range of occurrences
 
 ## Attributes and elements

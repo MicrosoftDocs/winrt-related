@@ -10,12 +10,10 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 Declares an app extensibility point of type windows.packageExtension.
 
-## Description
-
 Declares an app extensibility point of type *windows.packageExtension*. This element indicates which categories of extensions the package intends to consume and/or host.
 
 
-## Element Hierarchy
+## Element hierarchy
 <dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
 <dd>
 <dl><dt><a href = "element-extensions.md">&lt;Extensions&gt;</a></dt>
@@ -43,7 +41,7 @@ Declares an app extensibility point of type *windows.packageExtension*. This ele
 </uap17:PackageExtension>
 ```
 
-## Key
+### Key
 `?`    optional (zero or one) 
 `{}`   specific range of occurrences
 
@@ -59,7 +57,7 @@ Declares an app extensibility point of type *windows.packageExtension*. This ele
 | Description | The description of the app. | An optional string with a value between 1 and 2048 characters in length.| No |
 
 
-## Child Elements
+## Child elements
 
 | Element | Description |
 | -----------| -------------|

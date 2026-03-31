@@ -35,7 +35,7 @@ Allows packaged apps to request a heap profile that has performance and behavior
 |-----------|-------------|-----------|----------|
 | type | Specifies the requested heap type. | A string value that can be one of the following: "win32Compatible", "default" | No |
 
-### Child Elements
+### Child elements
 
 None.
 
