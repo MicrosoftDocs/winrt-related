@@ -10,8 +10,6 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 
 
-## Description
-
 Declares other packages that a package depends on. This dependency can be specified as required for both install time and runtime or just install time but not runtime.
 
 

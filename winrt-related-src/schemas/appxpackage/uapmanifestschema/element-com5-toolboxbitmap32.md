@@ -11,8 +11,6 @@ no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:Co
 
 
 
-## Description
-
 Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button.
 
 ## Element hierarchy

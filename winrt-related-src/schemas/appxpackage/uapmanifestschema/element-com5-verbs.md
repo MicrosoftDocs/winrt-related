@@ -10,8 +10,6 @@ no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:Co
 # com5:Verbs
 
 
-## Description
-
 Specifies the verbs to be registered for an application.
 
 ## Element hierarchy

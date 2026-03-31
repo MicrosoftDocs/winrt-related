@@ -11,8 +11,6 @@ no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:Co
 
 
 
-## Description
-
 Registers an in-process server with one or many class registrations.
 
 ## Element hierarchy

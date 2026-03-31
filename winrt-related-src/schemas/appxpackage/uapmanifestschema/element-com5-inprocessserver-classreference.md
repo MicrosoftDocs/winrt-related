@@ -11,8 +11,6 @@ no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:Co
 
 
 
-## Description
-
 Specifies the class or class reference with which the registered in-process server is associated and sets registration details.
 
 ## Element hierarchy

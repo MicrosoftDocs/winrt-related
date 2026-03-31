@@ -11,8 +11,6 @@ no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:Co
 
 
 
-## Description
-
 Specifies the class with which the registered in-process handler is associated and sets registration details.
 
 ## Element hierarchy

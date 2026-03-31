@@ -10,8 +10,6 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 Declares an app extensibility point of type windows.packageExtension.
 
-## Description
-
 Declares an app extensibility point of type *windows.packageExtension*. This element indicates which categories of extensions the package intends to consume and/or host.
 
 
