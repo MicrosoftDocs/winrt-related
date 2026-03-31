@@ -61,8 +61,7 @@ None.
 |-|-|
 | [uap:SupportedFileTypes (type: CT_FTASupportedFileTypes)](element-uap-supportedfiletypes.md) | Defines the file types associated with the app. They are unique per package and are case sensitive. |
 
-## Related elements
-
+## See also
 The following elements have the same name as this one, but different content or attributes:
 
 - [uap:FileType (type: ST_FileType)](element-1-uap-filetype.md)

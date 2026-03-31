@@ -53,8 +53,7 @@ None.
 |---------------|-------------|
 | [Application](element-application.md) | Represents an app that comprises part of or all of the functionality delivered in the package. |
 
-## Related elements
-
+## See also
 The following elements have the same name as this one, but different content or attributes:
 
 - **[Extensions (type: CT_PackageExtensions)](element-extensions.md)**

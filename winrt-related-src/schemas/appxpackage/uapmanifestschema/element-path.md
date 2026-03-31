@@ -48,8 +48,7 @@ None.
 | [InProcessServer](element-inprocessserver.md) | Declares a package extensibility point of type *windows.activatableClass.inProcessServer*. The app uses a dynamic link library (DLL) that exposes one or more activatable classes. |
 | [ProxyStub](element-proxystub.md) | Declares a package extensibility point of type *windows.activatableClass.proxyStub*. A proxy can be composed of one or more interfaces. |
 
-## Related elements
-
+## See also
 The following elements have the same name as this one, but different content or attributes:
 
 - [Path (type: ST_Executable)](element-1-path.md)

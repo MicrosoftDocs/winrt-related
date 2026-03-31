@@ -65,8 +65,7 @@ None.
 |-|-|
 | [uap:AppointmentsProviderLaunchActions](element-uap-appointmentsproviderlaunchactions.md) | Declares actions to take when a appointment is launched. |
 
-## Related elements
-
+## See also
 The following elements have the same name as this one, but different content or attributes:
 
 - **[uap:LaunchAction (in type: CT_AutoPlayContent)](element-uap-launchaction.md)**
