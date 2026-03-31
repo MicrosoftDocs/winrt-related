@@ -37,8 +37,7 @@ Registers an ExeServer with one or many class registrations.
 </com:ExeServer>
 ```
 
-## Key
-
+### Key
 `{}`   specific range of occurrences
 
 ## Attributes and elements

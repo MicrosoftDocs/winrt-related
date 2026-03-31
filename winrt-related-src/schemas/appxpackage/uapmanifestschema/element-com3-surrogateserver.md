@@ -37,8 +37,7 @@ Registers a SurrogateServer with one or many class registrations.
 </com3:SurrogateServer>
 ```
 
-## Key
-
+### Key
 `{}`   specific range of occurrences
 
 ## Attributes and elements

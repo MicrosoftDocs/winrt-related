@@ -43,8 +43,7 @@ Registers an in-process handler with one or many class registrations. This schem
 </com5:InProcessHandler>
 ```
 
-## Key
-
+### Key
 `?`    optional (zero or one) 
 
 

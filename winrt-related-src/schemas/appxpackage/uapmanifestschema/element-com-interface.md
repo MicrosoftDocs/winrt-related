@@ -42,8 +42,7 @@ Registers new COM Interfaces.
 </com:Interface>
 ```
 
-## Key
-
+### Key
 `?`    optional (zero or one)
 
 ## Attributes and elements

@@ -37,8 +37,7 @@ Specifies the default and main data formats supported by an application.
 </com:DataFormats>
 ```
 
-## Key
-
+### Key
 `{}`   specific range of occurrences
 
 ## Attributes and elements

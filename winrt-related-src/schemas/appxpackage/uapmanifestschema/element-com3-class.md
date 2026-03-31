@@ -45,8 +45,7 @@ Defines a class registration in a COM server hosted in a Windows service that is
 </com3:Class>
 ```
 
-## Key
-
+### Key
 `?`    optional (zero or one)
 
 ## Attributes and elements

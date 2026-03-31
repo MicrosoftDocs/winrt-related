@@ -34,8 +34,7 @@ Provides default icon information for iconic presentations of objects.
   ResourceIndex = 'An optional integer value.' />
 ```
 
-## Key
-
+### Key
 `?`    optional (zero or one)
 
 ## Attributes and elements
