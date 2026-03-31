@@ -45,8 +45,7 @@ None.
 |-|-|
 | [OutOfProcessServer](element-outofprocessserver.md) | Declares a package extension point of type **windows.activatableClass.outOfProcessServer**. The app uses an executable (`.exe`) that exposes one or more activatable classes. |
 
-## Related elements
-
+## See also
 The following elements have the same name as this one, but different content or attributes:
 
 - **[Path (type: ST_FileName)](element-path.md)**

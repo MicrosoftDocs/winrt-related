@@ -59,8 +59,7 @@ Declares a runtime class associated with the extensibility point.
 |-|-|
 | [InProcessServer](element-inprocessserver.md) | Declares a package extensibility point of type **windows.activatableClass.inProcessServer**. The app uses a dynamic link library (DLL) that exposes one or more activatable classes. |
 
-## Related elements
-
+## See also
 The following elements have the same name as this one, but different content or attributes:
 
 - **[ActivatableClass (type: CT_OutOfProcessActivatableClass)](element-1-activatableclass.md)**

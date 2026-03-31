@@ -87,8 +87,7 @@ Declares an extensibility point for the package.
 |-|-|
 | [Extensions (type: CT_PackageExtensions)](element-extensions.md) | Defines one or more extensibility points for the package. |
 
-## Related elements
-
+## See also
 The following elements have the same name as this one, but different content or attributes:
 
 - [Extension (global)](element-1-extension.md)

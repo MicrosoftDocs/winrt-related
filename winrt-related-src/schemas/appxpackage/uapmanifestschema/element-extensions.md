@@ -51,8 +51,7 @@ None.
 |-|-|
 | [Package](element-package.md) | Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system. |
 
-## Related elements
-
+## See also
 The following elements have the same name as this one, but different content or attributes:
 
 - [Extensions (in Application)](element-1-extensions.md)

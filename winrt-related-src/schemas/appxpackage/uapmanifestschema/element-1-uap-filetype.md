@@ -52,8 +52,7 @@ None.
 |-|-|
 | [uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes)](element-1-uap-supportedfiletypes.md) | Defines the file types that the app can share. |
 
-## Related elements
-
+## See also
 The following elements have the same name as this one, but different content or attributes:
 
 - **[uap:FileType (type: CT_FTASupportedFileTypes)](element-uap-filetype.md)**
