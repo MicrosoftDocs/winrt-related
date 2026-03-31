@@ -75,7 +75,7 @@ Defines an in-process server class registration.
 | DisplayName | A localizable string corresponding to the default value of the CLSID's key. | A string between 1 and 256 characters in length. This string is localizable.| No |
 
 
-## Child Elements
+## Child elements
 
 | Element | Description |
 | -----------| -------------|

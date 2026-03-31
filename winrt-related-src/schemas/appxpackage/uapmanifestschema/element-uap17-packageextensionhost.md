@@ -16,7 +16,7 @@ Declares an app extensibility point of type *windows.packageExtensionHost*. This
 
 
 
-## Element Hierarchy
+## Element hierarchy
 <dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
 <dd>
 <dl><dt><a href = "element-extensions.md">&lt;Extensions&gt;</a></dt>
@@ -45,7 +45,7 @@ Declares an app extensibility point of type *windows.packageExtensionHost*. This
 
 
 
-## Child Elements
+## Child elements
 
 | Element | Description |
 | -----------| -------------|

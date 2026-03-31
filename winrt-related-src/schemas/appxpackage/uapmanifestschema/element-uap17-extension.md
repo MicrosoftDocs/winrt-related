@@ -12,7 +12,7 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 Declares an extensibility point for the app.
 
-## Element Hierarchy
+## Element hierarchy
 <dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
 <dd>
 <dl><dt><a href = "element-extensions.md">&lt;Extensions&gt;</a></dt>
@@ -79,7 +79,7 @@ Declares an extensibility point for the app.
 | desktop7:Scope | Specifies whether the registrations are only visible to other applications running as a user who has this package registered (user), or whether they are visible to all users and services on the machine (machine). The default value is "user". Scope="machine" requires the *Microsoft.classicAppCompatElevated_8wekyb3d8bbwe* capability. | One of the following values: "machine" , "user"| No |
 
 
-## Child Elements
+## Child elements
 
 | Element | Description |
 | -----------| -------------|

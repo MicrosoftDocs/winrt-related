@@ -49,7 +49,7 @@ Specifies categories implemented by the class.
 </com5:ImplementedCategories>
 ```
 
-## Child Elements
+## Child elements
 
 | Element | Description |
 | -----------| -------------|

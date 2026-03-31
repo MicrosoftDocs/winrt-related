@@ -52,7 +52,7 @@ Version number and additional information about the type library.
 | **HelpDirectory** | The HELPDIR subkey. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.| Yes |  |
 | **DisplayName** | The display name for the version number. | A string between 1 and 256 characters in length. This string is localizable.| Yes |  |
 
-### Child Elements
+### Child elements
 
 | Child element | Description |
 |-|-|

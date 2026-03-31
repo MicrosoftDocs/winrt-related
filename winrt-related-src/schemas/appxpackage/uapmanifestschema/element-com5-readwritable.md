@@ -55,7 +55,7 @@ Specifies that an application can read and write files.
 
 
 
-## Child Elements
+## Child elements
 
 | Element | Description |
 | -----------| -------------|

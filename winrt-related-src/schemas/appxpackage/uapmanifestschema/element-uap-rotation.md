@@ -37,7 +37,7 @@ Specifies a single rotational orientation in which an app will display.
 |-|-|-|-|-|
 | **Preference** | The specified orientation of the rotation. | A string that can have one of the following values: *portrait*, *landscape*, *portraitFlipped*, or *landscapeFlipped*. | Yes |  |
 
-### Child Elements
+### Child elements
 
 None.
 

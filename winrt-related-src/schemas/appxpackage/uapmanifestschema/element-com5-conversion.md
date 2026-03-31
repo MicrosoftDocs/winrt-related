@@ -51,7 +51,7 @@ Specifies the formats an application can read and write.
 
 
 
-## Child Elements
+## Child elements
 
 | Element | Description |
 | -----------| -------------|

@@ -47,7 +47,7 @@ Specifies the verbs to be registered for an application.
 </com5:Verbs>
 ```
 
-## Child Elements
+## Child elements
 
 | Element | Description |
 | -----------| -------------|
