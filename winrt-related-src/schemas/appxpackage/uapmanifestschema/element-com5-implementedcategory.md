@@ -9,8 +9,6 @@ no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:Co
 
 # com5:ImplementedCategory
 
-## Description
-
 Indicates that the class has implemented the specified category.
 
 ## Element hierarchy

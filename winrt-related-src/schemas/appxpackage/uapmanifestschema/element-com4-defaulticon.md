@@ -9,8 +9,6 @@ no-loc: [Package, Applications, Application, Extensions, com4:Class, com4:Defaul
 
 # com4:DefaultIcon
 
-## Description
-
 Provides default icon information for iconic presentations of objects.
 
 ## Element hierarchy

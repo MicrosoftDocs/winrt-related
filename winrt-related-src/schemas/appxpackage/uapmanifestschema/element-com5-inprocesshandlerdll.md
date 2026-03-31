@@ -11,8 +11,6 @@ no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:Co
 
 
 
-## Description
-
 Specifies the path and processor architecture of an in-process handler DLL. 
 
 ## Element hierarchy

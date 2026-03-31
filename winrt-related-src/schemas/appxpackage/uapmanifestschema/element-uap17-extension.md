@@ -8,8 +8,6 @@ keywords: windows 10, windows 11, uwp, schema, manifest, com
 
 # uap17:Extension
 
-## Description
-
 Declares an extensibility point for the app.
 
 ## Element hierarchy

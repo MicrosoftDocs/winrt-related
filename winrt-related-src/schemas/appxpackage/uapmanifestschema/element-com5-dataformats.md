@@ -11,8 +11,6 @@ no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:Co
 
 
 
-## Description
-
 Specifies the default and main data formats supported by an application.
 
 

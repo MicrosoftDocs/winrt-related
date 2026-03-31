@@ -11,8 +11,6 @@ no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:Co
 
 
 
-## Description
-
 Specifies categories implemented by the class.
 
 

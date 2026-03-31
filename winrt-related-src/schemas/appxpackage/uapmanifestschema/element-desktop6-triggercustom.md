@@ -1,4 +1,4 @@
-﻿---
+---
 
 title: desktop6:TriggerCustom
 description: Describes a trigger event for the current service.
@@ -10,8 +10,6 @@ ms.custom: 19H1
 ---
 
 # desktop6:TriggerCustom
-
-## Description
 
 Describes a trigger event for the current service.
 

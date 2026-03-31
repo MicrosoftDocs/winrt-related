@@ -11,8 +11,6 @@ no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:Co
 
 
 
-## Description
-
 Registers an in-process handler with one or many class registrations. This schema introduces some minor changes in syntactic validation from the com4 schema.
  
 
