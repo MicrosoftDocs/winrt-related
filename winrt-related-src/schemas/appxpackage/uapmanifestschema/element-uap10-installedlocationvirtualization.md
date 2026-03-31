@@ -54,8 +54,7 @@ This extension is intended to be used by desktop apps in an MSIX package that wr
 
 This extension has no effect in a UWP app.
 
-## Example
-
+## Examples
 ```xml
 <?xml
   version="1.0"
