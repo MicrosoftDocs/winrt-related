@@ -1,7 +1,7 @@
 ---
 title: uap5:AppExecutionAlias
 description: Specifies the application's execution alias to determine the executable of the app to be activated (uap5:AppExecutionAlias).
-ms.date: 10/10/2017
+ms.date: 04/14/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 no-loc: [Package, Applications, Application, Extensions, uap5:Extension, uap5:AppExecutionAlias]
@@ -43,14 +43,14 @@ Specifies the application's execution alias to determine the executable of the a
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **desktop4:Subsystem** | Indicates whether the app is a standard UWP app or a UWP console app. | An optional string that can have one of the following values: "console" or "windows". | No |  |
-| **uap10:Subsystem** | Indicates whether the app is a standard UWP app or a UWP console app. | An optional string that can have one of the following values: "console" or "windows". | No |  |
+| **desktop4:Subsystem** | Indicates whether the app uses the Windows subsystem or the console subsystem. | An optional string that can have one of the following values: "console" or "windows". | No |  |
+| **uap10:Subsystem** | Indicates whether the app uses the Windows subsystem or the console subsystem. | An optional string that can have one of the following values: "console" or "windows". | No |  |
 
 ### Child elements
 
 | Child element | Description |
 |-|-|
-| [ExecutionAlias](element-uap5-ExecutionAlias.md) | The executable of a UWP app to be activated from a command prompt. |
+| [ExecutionAlias](element-uap5-ExecutionAlias.md) | The executable of the app to be activated from a command prompt. |
 
 ### Parent elements
 
