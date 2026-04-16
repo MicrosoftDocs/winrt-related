@@ -43,49 +43,48 @@ The following table lists all of the elements in this schema, sorted alphabetica
  Registration of a Windows Shell StorageProviderStatusUI for cloud-based placeholder files. |
 | [cloudFiles2:StorageProviderStatusUISourceFactory](element-cloudfiles2-storageproviderstatusuisourcefactory.md) | Registration of a Windows shell [IStorageProviderStatusUISourceFactory](/uwp/api/windows.storage.provider.istorageproviderstatusuisourcefactory) for cloud-based placeholder files. |
  Registration of a Windows Shell StorageProviderStatusUI for cloud-based placeholder files. |
-| [com:Aspect (in ExeServer/Class)](element-com-exe-aspect.md) | Specifies the desired data or view aspect of the object when drawing or getting data. |
-| [com:Aspect (in SurrogateServer/Class)](element-com-surrogate-aspect.md) | Specifies the desired data or view aspect of the object when drawing or getting data. |
+| [com:Aspect (in ExeServer/Class)](element-com-aspect.md) | Specifies the desired data or view aspect of the object when drawing or getting data. |
+| [com:Aspect (in SurrogateServer/Class)](element-com-aspect.md) | Specifies the desired data or view aspect of the object when drawing or getting data. |
 | [com:Class (in ExeServer)](element-com-exeserver-class.md) | Defines an ExeServer class registration. |
 | [com:Class (in SurrogateServer/Class)](element-com-surrogateserver-class.md) | Defines a SurrogateServer class registration. |
 | [com:ComInterface (in Application/Extensions)](element-com-cominterface.md) | Declares a package extension point of type windows.comInterface. The comInterface extension may include three types of registrations: Interface, ProxyStub, or TypeLib. |
 | [com:ComServer](element-com-comserver.md) | Declares a package extension point of type windows.comServer. The comServer extension may include four types of registrations: ExeServer, SurrogateServer, ProgId, or TreatAsClass. |
-| [com:Conversion (in ExeServer/Class)](element-com-exe-conversion.md) | Specifies the formats an application can read and write. |
-| [com:Conversion (in SurrogateServer/Class)](element-com-surrogate-conversion.md) | Specifies the formats an application can read and write. |
-| [com:DataFormat (in ExeServer/Class)](element-com-exe-dataformat.md) | The data format supported by an application. |
-| [com:DataFormat (in SurrogateServer/Class)](element-com-surrogate-dataformat.md) | The data format supported by an application. |
-| [com:DataFormats (in ExeServer/Class)](element-com-exe-dataformats.md) | Specifies the default and main data formats supported by an application. |
-| [com:DataFormats (in SurrogateServer/Class)](element-com-surrogate-dataformats.md) | Specifies the default and main data formats supported by an application. |
-| [com:DefaultIcon (in ExeServer/Class)](element-com-exe-defaulticon.md) | Provides default icon information for iconic presentations of objects. |
-| [com:DefaultIcon (in SurrogateServer/Class)](element-com-surrogate-defaulticon.md) | Provides default icon information for iconic presentations of objects. |
+| [com:Conversion (in ExeServer/Class)](element-com-conversion.md) | Specifies the formats an application can read and write. |
+| [com:Conversion (in SurrogateServer/Class)](element-com-conversion.md) | Specifies the formats an application can read and write. |
+| [com:DataFormat (in ExeServer/Class)](element-com-dataformat.md) | The data format supported by an application. |
+| [com:DataFormat (in SurrogateServer/Class)](element-com-dataformat.md) | The data format supported by an application. |
+| [com:DataFormats (in ExeServer/Class)](element-com-dataformats.md) | Specifies the default and main data formats supported by an application. |
+| [com:DataFormats (in SurrogateServer/Class)](element-com-dataformats.md) | Specifies the default and main data formats supported by an application. |
+| [com:DefaultIcon (in ExeServer/Class)](element-com-defaulticon.md) | Provides default icon information for iconic presentations of objects. |
+| [com:DefaultIcon (in SurrogateServer/Class)](element-com-defaulticon.md) | Provides default icon information for iconic presentations of objects. |
 | [com:ExeServer](element-com-exeserver.md) | Registers an ExeServer with one or many class registrations. |
 | [com:Extension](element-com-extension.md) | Provides functionality to expose COM registrations to clients outside of the app package. |
-| [com:Format (in ExeServer/Readable)](element-com-exe-rformat.md) | Specifies the file format an application can read (convert from). |
-| [com:Format (in ExeServer/ReadWritable)](element-com-exe-rwformat.md) | Specifies the file format an application can read and write (activate as). |
-| [com:Format (in SurrogateServer/Readable)](element-com-surrogate-rformat.md) | Specifies the file format an application can read (convert from). |
-| [com:Format (in SurrogateServer/ReadWritable)](element-com-surrogate-rwformat.md) | Specifies the file format an application can read and write (activate as). |
-| [com:ImplementedCategories (in ExeServer/Class)](element-com-exe-implementedcategories.md) | Specifies categories implemented by the class. |
-| [com:ImplementedCategories (in SurrogateServer/Class)](element-com-surrogate-implementedcategories.md) | Specifies categories implemented by the class. |
-| [com:ImplementedCategory (in ExeServer/Class)](element-com-exe-implementedcategory.md) | Indicates that the class has implemented the specified category. |
-| [com:ImplementedCategory (in SurrogateServer/Class)](element-com-surrogate-implementedcategory.md) | Indicates that the class has implemented the specified category. |
+| [com:Format (in ExeServer/Readable)](element-com-format.md) | Specifies the file format an application can read (convert from). |
+| [com:Format (in ExeServer/ReadWritable)](element-com-format.md) | Specifies the file format an application can read and write (activate as). |
+| [com:Format (in SurrogateServer/Readable)](element-com-format.md) | Specifies the file format an application can read (convert from). |
+| [com:Format (in SurrogateServer/ReadWritable)](element-com-format.md) | Specifies the file format an application can read and write (activate as). |
+| [com:ImplementedCategories (in ExeServer/Class)](element-com-implementedcategories.md) | Specifies categories implemented by the class. |
+| [com:ImplementedCategories (in SurrogateServer/Class)](element-com-implementedcategories.md) | Specifies categories implemented by the class. |
+| [com:ImplementedCategory (in ExeServer/Class)](element-com-implementedcategory.md) | Indicates that the class has implemented the specified category. |
+| [com:ImplementedCategory (in SurrogateServer/Class)](element-com-implementedcategory.md) | Indicates that the class has implemented the specified category. |
 | [com:Interface](element-com-interface.md) | Registers new COM Interfaces. |
-| [com:MiscStatus (in ExeServer/Class)](element-com-exe-miscstatus.md) | Specifies how to create and display an object. |
-| [com:MiscStatus (in SurrogateServer/Class)](element-com-surrogate-miscstatus.md) | Specifies how to create and display an object. |
+| [com:MiscStatus (in ExeServer/Class)](element-com-miscstatus.md) | Specifies how to create and display an object. |
+| [com:MiscStatus (in SurrogateServer/Class)](element-com-miscstatus.md) | Specifies how to create and display an object. |
 | [com:ProgId](element-com-progid.md) | A programmatic identifier (ProgID) that can be associated with a CLSID. The ProgID identifies a class but with less precision than a CLSID because it is not guaranteed to be globally unique. |
 | [com:ProxyStub (in ComInterface)](element-com-proxystub.md) | Registers a proxy stub. |
-| [com:Readable (in ExeServer)](element-com-exe-readable.md) | Specifies that an application can only read files. |
-| [com:Readable (in SurrogateServer)](element-com-surrogate-readable.md) | Specifies that an application can only read files. |
-| [com:ReadWritable (in ExeServer)](element-com-exe-ReadWritable.md) | Specifies that an application can read and write files. |
-| [com:ReadWritable (in SurrogateServer)](element-com-surrogate-ReadWritable.md) | Specifies that an application can read and write files. |
+| [com:Readable (in ExeServer)](element-com-readable.md) | Specifies that an application can only read files. |
+| [com:Readable (in SurrogateServer)](element-com-readable.md) | Specifies that an application can only read files. |
+| [com:ReadWritable](element-com-readwritable.md) | Specifies that an application can read and write files. |
 | [com:SurrogateServer](element-com-surrogateserver.md) | Registers a SurrogateServer with one or many class registrations. |
-| [com:ToolboxBitmap32 (in ExeServer/Class)](element-com-exe-toolboxbitmap32.md) | Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button. |
-| [com:ToolboxBitmap32 (in SurrogateServer/Class)](element-com-surrogate-toolboxbitmap32.md) | Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button. |
+| [com:ToolboxBitmap32 (in ExeServer/Class)](element-com-toolboxbitmap32.md) | Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button. |
+| [com:ToolboxBitmap32 (in SurrogateServer/Class)](element-com-toolboxbitmap32.md) | Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button. |
 | [com:TreatAsClass](element-com-treatasclass.md) | A registration that corresponds to a CLSID registration with the TreatAs subkey. |
 | [com:TypeLib (in ComInterface)](element-com-typelib.md) | Registers a type library. |
 | [com:TypeLib (in Interface)](element-com-interface-typelib.md) | A type library for an interface. |
-| [com:Verb (in ExeServer/Class)](element-com-exe-verb.md) | The verb to be registered for an application. |
-| [com:Verb (in SurrogateServer/Class)](element-com-surrogate-verb.md) | The verb to be registered for an application. |
-| [com:Verbs (in ExeServer/Class)](element-com-exe-verbs.md) | Specifies the verbs to be registered for an application. |
-| [com:Verbs (in SurrogateServer/Class)](element-com-surrogate-verbs.md) | Specifies the verbs to be registered for an application. |
+| [com:Verb (in ExeServer/Class)](element-com-verb.md) | The verb to be registered for an application. |
+| [com:Verb (in SurrogateServer/Class)](element-com-verb.md) | The verb to be registered for an application. |
+| [com:Verbs (in ExeServer/Class)](element-com-verbs.md) | Specifies the verbs to be registered for an application. |
+| [com:Verbs (in SurrogateServer/Class)](element-com-verbs.md) | Specifies the verbs to be registered for an application. |
 | [com:Version (in ComInterface/TypeLib)](element-com-version.md) | Version number and additional information about the type library. |
 | [com:Win32Path (in ComInterface/TypeLib)](element-com-win32path.md) | A path to the 32-bit type library. |
 | [com:Win64Path (in ComInterface/TypeLib)](element-com-win64path.md) | A path to the 64-bit type library. |

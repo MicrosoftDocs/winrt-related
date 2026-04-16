@@ -1,16 +1,16 @@
 ---
-ms.assetid: 04d8934f-e032-4b10-b119-343c07364163
-title: com:ToolboxBitmap32 (in ExeServer/Class)
-description: Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button (in ExeServer/Class).
+ms.assetid: 2f6b2357-2e05-40ac-861d-7cd67202f0e2
+title: com:Conversion
+description: Specifies the formats an application can read and write (in ExeServer/Class).
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
-no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:ExeServer, com:Class, com:ToolboxBitmap32]
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:ExeServer, com:Class, com:Conversion]
 ---
 
-# com:ToolboxBitmap32 (in ExeServer/Class)
+# com:Conversion (in ExeServer/Class)
 
-Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button.
+Specifies the formats an application can read and write.
 
 ## Element hierarchy
 
@@ -22,29 +22,35 @@ Identifies the module name and resource ID for a 16 x 16 bitmap to use for the f
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:ComServer>`](element-com-comserver.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:ExeServer>`](element-com-exeserver.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:Class>`](element-com-exeserver-class.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com:ToolboxBitmap32>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com:Conversion>`**  
 
 ## Syntax
 
 ```xml
-<com:ToolboxBitmap32
-  Path = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
-  ResourceId = 'An optional integer value.' >
-</com:ToolboxBitmap32>
+<com:Conversion>
+
+  <!-- Child elements -->
+  com:Readable?,
+  com:ReadWritable?
+
+</com:Conversion>
 ```
+
+### Key
+`?`    optional (zero or one)
 
 ## Attributes and elements
 
 ### Attributes
 
-| Attribute | Description | Data type | Required | Default value |
-|-|-|-|-|-|
-| **Path** | The path to the bitmap. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
-| **ResourceId** | The resource ID of the bitmap. | An optional integer value. | No |  |
+None.
 
 ### Child elements
 
-None.
+| Child element | Description |
+|-|-|
+| [com:Readable](element-com-readable.md) | Specifies that the application can only read files. |
+| [com:ReadWritable](element-com-readwritable.md) | Specifies that the application can read and write files. |
 
 ### Parent elements
 

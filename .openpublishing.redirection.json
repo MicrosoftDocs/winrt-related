@@ -349,6 +349,156 @@
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-rescap2-extension-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-rescap2-extension",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-aspect.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-aspect",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-aspect.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-aspect",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-conversion.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-conversion",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-conversion.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-conversion",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-dataformat.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-dataformat",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-dataformat.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-dataformat",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-dataformats.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-dataformats",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-dataformats.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-dataformats",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-defaulticon.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-defaulticon",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-defaulticon.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-defaulticon",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-implementedcategories.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-implementedcategories",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-implementedcategories.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-implementedcategories",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-implementedcategory.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-implementedcategory",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-implementedcategory.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-implementedcategory",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-miscstatus.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-miscstatus",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-miscstatus.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-miscstatus",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-readable.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-readable",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-readable.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-readable",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-readwritable.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-readwritable",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-readwritable.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-readwritable",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-toolboxbitmap32.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-toolboxbitmap32",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-toolboxbitmap32.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-toolboxbitmap32",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-verb.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-verb",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-verb.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-verb",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-verbs.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-verbs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-verbs.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-verbs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-rformat.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-format",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-rformat.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-format",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-rwformat.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-format",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-rwformat.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-format",
+      "redirect_document_id": false
     }
   ]
 }

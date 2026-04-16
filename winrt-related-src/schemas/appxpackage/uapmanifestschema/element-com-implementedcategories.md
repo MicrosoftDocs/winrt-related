@@ -1,14 +1,14 @@
 ---
-ms.assetid: 194c0da4-ada9-4107-b5dd-3bf609f328b2
-title: com:ImplementedCategories (in SurrogateServer/Class)
-description: Specifies categories implemented by the class (in SurrogateServer/Class).
+ms.assetid: 14552b44-db78-47f8-9f45-4021d82f1d74
+title: com:ImplementedCategories
+description: Specifies categories implemented by the class (in ExeServer/Class).
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
-no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:SurrogateServer, com:Class, com:ImplementedCategories]
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:ExeServer, com:Class, com:ImplementedCategories]
 ---
 
-# com:ImplementedCategories (in SurrogateServer/Class)
+# com:ImplementedCategories (in ExeServer/Class)
 
 Specifies categories implemented by the class.
 
@@ -20,8 +20,8 @@ Specifies categories implemented by the class.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:Extension>`](element-com-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:ComServer>`](element-com-comserver.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:SurrogateServer>`](element-com-surrogateserver.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:Class>`](element-com-surrogateserver-class.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:ExeServer>`](element-com-exeserver.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:Class>`](element-com-exeserver-class.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com:ImplementedCategories>`**  
 
 ## Syntax
@@ -48,17 +48,17 @@ None.
 
 | Child element | Description |
 |-|-|
-| [ImplementedCategory](element-com-surrogate-implementedcategory.md) | Indicates that the class has implemented the specified category. |
+| [com:ImplementedCategory](element-com-implementedcategory.md) | Indicates that the class has implemented the specified category. |
 
 ### Parent elements
 
 | Parent element | Description |
 |-|-|
-| [com:Class](element-com-surrogateserver-class.md) | Defines a SurrogateServer class registration. |
+| [com:Class](element-com-exeserver-class.md) | Defines an ExeServer class registration. |
 
 ## Requirements
 
-| Item  | Value  |
+| Item | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
 | **Minimum OS Version** | Windows 10 version 1703 (Build 15063) |

@@ -200,10 +200,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-cloudfiles-verb.md
           - name: "cloudFiles2:StorageProviderStatusUISourceFactory"
             href: schemas/appxpackage/uapmanifestschema/element-cloudfiles2-storageproviderstatusuisourcefactory.md
-          - name: "com:Aspect (in ExeServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-exe-aspect.md
-          - name: "com:Aspect (in SurrogateServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-aspect.md
+          - name: "com:Aspect"
+            href: schemas/appxpackage/uapmanifestschema/element-com-aspect.md
           - name: "com:Class (in SurrogateServer/Class)"
             href: schemas/appxpackage/uapmanifestschema/element-com-surrogateserver-class.md
           - name: "com:Class (in ExeServer)"
@@ -212,80 +210,50 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-com-cominterface.md
           - name: "com:ComServer"
             href: schemas/appxpackage/uapmanifestschema/element-com-comserver.md
-          - name: "com:Conversion (in SurrogateServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-conversion.md
-          - name: "com:Conversion (in ExeServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-exe-conversion.md
-          - name: "com:DataFormat (in SurrogateServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-dataformat.md
-          - name: "com:DataFormat (in ExeServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-exe-dataformat.md
-          - name: "com:DataFormats (in SurrogateServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-dataformats.md
-          - name: "com:DataFormats (in ExeServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-exe-dataformats.md
-          - name: "com:DefaultIcon (in SurrogateServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-defaulticon.md
-          - name: "com:DefaultIcon (in ExeServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-exe-defaulticon.md
+          - name: "com:Conversion"
+            href: schemas/appxpackage/uapmanifestschema/element-com-conversion.md
+          - name: "com:DataFormat"
+            href: schemas/appxpackage/uapmanifestschema/element-com-dataformat.md
+          - name: "com:DataFormats"
+            href: schemas/appxpackage/uapmanifestschema/element-com-dataformats.md
+          - name: "com:DefaultIcon"
+            href: schemas/appxpackage/uapmanifestschema/element-com-defaulticon.md
           - name: "com:ExeServer"
             href: schemas/appxpackage/uapmanifestschema/element-com-exeserver.md
           - name: "com:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-com-extension.md
-          - name: "com:Format (in SurrogateServer/Class, in com:ReadWritable)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-rwformat.md
-          - name: "com:Format (in ExeServer/Class, in com:ReadWritable)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-exe-rwformat.md
-          - name: "com:Format (in ExeServer/Class, in com:Readable)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-exe-rformat.md
-          - name: "com:Format (in SurrogateServer/Class, in com:Readable)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-rformat.md
-          - name: "com:ImplementedCategories (in ExeServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-exe-ImplementedCategories.md
-          - name: "com:ImplementedCategories (in SurrogateServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-ImplementedCategories.md
-          - name: "com:ImplementedCategory (in ExeServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-exe-ImplementedCategory.md
-          - name: "com:ImplementedCategory (in SurrogateServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-ImplementedCategory.md
+          - name: "com:Format"
+            href: schemas/appxpackage/uapmanifestschema/element-com-format.md
+          - name: "com:ImplementedCategories"
+            href: schemas/appxpackage/uapmanifestschema/element-com-implementedcategories.md
+          - name: "com:ImplementedCategory"
+            href: schemas/appxpackage/uapmanifestschema/element-com-implementedcategory.md
           - name: "com:Interface"
             href: schemas/appxpackage/uapmanifestschema/element-com-interface.md
-          - name: "com:MiscStatus (in ExeServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-exe-miscstatus.md
-          - name: "com:MiscStatus (in SurrogateServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-miscstatus.md
+          - name: "com:MiscStatus"
+            href: schemas/appxpackage/uapmanifestschema/element-com-miscstatus.md
           - name: "com:ProgId"
             href: schemas/appxpackage/uapmanifestschema/element-com-progid.md
           - name: "com:ProxyStub"
             href: schemas/appxpackage/uapmanifestschema/element-com-proxystub.md
-          - name: "com:Readable (in SurrogateServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-readable.md
-          - name: "com:Readable (in ExeServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-exe-readable.md
-          - name: "com:ReadWritable (in SurrogateServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-readwritable.md
-          - name: "com:ReadWritable (in ExeServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-exe-readwritable.md
+          - name: "com:Readable"
+            href: schemas/appxpackage/uapmanifestschema/element-com-readable.md
+          - name: "com:ReadWritable"
+            href: schemas/appxpackage/uapmanifestschema/element-com-readwritable.md
           - name: "com:SurrogateServer"
             href: schemas/appxpackage/uapmanifestschema/element-com-surrogateserver.md
-          - name: "com:ToolboxBitmap32 (in SurrogateServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-toolboxbitmap32.md
-          - name: "com:ToolboxBitmap32 (in ExeServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-exe-toolboxbitmap32.md
+          - name: "com:ToolboxBitmap32"
+            href: schemas/appxpackage/uapmanifestschema/element-com-toolboxbitmap32.md
           - name: "com:TreatAsClass"
             href: schemas/appxpackage/uapmanifestschema/element-com-treatasclass.md
           - name: "com:TypeLib (in ComInterface)"
             href: schemas/appxpackage/uapmanifestschema/element-com-typelib.md
           - name: "com:TypeLib (in Interface)"
             href: schemas/appxpackage/uapmanifestschema/element-com-interface-typelib.md
-          - name: "com:Verb (in ExeServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-exe-verb.md
-          - name: "com:Verb (in SurrogateServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-verb.md
-          - name: "com:Verbs (in ExeServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-exe-verbs.md
-          - name: "com:Verbs (in SurrogateServer/Class)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-surrogate-verbs.md
+          - name: "com:Verb"
+            href: schemas/appxpackage/uapmanifestschema/element-com-verb.md
+          - name: "com:Verbs"
+            href: schemas/appxpackage/uapmanifestschema/element-com-verbs.md
           - name: "com:Version"
             href: schemas/appxpackage/uapmanifestschema/element-com-version.md
           - name: "com:Win32Path"
