@@ -19,7 +19,7 @@ Declares an app extensibility point of type *windows.appExtension*. This element
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap3:Extension>`](element-uap3-extension-manual.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap3:Extension>`](element-uap3-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap3:AppExtension>`**  
 
 ## Syntax
@@ -58,13 +58,13 @@ Declares an app extensibility point of type *windows.appExtension*. This element
 
 | Child element | Description |
 |-|-|
-| [uap3:Properties](element-uap3-properties-manual.md) | Contains opaque XML that represents custom, extension-specific information that is simply stored and not read by the operating system. The information is only read by the host app. |
+| [uap3:Properties](element-uap3-properties.md) | Contains opaque XML that represents custom, extension-specific information that is simply stored and not read by the operating system. The information is only read by the host app. |
 
 ### Parent elements
 
 | Parent element | Description |
 |-|-|
-| [uap3:Extension](element-uap3-extension-manual.md) | Declares an extensibility point for the app. |
+| [uap3:Extension](element-uap3-extension.md) | Declares an extensibility point for the app. |
 
 ## Examples
 

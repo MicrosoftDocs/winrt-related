@@ -16,7 +16,7 @@ Declares an app extensibility point of type windows.protocol. A URI association 
 **[`<Package>`](element-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap3:Extension>`](element-uap3-extension-manual.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap3:Extension>`](element-uap3-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap3:Protocol>`**  
 
 ## Syntax
@@ -42,7 +42,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [uap3:Extension](element-uap3-extension-manual.md) | Sets parameters to define the protocol of the extensions. |
+| [uap3:Extension](element-uap3-extension.md) | Sets parameters to define the protocol of the extensions. |
 
 ## Requirements
 

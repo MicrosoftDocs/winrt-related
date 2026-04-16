@@ -274,7 +274,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [printSupport2:SupportedFormats](element-printsupport2-supportedformats.md) | Specifies the Page Description Language (PDL) formats supported by the virtual printer. |
 | [rescap:Extension](element-rescap-extension.md) | Declares an extensibility point for the app. |
 | [rescap:SettingsApp](element-rescap-settingsapp.md) | Registers deep link and search information for settings apps. |
-| [rescap2:Extension](element-rescap2-extension-manual.md) | Declares an extensibility point for the app. |
+| [rescap2:Extension](element-rescap2-extension.md) | Declares an extensibility point for the app. |
 | [rescap3:DesktopApp](element-rescap3-desktopapp.md) | Specifies information for redirecting a Windows Desktop Bridge app's tiles and pins. |
 | [rescap3:DesktopAppMigration](element-rescap3-desktopappmigration.md) | Specifies where to redirect user tiles and pins to a Windows Desktop Bridge app. |
 | [rescap3:Extension](element-rescap3-extension.md) | Declares an extensibility point for the app. |
@@ -349,23 +349,23 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap2:Verb](element-uap2-verb.md) | Defines the verbs associated with a file context menu and enables Windows Desktop Bridge apps to use ddeexec to launch. |
 | [uap2:WebAccountProvider](element-uap2-webaccountprovider.md) | Declares an app extensibility point of type windows.webAccountProvider. |
 | [uap3:AppExecutionAlias](element-uap3-appexecutionalias.md) | Specifies the application's execution alias to determine the executable of the app to be activated. |
-| [uap3:AppExtension](element-uap3-appextension-manual.md) | Declares an app extensibility point of type **windows.appExtension**. This element indicates which categories of extensions the app intends to consume and/or host. |
-| [uap3:AppExtensionHost](element-uap3-appextensionhost-manual.md) | Declares an app extensibility point of type **windows.appExtensionHost**. This element indicates which categories of extensions the app can host.
+| [uap3:AppExtension](element-uap3-appextension.md) | Declares an app extensibility point of type **windows.appExtension**. This element indicates which categories of extensions the app intends to consume and/or host. |
+| [uap3:AppExtensionHost](element-uap3-appextensionhost.md) | Declares an app extensibility point of type **windows.appExtensionHost**. This element indicates which categories of extensions the app can host.
  |
-| [uap3:AppointmentDataProvider](element-uap3-appointmentdataprovider-manual.md) | Declares an app extensibility point of type **windows.appointmentDataProvider**. This element enables apps to become data providers for appointments. |
-| [uap3:AppService](element-uap3-appservice-manual.md) | Declares an app extensibility point of type **windows.appService**. Application Contracts are a way for an app to invoke a background task belonging to another app, or for a background task invoked to service an app contract a way to communicate with its caller. |
-| [uap3:AppUriHandler](element-uap3-appurihandler-manual.md) | Declares an app extensibility point of type **windows.appUriHandler**. |
-| [uap3:Capability](element-uap3-capability-manual.md) | Declares a capability required by a package. |
-| [uap3:ContactDataProvider](element-uap3-contactdataprovider-manual.md) | Declares an app extensibility point of type **windows.contactDataProvider**. This element enables apps to become data providers for contacts. |
-| [uap3:EmailDataProvider](element-uap3-emaildataprovider-manual.md) | Declares an app extensibility point of type **windows.emailDataProvider**. This element enables apps to become data providers for email. |
-| [uap3:Extension](element-uap3-extension-manual.md) | Declares an extensibility point for the app. |
+| [uap3:AppointmentDataProvider](element-uap3-appointmentdataprovider.md) | Declares an app extensibility point of type **windows.appointmentDataProvider**. This element enables apps to become data providers for appointments. |
+| [uap3:AppService](element-uap3-appservice.md) | Declares an app extensibility point of type **windows.appService**. Application Contracts are a way for an app to invoke a background task belonging to another app, or for a background task invoked to service an app contract a way to communicate with its caller. |
+| [uap3:AppUriHandler](element-uap3-appurihandler.md) | Declares an app extensibility point of type **windows.appUriHandler**. |
+| [uap3:Capability](element-uap3-capability.md) | Declares a capability required by a package. |
+| [uap3:ContactDataProvider](element-uap3-contactdataprovider.md) | Declares an app extensibility point of type **windows.contactDataProvider**. This element enables apps to become data providers for contacts. |
+| [uap3:EmailDataProvider](element-uap3-emaildataprovider.md) | Declares an app extensibility point of type **windows.emailDataProvider**. This element enables apps to become data providers for email. |
+| [uap3:Extension](element-uap3-extension.md) | Declares an extensibility point for the app. |
 | [uap3:FileTypeAssociations](element-uap3-filetypeassociation.md) | Defines the types of files used within the application. |
-| [uap3:Host](element-uap3-host-manual.md) | Represents a valid HTTP or HTTPS host name that the app wants to register as able to handle. |
-| [uap3:MainPackageDependency](element-uap3-mainpackagedependency-manual.md) | Specifies the main app package to which this supplemental package applies. |
-| [uap3:Name](element-uap3-name-manual.md) | Specifies a category of extensions that the app can host. |
-| [uap3:Properties](element-uap3-properties-manual.md) | Contains opaque XML that represents custom, extension-specific information that is simply stored and not read by the operating system. The information is only read by the host app. |
+| [uap3:Host](element-uap3-host.md) | Represents a valid HTTP or HTTPS host name that the app wants to register as able to handle. |
+| [uap3:MainPackageDependency](element-uap3-mainpackagedependency.md) | Specifies the main app package to which this supplemental package applies. |
+| [uap3:Name](element-uap3-name.md) | Specifies a category of extensions that the app can host. |
+| [uap3:Properties](element-uap3-properties.md) | Contains opaque XML that represents custom, extension-specific information that is simply stored and not read by the operating system. The information is only read by the host app. |
 | [uap3:Protocol](element-uap3-protocol.md) | Declares an app extensibility point of type windows.protocol. |
-| [uap3:VisualElements](element-uap3-visualelements-manual.md) | Describes the visual aspects of the app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance. |
+| [uap3:VisualElements](element-uap3-visualelements.md) | Describes the visual aspects of the app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance. |
 | [uap4:ContactPanel](element-uap4-contactpanel.md) | Enables the contacts panel in a Windows app. |
 | [uap4:CustomCapability](element-uap4-customcapability.md) | Declares a custom capability required by a package. |
 | [uap4:DevicePortalProvider](element-uap4-deviceportalprovider.md) | Defines a Device Portal provider for deployment. |

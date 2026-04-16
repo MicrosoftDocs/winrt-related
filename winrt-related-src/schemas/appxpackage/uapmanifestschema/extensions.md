@@ -49,7 +49,7 @@ For reference information about the available application-level extensions, see 
 * [**desktop9:Extension**](element-desktop9-extension.md)
 * [**uap:Extension**](element-uap-extension.md)
 * [**uap2:Extension**](element-uap2-extension.md)
-* [**uap3:Extension**](element-uap3-extension-manual.md)
+* [**uap3:Extension**](element-uap3-extension.md)
 * [**uap4:Extension**](element-uap4-extension.md)
 * [**uap5:Extension**](element-uap5-extension.md)
 * [**uap6:Extension**](element-uap6-extension.md)

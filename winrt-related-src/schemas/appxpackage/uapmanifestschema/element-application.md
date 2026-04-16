@@ -135,7 +135,7 @@ You can read more about this custom capability here in [Custom Capabilities](/wi
 ### Important notes about multi-instancing apps
 
 - If an app declares **SupportsMultipleInstances** within the **Application** element, then all foreground extensions will also be multi-instanced.
-- If the app declares **SupportsMultipleInstances** within the **Application** element, then it does not need to be declared at the [Extensions](element-1-extensions.md) level (for example, in a [BackgroundTasks](element-backgroundtasks.md) or [AppService](element-uap3-appservice-manual.md) element).
+- If the app declares **SupportsMultipleInstances** within the **Application** element, then it does not need to be declared at the [Extensions](element-1-extensions.md) level (for example, in a [BackgroundTasks](element-backgroundtasks.md) or [AppService](element-uap3-appservice.md) element).
 - The app should only declare **SupportsMultipleInstances** on background tasks, background audio, or app services.
 - Console apps will always be multi-instanced and must explicitly declare **SupportsMultipleInstances**.
 - Apps can use the **ResourceGroup** declaration in the manifest to group multiple background tasks into the same host. This conflicts with multi-instancing, where each activation goes into a separate host. Therefore, an app cannot declare both **SupportsMultipleInstances** and **ResourceGroup** in the manifest.
