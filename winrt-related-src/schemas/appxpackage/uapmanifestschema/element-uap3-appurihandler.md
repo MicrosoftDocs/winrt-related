@@ -19,7 +19,7 @@ Declares an app extensibility point of type *windows.appUriHandler*.
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap3:Extension>`](element-uap3-extension-manual.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap3:Extension>`](element-uap3-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap3:AppUriHandler>`**  
 
 ## Syntax
@@ -53,14 +53,14 @@ Declares an app extensibility point of type *windows.appUriHandler*.
 
 | Child element | Description |
 |-|-|
-| [uap3:Host](element-uap3-host-manual.md) | Represents a valid HTTP or HTTPS host name that the app wants to register as able to handle. |
+| [uap3:Host](element-uap3-host.md) | Represents a valid HTTP or HTTPS host name that the app wants to register as able to handle. |
 | [uap5:Host](element-uap5-host.md) | Represents a valid HTTP or HTTPS host name with a wildcard that the app wants to register as able to handle. |
 
 ### Parent elements
 
 | Parent element | Description |
 |-|-|
-| [uap3:Extension](element-uap3-extension-manual.md) | Declares an extensibility point for the app.. |
+| [uap3:Extension](element-uap3-extension.md) | Declares an extensibility point for the app.. |
 
 ## Examples
 

@@ -16,7 +16,7 @@ Defines the types of files used within the application.
 **[`<Package>`](element-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap3:Extension>`](element-uap3-extension-manual.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap3:Extension>`](element-uap3-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap3:FileTypeAssociation>`**  
 
 ## Syntax
@@ -89,7 +89,7 @@ Defines the types of files used within the application.
 
 | Parent element | Description |
 |-|-|
-| [uap3:Extension](element-uap3-extension-manual.md) | Sets parameters to define the protocol of the extensions. |
+| [uap3:Extension](element-uap3-extension.md) | Sets parameters to define the protocol of the extensions. |
 
 ## Requirements
 

@@ -17,8 +17,8 @@ Represents a valid HTTP or HTTPS host name with a wildcard that the app wants to
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap3:Extension>`](element-uap3-extension-manual.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap3:AppUriHandler>`](element-uap3-appurihandler-manual.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap3:Extension>`](element-uap3-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap3:AppUriHandler>`](element-uap3-appurihandler.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap5:Host>`**  
 
 ## Syntax
@@ -44,7 +44,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [uap3:AppUriHandler](element-uap3-appurihandler-manual.md) | Declares an app extensibility point of type *windows.appUriHandler*. |
+| [uap3:AppUriHandler](element-uap3-appurihandler.md) | Declares an app extensibility point of type *windows.appUriHandler*. |
 
 ## Examples
 

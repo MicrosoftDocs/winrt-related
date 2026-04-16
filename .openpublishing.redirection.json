@@ -199,8 +199,7 @@
       "source_path": "winrt-related-src/schemas/appinstallerschema/element-force-update-from-any-version.md",
       "redirect_url": "/uwp/schemas/appinstallerschema/element-s4-forceupdatefromanyversion.md",
       "redirect_document_id": false
-    }
-    ,
+    },
     {
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-filetypeassociations.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-filetypeassociation",
@@ -274,6 +273,81 @@
     {
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-mobile-mobilemultiscreenproperties-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-appextension-manual.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-appextension",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-appextensionhost-manual.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-appextensionhost",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-appointmentdataprovider-manual.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-appointmentdataprovider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-appservice-manual.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-appservice",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-appurihandler-manual.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-appurihandler",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-capability-manual.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-capability",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-contactdataprovider-manual.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-contactdataprovider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-emaildataprovider-manual.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-emaildataprovider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-extension-manual.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-host-manual.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-host",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-mainpackagedependency-manual.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-mainpackagedependency",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-name-manual.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-name",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-properties-manual.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-properties",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-visualelements-manual.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-visualelements",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-rescap2-extension-manual.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-rescap2-extension",
       "redirect_document_id": false
     }
   ]

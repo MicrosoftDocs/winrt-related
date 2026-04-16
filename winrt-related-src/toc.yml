@@ -789,7 +789,7 @@ items:
           - name: "rescap:Term"
             href: schemas/appxpackage/uapmanifestschema/element-rescap-term.md
           - name: "rescap2:Extension"
-            href: schemas/appxpackage/uapmanifestschema/element-rescap2-extension-manual.md
+            href: schemas/appxpackage/uapmanifestschema/element-rescap2-extension.md
           - name: "rescap3:DesktopApp"
             href: schemas/appxpackage/uapmanifestschema/element-rescap3-desktopapp.md
           - name: "rescap3:DesktopAppMigration"
@@ -959,39 +959,39 @@ items:
           - name: "uap3:AppExecutionAlias"
             href: schemas/appxpackage/uapmanifestschema/element-uap3-appexecutionalias.md
           - name: "uap3:AppExtension"
-            href: schemas/appxpackage/uapmanifestschema/element-uap3-appextension-manual.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-appextension.md
           - name: "uap3:AppExtensionHost"
-            href: schemas/appxpackage/uapmanifestschema/element-uap3-appextensionhost-manual.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-appextensionhost.md
           - name: "uap3:AppointmentDataProvider"
-            href: schemas/appxpackage/uapmanifestschema/element-uap3-appointmentdataprovider-manual.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-appointmentdataprovider.md
           - name: "uap3:AppService"
-            href: schemas/appxpackage/uapmanifestschema/element-uap3-appservice-manual.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-appservice.md
           - name: "uap3:AppUriHandler"
-            href: schemas/appxpackage/uapmanifestschema/element-uap3-appurihandler-manual.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-appurihandler.md
           - name: "uap3:Capability"
-            href: schemas/appxpackage/uapmanifestschema/element-uap3-capability-manual.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-capability.md
           - name: "uap3:ContactDataProvider"
-            href: schemas/appxpackage/uapmanifestschema/element-uap3-contactdataprovider-manual.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-contactdataprovider.md
           - name: "uap3:EmailDataProvider"
-            href: schemas/appxpackage/uapmanifestschema/element-uap3-emaildataprovider-manual.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-emaildataprovider.md
           - name: "uap3:Extension"
-            href: schemas/appxpackage/uapmanifestschema/element-uap3-extension-manual.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-extension.md
           - name: "uap3:FileTypeAssociations"
             href: schemas/appxpackage/uapmanifestschema/element-uap3-filetypeassociations.md
           - name: "uap3:Host"
-            href: schemas/appxpackage/uapmanifestschema/element-uap3-host-manual.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-host.md
           - name: "uap3:MainPackageDependency"
-            href: schemas/appxpackage/uapmanifestschema/element-uap3-mainpackagedependency-manual.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-mainpackagedependency.md
           - name: "uap3:Name"
-            href: schemas/appxpackage/uapmanifestschema/element-uap3-name-manual.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-name.md
           - name: "uap3:Properties"
-            href: schemas/appxpackage/uapmanifestschema/element-uap3-properties-manual.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-properties.md
           - name: "uap3:Protocol"
             href: schemas/appxpackage/uapmanifestschema/element-uap3-protocol.md
           - name: "uap3:Verb"
             href: schemas/appxpackage/uapmanifestschema/element-uap3-verb.md
           - name: "uap3:VisualElements"
-            href: schemas/appxpackage/uapmanifestschema/element-uap3-visualelements-manual.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap3-visualelements.md
           - name: "uap4:Capability"
             href: schemas/appxpackage/uapmanifestschema/element-uap4-capability.md
           - name: "uap4:ContactPanel"
