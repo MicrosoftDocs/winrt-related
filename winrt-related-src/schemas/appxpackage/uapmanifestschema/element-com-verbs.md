@@ -1,14 +1,14 @@
 ---
-ms.assetid: f7b40f7c-3222-4f5a-ba95-1b94dcceb615
-title: com:Verbs (in SurrogateServer/Class)
-description: Specifies the verbs to be registered for an application (in SurrogateServer/Class).
+ms.assetid: d9544423-4a36-413c-b447-cb7640fd353a
+title: com:Verbs
+description: Specifies the verbs to be registered for an application (in ExeServer/Class).
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
-no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:SurrogateServer, com:Class, com:Verbs]
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:ExeServer, com:Class, com:Verbs]
 ---
 
-# com:Verbs (in SurrogateServer/Class)
+# com:Verbs (in ExeServer/Class)
 
 Specifies the verbs to be registered for an application.
 
@@ -20,8 +20,8 @@ Specifies the verbs to be registered for an application.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:Extension>`](element-com-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:ComServer>`](element-com-comserver.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:SurrogateServer>`](element-com-surrogateserver.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:Class>`](element-com-surrogateserver-class.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:ExeServer>`](element-com-exeserver.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:Class>`](element-com-exeserver-class.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com:Verbs>`**  
 
 ## Syntax
@@ -45,17 +45,17 @@ None.
 
 | Child element | Description |
 |-|-|
-| [Verb](element-com-surrogate-verb.md) | The verb to be registered for an application. |
+| [Verb](element-com-verb.md) | The verb to be registered for an application. |
 
 ### Parent elements
 
 | Parent element | Description |
 |-|-|
-| [com:Class](element-com-surrogateserver-class.md) | Defines a SurrogateServer class registration. |
+| [com:Class](element-com-exeserver-class.md) | Defines an ExeServer class registration. |
 
 ## Requirements
 
-| Item  | Value  |
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
 | **Minimum OS Version** | Windows 10 version 1703 (Build 15063) |

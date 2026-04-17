@@ -70,13 +70,13 @@ Defines an ExeServer class registration.
 
 | Child element | Description |
 |-|-|
-| [ImplementedCategories](element-com-exe-implementedcategories.md) | Specifies categories implemented by the class. |
-| [Conversion](element-com-exe-conversion.md) | Specifies the read/write permissions of a class. |
-| [DataFormats](element-com-exe-dataformats.md) | Specifies the default and main data formats supported. |
-| [MiscStatus](element-com-exe-miscstatus.md) | Specifies how to create and display an object. |
-| [Verbs](element-com-exe-verbs.md) | Specifies the verbs to be registered for an application. |
-| [DefaultIcon](element-com-exe-defaulticon.md) | Provides default icon information for iconic presentations of objects. |
-| [ToolboxBitmap32](element-com-exe-toolboxbitmap32.md) | Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button. |
+| [ImplementedCategories](element-com-implementedcategories.md) | Specifies categories implemented by the class. |
+| [Conversion](element-com-conversion.md) | Specifies the read/write permissions of a class. |
+| [DataFormats](element-com-dataformats.md) | Specifies the default and main data formats supported. |
+| [MiscStatus](element-com-miscstatus.md) | Specifies how to create and display an object. |
+| [Verbs](element-com-verbs.md) | Specifies the verbs to be registered for an application. |
+| [DefaultIcon](element-com-defaulticon.md) | Provides default icon information for iconic presentations of objects. |
+| [ToolboxBitmap32](element-com-toolboxbitmap32.md) | Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button. |
 
 ### Parent elements
 

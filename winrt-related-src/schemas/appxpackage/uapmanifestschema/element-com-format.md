@@ -1,16 +1,16 @@
 ---
-ms.assetid: 65f3026d-b53f-448e-abb3-5f8826a01af5
-title: com:Format (in ExeServer/Class)
-description: Specifies the file format an application can read and write (activate as) (in ExeServer/Class).
+ms.assetid: 1fbe5e60-a8b8-4dc6-b128-674c09b68109
+title: com:Format
+description: Specifies the file format an application can read (convert from).
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
-no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:ExeServer, com:Class, com:Conversion, com:Readwritable, com:Format]
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:ExeServer, com:Class, com:Conversion, com:Readable, com:Format]
 ---
 
-# com:Format (in ExeServer/Class)
+# com:Format
 
-Specifies the file format an application can read and write (activate as).
+Specifies the file format an application can read (convert from).
 
 ## Element hierarchy
 
@@ -22,8 +22,8 @@ Specifies the file format an application can read and write (activate as).
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:ComServer>`](element-com-comserver.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:ExeServer>`](element-com-exeserver.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:Class>`](element-com-exeserver-class.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:Conversion>`](element-com-exe-conversion.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:Readwritable>`](element-com-exe-readwritable.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:Conversion>`](element-com-conversion.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:Readable>`](element-com-readable.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com:Format>`**  
 
 ## Syntax
@@ -31,8 +31,7 @@ Specifies the file format an application can read and write (activate as).
 ```xml
 <com:Format
     FormatName = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
-    StandardFormat = 'An optional string in hexadecimal format containing numbers or the letters a, b, c, d, e, or f (capital or lower case).' >
-</com:Format>
+    StandardFormat = 'An optional string with a hexadecimal format containing numbers or the letters a, b, c, d, e, or f (capital or lower case).' />
 ```
 
 ## Attributes and elements
@@ -41,8 +40,8 @@ Specifies the file format an application can read and write (activate as).
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **FormatName** | The string file format name. | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
-| **StandardFormat** | The hexadecimal file format name. | An optional string in hexadecimal format containing numbers or the letters `a`, `b`, `c`, `d`, `e`, or `f` (capital or lower case). | No |  |
+| **FormatName** | The file name in string format. | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **StandardFormat** | The file name in hexadecimal format. | An optional string with a hexadecimal format containing numbers or the letters `a`, `b`, `c`, `d`, `e`, or `f` (capital or lower case). | No |  |
 
 ### Child elements
 
@@ -52,12 +51,14 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [com:Readwritable](element-com-exe-readwritable.md) | Specifies that an application can read and write files. |
+| [com:Readable](element-com-readable.md) | Specifies that an application can only read files. |
 
 ## Remarks
 
 > [!NOTE]
 > **FormatName** and **StandardFormat** are mutually exclusive.
+
+## Examples
 
 ## Requirements
 

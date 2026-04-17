@@ -1,16 +1,16 @@
 ---
-ms.assetid: 5f282cfa-4670-4989-8829-841842117e81
-title: com:Readable (in ExeServer/Class)
-description: Specifies that an application can only read files (in ExeServer/Class).
+ms.assetid: 53e347fc-d43e-4585-9499-06a132e86d0c
+title: com:ImplementedCategory
+description: Indicates that the class has implemented the specified category (in ExeServer/Class).
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
-no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:ExeServer, com:Class, com:Conversion, com:Readable]
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:ExeServer, com:Class, com:ImplementedCategories, com:ImplementedCategory]
 ---
 
-# com:Readable (in ExeServer/Class)
+# com:ImplementedCategory (in ExeServer/Class)
 
-Specifies that an application can only read files.
+Indicates that the class has implemented the specified category.
 
 ## Element hierarchy
 
@@ -22,18 +22,14 @@ Specifies that an application can only read files.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:ComServer>`](element-com-comserver.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:ExeServer>`](element-com-exeserver.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:Class>`](element-com-exeserver-class.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:Conversion>`](element-com-exe-conversion.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com:Readable>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:ImplementedCategories>`](element-com-implementedcategories.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com:ImplementedCategory>`**  
 
 ## Syntax
 
 ```xml
-<com:Readable>
-
-  <!-- Child elements -->
-  com:Format
-
-</com:Readable>
+<com:ImplementedCategory
+    Id = 'A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.' />
 ```
 
 ### Key
@@ -41,19 +37,19 @@ Specifies that an application can only read files.
 
 ### Attributes
 
-None.
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Id** | The ID of the COM category that is implemented. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
 
 ### Child elements
 
-| Child element | Description |
-|-|-|
-| [com:Format](element-com-exe-rformat.md) | Specifies the file format an application can read (convert from). |
+None.
 
 ### Parent elements
 
 | Parent element | Description |
 |-|-|
-| [com:Conversion](element-com-exe-conversion.md) | Specifies the formats an application can read and write. |
+| [com:ImplementedCategories](element-com-implementedcategories.md) | Specifies categories implemented by the class. |
 
 ## Requirements
 
