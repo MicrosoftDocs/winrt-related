@@ -29,9 +29,9 @@ You can localize these strings in the manifest:
 -   **[com:SurrogateServer/com:Class/@DisplayName](element-com-surrogateserver-class.md)**
 -   **[com:SurrogateServer/com:Verb/@DisplayName](element-com-verb.md)**
 -   **[desktop2:Extension/desktop2:AppPrinter/@DisplayName](element-desktop2-appprinter.md)**
--   **[Properties/Description](element-description.md)**
--   **[Properties/DisplayName](element-displayname.md)**
--   **[Properties/PublisherDisplayName](element-publisherdisplayname.md)**
+-   **[Properties/Description](element-f-description.md)**
+-   **[Properties/DisplayName](element-f-displayname.md)**
+-   **[Properties/PublisherDisplayName](element-f-publisherdisplayname.md)**
 -   **[uap:Application/uap:VisualElements/@Description](element-uap-visualelements.md)**
 -   **[uap:Application/uap:VisualElements/@DisplayName](element-uap-visualelements.md)**
 -   **[uap:Application/uap:VisualElements/uap:DefaultTile/@ShortName](element-uap-defaulttile.md)**
@@ -50,7 +50,7 @@ You can localize these strings in the manifest:
 You can localize these images in the manifest:
 -   **[Application/uap3:VisualElements/@Square150x150Logo](element-uap3-visualelements.md)**
 -   **[Application/uap3:VisualElements/@Square44x44Logo](element-uap3-visualelements.md)**
--   **[Properties/Logo](element-logo.md)**
+-   **[Properties/Logo](element-f-logo.md)**
 -   **[uap:Application/uap:VisualElements/@Square44x44Logo](element-uap-visualelements.md)**
 -   **[uap:Application/uap:VisualElements/@Square150x150Logo](element-uap-visualelements.md)**
 -   **[uap:FileTypeAssociation/uap:Logo](element-uap-logo.md)**

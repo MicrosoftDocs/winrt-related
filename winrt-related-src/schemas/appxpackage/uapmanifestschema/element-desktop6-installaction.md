@@ -1,4 +1,4 @@
-﻿---
+---
 title: desktop6:InstallAction
 description: Specifies an installer file (.exe or .msi) that is run before the first launch of your desktop application.
 ms.date: 01/22/2020
@@ -16,7 +16,7 @@ Specifies an installer file (.exe or .msi) that is run before the first launch o
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
+**[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:Extension>`](element-desktop6-package-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:CustomInstall>`](element-desktop6-custominstall.md)  

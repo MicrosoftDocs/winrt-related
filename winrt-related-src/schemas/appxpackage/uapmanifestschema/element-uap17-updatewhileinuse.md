@@ -14,9 +14,9 @@ Specifies whether the OS should close the app for app updates, or if the update 
 
 ## Element hierarchy
 
-<dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
+<dl><dt><a href = "element-f-package.md">&lt;Package&gt;</a></dt>
 <dd>
-<dl><dt><a href = "element-properties.md">&lt;Properties&gt;</a></dt>
+<dl><dt><a href = "element-f-properties.md">&lt;Properties&gt;</a></dt>
 <dd>
 <dd><b>&lt;uap17:UpdateWhileInUse&gt;</b></dd></dd>
 </dl>

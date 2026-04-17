@@ -23,7 +23,7 @@ items:
           - name: "Bundle"
             href: schemas/appinstallerschema/element-bundle.md
           - name: "Dependencies"
-            href: schemas/appinstallerschema/element-dependencies.md
+            href: schemas/appinstallerschema/element-f-dependencies.md
           - name: "MainBundle"
             href: schemas/appinstallerschema/element-main-bundle.md
           - name: "MainPackage"
@@ -33,7 +33,7 @@ items:
           - name: "OptionalPackages"
             href: schemas/appinstallerschema/element-optional-packages.md  
           - name: "Package"
-            href: schemas/appinstallerschema/element-package.md
+            href: schemas/appinstallerschema/element-f-package.md
           - name: "RelatedPackages"
             href: schemas/appinstallerschema/element-related-packages.md
           - name: "UpdateSettings"
@@ -153,29 +153,29 @@ items:
           - name: "Element Hierarchy"
             href: schemas/appxpackage/uapmanifestschema/root-elements.md
           - name: "ActivatableClass (in InProcessServer)"
-            href: schemas/appxpackage/uapmanifestschema/element-activatableclass.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-activatableclass.md
           - name: "ActivatableClass (in OutOfProcessServer)"
             href: schemas/appxpackage/uapmanifestschema/element-1-activatableclass.md
           - name: "ActivatableClassAttribute (in InProcessServer)"
-            href: schemas/appxpackage/uapmanifestschema/element-activatableclassattribute.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-activatableclassattribute.md
           - name: "ActivatableClassAttribute (in OutOfProcessServer)"
             href: schemas/appxpackage/uapmanifestschema/element-1-activatableclassattribute.md
           - name: "Application"
-            href: schemas/appxpackage/uapmanifestschema/element-application.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-application.md
           - name: "Applications"
-            href: schemas/appxpackage/uapmanifestschema/element-applications.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-applications.md
           - name: "Arguments"
-            href: schemas/appxpackage/uapmanifestschema/element-arguments.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-arguments.md
           - name: "BackgroundTasks"
-            href: schemas/appxpackage/uapmanifestschema/element-backgroundtasks.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-backgroundtasks.md
           - name: "Capabilities"
-            href: schemas/appxpackage/uapmanifestschema/element-capabilities.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-capabilities.md
           - name: "Capability"
-            href: schemas/appxpackage/uapmanifestschema/element-capability.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-capability.md
           - name: "Certificate"
-            href: schemas/appxpackage/uapmanifestschema/element-certificate.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-certificate.md
           - name: "Certificates"
-            href: schemas/appxpackage/uapmanifestschema/element-certificates.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-certificates.md
           - name: "cloudFiles:BannersHandler"
             href: schemas/appxpackage/uapmanifestschema/element-cloudfiles-bannershandler.md
           - name: "cloudFiles:CloudFiles"
@@ -423,7 +423,7 @@ items:
           - name: "com5:Verbs"
             href: schemas/appxpackage/uapmanifestschema/element-com5-verbs.md
           - name: "Dependencies"
-            href: schemas/appxpackage/uapmanifestschema/element-dependencies.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-dependencies.md
           - name: "deployment:DeploymentExtensionHandler"
             href: schemas/appxpackage/uapmanifestschema/element-deployment-deploymentextensionhandler.md
           - name: "deployment:Extension"
@@ -433,7 +433,7 @@ items:
           - name: "deployment:Files"
             href: schemas/appxpackage/uapmanifestschema/element-deployment-files.md
           - name: "Description"
-            href: schemas/appxpackage/uapmanifestschema/element-description.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-description.md
           - name: "desktop:ExecutionAlias"
             href: schemas/appxpackage/uapmanifestschema/element-desktop-executionalias.md
           - name: "desktop:Extension"
@@ -677,13 +677,13 @@ items:
           - name: desktop10:TypeSupported
             href: schemas/appxpackage/uapmanifestschema/element-desktop10-typesupported.md
           - name: "Device"
-            href: schemas/appxpackage/uapmanifestschema/element-device.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-device.md
           - name: "DeviceCapability"
-            href: schemas/appxpackage/uapmanifestschema/element-devicecapability.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-devicecapability.md
           - name: "DisplayName"
-            href: schemas/appxpackage/uapmanifestschema/element-displayname.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-displayname.md
           - name: "Extension (in Package/Extensions)"
-            href: schemas/appxpackage/uapmanifestschema/element-extension.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-extension.md
           - name: "Extension (in Application/Extensions)"
             href: schemas/appxpackage/uapmanifestschema/element-1-extension.md
           - name: "Extensions (in Application)"
@@ -691,33 +691,33 @@ items:
           - name: "Extensions (in Package)"
             href: schemas/appxpackage/uapmanifestschema/element-extensions.md
           - name: "Folder"
-            href: schemas/appxpackage/uapmanifestschema/element-folder.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-folder.md
           - name: "Framework"
-            href: schemas/appxpackage/uapmanifestschema/element-framework.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-framework.md
           - name: "Function"
-            href: schemas/appxpackage/uapmanifestschema/element-function.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-function.md
           - name: heap:HeapPolicy
             href: schemas/appxpackage/uapmanifestschema/element-heap-heappolicy.md
           - name: "Identity"
-            href: schemas/appxpackage/uapmanifestschema/element-identity.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-identity.md
           - name: "InProcessServer"
-            href: schemas/appxpackage/uapmanifestschema/element-inprocessserver.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-inprocessserver.md
           - name: "Instancing"
-            href: schemas/appxpackage/uapmanifestschema/element-instancing.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-instancing.md
           - name: "Interface"
-            href: schemas/appxpackage/uapmanifestschema/element-interface.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-interface.md
           - name: "Logo"
-            href: schemas/appxpackage/uapmanifestschema/element-logo.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-logo.md
           - name: "mp:PhoneIdentity"
             href: schemas/appxpackage/uapmanifestschema/element-mp-phoneidentity.md
           - name: "OutOfProcessServer"
-            href: schemas/appxpackage/uapmanifestschema/element-outofprocessserver.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-outofprocessserver.md
           - name: "Package"
-            href: schemas/appxpackage/uapmanifestschema/element-package.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-package.md
           - name: "PackageDependency"
-            href: schemas/appxpackage/uapmanifestschema/element-packagedependency.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-packagedependency.md
           - name: "Path (in InProcessServer)"
-            href: schemas/appxpackage/uapmanifestschema/element-path.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-path.md
           - name: "Path (in OutOfProcessServer)"
             href: schemas/appxpackage/uapmanifestschema/element-1-path.md
           - name: "Path (in ProxyStub)"
@@ -735,13 +735,13 @@ items:
           - name: "printSupport2:SupportedFormats"
             href: schemas/appxpackage/uapmanifestschema/element-printsupport2-supportedformats.md
           - name: "Properties"
-            href: schemas/appxpackage/uapmanifestschema/element-properties.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-properties.md
           - name: "ProxyStub"
-            href: schemas/appxpackage/uapmanifestschema/element-proxystub.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-proxystub.md
           - name: "PublisherCacheFolders"
-            href: schemas/appxpackage/uapmanifestschema/element-publishercachefolders.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-publishercachefolders.md
           - name: "PublisherDisplayName"
-            href: schemas/appxpackage/uapmanifestschema/element-publisherdisplayname.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-publisherdisplayname.md
           - name: "rescap:AppLinks"
             href: schemas/appxpackage/uapmanifestschema/element-rescap-applinks.md
           - name: "rescap:Capability"
@@ -785,21 +785,21 @@ items:
           - name: "rescap6:ModificationPackage"
             href: schemas/appxpackage/uapmanifestschema/element-rescap6-modificationpackage.md
           - name: "Resource"
-            href: schemas/appxpackage/uapmanifestschema/element-resource.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-resource.md
           - name: "ResourcePackage"
-            href: schemas/appxpackage/uapmanifestschema/element-resourcepackage.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-resourcepackage.md
           - name: "Resources"
-            href: schemas/appxpackage/uapmanifestschema/element-resources.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-resources.md
           - name: "SelectionCriteria"
-            href: schemas/appxpackage/uapmanifestschema/element-selectioncriteria.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-selectioncriteria.md
           - name: "TargetDeviceFamily"
-            href: schemas/appxpackage/uapmanifestschema/element-targetdevicefamily.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-targetdevicefamily.md
           - name: "Task"
-            href: schemas/appxpackage/uapmanifestschema/element-task.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-task.md
           - name: "trustedlaunch:TrustedLaunch"
             href: schemas/appxpackage/uapmanifestschema/element-trustedlaunch-trustedlaunch.md
           - name: "TrustFlags"
-            href: schemas/appxpackage/uapmanifestschema/element-trustflags.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-trustflags.md
           - name: "uap:ApplicationContentUriRules"
             href: schemas/appxpackage/uapmanifestschema/element-uap-applicationcontenturirules.md
           - name: "uap:AppointmentsProvider"
@@ -1184,25 +1184,25 @@ items:
             href: schemas/appxpackage/appxmanifestschema/root-elements.md
             items: 
             - name: "Package"
-              href: schemas/appxpackage/appxmanifestschema/element-package.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-package.md
             - name: "Identity"
-              href: schemas/appxpackage/appxmanifestschema/element-identity.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-identity.md
             - name: "Properties"
-              href: schemas/appxpackage/appxmanifestschema/element-properties.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-properties.md
             - name: "Framework"
-              href: schemas/appxpackage/appxmanifestschema/element-framework.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-framework.md
             - name: "DisplayName"
-              href: schemas/appxpackage/appxmanifestschema/element-displayname.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-displayname.md
             - name: "PublisherDisplayName"
-              href: schemas/appxpackage/appxmanifestschema/element-publisherdisplayname.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-publisherdisplayname.md
             - name: "Description"
-              href: schemas/appxpackage/appxmanifestschema/element-description.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-description.md
             - name: "Logo"
-              href: schemas/appxpackage/appxmanifestschema/element-logo.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-logo.md
             - name: "Resources"
-              href: schemas/appxpackage/appxmanifestschema/element-resources.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-resources.md
             - name: "Resource"
-              href: schemas/appxpackage/appxmanifestschema/element-resource.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-resource.md
             - name: "Prerequisites"
               href: schemas/appxpackage/appxmanifestschema/element-prerequisites.md
             - name: "OSMinVersion"
@@ -1210,64 +1210,64 @@ items:
             - name: "OSMaxVersionTested"
               href: schemas/appxpackage/appxmanifestschema/element-osmaxversiontested.md
             - name: "Dependencies"
-              href: schemas/appxpackage/appxmanifestschema/element-dependencies.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-dependencies.md
           - name: "uap5:DriverDependency"
             href: schemas/appxpackage/uapmanifestschema/element-uap5-driverdependency.md
           - name: "uap5:DriverConstraint"
             href: schemas/appxpackage/uapmanifestschema/element-uap5-driverconstraint.md
             items: 
             - name: "PackageDependency"
-              href: schemas/appxpackage/appxmanifestschema/element-packagedependency.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-packagedependency.md
             - name: "Capabilities"
-              href: schemas/appxpackage/appxmanifestschema/element-capabilities.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-capabilities.md
             - name: "Capability"
-              href: schemas/appxpackage/appxmanifestschema/element-capability.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-capability.md
             - name: "DeviceCapability"
-              href: schemas/appxpackage/appxmanifestschema/element-devicecapability.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-devicecapability.md
             - name: "Extensions"
               href: schemas/appxpackage/appxmanifestschema/element-extensions.md
             - name: "Extension"
-              href: schemas/appxpackage/appxmanifestschema/element-extension.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-extension.md
             - name: "InProcessServer"
-              href: schemas/appxpackage/appxmanifestschema/element-inprocessserver.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-inprocessserver.md
             - name: "Path"
-              href: schemas/appxpackage/appxmanifestschema/element-path.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-path.md
             - name: "ActivatableClass"
-              href: schemas/appxpackage/appxmanifestschema/element-activatableclass.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-activatableclass.md
             - name: "ActivatableClassAttribute"
-              href: schemas/appxpackage/appxmanifestschema/element-activatableclassattribute.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-activatableclassattribute.md
             - name: "OutOfProcessServer"
-              href: schemas/appxpackage/appxmanifestschema/element-outofprocessserver.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-outofprocessserver.md
             - name: "Path"
               href: schemas/appxpackage/appxmanifestschema/element-1-path.md
             - name: "Arguments"
-              href: schemas/appxpackage/appxmanifestschema/element-arguments.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-arguments.md
             - name: "Instancing"
-              href: schemas/appxpackage/appxmanifestschema/element-instancing.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-instancing.md
             - name: "ActivatableClass"
               href: schemas/appxpackage/appxmanifestschema/element-1-activatableclass.md
             - name: "ActivatableClassAttribute"
               href: schemas/appxpackage/appxmanifestschema/element-1-activatableclassattribute.md
             - name: "ProxyStub"
-              href: schemas/appxpackage/appxmanifestschema/element-proxystub.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-proxystub.md
             - name: "Path"
               href: schemas/appxpackage/appxmanifestschema/element-2-path.md
             - name: "Interface"
-              href: schemas/appxpackage/appxmanifestschema/element-interface.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-interface.md
             - name: "GameExplorer"
               href: schemas/appxpackage/appxmanifestschema/element-gameexplorer.md
             - name: "Certificates"
-              href: schemas/appxpackage/appxmanifestschema/element-certificates.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-certificates.md
             - name: "Certificate"
-              href: schemas/appxpackage/appxmanifestschema/element-certificate.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-certificate.md
             - name: "TrustFlags"
-              href: schemas/appxpackage/appxmanifestschema/element-trustflags.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-trustflags.md
             - name: "SelectionCriteria"
-              href: schemas/appxpackage/appxmanifestschema/element-selectioncriteria.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-selectioncriteria.md
             - name: "Applications"
-              href: schemas/appxpackage/appxmanifestschema/element-applications.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-applications.md
             - name: "Application"
-              href: schemas/appxpackage/appxmanifestschema/element-application.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-application.md
             - name: "VisualElements"
               href: schemas/appxpackage/appxmanifestschema/element-visualelements.md
             - name: "DefaultTile"
@@ -1343,9 +1343,9 @@ items:
             - name: "SupportsAnyFileType"
               href: schemas/appxpackage/appxmanifestschema/element-2-supportsanyfiletype.md
             - name: "BackgroundTasks"
-              href: schemas/appxpackage/appxmanifestschema/element-backgroundtasks.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-backgroundtasks.md
             - name: "Task"
-              href: schemas/appxpackage/appxmanifestschema/element-task.md
+              href: schemas/appxpackage/appxmanifestschema/element-f-task.md
         - name: "Windows 8.1 extensions manifest schema"
           href: schemas/appxpackage/appxmanifestschema2010-v2/schema-root.md
           items: 
@@ -1353,15 +1353,15 @@ items:
             href: schemas/appxpackage/appxmanifestschema2010-v2/root-elements.md
             items: 
             - name: "DeviceCapability"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-devicecapability.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-devicecapability.md
             - name: "Extension"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-extension.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-extension.md
             - name: "FileTypeAssociation"
               href: schemas/appxpackage/appxmanifestschema2010-v2/element-filetypeassociation.md
             - name: "DisplayName"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-displayname.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-displayname.md
             - name: "Logo"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-logo.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-logo.md
             - name: "InfoTip"
               href: schemas/appxpackage/appxmanifestschema2010-v2/element-infotip.md
             - name: "EditFlags"
@@ -1411,31 +1411,31 @@ items:
             - name: "SupportsAnyFileType"
               href: schemas/appxpackage/appxmanifestschema2010-v2/element-2-supportsanyfiletype.md
             - name: "BackgroundTasks"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-backgroundtasks.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-backgroundtasks.md
             - name: "TaskChoice"
               href: schemas/appxpackage/appxmanifestschema2010-v2/element-taskchoice.md
             - name: "Package"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-package.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-package.md
             - name: "Identity"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-identity.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-identity.md
             - name: "Properties"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-properties.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-properties.md
             - name: "Framework"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-framework.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-framework.md
             - name: "DisplayName"
               href: schemas/appxpackage/appxmanifestschema2010-v2/element-2-displayname.md
             - name: "PublisherDisplayName"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-publisherdisplayname.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-publisherdisplayname.md
             - name: "Description"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-description.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-description.md
             - name: "Logo"
               href: schemas/appxpackage/appxmanifestschema2010-v2/element-2-logo.md
             - name: "ResourcePackage"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-resourcepackage.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-resourcepackage.md
             - name: "Resources"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-resources.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-resources.md
             - name: "Resource"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-resource.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-resource.md
             - name: "Prerequisites"
               href: schemas/appxpackage/appxmanifestschema2010-v2/element-prerequisites.md
             - name: "OSMinVersion"
@@ -1443,13 +1443,13 @@ items:
             - name: "OSMaxVersionTested"
               href: schemas/appxpackage/appxmanifestschema2010-v2/element-osmaxversiontested.md
             - name: "Dependencies"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-dependencies.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-dependencies.md
             - name: "PackageDependency"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-packagedependency.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-packagedependency.md
             - name: "Capabilities"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-capabilities.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-capabilities.md
             - name: "Capability"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-capability.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-capability.md
             - name: "DeviceCapabilityChoice"
               href: schemas/appxpackage/appxmanifestschema2010-v2/element-devicecapabilitychoice.md
             - name: "Extensions"
@@ -1457,43 +1457,43 @@ items:
             - name: "Extension"
               href: schemas/appxpackage/appxmanifestschema2010-v2/element-1-extension.md
             - name: "InProcessServer"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-inprocessserver.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-inprocessserver.md
             - name: "Path"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-path.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-path.md
             - name: "ActivatableClass"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-activatableclass.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-activatableclass.md
             - name: "ActivatableClassAttribute"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-activatableclassattribute.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-activatableclassattribute.md
             - name: "OutOfProcessServer"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-outofprocessserver.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-outofprocessserver.md
             - name: "Path"
               href: schemas/appxpackage/appxmanifestschema2010-v2/element-1-path.md
             - name: "Arguments"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-arguments.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-arguments.md
             - name: "Instancing"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-instancing.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-instancing.md
             - name: "ActivatableClass"
               href: schemas/appxpackage/appxmanifestschema2010-v2/element-1-activatableclass.md
             - name: "ActivatableClassAttribute"
               href: schemas/appxpackage/appxmanifestschema2010-v2/element-1-activatableclassattribute.md
             - name: "ProxyStub"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-proxystub.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-proxystub.md
             - name: "Path"
               href: schemas/appxpackage/appxmanifestschema2010-v2/element-2-path.md
             - name: "Interface"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-interface.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-interface.md
             - name: "Certificates"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-certificates.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-certificates.md
             - name: "Certificate"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-certificate.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-certificate.md
             - name: "TrustFlags"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-trustflags.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-trustflags.md
             - name: "SelectionCriteria"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-selectioncriteria.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-selectioncriteria.md
             - name: "Applications"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-applications.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-applications.md
             - name: "Application"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-application.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-application.md
             - name: "VisualElementsChoice"
               href: schemas/appxpackage/appxmanifestschema2010-v2/element-visualelementschoice.md
             - name: "ApplicationContentUriRules"
@@ -1505,7 +1505,7 @@ items:
             - name: "ApplicationExtensionChoice"
               href: schemas/appxpackage/appxmanifestschema2010-v2/element-applicationextensionchoice.md
             - name: "Task"
-              href: schemas/appxpackage/appxmanifestschema2010-v2/element-task.md
+              href: schemas/appxpackage/appxmanifestschema2010-v2/element-f-task.md
             - name: "VisualElements"
               href: schemas/appxpackage/appxmanifestschema2010-v2/element-visualelements.md
             - name: "DefaultTile"
@@ -1525,13 +1525,13 @@ items:
             href: schemas/appxpackage/appxmanifestschema2013/root-elements.md
             items: 
             - name: "DeviceCapability"
-              href: schemas/appxpackage/appxmanifestschema2013/element-devicecapability.md
+              href: schemas/appxpackage/appxmanifestschema2013/element-f-devicecapability.md
             - name: "Device"
-              href: schemas/appxpackage/appxmanifestschema2013/element-device.md
+              href: schemas/appxpackage/appxmanifestschema2013/element-f-device.md
             - name: "Function"
-              href: schemas/appxpackage/appxmanifestschema2013/element-function.md
+              href: schemas/appxpackage/appxmanifestschema2013/element-f-function.md
             - name: "Extension"
-              href: schemas/appxpackage/appxmanifestschema2013/element-extension.md
+              href: schemas/appxpackage/appxmanifestschema2013/element-f-extension.md
             - name: "Contact"
               href: schemas/appxpackage/appxmanifestschema2013/element-contact.md
             - name: "ContactLaunchActions"
@@ -1547,9 +1547,9 @@ items:
             - name: "LaunchAction"
               href: schemas/appxpackage/appxmanifestschema2013/element-1-launchaction.md
             - name: "ResourcePackage"
-              href: schemas/appxpackage/appxmanifestschema2013/element-resourcepackage.md
+              href: schemas/appxpackage/appxmanifestschema2013/element-f-resourcepackage.md
             - name: "Task"
-              href: schemas/appxpackage/appxmanifestschema2013/element-task.md
+              href: schemas/appxpackage/appxmanifestschema2013/element-f-task.md
             - name: "VisualElements"
               href: schemas/appxpackage/appxmanifestschema2013/element-visualelements.md
             - name: "DefaultTile"
@@ -1579,7 +1579,7 @@ items:
         href: schemas/appcontentschema/root-elements.md
         items: 
         - name: "Properties"
-          href: schemas/appcontentschema/element-properties.md
+          href: schemas/appcontentschema/element-f-properties.md
         - name: "Name"
           href: schemas/appcontentschema/element-name.md
         - name: "Keywords"
@@ -1614,20 +1614,20 @@ items:
           - name: "Bundle"
             href: schemas/bundlemanifestschema/element-bundle.md
           - name: "Identity"
-            href: schemas/bundlemanifestschema/element-identity.md
+            href: schemas/bundlemanifestschema/element-f-identity.md
           - name: "Packages"
             href: schemas/bundlemanifestschema/element-packages.md
           - name: "Package"
-            href: schemas/bundlemanifestschema/element-package.md
+            href: schemas/bundlemanifestschema/element-f-package.md
           - name: "Resources"
-            href: schemas/bundlemanifestschema/element-resources.md
+            href: schemas/bundlemanifestschema/element-f-resources.md
           - name: "Resource"
-            href: schemas/bundlemanifestschema/element-resource.md
+            href: schemas/bundlemanifestschema/element-f-resource.md
           - name: "Dependencies"
-            href: schemas/bundlemanifestschema/element-dependencies.md
+            href: schemas/bundlemanifestschema/element-f-dependencies.md
             items:
             - name: "TargetDeviceFamily"
-              href: schemas/bundlemanifestschema/element-targetdevicefamily.md
+              href: schemas/bundlemanifestschema/element-f-targetdevicefamily.md
           - name: "OptionalBundle"
             href: schemas/bundlemanifestschema/element-optionalbundle.md
           - name: "Package"
@@ -1976,7 +1976,7 @@ items:
           - name: "Plan"
             href: schemas/mobilebroadbandschema/plans/element-plan.md
           - name: "Description"
-            href: schemas/mobilebroadbandschema/plans/element-description.md
+            href: schemas/mobilebroadbandschema/plans/element-f-description.md
           - name: "BillingCycle"
             href: schemas/mobilebroadbandschema/plans/element-billingcycle.md
           - name: "DataLimitInMegabytes"
@@ -2170,7 +2170,7 @@ items:
           - name: "Branding"
             href: schemas/mobilebroadbandschema/wwan/element-branding.md
           - name: "Logo"
-            href: schemas/mobilebroadbandschema/wwan/element-logo.md
+            href: schemas/mobilebroadbandschema/wwan/element-f-logo.md
           - name: "Name"
             href: schemas/mobilebroadbandschema/wwan/element-name.md
           - name: "DefaultProfile"
@@ -2178,7 +2178,7 @@ items:
           - name: "Name"
             href: schemas/mobilebroadbandschema/wwan/element-1-name.md
           - name: "Description"
-            href: schemas/mobilebroadbandschema/wwan/element-description.md
+            href: schemas/mobilebroadbandschema/wwan/element-f-description.md
           - name: "AssociatedPlan"
             href: schemas/mobilebroadbandschema/wwan/element-associatedplan.md
           - name: "HomeProviderName"
@@ -2322,9 +2322,9 @@ items:
           - name: "ExperienceId"
             href: schemas/storemanifest/storemanifestschema2015/element-experienceid.md
           - name: "Dependencies"
-            href: schemas/storemanifest/storemanifestschema2015/element-dependencies.md
+            href: schemas/storemanifest/storemanifestschema2015/element-f-dependencies.md
           - name: "TargetDeviceFamily"
-            href: schemas/storemanifest/storemanifestschema2015/element-targetdevicefamily.md
+            href: schemas/storemanifest/storemanifestschema2015/element-f-targetdevicefamily.md
           - name: "MemoryDependency"
             href: schemas/storemanifest/storemanifestschema2015/element-memorydependency.md
           - name: "DirectXDependency"

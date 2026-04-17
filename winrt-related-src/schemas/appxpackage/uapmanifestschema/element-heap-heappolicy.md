@@ -13,12 +13,12 @@ no-loc: [Package, Properties, heap:HeapPolicy]
 Allows packaged apps to request a heap profile that has performance and behavior characteristics consistent with that of the legacy NT heap.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-applications.md)
+&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-f-applications.md)
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
-**[`<Properties>`](element-properties.md)**  
+**[`<Package>`](element-f-package.md)**  
+**[`<Properties>`](element-f-properties.md)**  
 &nbsp;&nbsp;&nbsp;└─ **`<heap:HeapPolicy>`**  
 
 ## Syntax
@@ -43,7 +43,7 @@ None.
 
 | Parent Element | Description |
 |---------------|-------------|
-| [Properties](element-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users  |
+| [Properties](element-f-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users  |
 
 ## Remarks
 

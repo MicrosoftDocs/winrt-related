@@ -1,4 +1,4 @@
-﻿---
+---
 title: desktop6:UninstallAction
 description: Specifies an installer file (.exe or .msi) that is run when the user selects the repair or reset options in the Settings page for your desktop application (desktop6:UninstallAction).
 ms.date: 01/22/2020
@@ -16,7 +16,7 @@ Specifies an installer file (`.exe` or `.msi`) that is run when the user uninsta
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
+**[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:Extension>`](element-desktop6-package-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:CustomInstall>`](element-desktop6-custominstall.md)  

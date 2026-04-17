@@ -15,8 +15,8 @@ Specifies the main app package to which this supplemental package applies.
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Dependencies>`](element-dependencies.md)  
+**[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Dependencies>`](element-f-dependencies.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap3:MainPackageDependency>`**  
 
 ## Syntax
@@ -33,7 +33,7 @@ Specifies the main app package to which this supplemental package applies.
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Name**  | The name as it appears in the *Name* attribute of the [Identity](element-identity.md) element of the dependency package. | A string with a value between 3 and 50 characters in length that consists of alpha-numeric characters, periods, and dashes. | Yes |  |
+| **Name**  | The name as it appears in the *Name* attribute of the [Identity](element-f-identity.md) element of the dependency package. | A string with a value between 3 and 50 characters in length that consists of alpha-numeric characters, periods, and dashes. | Yes |  |
 
 ### Child elements
 
@@ -43,7 +43,7 @@ None.
 
 | Parent Element | Description |
 |-|-|
-| [Dependencies](element-dependencies.md) | Declares other packages that a package depends on to complete its software. |
+| [Dependencies](element-f-dependencies.md) | Declares other packages that a package depends on to complete its software. |
 
 ## Examples
 

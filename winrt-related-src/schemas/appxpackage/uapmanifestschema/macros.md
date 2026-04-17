@@ -8,7 +8,7 @@ ms.date: 04/26/2024
 
 # Macros in the package manifest schema
 
-A macro is a dynamically-evaluated manifested value. You can use macros in the values of some attributes in the package manifest schema. Examples of such attributes are [uap11:CurrentDirectoryPath](/uwp/schemas/appxpackage/uapmanifestschema/element-application#attributes) and **uap11:Parameters**.
+A macro is a dynamically-evaluated manifested value. You can use macros in the values of some attributes in the package manifest schema. Examples of such attributes are [uap11:CurrentDirectoryPath](/uwp/schemas/appxpackage/uapmanifestschema/element-f-application#attributes) and **uap11:Parameters**.
 
 ## Syntax
 

@@ -15,9 +15,9 @@ Describes an [uap:AppointmentsProviderLaunchActions](element-uap-appointmentspro
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-applications.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-application.md)  
+**[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:Extension>`](element-uap-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:AppointmentsProvider>`](element-uap-appointmentsprovider.md)  
@@ -51,7 +51,7 @@ Describes an [uap:AppointmentsProviderLaunchActions](element-uap-appointmentspro
 | **Executable** | The default launch executable. | A string with a value between 1 and 256 characters in length, that must end with `.exe`, and cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. Specifies the default executable for the extension. If not specified, the executable defined for the app is used. If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | No |  |
 | **RuntimeType** | The runtime provider. Typically used when there are mixted frameworks in an app. | A string with a value between 1 and 255 characters in length that cannot start or end with a `.` or contain there characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |  |
 | **StartPage** | The web page that handles the extensibility point. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |  |
-| **ResourceGroup** | An optional tag used to group extension activations together for resource management purposes (for example, CPU and memory). See the **Remarks** section in *[Application@ResourceGroup](element-application.md)*. | An alphanumeric string between 1 and 255 characters in length. Must begin with a letter. | No |  |
+| **ResourceGroup** | An optional tag used to group extension activations together for resource management purposes (for example, CPU and memory). See the **Remarks** section in *[Application@ResourceGroup](element-f-application.md)*. | An alphanumeric string between 1 and 255 characters in length. Must begin with a letter. | No |  |
 | **Verb** | A unique identifier that is passed to the app when it is launched. The app can use this string to determine which [uap:AppointmentsProviderLaunchActions](element-uap-appointmentsproviderlaunchactions.md) handler triggered its launch. It is unique per application in the package and is case sensitive. | A string that can have any of the following values: *addAppointment*, *removeAppointment*, *replaceAppointment*, *showTimeFrame*, or *showAppointmentDetails*. | No |  |
 | **DesiredView** | The desired amount of screen space to use when the appointment launches. | A string that can have any of the following values: *default*, *useLess*, *useHalf*, *useMore*, or *useMinimum*. | No |  |
 
@@ -77,12 +77,12 @@ For more info about launch actions that an appointments provider takes, see [App
 
 **LaunchAction (in AppointmentsProviderLaunchActions)** has these semantic validations:
 
-- [Extension](../appxmanifestschema2010-v2/element-extension.md) base attributes must follow these rules:
+- [Extension](../appxmanifestschema2010-v2/element-f-extension.md) base attributes must follow these rules:
 
   - If the **StartPage** attribute is specified, fail if the **EntryPoint**, **Executable**, or **RuntimeType** attribute is specified.
   - Otherwise, fail if the **Executable** or **RuntimeType** attribute is specified without an **EntryPoint** specified.
 
-- If **LaunchAction (in AppointmentsProviderLaunchActions)** defines the **EntryPoint** attribute, either this **LaunchAction (in AppointmentsProviderLaunchActions)** or the parent [uap:Extension](element-uap-extension.md) or [Application](element-application.md) element must specify an **Executable** attribute.
+- If **LaunchAction (in AppointmentsProviderLaunchActions)** defines the **EntryPoint** attribute, either this **LaunchAction (in AppointmentsProviderLaunchActions)** or the parent [uap:Extension](element-uap-extension.md) or [Application](element-f-application.md) element must specify an **Executable** attribute.
 
 ## Requirements
 
