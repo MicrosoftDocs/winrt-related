@@ -50,7 +50,7 @@ None.
 |-|-|
 | [PackageDependency](element-packagedependency.md) | Declares a dependency on another package that is marked as a framework package. |
 | [TargetDeviceFamily](element-targetdevicefamily.md) | Identifies the device family that your package targets. For more info about device families, see the [Guide to UWP apps](/windows/uwp/get-started/universal-application-platform-guide). |
-| [uap3:MainPackageDependency](element-uap3-mainpackagedependency-manual.md) | Specifies the main app package to which this supplemental package applies. |
+| [uap3:MainPackageDependency](element-uap3-mainpackagedependency.md) | Specifies the main app package to which this supplemental package applies. |
 | [uap5:DriverDependency](element-uap5-driverdependency.md) | Contains the driver constraint information for a UWP app. If DriverDependency is used, the specified driver must be present for the app to load. |
 | [uap7:OSPackageDependency](element-uap7-ospackagedependency.md) | Defines a package dependency for a UWP app. |
 | [uap10:HostRuntimeDependency](element-uap10-hostruntimedependency.md) | Defines a dependency on a host app package for the current app package. |

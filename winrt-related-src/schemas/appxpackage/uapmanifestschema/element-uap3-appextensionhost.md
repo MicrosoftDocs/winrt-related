@@ -19,7 +19,7 @@ Declares an app extensibility point of type *windows.appExtensionHost*. This ele
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap3:Extension>`](element-uap3-extension-manual.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap3:Extension>`](element-uap3-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap3:AppExtensionHost>`**  
 
 ## Syntax
@@ -43,13 +43,13 @@ None.
 
 | Child element | Description |
 |-|-|
-| [uap3:Name](element-uap3-name-manual.md) | Specifies a category of extensions that the app can host. |
+| [uap3:Name](element-uap3-name.md) | Specifies a category of extensions that the app can host. |
 
 ### Parent elements
 
 | Parent element | Description |
 |-|-|
-| [uap3:Extension](element-uap3-extension-manual.md) | Declares an extensibility point for the app. |
+| [uap3:Extension](element-uap3-extension.md) | Declares an extensibility point for the app. |
 
 ## Remarks
 

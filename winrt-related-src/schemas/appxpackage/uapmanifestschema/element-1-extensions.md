@@ -70,16 +70,16 @@ The **Extension** elements that can be included under the **Application/Extensio
 | windows.accountPictureProvider | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
 | windows.activatableClass.outOfProcessServer | [uap5:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap5-extension) |
 | windows.alarm | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
-| windows.appExecutionAlias | [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension-manual), [uap5:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap5-extension) |
-| windows.appExtension | [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension-manual) |
-| windows.appExtensionHost | [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension-manual) |
+| windows.appExecutionAlias | [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension), [uap5:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap5-extension) |
+| windows.appExtension | [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension) |
+| windows.appExtensionHost | [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension) |
 | windows.applicationRegistration | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-extension) |
-| windows.appointmentDataProvider | [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension-manual) |
+| windows.appointmentDataProvider | [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension) |
 | windows.appointmentsProvider | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
 | windows.appPrinter | [desktop2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop2-extension) |
 | windows.approvedShellExtension | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-extension) |
-| windows.appService | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension), [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension-manual) |
-| windows.appUriHandler | [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension-manual) |
+| windows.appService | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension), [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension) |
+| windows.appUriHandler | [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension) |
 | windows.autoPlayContent | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
 | windows.autoPlayDevice | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
 | windows.autoPlayHandler | [desktop3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop3-extension) |
@@ -91,18 +91,18 @@ The **Extension** elements that can be included under the **Application/Extensio
 | windows.cloudFiles | [cloudFiles:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-cloudfiles-extension), [desktop3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop3-extension) |
 | windows.comInterface | [com:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com-extension), [com2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com2-extension), [com4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com4-extension) |
 | windows.comServer | [com:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com-extension), [com2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com2-extension), [com4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com4-extension) |
-| windows.contactDataProvider | [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension-manual) |
+| windows.contactDataProvider | [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension) |
 | windows.contactPanel | [uap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap4-extension) |
 | windows.controlPanelItem | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-extension) |
 | windows.desktopAppMigration | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-extension), [rescap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-rescap3-extension) |
 | windows.devicePortalProvider | [uap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap4-extension) |
 | windows.dialProtocol | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
-| windows.emailDataProvider | [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension-manual) |
+| windows.emailDataProvider | [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension) |
 | windows.errorReporting | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-extension) |
 | windows.fileExplorerContextMenus | [desktop4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop4-extension) |
 | windows.fileOpenPicker | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
 | windows.fileSavePicker | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
-| windows.fileTypeAssociation | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension), [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension-manual) |
+| windows.fileTypeAssociation | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension), [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension) |
 | windows.fullTrustProcess | [desktop:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop-extension) |
 | windows.localExperiencePack | [uap6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap6-extension) |
 | windows.lockScreen | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
@@ -127,7 +127,7 @@ The **Extension** elements that can be included under the **Application/Extensio
 | windows.printTaskSettings | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
 | windows.printWorkflowBackgroundTask | [uap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap4-extension) |
 | windows.printWorkflowForegroundTask | [uap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap4-extension) |
-| windows.protocol | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension), [uap10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap10-extension), [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension-manual) |
+| windows.protocol | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension), [uap10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap10-extension), [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension) |
 | windows.restrictedLaunch | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-1-extension) |
 | windows.search | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
 | windows.searchFilterHandler | [desktop2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop2-extension) |

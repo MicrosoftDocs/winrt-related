@@ -88,13 +88,13 @@ Declares an extensibility point for the app.
 
 | Child element | Description |
 |-|-|
-| [uap3:AppointmentDataProvider](element-uap3-appointmentdataprovider-manual.md) | Declares an app extensibility point of type *windows.appointmentDataProvider*. |
-| [uap3:EmailDataProvider](element-uap3-emaildataprovider-manual.md) | Declares an app extensibility point of type *windows.emailDataProvider*. |
-| [uap3:ContactDataProvider](element-uap3-contactdataprovider-manual.md) | Declares an app extensibility point of type *windows.contactDataProvider*. |
-| [uap3:AppUriHandler](element-uap3-appurihandler-manual.md) | Declares an app extensibility point of type *windows.appUriHandler*. |
-| [uap3:AppExtensionHost](element-uap3-appextensionhost-manual.md) | Declares an app extensibility point of type *windows.appExtensionHost*. |
-| [uap3:AppExtension](element-uap3-appextension-manual.md) | Declares an app extensibility point of type *windows.appExtension*. |
-| [uap3:AppService](element-uap3-appservice-manual.md) | Declares an app extensibility point of type *windows.appExtension*. |
+| [uap3:AppointmentDataProvider](element-uap3-appointmentdataprovider.md) | Declares an app extensibility point of type *windows.appointmentDataProvider*. |
+| [uap3:EmailDataProvider](element-uap3-emaildataprovider.md) | Declares an app extensibility point of type *windows.emailDataProvider*. |
+| [uap3:ContactDataProvider](element-uap3-contactdataprovider.md) | Declares an app extensibility point of type *windows.contactDataProvider*. |
+| [uap3:AppUriHandler](element-uap3-appurihandler.md) | Declares an app extensibility point of type *windows.appUriHandler*. |
+| [uap3:AppExtensionHost](element-uap3-appextensionhost.md) | Declares an app extensibility point of type *windows.appExtensionHost*. |
+| [uap3:AppExtension](element-uap3-appextension.md) | Declares an app extensibility point of type *windows.appExtension*. |
+| [uap3:AppService](element-uap3-appservice.md) | Declares an app extensibility point of type *windows.appExtension*. |
 | [uap3:AppExeuctionAlias](element-uap3-appexecutionalias.md) | Declares an app extensibility point of type *windows.appExecutionAlias*. |
 | [uap3:Protocol](element-uap3-protocol.md) | Declares an app extensibility point of type *windows.protocol*. |
 | [uap3:FileTypeAssociation](element-uap3-filetypeassociation.md) | Declares an app extensibility point of type *windows.fileTypeAssociation*. |

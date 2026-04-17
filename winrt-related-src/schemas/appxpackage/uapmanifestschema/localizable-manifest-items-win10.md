@@ -18,8 +18,8 @@ Here are all the items in the Windows 10 app package manifest that you can local
 
 You can localize these strings in the manifest:
 
--   **[Application/uap3:VisualElements/@DisplayName](element-uap3-visualelements-manual.md)**
--   **[Application/uap3:VisualElements/@Description](element-uap3-visualelements-manual.md)**
+-   **[Application/uap3:VisualElements/@DisplayName](element-uap3-visualelements.md)**
+-   **[Application/uap3:VisualElements/@Description](element-uap3-visualelements.md)**
 -   **[com:ComInterface/com:ProxyStub/@DisplayName](element-com-package-proxystub.md)**
 -   **[com:ComServer/com:ExeServer/@DisplayName](element-com-exeserver.md)**
 -   **[com:ComServer/com:SurrogateServer/@DisplayName](element-com-surrogateserver.md)**
@@ -48,8 +48,8 @@ You can localize these strings in the manifest:
 
 
 You can localize these images in the manifest:
--   **[Application/uap3:VisualElements/@Square150x150Logo](element-uap3-visualelements-manual.md)**
--   **[Application/uap3:VisualElements/@Square44x44Logo](element-uap3-visualelements-manual.md)**
+-   **[Application/uap3:VisualElements/@Square150x150Logo](element-uap3-visualelements.md)**
+-   **[Application/uap3:VisualElements/@Square44x44Logo](element-uap3-visualelements.md)**
 -   **[Properties/Logo](element-logo.md)**
 -   **[uap:Application/uap:VisualElements/@Square44x44Logo](element-uap-visualelements.md)**
 -   **[uap:Application/uap:VisualElements/@Square150x150Logo](element-uap-visualelements.md)**
