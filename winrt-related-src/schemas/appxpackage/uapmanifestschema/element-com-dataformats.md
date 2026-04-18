@@ -1,6 +1,6 @@
 ---
 ms.assetid: 6bca24cd-9433-4cbd-a701-9356f0a4b418
-title: com:DataFormats (in ExeServer/Class)
+title: com:DataFormats
 description: Specifies the default and main data formats supported by an application (in ExeServer/Class).
 ms.date: 03/29/2017
 ms.topic: reference
@@ -53,7 +53,7 @@ Specifies the default and main data formats supported by an application.
 
 | Child element | Description |
 |-|-|
-| [com:DataFormat](element-com-exe-dataformat.md) | The data format supported by an application. |
+| [com:DataFormat](element-com-dataformat.md) | The data format supported by an application. |
 
 ### Parent elements
 

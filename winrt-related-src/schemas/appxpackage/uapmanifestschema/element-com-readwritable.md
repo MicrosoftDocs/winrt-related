@@ -1,16 +1,16 @@
 ---
-ms.assetid: d1ebca35-9125-4102-a4ad-dadd768a7a8b
-title: com:MiscStatus (in ExeServer/Class)
-description: Specifies how to create and display an object (in ExeServer/Class).
+ms.assetid: 76085908-f9c0-4ca3-b3ae-c6cce4b1bd39
+title: com:ReadWritable
+description: Specifies that an application can read and write files (in ExeServer/Class).
 ms.date: 03/29/2017
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
-no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:ExeServer, com:Class, com:MiscStatus]
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComServer, com:ExeServer, com:Class, com:Conversion, com:ReadWritable]
 ---
 
-# com:MiscStatus (in ExeServer/Class)
+# com:ReadWritable (in ExeServer/Class)
 
-Specifies how to create and display an object.
+Specifies that an application can read and write files.
 
 ## Element hierarchy
 
@@ -22,17 +22,18 @@ Specifies how to create and display an object.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:ComServer>`](element-com-comserver.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:ExeServer>`](element-com-exeserver.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:Class>`](element-com-exeserver-class.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com:MiscStatus>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:Conversion>`](element-com-conversion.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com:ReadWritable>`**  
 
 ## Syntax
 
 ```xml
-<com:MiscStatus>
+<com:ReadWritable> 
 
   <!-- Child elements -->
-  com:Aspect
+  com:Format
 
-</com:MiscStatus>
+</com:ReadWritable>
 ```
 
 ## Attributes and elements
@@ -45,13 +46,13 @@ None.
 
 | Child element | Description |
 |-|-|
-| [com:Aspect](element-com-exe-aspect.md) | Specifies the desired data or view aspect of the object when drawing or getting data. |
+| [Format](element-com-format.md) | Specifies the file format an application can read and write (activate as). |
 
 ### Parent elements
 
 | Parent element | Description |
 |-|-|
-| [com:Class](element-com-exeserver-class.md) | Defines an ExeServer class registration. |
+| [com:Conversion](element-com-conversion.md) | Specifies the formats an application can read and write. |
 
 ## Requirements
 

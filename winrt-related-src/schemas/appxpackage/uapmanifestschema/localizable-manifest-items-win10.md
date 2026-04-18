@@ -25,9 +25,9 @@ You can localize these strings in the manifest:
 -   **[com:ComServer/com:SurrogateServer/@DisplayName](element-com-surrogateserver.md)**
 -   **[com:ComServer/com:TreatAsClass/@DisplayName](element-com-treatasclass.md)**
 -   **[com:ExeServer/com:Class/@DisplayName](element-com-exeserver-class.md)**
--   **[com:ExeServer/com:Verb/@DisplayName](element-com-exe-verb.md)**
+-   **[com:ExeServer/com:Verb/@DisplayName](element-com-verb.md)**
 -   **[com:SurrogateServer/com:Class/@DisplayName](element-com-surrogateserver-class.md)**
--   **[com:SurrogateServer/com:Verb/@DisplayName](element-com-surrogate-verb.md)**
+-   **[com:SurrogateServer/com:Verb/@DisplayName](element-com-verb.md)**
 -   **[desktop2:Extension/desktop2:AppPrinter/@DisplayName](element-desktop2-appprinter.md)**
 -   **[Properties/Description](element-description.md)**
 -   **[Properties/DisplayName](element-displayname.md)**
