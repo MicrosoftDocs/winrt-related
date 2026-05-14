@@ -35,10 +35,10 @@ You can localize these strings in the manifest:
 -   **[uap:Application/uap:VisualElements/@Description](element-uap-visualelements.md)**
 -   **[uap:Application/uap:VisualElements/@DisplayName](element-uap-visualelements.md)**
 -   **[uap:Application/uap:VisualElements/uap:DefaultTile/@ShortName](element-uap-defaulttile.md)**
--   **[uap:AutoPlayContent/uap:LaunchAction/@Verb](element-uap-launchaction.md)**
--   **[uap:AutoPlayContent/uap:LaunchAction/@ActionDisplayName](element-uap-launchaction.md)**
--   **[uap:AutoPlayDevice/uap:LaunchAction/@ActionDisplayName](element-1-uap-launchaction.md)**
--   **[uap:SupportedFileTypes/uap:FileType/@uap4:ShellNewDisplayName](element-uap-filetype.md)**
+-   **[uap:AutoPlayContent/uap:LaunchAction/@Verb](element-uap-autoplaycontent-launchaction.md)**
+-   **[uap:AutoPlayContent/uap:LaunchAction/@ActionDisplayName](element-uap-autoplaycontent-launchaction.md)**
+-   **[uap:AutoPlayDevice/uap:LaunchAction/@ActionDisplayName](element-uap-autoplaydevice-launchaction.md)**
+-   **[uap:SupportedFileTypes/uap:FileType/@uap4:ShellNewDisplayName](element-uap-filetypeassociation-filetype.md)**
 -   **[uap:FileTypeAssociation/uap:DisplayName](element-uap-displayname.md)**
 -   **[uap:FileTypeAssociation/uap:InfoTip](element-uap-infotip.md)**
 -   **[uap:Protocol/uap:DisplayName](element-1-uap-displayname.md)**

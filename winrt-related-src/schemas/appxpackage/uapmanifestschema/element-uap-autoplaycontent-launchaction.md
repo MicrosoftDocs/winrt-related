@@ -55,8 +55,8 @@ None.
 ## See also
 The following elements have the same name as this one, but different content or attributes:
 
-- [uap:LaunchAction (in type: CT_AutoPlayDevice)](element-1-uap-launchaction.md)
-- [uap:LaunchAction (global)](element-2-uap-launchaction.md)
+- [uap:LaunchAction (in type: CT_AutoPlayDevice)](element-uap-autoplaydevice-launchaction.md)
+- [uap:LaunchAction (global)](element-uap-appointmentsproviderlaunchactions-launchaction.md)
 
 ## Remarks
 

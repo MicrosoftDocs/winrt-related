@@ -828,26 +828,22 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap-fileopenpicker.md
           - name: "uap:FileSavePicker"
             href: schemas/appxpackage/uapmanifestschema/element-uap-filesavepicker.md
-          - name: "uap:FileType (in uap:ShareTarget/uap:SupportedFileTypes)"
-            href: schemas/appxpackage/uapmanifestschema/element-1-uap-filetype.md
-          - name: "uap:FileType (in uap:FileTypeAssociation/uap:SupportedFileTypes)"
-            href: schemas/appxpackage/uapmanifestschema/element-uap-filetype.md
-          - name: "uap:FileType (in uap:FileSavePicker/uap:SupportedFileTypes)"
-            href: schemas/appxpackage/uapmanifestschema/element-3-uap-filetype.md
-          - name: "uap:FileType (in uap:FileOpenPicker/uap:SupportedFileTypes)"
-            href: schemas/appxpackage/uapmanifestschema/element-2-uap-filetype.md
-          - name: "uap:FileTypeAssociation"
-            href: schemas/appxpackage/uapmanifestschema/element-uap-filetypeassociation.md
+          - name: "uap:FileType (ShareTarget/FileOpenPicker/FileSavePicker)"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-sharetarget-filetype.md
+          - name: "uap:FileType (FileTypeAssociation)"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-filetypeassociation-filetype.md
+          - name: "uap:FileType (FileTypeAssociation)"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-filetypeassociation-filetypeassociation.md
           - name: "uap:InfoTip"
             href: schemas/appxpackage/uapmanifestschema/element-uap-infotip.md
           - name: "uap:InitialRotationPreference"
             href: schemas/appxpackage/uapmanifestschema/element-uap-initialrotationpreference.md
-          - name: "uap:LaunchAction (in uap:AutoPlayContent)"
-            href: schemas/appxpackage/uapmanifestschema/element-uap-launchaction.md
-          - name: "uap:LaunchAction (uap:AutoPlayDevice)"
-            href: schemas/appxpackage/uapmanifestschema/element-1-uap-launchaction.md
-          - name: "uap:LaunchAction (in AppointmentsProviderLaunchActions)"
-            href: schemas/appxpackage/uapmanifestschema/element-2-uap-launchaction.md
+          - name: "uap:LaunchAction (AutoPlayContent)"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-autoplaycontent-launchaction.md
+          - name: "uap:LaunchAction (AutoPlayDevice)"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-autoplaydevice-launchaction.md
+          - name: "uap:LaunchAction (AppointmentsProviderLaunchActions)"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-appointmentsproviderlaunchactions-launchaction.md
           - name: "uap:LockScreen"
             href: schemas/appxpackage/uapmanifestschema/element-uap-lockscreen.md
           - name: "uap:Logo (in uap:Protocol)"
@@ -878,15 +874,11 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap-sharetarget-supportedfiletypes.md
           - name: "uap:SupportedFileTypes (in uap:FileOpenPicker)"
             href: schemas/appxpackage/uapmanifestschema/element-uap-fileopenpicker-supportedfiletypes.md
-          - name: "uap:SupportedFileTypes (in uap:FileSavePicker)"
-            href: schemas/appxpackage/uapmanifestschema/element-3-uap-supportedfiletypes.md
+          - name: "uap:SupportedFileTypes (FileSavePicker)"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-filesavepicker-supportedfiletypes.md
           - name: "uap:SupportedUsers"
             href: schemas/appxpackage/uapmanifestschema/element-uap-supportedusers.md
-          - name: "uap:SupportsAnyFileType (in uap:FileSavePicker)"
-            href: schemas/appxpackage/uapmanifestschema/element-2-uap-supportsanyfiletype.md
-          - name: "uap:SupportsAnyFileType (in uap:FileOpenPicker)"
-            href: schemas/appxpackage/uapmanifestschema/element-1-uap-supportsanyfiletype.md
-          - name: "uap:SupportsAnyFileType (in uap:ShareTarget)"
+          - name: "uap:SupportsAnyFileType"
             href: schemas/appxpackage/uapmanifestschema/element-uap-supportsanyfiletype.md
           - name: "uap:Task"
             href: schemas/appxpackage/uapmanifestschema/element-uap-task.md
@@ -1201,10 +1193,6 @@ items:
               href: schemas/appxpackage/appxmanifestschema/element-osmaxversiontested.md
             - name: "Dependencies"
               href: schemas/appxpackage/appxmanifestschema/element-dependencies.md
-          - name: "uap5:DriverDependency"
-            href: schemas/appxpackage/uapmanifestschema/element-uap5-driverdependency.md
-          - name: "uap5:DriverConstraint"
-            href: schemas/appxpackage/uapmanifestschema/element-uap5-driverconstraint.md
             items: 
             - name: "PackageDependency"
               href: schemas/appxpackage/appxmanifestschema/element-packagedependency.md
@@ -2659,8 +2647,6 @@ items:
     href: /uwp/api/overview/advertising
   - name: "Store Services SDK namespaces"
     href: /uwp/api/overview/engagement
-  - name: "Windows Runtime consolidated reference"
-    href: 
     items:
     - name: "Windows Runtime (WinRT) type system"
       href: winrt-cref/winrt-type-system.md

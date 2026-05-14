@@ -57,8 +57,8 @@ None.
 ## See also
 The following elements have the same name as this one, but different content or attributes:
 
-- **[uap:LaunchAction (type: CT_AutoPlayContent)](element-uap-launchaction.md)**
-- **[uap:LaunchAction (global)](element-2-uap-launchaction.md)**
+- **[uap:LaunchAction (type: CT_AutoPlayContent)](element-uap-autoplaycontent-launchaction.md)**
+- **[uap:LaunchAction (global)](element-uap-appointmentsproviderlaunchactions-launchaction.md)**
 
 ## Remarks
 

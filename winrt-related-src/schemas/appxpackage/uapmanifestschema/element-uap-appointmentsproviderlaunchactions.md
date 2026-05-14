@@ -51,7 +51,7 @@ Declares actions to take when a appointment is launched.
 
 | Child element | Description |
 |-|-|
-| [uap:LaunchAction (global)](element-2-uap-launchaction.md) | Describes an [uap:AppointmentsProviderLaunchActions](element-uap-appointmentsproviderlaunchactions.md) content action. |
+| [uap:LaunchAction (global)](element-uap-appointmentsproviderlaunchactions-launchaction.md) | Describes an [uap:AppointmentsProviderLaunchActions](element-uap-appointmentsproviderlaunchactions.md) content action. |
 
 ### Parent elements
 
