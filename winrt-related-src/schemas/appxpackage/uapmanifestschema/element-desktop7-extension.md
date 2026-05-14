@@ -1,19 +1,21 @@
 ---
-title: desktop7:Extension (in Application)
-description: Declares an extensibility point for the app (in Package/Applications; desktop7:Extension).
+title: desktop7:Extension
+description: Declares an extensibility point for the app (desktop7:Extension).
 ms.date: 04/19/2019
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ms.custom: 19H1
 ---
 
-# desktop7:Extension (in Application)
+# desktop7:Extension
 
 Declares an extensibility point for the app.
 
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop7:Extension>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
@@ -66,7 +68,7 @@ Declares an extensibility point for the app.
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Category** | The category of the extension. | A string that can have one of the following values: *windows.approvedShellExtension*, *windows.controlPanelItem*, *windows.service*, *windows.mailProvider*, *windows.shortcut*, *windows.applicationRegistration*, *windows.desktopAppMigration*, *windows.systemFileAssociation*, *windows.shadowCopyExcludeFiles*, or *windows.errorReporting*. | Yes |  |
+| **Category** | The category of the extension. | A string that must be one of the following values: *windows.approvedShellExtension*, *windows.controlPanelItem*, *windows.service*, *windows.mailProvider*, *windows.shortcut*, *windows.applicationRegistration*, *windows.desktopAppMigration*, *windows.systemFileAssociation*, *windows.shadowCopyExcludeFiles*, *windows.errorReporting* (in Application); *windows.shadowCopyExcludeFiles*, *windows.errorReporting* (in Package). | Yes |  |
 | **Executable** | The default launch executable. | An optional string with a value between 1 and 256 characters in length that must end with `.exe` and cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isnt specified, the EntryPoint defined for the app is used. | No |  |
 | **EntryPoint** | The activatable class ID. | An optional string with a value between 1 and 256 characters in length, representing the  task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |  |
 | **RuntimeType** | The runtime provider. This attribute is used typically when there are mixed frameworks in an app. | An optional string with a value between 1 and 255 characters in length that cannot start or end with a period or contain these characters: `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, or `*`. | No |  |
@@ -102,9 +104,10 @@ Declares an extensibility point for the app.
 
 ### Parent Elements
 
-| Parent Element | Description |
+| Parent element | Description |
 |-|-|
-| [Extensions (type: CT_ApplicationExtensions)](element-f-application-extensions.md) | Defines one or more extensibility points for the application. |  
+| [Extensions (in Package)](element-extensions.md) | Defines one or more extensibility points for the package. |
+| [Extensions (in Application)](element-f-application-extensions.md) | Defines one or more extensibility points for the app. |
 
 ## Requirements
 
