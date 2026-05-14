@@ -14,6 +14,8 @@ Declares an extensibility point for the app.
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap6:Extension>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
@@ -23,7 +25,7 @@ Declares an extensibility point for the app.
 
 ```xml
 <uap6:Extension
-  Category = 'A string that can have one of the following values: "windows.barcodeScannerProvider", "windows.barcodeScannerPreviewProvider", or "windows.localExperiencePack".'
+  Category = 'A string that can have one of the following values: "windows.barcodeScannerProvider", "windows.barcodeScannerPreviewProvider", "windows.localExperiencePack", or "windows.loaderSearchPathOverride".'
   Executable = 'A string with an optional value between 1 and 256 characters in length, that must end with ".exe", and cannot contain the following characters: <, >, :, ", |, ?, or *. Specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If the EntryPoint property is not specified, the EntryPoint defined for the app is used.'
   EntryPoint = 'A string with an optional value between 1 and 256 characters in length. Represents the task handling the extension (normally the fully namespace-qualified name of a Windows Runtime type). If EntryPoint is not specified, the EntryPoint defined for the app is used instead.'
   RuntimeType = 'A string with an optional value between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *.'
@@ -45,6 +47,7 @@ Declares an extensibility point for the app.
   <!-- Child elements -->
   uap6:BarcodeScannerProvider
   uap6:LocalExperiencePack?
+  uap6:loaderSearchPathOverride?
 
 </uap6:Extension>
 ```
@@ -59,7 +62,7 @@ Declares an extensibility point for the app.
 
 | Attribute | Description | Data Type | Required | Default value |
 |-|-|-|-|-|
-| **Category** | The type of package extensibility point. | A string that can have one of the following values: *windows.barcodeScannerProvider*, *windows.barcodeScannerPreviewProvider*, or *windows.localExperiencePack*. | Yes |  |
+| **Category** | The type of package extensibility point. | A string that must be one of the following values: *windows.barcodeScannerProvider*, *windows.barcodeScannerPreviewProvider*, *windows.localExperiencePack* (in Application); *windows.loaderSearchPathOverride* (in Package). | Yes |  |
 | **EntryPoint** | The activatable class ID. | A string with a value between 1 and 256 characters in length. Represents the task handling the extension (normally the fully namespace-qualified name of a Windows Runtime type). If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |  |
 | **Executable** | The default launch executable. | A string with a value between 1 and 256 characters in length, that must end with `.exe`, and cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. Specifies the default executable for the extension. If not specified, the executable defined for the app is used. If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | No |  |
 | **RuntimeType** | The runtime provider. Typically used when there are mixted frameworks in an app. | A string with a value between 1 and 255 characters in length that cannot start or end with a `.` or contain there characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |  |
@@ -84,12 +87,14 @@ Declares an extensibility point for the app.
 |-|-|
 | [BarcodeScannerProvider](element-uap6-barcodescannerprovider.md) | Used for enabling the support of a barcode scanner. |  
 | [LocalExperiencePack](element-uap6-localexperiencepack.md) | This extension provides a means to deliver translated app resources. |
+| [LoaderSearchPathOverride](element-uap6-loadersearchpathoverride.md) | Used for overriding the path used to load search results. |
 
 ### Parent elements
 
 | Parent element | Description |
 |-|-|
-| [Extensions](element-1-extensions.md) | Defines one or more extensibility points for the package. |
+| [Extensions (in Package)](element-extensions.md) | Defines one or more extensibility points for the package. |
+| [Extensions (in Application)](element-1-extensions.md) | Defines one or more extensibility points for the app. |
 
 ## Remarks
 

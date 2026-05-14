@@ -1,28 +1,31 @@
 ---
-title: uap10:Extension (in Application)
+title: uap10:Extension
 description: Declares an extensibility point for the app (uap10:Extension).
 ms.date: 03/05/2020
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, extension
-no-loc: [Package, Applications, Application, Extensions]
+no-loc: [Package, Applications, Application, Extensions, uap10:Extension]
 ---
 
-# uap10:Extension (in Application)
+# uap10:Extension
 
 Declares an extensibility point for the app.
 
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap10:Extension>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap10:Extension>`**  
 
 ## Syntax
 
 ```xml
 <uap10:Extension
-  Category = 'A string that can have one of the following values: "windows.protocol"'
+  Category = 'A string that can have one of the following values: "windows.protocol", "windows.hostRuntime", "windows.mediaContentDecryptionModule", or "windows.installedLocationVirtualization".'
   Executable = 'A string with an optional value between 1 and 256 characters in length, that must end with ".exe", and cannot contain the following characters: <, >, :, ", |, ?, or *. Specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If the EntryPoint property is not specified, the EntryPoint defined for the app is used.'
   EntryPoint = 'A string with an optional value between 1 and 256 characters in length. Represents the task handling the extension (normally the fully namespace-qualified name of a Windows Runtime type). If EntryPoint is not specified, the EntryPoint defined for the app is used instead.'
   RuntimeType = 'A string with an optional value between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *.'
@@ -49,7 +52,7 @@ Declares an extensibility point for the app.
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Category** | The type of package extensibility point. | A string that can have one of the following values: *windows.protocol*. | Yes |  |
+| **Category** | The type of package extensibility point. | A string that must be one of the following values: *windows.protocol* (in Application); *windows.hostRuntime*, *windows.mediaContentDecryptionModule*, *windows.installedLocationVirtualization* (in Package). | Yes |  |
 | **EntryPoint** | The activatable class ID. | A string with a value between 1 and 256 characters in length. Represents the task handling the extension (normally the fully namespace-qualified name of a Windows Runtime type). If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |  |
 | **Executable** | The default launch executable. | A string with a value between 1 and 256 characters in length, that must end with `.exe`, and cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. Specifies the default executable for the extension. If not specified, the executable defined for the app is used. If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | No |  |
 | **RuntimeType** | The runtime provider. Typically used when there are mixted frameworks in an app. | A string with a value between 1 and 255 characters in length that cannot start or end with a `.` or contain there characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |  |
@@ -65,12 +68,16 @@ Declares an extensibility point for the app.
 | Child element | Description |
 |-|-|
 | [uap10:Protocol](element-uap10-protocol.md) | Sets parameters to define the protocol of the extensions. |
+| [uap10:HostRuntime](element-uap10-hostruntime.md) | Defines a package-wide extension that defines the runtime information to be used when activating a [hosted app](/windows/uwp/launch-resume/hosted-apps). |
+| [uap10:InstalledLocationVirtualization](element-uap10-installedlocationvirtualization.md) | Defines an extension for a desktop app in an MSIX package that redirects any writes to the app's installation directory to a location in the [app data](/windows/uwp/design/app-settings/store-and-retrieve-app-data). |
+| [uap10:MediaContentDecryptionModule.md](element-uap10-mediacontentdecryptionmodule.md) | Defines an extension for a desktop app in an MSIX package that defines decryption information to be used to access media files. |
 
 ### Parent elements
 
 | Parent element | Description |
 |-|-|
-| [Extensions](element-1-extensions.md) | Defines one or more extensibility points for the package. |
+| [Extensions (in Package)](element-extensions.md) | Defines one or more extensibility points for the package. |
+| [Extensions (in Application)](element-1-extensions.md) | Defines one or more extensibility points for the app. |
 
 ## Requirements
 

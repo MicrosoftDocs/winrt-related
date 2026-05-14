@@ -132,7 +132,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [desktop:FullTrustProcess](element-desktop-fulltrustprocess.md) | Represents a desktop process that runs in full-trust. |
 | [desktop:ParameterGroup](element-desktop-parametergroup.md) | Represents a group of command-line parameters for a full-trust process. |
 | [desktop2:Extension (in Application/Extensions)](element-desktop2-Extension.md) | Declares an extensibility point for the app. |
-| [desktop2:Extension (in Package/Extensions)](element-desktop2-package-extension.md) | Declares an extensibility point for the app. |
+| [desktop2:Extension (in Package/Extensions)](element-desktop2-extension.md) | Declares an extensibility point for the app. |
 | [desktop2:File](element-desktop2-file.md) | Specifies the path to an event message file. |
 | [desktop2:FilterExtension](element-desktop2-FilterExtension.md) | Specifies the file type to be registered by the app. |
 | [desktop2:FirewallRules](element-desktop2-FirewallRules.md) | Specifies firewall exception rules used by Windows Desktop Bridge apps. |
@@ -171,7 +171,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [desktop6:Dependencies](element-desktop6-dependencies.md) | Specifies one or more dependent services for the current service. |
 | [desktop6:DependentService](element-desktop6-dependentservice.md) | Specifies a dependent service for the current service. |
 | [desktop6:Extension (child of Application)](element-desktop6-extension.md) | Declares an extensibility point for the app. |
-| [desktop6:Extension (child of Package)](element-desktop6-package-extension.md) | Declares an extensibility point for the app. |
+| [desktop6:Extension (child of Package)](element-desktop6-extension.md) | Declares an extensibility point for the app. |
 | [desktop6:FileSystemWriteVirtualization](element-desktop6-filesystemwritevirtualization.md) | Indicates whether virtualization for the file system is enabled for your desktop application. |
 | [desktop6:InstallActions](element-desktop6-installactions.md) | Specifies installer files (.exe or .msi) that are run before the first launch of your desktop application. This element is currently intended to be used only by desktop PC games that are packaged in an MSIXVC container. |
 | [desktop6:InstallAction](element-desktop6-installaction.md) | Specifies an installer file (.exe or .msi) that is run before the first launch of your desktop application. This element is currently intended to be used only by desktop PC games that are packaged in an MSIXVC container. |
@@ -199,7 +199,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [desktop7:DesktopAppMigration](element-desktop7-desktopappmigration.md)| Specifies a set of app migration entries for tiles and pins.|
 | [desktop7:ErrorReporting](element-desktop7-errorreporting.md)| Specifies a set of runtime exception helper modules.|
 | [desktop7:Extension (child of Application)](element-desktop7-extension.md)| Declares an extensibility point for the app (in Package/Applications; desktop7:Extension).|
-| [desktop7:Extension (child of Package)](element-desktop7-package-extension.md)| Declares an extensibility point for the app (in Package/Extensions; desktop7:Extension).|
+| [desktop7:Extension (child of Package)](element-desktop7-extension.md)| Declares an extensibility point for the app (in Package/Extensions; desktop7:Extension).|
 | [desktop7:InfoTip](element-desktop7-infotip.md)| Specifies the Infotip string to show when the mouse hovers over the item’s icon.|
 | [desktop7:Logo](element-desktop7-logo.md)| A path to a file that contains an image.|
 | [desktop7:LocalizedString](element-desktop7-localizedstring.md)| Specifies the localized string to show for this item in the Control Panel.|
@@ -410,7 +410,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap6:BarcodeScannerProvider](element-uap6-BarcodeScannerProvider.md) | Used for enabling the support of a barcode scanner. |
 | [uap6:Capability](element-uap6-capability.md) | Declares a capability required by a package. |
 | [uap6:Extension (in Application/Extensions)](element-uap6-Extension.md) | Declares an extensibility point for the app. |
-| [uap6:Extension (in Package/Extensions)](element-uap6-package-extension.md) | Declares an extensibility point for the app. |
+| [uap6:Extension (in Package/Extensions)](element-uap6-extension.md) | Declares an extensibility point for the app. |
 | [uap6:LoaderSearchPathEntry](element-uap6-LoaderSearchPathEntry.md) | A path in the app package, relative to the app package root path, to be included in the loader search path for the app's processes. |
 | [uap6:LoaderSearchPathOverride](element-uap6-LoaderSearchPathOverride.md) | An extension that allows an app developer to declare a path in the app package, relative to the app package root path, to be included in the loader search path for the app's processes. |
 | [uap6:LocalExperiencePack](element-uap6-LocalExperiencePack.md) | This extension provides a means to deliver translated app resources. |
@@ -429,7 +429,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap10:Content](element-uap10-content.md) | Indicates whether Windows will enforce run time package integrity checks on the entire contents of the package. |
 | [uap10:DisplayName](element-uap10-displayname.md) | A friendly name that can be displayed to users. |
 | [uap10:Extension (Child of Application)](element-uap10-extension.md) | Declares an extensibility point for the app. |
-| [uap10:Extension (Child of Package)](element-uap10-package-extension.md) | Declares an extensibility point for the app. |
+| [uap10:Extension (Child of Package)](element-uap10-extension.md) | Declares an extensibility point for the app. |
 | [uap10:HostRuntime](element-uap10-hostruntime.md) | Defines a package-wide extension that defines the runtime information to be used when activating a hosted app. |
 | [uap10:HostRuntimeDependency](element-uap10-hostruntimedependency.md) | Defines a dependency on a host app package for the current app package. |
 | [uap10:InstalledLocationVirtualization](element-uap10-installedlocationvirtualization.md) | Defines an extension for a desktop app in an MSIX package that redirects any writes to the app's installation directory to a location in the [app data](/windows/uwp/design/app-settings/store-and-retrieve-app-data). |

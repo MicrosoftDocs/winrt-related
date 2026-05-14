@@ -18,7 +18,7 @@ Enables your desktop application to specify one or more additional installer fil
 
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:Extension>`](element-desktop6-package-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:Extension>`](element-desktop6-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop6:CustomInstall>`**  
 
 ## Syntax
@@ -60,7 +60,7 @@ Enables your desktop application to specify one or more additional installer fil
 
 | Parent element | Description |
 |------|----------------|
-| [desktop6:Extension](element-desktop6-package-extension.md) | Declares an extensibility point for the desktop application. |
+| [desktop6:Extension](element-desktop6-extension.md) | Declares an extensibility point for the desktop application. |
 | **desktop8:RunAsUser** | Indicates whether the task should be run as the current user. |
 
 ## Remarks

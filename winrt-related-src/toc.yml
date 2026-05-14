@@ -458,9 +458,7 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop2-desktoppropertyhandler.md
           - name: "desktop2:EventMessageFiles"
             href: schemas/appxpackage/uapmanifestschema/element-desktop2-eventmessagefiles.md
-          - name: "desktop2:Extension (in Package/Extensions)"
-            href: schemas/appxpackage/uapmanifestschema/element-desktop2-package-extension.md
-          - name: "desktop2:Extension (in Package/Applications)"
+          - name: "desktop2:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-desktop2-extension.md
           - name: "desktop2:File"
             href: schemas/appxpackage/uapmanifestschema/element-desktop2-file.md
@@ -534,10 +532,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop6-dependencies.md
           - name: "desktop6:DependentService"
             href: schemas/appxpackage/uapmanifestschema/element-desktop6-dependentservice.md
-          - name: "desktop6:Extension (in Package/Applications)"
+          - name: "desktop6:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-desktop6-extension.md
-          - name: "desktop6:Extension (in Package/Extensions)"
-            href: schemas/appxpackage/uapmanifestschema/element-desktop6-package-extension.md
           - name: "desktop6:FileSystemWriteVirtualization"
             href: schemas/appxpackage/uapmanifestschema/element-desktop6-filesystemwritevirtualization.md
           - name: "desktop6:InstallAction"
@@ -590,10 +586,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-desktopappmigration.md
           - name: "desktop7:ErrorReporting"
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-errorreporting.md
-          - name: "desktop7:Extension (in Application)"
+          - name: "desktop7:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-extension.md
-          - name: "desktop7:Extension (in Package)"
-            href: schemas/appxpackage/uapmanifestschema/element-desktop7-package-extension.md
           - name: "desktop7:InfoTip"
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-infotip.md
           - name: "desktop7:LocalizedString"
@@ -1076,10 +1070,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap8-dataProtection.md
           - name: "uap8:ExecutionAlias"
             href: schemas/appxpackage/uapmanifestschema/element-uap8-executionalias.md
-          - name: "uap8:Extension (in Application)"
+          - name: "uap8:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-uap8-extension.md
-          - name: "uap8:Extension (in Package)"
-            href: schemas/appxpackage/uapmanifestschema/element-uap8-package-extension.md
           - name: "uap8:PosPaymentConnector"
             href: schemas/appxpackage/uapmanifestschema/element-uap8-posPaymentConnector.md
           - name: "uap10:AllowExternalContent"
@@ -1088,10 +1080,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap10-content.md
           - name: "uap10:DisplayName"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-displayname.md
-          - name: "uap10:Extension (in Application)"
+          - name: "uap10:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-extension.md
-          - name: "uap10:Extension (in Package)"
-            href: schemas/appxpackage/uapmanifestschema/element-uap10-package-extension.md
           - name: "uap10:HostRuntime"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-hostruntime.md
           - name: "uap10:HostRuntimeDependency"
