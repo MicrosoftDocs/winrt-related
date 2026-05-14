@@ -1579,7 +1579,7 @@ items:
         href: schemas/appcontentschema/root-elements.md
         items: 
         - name: "Properties"
-          href: schemas/appcontentschema/element-f-properties.md
+          href: schemas/appcontentschema/element-properties.md
         - name: "Name"
           href: schemas/appcontentschema/element-name.md
         - name: "Keywords"
@@ -1614,20 +1614,20 @@ items:
           - name: "Bundle"
             href: schemas/bundlemanifestschema/element-bundle.md
           - name: "Identity"
-            href: schemas/bundlemanifestschema/element-f-identity.md
+            href: schemas/bundlemanifestschema/element-identity.md
           - name: "Packages"
             href: schemas/bundlemanifestschema/element-packages.md
           - name: "Package"
-            href: schemas/bundlemanifestschema/element-f-package.md
+            href: schemas/bundlemanifestschema/element-package.md
           - name: "Resources"
-            href: schemas/bundlemanifestschema/element-f-resources.md
+            href: schemas/bundlemanifestschema/element-resources.md
           - name: "Resource"
-            href: schemas/bundlemanifestschema/element-f-resource.md
+            href: schemas/bundlemanifestschema/element-resource.md
           - name: "Dependencies"
-            href: schemas/bundlemanifestschema/element-f-dependencies.md
+            href: schemas/bundlemanifestschema/element-dependencies.md
             items:
             - name: "TargetDeviceFamily"
-              href: schemas/bundlemanifestschema/element-f-targetdevicefamily.md
+              href: schemas/bundlemanifestschema/element-targetdevicefamily.md
           - name: "OptionalBundle"
             href: schemas/bundlemanifestschema/element-optionalbundle.md
           - name: "Package"
@@ -1976,7 +1976,7 @@ items:
           - name: "Plan"
             href: schemas/mobilebroadbandschema/plans/element-plan.md
           - name: "Description"
-            href: schemas/mobilebroadbandschema/plans/element-f-description.md
+            href: schemas/mobilebroadbandschema/plans/element-description.md
           - name: "BillingCycle"
             href: schemas/mobilebroadbandschema/plans/element-billingcycle.md
           - name: "DataLimitInMegabytes"
@@ -2170,7 +2170,7 @@ items:
           - name: "Branding"
             href: schemas/mobilebroadbandschema/wwan/element-branding.md
           - name: "Logo"
-            href: schemas/mobilebroadbandschema/wwan/element-f-logo.md
+            href: schemas/mobilebroadbandschema/wwan/element-logo.md
           - name: "Name"
             href: schemas/mobilebroadbandschema/wwan/element-name.md
           - name: "DefaultProfile"
@@ -2178,7 +2178,7 @@ items:
           - name: "Name"
             href: schemas/mobilebroadbandschema/wwan/element-1-name.md
           - name: "Description"
-            href: schemas/mobilebroadbandschema/wwan/element-f-description.md
+            href: schemas/mobilebroadbandschema/wwan/element-description.md
           - name: "AssociatedPlan"
             href: schemas/mobilebroadbandschema/wwan/element-associatedplan.md
           - name: "HomeProviderName"
@@ -2322,9 +2322,9 @@ items:
           - name: "ExperienceId"
             href: schemas/storemanifest/storemanifestschema2015/element-experienceid.md
           - name: "Dependencies"
-            href: schemas/storemanifest/storemanifestschema2015/element-f-dependencies.md
+            href: schemas/storemanifest/storemanifestschema2015/element-dependencies.md
           - name: "TargetDeviceFamily"
-            href: schemas/storemanifest/storemanifestschema2015/element-f-targetdevicefamily.md
+            href: schemas/storemanifest/storemanifestschema2015/element-targetdevicefamily.md
           - name: "MemoryDependency"
             href: schemas/storemanifest/storemanifestschema2015/element-memorydependency.md
           - name: "DirectXDependency"
