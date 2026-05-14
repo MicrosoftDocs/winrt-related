@@ -16,7 +16,7 @@ Specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
+**[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:Extension>`](element-desktop6-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:MutablePackageDirectories>`](element-desktop6-mutablepackagedirectories.md)  

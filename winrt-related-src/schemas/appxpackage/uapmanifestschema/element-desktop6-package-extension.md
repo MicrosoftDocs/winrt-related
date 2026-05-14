@@ -1,4 +1,4 @@
-﻿---
+---
 title: desktop6:Extension (in Package/Extensions)
 description: Declares an extensibility point for the app (in Package/Extensions; desktop6:Extension).
 ms.date: 04/19/2019
@@ -13,7 +13,7 @@ Declares an extensibility point for the desktop application.
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
+**[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop6:Extension>`**  
 

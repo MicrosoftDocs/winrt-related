@@ -13,8 +13,8 @@ Defines a dependency on a host app for the current app. For more information, se
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Dependencies>`](element-dependencies.md)  
+**[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Dependencies>`](element-f-dependencies.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap10:HostRuntimeDependency>`**  
 
 ## Syntax
@@ -44,7 +44,7 @@ None
 
 | Parent element | Description |
 |-|-|
-| [Dependencies](element-dependencies.md) | Declares other packages that a package depends on to complete its software. |
+| [Dependencies](element-f-dependencies.md) | Declares other packages that a package depends on to complete its software. |
 
 ## Requirements
 

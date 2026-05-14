@@ -1,4 +1,4 @@
-﻿---
+---
 title: desktop6:RepairActions
 description: Specifies installer files (.exe or .msi) that are run when the user selects the repair or reset options in the Settings page for your desktop application.
 ms.date: 04/19/2019
@@ -16,7 +16,7 @@ Specifies installer files (.exe or .msi) that are run when the user selects the 
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
+**[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:Extension>`](element-desktop6-package-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:CustomInstall>`](element-desktop6-custominstall.md)  

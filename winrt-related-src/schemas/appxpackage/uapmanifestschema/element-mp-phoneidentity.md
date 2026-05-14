@@ -15,7 +15,7 @@ If your app is an update to an app previously made available on Windows Phone, e
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
+**[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ **`<mp:PhoneIdentity>`**  
 
 ## Syntax
@@ -43,7 +43,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [Package](element-package.md) | Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system. |
+| [Package](element-f-package.md) | Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system. |
 
 ## Remarks
 

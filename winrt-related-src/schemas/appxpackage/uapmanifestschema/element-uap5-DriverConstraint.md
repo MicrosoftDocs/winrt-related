@@ -13,8 +13,8 @@ Specifies the details of a driver paired with a UWP app.
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Dependencies>`](element-dependencies.md)  
+**[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Dependencies>`](element-f-dependencies.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap5:DriverDependency>`](element-uap5-driverdependency.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap5:DriverConstraint>`**  
 

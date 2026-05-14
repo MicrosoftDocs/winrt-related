@@ -13,8 +13,8 @@ Indicates whether the contents of the package will be allowed to execute.
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-properties.md)  
+**[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-f-properties.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap6:AllowExecution>`**  
 
 ## Syntax
@@ -39,7 +39,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [Properties](element-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users. |
+| [Properties](element-f-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users. |
 
 ## Requirements
 

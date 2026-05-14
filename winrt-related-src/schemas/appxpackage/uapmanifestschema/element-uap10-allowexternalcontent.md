@@ -13,8 +13,8 @@ Enables your package manifest to reference content outside the package, in a spe
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-properties.md)  
+**[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-f-properties.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap10:AllowExternalContent>`**  
 
 ## Syntax
@@ -43,7 +43,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [Properties](element-properties.md) | Defines additional metadata about the package including attributes that describe how the package behaves. |
+| [Properties](element-f-properties.md) | Defines additional metadata about the package including attributes that describe how the package behaves. |
 
 ## Remarks
 

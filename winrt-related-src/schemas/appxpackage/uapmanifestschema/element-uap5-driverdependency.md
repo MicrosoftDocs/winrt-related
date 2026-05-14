@@ -13,8 +13,8 @@ Contains the driver constraint information for a UWP app. If `DriverDependency` 
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Dependencies>`](element-dependencies.md)  
+**[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Dependencies>`](element-f-dependencies.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap5:DriverDependency>`**  
 
 ## Syntax
@@ -48,7 +48,7 @@ None
 
 | Parent element | Description |
 |-|-|
-| [Dependencies](element-dependencies.md) | Declares other packages that a package depends on to complete its software. |
+| [Dependencies](element-f-dependencies.md) | Declares other packages that a package depends on to complete its software. |
 
 ## Remarks
 

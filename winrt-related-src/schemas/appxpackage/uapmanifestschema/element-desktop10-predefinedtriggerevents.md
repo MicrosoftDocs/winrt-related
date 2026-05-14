@@ -1,4 +1,4 @@
-﻿---
+---
 title: desktop10:PredefinedTriggerEvents
 description: Describes predefined trigger events for the current service.
 ms.date: 06/10/2022
@@ -13,7 +13,7 @@ Describes predefined trigger events for the current service.
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
+**[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop10:Extension>`](element-desktop10-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop10:PredefinedTriggerEvents>`**  

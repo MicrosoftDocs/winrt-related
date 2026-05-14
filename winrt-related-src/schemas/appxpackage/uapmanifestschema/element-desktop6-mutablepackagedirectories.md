@@ -1,4 +1,4 @@
-﻿---
+---
 title: desktop6:MutablePackageDirectories
 description: Enables your desktop application to specify one or more folders where users can modify the installation files for your application (for example, to install mods).
 ms.date: 04/19/2019
@@ -16,7 +16,7 @@ Enables your desktop application to specify one or more folders where users can 
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
+**[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:Extension>`](element-desktop6-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop6:MutablePackageDirectories>`**  

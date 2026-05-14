@@ -13,8 +13,8 @@ Allows a main package manifest to specify whether the package is a valid target 
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-properties.md)  
+**[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-f-properties.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap15:DependencyTarget>`**  
 
 ## Syntax

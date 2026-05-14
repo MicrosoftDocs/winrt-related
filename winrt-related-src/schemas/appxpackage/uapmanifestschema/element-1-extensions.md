@@ -15,9 +15,9 @@ Defines one or more extensibility points for the app.
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-applications.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-application.md)  
+**[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<Extensions>`**  
 
 ## Syntax
@@ -51,7 +51,7 @@ None.
 
 | Parent element | Description |
 |---------------|-------------|
-| [Application](element-application.md) | Represents an app that comprises part of or all of the functionality delivered in the package. |
+| [Application](element-f-application.md) | Represents an app that comprises part of or all of the functionality delivered in the package. |
 
 ## See also
 The following elements have the same name as this one, but different content or attributes:

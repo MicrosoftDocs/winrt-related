@@ -15,7 +15,7 @@ Declares other packages that a package depends on. This dependency can be specif
 
 
 ## Element hierarchy
-<dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
+<dl><dt><a href = "element-f-package.md">&lt;Package&gt;</a></dt>
 <dd>
 <dl><dt><a href = "element-extensions.md">&lt;Extensions&gt;</a></dt>
 <dd>
@@ -44,8 +44,8 @@ Declares other packages that a package depends on. This dependency can be specif
 | Attribute | Description | Data type | Required |
 | -----------| -------------| -----------| ----------|
 | Type | If set to "install" the package dependency is only required at install time. If set to "installAndRuntime" the package dependency is required for both install and runtime. | One of the following values: "install" , "installAndRuntime"| No |
-| Name | The name as it appears in the *Name* attribute of the [Identity](element-identity.md) element of the dependency package. | A string with a value between 3 and 50 characters in length that consists of alpha-numeric, period, and dash characters.| Yes |
-| Publisher | The publisher as it appears in the *Publisher* attribute of the [Identity](element-identity.md)  element of the dependency package. | A string with a value between 1 and 8192 characters in length that fits the regular expression  of a distinguished name.| Yes |
+| Name | The name as it appears in the *Name* attribute of the [Identity](element-f-identity.md) element of the dependency package. | A string with a value between 3 and 50 characters in length that consists of alpha-numeric, period, and dash characters.| Yes |
+| Publisher | The publisher as it appears in the *Publisher* attribute of the [Identity](element-f-identity.md)  element of the dependency package. | A string with a value between 1 and 8192 characters in length that fits the regular expression  of a distinguished name.| Yes |
 | MinVersion | The minimum version of the dependency package. | A version string in quad notation, "Major.Minor.Build.Revision" where Major cannot be "0".| Yes |
 | MaxMajorVersionTested | The maximum version of the dependency package tested against. Used to determine whether frameworks will be staged side-by-side, and what framework gets loaded into the package graph for the package. | An optional number with a value between 0 and 512 characters in length. | No |
 | uap6:Optional | Indicates that a framework package dependency is optional for the app, meaning the app can be installed even if the optional framework dependencies are not installed. | Boolean.| No |

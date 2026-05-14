@@ -18,17 +18,17 @@ The following table lists all of the elements in this schema, sorted alphabetica
 
 | Element | Description |
 |---------|-------------|
-| [ActivatableClass (type: CT_InProcessActivatableClass)](element-activatableclass.md) | Declares a runtime class associated with the extensibility point. |
+| [ActivatableClass (type: CT_InProcessActivatableClass)](element-f-activatableclass.md) | Declares a runtime class associated with the extensibility point. |
 | [ActivatableClass (type: CT_OutOfProcessActivatableClass)](element-1-activatableclass.md) | Declares a runtime class associated with the extensibility point. |
-| [ActivatableClassAttribute](element-activatableclassattribute.md) | Defines an attribute of the class that is stored in the Windows Runtime property store. |
-| [Application](element-application.md) | Represents an app that comprises part of or all of the functionality delivered in the package. |
-| [Applications](element-applications.md) | Represents one or more apps that comprise the package. |
-| [Arguments](element-arguments.md) | Specifies the list of comma-separated arguments to pass to the executable. |
-| [BackgroundTasks](element-backgroundtasks.md) | Defines an app extensibility point of type **windows.backgroundTasks**. Background tasks run in a dedicated background host; that is, without a UI. |
-| [Capabilities](element-capabilities.md) | Declares the access to protected user resources that the package requires. |
-| [Capability](element-capability.md) | Declares a capability required by a package. |
-| [Certificate](element-certificate.md) | A certificate for use with the package and placed in the system certificate stores. |
-| [Certificates](element-certificates.md) | Declares a package extensibility point of type **windows.certificates**. The app requires one or more certificates from the specified certificate stores. |
+| [ActivatableClassAttribute](element-f-activatableclassattribute.md) | Defines an attribute of the class that is stored in the Windows Runtime property store. |
+| [Application](element-f-application.md) | Represents an app that comprises part of or all of the functionality delivered in the package. |
+| [Applications](element-f-applications.md) | Represents one or more apps that comprise the package. |
+| [Arguments](element-f-arguments.md) | Specifies the list of comma-separated arguments to pass to the executable. |
+| [BackgroundTasks](element-f-backgroundtasks.md) | Defines an app extensibility point of type **windows.backgroundTasks**. Background tasks run in a dedicated background host; that is, without a UI. |
+| [Capabilities](element-f-capabilities.md) | Declares the access to protected user resources that the package requires. |
+| [Capability](element-f-capability.md) | Declares a capability required by a package. |
+| [Certificate](element-f-certificate.md) | A certificate for use with the package and placed in the system certificate stores. |
+| [Certificates](element-f-certificates.md) | Declares a package extensibility point of type **windows.certificates**. The app requires one or more certificates from the specified certificate stores. |
 | [cloudFiles:Extension](element-cloudfiles-extension.md) | Declares an extensibility point for the app that registers the handlers implemented in an application and context menu options for cloud-based placeholder files. |
 | [cloudFiles:CloudFiles](element-cloudfiles-cloudfiles.md) | Registers the handlers implemented in an application and context menu options for cloud-based placeholder files. |
 | [cloudFiles:BannersHandler](element-cloudfiles-bannershandler.md) | Registration of a Windows Shell BannersHandler for cloud based placeholder files. |
@@ -111,12 +111,12 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [com4:SurrogateServer](element-com4-surrogateserver.md) | Registers a SurrogateServer with one or many class registrations. |
 | [com4:TreatAsClass](element-com4-treatasclass.md) | A registration that corresponds to a CLSID registration with the TreatAs subkey. |
 | [com4:TypeLib](element-com4-typelib.md) | Registers a type library. |
-| [Dependencies](element-dependencies.md) | Declares other packages that a package depends on to complete its software. |
+| [Dependencies](element-f-dependencies.md) | Declares other packages that a package depends on to complete its software. |
 | [deployment:Extension](element-deployment-extension.md) | Declares an extensibility point for the app that specifies an undocked deployment extension handler (DEH). |
 | [deployment:DeploymentExtensionHandler](element-deployment-deploymentextensionhandler.md) | Allows an app to specify one or more DLL files that provide DEH functionality that ships outside of an OS release. |
 | [deployment:Files](element-deployment-files.md) | Contains one or more **File** elements specifying DLL files that provide DEH functionality that ships outside of an OS release. |
 | [deployment:File](element-deployment-file.md) | Specifies one or more DLL files that provide DEH functionality that ships outside of an OS release. |
-| [Description](element-description.md) | A friendly description that can be displayed to users. |
+| [Description](element-f-description.md) | A friendly description that can be displayed to users. |
 | [desktop:ExecutionAlias](element-desktop-executionalias.md) | The executable of a UWP app to be activated from a command prompt. |
 | [desktop:Extension](element-desktop-extension.md) | Declares an extensibility point for the app. |
 | [desktop:FullTrustProcess](element-desktop-fulltrustprocess.md) | Represents a desktop process that runs in full-trust. |
@@ -240,32 +240,32 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [desktop10:SupportedProtocols](element-desktop10-supportedprotocols.md) | DSpecifies the supported URL protocol schemes for a given key.  |
 | [desktop10:TypesSupported](element-desktop10-typessupported.md) | Defines 1 or more of the event log types supported by the event source.  |
 | [desktop10:TypeSupported](element-desktop10-typesupported.md) | Specifies a supported event log type.  |
-| [Device](element-device.md) | Declares a function for a device that is associated with the [**DeviceCapability**](element-devicecapability.md). On Windows 10.0.10240.0, a **DeviceCapability** can contain up to 100 **Device** elements. On Windows 10.0.10586.0, it can contain up to 1000 (for more details, see **DeviceCapability**). |
-| [DeviceCapability](element-devicecapability.md) | Declares a device capability required by a package. On Windows 10.0.10240.0, can contain up to 100 [**Device**](element-device.md) elements. On Windows 10.0.10586.0, can contain up to 1000 (for syntax and examples, see Examples). |
-| [DisplayName](element-displayname.md) | A friendly name that can be displayed to users. |
+| [Device](element-f-device.md) | Declares a function for a device that is associated with the [**DeviceCapability**](element-f-devicecapability.md). On Windows 10.0.10240.0, a **DeviceCapability** can contain up to 100 **Device** elements. On Windows 10.0.10586.0, it can contain up to 1000 (for more details, see **DeviceCapability**). |
+| [DeviceCapability](element-f-devicecapability.md) | Declares a device capability required by a package. On Windows 10.0.10240.0, can contain up to 100 [**Device**](element-f-device.md) elements. On Windows 10.0.10586.0, can contain up to 1000 (for syntax and examples, see Examples). |
+| [DisplayName](element-f-displayname.md) | A friendly name that can be displayed to users. |
 | [Extension (global)](element-1-extension.md) | Declares an extensibility point for the package. |
-| [Extension (in type: CT_PackageExtensions)](element-extension.md) | Declares an extensibility point for the package. |
+| [Extension (in type: CT_PackageExtensions)](element-f-extension.md) | Declares an extensibility point for the package. |
 | [Extensions (type: CT_ApplicationExtensions)](element-1-extensions.md) | Defines one or more extensibility points for the app. |
 | [Extensions (type: CT_PackageExtensions)](element-extensions.md) | Defines one or more extensibility points for the package. |
-| [Folder](element-folder.md) | Specifies a folder that the package shares with other packages from the same publisher. |
-| [Framework](element-framework.md) | Indicates whether the package is a framework package; that is, a package that can be used by other packages. Its value is **false** by default. You should not specify a value for it unless you are creating a framework. |
-| [Function](element-function.md) | Declares the function for the device. |
+| [Folder](element-f-folder.md) | Specifies a folder that the package shares with other packages from the same publisher. |
+| [Framework](element-f-framework.md) | Indicates whether the package is a framework package; that is, a package that can be used by other packages. Its value is **false** by default. You should not specify a value for it unless you are creating a framework. |
+| [Function](element-f-function.md) | Declares the function for the device. |
 | [HeapPolicy](element-heap-heappolicy.md) | Allows packaged apps to request a heap profile that has performance and behavior characteristics consistent with that of the legacy NT heap. |
-| [Identity](element-identity.md) | Defines a globally unique identifier for a package. A package identity is represented as a tuple of attributes of the package. |
-| [InProcessServer](element-inprocessserver.md) | Declares a package extensibility point of type **windows.activatableClass.inProcessServer**. The app uses a dynamic link library (DLL) that exposes one or more activatable classes. |
-| [Instancing](element-instancing.md) | Specifies whether the executable runs as a single instance or can run as multiple instances. |
-| [Interface](element-interface.md) | Declares an interface associated with the proxy. |
-| [Logo](element-logo.md) | A path to a file that contains an image. |
-| [OutOfProcessServer](element-outofprocessserver.md) | Declares a package extension point of type **windows.activatableClass.outOfProcessServer**. The app uses an executable (EXE) that exposes one or more activatable classes. |
-| [Package](element-package.md) | Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system. |
-| [PackageDependency](element-packagedependency.md) | Declares a dependency on another package that is marked as a framework package. |
+| [Identity](element-f-identity.md) | Defines a globally unique identifier for a package. A package identity is represented as a tuple of attributes of the package. |
+| [InProcessServer](element-f-inprocessserver.md) | Declares a package extensibility point of type **windows.activatableClass.inProcessServer**. The app uses a dynamic link library (DLL) that exposes one or more activatable classes. |
+| [Instancing](element-f-instancing.md) | Specifies whether the executable runs as a single instance or can run as multiple instances. |
+| [Interface](element-f-interface.md) | Declares an interface associated with the proxy. |
+| [Logo](element-f-logo.md) | A path to a file that contains an image. |
+| [OutOfProcessServer](element-f-outofprocessserver.md) | Declares a package extension point of type **windows.activatableClass.outOfProcessServer**. The app uses an executable (EXE) that exposes one or more activatable classes. |
+| [Package](element-f-package.md) | Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system. |
+| [PackageDependency](element-f-packagedependency.md) | Declares a dependency on another package that is marked as a framework package. |
 | [Path (type: ST_Executable)](element-1-path.md) | The path to the executable. |
-| [Path (type: ST_FileName)](element-path.md) | The path to the DLL. |
+| [Path (type: ST_FileName)](element-f-path.md) | The path to the DLL. |
 | [mp:PhoneIdentity](element-mp-phoneidentity.md) | If your app is an update to an app previously made available on Windows Phone, ensure that this element matches what is in the app manifest of your previous app. Use the same GUIDs that were assigned to the app by the Store. This ensures that users of your app who are upgrading to Windows 10 will receive your new app as an update, and not as a duplicate. |
-| [Properties](element-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users. **Note:**  You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely “&#124;” and “all”, due to which Windows fails to create the AppContainer profile for the package . Use this reference for [troubleshooting](/windows/win32/appxpkg/troubleshooting) if you get an error. |
-| [ProxyStub](element-proxystub.md) | Declares a package extensibility point of type **windows.activatableClass.proxyStub**. A proxy can be composed of one or more interfaces. |
-| [PublisherCacheFolders](element-publishercachefolders.md) | Declares a package extensibility point of type **windows.publisherCacheFolders**. This specifies one or more folders that the package shares with other packages from the same publisher. |
-| [PublisherDisplayName](element-publisherdisplayname.md) | A friendly name for the publisher that can be displayed to users. |
+| [Properties](element-f-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users. **Note:**  You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely “&#124;” and “all”, due to which Windows fails to create the AppContainer profile for the package . Use this reference for [troubleshooting](/windows/win32/appxpkg/troubleshooting) if you get an error. |
+| [ProxyStub](element-f-proxystub.md) | Declares a package extensibility point of type **windows.activatableClass.proxyStub**. A proxy can be composed of one or more interfaces. |
+| [PublisherCacheFolders](element-f-publishercachefolders.md) | Declares a package extensibility point of type **windows.publisherCacheFolders**. This specifies one or more folders that the package shares with other packages from the same publisher. |
+| [PublisherDisplayName](element-f-publisherdisplayname.md) | A friendly name for the publisher that can be displayed to users. |
 | [printSupport:Extension](element-printsupport-extension.md) | Declares an extensibility point for a Print Support App. |
 | [printSupport2:Extension](element-printsupport2-extension.md) | Declares an extensibility point for a Print Support App, adding support for virtual printers |
 | [printSupport2:PrintSupportVirtualPrinter](element-printsupport2-extension.md) | Specifies a virtual endpoint print queue to be installed with the app. |
@@ -286,14 +286,14 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [rescap4:Extension](element-rescap4-extension.md) | Declares an extensibility point for the app. |
 | [rescap4:PrimaryInteropAssemblies](element-rescap4-primaryInteropAssemblies.md) | Defines package assembly configuration. |
 | [rescap4:Redirect](element-rescap4-redirect.md) | Specifies redirect information for interop assemblies. |
-| [Resource](element-resource.md) | Declares a language for the resource contained in the package. The scale and DirectX feature level attributes are common for all resources in the package. |
-| [ResourcePackage](element-resourcepackage.md) | Indicates whether the package is a resource package. A resource package can be used by other packages. Its value is **false** by default. You should not specify a value for it unless you are creating a resource. |
-| [Resources](element-resources.md) | Declares languages for the resources that the package contains. Every package must declare at least one language for resources. The scale and DirectX feature level attributes are common for all resources in the package. |
-| [SelectionCriteria](element-selectioncriteria.md) | Defines selection criteria for the certificates defined for the package. |
-| [TargetDeviceFamily](element-targetdevicefamily.md) | Identifies the device family that your package targets. For more info about device families, see [Guide to UWP apps](/windows/uwp/get-started/universal-application-platform-guide). |
-| [Task](element-task.md) | The background task associated with the app extensibility point. |
+| [Resource](element-f-resource.md) | Declares a language for the resource contained in the package. The scale and DirectX feature level attributes are common for all resources in the package. |
+| [ResourcePackage](element-f-resourcepackage.md) | Indicates whether the package is a resource package. A resource package can be used by other packages. Its value is **false** by default. You should not specify a value for it unless you are creating a resource. |
+| [Resources](element-f-resources.md) | Declares languages for the resources that the package contains. Every package must declare at least one language for resources. The scale and DirectX feature level attributes are common for all resources in the package. |
+| [SelectionCriteria](element-f-selectioncriteria.md) | Defines selection criteria for the certificates defined for the package. |
+| [TargetDeviceFamily](element-f-targetdevicefamily.md) | Identifies the device family that your package targets. For more info about device families, see [Guide to UWP apps](/windows/uwp/get-started/universal-application-platform-guide). |
+| [Task](element-f-task.md) | The background task associated with the app extensibility point. |
 | [TrustedLaunch](element-trustedlaunch-trustedlaunch.md) | Specifies that Trusted Launch is enabled, which restricts the set of processes that can be launched under a package's identity. |
-| [TrustFlags](element-trustflags.md) | Indicates whether the certificates for the package are exclusive to the package. |
+| [TrustFlags](element-f-trustflags.md) | Indicates whether the certificates for the package are exclusive to the package. |
 | [uap:ApplicationContentUriRules](element-uap-applicationcontenturirules.md) | Specifies which pages in the web context have access to the system's geolocation devices (if the app has permission to access this capability) and access to the clipboard. |
 | [uap:AppointmentsProvider](element-uap-appointmentsprovider.md) | Declares an app extensibility point of type **windows.appointmentsProvider**. |
 | [uap:AppointmentsProviderLaunchActions](element-uap-appointmentsproviderlaunchactions.md) | Declares actions to take when a appointment is launched. |

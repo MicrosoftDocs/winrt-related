@@ -13,8 +13,8 @@ Declares a capability required by a package.
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Capabilities>`](element-capabilities.md)  
+**[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Capabilities>`](element-f-capabilities.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap6:Capability>`**  
 
 ## Syntax
@@ -40,7 +40,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [Capabilities](element-capabilities.md) | Declares the access to protected user resources that the package requires. |
+| [Capabilities](element-f-capabilities.md) | Declares the access to protected user resources that the package requires. |
 
 ## See also
 

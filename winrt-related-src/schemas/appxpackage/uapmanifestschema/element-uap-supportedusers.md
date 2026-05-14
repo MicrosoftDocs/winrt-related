@@ -15,8 +15,8 @@ Indicates whether or not the package is multi-user aware. This setting is used a
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-properties.md)  
+**[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-f-properties.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap:SupportedUsers>`**  
 
 ## Syntax
@@ -41,7 +41,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [Properties](element-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users. |
+| [Properties](element-f-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users. |
 
 > [!NOTE]
 > You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely `|` and `all`, due to which Windows fails to create the AppContainer profile for the package. Use this reference for [troubleshooting](/windows/win32/appxpkg/troubleshooting) if you get an error.
