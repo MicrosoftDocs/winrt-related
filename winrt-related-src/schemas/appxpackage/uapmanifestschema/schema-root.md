@@ -243,8 +243,8 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [Device](element-f-device.md) | Declares a function for a device that is associated with the [**DeviceCapability**](element-f-devicecapability.md). On Windows 10.0.10240.0, a **DeviceCapability** can contain up to 100 **Device** elements. On Windows 10.0.10586.0, it can contain up to 1000 (for more details, see **DeviceCapability**). |
 | [DeviceCapability](element-f-devicecapability.md) | Declares a device capability required by a package. On Windows 10.0.10240.0, can contain up to 100 [**Device**](element-f-device.md) elements. On Windows 10.0.10586.0, can contain up to 1000 (for syntax and examples, see Examples). |
 | [DisplayName](element-f-displayname.md) | A friendly name that can be displayed to users. |
-| [Extension (global)](element-1-extension.md) | Declares an extensibility point for the package. |
-| [Extension (in type: CT_PackageExtensions)](element-f-extension.md) | Declares an extensibility point for the package. |
+| [Extension (global)](element-f-application-extension.md) | Declares an extensibility point for the package. |
+| [Extension (in type: CT_PackageExtensions)](element-f-package-extension.md) | Declares an extensibility point for the package. |
 | [Extensions (type: CT_ApplicationExtensions)](element-f-application-extensions.md) | Defines one or more extensibility points for the app. |
 | [Extensions (type: CT_PackageExtensions)](element-extensions.md) | Defines one or more extensibility points for the package. |
 | [Folder](element-f-folder.md) | Specifies a folder that the package shares with other packages from the same publisher. |

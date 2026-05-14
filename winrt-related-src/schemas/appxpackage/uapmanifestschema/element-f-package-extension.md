@@ -90,7 +90,7 @@ Declares an extensibility point for the package.
 ## See also
 The following elements have the same name as this one, but different content or attributes:
 
-- [Extension (global)](element-1-extension.md)
+- [Extension (global)](element-f-application-extension.md)
 
 ## Remarks
 

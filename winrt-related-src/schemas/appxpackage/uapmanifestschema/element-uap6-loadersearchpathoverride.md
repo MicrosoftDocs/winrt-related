@@ -15,7 +15,7 @@ An extension that allows an app developer to declare a path in the app package, 
 
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-package-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap6:LoaderSearchPathOverride>`**  
 
 ## Syntax
@@ -49,7 +49,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [Extension](element-f-extension.md) | Declares an extensibility point for the package. |
+| [Extension](element-f-package-extension.md) | Declares an extensibility point for the package. |
 
 ## Requirements
 

@@ -1,15 +1,15 @@
 ---
-description: Defines an attribute of the class that is stored in the Windows Runtime property store (Windows 10, descendant of InProcessServer).
+description: Defines an attribute of the class that is stored in the Windows Runtime property store.
 Search.Product: eADQiWindows 10XVcnh
-title: ActivatableClassAttribute (Windows 10, descendant of InProcessServer)
+title: ActivatableClassAttribute (Windows 10)
 ms.assetid: 6070f277-74ae-4cf8-9467-9109c4983f9d
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
-no-loc: [Package, Extensions, Extension, InProcessServer, ActivatableClass, ActivatableClassAttribute]
+no-loc: [Package, Extensions, Extension, InProcessServer, ActivatableClass, ActivatableClassAttribute, OutOfProcessServer]
 ---
 
-# ActivatableClassAttribute (Windows 10, descendant of InProcessServer)
+# ActivatableClassAttribute (Windows 10)
 
 Defines an attribute of the class that is stored in the Windows Runtime property store.
 
@@ -17,10 +17,13 @@ Defines an attribute of the class that is stored in the Windows Runtime property
 
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-package-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<InProcessServer>`](element-f-inprocessserver.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<ActivatableClass>`](element-f-activatableclass.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<ActivatableClassAttribute>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<OutOfProcessServer>`](element-f-outofprocessserver.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<ActivatableClass>`](element-f-outofprocessserver-activatableclass.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<ActivatableClassAttribute>`**
 
 ## Syntax
 

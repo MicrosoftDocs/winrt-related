@@ -1,15 +1,15 @@
 ---
-description: A path to a file that contains an image (Windows 10, child of uap:FileTypeAssociation).
+description: A path to a file that contains an image.
 Search.Product: eADQiWindows 10XVcnh
-title: uap:Logo (Windows 10, child of uap:FileTypeAssociation)
+title: uap:Logo (Windows 10)
 ms.assetid: e82d1f5f-e1c8-469c-8568-0736c2a96554
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
 ms.date: 04/05/2017
-no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:FileTypeAssociation, uap:Logo]
+no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:FileTypeAssociation, uap:Logo, uap:Protocol]
 ---
 
-# uap:Logo (Windows 10, child of uap:FileTypeAssociation)
+# uap:Logo (Windows 10)
 
 A path to a file that contains an image.
 
@@ -21,6 +21,8 @@ A path to a file that contains an image.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:Extension>`](element-uap-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:FileTypeAssociation>`](element-uap-filetypeassociation.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap:Logo>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:Protocol>`](element-uap-protocol.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap:Logo>`**  
 
 ## Syntax
@@ -46,6 +48,7 @@ None.
 | Parent element | Description |
 |-|-|
 | [uap:FileTypeAssociation](element-uap-filetypeassociation.md) | Declares an app extensibility point of type *windows.fileTypeAssociation*. A file type association indicates that the app is registered to handle files of the specified types. |
+| [uap:Protocol](element-uap-protocol.md) | Declares an app extensibility point of type *windows.protocol*. A URI association indicates that the app is registered to handle URIs with the specified scheme. |
 
 ## Remarks
 
