@@ -113,7 +113,7 @@ Declares an extensibility point for the app.
 
 | Parent element | Description |
 |-|-|
-| [Extensions (type:CT_ApplicationExtensions)](element-1-extensions.md) | Defines one or more extensibility points for the app. |
+| [Extensions (type:CT_ApplicationExtensions)](element-f-application-extensions.md) | Defines one or more extensibility points for the app. |
 
 ## Remarks
 

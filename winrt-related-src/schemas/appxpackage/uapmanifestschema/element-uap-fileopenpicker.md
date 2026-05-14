@@ -43,7 +43,7 @@ None.
 
 | Child element | Description |
 |-|-|
-| [uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes)](element-2-uap-supportedfiletypes.md) | Defines the file types that the app can share. |
+| [uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes)](element-uap-fileopenpicker-supportedfiletypes.md) | Defines the file types that the app can share. |
 
 ### Parent elements
 

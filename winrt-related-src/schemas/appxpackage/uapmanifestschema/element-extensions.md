@@ -54,7 +54,7 @@ None.
 ## See also
 The following elements have the same name as this one, but different content or attributes:
 
-- [Extensions (in Application)](element-1-extensions.md)
+- [Extensions (in Application)](element-f-application-extensions.md)
 
 ## Remarks
 

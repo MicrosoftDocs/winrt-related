@@ -16,7 +16,7 @@ Registers a COM server (with one or more class registrations) hosted in a Window
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com2:Extension>`](element-com2-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com2:ComServer>`](element-com2-comserver.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com3:ServiceServer>`**  
@@ -45,7 +45,7 @@ Registers a COM server (with one or more class registrations) hosted in a Window
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **ServiceName** | The name of the Windows service that hosts the COM server. This service name must match the name of a corresponding [desktop6:Service](element-desktop6-service.md) element in the same application-level [Extensions](element-1-extensions.md) element in the package manifest. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
+| **ServiceName** | The name of the Windows service that hosts the COM server. This service name must match the name of a corresponding [desktop6:Service](element-desktop6-service.md) element in the same application-level [Extensions](element-f-application-extensions.md) element in the package manifest. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
 | **Arguments** | The command-line parameters of the service. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
 | **DisplayName** | A localizable string corresponding to the default AppID key value. | An optional string with a value between 1 and 256 characters in length. | No |  |
 | **LaunchAndActivationPermission** | An [SDDL string](/windows/win32/secauthz/security-descriptor-string-format) that corresponds to the LaunchPermission value of the AppID key. | An optional [SDDL string](/windows/win32/secauthz/security-descriptor-string-format) value. | No |  |

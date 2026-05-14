@@ -17,7 +17,7 @@ Enables Windows Desktop Bridge apps to register IFilters to extract file propert
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop2:Extension>`](element-desktop2-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop2:SearchFilterHandler>`**  
 
@@ -59,7 +59,7 @@ Enables Windows Desktop Bridge apps to register IFilters to extract file propert
 
 | Parent element | Description |
 |-|-|
-| [Extensions](element-1-extensions.md) | Defines one or more extensibility points for the app. |
+| [Extensions](element-f-application-extensions.md) | Defines one or more extensibility points for the app. |
 
 
 ## Remarks

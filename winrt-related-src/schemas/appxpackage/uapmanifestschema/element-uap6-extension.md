@@ -18,7 +18,7 @@ Declares an extensibility point for the app.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap6:Extension>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap6:Extension>`**  
 
 ## Syntax
@@ -94,7 +94,7 @@ Declares an extensibility point for the app.
 | Parent element | Description |
 |-|-|
 | [Extensions (in Package)](element-extensions.md) | Defines one or more extensibility points for the package. |
-| [Extensions (in Application)](element-1-extensions.md) | Defines one or more extensibility points for the app. |
+| [Extensions (in Application)](element-f-application-extensions.md) | Defines one or more extensibility points for the app. |
 
 ## Remarks
 

@@ -53,7 +53,7 @@ Declares an app extension point of type *windows.shareTarget*. The app can share
 | Child element | Description |
 |-|-|
 | [uap:DataFormat](element-uap-dataformat.md) | Specifies a data package format such as text or HTML format that the app can share. It is unique per application in the package and is case sensitive. |
-| [uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes)](element-1-uap-supportedfiletypes.md) | Defines the file types that the app can share. |
+| [uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes)](element-uap-sharetarget-supportedfiletypes.md) | Defines the file types that the app can share. |
 
 ### Parent elements
 

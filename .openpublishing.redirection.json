@@ -696,6 +696,31 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-activatableclass.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-outofprocessserver-activatableclass",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-extensions.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-application-extensions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-path.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-outofprocessserver-path",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-uap-supportedfiletypes.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-sharetarget-supportedfiletypes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-2-uap-supportedfiletypes.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-fileopenpicker-supportedfiletypes",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-desktop2-package-extension.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-desktop2-extension",
       "redirect_document_id": false

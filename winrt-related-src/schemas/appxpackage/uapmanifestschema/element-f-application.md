@@ -86,7 +86,7 @@ Represents an app that comprises part of or all of the functionality delivered i
 | Child element | Description |
 |-|-|
 | [uap:ApplicationContentUriRules](element-uap-applicationcontenturirules.md) | Specifies which pages in the web context have access to the system's geolocation devices (if the app has permission to access this capability) and access to the clipboard. |
-| [Extensions (type: CT_ApplicationExtensions)](element-1-extensions.md) | Defines one or more extensibility points for the app. |
+| [Extensions (type: CT_ApplicationExtensions)](element-f-application-extensions.md) | Defines one or more extensibility points for the app. |
 | [uap7:Properties](element-uap7-properties.md) | Specifies properties of the app. |
 | [uap:VisualElements](element-uap-visualelements.md) | Describes the visual aspects of the app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance. |
 
@@ -135,7 +135,7 @@ You can read more about this custom capability here in [Custom Capabilities](/wi
 ### Important notes about multi-instancing apps
 
 - If an app declares **SupportsMultipleInstances** within the **Application** element, then all foreground extensions will also be multi-instanced.
-- If the app declares **SupportsMultipleInstances** within the **Application** element, then it does not need to be declared at the [Extensions](element-1-extensions.md) level (for example, in a [BackgroundTasks](element-f-backgroundtasks.md) or [AppService](element-uap3-appservice.md) element).
+- If the app declares **SupportsMultipleInstances** within the **Application** element, then it does not need to be declared at the [Extensions](element-f-application-extensions.md) level (for example, in a [BackgroundTasks](element-f-backgroundtasks.md) or [AppService](element-uap3-appservice.md) element).
 - The app should only declare **SupportsMultipleInstances** on background tasks, background audio, or app services.
 - Console apps will always be multi-instanced and must explicitly declare **SupportsMultipleInstances**.
 - Apps can use the **ResourceGroup** declaration in the manifest to group multiple background tasks into the same host. This conflicts with multi-instancing, where each activation goes into a separate host. Therefore, an app cannot declare both **SupportsMultipleInstances** and **ResourceGroup** in the manifest.
