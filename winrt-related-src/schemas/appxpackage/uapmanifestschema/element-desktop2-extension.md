@@ -1,8 +1,8 @@
 ---
 
 ms.assetid: 917fe36f-091e-4374-9ead-5755f1cce72b
-title: desktop2:Extension (in Package/Applications)
-description: Declares an extensibility point for the app (in Package/Applications; desktop2:Extension).
+title: desktop2:Extension
+description: Declares an extensibility point for the app (desktop2:Extension).
 
 ms.date: 04/05/2017
 ms.topic: reference
@@ -12,13 +12,15 @@ keywords: windows 10, uwp, schema, manifest, desktop, extension
 no-loc: [Package, Applications, Application, Extensions, desktop2:Extension]
 ---
 
-# desktop2:Extension (in Package/Applications)
+# desktop2:Extension
 
 Declares an extensibility point for the app.
 
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop2:Extension>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
@@ -28,7 +30,7 @@ Declares an extensibility point for the app.
 
 ```xml
 <desktop2:Extension
-  Category = 'A string that can have one of the following values: "windows.appPrinter", "windows.searchFilterHandler", "windows.searchPropertyHandler", or "windows.mailProvider".'
+  Category = 'A string that can have one of the following values: "windows.appPrinter", "windows.searchFilterHandler", "windows.searchPropertyHandler", "windows.mailProvider", "windows.firewallRules", or "windows.desktopEventLogging".'
   Executable = 'An optional string with a value between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isnt specified, the EntryPoint defined for the app is used.'
   EntryPoint = 'An optional string with a value between 1 and 256 characters in length, representing the  task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead.'
   RuntimeType = 'An optional string with a value between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *.'
@@ -66,7 +68,7 @@ Declares an extensibility point for the app.
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Category** | The category of the extension. | A string that can have one of the following values: *windows.appPrinter*, *windows.searchFilterHandler*, *windows.searchPropertyHandler*, or *windows.mailProvider*. | Yes |  |
+| **Category** | The category of the extension. | A string that must be one of the following values: *windows.appPrinter*, *windows.searchFilterHandler*, *windows.searchPropertyHandler*, *windows.mailProvider* (in Application); *windows.firewallRules*, *windows.desktopEventLogging* (in Package). | Yes |  |
 | **Executable** | The default launch executable. | An optional string with a value between 1 and 256 characters in length that must end with `.exe` and cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | No |  |
 | **EntryPoint** | The activatable class ID. | An optional string with a value between 1 and 256 characters in length, representing the  task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |  |
 | **RuntimeType** | The runtime provider. This attribute is used typically when there are mixed frameworks in an app. | An optional string with a value between 1 and 255 characters in length that cannot start or end with a period or contain these characters: `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, or `*`. | No |  |
@@ -99,7 +101,8 @@ Declares an extensibility point for the app.
 
 | Parent element | Description |
 |-|-|
-| [Extensions](element-1-extensions.md) | Defines one or more extensibility points for the app. |
+| [Extensions (in Package)](element-extensions.md) | Defines one or more extensibility points for the package. |
+| [Extensions (in Application)](element-1-extensions.md) | Defines one or more extensibility points for the app. |
 
 ## Remarks
 

@@ -1,19 +1,21 @@
 ---
-title: desktop6:Extension (in Package/Applications)
-description: Declares an extensibility point for the app (in Package/Applications; desktop6:Extension).
+title: desktop6:Extension
+description: Declares an extensibility point for the app (desktop6:Extension).
 ms.date: 04/19/2019
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 ms.custom: 19H1
 ---
 
-# desktop6:Extension (in Package/Applications)
+# desktop6:Extension
 
 Declares an extensibility point for the app.
 
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop6:Extension>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
@@ -23,7 +25,7 @@ Declares an extensibility point for the app.
 
 ```xml
 <desktop6:Extension
-  Category = 'A string that can have one of the following values: "windows.service".'
+  Category = 'A string that can have one of the following values: "windows.service", "windows.mutablePackageDirectories", or "windows.customInstall".'
   Executable = 'An optional string with a value between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isnt specified, the EntryPoint defined for the app is used.'
   EntryPoint = 'An optional string with a value between 1 and 256 characters in length, representing the  task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead.'
   RuntimeType = 'An optional string with a value between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *.'
@@ -43,6 +45,8 @@ Declares an extensibility point for the app.
 
   <!-- Child elements -->
   desktop6:Service?
+  desktop6:MutablePackageDirectories?
+  desktop6:CustomInstall?
 
 </desktop6:Extension>
 ```
@@ -57,7 +61,7 @@ Declares an extensibility point for the app.
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Category** | The category of the extension. | A string that can have one of the following values: *windows.service*. | Yes |  |
+| **Category** | The category of the extension. | A string that must be one of the following values: *windows.service* (in Application); *windows.mutablePackageDirectories*, *windows.customInstall* (in Package). | Yes |  |
 | **Executable** | The default launch executable. | An optional string with a value between 1 and 256 characters in length that must end with `.exe` and cannot contain these characters: `<`, `>`, `:`, `"`, `\|`, `?`, or `*`. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isnt specified, the EntryPoint defined for the app is used. | No |  |
 | **EntryPoint** | The activatable class ID. | An optional string with a value between 1 and 256 characters in length, representing the  task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type. If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |  |
 | **RuntimeType** | The runtime provider. This attribute is used typically when there are mixed frameworks in an app. | An optional string with a value between 1 and 255 characters in length that cannot start or end with a period or contain these characters: `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, or `*`. | No |  |
@@ -79,13 +83,16 @@ Declares an extensibility point for the app.
 
 | Child element | Description |
 |-|-|
-| [desktop6:Service](element-desktop6-service.md) | Specifies a service that is installed and registered along with the app. These services can be configured to run under either the Local Service, Network Service or Local System account. |  
+| [desktop6:Service](element-desktop6-service.md) | Specifies a service that is installed and registered along with the app. These services can be configured to run under either the Local Service, Network Service or Local System account. |
+| [MutablePackageDirectories](element-desktop6-mutablepackagedirectories.md) | Enables your desktop application to specify one or more folders where users can modify the installation files for your application (for example, to install mods). |  
+| [CustomInstall](element-desktop6-custominstall.md) | Enables your desktop application to specify one or more additional installer files (.exe or .msi) that are installed with your desktop application. For example, this is useful for applications that bundle a 3rd party redistributable component. |
 
 ### Parent elements
 
 | Parent element | Description |
 |-|-|
-| [Extensions (type: CT_ApplicationExtensions)](element-1-extensions.md) | Defines one or more extensibility points for the application. |  
+| [Extensions (in Package)](element-extensions.md) | Defines one or more extensibility points for the package. |
+| [Extensions (in Application)](element-1-extensions.md) | Defines one or more extensibility points for the app. |
 
 ## Requirements
 

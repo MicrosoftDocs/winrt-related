@@ -48,7 +48,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [desktop6:Extension)](element-desktop6-package-extension.md) | Declares an extensibility point for the desktop application. |
+| [desktop6:Extension)](element-desktop6-extension.md) | Declares an extensibility point for the desktop application. |
 
 ## Remarks
 
