@@ -46,6 +46,7 @@ Declares an extensibility point for the app.
 
   <!-- Child elements -->
   uap8:PosPaymentConnector
+  uap8:DataProtection
 
 </uap8:Extension>
 ```

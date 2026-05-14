@@ -45,6 +45,8 @@ Declares an extensibility point for the app.
 
   <!-- Child elements -->
   desktop6:Service?
+  desktop6:MutablePackageDirectories?
+  desktop6:CustomInstall?
 
 </desktop6:Extension>
 ```

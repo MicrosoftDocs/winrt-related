@@ -38,7 +38,10 @@ Declares an extensibility point for the app.
 
   <!-- Child elements -->
   uap10:protocol?
-  
+  uap10:HostRuntime?
+  uap10:InstalledLocationVirtualization?
+  uap10:MediaContentDecryptionModule
+
 </uap10:Extension>
 ```
 
