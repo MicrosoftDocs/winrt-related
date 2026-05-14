@@ -353,7 +353,7 @@ The following list summarizes the allowed hierarchies for this schema, starting 
                             -   [**uap:SupportsAnyFileType**](element-uap-supportsanyfiletype.md)
                         -   [**uap:DataFormat**](element-uap-dataformat.md)
                     -   [**uap:FileOpenPicker**](element-uap-fileopenpicker.md)
-                        -   [**uap:SupportedFileTypes**](element-uap-filetypeassociation-supportedfiletypes.md)
+                        -   [**uap:SupportedFileTypes**](element-uap-fileopenpicker-supportedfiletypes.md)
                             -   [**uap:FileType**](element-2-uap-filetype.md)
                             -   [**uap:SupportsAnyFileType**](element-1-uap-supportsanyfiletype.md)
                     -   [**uap:FileSavePicker**](element-uap-filesavepicker.md)

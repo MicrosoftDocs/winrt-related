@@ -717,7 +717,7 @@
     },
     {
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-2-uap-supportedfiletypes.md",
-      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-filetypeassociation-supportedfiletypes",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-fileopenpicker-supportedfiletypes",
       "redirect_document_id": false
     }
   ]

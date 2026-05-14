@@ -883,7 +883,7 @@ items:
           - name: "uap:SupportedFileTypes (in uap:ShareTarget)"
             href: schemas/appxpackage/uapmanifestschema/element-uap-sharetarget-supportedfiletypes.md
           - name: "uap:SupportedFileTypes (in uap:FileOpenPicker)"
-            href: schemas/appxpackage/uapmanifestschema/element-uap-filetypeassociation-supportedfiletypes.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap-fileopenpicker-supportedfiletypes.md
           - name: "uap:SupportedFileTypes (in uap:FileSavePicker)"
             href: schemas/appxpackage/uapmanifestschema/element-3-uap-supportedfiletypes.md
           - name: "uap:SupportedUsers"
