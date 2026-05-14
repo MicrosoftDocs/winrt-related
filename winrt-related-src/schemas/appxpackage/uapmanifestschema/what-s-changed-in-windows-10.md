@@ -175,7 +175,7 @@ The following sections list the namespaces and XML prefixes added to the package
 -   The [**VisualElements\@Square70x70Logo**](../appxmanifestschema2010-v2/element-visualelements.md) attribute has been renamed [**uap:VisualElements\@Square71x71Logo**](element-uap-visualelements.md).
 
 ### Removed attributes and elements 
--   [**ApplicationView**](../appxmanifestschema2013/element-f-applicationview.md) element.
+-   [**ApplicationView**](../appxmanifestschema2013/element-applicationview.md) element.
 -   [**Prerequisites**](../appxmanifestschema2010-v2/element-prerequisites.md) element.
 -   [**VisualElements\@DefaultSize**](../appxmanifestschema2010-v2/element-visualelements.md) attribute.
 -   [**VisualElements\@ForegroundText**](../appxmanifestschema2010-v2/element-visualelements.md) attribute.

@@ -77,7 +77,7 @@ For more info about launch actions that an appointments provider takes, see [App
 
 **LaunchAction (in AppointmentsProviderLaunchActions)** has these semantic validations:
 
-- [Extension](../appxmanifestschema2010-v2/element-f-extension.md) base attributes must follow these rules:
+- [Extension](../appxmanifestschema2010-v2/element-extension.md) base attributes must follow these rules:
 
   - If the **StartPage** attribute is specified, fail if the **EntryPoint**, **Executable**, or **RuntimeType** attribute is specified.
   - Otherwise, fail if the **Executable** or **RuntimeType** attribute is specified without an **EntryPoint** specified.
