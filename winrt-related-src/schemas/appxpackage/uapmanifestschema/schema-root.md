@@ -19,7 +19,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | Element | Description |
 |---------|-------------|
 | [ActivatableClass (type: CT_InProcessActivatableClass)](element-f-activatableclass.md) | Declares a runtime class associated with the extensibility point. |
-| [ActivatableClass (type: CT_OutOfProcessActivatableClass)](element-1-activatableclass.md) | Declares a runtime class associated with the extensibility point. |
+| [ActivatableClass (type: CT_OutOfProcessActivatableClass)](element-f-outofprocessserver-activatableclass.md) | Declares a runtime class associated with the extensibility point. |
 | [ActivatableClassAttribute](element-f-activatableclassattribute.md) | Defines an attribute of the class that is stored in the Windows Runtime property store. |
 | [Application](element-f-application.md) | Represents an app that comprises part of or all of the functionality delivered in the package. |
 | [Applications](element-f-applications.md) | Represents one or more apps that comprise the package. |
@@ -245,7 +245,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [DisplayName](element-f-displayname.md) | A friendly name that can be displayed to users. |
 | [Extension (global)](element-1-extension.md) | Declares an extensibility point for the package. |
 | [Extension (in type: CT_PackageExtensions)](element-f-extension.md) | Declares an extensibility point for the package. |
-| [Extensions (type: CT_ApplicationExtensions)](element-1-extensions.md) | Defines one or more extensibility points for the app. |
+| [Extensions (type: CT_ApplicationExtensions)](element-f-application-extensions.md) | Defines one or more extensibility points for the app. |
 | [Extensions (type: CT_PackageExtensions)](element-extensions.md) | Defines one or more extensibility points for the package. |
 | [Folder](element-f-folder.md) | Specifies a folder that the package shares with other packages from the same publisher. |
 | [Framework](element-f-framework.md) | Indicates whether the package is a framework package; that is, a package that can be used by other packages. Its value is **false** by default. You should not specify a value for it unless you are creating a framework. |
@@ -259,7 +259,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [OutOfProcessServer](element-f-outofprocessserver.md) | Declares a package extension point of type **windows.activatableClass.outOfProcessServer**. The app uses an executable (EXE) that exposes one or more activatable classes. |
 | [Package](element-f-package.md) | Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system. |
 | [PackageDependency](element-f-packagedependency.md) | Declares a dependency on another package that is marked as a framework package. |
-| [Path (type: ST_Executable)](element-1-path.md) | The path to the executable. |
+| [Path (type: ST_Executable)](element-f-outofprocessserver-path.md) | The path to the executable. |
 | [Path (type: ST_FileName)](element-f-path.md) | The path to the DLL. |
 | [mp:PhoneIdentity](element-mp-phoneidentity.md) | If your app is an update to an app previously made available on Windows Phone, ensure that this element matches what is in the app manifest of your previous app. Use the same GUIDs that were assigned to the app by the Store. This ensures that users of your app who are upgrading to Windows 10 will receive your new app as an update, and not as a duplicate. |
 | [Properties](element-f-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users. **Note:**  You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely “&#124;” and “all”, due to which Windows fails to create the AppContainer profile for the package . Use this reference for [troubleshooting](/windows/win32/appxpkg/troubleshooting) if you get an error. |
@@ -329,7 +329,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap:ShowNameOnTiles](element-uap-shownameontiles.md) | Describes whether Windows overlays the app’s name on top of the tile images that are shown on the Start screen. |
 | [uap:ShowOn](element-uap-showon.md) | Describes whether Windows overlays the app’s name on top of the tile image that is shown on the Start screen. |
 | [uap:SplashScreen](element-uap-splashscreen.md) |  |
-| [uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes)](element-1-uap-supportedfiletypes.md) | Defines the file types that the app can share. |
+| [uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes)](element-uap-sharetarget-supportedfiletypes.md) | Defines the file types that the app can share. |
 | [uap:SupportedFileTypes (type: CT_FTASupportedFileTypes)](element-uap-supportedfiletypes.md) | Defines the file types associated with the app. They are unique per package and are case sensitive. |
 | [uap:SupportedUsers](element-uap-supportedusers.md) | Indicates whether or not the package is multi-user aware. This setting is used at install time to determine whether the package can be installed on the system. |
 | [uap:SupportsAnyFileType](element-uap-supportsanyfiletype.md) | Indicates whether all file types are supported for sharing. |

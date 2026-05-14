@@ -59,7 +59,7 @@ None.
 ## See also
 The following elements have the same name as this one, but different content or attributes:
 
-- [uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes)](element-1-uap-supportedfiletypes.md)
+- [uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes)](element-uap-sharetarget-supportedfiletypes.md)
 
 ## Requirements
 

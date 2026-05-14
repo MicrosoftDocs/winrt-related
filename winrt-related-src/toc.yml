@@ -155,7 +155,7 @@ items:
           - name: "ActivatableClass (in InProcessServer)"
             href: schemas/appxpackage/uapmanifestschema/element-f-activatableclass.md
           - name: "ActivatableClass (in OutOfProcessServer)"
-            href: schemas/appxpackage/uapmanifestschema/element-1-activatableclass.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-outofprocessserver-activatableclass.md
           - name: "ActivatableClassAttribute (in InProcessServer)"
             href: schemas/appxpackage/uapmanifestschema/element-f-activatableclassattribute.md
           - name: "ActivatableClassAttribute (in OutOfProcessServer)"
@@ -687,7 +687,7 @@ items:
           - name: "Extension (in Application/Extensions)"
             href: schemas/appxpackage/uapmanifestschema/element-1-extension.md
           - name: "Extensions (in Application)"
-            href: schemas/appxpackage/uapmanifestschema/element-1-extensions.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-application-extensions.md
           - name: "Extensions (in Package)"
             href: schemas/appxpackage/uapmanifestschema/element-extensions.md
           - name: "Folder"
@@ -719,7 +719,7 @@ items:
           - name: "Path (in InProcessServer)"
             href: schemas/appxpackage/uapmanifestschema/element-f-path.md
           - name: "Path (in OutOfProcessServer)"
-            href: schemas/appxpackage/uapmanifestschema/element-1-path.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-outofprocessserver-path.md
           - name: "Path (in ProxyStub)"
             href: schemas/appxpackage/uapmanifestschema/element-2-path.md
           - name: "previewappcompat:ProgId"
@@ -881,9 +881,9 @@ items:
           - name: "uap:SupportedFileTypes (in uap:FileTypeAssociation)"
             href: schemas/appxpackage/uapmanifestschema/element-uap-supportedfiletypes.md
           - name: "uap:SupportedFileTypes (in uap:ShareTarget)"
-            href: schemas/appxpackage/uapmanifestschema/element-1-uap-supportedfiletypes.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap-sharetarget-supportedfiletypes.md
           - name: "uap:SupportedFileTypes (in uap:FileOpenPicker)"
-            href: schemas/appxpackage/uapmanifestschema/element-2-uap-supportedfiletypes.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap-filetypeassociation-supportedfiletypes.md
           - name: "uap:SupportedFileTypes (in uap:FileSavePicker)"
             href: schemas/appxpackage/uapmanifestschema/element-3-uap-supportedfiletypes.md
           - name: "uap:SupportedUsers"

@@ -62,7 +62,7 @@ Declares a runtime class associated with the extensibility point.
 ## See also
 The following elements have the same name as this one, but different content or attributes:
 
-- **[ActivatableClass (type: CT_OutOfProcessActivatableClass)](element-1-activatableclass.md)**
+- **[ActivatableClass (type: CT_OutOfProcessActivatableClass)](element-f-outofprocessserver-activatableclass.md)**
 
 ## Requirements
 

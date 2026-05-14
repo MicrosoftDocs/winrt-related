@@ -83,7 +83,7 @@ Declares an extensibility point for the app.
 
 | Parent element | Description |
 |-|-|
-| [Extensions (in Package/Application)](element-1-extensions.md) | Defines one or more extensibility points for the application. |
+| [Extensions (in Package/Application)](element-f-application-extensions.md) | Defines one or more extensibility points for the application. |
 
 ## Requirements
 

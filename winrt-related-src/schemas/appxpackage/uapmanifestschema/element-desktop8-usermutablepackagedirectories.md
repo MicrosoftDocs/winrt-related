@@ -45,7 +45,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [desktop8:Extension (in Package/Application)](element-1-extensions.md) | Declares an extensibility point for the application. |
+| [desktop8:Extension (in Package/Application)](element-f-application-extensions.md) | Declares an extensibility point for the application. |
 
 ## Requirements
 

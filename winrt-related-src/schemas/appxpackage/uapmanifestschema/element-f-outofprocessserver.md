@@ -56,10 +56,10 @@ Declares a package extension point of type **windows.activatableClass.outOfProce
 
 | Child element | Description |
 |-|-|
-| [ActivatableClass (type: CT_OutOfProcessActivatableClass)](element-1-activatableclass.md) | Declares a runtime class associated with the extensibility point. |
+| [ActivatableClass (type: CT_OutOfProcessActivatableClass)](element-f-outofprocessserver-activatableclass.md) | Declares a runtime class associated with the extensibility point. |
 | [Arguments](element-f-arguments.md) | Specifies the list of comma-separated arguments to pass to the executable. |
 | [Instancing](element-f-instancing.md) | Specifies whether the executable runs as a single instance or can run as multiple instances. |
-| [Path (type: ST_Executable)](element-1-path.md) | The default executable for the extension. |
+| [Path (type: ST_Executable)](element-f-outofprocessserver-path.md) | The default executable for the extension. |
 
 ### Parent elements
 

@@ -51,7 +51,7 @@ None.
 ## See also
 The following elements have the same name as this one, but different content or attributes:
 
-- [Path (type: ST_Executable)](element-1-path.md)
+- [Path (type: ST_Executable)](element-f-outofprocessserver-path.md)
 
 ## Examples
 
