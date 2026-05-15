@@ -833,7 +833,7 @@ items:
           - name: "uap:FileType (FileTypeAssociation)"
             href: schemas/appxpackage/uapmanifestschema/element-uap-filetypeassociation-filetype.md
           - name: "uap:FileType (FileTypeAssociation)"
-            href: schemas/appxpackage/uapmanifestschema/element-uap-filetypeassociation-filetypeassociation.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap-filetypeassociation.md
           - name: "uap:InfoTip"
             href: schemas/appxpackage/uapmanifestschema/element-uap-infotip.md
           - name: "uap:InitialRotationPreference"
