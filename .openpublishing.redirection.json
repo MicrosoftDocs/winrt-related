@@ -813,12 +813,12 @@
     {
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-2-uap-filetype.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-sharetarget-filetype",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-3-uap-filetype.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-sharetarget-filetype",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-uap-supportsanyfiletype.md",
@@ -828,7 +828,7 @@
     {
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-2-uap-supportsanyfiletype.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-supportsanyfiletype",
-      "redirect_document_id": true
+      "redirect_document_id": false
     }
   ]
 }
