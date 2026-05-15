@@ -156,10 +156,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-f-activatableclass.md
           - name: "ActivatableClass (in OutOfProcessServer)"
             href: schemas/appxpackage/uapmanifestschema/element-f-outofprocessserver-activatableclass.md
-          - name: "ActivatableClassAttribute (in InProcessServer)"
+          - name: "ActivatableClassAttribute"
             href: schemas/appxpackage/uapmanifestschema/element-f-activatableclassattribute.md
-          - name: "ActivatableClassAttribute (in OutOfProcessServer)"
-            href: schemas/appxpackage/uapmanifestschema/element-1-activatableclassattribute.md
           - name: "Application"
             href: schemas/appxpackage/uapmanifestschema/element-f-application.md
           - name: "Applications"
@@ -677,9 +675,9 @@ items:
           - name: "DisplayName"
             href: schemas/appxpackage/uapmanifestschema/element-f-displayname.md
           - name: "Extension (in Package/Extensions)"
-            href: schemas/appxpackage/uapmanifestschema/element-f-extension.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-package-extension.md
           - name: "Extension (in Application/Extensions)"
-            href: schemas/appxpackage/uapmanifestschema/element-1-extension.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-application-extension.md
           - name: "Extensions (in Application)"
             href: schemas/appxpackage/uapmanifestschema/element-f-application-extensions.md
           - name: "Extensions (in Package)"
@@ -710,12 +708,10 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-f-package.md
           - name: "PackageDependency"
             href: schemas/appxpackage/uapmanifestschema/element-f-packagedependency.md
-          - name: "Path (in InProcessServer)"
+          - name: "Path"
             href: schemas/appxpackage/uapmanifestschema/element-f-path.md
           - name: "Path (in OutOfProcessServer)"
             href: schemas/appxpackage/uapmanifestschema/element-f-outofprocessserver-path.md
-          - name: "Path (in ProxyStub)"
-            href: schemas/appxpackage/uapmanifestschema/element-2-path.md
           - name: "previewappcompat:ProgId"
             href: schemas/appxpackage/uapmanifestschema/element-previewappcompat-progid.md
           - name: "printSupport:Extension"
@@ -816,10 +812,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap-defaulttile.md
           - name: "uap:DialProtocol"
             href: schemas/appxpackage/uapmanifestschema/element-uap-dialprotocol.md
-          - name: "uap:DisplayName (in uap:FileTypeAssociation)"
+          - name: "uap:DisplayName"
             href: schemas/appxpackage/uapmanifestschema/element-uap-displayname.md
-          - name: "uap:DisplayName (in uap:Protocol)"
-            href: schemas/appxpackage/uapmanifestschema/element-1-uap-displayname.md
           - name: "uap:EditFlags"
             href: schemas/appxpackage/uapmanifestschema/element-uap-editflags.md
           - name: "uap:Extension"
@@ -846,9 +840,7 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap-appointmentsproviderlaunchactions-launchaction.md
           - name: "uap:LockScreen"
             href: schemas/appxpackage/uapmanifestschema/element-uap-lockscreen.md
-          - name: "uap:Logo (in uap:Protocol)"
-            href: schemas/appxpackage/uapmanifestschema/element-1-uap-logo.md
-          - name: "uap:Logo (in uap:FileTypeAssociation)"
+          - name: "uap:Logo"
             href: schemas/appxpackage/uapmanifestschema/element-uap-logo.md
           - name: "uap:ManagedUrls"
             href: schemas/appxpackage/uapmanifestschema/element-uap-managedurls.md

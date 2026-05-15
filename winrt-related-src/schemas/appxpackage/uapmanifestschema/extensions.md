@@ -23,7 +23,7 @@ For more details about some of the most common types of package-level and applic
 
 For reference information about the available package-level extensions, see the **Category** attribute and child elements of the following **Extension** elements that are descendants of the [**Package**](element-f-package.md) element.
 
-* [**Extension**](element-f-extension.md)
+* [**Extension**](element-f-package-extension.md)
 * [**desktop2:Extension**](element-desktop2-extension.md)
 * [**desktop6:Extension**](element-desktop6-extension.md)
 * [**uap7:Extension**](element-uap7-extension.md)
@@ -37,7 +37,7 @@ For reference information about the available package-level extensions, see the 
 
 For reference information about the available application-level extensions, see the **Category** attribute and child elements of the following **Extension** elements that are descendants of an [**Application**](element-f-application.md) element.
 
-* [**Extension**](element-1-extension.md)
+* [**Extension**](element-f-application-extension.md)
 * [**com:Extension**](element-com-extension.md)
 * [**com2:Extension**](element-com2-extension.md)
 * [**desktop:Extension**](element-desktop-extension.md)

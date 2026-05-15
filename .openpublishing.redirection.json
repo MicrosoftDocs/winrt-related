@@ -751,6 +751,36 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-f-extension.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-package-extension",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-extension.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-application-extension",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-activatableclassattribute.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-activatableclassattribute",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-2-path.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-path",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-uap-displayname.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-displayname",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-uap-logo.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-logo",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-uap-launchaction",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-autoplaydevice-launchaction",
       "redirect_document_id": true

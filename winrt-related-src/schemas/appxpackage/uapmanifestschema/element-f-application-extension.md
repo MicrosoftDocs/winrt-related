@@ -79,7 +79,7 @@ Declares an extensibility point for the package.
 ## See also
 The following elements have the same name as this one, but different content or attributes:
 
-- **[Extension (in type: CT_PackageExtensions)](element-f-extension.md)**
+- **[Extension (in type: CT_PackageExtensions)](element-f-package-extension.md)**
 
 ## Remarks
 

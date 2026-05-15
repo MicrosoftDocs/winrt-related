@@ -53,7 +53,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [uap:Extension](element-f-extension.md) | Declares an extensibility point for the app. |
+| [uap:Extension](element-f-package-extension.md) | Declares an extensibility point for the app. |
 
 ## Remarks
 

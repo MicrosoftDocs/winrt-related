@@ -76,7 +76,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [Extensions](element-1-extension.md) | Declares an extensibility point for the app. |
+| [Extensions](element-f-application-extension.md) | Declares an extensibility point for the app. |
 
 ### Remarks
 

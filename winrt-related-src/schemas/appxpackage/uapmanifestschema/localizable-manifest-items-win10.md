@@ -41,7 +41,7 @@ You can localize these strings in the manifest:
 -   **[uap:SupportedFileTypes/uap:FileType/@uap4:ShellNewDisplayName](element-uap-filetypeassociation-filetype.md)**
 -   **[uap:FileTypeAssociation/uap:DisplayName](element-uap-displayname.md)**
 -   **[uap:FileTypeAssociation/uap:InfoTip](element-uap-infotip.md)**
--   **[uap:Protocol/uap:DisplayName](element-1-uap-displayname.md)**
+-   **[uap:Protocol/uap:DisplayName](element-uap-displayname.md)**
 -   **[uap4:Extension/uap4:DevicePortalProvider/@DisplayName](element-uap4-deviceportalprovider.md)**
 -   **[uap4:Extension/uap4:MediaCodec/@Description](element-uap4-mediacodec.md)**
 -   **[uap4:Extension/uap4:MediaCodec/@DisplayName](element-uap4-mediacodec.md)**

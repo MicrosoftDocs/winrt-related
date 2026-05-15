@@ -1,7 +1,7 @@
 ---
-description: The path to the DLL (in InProcessServer).
+description: The path to the DLL.
 Search.Product: eADQiWindows 10XVcnh
-title: Path (in InProcessServer) (Windows 10)
+title: Path (Windows 10)
 ms.assetid: 337dd035-774d-40fb-8da1-7af11dbb4a35
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
@@ -9,7 +9,7 @@ ms.date: 04/05/2017
 no-loc: [Package, Extensions, Extension, InProcessServer, Path, ProxyStub, Path]
 ---
 
-# Path (in InProcessServer) (Windows 10)
+# Path (Windows 10)
 
 The path to the DLL.
 
@@ -17,7 +17,7 @@ The path to the DLL.
 
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-package-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<InProcessServer>`](element-f-inprocessserver.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<Path>`**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<ProxyStub>`](element-f-proxystub.md)  
