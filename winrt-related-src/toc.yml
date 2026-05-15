@@ -1185,7 +1185,6 @@ items:
               href: schemas/appxpackage/appxmanifestschema/element-osmaxversiontested.md
             - name: "Dependencies"
               href: schemas/appxpackage/appxmanifestschema/element-dependencies.md
-            items: 
             - name: "PackageDependency"
               href: schemas/appxpackage/appxmanifestschema/element-packagedependency.md
             - name: "Capabilities"
