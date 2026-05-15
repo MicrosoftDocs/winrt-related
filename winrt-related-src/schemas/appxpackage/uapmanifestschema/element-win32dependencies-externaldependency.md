@@ -20,7 +20,7 @@ Specifies an external dependency that is not included in the MSIX but will be ch
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
+**[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<win32dependencies:ExternalDependency>`**  
 
 ## Syntax
@@ -52,7 +52,7 @@ None.
 
 | Parent Element | Description |
 |-|-|
-| [Dependencies](element-dependencies.md) | Declares other packages that a package depends on to complete its software. |
+| [Dependencies](element-f-dependencies.md) | Declares other packages that a package depends on to complete its software. |
 
 ## Examples
 

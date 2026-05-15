@@ -15,7 +15,7 @@ Specifies the name of an extension category that can be hosted by a [PackageExte
 
 
 ## Element hierarchy
-<dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
+<dl><dt><a href = "element-f-package.md">&lt;Package&gt;</a></dt>
 <dd>
 <dl><dt><a href = "element-extensions.md">&lt;Extensions&gt;</a></dt>
 <dd>

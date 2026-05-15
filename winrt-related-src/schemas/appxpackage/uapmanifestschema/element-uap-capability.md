@@ -15,8 +15,8 @@ Declares a capability required by a package.
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Capabilities>`](element-capabilities.md)  
+**[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Capabilities>`](element-f-capabilities.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap:Capability>`**  
 
 ## Syntax
@@ -41,7 +41,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [Capabilities](element-capabilities.md) | Declares the access to protected user resources that the package requires. |
+| [Capabilities](element-f-capabilities.md) | Declares the access to protected user resources that the package requires. |
 
 ## Remarks
 
@@ -49,7 +49,7 @@ The [App capability declarations](/windows/uwp/packaging/app-capability-declarat
 
 ## Examples
 
-Here's an example of a [Capabilities](element-capabilities.md) node.
+Here's an example of a [Capabilities](element-f-capabilities.md) node.
 
 ```xml
 <Capabilities>

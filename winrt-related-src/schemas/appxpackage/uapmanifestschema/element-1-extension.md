@@ -15,10 +15,10 @@ Declares an extensibility point for the package.
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-applications.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
+**[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<Extension>`**  
 
 ## Syntax
@@ -58,9 +58,9 @@ Declares an extensibility point for the package.
 | **Executable** | The default launch executable. | A string with a value between 1 and 256 characters in length, that must end with `.exe`, and cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. Specifies the default executable for the extension. If not specified, the executable defined for the app is used. If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | No |  |
 | **RuntimeType** | The runtime provider. Typically used when there are mixted frameworks in an app. | A string with a value between 1 and 255 characters in length that cannot start or end with a `.` or contain there characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |  |
 | **StartPage** | The web page that handles the extensibility point. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |  |
-| **ResourceGroup** | An optional tag used to group extension activations together for resource management purposes (for example, CPU and memory). See the **Remarks** section in *[Application@ResourceGroup](element-application.md)*. | An alphanumeric string between 1 and 255 characters in length. Must begin with a letter. | No |  |
+| **ResourceGroup** | An optional tag used to group extension activations together for resource management purposes (for example, CPU and memory). See the **Remarks** section in *[Application@ResourceGroup](element-f-application.md)*. | An alphanumeric string between 1 and 255 characters in length. Must begin with a letter. | No |  |
 | **uap10:TrustLevel** | Specifies the trust level of the extension. | An optional string value. If specified, it can be one of the following values: *appContainer* or *mediumIL*. | No |  |
-| **uap10:RuntimeBehavior** | Specifies the runtime behavior of an extension. <br/><br/> For more info and requirements, see `uap10:RuntimeBehavior` in the topic for the [Application (Windows 10)](/uwp/schemas/appxpackage/uapmanifestschema/element-application) element. | An optional string value. If specified, it can be one of the following values: "packagedClassicApp", "win32App", or "windowsApp". | No |  |
+| **uap10:RuntimeBehavior** | Specifies the runtime behavior of an extension. <br/><br/> For more info and requirements, see `uap10:RuntimeBehavior` in the topic for the [Application (Windows 10)](/uwp/schemas/appxpackage/uapmanifestschema/element-f-application) element. | An optional string value. If specified, it can be one of the following values: "packagedClassicApp", "win32App", or "windowsApp". | No |  |
 | **uap10:HostId** | Specifies the ID of the host runtime for the extension. | An alphanumeric string with an optional value between 1 and 255 characters in length. Must begin with a letter. | No |  |
 | **uap10:Parameters** | Contains command line parameters to pass to the extension. Only supported for desktop apps.| A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
 
@@ -68,24 +68,24 @@ Declares an extensibility point for the package.
 
 | Child element | Description |
 |-|-|
-| [BackgroundTasks](element-backgroundtasks.md) | Defines an app extensibility point of type **windows.backgroundTasks**. Background tasks run in a dedicated background host; that is, without a UI. |
+| [BackgroundTasks](element-f-backgroundtasks.md) | Defines an app extensibility point of type **windows.backgroundTasks**. Background tasks run in a dedicated background host; that is, without a UI. |
 
 ### Parent elements
 
 | Parent element | Description |
 |-|-|
-| [Extensions (type: CT_ApplicationExtensions)](element-1-extensions.md) | Defines one or more extensibility points for the app. |
+| [Extensions (type: CT_ApplicationExtensions)](element-f-application-extensions.md) | Defines one or more extensibility points for the app. |
 
 ## See also
 The following elements have the same name as this one, but different content or attributes:
 
-- **[Extension (in type: CT_PackageExtensions)](element-extension.md)**
+- **[Extension (in type: CT_PackageExtensions)](element-f-extension.md)**
 
 ## Remarks
 
-If activation info attributes aren't specified on **Extension**, then they're inherited from the parent [Application](/uwp/schemas/appxpackage/uapmanifestschema/element-application). See the remarks section for the **Application** element.
+If activation info attributes aren't specified on **Extension**, then they're inherited from the parent [Application](/uwp/schemas/appxpackage/uapmanifestschema/element-f-application). See the remarks section for the **Application** element.
 
-Extensibility points are a mechanism by which a package can add functionality in a manner defined by the operating system. An extensibility point is a location where an app can register to execute code or use resources of the current package. To add functionality for a particular app, use the [Application](element-application.md) child element of the [Applications](element-applications.md) element.
+Extensibility points are a mechanism by which a package can add functionality in a manner defined by the operating system. An extensibility point is a location where an app can register to execute code or use resources of the current package. To add functionality for a particular app, use the [Application](element-f-application.md) child element of the [Applications](element-f-applications.md) element.
 
 The **windows.certificates** extensibility point can't be declared multiple times in a manifest.
 

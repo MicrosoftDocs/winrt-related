@@ -37,7 +37,7 @@ Before you can publish your app, you must fix any errors that cause any of the V
 Visual Studio populates the fields in the following tables when it generates the AppxManifest.xml file for the app package.
 
 ### Identity 
-The [`Identity`](./element-identity.md) section of the app manifest contains the following fields.
+The [`Identity`](./element-f-identity.md) section of the app manifest contains the following fields.
 
 | Field | Description |
 |-------|-------------|
@@ -57,7 +57,7 @@ Here's an example of the `Identity` output XML:
 ```
 
 ### Properties 
-The [`Properties`](./element-properties.md) section of the app manifest contains the fields in the following table.
+The [`Properties`](./element-f-properties.md) section of the app manifest contains the fields in the following table.
 
 
 | Field | Description |
@@ -78,7 +78,7 @@ Here's an example of the `Properties` output XML:
 
 
 ### Application 
-A app manifest can contain multiple [`Application`](./element-application.md) elements, each of which has a display name that appears on the tile in the client. The `Application` section of the app manifest contains the fields in the following table.
+A app manifest can contain multiple [`Application`](./element-f-application.md) elements, each of which has a display name that appears on the tile in the client. The `Application` section of the app manifest contains the fields in the following table.
 
 | Field | Description |
 |-------|-------------|
@@ -96,7 +96,7 @@ Example `Application` output:
 ```
 
 ### PackageDependency 
-The [`PackageDependency`](./element-packagedependency.md) section contains all the Windows component library dependencies for this package. For example, if your project has a reference to WinJS, Visual Studio retrieves the package identity information of the dependencies when the manifest is generated. Visual Studio then populates this section with the `Name` and `MinVersion` fields for each dependent package. 
+The [`PackageDependency`](./element-f-packagedependency.md) section contains all the Windows component library dependencies for this package. For example, if your project has a reference to WinJS, Visual Studio retrieves the package identity information of the dependencies when the manifest is generated. Visual Studio then populates this section with the `Name` and `MinVersion` fields for each dependent package. 
 
 In a native C++ project, Visual Studio will add a reference to the Visual C/C++ Runtime:
 
@@ -107,7 +107,7 @@ In a native C++ project, Visual Studio will add a reference to the Visual C/C++ 
 ```
 
 ### Windows Runtime registration extensions 
-You can implement Windows Runtime components for your apps, but you'll need to register those components with the operating system for them to run correctly. To register a Windows Runtime component, you must put the registration information in the WinMD files and in the app manifest. If a project implements a Windows Runtime component, the build output of the project will contain a WinMD file. Visual Studio extracts the Windows Runtime registration information from the WinMD file and generates the appropriate [`Extension`](./element-extension.md) elements in the app manifest.
+You can implement Windows Runtime components for your apps, but you'll need to register those components with the operating system for them to run correctly. To register a Windows Runtime component, you must put the registration information in the WinMD files and in the app manifest. If a project implements a Windows Runtime component, the build output of the project will contain a WinMD file. Visual Studio extracts the Windows Runtime registration information from the WinMD file and generates the appropriate [`Extension`](./element-f-extension.md) elements in the app manifest.
 
 The system supports two forms of servers: .dll servers (in-process) and .exe servers (out-of-process). These servers require similar but different registration information that must be copied into the app manifest. Visual Studio supports generating manifest only for .dll servers, and the DLLServer extension is required to register .dll servers. The following values in the app manifest are taken from the WinMD files to construct the DLLServer Extension:
 
@@ -130,7 +130,7 @@ Here's an example of the output XML:
 For more information on this topic, see [Windows Runtime components](/windows/uwp/winrt-components/). 
 
 ### Resources 
-The [`Resources`](./element-resources.md) section contains an entry for each language that the application supports. You must have at least one resource language specified in the app manifest. Visual Studio automatically generates the list of supported languages based on the localization information in the project. The resource language token "x-generate" that's used in the source manifest file (Package.appxmanifest) is replaced with the actual language code when the manifest is built. Here's an example of the output XML:
+The [`Resources`](./element-f-resources.md) section contains an entry for each language that the application supports. You must have at least one resource language specified in the app manifest. Visual Studio automatically generates the list of supported languages based on the localization information in the project. The resource language token "x-generate" that's used in the source manifest file (Package.appxmanifest) is replaced with the actual language code when the manifest is built. Here's an example of the output XML:
 
 ```xml
 <Resources>
@@ -142,7 +142,7 @@ The [`Resources`](./element-resources.md) section contains an entry for each lan
 The first entry in the list is the default language for the app.
 
 ### TargetDeviceFamily 
-The [`TargetDeviceFamily`](./element-targetdevicefamily.md) section contains the following fields:
+The [`TargetDeviceFamily`](./element-f-targetdevicefamily.md) section contains the following fields:
 - Name
 - MinVersion   
 - MaxVersionTested   

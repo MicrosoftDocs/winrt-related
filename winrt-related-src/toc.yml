@@ -153,29 +153,29 @@ items:
           - name: "Element Hierarchy"
             href: schemas/appxpackage/uapmanifestschema/root-elements.md
           - name: "ActivatableClass (in InProcessServer)"
-            href: schemas/appxpackage/uapmanifestschema/element-activatableclass.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-activatableclass.md
           - name: "ActivatableClass (in OutOfProcessServer)"
-            href: schemas/appxpackage/uapmanifestschema/element-1-activatableclass.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-outofprocessserver-activatableclass.md
           - name: "ActivatableClassAttribute (in InProcessServer)"
-            href: schemas/appxpackage/uapmanifestschema/element-activatableclassattribute.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-activatableclassattribute.md
           - name: "ActivatableClassAttribute (in OutOfProcessServer)"
             href: schemas/appxpackage/uapmanifestschema/element-1-activatableclassattribute.md
           - name: "Application"
-            href: schemas/appxpackage/uapmanifestschema/element-application.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-application.md
           - name: "Applications"
-            href: schemas/appxpackage/uapmanifestschema/element-applications.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-applications.md
           - name: "Arguments"
-            href: schemas/appxpackage/uapmanifestschema/element-arguments.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-arguments.md
           - name: "BackgroundTasks"
-            href: schemas/appxpackage/uapmanifestschema/element-backgroundtasks.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-backgroundtasks.md
           - name: "Capabilities"
-            href: schemas/appxpackage/uapmanifestschema/element-capabilities.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-capabilities.md
           - name: "Capability"
-            href: schemas/appxpackage/uapmanifestschema/element-capability.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-capability.md
           - name: "Certificate"
-            href: schemas/appxpackage/uapmanifestschema/element-certificate.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-certificate.md
           - name: "Certificates"
-            href: schemas/appxpackage/uapmanifestschema/element-certificates.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-certificates.md
           - name: "cloudFiles:BannersHandler"
             href: schemas/appxpackage/uapmanifestschema/element-cloudfiles-bannershandler.md
           - name: "cloudFiles:CloudFiles"
@@ -423,7 +423,7 @@ items:
           - name: "com5:Verbs"
             href: schemas/appxpackage/uapmanifestschema/element-com5-verbs.md
           - name: "Dependencies"
-            href: schemas/appxpackage/uapmanifestschema/element-dependencies.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-dependencies.md
           - name: "deployment:DeploymentExtensionHandler"
             href: schemas/appxpackage/uapmanifestschema/element-deployment-deploymentextensionhandler.md
           - name: "deployment:Extension"
@@ -433,7 +433,7 @@ items:
           - name: "deployment:Files"
             href: schemas/appxpackage/uapmanifestschema/element-deployment-files.md
           - name: "Description"
-            href: schemas/appxpackage/uapmanifestschema/element-description.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-description.md
           - name: "desktop:ExecutionAlias"
             href: schemas/appxpackage/uapmanifestschema/element-desktop-executionalias.md
           - name: "desktop:Extension"
@@ -458,9 +458,7 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop2-desktoppropertyhandler.md
           - name: "desktop2:EventMessageFiles"
             href: schemas/appxpackage/uapmanifestschema/element-desktop2-eventmessagefiles.md
-          - name: "desktop2:Extension (in Package/Extensions)"
-            href: schemas/appxpackage/uapmanifestschema/element-desktop2-package-extension.md
-          - name: "desktop2:Extension (in Package/Applications)"
+          - name: "desktop2:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-desktop2-extension.md
           - name: "desktop2:File"
             href: schemas/appxpackage/uapmanifestschema/element-desktop2-file.md
@@ -534,10 +532,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop6-dependencies.md
           - name: "desktop6:DependentService"
             href: schemas/appxpackage/uapmanifestschema/element-desktop6-dependentservice.md
-          - name: "desktop6:Extension (in Package/Applications)"
+          - name: "desktop6:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-desktop6-extension.md
-          - name: "desktop6:Extension (in Package/Extensions)"
-            href: schemas/appxpackage/uapmanifestschema/element-desktop6-package-extension.md
           - name: "desktop6:FileSystemWriteVirtualization"
             href: schemas/appxpackage/uapmanifestschema/element-desktop6-filesystemwritevirtualization.md
           - name: "desktop6:InstallAction"
@@ -590,10 +586,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-desktopappmigration.md
           - name: "desktop7:ErrorReporting"
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-errorreporting.md
-          - name: "desktop7:Extension (in Application)"
+          - name: "desktop7:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-extension.md
-          - name: "desktop7:Extension (in Package)"
-            href: schemas/appxpackage/uapmanifestschema/element-desktop7-package-extension.md
           - name: "desktop7:InfoTip"
             href: schemas/appxpackage/uapmanifestschema/element-desktop7-infotip.md
           - name: "desktop7:LocalizedString"
@@ -677,49 +671,49 @@ items:
           - name: desktop10:TypeSupported
             href: schemas/appxpackage/uapmanifestschema/element-desktop10-typesupported.md
           - name: "Device"
-            href: schemas/appxpackage/uapmanifestschema/element-device.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-device.md
           - name: "DeviceCapability"
-            href: schemas/appxpackage/uapmanifestschema/element-devicecapability.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-devicecapability.md
           - name: "DisplayName"
-            href: schemas/appxpackage/uapmanifestschema/element-displayname.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-displayname.md
           - name: "Extension (in Package/Extensions)"
-            href: schemas/appxpackage/uapmanifestschema/element-extension.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-extension.md
           - name: "Extension (in Application/Extensions)"
             href: schemas/appxpackage/uapmanifestschema/element-1-extension.md
           - name: "Extensions (in Application)"
-            href: schemas/appxpackage/uapmanifestschema/element-1-extensions.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-application-extensions.md
           - name: "Extensions (in Package)"
             href: schemas/appxpackage/uapmanifestschema/element-extensions.md
           - name: "Folder"
-            href: schemas/appxpackage/uapmanifestschema/element-folder.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-folder.md
           - name: "Framework"
-            href: schemas/appxpackage/uapmanifestschema/element-framework.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-framework.md
           - name: "Function"
-            href: schemas/appxpackage/uapmanifestschema/element-function.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-function.md
           - name: heap:HeapPolicy
             href: schemas/appxpackage/uapmanifestschema/element-heap-heappolicy.md
           - name: "Identity"
-            href: schemas/appxpackage/uapmanifestschema/element-identity.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-identity.md
           - name: "InProcessServer"
-            href: schemas/appxpackage/uapmanifestschema/element-inprocessserver.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-inprocessserver.md
           - name: "Instancing"
-            href: schemas/appxpackage/uapmanifestschema/element-instancing.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-instancing.md
           - name: "Interface"
-            href: schemas/appxpackage/uapmanifestschema/element-interface.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-interface.md
           - name: "Logo"
-            href: schemas/appxpackage/uapmanifestschema/element-logo.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-logo.md
           - name: "mp:PhoneIdentity"
             href: schemas/appxpackage/uapmanifestschema/element-mp-phoneidentity.md
           - name: "OutOfProcessServer"
-            href: schemas/appxpackage/uapmanifestschema/element-outofprocessserver.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-outofprocessserver.md
           - name: "Package"
-            href: schemas/appxpackage/uapmanifestschema/element-package.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-package.md
           - name: "PackageDependency"
-            href: schemas/appxpackage/uapmanifestschema/element-packagedependency.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-packagedependency.md
           - name: "Path (in InProcessServer)"
-            href: schemas/appxpackage/uapmanifestschema/element-path.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-path.md
           - name: "Path (in OutOfProcessServer)"
-            href: schemas/appxpackage/uapmanifestschema/element-1-path.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-outofprocessserver-path.md
           - name: "Path (in ProxyStub)"
             href: schemas/appxpackage/uapmanifestschema/element-2-path.md
           - name: "previewappcompat:ProgId"
@@ -735,13 +729,13 @@ items:
           - name: "printSupport2:SupportedFormats"
             href: schemas/appxpackage/uapmanifestschema/element-printsupport2-supportedformats.md
           - name: "Properties"
-            href: schemas/appxpackage/uapmanifestschema/element-properties.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-properties.md
           - name: "ProxyStub"
-            href: schemas/appxpackage/uapmanifestschema/element-proxystub.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-proxystub.md
           - name: "PublisherCacheFolders"
-            href: schemas/appxpackage/uapmanifestschema/element-publishercachefolders.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-publishercachefolders.md
           - name: "PublisherDisplayName"
-            href: schemas/appxpackage/uapmanifestschema/element-publisherdisplayname.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-publisherdisplayname.md
           - name: "rescap:AppLinks"
             href: schemas/appxpackage/uapmanifestschema/element-rescap-applinks.md
           - name: "rescap:Capability"
@@ -785,21 +779,21 @@ items:
           - name: "rescap6:ModificationPackage"
             href: schemas/appxpackage/uapmanifestschema/element-rescap6-modificationpackage.md
           - name: "Resource"
-            href: schemas/appxpackage/uapmanifestschema/element-resource.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-resource.md
           - name: "ResourcePackage"
-            href: schemas/appxpackage/uapmanifestschema/element-resourcepackage.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-resourcepackage.md
           - name: "Resources"
-            href: schemas/appxpackage/uapmanifestschema/element-resources.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-resources.md
           - name: "SelectionCriteria"
-            href: schemas/appxpackage/uapmanifestschema/element-selectioncriteria.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-selectioncriteria.md
           - name: "TargetDeviceFamily"
-            href: schemas/appxpackage/uapmanifestschema/element-targetdevicefamily.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-targetdevicefamily.md
           - name: "Task"
-            href: schemas/appxpackage/uapmanifestschema/element-task.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-task.md
           - name: "trustedlaunch:TrustedLaunch"
             href: schemas/appxpackage/uapmanifestschema/element-trustedlaunch-trustedlaunch.md
           - name: "TrustFlags"
-            href: schemas/appxpackage/uapmanifestschema/element-trustflags.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-trustflags.md
           - name: "uap:ApplicationContentUriRules"
             href: schemas/appxpackage/uapmanifestschema/element-uap-applicationcontenturirules.md
           - name: "uap:AppointmentsProvider"
@@ -881,9 +875,9 @@ items:
           - name: "uap:SupportedFileTypes (in uap:FileTypeAssociation)"
             href: schemas/appxpackage/uapmanifestschema/element-uap-supportedfiletypes.md
           - name: "uap:SupportedFileTypes (in uap:ShareTarget)"
-            href: schemas/appxpackage/uapmanifestschema/element-1-uap-supportedfiletypes.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap-sharetarget-supportedfiletypes.md
           - name: "uap:SupportedFileTypes (in uap:FileOpenPicker)"
-            href: schemas/appxpackage/uapmanifestschema/element-2-uap-supportedfiletypes.md
+            href: schemas/appxpackage/uapmanifestschema/element-uap-fileopenpicker-supportedfiletypes.md
           - name: "uap:SupportedFileTypes (in uap:FileSavePicker)"
             href: schemas/appxpackage/uapmanifestschema/element-3-uap-supportedfiletypes.md
           - name: "uap:SupportedUsers"
@@ -1076,10 +1070,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap8-dataProtection.md
           - name: "uap8:ExecutionAlias"
             href: schemas/appxpackage/uapmanifestschema/element-uap8-executionalias.md
-          - name: "uap8:Extension (in Application)"
+          - name: "uap8:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-uap8-extension.md
-          - name: "uap8:Extension (in Package)"
-            href: schemas/appxpackage/uapmanifestschema/element-uap8-package-extension.md
           - name: "uap8:PosPaymentConnector"
             href: schemas/appxpackage/uapmanifestschema/element-uap8-posPaymentConnector.md
           - name: "uap10:AllowExternalContent"
@@ -1088,10 +1080,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap10-content.md
           - name: "uap10:DisplayName"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-displayname.md
-          - name: "uap10:Extension (in Application)"
+          - name: "uap10:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-extension.md
-          - name: "uap10:Extension (in Package)"
-            href: schemas/appxpackage/uapmanifestschema/element-uap10-package-extension.md
           - name: "uap10:HostRuntime"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-hostruntime.md
           - name: "uap10:HostRuntimeDependency"

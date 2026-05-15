@@ -15,7 +15,7 @@ Declares an app extensibility point of type *windows.packageExtensionHost*. This
 
 
 ## Element hierarchy
-<dl><dt><a href = "element-package.md">&lt;Package&gt;</a></dt>
+<dl><dt><a href = "element-f-package.md">&lt;Package&gt;</a></dt>
 <dd>
 <dl><dt><a href = "element-extensions.md">&lt;Extensions&gt;</a></dt>
 <dd>

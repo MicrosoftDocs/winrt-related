@@ -17,10 +17,10 @@ Contains the locations of custom fonts to be shared with other apps. For more in
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-applications.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-1-extensions.md)  
+**[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap4:Extension>`](element-uap4-extension.md)  
 
 ## Syntax
@@ -55,9 +55,9 @@ None.
 
 ## Remarks
 
-The **sharedFonts** element defined in **uap4:Extension** is a descendent of [Application](element-application.md) and is associated to a specific application's identity.
+The **sharedFonts** element defined in **uap4:Extension** is a descendent of [Application](element-f-application.md) and is associated to a specific application's identity.
 
-The [uap7:sharedFonts](element-uap7-sharedfonts.md) element provides similar functionality, but is a descendent of [Package](element-package.md) and is associated with the package identity, regardless of how many apps the package contains. This includes packages that contain no applications at all.
+The [uap7:sharedFonts](element-uap7-sharedfonts.md) element provides similar functionality, but is a descendent of [Package](element-f-package.md) and is associated with the package identity, regardless of how many apps the package contains. This includes packages that contain no applications at all.
 
 For both versions of this extension, the fonts are installed per-user.
 

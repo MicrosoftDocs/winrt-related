@@ -13,7 +13,7 @@ Enables your desktop application to specify one or more folders where you can mo
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
+**[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop8:Extension>`](element-desktop8-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop8:MutablePackageDirectories>`**  
@@ -45,7 +45,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [desktop8:Extension (in Package/Application)](element-1-extensions.md) | Declares an extensibility point for the application. |
+| [desktop8:Extension (in Package/Application)](element-f-application-extensions.md) | Declares an extensibility point for the application. |
 
 ## Requirements
 

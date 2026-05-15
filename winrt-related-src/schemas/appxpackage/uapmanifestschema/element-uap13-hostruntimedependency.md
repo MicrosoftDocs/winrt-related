@@ -13,9 +13,9 @@ Declares publisher information for the app.
 
 ## Element hierarchy
 
-**[`<Package>`](element-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-applications.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-application.md)  
+**[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap13:Extension>`](element-uap13-extension.md)  
 
 ## Syntax
@@ -45,7 +45,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [Extension (in Package/Applications)](element-extension.md) | Declares an extensibility point for the app. |
+| [Extension (in Package/Applications)](element-f-extension.md) | Declares an extensibility point for the app. |
 
 ### Requirements
 
