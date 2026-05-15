@@ -107,7 +107,7 @@ In a native C++ project, Visual Studio will add a reference to the Visual C/C++ 
 ```
 
 ### Windows Runtime registration extensions 
-You can implement Windows Runtime components for your apps, but you'll need to register those components with the operating system for them to run correctly. To register a Windows Runtime component, you must put the registration information in the WinMD files and in the app manifest. If a project implements a Windows Runtime component, the build output of the project will contain a WinMD file. Visual Studio extracts the Windows Runtime registration information from the WinMD file and generates the appropriate [`Extension`](./element-f-extension.md) elements in the app manifest.
+You can implement Windows Runtime components for your apps, but you'll need to register those components with the operating system for them to run correctly. To register a Windows Runtime component, you must put the registration information in the WinMD files and in the app manifest. If a project implements a Windows Runtime component, the build output of the project will contain a WinMD file. Visual Studio extracts the Windows Runtime registration information from the WinMD file and generates the appropriate [`Extension`](./element-f-package-extension.md) elements in the app manifest.
 
 The system supports two forms of servers: .dll servers (in-process) and .exe servers (out-of-process). These servers require similar but different registration information that must be copied into the app manifest. Visual Studio supports generating manifest only for .dll servers, and the DLLServer extension is required to register .dll servers. The following values in the app manifest are taken from the WinMD files to construct the DLLServer Extension:
 

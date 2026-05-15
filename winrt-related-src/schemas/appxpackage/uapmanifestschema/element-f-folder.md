@@ -17,7 +17,7 @@ Specifies a folder that the package shares with other packages from the same pub
 
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-package-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<PublisherCacheFolders>`](element-f-publishercachefolders.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<Folder>`**  
 

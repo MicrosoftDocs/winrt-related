@@ -17,7 +17,7 @@ Indicates whether the certificates for the package are exclusive to the package.
 
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-package-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Certificates>`](element-f-certificates.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<TrustFlags>`**  
 

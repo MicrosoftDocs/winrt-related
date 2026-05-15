@@ -17,7 +17,7 @@ A certificate for use with the package and placed in the system certificate stor
 
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-package-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Certificates>`](element-f-certificates.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<Certificate>`**  
 

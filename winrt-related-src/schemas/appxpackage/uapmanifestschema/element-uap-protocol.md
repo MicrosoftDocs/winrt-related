@@ -56,8 +56,8 @@ Declares an app extensibility point of type *windows.protocol*. A URI associatio
 
 | Child element | Description |
 |-|-|
-| [uap:DisplayName](element-1-uap-displayname.md) | A friendly name that can be displayed to users. |
-| [uap:Logo](element-1-uap-logo.md) | A path to a file that contains an image. |
+| [uap:DisplayName](element-uap-displayname.md) | A friendly name that can be displayed to users. |
+| [uap:Logo](element-uap-logo.md) | A path to a file that contains an image. |
 | [desktop7:ProgId](element-desktop7-progId.md) | A programmatic identifier (ProgID) that can be associated with a CLSID. |
 
 ### Parent elements
