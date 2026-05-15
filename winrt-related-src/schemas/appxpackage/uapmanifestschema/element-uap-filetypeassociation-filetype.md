@@ -64,7 +64,7 @@ None.
 ## See also
 The following elements have the same name as this one, but different content or attributes:
 
-- [uap:FileType (type: ST_FileType)](element-1-uap-filetype.md)
+- [uap:FileType (type: ST_FileType)](element-uap-sharetarget-filetype.md)
 
 ## Requirements
 

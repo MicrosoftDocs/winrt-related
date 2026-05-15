@@ -779,6 +779,56 @@
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-uap-logo.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-logo",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-uap-launchaction.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-autoplaydevice-launchaction",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-2-uap-launchaction.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-appointmentsproviderlaunchactions-launchaction",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap-launchaction.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-autoplaycontent-launchaction",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap-filetype.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-filetypeassociation-filetype",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-3-uap-supportedfiletypes.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-filesavepicker-supportedfiletypes",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-uap-filetype.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-sharetarget-filetype",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-2-uap-filetype.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-sharetarget-filetype",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-3-uap-filetype.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-sharetarget-filetype",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-uap-supportsanyfiletype.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-supportsanyfiletype",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-2-uap-supportsanyfiletype.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-supportsanyfiletype",
+      "redirect_document_id": false
     }
   ]
 }

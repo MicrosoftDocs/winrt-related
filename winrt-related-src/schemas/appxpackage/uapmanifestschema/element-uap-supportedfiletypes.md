@@ -48,7 +48,7 @@ None.
 
 | Child element | Description |
 |-|-|
-| [uap:FileType (in type: CT_FTASupportedFileTypes)](element-uap-filetype.md) | A supported file type specified as its file type extension. |
+| [uap:FileType (in type: CT_FTASupportedFileTypes)](element-uap-filetypeassociation-filetype.md) | A supported file type specified as its file type extension. |
 
 ### Parent elements
 

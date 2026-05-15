@@ -53,10 +53,10 @@ None.
 | [uap:AutoPlayContent](element-uap-autoplaycontent.md) | Declares an app extensibility point of type *windows.autoPlayContent*. The app provides the specified AutoPlay content actions. |
 
 ## See also
-The following elements have the same name as this one, but different content or attributes:
 
-- [uap:LaunchAction (in type: CT_AutoPlayDevice)](element-1-uap-launchaction.md)
-- [uap:LaunchAction (global)](element-2-uap-launchaction.md)
+- [uap:LaunchAction (in type: CT_AutoPlayDevice)](element-uap-autoplaydevice-launchaction.md)
+- [uap:LaunchAction (global)](element-uap-appointmentsproviderlaunchactions-launchaction.md)
+- [Supporting AutoPlay](/previous-versions/windows/apps/hh452731(v=win.10))
 
 ## Remarks
 
@@ -92,10 +92,6 @@ The following elements have the same name as this one, but different content or 
   </uap:AutoPlayContent>
 </uap:Extension>
 ```
-
-## See also
-
-[Supporting AutoPlay](/previous-versions/windows/apps/hh452731(v=win.10))
 
 ## Requirements
 

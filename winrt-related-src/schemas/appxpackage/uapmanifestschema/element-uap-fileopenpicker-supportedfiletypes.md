@@ -53,8 +53,8 @@ None.
 
 | Child element | Description |
 |-|-|
-| [uap:FileType (type: ST_FileType)](element-1-uap-filetype.md) | A file type specified as its file type extension. It is unique per application in the package and is case sensitive. |
-| [uap:SupportsAnyFileType](element-1-uap-supportsanyfiletype.md) | Indicates whether all file types are supported for sharing. |
+| [uap:FileType (type: ST_FileType)](element-uap-sharetarget-filetype.md) | A file type specified as its file type extension. It is unique per application in the package and is case sensitive. |
+| [uap:SupportsAnyFileType](element-uap-supportsanyfiletype.md) | Indicates whether all file types are supported for sharing. |
 
 ### Parent elements
 
