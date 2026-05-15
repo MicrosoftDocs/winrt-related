@@ -17,7 +17,7 @@ Specifies whether the executable runs as a single instance or can run as multipl
 
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-package-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<OutOfProcessServer>`](element-f-outofprocessserver.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<Instancing>`**  
 

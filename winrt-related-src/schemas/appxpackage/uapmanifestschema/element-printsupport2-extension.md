@@ -79,7 +79,7 @@ Declares an extensibility point for a Print Support App, adding support for virt
 
 | Parent element | Description |
 |-|-|
-| [Extensions](element-f-extension.md) | Declares an extensibility point for the app. |
+| [Extensions](element-f-package-extension.md) | Declares an extensibility point for the app. |
 
 ### Remarks
 

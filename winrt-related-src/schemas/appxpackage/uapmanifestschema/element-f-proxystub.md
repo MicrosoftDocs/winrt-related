@@ -17,7 +17,7 @@ Declares a package extensibility point of type **windows.activatableClass.proxyS
 
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-package-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<ProxyStub>`**  
 
 ## Syntax
@@ -50,13 +50,13 @@ Declares a package extensibility point of type **windows.activatableClass.proxyS
 | Child element | Description |
 |-|-|
 | [Interface](element-f-interface.md) | Declares an interface associated with the proxy. |
-| [Path (type: ST_FileName)](element-2-path.md) | The path to the DLL. |
+| [Path (type: ST_FileName)](element-f-path.md) | The path to the DLL. |
 
 ### Parent elements
 
 | Parent element | Description |
 |-|-|
-| [Extension (in type: CT_PackageExtensions)](element-f-extension.md) | Declares an extensibility point for the package. |
+| [Extension (in type: CT_PackageExtensions)](element-f-package-extension.md) | Declares an extensibility point for the package. |
 
 ## Examples
 

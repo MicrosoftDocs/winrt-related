@@ -45,7 +45,7 @@ None.
 
 | Parent element | Description |
 |-|-|
-| [Extension (in Package/Applications)](element-f-extension.md) | Declares an extensibility point for the app. |
+| [Extension (in Package/Applications)](element-f-package-extension.md) | Declares an extensibility point for the app. |
 
 ### Requirements
 
