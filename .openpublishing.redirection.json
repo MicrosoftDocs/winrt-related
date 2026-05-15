@@ -829,6 +829,16 @@
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-2-uap-supportsanyfiletype.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-supportsanyfiletype",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap-fileopenpicker-supportedfiletypes.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-sharetarget-supportedfiletypes",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap-filesavepicker-supportedfiletypes.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-sharetarget-supportedfiletypes",
+      "redirect_document_id": false
     }
   ]
 }

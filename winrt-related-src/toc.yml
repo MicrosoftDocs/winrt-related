@@ -862,12 +862,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap-splashscreen.md
           - name: "uap:SupportedFileTypes (in uap:FileTypeAssociation)"
             href: schemas/appxpackage/uapmanifestschema/element-uap-supportedfiletypes.md
-          - name: "uap:SupportedFileTypes (in uap:ShareTarget)"
+          - name: "uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes)"
             href: schemas/appxpackage/uapmanifestschema/element-uap-sharetarget-supportedfiletypes.md
-          - name: "uap:SupportedFileTypes (in uap:FileOpenPicker)"
-            href: schemas/appxpackage/uapmanifestschema/element-uap-fileopenpicker-supportedfiletypes.md
-          - name: "uap:SupportedFileTypes (FileSavePicker)"
-            href: schemas/appxpackage/uapmanifestschema/element-uap-filesavepicker-supportedfiletypes.md
           - name: "uap:SupportedUsers"
             href: schemas/appxpackage/uapmanifestschema/element-uap-supportedusers.md
           - name: "uap:SupportsAnyFileType"
