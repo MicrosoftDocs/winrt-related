@@ -99,7 +99,7 @@ Declares an extensibility point for the app.
 | [desktop7:DesktopAppMigration](element-desktop7-desktopappmigration.md) | Specifies a set of app migration entries for tiles and pins. |
 | [desktop7:SystemFileAssociation](element-desktop7-systemfileassociation.md) | Registers system file associations for an app.  |
 | [desktop7:ShadowCopyExcludeFiles](element-desktop7-shadowcopyexcludefiles.md) | Specifies a set of files to be excluded by the Volume Shadow Copy Service (VSS).  |
-| [desktop7:ErrorReporting](element-desktop7-shadowcopyexcludefiles.md) | Specifies a set of files to be excluded by the Volume Shadow Copy Service (VSS).  |
+| [desktop7:ErrorReporting](element-desktop7-errorreporting.md) | Specifies a set of runtime exception helper modules. |
 
 
 ### Parent Elements

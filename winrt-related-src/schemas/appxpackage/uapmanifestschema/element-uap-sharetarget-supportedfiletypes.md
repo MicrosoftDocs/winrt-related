@@ -1,7 +1,7 @@
 ---
-description: Defines the file types that the app can share (in uap:ShareTarget).
+description: Defines the file types that the app can share (type CT_CharmsSupportedFileTypes).
 Search.Product: eADQiWindows 10XVcnh
-title: uap:SupportedFileTypes (in uap:ShareTarget) (Windows 10)
+title: "uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes) (Windows 10)"
 ms.assetid: 2161f39d-f31f-4ab5-81cc-da46126808a5
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
@@ -9,7 +9,7 @@ ms.date: 04/05/2017
 no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:ShareTarget, uap:SupportedFileTypes, uap:FileOpenPicker, uap:SupportedFileTypes, uap:FileSavePicker, uap:SupportedFileTypes]
 ---
 
-# uap:SupportedFileTypes (in uap:ShareTarget) (Windows 10)
+# uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes) (Windows 10)
 
 Defines the file types that the app can share.
 
