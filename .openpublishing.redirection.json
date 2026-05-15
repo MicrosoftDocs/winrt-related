@@ -1,122 +1,122 @@
 {
   "redirections": [
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestsschema/element-pm-phoneidentity",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestsschema/element-pm-phoneidentity.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestsschema/element-mp-phoneidentity",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-attribute-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-attribute-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-collectionelement-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-collectionelement-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-eventprovider-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-eventprovider-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-eventproviders-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-eventproviders-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-extension-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-extension-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-iismodule-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-iismodule-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-iismodules-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-iismodules-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-mof-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-mof-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-ntservice-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-ntservice-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-ntservices-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-ntservices-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-performanceprovider-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-performanceprovider-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-performanceproviders-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-performanceproviders-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-sectiondata-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-sectiondata-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-sectiondefinition-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-sectiondefinition-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-sectiongroupdefinition-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-sectiongroupdefinition-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-servicedependencies-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-servicedependencies-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-servicedependency-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-servicedependency-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-serviceparameterdword-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-serviceparameterdword-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-serviceparameterkey-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-serviceparameterkey-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-serviceparameters-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-serviceparameters-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-serviceparameterstring-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-serviceparameterstring-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-wmiprovider-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-wmiprovider-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-wmiproviders-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-serverpreview-wmiproviders-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
@@ -191,562 +191,562 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appinstallerschema/element-automatic-background-task",
+      "source_path": "winrt-related-src/schemas/appinstallerschema/element-automatic-background-task.md",
       "redirect_url": "/uwp/schemas/appinstallerschema/element-s4-automaticbackgroundtask",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appinstallerschema/element-force-update-from-any-version",
+      "source_path": "winrt-related-src/schemas/appinstallerschema/element-force-update-from-any-version.md",
       "redirect_url": "/uwp/schemas/appinstallerschema/element-s4-forceupdatefromanyversion",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-filetypeassociations",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-filetypeassociations.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-filetypeassociation",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-cominterface",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-cominterface.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-cominterface",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-interface",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-interface.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-interface",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-typelib",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-typelib.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-typelib",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-interface-typelib",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-interface-typelib.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-interface-typelib",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-proxystub",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-proxystub.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-proxystub",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com2-package-proxystubdll",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com2-package-proxystubdll.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com2-proxystubdll",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-version",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-version.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-version",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-win32path",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-win32path.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-win32path",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-win64path",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-win64path.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-win64path",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-desktop-startuptasks",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-desktop-startuptasks.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-desktop-startuptask",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-mobile-aowapp-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-mobile-aowapp-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-mobile-capability-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-mobile-capability-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-mobile-extension-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-mobile-extension-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-mobile-mobilemultiscreenproperties-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-mobile-mobilemultiscreenproperties-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/schema-root",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-appextension-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-appextension-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-appextension",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-appextensionhost-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-appextensionhost-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-appextensionhost",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-appointmentdataprovider-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-appointmentdataprovider-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-appointmentdataprovider",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-appservice-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-appservice-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-appservice",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-appurihandler-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-appurihandler-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-appurihandler",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-capability-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-capability-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-capability",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-contactdataprovider-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-contactdataprovider-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-contactdataprovider",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-emaildataprovider-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-emaildataprovider-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-emaildataprovider",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-extension-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-extension-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-host-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-host-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-host",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-mainpackagedependency-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-mainpackagedependency-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-mainpackagedependency",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-name-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-name-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-name",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-properties-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-properties-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-properties",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-visualelements-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap3-visualelements-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-visualelements",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-rescap2-extension-manual",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-rescap2-extension-manual.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-rescap2-extension",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-aspect",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-aspect.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-aspect",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-aspect",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-aspect.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-aspect",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-conversion",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-conversion.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-conversion",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-conversion",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-conversion.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-conversion",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-dataformat",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-dataformat.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-dataformat",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-dataformat",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-dataformat.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-dataformat",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-dataformats",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-dataformats.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-dataformats",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-dataformats",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-dataformats.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-dataformats",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-defaulticon",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-defaulticon.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-defaulticon",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-defaulticon",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-defaulticon.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-defaulticon",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-implementedcategories",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-implementedcategories.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-implementedcategories",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-implementedcategories",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-implementedcategories.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-implementedcategories",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-implementedcategory",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-implementedcategory.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-implementedcategory",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-implementedcategory",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-implementedcategory.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-implementedcategory",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-miscstatus",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-miscstatus.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-miscstatus",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-miscstatus",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-miscstatus.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-miscstatus",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-readable",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-readable.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-readable",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-readable",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-readable.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-readable",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-readwritable",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-readwritable.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-readwritable",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-readwritable",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-readwritable.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-readwritable",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-toolboxbitmap32",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-toolboxbitmap32.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-toolboxbitmap32",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-toolboxbitmap32",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-toolboxbitmap32.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-toolboxbitmap32",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-verb",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-verb.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-verb",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-verb",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-verb.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-verb",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-verbs",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-verbs.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-verbs",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-verbs",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-verbs.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-verbs",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-rformat",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-rformat.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-format",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-rformat",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-rformat.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-format",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-rwformat",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-exe-rwformat.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-format",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-rwformat",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-surrogate-rwformat.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-format",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-activatableclass",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-activatableclass.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-activatableclass",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-activatableclassattribute",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-activatableclassattribute.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-activatableclassattribute",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-application",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-application.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-application",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-applications",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-applications.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-applications",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-arguments",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-arguments.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-arguments",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-backgroundtasks",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-backgroundtasks.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-backgroundtasks",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-capabilities",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-capabilities.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-capabilities",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-capability",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-capability.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-capability",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-certificate",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-certificate.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-certificate",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-certificates",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-certificates.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-certificates",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-dependencies",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-dependencies.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-dependencies",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-description",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-description.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-description",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-device",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-device.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-device",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-devicecapability",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-devicecapability.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-devicecapability",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-displayname",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-displayname.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-displayname",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-extension",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-extension.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-extension",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-folder",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-folder.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-folder",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-framework",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-framework.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-framework",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-function",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-function.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-function",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-identity",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-identity.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-identity",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-inprocessserver",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-inprocessserver.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-inprocessserver",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-instancing",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-instancing.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-instancing",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-interface",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-interface.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-interface",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-logo",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-logo.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-logo",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-outofprocessserver",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-outofprocessserver.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-outofprocessserver",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-package",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-package.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-package",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-packagedependency",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-packagedependency.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-packagedependency",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-path",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-path.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-path",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-properties",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-properties.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-properties",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-proxystub",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-proxystub.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-proxystub",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-publishercachefolders",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-publishercachefolders.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-publishercachefolders",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-publisherdisplayname",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-publisherdisplayname.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-publisherdisplayname",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-resource",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-resource.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-resource",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-resourcepackage",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-resourcepackage.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-resourcepackage",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-resources",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-resources.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-resources",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-selectioncriteria",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-selectioncriteria.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-selectioncriteria",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-targetdevicefamily",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-targetdevicefamily.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-targetdevicefamily",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-task",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-task.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-task",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-trustflags",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-trustflags.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-trustflags",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-activatableclass",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-activatableclass.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-outofprocessserver-activatableclass",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-extensions",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-extensions.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-application-extensions",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-path",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-path.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-outofprocessserver-path",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-uap-supportedfiletypes",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-uap-supportedfiletypes.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-sharetarget-supportedfiletypes",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-2-uap-supportedfiletypes",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-2-uap-supportedfiletypes.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-fileopenpicker-supportedfiletypes",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-desktop2-package-extension",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-desktop2-package-extension.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-desktop2-extension",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-desktop6-package-extension",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-desktop6-package-extension.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-extension",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-desktop7-package-extension",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-desktop7-package-extension.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-extension",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap6-package-extension",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap6-package-extension.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap6-extension",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap8-package-extension",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap8-package-extension.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap8-extension",
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap10-package-extension",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap10-package-extension.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap10-extension",
       "redirect_document_id": false
     },
@@ -781,52 +781,52 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-uap-launchaction",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-uap-launchaction.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-autoplaydevice-launchaction",
       "redirect_document_id": true
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-2-uap-launchaction",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-2-uap-launchaction.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-appointmentsproviderlaunchactions-launchaction",
       "redirect_document_id": true
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap-launchaction",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap-launchaction.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-autoplaycontent-launchaction",
       "redirect_document_id": true
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap-filetype",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap-filetype.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-filetypeassociation-filetype",
       "redirect_document_id": true
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-3-uap-supportedfiletypes",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-3-uap-supportedfiletypes.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-filesavepicker-supportedfiletypes",
       "redirect_document_id": true
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-uap-filetype",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-uap-filetype.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-sharetarget-filetype",
       "redirect_document_id": true
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-2-uap-filetype",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-2-uap-filetype.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-sharetarget-filetype",
       "redirect_document_id": true
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-3-uap-filetype",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-3-uap-filetype.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-sharetarget-filetype",
       "redirect_document_id": true
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-uap-supportsanyfiletype",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-1-uap-supportsanyfiletype.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-supportsanyfiletype",
       "redirect_document_id": true
     },
     {
-      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-2-uap-supportsanyfiletype",
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-2-uap-supportsanyfiletype.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-supportsanyfiletype",
       "redirect_document_id": true
     }
