@@ -1,7 +1,7 @@
 ---
 description: Defines the file types that the app can share (type CT_CharmsSupportedFileTypes).
 Search.Product: eADQiWindows 10XVcnh
-title: uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes) (Windows 10)
+title: "uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes) (Windows 10)"
 ms.assetid: 2161f39d-f31f-4ab5-81cc-da46126808a5
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
