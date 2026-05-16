@@ -47,7 +47,7 @@ None.
 
 | Child element | Description |
 |-|-|
-| [uap:LaunchAction (in type: CT_AutoPlayDevice)](element-1-uap-launchaction.md) | Describes an AutoPlay device action. |
+| [uap:LaunchAction (in type: CT_AutoPlayDevice)](element-uap-autoplaydevice-launchaction.md) | Describes an AutoPlay device action. |
 
 ### Parent elements
 

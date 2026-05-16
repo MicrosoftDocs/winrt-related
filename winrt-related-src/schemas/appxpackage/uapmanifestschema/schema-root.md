@@ -310,14 +310,14 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap:Extension](element-uap-extension.md) | Declares an extensibility point for the app. |
 | [uap:FileOpenPicker](element-uap-fileopenpicker.md) | Declares an app extensibility point of type **windows.fileOpenPicker**. The app lets the user choose and open the specified types of files. |
 | [uap:FileSavePicker](element-uap-filesavepicker.md) | Declares an app extensibility point of type **windows.fileSavePicker**. The app lets the user choose the file name, extension, and storage location for the specified types of files. |
-| [uap:FileType (in type: CT_FTASupportedFileTypes)](element-uap-filetype.md) | A supported file type specified as its file type extension. |
-| [uap:FileType (type: ST_FileType)](element-1-uap-filetype.md) | A file type specified as its file type extension. It is unique per application in the package and is case sensitive. |
+| [uap:FileType (in type: CT_FTASupportedFileTypes)](element-uap-filetypeassociation-filetype.md) | A supported file type specified as its file type extension. |
+| [uap:FileType (type: ST_FileType)](element-uap-sharetarget-filetype.md) | A file type specified as its file type extension. It is unique per application in the package and is case sensitive. |
 | [uap:FileTypeAssociation](element-uap-filetypeassociation.md) | Declares an app extensibility point of type **windows.fileTypeAssociation**. A file type association indicates that the app is registered to handle files of the specified types. |
 | [uap:InfoTip](element-uap-infotip.md) | Defines a string that provides additional info to the user about the file type. |
 | [uap:InitialRotationPreference](element-uap-initialrotationpreference.md) | Describes the orientations in which the app would prefer to be shown for the best user experience. |
-| [uap:LaunchAction (global)](element-2-uap-launchaction.md) | Describes an [**uap:AppointmentsProviderLaunchActions**](element-uap-appointmentsproviderlaunchactions.md) content action. |
-| [uap:LaunchAction (in type: CT_AutoPlayContent)](element-uap-launchaction.md) | Describes an AutoPlay content action. |
-| [uap:LaunchAction (in type: CT_AutoPlayDevice)](element-1-uap-launchaction.md) | Describes an AutoPlay device action. |
+| [uap:LaunchAction (global)](element-uap-appointmentsproviderlaunchactions-launchaction.md) | Describes an [**uap:AppointmentsProviderLaunchActions**](element-uap-appointmentsproviderlaunchactions.md) content action. |
+| [uap:LaunchAction (in type: CT_AutoPlayContent)](element-uap-autoplaycontent-launchaction.md) | Describes an AutoPlay content action. |
+| [uap:LaunchAction (in type: CT_AutoPlayDevice)](element-uap-autoplaydevice-launchaction.md) | Describes an AutoPlay device action. |
 | [uap:LockScreen](element-uap-lockscreen.md) | Defines the badge and notifications that represent the app on the lock screen, which is shown when the system is locked. |
 | [uap:Logo](element-uap-logo.md) | A path to a file that contains an image. |
 | [uap:ManagedUrls](element-uap-managedurls.md) | Provides support for multiple URLs. Allows plugins to specify multiple URLs to which they may send cookies. |

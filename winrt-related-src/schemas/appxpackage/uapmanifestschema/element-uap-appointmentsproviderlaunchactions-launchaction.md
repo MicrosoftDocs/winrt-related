@@ -68,8 +68,8 @@ None.
 ## See also
 The following elements have the same name as this one, but different content or attributes:
 
-- **[uap:LaunchAction (in type: CT_AutoPlayContent)](element-uap-launchaction.md)**
-- **[uap:LaunchAction (in type: CT_AutoPlayDevice)](element-1-uap-launchaction.md)**
+- **[uap:LaunchAction (in type: CT_AutoPlayContent)](element-uap-autoplaycontent-launchaction.md)**
+- **[uap:LaunchAction (in type: CT_AutoPlayDevice)](element-uap-autoplaydevice-launchaction.md)**
 
 ## Remarks
 
