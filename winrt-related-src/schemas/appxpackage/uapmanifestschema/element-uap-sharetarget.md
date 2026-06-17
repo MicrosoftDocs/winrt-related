@@ -1,15 +1,13 @@
 ---
+title: uap:ShareTarget
 description: Declares an app extension point of type windows.shareTarget (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
-title: uap:ShareTarget (Windows 10)
-ms.assetid: 92622f42-dfef-4fd2-a42d-73d4ac47357c
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
+keywords: windows 10, uwp, schema, package manifest
 no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:ShareTarget]
 ---
 
-# uap:ShareTarget (Windows 10)
+# uap:ShareTarget
 
 Declares an app extension point of type *windows.shareTarget*. The app can share the specified types of files.
 
@@ -18,7 +16,7 @@ Declares an app extension point of type *windows.shareTarget*. The app can share
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:Extension>`](element-uap-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap:ShareTarget>`**  
 
@@ -26,7 +24,8 @@ Declares an app extension point of type *windows.shareTarget*. The app can share
 
 ```xml
 <uap:ShareTarget
-  Description = 'An optional string with a value between 1 and 256 characters in length.' >
+  Description = 'An optional string with a value between 1 and 256 characters in length.'
+  uap10:DisplayName = 'An optional string between 1 and 256 characters in length. This string is localizable.' >
 
   <!-- Child elements -->
   uap:SupportedFileTypes?
@@ -37,29 +36,36 @@ Declares an app extension point of type *windows.shareTarget*. The app can share
 
 ### Key
 
-`?`   optional (zero or one)
-`{}`   specific range of occurrences
+`?` optional (zero or one)
+`{}` specific range of occurrences
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
 | **Description** | The description of the share target. | An optional string with a value between 1 and 256 characters in length. | No |  |
+| **uap10:DisplayName** | <!-- TODO: Add description --> | An optional string between 1 and 256 characters in length. This string is localizable. | No |  |
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
+| [uap:SupportedFileTypes](element-uap-sharetarget-supportedfiletypes.md) | Defines the file types that the app can share. |
 | [uap:DataFormat](element-uap-dataformat.md) | Specifies a data package format such as text or HTML format that the app can share. It is unique per application in the package and is case sensitive. |
-| [uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes)](element-uap-sharetarget-supportedfiletypes.md) | Defines the file types that the app can share. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [uap:Extension](element-uap-extension.md) | Declares an extensibility point for the app. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+| **uap10** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
+| **Minimum OS Version** | Windows 10 version 2004 (Build 19041) |
 
 ## Remarks
 
@@ -86,17 +92,8 @@ The Share feature provides access to a list of target apps that can receive data
 ```
 
 ## See also
-
 **Tasks**
 [Adding share](/previous-versions/windows/apps/hh758314(v=win.10))
 
 **Concepts**
 [App contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10))
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
-| **Minimum OS Version** | Windows 10 version 2004 (Build 19041) |
-| **Minimum OS Version (UWP apps only)** | Windows 10 version 1511 (Build 10586) |

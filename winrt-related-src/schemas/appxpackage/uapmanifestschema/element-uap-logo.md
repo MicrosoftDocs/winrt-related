@@ -1,15 +1,13 @@
 ---
+title: uap:Logo
 description: A path to a file that contains an image.
-Search.Product: eADQiWindows 10XVcnh
-title: uap:Logo (Windows 10)
-ms.assetid: e82d1f5f-e1c8-469c-8568-0736c2a96554
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
+keywords: windows 10, uwp, schema, package manifest
 no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:FileTypeAssociation, uap:Logo, uap:Protocol]
 ---
 
-# uap:Logo (Windows 10)
+# uap:Logo
 
 A path to a file that contains an image.
 
@@ -18,7 +16,7 @@ A path to a file that contains an image.
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:Extension>`](element-uap-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:FileTypeAssociation>`](element-uap-filetypeassociation.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap:Logo>`**  
@@ -29,30 +27,28 @@ A path to a file that contains an image.
 
 ```xml
 <uap:Logo>
-  A string with a value between 1 and 256 characters in length that ends with ".jpg", ".png", ".jpeg" that can't contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters can't be the first or last characters. Also, the string can contain / or \ but not both.
+    <!-- TODO: Add value description -->
 </uap:Logo>
 ```
 
-## Attributes and elements
+## Value
 
-### Attributes
+A string with a value between 1 and 256 characters in length that ends with ".jpg", ".png", ".jpeg" that can't contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters can't be the first or last characters. Also, the string can contain / or \ but not both.
 
-None.
-
-### Child elements
+## Attributes
 
 None.
 
-### Parent elements
+## Child elements
+
+None.
+
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [uap:FileTypeAssociation](element-uap-filetypeassociation.md) | Declares an app extensibility point of type *windows.fileTypeAssociation*. A file type association indicates that the app is registered to handle files of the specified types. |
+| [uap:FileTypeAssociation](element-uap-filetypeassociation.md) | Declares an app extensibility point of type **windows.fileTypeAssociation**. A file type association indicates that the app is registered to handle files of the specified types. |
 | [uap:Protocol](element-uap-protocol.md) | Declares an app extensibility point of type *windows.protocol*. A URI association indicates that the app is registered to handle URIs with the specified scheme. |
-
-## Remarks
-
-The logo image can be given as either a direct path to an image file or as a resource. By using a resource reference, you can supply images of different scales so that Windows can choose the best size for the device and screen resolution. You can also supply high contrast images for accessibility and localized images to match different UI languages. For more info, see the [Globalization](/previous-versions/windows/apps/hh831183(v=win.10)) topic.
 
 ## Requirements
 
@@ -60,3 +56,11 @@ The logo image can be given as either a direct path to an image file or as a res
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
 | **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |
+
+## Remarks
+
+The logo image can be given as either a direct path to an image file or as a resource. By using a resource reference, you can supply images of different scales so that Windows can choose the best size for the device and screen resolution. You can also supply high contrast images for accessibility and localized images to match different UI languages. For more info, see the [Globalization](/previous-versions/windows/apps/hh831183(v=win.10)) topic.
+
+## Examples
+
+<!-- Author content goes here -->

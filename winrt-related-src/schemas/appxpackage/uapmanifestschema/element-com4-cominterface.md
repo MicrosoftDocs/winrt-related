@@ -1,10 +1,10 @@
 ---
 title: com4:ComInterface
 description: Declares a package extension point of type **windows.comInterface** (com4:ComInterface).
-ms.date: 03/13/2022
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
-no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:ComInterface, Extensions, com4:Extension, com4:ComInterface]
+no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:ComInterface]
 ---
 
 # com4:ComInterface
@@ -14,50 +14,56 @@ Declares a package extension point of type **windows.comInterface**. The comInte
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com4:Extension>`](element-com4-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com4:ComInterface>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com4:Extension>`](element-com4-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com4:ComInterface>`**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com4:Extension>`](element-com4-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com4:ComInterface>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com4:ComInterface>`**
 
 ## Syntax
 
 ```xml
 <com4:ComInterface>
 
-<!-- Child elements -->
-  ProxyStub{0,1}
-  Interface{0,1}
-  TypeLib{0,1}
+  <!-- Child elements -->
+  com4:ProxyStub{0,3000}
+  com4:Interface{0,3000}
+  com4:TypeLib{0,3000}
 
 </com4:ComInterface>
 ```
 
 ### Key
-`{}`   specific range of occurrences
 
-## Attributes and elements
+`{}` specific range of occurrences
 
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| [ProxyStub](element-com4-proxystub.md) | Registers a proxy stub. |
-| [Interface](element-com4-interface.md) | Registers new COM interfaces |
-| [TypeLib](element-com4-typelib.md) | Registers a type library.  |
+| [com4:ProxyStub](element-com4-proxystub.md) | Registers a proxy stub |
+| [com4:Interface](element-com4-interface.md) | Registers new COM Interfaces. |
+| [com4:TypeLib](element-com4-cominterface-typelib.md) | Registers a type library. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [com4:Extension](element-com4-extension.md) | Provides functionality to expose COM registrations to clients outside of the app package. The com4 extension is a new version that is a superset of and replacement for the previous COM schema versions. |
+| [com4:Extension](element-com4-extension.md) | Provides functionality to expose COM registrations to clients outside of the app package. The com4 extension is a new version that is a superset of and replacement for the previous COM schema versions. See the Remarks section for more information. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
+| **Minimum OS Version** | Windows 10 (Build 20348) |
 
 ## Remarks
 
@@ -70,9 +76,6 @@ It is possible to have multiple **comInterface** extensions under the Applicatio
 > [!NOTE]
 > Any registrations in **comInterface** that depend on another registration (e.g. an **Interface** references a **ProxyStub** and/or a **TypeLib**) must be in the same **comInterface** extension.
 
-## Requirements
+## Examples
 
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
-| **Minimum OS Version** | Windows 10 (Build 20348) |
+<!-- Author content goes here -->

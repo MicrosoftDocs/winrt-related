@@ -1,57 +1,59 @@
 ---
-description: Allows packaged apps to request a heap profile that has performance and behavior characteristics consistent with that of the legacy NT heap.
 title: heap:HeapPolicy
-keywords: windows 10, schema, package manifest
+description: Allows packaged apps to request a heap profile that has performance and behavior characteristics consistent with that of the legacy NT heap.
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 09/06/2022
-ms.custom:
-no-loc: [Package, Properties, heap:HeapPolicy]
+keywords: windows 10, schema, package manifest
+no-loc: [Package, Extensions, heap:Package, heap:Properties, heap:HeapPolicy]
 ---
 
 # heap:HeapPolicy
 
 Allows packaged apps to request a heap profile that has performance and behavior characteristics consistent with that of the legacy NT heap.
 
-
-&nbsp;&nbsp;&nbsp;&nbsp;[\<Applications\>](element-f-applications.md)
-
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-**[`<Properties>`](element-f-properties.md)**  
-&nbsp;&nbsp;&nbsp;└─ **`<heap:HeapPolicy>`**  
+&nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-f-properties.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<heap:HeapPolicy>`**  
 
 ## Syntax
 
-
-``` xml
-<heap:HeapPolicy  type = "win32Compatible" | "default" >
+```xml
+<heap:HeapPolicy>
+    <!-- A string value: "win32Compatible" or "default" -->
 </heap:HeapPolicy>
 ```
 
-### Attributes
+## Value
 
-| Attribute | Description | Data type | Required |
-|-----------|-------------|-----------|----------|
-| type | Specifies the requested heap type. | A string value that can be one of the following: "win32Compatible", "default" | No |
+Specifies the requested heap type. The value can be one of the following strings: "win32Compatible" or "default".
 
-### Child elements
+## Attributes
 
 None.
 
-### Parent Elements
+## Child elements
 
-| Parent Element | Description |
-|---------------|-------------|
-| [Properties](element-f-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users  |
+None.
+
+## Parent elements
+
+| Parent element | Description |
+|-|-|
+| [Properties](element-f-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/heap/windows10` |
+| **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |
 
 ## Remarks
 
 The segment heap is the recommend heap implementation on Windows and has, by default, backed all process heaps for packaged apps since its inception. Now that MSIX now supports several different app types, including desktop apps, a mechanism has been provided by which packages can request legacy heap behavior for their apps. Setting the value of the **type** attribute to "win32Compatible" requests for the heap for the app to be initialized with legacy behavior and performance. This serves only as a hint to the heap initialization code which may decide on alternate settings based on internal criteria.
 
-## Requirements
+## Examples
 
-| Namespace | Manifest Path | 
-|---------------|-------------------------------------------------------------|
-| heap | `http://schemas.microsoft.com/appx/manifest/heap/windows10` |
-| **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |
+<!-- Author content goes here -->

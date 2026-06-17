@@ -1,10 +1,10 @@
 ---
 title: desktop3:CloudFilesContextMenus
-description: Registration of a context menu for a cloud based placeholder file. 
-ms.date: 10/10/2017
+description: Registration of a context menu for a cloud based placeholder file.
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension
-no-loc: [Package, Applications, Application, Extensions, desktop3:Extension, desktop3:CloudFiles, desktop3:CloudFilesContextMenu]
+no-loc: [Package, Applications, Application, Extensions, desktop3:Extension, desktop3:CloudFiles, desktop3:CloudFilesContextMenus]
 ---
 
 # desktop3:CloudFilesContextMenus
@@ -19,36 +19,34 @@ Registration of a context menu for a cloud based placeholder file.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop3:Extension>`](element-desktop3-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop3:CloudFiles>`](element-desktop3-cloudfiles.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop3:CloudFilesContextMenu>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop3:CloudFilesContextMenus>`**
 
 ## Syntax
 
 ```xml
 <desktop3:CloudFilesContextMenus>
-    
+
   <!-- Child elements -->
-  desktop3:Verb{0,10000} 
-    
+  desktop3:Verb{0,10000}
+
 </desktop3:CloudFilesContextMenus>
 ```
 
 ### Key
 
-`{}`   specific range of occurrences
+`{}` specific range of occurrences
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
 | [desktop3:Verb](element-desktop3-verb.md) | Specifies the names of items in the File Explorer context menu for cloud based placeholder files. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -56,7 +54,15 @@ None.
 
 ## Requirements
 
-| Item  | Value  |
+| Item | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/3` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/3` |
 | **Minimum OS Version** | Windows 10 version 1709 (Build 16299) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

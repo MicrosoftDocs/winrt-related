@@ -1,12 +1,9 @@
 ---
-description: Defines one or more extensibility points for the package (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
 title: Extensions (in Package)
-ms.assetid: 837ae066-b590-4f58-b552-2e9d608f0fac
-keywords: windows 10, uwp, schema, package manifest
+description: Describes the Extensions element.
+ms.date: 06/16/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Extensions]
+no-loc: [Package, Extensions, Package, Extensions]
 ---
 
 # Extensions (in Package)
@@ -21,40 +18,45 @@ Defines one or more extensibility points for the package.
 ## Syntax
 
 ```xml
-<Extensions>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  ...
+  <Extensions>
 
-  <!-- Child elements -->
-  Extension{1,10000}
+    <!-- Child elements -->
+    Extension{0,100000000}
+    ExtensionChoice{0,10000}
 
-</Extensions>
+  </Extensions>
+</Package>
 ```
 
 ### Key
 
-`{}`   specific range of occurrences
+`{}` specific range of occurrences
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| Extension | Declares an extensibility point for the package. The type of extension is defined by the **Category** attribute. See the extension category table in the [Remarks](#remarks) section below for the list of allowed categories and the Extension element that defines each one. |
+| [Extension](element-f-package-extension.md) | Declares an extensibility point for the package. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [Package](element-f-package.md) | Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system. |
 
-## See also
-The following elements have the same name as this one, but different content or attributes:
+## Requirements
 
-- [Extensions (in Application)](element-f-application-extensions.md)
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Minimum OS Version** | <!-- TODO: Add minimum OS version --> |
 
 ## Remarks
 
@@ -97,7 +99,6 @@ The **Extension** elements that can be included under the **Package/Extensions**
 | windows.sipExtension | deployment3:Extension |
 | windows.userMutablePackageDirectories | [desktop8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop8-extension) |
 
-
 ## Examples
 
 The following example is taken from the package manifest of one of the SDK samples.
@@ -122,13 +123,3 @@ The following example is taken from the package manifest of one of the SDK sampl
   </Extensions>
 </Package>
 ```
-
-## See also
-
-- [App contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10))
-
-## Requirements
-
-| Item  | Value  |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |

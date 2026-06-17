@@ -1,10 +1,10 @@
 ---
 title: com4:ComServer
 description: Declares a package extension point of type windows.comServer (com4:ComServer).
-ms.date: 03/13/2022
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
-no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:ComServer, Extensions, com4:Extension, com4:ComServer]
+no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:ComServer]
 ---
 
 # com4:ComServer
@@ -14,66 +14,72 @@ Declares a package extension point of type windows.comServer. The comServer exte
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com4:Extension>`](element-com4-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com4:ComServer>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com4:Extension>`](element-com4-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com4:ComServer>`**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com4:Extension>`](element-com4-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com4:ComServer>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com4:ComServer>`**
 
 ## Syntax
 
 ```xml
 <com4:ComServer>
 
-<!-- Child elements -->
-  Class{0,1}
-  ExeServer{0,1}
-  ServiceServer{0,1}
-  SurrogateServer{0,1}
-  TreatAsClass{0,1}
-  ProgId{0,1}
-  InProcessServer{0,1}
-  InProcessHandler{0,1}
-  ManagedInProcessServer{0,1}
-  com5:InProcessServer{0,1}
-  com5:InProcessHandler{0,1}
+  <!-- Child elements -->
+  com4:Class{0,4000}
+  com4:ExeServer{0,4000}
+  com4:ServiceServer{0,4000}
+  com4:SurrogateServer{0,4000}
+  com4:TreatAsClass{0,4000}
+  com4:ProgId{0,4000}
+  com4:InProcessServer{0,4000}
+  com4:InProcessHandler{0,4000}
+  com4:InProcessServer{0,4000}
+  com4:InProcessHandler{0,4000}
+  com4:ManagedInProcessServer{0,4000}
 
 </com4:ComServer>
 ```
 
 ### Key
-`{}`   specific range of occurrences
 
-## Attributes and elements
+`{}` specific range of occurrences
 
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| [Class](element-com4-class.md) | Defines a class registration in a COM server. |
-| [ExeServer](element-com4-exeserver.md) | Registers an ExeServer with one or many class registrations. |
-| [ServiceServer](element-com4-serviceserver.md) | Registers a ServiceServer with one or many class registrations. |
-| [SurrogateServer](element-com4-surrogateserver.md) | Registers a SurrogateServer with one or many class registrations. |
-| [TreatAsClass](element-com4-treatasclass.md) | A registration that corresponds to a CLSID registration with the TreatAs subkey. |
-| [ProgId](element-com4-progid.md) | A programmatic identifier (ProgID) that can be associated with a CLSID. |
-| [InProcessServer](element-com4-inprocessserver.md) | Registers an in-process server with one or many class registrations. |
-| [InProcessHandler](element-com4-inprocesshandler.md) | Registers an in-process handler with one or many class registrations. |
-| [ManagedInProcessServer](element-com4-managedinprocessserver.md) | Registers a managed in-process server with one or many class registrations. |
-| [com5:InProcessServer](element-com5-inprocessserver.md) | Registers an in-process server with one or many class registrations. The com5 schema introduces some minor changes in syntactic validation from the com4 schema. |
-| [com5:InProcessHandler](element-com5-inprocesshandler.md) | Registers an in-process handler with one or many class registrations. The com5 schema introduces some minor changes in syntactic validation from the com4 schema.|
+| [com4:Class](element-com4-exeserver-class.md) | Defines a class registration in a COM server. |
+| [com4:ExeServer](element-com4-exeserver.md) | Registers an ExeServer with one or many class registrations. |
+| [com4:ServiceServer](element-com4-serviceserver.md) | Registers a ServiceServer with one or many class registrations. |
+| [com4:SurrogateServer](element-com4-surrogateserver.md) | Registers a SurrogateServer with one or many class registrations. |
+| [com4:TreatAsClass](element-com4-treatasclass.md) | A registration that corresponds to a CLSID registration with the TreatAs subkey (com4:TreatAsClass). |
+| [com4:ProgId](element-com4-progid.md) | A programmatic identifier (ProgID) that can be associated with a CLSID. The ProgID identifies a class but with less precision than a CLSID because it is not guaranteed to be globally unique. |
+| [com4:InProcessServer](element-com4-inprocessserver.md) | Registers an in-process server with one or many class registrations. |
+| [com4:InProcessHandler](element-com4-inprocesshandler.md) | Registers an in-process handler with one or many class registrations. |
+| [com5:InProcessServer](element-com5-inprocessserver.md) | Registers an in-process server with one or many class registrations. |
+| [com5:InProcessHandler](element-com5-inprocesshandler.md) | Registers an in-process handler with one or many class registrations. This schema introduces some minor changes in syntactic validation from the com4 schema. |
+| [com4:ManagedInProcessServer](element-com4-managedinprocessserver.md) | Registers a managed in-process server with one or many class registrations. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [com4:Extension](element-com4-extension.md) | Provides functionality to expose COM registrations to clients outside of the app package. The com4 extension is a new version that is a superset of and replacement for the previous COM schema versions. |
+| [com4:Extension](element-com4-extension.md) | Provides functionality to expose COM registrations to clients outside of the app package. The com4 extension is a new version that is a superset of and replacement for the previous COM schema versions. See the Remarks section for more information. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
+| **Minimum OS Version** | Windows 10 (Build 20348) |
 
 ## Remarks
 
@@ -97,9 +103,6 @@ and/or
 
 The main purpose of the new syntax structure is to enable combinations of in-process server, in-process handler, and out of process server registrations for the same CLSID, as is possible and supported with the classic registry layout. For more information on the COM registry layout, see [CLSID Key](/windows/win32/com/clsid-key-hklm).
 
-## Requirements
+## Examples
 
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
-| **Minimum OS Version** | Windows 10 (Build 20348) |
+<!-- Author content goes here -->

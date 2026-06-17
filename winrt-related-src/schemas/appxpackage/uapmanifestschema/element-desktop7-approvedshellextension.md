@@ -1,51 +1,59 @@
 ---
 title: desktop7:ApprovedShellExtension
 description: Specifies that a shell extension should be added to the approved shell extensions list when installed. 
-ms.date: 10/19/2022
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
-ms.custom: 19H1
+no-loc: [Package, Applications, Application, Extensions, desktop7:Extension, desktop7:ApprovedShellExtension]
 ---
 
 # desktop7:ApprovedShellExtension
 
-Specifies that a shell extension should be added to the approved shell extensions list when installed. 
+Specifies that a shell extension should be added to the approved shell extensions list when installed.
 
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop7:Extension>`](element-desktop7-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop7:ApprovedShellExtension>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop7:Extension>`](element-desktop7-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop7:ApprovedShellExtension>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop7:ApprovedShellExtension>`**
 
 ## Syntax
 
 ```xml
 <desktop7:ApprovedShellExtension
-  Name = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
-  Clsid = 'A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.' />
+  Name = 'A required string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+  Clsid = 'A required GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Name** | A descriptive name of the Shell extension. This value is not actually used directly by the system but makes it easier to read the entry in the registry. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
-| **Clsid**  | The Clsid of the COM class that implements the Shell Extension.  | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
+| **Name** | A descriptive name of the Shell extension. This value is not actually used directly by the system but makes it easier to read the entry in the registry. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
+| **Clsid** | The Clsid of the COM class that implements the Shell Extension. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [Extension](element-desktop6-extension.md) | Defines an extensibility point for the application. |
+| [desktop7:Extension](element-desktop7-extension.md) | Declares an extensibility point for the app. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |
+| **Minimum OS Version** | Windows 10 (Build 19645) |
 
 ## Remarks
 
@@ -60,9 +68,6 @@ A shell extension is used in conjunction with a COM class in the manifest that i
 
 As mentioned in [Registering Shell Extension Handlers](/windows/win32/shell/reg-shell-exts), the impact of including or not including the **desktop7:ApprovedShellExtension** element is whether or not the shell extension would be turned off when an administrator on the machine turns on the key **EnforceShellExtensionSecurity**.
 
-## Requirements
+## Examples
 
-| Item  | Value  |
-|--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |
-| **Minimum OS Version** | Windows 10 (Build 19645) |
+<!-- Author content goes here -->

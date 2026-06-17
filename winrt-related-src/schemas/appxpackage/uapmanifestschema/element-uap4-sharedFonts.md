@@ -1,11 +1,10 @@
 ---
-ms.assetid: e33e1624-e994-4b74-9d27-acb7d45db2b8
 title: uap4:SharedFonts
 description: Contains the locations of custom fonts to be shared with other apps. This version of the extension is in the uap4 namespace.
-ms.date: 09/11/2020
+ms.date: 06/05/2026
 ms.topic: reference
+no-loc: [Package, Applications, Application, Extensions, uap4:Extension, uap4:SharedFonts]
 keywords: windows 10, uwp, schema, manifest, desktop, extension
-no-loc: [Package, Applications, Application, Extensions, uap4:Extension]
 ---
 
 # uap4:SharedFonts
@@ -22,6 +21,7 @@ Contains the locations of custom fonts to be shared with other apps. For more in
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap4:Extension>`](element-uap4-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap4:SharedFonts>`**
 
 ## Syntax
 
@@ -29,29 +29,37 @@ Contains the locations of custom fonts to be shared with other apps. For more in
 <uap4:SharedFonts>
 
   <!-- Child elements -->
-  uap4:Font
+  uap4:Font{1,unbounded}
 
 </uap4:SharedFonts>
 ```
 
-## Attributes and elements
+### Key
 
-### Attributes
+`{}` specific range of occurrences
+
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
-| Child Element | Description |
+| Child element | Description |
 |-|-|
-| [Font](element-uap4-font.md) | Specifies the shared fonts. |
+| [uap4:Font](element-uap4-font.md) | Specifies the font file packaged with the app. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [uap4:Extension](element-uap4-extension.md) | Declares an extensibility point for the app. |
 
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/4` |
+| **Minimum OS Version** | Windows 10 version 1703 (Build 15063) |
 
 ## Remarks
 
@@ -61,9 +69,6 @@ The [uap7:sharedFonts](element-uap7-sharedfonts.md) element provides similar fun
 
 For both versions of this extension, the fonts are installed per-user.
 
-## Requirements
+## Examples
 
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/4` |
-| **Minimum OS Version** | Windows 10 version 1703 (Build 15063) |
+<!-- Author content goes here -->

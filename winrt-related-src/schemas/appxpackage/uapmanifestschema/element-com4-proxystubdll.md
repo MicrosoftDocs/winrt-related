@@ -1,10 +1,10 @@
 ---
 title: com4:ProxyStubDll
 description: Specifies the path and processor architecture of a ProxyStub DLL. (com4)
-ms.date: 03/13/2022
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
-no-loc: [Package, Applications, Application, Extensions, com4:ProxyStub, com4:ProxyStubDll, Extensions, com4:ProxyStub, com4:ProxyStubDll]
+no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:ComInterface, com4:ProxyStub, com4:ProxyStubDll]
 ---
 
 # com4:ProxyStubDll
@@ -14,42 +14,43 @@ Specifies the path and processor architecture of a ProxyStub DLL.
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com4:Extension>`](element-com4-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com4:ComInterface>`](element-com4-cominterface.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com4:ProxyStub>`](element-com4-proxystub.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com4:ProxyStubDll>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com4:ProxyStub>`](element-com4-proxystub.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com4:ProxyStubDll>`**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com4:ProxyStub>`](element-com4-proxystub.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com4:ProxyStubDll>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com4:Extension>`](element-com4-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com4:ComInterface>`](element-com4-cominterface.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com4:ProxyStub>`](element-com4-proxystub.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com4:ProxyStubDll>`**
 
 ## Syntax
 
 ```xml
 <com4:ProxyStubDll
-    Path = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
-    ProcessorArchitecture = 'A string that can have one of the following values: "x86", "x64", "arm", "arm64", or "x86a64".'
-></com4:ProxyStubDll>
+  Path = 'A required string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
+  ProcessorArchitecture = 'A required string that can have one of the following values: "x86", "x64", "arm", "arm64", or "x86a64".' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Path** | A relative path to the .dll file in the app package. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
-| **ProcessorArchitecture** | The processor architecture of the ProxyStub registration. | A string that can have one of the following values: *x86*, *x64*, *arm*, *arm64*, or *x86a64*. | Yes |  |
+| **Path** | A relative path to the .dll file in the app package. | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *. | Yes |  |
+| **ProcessorArchitecture** | The processor architecture of the ProxyStub registration. | A string that can have one of the following values: *x86*, *x64*, *arm*, *arm64*, *x86a64*. | Yes |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [com4:ProxyStub](element-com4-proxystub.md) | Registers a proxy stub. |
+| [com4:ProxyStub](element-com4-proxystub.md) | Registers a proxy stub |
 
 ## Requirements
 
@@ -57,3 +58,11 @@ None.
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
 | **Minimum OS Version** | Windows 10 (Build 20348) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

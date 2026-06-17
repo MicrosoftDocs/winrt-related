@@ -1,15 +1,13 @@
 ---
+title: uap:SplashScreen
 description: Defines the appearance of the splash screen, which is displayed by the app during launch (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
-title: uap:SplashScreen (Windows 10)
-ms.assetid: 1a55627f-7014-4c8c-8ec8-957ac99457db
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Applications, Application, uap:VisualElements, uap:SplashScreen]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, uap:Package, uap:Applications, uap:Application, uap:VisualElements, uap:SplashScreen]
 ---
 
-# uap:SplashScreen (Windows 10)
+# uap:SplashScreen
 
 Defines the appearance of the splash screen, which is displayed by the app during launch.
 
@@ -25,34 +23,36 @@ Defines the appearance of the splash screen, which is displayed by the app durin
 
 ```xml
 <uap:SplashScreen
-    BackgroundColor = 'An optional three-byte hexadecimal number preceded by "#" or a named color. See the [Remarks](#remarks) for a list of named colors.'
-    Image = 'A string with a value between 1 and 256 characters in length that ends with ".jpg", ".png", or ".jpeg" that cannot contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters cannot be the first or last characters. Also, the string can contain / or \ but not both.' 
-    uap5:Optional = 'An optional boolean value.' />
+  uap5:Optional = 'An optional boolean value.'
+  BackgroundColor = 'An optional value. <!-- TODO: Add description for t:ST_Color -->'
+  Image = 'A required string between 1 and 256 characters in length that ends with `.jpg`, `.png`, or `.jpeg` that can't contain these characters: `<`, `>`, `:`, `%`, `"`, `|`, `?`, or `*`. In this string, the `/` and `\` characters can't be the first or last characters. Also, the string can contain `/` or `\` but not both.' />
 ```
 
-### Key
-
-`?`   optional (zero or one)
-
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **BackgroundColor** | Specifies the background color of the splash screen. See the [Remarks](#remarks) section for a list of color names. | An optional three-byte hexadecimal number preceded by "#" or a named color. See the [Remarks](#remarks) for a list of named colors. | No |  |
-| **Image** | The path to the splash screen image. See the [Remarks](#remarks) section for size requirements. | A string with a value between 1 and 256 characters in length that ends with `.jpg`, `.png`, or `.jpeg` that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. In this string, the `/` and `\` characters cannot be the first or last characters. Also, the string can contain `/` or `\` but not both. | Yes |  |
 | **uap5:Optional** | Specifies whether an app should be launched without a splash screen. If true, the splash screen will not be shown if the app can launch fast enough. If there is a delay in the app launch time, the splash screen will be shown. If false, the splash screen will always be shown. | An optional boolean value. | No |  |
+| **BackgroundColor** | Specifies the background color of the splash screen. See the [Remarks](#remarks) section for a list of color names. | An optional value. <!-- TODO: Add data type for t:ST_Color --> | No |  |
+| **Image** | The path to the splash screen image. See the [Remarks](#remarks) section for size requirements. | A string between 1 and 256 characters in length that ends with `.jpg`, `.png`, or `.jpeg` that can't contain these characters: `<`, `>`, `:`, `%`, `"`, `&#124;`, `?`, or `*`. In this string, the `/` and `\` characters can't be the first or last characters. Also, the string can contain `/` or `\` but not both. | Yes |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [uap:VisualElements](element-uap-visualelements.md) | Describes the visual aspects of the app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+| **uap5** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
+| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |
 
 ## Remarks
 
@@ -229,14 +229,9 @@ The following are supported background color names:
     :::column-end:::
 :::row-end:::
 
+## Examples
+
+<!-- Author content goes here -->
+
 ## See also
-
 [Colors class](/uwp/api/Windows.UI.Colors)
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
-| **uap5** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
-| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |

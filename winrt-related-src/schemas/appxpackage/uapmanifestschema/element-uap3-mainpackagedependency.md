@@ -1,15 +1,13 @@
 ---
+title: uap3:MainPackageDependency
 description: Specifies the main app package to which this supplemental package applies.
-Search.Product: eADQiWindows 10XVcnh
-title: uap3:MainPackageDependency (Windows 10)
-ms.assetid: 8de4b12b-0f0d-48d0-b3ff-28aae81fb13c
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Dependencies, uap3:MainPackageDependency]
+no-loc: [Package, Extensions, uap3:Package, uap3:Dependencies, uap3:MainPackageDependency]
+keywords: windows 10, uwp, schema, package manifest
 ---
 
-# uap3:MainPackageDependency (Windows 10)
+# uap3:MainPackageDependency
 
 Specifies the main app package to which this supplemental package applies.
 
@@ -17,33 +15,41 @@ Specifies the main app package to which this supplemental package applies.
 
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Dependencies>`](element-f-dependencies.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap3:MainPackageDependency>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap3:MainPackageDependency>`**
 
 ## Syntax
 
 ```xml
 <uap3:MainPackageDependency
-    Name = 'A string with a value between 3 and 50 characters in length that consists of alpha-numeric characters, periods, and dashes.' >
-</uap3:MainPackageDependency>
+  Name = 'A required value. <!-- TODO: Add description for t:ST_PackageName -->' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Name**  | The name as it appears in the *Name* attribute of the [Identity](element-f-identity.md) element of the dependency package. | A string with a value between 3 and 50 characters in length that consists of alpha-numeric characters, periods, and dashes. | Yes |  |
+| **Name** | The name as it appears in the *Name* attribute of the [Identity](element-f-identity.md) element of the dependency package. | A value. <!-- TODO: Add data type for t:ST_PackageName --> | Yes |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
-| Parent Element | Description |
+| Parent element | Description |
 |-|-|
 | [Dependencies](element-f-dependencies.md) | Declares other packages that a package depends on to complete its software. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
+| **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |
+
+## Remarks
+
+<!-- Author content goes here -->
 
 ## Examples
 
@@ -61,10 +67,3 @@ None.
     </Dependencies>  
 </Package>
 ```
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
-| **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |

@@ -1,10 +1,10 @@
 ---
 title: uap13:AutoUpdate
 description: Specifies automatic update configuration for the app.
-keywords: windows 10, uwp, schema, manifest, extension
-ms.date: 05/03/2022
+ms.date: 06/05/2026
 ms.topic: reference
-no-loc: [Package, Properties, uap13:AutoUpdate]
+keywords: windows 10, uwp, schema, manifest, extension
+no-loc: [Package, Extensions, uap13:Package, uap13:Properties, uap13:AutoUpdate]
 ---
 
 # uap13:AutoUpdate
@@ -22,37 +22,39 @@ Specifies automatic update configuration for the app.
 ```xml
 <uap13:AutoUpdate>
 
-  <!-- Child Elements -->
-  AppInstaller
+  <!-- Child elements -->
+  uap13:AppInstaller
 
 </uap13:AutoUpdate>
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| [AppInstaller](element-uap13-appinstaller.md) | Specifies an `.appinstaller` file, which provides an update path that a Windows app can traverse searching for updates and repairs. |
+| [uap13:AppInstaller](element-uap13-appinstaller.md) | Specifies an App Installer file, which provides an update path that a Windows app can traverse searching for updates, and repairs. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [Properties](element-f-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users. |
 
-### Remarks
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/13` |
+| **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |
+
+## Remarks
 
 An App Installer file, declared in the manifest with the [uap13:AppInstaller](element-uap13-autoupdate.md) element, specifies where your app is located and how to update it. Declaring an App Installer file in the package manifest enables auto-update scenarios that allow the app to be updated without user intervention. For more information on auto-update, see [Auto-update and repair apps](/windows/msix/app-installer/auto-update-and-repair--overview). For more information on App Installer files, see [App Installer file overview](/windows/msix/app-installer/app-installer-file-overview).
 
-### Requirements
+## Examples
 
-| Item | Value |
-|-|-|
-| **UAP13** | `http://schemas.microsoft.com/appx/manifest/uap/windows/10/13` |
-| **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |
+<!-- Author content goes here -->

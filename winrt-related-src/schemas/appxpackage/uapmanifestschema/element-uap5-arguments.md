@@ -1,10 +1,10 @@
 ---
 title: uap5:Arguments
 description: Specifies the list of comma-separated arguments to pass to the executable (uap5:Arguments).
-ms.date: 10/10/2017
+ms.date: 06/05/2026
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension
 no-loc: [Package, Applications, Application, Extensions, uap5:Extension, uap5:OutOfProcessServer, uap5:Arguments]
+keywords: windows 10, uwp, schema, manifest, desktop, extension
 ---
 
 # uap5:Arguments
@@ -19,27 +19,25 @@ Specifies the list of comma-separated arguments to pass to the executable.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap5:Extension>`](element-uap5-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap5:OutOfProcessServer>`](element-uap5-outofprocessserver.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap5:Arguments>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap5:Arguments>`**
 
 ## Syntax
 
 ```xml
 <uap5:Arguments>
-    A string value of arguments.
+    <!-- TODO: Add value description -->
 </uap5:Arguments>
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -51,3 +49,11 @@ None.
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
 | **Minimum OS Version** | Windows 10 version 1709 (Build 16299) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

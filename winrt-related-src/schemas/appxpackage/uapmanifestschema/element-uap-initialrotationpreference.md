@@ -1,15 +1,13 @@
 ---
+title: uap:InitialRotationPreference
 description: Describes the orientations in which the app would prefer to be shown for the best user experience (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
-title: uap:InitialRotationPreference (Windows 10)
-ms.assetid: 95275108-1b23-414d-98df-3b269c4dfc92
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Applications, Application, uap:VisualElements, uap:InitialRotationPreference]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, uap:Package, uap:Applications, uap:Application, uap:VisualElements, uap:InitialRotationPreference]
 ---
 
-# uap:InitialRotationPreference (Windows 10)
+# uap:InitialRotationPreference
 
 Describes the orientations in which the app would prefer to be shown for the best user experience. On a device that can be rotated, such as a tablet, the app will not be redrawn for orientations that are not specified here. For instance, if the app specifies only Landscape and LandscapeFlipped orientations, and the device is rotated to a Portrait orientation, the app will not rotate.
 
@@ -38,21 +36,19 @@ These orientation preference choices apply to both the [splash screen](../appxma
 
 ### Key
 
-`{}`   specific range of occurrences
+`{}` specific range of occurrences
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
 | [uap:Rotation](element-uap-rotation.md) | Specifies a single rotational orientation in which an app will display. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -64,3 +60,11 @@ None.
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
 | **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

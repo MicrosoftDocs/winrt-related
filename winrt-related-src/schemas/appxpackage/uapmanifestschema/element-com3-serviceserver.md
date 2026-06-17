@@ -1,10 +1,10 @@
 ---
 title: com3:ServiceServer
 description: "Learn more about: com3:ServiceServer"
-ms.date: 04/04/2020
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
-no-loc: [Package, Applications, Application, Extensions, com2:Extension, com2:ComServer, com3:ServiceServer]
+no-loc: [Package, Applications, Application, Extensions, com3:Extension, com3:ComServer, com3:ServiceServer]
 ---
 
 # com3:ServiceServer
@@ -14,53 +14,65 @@ Registers a COM server (with one or more class registrations) hosted in a Window
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com3:Extension>`](element-com-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com3:ComServer>`](element-com-comserver.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com3:ServiceServer>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com2:Extension>`](element-com2-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com2:ComServer>`](element-com2-comserver.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com3:Extension>`](element-com-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com3:ComServer>`](element-com-comserver.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com3:ServiceServer>`**  
+
 
 ## Syntax
 
 ```xml
 <com3:ServiceServer
-    ServiceName = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
-    Arguments = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
-    DisplayName = 'An optional string with a value between 1 and 256 characters in length. This string is localizable.'
-    LaunchAndActivationPermission = 'An optional [SDDL string](/windows/win32/secauthz/security-descriptor-string-format) value.' >
+  ServiceName = 'A required string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+  Arguments = 'An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+  DisplayName = 'An optional string between 1 and 256 characters in length. This string is localizable.'
+  LaunchAndActivationPermission = 'An optional [SDDL string](/windows/win32/secauthz/security-descriptor-string-format).' >
 
   <!-- Child elements -->
   com3:Class{1,10000}
 
-</com3ServiceServer>
+</com3:ServiceServer>
 ```
 
 ### Key
-`{}`   specific range of occurrences
 
-## Attributes and elements
+`{}` specific range of occurrences
 
-### Attributes
 
+## Attributes
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **ServiceName** | The name of the Windows service that hosts the COM server. This service name must match the name of a corresponding [desktop6:Service](element-desktop6-service.md) element in the same application-level [Extensions](element-f-application-extensions.md) element in the package manifest. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
-| **Arguments** | The command-line parameters of the service. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
-| **DisplayName** | A localizable string corresponding to the default AppID key value. | An optional string with a value between 1 and 256 characters in length. | No |  |
-| **LaunchAndActivationPermission** | An [SDDL string](/windows/win32/secauthz/security-descriptor-string-format) that corresponds to the LaunchPermission value of the AppID key. | An optional [SDDL string](/windows/win32/secauthz/security-descriptor-string-format) value. | No |  |
+|**ServiceName**| The name of the Windows service that hosts the COM server. This service name must match the name of a corresponding [desktop6:Service](element-desktop6-service.md) element in the same application-level [Extensions](element-f-application-extensions.md) element in the package manifest. |A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.|Yes||
+|**Arguments**| The command-line parameters of the service. |An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.|No||
+|**DisplayName**| A localizable string corresponding to the default AppID key value. |An optional string between 1 and 256 characters in length. This string is localizable.|No||
+|**LaunchAndActivationPermission**| An [SDDL string](/windows/win32/secauthz/security-descriptor-string-format) that corresponds to the LaunchPermission value of the AppID key. |An optional [SDDL string](/windows/win32/secauthz/security-descriptor-string-format).|No||
 
-### Child elements
-
+## Child elements
 | Child element | Description |
 |-|-|
 | [com3:Class](element-com3-class.md) | Defines a class registration for the COM server. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [com2:ComServer](element-com2-comserver.md) | Declares a package extension point of type **windows.comServer**. The **comServer** extension may include the following types of registrations: *ServiceServer*, *ExeServer*, *SurrogateServer*, *ProgId*, or *TreatAsClass*. |
+| [com:ComServer](element-com-comserver.md) | Declares a package extension point of type **windows.comServer**. The **comServer** extension may include four types of registrations: *ExeServer*, *SurrogateServer*, *ProgId*, or *TreatAsClass*. |
+
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/3` |
+| **Minimum OS Version** | Windows 10 version 2004 (Build 19041) |
+
 
 ## Remarks
 
@@ -101,10 +113,3 @@ A **ServiceServer** can have one or more class registrations. Multiple class reg
     </Applications>
 </Package>
 ```
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/3` |
-| **Minimum OS Version** | Windows 10 version 2004 (Build 19041) |

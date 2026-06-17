@@ -1,71 +1,81 @@
 ---
+title: OutOfProcessServer
 description: Declares a package extension point of type windows.activatableClass.outOfProcessServer (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
-title: OutOfProcessServer (Windows 10)
-ms.assetid: 575ad44f-e0e3-4682-a082-8d8184bd8dd4
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 06/07/2023
-no-loc: [Package, Extensions, Extension, OutOfProcessServer]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, Package, Extensions, Extension, OutOfProcessServer]
 ---
 
-# OutOfProcessServer (Windows 10)
+# OutOfProcessServer
 
 Declares a package extension point of type **windows.activatableClass.outOfProcessServer**. The app uses an executable (`.exe`) that exposes one or more activatable classes.
 
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-package-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<OutOfProcessServer>`**  
 
 ## Syntax
 
 ```xml
-<OutOfProcessServer
-  ServerName = 'An alphanumeric string (dots are allowed) with a value between 1 and 255 characters in length. Must begin with a letter.' 
-  RunFullTrust = 'An optional boolean value.'
-  IdentityType = 'An optional string that can be one of the following values: "activateAsPackage" or "activateAsActivator".' >
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  ...
+  <OutOfProcessServer
+    ServerName = 'A required alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.'
+    uap5:RunFullTrust = 'An optional boolean value.'
+    uap5:IdentityType = 'An optional string that can have one of the following values: "activateAsPackage", or "activateAsActivator".' >
 
-  <!-- Child elements -->
-  Path
-  Arguments?
-  Instancing
-  ActivatableClass{1,65535}
+    <!-- Child elements -->
+    Path
+    Arguments?
+    Instancing
+    ActivatableClass{1,65535}
 
-</OutOfProcessServer>
+  </OutOfProcessServer>
+</Package>
 ```
 
 ### Key
 
-`?`   optional (zero or one)
-`{}`   specific range of occurrences
+`?` optional (zero or one)
+`{}` specific range of occurrences
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **ServerName** | Any syntactically valid string that's unique within the package. By convention, it's the name of the executable. | An alphanumeric string (dots are allowed) with a value between 1 and 255 characters in length. Must begin with a letter. | Yes |  |
-| **RunFullTrust** | If true, the server will be launched with a Windows Desktop Bridge token, as opposed to a UWP token. | An optional boolean value. | No |  |
-| **IdentityType** | The activation type of the server. | An optional string that can be one of the following values: *activateAsPackage* or *activateAsActivator*. | No |  |
+| **ServerName** | Any syntactically valid string that's unique within the package. By convention, it's the name of the executable. | A alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. | Yes |  |
+| **uap5:RunFullTrust** | If true, the server will be launched with a Windows Desktop Bridge token, as opposed to a UWP token. | An optional boolean value. | No |  |
+| **uap5:IdentityType** | The activation type of the server. | An optional string that can have one of the following values: *activateAsPackage*, *activateAsActivator*. | No |  |
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| [ActivatableClass (type: CT_OutOfProcessActivatableClass)](element-f-outofprocessserver-activatableclass.md) | Declares a runtime class associated with the extensibility point. |
+| [Path](element-f-outofprocessserver-path.md) | The path to the executable. |
 | [Arguments](element-f-arguments.md) | Specifies the list of comma-separated arguments to pass to the executable. |
 | [Instancing](element-f-instancing.md) | Specifies whether the executable runs as a single instance or can run as multiple instances. |
-| [Path (type: ST_Executable)](element-f-outofprocessserver-path.md) | The default executable for the extension. |
+| [ActivatableClass](element-f-outofprocessserver-activatableclass.md) | Declares a runtime class associated with the extensibility point. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [Extension (in type: CT_PackageExtensions)](element-f-package-extension.md) | Declares an extensibility point for the package. |
+| [Extension](element-f-package-extension.md) | Declares an extensibility point for the package. |
+
+## Requirements
+
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **uap5** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
+| **Minimum OS Version** | <!-- TODO: Add minimum OS version --> |
+
 
 ## Remarks
 
@@ -85,9 +95,3 @@ If the `IdentityType` is set to `activateAsPackage`, the server will be launched
   </OutOfProcessServer>
 </Extension>
 ```
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |

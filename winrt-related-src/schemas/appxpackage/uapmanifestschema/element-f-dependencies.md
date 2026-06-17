@@ -1,15 +1,13 @@
 ---
+title: Dependencies
 description: Declares other packages that a package depends on to complete its software (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
-title: Dependencies (Windows 10)
-ms.assetid: a1e745c9-a804-42cf-a107-7fb860cc8289
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Dependencies]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, Package, Dependencies]
 ---
 
-# Dependencies (Windows 10)
+# Dependencies
 
 Declares other packages that a package depends on to complete its software.
 
@@ -21,46 +19,78 @@ Declares other packages that a package depends on to complete its software.
 ## Syntax
 
 ```xml
-<Dependencies>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  ...
+  <Dependencies>
 
-  <!-- Child elements -->
-  TargetDeviceFamily{1,128},
-  PackageDependency{0,128},
-  uap3:MainPackageDependency{0,1},
-  uap5:DriverDependency{0,1000},
-  uap7:OSPackageDependency{0,1000},
-  uap10:HostRuntimeDependency{0,128},
-  win32dependencies:ExternalDependency{0,128}
-</Dependencies>
+    <!-- Child elements -->
+    TargetDeviceFamily{1,128}
+    PackageDependency{0,129}
+    HostRuntimeDependency{0,129}
+    PackageDependency{0,129}
+    MainPackageDependencyChoice?
+    MainPackageDependencyChoice2{0,1000}
+    DriverDependency{0,1000}
+    OSPackageDependency{0,1000}
+    HostRuntimeDependency?
+
+  </Dependencies>
+</Package>
 ```
 
 ### Key
 
-`{}`   specific range of occurrences
+`?` optional (zero or one)
+`{}` specific range of occurrences
 
-## Attributes and elements
+## Attributes
 
-### Attributes
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+|  | Identifies the device family that your package targets. For more info about device families, see [Programming with extension SDKs](/uwp/extension-sdks/device-families-overview). |  |  |  |
+|  | Declares a dependency on another package that is marked as a framework package. |  |  |  |
+|  | Declares publisher information for the app. |  |  |  |
+|  | Declares other packages that a package depends on. This dependency can be specified as required for both install time and runtime or just install time but not runtime. |  |  |  |
+|  | <!-- TODO: Add description --> |  |  |  |
+|  | <!-- TODO: Add description --> |  |  |  |
+|  | Contains the driver constraint information for a UWP app. If `DriverDependency` is used, the specified driver must be present for the app to load. |  |  |  |
+|  | Defines a package dependency for a UWP app. |  |  |  |
+|  | Defines a dependency on a host app for the current app. For more information, see [Create hosted apps](/windows/uwp/launch-resume/hosted-apps). |  |  |  |
+|  | Description |  |  |  |
+|  | - |  |  |  |
+|  | Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system. |  |  |  |
+|  | Value |  |  |  |
+|  | -- |  |  |  |
+|  | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |  |  |  |
+|  | <!-- TODO: Add minimum OS version --> |  |  |  |
 
-None.
-
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
+| [TargetDeviceFamily](element-f-targetdevicefamily.md) | Identifies the device family that your package targets. For more info about device families, see [Programming with extension SDKs](/uwp/extension-sdks/device-families-overview). |
 | [PackageDependency](element-f-packagedependency.md) | Declares a dependency on another package that is marked as a framework package. |
-| [TargetDeviceFamily](element-f-targetdevicefamily.md) | Identifies the device family that your package targets. For more info about device families, see the [Guide to UWP apps](/windows/uwp/get-started/universal-application-platform-guide). |
-| [uap3:MainPackageDependency](element-uap3-mainpackagedependency.md) | Specifies the main app package to which this supplemental package applies. |
-| [uap5:DriverDependency](element-uap5-driverdependency.md) | Contains the driver constraint information for a UWP app. If DriverDependency is used, the specified driver must be present for the app to load. |
+| [uap13:HostRuntimeDependency](element-uap13-hostruntimedependency.md) | Declares publisher information for the app. |
+| [uap17:PackageDependency](element-uap17-packagedependency.md) | Declares other packages that a package depends on. This dependency can be specified as required for both install time and runtime or just install time but not runtime. |
+| [uap5:DriverDependency](element-uap5-driverdependency.md) | Contains the driver constraint information for a UWP app. If `DriverDependency` is used, the specified driver must be present for the app to load. |
 | [uap7:OSPackageDependency](element-uap7-ospackagedependency.md) | Defines a package dependency for a UWP app. |
-| [uap10:HostRuntimeDependency](element-uap10-hostruntimedependency.md) | Defines a dependency on a host app package for the current app package. |
-| [win32dependencies:ExternalDependency](element-win32dependencies-externaldependency.md) | Specifies an external dependency that is not included in the MSIX but will be chain installed as part of the app installation. |
+| [uap10:HostRuntimeDependency](element-uap10-hostruntimedependency.md) | Defines a dependency on a host app for the current app. For more information, see [Create hosted apps](/windows/uwp/launch-resume/hosted-apps). |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [Package](element-f-package.md) | Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system. |
+
+## Requirements
+
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Minimum OS Version** | <!-- TODO: Add minimum OS version --> |
+
 
 ## Remarks
 
@@ -77,9 +107,3 @@ The total count of `uap7:OSPackageDependency` and `uap10:HostRuntimeDependency` 
     MinVersion="1.0.0.0"/>    
 </Dependencies>
 ```
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |

@@ -1,11 +1,10 @@
 ---
-description: Indicates whether virtualization for the file system is enabled for your desktop application.
 title: desktop6:FileSystemWriteVirtualization
-keywords: windows 10, uwp, schema, package manifest
+description: Indicates whether virtualization for the file system is enabled for your desktop application.
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/19/2019
-ms.custom: 19H1
-no-loc: [Package, Properties, desktop6:FileSystemWriteVirtualization]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, desktop6:Package, desktop6:Properties, desktop6:FileSystemWriteVirtualization]
 ---
 
 # desktop6:FileSystemWriteVirtualization
@@ -19,41 +18,45 @@ Indicates whether virtualization for the file system is enabled for your desktop
 
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Properties>`](element-f-properties.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop6:FileSystemWriteVirtualization>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop6:FileSystemWriteVirtualization>`**
 
 ## Syntax
 
-``` xml
-<desktop6:FileSystemWriteVirtualization>"enabled" -or- "disabled"</desktop6:FileSystemWriteVirtualization>
+```xml
+<desktop6:FileSystemWriteVirtualization>
+    <!-- TODO: Add value description -->
+</desktop6:FileSystemWriteVirtualization>
 ```
 
 ## Value
 
 This element can have the value **enabled** or **disabled**. The default is **enabled**.
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [Properties](element-f-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users.  |
+| [Properties](element-f-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/6` |
+| **Minimum OS Version** | Windows 10 version 1903 (Build 18362) |
 
 ## Remarks
 
 This element requires the **unvirtualizedResources** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
 
-## Requirements
+## Examples
 
-| Item  | Value  |
-|--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/6` |
-| **Minimum OS Version** | Windows 10 version 1903 (Build 18362) |
+<!-- Author content goes here -->

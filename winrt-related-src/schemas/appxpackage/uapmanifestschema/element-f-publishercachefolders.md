@@ -1,60 +1,80 @@
 ---
+title: PublisherCacheFolders
 description: Declares a package extensibility point of type windows.publisherCacheFolders.
-Search.Product: eADQiWindows 10XVcnh
-title: PublisherCacheFolders (Windows 10)
-ms.assetid: 71425cb8-5f6b-415a-9791-28c7407869dc
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Extensions, Extension, PublisherCacheFolder]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, Package, Extensions, Extension, PublisherCacheFolders]
 ---
 
-# PublisherCacheFolders (Windows 10)
+# PublisherCacheFolders
 
 Declares a package extensibility point of type **windows.publisherCacheFolders**. This specifies one or more folders that the package shares with other packages from the same publisher.
 
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-package-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<PublisherCacheFolder>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<PublisherCacheFolders>`**  
 
 ## Syntax
 
 ```xml
-<PublisherCacheFolders>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  ...
+  <PublisherCacheFolders>
 
-  <!-- Child elements -->
-  Folder{1,100}
+    <!-- Child elements -->
+    Folder{1,100}
 
-</PublisherCacheFolders>
+  </PublisherCacheFolders>
+</Package>
 ```
 
 ### Key
 
-`{}`   specific range of occurrences
+`{}` specific range of occurrences
 
-## Attributes and elements
+## Attributes
 
-### Attributes
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+|  | Specifies a folder that the package shares with other packages from the same publisher. |  |  |  |
+|  | Description |  |  |  |
+|  | - |  |  |  |
+|  | Declares an extensibility point for the package. |  |  |  |
+|  | Value |  |  |  |
+|  | -- |  |  |  |
+|  | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |  |  |  |
+|  | <!-- TODO: Add minimum OS version --> |  |  |  |
 
-None.
-
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
 | [Folder](element-f-folder.md) | Specifies a folder that the package shares with other packages from the same publisher. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [Extension (in type: CT_PackageExtensions)](element-f-package-extension.md) | Declares an extensibility point for the package. |
+| [Extension](element-f-package-extension.md) | Declares an extensibility point for the package. |
 
 ## Requirements
+
 
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Minimum OS Version** | <!-- TODO: Add minimum OS version --> |
+
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

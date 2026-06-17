@@ -1,10 +1,10 @@
 ---
 title: desktop6:MutablePackageDirectory
 description: Specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of your desktop application's install folder are projected so that users can modify the installation files (for example, to install mods).
-ms.date: 04/19/2019
+ms.date: 06/05/2026
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
-ms.custom: 19H1
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, desktop6:Extension, desktop6:MutablePackageDirectories, desktop6:MutablePackageDirectory]
 ---
 
 # desktop6:MutablePackageDirectory
@@ -17,35 +17,46 @@ Specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:Extension>`](element-desktop6-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:MutablePackageDirectories>`](element-desktop6-mutablepackagedirectories.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<MutablePackageDirectory>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop6:MutablePackageDirectory>`**  
+&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:Extension>`](element-desktop6-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:MutablePackageDirectories>`](element-desktop6-mutablepackagedirectories.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop6:MutablePackageDirectory>`**
 
 ## Syntax
 
 ```xml
 <desktop6:MutablePackageDirectory
-  Target = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.' />
+  Target = 'A required string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", /, \, &#124;, ?, or *.' />
 ```
 
-## Attributes and Elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Target** | The name of a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of your desktop application's install folder are projected so that users can modify the installation files (for example, to install mods). The folder name must be string valid for a folder name. Sub-folders in the folder name are not allowed (no / or \ characters). For more information, see [Package.MutableLocation](/uwp/api/windows.applicationmodel.package.mutablelocation) and [Package.EffectiveLocation](/uwp/api/windows.applicationmodel.package.effectivelocation).  | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
+| **Target** | The name of a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of your desktop application's install folder are projected so that users can modify the installation files (for example, to install mods). The folder name must be string valid for a folder name. Sub-folders in the folder name are not allowed (no / or \ characters). For more information, see [Package.MutableLocation](/uwp/api/windows.applicationmodel.package.mutablelocation) and [Package.EffectiveLocation](/uwp/api/windows.applicationmodel.package.effectivelocation). | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", /, \, &#124;, ?, or *. | Yes |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent Elements
+## Parent elements
 
-| Parent Element | Description |
+| Parent element | Description |
 |-|-|
 | [desktop6:MutablePackageDirectories](element-desktop6-mutablepackagedirectories.md) | Enables your desktop application to specify one or more folders where users can modify the installation files for your application (for example, to install mods). |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/6` |
+| **Minimum OS Version** | Windows 10 version 1903 (Build 18362) |
 
 ## Remarks
 
@@ -77,10 +88,3 @@ This element requires the **modifiableApp** [restricted capability](/windows/uwp
   </Capabilities>
 </Package>
 ```
-
-## Requirements
-
-| Item  | Value  |
-|--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/6` |
-| **Minimum OS Version** | Windows 10 version 1903 (Build 18362) |

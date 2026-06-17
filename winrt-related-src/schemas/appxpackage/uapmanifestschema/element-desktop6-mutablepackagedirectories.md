@@ -1,10 +1,10 @@
 ---
 title: desktop6:MutablePackageDirectories
 description: Enables your desktop application to specify one or more folders where users can modify the installation files for your application (for example, to install mods).
-ms.date: 04/19/2019
+ms.date: 06/05/2026
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
-ms.custom: 19H1
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, desktop6:Extension, desktop6:MutablePackageDirectories]
 ---
 
 # desktop6:MutablePackageDirectories
@@ -17,9 +17,14 @@ Enables your desktop application to specify one or more folders where users can 
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:Extension>`](element-desktop6-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop6:MutablePackageDirectories>`**  
+&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:Extension>`](element-desktop6-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop6:MutablePackageDirectories>`**
 
 ## Syntax
 
@@ -32,23 +37,28 @@ Enables your desktop application to specify one or more folders where users can 
 </desktop6:MutablePackageDirectories>
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| [MutablePackageDirectory](element-desktop6-mutablepackagedirectory.md) | Specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of your desktop application's install folder are projected so that users can modify the installation files (for example, to install mods). For more information, see [Package.MutableLocation](/uwp/api/windows.applicationmodel.package.mutablelocation) and [Package.EffectiveLocation](/uwp/api/windows.applicationmodel.package.effectivelocation). |
+| [desktop6:MutablePackageDirectory](element-desktop6-mutablepackagedirectory.md) | Specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of your desktop application's install folder are projected so that users can modify the installation files (for example, to install mods). |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [desktop6:Extension)](element-desktop6-extension.md) | Declares an extensibility point for the desktop application. |
+| [desktop6:Extension](element-desktop6-extension.md) | Declares an extensibility point for the app. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/6` |
+| **Minimum OS Version** | Windows 10 version 1903 (Build 18362) |
 
 ## Remarks
 
@@ -81,10 +91,3 @@ This element requires the **modifiableApp** [restricted capability](/windows/uwp
   </Capabilities>
 </Package>
 ```
-
-## Requirements
-
-| Item  | Value  |
-|--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/6` |
-| **Minimum OS Version** | Windows 10 version 1903 (Build 18362) |

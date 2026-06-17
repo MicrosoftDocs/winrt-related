@@ -1,10 +1,10 @@
 ---
 title: uap5:ActivatableClass
 description: Declares a runtime class associated with the extensibility point (uap5:ActivatableClass).
-ms.date: 10/10/2017
+ms.date: 06/05/2026
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension
 no-loc: [Package, Applications, Application, Extensions, uap5:Extension, uap5:OutOfProcessServer, uap5:ActivatableClass]
+keywords: windows 10, uwp, schema, manifest, desktop, extension
 ---
 
 # uap5:ActivatableClass
@@ -19,35 +19,37 @@ Declares a runtime class associated with the extensibility point.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap5:Extension>`](element-uap5-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap5:OutOfProcessServer>`](element-uap5-outofprocessserver.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap5:ActivatableClass>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap5:ActivatableClass>`**
 
 ## Syntax
 
 ```xml
 <uap5:ActivatableClass
-  ActivatableClassId = 'A string with a value between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *.' >
+  ActivatableClassId = 'A required string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, &#124;, ?, or *.' >
 
   <!-- Child elements -->
-  ActivatableClassAttribute{0,1000}
+  uap5:ActivatableClassAttribute{0,1000}
 
 </uap5:ActivatableClass>
 ```
 
-## Attributes and elements
+### Key
 
-### Attributes
+`{}` specific range of occurrences
+
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| ActivatableClassId | The identifier of the runtime class in the operating system. | A string with a value between 1 and 255 characters in length that cannot start or end with a period or contain these characters: `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, or `*`. | Yes |  |
+| **ActivatableClassId** | The identifier of the runtime class in the operating system. | A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, &#124;, ?, or *. | Yes |  |
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| [ActivatableClassAttribute](element-uap5-ActivatableClassAttribute.md) | Defines an attribute of the class that is stored in the Windows Runtime property store. |
+| [uap5:ActivatableClassAttribute](element-uap5-activatableclassattribute.md) | Defines an attribute of the class that is stored in the Windows Runtime property store. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -59,3 +61,11 @@ Declares a runtime class associated with the extensibility point.
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
 | **Minimum OS Version** | Windows 10 version 1709 (Build 16299) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

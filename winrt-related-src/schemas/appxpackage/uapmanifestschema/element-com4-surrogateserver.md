@@ -1,10 +1,10 @@
 ---
 title: com4:SurrogateServer
 description: Registers a SurrogateServer with one or many class registrations. (com4:SurrogateServer)
-ms.date: 03/13/2022
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
-no-loc: [Package, Applications, Application, Extensions, com4:SurrogateServer]
+no-loc: [Package, Applications, Application, Extensions, com4:Extension, com4:ComServer, com4:SurrogateServer]
 ---
 
 # com4:SurrogateServer
@@ -14,54 +14,69 @@ Registers a SurrogateServer with one or many class registrations.
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com4:Extension>`](element-com4-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com4:ComServer>`](element-com4-comserver.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com4:SurrogateServer>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com4:SurrogateServer>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com4:Extension>`](element-com4-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com4:ComServer>`](element-com4-comserver.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com4:SurrogateServer>`**
 
 ## Syntax
 
 ```xml
 <com4:SurrogateServer
-  CustomSurrogateExecutable = 'A string with a value between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *.'
-  DisplayName = 'A string with a value between 1 and 256 characters in length. This string is localizable.'
-  LaunchAndActivationPermission = 'An [SDDL string](/windows/win32/secauthz/security-descriptor-string-format) value.'
-  AppId = 'A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.'
-  SystemSurrogate = 'A string with the following optional value: "PreviewHost".' >
+  CustomSurrogateExecutable = 'An optional string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *.'
+  DisplayName = 'An optional string between 1 and 256 characters in length. This string is localizable.'
+  LaunchAndActivationPermission = 'An optional [SDDL string](/windows/win32/secauthz/security-descriptor-string-format).'
+  AppId = 'An optional GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.'
+  SystemSurrogate = 'An optional string with the value "PreviewHost".' >
 
   <!-- Child elements -->
-  Class
-  InProcessServerClassReference
-  ClassReference
+  com4:Class{0,10000}
+  com4:InProcessServerClassReference{0,10000}
+  com4:ClassReference{0,10000}
 
 </com4:SurrogateServer>
 ```
 
-## Attributes and elements
+### Key
 
-### Attributes
+`{}` specific range of occurrences
+
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **CustomSurrogateExecutable** |  A path to the DllSurrogate in the AppId key. This path is relative to the package root and must reference a file in the package. This is mututally exclusive with SystemSurrogate. | A string with a value between 1 and 256 characters in length that must end with `.exe` and cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
-| **DisplayName** | DisplayName is a localizable string corresponding to the default AppID key value. | A string with a value between 1 and 256 characters in length. | Yes |  |
-| **LaunchAndActivationPermission** | An [SDDL string](/windows/win32/secauthz/security-descriptor-string-format) that corresponds to the LaunchPermission value of the AppID key. | An [SDDL string](/windows/win32/secauthz/security-descriptor-string-format) value. | Yes |  |
-| **AppId** | The AppId that references the associated AppId key.  | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
-| **SystemSurrogate** | A value that corresponds to well-known values from the DllSurrogate value of the AppId key. This is mututally exclusive with CustomSurrogateExecutable. | A string with the following optional value: "PreviewHost". | Yes |  |
+| **CustomSurrogateExecutable** | A path to the DllSurrogate in the AppId key. This path is relative to the package root and must reference a file in the package. This is mututally exclusive with SystemSurrogate. | An optional string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", &#124;, ?, or *. | No |  |
+| **DisplayName** | DisplayName is a localizable string corresponding to the default AppID key value. | An optional string between 1 and 256 characters in length. This string is localizable. | No |  |
+| **LaunchAndActivationPermission** | An [SDDL string](/windows/win32/secauthz/security-descriptor-string-format) that corresponds to the LaunchPermission value of the AppID key. | An optional [SDDL string](/windows/win32/secauthz/security-descriptor-string-format). | No |  |
+| **AppId** | The AppId that references the associated AppId key. | An optional GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | No |  |
+| **SystemSurrogate** | A value that corresponds to well-known values from the DllSurrogate value of the AppId key. This is mututally exclusive with CustomSurrogateExecutable. | An optional string that can have one of the following values: *PreviewHost*. | No |  |
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| [Class](element-com4-surrogateserver-class.md) | Defines a surrogate server class registration. |
-| [InProcessServerClassReference](element-com4-inprocessserverclassreference.md) | Specifies the class with which the managed in-process server is associated and sets registration details. |
-| [ClassReference](element-com4-surrogateserver-classreference.md) | Specifies the class with which the registered in-process server is associated and sets registration details. |
+| [com4:Class](element-com4-surrogateserver-class.md) | Defines a surrogate server class registration. |
+| [com4:InProcessServerClassReference](element-com4-inprocessserverclassreference.md) | Specifies the class or class reference with which the registered in-process server is associated and sets registration details. |
+| [com4:ClassReference](element-com4-surrogateserver-classreference.md) | Specifies the class with which the registered in-process server is associated and sets registration details. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [Extensions](element-f-application-extensions.md) | Defines one or more extensibility points for the app. |
+| [com4:ComServer](element-com4-comserver.md) | Declares a package extension point of type windows.comServer. The comServer extension may include class registrations, including activation details for the servers that implement these classes, and ProgId and TreatAsClass registrations, which provide additional identifiers used to reference these classes at runtime. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
+| **Minimum OS Version** | Windows 10 (Build 20348) |
 
 ## Remarks
 
@@ -72,9 +87,6 @@ The CLSID Key](/windows/win32/com/clsid-key-hklm) in the COM registry layout ena
 
 When packaging an application with a CLSID registered for outofproc activation in a surrogate server, it is generally recommended that only the surrogate server is registered in the manifest. For example, surrogate registrations are often used to support COM-based extension points that historically enabled inproc server implementations but which now recommend an outofproc server registration as a best practice for isolation. For packaged applications, there are additional functional limitations for inproc servers (see [In-ProcessServers](/windows/win32/com/in-process-servers) for details), whereas any package with the [runFullTrust restricted capability](/windows/uwp/packaging/app-capability-declarations) can successfully register a surrogate server, and for most extension points registering a surrogate server is sufficient to enable the functionality of the extension. However, if a packaged application needs to support inproc activation of its CLSIDs for compatibility with other applications that request inproc activation (CLSCTX_INPROC_SERVER), and satisfies the requirements for registering an inproc server, it can register the CLSID for inproc activation and outofproc activation in a surrogate. In this case, it is recommended to provide the inproc server details in an **InProcessServer/Class** or **InProcessServer/ClassReference** element, and reference them from a [SurrogateServer](element-com4-serviceserver.md)/[InProcessServerClassReference](element-com4-inprocessserverclassreference.md) element.
 
-## Requirements
+## Examples
 
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/4` |
-| **Minimum OS Version** | Windows 10 (Build 20348) |
+<!-- Author content goes here -->

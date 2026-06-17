@@ -1,15 +1,13 @@
 ---
+title: Resources
 description: Declares the union of languages, display scales, and DirectX feature levels for the resources that the package contains.
-Search.Product: eADQiWindows 10XVcnh
-title: Resources (Windows 10 package schema)
-ms.assetid: 45ce3dac-3888-452b-bc10-8775b158637a
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 10/26/2017
-no-loc: [Package, Resources]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, Package, Resources]
 ---
 
-# Resources (package schema for Windows 10)
+# Resources
 
 Declares the union of languages, display scales, and DirectX feature levels for the resources that the package contains. For details and examples, see [Resource](element-f-resource.md).
 
@@ -21,34 +19,42 @@ Declares the union of languages, display scales, and DirectX feature levels for 
 ## Syntax
 
 ```xml
-<Resources>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  ...
+  <Resources>
 
-  <!-- Child elements -->
-  Resource{0,200}
+    <!-- Child elements -->
+    Resource{0,200}
 
-</Resources>
+  </Resources>
+</Package>
 ```
 
 ### Key
 
-`{}`   specific range of occurrences
+`{}` specific range of occurrences
 
-## Attributes and elements
+## Attributes
 
-### Attributes
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+|  | Declares a language, display scale, or DirectX feature level for resources that the package contains. The scale and DirectX feature level attributes are common for all resources in the package. |  |  |  |
+|  | Description |  |  |  |
+|  | - |  |  |  |
+|  | Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system. |  |  |  |
+|  | Value |  |  |  |
+|  | -- |  |  |  |
+|  | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |  |  |  |
+|  | <!-- TODO: Add minimum OS version --> |  |  |  |
 
-None.
-
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
 | [Resource](element-f-resource.md) | Declares a language, display scale, or DirectX feature level for resources that the package contains. The scale and DirectX feature level attributes are common for all resources in the package. |
 
-> [!NOTE]
-> Beginning in Windows 10, version 1803, the Resource element can be omitted.
-
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -56,6 +62,18 @@ None.
 
 ## Requirements
 
+
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Minimum OS Version** | <!-- TODO: Add minimum OS version --> |
+
+
+## Remarks
+
+> [!NOTE]
+> Beginning in Windows 10, version 1803, the Resource element can be omitted.
+
+## Examples
+
+<!-- Author content goes here -->

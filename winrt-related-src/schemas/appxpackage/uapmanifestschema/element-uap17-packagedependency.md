@@ -1,59 +1,67 @@
 ---
 title: uap17:PackageDependency
 description: Declares other packages that a package depends on. This dependency can be specified as required for both install time and runtime or just install time but not runtime.
-ms.date: 10/12/2023
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
+no-loc: [Package, Extensions, uap17:Package, uap17:Dependencies, uap17:PackageDependency]
 ---
 
 # uap17:PackageDependency
 
-
-
 Declares other packages that a package depends on. This dependency can be specified as required for both install time and runtime or just install time but not runtime.
 
-
-
 ## Element hierarchy
-<dl><dt><a href = "element-f-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dd><b>&lt;uap17:PackageDependency&gt;</b></dd></dd>
-</dl>
-</dd>
-</dl>
+
+**[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Dependencies>`](element-f-dependencies.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<PackageDependency>`**  
 
 ## Syntax
-```syntax
-<uap17:PackageDependency     Type? = "install" | "installAndRuntime"
-    Name = A string with a value between 3 and 50 characters in length that consists of alpha-numeric, period, and dash characters.
-    Publisher = A string with a value between 1 and 8192 characters in length that fits the regular expression  of a distinguished name.
-    MinVersion = A version string in quad notation, "Major.Minor.Build.Revision" where Major cannot be "0".
-    MaxMajorVersionTested? = Unsigned short.
-    uap6:Optional? = Boolean.
-></uap17:PackageDependency>
+
+```xml
+<uap17:PackageDependency
+  Type = 'An optional string that can have one of the following values: "install", or "installAndRuntime".'
+  Name = 'A required value. <!-- TODO: Add description for t:ST_PackageName -->'
+  Publisher = 'A required value. <!-- TODO: Add description for t:ST_Publisher_2010_v2 -->'
+  MinVersion = 'A required version string in quad notation, major.minor.build.revision, e.g. 1.2.3.4.'
+  MaxMajorVersionTested = 'An optional value. <!-- TODO: Add description for xs:unsignedShort -->'
+  uap6:Optional = 'An optional boolean value.' />
 ```
-
-### Key
-`?`    optional (zero or one) 
-
 
 ## Attributes
 
-| Attribute | Description | Data type | Required |
-| -----------| -------------| -----------| ----------|
-| Type | If set to "install" the package dependency is only required at install time. If set to "installAndRuntime" the package dependency is required for both install and runtime. | One of the following values: "install" , "installAndRuntime"| No |
-| Name | The name as it appears in the *Name* attribute of the [Identity](element-f-identity.md) element of the dependency package. | A string with a value between 3 and 50 characters in length that consists of alpha-numeric, period, and dash characters.| Yes |
-| Publisher | The publisher as it appears in the *Publisher* attribute of the [Identity](element-f-identity.md)  element of the dependency package. | A string with a value between 1 and 8192 characters in length that fits the regular expression  of a distinguished name.| Yes |
-| MinVersion | The minimum version of the dependency package. | A version string in quad notation, "Major.Minor.Build.Revision" where Major cannot be "0".| Yes |
-| MaxMajorVersionTested | The maximum version of the dependency package tested against. Used to determine whether frameworks will be staged side-by-side, and what framework gets loaded into the package graph for the package. | An optional number with a value between 0 and 512 characters in length. | No |
-| uap6:Optional | Indicates that a framework package dependency is optional for the app, meaning the app can be installed even if the optional framework dependencies are not installed. | Boolean.| No |
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+| **Type** | <!-- TODO: Add description --> | An optional string that can have one of the following values: *install*, *installAndRuntime*. | No |  |
+| **Name** | <!-- TODO: Add description --> | A value. <!-- TODO: Add data type for t:ST_PackageName --> | Yes |  |
+| **Publisher** | <!-- TODO: Add description --> | A value. <!-- TODO: Add data type for t:ST_Publisher_2010_v2 --> | Yes |  |
+| **MinVersion** | <!-- TODO: Add description --> | A version string in quad notation, major.minor.build.revision, e.g. 1.2.3.4. | Yes |  |
+| **MaxMajorVersionTested** | <!-- TODO: Add description --> | An optional value. <!-- TODO: Add data type for xs:unsignedShort --> | No |  |
+| **uap6:Optional** | <!-- TODO: Add description --> | An optional boolean value. | No |  |
 
+## Child elements
 
+None.
+
+## Parent elements
+
+| Parent element | Description |
+|-|-|
+| [Dependencies](element-f-dependencies.md) | Declares other packages that a package depends on to complete its software. |
 
 ## Requirements
-| Prefix | Value |
-| ---------------| -------------------------------------------------------------|
-| uap17 | `http://schemas.microsoft.com/appx/manifest/uap/windows10/17` |
-| uap6 | `http://schemas.microsoft.com/appx/manifest/uap/windows10/6` |
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/17` |
+| **uap6** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/6` |
+| **Minimum OS Version** | <!-- TODO: Add minimum OS version --> |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

@@ -1,9 +1,9 @@
 ---
 title: uap2:ManagedUrls
 description: Provides support for multiple URLs. Allows plugins to specify multiple URLs to which they may send cookies.
-keywords: windows 10, uwp, schema, package, manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 03/28/2022
+keywords: windows 10, uwp, schema, package, manifest
 no-loc: [Package, Applications, Application, Extensions, uap2:Extension, uap2:WebAccountProvider, uap2:ManagedUrls]
 ---
 
@@ -26,25 +26,27 @@ Provides support for multiple URLs. Allows plugins to specify multiple URLs to w
 ```xml
 <uap2:ManagedUrls>
 
-  <!-- Child Elements -->
-  uap2:Url
+  <!-- Child elements -->
+  uap2:Url{1,200}
 
 </uap2:ManagedUrls>
 ```
 
-## Attributes and elements
+### Key
 
-### Attributes
+`{}` specific range of occurrences
+
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
 | [uap2:Url](element-uap2-url.md) | Specifies a URL to which a plugin may send cookies. Need only be a valid URI; not necessarily a URL. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -56,3 +58,11 @@ None.
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/2` |
 | **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

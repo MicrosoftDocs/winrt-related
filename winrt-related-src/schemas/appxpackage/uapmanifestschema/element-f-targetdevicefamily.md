@@ -1,15 +1,13 @@
 ---
-description: Identifies the device family that your package targets (in Package/Dependencies). 
-Search.Product: eADQiWindows 10XVcnh
-title: TargetDeviceFamily (Windows 10)
-ms.assetid: 457745aa-bc12-427b-b1f1-74c1618753c0
-keywords: windows 10, uwp, schema, package manifest
+title: TargetDeviceFamily (in Dependencies)
+description: Identifies the device family that your package targets (in Package/Dependencies).
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/28/2023
-no-loc: [Package, Dependencies, TargetDeviceFamily]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, Package, Dependencies, TargetDeviceFamily]
 ---
 
-# TargetDeviceFamily (Windows 10)
+# TargetDeviceFamily (in Dependencies)
 
 Identifies the device family that your package targets. For more info about device families, see [Programming with extension SDKs](/uwp/extension-sdks/device-families-overview).
 
@@ -22,31 +20,48 @@ Identifies the device family that your package targets. For more info about devi
 ## Syntax
 
 ```xml
-<TargetDeviceFamily
-    Name = 'An alphanumeric string that can contain period and dash characters.'
-    MinVersion = 'A version string in quad notation ("Major.Minor.Build.Revision"), where Major cannot be 0.'
-    MaxVersionTested = 'A version string in quad notation ("Major.Minor.Build.Revision"), where Major cannot be 0.' />
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  ...
+  <TargetDeviceFamily
+    Name = 'A required value. <!-- TODO: Add description for t:ST_AsciiIdentifier -->'
+    MinVersion = 'A required version string in quad notation, major.minor.build.revision, e.g. 1.2.3.4.'
+    MaxVersionTested = 'A required version string in quad notation, major.minor.build.revision, e.g. 1.2.3.4.' />
+</Package>
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Name** | The name of the device family that your app is targeting. See the [Examples](#examples) section for more information about the supported device family names. | An alphanumeric string that can contain period and dash characters. | Yes |  |
-| **MinVersion** | The minimum version of the device family that your app is targeting. Used for applicability at deployment time. If the device family version of the system is lower than *MinVersion*, then the app is not considered applicable. | A version string in quad notation (`Major.Minor.Build.Revision`), where `Major` cannot be `0`. | Yes |  |
-| **MaxVersionTested** | The maximum version of the device family that your app is targeting that you have tested it against. This is used at runtime to determine the effective process space for quirks. | A version string in quad notation (`Major.Minor.Build.Revision`), where `Major` cannot be `0`. | Yes |  |
+| **Name** | The name of the device family that your app is targeting. See the [Examples](#examples) section for more information about the supported device family names. | A value. <!-- TODO: Add data type for t:ST_AsciiIdentifier --> | Yes |  |
+| **MinVersion** | The minimum version of the device family that your app is targeting. Used for applicability at deployment time. If the device family version of the system is lower than *MinVersion*, then the app is not considered applicable. | A version string in quad notation, major.minor.build.revision, e.g. 1.2.3.4. | Yes |  |
+| **MaxVersionTested** | The maximum version of the device family that your app is targeting that you have tested it against. This is used at runtime to determine the effective process space for quirks. | A version string in quad notation, major.minor.build.revision, e.g. 1.2.3.4. | Yes |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [Dependencies](element-f-dependencies.md) | Declares other packages that a package depends on to complete its software. |
+
+## Requirements
+
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Minimum OS Version** | <!-- TODO: Add minimum OS version --> |
+
+
+## Remarks
+
+A package has access to operating system (OS) behaviors only up to `<TargetDeviceFamily [...] MaxVersionTested="version">`. So if a package's `MaxVersionTested` value is *higher* than the version of the OS on the target machine, then potentially there's OS behavior that's understood by the package, but that's not made available to the package by the target OS. If the target OS upgrades (nearer to, or matching, `MaxVersionTested`), then potentially OS behavior understood by the package becomes available that wasn't available previously. Consequently, the OS reprocesses the package in order to *light up* any such behavior.
+
+The process by which Deployment makes this *light up* scenario happen is known as *ReIndexing*.
 
 ## Examples
 
@@ -124,15 +139,3 @@ In this last example, the app targets the universal device family (so, by defaul
     <TargetDeviceFamily Name="Windows.Mobile" MinVersion="10.0.m.0" MaxVersionTested="10.0.n.0"/>
 </Dependencies>
 ```
-
-## Remarks
-
-A package has access to operating system (OS) behaviors only up to `<TargetDeviceFamily [...] MaxVersionTested="version">`. So if a package's `MaxVersionTested` value is *higher* than the version of the OS on the target machine, then potentially there's OS behavior that's understood by the package, but that's not made available to the package by the target OS. If the target OS upgrades (nearer to, or matching, `MaxVersionTested`), then potentially OS behavior understood by the package becomes available that wasn't available previously. Consequently, the OS reprocesses the package in order to *light up* any such behavior.
-
-The process by which Deployment makes this *light up* scenario happen is known as *ReIndexing*.
-
-## Requirements
-
-| Requirement | Value |
-|--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |

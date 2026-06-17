@@ -1,15 +1,13 @@
 ---
+title: Extension (in Application)
 description: Declares an extensibility point for the package (in Application/Extensions).
-Search.Product: eADQiWindows 10XVcnh
-title: Extension (in Application/Extensions) (Windows 10)
-ms.assetid: e25d664a-67e8-4a22-a666-1b11286b58f3
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 05/01/2023
-no-loc: [Package, Applications, Application, Extensions, Extension]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, Package, Applications, Application, Extensions, Extension]
 ---
 
-# Extension (in Application/Extensions) (Windows 10)
+# Extension (in Application)
 
 Declares an extensibility point for the package.
 
@@ -18,68 +16,93 @@ Declares an extensibility point for the package.
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<Extension>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<Extension>`**
 
 ## Syntax
 
 ```xml
-<Extension
-  Category = 'One of the following values: "windows.backgroundTasks", "windows.preInstalledConfigTask", "windows.updateTask", or "windows.restrictedLaunch".'
-  Executable = 'A string with an optional value between 1 and 256 characters in length, that must end with ".exe", and cannot contain the following characters: <, >, :, ", |, ?, or *. Specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If the EntryPoint property is not specified, the EntryPoint defined for the app is used.'
-  EntryPoint = 'A string with an optional value between 1 and 256 characters in length. Represents the task handling the extension (normally the fully namespace-qualified name of a Windows Runtime type). If EntryPoint is not specified, the EntryPoint defined for the app is used instead.'
-  RuntimeType = 'A string with an optional value between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *.'
-  StartPage = 'A string with an optional value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
-  ResourceGroup = 'An alphanumeric string with an optional value between 1 and 255 characters in length. Must begin with a letter.'
-  uap10:TrustLevel = 'An optional string value. If specified, it must be either "appContainer" or "mediumIL".'
-  uap10:RuntimeBehavior  = 'An optional string value. If specified, it must be one of the following values:  "windowsApp", "packagedClassicApp", or "win32App".'
-  uap10:HostId = 'An alphanumeric string with an optional value between 1 and 255 characters in length. Must begin with an letter.'
-  uap10:Parameters = 'A string with an optional value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
-/>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  ...
+  <Extension
+    Category = 'A required string that can have one of the following values: "windows.backgroundTasks", "windows.preInstalledConfigTask", "windows.updateTask", or "windows.restrictedLaunch".'
+    desktop11:AppLifecycleBehavior = 'An optional string that can have one of the following values: "systemManaged", or "unmanaged".'
+    Executable = 'An optional string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *.'
+    EntryPoint = 'An optional string between 1 and 256 characters in length that cannot start or end with a whitespace character.'
+    RuntimeType = 'An optional string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, &#124;, ?, or *.'
+    StartPage = 'An optional string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
+    ResourceGroup = 'An optional alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.'
+    uap10:TrustLevel = 'An optional string that can have one of the following values: "appContainer", or "mediumIL".'
+    uap10:RuntimeBehavior = 'An optional string that can have one of the following values: "windowsApp", "packagedClassicApp", or "win32App".'
+    uap10:HostId = 'An optional alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.'
+    uap10:Parameters = 'An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+    uap11:Id = 'An optional string between 1 and 255 characters in length with a non-whitespace character at its beginning and end.'
+    uap11:Subsystem = 'An optional string that can have one of the following values: "console", or "windows".'
+    uap11:SupportsMultipleInstances = 'An optional boolean value.'
+    uap11:ResourceGroup = 'An optional alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.'
+    uap11:CurrentDirectoryPath = 'An optional string that cannot contain these characters: <, >, |, ?, or *.'
+    uap11:Parameters = 'An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+    desktop7:CompatMode = 'An optional string that can have one of the following values: "classic", or "modern".'
+    desktop7:Scope = 'An optional string that can have one of the following values: "machine", or "user".' >
 
-  <!-- Child elements -->
-  BackgroundTasks?
+    <!-- Child elements -->
+    BackgroundTasks?
 
-</Extension>
+  </Extension>
+</Package>
 ```
 
 ### Key
 
-`?`   optional (zero or one)
+`?` optional (zero or one)
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Category** | The type of package extensibility point. | Can be one of the following values: *windows.backgroundTasks*, *windows.preInstalledConfigTask*, *windows.updateTask*, or *windows.restrictedLaunch*. | Yes |  |
-| **EntryPoint** | The activatable class ID. | A string with a value between 1 and 256 characters in length. Represents the task handling the extension (normally the fully namespace-qualified name of a Windows Runtime type). If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |  |
-| **Executable** | The default launch executable. | A string with a value between 1 and 256 characters in length, that must end with `.exe`, and cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. Specifies the default executable for the extension. If not specified, the executable defined for the app is used. If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | No |  |
-| **RuntimeType** | The runtime provider. Typically used when there are mixted frameworks in an app. | A string with a value between 1 and 255 characters in length that cannot start or end with a `.` or contain there characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |  |
-| **StartPage** | The web page that handles the extensibility point. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |  |
-| **ResourceGroup** | An optional tag used to group extension activations together for resource management purposes (for example, CPU and memory). See the **Remarks** section in *[Application@ResourceGroup](element-f-application.md)*. | An alphanumeric string between 1 and 255 characters in length. Must begin with a letter. | No |  |
-| **uap10:TrustLevel** | Specifies the trust level of the extension. | An optional string value. If specified, it can be one of the following values: *appContainer* or *mediumIL*. | No |  |
-| **uap10:RuntimeBehavior** | Specifies the runtime behavior of an extension. <br/><br/> For more info and requirements, see `uap10:RuntimeBehavior` in the topic for the [Application (Windows 10)](/uwp/schemas/appxpackage/uapmanifestschema/element-f-application) element. | An optional string value. If specified, it can be one of the following values: "packagedClassicApp", "win32App", or "windowsApp". | No |  |
-| **uap10:HostId** | Specifies the ID of the host runtime for the extension. | An alphanumeric string with an optional value between 1 and 255 characters in length. Must begin with a letter. | No |  |
-| **uap10:Parameters** | Contains command line parameters to pass to the extension. Only supported for desktop apps.| A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **Category** | The type of extension. | A string that can have one of the following values: *windows.backgroundTasks*, *windows.preInstalledConfigTask*, *windows.updateTask*, *windows.restrictedLaunch*. | Yes |  |
+| **desktop11:AppLifecycleBehavior** | <!-- TODO: Add description --> | An optional string that can have one of the following values: *systemManaged*, *unmanaged*. | No |  |
+| **Executable** | The default launch executable. | An optional string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", &#124;, ?, or *. | No |  |
+| **EntryPoint** | The activatable class ID. | An optional string between 1 and 256 characters in length that cannot start or end with a whitespace character. | No |  |
+| **RuntimeType** | The runtime provider. Typically used when there are mixed frameworks in an app. | An optional string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, &#124;, ?, or *. | No |  |
+| **StartPage** | The web page that handles the extensibility point. | An optional string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *. | No |  |
+| **ResourceGroup** | A tag that you can use to group extension activations together for resource management purposes (for example, CPU and memory). | An optional alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. | No |  |
+| **uap10:TrustLevel** | Specifies the trust level of the extension. | An optional string that can have one of the following values: *appContainer*, *mediumIL*. | No |  |
+| **uap10:RuntimeBehavior** | Specifies the run time behavior of the extension. | An optional string that can have one of the following values: *windowsApp*, *packagedClassicApp*, *win32App*. | No |  |
+| **uap10:HostId** | Specifies the ID of the host runtime for the extension. | An optional alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. | No |  |
+| **uap10:Parameters** | Contains command line parameters to pass to the extension. Only supported for desktop apps that have package identity. | An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **uap11:Id** | An identifier for the extension. The ID must be unique for all extensions in a package. | An optional string between 1 and 255 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **uap11:Subsystem** | This attribute is useful for non-UWP processes that need to be started with a specific subsystem. In most cases this should be left as the default. | An optional string that can have one of the following values: *console*, *windows*. | No |  |
+| **uap11:SupportsMultipleInstances** | Specifies whether the extension supports multiple instances. | An optional boolean value. | No |  |
+| **uap11:ResourceGroup** | A tag that you can use to group extension activations together for resource management purposes (for example, CPU and memory). | An optional alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. | No |  |
+| **uap11:CurrentDirectoryPath** | Specifies the initial directory when launching the process. | An optional string that cannot contain these characters: <, >, &#124;, ?, or *. | No |  |
+| **uap11:Parameters** | Contains command line parameters to pass to the extension. | An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **desktop7:CompatMode** | Specifies the compatibility mode for the extension. | An optional string that can have one of the following values: *classic*, *modern*. | No |  |
+| **desktop7:Scope** | Specifies whether the extension is per-user or per-machine. | An optional string that can have one of the following values: *machine*, *user*. | No |  |
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
 | [BackgroundTasks](element-f-backgroundtasks.md) | Defines an app extensibility point of type **windows.backgroundTasks**. Background tasks run in a dedicated background host; that is, without a UI. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [Extensions (type: CT_ApplicationExtensions)](element-f-application-extensions.md) | Defines one or more extensibility points for the app. |
+| [Extensions](element-f-application-extensions.md) | Defines one or more extensibility points for the app. |
 
-## See also
-The following elements have the same name as this one, but different content or attributes:
+## Requirements
 
-- **[Extension (in type: CT_PackageExtensions)](element-f-package-extension.md)**
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **desktop11** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/11` |
+| **desktop7** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |
+| **uap10** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
+| **uap11** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/11` |
+| **Minimum OS Version** | <!-- TODO: Add minimum OS version --> |
 
 ## Remarks
 
@@ -92,14 +115,12 @@ The **windows.certificates** extensibility point can't be declared multiple time
 > [!NOTE]
 > Either the **EntryPoint** or **StartPage** attribute is required if the **Category** attribute is `windows.UpdateTask` or `windows.preInstalledConfigTask` for versions of Windows 10 before Windows 10, version 1607. Starting with Windows 10, version 1607, you no longer need to specify a value for **EntryPoint** or **StartPage** when **Category** is `windows.Use`, **UpdateTask**, or `windows.preInstalledConfigTask` to target only devices that run Windows 10, version 1607 or later.
 
+## Examples
+
+<!-- Author content goes here -->
+
 ## See also
 
-**Concepts**
-[App contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10))
+The following elements have the same name as this one, but different content or attributes:
 
-## Requirements
-
-| Item  | Value  |
-|--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
-| **uap10** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
+- **[Extension (in type: CT_PackageExtensions)](element-f-package-extension.md)**

@@ -1,10 +1,10 @@
 ---
-description: Enables your package manifest to reference content outside the package, in a specific location on disk, for packages with external location.
 title: uap10:AllowExternalContent
-keywords: windows 10, uwp, schema, package manifest
+description: Enables your package manifest to reference content outside the package, in a specific location on disk, for packages with external location.
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/22/2020
-no-loc: [Package, Properties, uap10:AllowExternalContent]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, uap10:Package, uap10:Properties, uap10:AllowExternalContent]
 ---
 
 # uap10:AllowExternalContent
@@ -21,33 +21,27 @@ Enables your package manifest to reference content outside the package, in a spe
 
 ```xml
 <uap10:AllowExternalContent>
-  A boolean value.
-</uap10:AllowExternalContents>
+    <!-- TODO: Add value description -->
+</uap10:AllowExternalContent>
 ```
 
-### Key
+## Value
 
-`?`   optional (zero or one)
+<!-- TODO: Add value description -->
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [Properties](element-f-properties.md) | Defines additional metadata about the package including attributes that describe how the package behaves. |
-
-## Remarks
-
-The **uap10:AllowExternalContent** element contains a boolean value. For more information about the use of the element, see [Grant package identity by packaging with external location](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps).
+| [Properties](element-f-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users. |
 
 ## Requirements
 
@@ -55,3 +49,11 @@ The **uap10:AllowExternalContent** element contains a boolean value. For more in
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
 | **Minimum OS Version** | Windows 10 version 2004 (Build 19041) |
+
+## Remarks
+
+The **uap10:AllowExternalContent** element contains a boolean value. For more information about the use of the element, see [Grant package identity by packaging with external location](/windows/apps/desktop/modernize/grant-identity-to-nonpackaged-apps).
+
+## Examples
+
+<!-- Author content goes here -->

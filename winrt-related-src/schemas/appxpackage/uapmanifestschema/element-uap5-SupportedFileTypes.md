@@ -1,10 +1,10 @@
 ---
 title: uap5:SupportedFileTypes
 description: Contains the file types supported by the media source.
-ms.date: 10/10/2017
+ms.date: 06/05/2026
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension
 no-loc: [Package, Applications, Application, Extensions, uap5:Extension, uap5:MediaSource, uap5:SupportedFileTypes]
+keywords: windows 10, uwp, schema, manifest, desktop, extension
 ---
 
 # uap5:SupportedFileTypes
@@ -19,7 +19,7 @@ Contains the file types supported by the media source.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap5:Extension>`](element-uap5-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap5:MediaSource>`](element-uap5-mediasource.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap5:SupportedFileTypes>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap5:SupportedFileTypes>`**
 
 ## Syntax
 
@@ -36,19 +36,17 @@ Contains the file types supported by the media source.
 
 `{}` specific range of occurrences
 
-## Attributes and elements
+## Attributes
 
-### Attributes
+None.
 
-None
-
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| [FileType](element-uap5-filetype.md) | Specifies the file type suppoerted by the media source. |
+| [uap5:FileType](element-uap5-filetype.md) | Specifies the file type supported by the media source. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -60,3 +58,11 @@ None
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
 | **Minimum OS Version** | Windows 10 version 1709 (Build 16299) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

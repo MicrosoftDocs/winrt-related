@@ -1,15 +1,13 @@
 ---
+title: uap2:Capability
 description: Declares a capability required by a package (uap2:Capability).
-Search.Product: eADQiWindows 10XVcnh
-title: uap2:Capability (Windows 10)
-ms.assetid: 1a5d687b-4e1f-479a-a24e-eeda24afc560
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Capabilities, uap2:Capability]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, uap2:Package, uap2:Capabilities, uap2:Capability]
 ---
 
-# uap2:Capability (Windows 10)
+# uap2:Capability
 
 Declares a capability required by a package.
 
@@ -23,26 +21,35 @@ Declares a capability required by a package.
 
 ```xml
 <uap2:Capability
-    Name = 'A string that can have one of the following values: "phoneCallHistoryPublic" or "spatialPerception".' />
+  Name = 'A required string that can have one of the following values: "phoneCallHistoryPublic", or "spatialPerception".' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Name** | The name of the capability. | A string that can have one of the following values: *phoneCallHistoryPublic* or *spatialPerception*. | Yes |  |
+| **Name** | The name of the capability. | A string that can have one of the following values: *phoneCallHistoryPublic*, *spatialPerception*. | Yes |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
-| Parent Element | Description |
+| Parent element | Description |
 |-|-|
 | [Capabilities](element-f-capabilities.md) | Declares the access to protected user resources that the package requires. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/2` |
+| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |
+
+## Remarks
+
+<!-- Author content goes here -->
 
 ## Examples
 
@@ -58,10 +65,3 @@ None.
     </Capabilities>
 </Package>
 ```
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/2` |
-| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |

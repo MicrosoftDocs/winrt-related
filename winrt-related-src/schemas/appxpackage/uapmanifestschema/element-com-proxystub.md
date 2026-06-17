@@ -1,11 +1,10 @@
 ---
-ms.assetid: 0fe5d00f-4ade-440a-a13d-cb8e9c9b7e3c
 title: com:ProxyStub
 description: Registers a proxy stub. 
-ms.date: 03/29/2017
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
-no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComInterface, com:ProxyStub, Extensions, com:Extension, com:ComInterface, com:ProxyStub]
+no-loc: [Package, Applications, Application, Extensions, com:Extension, com:ComInterface, com:ProxyStub]
 ---
 
 # com:ProxyStub
@@ -15,55 +14,63 @@ Registers a proxy stub.
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:Extension>`](element-com-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:ComInterface>`](element-com-cominterface.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com:ProxyStub>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:Extension>`](element-com-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:ComInterface>`](element-com-cominterface.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com:ProxyStub>`**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:Extension>`](element-com-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com:ComInterface>`](element-com-cominterface.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com:ProxyStub>`**  
+
 
 ## Syntax
 
 ```xml
 <com:ProxyStub
-  Id = 'A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.'
-  DisplayName = 'An optional string with a value between 1 and 256 characters in length. This string is localizable.'
-  Path = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *. >.'
+  Path = 'An optional string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
+  Id = 'A required GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.'
+  DisplayName = 'An optional string between 1 and 256 characters in length. This string is localizable.' >
 
   <!-- Child elements -->
-  com2:ProxyStubDll?
+  com:ProxyStubDll{0,4}
 
 </com:ProxyStub>
 ```
 
 ### Key
-`?`    optional (zero or one)  
 
-## Attributes and elements
+`{}` specific range of occurrences
 
-### Attributes
 
+## Attributes
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Id** | The proxy stub's CLSID. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
-| **DisplayName** | A localizable string corresponding to the default value of the proxy stub's CLSID key. | An optional string with a value between 1 and 256 characters in length. | No |  |
-| **Path** | The path relative to the package root. Path must reference a file in the package. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
+|**Path**| The path relative to the package root. Path must reference a file in the package. |An optional string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *.|No||
+|**Id**| The proxy stub's CLSID. |A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.|Yes||
+|**DisplayName**| A localizable string corresponding to the default value of the proxy stub's CLSID key. |An optional string between 1 and 256 characters in length. This string is localizable.|No||
 
-### Child elements
-
+## Child elements
 | Child element | Description |
 |-|-|
 | [com2:ProxyStubDll](element-com2-proxystubdll.md) | Specifies the path and processor architecture of a ProxyStub DLL. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [com:ComInterface](element-com-cominterface.md) | Declares a package extension point of type **windows.comInterface**. The comInterface extension may include three types of registrations: *Interface*, *ProxyStub*, or *TypeLib*. |
+
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
+| **Minimum OS Version** | Windows 10 version 1703 (Build 15063) |
+
 
 ## Remarks
 
@@ -71,9 +78,6 @@ Proxy stub registrations correspond to the CLSID registration for the Interface'
 
 A proxy stub element must have either a **Path** attribute or one or more **ProxyStubDll** child elements, but not both.
 
-## Requirements
+## Examples
 
-| Item  | Value  |
-|--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/com/windows10` |
-| **Minimum OS Version** | Windows 10 version 1703 (Build 15063) |
+<!-- Author content goes here -->

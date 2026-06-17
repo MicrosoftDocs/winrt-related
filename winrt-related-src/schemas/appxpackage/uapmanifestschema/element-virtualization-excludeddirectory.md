@@ -1,19 +1,15 @@
 ---
-description: Specifies a directory that is excluded from file system virtualization.
 title: virtualization:ExcludedDirectory
-keywords: windows 10, uwp, schema, package manifest
+description: Specifies a directory that is excluded from file system virtualization.
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/18/2022
-ms.custom:
-no-loc: [Package, Properties, virtualization:FileSystemWriteVirtualization, virtualization:ExcludedDirectories, virtualization:ExcludedDirectory]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, virtualization:Package, virtualization:Properties, virtualization:FileSystemWriteVirtualization, virtualization:ExcludedDirectories, virtualization:ExcludedDirectory]
 ---
 
 # virtualization:ExcludedDirectory
 
-Specifies a directory that is excluded from file system virtualization. 
-
-> [!NOTE]
-> This element requires the  **unvirtualizedResources** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
+Specifies a directory that is excluded from file system virtualization.
 
 ## Element hierarchy
 
@@ -31,21 +27,30 @@ Specifies a directory that is excluded from file system virtualization.
 </virtualization:ExcludedDirectory>
 ```
 
-## Attributes and elements
+## Value
 
-### Attributes
+This element is a case-insensitive string that must start with "$(KnownFolder:\<known folder name\>)\<path to excluded directory\>" where "known folder name" specifies one of the known folders under the AppData directory. The rest of the string is the relative path to the excluded directory. For example, "$(KnownFolder:LocalAppData)\Fabrikam\Shared".
 
-None.
-
-### Child elements
+## Attributes
 
 None.
 
-### Parent elements
+## Child elements
+
+None.
+
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [virtualization:ExcludedDirectories](element-virtualization-excludeddirectories.md) | Specifies the list of directories that are excluded from file system virtualization.  |
+| [virtualization:ExcludedDirectories](element-virtualization-excludeddirectories.md) | Specifies the list of directories that are excluded from file system virtualization. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/virtualization/windows10` |
+| **Minimum OS Version** | Windows 10 (Build 20348) |
 
 ## Remarks
 
@@ -92,9 +97,6 @@ The following list contains the list of allowed known folder names, current as o
 - UserProgramFiles
 - UserProgramFilesCommon
 
-## Requirements
+## Examples
 
-| Item | Value |
-|--|--|
-| virtualization | `http://schemas.microsoft.com/appx/manifest/virtualization/windows10` |
-| **Minimum OS Version** | Windows 10 (Build 20348) |
+<!-- Author content goes here -->

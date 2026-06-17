@@ -1,15 +1,13 @@
 ---
+title: uap:Codec
 description: Specifies the codec to use for transcoding.
-Search.Product: eADQiWindows 10XVcnh
-title: uap:Codec (Windows 10)
-ms.assetid: 7b42abe0-154d-4377-ba94-4edda3d0586c
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
+keywords: windows 10, uwp, schema, package manifest
 no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:MediaPlayback, uap:Codec]
 ---
 
-# uap:Codec (Windows 10)
+# uap:Codec
 
 Specifies the codec to use for transcoding.
 
@@ -18,7 +16,7 @@ Specifies the codec to use for transcoding.
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:Extension>`](element-uap-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:MediaPlayback>`](element-uap-mediaplayback.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap:Codec>`**  
@@ -27,22 +25,20 @@ Specifies the codec to use for transcoding.
 
 ```xml
 <uap:Codec
-  Name = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.' />
+  Name = 'A required string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Name** | The name of the codec. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
+| **Name** | The name of the codec. | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -54,3 +50,11 @@ None.
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
 | **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

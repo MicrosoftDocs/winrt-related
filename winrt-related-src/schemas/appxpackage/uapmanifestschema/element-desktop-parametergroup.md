@@ -1,10 +1,10 @@
 ---
 title: desktop:ParameterGroup
 description: Represents a group of command-line parameters for a full-trust process.
-ms.date: 05/10/2021
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension
-no-loc: [Package, Applications, Application, Extensions, Desktop:Extension, Desktop:FullTrustProcess, desktop:ParameterGroup]
+no-loc: [Package, Applications, Application, Extensions, desktop:Extension, desktop:FullTrustProcess, desktop:ParameterGroup]
 ---
 
 # desktop:ParameterGroup
@@ -17,44 +17,46 @@ Represents a group of command-line parameters for a full-trust process.
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Desktop:Extension>`](element-desktop-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Desktop:FullTrustProcess>`](element-desktop-fulltrustprocess.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop:ParameterGroup>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop:Extension>`](element-desktop-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop:FullTrustProcess>`](element-desktop-fulltrustprocess.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop:ParameterGroup>`**
 
 ## Syntax
 
 ```xml
 <desktop:ParameterGroup
-  GroupId = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
-  Parameters = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.' >
+  GroupId = 'A required string value.'
+  Parameters = 'A required string value.' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **GroupId** | The name for a group of one or more related command-line parameters. You can pass this group ID to the [LaunchFullTrustProcessForAppAsync](/uwp/api/windows.applicationmodel.fulltrustprocesslauncher.launchfulltrustprocessforappasync) or [LaunchFullTrustProcessForCurrentAppAsync](/uwp/api/windows.applicationmodel.fulltrustprocesslauncher.launchfulltrustprocessforcurrentappasync) method. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
-| **Parameters** | The command line parameters to associate with the **GroupId** value. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
+| **GroupId** |  The name for a group of one or more related command-line parameters. You can pass this group ID to the [LaunchFullTrustProcessForAppAsync](/uwp/api/windows.applicationmodel.fulltrustprocesslauncher.launchfulltrustprocessforappasync) or [LaunchFullTrustProcessForCurrentAppAsync](/uwp/api/windows.applicationmodel.fulltrustprocesslauncher.launchfulltrustprocessforcurrentappasync) method.  | A string value. | Yes |  |
+| **Parameters** |  The command line parameters to associate with the **GroupId** value.  | A string value. | Yes |  |
 
-### Child elements
+## Child elements
 
-None
+None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [desktop:FullTrustProcess](element-desktop-fulltrustprocess.md) | Represents a desktop process that runs in full-trust. |
 
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10` |
+| **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |
+
 ## Remarks
 
 For more details, see [LaunchFullTrustProcessForAppAsync](/uwp/api/windows.applicationmodel.fulltrustprocesslauncher.launchfulltrustprocessforappasync) and [LaunchFullTrustProcessForCurrentAppAsync](/uwp/api/windows.applicationmodel.fulltrustprocesslauncher.launchfulltrustprocessforcurrentappasync).
 
-## Requirements
+## Examples
 
-| Item  | Value  |
-|--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10` |
-| **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |
+<!-- Author content goes here -->

@@ -1,11 +1,10 @@
 ---
-ms.assetid: ddc64ab8-4c79-4034-ab23-476053c7dbb3
 title: uap4:InputTypes
 description: Contains the media codec input types.
-ms.date: 04/05/2017
+ms.date: 06/05/2026
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension
 no-loc: [Package, Applications, Application, Extensions, uap4:Extension, uap4:MediaCodec, uap4:MediaEncodingProperties, uap4:InputTypes]
+keywords: windows 10, uwp, schema, manifest, desktop, extension
 ---
 
 # uap4:InputTypes
@@ -20,8 +19,8 @@ Contains the media codec input types.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap4:Extension>`](element-uap4-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap4:MediaCodec>`](element-uap4-mediacodec.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap4:MediaEncodingProperties>`](element-uap4-MediaEncodingProperties.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap4:InputTypes>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap4:MediaEncodingProperties>`](element-uap4-mediaencodingproperties.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap4:InputTypes>`**
 
 ## Syntax
 
@@ -31,30 +30,28 @@ Contains the media codec input types.
   <!-- Child elements -->
   uap4:InputType{1,1000}
 
-</uap4:InputTypes>                   
+</uap4:InputTypes>
 ```
 
 ### Key
 
 `{}` specific range of occurrences
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| [InputType](element-uap4-inputtype.md) | The media codec input type. |
+| [uap4:InputType](element-uap4-inputtype.md) | The media codec input type. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [uap4:MediaEncodingProperties](element-uap4-MediaEncodingProperties.md) | Contains the media coded input and output types. |
+| [uap4:MediaEncodingProperties](element-uap4-mediaencodingproperties.md) | Contains the media coded input and output types. |
 
 ## Requirements
 
@@ -62,3 +59,11 @@ None.
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/4` |
 | **Minimum OS Version** | Windows 10 version 1703 (Build 15063) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

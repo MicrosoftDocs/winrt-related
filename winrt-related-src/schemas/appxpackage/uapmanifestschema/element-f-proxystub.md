@@ -1,62 +1,75 @@
 ---
+title: ProxyStub
 description: Declares a package extensibility point of type windows.activatableClass.proxyStub (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
-title: ProxyStub (Windows 10)
-ms.assetid: d902d2b6-4694-4158-9c1f-4b3511150ee5
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Extensions, Extension, ProxyStub]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, Package, Extensions, Extension, ProxyStub]
 ---
 
-# ProxyStub (Windows 10)
+# ProxyStub
 
 Declares a package extensibility point of type **windows.activatableClass.proxyStub**. A proxy can be composed of one or more interfaces.
 
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-package-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<ProxyStub>`**  
 
 ## Syntax
 
 ```xml
-<ProxyStub
-  ClassId = 'A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.' >
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  ...
+  <ProxyStub
+    ClassId = 'A required GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.' >
 
-  <!-- Child elements -->
-  Path,
-  Interface{1,65535}
+    <!-- Child elements -->
+    Path
+    Interface{1,65535}
 
-</ProxyStub>
+  </ProxyStub>
+</Package>
 ```
 
 ### Key
 
-`{}`   specific range of occurrences
+`{}` specific range of occurrences
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
 | **ClassId** | The unique ID of the proxy. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
+| **Path** | The path to the DLL. |
 | [Interface](element-f-interface.md) | Declares an interface associated with the proxy. |
-| [Path (type: ST_FileName)](element-f-path.md) | The path to the DLL. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [Extension (in type: CT_PackageExtensions)](element-f-package-extension.md) | Declares an extensibility point for the package. |
+| [Extension](element-f-package-extension.md) | Declares an extensibility point for the package. |
+
+## Requirements
+
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Minimum OS Version** | <!-- TODO: Add minimum OS version --> |
+
+
+## Remarks
+
+<!-- Author content goes here -->
 
 ## Examples
 
@@ -78,9 +91,3 @@ The following example is taken from the package manifest of one of the SDK sampl
 </Extension>
 
 ```
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |

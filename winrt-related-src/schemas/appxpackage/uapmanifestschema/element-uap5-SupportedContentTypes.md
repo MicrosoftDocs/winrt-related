@@ -1,10 +1,10 @@
 ---
 title: uap5:SupportedContentTypes
 description: Contains the media/content types supported by the media source.
-ms.date: 10/10/2017
+ms.date: 06/05/2026
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension
 no-loc: [Package, Applications, Application, Extensions, uap5:Extension, uap5:MediaSource, uap5:SupportedContentTypes]
+keywords: windows 10, uwp, schema, manifest, desktop, extension
 ---
 
 # uap5:SupportedContentTypes
@@ -19,7 +19,7 @@ Contains the media/content types supported by the media source.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap5:Extension>`](element-uap5-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap5:MediaSource>`](element-uap5-mediasource.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap5:SupportedContentTypes>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap5:SupportedContentTypes>`**
 
 ## Syntax
 
@@ -36,19 +36,17 @@ Contains the media/content types supported by the media source.
 
 `{}` specific range of occurrences
 
-## Attributes and elements
+## Attributes
 
-### Attributes
+None.
 
-None
-
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| [ContentType](element-uap5-contenttype.md) | Specifies the media/content type supported by the media source. |
+| [uap5:ContentType](element-uap5-contenttype.md) | Specifies the media/content type supported by the media source. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -60,3 +58,11 @@ None
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
 | **Minimum OS Version** | Windows 10 version 1709 (Build 16299) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

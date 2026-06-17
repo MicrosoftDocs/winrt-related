@@ -1,15 +1,13 @@
 ---
+title: uap:MediaPlayback
 description: Declares an app extensibility point of type mediaPlayback.
-Search.Product: eADQiWindows 10XVcnh
-title: uap:MediaPlayback (Windows 10)
-ms.assetid: 8c9e4e21-4efe-4032-a15c-a513542d844b
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
+keywords: windows 10, uwp, schema, package manifest
 no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:MediaPlayback]
 ---
 
-# uap:MediaPlayback (Windows 10)
+# uap:MediaPlayback
 
 Declares an app extensibility point of type *mediaPlayback* so that your app can declare that it performs video transcoding.
 
@@ -18,7 +16,7 @@ Declares an app extensibility point of type *mediaPlayback* so that your app can
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:Extension>`](element-uap-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap:MediaPlayback>`**  
 
@@ -35,21 +33,19 @@ Declares an app extensibility point of type *mediaPlayback* so that your app can
 
 ### Key
 
-`{}`   specific range of occurrences
+`{}` specific range of occurrences
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
 | [uap:Codec](element-uap-codec.md) | Specifies the codec to use for transcoding. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -61,3 +57,11 @@ None.
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
 | **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

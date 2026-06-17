@@ -1,10 +1,10 @@
 ---
 title: desktop7:Shortcut
 description: Creates a shortcut to a file.
-ms.date: 10/15/2021
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
-ms.custom: 19H1
+no-loc: [Package, Applications, Application, Extensions, desktop7:Extension, desktop7:Shortcut]
 ---
 
 # desktop7:Shortcut
@@ -14,26 +14,30 @@ Creates a shortcut to a file.
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop7:Extension>`](element-desktop7-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop7:Shortcut>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop7:Extension>`](element-desktop7-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop7:Shortcut>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop7:Shortcut>`**
 
 ## Syntax
 
 ```xml
 <desktop7:Shortcut
-    File =  'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
-    Icon = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
-    Arguments = 'An optional string with a value between 1 and 256 characters in length.'
-    PinToStartMenu = 'A boolean value.'
-    ExcludeFromShowInNewInstall = 'A boolean value.'
-    Description = 'A string with a value between 1 and 2048 characters in length.'
-    desktop10:DisplayName = 'An optional string with a value between 1 and 256 characters in length. This string is localizable.'
-    desktop10:Description = 'An optional string with a value between 1 and 2048 characters in length. This string is localizable.' >
+  File = 'A required string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
+  Icon = 'A required string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
+  Arguments = 'An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+  PinToStartMenu = 'An optional boolean value.'
+  ExcludeFromShowInNewInstall = 'An optional boolean value.'
+  Description = 'An optional string between 1 and 2048 characters in length.'
+  desktop10:DisplayName = 'An optional string between 1 and 256 characters in length. This string is localizable.'
+  desktop10:Description = 'An optional string between 1 and 2048 characters in length.' >
 
-    desktop7:AppMigrations?
+  <!-- Child elements -->
+  desktop7:AppMigrations?
 
 </desktop7:Shortcut>
 ```
@@ -42,32 +46,38 @@ Creates a shortcut to a file.
 
 `?` optional (zero or one)
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **File** | The path to the file that is the target of the shortcut. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
-| **Icon** | The path to the file that is the icon of the shortcut. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
-| **Arguments** | Arguments to the shortcut. | An optional string with a value between 1 and 256 characters in length. | No |  |
-| **PinToStartMenu** | A boolean value specifying if the shortcut is pinned to the Start menu. | A boolean value. | No |  |
-| **ExcludeFromShowInNewInstall**  | A boolean value specifying if the shortcut should be excluded from the highlighting that is applied to newly installed apps. | A boolean value. | No |  |
-| **Description**  | The description of the shortcut.  | A string with a value between 1 and 2048 characters in length.  | No |  |
-| **desktop10:DisplayName** | The display name for the shortcut. | An optional string with a value between 1 and 256 characters in length. This string is localizable. | No |  |
-| **desktop10:Description** | The localizable description for the shortcut. | An optional string with a value between 1 and 2048 characters in length. This string is localizable. | No |  |
+| **File** | The path to the file that is the target of the shortcut. | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *. | Yes |  |
+| **Icon** | The path to the file that is the icon of the shortcut. | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *. | Yes |  |
+| **Arguments** | Arguments to the shortcut. | An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **PinToStartMenu** | A boolean value specifying if the shortcut is pinned to the Start menu. | An optional boolean value. | No |  |
+| **ExcludeFromShowInNewInstall** | A boolean value specifying if the shortcut should be excluded from the highlighting that is applied to newly installed apps. | An optional boolean value. | No |  |
+| **Description** | The description of the shortcut. | An optional string between 1 and 2048 characters in length. | No |  |
+| **desktop10:DisplayName** | The display name for the shortcut. | An optional string between 1 and 256 characters in length. This string is localizable. | No |  |
+| **desktop10:Description** | The localizable description for the shortcut. | An optional string between 1 and 2048 characters in length. | No |  |
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| [desktop7:AppMigrations](element-desktop7-appmigrations.md) | Specifies a set of app migration entries for a deactivated shortcut for a recently uninstalled app. |  
+| [desktop7:AppMigrations](element-desktop7-appmigrations.md) | Specifies a set of app migration entries for a deactivated shortcut for a recently uninstalled app. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [Extension](element-desktop7-extension.md) | Defines an extensibility point for the application. |  
+| [desktop7:Extension](element-desktop7-extension.md) | Declares an extensibility point for the app. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |
+| **desktop10** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |
+| **Minimum OS Version** | Windows 10 (Build 19645) |
 
 ## Remarks
 
@@ -85,10 +95,6 @@ So, for example the following value for *File* creates a shortcut with the path 
 File="$(Desktop)\Shortcut.lnk"
 ```
 
-## Requirements
+## Examples
 
-| Item  | Value  |
-|--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |
-| desktop10 | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |
-| **Minimum OS Version** | Windows 10 (Build 19645) |
+<!-- Author content goes here -->

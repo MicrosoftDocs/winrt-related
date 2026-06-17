@@ -18,7 +18,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 
 | Element | Description |
 |---------|-------------|
-| [ActivatableClass (type: CT_InProcessActivatableClass)](element-f-activatableclass.md) | Declares a runtime class associated with the extensibility point. |
+| [ActivatableClass (type: CT_InProcessActivatableClass)](element-f-outofprocessserver-activatableclass.md) | Declares a runtime class associated with the extensibility point. |
 | [ActivatableClass (type: CT_OutOfProcessActivatableClass)](element-f-outofprocessserver-activatableclass.md) | Declares a runtime class associated with the extensibility point. |
 | [ActivatableClassAttribute](element-f-activatableclassattribute.md) | Defines an attribute of the class that is stored in the Windows Runtime property store. |
 | [Application](element-f-application.md) | Represents an app that comprises part of or all of the functionality delivered in the package. |
@@ -79,7 +79,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [com:ToolboxBitmap32 (in ExeServer/Class)](element-com-toolboxbitmap32.md) | Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button. |
 | [com:ToolboxBitmap32 (in SurrogateServer/Class)](element-com-toolboxbitmap32.md) | Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button. |
 | [com:TreatAsClass](element-com-treatasclass.md) | A registration that corresponds to a CLSID registration with the TreatAs subkey. |
-| [com:TypeLib (in ComInterface)](element-com-typelib.md) | Registers a type library. |
+| [com:TypeLib (in ComInterface)](element-com-interface-typelib.md) | Registers a type library. |
 | [com:TypeLib (in Interface)](element-com-interface-typelib.md) | A type library for an interface. |
 | [com:Verb (in ExeServer/Class)](element-com-verb.md) | The verb to be registered for an application. |
 | [com:Verb (in SurrogateServer/Class)](element-com-verb.md) | The verb to be registered for an application. |
@@ -92,13 +92,13 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [com2:ComServer](element-com2-comserver.md) | Declares a package extension point of type windows.comServer. The comServer extension may include a ServiceServer registration.  |
 | [com2:Extension](element-com2-extension.md) | Provides functionality to expose COM registrations to clients outside of the app package.  |
 | [com2:ProxyStubDll](element-com2-proxystubdll.md) | Specifies the path and processor architecture of a ProxyStub DLL. |
-| [com3:Class](element-com3-class.md) | DDefines a class registration in a COM server hosted in a Windows service that is registered in a [com3:ServiceServer](element-com3-serviceserver.md) element.    |
+| [com3:Class](element-com-surrogateserver-class.md) | DDefines a class registration in a COM server hosted in a Windows service that is registered in a [com3:ServiceServer](element-com3-serviceserver.md) element.    |
 | [com3:ExeServer](element-com3-exeserver.md) |Registers an ExeServer with one or many class registrations.   |
 | [com3:ProgId](element-com3-progid.md) | A programmatic identifier (ProgID) that can be associated with a CLSID for a com3:ServiceServer class registration. The ProgID identifies a class but with less precision than a CLSID because it is not guaranteed to be globally unique.    |
 | [com3:ServiceServer](element-com3-serviceserver.md) | Registers a COM server (with one or more class registrations) hosted in a Windows service that is declared with a corresponding [desktop6:Service](element-desktop6-service.md) element.   |
 | [com3:SurrogateServer](element-com3-surrogateserver.md) | Registers a SurrogateServer with one or many class registrations.   |
 | [com3:TreatAsClass](element-com3-treatasclass.md) | A registration that corresponds to a CLSID registration with the TreatAs subkey for a com3:ServiceServer class.    |
-| [com4:Class](element-com4-class.md) | Defines a class registration in a COM server hosted in a Windows service that is registered in a [com4:ComServer](element-com4-comserver.md) element. |
+| [com4:Class](element-com4-exeserver-class.md) | Defines a class registration in a COM server hosted in a Windows service that is registered in a [com4:ComServer](element-com4-comserver.md) element. |
 | [com4:ExeServer](element-com4-exeserver.md) | Registers an ExeServer with one or many class registrations. |
 | [com4:Extension](element-com4-extension.md) | Provides functionality to expose COM registrations to clients outside of the app package. |
 | [com4:InProcessHandler](element-com4-inprocesshandler.md) | Registers an in-process handler with one or many class registrations. |
@@ -110,7 +110,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [com4:ServiceServer](element-com4-serviceserver.md) | Registers a ServiceServer with one or many class registrations. |
 | [com4:SurrogateServer](element-com4-surrogateserver.md) | Registers a SurrogateServer with one or many class registrations. |
 | [com4:TreatAsClass](element-com4-treatasclass.md) | A registration that corresponds to a CLSID registration with the TreatAs subkey. |
-| [com4:TypeLib](element-com4-typelib.md) | Registers a type library. |
+| [com4:TypeLib](element-com4-class-typelib.md) | Registers a type library. |
 | [Dependencies](element-f-dependencies.md) | Declares other packages that a package depends on to complete its software. |
 | [deployment:Extension](element-deployment-extension.md) | Declares an extensibility point for the app that specifies an undocked deployment extension handler (DEH). |
 | [deployment:DeploymentExtensionHandler](element-deployment-deploymentextensionhandler.md) | Allows an app to specify one or more DLL files that provide DEH functionality that ships outside of an OS release. |
@@ -246,7 +246,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [Extension (global)](element-f-application-extension.md) | Declares an extensibility point for the package. |
 | [Extension (in type: CT_PackageExtensions)](element-f-package-extension.md) | Declares an extensibility point for the package. |
 | [Extensions (type: CT_ApplicationExtensions)](element-f-application-extensions.md) | Defines one or more extensibility points for the app. |
-| [Extensions (type: CT_PackageExtensions)](element-extensions.md) | Defines one or more extensibility points for the package. |
+| [Extensions (type: CT_PackageExtensions)](element-f-package-extensions.md) | Defines one or more extensibility points for the package. |
 | [Folder](element-f-folder.md) | Specifies a folder that the package shares with other packages from the same publisher. |
 | [Framework](element-f-framework.md) | Indicates whether the package is a framework package; that is, a package that can be used by other packages. Its value is **false** by default. You should not specify a value for it unless you are creating a framework. |
 | [Function](element-f-function.md) | Declares the function for the device. |
@@ -260,7 +260,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [Package](element-f-package.md) | Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system. |
 | [PackageDependency](element-f-packagedependency.md) | Declares a dependency on another package that is marked as a framework package. |
 | [Path (type: ST_Executable)](element-f-outofprocessserver-path.md) | The path to the executable. |
-| [Path (type: ST_FileName)](element-f-path.md) | The path to the DLL. |
+| [Path (type: ST_FileName)](element-f-outofprocessserver-path.md) | The path to the DLL. |
 | [mp:PhoneIdentity](element-mp-phoneidentity.md) | If your app is an update to an app previously made available on Windows Phone, ensure that this element matches what is in the app manifest of your previous app. Use the same GUIDs that were assigned to the app by the Store. This ensures that users of your app who are upgrading to Windows 10 will receive your new app as an update, and not as a duplicate. |
 | [Properties](element-f-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users. **Note:**  You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely “&#124;” and “all”, due to which Windows fails to create the AppContainer profile for the package . Use this reference for [troubleshooting](/windows/win32/appxpkg/troubleshooting) if you get an error. |
 | [ProxyStub](element-f-proxystub.md) | Declares a package extensibility point of type **windows.activatableClass.proxyStub**. A proxy can be composed of one or more interfaces. |
@@ -278,9 +278,9 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [rescap3:DesktopAppMigration](element-rescap3-desktopappmigration.md) | Specifies where to redirect user tiles and pins to a Windows Desktop Bridge app. |
 | [rescap3:Extension](element-rescap3-extension.md) | Declares an extensibility point for the app. |
 | [rescap3:MigrationProgId (in uap:Extension)](element-rescap3-migrationprogid.md) | Contains a migration Prog Id string for protocols and file type associations. |
-| [rescap3:MigrationProgId (in uap:Protocol)](element-uap-protocol-migrationprogids.md) | Contains a migration Prog Id string for protocols and file type associations. |
+| [rescap3:MigrationProgId (in uap:Protocol)](element-rescap3-migrationprogids.md) | Contains a migration Prog Id string for protocols and file type associations. |
 | [rescap3:MigrationProgIds (in uap:Extension)](element-rescap3-migrationprogids.md) | Contains Migration Prog Ids for protocols and file type associations. |
-| [rescap3:MigrationProgIds (in uap:Protocol)](element-uap-protocol-migrationprogids.md) | Contains Migration Prog Ids for protocols and file type associations. |
+| [rescap3:MigrationProgIds (in uap:Protocol)](element-rescap3-migrationprogids.md) | Contains Migration Prog Ids for protocols and file type associations. |
 | [rescap4:ClassicAppCompatKey](element-rescap4-ClassicAppCompatKey.md) | Registry keys for discovering classic app installations and launching executables. |
 | [rescap4:ClassicAppCompatKeys](element-rescap4-ClassicAppCompatKeys.md) | Contains registry keys for discovering classic app installations and launching executables. |
 | [rescap4:Extension](element-rescap4-extension.md) | Declares an extensibility point for the app. |
@@ -330,7 +330,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap:ShowOn](element-uap-showon.md) | Describes whether Windows overlays the app’s name on top of the tile image that is shown on the Start screen. |
 | [uap:SplashScreen](element-uap-splashscreen.md) |  |
 | [uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes)](element-uap-sharetarget-supportedfiletypes.md) | Defines the file types that the app can share. |
-| [uap:SupportedFileTypes (type: CT_FTASupportedFileTypes)](element-uap-supportedfiletypes.md) | Defines the file types associated with the app. They are unique per package and are case sensitive. |
+| [uap:SupportedFileTypes (type: CT_FTASupportedFileTypes)](element-uap-filetypeassociation-supportedfiletypes.md) | Defines the file types associated with the app. They are unique per package and are case sensitive. |
 | [uap:SupportedUsers](element-uap-supportedusers.md) | Indicates whether or not the package is multi-user aware. This setting is used at install time to determine whether the package can be installed on the system. |
 | [uap:SupportsAnyFileType](element-uap-supportsanyfiletype.md) | Indicates whether all file types are supported for sharing. |
 | [uap:Task](element-uap-task.md) | The background task associated with the app extensibility point. |
@@ -440,7 +440,7 @@ The following table lists all of the elements in this schema, sorted alphabetica
 | [uap10:Protocol](element-uap10-protocol.md) | Declares an app extensibility point of type windows.protocol. A URI association indicates that the app is registered to handle URIs with the specified scheme. |
 | [uap10:UpdateActions](element-uap10-UpdateActions.md) | Specifies what happens during app updates to files in the app's installation directory that were previously modified, added, or deleted by the app. This element is intended to be used in conjunction with the [uap10:InstalledLocationVirtualization](element-uap10-installedlocationvirtualization.md) extension. |
 | [uap12:Extension](element-uap12-extension.md) | Declares an extensibility point for the app. |
-| [uap12:Host](element-uap12-host.md) | Declares domain and subdomain parameters for the uap12 extension. |
+| [uap12:Host](element-uap3-host.md) | Declares domain and subdomain parameters for the uap12 extension. |
 | [uap13:AppInstaller](element-uap13-appinstaller.md) | Specifies a directory containing the installation files for the app. |
 | [uap13:AutoUpdate](element-uap13-autoupdate.md) | Specifies automatic update configuration for the app. |
 | [uap13:Extension](element-uap13-extension.md) | Declares an extensibility point for the app. |

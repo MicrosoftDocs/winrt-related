@@ -1,15 +1,13 @@
 ---
+title: Logo
 description: A path to a file that contains an image (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
-title: Logo (Windows 10)
-ms.assetid: 612973f1-2251-46e7-9923-adec93f0683e
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Properties, Logo]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, Package, Properties, Logo]
 ---
 
-# Logo (Windows 10)
+# Logo
 
 A path to a file that contains an image.
 
@@ -22,36 +20,55 @@ A path to a file that contains an image.
 ## Syntax
 
 ```xml
-<Logo>
-  A string between 1 and 256 characters in length that ends with ".jpg", ".png", or ".jpeg" that can't contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters can't be the first or last characters. Also, the string can contain / or \ but not both.
-</Logo>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  ...
+  <Logo>
+      <!-- TODO: Add value description -->
+  </Logo>
+</Package>
 ```
 
-## Attributes and elements
+## Value
 
-### Attributes
+<!-- TODO: Add value description -->
+
+## Attributes
+
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+|  | Defines additional metadata about the package including attributes that describe how the package appears to users. |  |  |  |
+|  | Value |  |  |  |
+|  | -- |  |  |  |
+|  | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |  |  |  |
+|  | <!-- TODO: Add minimum OS version --> |  |  |  |
+
+## Child elements
 
 None.
 
-### Child elements
-
-None.
-
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [Properties](element-f-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users. |
 
-> [!NOTE]
-> You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely `|` and `all`, due to which Windows fails to create the AppContainer profile for the package . Use this reference for [troubleshooting](/windows/win32/appxpkg/troubleshooting) if you get an error.
+## Requirements
+
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Minimum OS Version** | <!-- TODO: Add minimum OS version --> |
+
 
 ## Remarks
 
-The logo image can be given as either a direct path to an image file or as a resource. By using a resource reference, you can supply images of different scales so that Windows can choose the best size for the device and screen resolution. You can also supply high contrast images for accessibility and localized images to match different UI languages. For more info, see the [Globalization](/previous-versions/windows/apps/hh831183(v=win.10)) topic.
+> [!NOTE]
+> You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely `|` and `all`, due to which Windows fails to create the AppContainer profile for the package. Use this reference for [troubleshooting](/windows/win32/appxpkg/troubleshooting) if you get an error.
 
-## Requirements
+The logo image can be given as either a direct path to an image file or as a resource.By using a resource reference, you can supply images of different scales so that Windows can choose the best size for the device and screen resolution. You can also supply high contrast images for accessibility and localized images to match different UI languages. For more info, see the [Globalization](/previous-versions/windows/apps/hh831183(v=win.10)) topic.
 
-| Item  | Value  |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+## Examples
+
+<!-- Author content goes here -->

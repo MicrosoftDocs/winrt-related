@@ -1,11 +1,10 @@
 ---
-ms.assetid: 1fe032ac-19b2-49a5-9f8f-093ab9102e66
 title: uap4:MediaCodec
 description: Defines an extension that enables an app to install media codecs from the Microsoft Store.
-ms.date: 04/05/2017
+ms.date: 06/05/2026
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension
 no-loc: [Package, Applications, Application, Extensions, uap4:Extension, uap4:MediaCodec]
+keywords: windows 10, uwp, schema, manifest, desktop, extension
 ---
 
 # uap4:MediaCodec
@@ -19,52 +18,47 @@ Defines an extension that enables an app to install media codecs from the Micros
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap4:Extension>`](element-uap4-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap4:MediaCodec>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap4:MediaCodec>`**
 
 ## Syntax
 
 ```xml
 <uap4:MediaCodec
-  DisplayName = 'A string with a value between 1 and 256 characters in length. This string is localizable.'
-  Description = 'A string between 1 and 2048 characters in length.'
-  Category = 'A string that can have one of the following values: "audioDecoder", "audioEncoder","videoDecoder", or "videoEncoder".'
-  AppServiceName = 'An optional string with a value between 2 and 39 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only.' 
-  wincap3:ActivatableClassId = 'A string with a value between 1 and 255 characters in length.'
-  wincap3:Path = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, ", |, ?, or *.'
-  wincap3:ProcessorArchitecture = 'A string value that can be one of the following: "x86", "x64", "arm", "arm64", or "neutral".' >
+  DisplayName = 'A required string between 1 and 256 characters in length. This string is localizable.'
+  Description = 'A required string between 1 and 2048 characters in length.'
+  Category = 'A required string that can have one of the following values: "audioDecoder", "audioEncoder", "videoDecoder", or "videoEncoder".'
+  AppServiceName = 'An optional string with a value between 2 and 39 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only.'
+  wincap3:ActivatableClassId = 'An optional string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, &#124;, ?, or *.'
+  wincap3:Path = 'An optional string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *, ending with the case-insensitive file extension ".dll".'
+  wincap3:ProcessorArchitecture = 'An optional string that can have one of the following values: "x86", "x64", "arm", "arm64", or "neutral".'
+  mc:CodecType = 'An optional string that can have one of the following values: "software", or "hardware".' >
 
   <!-- Child elements -->
   uap4:MediaEncodingProperties
 
-</uap4:MediaCodec>                   
+</uap4:MediaCodec>
 ```
 
-### Key
-
-`?` optional (zero or one)
-
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **DisplayName** | The friendly name of the codec. | A string with a value between 1 and 256 characters in length. This string is localizable. | Yes |  |
+| **DisplayName** | The friendly name of the codec. | A string between 1 and 256 characters in length. This string is localizable. | Yes |  |
 | **Description** | A description of the codec. | A string between 1 and 2048 characters in length. | Yes |  |
-| **Category** | The category of the codec. | A string that can have one of the following values: *audioDecoder*, *audioEncoder*,*videoDecoder*, or *videoEncoder*. | Yes |  |
+| **Category** | The type of extension. | A string that can have one of the following values: *audioDecoder*, *audioEncoder*, *videoDecoder*, *videoEncoder*. | Yes |  |
 | **AppServiceName** | The app service that is launched as the codec. | An optional string with a value between 2 and 39 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only. | No |  |
-| **rescap3:ActivatableClassId** | The class ID associated with this media content. | A string with a value between 1 and 255 characters in length. | No |
-| **rescap3:Path** | The path to the media content. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `"`, `|`, `?`, or `*`. | No |
-| **rescap3:ProcessorArchitecture** | The processor architecture used for the media content. | A string value that can be one of the following: *x86*, *x64*, *arm*, *arm64*, or *neutral*. | No |
+| **wincap3:ActivatableClassId** | The class ID associated with this media content. | An optional string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, &#124;, ?, or *. | No |  |
+| **wincap3:Path** | The path to the media content. | An optional string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *, ending with the case-insensitive file extension ".dll". | No |  |
+| **wincap3:ProcessorArchitecture** | The processor architecture used for the media content. | An optional string that can have one of the following values: *x86*, *x64*, *arm*, *arm64*, *neutral*. | No |  |
+| **mc:CodecType** | <!-- TODO: Add description --> | An optional string that can have one of the following values: *software*, *hardware*. | No |  |
 
-
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| [MediaEncodingProperties](element-uap4-MediaEncodingProperties.md) | Contains the media coded input and output types. |
+| [uap4:MediaEncodingProperties](element-uap4-mediaencodingproperties.md) | Contains the media coded input and output types. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -75,4 +69,14 @@ Defines an extension that enables an app to install media codecs from the Micros
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/4` |
+| **mc** | `http://schemas.microsoft.com/appx/manifest/mediacodec/windows10` |
+| **wincap3** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/windowscapabilities/3` |
 | **Minimum OS Version** | Windows 10 version 1703 (Build 15063) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

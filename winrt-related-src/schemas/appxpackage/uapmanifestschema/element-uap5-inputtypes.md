@@ -1,10 +1,10 @@
 ---
 title: uap5:InputTypes
 description: Contains a list of media input sub-types.
-ms.date: 10/10/2017
+ms.date: 06/05/2026
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
 no-loc: [Package, Applications, Application, Extensions, uap5:Extension, uap5:VideoRendererEffect, uap5:InputTypes]
+keywords: windows 10, uwp, schema, manifest, desktop, extension
 ---
 
 # uap5:InputTypes
@@ -19,7 +19,7 @@ Contains a list of media input sub-types.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap5:Extension>`](element-uap5-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap5:VideoRendererEffect>`](element-uap5-videorenderereffect.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap5:InputTypes>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap5:InputTypes>`**
 
 ## Syntax
 
@@ -36,19 +36,17 @@ Contains a list of media input sub-types.
 
 `{}` specific range of occurrences
 
-## Attributes and elements
+## Attributes
 
-### Attributes
+None.
 
-None
-
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| [InputType](element-uap5-InputType.md) | Specifies media input sub-types. |
+| [uap5:InputType](element-uap5-inputtype.md) | Specifies media input sub-types. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -60,3 +58,11 @@ None
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
 | **Minimum OS Version** | Windows 10 version 1709 (Build 16299) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

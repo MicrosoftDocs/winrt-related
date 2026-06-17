@@ -1,73 +1,64 @@
 ---
+title: Capabilities
 description: Declares the access to protected user resources that the package requires (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
-title: Capabilities (Windows 10)
-ms.assetid: 508b9a46-3dd4-4bce-875b-fb7cadadceb1
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Capabilities]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, Package, Capabilities]
 ---
 
-# Capabilities (Windows 10)
+# Capabilities
 
 Declares the access to protected user resources that the package requires.
 
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ **`<Capabilities>`**  
+&nbsp;&nbsp;&nbsp;└─ **`<Capabilities>`**
 
 ## Syntax
 
 ```xml
-<Capabilities>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  ...
+  <Capabilities>
 
-  <!-- Child elements -->
-  Capability{0,100},
-  uap:Capability{0,100},
-  DeviceCapability{0,100},
-  rescap:Capability{0,100},
-  uap:Capability{0,100},
-  uap2:Capability{0,100},
-  uap3:Capability{0,100},
-  uap4:Capability{0,100},
-  uap4:CustomCapability{0,100},
-  uap7:Capability{0,100},
-  uap11:Capability{0,100}
-  
-</Capabilities>
+    <!-- Child elements -->
+    CapabilityChoice{0,100}
+    CustomCapabilityChoice{0,1000}
+    DeviceCapability{0,1000}
+
+  </Capabilities>
+</Package>
 ```
 
 ### Key
 
-`{}`   specific range of occurrences
+`{}` specific range of occurrences
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| [Capability](element-f-capability.md) | Declares a capability required by a package. |
-| [DeviceCapability](element-f-devicecapability.md) | Declares a device capability required by a package. On Windows 10.0.10240.0, can contain up to 100 **[Device]**(element-f-device.md) elements. On Windows 10.0.10586.0, can contain up to 1000 (for syntax and examples, see Examples). |
-| [rescap:Capability](element-rescap-capability.md) | Declares a restricted capability required by a package.|
-| [uap2:Capability](element-uap2-capability.md) | Declares a capability required by a package. (uap2)|
-| [uap3:Capability](element-uap3-capability.md) | Declares a capability required by a package. (uap3)|
-| [uap4:Capability](element-uap4-capability.md) | Declares a capability required by a package. (uap4)|
-| [uap4:CustomCapability](element-uap4-customcapability.md) | Declares a custom capability required by a package. (uap4) |
-| [uap11:Capability](element-uap11-capability.md) | Declares a capability required by a package. (uap11)|
+| [DeviceCapability](element-f-devicecapability.md) | Declares a device capability required by a package. On Windows 10.0.10240.0, can contain up to 100 [Device](element-f-device.md) elements. On Windows 10.0.10586.0, can contain up to 1000 (for syntax and examples, see Examples). |
 
-
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| Package | Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system. |
+| [Package](element-f-package.md) | Defines the root element of an app package manifest. The manifest describes the structure and capabilities of the software to the system. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Minimum OS Version** | <!-- TODO: Add minimum OS version --> |
 
 ## Remarks
 
@@ -102,11 +93,3 @@ Here's an example of the [Capabilities](../appxmanifestschema2010-v2/element-cap
 ## See also
 
 [App capability declarations](/windows/uwp/packaging/app-capability-declarations)
-
-
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |

@@ -1,10 +1,10 @@
 ---
 title: uap5:OutOfProcessServer
 description: Declares a package extension point of type windows.activatableClass.outOfProcessServer. This enables 3rd party WinRT classes defined in the app package to be called from a Win32 process.
-ms.date: 05/26/2026
+ms.date: 06/05/2026
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension
 no-loc: [Package, Applications, Application, Extensions, uap5:Extension, uap5:OutOfProcessServer]
+keywords: windows 10, uwp, schema, manifest, desktop, extension
 ---
 
 # uap5:OutOfProcessServer
@@ -18,7 +18,7 @@ Declares a package extension point of type *windows.activatableClass.outOfProces
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap5:Extension>`](element-uap5-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap5:OutOfProcessServer>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap5:OutOfProcessServer>`**
 
 ## Syntax
 
@@ -45,8 +45,8 @@ Declares a package extension point of type *windows.activatableClass.outOfProces
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **ServerName** | A string value of the server name. | An alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. | Yes |  |
-| **RunFullTrust** | If true, the server will be launched with a Windows Desktop Bridge token, as opposed to a UWP token. | Boolean. | No |  |
+| **ServerName** | A string value of the server name. | A alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. | Yes |  |
+| **RunFullTrust** | If true, the server will be launched with a Windows Desktop Bridge token, as opposed to a UWP token. | An optional boolean value. | No |  |
 
 ## Child elements
 
@@ -72,4 +72,8 @@ Declares a package extension point of type *windows.activatableClass.outOfProces
 
 ## Remarks
 
-This element is similar to the [OutOfProcessServer](element-outOfProcessServer.md) element in Package/Extensions. Activate As Package behavior is implied by using this element in the Application/Extensions level of the manifest, indicating that the server token doesn't vary based on the activating process's token. In this context, the application identity claim matches the identity of the application it's contained in.
+This element is similar to the **OutOfProcessServer** element in Package/Extensions. Activate As Package behavior is implied by using this element in the Application/Extensions level of the manifest, indicating that the server token doesn't vary based on the activating process's token. In this context, the application identity claim matches the identity of the application it's contained in.
+
+## Examples
+
+<!-- Author content goes here -->

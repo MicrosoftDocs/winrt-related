@@ -1,11 +1,10 @@
 ---
-ms.assetid: 1f37ad76-f29e-433f-83b5-6af02d723b59
 title: uap4:Kind
 description: Specifies the Kind value.
-ms.date: 04/05/2017
+ms.date: 06/05/2026
 ms.topic: reference
+no-loc: [Package, Applications, Application, Extensions, uap4:Extension, uap4:FileTypeAssociation, uap4:KindMap, uap4:Kind]
 keywords: windows 10, uwp, schema, manifest, desktop, extension
-no-loc: [Package, Applications, Application, Extensions, uap4:Extension, uap:FileTypeAssociation, uap4:KindMap, uap4:Kind]
 ---
 
 # uap4:Kind
@@ -19,30 +18,28 @@ Specifies the Kind value.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap4:Extension>`](element-uap4-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:FileTypeAssociation>`](element-uap-filetypeassociation.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap4:FileTypeAssociation>`](element-uap-filetypeassociation.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap4:KindMap>`](element-uap4-kindmap.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap4:Kind>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap4:Kind>`**
 
 ## Syntax
 
 ```xml
 <uap4:Kind
-  Value = 'A string that can have one of the following values: "calendar", "communication", "contact", "document", "email", "feed", "folder", "game", "instantmessage", "journal", "link", "movie", "music", "note", "picture", "program", "recordedtv", "searchfolder", "task", "unknown", "video", or "webhistory".'>
+  Value = 'A required string that can have one of the following values: "calendar", "communication", "contact", "document", "email", "feed", "folder", "game", "instantmessage", "journal", "link", "movie", "music", "note", "picture", "program", "recordedtv", "searchfolder", "task", "unknown", "video", or "webhistory".' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
 | **Value** | The Kind value. | A string that can have one of the following values: *calendar*, *communication*, *contact*, *document*, *email*, *feed*, *folder*, *game*, *instantmessage*, *journal*, *link*, *movie*, *music*, *note*, *picture*, *program*, *recordedtv*, *searchfolder*, *task*, *unknown*, *video*, or *webhistory*. | Yes |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -54,3 +51,11 @@ None.
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/4` |
 | **Minimum OS Version** | Windows 10 version 1703 (Build 15063) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

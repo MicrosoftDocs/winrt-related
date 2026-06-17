@@ -1,15 +1,13 @@
 ---
+title: uap:EditFlags
 description: Specifies the type of info the user sees when opening a file associated to the extensibility point (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
-title: uap:EditFlags (Windows 10)
-ms.assetid: 5a16f6d9-bdfb-4618-b7dc-7f9aa5807a13
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
+keywords: windows 10, uwp, schema, package manifest
 no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:FileTypeAssociation, uap:EditFlags]
 ---
 
-# uap:EditFlags (Windows 10)
+# uap:EditFlags
 
 Specifies the type of info the user sees when opening a file associated to the extensibility point.
 
@@ -18,7 +16,7 @@ Specifies the type of info the user sees when opening a file associated to the e
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:Extension>`](element-uap-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:FileTypeAssociation>`](element-uap-filetypeassociation.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap:EditFlags>`**  
@@ -31,24 +29,22 @@ Specifies the type of info the user sees when opening a file associated to the e
   AlwaysUnsafe = 'An optional boolean value.' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **AlwaysUnsafe** | A dialog box with a security warning is displayed. | An optional boolean value. | No |  |
 | **OpenIsSafe** | A dialog box with a standard warning is displayed. | An optional boolean value. | No |  |
+| **AlwaysUnsafe** | A dialog box with a security warning is displayed. | An optional boolean value. | No |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [uap:FileTypeAssociation](element-uap-filetypeassociation.md) | Declares an app extensibility point of type *windows.fileTypeAssociation*. A file type association indicates that the app is registered to handle files of the specified types. |
+| [uap:FileTypeAssociation](element-uap-filetypeassociation.md) | Declares an app extensibility point of type **windows.fileTypeAssociation**. A file type association indicates that the app is registered to handle files of the specified types. |
 
 ## Requirements
 
@@ -56,3 +52,11 @@ None.
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
 | **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

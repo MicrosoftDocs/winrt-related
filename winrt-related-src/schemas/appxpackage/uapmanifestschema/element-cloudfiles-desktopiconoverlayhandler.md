@@ -1,7 +1,7 @@
 ---
 title: cloudFiles:DesktopIconOverlayHandler
 description: Windows Shell icon overlay handlers for cloud based placeholder files. (cloudFiles:DesktopIconOverlayHandler)
-ms.date: 01/27/2023
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 no-loc: [Package, Applications, Application, Extensions, cloudFiles:Extension, cloudFiles:CloudFiles, cloudFiles:DesktopIconOverlayHandlers, cloudFiles:DesktopIconOverlayHandler]
@@ -14,42 +14,57 @@ Windows Shell icon overlay handlers for cloud based placeholder files.
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<cloudFiles:Extension>`](element-cloudfiles-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<cloudFiles:CloudFiles>`](element-cloudfiles-cloudfiles.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<cloudFiles:DesktopIconOverlayHandlers>`](element-cloudfiles-desktopiconoverlayhandlers.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<cloudFiles:DesktopIconOverlayHandler>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<cloudFiles:Extension>`](element-cloudfiles-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<cloudFiles:CloudFiles>`](element-cloudfiles-cloudfiles.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<cloudFiles:DesktopIconOverlayHandlers>`](element-cloudFiles-desktopiconoverlayhandlers.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<cloudFiles:DesktopIconOverlayHandlers>`](element-cloudfiles-desktopiconoverlayhandlers.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<cloudFiles:DesktopIconOverlayHandler>`**  
+
 
 ## Syntax
 
 ```xml
 <cloudFiles:DesktopIconOverlayHandler
-  Clsid = 'A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.' />
+  Clsid = 'A required GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.' />
 ```
 
-## Attributes and elements
 
-### Attributes
-
+## Attributes
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Clsid** | The class ID of the app that implements the overlay handler. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
+|**Clsid**| The class ID of the app that implements the overlay handler. |A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.|Yes||
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [cloudFiles:DesktopIconOverlayHandlers](element-cloudfiles-desktopiconoverlayhandlers.md) | Registration for the handlers implemented in an application and context menu options for cloud based placeholder files. |
+| [cloudFiles:DesktopIconOverlayHandlers](element-cloudfiles-desktopiconoverlayhandlers.md) | Contains Windows Shell icon overlay handlers for cloud based placeholder files. |
+
 
 ## Requirements
 
-| Item  | Value  |
+| Item | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/cloudfiles/windows10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/cloudfiles/windows10` |
 | **Minimum OS Version** | Windows 10 (Build 19645) |
+
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

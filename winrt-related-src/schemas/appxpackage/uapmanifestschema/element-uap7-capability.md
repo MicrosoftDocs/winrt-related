@@ -1,10 +1,10 @@
 ---
 title: uap7:Capability
 description: Declares a capability.
-ms.date: 10/03/2018
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension
-no-loc: [Package, Capabilities, uap7:Capability]
+no-loc: [Package, Extensions, uap7:Package, uap7:Capabilities, uap7:Capability]
 ---
 
 # uap7:Capability
@@ -21,22 +21,20 @@ Declares a capability required by a package.
 
 ```xml
 <uap7:Capability
-  Name = 'A string that can have one of the following values: "globalMediaControl" or "gazeInput".' />
+  Name = 'A required string that can have one of the following values: "globalMediaControl", or "gazeInput".' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Name** | The name of the capability. | A string that can have one of the following values: *globalMediaControl* or *gazeInput*. | Yes |  |
+| **Name** | The name of the capability. | A string that can have one of the following values: *globalMediaControl*, *gazeInput*. | Yes |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -48,3 +46,11 @@ None.
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/7` |
 | **Minimum OS Version** | Windows 10 version 1809 (Build 17763) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

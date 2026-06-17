@@ -1,12 +1,10 @@
 ---
-description: Represents a valid HTTP or HTTPS host name that the app wants to register as able to handle.
-Search.Product: eADQiWindows 10XVcnh
 title: uap3:Host
-ms.assetid: 7635ea1b-a5f8-4347-a553-8cabb62d7102
-keywords: windows 10, uwp, schema, package manifest
+description: Represents a valid HTTP or HTTPS host name that the app wants to register as able to handle.
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
 no-loc: [Package, Applications, Application, Extensions, uap3:Extension, uap3:AppUriHandler, uap3:Host]
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap3:Host
@@ -21,36 +19,41 @@ Represents a valid HTTP or HTTPS host name that the app wants to register as abl
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap3:Extension>`](element-uap3-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap3:AppUriHandler>`](element-uap3-appurihandler.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap3:Host>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap3:Host>`**
 
 ## Syntax
 
 ```xml
 <uap3:Host
-    Name = 'A string with a value between 1 and 255 characters in length.' />
+  Name = 'A required string between 1 and 255 characters in length.' />
 ```
 
-### Key
-
-`{}`  specific range of occurrences
-
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Name**  | The fully-qualified domain name of the web site associated with the app. | A string with a value between 1 and 255 characters in length. | Yes |  |
+| **Name** | The fully-qualified domain name of the web site associated with the app. | A string between 1 and 255 characters in length. | Yes |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [uap3:AppUriHandler](element-uap3-appurihandler.md) | Declares an app extensibility point of type *windows.appUriHandler*. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
+| **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |
+
+## Remarks
+
+<!-- Author content goes here -->
 
 ## Examples
 
@@ -75,10 +78,3 @@ None.
     </Applications>
 </Package>
 ```
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
-| **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |

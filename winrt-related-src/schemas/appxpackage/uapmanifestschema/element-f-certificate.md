@@ -1,22 +1,20 @@
 ---
+title: Certificate
 description: A certificate for use with the package and placed in the system certificate stores (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
-title: Certificate (Windows 10)
-ms.assetid: d3682c0f-fb91-466a-a612-a60c1e6025c9
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Extensions, Extension, Certificates, Certificate]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, Package, Extensions, Extension, Certificates, Certificate]
 ---
 
-# Certificate (Windows 10)
+# Certificate
 
 A certificate for use with the package and placed in the system certificate stores.
 
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-package-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Certificates>`](element-f-certificates.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<Certificate>`**  
@@ -24,25 +22,27 @@ A certificate for use with the package and placed in the system certificate stor
 ## Syntax
 
 ```xml
-<Certificate
-  StoreName = 'A string with a value between 1 and 50 characters in length that cannot contain these characters: <, >, :, ", /, \, |, ?, or *.'
-  Content = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.' />
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  ...
+  <Certificate
+    StoreName = 'A required value. <!-- TODO: Add description for t:ST_CertificateStoreName -->'
+    Content = 'A required string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.' />
+</Package>
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Content** | The path to the certificate content to place in the store. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `&`, `"`, `/`, `\`, `|`, `?`, or `*`. | Yes |  |
-| **StoreName** | The store name in which the certificate should be placed. | A string with a value between 1 and 50 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, or `*`. | Yes |  |
+| **StoreName** | The store name in which the certificate should be placed. | A value. <!-- TODO: Add data type for t:ST_CertificateStoreName --> | Yes |  |
+| **Content** | The path to the certificate content to place in the store. | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *. | Yes |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -50,6 +50,17 @@ None.
 
 ## Requirements
 
-|   |  Value |
+
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Minimum OS Version** | <!-- TODO: Add minimum OS version --> |
+
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

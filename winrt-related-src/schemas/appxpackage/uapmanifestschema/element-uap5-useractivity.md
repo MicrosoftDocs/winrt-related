@@ -1,10 +1,10 @@
 ---
 title: uap5:UserActivity
 description: Allows an app to opt out of engagement data tracking.
-ms.date: 10/10/2017
+ms.date: 06/05/2026
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension
 no-loc: [Package, Applications, Application, Extensions, uap5:Extension, uap5:UserActivity]
+keywords: windows 10, uwp, schema, manifest, desktop, extension
 ---
 
 # uap5:UserActivity
@@ -18,28 +18,26 @@ Allows an app to specify the web site associated with this application for cross
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap5:Extension>`](element-uap5-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap5:UserActivity>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap5:UserActivity>`**
 
 ## Syntax
 
 ```xml
 <uap5:UserActivity
-  ActivitySourceHost = 'A string with a value between 1 and 255 characters in length.' />
+  ActivitySourceHost = 'An optional string between 1 and 255 characters in length.' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **ActivitySourceHost** | The fully-qualified domain name of the web site associated with the app. | A string with a value between 1 and 255 characters in length. | Yes |  |
+| **ActivitySourceHost** | The fully-qualified domain name of the web site associated with the app. | An optional string between 1 and 255 characters in length. | No |  |
 
-### Child elements
+## Child elements
 
-None
+None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -51,3 +49,11 @@ None
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
 | **Minimum OS Version** | Windows 10 version 1709 (Build 16299) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

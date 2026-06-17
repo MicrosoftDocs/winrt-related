@@ -1,62 +1,90 @@
 ---
+title: Certificates
 description: Declares a package extensibility point of type windows.certificates (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
-title: Certificates (Windows 10)
-ms.assetid: 378edcd3-b9ef-46db-9a56-94470451829e
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Extensions, Extension, Certificates]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, Package, Extensions, Extension, Certificates]
 ---
 
-# Certificates (Windows 10)
+# Certificates
 
 Declares a package extensibility point of type **windows.certificates**. The app requires one or more certificates from the specified certificate stores.
 
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-package-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<Certificates>`**  
 
 ## Syntax
 
 ```xml
-<Certificates>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  ...
+  <Certificates>
 
-  <!-- Child elements -->
-  Certificate{0,100},
-  TrustFlags?,
-  SelectionCriteria?
+    <!-- Child elements -->
+    Certificate{0,100}
+    TrustFlags?
+    SelectionCriteria?
 
-</Certificates>
+  </Certificates>
+</Package>
 ```
 
 ### Key
 
-`?`   optional (zero or one)
-`{}`   specific range of occurrences
+`?` optional (zero or one)
+`{}` specific range of occurrences
 
-## Attributes and elements
+## Attributes
 
-### Attributes
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+|  | A certificate for use with the package and placed in the system certificate stores. |  |  |  |
+|  | Indicates whether the certificates for the package are exclusive to the package. |  |  |  |
+|  | Defines selection criteria for the certificates defined for the package. |  |  |  |
+|  | Description |  |  |  |
+|  | - |  |  |  |
+|  | Declares an extensibility point for the package. |  |  |  |
+|  | Value |  |  |  |
+|  | -- |  |  |  |
+|  | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |  |  |  |
+|  | <!-- TODO: Add minimum OS version --> |  |  |  |
 
-None.
-
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
 | [Certificate](element-f-certificate.md) | A certificate for use with the package and placed in the system certificate stores. |
-| [SelectionCriteria](element-f-selectioncriteria.md) | Defines selection criteria for the certificates defined for the package. |
 | [TrustFlags](element-f-trustflags.md) | Indicates whether the certificates for the package are exclusive to the package. |
+| [SelectionCriteria](element-f-selectioncriteria.md) | Defines selection criteria for the certificates defined for the package. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [Extension (in type: CT_PackageExtensions)](element-f-package-extension.md) | Declares an extensibility point for the package. |
+| [Extension](element-f-package-extension.md) | Declares an extensibility point for the package. |
+
+## Requirements
+
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Minimum OS Version** | <!-- TODO: Add minimum OS version --> |
+
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->
 
 ## See also
 
@@ -65,9 +93,3 @@ None.
 
 **Concepts**
 [App contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10))
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |

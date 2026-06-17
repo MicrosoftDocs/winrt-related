@@ -1,22 +1,20 @@
 ---
+title: Instancing
 description: Specifies whether the executable runs as a single instance or can run as multiple instances (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
-title: Instancing (Windows 10)
-ms.assetid: 26533f27-2470-4083-91a0-4e4b03f8479a
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Extensions, Extension, OutOfProcessServer, Instancing]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, Package, Extensions, Extension, OutOfProcessServer, Instancing]
 ---
 
-# Instancing (Windows 10)
+# Instancing
 
 Specifies whether the executable runs as a single instance or can run as multiple instances.
 
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-package-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<OutOfProcessServer>`](element-f-outofprocessserver.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<Instancing>`**  
@@ -24,22 +22,34 @@ Specifies whether the executable runs as a single instance or can run as multipl
 ## Syntax
 
 ```xml
-<Instancing>
-  "singleInstance" or "multipleInstances"
-</Instancing>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  ...
+  <Instancing>
+      <!-- TODO: Add value description -->
+  </Instancing>
+</Package>
 ```
 
-## Attributes and elements
+## Value
 
-### Attributes
+<!-- TODO: Add value description -->
+
+## Attributes
+
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+|  | Declares a package extension point of type **windows.activatableClass.outOfProcessServer**. The app uses an executable (`.exe`) that exposes one or more activatable classes. |  |  |  |
+|  | Value |  |  |  |
+|  | -- |  |  |  |
+|  | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |  |  |  |
+|  | <!-- TODO: Add minimum OS version --> |  |  |  |
+
+## Child elements
 
 None.
 
-### Child elements
-
-None.
-
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -47,6 +57,17 @@ None.
 
 ## Requirements
 
-| Item  | Value  |
+
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Minimum OS Version** | <!-- TODO: Add minimum OS version --> |
+
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

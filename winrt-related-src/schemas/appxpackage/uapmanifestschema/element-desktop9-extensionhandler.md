@@ -1,10 +1,10 @@
 ---
 title: desktop9:ExtensionHandler
 description: Specifies a handler for a legacy IContextMenu implementation.
-ms.date: 09/17/2021
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension
-no-loc: [Package, Applications, Application, Extensions, desktop9:Extension, desktop9:FileExplorerClassicContextMenuHandler, desktop9:ExtensionHandler, desktop9:FileExplorerClassicDragDropContextMenuHandler, desktop9:ExtensionHandler]
+no-loc: [Package, Applications, Application, Extensions, desktop9:Extension, desktop9:FileExplorerClassicContextMenuHandler, desktop9:ExtensionHandler, desktop9:FileExplorerClassicDragDropContextMenuHandler]
 ---
 
 # desktop9:ExtensionHandler
@@ -14,6 +14,12 @@ Specifies a handler for a legacy [IContextMenu](/windows/win32/api/shobjidl_core
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop9:Extension>`](element-desktop9-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop9:FileExplorerClassicContextMenuHandler>`](element-desktop9-fileexplorerclassiccontextmenuhandler.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop9:ExtensionHandler>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop9:FileExplorerClassicDragDropContextMenuHandler>`](element-desktop9-fileexplorerclassicdragdropcontextmenuhandler.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop9:ExtensionHandler>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
@@ -21,35 +27,40 @@ Specifies a handler for a legacy [IContextMenu](/windows/win32/api/shobjidl_core
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop9:FileExplorerClassicContextMenuHandler>`](element-desktop9-fileexplorerclassiccontextmenuhandler.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop9:ExtensionHandler>`**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop9:FileExplorerClassicDragDropContextMenuHandler>`](element-desktop9-fileexplorerclassicdragdropcontextmenuhandler.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop9:ExtensionHandler>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop9:ExtensionHandler>`**
 
 ## Syntax
 
 ```xml
 <desktop9:ExtensionHandler
-    Type = 'A string with a value between 1 and 64 characters in length with a non-whitespace character at its beginning and end.'
-    Clsid = 'A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.' />
+  Type = 'A required value. <!-- TODO: Add description for desktop9:ST_ExtensionHandlerType -->'
+  Clsid = 'A required GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Type** | The file type to associate the context menu handler with. | A string with a value between 1 and 64 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
+| **Type** | The file type to associate the context menu handler with. | A value. <!-- TODO: Add data type for desktop9:ST_ExtensionHandlerType --> | Yes |  |
 | **Clsid** | The CLSID of the COM server being registered. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [desktop9:FileExplorerClassicContextMenuHandler](element-desktop9-fileexplorerclassiccontextmenuhandler.md) | Registers a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) implementation of a context menu handler shell extension for a packaged desktop app. |
 | [desktop9:FileExplorerClassicDragDropContextMenuHandler](element-desktop9-fileexplorerclassicdragdropcontextmenuhandler.md) | Registers a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) implementation of a drag and drop handler shell extension for a packaged desktop app. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/9` |
+| **Minimum OS Version** | Windows 11 version 21H2 (Build 22159) |
 
 ## Remarks
 
@@ -74,10 +85,3 @@ This example assumes you have added the desktop9 xml namespace to your manifest 
 ```xml
 <xmlns:desktop9="http://schemas.microsoft.com/appx/manifest/desktop/windows10/9">
 ```
-
-## Requirements
-
-| Item  | Value  |
-|--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/9` |
-| **Minimum OS Version** | Windows 11 version 21H2 (Build 22159) |

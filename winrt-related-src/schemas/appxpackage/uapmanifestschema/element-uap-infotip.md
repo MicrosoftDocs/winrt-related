@@ -1,15 +1,13 @@
 ---
+title: uap:InfoTip
 description: Defines a string that provides additional info to the user about the file type (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
-title: uap:InfoTip (Windows 10)
-ms.assetid: 98a13282-74da-46e9-9790-54c557f8026c
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
+keywords: windows 10, uwp, schema, package manifest
 no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:FileTypeAssociation, uap:InfoTip]
 ---
 
-# uap:InfoTip (Windows 10)
+# uap:InfoTip
 
 Defines a string that provides additional info to the user about the file type.
 
@@ -18,7 +16,7 @@ Defines a string that provides additional info to the user about the file type.
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:Extension>`](element-uap-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:FileTypeAssociation>`](element-uap-filetypeassociation.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap:InfoTip>`**  
@@ -27,29 +25,27 @@ Defines a string that provides additional info to the user about the file type.
 
 ```xml
 <uap:InfoTip>
-  A string with a value between 1 and 1024 characters in length.
+    <!-- TODO: Add value description -->
 </uap:InfoTip>
 ```
 
-## Attributes and elements
+## Value
 
-### Attributes
+A string with a value between 1 and 1024 characters in length.
 
-None.
-
-### Child elements
+## Attributes
 
 None.
 
-### Parent elements
+## Child elements
+
+None.
+
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [uap:FileTypeAssociation](element-uap-filetypeassociation.md) | Declares an app extensibility point of type *windows.fileTypeAssociation*. A file type association indicates that the app is registered to handle files of the specified types. |
-
-## Remarks
-
-This string is localizable.
+| [uap:FileTypeAssociation](element-uap-filetypeassociation.md) | Declares an app extensibility point of type **windows.fileTypeAssociation**. A file type association indicates that the app is registered to handle files of the specified types. |
 
 ## Requirements
 
@@ -57,3 +53,11 @@ This string is localizable.
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
 | **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |
+
+## Remarks
+
+This string is localizable.
+
+## Examples
+
+<!-- Author content goes here -->

@@ -1,15 +1,13 @@
 ---
+title: Application
 description: Represents an app that comprises part of or all of the functionality delivered in the package (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
-title: Application (Windows 10)
-ms.assetid: 39221d13-bb46-42ac-be51-117357cade81
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 08/06/2025
-no-loc: [Package, Applications, Application]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, Package, Applications, Application]
 ---
 
-# Application (Windows 10)
+# Application
 
 Represents an app that comprises part of or all of the functionality delivered in the package.
 
@@ -17,84 +15,108 @@ Represents an app that comprises part of or all of the functionality delivered i
 
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<Application>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<Application>`**
 
 ## Syntax
 
 ```xml
-<Application
-  EntryPoint? = 'See the Attributes table for more info.'
-  Executable?
-  uap10:HostId?
-  Id
-  uap10:Parameters?
-  ResourceGroup?
-  uap10:RuntimeBehavior?
-  StartPage?
-  desktop4:Subsystem?
-  uap10:Subsystem?
-  desktop4:SupportsMultipleInstances?
-  uap10:SupportsMultipleInstances?
-  uap10:TrustLevel?
-  uap16:BaseNamedObjectsIsolation?
-  uap17:BaseNamedObjectsIsolation?
-  desktop11:AppLifecycleBehavior?
-  uap11:CurrentDirectoryPath?
-  uap11:Parameters?
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  ...
+  <Application
+    Id = 'A required value. <!-- TODO: Add description for t:ST_ApplicationId -->'
+    Executable = 'An optional string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *.'
+    EntryPoint = 'An optional string between 1 and 256 characters in length that cannot start or end with a whitespace character.'
+    StartPage = 'An optional value. <!-- TODO: Add description for t:ST_ApplicationStartPage -->'
+    ResourceGroup = 'An optional alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.'
+    desktop4:Subsystem = 'An optional string that can have one of the following values: "console", or "windows".'
+    iot2:Subsystem = 'An optional string that can have one of the following values: "console", or "windows".'
+    uap10:Subsystem = 'An optional string that can have one of the following values: "console", or "windows".'
+    desktop4:SupportsMultipleInstances = 'An optional boolean value.'
+    iot2:SupportsMultipleInstances = 'An optional boolean value.'
+    uap10:SupportsMultipleInstances = 'An optional boolean value.'
+    uap11:CurrentDirectoryPath = 'An optional string that cannot contain these characters: <, >, |, ?, or *.'
+    uap11:Parameters = 'An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+    previewsecurity:TrustLevel = 'An optional string that can have one of the following values: "appContainer", "mediumIL", or "appSilo".'
+    uap10:TrustLevel = 'An optional string that can have one of the following values: "appContainer", or "mediumIL".'
+    uap10:RuntimeBehavior = 'An optional string that can have one of the following values: "windowsApp", "packagedClassicApp", or "win32App".'
+    uap10:HostId = 'An optional alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.'
+    uap10:Parameters = 'An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+    previewsecurity2:RuntimeBehavior = 'An optional string that can have one of the following values: "windowsApp", "packagedClassicApp", "win32App", or "appSilo".'
+    uap16:BaseNamedObjectsIsolation = 'An optional string that can have one of the following values: "none", or "package".'
+    uap17:BaseNamedObjectsIsolation = 'An optional string that can have one of the following values: "none", or "package".'
+    desktop11:AppLifecycleBehavior = 'An optional string that can have one of the following values: "systemManaged", or "unmanaged".' >
 
-  <!-- Child elements -->
-  uap:ApplicationContentUriRules?
-  Extensions?
-  uap7:Properties
-  uap:VisualElements
+    <!-- Child elements -->
+    VisualElementsChoice
+    ApplicationContentUriRules?
+    Extensions?
+    Properties?
 
-</Application>
+  </Application>
+</Package>
 ```
 
 ### Key
 
-`?`   optional (zero or one)<br/>
-`&`   interleave connector (may occur in any order)
+`?` optional (zero or one)
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **EntryPoint** | The activatable class ID (for example, "Office.Winword.Class"), or "windows.fullTrustApplication", or "windows.partialTrustApplication". If you specify **EntryPoint**, then you must also specify the **Executable** attribute. If you specify **EntryPoint**, then you must not specify the **StartPage** attribute. | A string between 1 and 256 characters in length, representing the task handling the extension. This is normally the fully namespace-qualified name of a Windows Runtime type; but it can be one of the special values "windows.fullTrustApplication" or "windows.partialTrustApplication". If EntryPoint is not specified, the EntryPoint defined for the app is used instead. | No |  |
-| **Executable** | The default launch executable for the app. The specified file must be present in the package. On older systems (see the remarks section for details), if you specify **Executable**, then you must also specify the **EntryPoint** attribute. If you specify **Executable**, then you must *not* specify the **StartPage** attribute. | A string between 1 and 256 characters in length that must end with `.exe` and can't contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |  |
-| **uap10:HostId** | The app ID of the host app for the current app. This attribute is used for [hosted apps](/windows/uwp/launch-resume/hosted-apps). | An alphanumeric string between 1 and 255 characters in length. Must begin with a letter. | No |  |
-| **Id** | The unique identifier of the application within the package. This value is sometimes referred to as the package-relative app identifier (PRAID). The ID is unique within the package but not globally. There may be another package on the system that uses the same ID. The same ID cannot be used more than once in the same package. When using a Visual Studio template, the default value of this attribute is *App*. Developers should manually change this in the manifest. The app's identifier should not be changed after the app has been published to the Microsoft Store; doing so will disrupt the tile's position on the Start screen. | An ASCII string between 1 and 64 characters in length. This string contains alpha-numeric fields separated by periods. Each field must begin with an ASCII alphabetic character. You cannot use these as field values: *CON*, *PRN*, *AUX*, *NUL*, *COM1*, *COM2*, *COM3*, *COM4*, *COM5*, *COM6*, *COM7*, *COM8*, *COM9*, *LPT1*, *LPT2*, *LPT3*, *LPT4*, *LPT5*, *LPT6*, *LPT7*, *LPT8*, and *LPT9*. | Yes |  |
-| **uap10:Parameters** | Contains command line parameters to pass to the app. Only supported for [desktop apps](/windows/apps/desktop/) that have package identity (see [Deployment overview](/windows/apps/package-and-deploy/)). | A string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
-| **ResourceGroup** | A tag used to group extension activations together for resource management purposes (for example, CPU and memory). See the **Remarks** section in *[Application@ResourceGroup](element-f-application.md)*. | An alphanumeric string between 1 and 255 characters in length. Must begin with a letter. | No |  |
-| **uap10:RuntimeBehavior** | Specifies the run time behavior of the app.<br/><br/>"packagedClassicApp"&mdash;a Desktop Bridge app (Centennial).<br/><br/>"win32App"&mdash;any packaged app that's not UWP, and that's not running with Desktop Bridge (Centennial) behaviors. These apps are sometimes loosely called *Winmain*, *main*, or *HWND-based*. Requires a **TrustLevel** of "mediumIL".<br/><br/>"windowsApp"&mdash;a Universal Windows Platform (UWP) app. Always goes with a **TrustLevel** of "appContainer".<br/><br/>All apps with one of these three behaviors share common properties (some of those common properties are declared in `appxmanifest.xml`), and run as a process with package identity and application identity. And you can think of those apps as being in two groups (even though there are three possible values for **uap10:RuntimeBehavior**). The first group of apps is UWP apps ("windowsApp"); and the second group of apps is Windows `.exe`s with **main** and **WinMain** (either "packagedClassicApp" or "win32App"). The second group is also known as *desktop apps*. | A string with one of the following values: "packagedClassicApp", "win32App", or "windowsApp". | No |  |
-| **StartPage** | The web page that handles the extensibility point. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. Any valid URI or IRI (the non-ASCII version of a URI). | No |  |
-| **desktop4:Subsystem** | Indicates whether the app is a standard UWP app or a UWP console app. | A string that can be any of the following values: *console* or *windows*. | No |  |
-| **uap10:Subsystem** | Indicates whether the app is a standard UWP app or a UWP console app. | A string that can be any of the following values: *console* or *windows*. | No |  |
-| **desktop4:SupportsMultipleInstances** | Indicates support of multiple, separate instances of UWP apps. For more info, see the remarks section. | A boolean value. | No |  |
-| **uap10:SupportsMultipleInstances** | Indicates support of multiple, separate instances of UWP apps. For more info, see the remarks section. | A boolean value. | No |  |
-| **uap10:TrustLevel** | Specifies the trust level of the app<br/><br/>"mediumIL"&mdash;the app is *full trust*; its process runs with an integrity level of *medium* (see [Mandatory Integrity Control](/windows/win32/secauthz/mandatory-integrity-control)). Needs the "Full Trust Permission Level" restricted capability (see [App capability declarations](/windows/uwp/packaging/app-capability-declarations)).<br/><br/>"appContainer"&mdash;the app runs in a lightweight app container (see [MSIX AppContainer apps](/windows/msix/msix-container)); its process runs with an integrity level of *low*. It's also possible for an unpackaged app to run in an AppContainer. | A string with one of the following values: "mediumIL" or "appContainer". | No |  |
-| **uap16:BaseNamedObjectsIsolation** | Enables BaseNameObject (BNO) isolation for the app. | A string that can be any of the following values: *package* or *none*. | No |  |
-| **uap17:BaseNamedObjectsIsolation** | Enables BaseNameObject (BNO) isolation for the app. | A string that can be any of the following values: *package* or *none*.  | No |  |
-| **desktop11:AppLifecycleBehavior** | Allows an app to override the lifecycle behavior associated with the runtime behavior for the extension. Apps or extensions with a **RuntimeBehavior** of "windowsApp" implicitly have **AppLifecycleBehavior** of "systemManaged" unless otherwise specified. Apps or extensions with **RuntimeBehavior** of "packagedClassicApp" or "win32App" implicitly have **AppLifecycleBehavior** of "unmanaged" unless otherwise specified. | One of the following values: "systemManaged" , "unmanaged".| No | |
-| **uap11:CurrentDirectoryPath** | Specifies the initial directory when the application process is launched. This attribute supports macros. For more info, see [Macros in the package manifest schema](./macros.md). | An optional string that cannot contain these characters: `<`, `>`, `|`, `?`, or `*`. > | No |  |
-| **uap11:Parameters** | The subsystem targeted by the extension. This attribute supports macros. For more info, see [Macros in the package manifest schema](./macros.md). | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **Id** | The unique identifier of the application within the package. This value is sometimes referred to as the package-relative app identifier (PRAID). The ID is unique within the package but not globally. There may be another package on the system that uses the same ID. The same ID cannot be used more than once in the same package. When using a Visual Studio template, the default value of this attribute is *App*. Developers should manually change this in the manifest. The app's identifier should not be changed after the app has been published to the Microsoft Store; doing so will disrupt the tile's position on the Start screen. | A value. <!-- TODO: Add data type for t:ST_ApplicationId --> | Yes |  |
+| **Executable** | The default launch executable. | An optional string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", &#124;, ?, or *. | No |  |
+| **EntryPoint** | The activatable class ID. | An optional string between 1 and 256 characters in length that cannot start or end with a whitespace character. | No |  |
+| **StartPage** | The web page that handles the extensibility point. | An optional value. <!-- TODO: Add data type for t:ST_ApplicationStartPage --> | No |  |
+| **ResourceGroup** | A tag that you can use to group extension activations together for resource management purposes (for example, CPU and memory). | An optional alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. | No |  |
+| **desktop4:Subsystem** | Indicates whether the app is a standard UWP app or a UWP console app. | An optional string that can have one of the following values: *console*, *windows*. | No |  |
+| **iot2:Subsystem** | <!-- TODO: Add description --> | An optional string that can have one of the following values: *console*, *windows*. | No |  |
+| **uap10:Subsystem** | Indicates whether the app is a standard UWP app or a UWP console app. | An optional string that can have one of the following values: *console*, *windows*. | No |  |
+| **desktop4:SupportsMultipleInstances** | Indicates support of multiple, separate instances of UWP apps. For more info, see the remarks section. | An optional boolean value. | No |  |
+| **iot2:SupportsMultipleInstances** | <!-- TODO: Add description --> | An optional boolean value. | No |  |
+| **uap10:SupportsMultipleInstances** | Indicates support of multiple, separate instances of UWP apps. For more info, see the remarks section. | An optional boolean value. | No |  |
+| **uap11:CurrentDirectoryPath** | Specifies the initial directory when launching the process. This attribute supports macros. For more info, see [Macros in the package manifest schema](./macros.md). | An optional string that cannot contain these characters: <, >, &#124;, ?, or *. | No |  |
+| **uap11:Parameters** | Contains command line parameters to pass to the extension. This attribute supports macros. For more info, see [Macros in the package manifest schema](./macros.md). | An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **previewsecurity:TrustLevel**| <!-- TODO: Add description --> | An optional string that can have one of the following values: *appContainer*, *mediumIL*, *appSilo*. | No |  |
+| **uap10:TrustLevel** | Specifies the trust level of the extension. | An optional string that can have one of the following values: *appContainer*, *mediumIL*. | No |  |
+| **uap10:RuntimeBehavior** | Specifies the run time behavior of the extension. | An optional string that can have one of the following values: *windowsApp*, *packagedClassicApp*, *win32App*. | No |  |
+| **uap10:HostId** | Specifies the ID of the host runtime for the extension. | An optional alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. | No |  |
+| **uap10:Parameters** | Contains command line parameters to pass to the extension. Only supported for desktop apps that have package identity. | An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **previewsecurity2:RuntimeBehavior** | <!-- TODO: Add description --> | An optional string that can have one of the following values: *windowsApp*, *packagedClassicApp*, *win32App*, *appSilo*. | No |  |
+| **uap16:BaseNamedObjectsIsolation** | Enables BaseNameObject (BNO) isolation for the app. | An optional string that can have one of the following values: *none*, *package*. | No |  |
+| **uap17:BaseNamedObjectsIsolation** | Enables BaseNameObject (BNO) isolation for the app. | An optional string that can have one of the following values: *none*, *package*. | No |  |
+| **desktop11:AppLifecycleBehavior** | Allows an app to override the lifecycle behavior associated with the runtime behavior for the extension. Apps or extensions with a **RuntimeBehavior** of "windowsApp" implicitly have **AppLifecycleBehavior** of "systemManaged" unless otherwise specified. Apps or extensions with **RuntimeBehavior** of "packagedClassicApp" or "win32App" implicitly have **AppLifecycleBehavior** of "unmanaged" unless otherwise specified. | An optional string that can have one of the following values: *systemManaged*, *unmanaged*. | No |  |
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
 | [uap:ApplicationContentUriRules](element-uap-applicationcontenturirules.md) | Specifies which pages in the web context have access to the system's geolocation devices (if the app has permission to access this capability) and access to the clipboard. |
-| [Extensions (type: CT_ApplicationExtensions)](element-f-application-extensions.md) | Defines one or more extensibility points for the app. |
-| [uap7:Properties](element-uap7-properties.md) | Specifies properties of the app. |
-| [uap:VisualElements](element-uap-visualelements.md) | Describes the visual aspects of the app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance. |
+| [Extensions](element-f-application-extensions.md) | Defines one or more extensibility points for the app. |
+| [uap7:Properties](element-uap7-properties.md) | Properties of an application. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [Applications](element-f-applications.md) | Represents one or more apps that comprise the package. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **desktop11** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/11` |
+| **desktop4** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/4` |
+| **iot2** | `http://schemas.microsoft.com/appx/manifest/iot/windows10/2` |
+| **previewsecurity** | `http://schemas.microsoft.com/appx/manifest/preview/windows10/security` |
+| **previewsecurity2** | `http://schemas.microsoft.com/appx/manifest/preview/windows10/security/2` |
+| **uap10** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
+| **uap11** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/11` |
+| **uap16** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/16` |
+| **uap17** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/17` |
+| **Minimum OS Version** | <!-- TODO: Add minimum OS version --> |
 
 ## Remarks
 
@@ -142,10 +164,6 @@ You can read more about this custom capability here in [Custom Capabilities](/wi
 
 For more info about using the **SupportsMultipleInstances** attribute to support multiple, separate instances of UWP apps, see [Create a multi-instance Universal Windows App](/windows/uwp/launch-resume/multi-instance-uwp).
 
-## Requirements
+## Examples
 
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
-| **desktop4** attributes | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/4` |
-| **uap10** attributes | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
+<!-- Author content goes here -->

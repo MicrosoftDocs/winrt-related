@@ -1,10 +1,10 @@
 ---
 title: com3:ExeServer
 description: Registers an ExeServer with one or many class registrations (com3:ExeServer).
-ms.date: 04/20/2020
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
-no-loc: [Package, Applications, Application, Extensions, com2:Extension, com2:ComServer, com3:ExeServer]
+no-loc: [Package, Applications, Application, Extensions, com3:Extension, com3:ComServer, com3:ExeServer]
 ---
 
 # com3:ExeServer
@@ -14,53 +14,65 @@ Registers an **ExeServer** with one or many class registrations.
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com3:Extension>`](element-com-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com3:ComServer>`](element-com-comserver.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com3:ExeServer>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com2:Extension>`](element-com2-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com2:ComServer>`](element-com2-comserver.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com3:Extension>`](element-com-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com3:ComServer>`](element-com-comserver.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com3:ExeServer>`**  
+
 
 ## Syntax
 
 ```xml
 <com3:ExeServer
-    Executable = 'A string with a value between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *.'
-    Arguments = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
-    DisplayName = 'A string with a value between 1 and 256 characters in length. This string is localizable.'
-    LaunchAndActivationPermission = 'An optional [SDDL string](/windows/win32/secauthz/security-descriptor-string-format) value.' >
+  Executable = 'A required string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *.'
+  Arguments = 'An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+  DisplayName = 'An optional string between 1 and 256 characters in length. This string is localizable.'
+  LaunchAndActivationPermission = 'An optional [SDDL string](/windows/win32/secauthz/security-descriptor-string-format).' >
 
   <!-- Child elements -->
-  Class{1,10000}
+  com3:Class{1,10000}
 
 </com3:ExeServer>
 ```
 
 ### Key
-`{}`   specific range of occurrences
 
-## Attributes and elements
+`{}` specific range of occurrences
 
-### Attributes
 
+## Attributes
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Executable** | A path relative to the package root and must reference a file in the package. This specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isn't specified, the EntryPoint defined for the app is used. | A string with a value between 1 and 256 characters in length that must end with `.exe` and cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. The `.exe` extension is case sensitive and must be lowercase. | Yes |  |
-| **Arguments** | The arguments of the [LocalServer32](/windows/win32/com/localserver32) key. | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
-| **DisplayName** | DisplayName is a localizable string corresponding to the default AppID key value. | A string with a value between 1 and 256 characters in length. | No |  |
-| **LaunchAndActivationPermission** | An [SDDL string](/windows/win32/secauthz/security-descriptor-string-format) that corresponds to the LaunchPermission value of the AppID key. | An optional [SDDL string](/windows/win32/secauthz/security-descriptor-string-format) value. | No |  |
+| **Executable** | The default launch executable. | A string between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", &#124;, ?, or *. | Yes |  |
+|**Arguments**| The arguments of the [LocalServer32](/windows/win32/com/localserver32) key. |An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.|No||
+|**DisplayName**| DisplayName is a localizable string corresponding to the default AppID key value. |An optional string between 1 and 256 characters in length. This string is localizable.|No||
+|**LaunchAndActivationPermission**| An [SDDL string](/windows/win32/secauthz/security-descriptor-string-format) that corresponds to the LaunchPermission value of the AppID key. |An optional [SDDL string](/windows/win32/secauthz/security-descriptor-string-format).|No||
 
-### Child elements
-
+## Child elements
 | Child element | Description |
 |-|-|
-| [Class](element-com-exeserver-class.md) | Defines an ExeServer class registration. |
+| [com:Class](element-com-exeserver-class.md) | Defines an ExeServer class registration. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [com2:ComServer](element-com2-comserver.md) | Declares a package extension point of type **windows.comServer**. The **comServer** extension may include the following types of registrations: *ServiceServer*, *ExeServer*, *SurrogateServer*, *ProgId*, or *TreatAsClass*. |
+| [com:ComServer](element-com-comserver.md) | Declares a package extension point of type **windows.comServer**. The **comServer** extension may include four types of registrations: *ExeServer*, *SurrogateServer*, *ProgId*, or *TreatAsClass*. |
+
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/3` |
+| **Minimum OS Version** | Windows 10 version 2004 (Build 19041) |
+
 
 ## Remarks
 
@@ -70,9 +82,6 @@ An **ExeServer** can have one or more class registrations. Multiple class regist
 
 The **Executable** and **Arguments** attributes correspond to the default value of the [LocalServer32](/windows/win32/com/localserver32) key.
 
-## Requirements
+## Examples
 
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/3` |
-| **Minimum OS Version** | Windows 10 version 2004 (Build 19041) |
+<!-- Author content goes here -->

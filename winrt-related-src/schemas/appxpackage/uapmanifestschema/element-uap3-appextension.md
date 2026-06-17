@@ -1,11 +1,9 @@
 ---
-description: Declares an app extensibility point of type windows.appExtension.
-Search.Product: eADQiWindows 10XVcnh
 title: uap3:AppExtension
-ms.assetid: 88e4b56d-e2c2-4782-bedd-eae33d069c2c
-keywords: windows 10, uwp, schema, package manifest
+description: Declares an app extensibility point of type windows.appExtension.
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
+keywords: windows 10, uwp, schema, package manifest
 no-loc: [Package, Applications, Application, Extensions, uap3:Extension, uap3:AppExtension]
 ---
 
@@ -26,11 +24,11 @@ Declares an app extensibility point of type *windows.appExtension*. This element
 
 ```xml
 <uap3:AppExtension
-    Name = 'A string with a value between 2 and 255 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only.'
-    Id = 'A string with a value between 2 and 39 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only.'
-    PublicFolder = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
-    DisplayName = 'A string with a value between 1 and 256 characters in length.'
-    Description = 'A string between 1 and 2048 characters in length.' >
+  Name = 'A required string with a value between 2 and 65519 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only.'
+  Id = 'A required string with a value between 2 and 39 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only.'
+  PublicFolder = 'An optional string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
+  DisplayName = 'A required string between 1 and 256 characters in length. This string is localizable.'
+  Description = 'An optional string between 1 and 2048 characters in length.' >
 
   <!-- Child elements -->
   uap3:Properties?
@@ -42,29 +40,38 @@ Declares an app extensibility point of type *windows.appExtension*. This element
 
 `?` optional (zero or one)
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Description** | The description of the app | A string between 1 and 2048 characters in length. | No |  |
-| **DisplayName**  | A friendly name for the app extension that can be displayed to users. | A string with a value between 1 and 256 characters in length. | Yes |  |
+| **Name** | The type of extension that the app intends to consume and/or host. | A string with a value between 2 and 65519 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only. | Yes |  |
 | **Id** | The entry point by which the host app accesses the extension category instance, if there are multiple entry points. | A string with a value between 2 and 39 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only. | Yes |  |
-| **Name** | The type of extension that the app intends to consume and/or host. | A string with a value between 2 and 255 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only. | Yes |  |
-| **PublicFolder** | The folder that the instance declares as the location where a host can have read access to files through a broker. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
+| **PublicFolder** | The folder that the instance declares as the location where a host can have read access to files through a broker. | An optional string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *. | No |  |
+| **DisplayName** | A friendly name for the app extension that can be displayed to users. | A string between 1 and 256 characters in length. This string is localizable. | Yes |  |
+| **Description** | The description of the app | An optional string between 1 and 2048 characters in length. | No |  |
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
 | [uap3:Properties](element-uap3-properties.md) | Contains opaque XML that represents custom, extension-specific information that is simply stored and not read by the operating system. The information is only read by the host app. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [uap3:Extension](element-uap3-extension.md) | Declares an extensibility point for the app. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
+| **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |
+
+## Remarks
+
+<!-- Author content goes here -->
 
 ## Examples
 
@@ -90,10 +97,3 @@ The following example indicates that the app hosts or consumes the low-performan
     </Applications>
 </Package>
 ```
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
-| **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |

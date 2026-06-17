@@ -1,10 +1,10 @@
 ---
 title: desktop4:DesktopIconOverlayHandler
-description: Windows Shell icon overlay handlers for cloud based placeholder files. 
-ms.date: 4/10/2018
+description: Windows Shell icon overlay handlers for cloud based placeholder files.
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension
-no-loc: [Package, Applications, Application, Extensions, desktop3:Extension, desktop3:CloudFiles, desktop4:DesktopIconOverlayHandlers, desktop4:DesktopIconOverlayHandler]
+no-loc: [Package, Applications, Application, Extensions, desktop4:Extension, desktop4:CloudFiles, desktop4:DesktopIconOverlayHandlers, desktop4:DesktopIconOverlayHandler]
 ---
 
 # desktop4:DesktopIconOverlayHandler
@@ -17,31 +17,29 @@ Windows Shell icon overlay handlers for cloud based placeholder files.
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop3:Extension>`](element-desktop3-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop3:CloudFiles>`](element-desktop3-cloudfiles.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop4:Extension>`](element-desktop4-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop4:CloudFiles>`](element-desktop3-cloudfiles.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop4:DesktopIconOverlayHandlers>`](element-desktop4-desktopiconoverlayhandlers.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop4:DesktopIconOverlayHandler>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop4:DesktopIconOverlayHandler>`**
 
 ## Syntax
 
 ```xml
 <desktop4:DesktopIconOverlayHandler
-  Clsid = 'A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.' />
+  Clsid = 'A required GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
 | **Clsid** | The class ID of the app that implements the overlay handler. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -49,7 +47,15 @@ None.
 
 ## Requirements
 
-| Item  | Value  |
+| Item | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/4` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/4` |
 | **Minimum OS Version** | Windows 10 version 1803 (Build 17134) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->
