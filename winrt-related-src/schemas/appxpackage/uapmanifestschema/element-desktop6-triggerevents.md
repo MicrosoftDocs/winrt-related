@@ -1,10 +1,10 @@
 ---
 title: desktop6:TriggerEvents
 description: Describes one or more trigger events for the current service.
-ms.date: 04/19/2019
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
-ms.custom: 19H1
+no-loc: [Package, Applications, Application, Extensions, desktop6:Extension, desktop6:Service, desktop6:TriggerEvents]
 ---
 
 # desktop6:TriggerEvents
@@ -14,19 +14,25 @@ Describes one or more trigger events for the current service.
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:Extension>`](element-desktop6-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:Service>`](element-desktop6-service.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop6:TriggerEvents>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:Extension>`](element-desktop6-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:Service>`](element-desktop6-service.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop6:TriggerEvents>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop6:TriggerEvents>`**
 
 ## Syntax
 
 ```xml
 <desktop6:TriggerEvents>
 
-    desktop6:TriggerCustom{0,10000}
+  <!-- Child elements -->
+  desktop6:TriggerCustom{0,20000}
+  desktop6:PredefinedTriggerEvents{0,20000}
 
 </desktop6:TriggerEvents>
 ```
@@ -35,31 +41,34 @@ Describes one or more trigger events for the current service.
 
 `{}` specific range of occurrences
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
-|---------------|-------------|
-| [desktop6:TriggerCustom](element-desktop6-triggercustom.md) | Describes a trigger event. |
+|-|-|
+| [desktop6:TriggerCustom](element-desktop6-triggercustom.md) | Describes a trigger event for the current service. |
+| [desktop10:PredefinedTriggerEvents](element-desktop10-predefinedtriggerevents.md) | Describes predefined trigger events for the current service. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
-|---------------|-------------|
-| [Service](element-desktop6-service.md) | Specifies a service that is installed and registered along with the app. |  
+|-|-|
+| [desktop6:Service](element-desktop6-service.md) | Specifies a service that is installed and registered along with the app. These services can be configured to run under either the Local Service, Network Service or Local System account. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/6` |
+| **Minimum OS Version** | Windows 10 version 1903 (Build 18362) |
 
 ## Remarks
 
 This element requires the **packagedServices** or **localSystemServices** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
 
-## Requirements
+## Examples
 
-| Item  | Value  |
-|--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/6` |
-| **Minimum OS Version** | Windows 10 version 1903 (Build 18362) |
+<!-- Author content goes here -->

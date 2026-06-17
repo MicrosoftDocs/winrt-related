@@ -1,10 +1,10 @@
 ---
 title: desktop8:Provider
 description: Registers a provider to Event Tracing and enables its functionality.
-keywords: windows 10, uwp, schema, manifest, desktop
-ms.date: 04/27/2022
+ms.date: 06/05/2026
 ms.topic: reference
-no-loc: [Package, Extensions, desktop8:Extension, desktop8:EventTracing, desktop8:Provider]
+keywords: windows 10, uwp, schema, manifest, desktop
+no-loc: [Package, Applications, Application, Extensions, desktop8:Extension, desktop8:EventTracing, desktop8:Provider]
 ---
 
 # desktop8:Provider
@@ -14,44 +14,52 @@ Registers a provider to Event Tracing and enables its functionality.
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop8:Extension>`](element-desktop8-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop8:EventTracing>`](element-desktop8-eventtracing.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop8:Provider>`**  
+&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop8:Extension>`](element-desktop8-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop8:EventTracing>`](element-desktop8-eventtracing.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop8:Provider>`**
 
 ## Syntax
 
 ```xml
 <desktop8:Provider
-  Id = 'A hexadecimal string that may only contain the following values: "0-9" or "A-F" (uppercase or lowercase) representing the unique identifier of the provider.'
-  Name = 'A string with a value between 1 and 2084 characters in length that represents the name of the provider.'
-  ResourceFile = 'A string value where the first character cannot contain any of the following: ".", "/", "\", or a space. Represents the path to a file.'
-  MessageFile = 'A string value where the first character cannot contain any of the following: ".", "/", "\", or a space. Represents the path to a file.' >
+  Id = 'A required GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.'
+  Name = 'A required string between 1 and 2084 characters in length in the form of a valid URI.'
+  ResourceFile = 'A required string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
+  MessageFile = 'An optional string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.' >
 
-  <!-- Child Elements -->
-  desktop8:Channels
+  <!-- Child elements -->
+  desktop8:Channels{0,1000}
 
 </desktop8:Provider>
 ```
 
-## Attributes and elements
+### Key
 
-### Attributes
+`{}` specific range of occurrences
+
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Id** | The unique identifier for the provider. | A hexadecimal string that may only contain the following values: "0-9" or "A-F" (uppercase or lowercase) representing the unique identifier of the provider. | Yes |
-| **Name** | The name of the provider. | A string with a value between 1 and 2084 characters in length that represents the name of the provider. | Yes |
-| **ResourceFile** | Specifies the path to the provider resource files. | A string value where the first character cannot contain any of the following: `.`, `/`, `\`, or a space. Represents the path to a file. | Yes |
-| **MessageFile** | Specifies the path to the provider message files. | A string value where the first character cannot contain any of the following: `.`, `/`, `\`, or a space. Represents the path to a file. | No |
+| **Id** | The unique identifier for the provider. | A GUID in the form xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. | Yes |  |
+| **Name** | The name of the provider. | A string between 1 and 2084 characters in length in the form of a valid URI. | Yes |  |
+| **ResourceFile** | Specifies the path to the provider resource files. | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *. | Yes |  |
+| **MessageFile** | Specifies the path to the provider message files. | An optional string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *. | No |  |
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
 | [desktop8:Channels](element-desktop8-channels.md) | Allows one or more channels to be specified for event tracing. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -59,7 +67,15 @@ Registers a provider to Event Tracing and enables its functionality.
 
 ## Requirements
 
-| Item  | Value  |
+| Item | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/8` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/8` |
 | **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

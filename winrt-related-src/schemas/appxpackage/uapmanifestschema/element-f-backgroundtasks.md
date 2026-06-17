@@ -1,74 +1,79 @@
 ---
+title: BackgroundTasks
 description: Defines an app extensibility point of type windows.backgroundTasks (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
-title: BackgroundTasks (Windows 10)
-ms.assetid: 0e9cbbc5-3852-4158-87e7-12ea87be62e7
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Applications, Application, Application, Extensions, Extension, BackgroundTasks]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Applications, Application, Extensions, Extension, BackgroundTasks]
 ---
 
-# BackgroundTasks (Windows 10)
+# BackgroundTasks
 
 Defines an app extensibility point of type **windows.backgroundTasks**. Background tasks run in a dedicated background host; that is, without a UI.
 
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-package-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<BackgroundTasks>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-application-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<BackgroundTasks>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-package-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<BackgroundTasks>`**
 
 ## Syntax
 
 ```xml
-<BackgroundTasks 
-  ServerName = 'An optional alphanumeric string with a value between 1 and 255 characters in length. Must begin with a letter.'
-  uap4:SupportsMultipleInstances = 'A boolean value.' >
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  ...
+  <BackgroundTasks
+    ServerName = 'An optional alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.'
+    uap4:SupportsMultipleInstances = 'An optional boolean value.' >
 
-  <!-- Child elements -->
-  Task{1,17},
-  uap:Task{1,17}
+    <!-- Child elements -->
+    BackgroundTaskChoice{0,17}
 
-</BackgroundTasks>
+  </BackgroundTasks>
+</Package>
 ```
 
 ### Key
 
-`{}`   specific range of occurrences
+`{}` specific range of occurrences
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **ServerName** | The server name. Ensures that only one instance of the server exists at runtime. | An alphanumeric string with a value between 1 and 255 characters in length. Must begin with a letter. | No |  |
-| **uap4:SupportsMultipleInstances** | Supports multiple, separate instances of background tasks. | A boolean value. | No |  |
+| **ServerName** | The server name. Ensures that only one instance of the server exists at runtime. | An optional alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. | No |  |
+| **uap4:SupportsMultipleInstances** | Supports multiple, separate instances of background tasks. | An optional boolean value. | No |  |
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| [Task](element-f-task.md) | The background task associated with the app extensibility point. |
-| [uap:Task](element-uap-task.md) | The background task associated with the app extensibility point. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [Extension *(global)*](element-f-application-extension.md) | Declares an extensibility point for the package. |
+| [Extension](element-f-package-extension.md) | <!-- TODO: Add description --> |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **uap4** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/4` |
+| **Minimum OS Version** | <!-- TODO: Add minimum OS version --> |
 
 ## Remarks
 
 Extensions of type **windows.backgroundTask** must specify either a StartPage or EntryPoint attribute in the Extension element. For more info (and an example) see [Declare background tasks in the application manifest](/windows/uwp/launch-resume/declare-background-tasks-in-the-application-manifest).
 
-## Requirements
+## Examples
 
-|   |  Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+<!-- Author content goes here -->

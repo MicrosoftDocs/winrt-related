@@ -1,59 +1,82 @@
 ---
+title: InProcessServer
 description: Declares a package extensibility point of type windows.activatableClass.inProcessServer (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
-title: InProcessServer (Windows 10)
-ms.assetid: 47e3c888-76eb-4d12-977c-ebd947a2b63c
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Extensions, Extension, InProcessServer]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, Package, Extensions, Extension, InProcessServer]
 ---
 
-# InProcessServer (Windows 10)
+# InProcessServer
 
 Declares a package extensibility point of type **windows.activatableClass.inProcessServer**. The app uses a dynamic link library (DLL) that exposes one or more activatable classes.
 
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extension>`](element-f-package-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<InProcessServer>`**  
 
 ## Syntax
 
 ```xml
-<InProcessServer>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  ...
+  <InProcessServer>
 
-  <!-- Child elements -->
-  Path
-  ActivatableClass{1,65535}
+    <!-- Child elements -->
+    Path
+    ActivatableClass{1,65535}
 
-</InProcessServer>
+  </InProcessServer>
+</Package>
 ```
 
 ### Key
 
-`{}`   specific range of occurrences
+`{}` specific range of occurrences
 
-## Attributes and elements
+## Attributes
 
-### Attributes
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+|  | <!-- TODO: Add description --> |  |  |  |
+|  | <!-- TODO: Add description --> |  |  |  |
+|  | Description |  |  |  |
+|  | - |  |  |  |
+|  | Declares an extensibility point for the package. |  |  |  |
+|  | Value |  |  |  |
+|  | -- |  |  |  |
+|  | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |  |  |  |
+|  | <!-- TODO: Add minimum OS version --> |  |  |  |
 
-None.
-
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| [ActivatableClass (type: CT_InProcessActivatableClass)](element-f-activatableclass.md) | Declares a runtime class associated with the extensibility point. |
-| [Path (type: ST_FileName)](element-f-path.md) | The path to the DLL. |
+| **Path** | The path to the DLL. |
+| **ActivatableClass** | Declares a runtime class associated with the extensibility point. |
 
-### Parent Elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [Extension (in type: CT_PackageExtensions)](element-f-package-extension.md) | Declares an extensibility point for the package. |
+| [Extension](element-f-package-extension.md) | Declares an extensibility point for the package. |
+
+## Requirements
+
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Minimum OS Version** | <!-- TODO: Add minimum OS version --> |
+
+
+## Remarks
+
+<!-- Author content goes here -->
 
 ## Examples
 
@@ -67,9 +90,3 @@ None.
     </InProcessServer>
 </Extension>
 ```
-
-## Requirements
-
-| Item  | Value  |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |

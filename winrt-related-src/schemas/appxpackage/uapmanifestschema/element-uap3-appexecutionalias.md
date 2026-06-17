@@ -1,7 +1,7 @@
 ---
 title: uap3:AppExecutionAlias
 description: Specifies the application's execution alias to determine the executable of the app to be activated (uap3:AppExecutionAlias).
-ms.date: 04/04/2004
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 no-loc: [Package, Applications, Application, Extensions, uap3:Extension, uap3:AppExecutionAlias]
@@ -23,32 +23,28 @@ Specifies the application's execution alias to determine the executable of the a
 ## Syntax
 
 ```xml
-<uap3:AppExecutionAlias
-    desktop4:Subsystem = 'An optional string that can have one of the following values: "console" or "windows".' >
+<uap3:AppExecutionAlias>
 
-    uap3:ExecutionAlias{0,1000}
+  <!-- Child elements -->
+  uap3:ExecutionAliasChoice{0,100}
 
 </uap3:AppExecutionAlias>
 ```
 
 ### Key
 
-`{}`   specific range of occurrences
+`{}` specific range of occurrences
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| [desktop:ExecutionAlias](element-desktop-executionalias.md) | The executable of a UWP app to be activated from a command prompt. |
-| [uap8:ExecutionAlias](element-uap8-executionalias.md) | The executable of a UWP app to be activated from a command prompt. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -60,3 +56,11 @@ None.
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
 | **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

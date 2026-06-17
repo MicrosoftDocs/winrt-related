@@ -1,7 +1,7 @@
 ---
 title: uap5:VideoRendererExtensionProfiles
 description: Contains a list of video renderer profiles.
-ms.date: 10/10/2017
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 no-loc: [Package, Applications, Application, Extensions, uap5:Extension, uap5:VideoRendererEffect, uap5:VideoRendererExtensionProfiles]
@@ -36,19 +36,17 @@ Contains a list of video renderer profiles.
 
 `{}` specific range of occurrences
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| [VideoRendererExtensionProfile](element-uap5-VideoRendererExtensionProfile.md) | Specifies a video renderer profile. |
+| [uap5:VideoRendererExtensionProfile](element-uap5-videorendererextensionprofile.md) | Specifies a video renderer profile. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -60,3 +58,11 @@ None.
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/5` |
 | **Minimum OS Version** | Windows 10 version 1709 (Build 16299) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

@@ -1,10 +1,10 @@
 ---
-description: Indicates whether the contents of the package will be allowed to execute.
 title: uap6:AllowExecution
-keywords: windows 10, uwp, schema, package manifest
+description: Indicates whether the contents of the package will be allowed to execute.
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/07/2018
-no-loc: [Package, Properties, uap6:AllowExecution]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, uap6:Package, uap6:Properties, uap6:AllowExecution]
 ---
 
 # uap6:AllowExecution
@@ -25,17 +25,19 @@ Indicates whether the contents of the package will be allowed to execute.
 </uap6:AllowExecution>
 ```
 
-## Attributes and elements
+## Value
 
-### Attributes
+A boolean value.
 
-None.
-
-### Child elements
+## Attributes
 
 None.
 
-### Parent elements
+## Child elements
+
+None.
+
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -47,3 +49,11 @@ None.
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/6` |
 | **Minimum OS Version** | Windows 10 version 1803 (Build 17134) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

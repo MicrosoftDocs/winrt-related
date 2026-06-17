@@ -1,15 +1,13 @@
 ---
+title: uap:Capability
 description: Declares a capability required by a package (Windows 10; uap:Capability).
-Search.Product: eADQiWindows 10XVcnh
-title: uap:Capability (Windows 10)
-ms.assetid: 4c8cea15-094d-4d4e-a1c1-5db78cb78612
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Capabilities, uap:Capability]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, uap:Package, uap:Capabilities, uap:Capability]
 ---
 
-# uap:Capability (Windows 10)
+# uap:Capability
 
 Declares a capability required by a package.
 
@@ -22,26 +20,32 @@ Declares a capability required by a package.
 ## Syntax
 
 ```xml
-<uap:Capability Name = 'A string that can have one of the following values: "documentsLibrary", "picturesLibrary", "videosLibrary", "musicLibrary", "enterpriseAuthentication", "sharedUserCertificates", "userAccountInformation", "removableStorage", "appointments", "contacts", "phoneCall", "blockedChatMessages", "objects3D", "voipCall", or "chat".' />
+<uap:Capability
+  Name = 'A required string that can have one of the following values: "documentsLibrary", "picturesLibrary", "videosLibrary", "musicLibrary", "enterpriseAuthentication", "sharedUserCertificates", "userAccountInformation", "removableStorage", "appointments", "contacts", "phoneCall", "blockedChatMessages", "objects3D", "voipCall", or "chat".' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Name** | The name of the capability. | A string that can have one of the following values: *documentsLibrary*, *picturesLibrary*, *videosLibrary*, *musicLibrary*, *enterpriseAuthentication*, *sharedUserCertificates*, *userAccountInformation*, *removableStorage*, *appointments*, *contacts*, *phoneCall*, *blockedChatMessages*, *objects3D*, *voipCall*, or *chat*. | Yes |  |
+| **Name** | The name of the capability. | A string that can have one of the following values: *documentsLibrary*, *picturesLibrary*, *videosLibrary*, *musicLibrary*, *enterpriseAuthentication*, *sharedUserCertificates*, *userAccountInformation*, *removableStorage*, *appointments*, *contacts*, *phoneCall*, *blockedChatMessages*, *objects3D*, *voipCall*, *chat*. | Yes |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [Capabilities](element-f-capabilities.md) | Declares the access to protected user resources that the package requires. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |
 
 ## Remarks
 
@@ -74,13 +78,5 @@ Here's an example of a [Capabilities](element-f-capabilities.md) node.
 ```
 
 ## See also
-
 - [App capability declarations](/windows/uwp/packaging/app-capability-declarations)
 - [Guidelines for app settings](/windows/uwp/design/app-settings/guidelines-for-app-settings)
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
-| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |

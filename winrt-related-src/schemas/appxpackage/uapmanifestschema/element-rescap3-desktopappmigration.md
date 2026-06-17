@@ -1,8 +1,7 @@
 ---
-ms.assetid: 350e2733-4da7-4e0b-a0aa-291c15c80e25
 title: rescap3:DesktopAppMigration
 description: Specifies where to redirect user tiles and pins to a Windows Desktop Bridge app.
-ms.date: 04/05/2017
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 no-loc: [Package, Applications, Application, Extensions, rescap3:Extension, rescap3:DesktopAppMigration]
@@ -25,10 +24,10 @@ Specifies where to redirect user tiles and pins to a Windows Desktop Bridge app.
 
 ```xml
 <rescap3:DesktopAppMigration
-  AcquisitionUri = 'An optional string with a value between 1 and 2084 characters in length.' >
+  AcquisitionUri = 'An optional string between 1 and 2084 characters in length in the form of a valid URI.' >
 
   <!-- Child elements -->
-  rescap3:DesktopApp{1,10000}
+  rescap3:DesktopApp{0,10000}
 
 </rescap3:DesktopAppMigration>
 ```
@@ -37,21 +36,19 @@ Specifies where to redirect user tiles and pins to a Windows Desktop Bridge app.
 
 `{}` specific range of occurrences
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **AcquisitionUri** | The URI that a tile/pin will be migrated to. | A string between 1 and 2084 characters in length. | No |  |
+| **AcquisitionUri** | The URI that a tile/pin will be migrated to. | An optional string between 1 and 2084 characters in length in the form of a valid URI. | No |  |
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| [DesktopApp](element-rescap3-desktopapp.md) | Specifies information for redirecting a Windows Desktop Bridge app's tiles and pins. |
+| [rescap3:DesktopApp](element-rescap3-desktopapp.md) | Specifies information for redirecting a Windows Desktop Bridge app's tiles and pins. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -59,7 +56,17 @@ Specifies where to redirect user tiles and pins to a Windows Desktop Bridge app.
 
 ## Requirements
 
+
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/3` |
 | **Minimum OS Version** | Windows 10 version 1703 (Build 15063) |
+
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

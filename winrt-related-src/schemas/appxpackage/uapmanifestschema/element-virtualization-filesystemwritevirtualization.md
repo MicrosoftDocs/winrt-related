@@ -1,19 +1,15 @@
 ---
-description: Indicates whether virtualization for the file system is enabled for a package.
 title: virtualization:FileSystemWriteVirtualization
-keywords: windows 10, uwp, schema, package manifest
+description: Indicates whether virtualization for the file system is enabled for a package.
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/18/2022
-ms.custom:
-no-loc: [Package, Properties, virtualization:FileSystemWriteVirtualization]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, virtualization:Package, virtualization:Properties, virtualization:FileSystemWriteVirtualization]
 ---
 
 # virtualization:FileSystemWriteVirtualization
 
 Specifies a list of directories for which file system virtualization is disabled for a package. Disabling virtualization enables your app to access the global file system (or registry) locations seen by other apps, rather than the virtualized file system (or registry) that is created for your app. Any data written to these unvirtualized locations will persist after your app is uninstalled.
-
-> [!NOTE]
-> This element requires the  **unvirtualizedResources** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
 
 ## Element hierarchy
 
@@ -26,29 +22,34 @@ Specifies a list of directories for which file system virtualization is disabled
 ```xml
 <virtualization:FileSystemWriteVirtualization>
 
-    <!-- Child elements -->
-    virtualization:ExcludedDirectories
+  <!-- Child elements -->
+  virtualization:ExcludedDirectories
 
 </virtualization:FileSystemWriteVirtualization>
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
 | [virtualization:ExcludedDirectories](element-virtualization-excludeddirectories.md) | Specifies the list of directories that are excluded from file system virtualization. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [Properties](element-f-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users.  |
+| [Properties](element-f-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/virtualization/windows10` |
+| **Minimum OS Version** | Windows 10 (Build 20348) |
 
 ## Remarks
 
@@ -58,9 +59,6 @@ Only file system locations under the `%USERPROFILE%\AppData` directory support v
 
 This schema and syntax were introduced in the Windows 10, version 2004. Previously, in the Windows 10, version 1903 release, similar functionality was introduced with the [desktop6:FileSystemWriteVirtualization](element-desktop6-filesystemwritevirtualization.md) element. If an application includes both syntaxes for disabling file system virtualization, the old declaration will be used on pre-2004 OS versions while the new declaration will be used on 2004 and later OS versions.
 
-## Requirements
+## Examples
 
-| Item | Value |
-|--|--|
-| virtualization | `http://schemas.microsoft.com/appx/manifest/virtualization/windows10` |
-| **Minimum OS Version** | Windows 10 (Build 20348) |
+<!-- Author content goes here -->

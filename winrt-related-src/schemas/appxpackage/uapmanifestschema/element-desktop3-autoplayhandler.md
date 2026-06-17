@@ -1,7 +1,7 @@
 ---
 title: desktop3:AutoPlayHandler
 description: Handler for AutoPlay, which can present your app as an option when a user connects a device to their PC.
-ms.date: 10/10/2017
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 no-loc: [Package, Applications, Application, Extensions, desktop3:Extension, desktop3:AutoPlayHandler]
@@ -18,14 +18,15 @@ Handler for AutoPlay, which can present your app as an option when a user connec
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop3:Extension>`](element-desktop3-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop3:AutoPlayHandler>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop3:AutoPlayHandler>`**
 
 ## Syntax
 
 ```xml
 <desktop3:AutoPlayHandler>
 
-    desktop3:InvokeAction{0,1000}
+  <!-- Child elements -->
+  desktop3:InvokeAction{0,1000}
 
 </desktop3:AutoPlayHandler>
 ```
@@ -34,19 +35,17 @@ Handler for AutoPlay, which can present your app as an option when a user connec
 
 `{}` specific range of occurrences
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
 | [desktop3:InvokeAction](element-desktop3-invokeaction.md) | Contains content and device information for invoking an AutoPlay action. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -54,7 +53,15 @@ None.
 
 ## Requirements
 
-| Item  | Value  |
+| Item | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/3` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/3` |
 | **Minimum OS Version** | Windows 10 version 1709 (Build 16299) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

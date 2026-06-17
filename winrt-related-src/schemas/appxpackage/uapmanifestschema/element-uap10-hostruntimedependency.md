@@ -1,10 +1,10 @@
 ---
-description: Defines a dependency on a host app package for the current app package.
 title: uap10:HostRuntimeDependency
-keywords: windows 10, uwp, schema, package manifest, host app, hosted app
+description: Defines a dependency on a host app package for the current app package.
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/20/2020
-no-loc: [Package, Dependencies, uap10:HostRuntimeDependency]
+keywords: windows 10, uwp, schema, package manifest, host app, hosted app
+no-loc: [Package, Extensions, uap10:Package, uap10:Dependencies, uap10:HostRuntimeDependency]
 ---
 
 # uap10:HostRuntimeDependency
@@ -21,26 +21,24 @@ Defines a dependency on a host app for the current app. For more information, se
 
 ```xml
 <uap10:HostRuntimeDependency
-  Name = 'An alphanumeric string that can contain periods and dashes.'
-  Publisher = 'A string with a value between 1 and 8192 characters in length that fits the regular expression of a distinguished name.'
-  MinVersion = 'A version string in quad notation ("Major.Minor.Build.Revision"), where "Major" cannot be "0".'  />
+  Name = 'A required value. <!-- TODO: Add description for t:ST_AsciiIdentifier -->'
+  Publisher = 'A required value. <!-- TODO: Add description for t:ST_Publisher_2010_v2 -->'
+  MinVersion = 'A required version string in quad notation, major.minor.build.revision, e.g. 1.2.3.4.' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Name** | The name of the host app. | An alphanumeric string that can contain periods and dashes. | Yes |  |
-| **Publisher** | The publisher of the host app. | A string with a value between 1 and 8192 characters in length that fits the regular expression of a distinguished name. | Yes |  |
-| **MinVersion** | The minimum version of the host app that the current app depends on. | A version string in quad notation (`Major.Minor.Build.Revision`), where `Major` cannot be `0`. | Yes |  |
+| **Name** | The name of the host app. | A value. <!-- TODO: Add data type for t:ST_AsciiIdentifier --> | Yes |  |
+| **Publisher** | The publisher of the host app. | A value. <!-- TODO: Add data type for t:ST_Publisher_2010_v2 --> | Yes |  |
+| **MinVersion** | The minimum version of the host app that the current app depends on. | A version string in quad notation, major.minor.build.revision, e.g. 1.2.3.4. | Yes |  |
 
-### Child elements
+## Child elements
 
-None
+None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -52,3 +50,11 @@ None
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
 | **Minimum OS Version** | Windows 10 version 2004 (Build 19041) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

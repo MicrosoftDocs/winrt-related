@@ -1,15 +1,13 @@
 ---
+title: uap:LaunchAction (in AutoPlayDevice)
 description: Describes an AutoPlay device action (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
-title: uap:LaunchAction (in uap:AutoPlayDevice) (Windows 10)
-ms.assetid: 9b7d9e7a-4f85-4525-9a6b-683b3b78c23d
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
+keywords: windows 10, uwp, schema, package manifest
 no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:AutoPlayDevice, uap:LaunchAction]
 ---
 
-# uap:LaunchAction (uap:AutoPlayDevice) (Windows 10)
+# uap:LaunchAction (in AutoPlayDevice)
 
 Describes an AutoPlay device action.
 
@@ -18,7 +16,7 @@ Describes an AutoPlay device action.
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:Extension>`](element-uap-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:AutoPlayDevice>`](element-uap-autoplaydevice.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap:LaunchAction>`**  
@@ -27,38 +25,35 @@ Describes an AutoPlay device action.
 
 ```xml
 <uap:LaunchAction
-  Verb = 'A string between 1 and 64 characters in length that consists of letters, periods, dashes, and spaces only.'
-  ActionDisplayName = 'A string between 1 and 256 characters in length. This string is localizable.' 
-  DeviceEvent = 'A string between 1 and 255 characters in length. Backward slashes ('\') are not allowed.'
-  Verb = 'A string with a value between 1 and 64 characters in length that consists of letters, periods, dashes, and spaces only.'
-/>
+  Verb = 'A required string with a value between 1 and 64 characters in length that consists of alphanumeric characters, periods (`.`), dashes (`-`), and spaces only.'
+  ActionDisplayName = 'A required string between 1 and 256 characters in length. This string is localizable.'
+  DeviceEvent = 'A required string with a value between 1 and 255 characters in length. Backward slashes (`\`) are not allowed.' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **ActionDisplayName** | The name displayed to the user in the AutoPlay flyout for the handler. This string is localizable. | A string with a value between 1 and 256 characters in length. | Yes |  |
+| **Verb** | A unique identifier passed to the app when it's launched. The app uses this string to determine which AutoPlay handler triggered its launch. It's unique per app in the package and is case sensitive. | A string with a value between 1 and 64 characters in length that consists of alphanumeric characters, periods (`.`), dashes (`-`), and spaces only. | Yes |  |
+| **ActionDisplayName** | The name displayed to the user in the AutoPlay flyout for the handler. This string is localizable. | A string between 1 and 256 characters in length. This string is localizable. | Yes |  |
 | **DeviceEvent** | The name of a device-related event that the extensibility point handles. For more info, see **Remarks**. | A string with a value between 1 and 255 characters in length. Backward slashes (`\`) are not allowed. | Yes |  |
-| **Verb** | A unique identifier passed to the app when it's launched. The app uses this string to determine which AutoPlay handler triggered its launch. It's unique per app in the package and is case sensitive. | A string with a value between 1 and 64 characters in length that consists of letters, periods, dashes, and spaces only. | Yes |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [uap:AutoPlayDevice](element-uap-autoplaydevice.md) | Declares an app extensibility point of type **windows.autoPlayDevice**. The app provides the specified AutoPlay device actions. |
 
-## See also
-The following elements have the same name as this one, but different content or attributes:
+## Requirements
 
-- **[uap:LaunchAction (type: CT_AutoPlayContent)](element-uap-autoplaycontent-launchaction.md)**
-- **[uap:LaunchAction (global)](element-uap-appointmentsproviderlaunchactions-launchaction.md)**
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |
 
 ## Remarks
 
@@ -78,9 +73,8 @@ The following elements have the same name as this one, but different content or 
 </uap:Extension>
 ```
 
-## Requirements
+## See also
+The following elements have the same name as this one, but different content or attributes:
 
-| Item  | Value  |
-|--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
-| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |
+- **[uap:LaunchAction (type: CT_AutoPlayContent)](element-uap-autoplaycontent-launchaction.md)**
+- **[uap:LaunchAction (global)](element-uap-appointmentsproviderlaunchactions-launchaction.md)**

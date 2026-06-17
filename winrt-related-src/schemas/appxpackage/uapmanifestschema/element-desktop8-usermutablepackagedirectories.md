@@ -1,10 +1,10 @@
 ---
 title: desktop8:UserMutablePackageDirectories
 description: Enables your desktop application to specify one or more folders where users can modify the installation files for your application (for example to install mods).
-keywords: windows 10, uwp, schema, manifest, desktop, extension
-ms.date: 04/27/2022
+ms.date: 06/05/2026
 ms.topic: reference
-no-loc: [Package, Extensions, desktop8:Extension, desktop8:UserMutablePackageDirectories]
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, desktop8:Extension, desktop8:UserMutablePackageDirectories]
 ---
 
 # desktop8:UserMutablePackageDirectories
@@ -14,42 +14,53 @@ Enables your desktop application to specify one or more folders where users can 
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop8:Extension>`](element-desktop8-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop8:UserMutablePackageDirectories>`**  
+&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop8:Extension>`](element-desktop8-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop8:UserMutablePackageDirectories>`**
 
 ## Syntax
 
 ```xml
 <desktop8:UserMutablePackageDirectories>
 
-  <!-- Child Elements -->
+  <!-- Child elements -->
   desktop8:UserMutablePackageDirectory
 
 </desktop8:UserMutablePackageDirectories>
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
 | [desktop8:UserMutablePackageDirectory](element-desktop8-usermutablepackagedirectory.md) | Enables your desktop application to specify a folder where users can modify the installation files for your application (for example, to install mods). |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [desktop8:Extension (in Package/Application)](element-f-application-extensions.md) | Declares an extensibility point for the application. |
+| [desktop8:Extension](element-desktop8-extension.md) | Declares an extensibility point for the app. |
 
 ## Requirements
 
-| Item  | Value  |
+| Item | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/8` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/8` |
 | **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

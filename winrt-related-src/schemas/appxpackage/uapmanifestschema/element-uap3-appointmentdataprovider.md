@@ -1,15 +1,13 @@
 ---
+title: uap3:AppointmentDataProvider
 description: Declares an app extensibility point of type windows.appointmentDataProvider.
-Search.Product: eADQiWindows 10XVcnh
-title: uap3:AppointmentDataProvider (Windows 10)
-ms.assetid: 4d8f6db7-f0a9-4dd7-b1b9-3067d0118da2
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
+keywords: windows 10, uwp, schema, package manifest
 no-loc: [Package, Applications, Application, Extensions, uap3:Extension, uap3:AppointmentDataProvider]
 ---
 
-# uap3:AppointmentDataProvider (Windows 10)
+# uap3:AppointmentDataProvider
 
 Declares an app extensibility point of type *windows.appointmentDataProvider*.
 
@@ -28,26 +26,35 @@ This element enables apps to become data providers for appointments. A data prov
 
 ```xml
 <uap3:AppointmentDataProvider
-    ServerName = 'An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.' />
+  ServerName = 'An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **ServerName** | The COM server to be instantiated to satisfy the contract activation (ensures that only one instance of the server exists at runtime). This is an optional attribute that is only used for PPLE host processes. | An optional string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **ServerName** | The COM server to be instantiated to satisfy the contract activation (ensures that only one instance of the server exists at runtime). This is an optional attribute that is only used for PPLE host processes. | An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [uap3:Extension](element-f-application-extensions.md) | Declares an extensibility point for the app. |
+| [uap3:Extension](element-uap3-extension.md) | Declares an extensibility point for the app. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
+| **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |
+
+## Remarks
+
+<!-- Author content goes here -->
 
 ## Examples
 
@@ -69,10 +76,3 @@ None.
     </Applications>
 </Package>
 ```
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
-| **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |

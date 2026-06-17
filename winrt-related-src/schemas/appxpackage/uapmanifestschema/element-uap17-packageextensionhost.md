@@ -1,55 +1,70 @@
 ---
 title: uap17:PackageExtensionHost
 description: Declares an app extensibility point of type *windows.packageExtensionHost*. This element indicates which categories of extensions the package can host.
-ms.date: 10/12/2023
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, windows 11, uwp, schema, manifest, com
+no-loc: [Package, Applications, Application, Extensions, uap17:Extension, uap17:PackageExtensionHost]
 ---
 
 # uap17:PackageExtensionHost
 
-
-
 Declares an app extensibility point of type *windows.packageExtensionHost*. This element indicates which categories of extensions the package can host. Those category names are provided as child elements, of which at least one is required.
 
-
-
 ## Element hierarchy
-<dl><dt><a href = "element-f-package.md">&lt;Package&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-extensions.md">&lt;Extensions&gt;</a></dt>
-<dd>
-<dl><dt><a href = "element-uap17-extension.md">&lt;uap17:Extension&gt;</a></dt>
-<dd>
-<b>&lt;uap17:PackageExtensionHost&gt;</b>
-</dd>
-</dl>
-</dd>
-</dl>
-</dd>
-</dl>
+
+**[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap17:Extension>`](element-uap17-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap17:PackageExtensionHost>`**  
+&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap17:Extension>`](element-uap17-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap17:PackageExtensionHost>`**  
 
 ## Syntax
-```syntax
+
+```xml
 <uap17:PackageExtensionHost>
-<!-- Child elements -->
-  Name{0,unbounded}
+
+  <!-- Child elements -->
+  uap17:Name{1,unbounded}
+
 </uap17:PackageExtensionHost>
 ```
 
 ### Key
-`{}`   specific range of occurrences
 
+`{}` specific range of occurrences
 
+## Attributes
 
+None.
 
 ## Child elements
 
-| Element | Description |
-| -----------| -------------|
-| [Name](element-uap17-name.md) | Specifies the name of an extension category that can be hosted by a **PackageExtensionHost**.  |
+| Child element | Description |
+|-|-|
+| [uap17:Name](element-uap17-name.md) | Specifies the name of an extension category that can be hosted by a [PackageExtensionHost](element-uap17-packageextensionhost.md). |
+
+## Parent elements
+
+| Parent element | Description |
+|-|-|
+| [uap17:Extension](element-uap17-extension.md) | Declares an extensibility point for the app. |
 
 ## Requirements
-| Prefix | Value |
-| ---------------| -------------------------------------------------------------|
-| uap17 | `http://schemas.microsoft.com/appx/manifest/uap/windows10/17` |
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/17` |
+| **Minimum OS Version** | <!-- TODO: Add minimum OS version --> |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

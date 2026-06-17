@@ -1,15 +1,13 @@
 ---
+title: uap:SupportedUsers
 description: Indicates whether or not the package is multi-user aware.
-Search.Product: eADQiWindows 10XVcnh
-title: uap:SupportedUsers (Windows 10)
-ms.assetid: 5be5aec1-f253-4e1f-b386-8e9ae815a4e9
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Properties, uap:SupportedUsers]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, uap:Package, uap:Properties, uap:SupportedUsers]
 ---
 
-# uap:SupportedUsers (Windows 10)
+# uap:SupportedUsers
 
 Indicates whether or not the package is multi-user aware. This setting is used at install time to determine whether the package can be installed on the system.
 
@@ -23,28 +21,40 @@ Indicates whether or not the package is multi-user aware. This setting is used a
 
 ```xml
 <uap:SupportedUsers>
-  A string that can have one of the following values: "single" or "multiple".
+    <!-- TODO: Add value description -->
 </uap:SupportedUsers>
 ```
 
-## Attributes and elements
+## Value
 
-### Attributes
+A string that can have one of the following values: "single" or "multiple".
 
-None.
-
-### Child elements
+## Attributes
 
 None.
 
-### Parent elements
+## Child elements
+
+None.
+
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [Properties](element-f-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users. |
 
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |
+
+## Remarks
+
 > [!NOTE]
 > You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely `|` and `all`, due to which Windows fails to create the AppContainer profile for the package. Use this reference for [troubleshooting](/windows/win32/appxpkg/troubleshooting) if you get an error.
+
 
 ## Examples
 
@@ -53,10 +63,3 @@ None.
     <uap:SupportedUsers>single</uap:SupportedUsers>
 </Properties>
 ```
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
-| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |

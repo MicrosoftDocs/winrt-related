@@ -1,10 +1,10 @@
 ---
 title: uap10:UpdateActions
 description: Specifies what happens to files in the app's installation directory that are modified, added, or deleted by the app when it's updated to a new version.
-ms.date: 07/07/2020
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension
-no-loc: [Package, Extensions, uap10:InstalledLocationVirtualization, uap10:UpdateActions]
+no-loc: [Package, Applications, Application, Extensions, uap10:Extension, uap10:InstalledLocationVirtualization, uap10:UpdateActions]
 ---
 
 # uap10:UpdateActions
@@ -14,44 +14,57 @@ For a desktop app in an MSIX package that uses the [uap10:InstalledLocationVirtu
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap10:Extension>`](element-uap10-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap10:InstalledLocationVirtualization>`](element-uap10-installedlocationvirtualization.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap10:UpdateActions>`**  
+&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap10:Extension>`](element-uap10-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap10:InstalledLocationVirtualization>`](element-uap10-installedlocationvirtualization.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap10:UpdateActions>`**  
 
 ## Syntax
 
 ```xml
 <uap10:UpdateActions
-    ModifiedItems = 'A string that can have one of the following values: "keep" or "reset".'
-    DeletedItems = 'A string that can have one of the following values: "keep" or "reset".'
-    AddedItems = 'A string that can have one of the following values: "keep" or "reset".' />
+  ModifiedItems = 'A required string that can have one of the following values: "keep", or "reset".'
+  DeletedItems = 'A required string that can have one of the following values: "keep", or "reset".'
+  AddedItems = 'A required string that can have one of the following values: "keep", or "reset".' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **ModifiedItems** | Specifies what happens during app updates to files in the app's installation directory that were previously modified by the app. This attribute only applies to files that were present in the app package when it was installed. | A string that can have one of the following values: "keep" or "reset". | Yes |  |
-| **DeletedItems** | Specifies what happens during app updates to files in the app's installation directory that were previously deleted by the app. This attribute only applies to files that were present in the app package when it was installed. | A string that can have one of the following values: "keep" or "reset". | Yes |  |
-| **AddedItems** | Specifies what happens during app updates to files in the app's installation directory that were added by the app after it was installed. | A string that can have one of the following values: "keep" or "reset". | Yes |  |
+| **ModifiedItems** | Specifies what happens during app updates to files in the app's installation directory that were previously modified by the app. This attribute only applies to files that were present in the app package when it was installed. | A string that can have one of the following values: *keep*, *reset*. | Yes |  |
+| **DeletedItems** | Specifies what happens during app updates to files in the app's installation directory that were previously deleted by the app. This attribute only applies to files that were present in the app package when it was installed. | A string that can have one of the following values: *keep*, *reset*. | Yes |  |
+| **AddedItems** | Specifies what happens during app updates to files in the app's installation directory that were added by the app after it was installed. | A string that can have one of the following values: *keep*, *reset*. | Yes |  |
 
-### Child elements
+## Child elements
 
-None
+None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [uap10:InstalledLocationVirtualization](element-uap10-installedlocationvirtualization.md) | Defines an extension for a desktop app in an MSIX package that redirects any writes to the app's installation directory to a location in the [app data](/windows/uwp/design/app-settings/store-and-retrieve-app-data). For more details, see the [remarks](#remarks). |
 
-### Remarks
+## Requirements
 
-This element can only be used in the context of the [uap10:InstalledLocationVirtualization](element-uap10-installedlocationvirtualization.md) extension. This extension redirects any writes to a desktop MSIX app's installation directory to a location in the [app data](/windows/uwp/design/app-settings/store-and-retrieve-app-data).
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
+| **Minimum OS Version** | Windows 10 version 2004 (Build 19041) |
+
+## Remarks
+
+<!-- Author content goes here -->
 
 ## Examples
+
 ```xml
 <?xml
     version="1.0"
@@ -77,10 +90,3 @@ This element can only be used in the context of the [uap10:InstalledLocationVirt
     </Extensions>
 </Package>
 ```
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
-| **Minimum OS Version** | Windows 10 version 2004 (Build 19041) |

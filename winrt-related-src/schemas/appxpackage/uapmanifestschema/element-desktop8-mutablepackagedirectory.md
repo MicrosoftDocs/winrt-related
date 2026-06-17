@@ -1,10 +1,10 @@
 ---
 title: desktop8:MutablePackageDirectory
 description: Enables your desktop application to specify a folder where you can modify the installation files for your application.
-keywords: windows 10, uwp, schema, manifest, desktop, extension
-ms.date: 05/01/2023
+ms.date: 06/05/2026
 ms.topic: reference
-no-loc: [Package, Extensions, desktop8:Extension, desktop8:MutablePackageDirectories, desktop8:MutablePackageDirectory]
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, desktop8:Extension, desktop8:MutablePackageDirectories, desktop8:MutablePackageDirectory]
 ---
 
 # desktop8:MutablePackageDirectory
@@ -14,33 +14,37 @@ Enables your desktop application to specify a folder where you can modify the in
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop8:Extension>`](element-desktop8-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop8:MutablePackageDirectories>`](element-desktop8-mutablepackagedirectories.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop8:MutablePackageDirectory>`**  
+&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop8:Extension>`](element-desktop8-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop8:MutablePackageDirectories>`](element-desktop8-mutablepackagedirectories.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop8:MutablePackageDirectory>`**
 
 ## Syntax
 
 ```xml
 <desktop8:MutablePackageDirectory
-  Target = 'A string that must be in the form of "$(string)\subpath" where the string is semantically validated and interpreted by calling code, and subpath is a directory subpath.'
-  Shared = 'A boolean value.' />
+  Target = 'A required string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
+  Shared = 'An optional boolean value.' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Target** | Specifies a path to the folder (which will be created, and is external to `%ProgramFiles%\WindowsApps`) used to store the installation files. | A string of the form `$(string)\subpath`, where `$(string)` can be either `$(package.volumeRoot)` or `$(package.mutableroot)`, and *subpath* is a directory subpath. `$(package.volumeRoot)` denotes that *subpath* is relative to the volume root of the package; and `$(package.mutableroot)` denotes that *subpath* is relative to the mutable root (`%ProgramFiles%\ModifiableWindowsApps`). | Yes |  |
-| **Shared** | Specifies whether or not the folder is a shared. | A boolean value. | No |  |
+| **Target** | Specifies a path to the folder (which will be created, and is external to `%ProgramFiles%\WindowsApps`) used to store the installation files. | A string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *. | Yes |  |
+| **Shared** | Specifies whether or not the folder is a shared. | An optional boolean value. | No |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -48,7 +52,15 @@ None.
 
 ## Requirements
 
-| Item  | Value  |
+| Item | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/8` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/8` |
 | **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

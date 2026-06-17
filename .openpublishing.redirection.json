@@ -217,7 +217,7 @@
     },
     {
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-package-typelib.md",
-      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-typelib",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-interface-typelib",
       "redirect_document_id": false
     },
     {
@@ -502,7 +502,7 @@
     },
     {
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-activatableclass.md",
-      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-activatableclass",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-outofprocessserver-activatableclass",
       "redirect_document_id": false
     },
     {
@@ -577,7 +577,7 @@
     },
     {
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-extension.md",
-      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-extension",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-package-extension",
       "redirect_document_id": false
     },
     {
@@ -637,7 +637,7 @@
     },
     {
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-path.md",
-      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-path",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-outofprocessserver-path",
       "redirect_document_id": false
     },
     {
@@ -767,7 +767,7 @@
     },
     {
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-2-path.md",
-      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-path",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-outofprocessserver-path",
       "redirect_document_id": false
     },
     {
@@ -838,6 +838,61 @@
     {
       "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap-filesavepicker-supportedfiletypes.md",
       "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-sharetarget-supportedfiletypes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com-typelib.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com-interface-typelib",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com4-class.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com4-exeserver-class",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com4-interface-typelib.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com4-cominterface-typelib",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-com4-typelib.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-com4-class-typelib",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-extensions.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-package-extensions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-f-activatableclass.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-outofprocessserver-activatableclass",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-f-path.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-f-outofprocessserver-path",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap-supportedfiletypes.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap-filetypeassociation-supportedfiletypes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap-protocol-migrationprogid.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-rescap3-migrationprogid",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap-protocol-migrationprogids.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-rescap3-migrationprogids",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "winrt-related-src/schemas/appxpackage/uapmanifestschema/element-uap12-host.md",
+      "redirect_url": "/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-host",
       "redirect_document_id": false
     }
   ]

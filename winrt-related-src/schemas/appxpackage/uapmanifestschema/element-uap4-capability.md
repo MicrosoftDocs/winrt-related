@@ -1,11 +1,10 @@
 ---
-ms.assetid: 6997bc14-c33f-4a88-aec1-21c1ddd5a8f2
 title: uap4:Capability
 description: Declares a capability required by a package.
-ms.date: 04/05/2017
+ms.date: 06/05/2026
 ms.topic: reference
+no-loc: [Package, Extensions, uap4:Package, uap4:Capabilities, uap4:Capability]
 keywords: windows 10, uwp, schema, manifest, desktop, extension
-no-loc: [Package, Capabilities, uap4:Capability]
 ---
 
 # uap4:Capability
@@ -16,30 +15,30 @@ Declares a capability required by a package.
 
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Capabilities>`](element-f-capabilities.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap4:Capability>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap4:Capability>`**
 
 ## Syntax
 
 ```xml
 <uap4:Capability
-  Name = 'A string that can have one of the following values: "offlineMapsManagement" or "userDataTasks".' />
+  Name = 'A required string that can have one of the following values: "offlineMapsManagement", or "userDataTasks".' />
 ```
 
-## Attributes and elements
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Name** | The name of the capability. | A string that can have one of the following values: *offlineMapsManagement* or *userDataTasks*. | Yes |  |
+| **Name** | The name of the capability. | A string that can have one of the following values: *offlineMapsManagement*, *userDataTasks*. | Yes |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [Capability](element-f-capabilities.md) | Declares the access to protected user resources that the package requires. |
+| [Capabilities](element-f-capabilities.md) | Declares the access to protected user resources that the package requires. |
 
 ## Requirements
 
@@ -47,3 +46,11 @@ None.
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/4` |
 | **Minimum OS Version** | Windows 10 version 1703 (Build 15063) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

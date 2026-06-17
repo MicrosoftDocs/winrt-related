@@ -1,15 +1,13 @@
 ---
+title: uap:ShowOn
 description: Describes whether Windows overlays the app’s name on top of the tile image that is shown on the Start screen (in Package/Applications).
-Search.Product: eADQiWindows 10XVcnh
-title: uap:ShowOn (Windows 10)
-ms.assetid: ef9ad3df-5179-4dee-bf54-4f5de545b1ed
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Applications, Application, uap:VisualElements, uap:DefaultTitle, uap:ShowNameOnTiles, uap:ShowOn]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, uap:Package, uap:Applications, uap:Application, uap:VisualElements, uap:DefaultTile, uap:ShowNameOnTiles, uap:ShowOn]
 ---
 
-# uap:ShowOn (Windows 10)
+# uap:ShowOn
 
 Describes whether Windows overlays the app’s name on top of the tile image that is shown on the Start screen.
 
@@ -19,7 +17,7 @@ Describes whether Windows overlays the app’s name on top of the tile image tha
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:VisualElements>`](element-uap-visualelements.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:DefaultTitle>`](element-uap-defaulttile.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:DefaultTile>`](element-uap-defaulttile.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:ShowNameOnTiles>`](element-uap-shownameontiles.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap:ShowOn>`**  
 
@@ -27,26 +25,35 @@ Describes whether Windows overlays the app’s name on top of the tile image tha
 
 ```xml
 <uap:ShowOn
-    Tile = 'A string that can have one of the following values: "square150x150Logo", "wide310x150Logo", or "square310x310Logo".' />
+  Tile = 'A required string that can have one of the following values: "square150x150Logo", "wide310x150Logo", or "square310x310Logo".' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Tile** | The size of the tile. | A string that can have one of the following values: *square150x150Logo*, *wide310x150Logo*, or *square310x310Logo*. | Yes |  |
+| **Tile** | The size of the tile. | A string that can have one of the following values: *square150x150Logo*, *wide310x150Logo*, *square310x310Logo*. | Yes |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [uap:ShowNameOnTiles](element-uap-shownameontiles.md) | Describes whether Windows overlays the app’s name on top of the tile images that are shown on the Start screen. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |
+
+## Remarks
+
+<!-- Author content goes here -->
 
 ## Examples
 
@@ -60,10 +67,3 @@ This example shows how to use the [ShowNameOnTiles](element-uap-shownameontiles.
         Tile="wide310x150Logo"/> <!-- …and also on the 310x150 tile -->
 </uap:ShowNameOnTiles>
 ```
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
-| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |

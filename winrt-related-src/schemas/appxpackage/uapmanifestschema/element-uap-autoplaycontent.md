@@ -1,15 +1,13 @@
 ---
+title: uap:AutoPlayContent
 description: Declares an app extensibility point of type windows.autoPlayContent (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
-title: uap:AutoPlayContent (Windows 10)
-ms.assetid: 15514696-9195-4dd1-91af-2b97383992cc
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
+keywords: windows 10, uwp, schema, package manifest
 no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:AutoPlayContent]
 ---
 
-# uap:AutoPlayContent (Windows 10)
+# uap:AutoPlayContent
 
 Declares an app extensibility point of type **windows.autoPlayContent**. The app provides the specified AutoPlay content actions.
 
@@ -18,7 +16,7 @@ Declares an app extensibility point of type **windows.autoPlayContent**. The app
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:Extension>`](element-uap-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap:AutoPlayContent>`**  
 
@@ -35,25 +33,30 @@ Declares an app extensibility point of type **windows.autoPlayContent**. The app
 
 ### Key
 
-`{}`  specific range of occurrences
+`{}` specific range of occurrences
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| [uap:LaunchAction (in type: CT_AutoPlayContent)](element-uap-autoplaycontent-launchaction.md) | Describes an AutoPlay content action. |
+| [uap:LaunchAction](element-uap-autoplaycontent-launchaction.md) | Describes an AutoPlay content action. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [uap:Extension](element-uap-extension.md) | Declares an extensibility point for the app. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |
 
 ## Remarks
 
@@ -76,16 +79,8 @@ You can use any value for the **Verb** attribute except, **open**, which is rese
 ```
 
 ## See also
-
 **Tasks**
 [Auto-launching with AutoPlay](/previous-versions/windows/apps/hh452731(v=win.10))
 
 **Concepts**
 [App contracts and extensions](/previous-versions/windows/apps/hh464906(v=win.10))
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
-| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |

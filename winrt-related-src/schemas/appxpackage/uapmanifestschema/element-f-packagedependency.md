@@ -1,15 +1,13 @@
 ---
+title: PackageDependency
 description: Declares a dependency on another package that is marked as a framework package (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
-title: PackageDependency (Windows 10)
-ms.assetid: 7f0800a1-f1dd-48c2-aba0-3701dd27d383
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/10/2018
-no-loc: [Package, Dependencies, PackageDependency]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, Package, Dependencies, PackageDependency]
 ---
 
-# PackageDependency (Windows 10)
+# PackageDependency
 
 Declares a dependency on another package that is marked as a framework package.
 
@@ -22,35 +20,47 @@ Declares a dependency on another package that is marked as a framework package.
 ## Syntax
 
 ```xml
-<PackageDependency
-  Name = 'A string with a value between 3 and 50 characters in length that consists of alpha-numeric, period, and dash characters.'
-  Publisher = 'A string with a value between 1 and 8192 characters in length that fits the regular expression  of a distinguished name.'
-  MinVersion = 'A version string in quad notation ("Major.Minor.Build.Revision"), where Major cannot be 0.'
-  MaxMajorVersionTested = 'An optional number with a value between 0 and 512 characters in length.'
-  uap6:Optional = 'An optional boolean value.' />
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  ...
+  <PackageDependency
+    Name = 'A required value. <!-- TODO: Add description for t:ST_PackageName -->'
+    Publisher = 'A required value. <!-- TODO: Add description for t:ST_Publisher_2010_v2 -->'
+    MinVersion = 'A required version string in quad notation, major.minor.build.revision, e.g. 1.2.3.4.'
+    MaxMajorVersionTested = 'An optional value. <!-- TODO: Add description for xs:unsignedShort -->'
+    uap6:Optional = 'An optional boolean value.' />
+</Package>
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Name** | The name as it appears in the *Name* attribute of the [Identity](element-f-identity.md) element of the dependency package. | A string with a value between 3 and 50 characters in length that consists of alpha-numeric, period, and dash characters. | Yes |  |
-| **Publisher** | The publisher as it appears in the *Publisher* attribute of the [Identity](element-f-identity.md)  element of the dependency package. | A string with a value between 1 and 8192 characters in length that fits the regular expression  of a distinguished name. | Yes |  |
-| **MinVersion** | The minimum version of the dependency package. | A version string in quad notation (`Major.Minor.Build.Revision`), where `Major` cannot be `0`. | Yes |  |
-| **MaxMajorVersionTested** | The maximum version of the dependency package tested against. Used to determine whether frameworks will be staged side-by-side, and what framework gets loaded into the package graph for the package. | An optional number with a value between 0 and 512 characters in length. | No |  |
-| **uap6:Optional** | Indicates that a framework package dependency is optional for the app, meaning the app can be installed even if the optional framework dependencies are not installed. | An optional boolean value. | No | false |
+| **Name** | The name as it appears in the *Name* attribute of the [Identity](element-f-identity.md) element of the dependency package. | A value. <!-- TODO: Add data type for t:ST_PackageName --> | Yes |  |
+| **Publisher** | The publisher as it appears in the *Publisher* attribute of the [Identity](element-f-identity.md)  element of the dependency package. | A value. <!-- TODO: Add data type for t:ST_Publisher_2010_v2 --> | Yes |  |
+| **MinVersion** | The minimum version of the dependency package. | A version string in quad notation, major.minor.build.revision, e.g. 1.2.3.4. | Yes |  |
+| **MaxMajorVersionTested** | The maximum version of the dependency package tested against. Used to determine whether frameworks will be staged side-by-side, and what framework gets loaded into the package graph for the package. | An optional value. <!-- TODO: Add data type for xs:unsignedShort --> | No |  |
+| **uap6:Optional** | Indicates that a framework package dependency is optional for the app, meaning the app can be installed even if the optional framework dependencies are not installed. | An optional boolean value. | No |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [Dependencies](element-f-dependencies.md) | Declares other packages that a package depends on to complete its software. |
+
+## Requirements
+
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **uap6** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/6` |
+| **Minimum OS Version** | <!-- TODO: Add minimum OS version --> |
+
 
 ## Remarks
 
@@ -69,9 +79,3 @@ When working with package dependencies note the following:
     MinVersion="1.0.0.0"/>    
 </Dependencies>
 ```
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |

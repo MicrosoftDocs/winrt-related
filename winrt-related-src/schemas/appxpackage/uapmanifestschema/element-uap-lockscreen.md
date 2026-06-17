@@ -1,15 +1,13 @@
 ---
+title: uap:LockScreen
 description: Defines the badge and notifications that represent the app on the lock screen, which is shown when the system is locked (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
-title: uap:LockScreen (Windows 10)
-ms.assetid: 65e0cc4e-af42-4852-a9ca-ee09a5fee5f2
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Applications, Application, uap:VisualElements, uap:LockScreen]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, uap:Package, uap:Applications, uap:Application, uap:VisualElements, uap:LockScreen]
 ---
 
-# uap:LockScreen (Windows 10)
+# uap:LockScreen
 
 Defines the badge and notifications that represent the app on the lock screen, which is shown when the system is locked.
 
@@ -25,28 +23,33 @@ Defines the badge and notifications that represent the app on the lock screen, w
 
 ```xml
 <uap:LockScreen
-  Notification = 'A string that can have one of the following values: "badge" or "badgeAndTileText".'
-  BadgeLogo = 'A string with a value between 1 and 256 characters in length that ends with ".jpg", ".png", or ".jpeg" that cannot contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters cannot be the first or last characters. Also, the string can contain / or \ but not both.' />
+  Notification = 'A required string that can have one of the following values: "badge", or "badgeAndTileText".'
+  BadgeLogo = 'A required string between 1 and 256 characters in length that ends with `.jpg`, `.png`, or `.jpeg` that can't contain these characters: `<`, `>`, `:`, `%`, `"`, `|`, `?`, or `*`. In this string, the `/` and `\` characters can't be the first or last characters. Also, the string can contain `/` or `\` but not both.' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Notification** | The type of tile that can be shown for an app on the lock screen. This can either be simply a badge which displays either a number or a glyph to communicate status, or both a badge and text, which can display detailed status. If LockScreen Notification type 'badgeAndTileText' is selected, then the optional WideLogo must be specified, since only the WideLogo template provides the right information to display with tile text. If this image is not provided, the tile can only display in the square format and cannot accept notifications based on [wide template types](/previous-versions/windows/apps/hh761491(v=win.10)). This rule is semantically enforced through the manifest API. | A string that can have one of the following values: *badge* or *badgeAndTileText*. | Yes |  |
-| **BadgeLogo** | A logo image that is shown next to the badge to identify the app. This image must be monochromatic, of type .png, and measure 24 x 24 pixels. For more info about how to specify the image in this attribute, see [Remarks](#remarks). | A string with a value between 1 and 256 characters in length that ends with `.jpg`, `.png`, or `.jpeg` that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. In this string, the `/` and `\` characters cannot be the first or last characters. Also, the string can contain `/` or `\` but not both. | Yes |  |
+| **Notification** | The type of tile that can be shown for an app on the lock screen. This can either be simply a badge which displays either a number or a glyph to communicate status, or both a badge and text, which can display detailed status. If LockScreen Notification type 'badgeAndTileText' is selected, then the optional WideLogo must be specified, since only the WideLogo template provides the right information to display with tile text. If this image is not provided, the tile can only display in the square format and cannot accept notifications based on [wide template types](/previous-versions/windows/apps/hh761491(v=win.10)). This rule is semantically enforced through the manifest API. | A string that can have one of the following values: *badge*, *badgeAndTileText*. | Yes |  |
+| **BadgeLogo** | A logo image that is shown next to the badge to identify the app. This image must be monochromatic, of type .png, and measure 24 x 24 pixels. For more info about how to specify the image in this attribute, see [Remarks](#remarks). | A string between 1 and 256 characters in length that ends with `.jpg`, `.png`, or `.jpeg` that can't contain these characters: `<`, `>`, `:`, `%`, `"`, `&#124;`, `?`, or `*`. In this string, the `/` and `\` characters can't be the first or last characters. Also, the string can contain `/` or `\` but not both. | Yes |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [uap:VisualElements](element-uap-visualelements.md) | Describes the visual aspects of the app: its default tile, logo images, text and background colors, initial screen orientation, splash screen, and lock screen tile appearance. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |
 
 ## Remarks
 
@@ -67,16 +70,12 @@ Size requirements of a badge logo image are shown here:
 - 180
 - 43x43
 
-## See also
+## Examples
 
+<!-- Author content goes here -->
+
+## See also
 - [Lock screen overview](/uwp/api/Windows.System.UserProfile.LockScreen)
 - [How to show notifications on the lock screen](/previous-versions/windows/apps/hh700416(v=win.10))
 - [Lock screen apps sample](/samples/browse/)
 - [Windows.ApplicationModel.LockScreen namespace](/uwp/api/windows.applicationmodel.lockscreen)
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
-| **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |

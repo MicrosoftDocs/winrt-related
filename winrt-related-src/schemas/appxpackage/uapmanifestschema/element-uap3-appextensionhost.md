@@ -1,11 +1,9 @@
 ---
-description: Declares an app extensibility point of type windows.appExtensionHost.
-Search.Product: eADQiWindows 10XVcnh
 title: uap3:AppExtensionHost
-ms.assetid: 632f4bda-7822-4d90-a3a1-688ed4b7cf24
-keywords: windows 10, uwp, schema, package manifest
+description: Declares an app extensibility point of type windows.appExtensionHost.
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
+keywords: windows 10, uwp, schema, package manifest
 no-loc: [Package, Applications, Application, Extensions, uap3:Extension, uap3:AppExtensionHost]
 ---
 
@@ -28,28 +26,37 @@ Declares an app extensibility point of type *windows.appExtensionHost*. This ele
 <uap3:AppExtensionHost>
 
   <!-- Child elements -->
-  uap3:Name
+  uap3:Name{1,unbounded}
 
 </uap3:AppExtensionHost>
 ```
 
-## Attributes and elements
+### Key
 
-### Attributes
+`{}` specific range of occurrences
+
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
 | [uap3:Name](element-uap3-name.md) | Specifies a category of extensions that the app can host. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [uap3:Extension](element-uap3-extension.md) | Declares an extensibility point for the app. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
+| **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |
 
 ## Remarks
 
@@ -84,10 +91,3 @@ The following example indicates that the app can host the Office spell check and
     </Applications>
 </Package>
 ```
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
-| **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |

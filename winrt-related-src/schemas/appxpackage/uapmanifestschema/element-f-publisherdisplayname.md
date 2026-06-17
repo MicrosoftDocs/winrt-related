@@ -1,15 +1,13 @@
 ---
+title: PublisherDisplayName
 description: A friendly name for the publisher that can be displayed to users (Windows 10).
-Search.Product: eADQiWindows 10XVcnh
-title: PublisherDisplayName (Windows 10)
-ms.assetid: 8df2d218-e62d-4b2e-8db5-3436c67aa04c
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Properties, PublisherDisplayName]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, Package, Properties, PublisherDisplayName]
 ---
 
-# PublisherDisplayName (Windows 10)
+# PublisherDisplayName
 
 A friendly name for the publisher that can be displayed to users.
 
@@ -22,36 +20,52 @@ A friendly name for the publisher that can be displayed to users.
 ## Syntax
 
 ```xml
-<PublisherDisplayName>
-  A string with a value between 1 and 256 characters in length. This string is localizable. 
-</PublisherDisplayName>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  ...
+  <PublisherDisplayName>
+      <!-- TODO: Add value description -->
+  </PublisherDisplayName>
+</Package>
 ```
 
-## Attributes and elements
+## Value
 
-### Attributes
+<!-- TODO: Add value description -->
+
+## Attributes
+
+| Attribute | Description | Data type | Required | Default value |
+|-|-|-|-|-|
+|  | Defines additional metadata about the package including attributes that describe how the package appears to users. |  |  |  |
+|  | Value |  |  |  |
+|  | -- |  |  |  |
+|  | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |  |  |  |
+|  | <!-- TODO: Add minimum OS version --> |  |  |  |
+
+## Child elements
 
 None.
 
-### Child elements
-
-None.
-
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [Properties](element-f-properties.md) | Defines additional metadata about the package including attributes that describe how the package appears to users. |
 
-> [!NOTE]
-> You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely `|` and `all`, due to which Windows fails to create the AppContainer profile for the package. Use this reference for [troubleshooting](/windows/win32/appxpkg/troubleshooting) if you get an error.
+## Requirements
+
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Minimum OS Version** | <!-- TODO: Add minimum OS version --> |
+
 
 ## Remarks
 
 This string is localizable.
 
-## Requirements
+## Examples
 
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+<!-- Author content goes here -->

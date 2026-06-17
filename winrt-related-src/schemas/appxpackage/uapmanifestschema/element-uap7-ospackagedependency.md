@@ -1,10 +1,10 @@
 ---
-description: OS package dependency information.
 title: uap7:OSPackageDependency
-keywords: windows 10, uwp, schema, package manifest, driver dependency
+description: OS package dependency information.
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 10/03/2018
-no-loc: [Package, Dependencies, uap7:OSPackageDependency]
+keywords: windows 10, uwp, schema, package manifest, driver dependency
+no-loc: [Package, Extensions, uap7:Package, uap7:Dependencies, uap7:OSPackageDependency]
 ---
 
 # uap7:OSPackageDependency
@@ -22,23 +22,21 @@ Defines a package dependency for a UWP app.
 ```xml
 <uap7:OSPackageDependency
   Name = 'An alphanumeric string that may contain periods and dashes.'
-  Version = 'A version string in quad notation ("Major.Minor.Build.Revision"), where "Major" cannot be "0".' />
+  Version = 'A required version string in quad notation, major.minor.build.revision, e.g. 1.2.3.4.' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
 | **Name** | The name of the package dependency. | An alphanumeric string that may contain periods and dashes. | Yes |  |
-| **Version** | The version of the package dependency. | A version string in quad notation (`Major.Minor.Build.Revision`), where `Major` cannot be `0`. | Yes |  |
+| **Version** | The version of the package dependency. | A version string in quad notation, major.minor.build.revision, e.g. 1.2.3.4. | Yes |  |
 
-### Child elements
+## Child elements
 
-None
+None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -50,3 +48,11 @@ None
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/7` |
 | **Minimum OS Version** | Windows 10 version 1809 (Build 17763) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

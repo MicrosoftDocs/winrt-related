@@ -1,15 +1,13 @@
 ---
+title: Function (in Device)
 description: Declares the function for the device (in Package/Capabilities).
-Search.Product: eADQiWindows 10XVcnh
-title: Function (Windows 10)
-ms.assetid: d53133f1-6017-4c20-bbff-f2370c5fc39d
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Capabilities, DeviceCapability, Device, Function]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, Package, Capabilities, DeviceCapability, Device, Function]
 ---
 
-# Function (Windows 10)
+# Function (in Device)
 
 Declares the function for the device.
 
@@ -24,30 +22,43 @@ Declares the function for the device.
 ## Syntax
 
 ```xml
-<Function
-  Type = 'A string with a value between 1 and 100 characters in length. Where appropriate, it may begin with "classId:", "winUsbId:", "serviceId:", "usage:", or "interfaceId:".' />
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  ...
+  <Function
+    Type = 'A required value. <!-- TODO: Add description for t:ST_DeviceFunction_Foundation -->' />
+</Package>
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Type** | The type of function for the device. | A string with a value between 1 and 100 characters in length. Where appropriate, it may begin with *classId:*, *winUsbId:*, *serviceId:*, *usage:*, or *interfaceId:*. | Yes |  |
+| **Type** | The type of function for the device. | A value. <!-- TODO: Add data type for t:ST_DeviceFunction_Foundation --> | Yes |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [Device](element-f-device.md) | Declares a function for a device that is associated with the **DeviceCapability**. On Windows 10.0.10240.0, a **DeviceCapability** can contain up to 100 **Device** elements. On Windows 10.0.10586.0, it can contain up to 1000 (for more details, see [DeviceCapability](element-f-devicecapability.md)). |
+| [Device](element-f-device.md) | Declares a function for a device that is associated with the [DeviceCapability](element-f-devicecapability.md). On Windows 10.0.10240.0, a **DeviceCapability** can contain up to 100 **Device** elements. On Windows 10.0.10586.0, it can contain up to 1000 (for more details, see **DeviceCapability**). |
 
 ## Requirements
 
-| Item  | Value  |
+
+| Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Minimum OS Version** | <!-- TODO: Add minimum OS version --> |
+
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

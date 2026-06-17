@@ -1,10 +1,10 @@
 ---
 title: uap3:FileTypeAssociation
 description: Defines the types of files used within the application.
-ms.date: 03/14/2022
+ms.date: 06/05/2026
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension 
-no-loc: [Package, Applications, Application, uap3:Extension, uap3:FileTypeAssociation]
+no-loc: [Package, Applications, Application, Extensions, uap3:Extension, uap3:FileTypeAssociation]
+keywords: windows 10, uwp, schema, manifest, desktop, extension
 ---
 
 # uap3:FileTypeAssociation
@@ -16,84 +16,105 @@ Defines the types of files used within the application.
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap3:Extension>`](element-uap3-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap3:FileTypeAssociation>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap3:Extension>`](element-uap3-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap3:FileTypeAssociation>`**
 
 ## Syntax
 
 ```xml
 <uap3:FileTypeAssociation
-  Name = 'A string with a value between 1 and 100 characters in length.'
+  Parameters = 'An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+  MultiSelectModel = 'An optional string that can have one of the following values: "Player", "Document", or "Single".'
+  Name = 'A required string between 1 and 64 characters in length.'
   DesiredView = 'An optional string that can have one of the following values: "default", "useLess", "useHalf", "useMore", or "useMinimum".'
   desktop2:UseUrl = 'An optional boolean value.'
-  desktop2:AllowSilentDefaultTakeOver = 'An optional boolean value.' 
-  desktop5:ThumbnailTypeOverlay = 'A string with a value between 1 and 256 characters in length that ends with ".jpg", ".png", or ".jpeg" that cannot contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters cannot be the first or last characters. Also, the string can contain / or \ but not both.'
-  Parameters = 'An optional string with a value between 1 and 32767 characters.'
-  MultiSelectModel = 'An optional string that can have one of the following values: "Player", "Document", or "Single".' >
+  desktop2:AllowSilentDefaultTakeOver = 'An optional boolean value.'
+  desktop5:ThumbnailTypeOverlay = 'An optional string between 1 and 256 characters in length that ends with `.jpg`, `.png`, or `.jpeg` that can't contain these characters: `<`, `>`, `:`, `%`, `"`, `|`, `?`, or `*`. In this string, the `/` and `\` characters can't be the first or last characters. Also, the string can contain `/` or `\` but not both.'
+  uap8:Launch = 'An optional string that can have one of the following values: "file", or "placeholderFile".' >
 
   <!-- Child elements -->
-  uap:DisplayName?
-  & uap:Logo?
-  & uap:InfoTip?
-  & uap:EditFlags?
-  & uap:SupportedFileTypes?
-  & uap2:SupportedVerbs?
-  & uap4:KindMap?
-  & rescap3:MigrationProgIds?
-  & desktop2:ThumbnailHandler?
-  & desktop2:OleClass?
-  & desktop2:DesktopPreviewHandler?
-  & desktop2:DesktopPropertyHandler?
-  & desktop3:PropertyLists?
-  & desktop7:Logo?
-  & desktop7:ProgId?
-  & desktop10:IconHandler?
+  uap3:DisplayName?
+  uap3:Logo?
+  uap3:Logo?
+  uap3:Logo?
+  uap3:InfoTip?
+  uap3:EditFlags?
+  uap3:SupportedFileTypes
+  uap3:FileTypeAssociationSupportedVerbsChoice?
+  uap3:KindMap?
+  uap3:MigrationProgIds?
+  uap3:ThumbnailHandler?
+  uap3:DesktopPreviewHandler?
+  uap3:DesktopPropertyHandler?
+  uap3:OleClass?
+  uap3:PropertyLists?
+  uap3:ProgId?
+  uap3:ProgId?
+  uap3:IconHandler?
 
 </uap3:FileTypeAssociation>
 ```
+
+### Key
+
+`?` optional (zero or one)
 
 ## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Name** | The name of the file type association. You can use this name to organize and group file types. The name must be all lower case characters with no spaces. | A string with a value between 1 and 100 characters in length. | Yes |  |
-| **DesiredView** | The desired amount of screen space to use when the app launches. This view mode preference is a requested value only. The preferred size that you specify is not guaranteed to be honored by Windows, so you should not write code that relies on never getting into a size that is smaller than the preferred minimum size or larger than the preferred maximum size. | An optional string that can have one of the following values: *default*, *useLess*, *useHalf*, *useMore*, or *useMinimum*. | No |  |
+| **Parameters** | Specifies parameters to define the types of files used in the application. | An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **MultiSelectModel** | Specifies the model used to define the types of files used in the application. | An optional string that can have one of the following values: *Player*, *Document*, *Single*. | No |  |
+| **Name** | The name of the file type association. You can use this name to organize and group file types. The name must be all lower case characters with no spaces. | A string between 1 and 64 characters in length. | Yes |  |
+| **DesiredView** | The desired amount of screen space to use when the app launches. This view mode preference is a requested value only. The preferred size that you specify is not guaranteed to be honored by Windows, so you should not write code that relies on never getting into a size that is smaller than the preferred minimum size or larger than the preferred maximum size. | An optional string that can have one of the following values: *default*, *useLess*, *useHalf*, *useMore*, *useMinimum*. | No |  |
 | **desktop2:UseUrl** | If set to true, specifies that the application can accept a URL, instead of a file name, on the command line. Applications that can open documents directly from the internet, like web browsers and media players, should use this value. When `ShellExecuteEx` starts an application and this value is set to false, the default behavior, `ShellExecuteEx` downloads the document to a local file and invokes the handler on the local copy. | An optional boolean value. | No |  |
 | **desktop2:AllowSilentDefaultTakeOver** | If set to *true*, the app will appear in an "Open With" list, but it won't be the default app for the file type. | An optional boolean value. | No |  |
-| **desktop5:ThumbnailTypeOverlay** | An image resource for a thumbnail overlay. | A string with a value between 1 and 256 characters in length that ends with `.jpg`, `.png`, or `.jpeg` that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. In this string, the `/` and `\` characters cannot be the first or last characters. Also, the string can contain `/` or `\` but not both. | No |  |
-| **Parameters** | Specifies parameters to define the types of files used in the application. | An optional string with a value between 1 and 32767 characters. | No |  |
-| **MultiSelectModel** | Specifies the model used to define the types of files used in the application. | An optional string that can have one of the following values: *Player*, *Document*, or *Single*. | No |  |
+| **desktop5:ThumbnailTypeOverlay** | An image resource for a thumbnail overlay. | An optional string between 1 and 256 characters in length that ends with `.jpg`, `.png`, or `.jpeg` that can't contain these characters: `<`, `>`, `:`, `%`, `"`, `&#124;`, `?`, or `*`. In this string, the `/` and `\` characters can't be the first or last characters. Also, the string can contain `/` or `\` but not both. | No |  |
+| **uap8:Launch** | <!-- TODO: Add description --> | An optional string that can have one of the following values: *file*, *placeholderFile*. | No |  |
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
 | [uap:DisplayName](element-uap-displayname.md) | A friendly name that can be displayed to users. |
-| [uap:EditFlags](element-uap-editflags.md) | Specifies the type of info the user sees when opening a file associated to the extensibility point. |
-| [uap:InfoTip](element-uap-infotip.md) | Defines a string that provides additional info to the user about the file type. |
 | [uap:Logo](element-uap-logo.md) | A path to a file that contains an image. |
-| [uap:SupportedFileTypes (type: CT_FTASupportedFileTypes)](element-uap-supportedfiletypes.md) | Defines the file types associated with the app. They are unique per package and are case sensitive. |
-| [uap2:SupportedVerbs](element-uap2-supportedverbs.md) | Contains verbs for a file context menu. |
+| **previewappcompat3:Logo** | A path to a file that contains an image. Adds support for .ico file extensions. |
+| [desktop7:Logo](element-desktop7-logo.md) | A path to a file that contains an image. Adds support for .ico, .dll, and .exe files. |
+| [uap:InfoTip](element-uap-infotip.md) | Defines a string that provides additional info to the user about the file type. |
+| [uap:EditFlags](element-uap-editflags.md) | Specifies the type of info the user sees when opening a file associated to the extensibility point. |
+| **uap:SupportedFileTypes** | <!-- TODO: Add description --> |
 | [uap4:KindMap](element-uap4-kindmap.md) | Specifies what Kind is and how it's used. |
-| [rescap3:MigrationProgIds](element-rescap3-migrationprogids.md) | Contains [programmatic identifier (ProgID)](/windows/win32/shell/fa-progids) values that describe the application, component, and version of each desktop application from which you want to inherit file associations. |
+| [rescap3:MigrationProgIds](element-rescap3-migrationprogids.md) | Contains [programmatic identifier (ProgID)](/windows/win32/shell/fa-progids) values that describes the application, component, and version of each desktop application from which you want to inherit file associations. |
 | [desktop2:ThumbnailHandler](element-desktop2-thumbnailhandler.md) | Enables a ThumbnailProvider for a file type association. |
+| [desktop2:DesktopPreviewHandler](element-desktop2-desktoppreviewhandler.md) | Enables declaration of a preview handler for a file type association. |
+| [desktop2:DesktopPropertyHandler](element-desktop2-desktoppropertyhandler.md) | Enables declaration of a property handler for a file type association. |
 | [desktop2:OleClass](element-desktop2-oleclass.md) | Enables OLE to get the OLE class registered for a given file extension. |
-| [desktop2:DesktopPreviewHandler](element-desktop2-DesktopPreviewHandler.md) | Enables declaration of a preview handler for a file type association. |
-| [desktop2:DesktopPropertyHandler](element-desktop2-DesktopPropertyHandler.md) | Enables declaration of a property handler for a file type association. |
 | [desktop3:PropertyLists](element-desktop3-propertylists.md) | Contains a list of properties to show under the properties tab of a file. |
-| [desktop7:Logo](element-desktop7-logo.md) | A path to a file that contains an image. Adds support for .ico file extensions. |
-| [desktop7:ProgId](element-desktop7-progId.md) | A programmatic identifier (ProgID) that can be associated with a CLSID. |
+| [previewappcompat:ProgId](element-previewappcompat-progid.md) | A programmatic identifier (ProgID) that can be associated with a CLSID. The ProgID identifies a class but with less precision than a CLSID because it is not guaranteed to be globally unique. |
+| [desktop7:ProgId](element-desktop7-progid.md) | A programmatic identifier (ProgID) that can be associated with a CLSID. The ProgID identifies a class but with less precision than a CLSID because it is not guaranteed to be globally unique. |
 | [desktop10:IconHandler](element-desktop10-iconhandler.md) | Enables an IconHandler for a file type association. |
 
 ## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [uap3:Extension](element-uap3-extension.md) | Sets parameters to define the protocol of the extensions. |
+| [uap:Extension](element-uap-extension.md) | Declares an extensibility point for the app. |
 
 ## Requirements
 
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
+| **desktop2** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/2` |
+| **desktop5** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/5` |
+| **uap8** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/8` |
 | **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

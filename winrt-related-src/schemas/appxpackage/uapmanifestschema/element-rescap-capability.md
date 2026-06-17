@@ -1,15 +1,13 @@
 ---
+title: rescap:Capability
 description: Declares a restricted capability required by a package (rescap:Capability).
-Search.Product: eADQiWindows 10XVcnh
-title: rescap:Capability (Windows 10)
-ms.assetid: 1a5d687b-4e1f-479a-a24e-eeda24afc560
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Capabilities, rescap:Capability]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, rescap:Package, rescap:Capabilities, rescap:Capability]
 ---
 
-# rescap:Capability (Windows 10)
+# rescap:Capability
 
 Declares a restricted capability required by a package.
 
@@ -23,34 +21,38 @@ Declares a restricted capability required by a package.
 
 ```xml
 <rescap:Capability
-    Name = 'A string that is between 3 and 128 characters that can contain alphanumeric characters and underscores.' />
+  Name = 'A required value. <!-- TODO: Add description for t:ST_Capability_Windows_Restricted_Party -->' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Name** | The name of the capability. | A string that is between 3 and 128 characters that can contain alphanumeric characters and underscores. | Yes |  |
+| **Name** | The name of the capability. | A value. <!-- TODO: Add data type for t:ST_Capability_Windows_Restricted_Party --> | Yes |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
-| Parent Element | Description |
+| Parent element | Description |
 |-|-|
 | [Capabilities](element-f-capabilities.md) | Declares the access to protected user resources that the package requires. |
 
-## Examples
-
-
-
 ## Requirements
+
 
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities` |
 | **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |
+
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

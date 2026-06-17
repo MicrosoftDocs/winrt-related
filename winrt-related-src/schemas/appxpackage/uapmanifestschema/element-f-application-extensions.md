@@ -1,12 +1,10 @@
 ---
-description: Defines one or more extensibility points for the app (Windows 10) by detailing the element hierarchy and syntax.
-Search.Product: eADQiWindows 10XVcnh
 title: Extensions (in Application)
-ms.assetid: 267051e3-b09c-467c-b5bd-4575cc31cb36
-keywords: windows 10, uwp, schema, package manifest
+description: Defines one or more extensibility points for the app (Windows 10) by detailing the element hierarchy and syntax.
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
-no-loc: [Package, Applications, Application, Extensions]
+keywords: windows 10, uwp, schema, package manifest
+no-loc: [Package, Extensions, Package, Applications, Application, Extensions]
 ---
 
 # Extensions (in Application)
@@ -18,45 +16,49 @@ Defines one or more extensibility points for the app.
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<Extensions>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<Extensions>`**
 
 ## Syntax
 
 ```xml
-<Extensions>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  ...
+  <Extensions>
 
-  <!-- Child elements -->
-  Extension{1,10000}
+    <!-- Child elements -->
+    ApplicationExtensionChoice{0,10000}
+    ExtensionChoice{0,10000}
 
-</Extensions>
+  </Extensions>
+</Package>
 ```
 
 ### Key
 
-`{}`   specific range of occurrences
+`{}` specific range of occurrences
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| Extension | Declares an extensibility point for the app. The type of extension is defined by the **Category** attribute. See the extension category table in the [Remarks](#remarks) section below for the list of allowed categories and the Extension element that defines each one. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
-|---------------|-------------|
+|-|-|
 | [Application](element-f-application.md) | Represents an app that comprises part of or all of the functionality delivered in the package. |
 
-## See also
-The following elements have the same name as this one, but different content or attributes:
+## Requirements
 
-- **[Extensions (type: CT_PackageExtensions)](element-extensions.md)**
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+| **Minimum OS Version** | <!-- TODO: Add minimum OS version --> |
 
 ## Remarks
 
@@ -149,8 +151,12 @@ The **Extension** elements that can be included under the **Application/Extensio
 | windows.voipCall | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
 | windows.webAccountProvider | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension), [uap2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap2-extension) |
 
-## Requirements
+## Examples
 
-| Item  | Value  |
-|--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/foundation/windows10` |
+<!-- Author content goes here -->
+
+## See also
+
+The following elements have the same name as this one, but different content or attributes:
+
+- **[Extensions (type: CT_PackageExtensions)](element-f-package-extensions.md)**

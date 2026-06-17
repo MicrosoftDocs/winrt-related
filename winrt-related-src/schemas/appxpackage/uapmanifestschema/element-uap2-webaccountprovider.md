@@ -1,9 +1,9 @@
 ---
-description: Declares an app extensibility point of the type windows.webAccountProvider.
 title: uap2:WebAccountProvider
-keywords: windows 10, uwp, schema, package, manifest
+description: Declares an app extensibility point of the type windows.webAccountProvider.
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 03/28/2022
+keywords: windows 10, uwp, schema, package, manifest
 no-loc: [Package, Applications, Application, Extensions, uap2:Extension, uap2:WebAccountProvider]
 ---
 
@@ -15,47 +15,48 @@ Declares an app extensibility point of the type windows.webAccountProvider.
 
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap2:Extension>`](element-uap2-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap2:WebAccountProvider>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap2:Extension>`](element-uap2-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap2:WebAccountProvider>`**  
 
 ## Syntax
 
 ```xml
 <uap2:WebAccountProvider
-  Url = 'A string with a value between 1 and 32767 characters in length in the form of a valid web url.'
-  BackgroundEntryPoint = 'A string with a value between 1 and 256 characters in length.'
-  DisplayName = 'A string with a value between 1 and 256 characters in length.'
-  DisplayPurpose = 'A string with a value between 1 and 2048 characters in length.'
-  Square44x44Logo = 'A string with a value between 1 and 256 characters in length that ends with ".jpg", ".png", or ".jpeg" that cannot contain these characters: <, >, :, ", |, ?, or *. In this string, the / and \ characters cannot be the first or last characters.' >
+  Url = 'A required string between 1 and 32767 characters in length in the form of a valid web URL.'
+  BackgroundEntryPoint = 'A required string between 1 and 256 characters in length that cannot start or end with a whitespace character.'
+  DisplayName = 'An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+  DisplayPurpose = 'An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+  Square44x44Logo = 'An optional string between 1 and 256 characters in length that ends with `.jpg`, `.png`, or `.jpeg` that can't contain these characters: `<`, `>`, `:`, `%`, `"`, `|`, `?`, or `*`. In this string, the `/` and `\` characters can't be the first or last characters. Also, the string can contain `/` or `\` but not both.' >
 
-  <!-- Child Elements -->
-  uap2:managedUrls?
+  <!-- Child elements -->
+  uap2:ManagedUrls?
 
-</uap2:webAccountProvider>
-
+</uap2:WebAccountProvider>
 ```
 
-## Attributes and elements
+### Key
 
-### Attributes
+`?` optional (zero or one)
 
-| Attribute | Description | Data Type | Required | Default value |
+## Attributes
+
+| Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Url** | Specifies a URL to which a plugin may send cookies. | A string with a value between 1 and 32767 characters in length in the form of a valid web url. | Yes |  |
-| **BackgroundEntryPoint** | The activatable class ID. | A string with a value between 1 and 256 characters in length. | Yes |  |
-| **DisplayName** | A friendly name that can be displayed to users | A string with a value between 1 and 256 characters in length. This string is localizable. | No |  |
-| **DisplayPurpose** | Represents the purpose for the account provider. | A string between 1 and 2048 characters in length. | No |  |
-| **Square44x44Logo** | A path to a file that contains an image | A string with a value between 1 and 256 characters in length that ends with `.jpg`, `.png`, or `.jpeg` that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. In this string, the `/` and `\` characters cannot be the first or last characters. | No |  |
+| **Url** | Specifies a URL to which a plugin may send cookies. | A string between 1 and 32767 characters in length in the form of a valid web URL. | Yes |  |
+| **BackgroundEntryPoint** | The activatable class ID. | A string between 1 and 256 characters in length that cannot start or end with a whitespace character. | Yes |  |
+| **DisplayName** | A friendly name that can be displayed to users | An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **DisplayPurpose** | Represents the purpose for the account provider. | An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **Square44x44Logo** | A path to a file that contains an image | An optional string between 1 and 256 characters in length that ends with `.jpg`, `.png`, or `.jpeg` that can't contain these characters: `<`, `>`, `:`, `%`, `"`, `&#124;`, `?`, or `*`. In this string, the `/` and `\` characters can't be the first or last characters. Also, the string can contain `/` or `\` but not both. | No |  |
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
 | [uap2:ManagedUrls](element-uap2-managedurls.md) | Provides support for multiple URLs. Allows plugins to specify multiple URLs to which they may send cookies. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -65,5 +66,13 @@ Declares an app extensibility point of the type windows.webAccountProvider.
 
 | Item | Value |
 |--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/2`
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/2` |
 | **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

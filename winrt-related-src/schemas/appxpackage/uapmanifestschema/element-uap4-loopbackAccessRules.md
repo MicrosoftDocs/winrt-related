@@ -1,11 +1,10 @@
 ---
-ms.assetid: 6532bd08-d33b-49c1-9f8a-477d32b83464
 title: uap4:LoopbackAccessRules
 description: Contains rules for a loopback filter that enables communication between an app and a service.
-ms.date: 05/10/2018
+ms.date: 06/05/2026
 ms.topic: reference
-keywords: windows 10, uwp, schema, manifest, desktop, extension
 no-loc: [Package, Applications, Application, Extensions, uap4:Extension, uap4:LoopbackAccessRules]
+keywords: windows 10, uwp, schema, manifest, desktop, extension
 ---
 
 # uap4:LoopbackAccessRules
@@ -19,7 +18,7 @@ Contains rules for a loopback filter that enables communication between an app a
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap4:Extension>`](element-uap4-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap4:LoopbackAccessRules>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap4:LoopbackAccessRules>`**
 
 ## Syntax
 
@@ -29,30 +28,35 @@ Contains rules for a loopback filter that enables communication between an app a
   <!-- Child elements -->
   uap4:Rule{0,1000}
 
-</uap4:LoopbackAccessRules>                   
+</uap4:LoopbackAccessRules>
 ```
 
 ### Key
 
 `{}` specific range of occurrences
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| [Rule](element-uap4-rule.md) | Defines rules for inbound and outbound loopback connections. |
+| [uap4:Rule](element-uap4-rule.md) | Defines rules for inbound and outbound loopback connections. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [uap4:Extension](element-uap4-extension.md) | Declares an extensibility point for the app. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/4` |
+| **Minimum OS Version** | Windows 10 version 1703 (Build 15063) |
 
 ## Remarks
 
@@ -61,9 +65,6 @@ Loopback connections are supported only for TCP connections.
 > [!NOTE]
 > The UDP protocol is not supported.
 
-## Requirements
+## Examples
 
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/4` |
-| **Minimum OS Version** | Windows 10 version 1703 (Build 15063) |
+<!-- Author content goes here -->

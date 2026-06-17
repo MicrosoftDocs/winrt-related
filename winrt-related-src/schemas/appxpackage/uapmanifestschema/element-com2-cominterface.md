@@ -1,10 +1,10 @@
 ---
 title: com2:ComInterface
 description: Declares a package extension point of type windows.comInterface (com2:ComInterface).
-ms.date: 04/20/2020
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, com
-no-loc: [Package, Applications, Application, Extensions, com2:Extension, com2:ComInterface, Extensions, com2:Extension, com2:ComInterface]
+no-loc: [Package, Applications, Application, Extensions, com2:Extension, com2:ComInterface]
 ---
 
 # com2:ComInterface
@@ -14,14 +14,15 @@ Declares a package extension point of type **windows.comInterface**. The comInte
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com2:Extension>`](element-com2-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com2:ComInterface>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com2:Extension>`](element-com2-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com2:ComInterface>`**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<com2:Extension>`](element-com2-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<com2:ComInterface>`**  
+
 
 ## Syntax
 
@@ -29,35 +30,44 @@ Declares a package extension point of type **windows.comInterface**. The comInte
 <com2:ComInterface>
 
   <!-- Child elements -->
-  com:ProxyStub{0,1000},
-  com:Interface{0,10000},
-  com:TypeLib{0,1000}
+  com2:ProxyStub{0,10000}
+  com2:Interface{0,10000}
+  com2:TypeLib{0,10000}
 
 </com2:ComInterface>
 ```
 
 ### Key
-`{}`   specific range of occurrences
 
-## Attributes and elements
+`{}` specific range of occurrences
 
-### Attributes
+
+## Attributes
 
 None.
 
-### Child elements
 
+## Child elements
 | Child element | Description |
 |-|-|
-| [ProxyStub](element-com-proxystub.md) | Registers a proxy stub. |
-| [Interface](element-com-interface.md) | Registers new COM Interfaces. |
-| [TypeLib](element-com-typelib.md) | Registers a type library. |
+| [com:ProxyStub](element-com-proxystub.md) | Registers a proxy stub. |
+| [com:Interface](element-com-interface.md) | Registers new COM Interfaces. |
+| [com:TypeLib](element-com-interface-typelib.md) | Registers a type library. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [com2:Extension](element-com2-extension.md) | Provides functionality to expose COM registrations to clients outside of the app package. |
+
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/2` |
+| **Minimum OS Version** | Windows 10 version 1709 (Build 16299) |
+
 
 ## Remarks
 
@@ -68,9 +78,6 @@ If the extension is under Application/Extensions/Extension, you can improve the 
 > [!NOTE]
 > Any registrations in **comInterface** that depend on another registration (e.g. an **Interface** references a **ProxyStub** and/or a **TypeLib**) must be in the same **comInterface** extension.
 
-## Requirements
+## Examples
 
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/com/windows10/2` |
-| **Minimum OS Version** | Windows 10 version 1709 (Build 16299) |
+<!-- Author content goes here -->

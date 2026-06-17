@@ -1,11 +1,9 @@
 ---
-description: Declares an app extensibility point of type windows.appService (uap3:AppService).
-Search.Product: eADQiWindows 10XVcnh
 title: uap3:AppService
-ms.assetid: 1a5170ca-cd60-4102-a451-b4d9ad81a6e7
-keywords: windows 10, uwp, schema, package manifest
+description: Declares an app extensibility point of type windows.appService (uap3:AppService).
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
+keywords: windows 10, uwp, schema, package manifest
 no-loc: [Package, Applications, Application, Extensions, uap3:Extension, uap3:AppService]
 ---
 
@@ -26,32 +24,38 @@ Declares an app extensibility point of type *windows.appService*. Application Co
 
 ```xml
 <uap3:AppService
-    Name = 'A string with a value between 2 and 39 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes.'
-    ServerName = 'An optional alphanumeric string with a value between 1 and 255 characters in length. Must begin with a letter.'
-    SupportsRemoteSystems = 'An optional boolean value.' 
-    uap4:SupportsMultipleInstances = 'An optional boolean value.' />
+  SupportsRemoteSystems = 'An optional boolean value.'
+  Name = 'A required string with a value between 2 and 39 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only.'
+  ServerName = 'An optional alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character.'
+  uap4:SupportsMultipleInstances = 'An optional boolean value.' />
 ```
 
-## Attributes and elements
+## Attributes
 
-### Attributes
-
-| Attribute | Description | Data type  | Required | Default value |
+| Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Name** | The service name (used to match the caller of the Application Contract with the provider). | A string with a value between 2 and 39 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes. | Yes |  |
-| **ServerName** | The COM server to be instantiated to satisfy the contract activation (ensures that only one instance of the server exists at runtime). This is an optional attribute that is only used for PPLE host processes. | An optional alphanumeric string with a value between 1 and 255 characters in length. Must begin with a letter. | No |  |
-| **SupportsRemoteSystems** | Indicates whether or not to allow access to the endpoint for the app service from a remote endpoint.| An optional boolean value. | No |  |
+| **SupportsRemoteSystems** | Indicates whether or not to allow access to the endpoint for the app service from a remote endpoint. | An optional boolean value. | No |  |
+| **Name** | The service name (used to match the caller of the Application Contract with the provider). | A string with a value between 2 and 39 characters in length that consists of alphanumeric characters, periods (except for the first character), and dashes only. | Yes |  |
+| **ServerName** | The COM server to be instantiated to satisfy the contract activation (ensures that only one instance of the server exists at runtime). This is an optional attribute that is only used for PPLE host processes. | An optional alphanumeric string between 1 and 255 characters in length. Must begin with an alphabetic character. | No |  |
 | **uap4:SupportsMultipleInstances** | Supports multiple, separate instances of app services. | An optional boolean value. | No |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [uap:Extension](element-uap-extension.md) | Declares an extensibility point for the app. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
+| **uap4** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/4` |
+| **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |
 
 ## Remarks
 
@@ -81,10 +85,3 @@ None.
     </Applications>
 </Package>
 ```
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
-| **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |

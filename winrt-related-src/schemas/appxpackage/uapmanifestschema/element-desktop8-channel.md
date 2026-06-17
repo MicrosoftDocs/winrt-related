@@ -1,10 +1,10 @@
 ---
 title: desktop8:Channel
 description: Specifies a channel to be used for event tracing.
-keywords: windows 10, uwp, schema, manifest, desktop
-ms.date: 04/27/2022
+ms.date: 06/05/2026
 ms.topic: reference
-no-loc: [Package, Extensions, desktop8:Extension, desktop8:EventTracing, desktop8:Provider, desktop8:Channels, desktop8:Channel]
+keywords: windows 10, uwp, schema, manifest, desktop
+no-loc: [Package, Applications, Application, Extensions, desktop8:Extension, desktop8:EventTracing, desktop8:Provider, desktop8:Channels, desktop8:Channel]
 ---
 
 # desktop8:Channel
@@ -14,50 +14,60 @@ Specifies a channel to be used for event tracing.
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop8:Extension>`](element-desktop8-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop8:EventTracing>`](element-desktop8-eventtracing.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop8:Provider>`](element-desktop8-provider.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop8:Channels>`](element-desktop8-channels.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop8:Channel>`**  
+&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop8:Extension>`](element-desktop8-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop8:EventTracing>`](element-desktop8-eventtracing.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop8:Provider>`](element-desktop8-provider.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop8:Channels>`](element-desktop8-channels.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop8:Channel>`**
 
 ## Syntax
 
 ```xml
 <desktop8:Channel
-  Name = 'A string with a value between 1 and 2084 characters.'
-  Type = 'A string that can be one of the following values: "admin", "operational", "analytic", or "debug".'
-  Access = 'An alphanumeric string with a value between 1 and 2084 characters.'
-  Isolation = 'A string that can be one of the following values: "application", "system", or "custom".'
-  Enabled = 'A boolean value.' >
+  Name = 'A required string between 1 and 2084 characters in length in the form of a valid URI.'
+  Type = 'A required string that can have one of the following values: "admin", "operational", "analytic", "analytic", or "debug".'
+  Access = 'An optional [SDDL string](/windows/win32/secauthz/security-descriptor-string-format).'
+  Isolation = 'An optional string that can have one of the following values: "application", "system", or "custom".'
+  Enabled = 'An optional boolean value.' >
 
-  <!-- Child Elements -->
-  desktop8:Logging
-  desktop8:Publishing
+  <!-- Child elements -->
+  desktop8:Logging?
+  desktop8:Publishing?
 
 </desktop8:Channel>
 ```
 
-## Attributes and elements
+### Key
 
-### Attributes
+`?` optional (zero or one)
+
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Name** | The name of the channel. | A string with a value between 1 and 2,084 characters. | Yes |  |
-| **Type** | The type of the channel. | A string value that can be one of the following: *admin*, *operational*, *analytic*, or *debug*. | Yes |  |
-| **Access** | The access level of the channel. | An alphanumeric string with a value between 1 and 2084 characters. | No |  |
-| **Isolation** | Specifies the channel's isolation attribute. | A string that can be one of the following values: *application*, *system*, or *custom*. | No |  |
-| **Enabled** | Specifies whether or not the channel is enabled. | A boolean value. | No | false |
+| **Name** | The name of the channel. | A string between 1 and 2084 characters in length in the form of a valid URI. | Yes |  |
+| **Type** | The type of the channel. | A string that can have one of the following values: *admin*, *operational*, *analytic*, *analytic*, *debug*. | Yes |  |
+| **Access** | The access level of the channel. | An optional [SDDL string](/windows/win32/secauthz/security-descriptor-string-format). | No |  |
+| **Isolation** | Specifies the channel's isolation attribute. | An optional string that can have one of the following values: *application*, *system*, *custom*. | No |  |
+| **Enabled** | Specifies whether or not the channel is enabled. | An optional boolean value. | No | false |
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
 | [desktop8:Logging](element-desktop8-logging.md) | Provides access to the Logging feature within an Event Tracing channel. |
 | [desktop8:Publishing](element-desktop8-publishing.md) | Provides access to the Publishing feature within an Event Tracing channel. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -65,7 +75,15 @@ Specifies a channel to be used for event tracing.
 
 ## Requirements
 
-| Item  | Value  |
+| Item | Value |
 |--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/8` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/8` |
 | **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

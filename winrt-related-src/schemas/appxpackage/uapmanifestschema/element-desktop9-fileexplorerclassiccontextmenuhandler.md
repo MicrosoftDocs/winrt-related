@@ -1,7 +1,7 @@
 ---
 title: desktop9:FileExplorerClassicContextMenuHandler
 description: Registers a legacy IContextMenu implementation of a context menu handler shell extension for a packaged desktop app.
-ms.date: 09/17/2021
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 no-loc: [Package, Applications, Application, Extensions, desktop9:Extension, desktop9:FileExplorerClassicContextMenuHandler]
@@ -14,43 +14,52 @@ Registers a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_c
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop9:Extension>`](element-desktop9-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop9:FileExplorerClassicContextMenuHandler>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop9:Extension>`](element-desktop9-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop9:FileExplorerClassicContextMenuHandler>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop9:FileExplorerClassicContextMenuHandler>`**
 
 ## Syntax
 
 ```xml
 <desktop9:FileExplorerClassicContextMenuHandler>
 
-    desktop9:ExtensionHandler{0,1000}
+  <!-- Child elements -->
+  desktop9:ExtensionHandler{0,1000}
 
 </desktop9:FileExplorerClassicContextMenuHandler>
 ```
 
 ### Key
 
-`{}` A specific range of occurrences
+`{}` specific range of occurrences
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
-| [desktop9:ExtensionHandler](element-desktop9-extensionhandler.md) | Specifies a handler for a legacy IContextMenu implementation. |
+| [desktop9:ExtensionHandler](element-desktop9-extensionhandler.md) | Specifies a handler for a legacy [IContextMenu](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) implementation of a context menu handler shell extension for a packaged desktop app. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [desktop9:Extenson](element-desktop9-extension.md) | Declares an extensibility point for the app. |
+| [desktop9:Extension](element-desktop9-extension.md) | Declares an extensibility point for the app. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/9` |
+| **Minimum OS Version** | Windows 11 version 21H2 (Build 22159) |
 
 ## Remarks
 
@@ -77,10 +86,3 @@ This example assumes you have added the desktop9 xml namespace to your manifest 
 ```xml
 <xmlns:desktop9="http://schemas.microsoft.com/appx/manifest/desktop/windows10/9">
 ```
-
-## Requirements
-
-| Item  | Value  |
-|--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/9` |
-| **Minimum OS Version** | Windows 11 version 21H2 (Build 22159) |

@@ -1,10 +1,10 @@
 ---
 title: uap13:HostRuntimeDependency
 description: Declares publisher information for the app.
-keywords: windows 10, uwp, schema, manifest, extension
-ms.date: 05/03/2022
+ms.date: 06/05/2026
 ms.topic: reference
-no-loc: [Package, Applications, Application, uap13:Extension]
+keywords: windows 10, uwp, schema, manifest, extension
+no-loc: [Package, Extensions, uap13:Package, uap13:Dependencies, uap13:HostRuntimeDependency]
 ---
 
 # uap13:HostRuntimeDependency
@@ -14,42 +14,47 @@ Declares publisher information for the app.
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap13:Extension>`](element-uap13-extension.md)  
+&nbsp;&nbsp;&nbsp;└─ [`<Dependencies>`](element-f-dependencies.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap13:HostRuntimeDependency>`**  
 
 ## Syntax
 
 ```xml
 <uap13:HostRuntimeDependency
-  Name = 'An alphanumeric string with a value between 1 and 32767 characters that can contain periods and dashes only.'
-  Publisher = 'A string between 1 and 8192 characters in length that fits the regular expression of a distinguished name.'
-  MinVersion = 'A version string in quad notation ("Major.Minor.Build.Revision") where "Major" cannot be "0". />
+  Name = 'A required value. <!-- TODO: Add description for t:ST_AsciiIdentifier -->'
+  Publisher = 'A required value. <!-- TODO: Add description for t:ST_Publisher_2010_v2 -->'
+  MinVersion = 'A required version string in quad notation, major.minor.build.revision, e.g. 1.2.3.4.' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Name** | The name of the application. | An alphanumeric string with a value between 1 and 32767 characters that can contain periods and dashes only. | Yes |  |
-| **Publisher** | The publisher of the application | A string between 1 and 8192 characters in length that fits the regular expression of a distinguished name. | Yes |  |
-| **MinVersion** | The minimum Windows version required to install the application. | A version string in quad notation (`Major.Minor.Build.Revision`) where `Major` cannot be `0`. | Yes |  |
+| **Name** | The name of the application. | A value. <!-- TODO: Add data type for t:ST_AsciiIdentifier --> | Yes |  |
+| **Publisher** | The publisher of the application | A value. <!-- TODO: Add data type for t:ST_Publisher_2010_v2 --> | Yes |  |
+| **MinVersion** | The minimum Windows version required to install the application. | A version string in quad notation, major.minor.build.revision, e.g. 1.2.3.4. | Yes |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [Extension (in Package/Applications)](element-f-package-extension.md) | Declares an extensibility point for the app. |
+| [Dependencies](element-f-dependencies.md) | Declares other packages that a package depends on to complete its software. |
 
-### Requirements
+## Requirements
 
 | Item | Value |
-|-|-|
-| **UAP12** | `http://schemas.microsoft.com/appx/manifest/uap/windows/10/13` |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/13` |
 | **Minimum OS Version** | Windows 11 version 21H2 (Build 22000) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

@@ -1,10 +1,10 @@
 ---
 title: desktop10:DataShortcuts
 description: Specifies a list of non-executable shortcuts.
-keywords: windows 10, uwp, schema, manifest, desktop, extension
-ms.date: 05/23/2022
+ms.date: 06/05/2026
 ms.topic: reference
-no-loc: [Package, Extensions, desktop10:Extension, desktop10:DataShortcuts]
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, desktop10:Extension, desktop10:DataShortcuts]
 ---
 
 # desktop10:DataShortcuts
@@ -14,38 +14,41 @@ Specifies a list of non-executable shortcuts.
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop10:Extension>`](element-desktop10-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop10:DataShortcuts>`**  
+&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop10:Extension>`](element-desktop10-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop10:DataShortcuts>`**
 
 ## Syntax
 
 ```xml
 <desktop10:DataShortcuts>
 
-  <!-- Child Elements -->
-  desktop10:DataShortcut
+  <!-- Child elements -->
+  desktop10:DataShortcut{1,10000}
 
 </desktop10:DataShortcuts>
 ```
 
 ### Key
 
-`?` optional (zero or one)
+`{}` specific range of occurrences
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
 | [desktop10:DataShortcut](element-desktop10-datashortcut.md) | Creates a shortcut to a file that is not an executable. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -53,7 +56,15 @@ None.
 
 ## Requirements
 
-| Item  | Value  |
+| Item | Value |
 |--|--|
-| **desktop10** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |
 | **Minimum OS Version** | Windows 11 version 22H2 (Build 22621) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

@@ -1,8 +1,7 @@
 ---
-ms.assetid: d8525fc0-1289-4134-9d46-d294d39d2690
 title: rescap3:DesktopApp
 description: Specifies information for redirecting a Windows Desktop Bridge app's tiles and pins.
-ms.date: 04/05/2017
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 no-loc: [Package, Applications, Application, Extensions, rescap3:Extension, rescap3:DesktopAppMigration, rescap3:DesktopApp]
@@ -26,24 +25,22 @@ Specifies information for redirecting a Windows Desktop Bridge app's tiles and p
 
 ```xml
 <rescap3:DesktopApp
-  AumId = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
-  ShortcutPath = 'A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.' />
+  AumId = 'An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.'
+  ShortcutPath = 'An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.' />
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **AumId** | The Application User Model ID of the Desktop app. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
-| **ShortcutPath** | A relative shortcut path to migrate from. | A string with a value between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | Yes |  |
+| **AumId** | The Application User Model ID of the Desktop app. | An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
+| **ShortcutPath** | A relative shortcut path to migrate from. | An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
@@ -51,7 +48,17 @@ None.
 
 ## Requirements
 
+
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/3` |
 | **Minimum OS Version** | Windows 10 version 1703 (Build 15063) |
+
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->

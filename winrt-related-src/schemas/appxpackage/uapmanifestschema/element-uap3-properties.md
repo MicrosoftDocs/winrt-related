@@ -1,12 +1,10 @@
 ---
-description: Contains opaque XML that represents custom, extension-specific information that is simply stored and not read by the operating system.
-Search.Product: eADQiWindows 10XVcnh
 title: uap3:Properties
-ms.assetid: fbc52f03-8a01-4abe-b8d1-6aa8b02eb958
-keywords: windows 10, uwp, schema, package manifest
+description: Contains opaque XML that represents custom, extension-specific information that is simply stored and not read by the operating system.
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
 no-loc: [Package, Applications, Application, Extensions, uap3:Extension, uap3:AppExtension, uap3:Properties]
+keywords: windows 10, uwp, schema, package manifest
 ---
 
 # uap3:Properties
@@ -21,7 +19,7 @@ Contains opaque XML that represents custom, extension-specific information that 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap3:Extension>`](element-uap3-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap3:AppExtension>`](element-uap3-appextension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap3:Properties>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap3:Properties>`**
 
 ## Syntax
 
@@ -31,23 +29,32 @@ Contains opaque XML that represents custom, extension-specific information that 
 </uap3:Properties>
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
 | **custom** | Custom extension-specific information in the form of opaque XML that is simply stored and not read by the operating system. The information is only read by the host app. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [uap3:AppExtension](element-uap3-appextension.md) | Declares an app extensibility point of type *windows.appExtension*. |
+| [uap3:AppExtension](element-uap3-appextension.md) | Declares an app extensibility point of type *windows.appExtension*. This element indicates which categories of extensions the app intends to consume and/or host. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
+| **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |
+
+## Remarks
+
+<!-- Author content goes here -->
 
 ## Examples
 
@@ -81,10 +88,3 @@ The following example indicates that the app hosts or consumes a high-performanc
     </Applications>
 </Package>
 ```
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/3` |
-| **Minimum OS Version** | Windows 10 version 1607 (Build 14393) |

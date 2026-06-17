@@ -152,8 +152,6 @@ items:
           items: 
           - name: "Element Hierarchy"
             href: schemas/appxpackage/uapmanifestschema/root-elements.md
-          - name: "ActivatableClass (in InProcessServer)"
-            href: schemas/appxpackage/uapmanifestschema/element-f-activatableclass.md
           - name: "ActivatableClass (in OutOfProcessServer)"
             href: schemas/appxpackage/uapmanifestschema/element-f-outofprocessserver-activatableclass.md
           - name: "ActivatableClassAttribute"
@@ -244,8 +242,6 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-com-toolboxbitmap32.md
           - name: "com:TreatAsClass"
             href: schemas/appxpackage/uapmanifestschema/element-com-treatasclass.md
-          - name: "com:TypeLib (in ComInterface)"
-            href: schemas/appxpackage/uapmanifestschema/element-com-typelib.md
           - name: "com:TypeLib (in Interface)"
             href: schemas/appxpackage/uapmanifestschema/element-com-interface-typelib.md
           - name: "com:Verb"
@@ -280,8 +276,6 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-com3-treatasclass.md
           - name: "com4:Aspect"
             href: schemas/appxpackage/uapmanifestschema/element-com4-aspect.md
-          - name: "com4:Class"
-            href: schemas/appxpackage/uapmanifestschema/element-com4-class.md
           - name: "com4:Class (in ExeServer)"
             href: schemas/appxpackage/uapmanifestschema/element-com4-exeserver-class.md
           - name: "com4:Class (in InProcessHandler)"
@@ -358,12 +352,10 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-com4-toolboxbitmap32.md
           - name: "com4:TreatAsClass"
             href: schemas/appxpackage/uapmanifestschema/element-com4-treatasclass.md
-          - name: "com4:TypeLib"
-            href: schemas/appxpackage/uapmanifestschema/element-com4-typelib.md
           - name: "com4:TypeLib (in Class)"
             href: schemas/appxpackage/uapmanifestschema/element-com4-class-typelib.md
-          - name: "com4:TypeLib (in Interface)"
-            href: schemas/appxpackage/uapmanifestschema/element-com4-interface-typelib.md
+          - name: "com4:TypeLib (in ComInterface)"
+            href: schemas/appxpackage/uapmanifestschema/element-com4-cominterface-typelib.md
           - name: "com4:Verb"
             href: schemas/appxpackage/uapmanifestschema/element-com4-verb.md
           - name: "com4:Verbs"
@@ -681,7 +673,7 @@ items:
           - name: "Extensions (in Application)"
             href: schemas/appxpackage/uapmanifestschema/element-f-application-extensions.md
           - name: "Extensions (in Package)"
-            href: schemas/appxpackage/uapmanifestschema/element-extensions.md
+            href: schemas/appxpackage/uapmanifestschema/element-f-package-extensions.md
           - name: "Folder"
             href: schemas/appxpackage/uapmanifestschema/element-f-folder.md
           - name: "Framework"
@@ -708,8 +700,6 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-f-package.md
           - name: "PackageDependency"
             href: schemas/appxpackage/uapmanifestschema/element-f-packagedependency.md
-          - name: "Path"
-            href: schemas/appxpackage/uapmanifestschema/element-f-path.md
           - name: "Path (in OutOfProcessServer)"
             href: schemas/appxpackage/uapmanifestschema/element-f-outofprocessserver-path.md
           - name: "previewappcompat:ProgId"
@@ -754,12 +744,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-rescap3-desktopappmigration.md
           - name: "rescap3:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-rescap3-extension.md
-          - name: "rescap3:MigrationProgId (in uap:Protocol)"
-            href: schemas/appxpackage/uapmanifestschema/element-uap-protocol-migrationprogid.md
           - name: "rescap3:MigrationProgId (in uap:FileTypeAssociation)"
             href: schemas/appxpackage/uapmanifestschema/element-rescap3-migrationprogid.md
-          - name: "rescap3:MigrationProgIds (in uap:Protocol)"
-            href: schemas/appxpackage/uapmanifestschema/element-uap-protocol-migrationprogids.md
           - name: "rescap3:MigrationProgIds (in uap:FileTypeAssociation)"
             href: schemas/appxpackage/uapmanifestschema/element-rescap3-migrationprogids.md
           - name: "rescap4:ClassicAppCompatKey"
@@ -860,8 +846,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap-showon.md
           - name: "uap:SplashScreen"
             href: schemas/appxpackage/uapmanifestschema/element-uap-splashscreen.md
-          - name: "uap:SupportedFileTypes (in uap:FileTypeAssociation)"
-            href: schemas/appxpackage/uapmanifestschema/element-uap-supportedfiletypes.md
+          - name: "uap:SupportedFileTypes (in FileTypeAssociation)"
+            href: schemas/appxpackage/uapmanifestschema/element-uap-filetypeassociation-supportedfiletypes.md
           - name: "uap:SupportedFileTypes (type: CT_CharmsSupportedFileTypes)"
             href: schemas/appxpackage/uapmanifestschema/element-uap-sharetarget-supportedfiletypes.md
           - name: "uap:SupportedUsers"
@@ -1062,6 +1048,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap10-displayname.md
           - name: "uap10:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-extension.md
+          - name: "uap10:FileType"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-filetype.md
           - name: "uap10:HostRuntime"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-hostruntime.md
           - name: "uap10:HostRuntimeDependency"
@@ -1082,8 +1070,6 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap11-capability.md
           - name: "uap12:Extension"
             href: schemas/appxpackage/uapmanifestschema/element-uap12-extension.md
-          - name: "uap12:Host"
-            href: schemas/appxpackage/uapmanifestschema/element-uap12-host.md
           - name: "uap13:AppInstaller"
             href: schemas/appxpackage/uapmanifestschema/element-uap13-appinstaller.md
           - name: "uap13:AutoUpdate"

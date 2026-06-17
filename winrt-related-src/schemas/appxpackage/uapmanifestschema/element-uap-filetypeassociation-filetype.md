@@ -1,15 +1,13 @@
 ---
+title: uap:FileType (in FileTypeAssociation)
 description: A supported file type specified as its file type extension (in uap:FileTypeAssociation/uap:SupportedFileTypes).
-Search.Product: eADQiWindows 10XVcnh
-title: uap:FileType (uap:FileTypeAssociation/uap:SupportedFileTypes)
-ms.assetid: 9a872ee1-03fa-48f0-bc13-e35c7a22820e
-keywords: windows 10, uwp, schema, package manifest
+ms.date: 06/05/2026
 ms.topic: reference
-ms.date: 04/05/2017
+keywords: windows 10, uwp, schema, package manifest
 no-loc: [Package, Applications, Application, Extensions, uap:Extension, uap:FileTypeAssociation, uap:SupportedFileTypes, uap:FileType]
 ---
 
-# uap:FileType (in uap:FileTypeAssociation/uap:SupportedFileTypes) 
+# uap:FileType (in FileTypeAssociation)
 
 A supported file type specified as its file type extension.
 
@@ -18,57 +16,61 @@ A supported file type specified as its file type extension.
 **[`<Package>`](element-f-package.md)**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:Extension>`](element-uap-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:FileTypeAssociation>`](element-uap-filetypeassociation.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:SupportedFileTypes>`](element-uap-supportedfiletypes.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap:SupportedFileTypes>`](element-uap-filetypeassociation-supportedfiletypes.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap:FileType>`**  
 
 ## Syntax
 
 ```xml
 <uap:FileType
-  ContentType = 'An optional string with a value that contains two components between 1 and 127 characters in length, separated by a forward slash ("/"). It follows the RFC 4288 naming requirements.'
-  uap4:ShellNewFileName = 'An optional string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
-  uap4:ShellNewDisplayName = 'A string with a value between 1 and 256 characters in length. This string is localizable.'>
-
-<!-- A string between 1 and 64 characters in length that must begin with a period ("."), cannot have additional periods, and cannot contain these characters: <, >, :, ", /, \, |, ?, or *. -->
-
-</uap:FileType>
+  ContentType = 'An optional string between 1 and 255 characters in length.'
+  uap4:ShellNewFileName = 'An optional string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.'
+  uap4:ShellNewDisplayName = 'An optional string between 1 and 256 characters in length. This string is localizable.'
+  uap10:PerceivedType = 'An optional string between 1 and 256 characters in length that cannot start or end with a whitespace character.'
+  uap10:ShellNewCommandParameters = 'An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end.' />
 ```
 
-### Key
-
-`?`   optional (zero or one)
-
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **ContentType** | The type of the content. | An optional string with a value that contains two components between 1 and 127 characters in length, separated by a forward slash (`/`). It follows the RFC 4288 naming requirements. | No |  |
-| **uap4:ShellNewFileName** | The file from the package to be copied to the location where the user initiated the Shell New command. | An optional string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | No |  |
-| **uap4:ShellNewDisplayName** | The display name of the file type that shows when a user hovers over the "New" submenu in the Windows explorer. | A string with a value between 1 and 256 characters in length. This string is localizable. | No |  |
+| **ContentType** | The type of the content. | An optional string between 1 and 255 characters in length. | No |  |
+| **uap4:ShellNewFileName** | The file from the package to be copied to the location where the user initiated the Shell New command. | An optional string between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", &#124;, ?, or *. | No |  |
+| **uap4:ShellNewDisplayName** | The display name of the file type that shows when a user hovers over the "New" submenu in the Windows explorer. | An optional string between 1 and 256 characters in length. This string is localizable. | No |  |
+| **uap10:PerceivedType** | <!-- TODO: Add description --> | An optional string between 1 and 256 characters in length that cannot start or end with a whitespace character. | No |  |
+| **uap10:ShellNewCommandParameters** | <!-- TODO: Add description --> | An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [uap:SupportedFileTypes (type: CT_FTASupportedFileTypes)](element-uap-supportedfiletypes.md) | Defines the file types associated with the app. They are unique per package and are case sensitive. |
-
-## See also
-The following elements have the same name as this one, but different content or attributes:
-
-- [uap:FileType (type: ST_FileType)](element-uap-sharetarget-filetype.md)
+| **uap:SupportedFileTypes** | <!-- TODO: Add description --> |
 
 ## Requirements
 
 | Item | Value |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10` |
+| **uap10** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
+| **uap4** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/4` |
 | **Minimum OS Version** | Windows 10 version 1511 (Build 10586) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->
+
+## See also
+The following elements have the same name as this one, but different content or attributes:
+
+- [uap:FileType (type: ST_FileType)](element-uap-sharetarget-filetype.md)

@@ -1,7 +1,7 @@
 ---
 title: desktop4:ItemType
 description: Contains the type of command to be registered in the context menu (desktop4:ItemType).
-ms.date: 04/10/2018
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 no-loc: [Package, Applications, Application, Extensions, desktop4:Extension, desktop4:FileExplorerContextMenus, desktop4:ItemType]
@@ -19,13 +19,13 @@ Contains the type of command to be registered in the context menu.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop4:Extension>`](element-desktop4-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop4:FileExplorerContextMenus>`](element-desktop4-fileexplorercontextmenus.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop4:ItemType>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop4:ItemType>`**
 
 ## Syntax
 
 ```xml
-<desktop4:ItemType 
-  Type = 'A string with a value between 1 and 64 characters in length that must begin with a period ("."), cannot have additional periods, and cannot contain these characters: <, >, :, ", /, \, |, ?. Can also be a wildcard "*" character.' >
+<desktop4:ItemType
+  Type = 'A required string between 1 and 64 characters in length that must begin with a period or be the wildcard `*`.' >
 
   <!-- Child elements -->
   desktop4:Verb{0,10000}
@@ -35,35 +35,37 @@ Contains the type of command to be registered in the context menu.
 
 ### Key
 
-`{}`   specific range of occurrences
+`{}` specific range of occurrences
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| Type | The file type to associate the context menu handler with. | A string with a value between 1 and 64 characters in length that must begin with a period (`.`), cannot have additional periods, and cannot contain these characters: `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`. Can also be a wildcard `*` character. | Yes |  |
+| **Type** | The file type to associate the context menu handler with. | A string between 1 and 64 characters in length that must begin with a period or be the wildcard `*`. | Yes |  |
 
-### Child elements
+## Child elements
 
 | Child element | Description |
 |-|-|
 | [desktop4:Verb](element-desktop4-verb.md) | Names and class IDs of the commands registered in the Shell for a file explorer context menu. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [desktop4:FileExplorerContextMenus](element-desktop4-fileexplorercontextmenus.md) | Registers items for the context menu of File Explorer. |
 
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/4` |
+| **Minimum OS Version** | Windows 10 version 1803 (Build 17134) |
+
 ## Remarks
 
 For more information about this element, see the remarks for [desktop4:FileExplorerContextMenus](element-desktop4-fileexplorercontextmenus.md).
 
-## Requirements
+## Examples
 
-| Item  | Value  |
-|--|--|
-| Namespace | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/4` |
-| **Minimum OS Version** | Windows 10 version 1803 (Build 17134) |
+<!-- Author content goes here -->

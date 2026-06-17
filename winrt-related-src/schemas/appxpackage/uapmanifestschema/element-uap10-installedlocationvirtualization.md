@@ -1,11 +1,10 @@
 ---
-
 title: uap10:InstalledLocationVirtualization
 description: This extension redirects any writes to a desktop MSIX app's installation directory to a location in the app data.
-ms.date: 07/07/2020
+ms.date: 06/05/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
-no-loc: [Package, Extensions, uap10:Extensions, uap10:InstalledLocationVirtualization]
+no-loc: [Package, Applications, Application, Extensions, uap10:Extension, uap10:InstalledLocationVirtualization]
 ---
 
 # uap10:InstalledLocationVirtualization
@@ -15,9 +14,14 @@ Defines an extension for a desktop app in an MSIX package that redirects any wri
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap10:Extensions>`](element-uap10-extension.md)  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap10:Extension>`](element-uap10-extension.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap10:InstalledLocationVirtualization>`**  
+&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<uap10:Extension>`](element-uap10-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<uap10:InstalledLocationVirtualization>`**  
 
 ## Syntax
 
@@ -30,23 +34,28 @@ Defines an extension for a desktop app in an MSIX package that redirects any wri
 </uap10:InstalledLocationVirtualization>
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
-| Child Element | Description |
+| Child element | Description |
 |-|-|
-| [uap10:UpdateActions](element-uap10-updateactions.md) | Specifies what happens during app updates to files in the app's installation directory that were previously modified, added, or deleted by the app. |
+| [uap10:UpdateActions](element-uap10-updateactions.md) | For a desktop app in an MSIX package that uses the [uap10:InstalledLocationVirtualization](element-uap10-installedlocationvirtualization.md) extension, this element specifies what happens during app updates to files in the app's installation directory that were previously modified, added, or deleted by the app. |
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
 | [uap10:Extension](element-uap10-extension.md) | Declares an extensibility point for the app. |
+
+## Requirements
+
+| Item | Value |
+|--|--|
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
+| **Minimum OS Version** | Windows 10 version 2004 (Build 19041) |
 
 ## Remarks
 
@@ -55,6 +64,7 @@ This extension is intended to be used by desktop apps in an MSIX package that wr
 This extension has no effect in a UWP app.
 
 ## Examples
+
 ```xml
 <?xml
   version="1.0"
@@ -80,10 +90,3 @@ This extension has no effect in a UWP app.
     </Extensions>
 </Package>
 ```
-
-## Requirements
-
-| Item | Value |
-|--|--|
-| **Namespace** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
-| **Minimum OS Version** | Windows 10 version 2004 (Build 19041) |

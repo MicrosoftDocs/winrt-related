@@ -1,10 +1,10 @@
 ---
 title: desktop10:SupportedProtocol
 description: Specifies a URL protocol scheme.
-keywords: windows 10, uwp, schema, manifest, desktop, extension
-ms.date: 05/23/2022
+ms.date: 06/05/2026
 ms.topic: reference
-no-loc: [Package, Extensions, desktop10:Extension, desktop10:SupportedProtocols, desktop10:SupportedProtocol]
+keywords: windows 10, uwp, schema, manifest, desktop, extension
+no-loc: [Package, Applications, Application, Extensions, desktop10:Extension, desktop10:AppExecutionAlias, desktop10:ExecutionAlias, desktop10:SupportedProtocols, desktop10:SupportedProtocol]
 ---
 
 # desktop10:SupportedProtocol
@@ -14,38 +14,48 @@ Specifies a URL protocol scheme.
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop10:Extension>`](element-desktop10-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop10:SupportedProtocols>`](element-desktop10-supportedprotocols.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop10:SupportedProtocol>`**  
+&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop10:Extension>`](element-desktop10-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop10:AppExecutionAlias>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop10:ExecutionAlias>`**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop10:SupportedProtocols>`](element-desktop10-supportedprotocols.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop10:SupportedProtocol>`**
 
 ## Syntax
 
 ```xml
 <desktop10:SupportedProtocol>
-  A string with a value between 2 and 2048 characters in length.
+    <!-- TODO: Add value description -->
 </desktop10:SupportedProtocol>
 ```
 
-## Attributes and elements
-
-### Attributes
+## Attributes
 
 None.
 
-### Child elements
+## Child elements
 
 None.
 
-### Parent elements
+## Parent elements
 
 | Parent element | Description |
 |-|-|
-| [desktop10:SupportedProtocols](element-desktop10-supportedprotocols.md) | Specifies the supported URL protocol schemes for a given key. |
+| [desktop10:SupportedProtocols](element-desktop10-supportedprotocols.md) | Specifies the supported URL protocol schemes for the extension. |
 
 ## Requirements
 
-| Item  | Value  |
+| Item | Value |
 |--|--|
-| **desktop10** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |
+| **Namespace** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/10` |
 | **Minimum OS Version** | Windows 11 version 22H2 (Build 22621) |
+
+## Remarks
+
+<!-- Author content goes here -->
+
+## Examples
+
+<!-- Author content goes here -->
