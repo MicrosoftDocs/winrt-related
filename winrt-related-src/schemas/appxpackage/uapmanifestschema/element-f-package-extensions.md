@@ -66,10 +66,10 @@ The **Extension** elements that can be included under the **Package/Extensions**
 
 | Extension category | Extension |
 |--------------------|-----------|
-| windows.activatableClass.inProcessServer | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-f-extension) |
-| windows.activatableClass.outOfProcessServer | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-f-extension) |
-| windows.activatableClass.proxyStub | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-f-extension) |
-| windows.certificates | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-f-extension) |
+| windows.activatableClass.inProcessServer | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-f-package-extension) |
+| windows.activatableClass.outOfProcessServer | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-f-package-extension) |
+| windows.activatableClass.proxyStub | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-f-package-extension) |
+| windows.certificates | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-f-package-extension) |
 | windows.classicAppCompatKeys | [rescap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-rescap4-extension) |
 | windows.comInterface | [com:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com-extension), [com2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com2-extension), [com4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com4-extension) |
 | windows.comServer | [com:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com-extension), [com2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com2-extension), [com4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-com4-extension) |
@@ -77,6 +77,7 @@ The **Extension** elements that can be included under the **Package/Extensions**
 | windows.customInstall | [desktop6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-extension) |
 | windows.dataProtection | [uap8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap8-extension) |
 | windows.dataShortcuts | [desktop10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop10-extension) |
+| windows.deploymentExtensionHandler | [deployment:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-deployment-extension) |
 | windows.deploymentStateHandler | deployment3:Extension |
 | windows.desktopEventLogging | [desktop2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop2-extension) |
 | windows.enterpriseDataProtection | [uap7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap7-extension) |
@@ -93,7 +94,7 @@ The **Extension** elements that can be included under the **Package/Extensions**
 | windows.packageExtensionHost | [uap17:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap17-extension) |
 | windows.packagingExtension | deployment3:Extension |
 | windows.primaryInteropAssemblies | [rescap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-rescap4-extension) |
-| windows.publisherCacheFolders | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-f-extension) |
+| windows.publisherCacheFolders | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-f-package-extension) |
 | windows.shadowCopyExcludeFiles | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-extension) |
 | windows.sharedFonts | [uap7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap7-extension) |
 | windows.sipExtension | deployment3:Extension |
