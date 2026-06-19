@@ -85,7 +85,7 @@ The **Extension** elements that can be included under the **Application/Extensio
 | windows.autoPlayContent | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
 | windows.autoPlayDevice | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
 | windows.autoPlayHandler | [desktop3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop3-extension) |
-| windows.backgroundTasks | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-1-extension) |
+| windows.backgroundTasks | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-f-application-extension) |
 | windows.barcodeScannerPreviewProvider | [uap6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap6-extension) |
 | windows.barcodeScannerProvider | [uap6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap6-extension) |
 | windows.cachedFileUpdater | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
@@ -101,11 +101,14 @@ The **Extension** elements that can be included under the **Application/Extensio
 | windows.dialProtocol | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
 | windows.emailDataProvider | [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension) |
 | windows.errorReporting | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-extension) |
+| windows.fileExplorerClassicContextMenuHandler | [desktop9:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop9-extension) |
+| windows.fileExplorerClassicDragDropContextMenuHandler | [desktop9:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop9-extension) |
 | windows.fileExplorerContextMenus | [desktop4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop4-extension) |
 | windows.fileOpenPicker | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
 | windows.fileSavePicker | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
 | windows.fileTypeAssociation | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension), [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension) |
 | windows.fullTrustProcess | [desktop:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop-extension) |
+| windows.internal.filePickerExperience | wincap2:Extension |
 | windows.localExperiencePack | [uap6:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap6-extension) |
 | windows.lockScreen | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
 | windows.lockScreenCall | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
@@ -118,7 +121,7 @@ The **Extension** elements that can be included under the **Application/Extensio
 | windows.personalAssistantLaunch | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
 | windows.phoneCallActivation | [uap13:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap13-extension) |
 | windows.posPaymentConnector | [uap8:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap8-extension) |
-| windows.preInstalledConfigTask | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-1-extension) |
+| windows.preInstalledConfigTask | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-f-application-extension) |
 | windows.print3DWorkflow | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
 | windows.printSupportEnterpriseManagementUI | printSupport3:Extension |
 | windows.printSupportExtension | [printSupport:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-printsupport-extension), [uap12:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap12-extension) |
@@ -130,7 +133,7 @@ The **Extension** elements that can be included under the **Application/Extensio
 | windows.printWorkflowBackgroundTask | [uap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap4-extension) |
 | windows.printWorkflowForegroundTask | [uap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap4-extension) |
 | windows.protocol | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension), [uap10:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap10-extension), [uap3:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap3-extension) |
-| windows.restrictedLaunch | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-1-extension) |
+| windows.restrictedLaunch | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-f-application-extension) |
 | windows.search | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
 | windows.searchFilterHandler | [desktop2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop2-extension) |
 | windows.searchPropertyHandler | [desktop2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop2-extension) |
@@ -144,8 +147,9 @@ The **Extension** elements that can be included under the **Application/Extensio
 | windows.startupTask | [desktop:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop-extension), [uap5:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap5-extension) |
 | windows.systemFileAssociation | [desktop7:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop7-extension) |
 | windows.toastNotificationActivation | [desktop:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop-extension) |
-| windows.updateTask | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-1-extension) |
+| windows.updateTask | [f:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-f-application-extension) |
 | windows.userActivity | [uap5:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap5-extension) |
+| windows.userDataAccountsProvider | [rescap2:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-rescap2-extension) |
 | windows.userDataTaskDataProvider | [uap4:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap4-extension) |
 | windows.videoRendererEffect | [uap5:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap5-extension) |
 | windows.voipCall | [uap:Extension](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-extension) |
