@@ -63,22 +63,13 @@ namespace BgLabelControlApp
 
 ## The `[contract]` attribute
 
-The `contract` attribute is used to version APIs; for example when creating a
-Software Development Kit where strong contracts are needed. It indicates the API contract
-name and two decimal values; `[contract(ContractName, LeftNumber.RightNumber)]`
-with `RightNumber` being optional. 
+The `contract` attribute can be used to specify which version of an API contract the attributed type belongs to. The attribute takes the form `[contract(ContractName, MajorVersion.MinorVersion)]`. It appears before the item to which it applies and can apply to several artifacts by using braces (`{}`) to group those parts of the API.
 
-It appears before the item to which it applies and can apply to several artifacts
-by using braces (`{}`) to group those parts of the API.
+The MIDL compiler enforces some rules on contracts. Note that this list is not exhaustive.
 
-Designs that don't need versioning should not use this attribute, or should keep the
-numeric value at `1`. Different designs use the decimal values in different ways.
-For example the Windows SDK only uses the left number to indicate new, compatible functionality has been
-added; The Windows SDK does not allow breaking changes, see [Programming with extension SDKs](../extension-sdks/device-families-overview.md) for details. In other designs, versioning systems 
-like [SEMVER 2.0](https://semver.org/) are used, where breaking changes are represented
-by different MAJOR version values, represented by `LeftNumber` and MINOR represented by `RightNumber`.
-
-The `[contractversion]` defines contract names (`ContractName`) and the maximum numeric value that can be used  with the `[contract]` attribute.  
+- The *MajorVersion*.*MinorVersion* may not be greater than the major and minor version specified in the `[contractversion]` attribute of the referenced `apicontract`.
+- A member of a runtimeclass may not have a lower contract number than the class itself.
+- A member of a runtimeclass may not refer to types from contracts lower than that of the member itself. (A member without an explicit contract is assumed to belong to the same contract as the containing runtimeclass.)
 
 ## The `[default]` attribute
 If you don't specify a default interface, then the MIDL 3.0 compiler chooses the first instance interface. To override this selection, insert The `default` attribute before the interface that you want to be the default interface.
