@@ -62,9 +62,14 @@ namespace BgLabelControlApp
 ```
 
 ## The `[contract]` attribute
-Do not use the `contract` attribute in your own APIs; it only has meaning for built-in Windows APIs.
 
-The `contract` attribute specifies the name and version of the Windows 10 API contract (see [Programming with extension SDKs](../extension-sdks/device-families-overview.md)) in which the attributed type and/or member was first introduced into Windows (hence it is not meaningful for APIs not delivered as part of Windows). The attribute takes the form `[contract(ContractName, ContractVersion)]`, and it appears before the item to which it applies.
+The `contract` attribute can be used to specify which version of an API contract the attributed type belongs to. The attribute takes the form `[contract(ContractName, MajorVersion.MinorVersion)]`. It appears before the item to which it applies and can apply to several artifacts by using braces (`{}`) to group those parts of the API.
+
+The MIDL compiler enforces some rules on contracts. Note that this list is not exhaustive.
+
+- The *MajorVersion*.*MinorVersion* may not be greater than the major and minor version specified in the `[contractversion]` attribute of the referenced `apicontract`.
+- A member of a runtimeclass may not have a lower contract number than the class itself.
+- A member of a runtimeclass may not refer to types from contracts lower than that of the member itself. (A member without an explicit contract is assumed to belong to the same contract as the containing runtimeclass.)
 
 ## The `[default]` attribute
 If you don't specify a default interface, then the MIDL 3.0 compiler chooses the first instance interface. To override this selection, insert The `default` attribute before the interface that you want to be the default interface.
