@@ -162,7 +162,7 @@ Specifies the toast template. Note that only one binding element can be included
 
 <tr class="even">
 <td><a href="element-progress.md">progress</a> </td>
-<td><p>Specifies text used in the toast template.</p></td>
+<td><p>Specifies a progress bar used in the toast template.</p></td>
 </tr>
 </tbody>
 </table>
