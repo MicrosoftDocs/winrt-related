@@ -44,7 +44,7 @@ Declares a runtime class associated with the extensibility point.
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **ActivatableClassId** | The identifier of the runtime class in the operating system. | A string with a value between 1 and 255 characters in length that cannot start or end with a period (`.`) or contain these characters: `<`, `>`, `:`, `&`, `"`, `/`, `\`, `|`, `?`, or `*`. | Yes |  |
+| **ActivatableClassId** | The identifier of the runtime class in the operating system. | A string with a value between 1 and 255 characters in length that cannot start or end with a period (`.`) or contain these characters: `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, or `*`. | Yes |  |
 | **ThreadingModel** | The type of threading model supported by the runtime class. | A string that can be one of the following values: *both*, *STA*, or *MTA*. | Yes |  |
 
 ### Child elements
