@@ -72,4 +72,4 @@ Declares a package extension point of type *windows.activatableClass.outOfProces
 
 ## Remarks
 
-This element is similar to the [OutOfProcessServer](element-outOfProcessServer.md) element in Package/Extensions. Activate As Package behavior is implied by using this element in the Application/Extensions level of the manifest, indicating that the server token doesn't vary based on the activating process's token. In this context, the application identity claim matches the identity of the application it's contained in.
+This element is similar to the [OutOfProcessServer](element-f-outofprocessserver.md) element in Package/Extensions. Activate As Package behavior is implied by using this element in the Application/Extensions level of the manifest, indicating that the server token doesn't vary based on the activating process's token. In this context, the application identity claim matches the identity of the application it's contained in.
