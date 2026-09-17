@@ -1,17 +1,20 @@
 ---
-description: Defines additional metadata about the package including attributes that describe how the package appears to users (Windows 10).
+description: Defines package metadata through child elements that describe how the package appears and behaves (Windows 10).
 Search.Product: eADQiWindows 10XVcnh
 title: Properties (Windows 10)
 ms.assetid: accc712c-c7b9-45e1-ba02-836abacbd9b5
 keywords: windows 10, uwp, schema, package manifest
 ms.topic: reference
-ms.date: 04/05/2017
+ms.date: 08/27/2026
 no-loc: [Package, Properties]
 ---
 
 # Properties (Windows 10)
 
-Defines additional metadata about the package including attributes that describe how the package appears to users.
+Defines package metadata through child elements that describe how the package appears and behaves.
+
+> [!IMPORTANT]
+> The `Properties` element has no attributes. The entries in the following table are child elements. The syntax section shows whether each child is optional: `?` means zero or one occurrence; an entry without `?` is required. Select a child element for its content constraints and, where applicable, its default value and minimum supported OS version.
 
 > [!NOTE]
 > You may get an error if the manifest elements DisplayName or Description contain characters disallowed by the Windows firewall; namely `|` and `all`, due to which Windows fails to create the AppContainer profile for the package. Use this reference for [troubleshooting](/windows/win32/appxpkg/troubleshooting) if you get an error.
@@ -83,7 +86,7 @@ None.
 | [uap10:PackageIntegrity](element-uap10-packageintegrity.md) | Specifies the level of run time package integrity checks and remediation for the package. |
 | [uap13:AutoUpdate](element-uap13-autoupdate.md) | Specifies automatic update configuration for the app. |
 | [uap15:DependencyTarget](element-uap15-dependencytarget.md) | Allows a main package manifest to specify whether the package is a valid target for [dynamic dependencies](/windows/apps/desktop/modernize/framework-packages/framework-packages-overview). |
-| [uap17:UpdateWhileInUSe](element-uap17-updatewhileinuse.md) | Specifies whether the OS should close the app for app updates, or if the update should be deferred until the next time the app is restarted by the user or a system reboot. |
+| [uap17:UpdateWhileInUse](element-uap17-updatewhileinuse.md) | Specifies whether the OS should close the app for app updates, or if the update should be deferred until the next time the app is restarted by the user or a system reboot. |
 | [heap:HeapPolicy](element-heap-heappolicy.md) | Allows packaged apps to request a heap profile that has performance and behavior characteristics consistent with that of the legacy NT heap. |
 
 ### Parent elements
