@@ -20,7 +20,7 @@ ms.date: 04/05/2017
 
  
 
-To declare each device capability required by your Windows Runtime app, add a [**DeviceCapability**](./uapmanifestschema/element-devicecapability.md) element and applicable child elements to the package manifest.
+To declare each device capability required by your Windows Runtime app, add a [**DeviceCapability**](./uapmanifestschema/element-f-devicecapability.md) element and applicable child elements to the package manifest.
 
 > [!IMPORTANT]
 > Some device capabilities must be specified manually. For example, you must use the **XML (Text) Editor** to specify device capabilities for the USB, Human Interface Device (HID), Point of Service (POS), Bluetooth GATT, and Bluetooth RFCOMM APIs.
@@ -35,7 +35,7 @@ Open the Package.appxmanifest file. In Microsoft Visual Studio, open the file wi
 ## Step 2:
 
 
-Add one **DeviceCapability** element per device capability. You can have multiple **DeviceCapability** and **Capability** elements in the **Capabilities** element, but all **DeviceCapability** elements must come after the **Capability** elements. Note that some device capabilities require multiple child elements. For more info, see [**DeviceCapability**](./uapmanifestschema/element-devicecapability.md).
+Add one **DeviceCapability** element per device capability. You can have multiple **DeviceCapability** and **Capability** elements in the **Capabilities** element, but all **DeviceCapability** elements must come after the **Capability** elements. Note that some device capabilities require multiple child elements. For more info, see [**DeviceCapability**](./uapmanifestschema/element-f-devicecapability.md).
 
 > [!NOTE]
 > Not all APIs are available for both UWP apps and Windows 8.x Phone apps. See the API reference documentation for more details about which devices are supported by each API.
@@ -125,7 +125,7 @@ The **bluetooth.rfcomm** device capability enables access to APIs in the [**Wind
 
 [Devices, sensors, and power](/windows/uwp/devices-sensors/)
 
-[**DeviceCapability element reference**](./uapmanifestschema/element-devicecapability.md)
+[**DeviceCapability element reference**](./uapmanifestschema/element-f-devicecapability.md)
 
 [App capability declarations](/windows/uwp/packaging/app-capability-declarations)
 

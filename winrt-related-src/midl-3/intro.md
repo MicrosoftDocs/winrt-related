@@ -107,7 +107,7 @@ Incidentally, you can use the `where` command to find out where `midl.exe` is in
 where midl
 ```
 
-If you want to use the types defined in one `.idl` file from a different `.idl` file, then you use the `import` directive. For more details, and a code example, see [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property). Of course, if you're consuming a built-in or third-party component, then you won't have access to the `.idl` file. For example, you might want to consume the [Win2D](https://www.nuget.org/packages/Win2D.uwp) Windows Runtime API for immediate-mode 2D graphics rendering. The command above used the `/reference` switch to reference a Windows Runtime metadata (`.winmd`) file. In this next example, we'll use that switch again, imagining the scenario where we have `Bookstore.winmd`, but not `Bookstore.idl`.
+If you want to use the types defined in one `.idl` file from a different `.idl` file, then you use the `import` directive. For more details, and a code example, see [XAML controls; bind to a C++/WinRT property](/windows/uwp/cpp-and-winrt-apis/binding-property). Of course, if you're consuming a built-in or third-party component, then you won't have access to the `.idl` file. For example, you might want to consume the [Win2D](https://www.nuget.org/packages/Microsoft.Graphics.Win2D) Windows Runtime API for immediate-mode 2D graphics rendering. The command above used the `/reference` switch to reference a Windows Runtime metadata (`.winmd`) file. In this next example, we'll use that switch again, imagining the scenario where we have `Bookstore.winmd`, but not `Bookstore.idl`.
 
 ```idl
 // MVVMApp.idl
