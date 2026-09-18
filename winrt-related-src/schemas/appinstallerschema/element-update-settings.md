@@ -65,6 +65,8 @@ None.
 ## Remarks
 **UpdateSettings** is an optional element. 
 
+If `OnLaunch` is present, App Installer can still show progress UI while it checks for updates during app launch. The `ShowPrompt` attribute controls only whether the update-available prompt is shown; it does not disable the launch-time check or hide the **Checking for updates** UI. The default value of `ShowPrompt` is `false`.
+
 ## Examples
 
 In this example, deployment will check for updates only at launch time and only if 12 or more hours have passed since the last time deployment checked for updates.
@@ -101,4 +103,3 @@ In this example, deployment will check for updates at launch time and in the bac
 | `xmlns=http://schemas.microsoft.com/appx/appinstaller/2017` | This namespace is required for features introduced in Windows 10, version 1709. |
 | `xmlns:s4=http://schemas.microsoft.com/appx/appinstaller/2018` | This namespace is required for features introduced in Windows 10, version 1809. |
 | Minimum OS version | Windows 10, version 1709 |
-

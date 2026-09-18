@@ -37,7 +37,7 @@ Specifies whether the deployment service will check for an update to the App Ins
 
 | Attribute | Description | Data type | Required |
 | -----------| -------------| -----------| ----------|
-| s4:ShowPrompt | Indicates if deployment will show a prompt, informing the user about the update. For more information about the behavior of this attribute, see the remarks. Available in Windows 10, version 1903 and later. | Boolean.| No |
+| s4:ShowPrompt | Indicates whether deployment shows the prompt that informs the user that an update is available. The default value is `false`. This attribute does not suppress the progress UI that can appear while the update check is running. For more information about the behavior of this attribute, see the remarks. Available in Windows 10, version 1903 and later. | Boolean.| No |
 | s4:UpdateBlocksActivation | Should only be used if ShowPrompt="true". Indicates if deployment will stop the user from launching the application until the update has been applied. “UpdateBlocksActivation” = true means the UI the user will see allows the user to take the update or close the app. “UpdateBlocksActivation” = false means the UI the user will see allows the user to take the update or start the app without updating. In the latter case, the update will be applied silently at an opportune time. For more information about the behavior of this attribute, see the remarks. Available in Windows 10, version 1903 and later. | Boolean.| No |
 | HoursBetweenUpdateChecks | Specifies the frequency with which the the deployment service will check for an update to the App Installer file. When HoursBetweenUpdateChecks is set to 0, the deployment service will check for updates every time the application is launched. For other values, the deployment service will check for updates when the application is launched only if it hasn't previously checked within the last number of hours specified by HoursBetweenUpdateChecks. For example, if HoursBetweenUpdateChecks is set to 12, the deployments service will check for updates when the application is launched only if it hasn't already checked for updates in the previous 12 hours. | Numeric values between 0 and 255 inclusive. The default is 24.| No |
 
@@ -49,6 +49,10 @@ Specifies whether the deployment service will check for an update to the App Ins
 
 
 ## Remarks
+
+`ShowPrompt` controls only the prompt that appears after App Installer finds an available update. It does not prevent App Installer from checking for updates, and it does not hide the progress UI that can appear while that check is running, such as the **Checking for updates** dialog when `HoursBetweenUpdateChecks="0"`.
+
+If you omit `ShowPrompt`, or set `ShowPrompt="false"`, launch-time update checks still occur according to `HoursBetweenUpdateChecks`, but the update-available prompt is not shown.
 
 Setting the `ShowPrompt="true"` attribute currently shows a prompt for UWP applications but not for desktop applications that have been packaged in a Windows app package (that is, desktop applications that use the Desktop Bridge). For desktop applications, this functionality provides a silent update; the same default functionality provided by the OnLaunch element.
 
@@ -73,4 +77,3 @@ In this example, deployment will check for updates every time the app is launche
 | `xmlns:s2=http://schemas.microsoft.com/appx/appinstaller/2017/2` | This namespace is required for features introduced in Windows 10, version 1803. |
 | `xmlns:s4=http://schemas.microsoft.com/appx/appinstaller/2021` | This namespace is required for features introduced in Windows version 21H2 build 22000 |
 | Minimum OS version | Windows 10 version 1803 build 17134 |
-
