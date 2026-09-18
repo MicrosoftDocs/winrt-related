@@ -668,6 +668,12 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop10-typessupported.md
           - name: desktop10:TypeSupported
             href: schemas/appxpackage/uapmanifestschema/element-desktop10-typesupported.md
+          - name: "dsm:DiagnosticServiceModule"
+            href: schemas/appxpackage/uapmanifestschema/element-dsm-diagnosticservicemodule.md
+          - name: "dsm:DiagnosticServiceModules"
+            href: schemas/appxpackage/uapmanifestschema/element-dsm-diagnosticservicemodules.md
+          - name: "dsm:Extension"
+            href: schemas/appxpackage/uapmanifestschema/element-dsm-extension.md
           - name: "Device"
             href: schemas/appxpackage/uapmanifestschema/element-f-device.md
           - name: "DeviceCapability"
