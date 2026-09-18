@@ -42,7 +42,7 @@ Declares a runtime class associated with the extensibility point.
 ## Syntax
 
 ``` syntax
-<ActivatableClass ActivatableClassId = A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, %, ", /, \, |, ?, or *.
+<ActivatableClass ActivatableClassId = A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: <, >, :, ", /, \, |, ?, or *.
                   ThreadingModel     = "both" | "STA" | "MTA" >
 
   <!-- Child elements -->
@@ -81,7 +81,7 @@ Declares a runtime class associated with the extensibility point.
 <tr class="odd">
 <td><strong>ActivatableClassId</strong></td>
 <td><p>The identifier of the runtime class in the operating system.</p></td>
-<td>A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: &lt;, &gt;, :, %, &quot;, /, \, |, ?, or *.</td>
+<td>A string between 1 and 255 characters in length that cannot start or end with a period or contain these characters: &lt;, &gt;, :, &quot;, /, \, |, ?, or *.</td>
 <td>Yes</td>
 <td></td>
 </tr>
