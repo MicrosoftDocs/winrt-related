@@ -1,8 +1,8 @@
 ---
 title: dsm:DiagnosticServiceModules
 description: Contains one or more diagnostic service module file declarations.
-keywords: windows 10, uwp, schema, manifest, extension, diagnostic service module, DAC
-ms.date: 07/01/2026
+keywords: windows 10, windows 11, schema, manifest, extension, diagnostic service module, DAC
+ms.date: 09/18/2026
 ms.topic: reference
 no-loc: [dsm:DiagnosticServiceModules]
 ---
@@ -41,7 +41,7 @@ None.
 
 | Child element | Description |
 |-|-|
-| [dsm:DiagnosticServiceModule](element-dsm-diagnosticservicemodule.md) | Specifies a diagnostic service module file to register. |
+| [dsm:DiagnosticServiceModule](element-dsm-diagnosticservicemodule.md) | Specifies a diagnostic service module file. |
 
 ### Parent elements
 
@@ -51,7 +51,8 @@ None.
 
 ## Remarks
 
-This element must contain at least one [dsm:DiagnosticServiceModule](element-dsm-diagnosticservicemodule.md) child element.
+This element must contain at least one
+[dsm:DiagnosticServiceModule](element-dsm-diagnosticservicemodule.md) child element.
 
 ## Examples
 
@@ -67,4 +68,4 @@ This element must contain at least one [dsm:DiagnosticServiceModule](element-dsm
 | Item  | Value  |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/diagnosticservicemodule` |
-| **Minimum OS Version** | Windows 10 version 21H2 (Build 22000) |
+| **Minimum Windows App SDK Version** | 2.5.1 |

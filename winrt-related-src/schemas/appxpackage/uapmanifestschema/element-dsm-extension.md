@@ -1,15 +1,16 @@
 ---
 title: dsm:Extension
-description: Declares an extensibility point for the diagnostic service module extension (dsm:Extension).
-keywords: windows 10, uwp, schema, manifest, extension, diagnostic service module, DAC
-ms.date: 07/01/2026
+description: Declares an extensibility point for a diagnostic service module extension.
+keywords: windows 10, windows 11, schema, manifest, extension, diagnostic service module, DAC
+ms.date: 09/18/2026
 ms.topic: reference
 no-loc: [Package, Extensions, dsm:Extension]
 ---
 
 # dsm:Extension
 
-Declares an extensibility point that registers diagnostic service module files (such as .NET Data Access Component DLLs) for access by diagnostic tools like Windows Error Reporting.
+Specifies a list of diagnostic service module files (for example, .NET Data Access Component DLLs)
+for access by diagnostic tools (for example, Windows Error Reporting).
 
 ## Element hierarchy
 
@@ -54,14 +55,16 @@ Declares an extensibility point that registers diagnostic service module files (
 
 ## Remarks
 
-The `windows.diagnosticServiceModule` extension registers DLL files within the MSIX package that need to be accessible to diagnostic tools running outside the package container. During package deployment, the system grants `FILE_GENERIC_READ | FILE_GENERIC_EXECUTE` permissions to `BUILTIN\Administrators` on the specified files, enabling diagnostic tools like Windows Error Reporting (WER) to load them.
+The `windows.diagnosticServiceModule` extension specifies diagnostic service module files within
+the MSIX package that need to be accessible to diagnostic tools running outside the package
+container. During package deployment, the system grants
+`FILE_GENERIC_READ | FILE_GENERIC_EXECUTE` permissions to `BUILTIN\Administrators` on the
+specified files, enabling diagnostic tools like Windows Error Reporting (WER) to load them.
 
-A common use case is registering the .NET Data Access Component (DAC) DLL (`mscordaccore.dll`) for self-contained .NET applications deployed via MSIX. Without this extension, the DAC files inside the WindowsApps folder are inaccessible to WER, resulting in crash dumps that lack managed debugging information.
-
-The `dsm` namespace should be declared as ignorable in the `<Package>` element so that older OS versions that do not recognize this extension category will skip it without failing package installation.
-
-> [!NOTE]
-> This extension is processed by an undocked Deployment Extension Handler (DEH) that ships with the Windows App SDK. The DEH parses the manifest XML directly, so it works on OS versions that predate built-in knowledge of the `diagnosticservicemodule` namespace.
+A common use case is specifying the .NET Data Access Component (DAC) DLL (`mscordaccore.dll`) for
+self-contained .NET applications deployed via MSIX. Without this extension, the DAC files inside
+the `WindowsApps` folder are inaccessible to WER, resulting in crash dumps that lack managed
+debugging information.
 
 ## Examples
 
@@ -94,4 +97,4 @@ The `dsm` namespace should be declared as ignorable in the `<Package>` element s
 | Item  | Value  |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/diagnosticservicemodule` |
-| **Minimum OS Version** | Windows 10 version 21H2 (Build 22000) |
+| **Minimum Windows App SDK Version** | 2.5.1 |

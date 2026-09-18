@@ -1,15 +1,15 @@
 ---
 title: dsm:DiagnosticServiceModule
-description: Specifies a diagnostic service module file within the package that should be accessible to diagnostic tools.
-keywords: windows 10, uwp, schema, manifest, extension, diagnostic service module, DAC, WER
-ms.date: 07/01/2026
+description: Specifies a package diagnostic service module file for access by diagnostic tools.
+keywords: windows 10, windows 11, schema, manifest, extension, diagnostic service module, DAC, WER
+ms.date: 09/18/2026
 ms.topic: reference
 no-loc: [dsm:DiagnosticServiceModule]
 ---
 
 # dsm:DiagnosticServiceModule
 
-Specifies a diagnostic service module file within the package that should be accessible to diagnostic tools.
+Specifies a package diagnostic service module file for access by diagnostic tools.
 
 ## Element hierarchy
 
@@ -25,7 +25,7 @@ Specifies a diagnostic service module file within the package that should be acc
 
 ```xml
 <dsm:DiagnosticServiceModule
-  File = 'A string with a value between 1 and 256 characters in length that cannot contain these characters: <, >, :, ", |, ?, or *.' />
+  File = 'A package-relative path.' />
 ```
 
 ## Attributes and elements
@@ -34,7 +34,7 @@ Specifies a diagnostic service module file within the package that should be acc
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **File** | The path to the diagnostic service module file, relative to the package install directory. The file must exist within the package. Path traversals that resolve outside the package install directory are rejected. | A string with a value between 1 and 256 characters in length that cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |  |
+| **File** | The package-relative path to the diagnostic service module file. | A string containing a package-relative path. | Yes |  |
 
 ### Child elements
 
@@ -48,21 +48,19 @@ None.
 
 ## Remarks
 
-During package deployment, the system grants `FILE_GENERIC_READ | FILE_GENERIC_EXECUTE` permissions to `BUILTIN\Administrators` on the file specified by the **File** attribute. This enables administrative diagnostic tools (such as Windows Error Reporting) to load the DLL from within the protected `WindowsApps` folder.
-
-The **File** attribute specifies a path relative to the package install root. It may include subdirectory components (for example, `MyApp\mscordaccore.dll`). The resolved canonical path must remain within the package install directory; any path traversal (such as `..`) that would escape the package root causes the registration to fail with `E_INVALIDARG`.
-
-If the file does not exist at the specified path when the package is deployed, registration fails with `HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND)`.
+During package deployment, the system grants
+`FILE_GENERIC_READ | FILE_GENERIC_EXECUTE` permissions to `BUILTIN\Administrators` on the file
+specified by the **File** attribute. This enables administrative diagnostic tools (such as
+Windows Error Reporting) to load the DLL from within the protected `WindowsApps` folder.
 
 ### Security considerations
 
-Only files within the MSIX package boundary can be specified. The Deployment Extension Handler validates that the canonicalized path starts with the package install directory, preventing arbitrary file ACL modifications.
-
-The permissions granted are scoped to `BUILTIN\Administrators` with read and execute access only. This does not grant write access and does not affect non-administrator users.
+The permissions granted are scoped to `BUILTIN\Administrators` with read and execute access only.
+This doesn't grant write access and doesn't affect non-administrator users.
 
 ## Examples
 
-### Basic usage with a single DAC file
+### Basic usage with a single diagnostic module
 
 ```xml
 <dsm:Extension Category="windows.diagnosticServiceModule">
@@ -72,13 +70,13 @@ The permissions granted are scoped to `BUILTIN\Administrators` with read and exe
 </dsm:Extension>
 ```
 
-### Multiple diagnostic modules in a subdirectory
+### Multiple diagnostic modules
 
 ```xml
 <dsm:Extension Category="windows.diagnosticServiceModule">
   <dsm:DiagnosticServiceModules>
-    <dsm:DiagnosticServiceModule File="SubFolder\file_to_include.dll" />
-    <dsm:DiagnosticServiceModule File="SubFolder\another_file.ext" />
+    <dsm:DiagnosticServiceModule File="foo\dump.dll" />
+    <dsm:DiagnosticServiceModule File="bar\diagnostic_debug_aid.dll" />
   </dsm:DiagnosticServiceModules>
 </dsm:Extension>
 ```
@@ -88,4 +86,4 @@ The permissions granted are scoped to `BUILTIN\Administrators` with read and exe
 | Item  | Value  |
 |--|--|
 | **Namespace** | `http://schemas.microsoft.com/appx/manifest/diagnosticservicemodule` |
-| **Minimum OS Version** | Windows 10 version 21H2 (Build 22000) |
+| **Minimum Windows App SDK Version** | 2.5.1 |
