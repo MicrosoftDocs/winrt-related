@@ -70,7 +70,7 @@ None.
 <tbody>
 <tr class="odd">
 <td><a href="element-targetdevicefamily.md">TargetDeviceFamily</a> </td>
-<td><p>Identifies the device family that a package targets. For more info about device families, see [Programming with extension SDKs](../../../extension-sdks/device-families-overview.md).</p></td>
+<td><p>Identifies the device family that a package targets. For more info about device families, see [Programming with extension SDKs](../../extension-sdks/device-families-overview.md).</p></td>
 </tr>
 </tbody>
 </table>
