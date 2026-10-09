@@ -26,7 +26,7 @@ Declares a dependency on another package that is marked as a framework package.
   Name = 'A string with a value between 3 and 50 characters in length that consists of alpha-numeric, period, and dash characters.'
   Publisher = 'A string with a value between 1 and 8192 characters in length that fits the regular expression of a distinguished name.'
   MinVersion = 'A version string in quad notation ("Major.Minor.Build.Revision"), where Major cannot be 0.'
-  MaxMajorVersionTested = 'An optional unsigned short value between 0 and 512.'
+  MaxMajorVersionTested = 'An optional unsigned short value between 0 and 65535.'
   uap6:Optional = 'An optional boolean value (true or false).' />
 ```
 
