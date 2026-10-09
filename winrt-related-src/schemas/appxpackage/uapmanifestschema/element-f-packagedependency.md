@@ -39,7 +39,7 @@ Declares a dependency on another package that is marked as a framework package.
 | **Name** | The name as it appears in the *Name* attribute of the [Identity](element-f-identity.md) element of the dependency package. | A string with a value between 3 and 50 characters in length that consists of alpha-numeric, period, and dash characters. | Yes |  |
 | **Publisher** | The publisher as it appears in the *Publisher* attribute of the [Identity](element-f-identity.md)  element of the dependency package. | A string with a value between 1 and 8192 characters in length that fits the regular expression  of a distinguished name. | Yes |  |
 | **MinVersion** | The minimum version of the dependency package. | A version string in quad notation (`Major.Minor.Build.Revision`), where `Major` cannot be `0`. | Yes |  |
-| **MaxMajorVersionTested** | The maximum version of the dependency package tested against. Used to determine whether frameworks will be staged side-by-side, and what framework gets loaded into the package graph for the package. | An optional number with a value between 0 and 512 characters in length. | No |  |
+| **MaxMajorVersionTested** | Windows does not use this attribute; setting it has no effect on package installation. | An optional number with a value between 0 and 512 characters in length. | No |  |
 | **uap6:Optional** | Indicates that a framework package dependency is optional for the app, meaning the app can be installed even if the optional framework dependencies are not installed. | An optional boolean value. | No | false |
 
 ### Child elements
