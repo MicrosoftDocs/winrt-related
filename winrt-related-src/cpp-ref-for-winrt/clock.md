@@ -1,6 +1,6 @@
 ---
 
-description: A type containing static helper functions for converting a Windows::Foundation::DateTime (that is, a std::chrono::time_point) to and from winrt::file_time, and to and from time_t.
+description: A type containing static helper functions for converting a Windows::Foundation::DateTime (that is, a std::chrono::time_point) to and from winrt::file_time, time_t, and std::chrono::system_clock::time_point.
 title: winrt::clock struct (C++/WinRT)
 dev_langs: ["C++"]
 
@@ -14,7 +14,7 @@ ms.workload: ["cplusplus"]
 ---
 
 # winrt::clock struct (C++/WinRT)
-A type containing static helper functions for converting a [Windows::Foundation::DateTime](/uwp/api/windows.foundation.datetime) (that is, a [std::chrono::time_point](/cpp/standard-library/time-point-class)) to and from **winrt::file_time**, and to and from [time_t](/cpp/c-runtime-library/reference/time-time32-time64).
+A type containing static helper functions for converting a [Windows::Foundation::DateTime](/uwp/api/windows.foundation.datetime) (that is, a [std::chrono::time_point](/cpp/standard-library/time-point-class)) to and from **winrt::file_time**, [time_t](/cpp/c-runtime-library/reference/time-time32-time64), and **std::chrono::system_clock::time_point**.
 
 **winrt::clock** is *defined* as using the same units as **Windows::Foundation::DateTime** (a signed 64-bit integer of 100-nanosecond intervals since Jan 1 1601). Other C++ standard clocks don't typically define their resolution, and don't use the epoch Jan 1 1601, which is a Windows Runtime/[FILETIME](/windows/win32/api/minwinbase/ns-minwinbase-filetime) epoch.
 
@@ -43,8 +43,10 @@ struct clock
 |------------|-----------------|
 |[clock::now function](#clocknow-function)|Retrieves the current time as a **Windows::Foundation::DateTime**.|
 |[clock::from_file_time function](#clockfrom_file_time-function)|Converts a **winrt::file_time** value to a **Windows::Foundation::DateTime**.|
+|[clock::from_sys function](#clockfrom_sys-function)|Converts a **std::chrono::system_clock::time_point** value to a **Windows::Foundation::DateTime**.|
 |[clock::from_time_t function](#clockfrom_time_t-function)|Converts a **time_t** value to a **Windows::Foundation::DateTime**.|
 |[clock::to_file_time function](#clockto_file_time-function)|Converts a **Windows::Foundation::DateTime** value to a **winrt::file_time**.|
+|[clock::to_sys function](#clockto_sys-function)|Converts a **Windows::Foundation::DateTime** value to a **std::chrono::system_clock::time_point**.|
 |[clock::to_time_t function](#clockto_time_t-function)|Converts a **Windows::Foundation::DateTime** value to a **time_t**.|
 
 ## clock::now function
@@ -72,6 +74,23 @@ A **winrt::file_time** value to convert to a **Windows::Foundation::DateTime**.
 
 ### Return value 
 The **winrt::file_time** value converted into a **Windows::Foundation::DateTime**.
+
+## clock::from_sys function
+Converts a **std::chrono::system_clock::time_point** value to a **Windows::Foundation::DateTime**, accounting for the difference between the system clock's Unix epoch and the Windows Runtime epoch.
+
+### Syntax
+```cppwinrt
+template <typename Duration>
+static std::chrono::time_point<clock, std::common_type_t<Duration, std::chrono::seconds>>
+from_sys(std::chrono::time_point<std::chrono::system_clock, Duration> const& time_point);
+```
+
+### Parameters
+`time_point`
+A **std::chrono::system_clock::time_point** value to convert to a **Windows::Foundation::DateTime**.
+
+### Return value
+The **std::chrono::system_clock::time_point** value converted into a **Windows::Foundation::DateTime**.
 
 ## clock::from_time_t function
 Converts a **time_t** value to a **Windows::Foundation::DateTime**.
@@ -102,6 +121,23 @@ A **Windows::Foundation::DateTime** value to convert to a **winrt::file_time**.
 
 ### Return value 
 The **Windows::Foundation::DateTime** value converted into a **winrt::file_time**.
+
+## clock::to_sys function
+Converts a **Windows::Foundation::DateTime** value to a **std::chrono::system_clock::time_point**, accounting for the difference between the Windows Runtime epoch and the system clock's Unix epoch.
+
+### Syntax
+```cppwinrt
+template <typename Duration>
+static std::chrono::time_point<std::chrono::system_clock, std::common_type_t<Duration, std::chrono::seconds>>
+to_sys(std::chrono::time_point<clock, Duration> const& time_point);
+```
+
+### Parameters
+`time_point`
+A **Windows::Foundation::DateTime** value to convert to a **std::chrono::system_clock::time_point**.
+
+### Return value
+The **Windows::Foundation::DateTime** value converted into a **std::chrono::system_clock::time_point**.
 
 ## clock::to_time_t function
 Converts a **Windows::Foundation::DateTime** value to a **time_t**.
