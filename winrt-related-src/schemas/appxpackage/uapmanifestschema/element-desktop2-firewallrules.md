@@ -23,7 +23,7 @@ Specifies firewall exception rules used by Windows Desktop Bridge apps.
 
 ```xml
 <desktop2:FirewallRules
-  Executable = 'A string with a value between 1 and 256 characters in length that must end with ".exe" and cannot contain these characters: <, >, :, ", |, ?, or *. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isnt specified, the EntryPoint defined for the app is used.' >
+  Executable = 'A path relative to the package root that must reference an .exe file in the package. The string must be between 1 and 256 characters in length, must end with ".exe", and cannot contain these characters: <, >, :, ", |, ?, or *.' >
 
   <!-- Child elements -->
   Rule{0,1000}
@@ -41,7 +41,7 @@ Specifies firewall exception rules used by Windows Desktop Bridge apps.
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| Executable | The application executable. | A string with a value between 1 and 256 characters in length that must end with `.exe` and cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. It specifies the default executable for the extension. If not specified, the executable defined for the app is used.  If specified, the EntryPoint property is also used. If that EntryPoint property isnt specified, the EntryPoint defined for the app is used. | Yes |
+| Executable | The application executable. | A path relative to the package root that must reference an `.exe` file in the package. The string must be between 1 and 256 characters in length, must end with `.exe`, and cannot contain these characters: `<`, `>`, `:`, `"`, `|`, `?`, or `*`. | Yes |
 
 ### Child elements
 
