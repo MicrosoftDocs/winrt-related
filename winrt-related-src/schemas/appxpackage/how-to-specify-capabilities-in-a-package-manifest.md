@@ -15,7 +15,7 @@ ms.date: 04/05/2017
 # How to specify capabilities in a package manifest
 
 
-**Note**  For Windows 10, see [**uap:Capability**](uapmanifestschema/element-uap-capability.md), [**Capability**](uapmanifestschema/element-capability.md), and [What's different in Windows 10.](uapmanifestschema/what-s-changed-in-windows-10.md)
+**Note**  For Windows 10, see [**uap:Capability**](uapmanifestschema/element-uap-capability.md), [**Capability**](uapmanifestschema/element-f-capability.md), and [What's different in Windows 10.](uapmanifestschema/what-s-changed-in-windows-10.md)
 
  
 

@@ -17,7 +17,7 @@ ms.date: 04/05/2017
 
 Identifies the device family that your package targets.
 
-**Important**  In most cases, you should simply specify your device families in the [**TargetDeviceFamily**](../../appxpackage/uapmanifestschema/element-targetdevicefamily.md) element of your AppxManifest. Values here should only be used if you need to override that info (using a subset of the values provided there).
+**Important**  In most cases, you should simply specify your device families in the [**TargetDeviceFamily**](../../appxpackage/uapmanifestschema/element-f-targetdevicefamily.md) element of your AppxManifest. Values here should only be used if you need to override that info (using a subset of the values provided there).
 
  
 

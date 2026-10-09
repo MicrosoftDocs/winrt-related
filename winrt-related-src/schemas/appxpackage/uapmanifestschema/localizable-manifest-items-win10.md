@@ -20,7 +20,7 @@ You can localize these strings in the manifest:
 
 -   **[Application/uap3:VisualElements/@DisplayName](element-uap3-visualelements.md)**
 -   **[Application/uap3:VisualElements/@Description](element-uap3-visualelements.md)**
--   **[com:ComInterface/com:ProxyStub/@DisplayName](element-com-package-proxystub.md)**
+-   **[com:ComInterface/com:ProxyStub/@DisplayName](element-com-proxystub.md)**
 -   **[com:ComServer/com:ExeServer/@DisplayName](element-com-exeserver.md)**
 -   **[com:ComServer/com:SurrogateServer/@DisplayName](element-com-surrogateserver.md)**
 -   **[com:ComServer/com:TreatAsClass/@DisplayName](element-com-treatasclass.md)**

@@ -40,7 +40,7 @@ See the [BCP-47 language tag](https://go.microsoft.com/fwlink/p/?linkid=227302) 
 
 | Attribute | Description | Data type | Required | Default value |
 |-|-|-|-|-|
-| **Language** | The language for the resource contained in the package. The syntax of this attribute is defined by the IETF's [BCP47: Tags for Identifying Languages](https://www.rfc-editor.org/rfc/bcp/bcp47.txt). | A valid BCP-47 language tag (such as `en`, or `en-us`). | No |  |
+| **Language** | The language for the resource contained in the package. The syntax of this attribute is defined by the IETF's [BCP47: Tags for Identifying Languages](https://www.rfc-editor.org/info/bcp47). | A valid BCP-47 language tag (such as `en`, or `en-us`). | No |  |
 | **uap:Scale** | The [resolution scale](/uwp/api/Windows.Graphics.Display.ResolutionScale) of the resource. | An optional number that can be one of the following values: *80*, *100*, *120*, *125*, *140*, *150*, *160*, *175*, *180*, *200*, *225*, *250*, *300*, *350*, *400*, or *450*. | No |  |
 | **uap:DXFeatureLevel** | The DirectX [feature level](/windows/win32/direct3d11/overviews-direct3d-11-devices-downlevel-intro#overview)  of the resource from the manifest's `Resources\Resource` field. | An optional string that can have one of the following values: *dx9*, *dx10*, *dx11*, or *dx12*. | No |  |
 
