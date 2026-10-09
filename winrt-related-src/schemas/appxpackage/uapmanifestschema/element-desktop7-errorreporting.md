@@ -14,11 +14,9 @@ Specifies a set of runtime exception helper modules.
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop7:Extension>`](element-desktop7-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop7:ErrorReporting>`**  
+&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-extensions.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop7:Extension>`](element-desktop7-extension.md)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop7:ErrorReporting>`**  
 
 ## Syntax
 
@@ -55,7 +53,9 @@ None.
 ## Remarks
 
 This extension enables packaged applications to hook into Windows Error Reporting analysis as documented in [WerRegisterRuntimeExceptionModule function](/windows/win32/api/werapi/nf-werapi-werregisterruntimeexceptionmodule) and [WER Settings](/windows/win32/wer/wer-settings). To use this extension the package must have the ability to implement in-process extensions, for instance using an external location.
-To use this extension the package must have the ability to implement in-process extensions, for instance using an external location.
+
+> [!NOTE]
+> The parent [desktop7:Extension](element-desktop7-extension.md) element must have `desktop7:CompatMode="classic"` set for the `windows.errorReporting` category. This extension is only supported under `<Package><Extensions>`, not under `<Application><Extensions>`.
 
 ## Requirements
 
