@@ -1510,6 +1510,7 @@ For more information about these APIs, please see the official [SQLite documenta
 | sqlite3_db_release_memory | Introduced into winsqlite3.dll in 10.0.10586. |
 | sqlite3_db_status | Introduced into winsqlite3.dll in 10.0.10586. |
 | sqlite3_declare_vtab | Introduced into winsqlite3.dll in 10.0.10586. |
+| sqlite3_deserialize | Introduced into winsqlite3.dll in 10.0.10586. |
 | sqlite3_enable_load_extension | Introduced into winsqlite3.dll in 10.0.10586. |
 | sqlite3_enable_shared_cache | Introduced into winsqlite3.dll in 10.0.10586. |
 | sqlite3_errcode | Introduced into winsqlite3.dll in 10.0.10586. |
