@@ -24,9 +24,9 @@ Properties of an application.
 <uap7:Properties>
 
   <!-- Child elements -->
-  uap7:ImportRedirectionTable
-  uap8:ActiveCodePage
-  uap10:LanguagePreference
+  uap7:ImportRedirectionTable?
+  & uap8:ActiveCodePage?
+  & uap10:LanguagePreference?
 
 </uap7:Properties>
 ```
