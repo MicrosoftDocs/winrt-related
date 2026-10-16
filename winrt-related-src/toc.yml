@@ -636,6 +636,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop10-customdesktopeventlog.md
           - name: desktop10:CustomEventSource
             href: schemas/appxpackage/uapmanifestschema/element-desktop10-customeventsource.md
+          - name: desktop10:CustomEventSources
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-customeventsources.md
           - name: desktop10:DataShortcut
             href: schemas/appxpackage/uapmanifestschema/element-desktop10-datashortcut.md
           - name: desktop10:DataShortcuts
@@ -650,6 +652,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop10-folder.md
           - name: desktop10:IconHandler
             href: schemas/appxpackage/uapmanifestschema/element-desktop10-iconhandler.md
+          - name: desktop10:ItemType
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-itemtype.md
           - name: desktop10:PredefinedTriggerEvents
             href: schemas/appxpackage/uapmanifestschema/element-desktop10-predefinedtriggerevents.md
           - name: desktop10:SupportedProtocol
@@ -660,6 +664,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-desktop10-typessupported.md
           - name: desktop10:TypeSupported
             href: schemas/appxpackage/uapmanifestschema/element-desktop10-typesupported.md
+          - name: desktop10:Verb
+            href: schemas/appxpackage/uapmanifestschema/element-desktop10-verb.md
           - name: "Device"
             href: schemas/appxpackage/uapmanifestschema/element-f-device.md
           - name: "DeviceCapability"

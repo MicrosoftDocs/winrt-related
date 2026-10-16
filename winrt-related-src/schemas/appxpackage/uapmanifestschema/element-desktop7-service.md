@@ -1,7 +1,7 @@
 ---
 title: desktop7:Service
 description: Specifies a service that is installed and registered along with the app, adding delayedStart startup type. These services can be configured to run under either the Local Service, Network Service or Local System account.
-ms.date: 06/05/2026
+ms.date: 10/12/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 no-loc: [Package, Applications, Application, Extensions, desktop7:Extension, desktop7:Service]
@@ -14,9 +14,6 @@ Specifies a service that is installed and registered along with the app. These s
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop7:Extension>`](element-desktop7-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop7:Service>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
@@ -57,7 +54,7 @@ Specifies a service that is installed and registered along with the app. These s
 | Child element | Description |
 |-|-|
 | **desktop7:Dependencies** | Specifies one or more dependent services. |
-| **desktop7:TriggerEvents** | Specifies one or more trigger event for the service. |
+| **desktop7:TriggerEvents** | Specifies service triggers, including [desktop10:PredefinedTriggerEvents](element-desktop10-predefinedtriggerevents.md). Uses the same child element contract as [desktop6:TriggerEvents](element-desktop6-triggerevents.md). |
 
 ## Parent elements
 
@@ -75,6 +72,8 @@ Specifies a service that is installed and registered along with the app. These s
 ## Remarks
 
 This element requires the **packagedServices** or **localSystemServices** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
+
+Declare the enclosing `windows.service` extension under the application's `Extensions`, not under package-level `Extensions`. Within `desktop7:TriggerEvents`, the predefined trigger element still uses the desktop10 namespace.
 
 ## Examples
 

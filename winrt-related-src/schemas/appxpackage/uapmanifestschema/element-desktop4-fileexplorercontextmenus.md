@@ -1,7 +1,7 @@
 ---
 title: desktop4:FileExplorerContextMenus
 description: Registers items for the context menu of File Explorer.
-ms.date: 06/05/2026
+ms.date: 10/12/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 no-loc: [Package, Applications, Application, Extensions, desktop4:Extension, desktop4:FileExplorerContextMenus]
@@ -27,8 +27,8 @@ Registers items for the context menu of File Explorer.
 
   <!-- Child elements -->
   desktop4:ItemType{0,10000}
-  desktop4:ItemType{0,10000}
-  desktop4:ItemType{0,10000}
+  desktop5:ItemType{0,10000}
+  desktop10:ItemType{0,10000}
 
 </desktop4:FileExplorerContextMenus>
 ```
@@ -47,7 +47,7 @@ None.
 |-|-|
 | [desktop4:ItemType](element-desktop4-itemtype.md) | Contains the type of command to be registered in the context menu. |
 | [desktop5:ItemType](element-desktop5-itemtype.md) | Contains the type of command to be registered in the context menu. |
-| **desktop10:ItemType** | Contains the type of command to be registered in the context menu. |
+| [desktop10:ItemType](element-desktop10-itemtype.md) | Associates commands with file types, directories, drives, or the desktop background. Available starting with Windows 11, version 22H2 (Build 22621). |
 
 ## Parent elements
 
@@ -70,4 +70,4 @@ For a code sample that demonstrates how to implement a context menu handler by i
 
 ## Examples
 
-<!-- Author content goes here -->
+For drive and desktop background registrations, including a matching COM class declaration, see the [desktop10:ItemType examples](element-desktop10-itemtype.md#examples).
