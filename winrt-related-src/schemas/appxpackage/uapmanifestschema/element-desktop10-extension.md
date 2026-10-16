@@ -1,7 +1,7 @@
 ---
 title: desktop10:Extension
 description: Declares an extensibility point for the app (in Package/Extensions; desktop10:Extension).
-ms.date: 06/05/2026
+ms.date: 10/12/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 no-loc: [Package, Applications, Application, Extensions, desktop10:Extension]
@@ -79,7 +79,7 @@ Declares an extensibility point for the app.
 | **uap11:CurrentDirectoryPath** |  Specifies the initial directory when the application process is launched. This attribute supports macros. For more info, see [Macros in the package manifest schema](./macros.md).  | An optional string that cannot contain these characters: <, >, &#124; , ?, or *. | No |  |
 | **uap11:Parameters** |  The subsystem targeted by the extension. This attribute supports macros. For more info, see [Macros in the package manifest schema](./macros.md).  | An optional string between 1 and 32767 characters in length with a non-whitespace character at its beginning and end. | No |  |
 | **desktop7:CompatMode** |  Specifies whether this extension's information is registered with Windows in classic ways (e.g. unpackaged apps register types with COM via the registry) or in new more scoped ways. The default value is "modern". CompatMode="classic" requires the *Microsoft.classicAppCompat_8wekyb3d8bbwe* capability.  | An optional string that can have one of the following values: *classic*, *modern*. | No |  |
-| **desktop7:Scope** |  Specifies whether the registrations are only visible to other applications running as a user who has this package registered (user), or whether they are visible to all users and services on the machine (machine). The default value is "user". Scope="machine" requires the *Microsoft.classicAppCompatElevated_8wekyb3d8bbwe* capability.  | An optional string that can have one of the following values: *machine*, *user*. | No |  |
+| **desktop7:Scope** | Specifies whether registrations are visible only to applications running as a user who has this package registered (`user`), or to all users and services on the machine (`machine`). The default is `user`. For `Category="windows.customDesktopEventLog"`, this attribute must be `machine`. Machine scope requires the *Microsoft.classicAppCompatElevated_8wekyb3d8bbwe* custom capability. | A string that can have one of the following values: *machine*, *user*. | Required for `windows.customDesktopEventLog`; otherwise optional. | `user` |
 
 ## Child elements
 
@@ -105,11 +105,11 @@ Declares an extensibility point for the app.
 | **desktop7** | `http://schemas.microsoft.com/appx/manifest/desktop/windows10/7` |
 | **uap10** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/10` |
 | **uap11** | `http://schemas.microsoft.com/appx/manifest/uap/windows10/11` |
-| **Minimum OS Version** | Windows 11 version 22H2 (Build 22621) |
+| **Minimum OS Version** | Windows 11, version 22H2 (Build 22621) |
 
 ## Remarks
 
-<!-- Author content goes here -->
+For `Category="windows.customDesktopEventLog"`, declare the extension under package-level `Extensions` and set `desktop7:Scope="machine"`. Application-level placement is not supported for that category. For the required capability and a complete declaration example, see [desktop10:CustomDesktopEventLog](element-desktop10-customdesktopeventlog.md#remarks).
 
 ## Examples
 

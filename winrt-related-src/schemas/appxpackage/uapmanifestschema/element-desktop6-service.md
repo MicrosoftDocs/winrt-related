@@ -1,7 +1,7 @@
 ---
 title: desktop6:Service
 description: Specifies a service that is installed and registered along with the app. These services can be configured to run under either the Local Service, Network Service or Local System account.
-ms.date: 06/05/2026
+ms.date: 10/12/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension
 no-loc: [Package, Applications, Application, Extensions, desktop6:Extension, desktop6:Service]
@@ -14,9 +14,6 @@ Specifies a service that is installed and registered along with the app. These s
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:Extension>`](element-desktop6-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop6:Service>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
@@ -75,6 +72,8 @@ Specifies a service that is installed and registered along with the app. These s
 ## Remarks
 
 This element requires the **packagedServices** or **localSystemServices** [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
+
+Declare the enclosing `windows.service` extension under the application's `Extensions`, not under package-level `Extensions`. For a predefined service trigger example, see [desktop10:PredefinedTriggerEvents](element-desktop10-predefinedtriggerevents.md#examples).
 
 ## Examples
 

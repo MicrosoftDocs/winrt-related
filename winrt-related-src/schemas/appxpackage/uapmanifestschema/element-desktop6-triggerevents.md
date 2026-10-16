@@ -1,7 +1,7 @@
 ---
 title: desktop6:TriggerEvents
 description: Describes one or more trigger events for the current service.
-ms.date: 06/05/2026
+ms.date: 10/12/2026
 ms.topic: reference
 keywords: windows 10, uwp, schema, manifest, desktop, extension 
 no-loc: [Package, Applications, Application, Extensions, desktop6:Extension, desktop6:Service, desktop6:TriggerEvents]
@@ -14,10 +14,6 @@ Describes one or more trigger events for the current service.
 ## Element hierarchy
 
 **[`<Package>`](element-f-package.md)**  
-&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-package-extensions.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:Extension>`](element-desktop6-extension.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<desktop6:Service>`](element-desktop6-service.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ **`<desktop6:TriggerEvents>`**  
 &nbsp;&nbsp;&nbsp;└─ [`<Applications>`](element-f-applications.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Application>`](element-f-application.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ [`<Extensions>`](element-f-application-extensions.md)  
@@ -32,7 +28,7 @@ Describes one or more trigger events for the current service.
 
   <!-- Child elements -->
   desktop6:TriggerCustom{0,20000}
-  desktop6:PredefinedTriggerEvents{0,20000}
+  desktop10:PredefinedTriggerEvents{0,20000}
 
 </desktop6:TriggerEvents>
 ```
@@ -40,6 +36,8 @@ Describes one or more trigger events for the current service.
 ### Key
 
 `{}` specific range of occurrences
+
+The two child types form a choice, with a combined total of zero to 20,000 children. `desktop10:PredefinedTriggerEvents` requires Windows 11, version 22H2 (Build 22621), even though `desktop6:TriggerEvents` itself is supported on earlier versions.
 
 ## Attributes
 
