@@ -33,6 +33,8 @@ Specifies whether the OS should close the app for app updates, or if the update 
 
 If the value of this element is set to "defer", then any force update options specified with [AddPackageOptions.ForceTargetAppShutdown](/uwp/api/windows.management.deployment.addpackageoptions.forcetargetappshutdown), [RegisterPackageOptions.ForceTargetAppShutdown](/uwp/api/windows.management.deployment.registerpackageoptions.forcetargetappshutdown), or [DeploymentOptions.ForceApplicationShutdown](/uwp/api/windows.management.deployment.deploymentoptions) will be ignored.
 
+A report for Windows 11, version 25H2 (build 26200.7623), indicates that the OS may ignore the `uap17` namespace during manifest processing (AppXPackagingOM/Operational event 216). If the namespace is ignored, this element has no effect. Verify the behavior on your target OS.
+
 
 ## Requirements
 
