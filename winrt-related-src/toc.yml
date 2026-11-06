@@ -1052,6 +1052,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap7-properties.md
           - name: "uap7:SharedFonts"
             href: schemas/appxpackage/uapmanifestschema/element-uap7-sharedfonts.md
+          - name: "uap8:ActiveCodePage"
+            href: schemas/appxpackage/uapmanifestschema/element-uap8-activecodepage.md
           - name: "uap8:DataProtection"
             href: schemas/appxpackage/uapmanifestschema/element-uap8-dataProtection.md
           - name: "uap8:ExecutionAlias"
@@ -1074,6 +1076,8 @@ items:
             href: schemas/appxpackage/uapmanifestschema/element-uap10-hostruntimedependency.md
           - name: "uap10:InstalledLocationVirtualization"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-installedlocationvirtualization.md
+          - name: "uap10:LanguagePreference"
+            href: schemas/appxpackage/uapmanifestschema/element-uap10-languagepreference.md
           - name: "uap10:Logo"
             href: schemas/appxpackage/uapmanifestschema/element-uap10-logo.md
           - name: "uap10:MediaContentDecryptionModule"

@@ -24,7 +24,9 @@ Properties of an application.
 <uap7:Properties>
 
   <!-- Child elements -->
-  uap7:ImportRedirectionTable
+  uap7:ImportRedirectionTable?
+  & uap8:ActiveCodePage?
+  & uap10:LanguagePreference?
 
 </uap7:Properties>
 ```
@@ -40,6 +42,8 @@ None.
 | Child element | Description |
 |-|-|
 | [uap7:ImportRedirectionTable](element-uap7-importredirectiontable.md) | Allows for a packaged app to declare API redirections.|
+| [uap8:ActiveCodePage](element-uap8-activecodepage.md) | Sets the process active code page to UTF-8. |
+| [uap10:LanguagePreference](element-uap10-languagepreference.md) | Specifies which Windows language setting an app uses as its language preference. |
 
 ### Parent elements
 
